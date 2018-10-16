@@ -15,7 +15,7 @@ label button_ross_find_partner:
     show player 2f at right
     show ross 1 at left
     with dissolve
-    player_name "Здравствуйте, {b}Miss Ross{/b}.Вы готовы начать?"
+    player_name "Здравствуйте, {b}Мисс Росс{/b}. Вы готовы начать?"
     show player 1f
     show ross 2
     ross "Привет, {b}[firstname]{/b}! Почти..."
@@ -35,22 +35,22 @@ label button_ross_find_partner:
     ross "Да, кто-то кто будет работать поралельно с тобой и подкидывал тебе идеи вперед!"
     show ross 10
     show player 2f
-    player_name "конечно, Хорошо."
+    player_name "Конечно, Хорошо."
     player_name "У тебя есть кто-нибудь на примете?"
     show player 1f
     show ross 10b with dissolve
     ross "Хмм..."
     show ross 11 with dissolve
-    ross "Ну, моя первоначальная мысль {b}Eve{/b}. Она талантливая художница, как и вы..."
+    ross "Ну, моя первоначальная мысль {b}Ева{/b}. Она талантливая художница, как и вы..."
     ross "... Но я сомневаюсь, что у нее будет время со всеми ее музыкальными обучениями."
     show ross 10b with dissolve
     pause
     show ross 11 with dissolve
-    ross "Ты думаешь {b}Mia{/b} было бы интересно?"
+    ross "Ты думаешь {b}Мии{/b} было бы интересно?"
     ross "Она просто такая милашка, не так ли!?"
     show ross 10
     show player 2f
-    player_name "Ээээ, да.Наверно."
+    player_name "Ээээ, да. Наверно."
     show player 1f
     show ross 11
     ross "Отлично! Почему бы тебе не пойти поговорить с ней?"
@@ -67,7 +67,7 @@ label button_ross_ask_mia_partner:
     show ross 2 at left
     with dissolve
     ross "{b}[firstname]{/b}, ты вернулся!"
-    ross "Где {b}Mia{/b}?"
+    ross "Где {b}Мия{/b}?"
     show player 10f
     show ross 1
     player_name "Ох, эмм... я еще не убедил её."
@@ -83,10 +83,10 @@ label button_ross_mia_is_partner:
     show ross 2 at left
     show mia 7 zorder 0 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "Привет,милашка!"
+    ross "Привет, милашка!"
     show ross 1
     show mia 56 at Position(xpos=0.635, ypos=1.0) with dissolve
-    mia "... О, эммм.П-привет."
+    mia "... О, эммм. П-привет."
     show ross 2
     show mia 55
     ross "Я так рада что, {b}[firstname]{/b} убедил тебя присоединиться к нас!"
@@ -99,7 +99,7 @@ label button_ross_mia_is_partner:
     show ross 1
     show player 2f
     show mia 8b at Position(xpos=0.65, ypos=1.0) with dissolve
-    player_name "Итак,сейчас мы готовы начать?"
+    player_name "Итак, сейчас мы готовы начать?"
     show player 1f
     show ross 11 with dissolve
     ross "Ага! Почему бы вам обоим не достать свои художественные альбомы и не сесть напротив друг друга."
@@ -119,7 +119,7 @@ label button_ross_mia_is_partner:
     mia "Что если у меня нет художественного альбома?"
     show mia 8
     show ross 25
-    ross "Ох,правильно."
+    ross "Ох, правильно."
     show ross 25b
     ross "Ну, обычно я бы предоставила тебе один из этих..."
     show ross 25
@@ -129,7 +129,7 @@ label button_ross_mia_is_partner:
     player_name "Это хреново!"
     show player 596f
     show mia 12b
-    mia "О, ну, ничего страшного.Я не очень хорошо рисую в любом случае..."
+    mia "О, ну, ничего страшного. Я не очень хорошо рисую в любом случае..."
     show mia 10
     mia "Я просто посмотрю."
     show mia 7
@@ -137,7 +137,7 @@ label button_ross_mia_is_partner:
     ross "Глупости!"
     ross "Мы достанем тебе один!"
     show ross 27 with dissolve
-    ross "{b}[firstname]{/b}, почему бы тебе не спросить {b}Eve{/b} если мы можем одолжить у неё один."
+    ross "{b}[firstname]{/b}, почему бы тебе не спросить {b}Еву{/b} если мы можем одолжить у неё один."
     show ross 26
     show player 598f
     player_name "... Д-да, хорошо!"
@@ -164,7 +164,7 @@ label button_ross_find_art_pad:
     show mia 55 at Position(xpos=0.435, ypos=1.0)
     show player 1f at right
     with dissolve
-    ross "... Ты знаешь, {b}Mia{/b}.Я дружила с девушкой, которая была похожа на тебя!"
+    ross "... Ты знаешь, {b}Мию{/b}. Я дружила с девушкой, которая была похожа на тебя!"
     show ross 12
     show mia 56
     mia "Реально?"
@@ -197,14 +197,14 @@ label button_ross_find_art_pad:
     player_name "Нет, извините. Я все еще работаю над этим."
     show player 11f
     show ross 11
-    ross "Тсс, ну брысь тогда!У нас девчачьи разговоры..."
+    ross "Тсс, ну брысь тогда! У нас девчачьи разговоры..."
     show ross 10
     show player 10f
-    player_name "... Х-хорошо.Я скоро вернусь."
+    player_name "... Х-хорошо. Я скоро вернусь."
     hide player with dissolve
     show mia 12f at Position(xpos=0.55, ypos=1.0) with dissolve
 
-    mia "Нет!Подожди!Погоди!"
+    mia "Нет! Подожди! Погоди!"
     show mia 8f
     pause
     show ross 13 at Position(xpos=0.15, ypos=1.0) with dissolve
@@ -225,7 +225,7 @@ label button_ross_found_art_pad:
     show mia 55 at Position(xpos=0.435, ypos=1.0)
     show player 11f zorder 1 at right
     with dissolve
-    ross "... Хмм, Я думаю, что мой любимый в {b}Praia do Abricó{/b}"
+    ross "... Хмм, Я думаю, что мой любимый в {b}Прая-ду-Абрико{/b}"
     show ross 11 with dissolve
     ross "Он вернулся домой в Рио-де-Жанейро."
     show ross 10
@@ -238,7 +238,7 @@ label button_ross_found_art_pad:
     ross "Никто не должен стыдиться своего тела. Человеческая тело-это ведь произведение искусства..."
     show ross 13
     ross "... Особенно твое."
-    ross "Ты совершенно прекрасна, {b}Mia{/b}!"
+    ross "Ты совершенно прекрасна, {b}Мия{/b}!"
     show ross 12
     show mia 56
     mia "Вау, я... эмм..."

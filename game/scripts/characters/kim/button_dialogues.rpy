@@ -13,14 +13,14 @@ label kim_button_dialogue_intro:
 label kim_button_dialogue_button:
     show player 14 with dissolve
     player_name "Мне нравятся ваш значок."
-    player_name "Ты поклоник {b}Mayor Rump{/b}?"
+    player_name "Ты поклоник {b}Мэра Рампа{/b}?"
     show player 13
     show kim 2
-    kim "Ох, {b}Mayor Rump{/b} номер 1, лучший мэр."
-    kim "Он и {b}Kim{/b} хорошие друзья!"
+    kim "Ох, {b}Мэр Рамп{/b} номер 1, лучший мэр."
+    kim "Он и {b}Ким{/b} хорошие друзья!"
     show kim 3
     show player 10
-    player_name "Ты дружишь с {b}Mayor Rump{/b}?"
+    player_name "Ты дружишь с {b}Мэром Рампом{/b}?"
     show player 13
     show kim 2
     kim "Да, Я помогаю ему с его политикой взамен на финансирование."
@@ -76,7 +76,7 @@ label kim_button_dialogue_sign:
     show player 13
     show kim 5 with dissolve
     kim "Ох, ты заметил знак, мм?!"
-    kim "Да, {b}Kim{/b} номер 1, лучший продавец машин!"
+    kim "Да, {b}Ким{/b} номер 1, лучший продавец машин!"
     kim "Вскоре, это место будет принадлежать мне."
     show kim 4
     show player 12

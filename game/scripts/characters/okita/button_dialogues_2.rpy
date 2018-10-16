@@ -50,7 +50,7 @@ label button_okita_ingredients_tissue:
     okita "Образец волос или слюны будет работать лучше всего."
     show player 10
     show okita 1
-    player_name "Да,но как я должен достать это?"
+    player_name "Да, но как я должен достать это?"
     show player 11
     show okita 9
     okita "... Я уверена, ты что-нибудь придумаешь.."
@@ -134,14 +134,14 @@ label button_okita_dose_smith:
     okita "Все, что тебе нужно сделать, это {b}подсунуть ей это в еду или еще куда-нибудь{/b}."
     show player 12
     show okita 4
-    player_name "Ладно,ладно.Я скоро вернусь."
+    player_name "Ладно, ладно. Я скоро вернусь."
     return
 
 label button_okita_wait_for_smith_serum:
     scene location_school_science_closeup
     show player 2 at left
     show okita 6 at right
-    player_name "Хорошо, {b}Мисс Okita{/b}.Все сделано."
+    player_name "Хорошо, {b}Мисс Окита{/b}. Все сделано."
     show player 1
     show okita 7
     okita "Прекрасно!"
@@ -169,11 +169,11 @@ label button_okita_wait_for_smith_serum:
     show okita 4f
     show principal 32 with dissolve
     smi "Хмм? О, привет Тори..."
-    smi "Как поживает Маленькая Мисс Knowitall сегодня?"
+    smi "Как поживает Маленькая Мисс Всезнайка сегодня?"
     show principal 31
     okita "... Мммхм."
     show okita 3f
-    okita "Я просто проверял состояние своего кабинета.?"
+    okita "Я просто проверяла состояние своего кабинета?"
     show okita 4f
     show principal 32
     smi "Твоего кабинета?"
@@ -235,7 +235,7 @@ label button_okita_wait_for_smith_serum:
     smi "Bawk bawk BAWK!!"
     show principal 31 at right with dissolve
     show okita 7f
-    okita "Я Когда-нибудь принесу его к тебе в кабинет.. Это действительно увлекательно!"
+    okita "Я Когда-нибудь принесу его к тебе в кабинет... Это действительно увлекательно!"
     show principal 32
     show okita 6f
     smi "Конечно, хорошо!"
@@ -266,7 +266,7 @@ label button_okita_wait_for_smith_serum:
     show player 12
     show okita 6
     player_name "Как это может быть смешным?!"
-    player_name "Мы трахались с ее головой, а она там кудахтала, как курица!"
+    player_name "Мы трахались с её головой, а она там кудахтала, как курица!"
     show player 11
     show okita 2b
     okita "Да так и есть! Хахаха!"
@@ -283,12 +283,12 @@ label button_okita_wait_for_smith_serum:
     show okita 9
     okita "В смысле, Я почти уверена."
     show okita 7
-    okita "Смотри,главное чтобы сыворотка сработала!"
+    okita "Смотри, главное чтобы сыворотка сработала!"
     okita "Сейчас она полностью беспристрастна к моим экспериментам!"
     okita "... И она даже не помнила, что хотела запереть мой кабинет!"
     show player 12
     show okita 6
-    player_name "Да, но она кудахчет, как курица.!"
+    player_name "Да, но она кудахчет, как курица!"
     show player 16
     show okita 2b
     okita "Пфффф, хахахаха!"
@@ -313,7 +313,7 @@ label button_okita_wait_for_smith_serum:
     show player 11
     show okita 7
     okita "И как же?"
-    show player 10 
+    show player 10
     show okita 6
     player_name "Вы как... Легкомысленную."
     show player 11
@@ -344,7 +344,7 @@ label button_okita_wait_for_smith_serum:
     hide player
     show player 10f
     with dissolve
-    player_name "Я надеюсь, с ней все будет хорошо...."
+    player_name "Я надеюсь, с ней все будет хорошо..."
     return
 
 label button_okita_wait_for_okita_serum:
@@ -356,7 +356,7 @@ label button_okita_wait_for_okita_serum:
     player_name "Вы заметили какие-то побочные эффекты от вашей сыворотки?"
     show player 11
     show okita 7
-    okita "Я все еще тестирую."
+    okita "Я все ещё тестирую."
     okita "... Я ценю что ты проверяешь это со мной."
     show player 10
     show okita 6
@@ -378,7 +378,7 @@ label button_okita_wait_for_okita_serum:
     okita "Я не знаю, что тебе сказать. Я чувствую себя великолепно!"
     show player 10
     show okita 6
-    player_name "Хорошо, чтож просто будьте осторожны,я думаю."
+    player_name "Хорошо, чтож просто будьте осторожны, я думаю."
     show player 11
     show okita 7
     okita "Сделаем, красавчик!"
@@ -395,7 +395,7 @@ label button_okita_serum_effects:
     player_name "Все же есть какие-то результаты из сыворотки?"
     show player 11
     show okita 7
-    okita "Честно говоря, {b}[firstname]{/b}, Я надеялась,что ты поможешь мне протестировать мое новое изобретение?"
+    okita "Честно говоря, {b}[firstname]{/b}, Я надеялась, что ты поможешь мне протестировать мое новое изобретение?"
     show player 10
     show okita 6
     player_name "О мэн, ты хочешь, чтобы я сделал что-то другое?"
@@ -407,11 +407,11 @@ label button_okita_serum_effects:
     show player 10
     show okita 6
     player_name "Ты создала это?"
-    player_name "Но создание это мартышкина работа.Я думал, ты не занимаешься обезьяньей работой?"
+    player_name "Но создание это мартышкина работа. Я думал, ты не занимаешься обезьяньей работой?"
     show player 11
     show okita 7
     okita "На этот раз я сделала исключение, потому что..."
-    okita "Ну, Я сделала это изобретение для тебя; В качестве сюрприза."
+    okita "Ну, я сделала это изобретение для тебя; В качестве сюрприза."
     show player 10
     show okita 6
     player_name "Для меня?"
@@ -424,7 +424,7 @@ label button_okita_serum_effects:
     player_name "Что ты задумала?"
     show player 11
     show okita 2b
-    okita "Не будь ребенком!Ты должЕН прийти и посмотреть!"
+    okita "Не будь ребенком! Ты должЕН прийти и посмотреть!"
     show player 10
     show okita 6
     player_name "Хорошо."
@@ -462,7 +462,7 @@ label button_okita_generic_before_q3:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Здравствуйте, {b}Miss Okita{/b}."
+    player_name "Здравствуйте, {b}Мисс Окита{/b}."
     show player 1
     show okita 5
     okita "Что случилось, {b}[firstname]{/b}?"
@@ -476,7 +476,7 @@ label button_okita_generic_after_q3_intro:
     show player 2 at left
     show okita 6 at right
     with dissolve
-    player_name "Здравствуйте, {b}Miss Okita{/b}."
+    player_name "Здравствуйте, {b}Мисс Окитаы{/b}."
     show player 1
     show okita 2b
     okita "{b}[firstname]{/b}!"
@@ -495,7 +495,7 @@ label button_okita_generic_after_q3_new_invention:
     okita "Это революционно! Вы обязательно должен прийти и посмотреть!"
     show player 2
     show okita 6
-    player_name "Хех, хорошо!Я {b}встречу вас вашем кабинете сегодня вечером.{/b}"
+    player_name "Хех, хорошо! Я {b}встречу вас вашем кабинете сегодня вечером.{/b}"
     show okita 2b
     show player 1
     okita "Ты должен пообещать, что придешь и посмотришь!"
@@ -503,7 +503,7 @@ label button_okita_generic_after_q3_new_invention:
     show player 11
     player_name "..."
     show player 10
-    player_name "... Да.Я обещаю."
+    player_name "... Да. Я обещаю."
     show okita 2b
     show player 11
     okita "Я не могу долждаться!"

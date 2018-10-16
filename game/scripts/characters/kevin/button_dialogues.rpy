@@ -2,7 +2,7 @@ label kevin_dialogue_ross_find_magazines:
     show player 2 at left
     show kevin 29b at right
     with dissolve
-    player_name "Хэй, {b}Kevin{/b}!"
+    player_name "Хэй, {b}Кевин{/b}!"
     show player 1
     show kevin 30
     kev "Как дела, {b}[firstname]{/b}?"
@@ -55,7 +55,7 @@ label kevin_dialogue_ross_find_magazines:
 label kevin_dialogue_ross_ask_model:
     show player 2 at left
     show kevin 1 at right
-    player_name "Я работаю надо проектом для {b}Мисс Ross{/b} и для этого требуется живая модель."
+    player_name "Я работаю надо проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
     player_name "Тебя не заинтересует?"
     show kevin 2
     show player 1
@@ -72,8 +72,8 @@ label kevin_dialogue_ross_ask_model:
     kev "Это только ты там будешь рисовать?"
     show player 10
     show kevin 1
-    player_name "Ну, {b}Mia{/b} и я оба будем рисовать."
-    player_name "{b}Miss Ross{/b} тоже там будет."
+    player_name "Ну, {b}Мия{/b} и я оба будем рисовать."
+    player_name "{b}Мисс Росс{/b} тоже там будет."
     show player 11
     show kevin 4
     kev "Агх, пасс..."
@@ -239,9 +239,9 @@ label kevin_dialogue_talent_show:
     show player 35
     player_name "Хмм, возможно я смогу найти одну для тебя..."
     show player 34
-    player_name "( {b}Erik{/b} имеет кучу всего в своем подвале.Возможно я смогу одолжить одну? )"
+    player_name "( {b}Эрик{/b} имеет кучу всего в своем подвале.Возможно я смогу одолжить одну? )"
     show player 14
-    player_name "I'll be back!"
+    player_name "Я вернусь!"
     show player 13
     show kevin 24
     kev "Хорошо."
@@ -249,7 +249,7 @@ label kevin_dialogue_talent_show:
 
 label kevin_dialogue_dewitt_science_adhesive:
     show player 10
-    player_name "Что нам нужно для этого {b}кля{/b} еще раз?"
+    player_name "Что нам нужно для этого {b}клея{/b} ещё раз?"
     show player 13
     show kevin 2
     kev "Просто встреться со мной в {b}Научной лаборатории после уроков{/b}."

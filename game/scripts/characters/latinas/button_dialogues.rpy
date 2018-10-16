@@ -10,7 +10,7 @@ label latinas_dialogue_shower:
     show player 59 at left
     lopez "Слушай, парень. Эта наша территория, так что иди погуляй где-то еще!"
     show latinas 3 at right
-    martinez "Подожди, {b}Lopez{/b}!"
+    martinez "Подожди, {b}Лопес{/b}!"
     martinez "Йоу, Я думаю это тот парень о котором говорили люди!"
     show latinas 2 at right
     lopez "Что?! Не может быть..."
@@ -72,7 +72,7 @@ label latinas_dialogue_shower:
     show latinas 16 at right
     show player 67 at left
     lopez "Ох, дермо!"
-    lopez "{b}Annie{/b}'пришла!!"
+    lopez "{b}Энни{/b}'пришла!!"
     show latinas 17 at right
     show player 68 at left
     show annie 1

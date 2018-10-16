@@ -3,55 +3,55 @@ label mia_dialogue_mias_house_front_intro:
     show player 14 at left
     show mia 1 at right
     with dissolve
-    player_name "Привет {b}Mia{/b}!"
+    player_name "Эй {b}Мия{/b}!"
     show mia 4
     show player 1
-    mia "Приветик {b}[firstname]{/b}!"
+    mia "Привет {b}[firstname]{/b}!"
     mia "Что ты здесь делаешь?"
     show mia 1
     show player 29
-    player_name "Эммм... Я хотел спросить у тебя кое-что!"
+    player_name "Эм... Я хотела спросить тебя кое о чем!"
     return
 
 label mia_dialogue_mias_house_front_homework:
     show player 21
-    player_name "Тебе еще нужна помощь с подготовкой к экзаменами?"
+    player_name "Вам все еще нужна помощь в обучении для сдачи экзаменов?"
     show mia 3
     show player 13
-    mia "Конечно! Я как раз ищу {b}кого-то с кем можно было бы позаниматься вместе{/b}..."
+    mia "Конечно! Я ищу {b} кого-то с кем можно вместе учиться{/b}..."
     show mia 6
     show player 11
-    mia "...Но ты догнал классную программу?"
+    mia "...Но ты уже догнала класс?"
     show mia 2
     show player 10
-    player_name "Ох! Точно! стоит взять пару несколько частных занятий с {b}Miss Bissette{/b} что бы наверстать упущенное..."
+    player_name "О! Точно! Мне, вероятно, следует получить частное репетиторство от {b}Мисс Биссетта{/b}, чтобы наверстать упущенное..."
     show mia 6
     show player 13
-    mia "Да, ты должен это сделать в первую очередь!"
+    mia "Да, ты, вероятно, должен сделать это впервую очередь!"
     show mia 4
-    mia "Тогда ты сможешь прийти ко мне домой... и мы сможем  позаниматься в моей комнате!"
+    mia "Тогда ты можешь приходить ко мне домой..., и мы будем учиться в моей комнате!"
     show mia 1
     show player 14
-    player_name "Дд... да?"
+    player_name "Д... да?"
     show mia 3
     show player 1
-    mia "Конечно! Это будет весело!"
+    mia "Я уверена! Это будет весело!"
     show mia 1
     show player 17
-    player_name "Хорошо... Я тебе скажу когда я закончу!"
+    player_name "Хорошо... Я дам тебе знать, когда я закончу с этим!"
     show mia 4
     show player 1
-    mia "До скорой встречи!"
+    mia "Скоро увидимся!"
     hide mia with dissolve
     show player 5 with dissolve
-    player_name "( Я должен постараться и и закончить мою {b}Французкую домашнюю работу{/b}, что бы я смог позаниматься с {b}Mia{/b}. )"
+    player_name "( Я должен попытаться закончить домашнюю домашнюю работу {b}французскому{b}, с этим я смогу учиться с {b}Мией{/b}. )"
     show player 4
     pause
-    player_name "( Интересно почему она выбрала меня что бы помочь ей с подготовкой. )"
-    player_name "( Она обычно училась с {b}Judith{/b} и она действительно хороша во Французком... )"
-    player_name "( ...Я не уверен как я смогу помочь её. )"
+    player_name "( Интересно, почему она выбрала меня, чтобы помочь ей учиться. )"
+    player_name "( Обычно она учится с {b}Джуди{/b}, и она очень хорошо говорит по-французски... )"
+    player_name "( ...Я не знаю, как я могу ей помочь. )"
     show player 13
-    player_name "( По крайней мере мы потусим вместе, и она действительно очень милая... )"
+    player_name "( По крайней мере, мы потусуемся, и она очень милая... )"
     hide player with dissolve
     return
 
@@ -60,12 +60,12 @@ label mia_dialogue_mias_house_front_leave:
     player_name "Хмм... Да, но я забыл!"
     show mia 3
     show player 11
-    mia "Хаха! Ты смешной~"
+    mia "Хаха! Ты забавный~"
     show mia 1
     show player 17
-    player_name "Извини! Я не могу вспомнить что я хотел сказать!"
+    player_name "Прости! Я не могу вспомнить, что я хотел сказать!"
     show player 14
-    player_name "Мне пора идти."
+    player_name "Я должен идти."
     show mia 4
     show player 1
     mia "Спокойной ночи!"

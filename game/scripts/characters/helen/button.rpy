@@ -9,47 +9,47 @@ label helen_button_dialogue:
     elif M_helen.is_state(S_helen_end):
         call expression game.dialog_select("helen_dialogue_helen_end_intro")
         menu:
-            "Purify your body.":
+            "Очистите свое тело.":
                 call expression game.dialog_select("helen_dialogue_helen_end_sex")
                 $ M_helen.set("sex speed", .175)
                 jump expression game.dialog_select("helen_bedroom_sex_start")
-            "Another time.":
+            "В другой раз.":
 
                 call expression game.dialog_select("helen_dialogue_helen_end_leave")
 
     elif M_mia.is_set("helen dialogue change"):
         call expression game.dialog_select("helen_dialogue_change_intro")
         menu:
-            "{b}Harold{/b}." if not M_mia.is_state(S_mia_clues):
+            "{b}Гарольд{/b}." if not M_mia.is_state(S_mia_clues):
                 call expression game.dialog_select("helen_dialogue_change_harold")
 
-            "{b}Harold{/b}." if M_mia.is_state(S_mia_clues):
+            "{b}Гарольд{/b}." if M_mia.is_state(S_mia_clues):
                 call expression game.dialog_select("helen_dialogue_change_mia_clues")
 
-            "Corset." if M_mia.is_state(S_mia_helen_outfit_request):
+            "Корсет." if M_mia.is_state(S_mia_helen_outfit_request):
                 call expression game.dialog_select("helen_dialogue_change_corset")
 
-            "Angelica." if M_mia.is_set('helen angelica training'):
+            "Анжелика." if M_mia.is_set('helen angelica training'):
                 call expression game.dialog_select("helen_dialogue_change_angelica")
 
-            "Whipping." if M_mia.is_state(S_mia_helen_condition):
+            "Порка." if M_mia.is_state(S_mia_helen_condition):
                 call expression game.dialog_select("helen_dialogue_change_whipping")
                 $ M_mia.trigger(T_helen_thanks)
 
-            "Ritual." if M_mia.is_state(S_mia_find_sinners):
+            "Ритуалы." if M_mia.is_state(S_mia_find_sinners):
                 call expression game.dialog_select("helen_dialogue_change_ritual")
                 menu:
-                    "I don't know." if player.stats.chr() < 5:
+                    "я не знаю." if player.stats.chr() < 5:
                         call expression game.dialog_select("helen_dialogue_change_ritual_stat_fail")
 
-                    "Ancient sacrament." if player.stats.chr() >= 5:
+                    "Древнее таинство." if player.stats.chr() >= 5:
                         call expression game.dialog_select("helen_dialogue_change_ritual_stat_pass")
                         $ M_mia.trigger(T_helen_secret_sacrement)
 
     elif M_mia.is_set("helen button"):
         call expression game.dialog_select("helen_dialogue_intro")
         menu helen_dialogue:
-            "{b}Harold{/b}.":
+            "{b}Гарольд{/b}.":
                 call expression game.dialog_select("helen_dialogue_harold")
     else:
 

@@ -12,10 +12,10 @@ label kevin_button_dialogue:
         call expression game.dialog_select("kevin_dialogue_intro")
         if erik.completed(erik_favor_2):
             call expression game.dialog_select("kevin_dialogue_erik_favor_2_completed")
-        kev "Anything you wanted to talk about?"
+        kev "Хочешь о чем-нибудь поговорить?"
         show kevin 23
         menu:
-            "Guitar." if M_dewitt.is_state(S_dewitt_kevin_give_guitar):
+            "Гитара." if M_dewitt.is_state(S_dewitt_kevin_give_guitar):
                 call expression game.dialog_select("kevin_dialogue_dewitt_kevin_give_guitar")
                 $ player.remove_item("guitar")
                 if M_dewitt.is_set("talent ask eve"):
@@ -23,7 +23,7 @@ label kevin_button_dialogue:
                 else:
                     $ M_dewitt.trigger(T_dewitt_give_fender_guitar)
 
-            "Talent Show." if M_dewitt.between_states(S_dewitt_talent_show_ask, S_dewitt_replace_guitar) or M_dewitt.is_set("talent helping eve"):
+            "Шоу талантов." if M_dewitt.between_states(S_dewitt_talent_show_ask, S_dewitt_replace_guitar) or M_dewitt.is_set("talent helping eve"):
                 if M_dewitt.is_set("talent helping eve"):
                     call expression game.dialog_select("dewitt_talent_show_helping_eve")
 
@@ -34,13 +34,11 @@ label kevin_button_dialogue:
                 elif M_dewitt.is_state(S_dewitt_replace_guitar):
                     call expression game.dialog_select("kevin_dialogue_talent_show_replace_guitar")
                 else:
-
                     call expression game.dialog_select("kevin_dialogue_talent_show")
 
-            "Adhesive." if M_dewitt.is_state(S_dewitt_science_adhesive):
+            "Клей." if M_dewitt.is_state(S_dewitt_science_adhesive):
                 call expression game.dialog_select("kevin_dialogue_dewitt_science_adhesive")
-            "Nothing":
-
+            "Ничего":
                 call expression game.dialog_select("kevin_dialogue_leave")
 
     hide kevin

@@ -40,7 +40,7 @@ label larry_police_cell_dialogue_erik_father_forgive_known:
     show player 11f
     show larry 15
     larry "Я спрятал полную сумку украденых вещей которых я взял."
-    larry "Я скажу тебе куда если ты просто скажешь{b}Tammy{/b} что я извиняюсь."
+    larry "Я скажу тебе куда если ты просто скажешь{b}Тэмми{/b} что я извиняюсь."
     larry "Я просто не хочу, чтобы она всегда меня ненавидела, ты знаешь?"
     larry "Я не должен был её оставлять..."
     show larry 14
@@ -69,7 +69,7 @@ label larry_police_cell_dialogue_erik_father_forgive_started:
     player_name "Что ты хочешь что бы я сделал для тебя снова"
     show player 5f
     show larry 15
-    larry "Просто скажи {b}Tammy{/b} что мне очень жаль. Я не должен был бросать её..."
+    larry "Просто скажи {b}Тэмми{/b} что мне очень жаль. Я не должен был бросать её..."
     larry "Если ты сделаешь, Я скажу тебе где я спрятал все товары которые я украл."
     show larry 14
     show player 10f
@@ -82,7 +82,7 @@ label larry_police_cell_dialogue_erik_father_treasure_not_known:
     show larry_hands at Position (xpos=400,ypos=658)
     show player 5f at right with dissolve
     larry "Хэй! Это снова ты!"
-    larry "У тебя была возможность поговорить с {b}Tammy{/b}?"
+    larry "У тебя была возможность поговорить с {b}Тэмми{/b}?"
     show larry 14
     show player 12f
     player_name "Я передал ей сообщение."
@@ -111,7 +111,7 @@ label larry_police_cell_dialogue_erik_father_treasure_not_known:
     show larry 15
     larry "Слушай! Я попробую изменить свою жизнь!"
     larry "Ты увидишь!"
-    larry "И возможно... Когда-нибудь... {b}Tammy{/b} примет меня обратно!"
+    larry "И возможно... Когда-нибудь... {b}Тэмми{/b} примет меня обратно!"
     show larry 14
     show player 12f
     player_name "Посмотрим."

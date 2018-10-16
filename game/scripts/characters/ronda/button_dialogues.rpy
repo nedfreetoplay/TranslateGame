@@ -3,7 +3,7 @@ label ronda_dialogue_intro:
     show ronda 2 at right
     show player 36 at left
     with dissolve
-    player_name "Привет, {b}Ronda{/b}. Как дела?"
+    player_name "Привет, {b}Ронда{/b}. Как дела?"
     show player 13 with dissolve
     show ronda 3
     ron "У меня всё хорошо.Этот вопрос был тренеровкой?"
@@ -27,7 +27,7 @@ label ronda_dialogue_intro:
 
 label ronda_dialogue_talent_show_help:
     show player 10
-    player_name "Я не думаю что тебя заинтересует стать добровольцом в {b}Ms. Dewitt's{/b} музыкальном шоу талантов?"
+    player_name "Я не думаю что тебя заинтересует стать добровольцом в {b}Мисс Девитт{/b} музыкальном шоу талантов?"
     show player 5
     show ronda 3
     ron "Музыкальном таланте? Нет, Мне это неинтересно."
@@ -41,7 +41,7 @@ label ronda_dialogue_talent_show_help:
     ron "Ты никогда не попадешь в команду если ты продолжишь пропускать свои тренеровки!"
     show ronda 2
     show player 30
-    player_name "Ты знаешь, в жизни есть вещи поважнее спорта, {b}Ronda{/b}..."
+    player_name "Ты знаешь, в жизни есть вещи поважнее спорта, {b}Ронда{/b}..."
     show player 5
     show ronda 3
     ron "Пффф, да конечно."
@@ -50,7 +50,7 @@ label ronda_dialogue_talent_show_help:
 label ronda_dialogue_model_help:
     show player 2 at left
     show ronda 2 at right
-    player_name "Я работаю на проектом для {b}Miss Ross{/b} и для этого требуется настоящая топ модель."
+    player_name "Я работаю на проектом для {b}Мисс Росс{/b} и для этого требуется настоящая топ модель."
     player_name "Тебя это не заинтересует?"
     show player 1
     show ronda 3
@@ -62,13 +62,13 @@ label ronda_dialogue_model_help:
     show player 11
     show ronda 4
     ron "Серьезно, {b}[firstname]{/b}?!"
-    ron "Мне нужно пробежать 6км и принять ледяной душ до футбольной тренеровки."
+    ron "Мне нужно пробежать 6 км и принять ледяной душ до футбольной тренеровки."
     show player 10
     show ronda 1
     player_name "Ухх..."
     show player 11
     show ronda 4
-    ron "После,У меня будет только 40 минут чтобы привести себя в порядок до закрытия бассейна."
+    ron "После, у меня будет только 40 минут чтобы привести себя в порядок до закрытия бассейна."
     show player 10
     show ronda 1
     player_name "Это сум-"
