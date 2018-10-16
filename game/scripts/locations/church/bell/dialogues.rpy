@@ -9,15 +9,15 @@ label church_bell:
     $ game.main()
 
 label church_bell_aqua_bell_search:
-    player_name "This bell is massive!"
-    player_name "( I wonder how Ben Dover was connected to it? )"
-    player_name "( Maybe he helped to build it? )"
-    player_name "( ...It sure looks really old. )"
-    player_name "( and there's an engraving on it too, just like the tombstone! )"
-    player_name "Hmm..."
-    player_name "( Looks like some kind of {b}stone alter{/b}, with {b}trees{/b} around it and the {b}moon{/b} shining down. )"
-    player_name "( One of the trees has a {b}hole{/b} in it too. )"
-    player_name "( I wonder what's up with that? )"
-    player_name "( Where could I find something like this in Summerville? )"
+    player_name "Этот колокол массивный!"
+    player_name "( Интересно, как Бен Довер с ним связан? )"
+    player_name "( Может он участвовал в установке колокола? )"
+    player_name "( ...Колокол выглядит очень старым, и... )"
+    player_name "( на нём какая-то гравировка, похожая на ту что на надгробие! )"
+    player_name "Хмм..."
+    player_name "( Похоже на какой-то {b}камень{/b}, вокруг которого {b}деревья{/b} и освещающая {b}луна{/b} . )"
+    player_name "( У одного дерева то ли дупло, то ли {b}отверстие{/b} . )"
+    player_name "( Интересно, что с этим связано? )"
+    player_name "( Надо подумать, где в городе я могу найти что-то похожее? )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,64 +1,64 @@
 label map_june_mc_help_started:
     scene outside_school_b
     show player 10 with dissolve
-    player_name "I should probably tell {b}Erik{/b} that it's not going to work out with {b}June{/b}..."
-    player_name "... and that I might spend time with her."
-    player_name "He's going to be upset."
+    player_name "Наверное, мне стоит сказать {b}Эрику{/b}, что с {b}Джун{/b} у него ничего не выйдет..."
+    player_name "... и что я буду проводить с ней время."
+    player_name "Он будет очень расстроен."
     hide player with dissolve
     return
 
 label map_june_erik_help_started:
     scene outside_school_b
     show player 17 with dissolve
-    player_name "I should tell {b}Erik{/b} the good news!"
-    player_name "He's going to be so excited about this!"
+    player_name "Я должна сообщить {b}Эрику{/b} хорошие новости!"
+    player_name "Он будет в восторге от этого!"
     show player 14
-    player_name "{b}June{/b} seems like the perfect kind of girl for him!"
+    player_name "{b}Джун{/b} кажется идеальной девушкой для него!"
     hide player with dissolve
     return
 
 label map_erik_intro_in_progress:
     scene expression game.timer.image("outside_school{}")
     show erik 4 at right with dissolve
-    eri "Hey, {b}[firstname]{/b}!"
+    eri "Привет, {b}[firstname]{/b}!"
     show player 10 at left with dissolve
     show erik 1
-    player_name "Oh... Hey..."
+    player_name "О... Привет..."
     show erik 4
-    eri "How was your first day back at school?"
+    eri "Как прошел твой первый день в школе?"
     show player 37
     show erik 1
-    player_name "Ugh... I don't even want to talk about it."
+    player_name "Тьфу... Я даже не хочу об этом говорить."
     show erik 5
-    eri "I see..."
+    eri "Ясно..."
     show player 5
-    eri "What are you up to now?"
+    eri "Чем ты сейчас займешься?"
     show erik 1
     show player 26
-    player_name "Well, I told {b}[deb_name]{/b} that I would visit her friend {b}Diane{/b}."
-    player_name "She's gonna {b}pay{/b} me to do some {b}work for her{/b}."
+    player_name "Ну, Я бещал {b}[deb_name]{/b} что схожу к ее подруге {b}Диане{/b}."
+    player_name "Она обещала {b}платить{/b} мне деньги за некоторую {b}работу{/b}."
     show erik 3
     show player 13
-    eri "Man... I wish I had a job..."
+    eri "Чувак... Жаль у меня нет работы..."
     show erik 4
-    eri "A job where I could just sit at my computer playing games all day, heh..."
+    eri "Работы, где я мог бы просто сидеть за компьютером и играть в игры весь день..."
     show erik 1
     show player 14
-    player_name "Oh! Speaking of computer... I think mine is {b}broken{/b}?"
+    player_name "О! Блин компьтер... Кажется, мой {b}сломалась{/b}?"
     show player 35
-    player_name "I think I need to replace some parts in it, or something..."
+    player_name "Я думаю, что мне нужно заменить некоторые части в нем, или что-то..."
     show player 12
-    player_name "You know any good stores where I could buy some?"
+    player_name "Ты знаешь какие-нибудь хорошие магазины, где я мог бы их купить?"
     show erik 4
     show player 1
-    eri "Hmmm... I usually shop for parts at {b}CONSUM-R{/b} in the {b}Mall{/b}."
-    eri "They sell lots of things for a reasonable price."
+    eri "Хммм... Я хожу в {b}CONSUM-R{/b} в {b}торговом центре{/b}."
+    eri "Они продают много вещей по разумной цене."
     show erik 1
     show player 14
-    player_name "Alright then, I'll check it out!"
+    player_name "Хорошо, пойду проверю!"
     show erik 7
     show player 36
-    eri "See you later!"
+    eri "Увидемся позже!"
     hide erik
     hide player
     with dissolve

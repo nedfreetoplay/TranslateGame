@@ -1,128 +1,128 @@
 label button_dexter_talent_show:
     show dexter 1
     show player 10
-    player_name "Эй, {b}Декстер{/b}, ты играешь на каких-нибудь инструментах?"
+    player_name "Эй {b}Декстер{/b}, ты играешь на каких-нибудь инструментах?"
     show player 5
     show dexter 2
-    dex "Что?"
+    dex "Чего?"
     show player 12
-    player_name "И-Н-С-Т-Р-У-М-Е-Н-Т-А-Х. Ты знаешь, это для музыки... Ты играешь на чём нибудь?"
+    player_name "И-Н-С-Т-Р-У-М-Е-Н-Т-А-Х. Ну знаешь, музыку... Так что?"
     show player 5
     show dexter 8
-    dex "Я похож на какого-то фаната группы?!"
+    dex "Я чё, похож на человека, которых занимается этой хернёй?!"
     show dexter 2
     show player 12
-    player_name "Эх, нет? Я просто подумал, Может у тебя есть скрытый талант стучать в барабаны или типа того?"
+    player_name "Эмм, да нет. Я просто подумал, вдруг у тебя есть скрытый талант игры на ударных или что-то ещё?"
     show player 5
     show dexter 6 with dissolve
-    dex "Я бы хотел постучать по твоему тупому лицу кулаками..."
-    dex "Как ты думаешь, в этом будет какая-то музыка?"
+    dex "Я бы мог ударить тебя..."
+    dex "Чё, реально так можно музыку замутить?"
     show dexter 5
     show player 29 with dissolve
-    player_name "Хех, я как раз собирался уходить..."
+    player_name "Хех, я лучше пойду..."
     show player 3
     show dexter 4 with dissolve
-    dex "Да, тебе лучше!"
+    dex "Давай, вали!"
     return
 
 label button_dexter_challenge:
     show player 12
-    player_name "Я здесь, чтобы бросить тебе вызов, {b}Декстер{/b}."
+    player_name "Я пришел посоревноваться с тобой, {b}Декстер{/b}."
     show player 5
     show dexter 3
-    dex "Ха-ха!"
-    dex "К чему?!"
+    dex "Ха ха!"
+    dex "В чём?!"
     show dexter 1
     show player 10
-    player_name "В э..."
+    player_name "В..."
     show player 5
     show dexter 3
-    dex "Ты же знаешь, я обхожу тебя в чем угодно."
+    dex "Ты же в курсе, что я тебя всегда уделаю."
     show dexter 4 with dissolve
-    dex "А теперь отвали, пока я не решил выбить из тебя все дерьмо."
+    dex "А теперь заткнись, пока я не выбил из тебя всё дерьмо."
     return
 
 label button_dexter_library_book:
     show player 10
-    player_name "Хэй, эмм, {b}Декстер{/b}..."
+    player_name "Хей, эмм, {b}Декстер{/b}..."
     show player 5
     show dexter 3
-    dex "Что тебе нужно, хамло?"
+    dex "Чего тебе, ничтожество?"
     show dexter 1
     show player 10
-    player_name "Ты помнишь, где ты оставил библиотечную книгу, которую ты получил..."
+    player_name "Ты помнишь, где оставил библиотечную книгу, которую взял на днях?"
     show player 5
     show dexter 8
     dex "Библиотечную книгу?"
     show dexter 4 with dissolve
-    dex "Разве я не говорил тебе убираться отсюда, {b}[firstname]{/b}?"
-    dex "Или ты хочешь отбивную!"
+    dex "Я тебе разве не говорил уёбывать отсюда, {b}[firstname]{/b}?"
+    dex "Или пиздюлей захотел?!"
     show dexter 2 with dissolve
     show player 12
     player_name "Хорошо, хорошо, я ухожу!"
     hide dexter with dissolve
     show player 10f at center with dissolve
-    player_name "Интересно, ошиблась ли библиотекарь?"
+    player_name "Может библиотекарь ошиблась?"
     show player 5f
     player_name "..."
     show player 12f
-    player_name "Он может лгать. {b}Надо проверить его шкафчик{/b}!"
-    player_name "Надеюсь, это там, иначе я не знаю, что я собираюсь сделать..."
+    player_name "Наверное он врёт. {b}Нужно проверить его шкафчик{/b}!"
+    player_name "Надеюсь, книга там, других вариантов у меня пока нет..."
     return
 
 label button_dexter_nothing:
     show player 10
-    player_name "Я... ухх... не хотел тебя беспокоить."
-    player_name "Мне нужно попасть на занятия."
+    player_name "Я... эмм... зря я тебя побеспокоил."
+    player_name "Мне нужно идти."
     show player 5
     show dexter 3
-    dex "Беги, неудачник."
+    dex "Шуруй отсюда, лузер."
     return
 
 label dexter_button_pushups:
     show player 16 at left
     show dexter 12 at right
     with dissolve
-    dex "О, ты хочешь реванш, да?"
-    dex "Без проблем, ботан!"
+    dex "Оу, ты хочешь повторить?"
+    dex "Погнали, задрот!"
     dex "Я покажу тебе, как это делается!"
     show dexter 11
     scene gym
     show player 16 at left
     show dexter 11 at right
     with dissolve
-    bri "Ладно, ребята. Вы знаете правила!"
-    bri "Побеждает последний выживший!"
+    bri "Окей, парни. Вы знаете правила!"
+    bri "Кто останется последним, тот и победил!"
     show dexter 12
-    dex "Хахаха, смотри и учись... БОТАНИК!"
+    dex "Хахаха, смотри и учись... ЗАДРОТ!"
     hide player
     hide dexter
     with dissolve
-    bri "Начали!"
+    bri "НАЧАЛИ!"
     return
 
 label dexter_button_pushups_rematch:
     show player 5 at left
     show dexter 15 at right
     with dissolve
-    dex "Как насчет реванша, ботаник?!"
+    dex "Как насчёт реванша, задрот?!"
     show dexter 14
     show player 12
-    player_name "Что?! Да ладно, мужик... Ты проиграл."
-    player_name "Просто двигайся дальше."
+    player_name "Что?! Всё, чувак... Ты проиграл."
+    player_name "Живи теперь с этим."
     show player 5
     show dexter 12 with dissolve
-    dex "Ты боишься, что проиграешь?"
+    dex "Пфф, боишься проиграть?"
     show dexter 11
     show player 12
     player_name "Нет."
     show player 90
     show dexter 28 with dissolve
-    dex "{b}[firstname]'s{/b} трус!"
+    dex "Эй, гляньте все, {b}[firstname]{/b} зассал!"
     show dexter 11 with dissolve
     show player 12
-    player_name "... Тч, хорошо."
-    player_name "Давайте сделаем это!"
+    player_name "... Тц, хорошо."
+    player_name "Давай ещё раз!"
     hide player
     hide dexter
     with dissolve
@@ -132,18 +132,18 @@ label button_dexter_intro_beginning:
     show player 5 at left
     show dexter 3 at right
     with dissolve
-    dex "На что уставился, неудачник?!"
+    dex "На чё уставился, лузер?!"
     show dexter 1
     show player 10
-    player_name "Ничего."
+    player_name "Да так, ни на что."
     show player 5
     show dexter 3
-    dex "Да, именно так!"
-    dex "Продолжай идти сука!"
-    dex "Хахахаха!"
+    dex "Ну и хорошо!"
+    dex "Тогда уебывай отсюда нахуй!"
+    dex "Хахахахаха!"
     hide dexter with dissolve
     show player 12
-    player_name "Ох, он такой засранец..."
+    player_name "Гхх, вот же засранец..."
     hide player with dissolve
     return
 
@@ -151,27 +151,27 @@ label button_dexter_intro:
     show player 5 at left
     show dexter 3 at right
     with dissolve
-    dex "Я думал, что почувствовал запах маленькой сучки!"
+    dex "Чую носом этого сучёнка!"
     show dexter 2
     show player 12
-    player_name "Пошел ты, {b}Декстер{/b}..."
+    player_name "Пошёл ты, {b}Декстер{/b}..."
     show player 90
     show dexter 6 with dissolve
-    dex "ЧТО ТЫ СКАЗАЛ?!"
+    dex "ЧЁ ТЫ ВЯКНУЛ?!"
     show dexter 4 with dissolve
     show player 11
-    dex "Ты хочешь, чтобы я надрал тебе задницу, прямо здесь?!"
+    dex "Тебе переебать или как?!"
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
-    dex "Да, это то, что я подумал."
+    dex "Вот, так я и думал."
     show dexter 6 with dissolve
-    dex "Тебе лучше держаться подальше от моей девушки!"
+    dex "Держись подальше от моей девушки!"
     show dexter 2 with dissolve
     show player 5
     player_name "..."
     show dexter 4 with dissolve
-    dex "Ты слышишь меня, сука?!"
+    dex "Ты меня понял, сучёныш?!"
     show dexter 2 with dissolve
     return
 
@@ -181,13 +181,13 @@ label button_dexter_intro_final:
     with dissolve
     dex "..."
     show player 12
-    player_name "Прости, ты что-то сказал, {b}Декстер{/b}?"
+    player_name "Прости, {b}Декстер{/b}, ты что-то сказал?"
     show player 91
     show dexter 8
     dex "Нет!"
     show dexter 2
     show player 12
-    player_name "Да, это то, что я подумал."
+    player_name "Ну, так я и думал."
     show player 91
 
     dex "..."
@@ -195,72 +195,72 @@ label button_dexter_intro_final:
 
 label button_dexter_basketball_final:
     show player 12
-    player_name "Все еще играешь в баскетбол?"
+    player_name "Ещё играешь в баскеткетбол?"
     show player 91
     dex "..."
     show player 12
-    player_name "Ребята, вам удалось выиграть игру?"
+    player_name "Вы хоть один матч выиграли?"
     show player 91
     show dexter 8
     dex "Я не хочу об этом говорить!"
     show dexter 2
     show player 12
-    player_name "Я просто пытаюсь-"
+    player_name "Я просто хоте-"
     show player 11
     show dexter 8
     dex "Оставь меня в покое, {b}[firstname]{/b}!"
     hide dexter with dissolve
     pause
     show player 10
-    player_name "Хорошо."
+    player_name "Ну, ладно."
     hide player with dissolve
     return
 
 label button_dexter_basketball:
     show player 12
-    player_name "Все еще играет в баскетбол?"
+    player_name "Ещё играешь в баскеткетбол?"
     show player 90
     show dexter 3
-    dex "Конечно, я был рожден, чтобы играть!"
+    dex "Конечно, я рожден для этого!"
     show dexter 1
     show player 12
-    player_name "Вы даже выиграли игру еще?"
+    player_name "И сколько матчей вы выиграли?"
     show player 90
     show dexter 3
-    dex "Ну Да. Как сто миллионов..."
+    dex "Пфф, Да сто тыщ миллионов..."
     show dexter 1
     show player 12
-    player_name "Да, точно! Вы просто ужасны..."
+    player_name "А, ну конечно! Вы ребята такие \"молодцы\"..."
     show player 90
     show dexter 4 with dissolve
-    dex "Эй! Хочешь бутерброд с костяшками, неудачник?!"
+    dex "ЭЙ! Тебе переебать, лузер?!"
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
-    dex "Что такое маленькая сука, так ты знаешь о баскетболе?!"
-    dex "Это мужской вид спорта!"
+    dex "Да что ты понимаешь в баскеткетболе, мелкий сучёныш?!"
+    dex "Это спорт для настоящих мужчин!"
     show dexter 1
     show player 17
-    player_name "О, ну тогда неудивительно, почему вы дамы не можете выиграть игру."
+    player_name "А, ну тогда ясно, почему вы сливаете все матчи, девчонки."
     show player 13
     show dexter 3
-    dex "Что? Я не-"
-    dex "О, ты думаешь это смешно?!"
+    dex "Чего? Я не-"
+    dex "А, думаешь, это смешно?!"
     show dexter 8
-    dex "Как насчет того, чтобы выбить тебе зубы?!"
+    dex "Как насчет выплюнуть пару зубов?!"
     show player 5
-    dex "Это было бы довольно забавно, не так ли?!"
+    dex "Вот это будет и правда смешно!"
     show dexter 2
     return
 
 label button_dexter_whatever:
     show player 12
-    player_name "Тч, Да. Неважно, чувак..."
+    player_name "Гхх, ладно. Неважно, чувак..."
     hide player with dissolve
     pause
     show dexter 8
-    dex "Эй, я не шучу {b}[firstname]{/b}!"
-    dex "Держись подальше от, {b}Рокси{/b}!"
+    dex "Я с тобой не шучу, {b}[firstname]{/b}!"
+    dex "Держись подальше от {b}Рокси{/b}!"
     dex "Она моя!"
     hide dexter
     hide player
@@ -269,28 +269,28 @@ label button_dexter_whatever:
 
 label button_dexter_behaving:
     show player 12
-    player_name "Я верю, что ты себя ведешь."
+    player_name "Надеюсь, ты ведёшь себя прилично."
     show player 90
     show dexter 8
     dex "... Да."
     show dexter 2
     show player 12
-    player_name "Ты ведь помнишь, что случится, если я снова увижу, как ты играешь с моими друзьями, верно?"
+    player_name "Ты помнишь, что будет, если я узнаю, что ты снова пристаешь к моим друзьям?"
     show player 92
-    player_name "Вам нужно напоминание?!"
+    player_name "Тебе напомнить?!"
     show player 91
     show dexter 8
     dex "НЕТ!"
     dex "Я помню..."
     show dexter 2
     show player 92
-    player_name "Хорошо."
+    player_name "Вот и славно."
     show player 91
     return
 
 label button_dexter_run_along:
     show player 12
-    player_name "Беги сейчас же, {b}Декстер{/b}."
+    player_name "Можешь идти, {b}Декстер{/b}."
     show player 91
     dex "..."
     show dexter 8
@@ -299,7 +299,7 @@ label button_dexter_run_along:
     pause
     show player 17
     player_name "Хахаха!"
-    player_name "Мне нравится ноый {b}Декстер{/b}!"
+    player_name "А мне нравится новый {b}Декстер{/b}!"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

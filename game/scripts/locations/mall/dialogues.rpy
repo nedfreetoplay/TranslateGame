@@ -1,9 +1,9 @@
 label mall_first_visit:
     scene mall
     show player 14 with dissolve
-    player_name "( I love the mall! )"
+    player_name "( Я люблю торговый центр! )"
     show player 17
-    player_name "( You can go shopping for all sorts of stuff, there's even a movie theater! )"
+    player_name "( Там можно купить все что хочешь, и даже посмотреть кино ! )"
     hide player 17 with dissolve
     return
 
@@ -11,33 +11,33 @@ label mall_mom_mall_outing:
     scene mall
     show player 13 at left with dissolve
     show debbie 165 at Position(xpos=.75, ypos=1.0) with dissolve
-    deb "Thanks again for coming with me, sweetie!"
+    deb "Еще раз спасибо, что пошел со мной, милый!"
     show player 14
     show debbie 164
-    player_name "No problem, {b}[deb_name]{/b}. I'm having fun!"
+    player_name "Без проблем, {b}[deb_name]{/b}.Мне весело!"
     show player 13
     show debbie 166
-    deb "Me too!"
+    deb "Я тоже!"
     show debbie 164
     deb "..."
     show debbie 165
-    deb "Are there any stores you'd like to visit while we're here?"
+    deb "Есть ли магазины ,в которые ты бы хотел пойти пока мы здесь?"
     show player 14
     show debbie 164
-    player_name "Hmm, No, not really."
+    player_name "Хмм, Нет, не совсем."
     show player 13
     show debbie 165
-    deb "Alright, well {b}Tammy{/b} was telling me all about this {b}new store{/b} that opened up recently."
-    deb "I think she said it was called, {b}Cupid{/b}."
-    deb "We should go check it out! What do you say?"
+    deb "Хорошо,тогда {b}Tammy{/b} рассказала мне об этом {b}новом магазине{/b} который недавно открылся."
+    deb "Я думаю она сказала что он называется, {b}Cupid{/b}."
+    deb "Мы должны пойти и его заценить! Что скажешь?"
     show player 14
     show debbie 164
-    player_name "Sure, {b}[deb_name]{/b}. Okay."
+    player_name "Конечно, {b}[deb_name]{/b}. Хорошо."
     show player 13
     show debbie 165
-    deb "... It should be up on the {b}second floor{/b}."
+    deb "... Это должно быть на {b}Втором этаже{/b}."
     show debbie 167 at right with dissolve
-    deb "Lead the way, sweetie."
+    deb "Показывай путь, дорогой."
     hide player
     hide debbie
     with dissolve
@@ -48,41 +48,41 @@ label mall_roxxy_fake_id_ask_terry:
     show player 13 at left
     show roxxy 2 at right
     with dissolve
-    rox "So you have a job, huh?"
+    rox "Так у тебя есть работа, хм?"
     show roxxy 1
     show player 14
-    player_name "Yeah."
+    player_name "Да."
     show player 13
     show roxxy 1b
-    rox "... And you make good money?"
+    rox "... И ты зарабатываешь хорошие деньги?"
     show roxxy 1
     show player 29 with dissolve
-    player_name "I dunno."
-    player_name "Good enough, I guess..."
+    player_name "Я незнаю."
+    player_name "Достаточно хорошие,Я думаю..."
     show player 13 with dissolve
     show roxxy 1l with dissolve
-    rox "Hmm..."
+    rox "Хммм..."
     show roxxy 1d
-    rox "So if you had a girlfriend... You could like... Buy her clothes and stuff, huh?"
+    rox "Так что если бы у тебя была девушка... ты мог бы.. покупать её вещи и разные штуковины, хм?"
     show roxxy 1e
     show player 12
-    player_name "Uhh, yeah. I suppose."
+    player_name "Эмм, да. Я думаю."
     show player 5
     show roxxy 1h with dissolve
-    rox "Interesting..."
+    rox "Интересно..."
     show roxxy 1b
-    rox "C'mon, {b}the photo booth{/b} should be on {b}the second floor{/b}!"
+    rox "Давай, {b}Фото-будка{/b} должна быть на {b}Втором этаже{/b}!"
     hide roxxy with dissolve
     show player 10
-    player_name "O-okay."
+    player_name "Х-хорошо."
     hide player with dissolve
     return
 
 label mom_mall_outing_block:
     scene expression player.location.background_blur
     show player 1
-    player_name "Hmm, I'm supposed to be looking for a store called, {b}Cupid.{/b}"
+    player_name "Хмм, Я должен найти магазин под названием, {b}Cupid.{/b}"
     show player 4
-    player_name "{b}[deb_name]{/b} said it should be on the {b}second floor{/b}."
+    player_name "{b}[deb_name]{/b} сказала что он должен быть на {b}Втором этаже{/b}."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

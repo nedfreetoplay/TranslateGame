@@ -3,32 +3,32 @@ label cupid_mom_cupid_store:
     show player 5 at left
     show debbie 165f at Position(xpos=0.5, ypos=1.0)
     with dissolve
-    deb "Oh, wow!"
+    deb "Ух ты!"
     show debbie 166f
-    deb "Look at all the pretty things!"
+    deb "Сколько тут красивых вещей!"
     show debbie 165 at Position(xpos=0.75, ypos=1.0) with dissolve
-    deb "Isn't it wonderful, {b}[firstname]{/b}?!"
+    deb "Это бесподобно, {b}[firstname]{/b}?!"
     show debbie 164
     player_name "..."
     show player 10
     player_name "I dunno {b}[deb_name]{/b}, it seems pretty girly in here..."
     show player 5
     show debbie 165
-    deb "Well, yeah..."
+    deb "Ну да..."
     show debbie 166
-    deb "But I AM a girl, Sweetheart."
+    deb "Дорогой, ведь я и ЕСТЬ девушка."
     show debbie 164
     deb "..."
     show debbie 165
-    deb "Besides, you're obviously starting to become more interested in girls."
+    deb "И кроме того, поскольку тебе уже пора интересоваться девушками."
     show debbie 167 at right with dissolve
-    deb "... And if you want to keep one you'll have to start getting acquainted with places like this!"
+    deb "... То для сохранения и развития отношений тебе с такими магазинами придётся познакомиться!"
     show debbie 164 at Position(xpos=0.9, ypos=1.0) with dissolve
     show player 10
     player_name "Really?"
     show player 5
     show debbie 166
-    deb "Hehe, of course!"
+    deb "Хаха, конечно!"
     show debbie 165
     deb "Why don't you help me pick something out. It'll be good practice for you!"
     show player 10
@@ -38,37 +38,37 @@ label cupid_mom_cupid_store:
     show debbie 166
     deb "Yeah!"
     show debbie 165
-    deb "{b}[firstname]{/b}, {b}gift giving{/b} is a very important part of {b}dating{/b}."
+    deb "{b}[firstname]{/b}, {b}дарение подарков{/b} является одной из состовляющих успешного {b}свидания{/b}."
     show player 43
     show debbie 164
-    player_name "Yeah, I know that, {b}[deb_name]{/b}!"
+    player_name "Ну да это я знаю, {b}[deb_name]{/b}!"
     show player 5
     show debbie 165
-    deb "Okay, well... Pretend that you're dating me."
+    deb "Ну хорошо... Представь, что у нас с тобой свидание."
     show debbie 164
     player_name "..."
     show player 12
-    player_name "You're Serious?"
+    player_name "Ты это серьёздно?"
     show player 11
     show debbie 166
-    deb "Hehe, Yesss!"
+    deb "Хаха, Дааа!"
     show debbie 165
     deb "If you were dating me... What kind of gift do you think I'd like?"
     show player 10
     show debbie 164
-    player_name "Hmm, I'm not sure."
+    player_name "Хмм, ну, я даже не знаю."
     show player 11
     show debbie 165
-    deb "Well take a look around and see if you can find something!"
-    deb "I'll be waiting over here."
+    deb "Хорошо осмотрись, и подумай, может сможешь что нибудь найти!"
+    deb "А я подожду тебя снаружи."
     show player 10
     show debbie 164
-    player_name "Alright."
+    player_name "Хорошо."
     hide debbie with dissolve
     show player 4 at Position(xpos=0.375, ypos=1.0) with dissolve
-    player_name "( What would {b}[deb_name]{/b} like? )"
+    player_name "( И что же может {b}[deb_name]{/b} понравиться? )"
     player_name "( ... )"
-    player_name "( A {b}necklace{/b} maybe? )"
+    player_name "( Может быть, {b}ожерелье{/b}? )"
     hide player with dissolve
     return
 
@@ -85,8 +85,8 @@ label necklace_display:
 label necklace_display_mom_choose_gift:
     scene location_mall_cupid_blur
     show player 4 zorder 0 at left
-    player_name "Yeah, a necklace could definitely work."
-    player_name "But which one?"
+    player_name "Да, ожерелье будет определённо верным выбором."
+    player_name "Какое же выбрать?"
     show player 492
     show xtra 33 zorder 1 at Position(xpos=0.295, ypos=0.749)
     with dissolve
@@ -127,7 +127,7 @@ label cupid_dressroom:
 label cupid_dressroom_mom_dressing_room:
     scene location_mall_cupid_blur
     show player 10
-    player_name "{b}[deb_name]{/b}, you alright in there?"
+    player_name "{b}[deb_name]{/b}, у тебя всё хорошо?"
     player_name "What's taking so long?"
     show player 11
     deb "Actually, sweetie, could you come in here for a second?"

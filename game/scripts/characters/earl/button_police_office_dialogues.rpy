@@ -3,100 +3,100 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     show roxxy 1of at Position (xpos=400)
     show player 10 at left
     with dissolve
-    player_name "Простите, сэр?"
+    player_name "Простите, Сэр?"
     show player 5
     show earl 2
-    ear "Да?"
-    ear "Что вы здесь делаете?"
+    ear "А?"
+    ear "Что вы здесь делаете дети?"
     show earl 3 with dissolve
     show player 10
     player_name "Мы просто пытаемся получить информацию об аресте, который вы сегодня произвели."
     show player 5
     show earl 2 with dissolve
-    ear "Хм, ты ведь дочь {b}Кристи{/b}, не так ли?"
+    ear "Хмм, ты дочь {b}Crystal{/b}, не правда ли?"
     show earl 1
     show roxxy 1jf
     rox "..."
     show player 10
-    player_name "Да, именно так и есть, сэр."
-    player_name "Не могли бы вы рассказать нам, что происходит?"
+    player_name "Да, верно, Сэр."
+    player_name "Не могли бы вы рассказать нам, что произошло?"
     show player 5
     show earl 2
-    ear "Боюсь, мне запрещено обсуждать эти вопросы с кем-либо, кроме ее семьи."
-    ear "Если вы хотите пойти со мной, Мисс. Я расскажу вам, как все это работает."
+    ear "Боюсь, мне запрещено обсуждать эти вопросы с кем-либо, кроме членов ее семьи."
+    ear "Если вы хотите пойти со мной, мисс. Я расскажу вам, как все это работает."
     show earl 1
     show player 10
-    player_name "... Да, хорошо. Я подожду-"
+    player_name "... Да, хорошо. Я подожду зэесь-"
     show player 11
     show roxxy 2c at Position (xpos=500) with dissolve
     rox "Нет!"
     show roxxy 2cf at Position (xpos=434)
     with dissolve
-    rox "... Я имею в виду."
+    rox "... то-есть."
     show roxxy 33f at Position (xpos=400) with dissolve
-    rox "Я хочу, чтобы он остался. Все в порядке."
+    rox "Я хочу чтобы он остался."
     show roxxy 32f
     show player 13
     ear "..."
     show earl 2
-    ear "Ты уверена."
+    ear "Вы уверены."
     show earl 1
     show roxxy 33f
     rox "Да."
     show roxxy 32f
     show earl 2
-    ear "Делай как знаешь."
-    ear "Сегодня утром мы получили анонимную наводку о большом запасе наркотиков в вашей резиденции."
-    ear "Поэтому мы поехали посмотреть."
-    ear "Вы знали, что у {b}вашей матери{/b} было более фунта кристаллического метамфетамина, спрятанного под диваном?"
+    ear "Дело ваше."
+    ear "Сегодня утром мы получили анонимную наводку о большом запасе наркотиков в вашем доме."
+    ear "Поэтому мы поехали туда посмотреть правда ли это."
+    ear "Вы знали, что у {b}вашей матери{/b} было более фунта (0,5кг) кристаллического Метамфетамина, спрятанного под диваном?"
     show earl 1
     show roxxy 1if
     show player 23
-    player_name "Фунт?!"
+    player_name "Фунта?!"
     show player 22
     show roxxy 27f at Position (xoffset=67)
     rox "..."
     show earl 2
-    ear "Боюсь, что так."
-    ear "Это уголовное обвинение за наркотики."
-    ear "Мы удерживаем {b}твою мать{/b} за хранение с намерением продать."
+    ear "Боюсь, что да."
+    ear "Это уже уголовная ответственность."
+    ear "Мы задержали {b}твою мать{/b} за хранение наркотиков с намерением их продать."
     show earl 1
     show roxxy 33bf at Position (xoffset=34) with dissolve
     rox "..."
     show player 10
-    player_name "В этом нет ничего хорошего."
+    player_name "Это плохо."
     show player 5
     show roxxy 1jf with dissolve
     show earl 2
-    ear "Нет, сынок. Это определенно не так."
-    ear "... Теперь, я знаю {b}Кристи{/b} в течение длительного времени."
+    ear "Да, сынок. Это конечно плохо."
+    ear "... Ну, я знаю {b}Crystal{/b} очень давно."
     ear "Когда-то мы вместе ходили в школу."
     ear "Она всегда умела попадать в неприятности..."
-    ear "... Но после допроса сегодня утром, я могу сказать вам без сомнения, что она не знает ничего о приготовлении метамфетамина."
-    ear "Теперь она утверждает, что она сделала все сама и искала, чтобы переместить его..."
-    ear "... Но я бы поставил хорошие деньги, что она просто держала его для кого-то другого!"
+    ear "... Но после допроса сегодня утром, я могу сказать вам без сомнения, что она не знает ничего о приготовлении мета."
+    ear "Теперь она утверждает, что она сделала все сама и хотела сбыть..."
+    ear "... Но я бы поставил хорошие деньги, на то что она просто держала его для кого-то другого!"
     show earl 1
     rox "..."
     show earl 2
-    ear "К сожалению, если я не получу доказательств. Она надолго попадет в тюрьму."
+    ear "К сожалению, если я не найду доказательств. Она надолго попадет в тюрьму."
     show earl 1
     show roxxy 33bf at Position (xoffset=34) with dissolve
-    rox "{b}*Сопит*{/b}."
+    rox "{b}*фырк*{/b}."
     show player 10
     player_name "Хорошо, а что насчет дома моей подруги?"
     show roxxy 1jf with dissolve
     show player 5
     show earl 2
-    ear "О, Этот трейлер?"
-    ear "... Ну, если {b}Кристи{/b} будет осуждена, он будет возвращен государством и продан."
-    show earl 1
+    ear "О, трейлер?"
+    ear "... Ну, если {b}Crystal{/b} будет осуждена, его вернут властям штата и продадут."
+    show earl 1ё
     show player 25
-    player_name "Шиш..."
+    player_name "Шшшииишшшш..."
     show player 12
-    player_name "Мы можем что-нибудь сделать, чтобы предотвратить это?"
+    player_name "Мы можем что-нибудь сделать, чтобы исправить это?"
     show player 5
     show earl 2
-    ear "Нет, если только ты не убедишь {b}Кристи{/b} отказаться от того, кого она защищает...."
+    ear "Нет, если только ты не убедишь {b}Crystal{/b} расказать о том кого она выгораживает..."
     show earl 1
     rox "..."
     show player 11
@@ -105,22 +105,22 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     show earl 2
     ear "Мне очень жаль, что все так вышло, Мисс."
     show earl 1
-    rox "{b}*Сопит*{/b}"
+    rox "{b}*фырк*{/b}"
     show earl 2
-    ear "Вы все можете {b}спуститься в камеру и навестить ее{/b}, если хотите."
-    ear "Они уже должны были допросить ее."
+    ear "Вы можете {b}спустится вниз к камерам и навести ее{/b} если желаете."
+    ear "Ее уже должны были допросить."
     show earl 1
     show player 14
-    player_name "Хорошо, Спасибо за информацию, офицер."
+    player_name "Хорошо, спасибо за информацию, офицер."
     show player 13
     hide earl with dissolve
     pause
     show player 5
     show roxxy 33bf
-    rox "... {b}*Сопит*{/b} Все это для этого врожденного идиота..."
+    rox "... {b}*фырк*{/b} Все это ради рожденным идиотом..."
     show roxxy 1j with dissolve
     show player 10
-    player_name "Давай, пойдем поговорим с {b}твоей мамой{/b}."
+    player_name "Ладно, пошли поговорим с {b}твоей мамой{/b}."
     hide player
     hide roxxy
     with dissolve
@@ -132,31 +132,31 @@ label earl_police_office_dialogue_first_visit:
     with dissolve
     ear "Что ты здесь делаешь?!"
     show earl 3
-    ear "Это еще один из тех дней \"приведи своих детей на работу\"?"
+    ear "Это еще один из тех дней \"Приведи своих детей на работу\"?"
     show earl 1
     show player 14
-    player_name "О, Нет, я просто проезжаю мимо, сэр."
-    player_name "Я хотел поговорить с {b}Гарольдом{/b}."
+    player_name "О, нет, я просто проходил мимо, сэр."
+    player_name "Я хотел поговорить с {b}Harold{/b}."
     show earl 2
     show player 1
-    ear "Подожди минутку... Ты не ходишь в школу с моей дочерью?"
+    ear "Подожди минутку... Ты же ходишь в школу с моей дочерью?"
     show earl 3
     show player 14
-    player_name "А, точно! Ты {b}Отец Ронды{/b}!"
+    player_name "О, да! Вы отец {b}Ronda{/b}!"
     show earl 2
     show player 1
-    ear "Вот дерьмо!"
+    ear "Shiiiiiiiiiiieeeeeet!"
     show player 11
-    ear "Ты лучше следи за моей малышкой, или мне придется поставить наблюдение за {b}тобой{/b}."
+    ear "Тебе лучше следить за собой находясь рядом с моей девочкой, или мне придется установить наблюдение за {b}тобой{/b}."
     show earl 4
-    ear "Понял?!"
+    ear "Ясно?!"
     show earl 1
     show player 29
-    player_name "Ох... конечно, сэр!"
-    player_name "Я бы никогда-"
+    player_name "Ооо... конечно, Сэр!"
+    player_name "Я никогда-"
     show earl 2
     show player 13 at left
-    ear "Расслабься, я просто прикалываюсь! Живо, живо."
+    ear "Расслабься, я просто прикалываюсь! Иди."
     return
 
 label earl_police_office_dialogue_pre:
@@ -170,49 +170,49 @@ label earl_police_office_dialogue_pre:
 label earl_police_office_dialogue_donuts:
     show earl 1
     show player 14
-    player_name "Это может показаться глупым вопросом,но какие пончики нравятся {b}Гарольду{/b}?"
+    player_name "Это может показаться глупым вопросом,но какие пончики нравятся {b}Harold{/b}?"
     show player 1
     show earl 2
-    ear "Хах!"
-    ear "{b}Гарольд{/b} ест их, только если они в {b}[harold_glaze]{/b}..."
+    ear "Ха!"
+    ear "{b}Harold{/b} ест только пончики, если они {b}[harold_glaze]{/b}..."
     show earl 3
-    ear "... Но я не знаю, что еще он на них сыпит."
+    ear "... Но я не знаю, что еще он на них посыпает."
     show player 14
     show earl 1
-    player_name "Я вижу."
+    player_name "Понятно."
     show player 11
     show earl 2
-    ear "Почему вы спрашиваете?"
+    ear "Почему ты спрашиваешь?"
     show player 17
     show earl 1
-    player_name "О, без причины."
+    player_name "О, просто так."
     show player 11
     show earl 4
-    ear "Подожди, разве ты не должна быть в школе? Что ты здесь делаешь-"
+    ear "Подожди, разве ты не должен быть в школе? Что ты здесь делаешь-"
     show player 14
     show earl 3
-    player_name "Эмм..."
+    player_name "Аааа..."
     show player 17
     player_name "Спасибо, пока!"
     return
 
 label earl_police_office_dialogue_harold:
     show player 10
-    player_name "Ты знаешь, где может быть {b}Гарольд{/b}?"
-    player_name "Я возможно ошибаюсь... но он должен быть здесь!"
+    player_name "Вы знаете где может быть {b}Harold{/b}?"
+    player_name "Мне нужно эээээ...вернуть кое-что ему!"
     show player 11
     show earl 2
-    ear "Я не уверен, куда он пошел, но я видела его вчера в офисе..."
-    ear "...Он выглядел в плохом состоянии, это точно!"
+    ear "I'm not sure where he went, but I saw him yesterday in the office..."
+    ear "...He looked in a bad shape, that's for sure!"
     ear "На секунду мне показалось, что он уходит..."
-    ear "...Поэтому я сказала ему взять перерыв."
+    ear "...но я сказал ему взять отгул."
     show earl 1
     show player 12
     player_name "Он не упоминал, где будет во время дежурства?"
     show player 5
     show earl 2
     ear "Я не хотел задавать слишком много вопросов, понимаешь?"
-    ear "Иногда парням нужно побыть наедине..."
+    ear "Некоторым ребятам иногда нужно побыть одним..."
     show earl 1
     show player 14
     player_name "Хорошо, спасибо."
@@ -221,11 +221,11 @@ label earl_police_office_dialogue_harold:
 label earl_police_office_dialogue_roxxys_mom:
     show earl 1
     show player 12
-    player_name "Где мы можем поговорить с {b}мамой моей{/b} подруги?"
+    player_name "Где мы можем поговорить с {b}мамой моего друга{/b}?"
     show player 5
     show earl 2
-    ear "Она внизу, в {b}камере{/b}."
-    ear "Офицер {b}Юми{/b} внизу, но она даст вам немного личного пространства, чтобы поговорить."
+    ear "Она {b}внизу в камере{/b}."
+    ear "Офицер {b}Yumi{/b} внизу, она даст вам немного личного пространства, чтобы поговорить."
     show earl 1
     show player 14
     player_name "Хорошо, спасибо."
@@ -233,9 +233,9 @@ label earl_police_office_dialogue_roxxys_mom:
 
 label earl_police_office_dialogue_leave:
     show player 14
-    player_name "Прошу прощения, сэр."
+    player_name "Просто проходил мимо, сэр."
     show earl 2
     show player 1
-    ear "Ладно."
+    ear "Хорошо."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

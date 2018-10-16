@@ -2,8 +2,8 @@ label waterfall_okita_get_ingredients:
     scene location_forest_waterfall_day_blur
     show player 2
     with dissolve
-    player_name "Wow, this place is beautiful!"
-    player_name "... And it looks like the perfect spot to look for that {b}Horny Toad{/b} Okita wants."
+    player_name "Ого, это место прекрасно!"
+    player_name "... и оно идеально подходит для поиска {b}Рогатой жабы{/b} для Окиты."
     return
 
 label take_toad:
@@ -19,7 +19,7 @@ label take_toad_dialogue:
     scene location_forest_waterfall_day_blur
     show player 531b
     with dissolve
-    player_name "Yup, I was right."
-    player_name "That is one ugly frog!"
+    player_name "Да, я был не прав."
+    player_name "Это одна уродливая лягуха!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

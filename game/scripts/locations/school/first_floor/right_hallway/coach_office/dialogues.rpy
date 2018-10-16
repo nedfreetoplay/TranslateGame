@@ -21,33 +21,33 @@ label coach_locker_dialogue:
 
 label coachs_locker_bissette_roxxy_pom_poms:
     show coach_locker
-    player_name "There they are!"
+    player_name "Вот они!"
     return
 
 label coachs_locker_locked_bissette_roxxy_pom_poms:
     show expression game.timer.image("coach_office{}_b")
     show player 12 with dissolve
-    player_name "I bet they're in that locker."
-    player_name "Looks like I'll need a key to get in."
+    player_name "Держу пари что они в этом шкафу."
+    player_name "Похоже Мне нужен ключ чтобы туда войти."
     hide player with dissolve
     return
 
 label coachs_locker_locked:
     show expression game.timer.image("coach_office{}_b")
     show player 1 with dissolve
-    player_name "Coach Bridget's locker is locked. I can't open it as I don't have the key."
+    player_name "Тренер Bridget's шкафчик закрыт. Я не могу его открыть так как у меня нет ключа."
     hide player with dissolve
     return
 
 label coachs_office_roxxy_pom_poms_right_time:
     show player 30 with dissolve
-    player_name "Alright, she's not in here."
+    player_name "Хорошо,её здесь нет."
     show player 14
-    player_name "This is my chance to find those {b}Pom Poms{/b}!"
+    player_name "Это мой шанс найти эти {b}Помпоны{/b}!"
     show player 3f with dissolve
     player_name "..."
     show player 38 at Position (xoffset=41) with dissolve
-    player_name "Now where could they be?"
+    player_name "Сейчас где же они могут быть?"
     hide coach
     hide player
     with dissolve
@@ -57,19 +57,19 @@ label coachs_office_roxxy_pom_poms_wrong_time:
     show coach 8 at right
     show player 23 at left
     with dissolve
-    player_name "Oh crap! She's in here!"
+    player_name "Вот дерьмо! Она здесь!"
     show player 22
     show coach 10
-    bri "Can I help you?"
+    bri "Я могу тебе помочь?"
     show coach 8
     show player 10
-    player_name "Err, umm..."
+    player_name "Err, эммм..."
     show player 11
     show coach 10
-    bri "Yes?"
+    bri "Да?"
     show coach 8
     show player 21
-    player_name "No, I was just..."
+    player_name "Нет,Я просто..."
     show player 27
     show coach 9
     bri "..."
@@ -77,12 +77,12 @@ label coachs_office_roxxy_pom_poms_wrong_time:
     show player 29
     show xtra 21 at left
     with dissolve
-    player_name "Excuse me, I need to use the restroom!"
+    player_name "Извините меня,мне нужно в туалет!"
     hide player
     hide xtra
     with dissolve
     show coach 10
-    bri "What a weirdo..."
+    bri "Что за чудак..."
     hide coach
     hide player
     with dissolve
@@ -100,7 +100,7 @@ label coachs_office_roxxy_pom_poms:
 
 label coach_locker_pom_poms:
     show coach_locker
-    player_name "Awesome!"
+    player_name "Круто!"
     call expression game.dialog_select("coach_locker_pom_poms_dialogue")
     $ player.get_item("pompoms")
 
@@ -113,16 +113,16 @@ label coach_locker_pom_poms_dialogue:
 
     scene expression game.timer.image("coach_office{}_b")
     show player 14 with dissolve
-    player_name "Now I just need to get these back to {b}Rox{/b}-"
+    player_name "Сейчас мне только нужно отнести их назад к {b}Rox{/b}-"
     show player 11
-    bri "Yeah, Yeah! Just head to the track and I'll meet you there."
-    bri "I need to change first."
+    bri "ДА, да! Просто направляйся по трассе и Я там тебя встречу."
+    bri "Сначала Я должна переодеться ."
     show player 22
     player_name "!!!" with hpunch
     show player 23
-    player_name "Oh crap! She's coming!"
-    player_name "I'm so dead! What am I gonna do!?"
-    player_name "I gotta hide somewhere!"
+    player_name "Вот дерьмо!Она придет!"
+    player_name "Я умру от страха!Что мне делать!?"
+    player_name "Я должен спрятаться где-нибудь!"
     hide player with dissolve
     return
 
@@ -138,21 +138,21 @@ label coachs_office_locker_hide_fail_dialogue:
     show coach 3 at Position (xpos=850)
     show player 22 at left
     with dissolve
-    bri "What are you doing in here?"
+    bri "Что ты здесь делаешь?"
     show coach 7
     show player 23
-    player_name "I... Uh..."
+    player_name "Я... эм..."
     show player 29 with dissolve
-    player_name "This... isn't the restroom?"
+    player_name "Это... не уборная?"
     show player 22 with dissolve
     show coach 4
-    bri "Get your scrawny ass out of here!"
+    bri "Уберай свою тощую задницу от сюда!"
     show coach 7
     show player 23
-    player_name "On my way!"
+    player_name "В пути!"
     hide player with dissolve
     show coach 10 at right with dissolve
-    bri "Weirdo."
+    bri "Чудила."
     hide coach with dissolve
     return
 
@@ -165,13 +165,13 @@ label coachs_office_locker_peeking:
 label coachs_office_locker_peeking_dialogue:
     scene expression game.timer.image("coach_office{}_b")
     show player 10 with dissolve
-    player_name "This is the only place to hide!"
-    player_name "I just have to hope she doesn't look in here."
+    player_name "Это единственное место где можно спрятаться!"
+    player_name "Мне просто нужно надеятся что она не заглянет сюда."
     hide player with dissolve
 
     scene coach_locker_cs1
     with fade
-    show text "It was a tight fit but I managed to get inside the locker and close the door.\nJust in time too, {b}Coach Bridget{/b} had almost caught me!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Здесь довольно тесно но я смог попать в шкафчик и закрыть дверь.\nКак раз вовремя,когда {b}Coach Bridget{/b} почти поймала меня!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -179,7 +179,7 @@ label coachs_office_locker_peeking_dialogue:
 
     scene coach_locker_cs2
     with fade
-    show text "All I could do now was keep quiet and hope she didn't find me." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Все что ядолжен сейчас сделать это сидеть тихо и надеяться что она не найдем меня." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -189,40 +189,40 @@ label coachs_office_locker_peeking_dialogue:
     show coach 1
     show coach_locker_peek_overlay
     with dissolve
-    player_name "( There she is! )"
-    player_name "( Please don't look in here... )"
+    player_name "( Вот она! )"
+    player_name "( Пожалуйста не смотри сюда... )"
     pause
     show coach 2
-    bri "Man, it sure is cookin' out there."
-    bri "I'm sweating like a whore in church!"
+    bri "Мэн, уверена что то там готовят снаружи."
+    bri "Я вспотела как шлюха в церкви!"
     show coach 11 with dissolve
-    player_name "( She's undressing! )"
-    player_name "( I am so dead if she finds me! )"
+    player_name "( Она раздевается! )"
+    player_name "( Я труп если она найдет меня! )"
     show coach 12 with dissolve
     pause
     show coach 13 at Position (xoffset=37) with dissolve
-    bri "Mmm, I hope you're paying attention!"
-    player_name "( Does she know?! )"
+    bri "Мммм, Я думаю что ты обращал внимания!"
+    player_name "( Она знает?! )"
     pause
     show coach 14 at Position (xoffset=51) with dissolve
-    bri "I'd hate for you to miss the gun show!"
+    bri "Я бы хотела что бы ты пропустил оружейную выстовку!"
     player_name "( ... )"
     pause
-    bri "Damn girl!"
-    bri "Better put those away before they hurt somebody."
+    bri "Проклятая девченка!"
+    bri "Лучше убрать это прежде чем они ранят кого-нибудь."
     show coach 12 with dissolve
-    player_name "( What a weirdo... )"
+    player_name "( Что за извращенка... )"
     show coach 11 with dissolve
     pause
     show coach 9 with dissolve
     pause
     show coach 10
-    bri "Huh. Thought I heard something."
-    bri "Must have been my imagination..."
+    bri "Хмм. Кажется я что то слышала."
+    bri "Наверно это мое воображение..."
     hide coach with dissolve
     pause
     pause
-    player_name "( I think she's gone. )"
+    player_name "( Думаю что она ушла. )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

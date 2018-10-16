@@ -284,10 +284,10 @@ label aunt_button_dialogue:
 
                 call expression game.dialog_select("dianes_dialogue_after_fun_talk_about_debbie_intro")
                 menu:
-                    "Yes.":
+                    "Да.":
                         call expression game.dialog_select("dianes_dialogue_after_fun_talk_about_debbie_confess")
                         call expression game.dialog_select("dia_default_dialogue_options_kitchen")
-                    "No.":
+                    "Нет.":
 
                         call expression game.dialog_select("dianes_dialogue_after_fun_talk_about_debbie_do_not_confess")
                         call expression game.dialog_select("dia_default_dialogue_options_kitchen")

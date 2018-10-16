@@ -1,19 +1,19 @@
 label printer_dialogue_bissette_scan_missing_pages:
     show xtra 40
     show player 520 at Position (xpos=375) with dissolve
-    player_name "Okay, now I just set the book on the here..."
-    player_name "And press...."
-    player_name "This button!"
+    player_name "Хорошо, сейчас Мне нужно просто положить эту книгу сюда..."
+    player_name "И нажать на...."
+    player_name "Эту кнопку!"
     player_name "..."
     player_name "..."
-    player_name "PC load letter? What the heck does that mean?"
-    player_name "Maybe I should {b}ask someone here{/b} how to get this thing to work."
+    player_name "PC Письмо Загрузки? Что черт возьми это значит?"
+    player_name "Может мне стоит{b}Попросить кого-нибудь{/b} как заставить эту штуку работать."
     hide player with dissolve
     return
 
 label printer_dialogue_bissette_print_poem_assignment:
     show player 518 at left with dissolve
-    player_name "Print!"
+    player_name "Печать!"
     show player 519 with vpunch
     show xtra_paper 39 at Position (xoffset=100) with dissolve
     pause .25
@@ -21,13 +21,13 @@ label printer_dialogue_bissette_print_poem_assignment:
     show player 184 with dissolve
     pause    
     show player 386 with dissolve
-    player_name "Alright! Now to hand in my French poem."
+    player_name "Хорошо!Теперь у меня в руках Французкая поэма."
     hide player with dissolve
     return
 
 label printer_dialogue_nothing:
     show player 4 at left with dissolve
-    player_name "I have nothing I need to print at the moment."
+    player_name "У меня ничего нет что бы распечатать в данный момент."
     hide player with dissolve
     return
 

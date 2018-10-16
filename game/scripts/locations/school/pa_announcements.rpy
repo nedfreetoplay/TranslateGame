@@ -6,235 +6,235 @@ label pa_announcement:
 
 label pa_announcement_1:
     show player 35b
-    PA "Attention Seniors:"
-    PA "The end of the term is quickly approaching and you know what that means..."
-    PA "It's time to find yourself a date and hit the dance floor at our Annual Sorority Ball!"
-    PA "We hope to see you all there!"
+    PA "Выпускникики, внимание:"
+    PA "Семестр вот-вот закончится, и вы знаете, что это значит..."
+    PA "Самое время найти себе пару для Ежегодного Бала!"
+    PA "Надеемся всех там увидеть!"
     player_name "..."
     return
 
 label pa_announcement_2:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that PDA is strictly forbidden within the halls of Summerville College..."
-    PA "So keep your hands and more importantly your genitals to yourselves!"
-    PA "Thank you and have a great day!"
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что в стенах школы запрещена публичная демонстрация любви..."
+    PA "Так что держите свои руки и, самое главное, свои гениталии при себе!"
+    PA "Спасибо за ваше внимание, удачного дня!"
     player_name "..."
     return
 
 label pa_announcement_3:
     show player 35b
-    PA "Attention:"
-    PA "{b}Principal Smith{/b}, you have a large package waiting for you in your office."
+    PA "Внимание:"
+    PA "{b}Principal Smith{/b}, в ваш офис была доставлена огромная посылка."
     show player 35
-    PA "I repeat."
-    PA "{b}Principal Smith{/b}, you have a large package waiting for you in your office."
+    PA "Повторяю."
+    PA "{b}Principal Smith{/b}, в ваш офис была доставлена огромная посылка."
     player_name "..."
     return
 
 label pa_announcement_4:
     show player 35b
-    PA "Attention Students:"
-    PA "Taco Day in the cafeteria has been cancelled, do to a malfunctioning refrigeration unit."
-    PA "Chili will be served as a substitute."
+    PA "Ученики, внимание:"
+    PA "День Тако отменяется из-за неисправности холодильника."
+    PA "Вместо Тако сегодня будет подано Чили."
     show player 35
-    PA "... On an unrelated note. Anyone showing signs of food poisoning should be brought to the main office immediately."
-    PA "Thank you and have a pleasant day!"
+    PA "... Ох, и кстати. Всех, кто будет демонстрировать признаки отравления, нужно незамедлительно доставить в медпункт."
+    PA "Удачного дня!"
     player_name "..."
     return
 
 label pa_announcement_5:
     show player 35b
-    PA "Attention Faculty:"
-    PA "Whoever left the brownies in the teacher's lounge is asked to report to {b}Principal Smith{/b}'s office asap."
+    PA "Учителя, внимание:"
+    PA "Тот, кто оставил пирожное в учительской, должен немедленно явиться в офис {b}Principal Smith{/b}."
     show player 35
-    PA "I repeat."
-    PA "Whoever left the brownies in the teacher's lounge is asked to report to {b}Principal Smith{/b}'s office asap."
-    PA "Thank you!"
+    PA "Повторяю."
+    PA "Тот, кто оставил пирожное в учительской, должен немедленно явиться в офис {b}Principal Smith{/b}."
+    PA "Спасибо за ваше внимание!"
     player_name "..."
     return
 
 label pa_announcement_6:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that bullying is a strongly frowned upon here at Summerville College."
-    PA "Anyone who feels they are being bullied is encouraged to report the situation to our student well-being representative, {b}Dexter{/b}."
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Это напоминание о том, что в нашей школе не допускаются все виды хулиганства."
+    PA "Если вы считает, что вас задирают или травят, сообщите об этом уполномоченному по этим делам {b}Dexter{/b}."
+    PA "Удачного вам дня!"
     player_name "..."
     return
 
 label pa_announcement_7:
     show player 35b
-    PA "Attention Faculty:"
-    PA "This is a reminder that alchohalic beverages are strictly prohibited within Summerville College."
-    PA "This includes personal offices."
+    PA "Учителя, внимание:"
+    PA "Напоминаем вам, что нахождение алкогольных напитков на территории школы абсолютно недопустимо."
+    PA "Даже в ваших личных офисах."
     show player 43
-    PA "Thank you and have a pleasant day!"
+    PA "Спасибо за понимание, удачного дня!"
     player_name "..."
     return
 
 label pa_announcement_8:
     show player 35b
-    PA "Attention Students:"
-    PA "We would like to invite you all to come out and support our school Basketball Team."
-    PA "I mean, sure. They're 0-12 this season but that doesn't mean we can't show our school pride by attending!"
+    PA "Ученики, внимание:"
+    PA "Мы просим вас пойти поддержать нашу команду по баскетболу."
+    PA "То есть, в этом сезоне они конечно идут 0-12, но мы все равно должны показать, как наша школа ими гордится!"
     show player 43
-    PA "Come and cheer them on as they look to acquire their first win of the season!"
+    PA "Идите и хлопайте так, будто они вот-вот вырвут первую победу за сезон!"
     player_name "..."
     return
 
 label pa_announcement_9:
     show player 35b
-    PA "Attention Students:"
-    PA "We are still looking to fill a few spots on the Summerville Athletics Team."
-    PA "Speak with Coach Bridget if you are interested in representing your school out on the track!"
-    PA "... No Wussies allowed."
+    PA "Ученики, внимание:"
+    PA "В команде атлетов есть ещё несколько мест."
+    PA "Если вы хотите представлять нашу школу на соревнованиях - поговорите с тренером Bridget!"
+    PA "...  Только никаких Wussies."
     show player 35
     player_name "..."
     return
 
 label pa_announcement_10:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that defacing school property is a crime!"
-    PA "... And any student caught doing this will be handed over to the proper authorities."
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что порча школьного имущества - это преступление!"
+    PA "... Тот, кто будет пойман за эти занятем, будет немедленно передан в соответствующие органы."
+    PA "Удачно дня!"
     player_name "..."
     return
 
 label pa_announcement_11:
     show player 35b
-    PA "Attention Students:"
-    PA "The Sexual Education DVD's stolen from Coach Bridget's office are still unaccounted for."
+    PA "Ученики, внимание:"
+    PA "DVD c курсом сексуального просвещения был похищен из офиса тренера Bridget."
     show player 43
-    PA "If anyone has any information regarding the DVD's whereabouts or the person who stole them."
-    PA "Please report to Coach Bridget immediately!"
-    PA "Thank you and have a pleasant day!"
+    PA "Если вам известно его местоположение или вы знаете, кто его украл."
+    PA "Немедленно сообщите об этом Bridget!"
+    PA "Спасибо за внимание, удачного вам дня!"
     player_name "..."
     return
 
 label pa_announcement_12:
     show player 35b
-    PA "Attention Music Lovers:"
-    PA "{b}Miss Dewitt{/b} is still looking for talented individuals to aid her in forming a school band."
-    PA "If you have any interest, please report to her after class."
-    PA "Thank you and have a pleasant day!"
+    PA "Любители музыки:"
+    PA "{b}Мисс Dewitt{/b} всё ещё набирает талантливых учеников для создания школьной музыкальной группы."
+    PA "Если вы хотите принять в этом участие, сообщите ей об этом после занятий."
+    PA "Спасибо за внимание, удачного дня!"
     show player 35
     player_name "..."
     return
 
 label pa_announcement_13:
     show player 35b
-    PA "Attention Students:"
-    PA "Miss Okita would like to remind students that lab coat and safety glasses must be worn inside the school lab at all times."
-    PA "Anyone failing to abide this rule will be subject to strict disciplinary action."
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Мисс Okita просит напомнить вам, что лабораторный халат и защитные очки должны все время храниться в школе."
+    PA "Каждый нарушивший это правило, будет подвергнут исправительным мероприятиям."
+    PA "Удачного дня!"
     show player 35
     player_name "..."
     return
 
 label pa_announcement_14:
     show player 35b
-    PA "Attention:"
-    PA "To the owner of the red Conda Hivic, License number - 637 5chw1f7y."
-    PA "Your car is illegally parked and will be towed if you don't move it immediately."
+    PA "Внимание:"
+    PA "Владелец Conda Hivic, с номером - 637 5chw1f7y."
+    PA "Ваша машина припаркована незаконно, и если сейчас же не будет переставлена - её отправят на штраф стоянку."
     show player 35
-    PA "... Again."
-    PA "To the owner of the red Conda Hivic, License number - 637 5chw1f7y."
-    PA "Your car is illegally parked and will be towed if you don't move it immediately."
-    PA "Thank you!"
+    PA "... Повторяю."
+    PA "Владелец Conda Hivic, с номером - 637 5chw1f7y."
+    PA "Ваша машина припаркована незаконно, и если сейчас же не будет переставлена - её отправят на штраф стоянку."
+    PA "Спасибо за внимание!"
     player_name "..."
     return
 
 label pa_announcement_15:
     show player 35b
-    PA "Attention Art Lovers:"
-    PA "{b}Miss Ross{/b} will be offering a special, one time lecture, to students this Saturday."
-    PA "... Entitled, 'Finding the Happiness in Everything!'"
-    PA "Anyone attending is encouraged to bring snacks."
-    PA "Thank you and have a pleasant day!"
+    PA "Любители искусства!:"
+    PA "{b}Мисс Ross{/b} проводит особую лекцию в эту среду."
+    PA "... Она называется, 'Находим счастье во всем!'"
+    PA "Всем желающим посетить лекцию просьба принести с собой закуски."
+    PA "Удачного вам дня!"
     show player 43
     player_name "..."
     return
 
 label pa_announcement_16:
     show player 35b
-    PA "Attention:"
-    PA "Miss Bissette, your presence is requested on the third floor immediately."
-    PA "We have reports of a foul odor emanating from your office."
+    PA "Внимание:"
+    PA "Мисс Bissette, явитесь на третий этаж как можно скорее."
+    PA "Мы получаем сообщения о неприятном запахе, что исходит из вашего офиса."
     show player 35
-    PA "I repeat."
-    PA "Miss Bissette to the third floor, immediately."
-    PA "Thank you!"
+    PA "Повторяю."
+    PA "Мисс Bissette на третий этаж, немедленно."
+    PA "Спасибо за внимание!"
     player_name "..."
     return
 
 label pa_announcement_17:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that pornographic material is not allowed on school property."
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что порнография запрещена в стенах школы."
     show player 43
-    PA "... And yes, that does include nude drawings of green skinned fantasy characters."
-    PA "Thank you and have a pleasant day!"
+    PA "... И да, это относится и к этим странным рисункам персонажей с зеленой кожей."
+    PA "Спасибо за внимание, удачного дня!"
     player_name "..."
     return
 
 label pa_announcement_18:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that striking school property is expressly forbidden."
-    PA "... Unless it's that piece of shit printer in the computer lab."
-    PA "In which case it's expressly encouraged!"
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что стучать по школьной собственности запрещенно."
+    PA "... Ну, только если это не тот дерьмовый принтер в компьютерном классе."
+    PA "В таком случае некоторое постукивание просто необходимо!"
     show player 43
-    PA "Thank you and have a pleasant day!"
+    PA "Спасибо за внимание, удачного вам дня!"
     player_name "..."
     return
 
 label pa_announcement_19:
     show player 35b
-    PA "Attention Students:"
-    PA "We've received several complaints involving the theft of used panties from the locker room."
-    PA "We encourage anyone with information regarding these incidents to come forward immediately."
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Мы получили несколько жалоб, в том числе кражу потных трусиков из раздевалки."
+    PA "Если у вас есть хоть какая-нибудь информация, просим немедленно сообщить уполномоченным."
+    PA "Удачного дня!"
     show player 35
     player_name "..."
     return
 
 label pa_announcement_20:
     show player 35b
-    PA "Attention Cheerleaders:"
-    PA "Tonight's practice has been suspended in favor of what Coach Bridget referred to as - Real Sports."
-    PA "Thank you and have a pleasant day!"
+    PA "Внимание Чирлидерши:"
+    PA "Сегодняшняя тренировка была пересена из-за того, что тренер Bridget назвала 'Настоящим спортом'."
+    PA "Спасибо за внимание!"
     show player 43
     player_name "..."
     return
 
 label pa_announcement_21:
     show player 35b
-    PA "Attention Basketball Players:"
-    PA "An xtra xtra small jock-strap was found abandoned after practice lastnight."
-    PA "If the owner of said jock-strap would like to reclaim it, please come to the main office at your earliest convenience."
-    PA "Thank you and have a pleasant day!"
+    PA "Внимание, баскетболисты:"
+    PA "Очень очень очень маленькие стринги были найдены после прошлой тренеровки."
+    PA "Если владелец заходит их забрать, пусть зайдет к тренеру."
+    PA "Спасибо за внимание, удачного дня!"
     show player 43
     player_name "..."
     return
 
 label pa_announcement_22:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that your personal lockers are not meant for food storage."
-    PA "Please be considerate of others and clean those disgusting things out once in awhile..."
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что ваши ящики не предназначены для хранения еды."
+    PA "Просим вас, будьте адекватней, и вычистите наконец этот ужас..."
+    PA "Удачного дня!"
     show player 35
     player_name "..."
     return
 
 label pa_announcement_23:
     show player 35b
-    PA "Attention Students:"
-    PA "This is a reminder that roof access is strictly forbidden."
-    PA "When asked about the subject, {b}Principal Smith{/b} commented, 'This isn't Japan, you fucking weebs...'"
-    PA "Thank you and have a pleasant day!"
+    PA "Ученики, внимание:"
+    PA "Напоминаем вам, что вам строго запрещено выходить на крышу."
+    PA "По этому вопросу {b}Principal Smith{/b} дала следующий комментарий, 'Здесь вам не Япония, чертовы анимешники...'"
+    PA "Спасибо за внимание, удачного дня!"
     show player 43
     player_name "..."
     return

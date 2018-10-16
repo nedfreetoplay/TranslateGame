@@ -1,13 +1,13 @@
 label french_classroom_bissette_quiz:
     scene french_class_c
     show teacher 2 with dissolve
-    bis "Take your seats, everyone. The test will begin shortly."
+    bis "Все займите свои места. Тест начнется в ближайшее время."
     scene black with fade
     pause 1
-    bis "Alright, class."
-    bis "Match the French word with the corresponding object on your test."
-    bis "C'est plutôt facile, non?"
-    bis "Let's begin!"
+    bis "Хорошо, класс."
+    bis "Сопоставьте французское слово с соответствующим объектом в тесте."
+    bis "Это довольно легко, не так ли?"
+    bis "Давайте начнем!"
     call screen french_quiz
 
 label french_classroom_bissette_quiz_fail:
@@ -15,28 +15,28 @@ label french_classroom_bissette_quiz_fail:
     show player 5 at left
     show teacher 5 at right
     with dissolve
-    bis "Oh no. {b}[firstname]{/b}, I thought you were prepared for this?"
+    bis "О нет. {b}[firstname]{/b}, Я думал, ты готов к этому?"
     show teacher 4
     show player 10
-    player_name "You mean I didn't pass?"
+    player_name "Хочешь сказать, я не сдал экзамен?"
     show player 5
     show teacher 5
-    bis "I'm afraid not..."
+    bis "Боюсь, что нет..."
     show teacher 4
     show player 37 with dissolve
-    player_name "I'm so sorry, {b}Miss Bissette{/b}!"
+    player_name "Мне так жаль, {b}Miss Bissette{/b}!"
     show player 5 with dissolve
     show teacher 5
-    bis "You must come back tomorrow and retake it."
+    bis "Вы должны вернуться завтра и пересдать его."
     show teacher 4
     show player 12
-    player_name "Alright, I can do that!"
+    player_name "Хорошо, я могу это сделать!"
     show player 5
     show teacher 5
-    bis "I suggest you study harder this time, yes?"
+    bis "Я предлагаю тебе учиться усерднее, да?"
     show teacher 4
     show player 24
-    player_name "Yes, Ma'am."
+    player_name "Да, мэм"
     hide teacher
     hide player
     with dissolve
@@ -45,7 +45,7 @@ label french_classroom_bissette_quiz_fail:
 label french_classroom_bissette_quiz_pass:
     scene french_class_cs10
     with fade
-    show text "I breezed right through the test, making sure my paper was visible to {b}Roxxy{/b}.\nShe wasn't very subtle about copying me but {b}Miss Bissette{/b} didn't seem to notice.\nI was excited to be done with French and claim my special reward from {b}Miss Bissette{/b}." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Roxxy{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт, кажется, не заметила.\nЯ был взволнован, чтобы быть сделано с французским и претендовать на мою специальную награду от {b}Miss Bissette{/b}." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     scene black with fade
@@ -54,47 +54,47 @@ label french_classroom_bissette_quiz_pass:
     show player 5 at left
     show teacher 3 at right
     with dissolve
-    bis "Toutes mes félicitations, {b}[firstname]{/b}!"
+    bis "Поздравляю., {b}[firstname]{/b}!"
     show teacher 1
     show player 38 with dissolve
-    player_name "I passed?!"
+    player_name "Я сдал?!"
     show player 13 with dissolve
     show teacher 2
-    bis "You got a perfect score!"
+    bis "Вы получили высший балл!"
     show teacher 1
     show player 14
-    player_name "Awesome!"
+    player_name "Потрясающе!"
     show player 13
     show teacher 2
-    bis "I'd say you earned your A+."
+    bis "Я бы сказала ты заработал 5 баллов."
     show teacher 1
     show player 14
-    player_name "Thank you so much {b}Miss Bissette{/b}!"
+    player_name "Огромное спасибо {b}Miss Bissette{/b}!"
     show player 13
     show teacher 12
-    bis "My pleasure, {b}[firstname]{/b}!"
+    bis "Я удивлена {b}[firstname]{/b}!"
     show teacher 25 with dissolve
-    bis "We should celebrate, yes?"
+    bis "Мы должны отпраздновать, да?"
     show teacher 27 with dissolve
     show player 14
-    player_name "Sure, what did you have in mind?"
+    player_name "Конечно, что ты имеешь в виду?"
     show player 13
     show teacher 26 with dissolve
-    bis "Hmm, why don't you {b}join me in my office this evening{/b}?"
+    bis "Хм, почему бы тебе не {b}присоединится ко мне в моем офисе этим вечером{/b}?"
     show teacher 16 with dissolve
-    bis "Perhaps we could sample that French wine I told you about?"
+    bis "Может, попробуем то французское вино, о котором я тебе говорила?"
     show teacher 17
     show player 26
-    player_name "O-okay. I've never had wine before."
+    player_name "Х-хорошо, но я никогда раньше не пил вина."
     show player 13
     show teacher 26 with dissolve
-    bis "Well then you are in for a real treat, jeune homme!"
+    bis "Вот и пропробуешь."
     show teacher 27 with dissolve
     show player 14
-    player_name "I'll see you tonight then."
+    player_name "Тогда увидимся вечером."
     show player 13
     show teacher 12 with dissolve
-    bis "Au revoir, {b}[firstname]{/b}."
+    bis "Увидимся, {b}[firstname]{/b}."
     hide teacher
     hide player
     with dissolve

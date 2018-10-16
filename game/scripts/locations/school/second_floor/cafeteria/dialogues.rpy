@@ -2,62 +2,62 @@ label cafeteria_milk_delivery:
     scene cafeteria_b
     show player 163 at left with dissolve
     show annie 3 at right with dissolve
-    ann "What's going on here??"
+    ann "Что здесь происходит??"
     show annie 1
     show player 164
-    player_name "Hi {b}Annie{/b}! I uh..."
+    player_name "Привет {b}Annie{/b}! Я эм..."
     show annie 9
-    player_name "Well, I'm supposed to drop this off here in the cafeteria."
-    player_name "It's a {b}milk{/b} delivery!"
+    player_name "Что ж, Я должен был доствить это в кафетерию."
+    player_name "Это доставка{b}Молока{/b}!"
     show annie 4
     show player 163
-    ann "I know what it is. I have eyes."
-    ann "What I don't understand, is why you're the one delivering it."
+    ann "Я знаю что это.У меня есть глаза."
+    ann "Чего я не понимаю,почему именно ты доставляешь это."
     show annie 1
     show player 164
-    player_name "... Because the woman who makes it asked me to."
-    player_name "I'm helping her."
-    player_name "Here's the {b}invoice{/b}!"
+    player_name "... Потому что женщина которая это делает попрасила меня доставить."
+    player_name "Я помогаю ей."
+    player_name "Вот сдесь{b}счет{/b}!"
     show annie 12
     show player 163
-    ann "Hmm..."
+    ann "Хмм..."
     show annie 13
-    ann "I can't accept this."
-    ann "You need to take it up to {b}Principal Smith{/b} on the {b}third floor{/b}."
+    ann "Я не могу это принять."
+    ann "Тебе нужно поговорить с {b}Директрисой Smith{/b} на {b}Третьем этаже{/b}."
     show annie 6
     show player 164
-    player_name "But-"
+    player_name "Но-"
     show player 163
     show annie 5
-    ann "I can't trust someone who's unauthorized for deliveries!"
-    ann "If {b}Principal Smith{/b} approves it, I'll take it from you."
+    ann "Я не могу доверять кому-то кто лишен полномочий для доставки!"
+    ann "Если{b}Директриса Smith{/b} одобрит это, я возьму это у тебя."
     show annie 6
     show player 164
-    player_name "Alright, fine..."
+    player_name "Хорошо, отлично..."
     return
 
 label cafeteria_milk_delivery_invoice:
     scene cafeteria_b
     show player 164 at left with dissolve
     show annie 1 at right with dissolve
-    player_name "All done!"
+    player_name "Все сделано!"
     show annie 9
     show player 163
     ann "..."
     show annie 3
-    ann "{b}Principal Smith{/b} took the {b}invoice{/b}?"
+    ann "{b}Директриса Smith{/b} взяла {b}счет{/b}?"
     show annie 1
     show player 164
-    player_name "Yeah, she was... kind of... busy. But she said I should give it to you."
+    player_name "Да, она была... отчасти... занята.Однако она сказала что я должен отдать его тебе."
     show annie 5
     show player 163
-    ann "I see..."
+    ann "Я вижу..."
     show annie 15
     show player 1
-    ann "I'll take these from you, then."
+    ann "Я тогда я заберу это."
     show annie 14
     show player 17
-    player_name "Thanks, {b}Annie{/b}!"
+    player_name "Спасибо, {b}Annie{/b}!"
     hide player
     hide annie
     with dissolve
@@ -67,64 +67,64 @@ label cafeteria_erik_favor_not_known:
     scene cafeteria_b
     show player 2 at left with dissolve
     show kevin 1 at right with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Хэй, {b}Kevin{/b}!"
     show player 1 at left
     show kevin 2 at right
-    kev "Hey, dude..."
+    kev "Ъэй, чувак..."
     show kevin 1 at right
     show player 10 at left
-    player_name "You're on cafeteria duties huh..."
+    player_name "ты правда работаешь в кафитерии..."
     show kevin 2 at right
     show player 13 at left
-    kev "Yep! I got two more months of this crap."
+    kev "Ага!Мне осталось еще 2 месяца этого дерьма."
     show kevin 1 at right
     show player 17 at left
-    player_name "That sucks."
+    player_name "Это хреново."
     show kevin 2 at right
     show player 1 at left
-    kev "Yeah but what can I do?"
-    kev "By the way, was {b}Dexter{/b} giving you guys a hard time in the hallway?"
+    kev "Да но что я могу сделать?"
+    kev "Кстати,{b}Dexter{/b} делает вам трудные деньки в коридорах ?"
     show kevin 1 at right
     show player 24 at left
-    player_name "Yeah, he and {b}Roxxy{/b} are always on our case..."
+    player_name "Да, он и {b}Roxxy{/b} всегда по нашу душу..."
     show player 26 at left
-    player_name "But it's nothing. I don't really care about what they say."
+    player_name "Но это ничто. Мне все равно что они там говорят."
     show kevin 3 at right
     show player 11 at left
-    kev "Dude. You gotta stand up for yourself."
+    kev "Чувак.Ты должен уметь постоять за себя."
     show kevin 1 at right
     show player 10 at left
-    player_name "I'd rather just avoid him, you know?"
-    player_name "There's no point in getting into a fight with a guy twice my size."
+    player_name "Я бы лучше избежал этого с ним, ты понимаешь?"
+    player_name "Нет смысла начинать драку с парнем который в двое больше меня."
     show kevin 3 at right
     show player 11 at left
-    kev "You can't let him walk all over you. How're you going to survive college like that?"
+    kev "Ты не можешь позволять ему все время не считаться с тобой.Как ты собираешься выживать в колледже вот так?"
     show kevin 1 at right
     show player 24 at left
-    player_name "Well, I'm just too weak to do anything about it."
+    player_name "Что ж,Я слишком слаб что бы что то с этим поделать."
     show kevin 4 at right
     show player 11 at left
-    kev "Hmm... Maybe we could work something out."
+    kev "Хмм... Возможно мы погли бы что нибудь придумать."
     show kevin 1 at right
     show player 10 at left
-    player_name "What do you mean?"
+    player_name "Что ты имеешь в виду?"
     show kevin 4 at right
     show player 1 at left
-    kev "Well, I could help you work out at the {b}Gym{/b}..."
-    kev "Like spotting you when you're lifting, and show you some tricks."
+    kev "Ну,я бы мог помочь тебе с тренеровками в {b}Спортзале{/b}..."
+    kev "Посмотреть на тебя что ты можешь и когда ты более не менее освоишься показать тебе несколько трюков."
     show kevin 2 at right
     show player 34 at left
-    kev "But you'll have to {b}find someone to take my spot{/b} in the cafeteria."
-    kev "I can't take any more of this."
+    kev "Но тебе придется {b}Найти кого то на мое место{/b} в кафитерии."
+    kev "Я не могу больше это выносить."
     show player 34 at left
     show kevin 1 at right
-    player_name "Alright! I can try and find someone who could swap with you."
+    player_name "Хорошо! Я могу попробовать найти кого то кто может поменяться с тобой."
     show kevin 2 at right
     show player 1 at left
-    kev "Alright man. I have to get back to work. Catch you later!"
+    kev "Отлично мэн. Мне нужно возвращаться к работе.Увидимся позже!"
     show kevin 1 at right
     show player 36 at left
-    player_name "See you later, {b}Kevin{/b}!"
+    player_name "Еще Увидимся, {b}Kevin{/b}!"
     hide player
     hide kevin
     with dissolve
@@ -134,60 +134,60 @@ label cafeteria_erik_favor_known_intro:
     scene cafeteria_b
     show player 2 at left with dissolve
     show kevin 1 at right with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Хэй, {b}Kevin{/b}!"
     show kevin 2 at right
     show player 1 at left
-    kev "Hey, dude..."
-    kev "Were you able to find someone to take over my cafeteria duties?"
+    kev "Хэй, чувак..."
+    kev "Удалось ли тебе найти кого-то кто смог бы взять на себя мои кафитерные обязательства?"
     return
 
 label cafeteria_erik_favor_known_found_replacement:
     show player 14 at left
     show kevin 1 at right
-    player_name "I think I found a replacement!"
+    player_name "Я думаю Я нашел замену!"
     show kevin 2 at right
     show player 1 at left
-    kev "No way, man! That's awesome!"
-    kev "Who's taking my spot?"
+    kev "Не может быть, мужик! Это круто!"
+    kev "Кто займет мое место?"
     show kevin 1 at right
     show player 17 at left
-    player_name "It's {b}Erik{/b}... And I had to bribe him..."
+    player_name "Это {b}Erik{/b}... и мне пришлось подкупить его..."
     show kevin 2 at right
     show player 1 at left
-    kev "Haha! Well, thanks, dude!"
-    kev "Now I can spend more time at the {b}Gym{/b}!"
+    kev "Хаха! Что ж, спасибо,чувак!"
+    kev "Теперь я смогу проводить больше времени в{b}Спортзале{/b}!"
     show kevin 6 at right
     show player 11 at left
-    kev "...And I won't be needing this anymore!"
+    kev "...И мне она больше не понадобиться этим заниматься!"
     show kevin 5 at right
     show player 12 at left
-    player_name "That thing is nasty..."
+    player_name "Это мерзко..."
     show kevin 12 at right
     show player 1 at left
-    kev "Hey! If you're looking for a Gym BRO, you'll know where to find me!"
+    kev "Хэй! Если ты найдешь спортзал бро,ты знаешь где меня найти!"
     show kevin 5 at right
     show player 14 at left
-    player_name "Alright! I'll come by!"
+    player_name "Хорошо! Я зайду!"
     return
 
 label cafeteria_erik_favor_known_not_yet:
     show kevin 1 at right
     show player 26 at left
-    player_name "Not yet, But I'll keep looking!"
+    player_name "Пока нет, Я продолжу поиски!"
     show kevin 3 at right
     show player 1 at left
-    kev "All right..."
+    kev "Хорошо..."
     return
 
 label cafeteria_erik_favor_known:
     call expression game.dialog_select("cafeteria_erik_favor_known_intro")
     menu:
-        "I think so!" if erik.known(erik_favor_2):
+        "Я так думаю!" if erik.known(erik_favor_2):
             call expression game.dialog_select("cafeteria_erik_favor_known_found_replacement")
             $ erik_favor_2.finish()
             $ M_kevin.set_default_locations([[L_gym, L_school_cafeteria, L_gym, L_NULL],
                                             [L_gym, L_gym, L_gym, L_NULL]])
-        "Not yet.":
+        "Пока нет.":
 
             call expression game.dialog_select("cafeteria_erik_favor_known_not_yet")
     hide player
@@ -199,29 +199,29 @@ label cafeteria_erik_favor_2_completed:
     scene cafeteria_b
     show player 36 at left with dissolve
     show erik 11 at right with dissolve
-    player_name "Hey, {b}Erik{/b}!"
+    player_name "Привет, {b}Erik{/b}!"
     show erik 12 at right
     show player 1 at left
-    eri "Hey, {b}[firstname]{/b}!"
+    eri "Привет, {b}[firstname]{/b}!"
     show erik 11 at right
     show player 21 at left
-    player_name "Soo... How's the cafeteria duties?"
+    player_name "И так... Как твои обязаности в кафетерии?"
     show erik 12 at right
     show player 13 at left
-    eri "It could be worse, I guess."
-    eri "I usually don't do much during lunch at school, anyway..."
+    eri "Могло быть и хуже, Я думаю."
+    eri "В общем я обычно не занимался ничем в течении обеда в школе..."
     show erik 11 at right
     show player 17 at left
-    player_name "I'm glad you're okay with it."
+    player_name "Я очень рад что ты согласился с этим."
     show erik 12 at right
     show player 1 at left
-    eri "I get to go home and play {b}Sea Dogs SAGA{/b}!"
+    eri "Я хочу скорее вернуться домой чтобы поиграть в {b}Sea Dogs SAGA{/b}!"
     show erik 11 at right
     show player 14 at left
-    player_name "Cool! Well, I'll let you go back to your duties..."
+    player_name "Круто! Что ж, я позволю вернуться тебе к своим обязанностям..."
     show erik 11 at right
     show player 1 at left
-    eri "See ya later!"
+    eri "Увидимся позже!"
     hide erik
     hide player
     with dissolve

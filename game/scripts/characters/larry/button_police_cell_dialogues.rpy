@@ -3,62 +3,62 @@ label larry_police_cell_dialogue_erik_father_forgive_known:
     show cell_bars at left
     show larry_hands at Position (xpos=400,ypos=658)
     show player 5f at right with dissolve
-    larry "Hey! You!"
+    larry "Хэй! Ты!"
     show larry 14
     show player 11f
     player_name "!!!"
     show player 12f
-    player_name "Umm...Yeah?"
-    player_name "What do you want?"
+    player_name "Эмм...Да?"
+    player_name "Что ты хочешь?"
     show player 16f
     show larry 15
-    larry "Listen, I'm not mad at you for what you did."
-    larry "I deserve this."
+    larry "Слушай, Я не злюсь на тебя за то что ты сделал."
+    larry "Я это заслужил."
     show larry 14
     show player 5f
     player_name "..."
     show larry 15
-    larry "I know what I was doing was bad, okay?."
-    larry "I just... I was hoping you'd give {b}Tammy{/b} a message from me?"
+    larry "Я знаю, что я делал было плохо, окей?."
+    larry "Я только... Я недаюсь что ты сможешь передать {b}Tammy{/b} послание от меня?"
     show larry 14
     show player 10f
-    player_name "I'm not sure that's a good idea..."
+    player_name "Я не думаю что эта хорошая идея..."
     show player 5f
     show larry 15
-    larry "I need you to tell her that I'm sorry!"
-    larry "I'm sorry for everything..."
+    larry "Мне нужно что бы ты сказал ей что я прошу прощения!"
+    larry "Я извиняюсь за все..."
     show larry 14
     show player 12f
-    player_name "I don't know if I should."
+    player_name "Я не знаю должен ли я."
     show player 5f
     show larry 15
-    larry "Please!"
-    larry "I... I can help you!"
+    larry "Пожалуйста!"
+    larry "Я... Я могу тебе помочь!"
     show larry 14
     show player 10f
-    player_name "Huh?"
+    player_name "Хм?"
     show player 11f
     show larry 15
-    larry "I stashed a bag full of stolen things I took."
-    larry "I'll tell you where it is if you just tell {b}Tammy{/b} I'm sorry."
-    larry "I just don't want her to hate me forever, you know?"
-    larry "I should never left her..."
+    larry "Я спрятал полную сумку украденых вещей которых я взял."
+    larry "Я скажу тебе куда если ты просто скажешь{b}Tammy{/b} что я извиняюсь."
+    larry "Я просто не хочу, чтобы она всегда меня ненавидела, ты знаешь?"
+    larry "Я не должен был её оставлять..."
     show larry 14
     show player 34f
     player_name "..."
     show larry 15
     show player 5f
-    larry "You can return the stolen goods to the police, or keep them! I don't care."
-    larry "Just please tell her I'm sorry..."
-    larry "Hopefully, she can find it in her heart to forgive me one day..."
+    larry "Ты можешь вернуть украденое в полицию, или оставить их себе! Мне все равно."
+    larry "Только пожалуйста скажи ей как я сожелею..."
+    larry "Возможно,однажды она сможет найти силы в своем сердце что бы простить меня..."
     show larry 14
     show player 35f
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 12f
-    player_name "I suppose I could. I'll see what I can do."
+    player_name "Думаю я смогу. Я посмотрю что я смогу сделать."
     show player 5f
     show larry 15
-    larry "Thanks, kid!"
+    larry "Спасибо, парнишка!"
     return
 
 label larry_police_cell_dialogue_erik_father_forgive_started:
@@ -66,14 +66,14 @@ label larry_police_cell_dialogue_erik_father_forgive_started:
     show cell_bars at left
     show larry_hands at Position (xpos=400,ypos=658)
     show player 12f at right with dissolve
-    player_name "What did you want me to do again for you?"
+    player_name "Что ты хочешь что бы я сделал для тебя снова"
     show player 5f
     show larry 15
-    larry "Just tell {b}Tammy{/b} that I'm sorry. I should never have left her..."
-    larry "If you do, I'll tell you where I hid all the goods I stole."
+    larry "Просто скажи {b}Tammy{/b} что мне очень жаль. Я не должен был бросать её..."
+    larry "Если ты сделаешь, Я скажу тебе где я спрятал все товары которые я украл."
     show larry 14
     show player 10f
-    player_name "I'll see what I can do."
+    player_name "Я посмотрю что я смогу сделать."
     return
 
 label larry_police_cell_dialogue_erik_father_treasure_not_known:
@@ -81,43 +81,43 @@ label larry_police_cell_dialogue_erik_father_treasure_not_known:
     show cell_bars at left
     show larry_hands at Position (xpos=400,ypos=658)
     show player 5f at right with dissolve
-    larry "Hey! It's you again!"
-    larry "Did you get a chance to speak with {b}Tammy{/b}?"
+    larry "Хэй! Это снова ты!"
+    larry "У тебя была возможность поговорить с {b}Tammy{/b}?"
     show larry 14
     show player 12f
-    player_name "I passed the message along."
+    player_name "Я передал ей сообщение."
     show player 5f
     show larry 15
-    larry "And what... what did she say?!"
+    larry "И что... что она сказала?!"
     show larry 14
     show player 12f
-    player_name "She didn't! Look, Man... She got the message like you wanted."
+    player_name "Она не! Слушай, Мужик... Она получила сообщение как ты и хотел."
     show player 10f
-    player_name "You didn't say anything about bringing you a message back!"
+    player_name "Ты ничего не говорил об ответном сообщении!"
     show player 5f
     larry "..."
     show larry 15
-    larry "Yeah, you're right. Sorry."
-    larry "You held up your end of the bargain."
-    larry "...Alright."
-    larry "About those stolen goods I stashed."
-    larry "They're {b}behind a bush in the park, next to a white tree{/b}."
+    larry "Да, ты прав. Извини."
+    larry "Ты выполнил свою часть условия сделки."
+    larry "...Ладно."
+    larry "Насчет тех украденых вещах которые я спрятал."
+    larry "Они находятся{b}за кустами в парке, рядом с белым деревом{/b}."
     show larry 14
     show player 34f
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 12f
-    player_name "Okay, I'll go have a look."
+    player_name "Хорошо, Я пойду посмотрю."
     show player 5f
     show larry 15
-    larry "Listen! I'm going to try and turn my life around!"
-    larry "You'll see!"
-    larry "And maybe... One day... {b}Tammy{/b} will take me back!"
+    larry "Слушай! Я попробую изменить свою жизнь!"
+    larry "Ты увидишь!"
+    larry "И возможно... Когда-нибудь... {b}Tammy{/b} примет меня обратно!"
     show larry 14
     show player 12f
-    player_name "We'll see."
+    player_name "Посмотрим."
     show player 5f
     show larry 15
-    larry "Thanks..."
+    larry "Спасибо..."
     return
 
 label larry_police_cell_dialogue_erik_father_treasure_known:
@@ -125,12 +125,12 @@ label larry_police_cell_dialogue_erik_father_treasure_known:
     show cell_bars at left
     show larry_hands at Position (xpos=400,ypos=658)
     show player 12f at right with dissolve
-    player_name "Where did you hide the stolen goods?"
+    player_name "Где ты спрятал украденые вещи?"
     show player 5f
     show larry 15
-    larry "They're {b}behind a bush in the park, next to a white tree{/b}."
+    larry "Они находятся{b}а кустами в парке, рядом с белым деревом{/b}."
     show larry 14
     show player 12f
-    player_name "Okay, I'll go have a look."
+    player_name "Хорошо, Я пойду посмотрю."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -55,10 +55,10 @@ label home_entrance:
     elif M_mom.is_state(S_mom_hang_out) and not game.timer.is_dark():
         call expression game.dialog_select("entrance_mom_hang_out")
         menu:
-            "Yes.":
+            "Да.":
                 call expression game.dialog_select("entrance_mom_hang_out_yes")
                 $ M_mom.trigger(T_mom_hang_out_accept)
-            "No.":
+            "Нет.":
 
 
                 call expression game.dialog_select("entrance_mom_hang_out_no")

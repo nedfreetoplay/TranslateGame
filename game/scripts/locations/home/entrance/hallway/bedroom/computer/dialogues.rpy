@@ -1,7 +1,7 @@
 label MC_computer_night_locked:
     scene expression game.timer.image("bedroom{}")
     show player 24 at left
-    player_name "( I'm so tired right now, I'd better go to bed... )"
+    player_name "( Я очень устал, я должен поспать... )"
     hide player 17 at left
     return
 
@@ -14,8 +14,8 @@ label egay_search_dialogue:
 label egay_search_dialogue_erik_orcette_started:
     scene player_computer_bg
     show player_computer_egay_search
-    player_name "( Hmm... I guess I should just type in the name of the item {b}Erik{/b} wanted. )"
-    player_name "( What was it again? )"
+    player_name "( Хм... Думаю, я должен просто ввести название предмета, который хотел {b}Erik{/b}. )"
+    player_name "( Что это было снова? )"
     hide player_computer_egay_search
     hide player_computer_bg
     return
@@ -23,7 +23,7 @@ label egay_search_dialogue_erik_orcette_started:
 label egay_purchased_dialogue:
     scene player_computer_bg
     show player_computer_egay_purchased
-    player_name "( Looks like I should get the package in the mailbox on {b}Tuesday{/b}. )"
+    player_name "( Похоже, что я должен получить пакет в почтовом ящике во {b}Вторник{/b}. )"
     hide player_computer_egay_purchased
     hide player_computer_bg
     show screen MC_computer
@@ -87,7 +87,7 @@ label webcam_dialogue:
 label webcam_dialogue_not_connected:
     scene player_computer_bg
     show player_computer_webscreen
-    player_name "( Weird. It says I can connect my computer to the {b}webcam{/b}, but it seems I can't do it from here. )"
+    player_name "( Странно. Здесь говорится, что я могу подключить свой компьютер к {b}веб-камере{/b}, но, кажется, я не могу сделать это отсюда. )"
     hide player_computer_webscreen
     hide player_computer_bg
     return
@@ -100,14 +100,14 @@ label webcam_dialogue_sis_webcam_started_pre:
     scene jennycam1
     show xtra 16 zorder 2
     show jennysex 6 zorder 1 at Position(xpos = 533, ypos = 746)
-    jen "Hey guuuys!"
-    jen "Are you ready for some hot camming?"
-    jen "I've been looking forward to getting wet all day!"
-    jen "Oh! Don't forget to subscribe to watch the next part of the show..."
-    jen "Because this beauty right here needs money!"
+    jen "Приивет пааарни!"
+    jen "Готовы ли вы к чему-то горяченькому?"
+    jen "Я с нетерпением жду, чтобы промокать весь день!!"
+    jen "Ой! Не забудьте подписаться чтобы посмотреть следующую часть шоу..."
+    jen "Потому что эта красота здесь нуждается в деньгах!"
     show jennysex 8 with fastdissolve
-    jen "Now, for my special subscribers..."
-    jen "... I have this brand new toy I wanted to try!"
+    jen "Теперь для моих вип подписчиков..."
+    jen "... У меня есть эта новая игрушка, которую я хотела попробовать!"
     show jennysex 7 with fastdissolve
     pause
     return
@@ -116,28 +116,28 @@ label webcam_dialogue_sis_webcam01_started_pre:
     show jennysex 10 with fastdissolve
     pause
     show jennysex 9
-    jen "The {b}Electro Clit{/b}!"
-    jen "It's a little vibrating friend ... for my clit!"
+    jen "{b}Electro Clit{/b}!"
+    jen "Это маленькое вибрирующее чудо ... для моего клитора!"
     show jennysex 11
-    jen "I've always wanted one of these!"
+    jen "Я всегда хотела один из них!"
     show jennysex 21 at Position(xpos = 543, ypos = 767) with dissolve
-    jen "Let's give it a try, boys..."
+    jen "Давайте попробуем, парни..."
     show jennysex 22 with fastdissolve
-    jen "Woah! This thing is fast..."
+    jen "Эй! Эта штука быстрая..."
     return
 
 label webcam_dialogue_sis_webcam02_started_pre:
     show jennysex 13 with fastdissolve
     pause
     show jennysex 12
-    jen "The {b}Ultra Vibrator 2000{/b}!"
-    jen "It's a dildo! Nice and ribbed too..."
-    jen "Now, since you kept asking to see some insertion with my toys..."
-    jen "... I figured I'd give you all a little treat!"
-    jen "Here we go, boys!"
+    jen "{b}Ultra Vibrator 2000{/b}!"
+    jen "Это фаллоимитатор! Красивый и ребристый..."
+    jen "Теперь, так как вы и просили, некоторые вставки с моими игрушками..."
+    jen "... Я решила дать вам всем маленький подарок!"
+    jen "Погнали, парни!"
     show jennysex 26 at Position(xpos = 0.5, ypos = 770) with dissolve
-    jen "This thing looks like the perfect size for me."
-    jen "Let's put it to the test..."
+    jen "Размерчик под меня."
+    jen "Давайте проверим это на практике..."
     show jennysex 27 with fastdissolve
     pause
     show jennysex 31 at Position(xpos = 512, ypos = 770)
@@ -147,44 +147,44 @@ label webcam_dialogue_sis_webcam03_started_pre:
     show jennysex 19 at Position(xpos = 577) with fastdissolve
     pause
     show jennysex 18 with fastdissolve
-    jen "The {b}Dual Sybian{/b}!"
+    jen "{b}Dual Sybian{/b}!"
     show jennysex 20
-    jen "I've been reading complaints online that I'm scared to do anal..."
-    jen "So here's proof that I am NOT scared to try it!"
-    jen "In fact, why stop at one hole?"
-    jen "For my fans, I'm gonna do double penetration!"
+    jen "Я читала жалобы онлайн, что я боюсь сделать в анус..."
+    jen "Так вот доказательство того, что я не боюсь попробовать!"
+    jen "В самом деле, зачем останавливаться на одной дырке?"
+    jen "Для моих фанатов я сделаю Двойное проникновение!"
     show jennysex 18
-    jen "Let me hop on top of this bull and get my anal cherry popped..."
+    jen "Давайте я вскочу на этого быка и вскрою свою розовую анальную вишенку..."
     show jennysex 34 at Position(xpos = 344, ypos = 727) with dissolve
     pause
     show jennysex 35 at Position(xpos = 540, ypos = 582) with fastdissolve
-    jen "... Oh god! That's a strange feeling."
+    jen "... О боже! Какое странное чувство."
     return
 
 label webcam_dialogue_sis_webcam04_started_pre:
     show jennysex 16 with fastdissolve
     pause
     show jennysex 15
-    jen "This right here is..."
-    jen "THE {b}Bad Monster{/b}!"
+    jen "А вот и он..."
+    jen "{b}Bad Monster{/b}!"
     show jennysex 17
-    jen "Everyone's been talking about this special toy..."
-    jen "... and some of you dared me to let it ravage my pussy."
+    jen "Все говорили об этой особенной игрушке..."
+    jen "... а некоторые из вас помогли мне приобрести его, чтобы опустошить мою киску."
     show jennysex 15
-    jen "I finally managed to get my hands on one!"
+    jen "Мне наконец-то удалось заполучить его!"
     show jennysex 17
-    jen "Now get your wallets ready, because I'm about to tame this monster!"
+    jen "А теперь приготовь свои кошельки, потому что я собираюсь приручить этого монстра!"
     show jennysex 40 at Position(xpos = 427)
-    jen "This one needs a LOT of lube..."
+    jen "Этому нужно МНОГО смазки..."
     show jennysex 41
-    jen "... oh GOD!"
-    jen "It's so big!"
+    jen "... о БОГ!"
+    jen "Очень большой!"
     return
 
 label webcam_dialogue_nothing_showing:
     scene player_computer_bg
     show player_computer_webscreen
-    player_name "( Theres nothing displaying at the moment. )"
+    player_name "( На данный момент ничего нет. )"
     hide player_computer_webscreen
     hide player_computer_bg
     return
@@ -269,23 +269,23 @@ label sis_camshow_finish:
 
 label sis_camshow_01_finish:
     show jennysex 25b
-    jen "Ahhh!!!" with vpunch
-    jen "{b}*panting*{/b}"
-    jen "That was awesome!"
+    jen "Ааааа!!!" with vpunch
+    jen "{b}*пыхтит*{/b}"
+    jen "Это было круто!"
     hide xtra
     hide jennycam1
     hide jennysex
     scene bedroom_desk
     show player 311 at Position(xpos = 672)
     with fade
-    player_name "Woah..."
-    player_name "( {b}[jen_name]'s{/b} a camgirl?! )"
+    player_name "Вау..."
+    player_name "( {b}[jen_name]'s{/b} устраивает Эротический видеочат?! )"
     show player 310
-    player_name "( It's so weird seeing her like that... )"
+    player_name "( Так странно видеть ее такой... )"
     show player 312
-    player_name "( Man, she is so hot... )"
+    player_name "( Блин, она такая горячая... )"
     show player 310
-    player_name "( I think that's enough for now. )"
+    player_name "( Думаю, на сегодня достаточно. )"
     hide player
     with dissolve
     $ renpy.end_replay()
@@ -293,24 +293,24 @@ label sis_camshow_01_finish:
 
 label sis_camshow_02_finish:
     show jennysex 28b
-    jen "Oh my... I'm almost there..."
+    jen "Ой... Я уже почти..."
     show jennysex 29b
-    jen "I'm... Cumming!!"
+    jen "Я... кончаю!!"
     show jennysex 32
-    jen "Ahh!!!" with vpunch
+    jen "Аааа!!!" with vpunch
     show jennysex 33 with dissolve
-    jen "I... I've never had this happen before..."
-    jen "What a mess..."
+    jen "У... У меня никогда раньше такого не было..."
+    jen "Как много..."
     hide xtra
     hide jennycam1
     hide jennysex
     scene bedroom_desk
     show player 311 at Position(xpos = 672)
     with fade
-    player_name "( So that's what squirting looks like. )"
+    player_name "( Так вот как выглядит сквиртинг. )"
     show player 310
-    player_name "There was so much! She even hit the camera!"
-    player_name "( I had no idea {b}[jen_name]{/b} could do that... )"
+    player_name "Было много! Даже на камеру попало!"
+    player_name "( Я понятия не имел, что {b}[jen_name]{/b} может так сделать... )"
     hide player
     with dissolve
     $ renpy.end_replay()
@@ -318,19 +318,19 @@ label sis_camshow_02_finish:
 
 label sis_camshow_03_finish:
     show jennysex 39 at Position(xpos = 540)
-    jen "Ahhh!!!" with hpunch
-    jen "{b}*panting*{/b}"
-    jen "I've never cum this hard before..."
+    jen "Аааа!!!" with hpunch
+    jen "{b}*пыхтит*{/b}"
+    jen "Я никогда не кончала так раньше..."
     hide xtra
     hide jennycam1
     hide jennysex
     scene bedroom_desk
     show player 311 at Position(xpos = 672)
     with fade
-    player_name "Wow..."
-    player_name "( She really loves riding that thing. )"
+    player_name "Вау..."
+    player_name "( Она очень любит кататься на этой штуке. )"
     show player 310
-    player_name "( I wonder what else she's willing to do on camera... )"
+    player_name "( Интересно, что еще она хочет сделать на камеру... )"
     hide player
     with dissolve
     $ renpy.end_replay()
@@ -338,20 +338,20 @@ label sis_camshow_03_finish:
 
 label sis_camshow_04_finish:
     show jennysex 43 at Position(xpos = 427)
-    jen "Ahhh!!!" with vpunch
+    jen "Ааааа!!!" with vpunch
     show jennysex 45 with fastdissolve
-    jen "What a GOOD monster..."
-    jen "... my pussy will be sore for days!"
+    jen "Какой хороший монстр..."
+    jen "... моя киска будет болеть несколько дней!"
     hide xtra
     hide jennycam1
     hide jennysex
     scene bedroom_desk
     show player 311 at Position(xpos = 672)
     with fade
-    player_name "( I thought that thing was just for show. )"
-    player_name "( Apparently it's possible to fit it in there! )"
-    player_name "She did it so easily too..."
-    player_name "( I hope she doesn't get in trouble for doing this sort of thing on camera. )"
+    player_name "( Я думал, это просто для показухи. )"
+    player_name "( Видимо, это может там поместиться!)"
+    player_name "Она так легко сделала это..."
+    player_name "( Надеюсь, у нее не будет проблем из-за того, что она снимает все на камеру. )"
     hide player
     with dissolve
     $ renpy.end_replay()

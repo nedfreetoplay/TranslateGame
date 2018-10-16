@@ -2,57 +2,57 @@ label dianes_shed_diane_breeding_help_started:
     scene shed_night with None
     show diane 89 at right
     show player 11 at left
-    dia "I have a {b}little request{/b} to ask of you."
+    dia "У меня есть {b}небольшая просьба{/b} к тебе."
     show diane 88
     player_name "..."
     show player 21
-    player_name "Sure! What can I do for you?"
+    player_name "Конечно! Что могу сделать для тебя?"
     show diane 87
     show player 13
-    dia "I have, this... {b}Package{/b}, I'd like you to pickup for me."
+    dia "Мне пришла... {b}Коробка{/b}, Можешь принести ее мне."
     show diane 88
     show player 10
-    player_name "Oh, okay."
-    player_name "Where is it?"
+    player_name "О, хорошо."
+    player_name "Где она?"
     show diane 89
     show player 13
-    dia "You'll have to pick it up at the {b}mall{/b}..."
+    dia "Она находится в {b}торговом центре{/b}..."
     show diane 90
     show player 11
-    dia "...It's at a shop, called {b}Pink{/b}."
-    dia "It should be under my name!"
+    dia "...В магазине, под названием {b}Pink{/b}."
+    dia "Записан на мое имя!"
     show diane 88
     show player 29
-    player_name "At the {b}Pink{/b} store?!"
+    player_name "В магазине {b}Pink{/b}?!"
     show player 21
     player_name "..."
-    player_name "But, what is it?"
+    player_name "Но, что это?"
     show diane 87
     show player 13
-    dia "It's a little something for you... But it's a {b}surprise{/b}!"
+    dia "Это что-то для тебя... Но это {b}сюрприз{/b}!"
     show diane 88
     show player 11
     player_name "!!!"
     show player 21
-    player_name "Really?"
+    player_name "Правда?"
     show player 108f
-    player_name "The mall is closed right now, though..."
+    player_name "Торговый центр сейчас закрыт..."
     show player 21
-    player_name "I'll have to go tomorrow."
+    player_name "Схожу завтра."
     show diane 90
     show player 13
-    dia "That's my good boy..."
+    dia "Вот молодчина..."
     show diane 89
     return
 
 label dianes_shed_shed_dialouge_0:
     show player 35 at left with dissolve
-    player_name "Woah..."
+    player_name "Воу..."
     show player 34
-    player_name "...What a strange looking shed."
-    player_name "What's up with all the containers... And those chains?!"
+    player_name "...Какой странный сарай."
+    player_name "Что случилось со всеми контейнерами... А эти цепи?!"
     show player 43
-    player_name "Anyway, let's try and {b}find that pump{/b}..."
+    player_name "В любом случае, {b}попробую найти насос{/b}..."
     hide player 43 with dissolve
     return
 
@@ -74,70 +74,70 @@ label dianes_shed_shed_dialouge_1_intro:
     show player 11 at left with dissolve
     player_name "..."
     show player 23 at left
-    player_name "{b}Diane{/b}!??"
+    player_name "{b}Диана{/b}!??"
     show diane 59 at right with hpunch
     show player 22 at left
     dia "!!!"
     show diane 60 at right
-    dia "What are you doing here??!"
+    dia "Что ты здесь делаешь??!"
     show diane 64 at right
     show player 29 at left
-    player_name "I saw the door was open! And-"
+    player_name "Я увидел что дверь открыта! И-"
     show player 3 at left
     player_name "..."
     show player 21 at left
-    player_name "...Is that a {b}breast pump{/b}?"
+    player_name "...Это {b}молокоотсос{/b}?"
     show diane 61 at right
     show player 5 at left
-    dia "{b}*Sigh*{/b}"
+    dia "{b}*вздыхает*{/b}"
     show diane 62 at right
     show player 11 at left
-    dia "Yes, {b}[firstname]{/b}... I... like to milk myself sometimes..."
+    dia "Да, {b}[firstname]{/b}... Я... иногда люблю подоить себя..."
     show diane 64 at right
     show player 12 at left
-    player_name "Wait..."
+    player_name "Подожди..."
     if M_player.get("drank milk"):
-        player_name "Is that the milk you had me drink the other day?!"
+        player_name "Это молоко, которое ты заставила меня выпить на днях?!"
     else:
-        player_name "Is that the milk you gave me to drink the other day?!"
+        player_name "Это молоко, которое ты дала мне выпить на днях?!"
     show diane 61 at right
     show player 11 at left
-    dia "I know... I should have told you..."
+    dia "Я знаю... Я должна была сказать тебе..."
     show diane 60 at right
     show player 5 at left
-    dia "But it's all natural, and I had no one else to try it with!!"
+    dia "Но оно натуральное, и мне больше не с кем было попробовать!!"
     show diane 61 at right
-    dia "I hope you can forgive me?"
+    dia "Надеюсь, ты сможешь простить меня?"
     return
 
 label dianes_shed_shed_dialouge_1_okay:
     show diane 64 at right
     show player 21 at left
-    player_name "It's fine, {b}Diane{/b}."
-    player_name "You don't have to be sorry..."
+    player_name "Все в порядке, {b}Диана{/b}."
+    player_name "Ты не должна извенятся..."
     show diane 63 at right
     show player 17 at left
     if M_player.get("drank milk"):
-        player_name "...I actually liked it!"
+        player_name "...Мне вообще-то понравилось!"
     else:
 
-        player_name "...I'm glad you offered me some!"
+        player_name "...Я рад, что ты мне предложила!"
     show diane 62 at right
     show player 13 at left
-    dia "That's... very sweet of you to say..."
+    dia "Это... очень мило с твоей стороны..."
     show diane 63 at right
     show player 29 at left
-    player_name "I... should go home now."
+    player_name "Я... должен идти домой."
     show diane 62 at right
     show player 3 at left
-    dia "Yeah, I'm going inside now..."
-    dia "And can you please-"
+    dia "Да, я пойду в дом..."
+    dia "И пожалуйста-"
     show diane 64 at right
     show player 21 at left
-    player_name "I'll keep this to myself. Don't worry."
+    player_name "Я никому не расскажу. Не волнуйся."
     show diane 63 at right
     show player 13 at left
-    dia "Thanks."
+    dia "Спасибо."
     hide player 13 at left with dissolve
     hide diane 63 at right with dissolve
     return
@@ -145,52 +145,52 @@ label dianes_shed_shed_dialouge_1_okay:
 label dianes_shed_shed_dialouge_1_wrong:
     show diane 64 at right
     show player 12 at left
-    player_name "I don't know, {b}Diane{/b}."
+    player_name "Я не знаю, {b}Диана{/b}."
     if M_player.get("drank milk"):
-        player_name "It's pretty messed up that you tricked me into drinking your breast milk..."
+        player_name "Это ужасно, что ты обманом заставила меня пить твое грудное молоко..."
     else:
 
-        player_name "That was pretty wrong to offer me that..."
+        player_name "Это было довольно неправильно предложить мне это..."
     show diane 61 at right
     show player 90 at left
-    dia "I know..."
-    dia "I'm so sorry!"
+    dia "Я знаю..."
+    dia "Мне очень жаль!"
     show diane 64 at right
     show player 12 at left
-    player_name "I'm going {b}home{/b} now..."
+    player_name "Я иду {b}домой{/b}..."
     show diane 60 at right
     show player 13 at left
-    dia "But-"
+    dia "Но-"
     show diane 64 at right
     show player 24 at left
-    player_name "Bye..."
+    player_name "Пока..."
     hide diane 64 at right with dissolve
     hide player 24 at left with dissolve
     return
 
 label dianes_shed_seen_shed_locked:
     show player 34 with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 35
-    player_name "The door's locked."
+    player_name "Дверь закрыта."
     hide player 35 with dissolve
     return
 
 label dianes_shed_not_seen_shed_locked:
     show player 35 at left with dissolve
-    player_name "Hmm.. The shed is locked. I wonder what's in there?"
+    player_name "Хм.. Сарай заперт на ключ. Интересно, что там?"
     show diane 8 at right with dissolve
     show player 22 at left
-    dia "Are you snooping around?"
+    dia "Что ты тут лазиешь?"
     show diane 9 at right
     show player 10 at left
-    player_name "Uhh, sorry. I was just looking for tools..."
+    player_name "Ох, прости. Я просто искал инструменты..."
     show diane 10 at right
     show player 11 at left
-    dia "It's okay. Perhaps one day I'll give you a little tour..."
+    dia "Все нормально. Возможно, однажды я устрою тебе небольшую экскурсию..."
     show player 21 at left
     show diane 9 at right
-    player_name "Sure, {b}Diane{/b}..."
+    player_name "Конечно, {b}Диана{/b}..."
     hide player 21 at left with dissolve
     hide diane 9 at right with dissolve
     return
@@ -199,35 +199,35 @@ label dianes_shed_dianes_dialogue:
     scene location_diane_shed01_night_closeup
     show player 1 at left with dissolve
     show diane 89 at right with dissolve
-    dia "Hey there, Handsome."
-    dia "Ready to learn how to milk?"
+    dia "Привет, Красавчик."
+    dia "Готовы научиться доить?"
     show diane 88
     show player 17
-    player_name "Sure! I'd love to help!"
+    player_name "Конечно! Я с удовольствием помогу!"
     show diane 89
     show player 1
-    dia "That's my good boy..."
+    dia "Вот хороший мальчик..."
     return
 
 label dianes_shed_dianes_dialogue_not_package:
     show diane 88
     show player 10
-    player_name "I forgot where to pick up the {b}package{/b}."
+    player_name "Я забыл, где забрать {b}коробку{/b}."
     show player 29
-    player_name "How do I find it again?"
+    player_name "Как я могу найти его?"
     show diane 89
     show player 13
-    dia "You'll have to pick it up at the {b}mall{/b}."
+    dia "Тебе нужно забрать его в {b}торговом центре{/b}."
     show diane 87
-    dia "It's at a shop called {b}Pink{/b}."
+    dia "Магазин называется {b}Pink{/b}."
     show diane 89
-    dia "It should be under my name!"
+    dia "Она будет записана на мое имя!"
     show diane 88
     show player 21
-    player_name "Oh. All right. gotcha!"
+    player_name "О. Хорошо. Понял!"
     show diane 89
     show player 13
-    dia "Is there anything else you want to talk about?"
+    dia "Хочешь еще о чем-нибудь поговорить?"
     return
 
 label dianes_shed_dianes_dialogue_package:
@@ -235,15 +235,15 @@ label dianes_shed_dianes_dialogue_package:
     pause
     show diane 88
     show player 170
-    player_name "I have the {b}package{/b} you asked for!"
+    player_name "У меня {b}коробка{/b} которую ты спрашивала!"
     show diane 90
     show player 169
-    dia "Excellent!"
+    dia "Прекрассно!"
     label aunt_shed_replay_1:
         show diane 119
         show player 11
-        dia "Now, stay right here..."
-        dia "...I'll be right back with a surprise for you."
+        dia "Так, стой здесь..."
+        dia "...я вернусь через минутку с сюрпризом для тебя."
         scene black with dissolve
         pause 0.5
 
@@ -254,160 +254,160 @@ label dianes_shed_dianes_dialogue_package:
         player_name "!!!" with hpunch
         show diane 114
         show player 22
-        dia "So?"
+        dia "Ну?"
         show diane 115
-        dia "...You like it?"
+        dia "...Нравится?"
         show diane 113
         show player 29
-        player_name "That's... really sexy, {b}Diane{/b}."
+        player_name "Это... реально сексуально, {b}Диана{/b}."
         show diane 114
         show player 13
-        dia "I always wanted to wear this... I just never had anyone to wear it for..."
+        dia "Я всегда хотела надеть это... У меня просто никогда не было никого, для кого надевать его..."
         show diane 113
         show player 11
         player_name "..."
         show diane 116
         show player 23
-        dia "I like the way my breasts can hang naturally, like this..."
+        dia "Мне нравится, как моя грудь может висеть, естественно, как..."
         show player 22
         player_name "..."
         show diane 114
-        dia "I figured it would help you get in the mood for... {b}milking{/b}..."
+        dia "Я подумала, что это поможет тебе настроиться... {b}на дойку{/b}..."
         show diane 113
         show player 29
-        player_name "Well, it's working! Haha..."
+        player_name "Ну, это сработало! Хаха..."
         show diane 114
         show player 13
-        dia "So... Uhm..."
-        dia "What do you feel like doing, now?"
+        dia "Ну... Эмм..."
+        dia "Чем хочешь занятся?"
     return
 
 label dianes_shed_dianes_dialogue_not_lets_milk:
     show diane 88
     show player 21
-    player_name "I'm ready to start if you want."
+    player_name "Я готов начать если хочешь."
     show diane 87
     show player 11
-    dia "Not just yet!"
+    dia "Не сейчас!"
     show diane 89
     show player 13
-    dia "You need to {b}take care of the few things{/b} I asked you about earlier, before we get started..."
+    dia "Тебе нужно {b}позаботиться о нескольких вещах{/b}, о которых я тебя спрашивал, прежде чем мы начнем..."
     show diane 88
     show player 21
-    player_name "Oh, right!"
+    player_name "А, точно!"
     show player 17
-    player_name "My bad, I'll tend to those first..."
+    player_name "Моя вина, я позабочусь об этом первым..."
     show diane 90
     show player 13
-    dia "Don't worry. We'll be having fun, soon..."
+    dia "Не волнуйся. Скоро мы будем веселиться..."
     return
 
 label dianes_shed_dianes_dialogue_lets_milk_no_sex:
     show diane 113
     show player 17
-    player_name "Let's make some milk!"
+    player_name "Давайте сделаем немного молока!"
     show diane 114
     show player 2
-    dia "I was hoping you'd say that..."
+    dia "Я надеялася, что ты это скажешь..."
     show diane 112
-    dia "But before we start, I have to prepare for the milk extraction!"
+    dia "Но прежде чем мы начнем, я должна подготовиться к извлечению молока!"
     show diane 113
     show player 12
-    player_name "How do you do that?"
+    player_name "Каким образом ты это делаешь?"
     show diane 117
     show player 11
-    dia "With these!"
-    dia "I have to attach these suction pumps..."
+    dia "С помощью этого!"
+    dia "Я должна присоединить эти всасывающие насосы..."
     player_name "!!!"
     show diane 113
     show player 21
-    player_name "Do they... hurt?"
+    player_name "А не... больно?"
     show diane 115
     show player 13
-    dia "Haha. Not really..."
+    dia "Хаха. Вроде нет..."
     show diane 114
-    dia "It feels a bit strange when it pumps, but I kind of like it!"
+    dia "Это немного странно, когда он качает, но мне это нравится!"
     show diane 113
     show player 21
-    player_name "Cool!"
+    player_name "Классно!"
     show diane 114
     show player 11
-    dia "You know, they say that cows lactate more when they are... {b}Fertilized{/b}..."
+    dia "Знаешь, говорят, что коровы больше дают молока, когда они... {b}оплодотворенны{/b}..."
     show diane 113
     player_name "..."
     show player 29
-    player_name "I... I don't understand-"
+    player_name "Я... Я не понимаю-"
     show diane 112
     show player 13
-    dia "I'm just saying... Pregnant cows produce a lot more milk!"
+    dia "Я просто хочу сказать ... .. Беременные коровы дают намного больше молока!"
     show player 11
     show diane 114
-    dia "... And {b}this cow isn't pregnant yet{/b}. Is her {b}bull{/b} ready to {b}breed{/b} her?"
+    dia "... И {b}эта корова еще не беременна{/b}. Ее {b}бык{/b} готов {b}размножаться{/b} с ней?"
     show diane 113
     show player 23
     player_name "!!!"
     show diane 114
     show player 22
-    dia "Breed me, {b}[firstname]{/b}! Claim my womb as yours!"
+    dia "Трахни меня, {b}[firstname]{/b}! Сделай мою матку своей!"
     show diane 113
     show player 29
-    player_name "...Yeah, I... I'd like to..."
+    player_name "...Да, Я... Я с удовольствием..."
     show diane 114
     show player 13
-    dia "That's my good boy!"
+    dia "Это мой малыш!"
     show player 11
     return
 
 label dianes_shed_dianes_dialogue_lets_milk_had_sex:
     show diane 113
     show player 17
-    player_name "Let's make some milk!"
+    player_name "Давай сделаем немного молока!"
     show diane 114
     show player 2
-    dia "I was hoping you'd say that..."
-    dia "I couldn't wait for you to come back!"
+    dia "Я надеялася, что ты это скажешь..."
+    dia "Я не могла дождаться, когда ты вернешься!"
     show diane 112
     show player 11
-    dia "But before we start, let me get into character!"
+    dia "Но прежде чем мы начнем, позвольте мне войти в образ!"
     show player 11
     show diane 116
-    dia "How do I look?"
+    dia "Как я выгляжу?"
     show player 21
-    player_name "You're beautiful, {b}Diane{/b}!"
+    player_name "Ты прекрасна, {b}Диана{/b}!"
     show player 13
     show diane 112
-    dia "Now, when you mount me on the chair..."
-    dia "Make sure you cum {b}deep{/b} inside me...."
+    dia "Теперь, когда ты посадишь меня на стул..."
+    dia "Сделай так чтобы твоя сперма была {b}глубоко{/b} внутри меня...."
     show player 11
     show diane 113
     player_name "!!!"
     show player 23
     show diane 114
-    dia "I need my bull to.... {b}breed{/b} me good..."
+    dia "Мне нужно чтобы мой бычёк.... {b}оплодотворил{/b} меня как можно лучше..."
     show diane 112
     show player 22
-    dia "...You think you could help me with that?"
+    dia "...Ты справишься с этим?"
     show diane 113
     show player 29
-    player_name "...Yeah, I... I can do that for you..."
+    player_name "...Да, Я... Я сделаю это для тебя..."
     show diane 115
     show player 13
-    dia "That's my good boy!"
+    dia "Это мой хороший мальчик!"
     show player 11
     show diane 114
     return
 
 label dianes_shed_dianes_dialogue_lets_milk:
-    dia "Let's get set up on the {b}breeding chair{/b}..."
+    dia "Давайте устроимся на {b}стул для размножения{/b}..."
     scene shed_closeup 1
     show dianesex 36
     with dissolve
-    dia "Now just slide it in nice and slow..."
-    dia "...And don't let go until you finish {b}deep{/b} inside..."
+    dia "Сейчас вставляй мягко и медленно..."
+    dia "...и не доставай пока не кончишь {b}глубоко{/b} внутри..."
     show dianesex 38
-    dia "That's it..."
+    dia "Вот так..."
     show dianesex 40
-    dia "{b}*Moan*{/b}"
+    dia "{b}*стонет*{/b}"
     return
 
 label shed_sex_loop:
@@ -425,14 +425,14 @@ label shed_sex_loop:
         if not renpy.showing("shed_closeup 3"):
             scene shed_closeup 3
             show dianesex 54
-            player_name "You're so wet, {b}Diane{/b}."
-            dia "I just love the feeling of my clit against your hard cock, sweetie."
-            dia "Stay still..."
+            player_name "Ты вся мокрая, {b}Диана{/b}."
+            dia "Мне просто нравится ощущение моего клитора на твоем жестком члене, милый."
+            dia "Продолжай..."
 
     elif shed_sex_action == 2:
         if previous_shed_sex_action != shed_sex_action:
             show dianesex 56
-            dia "I want it inside me now..."
+            dia "Я хочу, чтобы он был внутри меня..."
     show screen sex_xray_anim_buttons 
     pause
     hide screen sex_xray_anim_buttons 
@@ -487,10 +487,10 @@ label shed_sex_loop:
         $ persistent.cookie_jar["Diane"]["gallery"]["06_unlocked"] = True
         pause .3
         show dianesex 62
-        player_name "Woa..."
-        player_name "It squirted so much!"
-        dia "{b}*Panting*{/b}"
-        dia "You milked me..."
+        player_name "Вау..."
+        player_name "Она так сильно брызнула!"
+        dia "{b}*задыхаясь*{/b}"
+        dia "Ты подоил меня..."
         if not store._in_replay == None:
             jump expression game.dialog_select("after_milk_replay")
     $ previous_shed_sex_action = shed_sex_action
@@ -504,9 +504,9 @@ label shed_sex_cum:
     $ game.main()
 
 label shed_sex_cum_dialouge:
-    dia "Don't hold back..."
-    dia "Cum deep inside me..."
-    dia "Breed me!!!"
+    dia "Не сдерживайся..."
+    dia "Кончай глубоко внутрь меня..."
+    dia "Оплодотвори меня!!!"
     if shed_sex_angle == 0:
         show dianesex 40
         if xray:
@@ -516,7 +516,7 @@ label shed_sex_cum_dialouge:
         show dianesex 52 at right
         if xray:
             show expression "characters/player/char_player_sex_48.png" as playersex_cum at right
-    dia "{b}AAaaahh!!{/b}"
+    dia "{b}ААаааааххххх!!{/b}"
     if shed_sex_angle == 0:
         show dianesex 36
         show expression "characters/player/char_player_sex_45.png" as playersex_cum
@@ -527,51 +527,51 @@ label shed_sex_cum_dialouge:
         pause
         show dianesex 46
         show expression "characters/player/char_player_sex_50.png" as playersex_cum
-    dia "That was... So much cum..."
-    player_name "I did okay?"
-    dia "You bred me well."
-    dia "Thank you..."
+    dia "Это было... Так много спермы..."
+    player_name "Я сделал все верно?"
+    dia "Ты трахнул меня очень хорошо."
+    dia "Спасибо..."
     hide playersex_cum
     label after_milk_replay:
         scene shed_night
     show player 1 at left
     show diane 89 at right
     with dissolve
-    dia "Thank you so much for your help..."
+    dia "Большое спасибо за помощь..."
     show diane 87
-    dia "Pretty soon I'll have the finest milk in town!"
+    dia "Скоро у меня будет самое вкусное молоко в городе!"
     show player 2
     show diane 88
-    player_name "I really enjoyed this. I hope I can help you again soon!"
+    player_name "Я действительно наслаждался этим. Я надеюсь, что смогу помочь снова в ближайшее время!"
     show player 1
     show diane 89
-    dia "I plan on expanding my milk business, so..."
+    dia "Я планирую расширить свой молочный бизнес, так что..."
     show diane 90
-    dia "There's plenty of work to be done around here!"
+    dia "Здесь много работы, которую нужно сделать!"
     show diane 89
-    dia "I can always use a hand..."
+    dia "Мне всегда пригодится помощь..."
     show player 17
     show diane 88
-    player_name "That would be amazing!"
+    player_name "Это было бы замечательно!"
     show player 1
     show diane 89
-    dia "It's getting late. You should probably get going..."
+    dia "Уже поздно. Тебе, наверное, пора идти..."
     show diane 92
-    dia "You don't want to keep {b}[deb_name]{/b} waiting!"
+    dia "Ты же не хочешь чтобы {b}[deb_name]{/b} ждала!"
     show player 21
     show diane 91
-    player_name "Yeah."
+    player_name "Да."
     show player 13
     show diane 87
-    dia "Remember: We have to keep this our little secret."
+    dia "Помни: мы должны сохранить это в секрете."
     show player 21
     show diane 88
-    player_name "Don't worry, {b}Diane{/b}, I won't tell anyone."
+    player_name "Не переживай, {b}Диана{/b}, я никому не скажу."
     show player 13
     show diane 90
-    dia "That's my handsome boy!"
+    dia "Это мой красивый мальчик!"
     show diane 111 at left
-    dia "We're gonna have a lot of {b}fun{/b} together..."
+    dia "Нам будет очень {b}весело{/b} вместе..."
     hide diane 111 at left
     $ renpy.end_replay()
     return
@@ -579,22 +579,22 @@ label shed_sex_cum_dialouge:
 label dianes_shed_dianes_dialogue_leave:
     show diane 88 at right
     show player 10 at left
-    player_name "I'd love to stay here and milk with you..."
+    player_name "Я бы хотел остаться здесь и подоить тебя..."
     show diane 91
-    player_name "But It's getting late and {b}[deb_name]'s{/b} gonna be worried."
+    player_name "Но уже пождно и {b}[deb_name]{/b} наверно переживает."
     show diane 92
     show player 5
-    dia "That's too bad."
-    dia "I was looking forward to getting help with my milk..."
+    dia "Это плохо."
+    dia "Я с нетерпением ждала помощи с моим молоком..."
     show diane 91
     show player 10
-    player_name "I'm sorry... Maybe another night?"
+    player_name "Прости... Может другой ночью?"
     show diane 87
     show player 13
-    dia "Sure... You know where to find me."
+    dia "Конечно... Ты знаешь где меня найти."
     show diane 88
     show player 21
-    player_name "Okay!"
+    player_name "Хорошо!"
     hide diane 88 at right with dissolve
     hide player 21 at left with dissolve
     return
@@ -603,8 +603,8 @@ label dianes_shed_dewitt_paint:
     scene location_diane_shed01_night_closeup
     show player 588
     with dissolve
-    player_name "Finally found the paint!"
-    player_name "If I bring this and some {b}lumber{/b} to the {b}work bench{/b} in the {b}garage{/b}, I can make a fake guitar, no problem."
+    player_name "Наконец-то нашел краску!"
+    player_name "Если я возьму ее и немного {b}досок{/b} на {b}верстак{/b} в {b}гараже{/b}, Я смогу сделать копию гитары, без проблем."
     hide player with dissolve
     $ M_dewitt.trigger(T_dewitt_shed_find_paint)
     if not player.has_item("paint"):

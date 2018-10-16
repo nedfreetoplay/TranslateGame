@@ -14,110 +14,110 @@ label aqua_dialogue_aqua_found:
     aqua "Ты!!"
     show player 15
     show aqua 2
-    player_name "Вот именно! Тебя!"
-    player_name "Ты сказал, что я должен прийти за ним. Ну вот и я!"
-    player_name "А теперь верни мне блеск!"
+    player_name "Ага! Я!"
+    player_name "Ты сказала, что я должен прийти за ней. Ну вот и я!"
+    player_name "А теперь верни мне блесну!"
     show player 16
     show aqua 1
-    aqua "ХаХаХаХа! Ты забавный человек!"
-    aqua "Вы проделали долгий путь. Ты обязан'сс быть хорошимсс пловцом, как Аква!"
+    aqua "Хахаха! Ты веселый человечек!"
+    aqua "Ты проделал доллллгий путь. Ты должно быть хорррроший пллловец, как Aqua!"
     show player 24
     show aqua 2
-    player_name "*кашель* Я думаю..."
+    player_name "*кашель* Наверно..."
     show player 30
-    player_name "Что это за место в любом случае?"
+    player_name "Что это вообще за место?"
     show player 16
     show aqua 1
-    aqua "Это гнездо Аква'сс!"
+    aqua "Эттто гнннездо Aqua!"
     show player 12
     show aqua 2
     player_name "Ты живешь здесь?"
     show player 11
     show aqua 1
-    aqua "Yesss."
+    aqua "Даааа."
     show player 10
     show aqua 2
     player_name "В одиночку?"
     show player 11
     show aqua 4
-    aqua "Да'ссс."
+    aqua "Дааа."
     show player 10
     show aqua 3
-    player_name "Есть ли больше вас?"
+    player_name "А еще много таких как ты?"
     show player 11
     show aqua 4
-    aqua "Больше... меня?"
+    aqua "Больше... как я?"
     show player 10
     show aqua 3
-    player_name "Вы знаете, другие гнезда с другими... Эм, Аквами?"
+    player_name "Ты знаешь, другие гнезда с другими... Ааа, Aqua?"
     show player 11
     show aqua 4
-    aqua "ООО, нет."
+    aqua "Ооо, нет."
     show aqua 5
-    aqua "Нет других. Аква. Последняя из рода."
+    aqua "Нет дррругих. Только Aqua. Последняя."
     show player 10
     show aqua 3
-    player_name "Ой, это очень грустно. Звучит одиноко."
+    player_name "Ну, это немного грустно. Звучит одиноко."
     show player 5
     show aqua 1
-    aqua "Не одиноко. Есть рыбы!"
+    aqua "Не одиноко. Есть рыбки!"
     show aqua 2b
-    aqua "Вы крадете Рыб!"
+    aqua "Рыбок вы воруете!"
     show player 15
     show aqua 1b
-    player_name "Я же говорил, что это не я! Это же {b}КАПИТАН Терри{/b}."
+    player_name "Я говорил тебе, что это не я! Это {b}КАПИТАН Терри{/b}."
     show player 16
     show aqua 4
-    aqua "Капитан Терри? Хмм..."
+    aqua "Каплан Терри? Хмм..."
     show aqua 5
     pause
     show aqua 4
-    aqua "Может быть, вы говорите правду..."
+    aqua "Возможно, ты говоришь правду..."
     show player 12
     show aqua 3
     player_name "Я говорю правду, Аква. Обещаю."
     show player 16
     show aqua 2b
-    aqua "Ну, что Акве делать тогда? Рыбаки продолжают красть рыбу!"
+    aqua "Ну что Aqua делать тогда? Рыбок продолжают воровать!"
     show aqua 4
-    aqua "Если рыбы все ушли, с кем будет разговорить Аква?"
+    aqua "Если рыбки все уйдут, с кем тогда будет разговаривать Аква?"
     show player 11
     show aqua 5
-    aqua "Аква ждёт Партнера."
+    aqua "Аква сойдет с ума пока найдет партнера."
     show player 10
     show aqua 3
     player_name "Партнера?"
     show player 11
     show aqua 4
-    aqua "Да'ссс, Аква ждет партнера. Сделать ребенка Аква'ссс."
+    aqua "Даааа, Аква ждет партнера. Чтобы делать деток Аква'ссс."
     show player 10
     show aqua 5
-    player_name "Реально? Сколько ты уже ждешь?"
+    player_name "Правда? Как долго ты ждешь?"
     show aqua 4
     show player 11
-    aqua "Аква не знает. Доооолго. Никто не придет. Никто не найдет Акву."
+    aqua "Аква не знает. Ооооочень долго. Никто не приходит. Никто не найдет Aqua."
     show player 10
     show aqua 5
-    player_name "Хм... Ну, я нашел тебя."
+    player_name "Хмм... Ну, я нашел тебя."
     show player 13
     show aqua 1
-    aqua "Да'ссс! Ты нашёл Акву!"
+    aqua "Дааа! Ты нашел Аква!"
     show aqua 2
     aqua "..."
     show aqua 9
-    aqua "Если вы говорите верно и обещаете не воровать рыбок. Я верну тебе блестяшку."
+    aqua "Если ты говоришь правду и обещаешь не красть рыбок. Я верну тебе блестяшку."
     show player 14
     show aqua 8
-    player_name "Да! Спасибо тебе Аква."
+    player_name "Да! Спасибо Aqua."
     show player 13
     show aqua 9
-    aqua "Ты обещаешь?"
+    aqua "Ты обещааааешь?"
     show player 14
     show aqua 8
-    player_name "Обещаю, я не буду воровать 'рыбок'."
+    player_name "Я обещаю, Я не буду красть 'рыбок.'"
     show player 13
     show aqua 9
-    aqua "Хорошоо."
+    aqua "Хооороошооо."
     show aqua 10
     pause
     show aqua 2
@@ -125,10 +125,10 @@ label aqua_dialogue_aqua_found:
     show popup_lure zorder 3 at truecenter with dissolve
     pause
     hide popup_lure with dissolve
-    player_name "Фух... Спасибо тебе Аква!"
+    player_name "Уфф... Спасибо Аква!"
     show player 470
     show aqua 1
-    aqua "Только не забывай про рыбок Аквы...."
+    aqua "Запомни не воровать рыбок Аква..."
     hide player
     hide aqua
     with dissolve
@@ -151,35 +151,35 @@ label aqua_sex_pre_first:
     scene location_lair_mount
     show aqua 2 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Аква, у меня хорошие новости.!"
+    player_name "Аква, У меня хорошие новости!"
     show player 1
     show aqua 1
-    aqua "*Отдышка* Ты учишься дышать под водой, как Аква?!"
+    aqua "*ах* Ты учишься дышать под водой, как Аква?!"
     show player 12
     show aqua 2
     player_name "Что? ... Нет."
     show player 1
     show aqua 7
-    aqua "Ох. Хорошо. Какие новости?"
+    aqua "Ох. Хооороошооо. Тогда что?"
     show player 2
     show aqua 6
-    player_name "Я убедил {b}Капитана Терри{/b} прекратить воровать рыбок!"
+    player_name "Я убедил {b}Капитана Терри{/b} не ловить рыбу!"
     show player 1
     show aqua 7
-    aqua "То есть рыбки в безопасности!?"
-    aqua "{b}Капитана Терри{/b} больше не будет!?"
+    aqua "В смысле, рыбки в безопасности!?"
+    aqua "Нет больше {b}Капитана Терри{/b}!?"
     show player 17
     show aqua 6
-    player_name "Эй, ты правильно сказала в тот раз!"
+    player_name "Эй, ты сказала это правильно в тот раз!"
     show player 1
     show aqua 7
-    aqua "Да?"
+    aqua "А?"
     show player 2
     show aqua 6
-    player_name "Вы правильно сказали: '{b}Капитан Терри{/b}' на этот раз."
+    player_name "Ты сказала '{b}Капитана Терри{/b}' правильно."
     show player 1
     show aqua 7
-    aqua "Да. Капитан Терри!"
+    aqua "Дааа. Каплан Терри!"
     show player 90
     show aqua 6
     player_name "..."
@@ -189,42 +189,42 @@ label aqua_sex_pre_first:
     show player 37
     player_name "... Просто забудь."
     show player 2
-    player_name "Теперь ваша рыба должна быть в безопасности."
+    player_name "Твои рыбки в бозопасности."
     show player 1
     show aqua 7
-    aqua "Ох, спасибо тебе! Спасибо! Спасибо!"
+    aqua "Ох спасибо! спасибо! спасибо!"
     show aqua 14
     aqua "Ты хороший человек! Сильный человек!"
     show player 29
     show aqua 13
-    player_name "Всегда пожалуйста, Аква..."
+    player_name "Пожалуйста, Аква..."
     show player 1
     show aqua 11
     aqua "..."
     show aqua 12
-    aqua "Это... человек готов к спариванию с Аква?"
+    aqua "Есть... человек готовый к спариванию с Аква?"
     show player 21
     show aqua 13
-    player_name "Прямо сейчас?"
+    player_name "Сейчас?"
     show player 297
     show aqua 14
-    aqua "Да'ссс. Аква ждёт достаточно долго. Партнер возьмёт её в воде!"
+    aqua "Дааа. Аква ждала достаточно долго. Напарник должен взять меня в воде!"
     show player 10
     show aqua 13
     player_name "В воде?"
     show player 11
     show aqua 14
-    aqua "Да. Приходи!"
+    aqua "Да. Пошли!"
     return
 
 label aqua_sex_pre:
     scene location_lair_cutscene
     with fade
-    show text "Прикосновение Аквы было мягким и нежным, когда она взяла меня за руку и направилась к люминесцентному бассейну." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Прикосновение аквы было мягким и нежным, когда она взяла меня за руку и направилась к люминесцентному бассейну." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я изо всех сил старался идти в такт, возился со своей одеждой." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я изо всех сил старался идти в ногу, возился с одеждой." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Но она, казалось, не замечала, ее волнение ощутимо, когда она ведет своего партнера в воду." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Но она, похоже, не заметила, ее волнение ощутимо, когда она привела своего помощника в воду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -236,7 +236,7 @@ label aqua_sex_after_first:
     show pswim 1 at right
     pause
     show aswim 2
-    aqua "О, у приятеля хорошее тело.."
+    aqua "Ооо, у тебя красивое тело."
     show aswim 1
     show pswim 2
     player_name "Спасибо Аква..."
@@ -244,10 +244,10 @@ label aqua_sex_after_first:
     show pswim 1
     pause
     show aswim 2
-    aqua "Твой угорь уснул."
+    aqua "Твой угорь спит."
     show aswim 1
     show pswim 2
-    player_name "Да?"
+    player_name "А?"
     show aswim 3
     pause
     show pswim 3
@@ -256,18 +256,18 @@ label aqua_sex_after_first:
     player_name "Ох. Да..."
     show aswim 2
     show pswim 1
-    aqua "Партнеру нравиться тело Аквы?"
+    aqua "Тебе не нравится тело Aqua?"
     show aswim 1
     show pswim 2
-    player_name "Да... хмм, 'партнеру' очень нравиться тело Аквы."
+    player_name "Да... Умм, 'напарнику' очень нравится тело Аква."
     show aswim 2
     show pswim 1
-    aqua "Хорошо. Тело Аквы теперь принадлежит тебе."
-    aqua "Угорь партнера может играть внутри Аквы когда захочет."
+    aqua "Хороший. Тело аквы теперь принадлежит тебе."
+    aqua "Угорь напарника может играть в Аква, когда захочет."
     show aswim 3
     pause
     show aswim 2
-    aqua "Внутри Аквы тепло..."
+    aqua "Внутри Аква очень тепло..."
     show aswim 3
     pause
     show aswim 2
@@ -275,7 +275,7 @@ label aqua_sex_after_first:
     show aswim 3
     pause
     show aswim 2
-    aqua "... и мокро."
+    aqua "... и влажно."
     show pswim 3
     pause
     show aswim 3
@@ -288,50 +288,50 @@ label aqua_sex_after_first:
     pause
     show aswim 2
     show pswim 6
-    aqua "Ох, угорю это нравиться, да?!"
+    aqua "Угорь ведь это любит, правда?!"
     show aswim 3
     show pswim 7
-    player_name "Д-аа..."
+    player_name "Д-Да..."
     show aswim 4
-    aqua "Ммм, Хорошо. Аква хочет его."
+    aqua "Ммм, хорошо. Aqua хочет этого."
     show aswim 3
     show pswim 8
     player_name "..."
     show aswim 4
-    aqua "Аква хочет его сейчас!"
+    aqua "Aqua хочет сейчас!"
     hide pswim
     show aswim 5 with dissolve
     pause
     show aswim 6 at right with dissolve
-    player_name "*Глоток*"
-    aqua "Аахх, да'ссс. Твой... Угорь Играет внутри Аквы."
-    aqua "Подари Акве сильного ребенка..."
-    player_name "Ух ты!"
+    player_name "*глоток*"
+    aqua "Аааа, дааа. Иди угорь, поиграй в Aqua."
+    aqua "Дай Aqua сильных деток..."
+    player_name "Ох вау!"
     aqua "Ммм..."
     return
 
 label aqua_sex_after:
     scene location_lair_watersex
     show aquas 1 at Position(xalign = 1.0, yalign = 1.0)
-    aqua "{b}Акве{/b} нужно внутрь его!"
-    aqua "Поспеши мой друг!"
+    aqua "{b}Аква{/b} нуждается в нем!"
+    aqua "Быстрее, дружище!"
     player_name "..."
     show aquas 2
-    aqua "Он'ссс."
+    aqua "Его."
     aqua "Твой угорь очень большой!"
-    aqua "Возьми меня силой!"
+    aqua "Возьми меня сильнее!"
     $ M_aqua.set("sex speed", .175)
     show expression AnimatedImage("aquas", [3,4,5,6,7], M_aqua) as aquas
     with fade
-    aqua "Ооохх!."
+    aqua "Оооххх!."
     pause
-    aqua "Так сильно!"
+    aqua "Очень сильно!"
     pause
     aqua "и глубоко!"
     $ M_aqua.set("sex speed", .125)
-    aqua "Ааахх!"
+    aqua "Ааааа!"
     pause
-    aqua "Ммм, мой партнер."
+    aqua "Мммм, мой напарник."
     aqua "Быстрее!"
     $ M_aqua.set("sex speed", .075)
     pause
@@ -364,11 +364,11 @@ label aqua_sex_loop:
 
 label aqua_hscene_dialog:
     if animcounter == 1:
-        aqua "Аххх!!!{p=1}{nw}"
+        aqua "Аххххх!!!{p=1}{nw}"
 
     elif animcounter == 3:
         aqua "Возьми меня!!!{p=1}{nw}"
-        player_name "Оххх...{p=1}{nw}"
+        player_name "Уххх...{p=1}{nw}"
     return
 
 label aqua_sex_cum:
@@ -387,19 +387,19 @@ label aqua_sex_cum:
 
 label aqua_sex_cum_pre:
     player_name "Это невероятно!"
-    player_name "{b}Аква{/b}, Я собираюсь..."
-    aqua "Дааа... Да мой партнер!"
-    aqua "Дай {b}Акве{/b} своё семя!"
-    aqua "Оннн!!!"
+    player_name "{b}Aqua{/b}, Я кончаю..."
+    aqua "Даааа... ДАААА МОЙ НАПАРНИК!"
+    aqua "Дай {b}Aqua{/b} свое сссееееммммяяя!"
+    aqua "ООООННННН!!!"
     show aquas 8 with flash
-    player_name "Оххх!!"
-    aqua "Ахххх!!!!"
+    player_name "УХХХ!!"
+    aqua "ААААХХХХХ!!!!"
     pause
     show aquas 9
-    player_name "Офигеть!"
+    player_name "Вау!"
     player_name "Это было невероятно!"
     aqua "Дааа..."
-    aqua "... {b}Аква{/b} чувствет сильного младенца, который плавает внутри ее!"
+    aqua "... {b}Аква{/b} может чувствовать своих сильных детей, плавающих внутри нее!"
     pause
     scene black with fade
     return
@@ -408,36 +408,36 @@ label aqua_sex_cum_first:
     scene location_lair_mount
     show aqua 11 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Так вам понравилось?"
+    player_name "Тебе понравилось?"
     show player 1
     show aqua 12
-    aqua "Да'ссс. Аква много наслаждалась! Все еще чувствую покалывание в ногах!"
+    aqua "Дааа. Аква нравится! Все еще чувствую покалывание в ногах!"
     show player 2
     show aqua 11
-    player_name "Ты была невероятна! Я никогда не чувствовал ничего подобного раньше."
+    player_name "Ты была великолепна! Я никогда не чувствовал ничего подобного."
     show player 1
     show aqua 14
-    aqua "Да'ссс, у Аквы это было в первый раз."
+    aqua "Дааа, Аква тоже."
     show aqua 12
-    aqua "... Но Аква хочет больше."
+    aqua "... но Аква хочет больше."
     show aqua 14
-    aqua "Партнер ещё вернется, даст Акве больше семени. Да?"
+    aqua "Напарник вернется, и даст Аква больше семени. Да?"
     show player 2
     show aqua 13
-    player_name "Абсолютно, Я очень скоро вернусь.!"
+    player_name "Конечно, я очень скоро вернусь!"
     show player 1
     show aqua 14
-    aqua "Партнер обещает?"
+    aqua "Напарник обещает?"
     show player 2
     show aqua 13
-    player_name "Ох, Я обещаю!"
+    player_name "Обещаю!"
     show player 1
     show aqua 12
-    aqua "Хороший. Аква хочет гораздо больше!"
+    aqua "Хорошо. Аква хочет больше!"
     show aqua 14
-    aqua "Скоро вернется, Человек."
+    aqua "Возвращайся скорее, Человечек."
     show aqua 11
-    aqua "Аква будет ждать здесь, пока не перестанет покалывать..."
+    aqua "Аква подождет здесь пока не пройдет покалывание в ногах..."
     return
 
 label aqua_dialogue_pre:
@@ -446,7 +446,7 @@ label aqua_dialogue_pre:
     player_name "Привет, Аква!"
     show player 1
     show aqua 1
-    aqua "Да'с..."
+    aqua "Дааа..."
     show player 2
     show aqua 2
     player_name "Я хотел поговорить с тобой."
@@ -461,20 +461,20 @@ label aqua_dialogue_the_others:
     player_name "Аква, что случилось с остальными твоего вида?"
     show player 11
     show aqua 4
-    aqua "Хмм, Аква не уверена. Они просто однажды ушли. Аква осталась одна."
+    aqua "Хммм, Аква не уверена. Они просто исчезли однажды. Аква-последний."
     show aqua 5
     show player 10
-    player_name "Ой, прости, Аква."
+    player_name "Ааа, Прости Аква."
     show player 11
     show aqua 1
-    aqua "У тебя ещё остались вопросы?"
+    aqua "Ещё вопросы?"
     show aqua 2
     return
 
 label aqua_dialogue_how_are_you:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Аква, как ты?"
+    player_name "Аква, как дела?"
     show player 1
     show aqua 4
     aqua "Как я?"
@@ -485,26 +485,26 @@ label aqua_dialogue_how_are_you:
     show aqua 5
     aqua "Хм, Аква в порядке. Одиноко с таким количеством рыбешек..."
     show aqua 4
-    aqua "... но нравится, что человеческий мальчик приходит в гости."
+    aqua "... но нравится что человеческий мальчик навещает."
     show player 2
     show aqua 3
-    player_name "Мне тоже нравится с тобой разговаривать.."
+    player_name "Мне тоже нравится с тобой разговаривать Aqua."
     show player 1
     show aqua 1
-    aqua "Увлекательно, как говориться."
-    aqua "У тебя ещё остались вопросы?"
+    aqua "Да, как будто разговариваешь."
+    aqua "Еще вопросы?"
     show aqua 2
     return
 
 label aqua_dialogue_mating_pre:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 10 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Аква, какого партнера ты ищешь??"
+    player_name "Аква, какого напарника ты ищешь?"
     show player 11
     show aqua 4
-    aqua "Мужчину. Упрямого мужчину. Он сделает Акве сильного младенца."
+    aqua "Мужчину. Сильного мужчину. Сделать Aqua сильных деток."
     show aqua 1
-    aqua "ты знаешь такого человека,?"
+    aqua "знаешь такого?"
     show player 34
     show aqua 3
     player_name "Хмм."
@@ -516,17 +516,17 @@ label aqua_dialogue_mating_stat_fail:
     player_name "[chr_warn]Как насчет меня?"
     show player 3
     show aqua 4
-    aqua "[chr_warn]Ты сильный мужчина?"
+    aqua "[chr_warn]Ты силен?"
     show player 29
     show aqua 3
     player_name "[chr_warn]Да?"
     show player 3
     show aqua 5
     aqua "..."
-    aqua "хмм..."
+    aqua "Хмм..."
     pause
     show aqua 4
-    aqua "[chr_warn]Аква думает... Нет. Плохая идея."
+    aqua "[chr_warn]Aqua думает... нет. Плохая идея."
     show player 24
     show aqua 3
     player_name "[chr_warn]Облом..."
@@ -535,7 +535,7 @@ label aqua_dialogue_mating_stat_fail:
 label aqua_dialogue_mating_stat_pass:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 2 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Может быть, я смогу помочь?"
+    player_name "Может я могу помочь?"
     show player 1
     show aqua 7
     aqua "Ты?"
@@ -544,94 +544,94 @@ label aqua_dialogue_mating_stat_pass:
     player_name "Ну, я имею в виду, я проплыл весь путь сюда, чтобы найти тебя."
     show player 1
     show aqua 7
-    aqua "Ты сделаешь это."
+    aqua "Ага."
     show player 2
     show aqua 6
-    player_name "... И я сражался с очень злым кальмаром по пути."
+    player_name "... И я сражался с очень злым кальмаром на этом пути."
     show player 1
     show aqua 7 with hpunch
-    aqua "Ты борешься с чернилом?!"
+    aqua "Ты побил Inky?!"
     show player 2
     show aqua 6
-    player_name "Чернилом? Да. Я борюсь с чернилом."
+    player_name "Inky? Да. Я побил Inky."
     show aqua 7
-    aqua "Ооох, Чернил сильный!"
+    aqua "Оооо, Inky сильный!"
     show aqua 12
     pause
     show aqua 11
-    aqua "Может быть, ты сделаешь Акве сильных детей."
+    aqua "Может быть, ты дашь Аква сильных детей."
     show player 14
     show aqua 13
-    player_name "Впрямь?!"
+    player_name "Правда?!"
     show player 1
     show aqua 14
-    aqua "Да'ссс. Но пока нет партнера. Сначала ты докажешь силу."
+    aqua "Да. Но партнера пока нет. Сначала ты докажешь свою силу."
     show player 10
     show aqua 13
     player_name "Доказать свою силу? Как я должен это сделать?"
     show player 1
     show aqua 7
-    aqua "Скажешь Капитану Терри не воровать рыбу, да?"
+    aqua "Ты говоришь,что Caplan Terry ворует рыбок, да?"
     show player 12
     show aqua 6
-    player_name "{b}Капитану Терри{/b}. Да, это парень, который ловил рыбу на пристани.."
+    player_name "{b}Капитану Терри{/b}. Да, это тот парень, который ловит рыбу у причала."
     show player 11
     show aqua 7
-    aqua "Хмм, скажите Каплан Терри прекрать."
+    aqua "Хмм, ты должен остановить Каплана Терри."
     show aqua 11
-    aqua "Вы делаете это, а затем спариваетесь с Аква."
+    aqua "Ты сделаешь это, а потом спариваешься с Аква."
     show player 10
     show aqua 13
-    player_name "Ну, я полагаю, я могу ему об этом сказать."
+    player_name "Ну, я полагаю, я могу сделать это."
     show player 11
     show aqua 14
-    aqua "Хороший. Тогда иди ты. Сохрани рыбу!"
+    aqua "Хорошо. Иди. Спаси рыбок!"
     return
 
 label aqua_dialogue_mating_hint:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 12 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Что мне нужно сделать еще раз, Аква? Чтобы доказать свою силу?"
+    player_name "Что мне нужно сделать, Аква? Чтобы доказать свою силу?"
     show player 11
     show aqua 7
-    aqua "Ты должен сохранить рыбу с помощью Каплана Терри!"
+    aqua "Спаси рыбок от Каплан Терри!"
     show player 10
     show aqua 6
-    player_name "Ох, понял. {b}Капитан Терри{/b}."
+    player_name "Ах,да. {b}Капитан Терри{/b}."
     show player 11
     show aqua 7
-    aqua "Это то, что говорит Аква! Каплан Терри!"
+    aqua "Так Аква и сказала! Каплан Терри!"
     show player 12
     show aqua 6
     player_name "Капи- неважно. Думаю, мне стоит попробовать поговорить с ним."
     show player 5
     show aqua 7
-    aqua "Да'ссс. Иди, спаси рыбу!"
+    aqua "Дааа. Иди, спаси рыбок!"
     return
 
 label aqua_dialogue_mate:
     show aqua 2 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 21 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Я подумала, Может ты захочешь... Снова в воду?"
+    player_name "Я подумал, может ты захочешь... Снова залезть в воду?"
     show player 26
     show aqua 3
     aqua "..."
     show aqua 1
-    aqua "Ох! Вы хотите сделать детей?"
+    aqua "О! Ты хочешь делать деток?"
     show player 21
     show aqua 12
-    player_name "Я, ошибся... Конечно?"
+    player_name "Я... конечно?"
     show player 26
     show aqua 11
-    aqua "Хахаха! Смешной Человек. Теперь ты друг Аквы."
+    aqua "Хахаха! Забавный Человек. Теперь ты напарник Аквы."
     show aqua 14
-    aqua "Аква всегда готов к большему количеству семени! Партнер может взять ее сильно в воде, когда он хочет."
+    aqua "Aqua всегда готова к большему количеству семяни! Напарник может взять ее в воде когда захочет."
     return
 
 label aqua_dialogue_nothing:
     show aqua 3 zorder 1 at Position(xpos=.5875, ypos=1.0)
     show player 36 zorder 2 at Position(xpos=.125, ypos=1.0)
-    player_name "Ничего, я просто поздоровался!"
+    player_name "Ничего, я просто поздороваться!"
     show player 1
     show aqua 4
     aqua "Человеческий мальчик... Смешной..."
@@ -639,16 +639,16 @@ label aqua_dialogue_nothing:
     aqua "...Мне нравится человеческий мальчик..."
     show player 21
     show aqua 2
-    player_name "Я чт... Как и вы мне!"
+    player_name "Я ... .. Как и ты тоже!"
     show player 13
     aqua "..."
     show player 29
-    player_name "В любом случае, мне пора идти.."
+    player_name "В любом случае, мне пора идти."
     show player 3
     show aqua 1
-    aqua "Приходи ещё, увидемся ещё."
+    aqua "Возвращайся, посмотреть на Aqua."
     show player 17
     show aqua 2
-    player_name "Спорим!"
+    player_name "Конечно!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

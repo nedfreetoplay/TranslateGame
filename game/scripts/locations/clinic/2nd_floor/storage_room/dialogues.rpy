@@ -1,7 +1,7 @@
 label hospital_storage_no_access_card:
     scene hospital_lock
-    player_name "Damn, it's locked!"
-    player_name "It looks like I need an {b}access card{/b} to unlock this door..."
+    player_name "Черт, заперто!"
+    player_name "Похоже мне нужна {b}Карта доступа{/b} чтобы открыть эту дверь..."
     return
 
 label hospital_storage_cabinet_dialogue:
@@ -12,9 +12,9 @@ label hospital_storage_cabinet_dialogue:
 
 label hospital_storage_cabinet_mrsj_sex_ed_started:
     scene hospital_cabinet_filled
-    player_name "Hmm..."
-    player_name "There's quite a few kinds of pills here."
-    player_name "Maybe that green box?"
+    player_name "Хмм..."
+    player_name "Здесь несколько видов таблеток."
+    player_name "Может, эта зелёная коробка?"
     return
 
 label roz_storage_sex:
@@ -37,17 +37,17 @@ label roz_storage_sex_pre_repeat:
     show player 13f
     pause
     show roz 5
-    roz "Surprised to see you back so soon. I musta left an impression."
+    roz "Удивлена увидеть тебя так быстро. I musta left an impression."
     show player 14f
     show roz 4
-    player_name "Y-yeah. You were really good!"
+    player_name "Д...даа. Вы были действительно хороша!"
     show player 13f
     show roz 5
-    roz "Hah, well you don't get to be my age without learning a few tricks, Kiddo."
+    roz "Хех, тебе повезло узнать некоторые хитрости будучи ещё молодым, малыш."
     show roz 8
     pause
     show roz 9
-    roz "Well then..."
+    roz "Нусс...тогда..."
     hide roz
     hide player
     show roz 16 at right with dissolve
@@ -60,79 +60,79 @@ label roz_storage_sex_pre_repeat:
     show player 80
     pause
     show roz 19
-    roz "Why don't you get that monster out and so we can get started."
+    roz "Почему бы тебе не достать своего великана чтобы мы могли начать"
     show player 83
-    player_name "Yes Ma'am!"
+    player_name "Да, Мадам!"
     hide player with dissolve
     show roz 18
     show player 480 at Position(xpos=.35,ypos=1.0)
     pause
     show roz 19
-    roz "Kid, you really got a great one."
+    roz "Малыш, ты действительно хорош."
     show roz 18
     show player 482
     pause
     show roz 19
-    roz "Don't you be forgettin' to finish inside now..."
+    roz "Только не забудь кончить в меня..."
     show roz 18
     show player 481
-    player_name "Y-yes Ma'am!"
+    player_name "Д...да, Мадам!"
     show player 483 at Position (xpos=.36,ypos=1.0)
     show roz 19
-    roz "That's a good boy..."
+    roz "Хороший мальчик..."
     return
 
 label roz_storage_sex_pre_first:
     show player 12 at center with dissolve
-    player_name "I'm pretty sure {b}Roz{/b} said the box would be here."
+    player_name "Я помню, {b}Роз{/b} говорила что коробка здесь."
     show player 11 zorder 2
-    player_name "But I don't see it. Maybe she moved it and forgot?"
+    player_name "Но я её не вижу. Возможно, она её переложила и забыла?"
     show roz 5 zorder 1 at left with dissolve
 
-    roz "Need some help?"
+    roz "Нужна помощь?"
     show player 23f at Position(xpos=.7,ypos=1.0)
     show roz 4
-    player_name "Whoa!"
+    player_name "Ааааа!"
     show player 22f
     player_name "..."
     show player 10f
-    player_name "Oh, he-hey {b}Roz{/b}. You scared me!"
+    player_name "Уфф, здра-здрасти, {b}Роз{/b}. Вы меня напугали!"
     show player 11f
     show roz 5
-    roz "Ahh, don't be ridiculous! I just came to give you a hand."
+    roz "Ахх, не будь таким смешным! Я пришла тебе помочь."
     show player 10f
     show roz 4
-    player_name "Uhh yeah, okay. Umm, are you sure the box is in here? I can't seem to find it."
+    player_name "Ага, хорошо. Эмм, вы говорили что коробка тут, но я её не нахужу."
     show player 11f
     show roz 5
-    roz "No? That's odd."
-    roz "I suppose it's possible I brought the box down already and it just slipped my mind."
-    roz "This old noggin ain't as sharp as it used to be."
+    roz "Не нашёл? Странно."
+    roz "Возможно что не помню куда положила, но помню что приносила сюда."
+    roz "Моя память не настолько хороша как в былые времена."
     show roz 4
     player_name "..."
     show player 10f
-    player_name "O-Okay. No problem, I'll just run down stairs and-"
+    player_name "Ну ничего страшного. Спущусь по лестнице-"
     show player 22f
     show roz 6
 
     player_name "!!!" with hpunch
     show roz 7
-    roz "What's the hurry?"
-    roz "Seems to me we have a few moments of privacy here..."
-    roz "And I think there's something else you can do for me."
+    roz "Куда торопишься?"
+    roz "Кажется у нас есть время уединиться в этой комнате..."
+    roz "И я думаю, что ты сможешь что-то сделать для меня."
     show player 38f
     show roz 6
     player_name "Oh uh, s-sure. What did you have in mind?"
     show player 3f
     show roz 7
-    roz "Here's the thing, {b}[firstname]{/b}."
-    roz "It's been a looooong time since this old bird got some action. You know what I mean?"
+    roz "Так, короче, {b}[firstname]{/b}."
+    roz "Если ты понимаешь, то у ласточки что перед тобой же долгое время не было удовольствия."
     show player 10f
     show roz 6
-    player_name "Umm, a-action?"
+    player_name "Эээ, ууудовольствия?"
     show player 11f
     show roz 7
-    roz "That's right. Action."
+    roz "Ну да."
     show roz 10
     pause
 
@@ -142,27 +142,27 @@ label roz_storage_sex_pre_first:
     show player 23f
     player_name "!!!" with hpunch
     show player 42f
-    player_name "Whoa! {b}Roz{/b}, What are you doing?"
+    player_name "Эй! {b}Роз{/b}, что вы делаете?"
     show roz 9
-    roz "Eh? What's it look like I'm doin'?"
-    roz "Get those clothes off and lets see what you're packin' down there."
+    roz "Ты что, дурак? А на что это похоже?"
+    roz "Снимай одежду, и посмотри что для тебя ТАМ, внизу."
     show player 10f
     show roz 8
-    player_name "Wait you want me to--B-but I can't do that!"
+    player_name "Подождите, вы что хотите--Н-но я НЕ МОГУ!"
     show player 11f
     show roz 9
-    roz "Huh? You want those {b}records{/b} or not?"
+    roz "Что? Тебе нужны эти {b}записи{/b} или нет?"
     show player 10f
     show roz 8
-    player_name "Well yeah, I really need them but-"
+    player_name "Нуууу да, нужны, но-"
     show player 11f
     show roz 9
-    roz "Well then what are ya babblin' about? You help me and I help you. Got it?"
+    roz "И чего ты сейчас впустую балтаешь? Ты поможешь мне, я тебе. Договорились?"
     show player 24f
     show roz 8
-    player_name "I... I got it."
+    player_name "Я...я...ай, ладно, согласен."
     show roz 9
-    roz "Good!"
+    roz "Вот и славненько!"
     hide roz
     hide player
     show roz 16 at right with dissolve
@@ -175,32 +175,32 @@ label roz_storage_sex_pre_first:
     show player 78
     pause
     show roz 19
-    roz "Heh, I still got it."
+    roz "Да, я хочу получить удовольствие."
     show player 80
     show roz 18
     pause
     show roz 19
-    roz "What's the hold up?"
+    roz "И чего тормозим?"
     show player 83
-    player_name "Oh man..."
+    player_name "Матерь Божья..."
     hide player with dissolve
     show roz 18
     show player 480 at Position(xpos=.35,ypos=1.0)
     pause
     show roz 19
-    roz "Phew wee! What a monster!"
+    roz "Афигеть! Какой монстр!"
     show roz 18
     show player 482
     pause
     show roz 19
-    roz "I knew this was a good idea!"
+    roz "Я думаю это была хорошая мысль!"
     show roz 18
     pause
     show roz 19
-    roz "Now get over here and give ole' {b}Roz{/b} what she's been missin'."
+    roz "Подходи сюда, и дай тёте {b}Роз{/b} то чего ей не хватало."
     show roz 18
     show player 481
-    player_name "O-Okay!"
+    player_name "Л...ладно!"
     show player 483 at Position (xpos=.36,ypos=1.0)
     show roz 19
     roz "That's a good boy..."
@@ -211,16 +211,16 @@ label roz_storage_sex_pre_after:
     $ M_roz.set("sex speed", .175)
     show expression AnimatedImage("rozs", [1,2,3,4,5,6,7], M_roz) as rozs at right
     with fade
-    roz "That's it Kid, nice and deep."
+    roz "Да, малыш, глубже."
     pause
-    roz "Oh Yeeaah..."
+    roz "О, дааааа..."
     pause
-    roz "Don't you worry about pullin' out neither."
-    roz "None of the plumbing works anymore and I like the feel of it inside."
+    roz "О последствиях не волнуйся."
+    roz "Мне уже нечего бояться, поэтому можно полностью насладиться процессом."
     $ M_roz.set("sex speed", .125)
-    roz "That's it, just like that."
+    roz "Да, вот так!"
     pause
-    roz "C'mon Kid, harder!"
+    roz "Давай, малыш, сильнее!"
     $ M_roz.set("sex speed", .075)
     return
 
@@ -251,11 +251,11 @@ label roz_storage_sex_loop:
 
 label roz_storage_hscene_dialog:
     if animcounter == 1:
-        roz "Ahhhh!!!{p=1}{nw}"
+        roz "Аххх!!!{p=1}{nw}"
 
     elif animcounter == 3:
-        roz "Oh!!!{p=1}{nw}"
-        player_name "Uhhh...{p=1}{nw}"
+        roz "Ох!!!{p=1}{nw}"
+        player_name "Уххх...{p=1}{nw}"
     return
 
 label roz_storage_sex_cum:
@@ -275,13 +275,13 @@ label roz_storage_sex_cum:
     $ game.main()
 
 label roz_storage_sex_cum_pre:
-    player_name "Roz, I can't hold out... M-much longer."
-    roz "Finish inside me!"
+    player_name "Роз, я скоро кончу... Н-немогу дольше."
+    roz "Да, малыш, кончай в меня!"
     pause
-    roz "Oh goodness!!!"
+    roz "Оооо, как хорошо!!!"
     show rozs 8_9 with flash
-    player_name "UHHH!!"
-    roz "AAAAHHH!!!!"
+    player_name "УХХХ!!!"
+    roz "AAAAХХХ!!!!"
     pause
     hide rozs
     show player 482 zorder 2 at Position(xpos = .36, ypos = 1.0)
@@ -290,14 +290,14 @@ label roz_storage_sex_cum_pre:
     show players 143 zorder 4 at Position(xpos = .435, ypos = .8625)
     pause
     show roz 19
-    roz "*wheeze* ... Whew."
-    roz "Dear me... *cough* That was really good, {b}[firstname]{/b}!"
+    roz "*хрипло* ... Вауу."
+    roz "Дорогуша... *кашель* Это было просто отпадно, {b}[firstname]{/b}!"
     show roz 18
     show player 481
-    player_name "Y-yeah..."
+    player_name "Д-да..."
     show player 482
     show roz 19
-    roz "Just give me a moment... to catch my breath."
+    roz "Просто дай мне немного времени... перевести дыхание."
     scene black with fade
     return
 
@@ -306,18 +306,18 @@ label roz_storage_sex_cum_after_repeat:
     show roz 13 at left with dissolve
     pause
     show roz 15
-    roz "You done good today, Kiddo."
-    roz "Seeing lots of improvement."
+    roz "Ты сегодня был молодцом, малыш."
+    roz "Улучшения прям на виду."
     show player 29f
     show roz 14
-    player_name "Really? Heh, thanks. I guess..."
+    player_name "Правда? Хе, Спасибо. Я пологаю..."
     show player 3f
     show roz 15
-    roz "My pleasure, {b}[firstname]{/b}."
-    roz "You come back and see ole' {b}Roz{/b} again real soon. Ya hear?"
+    roz "С удовольствием, {b}[firstname]{/b}."
+    roz "Приходи ещё, и опять сможешь получить {b}Роз{/b} . Хорошо?"
     show player 29f
     show roz 14
-    player_name "S-sure thing."
+    player_name "К...конечно."
     hide roz
     hide player
     with dissolve
@@ -328,40 +328,40 @@ label roz_storage_sex_cum_after_first:
     show roz 4 at left
     pause
     show roz 12
-    roz "Here's the records."
+    roz "Вот эти записи."
     show player 12f
     show roz 11
-    player_name "You've had them the whole time?!"
+    player_name "Они были у вас всё это время?!"
     show player 462
     show roz 5
-    roz "Of course, I told ya I knew where they were."
+    roz "Конечно, я же говорила что знаю где они."
     show roz 4
     player_name "..."
     show roz 5
-    roz "I'm not sure what name you're looking for..."
-    roz "But if they're in the {b}cemetery{/b}, then they'll be in these {b}records{/b}."
+    roz "Только я не знаю какое имя ты ищешь..."
+    roz "Но если его хоронили на {b}нашем кладбище{/b}, то оно будет в этих {b}записях{/b}."
     show roz 13
     pause
     show player 463
     show roz 14
-    player_name "...Thanks, I guess."
+    player_name "...Спасибо."
     show player 462
     show roz 15
-    roz "My pleasure, Kiddo."
-    roz "Do come back and see me again. Ya know, if you need anything else."
+    roz "С большим удовольствием, малыш."
+    roz "Приходи ко мне ещё, если тебе что-то будет нужно."
     show roz 14
     pause
     show roz 15
-    roz "Like maybe a second round? Heh!"
+    roz "и сможем запустить второй раунд? Хех!"
     show roz 14
     hide roz with dissolve
     pause
     show player 37f
-    player_name "(I... Can't believe I just had sex with {b}Roz{/b}.)"
-    player_name "(She's old enough to be my grandmother...)"
+    player_name "(Я... Это просто пиздец... у меня был секс с {b}Роз{/b}.)"
+    player_name "(Она старше моей бабушки...)"
     show player 24f
-    player_name "(At least I got the {b}Obituary Records{/b}.)"
-    player_name "(I sure hope that Boatsmith is in there somewhere.)"
+    player_name "(Ну по крайней мере я получил {b}Записи о захоронениях{/b}.)"
+    player_name "(Я надеюсь что там будет запись о судостроителе.)"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -6,206 +6,206 @@ label roz_dialogue_intro:
     show roz_desk at left
     show player 14f at right
     with dissolve
-    player_name "Hi!"
+    player_name "Привет!"
     show player 13f
     show roz 2
-    roz "Yes?"
-    roz "What can I do for you?"
+    roz "Да?"
+    roz "Чем я могу помочь вам?"
     show roz 1
     return
 
 label roz_dialogue_1st_floor:
     show player 12f
-    player_name "What can I find on the 1st floor?"
+    player_name "Что я могу найти на 1-м этаже?"
     show player 5f
     roz "..."
     show roz 2
-    roz "It's the lobby."
+    roz "Это Вестибюль."
     show roz 1
     show player 10f
-    player_name "Oh... Is there anything else?"
+    player_name "Ох... есть ли что-нибудь ещё?"
     show player 5f
     show roz 3 with dissolve
-    roz "Do you see anything else?"
+    roz "Ты видишь что-нибудь ещё?"
     show roz 1 with dissolve
     show player 24f
-    player_name "I guess not..."
+    player_name "Я не думаю..."
     show player 25f
     show roz 2
-    roz "Anything else I can do?"
+    roz "Что-нибудь ещё,что я могу сделать?"
     show roz 1
     show player 13f
     return
 
 label roz_dialogue_2nd_floor:
     show player 12f
-    player_name "What can I find on the 2nd floor?"
+    player_name "Что я могу найти на 2-м этаже?"
     show player 5f
     show roz 2
-    roz "We have sick rooms, and a storage room on the 2nd floor."
+    roz "У нас есть больничные палаты,и склад на 2-м этаже."
     show roz 1
     show player 12f
-    player_name "Oh. I see."
+    player_name "Ох.Я вижу."
     show player 5f
     show roz 2
-    roz "Anything else I can do?"
+    roz "Что-нибудь ещё,что я могу сделать?"
     show roz 1
     show player 13f
     return
 
 label roz_dialogue_schedule:
     show player 12f
-    player_name "Is there always someone at the reception?"
+    player_name "Есть кто то в приёмной?"
     show player 5f
     show roz 2
-    roz "Yes."
-    roz "I'm always here."
+    roz "Да."
+    roz "Я всегда здесь."
     show roz 1
     show player 12f
-    player_name "You never leave your desk?"
+    player_name "Вы никогда не покидаете своё рабочее место?"
     show player 5f
     show roz 2
-    roz "Why do you ask?"
+    roz "Почему ты спрашиваешь?"
     show roz 1
     show player 10f
-    player_name "Err... Just wondering?"
+    player_name "Эмм... Просто интересно?"
     show player 5f
     show roz 2
-    roz "I only leave my desk in case of an emergency."
+    roz "Я покидаю своё рабочее место только в экстренных случаях."
     show player 11f
-    roz "If I don't get a {b}phone call{/b}, I don't leave."
+    roz "Если я не получаю{b}телефоный звонок{/b},я не покидаю своего рабочего места."
     show roz 1 with dissolve
     show player 14f
-    player_name "Oh. I see."
+    player_name "Ох.Я вижу."
     show player 13f
     show roz 2
-    roz "Anything else I can do?"
+    roz "Что-нибудь ещё,что я могу сделать?"
     show roz 1
     return
 
 label roz_dialogue_ancestory:
     show player 14f
     show roz 1
-    player_name "Roz! I need to ask you something."
+    player_name "Roz! Мне нужно вас спросить кое о чём."
     show player 11f
     show roz 2
-    roz "Hmm, yes?"
+    roz "Хмм, да?"
     show roz 1
     show player 10f
-    player_name "I'm trying to find the gravesite of someone who died in this town, a long time ago."
+    player_name "Я пытаюсь найти могилу кого-то кто умер в этом городе,много лет назад."
     show player 29f
-    player_name "I think he was some kind of Boatsmith."
-    player_name "Do you have any ideas on the best way to go about finding it?"
+    player_name "Я думаю он был каким-то Boatsmith."
+    player_name "У вас есть какие-то идеи о лучшем способе отыскать его?"
     show player 3f
     show roz 2
-    roz "I might have an idea or two."
+    roz "Возможно есть одна или две."
     show roz 1
     roz "..."
     show player 11f
     player_name "..."
     show player 12f
-    player_name "Could you tell me?"
+    player_name "Не могли бы вы сказать мне?"
     show player 11f
     show roz 2
-    roz "... I probably could."
+    roz "... Возможно я могла бы."
     show roz 1
     roz "..."
     show player 16f
     player_name "..."
     show player 30f
-    player_name "*sigh* Will you please tell me?"
+    player_name "*Ахх* Расскажите мне пожалуйста?"
     show player 16f
     show roz 2
-    roz "What's this fella's name?"
+    roz "Как его зовут?"
     show player 29f
     show roz 1
-    player_name "... That's the problem. I don't know his name."
+    player_name "... В этом и проблема. Я не знаю его имени."
     show player 11f
     show roz 2
-    roz "Hmm..."
-    roz "Well that makes things difficult, doesn't it?"
+    roz "Хмм..."
+    roz "Ясно это все усложняет, не так ли?"
     show player 25f
     show roz 1
-    player_name "... Yeah."
+    player_name "... Да."
 
     show player 24f
     show roz 2
-    roz "Hmm..."
-    roz "It's possible you could find him in the old {b}Obituary Records{/b}."
+    roz "Хмм..."
+    roz "Возможно ты сможешь отсыскать его в старых {b}Записях некролога{/b}."
     show player 11f
-    roz "I seem to recall more than a few folk had their professions listed in there."
+    roz "Я припоминаю несколько человек и их профессии указаны сдесь."
     show player 10f
     show roz 1
-    player_name "Really?! That sounds promising!"
+    player_name "Серьёзно?! Это звучит многообещающе!"
     show player 11f
     show roz 2
-    roz "Problem is, it's gonna be a big hassle. Me diggin' that old thing up."
+    roz "Проблема в том, что это доставит большую мороку. Придется покапаться в старых делах."
     show player 29f
     show roz 1
-    player_name "Oh?"
+    player_name "Ох?"
     show player 3f
     show roz 2
-    roz "Maybe you could do something to make it worth my while?"
+    roz "Может и ты сможешь сделать что-то что бы я не тратила своего времени?"
     show player 29f
     show roz 1
-    player_name "O-Of course!"
+    player_name "К-ко нечно!"
     show player 2f
-    player_name "You let me take a look at those records and I'll do anything you want!"
+    player_name "Позвольте мне взглянуть на те записи и я сделаю все что вы захотите!"
     show player 1f
     show roz 2
-    roz "Hmm... Anything?"
+    roz "Хмм... Что угодно?"
     show player 2f
     show roz 1
-    player_name "Anything!"
+    player_name "Что угодно!"
     show player 1f
     roz "..."
     show roz 2
-    roz "Alright. I tell ya what. Take this pass key up to the {b}2nd floor storage{/b}."
-    roz "You'll find an ugly box sitting there on the shelf, stands out like a sore thumb, you can't miss it."
+    roz "Хорошо. Я тебе скажу что. Возьми это ключи от {b}2-го этажа склада{/b}."
+    roz "Ты его найдешь его на уродливой коробке лежащей на полке, оно там как бельмо на глазу, ты не сможешь пропустить его."
     show player 2f
     show roz 1
-    player_name "Ugly box, got it."
+    player_name "Уродливая коробка, понял."
     show player 1f
     show roz 2
-    roz "You go get me that box and bring it back here while I dig up those records."
+    roz "Иди принеси мне эту коробку и принеси ее пока сюда Я раскапаю эти записи."
     show player 2f
     show roz 1
-    player_name "That sounds easy enough! I'll be back in a flash!"
+    player_name "Это звучит достаточно просто! Я вернусь в мгновение ока!"
     hide player with dissolve
 
     show roz 2
-    roz "Heh, sure you will kid. Sure you will."
+    roz "Хех, конечно ты будешь Мальчик. Конечно ты будешь."
     return
 
 label roz_dialogue_go_on_break:
     show player 14f
     show roz 1
-    player_name "I was wondering if you wanted to... Ya know, take your break?"
+    player_name "Я подумал может вы захотите... Знаете, взять перерыв?"
     show player 13f
     show roz 2
-    roz "Ahh..."
-    roz "Can't get enough of ole' {b}Roz{/b}, eh Kiddo?"
+    roz "Ахх..."
+    roz "Немогу устоять' {b}Roz{/b}, ах Малыш?"
     show roz 1
     player_name "..."
     show roz 2
-    roz "Don't you worry, message received."
-    roz "You head on up to storage and I'll be along shortly..."
-    roz "...just need a moment to freshen up."
+    roz "Не волнуйся, сообщение получено."
+    roz "Напровляйся на склад и Я буду с минуты на минуту..."
+    roz "...один момент нужно привести себя в порядок."
     show roz 1
     player_name "..."
     show player 14f
-    player_name "S-Sure, I'll be up there waiting."
+    player_name "К-конечно, Я буду ждать наверху."
     show player 13f
     hide player with dissolve
     show roz 2
-    roz "That's a good boy..."
+    roz "Хороший мальчик..."
     return
 
 label roz_dialogue_nothing:
     show player 14f
-    player_name "No, I think that's all!"
+    player_name "Нет, Я думаю это все!"
     show player 13f
     show roz 2
-    roz "Bye."
+    roz "Пока."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

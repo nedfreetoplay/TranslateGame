@@ -1,7 +1,7 @@
 label pizza_exterior_first_visit:
     scene expression game.timer.image("backgrounds/location_pizza_outside_day{}.jpg")
     show player 14 with dissolve
-    player_name "( Tony’s Pizza. He’s known to make the best pizza in town. )"
+    player_name "( Пицца Тони. Он известен тем, что делает лучшую пиццу в городе. )"
     hide player with dissolve
     return
 
@@ -9,62 +9,62 @@ label pizza_interior_pizza_count_0:
     scene location_pizza_day_blur
     show player 10f at right with dissolve
     show tony 1 at Position(xpos = 300, ypos = 768) with dissolve
-    player_name "Hey! Is anyone in-"
+    player_name "Привет! Есть ли здесь кто-"
     show tony 2
     show player 11f
-    tony "Eyyy, look at this one!"
-    tony "Tall, young, handsome."
-    tony "He reminds me of myself, when I was younger."
+    tony "Эййй, да ты только взгляни на него!"
+    tony "Высокий, молодой, красивый."
+    tony "Он напоминает мне самого себя в молодости."
     show tony 1
     show player 10f
     player_name "Me?"
     show tony 3
     show player 13f
-    tony "Yes you, tell you what: You looking for a job?"
+    tony "Да ты, вот что я тебе скажу: Ищешь работёнку?"
     show tony 1
     show player 14f
     player_name "Yeah, I've been looking for one."
     show tony 2
     show player 203f
-    tony "Good. I could use someone like you."
+    tony "Отлично. Мне пригодится кто-нибудь вроде тебя."
     show player 10f
     show tony 1
-    player_name "Someone like me?"
+    player_name "Кто-то вроде меня?"
     show player 11f
     show tony 2
-    tony "Of course! Someone like you! Wait here let me get my wife."
+    tony "Ну конечно же! Кто-то типа тебя! Подожди здесь, я позову свою жену."
     show player 203f
     show maria 1 at left
     show tony 2
-    tony "Maria: this is {b}[firstname]{/b}, {b}[firstname]{/b}: this is Maria."
+    tony "Мария: это {b}[firstname]{/b}, {b}[firstname]{/b}: это Мария."
     show tony 1
     show maria 2
-    maria "Hey, {b}[firstname]{/b}. I'm guessing you're going to be the new help."
+    maria "Привет, {b}[firstname]{/b}. Пологаю ты будешь нашим новым помощником."
     show player 14f
     show maria 1
-    player_name "Yeah, seems like it."
+    player_name "Ага, похоже на то."
     show player 203f
     show maria 3
-    maria "Tony quick question: Do we know if this kid is any good?"
+    maria "Тони, не большой вопрос: Откуда нам знать будет ли с этого парня хоть какая-то польза?"
     show maria 1
     show tony 2
-    tony "We don't, but look at him! He's young, full of energy, and he looks healthy!"
-    tony "What else would you need?"
+    tony "Ни откуда, но ты только взляни на него! Он молод, полон энергии, и выглядит здаровым!"
+    tony "Что ещё нам нужно?"
     show maria 2
     show player 11f
     show tony 1
-    maria "Someone who works, because the last kid you hired was another lazy teen."
+    maria "Кто-то кто бы работал, потому как прошлый ребёнок которого ты нанял, был ленивым подростком."
     show maria 1
     show tony 3
-    tony "He'll work. I can promise you that. Right {b}[firstname]{/b}?"
+    tony "Он будет работать. Я ручаюсь за него. Верно {b}[firstname]{/b}?"
     show tony 1
     show player 14f
-    player_name "Yeah. You're offering, and I need the job."
+    player_name "Ага. Вы предложили, и мне нужно работа."
     show tony 2
     show player 203f
-    tony "Then it's settled! Come in later, and we'll discuss things further."
+    tony "Тогда решено! Приходи позже, и мы обсудим дальнейшие дела."
     show maria 2
-    tonymaria "Have a great day!"
+    tonymaria "Хорошего дня!"
     hide tony
     hide maria
     hide player
@@ -74,7 +74,7 @@ label pizza_interior_pizza_count_0:
 label pizza_closed:
     scene expression "backgrounds/location_pizza_outside_night.jpg"
     show player 14 with dissolve
-    player_name "I can't go there at night!"
+    player_name "Я не могу пойти туда ночью!"
     hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

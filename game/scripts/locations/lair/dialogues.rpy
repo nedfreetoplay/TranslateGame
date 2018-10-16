@@ -1,19 +1,19 @@
 label lair_aqua_lair:
     scene location_lair_blur
     show player 25
-    player_name "*cough* Oh man... I thought I was done for."
+    player_name "*кашель* О, нет... Я думал что сделал это."
     show player 113
     pause
     show player 10
-    player_name "Whoa, this place is spooky!"
-    player_name "It's like something out of a comic book."
+    player_name "Это место довольно жуткое!"
+    player_name "Похоже на то, как рисуют в комиксах."
     show player 113
-    player_name "... or one of {b}Erik's{/b} computer games."
+    player_name "... или одна из игр {b}Эрика{/b}."
     show player 10
     player_name "..."
     show player 12
-    player_name "... But that weird fish lady has to be here somewhere!"
-    player_name "If she thinks she's keeping my lure, well, she's got another thing coming!"
+    player_name "... Но эта странная рыба-дама должна быть где-то здесь!"
+    player_name "Если она решила позаимствовать мою приманку, надо её мнение поменять!"
     show player 16
     hide player with dissolve
     return
@@ -38,11 +38,11 @@ label seasucc_dialogue:
         if not store._in_replay == None:
             jump expression game.dialog_select("succ_replay_jump")
         menu:
-            "Yes.":
+            "Да.":
                 label succ_replay_jump:
                     call expression game.dialog_select("seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes")
                 jump expression game.dialog_select("seasucc_loop")
-            "No.":
+            "Нет.":
 
                 call expression game.dialog_select("seasucc_dialogue_aqua_seasucc_mushroom_repeat_no")
     hide aqua
@@ -61,58 +61,58 @@ label seasucc_dialogue_aqua_seasucc_intro:
     show seasucc 1
     show player 10 at left
     with dissolve
-    player_name "Hey, {b}Aqua{/b}?"
+    player_name "Привет, {b}Аква{/b}?"
     show player 5
     show aqua 20
-    aqua "Yesss..."
+    aqua "Даааа..."
     show aqua 19
     show player 10
-    player_name "Umm, what's this strange looking thing?"
+    player_name "Что это за странная вещь?"
     show player 5
     show aqua 20
-    aqua "Is not thing. Is {b}SsseaSucc{/b}!"
+    aqua "Это не вещь.Это {b}SsseaSucc{/b}!"
     show aqua 19
     show player 12
-    player_name "Hmm, and what does this {b}SeaSucc{/b} do?"
+    player_name "Хмм. И что делает этот {b}Моресос{/b}?"
     show player 5
     show aqua 20
-    aqua "It is usssed for giving pleasssures."
+    aqua "Это испоользовалось что бы предоставлять удовольствия."
     show aqua 19
     show player 12
-    player_name "It gives you pleasure?"
+    player_name "Для получения удовольствия?"
     show player 5
     show aqua 20
-    aqua "Yesss. It gives all friends pleasssure."
+    aqua "Дааа. Это доставляет всем друзьям наслаждение."
     show aqua 19
     show player 10
-    player_name "So {b}SeaSucc{/b} would give me pleasure, too?"
+    player_name "Значит {b}МореСос{/b} и мне доставит удовольствие?"
     show player 5
     show aqua 20
-    aqua "Yesss, if you make friends."
+    aqua "Дааа, если ты с ним подружишься."
     show aqua 19
     show player 10
-    player_name "How do I make friends with a chair?"
+    player_name "Как я могу подружиться со стулом?"
     show player 5
     show aqua 20
-    aqua "You must feed it ssspecial food, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
+    aqua "Тебе нужно будет накормить его специальной едой, {b}Falicum Грибами{/b}. {b}Falicum{/b}."
     show aqua 19
     show player 12
-    player_name "Feed it? Weird..."
-    player_name "But I've never heard of a {b}Falicum Mushroom{/b} before."
+    player_name "Кормить его? Странно..."
+    player_name "Но я, до сих пор ничего не слышал о {b}Синих Мухоморах{/b}."
     show player 10
-    player_name "Where can I find some?"
+    player_name "Где мне такие найти?"
     show player 5
     show aqua 20
-    aqua "It grows on land. {b}Deep in foressst{/b}. Dangerous for {b}Aqua{/b}."
+    aqua "Оно растет на суше. {b}Глубоко в лесу{/b}. Опасно для {b}Аквы{/b}."
     show aqua 19
     show player 12
-    player_name "Hmm, in the {b}forest{/b}, huh?"
+    player_name "Хмм, в {b}Лесу{/b}?"
     show player 14
-    player_name "I could go try and find some."
+    player_name "Ну ладно, попробую поискать."
     show player 13
     show aqua 20
-    aqua "Yesss. You go get {b}Falicum{/b}. Make friends with {b}SeaSucc{/b}."
-    aqua "Then we enjoy pleasssure."
+    aqua "Дааа. Достань {b}Falicum{/b}. Подружись с {b}SeaSucc{/b}."
+    aqua "Тогда мы получим полное наслаждение."
     return
 
 label seasucc_dialogue_aqua_seasucc_no_mushroom:
@@ -121,20 +121,18 @@ label seasucc_dialogue_aqua_seasucc_no_mushroom:
     show seasucc_bg_02 zorder 1
     show seasucc 1 zorder 2
     show player 12 zorder 3 at left
-    with dissolve
-    player_name "What did you say {b}SeaSucc{/b}, needed?"
     show player 5
     show aqua 20
-    aqua "You must feed it ssspecial food, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
+    aqua "Тебе нужно будет накормить егое специальной едой, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
     show aqua 19
     show player 10
-    player_name "Where can I find some?"
+    player_name "Где я могу их найти?"
     show player 5
     show aqua 20
-    aqua "It grows on land. {b}Deep in foressst{/b}. Dangerous for {b}Aqua{/b}."
+    aqua "Они растут на суше. {b}Глубоко в лессу{/b}. Опасно для {b}Аквы{/b}."
     show aqua 19
     show player 14
-    player_name "Alright! I'll take a look."
+    player_name "Ладно, попробую найти."
     return
 
 label seasucc_dialogue_aqua_seasucc_mushroom_intro:
@@ -144,25 +142,25 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show seasucc 1 zorder 2
     show player 14 zorder 3 at left
     with dissolve
-    player_name "{b}Aqua{/b}!"
-    player_name "I think I found something."
+    player_name "{b}Аква{/b}!"
+    player_name "Я кое что нашёл."
     show player 239_240 with dissolve
     player_name "..."
     show player 500 with dissolve
-    player_name "See?"
+    player_name "Видишь?"
     show player 499
     show aqua 20
-    aqua "{b}Falicum{/b}! Yesss."
+    aqua "{b}Falicum{/b}! Дааа."
     show aqua 19
     show player 500
-    player_name "Is this what {b}SeaSucc{/b} needs?"
+    player_name "Это то что надо {b}Моресосу{/b}?"
     show player 499
     show aqua 20
-    aqua "Yesss. Feed {b}SeaSucc{/b}. Make friends!"
-    aqua "Siittt... And feed {b}Falicum{/b}."
+    aqua "Дааа. Скорми {b}SeaSucc{/b}. Подружись!"
+    aqua "Сяятть... И Скорми {b}Falicum{/b}."
     show aqua 19
     show player 10 with dissolve
-    player_name "Alright..."
+    player_name "Ладно..."
     hide player
     show player seasucc 1 zorder 3 with dissolve
     pause
@@ -174,7 +172,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show player seasucc 6 with dissolve
     pause
     show player seasucc 9 with dissolve
-    player_name "Here you go {b}SeaSucc{/b}."
+    player_name "Ну вот, {b}МореСос{/b}."
     show seasucc 2 with dissolve
     show player seasucc 8
     player_name "..."
@@ -186,26 +184,26 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show player seasucc 5
     with dissolve
     show aqua 22
-    aqua "Mmm, {b}SeaSucc{/b} likes {b}Falicum{/b}."
+    aqua "Мммм, {b}SeaSucc{/b} нравится {b}Falicum{/b}."
     show aqua 21
     show seasucc 1
     show player seasucc 7
     with dissolve
-    player_name "You must of been really hungry!"
+    player_name "Похоже ты и вправду голоден!"
     show player seasucc 3 with dissolve
     show aqua 22
-    aqua "You try {b}SeaSucc{/b} now. Yesss?"
+    aqua "Ты попробуй {b}SeaSucc{/b} сейчас. Дааа?"
     show aqua 21
     show player seasucc 7 with dissolve
-    player_name "Uhh..."
+    player_name "Ухх..."
     show player seasucc 5 with dissolve
     show aqua 22
-    aqua "No worry. Ssshow {b}SeaSucc{/b} big eel."
+    aqua "Не волнуйся. Покажжи {b}SeaSucc{/b} большого угря."
     show aqua 21
     show player seasucc 6 with dissolve
     player_name "..."
     show player seasucc 7
-    player_name "Alright..."
+    player_name "Хорошо..."
     hide player_pants
     show player seasucc 11 with dissolve
     pause
@@ -213,12 +211,12 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show player_boner seasucc 2b
     with dissolve
     show aqua 25
-    aqua "Ahh, good morning big eel. "
+    aqua "Ахх, доброе утро большой змей. "
     show aqua 21
     show seasucc 5
     show player seasucc 7
     with dissolve
-    player_name "Are you sure this is-"
+    player_name "Ты уверена что-"
     show aqua 24
     show player seasucc 5
     show seasucc 6
@@ -238,16 +236,16 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     pause
     show seasucc 8e
     show player seasucc 12
-    player_name "Whoa!"
+    player_name "Вау!"
     $ M_aqua.set("sex speed", 0.175)
     show expression AnimatedImage("seasucc", [8,"8b","8c","8d","8e","8f","8g","8h","8i"], M_aqua) as seasucc at Position(xalign = 0.35, yalign = 0.0)
     pause
     pause
     show player seasucc 13
-    player_name "This thing feels... amazing!!"
+    player_name "Это... потрясающе!!"
     show player seasucc 14
     show aqua 23
-    aqua "Yesss. Good pleasssure! {b}SeaSucc{/b} good!"
+    aqua "Дааа. Отличное удовольствие! {b}SeaSucc{/b} хорошо!"
     show aqua 24
     pause
     return
@@ -281,13 +279,13 @@ label seasucc_hscene_dialog:
     if animcounter == 0:
         show player seasucc 13
         if randomizer() <= 50:
-            player_name "Ohh...{p=1}{nw}"
+            player_name "Охх...{p=1}{nw}"
         else:
-            player_name "Uhh!{p=1}{nw}"
+            player_name "Ухх!{p=1}{nw}"
         show player seasucc 14
     elif animcounter == 2 and randomizer() <= 50:
         show aqua 23
-        aqua "Sssuck {b}SsseaSucc{/b}!{p=2}{nw}"
+        aqua "Сссоси {b}SsseaSucc{/b}!{p=2}{nw}"
         show aqua 24
 
     elif animcounter == 3 and randomizer() <= 50:
@@ -308,8 +306,8 @@ label seasucc_cum:
 label seasucc_cum_pre:
     show player seasucc 13
     show aqua 23
-    aqua "Give {b}SsseaSucc{/b} ssseeds."
-    aqua "Cum for {b}SeaSucc{/b}!!!"
+    aqua "Дай {b}SsseaSucc{/b} семена."
+    aqua "Кончи для {b}SeaSucc{/b}!!!"
     show aqua 24
     pause
     hide player
@@ -328,15 +326,15 @@ label seasucc_cum_pre:
     show player seasucc 3
     show aqua 25
     if M_aqua.is_state(S_aqua_seasucc_mushroom):
-        aqua "Now that {b}SeaSucc{/b} tassste mate's ssseed, it remembers."
-        aqua "You friends now!"
-        aqua "It give pleasssure always."
+        aqua "Теперь когда {b}SeaSucc{/b} попробовал твоё ссемя, он запомнит."
+        aqua "Вы теперь друзья!"
+        aqua "Теперь он будет доставлять удовольстие всегда."
         show popup_seasucc at truecenter with dissolve
         pause
         hide popup_seasucc with dissolve
     else:
 
-        aqua "{b}SeaSucc{/b} likesss mate's ssseed!"
+        aqua "{b}SeaSucc{/b} нравятся твои сссемена!"
     return
 
 label seasucc_dialogue_aqua_seasucc_mushroom_repeat_intro:
@@ -347,7 +345,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_intro:
     show seasucc 1 zorder 2
     show player 13 zorder 3 at left
     with dissolve
-    aqua "Back for moresss?"
+    aqua "Вернешься за добаввкой?"
     show aqua 19
     return
 
@@ -355,11 +353,11 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     show player 4 with dissolve
     player_name "..."
     show player 26 with dissolve
-    player_name "Yeah."
+    player_name "Да."
     show player 13
     show aqua 20
-    aqua "{b}SeaSucc{/b} isss good!"
-    aqua "Siittt... And feed {b}SeaSucc{/b}."
+    aqua "{b}SeaSucc{/b} этто хорошо!"
+    aqua "Сядь... И скорми {b}SeaSucc{/b}."
     show aqua 19
     hide player
     show player seasucc 1 zorder 3 with dissolve
@@ -370,7 +368,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     with dissolve
     pause
     show aqua 22
-    aqua "Ssshow {b}SeaSucc{/b} big eel."
+    aqua "Ппокажи {b}SeaSucc{/b} большого угря."
     show aqua 21
     hide player_pants
     show player seasucc 11 with dissolve
@@ -379,7 +377,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     show player_boner seasucc 2b
     with dissolve
     show aqua 25
-    aqua "Ahh, good morning big eel. "
+    aqua "Ахх, доброе утро большой змей. "
     show aqua 21
     show seasucc 5
     with dissolve
@@ -402,22 +400,22 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     pause
     show seasucc 8e
     show player seasucc 12
-    player_name "Whoa!"
+    player_name "Вау!"
     $ M_aqua.set("sex speed", 0.175)
     show expression AnimatedImage("seasucc", [8,"8b","8c","8d","8e","8f","8g","8h","8i"], M_aqua) as seasucc at Position(xalign = 0.35, yalign = 0.0)
     pause
     pause
     show player seasucc 13
-    player_name "This thing feels... amazing!!"
+    player_name "Эта штука чувствует себя... великолепно!!"
     show player seasucc 14
     show aqua 23
-    aqua "Yesss. Good pleasssure! {b}SeaSucc{/b} good!"
+    aqua "Дааа. Наилучшее удовольствие! {b}SeaSucc{/b} хорошо!"
     show aqua 24
     return
 
 label seasucc_dialogue_aqua_seasucc_mushroom_repeat_no:
     show player 14
-    player_name "Not right now. Maybe later."
+    player_name "Не сейчас, может как нибудь позже."
     return
 
 label aqua_lure_steal:
@@ -427,7 +425,7 @@ label aqua_lure_steal:
     label follow_aqua:
         call expression game.dialog_select("aqua_lure_steal_after")
     menu:
-        "Dive!":
+        "Ныряй!":
             call expression game.dialog_select("aqua_lure_steal_dive_pre")
             $ playSound()
             call expression game.dialog_select("aqua_lure_steal_dive_after")
@@ -441,7 +439,7 @@ label aqua_lure_steal:
                         $ pass
 
             call screen squid_fight
-        "Not yet.":
+        "Еще нет.":
 
             call expression game.dialog_select("aqua_lure_steal_not_yet")
     $ game.main()
@@ -449,11 +447,11 @@ label aqua_lure_steal:
 label aqua_lure_steal_pre:
     scene location_pier_dock_cutscene
     with fade
-    show text "When that line snapped, my heart sank. I thought my lure was lost..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Что ж это перешло черту, мое сердце отстановилось. Я думаю что моя приманка потерялась..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "...But suddenly, something breached the surface of the water!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "...Но вдруг, нечто нарушило поверхность воды!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "...Or should I say, someone..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "...Или лучше сказать, кто-то..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -461,53 +459,53 @@ label aqua_lure_steal_pre:
     scene location_pier_minigame06b
     show player 472 at Position(xpos=0.715,ypos=.9425)
     show aqua 16 at Position (xpos=0.4175,ypos=1.0)
-    aqua "Shiiiny..."
+    aqua "Блестяшка..."
     show player 473
     show aqua 15
     player_name "!!!"
-    player_name "Wh-What are you?!"
+    player_name "Т-Ты кто?!"
     show player 472
     show aqua 18
-    aqua "Me? Me Aqua. What you?"
+    aqua "Я? Я Аква. Что ты?"
     show player 473
     show aqua 17
-    player_name "Huh?"
+    player_name "Хм?"
     show player 472
     show aqua 18
-    aqua "Me Aqua. You human steals all Aqua's fishies?!"
+    aqua "Я Аква. Это ты человек которы крадет всю Аквину рыбу?!"
     show player 473
     show aqua 17
-    player_name "Fishies?"
+    player_name "Рыбу?"
     show player 472
     show aqua 16b
-    aqua "Yesss, fishies! You use shiny to sssteal my fishies!"
+    aqua "Дааа, рыбу! Ты используешь Блестяшку что бы украсть мою рыбу!"
     show player 473
     show aqua 15b
-    player_name "What? No, I just got the umm... 'Shiny?'"
-    player_name "{b}Captain Terry{/b} just gave it to me."
+    player_name "Что? Нет, я только эмм... 'Блестяшка?'"
+    player_name "Это мне дал {b}Капитан Терри{/b}."
     show player 472
     show aqua 16b
-    aqua "Caplan Terry?"
+    aqua "Капитан Терри?"
     show player 473
     show aqua 15b
-    player_name "Yeah, {b}Captain Terry{/b}."
+    player_name "Да, {b}Капитан Терри{/b}."
     show player 472
     show aqua 16
-    aqua "Hmm... Not sssure you tell truth."
+    aqua "Хмм... Не увверен что ты говоришь правду."
     show aqua 16b
-    aqua "Don't matter, shiny mine now!"
+    aqua "Неважно, блестяшка теперь моя!"
     show player 474
     show aqua 17
-    player_name "Wait! Please, I worked really hard to get that!"
+    player_name "Подожди! Пожалуйста, я тяжёлым трудом достал её!"
     show player 475
     show aqua 16b
-    aqua "Too bad. You want? {b}You come get{/b}!!!"
+    aqua "Очень жаль. Она вам нужна? {b}Иди и забери её{/b}!!!"
     hide aqua with dissolve
     show player 474
-    player_name "Hey!!"
+    player_name "Эй!!"
 
     show player 476
-    player_name "Crap!"
+    player_name "Бля!"
     player_name "..."
     show popup_lure2 at truecenter with dissolve
     pause
@@ -516,38 +514,38 @@ label aqua_lure_steal_pre:
 
 label aqua_lure_steal_after:
     player_name "!!!"
-    player_name "(Damn! I'll have to go after her if I want that lure back.)"
-    player_name "(... It could be dangerous though.)"
-    player_name "(I'd better make sure I'm ready first.)"
+    player_name "(Черт! Я должен буду идти за ней, если я хочу вернуть приманку.)"
+    player_name "(... Это может быть опасно, хотя.)"
+    player_name "(Нужно лучше удостовериться что Я сначала готов.)"
     return
 
 label aqua_lure_steal_dive_pre:
-    player_name "Screw it! I worked too hard for that lure."
-    player_name "I can't just let her take it!"
+    player_name "К черту все! Я слишком тяжело работал ради этой особенной приманки."
+    player_name "Я не могу её так упустить!"
     show player 477
     return
 
 label aqua_lure_steal_dive_after:
     scene location_lair_dive
     with fade
-    show text "I went straight after her..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Надо направляться прямиком за ней..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... diving headfirst into the dark blue water." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... нырять головой в перед в темно-синюю воду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I was determined to get my lure back!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я решил получить мою приманку назад!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
 
     scene location_lair_ocean_look
-    player_name "(She has to be around here somewhere.)"
+    player_name "(Она должна быть где то здесь.)"
     player_name "..."
-    player_name "(Grr... Where did she go?!)"
+    player_name "(Гррр... Куда она смылась?!)"
 
     scene location_lair_ocean_prefight
     player_name "(!!!)" with hpunch
-    player_name "(What the- !!)"
-    player_name "(A giant squid!?!)"
+    player_name "(Что за- !!)"
+    player_name "(Гиганский кальмар!?!)"
 
     scene versus_squid with vpunch
     $ renpy.pause(1.0, hard = True)
@@ -555,8 +553,8 @@ label aqua_lure_steal_dive_after:
 
 label aqua_lure_steal_not_yet:
     show player 476b
-    player_name "(I... I can't just dive in after her.)"
-    player_name "(There's no telling what's down there.)"
-    player_name "(Maybe later...)"
+    player_name "(Неа... Я не буду нырять за ней.)"
+    player_name "(Не знаю что меня там ждёт.)"
+    player_name "(Возможно позже...)"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

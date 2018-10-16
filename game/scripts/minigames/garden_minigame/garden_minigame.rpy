@@ -41,18 +41,18 @@ label job_done_dialogue(earnings):
     if earnings > 0:
         show player 1 at left with dissolve
         show diane 2 at right with dissolve
-        dia "Oh, wow! My garden looks absolutely gorgeous, {b}[firstname]{/b}!"
+        dia "О, Вау! Мой сад выглядит просто великолепно, {b}[firstname]{/b}!"
         show player 1 at left
         show diane 9 at right
-        player_name "Yeah... I had to get rid of a lot of stuff..."
+        player_name "Да... Мне пришлось избавиться от многих вещей..."
         show diane 15 at right
         show player 11 at left
-        dia "Just look at that big, hard cucumber!"
+        dia "Только посмотрите на этот большой, твердый огурец!"
         show diane 16 at right
         player_name "..."
         show diane 5 at right
         show player 13 at left
-        dia "Thanks, Handsome! And come back soon!"
+        dia "Спасибо, Красавчик! И возвращайтесь поскорее!"
         hide player 13 at left with dissolve
         hide diane 5 at right with dissolve
     else:
@@ -89,26 +89,26 @@ label garden_firsttime_text:
 label garden_firsttime_fail:
     show player 5 at left with dissolve
     show diane 23 at right with dissolve
-    dia "Hmm... There's some room for improvement."
+    dia "Хм... Есть место для улучшений."
     show diane 24 at right
     show player 24 at left
-    player_name "Yeah... I didn't do too well. Sorry {b}Diane{/b}!"
+    player_name "Да... У меня не очень хорошо получалось. Огорченный {b}Diane{/b}!"
     show diane 3 at right
     show player 13 at left
-    dia "It's okay... You're new at this..."
+    dia "Все нормально... Ты в этом деле новенькая..."
     show diane 2 at right
-    dia "And I'm sure you'll get better at it!"
-    dia "I always need fresh vegetables..."
+    dia "И я уверен, что у тебя получится лучше!"
+    dia "Мне всегда нужны свежие овощи..."
     show diane 1 at right
     show player 10 at left
-    player_name "I guess so..."
+    player_name "Думаю, да..."
     show diane 14 at right
     show player 11 at left
-    dia "Just make sure you {b}only{/b} keep the vegetables that are {b}long{/b} and {b}hard{/b}!"
+    dia "Просто убедитесь, что вы {b}only{/b} держите овощи {b}long{/b} и {b}hard{/b}!"
     show diane 1 at right
     show player 13 at left
-    player_name "I'll do better next time..."
-    player_name "Thanks {b}Diane{/b}!"
+    player_name "В следующий раз получится лучше..."
+    player_name "Спасибо {b}Diane{/b}!"
     hide player 13 at left with dissolve
     hide diane 1 at right with dissolve
     return

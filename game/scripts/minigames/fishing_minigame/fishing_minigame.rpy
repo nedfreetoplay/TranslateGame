@@ -1,54 +1,54 @@
 label fishing_night:
     scene expression game.timer.image("pier{}")
     show player 4 at left with dissolve
-    player_name "( It's too late to go fishing. )"
+    player_name "( Слишком поздно идти на рыбалку. )"
     $ game.main()
 
 label no_fish_rod:
     scene expression game.timer.image("pier{}")
     show player 2 with dissolve
-    player_name "( Hmm... I'll need a {b}fishing rod{/b} before I can fish... )"
+    player_name "( Хм... Мне понадобится {b}удочка{/b}, прежде чем я смогу ловить рыбу... )"
     $ game.main()
 
 label before_fishing:
     scene location_pier_minigame06b
     if M_aqua.get_state() == S_aqua_chase:
         menu:
-            "Speak to Monster Girl.":
+            "Поговорите с девушкой-монстром.":
                 show player 474 at Position(xpos=0.715,ypos=.9425)
-                player_name "Hey! Aqua!"
+                player_name "Эй! Аква!"
                 show player 475
                 pause
                 show player 474
-                player_name "I know you can hear me!"
+                player_name "Я знаю, что ты меня слышишь!"
 
                 show player 475
                 show aqua 17b at Position (xpos=0.4175,ypos=1.0) with dissolve
                 pause
                 show aqua 18b
-                aqua "What you want now?"
+                aqua "Что ты хочешь на этот раз?"
                 show player 474
                 show aqua 17b
-                player_name "Don't play dumb! You know, I want my lure back!"
+                player_name "Не прикидывайся идиоткой!Ты знаешь что я хочу вернуть свою приманку!"
                 show player 475
                 show aqua 18b
-                aqua "Shiiiny?"
+                aqua "Блестяшкууу?"
                 show player 474
                 show aqua 17b
-                player_name "Yes, Shiny. Give it back!"
+                player_name "Да. Блестяшку. Отдай!"
                 show player 475
                 show aqua 18b
-                aqua "No! You just ussse it to steals fishies!"
-                aqua "Aqua keeps it. Fishies sssafe."
+                aqua "Нет! Ты просто используешь его, чтобы красть рыбок!"
+                aqua "Я держу его  в безопасности."
                 show player 474
                 show aqua 17b
-                player_name "Grr..."
+                player_name "Грр..."
                 show player 475
                 show aqua 18b
-                aqua "You want shiny, you come get!!!"
+                aqua "Хочешь Блестяшку - приходи!!!"
                 hide aqua with dissolve
                 show player 476
-                player_name "Crap!"
+                player_name "Блестяшка!"
                 player_name "..."
                 jump follow_aqua
             "Fish.":
@@ -57,11 +57,11 @@ label before_fishing:
 
     if player.has_item("worm") or player.has_item("lure01") or player.has_item("special_lure"):
         show player 234 at Position(xpos=0.6635,ypos=0.9289) with dissolve
-        player_name "( Terry said something about the right bait for the right fish... )"
+        player_name "( Терри сказал что-то о правильной приманке для правильной рыбы... )"
         call screen bait_menu
 
         show player 235 at Position(xpos=0.6062,ypos=0.9455)
-        player_name "( Hope I catch something good with this... )"
+        player_name "( ... )"
         show player 236 at Position(xpos=0.4956,ypos=0.9455)
         player_name "..."
 
@@ -69,8 +69,8 @@ label before_fishing:
     else:
 
         show player 234 at Position(xpos=0.6635,ypos=0.9289) with dissolve
-        player_name "( I can’t fish without bait. )"
-        player_name "( I should look around the town and see what I can find. )"
+        player_name "( Я не могу рыбачить без наживки.. )"
+        player_name "( Я должен осмотреть город и посмотреть, что смогу найти. )"
     $ game.main()
 
 label after_fishing(fish_name, chosen_bait):
@@ -78,40 +78,40 @@ label after_fishing(fish_name, chosen_bait):
     if fish_name != None:
         play audio randomizer("audio/sfx_reel{}.ogg", 1, 2)
         show player 237 at Position(xpos=0.7173,ypos=0.9455)
-        if fish_name == "Seatrout":
+        if fish_name == "сельдь":
             show xtra 4 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("seatrout")
-        elif fish_name == "Snapper":
+            $ player.get_item("сельдь")
+        elif fish_name == "Люциан":
             show xtra 5 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("snapper")
-        elif fish_name == "Mackerel":
+            $ player.get_item("Люциан")
+        elif fish_name == "Скумбрия":
             show xtra 6 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("mackerel")
-        elif fish_name == "Tiger Fish":
+            $ player.get_item("Скумбрия")
+        elif fish_name == "Рыба-Тигр":
             show xtra 29 at Position(xpos=0.56,ypos=0.52)
-            player_name "Whew, this mean bastard put up quite a fight."
-            player_name "... and just look at those teeth!"
-            player_name "It's no wonder why Terry wanted him dead."
-            player_name "I can't wait to show him!"
+            player_name "Этот подлый ублюдок устроил настоящую драку.."
+            player_name "... и только посмотрите на эти зубы!"
+            player_name "Неудивительно, почему Терри хотел его смерти."
+            player_name "Не могу дождаться, чтобы показать ему!"
             $ player.get_item("tigger")
 
-        if fish_name != "Tiger Fish":
-            player_name "( Yes! I caught a {b}[fish_name]{/b}! )"
+        if fish_name != "Рыба-Тигр":
+            player_name "( Да! Я поймал {b}[fish_name]{/b}! )"
         $ fish_caught_count += 1
         $ first_fish = True
     else:
         show player 238 at Position(xpos=0.7173,ypos=0.9455)
-        if chosen_bait == "worms":
+        if chosen_bait == "Черви":
             show xtra 7 at Position(xpos=0.5786,ypos=0.4479)
-        elif chosen_bait == "standard lure":
+        elif chosen_bait == "стандартная приманка":
             show xtra 8 at Position(xpos=0.5796,ypos=0.4645)
-        elif chosen_bait == "fancy lure":
+        elif chosen_bait == "фантастическая приманка":
             show xtra 9 at Position(xpos=0.5796,ypos=0.4479)
-        elif chosen_bait == "golden lure":
+        elif chosen_bait == "Золотая приманка":
             show xtra 10 at Position(xpos=0.5796,ypos=0.4479)
         player_name "!!!" with hpunch
-        player_name "( I didn't catch anything! )"
-        player_name "( Maybe I need to {b}aim better{/b}, or use the correct {b}bait{/b}... )"
+        player_name "( Я ничего не поймал! )"
+        player_name "( Возможно, мне нужно лучше {b}прицелиться{/b} или использовать правильную {b}приманку{/b}... )"
     $ game.timer.tick()
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

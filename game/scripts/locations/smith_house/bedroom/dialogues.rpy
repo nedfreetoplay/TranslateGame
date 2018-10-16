@@ -1,20 +1,20 @@
 label smith_bedroom_sneaking:
     scene expression "backgrounds/location_smith_bedroom_night_blur.jpg"
     show player 14 with dissolve
-    player_name "Phew, I guess nobody is home."
+    player_name "Фух, думаю дома никого нет."
     show player 10
-    player_name "{b}I should definitely look around in here.{/b}"
+    player_name "{b}Мне нужно здесь осмотреться.{/b}"
     show player 35b
     pause
     show player 35
-    player_name "Is that a goat’s head above the bed?"
-    player_name "It feels like the eyes follow me no matter where I go..."
+    player_name "Это что, голова козы над головой?"
+    player_name "Такое ощущение, что эти глаза следят за мной..."
     show player 35b
     player_name "..."
     show player 10
-    player_name "The creepyness level just went up one hundred and ten percent!"
-    player_name "I should {b}find that exam and bounce outta here{/b}."
-    player_name "This room looks like the best bet for where she would keep them."
+    player_name "Уровень стремности только что достиг 110 процентов!"
+    player_name "Нужно {b}найти эти тесты и сваливать отсюда{/b}."
+    player_name "Эта комната выглядит как лучшее место, где она может их хранить."
     hide player with dissolve
     return
 
@@ -27,8 +27,8 @@ label smith_painting:
 label smith_painting_dialogue:
     scene expression "backgrounds/location_smith_bedroom_frame.jpg"
     show expression "objects/object_key_04.png" at Position (xoffset=-245,yoffset=-320)
-    player_name "Hmm, this key looks useful"
-    player_name "{b}I should search this room for a place to use it.{/b}"
+    player_name "Хмм, этот ключ может мне пригодиться."
+    player_name "{b}Может где-то в этой комнате я и смогу его применить{/b}"
     return
 
 label smith_exams:
@@ -40,16 +40,16 @@ label smith_exams:
 label smith_exams_dialogue:
     scene expression "backgrounds/location_smith_bedroom_night_blur.jpg"
     show player 14 with dissolve
-    player_name "This is them!"
-    player_name "I can't believe {b}Missy{/b} and {b}Becca{/b} were right!"
+    player_name "Это они!"
+    player_name "Не могу поверить, {b}Missy{/b} и {b}Becca{/b} были правы!"
     show player 13
-    "Creak..."
+    "Скрип..."
     show player 10
-    player_name "... What the hell was that?!"
+    player_name "... Что это было?!"
     show player 23
-    player_name "Somebody is here!" with hpunch
-    player_name "{b}Principal Smith{/b}! I have to get out of here!"
-    player_name "... Crap! Where do I go now?!"
+    player_name "Здесь кто-то есть!" with hpunch
+    player_name "{b}Principal Smith{/b}! Нужно выбираться отсюда!"
+    player_name "... Дерьмо! И куда мне теперь?!"
     hide player with dissolve
     return
 
@@ -65,19 +65,19 @@ label smith_window_exit_dialogue:
 label smith_window_exit_roxxy_sneak_into_smith:
     scene expression "backgrounds/location_smith_frontyard_cutscene01.jpg"
     with fade
-    show text "As I heard someone coming down the hallway towards the bedroom…\n... I flung the window open and leaped out onto the roof below!\nThe thought of getting caught in {b}Principal Smith{/b}’s bedroom still gives me nightmares to this day!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Как только я услышал, как кто-то шел из прихожей к спальням\n... Я выпрыгнул в открытое окно и приземлился на крышу снизу!\nМысль о том, что меня могли поймать в спальне {b}Principal Smith{/b}’s до сих пор преследует меня в кошмарах!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
     scene expression "backgrounds/location_smith_frontyard_night_blur.jpg"
     show player 10
-    player_name "Phew! That was too close!"
-    player_name "I'll bring these exams to {b}Roxxy{/b} at school tomorrow!"
-    player_name "For now I should head home and get some rest."
+    player_name "Фух! Это было опасно!"
+    player_name "Завтра я принесу эти тесты {b}Roxxy{/b} в школу!"
+    player_name "А сейчас я хочу пойти домой и отдохнуть."
     show player 24
     pause
     show player 25
-    player_name "... And change my shorts!"
+    player_name "... И сменить эти шорты!"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

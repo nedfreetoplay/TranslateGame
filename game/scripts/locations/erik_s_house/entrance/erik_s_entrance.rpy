@@ -56,7 +56,7 @@ label erik_indoors:
         hide unlock41 with dissolve
 
         show player 381
-        player_name "I should have a look at those instructions before I go to yoga class tonight..."
+        player_name "Я должен посмотреть на эти инструкции прежде чем пойти на занятия йогой сегодня ночью..."
         hide player with dissolve
 
     elif mrsj.started(mrsj_intro) and not game.timer.is_morning():

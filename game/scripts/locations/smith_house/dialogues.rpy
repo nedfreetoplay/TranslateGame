@@ -1,12 +1,12 @@
 label smith_frontyard_sneaking:
     scene expression "backgrounds/location_smith_frontyard_night_blur.jpg"
     show player 12 with dissolve
-    player_name "This place seems way too fancy for a principal."
-    player_name "I just need to {b}get in, find the exams, and get out quickly{/b}."
+    player_name "Это место выглядит слишком причудливо"
+    player_name "Ладно, мне нужно просто {b}войти, отыскать тесты, и быстро свалить{/b}."
     show player 17
-    player_name "Piece of cake!"
+    player_name "Проще простого!"
     show player 10
-    player_name "... I sure hope no one’s home."
+    player_name "... Я надеюсь, что дома никого нет."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

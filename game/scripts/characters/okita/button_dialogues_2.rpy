@@ -2,58 +2,58 @@ label button_okita_ingredients_mushroom:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "The {b}Falicum Mushroom{/b} grow in the forest here in Summerville."
+    okita "{b}Фалькумный Гриб{/b} растет здесь в лесу, в Саммервилле."
     show okita 3
-    okita "They are easy to spot because of their phallic shape."
+    okita "Их легко заметить из-за своей фаллической формы."
     show player 10
     show okita 1
-    player_name "... Gross."
+    player_name "... Отврат."
     return
 
 label button_okita_ingredients_toad:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "It's breeding season for the {b}Horny Toad{/b}. So look for a {b}pond or stream.{/b}"
-    okita "They should be easily identifiable by their lumpy purple backsides."
+    okita "Это сезон размножения {b}Возбуженных жаб{/b}. Так что ищи {b}в пруде или ручье.{/b}"
+    okita "Они должны быть легко опознаваемы по их бугристым фиолетовым спинкам."
     show player 10
     show okita 1
-    player_name "Sounds like one ugly frog..."
+    player_name "Похоже на уродливую лягушку...."
     return
 
 label button_okita_ingredients_flower:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "The {b}Psychotropic Euphorbia{/b} is a luminescent flower that grows only in dark places."
-    okita "Your best bet would be a {b}cave{/b}."
+    okita "{b}Психотропная эйфория {/b} это свитящийся цветок, который растет только в темных местах."
+    okita "Твоим лучшим выбором будет {b}пешера{/b}."
     show player 35
     show okita 1
-    player_name "Hmm, a {b}cave{/b}..."
+    player_name "Хмм, в {b}пещере{/b}..."
     return
 
 label button_okita_ingredients_stock:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "We'll need something mild to act as a base for the serum. Vegetable stock would work best."
-    okita "You should be able to pick some up at Consumr."
+    okita "Нам нужно что-то легкое, чтобы действовать в качестве основы для сыворотки.Овощной бульон будет работать лучше всего."
+    okita "Ты должен забрать несколько у потребителя."
     show player 2
     show okita 1
-    player_name "... At least one of the ingredients is simple."
+    player_name "... По крайней мере, один из ингредиентов прост."
     return
 
 label button_okita_ingredients_tissue:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "A hair or saliva sample would work best."
+    okita "Образец волос или слюны будет работать лучше всего."
     show player 10
     show okita 1
-    player_name "Yeah, okay but how am I supposed to get that?"
+    player_name "Да,но как я должен достать это?"
     show player 11
     show okita 9
-    okita "... I'm sure you'll think of something."
+    okita "... Я уверена, ты что-нибудь придумаешь.."
     show okita 4
     player_name "..."
     return
@@ -63,38 +63,38 @@ label button_okita_got_all_ingredients:
     show player 2 at left
     show okita 1 at right
     with dissolve
-    player_name "Alright Ma'am, I think I've got everything."
+    player_name "Хорошо Мэм, я думаю, у меня есть все."
     show player 1
     show okita 3
-    okita "... You think?"
+    okita "... Ты думаешь?"
     show okita 1
     show player 533 with dissolve
-    player_name "Well, there is one little issue..."
+    player_name "Ну, есть одна маленькая проблема..."
     show okita 3
     show player 532
-    okita "... Is that {b}Chicken Stock{/b}?"
+    okita "... Это {b}Куриный бульен{/b}?"
     show player 533
     show okita 1
-    player_name "Yeah. It's all {b}Consumr{/b} had..."
-    player_name "I thought, maybe the {b}Chicken Stock{/b} would still work?"
+    player_name "Да. Это все {b}покупатели{/b}..."
+    player_name "Я подумал, может быть {b}куриный бульон{/b} все равно сработает?"
     show player 532
     show okita 2b
-    okita "Hah, yeah. That should be fine..."
+    okita "Хах, да. Это будет здорово..."
     show player 11 with dissolve
     show okita 6
     player_name "..."
     show okita 7
-    okita "Looks like everything else is in order."
-    okita "Meet me in my office this evening and we'll start mixing."
+    okita "Похоже, все остальное в порядке."
+    okita "Встретимся в моем кабинете этим вечером и мы начнем смешивать."
     show player 10
     show okita 6
-    player_name "Tonight?"
+    player_name "Этой ночью?"
     show player 11
     show okita 3
-    okita "Problem?"
+    okita "Проблемы?"
     show player 10
     show okita 4
-    player_name "No! ... No. I'll see you then."
+    player_name "Нет! ...Нет. Увидимся тогда."
 
     return
 
@@ -102,14 +102,14 @@ label button_okita_extract_cum:
     scene location_school_science_closeup
     show player 10 at left
     show okita 4 at right
-    player_name "So we have everything we need to make your serum?"
+    player_name "Поэтому у нас есть все необходимое, чтобы сделать вашу сыворотку?"
     show player 11
     show okita 5
-    okita "... Uhh, yeah. Isn't that what I just told you?!"
-    okita "{b}Meet me in my office this evening{/b} and so we can work on it."
+    okita "... Эмм, да Разве это не то что я тебе только что сказала?!"
+    okita "{b}Встретимся в моем офисе этим вечером{/b} и мы сможем над эти поработать."
     show okita 4
     show player 10
-    player_name "... O-okay."
+    player_name "... Х-хорошо."
     return
 
 label button_okita_dose_smith:
@@ -117,44 +117,44 @@ label button_okita_dose_smith:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "You still haven't dosed {b}Principal Smith{/b}?!"
+    okita "Ты еще не принес дозу {b}Директрисы Smith{/b}?!"
     show player 5
     show okita 4
     player_name "..."
     show okita 5
-    okita "What are you waiting for?"
+    okita "Чего же ты ждешь?"
     show player 12
     show okita 4
-    player_name "This isn't exactly easy you know!"
-    player_name "Can't you give me some advice or something?!"
+    player_name "Это не совсем легко вы знаете!"
+    player_name "Не могли бы вы дать мне совет или что-то?!"
     show player 16
     show okita 3
-    okita "Here's some advice: Hurry up and do it already!"
+    okita "Вот несколько советов: Поторопитесь и сделай это уже!"
     show okita 5
-    okita "All you have to do is {b}slip it into her food or something{/b}."
+    okita "Все, что тебе нужно сделать, это {b}подсунуть ей это в еду или еще куда-нибудь{/b}."
     show player 12
     show okita 4
-    player_name "Alright, alright. I'll be back."
+    player_name "Ладно,ладно.Я скоро вернусь."
     return
 
 label button_okita_wait_for_smith_serum:
     scene location_school_science_closeup
     show player 2 at left
     show okita 6 at right
-    player_name "Alright, {b}Miss Okita{/b}. It's done."
+    player_name "Хорошо, {b}Мисс Okita{/b}.Все сделано."
     show player 1
     show okita 7
-    okita "Wonderful!"
-    okita "Now we just wait to see the effects..."
+    okita "Прекрасно!"
+    okita "Теперь мы просто подождем, чтобы увидеть последствия..."
     show player 10
     show okita 6
-    player_name "How long should it take?"
+    player_name "Сколько времени это займет?"
     show player 11
     show okita 7
-    okita "It'll work fast. Why don't you stick around and we'll check on her after class?"
+    okita "Это сработает быстро. Почему бы тебе не остаться после занятий и мы проверим её?"
     show player 2
     show okita 6
-    player_name "Sure."
+    player_name "Конечно."
     pause 1
     hide player
     hide okita
@@ -165,28 +165,28 @@ label button_okita_wait_for_smith_serum:
     show player 11 zorder 0 at Position(xpos=0.15, ypos=1.0)
     show principal 33 at right
     with dissolve
-    okita "*ahem*"
+    okita "*Кхм*"
     show okita 4f
     show principal 32 with dissolve
-    smi "Hmm? Oh, hello there Tori..."
-    smi "How's little Miss Knowitall today?"
+    smi "Хмм? О, привет Тори..."
+    smi "Как поживает Маленькая Мисс Knowitall сегодня?"
     show principal 31
-    okita "... Hmmph."
+    okita "... Мммхм."
     show okita 3f
-    okita "I was just checking on the status of my office?"
+    okita "Я просто проверял состояние своего кабинета.?"
     show okita 4f
     show principal 32
-    smi "Your office?"
+    smi "Твоего кабинета?"
     show okita 5f
     show principal 31
-    okita "Well, the other day you seemed pretty adament about changing the locks."
+    okita "Ну, на днях ты казалась довольно непреклонна в смене замков."
     show okita 4f
     show principal 32
-    smi "Was I?"
-    smi "That's funny... I don't recall."
+    smi "Я?"
+    smi "Это смешно... Я не помню."
     show okita 3f
     show principal 31
-    okita "Oh, really?"
+    okita "О, Реально?"
     smi "..."
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "Bawk bawk."
@@ -195,61 +195,61 @@ label button_okita_wait_for_smith_serum:
     show player 10
     okita "..."
     show okita 3f
-    okita "... Are you alright?"
+    okita "... Ты в порядке?"
     show okita 4f
     show principal 32
-    smi "... Huh?"
-    smi "I'm fine, why?"
+    smi "... Хм?"
+    smi "Я в порядке, почему?"
     show player 11
     show okita 5f
     show principal 31
-    okita "You were saying something, regarding the lock on my office?"
+    okita "Ты что то говорила, относительно замка в моем кабинете?"
     show okita 4f
     show principal 32
-    smi "Was I?"
-    smi "That's funny... I don't-"
+    smi "Я?"
+    smi "Это смешно... Я не-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "BAWK!!! Bawk bawk bawk..."
     show principal 31 at right with dissolve
     show okita 6f
     show player 10
-    player_name "Uhh..."
+    player_name "Эмм..."
     show okita 9f
     show player 11
-    okita "Shh!"
+    okita "Шшш!"
     show principal 33 with dissolve
-    okita "Don't interrupt us {b}[firstname]{/b}."
+    okita "Не мешай нам {b}[firstname]{/b}."
     show okita 4f
     show principal 32 with dissolve
-    smi "... This coffee tastes funny."
+    smi "... У этого кофе странный вкус."
     show principal 31
     player_name "..."
     show okita 7f
-    okita "Did I tell you about the new invention I was working on?"
+    okita "Я рассказывала тебе о новом изобретении, над которым работала?"
     show okita 6f
     show principal 32
-    smi "Invention?"
-    smi "No, I don't think yo-"
+    smi "Изобретении?"
+    smi "Нет, я не думаю что ты-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
     smi "Bawk bawk..."
     smi "Bawk bawk BAWK!!"
     show principal 31 at right with dissolve
     show okita 7f
-    okita "I'll have to bring it by your office sometime. It's really fascinating!"
+    okita "Я Когда-нибудь принесу его к тебе в кабинет.. Это действительно увлекательно!"
     show principal 32
     show okita 6f
-    smi "Sure, okay!"
+    smi "Конечно, хорошо!"
     show okita 7f
     show principal 31
-    okita "Oh my, look at the time."
-    okita "We should really be going."
+    okita "О мой, посмотри на время."
+    okita "Мы действительно должны идти."
     show okita 7 at Position(xpos=0.05, ypos=1.0) with dissolve
-    okita "Come along, {b}[firstname]{/b}."
+    okita "Пойдем, {b}[firstname]{/b}."
     hide okita with dissolve
     player_name "..."
     show principal 32
 
-    smi "... This coffee tastes funny."
+    smi "... Этот кофе странный на вкус."
 
 
     hide principal
@@ -260,91 +260,91 @@ label button_okita_wait_for_smith_serum:
     scene location_school_science_closeup
     show player 11 at left
     show okita 7 at right
-    okita "So, I guess that {b}Chicken Stock{/b} created a bit of a side effect after all..."
+    okita "Итак, Я думаю, что {b}Куриный бульон{/b} создал немного побочного эффекта в конце концов..."
     show okita 2b
-    okita "Pffft, hahaha!!"
+    okita "Пфффф, хахаха!!"
     show player 12
     show okita 6
-    player_name "How is this funny?!"
-    player_name "We screwed with her head and she's in there clucking like a chicken!"
+    player_name "Как это может быть смешным?!"
+    player_name "Мы трахались с ее головой, а она там кудахтала, как курица!"
     show player 11
     show okita 2b
-    okita "Yeah she is! Hahaha!"
+    okita "Да так и есть! Хахаха!"
     show player 16
     show okita 7
-    okita "Oh, would you relax?"
-    okita "It's only temporary."
+    okita "О, ты можешь расслабиться?"
+    okita "Это только временно."
     show okita 9
-    okita "... I think."
+    okita "... Я думаю."
     show player 12
     show okita 6
-    player_name "You think?!"
+    player_name "Вы думаете?!"
     show player 16
     show okita 9
-    okita "I mean, I'm pretty sure."
+    okita "В смысле, Я почти уверена."
     show okita 7
-    okita "Look the important thing here is that the serum worked!"
-    okita "She's completely impartial to my experiments now!"
-    okita "... And she didn't even remember wanting to lock me out of my office!"
+    okita "Смотри,главное чтобы сыворотка сработала!"
+    okita "Сейчас она полностью беспристрастна к моим экспериментам!"
+    okita "... И она даже не помнила, что хотела запереть мой кабинет!"
     show player 12
     show okita 6
-    player_name "Yeah, but she's clucking like a chicken!"
+    player_name "Да, но она кудахчет, как курица.!"
     show player 16
     show okita 2b
-    okita "Pffftt, hahahaaaah!"
+    okita "Пфффф, хахахаха!"
     show player 12
-    player_name "Well I'm glad you think it's so funny..."
+    player_name "Ну, я рад, что вы думаете, что это так смешно..."
     show okita 6
-    player_name "So what now?"
+    player_name "Так что теперь?"
     show player 16
     show okita 7
-    okita "Now, I need some time to study the effects of the other serum."
+    okita "Сейчас, Мне нужно время, чтобы изучить последствия другой сыворотки.."
     show player 10
     show okita 6
-    player_name "Oh, I completely forgot about the other serum!"
-    player_name "Are you feeling any different?"
+    player_name "О, Я совсем забыл про другую сыворотку!"
+    player_name "Вы чувствуете какую-то разницу?"
     show player 11
     show okita 7
-    okita "Mmm, maybe..."
+    okita "Ммм, может быть..."
     show okita 2b
-    okita "Hehehe!"
+    okita "Хехехе!"
     show player 10
-    player_name "You do seem kinda, different."
+    player_name "Вы выглядите немного по другому."
     show player 11
     show okita 7
-    okita "How so?"
-    show player 10
+    okita "И как же?"
+    show player 10 
     show okita 6
-    player_name "You're like... Giddy."
+    player_name "Вы как... Легкомысленную."
     show player 11
     show okita 2b
-    okita "Hehehe! I'm just happy."
+    okita "Хехехе! Я просто счастлива."
     show player 10
-    player_name "It's kinda freaking me out to be honest."
+    player_name "Это немного пугает меня, если честно."
     show player 11
     show okita 7
-    okita "... And hot."
+    okita "... И жарко."
     show okita 3
-    okita "Are you hot? It's hot in here!"
+    okita "Тебе жарко? Как здесь жарко!"
     show player 10
     show okita 6
-    player_name "No, I'm fine."
+    player_name "Нет, Я в норм."
     show player 11
     show okita 7
-    okita "Alright, well I'm gonna head up to my office and get some work done."
-    okita "Come see me in a few days."
+    okita "Хорошо, ну я пойду в свой офис и поработатаю."
+    okita "Приходи ко мне через несколько дней."
     show player 10
     show okita 6
-    player_name "Umm, okay."
+    player_name "Эммм, хорошо."
     show player 11
     show okita 2b
-    okita "Byeee, {b}[firstname]{/b}!"
-    okita "Hehehehe..."
+    okita "Покааа, {b}[firstname]{/b}!"
+    okita "Хехехехе..."
     hide okita with dissolve
     hide player
     show player 10f
     with dissolve
-    player_name "I hope she's gonna be okay..."
+    player_name "Я надеюсь, с ней все будет хорошо...."
     return
 
 label button_okita_wait_for_okita_serum:
@@ -352,38 +352,38 @@ label button_okita_wait_for_okita_serum:
     show player 10 at left
     show okita 6 at right
     with dissolve
-    player_name "You doing okay, Ma'am?"
-    player_name "Notice any side effects with your serum yet?"
+    player_name "Все в порядке, Мэм?"
+    player_name "Вы заметили какие-то побочные эффекты от вашей сыворотки?"
     show player 11
     show okita 7
-    okita "I'm still testing."
-    okita "... I appreciate you checking in with me though."
+    okita "Я все еще тестирую."
+    okita "... Я ценю что ты проверяешь это со мной."
     show player 10
     show okita 6
-    player_name "... You do?"
+    player_name "... Вы?"
     show okita 7
     show player 11
-    okita "Of course!"
+    okita "Кончено!"
     show okita 2b
-    okita "It makes me feel all warm and fuzzy!"
+    okita "Это заставляет меня чувствовать себя все тепло и нечетко!"
     show player 11
     show okita 6
     player_name "..."
     show player 10
-    player_name "Okay, seriously! You are acting really weird!"
+    player_name "Хорошо, серьезно! Ты ведешь себя очень странно!"
     show player 11
     show okita 7
-    okita "Am I?"
+    okita "Я?"
     show okita 2b
-    okita "I don't know what to tell you. I feel great!"
+    okita "Я не знаю, что тебе сказать. Я чувствую себя великолепно!"
     show player 10
     show okita 6
-    player_name "Okay, well just be careful, I guess."
+    player_name "Хорошо, чтож просто будьте осторожны,я думаю."
     show player 11
     show okita 7
-    okita "Will do, Handsome!"
+    okita "Сделаем, красавчик!"
     show okita 2b
-    okita "Hehehe!"
+    okita "Хехехе!"
     player_name "..."
     return
 
@@ -392,54 +392,54 @@ label button_okita_serum_effects:
     show player 10 at left
     show okita 6 at right
     with dissolve
-    player_name "Any results from the serum yet?"
+    player_name "Все же есть какие-то результаты из сыворотки?"
     show player 11
     show okita 7
-    okita "Actually, {b}[firstname]{/b}, I was hoping you could help me test my newest invention?"
+    okita "Честно говоря, {b}[firstname]{/b}, Я надеялась,что ты поможешь мне протестировать мое новое изобретение?"
     show player 10
     show okita 6
-    player_name "Oh man, you want me to build something else?"
+    player_name "О мэн, ты хочешь, чтобы я сделал что-то другое?"
     show player 11
     show okita 3
-    okita "Hmm? No, no!"
+    okita "Хмм? Нет, нет!"
     show okita 7
-    okita "I built this one myself. It's revolutionary!"
+    okita "Я создала это сама. Это революционно!"
     show player 10
     show okita 6
-    player_name "You built it?"
-    player_name "But building is monkey work. I thought you didn't do monkey work?"
+    player_name "Ты создала это?"
+    player_name "Но создание это мартышкина работа.Я думал, ты не занимаешься обезьяньей работой?"
     show player 11
     show okita 7
-    okita "I made an exception this time because..."
-    okita "Well, I made this invention for you; As a surprise."
+    okita "На этот раз я сделала исключение, потому что..."
+    okita "Ну, Я сделала это изобретение для тебя; В качестве сюрприза."
     show player 10
     show okita 6
-    player_name "For me?"
+    player_name "Для меня?"
     show player 11
     show okita 7
-    okita "Yeah, come to my office this evening after school and I'll show you."
+    okita "Да, приходи ко мне в офис сегодня вечером после школы, и я покажу тебе."
     show player 10
     show okita 7
-    player_name "This is starting to worry me..."
-    player_name "What are you up to?"
+    player_name "Это начинает меня беспокоить..."
+    player_name "Что ты задумала?"
     show player 11
     show okita 2b
-    okita "Don't be a baby! You have to come and see!"
+    okita "Не будь ребенком!Ты должЕН прийти и посмотреть!"
     show player 10
     show okita 6
-    player_name "Fine."
+    player_name "Хорошо."
     show player 11
     show okita 7
-    okita "You promise?"
+    okita "Ты обещаешь?"
     show player 10
     show okita 6
-    player_name "Uhh, yeah."
-    player_name "... I promise."
+    player_name "Эмм, да."
+    player_name "... Я обещаю."
     show player 11
     show okita 2b
-    okita "Yay!"
+    okita "Ура!"
     show okita 7
-    okita "See you soon, {b}[firstname]{/b}!"
+    okita "До скорой встречи, {b}[firstname]{/b}!"
     hide okita with dissolve
     hide player
     show player 11f
@@ -450,9 +450,9 @@ label button_okita_serum_effects:
 label button_okita_generic_after_q3:
     call expression game.dialog_select("button_okita_generic_after_q3_intro")
     menu:
-        "New Invention." if M_okita.is_state(S_okita_is_hypersexual):
+        "Новое изобретение." if M_okita.is_state(S_okita_is_hypersexual):
             call expression game.dialog_select("button_okita_generic_after_q3_new_invention")
-        "Nothing.":
+        "Ничего.":
 
             call expression game.dialog_select("button_okita_generic_after_q3_leave")
     return
@@ -462,12 +462,12 @@ label button_okita_generic_before_q3:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}."
+    player_name "Здравствуйте, {b}Miss Okita{/b}."
     show player 1
     show okita 5
-    okita "What is it, {b}[firstname]{/b}?"
+    okita "Что случилось, {b}[firstname]{/b}?"
     show player 11
-    okita "I'm very busy..."
+    okita "Я очень занята..."
     show okita 4
     return
 
@@ -476,47 +476,47 @@ label button_okita_generic_after_q3_intro:
     show player 2 at left
     show okita 6 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}."
+    player_name "Здравствуйте, {b}Miss Okita{/b}."
     show player 1
     show okita 2b
     okita "{b}[firstname]{/b}!"
     show okita 7
-    okita "How nice of you to visit!"
-    okita "What can I help you with?"
+    okita "Как здорово что ты заглянул!"
+    okita "Чем я могу тебе помочь?"
     show okita 6
     return
 
 label button_okita_generic_after_q3_new_invention:
     show player 2
-    player_name "So you've been working on a new invention, huh?"
+    player_name "Итак, вы работали над новым изобретением, хм?"
     show player 1
     show okita 7
-    okita "Oh, yes!"
-    okita "It's revolutionary! You absolutely have to come and see it!"
+    okita "О, да!"
+    okita "Это революционно! Вы обязательно должен прийти и посмотреть!"
     show player 2
     show okita 6
-    player_name "Heh, okay! I'll {b}meet you in your office this evening.{/b}"
+    player_name "Хех, хорошо!Я {b}встречу вас вашем кабинете сегодня вечером.{/b}"
     show okita 2b
     show player 1
-    okita "You have to promise you'll come and see!"
+    okita "Ты должен пообещать, что придешь и посмотришь!"
     show okita 6
     show player 11
     player_name "..."
     show player 10
-    player_name "... Yeah. I promise."
+    player_name "... Да.Я обещаю."
     show okita 2b
     show player 11
-    okita "I can't wait!"
+    okita "Я не могу долждаться!"
     return
 
 label button_okita_generic_after_q3_leave:
     show player 3
-    player_name "Nothing, I just wanted to say hi!"
+    player_name "Ничего, Я просто хотел поздороваться!"
     show okita 5
-    okita "That's nice of you"
+    okita "Это очень мило с твоей стороны"
     show player 2
-    okita "Though, I'm busy working on some new designs at the moment."
+    okita "Однако, Я занята работой над некоторыми новыми проектами в данный момент."
     show okita 7
-    okita "Come see me in my {b}classroom{/b} if you want to help me."
+    okita "Приходи ко мне в мой {b}кабинет{/b} если ты хочешь мне помочь."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

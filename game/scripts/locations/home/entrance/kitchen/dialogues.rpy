@@ -3,31 +3,31 @@ label kitchen_sis_telescope_1:
     show player 1 at left
     show debbie 2 at right
     with dissolve
-    deb "Hey, sweetie!"
-    deb "Hungry for some breakfast?"
+    deb "Привет, милый!"
+    deb "Хочешь позавтракать?"
     show debbie 51 at Position(xpos=1025)
     show player 10
-    player_name "I don't know If I have time, {b}[deb_name]{/b}."
+    player_name "Не думаю, что у меня есть время, {b}[deb_name]{/b}."
     if game.timer.is_weekend():
-        player_name "I have to meet {b}Erik{/b} at his house..."
+        player_name "Я должен встретиться с {b}Erik{/b}..."
     else:
-        player_name "I'm running late for school."
+        player_name "Желательно ещё и в школу не опоздать."
     show player 11
     show debbie 52
-    deb "Honey, you have to eat!"
+    deb "Милый, ты должен поесть!"
     show player 11
     if game.timer.is_weekend():
-        deb "I don't care if your friend {b}Erik{/b} has to wait all day..."
+        deb "Мне не важно, что {b}Erik{/b} будет ждать тебя..."
     else:
-        deb "I don't care if your school calls me to complain about you being late..."
+        deb "Мне не важно, будут ли звонить из школы, жалуясь на то, что ты опоздал..."
     show player 1
-    deb "You can't just go out on an empty stomach!"
+    deb "Но ты не можешь уйти с пустым животом!"
     show player 14
     show debbie 51
-    player_name "I guess I could take a few minutes to eat something..."
+    player_name "Ладно, я думаю, что у меня есть пара минут, чтобы перекусить..."
     show player 1
     show debbie 2
-    deb "I prepared some cereal for you in the {b}dining room{/b}."
+    deb "В {b}столовой{/b} тебя ждет несколько тостов."
     hide player
     hide debbie
     with dissolve
@@ -37,65 +37,65 @@ label kitchen_mom_start:
     scene expression game.timer.image("homekitchen{}")
     show player 1 at left with dissolve
     show debbie 2 at right with dissolve
-    deb "Good morning, sweetie! I made you some breakfast!"
-    deb "I thought you'd like something special for your first day back at school."
+    deb "Доброе утро, любимый! Я приготовила тебе завтрак!"
+    deb "Для первого дня в школе я приготовила тебе что-то особенное."
     show player 2
     show debbie 1
-    player_name "Thanks, {b}[deb_name]{/b} but I'm not really hungry and I'm running late for school. So..."
+    player_name "Спасибо, {b}[deb_name]{/b}, но я не очень голоден да и в школу опаздываю. Так что..."
     show player 1
     show debbie 2
-    deb "You're sure? I made your favorite..."
-    deb "Happy face pancakes with three strips of baaaacon!"
+    deb "Ты уверен? Я сделала твои любимые..."
+    deb "Улыбающиеся блинчики с тремя кусочками бекона!"
     show debbie 1
     show player 10
-    player_name "Oh man..."
+    player_name "О боже..."
     show player 11
     player_name "..."
     show player 10
-    player_name "No, I really shouldn't..."
-    player_name "I think {b}Erik{/b} overslept again and I don't wanna be late on my first day back."
+    player_name "Нет, я правда..."
+    player_name "Я думаю, что {b}Erik{/b} опять проспал, а я не хочу опаздывать в первый же день."
     show player 11
     show debbie 3
-    deb "Hah, again huh?"
+    deb "Ха, опять?"
     show player 1
     show debbie 2
-    deb "Well I guess you'd better get a move on then."
+    deb "Ну тогда тебе следует поспешить."
     show player 2
     show debbie 1
-    player_name "Yeah, thanks anyways, {b}[deb_name]{/b}!"
+    player_name "Да, всё равно спасибо, {b}[deb_name]{/b}!"
     show player 1f with dissolve
     show debbie 2
-    deb "My pleasure, Sweet- Oh! Wait!"
+    deb "Ничего страшного, Милый- Ой! Подожди!"
     show player 1 with dissolve
-    player_name "Hmm?"
+    player_name "Хмм?"
     show debbie 3
-    deb "I nearly forgot!"
+    deb "Я почти забыла!"
     show debbie 2
-    deb "I spoke with my friend {b}Diane{/b} yesterday and she mentioned that she could use some {b}help with her garden{/b} over the summer!"
+    deb "Я вчера говорила с моей подругой, {b}Diane{/b}, и она сказала, что летом ей может понадобиться {b}помощь с садом{/b}!"
     show player 10
     show debbie 1
-    player_name "Hmm, I don't really know much about gardening {b}[deb_name]{/b}..."
+    player_name "Хмм, я знаю не так много о садоводстве, {b}[deb_name]{/b}..."
     show player 11
     show debbie 3
-    deb "Oh c'mon, It's easy! {b}Diane{/b} can teach you and if you do a good job she'll pay you as well!"
+    deb "Да ладно, это же просто! {b}Diane{/b} всему тебя научит, а может ещё и заплатит, если будешь стараться!"
     show debbie 2
-    deb "It could be a good way to {b}earn some money for college{/b}, don't you think?"
+    deb "Это может стать неплохим способом {b}заработать денег на коледж{/b}, что думаешь?"
     show player 10
     show debbie 1
-    player_name "Yeah, I guess you're right."
+    player_name "Да, думаю, ты права."
     show player 2
-    player_name "I should go visit her and see what she wants me to do."
+    player_name "Я зайду к ней и спрошу, чем могу помочь."
     show debbie 2
-    deb "Atta' boy!"
+    deb "Это мой мальчик!"
     hide player
     show debbie 4b
     with dissolve
-    deb "I know these last few weeks have been hard..."
-    deb "But your {b}father{/b} would want you to carry on, you know?"
-    deb "You'll get through this. I promise things will get better."
+    deb "Я понимаю, что последние недели были непростыми..."
+    deb "Но твой {b}отец{/b} хотел бы, чтобы ты был сильным."
+    deb "Ты справишься с этим. Я обещаю, скоро всё наладится."
     show debbie 5b
-    player_name "Yeah, I-I know. Thanks {b}[deb_name]{/b}..."
-    deb "Chin up, sweetie! I'm here for you."
+    player_name "Да, я знаю. Спасибо {b}[deb_name]{/b}..."
+    deb "Выше нос, милый! Я буду рядом."
     hide debbie with dissolve
     return
 
@@ -103,41 +103,41 @@ label kitchen_mom_dinner:
     scene location_home_kitchen_day_blur
     show debbie 2 at right with dissolve
     show player 203 at left with dissolve
-    deb "There you are!"
+    deb "А вот и ты!"
     show debbie 3
-    deb "I need your help with something..."
+    deb "Мне нужна твоя помощь..."
     show debbie 2
     show player 11
-    deb "My friend {b}Diane{/b} is coming over for dinner tonight."
-    deb "... And I need you to pick up some {b}Sea Trout{/b} down at the {b}Pier{/b}."
-    deb "I want to cook her something special and it's her absolute favorite!"
+    deb "Мо подруга {b}Diane{/b} прийдет сегодня на ужин."
+    deb "... Тебе нужно пойти на {b}пристань{/b} и купить {b}морскую форель{/b}."
+    deb "Я хочу приготовить ей что-нибудь особенное, а морскую форель она как раз очень любит!"
     show debbie 1
     show player 2
-    player_name "Oh, {b}Diane{/b} is coming over? That's a nice surprise!"
-    player_name "It'll be good for her to get out of her house for awhile..."
-    player_name "I worry about her sometimes... All alone over there."
-    player_name "I'll swing by the {b}Pier{/b} and grab some {b}Sea Trout{/b} on my way home."
+    player_name "Ох, {b}Diane{/b} сегодня придет? Это приятный сюрприз!"
+    player_name "Ей будет полезно хоть не на долго выйти из дома..."
+    player_name "Я переживавю за неё... Она там совсем одна."
+    player_name "Я зайду на {b} пристань{/b} на обратном пути и возьму{b}форель{/b}."
     scene homekitchen
     show player 1 at left
     show debbie 62 at right
     with dissolve
-    deb "{b}[firstname]{/b}, before you go, do you have a second to look at something?"
+    deb "{b}[firstname]{/b}, пока ты тут, можешь посмотреть на кое-что?"
     show player 14
     show debbie 61
-    player_name "Of course, {b}[deb_name]{/b}. What do you need?"
+    player_name "Конечно, {b}[deb_name]{/b}. Что тебе нужно?"
     show player 1
     show debbie 62
-    deb "I have a new outfit for dinner tonight and I wanted to get your opinion."
-    deb "Let me go put it on real fast."
+    deb "Я купила немного одежды для сегодняшнего вечера, мне хотелось бы узнать твое мнение."
+    deb "Я сейчас быстро всё надену."
     hide debbie with dissolve
     scene home_livingroom_b
     show player 14
-    player_name "I'm excited to see {b}[deb_name]{/b} all dressed up!"
+    player_name "Я хочу увидеть {b}[deb_name]{/b} при параде!"
     show player 11
-    deb "Sweetie!"
-    deb "I'm ready!"
+    deb "Милый!"
+    deb "Я готова!"
     show player 2
-    player_name "Coming!"
+    player_name "Уже иду!"
     hide player with dissolve
     return
 
@@ -146,76 +146,76 @@ label kitchen_mom_dinner_fish:
     show player 13 at left
     show debbie 1 at right
     with dissolve
-    player_name "Hey, {b}[deb_name]{/b}. I have the {b}fish{/b} you wanted."
+    player_name "Хэй, {b}[deb_name]{/b}. Я купил {b}рыбу{/b}, которую ты хотела."
     show player 2
-    deb "Thanks, sweetie! Now I can finish dinner."
+    deb "Спасибо, милый, теперь я могу закончить готовить ужин."
     show debbie 2
-    deb "I'll let you know when it's finished, okay?"
+    deb "Я скажу тебе, когда всё будет готово."
     show player 203
 
     scene expression L_home_entrance.background
     show diane 137 at right
     show debbie 91f
     with fade
-    dia "Mmm, is that {b}Sea Trout{/b} I'm smelling?!"
-    dia "You didn't?!"
+    dia "Mмм, это запах {b}морской форели{/b}?!"
+    dia "Неужели ты сделала?!"
     show diane 136
     show debbie 93f
-    deb "Of course I did!"
-    deb "I know how to treat my girl right!"
+    deb "Конечно я сделала!"
+    deb "Я ведь знаю, как правильно ублажать мою девочку!"
     show diane 138
     show debbie 91f
-    dia "Oh my gosh, I could totally kiss you right now!"
+    dia "О боже, да я готова тебя расцеловать сейчас!"
     show player 203 at left with dissolve
     show diane 137
     show debbie 92f
-    dia "There he is..."
-    dia "... The {b}man of the house{/b}!"
+    dia "А это..."
+    dia "... Главный {b}мужчина этого дома{/b}!"
     show diane 136
     show player 14
-    player_name "Hey, {b}Diane{/b}."
+    player_name "Хэй, {b}Diane{/b}."
     show player 17
-    player_name "That dress looks great on you!"
+    player_name "Прекрасно выглядешь!"
     show diane 138
     show player 203
-    dia "Oh stop it, you!"
+    dia "Ох, перестань!"
     show player 13
     show diane 136
     show debbie 93f
-    deb "He's quite the little charmer isn't he?"
+    deb "А он мелкий обольститель, не так ли?"
     show diane 137
     show debbie 91f
-    dia "I don't know how you manage to keep your hands off him!"
-    dia "Where's your other tenant? She going to join us tonight or did she have a Bitches of Summerville meeting to attend?"
+    dia "Не знаю, как ты можешь держать себя в руках рядом с ним!"
+    dia "А где второй ребенок? Она присоединится к нам сегодня,или у неё встреча Сучек Summerville?"
     show player 10
     show diane 136
-    player_name "No, she's gonna eat with us."
+    player_name "Нет, она будет ужинать с нами."
     show player 12
-    player_name "... She's just upstairs getting ready."
+    player_name "... Она сейчас наверху, заканчивает наводить марафет."
     show player 203
     show diane 138
-    dia "Typical princess..."
+    dia "Типичная принцесска..."
     show diane 137
-    dia "Well, I'm not waiting for her! Not when {b}[deb_name]{/b}'s {b}Sea Trout{/b} is on the menu!"
+    dia "Ладно, но я не буду её ждать! Явно ни когда {b}морская форель{/b} в меню!"
     show debbie 92f
     show diane 136
-    deb "Hey, be nice!"
+    deb "Хей, будь тактичнее!"
     show debbie 93f
-    deb "She's not as bad as you make her out to be..."
+    deb "Она не такая плохая, как ты думаешь..."
     show debbie 91f
     show diane 138
-    dia "Heh, if you say so."
+    dia "Хех, ну если ты так говоришь."
     show debbie 93f
     show diane 136
-    deb "I do. Now both of you get in there and sit down while I scrounge up a bottle of wine!"
+    deb "Говорю. А теперь сядьте уже за стол, а я пока достану бутылочку вина!"
     show debbie 92f
-    deb "I've got this new brand I want you to try."
+    deb "Я купила новый сорт, который хотела попробывать."
     hide debbie
     hide diane
     with dissolve
     show player 24
-    player_name "I should join them in the {b}Dining Room{/b}."
-    player_name "{b}[deb_name]{/b}'s cooking smells delicious!"
+    player_name "Нужно присоединиться к ним в {b}Столовой{/b}."
+    player_name "Еда {b}[deb_name]{/b} пахнет просто восхитительно!"
     hide player
     with dissolve
     return
@@ -223,51 +223,51 @@ label kitchen_mom_dinner_fish:
 label kitchen_mom_debt_call:
     scene expression game.timer.image("homekitchen{}")
     show debbie 6 at right with dissolve
-    deb "I've told you already! I don't {b}KNOW{/b} where the money is..."
-    deb "I had no idea he was involved in any of this!"
+    deb "Я ведь уже вам сказала! Я не {b}ЗНАЮ{/b} где деньги..."
+    deb "Я понятия не имела о том, куда он втянут!"
     show debbie 7 at right
-    deb "But-"
+    deb "Но-"
     show debbie 6 at right
-    deb "I don't have it!!"
+    deb "У меня нет столько!!"
     show debbie 7 at right
     deb "..."
     show debbie 6 at right
-    deb "Was that a {b}threat{/b}?!"
-    deb "I'm hanging up now. Don't call back here again."
+    deb "Это была {b}угроза{/b}?!"
+    deb "Я кладу трубку. Не звоните сюда больше."
     show debbie 8 at right with hpunch
-    deb "Just leave us {b}ALONE!!!{/b}"
+    deb "Просто оставьте нас {b}В ПОКОЕ!!!{/b}"
     show debbie 9 at right
     show player 10 at left with dissolve
     player_name "..."
     player_name "...{b}[deb_name]{/b}?"
-    player_name "...Are you okay?"
+    player_name "...Ты в порядке?"
     show player 5 at left
     show debbie 11 at right
-    deb "I'm alright, sweetie."
+    deb "Со мной всё хорошо, милый."
     show debbie 10 at right
     show player 10 at left
-    player_name "Are you sure? It sounded pretty bad..."
+    player_name "Ты уверена? Это звучало не очень хорошо..."
     show player 5 at left
     show debbie 11 at right
-    deb "It's nothing for you to worry about..."
+    deb "Тебе не о чем беспокоиться..."
     show debbie 10 at right
     show player 5 at left
     player_name "..."
     show player 10 at left
-    player_name "I could try and find another job. Maybe I can come up with some money for you."
+    player_name "Я могу попытаться найти хорошую работу. Может я смогу заработать немного денег."
     show player 5 at left
     show debbie 11 at right
-    deb "No."
-    deb "Your {b}Father{/b} wouldn't want that, Sweetheart."
-    deb "You need to keep your focus on school and {b}Save your money for tuition{/b}."
+    deb "Нет."
+    deb "Твой {b}отец{/b} не хотел бы этого, милый."
+    deb "Тебе нужно сфокусироваться на школе и {b}найти деньги на обучение{/b}."
     show debbie 10 at right
     show player 10 at left
-    player_name "Yeah, but {b}[deb_name]{/b}, I can help..."
+    player_name "Да, но {b}[deb_name]{/b}, я ведь могу помочь..."
     hide player 10 at left
     show debbie 12 at right
     with dissolve
-    deb "Oh, sweetie..."
-    deb "Just let me handle it and everything will be fine, okay? I promise."
+    deb "Ох, милый..."
+    deb "Дай мне со всем разобраться и всё будет в порядке, окей? Я обещаю."
     hide debbie with dissolve
     return
 
@@ -275,274 +275,274 @@ label kitchen_mom_diane_visit:
     scene homekitchen_secret
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
-    dia "... I don't see the problem. Isn't it a good thing that he's helping you around the house?"
+    dia "... Не вижу тут никакой проблемы. Это ведь хорошо, что он помагает тебе по дому?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
-    deb "I know, it's just..."
-    deb "He's been so... affectionate towards me lately..."
+    deb "Я понимаю, просто..."
+    deb "Просто я чувствовала... его влечение к себе..."
     show diane 122 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "That's not surprising, he just lost the only family he ever had..."
+    dia "Это не удивительно, он только что потерял ту семью, к которой привык..."
     show diane 121
-    dia "He probably just needs someone he can feel close with..."
-    dia "Especially with all this other stuff that's been happening to you guys."
+    dia "Ему, скорее всего, просто нужно почувствовать близость..."
+    dia "Особенно, учитывая то, что произошло с вами за последнее время."
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 17f at Position(xpos=0.3318,ypos=1.1130)
-    deb "It's not that. There's more to it! It's the way he looks at me, you know?"
+    deb "Я не о том. Тут что-то большее! Я говорю о том, как он на меня смотрит."
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
     show diane 124 at Position(xpos=0.7796,ypos=0.7464)
     dia "..."
     show diane 121
-    dia "What do you mean?"
+    dia "Что ты имеешь ввиду?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
-    deb "Well, a little while ago I.. I started noticing things..."
+    deb "Ну, не так давно я... Я начала замечать некоторые вещи..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "...Like?"
+    dia "...Например?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
-    deb "Like how he's always getting hard around me..."
-    deb "... And touching me... in certain ways."
+    deb "Например, он всегда возбуждается, когда находится рядом со мной..."
+    deb "... И трогает меня... Определенным образом."
     show diane 124 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
     dia "..."
     show debbie 60f
-    deb "... And the other day, I found him playing with himself; In my bed!"
-    deb "... With my underwear!"
+    deb "... А однажды, я увидела, как он мастурбирует; в моей постели!"
+    deb "... С помощью моего белья!"
     show diane 121
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
-    dia "What did you do?!"
+    dia "И что ты сделала?!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
-    deb "We discussed it!"
-    deb "I told him not to do that kind of stuff in my room, but..."
+    deb "Мы обсудили это!"
+    deb "Я сказала ему не делать подобных вещей у меня в кровати, но..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "But, what?"
+    dia "Но что?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f at Position(xpos=0.3318,ypos=1.000)
-    deb "I caught him again! He apologized and started talking about urges that he couldn't control..."
+    deb "Я снова его поймала за этим делом! Он извинился и начал говорить о желаниях, с которыми не может справиться..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "Okay, so what did you say to that?"
+    dia "Окей, и что ты на это ответила?"
     show diane 124
     show debbie 17f at Position(xpos=0.3318,ypos=1.1130)
-    deb "... I kinda... Let him finish."
+    deb "... Я типа... Дала ему закончить."
     show diane 121
     show debbie 20f at Position(xpos=0.3318,ypos=1.1130)
-    dia "You watched him masturbate?"
+    dia "Ты смотрела, как он мастурбирует?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f at Position(xpos=0.3318,ypos=1.000)
-    deb "I didn't know what to do!"
-    deb "I thought maybe if he just got it out of his system..."
-    deb "... You know?"
+    deb "Я не знала, что мне делать!"
+    deb "Я думала, если он закончить, то..."
+    deb "..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "That's so naughty..."
+    dia "Это так неправильно..."
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
-    deb "There's more..."
+    deb "И ещё кое-что..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "More?!"
-    dia "You're serious?!"
-    dia "Tell me!"
+    dia "Ёщё?!"
+    dia "Ты серьёзно?!"
+    dia "Расскажи мне!"
     show diane 124
     show debbie 60f
     deb "Diane..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "{b}[deb_name]{/b}, tell me!"
+    dia "{b}[deb_name]{/b}, расскажи!"
     show diane 124
     show debbie 60f
-    deb "... We've been taking showers together."
+    deb "... Мы вместе принимали душ."
     show diane 121
     show debbie 59f
-    dia "Wow..."
+    dia "Вау..."
     show diane 125
-    dia "... How is he?"
+    dia "... И как он?"
     show diane 124
     show debbie 60f
     deb "Diane!!"
     show diane 122
     show debbie 59f
-    dia "What?!"
+    dia "Что?!"
     show diane 123
-    dia "Don't act like a prude! We both know you're dying to tell me!"
+    dia "Не прикидывайся ханжой! Мы ведь обе знаем, что ты хочешь мне рассказать!"
     show diane 124
     show debbie 60f
-    deb "... {b}*Sigh*{/b}"
+    deb "... {b}*Эх*{/b}"
     show diane 125
     show debbie 59f
-    dia "Did you... touch him?"
+    dia "Ты... Трогала её?"
     show diane 126
     show debbie 60f
-    deb "... Yes."
-    deb "I kinda, jerked him off..."
+    deb "... Да."
+    deb "Я типа, дрочила ему..."
     show diane 125
     show debbie 59f
-    dia "All the way?"
+    dia "До самого конца?"
     show diane 126
     show debbie 60f
-    deb "... Until he came, yeah."
+    deb "... Пока он ни кончил, да."
     show diane 125
     show debbie 59f
-    dia "So how is it?"
+    dia "И как он?"
     show diane 126
     show debbie 60f
-    deb "... How is what?"
+    deb "... О чем ты?"
     show diane 125
     show debbie 59f
-    dia "His {b}dick{/b}, {b}[deb_name]{/b}! Is it big?"
+    dia "Его {b}член{/b}, {b}[deb_name]{/b}! Он большой?"
     show diane 126
     show debbie 60f
     deb "( !!! )"
     show debbie 59f
     deb "..."
     show diane 127
-    dia "Don't get shy on me now, girl. Spit it out!"
+    dia "Не скромничай, девонька. Расскажи мне всё!"
     show debbie 60f
     show diane 126
-    deb "{b}Diane{/b}, he's got the biggest... {b}Dick{/b} I've ever seen!"
+    deb "{b}Diane{/b}, у него самый большой... {b}Член{/b}, из всех, что я видела!"
     show diane 125
     show debbie 59f
-    dia "... You don't say?!"
+    dia "... Да ладно?!"
     show diane 122
-    dia "I'm surprised you stopped at the handjob..."
+    dia "Тогда я удивлена, что ты остановилась на хэнджобе..."
     show diane 126
     show debbie 16f at Position(xpos=0.3318,ypos=1.1130)
-    deb "{b}Diane{/b}, he's just a kid!"
+    deb "{b}Diane{/b}, он ведь ещё ребенок!"
     show diane 125
     show debbie 15f
-    dia "Pfft, he's in college!"
+    dia "Пфф, он уже выпускник!"
     show diane 126
     show debbie 16f
-    deb "Yeah, but I'm old enough to be his {b}Mother{/b}!"
+    deb "Да, но я уже достаточно старая, чтобы быть лишь его {b}мамочкой{/b}!"
     show diane 122
     show debbie 15f
-    dia "... But {b}you aren't{/b} his {b}Mother{/b}, {b}[deb_name]{/b}!"
+    dia "... Но {b}ты не{/b} его {b}мать{/b}, {b}[deb_name]{/b}!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "Oh, I dunno, {b}Diane{/b}..."
+    deb "Oх, ну я не знаю, {b}Diane{/b}..."
     show diane 124 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
-    dia "He obviously wants to."
+    dia "Он очевидно этого хочет."
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "Please, tell me I'm not doing something terribly wrong here..."
+    deb "Пожалуйста, скажи мне, что я не делаю чего-то ужасного..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
-    dia "It's your decision, but..."
-    dia "I think you should relax and enjoy it a little. Who care's about the age difference?"
+    dia "Это твое решение, но..."
+    dia "Я думаю, что тебе стоит немного расслабиться. Кому какое дело до разницы в возрасте?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "Really? You don't think it's wrong?"
+    deb "Серьезно, ты не думаешь, что я поступаю неправильно?"
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
-    dia "Nope. I don't see the harm in it!"
+    dia "Нет. Я не думаю, что ты делаешь что-то плохое!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "I suppose we aren't hurting anybody... And we're both consenting adults."
+    deb "Я полагаю, что мы не вредим друг другу...  Это ведь происходит по согласию двух взрослых людей."
     show diane 122 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
-    dia "Plus this is all really {b}HOT{/b}!"
+    dia "Плюс это, должно быть, очень {b}ГОРЯЧО{/b}!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "You are such a bad influence! I don't know why I listen to you!"
+    deb "Ты так плохо на меня влияешь! Не знаю, почему я тебя вообще слушаю!"
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
-    dia "... Because you know I'm right! Just give it a chance. Who know's maybe it was meant to be?"
+    dia "... Потому что ты знаешь, что я права! Просто попробуй. Может так и должно произойти?"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 62f at Position(xpos=0.3318,ypos=1.000)
-    deb "Yeah, I suppose anything is possible..."
+    deb "Да, я думаю, что это возможно..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 61f
-    dia "Alright, well I'd better head home. It's getting late."
+    dia "Ладно, нужно идти домой. Уже достаточно поздно."
     show diane 125
-    dia "We'll continue this another time. I want all the juicy details for my spank bank!"
+    dia "Продолжим этот разговор позже. Я хочу знать все самые сочные детали!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 62f
-    deb "{b}Diane{/b}! You're terrible!"
-    deb "Why don't you come by for dinner sometime? I'd love to see you more often!"
+    deb "{b}Diane{/b}! Ты ужасна!"
+    deb "Почему бы тебе не прийти как-нибудь ещё? Я бы хотела видеть тебя чаще!"
     show debbie 61f
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
-    dia "I'm always down for dinner, {b}[deb_name]{/b}. Just as long as I'm not the one doing the cooking!"
-    dia "Good luck, Honey."
+    dia "Я всегда готова к ужину, {b}[deb_name]{/b}. До тех пор, пока готовка не на мне!"
+    dia "Удачи, милая."
     scene expression L_home_entrance.background
     show player 5
-    player_name "( That... was a lot to take in. )"
-    player_name "( {b}[deb_name]{/b} seemed really conflicted about all of this... )"
+    player_name "( Это... было крайне спорно. )"
+    player_name "( {b}[deb_name]{/b} не очень комфортно из-за этой ситуации... )"
     show player 203
-    player_name "( She said she's enjoying it, though. )"
-    player_name "( Either way, I'm glad {b}Diane{/b} thinks it's okay for us to be doing these things! )"
+    player_name "( Хотя она сказала, что ей понравилось. )"
+    player_name "( В любом случае, я рад, что {b}Diane{/b} это нормально для нас, заниматься чем-то подобным! )"
     return
 
 label kitchen_mom_kissing_practice:
     show player 2 at left
     show debbie 14b at right
-    player_name "Aww, c'mon {b}[deb_name]{/b}!"
-    player_name "You're the one who said I need to get out and start dating."
-    player_name "It would definitely help if I knew how to kiss a girl properly, wouldn't it?"
+    player_name "Оу, да ладно тебе, {b}[deb_name]{/b}!"
+    player_name "Ты ведь сама сказала, что мне нужно кого-нибудь найти."
+    player_name "Это станет намного проще, если я буду знать, как правильно целовать девушку, разве нет?"
     show player 1
     deb "..."
     show debbie 13
-    deb "... Well."
-    deb "Y-yeah, I suppose I could give you a few pointers."
+    deb "... Ладно."
+    deb "Я думаю, я смогу дать тебе пару советов."
     show debbie 14
     show player 2
-    player_name "I would really appreciate it, {b}[deb_name]{/b}."
+    player_name "Это крайне важно для меня, {b}[deb_name]{/b}."
     show player 1
     show debbie 73 at Position(xpos=0.85, ypos=1.0) with dissolve
-    deb "O-okay, umm... Come in close to me."
+    deb "Окей, эмм... Подойди поближе."
     show player 227c at Position(xpos=0.25, ypos=1.0) with dissolve
     show debbie 72
-    player_name "Alright."
+    player_name "Ладно."
     show player 227
     show debbie 73
-    deb "Good. Now, lean in, that's it."
+    deb "Хорошо. Сейчас обопрись, вот так."
     show player 227c zorder 1 at Position(xpos=0.30, ypos=1.0) with dissolve
     show debbie 72 zorder 0 at Position(xpos=0.80, ypos=1.0) with dissolve
-    player_name "Okay."
+    player_name "Окей."
     show player 227
     show debbie 73
-    deb "... Close your eyes and gently press your lips against mine..."
+    deb "... Закрой глаза и чуть-чуть надави своими губами на мои..."
     hide player
     show debbie 79 at Position(xpos=0.70, ypos=1.0) with dissolve
     pause
     show debbie 80
     pause
     show debbie 79
-    deb "Mmm."
+    deb "Mмм."
     show debbie 78 at Position(xpos=0.80, ypos=1.0) with dissolve
     show player 227 at Position(xpos=0.30, ypos=1.0) with dissolve
     pause
     show player 227c
-    player_name "How was that?"
+    player_name "И как?"
     show player 227
     show debbie 77
-    deb "... Wow."
+    deb "... Вау."
     show player 227c
     show debbie 76
-    player_name "Bad?"
+    player_name "Плохо?"
     show player 227
     show debbie 73
-    deb "N-no. That was quite good!"
+    deb "Н-нет. Это было вполне неплохо!"
     show player 227c
     show debbie 72
-    player_name "Really?!"
+    player_name "Правда?!"
     show player 227
     show debbie 73
-    deb "Yeah. Are you sure this is your first time?"
+    deb "Да. Ты уверен, что это твой первый раз?"
     show player 227c
     show debbie 72
-    player_name "Heh, yeah. Do you have any pointers?"
+    player_name "Ха, уверен. Так что там за советы?"
     show player 227
     deb "..."
     show debbie 73
-    deb "Well, let's see..."
-    deb "Oh, I know!"
-    deb "Kiss me again and I'll show you a little trick!"
+    deb "Ну, давай посмотри..."
+    deb "Ох, я знаю!"
+    deb "Поцелуй меня ещё раз, и я покажу тебе небольшой трюк!"
     hide player
     show debbie 79 at Position(xpos=0.70, ypos=1.0) with dissolve
     pause
@@ -556,25 +556,25 @@ label kitchen_mom_kissing_practice:
     show player 227 at Position(xpos=0.30, ypos=1.0) with dissolve
     deb "..."
     show player 227c
-    player_name "Whoa!"
-    player_name "That thing you did with your tongue, that was so cool!"
+    player_name "Вау!"
+    player_name "То, что ты сделала своим языком, - это было так круто!"
     show player 227
     show debbie 75
-    deb "Hehe, yeah."
+    deb "Хехе, да."
     show debbie 73
-    deb "It's just a little something I picked up awhile back..."
+    deb "Этому я научилась достаточно давно..."
     show player 227c
     show debbie 72
-    player_name "Hmm, can I try it?"
+    player_name "Хмм, как мне это попробовать?"
     show player 227
     show debbie 73
-    deb "Oh... uh."
+    deb "Ох... ах."
     show player 227c
     show debbie 72
-    player_name "Please?"
-    show player 227c
+    player_name "Пожалуйста?"
+    show player 227
     show debbie 73
-    deb "Y-yeah... Sure!"
+    deb "Да... Конечно!"
     hide player
     show debbie 79 at Position(xpos=0.70, ypos=1.0) with dissolve
     pause
@@ -588,22 +588,22 @@ label kitchen_mom_kissing_practice:
     show player 227 at Position(xpos=0.30, ypos=1.0) with dissolve
     deb "..."
     show player 227c
-    player_name "How was that?!"
+    player_name "Как это было?!"
     show player 227
-    deb "Mmm..."
+    deb "Mмм..."
     show player 227c
     player_name "{b}[deb_name]{/b}?"
     show player 227
     show debbie 77
-    deb "Oh, sorry!"
+    deb "Ох, прости!"
     show debbie 75
-    deb "That was REALLY good, sweetie!"
-    deb "I mean, wow! You're gonna be quite the little heart breaker once you get out into the dating world!"
+    deb "Это было ОЧЕНЬ неплохо, милый!"
+    deb "То есть, вау! Ты будешь отличным обольстителем, как окунешься в мир свиданий!"
     show player 227c
     show debbie 76
-    player_name "Really? Thanks {b}[deb_name]{/b}!"
+    player_name "Правда? Спасибо {b}[deb_name]{/b}!"
     show player 227
-    deb "Mmmhmm."
+    deb "Mммхмм."
     hide player
     show debbie 79 at Position(xpos=0.70, ypos=1.0) with dissolve
     pause
@@ -617,50 +617,50 @@ label kitchen_mom_kissing_practice:
     show debbie 77
     pause
     show debbie 74
-    deb "Oh!"
-    deb "Oh my..."
+    deb "Oх!"
+    deb "Oх боже..."
     show player 230
     player_name "..."
     show player 232
-    player_name "Sorry, {b}[deb_name]{/b}."
-    player_name "I didn't mean to..."
+    player_name "Прости, {b}[deb_name]{/b}."
+    player_name "Я не хотел..."
     show player 231
     show debbie 75
-    deb "Hehe, it's okay, sweetie. It's perfectly understandable."
+    deb "Хехе, всё в порядке, милый. Я всё понимаю."
     show debbie 73
-    deb "We'd better take a break though."
+    deb "Нам лучше сделать перерыв."
     show player 232
     show debbie 72
-    player_name "... Yeah. O-okay."
-    player_name "Do you think, maybe, we could do this again sometime?"
+    player_name "... Да. Конечно."
+    player_name "Что думаешь, может, мы сделаем это снова?"
     show player 231
     deb "..."
     show player 232
-    player_name "You know... Just for practice?"
+    player_name "Ну знаешь, чтобы я попрактиковался?"
     show player 231
     show debbie 73
-    deb "I suppose that would be okay."
-    deb "Just to practice though!"
+    deb "Я думаю, что это не проблема."
+    deb "Но только ради практики!"
     show player 232
     show debbie 72
-    player_name "Yeah, of course!"
+    player_name "Да, конечно!"
     show player 231
     show debbie 73
-    deb "Alright. Feel free to ask me anytime."
+    deb "Отлично. Ты можешь попросить меня об этом в любое время."
     show player 232
     show debbie 72
-    player_name "Thanks {b}[deb_name]{/b}!"
+    player_name "Спасибо {b}[deb_name]{/b}!"
     show player 231
     show debbie 73
-    deb "No problem, {b}[firstname]{/b}."
+    deb "Никаких проблем, {b}[firstname]{/b}."
     show player 232
     show debbie 72
-    player_name "See ya!"
+    player_name "Увидимся!"
     hide debbie with dissolve
     show player 1 at Position(xpos=0.55, ypos=1.0) with dissolve
     player_name "..."
     show player 21f at Position (xpos=0.5, ypos=1.0) with dissolve
-    player_name "That was awesome!"
+    player_name "Это было прекрасно!"
     return
 
 label kitchen_mom_dishes:
@@ -680,44 +680,44 @@ label kitchen_mom_dishes:
     show debbie 117 at Position(xpos=1014)
     pause
     show debbie 119 at Position(xpos=1014)
-    deb "Oh, hey, sweetie!"
+    deb "Оу, эй, милый!"
     show debbie 120
     show player 14
-    player_name "Hey, {b}[deb_name]{/b}!"
+    player_name "Хэй, {b}[deb_name]{/b}!"
     show debbie 119
     show player 1
-    deb "You need something?"
-    deb "I'm just finishing up the dishes..."
+    deb "Тебе нужно что-то?"
+    deb "Я как раз домыла посуду..."
     show debbie 120
     return
 
 label kitchen_mom_dishes_yes:
     show debbie 118
     show player 14
-    player_name "Why don't you take a break for awhile?."
-    player_name "I'll dry the rest."
+    player_name "Почему бы тебе не передохнуть?."
+    player_name "Я протру остальное."
     show debbie 119
     show player 1
-    deb "That's very sweet but you don't have to do that."
+    deb "Это очень мило с твоей стороны, но ты не обязан."
     show debbie 118
     show player 14
-    player_name "Nah, it's fine. I'm bored anyways."
+    player_name "Всё в порядке. Я всё равно собирался сменить деятельность."
     show debbie 119
     show player 1
-    deb "Heh, well alright. If you're bored anyways..."
+    deb "Ах, но ладно. Раз ты так говоришь..."
     show player 272
     show debbie 62
-    deb "Just dry and store them away in the cupboard."
+    deb "Просто вытри и поставь их в шкаф."
     show player 273
     show debbie 61
-    player_name "Will do."
+    player_name "Сделаю."
     show debbie 63
     show player 272
-    deb "Thanks for helping out around here, {b}[firstname]{/b}."
+    deb "Спасибо за твою помощь, {b}[firstname]{/b}."
     show player 274
     show debbie 61
-    player_name "My pleasure, {b}[deb_name]{/b}."
-    show expression Cutscene("help_debbie_kitchen_cutscene", "I don't think {b}[deb_name]{/b} had ever had help with dishes before... \nShe told me her late husband never did any work around the house and my {b}Dad{/b} only really helped with yard work or broken appliances. \nShe stayed with me in the kitchen until I was finished and we had a nice long chat. \nIt was nice getting to know {b}[deb_name]{/b} better...") as cutscene with fade
+    player_name "Не за что, {b}[deb_name]{/b}."
+    show expression Cutscene("help_debbie_kitchen_cutscene", "Не думаю, что {b}[deb_name]{/b} кто-нибудь помогал с посудой раньше... \nОна сказала,что её бывший муж вообще ничего не делал по дому, а мой {b}отец{/b} помогал только в саду, или изредко что-то чинил. \nОна стояла со мной на кухне до тех пор, пока я не разложил всю посуду по местам, а после этого мы мило поговорили. \nБыло приятно узнать {b}[deb_name]{/b} по-лучше...") as cutscene with fade
     pause
     hide cutscene with dissolve
     return
@@ -725,6 +725,6 @@ label kitchen_mom_dishes_yes:
 label kitchen_mom_dishes_no:
     show player 14 at left
     show debbie 120 at Position(xpos=1014)
-    player_name "Okay. I'll come back later, then."
+    player_name "Окей. Тогда я зайду позже."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

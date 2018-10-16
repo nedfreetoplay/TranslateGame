@@ -7,45 +7,45 @@ label angelica_dialogue_ross_get_linens_pre:
 
 label angelica_dialogue_ross_get_linens:
     show player 2
-    player_name "Я делаю художественный проект для школы, и нам нужно белое постельное белье."
-    player_name "Моя подруга {b}Мия{/b} сказала, что вы, возможно, захотите сэкономить."
+    player_name "Хм, для школьного художественного проекта надо белую простыню."
+    player_name "Моя подруга {b}Мия{/b} говорила, что вы можете выручить."
     show player 1
     show ang 2
-    ang "Хм, {b}Мия{/b} отправила вас?"
-    ang "Она такая набожная молодая женщина."
-    ang "Полагаю, я мог бы дать вам некоторые из наших старых крещальных одежд. Они в любом случае изнашиваются..."
+    ang "Так тебя прислала, {b}Мия{/b}?"
+    ang "Она очень набожная девочка."
+    ang "I suppose I could give you some of our old Baptismal Robes. They're fraying anyways..."
     show player 2
     show ang 1
-    player_name "Это должно работать нормально! Огромное спасибо."
+    player_name "Было бы прекрасно! Большое спасибо."
     show player 1
     show ang 2
-    ang "Если вы хотите поблагодарить меня, начните показываться по воскресеньям."
+    ang "Если хочешь отблагодарить, то приходи по воскресеньям на службу."
     show player 11
     show ang 1
     player_name "..."
     show ang 2
-    ang "А теперь подожди, пока я иду и получаю их."
+    ang "Подожди меня, пока я соберу то что тебе надо."
     hide ang
     with dissolve
     show player 10
-    player_name "Да, хорошо, что было легко."
+    player_name "Уф, это было достаточно легко."
     show player 11
     player_name "..."
     show player 10
-    player_name "Я думал, что она захочет чего-то взамен..."
+    player_name "Я думал что она попросит что нибудь взамен..."
     show player 11
     pause
     show ang 40 at right with dissolve
     pause
     show ang 41
-    ang "Вот вам."
+    ang "Вот они."
     show ang 2
     show player 592
     with dissolve
-    ang "Скажите {b}Мия{/b} Я ожидаю увидеть ее раньше до следующего сеанса! Она давненько не давала признания."
+    ang "Передай {b}Мии{/b} что я её на следующую службу жду заранее! Она давно не исповедовалась."
     show player 593
     show ang 1
-    player_name "О-хорошо, я дам ей знать."
+    player_name "Х-хорошо, я ей передам."
     show player 592
     ang "Хмм!"
     hide ang
@@ -94,7 +94,7 @@ label angelica_dialogue_change_graveyard:
     show player 5
     show ang 2
     ang "Это вне предела."
-    ang "Хотя, она заперта и до сих пор надоедливые дети продолжают находить способы {b}пробраться через забор{/b}."
+    ang "Хотя проход на кладбище закрыт, но надоедливые дети пробираются туда через {b}дыру в заборе{/b}."
     show ang 1
     show player 12
     player_name "Но там похоронен мой отец.."

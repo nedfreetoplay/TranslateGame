@@ -10,38 +10,38 @@ label mia_dialogue_helen_route:
         show mial 1f at right
     show player 10 at left
     with dissolve
-    player_name "Привет, {b}Мия{/b}."
+    player_name "Привет, {b}Mia{/b}."
     show player 5
     show mia 12
-    mia "Ох... Привет, {b}[firstname]{/b}."
+    mia "Ох... привет, {b}[firstname]{/b}."
     show mia 8
     show player 10
     player_name "..."
     show player 11
     pause
     show player 10
-    player_name "Итак, как у тебя дела?"
+    player_name "Ну как у тебя дела?"
     show player 5
     show mia 12
-    mia "Мне все ещё немного грустно из-за того, что моя семья не вместе."
+    mia "Я все еще чувствую себя немного расстроеной из за моей семьи которая не вместе."
     show mia 46f
-    mia "Я скучаю по пробуждению и встречам с отцом каждое утро."
-    mia "И {b}мама{/b} в последнее время кажется более отстраненной."
+    mia "Я скучаю когда просыпаюсь и вижу своего отца каждое утро."
+    mia "И мою{b}Маму{/b} по-видимому более отдаленной в последнее время."
     show mia 45f
     show player 10
-    player_name "Хех..."
+    player_name "Хмм..."
     show player 12
-    player_name "Эй, хочешь сделать что-нибудь позже?"
+    player_name "Хэй, хочешь чем нибудь занятся позже?"
     show player 10
-    player_name "Скоро будет еще один тест. Хочешь заняться учёбой?"
+    player_name "Приближается еще одна викторина. Хочешь позаниматься?"
     show player 5
     show mia 46f
-    mia "Нет. Мне сейчас не хочется ничего делать."
+    mia "Нет. Мне ничего не хочется делать сейчас."
     show mia 45f
     show player 24
     player_name "..."
     show player 10
-    player_name "Хорошо, тогда я догоню тебя позже!"
+    player_name "Что ж, Тогда увидимся позже!"
     show player 5
     mia "..."
     hide player
@@ -66,32 +66,32 @@ label mia_dialogue_helen_change_news:
     mia "Что случилось?"
     show mia 7
     show player 14
-    player_name "Я разговаривала с твоей мамой. Я думаю, что достучался до нее!"
+    player_name "Я разговаривал с твоей мамой. Я думаю я достучался до неё!"
     show player 13
     show mia 10
-    mia "Ты сделал это?! Но как..."
+    mia "Тебе удалось?!Но как..."
     show mia 7
     show player 17
-    player_name "Я знаю, это длинная история..."
+    player_name "Я знаю, эта длинная история..."
     show player 14
     player_name "...Но все будет в порядке. Я обещаю!"
-    player_name "Мы поговорили, и она согласилась попробовать все изменить, чтобы они снова были вместе!"
+    player_name "Мы поговорили и она согласилась попытаться что то поменять так что может быть они снова будут вместе!"
     show player 13
     show mia 9
     mia "Это потрясающе!"
     show mia 7
     show player 14
-    player_name "Я думаю, она будет более снисходительна и к тебе..."
-    player_name "...Я чувствую, что она изменит свое отношение."
+    player_name "Я думаю что она будет более мягкой с тобой тоже..."
+    player_name "...Я чувствую что она изменит свое отношение."
     show player 13
     show mia 10
-    mia "Вау... Ты, должно быть, очень старался убедить её!"
+    mia "Вау... Ты должно быть действительно хорошо поработал что бы убедить её!"
     show mia 7
     show player 17
-    player_name "У меня есть пара трюков в рукаве. Ха-ха!"
+    player_name "У меня есть несколько трюков в рукавах. Ха ха!"
     show player 13
     show mia 10
-    mia "Я так счастлива! Спасибо тебе, {b}[firstname]{/b}!"
+    mia "Я так счастлива! Спасибо, {b}[firstname]{/b}!"
     show mia 7
     pause
     hide player
@@ -105,7 +105,7 @@ label mia_dialogue_helen_change_news:
     if player.location == L_school_scienceclassroom:
         show mial 1f
     with dissolve
-    mia "Тогда увидимся позже!"
+    mia "Увидимся позже, тогда!"
     show mia 7
     show player 21
     player_name "Пока."
@@ -120,23 +120,23 @@ label mia_dialogue_mia_bedroom_mia_end_intro:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Я так рада, что ты пришел."
+    mia "Я очень счастлива что ты пришел."
     show mia 7
     show player 14
-    player_name "Привет, {b}Мия{/b}."
+    player_name "Привет, {b}Mia{/b}."
     show player 13
     show mia 10
-    mia "Так ты хочешь болтаться?"
-    mia "Или ты здесь, чтобы попробовать мою новую методику обучения?"
+    mia "Ты хочешь потусоваться?"
+    mia "Или ты пришел сюда чтобы попробовать мою новую методику обучения?"
     show mia 7
     return
 
 label mia_dialogue_mia_bedroom_mia_end_study:
-    player_name "Хочешь...снова учиться голышом?"
+    player_name "Хочешь...заниматься сегодня голыми?"
     show player 13
     show mia 10
     mia "Да!"
-    mia "Сядь на кровать, пока я переоденусь."
+    mia "Сядь на кровать пока я переоденусь."
     hide player
     hide mia
     with dissolve
@@ -145,17 +145,17 @@ label mia_dialogue_mia_bedroom_mia_end_study:
 label mia_dialogue_mia_bedroom_mia_end_leave:
     show mia 8
     show player 10
-    player_name "С удовольствием... Но уже поздно..."
+    player_name "Я бы с радостью... но уже поздно..."
     show mia 12
     show player 5
-    mia "О, хорошо...."
-    mia "...Ты скоро вернешься?"
+    mia "Ох, хорошо..."
+    mia "...Ты же  еще вернешься?"
     show player 14
     show mia 8
-    player_name "Да. Посмотрим, что я смогу сделать!"
+    player_name "Да. Я посмотрю что смогу сделать!"
     show mia 12
     show player 1
-    mia "Спокойной ночи..."
+    mia "Спокойно ночи..."
     hide player
     hide mia
     with dissolve
@@ -166,55 +166,55 @@ label mia_dialogue_mia_bedroom_mia_tattoo_help:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Эй!"
-    mia "Я так рада, что ты смог прийти!"
+    mia "Привет!"
+    mia "Я так счастлива что ты смог прийти!"
     show mia 7
     show player 17
-    player_name "Все нормально. Просто мне показалось, что тебе нужно поговорить о чем-то важном."
+    player_name "Все хорошо. Просто показалость что у тебя что-то очень важное о чем ты хотела поговорить."
     show player 14
-    player_name "Ты хотела меня о чем-то спросить?"
+    player_name "Ты хочешь о чем-то меня спросить?"
     show player 13
     show mia 10
-    mia "Ну, это не так уж и важно..."
-    mia "...Я надеялся узнать твое мнение о чем-нибудь, и, может, ты мне поможешь."
+    mia "Ну, это не ТАК уж м важно..."
+    mia "...Я надеялась что смогу получить твое мнение кое о чем, и возможно ты смог бы мне помочь."
     show mia 7
     show player 10
-    player_name "Ох... Думаю, да. В чем заключается дело?"
+    player_name "Эмм... Думаю да. Что такое?"
     show player 11
     show mia 10
-    mia "Ты знаешь что-нибудь о татуировках?"
+    mia "Ты что не будь знаешь об татушках?"
     show mia 7
     show player 10
-    player_name "Татуировках?!"
+    player_name "Татушках?!"
     show player 12
-    player_name "Зачем? Ты думаешь о её нанесении?"
+    player_name "Почему? Ты захотела сделать одну?"
     show player 11
     show mia 12
-    mia "Я знаю, что это плохо..."
-    mia "...Но, я устала от того, что мне говорят, что делать!"
-    mia "Мне просто хочется что-то сделать... спонтанно и весело!"
-    mia "Не стесняться..."
+    mia "Я знаю это плохо..."
+    mia "...Но, Я устала от того что мне приказывают  что  делать!"
+    mia "Я прсто хочу сделать что то... спонтанно и повеселиться!"
+    mia "Чтобы почувствовать себя свободной..."
     show mia 8
     show player 10
-    player_name "Твоя мама не будет возражать?"
+    player_name "С твоя мама нормально к этому отнесется?"
     show player 5
     show mia 12
-    mia "Меня это больше не волнует."
+    mia "Мне уже все равно."
     show mia 8
     show player 11
     player_name "..."
     show player 14
-    player_name "Татуировки довольно крутые. Я просто не хочу, чтобы у тебя были неприятности."
+    player_name "Татушки это очень круто. Я просто не хочу что бы ты влипла в неприятности."
     show player 13
     show mia 12
-    mia "Ты собираешься мне помочь?"
+    mia "Ты мне поможешь?"
     show mia 8
     show player 14
     player_name "Конечно, но как?"
     show player 13
     show mia 10
-    mia "Я знаю, ты любишь рисовать в классе все время, и я видела твое искусство..."
-    mia "...Я надеялась, ты нарисуешь что-нибудь для моей татуировки!"
+    mia "Я знаю что тебе нравится рисовать разные штуки и ты их рисуешь в классе все время, и я видела твои рисунки..."
+    mia "...Я надеялась что ты смог бы нарисовать мою татушку!"
     show mia 7
     show player 22
     player_name "!!!" with hpunch
@@ -222,33 +222,33 @@ label mia_dialogue_mia_bedroom_mia_tattoo_help:
     player_name "Ты уверена?"
     show player 13 with dissolve
     show mia 10
-    mia "Да! У тебя хорошо получается."
+    mia "Да! Ты в этом очень хорош."
     show mia 7
     show player 21
-    player_name "Спасибо, но я даже не знаю, чего ты хочешь!"
+    player_name "Спасибо но я не знаю чего ты хочешь!"
     show player 13
     show mia 10
-    mia "Хм... Я хочу что-нибудь милое!"
+    mia "Хмм... Я хочу что то милое!"
     show mia 9
     mia "С красивыми цветами!"
     show mia 7
     show player 24
-    player_name "Что, если будет плохо, и ты в конечном итоге буедшь ненавидить её?"
+    player_name "Что если это будет плохо, и ты возненавидишь это?"
     show player 13
     show mia 10
-    mia "Я уверена, что все будет хорошо!"
+    mia "Я уверена что это будет отлично!"
     show mia 7
     show player 14
     player_name "Если ты так говоришь..."
     show player 13
     show mia 10
-    mia "Приходи ко мне, когда у тебя что-нибудь будет."
+    mia "Приходи ко мне когда у тебя что то будет."
     show mia 7
     show player 14
     player_name "Хорошо."
     show player 13
     show mia 10
-    mia "Мне нужно идти спать. Увидимся в школе!"
+    mia "Мне надо идти спать Увидимся в школе!"
     show mia 7
     show player 36 with dissolve
     player_name "Спокойной ночи!"
@@ -262,12 +262,12 @@ label mia_dialogue_mia_bedroom_mia_church_plan:
     show player 13 at left
     show mia 12 at right
     with dissolve
-    player_name "Привет, {b}Мия{/b}."
-    player_name "Думал подкрасться и увидеть тебя."
+    player_name "Привет, {b}Mia{/b}."
+    player_name "Мне удалось подкрасться и увидеть тебя"
     show player 5
     show mia 10
-    mia "Спасибо. Я ценю это."
-    mia "В чем дело?"
+    mia "Ой, спасибо. Мне очень приятно."
+    mia "Как дела?"
     show mia 7
     return
 
@@ -275,21 +275,21 @@ label mia_dialogue_mia_bedroom_intro:
     scene location_mia_bedroom_closeup
     show mia 10 at right
     show player 13 at left with dissolve
-    mia "Я так рада, что ты пришел!"
+    mia "Я очень счастлива что ты пришел!"
     show mia 7
     show player 21
-    player_name "Привет, {b}Мия{/b}!"
+    player_name "Привет, {b}Mia{/b}!"
     show player 29
-    player_name "Странное, пробирается в чужой дом ночью..."
+    player_name "чувствую себя немного странно, прокрадываясь в чужой дом ночью..."
     show mia 9
     show player 13
-    mia "Всё нормально! У нас не будет неприятностей..."
+    mia "Все нормально, мы не доставим проблем..."
     show mia 10
     show player 11
-    mia "...Мы просто должны {b}молчать{/b}!"
+    mia "...Мы просто должны {b}сидеть тихо{/b}!"
     show mia 7
     show player 17
-    player_name "Если ты так говоришь. Хаха."
+    player_name "Если ты так говоришь.Хаха."
     show mia 12
     show player 1
     return
@@ -300,14 +300,14 @@ label mia_dialogue_science_classroom_mia_strip_aftermath:
     show mia 12 at right
     show mial 1f at right
     with dissolve
-    mia "Привет, {b}[firstname]{/b}..."
+    mia "Приветик, {b}[firstname]{/b}..."
     show mia 8
     show player 10
-    player_name "Как поживаешь?"
+    player_name "Как ты?"
     show player 5
     show mia 12
-    mia "Я в порядке, но нам не стоит разговаривать."
-    mia "У меня и так достаточно неприятностей... Прости."
+    mia "Я хорошо, но нам вообще то не стоит разговаривать."
+    mia "У меня и так достаточно проблем.. Извини."
     show mia 8
     show player 24
     player_name "..."
@@ -326,70 +326,70 @@ label mia_dialogue_science_classroom_mia_consult:
     mia "{b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "Привет, {b}Мия{/b}!"
+    player_name "Привет, {b}Mia{/b}!"
     show mia 10
     show player 13
-    mia "Я хотела поблагодарить тебя за то, что пришли навестить меня той ночью..."
+    mia "Я хотела поблагодарить тебя за то что пришел ко мне той ночью..."
     show player 11
     mia "... Мне очень понравилось, но..."
     show mia 7
     player_name "..."
     show mia 8
     show player 10
-    player_name "Что-то не так?"
+    player_name "Что то не так?"
     show mia 12
     show player 11
-    mia "Моя мама начинает что-то подозревать."
+    mia "Ну, моя мама становится подозрительной."
     show mia 8
     show player 10
-    player_name "Меня?"
+    player_name "Из-за меня?"
     show mia 12
     show player 5
-    mia "Да, я думаю, она знает, что ты приходил."
+    mia "Да, Я думаю она знает что ты Приходил."
     show mia 8
     show player 10
-    player_name "Неужели это действительно большая проблема?"
+    player_name "Неужели это так ужасно?"
     show mia 12
     show player 5
-    mia "Она определенно не в порядке."
+    mia "Она определенно не может смериться с этим."
     show player 11
-    mia "Я имею в виду, может быть, если так или иначе ... ты попал на сторону моего отца? Я уверена, что он мог бы поговорить с ней."
+    mia "Я имею в виду, может быть если бы как то... если бы мой отец был на твоей стороне? Я уверена он бы мог поговорить с ней."
     show mia 8
     show player 10
     player_name "Твой отец? Но как?"
     show mia 7
-    player_name "Он кажется довольно строгим!"
+    player_name "Он выглядит очень строгим!"
     show mia 9
     show player 11
-    mia "Это не так, он очень мягкий..."
+    mia "Да ты что, он большой добряк..."
     show mia 10
     show player 1
-    mia "Он был действительно клевым, понимаешь?"
+    mia "Он может быть очень крутыс, ты знаешь?"
     show mia 7
     show player 14
-    player_name "Хорошо, так как я могу попасть на его хорошую сторону?"
+    player_name "Хорошо, и так как же я могу перетянуть его на свою сторону?"
     show mia 10
     show player 1
-    mia "Хм... Я не уверена..."
-    mia "Может быть, попытаться дать ему то, что он любит, как коробка пончиков!"
+    mia "Хмм... Я не уверена..."
+    mia "Возможно попытайся узнать что ему нравиться, как коробка с пончиками!"
     show mia 7
     show player 14
     player_name "Пончики?"
     show mia 9
     show player 1
-    mia "Ха-ха. Я знаю... Так типично. Но, он действительно любит их!"
+    mia "Ха ха. Я знаю... Так типично. Но, он действительно их очень любит!"
     show mia 8
     show player 14
-    player_name "У него есть любимый вид пончика?"
+    player_name "У него есть какие то любимые Пончики?"
     show mia 12
     show player 1
-    mia "О, я не совсем уверена..."
+    mia "Ох, Я не уверена..."
     show mia 7
     show player 14
-    player_name "Хорошо! Может быть, я могу узнать об этом у кого-нибудь."
+    player_name "Отлично! возможно я смогу выяснить и подарить ему что то."
     show mia 10
     show player 1
-    mia "Спасибо! Ты такой милый... Я уверена, что ему понравиться!"
+    mia "Спасибо! Ты такой милый... Я уверена ему понравится!"
     return
 
 label mia_dialogue_science_classroom_mia_parent_unblock:
@@ -401,67 +401,67 @@ label mia_dialogue_science_classroom_mia_parent_unblock:
     mia "{b}[firstname]{/b}!"
     show mia 10
     show player 11
-    mia "Ты не поверишь!"
+    mia "Я не могу в это поверить!"
     show player 14
     show mia 7
-    player_name "Да? Что случилось?"
+    player_name "Хм? Что случилось?"
     show player 1
     show mia 10
-    mia "Прошлой ночью, я слышала, как мой отец говорил о тебе с моей мамой!"
+    mia "Прошлой ночью, Я слышала что мой отец разговаривал о тебе с моей мамой!"
     show player 14
     show mia 7
-    player_name "Обо мне? Серьёзно?"
+    player_name "Обо мне? Серьезно?"
     show player 1
     show mia 9
     mia "Да!"
     show mia 10
-    mia "Он говорил, как важно получуть друзей в моём возрасте..."
-    mia "... он думает, что она должна позволить мне видеть тебя, так как ты хороший человек, и все..."
+    mia "Он говорил как важно заводить друзей в моем возрасте..."
+    mia "... Он подумал что надо дать ей возможность посмотреть на тебя, поскольку ты хороший человек и все..."
     show player 14
     show mia 7
-    player_name "Вау..."
-    player_name "Итак, твоя мама сейчас крута?"
+    player_name "Woa..."
+    player_name "Итак, твоя мама будет хорошо относится ко мне?!"
     show player 11
     show mia 10
-    mia "Ну, она не была слишком довольна идеей, это точно!"
+    mia "Ну, Она была не слишко удовоетворена этой идеей, это точно!"
     show player 1
     show mia 9
-    mia "Но, я думаю, это, возможно, немного сработало."
+    mia "Но, я думаю это немножко сработало"
     show player 17
     show mia 7
-    player_name "Ну хоть что-то."
+    player_name "Наверное это нечто."
     show player 13
     show mia 10
-    mia "Спасибо за разговор с моим отцом..."
+    mia "Спасибо что поговорил с моим отцом..."
     show player 14
     show mia 7
-    player_name "Это неважно, и твой папа действительно похож на классного парня!"
+    player_name "Это ерунда, и видно что твой отец оказался крутым мужиком, вообще-то!"
     show player 1
     show mia 10
-    mia "Да ... У него было больше слов в нашей жизни."
+    mia "Да... У него большое влияние на нашу жизнь."
     show player 14
     show mia 8
-    player_name "Во всяком случае, я должен вернуться к классу-"
+    player_name "Вообщем Мне нужно вернуться в класс-"
     show player 11
     show mia 12
-    mia "Подожди!! I..."
-    mia "Я хотела узнать твое мнение о кое чём."
+    mia "Подожди!! Я..."
+    mia "Я хотела узнать твое мнение о чем то."
     show player 14
     show mia 8
-    player_name "О чём именно?"
+    player_name "О чем то?"
     show player 11
     show mia 12
-    mia "Я действительно не чувствую себя комфортно говорить об этом здесь..."
+    mia "Я не чувствую себя спойкойно говоря об этом здесь..."
     show player 13
-    mia "Но, может быть, ты может зайдёшь ко мне сегодня вечером?"
+    mia "Но может быть... ты мог бы прийти сегодня вечером?"
     show player 14
     show mia 7
-    player_name "Мне бы хотелось!"
+    player_name "Я бы с радостью!"
     show player 1
     show mia 9
-    mia "Сладенький!"
+    mia "Мило!"
     show mia 10
-    mia "Тогда я буду ждать тебя дома."
+    mia "Я буду ждать тебя тогда дома."
     hide mia
     hide mial
     hide player
@@ -477,34 +477,34 @@ label mia_dialogue_science_classroom_mia_favor:
     mia "Доброе утро, {b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "Доброе утро, {b}Мия{/b}."
+    player_name "Доброе утро, {b}Mia{/b}."
     show player 13
     show mia 10
-    mia "Я надеюсь, что ты мог бы помочь мне с кое чем..."
+    mia "Я надеялась ты можешь мне помочь с кое чем... еще раз?"
     show mia 7
     show player 14
-    player_name "Конечно, {b}Мия{/b}. Я не против!"
+    player_name "Конечно, {b}Mia{/b}. Я не против!"
     show player 13
     show mia 10
-    mia "Я хочу, чтобы ты поработал над своей магией и заставил моего папу выйти на ужин с моей мамой и мной."
+    mia "Я хочу что бы ты применил свою магию и заставил моего отца приглосить мою маму и меня на ужин."
     mia "Он слушает тебя..."
     show mia 7
     show player 14
-    player_name "Ужин? Похоже, что твои родители снова на товарных условиях."
-    player_name "Я останавлюсь на его работе и посмотрю, что я могу сделать!"
+    player_name "Ужин? Звучит так как будто твои родители снова в хороших отношениях."
+    player_name "Я загляну к нему после его работы и и посмотрю что я смогу сделать!"
     show player 13
     show mia 12
-    mia "Я ценю твою помощь, {b}[firstname]{/b}. Я просто не знаю, что я сделаю с собой, если они не вернутся вместе."
+    mia "Я ценю твою помощь, {b}[firstname]{/b}. Я просто не знаю что я с собой сделаю если они снова не будут вместе."
     show mia 46f
-    mia "Я чувствую, что все это моя вина..."
+    mia "Мне кажется что это все моя вина..."
     show mia 45f
     show player 10
-    player_name "Ой, да ладно, {b}Миа{/b}... Ты не можешь так думать!"
+    player_name "Ох, Да ладно, {b}Mia{/b}... Ты не должна так думать!"
     show player 14
-    player_name "Не волнуйся, я отведу твоего отца к этому свиданию с ужином."
+    player_name "Не волнуйся, я доставлю твоего отца к этому ужину."
     show player 13
     show mia 46f
-    mia "Спасибо... Ты милый."
+    mia "Спасибо.. Ты прелесть."
     hide mia
     hide mial
     hide player
@@ -517,21 +517,21 @@ label mia_dialogue_science_classroom_mia_need_space:
     show mia 8 at right
     show mial 1f at right
     with dissolve
-    player_name "Эй, {b}Мия{/b}..."
-    player_name "Как твои дела?"
+    player_name "Привет, {b}Mia{/b}..."
+    player_name "Как дела?"
     show player 5
     show mia 12
-    mia "У меня всё хорошо."
+    mia "У меня все хорошо."
     show mia 8
     mia "..."
     show player 3 with dissolve
     player_name "..."
     show mia 12
-    mia "Я думаю, я просто хочу немного пространства прямо сейчас."
+    mia "Я хочу сейчас побыть одна."
     show mia 8
     show player 10 with dissolve
-    player_name "Хорошо..."
-    player_name "Я поговорю с тобой позже. Просто дай мне знать, если тебе что-то нужно, хотя."
+    player_name "Ладно..."
+    player_name "Я поговорю с тобой позже. Просто дай мне знать если тебе что не будь будет нужно, тем не менее."
     show player 5
     show mia 12
     mia "Спасибо, {b}[firstname]{/b}..."
@@ -547,18 +547,18 @@ label mia_dialogue_science_classroom_mia_church_plan:
     show mia 8 at right
     show mial 1f at right
     with dissolve
-    player_name "Привет, {b}Мия{/b}!"
-    player_name "Как твои дела?"
+    player_name "Привет, {b}Mia{/b}!"
+    player_name "Как дела?"
     show player 5
     show mia 12
-    mia "Я в порядке."
-    mia "Но я хочу, чтобы все могло вернуться к тому, как они были дома."
+    mia "У меня все хорошо."
+    mia "Но бы хотела что бы все вещи вернулись на свои места как было раньше дома."
     show mia 8
     show player 10
-    player_name "Прости..."
+    player_name "Извини..."
     show player 5
     show mia 12
-    mia "Есть что-то, о чем ты хотел поговорить?"
+    mia "Есть что то о чем ты бы хотел поговорить?"
     show mia 8
     return
 
@@ -569,13 +569,13 @@ label mia_dialogue_science_classroom_mia_urgent_help:
     show mial 1f at right
     with dissolve
     mia "Привет, {b}[firstname]{/b}!"
-    mia "Пожалуйста, {b}Остановись у моего дома сегодня позже{/b}, хорошо?"
+    mia "Пожалуйста {b}давай встретимся возле дома чуть позже{/b}, хорошо?"
     show mia 8
     show player 10
-    player_name "Хорошо."
+    player_name "Ладно."
     show player 5
     show mia 12
-    mia "Что-нибудь ещё нужно?"
+    mia "Тебе нужно что нибудь еще?"
     show mia 8
     return
 
@@ -585,19 +585,19 @@ label mia_dialogue_science_classroom_intro:
     show mia 7 at right
     show mial 1f at right
     with dissolve
-    player_name "Эй, {b}Мия{/b}!"
-    player_name "Как поживаешь?"
+    player_name "Хэй, {b}Mia{/b}!"
+    player_name "Как дела?"
     show player 13
     show mia 10
-    mia "У меня все в порядке."
+    mia "У меня все нормально."
     show mia 12
-    mia "Не с нетерпением жду следующего занятия."
+    mia "Действительно с нетерпением жду мой следующий урок."
     show mia 7
     show player 17
-    player_name "Да. Я слышу тебя."
+    player_name "Да. Я тебя понимаю."
     show player 13
     show mia 10
-    mia "Ты хочешь о чем-то поговорить?"
+    mia "Есть ли что то о чем бы ты хотел поговорить?"
     show mia 7
     return
 
@@ -609,34 +609,34 @@ label mia_dialogue_mias_house_entrance_mia_favor:
     mia "Доброе утро, {b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "Доброе утро, {b}Мия{/b}."
+    player_name "Доброе утречко, {b}Mia{/b}."
     show player 13
     show mia 10
-    mia "Я надеялась, что ты мне поможешь кое с чем...еще раз?"
+    mia "Я надеялась ты можешь мне помочь с кое чем... еще раз?"
     show mia 7
     show player 14
-    player_name "Конечно, {b}Мия{/b}. Я не возражаю!"
+    player_name "Конечно, {b}Mia{/b}. Я не против!"
     show player 13
     show mia 10
-    mia "Я хочу, чтобы ты использовала свою магию и пригласил моего отца на ужин со мной и моей мамой."
-    mia "Он прислушивается к тебе..."
+    mia "Я хочу что бы ты применил свою магию и заставил моего отца приглосить мою маму и меня на ужин."
+    mia "Он слушает тебя..."
     show mia 7
     show player 14
-    player_name "Ужин? Похоже, твои родители снова в хороших отношениях."
-    player_name "Я зайду к нему на работу и посмотрю, что можно сделать!"
+    player_name "Ужин? Звучит так как будто твои родители снова в хороших отношениях."
+    player_name "Я загляну к нему после его работы и и посмотрю что я смогу сделать!"
     show player 13
     show mia 12
-    mia "Я ценю твою помощь, {b}[firstname]{/b}. Я просто не знаю, что бы я сделала с собой, если бы они не сошлись."
+    mia "Я ценю твою помощь, {b}[firstname]{/b}. Я просто не знаю что я с собой сделаю если они снова не будут вместе."
     show mia 46f
-    mia "Я чувствую, что все это моя вина..."
+    mia "Мне кажется что это все моя вина..."
     show mia 45f
     show player 10
-    player_name "Да ладно, {b}Мия{/b}... Ты не можешь так думать!"
+    player_name "Ох, Да ладно, {b}Mia{/b}... Ты не должна так думать!"
     show player 14
-    player_name "Не волнуйся, я приглашу твоего отца на ужин."
+    player_name "Не волнуйся, я доставлю твоего отца к этому ужину."
     show player 13
     show mia 46f
-    mia "Благодаря... Ты такой милый."
+    mia "Спасибо.. Ты прелесть."
     hide mia
     hide player
     with dissolve
@@ -647,10 +647,10 @@ label mia_dialogue_mias_house_entrance_mia_helen_talk:
     show player 5 at left
     show mia 12 at right
     with dissolve
-    mia "Ты можешь поговорить с моей мамой? Она в {b}своей комнате наверху{/b}..."
+    mia "Можешь поговорить с моей мамой Она в {b}в своей комнате на 2-ом этаже{/b}..."
     show player 10
     show mia 8
-    player_name "Я попробую, {b}Мия{/b}."
+    player_name "я попытаюсь, {b}Mia{/b}."
     hide mia
     hide player
     with dissolve
@@ -661,12 +661,12 @@ label mia_dialogue_mias_house_entrance_mia_church_plan:
     show player 13 at left
     show mia 12 at right
     with dissolve
-    mia "Привет, {b}[firstname]{/b}."
+    mia "Приветик, {b}[firstname]{/b}."
     show player 5
     pause
     show player 10
     show mia 8
-    player_name "Привет, {b}Мия{/b}."
+    player_name "Привет, {b}Mia{/b}."
     show player 5
     show mia 12
     mia "Как дела?"
@@ -678,10 +678,10 @@ label mia_dialogue_mias_house_entrance_intro:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Привет, {b}[firstname]{/b}."
+    mia "Приветик, {b}[firstname]{/b}."
     show player 14
     show mia 7
-    player_name "Привет, {b}Мия{/b}."
+    player_name "Привет, {b}Mia{/b}."
     show player 13
     show mia 10
     mia "Как дела?"
@@ -693,142 +693,142 @@ label mia_dialogue_chat:
     show player 2
     player_name "Конечно!"
     show player 10
-    player_name "Ммм... Ты не обязана отвечать на этот вопрос, но..."
+    player_name "Эмм.. Ты не обязана на это отвечать, но..."
     show mia 8
-    player_name "Тебе не кажется странным, что твои родители не разрешают тебе приводить друзей?"
+    player_name "Тебе не кажется странном что твои родители не разрешают тебе заводить друзей?"
     show player 5
     mia "..."
     show mia 12
-    mia "Это просто... так оно и есть, с моей мамой."
+    mia "Просто.. так оно и есть с моей мамой."
     show mia 8
     show player 12
     player_name "И ты не возражаешь??"
     show player 11
     show mia 12
-    mia "Она просто защищает меня!"
-    mia "Я знаю, что она просто любит меня и хочет для меня самого лучшего..."
+    mia "Она просто обо мне беспокоится!"
+    mia "Я знаю она очень меня любит, и хочет только лучшего для меня..."
     show mia 8
     show player 12
-    player_name "Но тебе придется тайно встречаться с друзьями..."
+    player_name "Но ты можешь встречаться с друзьями в тайне..."
     show mia 12
     show player 5
-    mia "Я знаю... Но она ничего не поймет."
+    mia "Я знаю.. но она не поняла бы."
     show mia 8
     show player 24
-    player_name "Я вижу..."
+    player_name "Я вижу.."
     show player 21
-    player_name "До тех пор, пока ты счастлива?"
+    player_name "Лишь бы ты была счастлива?"
     show mia 9
     show player 13
-    mia "Да!"
+    mia "Ага!"
     return
 
 label mia_dialogue_talent_show_help:
     show player 10
-    player_name "Ты играешь на каких-нибудь инструментах или поёшь?"
+    player_name "Ты играешь на каком не будь иснтрументе или поешь?"
     show player 5
     show mia 9
-    mia "Да, я постоянно пою в церковном хоре!"
+    mia "Да я пою в хоре в церкве все время!"
     show mia 7
     show player 14
-    player_name "Ты? Потрясающе!"
-    player_name "Ты должна петь у {b}Мисс Девитт{/b} на шоу талантов!"
-    player_name "Нам действительно нужно больше добровольцев."
+    player_name "Ты? Круто!"
+    player_name "Ты должна песть в {b}Ms. Dewitt's{/b} шоу талантов!"
+    player_name "Нам нужно больше добровольцев."
     show player 13
     show mia 12
-    mia "Ох, ммм."
-    mia "Я бы с удовольствием, но не могу."
+    mia "Ох, эмм."
+    mia "Я хотела бы но я не могу."
     show mia 8
     show player 10
-    player_name "А? Почему нет?"
+    player_name "Хмм? Почему нет?"
     show player 5
     show mia 12
-    mia "Моя мама даже не пускает меня на шоу талантов, не говоря уже об участии."
+    mia "Моя мама даже не позволит мне участвовать на на шоу талантов."
     show mia 8
     show player 12
     player_name "Почему?"
     show player 5
     show mia 12
-    mia "Она не хочет, чтобы я слушал рок или рэп..."
-    mia "Она боится, что это затемнит мой юный разум или что-то в этом роде."
+    mia "Она не хочет что бы я слушала рок или рэп музыку..."
+    mia "Она боится что это осквернит мои молодые мозги или что то вроде этого."
     show mia 8
     show player 12
-    player_name "Вот отстой!"
+    player_name "Это дерьмово!"
     show player 5
     show mia 12
-    mia "Да. Прости."
+    mia "Да. Извини."
     show player 10
-    player_name "Все в порядке., {b}Мия{/b}. Спасибо в любом случае!"
+    player_name "Все в порядке, {b}Mia{/b}. Все равно спасибо!"
     return
 
 label mia_dialogue_parents:
     show player 14
-    player_name "Как поживают твои родители?"
+    player_name "И так, Как поживают твои родители?"
     show player 13
     show mia 10
-    mia "Заняты. Моя мама всегда в церкви, и папа всегда работает."
+    mia "Заняты. Моя мама всегда в церкви и мой папа всегда работает."
     show mia 12
-    mia "Наверное, так будет лучше."
+    mia "Вероятно это к лучшему."
     show mia 8
     show player 10
     player_name "Как так?"
     show player 11
     show mia 12
-    mia "Когда мои родители собираются вместе, они только спорят."
+    mia "Когда мои родители собираются вместе они все время только и ругаются."
     show player 5
     mia "Я так сильно это ненавижу."
-    mia "Хотел бы я, чтобы они ладили лучше, как раньше..."
+    mia "Я хотела бы что бы они побольше ладили, как раньше..."
     show mia 8
     show player 10
-    player_name "Я не знал, что это такое. Они казались нормальными."
+    player_name "Я не знал что такое происходит. Они казались в порядке."
     show player 5
     show mia 12
-    mia "Да, но моя мама, кажется, больше всего помешивает."
-    mia "Она очень тяжелая и не примет \"нет\" в качестве ответа."
-    mia "Так что {b}папа{/b} просто повторяет все, что она сейчас говорит..."
+    mia "Да, моя мама может подлить масло в огонь."
+    mia "Она очень жестокая и не принимает отказова."
+    mia "Так что {b}Папа{/b}просто делает что она скажет..."
     show mia 8
     show player 10
-    player_name "Это отстой."
+    player_name "Это отстойно."
     show player 5
     show mia 12
-    mia "Она даже заставляла меня заниматься изучением Библии в последнее время..."
-    mia "...И говорит, что я должна встречаться с парнем из церкви, когда буду готова."
+    mia "Она начала заставлять  меня учить библию с недавних пор..."
+    mia "...И сказала что я должна  встречаться с парнем только из церкви когда я буду готова."
     show mia 8
     show player 11
     player_name "..."
     show mia 12
-    mia "Я знаю, это... жутко."
+    mia "Я знаю,это.. странно."
     show mia 9
-    mia "Все равно! Давайте поговорим о чем-нибудь другом."
+    mia "Тем не менее! Давай поговорим о чем то другом."
     show mia 7
     show player 13
     return
 
 label mia_dialogue_mia_clues:
     show player 10
-    player_name "Где, ты сказала, я могу найти подсказки о местонахождении {b}Гарольда{/b}?"
+    player_name "Где ты сказала я смогу найти информацию о судьбе{b}Harold's{/b}?"
     show player 5
     show mia 12
-    mia "Начните с допроса его коллег в {b}полицейском участке{/b}..."
-    mia "...И найди {b}руководство{/b} вокруг его рабочего места."
+    mia "Начни опрашивать его коллег в {b}полицейском участке{/b}..."
+    mia "...и ищи {b}подсказки{/b} во круг его рабочего места."
     show mia 8
     show player 12
-    player_name "Полагаю, я могу поспрашивать, где он может быть..."
+    player_name "Наверно я смогу поспрашивать там поблизости что бы выяснить где он может быть..."
     show player 5
     show mia 12
-    mia "Спасибо тебе..."
+    mia "Спасибо..."
     return
 
 label mia_dialogue_mia_convince_harold:
     show player 10
-    player_name "Что я должен был сделать твоему отцу еще раз?"
+    player_name "Что я должен заставить твоего отца зделать снова?"
     show player 13
     show mia 10
-    mia "Я хочу, чтобы ты пригласил его на ужин со мной и моей матерью."
-    mia "Вы оба хорошо ладите вместе. Может быть, ты сможешь покрутить его руку, если потребуется."
+    mia "Я хочу что бы ты приглосил его на ужин с моей мамой и со мной."
+    mia "Вы оба очень хорошо ладите вместе. Может быть ты сможешь воспользоватся его помошью если понадобится."
     show mia 7
     show player 14
-    player_name "Конечно! Я догоню его в {b}полицейском участке{/b}."
+    player_name "Конечно! Я присоеденюсь к нему в {b}полицейском участке{/b}."
     show player 13
     show mia 10
     mia "Спасибо, {b}[firstname]{/b}."
@@ -836,31 +836,31 @@ label mia_dialogue_mia_convince_harold:
 
 label mia_dialogue_glasses:
     show player 12
-    player_name "Еще раз, что ты хочешь, чтобы я сделал с этими очками?"
+    player_name "Что ты хочешь что бы я сделал с этими очками снова"
     show player 5
     show mia 10
-    mia "Я надеялась, что ты сможешь подбросить их на работу моего отца."
+    mia "Ох, я надеялась ты сможешь их подбросить на работу моему отцу"
     show mia 7
     show player 14
-    player_name "Это верно... Я сейчас вспомнил."
-    player_name "Тогда я займусь этим делом!"
+    player_name "Тончно... Я вспомнил."
+    player_name "Я займусь этим, тогда!"
     return
 
 label mia_dialogue_donuts:
     show player 14 at left
     show mia 7 at right
-    player_name "Есть идеи, как мне узнать, какие пончики нравятся твоему отцу?"
+    player_name "Без понятия как я могу найти пончики которые нравятся твоему отцу?"
     show player 1
     show mia 10
-    mia "О, Эмм..."
-    mia "Может, поспрашивать на его работе?"
-    mia "Они любят есть там пончики..."
+    mia "Ох, эмммм..."
+    mia "Может быть поспрашиваешь его коллег возле его работа?"
+    mia "Они все там любят есть пончики..."
     show mia 7
     show player 17
-    player_name "Ха-ха, возможно ты права, это может сработать."
+    player_name "Ха ха может быть ты права, это может сработать."
     show mia 10
     show player 1
-    mia "Хочешь еще о чем-нибудь поговорить?"
+    mia "Хочешь еще о чем не будь поговорить?"
     show mia 7
     show player 1
     return
@@ -868,88 +868,88 @@ label mia_dialogue_donuts:
 label mia_dialogue_mia_draw_tattoo:
     show mia 7 at right
     show player 10 at left
-    player_name "О татуировке, которую ты хотела..."
+    player_name "Об тату арте который ты хотела..."
     show player 5
     show mia 10
-    mia "О! Она у тебя есть?!"
+    mia "Ох! Он у тебя?!"
     show mia 7
     show player 10
-    player_name "Нет, не сейчас."
-    player_name "Но, что ты хотела?"
+    player_name "Нет, еще нет."
+    player_name "Но,что ты хотела еще раз?"
     show player 5
     show mia 10
-    mia "Хмм... Что-то симпатичное и красочное!"
+    mia "Хмм... Что то милое и разноцветное!"
     show mia 7
     show player 17
-    player_name "Ха-ха, хорошо."
+    player_name "Ха ха, Понятно."
     show player 14
-    player_name "Посмотрим, что я смогу сделать."
+    player_name "Я посмотрю что я смогу сдлеать."
     show player 13
     show mia 9
-    mia "Огромное спасибо, {b}[firstname]{/b}."
+    mia "Большое спасибо, {b}[firstname]{/b}."
     return
 
 label mia_dialogue_mia_show_tattoo_fail:
     show mia 7 at right
     show player 2 at left
-    player_name "О татуировке, которую ты хотела..."
+    player_name "О тату рисунке что ты хотела..."
     show player 13
     show mia 10
-    mia "О! Она у тебя есть?!"
+    mia "Ох! он у тебя!"
     show mia 7
     show player 14
-    player_name "Да!"
+    player_name "Ага!"
     show player 239_240 with dissolve
-    player_name "Мне потребовалось время, чтобы сделать это..."
+    player_name "Мне потребовалось время что бы нарисовать его..."
     show player 386 with dissolve
-    player_name "Вот оно что!"
+    player_name "Вот оно!"
     show player 13
     show mia 32
     if player.location == L_school_scienceclassroom:
         show mial 1b
     with dissolve
-    mia "Хмм..."
+    mia "Хммм..."
     show player 10
-    player_name "Что-то не так?"
+    player_name "Что то не так?"
     show player 11
     show mia 33
-    mia "Ну, я надеялась на что-то другое."
+    mia "Ну, Я надеялась на что то другое."
     show mia 34
     show player 25
     player_name "Ох..."
     show player 24
     show mia 30
-    mia "Мне нравится!!"
+    mia "Мне нравится это!!"
     show mia 33
-    mia "Но может быть, ты нарисуешь что-то другое?"
+    mia "Но может быть ты можешь попробовать что то еще?"
     show mia 34
     show player 10
-    player_name "Например?"
+    player_name "Как что?"
     show player 5
     show mia 30
-    mia "Попробуйте что-то мило, что имеет больше цветов!"
+    mia "Попробуй что небудь симпотичное, с яркими цветами!"
     show mia 31
     show player 14
-    player_name "Хорошо, я попробую сделать что-нибудь другое..."
+    player_name "Понятно, Я постараюсь нарисовать что то еще..."
     show player 13
     show mia 30
-    mia "Огромное спасибо, {b}[firstname]{/b}."
+    mia "TСпасибо большое, {b}[firstname]{/b}."
     return
 
 label mia_dialogue_mia_show_tattoo_pass:
     show mia 7 at right
     show player 2 at left
-    player_name "О татуировке, которую ты хотела..."
+    player_name "О тату арте который ты хотела..."
     show player 13
     show mia 10
-    mia "О! Она у тебя есть?!"
+    mia "Ох! он у тебя?!"
     show mia 7
     show player 14
-    player_name "Да!"
+    player_name "Ага!"
     show player 239_240 with dissolve
-    player_name "Мне потребовалось время, чтобы сделать это..."
+    player_name "Мне потребовалось время что бы нарисовать его..."
     show player 386 with dissolve
-    player_name "Вот оно что!"
+    player_name "Вот оно!"
     show player 13
     show mia 29
     if player.location == L_school_scienceclassroom:
@@ -957,10 +957,10 @@ label mia_dialogue_mia_show_tattoo_pass:
     with dissolve
     mia "ВАУ!!!"
     show mia 30
-    mia "Мне это очень нравится!"
+    mia "Я просто влюбилась в неё!"
     show mia 31
     show player 17
-    player_name "Очень?"
+    player_name "Серьезно?"
     show player 18
     show mia 30
     mia "Да!"
@@ -968,10 +968,10 @@ label mia_dialogue_mia_show_tattoo_pass:
     mia "Это так красиво..."
     show mia 31
     show player 14
-    player_name "Круто! Я рад, что тебе понравилось."
+    player_name "Круто! Я рад что тебе понравилось."
     show player 13
     show mia 30
-    mia "Мы должны посетить {b}Sugar Tats{/b} и посмотрим, смогут ли они сделать это для меня."
+    mia "Нам нужно съездить в {b}Sugar Tats{/b} и увидеть если они смогут сделать это для меня."
     show mia 7
     if player.location == L_school_scienceclassroom:
         show mial 1f
@@ -980,22 +980,22 @@ label mia_dialogue_mia_show_tattoo_pass:
     player_name "Сейчас?!"
     show player 5
     show mia 9
-    mia "Не сейчас, глупо!"
+    mia "Не сейчас, дурачок!"
     show mia 10
-    mia "Как насчет {b}субботы{/b}?"
+    mia "Как насчет {b}Субботы{/b}?"
     show mia 7
     show player 10
-    player_name "Хорошо, встретимся там в {b}субботу{/b}."
+    player_name "Хорошо, Я встречу тебя там  в {b}Субботу{/b}."
     show player 5
     show mia 10
-    mia "Обещай, что встретишь меня там в {b}течение дня{/b}!"
+    mia "Пообещай что встретишь меня там {b}в течении дня{/b}!"
     show mia 7
     show player 14
     player_name "Я обещаю!"
     show player 13
     show mia 10
-    mia "Ладно, хорошо. Я не уверена, что смогу сделать это сама, ха-ха."
-    mia "Тогда увидимся."
+    mia "Хорошо отлично. Я не уверена что смогу это сделать в одиночку, ха ха."
+    mia "Увидимся тогда."
     hide player
     hide mia
     hide mial
@@ -1005,70 +1005,70 @@ label mia_dialogue_mia_show_tattoo_pass:
 label mia_dialogue_mia_get_tattoo:
     show mia 7 at right
     show player 12 at left
-    player_name "Насчет татуировки..."
+    player_name "Об татушке..."
     show player 5
     show mia 12
-    mia "Ты все еще придёшь?"
+    mia "Ты все ещё собираешся прийти?"
     show mia 8
     show player 14
-    player_name "Ну конечно!"
+    player_name "Конечно!"
     show player 10
-    player_name "Но когда ты хотела пойти?"
+    player_name "Но когда ты хочешь пойти?"
     show player 11
     show mia 12
     mia "Ты уже забыл?!"
     show mia 8
     show player 21
-    player_name "Думаю, в последнее время у меня много всего на уме..."
+    player_name "Я думаю у меня просто слишком много всего в голове..."
     show player 13
     show mia 9
-    mia "Все в порядке, ха-ха."
+    mia "Все хорошо, ха ха."
     show mia 10
-    mia "Мне нужно, чтобы ты встретилась со мной в {b}субботу{/b} в {b}тату-салоне{/b}, {b}в течение дня{/b}!"
+    mia "Мне нужно что бы ты меня встретил в {b}Субботу{/b} в {b}тату-салоне{/b}, {b}в течении дня{/b}!"
     show mia 7
     show player 14
-    player_name "Хорошо, я позабочусь, чтобы быть там с тобой."
+    player_name "Отлично, я обязательно буду там с тобой."
     show player 13
     show mia 10
-    mia "Огромное спасибо, {b}[firstname]{/b}."
+    mia "Большое спасибо, {b}[firstname]{/b}."
     return
 
 label mia_dialogue_church:
     show player 12
-    player_name "Когда твоя мама ходит в церковь?"
+    player_name "Когда твоя мама идет в церковь?"
     show player 5
     show mia 12
-    mia "В {b}выходные утром{/b}."
+    mia "На{b}выходных рано утром{/b}."
     show mia 8
     show player 34
-    player_name "Хмм..."
+    player_name "Хммм..."
     show player 14
     player_name "Хорошо, спасибо."
     show player 13
     show mia 12
-    mia "Что ты собираешься делать?!"
+    mia "Что ты собираешся делать?!"
     show mia 8
     show player 12
-    player_name "Я пока не совсем уверен, но я перезвоню, если найду способ."
+    player_name "Я не совсем уверен, но мы к этому еще вернемся."
     show player 13
     show mia 12
-    mia "Окей..."
+    mia "Хорошо..."
     return
 
 label mia_dialogue_art_sessions_intro:
     show player 10
-    player_name "Привет, ну... {b}Мисс Росс{/b} попросила меня поговорить с тобой."
+    player_name "Хэй, так ну ... {b}Miss Ross{/b} попросила меня что бы я поговорил с тобой."
     show player 11
     show mia 10
-    mia "Серьёзно?"
+    mia "Серьезно?"
     show player 10
     show mia 7
-    player_name "Да, она хочет, чтобы ты была моим партнером на некоторых частных художественных сессиях."
+    player_name "Да, Она хочет что бы ты была моим партнером для некоторых частных занятий."
     return
 
 label mia_dialogue_art_sessions_stat_pass:
     show player 10
-    player_name "Я бы очень хотела, чтобы ты пришел помочь, {b}Мия{/b}."
+    player_name "Я действительно хочу что бы ты  пришла помочь, {b}Mia{/b}."
     show player 5
     show mia 12
     mia "Ты бы хотел?"
@@ -1077,61 +1077,61 @@ label mia_dialogue_art_sessions_stat_pass:
     player_name "Полностью."
     show player 3
     show mia 8b
-    mia "Хмм..."
+    mia "Хммм.."
     show mia 9
-    mia "Окей!"
+    mia "Хорошо!"
     show player 13 with dissolve
     show mia 10
-    mia "Я приду за тобой, {b}[firstname]{/b}."
+    mia "Я прийду для тебя, {b}[firstname]{/b}."
     show mia 7
     show player 14
-    player_name "Мило! Спасибо, {b}Мия{/b}!"
+    player_name "Мило,спасибо {b}Mia{/b}!"
     show player 13
     show mia 9
-    mia "Хе-хе, никаких проблем."
+    mia "Хехе, без проблем."
     show mia 7
     show player 14
-    player_name "Так что, увидимся там?"
+    player_name "Что ж, Увидимся там?"
     show player 13
     show mia 10
-    mia "Держу пари!"
+    mia "Еще бы!"
     return
 
 label mia_dialogue_art_sessions_stat_fail:
-    player_name "[chr_warn]Она непреклонна, что это должна быть ты."
+    player_name "[chr_warn]Она довольна неприклонна она должна быть тобой."
     show player 11
     show mia 12
-    mia "[chr_warn]... Но я даже не очень хорошо разбираюсь в искусстве."
+    mia "[chr_warn]... Но я не очень хороша в арте."
     show player 10
     show mia 8
-    player_name "[chr_warn]Ты не можешь быть настолько плохой..."
+    player_name "[chr_warn]Ты не можешь быть настолько плоха..."
     show player 11
     show mia 12
-    mia "[chr_warn]Поверь мне, я действительно плоха!"
-    mia "[chr_warn]Ты должен найти кого-нибудь другого."
-    mia "[chr_warn]Кроме того, моя мама сказала бы \"нет\"."
+    mia "[chr_warn]Верь мне, Я очень плоха!"
+    mia "[chr_warn]Тебе нужно найти когото другого."
+    mia "[chr_warn]К тому же, моя мама просто скажет нет"
     show player 10
     show mia 8
-    player_name "[chr_warn]О, хорошо тогда."
+    player_name "[chr_warn]Ох, Хорошо тогда."
     return
 
 label mia_dialogue_homework_want_parents_back:
     show player 14
-    player_name "Что бы ты хотела поизучать вместе?"
+    player_name "Ты хочешь позаниматься вместе?"
     show player 13
     show mia 12
-    mia "Я не очень хорошо себя чувствую сейчас."
+    mia "Я не в настроении этим сейчас заниматься."
     show mia 8
     show player 10
     player_name "Хорошо..."
     show player 5
     show mia 12
-    mia "Прости."
-    mia "Я просто хочу, чтобы мои родители были снова вместе."
+    mia "Извини."
+    mia "Я просто хочу что бы мои родители снова были вместе."
     show mia 8
     show player 10
     player_name "Я знаю."
-    player_name "Просто дай мне знать, если тебе понадобится моя помощь."
+    player_name "Дай мне знать если тебе понадобится моя помощь."
     show player 5
     show mia 12
     mia "Спасибо, {b}[firstname]{/b}."
@@ -1140,84 +1140,84 @@ label mia_dialogue_homework_want_parents_back:
 
 label mia_dialogue_homework_intro:
     show player 14
-    player_name "Что ты хочешь поизучать вместе?"
+    player_name "Ты хочешь позаниматься вместе?"
     show player 13
     show mia 10
-    mia "Мы будем изучать вещи, связанные с последним {b}домашним заданием по французскому{/b}. Ты уже сдал это задание?"
+    mia "Мы будем заниматься этими вещами на последней {b}Французкой домашней работе{/b}. Ты уже отдал свое задание?"
     show mia 7
     return
 
 label mia_dialogue_homework_still_busy:
     show player 24
-    player_name "Нет. Я все еще работаю над этим."
+    player_name "Нет. Она еще в процессе."
     show player 13
     show mia 10
-    mia "Ну, как только ты это сделаешь, {b}заходи ко мне{/b}."
+    mia "Что ж как только ты её сделаешь, {b}подходи ко мне домой{/b}."
     hide mia
     hide mial
     with dissolve
     show player 5 with dissolve
-    player_name "( Мне нужно закончить {b}домашнее задание по французскому{/b}, так что я смогу заниматься с {b}Мия{/b}. )"
+    player_name "( Я должен постараться и закончить мою {b}Французкую домашку{/b}, и я смогу позаниматься вместе с {b}Mia{/b}. )"
     show player 4 with dissolve
     pause
-    player_name "( Интересно, почему она выбрала меня, чтобы помочь ей учиться. )"
-    player_name "( Обычно она учится с {b}Джуди{/b}, и она очень хорошо говорит по-французски... )"
-    player_name "( ...Я не знаю, как я могу ей помочь. )"
+    player_name "( Интересно почему она выбрала именно меня помочь с ее подготовкой. )"
+    player_name "( Она обычно занималась с {b}Judith{/b} и онаочешь хороша во французком... )"
+    player_name "( ...Я не уверен как я могу помочь ей. )"
     show player 13 with dissolve
-    player_name "( По крайней мере, мы потусуемся, и она очень милая... )"
+    player_name "( По крайней мере мы сможем потусить, и она действительно така милашка... )"
     hide player with dissolve
     return
 
 label mia_dialogue_homework_study:
     show player 14
-    player_name "Я сдал его не так давно."
+    player_name "Я вернулся совсем не давно."
     show player 13
     show mia 10
-    mia "Когда у тебя будет время, {b}подкрадывайся вечером ко мне в комнату{/b}, чтобы мы могли позаниматься."
+    mia "Когда у тебя будет время, {b}прокрадись в мою команту{/b} вечерком и тогда мы сможем позаниматься."
     show mia 7
     show player 17
-    player_name "Будет сделано!"
+    player_name "Сделаю!"
     show player 13
     return
 
 label mia_dialogue_study_repeat:
     show player 14
-    player_name "Ну конечно!"
+    player_name "Коенечно!"
     scene mia_bedroom_closeup
     show mia 16 zorder 1 at Position (xpos = 680, ypos = 574)
     show player 141 zorder 0 at Position (xpos = 250, ypos = 578)
     with dissolve
-    mia "Спасибо, что снова сюда пробрался."
+    mia "Спасибо что прокрался еще раз."
     show mia 13
     show player 142
-    player_name "Это не так сложно, когда твои родители прикованы к телевизору."
+    player_name "Это не слишком сложно когда твои предки приклеены к ТВ."
     show player 143
     show mia 16
-    mia "Да, это единственное, что не дает им кричать друг на друга."
-    mia "Им нравится смотреть повторы."
-    mia "Я иногда смотрю с ними, когда делаю домашнюю работу."
+    mia "Да, эта единственная вешь что удерживает их от криков на друг друга."
+    mia "Они очень любят смотреть повторы."
+    mia "Я иногда смотрю вместе с ними когда когда я закончила свою домашку."
     show mia 22
-    mia "Большую часть времени я остаюсь здесь... Здесь тише."
+    mia "Чаще всего я отстаюсь здесь... здесь спокойнее."
     show mia 14
     show player 146
-    player_name "Это отстой, что твои родители не ладят."
+    player_name "Это отстойно что твои родители не ладят."
     show player 141
     show mia 18
     mia "...Да."
-    mia "Возможно, они вернуться к тому, как это было раньше."
+    mia "Может быть все вернется в порядок как прежде."
     show mia 14
     pause
     show mia 16
-    mia "Тебе лучше уйти, пока мои родители тебя не заметили."
+    mia "Тебе лучше уйти до того как мои родители заметят тебя."
     show mia 13
     show player 142
-    player_name "Я зайду позже, хорошо?"
+    player_name "Я снова зайду, хорошо?"
     show player 141
     show mia 15
-    mia "Отлично! Спокойной ночи {b}[firstname]{/b}!"
+    mia "Отлично! Спокойной Ночи {b}[firstname]{/b}!"
     show mia 13
     show player 142
-    player_name "Спокойной ночи, {b}Мия{/b}."
+    player_name "Спкойоной ночи, {b}Mia{/b}."
     hide player
     hide mia
     with dissolve
@@ -1226,36 +1226,36 @@ label mia_dialogue_study_repeat:
 label mia_dialogue_study_first:
     show mia 7
     show player 21
-    player_name "Думаю, нам надо заниматься?"
+    player_name "Я думаю нам нужно позаниматься?"
     show mia 9
     show player 13
-    mia "Ну конечно!"
+    mia "Конечно!"
     show mia 10
-    mia "Тогда давайте сделаем это."
+    mia "Давай сделаем это, тогда."
     show player 11
-    mia "Давай я соберу все учебники и переложу на {b}кровать{/b}?"
+    mia "Дай мне достать все учебники и подготовить их на {b}моей кравати{/b}?"
     show mia 7
     show player 21
-    player_name "Ох... Окей!"
+    player_name "Эм... хорошо!"
     return
 
 label mia_dialogue_study_want_parents_back:
     show player 12
-    player_name "Ты хочешь учиться вместе?"
+    player_name "Хочешь позаниматься вместе?"
     show player 5
     show mia 12
-    mia "Я не очень хорошо себя чувствую сейчас."
+    mia "Я не очень хорошо себя чувствую что бы заниматься этим в данный момент"
     show mia 8
     show player 10
     player_name "Хорошо..."
     show player 5
     show mia 12
-    mia "Прости."
-    mia "Я просто хочу, чтобы мои родители были снова вместе."
+    mia "Извини."
+    mia "Я просто хочу чтобы мои родители снова были вместе."
     show mia 8
     show player 10
     player_name "Я знаю."
-    player_name "Просто дай мне знать, если тебе понадобится моя помощь."
+    player_name "Только дай мне знать если тебе понадобится моя помощь."
     show player 5
     show mia 12
     mia "Спасибо, {b}[firstname]{/b}."
@@ -1265,25 +1265,25 @@ label mia_dialogue_study_want_parents_back:
 label mia_dialogue_mias_bedroom_leave:
     show mia 8
     show player 10
-    player_name "С удовольствием... Но уже поздно..."
+    player_name "Я бы с удовольствие... но уже поздно..."
     show mia 12
     show player 5
-    mia "О, хорошо..."
+    mia "Ох, хорошо..."
     mia "...Ты скоро вернешься?"
     show player 14
     show mia 8
-    player_name "Да. Посмотрим, что я смогу сделать!"
+    player_name "Да. Я посмотрю что я смогу сделать!"
     show mia 12
     show player 1
-    mia "Спокойная ночь..."
+    mia "Спокойной Ночи..."
     return
 
 label mia_dialogue_science_classroom_leave:
     show player 10
-    player_name "Вообще-то, мне лучше вернуться в класс."
+    player_name "Вообще-то, я бы лучше вернулся в класс."
     show player 5
     show mia 12
-    mia "О, хорошо... Тогда поговорим с тобой позже!"
+    mia "ох, хорошо... поговорими с тобой попозже тогда!"
     show mia 8
     show player 14
     player_name "Увидимся!"
@@ -1291,10 +1291,10 @@ label mia_dialogue_science_classroom_leave:
 
 label mia_dialogue_mias_house_entrance_leave:
     show player 10
-    player_name "Вообще-то, я помню, что мне нужно было кое-что сделать."
+    player_name "Вообще-то, Я вспомнил что у меня было что то что я должен был сделать."
     show player 5
     show mia 12
-    mia "О, хорошо... Тогда поговорим с тобой позже!"
+    mia "ох, хорошо... оговорими с тобой попозже тогда!"
     show mia 8
     show player 14
     player_name "Увидимся!"

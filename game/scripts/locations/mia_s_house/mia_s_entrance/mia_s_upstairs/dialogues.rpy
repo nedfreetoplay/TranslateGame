@@ -3,36 +3,36 @@ label mias_upstairs_mia_parent_unblock:
     show player 1 at left
     show helen 2 at right
     with dissolve
-    helen "What are you doing?"
+    helen "Что ты здесь делаешь?"
     show helen 1
     show player 22
     player_name "!!!" with vpunch
     show helen 1
     show player 10
-    player_name "I, err-"
+    player_name "Я, эээ-"
     show player 5
     show helen 2
-    helen "Are you trying to see {b}Mia{/b}?"
+    helen "Ты пытаешься подсмотреть за {b}Мией{/b}?"
     show player 10
     show helen 1
-    player_name "But, I didn't mean-"
+    player_name "Но, я могу объясни-"
     show player 5
     show helen 2
-    helen "You have no business here, young man."
+    helen "Тебя здесь не должно быть, юноша."
     show helen 3
-    helen "Stay away from my daughter. Understood?"
+    helen "Держись подальше от моей дочери. Ясно?"
     show player 10
     show helen 1
-    player_name "Yes, ma'am..."
+    player_name "Да, мэм..."
     return
 
 label mias_upstairs_mia_midnight_help:
     scene mia_house_upstairs_night_b
     show player 11 with dissolve
-    "*Muffled voices*"
+    "*приглушенные звуки*"
     show player 30
-    player_name "Huh?"
-    player_name "( I hear voices coming from that {b}room on the left{/b}... )"
+    player_name "А?"
+    player_name "( Звуки доносятся из {b}комнаты слева{/b}... )"
     hide player with dissolve
     return
 
@@ -40,10 +40,10 @@ label mias_upstairs_mia_unexpected_visit:
     label helen_baton_replay:
         scene mia_house_upstairs_b
     show player 30 with dissolve
-    player_name "Huh?"
+    player_name "А?"
     show player 10
-    player_name "( I hear voices coming from {b}Helen's{/b} bedroom... )"
-    player_name "( ...{b}Mia{/b} must be in there with her mom. )"
+    player_name "( Звуки доносятся из спальни {b}Хелен{/b}... )"
+    player_name "( ...{b}Мия{/b} должно быть там вместе с мамой. )"
     hide player with dissolve
     if not store._in_replay == None:
         jump helen_baton_replay_1
@@ -59,49 +59,49 @@ label mias_upstairs_helen_aftersex_mia_suspicious:
     mia "{b}[firstname]{/b}?"
     show mia 44f
     show player 29 with dissolve
-    player_name "Oh... Uh... Hi!"
+    player_name "Ой... Ёй... Привет!"
     show player 3
     show mia 43f
-    mia "I didn't know you were here."
+    mia "Я и не знала что ты здесь."
     show mia 44f
     show player 12 with dissolve
-    player_name "Oh..."
+    player_name "Ох..."
     show player 11
     show mia 43f
-    mia "And what were you doing in my mom's bedroom?"
+    mia "А что ты делал в маминой спальне?"
     show mia 44f
     show player 10
-    player_name "Ummm... Yeah... She..."
-    player_name "...Just wanted to have a word with me about...uhhh...bible study stuff."
+    player_name "Эммм... Да вот... Она..."
+    player_name "...Она просто хотела поговорить со мной о...ээээм...библейских текстах."
     show player 5
     show mia 43f
-    mia "Really? Since when did you start taking an interest in church?"
+    mia "Серьёзно? А с чего это ты всем этим заинтересовался?"
     show mia 44f
     show player 29 with dissolve
-    player_name "Oh... Uh... Yeah. I've been getting more involved a little while back."
-    player_name "Hey! Want to hang out? I just finished...talking...with your mom."
+    player_name "Эмм... Ну... Вот так. Я только вот недавно в это всё втянулся."
+    player_name "Эй! Хочешь потусоваться вместе? Я вот только закончил...говорить...с твоей мамой."
     show player 3
     show mia 46f
-    mia "I don't really feel like it."
-    mia "I think I'm just going to sit in my room for a bit."
+    mia "Мне не особо хочется."
+    mia "Мне сейчас хочется просто посидеть в своей комнате."
     show mia 45f
     show player 29
-    player_name "Okay..."
-    player_name "I guess I'll head back home then."
+    player_name "Окей..."
+    player_name "Я тогда домой пойду."
     show player 3
     show mia 46f
-    mia "Sounds good."
+    mia "Да, давай."
     hide mia
     show player 24
     with dissolve
-    player_name "...Bye..."
+    player_name "...Пока..."
     hide player with dissolve
     return
 
 label helens_locked_room_block:
     scene expression game.timer.image("mia_house_upstairs{}_b")
-    player_name "( The door is locked. )"
+    player_name "( Дверь заперта. )"
     if M_mia.is_state(S_mia_midnight_help):
-        player_name "( I have to find a {b}key{/b}... )"
+        player_name "( Мне нужно найти {b}ключ{/b}... )"
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -2,24 +2,24 @@ label latinas_dialogue_shower:
     scene location_school_lockershowers_closeup
     show player 57 at left with dissolve
     show latinas 1 at right with dissolve
-    lopez "Hey! What are you doing in here?"
+    lopez "Хэй! Что ты здесь делаешь?"
     show player 58 at left
     show latinas 1 at right
-    player_name "Umm... Just trying to take a shower?"
+    player_name "Эмм... Просто пытаюсь принять душ?"
     show latinas 2 at right
     show player 59 at left
-    lopez "Listen, boy. This is our turf, so go take a walk elsewhere!"
+    lopez "Слушай, парень. Эта наша территория, так что иди погуляй где-то еще!"
     show latinas 3 at right
-    martinez "Wait, {b}Lopez{/b}!"
-    martinez "Yo, I think this guy's the one people have been talking about!"
+    martinez "Подожди, {b}Lopez{/b}!"
+    martinez "Йоу, Я думаю это тот парень о котором говорили люди!"
     show latinas 2 at right
-    lopez "What?! No way..."
-    lopez "You telling me this guy's packing a {b}huge dick{/b}?"
+    lopez "Что?! Не может быть..."
+    lopez "Ты хочешь сказать что у этого парня {b}Огромным членом{/b}?"
     show latinas 3 at right
-    martinez "Alright boy! Show us what you got down there, and you can get in!"
+    martinez "Хорошо парень! Покажи нам что там у тебя внизу, и ты можешь его вытащить!"
     show latinas 1 at right
     show player 60 at left
-    player_name "Uhh... I think I'll pass. I'll just shower at home then-"
+    player_name "Эммм... я думаю я откажусь.Я просто приму дущ дома тогда-"
     show latinas 4 at right
     window hide
     pause
@@ -29,16 +29,16 @@ label latinas_dialogue_shower:
     pause
     player_name "..."
     show player 62 at left
-    martinez "There you go!"
+    martinez "Вот видишь!"
     show latinas 6 at right
-    lopez "...That's what you call {b}big{/b}?"
+    lopez "...Вот что ты называла{b}большим{/b}?"
     show latinas 7 at right
     show player 63 at left
-    martinez "You soft?!..."
-    martinez "...He needs a little excitement..."
-    martinez "...Hmm..."
+    martinez "Ты вялый?!..."
+    martinez "...Его нужно немного возбудить..."
+    martinez "...Хмм..."
     show latinas 8 at right
-    martinez "...This should do the trick!"
+    martinez "...Это должно сработать!"
     show latinas 9 at right
     window hide
     pause
@@ -47,14 +47,14 @@ label latinas_dialogue_shower:
     window hide
     pause
     show latinas 11 at right
-    lopez "Oh my god, puta!"
-    martinez "Chill, everyone's seen 'em at school already! Haha!"
+    lopez "О мой бог puta(шлюха)!"
+    martinez "Расслабься, все уже видели его в школе! Хаха!"
     show latinas 12 at right
-    lopez "Yo, it's not doing anything!"
+    lopez "Йоу, такое врядли!"
     show latinas 13 at right
-    martinez "Maybe he's into guys?"
+    martinez "Возможно ему нравитесь вы девченки?"
     show latinas 14 at right
-    lopez "Here, I know what will work!"
+    lopez "Здесь я знаю что сработает!"
     show latinas 15 at right
     window hide
     pause
@@ -62,7 +62,7 @@ label latinas_dialogue_shower:
     window hide
     pause
     show player 65 at left
-    player_name "...Oh... No..."
+    player_name "...Ох... нет..."
     show player 65 at left
     window hide
     pause
@@ -71,33 +71,33 @@ label latinas_dialogue_shower:
     pause
     show latinas 16 at right
     show player 67 at left
-    lopez "Oh, shit!"
-    lopez "{b}Annie{/b}'s coming!!"
+    lopez "Ох, дермо!"
+    lopez "{b}Annie{/b}'пришла!!"
     show latinas 17 at right
     show player 68 at left
     show annie 1
     ann "..."
     show annie 3
-    ann "What's going on here??"
+    ann "Что тут вообще происходит??"
     show player 69 at left
     show annie 1
-    player_name "I was just trying to-"
+    player_name "Я просто пытался-"
     show player 68 at left
     show annie 3
-    ann "Expose yourself inappropriately?"
+    ann "Выставить себя неподобающе?"
     show annie 4
-    ann "{b}AGAIN{/b}!?"
+    ann "{b}СНОВА{/b}!?"
     show player 69 at left
     show annie 6
-    player_name "No, that's not-"
+    player_name "Нет, это нет-"
     show player 68 at left
     show annie 5
-    ann "I don't want to hear your pathetic excuses!"
-    ann "My orders are to bring in repeated offenders to the {b}Office{/b}!"
+    ann "Я не хочу слышать твои жалкие отговорки!"
+    ann "Мне было приказано привести нарушителей в{b}Кабинет{/b}!"
     show annie 7
-    ann "Come with me, {b}NOW{/b}!!!"
+    ann "Иди со мной, {b}СЕЙЧАС{/b}!!!"
     show annie 8f
-    ann "...and you two, get out of here before I send you both to detention!!!"
+    ann "...и вы двое,убирайтесь отсюда пока я вас обоих не задержала!!!"
     hide latinas 17 at right
     hide player 68 at left
     hide annie 8f
@@ -109,13 +109,13 @@ label latinas_dialogue_leave:
     show player 57 at left
     show latinas 1 at right
     with dissolve
-    lopez "Hey! You here to get us in trouble again?"
+    lopez "Хэй! Ты опять здесь чтобы доставить нам неприятности?"
     show player 58 at left
     show latinas 1 at right
-    player_name "Umm... Just trying to take a shower?"
+    player_name "Эмм... Только пытаюсь принять душ?"
     show player 59 at left
     show latinas 3 at right
-    martinez "Get out of here, yo!"
+    martinez "Вали от сюда, йо!"
     show latinas 1 at right
     player_name "..."
     return

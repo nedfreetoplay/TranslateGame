@@ -4,48 +4,48 @@ label beth_dialogue_pre:
     show xtra 27 zorder 2 at center
     show player 1 zorder 3 at left
     with dissolve
-    beth "Здравствуйте, Мистер!"
+    beth "Привет, мистер!"
     show player 14
     show beth 1
     player_name "Привет."
     show player 1
     show beth 2
-    beth "Разглядываешь, чтобы купить некоторые сладкие дыры?"
+    beth "Хотите купить сладких пончиков, не так ли?"
     show beth 1
     return
 
 label beth_dialogue_do_not_know:
     show player 14
-    player_name "Хм... Я не уверен, что мне нужно купить еще."
+    player_name "Хмм... Я еще не уверен, что мне это нужно купить."
     show player 1
     show beth 2
-    beth "Вы не знаете?"
+    beth "Не знаете?"
     show player 14
     show beth 1
-    player_name "Ну, я покупаю эти для кого-то в качестве подарка, но я не уверен, что он любит."
+    player_name "Ну, я покупаю это в подарок, но не знаю, что нравится."
     show player 1
     show beth 2
-    beth "Я не могу помочь, если вы не знаете, что нравится!"
+    beth "Я не смогу тебе помочь, если ты не знаешь, чего хочешь!"
     show player 14
     show beth 1
-    player_name "Я вернусь позже, когда я узнаю начинку."
+    player_name "Я вернусь позже, когда узнаю."
     return
 
 label beth_dialogue_want_donuts:
     show player 14
-    player_name "Я хотел бы купить маленькую коробку, пожалуйста."
+    player_name "Я бы хотел купить маленькую коробочку, пожалуйста."
     show player 1
     show beth 2
-    beth "Хорошо!"
-    beth "Какой глазури и Топпинг бы вы хотели нанести?"
+    beth "Конечно!"
+    beth "Какую глазурь и начинку вы бы хотели?"
     return
 
 label beth_dialogue_leave:
     show player 14
-    player_name "Я в порядке, спасибо!"
-    player_name "Возможно, в другой раз..."
+    player_name "Хорошо, спасибо!"
+    player_name "Возможно в другой раз..."
     show player 1
     show beth 2
-    beth "Конечно, увидимся!"
+    beth "Конечно, пока!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

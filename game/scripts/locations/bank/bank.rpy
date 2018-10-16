@@ -8,16 +8,16 @@ label bank_dialogue:
 label bank_teller_dialogue:
     call expression game.dialog_select("bank_liu_start")
     menu:
-        "Check my account.":
+        "Прверить свой счёт.":
             call expression game.dialog_select("bank_liu_account_info")
             menu:
-                "More information.":
+                "Подробная информация.":
                     call expression game.dialog_select("bank_liu_more_info")
-                "Thanks, I have to go.":
+                "Спасибо, мне нужно идти.":
 
                     call expression game.dialog_select("bank_liu_gtg")
-        "Chat.":
+        "Поговорить.":
 
             call expression game.dialog_select("bank_liu_chat")
     $ game.main()
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+# Translation group: https://vk.com/summertimesagarus

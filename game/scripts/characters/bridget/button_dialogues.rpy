@@ -4,15 +4,15 @@ label coach_bridget_dialogue_office_intro:
     show coach 3 at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "Что ты здесь делаешь??"
+    bri "Что ты здесь делаешь?"
     show player 32
     show coach 7
-    player_name "Извините, Мэм!!!"
-    player_name "Я только спросить!"
+    player_name "Простите, мэм!!!"
+    player_name "У меня просто есть вопросы!"
     show player 31
     show coach 3
-    bri "Спросить?!"
-    bri "Что именно?"
+    bri "Вопросы?!"
+    bri "Какие?"
     show coach 7
     return
 
@@ -22,38 +22,38 @@ label coach_bridget_dialogue_courtyard_intro:
     show coach 3 at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "Тебе лучше тренировать свою задницу в {b}Тренажерном зале{/b}, или я засуну ногу в твою задницу!!"
+    bri "Лучше тренируй свою задницу в {b}Тренажерном зале{/b}, или я засуну свою ногу в нее !!"
     show player 32
     show coach 7
     player_name "Да, мэм!!!"
     show player 31
     show coach 3
-    bri "Есть вопросы?!"
+    bri "Еще есть вопросы?!"
     show coach 7
     return
 
 label coach_bridget_dialogue_training_advice:
     show player 10
     show coach 1
-    player_name "Я... Ну, где я должен тренироваться?"
+    player_name "... Хорошо, где я должен тренироваться?"
     show coach 7
     show player 5
     bri "..."
     show player 22
     show coach 3
-    bri "Я только что сказал тебе!"
+    bri "Я только что тебе сказала!"
     show coach 4
     bri "В {b}Тренажерном зале{/b}!!!"
     show player 10
     show coach 7
-    player_name "Но... Что именно нужно тренировать?"
+    player_name "Но... Что я должен тренировать?"
     show player 11
     show coach 3
-    bri "Вы должны работать над вашей {b}прочностью{/b} и {b}ловкостью{/b}, если вы хотите сделать это!"
-    bri "Вы будете участвовать в гонке {b}110m с препятствиями{/b}, чтобы квалифицировать эту {b}школу{/b} и вашу команду в {b}чемпионате штата{/b}!"
+    bri "Ты должен работать над своими {b}силой{/b} и {b}ловкостью{/b}!"
+    bri "Тыдолжен пройти {b}бег 110м с пепятствиями{/b} чтобы квалифицироваться в {b}школе{/b} и твою команду в {b}чемпионате штата{/b}!"
     show player 10
     show coach 7
-    player_name "То есть... Много препятствий."
+    player_name "Это... Большая нагрузка."
     show player 23
     show coach 3
     bri "...И тебе лучше не подводить меня!"
@@ -68,13 +68,13 @@ label coach_bridget_dialogue_training_advice:
 label coach_bridget_dialogue_leave:
     show player 10
     show coach 1
-    player_name "И... Я забыл."
+    player_name "Я... Я забыл."
     show player 11
     show coach 3
     bri "Забыл? Ты самый грустный кусок мяса, что я когда-либо видела!"
     show player 22
     show coach 4
-    bri "Теперь убирайся отсюда и возьмись за {b}РАБОТУ{/b}!!"
+    bri "А теперь выметайся отсюда и приступай к {b}РАБОТЕ{/b}!!"
     show player 32
     show coach 7
     player_name "Да, мэм!!!"

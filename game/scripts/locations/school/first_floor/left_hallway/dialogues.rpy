@@ -2,62 +2,62 @@ label left_hallway_judith_changing:
     scene lefthall_c
     show player 2 at left with dissolve
     show judith 6 at right with dissolve
-    player_name "Hey, {b}Judith{/b}..."
+    player_name "Хей, {b}Judith{/b}..."
     show player 11 at left
     player_name "..."
     show player 10 at left
-    player_name "Is everything all right?"
+    player_name "Все в порядке?"
     show player 5 at left
     show judith 3 at right
-    jud "Oh, hey, {b}[firstname]{/b}..."
-    jud "I'm just not feeling too well; I might just go home."
+    jud "Оу, хей, {b}[firstname]{/b}..."
+    jud "Мне не очень хорошо; Наверное, нужно пойти домой."
     show player 10 at left
     show judith 1 at right
-    player_name "You're not coming to the Athletics class?"
+    player_name "Не пойдешь на физ-ру?"
     show player 5 at left
     show judith 2 at right
-    jud "Well..."
-    jud "...I just..."
+    jud "Ну..."
+    jud "...Просто..."
     show judith 3 at right
-    jud "... I can't go in the guy's Locker Room."
+    jud "... Я не могу пойти в мужскую раздевалку."
     show player 10 at left
     show judith 1 at right
-    player_name "... The guy's Locker Room?"
-    player_name "Why would you need to go in the guy's Locker Room?"
+    player_name "... Мужскую раздевалку?"
+    player_name "Почему ты должна туда идти?"
     show player 5 at left
     show judith 3 at right
-    jud "You mean nobody told you?"
+    jud "Тебе не сказали?"
     show judith 1 at right
     show player 10 at left
-    player_name "... No?"
+    player_name "... Нет?"
     show player 5 at left
     show judith 3 at right
-    jud "A pipe burst in the girls locker and it's closed for repairs..."
+    jud "Трубу прорвало, и женскую раздевалку закрыли на ремонт..."
     show judith 2 at right
-    jud "We're sharing the boys Locker Room now."
+    jud "И теперь мы в одной раздевалке с мальчиками."
     show judith 1 at right
     show player 10 at left
-    player_name "For real?!"
+    player_name "Серьезно?!"
     show player 5 at left
     show judith 3 at right
-    jud "I don't really feel comfortable about it, like the other girls."
+    jud "Мне не очень комфортно, не так как остальным девочкам."
     show judith 6 at right
     show player 35 at left
-    player_name "Well..."
+    player_name "Ну..."
     show player 10 at left
     show judith 1 at right
-    player_name "The class is starting soon, so there's probably not that many people left in there anyway?"
+    player_name "Урок же уже скоро начнется, так что в раздевалке, наверное, осталось не так много людей?"
     show player 1 at left
     show judith 5 at right
-    jud "Yeah, I guess you're right..."
+    jud "Да, наверное ты прав..."
     show player 2 at left
     show judith 4 at right
-    player_name "I can go in with you, to make sure you're okay..."
+    player_name "Я пойду с тобой, чтобы убедиться, что всё в порядке..."
     show player 33 at left
-    player_name "...And I won't look!"
+    player_name "...И я не буду смотреть!"
     show player 13 at left
     show judith 5 at right
-    jud "Okay... I'll follow you, then."
+    jud "Окей... тогда я буду прямо за тобой."
     hide player 13 at left with dissolve
     hide judith 5 at left with dissolve
     return
@@ -68,67 +68,67 @@ label left_hallway_latinos_bashing:
     show martinez 20 at Position (xpos=625)
     show latinas 19 at right
     with dissolve
-    lopez "Just look at those nasty-ass saggy tits!"
+    lopez "Ты только глянь на эти отвисшие сиськи!"
     show latinas 18 at right
     show judith 7 at left
     jud "..."
     show judith 8 at left
     show martinez 21
-    martinez "She's probably too poor to afford a bra..."
+    martinez "Она, видно, настолько бедная, что не может позволить себе даже лифчик..."
     show martinez 20
     show latinas 18 at right
     show judith 7 at left
-    jud "It's not like that!!"
+    jud "Всё не так!!"
     show judith 10 at left
     show latinas 19
-    lopez "You think you're gonna get the boys attention showing your tits around like that?"
+    lopez "Думаешь, что если вот так светить сиськами - ты сможешь получить мужское внимание?"
     show latinas 18 at right
     show judith 7 at left
-    jud "My breasts are sensitive!! It hurts when I wear a bra..."
-    jud "I'm just more comfortable like this!!"
+    jud "У меня очень чувствительная грудь!! Мне больно, когда я ношу лифчик..."
+    jud "Без него мне намного комфортнее!!"
     show judith 10 at left
     show latinas 19
-    lopez "Haha!"
+    lopez "Хаха!"
     show latinas 18
     show judith 9 at left
     show martinez 21
-    martinez "Yo, you better not hang around here no more..."
+    martinez "Йоу, лучше тебе больше тут не появляться..."
     show martinez 22 with dissolve
-    martinez "PUTA! Did you just hear? This is our turf, so get out!"
+    martinez "PUTA! Ты меня услышала? Это наша точка, вали отсюда!"
     show martinez 20 with dissolve
     show latinas 18 at right
     show player 12 at Position( xpos = 290, ypos = 768)
     hide judith 9
     show judith 9 at left
     with dissolve
-    player_name "What's going on here?!"
+    player_name "Что здесь происходит?!"
     show player 114
-    jud "{b}*Sobbing*{/b}"
+    jud "{b}*Рыдает*{/b}"
     hide combo 7 at left
     show player 90 at Position( xpos = 290, ypos = 768)
     show judith 9 at left
     show martinez 21
-    martinez "You defending this ugly bitch now??"
+    martinez "Ты защищаешь эту уродливую сучку??"
     show martinez 20
     show latinas 19 at right
-    lopez "Keep walking white boy!"
+    lopez "Иди мимо, снежок!"
     show latinas 18 at right
     show player 113
-    player_name "Are you okay {b}Judith{/b}?"
+    player_name "Ты в порядке {b}Judith{/b}?"
     hide judith
     show player 90 at left
     with dissolve
     show martinez 21
-    martinez "What's the matter, white boy, you not gonna run after your bitch?"
+    martinez "Что такое, белоснежка, не побежишь за своей сучкой?"
     show martinez 20
     show latinas 18 at right
     show player 12 at left
-    player_name "You didn't have to do this..."
+    player_name "Тебе не нужно было этого делать..."
     show martinez 22 with dissolve
-    martinez "We'll do whatever the fuck we want!"
+    martinez "Мы делаем всё, что нам, блять, захочется!"
     show martinez 20 with dissolve
     show latinas 19
-    lopez "Haha! See ya!"
+    lopez "Хаха! Увидимся!"
     hide player
     hide latinas
     hide martinez
@@ -140,16 +140,16 @@ label left_hallway_judith_missing:
     show player 11 with dissolve
     player_name "..."
     show player 10
-    player_name "...Where's {b}Judith{/b}?"
-    player_name "( She usually hangs out in this hallway. )"
+    player_name "...Где {b}Judith{/b}?"
+    player_name "( Она же обычно в коридоре. )"
     show player 34
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 35
-    player_name "( I can {b}hear{/b} something... )"
+    player_name "( Я {b}что-то{/b} слышу... )"
     show player 10
-    player_name "( Is that someone... Sobbing? )"
+    player_name "( Кто-то плачет... ? )"
     show player 12
-    player_name "( It's like a crying voice coming from the {b}girls locker room{/b}... )"
+    player_name "( Это же из {b}женской раздевалки{/b}... )"
     hide player 12 with dissolve
     return
 
@@ -159,40 +159,40 @@ label left_hallway_martinez_book_search:
     show lopez 18 at right
     show player 10 at left
     with dissolve
-    player_name "Hey, {b}Martinez{/b}?"
+    player_name "Хей, {b}Martinez{/b}?"
     show player 5
     show martinez 22b
-    martinez "...What do you want, Culo?"
+    martinez "...Чего ты хочешь, Culo?"
     show martinez 20b
     show lopez 19
-    lopez "Yeah! What do you want?"
+    lopez "Да! Чего тебе надо?"
     show lopez 18
     show player 10
-    player_name "Uhh, I heard you had a book that's overdue from the library."
+    player_name "Ухх, я слышал, что ты не вернул книгу в библиотеке."
     show player 5
     show martinez 21b
-    martinez "What, are you stalking me or something, White boy?"
+    martinez "Ты что, следишь за мной, белый парень?"
     show martinez 20b
     show player 10
-    player_name "Huh? No, the librarian sent me!"
+    player_name "Ха? нет, меня послала библиотекарша!"
     show player 5
     show lopez 19
-    lopez "So, you're just the librarians little bitch?"
+    lopez "Так ты, значит, сучка библиотекарши?"
     show lopez 18
     show martinez 21b
-    martinez "Haha!"
+    martinez "Хаха!"
     show martinez 20b
     show player 12
-    player_name "What? No, she ordered a book for me and asked if I could talk to you guys in return."
+    player_name "Что? Нет, она просто заказала для меня книгу, но взамен попросила меня поговорить с вами."
     show player 5
     show martinez 22b
-    martinez "Whatever, bitch! We ain't got time for this..."
+    martinez "Да пофиг! У нас нет на это времени..."
     show martinez 21b
-    martinez "C'mon, {b}Lopez{/b}. We gotta get ready for gym class."
+    martinez "Д'вай, {b}Lopez{/b}. Мы уже должны быть в спортзале."
     show martinez 20b
     show lopez 19
-    lopez "Sure thing, {b}Martinez{/b}. Later, Culo!"
-    lopez "Hahaha!"
+    lopez "И правда, {b}Martinez{/b}. Ещё увидимся, Culo!"
+    lopez "Хахаха!"
     hide lopez
     show martinez 23
     with dissolve
@@ -203,11 +203,11 @@ label left_hallway_martinez_book_search:
     player_name "!!!"
     hide martinez with dissolve
     show player 12
-    player_name "I bet that's it in her backpack!"
+    player_name "Я уверен, что она в его портфеле!"
     show player 30
-    player_name "I should try and {b}grab it while they are showering{/b}. They probably wouldn't even realize it's gone."
+    player_name "Нужно попытаться стащить её, {b}пока они будут в душе{/b}. Они, наверное, даже не заметят."
     show player 33
-    player_name "I just have to be sneaky..."
+    player_name "Нужно просто быть аккуратнее..."
     hide player with dissolve
     return
 
@@ -229,20 +229,20 @@ label left_hallway_cult_discovery:
     player_name "They went in the utility closet?"
     show player 90
     show erik 5
-    eri "Why would they go in there?"
+    eri "Зачем им туда?"
     show player 35
     show erik 1
-    player_name "The better question is: How could they all fit in there?"
-    player_name "It must lead somewhere else..."
+    player_name "Но более важный вопрос: как они там помещаются?"
+    player_name "Наверное, там есть проход куда-то ещё..."
     show player 34
     show erik 5
-    eri "Can we leave now?"
+    eri "Может мы уже уйдем?"
     show player 12
     show erik 1
-    player_name "Let's just stick to our original plan, and look around."
+    player_name "Давай просто придерживаться плана. И не забывай оглядываться по сторонам"
     show player 1
     show erik 3
-    eri "Okay..."
+    eri "Окей..."
     hide player 1 with dissolve
     hide erik 3 with dissolve
     return
@@ -263,29 +263,29 @@ label left_hallway_school_sneak_mission:
     player_name "They went into the utility closet?"
     show player 90
     show erik 53
-    eri "Why would they go in there?"
+    eri "Зачем им туда?"
     show erik 52
     show player 35
-    player_name "It doesn't make sense."
-    player_name "They couldn't all fit in there!"
+    player_name "Это бессмысленно."
+    player_name "Они не могут влезть туда все вместе!"
     show player 34
     show erik 53
-    eri "You think maybe there's a secret tunnel or something?"
+    eri "Думаешь, там секретный тоннель или типа того?"
     show erik 52
     show player 10
-    player_name "Hmm, I dunno. Maybe?"
+    player_name "Хмм, не знаю. Может и да..."
     show player 5
     show erik 53
-    eri "This is really creeping me out."
-    eri "Can we leave now?"
+    eri "Это меня правда пугает."
+    eri "Можем мы уже уйти?"
     show erik 52
     show player 12
-    player_name "Hold on. We still have a mission to complete."
+    player_name "Подожди. Мы всё ещё должны выполнить нашу миссию."
     show player 5
     show erik 50
     eri "..."
     show player 12
-    player_name "C'mon, let's head up to {b}Principal Smith's office{/b} on the {b}third floor{/b}."
+    player_name "Давай, пойдем в офис {b}Principal Smith{/b} на {b}третьем этаже{/b}."
     hide player
     hide erik
     with dissolve
@@ -300,11 +300,11 @@ label door14_locked_dialogue:
 label left_hallway_roxxy_lockerroom_event:
     scene expression game.timer.image("lefthall{}")
     show player 34 with dissolve
-    player_name "Hmm?"
-    player_name "( There are voices coming from the {b}girls locker room{/b}! )"
-    player_name "( It's supposed to be off limits... )"
+    player_name "Хмм?"
+    player_name "( Из {b}женской раздевалки{/b} доносятся голоса! )"
+    player_name "( Но она же закрыта... )"
     show player 4 at Position (xoffset=6) with dissolve
-    player_name "( ... I wonder what's going on? )"
+    player_name "( ... Интересно, что там происходит? )"
     hide player with dissolve
     return
 
@@ -315,26 +315,26 @@ label left_hallway_roxxy_shower_event:
     with dissolve
     player_name "{b}Erik{/b}?"
     show erik 61
-    player_name "Where are all your clothes?"
+    player_name "Где твоя одежда?"
     show jersey 5
     show erik 63
-    eri "Hey, {b}[firstname]{/b}..."
-    eri "I was just in the {b}locker room{/b} changing, when {b}Roxxy{/b} and her friends came in..."
+    eri "Хей, {b}[firstname]{/b}..."
+    eri "Я переодевался в {b}раздевалке{/b}, когда {b}Roxxy{/b} зашла со своими подружками..."
     show erik 62
-    eri "... They kicked me out."
+    eri "... Они выпнули меня."
     show erik 61
     show jersey 10
-    player_name "So your clothes are still in there?"
+    player_name "А твоя одежда осталась там?"
     show jersey 5
     show erik 62
-    eri "... Yeah."
+    eri "... Ага."
     show erik 61
     show jersey 12
-    player_name "C'mon man, I'll go with you."
-    player_name "We'll grab your clothes and then I need to hit the shower."
+    player_name "Да ладно тебе, эх, я пойду с тобой."
+    player_name "Мы возьмем твою одежду, а мне нужно в душ."
     show jersey 5
     show erik 62
-    eri "O-okay..."
+    eri "О-окей..."
     hide player
     hide erik
     with dissolve

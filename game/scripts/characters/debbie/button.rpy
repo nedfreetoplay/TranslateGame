@@ -25,7 +25,7 @@ label mom_button_dialogue:
         if M_mom.is_set("revealing") and player.location == L_home_kitchen:
             call expression game.dialog_select("debbie_dialogue_mom_revealing_kitchen_pre")
             menu:
-                "Пощупать задницу":
+                "Feel Ass":
                     if M_mom.is_set("sex available"):
                         label mom_kitchen_replay:
                             call expression game.dialog_select("debbie_dialogue_mom_revealing_feel_ass_sex_pre")
@@ -36,7 +36,7 @@ label mom_button_dialogue:
 
                         call expression game.dialog_select("debbie_dialogue_mom_revealing_feel_ass_no_sex")
                         jump expression game.dialog_select("debbie_dialogue_options")
-                "Поговорить":
+                "Talk":
 
                     call expression game.dialog_select("debbie_dialogue_mom_revealing_talk")
                     jump expression game.dialog_select("debbie_dialogue_options")
@@ -47,25 +47,25 @@ label mom_button_dialogue:
 
             call expression game.dialog_select("debbie_dialogue_mom_not_revealing")
         menu debbie_dialogue_options:
-            "Спросить об {b}Отце{/b}." if M_mom.is_set("dad question"):
+            "Ask about {b}Dad{/b}." if M_mom.is_set("dad question"):
                 $ M_mom.set("dad question", False)
                 call expression game.dialog_select("debbie_dialogue_ask_about_dad")
                 jump expression game.dialog_select("debbie_dialogue_options")
 
-            "Спросить о денежных проблемах." if M_mom.is_set("money question"):
+            "Ask about money problems." if M_mom.is_set("money question"):
                 $ M_mom.set("money question", False)
                 call expression game.dialog_select("debbie_dialogue_ask_about_money_problems")
                 jump expression game.dialog_select("debbie_dialogue_options")
 
-            "Спросить о мужчинах в костюмах." if M_mom.is_set("bad guys question"):
+            "Ask about the men in suits." if M_mom.is_set("bad guys question"):
                 $ M_mom.set("bad guys question", False)
                 call expression game.dialog_select("debbie_dialogue_ask_about_men_in_suits")
                 jump expression game.dialog_select("debbie_dialogue_options")
 
-            "Краска." if M_dewitt.is_state([S_dewitt_ask_deb_paint, S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
+            "Paint." if M_dewitt.is_state([S_dewitt_ask_deb_paint, S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
                 call expression game.dialog_select("debbie_dialogue_paint")
                 $ M_dewitt.trigger(T_dewitt_diane_find_paint)
-            "Помочь {b}[deb_name]{/b} по дому.":
+            "Help {b}[deb_name]{/b} around the house.":
 
                 if M_mom.is_state([S_mom_fill_mower, S_mom_mow_lawn]):
                     call expression game.dialog_select("debbie_dialogue_help_mow_lawn")
@@ -93,7 +93,7 @@ label mom_button_dialogue:
                 show player 1
                 jump expression game.dialog_select("debbie_dialogue_options")
 
-            "Нанести лосьон." if M_mom.is_set("lotion fun"):
+            "Apply lotion." if M_mom.is_set("lotion fun"):
                 if M_mom.is_set("sex available") and player.location == L_home_kitchen:
                     call expression game.dialog_select("debbie_dialogue_lotion_fun_had_sex")
                 else:
@@ -103,11 +103,11 @@ label mom_button_dialogue:
                 $ M_mom.set("fetch lotion", True)
 
 
-            "За покупками." if M_mom.is_state(S_mom_hang_out_return) and player.location == L_home_kitchen:
+            "Shopping" if M_mom.is_state(S_mom_hang_out_return) and player.location == L_home_kitchen:
                 call expression game.dialog_select("debbie_dialogue_shopping")
                 $ M_mom.trigger(T_mom_hang_out_accept)
 
-            "Принять душ." if M_mom.is_set("sex available"):
+            "Shower." if M_mom.is_set("sex available"):
                 if player.location == L_home_basement:
                     call expression game.dialog_select("debbie_dialogue_shower_basement")
 
@@ -115,7 +115,7 @@ label mom_button_dialogue:
                     call expression game.dialog_select("debbie_dialogue_shower_kitchen")
                 jump expression game.dialog_select("mom_shower_question")
 
-            "Заняться сексом в её комнате." if M_mom.is_set("sex available"):
+            "Sex in your room." if M_mom.is_set("sex available"):
                 if player.location == L_home_basement:
                     call expression game.dialog_select("debbie_dialogue_sex_in_debbies_room_basement")
 
@@ -124,19 +124,19 @@ label mom_button_dialogue:
                 call expression game.dialog_select("debbie_dialogue_sex_in_debbies_room_after")
                 jump expression game.dialog_select("mom_sex")
 
-            "Заняться сексом в своей комнате." if M_mom.is_set("sex available") and not M_mom.is_set("room sneak"):
+            "Sex in my room." if M_mom.is_set("sex available") and not M_mom.is_set("room sneak"):
                 call expression game.dialog_select("debbie_dialogue_sex_in_my_room")
                 $ M_mom.set("room sneak", True)
 
-            "Потусоваться в машине." if M_mom.is_set("sex available"):
+            "Hang out in the car." if M_mom.is_set("sex available"):
                 call expression game.dialog_select("debbie_dialogue_sex_in_car")
                 jump expression game.dialog_select("debbie_car_sex")
 
-            "Посмотреть кино." if M_mom.is_set("sex available") and not M_mom.is_set("movie night"):
+            "Watch a Movie." if M_mom.is_set("sex available") and not M_mom.is_set("movie night"):
                 call expression game.dialog_select("debbie_dialogue_watch_movie")
                 $ M_mom.set("movie night", True)
 
-            "Прачечная." if M_mom.is_set("basement sex"):
+            "Laundry." if M_mom.is_set("basement sex"):
                 if player.location == L_home_basement:
                     label mom_basement_replay:
                         if not store._in_replay == None:
@@ -161,22 +161,24 @@ label mom_button_dialogue:
                     call expression game.dialog_select("debbie_dialogue_laundry_sex_kitchen")
                     jump expression game.dialog_select("basement_mom_sex")
 
-            "Поцелуи." if M_mom.is_state(S_mom_kissing_practice) and player.location == L_home_kitchen:
+            "Kissing" if M_mom.is_state(S_mom_kissing_practice) and player.location == L_home_kitchen:
                 call expression game.dialog_select("debbie_dialogue_kiss")
                 menu:
-                    "Ты можешь научить меня?":
+                    "Can you teach me?":
                         call expression game.dialog_select("debbie_dialogue_kiss_teach")
                         if player.stats.chr() >= 5:
                             jump expression game.dialog_select("mom_kissing_practice")
                         else:
+
                             call expression game.dialog_select("debbie_dialogue_kiss_teach_stat_fail")
-                    "Уйти":
+                    "Nothing":
+
                         call expression game.dialog_select("debbie_dialogue_kiss_leave")
 
-            "Практиковать поцелуй" if M_mom.is_set("practice kissing") and player.location == L_home_kitchen:
+            "Practice Kissing" if M_mom.is_set("practice kissing") and player.location == L_home_kitchen:
                 call expression game.dialog_select("debbie_dialogue_kiss_practice")
                 $ game.timer.tick()
-            "Уйти.":
+            "Nevermind.":
 
                 call expression game.dialog_select("debbie_dialogue_leave")
     hide player

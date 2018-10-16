@@ -13,70 +13,70 @@ label pushups_minigame_win:
     $ renpy.pause(1, hard = True)
 
     if M_roxxy.is_state(S_roxxy_do_pushups):
-        dex "{b}*Gasp*{/b} Eugh..."
+        dex "{b}*Кхм*{/b} Ого..."
         show dexter 42b
         show coach 2f
-        bri "You alright, {b}Dexter{/b}?"
-        bri "You don't look so good..."
+        bri "Ты в порядке, {b}Dexter{/b}?"
+        bri "Ты выглядишь не очень хорошо..."
         show coach 1f
         hide dexter
         show player 106
-        dex "{b}*Gaahhh*{/b}!!!" with hpunch
+        dex "{b}*Кхм*{/b}!!!" with hpunch
         show coach 6f with dissolve
         dex "..."
-        bri "... Dexter?"
+        bri "... Декстер?"
         dex "..."
         show coach 2 with dissolve
-        bri "It looks like {b}[firstname]{/b} is the winner!"
+        bri "Похоже {b}[firstname]{/b} Победил!"
         show coach 1
         show erik 4 at right with dissolve
-        eri "That was awesome, dude!"
-        eri "You destroyed him!"
+        eri "Это было потрясающе, чувак!"
+        eri "Ты уничтожил его!"
         show erik 1
         dex "..."
         show player 108f
-        player_name "... Is he alright?"
+        player_name "... С ним все хорошо?"
         show player 109f
         show erik 50
         eri "..."
         show coach 2
-        bri "Psh, he'll be fine."
-        bri "You know, {b}[firstname]{/b} you should really come try out for the basketball team."
+        bri "Шшш, он будет в порядке."
+        bri "Знаешь, {b}[firstname]{/b} тебе стоит попробовать себя в баскетбольной команде."
         show coach 1
         show erik 51
         show player 108f
-        player_name "Really?"
+        player_name "Правда?"
         show player 109f
         show coach 2
-        bri "Yeah! I could use a player with your... stamina."
+        bri "Да! Мне бы не помешал твой плеер... выносливость."
         show coach 1
         show player 10
-        player_name "Y-yeah... Maybe."
-        player_name "I'll think about it, {b}Coach{/b}..."
+        player_name "Д-да, может быть)"
+        player_name "Я подумаю об этом, {b}Coach{/b}..."
         show player 5
         show coach 2
-        bri "Well, you know where to find me."
+        bri "Ну, ты знаешь, где меня найти."
         hide coach with dissolve
         show erik 5
-        eri "... That was weird."
+        eri "...Это было странно."
         show erik 1
         show player 14
-        player_name "Heh, yeah. {b}Coach Bridget{/b} actually said something nice to me..."
+        player_name "Хех, да. {b}Coach Bridget{/b} сказала мне что-то приятное..."
         show player 13
         show erik 4
-        eri "Well, you did just slay an Ogre..."
+        eri "Ну, ты только что убил людоеда..."
         show erik 1
         show player 17
-        player_name "Hahaha!"
+        player_name "Ахахах!!"
         show player 14
-        dex "{b}*Whimper*{/b}"
+        dex "{b}*Плачет*{/b}"
         show erik 50
         eri "..."
         show player 14
-        player_name "C'mon, let's get out of these clothes."
+        player_name "Давай, давай снимем эту одежду."
         show player 13
         show erik 5
-        eri "Right behind you."
+        eri "Прямо за тобой."
         hide player
         hide erik
         with dissolve
@@ -90,9 +90,9 @@ label pushups_minigame_win:
         show player 109f
         dex "..."
         show player 109f
-        player_name "{b}*Sigh*{/b} I dunno why you do this to yourself..."
+        player_name "{b}*Эх*{/b} Не знаю, зачем ты так с собой поступаешь..."
         show player 108f
-        dex "{b}*Whimper*{/b}"
+        dex "{b}*Плачет*{/b}"
         hide player with dissolve
         dex "..."
     $ game.timer.tick()
@@ -115,62 +115,62 @@ label pushups_minigame_lose:
     $ renpy.pause(1, hard = True)
 
     if M_roxxy.is_state(S_roxxy_do_pushups):
-        player_name "{b}*Wheeze*{/b} Can't... breathe..."
+        player_name "{b}*Хрр*{/b} Не могу... дышать..."
         show dexter 12
-        dex "Hahahaha!"
+        dex "Хахаха!"
         show dexter 11
         show coach 2f
-        bri "It looks like {b}Dexter{/b} is the winner!"
+        bri "Похоже {b}Dexter{/b} Победил"
         show coach 1f
         show dexter 12
-        dex "This little nerd never stood a chance..."
+        dex "У этого маленького ботаника никогда не было шанса..."
         show dexter 11
         show coach 2f
-        bri "Keep things civil you two!"
+        bri "Держи себя в руках!"
         hide coach with dissolve
         show dexter 12
-        dex "Guess I don't have to worry about you and {b}Roxxy{/b}..."
-        dex "... She doesn't date losers."
+        dex "Думаю, мне не нужно беспокоиться о тебе и о {b}Roxxy{/b}..."
+        dex "... Она не встречается с неудачниками."
         show dexter 11
         show player 24
         player_name "..."
         show dexter 12
-        dex "Hahahaha!"
+        dex "Хахахах!"
         show dexter 11
         show player 25
-        player_name "Whatever, {b}Dexter{/b}. You just got lucky is all..."
+        player_name "Все, {b}Dexter{/b}. Тебе просто повезло, вот и все..."
         show dexter 12
-        dex "Hahahaha!"
+        dex "Хахаха!"
         show dexter 11
         show player 15
-        player_name "Grr... I'll get you next time."
+        player_name "Грр... Я достану тебя в следующий раз."
         show player 16
         show dexter 28 with dissolve
-        dex "Bring it on, loser!"
-        dex "I'll beat you every time."
+        dex "Давай, лузер!"
+        dex "Я буду бить тебя каждый раз."
         hide dexter with dissolve
         show player 5
-        player_name "( Crap! This is going to be all over school now. )"
-        player_name "( I need to show everyone that I'm not afraid to stand up to {b}Dexter{/b}! )"
-        player_name "( ... Otherwise {b}Roxxy{/b} will never take me seriously. )"
+        player_name "( Дерьмо! Теперь это будет знать вся школа. )"
+        player_name "( Мне нужно показать всем, что я не боюсь встать против {b}Dexter{/b}! )"
+        player_name "( ... Иначе {b}Roxxy{/b} никогда не воспримет меня всерьёз. )"
         hide player with dissolve
     else:
 
-        dex "Yes!"
-        dex "I win, loser!"
+        dex "Да!"
+        dex "Я победил этого лузера!"
         show dexter 11
         show player 25
-        player_name "Psh, who cares?"
+        player_name "Пфф, кого это вволнует?"
         hide player with dissolve
         show dexter 12
-        dex "Haha!"
+        dex "Хахаха!"
         show dexter 15 with dissolve
-        dex "... Wait... What?!"
-        dex "Where are you going?!"
-        dex "... Get back here and let me laugh in your face!"
+        dex "... Ждать... Чего?!"
+        dex "Куда это вы собрались?!"
+        dex "... Вернись и дай мне посмеяться тебе в лицо!"
         show dexter 14
         dex "..."
-        dex "Grr..."
+        dex "Грр..."
         hide dexter with dissolve
     $ game.timer.tick()
     $ player.go_to(L_map)

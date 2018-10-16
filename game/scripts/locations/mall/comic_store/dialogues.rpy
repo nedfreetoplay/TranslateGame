@@ -1,24 +1,24 @@
 label comic_store_june_cosplay_started:
     scene comic_b
     show player 14 with dissolve
-    player_name "Looks like they have some costumes hanging on the wall."
-    player_name "I should have a look at them..."
-    player_name "... maybe they have those orc cosplay pieces."
+    player_name "Похоже у них есть некоторые костюмы висящие на стене."
+    player_name "Я должен на них взглянуть..."
+    player_name "... Возможно у них есть эти части оркского косплея."
     hide player with dissolve
     return
 
 label comic_store_erik_vr_started_have_all:
     show player 14 with dissolve
-    player_name "( I think that's all {b}Erik{/b} wanted. )"
-    player_name "( Let's get back to him... )"
+    player_name "( Я думаю это все что {b}Erik{/b} хотел. )"
+    player_name "( Давайте вернумся к нему... )"
     hide player with dissolve
     return
 
 label comic_store_erik_vr_started_do_not_have_all:
     show player 35 with dissolve
-    player_name "( They must have the things {b}Erik{/b} wanted in here somewhere. )"
+    player_name "( У них должны быть вещи которые {b}Erik{/b}хотел где-то здесь. )"
     show player 12 with dissolve
-    player_name "( Maybe in those shelves by the counter? )"
+    player_name "( Может быть на тех полках на прилавке? )"
     hide player with dissolve
     return
 
@@ -27,31 +27,31 @@ label comic_store_first_visit:
     show player 1 at left
     show tatia 3 at right
     with dissolve
-    tati "Hi!"
+    tati "Привет!"
     show tatia 2
-    tati "First time visiting {b}Cosmic Cumics{/b}?"
+    tati "Первый раз посещаете {b}Cosmic Cumics{/b}?"
     show tatia 1
     show player 29
-    player_name "Umm... Yeah! I didn't know this place existed..."
+    player_name "Эммм... Да! Я не знал что это место существовало..."
     show tatia 2
     show player 1
-    tati "Yeah we just opened recently!"
+    tati "Да мы только недавно открылись!"
     show tatia 1
     show player 2
-    player_name "Oh, cool!"
-    player_name "You guys sell video games, too?"
+    player_name "Ох, круто!"
+    player_name "Вы ребята вы продаете видео-игры тоже?"
     show tatia 3
     show player 1
-    tati "Of course."
+    tati "Конечно."
     show tatia 2
-    tati "We sell a variety of products ranging from {b}video games{/b},{b}comic books{/b}, {b}figurines{/b}, {b}posters{/b} and {b}collectibles{/b}!"
+    tati "Мы продаем разнообразные продукты начиная от {b}видео-игр{/b},{b}комиксов{/b}, {b}фигурок{/b}, {b}плакатов{/b} и {b}коллекционных предметов{/b}!"
     show tatia 1
     show player 2
-    player_name "Oh. So... nerd stuff..."
+    player_name "Ох. и так... задротские вещи..."
     show tatia 3
     show player 1
-    tati "Yup!"
-    tati "Have a look around, and let me know if you need help with anything!"
+    tati "Ага!"
+    tati "Осмотрись, и дай мне знать если тебе понадобится помощь с чем-нибудь!"
     hide tatia
     hide player
     with dissolve

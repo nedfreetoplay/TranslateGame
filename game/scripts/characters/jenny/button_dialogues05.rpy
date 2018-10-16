@@ -4,71 +4,71 @@ label sis_cheerleader_fuck_after:
     show player 5 at left
     show jenny_cheer2 zorder 2 at Position(xpos=797,ypos=757)
     with fade
-    jen "Что за хуйня?!"
+    jen "Какого хрена это было?!"
     show jenny 165
     show player 10
-    player_name "Я не хотела этого делать!!"
+    player_name "Я не специально!!"
     show jenny 164
     show player 5
-    jen "Я сказал тебе {b}НЕ{/b} кончать внутрь, не так ли?!" with hpunch
+    jen "Разве я не говорила тебе {b}НЕ{/b} кончать внутрь?!" with hpunch
     show player 10
     show jenny 165
-    player_name "Прости, {b}[jen_name]{/b}... Я просто не мог остановиться! Мне было {b}ТАК ХОРОШО{/b}!"
+    player_name "Мне очень жаль, {b}[jen_name]{/b}... Я просто не мог остановить себя! Мне было {b}ТАК ХОРОШО{/b}!"
     show jenny 166
     show player 11
-    jen "Ты хоть представляешь, сколько проблем мы можем получить, если я {b}забеременею{/b}?!"
+    jen "Ты хоть предстовляешь сколько у нас будет {b}проблем{/b} если я {b}забеременею{/b}?!"
     show jenny 167
     show player 5
     player_name "..."
     show player 10
-    player_name "Я же говорил, что надо было пользоваться презерватив..."
+    player_name "Я же говорил тебе, что надо было пользоваться презервативами..."
     show jenny 164
     show player 11
-    jen "Мы НЕ МОЖЕМ!! Мои подписчики хотят настоящего, ясно?!"
+    jen "Мы НЕ МОЖЕМ!! Мои подписчики хотят настоящего, окей?!"
     show jenny 166
-    jen "Просто следуй моим указаниям в следующий раз, идиот!"
+    jen "Просто придерживайся моих указаний в следующий раз, Идиот!"
     jen "{b}*Вздох*{/b}"
     show jenny 109
     show player 13
-    jen "\"Случайность\" в сторону: это не так плохо."
+    jen "Не считая этого \"инцидента\": ты был не так уж и плох."
     show jenny 108
     show player 21
-    player_name "Мы сделали хорошо?"
+    player_name "Мы отлично справились?"
     show player 13
     show jenny 109
-    jen "Думаю, что да, мои подписчики, похоже, любят новый контент."
-    jen "Я должна сказать ..."
-    jen "Я не ожидала, что такой маленький извращенец, как ты, сможет так выступить."
-    jen "Да, ты неплохо справилась, наверное."
+    jen "Я думаю да, моим подписчикам похоже понравился новый контент."
+    jen "Хотя я должна сказать..."
+    jen "Я не ожидала, что такой маленький извращенец, как ты, сможет выполнить что то вроде этого.."
+    jen "Да, я думаю,что ты неплохо справился."
     show jenny 108
     show player 14
     player_name "Реально?"
     show jenny 109
     show player 13
-    jen "Может, я смогу снова использовать тебя для других шоу..."
+    jen "Может быть, я смогу снова тебя использовать для большинства моих видео шоу..."
     show player 21
     show jenny 167
-    player_name "Спасибо, мне понрави-"
+    player_name "Спасибо, мне понравилось-"
     show jenny 164
     show player 11
-    jen "Нет, прекрати!!" with hpunch
+    jen "Нет! ПРЕКРАТИ это!" with hpunch
     show jenny 166
-    jen "Это было строго {b}деловое предложение{/b}, ничего больше!"
-    jen "Не начинай придумывать. Я делаю это, чтобы заработать хорошие деньги..."
-    jen "О, и сделай одолжение, постарайся не проводить слишком много времени с {b}[deb_name]{/b}..."
-    jen "Я знаю, что вы задумали, Я нуждаюсь в {b}свежем{/b} и {b}отдохнувшем{/b}."
-    jen "Мои подписчики теперь ожидают такого рода трансляции {b}регулярно{/b}."
+    jen "Это был {b}только бизнес{/b}, ничего более!"
+    jen "Не надо тут начинать придумывать. Я делаю это, чтобы заработать хорошие деньги..."
+    jen "О, и сделай мне одолжение, и постарайся не проводить слишком много времени с {b}[deb_name]{/b}..."
+    jen "Я знаю чем вы там в двоем занимаетесь, мне ты нужен {b}свежим{/b} и {b}отдохнувшим{/b}."
+    jen "Мои подписчики ждут больше видео шоу на этой неделе."
     show jenny 164
-    jen "Так что не дрочить, и НИКАКОГО секса!!"
+    jen "Так что, НИКАКОЙ дрочки, и НИКАКОГО Секса!!"
     show jenny 165
     show player 12
-    player_name "Окей! Окей! Я понял..."
+    player_name "Хорошо! Хорошо! Я понял..."
     show jenny 109
     show player 13
-    jen "Хорошо!"
+    jen "Хорошо."
     show jenny 164
     show player 11
-    jen "А теперь, {b}УБИРАЙСЯ ИЗ МОЕЙ КОМНАТЫ{/b}!!" with hpunch
+    jen "А сейчас, {b}ВАЛИ ИЗ МОЕЙ КОМНАТЫ{/b}!!" with hpunch
     hide player
     hide jenny
     hide jenny_cheer2
@@ -76,31 +76,31 @@ label sis_cheerleader_fuck_after:
 
 label jenny_dialogue_need_toys:
     show player 2
-    player_name "Мне просто интересно, нужны ли тебе еще эти игрушки..."
+    player_name "Я просто хотел узнать, нужно ли тебе больше тех игрушек..."
     show player 1
     show jenny 9 at Position(xpos=937)
-    jen "Хех?"
+    jen "Мм?"
     show jenny 12
-    jen "Так... ещё нужны трусики?"
+    jen "Значит... тебе нужно больше трусиков?"
     show player 2
     show jenny 11
     player_name "Нет, не совсем..."
     show player 1
     show jenny 9
-    jen "Подожди... Ты предлагаешь купить мне секс-игрушки?!"
+    jen "Подожди... Ты хочешь купить мне секс-игрушки?!"
     show player 2
     show jenny 9b
-    player_name "Ну, они помогают тебе получить больше подписчиков на твоем шоу..."
+    player_name "Ну,они помогут тебе получить больше подписчиков на твоем видео шоу..."
     show player 1
     show jenny 10
     jen "..."
     show jenny 9
-    jen "Ты наблюдал за мной на своем компьютере все это время?"
+    jen "Все это время ты следил за мной за своим компьютером?"
     show player 22
     show jenny 9b
     player_name "!!!"
     show jenny 12
-    jen "Хаха! Какой же ты извращенец!"
+    jen "Хаха! Ты такой извращенец!"
     show player 1
     jen "Хмм... Я думаю, есть одна последняя игрушка, которую мне нужно получить..."
     show player 14
@@ -108,14 +108,14 @@ label jenny_dialogue_need_toys:
     player_name "О, да?"
     show player 13
     show jenny 19 at right
-    jen "Ты можешь достать для меня {б}Плохой монстр{/В}, если ты хочешь."
-    jen "Я всегда хотела свою собственную."
+    jen "Ты можешь достать мне {b}Плохого монстра{/b}, если ты хочешь."
+    jen "Я всегда хотела иметь свою собственную."
     show player 4
     show jenny 18
-    player_name "Что это?"
+    player_name "Что это такое?"
     show player 1
     show jenny 19
-    jen "Это {b}огромный{/b}, {b}зеленый{/b}, монстр дилдо..."
+    jen "Это {b}огромный{/b}, {b}зеленый{/b}, вибратор монстро-член..."
     show player 23
     show jenny 18
     player_name "!!!"
@@ -125,37 +125,37 @@ label jenny_dialogue_need_toys:
 
 label jenny_dialogue_need_toys_do_not_have_toys:
     show player 2
-    player_name "Как называется игрушка, которую ты хотела?"
+    player_name "Как называется эта игрушка, которую ты хотела?"
     show player 1
     show jenny 9 at Position(xpos=937)
-    jen "{b}Плохой монстр{/b}..."
+    jen "{b}Плохой Монстр{/b}..."
     show jenny 12
-    jen "... Это {b}огромный{/b}, {b}зеленый{/b}, монстр дилдо..."
+    jen "...Это{b}громадный{/b}, {b}зеленый{/b}, члено-монстр..."
     show jenny 11
     show player 2
-    player_name "Ты права. Благодарю. Я постараюсь и найду его."
+    player_name "Конечно. Спасибо. Я постараюсь его найти."
     show player 1
     show jenny 12
-    jen "Возвращайся, если тебе что-нибудь понадобится, маленький извращенец."
+    jen "Приходи, если тебе что-нибудь ещё понадобится, маленький извращуга."
     return
 
 label jenny_dialogue_need_toys_have_toys:
     show player 14
-    player_name "Я нашел игрушку, которую ты хотела!"
+    player_name "Я нашел эту игрушку которую ты хотела!"
     show player 13
     show jenny 19
-    jen "Отлично!"
+    jen "Великолепно!"
     show player 239_240
     pause
     show player 286
     show jenny 18
-    player_name "Здесь. Надеюсь, тебе понравится."
+    player_name "Вот.Я надеюсь что тебе понравится."
     show player 13
     show jenny 65
-    jen "О, я уверена, что буду наслаждаться каждым дюймом этого..."
+    jen "О, я уверена, что я буду наслаждаться каждым его сантиметром..."
     show player 21
     show jenny 11 at Position(xpos=937)
-    player_name "ты... планируешь использовать его во время шоу?"
+    player_name "Ты... планируешь его использовать во время своих видео шоу?"
     show player 13
     show jenny 19 at right
     jen "Я уверена, что ты будешь смотреть на меня в любом случае, так что подожди и узнаешь!"
@@ -163,79 +163,79 @@ label jenny_dialogue_need_toys_have_toys:
     show jenny 11 at Position(xpos=937)
     player_name "..."
     show jenny 12
-    jen "Уверена, ты с нетерпением ждешь этого, извращенец."
+    jen "Я уверена, что ты ждешь этого с нетерпением,извращенец."
     return
 
 label jenny_dialogue_watch_tv_tonight:
     show jenny 10 at Position(xpos = 937)
     show player 14
-    player_name "Ты хочешь... Посмотреть телевизор сегодня вечером?"
+    player_name "Ты хочешь... Посмотреть ТВ сегодня вечером?"
     show jenny 9
     show player 1
-    jen "Смотреть... Телевизор?"
+    jen "Посмотреть... ТВ?"
     show jenny 12
     show player 11
     jen "Хах!"
-    jen "Ты хочешь, чтобы я поиграл с тобой на диване?"
+    jen "В смысле, ты хочешь, чтобы я поиграла с тобой на диване?"
     show jenny 82
     show player 21
-    player_name "Да. Может, сделаем что-нибудь как в прошлый раз?"
+    player_name "Да.Может быть займемся нечто подобным как в прошлый раз?"
     show player 1
     jen "Хмм..."
     show jenny 12
-    jen "Я могу спуститься, если захочу."
+    jen "Я могла бы спуститься,если мне этого захочится."
     show jenny 82
     show player 17
-    player_name "Сладенькая!"
+    player_name "Славно!"
     show jenny 10
     show player 21
-    player_name "Тогда я увижу тебя внизу."
+    player_name "Тогда,увидимся позже внизу."
     show jenny 9
     show player 11
-    jen "Не волнуйся, извращенец."
+    jen "Не перевозбудись,извращенец."
     show jenny 9b
     player_name "..."
     show jenny 19 at right
     show player 1
-    jen "Что-нибудь еще хочешь?"
+    jen "Тебе что-нибудь еще надо?"
     show jenny 18
     return
 
 label jenny_dialogue_watch_neighbours:
     show player 14 at left
     show jenny 10 at Position(xpos=937)
-    player_name "Эй, хочешь потусоваться в моей комнате?"
+    player_name "Хэй, хочешь потусоваться в моей комнате?"
     show player 1
     show jenny 9
-    jen "И что?"
+    jen "И что делать?"
     show player 21
     show jenny 9b
-    player_name "Я подумал, Может, мы могли бы посмотреть на соседей через мой телескоп..."
+    player_name "Я подумал, Может, мы могли бы понаблюдать за соседями через мой телескоп..."
     show player 11
     show jenny 9
-    jen "Почему я должна это делать?"
+    jen "Зачем бы мне это делать?"
     show player 21
-    player_name "я не знаю... Может, мы увидим что-нибудь интересное?"
+    player_name "Я не знаю... Может быть, мы сможем увидеть некоторые интересные вещи?"
     show jenny 11
-    player_name "Ты знаешь... как в прошлый раз."
+    player_name "Ну ты знаешь... как в прошлый раз."
     show player 11
     show jenny 12
-    jen "Ты имеешь в виду, что хочешь шпионить за людьми, делающими грязные вещи."
+    jen "Ты хочешь сказать, что хочешь пошпионить за людьми, которые делают грязные вещи."
     show player 5
     show jenny 9
-    jen "Не прикидывайся идиотом! Я знаю, как работает твой маленький грязный ум!"
-    jen "А что, если нас поймают?"
+    jen "Не прикидывайся тупым! Я знаю, как работает твой маленький грязный умишка!"
+    jen "И что если нас поймают?"
     show player 12
     show jenny 10
-    player_name "Мы же прячемся?"
+    player_name "Мы спрячемся?"
     show player 11
     show jenny 9
     jen "Хаха! Да, точно."
-    jen "Держу пари, тебе бы это понравилось."
-    jen "Зная, что они также следят за тобой..."
+    jen "Готова поспорить, тебе это нравится."
+    jen "Зная, что они так же наблюдают за тобой..."
     show player 21
     show jenny 82
-    player_name "Может быть?"
+    player_name "Хех, возможно?"
     show player 1
     jen "Хмм..."
     show player 11
@@ -243,14 +243,14 @@ label jenny_dialogue_watch_neighbours:
     jen "Ладно, пошли."
     show player 14
     show jenny 82
-    player_name "Подожди, правда?!"
+    player_name "Подожди, реально?!"
     show player 13
     show jenny 12
     jen "Конечно! Мне скучно."
-    jen "Давайте пойдем быстро, пока {b}[deb_name]{/b} внизу..."
+    jen "Идем быстрее,пока {b}[deb_name]{/b} внизу..."
 
     scene home_hallway_cutscene with fade
-    show text "Мы быстро пробрались в коридор и в мою комнату.\n[jen_name] выглядел очень нетерпеливо, когда тащил меня за рубашку.\nЯ никогда раньше не делал с ней забавных вещей; она всегда, казалось, ненавидела находиться рядом со мной.\nС тех пор, как появилось шоу, мы стали ближе." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Мы быстро пробрались из коридора и в мою комнату.\n[jen_name] выглядела очень нетерпеливо, когда тащила меня за рубашку..\nЯ никогда раньше не делал с ней забавных вещей; она всегда ненавидела находиться рядом со мной.\nС тех самых пор с видео шоу,мы стали ближе друг к другу." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     return
 
@@ -261,23 +261,23 @@ label jenny_dialogue_watch_neighbours_continue01:
     with dissolve
     pause
     show jenny 138
-    jen "Ну?!"
-    jen "Что-нибудь хорошее?"
+    jen "Итак?!"
+    jen "Есть что-нибудь интересное?"
     show jenny 137
-    player_name "Хмм... Подожди, Я вижу... {b}Миссис Джонсон{/b} на кровати..."
+    player_name "Хммм... Подожди, я вижу... {b}Mrs. Johnson{/b} на кровати..."
     show windowmrsjday 4a with dissolve
-    player_name "Что {b}Эрик{/b} делает в её комнате?"
+    player_name "Что {b}Erik{/b} делает в её комнате?"
     jen "Чем они занимаются?!"
     player_name "Он стоит перед ней на коленях..."
     player_name "Она просто разговаривает с ним."
     show windowmrsjday 4b with fastdissolve
     player_name "..."
-    player_name "Она снимает свои трусики перед ним!"
+    player_name "Она сняла свои трусики перед ним!"
     jen "Что?!"
     show windowmrsjday 4c
-    player_name "Woah!" with hpunch
-    jen "Как это?!"
-    player_name "Я... Я думаю, он лижет ее там внизу..."
+    player_name "Стоп!" with hpunch
+    jen "Что там!"
+    player_name "Я... я думаю, он лижет ей там внизу...."
     return
 
 label jenny_dialogue_watch_neighbours_continue02:
@@ -285,39 +285,39 @@ label jenny_dialogue_watch_neighbours_continue02:
     show player 357 at Position(xpos=456,ypos=758)
     show jenny 138 at right
     with dissolve
-    player_name "Я... Я думаю, он лижет ее там внизу..."
-    jen "Что?!"
+    player_name "Я... я думаю,что он там облизывает ей там внизу..."
+    jen "Чего?!"
     jen "Ты серьезно?"
     show jenny 137
-    player_name "Да... Например, между ее ног!"
+    player_name "Да... Вроде,между её ног!"
     jen "..."
     show jenny 138
     jen "Подвинься."
     show player 361 at left
     show jenny 142 at Position(xpos=806,ypos=768)
     with fastdissolve
-    jen "Позволь мне взглянуть."
+    jen "Дай мне Посмотреть."
     show jenny 140
     pause
-    jen "Вау, я не могу поверить, что она заставляет его лизть ее киску так."
-    jen "Это... действительно горячо!"
+    jen "Вау, Я не могу поверить, что она заставила его есть ее киску вот так."
+    jen "Это.. очень жарко!"
     return
 
 label jenny_dialogue_watch_neighbours_continue03:
     show jenny 145_146_147_148 at Position(xpos=285,ypos=229,xanchor=0,yanchor=0) with fastdissolve
     show player 362
-    jen "Должно быть, она его использует."
-    jen "Приказываю ему, что делать..."
+    jen "Должно быть она использует его."
+    jen "Командуя ему, что делать..."
     show jenny 144 at Position(xpos=285,ypos=231,xanchor=0,yanchor=0)
     show player 361
-    jen "Мне тоже этого хочется."
+    jen "Я тоже этого хочу."
     show jenny 143
     show player 360
-    player_name "Хех?"
+    player_name "Ммм?"
     show jenny 144
     show player 361
-    jen "Я хочу почувствовать то, что чувствует она. Сейчас."
-    jen "And you're going to do as I tell you."
+    jen "Сейчас я хочу почувствовать то, что чувствует она."
+    jen "И ты будешь делать то, что я тебе скажу."
     show jenny 143
     player_name "..."
     show jenny 144
@@ -328,26 +328,26 @@ label jenny_dialogue_watch_neighbours_continue03:
     with fade
     jen "Ты будешь делать именно то, что я скажу."
     jen "Я не хочу, чтобы твои грязные руки были на мне..."
-    jen "... так что ты будешь использовать только рот."
+    jen "... так что вы будете использовать только свой рот."
     show jennysex 134
-    player_name "Э... Окей... Но как?"
+    player_name "Эм... хорошо... Но как?"
     show jennysex 135
     jen "Ты тупой?"
-    jen "Просто используй язык и обхвати его губами..."
-    jen "... и не забудь сфокусироваться на моем клиторе."
+    jen "Просто используй своя язык и обхвати своими губами вокруг неё..."
+    jen "... и запомни сосредоточься на моей клиторе."
     show jennysex 134
-    player_name "Окей..."
+    player_name "Хорошо..."
     show jennysex 137b with fastdissolve
-    jen "И не останавливайся пока я не скажу..."
+    jen "И не останавливайся пока я этого не скажу..."
     show jennysex 139_140_141_142
     hide jennysex_cunnilingus_player
     with fastdissolve
     pause
-    jen "Вот, держи."
-    jen "Просто так..."
+    jen "Вот видишь."
+    jen "Именно так..."
     pause
-    jen "Squeeze my tits."
-    player_name "Хммм?"
+    jen "Сожми мои сиськи."
+    player_name "Hmh?"
     jen "Просто сделай это!!"
     show jennysex 139b_140b_141b_142b with fastdissolve
     pause
@@ -359,7 +359,7 @@ label jenny_dialogue_watch_neighbours_continue03:
 
 label jenny_dialogue_watch_neighbours_menu:
     menu:
-        "Продолжить.":
+        "Продолжать.":
             call expression game.dialog_select("jenny_dialogue_watch_neighbours_menu_keep_going")
             call expression game.dialog_select("jenny_dialogue_watch_neighbours_menu")
         "Заставить её кончить.":
@@ -398,31 +398,31 @@ label jenny_dialogue_watch_neighbours_menu_keep_going:
     return
 
 label jenny_dialogue_watch_neighbours_menu_make_her_cum:
-    jen "Я... ВСЁ!!"
+    jen "Я... ПОЧТИ!!"
     jen "О БОЖЕ-"
     show jennysex 143
     jen "ААХХ!!!!!" with hpunch
     show jennysex 135b
     show jennysex_cunnilingus_player at right
     with dissolve
-    jen "Отлично сработано, извращенец!"
-    jen "В конце концов, мы нашли тебе хорошее применение."
+    jen "Хорошая сработано, извращенец!"
+    jen "В конце концов, я думаю, что мы нашли хорошее применение для тебя."
     show jennysex 134b
     player_name "Тебе понравилось?"
     show jennysex 135b
-    jen "Не становись слишком уверенным; есть возможность улучшить."
+    jen "Не будьте слишком самонадеянным; здесь есть над чем работать."
     show jennysex 134b
-    player_name "То есть, мы можем сделать это снова?"
+    player_name "Ты хочешь сказать, что мы можем сделать это снова?"
     show jennysex 135b
-    jen "Мы еще посмотрим, извращенец..."
-    jen "Мне нужно привести себя в порядок. Увидимся."
+    jen "Мы еще об этом подумамаем,извращенец..."
+    jen "Я должна привести себя в порядок.Увидимся попозже."
     scene bedroom
     show player 18
     with fade
-    player_name "( Чувак, это было сумасшествие! )"
+    player_name "( Мужик, это было бузумие! )"
     show player 13
-    player_name "( Не могу поверить {b}[jen_name]{/b} была так увлечена этим... )"
+    player_name "( Я не могу поверить что {b}[jen_name]{/b} была так этим увлечена ... )"
     show player 11
-    player_name "( ...хотя у меня язык сильно болит... )"
+    player_name "( ...хотя мой язык действительно побаливает... )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

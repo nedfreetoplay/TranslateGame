@@ -5,169 +5,169 @@ label terry_button_contest_roxxy_go_see_contest:
     show sara_bikini zorder 5 at Position (xpos=900)
     show player 13 zorder 2 at left
     with dissolve
-    sara "Oh, look dear!"
-    sara "Your little friend is here."
+    sara "Ой, смотри, дорогой!"
+    sara "Твой маленький друг здесь.."
     show sara 1
     show tstand 2
-    Terry "Oh ho, indeed he is..."
-    Terry "Hey there, skipper!"
-    Terry "Come to take in the sights have ya?"
+    Terry "О, хо-хо,действительно так..."
+    Terry "Привет, шкипер!"
+    Terry "Пришел, погрузиться в атмосферу не так ли?"
     show tstand 1
     show player 14
-    player_name "Hey {b}Captain{/b}!"
-    player_name "Hello, {b}Miss Sara{/b}!"
+    player_name "Эй {b}Капитан{/b}!"
+    player_name "Привет, {b}Мисс Сара{/b}!"
     show player 17
-    player_name "Yeah, this is awesome!"
+    player_name "Да, это просто потрясающе!"
     show player 13
     show sara 2
-    sara "Hehe."
+    sara "Хехе."
     show sara 1
     show tstand 2
-    Terry "Aye, it sure is, lad."
+    Terry "Да, это точно, парень."
     show tstand 1
     show player 14
-    player_name "What are you two doing here?"
+    player_name "Что вы двое здесь делаете?"
     show player 13
     show tstand 22
     show sara 2
-    sara "{b}Terry{/b} is hosting the contest."
+    sara "{b}Терри{/b} проводит конкурс."
     show sara 1
     show tstand 1
     show player 14
-    player_name "Really?!"
-    player_name "That's so cool, {b}Captain{/b}!"
+    player_name "Правда?!"
+    player_name "Это так здорово, {b}Капитан{/b}!"
     show player 13
     show tstand 2
-    Terry "Oh ho, it's no big deal."
-    Terry "I've been hosting this thing for three years straight now."
+    Terry "Хо-хо, ничего страшного.."
+    Terry "Я принимаю гостей уже три года подряд."
     show tstand 1
     show player 14
-    player_name "Does that mean {b}Miss Sara{/b} is going to be in the contest?!"
+    player_name "Означает ли это что {b}Мисс Сара{/b} будет участвовать в конкурсе?!"
     show player 13
     show tstand 22
     show sara 2
-    sara "Oh, would you like to see me in a bikini {b}[firstname]{/b}?"
+    sara "Хочешь увидеть меня в бикини? {b}[firstname]{/b}?"
     show sara 1
     show tstand 22b
-    Terry "Well of course he would, Love!"
-    Terry "Who wouldn't want to see that delicious body of yours?"
+    Terry "Ну, конечно, любовь моя!"
+    Terry "Кто бы не хотел увидеть твое восхитительное тело?"
     show tstand 22
     show sara 2
-    sara "Hehe, aww... Thanks, dear!"
+    sara "Хе-хе,оу... Спасибо, дорогой!"
     show sara 1
     show tstand 2
-    Terry "Unfortunately, no."
-    Terry "It wouldn't really be fair if she participated, since I'm the one judging."
+    Terry "К сожалению, нет."
+    Terry "Было бы несправедливо, если бы она участвовала, потому что судить буду я."
     show tstand 1
     show player 14
-    player_name "Hmm, I guess that makes sense."
-    player_name "Hey, I don't suppose you've seen my friend {b}Roxxy{/b} around here?"
+    player_name "Думаю, в этом есть смысл."
+    player_name "Эй, я не думаю, вы видели мою подругу {b}Рокси{/b} здесь?"
     show player 13
     show tstand 2
-    Terry "Hmm, that pretty blonde with the bitchy friend?"
-    Terry "Aye, they're wonderin' about here somewhere."
+    Terry "Та симпатичная блондинка с стервозной подругой?"
+    Terry "Да, они где-то здесь."
     show tstand 1
     missy "{b}[firstname]{/b}!!!"
     show becca bikini 1bf zorder 1 at Position (xpos=550)
     show missy bikini 2f zorder 0 at Position (xpos=400)
     with dissolve
-    missy "Oh my gosh, I'm so glad you came!"
+    missy "Боже мой, я так рада, что ты пришел.!"
     show missy bikini 1f
     show tstand 2
-    Terry "Well, speak of the devil!"
+    Terry "Ну, поговорим о дьяволе!"
     show tstand 1
     show becca bikini 2f
-    becca "Hey, {b}[firstname]{/b}."
+    becca "Эй, {b}[firstname]{/b}."
     show becca bikini 1f
     show player 14
-    player_name "Hey, girls."
+    player_name "Привет, девочки."
     show player 13
     show sara 2
-    sara "Well, don't you too look cute in your bikinis!"
+    sara "Ну, не милашка ли в бикини!"
     show sara 1
     show becca bikini 1 zorder 0 at Position (xpos=500)
     show missy bikini 13 zorder 1 at Position (xpos=350)
     with dissolve
-    missy "Heh, you think so?!"
+    missy "Хех, ты так думаешь?!"
     show missy bikini 1
     show sara 2
-    sara "Just adorable!"
+    sara "Просто прелесть!"
     show sara 1
     show missy bikini 13
-    missy "Thanks!"
+    missy "Спасибо!"
     show missy bikini 2
-    missy "I was so relieved when I saw the {b}Captain{/b} was hosting."
-    missy "Since he already said he liked my boobs the other day when we were flashing him..."
+    missy "Я была так рада, когда увидела , что  устраивает {b}Капитан{/b}."
+    missy "С тех пор, как он сказал, что ему понравились мои сиськи на днях, когда мы их показывали..."
     show missy bikini 1
     show player 22
     show becca bikini 6
     player_name "!!!" with hpunch
     show tstand 21b
     show sara 7
-    sara "EXCUSE ME?!"
+    sara "ПРОСТИТЕ?!"
     show sara 6
     show missy bikini 12
     show becca bikini 14
-    becca "What the hell, {b}Missy{/b}?!"
-    becca "Why would you tell her that?"
+    becca "Что за чёрт, {b}Мисси{/b}?!"
+    becca "Зачем ты ей это сказала?"
     show becca bikini 13
     show missy bikini 8
-    missy "Hmm, what did I say?"
+    missy "Хм, что я такого сказала?"
     show missy bikini 1
     show becca bikini 1
     show sara 7
-    sara "{b}Terry{/b}, what did you do?!"
+    sara "{b}Терри{/b}, что вы делали?!"
     show player 11
     show sara 6
     show tstand 23b
-    Terry "Wha... I..."
+    Terry "Эм... Я..."
     show tstand 21
     show becca bikini 6
-    becca "Umm, we should go!"
+    becca "Ммм, нам пора уходить!"
     show becca bikini 14
-    becca "{b}[firstname]{/b}, we're meeting {b}Roxxy{/b} over at the showers if you wanna join us."
+    becca "{b}[firstname]{/b}, мы встречаемся с {b}Рокси{/b} в душе, если хочешь к нам присоединиться."
     hide becca
     hide missy
     with dissolve
-    becca "You are such an idiot!"
-    missy "I don't understand what's going on..."
+    becca "Ты такая дура!"
+    missy "Я не понимаю, что происходит..."
     show player 37 with dissolve
     player_name "..."
     show tstand 23b
-    Terry "... Now, Love."
-    Terry "Just calm down and let me explain."
+    Terry "... Теперь, Любовь."
+    Terry "Просто успокойся и дай мне объяснить."
     show tstand 23
     sara "..."
     show sara 7
-    sara "Go on then, explain yourself!"
+    sara "Тогда давай, объяснись!"
     show sara 6
     show player 11 with dissolve
     show tstand 23b
-    Terry "Well, the other day... Those girls were taking advantage of the Skipper here, you see."
-    Terry "I just worked a bit of my magic to insure he got some ample returns for his hard work..."
-    Terry "That's all!"
+    Terry "Хорошо, на днях... Видишь ли, эти девушки воспользовались услугами шкипера.."
+    Terry "Я просто немного поработал своей магией, чтобы убедиться, что он получил достаточную отдачу за свою тяжелую работу..."
+    Terry "Вот и все!"
     show tstand 23
     show sara 7
-    sara "... Uh huh."
-    sara "... And by ample returns you mean those girl's breasts?!"
+    sara "... Угу."
+    sara "... И под достаточной отдачей ты подразумеваешь грудь той девушки?!"
     show sara 6
     show tstand 23b
-    Terry "Don't be upset, Love."
-    Terry "It was just for the skipper's benefit is all..."
+    Terry "Не расстраивайся, дорогая."
+    Terry "Это было только ради шкипера, вот и все..."
     show tstand 1
     show sara 2
-    sara "Oh? ... And how were they, {b}[firstname]{/b}?"
+    sara "Да? ... И какие они были, {b}[firstname]{/b}?"
     show sara 1
     show player 35
-    player_name "... Uhh."
+    player_name "... Ох."
     show player 34
     show tstand 23b
-    Terry "Now, don't hassle the lad!"
+    Terry "Не приставай к парню!"
     show tstand 23
     show sara 7
-    sara "No, I wanna hear what he has to say!"
+    sara "Нет, я хочу услышать, что он скажет!"
     show sara 2
-    sara "Were they better than these?!"
+    sara "Были ли они лучше, чем эти?!"
     show sara 8 with dissolve
     pause
     hide sara_bikini
@@ -178,46 +178,46 @@ label terry_button_contest_roxxy_go_see_contest:
     show tstand 21b
     player_name "!!!" with hpunch
     show tstand 22b
-    Terry "Hahahaha! Oh, I see what you're doing..."
-    Terry "... Lord, I love this woman!"
+    Terry "Хахахаха! О, я понимаю, что ты делаешь..."
+    Terry "... Господи, я люблю эту женщину!"
     show tstand 22
     show player 13
     show sara 10
-    sara "Well?!"
+    sara "Ну?!"
     show sara 9
     player_name "..."
     show player 10
-    player_name "Oh, uhh!"
+    player_name "О, ох!"
     show player 29 with dissolve
-    player_name "No! Those are..."
-    player_name "... Wow!"
-    player_name "Those are wonderful!"
+    player_name "Нет! Вот такие..."
+    player_name "... Воу!"
+    player_name "Они замечательные!"
     show player 13 with dissolve
     show tstand 2
-    Terry "Oh, lad... You have no idea!"
+    Terry "О, парень... Ты даже не представляешь!"
     show tstand 22b
-    Terry "You feel better now?"
-    Terry "You know you're the only woman I need!"
+    Terry "Теперь ты чувствуешь себя лучше?"
+    Terry "Ты знаешь, что ты единственная женщина, которая мне нужна!"
     show tstand 22
     show sara_bikini zorder 4 at Position (xpos=900)
     show sara 8
     with dissolve
     sara "..."
     show sara 7 with dissolve
-    sara "I had better be!"
+    sara "Я должена была быть счастлива!"
     show sara 5
-    sara "In fact, you know what?!"
-    sara "I think you need a real reminder!"
+    sara "На самом деле, знаешь что?!"
+    sara "Я думаю, тебе нужно настоящее напоминание!"
     show tstand 23b
-    Terry "Huh, now?!"
+    Terry "Что, сейчас?!"
     show tstand 22
     hide sara_bikini
     show sara 12
     with dissolve
-    sara "That's right! We've got some time before the contest starts..."
+    sara "Вот именно! У нас есть время до начала соревнования..."
     pause
     hide sara with dissolve
-    sara "... And I know the perfect place!"
+    sara "... И я знаю идеальное место!"
     player_name "..."
     show sara 11 zorder 4 at right with dissolve
     pause
@@ -226,16 +226,16 @@ label terry_button_contest_roxxy_go_see_contest:
     with dissolve
     pause
     show tstand 25 with dissolve
-    Terry "... You naughty little minx!"
-    Terry "Best go and find your ladies, skipper... This is going to take awhile!"
+    Terry "... Ты маленькая шалунья!"
+    Terry "Лучше иди и найди своих дам, шкипер... Это займет какое-то время!"
     show tstand 26 at right with dissolve
-    Terry "Oh ho ho!!!"
+    Terry "О, хо-хо!!!"
     hide tstand with dissolve
     show player 13
-    player_name "( Wow, {b}Captain Terry{/b} sure is a lucky guy! )"
-    player_name "( I should go find {b}Roxxy{/b} and her friends. )"
+    player_name "( Воу, {b}Капитан Терри{/b} счастливый парень! )"
+    player_name "( Я должен найти {b}Рокси{/b} и ее подруг. )"
     show player 34
-    player_name "( They said something about a {b}shower{/b}... )"
+    player_name "( Они говорили что-то о {b}душе{/b}... )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

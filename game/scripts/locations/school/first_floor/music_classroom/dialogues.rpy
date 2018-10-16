@@ -3,45 +3,45 @@ label music_classroom_dewitt_intro:
     show dewitt 1 at left
     show player 14f at right
     with dissolve
-    player_name "Hey, {b}Ms. Dewitt{/b}."
+    player_name "Хей, {b}Ms. Dewitt{/b}."
     show player 13f
     show dewitt 2
-    dewitt "Oh my goodness, {b}[firstname]{/b}! Is that you, sugar?"
-    dewitt "I was starting to think you up and moved to a different school or something!"
+    dewitt "О боже мой, {b}[firstname]{/b}! Это ты, милый?"
+    dewitt "Я уже начала думать, что ты перешёл в другую школу или что-то вроде того!"
     show dewitt 1
     show player 10f
-    player_name "Heh, no. I had some uh, \"family issues\" come up."
+    player_name "Хех, нет. У меня были, эм, некоторые \"семейные проблемы\"."
     show player 5f
     show dewitt 2
-    dewitt "Yeah, I heard about your father passing. Such a shame..."
-    dewitt "Is there anything I can do for you, sugar?"
+    dewitt "Да, я слышала о твоем отце. Соболезную..."
+    dewitt "Что я могу для тебя сделать?"
     show dewitt 1
     show player 10f
-    player_name "Actually, I was hoping we could talk about getting my grade back on track?"
+    player_name "Вообще-то, я бы хотел вернуться к вам..."
     show player 5f
     show dewitt 2
-    dewitt "Well, I betcha we can figure something out."
-    dewitt "Why don't you go pick out an instrument and have a seat."
-    dewitt "We'll get you back in the groove."
+    dewitt "Ну, я думаю, мы сможем что-нибудь придумать."
+    dewitt "Выбирай инструмент и садись."
+    dewitt "Посмотрим, не потерял ли ты чувство ритма."
     show dewitt 3
     show player 11f
     pause
     show dewitt 1
     show player 10f
-    player_name "Alright, any instrument in particular, {b}Ms. Dewitt{/b}?"
+    player_name "Окей, любой инструмент, {b}Ms. Dewitt{/b}?"
     show player 5f
     show dewitt 2
-    dewitt "Hmm, how about you give those drums over there a try?"
+    dewitt "Хмм, почему бы тебе не попробывать барабаны?"
     show dewitt 1
     show player 14f
-    player_name "Sure thing!"
+    player_name "Окей!"
     hide player
     hide dewitt
     with dissolve
 
     scene music_class_cs01
     with fade
-    show text "I never got to play the drums before." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я никогда раньше не играл на барабанах." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -49,7 +49,7 @@ label music_classroom_dewitt_intro:
 
     scene music_class_cs02
     with fade
-    show text "It was actually pretty difficult keeping a steady rhythm, but kind of fun..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Было очень трудно не сбиваться, но я даже получил удовольствие..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -65,7 +65,7 @@ label music_classroom_dewitt_intro:
 
     scene music_class_cs04
     with fade
-    show text "Good thing {b}Ms. Dewitt{/b} is so nice to me...\nBecause I'm terrible..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Мне приятно, что {b}Ms. Dewitt{/b} так добра ко мне...\nНо я ужасно..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -74,80 +74,80 @@ label music_classroom_dewitt_intro:
     show dewitt 1 at left
     show player 37f at right
     with dissolve
-    player_name "I'm so sorry, {b}Ms. Dewitt{/b}!"
-    player_name "I didn't mean to-"
+    player_name "Простите, {b}Ms. Dewitt{/b}!"
+    player_name "Я не-"
     show player 3f at Position (xoffset=-8) with dissolve
     show dewitt 2
-    dewitt "Hehehe, it's alright, sugar."
-    dewitt "You aren't the first person to try and beat out a rhythm on these lovely ladies!"
+    dewitt "Хехе, всё в порядке, сладкий."
+    dewitt "Ты не первый, кто хочет поиграть на этих малышках!"
     show dewitt 3
     show player 11f with dissolve
     player_name "..."
     show player 5f
     show dewitt 2
-    dewitt "Perhaps we should get you on something a little more, elegant?"
+    dewitt "Может подберем тебе что-нибудь более элегантное?"
     dewitt "Hmm, the flute maybe..."
     show dewitt 1
     show player 12f
-    player_name "... Eh, the flute?"
-    player_name "That's kinda girly isn't it?"
+    player_name "... Хм, может флейта?"
+    player_name "Или она больше для женщин?"
     show player 5f
     show dewitt 2
-    dewitt "Oh, Lord no, sugar!"
-    dewitt "Men have been playing the flute since the stone ages."
+    dewitt "Ох, конечно же нет, сладкий!"
+    dewitt "Мужчины играли на флейтах с самых древних времен."
     show dewitt 1
     show player 10f
-    player_name "Really?"
+    player_name "Серьезно?"
     show player 5f
     show dewitt 2
-    dewitt "You better believe it!"
-    dewitt "Ancient armies from all over the world used the flute to keep the rhythm in their battle lines."
-    dewitt "Nothing girly about that, is there?"
+    dewitt "Уж поверь!"
+    dewitt "В средневековых армиях использовались флейты что бы задать нужный ритм для марширования."
+    dewitt "В этом нет ничего женского, так ведь?"
     show dewitt 1
     show player 12f
-    player_name "No, I guess not."
+    player_name "Нет, я думаю ничего."
     show player 5f
     show dewitt 2
-    dewitt "Maybe you should give it some thought then?"
+    dewitt "Может тогда обдумаешь это?"
     show dewitt 1
     show player 10f
-    player_name "Maybe..."
+    player_name "Может быть..."
     show player 5f
     show dewitt 2
-    dewitt "Excuse me, sugar, but I'd better get this class under control."
+    dewitt "Извини, сладкий, но мне нужно не на долго отвлечься."
     hide player
     hide dewitt
     with dissolve
 
     show studyclass02 with dissolve
-    show text "I spent the whole day trying not to play off tempo..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я потратил целый день на попытки играть в верном ритме..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     show studyclass03 with dissolve
-    show text "... finally the bell rang." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "... и, наконец, звонок прозвенел." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
     scene music_classroom_c
     show dewitt 2 with dissolve
-    dewitt "Well done everybody! That was an awesome jam session!"
-    dewitt "Now, before you all head out, I need a moment of your time!"
+    dewitt "Вы все отлично постарались! Это было прекрасное занятие!"
+    dewitt "Но перед тем как вы уйдете, я бы хотела задержать вас на пару минут!"
     show dewitt 14 at Position (xoffset=-127) with dissolve
-    dewitt "Hey!"
-    dewitt "{b}Tyrone{/b}, eyes up front!"
+    dewitt "Хэй!"
+    dewitt "{b}Tyrone{/b}, посмотри на меня!"
     show dewitt 13 at Position (xoffset=-127)
     tyrone "..."
     show dewitt 2 with dissolve
-    dewitt "Now, I wanted to remind everybody that the musical talent show is coming up, very soon."
-    dewitt "... And we still have a lot of open slots that need to be filled."
+    dewitt "Я бы хотела напомнить вам, что скоро начнется смотр музыкальных талантов."
+    dewitt "... И у нас остались свободные места, которые нужно заполнить."
     show dewitt 3 at Position (xoffset=-7)
-    dewitt "Remember, {b}I'm offering extra credit{/b} to everyone that participates."
+    dewitt "Remember, {b}I'm offering extra credit{/b} to everyone that participates.."
     player_name "!!!"
     show dewitt 2
-    dewitt "I'd really like to see this year's show go off without a hitch!"
-    dewitt "So please, don't hesitate to come and talk to me if you're interested."
+    dewitt "Так что я надеюсь на то, что в этом году всё пройдет без каких-либо проблем!"
+    dewitt "Так что прошу вас, не стесняйтесь подходить ко мне по этому поводу."
     show dewitt 3 at Position (xoffset=-7)
-    dewitt "Thanks and have a groovy afternoon, everybody!"
+    dewitt "Спасибо за внимание, удачного вечера!"
     show dewitt 1 at right with dissolve
     pause 0.5
     hide dewitt with dissolve
@@ -157,7 +157,7 @@ label music_classroom_dewitt_intro:
     player_name "Extra credit is just what I need!"
     show player 14
     player_name "I'll do anything to improve my grade at this point."
-    player_name "I should {b}talk with Ms. Dewitt about the talent show, tomorrow{/b}."
+    player_name "Нужно завтра {b}поговорить с Ms. Dewitt про смотр талантов{/b}."
     hide player with dissolve
     return
 
@@ -166,43 +166,43 @@ label music_classroom_dewitt_smith_berating:
     show dewitt 13 at left
     show principal 5 at right
     with dissolve
-    smi "You can't seriously be going forward with that pathetic talent show again!"
+    smi "Ты не можешь снова пытаться провечти этот смотр!"
     show principal 4 with dissolve
-    smi "Wasn't last year embarrassing enough for you?!"
+    smi "Разве прошлый год был недостаточно неловким для тебя?!"
     show principal 26 at Position (xoffset=-70)
     show dewitt 14
-    dewitt "... Why do you do this every year!?"
-    dewitt "I'm just trying to instill a love of music in these students and every year you shit all over it!"
+    dewitt "... Почему вы опять это делаете!?"
+    dewitt "Я просто пытаюсь привить этим детям любовь к музыке, а вы постоянно мешаете!"
     show dewitt 13
     show principal 27 at Position (xoffset=-70)
-    smi "Aww, poor little {b}Melody{/b}."
-    smi "At least you won't have to worry about it much longer..."
+    smi "Оу, бедная {b}Melody{/b}."
+    smi "Но, тебе больше не придется об этом волноваться..."
     show principal 26 at Position (xoffset=-70)
     show dewitt 14
-    dewitt "Ugh, what are you on about now?"
+    dewitt "Угх, что вы собираетесь делать?"
     show dewitt 13
     show principal 27 at Position (xoffset=-70)
-    smi "I've got a meeting with the school board this afternoon."
-    smi "You see, I told them all about the money you wasted on that joke of a talent show last year..."
-    smi "... And when it flops again this time, they've already agreed to let me reallocate the funding towards worthier endeavors."
+    smi "У меня была встреча со школьным советом."
+    smi "И знаешь что? Я рассказала им о том, сколько денег ты потратила на это смехотворное шоу в прошлом году..."
+    smi "... И они поручили мне перераспределить ресурсы на что-то более важное."
     show principal 26 at Position (xoffset=-70)
     show dewitt 14
-    dewitt "Worthier endeavors?"
-    dewitt "You can be a real bitch, you know that?"
+    dewitt "Более важное?"
+    dewitt "А вы можете быть настоящей сукой, знаете?"
     show dewitt 13
     show principal 5 with dissolve
-    smi "Hahaha!"
-    smi "I can't wait to see how you screw things up this time..."
+    smi "Хаха!"
+    smi "Не могу дождаться, как ты провалишься в этот раз..."
     show principal 26 at Position (xoffset=-70) with dissolve
     show dewitt 14
-    dewitt "*Grrr*"
-    dewitt "Just get out of my class room, would ya!?"
+    dewitt "*Грр*"
+    dewitt "Просто уходите из моего класса!"
     show dewitt 13
     show principal 38 with dissolve
-    smi "Hahahahaah!"
+    smi "Хахаха!"
     hide principal with dissolve
     show dewitt 12
-    dewitt "God, I hate that woman."
+    dewitt "Боже, я её ненавижу."
     hide dewitt with dissolve
     return
 
@@ -211,142 +211,142 @@ label music_classroom_dewitt_talent_show_help:
     show dewitt 10b at left
     show player 10f at right
     with dissolve
-    player_name "Hey there, {b}Ms. Dewitt{/b}."
+    player_name "Хей, {b}Ms. Dewitt{/b}."
     show player 5f
     show dewitt 11b
-    dewitt "Hello, sugar. How you doing?"
+    dewitt "Привет, сладкий. Как ты?"
     show dewitt 10b
     show player 10f
-    player_name "I'm alright."
+    player_name "Я в порядке."
     show player 14f
-    player_name "I was hoping I could talk to you about joining the talent show?"
+    player_name "Можно поговорить с вами об этом смотре талантов?"
     show player 13f
     show dewitt 11b
-    dewitt "Oh, well that's nic-"
+    dewitt "Ох, конечно же-"
     show dewitt 9
     pause 2
     show dewitt 11
-    dewitt "Wait. Did you just ask about the talent show?!"
+    dewitt "Стоп, ты только что спросил о смотре талантов?!"
     show dewitt 9
     show player 12f
-    player_name "... Yes?"
+    player_name "... Да?"
     show player 5f
     show dewitt 3 with dissolve
-    dewitt "Oh my goodness!"
+    dewitt "О мой бог!"
     show dewitt 4 with dissolve
     show player 10f
-    player_name "Uhh, you alright, {b}Ms. Dewitt{/b}?"
+    player_name "Ух, вы в порядке, {b}Ms. Dewitt{/b}?"
     show player 5f
     show dewitt 11
-    dewitt "I'm just a bit emotional is all."
+    dewitt "Я просто немного на эмоциях."
     show dewitt 11b
-    dewitt "{b}Principal Smith{/b} is looking for any excuse she can find to cancel the talent show this year."
+    dewitt "{b}Principal Smith{/b} пытается найти способ отменить шоу в этом году."
     show dewitt 12
-    dewitt "... And so far I only have one volunteer."
+    dewitt "... Так что у меня только один доброволец."
     show dewitt 10b
     show player 12f
-    player_name "Who?"
+    player_name "Кто?"
     show player 5f
     show dewitt 11
     dewitt "{b}Tyrone{/b}."
-    dewitt "... But I can't just have him play solo the entire time!"
+    dewitt "... Но он ни разу ещё не смог сыграть соло!"
     show dewitt 10
     show player 14f
-    player_name "Well, I'll join and I'll ask around too!"
+    player_name "Что же, я тоже хочу присоединиться!"
     show dewitt 4
-    player_name "Maybe I can find you more volunteers?"
+    player_name "Может я попытаюсь найти ещё добровольцев?"
     hide player
     show dewitt 6 at right
     with dissolve
-    dewitt "Oh, bless you, sugar!"
-    dewitt "That would be wonderful!"
+    dewitt "Ох, спасибо тебе, милый!"
+    dewitt "Это было бы просто прекрасно!"
     show dewitt 7
     pause
     show dewitt 15 at left
     show player 14f at right
     with dissolve
-    player_name "Heh, it's no problem..."
+    player_name "Хех, никаких проблем..."
     show player 13f
     show dewitt 3 with dissolve
-    dewitt "Oh, {b}[firstname]{/b}, you just flipped my day rightside up again!"
+    dewitt "Ох, {b}[firstname]{/b}, ты только что заставил меня переосмыслить мой взгляд на сегодняшний день!"
     show dewitt 1
     show player 14f
-    player_name "Glad I could help make you happy!"
+    player_name "Я рад, что вам стало лучше!"
     show player 13f
     show dewitt 2
-    dewitt "Such a sweet little man..."
-    dewitt "What instrument did you want to play?"
+    dewitt "Какой милый молодой человек..."
+    dewitt "На каком инструменте ты хочешь играть?"
     show dewitt 1
     show player 14f
-    player_name "Well, I dunno. I like the drums."
+    player_name "Ну, я даже не знаю. Мне вроде понравились барабаны."
     show player 13f
     show dewitt 8 with dissolve
-    dewitt "Heh, oh yeah. I remember our little drumming session from yesterday."
+    dewitt "Хех, о да. Я помню, как мы вчера поиграли на барабанах."
     show dewitt 15
     show player 10f
-    player_name "... Again, I'm really sorry about that."
+    player_name "... И я хочу ещё раз за это извиниться."
     show player 5f
     show dewitt 16
-    dewitt "Don't you worry about it, sugar."
+    dewitt "Не переживай об этом, сладкий."
     show dewitt 17 with dissolve
     show player 11f
-    dewitt "These ladies have a habit of getting in the way."
-    dewitt "You wouldn't believe how hard they make it for me to play the guitar."
-    dewitt "... I think they just like the attention."
+    dewitt "Эти девочки имеют некоторые неудобные привычки."
+    dewitt "Ты не представляешь, как сильно они мне мешают играть на гитаре."
+    dewitt "... Я думаю, что они просто любят привлекать к себе внимание."
     show dewitt 15 with dissolve
     show player 13f
     player_name "..."
     show dewitt 5
-    dewitt "Anyway, I'm afraid {b}Tyrone{/b} already signed up to play the drums."
+    dewitt "Но я боюсь, что {b}Tyrone{/b} уже записался на барабаны."
     show dewitt 16
-    dewitt "I know you'd play them with enthusasim from your playful love taps yesterday."
+    dewitt "Я знаю, что ты бы играл на них с присущим тебе энтузиазмом."
     show dewitt 4
     show player 10f
-    player_name "He did?"
+    player_name "Он уже?"
     show player 12f
-    player_name "Hmm, I dunno what to choose..."
+    player_name "Хмм, даже не знаю, что выбрать..."
     show player 10f
-    player_name "What do you think?"
+    player_name "А вы что думаете?"
     show player 5f
     show dewitt 5
-    dewitt "Well, how about the flute?"
+    dewitt "Ну, что надумал про флейту?"
     show dewitt 4
     show player 12f
-    player_name "Ugh, not this again..."
+    player_name "Ух, только не опять..."
     show player 5f
     show dewitt 8
-    dewitt "Oh, c'mon!"
+    dewitt "Да ладно тебе!"
     show dewitt 5
-    dewitt "There's nothing finer than a man who knows how to handle his flute!"
+    dewitt "Нет ничего лучше чем мужчина, который знает, как обращаться со своей флейтой!"
     show dewitt 4
     player_name "..."
     show player 12f
-    player_name "For real?"
+    player_name "Серьёзно?"
     show player 5f
     show dewitt 5
-    dewitt "You better believe it!"
+    dewitt "Ну уж поверь мне!"
     show dewitt 8
-    dewitt "I'll even give you free lessons!"
+    dewitt "Я даже дам тебе несколько бесплатных уроков!"
     show dewitt 4
     show player 10f
-    player_name "You know how to play the flute?"
+    player_name "Ты умеешь играть на флейте?"
     show player 5f
     show dewitt 16
-    dewitt "Oh, sugar. My skill with the flute is unrivaled!"
-    dewitt "I can work miracles with this mouth!"
+    dewitt "Ох, милый. Мои умения просто невероятны!"
+    dewitt "Я могу творить чудеса этим ртом!"
     show dewitt 15
     show player 14f
-    player_name "Well, I suppose I could try it if you're willing to give me free lessons."
+    player_name "Ладно, я попробую, если вы и правда собираетесь дать мне бесплатные уроки."
     show player 13f
     show dewitt 16
-    dewitt "I'm more than willing."
+    dewitt "О, ещё как собираюсь."
     show dewitt 15
     show player 14f
-    player_name "Alright, I guess I'll take the flute then."
+    player_name "Окей, тогда я попробую флейту."
     show player 13f
     show dewitt 5
-    dewitt "Good decision, {b}[firstname]{/b}!"
-    dewitt "Let me just go get it. One sec."
+    dewitt "Отличное решение, {b}[firstname]{/b}!"
+    dewitt "Сейчас её принесу. Секунду."
     hide dewitt with dissolve
     pause
     pause
@@ -356,19 +356,19 @@ label music_classroom_dewitt_talent_show_help:
     show player 13f with dissolve
     pause
     show dewitt 11 at left with dissolve
-    dewitt "Um, well we did have one."
+    dewitt "Ну, одна у нас точно была."
     show dewitt 10b
-    dewitt "Hmm. I wonder where it went."
+    dewitt "Хмм, куда же она делась."
     show dewitt 11
-    dewitt "I must have loaned it out earlier this year."
-    dewitt "I guess they never returned it, though."
+    dewitt "Я вроде давала её кому-то в этом году."
+    dewitt "Хотя, обычно их не возвращают, да?"
     dewitt "Why don't you take a peek at the {b}instrument sign-out sheet inside the classroom locker{/b}."
     show dewitt 4
     show player 14f
-    player_name "Alright! I'll go and have a look!"
+    player_name "Окей, я гляну!"
     show player 13f
     show dewitt 5
-    dewitt "Hurry back, sugar!"
+    dewitt "Возвращайся скорее, сладкий!"
     hide player
     hide dewitt
     with dissolve
@@ -378,9 +378,9 @@ label music_classroom_music_sheet:
     scene music_classroom_c
     show music_checkout_form with dissolve
     pause
-    player_name "Hmm..."
-    player_name "It looks like {b}Judith{/b} was the last person to checkout the school's flute."
-    player_name "{b}I guess I'd better track her down{/b}!"
+    player_name "Хмм..."
+    player_name "Судя по всему, {b}Judith{/b} была последней, кто брал школьную флейту."
+    player_name "{b}Лучше бы мне её поскорее найти{/b}!"
     hide music_checkout_form with dissolve
     $ game.main()
 
@@ -389,76 +389,76 @@ label music_classroom_dewitt_return_flute:
     show dewitt 1 at left
     show player 14f at right
     with dissolve
-    player_name "Hey, {b}Ms. Dewitt{/b}."
-    player_name "I found the school's flute."
+    player_name "Хей, {b}Ms. Dewitt{/b}."
+    player_name "Я нашел эту флейту."
     show player 13f
     show dewitt 2
-    dewitt "I knew you would, sugar!"
+    dewitt "Я знала, что ты сможешь, сладкий!"
     show dewitt 1
     show player 10f
-    player_name "... But I'm afraid it's broken beyond repair."
+    player_name "... Но, я боюсь, она сломана."
     show player 5f
     show dewitt 11b with dissolve
-    dewitt "Broken!? What are we gonna do?"
+    dewitt "Сломана?! И что же нам делать?"
     show dewitt 10b
     show player 14f
-    player_name "Well, I kinda, made one!"
+    player_name "Ну, я типа, сделал одну флейту!"
     show player 239_240f with dissolve
     pause
     show player 567cf with dissolve
-    player_name "What do you think?"
+    player_name "Что думаешь?"
     show player 567bf
     show dewitt 5
-    dewitt "Wow! You made that?!"
+    dewitt "Вау! Ты сделал это сам?!"
     show dewitt 4
     show player 567cf
-    player_name "Yeah, at home in my garage."
+    player_name "Да, дома в гараже."
     show player 567bf
     show dewitt 16
-    dewitt "You're really good with wood, huh?"
+    dewitt "А ты не плохо обращаешься с деревом, да?"
     show dewitt 15
     show player 567cf
-    player_name "I know right?"
+    player_name "Да, вроде того."
     show player 567bf
     show dewitt 5
-    dewitt "Mind if I take a closer look?"
+    dewitt "Можно мне посмотреть по ближе?"
     show dewitt 4
     show player 567cf
-    player_name "Sure!"
+    player_name "Конечно!"
     show player 13f with dissolve
     show dewitt 34 with dissolve
-    dewitt "The length and girth are..."
-    dewitt "Perfect."
-    dewitt "When you're done with this flute, I wouldn't mind borrowing it for a night or two!"
+    dewitt "Длина и обхват просто..."
+    dewitt "Прекрасны."
+    dewitt "Раз уж ты сделал эту флейту, я хочу у тебя спросить, можно мне одолжить её на пару ночей?!"
     show dewitt 33
     show player 11f
     player_name "???"
     show dewitt 34
-    dewitt "What? I like breaking in new instruments!"
+    dewitt "Что? Я просто люблю новые инструменты!"
     show dewitt 33
     show player 14f
-    player_name "Alright, deal."
-    player_name "I tried playing it earlier. It isn't too hard!"
+    player_name "Окей, я не против."
+    player_name "Я попытался сыграть на ней. Это не очень-то сложно!"
     show player 13f
     show dewitt 40 with dissolve
-    dewitt "Great! Here's the sheet music for the concert. You're part shouldn't be to difficult."
-    dewitt "Practice every night and you'll be ready for the concert in no time."
+    dewitt "Прекрасно! Вот список песен для концерта. Твоя часть не должна быть очень тяжелой."
+    dewitt "Практикуйся каждую ночь, и ты точно будешь готов."
     show dewitt 4 with dissolve
     show player 386f with dissolve
-    player_name "Alright, {b}Ms. Dewitt{/b}. I will!"
+    player_name "Окей, {b}Ms. Dewitt{/b}. Так и поступлю!"
     show player 385f
     show dewitt 5
-    dewitt "Now if you don't mind lets hear what you can do! Class is just about to start."
+    dewitt "А теперь, если ты не против, продемонстрируй, что ты можешь! Урок уже скоро начнется."
     show dewitt 4
     show player 386f
-    player_name "Okay."
+    player_name "Окей."
     hide player
     hide dewitt
     with dissolve
 
     scene music_class_cs05
     with fade
-    show text "It was weird not sitting with the percussion section...\n... but sitting in the flute section had its perks though." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Было немного странно сидеть не в секторе ударных...\n... Но, я думаю, в секторе духовых есть свои плюшки." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -470,51 +470,51 @@ label music_classroom_dewitt_talent_show_progress:
     show player 13f at right
     show dewitt 2 at left
     with dissolve
-    dewitt "Well hello there, {b}[firstname]{/b}."
-    dewitt "Have you been practicing those fingerings I taught you?"
+    dewitt "Что ж, привет, {b}[firstname]{/b}."
+    dewitt "Ты уже начал практиковать фингеринг, который я тебе показала?"
     show dewitt 1
     show player 10f
-    player_name "F-fingerings?"
+    player_name "Ф-фингеринг?"
     show player 11f
     show dewitt 8 with dissolve
-    dewitt "You know, on the flute, silly."
+    dewitt "Ну, на флейте, глупышка."
     show dewitt 4
     show player 17f
-    player_name "O-oh yeah! I think I'm getting pretty good."
+    player_name "О-ох, да! Я думаю, что становлюсь неплохим музыкантом."
     show player 14f
-    player_name "You're a great teacher, {b}Ms. Dewitt{/b}!"
+    player_name "Вы прекрасный учитель, {b}Ms. Dewitt{/b}!"
     show player 13f
     show dewitt 5
-    dewitt "Well, you're a fast learner, sugar."
+    dewitt "А ты быстро учишься, сладкий."
     show dewitt 11
-    dewitt "I just hope we get more students to sign up soon, otherwise we might have to cancel the show."
+    dewitt "Я просто надеюсь, что запишется больше учеников. Или нам придется отменить смотр."
     show dewitt 10
     show player 12f
-    player_name "You still haven't had any volunteers?"
+    player_name "До сих пор нет новых добровольцев?"
     show player 5f
     show dewitt 11b
-    dewitt "Nope, not a one."
+    dewitt "Неа, ни одного."
     show dewitt 12
-    dewitt "I'm starting to get worried, {b}[firstname]{/b}..."
+    dewitt "Я начинаю волноваться, {b}[firstname]{/b}..."
     show dewitt 10b
     show player 14f
-    player_name "There's still time, {b}Ms. Dewitt{/b}."
-    player_name "I'll bet I can round up a few people for you!"
+    player_name "У нас ещё есть время, {b}Ms. Dewitt{/b}."
+    player_name "Я уверен, что смогу найти ещё людей!"
     show player 13f
     show dewitt 11
-    dewitt "You'd really do that?"
+    dewitt "Ты правда это сделаешь?"
     show dewitt 10
     show player 33f
-    player_name "Absolutely!"
+    player_name "Абсолютно!"
     show player 13f
     show dewitt 5
-    dewitt "Oh, you're so sweet!"
+    dewitt "Ох, ты такой милый!"
     show dewitt 4
     show player 14f
-    player_name "Heh, lemme go see who I can convince."
+    player_name "Хех, просто нужно понять, кого я смогу убедить."
     show player 13f
     show dewitt 3 with dissolve
-    dewitt "Good luck, sugar!"
+    dewitt "Удачи, сладкий!"
     hide player
     hide dewitt
     with dissolve
@@ -526,54 +526,54 @@ label music_classroom_dewitt_talent_get:
     show dewitt 4 at Position (xpos=110)
     show player 14f at right
     with dissolve
-    player_name "I found two more volunteers for the talent show!"
+    player_name "Я нашел ещё двух добровольцев на смотр талантов!"
     show player 13f
     show dewitt 5
-    dewitt "Really?! Who did you find and what do they play?"
+    dewitt "Правда?! Кого ты нашел, и на чем они играют?"
     show dewitt 4
     show player 14f
-    player_name "Well, it turns out that {b}Eve{/b} is a singer."
+    player_name "Ну, {b}Eve{/b} певица."
     show player 13f
     show dewitt 5
-    dewitt "You don't say! Is she any good?"
+    dewitt "Да ладно! И насколько она хороша?"
     show dewitt 4
     show player 14f
-    player_name "She's got a voice like an angel, you won't believe it!"
+    player_name "У неё просто ангельский голос!"
     show player 13f
     show dewitt 5
-    dewitt "That's wonderful! Who else did you get?"
+    dewitt "Это прекрасно! Кто ещё?"
     show dewitt 4
     show player 14f
-    player_name "{b}Kevin{/b} is gonna play the guitar."
+    player_name "{b}Kevin{/b} будет играть на гитаре."
     show player 13f
     show dewitt 5
-    dewitt "Well now you're getting me excited! I've heard {b}Kevin{/b} play before and he's very talented."
+    dewitt "Вот сейчас ты меня впечатлил! Я слышала, что {b}Kevin{/b} очень талантливый."
     show dewitt 4
     show player 14f
-    player_name "Yeah, I've heard good things."
+    player_name "Да, я тоже слышал только хорошее."
     show player 13f
     show dewitt 5
-    dewitt "Lord, {b}[firstname]{/b}! You've got the makings of your very own band!"
+    dewitt "Боже, {b}[firstname]{/b}! Да ты просто сколотил неплохую группу!"
     show dewitt 8
-    dewitt "As a matter of fact! That's not a bad idea!"
+    dewitt "Хей, а это ведь неплохая идея!"
     show dewitt 4
     show player 10f
-    player_name "Huh?"
+    player_name "Ха?"
     show player 5f
     show dewitt 5
-    dewitt "For the finale of the show, we should have all three of you play something together!"
+    dewitt "Нужно чтобы вы сыграли что-нибудь вместе для завершения смотра!"
     show dewitt 4
     show player 10f
-    player_name "Really?"
+    player_name "Серьёзно?"
     show player 11f
     show dewitt 8
-    dewitt "Absolutely! It's perfect!"
+    dewitt "Да! Это будет просто прекрасно!"
     show dewitt 4
     show player 14f
-    player_name "Heh, okay. If that's what you want?"
+    player_name "Хех, окей. Если вы этого хотите..."
     show player 13f
     show dewitt 5
-    dewitt "Oh, yay!! I can't wait to see this show!"
+    dewitt "Ох, вау! Я просто не могу дождаться смотра!"
     show dewitt 23 at Position (xoffset=45) with dissolve
     pause
     show dewitt 22 at Position (xoffset=45) with dissolve
@@ -587,31 +587,31 @@ label music_classroom_dewitt_talent_get:
 
     show player 11f
     show dewitt 25 at Position (xoffset=69) with dissolve
-    dewitt "Oh! shit!"
-    dewitt "My bad, {b}[firstname]{/b}..."
-    dewitt "My girls are trying to celebrate too!"
+    dewitt "Ох! Черт!"
+    dewitt "Это моя вина, {b}[firstname]{/b}..."
+    dewitt "Мои девчёнки тоже хотели это отпраздновать!"
 
     show player 14f
-    player_name "Heh, it's alright. I don't mind."
+    player_name "Хех, всё в порядке."
     show player 13f
     show dewitt 16 with dissolve
-    dewitt "Oh, I bet you don't, sugar!"
-    dewitt "I guess you can consider that a little extra reward for all your hard work."
-    dewitt "If we manage to pull this talent show off, I might let you have a private viewing."
+    dewitt "Я надеюсь на это, сладкий!"
+    dewitt "Может подумаешь о дополнительной награде за твои старания?"
+    dewitt "Если мы нормально проведем смотр, мы с тобой можем провести приватную сессию."
     show dewitt 15
     show player 11f
-    player_name "*Gulp*."
+    player_name "*Глоть*."
     show dewitt 8
-    dewitt "Aww, you're such a cutie!"
+    dewitt "Оу, ты такой милый!"
     show dewitt 4
     show player 14f
-    player_name "I should probably get back to practicing."
+    player_name "Мне, наверное, стоит дальше практиковаться."
     show player 13f
     show dewitt 5
-    dewitt "Now that's a good idea. Thanks again, {b}[firstname]{/b}."
+    dewitt "Отличная идея. Ещё раз спасибо, {b}[firstname]{/b}."
     show dewitt 4
     show player 36f with dissolve
-    player_name "Bye, {b}Ms. Dewitt{/b}."
+    player_name "Пока, {b}Ms. Dewitt{/b}."
     hide player
     hide dewitt
     with dissolve
@@ -625,75 +625,75 @@ label music_classroom_dewitt_music_sheets:
     pause
     show player 13f zorder 1 at Position (xpos=700) with dissolve
     show dewitt 2
-    dewitt "Oh good, you're here, {b}[firstname]{/b}."
-    dewitt "I was just handing out the music sheets."
+    dewitt "О, хорошо, что ты тут, {b}[firstname]{/b}."
+    dewitt "А я тут готовила нотные листы."
     show dewitt 1
     show player 10f
-    player_name "Music sheets?"
+    player_name "Нотные листы?"
     show player 5f
     show dewitt 2
-    dewitt "For the finale, remember?"
+    dewitt "Для финального выступления, помнишь?"
     show dewitt 1
     show player 17f
-    player_name "Oh, right. Yeah, I remember."
+    player_name "Ох, точно."
     show player 13f
     show kevin 26 with dissolve
-    kev "It's actually a pretty cool song!"
+    kev "Это отличная песня!"
     show kevin 23 with dissolve
     show dewitt 2
-    dewitt "Heh, well of course it is!"
+    dewitt "Хех, кончено же!"
     show dewitt 3
-    dewitt "Look at who you're working with here mister!"
+    dewitt "Вы ведь работаете с мастером своего дела!"
     show dewitt 1
     show player 10f
-    player_name "Shouldn't {b}Eve{/b} be here?"
+    player_name "Разве {b}Eve{/b} не должна быть здесь?"
     show player 13f
     show kevin 24
-    kev "She's here..."
-    kev "... or well, she was."
+    kev "Она здесь..."
+    kev "... то есть, она была здесь."
     show kevin 23
     show dewitt 2
-    dewitt "She went to grab something from her locker."
+    dewitt "Она пошла взять что-то из своего ящичка."
     show dewitt 1
     show player 14f
-    player_name "Did she like the song too?"
+    player_name "Ей тоже понравилась песня?"
     show player 13f
     show dewitt 2
-    dewitt "You better believe it!"
+    dewitt "Ещё как!"
     show dewitt 1
     show player 14f
-    player_name "Looks like everything is going to work out then, huh?"
+    player_name "Ну, тогда всё будут практиковаться, да?"
     show player 13f
     show dewitt 2
-    dewitt "Yeah, all thanks to you, sugar!"
+    dewitt "Да, и всё благодаря тебе, сладкий!"
     show dewitt 4 with dissolve
     show kevin 24
-    kev "I can't wait to get up there and start playing! The crowd is gonna love this!"
+    kev "Я уже не могу дождаться! Толпа будет просто в восторге!"
     show kevin 23
     show player 11f
     show dewitt 9
     eve "{b}Miss Dewitt{/b}!"
     show eve 2b zorder 0 at Position (xpos=500) with fastdissolve
-    eve "Guys, come quick! You're not going to believe this!"
+    eve "Быстрее сюда! Вы не поверите!"
     show eve 1
     show dewitt 11
-    dewitt "What's that matter, sweetie?"
+    dewitt "Что случилось, милая?"
     show dewitt 10
     show eve 2b
-    eve "Someone vandalized the auditorium!"
+    eve "Кто-то произвел акт вандализма в аудитории!"
     show eve 1
     show kevin 24
     show player 23f
     show dewitt 11b
-    dewitt "What!?!"
+    dewitt "Что!?!"
     show dewitt 10b
     show eve 2b
-    eve "Yeah, there's graffiti everywhere!"
+    eve "Да, тут повсюда граффити!"
     show eve 1
     show player 22f
     hide dewitt with dissolve
     show eve 2bf at Position (xpos=300) with dissolve
-    eve "C'mon guys!"
+    eve "Да ладно!"
     hide player
     hide eve
     hide kevin
@@ -705,19 +705,19 @@ label music_classroom_dewitt_check_up:
     show dewitt 9f at left
     show player 10f at right
     with dissolve
-    player_name "{b}Miss Dewitt{/b}, you in here?"
+    player_name "{b}Miss Dewitt{/b}, вы тут?"
     show player 11f
     show dewitt 9d with dissolve
-    dewitt "Yeah, I'm right here, sugar."
+    dewitt "Да, я прямо тут, сладкий."
     show dewitt 9c
     show player 10f
-    player_name "You alright?"
+    player_name "Вы в порядке?"
     show player 11f
     show dewitt 9d
-    dewitt "Oh, I'll be okay. I'm just a little down in the dumps at the moment."
+    dewitt "Ох, всё будет в порядке. Я просто немного подавлена в данный момент."
     show dewitt 9f with dissolve
     show player 25f
-    player_name "( Hmm, I guess I should give her some space for the time being. )"
+    player_name "( Хмм, я думаю, ей нужно немного побыть одной. )"
     hide player
     hide dewitt
     with dissolve
@@ -728,34 +728,34 @@ label music_classroom_dewitt_find_dewitt:
     show dewitt 9f at left
     show player 14f at right
     with dissolve
-    player_name "{b}Miss Dewitt{/b}, you in here?"
+    player_name "{b}Miss Dewitt{/b}, вы тут?"
     show player 13f
     show dewitt 9d with dissolve
-    dewitt "Yeah, I'm right here, sugar."
+    dewitt "Да, я тут, сладкий."
     show dewitt 9c
     show player 10f
-    player_name "You alright?"
+    player_name "Вы в порядке?"
     show player 5f
     show dewitt 9d
-    dewitt "Oh, I'll be okay. I'm just a little down in the dumps at the moment."
+    dewitt "Ох, всё будет в порядке. Я просто немного подавлена в данный момент"
     show dewitt 9f with dissolve
     show player 14f
-    player_name "I have a surprise for you!"
+    player_name "У меня для вас сюрприз!"
     show player 13f
     show dewitt 9d with dissolve
-    dewitt "I'm not really in the mood for games, {b}[firstname]{/b}..."
+    dewitt "Я не в настроении для игр, {b}[firstname]{/b}..."
     show dewitt 9c
     show player 14f
-    player_name "No games. Seriously, I have something that's gonna cheer you up!"
+    player_name "Никаких игр. Серьёзно, у меня есть кое-что, что сможет вас утешить!"
     show player 13f
     show dewitt 9d
-    dewitt "Oh, sugar. You're so sweet."
+    dewitt "Ох, ты такой милый."
     show dewitt 9c
     show player 14f
-    player_name "Come with me!"
+    player_name "Пойдемте со мной!"
     show player 13f
     show dewitt 9d
-    dewitt "*Sigh* Alright, lead the way."
+    dewitt "*Вдох* Ладно, веди меня."
     hide player
     hide dewitt
     with dissolve
@@ -766,23 +766,23 @@ label music_classroom_dewitt_talent_show_practice:
     show player 13f at right
     show dewitt 2 at left
     with dissolve
-    dewitt "Hey there, {b}[firstname]{/b}!"
+    dewitt "Хей, {b}[firstname]{/b}!"
     show dewitt 1
     show player 14f
-    player_name "Hey {b}Miss Dewitt{/b}!"
+    player_name "Хей, {b}Miss Dewitt{/b}!"
     show player 13f
     show dewitt 3
-    dewitt "You ready for practice?"
+    dewitt "Готов попрактиковаться?"
     show dewitt 1
     show player 17f
-    player_name "You bet!"
+    player_name "А то!"
     show player 13f
     show dewitt 2
-    dewitt "Go take a seat then, sugar."
+    dewitt "Тогда присаживайся, сладкий."
 
     scene music_class_cs06
     with fade
-    show text "Practicing with {b}Kevin{/b} and {b}Eve{/b} was so much fun!\nWe were going to slay at the {b}Talent Show{/b} for sure!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Практиковаться с {b}Kevin{/b} и {b}Eve{/b} было весело!\nМы просто зажжем на  {b}Смотре Талантов{/b}!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -792,147 +792,147 @@ label music_classroom_dewitt_talent_show_practice:
     show kevin 23 at Position (xpos=600)
     show player 14 at left
     with dissolve
-    player_name "That was a good session. We're sounding really good, you guys!"
+    player_name "Это была отличная репетиция. Мы прекрасно звучим!"
     show player 13
     show eve 6
-    eve "Yeah, this is so much fun!"
+    eve "Да, и это так весело!"
     show eve 5
     show kevin 24
-    kev "It's a shame we'll never get to play..."
+    kev "Жаль, что мы никогда не поиграем..."
     show kevin 24b
     show player 5
     player_name "..."
     show eve 2b
-    eve "Huh? What are you talking about, {b}Kevin{/b}?"
+    eve "Хех? О чем ты, {b}Kevin{/b}?"
     show eve 1
     show kevin 24f with dissolve
-    kev "There's no way {b}Principal Smith{/b} is going to let this {b}Talent Show{/b} actually happen!"
-    kev "{b}[firstname]{/b} and I heard her and {b}Annie{/b} plotting."
-    kev "They're bound to have something up their sleeve!"
+    kev "{b}Principal Smith{/b} никогда не допустит этого {b}Смотра Талантов{/b}!"
+    kev "{b}[firstname]{/b} и я слышали планы {b}Annie{/b}."
+    kev "У них явно есть что-то в рукаве!"
     show kevin 24bf
     show eve 2b
-    eve "... Shouldn't we tell {b}Miss Dewitt{/b}?"
+    eve "... Может расскажем {b}Miss Dewitt{/b}?"
     show eve 1
     show kevin 24f
-    kev "Why? There's nothing she can do to stop it..."
+    kev "Зачем, она всё равно ничего не сможет сделать..."
     show kevin 24bf
     show player 10
-    player_name "It'll just upset her."
+    player_name "Это просто её расстроит."
     show player 12
-    player_name "We're going to have to deal with {b}Principal Smith{/b} ourselves!"
+    player_name "Мы сами должны разобраться с {b}Principal Smith{/b}!"
     show player 13
     show kevin 20 with dissolve
     pause
     show kevin 32 with dissolve
-    kev "I'm in!"
+    kev "Я за!"
     show kevin 23
     show eve 9f
     eve "..."
     show eve 2b
-    eve "You guys are serious?"
-    eve "{b}Principal Smith{/b} will expel us in a heartbeat if she catches us messing with her..."
+    eve "Вы серьёзно?"
+    eve "{b}Principal Smith{/b} выгонет нас, если поймет, что мы пытаемся ей помешать..."
     show eve 1
     show kevin 24f with dissolve
-    kev "So? You just wanna let her shit all over {b}Miss Dewitt's Talent show{/b}?!"
+    kev "И? Хочешь позволить ей испортить {b}Смотр Талантов Miss Dewitt{/b}?!"
     show kevin 24bf
     show eve 2b
-    eve "I'm not saying that!"
-    eve "... It's just... We have to be careful! That's all."
-    eve "My {b}Sister{/b} will {b}KILL{/b} me if I get expelled!"
+    eve "Я этого не говорила!"
+    eve "... Просто... Нам нужно быть аккуратнее! Только и всего."
+    eve "Моя {b}сестра{/b}  {b}убьет{/b} меня, если меня исключат!"
     show eve 1
     show player 14
-    player_name "You don't have to be involved, {b}Eve{/b}. {b}Kevin{/b} and I can handle it."
+    player_name "Тебе не нужно сюда влезать, {b}Eve{/b}. Мы с {b}Kevin{/b} сами справимся."
     show player 13
     show eve 7
-    eve "Pfft, yeah right!"
+    eve "Пфф, ну да!"
     show eve 6b
-    eve "I can't wait to hear the plan you two Numbskulls come up with!"
+    eve "Не могу дождаться того момента, когда услышу ваш глупый план!"
     show eve 6
-    eve "It'll fail for sure without my feminine wiles!"
+    eve "Он точно провалится без моих женских уловок!"
     show eve 5
     show player 14
-    player_name "Heh, Good. It'll be a lot easier with three people."
+    player_name "Хех, хорошо, С тремя людьми будет намного проще."
     show player 13
     show kevin 9b with dissolve
-    kev "So what's the plan, {b}[firstname]{/b}?"
+    kev "Так что за план, {b}[firstname]{/b}?"
     show kevin 23
     show player 10
-    player_name "We just have to figure out a way to keep {b}Principal Smith{/b} and {b}Annie{/b} as far away from the {b}auditorium{/b} as possible!"
+    player_name "Нужно просто держать {b}Principal Smith{/b} и {b}Annie{/b} подальше от {b}аудитории{/b}!"
     show player 5
     show kevin 20 with dissolve
     kev "..."
     show eve 2b
-    eve "You mean, like trapping them somewhere?"
+    eve "Ты предлагаешь их где-то запереть?"
     show eve 1
     show player 11
     player_name "!!!"
     show player 35
-    player_name "That's not a bad idea..."
+    player_name "А это неплохая идея..."
     show kevin 23 with dissolve
-    player_name "We could trap them in {b}Principal Smith's{/b} office until the {b}Talent Show{/b} is over!"
+    player_name "Мы можем запереть их в офисе {b}Principal Smith{/b} до конца {b}Смотра Талантов{/b}!"
     show player 13
     show eve 6
-    eve "See, I told you... Feminine wiles!"
+    eve "Видишь, я же говорила - женские уловки!"
     show eve 5
     show kevin 9b
-    kev "Yeah, yeah... We're very impressed. How exactly are we supposed to trap them in her office though?!"
+    kev "Да-да... Мы просто поражены. И как именно мы запрем их в офисе?!"
     show kevin 23
     show player 4 with dissolve
     eve "..."
     player_name "..."
     show eve 6b
-    eve "What? Do I have to plan the entire thing myself?!"
+    eve "Что? Я должна сама всё продумать?!"
     show eve 1
     show player 10 with dissolve
-    player_name "Well, we can't just lock them in there. Annie has a {b}Masterkey{/b} to the entire school."
+    player_name "Мы не можем их запереть. У Annie есть {b}мастерключ{/b} для всех замков в школе."
     show player 5
     show kevin 24
-    kev "... Yeah and even if she didn't. {b}Principal Smith{/b} would probably just send her out the window for help."
+    kev "... А даже если и нет. {b}Principal Smith{/b} просто пошлет её через окно за помощью."
     show kevin 23
     show eve 6
-    eve "Haha, I would pay to see that!"
+    eve "Хаха, да я бы заплатила за это зрелище!"
     show eve 5
     show player 10
-    player_name "So we need to incapacitate them somehow..."
+    player_name "Значит нам нужно как-то вывести их из строя..."
     show player 5
     show kevin 20 with dissolve
     kev "..."
     show eve 2
-    eve "{b}My sister{/b} has a taser at the shop... We could zap them?"
+    eve "{b}У моей сестры{/b} есть тайзер в магазине... Может просто пальнем в них?"
     show eve 1
     show player 10
-    player_name "That's a little extreme don't you think?"
+    player_name "Это немного перебор, не думаешь?"
     show player 5
     show kevin 21
-    kev "It's not like {b}Principal Smith{/b} doesn't deserve it..."
+    kev "Не то что бы {b}Principal Smith{/b} не заслужила..."
     show kevin 23 with dissolve
     show player 12
-    player_name "No tasers!"
+    player_name "Никаких тайзеров!"
     show player 10
-    player_name "... {b}Principal Smith{/b} might be pure evil but I don't think {b}Annie{/b} is..."
-    player_name "She's just misguided."
+    player_name "... {b}Principal Smith{/b} может и истинное зло, но {b}Annie{/b}..."
+    player_name "Она просто запуталась."
     show player 5
     show eve 2
-    eve "Well, that's the only idea I've got."
+    eve "Это единственная идея, которая у меня есть."
     show eve 1
     show player 34
     player_name "..."
     show kevin 22 with dissolve
-    kev "Wait a second!"
+    kev "Подождите!"
     show player 13
-    kev "I've got it!"
+    kev "Вот оно!"
     kev "Remember that adhesive we made in {b}Miss Okita's{/b} class awhile back?!"
     show kevin 23 with dissolve
     show player 10
-    player_name "... No?"
+    player_name "... Нет?"
     show player 5
     show kevin 9b
-    kev "Ah that's right, you weren't back at school yet."
+    kev "Да, ты же ещё не вернулся в тот момент."
     show kevin 23f with dissolve
     show eve 2
-    eve "I remember."
+    eve "Я помню."
     show eve 6
-    eve "That stuff was like insanely sticky! You needed a chemical solvent to neutralize it..."
+    eve "Эта штука была очень липкая! Чтобы нейтрализовать её, нужен растворитель..."
     show eve 1
     show kevin 32f
     kev "Exactly!"
@@ -940,53 +940,53 @@ label music_classroom_dewitt_talent_show_practice:
     kev "Remember how {b}Dexter{/b} got his hand stuck to his forehead?!"
     show kevin 23f
     show eve 6
-    eve "Hahaha! Yeah! That shit was hilarious!"
-    eve "It took {b}Miss Okita{/b} twenty minutes to get him sorted out."
+    eve "Хаха! Да! Это было очень забавно!"
+    eve "{b}Miss Okita{/b} понадобилась 20 минут чтобы от неё избавиться."
     show eve 5
     show player 14
-    player_name "Wow! It's that strong?"
+    player_name "Воу! Она настолько мощная?"
     show player 13
     show kevin 32 with dissolve
-    kev "Yeah, bro! This stuff is wicked!"
+    kev "Ага! Эта штука просто ужасна!"
     show kevin 23
     show eve 2b
-    eve "Do you remember how to make it?"
+    eve "Помнишь, как её сделать?"
     show eve 1
     show kevin 9bf with dissolve
-    kev "I think so, yeah."
+    kev "Да, вроде бы."
     show kevin 23f
     show player 14
-    player_name "So what are you proposing?"
+    player_name "И что вы предлагаете?"
     show player 13
     show kevin 9b with dissolve
-    kev "I'm thinking, we sneak into {b}Principal Smith's office{/b} at night and glue her chairs to the floor."
-    kev "We also apply some to the cushions and Presto! They'll be stuck there until someone finds them."
+    kev "Я думаю, что на нужно пробраться в офис {b}Principal Smith{/b} ночью и приклеить её стулья к полу."
+    kev "Нужно намазать ещё на подушки! Тогда они приклеются и будут сидеть там, пока кто-нибудь их не найдет."
     kev "Even then... They'll need the solvent to get free!"
     show kevin 23
     show eve 2b
-    eve "I hate to say it but... That's actually kinda brilliant!"
+    eve "Не хочу это признавать... Но это, типа, прекрасно!"
     show eve 5
     show player 17
-    player_name "Nice job, {b}Kevin{/b}!"
+    player_name "Отличная работа, {b}Kevin{/b}!"
     show player 13
     show kevin 9b
-    kev "... I guess us men aren't so stupid after all."
+    kev "... Может наши парни не такие уж и тупые."
     show kevin 23
     show eve 2
-    eve "Heh, yeah well... Even a broken clock is right twice a day."
+    eve "Хех, да... Даже сломанные часы дважды в день показывают правильное время."
     show eve 5
     show player 14
-    player_name "So do we need to gather ingredients or something?"
+    player_name "Так нам нужно где-то достать ингридиенты?"
     show player 13
     show eve 1
     eve "..."
     show kevin 9b
-    kev "Nah, man. Everything we need is in the science lab."
-    kev "Just meet me there tomorrow after class and I'll whip us up a batch!"
+    kev "Не, чувак. Всё, что нам нужно, есть в лаборатории."
+    kev "Найди меня там завтра после уроков, и мы замешаем немного!"
     show kevin 23
     show player 14
-    player_name "Alright, we'll meet up once it's finished to plan for {b}Principal Smith's{/b} office."
-    player_name "Remember, nobody says a word to {b}Miss Dewitt{/b}. I don't want to see her upset again."
+    player_name "Отлично, нужно будет собраться ещё раз, чтобы отполировать план о наших действиях в офисе {b}Principal Smith{/b}."
+    player_name "Помните, ничего не говорим {b}Miss Dewitt{/b}. Не хочу, чтобы она снова расстраивалась."
     hide player
     hide kevin
     hide eve
@@ -995,17 +995,17 @@ label music_classroom_dewitt_talent_show_practice:
     show dewitt 9c with dissolve
     dewitt "..."
     show dewitt 9d
-    dewitt "He's going through all this trouble because he doesn't want to see me upset?"
+    dewitt "Он хочет сделать всё это, чтобы я не расстраивалась?"
     show dewitt 9f
-    dewitt "{b}*Sniff*{/b} What a wonderful kid..."
+    dewitt "{b}*Хнык*{/b} Какой прекрасный ребёнок..."
     hide dewitt with dissolve
     return
 
 label dewitt_talent_show_helping_kevin:
-    player_name "( I should convince Kevin to join the {b}talent show{/b} first."
+    player_name "( Нужно сначала убедить Kevin принять участие в {b}смотре талантов{/b}."
     return
 
 label dewitt_talent_show_helping_eve:
-    player_name "( I should convince Eve to join the {b}talent show{/b} first."
+    player_name "( Нужно сначала убедить Eve принять участие в {b}смотре талантов{/b}"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

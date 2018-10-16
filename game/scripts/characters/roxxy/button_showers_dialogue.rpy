@@ -4,136 +4,136 @@ label button_roxxy_showers_check_on_roxxy:
     show becca bikini 2b at Position(xpos=315)
     show missy bikini 11 at left
     with dissolve
-    becca "Yeah and then loudmouth here starts blabbing about us flashing him!!!"
+    becca "Да и тогда балабол начнет сдесь разбалтывать о нас моментально!!!"
     show becca bikini 1b
     show roxxy bikini 23
-    rox "No way... {b}Missy{/b}, what the hell is wrong with you?!"
+    rox "Ни за что... {b}Missy{/b}, что черт возьми с тобой не так?!"
     show roxxy bikini 21
     show becca bikini 16
     show missy bikini 10
-    missy "Tsk. Well, how was I supposed to know they were together?!"
+    missy "Тсс. Ну, откуда я могла знать что они были вместе?!"
     show missy bikini 11
     show becca bikini 16b
-    becca "They were holding hands when we got there!"
+    becca "Они деражались за руки когда мы туда пришли!"
     show becca bikini 16
     show missy bikini 8
-    missy "... Were they?"
+    missy "... Они были?"
     show missy bikini 2b
-    missy "I was distracted!"
+    missy "Я отвлеклась!"
     show missy bikini 1b
     show roxxy bikini 23
-    rox "Hmm?"
+    rox "Хмм?"
     show roxxy bikini 21
     show becca bikini 2b
-    becca "Oh, right."
-    becca "{b}[firstname]{/b} is here."
+    becca "Ох, правильно."
+    becca "{b}[firstname]{/b} здесь."
     show becca bikini 1b
     show roxxy bikini 24
     rox "!!!"
     show roxxy bikini 2 with dissolve
-    rox "He actually came?!"
+    rox "Он на самом деле пришёл?!"
     show roxxy bikini 1
     show becca bikini 2b
-    becca "Yup."
+    becca "Ага."
     show becca bikini 1b
     show missy bikini 13
-    missy "He was looking good too."
+    missy "Он выглядел потрясно."
     show missy bikini 1b
     show becca bikini 2
-    becca "I told him we were heading here to meet up with you."
+    becca "Я сказала ему что мы направились сюда чтобы встретиться с тобой."
     show becca bikini 1
     rox "..."
     show roxxy bikini 3
-    rox "How do I look?"
+    rox "Как я выгляжу?"
     show roxxy bikini 1
     show becca bikini 1b
     becca "..."
     show missy bikini 2
-    missy "You look fine, why?"
+    missy "Ты отлично выглядишь, почему?"
     show missy bikini 1
     rox "... "
     show becca bikini 2b
-    becca "You're really falling for him, aren't you?"
+    becca "Не втрескалась ли ты реально в него?"
     show becca bikini 1b
     show roxxy bikini 19
-    rox "Huh?"
-    rox "... No."
-    rox "We're just friends, {b}Becca{/b}."
+    rox "Хмм?"
+    rox "... Нет."
+    rox "Мы только друзья, {b}Becca{/b}."
     show roxxy bikini 1
     show missy bikini 1b
     show becca bikini 2b
-    becca "Yeah, right."
+    becca "Да, верно."
     show becca bikini 1b
     show missy bikini 2b
-    missy "If you guys start dating, can I still play with him?"
+    missy "Если вы не начнете встречаться, я могу еще поиграть с ним?"
     show missy bikini 1b
     show roxxy bikini 19
-    rox "... What's the matter with you?"
+    rox "... Что с тобой такое?"
     show roxxy bikini 20
     show missy bikini 8
-    missy "What?!"
+    missy "Что?!"
     show missy bikini 13
-    missy "You can watch, I don't mind!"
+    missy "Вы можете смотреть,Я не против!"
     show missy bikini 1b
     show becca bikini 16b
-    becca "You are such a slut, {b}Missy{/b}..."
+    becca "Ну ты и шлюха, {b}Missy{/b}..."
     show becca bikini 16
     show missy bikini 2b
-    missy "Pfft, you're the one who got super turned on because you knew we were watching!"
+    missy "Пфф, ты единственная кто очень завелась потому что ты знала что мы смотрели!"
     show missy bikini 1b
     show becca bikini 14
-    becca "I did not!"
+    becca "Я этого не говорила!"
     show becca bikini 13
     show missy bikini 2
-    missy "Liar!"
+    missy "Лгунья!"
     show missy bikini 1
     show becca bikini 1
     show roxxy bikini 19
-    rox "... Would both of you just shut up!"
-    rox "He's coming."
+    rox "... Вы двое можете заткнуться!"
+    rox "Он идет."
     show roxxy bikini 1f at Position (xpos=500) with dissolve
     show becca bikini 14
-    becca "Try not to say something stupid, {b}Missy{/b}!"
+    becca "Постарайся не сморозить глупость, {b}Missy{/b}!"
     show becca bikini 13
     show missy bikini 10
-    missy "Hmph!"
+    missy "Ммхм!"
     show missy bikini 1
     show becca bikini 1
     show player 14f at right with dissolve
-    player_name "Hey, {b}Roxxy{/b}!"
-    player_name "You look great!"
+    player_name "Хэй, {b}Roxxy{/b}!"
+    player_name "Ты отлично выглядишь!"
     show player 13f
     show roxxy bikini 2f
-    rox "Hehe, I know."
-    rox "I'm glad you came!"
+    rox "Хехе, Я знаю."
+    rox "Я рада, что ты приехал!"
     show roxxy bikini 1f
     show player 14f
-    player_name "Well, it sounded like it was important to you..."
+    player_name "Ну, было похоже что это было важно для тебя..."
     show player 13f
     show roxxy bikini 2f
-    rox "It is!"
-    rox "I have a feeling this is gonna be my year!"
+    rox "Так и есть!"
+    rox "Мне кажется что это будет мой год!"
     show roxxy bikini 1f
     show becca bikini 2
-    becca "She made it to the finals last time."
+    becca "Она добралась до финала в прошлый раз."
     show becca bikini 1
     show player 14f
-    player_name "Really? That's awesome, {b}Roxxy{/b}!"
+    player_name "На самом деле?Это потрясающе, {b}Roxxy{/b}!"
     show player 13f
     show missy bikini 2
-    missy "... Maybe we'll all make it to the finals this year?"
+    missy "... Может быть мы все доберемся до финала в этом году?"
     show missy bikini 1
     show player 17f
-    player_name "I'd vote for you guys!"
+    player_name "Я буду болеть за вас ребята!"
     show player 13f
     show missy bikini 1b
     show becca bikini 2b
-    becca "Well, of course you would."
+    becca "Ну, конечно ты будешь."
     show becca bikini 1b
     show missy bikini 13
-    missy "Hehe, thanks {b}[firstname]{/b}!"
+    missy "Хехе, спасибо {b}[firstname]{/b}!"
     show missy bikini 2b
-    missy "I really hope {b}Roxxy{/b} doesn't keep you all to herself, once you two start dating..."
+    missy "Я очень надеюсь что {b}Roxxy{/b} не будет замкнута в себе, когда вы начнете встречаться..."
     show missy bikini 1b
     show player 11f
     show becca bikini 6
@@ -142,22 +142,22 @@ label button_roxxy_showers_check_on_roxxy:
     player_name "!!!"
     show roxxy bikini 20 at Position (xpos=600) with dissolve
     show becca bikini 14
-    becca "What the hell, {b}Missy{/b}?!"
-    becca "I just told you not to say something stupid!"
+    becca "Какого черта, {b}Missy{/b}?!"
+    becca "Я же сказала тебе не говорить ничего тупого!"
     show becca bikini 13
     show missy bikini 8
-    missy "What? I didn't..."
+    missy "Что? Я не..."
     show missy bikini 1
     show roxxy bikini 19
-    rox "I'm going to kill you..."
+    rox "Я убью тебя..."
     show roxxy bikini 20
     show missy bikini 8
-    missy "Wait, I wasn't!"
+    missy "Подожди, Я не!"
     show missy bikini 9
     show becca bikini 6
     show roxxy bikini 10
     with dissolve
-    rox "You're so dead, {b}Missy{/b}!!!"
+    rox "Ты труп, {b}Missy{/b}!!!"
     show roxxy bikini 11 at Position (xoffset=-8)
     rox "!!!" with hpunch
     show becca bikini 15
@@ -167,65 +167,65 @@ label button_roxxy_showers_check_on_roxxy:
     pause
     rox "Eep!"
     show roxxy bikini 16 with dissolve
-    rox "Crap! Ohcrapohcrapohcrap!"
+    rox "Дерьмо! ох дерьмо,дерьмо,дерьмо!"
     hide roxxy with dissolve
     show missy bikini 8 with dissolve
     show player 11f
     show becca bikini 13
-    missy "W-what happened?"
+    missy "Ч-что случилось?"
     show missy bikini 12
     show player 5f
     show becca bikini 17
-    becca "Pfft, hahahaha!"
+    becca "Пффф, хахахаха!"
     show missy bikini 8
-    missy "... Am I dead?"
+    missy "... Я умерла?"
     show missy bikini 12
     show becca bikini 17
-    becca "Hahaha! No, you're not dead."
+    becca "Хахаха! Нет, ты не умерла."
     show becca bikini 16b
-    becca "You're one lucky bitch though..."
-    becca "Her bikini top snapped!"
+    becca "Ты везучая сука несмотря..."
+    becca "Ее разорваный верхний бикини!"
     show becca bikini 16
     show missy bikini 8
-    missy "... Whoa, really?"
+    missy "... Ого, в самом деле?"
     show missy bikini 12
     show becca bikini 16b
-    becca "Heh, yeah..."
+    becca "Хех, ага..."
     show becca bikini 16
     show missy bikini 8
-    missy "Where'd she go?"
+    missy "Куда она пошла?"
     show missy bikini 12
     show becca bikini 16b
-    becca "Into the {b}changing rooms{/b}, duh."
+    becca "В {b}Раздевалку{/b}, конечно."
     show becca bikini 16
     show missy bikini 8
-    missy "... Should we check on her?"
+    missy "... Может стоить проверить как она?"
     show missy bikini 12
     show becca bikini 16b
-    becca "Yeah, {b}Missy{/b}. Go ahead and check on her..."
+    becca "Да, {b}Missy{/b}. Иди и проверь..."
     show becca bikini 17
-    becca "Hahahaah!"
+    becca "Хахахах!"
     show missy bikini 10
-    missy "N-not me, stupid!"
+    missy "Н-не я, дура!"
     show becca bikini 16
     show missy bikini 8
-    missy "{b}[firstname]{/b} should go!"
+    missy "{b}[firstname]{/b} должен пойти!"
     show missy bikini 1b
     show becca bikini 1b
     show player 10f
-    player_name "What, me?!"
+    player_name "Чего, я?!"
     show player 5f
     show missy bikini 8
-    missy "Well, I'm not going!"
-    missy "She'll kill me!"
+    missy "Что ж, Я не пойду!"
+    missy "Она убьет меня!"
     show missy bikini 1b
     show becca bikini 2b
-    becca "I agree. {b}[firstname]{/b} should do it!"
+    becca "Я согласна. {b}[firstname]{/b} должен сделать это!"
     show becca bikini 1b
     show player 11f
     player_name "..."
     show becca bikini 2b
-    becca "Go ahead, {b}[firstname]{/b}!"
+    becca "Иди, {b}[firstname]{/b}!"
     hide player with dissolve
     hide missy
     hide becca
@@ -235,27 +235,27 @@ label button_roxxy_showers_in_cabin:
     scene expression "backgrounds/location_beach_shower_day_blur.jpg"
     show becca bikini 17f at Position (xpos=350)
     show missy bikini 1 at left
-    becca "Hahaha, you shoulda seen that thing snap!"
+    becca "Хахаха, нужно было видеть эту штуку!"
     show becca bikini 2bf
-    becca "It was like those old commercials where the pitcher of punch bursts through the wall!"
+    becca "Это было как в тех старых роликах где кувшин пунша прорывается через стену!"
     show becca bikini 1bf
     show missy bikini 13
-    missy "Hahaha!"
+    missy "Хахаха!"
     show becca bikini 2bf
-    becca "I was just waiting for her tits to scream \"Oh yeah!!!\""
+    becca "Я просто ждала что бы ее сиськи завизжали\"О да!!!\""
     show becca bikini 1bf
     show missy bikini 13
-    missy "Hahaha!! {b}*Snort*{/b}"
+    missy "Хахаха!! {b}*Фыркнула*{/b}"
     show player 5f at right with dissolve
     show becca bikini 2b at Position (xpos=315) with dissolve
     becca "{b}[firstname]{/b}?"
     show missy bikini 1b
     show becca bikini 2b
-    becca "I thought you were gonna check on {b}Roxxy{/b}?"
-    becca "{b}She's in the changing room{/b}."
+    becca "Я думала ты собирался проверить {b}Roxxy{/b}?"
+    becca "{b}Она в раздевалке{/b}."
     show becca bikini 1b
     show player 10f
-    player_name "Yeah, I'm going..."
+    player_name "Да, я иду..."
     hide player
     hide becca
     hide missy
@@ -268,55 +268,55 @@ label button_roxxy_showers_get_new_bikini:
     show missy bikini 1 at left
     show player 5f at right
     with dissolve
-    becca "... Well?"
-    becca "How's she holding up?"
+    becca "... Что ж?"
+    becca "Как она держалась?"
     show becca bikini 1
     show player 10f
-    player_name "{b}*Sigh*{/b} She's upset she can't compete in the competition."
-    player_name "I'm going to {b}try and find her a replacement suit.{/b}"
+    player_name "{b}*Вздох*{/b} Она расстроена она не может учавствовать в соревновании."
+    player_name "Я пойду {b}попытаюсь найти ей замену.{/b}"
     show player 5f
     show missy bikini 13
-    missy "She should just take {b}Becca's{/b}!"
+    missy "Она смогла бы возьми ее {b}Becca's{/b}!"
     show missy bikini 1b
     show becca bikini 11f with dissolve
-    becca "Huh?!"
-    becca "No way!"
+    becca "Хм?!"
+    becca "Ни за что!"
     show becca bikini 12f
     show missy bikini 2
-    missy "... Why not? Mine won't fit her..."
+    missy "... Почему нет? Мои не влезут туда..."
     show missy bikini 1
     show becca bikini 11f
-    becca "So I have to suffer because of your tiny tits?!"
-    becca "That's bullshit!"
+    becca "Что ж я должна страдать из-за твоих крошечных сисек?!"
+    becca "Эта бред!"
     show becca bikini 12f
     show missy bikini 10
-    missy "Stop talking shit about my tits!"
+    missy "Хватит говорить всякое дерьмо об моих сиськах!"
     show missy bikini 11
     show player 12f
-    player_name "CALM DOWN!"
+    player_name "УСПАКОЙСЯ!"
     show becca bikini 12 with dissolve
-    player_name "Nobody is taking {b}Becca's{/b} suit."
+    player_name "Никто не пришел с {b}Becca's{/b} к согласию."
     show player 14f
     show becca bikini 1
-    player_name "... And {b}Missy's{/b} boobs are great."
+    player_name "... И {b}Missy's{/b} сиськи великолепны."
     show player 13f
     show missy bikini 13
-    missy "Hehe, see, bitch!"
+    missy "Хехе, видишь, сучка!"
     show becca bikini 13
-    missy "{b}[firstname]{/b} loves my tits!"
+    missy "{b}[firstname]{/b} любит мои сиськи!"
     show missy bikini 1b
     show becca bikini 14
-    becca "Ugh, whatever."
+    becca "Ух, Неважно."
     show becca bikini 1
     show player 12f
-    player_name "Look, I'll find something!"
-    player_name "Everybody, just please, chill out."
+    player_name "Смотри, Я найду что-нибудь!"
+    player_name "Все,пожалуйста,расслабьтесь."
     show player 5f
     hide becca
     hide missy
     with dissolve
     show player 10f
-    player_name "Hmm, {b}I should look around here for a bikini that nobody's using{/b}."
+    player_name "Хмм, {b}Мне стоит поискать сдесь не ношеное бикини{/b}."
     hide player with dissolve
     return
 
@@ -325,32 +325,32 @@ label button_roxxy_showers_get_oil:
     show becca bikini 1 at Position(xpos=315)
     show missy bikini 13 at left
     with dissolve
-    missy "Hey, {b}[firstname]{/b}!"
-    missy "Come look at-"
+    missy "Хэй, {b}[firstname]{/b}!"
+    missy "Подойди посмтотри на-"
     show missy bikini 14
     show becca bikini 15
     show player 184bf at right with fastdissolve
-    player_name "Can't talk!"
-    player_name "Need... {b}Roxxy{/b}..."
+    player_name "Не могу говорить!"
+    player_name "Нужно... {b}Roxxy{/b}..."
     show missy bikini 8
-    missy "Huh?"
+    missy "Мм?"
     show missy bikini 12
     show becca bikini 16b
-    becca "What's he talking about?"
+    becca "О чем он говорит?"
     show becca bikini 15
     show missy bikini 9
     show player 658f
-    player_name "OIL!" with hpunch
+    player_name "МАСЛО!" with hpunch
     player_name "{b}Roxxy{/b}!!"
     hide player with fastdissolve
-    player_name "Gotta go fast!"
+    player_name "Нужно идти быстрее!"
     show missy bikini 12 with dissolve
     missy "..."
     show becca bikini 16b
-    becca "What the hell has gotten into him?"
+    becca "Что черт возьми что на тебя нашло?"
     show becca bikini 16
     show missy bikini 8
-    missy "I have no idea."
+    missy "Я без понятия."
     hide missy
     hide becca
     with dissolve
@@ -359,9 +359,9 @@ label button_roxxy_showers_get_oil:
 label button_roxxy_showers_no_oil:
     scene expression "backgrounds/location_beach_water_contest_day_blur.jpg"
     show player 29 with fastdissolve
-    player_name "Holy crap! What am I doing?!"
+    player_name "Срань господня! Что я делаю!"
     show player 29f with fastdissolve
-    player_name "I've gotta {b}get that bottle of oil{/b} from the {b}life guard's tower{/b} before {b}Roxxy{/b} changes her mind!"
+    player_name "Мне нужно {b}получить ту бутылочку с маслом{/b} из {b}Спасательной башни{/b} прежде чем {b}Roxxy{/b} передумает!"
     hide player with fastdissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

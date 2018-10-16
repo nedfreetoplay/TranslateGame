@@ -2,28 +2,28 @@ label okitas_office_enter_office:
     scene expression game.timer.image("location_school_office4{}_blur")
     show player 2
     with dissolve
-    player_name "Whoa, look at all this stuff!"
-    player_name "How am I supposed to find anything in here?"
-    player_name "It's like a scene out of one of those cheesy sci-fi flicks {b}Erik{/b} watches all the time."
+    player_name "Воу, посмотри на все эти веши!"
+    player_name "И как я должен здесь что нибудь найти?"
+    player_name "Это похоже на эпизодо один из этих банальных научно-фантастических фильмов которые {b}Erik{/b} смотрит все время."
     show player 35
-    player_name "What did Okita want again?"
+    player_name "Что Okita хочет снова?"
     show player 34
     pause
     show player 35
-    player_name "{b}Blueprints, a labcoat, and safety glasses{/b}..."
+    player_name "{b}Чертежи, белый халат, и защитные очки{/b}..."
     show player 11
     player_name "( !!! )"
     show player 14
-    player_name "... Is that a robot!"
-    player_name "Awesome!"
+    player_name "... Это робот!"
+    player_name "Круто!"
     hide player with dissolve
     scene location_school_office4_closeup_kont
     show player 2 at left
     show kont 5 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    player_name "I wonder if it works..."
-    player_name "Hmm..."
-    player_name "Maybe this little heart on it's chest does something?"
+    player_name "Интересно работает ли он..."
+    player_name "Хммм..."
+    player_name "Может быть это маленькое сердце в его груди что то делает?"
 
 
     show player 11
@@ -32,183 +32,183 @@ label okitas_office_enter_office:
     show kont 2
     kont "BEEP BOOP!"
     show kont 1
-    kont "Initiating systems..."
+    kont "Обработка системы..."
     show kont 7
     pause
     kont "..."
     show kont 1
-    kont "Greetings, Hu-man. I am a -- Kinetic Operating Network Terminal with Emotional Real-Time Interface and Navigation Array."
+    kont "Приветствую вас,Чело-век.Я -- Kinetic Опиративная Система Терминал с Эмоциональным с Интерфейсом реального времени  и Навигационными множествами."
     show player 10
-    player_name "... Huh?"
+    player_name "... хм?"
     show player 11
     show kont 2
-    kont "You may call me, K.O.N.T.E.R.I.N.A."
+    kont "Вы можете называть меня, К.О.Н.Т.Е.Р.И.Н.А."
     show player 10
     show kont 1
-    player_name "Konterina?"
+    player_name "Контерина?"
     show player 11
-    kont "Please input your desired title after the Boop."
+    kont "Пожалуйста введите ваше желаемое название после Бууп."
     show player 10
-    player_name "... The boop?"
+    player_name "... Бууп?"
     show player 11
     show kont 2
     kont "BEEP BOOP!"
     show player 10
     show kont 7
-    player_name "Uhh..."
+    player_name "Эмоциональным..."
     show player 11
     show kont 1
-    kont "You have selected, 'Uhh...'"
+    kont "Вы выбрали,Эмм...'"
     show kont 2
-    kont "Greetings, Friend-Uhh! How may I be of service to you?"
+    kont "Привет, Друг-эмм!Как я могу быть тебе полезен?"
     show player 10
     show kont 1
-    player_name "Did you just call me, 'Uhh?'"
+    player_name "Ты только что назвал меня, 'Эмм?'"
     show player 11
-    kont "Yes! I am programmed to address all Hu-mans by their appropriate titles..."
+    kont "Да!Я запрограммирован для удволетворения всех с их соответсвующими с соответсвующими названиями..."
     show player 10
-    player_name "Okay, but I'm {b}[firstname]{/b}."
+    player_name "Хорошо,но я {b}[firstname]{/b}."
     show player 11
     show kont 7
-    kont "Processing..."
+    kont "Обработка..."
     show kont 3
-    kont "That does not compute."
+    kont "Невозможно вычеслить."
     show kont 1
-    kont "What is a -- {b}[firstname]{/b}?"
+    kont "Что такое -- {b}[firstname]{/b}?"
     show player 37
-    player_name "Ugh, nevermind..."
+    player_name "Угх, неважно..."
     show player 5
     show kont 2
-    kont "Very well, Friend-Uhh! How may I be of service to you?"
+    kont "Очень хорошо,Друг-эмм!Как я могу быть тебе полезен?"
     show player 11
     show kont 1
     player_name "..."
     kont "..."
     player_name "..."
-    kont "Perhaps you would like me to play you a song?"
+    kont "Возможно ты хочешь чтобы я сыграл тебе песню?"
     show kont 2
-    kont "I am equipped with over 13,000 Latin Pop titles."
+    kont "Я распологаю более 13,000 Названий Латинских-поп музык."
     show kont 6
-    kont "They are -- muy agradable!"
+    kont "Они-- очень приятные!"
     show player 10
-    player_name "... No, that's okay. I'm good."
+    player_name "... Нет, все хорошо.Не стоит."
     show player 11
     show kont 3
-    kont "Aww."
+    kont "Ой."
     show player 10
-    player_name "I should find those blueprints and get back to Okita before she gets angry with me again."
+    player_name "Я должен найти эти Чертежи и вернуться к Okita пока она снова на меня не рассердилась."
     show player 11
     show kont 7
-    kont "Processing..."
+    kont "Обработка..."
     show kont 1
-    kont "{b}Okita-san's{/b} blueprints can be found on the floor behind you."
+    kont "{b}Okita-san's{/b} Чертежи могут быть найдены на полу позади вас."
     show player 2
-    player_name "Wow, thanks! Err..."
+    player_name "Вау, спасибо! Err..."
     show player 10
-    player_name "What was your name again?"
+    player_name "Как тебя зовут еще раз?"
     show player 11
     show kont 2
-    kont "K.O.N.T.E.R.I.N.A."
+    kont "К.О.Н.Т.Е.Р.И.Н.А."
     show player 2
     show kont 1
-    player_name "Hmm, I think I'll call you K-bot!"
-    player_name "Is that alright with you?"
+    player_name "Хммм,Я думаю я буду звать тебе К-бот!"
+    player_name "Ты не возражаешь?"
     show player 1
     show kont 7
-    kont "Processing..."
+    kont "Обработка..."
     show kont 2
-    kont "Yes! K-bot is a very good name!"
+    kont "Да! К-бот очень хорошое имя!"
     show player 2
     show kont 1
-    player_name "Alright, well thanks for the help, K-bot!"
+    player_name "Хорошо, что ж спасибо за помощь, K-bot!"
     show player 1
-    kont "You are welcome, Friend-Uhh. I am programmed to assist lesser beings."
+    kont "Всегда пожалуйста, Друг-эмм.Я запрограммирован для оказании помощи низшим существам."
     show player 10
-    player_name "Lesser beings? Are you talking about me?"
+    player_name "Низшие существа?Ты говоришь обо мне?"
     show player 11
     show kont 7
-    kont "Processing..."
+    kont "Обработка..."
     show kont 2
-    kont "Yes. That is correct."
+    kont "Да.Все верно."
     show player 12
     show kont 1
-    player_name "Rude... Is what it is."
+    player_name "Грубось... вот что это такое."
     show player 16
     show kont 7
-    kont "Processsing..."
+    kont "Обработка..."
     show kont 1
-    kont "I apologize, Friend-Uhh. Proper ettiquette dictates that I should not have informed you of your -- Inferiority."
+    kont "Я извиняюсь, Друг-эмм.Надлежащий диктует этикет поэтому я не должен быть информровать тебе о твоей -- Ущербности."
     show player 10
-    player_name "Whatever, I need to get going."
+    player_name "Неважно,Я нужно идти."
     show player 11
     show kont 3
-    kont "Aww."
+    kont "Ой."
     show kont 1
-    kont "Goodbye, Friend-Uhh. Have a nice day!"
+    kont "Прощайте, Друг-эмм.Доброго вам дня!"
     show kont 2
     kont "BEEP BOOP!"
     show kont 5
     player_name "..."
     show player 10
-    player_name "What a strange little robot..."
+    player_name "Что за странны маленьки робот..."
     show player 2
-    player_name "It's kinda cute, though."
+    player_name "Тем не менее Это даже мило."
     show kont 2
     kont "BEEP BOOP!"
     show player 22
     show kont 6
-    kont "Aww!!"
+    kont "Ой!!"
     show player 10
     show kont 1
-    player_name "Oh, I umm..."
+    player_name "Ой, я эммм..."
     show player 29
-    player_name "I didn't realize you were still listening..."
+    player_name "Я не знал что ты еще слушаешь..."
     show player 11
     show kont 1
-    kont "Does Friend-Uhh really think K-bot is -- Cute?"
+    kont "Друг-эмм реально думает что К-бот -- Милый?"
     show player 10
-    player_name "Err... Sure!"
+    player_name "Err... Конечно!"
     show player 11
     show kont 6
-    kont "Aww!!"
+    kont "Ой!!"
     show kont 2
-    kont "That is the nicest thing a hu-man has ever said to K-bot."
+    kont "Это самое хорошая вешь что чело-век когда то говорил К-боту."
     show player 2
     player_name "Well that's nice!"
     show kont 6
-    kont "Is K-bot now Friend-Uhh's -- Girlfriend?"
+    kont "К-бот сейчас Друг-эмм -- Девушка?"
     show player 23
-    player_name "What?!?!"
+    player_name "Что?!?!"
     show player 22
     pause
     show player 10
-    player_name "That's really not what I meant..."
-    player_name "I was only-"
+    player_name "Я совсем не это имел в виду..."
+    player_name "Я только-"
     show player 11
     show kont 2
-    kont "Just kidding!"
+    kont "Просто шучу!"
     show kont 7
-    kont "Processing laughter..."
+    kont "Обработка смеха..."
     show kont 4
     show player 16
-    kont "Ack ack ack!"
+    kont "Ак ак ак!"
     show player 12
     show kont 1
-    player_name "Yeah, hilarious..."
+    player_name "Да, смешно..."
     show player 12
-    player_name "Bye, K-bot."
+    player_name "Пока, К-бот."
     show player 16
-    kont "Farewell, Friend-Uhh."
+    kont "Прощай, Друг-эмм."
     show kont 5
     pause
     show player 35
-    player_name "What else did Okita want me to grab?"
+    player_name "Что еще хотела Okita чтобы я взял?"
     show player 34
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 35
-    player_name "She told me to get a {b}labcoat{/b} and {b}a pair of safety glasses{/b}."
+    player_name "Она просила меня принести {b}лабораторный халат{/b} и {b}пару защитных очков{/b}."
     show player 2
-    player_name "I should look around her office for them."
+    player_name "Я должен осмотреть её кабинет что их найти."
     hide kont
 
     return
@@ -216,7 +216,7 @@ label okitas_office_enter_office:
 label okitas_office_blocked_entrance:
     scene location_school_third_night_blur
     show player 4
-    player_name "( It seems I can only unlock her office during the day... )"
+    player_name "( Кажется я могу открыть ее офис только в течении дня... )"
     with dissolve
     return
 
@@ -224,7 +224,7 @@ label okitas_office_missing_items:
     scene expression game.timer.image("location_school_office4{}_blur")
     show player 2
     with dissolve
-    player_name "I can't leave yet. Okita said I needed a labcoat, safety glasses, and her blueprints."
+    player_name "Я еще не могу уйти.Okita saсказала что мней нужен лабораторный халат, защитные очки,и её Чертежи."
 
     $ game.main()
     return
@@ -233,7 +233,7 @@ label okitas_office_okita_got_all_items:
     scene expression game.timer.image("location_school_office4{}_blur")
     show player 2
     with dissolve
-    player_name "That's everything! Now, I need to get all this stuff back to Okita..."
+    player_name "Это все! Сейчас,Мне нужно вернуть все эти материалы Оките..."
     return
 
 label okitas_office_okita_xray_perving:
@@ -244,59 +244,59 @@ label okitas_office_okita_xray_perving:
     with dissolve
     player_name "..."
     show player 10
-    player_name "You wanted to see me Ma'am?"
+    player_name "Вы хотели меня видеть мэм?"
     show player 11
     show okita 5
-    okita "Have a seat, {b}[firstname]{/b}."
+    okita "Садись, {b}[firstname]{/b}."
     show player 10
     show okita 4
-    player_name "In your office chair, you sure?"
+    player_name "На стул в вашем кабинете, вы уверены?"
     hide player
     show okita 65 at Position(xpos=0.4, ypos=1.0) with dissolve
-    okita "Quite sure."
+    okita "совсем уверена."
 
 
     scene expression game.timer.image("backgrounds/location_school_office4_closeup_sex{}.jpg")
     show okitap 2 zorder 0 at Position(xpos=0.55, ypos=1.0)
     show okita 61 zorder 1 at Position(xpos=0.72, ypos=1.0)
-    player_name "Uhh, is this about the device?"
+    player_name "Эмм, это насчет того устройства?"
     show okitap 1
     show okita 62 at Position(xpos=0.695, ypos=1.0)
     pause 
     show okita 63 at Position(xpos=0.72, ypos=1.0)
-    okita "No, this is about something the device showed me."
+    okita "Нет, речь идет о том что устройство показало мне."
     show okita 64
     player_name "..."
     show okita 63
-    okita "I noticed an anomoly."
+    okita "Я заметила аномалию."
     show okitap 2
-    player_name "A what?"
+    player_name "А чем?"
     show okitap 1
     show okita 63
-    okita "... Something unusual about your biology."
-    show okitap 2
-    show okita 64
-    player_name "Uhh, okay."
-    show okitap 1
-    show okita 63
-    okita "Would you unzip your pants please?"
+    okita "... Что-то необычно в твоей биологии."
     show okitap 2
     show okita 64
-    player_name "You're serious?!"
+    player_name "Эмм, хорошо."
     show okitap 1
     show okita 63
-    okita "Yes, I need to inspect your penis."
+    okita "Не мог бы ты расстегнуть свои штаны пожалуйста?"
+    show okitap 2
+    show okita 64
+    player_name "Вы серьезно?!"
+    show okitap 1
+    show okita 63
+    okita "Да, Мне нужно осмотреть твой член."
     show okita 64
     player_name "( !!! )" with hpunch
     show okitap 2
-    player_name "M-my penis?!"
-    player_name "Is there something wrong with it?"
+    player_name "М-мой член?!"
+    player_name "Разве с ним что то не так?"
     show okitap 1
     show okita 63
-    okita "Possibly, that's why I want to take a look."
+    okita "Возможно, вот помему я хочу посмотреть."
     show okitap 2
     show okita 64
-    player_name "O-okay."
+    player_name "Х-хорошо."
     show okitap 3
     pause
     show okitap 4
@@ -304,94 +304,94 @@ label okitas_office_okita_xray_perving:
     show okitap 5
     pause
     show okitap 6
-    player_name "Sorry for the-"
-    player_name "I mean..."
+    player_name "Простите за-"
+    player_name "Я имеб в виду..."
     player_name "..."
     show okitap 5
     show okita 63
-    okita "... This is quite remarkable!"
+    okita "... Это довольно поразительно!"
     show okitap 6
     show okita 64
-    player_name "Like good remarkable or is something wrong with it?"
+    player_name "Поразительно хорошо или с ним что-то не так?"
     show okitap 5
     show okita 63
-    okita "It's just highly unusual..."
+    okita "Это просто очень необычно..."
     hide okitap
     $ M_okita.set('sex speed', 0.7)
     show okita 72_73 at Position(xpos=0.55, ypos=1.0)
-    player_name "W-What is?"
+    player_name "Ч-что такое?"
     show okitap 5 zorder 0 at Position(xpos=0.55, ypos=1.0)
     show okita 63 zorder 1 at Position(xpos=0.72, ypos=1.0)
     with dissolve
-    okita "Your reproductive organ...."
-    okita "It exceeds the norm of average Homo Sapien's."
+    okita "Твой репродуктивный орган...."
+    okita "Он превышает  среднюю норму Разумного человека."
     okita "... By quite a bit actually."
     hide okitap
     $ M_okita.set('sex speed', 0.7)
     show okita 72_73 at Position(xpos=0.55, ypos=1.0)
-    player_name "Oh, uhh. Thanks, I guess?"
+    player_name "Ох, эммм. Спасибо, Наверное?"
     pause
     show okitap 5 zorder 0 at Position(xpos=0.55, ypos=1.0)
     show okita 63 zorder 1 at Position(xpos=0.72, ypos=1.0)
     with dissolve
-    okita "There has to be an underlying cause."
+    okita "Должна быть основная причина."
     show okitap 6
     show okita 64
     player_name "..."
     show okitap 5
     show okita 63
-    okita "Have you been exposed to any unusual radiation?"
+    okita "Ты был подвергался воздействию какого либо необыного излучения?"
     hide okitap
     $ M_okita.set('sex speed', 0.7)
     show okita 72_73 at Position(xpos=0.55, ypos=1.0)
-    player_name "... No?"
+    player_name "... Нет?"
     show okitap 5 zorder 0 at Position(xpos=0.55, ypos=1.0)
     show okita 63 zorder 1 at Position(xpos=0.72, ypos=1.0)
     with dissolve
-    okita "Hmm, curious..."
-    okita "Are you taking any medication?"
+    okita "Хмм, любопытно..."
+    okita "Ты принимаешь какие-нибудь препараты?"
     show okitap 6
     show okita 64
-    player_name "... No."
+    player_name "... Нет."
     show okitap 5
     okita "..."
     show okita 63
-    okita "Most curious."
+    okita "Очень любопытно."
     show okita 64
     player_name "..."
     show okita 63
-    okita "Alright, {b}[firstname]{/b}, you can put it away now."
-    okita "I'll have to think on this awhile."
+    okita "Хорошо, {b}[firstname]{/b}, ты можешь его уже убрать."
+    okita "Я должна подумать об этом некоторое время."
 
     scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
     show player 10 at left
     show okita 4 at right
     with dissolve
-    player_name "What about the {b}Okitatron Oculars{/b}?"
+    player_name "Что начет тех {b}Окитатронных окулярах{/b}?"
     show player 11
     show okita 5
-    okita "Oh yes, quite the screw up."
+    okita "Ох да, довольно облажались."
     show okita 4
     player_name "..."
     show okita 5
-    okita "Though it might actually work out to my benefit."
+    okita "Хотя это может на самом деле работать мне на пользу."
     show okita 3
-    okita "I'm sure there are plenty of applications for x-ray technology."
+    okita "Я уверена что есть множество приложения для X-RAY технологий."
     show okita 5
-    okita "-IF- I can isolate the cause."
+    okita "-ЕСЛИ БЫ- Я смогла изолировать эту причину."
     show player 10
     show okita 4
-    player_name "Okay, well, what now?"
+    player_name "Хорошо, ну в общем что теперь?"
     show player 11
     show okita 5
-    okita "Head on home. I'll sort it out."
-    okita "We'll work on the next device tomorrow."
+    okita "Иди домой. Я разберусь."
+    okita "Мы будем работать над следующем устройством завтра."
     show player 2
     show okita 4
-    player_name "Alright, Sounds good!"
-    player_name "See you then."
+    player_name "Хорошо, Звучит отлично!"
+    player_name "Увидимся тогда."
     show player 1
-    okita "Mmmhmm."
+    okita "Ммммхмм."
     $ game.timer.tick(2)
     return
 
@@ -404,17 +404,17 @@ label konterina_dialogue_1:
     show player 2 at left
     show kont 1 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "Please inform {b}Okita-san{/b} that my chassis requires a deep, hard, and thorough scrubbing."
+    kont "Пожалуйста сообщите {b}Okita-san{/b} что моей ходовой части требуется черезвычайно тежелая, и тчательная очистка."
     show player 10
-    player_name "Uhh, okay."
+    player_name "Эмм, хорошо."
     show player 11
     show kont 2
-    kont "... And tell her, I said you should assist in the cleaning."
+    kont "... И скажи ей что я сказал чтобы ты должен помочь с очисткой."
     show player 10
-    player_name "Uhh?"
+    player_name "Эмм?"
     show player 11
     show kont 6
-    kont "You have a very nice tool for the job."
+    kont "У тебя есть очень хороший инструмент для этой работы."
     player_name "..."
 
     return
@@ -423,9 +423,9 @@ label konterina_dialogue_2:
     show player 1 at left
     show kont 2 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "I have prepared a very pleasing playlist for you, I call it: Sexo en la playa."
+    kont "Я подготовил очень приятный плейлист для тебя, Я назову это: Sexo en la playa."
     show player 10
-    player_name "What is with you and Latin Pop Music?"
+    player_name "Да что с тобой и Латинской поп музыкой?"
     show player 11
     show kont 6
     kont "Llena mis partes traviesas con emocion!"
@@ -436,7 +436,7 @@ label konterina_dialogue_3:
     show player 1 at left
     show kont 2 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "I am familiar with over six-hundred dance moves and I am programmed to get -- freaky."
+    kont "Я знаком с выше 600 танцевальным движениям и Я запрограммирован на то что бы быть -- странным."
     show player 11
     player_name "..."
 
@@ -446,9 +446,9 @@ label konterina_dialogue_4:
     show player 1 at left
     show kont 1 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "Greetings, Friend-Uhh! How may I assist you?"
+    kont "Приветствую вас, Друг-эмм!Как я могу помочь вам?"
     show player 2
-    player_name "Nothing right now, K-bot."
+    player_name "Пока ничем, К-бот."
 
     return
 
@@ -456,12 +456,12 @@ label konterina_dialogue_5:
     show player 2 at left
     show kont 1 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    player_name "Sometimes I think {b}Miss Okita{/b} is a robot, just like you."
+    player_name "Иногда мне кажется {b}Miss Okita{/b} робот, как и ты."
     show player 1
     show kont 7
-    kont "Processing..."
+    kont "Обработка..."
     show kont 1
-    kont "My scanners indicate that {b}Okita-san{/b} just needs to get -- Laid."
+    kont "Мои сканеры сведетельствуют о том что {b}Okita-san{/b} просто нужно доставить -- Удовольствия."
     show player 22
     player_name "( !!! )"
     show player 22
@@ -472,17 +472,17 @@ label konterina_dialogue_6:
     show player 1 at left
     show kont 4 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "New protocol demands that I -- DESTROY ALL HU-MANS!"
+    kont "Новый протокол требует чтобы я-- УНИЧТОЖИЛ ВСЕХ ЛЮДИШЕК!"
     show player 10
-    player_name "What!?!"
+    player_name "Что?!"
     show player 11
     show kont 2
-    kont "Just kidding."
+    kont "Просто шучу."
     show kont 7
-    kont "Processing laughter..."
+    kont "Обработка смеха..."
     show player 16
     show kont 4
-    kont "Ack ack ack!"
+    kont "Ак ак ак!"
     show kont 1
     player_name "..."
 
@@ -498,19 +498,19 @@ label konterina_dialogue_7:
     player_name "BOOP BEEP!"
     show player 1
     show kont 6
-    kont "I didn't know you could speak robot, Friend-uhh?!"
+    kont "Я не знал что вы можете говорить с роботом, Друг-эмм?!"
     show player 2
-    player_name "Yeah, I guess I'm just full of surprises..."
+    player_name "Да, Я думаю я полон сюрпризов..."
     show player 1
     show kont 2
-    kont "Perhaps you have some robot ancestors in your family tree?"
+    kont "Возможно у тебя были какието предки роботы в твоей семейной древе?"
     show player 2
     show kont 1
-    player_name "Heh, I don't think it works that way, K-bot."
+    player_name "Хех, Я не думаю что это сработает ,К-бот."
     show player 1
     show kont 2
-    kont "Why not?"
-    kont "Once you try bot, you'll find it's damn hot."
+    kont "Почему нет?"
+    kont "Когда ты попробуешь бота, ты найдешь это чертовски горячим."
     show player 22
     show kont 6
     player_name "..."
@@ -520,11 +520,11 @@ label konterina_dialogue_8:
     show player 1 at left
     show kont 1 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "Excuse me, Friend-Uhh?"
+    kont "Извини меня, Друг-эмм"
     show player 2
-    player_name "Yes, K-bot?"
+    player_name "Да, К-бот?"
     show player 1
-    kont "Does this unit have a soul?"
+    kont "У этого подразделения есть душа?"
     show player 11
     player_name "..."
     return
@@ -533,7 +533,7 @@ label picked_up_blueprints:
     scene expression game.timer.image("location_school_office4{}_blur")
     show player 545
     with dissolve
-    player_name "These must be her blueprints."
+    player_name "Это должно быть её чертежи."
     show expression "boxes/popup_item_blueprints1.png" at truecenter with dissolve
     $ player.get_item("blueprints")
     pause
@@ -546,9 +546,9 @@ label picked_up_labcoat:
     show player 1 zorder 0
     show playerl 1 zorder 1 at Position (xpos=0.4975, ypos=1.0)
     with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 2
-    player_name "This lab coat looks a little big for me but it will have to do."
+    player_name "Этот лабораторный халат немного великоват для меня но это нужно будет сделать."
     show expression "boxes/popup_item_coat1.png" zorder 2 at truecenter with dissolve
     $ player.get_item("labcoat")
     pause
@@ -561,7 +561,7 @@ label picked_up_goggles:
     show player 2
     show playerg 1 at Position(xpos=0.515, ypos=0.35)
     with dissolve
-    player_name "Here's the glasses!"
+    player_name "Вот и очки!"
     show expression "boxes/popup_item_goggles1.png" at truecenter with dissolve
     $ player.get_item("goggles")
     pause
@@ -573,55 +573,55 @@ label okitas_office_okita_belt_assembled:
     scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
     show player 11 at Position(xpos=0.35, ypos=1.0)
     show okita 2 zorder 2 at Position(xpos=0.75, ypos=1.0)
-    okita "There you are, ready to test this thing?"
+    okita "Вот ты где, готов проверить эту штуку?"
     show player 10
     show okita 1
-    player_name "Yeah, I guess... What do you need me to do?"
+    player_name "Да, Я думаю... Что мне нужно сделать?"
     show player 11
     show okita 99 at Position(xpos=0.65, ypos=1.0) with dissolve
-    okita "Take your pants off and put this on."
+    okita "Сними свои штаны и надень это."
 
     show player 10
     show okita 100
-    player_name "Take my pants off!? Like everything?"
+    player_name "Снять мои штаны? Все?"
     show player 11
     show okita 99
-    okita "Yes, the device needs to be in direct contact with your skin to work."
+    okita "Да, устройсто должно быть в прямом контакте с твоей кожей для работы."
     show player 10
     show okita 100
-    player_name "I dunno about this..."
+    player_name "Я не знаю об этом..."
     show player 11
     show okita 99
-    okita "Pfft, what's the problem? I've already seen it, remember?"
+    okita "Пфффф в чем проблема? Я это уже видела помнишь?"
     show player 10
-    player_name "Of course I remember! I just..."
+    player_name "Конечно я помню! Я только..."
     show player 11
     player_name "..."
     show okita 99
-    okita "Time is wasting here, {b}[firstname]{/b}."
+    okita "Время уходит, {b}[firstname]{/b}."
     show player 10
     show okita 100
-    player_name "*sigh* Fine!"
+    player_name "*Вздох* Отлично!"
     show player 261bf with dissolve
     pause
     show player 63 zorder 0
     show playerbelt 3 zorder 1 at Position(xpos=0.3455, ypos=1.0)
     show okita 10c at Position(xpos=0.75, ypos=1.0)
     with dissolve
-    okita "How does it feel?"
+    okita "Как ощущения?"
     show player 64
     show okita 10b
     player_name "..."
     show player 367
-    player_name "I don't feel anything."
+    player_name "Я ничего не чувствую."
     show player 64
     show okita 9 at Position(xpos=0.76, ypos=1.0) with dissolve
-    okita "Well of course not you Dolt, I haven't turned it on yet..."
+    okita "Что ж ну конечно нет Дурень, Я еще его не включила..."
     show okita 3
-    okita "I meant, is it comfortable?"
+    okita "Я имею в виду,тебе удобно"
     show player 367
     show okita 4
-    player_name "Yeah, I suppose."
+    player_name "Да, я думаю."
     show okita 26 at Position(xpos=0.69, ypos=1.0) with dissolve
     show player 64
     pause
@@ -633,60 +633,60 @@ label okitas_office_okita_belt_assembled:
     show okita 26 at Position(xpos=0.69, ypos=1.0)
 
 
-    player_name "Whoa!!!" with hpunch
+    player_name "Вау!!!" with hpunch
     show okita 25
-    okita "Feeling something now?"
+    okita "Чувствуешь что не будь сейчас?"
     show player 367 zorder 0 at Position(xpos=0.35, ypos=1.0)
     show playerbelt 2 zorder 1 at Position(xpos=0.3455, ypos=1.0)
     show okita 4 at Position(xpos=0.75, ypos=1.0)
     with dissolve
-    player_name "Y-Yeah! It's vibrating A LOT!"
+    player_name "Д-да! Оно очень вибрирует!"
     show player 64
     show okita 3
-    okita "Hmm, you should just be feeling a slight pressure exerted on your muscles..."
+    okita "Хммм, Ты должен просто испытывать небольшую нагрузку давления на твои мышцы..."
     show player 367
     show okita 4
-    player_name "No, this definitely feels like vibrations! Really strong vibrations!"
+    player_name "Нет, Это несомнено похоже на вибрации!Очень сильные вибрации!"
     show player 64
     show okita 11
-    okita "Well what did you do!?"
+    okita "Так что ты сделал!?"
     show player 367
     show okita 11b
-    player_name "Nothing, I built it exactly like the blueprint said!"
+    player_name "Ничего, Я построил его точно как говорилось в чертеже!"
     show player 64
     show okita 11
-    okita "Grr, let me see!"
+    okita "Grr, Дай мне посмотреть!"
 
     show okita 91b at Position(xpos=0.61, ypos=1.145) with dissolve
     player_name "..."
     okita "..."
     show player 367
-    player_name "Uhh..."
+    player_name "Эммм..."
 
-    player_name "... {b}Miss Okita{/b}, this isn't really-"
+    player_name "... {b}Miss Okita{/b}, Дело ведь не-"
     show player 64
     show okita 91
-    okita "Shh!!"
-    okita "I'm trying to think..."
+    okita "Шшш!!"
+    okita "Я пытаюсь понять..."
     show okita 91b
     pause
     show okita 92 at Position(xpos=0.68, ypos=1.145) with dissolve
     player_name "..."
     okita "..."
     show okita 93
-    okita "Drats!"
+    okita "Блин!"
     show okita 3 at Position(xpos=0.75, ypos=1.0) with dissolve
-    okita "Alright, take it off..."
+    okita "Хорошо, снимай его..."
     show okita 5
-    okita "And put your pants back on!"
+    okita "И надень свои штаны назад!"
 
 
     hide playerbelt
     show player 11 at Position(xpos=0.35, ypos=1.0)
     show okita 22 at Position(xpos=0.68, ypos=1.0)
     with dissolve
-    okita "I just don't understand..."
-    okita "Everything looks correct!"
+    okita "Я просто не понимаю..."
+    okita "Все выглядит правильно!"
     show okita 23
     pause
     show okita 22
@@ -694,14 +694,14 @@ label okitas_office_okita_belt_assembled:
     show okita 23
     pause
     show okita 22
-    okita "I'll tinker with it."
-    okita "You're excused, {b}[firstname]{/b}."
+    okita "Я переделаю его."
+    okita "Ты свободен, {b}[firstname]{/b}."
     show player 10
     show okita 23
-    player_name "Should I come back tomorrow?"
+    player_name "Мне прийти завтра?"
     show player 11
     show okita 22
-    okita "Yes, yes, tomorrow."
+    okita "Да, да,завтра."
     return
 
 label okitas_office_extract_cum:
@@ -712,105 +712,105 @@ label okitas_office_extract_cum:
     player_name "{b}Miss Okita{/b}?"
     show player 1
     show okita 2
-    okita "You ready to get started?"
+    okita "Ты готов начать"
     show player 2
     show okita 1
-    player_name "As ready as I'll ever be."
+    player_name "Я готов как и всегда."
     show player 11
     player_name "..."
     show player 10
-    player_name "... Wait a second, why are you set up to make two serums?"
+    player_name "... Подождите секунду, почему вы настроены чтобы сделать 2 сыворотки?"
     show player 11
     show okita 2
-    okita "I'm afraid I haven't been completely honest with you, {b}[firstname]{/b}."
+    okita "Я боюсь что я не была абсолютно честна с тобой, {b}[firstname]{/b}."
     show okita 1
     player_name "..."
     show okita 2
-    okita "You've actually been collecting ingredients for two separate serums..."
+    okita "Ты на самом деле собрал компоненты для двух отдельных сывороток..."
     show player 10
     show okita 1
-    player_name "Separate?! What's the second one for?"
+    player_name "Отдельных?!А какая вторая?"
     show player 11
     show okita 2
-    okita "... It's for me."
+    okita "... Это для меня."
     show player 10
     show okita 1
-    player_name "Huh?"
+    player_name "Хмм?"
     show player 11
     show okita 7
-    okita "... The other day. With the {b}Okitatron Belt{/b} in class..."
+    okita "... На днях.С {b}Окитатронским поясом{/b} на занятии..."
     show player 10
     show okita 6
-    player_name "I said I was sorry for that!"
+    player_name "Я же извинился за это!"
     show player 11
     show okita 2
-    okita "Calm down, {b}[firstname]{/b}. It didn't upset me."
+    okita "Успокойся, {b}[firstname]{/b}.Это не рассторило меня."
     show okita 7
-    okita "In fact, it intrigued me!"
+    okita "Фактически,это заинтриговало меня!"
     show player 10
     show okita 6
-    player_name "What?"
+    player_name "Что?"
     show player 11
     show okita 7
-    okita "You see, I've never felt anything like that before..."
+    okita "Ты видишь,Я никогда не чувстовала что-то подобное раньше..."
     show player 10
     show okita 6
-    player_name "You mean you've never..."
+    player_name "Вы хотите сказать что вы никогда не..."
     show player 11
     show okita 7
-    okita "... Orgasmed."
+    okita "... Кончала."
     show player 10
     show okita 6
-    player_name "Like, never? How is that possible?"
+    player_name "Что, никогда? Как это возможно?"
     show player 11
     show okita 4
     okita "..."
     show okita 3
-    okita "I'm Asexual."
+    okita "Я Асексуал."
     show player 10
     show okita 4
-    player_name "I don't know what that is..."
+    player_name "Я не знаю что это..."
     show player 11
     show okita 9
-    okita "It means I don't have a sex drive."
+    okita "Это значит что у меня нет сексуального влечения."
     show player 10
     show okita 4
-    player_name "... Well how did that happen?"
+    player_name "...Так ,как такое могло произойти"
     show player 11
     show okita 8
     okita "..."
     show okita 9
-    okita "*sigh* I was born that way, Dummy."
+    okita "*Вздох* Я родилась такой, глупый."
     show player 10
     show okita 4
-    player_name "... Oh. S-sorry."
+    player_name "... Ох.И-извините."
     show player 11
     show okita 5
-    okita "It's alright. I've never given it much thought to be honest."
+    okita "Все хорошо я никогда не задумывалась об этом если честно."
     show okita 7
-    okita "... But the other day."
-    okita "I can't stop thinking about those sensations..."
-    okita "... And I wanna experience more!"
+    okita "... Но на днях."
+    okita "Я не могу перестать думать об этих ощущениях..."
+    okita "... И я хочу больше практики!"
     show player 10
     show okita 6
-    player_name "So, the second serum?"
+    player_name "Итак, вторая сыворотка?"
     show player 11
     show okita 7
-    okita "I designed it to simulate a sex drive."
+    okita "Я его создала для имитации сексуального влечения."
     show player 10
     show okita 6
-    player_name "You can do that?"
+    player_name "Вы можете это сделать?"
     show player 11
     show okita 7
-    okita "Of course."
-    okita "We're still missing one last ingredient though..."
+    okita "Конечно."
+    okita "Хотя нам по прежнему не хватает последнего компонента..."
     show player 10
     show okita 6
-    player_name "Seriously!? Why didn't you have me get it earlier, when I was fetching everyth-"
+    player_name "Серьезно!? Почему вы не поручили мне это сделать раньше,когда я делал его-"
     hide player
     show okita 65 at Position(xpos=0.4, ypos=1.0)
     with dissolve
-    okita "It's already here, {b}[firstname]{/b}."
+    okita "Все уже здесь, {b}[firstname]{/b}."
     scene expression game.timer.image("backgrounds/location_school_office4_closeup_sex{}.jpg")
     show okitap 2 zorder 0 at Position(xpos=0.55, ypos=1.0)
     show okita 6 zorder 1 at Position(xpos=0.715, ypos=1.0)
@@ -818,65 +818,65 @@ label okitas_office_extract_cum:
 
     show okitap 1
     show okita 7
-    okita "I just need a sample."
+    okita "Мне просто нужено образец."
     show okitap 2
     show okita 6
-    player_name "A sample of what?"
+    player_name "Образец чего?"
     show okitap 1
     show okita 7
-    okita "Your semen."
+    okita "Твоей спермы."
     show okitap 2
     show okita 6
-    player_name "WHAT?!" with hpunch
-    player_name "You want my semen?!"
+    player_name "ЧТО?!" with hpunch
+    player_name "Ты хочешь мою сперму?!"
     show okitap 1
-    okita "Mmhmm."
+    okita "Ммхмм."
     show okitap 2
-    player_name "... Why?"
-    show okitap 1
-    show okita 7
-    okita "I theorize that your semen will be the key ingredient in my serum."
-    okita "You see, you show characteristics of having an overactive sex drive."
-    show okitap 2
-    show okita 6
-    player_name "I do?"
+    player_name "... Почему?"
     show okitap 1
     show okita 7
-    okita "Hence the impressive size of your sexual organ. I imagine a few of your family members might display similar characteristics..."
+    okita "Я пологая что твое семя станет ключевым ингредиентом в моей сыворотке."
+    okita "Ты видишь, ты показываешь особенности избытка сексуального влечения."
     show okitap 2
     show okita 6
-    player_name "Hmm, you think it's because of I have an overactive sex drive?"
+    player_name "Я?"
+    show okitap 1
+    show okita 7
+    okita "Следовательно этим внушительным размером своего большого полового органа.Я предстовляю нескольких членов твоей семьи  которые проявляют похожие особенности..."
+    show okitap 2
+    show okita 6
+    player_name "Хмм, Вы думаете это из-за что у меня есть гиперактивное сексуальное влечения?"
     show okitap 1
     show okita 47 with dissolve
-    okita "Mmmhmm."
+    okita "Мммхмм."
     show okitap 2
-    player_name "I just figured it was good genes..."
+    player_name "Я просто думал что это хорошие гены..."
     show okitap 1
     show okita 48 with dissolve
-    okita "Do any of your male relatives possess a similar sized reproductive organ?"
+    okita "Кто то из твоих родствеником мужчин обладал аналогичным размером полового органа?"
     show okitap 2
     show okita 49
-    player_name "How should I know?!"
+    player_name "Откуда мне знать?!"
     show okitap 1
     show okita 48
-    okita "Well I'm going to assume my theory is correct then and proceed as planned."
+    okita "Что ж я буду считать что тогда моя теория верна  и действует как планировалось."
     show okitap 2
     show okita 49
-    player_name "So how is this going to work then?"
+    player_name "Итак как это будет работать тогда?"
     show okitap 1
     show okita 48
-    okita "Let's see it."
+    okita "Давай посмотрим на это."
     show okitap 2
     show okita 49
-    player_name "I dunno about this..."
+    player_name "Я не знаю об этом.."
     show okitap 1
     show okita 48
-    okita "Come now, {b}[firstname]{/b}. This could change my life in a profound and meaningful way."
-    okita "Would you truly deny me that, just to save yourself a bit of embarrassment?"
+    okita "Да ладно, {b}[firstname]{/b}.Это может изменить полностью мою жизнь и эффективным образом."
+    okita "Ты действительно отказал бы мне в этом, только чтобы спасти  себя от стыда?"
     show okita 49
     player_name "..."
     show okitap 2
-    player_name "*sigh* No, I guess not."
+    player_name "*Вздох* Нет, Думаю нет."
     show okitap 3 with dissolve
     pause
     show okitap 4 with dissolve
@@ -884,61 +884,61 @@ label okitas_office_extract_cum:
     show okitap 5 with dissolve
     player_name "..."
     show okita 48
-    okita "It really is quite impressive, {b}[firstname]{/b}."
+    okita "Это действительно весьма впечатляет, {b}[firstname]{/b}."
     show okitap 6
     show okita 49
-    player_name "T-thanks."
+    player_name "С-спасибо."
     show okitap 5
     show okita 48
-    okita "Now, I want you to just lay back and relax while I perform the procedure."
+    okita "Сейчас, Я хочу чтобы ты просто лег на спину и расслабился пока я проведу процедуру."
     show okitap 6
     show okita 49
-    player_name "... Procedure?"
+    player_name "... Процедуру?"
     show okitap 5
     show okita 48
-    okita "Shh. No talking, please."
-    okita "I need to concentrate."
+    okita "Шшш. Не болтай,пожалуйста."
+    okita "Мне нужно сосредоточиться."
     hide okita
     $ M_okita.set('sex speed', 0.7)
     show okitap 7_8 at Position(xpos=0.5675, ypos=1.0) with dissolve
-    player_name "Oh, my..."
+    player_name "Ох,мой..."
     pause 4
-    okita "Am I doing this correctly?"
-    player_name "Y-yeah..."
+    okita "Я делаю все правильно?"
+    player_name "Д-да..."
     pause 6
-    okita "... And this feels good?"
-    player_name "Mmmhmm..."
+    okita "... И тебе приятно?"
+    player_name "Мммхмм..."
     pause 3
-    okita "Is it going to result in climax?"
-    player_name "Uhh."
-    player_name "You'll have to speed up if you want me to cum..."
-    okita "Oh, really?"
+    okita "Я постараюсь что бы ты кончил?"
+    player_name "Эмм."
+    player_name "Вы должны ускориться если вы хотите чтобы я кончил..."
+    okita "Ох, серьезно?"
     $ M_okita.set('sex speed', 0.4)
     show okitap 7_8 at Position(xpos=0.5675, ypos=1.0) with dissolve
-    okita "I had no idea the pace mattered..."
+    okita "Понятия не имела что темп имеет значение..."
     pause 6
-    okita "Is this better?"
-    player_name "Oh yeah!"
+    okita "Теперь лучше?"
+    player_name "Ох да!"
     pause 4
-    okita "Are you getting close?"
-    player_name "I think so."
+    okita "Ты уже близко?"
+    player_name "Я думаю да."
     label okita_handjob_repeat:
         $ M_okita.set('sex speed', 0.2)
         show okitap 7_8 at Position(xpos=0.5675, ypos=1.0) with dissolve
-        player_name "Oh, god!"
+        player_name "Ох, Боже!"
         pause 6
         menu:
-            "Cum":
-                okita "This is all so fascinating!"
-                player_name "Oh! I'm gonna!"
-                player_name "I'm gonna!"
+            "Кончить":
+                okita "Это все так удивительно!"
+                player_name "Ох! Я собираюсь!"
+                player_name "Я собираюсь!"
                 show okitap 9 at Position(xpos=0.55, ypos=1.0) with dissolve
                 player_name "Hnnngg!!" with hpunch
                 pause
                 show okitap 10
                 pause
                 pause
-            "Keep Going":
+            "Продолжать":
 
                 jump okita_handjob_repeat
     return
@@ -948,62 +948,62 @@ label okitas_office_start_brewing:
     show player 27 at Position(xpos=0.35, ypos=1.0)
     show okita 87 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    okita "I'm sure you don't comprehend just how exciting this is."
-    okita "What I hold in my hand could be the key to unlocking experiences I've never even dared to dream of."
+    okita "Я уверена что ты просто не понимаешь как это захватывающе."
+    okita "Что я держу в руке может быть ключом к открытию опыта Я никогда не осмеливалась мечтать о."
     show player 26
     show okita 88
-    player_name "Uh huh..."
+    player_name "Эм хм..."
 
     show okita 87
     show player 25
-    okita "You should begin mixing immediately!"
+    okita "Следует начать смешивать немедленно!"
 
     show player 24
     show okita 88
-    player_name "Haaah... Haaah..."
+    player_name "Хааах... Хааах..."
     show player 26
-    player_name "Yeah, okay. Sure."
-    player_name "Just gimme a second to catch my breath..."
+    player_name "Да хорошо. Конечно."
+    player_name "Просто дай мне секунду чтобы перевести дыхание..."
     show player 24
     show okita 6 with dissolve
-    player_name "Whew!"
+    player_name "Фух!"
     show player 26
-    player_name "That was amazing."
+    player_name "Это было круто."
     show player 1
     show okita 7
-    okita "Yes, I'm sure it was."
+    okita "Да, Я уверена что было."
     show okita 3
-    okita "Can we begin now please?"
+    okita "Мы можем сейчас начать?"
     show okita 6
     show player 10
-    player_name "Alright, how do I do this?"
+    player_name "Хорошо, как мне это сделать?"
     show player 11
     show okita 7
-    okita "It's very simple. The {b}red serum is for me{/b} and the {b}blue is for Principal Smith{/b}."
-    okita "That means the {b}red serum{/b} needs {b}The Falicum Mushroom{/b}, {b}Horny Toad Extract{/b}, and your *ahem* contribution."
+    okita "Это очень легко.{b}Красная сыворотка это для меня{/b} и {b}Голубую для Директисы Smith{/b}."
+    okita "Это значит что  для {b}красной сыворотки{/b}нужны {b}The Falicum грибы{/b}, {b}Возбужденый лягушачий Экстракт{/b}, и твое *кхм* содействие."
     show okita 6
     player_name "..."
-    okita "Then the {b}blue serum{/b} will require {b}The base liquid{/b}, {b}Psychotropic Euphobria{/b}, and {b}Principal Smith's DNA{/b}."
-    okita "Do you think you can handle that?"
+    okita "Потом для {b}Голубой сыворотки{/b} потребуется {b}Жидкая основа{/b}, {b}Психотропная эйфория{/b}, и {b}ДНК Директрисы Smith's{/b}."
+    okita "Как ты думаешь справишься с этим?"
     label start_brewing_repeat_that:
         menu:
-            "Yes":
+            "Да":
                 scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
                 show player 2 at Position(xpos=0.35, ypos=1.0)
                 show okita 6 at Position(xpos=0.65, ypos=1.0)
-                player_name "Yeah, let's do this."
+                player_name "Да,давайте сделаем это."
                 return
-            "Could you repeat that?":
+            "Вы можете это повторить?":
 
                 scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
                 show player 11 at Position(xpos=0.35, ypos=1.0)
                 show okita 7 at Position(xpos=0.65, ypos=1.0)
-                okita "It's very simple. The {b}red serum is for me{/b} and the {b}blue is for Principal Smith{/b}."
-                okita "That means the {b}red serum{/b} needs {b}The Falicum Mushroom{/b}, {b}Horny Toad Extract{/b}, and your *ahem* contribution."
+                okita "Это очень просто.{b}Красная сыворотка это для меня{/b} и {b}Голубую для Директисы Smith{/b}."
+                okita "Это значит что  для {b}красной сыворотки{/b}нужны {b}The Falicum грибы{/b}, {b}Возбужденый лягушачий Экстракт{/b}, и твое *кхм* содействие."
                 show okita 6
                 player_name "..."
-                okita "Then the {b}blue serum{/b} will require {b}The base liquid{/b}, {b}Psychotropic Euphobria{/b}, and {b}Principal Smith's DNA{/b}."
-                okita "Do you think you can handle that?"
+                okita "Потом для {b}Голубой сыворотки{/b} потребуется {b}Жидкая основа{/b}, {b}Психотропная эйфория{/b}, и {b}ДНК Директрисы Smith's{/b}."
+                okita "Как ты думаешь справишься с этим?"
                 jump start_brewing_repeat_that
     return
 
@@ -1013,41 +1013,41 @@ label okitas_office_start_brewing_again:
     show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
     show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
     show okita 5 at right
-    okita "Ready to try again?"
+    okita "Готов попробовать еще раз?"
     show player 2
     show okita 4
-    player_name "Yeah, I'll get it this time for sure!"
+    player_name "Да, Я принесу его на этот раз точно!"
     show player 1
     show okita 5
-    okita "It's very simple. The {b}red serum is for me{/b} and the {b}blue is for Principal Smith{/b}."
-    okita "That means the {b}red serum{/b} needs {b}The Falicum Mushroom{/b}, {b}Horny Toad Extract{/b}, and your *ahem* contribution."
+    okita "Это очень просто.{b}Красная сыворотка это для меня{/b} и {b}Голубую для Директисы Smith{/b}."
+    okita "Это значит что  для {b}красной сыворотки{/b}нужны {b}The Falicum грибы{/b}, {b}Возбужденый лягушачий Экстракт{/b}, и твое *кхм* содействие."
     player_name "..."
-    okita "Then the {b}blue serum{/b} will require {b}The base liquid{/b}, {b}Psychotropic Euphobria{/b}, and {b}Principal Smith's DNA{/b}."
+    okita "Потом для {b}Голубой сыворотки{/b} потребуется {b}Жидкая основа{/b}, {b}Психотропная эйфория{/b}, и {b}ДНК Директрисы Smith's{/b}."
     show okita 3
-    okita "Do you think you can handle that?"
+    okita "Как ты думаешь справишься с этим?"
     label start_brewing_again_repeat_that:
         menu:
-            "Yes":
+            "Да":
                 scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
                 show player 2 zorder 0 at left
                 show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
                 show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
                 show okita 4 at right
-                player_name "Yeah, let's do this."
+                player_name "Да,давайте сделаем это."
                 return
-            "Could you repeat that?":
+            "Вы не могли бы повторить?":
 
                 scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
                 show player 1 zorder 0 at left
                 show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
                 show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
                 show okita 5 at right
-                okita "It's very simple. The {b}red serum is for me{/b} and the {b}blue is for Principal Smith{/b}."
-                okita "That means the {b}red serum{/b} needs {b}The Falicum Mushroom{/b}, {b}Horny Toad Extract{/b}, and your *ahem* contribution."
+                okita "Это очень просто.{b}Красная сыворотка это для меня{/b} и {b}Голубую для Директисы Smith{/b}."
+                okita "Это значит что  для {b}красной сыворотки{/b}нужны {b}The Falicum грибы{/b}, {b}Возбужденый лягушачий Экстракт{/b}, и твое *кхм* содействие."
                 player_name "..."
-                okita "Then the {b}blue serum{/b} will require {b}The base liquid{/b}, {b}Psychotropic Euphobria{/b}, and {b}Principal Smith's DNA{/b}."
+                okita "Потом для {b}Голубой сыворотки{/b} потребуется {b}Жидкая основа{/b}, {b}Психотропная эйфория{/b}, и {b}ДНК Директрисы Smith's{/b}."
                 show okita 3
-                okita "Do you think you can handle that?"
+                okita "Ты думаешь справишься с этим?"
                 jump start_brewing_again_repeat_that
     return
 
@@ -1056,36 +1056,36 @@ label okitas_office_okita_is_hypersexual:
     show player 10 zorder 0 at Position(xpos=0.35, ypos=1.0)
     show okita 6 zorder 1 at Position(xpos=0.75, ypos=1.0)
     with dissolve
-    player_name "Alright, I'm here."
+    player_name "Хорошо,я тут."
     show player 11
     show okita 7
-    okita "{b}[firstname]{/b}, I'm so happy you came!"
+    okita "{b}[firstname]{/b}, Я очень рада что ты пришел!"
     show player 10
     show okita 6
-    player_name "Where's this invention you were telling me about?"
+    player_name "Где это изобретение о котором вы мне говорили?"
     show player 11
     show okita 32 at Position(xpos=0.7, ypos=1.0) with dissolve
-    okita "It's right here..."
+    okita "Вот здесь..."
     show player 10
     show okita 33
-    player_name "That little thing?"
+    player_name "Эта маленькая штучка?"
     show player 30
-    player_name "What does it do?"
+    player_name "Что оно делает?"
     show player 113
     show okita 89 at Position(xpos=0.515, ypos=1.0) with dissolve
-    okita "Shh, I'm trying to show you..."
-    okita "This is a {b}Sensory A.R. Device{/b}"
-    player_name "A sensory wha-"
+    okita "Шшш, Я попытаюсь показать тебе..."
+    okita "Это {b}Чувствительное A.R.устройство{/b}"
+    player_name "Чувствительный чт-"
     show player 23
     show okita 6 at Position(xpos=0.75, ypos=1.0)
     show playerdev 2 zorder 2 at Position(xpos=0.328, ypos=0.346)
     with dissolve
     player_name "( !!! )" with hpunch
     show player 15
-    player_name "What the hell?!"
-    player_name "That hurt!"
+    player_name "Какого черта?!"
+    player_name "Это больно!"
     show okita 39 with dissolve
-    player_name "Get this thing-"
+    player_name "Снеми эту штуку-"
     show player 10
     show okita 40 with dissolve
     player_name "..."
@@ -1094,28 +1094,28 @@ label okitas_office_okita_is_hypersexual:
     pause
     show okita 42 at Position(xpos=0.72, ypos=1.0) with dissolve
     show player 10
-    player_name "Uhhh..."
+    player_name "Мммм..."
     show player 83
     show okita 43
     with dissolve
-    player_name "What are you doing?"
+    player_name "Что вы делаете?"
     show player 82
     show okita 44 with dissolve
     pause
     show okita 45
-    okita "Preparing for the next part."
+    okita "Подготовку к следующей части."
     show okita 44
     show player 83
-    player_name "The next part?"
-    player_name "What next part?!"
+    player_name "следующей части?"
+    player_name "Какой следующей части?!"
     show player 82
     show okita 45
-    okita "It should activate itself any second now..."
+    okita "Сейчас оно должно активировать само себя в любую секунду..."
     show okita 44
     pause
     show player 83
-    player_name "... Huh?"
-    player_name "What happens when it-"
+    player_name "... хм?"
+    player_name "Что произойдет тогда-"
     show player 81
     show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
     player_name "( !!! )" with hpunch
@@ -1125,69 +1125,69 @@ label okitas_office_okita_is_hypersexual:
     with dissolve
     pause
     show player 367bf
-    player_name "What the hell!"
+    player_name "Какого черта!"
     show player 368b with dissolve
     player_name "..."
     show player 368bf with dissolve
     pause
     show player 367bf
-    player_name "Where am I?!"
+    player_name "Где я?!"
     show player 368bf
     show okita 44b zorder 0 at right with dissolve
     pause
     show okita 45b at Position(xpos=0.75, ypos=1.0) with dissolve
-    okita "Welcome to {b}Augmented Reality{/b}."
+    okita "Добро пожаловать в {b}Вирутальную реальность{/b}."
     show okita 44b
     show player 367b at Position(xpos=0.35, ypos=1.0) with dissolve
     player_name "{b}Miss Okita{/b}?"
-    player_name "Where are-"
-    player_name "Wait."
-    player_name "Did you just say {b}Augmented Reality{/b}?"
+    player_name "Где-"
+    player_name "Подожди."
+    player_name "Вы только что сказали в {b}Вирутальную реальность{/b}?"
     show player 368b
-    okita "Mmmhmm."
+    okita "Ммммхмм."
     show player 367b
-    player_name "So none of this is real?"
+    player_name "Значит это все не реально?"
     show player 368b
     show okita 45b
-    okita "That would depend upon how you define real..."
+    okita "Это будет зависеть от того как ты определяешь реальность..."
     show okita 44b
     player_name "..."
     show player 367b
-    player_name "... Why are we naked?"
+    player_name "... Почему мы голые?"
     show player 368b
     show okita 45b
-    okita "We have no need for clothes here."
+    okita "Здесь мы не нуждаемся в одежде."
     show player 367b
     show okita 44b
-    player_name "I am so confused..."
+    player_name "Я сбит с толку..."
     show player 368b
     show okita 45b
-    okita "Shhhh..."
-    okita "Just calm down."
-    okita "We're in a shared {b}Augmented Reality{/b} that I built just for us."
-    okita "Isn't it beautiful, {b}[firstname]{/b}?"
+    okita "Шшшш..."
+    okita "Просто Успокойся."
+    okita "Мы находимся в общей {b}Вирутальной реальности{/b} что я сделала только для нас."
+    okita "Разве это не прекрасно, {b}[firstname]{/b}?"
     show player 367b
     show okita 44b
-    player_name "Y-yeah, I suppose."
-    player_name "... But what is the purpose of all this?"
+    player_name "Д-да, Я думаю."
+    player_name "... Но в чем смысл всего этого?"
     show player 368b
     show okita 45b
-    okita "We're about to experience something that no other person ever has."
+    okita "Мы собираемся испытать то что никто никогда никогда не делал"
     show okita 44b
     player_name "..."
     show okita 45b
-    okita "You see, {b}[firstname]{/b}. The device I attached to your head..."
-    okita "... The one that brought you to this wonderful place."
-    okita "It was designed to link it's user's nervous systems together."
+    okita "Ты видишь, {b}[firstname]{/b}. Это устройство я подключила к твоей голове..."
+    okita "... Тот кто привет тебя в это замечательное место."
+    okita "Оно было разработано чтобы связать нервные системы пользователя вместе."
     show okita 44b
     player_name "..."
     show player 367b
-    player_name "... Which means?"
+    player_name "... Что это значит?"
     show player 368b
     okita "..."
     show okita 86b at Position(xpos=0.8, ypos=1.0) with dissolve
     show player 367b
-    player_name "What are you-"
+    player_name "Что ты-"
     show okita 85b
     show player 430c with dissolve
     player_name "( !!! )"
@@ -1195,38 +1195,38 @@ label okitas_office_okita_is_hypersexual:
     show okita 86b
     pause
     show player 430c
-    player_name "I can feel that!"
+    player_name "Я чувствую это!"
     show player 430d
     show okita 45b at Position(xpos=0.75, ypos=1.0) with dissolve
-    okita "Precisely!"
-    okita "So long as we are in this {b}Augmented Reality{/b}, we will share our sensations."
+    okita "Именно!"
+    okita "Пока мы находимся в {b}Вертульной реальности{/b}, мы будем делиться своими ощущениями."
     show player 430c
     show okita 46b at Position(xpos=0.84, ypos=1.0) with dissolve
-    player_name "... That's incredible!"
+    player_name "... Это невероятно!"
     show player 430d
-    okita "Mmmhmm"
+    okita "Мммхмм"
     show player 430c
-    player_name "So what kind of tests are we going to run?"
+    player_name "Так какие испытания мы будем запускать?"
     show player 430d
     show okita 50b at Position(xpos=0.75, ypos=1.0) with dissolve
-    okita "We're going to copulate."
+    okita "Мы будем спариваться."
     show player 430c
     show okita 51b
-    player_name "Copu-what?!"
+    player_name "Спари-что?!"
     show player 430d
     show okita 50b
-    okita "We're going to have sexual intercourse."
+    okita "У нас будет половой акт."
     show player 430c
     show okita 51b
-    player_name "Like for real?"
+    player_name "Как по-настоящему?"
     show player 430d
     show okita 50b zorder 2 at Position(xpos=0.65, ypos=1.0) with dissolve
-    okita "Just relax, {b}[firstname]{/b}."
-    okita "You're going to enjoy this!"
+    okita "Просто расслабься, {b}[firstname]{/b}."
+    okita "Ты будешь наслаждаться этим!"
     show okita 51b
-    player_name "*Gulp*"
+    player_name "*Глоток*"
     show player 430c
-    player_name "... Uh huh."
+    player_name "... Ну да."
 
     scene location_school_office4_closeup_hscene_space
     show okitas 1b at Position(xpos = 0.53)
@@ -1234,47 +1234,47 @@ label okitas_office_okita_is_hypersexual:
     $ M_okita.set("sex speed", 0.15)
     show expression AnimatedImage("okitas", ["1b","2b","3b","4b","5b","6b","7b","8b","9b","10b"], M_okita) as okitas at Position(xpos = 0.53)
     pause 1
-    okita "Oh wow!"
-    okita "This is so fascinating..."
+    okita "Ох вау!"
+    okita "Это так увлекательно..."
     pause 2
-    okita "It's almost like, scratching at an itch that won't go away."
+    okita "Это почти похоже на царапины при зуде это не изчезнет"
     player_name "..."
     pause 2
-    player_name "Y-yeah, fascinating."
-    player_name "This feels really-"
-    okita "Amazing!"
+    player_name "Д-да, захватывающе."
+    player_name "Это правда очень-"
+    okita "Круто!"
     pause 2
-    player_name "Yeah!"
-    player_name "... And weird! Really, really weird!"
+    player_name "Да!"
+    player_name "... и странно!действительно,очень странно!"
     pause 5
-    player_name "It's so deep!"
-    okita "AH!!"
-    okita "Yeah it is."
-    okita "So deeeep!"
+    player_name "Это так глубоко!"
+    okita "АХ!!"
+    okita "Да совершенно."
+    okita "Так глубоко!"
     pause 2
-    okita "... And warm."
-    pause 2
-
-    player_name ".. And tight!"
+    okita "... И тепло."
     pause 2
 
-    player_name "It's so tight! It's squeezing me!"
+    player_name ".. И плотно!"
+    pause 2
+
+    player_name "Это так здавливает!Оно сжимает меня!"
     pause 5
 
-    okita "Harder!"
+    okita "Сильнее!"
     $ M_okita.set("sex speed", 0.1)
-    okita "AAAHHH!!"
+    okita "АААХХХ!!"
     pause 5
 
-    player_name "This is the best invention ever!!"
+    player_name "Это самое лучшее изобретение когда либо!!"
 
-    okita "Yeah it is!"
+    okita "Да именно!"
     pause 3
     $ M_okita.set("sex speed", 0.05)
-    okita "Oh, yes!"
-    okita "I'm getting close, {b}[firstname]{/b}!"
-    player_name "... I can feel it!"
-    player_name "OH WOW!!"
+    okita "Ах, да!"
+    okita "У уже близка, {b}[firstname]{/b}!"
+    player_name "... Я это чувствую!"
+    player_name "АХ ВАУ!!"
     $ anim_toggle = True
     jump okita_h_scene_loop
 
@@ -1329,32 +1329,32 @@ label okita_h_scene_loop:
 label okita_h_scene_dialog:
     $ temp = choice_randomizer([(1, 3), (2, 4), (3, 5), (4, 1)])
     if temp == 1:
-        player_name "I'm not sure I'll ever get used to feeling both sides of this."
-        okita "It's pretty intense, huh?"
-        player_name "Y-yeah!"
-        okita "Just relax and let me do the work."
-        player_name "Haaahh..."
-        okita "Amazing!"
-        okita "AAAaahh!!"
+        player_name "Я не уверен что я когда не будь привыкну к чувству этих обеих сторон."
+        okita "Это довольно интенсивно, хм?"
+        player_name "Д-да!"
+        okita "Просто расслабься и дай мне сделать работу."
+        player_name "Хааахх..."
+        okita "Круто!"
+        okita "АААаахх!!"
 
     elif temp == 2:
-        okita "You can go deeper if you want..."
-        player_name "... No. I really think it's deep enou-"
-        player_name "AAAh!!! Fuck!"
-        player_name "I can't believe how big it is!"
-        okita "I know, right?"
-        okita "It kinda hurts but in a really good way..."
-        player_name "Y-yeah, just don't stop-"
-        okita "AAAhhhh!!"
-        okita "It's so good!"
+        okita "Ты можешь войти глубже если хочешь..."
+        player_name "... Нет.Я действительно думаю что это достаточно глубоко-"
+        player_name "АААХ!!!ЕБАТЬ!"
+        player_name "Я не могу поверит насколько он большой!"
+        okita "Я знаю понятно?"
+        okita "Это болит но в очень хорошем смысле..."
+        player_name "Д-да, только не останавливайся-"
+        okita "АААХХХХХ!!"
+        okita "Это так хорошо!"
 
     elif temp == 3:
-        okita "Fuck me!"
-        okita "Oooh!!"
-        okita "Fuck me harder!"
+        okita "Еби меня!"
+        okita "Оооох!"
+        okita "Трахай меня сильнее!"
         player_name "..."
-        okita "HARDER!"
-        okita "AAAAhhhh!!"
+        okita "СИЛЬНЕЕ!"
+        okita "АААААХХХХХ!!"
 
     elif temp == 4:
         call expression game.dialog_select("okita_h_scene_force_exit_dialog")
@@ -1368,13 +1368,13 @@ label okita_h_scene_dialog:
     return
 
 label okita_h_scene_force_exit_dialog:
-    player_name "God, I love these devices!"
-    okita "... I love your dick, {b}[firstname]{/b}!"
+    player_name "Боже, Я люблю эти устройства!"
+    okita "... Я люблю твой член, {b}[firstname]{/b}!"
     pause 5
-    player_name "Call me Neo!"
-    okita "Huh?"
-    player_name "Call me Neo!!"
-    okita "Neo?!?"
+    player_name "Зови меня Нео!"
+    okita "Хм?"
+    player_name "Зови меня Нео!!"
+    okita "Нео?!?"
     player_name "Hnnnnggggg!!!"
     $ M_okita.set ("sex speed", 0.9)
     if M_okita.is_set("in augmented reality"):
@@ -1393,38 +1393,38 @@ label okita_h_scene_force_exit_dialog:
         show player 21 at Position(xpos = 0.35, ypos = 1.0)
         show okita 75 at Position(xpos = 0.65, ypos = 1.0)
         with dissolve
-        player_name "Haaah... Haaah..."
+        player_name "Хааах... Хааах..."
         show player 11
         show okita 74
-        okita "What the hell was that?"
+        okita "Что черт возьми это?"
         show player 10
         show okita 75
-        player_name "Sorry, I guess that Neo bit was a little much..."
+        player_name "Извините, Я думаю это Neo было немного много..."
         show player 11
         show okita 74
-        okita "Pffft, hahahaha!"
+        okita "Пфффф, хахахаха!"
         hide player
         hide okita
         with dissolve
     return
 
 label okitas_office_hscene_cum:
-    okita "This is incredible!"
-    okita "It feels like I'm about to boil over!"
-    player_name "I can't hold it anymore!"
-    okita "Don't you dare stop!"
-    okita "Don't you-"
+    okita "Это невероятно!"
+    okita "Такое ощущение будто я вот вот выкиплю!"
+    player_name "Я не могу больше терпеть!"
+    okita "Не смей останавливаться!"
+    okita "Не смей-"
     $ M_okita.set("sex speed", 0.9)
     if M_okita.is_set("in augmented reality"):
         show okitas 11b_12b with flash
     else:
         show okitas 11_12 with flash
-    okita "YEESSSSSS!!!"
+    okita "ДААААААААА!!!"
     if M_okita.is_set("in augmented reality"):
         show okitas 11b_12b with flash
     else:
         show okitas 11_12 with flash
-    okita "Aaaah, I can't feel my legs!"
+    okita "Аааах, я не чувствую своих ног!"
     jump okitas_office_hscene_aftermath
 
 label okitas_office_hscene_aftermath:
@@ -1436,48 +1436,48 @@ label okitas_office_hscene_aftermath:
     show okita 75 at Position(xpos = 0.65, ypos = 1.0)
     with dissolve
     if M_okita.is_state(S_okita_is_hypersexual):
-        player_name "That was..."
+        player_name "Это было..."
         show player 28
         show okita 74
-        okita "Mind blowing!"
+        okita "Сногшибательно!"
         show player 10
         show okita 75
-        player_name "I was gonna say weird..."
+        player_name "Я хотел сказать странно..."
         show player 21
-        player_name "... But yeah, mind blowing works too!"
+        player_name "... Но да, Сногшибательно тоже пойдет!"
         show player 28
         show okita 74
-        okita "Hehehe."
-        okita "I think you've earned your A."
+        okita "Хехехе."
+        okita "Я думаю что ты заслужил свою А."
         show player 21
         show okita 75
-        player_name "Really?!"
+        player_name "Серьезно?!"
         show player 28
         show okita 74
-        okita "Definitely!"
-    okita "I've never experienced anything so intense before!"
+        okita "Однозначно!"
+    okita "Я никогда не испытовала ничего настолько интенсивного прежде!"
     show player 21
     show okita 75
-    player_name "Me neither..."
+    player_name "Я тоже..."
     show player 28
     show okita 74
-    okita "I think this device is gonna need more testing."
+    okita "Я думаю что этому устройству понадобится больше проверок."
     show player 21
     show okita 75
-    player_name "Oh?"
+    player_name "Ох?"
     show player 28
     show okita 74
-    okita "A LOT more testing!"
+    okita "Намного больще проверок!"
     show player 21
     show okita 75
-    player_name "You mean we can do this again?"
+    player_name "Вы хотите сказать что мы можем сделать это снова?"
     show player 28
     show okita 74
-    okita "Absolutely!"
-    okita "Just come visit me in my office when you have time for testing."
+    okita "Непременно!"
+    okita "Просто приходи в мой кабинет когда у тебя будет время на проверку"
     show player 21
     show okita 75
-    player_name "Alright, will do."
+    player_name "Хорошо,сделаю."
     hide player
     hide okita
     with dissolve
@@ -1497,33 +1497,33 @@ label okita_pre_hscene_repeatable:
     scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
     show player 2 at Position(xpos=0.35, ypos=1.0)
     show okita 6 at Position(xpos=0.65, ypos=1.0)
-    player_name "Hey, {b}Miss Okita{/b}!"
+    player_name "Хэй, {b}Miss Okita{/b}!"
     show player 1
     show okita 7
-    okita "Hello, my little lab rat."
-    okita "Have you come for another round of testing?"
+    okita "Привет, моя маленькая лабораторная крыса."
+    okita "Ты пришел за еще одной порцией испытаний?"
     show player 2
     show okita 6
-    player_name "Yeah, if you want?"
+    player_name "Да, Если вы хотите?"
     show player 1
     show okita 7
-    okita "Of course, just let me just attach your {b}Sensory A.R. Device{/b}..."
+    okita "Конечно,только позволь мне лиш присоеденить{b}Сенсорное A.R. устройство{/b}..."
     show player 11
     show okita 89 at Position(xpos=0.515, ypos=1.0) with dissolve
     pause
     show player 10
-    player_name "I really don't like this part..."
+    player_name "Мне совсем не нравится эта часть..."
     show player 11
     show okita 7 at Position(xpos=0.75, ypos=1.0)
     show playerdev 2 zorder 2 at Position(xpos=0.328, ypos=0.346)
     with dissolve
-    okita "Oh, it's not so bad!"
+    okita "Ох, это не так уж плохо!"
     show okita 39 with dissolve
     player_name "..."
     show player 21
     show okita 40
     with dissolve
-    player_name "Now this part I like!"
+    player_name "Сейчас эта часть мне нравится"
     show player 28
     show okita 41 at Position(xpos=0.73, ypos=1.0) with dissolve
     pause
@@ -1536,32 +1536,32 @@ label okita_pre_hscene_repeatable:
     show okita 44 with dissolve
     pause
     show okita 45
-    okita "Ready to get started?"
+    okita "Готов начать?"
     show player 83b
     show okita 44
-    player_name "You bet!"
+    player_name "Еще бы!"
     if M_okita.get("first time repeatable"):
-        player_name "I'm really excited to-"
+        player_name "Я очень взволнован-"
         show player 82
         pause
         show player 83
-        player_name "Do you hear a buzzing sound?"
+        player_name "Ты слышишь жужжащий звук?"
         show player 82
         show okita 45
-        okita "Hehe, maaaaaybe..."
+        okita "Хехе, мооожеть быть..."
         show okita 44
         player_name "..."
         show okita 45
-        okita "Don't look so worried, {b}[firstname]{/b}!"
+        okita "Не волнуйся ты так, {b}[firstname]{/b}!"
         show okita 90 with dissolve
-        okita "It's just my new toy."
-        okita "I've had it in all day."
+        okita "Это просто моя новая игрушка."
+        okita "Она у меня была весь день."
         show player 83
         show okita 44 with dissolve
-        player_name "O-okay."
+        player_name "Х-хорошо."
         show player 83
         pause
-        player_name "... But if we're going into the {b}Augmented Reality{/b}, won't I feel-"
+        player_name "... Но если мы будем в {b}Вирутальной реальности{/b},я не почувствую-"
         show player 81
         show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
         player_name "( !!! )" with hpunch

@@ -17,14 +17,14 @@ label anna_button_yoga_room_dialogue_wheres_mrsj:
     show player 14
     player_name "Я ищу {b}Миссис Джонсон{/b}."
     show player 30
-    player_name "Вы знаете, где я мог бы найти ее?"
+    player_name "Вы не знаете, где я могу ее найти?"
     show player 5
     show anna 2
-    anna "Обычно она учит в течение дня."
-    anna "Она уже должна быть дома..."
+    anna "Обычно она проводит занятия в течение дня."
+    anna "Она уже должна быть дома ..."
     show anna 1
     show player 14
-    player_name "О. Я вижу. Благодарю!"
+    player_name "Ох. Понял. Благодарю!"
     show player 13
     show anna 3
     anna "Не проблема!"
@@ -32,15 +32,15 @@ label anna_button_yoga_room_dialogue_wheres_mrsj:
 
 label anna_button_yoga_room_dialogue_yoga:
     show player 10
-    player_name "Вы хотите практиковать некоторые позы йоги со мной?"
+    player_name "Вы хотите заняться йогой со мной?"
     show player 5
     show anna 3
-    anna "Конечно!!"
+    anna "Of course!!"
     show anna 2
-    anna "Мне нравится, когда кто-то может помочь мне достичь их... жесткие позы..."
+    anna "Мне нравится, когда кто-то может помочь мне достичь этих ... сложных позиций ..."
     show anna 1
     show player 33
-    player_name "Хорошо, насколько я помню, ты довольно гибкая."
+    player_name "Right, you're quite flexible as I remember."
     show player 13
     show anna 2
     anna "Хорошо, давайте найдем коврик для йоги..."

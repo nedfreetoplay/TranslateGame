@@ -3,127 +3,127 @@ label veronica_dialogue_pre:
     show player 1 at left
     show veronica 2 at right
     with dissolve
-    vero "Welcome to {b}CONSUM-R{/b}! My name is {b}Veronica{/b}."
+    vero "Добро пожаловать в {b}CONSUM-R{/b}! Меня зовут {b}Veronica{/b}."
     show veronica 4
-    vero "Is there anything I can help you with today?"
+    vero "Могу ли я вам чем-нибудь помочь?"
     show veronica 1
     return
 
 label veronica_dialogue_vegatable_stock:
     show player 2
-    player_name "I'm looking for {b}Vegetable Stock{/b}. Do you guys carry it?"
+    player_name "Мне нужен {b}овощной бульон{/b}. У вас есть он?"
     show player 1
     show veronica 2
-    vero "I'm afraid we're all sold out at the moment."
+    vero "Я боюсь, что мы всё продали."
     show player 10
     show veronica 1
-    player_name "Oh man..."
+    player_name "Ох черт..."
     show player 11
     show veronica 2
-    vero "Would {b}Chicken Stock{/b} work? We have plenty of that."
+    vero "Может вам подойдет {b}Куриный бульон{/b}? Он у нас ещё есть."
     show player 10
     show veronica 1
-    player_name "I don't know..."
-    player_name "Is there a delivery coming soon or something?"
+    player_name "Я не уверен..."
+    player_name "А может его просто скоро доставят?"
     show player 11
     show veronica 2
-    vero "We get deliveries daily but I have no idea when that particular item will be restocked."
+    vero "У нас ежедневная доставка, но я не знаю, когда именно этот товар будет на прилавке."
     show player 10
     show veronica 1
-    player_name "Crap..."
-    player_name "Alright, thank you."
+    player_name "Дерьмо..."
+    player_name "Ладно, спасибо."
     hide veronica with dissolve
     show player 10 with dissolve
 
-    player_name "Hmm, I guess {b}Chicken Stock{/b} will have to do."
+    player_name "Хмм, думаю {b}куриный бульон{/b} должен сгодиться."
     show player 2
-    player_name "I should buy some and take it to Okita."
+    player_name "Надо просто купить его и отнести Okita."
 
     return
 
 label veronica_dialogue_bug_spray:
     show player 4
-    player_name "Uh..."
+    player_name "Ух..."
     show player 12
-    player_name "I'm looking for pesticide?"
+    player_name "У вас есть пестицид?"
     show veronica 4
     show player 1
-    vero "Ah, yes! We have a variety of pest repellent products!"
+    vero "Да! У нас широкий выбор товаров для уничтожения вредителей!"
     show veronica 1
     show player 2
-    player_name "Hmm... How about for insects?"
+    player_name "Хмм... Что насчет насекомых?"
     show veronica 3
     show player 1
-    vero "Well... There are many types of pesticides for insects..."
+    vero "Ну... Есть разные препараты от насекомых..."
     show veronica 2
     show player 11
-    vero "Do you know what type of bug you're dealing with?"
+    vero "Вы знаете, какой именно тип жуков вам досаждает?"
     show veronica 1
     show player 10
-    player_name "I'm not quite sure what kind it is..."
+    player_name "Я не совсем уверен, что это за жуки..."
     show veronica 3
     show player 13
-    vero "Well, what does it {b}look like{/b}?"
+    vero "Ну, как {b}они выглядят{/b}?"
     show veronica 1
     return
 
 label veronica_dialogue_bug_spray_large_wings:
     show player 35
-    player_name "It had a set of large wings..."
+    player_name "У них пара больших крыльев..."
     show veronica 3
     show player 11
-    vero "Hmm... Could be {b}grasshoppers{/b}..."
+    vero "Хмм... Может быть это {b}кузнечики{/b}..."
     show veronica 4
     show player 1
-    vero "Get the spray can with a {b}red cap{/b}. It's called the {b}Bug Exterminator{/b}."
+    vero "Возьмите спрей с {b}красной крышкой{/b}. Он называется {b}Bug Exterminator{/b}."
     show veronica 2
-    vero "It should do the trick!"
+    vero "Он должен помочь!"
     show veronica 1
     show player 17
-    player_name "Alright, thanks!"
+    player_name "Окей, спасибо!"
     return
 
 label veronica_dialogue_bug_spray_pincers:
     show player 35
-    player_name "It had large pincers..."
+    player_name "У них большие клешни..."
     show veronica 3
     show player 11
-    vero "Hmm... Could be {b}earwigs{/b}... Nasty buggers!"
+    vero "Хмм... Может это {b}уховертки{/b}... Мерзкие твари!"
     show veronica 4
     show player 1
-    vero "Get the spray can with a {b}green cap{/b}. It's called the {b}Bug Annihilator{/b}."
+    vero "Возьмите спрей с {b}зеленой крышкой{/b}. Он называется {b}Bug Annihilator{/b}."
     show veronica 2
-    vero "It should do the trick!"
+    vero "Он должен помочь!"
     show veronica 1
     show player 17
-    player_name "Alright, thanks!"
+    player_name "Окей, спасибо!"
     return
 
 label veronica_dialogue_bug_spray_white_spots:
     show player 35
-    player_name "It had white spots on its shell..."
+    player_name "У них белые пятна на панцире..."
     show veronica 3
     show player 11
-    vero "Hmm... Could be {b}beetles{/b}..."
+    vero "Хмм... Может это {b}мраморный хрущ{/b}..."
     show veronica 4
     show player 1
-    vero "Get the spray can with a {b}blue cap{/b}. It's called the {b}Bug Eradicator{/b}."
+    vero "Возьмите спрей с {b}синей крышкой{/b}. Он называется {b}Bug Eradicator{/b}."
     show veronica 2
-    vero "It should do the trick!"
+    vero "Он должен помочь!"
     show veronica 1
     show player 17
-    player_name "Alright, thanks!"
+    player_name "Окей, спасибо!"
     return
 
 label veronica_dialogue_leave:
     show player 2
-    player_name "Uhm..."
+    player_name "Эм..."
     show player 17
-    player_name "I think I'm fine, thanks!"
+    player_name "Я думаю, мне не нужна помощь!"
     show veronica 4
     show player 1
-    vero "No problem!"
+    vero "Отлично!"
     show veronica 2
-    vero "Just let me know if you need anything."
+    vero "Просто скажите, если вам что-нибудь понадобится."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

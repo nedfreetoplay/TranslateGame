@@ -8,14 +8,14 @@ label mrsj_yoga_button_dialogue:
 
         call expression game.dialog_select("mrsj_button_yoga_room_dialogue_pre_repeat")
     menu mrsj_button_yoga_room_dialogue_options:
-        "Как {b}Эрик{/b}?":
+        "Как {b}Erik{/b}?":
             call expression game.dialog_select("mrsj_button_yoga_room_dialogue_hows_erik")
             jump expression game.dialog_select("mrsj_button_yoga_room_dialogue_options")
         "Что это было?":
 
             call expression game.dialog_select("mrsj_button_yoga_room_dialogue_what_was_that")
             jump expression game.dialog_select("mrsj_button_yoga_room_dialogue_options")
-        "Вы так натренированны!":
+        "Вы в хорошей форме!":
 
             call expression game.dialog_select("mrsj_button_yoga_room_dialogue_youre_so_fit")
             jump expression game.dialog_select("mrsj_button_yoga_room_dialogue_options")

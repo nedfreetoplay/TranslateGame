@@ -2,31 +2,31 @@ label rump_mall_dialogue_pre:
     scene mall_closeup
     show xtra 18 zorder 2 at left
     with dissolve
-    player_name "( Looks like the new mayor is giving a speech today. )"
+    player_name "( Похоже на нового Мэра,который произносит свою речь сегодня. )"
     show rump 1 at Position(xpos = 330)
     show iwanka 1 at Position(xpos = 860)
     with dissolve
     pause
     show rump 2
-    rump "Good afternoon, citizens of Summerville."
-    rump "It is through your hard work and dedication that I am able to be here today and say..."
-    rump "I am greatly honored to be elected as the mayor of our great town."
+    rump "Добрый День, граждане Summerville."
+    rump "Именно благодаря вашей усердной работе и преданности делу Я горд возможностью находиться сегодня сдесь и говорить..."
+    rump "Я удостоился великой чести быть выбранным Мэром вашего прекрасного города."
     show rump 4 at Position(xpos = 374)
     show iwanka 2
-    rump "Along with my daughter, Iwanka."
-    rump "Who will be fully in charge of all matters related to foreign affairs."
+    rump "Вместе с моей дочерью, Iwanka."
+    rump "Кто будет нести полную ответственность по всем вопросам связанными с иностранными делами."
     show rump 3 at Position(xpos = 266)
     show iwanka 1
-    rump "And as promised during my campaign..."
-    rump "We will take this pathetic shopping center, and turn it into a great {b}MALL{/b}!"
+    rump "И как было обещано сделать это во время моей компании..."
+    rump "Мы возьмем этот жалкий Торговый центр, и превратим его в нечто великое {b}MALL{/b}!"
     show rump 2 at Position(xpos = 330)
-    rump "It will not be easy!"
-    rump "It will not be quick!"
+    rump "Это будет не легко!"
+    rump "Это будет не быстро!"
     show rump 3 at Position(xpos = 266)
-    rump "But I will see to it as mayor, that our wonderful town becomes {b}GREAT AGAIN!{/b}"
+    rump "Но я прослежу за этим как мэр, это станет нашим прекрасным городом {b}GREAT AGAIN!{/b}"
     hide rump
     hide iwanka
     with dissolve
-    player_name "( He sure has a way with words... )"
+    player_name "( Он несомненно умеет подбирать нужные слова... )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

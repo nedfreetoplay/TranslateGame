@@ -22,9 +22,9 @@ label kitchen_drink:
     call expression game.dialog_select("dianes_kitchen_diane_kitchen_drink_intro")
     $ aunt_drink_made = True
     menu:
-        "No.":
+        "Нет.":
             call expression game.dialog_select("dianes_kitchen_diane_kitchen_drink_no")
-        "Yes.":
+        "Да.":
 
             call expression game.dialog_select("dianes_kitchen_diane_kitchen_drink_yes")
             $ aunt_extra_shot = True

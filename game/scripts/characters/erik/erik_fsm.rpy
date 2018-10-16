@@ -20,7 +20,7 @@ label erik_triggers_init:
         T_erik_thief_seen_telescope = Trigger("thief seen telescope", "PANTIES?! WHERE?! Part 1")
         T_erik_thief_catch = Trigger("thief_catch", "PANTIES?! WHERE?! Part 2")
         T_erik_father_forgive = Trigger("father forgive", "Larry Just Wants To Be Forgiven")
-        T_erik_father_tell_location = Trigger("father tell location", "larry told you to look behind the bushes in the park.")
+        T_erik_father_tell_location = Trigger("father tell location", "larry told you to look behind the bushes in the park.") 
         T_erik_father_got_treasure = Trigger("father got treasure", "Larry's Secret Treasure Stash")
         T_erik_path_split = Trigger("path split", "Which Way To Go")
         T_erik_sex_ed = Trigger("sex ed", "Reasons Why Sex Ed Is Important")
@@ -93,7 +93,7 @@ label erik_fsm_init:
 
 label erik_machine_init:
     python:
-        M_erik = Machine("erik", default_loc = [[L_school_scienceclassroom, L_school_cafeteria, L_erikhouse_erikroom, L_erikhouse_erikroom],
+        M_erik = Machine("erik", default_loc = [[L_school_scienceclassroom, L_school_cafeteria, L_erikhouse_erikroom, L_erikhouse_erikroom], 
                                                 [L_erikhouse_erikroom, L_erikhouse_erikroom, L_erikhouse_erikroom, L_erikhouse_erikroom]
                                                 ],
                          vars = {"sex speed": .3,

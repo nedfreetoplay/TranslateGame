@@ -1,16 +1,16 @@
 label second_floor_first_visit:
     scene stairs
     show player 4 with dissolve
-    player_name "Hmmm..."
-    player_name "( Not too many people going into the Cafeteria, yet. )"
+    player_name "Хммм..."
+    player_name "(Не так много людей собираются в кафетерии. )"
     show player 12
-    player_name "( It's not lunch time yet. )"
+    player_name "( Сейчас не обеденный перерыв. )"
     hide player with dissolve
     return
 
 label second_floor_okita_dose_smith:
     scene expression game.timer.image("backgrounds/location_school_second{}_blur.jpg")
     show player 35
-    player_name "Hmm, I think {b}Principal Smith{/b} goes into the {b}Teacher's Lounge{/b} to {b}drink coffee{/b} in the afternoons."
+    player_name "Хмм, Я думаю {b}Директриса Smith{/b} пошла в {b}Учительскую{/b} чтобы {b}попить кофе{/b} в дневное время."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

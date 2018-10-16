@@ -1,43 +1,43 @@
 label anna_dialogue_anna_dog_hunt:
     show player 11 at left with dissolve
     show anna 5 at right with dissolve
-    anna "Эй {b}[firstname]{/b}, вы видели {b}маленькую собаку{/b} без поводка??"
+    anna "Привет {b}[firstname]{/b}, ты не видел {b}маленькую собачку{/b} без поводка??"
     show anna 4
     show player 10
-    player_name "Я так не думаю..."
+    player_name "I don't think so..."
     show anna 5
     show player 11
-    anna "Кажется, я его потеряла."
-    anna "Я бежал по тропе мимо {b}леса{/b}, и когда я оглянулся назад, его уже не было рядом.!!"
+    anna "Я потеряла его."
+    anna "Я бегала по тропинке в {b}лесу{/b}, и когда я оглянулась, то он пропал!!"
     show anna 4
     show player 10
-    player_name "Вы осматривали вдоль тропы?"
+    player_name "Вы искали его возле тропинки?"
     show anna 5
     show player 11
-    anna "Ну конечно! Я искала везде!"
+    anna "Конечно! Я смотрела везде!"
     anna "Но я не могу пройти по тропе в лесу в одиночку...."
     show anna 4
     show player 10
     player_name "Как он выглядит?"
     show player 11
     show anna 6 at Position(xpos=1002)
-    anna "Ох, конечно. он {b}мопс{/b}, и вообщем-то всё!"
+    anna "Ах да, точно. Это {b}мопс{/b}, приблизительно вот такого размера!"
     show anna 5 at right
-    anna "Его зовут {b}Шикардос{/b}."
-    anna "У него немного избыточный вес, поэтому он не мог уйти далеко."
-    anna "Пожалуйста! Ты поможешь мне найти его?"
+    anna "Его кличка {b}Awesomo{/b}."
+    anna "Он немного толстоват, так что он не мог убежать далеко."
+    anna "Пожалуйста! Ты мне поможешь найти его?"
     show anna 4
     return
 
 label anna_dialogue_anna_dog_hunt_yes:
     show player 14
-    player_name "Конечно. Я буду искать его."
+    player_name "Разумеется. Я поищу его."
     player_name "Что я ещё должен знать о нем?"
     player_name "Что-то, что поможет мне найти его?"
     show player 1
     show anna 5
-    anna "Ну... Он действительно любит есть {b}печенье{/b}."
-    anna "Если у вас есть, я уверен, что он их понюхает и покажется..."
+    anna "Ну... Он очень любит кушать {b}печеньки{/b}."
+    anna "Если у тебя есть несколько, то я уверена что он их сможет унюхать и прибежать..."
     show anna 11
     show player 14
     player_name "Хорошо! Я приду к тебе, если найду его!"
@@ -48,10 +48,10 @@ label anna_dialogue_anna_dog_hunt_yes:
 
 label anna_dialogue_anna_dog_hunt_no:
     show player 10
-    player_name "Я хотел бы помочь, но у меня есть кое-что, что мне нужно для участия в..."
+    player_name "Я хотел бы помочь, но у меня есть дела по важнее..."
     show player 11
     show anna 5
-    anna "О, извините, что беспокою вас..."
+    anna "Ой, извини что побеспокоила тебя...."
     return
 
 label anna_dialogue_anna_find_dog_have_dog:
@@ -62,22 +62,22 @@ label anna_dialogue_anna_find_dog_have_dog:
     show anna 5 with vpunch
     anna "!!!"
     show anna 12
-    anna "{b}Шикардос{/b}!!!"
+    anna "{b}Awesomo{/b}!!!"
     show player 1
     show anna 9
     with dissolve
-    anna "Где вы его нашли?!"
+    anna "Где ты его нашел?!"
     show anna 8
     show player 14
-    player_name "Он был в лесу неподалеку, недалеко от тропы..."
-    player_name "И вы оказались правы! Несколько печенья сделали свое дело."
+    player_name "Он ушел далеко в лес по тропинке..."
+    player_name "Вы были правы! Трюк с печеньками сработал."
     show anna 10
     show player 1
     anna "Спасибо вам {b}огромное{/b}!"
     show anna 9
-    anna "Я обязательно вам как-нибудь отплачу."
+    anna "Я обязательно с Вами расплачусь."
     show anna 7
-    anna "Я должна отвезти его домой. Он, наверное, проголодался после всего этого."
+    anna "Я должна отвезти его домой. Он наверное очень сильно проголодался."
     show anna 10
     anna "Увидимся!"
     return
@@ -89,16 +89,16 @@ label anna_dialogue_anna_find_dog_do_not_have_dog:
     show anna 4
     show player 10
     player_name "Еще нет..."
-    player_name "Не могли бы вы еще раз описать? И где я могу его найти?"
+    player_name "Вы можете мне описать его, еще раз? И повторите, где его можно поискать?"
     show player 11
     show anna 6 at Position(xpos=1002)
-    anna "Он такой большой и он {b}мопс{/b}!"
+    anna "Он вот такого размера и он {b}мопс{/b}!"
     show anna 5 at right
-    anna "Он должен быть где-то рядом с тропой в {b}лесу{/b}..."
-    anna "...И он любит {b}печенье{/b}!"
+    anna "Потерялся он вдоль тропинки в {b}лес{/b}..."
+    anna "...и он обожает {b}печенюшки{/b}!"
     anna "Возможно, вы можете использовать несколько {b}печенья{/b}, чтобы заманить его."
     show anna 11
     show player 14
-    player_name "Хорошо! Я пойду его искать!"
+    player_name "Хорошо! Пойду поищу его!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

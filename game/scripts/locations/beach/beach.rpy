@@ -21,24 +21,24 @@ label sara_bikini_picked_up:
     scene expression "backgrounds/location_beach_water_contest_closeup.jpg"
     if M_roxxy.is_state(S_roxxy_get_new_bikini):
         show player 655 with dissolve
-        player_name "Hmm..."
+        player_name "Хмм..."
         show player 655b
-        player_name "It's a little small for {b}Roxxy{/b} but it might do the trick."
+        player_name "Это немного маловато для {b}Roxxy{/b} но это может сработать."
         show player 655
         player_name "..."
         show player 655b
-        player_name "I can't believe {b}Miss Sara{/b} was wearing this tiny thing!"
-        player_name "Hmm, I doubt she'd mind if I borrow it for awhile."
-        player_name "I should take it to {b}Roxxy{/b} and see what she thinks..."
+        player_name "Я не могу поверить что {b}Miss Sara{/b} была одета в эту крошечную вещь!"
+        player_name "Хмм, Я сомневаюсь, что она возражала бы, если я одолжу ето  на некоторое время."
+        player_name "Я должен взять это для {b}Roxxy{/b} и увидеть что она думает..."
         hide player with dissolve
         $ player.get_item("sara_bikini")
     else:
         show player 655 with dissolve
-        player_name "( Hmm... )"
+        player_name "( Хмм... )"
         show player 655b
-        player_name "( It's miss sara's bikini... )"
+        player_name "( Это пропавшие бикини Сары ... )"
         show player 655
-        player_name "( I should pick it up to return it to her )"
+        player_name "( Я должен взять это и вернуться к ней )"
         show player 655b
         $ player.get_item("sara_bikini")
     $ game.main()
@@ -114,8 +114,8 @@ label beach_showers_dialogue:
 label beach_tower_oil_pickup:
     scene expression "backgrounds/location_beach_tower_day_blur.jpg"
     show player 657b with fastdissolve
-    player_name "This is it!"
-    player_name "Yessssssss!!!"
+    player_name "Вот оно!"
+    player_name "Даааааааа!!!"
     hide player with fastdissolve
     $ player.get_item("massage_oil")
     $ game.main()

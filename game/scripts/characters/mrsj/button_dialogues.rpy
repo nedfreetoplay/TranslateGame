@@ -2,17 +2,17 @@ label button_mrsj_greetings:
     show player 14 at left
     show mrsj 14 at right
     with dissolve
-    player_name "Привет, {b}Миссис Джонсон{/b}!"
+    player_name "Здравствуйте, {b}Mrs. Johnson{/b}!"
     show player 1
     show mrsj 17
-    mrsjo "Эй, {b}[firstname]{/b}!"
-    mrsjo "Как твои дела?"
+    mrsjo "Привет, {b}[firstname]{/b}!"
+    mrsjo "Как у тебя дела?"
     show player 14
     show mrsj 14
-    player_name "У меня всё хорошо, спасибо!"
+    player_name "Все хорошо, спасибо!"
     show player 1
     show mrsj 17
-    mrsjo "Я могу что-нибудь сделать для тебя?"
+    mrsjo "Я могу тебе чем-нибудь помочь?"
     show mrsj 14
     return
 
@@ -23,16 +23,16 @@ label button_mrsj_sex_ed_intro:
     show player 11 zorder 2 at left
     show erik 1f zorder 1 at Position(xpos=300)
     with dissolve
-    mrsjo "Эй, мальчик..."
+    mrsjo "Привет,мальчики..."
     show mrsj 41
     show player 21
-    player_name "П-привет, {b}Миссис Джонсон{/b}!"
+    player_name "П-привет, {b}Mrs. Johnson{/b}!"
     show player 13
     show erik 4f
-    eri "Ты... Очень симпатичный, {b}Миссис Джонсон{/b}."
+    eri "Ты... очень красивая, {b}Mrs. Johnson{/b}."
     show erik 1f
     show mrsj 40b with fastdissolve
-    mrsjo "Ну, ты просто будешь пялиться на меня или хочешь спросить меня кое о чем?"
+    mrsjo "Что ж, ты так и будешь пялиться на меня или хочешь спросить меня о чем-то?"
     show mrsj 39
     return
 
@@ -48,25 +48,25 @@ label button_mrsj_private_yoga_intro:
     mrsjo "Что-то не так?"
     show player 435
     show mrsj 53
-    player_name "Вы... Вы голая, {b}Миссис Джонсон{/b}."
+    player_name "Вы.. вы голая, {b}Mrs. Johnson{/b}."
     show player 434
     show mrsj 54
-    mrsjo "Мне нравится чувствовать... комфортность в моей комнате..."
-    mrsjo "Ты что, не спрашивал меня?"
+    mrsjo "Мне нравится чувствовать... себя комфортно в своей комнате..."
+    mrsjo "Разве ты не собирался спросить меня о чем-то?"
     show mrsj 53
     return
 
 label button_mrsj_about_erik:
     show player 14 at left
     show mrsj 14 at right
-    player_name "Я хотел поговорить о {b}Эрике{/b}..."
+    player_name "Я хотел поговорить о {b}Erik{/b}..."
     show player 1
     show mrsj 19
     mrsjo "О, он в порядке?"
     show player 14
     show mrsj 19c
     player_name "Да, он в порядке."
-    player_name "Я разговаривала с ним о том, что произошло в ту ночь..."
+    player_name "Я поговорил с ним о том, что произошло прошлой ночью..."
     show player 11
     show mrsj 19
     mrsjo "Он расстроен?"
@@ -74,72 +74,72 @@ label button_mrsj_about_erik:
     show mrsj 19c
     player_name "Нет, вовсе нет."
     show player 10
-    player_name "Он просто не уверен в том, чего он хочет..."
+    player_name "Он просто не уверен, чего хочет...."
     show player 11
     show mrsj 19
-    mrsjo "Как так?"
+    mrsjo "В каком смысле?"
     show player 10
     show mrsj 19c
-    player_name "Я думаю, он откажется от встречи с девушками."
-    player_name "Я мог бы попытаться помочь ему получить девушку, но я думаю, что он любит больше вас..."
+    player_name "Думаю, он бросил встречаться с девушками."
+    player_name "Я мог бы попытаться помочь ему найти девушку, но  я думаю, что ты ему нравишься больше...."
     show player 13
     show mrsj 19
-    mrsjo "Вот это да..."
+    mrsjo "Ох, мой..."
     show mrsj 20
-    mrsjo "Неужели я слишком сильно его приютила?"
+    mrsjo "Я действительно слишком сильно его приютила?"
     show mrsj 19
-    mrsjo "Что, по-твоему, я должна сделать?"
+    mrsjo "Как ты думаешь, что я должна делать?"
     show mrsj 19c
     return
 
 label button_mrsj_route_sex_ed:
     show player 14 at left
     show mrsj 19c at right
-    player_name "Я думаю, что лучше, если ты дашь ему то внимание, которое ему нужно..."
+    player_name "Думаю, будет лучше, если ты уделишь ему внимание, которое ему нужно..."
     show mrsj 19
     show player 1
-    mrsjo "Ты правда так считаешь?"
+    mrsjo "Ты действительно так думаешь?"
     show mrsj 19c
     show player 14
-    player_name "Ну, я не думаю, что он хочет видеть других девушек..."
-    player_name "... И ты ему очень нравишься!"
+    player_name "Ну, я не думаю, что он хочет встречаться с другими девушками..."
+    player_name "... И он действительно любит тебя!"
     show mrsj 19
     show player 1
-    mrsjo "Он всегда был близок ко мне..."
+    mrsjo "Он всегда был очень близок ко мне..."
     show mrsj 19c
     show player 14
-    player_name "У нас было такое прекрасное время в ту ночь!"
-    player_name "Я никогда не видела {b}Эрика{/b} таким счастливым."
+    player_name "Мы отлично провели время прошлой ночью!"
+    player_name "Я никогда не видел {b}Erik{/b} настолько счасливым."
     show mrsj 19
     show player 11
-    mrsjo "Как думаешь ... вы, ребята, хотели бы больше такого ... внимания?"
+    mrsjo "Ты думаешь...вы,мальчики, хотели бы больше такого...внимания?"
     show mrsj 19c
     show player 21
-    player_name "Я... Думаю, да!"
+    player_name "Я...я думаю да!"
     show mrsj 20
     show player 13
-    mrsjo "Если ни одна из девушек из школы не даст ему того внимания, которое ему нужно..."
+    mrsjo "Если ни одна из девочек из школы не будет уделять ему внимание, в котором он нуждается..."
     show mrsj 19
-    mrsjo "...Может быть, я должна быть одна?"
+    mrsjo "...Может быть, я должна быть той единственной?"
     show mrsj 14
     show player 14
-    player_name "Я думаю, ему это понравится."
+    player_name "Я думаю, ему бы это понравилось."
     show mrsj 49
     show player 11
-    mrsjo "Что делать, если я дам вам, ребята некоторые... личное половое воспитание?"
+    mrsjo "Что если я дам вам ребята немного...личного сексуального воспитания?"
     show mrsj 50
     player_name "!!!" with vpunch
     show mrsj 49
-    mrsjo "Это только для образовательных целей, конечно..."
+    mrsjo "Это только в образовательных целей, конечно..."
     show mrsj 50
     show player 29
-    player_name "Ох, я эмм... Я бы не возражал!"
+    player_name "Ох, Я эмм... Я был бы вообще не против!"
     show mrsj 49
     show player 13
-    mrsjo "Я должна сначала подумать, но."
+    mrsjo "Но тем не менее сначала я должна все обдумать."
     show mrsj 50
     show player 14
-    player_name "Конечно, {b}Миссис Джонсон{/b}!"
+    player_name "Конечно, {b}Mrs. Johnson{/b}!"
     show mrsj 14
     show player 1
     return
@@ -150,76 +150,76 @@ label button_mrsj_route_gf:
     player_name "Я думаю, мы должны попытаться найти ему девушку."
     show player 1
     show mrsj 19
-    mrsjo "Ты правда так считаешь?"
+    mrsjo "Ты правда так думаешь?"
     show player 14
     show mrsj 19c
-    player_name "Ну, я думаю, он был бы счастливее..."
-    player_name "... и это построит его уверенность!"
+    player_name "Ну,я думаю, он был бы счастливее..."
+    player_name "... и это повысило бы его самооценку!"
     show player 1
     show mrsj 20
-    mrsjo "Ему нужно больше выходить..."
+    mrsjo "Ему действительно надо больше выходить на улицу..."
     show player 10
     show mrsj 19c
-    player_name "Не поверь мне, у нас было очень весело в ту ночь..."
+    player_name "Не поймите меня неправильно, мы хорошо повеселились прошлой ночью...."
     show player 14
-    player_name "... но я думаю, что {b}Эрику{/b} нужно найти девушку."
+    player_name "... но я думаю что {b}Erik{/b} нужно знакомиться с другими девченками."
     show player 13
     show mrsj 20
     mrsjo "Ты прав..."
     show player 11
     show mrsj 19
-    mrsjo "Но как насчет... меня?"
+    mrsjo "Но что насчет... меня?"
     show player 10
     show mrsj 19c
-    player_name "Что вы имеете в виду?"
+    player_name "Что Вы имеете в виду?"
     show player 11
     show mrsj 19
     mrsjo "Ну..."
-    mrsjo "Если {b}Эрик{/b} найдёт себе девушку... Что я буду делать?"
+    mrsjo "Если {b}Erik{/b} найдет себе девушку... Что я буду делать?"
     show mrsj 20
-    mrsjo "Я не буду никому уделять мое внимание..."
+    mrsjo "У меня никого нет, чтобы отдавать свое внимание..."
     show player 21
     show mrsj 19c
-    player_name "О, я уверен, что вы найдете кого-то {b}Миссис Джонсон{/b}!"
+    player_name "О, Я уверен, что вы найдете кого-то {b}Mrs. Johnson{/b}!"
     show mrsj 14
-    player_name "Вы очень... привлекательная, и любящая!"
+    player_name "Вы очень... красивая, и любящая!"
     show player 13
     show mrsj 17
-    mrsjo "Ахх, очень мило, что ты сказал."
+    mrsjo "Ой, Очень приятно это слышать от тебя."
     show mrsj 50
     mrsjo "Хмм..."
     show mrsj 49
     show player 1
     mrsjo "У меня другая идея!"
-    mrsjo "Что, если бы я взяла это внимание..."
+    mrsjo "Что если возьму это внимание..."
     show player 11
-    mrsjo "... и дал его {b}тебе{/b}?"
+    mrsjo "... и отдам его {b}тебе{/b}?"
     show mrsj 50
     player_name "!!!" with vpunch
     show mrsj 49
-    mrsjo "Что не так?"
-    mrsjo "Только если ты захочешь, это то, что я хотела сказать..."
+    mrsjo "Что-то не так?"
+    mrsjo "Только если ты хочешь,вот что я хотела сказать..."
     show player 21
     show mrsj 50
-    player_name "Я-я бы не возражал!"
-    player_name "Но, только до тех пор, как {b}Эрику{/b} хорошо с этим."
+    player_name "Я-я совсем не против!"
+    player_name "Но,только при условии что {b}Erik{/b} будет не против."
     show player 1
     show mrsj 49
-    mrsjo "Просто спроси его!"
-    mrsjo "Я уверена, что он будет в порядке с этим..."
+    mrsjo "Просто спросите его!"
+    mrsjo "Я уверена, что он будет не против..."
     show player 13
-    mrsjo "... особенно, если он слишком занят игрой с другой девушкой! Ха-ха."
+    mrsjo "... особенно если он будет слишком занят,играя с другой девушкой! Ха ха."
     show player 29
     show mrsj 50
-    player_name "Полагаю, да, ха-ха."
+    player_name "Наверное, да, Ха-ха."
     show player 14
-    player_name "Я попытаюсь найти кого-нибудь для него..."
+    player_name "Я постараюсь найти ему кого-нибудь..."
     show player 13
     show mrsj 49
-    mrsjo "Вернись и дай мне знать, что происходит."
+    mrsjo "Верниcь и дай мне знать, что произойдет."
     show player 17
     show mrsj 50
-    player_name "Конечно, {b}Миссис Джонсон{/b}!"
+    player_name "Конечно, {b}Mrs. Johnson{/b}!"
     show mrsj 14
     show player 1
     return
@@ -227,17 +227,17 @@ label button_mrsj_route_gf:
 label button_mrsj_sex_ed_prep:
     show mrsj 14 at right
     show player 10 at left
-    player_name "Как мы можем помочь вам подготовиться к половому воспитанию снова?"
+    player_name "Как мы можем вам помочь подготовиться к нашемиу сексуальному обучению еще раз?"
     show player 5
     show mrsj 17
-    mrsjo "Мне нужна хорошая Учебная книга, {b}Кама Сутра{/b}."
+    mrsjo "Мне нужна хорошая учебная книга, например {b}Камасутра{/b}."
     mrsjo "И некоторые {b}противозачаточные таблетки{/b}!"
     show mrsj 49
-    mrsjo "Вы никогда не можете быть слишком осторожны..."
+    mrsjo "Осторожность не бывает излишней..."
     show mrsj 50
     show player 14
     player_name "Хорошо."
-    player_name "Я постараюсь найти их..."
+    player_name "Я постараюсь найти её..."
     hide player
     hide mrsj
     with dissolve
@@ -245,42 +245,42 @@ label button_mrsj_sex_ed_prep:
 
 label button_mrsj_erik_got_gf:
     show player 14
-    player_name "Я думаю, что смог представить {b}Эрика{/b} девочке в школе!"
+    player_name "Думаю, мне удалось познакомить {b}Erik{/b}с девченкой из школы!"
     show player 1
     show mrsj 17
-    mrsjo "Правда?!"
+    mrsjo "Серьезно?!"
     show player 14
     show mrsj 14
     player_name "Да!"
-    player_name "Они имеют так много общего, они были бы идеальными друг для друга!"
+    player_name "У них так много общего, они идеально подходят друг другу!"
     show mrsj 17
     show player 17
     player_name "Я думаю, что это сработает наверняка!"
     show player 1
     show mrsj 18
-    mrsjo "Потрясающе!!"
+    mrsjo "Это замечательно!!"
     show mrsj 17
-    mrsjo "Я не могу поверить, что ты был так хорошо с {b}Эриком{/b}."
+    mrsjo "Не могу поверить, что ты был так добр к {b}Erik{/b}."
     show mrsj 49
-    mrsjo "Я думаю, что пришло время для меня, чтобы дать тебе небольшую награду..."
+    mrsjo "Думаю, пришло мне время дать тебе небольшую награду..."
     show player 21
     show mrsj 50
-    player_name "Эмм... Награда?"
+    player_name "Мм... Награду?"
     show player 11
     show mrsj 49
-    mrsjo "Как насчет того, что я дам тебе некоторые... {b}частные{/b} уроки йоги..."
-    mrsjo "Вид, который ты не получишь в спортзале."
+    mrsjo "Как насчет того чтобы я дала тебе немного... {b}Частных{/b} уроков йоги..."
+    mrsjo "Таких, которых не увидишь в спортзале."
     show mrsj 50
     show player 21
-    player_name "Это было бы потрясающе, {b}Миссис Джонсоны{/b}!"
+    player_name "Это было бы потрясающе, {b}Mrs. Johnson{/b}!"
     show player 13
     show mrsj 49
-    mrsjo "Просто приходи навестить меня ночью в моей комнате... Убедитесь, что ты хорошо отдохнул!"
+    mrsjo "Просто приходи ко мне ночью в мою комнату... убедитесь, что ты хорошо отдохнул!"
     show player 11
-    mrsjo "Для него может... довольно утомительно."
+    mrsjo "Это может быть... довольно изматывающе."
     show player 21
     show mrsj 50
-    player_name "Да, {b}Миссис Джонсон{/b}."
+    player_name "Д-да, {b}Mrs. Johnson{/b}."
     show player 13
     show mrsj 49
     mrsjo "Увидимся позже, я буду ждать!"
@@ -292,85 +292,85 @@ label button_mrsj_erik_got_gf:
 label button_mrsj_erik_stole_gf:
     show mrsj 19c at right
     show player 10 at left
-    player_name "Я не думаю, что это будет работать с {b}Джуной{/b}..."
+    player_name "Я не думаю, что из этого что-нибудь получится с {b}June{/b}..."
     show player 11
     show mrsj 19
-    mrsjo "Девушка из школы?"
+    mrsjo "С девочки из школы?"
     show player 10
     show mrsj 19c
     player_name "Да."
     show player 5
     show mrsj 19
-    mrsjo "Это такой позор..."
+    mrsjo "Такая жалость..."
     mrsjo "Что случилось?"
     show player 10
     show mrsj 19c
-    player_name "Она просто не интересуется, и..."
+    player_name "Она просто не заинтересована, и..."
     show mrsj 51
-    player_name "... она, возможно, приедет к моему дому позже, чтобы повиснуть со мной."
+    player_name "... возможно она прийдет ко мне домой попозже, чтобы потусоваться со мной."
     show player 5
     show mrsj 52
-    mrsjo "Вот это да..."
-    mrsjo "{b}Эрик{/b} в порядке?"
+    mrsjo "Ох мой..."
+    mrsjo "{b}Erik{/b} не против этого?"
     show player 10
     show mrsj 51
-    player_name "Я не уверен ... возможно нет?"
+    player_name "Я не уверен... наверное нет?"
     show player 5
     show mrsj 52
-    mrsjo "Я должна сказать ... Я немного разочарован в тебе, {b}[firstname]{/b}."
+    mrsjo "Я должна сказать... Я немного разочарована в тебе, {b}[firstname]{/b}."
     show mrsj 51
     player_name "..."
     show mrsj 52
-    mrsjo "Ты знала, что {b}Эрик{/b} любил ее..."
-    mrsjo "... Я думала, он твой друг!"
+    mrsjo "Ты знаешь что она нравится{b}Erik{/b}..."
+    mrsjo "... Я думала, он твой друг.!"
     show player 10
     show mrsj 51
-    player_name "Простите, {b}Миссис Джонсон{/b}."
-    player_name "Сейчас я пойду домой."
+    player_name "Простите меня, {b}Mrs. Johnson{/b}."
+    player_name "Я сейчас пойду домой."
     hide mrsj
     hide player
     return
 
 label button_mrsj_erik_introduce_june:
     show player 14
-    player_name "В школе есть такая девушка, которой нравится {b}Эрик{/b}."
+    player_name "В школе есть девушка, которая я думаю {b}Erik{/b} нравится."
     show player 1
     show mrsj 17
-    mrsjo "Серьёзно?"
+    mrsjo "Серьезно?"
     show mrsj 18
-    mrsjo "Потрясающе!"
+    mrsjo "Это прекрасно!"
     show mrsj 17
-    mrsjo "Ты ее знаешь? Что она любит?!"
+    mrsjo "Ты её знаешь? Какая она?!"
     show mrsj 14
     show player 14
-    player_name "Нет, я еще не говорил с ней."
-    player_name "Я думаю, она из другого класса."
+    player_name "Нет, Я с ней еще не разговаривал."
+    player_name "Я думаю,что она из другого класса."
     show mrsj 17
     show player 1
-    mrsjo "О, я понимаю."
+    mrsjo "Ох, я вижу."
     show player 11
-    mrsjo "{b}Эрик{/b} говорит с ней?"
+    mrsjo "{b}Erik{/b} говорил с ней?"
     show mrsj 14
     show player 10
-    player_name "Я так не думаю... Он говорит, что слишком застенчив."
-    player_name "Я сказал ему, что узнаю больше о ней и дам ему знать, кто она такая."
+    player_name "Врят ли... Он говорит что он слишком стесняется."
+    player_name "Я сказал ему, что узнаю о ней больше и дам ему знать,что её нравится."
     show mrsj 18
     show player 13
-    mrsjo "Это так мило с твоей стороны!"
+    mrsjo "Это так мило с твоей стороны!!"
     show mrsj 17
-    mrsjo "Ему очень повезло, что ты была другом..."
+    mrsjo "Ему очень повезло, что ты как друг..."
     show mrsj 14
     show player 14
-    player_name "О, я уверена, что он сделает то же самое для меня!"
+    player_name "Ох, Я уверен, что он сделал бы то же самое для меня!"
     show mrsj 49
     show player 1
-    mrsjo "Скажите, что, дайте мне знать, как все это происходит..."
+    mrsjo "Знаешь что, расскажешь, как все пройдет..."
     show player 11
-    mrsjo "Если ты найдёшь {b}Эрику{/б} подругу, то тебя ждет специальная награда..."
+    mrsjo "Если ты можешь найти {b}Erik{/b} девушку, тебя ждет особое вознограждение..."
     show mrsj 50
     player_name "..."
     show player 21
-    player_name "Несомненно, {b}Миссис Джонсон{/b}!"
+    player_name "Конечно, {b}Mrs. Johnson{/b}!"
     show player 1
     show mrsj 14
     return
@@ -378,45 +378,45 @@ label button_mrsj_erik_introduce_june:
 label button_mrsj_breastfeeding:
     show mrsj 38 at right
     show player 12 at left
-    player_name "Так как долго вы...кормили грудью {b}Эрика{/b}?"
+    player_name "Итак как долго вы...вскармливаете грудью {b}Erik{/b}?"
     show player 5
     show mrsj 52
     mrsjo "Ох..."
-    mrsjo "Послушай, это не то, что ты можешь подумать."
-    mrsjo "Я просто всегда воспитывала его вот так."
+    mrsjo "Слушай, это не то что ты мог подумать."
+    mrsjo "Я просто всегда его так поощряла."
     show mrsj 38
     show player 11
     mrsjo "..."
     show mrsj 52
-    mrsjo "Ты знаешь, что он не получает должного внимания от девочек в школе."
-    mrsjo "Я так переживала за него!"
-    mrsjo "Я просто хотела дать {b}Эрику{/b} испытать и посмотреть, что такое женщины!"
+    mrsjo "Ты знаешь, что он не получает много внимания от девочек в школе."
+    mrsjo "Мне было так жаль его!"
+    mrsjo "Я просто хотела чтобы {b}Erik{/b} испытал и увидел как устроены все женщины!"
     show mrsj 20
-    mrsjo "Но, может быть, я...Я закончила?"
+    mrsjo "Но, возможно, я...я переборшила с этим?"
     show mrsj 19c
     show player 5
     player_name "..."
     show player 12
-    player_name "Это здорово, что вы так заботитесь и уделяете ему внимание!"
+    player_name "Это так замечательно, что вы так заботитесь и уделяете ему внимание!"
     show mrsj 14
     show player 10
-    player_name "Я думаю, ему очень повезло..."
+    player_name "Я думаю,что ему очень повезло..."
     show player 11
     show mrsj 18
-    mrsjo "О, ха-ха!"
+    mrsjo "Ох,Ха ха!"
     show mrsj 17
-    mrsjo "Что ж, благодарю тебя..."
-    mrsjo "Я думаю, что хорошим молодым людям, как ты, нужно все, что ты можешь..."
+    mrsjo "Что ж, спасибо..."
+    mrsjo "Я думаю, что такой хорошей молодой парень, как ты нуждается во всем внимании которое ему нужно..."
     show mrsj 14
     show player 13
     player_name "..."
     show mrsj 49
     mrsjo "Я имею в виду, спасибо за понимание, {b}[firstname]{/b}."
     show mrsj 52
-    mrsjo "Просто...не забудь оставить это между нами, ладно?"
+    mrsjo "Просто...запомни что мы должны сохранить это только между нами, хорошо?"
     show mrsj 14
     show player 14
-    player_name "Да, {b}Миссис Джонсон{/b}."
+    player_name "Да, {b}Mrs. Johnson{/b}."
     hide player
     hide mrsj
     with dissolve
@@ -424,31 +424,31 @@ label button_mrsj_breastfeeding:
 
 label button_mrsj_yoga_help_repeat:
     show player 10
-    player_name "Зачем вам помогать?"
+    player_name "С чем вам нужна была моя помощь?"
     show player 5
     show mrsj 19
-    mrsjo "Мне нужно, чтобы кто-то пошел и {b}научил моему классу йоги сегодня вечером{/b}."
+    mrsjo "Мне нужно, чтобы кто-то кто пошел бы и {b}провел мой урок йоги сегодня вечером{/b}."
     show mrsj 49
-    mrsjo "Как вы думаете, вы могли бы помочь своей... любимой соседке??"
+    mrsjo "Как ты думаете, ты смог бы помочь твоей... любимой соседке??"
     show mrsj 50
     show player 14
     player_name "Конечно!"
     show player 13
     show mrsj 17
-    mrsjo "Помни, что мы будем {b}изучать ту йогу, что фигурирует в этом списке{/b}, который я дала!"
+    mrsjo "Не забудь {b}изучите жти движения йоги из этого списка{/b} которые я дала!"
     return
 
 label button_mrsj_youre_so_fit:
     show mrsj 14 at right
     show player 29 at left
-    player_name "Я должен сказать: {b}Миссис Джонсон{/b}, вы действительно в форме!"
-    player_name "Вы много тренируетесь?"
+    player_name "Я хочу сказать, {b}Mrs. Johnson{/b}, вы в очень хорошей форме!"
+    player_name "Вы очень много тренируетесь?"
     show mrsj 18 at right
     show player 13 at left
-    mrsjo "Ой ... Ты такой милый!"
+    mrsjo "Ой... Ты такой милый!"
     show mrsj 17 at right
-    mrsjo "Ну, я стараюсь ходить в спортзал так часто, как могу..."
-    mrsjo "...Я бегаю!  И я занимаюсь йогой в своей комнате ночью..."
+    mrsjo "Ну, я стараюсь использовать тренажерный зал так часто, как я могу..."
+    mrsjo "...Я так же занимаюсь пробежкой! И я ночью занимаюсь йогой в моей комнате..."
     show mrsj 19 at right
     show player 21 at left
     player_name "Ну, это работает!"
@@ -456,43 +456,43 @@ label button_mrsj_youre_so_fit:
     mrsjo "Ты думаешь?"
     show mrsj 15 at right
     show player 11 at left
-    mrsjo "Моя {b}попа{/b} все ещё выглядит немного большой..."
+    mrsjo "Моя {b}задница{/b} по-проежнему является слишком большой..."
     show mrsj 16 at right
     show player 23 at left
-    mrsjo "...И мои {b}сиськи{/b} не похожи на используемые..."
+    mrsjo "...И мои {b}сиськи{/b} не похоже не те какие были раньше..."
     player_name "..."
     show player 28 at left
     show mrsj 19 at right
     player_name "*Глоток*"
     show player 1 at left
     show mrsj 18 at right
-    mrsjo "Есть ещё что-нибудь, о чём вы хотели поговорить?"
+    mrsjo "Есть ли что-нибудь еще, о чем ты хочешь поговорить?"
     return
 
 label button_mrsj_invite_poker:
-    player_name "Мне было интересно, хотите ли вы присоединиться к {b}Эрику{/b} и ко мне сыграть в покер?"
+    player_name "Я хотел спросить, не хотите ли вы присоединиться к {b}Erik{/b} и мне к покеру?"
     show player 1
     show mrsj 17
-    mrsjo "Прямо сейчас?"
+    mrsjo "Сейчас?"
     show player 14
     show mrsj 14
-    player_name "Да... Я имею в виду, вам не обязательно!"
-    player_name "{b}Эрик{/b} и я просто ищем третьего игрока..."
+    player_name "Да... Я имею в виду вы не обязаны!"
+    player_name "{b}Erik{/b} и я просто ищем третьего игрока..."
     show player 1
     show mrsj 17
-    mrsjo "Он ждет внизу?"
+    mrsjo "Он ждет внизу ?"
     show player 14
     show mrsj 14
-    player_name "Да, мы бы хотели поиграть сейчас, если вы свободны?"
+    player_name "Да, мы хотели бы сыграть сейчас, если вы свободны?"
     show player 1
-    mrsjo "Хмм..."
+    mrsjo "Хммм..."
     show mrsj 17
-    mrsjo "Думаю, я могла бы сыграть в одну игру или две."
+    mrsjo "Я думаю, я могла бы сыграть одну игру или две."
     show mrsj 18
     show player 13
-    mrsjo "Хорошо, я встречу вас внизу!"
+    mrsjo "Хорошо,встретимся тогда с вами там внизу!"
     show player 18
     show mrsj 14
-    player_name "Замечательно! Спасибо, {b}Миссис Джонсон{/b}!"
+    player_name "Круто! Спасибо, {b}Mrs. Johnson{/b}!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

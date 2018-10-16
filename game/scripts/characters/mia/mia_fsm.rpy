@@ -1,47 +1,47 @@
 label mia_triggers_init:
     python:
 
-        T_mia_on_zero = Trigger("advance", "Задержка Мии")
-        T_mia_kiss = Trigger("kiss", "Поцелуй Мии во время учебы")
-        T_mia_kicked_out = Trigger("kicked out", "Выгнали из дома Мии ")
-        T_mia_plan = Trigger("plan", "План с Мией")
-        T_mia_results = Trigger("results", "Узнайте результаты с Мия")
-        T_mia_delay = Trigger("delay", "Задержка запуска сюжета")
-        T_mia_tattoo_start = Trigger("tattoo start", "Начните процесс, помогая Мия получить татуировку")
-        T_mia_easel_found = Trigger("easel", "Нашел мольберт, чтобы сделать татуировку для Мии")
-        T_mia_visit = Trigger("visit", "Посетите и поговорите с Мией")
-        T_mia_wrong_tattoo = Trigger("wrong tattoo", "Мии не нравится татуировка, которую ты нарисовал")
-        T_mia_right_tattoo = Trigger("right tattoo", "Мии понравилось тату, которые вы нарисовали")
-        T_mia_visit_tattoo_parlor = Trigger("visit tattoo", "Идите с Миа в тату-салон")
-        T_mia_tattoo_done = Trigger("tattoo done", "Мия восстала и имеет новую татуировку")
-        T_mia_night_invite = Trigger("night invite", "Мия приглашает вас на ночь")
-        T_mia_strip_tease = Trigger("strip tease", "Мия сделала вам хороший стриптиз-шоу")
-        T_mia_afterthought = Trigger("afterthought", "Мысли о том, что вас выгнали из дома Мии")
-        T_mia_grounded = Trigger("grounded", "Мия обосновала после того, как была поймана")
-        T_mia_delay_progress = Trigger("delay progress", "Есть задержка в истории Мия")
-        T_mia_message = Trigger("message", "Мия просит вас срочно ей помочь")
-        T_mia_key_found = Trigger("key found", "Нашел ключ к запертой комнате Хелен")
-        T_mia_rescue = Trigger("rescue", "Спасти Миа от связки")
-        T_mia_concerned = Trigger("concerned", "Вы беспокоитесь о Миа не связавшись ней")
-        T_mias_request = Trigger("request", "Миа спрашивает о том, что вы пытаетесь поговорить с Хелен")
-        T_mia_helen_deny = Trigger("helen deny", "Хелен отказывается говорить с вами")
-        T_mia_church_mention = Trigger("church mention", "Миа упоминает, что Хелен только слушает Бога или Церковь")
-        T_mia_priest_outfit = Trigger("priest outfit", "Одолжите наряд священника, чтобы замаскировать себя")
-        T_mia_thanks = Trigger("thanks", "Мия благодарит вас за помощь")
-        T_mia_clues_summary = Trigger("clues summary", "Вы обобщили подсказки, которые вы собрали до сих пор.")
-        T_mia_give_news = Trigger("give news", "Расскажи Мии новости, которые узнал")
-        T_mia_gives_glasses = Trigger("gives glasses", "МИА дает тебе очки для своего отца")
-        T_mia_dinner_plan = Trigger("dinner plan", "У Мии есть план, как уговорить Гарольда и Хелен поужинать.")
-        T_mia_route = Trigger("route", "Это устанавливает вас постоянно на маршрут Мии")
-        T_mia_family_reunion = Trigger("family reunion", "Мия воссоединяется с Гарольдом и Хелен для возвращения вместе")
-        T_mia_sex = Trigger("sex", "Мия занимается с тобой сексом")
-        T_mia_stay_alone = Trigger("stay alone", "Миа хочет остаться одна после того, как ее родители ушли навсегда")
+        T_mia_on_zero = Trigger("advance", "Mia story delay")
+        T_mia_kiss = Trigger("kiss", "Kiss Mia while studying")
+        T_mia_kicked_out = Trigger("kicked out", "Kicked out of Mia's house")
+        T_mia_plan = Trigger("plan", "Plan with Mia")
+        T_mia_results = Trigger("results", "Learn results with Mia")
+        T_mia_delay = Trigger("delay", "Delay a story trigger")
+        T_mia_tattoo_start = Trigger("tattoo start", "Start the process of helping Mia get a tattoo")
+        T_mia_easel_found = Trigger("easel", "Found an easel to draw a tattoo for Mia")
+        T_mia_visit = Trigger("visit", "Visit and talk to Mia")
+        T_mia_wrong_tattoo = Trigger("wrong tattoo", "Mia doesn't like the tattoo you drew")
+        T_mia_right_tattoo = Trigger("right tattoo", "Mia likes the tattoo you drew")
+        T_mia_visit_tattoo_parlor = Trigger("visit tattoo", "Go with Mia to the tattoo parlor")
+        T_mia_tattoo_done = Trigger("tattoo done", "Mia has rebelled and has a new tattoo")
+        T_mia_night_invite = Trigger("night invite", "Mia invites you over for the night")
+        T_mia_strip_tease = Trigger("strip tease", "Mia gave you a nice strip show")
+        T_mia_afterthought = Trigger("afterthought", "MC's thoughts on being kicked out from Mia's house")
+        T_mia_grounded = Trigger("grounded", "Mia has been grounded after being caught")
+        T_mia_delay_progress = Trigger("delay progress", "Progressing the story delay for Mia")
+        T_mia_message = Trigger("message", "Mia's message requests your urgent help")
+        T_mia_key_found = Trigger("key found", "Found the key to Helen's locked room")
+        T_mia_rescue = Trigger("rescue", "Rescue Mia from being tied up")
+        T_mia_concerned = Trigger("concerned", "You are concerned about Mia not contacting you")
+        T_mias_request = Trigger("request", "Mia asks that you try talk to Helen")
+        T_mia_helen_deny = Trigger("helen deny", "Helen refuses to talk to you")
+        T_mia_church_mention = Trigger("church mention", "Mia mentions Helen only listens to God or the Church")
+        T_mia_priest_outfit = Trigger("priest outfit", "Borrow the priest outfit to disguise yourself")
+        T_mia_thanks = Trigger("thanks", "Mia gives you thanks for your help")
+        T_mia_clues_summary = Trigger("clues summary", "You've summarised the clues you've gathered so far")
+        T_mia_give_news = Trigger("give news", "Give Mia the news you learnt")
+        T_mia_gives_glasses = Trigger("gives glasses", "Mia gives you the pair of glasses for her dad")
+        T_mia_dinner_plan = Trigger("dinner plan", "Mia has a plan to get Harold and Helen to have dinner")
+        T_mia_route = Trigger("route", "This sets you permanently onto Mia's route")
+        T_mia_family_reunion = Trigger("family reunion", "Mia has a reunion with Harold and Helen for getting back together")
+        T_mia_sex = Trigger("sex", "Mia has sex with you")
+        T_mia_stay_alone = Trigger("stay alone", "Mia wishes to be alone after her parents leaft for good")
     return
 
 label mia_fsm_init:
     python:
 
-        S_mia_start = State("start", "Приветствуя его")
+        S_mia_start = State("start", "Welcoming MC back from his")
         S_mia_do_homework = State("homework", "Waiting for MC to catch up on homework")
         S_mia_wait_homework = State("show hw", "Waiting for MC to bring the finished homework")
         S_mia_parent_blocking = State("blocked", "Helen prTriggers you from visiting mia")
@@ -107,8 +107,8 @@ label mia_fsm_init:
         S_mia_angelicas_final_request = State("angelicas final request", "You've decided to listen to Angelica's final request")
         S_mia_helens_final_sacrament = State("helens final sacrament", "You are now attending the final sacrament for Helen")
         S_mia_route_split = State("route split", "The split to dtermine if you go with Mia or Helen")
-        S_mia_study_sex = State("study sex", "Мия предложила попробовать заниматься сексом")
-        S_mia_end = State("end", "Конец маршрута Мии")
+        S_mia_study_sex = State("study sex", "Mia has suggested to try studying while having sex")
+        S_mia_end = State("end", "The end of Mia's route")
 
 
 
@@ -407,7 +407,7 @@ label mia_fsm_init:
 
 label mia_machine_init:
     python:
-        M_mia = Machine("mia", default_loc=[[L_school_scienceclassroom, L_miahouse_entrance, L_miahouse_miaroom, L_miahouse_miaroom],
+        M_mia = Machine("mia", default_loc=[[L_school_scienceclassroom, L_miahouse_entrance, L_miahouse_miaroom, L_miahouse_miaroom], 
                             [L_church, L_miahouse_entrance, L_miahouse_miaroom, L_miahouse_miaroom]],
                         vars = {
                             'progress count': 0,

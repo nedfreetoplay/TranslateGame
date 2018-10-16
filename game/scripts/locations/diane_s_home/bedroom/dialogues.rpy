@@ -2,9 +2,9 @@ label dianes_bedroom_diane_drunken_splur_started:
     scene dianebedroom_b with None
     show diane_passedout_b at Position(xanchor = 0, yanchor = 0, xpos = 228, ypos = 141)
     show player 13 at left
-    player_name "( Looks like she made it to her bed. )"
+    player_name "( Ну до постели она добролась. )"
     show player 11
-    player_name "( Is she okay? )"
+    player_name "( Она в порядке? )"
     hide player with dissolve
     return
 
@@ -12,10 +12,10 @@ label dianes_dialogue_diane_drunken_splur_known:
     scene dianebed with None
     show diane bed 5
     player_name "!!!"
-    player_name "( Her breasts are still hanging out of her overalls. )"
-    player_name "( I don't know why she always thinks her body is old and ugly. )"
+    player_name "( Её грудь выпала из под комбинезона. )"
+    player_name "( Не понимаю, почему она о себе говорит что стара и не красива. )"
     player_name "..."
-    player_name "( I should leave her alone and start working on the garden... )"
+    player_name "( Надо оставить её, пусть отдыхает. Надо поработать в огороде... )"
     return
 
 label dianes_dialogue_diane_mouse_attack_known:
@@ -23,132 +23,132 @@ label dianes_dialogue_diane_mouse_attack_known:
     show diane 152 at Position (xpos = 695)
     pause
     show player 23 at left with dissolve
-    player_name "{b}Diane{/b}!"
-    player_name "What's going on?!"
+    player_name "{b}Тётя Диана{/b}!"
+    player_name "Что случилось?!"
     show diane 152
     show player 22 at left
-    dia "EEEEEKKKKKK!!!!"
+    dia "ИИИИККККК!!!!"
     show diane 154
-    dia "Help me!"
+    dia "Помоги мне!"
     show diane 153
     pause
     show player 23
-    player_name "What is it?!"
+    player_name "Что случилось?!"
     show diane 154
     show player 11
-    dia "M-MM-MM-MOUSE!"
+    dia "M-MM-MM-Мышь!"
     show diane 152
-    dia "OVER THERE!"
+    dia "ВОН ТАМ!"
     hide player
     show diane 155
     with dissolve
     pause
     show diane 156
-    player_name "What? I can't see anything..."
+    player_name "Где? Я её нигде не вижу..."
     show diane 155
-    dia "No, over there!"
+    dia "Нет, вон там!"
     show diane 156
-    player_name "I still don't see a mouse."
+    player_name "Не вижу ни какой мыши."
     show diane 155
-    dia "It's tail is right there between those shoes!"
+    dia "Его хвост прямо там, между этими туфлями!"
     show diane 155b
     pause
     show diane 156
-    player_name "{b}Diane{/b}..."
-    player_name "I think your mouse is actually just a shoe lace."
+    player_name "{b}Тётя Диана{/b}..."
+    player_name "Я думаю, что ваша мышь на самом деле просто шнурок для обуви."
     show diane 155
-    dia "What? Really!?"
+    dia "Что? Правда!?"
     show diane 156
-    player_name "Yup."
+    player_name "Ага."
     show diane 155
     dia "..."
-    dia "Well, set me down then. You better not be lying!"
+    dia "Нууу, хорошо, тогда сними меня. Надеюсь ты не врёшь"
     show diane 156
-    player_name "Don't worry, that shoe lace won't bite."
+    player_name "Не беспокойтесь, шнурки для обуви не кусаются."
     show player 14 at Position(xpos=200)
     show diane 144 at Position(xpos=650)
     with dissolve
-    player_name "Are you alright?"
+    player_name "Ты в порядке?"
     show player 13
     show diane 146
-    dia "Yes, I'm fine."
-    dia "Although, now I feel very silly for screaming at a shoe lace."
+    dia "Да, всё хорошо."
+    dia "Хотя, чувствую себя очень глупо за крик на шнурок для обуви."
     show diane 147
-    dia "I could've sworn I saw it move..."
+    dia "Могу поклясться, что видела как он двигался..."
     show diane 148
     show player 10
-    player_name "You scared me!"
-    player_name "I thought you were being robbed or something..."
+    player_name "Вы меня напугали!"
+    player_name "Я думал, вас ограбили или что-то ещё..."
     show player 5
     show diane 145
-    dia "Sorry! Just a silly old woman screaming at imaginary rodents. Hahah!"
+    dia "Прости! Только твоя тётя может испугаться воображаемой мыши. Хахах!"
     show diane 144
     pause
     show diane 149
-    dia "I have to say... It was very chivalrous of you to come rescue me."
+    dia "Я хотела сказать... Очень приятно осознавать что ты пришёл меня спасти."
     show diane 150
     show player 29 at Position(xoffset=26)
-    player_name "Oh, I uhhh... It's just a normal reaction..."
+    player_name "О, Я ээээ... Это просто нормальная реакция..."
     show player 13
     show diane 149
-    dia "Oh, how I wish I had a handsome man like you around the house!"
+    dia "Как бы я хотела чтобы со мной в доме был такой мужчина как ты!"
     show diane 151
-    dia "Someone strong who was willing to protect me and satisf-"
+    dia "Кто-то сильный... Желающий меня защитить и удовл-"
     show diane 144b
     dia "!!!"
     show diane 147
-    dia "Oh, Heavens, look at me. I'm practically nude!!"
+    dia "О, Боже! Я почти голая!!"
     show diane 148
     show player 14
-    player_name "It's alright, {b}Diane{/b}. I don't mind."
+    player_name "Всё в порядке, {b}Тётя Диана{/b}. Мне это не мешает."
     show diane 144
-    player_name "I'm just happy you're safe."
+    player_name "Я рад что вы в безопастности."
     show player 13
     show diane 149
-    dia "Well, I'm still very inappropriately dressed right now."
+    dia "Ну, я все еще очень неподобающе одета сейчас."
     show diane 151
-    dia "I'm sorry you had to see me like this. I hope it didn't scar you too bad?"
+    dia "Мне жаль, что тебе пришлось видеть меня такой. Надеюсь, это не слишком тебя напугало?"
     show diane 150
     show player 33
-    player_name "Not at all! I think you look beautiful!"
+    player_name "Я не на миг не подумал что вы выглядите старой!"
     show player 13
     show diane 147
-    dia "Oh, you're just saying that to be nice!"
+    dia "О, ты просто говоришь это из вежливости!"
     show diane 150
     show player 26
-    player_name "No, I'm serious! You're a real knockout, {b}Diane{/b}."
+    player_name "Нет, я говорю серьездно... Выглядите прекрастно, {b}Тётя Диана{/b}."
     show player 13
     show diane 148
     dia "!!!"
     pause
     show player 11
     show diane 146
-    dia "Hahaha!"
-    dia "You sure know how to make me laugh."
+    dia "Хахаха!"
+    dia "Ты знаешь, как меня рассмешить."
     show player 13
     show diane 145
-    dia "Thank you, {b}[firstname]{/b}, for everything. You're such a sweetheart."
+    dia "Спасибо, {b}[firstname]{/b}, за все. Ты такой милый."
     show player 14
     show diane 144
-    player_name "You're welcome, {b}Diane{/b}."
+    player_name "Всегда рад помочь, {b}Тётя Диана{/b}."
     show player 26
     pause
     show player 25
     show diane 150
     pause
     show diane 149
-    dia "I'd better get dressed, huh?"
+    dia "Мне лучше одеться, хорошо?"
     show player 29
     show diane 150
-    player_name "And I should probably go and tend to that garden now."
+    player_name "Ой, и мне пора идти поработать."
     hide player with dissolve
     scene dianeentrance
     show player 33 with dissolve
-    player_name "( Wow... )"
-    player_name "( I just saw {b}Diane{/b} in her underwear! )"
+    player_name "( Ух ты... )"
+    player_name "( Не мог себе и представить что увижу {b}Тётю Диану{/b} ТАКОЙ! )"
     show player 203
     player_name "( ... )"
-    player_name "(... And she looked fantastic! )"
+    player_name "(... Она выглядит... Великолепно! )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

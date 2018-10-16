@@ -2,68 +2,68 @@ label helen_dialogue_mia_route:
     show helen 50 at right
     show player 14 at left
     with dissolve
-    player_name "Привет, {b}Хелен{/b}."
+    player_name "Добрый день, {b}Хелен{/b}."
     show player 13
     show helen 51
-    helen "Привет, {b}[firstname]{/b}."
+    helen "Здравствуй, {b}[firstname]{/b}."
     show helen 50
     show player 14
-    player_name "Как дела в последнее время?"
+    player_name "Как идут дела в последнее время?"
     show player 13
     show helen 51
-    helen "Намного лучше."
-    helen "Так приятно осознавать, что я очистилась."
-    helen "Церковное таинство действительно помогло улучшить мои отношения с {b}Гарольдом{/b}."
+    helen "Куда лучше."
+    helen "С осознанием того, что я очищена, жить куда легче."
+    helen "Церковь очень помогла мне восстановить отношения с {b}Гарольдом{/b}."
     show helen 24
-    helen "Но ... никто больше не должен об этом знать."
+    helen "Но... никто не должен знать, как это происходило."
     show helen 50
     show player 21
-    player_name "Хех... Да, я предполагаю."
+    player_name "Хех... Да, я понимаю."
     show player 29
     show xtra 21 at left
     with dissolve
-    player_name "Для меня это немного размыто..."
+    player_name "It's a bit of a blur, for me..."
     show player 13
     hide xtra 21
     with dissolve
     show helen 51
-    helen "Еще раз спасибо за помощь. Наша семья ценит то, что ты сделал... и не сделал этого."
-    helen "Я должна тебя отпустить. Ты, наверное, хочешь потусоваться с {b}Мией{/b}."
+    helen "Ещё раз спасибо за твою помощь. Наша семья глубоко ценит то, что ты сделал... и от чего отказался."
+    helen "Тебе пора. Наверное, ты хочешь пообщаться с {b}Мией{/b}."
     show helen 50
     show player 14
     player_name "Да."
     show player 36 with dissolve
-    player_name "Увидимся позже!"
+    player_name "До встречи!"
     return
 
 label helen_dialogue_helen_end_intro:
     show player 13 at left
     show helen 63 at right
     with dissolve
-    helen "Привет, {b}[firstname]{/b}."
+    helen "Здравствуйте, {b}[firstname]{/b}."
     show helen 62
     show player 14
     player_name "Привет, {b}Хелен{/b}."
     show player 13
     show helen 63
-    helen "Ты пришел очистить моё грешное тело?"
+    helen "Вы пришли очистить мое греховное тело?"
     show helen 62
     return
 
 label helen_dialogue_helen_end_leave:
     show player 10
-    player_name "Спасибо {b}Хелен{/b}..."
-    player_name "Может, в другой раз."
+    player_name "Спасибо, {b}Хелен{/b}..."
+    player_name "Но, в другой раз."
     show player 12
-    player_name "У меня есть...другие вещи, которые нужно сделать."
+    player_name "У меня... есть неотложные дела."
     show player 5
     show helen 48
-    helen "Ох..."
-    helen "Я действительно надеялась служить тебе..."
-    helen "Не стесняйтесь навещать меня чаще."
+    helen "Оу..."
+    helen "Я так надеялась обслужить вас..."
+    helen "Не забывайте обо мне, приходите почаще."
     show helen 47
     show player 12
-    player_name "Конечно... Я дам тебе знать., {b}Хелен{/b}."
+    player_name "Конечно... Я дам тебе знать, {b}Хелен{/b}."
     return
 
 label helen_dialogue_helen_end_sex:
@@ -71,10 +71,10 @@ label helen_dialogue_helen_end_sex:
     player_name "Да."
     show player 13
     show helen 63
-    helen "Спасибо {b}Господу{/b}!"
-    helen "Я была занята молитвой о твоем скором возвращении."
-    helen "Снимай одежду и я впущу немного света."
-    helen "Теперь ложись на спину, чтобы я мог позволить свету {b}бога{/b} сиять на меня."
+    helen "Слава {b}Богу{/b}!"
+    helen "Я молилась о том, чтобы вы поскорее вернулись."
+    helen "Снимайте одежду и дайте мне вкусить божественного света."
+    helen "Затем лягте на спину и позвольте благодати {b}Господа{/b} воссиять на мне."
     hide helen
     scene mia_house_helen_window1
     show player helen_sex 59
@@ -99,117 +99,117 @@ label helen_dialogue_change_intro:
     helen "Привет, {b}[firstname]{/b}."
     show helen 1
     show player 12
-    player_name "Кажется, ты в лучшем настроении, чем обычно!"
+    player_name "Выглядишь куда лучше!"
     show player 5
     show helen 2
-    helen "Я стараюсь быть таким человеком... открытым... даже с такими людьми, как вы."
+    helen "Я пытаюсь... открыться... в том числе и тебе."
     show helen 1
     show player 14
     player_name "Это здорово."
     show player 13
     show helen 2
-    helen "Чего именно вы хотите добиться?"
+    helen "Что тебе нужно?"
     show helen 1
     return
 
 label helen_dialogue_change_harold:
     show player 10
-    player_name "Вы говорили с {b}Гарольдом{/b}?"
+    player_name "Ты говорила с {b}Гарольдом{/b}?"
     show player 11
     show helen 4
     helen "Нет..."
     show helen 3
-    helen "...Все находится в руках {b}Бога{/b}."
+    helen "...На все воля {b}Божья{/b}."
     show helen 1
     show player 12
-    player_name "Да?"
+    player_name "Что?"
     show player 5
     show helen 4
-    helen "Вы должны уйти сейчас..."
+    helen "Тебе пора идти..."
     return
 
 label helen_dialogue_change_mia_clues:
     show player 10
-    player_name "Где, вы сказали, я могу найти подсказки о местонахождении {b}Гарольда{/b}?"
+    player_name " Как мне найти {b}Гарольда{/b}?"
     show player 5
     show helen 24 with dissolve
-    helen "Начните с допроса его коллег в {b}полицейском участке{/b}..."
-    helen "...И найди {b}руководителя{/b} возле его рабочего места."
+    helen "Начни с опроса его коллег в {b}полицейском участке{/b}..."
+    helen "...и поищи {b}зацепки{/b} на его рабочем месте."
     show helen 23
     show player 12
-    player_name "Полагаю, я могу поспрашивать, где он может быть..."
+    player_name "Я опрошу всех, кого смогу..."
     show player 5
     show helen 24
-    helen "Спасибо тебе..."
+    helen "Спасибо..."
     return
 
 label helen_dialogue_change_corset:
     show player 10
-    player_name "Еще раз, какое белье ты искала?"
+    player_name "Еще раз, какое бельё тебе нужно?"
     show player 5
     show helen 28
-    helen "Я всегда хотела носить корсет... и {b}Гарольд{/b} любит видеть меня в красном."
+    helen "Я давно хотела купить корсет... и {b}Гарольд{/b} говорил, что мне идет красный цвет."
     show helen 23
     show player 12
-    player_name "Тогда {b}красный корсет{/b}?"
+    player_name "Итак, {b}красный корсет{/b}?"
     show player 5
     show helen 24
-    helen "Если сможешь найти, принеси мне его сюда."
+    helen "Если найдешь такой, принеси его мне."
     show helen 23
     show player 10
-    player_name "Я постараюсь..."
+    player_name "Я попробую..."
     show player 5
     show helen 28
-    helen "Спасибо тебе, {b}[firstname]{/b}."
+    helen "Спасибо, {b}[firstname]{/b}."
     return
 
 label helen_dialogue_change_angelica:
     show player 10
-    player_name "Как проходит причастие?"
-    player_name "Ты и {b}Сестра Анджелика {/b}, есть какой-то прогресс?"
+    player_name "Как проходят обряды?"
+    player_name "У вас есть прогресс с {b}Сестрой Анжеликой{/b}?"
     show player 5
     show helen 27
     helen "..."
     show helen 24
-    helen "Я... Думаю, у нас все хорошо..."
+    helen "Я... Я думаю, все хорошо..."
     show helen 28
-    helen "...{b}Сестра Анжелика{/b} очень... основательна и более осведомленна, чем я."
+    helen "...{b}Сестра Анжелика{/b} более... совершенна и образована, нежели я."
     show helen 23
     show player 10
-    player_name "Я вижу..."
-    player_name "Дайте мне знать, если вам понадобится моя помощь!"
+    player_name "Понял..."
+    player_name "Ну, дайте знать, если понадоблюсь!"
     return
 
 label helen_dialogue_change_whipping:
     show player 10
-    player_name "Ты в порядке? До сих пор не могу поверить, что видела, как {b}Сестра Анжелика{/b} хлестала тебя."
+    player_name "Все в порядке? Я до сих пор не могу поверить, что {b}Сестра Анжелика{/b} отхлестала вас."
     show player 5
     show helen 25
     helen "..."
     show helen 28
-    helen "Немного побаливает, но..."
+    helen "Все ещё немного больно, но..."
     show helen 24
-    helen "...Я грешница {b}[firstname]{/b}. И... Мне это нужно."
+    helen "...Я грешница, {b}[firstname]{/b}. Я... Я это заслужила."
     show helen 28
-    helen "Если это поможет мне избавиться от греховности, я должена это сделать."
+    helen "Если таким образом освобождаются от греховных пут, я должнна пройти через это."
     show helen 27
     show player 37 with dissolve
     player_name "..."
     show player 10 with dissolve
-    player_name "Хорошо, я полагаю."
-    player_name "Если вам нужна помощь или вы хотите, дайте мне знать."
-    player_name "Я сделаю все возможное, чтобы помочь вам."
+    player_name "Это хорошо, наверное."
+    player_name "Если понадобится помощь - зовите меня."
+    player_name "Я всегда к вашим услугам."
     show player 5
     show helen 24
-    helen "Спасибо, {b}[firstname]{/b}. Ты мне очень помогаешь."
-    helen "{b}Сестра Анжелика{/b} помогает мне понять, что именно моя греховность привела ко всем моим проблемам в жизни."
-    helen "Мне нужно закончить это обучение и, возможно, я буду такой же полезной и милой...как ты."
+    helen "Thanks, {b}[firstname]{/b}. Ты и так во многом помогаешь."
+    helen "{b}Сестра Анжелика{/b} помогает мне осознать, что во всех жизненных неудачах виной лишь моя греховность."
+    helen "Я должна пройти через это, и, может быть я стану такой же доброй и полезной людям... как ты."
     show helen 27
     show player 37 with dissolve
     player_name "{b}Хелен{/b}..."
     show helen 23
     show player 10 with dissolve
-    player_name "Я не думаю, что ты плохая."
+    player_name "Я не считаю вас плохой."
     show player 5
     show helen 28
     helen "Спасибо, {b}[firstname]{/b}."
@@ -217,128 +217,128 @@ label helen_dialogue_change_whipping:
 
 label helen_dialogue_change_ritual:
     show player 10
-    player_name "Вы знаете... В последнее время я все больше времени провожу в церкви..."
+    player_name "Знаете... Я начал чаще посещать церковь..."
     show player 5
     show helen 2
-    helen "...У вас есть?"
+    helen "...правда?"
     show helen 1
     show player 14
     player_name "Да!"
     show player 10
-    player_name "Я пытаюсь узнать больше... вы знаете... о {b}Боге{/b} и все такое!"
+    player_name "Я стараюсь узнать больше... ну знаете... о {b}Боге{/b} и всём таком!"
     show player 5
     show helen 2
-    helen "Хмм... Серьёзно?"
+    helen "Хмм... Серьезно?"
     show helen 1
     show player 12
-    player_name "Знаете ли вы, что, подстраховаться... есть причастие поздней ночью?"
+    player_name "А вы знаете, что... ночью совершают особое таинство?"
     show player 5
     show helen 4
-    helen "Ночные службы?"
+    helen "Ночное богослужение?"
     show helen 1
     show player 10
-    player_name "Да! Они похожи... ритуалы?"
+    player_name "Да! Это вроде... ритуала."
     show player 5
     show helen 4
-    helen "Я никогда не знала об этом, и я посещаю нашу церковь уже более 20 лет."
+    helen "Я никогда не слышала ни о чем подобном, хотя посещаю церковь уже 20 лет."
     show helen 2
-    helen "Почему я никогда не слышала о таком... причастие?"
+    helen "Почему же я никогда не слышала об этом... таинстве?"
     show helen 1
     return
 
 label helen_dialogue_change_ritual_stat_fail:
     show player 10
-    player_name "[chr_warn]Я не уверена, что знаю, Эмм... Я не могу объяснить..."
+    player_name "[chr_warn]Ну я это, эммм... Я и не знаю, как это объяснить..."
     show player 5
     show helen 4
-    helen "[chr_warn]Похоже, это не очень серьезно..."
+    helen "[chr_warn]Похоже ты смеёшься надо мной..."
     show helen 1
     show player 24
     player_name "[chr_warn]..."
     show player 25
-    player_name "[chr_warn]Ну, я тоже еще не ушел, так что я не знаю много о том, что это включает."
+    player_name "[chr_warn]Ну я узнал про это совсем недавно, так что не знаю до конца что да как."
     show player 24
     show helen 4
-    helen "[chr_warn]Я не уверен, что я вполне понимаю цель всего этого..."
+    helen "[chr_warn]Я совсем не поняла твой посыл..."
     show helen 2
-    helen "[chr_warn]...Но удачи с вашей волонтерской работой и дайте мне знать, когда у вас будет больше деталей."
+    helen "[chr_warn]...но удачи тебе в твоих начинаниях, и дай знать если разузнаешь про это подробнее."
     show helen 1
     show player 25
-    player_name "[chr_warn]Ох... Окей."
+    player_name "[chr_warn]Оу... Ладно."
     return
 
 label helen_dialogue_change_ritual_stat_pass:
     show player 12
-    player_name "{b}Сестра Анжелика{/b} за главного!"
-    player_name "Она сказала, что я должен распространить информацию и найти... Эхх... верные последователи присоединиться к нам!"
+    player_name "Я узнал от {b}Сестры Анжелики{/b}!"
+    player_name "Она попросила меня распостранить информацию и найти... эмм... несколько благочестивых прихожан!"
     show player 14
-    player_name "Я знаю, что ты очень надёжная..."
+    player_name "Я знаю, что вы очень набожны..."
     show player 33
-    player_name "И за 20 лет в церкви, я удивлен, что ты никогда не посещала вечерние таинства. Может быть, я-"
+    player_name "И вы уже 20 лет посещаете церковь. Я даже удивлен, что вы никогда не слышали о ночных таинствах. Может я-"
     show helen 4
-    helen "Подожди."
+    helen "Постой."
     show helen 1
     show player 13
     player_name "..."
     show helen 4
-    helen "Ты присутствуешь на этом?"
+    helen "Ты сам-то там бывал?"
     show helen 1
     show player 14
-    player_name "Давайте просто скажем, что эмм... Мне нравится заниматься волонтерской работой для церкви!"
+    player_name "Скажем так... Мне нравится помогать при храме!"
     show player 13
     show helen 2
-    helen "Должна сказать, Я приятно удивлена вашей преданностью нашей Церкви..."
+    helen "Хочу сказать, что я приятно удивлена твоим интересом к церковной жизни..."
     show helen 4
-    helen "...Я просто не уверена, что понимаю цель всего этого."
+    helen "...но я не совсем понимаю, для чего нужны эти богослужения."
     show helen 1
     show player 14
-    player_name "{b}Сестра Анжелика{/b}, кажется, думает, что это отличный способ отпустить грехи и очистить душу..."
+    player_name "{b}Сестра Анжелика{/b} говорит, что это прекрасная возможность искупить грехи покаянием..."
     show player 13
     show helen 3
     helen "Хмм..."
     show helen 2
-    helen "Вы говорите, это ночью?"
+    helen "Мне нужно придти ночью?"
     show helen 1
     show player 14
-    player_name "Да, мэм! Это Эхх... в монашеской палате!"
+    player_name "Да, мэм! Оно проходит... в монашеской келье!"
     show player 13
     show helen 3
-    helen "Хорошо, ты убедил меня."
+    helen "Ладно, ты меня убедил."
     show helen 2
-    helen "Я пойду с тобой в гости к {b}Сестре Анжелике{/b} ночью и посмотрю, что это такое..."
+    helen "Я навещу {b}Сестру Анжелику{/b} ночью и увижу как проходят такие богослужения..."
     show helen 1
     show player 14
-    player_name "Звучит здорово!"
+    player_name "Прекрасно!"
     return
 
 label helen_dialogue_intro:
     show helen 1 at right
     show player 10 at left
     with dissolve
-    player_name "Привет, {b}Хелен{/b}!"
+    player_name "Добрый день, {b}Хелен{/b}!"
     show player 5
     show helen 4
     helen "Опять ты."
-    helen "Чего именно вы хотите добиться?!"
+    helen "Что тебе нужно?!"
     show helen 1
     return
 
 label helen_dialogue_harold:
     show player 10
-    player_name "Вы говорили с {b}Гарольдом{/b}?"
+    player_name "Ты поговорила с {b}Гарольдом{/b}?"
     show player 11
     show helen 5
-    helen "Наша ситуация вас не касается."
+    helen "Это не твое дело."
     show helen 4
-    helen "Кроме того, сейчас мы ничего не можем сделать..."
+    helen "К тому же, здесь ничего не поделаешь..."
     show helen 3
-    helen "...все находится в руках {b}Бога{/b}!"
+    helen "...ибо на все воля {b}Божья{/b}!"
     show helen 1
     show player 12
-    player_name "Да?"
+    player_name "Что?"
     show player 5
     show helen 4
-    helen "Вы должны уйти сейчас..."
+    helen "Тебе пора идти..."
     return
 
 label helen_dialogue_leave:
@@ -349,7 +349,7 @@ label helen_dialogue_leave:
     show helen 4
     helen "Что ты здесь делаешь?!"
     show player 22
-    helen "Это и есть моя спальня! Убирайся!!"
+    helen "Это моя комната! Выметайся!!"
     show helen 6
     show player 10
     player_name "Простите!"
