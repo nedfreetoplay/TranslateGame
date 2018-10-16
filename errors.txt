@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/characters/mrsj/button_yoga_room.rpy", line 18: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+            "Вы так натренированны!:
+
+Ren'Py Version: Ren'Py 7.1.0.882
+Mon Oct 15 15:38:30 2018

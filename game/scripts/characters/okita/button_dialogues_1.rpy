@@ -3,173 +3,173 @@ label button_okita_intro:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Alright, {b}Miss Okita{/b}. What do I have to do to get my grades up?"
+    player_name "Хорошо, {b}Мисс Окита{/b}. Что я должен сделать, чтобы получить мои оценки?"
     show player 1
     show okita 5
-    okita "You're going to help me break free of my imposed banishment to the land of deficients."
+    okita "Ты поможешь мне освободиться от наложенного изгнания в страну дефицитов."
     show player 10
     show okita 4
-    player_name "Huh? Banishment? What in the world are you on about?"
+    player_name "Что? Изгнание? О чём вы говорите?"
     show player 11
     show okita 3
-    okita "Do you actually believe somebody of my intelligence belongs here, teaching basic science to a bunch of Neanderthals?"
+    okita "Вы действительно верите, что кто-то из моих интеллектов принадлежит этому, преподавая основную науку кучке неандертальцев?"
     show player 10
     show okita 4
-    player_name "Uhh..."
+    player_name "Гмм..."
     show player 11
     show okita 3
-    okita "You think this is what I aspire to do with my life?!"
+    okita "Вы думаете, что это то, что я стремлюсь делать со своей жизнью?!"
     show player 30
     show okita 4
-    player_name "... No?"
+    player_name "... Нет?"
     show player 11
     show okita 11
-    okita "I used to be the bleeding edge, {b}[firstname]{/b}!"
-    okita "I worked alongside some of the brightest minds on the planet, striving to forward humanity into the future!"
+    okita "Раньше я была кровоточащим краем, {b}[firstname]{/b}!"
+    okita "Я работала рядом с самыми яркими умами на планете, пытаясь продвигать человечество в будущее!"
     show player 2
     show okita 11b
-    player_name "That sounds... Intense! How did you end up here?"
+    player_name "Это звучит... насыщенно! Как вы в конечном итоге оказались здесь?"
     show player 1
     show okita 11
-    okita "One day my colleagues forced me out!"
+    okita "Однажды мои коллеги вынудили меня!"
     show player 10
     show okita 11b
-    player_name "What?! Why did they do that?"
+    player_name "Что?! Почему они это сделали?"
     show player 11
     show okita 5
-    okita "Well, they claimed I was losing sight of the bigger picture."
-    okita "That I'd become too concerned with advancing the science and less aware of the ethics I'd sworn to uphold."
+    okita "Ну, они утверждали, что я теряю из виду большую картину."
+    okita "То, что я стала слишком озабоченной продвижением науки и менее осознавала этику, которую я поклялась поддержать."
     show okita 4
     player_name "..."
     show okita 11
-    okita "The truth of the matter, is that they were just intimidated by my intelligence!"
-    okita "They couldn't keep up so they banded together and got me blacklisted."
+    okita "Правда в том, что они были просто запуганы моим интеллектом!"
+    okita "Они не могли идти в ногу, поэтому они собрались вместе и забрали меня в черный список."
     show player 30
     show okita 11b
-    player_name "Blacklisted? What does that mean?"
+    player_name "Черный список? Что это значит?"
     show player 11
     show okita 3
-    okita "It means no worthwhile scientific institution will have me!"
+    okita "Это означает, что у меня не будет стоящего научного учреждения!"
     show okita 11
-    okita "I've been ostracized to live out a dull existence in a monotonous place like this..."
+    okita "Я подверглась остракизму, чтобы прожить тупое существование в однообразном месте, подобном этому..."
     show player 10
     show okita 11b
-    player_name "Well that's a sad story and all but how am I supposed to help you?"
+    player_name "Ну, это печальная история, но всё же, как я могу вам помочь?"
     show player 11
     show okita 3
-    okita "Yes, well it's simple really."
+    okita "Да, на самом деле это просто."
     show okita 5
-    okita "I just need to finish what I started."
+    okita "Мне просто нужно закончить то, что я начала."
     show player 10
     show okita 4
-    player_name "Huh?"
+    player_name "Да?"
     show player 11
     show okita 2
-    okita "My inventions! The ones I was working on at {b}Cuntech{/b} before those morons blacklisted me."
-    okita "If I could just prove they work and get one of them published."
+    okita "Мои изобретения! Те, над которыми я работала в {b}Cuntech{/b}, до того, как эти дебилы записали меня в черный список."
+    okita "Если бы я могла просто доказать, что они работают, и один из них опубликовать."
     show player 10
     show okita 1
-    player_name "You think that would get you your job back?"
+    player_name "Думаешь, ты вернешь свою работу?"
     show player 11
     show okita 11
-    okita "... I don't care about the job!"
-    okita "I want to show those backstabbers just how foolish they were, dismissing {b}Tori Okita{/b}!"
+    okita "... Мне плевать на работу!"
+    okita "Я хочу показать эти подтексты, насколько они были глупыми, отклоняя {b}Тори Окита{/b}!"
     show okita 5
-    okita "Besides, if even one of my inventions works. It'll be worth a fortune!"
+    okita "Кроме того, если даже одно из моих изобретений работает. Это будет стоить целое состояние!"
     show okita 2
-    okita "I'll buy my own lab!"
+    okita "Я куплю собственную лабораторию!"
     show player 30
     show okita 1
-    player_name "... Still not seeing how I fit into all of this."
+    player_name "... Все ещё не видя, как я вписываюсь во всё это."
     show player 11
     show okita 5
-    okita "Well, first off, I need you to {b}help me get into my office{/b}."
+    okita "Ну, во-первых, мне нужно, чтобы вы {b}помогли мне войти в мой офис{/b}."
     show player 10
     show okita 4
-    player_name "You're locked out of your own office?"
+    player_name "Вы заперт в своем собственном офисе?"
     show player 11
     show okita 5
-    okita "Yeah, That tyrant {b}Principal Smith{/b} locked me out!"
+    okita "Да, эта тиранша {b}Смит{/b} заперла меня!"
     show player 10
     show okita 4
-    player_name "The principal?!"
-    player_name "Why would she do that?"
+    player_name "Директор?!"
+    player_name "Зачем ей это делать?"
     show player 10
     show okita 5
-    okita "She doesn't want me pursuing my pet projects during the school term."
+    okita "Она не хочет, чтобы я проводила свои любимые проекты во время школьного семестра."
     show okita 9
-    okita "... Says I should remain one-hundred percent focused on the curriculum."
+    okita "... Говорит, что я должна оставаться на сто процентов сосредоточена на учебном плане."
     show okita 11
-    okita "It's utter nonsense!"
+    okita "Это полная чепуха!"
     show player 10
     show okita 4
-    player_name "... How am I supposed to get you in?"
+    player_name "... Как я должен тебя пригласить?"
     show player 11
     show okita 5
-    okita "With the {b}keycode{/b} of course. {b}Principal Smith{/b} will have it {b}stashed away somewhere in her office{/b}, I'm sure."
+    okita "Конечно, {b}пароль{/b}. {b}Смит{/b} хронит у себя{b}, где-то в своём офисе{/b}, я уверена."
     show player 10
     show okita 4
-    player_name "You want me to {b}break into the principal's office and steal from her{/b}?!"
+    player_name "Вы хотите, чтобы я {b}ворвался в кабинет директора и украл у неё{/b}?!"
     show player 11
     show okita 5
-    okita "It's not really stealing... I just need you to figure out the code."
+    okita "Это не воровство... Мне просто нужно выяснить код."
     show okita 3
-    okita "Besides, you have nothing to lose... Remember?"
+    okita "Кроме того, вам нечего терять... Помните?"
     show player 12
     show okita 4
-    player_name "She could expel me!"
+    player_name "Она может изгнать меня!"
     show player 11
     show okita 5
-    okita "Would it really matter? You'll be stuck here for another year regardless if you flunk my class..."
+    okita "Это действительно имеет значение? Вы останетесь здесь еще на один год независимо от того, если вы завалите мой класс..."
     show player 10
     show okita 4
-    player_name "Yeah, but..."
+    player_name "Да, но..."
     show player 11
     show okita 3
-    okita "Don't be foolish. This is a good deal! If you get the blueprints out of my office, help me build what's on them, and run a few tests to prove they work..."
+    okita "Не будь глупым. Это хорошая сделка! Если вы получите чертежи из моего офиса, помогите мне построить то, что на них, и выполните несколько тестов, чтобы доказать, что они работают..."
     show okita 5
-    okita "... I'll give you an A+ in my class."
+    okita "... Я дам вам 5+ в своем классе."
     show player 14
     show okita 4
-    player_name "An A+!?"
+    player_name "На 5+!?"
     show player 30
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 10
-    player_name "So basically, either I help you do this or I'm stuck with a failing grade?"
+    player_name "Так что, в основном, я помогу вам сделать это, или я получу плохую оценку?"
     show player 11
     show okita 3
-    okita "Yeah, without my help I calculate your odds of passing my class to be about 3,720 to 1."
+    okita "Да, без моей помощи я подсчитаю ваши шансы преодолеть мой класс примерно 0,372 из 100."
     show player 12
     show okita 4
-    player_name "Sheesh, well it's not like I have much choice then."
+    player_name "Блин, не такой большой выбор у меня."
     show player 11
     show okita 7
-    okita "You're finally starting to get a grasp on the situation!"
+    okita "Вы, наконец, начинаете понимать ситуацию!"
     show player 12
     show okita 6
-    player_name "So how do I get the keycode from {b}Principal Smith's office{/b}?"
+    player_name "Итак, как мне получить код из {b}офиса директрисы{/b}?"
     show player 11
     show okita 5
-    okita "That's your problem."
+    okita "Это твоя проблема."
     show player 16
     show okita 4
     player_name "..."
     show player 12
-    player_name "Wonderful."
+    player_name "Превосходно."
     show player 16
     show okita 7
-    okita "Best of luck, {b}[firstname]{/b}!"
+    okita "Желаю удачи, {b}[firstname]{/b}!"
     show okita 5
-    okita "... Oh and while you're in my office, why don't you grab a {b}lab coat{/b} and a {b}pair of safety glasses{/b}."
-    okita "You're gonna need them."
+    okita "... О, и пока вы в моем офисе, почему бы вам не взять {b}лабораторное пальто{/b} и {b}пару защитных очков{/b}."
+    okita "Вам это пригодится."
     hide okita
 
     hide player
     with dissolve
     show player 24 at Position(xpos=0.45, ypos=1.0) with dissolve
-    player_name "Ugh..."
+    player_name "Тьфу..."
     show player 34
-    player_name "( I'll have to wait for {b}Principal Smith to leave her office if I want to search it properly{/b}. )"
+    player_name "( Мне придется подождать, пока {b}Директриса Смит покинет свой офис, если я хочу его найти{/b}. )"
 
     return
 
@@ -177,27 +177,27 @@ label button_okita_get_keycode:
     scene location_school_science_closeup
     show player 1 at left
     show okita 3 at right
-    okita "Any luck getting that keycode?"
+    okita "Есть шанс получить этот код?"
     show player 2
     show okita 4
-    player_name "I'm still working on it."
+    player_name "Я все ещё работаю над этим."
     show player 1
     show okita 3
-    okita "Well, time is ticking."
+    okita "Ну, время тикает."
     show player 12
     show okita 4
-    player_name "I know..."
+    player_name "Я знаю..."
     show player 16
     show okita 9
-    okita "Tch..."
+    okita "Эхх..."
     hide okita
     with dissolve
     pause
     show player 24
 
-    player_name "Ugh..."
+    player_name "Тьфу..."
     show player 34
-    player_name "( I'll have to wait for {b}Principal Smith to leave her office if I want to search it properly{/b}. )"
+    player_name "( Мне придется подождать, пока {b}Директриса Смит покинет свой офис, если я хочу его найти{/b}. )"
     return
 
 label button_okita_foam_misshap:
@@ -205,95 +205,95 @@ label button_okita_foam_misshap:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "Good, you're here. We can get started."
+    okita "Хорошо, ты здесь. Мы можем начать."
     show player 2
     show okita 4
-    player_name "Yeah, alright."
-    player_name "So what are we building first?"
+    player_name "Да, хорошо."
+    player_name "Итак, что мы строим в первую очередь?"
     show okita 5
-    okita "I'll show you."
+    okita "Я Вам покажу."
     show player 109f zorder 0 at Position(xpos=0.25, ypos=1.0)
     show okita 12 zorder 1 at Position(xpos=0.85, ypos=1.0)
     with dissolve
 
-    okita "I call these beauties, the Okitatron Oculars."
+    okita "Я называю этих красавиц, окитатронные окуляры."
 
     show bp 1 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
-    player_name "Glasses?"
-    okita "Hah, not glasses..."
+    player_name "Очки?"
+    okita "Ха, это не очки..."
 
     hide bp with dissolve
     show player 109f
     show okita 12
-    okita "These are an optical head-mounted display, a true ubiquitous computer."
+    okita "Это оптический дисплей, установленный на голове, настоящий вездесущий компьютер."
     show player 10
     show okita 13
-    player_name "I don't understand."
+    player_name "Я не понимаю."
     show player 10 at left
     show okita 9 at right
     with dissolve
-    okita "Of course you don't. You're an imbecile."
+    okita "Конечно, нет. Ты глупый."
     show player 5
     show okita 5
-    okita "Let me just put it this way, the Okitatron Oculars will soon replace every smart phone on the planet."
+    okita "Позвольте мне сказать так, Окита Окуляр вскоре заменит каждый смартфон на планете."
     show player 10
     show okita 4
-    player_name "So it's a phone?"
+    player_name "Так это телефон?"
     show player 11
     show okita 3
-    okita "*sigh*"
+    okita "*Вздох*"
     show okita 5
-    okita "Let's just focus on building it and once it's complete I'll show you what it does..."
+    okita "Давайте просто сосредоточимся на его создании, и как только он будет завершен, я покажу вам, что он делает..."
     show player 2
     show okita 4
-    player_name "Works for me."
+    player_name "Работа для меня."
     show player 10
-    player_name "How do we start?"
+    player_name "Как мы начнем?"
     show player 11
     show okita 10b with dissolve
-    okita "Hmm."
+    okita "Хмм."
     show okita 10c
-    okita "Well, I'm missing a few components..."
+    okita "Ну, я пропускаю несколько компонентов..."
     show okita 10b
     okita "..."
     show okita 5 with dissolve
-    okita "I can gather up most of what we need on my own."
+    okita "Я самостоятельно могу собрать большую часть того, что нам нужно."
     show okita 3
-    okita "Could you {b}find me a pair of lenses{/b}?"
+    okita "Не могли бы вы {b}найти мне пару линз{/b}?"
     show player 10
     show okita 4
-    player_name "{b}Lenses{/b}? Like in a telescope?"
+    player_name "{b}Линзы{/b}? Как в телескопе?"
     show player 11
     show okita 5
-    okita "Not from a telescope. I need {b}lenses{/b} from a pair of spectacles. Specifically {b}Varifocal lenses{/b}."
+    okita "Не из телескопа. Мне нужно {b}объективы{/b} от пары очков. Конкретно {b}Варифокальные линзы{/b}."
     show player 10
     show okita 4
-    player_name "{b}Varifocal{/b}?"
+    player_name "{b}Варифокальные{/b}?"
     show player 11
     show okita 3
-    okita "Yes, that means it's a {b}lense{/b} with two different prescriptions; A top and a bottom."
+    okita "Да, это означает, что эти {b}линзы{/b} с двумя разными предписаниями;с наилучшими и наихудшими."
     show player 10
     show okita 4
-    player_name "Like for someone who is both nearsighted and farsighted?"
+    player_name "Как для тех кто одновременно близорукий и дальнозоркий?"
     show player 11
     show okita 2
-    okita "Precisely!"
+    okita "Точно!"
     show player 2
     show okita 1
-    player_name "Hmm, I might be able to track something like that down."
+    player_name "Хм, я мог бы отслеживать что-то подобное."
     show player 1
     show okita 3
-    okita "Might?"
+    okita "Может?"
     show player 2
     show okita 1
-    player_name "I mean, I know a few people who wear glasses. Maybe one of them have a spare set."
+    player_name "Я имею в виду, я знаю несколько человек, которые носят очки. Возможно, у одного из них есть запасной комплект."
     show player 1
     show okita 2
-    okita "Very good. Report back to me here, {b}in the science lab{/b}, once you have them."
+    okita "Отлично. Сообщите мне здесь, {b}в научной лаборатории{/b}, как только ты их получишь."
     show player 2
     show okita 1
-    player_name "Alright."
+    player_name "Хорошо."
     return
 
 label button_okita_get_bifocal_lenses:
@@ -301,40 +301,38 @@ label button_okita_get_bifocal_lenses:
     show player 1 at left
     show okita 3 at right
     with dissolve
-    okita "Did you find what we need?"
+    okita "Вы нашли то, что нам нужно?"
     show player 2
     show okita 4
-    player_name "What did you want me to find again?"
+    player_name "Что вы хотели, чтобы я нашёл?"
     show player 1
     show okita 3
-    okita "Pfft, you have one task to do and you've forgotten it?"
+    okita "Пфф, у тебя есть одна задача, и ты её забыл?"
     show player 10
     show okita 4
-    player_name "I-I guess so..."
+    player_name "Я-я думаю, так..."
     show player 11
     show okita 9
-    okita "Typical."
+    okita "Типичный."
     show okita 5
-    okita "I need you to find a pair of {b}Varifocal lenses{/b}."
+    okita "Мне нужно, чтобы вы нашли пару {b}Варифокальных линз{/b}."
     show player 10
     show okita 4
-    player_name "Oh, right! Both farsighted and nearsighted."
+    player_name "О,точно!одновременно дальнозоркие и близорукие."
     show player 11
     show okita 5
-    okita "Correct."
+    okita "Верно."
     show okita 3
-    okita "Perhaps I should write it backwards on your forehead, so you won't forget?"
+    okita "Может быть, я должна написать его в обратном направлении на лбу, так чтобы ты не забыл?"
     show player 10
     show okita 4
-    player_name "... No, that's alright. I've got it now."
+    player_name "... Нет, все в порядке. Теперь я все понял."
     show player 11
-    okita "Mmmhmm."
+    okita "Мммхмм."
     hide okita with dissolve
 
     show player 35 at Position(xpos=0.35, ypos=1.0) with dissolve
-    player_name "Hmm, I should {b}check around school{/b} and see if someone has a spare set of {b}Varifocal lenses{/b}."
-
-
+    player_name "Хм, я должен {b}проверить вокруг школы{/b} и посмотреть, если кто-то, кто имеет запасной набор {b}Варифокальных линз{/b}."
     return
 
 label button_okita_get_faptic_engine:
@@ -342,58 +340,58 @@ label button_okita_get_faptic_engine:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Hey, {b}Miss Okita{/b}. Have you solved the problem with the Glasses?"
+    player_name "Хэй, {b}Мисс Окита{/b}. Вы решили проблему с очками?"
     show player 1
     show okita 3
-    okita "You mean the {b}Okitatron Oculars{/b}?"
+    okita "Ты имеешь в виду {b}Окита окуляры{/b}?"
     show player 2
     show okita 4
-    player_name "Yeah, sorry. T-that's what I meant."
+    player_name "Да, извините. Э-это то, что я имел в виду."
     show player 1
     show okita 5
-    okita "Yes, I sorted it out. I'm in the process of patenting them now."
+    okita "Да, я все уладила. Я сейчас в процессе их патентования."
     show player 2
     show okita 4
-    player_name "That's good news, right?"
+    player_name "Это хорошая новость, верно?"
     show player 1
     show okita 5
-    okita "It's good for a start."
+    okita "Неплохо для начала."
     show okita 3
-    okita "... But nevermind the Oculars, {b}[firstname]{/b}!"
+    okita "... Но не смотря на Окуляры, {b}[firstname]{/b}!"
     show player 11
-    okita "Yesterday's news!"
+    okita "Вчерашние новости!"
     show player 10
     show okita 1
-    player_name "... O-okay."
+    player_name "... Х-хорошо."
     show player 11
     show okita 2
-    okita "Today I've got something truly innovative!"
+    okita "Сегодня у меня есть что-то действительно инновационное!"
     show player 10
     show okita 1
-    player_name "More innovative than X-Ray glasses?"
+    player_name "Более инновационное, чем рентгеновские очки?"
     show player 11
     show okita 3
-    okita "Oh, please. X-Ray technology hasn't been innovative since the 1980's."
+    okita "О, пожалуйста. Рентгеновская технология не была инновационной с 1980-х годов."
     show okita 1
     player_name "..."
 
     show player 109f zorder 0 at Position(xpos=0.25, ypos=1.0)
     show okita 12 zorder 1 at Position(xpos=0.85, ypos=1.0)
     with dissolve
-    okita "I call this, the {b}Okitatron Belt{/b}."
+    okita "Я называю это, {b}Окитатронный Пояс{/b}."
     show bp 2 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
-    player_name "... Belt?"
-    okita "Yeah, the name could use some work..."
+    player_name "... Пояс?"
+    okita "Да, над названием нужно поработать..."
     hide bp with dissolve
     show player 109f
     show okita 12
-    okita "But I'll worry about that later!"
-    okita "For now, let's focus on what the device does."
+    okita "Но я позабочусь об этом позже!"
+    okita "Пока давайте сосредоточимся на том, что делает устройство."
     show player 11 at left
     show okita 2 at right
     with dissolve
-    okita "The Okitatron Belt is gonna revolutionize the way people keep in shape!"
+    okita "Окитатронный Пояс будет революционизировать то, как люди держут себя в форме!"
     show okita 1
     player_name "..."
     show player 10

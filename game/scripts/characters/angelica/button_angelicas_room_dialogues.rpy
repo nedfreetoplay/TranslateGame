@@ -198,7 +198,7 @@ label angelicas_room_dialogue_helen_route_spread_helen:
     show ang 9
     ang "Хороший мальчик."
     show ang 9f at Position (xoffset=100) with dissolve
-    ang "Обернись {b}Хелен{/b}."
+    ang "Повернись, {b}Хелен{/b}!""
     show ang 10f at Position (xoffset=100)
     show helen whip 3 with dissolve
     pause
@@ -220,12 +220,12 @@ label angelicas_room_dialogue_helen_route_spread_helen:
     show player 430bf with dissolve
     helen "Ахххх..."
     show ang 26f
-    ang "Тебе понравилось?"
+    ang "Тебе нравится?"
     show player 430f
     show ang 25f
     helen "Да..."
     show ang 26f
-    ang "Тихе, блудница.. Я имел в виду {b}[firstname]{/b}."
+    ang "Тише, блудница. Я имел в виду {b}[firstname]{/b}."
     show ang 22_23_24f
     show player 430bf
     player_name "Да."
@@ -540,8 +540,8 @@ label helen_sacrement_training_part2_pre:
     ang "Блудница! Сначала вы мастурбировали перед этим молодым человеком, а теперь наслаждаетесь избиением."
     ang "Я хочу услышать это от тебя, блудница. Признайся мне, что ты!"
     show ang 17 at Position (xoffset=312)
-    helen "I..."
-    helen "I'm a slut..."
+    helen "Я..."
+    helen "Я блудница..."
     hide helen
     show ang 19
     with dissolve

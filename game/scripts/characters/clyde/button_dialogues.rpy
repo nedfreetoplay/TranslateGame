@@ -23,7 +23,7 @@ label button_clyde_roxxy_get_evidence_intro:
     clyde "Тогда мы оба окажемся за решеткой.!"
     show clyde 21
     show player 10f
-    player_name "Нет, если ты скажешь им, что Кристи понятия не имела, что ты спрятал там наркотики.."
+    player_name "Нет, если ты скажешь им, что {b}Кристи{/b} понятия не имела, что ты спрятал там наркотики.."
     show player 5f
     clyde "..."
     show clyde 2
@@ -458,7 +458,7 @@ label button_clyde_intro_0:
     show player 5f
     show clyde 4 with dissolve
     clyde "Черт, да!"
-    clyde "Я новый парень {b}Рокси{/b}!"
+    clyde "Ты новый парень {b}Рокси{/b}!"
     show clyde 3
     show player 10f
     player_name "Нет, вы просто др-"
@@ -644,7 +644,7 @@ label button_clyde_nice_tractor:
     player_name "..."
     show clyde 4
     clyde "Я сам вырастил ее из объедков."
-    clyde "31,2 л.с., 2500 об/мин, емкость 8,5 галлонов..."
+    clyde "31,2 лошадиных сил, 2500 об/мин, емкость 8,5 галлонов..."
     clyde "... И только посмотрите на эту рубиново-красную отделку!"
     clyde "Ммм! Она самая сексуальная штучка на четырех колесах!"
     show clyde 9 with dissolve

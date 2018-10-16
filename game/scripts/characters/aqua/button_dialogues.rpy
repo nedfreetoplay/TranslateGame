@@ -603,7 +603,7 @@ label aqua_dialogue_mating_hint:
     aqua "Это то, что говорит Аква! Каплан Терри!"
     show player 12
     show aqua 6
-    player_name "Капт- неважно. Думаю, мне стоит попробовать поговорить с ним."
+    player_name "Капи- неважно. Думаю, мне стоит попробовать поговорить с ним."
     show player 5
     show aqua 7
     aqua "Да'ссс. Иди, спаси рыбу!"

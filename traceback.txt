@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00console.rpy", line 769, in script call
+    return
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+ScriptError: could not find label 'button_okita_intor'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00console.rpy", line 769, in script call
+    return
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+  File "<string>", line 1, in script
+  File "D:\Programming\RenPy\renpy-7.1.0-sdk\renpy\ast.py", line 1620, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\Programming\RenPy\renpy-7.1.0-sdk\renpy\script.py", line 873, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'button_okita_intor'.
+
+Windows-8-6.2.9200
+Ren'Py 7.1.0.882
+SummertimeSaga 0.16.1
+Mon Oct 15 13:30:24 2018

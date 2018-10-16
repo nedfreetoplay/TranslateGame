@@ -3,7 +3,7 @@ label button_chad_get_eve_drawing_first:
     show player 2 at left
     show chad 1 at Position(xpos=0.8, ypos=1.0)
     with dissolve
-    player_name "Эй, мужик, я пытаюсь найти {b}Блокнот Евы.{/b}."
+    player_name "Эй, мужик, я пытаюсь найти {b}Блокнот Евы{/b}."
     player_name "Она сказала, что он может быть у тебя."
     show player 1
     show chad 2
@@ -69,10 +69,10 @@ label button_chad_get_eve_drawing:
     show player 10 at left
     show chad 1 at Position(xpos=0.8, ypos=1.0)
     with dissolve
-    player_name "What did you want for that {b}Art Pad{/b} again?"
+    player_name "Что ты хочешь за {b}Скетчбук{/b}?"
     show player 11
     show chad 2
-    chad "Ты забываешь?"
+    chad "Забыл чтоли?"
     show player 10
     show chad 1
     player_name "Да, типа того."
@@ -149,8 +149,6 @@ label button_chad_nothing:
     player_name "Просто хотел поздороваться."
     show player 1
     show chad 3
-
-
     chad "Отвали, йоу."
     show player 11
     chad "Я борюсь с серьезным дерьмом прямо сейчас."

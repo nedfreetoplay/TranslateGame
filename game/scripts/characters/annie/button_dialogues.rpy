@@ -1,6 +1,6 @@
 label annie_dialogue_music_classroom_intro:
     show player 2
-    player_name "Эй, {b}Энни{/b}."
+    player_name "Привет, {b}Энни{/b}."
     show player 1
     show annie 3
     ann "Я пытаюсь сосредоточиться."
@@ -8,7 +8,7 @@ label annie_dialogue_music_classroom_intro:
     show player 3
     player_name "..."
     show player 29 with dissolve
-    player_name "Sorr-"
+    player_name "Извени-"
     show player 3 with dissolve
     show annie 7
     ann "Я КОНЦЕНТРИРУЮСЬ!"
@@ -47,7 +47,7 @@ label annie_dialogue_ross_ask_model:
 
 label annie_dialogue_leave:
     show player 14
-    player_name "Эй {b}Энни{/b}!"
+    player_name "Привет {b}Энни{/b}!"
     show annie 5
     show player 1
     ann "Сделай это быстро!"

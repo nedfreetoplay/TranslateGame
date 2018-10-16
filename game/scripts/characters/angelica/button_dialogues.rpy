@@ -79,7 +79,7 @@ label angelica_dialogue_change_talk:
     show player 24
     player_name "Ох..."
     show ang 2
-    ang "Если вы хотите поговорить, приходите ко мне ночью в мои палаты..."
+    ang "Если ты хочешь поговорить, приходи ко мне ночью в мои покои..."
     show ang 1
     show player 25
     player_name "Тогда ладно. Простите."
@@ -90,10 +90,10 @@ label angelica_dialogue_change_talk:
 
 label angelica_dialogue_change_graveyard:
     show player 10
-    player_name "Как вы получаете доступ к кладбищу?"
+    player_name "Как попасть на кладбище?"
     show player 5
     show ang 2
-    ang "Это вне пределов."
+    ang "Это вне предела."
     ang "Хотя, она заперта и до сих пор надоедливые дети продолжают находить способы {b}пробраться через забор{/b}."
     show ang 1
     show player 12
