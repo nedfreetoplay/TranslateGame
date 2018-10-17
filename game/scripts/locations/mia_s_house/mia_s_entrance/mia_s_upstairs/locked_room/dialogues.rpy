@@ -2,7 +2,7 @@ label helens_locked_room_mia_locked_room:
     scene mia_house_locked_night_b
     show object_bed_11 at Position (xpos=527,ypos=765)
     show player 23 at left with dissolve
-    player_name "{b}MIA{/b}!"
+    player_name "{b}МИЯ{/b}!"
     player_name "Ты связана?!"
     show player 10
     player_name "Подожди, я помогу тебе..."
@@ -19,7 +19,7 @@ label mia_tied_up:
 label mia_tied_up_dialogue:
     scene mia_house_cs01
     with fade
-    show text "{b}Mia{/b} была привязана на кровати, в запертой комнате.\nНе было времени обдумать то, что я видел...\n...Я должен был что-то сделать!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "{b}Мия{/b} была привязана на кровати, в запертой комнате.\nНе было времени обдумать то, что я видел...\n...Я должен был что-то сделать!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -34,19 +34,19 @@ label mia_tied_up_dialogue:
     show mia 41f with dissolve
     pause
     show mia 42f at Position (xoffset=-15) with dissolve
-    mia "Ow..."
+    mia "Ох..."
     show mia 43f at Position (xpos=500) with dissolve
     mia "{b}[firstname]{/b}!!!"
     show mia 44f
     show player 10
-    player_name "{b}Mia{/b}! Что происходит?!"
+    player_name "{b}Мия{/b}! Что происходит?!"
     player_name "Я получил твое сообщение на телефон и-"
     show player 11
     show mia 43f
     mia "Мы должны уходить, быстро!"
     show mia 44f
     show player 12
-    player_name "Подожди {b}Mia{/b}, что происходит?"
+    player_name "Подожди {b}Мия{/b}, что происходит?"
     show player 11
     show mia 43f
     mia "Моя мама становится {b}невменяемой{/b}!!"
@@ -97,7 +97,7 @@ label mia_tied_up_dialogue:
     show helen 8 at Position (xpos=750)
     show harold 12 at right
     with dissolve
-    harold "{b}Helen{/b}, почему ты так кричишь?!"
+    harold "{b}Хелен{/b}, почему ты так кричишь?!"
     show harold 14
     show helen 7b
     helen "Возвращайся вниз, {b}Harold{/b}."
@@ -149,7 +149,7 @@ label mia_tied_up_dialogue:
     helen "Нам нужно поговорить, {b}Harold{/b}."
     show helen 8b
     show harold 17
-    harold "Я так не думаю, {b}Helen{/b}."
+    harold "Я так не думаю, {b}Хелен{/b}."
     harold "Здесь нечего обсуждать."
     harold "{b}Mia{/b} идет в свою комнату и мы разберемся с этим завтра!"
     hide harold
@@ -160,12 +160,12 @@ label mia_tied_up_dialogue:
 
     scene miahouse_night
     show player 12 with dissolve
-    player_name "{b}Helen{/b} сошла {b}С УМА{/b}!!"
-    player_name "Я и подумать не мог, что было так плохо с родителями {b}Mia{/b} ..."
-    player_name "...До того, чтобы связать ее ?! Это безумие!"
+    player_name "{b}Хелен{/b} сошла {b}С УМА{/b}!!"
+    player_name "Я и подумать не мог, что было так плохо с родителями {b}Мии{/b}..."
+    player_name "...До того, чтобы связать её?! Это безумие!"
     show player 24
-    player_name "{b}*Sigh*{/b}"
-    player_name "Я чувствую себя виноватым перед {b}Mia{/b}..."
+    player_name "{b}*Вздох*{/b}"
+    player_name "Я чувствую себя виноватым перед {b}Мией{/b}..."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

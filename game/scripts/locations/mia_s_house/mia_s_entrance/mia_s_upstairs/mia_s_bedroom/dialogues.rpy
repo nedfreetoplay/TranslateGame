@@ -96,7 +96,7 @@ label mias_bedroom_mia_tattoo_help:
 
 label mias_bedroom_mia_midnight_help:
     scene expression game.timer.image("mia_bedroom{}")
-    player_name "{b}Mia{/b} здесь нет... И я не вижу ключа."
+    player_name "{b}Мии{/b} здесь нет... И я не вижу ключа."
     return
 
 label mia_study:
@@ -168,7 +168,7 @@ label mia_study_like_mia:
     show mia 19
     show player 145
     player_name "Я думаю, ты очень милая... ты знаешь..."
-    player_name "...Ну когда ты говоришь со мной в школе и все такое!"
+    player_name "... Ну когда ты говоришь со мной в школе и все такое!"
     show mia 18
     show player 141
     mia "Как мило!"
@@ -300,7 +300,7 @@ label mia_strip_show_dialogue:
     mia "Ты здесь!!"
     show mia 7
     show player 14
-    player_name "Привет {b}Mia{/b}. Я опоздал?"
+    player_name "Привет {b}Мия{/b}. Я опоздал?"
     show player 13
     show mia 10
     mia "Нет."
@@ -512,7 +512,7 @@ label mia_bedroom_sex_intro:
     mia "Я так рада, что ты пришел."
     show mia 7
     show player 14
-    player_name "Привет, {b}Mia{/b}."
+    player_name "Привет, {b}Мия{/b}."
     player_name "Твои родители снова смотрят телевизор вместе, да?"
     show player 13
     show mia 10
@@ -625,7 +625,7 @@ label mia_bedroom_sex_maybe_later:
     show mia 7 at right
     show player 14 at left
     with dissolve
-    player_name "Спокойной ночи, {b}Mia{/b}."
+    player_name "Спокойной ночи, {b}Мия{/b}."
     player_name "Увидемся завтра."
     show player 13
     show mia 10
@@ -764,7 +764,7 @@ label mia_bedroom_sex_first_intro:
     mia "Ум..."
     mia "{b}[firstname]{/b}?"
     show mias 1
-    player_name "Да, {b}Mia{/b}?"
+    player_name "Да, {b}Мия{/b}?"
     show mias 5
     mia "..."
     mia "Ты хочешь заняться сексом?"
@@ -772,7 +772,7 @@ label mia_bedroom_sex_first_intro:
     player_name "!!!"
     show mias 2
     mia "Каждый раз, когда я думала об учебе голышом..."
-    mia "...Я вроде как фантазировала и у меня получился...секс."
+    mia "...Я вроде как фантазировала и у меня получился... секс."
     show mias 5
     mia "Это моя маленькая тайная фантазия..."
     show mias 2
@@ -851,14 +851,14 @@ label mia_bedroom_sex_butt_start:
 
 label mia_bedroom_sex_vaginal_stat_fail:
     show mias 1
-    player_name "[chr_warn]Но другой путь намного лучше {b}Mia{/b}."
+    player_name "[chr_warn]Но другой путь намного лучше {b}Мии{/b}."
     player_name "[chr_warn]...Не думая, что кто-то узнает что мы делали это."
     show mias 4
     mia "[chr_warn]Я буду знать, хотя."
     show mias 3
-    player_name "[chr_warn]Ну ... это буду чувствовать себя намного лучше-"
+    player_name "[chr_warn]Ну... это буду чувствовать себя намного лучше-"
     show mias 5
-    mia "[chr_warn]Нет, если ты хочешь сделать это со мной,, используй мою попу."
+    mia "[chr_warn]Нет, если ты хочешь сделать это со мной, используй мою попу."
     player_name "[chr_warn]...Хорошо."
     return
 
@@ -927,9 +927,9 @@ label mia_bedroom_sex_vaginal_intro:
     return
 
 label mia_bedroom_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -958,7 +958,7 @@ label mia_bedroom_sex_loop:
                 call expression game.dialog_select("mia_hscene_dialog")
         $ animcounter += 1
 
-    player_name "Куда хочешь чтобы я кончил, {b}Mia{/b}?"
+    player_name "{b}Мия{/b}, куда хочешь чтобы я кончил?"
     mia "...куда угодно."
     call screen mia_bedroom_sex_options
 

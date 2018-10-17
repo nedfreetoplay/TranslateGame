@@ -263,7 +263,7 @@ label park_rap_battle_pre:
     eve "Привет {b}[firstname]{/b}!"
     show eve 5
     show player 14
-    player_name "Привет, {b}Eve{/b}!"
+    player_name "Привет, {b}Ева{/b}!"
     show eve 6
     show player 1
     eve "Я рада, что ты появился!"
@@ -636,13 +636,13 @@ label park_pilly_button_dialogue:
     clyde "Позволь мне говорить прямо сейчас!"
     show clyde 1
     show pilly 2f at right with dissolve
-    buyer "... {b}Clyde{/b}?"
+    buyer "... {b}Клайд{/b}?"
     show pilly 1f
     show clyde 4 with dissolve
-    clyde "Ох, ох... Как поживает {b}Pilly{/b}..."
+    clyde "Ох, ох... Как поживает {b}Пилли{/b}..."
     show clyde 3
     show player 10
-    player_name "{b}Pilly{/b}?"
+    player_name "{b}Пилли{/b}?"
     player_name "Что это за имя такое?"
     show player 5
     show pilly 2f
@@ -652,7 +652,7 @@ label park_pilly_button_dialogue:
     clyde "Тссс, не говори ничего о его имени..."
     clyde "Он чувствительный."
     show clyde 2
-    clyde "Не обращай на него внимания, {b}Pilly{/b}. Как насчет покурить, прежде чем мы перейдем к делу?"
+    clyde "Не обращай на него внимания, {b}Пилли{/b}. Как насчет покурить, прежде чем мы перейдем к делу?"
     show clyde 1
     pilly "..."
     show pilly 2f
@@ -660,101 +660,101 @@ label park_pilly_button_dialogue:
     show pilly 1f
     show clyde 22
     clyde "Да ну на?!"
-    clyde "... You know, nobody likes a quitter, {b}Pilly{/b}."
+    clyde "... Ты знаешь, никто не любит слабаков, {b}Пилли{/b}."
     show clyde 21
     show pilly 2f
-    pilly "Yeah, well... I got an offer I couldn't refuse."
-    pilly "Where's {b}Crystal{/b}?"
+    pilly "Да, ну... Я получил предложение, от которого не смог отказаться."
+    pilly "Где {b}Кристи{/b}?"
     show pilly 1f
     show clyde 22
-    clyde "I'm afraid mah {b}Auntie{/b} is otherwise occupied."
+    clyde "Боюсь, {b}тетушка{/b} занята другим."
     show clyde 21
     pilly "..."
     show pilly 2f
-    pilly "Well that's a shame, {b}your Auntie{/b} usually offers to sweeten the deal."
-    pilly "Who is this gentleman?"
+    pilly "Ну, это позор, {b}твоя тетя{/b} обычно предлагает подсластить пилюлю."
+    pilly "Кто этот джентльмен?"
     show pilly 1f
     show player 11
     player_name "..."
     show clyde 2
-    clyde "Ah, well... This 'ere's my newest associate."
-    clyde "You can call him... Err..."
-    clyde "... {b}Mr. White{/b}!"
+    clyde "А, ну да... Это мой новый помощник."
+    clyde "Ты можешь позвонить ему... Эмм..."
+    clyde "... {b}Мистер Уайт{/b}!"
     show clyde 1
     show player 18
     pilly "..."
     show pilly 2f
-    pilly "Somethin' fishy is going on here and I don't like it, {b}Clyde{/b}."
+    pilly "Здесь происходит что-то подозрительное, и мне это не нравится, {b}Клайд{/b}."
     show pilly 1f
     show clyde 2
-    clyde "Now, now... Ain't no funny business!"
+    clyde "Сейчас, сейчас... Что-то не чисто!"
     show player 90
     show clyde 28 with dissolve
-    clyde "I brought the merchandise just like we agreed..."
-    clyde "Have a look fer yerself!"
+    clyde "Я принес товар, как мы и договаривались..."
+    clyde "Посмотри сам!"
     show clyde 1
     show pilly 4f
     with dissolve
-    pilly "Hmm, this is a lot more than we discussed over the phone."
+    pilly "Это намного больше, чем мы обсуждали по телефону."
     show pilly 6f with dissolve
     show clyde 2
-    clyde "Well ya see, I'm having a little goin' outta business sale."
-    clyde "I'll give ya the entire lot for $100,000!"
+    clyde "Видишь ли, у меня небольшая распродажа."
+    clyde "Я отдам тебе всю партию за $100,000!"
     show clyde 1
     pilly "..."
     show pilly 5f
-    pilly "Heh, how exactly did you arrive at that number?"
+    pilly "Хех, как именно вы пришли к такому количеству?"
     show pilly 6f
     show clyde 26
-    clyde "That's 5 pounds of mah finest stuff right 'dere!"
-    clyde "It's worth every penny!"
+    clyde "Это 5 фунтов лучших вещей прямо сейчас!"
+    clyde "Это стоит каждого пенни!"
     show clyde 25
     pilly "..."
     show pilly 5f
-    pilly "I think not."
-    pilly "I'll give you $60,000."
+    pilly "Думаю, нет."
+    pilly "Я дам тебе $60,000."
     show pilly 6f
     show clyde 26
-    clyde "Pfft, are you outta yer damn mind?!"
-    clyde "You ain't takin' advantage of me!"
+    clyde "Пфф, ты что, совсем из ума выжил?!"
+    clyde "Ты не воспользуешься мной!"
     show clyde 25
     show pilly 5f
-    pilly "Suit yerself."
+    pilly "Поступай как знаешь."
     show clyde 27
     show pilly 2f
     with dissolve
-    pilly "Good luck!"
+    pilly "Удачи вам!"
     show pilly 1f
     show clyde 28
-    clyde "Well, hold on now!"
+    clyde "Ну, подожди."
     show clyde 22
     show pilly 6f
     with dissolve
-    clyde "Don't do nuthin' drastic, we just hagglin' here!"
+    clyde "Не делай ничего радикального, мы просто торгуемся!"
     show clyde 26
     clyde "$75,000!"
     show clyde 25
     show player 12
-    player_name "We'll take the $60,000."
+    player_name "Мы возьмем $ 60,000."
     show player 90
     show clyde 22
-    clyde "{b}WHAT?!{/b}" with hpunch
+    clyde "{b}ЧТО?!{/b}" with hpunch
     show clyde 26
-    clyde "Now you listen here!"
+    clyde "А теперь послушай меня!"
     show clyde 25
     show player 12
-    player_name "Shut up, {b}Clyde{/b}!"
+    player_name "Заткнись, {b}Клайд{/b}!"
     show clyde 21
-    player_name "Don't forget why we're here!"
+    player_name "Не забывай, зачем мы здесь!"
     show player 90
     clyde "..."
     show clyde 22
-    clyde "Fine."
+    clyde "Хорошо."
     show clyde 21
     show pilly 5f
-    pilly "Heh, nice to see your \"associate\" is a reasonable man."
+    pilly "Хех, приятно видеть, что твой \"помощник\" - разумный человек."
     show pilly 3f with dissolve
-    pilly "Pleasure doing business with you, {b}Mr. White{/b}."
+    pilly "Приятно вести бизнес с вами, {b}Мистер Уайт{/b}."
     show player 638b
     show player_outfit 638d
     show pilly 1f
@@ -763,47 +763,47 @@ label park_pilly_button_dialogue:
     show player 638
     show player_outfit 638c
     with dissolve
-    player_name "Y-yeah... Thanks."
+    player_name "Д-да... Спасибо."
     show player 638b
     show player_outfit 638d
     hide pilly
     with dissolve
     show clyde 22
-    clyde "... Man, he just bent us over the barrel with dat deal!"
+    clyde "... Чувак, он только что склонил нас над бочкой со сделкой!"
     show clyde 21
     show player 12f at Position (xpos=700)
     show player_outfit 638ef at Position (xpos=700)
     with dissolve
-    player_name "C'mon, let's get out of here!"
+    player_name "Давай, давай выбираться отсюда!"
     show player 90f
     show clyde 22
-    clyde "Well, hold on now!"
-    clyde "What about mah cut?"
+    clyde "Ну, держись!"
+    clyde "А как насчет нас?"
     show clyde 21
     show player 10f
-    player_name "Huh?"
+    player_name "Хм?"
     show player 5f
     show clyde 2
-    clyde "We gonna split that money fifty-fifty ain't we?!"
+    clyde "Мы собираемся разделить эти деньги поровну, не так ли?!"
     show clyde 1
     show player 12f
-    player_name "No!"
-    player_name "This is to get {b}Your Aunt{/b} outta jail!"
-    player_name "... Remember?!"
+    player_name "Нет!"
+    player_name "Это значит, что {b}Тетя{/b} выйдит из тюрьмы!"
+    player_name "... Помнишь?!"
     show player 90f
     show clyde 2
-    clyde "Well, ya but..."
-    clyde "Can't we just take a lil' bit to the strip club or somethin'?"
-    clyde "You could buy a whole lot of lap dances with that kind of money..."
+    clyde "Хорошо, но..."
+    clyde "Может, просто сходим в стрип-клуб или ещё куда-нибудь?"
+    clyde "На такие деньги можно купить кучу приватных танцев..."
     show clyde 1
     show player 12f
-    player_name "... Get your ass home and start writing that letter!"
+    player_name "... Тащи свою задницу домой и начинай писать это письмо!"
     show player 90f
     show clyde 26
-    clyde "Alright, alright."
-    clyde "Sheesh, you're a real party pooper, you know dat?"
+    clyde "Хорошо, хорошо."
+    clyde "Ты настоящий любитель вечеринок, понимаешь?"
     show clyde 31 with dissolve
-    clyde "Besides, I dun wrote yer stupid letter!"
+    clyde "Кроме того, я написал тебе дурацкое письмо!"
     hide clyde
     hide player
     hide player_outfit
@@ -817,26 +817,26 @@ label park_pilly_button_dialogue:
     with dissolve
     player_name "..."
     show player 14f
-    player_name "Yeah, that should work."
+    player_name "Да, это должно сработать."
     show player 13f
     show clyde 2
-    clyde "Good."
-    clyde "I'm glad dis mess is all over with!"
+    clyde "Хорошо."
+    clyde "Я рад, что с этим бардаком покончено!"
     show clyde 1
     show player 10f
-    player_name "You'd better disappear quickly if you don't wanna end up in prison."
-    player_name "{b}Roxxy{/b} and I will {b}turn this into the police tomorrow{/b}."
+    player_name "Лучше быстро исчезни, если ты не хочешь оказаться в тюрьме."
+    player_name "{b}Рокси{/ b}, и я {b}завтра превратим это в полицию{/b}."
     show player 5f
     show clyde 4 with dissolve
-    clyde "Oh, dun you worry none."
-    clyde "I'll be long gone by then, buddy!"
-    clyde "You just take real good care mah cousin now!"
+    clyde "Не волнуйся, ничего страшного."
+    clyde "К тому времени меня уже не будет, приятель!"
+    clyde "Просто позаботься о своей кузине!"
     show clyde 3
     player_name "..."
     hide clyde with dissolve
     pause
     show player 14f
-    player_name "I should take the letter to {b}Roxxy tomorrow at school{/b}."
+    player_name "Я должен отнести письмо {b}к Рокси завтра в школу{/b}."
     hide player
     hide player_outfit
     with dissolve

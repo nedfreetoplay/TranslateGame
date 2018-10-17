@@ -19,10 +19,10 @@ label button_ross_found_model:
     show judith 1 zorder 2 at Position(xpos=0.65, ypos=1.0)
     show ross 10 zorder 2 at left
     with dissolve
-    player_name "Я вернулся {b}Miss Ross{/b} и я нашел нам модель!"
+    player_name "Я вернулся {b}Мисс Росс{/b} и я нашел нам модель!"
     show player 1f
     show ross 11
-    ross "{b}*Вздох задыхаясь* Judith{/b}!"
+    ross "{b}*Вздох задыхаясь* Джуди{/b}!"
     show ross 27 with dissolve
     ross "Это идеально! У нее прекрасное тело для этого!"
 
@@ -30,10 +30,10 @@ label button_ross_found_model:
     show judith 4
     pause
     show judith 5
-    jud "О, эмм, {b}Miss Ross{/b} будет здесь тоже мм?"
+    jud "О, эмм, {b}Мисс Росс{/b} будет здесь тоже мм?"
     show player 10f
     show judith 1
-    player_name "Да,ты ведь не против?."
+    player_name "Да, ты ведь не против?."
     show player 11f
     show judith 3
     jud "Я не знаю..."
@@ -49,7 +49,7 @@ label button_ross_found_model:
     jud "Эмм..."
     show ross 60
     show judith 6
-    ross "Не теряй зря время,мы хотим как можно больше времени с тобой."
+    ross "Не теряй зря время, мы хотим как можно больше времени с тобой."
 
     hide judith
     show ross 11
@@ -65,18 +65,18 @@ label button_ross_found_model:
     ross "...А вот и наш маленький пирожочек, как раз вовремя!"
     show ross 10
     show mia 12b
-    mia "Да, я не смогла никого найти.Извините ребята..."
+    mia "Да, я не смогла никого найти. Извините ребята..."
     show ross 11
     show mia 8b
-    ross "О,не беспокойся! {b}[firstname]{/b} справился как и всегда."
+    ross "О, не беспокойся! {b}[firstname]{/b} справился как и всегда."
     show ross 10
     show mia 10b
-    mia "Серьезно?Ты на самом деле нашел добровольца?"
+    mia "Серьезно? Ты на самом деле нашел добровольца?"
     show mia 9
     mia "Это потрясающе, {b}[firstname]{/b}!"
     show mia 11
     show player 2f
-    player_name "... Да, {b}Judith{/b} согласилась-"
+    player_name "... Да, {b}Джуди{/b} согласилась-"
     show judith 59f zorder 0 at Position(xpos=0.35, ypos=1.0)
     show player 11f
     with dissolve
@@ -87,7 +87,7 @@ label button_ross_found_model:
     show mia 7
     pause
     show judith 45f
-    jud "... Что {b}Mia{/b} здесь делает?!"
+    jud "... Что {b}Мия{/b} здесь делает?!"
     show judith 44f
     show ross 11
     ross "Она тоже будет тебя рисовать, милая."
@@ -98,19 +98,19 @@ label button_ross_found_model:
     jud "Я думала, что это будем только ты и я, {b}[firstname]{/b}!"
     show judith 51f
     show ross 25
-    ross "Успокойся, {b}Judith{/b}... все будет в порядке, дорогая."
+    ross "Успокойся, {b}Джуди{/b}... все будет в порядке, дорогая."
     show ross 11
-    ross "Тебе нечего стыдиться.Неправда ли ребята?"
+    ross "Тебе нечего стыдиться. Неправда ли ребята?"
     show ross 10
     show player 2f
     player_name "Вовсе нет."
     show player 1f
     show mia 10
-    mia "Да, не переживай, {b}Judith{/b}. {b}Miss Ross{/b} научила нас, что тело каждого человека прекрасно."
+    mia "Да, не переживай, {b}Джуди{/b}. {b}Мисс Росс{/b} научила нас, что тело каждого человека прекрасно."
     show mia 7
     show ross 11
-    ross "Так и есть, {b}Mia{/b}.Все Все прекрасны по-своему."
-    ross "Ты должны гордиться своим телом, {b}Judith{/b}."
+    ross "Так и есть, {b}Мия{/b}. Все Все прекрасны по-своему."
+    ross "Ты должны гордиться своим телом, {b}Джуди{/b}."
     show ross 10
     show judith 52f
     jud "Я не знаю..."
@@ -122,7 +122,7 @@ label button_ross_found_model:
     show ross 40 zorder 2 at left with dissolve
 
     ross "Это всегда успокаивают меня, когда я волнуюсь...."
-    ross "Все Возьмите по одному."
+    ross "Все возьмите по одному."
     show ross 41
     show player 2f
     player_name "О, Я слышал, ты делаешь лучшие пирожные!"
@@ -165,7 +165,7 @@ label button_ross_found_model:
     jud "Ном ном ном."
     show ross 43
     show judith 47f
-    ross "Помедленней, {b}Judith{/b}.Ты же не хочешь съесть их слишком быстро."
+    ross "Помедленней, {b}Джуди{/b}. Ты же не хочешь съесть их слишком быстро."
     show ross 42
     show judith 48f
     jud "О мой бог! Они так хороши!"
@@ -179,7 +179,7 @@ label button_ross_found_model:
     ross "Как все себя чувствуют?"
     show ross 12
     show player 26f
-    player_name "Хооорошо.Очень хоооорошо."
+    player_name "Хооорошо. Очень хоооорошо."
     show player 13f
     show judith 50f
     jud "Я тоже."
@@ -204,18 +204,18 @@ label button_ross_found_model:
     show judith 49f with dissolve
     pause
     show ross 13
-    ross "Очень хорошо,Дорогая."
+    ross "Очень хорошо, Дорогая."
     show ross 11
-    ross "Теперь, {b}[firstname]{/b} и {b}Mia{/b}, почему бы вам двоим не присесть и не найти ваши угли."
+    ross "Теперь, {b}[firstname]{/b} и {b}Мия{/b}, почему бы вам двоим не присесть и не найти ваши угли."
     show ross 10
     show mia 75bf at Position(xpos=0.63, ypos=1.0) with dissolve
     mia "Хехехехеехехахаха!"
     mia "Все это так странно!!"
     show mia 74f at Position(xpos=0.65, ypos=1.0) with dissolve
     show ross 11
-    ross "Да,наверняка, моя сладенькая."
+    ross "Да, наверняка, моя сладенькая."
     show ross 13
-    ross "{b}Judith{/b} тебе нужно снять нижнее белье тоже, конфетка."
+    ross "{b}Джуди{/b} тебе нужно снять нижнее белье тоже, милая."
     show ross 12
     show judith 51f
     jud "Хмм?"
@@ -226,12 +226,12 @@ label button_ross_found_model:
     show judith 51f
     show mia 75bf at Position(xpos=0.63, ypos=1.0) with dissolve
     mia "Пффффф!!! Ахахахаха! Это такое смешное слово!"
-    mia "Кииииска!Хахахах!"
+    mia "Кииииска! Хахахах!"
     show mia 74f at Position(xpos=0.65, ypos=1.0) with dissolve
     show ross 11
-    ross "Хех, Успокойся, {b}Mia{/b}!"
+    ross "Хех, Успокойся, {b}Мия{/b}!"
     show ross 25
-    ross "Ты все еще чувствуешь себя стеснительно, {b}Judith{/b}?"
+    ross "Ты всё ещё чувствуешь себя стеснительно, {b}Джуди{/b}?"
     show ross 24
     jud "Мммхмм..."
     show ross 11
@@ -247,7 +247,7 @@ label button_ross_found_model:
     show player 13f
     show ross 11
     ross "Мы просто разденемся до нашего нижнего белья.."
-    ross "That should be good enough, right {b}Judith{/b}?"
+    ross "Это должно быть достаточно хорошо, верно {b}Джуди{/b}?"
     show ross 10
     show judith 55f
     jud "... Да! Я хочу посмотреть на нижнее белье {b}[firstname]{/b}'s!"
@@ -268,7 +268,7 @@ label button_ross_found_model:
     ross "Давайте вы оба..."
     show ross 37
     show mia 75f with dissolve
-    mia "... Подождите!Я?"
+    mia "... Подождите! Я?"
     show mia 74f
     show ross 36
     ross "Особенно ты, золотце!"
@@ -306,7 +306,7 @@ label button_ross_found_model:
     ross "Мы ждем, {b}[firstname]{/b}."
     show ross 37
     show player 21f
-    player_name "Д-да.Хорошо!"
+    player_name "Д-да. Хорошо!"
     show player 8f with dissolve
     pause
     show player 265f with dissolve
@@ -324,7 +324,7 @@ label button_ross_found_model:
     show judith 54f
     show player 265bf
     show ross 36
-    ross "Это точно,дорогая."
+    ross "Это точно, дорогая."
     ross "... Ты все еще должна снять эти трусики, прежде чем мы сможем нарисовать тебя."
     show ross 37
     show judith 55f
@@ -334,7 +334,7 @@ label button_ross_found_model:
     ross "Вот,я помогу!"
     hide ross
     show judith 61f at Position(xpos=0.22, ypos=1.0) with dissolve
-    pause 
+    pause
     show judith 62f with dissolve
     pause
     hide judith
@@ -357,7 +357,7 @@ label button_ross_found_model:
 
     scene location_school_art_cutscene08
     with fade
-    show text "Я могу сказать что {b}Judith{/b}  по прежнему нервничала что {b}Miss Ross{/b} помогла ей подняться на пьедестал." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я могу сказать что {b}Джуди{/b} по прежнему нервничала, что {b}Мисс Росс{/b} помогла ей подняться на пьедестал." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Было очень смело от нее моделировать аудиторию." at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -382,7 +382,7 @@ label button_ross_found_model:
     with dissolve
     show judith 65b
     ross "Шшшш."
-    ross "Все в порядке, {b}Judith{/b}."
+    ross "Все в порядке, {b}Джуди{/b}."
     hide ross
     show judithross 2 zorder 0 at Position(xpos=0.685, ypos=1.0)
     with dissolve
@@ -394,19 +394,19 @@ label button_ross_found_model:
     show judithross 1
     pause
     show judithross 2
-    ross "Ты красивый ангел, {b}Judith{/b}."
+    ross "Ты красивый ангел, {b}Джуди{/b}."
     show judithross 1
     show judith 66
     jud "... Я?"
     show judithross 2
     show judith 65b
-    ross "О,да! Ты поразительная, сладкая!"
+    ross "О, да! Ты поразительная, сладкая!"
     show judithross 1
     pause
     hide judithross
     show judith 67 at Position(xpos=0.4, ypos=1.0)
     with dissolve
-    ross "Расправь свои крылья, {b}Judith{/b}."
+    ross "Расправь свои крылья, {b}Джуди{/b}."
     ross "Пусть весь мир увидит,как ты летаешь!"
     show judith 68b
     show ross 36f at Position(xpos=0.65, ypos=1.0)
@@ -429,15 +429,13 @@ label button_ross_found_model:
     show judith 69b
     jud "Х-хорошо..."
 
-
-
     scene location_school_art_cutscene07
     with fade
-    show text "{b}Miss Ross{/b} определенно сделала {b}Judith{/b} более комфортно." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Мисс Росс{/b} определенно сделала {b}Джуди{/b} более комфортно." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "... И она дала мне идеальное вдохновение для моего рисунка!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Хотя было немного трудно сконцентрироваться на моей работе с {b}Miss Ross{/b} находящейся за моей спиной..." at Position (xpos=512, ypos=700) with dissolve
+    show text "Хотя было немного трудно сконцентрироваться на моей работе с {b}Мисс Россs{/b} находящейся за моей спиной..." at Position (xpos=512, ypos=700) with dissolve
     pause
     hide text
     with dissolve
@@ -453,7 +451,7 @@ label button_ross_found_model:
     show ross 36f
     ross "Ну посмотри!"
     ross "Иногда тебе придется на самом деле потрогать руками свой обьект и почувствовать форму."
-    ross "... И у {b}Judith{/b} здесь такие прекрасные контуры!"
+    ross "... И у {b}Джуди{/b} здесь такие прекрасные контуры!"
     hide ross
     show judith 70
     with dissolve
@@ -515,10 +513,10 @@ label button_ross_found_model:
     player_name "Я не уверен..."
     show mia 82 zorder 1 at Position(xpos=0.35, ypos=1.0) with dissolve
 
-    mia "Я думаю что я поняла, {b}Miss Ross{/b}!"
+    mia "Я думаю что я поняла, {b}Мисс Росс{/b}!"
     show mia 81
     show ross 36f with dissolve
-    ross "Хорошо,тогда ты можешь помочь мне показать ему."
+    ross "Хорошо, тогда ты можешь помочь мне показать ему."
     show ross 36 with dissolve
     ross "Поднимайся сюда и присоединяйся к нам, {b}[firstname]{/b}!"
     show ross 37
@@ -557,9 +555,9 @@ label button_ross_found_model:
     show rossg 1 with dissolve
     ross "Очень хорошо, {b}[firstname]{/b}!"
     show rossg 2
-    ross "Теперь попробуем почувствовать, {b}Mia{/b}'s формы."
+    ross "Теперь попробуем почувствовать, формы {b}Мии{/b}."
     show rossg 3
-    player_name "I эмм..."
+    player_name "Я эмм..."
     show rossg 4
     mia "Все нормально!"
     mia "Почувствуй формы, {b}[firstname]{/b}!"
@@ -596,10 +594,10 @@ label button_ross_found_model:
     show player 100 zorder 0 at Position(xpos=0.35, ypos=1.0)
     show principal 3 at right
     with dissolve
-    ross "{b}директриса Smith{/b}! Я просто обучала студентов некоторым техникам искусства..."
+    ross "{b}Директриса Смит{/b}! Я просто обучала студентов некоторым техникам искусства..."
     show ross 38
     show principal 38
-    smi "ТЕХНИКИ ИСКУССТВА?!?! Я ВЫГЛЯЖУ, НА ИДИОТКУ ПО ТВОЙМУ?!"
+    smi "ТЕХНИКИ ИСКУССТВА?!?! Я ПОХОЖА НА ИДИОТКУ ПО ВАШЕМУ?!"
     show ross 39
     show principal 3
     ross "Конечно, мы просто-"
@@ -613,7 +611,7 @@ label button_ross_found_model:
     show principal 34 zorder 3 at Position(xpos=0.65, ypos=1.0)
     with dissolve
     show ross 38
-    smi "ПРОСТО НАДЕНЬТЕ КАКУЮ-НИБУДЬ ОДЕЖДУ,ВСЕ ВЫ!" with hpunch
+    smi "ПРОСТО НАДЕНЬТЕ КАКУЮ-НИБУДЬ ОДЕЖДУ, ВСЕ ВЫ!" with hpunch
 
     hide mia
     hide player
@@ -632,13 +630,13 @@ label button_ross_found_model:
     show player 8 zorder 0 at Position(xpos=0.35, ypos=1.0)
     with dissolve
     show principal 27
-    smi "Тебе лучше иметь чертовски хорошее объяснение этому, {b}Barbara{/b}!"
+    smi "Тебе лучше иметь чертовски хорошее объяснение этому, {b}Барбара{/b}!"
     show mia 45
     show player 11 at Position(xpos=0.38, ypos=1.0)
     with dissolve
     show ross 25
     show principal 29
-    ross "{b}Mia{/b} и я помогали {b}[firstname]{/b} здесь с практикой."
+    ross "{b}Мия{/b} и я помогали {b}[firstname]{/b} здесь с практикой."
     ross "Пытались подготовить его к-"
     show ross 24
     ross "..."
@@ -650,30 +648,30 @@ label button_ross_found_model:
     show mia 45
     show ross 25
     ross "К подарку!"
-    ross "... Он собирался что-то нарисовать для тебя, {b}директриса Smith{/b}!"
+    ross "... Он собирался что-то нарисовать для вас, {b}директриса Смит{/b}!"
     show ross 24
     pause
     show ross 25
     ross "Подарок,чтобы повесить в твоем кабинете!"
     show ross 24
     show principal 27
-    smi "Подарок?!Для меня?! Что, вроде портрета?"
+    smi "Подарок?! Для меня?! Что-то вроде портрета?"
     show principal 29
     show ross 25
-    ross "Ну,точно! если это то что ты хочешь..."
+    ross "Да, точно! Если это то что ты хочешь..."
     show principal 27
     show ross 24
     smi "Он так хорош?"
     show ross 25
     show principal 29
-    ross "Очень хорош,иди посмотри на себя!"
+    ross "Очень хорош, иди посмотри на себя!"
     show principal 41 with dissolve
     pause
     show principal 42
     smi "Что это за чертовщина?"
     show principal 41
     show mia 46
-    mia "О, это эмм... Это мое, Мэм."
+    mia "О, это эмм... Это моё, Мэм."
     mia "... Я не очень хороша."
     show mia 45
     smi "..."
@@ -683,7 +681,7 @@ label button_ross_found_model:
     show ross 25
     ross "Мои занятия не только для талантливых художников."
     ross "Они открыты для всех, у кого есть желание выразить себя через искусство."
-    ross "... И {b}Mia{/b} здесь есть большая любовь к искусств."
+    ross "... И {b}Мия{/b} здесь есть большая любовь к искусств."
     show ross 24
     show principal 42
     smi "Эм ммм..."
@@ -695,7 +693,7 @@ label button_ross_found_model:
     show principal 42
     smi "... И теперь ты просто работаешь, чтобы раскрыть его, мм?"
     smi "Хочешь попробовать на вкус?"
-    smi "... Я хорошо знаю твои методы {b}Barbara{/b}."
+    smi "... Я хорошо знаю твои методы {b}Барбара{/b}."
     hide principal
     show principal 43 at Position(xpos=0.7, ypos=1.0)
     with dissolve
@@ -751,7 +749,7 @@ label button_ross_found_model:
     smi "Без всяких глупостей!"
     show principal 29
     show ross 25
-    ross "О, безусловно!Все что вы захотите,Мэм."
+    ross "О, безусловно! Всё что вы захотите, Мэм."
     show principal 27
     show ross 24
     smi "Чертовски верно, все что я захочу!"

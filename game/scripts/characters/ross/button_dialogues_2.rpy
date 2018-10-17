@@ -15,7 +15,7 @@ label button_ross_make_collage:
     ross "О, безусловно!"
     show ross 56 with dissolve
     show mia 60b
-    ross "Мы сложные существа, {b}Mia{/b}."
+    ross "Мы сложные существа, {b}Мия{/b}."
     ross "Ты не поверишь насколько мощные оргазмы можно получить если нажаты правильные кнопки"
     show ross 56b
     mia "..."
@@ -44,7 +44,7 @@ label button_ross_make_collage:
     show player 1f
     with dissolve
     ross "Я это вижу..."
-    ross "Готовка,Мужской Ворк-аут, и..."
+    ross "Готовка, Мужской Ворк-аут, и..."
     show mia 61cf
     show ross 51
     with dissolve
@@ -57,11 +57,11 @@ label button_ross_make_collage:
     ross "Хаха, не извиняйся, {b}[firstname]{/b}!"
     ross "Секс - естественная и важная часть жизни."
     show ross 53b
-    ross "{b}Mia{/b} и я большие девочки, мы можем с этим справиться.Правда {b}Mia{/b}?"
+    ross "{b}Мия{/b} и я большие девочки, мы можем с этим справиться.Правда {b}Мия{/b}?"
     show ross 52b
     pause
     show ross 53b
-    ross "... {b}*Кхм*{/b} Правда, {b}Mia{/b}?!"
+    ross "... {b}*Кхм*{/b} Правда, {b}Мия{/b}?!"
 
     show ross 52b
     show mia 61bf
@@ -93,7 +93,7 @@ label button_ross_make_collage:
     show ross 13
     ross "Разве это не прекрасно?"
     show ross 13c
-    ross "Только посмотри на размер этого банана, {b}Mia{/b}!"
+    ross "Только посмотри на размер этого банана, {b}Мия{/b}!"
     show ross 12b
     show mia 60bf
     mia "..."
@@ -112,7 +112,7 @@ label button_ross_make_collage:
     player_name "... Наверное?"
     show ross 13
     show player 11f
-    ross "Все в порядке, используйте все время, которое вам необходимо."
+    ross "Всё в порядке, используйте все время, которое вам необходимо."
     show ross 13c
     ross "Я хочу чтобы вы оба очень внимательно смотрели..."
     show ross 13
@@ -126,18 +126,18 @@ label button_ross_make_collage:
     show player 11f
     show ross 12b
     show mia 61bf
-    mia "Да,Мэм."
+    mia "Да, Мэм."
     show ross 58 at Position(xpos=0.38, ypos=1.0) with dissolve
     ross "Очень хорошо! Просто делайте то, что кажется естественным."
 
 
     scene location_school_art_cutscene05
     with fade
-    show text "Я не совсем был  уверен, что {b}Miss Ross{/b} надеялась, что фрукты заставят меня почувствовать..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я не совсем был уверен, что {b}Мисс Россы{/b} надеялась, что фрукты заставят меня почувствовать..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "... Но мне было очень весело работать над мои коллажом!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Инетересно как {b}Mia{/b} сделала её?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Инетересно как {b}Мия{/b} сделала её?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -151,10 +151,10 @@ label button_ross_make_collage:
     ross "У тебя такое бурное воображение.!"
     show player 605
     show ross 26f
-    player_name "Спасибо, {b}Мисс Ross{/b}."
+    player_name "Спасибо, {b}Мисс Росс{/b}."
     show player 604
     show ross 27 at Position(xpos=0.35, ypos=1.0) with dissolve
-    ross "Как у тебя здесь дела {b}Mia{/b}?"
+    ross "Как у тебя здесь дела {b}Мия{/b}?"
 
     show ross 26
     show mia 12b zorder 2 at right
@@ -181,7 +181,7 @@ label button_ross_make_collage:
     ross "Это правильно сказанные слова, Дорогая!"
     show ross 10
     show mia 12
-    mia "Я пойду пожалуй,приму душ..."
+    mia "Я пойду пожалуй, приму душ..."
     show ross 11
     ross "Хехе, это хорошая идея."
     show ross 13
@@ -242,7 +242,7 @@ label button_ross_make_collage:
 
     show player 11
     show ross 56f at Position(xpos=0.37, ypos=1.0) with dissolve
-    ross "О,сладкий. У меня много талантов, о которых ты даже не знаешь.."
+    ross "О, сладкий. У меня много талантов, о которых ты даже не знаешь.."
     ross "Я провела год в Индии, изучая тантрический секс с буддийскими монахами."
     ross "Они научили меня, как преодолевать рвотный рефлекс."
     show player 10
@@ -257,14 +257,14 @@ label button_ross_make_collage:
     show ross 10f
     show player 2
     player_name "Да, это действительно хорошая идея."
-    player_name "Спасибо за урок, {b}Мисс Ross{/b}."
+    player_name "Спасибо за урок, {b}Мисс Росс{/b}."
     show player 1
     show ross 58f at Position(xpos=0.49, ypos=1.0) with dissolve
-    ross "О, не забудь забрать квиноа, о котором я упоминалА, когда будешь в магазине.!"
+    ross "О, не забудь забрать квиноа, о котором я упоминалА, когда будешь в магазине!"
     ross "Это очень полезно для тебя, {b}[firstname]{/b} и я хочу чтобы ты попробовал его!"
     show player 2
     show ross 10f at Position(xpos=0.55, ypos=1.0) with dissolve
-    player_name "Хорошо, {b}Miss Ross{/b}."
+    player_name "Хорошо, {b}Мисс Росс{/b}."
     return
 
 label button_ross_get_easels:
@@ -278,7 +278,7 @@ label button_ross_get_easels:
     mia "Впрочем разве это не больно?"
     show ross 11
     show mia 8b
-    ross "Нет, если все делать правильно.Немного разогрей духовку и не торопись, медленно."
+    ross "Нет, если все делать правильно. Немного разогрей духовку и не торопись, медленно."
     show ross 13
     ross "Это может чувствоваться чрезвычайно приятно!"
     show ross 12
@@ -305,7 +305,7 @@ label button_ross_get_easels:
     ross "Ты {b}уже закончил с мольбертами{/b}?"
     show player 2f
     show ross 10
-    player_name "Нет,все еще работаю над ними."
+    player_name "Нет, всё еще работаю над ними."
     show player 1f
     show ross 11
     ross "О, чтож кыш! у нас девчачьи разговоры!"
@@ -337,7 +337,7 @@ label button_ross_need_easels:
     show player 1f
     show ross 27
     ross "Я встретил милейшую даму в торговом центре прошлой ночью, и мы разговорились."
-    ross "Оказывется,она занималась некоторым обнаженным моделированием раньше, и она согласилась приехать сюда и помоделировать для нас."
+    ross "Оказывется, она занималась некоторым обнаженным моделированием раньше, и она согласилась приехать сюда и помоделировать для нас."
     show player 10f
     show mia 8b
     show ross 26
@@ -348,12 +348,12 @@ label button_ross_need_easels:
     show mia 55
     show ross 27
 
-    ross "Да!Также она собирается сделать это бесплатно!Я не могу в это поверить!"
+    ross "Да! Также она собирается сделать это бесплатно! Я не могу в это поверить!"
     show player 2f
     show ross 26
     player_name "Это прекрасно!"
     show player 17f
-    player_name "Разве это не отлично, {b}Mia{/b}?"
+    player_name "{b}Мия{/b}, разве это не отлично?"
     show player 13f
     show mia 56
     mia "Д-да, потрясающие"
@@ -397,7 +397,7 @@ label button_ross_need_easels:
     show mia 7f
     pause
     show ross 21
-    ross "... И это даст {b}Mia{/b} и мне времени для более девчачьего разговора!"
+    ross "... И это даст {b}Мии{/b} и мне времени для более девчачьего разговора!"
     show mia 8f
     pause
     show ross 10f zorder 0 at Position(xpos=0.55, ypos=1.0)
@@ -410,7 +410,7 @@ label button_ross_need_easels:
     show player 2f
     show mia 8bf
     player_name "Хмм?"
-    player_name "Нет, все нормально.Я смогу справиться с мольбертами, без проблем."
+    player_name "Нет, все нормально. Я смогу справиться с мольбертами, без проблем."
     show player 17f
     player_name "Просто повеселитесь!"
     show player 1f
@@ -427,7 +427,7 @@ label button_ross_need_easels:
     hide player
     show player 34
     with dissolve
-    player_name "( Хмм,построить пару мольбертов должно быть достаточно просто. )"
+    player_name "( Хмм, построить пару мольбертов должно быть достаточно просто. )"
     player_name "( {b}Инструменты отца должны быть в моем гараже, и я могу найти доски в старом доме Эрика{/b}! )"
 
     return
@@ -437,8 +437,8 @@ label button_ross_has_easels:
     show ross 13 zorder 2 at left
     show mia 8b zorder 1 at Position(xpos=0.435, ypos=1.0)
     with dissolve
-    ross "... О, конечно.Раньше я уже делала это два раза подряд."
-    ross "Даже одновременно три.Ну, вообще-то пару раз..."
+    ross "... О, конечно. Раньше я уже делала это два раза подряд."
+    ross "Даже одновременно три. Ну, вообще-то пару раз..."
     show ross 11
     show mia 8
     ross "Некоторым девушкам это действительно нравится, но я нахожу это слишком подавляющим..."
@@ -455,7 +455,7 @@ label button_ross_has_easels:
     mia "Хорошо, но разве ты не ревнуешь?"
     show ross 13
     show mia 8b
-    ross "Ревновать?! Ни в коем случае! Я люблю смотреть!Это искуство в движении, Дорогая!"
+    ross "Ревновать?! Ни в коем случае! Я люблю смотреть! Это искуство в движении, Дорогая!"
     show ross 12
     show player 1f zorder 2 at right with dissolve
     mia "..."
@@ -475,13 +475,13 @@ label button_ross_has_easels:
     show mia 7f at Position(xpos=0.34, ypos=1.0) with dissolve
     ross "Художник до мозга костей!"
     show ross 11
-    ross "Эти отлично сработают!Просто позволь мне пойти, проверить нашу модель."
+    ross "Эти отлично сработают! Просто позволь мне пойти, проверить нашу модель."
     hide ross
     show mia 7f at Position(xpos=0.55, ypos=1.0)
     with dissolve
     show player 2f
 
-    player_name "Итак ты хорошо провела время с {b}Miss Ross{/b}?"
+    player_name "Итак ты хорошо провела время с {b}Мисс Росс{/b}?"
     show player 1f
     show mia 10f
     mia "На самом деле, Да."
@@ -489,7 +489,7 @@ label button_ross_has_easels:
     mia "Думаю, я начинаю к ней привыкать."
     show player 2f
     show mia 7f
-    player_name "Видишь,Я знал,что ты сможешь!"
+    player_name "Видишь, я знал,что ты сможешь!"
     show player 1f
     show mia 10f
     mia "Она немного эксцентрична, но она также так хорошо знаюшая!"
@@ -517,7 +517,7 @@ label button_ross_has_easels:
     show ross 23
     ross "Да!"
     ross "Видимо, она думала, что я собираюсь заплатить ей."
-    ross "Я никогда не говорил ей,этого!"
+    ross "Я никогда не говорил ей, этого!"
     show ross 22
     show player 10f
     player_name "Ну и что теперь?"

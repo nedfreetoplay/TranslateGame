@@ -18,7 +18,7 @@ label button_ross_office_generic_post_hscene:
     show ross 10 at left
     show player 2f at right
     with dissolve
-    player_name "Хэй, {b}Miss Ross{/b}!"
+    player_name "Хэй, {b}Мисс Росс{/b}!"
     show player 1f
     show ross 27 with dissolve
     ross "{b}[firstname]{/b}! Я так рада тебя видеть!"
