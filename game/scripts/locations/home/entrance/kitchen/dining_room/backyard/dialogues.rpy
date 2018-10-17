@@ -79,7 +79,7 @@ label backyard_mom_midnight_swim:
 
     scene home_backyard_pool_c
     show debbie 214
-    deb "Хаха! Даже не знаю, что с тобой делать, {b}Diane{/b}!"
+    deb "Хаха! Даже не знаю, что с тобой делать, {b}Диана{/b}!"
     show debbie 212
     dia "Хмм, ну, у меня есть несколько предложений..."
     show debbie 214
@@ -95,7 +95,7 @@ label backyard_mom_midnight_swim:
     show debbie 215
     dia "Я тебе говорю, {b}[deb_name]{/b}. Из-за этого нового нососа у меня муражки по все спине!"
     show debbie 213
-    deb "Ты такая грязная, {b}Diane{/b}!"
+    deb "Ты такая грязная, {b}Диана{/b}!"
     show debbie 211
     dia "Да, и я горжусь этим! Разве весело быть хорошей девочкой?!"
     show debbie 214
@@ -391,9 +391,9 @@ label mom_pool_dialogue:
     $ game.main()
 
 label mom_finger_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     hide player finger
     $ animcounter = 0
     while animcounter < 4:

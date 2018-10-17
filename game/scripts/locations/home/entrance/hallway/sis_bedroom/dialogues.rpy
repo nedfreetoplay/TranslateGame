@@ -795,7 +795,7 @@ label sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_fail:
     show jennysex 87
     jen "[str_warn]Да что с тобой не так?!"
     show jennysex 88
-    jen "[str_warn]Я ведт могу {b}ЗАБЕРЕМЕНИТЬ{/b}, знаешь??! ИДИОТ!!"
+    jen "[str_warn]Я ведь могу {b}ЗАБЕРЕМЕНИТЬ{/b}, знаешь??! ИДИОТ!!"
     show jennysex 89
     player_name "Я..."
     player_name "Я прошу прощения!!"

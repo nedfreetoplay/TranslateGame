@@ -66,7 +66,7 @@ label telescope_mrsj_sister_spying:
     show jenny 140 at Position(ypos=229)
     pause
     show windowmrsjday 3c-d with dissolve
-    jen "{b}Mrs. Johnson{/b}?!!"
+    jen "{b}Миссис Джонсон{/b}?!!"
     jen "Ну, блин..."
     jen "Она озорная, не так ли?"
     scene location_home_bedroom_telescope_window

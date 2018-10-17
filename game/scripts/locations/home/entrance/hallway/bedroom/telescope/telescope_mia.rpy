@@ -17,7 +17,7 @@ label telescope_mia_sister_spying:
     scene
     show windowmiaday 3
     player_name "( О бог... )"
-    player_name "( Что {b}Mia{/b} делает? )"
+    player_name "( Что {b}Мия{/b} делает? )"
     player_name "( Надеюсь, ее не поймают за этим... )"
     hide windowmiaday
     hide screen telescope
@@ -137,7 +137,7 @@ label telescope_mia_night_2:
         player_name "( Что она делает? )"
         player_name "..."
         player_name "( Она... )"
-        player_name "( ...Трахает своего {b}Teddy Bear{/b}? )"
+        player_name "( ...Трахает своего {b}плюшевого мишку{/b}? )"
         player_name "( Вау... )"
         player_name "( Это реально круто- )"
         scene windowmianight03c with hpunch

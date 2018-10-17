@@ -147,7 +147,7 @@ label bedroom_mia_angelicas_impatience:
     deb "Тут кто-то пришел к тебе."
     show debbie 1f
     show player 30f
-    player_name "{b}Erik{/b}?"
+    player_name "{b}Эрик{/b}?"
     show player 11f
     show debbie 2f
     deb "Нет, милый. Это дама!"
@@ -429,7 +429,7 @@ label bedroom_bissette_do_poem_assignment:
     scene expression game.timer.image("bedroom{}")
     show player 511 with dissolve
     player_name "Наконец-то!"
-    player_name "Надеюсь этого хватит, чтобы впечатлить {b}Ms. Bissette{/b}..."
+    player_name "Надеюсь этого хватит, чтобы впечатлить {b}Мисс Биссетта{/b}..."
     player_name "Нужно просто {b}Распечатать{/b} это в {b}компьютерном классе{/b} и дело с концом."
     hide player with dissolve
     return
@@ -455,7 +455,7 @@ label mia_midnight_text:
 label mia_midnight_text_dialogue:
     scene expression game.timer.image("bedroom{}")
     show player 442 with dissolve
-    player_name "{b}Mia{/b}!? Просит...помощи?"
+    player_name "{b}Мия{/b}!? Просит...помощи?"
     player_name "Это что ещё за хрень?"
     player_name "Она попала в беду?"
     show player 443
@@ -537,7 +537,7 @@ label bedroom_sleeping_jerk_off_roxxy:
     player_name "Ха... Хааа..."
     player_name "Ооо боже, мне так хорошо..."
     pause
-    player_name "{b}Roxxy{/b} так горяча!"
+    player_name "{b}Рокси{/b} так горяча!"
     return
 
 
@@ -595,7 +595,7 @@ label bedroom_sleeping_jerk_off_mia:
     show player 496 zorder 0 at Position(xpos=0.3375, ypos=0.875)
     pause
     show player 496b
-    player_name "{b}Mia{/b} такая милай!"
+    player_name "{b}Мия{/b} такая милай!"
     player_name "Как же я хочу снова её увидеть..."
     pause
     player_name "... Её прекрасное тело."

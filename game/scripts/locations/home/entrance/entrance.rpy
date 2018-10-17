@@ -112,11 +112,11 @@ label home_entrance:
 label vacuum_dialogue:
     call expression game.dialog_select("entrance_mom_vacuum")
     menu:
-        "Let me help.":
+        "Позволь помочь.":
             call expression game.dialog_select("entrance_mom_vacuum_yes")
             $ game.timer.tick()
             $ M_mom.trigger(T_mom_vacuumed)
-        "It's too loud.":
+        "Это слишком громко.":
             call expression game.dialog_select("entrance_mom_vacuum_no")
     $ M_mom.set("chores", False)
     $ game.main()

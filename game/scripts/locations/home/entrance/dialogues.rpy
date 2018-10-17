@@ -7,8 +7,8 @@ label entrance_erik_bullying:
     show mrsj 19
     mrsjo "Извени что беспокою тебя утром."
     show mrsj 52
-    mrsjo "Просто...это насчет {b}Erik{/b}."
-    mrsjo "У {b}Erik{/b} были проблемы в последнее время в школе?"
+    mrsjo "Просто...это насчет {b}Эрика{/b}."
+    mrsjo "У {b}Эрика{/b} были проблемы в последнее время в школе?"
     show mrsj 19c
     show player 12
     player_name "Эээ?"

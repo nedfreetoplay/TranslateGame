@@ -24,8 +24,8 @@ label telescope_helen_night_1:
 label telescope_helen_night_2:
     scene location_telescope_helen_night02
     player_name "( О, боже. )"
-    player_name "( Похоже, {b}Helen{/b} злится на него... )"
+    player_name "( Похоже, {b}Хелен{/b} злится на него... )"
     player_name "..."
-    player_name "( {b}Harold{/b} всегда выглядит грустным... )"
+    player_name "( {b}Гарольд{/b} всегда выглядит грустным... )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

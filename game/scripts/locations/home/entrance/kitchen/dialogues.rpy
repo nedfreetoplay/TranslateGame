@@ -9,7 +9,7 @@ label kitchen_sis_telescope_1:
     show player 10
     player_name "Не думаю, что у меня есть время, {b}[deb_name]{/b}."
     if game.timer.is_weekend():
-        player_name "Я должен встретиться с {b}Erik{/b}..."
+        player_name "Я должен встретиться с {b}Эриком{/b}..."
     else:
         player_name "Желательно ещё и в школу не опоздать."
     show player 11
@@ -77,7 +77,7 @@ label kitchen_mom_start:
     player_name "Хмм, я знаю не так много о садоводстве, {b}[deb_name]{/b}..."
     show player 11
     show debbie 3
-    deb "Да ладно, это же просто! {b}Diane{/b} всему тебя научит, а может ещё и заплатит, если будешь стараться!"
+    deb "Да ладно, это же просто! {b}Диана{/b} всему тебя научит, а может ещё и заплатит, если будешь стараться!"
     show debbie 2
     deb "Это может стать неплохим способом {b}заработать денег на коледж{/b}, что думаешь?"
     show player 10
@@ -364,7 +364,7 @@ label kitchen_mom_diane_visit:
     dia "... И как он?"
     show diane 124
     show debbie 60f
-    deb "Diane!!"
+    deb "Диана!!"
     show diane 122
     show debbie 59f
     dia "Что?!"
@@ -613,7 +613,7 @@ label kitchen_mom_kissing_practice:
     pause
     show debbie 78 at Position(xpos=0.80, ypos=1.0) with dissolve
     show player 233 at Position(xpos=0.30, ypos=1.0) with dissolve
-    pause 
+    pause
     show debbie 77
     pause
     show debbie 74

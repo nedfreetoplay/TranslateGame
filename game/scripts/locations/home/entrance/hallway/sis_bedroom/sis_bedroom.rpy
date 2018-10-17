@@ -29,7 +29,7 @@ label sis_bedroom_dialogue:
             $ bedtable01_count = 1
             if player.has_money(100):
                 menu:
-                    "Here's $100.":
+                    "Вот $100.":
                         $ player.spend_money(100)
                         $ player.get_item("panties")
                         $ sis_panty01.finish()
@@ -39,14 +39,14 @@ label sis_bedroom_dialogue:
                         $ sis_panties_trade = True
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_buy_panties")
                         jump expression game.dialog_select("hallway_dialogue")
-                    "I don't need it.":
+                    "Мне это совсем не нужно.":
 
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_do_not_buy_panties")
                         jump expression game.dialog_select("hallway_dialogue")
             else:
 
                 menu:
-                    "I don't have enough.":
+                    "У меня нет достаточного количества.":
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_cant_buy_panties")
                         jump expression game.dialog_select("hallway_dialogue")
 

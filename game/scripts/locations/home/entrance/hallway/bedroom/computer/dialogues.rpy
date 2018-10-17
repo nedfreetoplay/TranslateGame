@@ -14,7 +14,7 @@ label egay_search_dialogue:
 label egay_search_dialogue_erik_orcette_started:
     scene player_computer_bg
     show player_computer_egay_search
-    player_name "( Хм... Думаю, я должен просто ввести название предмета, который хотел {b}Erik{/b}. )"
+    player_name "( Хм... Думаю, я должен просто ввести название предмета, который хотел {b}Эрик{/b}. )"
     player_name "( Что это было снова? )"
     hide player_computer_egay_search
     hide player_computer_bg
