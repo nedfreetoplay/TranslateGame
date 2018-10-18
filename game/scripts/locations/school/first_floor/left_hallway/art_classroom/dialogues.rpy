@@ -2,7 +2,7 @@ label art_classroom_ross_start:
     scene location_school_art_closeup
     show player 2f at right
     show ross 1 at left
-    player_name "Привет, {b}Miss Ross{/b}."
+    player_name "Привет, {b}Мисс Росс{/b}."
     show player 1f
     show ross 2
     ross "Ну привет, {b}[firstname]{/b}!"
@@ -35,12 +35,12 @@ label art_classroom_ross_start:
     player_name "Хех, Да, наверно..."
     show player 1f
     show ross 11
-    ross "I'm certain we can come up with some way to improve your grade."
+    ross "Я уверен, что мы сможем каким-то образом улучшить наш класс."
     show ross 2 with dissolve
     ross "Почему бы нам не поговорить об этом сегодня после занятий?"
     show player 2f
     show ross 1
-    player_name "Звучит здорово! Большое спасибо, {b}Miss Ross{/b}!"
+    player_name "Звучит здорово! Большое спасибо, {b}Мисс Росс{/b}!"
     show player 1f
     show ross 2
     ross "Тогда иди {b}возьми глиняную плиту{/b} и присядь, чтобы мы могли начать предклассовую медитацию."
@@ -66,21 +66,21 @@ label art_classroom_mia_find_easel:
 
 label easel_dialogue_mia_show_tattoo:
     show player 14 with dissolve
-    player_name "( Сначала я должен показать рисунок, который я сделал для {b}Mia{/b}, прежде чем я сделаю еще один. )"
+    player_name "( Сначала я должен показать рисунок, который я сделал для {b}Мии{/b}, прежде чем я сделаю еще один. )"
     hide player with dissolve
     return
 
 label easel_dialogue_mia_draw_tattoo_intro:
     scene school_art_tattoos
     player_name "Хмм..."
-    player_name "( Что я должен нарисовать для {b}Mia{/b}... )"
+    player_name "( Что я должен нарисовать для {b}Мии{/b}... )"
     return
 
 label easel_dialogue_mia_draw_tattoo_drawn:
     hide player with dissolve
     scene school_art_cs01
     with fade
-    show text "Я и раньше рисовал много картин...\n...Но, делая что-то подобное для {b}Mia{/b} заставило меня очень нервничать!\nНадеюсь, она этого хочет..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я и раньше рисовал много картин...\n...Но, делая что-то подобное для {b}Мии{/b} заставило меня очень нервничать!\nНадеюсь, она этого хочет..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -90,7 +90,7 @@ label easel_dialogue_mia_draw_tattoo_drawn:
     show player 381 with dissolve
     player_name "Неплохо!"
     show player 386
-    player_name "( Я должен пойти и показать {b}Mia{/b} что получилось. )"
+    player_name "( Я должен пойти и показать {b}Мии{/b} что получилось. )"
     player_name "( Надеюсь, ей понравится...)"
     hide player with dissolve
     return
@@ -146,7 +146,7 @@ label art_classroom_ross_molding_clay_cutscene:
     show ross 13
     ross "Может, нам стоит начать после школы-"
     show ross 12
-    smi "{b}Ross{/b}!!!" with hpunch
+    smi "{b}Росс{/b}!!!" with hpunch
     show ross 24
     show player 22f
     smi "Где ты, ты Утка!?"
@@ -181,7 +181,7 @@ label art_classroom_ross_molding_clay_cutscene:
     smi "Тебе придется обходиться без этого."
     show ross 25
     show principal 26
-    ross "{b}Principal Smith{/b}, нам нужны эти принадлежности! Наше оборудование разгромлено!"
+    ross "{b}Директриса Смит{/b}, нам нужны эти принадлежности! Наше оборудование разгромлено!"
     show ross 24
     show principal 27
     smi "Я не могу дать тебе то, чего у меня нет, не так ли?"
@@ -196,7 +196,7 @@ label art_classroom_ross_molding_clay_cutscene:
     show ross 24
     show principal 27
     smi "Да, конечно..."
-    smi "Ответ НЕТ, {b}Barbara{/b}!"
+    smi "Ответ НЕТ, {b}Барбара{/b}!"
     smi "Тебе просто придется пережить это."
     hide principal
     with dissolve
@@ -212,13 +212,13 @@ label art_classroom_ross_molding_clay_cutscene:
     pause
     show mia 12b zorder 0 at Position(xpos=0.65, ypos=1.0) with dissolve
 
-    mia "Все в порядке, {b}Miss Ross{/b}?"
+    mia "Все в порядке, {b}Мисс Росс{/b}?"
     show ross 11
     show mia 8b
-    ross "О, привет, {b}Mia{/b}."
+    ross "О, привет, {b}Мия{/b}."
     show ross 10
     show mia 12b
-    mia "Я слышала, как {b}Principal Smith{/b} кричала на тебя..."
+    mia "Я слышала, как {b}Директриса Смит{/b} кричала на тебя..."
     show mia 8b
     show player 10f
     player_name "Да, это определенно звучит не очень хорошо."
@@ -235,7 +235,7 @@ label art_classroom_ross_molding_clay_cutscene:
     mia "Они не могут просто взять и закрыть класс рисования, да?"
     show ross 25
     show mia 8b
-    ross "Я не могу пойти против {b}Principal Smith{/b}.  Она не уважает то, чему я учу."
+    ross "Я не могу пойти против {b}Директриса Смит{/b}.  Она не уважает то, чему я учу."
     show ross 25b
     ross "Если бы я только могла найти способ немного увеличить финансирование..."
     show ross 24
@@ -270,7 +270,7 @@ label art_classroom_ross_molding_clay_cutscene:
     show player 10f
     player_name "Награда за первое место 1000 долларов, хух?"
     show player 2f
-    player_name "{b}Miss Ross{/b}, вы должны участвовать!"
+    player_name "{b}Мисс Росс{/b}, вы должны участвовать!"
     show player 1f
     show ross 27 with dissolve
     ross "О небеса, нет! У меня не было бы шанса выиграть что-то подобное..."
@@ -294,7 +294,7 @@ label art_classroom_ross_molding_clay_cutscene:
     mia "Ты сможешь, {b}[firstname]{/b}!"
     show mia 7
     show ross 11
-    ross "Видишь, {b}Mia{/b} верит в тебя! Надо попробовать!"
+    ross "Видишь, {b}Мия{/b} верит в тебя! Надо попробовать!"
     show player 10f
     show ross 10
     player_name "Я не..."
@@ -334,7 +334,7 @@ label art_classroom_ross_molding_clay_cutscene:
     ross "Хорошо, {b}[firstname]{/b}?"
     show ross 10
     show player 10f
-    player_name "Хорошо, {b}Miss Ross{/b}. До завтра."
+    player_name "Хорошо, {b}Мисс Росс{/b}. До завтра."
 
     $ game.timer.tick()
     $ M_ross.trigger(T_ross_molded_clay)
@@ -370,7 +370,7 @@ label player_ross_magazines_2_left:
 
 label player_ross_magazines_1_left:
     show player 14 with dissolve
-    player_name "Вот и все! У меня хватает журналов, чтобы начать работать над художественным коллажем {b}Miss Ross{/b}!"
+    player_name "Вот и все! У меня хватает журналов, чтобы начать работать над художественным коллажем {b}Мисс Росс{/b}!"
     hide player with dissolve
     $ player.remove_item("magazines2")
     $ player.get_item("magazines")

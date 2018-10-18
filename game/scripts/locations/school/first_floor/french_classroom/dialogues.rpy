@@ -5,7 +5,7 @@ label french_classroom_bissette_intro:
     bis "Вот ты где!"
     show player 2 at left
     show teacher 1 at right
-    player_name "Здрасте, {b}Miss Bissette{/b}!"
+    player_name "Здрасте, {b}Мисс Биссетт{/b}!"
     show player 2 at left
     show teacher 5 at right
     bis "Слушай, {b}[firstname]{/b},  я знаю, что у тебя были кое-какие личные дела, о которых нужно позаботиться, и именно поэтому ты отсутствовал в последнее время..."
@@ -25,7 +25,7 @@ label french_classroom_bissette_intro:
     bis "Если тебе что-нибудь понадобится, дай мне знать."
     show teacher 1
     show player 14
-    player_name "Спасибо, {b}Miss Bissette{/b}."
+    player_name "Спасибо, {b}Мисс Биссетт{/b}."
     show player 5
     show teacher 3
     bis "Ой! Это напоминает мне!"
@@ -54,7 +54,7 @@ label french_classroom_bissette_intro:
 
     scene french_class_cs9
     with fade
-    show text "{b}Miss Bissette{/b}сделала объявление.\nОна планировала наградить ученика, который показал наибольшее улучшение в классе после финального теста.\nОна даже предлагала частные уроки всем, кто был заинтересован." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "{b}Мисс Биссетт{/b} сделала объявление.\nОна планировала наградить ученика, который показал наибольшее улучшение в классе после финального теста.\nОна даже предлагала частные уроки всем, кто был заинтересован." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -119,7 +119,7 @@ label french_classroom_bissette_intro:
 label french_classroom_bissette_tutoring:
     scene french_class_c
     show player 5 with dissolve
-    player_name "( Я должен поговорить с {b}Miss Bissette{/b} о персональных занятиях. )"
+    player_name "( Я должен поговорить с {b}Мисс Биссетт{/b} о персональных занятиях. )"
     player_name "( Мне понадобится помощь, если я хочу сдать французский. )"
     hide player with dissolve
     return
@@ -129,7 +129,7 @@ label french_classroom_bissette_study:
     show teacher 1 at right
     show player 14 at left
     with dissolve
-    player_name "Ладно, я готов начать урок, {b}Miss Bissette{/b}."
+    player_name "Ладно, я готов начать урок, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 3
     bis "Гениально!"
@@ -255,7 +255,7 @@ label french_classroom_bissette_study:
     bis "Au revoir!"
     show teacher 9
     show desk 2
-    player_name "Спокойной ночи, {b}Miss Bissette{/b}."
+    player_name "Спокойной ночи, {b}Мисс Биссетт{/b}."
     hide desk
     hide teacher
     with dissolve
@@ -266,7 +266,7 @@ label french_classroom_bissette_smith_report:
     show teacher 4 at right
     show principal 28f at left
     with dissolve
-    smi "{b}Miss Bissette{/b}, Я ожидала твой промежуточный отчет на моем столе сегодня утром."
+    smi "{b}Мисс Биссетт{/b}, Я ожидала твой промежуточный отчет на моем столе сегодня утром."
     show principal 29f
     show teacher 15
     with dissolve
@@ -294,7 +294,7 @@ label french_classroom_bissette_smith_report:
     smi "Все понятно?!"
     show principal 29f with dissolve
     show teacher 5
-    bis "...O-oui, {b}Directrice Smith{/b}."
+    bis "...о да, {b}Директриса Смит{/b}.(франц.)"
     hide principal with dissolve
     show teacher 20
     pause
@@ -303,10 +303,10 @@ label french_classroom_bissette_smith_report:
     show teacher 18f with dissolve
     pause
     show player 10 at left with dissolve
-    player_name "{b}Miss Bissette{/b}?"
+    player_name "{b}Мисс Биссетт{/b}?"
     show player 5
     show teacher 5 at right with dissolve
-    bis "Oh, mon Dieu!"
+    bis "Боже мой!!(франц.)"
     show teacher 1
     show player 11
     player_name "..."
@@ -318,7 +318,7 @@ label french_classroom_bissette_smith_report:
     show player 12
     player_name "Все в порядке?"
     show teacher 4
-    player_name "Я слышал крики {b}Principal Smith{/b} в коридоре..."
+    player_name "Я слышал крики {b}Директриса Смит{/b} в коридоре..."
     show player 5
     show teacher 5
     bis "Oui. Она просто хочет, чтобы вы, студенты, проявляли больше интереса к французкому."
@@ -410,7 +410,7 @@ label french_classroom_bissette_hand_in_assignment:
 
     scene french_class_cs14
     with fade
-    show text "Я чувствовал, что неплохо разбираюсь во французском.\nС каждым днем я понимал все больше и больше.\nЧастные уроки с {b}Miss Bissette{/b} определенно сделали язык более интересным." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я чувствовал, что неплохо разбираюсь во французском.\nС каждым днем я понимал все больше и больше.\nЧастные уроки с {b}Мисс Биссетт{/b} определенно сделали язык более интересным." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -448,9 +448,9 @@ label french_classroom_bissette_hand_in_assignment:
     show desk 19 with dissolve
     bis "...И я так горжусь тобой."
     show desk 20 with dissolve
-    bis "Oh, mon Dieu!"
+    bis "Боже мой!"
     bis "Все эти новые знания растут..."
-    bis "Ce qu'il est enorme ce lapin..."
+    bis "{i}Что это за огромный кролик{/i}..."
     show desk 19 with dissolve
     player_name "..."
     show desk 14 with dissolve
@@ -458,7 +458,7 @@ label french_classroom_bissette_hand_in_assignment:
     show desk 15
     player_name "Что, если кто-то..."
     show desk 14
-    bis "Aww, Tellement mignon..."
+    bis "{i}Все, так мило{/i}..."
     show desk 17 with dissolve
     bis "Не стоит беспокоиться."
     show desk 18 with dissolve

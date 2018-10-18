@@ -7,7 +7,7 @@ label boys_lockerroom_roxxy_shower_event:
     rox "... И тогда он сказал мне самой решать мои проблемы!"
     show roxxy 16
     show becca 2
-    becca "Не могу поверить, что на самом деле {b}Dexter{/b} просто пугливый мальчишка!"
+    becca "Не могу поверить, что на самом деле {b}Декстер{/b} просто пугливый мальчишка!"
     show becca 1
     show roxxy 17
     rox "Всё равно он был совсем ненадежным."
@@ -54,7 +54,7 @@ label boys_lockerroom_roxxy_shower_event:
     becca "Ладно, тогда кто-то другой..."
     show becca 3
     show missy 1b
-    missy "Может быть {b}Kevin{/b}?"
+    missy "Может быть {b}Кевин{/b}?"
     missy "Он довольно милый."
     show missy 1
     show roxxy 17
@@ -64,8 +64,8 @@ label boys_lockerroom_roxxy_shower_event:
     becca "Хаха!"
     becca "... Да, он милый."
     show becca 8
-    becca "Но не думаю, что у  {b}Roxxy{/b} что-нибудь получится."
-    becca "Ей нужно кое-что ещё, чтобы понравиться {b}Kevin{/b}!"
+    becca "Но не думаю, что у  {b}Рокси{/b} что-нибудь получится."
+    becca "Ей нужно кое-что ещё, чтобы понравиться {b}Кевин{/b}!"
     show becca 7
     show roxxy 17
     show missy 3
@@ -74,7 +74,7 @@ label boys_lockerroom_roxxy_shower_event:
     show becca 3
     show missy 2
     missy "Подождите-ка..."
-    missy "... {b}Kevin{/b} гей?"
+    missy "... {b}Кевин{/b} гей?"
     show missy 1
     show roxxy 17
     rox "А ты не знала?"
@@ -94,10 +94,10 @@ label boys_lockerroom_roxxy_shower_event:
     pause
     show becca 3
     show missy 2
-    missy "{b}Miss Bissette{/b} хуже всех."
+    missy "{b}Мисс Биссетт{/b} хуже всех."
     show missy 1
     show becca 2
-    becca "Ага, жаль, что у тебя нет пениса, {b}Roxxy{/b}. Я слышала, что она любит ставить хорошие оценки тем, кто может неплохо поработать своим членом."
+    becca "Ага, жаль, что у тебя нет пениса, {b}Рокси{/b}. Я слышала, что она любит ставить хорошие оценки тем, кто может неплохо поработать своим членом."
     show missy 6
     show becca 1
     missy "Хаха"
@@ -106,7 +106,7 @@ label boys_lockerroom_roxxy_shower_event:
     rox "Я не могу провалить эти экзамены, я же буду выглядеть полной идиоткой!"
     show roxxy 16
     show becca 2
-    becca "Знаешь, я слышала, что {b}Principal Smith{/b} хранит {b}все задания у себя дома{/b} до самых выпускных экзаменов."
+    becca "Знаешь, я слышала, что {b}Директриса Смит{/b} хранит {b}все задания у себя дома{/b} до самых выпускных экзаменов."
     show becca 1
     show roxxy 17
     rox "Серьёзно?"
@@ -177,7 +177,7 @@ label boys_lockerroom_judith_changing:
     ann "Если вы ещё не в форме и-"
     show combo 3 at left
     show annie 1 at right
-    player_name "Все в порядке, {b}Annie{/b}... Мы поняли."
+    player_name "Все в порядке, {b}Энни{/b}... Мы поняли."
     player_name "Мы будем снаружи через пару мгновений..."
     show combo 4 at left
     show annie 3 at right
@@ -186,11 +186,11 @@ label boys_lockerroom_judith_changing:
     show combo 5 at left
     show annie 1 at right
     player_name "Слушай..."
-    player_name "{b}Judith{/b} не очень комфортно себя чувствует в мужской раздевалке."
+    player_name "{b}Джуди{/b} не очень комфортно себя чувствует в мужской раздевалке."
     player_name "И ей нужно чуть больше времени, понимаешь?"
     show combo 4 at left
     show annie 5 at right
-    ann "Это правда, {b}Judith{/b}?"
+    ann "Это правда, {b}Джуди{/b}?"
     show combo 6 at left
     show annie 6 at right
     jud "Ну..."
@@ -255,7 +255,7 @@ label boys_lockerroom_judith_changing:
     ann "Надевайте уже форму и валите на урок, {b}СЕЙЧАС ЖЕ{/b}!!!"
     show combo 19 at left
     show annie 7 at right
-    ann "Я сообщу об этом инциденте {b}Principal Smith{/b}, как и о вашем опоздании..."
+    ann "Я сообщу об этом инциденте {b}Директриса Смит{/b}, как и о вашем опоздании..."
     show combo 20 at left
     ann "...Идите уже!!"
     hide combo
@@ -267,7 +267,7 @@ label boys_lockerroom_judith_changing:
 label boys_lockerroom_martinez_book_search:
     scene boys_locker_room_backpack_day_b
     show player 14f with dissolve
-    player_name "Ага, вот и портфель {b}Martinez's{/b}!"
+    player_name "Ага, вот и портфель {b}Мартинез{/b}!"
     player_name "Они должны быть в душе..."
     show player 13f
     player_name "..."
@@ -491,7 +491,7 @@ label roxxy_shower_dialogue_please_fail:
     show missy 7f
     player_name "..."
     show becca 2b with dissolve
-    becca "[chr_warn]Что за черт, {b}Missy{/b}?!"
+    becca "[chr_warn]Что за черт, {b}Мисси{/b}?!"
     show becca 1 with dissolve
     show missy 2f
     missy "[chr_warn]... Ха?"
@@ -527,7 +527,7 @@ label roxxy_shower_dialogue_please_fail:
 label roxxy_shower_dialogue_please_pass:
     show becca 1f
     show jersey 17
-    player_name "Знаешь {b}Missy{/b}, а тебе очень идет эта юбочка!"
+    player_name "Знаешь {b}Мисси{/b}, а тебе очень идет эта юбочка!"
     show jersey 13
     show becca 3f
     becca "..."
@@ -605,11 +605,11 @@ label roxxy_shower_dialogue_please_pass:
     rox "НЕТ!! ВАЛИ ОТСЮДА!" with hpunch
     show roxxy 25
     show jersey 12
-    player_name "Да ладно тебе, {b}Roxxy{/b}... Мне правда нужно помыться!"
+    player_name "Да ладно тебе, {b}Рокси{/b}... Мне правда нужно помыться!"
     player_name "Обещаю, я не буду на тебя смотреть!"
     show jersey 13
     show roxxy 26
-    rox "Как ты прошел через {b}Becca{/b} и {b}Missy{/b}?"
+    rox "Как ты прошел через {b}Бекку{/b} и {b}Мисси{/b}?"
     show roxxy 25
     show jersey 17
     player_name "Эм... У них там... Небольшая любовная ссора..."
@@ -638,10 +638,10 @@ label roxxy_shower_dialogue_please_pass:
     player_name "( Ну и ладно... )"
     player_name "( Зато смогу спокойно помыться. )"
     show jersey 18
-    player_name "( А у {b}Roxxy{/b} прекрасное тело! )"
+    player_name "( А у {b}Рокси{/b} прекрасное тело! )"
     pause
     show jersey 11
-    player_name "( Надеюсь, {b}Dexter{/b} об этом не узнает... )"
+    player_name "( Надеюсь, {b}Декстер{/b} об этом не узнает... )"
     hide player with dissolve
     return
 
@@ -649,7 +649,7 @@ label latinas_shower_dialogue:
     $ persistent.cookie_jar["Latina Twins"]["gallery"]["02_unlocked"] = True
     scene latinas_shower_cs01
     with fade
-    show text "Мое сердце дико стучало, когда я залезал в рюкзак {b}Martinez{/b}...\nЯ знал, что они на части меня порвут, если поймают." at Position (xpos= 512, ypos = 700)
+    show text "Мое сердце дико стучало, когда я залезал в рюкзак {b}Мартинез{/b}...\nЯ знал, что они на части меня порвут, если поймают." at Position (xpos= 512, ypos = 700)
     with dissolve
     pause
     hide text
@@ -680,9 +680,9 @@ label latinas_shower_dialogue:
     player_name "Надеюсь, я взял правильную книгу..."
     hide player with dissolve
     show book_06_c with dissolve
-    player_name "{b}Chola's Tricks{/b}?"
+    player_name "{b}ЧОЛО ТРЮКИ{/b}?"
     player_name "..."
-    player_name "Что, блин, такое Chola?!"
+    player_name "Что, блин, такое ЧОЛА?!"
     hide book_06_c with dissolve
 
     if M_bissette.is_state(S_bissette_jane_return_books):

@@ -133,7 +133,7 @@ label button_ross_found_model:
     show ross 44 with dissolve
     pause
     show ross 43 with dissolve
-    ross "... 100%, все натуральное."
+    ross "... 100%%, все натуральное."
     hide player
     show player 602 zorder 4 at right
     with dissolve

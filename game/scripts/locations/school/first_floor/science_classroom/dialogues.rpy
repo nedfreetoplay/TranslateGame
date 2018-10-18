@@ -3,7 +3,7 @@ label science_classroom_first_visit:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Привет, {b}Miss Okita{/b}."
+    player_name "Привет, {b}Мисс Окита{/b}."
     show player 1
     show okita 3
     okita "Вот ты где, {b}[firstname]{/b}. Ты хоть представляешь, как далеко ты отстал?!"

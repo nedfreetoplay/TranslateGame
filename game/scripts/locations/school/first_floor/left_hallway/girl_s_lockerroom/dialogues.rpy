@@ -20,7 +20,7 @@ label girls_lockerroom_judith_toilet_first_intro:
     player_name "!!!"
     jud "{b}*плачет*{/b}"
     show player 108
-    player_name "{b}Джудит{/b}?!"
+    player_name "{b}Джуди{/b}?!"
     show judith 13
     show player 109
     jud "...привет, {b}[firstname]{/b}."
@@ -207,7 +207,7 @@ label girls_lockerroom_judith_toilet_first_should_stop:
 label girls_lockerroom_judith_toilet_first_cant:
     show judith 16
     show player 108
-    player_name "Не сейчас, {b}Джудит{/b}..."
+    player_name "Не сейчас, {b}Джуди{/b}..."
     player_name "К тому же, нам правда пора... Я не хочу опаздывать, и {b}Энни{/b} может нас здесь застукать..."
     show judith 13
     show player 109
@@ -252,7 +252,7 @@ label girls_lockerroom_judith_toilet_not_here:
     show player 11 with dissolve
     player_name "..."
     show player 10
-    player_name "( {b}Джудит{/b} здесь нет. )"
+    player_name "( {b}Джуди{/b} здесь нет. )"
     player_name "( Она должно быть в корридоре или уже дома. )"
     show player 108f
     player_name "( Нужно спросить её, хочет ли она {b}повеселиться{/b}. )"
@@ -440,7 +440,7 @@ label girls_lockerroom_roxxy_lockerroom_event:
     rox "Это полное дерьмо!"
     show roxxy 3d
     show becca 2
-    becca "Не могу поверить, что {b}директор Бриджет{/b} правда исключила тебя из команды!"
+    becca "Не могу поверить, что {b}Мисс Девитт{/b} правда исключила тебя из команды!"
     show becca 1
     show missy 2
     missy "Да, она не понимает, что без тебя в команде начнётся полный пиздец?"

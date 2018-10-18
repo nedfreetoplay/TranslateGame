@@ -159,7 +159,7 @@ label left_hallway_martinez_book_search:
     show lopez 18 at right
     show player 10 at left
     with dissolve
-    player_name "Хей, {b}Martinez{/b}?"
+    player_name "Хей, {b}Мартинез{/b}?"
     show player 5
     show martinez 22b
     martinez "...Чего ты хочешь, Culo?"
@@ -188,10 +188,10 @@ label left_hallway_martinez_book_search:
     show martinez 22b
     martinez "Да пофиг! У нас нет на это времени..."
     show martinez 21b
-    martinez "Д'вай, {b}Lopez{/b}. Мы уже должны быть в спортзале."
+    martinez "Д'вай, {b}Лопес{/b}. Мы уже должны быть в спортзале."
     show martinez 20b
     show lopez 19
-    lopez "И правда, {b}Martinez{/b}. Ещё увидимся, Culo!"
+    lopez "И правда, {b}Мартинез{/b}. Ещё увидимся, Culo!"
     lopez "Хахаха!"
     hide lopez
     show martinez 23
@@ -226,7 +226,7 @@ label left_hallway_cult_discovery:
     show erik 1 at right with dissolve
     player_name "..."
     show player 12
-    player_name "They went in the utility closet?"
+    player_name "Они пошли в кладовку?"
     show player 90
     show erik 5
     eri "Зачем им туда?"
@@ -260,7 +260,7 @@ label left_hallway_school_sneak_mission:
     show erik 51 at right with dissolve
     player_name "..."
     show player 12
-    player_name "They went into the utility closet?"
+    player_name "Они залезли в кладовку?"
     show player 90
     show erik 53
     eri "Зачем им туда?"
@@ -294,7 +294,7 @@ label left_hallway_school_sneak_mission:
 label door14_locked_dialogue:
     scene expression game.timer.image("lefthall{}")
     show player 35 at left
-    player_name "( The utility closet is locked. )"
+    player_name "( Подсобка заперта. )"
     $ game.main()
 
 label left_hallway_roxxy_lockerroom_event:
@@ -313,13 +313,13 @@ label left_hallway_roxxy_shower_event:
     show erik 62 at right
     show jersey 10 at left
     with dissolve
-    player_name "{b}Erik{/b}?"
+    player_name "{b}Эрик{/b}?"
     show erik 61
     player_name "Где твоя одежда?"
     show jersey 5
     show erik 63
     eri "Хей, {b}[firstname]{/b}..."
-    eri "Я переодевался в {b}раздевалке{/b}, когда {b}Roxxy{/b} зашла со своими подружками..."
+    eri "Я переодевался в {b}раздевалке{/b}, когда {b}Рокси{/b} зашла со своими подружками..."
     show erik 62
     eri "... Они выпнули меня."
     show erik 61

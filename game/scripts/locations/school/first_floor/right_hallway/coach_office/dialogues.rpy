@@ -28,14 +28,14 @@ label coachs_locker_locked_bissette_roxxy_pom_poms:
     show expression game.timer.image("coach_office{}_b")
     show player 12 with dissolve
     player_name "Держу пари что они в этом шкафу."
-    player_name "Похоже Мне нужен ключ чтобы туда войти."
+    player_name "Похоже мне нужен ключ чтобы туда войти."
     hide player with dissolve
     return
 
 label coachs_locker_locked:
     show expression game.timer.image("coach_office{}_b")
     show player 1 with dissolve
-    player_name "Тренер Bridget's шкафчик закрыт. Я не могу его открыть так как у меня нет ключа."
+    player_name "Шкафчик Тренера Бриджит закрыт. Я не могу его открыть так как у меня нет ключа."
     hide player with dissolve
     return
 
@@ -113,15 +113,15 @@ label coach_locker_pom_poms_dialogue:
 
     scene expression game.timer.image("coach_office{}_b")
     show player 14 with dissolve
-    player_name "Сейчас мне только нужно отнести их назад к {b}Rox{/b}-"
+    player_name "Сейчас мне только нужно отнести их назад к {b}Рокси{/b}-"
     show player 11
     bri "ДА, да! Просто направляйся по трассе и Я там тебя встречу."
     bri "Сначала Я должна переодеться ."
     show player 22
     player_name "!!!" with hpunch
     show player 23
-    player_name "Вот дерьмо!Она придет!"
-    player_name "Я умру от страха!Что мне делать!?"
+    player_name "Вот дерьмо! Она придет!"
+    player_name "Я умру от страха! Что мне делать!?"
     player_name "Я должен спрятаться где-нибудь!"
     hide player with dissolve
     return
@@ -171,7 +171,7 @@ label coachs_office_locker_peeking_dialogue:
 
     scene coach_locker_cs1
     with fade
-    show text "Здесь довольно тесно но я смог попать в шкафчик и закрыть дверь.\nКак раз вовремя,когда {b}Coach Bridget{/b} почти поймала меня!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Здесь довольно тесно но я смог попать в шкафчик и закрыть дверь.\nКак раз вовремя,когда {b}Тренер Бриджит{/b} почти поймала меня!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text

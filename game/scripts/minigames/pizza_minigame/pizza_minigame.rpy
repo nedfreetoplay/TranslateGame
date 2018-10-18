@@ -27,7 +27,7 @@ label pizza_delivered_fail:
     tony "Вот твоя плата за работу, которую ты сделал, приходи позже, когда мы получим больше заказов."
     show player 17f
     show tony 1
-    player_name "Спасибо, {b}Tony{/b}!"
+    player_name "Спасибо, {b}Тони{/b}!"
     jump pizza_delivered
 
 label pizza_delivered_success:
@@ -43,11 +43,11 @@ label pizza_delivered_success:
     player_name "Я справился?"
     show tony 2
     show player 1f
-    tony "Еще как!"
+    tony "Ещё как!"
     tony "Вот твоя зарплата, приходи позже, когда мы получим больше заказов!"
     show tony 1
     show player 17f
-    player_name "Спасибо, {b}Tony{/b}!"
+    player_name "Спасибо, {b}Тони{/b}!"
     jump pizza_delivered
 
 

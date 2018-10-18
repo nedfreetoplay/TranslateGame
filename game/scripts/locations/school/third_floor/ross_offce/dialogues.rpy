@@ -5,7 +5,7 @@ label ross_office_first_visit:
     show player 12
     player_name "Что это за запах?"
     player_name "Как будто...благовония...и травы..."
-    player_name "{b}Miss Ross{/b} наверняка проводит много времени здесь."
+    player_name "{b}Мисс Росс{/b} наверняка проводит много времени здесь."
     hide player with dissolve
     return
 
@@ -66,7 +66,7 @@ label ross_office_hscene:
     show ross 17 at Position(xpos=0.34, ypos=1.0) with dissolve
     player_name "... Эм?"
     show ross 37 at Position(xpos=0.36, ypos=1.0) with dissolve
-    player_name "Что вы делаете, {b}Miss Ross{/b}?"
+    player_name "Что вы делаете, {b}Мисс Росс{/b}?"
     show player 11f
     show ross 36
     ross "Ох, тебе нужно будет так же раздеться..."
@@ -121,7 +121,7 @@ label ross_office_hscene:
     with dissolve
     show player 613
     ross "Хехе, меня глупый!"
-    ross "Не волнуйся,Я покажу тебе."
+    ross "Не волнуйся, я покажу тебе."
     show rossp 2
     pause
     hide rossp
@@ -186,7 +186,7 @@ label ross_office_hscene:
     player_name "Чего?!"
     show player 430f
     show rossp 10
-    ross "Займись со мной любовью! Прямр здесь на этом холсте!"
+    ross "Займись со мной любовью! Прямо здесь на этом холсте!"
     ross "Используй моё телоя для рисования своего шедевра!"
     show player 430bf
     show rossp 9
@@ -219,7 +219,7 @@ label ross_office_ross_sex:
     scene location_school_office3_closeup_sex
     show rosss 1 at right
     with dissolve
-    ross "Ох, Я не могу поверить неужели это наконец случилось!"
+    ross "Ох, я не могу поверить неужели это наконец случилось!"
     ross "..."
     show rosss 2 with dissolve
     ross "Оооох, вау!"
@@ -228,7 +228,7 @@ label ross_office_ross_sex:
     pause 3
     ross "Ох моя богиня! Это даже лучше чем я предстовляла!"
     pause 2
-    player_name "Ах, {b}Miss Ross{/b}!"
+    player_name "Ах, {b}Мисс Росс{/b}!"
     $ M_ross.set ("sex speed", 0.1)
     pause 5
     ross "Никогда еще не чувствовала себя так хорошо!"
@@ -250,9 +250,9 @@ label ross_office_ross_sex:
     return
 
 label ross_hscene_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -285,12 +285,12 @@ label ross_hscene_dialog:
     if temp == 1:
         if M_ross.is_state(S_ross_paint_with_body):
             ross "Ох моя богиня! Это даже лучше чем я предстовляла!"
-            player_name "Ах, {b}Miss Ross{/b}!"
+            player_name "Ах, {b}Мисс Росс{/b}!"
         else:
 
             ross "Ох, Я рада что ты пришел сегодня!"
             ross "Мне это действительно было необходимо!"
-            player_name "Ох,Как приятно!"
+            player_name "Ох, как приятно!"
             ross "Мммм, Я так сильно люблю этот член!"
             ross "Дай его мне, {b}[firstname]{/b}!"
             ross "Вот и все!"
@@ -300,7 +300,7 @@ label ross_hscene_dialog:
         if M_ross.is_state(S_ross_paint_with_body):
             ross "Никогда еще не чувствовала себя так хорошо!"
             ross "Это невероятно!"
-            player_name "Ahhh!"
+            player_name "Аххх!"
             ross "Почему это так хорошо!"
         else:
 
@@ -327,7 +327,7 @@ label ross_hscene_dialog:
             ross "Ах, дв!"
             ross "Да! Да! Выеби меня!"
             ross "Это так хорошо, {b}[firstname]{/b}!"
-            player_name "Oh, {b}Miss Ross{/b}!!!"
+            player_name "Ох, {b}Мисс Росс{/b}!!!"
 
     elif temp == 4:
         ross "Я думала об этом весь день!"
@@ -349,9 +349,9 @@ label ross_office_ross_sex_cum_dialogue:
     ross "ААААХХ!!"
     pause
     show rosss 12_13 at right with flash
-    player_name "HNNGGG!!!"
+    player_name "НННГГГ!!!"
     ross "{b}*Задахаясь*{/b}!"
-    ross "Mmmph!"
+    ross "Ммммф!"
     pause
     show rosss 14 with dissolve
     ross "Хааах... Хааах..."
@@ -365,7 +365,7 @@ label ross_office_ross_sex_cum_dialogue:
     ross "... Я имею в виду у меня было много секс в моей жизни..."
     ross "... Много хорошего секса!"
     ross "... Но это было что-то другое, совершено!"
-    player_name "... Y-yeah."
+    player_name "... Д-да."
     scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg")
     show rossp 10 zorder 0 at Position(xpos=0.2, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.22, ypos=1.0)
