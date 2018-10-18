@@ -10,7 +10,7 @@ label eriksroom_erik_breastfeeding_started:
     player_name "Хмм?"
     player_name "( Я думаю я слышу некоторые голоса из комнаты {b}Mrs. Johnson{/b}. )"
     show player 12
-    player_name "( Я должен спросить её где найти {b}Эрика/b}... )"
+    player_name "( Я должен спросить её где найти {b}Эрика{/b}... )"
     hide player with dissolve
     return
 

@@ -410,7 +410,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     rox "Аах, бляяя..."
     pause
     rox "Не останавливайся!"
-    pause 
+    pause
     rox "Не-"
     pause
     rox "Гхххх!"
@@ -606,7 +606,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     with dissolve
     player_name "Хех, ладно. Я постараюсь."
     hide player
-    show roxxy 1ef
+    show roxxy 1e
     with dissolve
     pause
     crys "Ты видела, какой у него размер?!"

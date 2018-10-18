@@ -89,7 +89,7 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     show earl 2
     ear "О, трейлер?"
     ear "... Ну, если {b}Crystal{/b} будет осуждена, его вернут властям штата и продадут."
-    show earl 1ё
+    show earl 1
     show player 25
     player_name "Шшшииишшшш..."
     show player 12

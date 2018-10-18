@@ -183,7 +183,7 @@ label photo_booth_generic_dialogue:
     scene expression player.location.background
     show player 2
     player_name "Хмм,Мне не нужно фотографироваться прямо сейчас..."
-    hide playe
+    hide player
     return
 
 label photo_booth_first_visit:

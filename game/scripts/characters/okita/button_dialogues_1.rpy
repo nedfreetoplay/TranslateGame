@@ -543,7 +543,7 @@ label button_okita_tired_from_belt:
     player_name "Я никогда не слышал о таких вещах раньше!"
     show player 11 with dissolve
     show okita 2
-    okita "Ну {b}Фалькумный Гриб/b} растет в лесу здесь, в Саммервилле."
+    okita "Ну {b}Фалькумный Гриб{/b} растет в лесу здесь, в Саммервилле."
     show okita 3
     okita "Их легко заметить из-за своей фаллической формы."
     show player 10

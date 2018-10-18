@@ -3112,7 +3112,7 @@ label school_roxxy_dexter_basketball:
     dex "Этот кусок говна..."
     show dexter 14
     show coach 15cf
-    bri "Я не хочу ничего слышать, {b}Декстер/b}!"
+    bri "Я не хочу ничего слышать, {b}Декстер{/b}!"
     bri "Ты знаешь правила на моих уроках!"
     bri "Мы всё решаем здесь без насилия!"
     show coach 15f
@@ -3750,7 +3750,7 @@ label roxxy_locker_sex_cum:
 
 label roxxy_locker_sex_cum_pre:
     scene expression "backgrounds/location_school_locker_inside01.jpg"
-    hide roxxys
+    hide roxxy
     show player locker 15_15b
     player_name "ТХ!" with flash
     rox "!!!"

@@ -825,7 +825,7 @@ label park_pilly_button_dialogue:
     show clyde 1
     show player 10f
     player_name "Лучше быстро исчезни, если ты не хочешь оказаться в тюрьме."
-    player_name "{b}Рокси{/ b}, и я {b}завтра превратим это в полицию{/b}."
+    player_name "{b}Рокси{/b}, и я {b}завтра превратим это в полицию{/b}."
     show player 5f
     show clyde 4 with dissolve
     clyde "Не волнуйся, ничего страшного."

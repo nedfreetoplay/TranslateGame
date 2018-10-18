@@ -366,7 +366,7 @@ label button_mrsj_erik_introduce_june:
     show player 1
     mrsjo "Скажите, что, дайте мне знать, как все это происходит..."
     show player 11
-    mrsjo "Если ты найдёшь {b}Эрику{/б} подругу, то тебя ждет специальная награда..."
+    mrsjo "Если ты найдёшь {b}Эрику{/b} подругу, то тебя ждет специальная награда..."
     show mrsj 50
     player_name "..."
     show player 21

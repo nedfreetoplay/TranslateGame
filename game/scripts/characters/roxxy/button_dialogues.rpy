@@ -2788,7 +2788,7 @@ label roxxy_trailer_sex_cum_first:
     player_name "HNNGGG!!!{nw}{p=1.2}" with flash
     show roxxys_bed 11 with dissolve
     pause
-    hide roxxys
+    hide roxxy
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy 101
     show player_sitting 17b at Position (xpos=630)
@@ -2910,7 +2910,7 @@ label roxxy_trailer_sex_cum_repeat:
     player_name "HNNGGG!!!{nw}{p=1.2}" with flash
     show roxxys_bed 11 with dissolve
     pause
-    hide roxxys
+    hide roxxy
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy 101
     show player_sitting 16b at Position (xpos=630)
@@ -3112,7 +3112,7 @@ label button_roxxy_beach_leave:
     show roxxy bikini 2f
     rox "Увидимся, {b}[firstname]{/b}!"
     hide becca
-    hide missyыу
+    hide missy
     hide roxxy
     with dissolve
     pause
