@@ -7,25 +7,25 @@ label sploosh_button_dialogue:
     show player 4
     player_name "(Хммм... Он,должно быть, спит)"
     menu:
-        "Просыпайтесь Адмирал Sploosh":
+        "Просыпайтесь Адмирал Сплуш":
             show player 10
             player_name "Эмм... Извините?"
             show sploosh 2
             show player 11
             python:
                 if store.sploosh["amount"] != 0:
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
+
+
+
+
+
+
+
                     dialogues = store.sploosh["dialogues"][random.randint(0, store.sploosh["amount"]-1)]
                     for dialogue in dialogues:
                         d = re.sub("\\\\n", "\\n", dialogue)
@@ -40,7 +40,7 @@ label sploosh_button_dialogue:
             show player 1
             player_name "Что за странный пират..."
             hide player with dissolve
-        "Leave":
+        "Оставить":
             player_name "Лучше не беспокоить его..."
             Sploosh "ZZZzzzz..."
     $ game.main()

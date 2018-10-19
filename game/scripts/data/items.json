@@ -181,7 +181,7 @@
     },
     "seatrout": {
         "id": "21",
-        "name": "{b}Горбыля:{/b}",
+        "name": "{b}Морская форель:{/b}",
         "cost": "0",
         "image": "objects/item_fish1.png",
         "description": "Свежая рыба! Слегка воняет...",
@@ -190,7 +190,7 @@
     },
     "snapper": {
         "id": "22",
-        "name": "{b}Снаппер:{/b}",
+        "name": "{b}Люциан:{/b}",
         "cost": "0",
         "image": "objects/item_fish2.png",
         "description": "Свежая рыба! Слегка воняет...",

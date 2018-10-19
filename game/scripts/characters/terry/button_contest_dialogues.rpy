@@ -9,7 +9,7 @@ label terry_button_contest_roxxy_go_see_contest:
     sara "Твой маленький друг здесь.."
     show sara 1
     show tstand 2
-    Terry "О, хо-хо,действительно так..."
+    Terry "О, хо-хо, действительно так..."
     Terry "Привет, шкипер!"
     Terry "Пришел, погрузиться в атмосферу не так ли?"
     show tstand 1
@@ -53,7 +53,7 @@ label terry_button_contest_roxxy_go_see_contest:
     Terry "Кто бы не хотел увидеть твое восхитительное тело?"
     show tstand 22
     show sara 2
-    sara "Хе-хе,оу... Спасибо, дорогой!"
+    sara "Хе-хе, оу... Спасибо, дорогой!"
     show sara 1
     show tstand 2
     Terry "К сожалению, нет."
@@ -71,7 +71,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show becca bikini 1bf zorder 1 at Position (xpos=550)
     show missy bikini 2f zorder 0 at Position (xpos=400)
     with dissolve
-    missy "Боже мой, я так рада, что ты пришел.!"
+    missy "Боже мой, я так рада, что ты пришел!"
     show missy bikini 1f
     show tstand 2
     Terry "Ну, поговорим о дьяволе!"
@@ -96,7 +96,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show missy bikini 13
     missy "Спасибо!"
     show missy bikini 2
-    missy "Я была так рада, когда увидела , что  устраивает {b}Капитан{/b}."
+    missy "Я была так рада, когда увидела, что  устраивает {b}Капитан{/b}."
     missy "С тех пор, как он сказал, что ему понравились мои сиськи на днях, когда мы их показывали..."
     show missy bikini 1
     show player 22
@@ -233,7 +233,7 @@ label terry_button_contest_roxxy_go_see_contest:
     hide tstand with dissolve
     show player 13
     player_name "( Воу, {b}Капитан Терри{/b} счастливый парень! )"
-    player_name "( Я должен найти {b}Рокси{/b} и ее подруг. )"
+    player_name "( Я должен найти {b}Рокси{/b} и её подруг. )"
     show player 34
     player_name "( Они говорили что-то о {b}душе{/b}... )"
     hide player with dissolve

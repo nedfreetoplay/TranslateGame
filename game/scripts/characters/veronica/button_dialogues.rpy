@@ -3,7 +3,7 @@ label veronica_dialogue_pre:
     show player 1 at left
     show veronica 2 at right
     with dissolve
-    vero "Добро пожаловать в {b}CONSUM-R{/b}! Меня зовут {b}Veronica{/b}."
+    vero "Добро пожаловать в {b}CONSUM-R{/b}! Меня зовут {b}Вероника{/b}."
     show veronica 4
     vero "Могу ли я вам чем-нибудь помочь?"
     show veronica 1
@@ -37,7 +37,7 @@ label veronica_dialogue_vegatable_stock:
 
     player_name "Хмм, думаю {b}куриный бульон{/b} должен сгодиться."
     show player 2
-    player_name "Надо просто купить его и отнести Okita."
+    player_name "Надо просто купить его и отнести Оките."
 
     return
 
@@ -75,7 +75,7 @@ label veronica_dialogue_bug_spray_large_wings:
     vero "Хмм... Может быть это {b}кузнечики{/b}..."
     show veronica 4
     show player 1
-    vero "Возьмите спрей с {b}красной крышкой{/b}. Он называется {b}Bug Exterminator{/b}."
+    vero "Возьмите спрей с {b}красной крышкой{/b}. Он называется {b}Истребитель жуков{/b}."
     show veronica 2
     vero "Он должен помочь!"
     show veronica 1
@@ -91,7 +91,7 @@ label veronica_dialogue_bug_spray_pincers:
     vero "Хмм... Может это {b}уховертки{/b}... Мерзкие твари!"
     show veronica 4
     show player 1
-    vero "Возьмите спрей с {b}зеленой крышкой{/b}. Он называется {b}Bug Annihilator{/b}."
+    vero "Возьмите спрей с {b}зеленой крышкой{/b}. Он называется {b}Уничтожитель жуков{/b}."
     show veronica 2
     vero "Он должен помочь!"
     show veronica 1
@@ -107,7 +107,7 @@ label veronica_dialogue_bug_spray_white_spots:
     vero "Хмм... Может это {b}мраморный хрущ{/b}..."
     show veronica 4
     show player 1
-    vero "Возьмите спрей с {b}синей крышкой{/b}. Он называется {b}Bug Eradicator{/b}."
+    vero "Возьмите спрей с {b}синей крышкой{/b}. Он называется {b}Ликвидатор жуков{/b}."
     show veronica 2
     vero "Он должен помочь!"
     show veronica 1

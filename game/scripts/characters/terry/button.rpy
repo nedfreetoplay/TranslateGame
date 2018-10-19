@@ -26,10 +26,10 @@ label terry_button_dialogue:
             "Купить немного рыбы ($100)":
                 call expression game.dialog_select("terry_dialogue_buy_fish")
                 menu:
-                    "Сельдь":
+                    "Морская форель":
                         $ fish = "Seatrout"
                         call expression game.dialog_select("terry_dialogue_buy_fish_buy")
-                    "Окунь":
+                    "Люциан":
 
                         $ fish = "Snapper"
                         call expression game.dialog_select("terry_dialogue_buy_fish_buy")
@@ -44,11 +44,11 @@ label terry_button_dialogue:
             "Продать рыбу (80$)" if player.has_item("seatrout", "snapper", "mackerel"):
                 call expression game.dialog_select("terry_dialogue_sell_fish")
                 menu:
-                    "Сельдь" if player.has_item("seatrout"):
+                    "Морская форель" if player.has_item("seatrout"):
                         $ fish = "Seatrout"
                         call expression game.dialog_select("terry_dialogue_sell_fish_sell")
 
-                    "Окунь" if player.has_item("snapper"):
+                    "Люциан" if player.has_item("snapper"):
                         $ fish = "Snapper"
                         call expression game.dialog_select("terry_dialogue_sell_fish_sell")
 
@@ -64,7 +64,7 @@ label terry_button_dialogue:
                 menu:
                     "Купить.":
                         call expression game.dialog_select("terry_dialogue_buy_drink")
-                    "Я пройду.":
+                    "Я пасс.":
 
                         call expression game.dialog_select("terry_dialogue_buy_drink_pass")
             "Ловить рыбу":
