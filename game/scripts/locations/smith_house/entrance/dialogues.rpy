@@ -6,7 +6,7 @@ label smith_entrance_sneaking:
     show player 35b
     player_name "..."
     show player 12
-    player_name "Хмм, не важно. Я должен сосредоточиться {b}на поиске этих тестов.{/b}"
+    player_name "Хмм, не важно. Я должен сосредоточиться {b}на поиске этих тестов{/b}."
     player_name "{b}Она, скорее всего, хранит их где-то наверху.{/b}"
     hide player with dissolve
     return

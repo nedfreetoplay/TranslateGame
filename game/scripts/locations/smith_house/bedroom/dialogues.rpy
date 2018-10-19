@@ -41,14 +41,14 @@ label smith_exams_dialogue:
     scene expression "backgrounds/location_smith_bedroom_night_blur.jpg"
     show player 14 with dissolve
     player_name "Это они!"
-    player_name "Не могу поверить, {b}Missy{/b} и {b}Becca{/b} были правы!"
+    player_name "Не могу поверить, {b}Мисси{/b} и {b}Бекка{/b} были правы!"
     show player 13
     "Скрип..."
     show player 10
     player_name "... Что это было?!"
     show player 23
     player_name "Здесь кто-то есть!" with hpunch
-    player_name "{b}Principal Smith{/b}! Нужно выбираться отсюда!"
+    player_name "{b}Директриса Смит{/b}! Нужно выбираться отсюда!"
     player_name "... Дерьмо! И куда мне теперь?!"
     hide player with dissolve
     return
@@ -65,14 +65,14 @@ label smith_window_exit_dialogue:
 label smith_window_exit_roxxy_sneak_into_smith:
     scene expression "backgrounds/location_smith_frontyard_cutscene01.jpg"
     with fade
-    show text "Как только я услышал, как кто-то шел из прихожей к спальням\n... Я выпрыгнул в открытое окно и приземлился на крышу снизу!\nМысль о том, что меня могли поймать в спальне {b}Principal Smith{/b}’s до сих пор преследует меня в кошмарах!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Как только я услышал, как кто-то шел из прихожей к спальням\n... Я выпрыгнул в открытое окно и приземлился на крышу снизу!\nМысль о том, что меня могли поймать в спальне {b}Директрисы Смит{/b}’s до сих пор преследует меня в кошмарах!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
     scene expression "backgrounds/location_smith_frontyard_night_blur.jpg"
     show player 10
     player_name "Фух! Это было опасно!"
-    player_name "Завтра я принесу эти тесты {b}Roxxy{/b} в школу!"
+    player_name "Завтра я принесу {b}Рокси{/b} эти тесты в школу!"
     player_name "А сейчас я хочу пойти домой и отдохнуть."
     show player 24
     pause

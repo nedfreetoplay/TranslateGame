@@ -4,7 +4,7 @@ label smith_hallway_sneaking:
     player_name "... Окей, я чувствую себя очень стремно."
     player_name "Хочется уйти прямо сейчас!"
     show player 12
-    player_name "... Но я пообещал {b}Roxxy, что найду эти тесты{/b}."
+    player_name "... Но я пообещал {b}Рокси, что найду эти тесты{/b}."
     show player 5
     pause
     show player 10
