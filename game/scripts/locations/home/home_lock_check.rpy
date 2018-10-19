@@ -16,7 +16,7 @@ label home_lock_check(destination_screen, destination_label):
                 player_name "Ааа, вот он, в кармане!"
                 show debbie 3 at right
                 show player 11 at left
-                deb "Разве {b}Erik{/b} не ждет тебя?"
+                deb "Разве {b}Эрик{/b} не ждет тебя?"
                 show debbie 1 at right
                 show player 17 at left
                 player_name "Да, уже иду!"
@@ -34,7 +34,7 @@ label home_lock_check(destination_screen, destination_label):
             else:
 
                 show player 10 with dissolve
-                player_name "( Я действительно не должен беспокоить  {b}[deb_name]{/b} ,когда она спит. )"
+                player_name "( Я действительно не должен беспокоить {b}[deb_name]{/b}, когда она спит. )"
             $ game.main()
         hide player
         hide debbie
@@ -82,7 +82,7 @@ label home_lock_check(destination_screen, destination_label):
     elif M_bissette.is_state(S_bissette_roxxy_jenny_spying) and destination_screen not in ["Hallway", "Upstairs Bedroom"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "Я должен проверить {b}Roxxy{/b} и {b}[jen_name]{/b}..."
+        player_name "Я должен проверить {b}Рокси{/b} и {b}[jen_name]{/b}..."
         hide player with dissolve
 
     elif M_mom.is_state(S_mom_note) and player.location == L_home_bedroom and destination_screen not in ["MC Computer"]:

@@ -20,7 +20,7 @@ label church_mia_church_plan:
 label church_mia_convince_helen:
     scene church_cs01
     with fade
-    show text "Служба продолжается.\n{b}Хелен{/b} встала и направившись к исповеди...\n...зашла внутрь." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Служба продолжается.\n{b}Хелен{/b} встала и направившись к исповеди...\n... зашла внутрь." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -52,7 +52,7 @@ label church_mia_return_priest_outfit:
     player_name "..."
     show player 14 at Position (xoffset=-1)
     player_name "( Я должен вернуть этот наряд туда, где нашел его... )"
-    player_name "( ...пока никто не заметил.... )"
+    player_name "( ... пока никто не заметил.... )"
     hide player
     hide players robe
     with dissolve
@@ -141,7 +141,7 @@ label confessional_right:
 
                 $ M_mia.trigger(T_helen_convince_fail)
 
-            "Change." if player.stats.chr() >= 3:
+            "Изменится." if player.stats.chr() >= 3:
                 call expression game.dialog_select("confessional_right_mia_priest_act_change")
                 $ M_mia.trigger(T_helen_convince_change)
                 jump expression game.dialog_select("church_dialogue")
@@ -253,7 +253,7 @@ label confessional_right_mia_priest_act_change:
     show helen 15
     helen "..."
     show helen 14
-    helen "*sigh*"
+    helen "*вздох*"
     show helen 16
     helen "Возможно вы правы, {b}Отец{/b}."
     helen "Я... возможно... зашла слишком далеко..."
@@ -291,7 +291,7 @@ label confessional_right_mia_priest_act_change:
     player_name "Эээ... Эмм... благословенного тебе дня."
     show player 13f
     show helen 16
-    helen "Что мне делать в наказание, {b}Father{/b}?"
+    helen "Что мне делать в наказание, {b}Отец{/b}?"
     show helen 15
     show player 12f
     player_name "Достаточно двух молитв в качестве Ёпт... Эээ.. Епитимьи."

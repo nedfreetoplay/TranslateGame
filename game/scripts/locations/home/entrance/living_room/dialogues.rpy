@@ -157,19 +157,19 @@ label mom_movie_night_romance_movie:
     deb "Ох, просто замолчи и смотри!"
 
     scene location_home_couch_cutscene01 with fade
-    show expression Cutscene("location_home_couch_cutscene01", "I'll admit, the film wasn't so bad.") as cutscene
+    show expression Cutscene("location_home_couch_cutscene01", "Признаюсь, фильм был не так уж и плох.") as cutscene
     pause
     hide cutscene
-    show expression Cutscene("location_home_couch_cutscene01", "Not much action but at least it had some good humor to it.") as cutscene
+    show expression Cutscene("location_home_couch_cutscene01", "Не так много экшена, но, по крайней мере, у неё было хорошее настроение.") as cutscene
     pause
     hide cutscene
-    show expression Cutscene("location_home_couch_cutscene01", "{b}[deb_name]{/b} certainly seemed to be enjoying it. Her melodic laughter filled the room and brought a smile to my face.") as cutscene
+    show expression Cutscene("location_home_couch_cutscene01", "{b}[deb_name]{/b} похоже, ей понравилось. Её мелодичный смех наполнил комнату и вызвал улыбку на моем лице.") as cutscene
     pause
     scene location_home_couch_cutscene02 with fade
-    show expression Cutscene("location_home_couch_cutscene02", "She made herself comfortable as we watched and I constantly found my eyes drawn to her body...") as cutscene
+    show expression Cutscene("location_home_couch_cutscene02", "Она устроилась поудобнее, когда мы смотрели, и я постоянно замечал, что мои глаза тянутся к её телу...") as cutscene
     pause
     hide cutscene
-    show expression Cutscene("location_home_couch_cutscene02", "Especially when the movie took an erotic turn, the two lover's on screen embraced, kissing passionately.\nTheir hands exploring as they hurried to undressed one another...") as cutscene
+    show expression Cutscene("location_home_couch_cutscene02", "Особенно когда фильм принял эротический оборот, два любовника на экране обнялись, страстно целуясь.\nИх руки изучали друг друга, когда они поспешили раздеться...") as cutscene
     pause
     hide cutscene with fade
     with dissolve
@@ -262,7 +262,7 @@ label mom_movie_night_romance_movie:
     show debbief 5flip
     deb "( Просто он такой {b}большой{/b}! Интересно, как он будет ощущаться- )"
     show debbief 5gf with hpunch
-    deb "( ... О чем, черт возьми, я думаю?! )"
+    deb "( ... О чем, чёрт возьми, я думаю?! )"
     show debbief 5cf
     pause
     show playerf 5f
@@ -665,7 +665,7 @@ label mom_movie_night_couch_sex_blowjob:
     show playerf 4bf
     pause 4
     show playerf 4flip
-    player_name "Unngghh..."
+    player_name "Аааггхх..."
     show playerf 4bf
     deb "Mмм..."
     pause 4
@@ -690,7 +690,7 @@ label mom_movie_night_couch_sex_blowjob_cum:
     pause
     show playerf 4df
     show debbief 9f
-    player_name "HNNGGG!!!" with flash
+    player_name "НННГГХ!!!" with flash
     show playerf 4gf
     player_name "Оххх, боже..."
     scene location_home_livingroom_couch03
@@ -824,7 +824,7 @@ label mom_movie_night_couch_sex_cum:
     deb "Я уже тоже почти!"
     deb "Я-"
     deb "Я КОНЧАЮ!!!"
-    player_name "HNNGGG!!!"
+    player_name "НННГГХ!!!"
     show debbies 158 with flash
     deb "AAAAХХХ!!!"
     pause
@@ -1355,9 +1355,9 @@ label sis_couch_final_jump_her_stat_pass:
     return
 
 label sis_couch_sex_loop:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -1539,9 +1539,9 @@ label sis_couch_footjob_pre:
     return
 
 label couch_footjob_loop:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:

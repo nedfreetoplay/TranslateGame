@@ -17,7 +17,7 @@ label kitchen_sis_telescope_1:
     deb "Милый, ты должен поесть!"
     show player 11
     if game.timer.is_weekend():
-        deb "Мне не важно, что {b}Erik{/b} будет ждать тебя..."
+        deb "Мне не важно, что {b}Эрик{/b} будет ждать тебя..."
     else:
         deb "Мне не важно, будут ли звонить из школы, жалуясь на то, что ты опоздал..."
     show player 1
@@ -53,7 +53,7 @@ label kitchen_mom_start:
     player_name "..."
     show player 10
     player_name "Нет, я правда..."
-    player_name "Я думаю, что {b}Erik{/b} опять проспал, а я не хочу опаздывать в первый же день."
+    player_name "Я думаю, что {b}Эрик{/b} опять проспал, а я не хочу опаздывать в первый же день."
     show player 11
     show debbie 3
     deb "Ха, опять?"
@@ -71,7 +71,7 @@ label kitchen_mom_start:
     show debbie 3
     deb "Я почти забыла!"
     show debbie 2
-    deb "Я вчера говорила с моей подругой, {b}Diane{/b}, и она сказала, что летом ей может понадобиться {b}помощь с садом{/b}!"
+    deb "Я вчера говорила с моей подругой, {b}Дианой{/b}, и она сказала, что летом ей может понадобиться {b}помощь с садом{/b}!"
     show player 10
     show debbie 1
     player_name "Хмм, я знаю не так много о садоводстве, {b}[deb_name]{/b}..."
@@ -108,15 +108,15 @@ label kitchen_mom_dinner:
     deb "Мне нужна твоя помощь..."
     show debbie 2
     show player 11
-    deb "Мо подруга {b}Diane{/b} прийдет сегодня на ужин."
+    deb "Моя подруга {b}Диана{/b} прийдет сегодня на ужин."
     deb "... Тебе нужно пойти на {b}пристань{/b} и купить {b}морскую форель{/b}."
     deb "Я хочу приготовить ей что-нибудь особенное, а морскую форель она как раз очень любит!"
     show debbie 1
     show player 2
-    player_name "Ох, {b}Diane{/b} сегодня придет? Это приятный сюрприз!"
+    player_name "Ох, {b}Диана{/b} сегодня придет? Это приятный сюрприз!"
     player_name "Ей будет полезно хоть не на долго выйти из дома..."
     player_name "Я переживавю за неё... Она там совсем одна."
-    player_name "Я зайду на {b} пристань{/b} на обратном пути и возьму{b}форель{/b}."
+    player_name "Я зайду на {b}пристань{/b} на обратном пути и возьму {b}форель{/b}."
     scene homekitchen
     show player 1 at left
     show debbie 62 at right
@@ -173,7 +173,7 @@ label kitchen_mom_dinner_fish:
     dia "... Главный {b}мужчина этого дома{/b}!"
     show diane 136
     show player 14
-    player_name "Хэй, {b}Diane{/b}."
+    player_name "Хэй, {b}Диана{/b}."
     show player 17
     player_name "Прекрасно выглядешь!"
     show diane 138
@@ -350,7 +350,7 @@ label kitchen_mom_diane_visit:
     dia "Расскажи мне!"
     show diane 124
     show debbie 60f
-    deb "Diane..."
+    deb "Диана..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
     dia "{b}[deb_name]{/b}, расскажи!"
@@ -404,7 +404,7 @@ label kitchen_mom_diane_visit:
     dia "Не скромничай, девонька. Расскажи мне всё!"
     show debbie 60f
     show diane 126
-    deb "{b}Diane{/b}, у него самый большой... {b}Член{/b}, из всех, что я видела!"
+    deb "{b}Диана{/b}, у него самый большой... {b}Член{/b}, из всех, что я видела!"
     show diane 125
     show debbie 59f
     dia "... Да ладно?!"
@@ -412,7 +412,7 @@ label kitchen_mom_diane_visit:
     dia "Тогда я удивлена, что ты остановилась на хэнджобе..."
     show diane 126
     show debbie 16f at Position(xpos=0.3318,ypos=1.1130)
-    deb "{b}Diane{/b}, он ведь ещё ребенок!"
+    deb "{b}Диана{/b}, он ведь ещё ребенок!"
     show diane 125
     show debbie 15f
     dia "Пфф, он уже выпускник!"
@@ -424,7 +424,7 @@ label kitchen_mom_diane_visit:
     dia "... Но {b}ты не{/b} его {b}мать{/b}, {b}[deb_name]{/b}!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 16f
-    deb "Oх, ну я не знаю, {b}Diane{/b}..."
+    deb "Oх, ну я не знаю, {b}Диана{/b}..."
     show diane 124 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 15f
     dia "Он очевидно этого хочет."
@@ -463,7 +463,7 @@ label kitchen_mom_diane_visit:
     dia "Продолжим этот разговор позже. Я хочу знать все самые сочные детали!"
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 62f
-    deb "{b}Diane{/b}! Ты ужасна!"
+    deb "{b}Диана{/b}! Ты ужасна!"
     deb "Почему бы тебе не прийти как-нибудь ещё? Я бы хотела видеть тебя чаще!"
     show debbie 61f
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
@@ -475,7 +475,7 @@ label kitchen_mom_diane_visit:
     player_name "( {b}[deb_name]{/b} не очень комфортно из-за этой ситуации... )"
     show player 203
     player_name "( Хотя она сказала, что ей понравилось. )"
-    player_name "( В любом случае, я рад, что {b}Diane{/b} это нормально для нас, заниматься чем-то подобным! )"
+    player_name "( В любом случае, я рад, что {b}Диане{/b} это нормально для нас, заниматься чем-то подобным! )"
     return
 
 label kitchen_mom_kissing_practice:

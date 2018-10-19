@@ -38,7 +38,7 @@ label shower_dialogue:
     else:
 
         scene shower1
-        player_name "( There's no one in here. )"
+        player_name "( Здесь никого нет. )"
     $ game.main()
 
 label mom_shower:
@@ -126,7 +126,7 @@ label mom_shower:
                             $ cum = False
                         call expression game.dialog_select("shower_mom_sex_fuck_pre")
                         jump expression game.dialog_select("mom_shower_sex_loop")
-            "Leave":
+            "Оставить":
 
                 call expression game.dialog_select("shower_mom_sex_leave")
     else:

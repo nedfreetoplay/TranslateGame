@@ -240,7 +240,7 @@ label garage_dewitt_make_replacement_guitar:
     scene expression game.timer.image("home_garage{}")
     show player 575 with dissolve
     player_name "Фу! С другой стороны, возможно, я не так талантлив, как думал."
-    player_name "Я надеюсь, что это достаточно хорошо, чтобы обмануть {b}Mrs. Johnson{/b}."
+    player_name "Я надеюсь, что это достаточно хорошо, чтобы обмануть {b}Миссис Джонсон{/b}."
     hide player with dissolve
     return
 
@@ -249,7 +249,7 @@ label garage_build_easels:
     with fade
     show text "Да, я думаю, это выглядит правильно." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Надеюсь {b}Miss Ross{/b} понравится!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Надеюсь {b}Мисс Росс{/b} понравится!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Я действительно не хочу ее расстраивать..." at Position (xpos=512, ypos=700) with dissolve
     pause
@@ -425,9 +425,9 @@ label debbie_car_sex:
     $ game.main()
 
 label car_mom_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:

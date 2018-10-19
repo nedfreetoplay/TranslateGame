@@ -6,10 +6,10 @@ label home_front_mom_mrsj_visit:
     mrsjo "Привет, {b}[deb_char_name]{/b}!"
     show debbie 165f
     show mrsj 14
-    deb "О, привет, {b}Tammy{/b}."
+    deb "О, привет, {b}Тэмми{/b}."
     show debbie 164f
     show mrsj 17
-    mrsjo "Я хотел остановиться и выразить свои соболезнования в связи с вашей потерей. Я знаю, что он был твоим близким другом ..."
+    mrsjo "Я хотел остановиться и выразить свои соболезнования в связи с вашей потерей. Я знаю, что он был твоим близким другом..."
     show debbie 165f
     show mrsj 14
     deb "О, спасибо. Это очень... заботливо с твоей стороны."
@@ -30,7 +30,7 @@ label home_front_mom_mrsj_visit:
     show mrsj 17
     mrsjo "Конечно!"
     show mrsj 20
-    mrsjo "Я имею в виду, мой муж бросил меня ... Так что это немного другое."
+    mrsjo "Я имею в виду, мой муж бросил меня... Так что это немного другое."
     show mrsj 18
     mrsjo "... Но я была одна долгое время!"
     show debbie 168f
@@ -41,7 +41,7 @@ label home_front_mom_mrsj_visit:
     show mrsj 20
     mrsjo "Да, у меня были тяжелые времена..."
     show mrsj 17
-    mrsjo "... Но потом я решила сдать свой дом и стала жить с {b}Erik{/b}"
+    mrsjo "... Но потом я решила сдать свой дом и стала жить с {b}Эриком{/b}"
     mrsjo "Он был таким благословением!"
     show debbie 168f
     show mrsj 14
@@ -77,7 +77,7 @@ label home_front_mom_mrsj_visit:
     deb "О! Привет, милый!"
     show debbie 164f
     show player 14
-    player_name "Привет, {b}[deb_name]{/b}... Здрасьте, {b}Mrs. Johnson{/b}!"
+    player_name "Привет, {b}[deb_name]{/b}... Здрасьте, {b}Миссис Джонсон{/b}!"
     show player 1
     show mrsj 17
     mrsjo "Привет, {b}[firstname]{/b}."
@@ -100,10 +100,10 @@ label home_front_mom_mrsj_visit:
     deb "Ты уверена, что не хочешь войти?"
     show debbie 164f
     show mrsj 17
-    mrsjo "Нет, Спасибо! Мне нужно вернуться домой и проведать {b}Erik{/b}. Может, ему что-нибудь нужно..."
+    mrsjo "Нет, Спасибо! Мне нужно вернуться домой и проведать {b}Эрика{/b}. Может, ему что-нибудь нужно..."
     show mrsj 14
     show debbie 165f
-    deb "Что ж, спасибо за беседу {b}Tammy{/b}. Приходите к нам снова!"
+    deb "Что ж, спасибо за беседу {b}Тэмми{/b}. Приходите к нам снова!"
     show debbie 164f
     show mrsj 17
     mrsjo "Хорошо! Вы двое заботитесь друг о друге, слышите?"
@@ -205,7 +205,7 @@ label home_front_mom_car_fixed:
     show player 5f
     show jai 2
     jaing "Ну, мне пришлось заменить всю эту чертову штуку, но да. Я закончил."
-    jaing "Просто еще один день из жизни {b}Jiang{/b} из Car Whisperer. Не нужно меня благодарить."
+    jaing "Просто еще один день из жизни {b}Цзян{/b} из Car Whisperer. Не нужно меня благодарить."
     show player 11f
     jaing "Гек Гек."
     jaing "Я лучше отправлюсь в путь!"
@@ -311,7 +311,7 @@ label home_front_mom_car_fixed_check_car:
     show debbie car 3
     show player car 4c
     show player_arms car 1 with dissolve
-    player_name "Я знаю ... Я действительно стараюсь не делать этого, но ты очень красивая."
+    player_name "Я знаю... Я действительно стараюсь не делать этого, но ты очень красивая."
     show player car 3
     show debbie car 4
     deb "..."
@@ -326,7 +326,7 @@ label home_front_mom_car_fixed_check_car:
     player_name "{b}[deb_name]{/b}?"
     show player car 3
     show debbie car 3b
-    deb "Shhh."
+    deb "Шшш."
     show debbie car 5b
     show debbie_arms_car 5 with dissolve
     deb "Для юношей твоего возраста нормально возбуждаться при первой же возможности."
@@ -368,9 +368,9 @@ label home_front_mom_car_fixed_check_car_little_longer:
     return
 
 label mom_car_jerk_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -425,7 +425,7 @@ label home_front_mom_car_fixed_check_car_finished_too_much:
     show debbie car 5
     show debbie_arms_car 1 with dissolve
     show player car 5
-    player_name "но, {b}[deb_name]{/b}-"
+    player_name "Но, {b}[deb_name]{/b}-"
     show player car 3
     return
 
@@ -481,7 +481,7 @@ label home_front_mom_bad_guys_revisit:
     pause
     hide cutscene
     play audio smack
-    show expression Cutscene("henchman_cs2 3", "... Затем один из головорезов повалил ее на пол!") as cutscene with hpunch
+    show expression Cutscene("henchman_cs2 3", "... Затем один из головорезов повалил её на пол!") as cutscene with hpunch
     pause
     hide cutscene
     show expression Cutscene("henchman_cs2 3", "Я никак не мог просто стоять и смотреть...\nЯ {b}должен{/b} что-то сделать!") as cutscene
@@ -538,7 +538,7 @@ label home_front_mom_bad_guys_revisit:
     henchman2 "Что касается властей..."
     show henchman2 2
     henchman2 "... Я бы оставил их в покое, если Вы не хотите, чтобы это стало {b}НАСТОЯЩЕЙ{/b} проблеммой!"
-    henchman2 "Если вы дорожите своими жизнями, вы{b}принесите деньги{/b} на {b}склад{/b} как вам сказали!"
+    henchman2 "Если вы дорожите своими жизнями, вы {b}принесите деньги{/b} на {b}склад{/b} как вам сказали!"
     show henchman2 4
     henchman2 "Вы же не хотите, чтобы мы возвращались сюда! {b}Все понятно{/b}, дамочка?!"
     show player 184
@@ -655,7 +655,7 @@ label home_front_mom_bad_guys_revisit:
     player_name "{b}[deb_name]{/b}??"
     player_name "Почему ты-"
     show debbies 30
-    deb "Shhh, Все хорошо, милый."
+    deb "Шшш, Все хорошо, милый."
     deb "Позволь помочь тебе..."
     show debbies 34
     deb "Ты заслужил это, после того, что ты сделал там."
@@ -733,7 +733,7 @@ label home_front_mom_bad_guys_revisit:
     show debbie 35
     deb "Я полагаю, мы можем сделать это снова."
     show debbie 36
-    deb "Но ты не должен {b}никому{/b} говорить  и мы не можем заходить слишком далеко!"
+    deb "Но ты не должен {b}никому{/b} говорить и мы не можем заходить слишком далеко!"
     show debbie 34
     deb "..."
     show debbie 36
@@ -778,7 +778,7 @@ label player_mailbox_dialogue:
     if erik.completed(erik_orcette) and not player.has_item("orcette") and not erik.known(erik_orcette_2) and orcette_mail_lock:
         call expression game.dialog_select("player_mailbox_erik_orcette_completed_pre")
         menu:
-            player_name "Пакет адресован мне. Это должна быть {b} игрушка Эрика {/b}."
+            player_name "Пакет адресован мне. Это должна быть {b}игрушка Эрика{/b}."
             "Не открывать.":
                 pause
             "Открыть.":
@@ -808,7 +808,7 @@ label player_mailbox_erik_orcette_completed_open:
     with dissolve
     pause
     player_name "( Так вот чего он так долго ждал... )"
-    player_name "( {b}Orcette{/b}. )"
+    player_name "( {b}Орцетте{/b}. )"
     player_name "( Я лучше положу это обратно в коробку. )"
     return
 
@@ -882,13 +882,13 @@ label home_roxxy_studying_at_mcs:
     deb "Кто это?"
     show debbie 14
     show player 14
-    player_name "{b}[deb_name]{/b}, это {b}Roxxy{/b}."
+    player_name "{b}[deb_name]{/b}, это {b}Рокси{/b}."
     player_name "Я помогаю ей по французкому языку."
     show player 13
     show debbie 3
     deb "Ну, это хорошо!"
     show debbie 2
-    deb "Я рада с вами познакомиться, {b}Roxxy{/b}."
+    deb "Я рада с вами познакомиться, {b}Рокси{/b}."
     show debbie 1
     show roxxy 1bf
     rox "... Спасибки."
@@ -923,7 +923,7 @@ label home_roxxy_studying_at_mcs:
     rox "Твоя хозяйка очень милая..."
     show roxxy 1
     show player 33
-    player_name "Ага,я счастливчик."
+    player_name "Ага, я счастливчик."
     show player 13
     show roxxy 30
     rox "Итак, это твоя комната?"
@@ -1003,7 +1003,7 @@ label home_roxxy_studying_at_mcs:
     show roxxy 35d
     show player bed 5
     player_name "Ой, да ладно. Ты даже не пробовала."
-    player_name "Я думаю, ты умнее, чем считаешь, {b}Roxxy{/b}."
+    player_name "Я думаю, ты умнее, чем считаешь, {b}Рокси{/b}."
     show player bed 4
     show roxxy 38b
     rox "..."
@@ -1040,7 +1040,7 @@ label home_roxxy_studying_at_mcs:
     with dissolve
     scene expression "backgrounds/location_home_bedroom_cutscene10.jpg"
     with fade
-    show text "Я провел часы, пытаясь уговорить {b}Roxxy{/b} учиться.\nВ основном она просто наблюдала за моей работой и задавала неудобные вопросы о моем опыте с девушками.\n... Но в конце концов мне удалось научить ее тому, что ей нужно знать." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я провел часы, пытаясь уговорить {b}Рокси{/b} учиться.\nВ основном она просто наблюдала за моей работой и задавала неудобные вопросы о моем опыте с девушками.\n... Но в конце концов мне удалось научить ее тому, что ей нужно знать." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1141,7 +1141,7 @@ label home_front_roxxy_cookies_and_milk:
     show debbie 3
     deb "Конечно, все в порядке!"
     show debbie 2
-    deb "... Тебя зовут {b}Roxxy{/b}, да?"
+    deb "... Тебя зовут {b}Рокси{/b}, да?"
     show debbie 1
     show roxxy 33f
     rox "Да, мэм."
@@ -1161,7 +1161,7 @@ label home_front_roxxy_cookies_and_milk:
     show player 5 at left
     show roxxy 1l
     with dissolve
-    rox "Твоя {b}Landlady{/b} когда-нибудь носила одежду?"
+    rox "Твоя {b}Хозяйка{/b} когда-нибудь носила одежду?"
     show roxxy 1k
     show player 10
     player_name "А?"
@@ -1176,7 +1176,7 @@ label home_front_roxxy_cookies_and_milk:
     rox "Что, черт возьми, я собираюсь делать!"
     show roxxy 29 at Position (xoffset=-33)
     show player 10
-    player_name "Успокойся, {b}Roxxy{/b}."
+    player_name "Успокойся, {b}Рокси{/b}."
     player_name "Нет смысла волноваться, пока мы не выясним все детали."
     show player 5
     show roxxy 3c at Position (xoffset=-33)
@@ -1218,7 +1218,7 @@ label home_front_roxxy_cookies_and_milk:
     show player 13
     show debbie 217
     deb "Немного свежего молока и печенки..."
-    deb "Это идеальная вещь, чтобы ты чувствовала себя лучше после тяжелого дня, {b}Roxxy{/b}!"
+    deb "Это идеальная вещь, чтобы ты чувствовала себя лучше после тяжелого дня, {b}Рокси{/b}!"
     show debbie 219 with dissolve
     show roxxy 27f at Position (xoffset=33)
     show player 428
@@ -1270,7 +1270,7 @@ label home_front_roxxy_cookies_and_milk:
     rox "{b}*фырк*{/b}."
     show roxxy 32
     show player 10
-    player_name "Давайте поедим, а затем мы отправимся в{b}полицейский участок{/b} и разберемся."
+    player_name "Давайте поедим, а затем мы отправимся в {b}полицейский участок{/b} и разберемся."
     show player 13
     show roxxy 33
     rox "... Да, давай."

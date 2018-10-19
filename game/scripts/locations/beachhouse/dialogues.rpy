@@ -1,11 +1,11 @@
 label beachhouse_not_bought:
     scene expression player.location.background_blur
     show player 3 at left
-    player_name "Эх...ключа то нету..."
+    player_name "Эх... ключа то нету..."
     show player 4 at left
     player_name "Хмм... Этот домик продаётся..."
     show player 1 at left with dissolve
-    player_name "Можно попытаться накопить их тех денег, которые {b}Тётя Диана{/b} мне платит..."
+    player_name "Можно попытаться накопить из тех денег, которые {b}Тётя Диана{/b} мне платит..."
     with dissolve
     return
 

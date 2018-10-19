@@ -23,13 +23,13 @@ label sara_bikini_picked_up:
         show player 655 with dissolve
         player_name "Хмм..."
         show player 655b
-        player_name "Это немного маловато для {b}Roxxy{/b} но это может сработать."
+        player_name "Это немного маловато для {b}Рокси{/b}, но это может сработать."
         show player 655
         player_name "..."
         show player 655b
-        player_name "Я не могу поверить что {b}Miss Sara{/b} была одета в эту крошечную вещь!"
-        player_name "Хмм, Я сомневаюсь, что она возражала бы, если я одолжу ето  на некоторое время."
-        player_name "Я должен взять это для {b}Roxxy{/b} и увидеть что она думает..."
+        player_name "Я не могу поверить что {b}Мисс Сара{/b} была одета в эту крошечную вещь!"
+        player_name "Хмм, Я сомневаюсь, что она будет возражать, если я одолжу ето на некоторое время."
+        player_name "Я должен взять это для {b}Рокси{/b} и увидеть что она думает..."
         hide player with dissolve
         $ player.get_item("sara_bikini")
     else:

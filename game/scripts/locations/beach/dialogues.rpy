@@ -1,5 +1,5 @@
 label treasure_open_no_key:
-    player_name "( Даже если бы у меня была комбинация, мне всё равно надо найти  {b}ключ{/b}! )"
+    player_name "( Даже если бы у меня была комбинация, мне всё равно надо найти {b}ключ{/b}! )"
     return
 
 label beach_island_aqua_treasure_search:
@@ -7,7 +7,7 @@ label beach_island_aqua_treasure_search:
     show player 11 at left with dissolve
     pause
     show player 10
-    player_name "Какая {b}интересная статуя.{/b}"
+    player_name "Какая {b}интересная статуя{/b}."
     show player 2
     player_name "..."
     player_name "Согласно карте, {b}сокровища{/b} должны быть здесь."
@@ -17,9 +17,9 @@ label beach_island_aqua_treasure_search:
 label beach_statue_no_shovel:
     scene location_beach_island_blur
     show player 2 at left
-    player_name "( Без лопаты я {b}клад{/b} не {b}выкопаю.{/b} )"
+    player_name "( Без лопаты я {b}клад{/b} не {b}выкопаю{/b}. )"
     show player 4
-    player_name "( ...Кажись, где-то {b}дома{/b} я её видел. )"
+    player_name "( ...Кажись, я видел её где-то {b}дома{/b}. )"
     hide player with dissolve
     return
 
@@ -85,7 +85,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     scene expression game.timer.image("backgrounds/location_beach_water_day{}_blur.jpg")
     show player 13f at right with dissolve
     player_name "( Вау, это идеальный день для пляжа! )"
-    player_name "( Интересно,а девочки уже здесь? )"
+    player_name "( Интересно, а девочки уже здесь? )"
     hide player
     show roxxy bikini 17f at right
     with dissolve
@@ -96,7 +96,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy bikini 1f at Position (xpos=500)
     show player 14f at right
     with dissolve
-    player_name "Э-эй, {b}Roxxy{/b}..."
+    player_name "Э-эй, {b}Рокси{/b}..."
     show player 13f
     show roxxy bikini 2f
     rox "Я рада, что у тебя получилось!"
@@ -110,7 +110,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     missy "Привет, {b}[firstname]{/b}!!!"
     show missy bikini 1
     show player 14f
-    player_name "Привет, {b}Missy{/b}! {b}Becca{/b}..."
+    player_name "Привет, {b}Мисси{/b}! {b}Бекка{/b}..."
     player_name "Вы выглядите красивыми в купальниках!"
     show player 13f
     show missy bikini 2b
@@ -130,7 +130,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player 5f
     player_name "..."
     show roxxy bikini 19 at Position (xpos=600) with dissolve
-    rox "Ты собираешься быть стервой весь день, {b}Becca{/b}?"
+    rox "{b}Бекка{/b}, ты собираешься быть стервой весь день?"
     show roxxy bikini 20
     show becca bikini 11
     becca "... возможно."
@@ -140,7 +140,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     rox "{b}*Вздох*{/b}"
     show roxxy bikini 20
     show player 10f
-    player_name "... {b}Becca{/b}, Я..."
+    player_name "... {b}Бекка{/b}, Я..."
     show missy bikini 1
     show roxxy bikini 1f at Position (xpos=500) with dissolve
     player_name "... Я принес тебе кое-что!"
@@ -170,7 +170,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     becca "То есть..."
     show becca bikini 7b
     show roxxy bikini 2
-    rox "Видишь {b}Becca{/b}."
+    rox "Видишь {b}Бекка{/b}."
     rox "{b}[firstname]{/b} хороший парень!"
     show roxxy bikini 1
     show missy bikini 2b
@@ -185,7 +185,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     missy "Милый ботан!"
     show missy bikini 1b
     show roxxy bikini 2
-    rox "Ладно, {b}Missy{/b}! Мы поняли!"
+    rox "Ладно, {b}Мисси{/b}! Мы поняли!"
     show roxxy bikini 2f at Position (xpos=500) with dissolve
     rox "Давайте начнем вечеринку."
     rox "Мне нужно немного солнца!"
@@ -194,7 +194,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     with dissolve
     becca "Не могу поверить, что он принес мне {b}Золотой Шваггер{/b}!"
     hide becca with dissolve
-    becca "{b}Dexter{/b} всегда забывал!"
+    becca "{b}Декстер{/b} всегда забывал!"
     show player 17f
     player_name "..."
     show missy bikini 2b
@@ -209,9 +209,9 @@ label beach_roxxy_spin_bottle_goldschwagger:
     with fade
     show text "Прекрасная погода. Красивый пляж. Красивые девушки...\n... Что еще нужно пареньку?!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Becca{/b} и {b}Missy{/b} возможно, не были величайшими собеседниками в мире...\nНо они восполнили эти недостатки другими способами!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Бекка{/b} и {b}Мисси{/b} возможно, не были величайшими собеседниками в мире...\nНо они восполнили эти недостатки другими способами!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... и {b}Roxxy{/b} оказалась на удивление хорошей компанией!\nМне показалось, что мы близки к тому, чтобы стать друзьями..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... и {b}Рокси{/b} оказалась на удивление хорошей компанией!\nМне показалось, что мы близки к тому, чтобы стать друзьями..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -315,7 +315,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2
     player_name "Хмм?"
     show missy sitting 3
-    missy "Правда ли, что у ботаников огромные члены ?!"
+    missy "Правда ли, что у ботаников огромные члены?!"
     show becca sitting 8
     show roxxy sitting 8
     becca "!!!" with hpunch
@@ -323,7 +323,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2
     show becca sitting 7b
     show roxxy sitting 7
-    becca "Какого черта, {b}Missy{/b}?!"
+    becca "Какого черта, {b}Мисси{/b}?!"
     show becca sitting 6b
     show roxxy sitting 3
     rox "Хорошоооо!"
@@ -334,7 +334,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     missy "Да ладно, разве вам не любопытно?!"
     show missy sitting 2
     show becca sitting 3
-    becca "Хахаха, ты такая тупая шлюха, {b}Missy{/b}..."
+    becca "Хахаха, ты такая тупая шлюха, {b}Мисси{/b}..."
     show becca sitting 2
     show roxxy sitting 5
     rox "Хахаха!"
@@ -381,7 +381,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     rox "..."
     show roxxy sitting 6
     rox "О, нет ... Не совсем."
-    rox "... Я сомневаюсь что {b}Becca{/b} хоч-"
+    rox "... Я сомневаюсь что {b}Бекка{/b} хоч-"
     show roxxy sitting 2
     show becca sitting 3
     becca "Я в игре!"
@@ -477,7 +477,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player_sitting 3b
     show roxxy sitting 6
     rox "Подожди-ка!"
-    rox "... она остановилась на {b}Becca{/b}. А не на {b}[firstname]{/b}!"
+    rox "... она остановилась на {b}Бекка{/b}. А не на {b}[firstname]{/b}!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
@@ -564,7 +564,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     call screen spin_bottle("becca", True)
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Becca{/b} опять!"
+    missy "{b}Бекка{/b} опять!"
     missy "Это подстроено!"
     show missy sitting 8
     hide player_sitting
@@ -620,7 +620,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Becca{/b}!!!"
+    missy "{b}Бекка{/b}!!!"
     show missy sitting 8
     show becca sitting 6b
     becca "Хмм?"
@@ -645,7 +645,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     call screen spin_bottle("missy", True)
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Хммм, {b}Missy{/b}..."
+    rox "Хммм, {b}Мисси{/b}..."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 3
@@ -696,12 +696,12 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 3
-    missy "Воу... {b}Roxxy{/b}, ты на вкус как вишня!"
+    missy "Воу... {b}Рокси{/b}, ты на вкус как вишня!"
     show missy sitting 2
     show roxxy sitting 6
     rox "Охх... хорошо."
     show roxxy sitting 3
-    rox "{b}Becca{/b} твоя очередь."
+    rox "{b}Бекка{/b} твоя очередь."
     show roxxy sitting 2
     show becca sitting 4 with dissolve
     call screen spin_bottle("mc", True)
@@ -735,7 +735,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     rox "..."
     show player front sitting 7
     show becca front sitting 3b
-    rox "... Ты должен поиграть ее титьками, {b}[firstname]{/b}."
+    rox "... Ты должен поиграть с её титьками, {b}[firstname]{/b}."
     hide player
     hide player_arms
     hide player_shadow
@@ -774,7 +774,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2 with dissolve
     call screen spin_bottle("becca", True)
     show missy sitting 7
-    missy "Да ладно, {b}Becca{/b} опять?!"
+    missy "Да ладно, {b}Бекка{/b} опять?!"
     missy "Что за черт!"
     show missy sitting 8
     show roxxy sitting 3
@@ -798,13 +798,13 @@ label beach_roxxy_spin_bottle_goldschwagger:
     pause
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
-    rox "Now that's much better."
+    rox "Теперь это намного лучше."
     show becca front sitting 3bf at Position (xoffset=-4)
     show missy front sitting 3 at Position (xoffset=4)
     player_name "..."
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
-    rox "I bet you're glad you came to hang out with us tonight. Huh, {b}[firstname]{/b}?"
+    rox "Готова поспорить, ты рад, что сегодня вечером пошёл к нам. Хм, {b}[firstname]{/b}?"
     show becca front sitting 3bf at Position (xoffset=-4)
     show missy front sitting 3 at Position (xoffset=4)
     player_name "... Определенно!"
@@ -827,7 +827,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2
     show becca sitting 7b
     becca "Не знаю кто тебе это сказал, но они солгали!"
-    becca "Ты ... весь язык!"
+    becca "Ты... весь язык!"
     show missy sitting 8
     show becca sitting 2
     show roxxy sitting 5
@@ -850,7 +850,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     rox "О, похоже, это твоя счастливая ночь."
     show roxxy sitting 2
     show missy sitting 7
-    missy "Это отстой ..."
+    missy "Это отстой..."
     show missy sitting 8
     hide player_sitting
     hide roxxy
@@ -907,7 +907,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 8
     rox "..."
     show missy sitting 7
-    missy "{b}Roxxy{/b}!!!"
+    missy "{b}Рокси{/b}!!!"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 3
@@ -923,11 +923,11 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Becca{/b} опять."
+    missy "{b}Бекка{/b} опять."
     show missy sitting 8
     rox "..."
     show missy sitting 7
-    missy "Почему всегда {b}Becca{/b}?!"
+    missy "Почему всегда {b}Бекка{/b}?!"
     show missy sitting 8
     hide roxxy
     hide becca
@@ -948,7 +948,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy front sitting 3 at Position (xoffset=5)
     show roxxy_arm front sitting 2d
     show becca front sitting 3bf
-    missy "Она на самом деле потянулась за ее сиськами!"
+    missy "Она на самом деле потянулась за её сиськами!"
     show roxxy front sitting 3b at Position (xoffset=5)
     show roxxy_arm front sitting 2c
     show becca front sitting 3f
@@ -965,7 +965,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    becca "Какого черта, {b}Roxxy{/b}?!"
+    becca "Какого черта, {b}Рокси{/b}?!"
     show becca sitting 6
     show roxxy sitting 6
     rox "О, не делай вид, будто тебе это не нравится."
@@ -1020,25 +1020,25 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Заткнись, {b}Missy{/b}!"
+    rox "Заткнись, {b}Мисси{/b}!"
     show roxxy sitting 3
     rox "Некоторые из нас пытаются насладиться шоу!"
-    rox "Иди {b}[firstname]{/b} и играйте с ее сиськами на этот раз!"
+    rox "Иди {b}[firstname]{/b} и поиграй с её сиськами на этот раз!"
     show roxxy sitting 2
     show player_sitting 4b
     player_name "... Правда?"
     show player_sitting 3b
     show roxxy sitting 3
     rox "Черт возьми, да!"
-    rox "У {b}Becca{/b} хорошая стойка."
+    rox "У {b}Бекки{/b} хорошая стойка."
     show roxxy sitting 6
     rox "... Не так хороша, как у меня, но..."
     show roxxy sitting 2
     show becca sitting 7
-    becca "Пошла ты, {b}Roxxy{/b}."
+    becca "Пошла ты, {b}Рокси{/b}."
     show becca sitting 6
     show roxxy sitting 3
-    rox "Ты же знаешь, что хочешь, сука ..."
+    rox "Ты же знаешь, что хочешь, сука..."
     show roxxy sitting 2
     show missy sitting 3
     missy "Я хочу!"
@@ -1107,7 +1107,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 3
-    rox "... Ох, заткнись, {b}Missy{/b}."
+    rox "... Ох, заткнись, {b}Мисси{/b}."
     show roxxy sitting 6
     rox "Посмотрите на нее."
     rox "Пару часов назад она не хотела с ним ничего делать."
@@ -1159,7 +1159,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy sitting 5
     rox "Хахаха!"
     show roxxy sitting 3
-    rox "Ты грязная шлюшка, {b}Missy{/b}!"
+    rox "Ты грязная шлюшка, {b}Мисси{/b}!"
     show roxxy sitting 2
     show becca sitting 2
     show missy sitting 7
@@ -1205,7 +1205,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     scene expression "backgrounds/location_beach_cutscene03.jpg" with fade
     show text "Это оказалась замечательная ночь!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Не могу поверить что встречался с {b}Roxxy{/b} и {b}ее подружками{/b}!\nНикто мне не поверит!\n... И {b}Roxxy{/b} подталкивала их к дальнейшему!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Не могу поверить что встречался с {b}Рокси{/b} и {b}её подружками{/b}!\nНикто мне не поверит!\n... И {b}Рокси{/b} подталкивала их к дальнейшему!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Интересно, зачем она это делала?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -1222,7 +1222,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     player_name "Очень поздно."
     show player 13f
     show missy bikini 2
-    missy "О, но....."
+    missy "О, нет....."
     show missy bikini 1
     show roxxy bikini 2 at Position (xpos=600) with dissolve
     rox "{b}[firstname]{/b} прав."
@@ -1235,14 +1235,14 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show becca bikini 9
     show roxxy bikini 2
     rox "Ага, точно."
-    rox "Я ее не понесу!"
+    rox "Я её не понесу!"
     show roxxy bikini 1
     show missy bikini 8
-    missy "Эй, в последний раз я ее несла!"
+    missy "Эй, в последний раз я её несла!"
     show missy bikini 1
     show roxxy bikini 2
     rox "Ну, тебе лучше надеяться, что она сама дойдет до дома."
-    rox "'Потому, что я ее не понесу!"
+    rox "'Потому, что я её не понесу!"
     show roxxy bikini 1
     show missy bikini 8
     missy "Ахх, блин..."
@@ -1263,7 +1263,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     with dissolve
     rox "Увидемся в школе, {b}[firstname]{/b}."
     show roxxy bikini 18f
-    player_name "Спасибо за приглашение, {b}Roxxy{/b}!"
+    player_name "Спасибо за приглашение, {b}Рокси{/b}!"
     hide roxxy
     show roxxy bikini 2f at Position (xpos=500)
     show player 13f at right
@@ -1292,15 +1292,15 @@ label beach_roxxy_spin_bottle_goldschwagger:
     player_name "О, ну."
     show player 17f
     player_name "( Чувак, ну и ночка выдалась! )"
-    player_name "( Мне лучше вернуться домой, пока {b}Debbie{/b} не начала волноваться. )"
+    player_name "( Мне лучше вернуться домой, пока {b}[deb_char_name]{/b} не начала волноваться. )"
     hide player with dissolve
     return
 
 label beach_roxxy_spin_bottle_no_goldschwagger:
     scene expression game.timer.image("backgrounds/location_beach_water_day{}_blur.jpg")
     show player 5 with dissolve
-    player_name "( {b}Roxxy{/b} и ее друзья там, но я не могу пойти с пустыми руками! )"
-    player_name "Я должен поговорить с {b}Captain Terry{/b} о бутылке {b}GoldSchwagger{/b} для {b}Becca{/b} сначала... )"
+    player_name "( {b}Рокси{/b} и ее друзья там, но я не могу пойти с пустыми руками! )"
+    player_name "Я должен поговорить с {b}Капитаном Терри{/b} о бутылке {b}GoldSchwagger{/b} для {b}Бекки{/b} сначала... )"
     hide player with dissolve
     return
 
@@ -1322,28 +1322,28 @@ label beach_roxxy_spin_bottle_wrong_time:
     becca "Хахаха, ботанский ботан!"
     show becca bikini 1b
     show player 12f
-    player_name "{b}Becca{/b} вставило?"
+    player_name "{b}Бекка{/b} вставило?"
     show becca bikini 17
     show missy bikini 1
     show player 5f
     show roxxy bikini 19bf
-    rox "Да, мы собирались отвезти ее домой..."
+    rox "Да, мы собирались отвезти её домой..."
     show roxxy bikini 20f
     show player 10f
     player_name "О, понятно."
     show becca bikini 1b
-    player_name "Вам нужна помощь или что-то еще?"
+    player_name "Вам нужна помощь или что-то ещё?"
     show player 5f
     show roxxy bikini 19f
     rox "Нет, мы сами."
     rox "Я думала, когда самая популярная девушка в школе приглашает тебя на вечеринку, ты приходишь вовремя..."
     show roxxy bikini 20f
     show player 10f
-    player_name "Прости, {b}Roxxy{/b}. Я, должно быть, запуталась..."
+    player_name "Прости, {b}Рокси{/b}. Я, должно быть, запуталась..."
     show player 5f
     show roxxy bikini 19f
     rox "Да, или ты меня не слушал!"
-    rox "В любом случае, я должен позаботиться о пьяной заднице {b}Becca{/b} ..."
+    rox "В любом случае, я должен позаботиться о пьяной заднице {b}Бекки{/b} ..."
     hide roxxy
     hide becca
     with dissolve
@@ -1355,11 +1355,11 @@ label beach_roxxy_spin_bottle_wrong_time:
     show missy bikini 2
     missy "Ничего страшного, {b}[firstname]{/b}"
     missy "{b}Просто приходи днем в следующие выходные{/b}."
-    missy "{b}Roxxy{/b} будет здесь."
+    missy "{b}Рокси{/b} будет здесь."
     show missy bikini 1
     show player 10f
     player_name "А, хорошо."
-    player_name "Спасибо, {b}Missy{/b}."
+    player_name "Спасибо, {b}Мисси{/b}."
     show player 5f
     show missy bikini 2b
     missy "Пока!"
@@ -1376,7 +1376,7 @@ label beach_roxxy_invite_to_bikini_contest:
     show player 31f with dissolve
     player_name "..."
     show player 32f
-    player_name "Хей, это же {b}Captain Terry{/b} там?!"
+    player_name "Хей, это же {b}Капитан Терри{/b} там?!"
     player_name "Я должен пойти и посмотреть, что он делает здесь."
     hide player with dissolve
     return
@@ -1386,7 +1386,7 @@ label beach_cabin_roxxy_in_cabin:
     show roxxy bikini 13f at right
     show player 10 at left
     with dissolve
-    player_name "... {b}Roxxy{/b}?"
+    player_name "... {b}Рокси{/b}?"
     player_name "Ты в порядке?"
     show player 5
     show roxxy bikini 15f
@@ -1395,7 +1395,7 @@ label beach_cabin_roxxy_in_cabin:
     show roxxy bikini 14f
     show player 10
     player_name "Не так все плохо."
-    player_name "Я не думаю, что кто-нибудь видел кроме {b}Becca{/b} и меня..."
+    player_name "Я не думаю, что кто-нибудь видел кроме {b}Бекки{/b} и меня..."
     show player 5
     show roxxy bikini 15f
     rox "... Правда?"
@@ -1425,7 +1425,7 @@ label beach_cabin_roxxy_in_cabin:
     show player 34
     player_name "..."
     show player 14
-    player_name "Не волнуйся, {b}Roxxy{/b}."
+    player_name "Не волнуйся, {b}Рокси{/b}."
     player_name "Я щас пойду и куплю тебе новый!"
     show player 13
     show roxxy bikini 15
@@ -1446,14 +1446,14 @@ label beach_cabin_roxxy_in_cabin:
     show player 10
     player_name "Ну, на пляже..."
     show player 14
-    player_name "{b} Где-то же должен быть еще купальник.{/b}"
+    player_name "{b}Где-то же должен быть ещё купальник{/b}."
     show player 13
     show roxxy bikini 15b
-    rox "Иди и скажи {b}Becca{/b} чтобы она отдала мне свой!"
+    rox "Иди и скажи {b}Бекка{/b} чтобы она отдала мне свой!"
     show roxxy bikini 15c
     show player 12
     player_name "Ааа?"
-    player_name "Ты хочешь взять {b}Becca's{/b} купальник?"
+    player_name "Ты хочешь взять купальник {b}Бекки{/b}?"
     show player 5
     show roxxy bikini 15b
     rox "Да, эта сука отдаст его мне, если я ей скажу."
@@ -1470,7 +1470,7 @@ label beach_cabin_roxxy_in_cabin:
     show player 5
     show roxxy bikini 15b
     rox "Хмм, ладно!"
-    rox "Я дам тебе 10 минут, а потом забуру у {b}Becca's{/b}..."
+    rox "Я дам тебе 10 минут, а потом забуру у {b}Бекки{/b}..."
     show roxxy bikini 15c
     show player 10
     player_name "Я быстро."
@@ -1492,7 +1492,7 @@ label beach_cabin_roxxy_get_new_bikini:
     show player 5
     show roxxy bikini 15b
     rox "Хррр!"
-    rox "Ну, лучше найди побыстрее, или я заберу у {b}Becca's{/b}..."
+    rox "Ну, лучше найди побыстрее, или я заберу у {b}Бекки{/b}..."
     hide roxxy with dissolve
     show player 10
     player_name "Хмм, {b}Я должен найти здесь бикини, которую никто не использует{/b}."
@@ -1504,7 +1504,7 @@ label beach_cabin_roxxy_has_bikini:
     show roxxy bikini 14 at right
     show player 14 at left
     with dissolve
-    player_name "{b}Roxxy{/b}, вроде нашел!"
+    player_name "{b}Рокси{/b}, вроде нашел!"
     show roxxy bikini 15
     rox "Правда?!"
     rox "Покажи, покажи!"
@@ -1600,8 +1600,8 @@ label beach_cabin_roxxy_has_bikini:
     player_name "{b}*глоток*{/b}"
     show roxxy bikini usa 12 with dissolve
     rox "Ха, ты стесняешься меня, {b}[firstname]{/b}?"
-    rox "Я могу попросить {b}Becca{/b} если ты не можешь..."
-    rox "Я просто подумала, ты нашел бикини и еще..."
+    rox "Я могу попросить {b}Бекки{/b} если ты не можешь..."
+    rox "Я просто подумала, ты нашел бикини и ещё..."
     show roxxy bikini usa 13
     show player 36 with dissolve
     player_name "Н-нет! Я готов!"
@@ -1629,7 +1629,7 @@ label beach_tower_roxxy_get_oil:
     with fade
     show text "Я практически поднялся по лестнице на башню спасателя!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Roxxy{/b} действительно позволит мне втереть масло в ее тело перед соревнованием!\nПросто неверится!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Рокси{/b} действительно позволит мне втереть масло в ее тело перед соревнованием!\nПросто неверится!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Я должен быстрее найти бутылку, чтобы быть как можно больше времени с ней!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -1638,7 +1638,7 @@ label beach_tower_roxxy_get_oil:
 
     scene expression "backgrounds/location_beach_tower_day_blur.jpg"
     show player 14 with fastdissolve
-    player_name "( Хмм, {b}Roxxy{/b} сказала что я найду {b}бутылку с маслом{/b} где-то здесь! )"
+    player_name "( Хмм, {b}Рокси{/b} сказала что я найду {b}бутылку с маслом{/b} где-то здесь! )"
     hide player with fastdissolve
     return
 
@@ -1647,7 +1647,7 @@ label beach_cabin_roxxy_get_oil:
     show player 29 with fastdissolve
     player_name "Боже мой! Что я делаю?!"
     show player 29f with fastdissolve
-    player_name "Я должен {b}найти эту бутылку масла{/b} на {b}вышке спасателя{/b} прежде чем {b}Roxxy{/b} передумает!"
+    player_name "Я должен {b}найти эту бутылку масла{/b} на {b}вышке спасателя{/b} прежде чем {b}Рокси{/b} передумает!"
     hide player with fastdissolve
     return
 
@@ -1694,7 +1694,7 @@ label beach_cabin_roxxy_has_oil:
     show roxxy massage 2
     rox "... Ты что, никогда раньше не тер плечи девушкам?"
     show roxxy massage 1
-    player_name "Ну- Нет!"
+    player_name "Ну - Нет!"
     player_name "Я имею в виду... Конечно, я натирал плечи многим девушкам!"
     show roxxy massage 2
     rox "Ух хух..."
@@ -1753,10 +1753,10 @@ label beach_cabin_roxxy_has_oil:
     show roxxy massage 9_10 with dissolve
     rox "Не останавливойся!"
     rox "Не остан-"
-    becca "{b}Roxxy{/b} время начинать -"
+    becca "{b}Рокси{/b} время начинать -"
     scene expression "backgrounds/location_beach_cutscene04.jpg"
     with fade
-    show text "Повезло...\n{b}Missy{/b} и {b}Becca{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Повезло...\n{b}Мисси{/b} и {b}Бекка{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1776,14 +1776,14 @@ label beach_cabin_roxxy_has_oil:
     pause
     show missy bikini 15 with dissolve
     missy "Я так и знала, черт возьми!"
-    missy "Смотри, {b}Becca{/b}?"
+    missy "Смотри, {b}Бекка{/b}?"
     missy "Я же говорила что у ботанов огромные члены!"
     show becca bikini 15
     show missy bikini 14
     becca "..."
     show player 78f
     show becca bikini 18
-    becca "Извени,мы не верили-"
+    becca "Извени, мы не верили-"
     show becca bikini 15
     becca "..."
     show becca bikini 18
@@ -1797,14 +1797,14 @@ label beach_cabin_roxxy_has_oil:
     show roxxy bikini usa 17
     becca "..."
     show becca bikini 2b
-    becca "Ну, это не выглядит безобидно {b}Roxxy{/b}..."
+    becca "Ну, это не выглядит безобидно {b}Рокси{/b}..."
     show becca bikini 1b
     show missy bikini 13
     missy "Серьезно!"
     missy "Можно мне тоже?"
     show missy bikini 14
     show becca bikini 14
-    becca "Заткнись, {b}Missy{/b}!"
+    becca "Заткнись, {b}Мисси{/b}!"
     show becca bikini 16
     show missy bikini 2
     missy "... Что?!"
@@ -1821,14 +1821,14 @@ label beach_cabin_roxxy_has_oil:
     rox "Вы не должны никому об этом говорить!"
     show roxxy bikini usa 17
     show becca bikini 2b
-    becca "Да, {b}Dexter{/b} убьет вас если узнает."
+    becca "Да, {b}Декстер{/b} убьет вас если узнает."
     show becca bikini 1b
     player_name "..."
     rox "..."
     show becca bikini 2
     becca "Мы никому не расскажем."
     show becca bikini 14
-    becca "Правда, {b}Missy{/b}?!"
+    becca "Правда, {b}Мисси{/b}?!"
     show becca bikini 16
     show missy bikini 2b
     missy "Хмм?!"
@@ -1886,7 +1886,7 @@ label beach_cabin_roxxy_has_oil:
     Terry "Как дела, дружище?"
     show tstand 19d
     show player 14
-    player_name "Все отлично, {b}Captain{/b}!"
+    player_name "Все отлично, {b}Капитан{/b}!"
     player_name "Я просто проводил своего друга на сцену."
     show player 13
     show roxxy bikini usa 9f zorder 1 at Position (xpos=400) with dissolve
@@ -1907,8 +1907,8 @@ label beach_cabin_roxxy_has_oil:
     show player 21
     player_name "Да."
     show roxxy bikini usa 17f
-    player_name "У {b}Roxxy{/b} порвался топ в последнюю минуту и я нашел только этот."
-    player_name "Надеюсь вы не против, {b}Miss Sara{/b}?"
+    player_name "У {b}Рокси{/b} порвался топ в последнюю минуту и я нашел только этот."
+    player_name "Надеюсь вы не против, {b}Мисс Сара{/b}?"
     player_name "... Я бы спросил но..."
     show player 11
     show tstand 20
@@ -1927,7 +1927,7 @@ label beach_cabin_roxxy_has_oil:
     Terry "На самом деле он заставляет меня салютовать все больше и больше!"
     Terry "Oh ho ho!"
     show tstand 20
-    sara "Хаха, {b}Terry{/b} ты ужасен!"
+    sara "Хаха, {b}Терри{/b} ты ужасен!"
     sara "Ты выглядишь великолепно, милая!"
     sara "Иди и оставь его!"
     show tstand 20d at right with dissolve
@@ -1958,10 +1958,10 @@ label beach_cabin_roxxy_has_oil:
     player_name "А?"
     show player 5
     show tstand 19c
-    Terry "Oh ho ho!"
+    Terry "Ох хо хо!"
     Terry "Неважно, шкипер."
     show tstand 19
-    Terry "Почему бы тебе не взять мою {b}Sara{/b} и не найти пару мест?"
+    Terry "Почему бы тебе не взять мою {b}Сара{/b} и не найти пару мест?"
     Terry "Мне нужно вести шоу!"
     show player 13
     show tstand 20b
@@ -1976,11 +1976,11 @@ label beach_cabin_roxxy_has_oil:
     hide player with dissolve
     scene expression "backgrounds/location_beach_cutscene05.jpg"
     with fade
-    show text "Соревнование было так здорово смотреть!\nВсе эти красивые женщины в скудных бикини...\n... И {b}Miss Sara{/b} сидит рядом со мной все представление.\nКакой прекрасный день!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Соревнование было так здорово смотреть!\nВсе эти красивые женщины в скудных бикини...\n... И {b}Мисс Сара{/b} сидит рядом со мной все представление.\nКакой прекрасный день!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Roxxy{/b} и ее подружки попали в финал!\n... Но ни у кого не было сомнений, кто победит." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Рокси{/b} и ее подружки попали в финал!\n... Но ни у кого не было сомнений, кто победит." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Ни одна из них не могла сравниться с {b}Roxxy{/b}!!!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Ни одна из них не могла сравниться с {b}Рокси{/b}!!!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1997,7 +1997,7 @@ label beach_cabin_roxxy_has_oil:
     show missy bikini 1
     show becca bikini 1
     show player 14
-    player_name "Поздравляю, {b}Roxxy{/b}!"
+    player_name "Поздравляю, {b}Рокси{/b}!"
     show player 14f at Position (xpos=550) with dissolve
     player_name "Всем вам, правда!"
     show player 13f
@@ -2037,7 +2037,7 @@ label beach_cabin_roxxy_has_oil:
     rox "Спасибо за большую помощь сегодня!"
     show roxxy bikini usa 2
     show becca bikini 2b
-    becca "Ха, да... Это была \"большая помощь\" правда, {b}Roxxy{/b}?!"
+    becca "Ха, да... Это была \"большая помощь\" правда, {b}Рокси{/b}?!"
     show becca bikini 1b
     rox "..."
     show missy bikini 8
@@ -2104,7 +2104,7 @@ label beach_cabin_roxxy_massage:
     rox "У тебя лучший массаж!"
     show roxxy bikini 1
     show player 12
-    player_name "Эй, это же {b}Miss Sara's{/b} бикини?"
+    player_name "Эй, это же {b}Мисс Сара{/b} бикини?"
     show player 13
     show roxxy bikini 2
     rox "Да, она сказала мне сохранить, помнишь?"
@@ -2212,10 +2212,10 @@ label beach_cabin_roxxy_massage:
     show roxxy massage 9_10 with dissolve
     rox "Не останавливойся!"
     rox "Не остан-"
-    missy "{b}Roxxy{/b}, ты здесь?"
+    missy "{b}Рокси{/b}, ты здесь?"
     scene expression "backgrounds/location_beach_cutscene04.jpg"
     with fade
-    show text "Опять, {b}Missy{/b} и {b}Becca{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Опять, {b}Мисси{/b} и {b}Бекка{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -2238,7 +2238,7 @@ label beach_cabin_roxxy_massage:
     show becca bikini 14
     becca "Ха?! Нет!"
     show roxxy bikini usa 17 with dissolve
-    becca "Заткнись, {b}Missy{/b}!"
+    becca "Заткнись, {b}Мисси{/b}!"
     show becca bikini 16
     show missy bikini 8
     missy "Что?"
@@ -2269,7 +2269,7 @@ label beach_cabin_roxxy_massage:
     rox "Извини за них, {b}[firstname]{/b}..."
     show roxxy bikini usa 17f
     show player 83bf
-    player_name "Хех, все в порядке"
+    player_name "Хех, все в порядке."
     player_name "На самом деле это действительно мило."
     show player 83cf
     show roxxy bikini usa 12f
@@ -2302,13 +2302,13 @@ label beach_roxxy_spin_bottle_sex_intro:
     show player 14f at right
     show missy bikini 1 zorder 2 at left
     with dissolve
-    player_name "Хей, {b}Missy{/b}."
+    player_name "Хей, {b}Мисси{/b}."
     show player 13f
     show missy bikini 16 with dissolve
     missy "{b}*вздох*{/b}!"
     show missy bikini 13 with dissolve
     missy "Он здесь!"
-    missy "{b}Roxxy{/b}, {b}Becca{/b}!! Он здесь, Он здесь, Он здесь!!!"
+    missy "{b}Рокси{/b}, {b}Бекка{/b}!! Он здесь, Он здесь, Он здесь!!!"
     show missy bikini 1 with None
     show becca bikini 2 zorder 1 at Position (xpos=315)
     show roxxy bikini 1f zorder 0 at Position (xpos=500)
@@ -2351,7 +2351,7 @@ label beach_roxxy_spin_bottle_sex_intro:
     show player 14f
     show roxxy bikini 1f at Position (xpos=500) with dissolve
     player_name "Итак, что случилось?"
-    player_name "{b}Roxxy{/b}сказала что-то о сюрпризе?"
+    player_name "{b}Рокси{/b} сказала что-то о сюрпризе?"
     show player 13f
     show roxxy bikini 2f
     rox "Да, сказа-"
@@ -2366,7 +2366,7 @@ label beach_roxxy_spin_bottle_sex_intro:
     hide becca
     show missy bikini 18
     with dissolve
-    becca "{b}Missy{/b} заткнись!"
+    becca "{b}Мисси{/b} заткнись!"
     show missy bikini 18b
     show roxxy bikini 19
     rox "Серьезно?!"
@@ -2391,7 +2391,7 @@ label beach_roxxy_spin_bottle_sex_intro:
     show player 13f
     rox "Ммммммм..."
     show roxxy bikini 22f
-    rox "Видишь ли, в определенный момент... Я укажу {b}final spin{/b}."
+    rox "Видишь ли, в определенный момент... Я укажу {b}финальное вращение{/b}."
     rox "Затем ты будешь вращать в последний раз.."
     rox "... И тот, на кого покажет бутылка, присоединится к нам в раздевалке за особую награду."
     show roxxy bikini 21f

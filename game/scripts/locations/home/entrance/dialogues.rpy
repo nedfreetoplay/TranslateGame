@@ -2,7 +2,7 @@ label entrance_erik_bullying:
     scene expression L_home_entrance.background
     show mrsj 19c at right with dissolve
     show player 10 at left with dissolve
-    player_name "Все хорошо, {b}Mrs. Johnson{/b}?"
+    player_name "Все хорошо, {b}Миссис Джонсон{/b}?"
     show player 5
     show mrsj 19
     mrsjo "Извени что беспокою тебя утром."
@@ -20,7 +20,7 @@ label entrance_erik_bullying:
     show mrsj 20
     mrsjo "Нет. Я не говорю об уроках."
     show mrsj 52
-    mrsjo "Другие дети в школе доставляли {b}Erik{/b} много хлопот?"
+    mrsjo "Другие дети в школе доставляли {b}Эрикe{/b} много хлопот?"
     mrsjo "Он попросил остаться дома вместо того, чтобы идти на занятия."
     show mrsj 20
     mrsjo "Я... Я даже видела, как он пришел домой на прошлой неделе с синяками."
@@ -28,7 +28,7 @@ label entrance_erik_bullying:
     show player 23
     player_name "!!!" with hpunch
     show player 12
-    player_name "{b}Erik{/b} ведет себя в школе довольно тихо."
+    player_name "{b}Эрик{/b} ведет себя в школе довольно тихо."
     player_name "Я никогда не видел, чтобы он участвовал в каких-то плохих делах."
     show player 5
     show mrsj 19
@@ -66,7 +66,7 @@ label entrance_erik_bullying_3:
     show player 5
     show debbie 13
     deb "Твоя глупая школа даже не позвонила, чтобы сообщить, что ты в больнице!"
-    deb "Я узнала об этом от {b}Tammy{/b}!"
+    deb "Я узнала об этом от {b}Тэмми{/b}!"
     show debbie 14b
     show player 10
     player_name "{b}[deb_name]{/b}, все в порядке. Я в порядке! Успокойся."
@@ -77,8 +77,8 @@ label entrance_erik_bullying_3:
     show debbie 14b
     show mrsj 19
     mrsjo "Я так рада, что ты в порядке, {b}[firstname]{/b}."
-    mrsjo "Я пришел сюда, чтобы рассказать {b}[deb_name]{/b} вскоре как {b}Erik{/b} позвонил мне."
-    mrsjo "Ты сделал хорошее дело, защищая {b}Erik{/b}."
+    mrsjo "Я пришел сюда, чтобы рассказать {b}[deb_name]{/b} вскоре как {b}Эрик{/b} позвонил мне."
+    mrsjo "Ты сделал хорошее дело, защищая {b}Эрика{/b}."
     show mrsj 38
     show debbie 13
     deb "Да, это было очень храбро с твоей стороны заступиться за своего друга в школе."
@@ -119,7 +119,7 @@ label entrance_erik_bullying_3:
     mrsjo "Спасибо."
     show mrsj 14
     show player 36 with dissolve
-    player_name "Спокойной ночи {b}Mrs. Johnson{/b}."
+    player_name "Спокойной ночи {b}Миссис Джонсон{/b}."
     show player 13 with dissolve
     show mrsj 17
     mrsjo "Спокойной ночи."
@@ -153,7 +153,7 @@ label entrance_mia_angelicas_impatience:
     show debbie 2
     deb "Ну! Оставлю вас двоих, у меня есть дела на кухне!"
     show debbie 2f with dissolve
-    deb "Было приятно познакомиться {b}Sister Angelica{/b}!"
+    deb "Было приятно познакомиться, {b}Сестра Анжелика{/b}!"
     hide debbie with dissolve
     show player 12
     player_name "Волонтерская работа?"
@@ -262,10 +262,10 @@ label entrance_mia_angelicas_home_visit:
     ang "Ты забыл, где твое место? Не заставляй меня напоминать тебе и всем остальным о твоих грехах!"
     show ang 1
     show player 15
-    player_name "Но вы хотите выпороть {b}Helen{/b}!"
+    player_name "Но вы хотите выпороть {b}Хелен{/b}!"
     show player 16
     show ang 2
-    ang "Ты заключил со мной сделку. Не сомневайтесь в моих...церковных методах."
+    ang "Ты заключил со мной сделку. Не сомневайтесь в моих... церковных методах."
     show ang 1
     show player 12
     player_name "Это просто не правильно."
@@ -308,7 +308,7 @@ label entrance_mia_angelicas_final_home_visit:
     show player 5
     player_name "..."
     show player 12
-    player_name "Я не уверен, что хочу продолжать помогать после того, что вы сделали с {b}Helen{/b}, Я-"
+    player_name "Я не уверен, что хочу продолжать помогать после того, что вы сделали с {b}Хелен{/b}, Я-"
     show player 5
     show ang 4
     ang "О, не будь таким наивным!"
@@ -319,7 +319,7 @@ label entrance_mia_angelicas_final_home_visit:
     show ang 2
     ang "Я пришла сюда не спорить с грешником."
     show ang 39 with dissolve
-    ang "Если ты действительно хочешь помочь {b}Helen{/b} ты поможешь мне получить это..."
+    ang "Если ты действительно хочешь помочь {b}Хелен{/b} ты поможешь мне получить это..."
     show ang 38
     pause
     show ang 3
@@ -339,11 +339,11 @@ label entrance_mia_angelicas_final_home_visit:
     player_name "Что...ЭТО?"
     show player 461 at Position (xoffset=1)
     show ang 4
-    ang "Это главный элемент для последнего этапа очистки {b}Helen{/b} ..."
+    ang "Это главный элемент для последнего этапа очистки {b}Хелен{/b} ..."
     ang "...И твое последнее задание."
     show ang 3
     show player 460 at Position (xoffset=1)
-    player_name "Но как это будет использоваться для очистки {b}Helen{/b}?"
+    player_name "Но как это будет использоваться для очистки {b}Хелен{/b}?"
     show player 11 with dissolve
     show ang 2
     ang "Не задавай мне вопросов!"
@@ -361,10 +361,10 @@ label entrance_mia_angelicas_final_home_visit:
     show player 5
     player_name "..."
     show player 10
-    player_name "{b}Helen{/b}  кажется, даже не понимает, что {b}Sister Angelica{/b} превращает ее..."
+    player_name "{b}Хелен{/b}  кажется, даже не понимает, что {b}Сестра Анжелика{/b} превращает её..."
     player_name "...в секс-рабыню!"
     show player 12
-    player_name "Я должен поговорить с {b}Harold{/b} перед тем как помочь {b}Sister Angelica{/b}."
+    player_name "Я должен поговорить с {b}Гарольд{/b} перед тем как помочь {b}Сестре Анжелике{/b}."
     player_name "Может, он поможет мне понять, что делать."
     show unlock55 at truecenter with dissolve
     $ player.get_item("strapon_drawing")
@@ -404,7 +404,7 @@ label entrance_mom_lawn_help:
     show player 1
     show debbie 2
     if game.timer.is_morning():
-        deb "отов к школе?"
+        deb "Готов к школе?"
     else:
         deb "Счастлив вернуться в школу?"
     show debbie 1
@@ -441,7 +441,7 @@ label entrance_mom_lawn_help:
     show debbie 1
     deb "Хмм..."
     show debbie 2
-    deb "Ну, газон не косили уже несколько недель.."
+    deb "Ну, газон не косили уже несколько недель..."
     deb "Можешь покосить его!"
     deb "{b}Косилка{/b}должна быть в {b}гараже{/b}."
     show debbie 1
@@ -493,7 +493,7 @@ label entrance_mom_clothes_dirty:
 
 label entrance_mom_debt_collectors:
     scene henchman_cs1 2 with fade
-    show text "Я ожидал увидеть {b}Erik{/b}, но вместо него там стоял странный мужчина...\nОн был весь в черном, с таким взглядом, что даже тренер Bridget не могла бы м ним соперничать." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я ожидал увидеть {b}Эрика{/b}, но вместо него там стоял странный мужчина...\nОн был весь в черном, с таким взглядом, что даже тренер Бриджит не могла бы м ним соперничать." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     scene henchman_cs1 1
@@ -514,7 +514,7 @@ label entrance_mom_debt_collectors:
     henchman2 "Это не твое дело, парень."
     show henchman2 1
     show player 12
-    player_name "Ну,  она сейчас немного занята, почему бы вам не зайти в другой раз?"
+    player_name "Ну, она сейчас немного занята, почему бы вам не зайти в другой раз?"
     show henchman2 2
     show player 11
     henchman2 "Не нужно, просто передай ей это сообщения."
@@ -550,7 +550,7 @@ label entrance_mom_debt_collectors:
     deb "!!!"
     show player 11
     show debbie 60
-    deb "...Чего он хотел?"
+    deb "... Чего он хотел?"
     show debbie 59
     show player 10
     player_name "Он сказал, что тебе нужно заплатить, и что он скоро вернется, но нормально ничего не объяснил."
@@ -668,7 +668,7 @@ label entrance_mom_hang_out:
     player_name "Отлично выглядишь! Ты куда-то собираешься?"
     show player 1
     show debbie 165
-    deb "Ох, мне нужно сходить в  {b}Торговый центр{/b} и купить несколько вещей."
+    deb "Ох, мне нужно сходить в {b}Торговый центр{/b} и купить несколько вещей."
     show debbie 164
     deb "..."
     show debbie 165
@@ -748,7 +748,7 @@ label entrance_mom_car_broken:
     deb "Ты хорошо спал сегодня?"
     show debbie 1
     show player 10
-    player_name "...Даа... типа."
+    player_name "... Даа... типа."
     player_name "Мне снилось много странных вещей."
     show player 11
     show debbie 2
@@ -908,7 +908,7 @@ label entrance_mom_vacuum_yes:
     hide player
     hide debbie
     with dissolve
-    show expression Cutscene("help_debbie_mc_home_cutscene", "I felt bad {b}[deb_name]{/b} was having a hard time with her back pain. \nThe least I could do was help her out, even if it took me forever to finish. \nThe stairs were the worst part! No wonder her back is hurting her... \nAt least {b}[deb_name]{/b} kept me company while I worked.") as cutscene with fade
+    show expression Cutscene("help_debbie_mc_home_cutscene", "Я чувствовал себя плохо, {b}[deb_name]{/b} испытывала затруднения при болях в спине.\nСамое малое, что я мог сделать, это помочь ей, даже если я сделаю это в последний раз.\nЛестница была худшей частью! Неудивительно, что её спина причиняет ей боль...\nПо крайней мере, {b}[deb_name]{/b} была со мной, пока я работал.") as cutscene with fade
     pause
     hide cutscene with dissolve
     return
@@ -973,10 +973,10 @@ label entrance_bissette_roxxy_jenny_mentoring:
     player_name "Конечно, {b}[deb_name]{/b}!"
     show player 10
     show roxxy 1 at Position (xpos=600) with dissolve
-    player_name "Хэй {b}Roxxy{/b}! Ты пришла к {b}[jen_name]{/b}?"
+    player_name "Хэй {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
     show player 5
     show roxxy 2
-    rox "Пф. А что, ты думаешь, что я пришла тебя уивдеть или что-то вроде того?!"
+    rox "Пф. А что, ты думаешь, что я пришла тебя увидеть или что-то вроде того?!"
     show roxxy 1
     show player 21
     player_name "... Нет."
@@ -1001,7 +1001,7 @@ label entrance_bissette_roxxy_jenny_mentoring:
     show player 113
     player_name "н-НЕТ!!"
     show player 10
-    player_name "{b}Roxxy{/b}, Я клянусь, я никогда-"
+    player_name "{b}Рокси{/b}, Я клянусь, я никогда-"
     show player 11
     show roxxy 2
     rox "Как будто у тебя есть шанс... Разве что в своих мечтах!"
@@ -1015,14 +1015,14 @@ label entrance_bissette_roxxy_jenny_mentoring:
     rox "Ха! Да, и мне даже жаль этот лосьон..."
     show roxxy 1
     show jenny 12f
-    jen "Хахаха! А ты мне нравишься! {b}Roxxy{/b}, не так ли?"
+    jen "Хахаха! А ты мне нравишься! {b}Рокси{/b}, не так ли?"
     show jenny 11f
     show roxxy 1b
     rox "Ага, а ты, значит, {b}[jen_name]{/b}?"
     show roxxy 1
     show jenny 12f
     jen "Это так."
-    jen "Давай, {b}Roxxy{/b}. Мы можем укрыться от этого задрота в моей комнате."
+    jen "Давай, {b}Рокси{/b}. Мы можем укрыться от этого задрота в моей комнате."
     show jenny 11f
     show roxxy 1b
     rox "Прекрасно."
@@ -1041,7 +1041,7 @@ label entrance_bissette_roxxy_jenny_mentoring:
 
     scene location_home_entrance_cutscene04
     with fade
-    show text "Эти двое так быстро спелись...\nЯ полагаю, что у {b}[jen_name]{/b}  {b}Roxxy{/b} много общего ." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Эти двое так быстро спелись...\nЯ полагаю, что у {b}[jen_name]{/b} и {b}Рокси{/b} много общего." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     show text "Они обе были капитанами чирлидерш, они популярны, красивы,\nа так же они обе постоянно совершенствуют это искусство быть сукой..." at Position (xpos= 512, ypos = 700) with dissolve
@@ -1098,7 +1098,7 @@ label entrance_bissette_roxxy_jenny_mentoring:
     show player 11
     jen "Хахаха!!"
     show player 10
-    player_name "...{b}Может стоит их там проверить{/b}?"
+    player_name "... {b}Может стоит их там проверить{/b}?"
     show player 5
     show debbie 2
     deb "Может."
@@ -1120,7 +1120,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     player_name "Конечно, {b}[deb_name]{/b}!"
     show player 10
     show roxxy 1 at Position (xpos=600) with dissolve
-    player_name "Хей, {b}Roxxy{/b}! Ты пришла к {b}[jen_name]{/b}?"
+    player_name "Хей, {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
     show player 5
     show roxxy 2
     rox "Да, предложение ведь ещё в силе?"
@@ -1133,7 +1133,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     show roxxy 1
     show jenny 9f at left with dissolve
     jen "*Кхм*"
-    jen "Ну знаешь, та, которую ты пытаешься завалить?"
+    jen "Это та девушка, которой я должна помочь?"
     show jenny 12f
     jen "Ну знаешь, та, которую ты пытаешься завалить?"
     show jenny 11f
@@ -1148,7 +1148,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     show player 113
     player_name "Я не-"
     show player 10
-    player_name "{b}Roxxy{/b}, Клянусь, я никогда-"
+    player_name "{b}Рокси{/b}, Клянусь, я никогда-"
     show player 11
     show roxxy 1h
     rox "И что именно ты рассказал, {b}[firstname]{/b}?"
@@ -1164,14 +1164,14 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     rox "... И пока он не растолстеет или не облысеет!"
     show roxxy 1
     show jenny 12f
-    jen "Хахаха! А ты мне нравишься! {b}Roxxy{/b}, не так ли?"
+    jen "Хахаха! А ты мне нравишься! {b}Рокси{/b}, не так ли?"
     show jenny 11f
     show roxxy 1b
     rox "Ага, а ты, значит, {b}[jen_name]{/b}??"
     show roxxy 1
     show jenny 12f
     jen "Верно"
-    jen "Давай, {b}Roxxy{/b}. Сделаем это у меня в комнате."
+    jen "Давай, {b}Рокси{/b}. Сделаем это у меня в комнате."
     show jenny 11f
     show roxxy 1b
     rox "Окей."
@@ -1247,7 +1247,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
 label entrance_bissette_roxxy_jenny_spying:
     scene expression L_home_entrance.background
     show player 10 with dissolve
-    player_name "Я должен пойти проверить как там {b}Roxxy{/b} и {b}[jen_name]{/b}..."
+    player_name "Я должен пойти проверить как там {b}Рокси{/b} и {b}[jen_name]{/b}..."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

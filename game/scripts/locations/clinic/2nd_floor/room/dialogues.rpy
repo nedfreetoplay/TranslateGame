@@ -42,7 +42,7 @@ label erik_bullying_2_dialogue:
     show micoe 3
     "Правильно!"
     show micoe 2
-    micoe "И я {b}Медсестра Micoe{/b}."
+    micoe "И я {b}Медсестра Мико{/b}."
     show micoe 5
     micoe "У тебя было небольшое сотрясение, но ты будешь в порядке."
     micoe "Ты можешь пойти домой когда ты будешь готов."
@@ -62,13 +62,13 @@ label erik_bullying_2_dialogue:
     eri "Как ты себя чувствуешь?"
     show erik 1f
     show player 395
-    player_name "Хэй {b}Erik{/b}. Со мной все в порядке, Я думаю!"
+    player_name "Хэй {b}Эрик{/b}. Со мной все в порядке, Я думаю!"
     show player 393
     show erik 5f
-    eri "{b}Dexter{/b} хорошо тебя избил, хм."
+    eri "{b}Декстер{/b} хорошо тебя избил, хм."
     show erik 1f
     show player 395
-    player_name "Нет, {b}Dexter{/b} бьет как девченка!"
+    player_name "Нет, {b}Декстер{/b} бьет как девченка!"
     show player 393
     show erik 4f
     eri "Хех хех."
@@ -78,7 +78,7 @@ label erik_bullying_2_dialogue:
     player_name "Всё нормально."
     show player 393
     show erik 5f
-    eri "Никто и никогда раньше не выступал против {b}Dexter{/b} раньше."
+    eri "Никто и никогда раньше не выступал против {b}Декстера{/b} раньше."
     show erik 4f
     eri "Каждый в школе только об этом и говорит."
     show erik 1f
@@ -87,7 +87,7 @@ label erik_bullying_2_dialogue:
     player_name "...И все же мне надрали задницу!"
     show player 393 at Position (xpos=772, ypos=660)
     show erik 4f
-    eri "Что ж, {b}Dexter{/b} будет думать дважды прежде чем сделать что то подобное снова."
+    eri "Что ж, {b}Декстер{/b} будет думать дважды прежде чем сделать что то подобное снова."
     show erik 1f
     show player 395
     player_name "Хех! еще посмотрим."

@@ -15,7 +15,7 @@ label basketball_court_dexter_start:
     show player 25
     player_name "{b}*вздох*{/b}"
     show player 12
-    player_name "Что тебе надо, {b}Dexter{/b}?"
+    player_name "Что тебе надо, {b}Декстер{/b}?"
     show player 5
     show dexter 6 with dissolve
     dex "Держись подальше от моего корта, понял?"
@@ -71,7 +71,7 @@ label basketball_court_roxxy_dexter_argument:
     rox "Ты такой ГЛУПЫЙ!"
     show roxxy 3bf
     show dexter 8
-    dex "Перестань называть меня глупым, {b}Roxxy{/b}!"
+    dex "Перестань называть меня глупым, {b}Рокси{/b}!"
     show dexter 2
     show roxxy 31f
     rox "... ТЫ ГЛУПЫЙ!"
@@ -80,10 +80,10 @@ label basketball_court_roxxy_dexter_argument:
     dex "ВСЕ ХВАТИТ!!!" with hpunch
     dex "Я покнчу с этим!"
     show dexter 6 with dissolve
-    dex "Всегда, \"{b}Dexter{/b} сделай это.\" \"{b}Dexter{/b} сделай то.\""
+    dex "Всегда, \"{b}Декстер{/b} сделай это.\" \"{b}Декстер{/b} сделай то.\""
     dex "... И что в итоге?"
     dex "Я - глупый."
-    dex "Что ж, пошла ты в задницу {b}Roxxy{/b}!"
+    dex "Что ж, пошла ты в задницу {b}Рокси{/b}!"
     dex "Больше никаких одолжений!"
     dex "Катаний на тачке!"
     dex "Пивка!"
@@ -96,7 +96,7 @@ label basketball_court_roxxy_dexter_argument:
     rox "... глупец."
     show roxxy 3bf
     show dexter 6 with dissolve
-    dex "Ррррр, FUCK YOU!"
+    dex "Ррррр, пошла ты!"
     dex "Я ухожу!"
     hide dexter with dissolve
     show roxxy 3f
@@ -118,8 +118,8 @@ label basketball_court_roxxy_dexter_argument:
     eve "В чем дело?"
     show eve 1
     show player 10
-    player_name "Я не могу поверить, что собираюсь это сказать, но ..."
-    player_name "Мне как-то жалко {b}Dexter{/b}."
+    player_name "Я не могу поверить, что собираюсь это сказать, но..."
+    player_name "Мне как-то жалко {b}Декстера{/b}."
     show player 5
     show eve 2b
     eve "Ухх..."
@@ -149,7 +149,7 @@ label basketball_court_bissette_get_books:
     show dexter 2 at right
     show player 10 at left
     with dissolve
-    player_name "Хей, умм, {b}Dexter{/b}..."
+    player_name "Хей, эмм, {b}Декстер{/b}..."
     show player 5
     show dexter 3
     dex "Че надо ЧМО?"
@@ -179,7 +179,7 @@ label basketball_court_bissette_get_books:
     player_name "..."
     show player 12f
     player_name "Он мог и солгать. {b}Я должен проверить его шкафчик{/b}!"
-    player_name "Надеюсь, книга там, иначе я не знаю, что делать ..."
+    player_name "Надеюсь, книга там, иначе я не знаю, что делать..."
     hide player with dissolve
     return
 
@@ -227,7 +227,7 @@ label basketball_court_ross_magazines_intro:
     show dexter 22 zorder 0 at Position(xpos=0.65, ypos=1.0) with dissolve
     dex "Что здесь происходит!?"
     show dexter 24
-    dex "Это чмо беспокоит тебя, Becca?"
+    dex "Это чмо беспокоит тебя, Бекка?"
     show dexter 23
     show becca 2bf
     becca "Он ходит тут с {b}порножурналами{/b} как полный чмошник!"
@@ -243,7 +243,7 @@ label basketball_court_ross_magazines_intro:
     show becca 2bf
     show dexter 25_26
     with dissolve
-    dex "Думаю, мне лучше забрать их, пока ты не заразил ее!"
+    dex "Думаю, мне лучше забрать их, пока ты не заразил её!"
     return
 
 label basketball_court_ross_magazines_retry:
@@ -255,7 +255,7 @@ label basketball_court_ross_magazines_retry:
     dex "Вернулся за добавкой, да?!"
     show dexter 23
     show becca 2bf
-    becca "Как грубо ..."
+    becca "Как грубо..."
     show dexter 22
     show becca 1f
     dex "Думаю, тебе нужен еще один урок."
@@ -335,7 +335,7 @@ label basketball_court_roxxy_dexter_alcohol_fight:
     rox "Забудь!"
     show roxxy 29f
     show becca 2
-    becca "Давай {b}Roxxy{/b}, извенись..."
+    becca "Давай {b}Рокси{/b}, извинись..."
     becca "Вечеринка будет отстойной без алкоголя!"
     show becca 1
     show roxxy 30f
@@ -343,7 +343,7 @@ label basketball_court_roxxy_dexter_alcohol_fight:
     rox "Он ведет себя как большой ребенок..."
     show roxxy 29f
     show dexter 8
-    dex "О, сначала я глупый, а теперь еще и ребенок..."
+    dex "О, сначала я глупый, а теперь ещё и ребенок..."
     dex "Уточни?"
     show dexter 2
     show roxxy 3bf
@@ -356,7 +356,7 @@ label basketball_court_roxxy_dexter_alcohol_fight:
     missy "Пффф, хахаха!"
     show missy 3
     show dexter 8
-    dex "Эй!! Не смейся надо мной, {b}Missy{/b}!"
+    dex "Эй!! Не смейся надо мной, {b}Мисси{/b}!"
     show dexter 2
     show missy 2b
     missy "..."
@@ -369,7 +369,7 @@ label basketball_court_roxxy_dexter_alcohol_fight:
     show roxxy 2bf
     rox "!!!"
     show roxxy 30f
-    rox "... Fuck you!"
+    rox "... Пошёл нахуй!"
     rox "Знаешь что?!"
     rox "Все, с меня хватит!"
     show roxxy 29f
@@ -407,14 +407,14 @@ label basketball_court_roxxy_dexter_alcohol_fight:
     show eve 2 at right
     with dissolve
     eve "Черт!"
-    eve "{b}Dexter{/b} отшили!"
+    eve "{b}Декстера{/b} отшили!"
     show eve 5
     show player 14
-    player_name "Да,не хотел бы я попасть ему на пути."
+    player_name "Да, не хотел бы я попасться ему на пути."
     show player 13
     show eve 5
     eve "Реально!"
-    eve "Пойдем, нам нужно вернуться в {b}класс Miss Bissette{/b}."
+    eve "Пойдем, нам нужно вернуться в {b}класс Мисс Биссетт{/b}."
     hide eve
     hide player
     show player 4
@@ -433,7 +433,7 @@ label basketball_court_roxxy_basketball_challenge:
     dex "Готов к матчу-реваншу, неудачник?!"
     show dexter 31
     show player 12
-    player_name "На этот раз ты проиграешь, {b}Dexter{/b}."
+    player_name "{b}Декстер{/b}, на этот раз ты проиграешь."
     show player 90
     show dexter 3
     dex "Хахаха!"

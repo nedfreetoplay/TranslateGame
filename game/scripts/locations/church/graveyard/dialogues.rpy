@@ -124,9 +124,9 @@ label stray_cat_first_after:
     player_name "Хехе, хоршо. Может быть я смогу что-нибудь найти для тебя."
     show player 4
     show cat 3
-    player_name "(Хмм.)"
-    player_name "(Я бы хотел бы дать ей что-нибудь поесть.)"
-    player_name "(Возможно в Consum-r продают что-нибудь.)"
+    player_name "( Хмм. )"
+    player_name "( Я бы хотел бы дать ей что-нибудь поесть. )"
+    player_name "( Возможно в Consum-r продают что-нибудь. )"
     return
 
 label stray_cat_no_food:

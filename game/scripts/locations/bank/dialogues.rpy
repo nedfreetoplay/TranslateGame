@@ -149,7 +149,7 @@ label bank_liu_chat:
     show liu 4 at right
     show player 29 at left
     player_name "Ой, простите! Я не хотел, чтобы вам было не удобно."
-    player_name "Иногда, кода у меня проблемы дома..."
+    player_name "Иногда, когда у меня проблемы дома..."
     show liu 9 at right
     show player 33 at left
     player_name "Я просто говорю с кем-нибудь об этом!"
