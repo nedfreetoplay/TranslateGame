@@ -1,11 +1,11 @@
 label dianes_lobby_diane_mouse_attack_started:
     scene dianeentrance with None
     show player 22 with dissolve
-    dia "HELP!"
-    dia "QUICK! HELP ME!"
+    dia "ПОМОГИТЕ!"
+    dia "БЫСТРЕЕ! ПОМОГИТЕ МНЕ!"
     show player 23
-    player_name "{b}Diane{/b}?!"
-    player_name "I'M COMING!"
+    player_name "{b}Диана{/b}?!"
+    player_name "Я ИДУ!"
     show player 22
     dia "EEEEEEEKKKKKKK!"
     hide player with dissolve

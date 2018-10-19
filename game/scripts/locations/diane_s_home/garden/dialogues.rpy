@@ -189,7 +189,7 @@ label dianes_garden_diane_need_shovel:
     player_name "О! Да... Выглядит очень плохо."
     show diane 140
     show player 1
-    dia "Возможно, придется подождать, пока я ее заменю..."
+    dia "Возможно, придется подождать, пока я её заменю..."
     dia "Прости, {b}[firstname]{/b}."
     show diane 141
     show player 2
@@ -246,11 +246,11 @@ label dianes_garden_diane_have_shovel:
     show diane 3
     dia "Охх! Великолепно!"
     show diane 2
-    dia "Я знала, что ты сможешь ее достать!"
+    dia "Я знала, что ты сможешь её достать!"
     dia "Все в порядке! Но прежде чем ты начнешь, я должен сказать тебе, что делать..."
     show diane 14 at right
     show player 11 at left with dissolve
-    dia "Убедитесь, что {b}только{/b} {b}длинные{/b} и {b}твердые{/b} овощи остались на грядке!"
+    dia "Убедитесь, что {b}только длинные{/b} и {b}твердые{/b} овощи остались на грядке!"
     show diane 14 at right
     show player 11 at left
     dia "Убери все остальное... Особенно этих надоедливых крыс и жуков! ...Понял?"
@@ -290,7 +290,7 @@ label dianes_garden_diane_need_shovel_remove_waste_repeat:
     dia "Ты думаешь, что сможешь решить эту проблему с отходами сегодня?"
     show player 14
     player_name "Это не проблемма!"
-    player_name "Дай мне попробовать еще раз!"
+    player_name "Дай мне попробовать ещё раз!"
     show player 251 with dissolve
     player_name "Хмм..."
     show player 252
@@ -347,7 +347,7 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     show player 254
     show diane 5
     dia "!!!" with hpunch
-    dia "Вау... Ты поднял ее как пушинку!"
+    dia "Вау... Ты поднял её как пушинку!"
     show player 255
     player_name "Ну, я тринируюсь в спорзале..."
     show player 254
@@ -363,7 +363,7 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     hide player
     hide diane
     scene location_diane_garden_cutscene04
-    show text "Канава позади ее дома была так далеко!\n Я еле добрался; тачка продолжала выскальзывать у меня из рук. \n... Но я чувствовал себя хорошо, перевозя все эти отходы для {b}Дианы{/b}. " at Position (xpos= 512, ypos = 700)
+    show text "Канава позади ее дома была так далеко!\n Я еле добрался; тачка продолжала выскальзывать у меня из рук.\n... Но я чувствовал себя хорошо, перевозя все эти отходы для {b}Дианы{/b}. " at Position (xpos= 512, ypos = 700)
     with fade
     pause
     hide text
@@ -493,7 +493,7 @@ label dianes_garden_diane_need_shovel_remove_waste_fail:
     show player 3
     show diane 2
     dia "Ох..."
-    dia "Все... хорошо. Я и не думала, что он такой полный..."
+    dia "Всё... хорошо. Я и не думала, что он такой полный..."
     dia "Но не волнуйся, я, наверное, найду кого-нибудь, кто сделает это для меня."
     show player 23
     player_name "Подожди... Я смогу!"
@@ -583,13 +583,13 @@ label dianes_garden_diane_milk_delivery_week:
     dia "Хех, я знаю. Странно правда?"
     dia "Я начала заниматься этим не так давно."
     show diane 108
-    dia "Вот {b}счет{/b}."
+    dia "Вот {b}счёт{/b}."
     show diane 1
     player_name "Так где же оно находится? ... И куда именно мне его доставить?"
     show diane 22
     dia "Так! Прости..."
     show diane 23
-    dia "Коробка в {b}сарае{/b}. Отнеси ее в {b}столовую{/b}."
+    dia "Коробка в {b}сарае{/b}. Отнеси её в {b}столовую{/b}."
     show diane 24
     player_name "Хорошо, я сделаю это."
     show diane 2
@@ -647,7 +647,7 @@ label dianes_garden_diane_bug_infestation:
     player_name "Что?!"
     show player 5
     show diane 23
-    dia "Я должна быстро сделать что-нибудь , прежде чем я потеряю весь..."
+    dia "Я должна быстро сделать что-нибудь, прежде чем я потеряю весь..."
     show player 10
     show diane 24
     player_name "Может я чем нибудь помогу?"
@@ -782,10 +782,10 @@ label dianes_garden_diane_sunbathing_okay:
     player_name "( Хмммм... Хорошо... )"
     player_name "( Как я собираюсь это сделать... )"
     show diane 26
-    player_name "( Эти ремни мешают...)"
-    player_name "( ...Может быть  если я только... )"
+    player_name "( Эти ремни мешают... )"
+    player_name "( ...Может быть если я только... )"
     show diane 27
-    player_name "( ...уберу их сюда... )"
+    player_name "( ... уберу их сюда... )"
     show diane 28
     player_name "( Вот так! )"
     player_name "( Теперь, что касается крема... )"
@@ -863,7 +863,7 @@ label dianes_garden_diane_sunbathing_okay:
     player_name "Ну... Ты голая, {b}Диана{/b}!"
     show diane 46
     dia "И? ...Ты никогда раньше не видел голую женщину?"
-    dia "...Это совершенно естественно..."
+    dia "... Это совершенно естественно..."
     show diane 43
     window hide
     pause
@@ -1057,7 +1057,7 @@ label dianes_dialogue_drink_extra_shot:
     pause 4
     dia "..."
     show diane 75
-    dia "Не могли ты поднять для меня... Красавец?"
+    dia "Не мог ли ты поднять для меня... Красавец?"
     show diane 79 with hpunch
     player_name "!!!"
     dia "Как я и подозревала..."
@@ -1141,7 +1141,7 @@ label dianes_dialogue_pre_fun_intro:
     show diane 5 at right
     dia "Ай... Ты такой замечательный!"
     show diane 10 at right
-    dia "Is there anything else I can do for you before you get started?"
+    dia "Есть ли что-нибудь ещё, что я могу сделать для тебя, прежде чем ты начнешь?"
     return
 
 label dianes_dialogue_pre_fun_talk:
@@ -1195,7 +1195,7 @@ label dianes_dialogue_pre_fun_talk:
     dia "Вот так мы познакомились и подружились с твоим {b}Отцом{/b}!"
     show diane 12
     show player 5
-    dia "... а еще там, я нашла своего глупого бывшего мужа. Хаха!"
+    dia "... а ещё там, я нашла своего глупого бывшего мужа. Хаха!"
     show diane 13
     player_name "..."
     show diane 10
@@ -1278,7 +1278,7 @@ label dianes_dialogue_pre_fun_pump_intro:
     player_name "Умм... Про насос."
     show diane 2
     show player 13
-    dia "Oh, right. Were you able to find it?"
+    dia "А, точно. Тебе удалось его найти?"
     return
 
 label dianes_dialogue_pre_fun_pump_location:
@@ -1391,7 +1391,7 @@ label dianes_dialogue_pre_fun_milk_delivery_location:
 label dianes_dialogue_pre_fun_milk_delivery_not_yet:
     show diane 1
     show player 29
-    player_name "Мне все еще нужно идти в школу, чтобы доставить его."
+    player_name "Мне все ещё нужно идти в школу, чтобы доставить его."
     show diane 2
     show player 13
     dia "Без проблем."
@@ -1489,7 +1489,7 @@ label dianes_dialogue_pre_fun_milk_delivery_try_milk:
     player_name "...Да, неплохо!"
     show diane 10 at right
     show player 13 at left
-    dia "Хорошо, тогда я могу принести тебе еще чуть позже..."
+    dia "Хорошо, тогда я могу принести тебе ещё чуть позже..."
     show diane 4 at right
     show player 21 at left
     player_name "Прекрасно! Спасибо, {b}Диана{/b}!"
@@ -1545,7 +1545,7 @@ label dianes_dialogue_pre_fun_bug_infestation_task:
 label dianes_dialogue_pre_fun_bug_infestation_not_done:
     show diane 24
     show player 29
-    player_name "Я еще не нашел решения."
+    player_name "Я ещё не нашел решения."
     show player 21
     player_name "Но не волнуйся, {b}Диана{/b}! Я обязательно найду способ!"
     show player 13
@@ -1564,7 +1564,7 @@ label dianes_dialogue_pre_fun_bug_infestation_done:
     show player 2
     dia "Получилось?!"
     show player 162
-    player_name "Да, я только что применил {b}пестицид{/b}, который купил в магазине,и это сработало!"
+    player_name "Да, я только что применил {b}пестицид{/b}, который купил в магазине, и это сработало!"
     show diane 1
     show player 12
     player_name "Мне потребовалось время, но теперь они все мертвы!"
@@ -1682,7 +1682,7 @@ label dianes_dialogue_after_fun_intro:
     if not game.timer.is_weekend():
         dia "Заскочил ко мне домой на обратном пути из школы?"
     else:
-        dia "Скучно дома,и захотелось увидеть меня старушку?"
+        dia "Скучно дома, и захотелось увидеть меня старушку?"
     show diane 88
     show player 29
     player_name "Все... в порядке?"
@@ -1748,7 +1748,7 @@ label dianes_dialogue_after_fun_talk:
     player_name "Спасибо..."
     show diane 89
     show player 1
-    dia "Что-нибудь еще?"
+    dia "Что-нибудь ещё?"
     return
 
 label dianes_dialogue_after_fun_talk_about_debbie_intro:
@@ -1768,7 +1768,7 @@ label dianes_dialogue_after_fun_talk_about_debbie_intro:
     dia "С ней все будет хорошо!"
     show diane 91
     show player 24
-    player_name "Я просто хочу защитить ее! Я хочу... обнять ее и дать ей почувствовать себя в безопасности."
+    player_name "Я просто хочу защитить ее! Я хочу... обнять её и дать ей почувствовать себя в безопасности."
     show diane 109 at Position (xpos=947)
     show player 13
     dia "..."
@@ -1836,7 +1836,7 @@ label dianes_dialogue_after_fun_talk_about_debbie_confess:
     player_name "Я подумаю."
     show diane 89
     show player 13
-    dia "Что-нибудь еще?"
+    dia "Что-нибудь ещё?"
     return
 
 label dianes_dialogue_after_fun_talk_about_debbie_do_not_confess:
@@ -1855,7 +1855,7 @@ label dianes_dialogue_after_fun_talk_about_debbie_do_not_confess:
     player_name "Спасибо..."
     show diane 89
     show player 13
-    dia "Что-нибудь еще?"
+    dia "Что-нибудь ещё?"
     return
 
 label dianes_dialogue_after_fun_diane_breeding_guide_not_known:
@@ -2079,7 +2079,7 @@ label dianes_dialogue_after_fun_have_breeding_guide:
     show diane 89
     dia "У него большой хороший член, прямо как у {b}быка{/b}..."
     show diane 110 at Position(xpos=950)
-    dia "Он все еще учится в колледже! Он практически ребенок! Я не могу просить его об этом... не так ли?"
+    dia "Он все ещё учится в колледже! Он практически ребенок! Я не могу просить его об этом... не так ли?"
     dia "Что скажет {b}[deb_name]{/b} если она услышит об этом?!"
     show diane 91 at Position(xpos=1024)
     dia "..."
@@ -2368,7 +2368,7 @@ label dianes_dialogue_after_fun_have_fun_first_time_want_fail:
     show dianesex 16
     player_name "[chr_warn]..."
     show dianesex 14
-    dia "[chr_warn]Но, возможно, мы можем сделать что-то еще."
+    dia "[chr_warn]Но, возможно, мы можем сделать что-то ещё."
     return
 
 label dianes_dialogue_after_fun_have_fun_first_time_want_pass:
@@ -2414,9 +2414,9 @@ label dianes_dialogue_after_fun_have_fun_first_time_want_pass:
     return
 
 label aunt_sex_loop:
-    show screen sex_xray_anim_buttons 
+    show screen sex_xray_anim_buttons
     pause
-    hide screen sex_xray_anim_buttons 
+    hide screen sex_xray_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:

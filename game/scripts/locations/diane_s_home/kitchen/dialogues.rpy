@@ -16,7 +16,7 @@ label dianes_kitchen_diane_breeding_bull_started:
     show diane 87
     dia "Но, твое предложение звучит так заманчиво, и у него есть несколько преимуществ, так..."
     show diane 89
-    dia "I've decided to entertain your idea and be bred!"
+    dia "Я решила развлечься с твой идеей и быть воспитанной!"
     show player 17
     show diane 88
     player_name "Правда? Я рад, что тебе понравилась моя идея!"
@@ -90,7 +90,7 @@ label dianes_kitchen_diane_kitchen_drink_intro:
     show expression "characters/xtra/char_xtra_01.png" at Position(xpos = 638, ypos = 519)
     player_name "Хммм..."
     show player 133
-    player_name "( Может, мне добавить еще немного? )"
+    player_name "( Может, мне добавить ещё немного? )"
     return
 
 label dianes_kitchen_diane_kitchen_drink_no:

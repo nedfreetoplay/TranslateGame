@@ -20,7 +20,7 @@ label dianes_shed_diane_breeding_help_started:
     show diane 90
     show player 11
     dia "...В магазине, под названием {b}Pink{/b}."
-    dia "Записан на мое имя!"
+    dia "Записан на моё имя!"
     show diane 88
     show player 29
     player_name "В магазине {b}Pink{/b}?!"
@@ -227,7 +227,7 @@ label dianes_shed_dianes_dialogue_not_package:
     player_name "О. Хорошо. Понял!"
     show diane 89
     show player 13
-    dia "Хочешь еще о чем-нибудь поговорить?"
+    dia "Хочешь ещё о чем-нибудь поговорить?"
     return
 
 label dianes_shed_dianes_dialogue_package:
@@ -339,10 +339,10 @@ label dianes_shed_dianes_dialogue_lets_milk_no_sex:
     player_name "Я... Я не понимаю-"
     show diane 112
     show player 13
-    dia "Я просто хочу сказать ... .. Беременные коровы дают намного больше молока!"
+    dia "Я просто хочу сказать... Беременные коровы дают намного больше молока!"
     show player 11
     show diane 114
-    dia "... И {b}эта корова еще не беременна{/b}. Ее {b}бык{/b} готов {b}размножаться{/b} с ней?"
+    dia "... И {b}эта корова еще не беременна{/b}. Её {b}бык{/b} готов {b}размножаться{/b} с ней?"
     show diane 113
     show player 23
     player_name "!!!"
@@ -351,7 +351,7 @@ label dianes_shed_dianes_dialogue_lets_milk_no_sex:
     dia "Трахни меня, {b}[firstname]{/b}! Сделай мою матку своей!"
     show diane 113
     show player 29
-    player_name "...Да, Я... Я с удовольствием..."
+    player_name "... Да, Я... Я с удовольствием..."
     show diane 114
     show player 13
     dia "Это мой малыш!"
@@ -433,9 +433,9 @@ label shed_sex_loop:
         if previous_shed_sex_action != shed_sex_action:
             show dianesex 56
             dia "Я хочу, чтобы он был внутри меня..."
-    show screen sex_xray_anim_buttons 
+    show screen sex_xray_anim_buttons
     pause
-    hide screen sex_xray_anim_buttons 
+    hide screen sex_xray_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:

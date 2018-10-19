@@ -12,7 +12,7 @@ label dianelobby_locked:
     show diane 3 at right
     show player 11 at left
     with dissolve
-    dia "Where are you going? The garden is outside, not in there, handsome."
+    dia "Куда ты направляешься? Сад снаружи, а не там, красавчик."
     hide diane
     hide player
     with dissolve

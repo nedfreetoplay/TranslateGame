@@ -104,7 +104,7 @@ label garden_dialogue:
             label dianes_garden_diane_sunbathing_replay:
                 call expression game.dialog_select("dianes_garden_diane_sunbathing")
             menu:
-                "Sure!":
+                "Конечно!":
                     call expression game.dialog_select("dianes_garden_diane_sunbathing_okay")
                     $ renpy.end_replay()
                     $ persistent.cookie_jar["Diane"]["unlocked"] = True
@@ -113,7 +113,7 @@ label garden_dialogue:
                     $ aunt_dialogue_advance = True
                     call expression game.dialog_select("map_dialogue")
 
-                "I'd rather not." if store._in_replay == None:
+                "Я бы предпочел этого не делать." if store._in_replay == None:
                     call expression game.dialog_select("dianes_garden_diane_sunbathing_leave")
                     $ game.main()
 
@@ -181,15 +181,15 @@ label aunt_button_dialogue:
     elif aunt_count < 8:
         call expression game.dialog_select("dianes_dialogue_pre_fun_intro")
         menu dia_default_dialogue_options:
-            "Talk.":
+            "Говорить.":
                 call expression game.dialog_select("dianes_dialogue_pre_fun_talk")
                 call expression game.dialog_select("dia_default_dialogue_options")
 
-            "Paint." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
+            "Краска." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
                 call expression game.dialog_select("dianes_dialogue_pre_fun_paint")
                 $ M_dewitt.trigger(T_dewitt_shed_paint)
 
-            "I found a shovel." if quest20 in quest_list and quest20 not in completed_quests and player.has_item("shovel"):
+            "Я нашёл лопату." if quest20 in quest_list and quest20 not in completed_quests and player.has_item("shovel"):
                 call expression game.dialog_select("dianes_dialogue_pre_fun_found_shovel")
                 call expression game.dialog_select("dianes_garden_diane_have_shovel")
                 $ L_bank.unlock()
@@ -197,45 +197,45 @@ label aunt_button_dialogue:
                 $ completed_quests.append(quest20)
                 $ game.main()
 
-            "The garden." if quest20 in completed_quests:
+            "Сад." if quest20 in completed_quests:
                 call expression game.dialog_select("dianes_dialogue_pre_fun_remove_waste")
                 call expression game.dialog_select("dia_default_dialogue_options")
 
-            "The pump." if quest08 in quest_list and quest08 not in completed_quests:
+            "Насос." if quest08 in quest_list and quest08 not in completed_quests:
                 call expression game.dialog_select("dianes_dialogue_pre_fun_pump_intro")
                 menu:
-                    "Where is it?":
+                    "Где она находится?":
                         call expression game.dialog_select("dianes_dialogue_pre_fun_pump_location")
                         call expression game.dialog_select("dia_default_dialogue_options")
-                    "Not yet.":
+                    "Ещё.":
 
                         call expression game.dialog_select("dianes_dialogue_pre_fun_pump_not_yet")
                         call expression game.dialog_select("dia_default_dialogue_options")
 
-                    "I found it!" if player.has_item("pump"):
+                    "Я нашел его!" if player.has_item("pump"):
                         call expression game.dialog_select("dianes_dialogue_pre_fun_pump_found")
                         $ player.remove_item("pump")
                         $ quest_complete(quest08)
                         $ aunt_dialogue_advance = True
 
-            "Milk delivery." if quest09 in quest_list and quest09 not in completed_quests:
+            "Доставка молока." if quest09 in quest_list and quest09 not in completed_quests:
                 call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_intro")
                 menu:
-                    "Where at school?":
+                    "А где в школе?":
                         call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_location")
                         call expression game.dialog_select("dia_default_dialogue_options")
-                    "Not yet.":
+                    "Ещё.":
 
                         call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_not_yet")
                         call expression game.dialog_select("dia_default_dialogue_options")
 
-                    "I delivered them!" if quest09_3:
+                    "Я доставил их!" if quest09_3:
                         call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_delivered")
                         menu:
-                            "Sure!":
+                            "Конечно!":
                                 call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_try_milk")
                                 $ M_player.set("drank milk", True)
-                            "I don't like milk.":
+                            "Мне не нравится молоко.":
 
                                 call expression game.dialog_select("dianes_dialogue_pre_fun_milk_delivery_do_not_try_milk")
                         $ drink_milk_offer = True
@@ -245,23 +245,23 @@ label aunt_button_dialogue:
                         $ aunt_dialogue_advance = True
                         $ quest09_3 = False
 
-            "Bug infestation." if quest10 in quest_list and not infestation_done:
+            "Клопов." if quest10 in quest_list and not infestation_done:
                 call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_intro")
                 menu:
-                    "What should I do?":
+                    "Что мне следует делать?":
                         call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_task")
                         call expression game.dialog_select("dia_default_dialogue_options")
-                    "Not Yet.":
+                    "Ещё.":
 
                         call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_not_done")
                         call expression game.dialog_select("dia_default_dialogue_options")
 
-                    "I got rid of them!" if infestation_done:
+                    "Я от них избавилась!" if infestation_done:
                         call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_done")
                         $ aunt_dialogue_advance = True
                         $ completed_quests.append(quest10)
 
-            "Make a drink." if aunt_count == 6 and not aunt_dialogue_advance or aunt_count == 7 and not aunt_dialogue_advance:
+            "Сделать напиток." if aunt_count == 6 and not aunt_dialogue_advance or aunt_count == 7 and not aunt_dialogue_advance:
                 if player.stats.chr() >= 5:
                     call expression game.dialog_select("dianes_dialogue_pre_fun_make_drink_pass")
                     $ aunt_drink_offered = True
@@ -269,7 +269,7 @@ label aunt_button_dialogue:
                 else:
 
                     call expression game.dialog_select("dianes_dialogue_pre_fun_make_drink_fail")
-            "I have to work.":
+            "Мне нужно работать.":
 
                 call expression game.dialog_select("dianes_dialogue_pre_fun_leave")
         $ game.main()
@@ -277,10 +277,10 @@ label aunt_button_dialogue:
     elif aunt_count >= 8:
         call expression game.dialog_select("dianes_dialogue_after_fun_intro")
         menu dia_default_dialogue_options_kitchen:
-            "Talk.":
+            "Говорить.":
                 call expression game.dialog_select("dianes_dialogue_after_fun_talk")
                 call expression game.dialog_select("dia_default_dialogue_options_kitchen")
-            "Talk about {b}[deb_name]{/b}.":
+            "О чем говорить {b}[deb_name]{/b}.":
 
                 call expression game.dialog_select("dianes_dialogue_after_fun_talk_about_debbie_intro")
                 menu:
@@ -292,61 +292,61 @@ label aunt_button_dialogue:
                         call expression game.dialog_select("dianes_dialogue_after_fun_talk_about_debbie_do_not_confess")
                         call expression game.dialog_select("dia_default_dialogue_options_kitchen")
 
-            "Paint." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
+            "Краска." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
                 call expression game.dialog_select("dianes_dialogue_pre_fun_paint")
                 $ M_dewitt.trigger(T_dewitt_shed_paint)
 
-            "Milk production." if not aunt.known(aunt_breeding_guide):
+            "Производство молока." if not aunt.known(aunt_breeding_guide):
                 call expression game.dialog_select("dianes_dialogue_after_fun_diane_breeding_guide_not_known")
                 $ quest_list.append(quest12)
                 $ aunt.add_event(aunt_breeding_guide)
 
-            "The milk jug." if quest12 in quest_list and quest12 not in completed_quests and not player.has_item("milkjug"):
+            "Молочный кувшин." if quest12 in quest_list and quest12 not in completed_quests and not player.has_item("milkjug"):
                 call expression game.dialog_select("dianes_dialogue_after_fun_do_not_have_milkjug")
 
-            "The milk jug." if quest12 in quest_list and quest12 not in completed_quests and player.has_item("milkjug"):
+            "Молочный кувшин." if quest12 in quest_list and quest12 not in completed_quests and player.has_item("milkjug"):
                 call expression game.dialog_select("dianes_dialogue_after_fun_have_milkjug")
                 $ player.remove_item("milkjug")
                 $ completed_quests.append(quest12)
 
-            "Milk production book." if aunt.known(aunt_breeding_guide) and player.has_item("breeding_guide") and not aunt.known(aunt_breeding_bull):
+            "Книга по производству молока." if aunt.known(aunt_breeding_guide) and player.has_item("breeding_guide") and not aunt.known(aunt_breeding_bull):
                 call expression game.dialog_select("dianes_dialogue_after_fun_have_breeding_guide")
                 $ aunt.add_event(aunt_breeding_bull)
                 $ player.remove_item("breeding_guide")
                 call expression game.dialog_select("garden_dialogue")
 
-            "Breeding." if aunt.over(aunt_breeding_bull) and not aunt.known(aunt_breeding_help):
+            "Разведение." if aunt.over(aunt_breeding_bull) and not aunt.known(aunt_breeding_help):
                 call expression game.dialog_select("dianes_dialogue_after_fun_diane_breeding_help_not_known_intro")
                 menu:
-                    "Me!" if player.stats.chr() < 7:
+                    "Тебя!" if player.stats.chr() < 7:
                         call expression game.dialog_select("dianes_dialogue_after_fun_diane_breeding_help_not_known_fail")
                         call expression game.dialog_select("dia_default_dialogue_options_kitchen")
 
-                    "Me!" if player.stats.chr() >= 7:
+                    "Тебя!" if player.stats.chr() >= 7:
                         call expression game.dialog_select("dianes_dialogue_after_fun_diane_breeding_help_not_known_pass")
                         $ aunt.add_event(aunt_breeding_help)
-                    "Not yet.":
+                    "Ещё.":
 
                         call expression game.dialog_select("dianes_dialogue_after_fun_diane_breeding_help_not_known_leave")
-            "Have fun.":
+            "Повеселиться.":
 
                 label dianes_dialogue_after_fun_have_fun_replay:
                     call expression game.dialog_select("dianes_dialogue_after_fun_have_fun")
                 if store._in_replay == None and not aunt_had_sex:
                     call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_first_time")
                     menu:
-                        "Yes.":
+                        "Да.":
                             call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_first_time_yes")
                             menu dia_sex_options:
-                                "I want you." if player.stats.chr() < 7:
+                                "Я хочу тебя." if player.stats.chr() < 7:
                                     call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_first_time_want_fail")
                                     call expression game.dialog_select("dia_sex_options")
 
-                                "I want you." if player.stats.chr() >= 7:
+                                "Я хочу тебя." if player.stats.chr() >= 7:
                                     call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_first_time_want_pass")
                                     $ M_aunt.set("sex speed", .4)
                                     call expression game.dialog_select("aunt_sex_loop")
-                                "Do more.":
+                                "Сделать больше.":
 
                                     call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_first_time_more")
                 else:
@@ -356,24 +356,24 @@ label aunt_button_dialogue:
                     $ xray_toggle = False
                     $ M_aunt.set("sex speed", .4)
                     menu dia_sex_options_2:
-                        "Play with clit.":
+                        "Поиграй с клитором.":
                             call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_repeat_clit_play")
                             call expression game.dialog_select("dia_sex_options_2")
-                        "Play with vegetable.":
+                        "Играть с овощами.":
 
                             call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_repeat_vegetable_play")
                             call expression game.dialog_select("dia_sex_options_2")
-                        "Fuck raw.":
+                        "Ебать без Презерватива.":
 
                             call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_repeat_raw_sex")
                             $ condom_on = False
                             call expression game.dialog_select("aunt_sex_loop")
-                        "Fuck with condom.":
+                        "Ебать с Презервативом.":
 
                             call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_repeat_safe_sex")
                             $ condom_on = True
                             call expression game.dialog_select("aunt_sex_loop")
-            "I should go.":
+            "Мне пора идти.":
 
                 call expression game.dialog_select("dianes_dialogue_after_fun_have_fun_repeat_leave")
     $ game.main()
