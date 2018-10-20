@@ -24,7 +24,7 @@ label debbie_dialogue_mom_not_revealing_kitchen:
     player_name "Ммм, ничегооо..."
     show debbie 50k
     deb "Милый!"
-    deb "Что мы будем делать, если {b}[jen_name]{/b} войдёт?"
+    deb "Что если {b}[jen_name]{/b} войдет?"
     deb "Она офигеет!"
     show debbie 50j
     player_name "Не волнуйся, она наверху, в своей комнате."
@@ -55,7 +55,7 @@ label debbie_dialogue_mom_fetch_lotion:
     deb "Ты нашел мой {b}лосьон{/b} в моем {b}комоде в спальне{/b}?"
     show debbie 1
     show player 10
-    player_name "Нет, нет ещё."
+    player_name "Нет ещё."
     show player 5
     show debbie 2
     deb "Ну, так чего же ты ждешь?"
@@ -72,19 +72,19 @@ label debbie_dialogue_mom_car_condition:
     show debbie 61
     pause
     show player 25
-    player_name "Там всё плохо, {b}[deb_name]{/b}... Я не думаю, что смогу исправить поломку."
+    player_name "Там все плохо, {b}[deb_name]{/b}... я не думаю, что смогу исправить поломку."
     show player 5
     show debbie 39
     deb "Ох."
     show debbie 38
     show player 10
-    player_name "На самом деле, я думаю, нам придется заменить весь двигатель. На этом можно действительно разориться!"
+    player_name "На самом деле, я думаю, нам придется заменить весь двигатель. Это действительно плохо!"
     player_name "Это очень дорого..."
     show player 5
     pause
     show debbie 60
-    deb "Надеюсь, они покроют ремонт, в противном случае..."
     deb "А что насчет страховки? Мы должны пойти и посмотреть, что {b}в автосалоне{/b} могут сделать для нас."
+    deb "Надеюсь, она покроет ремонт, в противном случае..."
     show debbie 39
     deb "... Мы останемся без машины на некоторое время."
     show debbie 38
@@ -94,8 +94,8 @@ label debbie_dialogue_mom_car_condition:
     show player 5
     pause
     show player 14
-    player_name "Я все исправлю."
-    player_name "Так или иначе."
+    player_name "Я приведу её в порядок."
+    player_name "Тем или иным способом."
     show debbie 61
     show player 13
     pause
@@ -121,8 +121,8 @@ label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     show debbie 50j
     player_name "Ммм, ничегооо..."
     show debbie 50k
-    deb "Ахх..."
-    deb "Что мы будем делать, если {b}[jen_name]{/b} войдёт?"
+    deb "Ааа..."
+    deb "Что если {b}[jen_name]{/b} войдет?"
     deb "Она офигеет!"
     show debbie 50j
     player_name "Не волнуйся, она наверху, в своей комнате."
@@ -131,11 +131,11 @@ label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     pause
     pause
     show debbie 50j with dissolve
-    player_name "Ты хорошо себя чувствуешь?"
+    player_name "Тебе приятно?"
     show debbie 50k
-    deb "Конечно..."
-    deb "Ахх!"
+    deb "Конечно приятно..."
     deb "Ммм, ты делаешь меня такой мокрой!"
+    deb "Ааа!"
     show debbie 50j
     player_name "Что, если я сниму эти трусики и трахну тебя прямо здесь?"
     show debbie 50k
@@ -156,7 +156,7 @@ label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     hide debbie
     show debbies 164 at right
     with dissolve
-    deb "Аххх!"
+    deb "Аааааа!"
     player_name "Ничего себе, с тебя капает..."
     return
 
@@ -299,7 +299,7 @@ label debbie_dialogue_mom_revealing:
         deb "Привет, милый."
         deb "Что я могу сделать для тебя?"
     elif randomizer() <= 30:
-        deb "Эмм..."
+        deb "Авввв..."
         deb "Не здороваешься?"
     elif randomizer() <= 70:
         deb "Надеюсь, ты меня искал."
@@ -458,7 +458,7 @@ label debbie_dialogue_ask_about_men_in_suits:
     show debbie 60 at Position (xoffset=-28)
     deb "Я сделал все возможное, но боюсь, что у меня просто нет денег, чтобы покрыть все это, милый."
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Вздох({/b} Может нам с тобой просто исчезнуть и начать все с начала."
+    deb "{b}*вздыхая*{/b} Может нам с тобой просто исчезнуть и начать всё с начала."
     show player 1
     show debbie 63 at Position (xoffset=-28) with dissolve
     deb "Хех, вот это было бы приключение, не так ли?"
@@ -887,20 +887,20 @@ label debbie_dialogue_laundry_sex_basement:
     player_name "Ты почти закончила со стиркой?"
     show player 13
     show debbie 123
-    deb "Почти. Мне просто нужно переместить этот груз в сушилку."
-    deb "Почему, что случилось, милый?"
+    deb "Почти. Я просто должна загрузить эти вещи в сушилку."
+    deb "Почему? Что случилось?"
     show player 14
     show debbie 122
     player_name "Я просто подумал, что ты захочешь прокатиться?"
     show player 13
     show debbie 123
-    deb "О, чувствуешь себя немного непослушным?"
+    deb "Ох, мы почувствуем себя немного озорными?"
     show player 8 with dissolve
     pause
     show player 261f with dissolve
     pause
     show debbie 123
-    deb "Хе-хе, я буду считать, что да!"
+    deb "Хехе, Будем считать что, да!"
     show player 263f with dissolve
     deb "..."
     show debbie 121
@@ -909,7 +909,7 @@ label debbie_dialogue_laundry_sex_basement:
     show player 431
     pause
     show debbie 123
-    deb "Раздевайся и ложись на шайбу!"
+    deb "Снимай эту одежду и положи её в стиралку!"
     scene home_basement_sex_01
     show player 271 at Position(xpos=655,ypos=768)
     show debbie 107 zorder 0 at Position(xpos=200)
@@ -917,7 +917,7 @@ label debbie_dialogue_laundry_sex_basement:
     pause
     show debbie 108
     deb "Моя очередь..."
-    deb "Ммм, я все утро ждала этого момента!"
+    deb "Мммм, Я всё утро этого ждала!"
     show debbie 109
     pause
     show debbie 110
@@ -934,7 +934,7 @@ label debbie_dialogue_laundry_sex_basement:
     show debbie 115
     deb "Просто сядь и расслабься, милый."
     deb "Я обо всем позабочусь..."
-    deb "...Просто убедись, что держишься за меня."
+    deb "... Просто убедись, что ты держишься за меня."
     hide player
     hide debbie
     show debbies 124 at Position(xpos=650)
@@ -956,8 +956,8 @@ label debbie_dialogue_laundry_sex_basement:
     return
 
 label debbie_dialogue_laundry_sex_basement_random_true:
-    deb "Мммм..."
-    deb "Я едва могу вместить его."
+    deb "Ммммм..."
+    deb "Я с трудом могу поместить тебя целиком."
     return
 
 label debbie_dialogue_laundry_sex_basement_random_false:
@@ -968,30 +968,30 @@ label debbie_dialogue_laundry_sex_basement_random_false:
 
 label debbie_dialogue_laundry_sex_kitchen:
     show player 14
-    player_name "Хэй, {b}[deb_name]{/b}... Ты хочешь пообщаться в подвале для быстрой игры?"
+    player_name "Привет, {b}[deb_name]{/b}... Ты хочешь потусоваться в подвале для некторых быстрых утех?"
     show player 13
     show debbie 2
     deb "Ох?"
     show debbie 1
     show player 14
-    player_name "Я подумал, что мы можем включить сушилку, и ты можешь быть такой громкой, какой бы тебе хотелось..."
+    player_name "Я подумал, что мы можем включить сушилку и ты могла бы быть такой же громкой как ты и хотела..."
     show player 13
     show debbie 3
     deb "Ха ха."
     show debbie 2
-    deb "Это довольно непослушно, милый."
+    deb "Это довольно шаловливо, милый."
     show debbie 1
     pause
     show debbie 2
-    deb "Хмм... Хорошо!"
-    deb "У меня есть свободное время, и я могла бы использовать некоторое... внимание"
+    deb "Хмм... ладно!"
+    deb "У меня есть немного свободного времени и мне бы не помешала некоторая... внимательность."
     show debbie 1
     show player 14
     player_name "Правда?"
     show player 13
     show debbie 2
     deb "Конечно!"
-    deb "Встретимся там через минуту..."
+    deb "Давай встретимся там в низу, через минуту..."
     hide debbie
     hide player
     with dissolve
@@ -1000,22 +1000,22 @@ label debbie_dialogue_laundry_sex_kitchen:
 label debbie_dialogue_kiss:
     show player 10 at left
     show debbie 1 at right
-    player_name "Хэй... ммм, {b}[deb_name]{/b}?"
+    player_name "Приветик... эмм, {b}[deb_name]{/b}?"
     show player 5
     show debbie 2
     deb "Да, милый?"
     show player 10
     show debbie 1
-    player_name "Могу я спросить тебя кое о чем?"
+    player_name "Можно тебя спросить кое о чём?"
     show player 5
     show debbie 3
-    deb "Ну конечно! Ты можешь спросить меня о чем угодно."
+    deb "Разумеется! Ты можешь спрашивать меня о чем угодно."
     show player 10
     show debbie 1
-    player_name "Ну, это любопытно... Смущающе."
+    player_name "Ну, это немного... смущает."
     show player 5
     show debbie 13
-    deb "Да? Ну это нормально, {b}[firstname]{/b}."
+    deb "Ох? Что ж всё в порядке, {b}[firstname]{/b}."
     deb "Нет нужды смущаться."
     deb "Не со мной..."
     show debbie 14
@@ -1026,14 +1026,14 @@ label debbie_dialogue_kiss:
 label debbie_dialogue_kiss_teach:
     show player 10 at left
     show debbie 14 at right
-    player_name "Мне было интересно, сможешь ли ты..."
+    player_name "Я хотел спросить, если бы ты смогла..."
     player_name "Ну..."
     show player 5
     show debbie 13
-    deb "Если бы я могла, Милый?"
+    deb "Если бы я смогла что, дорогой?"
     show player 10
     show debbie 14
-    player_name "Эмм... Помнишь тот день в торговом центре?"
+    player_name "Эээ... Помнишь тот день в торговом центре?"
     show player 5
     show debbie 14b
     player_name "..."
@@ -1041,23 +1041,23 @@ label debbie_dialogue_kiss_teach:
     deb "... Д-да?"
     show player 10
     show debbie 14b
-    player_name "Ну... Я надеялся, что ты научишь меня большему, знаешь, о поцелуях?"
+    player_name "Ну... Я надеялся, что ты сможешь научить меня большему, ты знаешь, о поцелуях?"
     show player 5
     show debbie 13
     deb "Что?!"
     show debbie 14b
     player_name "..."
     show debbie 13
-    deb "Это была ошибка, милый. Я никогда не должна..."
-    deb "На что ты надеешься, что я научу тебя в любом случае?"
+    deb "Это было ошибкой, сладкий. Я не должна была..."
+    deb "В любом случае, чему, ты надеешься, я смогу тебя научить?"
     show player 10
     show debbie 14b
-    player_name "Ты знаешь, как это сделать."
-    player_name "Я подумала, Может, ты покажешь мне, что нравится женщинам?"
+    player_name "Ты знаешь, типа, как это делать."
+    player_name "Я подумал, может быть, ты могла бы показать мне, что нравятся женщинам?"
     show player 5
     show debbie 13
-    deb "Ну, я могу сказать тебе, что нравится женщинам."
-    deb "... Но я не думаю, что показывать тебе это хорошая идея. Было бы неуместно..."
+    deb "Хмм, что ж я бузусловно могла бы рассказать тебе, что женщинам нравятся."
+    deb "... Но я не думаю, что показывать на тебе это хорошая идея. Это было бы немного неуместно..."
     show debbie 14b
     return
 
@@ -1084,7 +1084,7 @@ label debbie_dialogue_kiss_teach_stat_fail:
 label debbie_dialogue_kiss_leave:
     show player 10 at left
     show debbie 14 at right
-    player_name "... Фактически."
+    player_name "... На самом деле."
     player_name "Неважно."
     show debbie 13
     show player 5
@@ -1092,27 +1092,27 @@ label debbie_dialogue_kiss_leave:
     deb "Ты всегда можешь поговорить со мной, {b}[firstname]{/b}."
     show player 10
     show debbie 14
-    player_name "Да, ничего страшного."
-    player_name "Извините, что."
+    player_name "Да, это пустяки."
+    player_name "Прости, что досадил тебе."
     show player 5
     show debbie 13
-    deb "Ты никогда мне не надоедаешь, милый."
+    deb "Ты никогда не досаждаешь мне, милый."
     return
 
 label debbie_dialogue_kiss_practice:
     show player 2 at left
     show debbie 1 at right
     player_name "Как ты думаешь, мы могли бы практиковать снова?"
-    player_name "Ты знаешь... Целование?"
+    player_name "Ты знаешь... в поцелуях?"
     show player 1
     show debbie 13
-    deb "Снова?"
+    deb "Ещё раз?"
     show player 2
     show debbie 14b
-    player_name "Д-да. Думаю, у меня определенно получится!"
+    player_name "Д-да. Я думаю у меня уже получается лучше!"
     show player 1
     show debbie 13
-    deb "... Хорошо."
+    deb "... Ладно."
     deb "Но только немного!"
     show player 2
     show debbie 14
@@ -1128,8 +1128,8 @@ label debbie_dialogue_kiss_practice:
     show player 233 at Position(xpos=0.30, ypos=1.0) with dissolve
     pause
     show debbie 77
-    deb "Вау... Я бы сказала, у тебя определенно получается."
-    deb "... и ты уже так хорош, для начала!"
+    deb "Вау... я бы сказала что у тебя определенно стало получаться."
+    deb "...Ты уже и так был хорош, чтобы начинать!"
     show player 232
     show debbie 76
     player_name "Спасибо {b}[deb_name]{/b}!"
@@ -1140,18 +1140,18 @@ label debbie_dialogue_kiss_practice:
     pause
     show player 232
     show debbie 76
-    player_name "Жаль что... Ты знаешь."
+    player_name "Извини за то... Ты знаешь."
     show player 231
     show debbie 75
-    deb "Хе-хе, все в порядке, милый."
-    deb "Совершенно естественный."
-    deb "Девочки в этом городе находятся в беде."
+    deb "Хехе, все в порядке, дорогой."
+    deb "Это совершенно естественно."
+    deb "У девочек в этом городе будут большие неприятности."
     show player 232
     show debbie 72
-    player_name "Ха, ты права!"
+    player_name "Хах, ещё бы!"
     show player 231
     show debbie 73
-    deb "Вперед, дорогой!"
+    deb "Покажи им, милый!"
     show player 232
     show debbie 72
     player_name "Да, мэм!"
@@ -1159,6 +1159,6 @@ label debbie_dialogue_kiss_practice:
 
 label debbie_dialogue_leave:
     show player 2
-    player_name "Вообще-то, забудь, увидимся позже, {b}[deb_name]{/b}."
+    player_name "На самом деле, неважно, увидимся позже, {b}[deb_name]{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
