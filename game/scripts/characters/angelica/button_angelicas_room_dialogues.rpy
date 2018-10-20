@@ -31,7 +31,7 @@ label angelicas_room_dialogue_helen_route_pre:
     hide ang
     show ang 9 at Position (xpos=462)
     with dissolve
-    ang "Now."
+    ang "Сейчас."
     ang "Есть что-то особенное, что ты хотел бы сделать с {b}Еленой{/b}?"
     show ang 10
     return
@@ -43,7 +43,7 @@ label angelicas_room_dialogue_helen_route_spanking:
     player_name "Неважно."
     show player 5f
     show ang 9
-    ang "Oh?"
+    ang "О?"
     ang "Ты слишком стесняешься, чтобы попросить меня наказать {b}Елену{/b}?"
     show ang 10
     show player 24f
@@ -313,7 +313,7 @@ label angelicas_room_dialogue_mia_find_sinners_pre:
     show ang 1 at right
     show player 12 at left
     with dissolve
-    player_name "Привет, {b}Sister Angelica{/b}..."
+    player_name "Привет, {b}Сестра Анжелика{/b}..."
     show player 5
     show ang 2
     ang "...Да?"

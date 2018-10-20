@@ -29,7 +29,7 @@ label before_fishing:
                 aqua "Что ты хочешь на этот раз?"
                 show player 474
                 show aqua 17b
-                player_name "Не прикидывайся идиоткой!Ты знаешь что я хочу вернуть свою приманку!"
+                player_name "Не прикидывайся идиоткой! Ты знаешь что я хочу вернуть свою приманку!"
                 show player 475
                 show aqua 18b
                 aqua "Блестяшкууу?"
@@ -39,7 +39,7 @@ label before_fishing:
                 show player 475
                 show aqua 18b
                 aqua "Нет! Ты просто используешь его, чтобы красть рыбок!"
-                aqua "Я держу его  в безопасности."
+                aqua "Я держу его в безопасности."
                 show player 474
                 show aqua 17b
                 player_name "Грр..."
@@ -51,7 +51,7 @@ label before_fishing:
                 player_name "Блестяшка!"
                 player_name "..."
                 jump follow_aqua
-            "Fish.":
+            "Рыба.":
 
                 $ pass
 
@@ -78,16 +78,16 @@ label after_fishing(fish_name, chosen_bait):
     if fish_name != None:
         play audio randomizer("audio/sfx_reel{}.ogg", 1, 2)
         show player 237 at Position(xpos=0.7173,ypos=0.9455)
-        if fish_name == "сельдь":
+        if fish_name == "Seatrout":
             show xtra 4 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("сельдь")
-        elif fish_name == "Люциан":
+            $ player.get_item("seatrout")
+        elif fish_name == "Snapper":
             show xtra 5 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("Люциан")
-        elif fish_name == "Скумбрия":
+            $ player.get_item("snapper")
+        elif fish_name == "Mackerel":
             show xtra 6 at Position(xpos=0.5786,ypos=0.4810)
-            $ player.get_item("Скумбрия")
-        elif fish_name == "Рыба-Тигр":
+            $ player.get_item("mackerel")
+        elif fish_name == "Tiger Fish":
             show xtra 29 at Position(xpos=0.56,ypos=0.52)
             player_name "Этот подлый ублюдок устроил настоящую драку.."
             player_name "... и только посмотрите на эти зубы!"
@@ -95,19 +95,19 @@ label after_fishing(fish_name, chosen_bait):
             player_name "Не могу дождаться, чтобы показать ему!"
             $ player.get_item("tigger")
 
-        if fish_name != "Рыба-Тигр":
+        if fish_name != "tigger":
             player_name "( Да! Я поймал {b}[fish_name]{/b}! )"
         $ fish_caught_count += 1
         $ first_fish = True
     else:
         show player 238 at Position(xpos=0.7173,ypos=0.9455)
-        if chosen_bait == "Черви":
+        if chosen_bait == "worms":
             show xtra 7 at Position(xpos=0.5786,ypos=0.4479)
-        elif chosen_bait == "стандартная приманка":
+        elif chosen_bait == "standard lure":
             show xtra 8 at Position(xpos=0.5796,ypos=0.4645)
-        elif chosen_bait == "фантастическая приманка":
+        elif chosen_bait == "fancy lure":
             show xtra 9 at Position(xpos=0.5796,ypos=0.4479)
-        elif chosen_bait == "Золотая приманка":
+        elif chosen_bait == "golden lure":
             show xtra 10 at Position(xpos=0.5796,ypos=0.4479)
         player_name "!!!" with hpunch
         player_name "( Я ничего не поймал! )"

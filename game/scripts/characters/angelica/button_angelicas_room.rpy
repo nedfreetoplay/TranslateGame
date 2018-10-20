@@ -32,7 +32,7 @@ label angelicas_room_dialogue:
     elif M_mia.is_state(S_mia_find_sinners):
         call expression game.dialog_select("angelicas_room_dialogue_mia_find_sinners_pre")
         menu:
-            "Find sinners.":
+            "Найти грешников.":
                 call expression game.dialog_select("angelicas_room_dialogue_mia_find_sinners")
 
     elif M_mia.is_state(S_mia_angelicas_whip):

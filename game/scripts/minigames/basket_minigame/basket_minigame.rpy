@@ -2,7 +2,7 @@ label basketball_minigame_prepare:
     if M_roxxy.get("basketball unlocked"):
         if game.cheat_mode:
             menu:
-                "Пропустить (Cheat)":
+                "Пропустить (Чит)":
                     jump basketball_success
                 "Играть":
 
@@ -65,7 +65,7 @@ label basketball_success:
         tyrone "... Это его член?!"
         show tyrone 10f with dissolve
         show dexter 43
-        kev "Не знаю, братан,не могу сказать..."
+        kev "Не знаю, братан, не могу сказать..."
         show kevin 36bf
         kev "... Кто-нибудь принес лупу?!"
         show chad 13f
@@ -249,7 +249,7 @@ label basketball_fail:
             show player 90
             show coach 2f
             bri "Хорошо."
-            bri "Думаю, завтра нам придется сыграть еще одну игру."
+            bri "Думаю, завтра нам придется сыграть ещё одну игру."
             show coach 1f
             show dexter 30 with dissolve
             dex "Пссс, меня это устраивает!"
@@ -346,7 +346,7 @@ label basketball_fail:
             show player 5
             show coach 2f
             bri "Хорошо."
-            bri "Думаю, завтра нам придется сыграть еще одну игру."
+            bri "Думаю, завтра нам придется сыграть ещё одну игру."
             show coach 1f
             show dexter 3
             dex "Пссс, меня это устраивает!"

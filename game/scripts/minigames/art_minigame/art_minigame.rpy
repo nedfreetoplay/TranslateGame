@@ -27,7 +27,7 @@ label art_minigame_done_dialogue:
     smi "НЕТ!"
     show ross 23
     show principalo 1
-    ross "В самом деле, {b}Principal Smith{/b},я против."
+    ross "В самом деле, {b}Директриса Смит{/b}, я против."
     ross "Это-"
     show ross 22
     show principalo 2b
@@ -55,7 +55,7 @@ label art_minigame_done_dialogue:
     show principalo 3 at Position(xpos=0.4, ypos=1.0) with dissolve
     pause
     show principalo 4 at Position(xpos=0.2, ypos=1.0) with dissolve
-    smi "Закройте дверь пожалуйста, {b}Annie{/b}."
+    smi "Закрой дверь пожалуйста, {b}Энни{/b}."
     show principalo 3
     show annieo 2
     ann "Да, мэм"
@@ -67,7 +67,7 @@ label art_minigame_done_dialogue:
     show annieoverlay 1 zorder 2 at Position(xpos=0.549, ypos=1.0)
     ann "Ох, точно!"
     show annieo 9
-    ann "Ммм, да, мой {b}Queen{/b}."
+    ann "Ммм, да, моя {b}Королева{/b}."
     hide annieoverlay
     hide annieo
     with dissolve
@@ -82,7 +82,7 @@ label art_minigame_done_dialogue:
     smi "Пожалуйста, сообщите ему о том, что здесь произойдет."
     show principalo 3
     show annieo 2
-    ann "Конечно, прямо сейчас, моя {b}Queen{/b}."
+    ann "Конечно, прямо сейчас, моя {b}Королева{/b}."
     show annieo 1f at Position(xpos=0.45, ypos=1.0) with dissolve
     show player 10f
     player_name "... А что случиться прямо сейчас!?"
@@ -92,14 +92,14 @@ label art_minigame_done_dialogue:
     ann "МОЛЧИ!" with hpunch
     hide annieoverlay
     show annieo 2f
-    ann "Вы, мужчина, будите иметь честь захватить сердце нашей любимой {b}Queen{/b} во всей своей красе."
+    ann "Ты, мужчина, будишь иметь честь захватить сердце нашей любимой {b}Королевы{/b} во всей своей красе."
     show player 11f
-    ann "Тем не менее, есть несколько правил, которые вы должны знать, прежде чем начать."
+    ann "Тем не менее, есть несколько правил, которые ты должен знать, прежде чем начать."
     show annieo 1f
     pause
     show annieo 2f
     ann "Первое правило."
-    ann "С этого момента вы будете обращаться только к {b}Principal Smith{/b} к ней {b}Queen{/b}, к ней {b}Royal Highness{/b}, и к ней  {b}Majesty.{/b}"
+    ann "С этого момента ты будешь обращаться к {b}Директрисе Смит{/b} только как {b}Королева{/b}, {b}Королевское Высочество{/b} и {b}Величие{/b}."
     show annieo 1f
     player_name "..."
     show annieo 2f
@@ -108,14 +108,14 @@ label art_minigame_done_dialogue:
     pause
     show annieo 2f
     ann "Второе правило."
-    ann "Вы не должны обращаться к нам {b}Queen{/b} напрямую."
-    ann "Если у вас остануться какие либо вопросы, подойтдите ко мне и я отвечу."
+    ann "Ты не должен обращаться к нам {b}Королеве{/b} напрямую."
+    ann "Если у тебя остануться какие либо вопросы, подойди ко мне и я отвечу."
     show annieo 1f
     player_name "..."
     show annieo 2f
     ann "И третие правило."
     ann "После того, как мы закончим здесь, ты никогда, никогда не расскажешь, что произошло в этой комнате!"
-    ann "Сделайте это, и я уверяю вас, вы будете оштрафованы!"
+    ann "Сделаешь это, и я тебя уверяю, ты будешь оштрафован!"
     ann "Всё понятно?!"
     show annieo 1f
     player_name "..."
@@ -128,7 +128,7 @@ label art_minigame_done_dialogue:
     show player 11f
     ann "Очень хорошо!"
     show annieo 2 at Position(xpos=0.5, ypos=1.0) with dissolve
-    ann "Я считаю, что отвратительный сельчанин готов начать, мой {b}Queen{/b}."
+    ann "Я считаю, что отвратительный сельчанин готов начать, моя {b}Королева{/b}."
     show annieo 1
     show principalo 4
     smi "Сейчас самое подходящие время."
@@ -138,7 +138,7 @@ label art_minigame_done_dialogue:
     smi "В наши дни так трудно найти хороших сельчанин."
     show principalo 3
     show annieo 2
-    ann "Да, мой {b}Queen{/b} это конечно..."
+    ann "Да, моя {b}Королева{/b}, это конечно..."
     show annieo 1
     show principalo 4
     smi "Очень хорошо, Анна. Вы можете начать..."
@@ -161,7 +161,7 @@ label art_minigame_done_dialogue:
     ann "Тогда перестань пялиться на меня, ты, жалкий-"
     show annieo 7bf
     show principalo 2b
-    smi "Вали, пока я не потеряла терпение"
+    smi "Вали, пока я не потеряла терпение."
     show principalo 3
     show annieo 10f with dissolve
     pause
@@ -200,11 +200,11 @@ label art_minigame_done_dialogue:
     pause
     show text "... Так что вместо этого, я просто сосредоточился на попытке не думать про стояк." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Задача не из легких, учитывать наряды {b}Principal Smith{/b} Выбрали!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Задача не из легких, учитывая наряд {b}Директрисы Смит{/b}!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я сказал {b}Principal Smith{/b}?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я сказал {b}Директрисы Смит{/b}?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я имею в виду, наш любимый {b}Queen{/b}! Хех, какой странный день..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я имею в виду, нашей любимой {b}Королевы{/b}! Хех, какой странный день..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -230,16 +230,16 @@ label art_minigame_done_dialogue:
     show annieo 8f at Position(xpos=0.4, ypos=1.0)
     show principalo 8f zorder 3
     with dissolve
-    smi "{b}*Ahem*{/b}"
+    smi "{b}*ГМ*{/b}"
     show principalo 7f
     show annieo 9f
-    ann "ОХ!Извени меня {b}Queen{/b}!"
+    ann "ОХ! Простите меня, моя {b}Королева{/b}!"
     show annieo 8f
     show principalo 13f at Position(xpos=0.242, ypos=1.0) with dissolve
     smi "Я приучу тебя к дисциплине позже, сучёнышь!"
     show principalo 12f
     show annieo 9f
-    ann "Конечно ваш {b}Majesty{/b}!"
+    ann "Конечно ваше {b}Величие{/b}!"
     show annieo 8f
     show principalo 14f
     smi "Покрути картину что бы я смогла её рассмотреть!"
@@ -264,14 +264,14 @@ label art_minigame_done_dialogue:
     smi "Наконец, точное изображение моего истинного лица!"
     show principalo 10f
     show annieo 6f
-    ann "Ты выглядишь прекрасно, твой {b}Majesty{/b}."
+    ann "Ты выглядишь прекрасно, ваше {b}Величие{/b}."
     show principalo 9f
     show annieo 8f with dissolve
     smi "МОЛЧАТЬ!"
     show principalo 12f at Position(xpos=0.242, ypos=1.0) with dissolve
     smi "..."
     show principalo 13f
-    smi "Блять, ты испортила момент!"
+    smi "Блять, ты испортил момент!"
     show principalo 12f
     ann "..."
     show principalo 11f at Position(xpos=0.2, ypos=1.0) with dissolve
@@ -279,17 +279,17 @@ label art_minigame_done_dialogue:
     show principalo 10f
     player_name "..."
     show principalo 11f
-    smi "Вы можете обратиться ко мне только один раз."
+    smi "Ты можешь обращаться ко мне только один раз."
     show principalo 10f
     show player 10f
     player_name "О, это ведь я, не так ли?"
     show principalo 12f at Position(xpos=0.242, ypos=1.0) with dissolve
-    player_name "Извини, эээ. Да, мой {b}Queen{/b}?"
+    player_name "Простите, эээ. Да, моя {b}Королева{/b}?"
     show player 11f
     smi "..."
     show principalo 11f at Position(xpos=0.2, ypos=1.0) with dissolve
     smi "Ты очень хорошо справилась!"
-    smi "Ты {b}Queen{/b} рад?."
+    smi "Ты рад {b}Королеве{/b}?."
     smi "Скажите своему учителю, что я хочу, чтобы эта картина была оформлена и доставлена в мой офис как можно быстрее!"
     show principalo 13f at Position(xpos=0.242, ypos=1.0) with dissolve
     smi "ПОНЯТНО?"
@@ -299,7 +299,7 @@ label art_minigame_done_dialogue:
     show player 22f
     smi "..."
     show player 10f
-    player_name "Извини, я имел в виду {b}Queen{/b}."
+    player_name "Извините, я имел в виду {b}Королева{/b}."
     show player 11f
     smi "Кхм!"
     show principalo 13f
@@ -308,7 +308,7 @@ label art_minigame_done_dialogue:
     smi "Раб!"
     show principalo 7f
     show annieo 9 zorder 3 at Position(xpos=0.45, ypos=1.0) with dissolve
-    ann "Прямо здесь, ваш {b}Majesty{/b}!"
+    ann "Прямо здесь, ваше {b}Величие{/b}!"
     show annieo 8
     show principalo 8f
     smi "Собрайте свои вещи и едем."
@@ -317,12 +317,12 @@ label art_minigame_done_dialogue:
     hide principalo
     show annieo 9f at Position(xpos=0.2, ypos=1.0)
     with dissolve
-    ann "Конечно, мэм {b}Majesty{/b}!Это будет для меня честью!"
+    ann "Конечно, ваше {b}Величие{/b}! Это будет для меня честью!"
     show annieo 8f
     smi "... И не думай, что я забыла о твоем промахе раньше!"
     smi "Я прослежу, чтобы ты была дисциплинированной, когда закончишь."
     show annieo 9f zorder 0 at Position(xpos=0.55, ypos=1.0) with dissolve
-    ann "Да, моя {b}Queen{/b}..."
+    ann "Да, моя {b}Королева{/b}..."
     hide annieo with dissolve
     pause
     show player 11 with dissolve
@@ -360,7 +360,7 @@ label art_minigame_done_dialogue:
     mia "Да?"
     show player 10f
     show mia 8bf
-    player_name "Я в этом уверен {b}Principal Smith{/b} она бы убила меня во сне если я бы что-то сказал тебе"
+    player_name "Я уверен, что {b}Директриса Смит{/b} убила бы меня во сне, если я бы что-то сказал тебе."
     show player 11f
     show mia 12bf
     mia "Ладно."
@@ -368,7 +368,7 @@ label art_minigame_done_dialogue:
     mia "Хотя картина выглядит отлично!"
     show mia 11f
     show player 10f
-    player_name "Ты ещё ничего не говорила {b}Miss Ross{/b}?"
+    player_name "Ты ещё ничего не говорила {b}Мисс Росс{/b}?"
     show player 11f
     ross "..."
     show mia 7f
@@ -390,7 +390,7 @@ label art_minigame_done_dialogue:
     hide mia
     show ross 54
     with dissolve
-    ross "Я думаю, ты только что спас мою работу,{b}[firstname]{/b}!"
+    ross "Я думаю, ты только что спас мою работу, {b}[firstname]{/b}!"
     ross "Спасибо, ребята..."
     show ross 55
     mia "Я просто счастлива, что стала частью всего этого!"
@@ -398,14 +398,14 @@ label art_minigame_done_dialogue:
     show player 10f zorder 2 at right
     show mia 7f zorder 0 at Position(xpos=0.35, ypos=1.0)
     with dissolve
-    player_name "{b}Principal Smith{/b} сказала, что хочет, чтобы ее оформили и доставили в офис прямо сейчас."
+    player_name "{b}Директриса Смит{/b} сказала, что хочет, чтобы её оформили и доставили в офис прямо сейчас."
     show player 11f
     show ross 11
     ross "Ну, ей придется подождать!"
     ross "Нам нужно выиграть конкурс!"
     show ross 10
     show mia 9f
-    mia "О,Да"
+    mia "О, Да"
     show mia 11f
     show player 10f
     player_name "Она не расстроится?"

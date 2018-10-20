@@ -15,7 +15,7 @@ label debbie_dialogue_master_room_pre:
     return
 
 label debbie_dialogue_master_room_after_kiss_dialogue:
-    deb "Теперь, есть ли что-нибудь еще, что тебе надо?"
+    deb "Теперь, есть ли что-нибудь ещё, что тебе надо?"
     show debbie 54
     return
 

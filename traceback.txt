@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/locations/smith_house/entrance/entrance.rpy", line 3, in script call
+    if M_roxxy.is_state(S_roxxy_sneak_into_smith) and not player.location.is_visited and game.timer.is_dark():
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+  File "game/scripts/minigames/fishing_minigame/fishing_minigame.rpy", line 76, in script
+    label after_fishing(fish_name, chosen_bait):
+Exception: Required parameter fish_name has no value.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/locations/smith_house/entrance/entrance.rpy", line 3, in script call
+    if M_roxxy.is_state(S_roxxy_sneak_into_smith) and not player.location.is_visited and game.timer.is_dark():
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+  File "game/scripts/minigames/fishing_minigame/fishing_minigame.rpy", line 76, in script
+    label after_fishing(fish_name, chosen_bait):
+  File "D:\Programming\RenPy\renpy-7.1.0-sdk\renpy\ast.py", line 823, in execute
+    values = apply_arguments(self.parameters, renpy.store._args, renpy.store._kwargs)
+  File "D:\Programming\RenPy\renpy-7.1.0-sdk\renpy\ast.py", line 154, in apply_arguments
+    return parameters.apply(args, kwargs, ignore_errors)
+  File "D:\Programming\RenPy\renpy-7.1.0-sdk\renpy\ast.py", line 122, in apply
+    raise Exception("Required parameter %s has no value." % name)
+Exception: Required parameter fish_name has no value.
+
+Windows-8-6.2.9200
+Ren'Py 7.1.0.882
+SummertimeSaga 0.16.1
+Sat Oct 20 12:14:30 2018

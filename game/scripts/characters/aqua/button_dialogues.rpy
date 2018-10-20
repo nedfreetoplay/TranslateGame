@@ -20,7 +20,7 @@ label aqua_dialogue_aqua_found:
     show player 16
     show aqua 1
     aqua "Хахаха! Ты веселый человечек!"
-    aqua "Ты проделал доллллгий путь. Ты должно быть хорррроший пллловец, как Aqua!"
+    aqua "Ты проделал доллллгий путь. Ты должно быть хорррроший пллловец, как Аква!"
     show player 24
     show aqua 2
     player_name "*кашель* Наверно..."
@@ -28,7 +28,7 @@ label aqua_dialogue_aqua_found:
     player_name "Что это вообще за место?"
     show player 16
     show aqua 1
-    aqua "Эттто гнннездо Aqua!"
+    aqua "Эттто гнннездо Аква!"
     show player 12
     show aqua 2
     player_name "Ты живешь здесь?"
@@ -49,12 +49,12 @@ label aqua_dialogue_aqua_found:
     aqua "Больше... как я?"
     show player 10
     show aqua 3
-    player_name "Ты знаешь, другие гнезда с другими... Ааа, Aqua?"
+    player_name "Ты знаешь, другие гнезда с другими... Ааа, Аква?"
     show player 11
     show aqua 4
     aqua "Ооо, нет."
     show aqua 5
-    aqua "Нет дррругих. Только Aqua. Последняя."
+    aqua "Нет дррругих. Только Аква. Последняя."
     show player 10
     show aqua 3
     player_name "Ну, это немного грустно. Звучит одиноко."
@@ -95,7 +95,7 @@ label aqua_dialogue_aqua_found:
     player_name "Правда? Как долго ты ждешь?"
     show aqua 4
     show player 11
-    aqua "Аква не знает. Ооооочень долго. Никто не приходит. Никто не найдет Aqua."
+    aqua "Аква не знает. Ооооочень долго. Никто не приходит. Никто не найдет Аква."
     show player 10
     show aqua 5
     player_name "Хмм... Ну, я нашел тебя."
@@ -108,7 +108,7 @@ label aqua_dialogue_aqua_found:
     aqua "Если ты говоришь правду и обещаешь не красть рыбок. Я верну тебе блестяшку."
     show player 14
     show aqua 8
-    player_name "Да! Спасибо Aqua."
+    player_name "Да! Спасибо Аква."
     show player 13
     show aqua 9
     aqua "Ты обещааааешь?"
@@ -256,7 +256,7 @@ label aqua_sex_after_first:
     player_name "Ох. Да..."
     show aswim 2
     show pswim 1
-    aqua "Тебе не нравится тело Aqua?"
+    aqua "Тебе не нравится тело Аква?"
     show aswim 1
     show pswim 2
     player_name "Да... Умм, 'напарнику' очень нравится тело Аква."
@@ -387,9 +387,9 @@ label aqua_sex_cum:
 
 label aqua_sex_cum_pre:
     player_name "Это невероятно!"
-    player_name "{b}Aqua{/b}, Я кончаю..."
+    player_name "{b}Аква{/b}, Я кончаю..."
     aqua "Даааа... ДАААА МОЙ НАПАРНИК!"
-    aqua "Дай {b}Aqua{/b} свое сссееееммммяяя!"
+    aqua "Дай {b}Аква{/b} свое сссееееммммяяя!"
     aqua "ООООННННН!!!"
     show aquas 8 with flash
     player_name "УХХХ!!"
@@ -488,7 +488,7 @@ label aqua_dialogue_how_are_you:
     aqua "... но нравится что человеческий мальчик навещает."
     show player 2
     show aqua 3
-    player_name "Мне тоже нравится с тобой разговаривать Aqua."
+    player_name "Мне тоже нравится с тобой разговаривать Аква."
     show player 1
     show aqua 1
     aqua "Да, как будто разговариваешь."
@@ -526,7 +526,7 @@ label aqua_dialogue_mating_stat_fail:
     aqua "Хмм..."
     pause
     show aqua 4
-    aqua "[chr_warn]Aqua думает... нет. Плохая идея."
+    aqua "[chr_warn]Аква думает... нет. Плохая идея."
     show player 24
     show aqua 3
     player_name "[chr_warn]Облом..."
@@ -550,12 +550,12 @@ label aqua_dialogue_mating_stat_pass:
     player_name "... И я сражался с очень злым кальмаром на этом пути."
     show player 1
     show aqua 7 with hpunch
-    aqua "Ты побил Inky?!"
+    aqua "Ты побил Инки?!"
     show player 2
     show aqua 6
-    player_name "Inky? Да. Я побил Inky."
+    player_name "Инки? Да. Я побил Инки."
     show aqua 7
-    aqua "Оооо, Inky сильный!"
+    aqua "Оооо, Инки сильный!"
     show aqua 12
     pause
     show aqua 11
@@ -571,7 +571,7 @@ label aqua_dialogue_mating_stat_pass:
     player_name "Доказать свою силу? Как я должен это сделать?"
     show player 1
     show aqua 7
-    aqua "Ты говоришь,что Caplan Terry ворует рыбок, да?"
+    aqua "Ты говоришь,что Каплан Терри ворует рыбок, да?"
     show player 12
     show aqua 6
     player_name "{b}Капитану Терри{/b}. Да, это тот парень, который ловит рыбу у причала."
@@ -646,7 +646,7 @@ label aqua_dialogue_nothing:
     player_name "В любом случае, мне пора идти."
     show player 3
     show aqua 1
-    aqua "Возвращайся, посмотреть на Aqua."
+    aqua "Возвращайся, посмотреть на Аква."
     show player 17
     show aqua 2
     player_name "Конечно!"

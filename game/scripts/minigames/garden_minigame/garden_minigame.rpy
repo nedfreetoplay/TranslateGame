@@ -3,7 +3,7 @@ label job_done_dialogue(earnings):
     if quest10 in quest_list and not infestation_done and player.has_item("annihilator"):
         scene black with dissolve
         with Pause(0.5)
-        show expression Cutscene("garden_event01", "I began to spray the whole lot with green napalm...\n Emptied the entire can of spray on the nasty buggers...\nUntil nothing remained!") as cutscene with dissolve
+        show expression Cutscene("garden_event01", "Я начал опрыскивать всю партию зеленым напалмом...\nОпустошил всю банку на мерзких педиков...\nПока ничего не осталось!") as cutscene with dissolve
         $ player.remove_item("annihilator")
         if player.has_item("exterminator"):
             $ player.remove_item("exterminator")
@@ -52,7 +52,7 @@ label job_done_dialogue(earnings):
         player_name "..."
         show diane 5 at right
         show player 13 at left
-        dia "Спасибо, Красавчик! И возвращайтесь поскорее!"
+        dia "Спасибо, Красавчик! И возвращайся поскорее!"
         hide player 13 at left with dissolve
         hide diane 5 at right with dissolve
     else:
@@ -76,7 +76,7 @@ label job_done_dialogue(earnings):
     call expression game.dialog_select("garden_dialogue")
 
 label garden_firsttime_text:
-    show expression Cutscene("garden_firsttime_01", "{b}Diane{/b} went to lie down as I began digging up her garden.\n It was so hot outside and there were so many weeds and bugs!\nI grit my teeth and set myself to the task...\n... I hope she's planning to pay me well for all this physical labor!") as cutscene with dissolve
+    show expression Cutscene("garden_firsttime_01", "{b}Диана{/b} пошла прилечь, когда я начал копать её сад.\n Было так жарко снаружи, и было так много сорняков и Жуков!\nЯ стиснув зубы и поставил перед собой задачу...\n... Надеюсь, она хорошо заплатит мне за весь этот физический труд!") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     scene black with dissolve

@@ -24,7 +24,7 @@ label french_classroom_bissette_quiz_fail:
     bis "Боюсь, что нет..."
     show teacher 4
     show player 37 with dissolve
-    player_name "Мне так жаль, {b}Miss Bissette{/b}!"
+    player_name "Мне так жаль, {b}Мисс Биссетт{/b}!"
     show player 5 with dissolve
     show teacher 5
     bis "Вы должны вернуться завтра и пересдать его."
@@ -36,7 +36,7 @@ label french_classroom_bissette_quiz_fail:
     bis "Я предлагаю тебе учиться усерднее, да?"
     show teacher 4
     show player 24
-    player_name "Да, мэм"
+    player_name "Да, мэм."
     hide teacher
     hide player
     with dissolve
@@ -45,7 +45,7 @@ label french_classroom_bissette_quiz_fail:
 label french_classroom_bissette_quiz_pass:
     scene french_class_cs10
     with fade
-    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Roxxy{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт, кажется, не заметила.\nЯ был взволнован, чтобы быть сделано с французским и претендовать на мою специальную награду от {b}Miss Bissette{/b}." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Рокси{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт, кажется, не заметила.\nЯ был взволнован делая французский, так я хотел претендовать на мою специальную награду от {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     scene black with fade
@@ -54,7 +54,7 @@ label french_classroom_bissette_quiz_pass:
     show player 5 at left
     show teacher 3 at right
     with dissolve
-    bis "Поздравляю., {b}[firstname]{/b}!"
+    bis "Поздравляю, {b}[firstname]{/b}!"
     show teacher 1
     show player 38 with dissolve
     player_name "Я сдал?!"
@@ -69,7 +69,7 @@ label french_classroom_bissette_quiz_pass:
     bis "Я бы сказала ты заработал 5 баллов."
     show teacher 1
     show player 14
-    player_name "Огромное спасибо {b}Miss Bissette{/b}!"
+    player_name "Огромное спасибо {b}Мисс Биссетт{/b}!"
     show player 13
     show teacher 12
     bis "Я удивлена {b}[firstname]{/b}!"

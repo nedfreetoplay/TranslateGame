@@ -35,7 +35,7 @@ label maze_pass:
     pause
     show text "...Но это не может быть концом! Этого же не может быть." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Погодите-ка, это что свет!? " at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Погодите-ка, это что, свет!? " at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve

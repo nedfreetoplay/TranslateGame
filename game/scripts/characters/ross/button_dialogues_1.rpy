@@ -70,7 +70,7 @@ label button_ross_ask_mia_partner:
     ross "Где {b}Мия{/b}?"
     show player 10f
     show ross 1
-    player_name "Ох, эмм... я еще не убедил её."
+    player_name "Ох, эмм... я ещё не убедил её."
     show player 11f
     show ross 2
     ross "Ну чтож поторопись, {b}[firstname]{/b}!"
