@@ -2,10 +2,10 @@ label obituary_records(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "Hmm..."
-    player_name "It seems like the only name under Boatsmith is..."
-    player_name "...Ben Dover?"
-    player_name "Now I just need to visit the cemetary and find the right tomb stone."
+    player_name "Хмм..."
+    player_name "Похоже, единственное имя, под Boatsmith это..."
+    player_name "...Бен Довер?"
+    player_name "Теперь мне просто нужно посетить кладбище и найти его надгробный камень."
     $ M_aqua.trigger(T_aqua_obituary_records)
     return
 
@@ -13,7 +13,7 @@ label keycode_note_closeup(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "This is the {b}code to Okita's office{/b}. {b}6219{/b}."
+    player_name "Это {b}код от замка офиса Мисс Окита{/b}. {b}6219{/b}."
     return
 
 
@@ -21,22 +21,22 @@ label scroll(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "Hmm..."
-    player_name "There's a strange picture on it."
-    player_name "It looks like a crescent moon..."
-    player_name "{b}It must be useful for something...{/b}"
+    player_name "Хмм..."
+    player_name "На нем странный рисунок."
+    player_name "Похож на полумесяц..."
+    player_name "{b}Он должно быть пригодится для чего-то...{/b}"
     return
 
 label treasure_map(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "This is too cool! An actual treasure map!"
-    player_name "Hmm..."
-    player_name "It looks like a drawing of the {b}coast...{/b}"
-    player_name "...And that looks like our local beach?"
-    player_name "... and here, there's an X on a {b}small island...{/b}"
-    player_name "I wonder what it leads to?"
+    player_name "Это круто! Настоящая карта сокровищ!"
+    player_name "Хмм..."
+    player_name "Похоже на рисунок {b}побережья...{/b}"
+    player_name "...И это похоже на наш местный пляж?!"
+    player_name "... и здесь, на {b}маленьком острове{/b} есть крестик..."
+    player_name "Интересно, что там?"
     $ M_aqua.trigger(T_aqua_obituary_records)
     return
 
@@ -44,52 +44,52 @@ label weird_coin(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "Huh?"
-    player_name "That looks like a really old coin."
-    player_name "Just look at these odd {b}symbols{/b}!"
-    player_name "I should keep it. Maybe it's worth something?"
+    player_name "Хух?"
+    player_name "Похоже на очень старую монету."
+    player_name "Просто посмотрите на эти нечетные {b}символы{/b}!"
+    player_name "Мне следует оставить ее себе. Может, она чего-то стоит?"
     return
 
 label old_book(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "This book looks like it would be useful decoding something."
+    player_name "Эта книга выглядит так, будто была бы полезна что-то расшифровать."
     player_name "..."
     if not player.has_item("weird_coin"):
-        player_name "Heh. Maybe some {b}hidden pirate treasure{/b} someone tossed aside carelessly."
-        player_name "But that's just {b}wishful thinking{/b}."
+        player_name "Хех. Может быть {b}скрытое пиратское сокровище{/b} кто-то небрежно бросил."
+        player_name "Но это {b}только мечты{/b}."
     else:
-        player_name "I think that {b}pirate coin{/b} had a four digit number on it."
-        player_name "I should look at it again."
+        player_name "Я думаю, что на {b}монете пирата{/b} было четыре цифры."
+        player_name "Я должен взглянуть на нее еще раз."
     return
 
 label golden_compass(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "Whoa!!"
-    player_name "I can't believe it! I found the treasure!."
-    player_name "This has to be the compass Terry was talking about."
+    player_name "Вау!!"
+    player_name "Я не могу в это поверить! Я нашел сокровище!."
+    player_name "Это должно быть компас, о котором говорил Терри."
     return
 
 label tigger(item):
     scene location_backpack_closeup
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
-    player_name "Whew, this mean bastard put up quite a fight."
-    player_name "... and just look at those teeth!"
-    player_name "It's no wonder why Terry wanted him dead."
-    player_name "I can't wait to show him!"
+    player_name "Уфф, Этот подлый ублюдок неплохо сопротивлялся."
+    player_name "... и только посмотрите на эти зубы!"
+    player_name "Неудивительно, что Терри хотел его смерти."
+    player_name "Не могу дождаться, чтобы показать ему!"
     return
 
 
 label condom:
     scene expression game.timer.image("jennybedroom{}")
     show expression "objects/closeup_condom.png" with dissolve
-    player_name "A {b}condom{/b}?!"
-    player_name "{b}[jen_name]{/b} must be hiding them in her room..."
-    player_name "She probably won't notice if I only take one..."
+    player_name "{b}Презерватив{/b}?!"
+    player_name "{b}[jen_name]{/b} должно быть, прячет их в своей комнате..."
+    player_name "Она, наверное, не заметит, если я возьму один..."
     hide expression "objects/closeup_condom.png" with dissolve
     show expression "boxes/popup_condom.png" at truecenter with dissolve
     $ renpy.pause()
@@ -104,8 +104,8 @@ label attic_key:
         $ suffix = "_night"
     scene expression "home_entrance{}".format(suffix)
     show expression "objects/closeup_key.png" with dissolve
-    player_name "( I've never seen this key before. )"
-    player_name "( It's rather small... )"
+    player_name "( Я никогда не видел этот ключ раньше. )"
+    player_name "( Он довольно маленький... )"
     hide expression "objects/closeup_key.png" with dissolve
     show expression "boxes/popup_key.png" at truecenter with dissolve
     $ renpy.pause()
@@ -116,8 +116,8 @@ label attic_key:
 label ring:
     scene expression game.timer.image("attic{}")
     show expression "objects/closeup_ring.png" with dissolve
-    player_name "( That looks like an expensive ring! )"
-    player_name "( What was it doing all the way up there? )"
+    player_name "( Это похоже на дорогое кольцо! )"
+    player_name "( Что оно там делало? )"
     hide expression "objects/closeup_ring.png" with dissolve
     show expression "boxes/popup_ring.png" at truecenter with dissolve
     $ renpy.pause()
@@ -138,10 +138,10 @@ label cheerleader_outfit:
 label fishing_rod:
     scene expression game.timer.image("attic{}")
     show expression "objects/closeup_rod.png" with dissolve
-    player_name "That's {b}Dad{/b}'s old {b}fishing rod{/b}!!"
-    player_name "( I remember when we used to go fishing by the {b}pier{/b}, when I was little. )"
-    player_name "{b}*Sigh*{/b}"
-    player_name "I miss {b}Dad{/b}..."
+    player_name "Это старая {b}папина{/b} {b}удочка{/b}!!"
+    player_name "( Я помню, когда я был маленьким, мы ходили с ней рыбачить на {b}пирс{/b}. )"
+    player_name "{b}*вздыхая*{/b}"
+    player_name "Я скачаю по тебе {b}Папа{/b}..."
     hide expression "objects/closeup_rod.png" with dissolve
     show expression "boxes/popup_item_rod1.png" at truecenter with dissolve
     $ renpy.pause()
@@ -156,10 +156,10 @@ label backpack_pickup_dialogue:
     with dissolve
     pause
     show player 608b
-    player_name "This is definately {b}Eve's{/b} backpack."
-    player_name "Hmm, I don't see her {b}Art Pad{/b} though."
+    player_name "Это определенно рюкзак {b}Евы{/b}."
+    player_name "Хмм, Я не вижу ее {b}блокнота для рисования{/b}."
     show player 610 with dissolve
-    player_name "I should {b}ask her about it when I return this{/b}."
+    player_name "Я должен {b}спросить ее об этом, когда я верну рюкзак{/b}."
     show expression "boxes/popup_item_backpack1.png" at truecenter with dissolve
     pause
     hide expression "boxes/popup_item_backpack1.png"
@@ -168,8 +168,8 @@ label backpack_pickup_dialogue:
 
 label roxxy_homework_pickup_dialogue:
     scene mc_locker
-    player_name "Ah, here it is!"
-    player_name "Now I just need to {b}Bring this to Roxxy.{/b}."
+    player_name "Ах, вот она!"
+    player_name "Теперь мне просто нужно {b}отнести ее Рокси.{/b}."
     show expression 'boxes/popup_item_homework5.png' at truecenter with dissolve
     pause
     hide expression 'boxes/popup_item_homework5.png'

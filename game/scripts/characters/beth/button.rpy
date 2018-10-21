@@ -4,7 +4,7 @@ label beth_dialogue:
         "Я не знаю." if not M_mia.is_set("buy donuts"):
             call expression game.dialog_select("beth_dialogue_do_not_know")
 
-        "<>Я хочу пончики! (50$)" if not player.has_money(50) and M_mia.is_set("buy donuts"):
+        "Я хочу пончики! (50$)" if not player.has_money(50) and M_mia.is_set("buy donuts"):
             $ pass
 
         "Я хочу пончики! (50$)" if player.has_money(50) and M_mia.is_set("buy donuts"):
