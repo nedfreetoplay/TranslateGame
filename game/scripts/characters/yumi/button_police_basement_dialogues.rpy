@@ -48,11 +48,11 @@ label yumi_police_basement_dialogue_donuts:
 label yumi_police_basement_dialogue_harold:
     show player 12
     player_name "Ты знаешь, где может быть {b}Гарольд{/b}?"
-    player_name "Мне нужно эмм... вернуть ему что-то!"
+    player_name "Мне нужно эмм... вернуть ему кое-что!"
     show player 5
     show yumi 4
     yum "Знаешь, я видела его только сегодня утром!"
-    yum "Он посмотрел... прочь... и пахло алкоголем..."
+    yum "Он посмотрел... ушел прочь... и от него пахло алкоголем..."
     show yumi 3
     show player 10
     player_name "Алкоголем?!"
