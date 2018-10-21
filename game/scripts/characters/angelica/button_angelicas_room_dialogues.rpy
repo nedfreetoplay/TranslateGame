@@ -4,20 +4,20 @@ label angelicas_room_dialogue_helen_route_pre:
     show ang 6f at left
     show player 5f at right
     with dissolve
-    ang "Добрый вечер, {b}[firstname]{/b}. Ты пришел помочь мне в моем обучении {b}Елены{/b}?"
+    ang "Добрый вечер, {b}[firstname]{/b}. Ты пришел помочь мне в моем обучении {b}Хелен{/b}?"
     show ang 5f
     show player 10f
     player_name "Только, если моя помощь нужна."
     show player 5f
     show ang 9 with dissolve
     ang "{b}Господу{/b} всегда нужна помощь от его последователей."
-    ang "Кроме того, {b}Елена{/b} надеялась, что ты снова зайдешь."
+    ang "Кроме того, {b}Хелен{/b} надеялась, что ты снова зайдешь."
     show ang 10
     show helen 39
     helen "Я рада видеть тебя здесь, {b}Мой Господин{/b}."
     show helen 37
     show ang 9
-    ang "{b}Елена{/b}, давай-ка подготовим тебя для сегодняшнего ритуала."
+    ang "{b}Хелен{/b}, давай-ка подготовим тебя для сегодняшнего ритуала."
     show helen 37 at Position (xpos=464) with dissolve
     show ang 13 with dissolve
     pause
@@ -26,13 +26,13 @@ label angelicas_room_dialogue_helen_route_pre:
     hide helen
     show ang 15
     with dissolve
-    ang "Мне нравится видеть, что ты так покорно следуешь моей воле, {b}Елена{/b}."
+    ang "Мне нравится видеть, что ты так покорно следуешь моей воле, {b}Хелен{/b}."
     show helen whip 1 at Position (xpos=161)
     hide ang
     show ang 9 at Position (xpos=462)
     with dissolve
     ang "Сейчас."
-    ang "Есть что-то особенное, что ты хотел бы сделать с {b}Еленой{/b}?"
+    ang "Есть что-то особенное, что ты хотел бы сделать с {b}Хелен{/b}?"
     show ang 10
     return
 
@@ -44,13 +44,13 @@ label angelicas_room_dialogue_helen_route_spanking:
     show player 5f
     show ang 9
     ang "О?"
-    ang "Ты слишком стесняешься, чтобы попросить меня наказать {b}Елену{/b}?"
+    ang "Ты слишком стесняешься, чтобы попросить меня наказать {b}Хелен{/b}?"
     show ang 10
     show player 24f
     player_name "..."
     show ang 9
     ang "Не волнуйся, {b}[firstname]{/b}."
-    ang "{b}Елена{/b} любит порку. Правда, {b}Елена{/b}?"
+    ang "{b}Хелен{/b} любит порку. Правда, {b}Хелен{/b}?"
     show ang 10
     helen "Да, {b}Сестра Анжелика{/b}."
     show ang 18f at Position (xoffset=27) with dissolve
@@ -60,7 +60,7 @@ label angelicas_room_dialogue_helen_route_spanking:
     show ang 18 at Position (xoffset=312)
     hide player
     with dissolve
-    ang "Покаяся, {b}Хелен{/b}!"
+    ang "Покайся, {b}Хелен{/b}!"
     ang "Почувствуй гнев {b}Божий{/b}, лобзающий твой зад!"
     hide helen
     show ang 19
@@ -166,7 +166,7 @@ label angelicas_room_dialogue_helen_route_spanking:
 
 label angelicas_room_dialogue_helen_route_holy_seed:
     show player 10f
-    player_name "Я здесь, чтобы помочь очистить {b}Елену{/b} от греха."
+    player_name "Я здесь, чтобы помочь очистить {b}Хелен{/b} от греха."
     show ang 9
     ang "Отлично! Твои деяния не останутся незамеченными в глазах {b}Господа{/b}, {b}[firstname]{/b}..."
     ang "...Или меня."
@@ -283,7 +283,7 @@ label angelicas_room_dialogue_mia_route:
     show player 5f
     show ang 2f
     ang "Да, но сейчас у меня нет никаких грешников..."
-    ang "{b}Елена{/b} меня больше не посещает."
+    ang "{b}Хелен{/b} меня больше не посещает."
     ang "Наверное, прямо сейчас, когда мы с тобой разговариваем, ее муж очищает ее от греха."
     show ang 1f
     show player 12f
@@ -404,9 +404,9 @@ label helen_sacrement_training_part2_pre:
     show ang 17f
     pause
     show ang 18f
-    ang "Как видите: {b}Хелен{/b} все еще сомневается в моих методах."
-    ang "Я хочу, чтобы вы стали свидетелями ее наказания..."
-    ang "...И посмотрите, как я предпочитаю  удалять все ее мерзкие поступки из ее тела."
+    ang "Как видишь: {b}Хелен{/b} все еще сомневается в моих методах."
+    ang "Я хочу, чтобы ты стал свидетелем ее наказания..."
+    ang "...И посмотри, как я предпочитаю  удалять все ее мерзкие грехи из ее тела."
     show ang 17f
     show helen 30
     helen "!!!"
@@ -520,7 +520,7 @@ label helen_sacrement_training_part2_pre:
     pause
     show ang 20 with dissolve
     "{b}*УДАР!*{/b}" with hpunch
-    helen "Ахххх! Пожалуйста {b}Сестра{/b}... наказывать... моё тело..."
+    helen "Ахххх! Пожалуйста {b}Сестра{/b}... наказывай... моё тело..."
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
     ang "Что это? Вам нравится это, {b}Хелен{/b}?"
@@ -550,7 +550,7 @@ label helen_sacrement_training_part2_pre:
     "{b}*УДАР!*{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Так вульгарно, {b}Хелен{/b}. Теперь попроси меня побольше хлестать тебя... неряха."
+    ang "Так вульгарно, {b}Хелен{/b}. Теперь попроси меня побольше хлестать тебя... Блудница."
     show ang 17 at Position (xoffset=312)
 
     helen "..."
@@ -562,7 +562,7 @@ label helen_sacrement_training_part2_pre:
     "{b}*УДАР!*{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Спроси меня!"
+    ang "Проси меня!"
     show ang 17 at Position (xoffset=312)
 
     helen "Хлестай моё распутное тело, {b}Сестра{/b}! Помоги мне!"
@@ -601,13 +601,13 @@ label helen_sacrement_training_part2_pre:
     show player 24f at right with dissolve
     player_name "Да?"
     show ang 18f
-    ang "Ты тоже хорошо поработал.."
+    ang "Ты тоже хорошо поработал."
     ang "Не так ли, {b}Хелен{/b}?"
     show ang 17f
     show player 22f
     helen "Да..."
     show ang 18f
-    ang "Спасибо, что принесла мне хлыст., {b}Хелен{/b}."
+    ang "Спасибо, что принес мне хлыст. {b}Хелен{/b}."
     show ang 17f
     show player 11f
     helen "Спасибо... тебе... {b}[firstname]{/b}..."
@@ -642,7 +642,7 @@ label helen_sacrement_training_part2_after:
 
 label angelicas_room_dialogue_mia_angelicas_whip:
     show ang 6f
-    ang "Вы принесли мне мой хлыст для ритуала бичевания в моем таинстве трехступенчатого очищения?"
+    ang "Ты принес мне мой хлыст для ритуала бичевания в мое таинство трехступенчатого очищения?"
     show ang 5f
     show player 10f
     player_name "Нет..."
