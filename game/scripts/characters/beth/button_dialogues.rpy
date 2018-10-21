@@ -16,7 +16,7 @@ label beth_dialogue_pre:
 
 label beth_dialogue_do_not_know:
     show player 14
-    player_name "Хмм... Я еще не уверен, что мне это нужно купить."
+    player_name "Хмм... Я ещё не уверен, что мне это нужно купить."
     show player 1
     show beth 2
     beth "Не знаете?"
