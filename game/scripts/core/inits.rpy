@@ -2,9 +2,9 @@ label INIT_FSM_TRIGGERS:
     $ renpy.not_infinite_loop(10)
     python:
 
-        T_all_sleep = Trigger("sleep", "Sleep for the night")
-        T_all_school_entrance = Trigger("hallway", "Meet everyone back at school")
-        T_all_on_load = Trigger("on load", "On game load")
+        T_all_sleep = Trigger("sleep", "Спокойной ночи.")
+        T_all_school_entrance = Trigger("hallway", "Увидимся в школе.")
+        T_all_on_load = Trigger("on load", "При запуске игры")
         for lbl in [lbl for lbl in renpy.get_all_labels() if "triggers" in lbl]:
             renpy.call_in_new_context(lbl)
     return

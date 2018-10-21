@@ -125,6 +125,7 @@ init python:
         
         def on_event(self, button_pressed):
             if not button_pressed.has_been_pressed:
+                button_pressed.has_been_pressed = True
                 for house in self._pizza_houses:
                     if house.hitbox(self._player.x, self._player.y):
                         if button_pressed.id_ == house.id_:
@@ -133,8 +134,6 @@ init python:
                             return
                     else:
                         button_pressed.wrong()
-            button_pressed.has_been_pressed = True
-        
         def event(self, ev, x, y, st):
             if ev.type == pygame.MOUSEBUTTONUP:
                 if self._pizza_button_1.hitbox(x, y):
