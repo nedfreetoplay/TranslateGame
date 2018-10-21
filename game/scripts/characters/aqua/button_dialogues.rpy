@@ -78,7 +78,7 @@ label aqua_dialogue_aqua_found:
     player_name "Я говорю правду, Аква. Обещаю."
     show player 16
     show aqua 2b
-    aqua "Ну что Aqua делать тогда? Рыбок продолжают воровать!"
+    aqua "Ну что Акве делать тогда? Рыбок продолжают воровать!"
     show aqua 4
     aqua "Если рыбки все уйдут, с кем тогда будет разговаривать Аква?"
     show player 11
@@ -293,7 +293,7 @@ label aqua_sex_after_first:
     show pswim 7
     player_name "Д-Да..."
     show aswim 4
-    aqua "Ммм, хорошо. Aqua хочет этого."
+    aqua "Ммм, хорошо. Аква хочет этого."
     show aswim 3
     show pswim 8
     player_name "..."
@@ -304,8 +304,8 @@ label aqua_sex_after_first:
     pause
     show aswim 6 at right with dissolve
     player_name "*глоток*"
-    aqua "Аааа, дааа. Иди угорь, поиграй в Aqua."
-    aqua "Дай Aqua сильных деток..."
+    aqua "Аааа, дааа. Иди угорь, поиграй с Авкой."
+    aqua "Дай Акве сильных деток..."
     player_name "Ох вау!"
     aqua "Ммм..."
     return
@@ -502,7 +502,7 @@ label aqua_dialogue_mating_pre:
     player_name "Аква, какого напарника ты ищешь?"
     show player 11
     show aqua 4
-    aqua "Мужчину. Сильного мужчину. Сделать Aqua сильных деток."
+    aqua "Мужчину. Сильного мужчину. Сделать Акве сильных деток."
     show aqua 1
     aqua "знаешь такого?"
     show player 34
