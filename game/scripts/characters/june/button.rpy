@@ -59,7 +59,7 @@ label june_dialogue:
                 $ player.remove_item("orcette_cosplay")
                 $ june_cosplay.finish()
 
-            "Спросите о классе." if June.completed(june_intro) and (not June.known(june_erik_help) and not June.known(june_mc_help)):
+            "Спросить о уроке." if June.completed(june_intro) and (not June.known(june_erik_help) and not June.known(june_mc_help)):
                 if not June.known(june_intro_2):
                     $ June.add_event(june_intro_2)
                 $ june_intro_2.finish()
@@ -74,7 +74,7 @@ label june_dialogue:
                         hide screen save
                         call expression game.dialog_select("june_dialogue_erik_help")
                         $ June.add_event(june_erik_help)
-                    "Я буду играть!":
+                    "Я поиграю!":
 
                         hide screen save
                         call expression game.dialog_select("june_dialogue_mc_help")

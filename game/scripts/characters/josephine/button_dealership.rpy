@@ -5,10 +5,10 @@ label josephine_button_dealership_dialogue:
         $ L_dealership.visited()
     call expression game.dialog_select("josephine_button_dealership_dialogue_after")
     menu josephine_button_dealership_dialogue_options:
-        "Buy a vehicle.":
+        "Купить автомобиль.":
             call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle")
             menu:
-                "Scooter. (1500$)" if player.transport_level < 2:
+                "Скутер. (1500$)" if player.transport_level < 2:
                     if player.has_money(1500):
                         $ player.transport_level = max(player.transport_level, 2)
                         $ player.spend_money(1500)
@@ -16,7 +16,7 @@ label josephine_button_dealership_dialogue:
 
                         call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle_no_money")
 
-                "Small Car. (3000$)" if player.transport_level < 3:
+                "Маленькая машина. (3000$)" if player.transport_level < 3:
                     if player.has_money(3000):
                         $ player.transport_level = max(player.transport_level, 3)
                         $ player.spend_money(3000)
@@ -24,7 +24,7 @@ label josephine_button_dealership_dialogue:
 
                         call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle_no_money")
 
-                "Sports Car. (10,000$)" if player.transport_level < 4:
+                "Спортивная машина. (10,000$)" if player.transport_level < 4:
                     if player.has_money(10000):
                         $ player.transport_level = max(player.transport_level, 4)
                         $ player.spend_money(10000)
@@ -32,7 +32,7 @@ label josephine_button_dealership_dialogue:
 
                         call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle_no_money")
 
-        "Make an insurance claim" if M_mom.is_state(S_mom_fix_car):
+        "Сделать страховку" if M_mom.is_state(S_mom_fix_car):
             label josephine_button_dealership_dialogue_insurance_claim_plate_menu:
                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_pre")
                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_plate_menu_dialogue")
@@ -52,7 +52,7 @@ label josephine_button_dealership_dialogue:
                 "DTFM0M" if "dtfmom" in selected_plates:
                     call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_right_plate")
                     menu:
-                        "Pay the bill.":
+                        "Платить по счетам.":
                             if not player.has_money(9000):
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle_no_money")
                             else:
@@ -60,7 +60,7 @@ label josephine_button_dealership_dialogue:
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_pay")
                                 $ M_mom.trigger(T_mom_renew_insurance)
                                 $ game.timer.tick()
-                        "Convince her.":
+                        "Убедить её.":
 
                             if player.stats.chr() >= 7:
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_pay_convince")
@@ -71,7 +71,7 @@ label josephine_button_dealership_dialogue:
                             else:
 
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_stat_fail")
-                        "Give up":
+                        "Сдаться":
 
                             call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_give_up")
 
@@ -98,14 +98,14 @@ label josephine_button_dealership_dialogue:
                 "2GRL 1CP" if "2grl1cp" in selected_plates:
                     call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_wrong_plate")
                     jump expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_plate_menu")
-                "None of these.":
+                "Ничего из этого.":
 
                     jump expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_plate_menu")
-        "Kim":
+        "Ким":
 
             call expression game.dialog_select("josephine_button_dealership_dialogue_kim")
             jump josephine_button_dealership_dialogue_options
-        "Nothing":
+        "Ничего":
 
             $ pass
 

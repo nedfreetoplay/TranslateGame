@@ -64,7 +64,7 @@ label terry_button_dialogue:
                 menu:
                     "Купить.":
                         call expression game.dialog_select("terry_dialogue_buy_drink")
-                    "Я пасс.":
+                    "Я пройду.":
 
                         call expression game.dialog_select("terry_dialogue_buy_drink_pass")
             "Ловить рыбу":

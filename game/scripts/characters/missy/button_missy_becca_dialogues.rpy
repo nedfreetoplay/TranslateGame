@@ -19,7 +19,7 @@ label button_missy_becca_chat_with_becca_missy:
     becca "Да-да... Я хорошо знаю, что вы думаете."
     show becca 1f
     show missy 8
-    missy "Интересно, если он... Знаешь, хорошо оборудованн?"
+    missy "Интересно, если он... Знаешь, хорошо оборудован?"
     show missy 7
     show becca 2bf with dissolve
     becca "Авв!!"
@@ -72,7 +72,7 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 1
     show becca 2
     becca "О, она была бы более чем счастлива для одного рааз с тобой."
-    becca "... Так же, как я более чем счастлива, чтобы вас не видели... Придуроки!"
+    becca "... Так же, как я более чем счастлива, чтобы вас не видели... Придурки!"
     show becca 1
     show player 90f
     player_name "..."
@@ -313,7 +313,7 @@ label button_missy_becca_intro:
     show missy 6
     missy "Абсолютно!"
     show missy 8
-    missy "{b}Бекка{/b} просто рассказывала мне, как она не может ждать нашей следующей пляжной вечеринки..."
+    missy "{b}Бекка{/и} просто рассказывала мне, как она не может ждать нашей следующей пляжной вечеринки..."
     show missy 7
     show becca 3b
     becca "Я не был-"

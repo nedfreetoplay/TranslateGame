@@ -18,12 +18,12 @@ label rump_mall_dialogue_pre:
     show rump 3 at Position(xpos = 266)
     show iwanka 1
     rump "И как было обещано сделать это во время моей компании..."
-    rump "Мы возьмем этот жалкий Торговый центр, и превратим его в нечто великое {b}MALL{/b}!"
+    rump "Мы возьмем этот жалкий Торговый центр, и превратим его в нечто великий {b}ТОРГОВЫЙ ЦЕНТР{/b}!"
     show rump 2 at Position(xpos = 330)
     rump "Это будет не легко!"
     rump "Это будет не быстро!"
     show rump 3 at Position(xpos = 266)
-    rump "Но я прослежу за этим как мэр, это станет нашим прекрасным городом {b}GREAT AGAIN!{/b}"
+    rump "Но я прослежу за этим как мэр, это станет нашим прекрасным городом {b}БОЛЕЕ ВЕЛИКИМ!{/b}"
     hide rump
     hide iwanka
     with dissolve

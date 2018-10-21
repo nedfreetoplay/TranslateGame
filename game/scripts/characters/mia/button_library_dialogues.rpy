@@ -27,7 +27,7 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     mia "Что ты здесь делаешь?"
     show mia 7
     show player 14
-    player_name "{b}Мисс Биссетта{/b} дала мне задание. Я подумал, может быть, я мог бы получить вдохновение здесь."
+    player_name "{b}Мисс Биссетт{/b} дала мне задание. Я подумал, может быть, я мог бы получить вдохновение здесь."
     show player 13
     show mia 10
     mia "Да ну? Какое задание?"
@@ -132,7 +132,7 @@ label mia_library_dialogue_bissette_mia_book_feedback:
     mia "Без проблем, {b}[firstname]{/b}."
     hide mia with dissolve
     show player 14
-    player_name "Хорошо, мне лучше взять это домой для {b}моего компьютера{/b} и перейти к написанию этого стихотворения для {b}Мисс Биссетта{/b}."
+    player_name "Хорошо, мне лучше взять это домой для {b}моего компьютера{/b} и перейти к написанию этого стихотворения для {b}Мисс Биссетт{/b}."
     return
 
 label mia_library_dialogue_do_not_disturb:

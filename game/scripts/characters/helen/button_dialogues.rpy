@@ -22,7 +22,7 @@ label helen_dialogue_mia_route:
     show player 29
     show xtra 21 at left
     with dissolve
-    player_name "It's a bit of a blur, for me..."
+    player_name "Для меня, это все как в тумане..."
     show player 13
     hide xtra 21
     with dissolve
@@ -201,7 +201,7 @@ label helen_dialogue_change_whipping:
     player_name "Я всегда к вашим услугам."
     show player 5
     show helen 24
-    helen "Thanks, {b}[firstname]{/b}. Ты и так во многом помогаешь."
+    helen "Спасибо, {b}[firstname]{/b}. Ты и так во многом помогаешь."
     helen "{b}Сестра Анжелика{/b} помогает мне осознать, что во всех жизненных неудачах виной лишь моя греховность."
     helen "Я должна пройти через это, и, может быть я стану такой же доброй и полезной людям... как ты."
     show helen 27

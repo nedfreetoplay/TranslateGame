@@ -96,7 +96,7 @@ label okita_button_dialogue:
             scene location_school_science_closeup
             show player 11 at left
             show okita 2 at right
-            player_name "About those items you needed..."
+            player_name "Насчет тех предметов которые вам нужны..."
             menu okita_items:
                 "Гриб" if not player.has_item("mushroom"):
                     call expression game.dialog_select("button_okita_ingredients_mushroom")

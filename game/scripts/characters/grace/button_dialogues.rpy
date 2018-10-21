@@ -272,7 +272,7 @@ label button_grace_paint:
     show player 2
     show grace 1
     player_name "Эммм, я не уверен."
-    player_name "Just enough to do one painting."
+    player_name "Ровно столько, чтобы сделать одну картину."
     show player 1
     show grace 2
     grace "Ааах,художник, хм?"

@@ -94,7 +94,7 @@ label roz_dialogue_ancestory:
     show player 10f
     player_name "Я пытаюсь найти могилу кого-то кто умер в этом городе,много лет назад."
     show player 29f
-    player_name "Я думаю он был каким-то Boatsmith."
+    player_name "Я думаю он был каким-то Лодочным слесарем."
     player_name "У вас есть какие-то идеи о лучшем способе отыскать его?"
     show player 3f
     show roz 2

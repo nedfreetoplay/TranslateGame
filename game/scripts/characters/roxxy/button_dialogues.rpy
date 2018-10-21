@@ -139,7 +139,7 @@ label roxxy_dialogue_exam_convince_roxxy_sex:
     player_name "Ты можешь положиться на меня."
     show player 5
     show roxxy 1b
-    rox "Слушай, я ценю все что ты говоришь, {b}[firstname]{/b} но сейчас ты ничем не можешь мне помочь в этот раз."
+    rox "Слушай, Я ценю все что ты говоришь, {b}[firstname]{/b}, но сейчас ты ничем не можешь мне помочь в этот раз."
     show roxxy 30
     rox "Я просто, даже думать не хочу об этой тупой школе и об этих тупых учителях."
     show roxxy 29
@@ -331,7 +331,7 @@ label roxxy_dialogue_pom_poms_deal:
     show roxxy 2
     rox "Я не думаю, Слабак!"
     show roxxy 1b
-    rox "А теперь вали, мне нужно подумать о новых номерах для чемпионата штата."
+    rox "А теперь вали, Мне нужно подумать о новых номерах для чемпионата штата."
     show roxxy 1
     show player 4 with dissolve
     player_name "..."
@@ -456,7 +456,7 @@ label roxxy_dialogue_pom_poms_deal_sex:
     player_name "{b}Рокси{/b}, она хороший учитьель и она очень старается."
     show player 34
     show roxxy 2
-    rox "Да ладно ага, она очень старается заполучить в свои руки хуи некторых своих учеников..."
+    rox "Да ладно ага, она очень старается заполучить в свои руки хуи некоторых своих учеников..."
     show roxxy 1b
     rox "Её видно на сквозь."
     show roxxy 1
@@ -468,7 +468,7 @@ label roxxy_dialogue_pom_poms_deal_sex:
     show roxxy 2
     rox "{b}*Вздох*{/b} Ты такой дурак благотворительности..."
     show roxxy 1b
-    rox "Слушай, Я постараюсь. Это всё что я мого обещать."
+    rox "Слушай, Я постараюсь. Это все что я могу обещать."
     rox "Прямо сейчас, Я должна сфокусироваться и подготавливаться к Чемпионату штата."
     show roxxy 1
     show player 4 with dissolve
@@ -499,7 +499,7 @@ label roxxy_dialogue_pom_poms_deal_sex:
     player_name "Она была болельщицей в своём колледжеe!"
     show player 13
     show roxxy 14
-    rox "... Who?"
+    rox "... Кто?"
     show roxxy 1
     show player 14
     player_name "Девушка которая живет в том же доме что и я."
@@ -1185,7 +1185,7 @@ label button_roxxy_need_booze_first:
     show player 34
     with dissolve
     player_name "( Хмм, интересно не мог ли бы {b}Erik{/b} позволить мне взять немного выпивки из своего подвала? )"
-    player_name "( {b}I should ask him about it{/b}. )"
+    player_name "( {b}Я должен спросить его об этом{/b}. )"
     hide player with dissolve
     return
 

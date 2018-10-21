@@ -11,19 +11,19 @@ label police_earl_dialogue:
 
         call expression game.dialog_select("earl_police_office_dialogue_pre")
         menu:
-            "Donuts." if M_mia.is_state(S_mia_impress_harold):
+            "Пончики." if M_mia.is_state(S_mia_impress_harold):
                 $ harold_glaze = M_harold.get("glaze")
                 call expression game.dialog_select("earl_police_office_dialogue_donuts")
                 $ del harold_glaze
 
-            "{b}Harold{/b}." if M_mia.is_state(S_mia_clues):
+            "{b}Гарольд{/b}." if M_mia.is_state(S_mia_clues):
                 call expression game.dialog_select("earl_police_office_dialogue_harold")
                 $ M_mia.set("questioned earl", True)
                 jump police_office_dialogue
 
-            "{b}Roxxy's mom{/b}." if M_roxxy.get("trailer foreclosed"):
+            "{b}Мама Рокси{/b}." if M_roxxy.get("trailer foreclosed"):
                 call expression game.dialog_select("earl_police_office_dialogue_roxxys_mom")
-            "Nothing.":
+            "Ничего.":
 
                 call expression game.dialog_select("earl_police_office_dialogue_leave")
 

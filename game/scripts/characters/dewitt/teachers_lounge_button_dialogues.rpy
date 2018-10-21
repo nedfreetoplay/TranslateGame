@@ -60,7 +60,7 @@ label dewitt_dialogue_lounge_intro:
 label dewitt_dialogue_lounge_stat_pass:
     show player 2 at left
     show dewittl 2 at right
-    player_name "Это просто! Духовой."
+    player_name "Это просто! Духовые."
     show player 1
     show dewittl 3
     dewitt "Очень хорошо, {b}[firstname]{/b}!"
@@ -69,7 +69,7 @@ label dewitt_dialogue_lounge_stat_pass:
     dewitt "Подойди и возьмите столько журналов, сколько тебе нужно."
     show player 595 with dissolve
     show dewittl 2
-    player_name "Потрясающий!"
+    player_name "Потрясающе!"
 
     player_name "Спасибо, {b}Miss Dewitt{/b}! Приятного аппетита!"
     show player 594

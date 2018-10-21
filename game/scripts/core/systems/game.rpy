@@ -149,12 +149,11 @@ init python:
             global quest05
             global M_erik
             self.unlock_ui()
-            config.replay_scope["jen_char_name"] = "Jenny"
-            persistent.jen_char_name = "Jenny"
+            config.replay_scope["jen_char_name"] = "Дженни"
+            persistent.jen_char_name = "Дженни"
             jen = Character("Jenny", color="#ff6df0")
-            config.replay_scope["deb_char_name"] = "Debbie"
-            persistent.deb_char_name = "Debbie"
-            
+            config.replay_scope["deb_char_name"] = "Дебби"
+            persistent.deb_char_name = "Дебби"
             M_mom.trigger(T_mom_breakfast, noactions=True)
             M_mia.trigger(T_all_school_entrance, noactions=True)
             M_smith._state = S_smith_end

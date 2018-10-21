@@ -5,7 +5,7 @@ label ivy_button_dialogue:
     else:
         call expression game.dialog_select("button_ivy_end_intro")
     menu:
-        "Окей." if M_ivy.is_state(S_ivy_start):
+        "Хорошо." if M_ivy.is_state(S_ivy_start):
             call expression game.dialog_select("button_ivy_massage_first")
             call screen pamphlet
 
@@ -16,7 +16,7 @@ label ivy_button_dialogue:
         "Пакет." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
             call expression game.dialog_select("button_ivy_package")
             $ player.get_item("package")
-        "Просто покупки.":
+        "Просто шопинг.":
 
             call expression game.dialog_select("button_ivy_just_shopping")
 

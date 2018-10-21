@@ -20,7 +20,7 @@ label dexter_court_dialogue:
                     call expression game.dialog_select("button_dexter_talent_show")
                     $ M_dewitt.set("talent ask dexter", False)
 
-            "Вызов." if player.location == L_basketball_court:
+            "Бросить вызов." if player.location == L_basketball_court:
                 call expression game.dialog_select("button_dexter_challenge")
                 $ M_dexter.trigger(T_dex_challenge)
 
@@ -34,19 +34,19 @@ label dexter_court_dialogue:
 
             "Библиотечная книга." if M_bissette.between_states(S_bissette_jane_return_books, [S_bissette_got_eriks_martinez_books, S_bissette_got_martinez_eriks_books]) and not M_bissette.is_set("dexters book search"):
                 call expression game.dialog_select("button_dexter_library_book")
-            "Все еще играешь в баскетбол":
+            "По-прежнему играть в баскетбол":
 
                 if M_roxxy.get("roxxy relationship") == 5:
                     call expression game.dialog_select("button_dexter_basketball_final")
                 else:
                     call expression game.dialog_select("button_dexter_basketball")
-            "Твое поведение?" if M_roxxy.get("roxxy relationship")==5:
+            "Хорошо себя ведешь?" if M_roxxy.get("roxxy relationship")==5:
                 call expression game.dialog_select("button_dexter_behaving_yourself")
 
             "Беги сейчас же." if M_roxxy.get("roxxy relationship")==5:
                 call expression game.dialog_select("button_dexter_run_along")
 
-            "Все." if M_roxxy.get("roxxy relationship") < 5:
+            "Неважно." if M_roxxy.get("roxxy relationship") < 5:
                 call expression game.dialog_select("button_dexter_whatever")
     hide dexter
     hide player

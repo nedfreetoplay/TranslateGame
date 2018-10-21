@@ -87,6 +87,6 @@ label erik_dialogue_leave:
     june "Ах,хорошо тогда..."
     show erik 1
     show player 29 at Position(xoffset=8)
-    player_name "Err... Увидимся позже!"
+    player_name "Эээ... Увидимся позже!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

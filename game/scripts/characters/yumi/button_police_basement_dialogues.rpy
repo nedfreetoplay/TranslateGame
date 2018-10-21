@@ -3,7 +3,7 @@ label yumi_police_basement_dialogue_pre:
     show yumi 2 at right
     show player 1 at left
     with dissolve
-    yum "Здравствуйте, вы посититель или пришли внести залог?"
+    yum "Здравствуйте, вы гость или пришли внести залог?"
     show yumi 1
     return
 
@@ -33,7 +33,7 @@ label yumi_police_basement_dialogue_donuts:
     yum "Ну, каждый раз, когда мы посещаем магазин пончиков... он ставит {b}[harold_topping]{/b} на вершине его пончика."
     show player 14
     show yumi 1
-    player_name "Правда?"
+    player_name "Серьёзно?"
     show player 1
     show yumi 2
     yum "Да, он всегда получает это."

@@ -10,9 +10,9 @@ label bedroom_sis_webcam_show:
 
 label bedroom_bissette_roxxy_jenny_mentoring:
     show player 12 with dissolve
-    player_name "{b}Рокси{/b} собиралась встретиться с {b}[jen_name] {/b} ура-ведущей сессии."
+    player_name "{b}Рокси{/b} собиралась встретиться с {b}[jen_name]{/b} для занятий группы поддержки."
     show player 10
-    player_name "{b}Я должен отправиться домой{/b} и убедиться, что {b}[jen_name] {/b} не шелохнется на нее."
+    player_name "{b}Я должен отправиться домой{/b} и убедиться, что {b}[jen_name]{/b} не налетит на неё."
     hide player with dissolve
     return
 
@@ -62,6 +62,6 @@ label bedroom_roxxy_spin_bottle:
 
 label bedroom_roxxy_spin_bottle_no_goldschwagger:
     show player 4 with dissolve
-    player_name "( Мне же еще нужно поговорить с {b}Капитаном Терри{/b} о {b}GoldSchwagger{/b} для {b}Бекка{/b}. )"
+    player_name "( Мне же еще нужно поговорить с {b}Капитаном Терри{/b} о {b}GoldSchwagger{/b} для {b}Бекки{/b}. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -250,7 +250,7 @@ label jenny_dialogue_watch_neighbours:
     jen "Идем быстрее,пока {b}[deb_name]{/b} внизу..."
 
     scene home_hallway_cutscene with fade
-    show text "Мы быстро пробрались из коридора и в мою комнату.\n[jen_name] выглядела очень нетерпеливо, когда тащила меня за рубашку..\nЯ никогда раньше не делал с ней забавных вещей; она всегда ненавидела находиться рядом со мной.\nС тех самых пор с видео шоу,мы стали ближе друг к другу." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Мы быстро пробрались из коридора и в мою комнату.\n[jen_name] выглядела очень нетерпеливо, когда тащила меня за рубашку..\n Я никогда раньше не делал с ней забавных вещей; она всегда ненавидела находиться рядом со мной.\n С тех самых пор с видео шоу, мы стали ближе друг к другу." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     return
 
@@ -347,7 +347,7 @@ label jenny_dialogue_watch_neighbours_continue03:
     jen "Именно так..."
     pause
     jen "Сожми мои сиськи."
-    player_name "Hmh?"
+    player_name "Хмм?"
     jen "Просто сделай это!!"
     show jennysex 139b_140b_141b_142b with fastdissolve
     pause

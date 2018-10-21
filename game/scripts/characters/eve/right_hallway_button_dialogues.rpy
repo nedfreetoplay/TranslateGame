@@ -212,13 +212,13 @@ label button_eve_ross_get_paint:
     player_name "Расскажи мне..."
     show player 1
     show eve 2 with dissolve
-    eve "Мы должны спросить {b}My Sister{/b}."
+    eve "Мы должны спросить {b}мою сестру{/b}."
     show player 2
     show eve 5
-    player_name "Она {b}Tattoo Artist{/b}, правильно?"
+    player_name "Она {b}Тату мастер{/b}, правильно?"
     show player 1
     show eve 6
-    eve "Она лучший {b}Tattoo Artist{/b}!"
+    eve "Она лучший {b}Тату мастер{/b}!"
     eve "Ты должен сходить и посмотреть на ее работы, они прикольные!"
     show player 2
     show eve 5

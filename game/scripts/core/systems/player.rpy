@@ -48,7 +48,7 @@ init python:
 
     class Player(KeepRefs):
         def __init__(self, name=""):
-            self.name = name if str(name).strip() != "" else "Anon"
+            self.name = name if str(name).strip() != "" else "Аноним"
             self.inventory = Inventory()
             self.location = None
             self.stats = PlayerStats()

@@ -971,7 +971,7 @@ label mia_dialogue_mia_show_tattoo_pass:
     player_name "Круто! Я рад, что тебе понравилось."
     show player 13
     show mia 30
-    mia "Мы должны посетить {b}Sugar Tats{/b} и посмотрим, смогут ли они сделать это для меня."
+    mia "Мы должны посетить {b}Сахарные тату{/b} и посмотрим, смогут ли они сделать это для меня."
     show mia 7
     if player.location == L_school_scienceclassroom:
         show mial 1f

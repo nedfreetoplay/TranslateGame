@@ -463,7 +463,7 @@ label button_ross_has_easels:
     show ross 11
     ross "О смотри, {b}[firstname]{/b}'s вернулся!"
     show mia 55f at Position(xpos=0.35, ypos=1.0) with dissolve
-    ross "Как ты сделал с эти мольберы?"
+    ross "Как ты сделал с эти мольберты?"
     show player 2f
     show ross 10
     player_name "Посмотрите сами..."

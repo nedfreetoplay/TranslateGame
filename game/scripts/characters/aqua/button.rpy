@@ -17,10 +17,10 @@ label aqua_dialogue:
 
         call expression game.dialog_select("aqua_dialogue_pre")
     menu aqua_dialogue_options:
-        "Другое.":
+        "Другие.":
             call expression game.dialog_select("aqua_dialogue_the_others")
             jump expression game.dialog_select("aqua_dialogue_options")
-        "Как ваши дела?":
+        "как твои дела?":
 
             call expression game.dialog_select("aqua_dialogue_how_are_you")
             jump expression game.dialog_select("aqua_dialogue_options")
@@ -28,7 +28,7 @@ label aqua_dialogue:
         "Спаривание." if M_aqua.is_state(S_aqua_mating_proposal):
             call expression game.dialog_select("aqua_dialogue_mating_pre")
             menu:
-                "Меня?" if player.stats.chr() < 7:
+                "Я?" if player.stats.chr() < 7:
                     call expression game.dialog_select("aqua_dialogue_mating_stat_fail")
 
 

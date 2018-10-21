@@ -81,7 +81,7 @@ label sis_cheerleader_fuck_cum_inside_unhappy_after:
     hide white with dissolve
     pause
     show jennysex 128 with fastdissolve
-    jen "О, бог..."
+    jen "О, боже..."
     show jennysex 129b_128
     pause 2.9
     show playersex 128 zorder 1 at Position(xpos=540,ypos=768)
@@ -239,7 +239,7 @@ label jenny_dialogue_cam_show_have_items:
     show player 1 at left
     show jenny 12 at right
     show jenny 12 at Position(xpos=937)
-    jen "So..."
+    jen "Итак..."
     jen "У тебя есть все, о чем я тебя просила?"
     show jenny 82
     show player 21

@@ -1,30 +1,30 @@
 label helen_triggers_init:
     python:
 
-        T_helen_confessional = Trigger("confessional", "Helen has entered the confessional")
-        T_helen_convince_fail = Trigger("convince fail", "You failed to convince Helen to change")
-        T_helen_convince_change = Trigger("convince change", "You convinced Helen to try to change")
-        T_helen_secret_sacrement = Trigger("secret asacrement", "Ask Helen to join the ancient sacrement")
-        T_helen_angelica_ritual = Trigger("convince change", "Helen does the sacrement with Angelica")
-        T_helen_caught_masturbating = Trigger("caught masturbating", "You caught Helen masturbating")
-        T_helen_sexy_lingerie = Trigger("sexy lingerie", "You gave Helen a sexy red corset lingerie set")
-        T_helen_torture = Trigger("torture", "Helen gets tortured by Angelica for her own good")
-        T_helen_thanks = Trigger("thanks", "Helen thanks you for your concern and offer")
-        T_helen_master_servant = Trigger("master servant", "Helen wants a spanking from her master")
-        T_helen_route = Trigger("route", "This sets you permanently onto Helen's route")
-        T_helen_master_servant_sex = Trigger("master servant sex", "Helen wants to have more sex with you to stay pure")
+        T_helen_confessional = Trigger("confessional", "Елена вошла в исповедальню")
+        T_helen_convince_fail = Trigger("convince fail", "Ты не смог убедить Елену измениться")
+        T_helen_convince_change = Trigger("convince change", "Ты убедил Елена попытаться измениться")
+        T_helen_secret_sacrement = Trigger("secret asacrement", "Попроси Елену присоединиться к древнему таинству")
+        T_helen_angelica_ritual = Trigger("convince change", "Елена делает таинство с Анжеликой")
+        T_helen_caught_masturbating = Trigger("caught masturbating", "Ты поймал Елену мастурбирбацией")
+        T_helen_sexy_lingerie = Trigger("sexy lingerie", "Ты дал Елене сексуальный комплект красного корсета нижнего белья")
+        T_helen_torture = Trigger("torture", "Елена подвергается пытками со стороны Анжелики, для ее же блага")
+        T_helen_thanks = Trigger("thanks", "Елена благодарит тебя за заботу и предложение")
+        T_helen_master_servant = Trigger("master servant", "Елена хочет порку от своей хозяйки")
+        T_helen_route = Trigger("route", "Это ставит тебя постоянно на маршрут Елены")
+        T_helen_master_servant_sex = Trigger("master servant sex", "Елена хочет иметь больше секса с тобой, чтобы оставаться чистой")
     return
 
 label helen_fsm_init:
     python:
 
-        S_helen_start = State("start", "The default state for Helen to start in")
-        S_helen_route_split = State("route split", "The split to determine if you go with Mia or Helen")
-        S_helen_harold_moved_on = State("route split", "Harold has moved on from Helen and found a new woman")
-        S_helen_mia_breakdown = State("route split", "Mia is devastated that her parents have split for good")
-        S_helen_master_servant_fun = State("master servant fun", "Helen has some fun with you as her master")
-        S_helen_aftersex_mia_suspicious = State("aftersex mia suspicious", "Mia is suspicious about you visiting her mom's room during the day")
-        S_helen_end = State("end", "The end of Helen's route")
+        S_helen_start = State("start", "Состояние по умолчанию которые начнутся с Еленой в")
+        S_helen_route_split = State("route split", "Раскол, чтобы определить, пойдешь ли ты с Мией или Еленой")
+        S_helen_harold_moved_on = State("route split", "Гарольд отошел от Хелен и нашел новую женщину")
+        S_helen_mia_breakdown = State("route split", "Мия опустошена тем, что ее родители расстались навсегда")
+        S_helen_master_servant_fun = State("master servant fun", "Елена имеет некоторое удовольствие с тобой как и с ее хозяйклй")
+        S_helen_aftersex_mia_suspicious = State("aftersex mia suspicious", "Мия подозревает, что ты посещаешь комнату ее матери в течение дня")
+        S_helen_end = State("end", "Конец пути Елены")
 
 
         S_helen_start.add(T_helen_route, S_helen_route_split)

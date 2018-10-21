@@ -178,7 +178,7 @@ label mia_button_dialogue:
         "Мне нужно идти." if player.location == L_miahouse_miaroom:
             call expression game.dialog_select("mia_dialogue_mias_bedroom_leave")
 
-        "Nothing." if player.location == L_school_scienceclassroom:
+        "Ничего." if player.location == L_school_scienceclassroom:
             call expression game.dialog_select("mia_dialogue_science_classroom_leave")
 
         "Мне нужно идти." if player.location == L_miahouse_entrance:

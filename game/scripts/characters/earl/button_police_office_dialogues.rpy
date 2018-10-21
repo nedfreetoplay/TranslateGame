@@ -145,7 +145,7 @@ label earl_police_office_dialogue_first_visit:
     player_name "О, да! Вы отец {b}Ronda{/b}!"
     show earl 2
     show player 1
-    ear "Shiiiiiiiiiiieeeeeet!"
+    ear "Деееерррррьььмоооо!"
     show player 11
     ear "Тебе лучше следить за собой находясь рядом с моей девочкой, или мне придется установить наблюдение за {b}тобой{/b}."
     show earl 4
@@ -202,8 +202,8 @@ label earl_police_office_dialogue_harold:
     player_name "Мне нужно эээээ...вернуть кое-что ему!"
     show player 11
     show earl 2
-    ear "I'm not sure where he went, but I saw him yesterday in the office..."
-    ear "...He looked in a bad shape, that's for sure!"
+    ear "Я не знаю, куда он делся., но я видел его вчера в офисе..."
+    ear "...Он был в ужасном состоянии, это уж точно!"
     ear "На секунду мне показалось, что он уходит..."
     ear "...но я сказал ему взять отгул."
     show earl 1

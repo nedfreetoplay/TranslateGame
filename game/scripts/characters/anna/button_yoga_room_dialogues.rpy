@@ -6,10 +6,10 @@ label anna_button_yoga_room_dialogue_pre:
     anna "Привет, {b}[firstname]{/b}."
     show anna 1
     show player 14
-    player_name "Привет, {b}Anna{/b}."
+    player_name "Привет, {b}Анна{/b}."
     show player 13
     show anna 2
-    anna "Как дела?"
+    anna "В чем дело?"
     show anna 1
     return
 
@@ -17,39 +17,39 @@ label anna_button_yoga_room_dialogue_wheres_mrsj:
     show player 14
     player_name "Я ищу {b}Миссис Джонсон{/b}."
     show player 30
-    player_name "Вы не знаете, где я могу ее найти?"
+    player_name "Ты знаешь, где я могу её найти?"
     show player 5
     show anna 2
-    anna "Обычно она проводит занятия в течение дня."
-    anna "Она уже должна быть дома ..."
+    anna "Она обычно преподает в течение дня."
+    anna "Сейчас она должна быть дома..."
     show anna 1
     show player 14
-    player_name "Ох. Понял. Благодарю!"
+    player_name "О. Понятно. Спасибо!"
     show player 13
     show anna 3
-    anna "Не проблема!"
+    anna "Нет проблем!"
     return
 
 label anna_button_yoga_room_dialogue_yoga:
     show player 10
-    player_name "Вы хотите заняться йогой со мной?"
+    player_name "Хочешь попрактиковаться со мной в позах йоги?"
     show player 5
     show anna 3
-    anna "Of course!!"
+    anna "Ну конечно!!"
     show anna 2
-    anna "Мне нравится, когда кто-то может помочь мне достичь этих ... сложных позиций ..."
+    anna "Мне нравится, когда кто-то может помочь мне постичь эти... сложные позы..."
     show anna 1
     show player 33
-    player_name "Right, you're quite flexible as I remember."
+    player_name "Да, ты достаточно гибкая, насколько я помню."
     show player 13
     show anna 2
-    anna "Хорошо, давайте найдем коврик для йоги..."
+    anna "Хорошо, давай найдем коврик для йоги..."
     hide anna
     scene location_gym_yoga_front
     with fade
     show player 413 at left
     show anna 13
     with dissolve
-    anna "Какую позицию мы должны практиковать?"
+    anna "Какую позицию мы должны тренировать?"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

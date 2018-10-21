@@ -5,23 +5,23 @@ label dewitt_office_button_dialogue:
     elif M_dewitt.is_state(S_dewitt_end) and game.timer.is_dark():
         call expression game.dialog_select("dewitt_dialogue_office_dewitt_end_intro")
         menu:
-            "Dance.":
+            "Танцевать.":
                 call expression game.dialog_select("dewitt_dialogue_office_dewitt_end_dance")
                 jump expression game.dialog_select("dewitt_twerk_loop")
-            "BJ.":
+            "Би Джей.":
 
                 call expression game.dialog_select("dewitt_dialogue_office_dewitt_end_bj")
                 jump expression game.dialog_select("dewitt_bj_loop")
-            "Right to it.":
+            "Прямо к делу.":
 
                 jump expression game.dialog_select("dewitt_dialogue_office_dewitt_end_sex")
     else:
 
         call expression game.dialog_select("dewitt_dialogue_office_intro")
         menu:
-            "Private flute lessons." if M_dewitt.is_state(S_dewitt_end):
+            "Частные уроки флейты." if M_dewitt.is_state(S_dewitt_end):
                 call expression game.dialog_select("dewitt_dialogue_office_flute_lessons")
-            "Nothing.":
+            "Ничего.":
 
                 call expression game.dialog_select("dewitt_dialogue_office_leave")
     hide player

@@ -9,7 +9,7 @@ label judith_button_dialogue:
         elif player.location == L_school_artclassroom:
             call expression game.dialog_select("judith_dialogue_art_classroom_intro")
         menu:
-            "Повеселимся в ванной комнате" if not M_judith.is_set("sex sequence locked"):
+            "Повеселиться в Ванной" if not M_judith.is_set("sex sequence locked"):
                 call expression game.dialog_select("judith_dialogue_bathroom_fun")
                 $ M_judith.set("in bathroom", True)
                 $ M_judith.place(place = L_school_stall)
@@ -42,13 +42,13 @@ label judith_button_dialogue:
                 call expression game.dialog_select("judith_dialogue_okita_get_bifocal_lenses")
                 $ M_okita.trigger(T_okita_take_picture_judith)
 
-            "Картина." if M_okita.is_state(S_okita_take_picture_judith):
+            "Фотография." if M_okita.is_state(S_okita_take_picture_judith):
                 call expression game.dialog_select("judith_dialogue_okita_take_picture_judith")
 
             "Модель." if M_ross.is_state(S_ross_ask_model):
                 call expression game.dialog_select("judith_dialogue_ross_ask_model")
                 $ M_ross.trigger(T_ross_find_model)
-            "Оставить.":
+            "Уйти.":
                 if player.location == L_school_lefthallway:
                     call expression game.dialog_select("judith_dialogue_left_hallway_leave")
 

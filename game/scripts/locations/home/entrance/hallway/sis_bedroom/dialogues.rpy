@@ -726,7 +726,7 @@ label sneak_in_sis_bed_rabbit_fuck:
     show jennysex 79b at Position(xpos=720)
     jen "БЛЯТЬ!!!"
     show jennysex 77 at Position(xpos=713)
-    jen "Не там БЫСТРО!!"
+    jen "Не так БЫСТРО!!"
     show jennysex 79b at Position(xpos=720)
     jen "О Боже..."
     show jennysex 77 at Position(xpos=713)

@@ -208,9 +208,9 @@ label mrsj_button_yoga_room_dialogue_what_was_that_anna_intro:
     anna "Она великий учитель, и я просто новичок."
     show anna 1
     show mrsj 17
-    mrsjo "{b}Анна{/b}, просто смиренна."
+    mrsjo "{b}Анна{/b}, просто скромная."
     show mrsj 17b
-    mrsjo "Она может быть новичок, но она очень талантлива ... и чрезвычайно гибкая."
+    mrsjo "Она может быть и новичок, но она очень талантлива... и чрезвычайно гибкая."
     show mrsj 14b
     show anna 3
     anna "Ха-ха."

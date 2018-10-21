@@ -325,7 +325,7 @@ label june_dialogue_okita_has_controller:
     june "Вот и все, один поддельный {b}Faptic механизм.{/b}"
     show player 2
     show june 14
-    player_name "Это она?Оно такое крошечное..."
+    player_name "Это она? Оно такое крошечное..."
     show player 505
     show june 18
     with dissolve

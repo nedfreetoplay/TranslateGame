@@ -2,20 +2,20 @@ label dewitt_dialogue_dewitt_eve_meet_up:
     scene music_classroom_c
     show player 10 with dissolve
     player_name "Я должен дать ей немного пространства на время."
-    player_name "И я должен встретится с {b}Eve{/b} в {b}парке ночью{/b}."
+    player_name "И я должен встретится с {b}Евой{/b} в {b}парке ночью{/b}."
     return
 
 label dewitt_dialogue_dewitt_science_adhesive:
     scene music_classroom_c
     show player 17 with dissolve
-    player_name "{b}Кевин{/b} собирался сделать клей в классе {b}Miss Okita{/b}."
+    player_name "{b}Кевин{/b} собирался сделать клей в классе {b}Мисс Окиты{/b}."
     player_name "Я должен увидеть, что у него получится."
     return
 
 label dewitt_dialogue_dewitt_school_sneak_mission_help:
     scene music_classroom_c
     show player 10 with dissolve
-    player_name "Может быть, {b}Erik{/b} поможет мне {b}пробраться в школу ночью{/b}."
+    player_name "Может быть, {b}Эрик{/b} поможет мне {b}пробраться в школу ночью{/b}."
     return
 
 label dewitt_dialogue_dewitt_office_night_visit_delay:
@@ -47,7 +47,7 @@ label dewitt_dialogue_dewitt_office_night_visit:
     show player 13 at left
     show dewitt 19f at right
     with dissolve
-    dewitt "Remember, I have one more surprise for you."
+    dewitt "Запомни, у меня есть ещё один сюрприз для тебя."
     hide player
     show dewitt 6f at left
     with dissolve
@@ -71,10 +71,10 @@ label dewitt_dialogue_dewitt_end:
     show player 13f at right
     show dewitt 2 at left
     with dissolve
-    dewitt "Еще раз спасибо за все, сахарок!"
+    dewitt "Ещё раз спасибо за все, сахарок!"
     show dewitt 1
     show player 14f
-    player_name "С удовольствием, {b}Miss Dewitt{/b}."
+    player_name "С удовольствием, {b}Мисс Девитт{/b}."
     show player 13f
     show dewitt 19 with dissolve
     dewitt "Помни, моя дверь всегда открыта для тебя."
@@ -87,7 +87,7 @@ label dewitt_dialogue_intro:
     scene music_classroom_c
     show dewitt 1 at left
     show player 2f at right
-    player_name "Привет, {b}Miss Dewitt{/b}."
+    player_name "Привет, {b}Мисс Девитт{/b}."
     show dewitt 2
     show player 1f
     dewitt "Привет, {b}[firstname]{/b}!"
@@ -147,11 +147,11 @@ label dewitt_dialogue_talent_show_help:
     player_name "Сколько людей нужно для шоу талантов?"
     show player 5f
     show dewitt 5
-    dewitt "Я надеялась, что по крайней мере, {b}еще два{/b}."
+    dewitt "Я надеялась, что по крайней мере, {b}ещё два{/b}."
     dewitt "Если меньше, я боюсь, нам придется все отменить."
     show dewitt 4
     show player 14f
-    player_name "Хорошо, не волнуйтесь, {b}Ms. Dewitt{/b}! Я найду кого-нибудь!"
+    player_name "Хорошо, не волнуйтесь, {b}Мисс Девитт{/b}! Я найду кого-нибудь!"
     show player 13f
     show dewitt 5
     dewitt "Ах спасибо, сахарок!"
@@ -169,6 +169,6 @@ label dewitt_dialogue_leave:
     dewitt "Мы вернем тебя в прежнее русло..."
     show dewitt 1
     show player 14f
-    player_name "Спасибо, {b}Miss Dewitt{/b}..."
+    player_name "Спасибо, {b}Мисс Девитт{/b}..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

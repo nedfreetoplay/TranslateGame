@@ -42,7 +42,7 @@ label erik_button_dialogue:
             scene expression game.timer.image("erik_house_bedroom{}_b")
             show player 14
             with dissolve
-            player_name "Он выглядит таким счастливым сейчас."
+            player_name "Сейчас он выглядит таким счастливым."
             show player 17
             player_name "Я должен пойти и сказать {b}Миссис Джонсон{/b} о хорошей новости!"
             hide player with dissolve
@@ -52,7 +52,7 @@ label erik_button_dialogue:
             scene expression game.timer.image("erik_house_bedroom{}_b")
             show player 10
             with dissolve
-            player_name "Наверное, он сейчас не в лучшем настроении..."
+            player_name "Наверное, сейчас он не в лучшем настроении...."
             player_name "Я поговорю с ним завтра."
             hide player with dissolve
             $ game.main()
@@ -72,7 +72,7 @@ label erik_button_dialogue:
     player_name "Привет {b}Эрик{/b}!"
     show player 1 at left
     show erik 5 at right
-    eri "Привет {b}[firstname]{/b}! Что случилось?"
+    eri "Привет {b}[firstname]{/b}! Как дела?"
     label erik_talk:
         menu:
             "Мастер Бластер." if M_okita.is_state(S_okita_get_controller_info):
@@ -115,7 +115,7 @@ label erik_button_dialogue:
                 call expression game.dialog_select("button_erik_ask_beer")
                 $ M_dewitt.trigger(T_dewitt_erik_deal)
 
-            "Напитки для {b}Рокси{/b}" if M_roxxy.get("talked to roxxy booze"):
+            "Выпивка для {b}Рокси{/b}" if M_roxxy.get("talked to roxxy booze"):
                 call expression game.dialog_select("button_erik_talked_to_roxxy_booze")
                 $ M_roxxy.trigger(T_roxxy_get_beer)
 
@@ -129,36 +129,36 @@ label erik_button_dialogue:
             "Карты." if erik.started(erik_card_hunt):
                 call expression game.dialog_select("erik_cards")
 
-            "Петух с шиповоной короной ." if erik.started(erik_crown_card):
+            "Королевский член с шипами." if erik.started(erik_crown_card):
                 jump erik_crown_card
 
-            "Пакет." if erik.started(erik_orcette) or erik.started(erik_orcette_2):
+            "Упаковка." if erik.started(erik_orcette) or erik.started(erik_orcette_2):
                 jump erik_package
 
-            "Гарнитура VR." if erik.started(erik_vr):
+            "VR Шлем." if erik.started(erik_vr):
                 jump erik_vr_game
 
-            "Книга из библиотеки." if M_bissette.is_set("eriks book search"):
+            "Библиотечная книга." if M_bissette.is_set("eriks book search"):
                 call erik_book_return
 
-            "Половое воспитание." if mrsj.started(mrsj_sex_ed):
+            "Половое обучение." if mrsj.started(mrsj_sex_ed):
                 call expression game.dialog_select("button_erik_sex_ed")
 
-            "Подруга." if June.completed(june_erik_help) and not erik.known(erik_gf):
+            "Девушка." if June.completed(june_erik_help) and not erik.known(erik_gf):
                 call expression game.dialog_select("button_erik_girlfriend")
                 $ erik.add_event(erik_gf)
 
-            "Подруга." if June.completed(june_mc_help) and not erik.known(erik_gf_stolen):
+            "Девушка." if June.completed(june_mc_help) and not erik.known(erik_gf_stolen):
                 call expression game.dialog_select("button_erik_girlfriend_stolen")
                 $ erik.add_event(erik_gf_stolen)
                 $ erik_gf_stolen.finish()
 
-            "Подруга." if June.completed(june_intro) and not June.known(june_intro_2):
+            "Девушка." if June.completed(june_intro) and not June.known(june_intro_2):
                 call expression game.dialog_select("button_erik_girlfriend_intro")
                 $ June.add_event(june_intro_2)
                 jump erik_talk
 
-            "Сообщение от {b}Миссис Джонсон{/b}." if erik.started(erik_father_forgive):
+            "Массаж от {b}Миссис Джонсон{/b}." if erik.started(erik_father_forgive):
                 call expression game.dialog_select("button_erik_message_from_dad")
                 $ erik_father_forgive.finish()
 
@@ -181,14 +181,14 @@ label erik_button_dialogue:
                 $ erik.add_event(erik_favor_2)
                 jump erik_talk
 
-            "Мне нужна помощь." if erik.started(erik_favor):
+            "Мне нужна услуга." if erik.started(erik_favor):
                 call expression game.dialog_select("button_erik_ask_favor")
                 $ erik_favor.finish()
                 jump erik_talk
             "Где {b}Миссис Джонсон{/b}?":
 
                 call expression game.dialog_select("button_erik_where_is_mrsj")
-            "Не многое.": #
+            "Немного.":
 
                 call expression game.dialog_select("button_erik_not_much")
 

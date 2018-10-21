@@ -131,7 +131,7 @@ label button_okita_intro:
     okita "... Я поставлю тебе 5+ в классе.."
     show player 14
     show okita 4
-    player_name "5+!?"
+    player_name "А+!?"
     show player 30
     player_name "Хм..."
     show player 10
@@ -263,7 +263,7 @@ label button_okita_foam_misshap:
     okita "Ты можешь {b}найди мне пару линз{/b}?"
     show player 10
     show okita 4
-    player_name "{b}Линх{/b}?Как в телескопе?"
+    player_name "{b}Линзы{/b}? Как в телескопе?"
     show player 11
     show okita 5
     okita "Не из телескопа. Мне нужны {b}линзы{/b} от пары очков. Конкретно {b}Варифокальные линзы{/b}."
@@ -459,7 +459,7 @@ label button_okita_get_faptic_engine_repeat:
     okita "Уже вернулся? Оно у тебя?"
     show player 10
     show okita 4
-    player_name "Где я должен это достать, {b}Faptic михонизм{/b} штуковину снова?"
+    player_name "Где я должен это достать, {b}Faptic механизм{/b} штуковину снова?"
     show player 11
     show okita 9
     okita "*Вздох*"

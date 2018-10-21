@@ -107,7 +107,7 @@ label jenny_dialogue_confess_first:
     show jenny 10 at Position(xpos = 937)
     jen "Эээ... хорошо?"
     show player 2
-    player_name "Well..."
+    player_name "Ну..."
     show player 3
     show jenny 9
     jen "Короче! У меня нет на это времени!"

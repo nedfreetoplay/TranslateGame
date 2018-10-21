@@ -1,21 +1,21 @@
 label sister_triggers_init:
     python:
 
-        T_jenny_hallway = Trigger("hallway", "Meet Jenny in hallway")
-        T_jenny_panty_raid = Trigger("panty raid", "Steal Jenny's panties")
+        T_jenny_hallway = Trigger("hallway", "Встретиться с Дженни в коридоре")
+        T_jenny_panty_raid = Trigger("panty raid", "Украсть трусики Дженни")
     return
 
 label sister_fsm_init:
     python:
 
         S_jenny_start = State("start")
-        S_jenny_bored = State("bored", "Waiting for something to happen")
-        S_jenny_bedroom1 = State("Bedroom1", "Waiting for panty raid")
+        S_jenny_bored = State("bored", "Ждать что что-то случится")
+        S_jenny_bedroom1 = State("Bedroom1", "В ожидании рейда трусиков")
 
 
         S_jenny_start.add(T_jenny_hallway, S_jenny_bored)
         S_jenny_bored.add(T_jenny_panty_raid, S_jenny_bedroom1,
-                        actions = ["clear", "door locked",
+                        actions = ["clear", "дверь заперта",
                                    "assign", ["default location", "bedroom"],
                         ])
 

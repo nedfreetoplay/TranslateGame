@@ -25,7 +25,7 @@ label mrsj_button_dialogue:
                     $ M_erik.place(place = L_erikhouse_erikroom)
                     $ M_erik.force()
                     jump mrsj_button_dialogue_repeat
-                "Принеси ему девушку.":
+                "Достань ему девушку.":
 
                     call expression game.dialog_select("button_mrsj_route_gf")
                     $ erik_path_split.finish()

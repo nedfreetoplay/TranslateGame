@@ -11,13 +11,13 @@ label sis_button_dialogue:
                         $ completed_quests.append(quest07)
                         $ sis_panties_bought = True
                         call expression game.dialog_select("jenny_dialogue_panties_trade_buy")
-                    "Мне не нужно этого.":
+                    "Мне это не нужно.":
 
                         call expression game.dialog_select("jenny_dialogue_panties_trade_do_not_buy")
             else:
 
                 menu:
-                    "У меня нет столько.":
+                    "У меня недостаточно.":
                         call expression game.dialog_select("jenny_dialogue_panties_trade_cant_buy")
             jump expression game.dialog_select("hallway_dialogue")
         else:
@@ -42,15 +42,15 @@ label sis_button_dialogue:
                 "{b}Рокси{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
                     call expression game.dialog_select("jenny_dialogue_roxxy_pre")
                     menu:
-                        "Заплатить" if player.has_money(500):
+                        "Платить" if player.has_money(500):
                             $ player.spend_money(500)
                             call expression game.dialog_select("jenny_dialogue_roxxy_pay")
                             $ M_bissette.trigger(T_bissette_jenny_paid)
-                        "Не платить.":
+                        "Не платить":
 
                             call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
 
-                "{b}[deb_name]{/b} нуждаеться в тебе." if sis_panties_bought and not sis_diary_unlocked and sister.over(sis_shower_cuddle01) and sister.completed(sis_panty02):
+                "{b}[deb_name]{/b} ты нужен." if sis_panties_bought and not sis_diary_unlocked and sister.over(sis_shower_cuddle01) and sister.completed(sis_panty02):
                     call expression game.dialog_select("sis_bedroom_sis_mom_needs_you")
                     $ diary_scene = True
                     $ sis_diary_unlocked = True
@@ -64,7 +64,7 @@ label sis_button_dialogue:
                     call expression game.dialog_select("jenny_dialogue_make_deal")
                     jump expression game.dialog_select("hallway_dialogue")
 
-                "Шоу." if sister.known(sis_final2):
+                "Видео шоу." if sister.known(sis_final2):
                     $ sis_cheerleader_sex2_menu = False
                     if sister.completed(sis_final2):
                         $ game.timer.tick()
@@ -109,12 +109,12 @@ label sis_button_dialogue:
                         $ player.remove_item("badmonster")
                         $ sis_webcam04.finish()
 
-                "Смотреть телевизор сегодня вечером." if sister.over(sis_final2) and not sis_watch_tv_tonight:
+                "Смотреть ТВ сегодня вечером." if sister.over(sis_final2) and not sis_watch_tv_tonight:
                     call expression game.dialog_select("jenny_dialogue_watch_tv_tonight")
                     $ sis_watch_tv_tonight = True
                     jump expression game.dialog_select("sis_bedroom_menu")
 
-                "Следить за соседями." if sister.over(sis_final2):
+                "Наблюдать за соседями." if sister.over(sis_final2):
                     $ game.timer.tick()
                     call expression game.dialog_select("jenny_dialogue_watch_neighbours")
                     call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue01")

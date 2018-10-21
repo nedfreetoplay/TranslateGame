@@ -25,7 +25,7 @@ label josephine_button_dealership_dialogue_intro:
     Josephine "Что?!"
     show joe 2
     show sato 2
-    Mr. Sato "Ты подала те отчеты TPS, как я тебя просил?"
+    Mr. Sato "Ты подала те отчеты СОТ, как я тебя просил?"
     show sato 1
     show joe 3
     Josephine "Ух, нет..."
@@ -94,21 +94,21 @@ label josephine_button_dealership_dialogue_intro:
     show kim 5 with dissolve
     kim "Хии Хии Хии Хии!"
     show joe 2b
-    kim "Такой бредовая дурак!"
+    kim "Такой бредовый дурак!"
     show kim 4
     show joe 3
     Josephine "Что веселого, толстячок?"
     show joe 2b
     show kim 2 with dissolve
     kim "ТОЛСТЯЧОК?!"
-    kim "Как ты смеешь говорить со мной такое!"
+    kim "Как ты смеешь так со мной разговаривать!"
     show kim 1
     show player 9 with dissolve
     show joe 3
     Josephine "Ты такой охуенно грубый..."
     show joe 2
     show kim 2
-    kim "Грр, грюби пока можешь!"
+    kim "Грр, груби пока можешь!"
     kim "Ты только что заставила мое дерьмо отдохнуть!"
     show kim 6 with dissolve
     kim "Твой день расплаты уже приближается!"
@@ -375,7 +375,7 @@ label josephine_button_dealership_dialogue_insurance_claim_give_up:
 label josephine_button_dealership_dialogue_insurance_claim_proctologist_plate:
     show player 11
     show joe 5
-    Josephine "Ты определенно не {b}ASSMAN{/b}.  У местного проктолога есть такая лицензия."
+    Josephine "Ты определенно не {b}ЖОПОЛИЗ{/b}. У местного проктолога есть такая лицензия."
     show joe 4
     show player 26
     player_name "Ох. Да..."

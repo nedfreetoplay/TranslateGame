@@ -78,7 +78,7 @@ label dewitt_dialogue_office_dewitt_end_dance:
     show player 629
     show player_hand 629b_629c zorder 2 at Position (xpos=550)
     with dissolve
-    player_name "Whoops..."
+    player_name "Ууупс..."
     show player 628
     show dewitt 36 at Position (xoffset=354)
     dewitt "Непослушный мальч-"
