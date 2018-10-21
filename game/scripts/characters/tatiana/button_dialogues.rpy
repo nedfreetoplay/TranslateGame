@@ -20,7 +20,7 @@ label tatiana_dialogue_familiar:
     tati "Я обычно пишу под именем {b}PureRuby87{/b}."
     show tatia 5
     show player 17
-    player_name "А, точно! Мой друг {b}Эрик{/b} любит твои вещи!"
+    player_name "А, точно! Мой друг {b}Эрик{/b} любит твои стримы!"
     show player 21
     player_name "Он продолжает говорить о твоих видео и твоих {b}огромных{/b}... эмм... фанатах!"
     show tatia 3
