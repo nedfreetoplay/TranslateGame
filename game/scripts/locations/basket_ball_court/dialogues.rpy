@@ -223,7 +223,7 @@ label basketball_court_ross_magazines_intro:
     player_name "Что?! Нет! Я просто нашел их..."
     show player 578
     show becca 2bf
-    becca "Без разницы Ты отвратителен!"
+    becca "Без разницы, Ты отвратителен!"
     show dexter 22 zorder 0 at Position(xpos=0.65, ypos=1.0) with dissolve
     dex "Что здесь происходит!?"
     show dexter 24
