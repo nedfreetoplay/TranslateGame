@@ -4,7 +4,7 @@ label mom_cupid_outing_choose_gift:
     deb "Ты что-то нашел, дорогуша?"
     show player 10
     show debbie 164
-    player_name "Я все еще продолжаю."
+    player_name "Я все ещё продолжаю."
     show player 5
     show debbie 166
     deb "Хехе, хорошо!"
