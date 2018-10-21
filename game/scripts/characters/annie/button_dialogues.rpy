@@ -24,7 +24,7 @@ label annie_dialogue_music_classroom_intro:
 label annie_dialogue_ross_ask_model:
     show player 2 at left
     show annie 1 at right
-    player_name "Я работаю над проектом для {b}Miss Ross{/b} и для него нужна живая модель."
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для него нужна живая модель."
     player_name "Тебе это интересно?"
     show player 1
     show annie 3
