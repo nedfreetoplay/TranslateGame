@@ -34,7 +34,7 @@ label dexter_court_dialogue:
 
             "Библиотечная книга." if M_bissette.between_states(S_bissette_jane_return_books, [S_bissette_got_eriks_martinez_books, S_bissette_got_martinez_eriks_books]) and not M_bissette.is_set("dexters book search"):
                 call expression game.dialog_select("button_dexter_library_book")
-            "По-прежнему играть в баскетбол":
+            "По-прежнему играть в баскетбол.":
 
                 if M_roxxy.get("roxxy relationship") == 5:
                     call expression game.dialog_select("button_dexter_basketball_final")

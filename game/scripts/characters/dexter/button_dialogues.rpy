@@ -160,7 +160,7 @@ label button_dexter_intro:
     dex "ЧЁ ТЫ ВЯКНУЛ?!"
     show dexter 4 with dissolve
     show player 11
-    dex "Тебе переебать или как?!"
+    dex "Тебе вьебать или как?!"
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
