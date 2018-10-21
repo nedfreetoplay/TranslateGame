@@ -1,20 +1,20 @@
 {
     "judith01": {
         "sender": "judith",
-        "content_preview": "I'm in the washroom...",
-        "content": "I'm in the washroom...\nIf you want to meet me...",
+        "content_preview": "Я в туалете...",
+        "content": "Я в туалете...\nЕсли ты хочешь встретиться со мной...",
         "image": "buttons/cellphone_text_judith01.png"
     },
     "mia01": {
         "sender": "mia",
-        "content_preview": "HELP!",
-        "content": "HELP!",
+        "content_preview": "ПОМОГИ!",
+        "content": "ПОМОГИ!",
         "image": "buttons/cellphone_text_mia01.png"
     },
     "mia02": {
         "sender": "mia",
-        "content_preview": "We can't find {b}my dad{/b}...",
-        "content": "We can't find {b}my dad{/b}...\nCan you come help us please?",
+        "content_preview": "Мы не можем найти {b}отца{/b}...",
+        "content": "Мы не можем найти {b}отца{/b}...\nТы можешь нам помочь, пожалуйста?",
         "image": "buttons/cellphone_text_mia01.png"
     }
 }
