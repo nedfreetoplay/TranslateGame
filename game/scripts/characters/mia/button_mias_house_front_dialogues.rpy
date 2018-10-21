@@ -44,7 +44,7 @@ label mia_dialogue_mias_house_front_homework:
     mia "Скоро увидимся!"
     hide mia with dissolve
     show player 5 with dissolve
-    player_name "( Я должен попытаться закончить домашнюю домашнюю работу {b}французскому{b}, с этим я смогу учиться с {b}Мией{/b}. )"
+    player_name "( Я должен попытаться закончить домашнюю домашнюю работу {b}французскому{/b}, с этим я смогу учиться с {b}Мией{/b}. )"
     show player 4
     pause
     player_name "( Интересно, почему она выбрала меня, чтобы помочь ей учиться. )"
