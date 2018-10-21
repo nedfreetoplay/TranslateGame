@@ -47,11 +47,11 @@ label josephine_button_dealership_dialogue_intro:
     show sato 1
     Josephine "..."
     show kim 2 behind xtra3 at Position (xpos=950) with dissolve
-    kim "Вы звонили, {b}Mr. Sato{/b}?"
+    kim "Вы звонили, {b}Мр. Сато{/b}?"
     show kim 1
     show sato 2
     Mr. Sato "Хмм?"
-    Mr. Sato "О, привет {b}Kim{/b}."
+    Mr. Sato "О, привет {b}Ким{/b}."
     show sato 1
     show joe 1 at Position(xpos=0.5474,ypos=0.7630) with dissolve
     show kim 2
@@ -60,22 +60,22 @@ label josephine_button_dealership_dialogue_intro:
     show player 9 with dissolve
     show sato 2
     Mr. Sato "А, очень хорошо!"
-    Mr. Sato "Видишь, {b}Josephine{/b}..."
-    Mr. Sato "Почему ты не можешь вести себя как {b}Kim{/b}?"
+    Mr. Sato "Видишь, {b}Жозефина{/b}..."
+    Mr. Sato "Почему ты не можешь вести себя как {b}Ким{/b}?"
     show sato 1
     show joe 3 at Position(xpos=0.4976,ypos=1.0000) with dissolve
     Josephine "Пфф, мы не можем же все запихать носы тебе в зад, {b}Папа{/b}."
     show joe 2
     show sato 2
-    Mr. Sato "{b}Josephine{/b}!"
+    Mr. Sato "{b}Жозефина{/b}!"
     show sato 1
     show kim 2
-    kim "Не могли бы вы попросить меня принести вам кофе, {b}Mr. Sato{/b}?"
+    kim "Не могли бы вы попросить меня принести вам кофе, {b}Мр. Сато{/b}?"
     show kim 1
     show sato 2
-    Mr. Sato "О, это было бы прекрасно, {b}Kim{/b}."
+    Mr. Sato "О, это было бы прекрасно, {b}Ким{/b}."
     Mr. Sato "Просто принеси его в мой офис, хорошо?"
-    Mr. Sato "Приведи себя в порядок, {b}Josephine{/b}!"
+    Mr. Sato "Приведи себя в порядок, {b}Жозефина{/b}!"
     show sato 1
     show kim 3
     show player 11
@@ -109,7 +109,7 @@ label josephine_button_dealership_dialogue_intro:
     show joe 2
     show kim 2
     kim "Грр, груби пока можешь!"
-    kim "Ты только что заставила мое дерьмо отдохнуть!"
+    kim "Ты только что заставила моё дерьмо отдохнуть!"
     show kim 6 with dissolve
     kim "Твой день расплаты уже приближается!"
     kim "Скоро я буду узурпировать твой бездарный отец..."
@@ -158,7 +158,7 @@ label josephine_button_dealership_dialogue_intro:
     return
 
 label josephine_button_dealership_dialogue_after:
-    Josephine "Еще раз, чего ты хочешь?"
+    Josephine "Ещё раз, чего ты хочешь?"
     show joe 4 at Position(xpos=0.8294,ypos=1.0000)
     return
 
@@ -192,7 +192,7 @@ label josephine_button_dealership_dialogue_insurance_claim_right_plate:
     show joe 6
     Josephine "Да, похоже, он есть в нашей базе."
     show joe 5
-    Josephine "Вы все еще живете на 240 Cookie Street?"
+    Josephine "Вы всё ещё живете на 240 Cookie Street?"
     show joe 4
     show player 17
     player_name "Ага!"
@@ -306,13 +306,13 @@ label josephine_button_dealership_dialogue_insurance_claim_pay:
     Josephine "Пожалуйста."
     show joe 4
     show player 10
-    player_name "Что-нибудь еще?"
+    player_name "Что-нибудь ещё?"
     show player 5
     show joe 5
-    Josephine "Нет, все должно быть готово."
+    Josephine "Нет, всё должно быть готово."
     show joe 4
     show player 14
-    player_name "Спасибо еще раз!"
+    player_name "Спасибо ещё раз!"
     show player 106
     show joe 1 at Position(xpos=0.5474,ypos=0.7630) with dissolve
     Josephine "Ух хух."
@@ -390,7 +390,7 @@ label josephine_button_dealership_dialogue_insurance_claim_wrong_plate:
     if randomizer() < 50:
         Josephine "Я не вижу учетной записи, соответствующей номерному знаку."
     else:
-        Josephine "Это была бы аккуратная пластина, но, к сожалению, ее нет в системе."
+        Josephine "Это была бы аккуратная пластина, но, к сожалению, её нет в системе."
     Josephine "Есть другие номерные знаки?"
     show joe 4
     show player 4
@@ -402,7 +402,7 @@ label josephine_button_dealership_dialogue_kim:
     show player 5
     show joe 5
     Josephine "Хмм?"
-    Josephine "О, {b}Kim{/b}?"
+    Josephine "О, {b}Ким{/b}?"
     Josephine "... Да, он придурок."
     Josephine "Он проводит весь день, обнюхивая моего {b}отца{/b}, а потом строит заговор за его спиной."
     show joe 4
