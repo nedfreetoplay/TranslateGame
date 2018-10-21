@@ -20,20 +20,20 @@ label button_chad_get_eve_drawing_first:
     player_name "Что ты за него хочешь?"
     show player 11
     show chad 6
-    chad "Чувак, {b}Ева{/b}'s красивая кайфовая артистка, понимаешь, о чем я?"
+    chad "Мужик, {b}Ева{/b} симпатичная художница-наркоманка, ты знаешь о что я говорю?"
     show player 10
     show chad 5
     player_name "Да, я понял."
     show player 11
     show chad 6
     chad "У нее есть один рисунок..."
-    chad "Просто чумовой, чувак!"
-    chad "Я думал он в ее {b}блокноте{/b} но ошибся."
+    chad "Это полное дерьмо, Чувак!"
+    chad "Я думал, что он будет в её {b}блокноте{/b}, но в нём его нет."
     show chad 4 at Position(xpos=0.75, ypos=1.0) with dissolve
     chad "Ты должен {b}принести мне этот рисунок{/b}, Чувак!"
     show player 10
     show chad 1 at Position(xpos=0.8, ypos=1.0) with dissolve
-    player_name "... И если я сделаю это ты отдашь мне {b}Art Pad{/b}?"
+    player_name "... И если я это сделаю, ты отдашь мне {b}Скетчбук{/b}?"
     show player 11
     show chad 6
     chad "Хаааах, договорились, йоу."
@@ -41,24 +41,24 @@ label button_chad_get_eve_drawing_first:
     chad "Ты...?"
     show player 10
     show chad 1
-    player_name "Что за рисунок?"
+    player_name "Конечно. Как выглядит рисунок?"
     show player 11
     show chad 6
     chad "Автопортрет."
     chad "Выглядит как анимэ девушка или как-то так..."
     show chad 4 at Position(xpos=0.75, ypos=1.0) with dissolve
-    chad "Все что язнаю... она очень сексуальна, йоу!"
+    chad "Все, что я знаю, это... Она чертовски сексуальна, йоу!"
     show player 10
     show chad 1 at Position(xpos=0.8, ypos=1.0) with dissolve
-    player_name "Где я могу его найти?"
+    player_name "Есть идея, где он может быть?"
     show player 11
     show chad 3
     chad "Ммм, чувак я понятия не имею..."
     show chad 4 at Position(xpos=0.75, ypos=1.0) with dissolve
-    chad "Держу пари, она хранит это дерьмо {b}в своем шкафчике{/b}."
+    chad "Держу пари, она хранит это дерьмо {b}в своём шкафчике{/b}."
     show player 2
     show chad 1 at Position(xpos=0.8, ypos=1.0) with dissolve
-    player_name "Хорошо, пойду проверю."
+    player_name "Хорошо, я пойду посмотрю."
     show player 1
     show chad 2
     chad "Возвращайся быстрее, чувак."
@@ -75,7 +75,7 @@ label button_chad_get_eve_drawing:
     chad "Забыл чтоли?"
     show player 10
     show chad 1
-    player_name "Ага, похоже."
+    player_name "Да, типа того."
     show player 11
     show chad 2
     chad "Тцц, мне нужен автопортрет {b}Евы{/b}."
@@ -91,7 +91,7 @@ label button_chad_get_eve_drawing_completed:
     show player 1 at left
     show chad 6 at Position(xpos=0.8, ypos=1.0)
     with dissolve
-    chad "Йоу, Мэн. Достал?"
+    chad "Эй, Чувак. Ты получили его?"
     show chad 1
     show player 612 with dissolve
     player_name "Да, ты прав. Очень сексуальная..."
@@ -134,10 +134,10 @@ label button_chad_generic:
     player_name "Эй, что случилось, чувак?"
     show player 1
     show chad 3
-    chad "Блин, {b}[firstname]{/b}! Разве ты не видишь, что я репетирую свои рифмы, чувак!"
+    chad "Черт возьми, {b}[firstname]{/b}! Разве ты не видишь, что я практикую свои рифмы здесь, Чувак!"
     show player 10
     show chad 1
-    player_name "Ух, хорошо?"
+    player_name "Ладно?"
     show player 11
     show chad 2
     chad "Чего ты вообще хочешь?"
