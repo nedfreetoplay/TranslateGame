@@ -23,7 +23,7 @@ label anna_dialogue_anna_dog_hunt:
     show anna 6 at Position(xpos=1002)
     anna "Ах да, точно. Это {b}мопс{/b}, приблизительно вот такого размера!"
     show anna 5 at right
-    anna "Его кличка {b}Awesomo{/b}."
+    anna "Его кличка {b}Шикардос{/b}."
     anna "Он немного толстоват, так что он не мог убежать далеко."
     anna "Пожалуйста! Ты мне поможешь найти его?"
     show anna 4
@@ -62,7 +62,7 @@ label anna_dialogue_anna_find_dog_have_dog:
     show anna 5 with vpunch
     anna "!!!"
     show anna 12
-    anna "{b}Awesomo{/b}!!!"
+    anna "{b}Шикардос{/b}!!!"
     show player 1
     show anna 9
     with dissolve
@@ -89,7 +89,7 @@ label anna_dialogue_anna_find_dog_do_not_have_dog:
     show anna 4
     show player 10
     player_name "Пока нет..."
-    player_name "Вы можете мне описать его, еще раз? И повторите, где его можно поискать?"
+    player_name "Вы можете мне описать его, ещё раз? И повторите, где его можно поискать?"
     show player 11
     show anna 6 at Position(xpos=1002)
     anna "Он вот такого размера и он {b}мопс{/b}!"

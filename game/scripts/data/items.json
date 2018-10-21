@@ -280,7 +280,7 @@
     },
     "dog": {
         "id": "32",
-        "name": "{b}ШИКАРН-О:{/b}",
+        "name": "{b}ШИКАРДОС:{/b}",
         "cost": "0",
         "image": "objects/item_dog1.png",
         "description": "Маленький мопс.",
