@@ -22,7 +22,7 @@ label coach_bridget_dialogue_courtyard_intro:
     show coach 3 at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "Лучше тренируй свою задницу в {b}Тренажерном зале{/b}, или я засуну свою ногу в нее !!"
+    bri "Лучше тренируй свою задницу в {b}Тренажерном зале{/b}, или я засуну свою ногу в нее!!"
     show player 32
     show coach 7
     player_name "Да, мэм!!!"
