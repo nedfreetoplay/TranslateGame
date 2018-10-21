@@ -154,23 +154,23 @@
     "slick-mofo": {
         "id": 20,
         "name": "Slick mofo",
-        "description": "Finish master Somrak's training.",
+        "description": "Закончи обучение Сомраку.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_20.png"
     },
     "cedric-got-nothing": {
         "id": 21,
-        "name": "Cedric got nothing on you",
-        "description": "Finish Kevin's training.",
+        "name": "Седрик ничего не получил от тебя.",
+        "description": "Закончи тренировку с Кевином.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_21.png"
     },
     "eminem": {
         "id": 22,
-        "name": "Eminem",
-        "description": "Beat Tyrone in a rap battle.",
+        "name": "Эминем",
+        "description": "Выиграй Тайрона в рэп батле.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_22.png"
@@ -185,7 +185,7 @@
     },
     "computer-genius": {
         "id": 24,
-        "name": "Computer Genius",
+        "name": "Компьютерный гений.",
         "description": "Perv on Jenny's PC.",
         "hidden": false,
         "enabled": true,
@@ -193,39 +193,39 @@
     },
     "asstronomer": {
         "id": 25,
-        "name": "Ass-tronomer",
-        "description": "Use the telescope.",
+        "name": "Асстроном",
+        "description": "Используй телескоп.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_25.png"
     },
     "flies": {
         "id": 26,
-        "name": "Flies that don't fly",
-        "description": "Look at dipterae.",
+        "name": "Мухи, которые не летают.",
+        "description": "Посмотрите на двукрылых.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_26.png"
     },
     "europe": {
         "id": 27,
-        "name": "Mr. Worldwide",
-        "description": "Look at an accurate map of Europe.",
+        "name": "Мистер Вселенная",
+        "description": "Посмотрите на карту Европы.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_27.png"
     },
     "inception": {
         "id": 28,
-        "name": "Inception",
-        "description": "Play Summertime Saga.",
+        "name": "Ввод",
+        "description": "Сыграй в Летнюю Сагу.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_28.png"
     },
     "ready-for-college": {
         "id": 29,
-        "name": "Ready for college",
+        "name": "Подготовка к колледжу.",
         "description": "Max out your savings account.",
         "hidden": false,
         "enabled": true,
@@ -233,23 +233,23 @@
     },
     "rooster": {
         "id": 30,
-        "name": "The Rooster",
-        "description": "Check out Debbie's art.",
+        "name": "Петух",
+        "description": "Посмотри на работу Дебби.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_30.png"
     },
     "home-sweet-home": {
         "id": 31,
-        "name": "Home Sweet Home",
-        "description": "Purchase a house.",
+        "name": "Тёплый дом.",
+        "description": "Купи дом.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_31.png"
     },
     "apple": {
         "id": 32,
-        "name": "Microwaved Apple",
+        "name": "Микроволновое яблоко",
         "description": "Find the microwaved apple.",
         "hidden": true,
         "enabled": true,
@@ -257,7 +257,7 @@
     },
     "oldies-goodies": {
         "id": 33,
-        "name": "Oldies Goodies",
+        "name": "Всем привет!",
         "description": "Have sex with Roz.",
         "hidden": false,
         "enabled": true,
@@ -265,7 +265,7 @@
     },
     "yoga-apprentice": {
         "id": 34,
-        "name": "Yoga Apprentice",
+        "name": "Ученик йоги",
         "description": "Help out a yogee with her lessons.",
         "hidden": false,
         "enabled": true,
@@ -273,15 +273,15 @@
     },
     "whats-in-there": {
         "id": 35,
-        "name": "What's in there?",
-        "description": "Check out every student locker.",
+        "name": "Что это?",
+        "description": "Проверьте все шкафчики учеников.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_35.png"
     },
     "solo-pleasure": {
         "id": 36,
-        "name": "Solo pleasure",
+        "name": "Одинокое удовольствие",
         "description": "Go for some alone time...",
         "hidden": false,
         "enabled": true,
@@ -289,8 +289,8 @@
     },
     "rump-n-pump": {
         "id": 37,
-        "name": "Rump and Pump",
-        "description": "Witness two local celebrities having fun.",
+        "name": "Рамп и Памп",
+        "description": "Наблюдайте за двумя местными знаменитостями.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_37.png"
@@ -298,23 +298,23 @@
     "gt500": {
         "id": 38,
         "name": "The GT500",
-        "description": "Get your dream car!",
+        "description": "Заводи машину!",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_38.png"
     },
     "donuts": {
         "id": 39,
-        "name": "Donut craving",
-        "description": "Purchase a donut for harold.",
+        "name": "Пончик- Фолкнер",
+        "description": "Купи пончики для Гарольда.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_39.png"
     },
     "game-over": {
         "id": 40,
-        "name": "Game... Over?!",
-        "description": "Lose the game.",
+        "name": "Игра... Окончена?!",
+        "description": "Проиграть.",
         "hidden": true,
         "enabled": false,
         "image": "buttons/cellphone_achieve_40.png"
