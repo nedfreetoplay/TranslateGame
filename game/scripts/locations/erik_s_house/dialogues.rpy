@@ -22,7 +22,7 @@ label erikshouse_erik_intro_known:
     player_name "Да, понимаю тебя..."
     show erik 3 at right
     show player 24 at left
-    eri "Мне жаль на счёт твоего {b}Отца{/b}, надеюсь у вас всё а порядке."
+    eri "Мне жаль на счёт твоего {b}Отца{/b}, надеюсь с тобой всё а порядке."
     show player 25 at left
     show erik 1 at right
     player_name "Всё будет хорошо. Спасибо что спросил!"
@@ -59,7 +59,7 @@ label erikshouse_erik_intro_over_weekend:
     show player 12 with dissolve
     player_name "( Здесь никого нет... )"
     show player 35
-    player_name "( {b}Erik{/b} навреное играет в видео-игры и пошел по магазинам{b}Торговый центр{/b}. )"
+    player_name "( {b}Эрик{/b} навреное играет в видео-игры или пошел по магазинам в {b}Торговый центр{/b}. )"
     hide player 35 with dissolve
     hide erikhouse
     return
@@ -74,7 +74,7 @@ label mrs_j_intro:
     player_name "{b}Миссис Джонсон{/b}! Я просто заскочил увидеть {b}Эрика{/b}!"
     show mrsj 4 at right
     show player 1 at left
-    eri "Hey, {b}[firstname]{/b}!"
+    eri "Привет, {b}[firstname]{/b}!"
     show mrsj 5 at right
     show player 11 at left
     mrsjo "Ты мой маленький болван!"
@@ -92,7 +92,7 @@ label mrs_j_intro:
     mrsjo "Хорошо, Я оставлю вас двоих. Мне нужно идти на свои занятия йогой!"
     show mrsj 8 at right
     show player 1 at left
-    mrsjo "{b}Erik{/b} постарайся побольше выходить из дому!"
+    mrsjo "{b}Эрик{/b} постарайся побольше выходить из дому!"
     mrsjo "Ему, повезло, что у него есть такой друг!"
     mrsjo "Пока мальчики!"
     show mrsj 6 at right
@@ -106,7 +106,7 @@ label mrs_j_intro:
     eri "Эм... Ага... Наверное..."
     show erik 1 at right
     show player 26 at left
-    player_name "Слушай мужик.Признай это.Для её возраста, она в {i}ОЧЕНЬ{/i} отличной форме!" with hpunch
+    player_name "Слушай мужик. Признай это. Для её возраста, она в {i}ОЧЕНЬ{/i} хорошей форме!" with hpunch
     show erik 5 at right
     show player 1 at left
     eri "Ну она проводит очень много времени в {b}Спортзале{/b}."
@@ -119,7 +119,7 @@ label mrs_j_intro:
     eri "Я не могу сейчас. Мне нужно... Я скачал эту новую игру и-"
     show erik 1 at right
     show player 12 at left
-    player_name "Все в порядке, {b}Erik{/b}. Увидимся завтра или типа того."
+    player_name "Все в порядке, {b}Эрик{/b}. Увидимся завтра или типа того."
     show player 36 at left
     show erik 7 at right
     eri "Круто. Увидимся позже..."
@@ -173,7 +173,7 @@ label closed_erik:
         show player 12 with dissolve
         player_name "( Здесь никого нет... )"
         show player 35
-        player_name "{b}Erik{/b} наверно уже ушел в {b}школу{/b}."
+        player_name "{b}Эрик{/b} наверно уже ушел в {b}школу{/b}."
     else:
 
         if player.location == L_erikhouse:
@@ -193,7 +193,7 @@ label closed_erik_weekend:
     show player 12 with dissolve
     player_name "( Здесь никого нет. )"
     show player 35
-    player_name "( {b}Эрик{/b} скорее всего пошел куда-нибудь вместе с {b}Mrs. Johnson{/b}. )"
+    player_name "( {b}Эрик{/b} скорее всего пошел куда-нибудь вместе с {b}Миссис Джонсон{/b}. )"
     hide player 35 with dissolve
     $ game.main()
 
@@ -202,7 +202,7 @@ label erik_mailbox:
     if game.mail["erik"] == "m_magazine":
         show expression "objects/object_mailbox_item01_closeup.png" with dissolve
         player_name "( Хмм. Журнал. Интересно для кого он... )"
-        player_name "( Для мамочек? Что ж, я знаю это для {b}Mrs. Johnson{/b}. Я не знал что она подписана на это,однако.. )"
+        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это,однако.. )"
         player_name "( Мне лучше положить его обратно. )"
         hide expression "objects/object_mailbox_item01_closeup.png" with dissolve
 
@@ -210,9 +210,9 @@ label erik_mailbox:
         player_name "( Я не знал что они получают письма. Интересно кому оно адресовано... )"
         player_name "( Это для {b}Эрика{/b}. )"
         menu:
-            "Leave it alone.":
+            "Оставить на месте.":
                 call screen erik_mailbox
-            "Open it.":
+            "Открыть.":
 
                 show mailbox_letter at Position(xpos = 565, ypos = 768) with dissolve
                 player_name "( Письмо от некого Д?! )"
