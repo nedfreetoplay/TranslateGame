@@ -19,9 +19,9 @@ label shed:
         elif shed_dialogue == 1 and drink_milk_offer and not aunt_shed_scene and game.timer.is_evening():
             call expression game.dialog_select("dianes_shed_shed_dialouge_1_intro")
             menu:
-                "It's ok.":
+                "Это хорошо.":
                     call expression game.dialog_select("dianes_shed_shed_dialouge_1_okay")
-                "No, it was wrong.":
+                "Нет, это не правильно.":
 
                     call expression game.dialog_select("dianes_shed_shed_dialouge_1_wrong")
             $ aunt_shed_scene = True
@@ -56,20 +56,20 @@ label aunt_dialogue_button_night:
         jump expression game.dialog_select("shed_sex_loop")
     dia "Is there anything you want to talk about before we get started?"
     menu dia_default_dialogue_options_night:
-        "Package." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
+        "Коробка." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
             call expression game.dialog_select("dianes_shed_dianes_dialogue_not_package")
             call expression game.dialog_select("dia_default_dialogue_options_night")
 
-        "Package." if quest13 in quest_list and quest13 not in completed_quests and player.has_item("package"):
+        "Коробка." if quest13 in quest_list and quest13 not in completed_quests and player.has_item("package"):
             call expression game.dialog_select("dianes_shed_dianes_dialogue_package")
             $ completed_quests.append(quest13)
             $ player.remove_item("package")
             call expression game.dialog_select("dia_default_dialogue_options_night")
 
-        "Let's milk!" if quest12 not in completed_quests or quest13 not in completed_quests:
+        "Давай доить!" if quest12 not in completed_quests or quest13 not in completed_quests:
             call expression game.dialog_select("dianes_shed_dianes_dialogue_not_lets_milk")
 
-        "Let's milk!" if quest12 in completed_quests and quest13 in completed_quests:
+        "Давай доить!" if quest12 in completed_quests and quest13 in completed_quests:
             if not shed_had_sex:
                 call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk_no_sex")
             else:
@@ -84,7 +84,7 @@ label aunt_dialogue_button_night:
             $ shed_sex_angle = 0
             $ M_aunt.set("sex speed", .4)
             call expression game.dialog_select("shed_sex_loop")
-        "I should go.":
+        "Я должен идти.":
 
             call expression game.dialog_select("dianes_shed_dianes_dialogue_leave")
     $ game.main()
