@@ -141,7 +141,7 @@ label fishing_rod:
     player_name "Это старая {b}папина{/b} {b}удочка{/b}!!"
     player_name "( Я помню, когда я был маленьким, мы ходили с ней рыбачить на {b}пирс{/b}. )"
     player_name "{b}*вздыхая*{/b}"
-    player_name "Я скачаю по тебе {b}Папа{/b}..."
+    player_name "Я скучаю по тебе {b}Папа{/b}..."
     hide expression "objects/closeup_rod.png" with dissolve
     show expression "boxes/popup_item_rod1.png" at truecenter with dissolve
     $ renpy.pause()
