@@ -76,7 +76,7 @@ label job_done_dialogue(earnings):
     call expression game.dialog_select("garden_dialogue")
 
 label garden_firsttime_text:
-    show expression Cutscene("garden_firsttime_01", "{b}Диана{/b} пошла прилечь, когда я начал копать её сад.\n Было так жарко снаружи, и было так много сорняков и Жуков!\nЯ стиснув зубы и поставил перед собой задачу...\n... Надеюсь, она хорошо заплатит мне за весь этот физический труд!") as cutscene with dissolve
+    show expression Cutscene("garden_firsttime_01", "{b}Диана{/b} пошла прилечь, когда я начал копать её сад.\n Было так жарко снаружи, и было так много сорняков и Жуков!\nЯ стиснул зубы и поставил перед собой задачу...\n... Надеюсь, она хорошо заплатит мне за весь этот физический труд!") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     scene black with dissolve
@@ -92,10 +92,10 @@ label garden_firsttime_fail:
     dia "Хм... Есть место для улучшений."
     show diane 24 at right
     show player 24 at left
-    player_name "Да... У меня не очень хорошо получалось. Огорченный {b}Diane{/b}!"
+    player_name "Да... У меня не очень хорошо получалось. Прости {b}Диана{/b}!"
     show diane 3 at right
     show player 13 at left
-    dia "Все нормально... Ты в этом деле новенькая..."
+    dia "Все нормально... Ты в этом деле новенький..."
     show diane 2 at right
     dia "И я уверен, что у тебя получится лучше!"
     dia "Мне всегда нужны свежие овощи..."
@@ -104,11 +104,11 @@ label garden_firsttime_fail:
     player_name "Думаю, да..."
     show diane 14 at right
     show player 11 at left
-    dia "Просто убедитесь, что вы {b}only{/b} держите овощи {b}long{/b} и {b}hard{/b}!"
+    dia "Просто убедитесь, что ты взял {b}только{/b} {b}длинные{/b} и {b}твердые{/b} овощи!"
     show diane 1 at right
     show player 13 at left
     player_name "В следующий раз получится лучше..."
-    player_name "Спасибо {b}Diane{/b}!"
+    player_name "Спасибо {b}Диана{/b}!"
     hide player 13 at left with dissolve
     hide diane 1 at right with dissolve
     return
