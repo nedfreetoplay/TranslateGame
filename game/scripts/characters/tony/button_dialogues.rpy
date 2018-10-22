@@ -9,7 +9,7 @@ label tony_dialogue_pre:
     return
 
 label tony_dialogue_deliver_pizzas_first:
-    tony "Хей, парень!"
+    tony "Привет, парень!"
     tony "Готов к работе?"
     show tony 1
     show player 14f
@@ -22,7 +22,7 @@ label tony_dialogue_deliver_pizzas_first:
     tony "Так что чем быстрее ты работаешь - тем больше получаешь!"
     show tony 1
     show player 14f
-    player_name "Звучит неплохо, {b}Tony{/b}!"
+    player_name "Звучит неплохо, {b}Тони{/b}!"
     return
 
 label tony_dialogue_deliver_pizzas_repeat:
@@ -34,9 +34,9 @@ label tony_dialogue_default:
     show player 10 at left
     tony "Тебе нужен велик, чтобы развозить пиццу!"
     show player 4
-    player_name "( Уверен, что смогу купить его в {b}Consum'r{/b}... )"
+    player_name "( Уверен, что смогу купить его в {b}магазине{/b}... )"
     show player 2
-    player_name "Окей, Tony, я скоро вернусь, но уже вместе с ним!"
+    player_name "Окей, Тони, я скоро вернусь, но уже вместе с ним!"
     show tony 2f
     tony "Отлично, парень!"
     return
