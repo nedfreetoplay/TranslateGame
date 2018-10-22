@@ -81,7 +81,7 @@ label garden_firsttime_text:
     hide cutscene with dissolve
     scene black with dissolve
     with Pause(0.5)
-    show expression Cutscene("garden_firsttime_02", "As I worked, I noticed {b}Diane{/b} was watching me intently...\nI suppose she was just trying to make sure I did a good job.\nWe exchanged a few words here and there but mostly just small talk.\nHer eyes seemed fixed upon my sweat soaked body.") as cutscene with dissolve
+    show expression Cutscene("garden_firsttime_02", "Когда я работал, я заметил, что {b}Диана{/b} пристально наблюдает за мной...\nПолагаю, она просто пыталась убедиться, что я хорошо работаю.\nМы обменялись парой слов здесь и там, но в основном просто болтали.\nЕе глаза были устремлены на мое промокшее от пота тело.") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     return
