@@ -7,14 +7,14 @@ label erik_dialogue_intro:
 
 label erik_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "Я помогаю Оките с проектом.."
+    player_name "Я помогаю Оките с проектом."
     show player 1
     show erik 4
-    eri "Реально?Круто!"
+    eri "Реально? Круто!"
     eri "Что это за проект такой?"
     show player 2
     show erik 1
-    player_name "Эмм,Не думаю, что я должен говорить..."
+    player_name "Эмм, Не думаю, что я должен говорить..."
     show player 1
     show erik 4
     eri "Ох, сверхсекретное исследование?"
@@ -27,12 +27,12 @@ label erik_dialogue_okita_get_bifocal_lenses:
     show player 1
     show erik 4
     eri "ты шутишь?"
-    eri "Ты знаешь, сколько раз {b}Dexter{/b} разбил эту пару?"
+    eri "Ты знаешь, сколько раз {b}Декстер{/b} разбивал эту пару?"
     eri "Я всегда держу запасной комплект рядом."
     show player 2
     show erik 1
     player_name "Замечательно!!"
-    player_name "Вы позволишь мне их взять?"
+    player_name "Ты позволишь мне их взять?"
     show player 1
     show erik 4
     eri "Конечно!"
@@ -55,10 +55,10 @@ label erik_dialogue_okita_get_bifocal_lenses:
     player_name "Ты дальнозоркий или близорукий?"
     show player 11
     show erik 5
-    eri "Близорукий. Почему?"
+    eri "Близорукий. А что?"
     show player 10
     show erik 1
-    player_name "Черт! Мне нужны линзы от кого-то, кто оба."
+    player_name "Черт! Мне нужны линзы от кого-то, у кого и то и другое."
     show player 11
     show erik 5
     eri "Ох."
@@ -72,7 +72,7 @@ label erik_dialogue_okita_get_bifocal_lenses:
     eri "Извини, {b}[firstname]{/b}."
     show player 2
     show erik 1
-    player_name "Все в порядке, {b}Erik{/b}.Все равно Спасибо."
+    player_name "Все в порядке, {b}Эрик{/b}. Все равно Спасибо."
     show player 1
     show erik 4
     eri "В любое время, мужик."
