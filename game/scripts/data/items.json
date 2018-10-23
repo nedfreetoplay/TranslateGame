@@ -1030,16 +1030,16 @@
         "name": "{b}Контроллер - Главный бластер:{/b}",
         "cost": "0",
         "image": "objects/item_controller1.png",
-        "description" : "Эрика мастер бластер контроллер. Он должен содержать {b}Фаптик двигатель{/b}",
+        "description" : "Эрика мастер бластер контроллер. Он должен содержать {b}Вибромотор{/b}",
         "closeup": "",
         "dialogue_label": ""
     },
     "faptic_engine": {
         "id": "116",
-        "name": "{b}Фаптик двигатель:{/b}",
+        "name": "{b}Вибромотор:{/b}",
         "cost": "0",
         "image": "objects/item_faptic1.png",
-        "description" : "Фаптик двигатель, извлеченный из контроллера.",
+        "description" : "Вибромотор, извлеченный из контроллера.",
         "closeup": "",
         "dialogue_label": ""
     },

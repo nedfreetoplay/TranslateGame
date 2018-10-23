@@ -25,8 +25,8 @@ label button_okita_ingredients_flower:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "{b}Психотропная эйфория {/b} это свитящийся цветок, который растет только в темных местах."
-    okita "Твоим лучшим выбором будет {b}пешера{/b}."
+    okita "{b}Психотропный Молочай{/b} это свитящийся цветок, который растет только в тёмных местах."
+    okita "Твоим лучшим выбором будет {b}пещера{/b}."
     show player 35
     show okita 1
     player_name "Хмм, в {b}пещере{/b}..."
@@ -36,8 +36,8 @@ label button_okita_ingredients_stock:
     scene location_school_science_closeup
     show player 11 at left
     show okita 2 at right
-    okita "Нам нужно что-то легкое, чтобы действовать в качестве основы для сыворотки.Овощной бульон будет работать лучше всего."
-    okita "Ты должен забрать несколько у потребителя."
+    okita "Нам нужно что-то легкое, чтобы действовать в качестве основы для сыворотки. Овощной бульон будет работать лучше всего."
+    okita "Ты должен забрать несколько в Консумер."
     show player 2
     show okita 1
     player_name "... По крайней мере, один из ингредиентов прост."
@@ -75,8 +75,8 @@ label button_okita_got_all_ingredients:
     okita "... Это {b}Куриный бульен{/b}?"
     show player 533
     show okita 1
-    player_name "Да. Это все {b}покупатели{/b}..."
-    player_name "Я подумал, может быть {b}куриный бульон{/b} все равно сработает?"
+    player_name "Да. Это всё что есть в {b}Консумере{/b}..."
+    player_name "Я подумал, может быть {b}куриный бульон{/b} всё равно сработает?"
     show player 532
     show okita 2b
     okita "Хах, да. Это будет здорово..."
@@ -102,7 +102,7 @@ label button_okita_extract_cum:
     scene location_school_science_closeup
     show player 10 at left
     show okita 4 at right
-    player_name "Поэтому у нас есть все необходимое, чтобы сделать вашу сыворотку?"
+    player_name "Поэтому у нас есть всё необходимое, чтобы сделать нашу сыворотку?"
     show player 11
     show okita 5
     okita "... Эмм, да Разве это не то что я тебе только что сказала?!"
@@ -117,7 +117,7 @@ label button_okita_dose_smith:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "Ты еще не принес дозу {b}Директрисы Smith{/b}?!"
+    okita "Ты ещё не принес дозу {b}Директрисе Смит{/b}?!"
     show player 5
     show okita 4
     player_name "..."
@@ -125,13 +125,13 @@ label button_okita_dose_smith:
     okita "Чего же ты ждешь?"
     show player 12
     show okita 4
-    player_name "Это не совсем легко вы знаете!"
+    player_name "Вы знаете, это не совсем легко!"
     player_name "Не могли бы вы дать мне совет или что-то?!"
     show player 16
     show okita 3
     okita "Вот несколько советов: Поторопитесь и сделай это уже!"
     show okita 5
-    okita "Все, что тебе нужно сделать, это {b}подсунуть ей это в еду или еще куда-нибудь{/b}."
+    okita "Всё, что тебе нужно сделать, это {b}подсунуть ей это в еду или еще куда-нибудь{/b}."
     show player 12
     show okita 4
     player_name "Ладно, ладно. Я скоро вернусь."
@@ -189,7 +189,7 @@ label button_okita_wait_for_smith_serum:
     okita "О, Реально?"
     smi "..."
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
-    smi "Bawk bawk."
+    smi "Кудах Кудах."
     show principal 31 at right with dissolve
     show okita 8f
     show player 10
@@ -209,7 +209,7 @@ label button_okita_wait_for_smith_serum:
     smi "Я?"
     smi "Это смешно... Я не-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
-    smi "BAWK!!! Bawk bawk bawk..."
+    smi "КУДАХ!!! Кудах кудах кудах..."
     show principal 31 at right with dissolve
     show okita 6f
     show player 10
@@ -231,8 +231,8 @@ label button_okita_wait_for_smith_serum:
     smi "Изобретении?"
     smi "Нет, я не думаю что ты-"
     show principal 30b at Position(xpos=0.95, ypos=1.0) with dissolve
-    smi "Bawk bawk..."
-    smi "Bawk bawk BAWK!!"
+    smi "Кудах кудах..."
+    smi "Кудах кудах КУДАХ!!"
     show principal 31 at right with dissolve
     show okita 7f
     okita "Я Когда-нибудь принесу его к тебе в кабинет... Это действительно увлекательно!"
@@ -249,7 +249,7 @@ label button_okita_wait_for_smith_serum:
     player_name "..."
     show principal 32
 
-    smi "... Этот кофе странный на вкус."
+    smi "... Этот кофе странное на вкус."
 
 
     hide principal
@@ -266,7 +266,7 @@ label button_okita_wait_for_smith_serum:
     show player 12
     show okita 6
     player_name "Как это может быть смешным?!"
-    player_name "Мы трахались с её головой, а она там кудахтала, как курица!"
+    player_name "Мы ебали её голову, а она там кудахтала, как курица!"
     show player 11
     show okita 2b
     okita "Да так и есть! Хахаха!"
@@ -352,7 +352,7 @@ label button_okita_wait_for_okita_serum:
     show player 10 at left
     show okita 6 at right
     with dissolve
-    player_name "Все в порядке, Мэм?"
+    player_name "Всё в порядке, Мэм?"
     player_name "Вы заметили какие-то побочные эффекты от вашей сыворотки?"
     show player 11
     show okita 7
@@ -424,7 +424,7 @@ label button_okita_serum_effects:
     player_name "Что ты задумала?"
     show player 11
     show okita 2b
-    okita "Не будь ребенком! Ты должЕН прийти и посмотреть!"
+    okita "Не будь ребенком! Ты ДОЛЖЕН прийти и посмотреть!"
     show player 10
     show okita 6
     player_name "Хорошо."

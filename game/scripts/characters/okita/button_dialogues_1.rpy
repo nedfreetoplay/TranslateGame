@@ -3,7 +3,7 @@ label button_okita_intro:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Хорошо, {b}Мисс Окита{/b}.Что мне нужно сделать чтобы улучшить свои оценки?"
+    player_name "Хорошо, {b}Мисс Окита{/b}. Что мне нужно сделать чтобы улучшить свои оценки?"
     show player 1
     show okita 5
     okita "Ты поможешь мне освободиться от моего навязанного изгнания в стране дефицитов."
@@ -42,7 +42,7 @@ label button_okita_intro:
     show okita 4
     player_name "..."
     show okita 11
-    okita "Правда заключается в том,что они просто были запуганы моим интелектом!"
+    okita "Правда заключается в том, что они просто были запуганы моим интелектом!"
     okita "Они не поспевали за мной поэтому они объединились и внесли меня в черный список."
     show player 30
     show okita 11b
@@ -51,21 +51,21 @@ label button_okita_intro:
     show okita 3
     okita "Это значит что ни одно достойное научное учереждение не возьмет меня к себе!"
     show okita 11
-    okita "Я был изгнана, чтобы прожить тупое существование в однообразном месте, подобно этому..."
+    okita "Я была изгнана, чтобы прожить тупое существование в однообразном месте, подобно этому..."
     show player 10
     show okita 11b
-    player_name "Ну, это печальная история и все ,но как же я должен тебе помочь?"
+    player_name "Ну, это печальная история и все, но как же я должен тебе помочь?"
     show player 11
     show okita 3
     okita "Да, ну это действительно просто."
     show okita 5
-    okita "Мне просто нужно закончить то, что начала."
+    okita "Мне просто нужно закончить то, что я начала."
     show player 10
     show okita 4
     player_name "Хм?"
     show player 11
     show okita 2
-    okita "Мои изобретения!Те над которыми я работала в {b}Синтек{/b} пока эти идиоты не занесли меня в черный список."
+    okita "Мои изобретения! Те, над которыми я работала в {b}Синтек{/b}, пока эти идиоты не занесли меня в черный список."
     okita "Если бы я могла просто доказать, что они работают и опубликовать один из них."
     show player 10
     show okita 1
@@ -75,15 +75,15 @@ label button_okita_intro:
     okita "... Мне плевать на работу!"
     okita "Я хочу показать этим предателям, какими глупыми они были, когда уволили {b}Тори Окиту{/b}!"
     show okita 5
-    okita "К тому же, если хоть одно из моих изобретений работает.Это будет стоить целое состояние!"
+    okita "К тому же, если хоть одно из моих изобретений работает. Это будет стоить целое состояние!"
     show okita 2
     okita "Я куплю свою собственную лабораторию!"
     show player 30
     show okita 1
-    player_name "... Все еще не вижу, как я вписываюсь во все это."
+    player_name "... Все ещё не вижу, как я вписываюсь во всё это."
     show player 11
     show okita 5
-    okita "Ну, во-первых,Мне нужно, чтобы ты {b}помог мне попасть в мой кабинет{/b}."
+    okita "Ну, во-первых, мне нужно, чтобы ты {b}помог мне попасть в мой кабинет{/b}."
     show player 10
     show okita 4
     player_name "Вы отрезаны от своего собственного кабинета?"
@@ -120,7 +120,7 @@ label button_okita_intro:
     player_name "Она может исключить меня!"
     show player 11
     show okita 5
-    okita "Это  имеет значение? Ты останешься здесь еще на год, даже если завалишь мой класс...."
+    okita "Это имеет значение? Ты останешься здесь ещё на год, даже если завалишь мой класс...."
     show player 10
     show okita 4
     player_name "Да, но..."
@@ -131,7 +131,7 @@ label button_okita_intro:
     okita "... Я поставлю тебе 5+ в классе.."
     show player 14
     show okita 4
-    player_name "А+!?"
+    player_name "5+!?"
     show player 30
     player_name "Хм..."
     show player 10
@@ -160,7 +160,7 @@ label button_okita_intro:
     show okita 7
     okita "Всего наилучшего, {b}[firstname]{/b}!"
     show okita 5
-    okita "... Ох и пока ты в моем кабинете, почему бы тебе не взять {b}лабораторный халат{/b} и {b}пару защитных очков {/b}."
+    okita "... Ох и пока ты в моём кабинете, почему бы тебе не взять {b}лабораторный халат{/b} и {b}пару защитных очков {/b}."
     okita "Они тебе понадобятся."
     hide okita
 
@@ -169,7 +169,7 @@ label button_okita_intro:
     show player 24 at Position(xpos=0.45, ypos=1.0) with dissolve
     player_name "Угх..."
     show player 34
-    player_name "( Мне придется подождать когда {b}Директриса Смит выйдет с своего кабинета если я хочу обыскать его как следует{/b}. )"
+    player_name "( Мне придется подождать когда {b}Директриса Смит выйдет с своего кабинета, если я хочу обыскать его как следует{/b}. )"
 
     return
 
@@ -180,7 +180,7 @@ label button_okita_get_keycode:
     okita "Тебе удалось достать этот код?"
     show player 2
     show okita 4
-    player_name "Я все еще работаю над этим."
+    player_name "Я всё ещё работаю над этим."
     show player 1
     show okita 3
     okita "Что ж, время такает."
@@ -197,7 +197,7 @@ label button_okita_get_keycode:
 
     player_name "Угх..."
     show player 34
-    player_name "( Мне придется подождать когда {b}Директриса Смит выйдет с своего кабинета если я хочу обыскать его как следует{/b}. )"
+    player_name "( Мне придется подождать когда {b}Директриса Смит выйдет с своего кабинета, если я хочу обыскать его как следует{/b}. )"
     return
 
 label button_okita_foam_misshap:
@@ -233,7 +233,7 @@ label button_okita_foam_misshap:
     show player 10 at left
     show okita 9 at right
     with dissolve
-    okita "Конечно нет.Ты имбецил."
+    okita "Конечно нет. Ты имбецил."
     show player 5
     show okita 5
     okita "Позвольте мне сказать это так, Окитатронные окуляры скоро заменят каждый смартфон на планете."
@@ -247,7 +247,7 @@ label button_okita_foam_misshap:
     okita "Давайте просто сосредоточимся на его создании и как только он будет завершен, я покажу тебе, что он делает..."
     show player 2
     show okita 4
-    player_name "Меня устраивает."
+    player_name "Хорошо."
     show player 10
     player_name "С чего начнем?"
     show player 11
@@ -281,7 +281,7 @@ label button_okita_foam_misshap:
     okita "Именно!"
     show player 2
     show okita 1
-    player_name "Хмм, Возможно, я смогу отследить что-то подобное."
+    player_name "Хмм, Возможно, я смогу найти что-то подобное."
     show player 1
     show okita 3
     okita "Возможно?"
@@ -301,10 +301,10 @@ label button_okita_get_bifocal_lenses:
     show player 1 at left
     show okita 3 at right
     with dissolve
-    okita "Вы нашел то, что нам нужно?"
+    okita "Ты нашёл то, что нам нужно?"
     show player 2
     show okita 4
-    player_name "Что вы хотите, чтобы я нашел еще раз?"
+    player_name "Что вы говорили, чтобы я нашел это?"
     show player 1
     show okita 3
     okita "Пффф, у тебя есть одно задание, и ты его забыл?"
@@ -332,7 +332,7 @@ label button_okita_get_bifocal_lenses:
     hide okita with dissolve
 
     show player 35 at Position(xpos=0.35, ypos=1.0) with dissolve
-    player_name "Хмм, Я должен {b}проверить по всей школе{/b} и посомтреть, если у кого-то запасной комплект {b}Варифокальных линз{/b}."
+    player_name "Хмм, Я должен {b}проверить по всей школе{/b} и посмотреть, если у кого-то запасной комплект {b}Варифокальных линз{/b}."
 
 
     return
@@ -384,16 +384,16 @@ label button_okita_get_faptic_engine:
     show bp 2 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
     player_name "... Пояс?"
-    okita "Да, название не помишает некоторой работе..."
+    okita "Да, над названием нужно поработать..."
     hide bp with dissolve
     show player 109f
     show okita 12
-    okita "Но Я позабочусь об этом позже.!"
-    okita "А сейчас,давайте сосредоточимся на том, что устройство делает."
+    okita "Но Я позабочусь об этом позже!"
+    okita "А сейчас, давай сосредоточимся на том, что устройство делает."
     show player 11 at left
     show okita 2 at right
     with dissolve
-    okita "Окитатронный пояс должен перевернуть то как люди держут себя в форме!"
+    okita "Окитатронный пояс должен перевернуть то, как люди держут себя в форме!"
     show okita 1
     player_name "..."
     show player 10
@@ -408,11 +408,11 @@ label button_okita_get_faptic_engine:
     player_name "Это звучит невероятно!"
     show player 1
     show okita 9
-    okita "Ну конечно, это невероятно!С кем ты думаешь ты разговариваешь?"
+    okita "Ну конечно, это невероятно! С кем ты думаешь ты разговариваешь?"
     show okita 1
     player_name "..."
     show okita 2
-    okita "Однако,Мне не хватает ключевого компонента."
+    okita "Однако, мне не хватает ключевого компонента."
     show player 10
     show okita 1
     player_name "... Вот тут то и нужен я?"
@@ -426,24 +426,24 @@ label button_okita_get_faptic_engine:
     player_name "Хорошо, итак как нам это сделать."
     show player 11
     show okita 2
-    okita "Нам нужно {b}Fabric механизм{/b}."
+    okita "Нам нужно {b}Мотор{/b}..."
     show player 10
     show okita 1
     player_name "... хм?"
     show player 11
     show okita 3
-    okita "{b}A Faptic маханизм{/b}."
+    okita "{b}Вибромотор{/b}."
     show okita 1
     player_name "..."
     show okita 9
     okita "*Вздох*"
     show okita 5
     okita "{b}Иди найди Джун{/b}. Она помогала мне с трудными проектами в прошлом."
-    okita "Скажи ей, что я отправила тебя за {b}Faptic механизмом{/b}."
+    okita "Скажи ей, что я отправила тебя за {b}Вибромотором{/b}."
     okita "Она знает, что делать."
     show player 2
     show okita 4
-    player_name "{b}Faptic механизм{/b}. Хорошо, я скоро вернусь."
+    player_name "{b}Вибромотор{/b}. Хорошо, я скоро вернусь."
     hide player with dissolve
 
     show okita 9
@@ -459,7 +459,7 @@ label button_okita_get_faptic_engine_repeat:
     okita "Уже вернулся? Оно у тебя?"
     show player 10
     show okita 4
-    player_name "Где я должен это достать, {b}Faptic механизм{/b} штуковину снова?"
+    player_name "Где я должен это достать, этот {b}Вибромотор{/b} снова?"
     show player 11
     show okita 9
     okita "*Вздох*"
@@ -485,7 +485,7 @@ label button_okita_tired_from_belt:
     player_name "*Вздох* Вы никогда не сдаетесь, не так ли?"
     show player 11
     show okita 5
-    okita "Я здамся, только когда мои изобретения будут опубликованыand и эти Синтек выродки съедят большую тарелке с вороной!"
+    okita "Я здамся, только когда мои изобретения будут опубликованы и эти Синтек выродки съедят большую миску ворон!"
     show player 10
     show okita 4
     player_name "... Отлично."
@@ -499,7 +499,7 @@ label button_okita_tired_from_belt:
     player_name "Как мы должны закончить это?"
     show player 11
     show okita 10c
-    okita "Я сама об этом размышлял...."
+    okita "Я сама об этом размышляю...."
     show okita 2 at right with dissolve
     okita "Я думаю простое {b}Сыворотка для стирания памяти{/b} это наш наилучший выход."
     show player 10
@@ -508,7 +508,7 @@ label button_okita_tired_from_belt:
     show player 11
     show okita 2
     okita "Тьфу, это обсолютно безопасно! Пока ты будешь следовать моим указаниям в письме!"
-    okita "Единственное, что она забудет ее отвращение к моим экспериментам."
+    okita "Единственное, что она забудет, это её отвращение к моим экспериментам."
     show player 10
     show okita 1
     player_name "Вы уверены?"
@@ -538,7 +538,7 @@ label button_okita_tired_from_belt:
     show player 556
     show okita 4 at right
     with dissolve
-    player_name "{b}Фалькум Гриб{/b}, {b}Экстракт возбужденной Жабы{/b}, {b}Психотропный эйфория{/b}, {b}Основная жидкость{/b}..."
+    player_name "{b}Фалькум Гриб{/b}, {b}Экстракт возбужденной Жабы{/b}, {b}Психотропный Молочай{/b}, {b}Основная жидкость{/b}..."
     show player 557
     player_name "Я никогда не слышал о таких вещах раньше!"
     show player 11 with dissolve
@@ -557,7 +557,7 @@ label button_okita_tired_from_belt:
     player_name "Психотропную что?"
     show player 11
     show okita 2
-    okita "Это светящийся цветок... Ты можешь згать его как, 'Бутон Незабудки.'"
+    okita "Это светящийся цветок... Ты можешь згать его как, 'Бутон Незабудки'."
     show player 10
     show okita 1
     player_name "Нет, никогда не слышал о нем."
@@ -581,7 +581,7 @@ label button_okita_tired_from_belt:
     show player 11
     show okita 2
     okita "Нам просто нужно что-то легкое, чтобы выступала в роли основы для сыворотки. Овощной бульон будет работать лучше всего."
-    okita "У тебя должна быть возможность забрать его у {b}Потребителй{/b}."
+    okita "У тебя должна быть возможность забрать его у {b}Потребителей{/b}."
     show player 10
     show okita 1
     player_name "Что насчет этого последнего ингредиента?"
