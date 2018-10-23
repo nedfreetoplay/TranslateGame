@@ -9,14 +9,14 @@ label comic_store_june_cosplay_started:
 
 label comic_store_erik_vr_started_have_all:
     show player 14 with dissolve
-    player_name "( Я думаю это все что {b}Erik{/b} хотел. )"
+    player_name "( Я думаю это все что {b}Эрик{/b} хотел. )"
     player_name "( Давайте вернумся к нему... )"
     hide player with dissolve
     return
 
 label comic_store_erik_vr_started_do_not_have_all:
     show player 35 with dissolve
-    player_name "( У них должны быть вещи которые {b}Erik{/b}хотел где-то здесь. )"
+    player_name "( У них должны быть вещи которые {b}Эрик{/b}хотел где-то здесь. )"
     show player 12 with dissolve
     player_name "( Может быть на тех полках на прилавке? )"
     hide player with dissolve
