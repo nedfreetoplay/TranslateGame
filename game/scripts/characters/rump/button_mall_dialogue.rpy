@@ -2,7 +2,7 @@ label rump_mall_dialogue_pre:
     scene mall_closeup
     show xtra 18 zorder 2 at left
     with dissolve
-    player_name "( Похоже на нового Мэра,который произносит свою речь сегодня. )"
+    player_name "( Похоже на нового Мэра, который произносит свою речь сегодня. )"
     show rump 1 at Position(xpos = 330)
     show iwanka 1 at Position(xpos = 860)
     with dissolve
