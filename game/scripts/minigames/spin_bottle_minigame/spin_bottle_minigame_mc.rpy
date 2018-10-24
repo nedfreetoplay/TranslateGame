@@ -127,7 +127,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show player_sitting 3
     show becca sitting 8
     show missy sitting 3
-    missy "Посмотри, как нервничает {b}Becca{/b}!!"
+    missy "Посмотри, как нервничает {b}Бекка{/b}!!"
     show missy sitting 5
     show becca sitting 8b
     missy "Хахаха!"
