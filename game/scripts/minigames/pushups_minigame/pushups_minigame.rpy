@@ -16,7 +16,7 @@ label pushups_minigame_win:
         dex "{b}*Кхм*{/b} Ого..."
         show dexter 42b
         show coach 2f
-        bri "Ты в порядке, {b}Dexter{/b}?"
+        bri "Ты в порядке, {b}Декстер{/b}?"
         bri "Ты выглядишь не очень хорошо..."
         show coach 1f
         hide dexter
@@ -48,11 +48,11 @@ label pushups_minigame_win:
         player_name "Правда?"
         show player 109f
         show coach 2
-        bri "Да! Мне бы не помешал твой плеер... выносливость."
+        bri "Да! Мне бы не помешала твоя ... выносливость."
         show coach 1
         show player 10
-        player_name "Д-да, может быть)"
-        player_name "Я подумаю об этом, {b}Coach{/b}..."
+        player_name "Д-да, может быть."
+        player_name "Я подумаю об этом, {b}тренер{/b}..."
         show player 5
         show coach 2
         bri "Ну, ты знаешь, где меня найти."
@@ -61,7 +61,7 @@ label pushups_minigame_win:
         eri "...Это было странно."
         show erik 1
         show player 14
-        player_name "Хех, да. {b}Coach Bridget{/b} сказала мне что-то приятное..."
+        player_name "Хех, да. {b}Тренер Бриджит{/b} сказала мне что-то приятное..."
         show player 13
         show erik 4
         eri "Ну, ты только что убил людоеда..."
@@ -86,7 +86,7 @@ label pushups_minigame_win:
 
         dex "..."
         show player 108f
-        player_name "{b}Dexter{/b}?"
+        player_name "{b}Декстер{/b}?"
         show player 109f
         dex "..."
         show player 109f
@@ -120,7 +120,7 @@ label pushups_minigame_lose:
         dex "Хахаха!"
         show dexter 11
         show coach 2f
-        bri "Похоже {b}Dexter{/b} Победил"
+        bri "Похоже {b}Декстер{/b} победил."
         show coach 1f
         show dexter 12
         dex "У этого маленького ботаника никогда не было шанса..."
@@ -129,7 +129,7 @@ label pushups_minigame_lose:
         bri "Держи себя в руках!"
         hide coach with dissolve
         show dexter 12
-        dex "Думаю, мне не нужно беспокоиться о тебе и о {b}Roxxy{/b}..."
+        dex "Думаю, мне не нужно беспокоиться о тебе и о {b}Рокси{/b}..."
         dex "... Она не встречается с неудачниками."
         show dexter 11
         show player 24
@@ -138,7 +138,7 @@ label pushups_minigame_lose:
         dex "Хахахах!"
         show dexter 11
         show player 25
-        player_name "Все, {b}Dexter{/b}. Тебе просто повезло, вот и все..."
+        player_name "Все, {b}Декстер{/b}. Тебе просто повезло, вот и все..."
         show dexter 12
         dex "Хахаха!"
         show dexter 11
@@ -150,9 +150,9 @@ label pushups_minigame_lose:
         dex "Я буду бить тебя каждый раз."
         hide dexter with dissolve
         show player 5
-        player_name "( Дерьмо! Теперь это будет знать вся школа. )"
-        player_name "( Мне нужно показать всем, что я не боюсь встать против {b}Dexter{/b}! )"
-        player_name "( ... Иначе {b}Roxxy{/b} никогда не воспримет меня всерьёз. )"
+        player_name "( Дерьмо! Теперь об этом будет знать вся школа. )"
+        player_name "( Мне нужно показать всем, что я не боюсь встать против {b}Декстера{/b}! )"
+        player_name "( ... Иначе {b}Рокси{/b} никогда не воспримет меня всерьёз. )"
         hide player with dissolve
     else:
 
