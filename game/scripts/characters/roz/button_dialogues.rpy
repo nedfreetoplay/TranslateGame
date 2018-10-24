@@ -86,7 +86,7 @@ label roz_dialogue_schedule:
 label roz_dialogue_ancestory:
     show player 14f
     show roz 1
-    player_name "Roz! Мне нужно вас спросить кое о чём."
+    player_name "Роза! Мне нужно вас спросить кое о чём."
     show player 11f
     show roz 2
     roz "Хмм, да?"
@@ -95,7 +95,7 @@ label roz_dialogue_ancestory:
     player_name "Я пытаюсь найти могилу кого-то кто умер в этом городе,много лет назад."
     show player 29f
     player_name "Я думаю он был каким-то Лодочным слесарем."
-    player_name "У вас есть какие-то идеи о лучшем способе отыскать его?"
+    player_name "У вас есть какие-то идеи как лучше отыскать его?"
     show player 3f
     show roz 2
     roz "Возможно есть одна или две."
@@ -131,7 +131,7 @@ label roz_dialogue_ancestory:
     show player 24f
     show roz 2
     roz "Хмм..."
-    roz "Возможно ты сможешь отсыскать его в старых {b}Записях некролога{/b}."
+    roz "Возможно ты сможешь отсыскать его в старых {b}Записях Патологоанатома{/b}."
     show player 11f
     roz "Я припоминаю несколько человек и их профессии указаны сдесь."
     show player 10f
@@ -148,7 +148,7 @@ label roz_dialogue_ancestory:
     roz "Может и ты сможешь сделать что-то что бы я не тратила своего времени?"
     show player 29f
     show roz 1
-    player_name "К-ко нечно!"
+    player_name "К-конечно!"
     show player 2f
     player_name "Позвольте мне взглянуть на те записи и я сделаю все что вы захотите!"
     show player 1f
@@ -161,13 +161,13 @@ label roz_dialogue_ancestory:
     roz "..."
     show roz 2
     roz "Хорошо. Я тебе скажу что. Возьми это ключи от {b}2-го этажа склада{/b}."
-    roz "Ты его найдешь его на уродливой коробке лежащей на полке, оно там как бельмо на глазу, ты не сможешь пропустить его."
+    roz "Ты его найдешь в уродливой коробке лежащей на полке, она там как бельмо на глазу, ты не сможешь пропустить его."
     show player 2f
     show roz 1
     player_name "Уродливая коробка, понял."
     show player 1f
     show roz 2
-    roz "Иди принеси мне эту коробку и принеси ее пока сюда Я раскапаю эти записи."
+    roz "Иди принеси мне эту коробку. Я просмотрю эти записи."
     show player 2f
     show roz 1
     player_name "Это звучит достаточно просто! Я вернусь в мгновение ока!"
@@ -184,13 +184,13 @@ label roz_dialogue_go_on_break:
     show player 13f
     show roz 2
     roz "Ахх..."
-    roz "Немогу устоять' {b}Roz{/b}, ах Малыш?"
+    roz "Немогу устоять, ах Малыш."
     show roz 1
     player_name "..."
     show roz 2
     roz "Не волнуйся, сообщение получено."
     roz "Напровляйся на склад и Я буду с минуты на минуту..."
-    roz "...один момент нужно привести себя в порядок."
+    roz "...один момент, нужно привести себя в порядок."
     show roz 1
     player_name "..."
     show player 14f
