@@ -2,7 +2,7 @@ label pizza_minigame:
     if player.transport_level == 0:
         scene location_pizza_day_blur with None
         show player 35 with dissolve
-        player_name "Мне нужно найти {b}Велик{/b} или что-то такое, потому что я буду слишком медленно идти."
+        player_name "Мне нужно найти {b}велосипед{/b} или что-то такое, потому что я буду слишком медленно идти."
         hide player with dissolve
         jump pizza_interior_dialogue
     $ pizza_earnings = 0
