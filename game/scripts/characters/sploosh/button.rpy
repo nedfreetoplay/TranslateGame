@@ -3,7 +3,7 @@ label sploosh_button_dialogue:
     show player 10 at left with dissolve
     show sploosh 1 at right
     player_name "Здравствуйте?"
-    Sploosh "ZZZzzzz..."
+    Sploosh "ХХХХррррррр..."
     show player 4
     player_name "(Хммм... Он,должно быть, спит)"
     menu:
@@ -36,12 +36,12 @@ label sploosh_button_dialogue:
             show player 23
             player_name "!!!" with hpunch
             show sploosh 1
-            Sploosh "ZZZzzzz..."
+            Sploosh "ХХХХррррррр..."
             show player 1
             player_name "Что за странный пират..."
             hide player with dissolve
         "Оставить":
             player_name "Лучше не беспокоить его..."
-            Sploosh "ZZZzzzz..."
+            Sploosh "ХХХХррррррр..."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
