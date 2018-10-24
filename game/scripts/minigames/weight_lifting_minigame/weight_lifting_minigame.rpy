@@ -9,7 +9,7 @@ label weightlifting_dialogue:
         player_name "Привет {b}Кевин{/b}!"
         show kevin 10 at right
         show player 11 at left
-        kev "Готов поднять зацепку, братан?"
+        kev "Готов поднять железку, братан?"
         menu:
             "Конечно, бро":
                 show player 17 at left
@@ -51,8 +51,8 @@ label weightlifting_dialogue:
                 kev "Не беспокойся, братан!"
                 show kevin 11 at right
                 show player 84 at left
-                kev "Увидимся в следующий раз, брат!"
-                player_name "See ya!"
+                kev "Увидимся в следующий раз, братан!"
+                player_name "Пока!"
                 hide player 84 at left with dissolve
                 hide kevin 11 at right with dissolve
                 hide lifting
@@ -125,7 +125,7 @@ label weightlifting_fail:
     player_name "Черт... Я думала, что смогу это сделать..."
     show kevin 10 at right
     show player 13 at left
-    kev "Возьми выходной и возвращайся свежим!"
+    kev "Возьми выходной и возвращайся когда отдохнешь!"
     show kevin 8 at right
     show player 21 at left
     player_name "Окей. Увидимся, {b}Кевин{/b}!"
