@@ -19,7 +19,7 @@ label larry_police_cell_dialogue_erik_father_forgive_known:
     player_name "..."
     show larry 15
     larry "Я знаю, что я делал было плохо, окей?."
-    larry "Я только... Я недаюсь что ты сможешь передать {b}Tammy{/b} послание от меня?"
+    larry "Я только... Я недаюсь что ты сможешь передать {b}Тэмми{/b} послание от меня?"
     show larry 14
     show player 10f
     player_name "Я не думаю что эта хорошая идея..."
@@ -66,7 +66,7 @@ label larry_police_cell_dialogue_erik_father_forgive_started:
     show cell_bars at left
     show larry_hands at Position (xpos=400,ypos=658)
     show player 12f at right with dissolve
-    player_name "Что ты хочешь что бы я сделал для тебя снова"
+    player_name "Что ты хочешь что бы я сделал для тебя снова?"
     show player 5f
     show larry 15
     larry "Просто скажи {b}Тэмми{/b} что мне очень жаль. Я не должен был бросать её..."
@@ -101,7 +101,7 @@ label larry_police_cell_dialogue_erik_father_treasure_not_known:
     larry "Ты выполнил свою часть условия сделки."
     larry "...Ладно."
     larry "Насчет тех украденых вещах которые я спрятал."
-    larry "Они находятся{b}за кустами в парке, рядом с белым деревом{/b}."
+    larry "Они находятся {b}за кустами в парке, рядом с белым деревом{/b}."
     show larry 14
     show player 34f
     player_name "Хмм..."
@@ -128,7 +128,7 @@ label larry_police_cell_dialogue_erik_father_treasure_known:
     player_name "Где ты спрятал украденые вещи?"
     show player 5f
     show larry 15
-    larry "Они находятся{b}а кустами в парке, рядом с белым деревом{/b}."
+    larry "Они находятся {b}за кустами в парке, рядом с белым деревом{/b}."
     show larry 14
     show player 12f
     player_name "Хорошо, Я пойду посмотрю."
