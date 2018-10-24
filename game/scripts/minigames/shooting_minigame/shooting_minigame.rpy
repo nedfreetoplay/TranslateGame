@@ -35,9 +35,9 @@ label shooting_range_dialogue:
                 show clyde 3
                 show player 14f
                 if M_clyde.get("cletus"):
-                    player_name "Хех, заткнись и стреляй, {b}Cletus{/b}!"
+                    player_name "Хех, заткнись и стреляй, {b}Клетус{/b}!"
                 else:
-                    player_name "Хех, заткнись и стреляй, {b}Clyde{/b}!"
+                    player_name "Хех, заткнись и стреляй, {b}Клайд{/b}!"
                 show player 13f
                 show clyde 4
                 clyde "Хахаха, ты справишься, брат!"
@@ -71,11 +71,11 @@ label shooting_minigame_prepare:
         call screen shooting_minigame
     else:
         menu:
-            "Играть в мини-игру":
+            "Играть в мини-игру.":
                 if not renpy.variant("mobile"):
                     $ config.mouse = {"default": [("buttons/shooting_cursor.png", 48, 49)]}
                 call screen shooting_minigame
-            "Пропустить мини-игру(чит)":
+            "Пропустить мини-игру(чит).":
                 $ M_roxxy.set("lost shooting", True)
                 jump shooting_range_success
 
@@ -93,9 +93,9 @@ label shooting_range_fail:
             jump shooting_minigame_prepare
         else:
             menu:
-                "Снова разбирать":
+                "Снова разбирать.":
                     jump shooting_minigame_prepare
-                "Пропустить":
+                "Пропустить.":
                     jump shooting_range_success
     elif player.earnings != 0:
         show player 5f at right
@@ -289,7 +289,7 @@ label shooting_range_fail_first:
     hide roxxy_head
     show roxxy 31
     with dissolve
-    rox "Это просто отвратительно, {b}Clyde{/b}!"
+    rox "Это просто отвратительно, {b}Клайд{/b}!"
     show roxxy 3b
     show player 109 with dissolve
     show clyde 20
@@ -400,7 +400,7 @@ label shooting_range_fail_repeat:
     show clyde 19
     show roxxy 3c
     show player 5
-    rox "Eugh, God..."
+    rox "О, Боже..."
     show roxxy 3d
     show player 114
     show clyde 20
@@ -503,7 +503,7 @@ label shooting_range_success_outro:
     show roxxy 3c
     rox "Сколько раз я должна повторять, что он не мой парень?!"
     show roxxy 31
-    rox "... И не называй меня{b}Роксианна{/b}!"
+    rox "... И не называй меня {b}Роксианна{/b}!"
     show roxxy 3d
     show player 5f
     show clyde 4
@@ -521,7 +521,7 @@ label shooting_range_success_outro:
     rox "Давай найдем эту глупую свинью."
     show roxxy 3d
     show player 113f
-    player_name "Sure thing."
+    player_name "Конечно."
     hide roxxy
     hide player
     with dissolve
