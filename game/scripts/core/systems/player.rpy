@@ -51,6 +51,7 @@ init python:
             self.name = name if str(name).strip() != "" else "Аноним"
             self.inventory = Inventory()
             self.location = None
+            self.location_rus = None
             self.stats = PlayerStats()
             self.quests = []
             self.grades = {"french":5,
@@ -164,6 +165,7 @@ init python:
         
         def go_to(self, location):
             self.location = location
+            self.location_rus = store.locations_rus.get(location.name)
             if not L_map.locked and location.is_first_child or location==L_map or game.force_unlock_map:
                 game.unlock_ui()
             else:

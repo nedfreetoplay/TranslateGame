@@ -44,7 +44,7 @@ screen ui:
             hotspot (946, 5, 68, 70) action ShowMenu("navigation")
 
     text "{b}[player.inventory.money]{/b}" xpos 765 ypos 16 xalign 1.0
-    text "{b}[player.location.name]{/b}" xpos 105 ypos 15 xalign 0.0
+    text "{b}[player.location_rus]{/b}" xpos 105 ypos 15 xalign 0.0
     if game.timer.is_morning():
         add "buttons/ui_day_cycle_bar.png" pos 444,29
         add "buttons/ui_day_cycle_bar.png" pos 499,29
