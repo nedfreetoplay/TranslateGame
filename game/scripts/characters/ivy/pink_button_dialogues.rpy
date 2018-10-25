@@ -45,7 +45,7 @@ label button_ivy_package:
     ivy "На чье имя посылка?"
     show ivy 1
     show player 12
-    player_name "{b}Diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 1
     show ivy 11
     ivy "Щас проверю... Правильно! Вот она!"
