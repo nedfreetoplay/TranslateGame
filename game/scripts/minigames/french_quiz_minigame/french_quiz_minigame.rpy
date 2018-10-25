@@ -15,7 +15,7 @@ label french_classroom_bissette_quiz_fail:
     show player 5 at left
     show teacher 5 at right
     with dissolve
-    bis "О нет. {b}[firstname]{/b}, Я думал, ты готов к этому?"
+    bis "О нет. {b}[firstname]{/b}, Я думала, ты готов к этому?"
     show teacher 4
     show player 10
     player_name "Хочешь сказать, я не сдал экзамен?"
@@ -27,7 +27,7 @@ label french_classroom_bissette_quiz_fail:
     player_name "Мне так жаль, {b}Мисс Биссетт{/b}!"
     show player 5 with dissolve
     show teacher 5
-    bis "Вы должны вернуться завтра и пересдать его."
+    bis "Ты должен вернуться завтра и пересдать его."
     show teacher 4
     show player 12
     player_name "Хорошо, я могу это сделать!"
@@ -45,7 +45,7 @@ label french_classroom_bissette_quiz_fail:
 label french_classroom_bissette_quiz_pass:
     scene french_class_cs10
     with fade
-    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Рокси{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт{/b}, кажется, не заметила.\nЯ был взволнован делая французский, так я хотел претендовать на мою специальную награду от {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Рокси{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт, кажется, не заметила.\nЯ был взволнован делая французский, так я хотел претендовать на мою специальную награду от {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     scene black with fade
