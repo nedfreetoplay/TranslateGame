@@ -6,7 +6,7 @@ label button_missy_becca_chat_with_becca_missy:
     show becca 1f
     show missy 1b
     missy "Похоже на это!"
-    missy "... И не зеленый своего рода дополняют твои волосы?"
+    missy "... И не зеленый своего рода дополняет твои волосы?"
     show missy 1
     show becca 2f
     becca "Хм, да. Полагаю, так и есть."
@@ -23,14 +23,14 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 7
     show becca 2bf with dissolve
     becca "Авв!!"
-    becca "Ради хрена, {b}Мисси{/b}... Ты отвратительна!"
+    becca "Какого хрена, {b}Мисси{/b}... Ты отвратительна!"
     show becca 1f with dissolve
     show missy 8
     missy "Что?!"
     missy "{b}Моя сестра{/b} сказала мне, что ботаники имеют огромные Член!"
     show missy 7
     show becca 2f
-    becca "Да хорошо, {b}Твоя сестра{/b} шлюха..."
+    becca "Да ладно, {b}Твоя сестра{/b} шлюха..."
     show becca 1f
     show missy 1b
     missy "Да, она вроде как..."
@@ -39,7 +39,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Держу пари {b}[firstname]{/b} это упаковка серьезного тепла!"
     show missy 7
     show player 10f at right with dissolve
-    player_name "Простите, {b}Мисси{/b}?"
+    player_name "Прости, {b}Мисси{/b}?"
     show player 5f
     show becca 1 at Position(xpos=315)
     show missy 4c
@@ -71,7 +71,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Я..."
     show missy 1
     show becca 2
-    becca "О, она была бы более чем счастлива для одного рааз с тобой."
+    becca "О, она была бы более чем счастлива для одного раза с тобой."
     becca "... Так же, как я более чем счастлива, чтобы вас не видели... Придурки!"
     show becca 1
     show player 90f
@@ -116,7 +116,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Гм... Я с удовольствием помогу тебе."
     show missy 1
     show player 12f
-    player_name "Это о {b}Бекка{/b}."
+    player_name "Это о {b}Бекке{/b}."
     show player 5f
     show missy 4
     missy "... Ох."
@@ -158,7 +158,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Хехе."
     show missy 7
     show player 10f
-    player_name "... Но о, {b}Бекка{/b}."
+    player_name "... Но, {b}Бекка{/b}."
     show player 5f
     show missy 1
     missy "..."
@@ -298,17 +298,17 @@ label button_missy_becca_intro:
     show becca 6 at Position (xpos=315)
     show missy 1 at left
     with dissolve
-    becca "Эй, {b}[firstname]{/b}!"
+    becca "Привет, {b}[firstname]{/b}!"
     show becca 5
     show player 14f
-    player_name "Эй, {b}Бекка{/b}. {b}Мисси{/b}."
+    player_name "Привет, {b}Бекка{/b}. {b}Мисси{/b}."
     show player 13f
     show missy 1b
     missy "{b}[firstname]{/b}!"
     missy "Мы надеялись, что увидимся сегодня!"
     show missy 1
     show player 10f
-    player_name "Вы были?"
+    player_name "Вы надеялись?"
     show player 13f
     show missy 6
     missy "Абсолютно!"
@@ -485,12 +485,12 @@ label button_missy_becca_look_beautiful:
             show player 10f
             player_name "Эй!"
             show player 12f
-            player_name "Успокойтесь! Вы оба великолепны и {b}Бекка{/b}'s веснушки очаровательны!"
+            player_name "Успокойтесь! Вы оба великолепны и  веснушки {b}Бекки{/b} очаровательны!"
             show player 13f
             show becca 23 with dissolve
             becca "Хммф!"
             show missy 8
-            missy "... Ты имеешь в виду, отвратительно."
+            missy "... Ты имеешь в виду, отвратительные."
             show missy 7
             show becca 2
             becca "Я слышала это!"
