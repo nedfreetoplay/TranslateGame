@@ -99,7 +99,7 @@ label button_grace_tattoo_help:
     with dissolve
 
     scene tattoo_cs01
-    show text "Потребовалось некоторое время чтобы {b}Grace{/b} закончила работу.\nЯ очень переживал за {b}Mia{/b}...\n...но, казалось что она была в порядке на протяжении всего времени!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Потребовалось некоторое время чтобы {b}Грэйс{/b} закончила работу.\nЯ очень переживал за {b}Мию{/b}...\n...но, казалось что она была в порядке на протяжении всего времени!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -148,7 +148,7 @@ label button_grace_tattoo_help:
     player_name "Ты не боишся что твоя мама сможет об этом узнать?"
     show player 5
     show mia 9
-    mia "Надеюсь что нет, но оно находится в хорошо скрытом месте, ха ха"
+    mia "Надеюсь что нет, но оно находится в хорошо скрытом месте, ха ха."
     show mia 7
     show player 17
     player_name "Я думаю это круто что ты сделала."
@@ -221,7 +221,7 @@ label button_grace_paint:
     show eve 2f zorder 2 at Position(xpos=0.35, ypos=1.0) with dissolve
     eve "Господи, выкладывай уже, {b}[firstname]{/b}!"
     show eve 1bf with dissolve
-    eve "Как дела, Хрюшка Ann?"
+    eve "Как дела, Хрюшка Энн?"
     show eve 5f with dissolve
     show grace 4
     grace "Хех, не очень."
@@ -239,7 +239,7 @@ label button_grace_paint:
     eve "Смотри, {b}[firstname]{/b} здесь нужно немного чернил."
     show eve 5f
     show grace 2
-    grace "Ох, ты думаешь сделать сдесь себе тату, Кобель?"
+    grace "Ох, ты думаешь сделать здесь себе тату, Кобель?"
     show player 11
     show grace 1
     player_name "..."
@@ -277,7 +277,7 @@ label button_grace_paint:
     show grace 2
     grace "Ааах,художник, хм?"
     show grace 4
-    grace "Иллюстрации, первого парня {b}Eve{/b} привело в дом художника."
+    grace "Иллюстрации, первого парня {b}Иви{/b} привело в дом художника."
     show player 11
     show grace 1
     show eve 6bf
@@ -294,7 +294,7 @@ label button_grace_paint:
     player_name "Смешивать?"
     show player 11
     show eve 2f
-    eve "Да, ты знаешь? Голубй и красый создает фиолетовый."
+    eve "Да, ты знаешь? Голубой и красный создает фиолетовый."
     eve "Желтый и синий  создает зеленый."
     show player 2
     show eve 1f
@@ -337,7 +337,7 @@ label button_grace_paint:
     grace "Тебе нужно сказать этим маленьким сучкам, Я надеру их чертовы задницы если это повторится снова!"
     show grace 9
     show player 10
-    player_name "Черт я не знал твоя {b}Sister{/b} была такой большой задницей!"
+    player_name "Черт я не знал твоя {b}Сестра{/b} была такой большой задницей!"
     show eve 6f
     show player 11
     eve "Хех, ты не предстовляешь."
@@ -368,7 +368,7 @@ label button_grace_paint:
     show eve 2f
     eve "Если ты меня простишь, {b}[firstname]{/b}."
     show player 1
-    eve "Я должна пойти предупредить парней что {b}Grace{/b} снова обьявила войну."
+    eve "Я должна пойти предупредить парней что {b}Грэйс{/b} снова обьявила войну."
     show eve 1f
     show grace 4
     grace "Черт побери!"
@@ -378,7 +378,7 @@ label button_grace_paint:
     hide eve
     with dissolve
     show grace 2
-    grace "{b}Коробки прямо перед стойкой{/b}.Только {b}перемести их{/b} за мою спину и краскв твоя."
+    grace "{b}Коробки прямо перед стойкой{/b}.Только {b}перемести их{/b} за мою спину и краска твоя."
     show grace 1
     show player 2
     player_name "Хорошо звучит!"
@@ -405,7 +405,7 @@ label button_grace_you_look_familiar:
     player_name "Сестры?"
     show player 11
     show grace 3
-    grace "Моя маленькая систра? {b}Eve{/b}?"
+    grace "Моя маленькая сестра? {b}Ив{/b}?"
     show grace 1
     show player 38 with dissolve
     player_name "Ох!Конечно!"
