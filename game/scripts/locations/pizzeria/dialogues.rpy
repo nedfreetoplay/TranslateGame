@@ -23,7 +23,7 @@ label pizza_interior_pizza_count_0:
     tony "Да ты, вот что я тебе скажу: Ищешь работёнку?"
     show tony 1
     show player 14f
-    player_name "Yeah, I've been looking for one."
+    player_name "Да, я долго искал хоть какую-нибудь."
     show tony 2
     show player 203f
     tony "Отлично. Мне пригодится кто-нибудь вроде тебя."
