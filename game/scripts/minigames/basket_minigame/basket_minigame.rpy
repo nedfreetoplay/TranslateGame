@@ -38,7 +38,7 @@ label basketball_success:
         with fade
         show text "... А потом это случилось." at Position (xpos= 512, ypos= 700) with dissolve
         pause
-        show text "Я сделал обманное движение влево, потом вправо, а потом пронеся мимо него!\n{b}Декстер{/b} хрюкнюл, спотыкаясь о собственные ноги и рухнул на землю." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "Я сделал обманное движение влево, потом вправо, а потом пронёсся мимо него!\n{b}Декстер{/b} хрюкнюл, спотыкаясь о собственные ноги и рухнул на землю." at Position (xpos= 512, ypos= 700) with dissolve
         pause
         show text "Я понятия не имею, как ему удалось потерять штаны..." at Position (xpos= 512, ypos= 700) with dissolve
         pause
@@ -69,7 +69,7 @@ label basketball_success:
         show kevin 36bf
         kev "... Кто-нибудь принес лупу?!"
         show chad 13f
-        chad "Хахахаха! Он похоже на пупок!"
+        chad "Хахахаха! Он похож на пупок!"
         show tyrone 3f
         tyrone "Хахаха, да! С двумя маленькими орешками, свисающими с него!"
         show tyrone 1f
@@ -94,7 +94,7 @@ label basketball_success:
         dex "!!!"
         bri "..."
         show dexter 44c
-        dex "Хватит смеятся!"
+        dex "Хватит смеяться!"
         dex "Разве ты не знаешь, кто я?!"
         dex "Никто не смеется надо мной!"
         show dexter 45
