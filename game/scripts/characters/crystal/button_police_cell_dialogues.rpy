@@ -12,16 +12,16 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show crystal jail 1
     show player 11f
     show roxxy 3
-    rox "Ты реально накосячила в этот раз {b}Mom{/b}!"
+    rox "Ты реально накосячила в этот раз {b}Мама{/b}!"
     rox "Они лишат нас трейлера и они говорили о том что отправят тебя в тюрьму!"
     show roxxy 3d
     show crystal jail 2
-    crys "Пффф, эти свиньи ничего не сделают'."
-    crys "Они только болтать гаразды!"
+    crys "Пффф, эти свиньи ничего не сделают."
+    crys "Они только болтать горазды!"
     show crystal jail 1
     show player 5f
     show roxxy 3c
-    rox "{b}Mom{/b} это не шутка!"
+    rox "{b}Мама{/b} это не шутка!"
     rox "Они нашли полкило мета!"
     rox "Тебя упекут в тюрму надолго!"
     show roxxy 3d
@@ -46,10 +46,10 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "..."
     show roxxy 3c
     rox "Не могла бы ты сосредоточиться!"
-    rox "Я черт побери знаю что все это принадлежит этому идиоту {b}Clyde{/b}!"
+    rox "Я, черт побери, знаю что все это принадлежит этому идиоту {b}Клайду{/b}!"
     show roxxy 3b
     show crystal jail 2
-    crys "Что ты делаешь'?!"
+    crys "Что ты делаешь?!"
     crys "Закрой свой рот!"
     show crystal jail 3
     show roxxy 3c
@@ -57,7 +57,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "Это его косяк,не наш..."
     show roxxy 3d
     show crystal jail 2
-    crys "Он семья, {b}Roxanne{/b}!"
+    crys "Он семья, {b}Роксана{/b}!"
     crys "... и мы заботимся о семье!"
     crys "Сейчас, Я знаю что я научила тебя этому!"
     show crystal jail 1
@@ -92,7 +92,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show crystal jail 2
     crys "Ты этого не сделаешь!"
     crys "Я не растила проклятую крысу!"
-    crys "Сейчас я скажу тебе что, {b}Clyde{/b} эта семья и ты не должна стучать на свою семью!"
+    crys "Сейчас я скажу тебе что, {b}Клайд{/b} эта семья и ты не должна стучать на свою семью!"
     show crystal jail 3
     show roxxy 3b
     rox "..."
@@ -102,13 +102,13 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "..."
     show roxxy 3c
     rox "Да, мы увидим..."
-    rox "Давай, {b}[firstname]{/b}.Пошли от сюда."
+    rox "Давай, {b}[firstname]{/b}.Пошли отсюда."
     rox "Я немогу смотреть на неё сейчас смотреть."
     hide roxxy with dissolve
     show player 5 with dissolve
     player_name "..."
     show crystal jail 2
-    crys "Я не шучу, {b}Roxanne{/b}!"
+    crys "Я не шучу, {b}Роксана{/b}!"
     crys "Если ты настукачичшь ты можешь забыть о том чтобы жить со мной!"
     show crystal jail 3
     scene black with fade
@@ -124,7 +124,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show roxxy 29f
     rox "..."
     show player 10
-    player_name "Нет,сэр."
+    player_name "Нет, сэр."
     show player 5
     show earl 2
     ear "Черт, ну и позорище..."
@@ -191,7 +191,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     ear "Мне очень жаль что я ничем немогу вам больше помочь детки..."
     show earl 1
     show player 10
-    player_name "Спасибо еще раз,Офицер."
+    player_name "Спасибо еще раз, Офицер."
     show player 5
     hide earl with dissolve
     show player 10
@@ -199,7 +199,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show player 5
     show roxxy 33 at center with dissolve
     rox "... Я не знаю."
-    rox "Я должна обратиться к {b}Clyde{/b} но он не сделает мне ничего хорошего."
+    rox "Я должна обратиться к {b}Клайду{/b} но он не сделает мне ничего хорошего."
     rox "Мы все равно потеряем трейлер и {b}Мама{/b} отречется от меня."
     show roxxy 32
     player_name "..."
@@ -207,11 +207,11 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "Мне только нужно все обдумать какое-то время."
     show roxxy 32
     show player 10
-    player_name "... Тебе нужно место где остановиться? Я уверен что, моя {b}Landlady{/b} будет не против дать тебе поспать на диване столько,сколько это будет необходимо."
+    player_name "... Тебе нужно место где остановиться? Я уверен что, моя {b}хозяйка дома{/b} будет не против дать тебе поспать на диване столько,сколько это будет необходимо."
     show player 5
     show roxxy 33
     rox "... Нет, спасибо."
-    rox "Я могу остановиться у {b}Becca's{/b} на пару дней."
+    rox "Я могу остановиться у {b}Бекки{/b} на пару дней."
     show roxxy 32
     show player 10
     player_name "... Отлично."
@@ -222,10 +222,10 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     hide roxxy with dissolve
     player_name "( ... )"
     show player 24
-    player_name "( Бедная, {b}Roxxy{/b}. )"
+    player_name "( Бедная, {b}Рокси{/b}. )"
     player_name "( Я хотел бы что то сделать чтобы помочь ей. )"
     show player 90
-    player_name "( ... Может мне стоит {b}поговорить с Clyde{/b} завтра. )"
+    player_name "( ... Может мне стоит {b}поговорить с Клайдом{/b} завтра. )"
     player_name "( Весь этот беспорядок по его вине, это он во всем виноват в конце концов... )"
     hide player with dissolve
     return
