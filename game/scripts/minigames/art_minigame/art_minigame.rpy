@@ -236,7 +236,7 @@ label art_minigame_done_dialogue:
     ann "ОХ! Простите меня, моя {b}Королева{/b}!"
     show annieo 8f
     show principalo 13f at Position(xpos=0.242, ypos=1.0) with dissolve
-    smi "Я приучу тебя к дисциплине позже, сучёнышь!"
+    smi "Я приучу тебя к дисциплине позже, сучка!"
     show principalo 12f
     show annieo 9f
     ann "Конечно ваше {b}Величие{/b}!"
@@ -264,14 +264,14 @@ label art_minigame_done_dialogue:
     smi "Наконец, точное изображение моего истинного лица!"
     show principalo 10f
     show annieo 6f
-    ann "Ты выглядишь прекрасно, ваше {b}Величие{/b}."
+    ann "Вы выглядите прекрасно, ваше {b}Величие{/b}."
     show principalo 9f
     show annieo 8f with dissolve
     smi "МОЛЧАТЬ!"
     show principalo 12f at Position(xpos=0.242, ypos=1.0) with dissolve
     smi "..."
     show principalo 13f
-    smi "Блять, ты испортил момент!"
+    smi "Блять, ты испортила момент!"
     show principalo 12f
     ann "..."
     show principalo 11f at Position(xpos=0.2, ypos=1.0) with dissolve
@@ -288,14 +288,14 @@ label art_minigame_done_dialogue:
     show player 11f
     smi "..."
     show principalo 11f at Position(xpos=0.2, ypos=1.0) with dissolve
-    smi "Ты очень хорошо справилась!"
+    smi "Ты очень хорошо справился!"
     smi "Ты рад {b}Королеве{/b}?."
     smi "Скажите своему учителю, что я хочу, чтобы эта картина была оформлена и доставлена в мой офис как можно быстрее!"
     show principalo 13f at Position(xpos=0.242, ypos=1.0) with dissolve
     smi "ПОНЯТНО?"
     show principalo 12f
     show player 10f
-    player_name "Да, мэм"
+    player_name "Да, мэм."
     show player 22f
     smi "..."
     show player 10f
@@ -308,10 +308,10 @@ label art_minigame_done_dialogue:
     smi "Раб!"
     show principalo 7f
     show annieo 9 zorder 3 at Position(xpos=0.45, ypos=1.0) with dissolve
-    ann "Прямо здесь, ваше {b}Величие{/b}!"
+    ann "Я здесь, ваше {b}Величие{/b}!"
     show annieo 8
     show principalo 8f
-    smi "Собрайте свои вещи и едем."
+    smi "Собрайте свои вещи и идем."
     show principalo 7f zorder 0 at Position(xpos=0.55, ypos=1.0) with dissolve
     smi "Думаю, я попрошу тебя принять ванну сегодня вечером..."
     hide principalo
@@ -319,7 +319,7 @@ label art_minigame_done_dialogue:
     with dissolve
     ann "Конечно, ваше {b}Величие{/b}! Это будет для меня честью!"
     show annieo 8f
-    smi "... И не думай, что я забыла о твоем промахе раньше!"
+    smi "... И не думай, что я забыла о твоем промахе!"
     smi "Я прослежу, чтобы ты была дисциплинированной, когда закончишь."
     show annieo 9f zorder 0 at Position(xpos=0.55, ypos=1.0) with dissolve
     ann "Да, моя {b}Королева{/b}..."
@@ -376,7 +376,7 @@ label art_minigame_done_dialogue:
     ross "... Это замечательно."
     show ross 34b
     show mia 10bf
-    mia "Ты что плачешь? "
+    mia "Ты что плачешь?"
     show ross 34
     show mia 11f
     ross "Извини, просто, я так горжусь тобой!"
@@ -405,7 +405,7 @@ label art_minigame_done_dialogue:
     ross "Нам нужно выиграть конкурс!"
     show ross 10
     show mia 9f
-    mia "О, Да"
+    mia "О, Да."
     show mia 11f
     show player 10f
     player_name "Она не расстроится?"
@@ -419,14 +419,14 @@ label art_minigame_done_dialogue:
     player_name "Ты правда думаешь, что мы победим?"
     show player 1f
     show ross 27 with dissolve
-    ross "I do!"
+    ross "Обязательно!"
     ross "Эта картина действительно замечательная, {b}[firstname]{/b}!"
     show ross 26
     show player 2f
     player_name "Спасибо!"
     show player 1f
     show ross 27
-    ross "Знаешь, мы должны отпраздновать!"
+    ross "Знаешь, мы должны это отпраздновать!"
     ross "... Я думаю, что у меня есть некоторые дела наверху, если вы, ребята-"
     show ross 25 with dissolve
     ross "Вот дерьмо! Уже действительно поздно, не так ли?"
@@ -439,7 +439,7 @@ label art_minigame_done_dialogue:
     player_name "Окей. Спокойной вам ночи!"
     show player 1f
     show mia 9f
-    mia "Сладких снов), {b}[firstname]{/b}!"
+    mia "Сладких снов, {b}[firstname]{/b}!"
     $ renpy.end_replay()
     return
 
