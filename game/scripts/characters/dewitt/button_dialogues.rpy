@@ -139,7 +139,7 @@ label dewitt_dialogue_dewitt_make_new_flute:
     dewitt "Спасибо, {b}[firstname]{/b}!"
     hide dewitt with dissolve
     show player 4f with dissolve
-    player_name "( {b}Erik{/b}  сказал, что я смогу сам её сделать. )"
+    player_name "( {b}Эрик{/b}  сказал, что я смогу сам её сделать. )"
     return
 
 label dewitt_dialogue_talent_show_help:
