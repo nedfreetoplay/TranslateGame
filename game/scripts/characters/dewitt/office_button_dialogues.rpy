@@ -2,7 +2,7 @@ label dewitt_dialogue_office_dewitt_eve_meet_up:
     scene expression game.timer.image("dewitt_office_c{}")
     show player 10 with dissolve
     player_name "Я должен дать ей немного пространства на время."
-    player_name "И мне также следует встретится с {b}Eve{/b} в {b}парке ночью{/b}."
+    player_name "И мне также следует встретится с {b}Евой{/b} в {b}парке ночью{/b}."
     return
 
 label dewitt_dialogue_office_dewitt_end_intro:
@@ -10,7 +10,7 @@ label dewitt_dialogue_office_dewitt_end_intro:
     show dewitt 18 at left
     show player 14f at right
     with dissolve
-    player_name "Привет, {b}Melody{/b}!"
+    player_name "Привет, {b}Мелоди{/b}!"
     show player 13f
     show dewitt 19
     dewitt "Ммм, привет {b}[firstname]{/b}!"
@@ -105,7 +105,7 @@ label dewitt_dialogue_office_dewitt_end_dance:
     hide dewitt
     show expression AnimatedImage("dewitt_twerk", ["1c","2c","3c","4c","5c","6c","7c","8c","9c","10c"], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
     with dissolve
-    player_name "Очень сексуально, {b}Melody{/b}!"
+    player_name "Очень сексуально, {b}Мелоди{/b}!"
     dewitt "Хех, спасибо, сахарок!"
     pause
     show player dewitts 1b with hpunch
@@ -212,7 +212,7 @@ label dewitt_dialogue_office_intro:
     show dewitt 1b at left
     show player 14f at right
     with dissolve
-    player_name "Здравствуйте, {b}Miss Dewitt{/b}."
+    player_name "Здравствуйте, {b}Мисс Девитт{/b}."
     show player 13f
     show dewitt 2b
     dewitt "Привет, {b}[firstname]{/b}!"
