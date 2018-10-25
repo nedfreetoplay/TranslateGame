@@ -33,7 +33,7 @@ label button_eve_talent_show_help:
     show player 4 with dissolve
     player_name "Хмм..."
     show player 14 with dissolve
-    player_name "Знаешь, у моего друга {b}Erik{/b} была {b}караоке-машина{/b} в подвале."
+    player_name "Знаешь, у моего друга {b}Эрика{/b} была {b}караоке-машина{/b} в подвале."
     show player 13
     show eve 2
     eve "Ох, да?"
@@ -64,7 +64,7 @@ label button_eve_ross_find_art_pad:
     eve "А?"
     show player 2
     show eve 1
-    player_name "Видишь ли, я помогаю {b}Miss Ross{/b} в одном деле и мне нужен твой блокнот."
+    player_name "Видишь ли, я помогаю {b}Мисс Росс{/b} в одном деле и мне нужен твой блокнот."
     show player 1
     show eve 2
     eve "Ну, это не проблема."
@@ -108,10 +108,10 @@ label button_eve_ross_find_eve_backpack_have_backpack:
     show eve 2
     eve "Блин."
     show eve 6b
-    eve "Возможно {b}Chad{/b} стащил его опять."
+    eve "Возможно {b}Чад{/b} стащил его опять."
     show player 10
     show eve 1
-    player_name "Chad?"
+    player_name "Чад?"
     show player 11
     show eve 2
     eve "Да, ему нравятся мои рисунки."
@@ -125,7 +125,7 @@ label button_eve_ross_find_eve_backpack_have_backpack:
     eve "Отлично. До встречи, {b}[firstname]{/b}."
     show player 2
     show eve 1
-    player_name "До встречи, {b}Eve{/b}."
+    player_name "До встречи, {b}Ева{/b}."
     return
 
 label button_eve_ross_find_eve_backpack_no_backpack:
@@ -144,7 +144,7 @@ label button_eve_ross_get_eve_drawing:
     player_name "Еще раз, у кого может быть твой {b}Блокнот{/b}?"
     show player 11
     show eve 6b
-    eve "А, возможно он у {b}Chad{/b}."
+    eve "А, возможно он у {b}Чада{/b}."
     show eve 2
     eve "Он балдеет от моих рисунков."
     show player 2
@@ -155,7 +155,7 @@ label button_eve_ross_get_eve_drawing:
 label button_eve_ask_model:
     show player 2
     show eve 1
-    player_name "Я работаю над пректом для {b}Miss Ross{/b} и нам нужна живая модель."
+    player_name "Я работаю над пректом для {b}Мисс Росс{/b} и нам нужна живая модель."
     player_name "Тебе это интересно?"
     show player 1
     show eve 2
@@ -201,7 +201,7 @@ label button_eve_ross_get_paint:
     show player 2
     show eve 1
     player_name "Ну да, конечно, я знаю... Да, точно?"
-    player_name "... Но эта краска для {b}Miss Ross{/b} и она не может позволить себе купить ее."
+    player_name "... Но эта краска для {b}Мисс Росс{/b} и она не может позволить себе купить ее."
     show player 1
     show eve 6
     eve "О, хехе."
