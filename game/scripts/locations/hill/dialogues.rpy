@@ -69,7 +69,7 @@ label hill_harolds_car_dialogue:
     player_name "{b}Гарольд{/b}?!"
     show player 11
     show harold 19
-    harold "Привет... Что ты {b}*Hic*{/b} делаешь здесь... Разве ты не должен быть в постели?"
+    harold "Привет... Что ты {b}*ик*{/b} делаешь здесь... Разве ты не должен быть в постели?"
     show harold 18
     show player 12
     player_name "Эхх... Сейчас полдень, сэр."
@@ -83,10 +83,10 @@ label hill_harolds_car_dialogue:
     player_name "Вы в порядке, сэр?"
     show player 5
     show harold 19
-    harold "Я думаю, что я {b}*Hic*{/b} живой..."
-    harold "...Моя жена, кажется, прекрасно {b}*Hic*{/b} справляется без меня... Так почему я не должен этого делать?!"
+    harold "Я думаю, что я {b}*ик*{/b} живой..."
+    harold "...Моя жена, кажется, прекрасно {b}*ик*{/b} справляется без меня... Так почему я не должен этого делать?!"
     show harold 20
-    harold "Я могу о себе позаботиться {b}*Hic*{/b}... Мне не нужна ничья помощь..."
+    harold "Я могу о себе позаботиться {b}*ик*{/b}... Мне не нужна ничья помощь..."
     show harold 19
     harold "Подожди... Что ты опять спрашиваешь???"
     show harold 18
@@ -101,7 +101,7 @@ label hill_harolds_car_dialogue:
     show player 5
     show harold 19
     harold "Они?!"
-    harold "Я {b}*Hic*{/b}, эээ... Стой, как ты меня нашел?!"
+    harold "Я {b}*ик*{/b}, эээ... Стой, как ты меня нашел?!"
     show harold 18
     show player 12
     player_name "Я поспрашивал на вашей работе..."
@@ -113,7 +113,7 @@ label hill_harolds_car_dialogue:
     show harold 28
     harold "*вздыхая*"
     show harold 20
-    harold "Я чувствую, что все было {b}*Hic*{/b}... намного проще, когда-то..."
+    harold "Я чувствую, что все было {b}*ик*{/b}... намного проще, когда-то..."
     harold "Я был счастлив... и чувствовал себя самим собой, не притворяясь тем, кем я не являюсь, понимаешь?"
     harold "Я даже себя больше не узнаю..."
     show harold 18
@@ -121,7 +121,7 @@ label hill_harolds_car_dialogue:
     player_name "Почему нельзя все вернуть?"
     show player 5
     show harold 19
-    harold "Что {b}*Hic*{/b}... ты имеешь в виду?"
+    harold "Что {b}*ик*{/b}... ты имеешь в виду?"
     show harold 18
     show player 10
     player_name "Ты перестал быть собой... Может в этом и проблема!"
@@ -131,7 +131,7 @@ label hill_harolds_car_dialogue:
     show harold 20
     harold "Может ты прав..."
     show harold 19
-    harold "...But {b}Helen{/b} тоже не такая, какой была раньше."
+    harold "...Но {b}Хелен{/b} тоже не такая, какой была раньше."
     show harold 18
     show player 14
     player_name "Я думаю, она тоже может измениться!"
@@ -147,7 +147,7 @@ label hill_harolds_car_dialogue:
     show harold 27
     harold "..."
     show harold 20
-    harold "Я должен {b}*Hic*{/b} вернуться в участок и протрезветь..."
+    harold "Я должен {b}*ик*{/b} вернуться в участок и протрезветь..."
     harold "...Потом я позвоню домой."
     show harold 19
     harold "Увидимся позже, малыш!"
