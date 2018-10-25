@@ -13,8 +13,8 @@ label ronda_pool_dialogue_pre_cassie_fun:
         show player 50f
     else:
         show player 17
-    player_name "Просто делаю нектороые упражнения!"
-    player_name "Я подумал что надо было с чего-то начать, и это поможет подготоваиться к отборочным!"
+    player_name "Просто делаю некоторые упражнения!"
+    player_name "Я подумал что надо с чего-то начать, и это поможет подготоваиться к отборочным соревнованиям!"
     show ronda 6
     if wearing_swimsuit:
         show player 51
@@ -43,7 +43,7 @@ label ronda_pool_dialogue_after_cassie_fun:
     else:
         show player 1 at left
     with dissolve
-    ron "Здесь надо заплатить Cassie за небольшой визит?"
+    ron "Здесь надо заплатить Кэйсси за небольшой визит?"
     show ronda 10
     if wearing_swimsuit:
         show player 51f
