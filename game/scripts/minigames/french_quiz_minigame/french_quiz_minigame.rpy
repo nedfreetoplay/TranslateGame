@@ -45,7 +45,7 @@ label french_classroom_bissette_quiz_fail:
 label french_classroom_bissette_quiz_pass:
     scene french_class_cs10
     with fade
-    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Рокси{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт, кажется, не заметила.\nЯ был взволнован делая французский, так я хотел претендовать на мою специальную награду от {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я пронесся прямо через тест, убедившись, что моя бумага была видна {b}Рокси{/b}.\nОна не очень тонко копировала меня, но {b}Мисс Биссетт{/b}, кажется, не заметила.\nЯ был взволнован делая французский, так я хотел претендовать на мою специальную награду от {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     scene black with fade
