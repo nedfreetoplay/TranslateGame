@@ -8,7 +8,7 @@ label guitar_hero_minigame_karaoke_fail:
     show player 10
     player_name "Я не знал, что это за песня такая!"
     show player 12
-    player_name "{b}Erik{/b}, выбери другую!"
+    player_name "{b}Эрик{/b}, выбери другую!"
     show player 5
     show erik 3bf
     eri "Хорошо..."
@@ -46,10 +46,10 @@ label guitar_hero_minigame_karaoke_pass:
 
     scene erik_basement_cs2
     with fade
-    show text "Думаю, выпивка сделала свое дело, потому что {b}Eve{/b} потрясла этот микрофон с некоторой серьезной уверенностью\nОна была великолепна! Я был полностью поражен тем, как прекрасен ее голос!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Думаю, выпивка сделала свое дело, потому что {b}Ева{/b} потрясла этот микрофон с некоторой серьезной уверенностью\nОна была великолепна! Я был полностью поражен тем, как прекрасен её голос!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
-    show text "Возможно, мне стоило остановить ее на трех стаканах...\n... Но я не хотел пропустить это шоу." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Возможно, мне стоило остановить её на трех стаканах...\n... Но я не хотел пропустить это шоу." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -65,7 +65,7 @@ label guitar_hero_minigame_karaoke_pass:
     player_name "Черт девченка, ты жжешь!"
     show player 83c
     show eve 17
-    eve "Спасибо! Я думаю - * ик * я думаю, что это не так уж плохо петь перед другими."
+    eve "Спасибо! Я думаю - *ик* я думаю, что это не так уж плохо петь перед другими."
     show eve 16
     show player 83b
     player_name "Это значит, что ты будешь петь в шоу талантов?!"
@@ -85,13 +85,13 @@ label guitar_hero_minigame_karaoke_pass:
     show eve 17c with dissolve
     eve "Ахахаха!"
     show eve 17 with dissolve
-    eve "Упс. Наверное, я - * ик * думаю, я увлеклась..."
+    eve "Упс. Наверное, я - *ик* думаю, я увлеклась..."
     show eve 15 with dissolve
     show erik 58f
     eri "Хех, все в порядке. Мы не против."
     show erik 57f
     show eve 2b
-    eve "Ох, конечно *ик* {b}Erik's{/b} конечно..."
+    eve "Ох, конечно *ик* {b}Эрик{/b} конечно..."
     show eve 4 with dissolve
     eve "Я совершенно забыла, хехехе."
     show eve 3
@@ -101,14 +101,14 @@ label guitar_hero_minigame_karaoke_pass:
     show player 83c
     show eve 2
     with dissolve
-    eve "О, такой ... * ик *настоящий джентльмен!"
-    eve "Я просто напишу своей сестре * ик * она меня заберет."
+    eve "О, такой ... *ик* настоящий джентльмен!"
+    eve "Я просто напишу своей сестре *ик* она меня заберет."
     show eve 5
     show erik 58f
     eri "Увидимся позже."
     show erik 57f
     show player 83b
-    player_name "Спасибо за вечеринку {b}Erik{/b}."
+    player_name "Спасибо за вечеринку {b}Эрик{/b}."
     show player 83c
     show eve 15 with dissolve
     eve "Да, вечеринка! Уу-хуууу!"
@@ -117,7 +117,7 @@ label guitar_hero_minigame_karaoke_pass:
     player_name "Хех, ну ты и пьяница. Пойдем домой!"
     show player 83c
     show eve 2
-    eve "Я был действительно хороша - * ик * не так ли, {b}[firstname]{/b}?"
+    eve "Я был действительно хороша - *ик* не так ли, {b}[firstname]{/b}?"
     show eve 5
     show player 83b
     player_name "Конечно."
@@ -139,7 +139,7 @@ label guitar_hero_minigame_karaoke_pass:
 label guitar_hero_minigame_talent_show_fail:
     scene assembly_hall_cs03
     with fade
-    show text "Это не было хорошим началом, и толпа становилась беспокойной...\n{b}Eve{/b} и {b}Kevin{/b} выглядели обеспокоенными, но я знал, что мы все еще можем спасти его!\nЯ дал им обоим обнадеживающий кивок и начал сверху.\nМы обязательно победим их за это время!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Это не было хорошим началом, и толпа становилась беспокойной...\n{b}Ева{/b} и {b}Кевин{/b} выглядели обеспокоенными, но я знал, что мы всё ещё можем спасти его!\nЯ дал им обоим обнадеживающий кивок и начал сверху.\nМы обязательно победим их за это время!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -159,7 +159,7 @@ label guitar_hero_minigame_talent_show_pass:
     $ persistent.cookie_jar["Dewitt"]["gallery"]["02_unlocked"] = True
     scene assembly_hall_cs02
     with fade
-    show text "Зрители были потрясены, когда мы играли нашими сердцами!\n{b}Кевин{/b} разорвал на своей гитаре и {b}Eve's{/b} ангельский голосок убаюкал их подчинил их себе!\n... Я закончил все это с причудливым соло флейты, которое заставила толпу содрогнуться!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Зрители были потрясены, когда мы играли нашими сердцами!\n{b}Кевин{/b} разорвал на своей гитаре и у {b}Евы{/b} ангельский голосок убаюкал их подчинил их себе!\n... Я закончил все это с причудливым соло флейты, которое заставила толпу содрогнуться!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -175,7 +175,7 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "Да, это было действительно потрясающе!"
     show player 554
     show kevin 18f
-    kev "Где, черт возьми, {b}Miss Dewitt{/b}?!"
+    kev "Где, черт возьми, {b}Мисс Девитт{/b}?!"
     show kevin 17f
     show player 553
     player_name "... А?"
@@ -208,12 +208,12 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "( Думаю, я положу свои волосы набок. )"
     show player 551b at Position (xoffset=6) with dissolve
     show eve 12
-    eve "Ох... Мне нравятся твои волосы.!"
+    eve "Ох... Мне нравятся твои волосы!"
     show eve 11
     show player 551d with dissolve
     pause
     show player 14 at Position (xoffset=52) with dissolve
-    player_name "Извини! Может быть,ты сможешь поправить мне прическу в следующий раз?"
+    player_name "Извини! Может быть, ты сможешь поправить мне прическу в следующий раз?"
     show player 13 at Position (xoffset=52)
     show eve 12
     eve "Все в порядке! А теперь убирайcя отсюда!"
@@ -224,7 +224,7 @@ label guitar_hero_minigame_talent_show_pass:
 
     scene assembly_hall_cs04
     with fade
-    show text "Толпа затаив дыхание ждала, когда я направлюсь на подиум.\nЯ понятия не имел, что сказать этим людям!\nКуда черт возьми подевалась {b}Мисс Dewitt{/b}?" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Толпа затаив дыхание ждала, когда я направлюсь на подиум.\nЯ понятия не имел, что сказать этим людям!\nКуда черт возьми подевалась {b}Мисс Девитт{/b}?" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -254,7 +254,7 @@ label guitar_hero_minigame_talent_show_pass:
     dewitt "Ты так рисковал отчислением, чтобы этот {b}Шоу талантов{/b} прошел без сучка и задоринки."
     show dewitt under 2
     player_name "В этом нет ничего особенного, мэм."
-    player_name "Ты действительно должны  были прийти сюда и закончить шоу!"
+    player_name "Ты действительно должны были прийти сюда и закончить шоу!"
     show dewitt under 1
     dewitt "Ну эх! Нет, пока у меня не будет шанса отблагодарить тебя, мой сладкий!"
     show dewitt under 4 with dissolve
@@ -293,11 +293,11 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "... Вы все пришли..."
     player_name "Ох чувак!!!"
     player_name "... Вы пришли поддержать нас!"
-    player_name "Давайте послушаем еще раз..."
+    player_name "Давайте послушаем ещё раз..."
     player_name "Мммм!"
-    player_name "{b}Kevin{/b} на гитаре!"
+    player_name "{b}Кевин{/b} на гитаре!"
 
-    player_name "{b}Eve{/b} по вокалу!"
+    player_name "{b}Ева{/b} по вокалу!"
     player_name "... И меня"
     player_name "Ох Иисусе...!"
     player_name "Ахх!"
@@ -307,16 +307,16 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "Также особая благодарность-"
     player_name "Бляяяя..."
     player_name "... Мс Тирону!"
-    player_name "... И конечно, же {b}Miss Dewitt{/b}!"
+    player_name "... И конечно, же {b}Мисс Девитт{/b}!"
     player_name "Которая-"
     player_name "Ахх!"
     player_name "О боже!"
-    player_name "{b}Miss Dewitt{/b}, никогда не подводит..."
+    player_name "{b}Мисс Девитт{/b}, никогда не подводит..."
     player_name "... Выкачивает каждый..."
     player_name "... Последний..."
     dewitt "{b}*Хлюп*{/b}"
     player_name "... Талант..."
-    player_name "... Из ее учеников!"
+    player_name "... Из её учеников!"
     player_name "Я хочу..."
     player_name "Я СОБИРАЮСЬ!!!"
     hide screen dewitt_bj_options
@@ -344,7 +344,7 @@ label guitar_hero_minigame_talent_show_pass:
     show dewitt bj 7
     pause
     dewitt "МММ, вкусно!"
-    dewitt "Еще раз спасибо, сладкий!"
+    dewitt "Ещё раз спасибо, сладкий!"
     dewitt "!!!"
 
     scene assembly_hall_podium_c
@@ -366,7 +366,7 @@ label guitar_hero_minigame_talent_show_pass:
 
     scene assembly_hall_cs07
     with fade
-    show text "Когда я закончил свою речь. Я заметил очень странную пару, входящую в зал.\nСудя по всему это {b}Директриса Smith{/b} и {b}Annie{/b} которые сумели освободиться все-таки.\nСудя по их состоянию, это было нелегко!\nОни не задержались на долго... Повернувшись, чтобы уйти в тот момент, когда они поняли, что их избили." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Когда я закончил свою речь. Я заметил очень странную пару, входящую в зал.\nСудя по всему это {b}Директриса Смит{/b} и {b}Энни{/b} которые сумели освободиться все-таки.\nСудя по их состоянию, это было нелегко!\nОни не задержались на долго... Повернувшись, чтобы уйти в тот момент, когда они поняли, что их избили." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -376,7 +376,7 @@ label guitar_hero_minigame_talent_show_pass:
     show player 13 at left
     show eve 12 at Position (xpos=450)
     with dissolve
-    eve "Хахахаха!! Ты видел, что подушка прилипла к {b}Annie{/b}?!"
+    eve "Хахахаха!! Ты видел, что подушка прилипла к {b}Энни{/b}?!"
     eve "Это было самое смешное, что я когда-либо видела в жизни!"
     show eve 11
     show kevin 18f
@@ -419,7 +419,7 @@ label guitar_hero_minigame_talent_show_pass:
     dewitt "... Для публичных выступлений."
     show dewitt 18f
     show eve 12f
-    eve "Эй, ребята, хотите отпраздновать?! ... Перекусить или еще что-нибудь?"
+    eve "Эй, ребята, хотите отпраздновать?! ... Перекусить или ещё что-нибудь?"
     show eve 11f
     show kevin 18
     kev "Я вниз!"
@@ -431,7 +431,7 @@ label guitar_hero_minigame_talent_show_pass:
     eve "{b}[firstname]{/b}?"
     show eve 11
     show player 14
-    player_name "Мне тоже придется отказаться. Я довольно сильно устала."
+    player_name "Мне тоже придется отказаться. Я довольно сильно устал."
     show player 13
     show eve 12
     eve "Ой! Ну же!"
@@ -450,12 +450,12 @@ label guitar_hero_minigame_talent_show_pass:
     hide eve
     with dissolve
     show dewitt 9bf at Position (xoffset=-73) with dissolve
-    dewitt "Я просто хотел поблагодарить тебя еще раз за все, {b}[firstname]{/b}."
+    dewitt "Я просто хотел поблагодарить тебя ещё раз за все, {b}[firstname]{/b}."
     show dewitt 9df at Position (xoffset=-73)
     dewitt "если бы не этот {b}Шоу Талантов{/b} ничего бы не случилось без твоей помощи."
     show dewitt 1bf at Position (xoffset=-73)
     show player 14
-    player_name "С удовольствием, {b}Miss Dewitt{/b}."
+    player_name "С удовольствием, {b}Мисс Девитт{/b}."
     show player 13
     show dewitt 9bf at Position (xoffset=-73)
     dewitt "Я решила поставить тебе пятерку в классе."
