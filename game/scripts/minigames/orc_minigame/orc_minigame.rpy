@@ -30,7 +30,7 @@ label orc_battle_finish:
             player_name "Нет, все в порядке!"
             show june_sitting 12
             show player_sitting 5
-            june "Ты все еще думаешь, что это странно?"
+            june "Ты все ещё думаешь, что это странно?"
             show june_sitting 13
         else:
 
@@ -70,7 +70,7 @@ label orc_battle_finish:
                 show player_sitting 1
                 show june_sitting 12
                 june "Извини... Если бы я только знала..."
-                june "Ты все еще хочешь поиграть со мной в эту игру?"
+                june "Ты все ещё хочешь поиграть со мной в эту игру?"
                 show player_sitting 2
                 show june_sitting 13
                 player_name "Да, это весело!"
