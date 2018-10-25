@@ -18,7 +18,7 @@ init python:
         while i < 2:
             random_card = renpy.random.choice(deck)
             hand.append(random_card)
-            deck.remove(random_card)    
+            deck.remove(random_card)
             i += 1
 
     def reveal_card(deck, table):
@@ -69,7 +69,7 @@ init python:
             for Card in re_hand:
                 if Card.kind == "diamond":
                     c_list.append(Card)
-        
+
         allftypes = set([Card.number for Card in c_list])
         ordered = sorted(allftypes)
         if len(allftypes) >= 5:
@@ -136,7 +136,7 @@ init python:
         return False
 
     def straight(re_hand, allfaces):
-        
+
         allftypes = set(allfaces)
         ordered = sorted(allftypes)
         if len(allftypes) >= 5:
@@ -166,7 +166,7 @@ init python:
         return False
 
     def threeofakind(re_hand, allfaces):
-        
+
         allftypes = set(allfaces)
         if len(allftypes) <= 2:
             return False
@@ -175,14 +175,14 @@ init python:
                 return True
 
     def twopair(re_hand, allfaces):
-        
+
         pairs = [Card.number for Card.number in allfaces if allfaces.count(Card.number) == 2]
         if len(pairs) != 4 and len(pairs) != 6:
             return False
         return True
 
     def onepair(re_hand, allfaces):
-        
+
         pairs = [Card.number for Card.number in allfaces if allfaces.count(Card.number) == 2]
         if len(pairs) != 2:
             return False
@@ -339,8 +339,8 @@ label start_poker:
         table = []
         deck = [heart_1, heart_2, heart_3, heart_4, heart_5, heart_6, heart_7, heart_8, heart_9, heart_10, heart_11, heart_12, heart_13,
                 diamond_1, diamond_2, diamond_3, diamond_4, diamond_5, diamond_6, diamond_7, diamond_8, diamond_9, diamond_10, diamond_11, diamond_12, diamond_13,
-                club_1, club_2, club_3, club_4, club_5, club_6, club_7, club_8, club_9, club_10, club_11, club_12, club_13, 
-                spade_1, spade_2, spade_3, spade_4, spade_5, spade_6, spade_7, spade_8, spade_9, spade_10, spade_11, spade_12, spade_13] 
+                club_1, club_2, club_3, club_4, club_5, club_6, club_7, club_8, club_9, club_10, club_11, club_12, club_13,
+                spade_1, spade_2, spade_3, spade_4, spade_5, spade_6, spade_7, spade_8, spade_9, spade_10, spade_11, spade_12, spade_13]
 
         mia_cloth = [mia_item01, mia_item02, mia_item03, mia_item04, mia_item05, mia_item06]
         mia_cloth_active = [mia_item01, mia_item02, mia_item03, mia_item04, mia_item05, mia_item06]
@@ -409,8 +409,8 @@ label next_round:
         table = []
         deck = [heart_1, heart_2, heart_3, heart_4, heart_5, heart_6, heart_7, heart_8, heart_9, heart_10, heart_11, heart_12, heart_13,
                 diamond_1, diamond_2, diamond_3, diamond_4, diamond_5, diamond_6, diamond_7, diamond_8, diamond_9, diamond_10, diamond_11, diamond_12, diamond_13,
-                club_1, club_2, club_3, club_4, club_5, club_6, club_7, club_8, club_9, club_10, club_11, club_12, club_13, 
-                spade_1, spade_2, spade_3, spade_4, spade_5, spade_6, spade_7, spade_8, spade_9, spade_10, spade_11, spade_12, spade_13] 
+                club_1, club_2, club_3, club_4, club_5, club_6, club_7, club_8, club_9, club_10, club_11, club_12, club_13,
+                spade_1, spade_2, spade_3, spade_4, spade_5, spade_6, spade_7, spade_8, spade_9, spade_10, spade_11, spade_12, spade_13]
 
         player_cloth = [player_item01, player_item02, player_item03, player_item04, player_item05, player_item06]
         player_cloth_active = player_cloth_removed[:]
@@ -1352,7 +1352,7 @@ label cloth_remove:
             mrsjo "Хорошо, ты меня раскусила!!"
             show erik 5
             show mrsj 27f at Position(xpos=-1)
-            eri "* ик * Ты совершенно голая., {b}Миссис Джонсон{/b}."
+            eri "*ик* Ты совершенно голая, {b}Миссис Джонсон{/b}."
             show erik 1
             show mrsj 28f at Position(xpos=0)
             mrsjo "Ну, разве не в этом смысл вашей маленькой игры, мальчики?"
@@ -1393,7 +1393,7 @@ label cloth_remove:
         show player 1
         eri "{b}*ик*{/b} Я не знаю!"
         show erik 3b
-        eri "Что ты думаешь, {b}* ик *{/b} мы должны это сделать?"
+        eri "Что ты думаешь, {b}*ик*{/b} мы должны это сделать?"
         show erik 1
         show player 4
         menu:
@@ -1410,7 +1410,7 @@ label cloth_remove:
                 player_name "Мы должны увидеть, чего она хочет..."
                 show erik 4
                 show player 1
-                eri "Ладно,* ик * пойдем навестим ее."
+                eri "Ладно, *ик* пойдем навестим её."
                 hide erik
                 hide player
                 with dissolve
@@ -1420,18 +1420,18 @@ label cloth_remove:
                 $ M_erik.place(place = L_erikhouse_basement_backroom)
                 $ player.go_to(L_erikhouse_basement)
 
-            "Go home." if mrsj.over(mrsj_poker_night):
+            "Идти домой." if mrsj.over(mrsj_poker_night):
                 show player 10 at left
                 player_name "Вообще-то, я думаю, мне стоит пойти домой... Я не очень хорошо себя чувствую."
                 show player 5
                 show erik 4
-                eri "Да... Я думаю * ик *, мы все слишком много выпили..."
+                eri "Да... Я думаю *ик*, мы все слишком много выпили..."
                 show player 10
                 show erik 1
                 player_name "Скажите {b}Миссис Джонсон{/b}, Извините."
                 show player 5
                 show erik 4
-                eri "Я * ик * буду."
+                eri "Я *ик* буду."
                 eri "Увидимся завтра?"
                 show player 10
                 show erik 1
