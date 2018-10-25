@@ -41,11 +41,11 @@ label dexter_fight_minigame_prepare:
     rox "Ничего, всё хорошо"
     rox "Я понимаю, о чем ты говоришь."
     rox "Я просто немного волнуюсь."
-    rox "Ты лучше всех знаешь, что {b}Декстер{/b} с тех пор, как мы расстались, он становится все более агрессивным."
+    rox "Ты лучше всех знаешь, что {b}Декстер{/b} с тех пор, как мы расстались, становится все более агрессивным."
     show roxxy 32
     becca "..."
     show roxxy 33
-    rox "Если {b}Декстер{/b} подумает, что я встречаюсь с {b}[firstname]{/b}... Кто знает, что он сделает? "
+    rox "Если {b}Декстер{/b} узнает, что я встречаюсь с {b}[firstname]{/b}... Кто знает, что он сделает? "
     show roxxy 32
     show missy 1b
     missy "... Ты встречаешься, {b}[firstname]{/b}?"
@@ -130,7 +130,7 @@ label dexter_fight_minigame_prepare:
     show roxxy 4
     rox "Хех, да я знаю."
     show roxxy 2
-    rox "Во-первых мы болжны выяснить ситуацию с {b}Декстером{/b}"
+    rox "Во-первых мы должны выяснить ситуацию с {b}Декстером{/b}."
     show roxxy 2b
     dex "Вот шлюха!" with hpunch
     show becca 19
@@ -280,7 +280,7 @@ label dexter_fight_minigame_prepare:
     show roxxy 3bf
     show dexter 15 with dissolve
     dex "Я так не думаю...."
-    dex "Никто не смеет бростать меня!"
+    dex "Никто не смеет бросать меня!"
     dex "Я научу тебя меня уважать-"
     show dexter 14
     show player 15 at Position (xpos=500) with dissolve
@@ -389,7 +389,7 @@ label dexter_fight_success(dexter_health):
     becca "Вот дерьмо!"
     show becca 5f
     show missy 4f
-    missy "ПОКОНЧИМ С НИМ!"
+    missy "ПОКОНЧИ С НИМ!"
     show missy 4bf
     show roxxy 59b
     player_name "..."
@@ -417,11 +417,11 @@ label dexter_fight_success(dexter_health):
     show dexter 49
     dex "Тссс! Я, блядь, услышал тебя, хорошо?!"
     dex "Но это ещё не конец, {b}[firstname]{/b}!"
-    dex "Я не знаю, кто научил тебя всему этому ниндзя-дерьму, но ты не слышал меня в последний раз!"
+    dex "Я не знаю, кто научил тебя всему этому ниндзя-дерьму, но это не последний раз!"
     show dexter 48
     show roxxy 59c
     player_name "Все нормально."
-    player_name "Если хочешь ещё раз надрать задницу, я буду рад помочь."
+    player_name "Если хочешь чтобы тебе надрали задницу ещё раз, я буду рад помочь."
     player_name "... Но если я еще раз увижу, как ты угрожаешь {b}Рокси{/b} и её друзьям... Ты так просто не отделаешься!"
     show roxxy 59b
     show dexter 47 with dissolve
@@ -456,7 +456,7 @@ label dexter_fight_success(dexter_health):
     show roxxy 59e
     player_name "Хех, да?"
     show roxxy 59d
-    rox "Полностью!"
+    rox "ДА!"
     rox "Я хочу сорвать с тебя эту одежду прямо сейчас!"
     show roxxy 59e
     player_name "... Ты что?!"
@@ -480,7 +480,7 @@ label dexter_fight_success(dexter_health):
     smi "Мне напомнить вам, дети, что в этой школе строго запрещено публичное выражение чувств?!"
     show principal 26
     show player 10
-    player_name "Не надо мэм."
+    player_name "Не надо, мэм."
     show player 5
     show roxxy 33f
     rox "Простите, {b}Миссис Смит{/b}..."
@@ -509,7 +509,7 @@ label dexter_fight_success(dexter_health):
     smi "Всё, хватит!"
     show missy 3
     show roxxy 2bf
-    smi "Вы оба ко мне в кабинет быстро!"
+    smi "Вы обе ко мне в кабинет быстро!"
     show principal 29
     show becca 20
     becca "Вот блин..."
@@ -523,7 +523,7 @@ label dexter_fight_success(dexter_health):
     smi "Что касается вас двоих, вам лучше пойти в класс, если Вы не хотите присоединиться к ним?!"
     show principal 29 with dissolve
     show roxxy 33f
-    rox "Да, мэм"
+    rox "Да, мэм."
     show roxxy 32f
     show player 10
     player_name "Пошли!"
@@ -537,7 +537,7 @@ label dexter_fight_success(dexter_health):
     show roxxy 1g
     show player 14
     player_name "Это точно."
-    player_name "Но нам лучше пойти на занятия.."
+    player_name "Но нам лучше пойти на занятия."
     show player 13
     show roxxy 1b
     rox "{b}*Вздыхая*{/b} Да, ты прав."
