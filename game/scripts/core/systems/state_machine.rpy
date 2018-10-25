@@ -8,17 +8,17 @@ init python:
                 if s in s_notin_m:
                     s_notin_m.remove(s)
         if s_notin_m:
-            raise OrphanedStateException("Orphaned States: {}".format(s_notin_m))
+            raise OrphanedStateException("Осиротевшие Государства: {}".format(s_notin_m))
 
     def instantiate_machines():
         store.machines = {}
         for m in Machine.get_instances():
             store.machines[m._name] = m
-        
+
         store.triggers = {}
         for t in Trigger.get_instances():
             store.triggers[t._name] = t
-        
+
         store.states = {}
         for s in State.get_instances():
             store.states[s._name] = s
@@ -37,10 +37,10 @@ init python:
                             for temp_s in store.temp_machines[m]._cleared_states:
                                 if s._name == temp_s._name:
                                     store.machines[m]._cleared_states[s] = s
-                        
+
                         for var in store.temp_machines[m]._vars:
                             store.machines[m]._vars[var] = store.temp_machines[m]._vars[var]
-                
+
                 if store.temp_machines[m]._default_locations:
                     store.machines[m]._default_locations = store.temp_machines[m]._default_locations
                     for array_1d_index, array_1d in enumerate(store.temp_machines[m]._default_locations):
@@ -54,7 +54,7 @@ init python:
                                 store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations[array_2d.name.lower()]
                             else:
                                 store.machines[m]._default_locations[array_1d_index][array_2d_index] = None
-                
+
                 if store.temp_machines[m]._force_locations:
                     store.machines[m]._force_locations = store.temp_machines[m]._force_locations
                     for array_1d_index in store.temp_machines[m]._force_locations:
@@ -69,10 +69,10 @@ init python:
                                     store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations[array_3d.name.lower()]
                                 else:
                                     store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = None
-                
+
                 if store.temp_machines[m]._force_loc:
                     store.machines[m]._force_loc = store.temp_machines[m]._force_loc
-                
+
                 if store.temp_machines[m]._location_condition:
                     store.machines[m]._location_condition = store.temp_machines[m]._location_condition
         return
@@ -98,11 +98,11 @@ init python:
             ['exec', callable], calls the callable (function or method)
             ['exec', [callable, *args]], calls the callable and pass in the args specified
                             forced.
-            ['condition', [condition_string, actions_list_true, actions_list_false, (optional) machine]], 
+            ['condition', [condition_string, actions_list_true, actions_list_false, (optional) machine]],
                             executes the actions in actions_list_true
                             if condition_string evaluates to True, otherwise executes actions_list_false.
         """
-        
+
         act = act.lower()
         if act == 'set':
             machine.set(target,True)
@@ -157,9 +157,9 @@ init python:
                 if callable(target[0]):
                     callable(*target[1])
                 else:
-                    raise Exception("{} is not a callable object to exec in {}".format(target, self._name))
+                    raise Exception("{} не вызываем(callable) объект для запуска в {}".format(target, self._name))
             else:
-                raise Exception("{} is not a callable object to exec in {}".format(target, self._name))
+                raise Exception("{} не вызываем(callable) объект для запуска в {}".format(target, self._name))
         elif act == 'unforce':
             if target is None:
                 machine.unforce()
@@ -190,7 +190,7 @@ init python:
                     target = actions[i+1]
                     process_action(m, act, target)
         else:
-            raise Exception("{} unknown action: {} on {}".format(self._name, act,target))
+            raise Exception("{} неизвестное действие: {} в {}".format(self._name, act,target))
 
     class Trigger(KeepRefs):
         """A Trigger is just a place holder used for the FSM
@@ -202,10 +202,10 @@ init python:
             super(Trigger,self).__init__()
             self._name = name
             self._desc = description
-        
+
         def __repr__(self):
             return "{}: {}".format(self._name, self._desc)
-        
+
         def fire(self, blank=False):
             for m in store.machines:
                 m = store.machines[m]
@@ -223,44 +223,44 @@ init python:
         setting, clearing, assigning, or generating one or more new
         Triggers.
         """
-        def __init__(self, name, description = "Hints coming later..."):
+        def __init__(self, name, description = "Подсказки будут позже..."):
             super(State,self).__init__()
             self._name = name
             self.description = description
             self._table = {}
             self._actions = {}
-        
+
         def __repr__(self):
             return "{}: {}".format(self._name,self.description)
-        
+
         def __str__(self):
             return self._name.replace(" ", "_").strip("'").lower()
-        
+
         def dump(self):
             result = ""
             for t in self._table:
                 result += str(t)+"\n"
             return result
-        
-        
-        
-        
+
+
+
+
         def add(self, trigger, state, actions = None):
             if state in self._table:
-                raise DuplicateStateAddedException(message="Duplicate State added : state name : "+self._name)
+                raise DuplicateStateAddedException(message="Добавлено повторяющееся состояние: имя состояния : "+self._name)
             self._table[trigger] = state
             if actions:
                 self._actions[trigger] = actions
             else:
                 self._actions[trigger] = []
-        
-        
-        
-        
+
+
+
+
         def trigger(self, trigger, machine, noactions):
             if trigger in self._table:
-                
-                
+
+
                 if not noactions:
                     actions = self._actions[trigger]
                     for i in xrange(0,len(actions)-1,2):
@@ -272,10 +272,10 @@ init python:
                 return self._table.keys()[0], self._table[self._table.keys()[0]]
             else:
                 return None
-        
+
         def get_actions(self,trigger):
             return self._actions[trigger]
-        
+
         @property
         def is_end_state(self):
             return not self._table
@@ -299,11 +299,11 @@ init python:
             else:
                 self._vars = {}
             self._state = None
-            
+
             self._force_loc = LastUpdatedOrderedDict()
             self._force_loc[self._name] = [False, False, False, False]
             self.set_default_locations(default_loc)
-            
+
             self._force_locations = LastUpdatedOrderedDict()
             self._force_locations[self._name] = [[None, None, None, None]]*7
             self._location_condition = LastUpdatedOrderedDict()
@@ -311,23 +311,23 @@ init python:
             self.priority = 0
             self.triggers = [var for name, var in globals().items() if name.startswith("T_"+self._name.lower())]
             self._trigger_index = 0
-        
+
         def __repr__(self):
             if self._state is None:
                 state = "NOT INITIALIZED"
             else:
                 state = self._state._name
             if self.forced:
-                return "{}@{} forced at {}. Progress : {}%".format(self._name, state, self.where, self.progress)
+                return "{}@{} вынужден на {}. Прогресс : {}%".format(self._name, state, self.where, self.progress)
             else:
-                return "{}@{} at {}. Progress : {}%".format(self._name, state, self.where, self.progress)
-        
+                return "{}@{} на {}. Прогресс : {}%".format(self._name, state, self.where, self.progress)
+
         def __str__(self):
             return self._name.replace(" ", "_").strip("'").lower()
-        
+
         def set_priority(self, priority):
             self.priority = priority
-        
+
         def set_default_locations(self, locations):
             if len(locations) == 1:
                 self._default_locations = [locations[0]]*7
@@ -337,34 +337,34 @@ init python:
             elif len(locations) == 7:
                 self._default_locations = locations
             else:
-                raise SummertimeSagaInitException("location attribute must be a matrix of 1x4, 2x4 or 7x4")
-        
+                raise SummertimeSagaInitException("атрибут location должен быть матрицей из 1x4, 2x4 or 7x4")
+
         @property
         def progress(self):
             if len(self._states) != 0:
                 return int(round(float(len(self._cleared_states))/float(len(self._states))*100, 0))
             else:
                 return 0
-        
+
         def dump(self):
             vlist = ""
             for k, v in self._vars.iteritems():
                 vlist += "\n{}:{}".format(k, v)
-            loc = "Location: {} Forced: {}\n".format(self.where, self._force_loc)
+            loc = "Расположение: {} Вынужденный: {}\n".format(self.where, self._force_loc)
             return self._state.dump() + loc + vlist
-        
+
         def add_action(self, *args):
             args = list(args)
-            actions = args.pop() 
-            for trigger in args: 
+            actions = args.pop()
+            for trigger in args:
                 try:
                     act = self._actions[trigger]
                 except KeyError:
                     act = []
-                act.extend(actions) 
+                act.extend(actions)
                 self._actions[trigger] = act
             pass
-        
+
         @classmethod
         def machine_trigger(self, trigger):
             for m_name, m in store.machines.items():
@@ -376,7 +376,7 @@ init python:
                     act = actions[i].lower()
                     target = actions[i + 1]
                     process_action(m, act, target)
-        
+
         def advance(self):
             result = None
             if self._state is not None:
@@ -389,71 +389,71 @@ init python:
                 self._trigger_queue.append(trigger)
                 self._cleared_states[self._state] = self._state
                 self._state = state
-        
+
         @classmethod
         def trigger(cls, trigger, noactions=False):
             if trigger not in cls._trigger_queue:
                 cls._trigger_queue.append(trigger)
                 cls._do_trigger(noactions)
-        
+
         @classmethod
         def _do_trigger(cls, noactions=False):
-            
+
             if cls._running:
                 return
             cls._running = True
             while len(cls._trigger_queue) > 0:
                 trigger = cls._trigger_queue[0]
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
                 for m in store.machines:
                     m = store.machines[m]
-                    
+
                     result = None
                     if m.get_state() is not None:
                         result = m.get_state().trigger(trigger, m, noactions)
                     if result is not None:
-                        
+
                         m._cleared_states[m._state] = m._state
-                        
+
                         m._state = result
                 cls._trigger_queue = cls._trigger_queue[1:]
             cls._running = False
-        
+
         def add(self,*args):
             for s in args:
                 if self._state is None:
                     self._state = s
                 self._states[s] = s
-        
+
         def get(self,var):
             return self._vars[var]
-        
+
         def set(self,var,value):
             self._vars[var] = value
-        
+
         def toggle(self,flag):
             if self._vars[flag]:
                 self._vars[flag] = False
             else:
                 self._vars[flag] = True
-        
+
         def increment(self,var,amount):
             self._vars[var] += amount
-        
+
         def get_state(self):
             return self._state
-        
+
         def is_set(self,flag):
             return self._vars[flag]
-        
+
         def triggerOnZero(self,target,trigger):
             if target in self._vars:
                 r = self._vars[target]-1
@@ -464,8 +464,8 @@ init python:
             self._vars[target] = r
             if r <= 0:
                 self.trigger(trigger)
-        
-        def place(self, tod=None, dow=None, place=None, condition=None, machine=None): 
+
+        def place(self, tod=None, dow=None, place=None, condition=None, machine=None):
             m = machine or self
             new_force_locations = [[None, None, None, None]]*7
             if tod is None and dow is None:
@@ -478,7 +478,7 @@ init python:
                     elif len(place) == 7:
                         new_force_locations = place
                     else:
-                        raise SummertimeSagaInitException("location attribute must be a matrix of 1x4, 2x4 or 7x4")
+                        raise SummertimeSagaInitException("атрибут location должен быть матрицей 1x4, 2x4 or 7x4")
                 else:
                     new_force_locations = [[place]*4]*7
             elif tod is None and dow is not None:
@@ -515,10 +515,10 @@ init python:
                         new_force_locations[d][t] = place
             self._location_condition[m._name] = condition
             self._force_locations[m._name] = copy(new_force_locations)
-        
+
         def force(self, tod=None, flag=True, machine = None):
             m = machine or self
-            new_force = [False, False, False, False] 
+            new_force = [False, False, False, False]
             if isinstance(flag, list) and len(flag) == 4:
                 new_force = flag
                 self._force_loc[m._name] = copy(new_force)
@@ -533,14 +533,14 @@ init python:
                 new_force[current_tod] = flag
             self._force_loc[m._name] = copy(new_force)
             return
-        
+
         def unforce(self, machine = None):
             m = machine or self
             if m is self:
                 self._force_loc[self._name] = [False, False, False, False]
                 self._force_locations[self._name] = [[None, None, None, None]]*7
                 self._location_condition[self._name] = None
-            
+
             else:
                 try:
                     del self._force_loc[m._name]
@@ -554,14 +554,14 @@ init python:
                     del self._location_condition[m._name]
                 except KeyError:
                     pass
-            
+
             if self._force_loc.isempty:
                 self._force_loc[self._name] = [False, False, False, False]
             if self._force_locations.isempty:
                 self._force_locations[self._name] = [[None, None, None, None]]*7
             if self._location_condition.isempty:
                 self._location_condition[self._name] = None
-        
+
         @property
         def where(self):
             global game
@@ -583,16 +583,16 @@ init python:
                 if game.in_shower._name == self._name and _loc in L_home.get_all_children():
                     _loc = L_home_shower
             return _loc
-        
+
         @property
         def forced(self):
             return self._force_loc[self._name][game.timer._tod]
-        
+
         def between_states(self, beginning_state, *end_states):
             if len(end_states) == 1:
                 end_states = end_states[0]
                 try:
-                    s = iter(end_states) 
+                    s = iter(end_states)
                 except TypeError:
                     if isinstance(end_states, State):
                         return ((beginning_state == self._state or beginning_state in self._cleared_states) and end_states not in self._cleared_states)
@@ -611,12 +611,12 @@ init python:
                             return False
                     return True
                 return False
-        
+
         def finished_state(self, *states):
             if len(states) == 1:
                 states = states[0]
                 try:
-                    s = iter(states) 
+                    s = iter(states)
                 except TypeError:
                     if isinstance(states, State):
                         return (states in self._cleared_states)
@@ -632,12 +632,12 @@ init python:
                     if s not in self._cleared_states:
                         return False
                 return True
-        
+
         def is_state(self, *states):
             if len(states) == 1:
                 states = states[0]
                 try:
-                    s = iter(states) 
+                    s = iter(states)
                 except TypeError:
                     if isinstance(states, State):
                         return (self._state == states)

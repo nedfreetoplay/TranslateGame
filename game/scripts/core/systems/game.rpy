@@ -2,7 +2,7 @@ init python:
     class Telescope():
         def __init__(self, timer):
             self.randomize(timer)
-        
+
         def randomize(self, timer):
             if timer.is_morning():
                 self.erik = "telescope_erik_morning_{}".format(random.randint(1,2))
@@ -40,7 +40,7 @@ init python:
             self.animcounter = 0
             self.savegame_version = config.version
             self.mail = {}
-            self._available_mails = {"player":["m_pizza_pamphlet", "m_newspaper"], 
+            self._available_mails = {"player":["m_pizza_pamphlet", "m_newspaper"],
                                       "erik":["m_erik_package", "m_dad_letter", "m_magazine", "m_pizza_pamphlet", "m_newspaper"],
                                       "mia":["m_pizza_pamphlet", "m_newspaper"]}
             self.possibly_in_shower = []
@@ -63,7 +63,7 @@ init python:
             self.clyde_big_berta = False
             self.force_unlock_map = False
             self.new_achievements = False
-        
+
         def sleep(self):
             if self.sleep_lock:
                 raise OnSleepException()
@@ -73,57 +73,57 @@ init python:
                 global Machine
                 Machine.trigger(T_all_sleep)
                 Machine.machine_trigger(T_all_sleep)
-                
+
                 if not self.timer.is_weekend():
                     self.rump_n_cunt = random.randint(1,8)==1
                 else:
                     self.rump_n_cunt = False
-                
+
                 if M_roxxy.finished_state(S_roxxy_picnic_done):
                     self.clyde_big_berta = random.randint(1,8)==1
                 else:
                     self.clyde_big_berta = False
-                
+
                 for character, available_mail in self._available_mails.items():
                     self.mail[character] = random.choice(available_mail) if random.randint(0,4) != 0 else ""
                     if character == "erik" and self.mail[character] == "m_dad_letter":
                         self._available_mails[character].remove("m_dad_letter")
                     if self.timer.game_day() == 0 and self.mail[character] == "m_pizza_pamphlet":
                         self.mail[character] = ""
-                
+
                 possibly_in_shower = copy(self.possibly_in_shower)
                 possibly_in_shower.append(None)
                 self._in_shower = random.choice(possibly_in_shower)
-        
+
         @property
         def in_shower(self):
             if self.timer.is_morning():
                 return self._in_shower
             else:
                 return None
-        
+
         def lock_ui(self):
             self.ui_lock = True
-        
+
         def unlock_ui(self):
             self.ui_lock = False
-        
+
         def unlock_sleep(self):
             self.sleep_lock = False
-        
+
         def lock_sleep(self):
             self.sleep_lock = True
-        
+
         @property
         def ui_locked(self):
             return self.ui_lock
-        
+
         def set_rump_n_cunt(self):
             self.rump_n_cunt = True
-        
+
         def toggle_cheat_mode(self):
             self.cheat_mode = not self.cheat_mode
-        
+
         def skip_first_day(self):
             global hallway_count
             global jen
@@ -151,7 +151,7 @@ init python:
             self.unlock_ui()
             config.replay_scope["jen_char_name"] = "Дженни"
             persistent.jen_char_name = "Дженни"
-            jen = Character("Jenny", color="#ff6df0")
+            jen = Character("Дженни", color="#ff6df0")
             config.replay_scope["deb_char_name"] = "Дебби"
             persistent.deb_char_name = "Дебби"
             M_mom.trigger(T_mom_breakfast, noactions=True)
@@ -167,21 +167,21 @@ init python:
             M_mia.force(tod = 1)
             M_erik.place(place = L_erikhouse_basement)
             M_erik.force()
-            
+
             try:
                 erik.add_event(erik_intro)
             except:
                 pass
             erik_intro.finish()
             erik.complete_events(erik_intro)
-            
+
             hallway_count = 1
             shower_door_count = 1
             if quest02 not in completed_quests:
                 quest_list.append(quest02)
             if quest05 not in completed_quests:
                 quest_list.append(quest05)
-            
+
             L_school_hall.unlock(False, False)
             L_library_front.unlock(False, False)
             L_diane_yard.unlock(False, False)
@@ -196,17 +196,17 @@ init python:
             L_gym_front.unlock(False, False)
             L_pool.unlock(False, False)
             L_map.unlock(False, False)
-            
+
             self.sleep_lock = False
-            renpy.notify("Skipped the first day!!!")
+            renpy.notify("Пропустили первый день!!!")
             pass
-        
+
         def force_unlock_ui(self):
             self.force_unlock_map = True
-        
+
         def force_lock_ui(self):
             self.force_unlock_map = False
-        
+
         @classmethod
         def dialog_select(cls, label_name):
             renpy.block_rollback()
@@ -215,16 +215,16 @@ init python:
                 if lbl in renpy.get_all_labels():
                     return lbl
             return label_name
-        
+
         @classmethod
         def choose_label(cls, template):
             """
                 randomly returns a label that match the template.
-                
+
                 template is a string that is the beginning of labels strings.
             """
             return random.choice(filter(lambda x: x.startswith(template), renpy.get_all_labels()))
-        
+
         def main(self, clear_return_stack=True):
             global player
             player.earnings = 0

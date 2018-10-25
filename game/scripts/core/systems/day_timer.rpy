@@ -33,7 +33,7 @@ init python:
                 self.tod = None
             else:
                 self.tod = None
-            
+
             if isinstance(dow, int):
                 self.dow = dow
             elif isinstance(dow, str) or isinstance(dow, unicode):
@@ -52,13 +52,13 @@ init python:
                 self.timeofday = self.timeofdays[self.tod]
             else:
                 self.timeofday = ""
-        
+
         def format(self):
             return {"tod":self.timeofday.capitalize(),
                     "dow":self.weekday.capitalize(),
                     "dow_short":self.weekday_short.capitalize(),
                     }
-        
+
         def __eq__(self, date):
             if date.tod is None and date.dow is None:
                 return True
@@ -68,7 +68,7 @@ init python:
                 return self.dow == date.dow
             else:
                 return self.dow == date.dow and self.tod == date.tod
-        
+
         def advance(self):
             tod = self.tod + 1
             if tod < 4:
@@ -85,22 +85,22 @@ init python:
         _dow = 0
         _game_day = 0
         weekdays = (
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat',
-            'Sun',
+            'Пон',
+            'Вто',
+            'Сре',
+            'Чет',
+            'Пят',
+            'Суб',
+            'Вос',
             )
         weekdays_long = (
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday',
-            'Sunday',
+            'Понедельник',
+            'Вторник',
+            'Среда',
+            'Четверг',
+            'Пятница',
+            'Суббота',
+            'Воскресенье',
             )
         def __eq__(self, date):
             if date.tod is None and date.dow is None:
@@ -111,33 +111,33 @@ init python:
                 return self._dow == date.dow
             else:
                 return self._dow == date.dow and self._tod == date.tod
-        
+
         def is_morning(self):
             return self._tod == 0
-        
+
         def is_afternoon(self):
             return self._tod == 1
-        
+
         def is_evening(self):
             return self._tod == 2
-        
+
         def is_night(self):
             return self._tod == 3
-        
+
         def is_dark(self):
             return self._tod >= 2
-        
+
         def image(self, name, layer = "master"):
             if not re.search('\{}', name):
                 name = name + '{}.jpg'
             if self.is_dark():
                 name = name.replace("_day", "")
-                if self.is_evening(): 
-                    tmp = name.format("_evening") 
-                    if renpy.can_show(tmp, layer): 
-                        return tmp 
-                    if renpy.loadable(tmp): 
-                        return tmp 
+                if self.is_evening():
+                    tmp = name.format("_evening")
+                    if renpy.can_show(tmp, layer):
+                        return tmp
+                    if renpy.loadable(tmp):
+                        return tmp
                 tmp = name.format("_night")
                 if renpy.can_show(tmp, layer):
                     return tmp
@@ -154,19 +154,19 @@ init python:
                 if renpy.loadable(tmp):
                     return tmp
             return name.format("")
-        
+
         def is_weekend(self):
             return self._dow == 5 or self._dow ==6
-        
+
         def dayOfWeek(self,full=False):
             if full:
                 return self.weekdays_long[self._dow]
             else:
                 return self.weekdays[self._dow]
-        
+
         def game_day(self):
             return self._game_day
-        
+
         def tick(self,tod=None):
             if tod is not None:
                 self._tod = tod
@@ -174,20 +174,20 @@ init python:
                 if self._tod < 3:
                     self._tod += 1
             game.telescope.randomize(self)
-        
+
         def sleep(self):
             self._tod = 0
             self._dow = (self._dow +1) % 7
             self._game_day += 1
             persistent.last_game_day = self._game_day
             game.telescope.randomize(self)
-        
+
         def set_time(self, tod=None, dow=None):
             if tod is not None:
                 self._tod = tod
             if dow is not None:
                 self._dow = dow
-        
+
         def __repr__(self):
             if self._tod == 0:
                 tod = "morning"
