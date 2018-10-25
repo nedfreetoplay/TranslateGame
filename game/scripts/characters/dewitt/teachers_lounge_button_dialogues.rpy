@@ -5,7 +5,7 @@ label dewitt_dialogue_lounge_intro:
     with dissolve
     pause
     show dewittl 1 with dissolve
-    player_name "O, привет, {b}Miss DeWitt.{/b}"
+    player_name "O, привет, {b}Мисс Девитт.{/b}"
     show player 11
     show dewittl 3 with dissolve
     dewitt "{b}[firstname]{/b}? Тебе нельзя здесь находиться..."
@@ -13,7 +13,7 @@ label dewitt_dialogue_lounge_intro:
     show dewittl 2
     player_name "Да, простите."
     show player 2
-    player_name "{b}Miss Ross{/b} послала меня отыскать старые журналы."
+    player_name "{b}Мисс Росс{/b} послала меня отыскать старые журналы."
     player_name "Мы делаем коллаж!"
     show player 1
     show dewittl 3
@@ -29,7 +29,7 @@ label dewitt_dialogue_lounge_intro:
     dewitt "Это один из {b}специальных пироженых Барбары{/b}."
     show player 2
     show dewittl 2
-    player_name "Я не знал, что {b}Miss Ross{/b} умеет печь?"
+    player_name "Я не знал, что {b}Мисс Росс{/b} умеет печь?"
     show player 1
     show dewittl 3
     dewitt "Она делает ЛУЧШИЕ пирожные!"
@@ -71,7 +71,7 @@ label dewitt_dialogue_lounge_stat_pass:
     show dewittl 2
     player_name "Потрясающе!"
 
-    player_name "Спасибо, {b}Miss Dewitt{/b}! Приятного аппетита!"
+    player_name "Спасибо, {b}Мисс Девитт{/b}! Приятного аппетита!"
     show player 594
     show dewittl 1b at Position(xpos=0.965, ypos=1.0) with dissolve
     dewitt "Ох, так вкусно! Ммм..."
