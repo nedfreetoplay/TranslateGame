@@ -123,7 +123,7 @@ label button_crystal_rox8_11_evening:
     player_name "Ааа?!"
     show player 5
     show crystal 6
-    crys "О, ты новый мужчина {b}Roxxy{/b}."
+    crys "О, ты новый мужчина {b}Рокси{/b}."
     show crystal 5
     show player 12
     player_name "Н-нет, Я-"
@@ -144,7 +144,7 @@ label button_crystal_rox8_11_day:
     player_name "Ааа?!"
     show player 5
     show crystal 2
-    crys "О, ты новый мужчина {b}Roxxy{/b}."
+    crys "О, ты новый мужчина {b}Рокси{/b}."
     show crystal 1
     show player 10
     player_name "Н-нет, Я-"
@@ -159,7 +159,7 @@ label button_crystal_final_evening:
     show player 13 at left
     show crystal 6 at right
     with dissolve
-    crys "Ммм, а вот и приятный умелый человек!"
+    crys "Ммм, а вот и приятный умелый молодой человек!"
     show crystal 5
     show player 14
     player_name "А, привет {b}Кристи{/b}..."
@@ -277,7 +277,7 @@ label button_crystal_roxxys_mom:
             jump roxmom_dialogue_repeat
         "Вы выглядите такой молодой!":
             show player 12
-            player_name "Я вижу сходство, но ты выглядишь слишком молодой, чтобы быть мамой {b}Roxxy{/b}."
+            player_name "Я вижу сходство, но ты выглядишь слишком молодой, чтобы быть мамой {b}Рокси{/b}."
             show player 10
             player_name "Вы уверены что вы не сестра?"
             show player 5
@@ -295,7 +295,7 @@ label button_crystal_roxxys_mom:
             show crystal 1
             player_name "..."
             show crystal 2
-            crys "Если ты не можешь должным образом заботиться о моей девочке, тогда тебе лучше отвалить, детка."
+            crys "Если ты не можешь должным образом заботиться о моей девочке, тогда тебе лучше отвалить, малыш."
             show crystal 1
             jump roxmom_dialogue_repeat
     return
