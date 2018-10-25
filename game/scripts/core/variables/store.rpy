@@ -2,12 +2,12 @@ init python:
 
     firstname = ""
     sis_pass = ""
-    jen_name = "Jenny"
+    jen_name = "Дженни"
     jen_char_name = "Дженни"
     MC_pass = ""
-    deb_name = "Debbie"
+    deb_name = "Дебби"
     deb_char_name = "Дебби"
-    cat_name = "Pussywillow"
+    cat_name = "Киска ивы"
     pink_user = ""
     pink_pass = ""
     egay_search = ""
@@ -27,13 +27,13 @@ init python:
 
     def jenny_name(newstring):
         if newstring.strip() == "":
-            newstring = "Jenny"
+            newstring = "Дженни"
         store.jen_name = newstring
         store.jen_char_name = newstring
 
     def debbie_name(newstring):
         if newstring.strip() == "":
-            newstring = "Debbie"
+            newstring = "Дебби"
         store.deb_name = newstring
         store.deb_char_name = newstring
 
@@ -42,7 +42,7 @@ init python:
 
     def stray_cat_name(newstring):
         if newstring.strip() == "":
-            newstring = "Pussywillow"
+            newstring = "Киска ивы"
         store.cat_name = newstring
 
     def pink_channel_user(newstring):

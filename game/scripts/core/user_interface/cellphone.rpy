@@ -331,7 +331,7 @@ init python:
                     if not(achievement.hidden and locked):
                         achieve_r = renpy.render(Text(achievement.name+"\n"+achievement.description, style = "style_cellphone_achievements"), width, height, st, at)
                     else:
-                        achieve_r = renpy.render(Text("Achievement Hidden", style = "style_cellphone_achievements"), width, height, st, at)
+                        achieve_r = renpy.render(Text("Достижение скрыто", style = "style_cellphone_achievements"), width, height, st, at)
                 if self.y_start <= self.positions[i][1] <= 440:
                     render.blit(achieve_image_r, self.positions[i])
                     render.blit(achieve_r, (self.positions[i][0]+50, self.positions[i][1]+8))

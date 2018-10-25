@@ -46,7 +46,7 @@ screen kitchen:
 
 screen deb_name_input:
     add NameInputText("boxes/popup_name_debbie.png", deb_name, "b96dff")
-    add Input(size = 24, color = "#b96dff", default = "", changed = debbie_name, length = 12, xpos = 313, ypos = 329, allow = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    add Input(size = 24, color = "#b96dff", default = "", changed = debbie_name, length = 12, xpos = 313, ypos = 329, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 
