@@ -13,7 +13,7 @@ label ivy_button_dialogue:
             call expression game.dialog_select("button_ivy_massage")
             call screen pamphlet
 
-        "Пакет." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
+        "Коробка." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
             call expression game.dialog_select("button_ivy_package")
             $ player.get_item("package")
         "Просто шопинг.":
