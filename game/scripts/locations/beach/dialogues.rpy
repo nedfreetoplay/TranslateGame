@@ -151,7 +151,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show becca bikini 6
     becca "!!!"
     becca "ООО Бог мой!"
-    becca "Это же {b}Золотой Шваггер{/b}!!!?"
+    becca "Это же {b}GoldSchwagger{/b}!!!?"
     show player 654f
     player_name "... Д-да?"
     show player 654bf
@@ -192,7 +192,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     hide roxxy
     show becca bikini 8
     with dissolve
-    becca "Не могу поверить, что он принес мне {b}Золотой Шваггер{/b}!"
+    becca "Не могу поверить, что он принес мне {b}GoldSchwagger{/b}!"
     hide becca with dissolve
     becca "{b}Декстер{/b} всегда забывал!"
     show player 17f
@@ -914,7 +914,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     rox "Хмм?"
     show roxxy sitting 2
     show missy sitting 7
-    missy "Твой черед!"
+    missy "Твой черёд!"
     show missy sitting 8
     show roxxy sitting 3
     rox "Ой, прости..."
@@ -1252,7 +1252,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     player_name "Спасибо за прекрасный вечер дамы!"
     show player 13f
     show becca bikini 10
-    becca "Спасибо за {b}Золотой Шваггер, [firstname]{/b}!"
+    becca "Спасибо за {b}GoldSchwagger, [firstname]{/b}!"
     show becca bikini 9
     show player 14f
     player_name "Хех, незачто!"
@@ -1952,7 +1952,7 @@ label beach_cabin_roxxy_has_oil:
     show player 13 at left
     with dissolve
     show tstand 19
-    Terry "Я так понимаю, все идет хорошо?"
+    Terry "Я так понимаю, всё идет хорошо?"
     show tstand 19d
     show player 10
     player_name "А?"
