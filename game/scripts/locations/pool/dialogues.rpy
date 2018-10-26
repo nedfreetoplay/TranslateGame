@@ -47,7 +47,7 @@ label pool_cassie_after_fun:
         show player 53f
     else:
         show player 13
-    ron "Ты целый час провел вместе с {b}Cassie{/b} в мед комнате."
+    ron "Ты целый час провел вместе с {b}Кэсси{/b} в мед. комнате."
     show ronda 10
     if wearing_swimsuit:
         show player 45
@@ -59,7 +59,7 @@ label pool_cassie_after_fun:
         show player 53f
     else:
         show player 13
-    ron "Это твое представление:Знаешь, ты просто ослепил всех своим... стоячим..."
+    ron "Это твое представление: Знаешь, ты просто ослепил всех своим... стоячим..."
     show ronda 10
     if wearing_swimsuit:
         show player 45
@@ -71,7 +71,7 @@ label pool_cassie_after_fun:
         show player 51f
     else:
         show player 11
-    ron "Все знают, что {b}Cassie{/b} тянет всех понравившихся ей парней в мед комнату!!!"
+    ron "Все знают, что {b}Кэсси{/b} тянет всех понравившихся ей парней в мед. комнату!!!"
     show ronda 10
     if wearing_swimsuit:
         show player 45
@@ -83,7 +83,7 @@ label pool_cassie_after_fun:
         show player 51f
     else:
         show player 11
-    ron "{b}OMG{/b}! Перестань косить под дурачка!"
+    ron "{b}ОМГ{/b}! Перестань косить под дурачка!"
     ron "Тебе не кажется, что она просто возбудилась при виде твоего {b}огромного{/b} члена?!"
     ron "Только поэтому она и повела тебя {b}к себе{/b}!!!"
     show ronda 10
@@ -193,7 +193,7 @@ label poolrules01_dialogue_after:
     else:
         show player 29
     show cassie 4
-    player_name "Простите, я тут впервые "
+    player_name "Простите, я тут впервые."
     if wearing_swimsuit:
         show player 51f
     else:
@@ -201,7 +201,7 @@ label poolrules01_dialogue_after:
     show cassie 2
     cas "Просто воспользуйся одной из {b}трех раздевалок{/b}..."
     show cassie 3
-    cas "...И если у тебя нет {b}плавок{/b}, я не смогу тебя впустить!"
+    cas "...И если у тебя нет {b}плавок{/b}, я не смогу тебя пустить!"
     show cassie 4
     if wearing_swimsuit:
         show player 50f
@@ -236,7 +236,7 @@ label poolrules02_dialogue:
     else:
         show player 29
     show cassie 4
-    player_name "Оу, эй, {b}Cassie{/b}!"
+    player_name "Оу, эй, {b}Кэсси{/b}!"
     player_name "Прости, я забыл!"
     if wearing_swimsuit:
         show player 51f
@@ -710,7 +710,7 @@ label medic_room_dialogue_count_1:
     cas "Только не говори никому"
     show cassie 53
     show player 50
-    player_name "...конечно {b}Cassie{/b}!"
+    player_name "...конечно {b}Кэсси{/b}!"
     show cassie 55
     show player 52
     cas "Отлично, ещё увидимся... мой большой парень!"
@@ -732,7 +732,7 @@ label medic_room_dialogue_count_2:
         show player 49
     else:
         show player 14f
-    player_name "Хей, {b}Cassie{/b}!"
+    player_name "Привет, {b}Кэсси{/b}!"
     show cassie 52
     if wearing_swimsuit:
         show player 51
