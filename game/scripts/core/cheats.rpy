@@ -46,7 +46,7 @@ init 10 python:
         for loc in store.locations:
             if store.locations[loc].name.lower() == name:
                 return loc
-        raise Exception("Location with this name not found... None is returned.")
+        raise Exception("Location с этим именем не найдено... None было возвращено.")
         return None
 
     def get_machine_by_name(name):
@@ -54,7 +54,7 @@ init 10 python:
         for machine in store.machines:
             if machine._name.lower() == name:
                 return machine
-        raise Exception("Machine with this name not found... None is returned.")
+        raise Exception("Machine с этим именем не найдена... None было возвращено.")
         return None
 
     def get_all_locations():
@@ -76,60 +76,61 @@ init 10 python:
 
     def cheats():
         print(  """
-                Cheats for SummertimeSaga:
-                ##PLAYER CHEATS##
-                    player.get_item(str item) : add yourself an item, type 'items' in the console for the list
-                    player.remove_item(str item) : removes an item.
-                    player.get_money(int money) : cheats some money
-                    player.spend_money (int money) : removes some money
-                    player.increase_str(int amount=1) : increase the strength of amount, defaults to 1
-                    player.increase_int(int amount=1) : increase the intelligence of amount, defaults to 1
-                    player.increase_dex(int amount=1) : increase the dexterity of amount, defaults to 1 (will break jenny's story)
-                    player.increase_chr(int amount=1) : increase the charisma of amount, defaults to 1.
-                    player.stats.max_all() : maxes all stats, bugs the sister questline though.
-                
-                ##GENERAL CHEATS##
-                    game.unlock_ui() : unlocks the ui if it's locked. Use if you're stuck.
-                    game.timer.tick(int tod=None) : tick the timer to specified time of day, if None, ticks by 1
-                    game.in_shower : who's in the shower at home right now.
-                    Sleep(): the same as when you sleep, can break stuff though.
-                    unlock_all_scenes() : unlocks all the cookie jar scenes.
-                    lock_all_scenes() : locks all the cookie jar scenes
-                    get_location_by_name(str location_name) : gets a location by its name (case insensitive)
-                    get_machine_by_name(str machine_name) : gets a machine by its name (case insensitive)
-                    get_all_locations() : returns a list of all locations
-                    get_all_machines() : returns a list of all machines
-                    get_all_states() : returns a list of all the states
-                    get_all_triggers() : returns a list of all the triggers
-                    get_machine_states() : returns all the states associated with a machine.
-                    
-                ##LOCATIONS CHEATS##
-                    For the following, location refers to a location object. Use get_location_by_name() to get it, 
-                    or use the variable viewer to find the location you want.
-                    location.unlock() : unlocks the location
-                    location.lock() : locks the location
-                    location.first_visit = True/False : if it's your first visit or not to this place.
-                
-                ##STATE MACHINES CHEATS##
-                    For the following, machine refers to a Machine object. Use get_machine_by_name() to get it, 
-                    or use the variable viewer to find the machine you want.
-                    _state : attribute that stores the state of the machine. Set that to the state object you want the machine to be in. Use the variable viewer (Shift+D) to see the names, and be careful.
-                    machine.trigger(trigger) : triggers the machine to be in the next state according to trigger.
-                    _vars : attribute that stores all the machine variables use the get and set methods to edit them.
-                    machine.get(str var_name) : gets the variable var_name's value
-                    machine.set(str var_name, new_value) : sets the var_name's value to new_value
-                    machine.where : returns the Location the machine is in.
+                Читы для SummertimeSaga:
+                ##ЧИТЫ ДЛЯ ИГРОКА##
+                    player.get_item(str item) : добавить себе элемент, введите 'items' в консоли для списка
+                    player.remove_item(str item) : Удаляет элемент.
+                    player.get_money(int money) : чит на деньги
+                    player.spend_money (int money) : снимает деньги
+                    player.increase_str(int amount=1) : увиличивает силу на amount, по умолчанию 1
+                    player.increase_int(int amount=1) : увеличить интеллект на amount, по умолчанию 1
+                    player.increase_dex(int amount=1) : повысить ловкость на amount, по умолчанию 1 (будет ломать историю Дженни)
+                    player.increase_chr(int amount=1) : увеличить харизму на amount, по умолчанию 1.
+                    player.stats.max_all() : на максимум все характ., будет ломать историю Дженни.
+
+                ##ОБЩИЕ ЧИТЫ##
+                    game.unlock_ui() : разблокирует пользовательский интерфейс, если он заблокирован. Используйте, если вы застряли.
+                    game.timer.tick(int tod=None) : Отметьте таймер на указанное время суток, если None, ticks будет на 1
+                    game.in_shower : кто в душе дома прямо сейчас.
+                    Sleep(): так же, как когда вы спите, может сломать вещи, хотя.
+                    unlock_all_scenes() : разблокирует все cookie jar сцены.
+                    lock_all_scenes() : блокирует все cookie jar сцены
+                    get_location_by_name(str location_name) : Получить location по его имени (без учета регистра)
+                    get_machine_by_name(str machine_name) : Получить machine по имени (без учета регистра)
+                    get_all_locations() : Возвращает список всех location
+                    get_all_machines() : Возвращает список всех machines
+                    get_all_states() : Возвращает список всех states
+                    get_all_triggers() : Возвращает список всех triggers
+                    get_machine_states() : Возвращает все states, связанные с machine.
+
+                ##ЧИТЫ ДЛЯ ЛОКАЦИЙ##
+                    Для следующих, location ссылается на location object. Используйте get_location_by_name() чтобы получить его,
+                    или используйте средство просмотра переменных для поиска нужного location.
+                    location.unlock() : открывает location
+                    location.lock() : блокирует location
+                    location.first_visit = True/False : Если это ваш первый визит или не к этому месту.
+
+                ##STATE MACHINES ЧИТЫ##
+                    Для следующих, machine ссылается на Machine object. Используйте get_machine_by_name() чтобы получить его,
+                    или используйте средство просмотра переменных для поиска нужной machine.
+                    _state : атрибут, хранящий состояние machine. Установите для объекта состояния, который требуется быть в machine.
+                    Использование средства просмотра переменных (Shift+D) чтобы увидеть имена, и будьте осторожны.
+                    machine.trigger(trigger) : triggers the machine быть в следующем состоянии в соответствии с trigger.
+                    _vars : атрибута, в котором хранятся все переменные компьютера, используйте методы get и Set для их редактирования.
+                    machine.get(str var_name) : Получает значение переменной var_name
+                    machine.set(str var_name, new_value) : задает var_name значение new_value
+                    machine.where : возвращает Location где находится machine.
                 """)
         pass
 
     def print_item_list():
         print(store.items.keys())
-        renpy.notify("Printed the items list to the console!")
+        renpy.notify("Распечатывает список элементов в консоли!")
         return
 
     def unlock_all_locations():
         for location in store.locations:
             store.locations[location].unlock(False, False)
-        renpy.notify("Unlocked all Locations!")
+        renpy.notify("Разблокированы все локации!")
         return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -139,7 +139,7 @@ init -1 python:
 
     config.has_autosave = False
 
-    config.auto_save_extra_info = "[persistent.firstname] - Day [persistent.last_game_day]"
+    config.auto_save_extra_info = "[persistent.firstname] - День [persistent.last_game_day]"
 
     config.developer = "auto"
     config.rollback_enabled = True
@@ -231,7 +231,7 @@ init python:
             ext=''
         hashname = hashlib.md5(fn).hexdigest()
         new_fn = os.path.join(config.basedir,'game','images','extras',hashname+ext)
-        print "Creating {} from {}".format(new_fn,fn+ext)
+        print "Создание {} от {}".format(new_fn,fn+ext)
         fio = Wrapped(renpy.file('hide/'+fn+ext),fn+ext)
         out = open(new_fn,'wb')
         while True:
