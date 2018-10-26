@@ -1,7 +1,7 @@
 {
     "bed": {
         "id": "1",
-        "name": "{b}Bed{/b}",
+        "name": "{b}Кровать{/b}",
         "cost": "0",
         "image": "objects/item_homework1.png",
         "position-x":"0",

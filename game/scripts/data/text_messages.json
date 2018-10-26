@@ -1,18 +1,18 @@
 {
     "judith01": {
-        "sender": "judith",
+        "sender": "Джудит",
         "content_preview": "Я в туалете...",
         "content": "Я в туалете...\nЕсли ты хочешь встретиться со мной...",
         "image": "buttons/cellphone_text_judith01.png"
     },
     "mia01": {
-        "sender": "mia",
+        "sender": "Мия",
         "content_preview": "ПОМОГИ!",
         "content": "ПОМОГИ!",
         "image": "buttons/cellphone_text_mia01.png"
     },
     "mia02": {
-        "sender": "mia",
+        "sender": "Мия",
         "content_preview": "Мы не можем найти {b}отца{/b}...",
         "content": "Мы не можем найти {b}отца{/b}...\nТы можешь нам помочь, пожалуйста?",
         "image": "buttons/cellphone_text_mia01.png"
