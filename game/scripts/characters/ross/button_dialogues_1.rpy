@@ -41,7 +41,7 @@ label button_ross_find_partner:
     show ross 10b with dissolve
     ross "Хмм..."
     show ross 11 with dissolve
-    ross "Ну, моя первоначальная мысль {b}Ева{/b}. Она талантливая художница, как и вы..."
+    ross "Ну, моя первоначальная мысль - {b}Ева{/b}. Она талантливая художница, как и вы..."
     ross "... Но я сомневаюсь, что у нее будет время со всеми ее музыкальными обучениями."
     show ross 10b with dissolve
     pause
@@ -267,7 +267,7 @@ label button_ross_found_art_pad:
     ross "... Потому что сегодня вы будете рисовать портреты друг друга используя карандаш и бумагу."
     show player 598f
     show ross 10 with dissolve
-    player_name "Значит вы хотите что бы я нарисовал {b}Mia{/b}?"
+    player_name "Значит вы хотите что бы я нарисовал {b}Мию{/b}?"
     show player 596f
     show ross 11
     ross "Вот именно и {b}Мия{/b}, Я хочу чтобы ты нарисовала {b}[firstname]{/b}."
@@ -308,7 +308,7 @@ label button_ross_found_art_pad:
 
     show ross 28f at Position(xpos=0.435, ypos=1.0) with dissolve
     ross "Я чувствую что у нас хорошие шансы в этом конкурсе..."
-    ross "Ты должна показать {b}Mia{/b}."
+    ross "Ты должен показать {b}Мие{/b}."
     show ross 12 at Position(xpos=0.35, ypos=1.0)
     show player 560
     with dissolve
@@ -335,7 +335,7 @@ label button_ross_found_art_pad:
     mia "Ой, спасибо {b}[firstname]{/b}."
     show mia 55
     show ross 13
-    ross "Ладно, тогда, давай посмотрим, как ты это справилась {b}Mia{/b}?"
+    ross "Ладно, тогда, давай посмотрим, как ты справилась {b}Мия{/b}?"
     show mia 59b with dissolve
     mia "Mмм, нет. Всё в порядке.Я бы не хотела."
     show ross 11
@@ -350,7 +350,7 @@ label button_ross_found_art_pad:
 
     ross "..."
     show mia 59
-    mia "Я говорила вас, Я не очень хороша..."
+    mia "Я говорила вам, Я не очень хорошо..."
     show mia 59c
     show ross 25
     ross "Ну нет, это -- интересно..."
@@ -358,7 +358,7 @@ label button_ross_found_art_pad:
     ross "Есть определенно простор для совершенствования."
     show player 561
     show ross 10
-    player_name "Мне это нравится, {b}Мия{/b}!"
+    player_name "Мне нравится, {b}Мия{/b}!"
     show player 560
     show mia 57
     mia "Тебе?"
@@ -380,7 +380,7 @@ label button_ross_found_art_pad:
     show player 2
     with dissolve
     player_name "Ладно, я постараюсь, {b}Мисс Росс{/b}."
-    player_name "Увидимся, {b}Mia{/b}!"
+    player_name "Увидимся, {b}Мия{/b}!"
     show player 1
     show mia 56 with dissolve
     mia "Пока, {b}[firstname]{/b}."
@@ -402,7 +402,7 @@ label button_ross_collage:
     show player 11f
     show mia 6f
     mia "Я люблю искусство."
-    mia "... И мне очень нравится смотреть за тобой и {b}Мисс Росс{/b} работающими."
+    mia "... И мне очень нравится смотреть как работают ты и {b}Мисс Росс{/b}."
     show mia 6bf
     mia "Это просто..."
     show mia 6f
@@ -477,14 +477,14 @@ label button_ross_collage:
     mia "Да, так и есть."
     show mia 7
     show ross 11 with dissolve
-    ross "Хорошо, ну у меня есть почти все, что нам нужно прямо здесь.Нам только не хватает {b}резинового клея{/b} и {b}большую стопку журналов{/b}."
+    ross "Хорошо, ну у меня есть почти все, что нам нужно. Нам только не хватает {b}резинового клея{/b} и {b}большой стопки журналов{/b}."
     ross "Почему бы вам двоим не пойти и не найти нам немного?"
     show ross 10
     show player 2f
     player_name "Мы сможем это сделать, правда {b}Мия{/b}?"
     show player 1f
     show mia 10b
-    mia "Абсолютно. В действительности, я думаю что мой {b}Папа{/b} имеет некоторый резиновый цемент дома."
+    mia "Абсолютно. В действительности, я думаю что у моего {b}Папа{/b} есть немного резинового клея дома."
     show mia 10
     mia "Я пойду возьму его!"
     hide mia with dissolve
