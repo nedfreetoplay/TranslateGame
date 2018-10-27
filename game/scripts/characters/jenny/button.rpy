@@ -50,7 +50,7 @@ label sis_button_dialogue:
 
                             call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
 
-                "{b}[deb_name]{/b} ты нужен." if sis_panties_bought and not sis_diary_unlocked and sister.over(sis_shower_cuddle01) and sister.completed(sis_panty02):
+                "{b}[deb_name]{/b} тебя ищет." if sis_panties_bought and not sis_diary_unlocked and sister.over(sis_shower_cuddle01) and sister.completed(sis_panty02):
                     call expression game.dialog_select("sis_bedroom_sis_mom_needs_you")
                     $ diary_scene = True
                     $ sis_diary_unlocked = True
