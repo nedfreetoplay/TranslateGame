@@ -39,7 +39,7 @@ label button_ross_make_collage:
     show ross 10
     show player 595f
     player_name "Вы не поверите сколько было с этим проблем!"
-    player_name "Мне удалось достать довольно хорошую пачку несмотря."
+    player_name "Мне удалось достать довольно хорошую пачку не смотря ни на что."
     show ross 46 at Position(xpos=0.32, ypos=1.0)
     show player 1f
     with dissolve
@@ -57,7 +57,7 @@ label button_ross_make_collage:
     ross "Хаха, не извиняйся, {b}[firstname]{/b}!"
     ross "Секс - естественная и важная часть жизни."
     show ross 53b
-    ross "{b}Мия{/b} и я большие девочки, мы можем с этим справиться.Правда {b}Мия{/b}?"
+    ross "{b}Мия{/b} и я большие девочки, мы можем с этим справиться. Правда {b}Мия{/b}?"
     show ross 52b
     pause
     show ross 53b
@@ -98,7 +98,7 @@ label button_ross_make_collage:
     show mia 60bf
     mia "..."
     show ross 13c
-    ross "Он один из толстых,не так ли?"
+    ross "Он один из толстых, не так ли?"
     show ross 13
     ross "... И {b}[firstname]{/b}. Что вы думаешь об этом сочном персике?"
     show ross 12
@@ -133,7 +133,7 @@ label button_ross_make_collage:
 
     scene location_school_art_cutscene05
     with fade
-    show text "Я не совсем был уверен, что {b}Мисс Россы{/b} надеялась, что фрукты заставят меня почувствовать..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я не совсем был уверен, что {b}Мисс Росс{/b} надеялась, что фрукты заставят меня почувствовать..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "... Но мне было очень весело работать над мои коллажом!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -169,7 +169,7 @@ label button_ross_make_collage:
     show mia 8
     mia "..."
     show ross 11 with dissolve
-    ross "Что ты думаешь об {b}[firstname]{/b}'s коллаже?"
+    ross "Что ты думаешь о коллаже {b}[firstname]{/b}?"
     show ross 10
     show mia 8b
 
@@ -198,7 +198,7 @@ label button_ross_make_collage:
     mia "Увидимся, {b}[firstname]{/b}."
     show mia 55
     show player 605
-    player_name "Пока, {b}Mia{/b}."
+    player_name "Пока, {b}Мия{/b}."
     hide mia
     hide miascraps
     show ross 4f at Position(xpos=0.55, ypos=1.0)
@@ -260,7 +260,7 @@ label button_ross_make_collage:
     player_name "Спасибо за урок, {b}Мисс Росс{/b}."
     show player 1
     show ross 58f at Position(xpos=0.49, ypos=1.0) with dissolve
-    ross "О, не забудь забрать квиноа, о котором я упоминалА, когда будешь в магазине!"
+    ross "О, не забудь забрать вино, о котором я упоминала, когда будешь в магазине!"
     ross "Это очень полезно для тебя, {b}[firstname]{/b} и я хочу чтобы ты попробовал его!"
     show player 2
     show ross 10f at Position(xpos=0.55, ypos=1.0) with dissolve
@@ -461,7 +461,7 @@ label button_ross_has_easels:
     mia "..."
 
     show ross 11
-    ross "О смотри, {b}[firstname]{/b}'s вернулся!"
+    ross "О смотри, {b}[firstname]{/b} вернулся!"
     show mia 55f at Position(xpos=0.35, ypos=1.0) with dissolve
     ross "Как ты сделал с эти мольберты?"
     show player 2f
