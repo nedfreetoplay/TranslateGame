@@ -638,7 +638,7 @@ label button_clyde_nice_tractor:
     show player 13f
     show clyde 4
     clyde "Ох, да!"
-    clyde "Это здесь {b}Большая Берта{/b}!"
+    clyde "Это {b}Большая Берта{/b}!"
     clyde "Разве она не красавица?!"
     show clyde 3
     player_name "..."
