@@ -51,7 +51,7 @@ label jane_library_dialogue_bissette_get_dictionary:
 
     scene library
     show player 34 with dissolve
-    player_name "( Нужно отнести это к {b}Miss Bissette{/b} и узнать, что она думает... )"
+    player_name "( Нужно отнести это к {b}Мисс Биссетт{/b} и узнать, что она думает... )"
     return
 
 label jane_library_dialogue_bissette_return_overdue_books:
@@ -64,7 +64,7 @@ label jane_library_dialogue_bissette_return_overdue_books:
     pause
     show player 507f at Position (xoffset=-9) with dissolve
     show jane 2f
-    jan "Правда? Дай ка посмотреть..."
+    jan "Правда? Дай-ка посмотреть..."
     show player 13f
     show jane 22f at Position (xoffset=-18) with dissolve
     jan "Ты и правда сделал это! Большое спасибо!"
@@ -212,32 +212,32 @@ label jane_library_dialogue_french_food_find_books:
     player_name "Ну, я мог бы {b}поговорить с ними{/b}. Как их зовут?"
     show player 5f
     show jane 2b
-    jan "Хмм, первая - {b}Miss Martinez{/b}."
-    jan "Второй - {b}Mr. Erik J-{/b}."
+    jan "Хмм, первая - {b}Мисс Мартинес{/b}."
+    jan "Второй - {b}Мр. Эрик Ж-{/b}."
     show jane 1f
     show player 14f
-    player_name "{b}Erik{/b} не вернул книгу?!"
+    player_name "{b}Эрик{/b} не вернул книгу?!"
     player_name "Ну, это будет просто."
     show player 13f
     show jane 2b
     jan "...И последний..."
-    jan "Ха. Тут написано просто {b}Dexter{/b}."
+    jan "Ха. Тут написано просто {b}Декстер{/b}."
     jan "Знаешь его?"
     show jane 1f
     show player 12f
-    player_name "О боже, только не {b}Dexter{/b}... Ты уверена?"
+    player_name "О боже, только не {b}Декстер{/b}... Ты уверена?"
     show player 11f
     show jane 2f
     jan "Ну, так написано..."
     show jane 1f
     show player 12f
-    player_name "Черт! Ладно, посмотрю, что можно сделать."
+    player_name "Чёрт! Ладно, посмотрю, что можно сделать."
     show player 5f
     show jane 3f
     jan "Спасибо, я правда ценю это!"
     hide jane with dissolve
     show player 12 at center with dissolve
-    player_name "Ух, ну почему это должен быть {b}Dexter{/b}?"
+    player_name "Ух, ну почему это должен быть {b}Декстер{/b}?"
     return
 
 label jane_library_dialogue_french_food_book_holders:
@@ -248,10 +248,10 @@ label jane_library_dialogue_french_food_book_holders:
     show jane 2f
     jan "Секунду..."
     show jane 2b
-    jan "Хмм, {b}Miss Martinez{/b}, {b}Mr. Erik{/b}, и {b}Dexter{/b}."
+    jan "Хмм, {b}Мисс Мартинес{/b}, {b}Мр. Эрик{/b}, и {b}Декстер{/b}."
     show jane 1f
     show player 12f
-    player_name "Эх, я забыл про {b}Dexter{/b}..."
+    player_name "Эх, я забыл про {b}Декстера{/b}..."
     player_name "Ладно, посмотрю, что можно сделать."
     return
 
@@ -381,7 +381,7 @@ label jane_library_dialogue_french_grammar_volume_1:
 
 label jane_library_dialogue_french_grammar_volume_1_have_webcam:
     show player 12f
-    player_name "Да... Вот {b}вэб камера{/b}."
+    player_name "Да... Вот {b}веб камера{/b}."
     show player 239_240f
     pause
     show player 54 at Position(xoffset=-38) with fastdissolve
@@ -411,7 +411,7 @@ label jane_library_dialogue_french_grammar_volume_1_do_not_have_webcam:
     show player 5f
     show jane 2f
     jan "Тогда я ещё не заказала тебе {b}книгу{/b}, ты же знаешь."
-    jan "Приходи с {b}вэбкамерой{/b}, тогда и поговорим."
+    jan "Приходи с {b}веб камерой{/b}, тогда и поговорим."
     return
 
 label jane_library_dialogue_french_grammar_volume_2_first:
@@ -429,7 +429,7 @@ label jane_library_dialogue_french_grammar_volume_2_first:
     jan "Я бы хотела сделать это для тебя... Но наше финансовое состояние всё ещё оставляет желать лучшего."
     show player 10f
     show jane 1f
-    player_name "О чем ты? Разве новая {b}вэбкамера{/b} не должна была решить проблему?"
+    player_name "О чем ты? Разве новая {b}веб камера{/b} не должна была решить проблему?"
     show player 5f
     show jane 4f
     jan "Не пойми меня неправильно: она помогает..."
@@ -516,7 +516,7 @@ label jane_library_dialogue_french_grammar_volume_2_repeat_havent_placed_webcam:
     show player 5f
     show jane 2f
     jan "Я не могу заказать тебе эту {b}книгу{/b}, ты же знаешь."
-    jan "Возвращайся, когда установишь {b}вэбкамеру{/b} в школе."
+    jan "Возвращайся, когда установишь {b}веб камеру{/b} в школе."
     return
 
 label jane_library_dialogue_french_grammar_volume_3:

@@ -1,14 +1,14 @@
 label jane_triggers_init:
     python:
 
-        T_jane_library_pass = Trigger("library pass", "Default")
+        T_jane_library_pass = Trigger("library pass", "Описание")
     return
 
 label jane_fsm_init:
     python:
 
         S_jane_start = State("start")
-        S_jane_intro = State("intro", "Default")
+        S_jane_intro = State("intro", "Описание")
         S_jane_end = State("end")
 
 
