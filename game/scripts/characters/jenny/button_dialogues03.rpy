@@ -6,7 +6,7 @@ label jenny_dialogue_make_deal_alright_repeat:
     pause
     show player 11 at left
     show jenny 80 at Position(xpos=945)
-    jen "Подожди: Я посчитаю это первым." with fastdissolve
+    jen "Подожди: Я посчитаю первой." with fastdissolve
     show jenny 14
     jen "Хмм..."
     $ player.spend_money(500)
@@ -182,7 +182,7 @@ label jenny_dialogue_cam_show_pre:
     show player 1
     show jenny 12
     jen "Кто то у нас {b}возбудился{/b}."
-    jen "Ты хочешь почувствовать мою мокрую киску обвивающейся вокруг твого члена, ммм?"
+    jen "Ты хочешь почувствовать мою мокрую киску, обвивающейся вокруг твого члена, ммм?"
     show player 13
     show jenny 11
     player_name "..."
