@@ -9,7 +9,7 @@ label forest_first_visit:
 label forest_anna_missing_pup_started_dark:
     scene expression game.timer.image("forest{}_b")
     show player 4 with dissolve
-    player_name "( Слишком темно, чтобы искать {b}Авесомо{/b}. )"
+    player_name "( Слишком темно, чтобы искать {b}ШИКАРДОС'а{/b}. )"
     hide player with dissolve
     return
 
@@ -37,7 +37,7 @@ label forest_anna_missing_pup_started_have_cookies:
 label forest_anna_missing_pup_started_no_cookies:
     scene expression game.timer.image("forest{}_b")
     show player 4 with dissolve
-    player_name "( Я должен найти {b}печенье{/b} чтобы заманить {b}Авесомо{/b} . )"
+    player_name "( Я должен найти {b}печенье{/b} чтобы заманить {b}ШИКАРДОС'а{/b} . )"
     hide player with dissolve
     return
 
@@ -91,7 +91,7 @@ label awesomo_dialogue_check_name_tag_pre:
     show player 177
     player_name "Посмотрим, ты ли это, кого я ищу..."
     show awesomo_tag zorder 2 with dissolve
-    player_name "{b}Авесомо{/b}... Ага! Должно быть это, ты!"
+    player_name "{b}ШИКАРДОС'а{/b}... Ага! Должно быть это, ты!"
     hide awesomo_tag with dissolve
     return
 
@@ -172,7 +172,7 @@ label forest_mushroom_okita_get_ingredients:
 
 label forest_mushroom_aqua_seasucc_mushroom:
     player_name "Эти грибы похожи на те о которых {b}Аква{/b} рассказывала."
-    player_name "Надо собрать, и отнести их {b}МореСоку{/b}..."
+    player_name "Надо собрать, и отнести их {b}Сосунку{/b}..."
     return
 
 label forest_mushroom_take_mushroom:

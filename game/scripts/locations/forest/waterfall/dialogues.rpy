@@ -3,7 +3,7 @@ label waterfall_okita_get_ingredients:
     show player 2
     with dissolve
     player_name "Ого, это место прекрасно!"
-    player_name "... и оно идеально подходит для поиска {b}Рогатой жабы{/b} для Окиты."
+    player_name "... и оно идеально подходит для поиска {b}Возбужденной жабы{/b} для Окиты."
     return
 
 label take_toad:
