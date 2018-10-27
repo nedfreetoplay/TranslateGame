@@ -109,7 +109,7 @@ label button_missy_becca_chat_with_becca_missy:
     show player 5f
     show missy 1b with dissolve
     missy "Д-да?"
-    missy "Конечно, я сделаю все, что ты хочешь-"
+    missy "Конечно, я сделаю всё, что ты хочешь-"
     show missy 2
     missy "Я имею в виду..."
     show missy 1b
@@ -136,7 +136,7 @@ label button_missy_becca_chat_with_becca_missy:
     show player 10f
     player_name "... И хорошо..."
     show player 10f
-    player_name "Ты такая милая... И ее лучший друг и все такое."
+    player_name "Ты такая милая... И её лучший друг и всё такое."
     show player 5f
     show missy 4c with dissolve
     missy "Ты считаешь меня милой?!"
@@ -149,7 +149,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Я не могу дождаться этих выходных!"
     show missy 8
     missy "Я собираюсь купить новый купальник, ты знаешь... Тот, который дополняет мои длинные ноги!"
-    missy "Ты все еще любишь мои ноги, {b}[firstname]{/b}?"
+    missy "Ты всё ещё любишь мои ноги, {b}[firstname]{/b}?"
     show missy 7
     show player 14f
     player_name "Да, конечно!"
@@ -163,15 +163,15 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 1
     missy "..."
     show player 10f
-    player_name "Есть ли что-нибудь, что я мог бы сделать, чтобы... Знаешь, заставить ее немного смягчиться?"
+    player_name "Есть ли что-нибудь, что я мог бы сделать, чтобы... Знаешь, заставить её немного смягчиться?"
     show player 5f
     show missy 1b
     missy "... Что ты имеешь в виду?"
     show missy 1
     show player 10f
-    player_name "Есть что-нибудь, что я мог бы сделать для нее, что могло бы сделать ее светлее?"
+    player_name "Есть что-нибудь, что я мог бы сделать для неё, что могло бы сделать её светлее?"
     show player 12f
-    player_name "... Пехапс, заставить ее перестать вести себя как Стерва ко мне?"
+    player_name "... Пехапс, заставить её перестать вести себя как Стерва ко мне?"
     show player 5f
     show missy 8
     missy "Пфф, вряд ли."
@@ -183,7 +183,7 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 2b
     missy "..."
     show missy 1b
-    missy "Ну, я полагаю, ты могла бы получить ее бутылку {b}GoldSchwagger{/b}"
+    missy "Ну, я полагаю, ты могла бы получить её бутылку {b}GoldSchwagger{/b}"
     show missy 1
     show player 10f
     player_name "Что это за фигня?"
@@ -213,7 +213,7 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 1b
     missy "{b}GoldSchwagger{/b}!"
     missy "... И я понятия не имею."
-    missy "Я не думаю, что они продают его в {b}Consum-R{/b} Хотя."
+    missy "Я не думаю, что они продают его в {b}Консумер{/b}, хотя."
     show missy 1
     show player 35f
     player_name "Хм, может быть, {b}Капитан Терри{/b} знает, где я могу найти несколько?"
@@ -318,7 +318,7 @@ label button_missy_becca_intro:
     show becca 3b
     becca "Я не был-"
     show missy 8
-    missy "Она действительно с нетерпением ждет еще одной игры с твоей бутылкой!"
+    missy "Она действительно с нетерпением ждет ещё одной игры с твоей бутылкой!"
     show missy 7
     show player 11f
     show becca 3
@@ -499,8 +499,6 @@ label button_missy_becca_look_beautiful:
             player_name "Хаха, вы двое несколько иногда..."
             show player 13f
         "Вы оба выглядите одинаково красиво!":
-
-
             show player 17f
             player_name "Вы оба выглядите одинаково красиво!"
             show player 13f
