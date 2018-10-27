@@ -124,7 +124,7 @@ label mom_button_dialogue:
                 call expression game.dialog_select("debbie_dialogue_sex_in_debbies_room_after")
                 jump expression game.dialog_select("mom_sex")
 
-            "Заняться сексом в моей комнате." if M_mom.is_set("sex available") and not M_mom.is_set("room sneak"):
+            "Заняться сексом в своей комнате." if M_mom.is_set("sex available") and not M_mom.is_set("room sneak"):
                 call expression game.dialog_select("debbie_dialogue_sex_in_my_room")
                 $ M_mom.set("room sneak", True)
 
