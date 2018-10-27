@@ -42,7 +42,7 @@ label aunt_dialogue_button_night:
     if not store._in_replay == None:
         call expression game.dialog_select("aunt_shed_replay_1")
         call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk_no_sex")
-        dia "Let's get set up on the {b}breeding chair{/b}..."
+        dia "Давайте найдем на {b}разводной стул{/b}..."
         $ anim_toggle = False
         $ xray = False
         $ shed_cow_outfit = True
@@ -54,7 +54,7 @@ label aunt_dialogue_button_night:
             $ shed_sex_action = 0
             call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk")
         jump expression game.dialog_select("shed_sex_loop")
-    dia "Is there anything you want to talk about before we get started?"
+    dia "Есть что-нибудь, о чём ты хотел поговорить, прежде чем мы начнем?"
     menu dia_default_dialogue_options_night:
         "Коробка." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
             call expression game.dialog_select("dianes_shed_dianes_dialogue_not_package")

@@ -64,7 +64,7 @@ label dianes_garden_diane_drunken_splur_not_known:
     show player 11
     pause
     show diane 94
-    dia "Хотелось бы мне иметь хорошие молодые сиськи, как у нее..."
+    dia "Хотелось бы мне иметь хорошие молодые сиськи, как у неё..."
     show diane 95
     pause
     show diane 99
@@ -111,7 +111,7 @@ label dianes_garden_diane_drunken_splur_not_known:
     dia "Ты, наверное, думаешь, что я- *ик* пьяница."
     show diane 165
     show player 21
-    player_name "Нет, не знаю. Приятно видеть тебя такой... В смысле, ты еще смешнее, когда подвыпившая."
+    player_name "Нет, не знаю. Приятно видеть тебя такой... В смысле, ты ещё смешнее, когда подвыпившая."
     show player 13
     show diane 166
     dia "Ты очерователен, милый, но я думаю, что прилягу ненадолго."
@@ -120,7 +120,7 @@ label dianes_garden_diane_drunken_splur_not_known:
     hide diane with dissolve
     pause
     show player 35
-    player_name "Блин, я не помню, когда в последний раз видел ее такой пьяной."
+    player_name "Блин, я не помню, когда в последний раз видел её такой пьяной."
     player_name "Я, наверное, должен убедиться, что она добралась до своей кровати."
     hide player with dissolve
     return
@@ -141,7 +141,7 @@ label dianes_garden_diane_mouse_attack_not_known:
     show player 5
     player_name "..."
     show player 10
-    player_name "Может, мне стоит проверить ее, прежде чем начать работать."
+    player_name "Может, мне стоит проверить её, прежде чем начать работать."
     hide player with dissolve
     return
 
@@ -199,7 +199,7 @@ label dianes_garden_diane_need_shovel:
 label dianes_garden_diane_need_shovel_no_shovel:
     show player 2 at left
     show diane 1 at right
-    player_name "Есть ли способ продолжить работу без нее?"
+    player_name "Есть ли способ продолжить работу без неё?"
     show diane 2
     show player 1
     dia "Нам действительно нужно выкопать сад... Боюсь, что нет."
@@ -488,7 +488,7 @@ label dianes_garden_diane_need_shovel_remove_waste_fail:
     player_name "[str_warn]Ухххх!!..."
     player_name "[str_warn]...Грррр..."
     show player 27 with dissolve
-    player_name "[str_warn]I... Я не могу..."
+    player_name "[str_warn]Я... Я не могу..."
     player_name "[str_warn]Прости..."
     show player 3
     show diane 2
@@ -500,7 +500,7 @@ label dianes_garden_diane_need_shovel_remove_waste_fail:
     show player 256 with dissolve
     dia "..."
     show player 10 with dissolve
-    player_name "Я, должно быть, устал сегодня, вот и все..."
+    player_name "Я, должно быть, устал сегодня, вот и всё..."
     player_name "Дай мне отдохнуть и {b}набраться сил{/b}. Я вернусь и сделаю это, обещаю."
     show diane 1
     show player 3
@@ -669,7 +669,7 @@ label dianes_garden_diane_bug_infestation:
     player_name "Но где я возьму пестициды?"
     show player 11
     show diane 6
-    dia "Попробуй зайти в магазин {b}CONSUM-R{/b} в торговом центре."
+    dia "Попробуй зайти в магазин {b}КОНСУМЕР{/b} в торговом центре."
     show diane 10
     dia "Ты должен {b}спросить продавца{/b}. {b}Опиши{/b} ему жуков."
     show player 10
@@ -873,7 +873,7 @@ label dianes_garden_diane_sunbathing_okay:
     player_name "Уххх! Давай я принесу тебе полотенце!"
     show diane 45
     dia "{b}Подожди секундочку!!{/b}"
-    dia "Мы еще не закончили..."
+    dia "Мы ещё не закончили..."
     dia "Сначала намажь меня спереди."
     show diane 47
     player_name "..."
@@ -2364,7 +2364,7 @@ label dianes_dialogue_after_fun_have_fun_first_time_want_fail:
     show dianesex 16
     dia "[chr_warn]Хммм..."
     show dianesex 17
-    dia "[chr_warn]Возможно, для этого еще слишком рано."
+    dia "[chr_warn]Возможно, для этого ещё слишком рано."
     show dianesex 16
     player_name "[chr_warn]..."
     show dianesex 14
@@ -2783,7 +2783,7 @@ label night_closed_garden:
         player_name "{b}Диана{/b} сказала, что она будет в {b}сарае{/b}."
     else:
 
-        player_name "{b}Диана{/b}  наверное, спит... Я не думаю, что смогу работать в саду сейчас."
+        player_name "{b}Диана{/b} наверное, спит... Я не думаю, что смогу работать в саду сейчас."
     hide player 2 with dissolve
     $ game.main()
 

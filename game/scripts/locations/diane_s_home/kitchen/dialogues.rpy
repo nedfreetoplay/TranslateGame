@@ -57,7 +57,7 @@ label dianes_kitchen_diane_breeding_bull_started:
 label dianes_kitchen_diane_mouse_attack_started:
     scene dianekitchen with None
     show player 10 with dissolve
-    player_name "Блин. Ее здесь тоже нет."
+    player_name "Блин. Её здесь тоже нет."
     player_name "( Я был абсолютно уверен в этом... )"
     show player 11
     dia "ИИИИИИИИККККККК!"

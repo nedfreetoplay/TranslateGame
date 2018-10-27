@@ -105,7 +105,7 @@ label dianes_dialogue_diane_mouse_attack_known:
     player_name "Я рад что вы в безопастности."
     show player 13
     show diane 149
-    dia "Ну, я все еще очень неподобающе одета сейчас."
+    dia "Ну, я всё ещё очень неподобающе одета сейчас."
     show diane 151
     dia "Мне жаль, что тебе пришлось видеть меня такой. Надеюсь, это не слишком тебя напугало?"
     show diane 150

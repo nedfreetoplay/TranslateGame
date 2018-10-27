@@ -9,7 +9,7 @@ label dianes_shed_diane_breeding_help_started:
     player_name "Конечно! Что могу сделать для тебя?"
     show diane 87
     show player 13
-    dia "Мне пришла... {b}Коробка{/b}, Можешь принести ее мне."
+    dia "Мне пришла... {b}Коробка{/b}, Можешь принести её мне."
     show diane 88
     show player 10
     player_name "О, хорошо."
