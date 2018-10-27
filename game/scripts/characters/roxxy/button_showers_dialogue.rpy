@@ -4,10 +4,10 @@ label button_roxxy_showers_check_on_roxxy:
     show becca bikini 2b at Position(xpos=315)
     show missy bikini 11 at left
     with dissolve
-    becca "Да и тогда балабол начнет сдесь разбалтывать о нас моментально!!!"
+    becca "Да и тогда балабол начнет здесь разбалтывать о нас моментально!!!"
     show becca bikini 1b
     show roxxy bikini 23
-    rox "Ни за что... {b}Missy{/b}, что черт возьми с тобой не так?!"
+    rox "Ни за что... {b}Мисси{/b}, что черт возьми с тобой не так?!"
     show roxxy bikini 21
     show becca bikini 16
     show missy bikini 10
@@ -58,7 +58,7 @@ label button_roxxy_showers_check_on_roxxy:
     show roxxy bikini 19
     rox "Хмм?"
     rox "... Нет."
-    rox "Мы только друзья, {b}Becca{/b}."
+    rox "Мы только друзья, {b}Бекка{/b}."
     show roxxy bikini 1
     show missy bikini 1b
     show becca bikini 2b
@@ -76,7 +76,7 @@ label button_roxxy_showers_check_on_roxxy:
     missy "Вы можете смотреть,Я не против!"
     show missy bikini 1b
     show becca bikini 16b
-    becca "Ну ты и шлюха, {b}Missy{/b}..."
+    becca "Ну ты и шлюха, {b}Мисси{/b}..."
     show becca bikini 16
     show missy bikini 2b
     missy "Пфф, ты единственная кто очень завелась потому что ты знала что мы смотрели!"
@@ -93,14 +93,14 @@ label button_roxxy_showers_check_on_roxxy:
     rox "Он идет."
     show roxxy bikini 1f at Position (xpos=500) with dissolve
     show becca bikini 14
-    becca "Постарайся не сморозить глупость, {b}Missy{/b}!"
+    becca "Постарайся не сморозить глупость, {b}Мисси{/b}!"
     show becca bikini 13
     show missy bikini 10
     missy "Ммхм!"
     show missy bikini 1
     show becca bikini 1
     show player 14f at right with dissolve
-    player_name "Хэй, {b}Roxxy{/b}!"
+    player_name "Привет, {b}Рокси{/b}!"
     player_name "Ты отлично выглядишь!"
     show player 13f
     show roxxy bikini 2f
@@ -118,7 +118,7 @@ label button_roxxy_showers_check_on_roxxy:
     becca "Она добралась до финала в прошлый раз."
     show becca bikini 1
     show player 14f
-    player_name "На самом деле?Это потрясающе, {b}Roxxy{/b}!"
+    player_name "На самом деле? Это потрясающе, {b}Рокси{/b}!"
     show player 13f
     show missy bikini 2
     missy "... Может быть мы все доберемся до финала в этом году?"
@@ -133,7 +133,7 @@ label button_roxxy_showers_check_on_roxxy:
     show missy bikini 13
     missy "Хехе, спасибо {b}[firstname]{/b}!"
     show missy bikini 2b
-    missy "Я очень надеюсь что {b}Roxxy{/b} не будет замкнута в себе, когда вы начнете встречаться..."
+    missy "Я очень надеюсь что {b}Рокси{/b} не будет замкнута в себе, когда вы начнете встречаться..."
     show missy bikini 1b
     show player 11f
     show becca bikini 6
@@ -142,7 +142,7 @@ label button_roxxy_showers_check_on_roxxy:
     player_name "!!!"
     show roxxy bikini 20 at Position (xpos=600) with dissolve
     show becca bikini 14
-    becca "Какого черта, {b}Missy{/b}?!"
+    becca "Какого черта, {b}Мисси{/b}?!"
     becca "Я же сказала тебе не говорить ничего тупого!"
     show becca bikini 13
     show missy bikini 8
@@ -157,7 +157,7 @@ label button_roxxy_showers_check_on_roxxy:
     show becca bikini 6
     show roxxy bikini 10
     with dissolve
-    rox "Ты труп, {b}Missy{/b}!!!"
+    rox "Ты труп, {b}Мисси{/b}!!!"
     show roxxy bikini 11 at Position (xoffset=-8)
     rox "!!!" with hpunch
     show becca bikini 15
@@ -202,7 +202,7 @@ label button_roxxy_showers_check_on_roxxy:
     missy "... Может стоить проверить как она?"
     show missy bikini 12
     show becca bikini 16b
-    becca "Да, {b}Missy{/b}. Иди и проверь..."
+    becca "Да, {b}Мисси{/b}. Иди и проверь..."
     show becca bikini 17
     becca "Хахахах!"
     show missy bikini 10
@@ -251,7 +251,7 @@ label button_roxxy_showers_in_cabin:
     becca "{b}[firstname]{/b}?"
     show missy bikini 1b
     show becca bikini 2b
-    becca "Я думала ты собирался проверить {b}Roxxy{/b}?"
+    becca "Я думала ты собирался проверить {b}Рокси{/b}?"
     becca "{b}Она в раздевалке{/b}."
     show becca bikini 1b
     show player 10f
@@ -276,7 +276,7 @@ label button_roxxy_showers_get_new_bikini:
     player_name "Я пойду {b}попытаюсь найти ей замену.{/b}"
     show player 5f
     show missy bikini 13
-    missy "Она смогла бы возьми ее {b}Becca's{/b}!"
+    missy "Она должна просто забрать у {b}Бекки{/b}!"
     show missy bikini 1b
     show becca bikini 11f with dissolve
     becca "Хм?!"
@@ -295,10 +295,10 @@ label button_roxxy_showers_get_new_bikini:
     show player 12f
     player_name "УСПАКОЙСЯ!"
     show becca bikini 12 with dissolve
-    player_name "Никто не пришел с {b}Becca's{/b} к согласию."
+    player_name "Никто не пришел с {b}Беккой{/b} к согласию."
     show player 14f
     show becca bikini 1
-    player_name "... И {b}Missy's{/b} сиськи великолепны."
+    player_name "... И у {b}Мисси{/b} сиськи великолепны."
     show player 13f
     show missy bikini 13
     missy "Хехе, видишь, сучка!"
@@ -309,14 +309,14 @@ label button_roxxy_showers_get_new_bikini:
     becca "Ух, Неважно."
     show becca bikini 1
     show player 12f
-    player_name "Смотри, Я найду что-нибудь!"
-    player_name "Все,пожалуйста,расслабьтесь."
+    player_name "Ладно, Я найду что-нибудь!"
+    player_name "Все, пожалуйста, расслабьтесь."
     show player 5f
     hide becca
     hide missy
     with dissolve
     show player 10f
-    player_name "Хмм, {b}Мне стоит поискать сдесь не ношеное бикини{/b}."
+    player_name "Хмм, {b}Мне стоит поискать здесь не ношеное бикини{/b}."
     hide player with dissolve
     return
 
@@ -325,13 +325,13 @@ label button_roxxy_showers_get_oil:
     show becca bikini 1 at Position(xpos=315)
     show missy bikini 13 at left
     with dissolve
-    missy "Хэй, {b}[firstname]{/b}!"
-    missy "Подойди посмтотри на-"
+    missy "Привет, {b}[firstname]{/b}!"
+    missy "Подойди посмотри на-"
     show missy bikini 14
     show becca bikini 15
     show player 184bf at right with fastdissolve
     player_name "Не могу говорить!"
-    player_name "Нужно... {b}Roxxy{/b}..."
+    player_name "Нужно... {b}Рокси{/b}..."
     show missy bikini 8
     missy "Мм?"
     show missy bikini 12
@@ -341,7 +341,7 @@ label button_roxxy_showers_get_oil:
     show missy bikini 9
     show player 658f
     player_name "МАСЛО!" with hpunch
-    player_name "{b}Roxxy{/b}!!"
+    player_name "{b}Рокси{/b}!!"
     hide player with fastdissolve
     player_name "Нужно идти быстрее!"
     show missy bikini 12 with dissolve
@@ -361,7 +361,7 @@ label button_roxxy_showers_no_oil:
     show player 29 with fastdissolve
     player_name "Срань господня! Что я делаю!"
     show player 29f with fastdissolve
-    player_name "Мне нужно {b}получить ту бутылочку с маслом{/b} из {b}Спасательной башни{/b} прежде чем {b}Roxxy{/b} передумает!"
+    player_name "Мне нужно {b}получить ту бутылочку с маслом{/b} из {b}Спасательной башни{/b} прежде чем {b}Рокси{/b} передумает!"
     hide player with fastdissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
