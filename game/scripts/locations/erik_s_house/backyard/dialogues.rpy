@@ -140,7 +140,7 @@ label erik_thief_dex_pass:
     show mrsj 51
     show erik 51
     show larry 10
-    larry "Я... Я скучал по тебе, {b}Tammy{/b}..."
+    larry "Я... Я скучал по тебе, {b}Тэмми{/b}..."
     larry "Я заглядывал ночью в течение последних двух месяцев, надеясь увидеться с тобой..."
     show larry 9
     show erik 52
@@ -182,7 +182,7 @@ label erik_thief_dex_pass:
     show larry 12b
     show erik 51
     show player 11f
-    larry "{b}Tammy{/b}!"
+    larry "{b}Тэмми{/b}!"
     show erik 52
     larry "Я рад, что у тебя все хорошо..."
     larry "...Я скучал по тебе!!"

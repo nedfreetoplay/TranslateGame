@@ -181,7 +181,7 @@ label closed_erik:
         elif player.location == L_erikhouse_backyard:
             scene eriks_backyard_night_b
         show player 2 with dissolve
-        player_name "( {b}Эрик{/b} должно быть уже спит.Я лучше завтра зайду. )"
+        player_name "( {b}Эрик{/b} должно быть уже спит. Я лучше завтра зайду. )"
         hide player 2 with dissolve
     $ game.main()
 
@@ -202,7 +202,7 @@ label erik_mailbox:
     if game.mail["erik"] == "m_magazine":
         show expression "objects/object_mailbox_item01_closeup.png" with dissolve
         player_name "( Хмм. Журнал. Интересно для кого он... )"
-        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это,однако.. )"
+        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это, однако.. )"
         player_name "( Мне лучше положить его обратно. )"
         hide expression "objects/object_mailbox_item01_closeup.png" with dissolve
 
@@ -230,9 +230,9 @@ label erik_mailbox:
         $ L_dealership_front.unlock()
 
     elif game.mail["erik"] == "m_newspaper":
-        player_name "( Местные новости.Это должно быть Интересно... )"
+        player_name "( Местные новости. Это должно быть Интересно... )"
         show expression "objects/object_newspaper.png" with dissolve
-        player_name "( Вот все еще на свободе?Я думал что они его уже поймали. )"
+        player_name "( Вот все еще на свободе? Я думал что они его уже поймали. )"
         player_name "( Я лучше положу это обратно. )"
         hide expression "objects/object_newspaper.png" with dissolve
     call screen erik_mailbox

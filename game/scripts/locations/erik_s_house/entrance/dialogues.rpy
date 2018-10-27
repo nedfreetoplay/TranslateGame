@@ -16,7 +16,7 @@ label erikentrance_erik_gf_over:
     player_name "Я не знал что вы оба уже общаетесь!"
     show player 1
     show erik 4
-    eri "Да, мы играл в Ork Bork много..."
+    eri "Да, мы играли в Ork Bork много..."
     show erik 1
     show june 6
     june "Ха ха. Да, мы совсем пристрастились!"
@@ -64,17 +64,17 @@ label erikentrance_mrsj_poker_night_over:
     mrsjo "Можно тебя на пару слов перед тем как вы уйдете с {b}Эриком{/b}?"
     show mrsj 14
     show player 14
-    player_name "Конечно, {b}Mrs. Johnson{/b}."
+    player_name "Конечно, {b}Миссис Джонсон{/b}."
     show mrsj 20
     show player 11
     mrsjo "Я... Я почти ничего не помню с прошлой ночи."
     show mrsj 19
-    mrsjo "Что бы не произошло,я хочу извиниться."
+    mrsjo "Что бы не произошло, я хочу извиниться."
     show player 13
     mrsjo "Я слишком много выпила, и я не должна была заниматься этими вещами с вами мальчики."
     show mrsj 19c
     show player 10
-    player_name "Ох, все в порядке, {b}Mrs. Johnson{/b}..."
+    player_name "Ох, все в порядке, {b}Миссис Джонсон{/b}..."
     show mrsj 19
     show player 13
     mrsjo "Ты не обижаешься на меня, верно?"
@@ -105,7 +105,7 @@ label erikentrance_mrsj_poker_night_over:
     mrsjo "Я просто хочу убедиться что он не злиться на меня из-за этого."
     show mrsj 14
     show player 14
-    player_name "Конечно, {b}Mrs. Johnson{/b}. Я поговорю с ним."
+    player_name "Конечно, {b}Миссис Джонсон{/b}. Я поговорю с ним."
     show mrsj 18
     show player 1
     mrsjo "Спасибо, ты такой милый."
@@ -120,20 +120,20 @@ label mrsj_sex_ed:
     show player 13 at left
     show mrsj 14 at right
     with dissolve
-    eri "Привет, {b}Mrs. Johnson{/b}!"
-    eri "Тебе...нужно что-то от нас?"
+    eri "Привет, {b}Миссис Джонсон{/b}!"
+    eri "Тебе... нужно что-то от нас?"
     show erik 1f
     show mrsj 19
-    mrsjo "Слушайте,мальчики."
+    mrsjo "Слушайте, мальчики."
     mrsjo "Я знаю что вы двое говорили об этом уже, так что..."
-    mrsjo "Я много думала об этом,и так как вы двое отночитесь к этому..."
+    mrsjo "Я много думала об этом, и так как вы двое отночитесь к этому..."
     show mrsj 49
-    mrsjo "Я согласна дать вам два частных...урока по сексуальному обучению."
+    mrsjo "Я согласна дать вам два частных... урока по сексуальному обучению."
     show mrsj 50
     show player 23
     player_name "!!!"
     show erik 5f
-    eri "М...{b}Mrs. Johnson{/b}, ты уверена?"
+    eri "М...{b}Миссис Джонсон{/b}, ты уверена?"
     show erik 1f
     show mrsj 49
     show player 18
@@ -141,7 +141,7 @@ label mrsj_sex_ed:
     mrsjo "У меня с этим нет проблем, до тех пор пока это останется между нами!!"
     show mrsj 50
     show player 14
-    player_name "У...у меня нет проблем с этим, {b}Mrs. Johnson{/b}..."
+    player_name "У... у меня нет проблем с этим, {b}Миссис Джонсон{/b}..."
     show player 11
     show mrsj 52
     mrsjo "Но!!" with hpunch
@@ -149,7 +149,7 @@ label mrsj_sex_ed:
     show player 5
     show mrsj 14
     show erik 4f
-    eri "Что тебе нужно {b}Mrs. Johnson{/b}?"
+    eri "Что тебе нужно {b}Миссис Джонсон{/b}?"
     show erik 1f
     show mrsj 19
     show player 13
@@ -192,10 +192,10 @@ label mrsj_sex_ed:
     player_name "!!!" with hpunch
     show player 78
     show mrsj 49
-    mrsjo "Я вижу что вы оба очень взволнованы от идеи  начать секс уроки со мной..."
+    mrsjo "Я вижу что вы оба очень взволнованы от идеи начать секс уроки со мной..."
     show mrsj 50
     show erik 56f
-    eri "Извини, {b}Mrs. Johnson{/b}."
+    eri "Извини, {b}Миссис Джонсон{/b}."
     show erik 57f
     show mrsj 49
     mrsjo "Все хорошо, тыковка."
@@ -203,10 +203,10 @@ label mrsj_sex_ed:
     mrsjo "Чем раньше вы можете мне получить то что мне нужно, тем скорее мы сможем начать!"
     show mrsj 50
     show erik 58f
-    eri "Хорошо, {b}Mrs. Johnson{/b}!"
+    eri "Хорошо, {b}Миссис Джонсон{/b}!"
     show erik 57f
     show player 83
-    player_name "Мы найдем все что тебе нужно, {b}Mrs. Johnson{/b}!"
+    player_name "Мы найдем все что тебе нужно, {b}Миссис Джонсон{/b}!"
     hide player
     hide mrsj
     hide erik
@@ -217,7 +217,7 @@ label mrsj_sex_ed:
     show erik 4 at right
     show player 13 at left
     with dissolve
-    eri "Я не могу поверить {b}Mrs. Johnson{/b} согласна заниматься сексом с нами..."
+    eri "Я не могу поверить {b}Миссис Джонсон{/b} согласна заниматься сексом с нами..."
     show erik 1
     show player 17
     player_name "Я думаю что мы счастливчики..."
@@ -226,7 +226,7 @@ label mrsj_sex_ed:
     eri "Я никогда не занимался сексом раньше.."
     show erik 3c
     show player 14
-    player_name "Что ж, {b}Mrs. Johnson{/b} планирует научить нас как. И это будет офигенно!"
+    player_name "Что ж, {b}Миссис Джонсон{/b} планирует научить нас как. И это будет офигенно!"
     show player 13
     show erik 5
     eri "Но где мы достанем эту вещь которую она попрасила?"
@@ -240,7 +240,7 @@ label mrsj_sex_ed:
     eri "Ох да?"
     show erik 1
     show player 14
-    player_name "Я уверен что в {b} больнице есть таблетки про которые Mrs. Johnson{/b} говорила..."
+    player_name "Я уверен что в {b} больнице есть таблетки про которые Миссис Джонсон{/b} говорила..."
     show player 33
     player_name "И мы всегда можем найти {b}Книгу Камасутры в библиотеке{/b}!"
     show player 13
@@ -265,11 +265,11 @@ label mrsj_sex_ed_2:
     show player 13 at left
     show mrsj 14 at right
     with dissolve
-    eri "Привет, {b}Mrs. Johnson{/b}."
+    eri "Привет, {b}Миссис Джонсон{/b}."
     show erik 1f
     show mrsj 17
     mrsjo "Привет, мальчики!"
-    mrsjo "как там у вас дела?"
+    mrsjo "Как там у вас дела?"
     show mrsj 14
     show erik 4f
     eri "Мы нашли несколько вещей которые помогут тебе...с нашими уроками."
@@ -277,7 +277,7 @@ label mrsj_sex_ed_2:
     show player 239_240 with dissolve
     pause
     show player 425 with dissolve
-    player_name "Вот что я нашел, {b}Mrs. Johnson{/b}!"
+    player_name "Вот что я нашел, {b}Миссис Джонсон{/b}!"
     show player 13
     show mrsj 63
     with dissolve
@@ -295,7 +295,7 @@ label mrsj_sex_ed_2:
     show player 13 at left
     show erik 4 at right
     with dissolve
-    eri "Когда мы должны навестить {b}Mrs. Johnson{/b}?"
+    eri "Когда мы должны навестить {b}Миссис Джонсон{/b}?"
     show erik 1
     show player 14
     player_name "Я попробую придти так скоро как я смогу..."
@@ -319,11 +319,11 @@ label mrsj_sex_ed_2:
 
 label erik_breastfeeding:
     scene erik_house_cs01_01b with fade
-    show text "Это был первы раз когда я зашел в комнату {b}Mrs. Johnson{/b}.\nЯ знал её и {b}Эрика{/b} с необычными отношениями...\nЯ не ожидал увидить его... кормление грудью..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Это был первы раз когда я зашел в комнату {b}Миссис Джонсон{/b}.\nЯ знал её и {b}Эрика{/b} с необычными отношениями...\nЯ не ожидал увидить его... кормление грудью..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     scene erik_house_cs02 with fade
-    show text "Выражение их лиц сказали все...\n...Я не должен был там быть. Все было бы хорошо...\n...Если бы я постучал сперва.\nИнстинктивно,Я закрыл дверь и решил что мне лучше уйти." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Выражение их лиц сказали все...\n...Я не должен был там быть. Все было бы хорошо...\n...Если бы я постучал сперва.\nИнстинктивно, Я закрыл дверь и решил что мне лучше уйти." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
 
@@ -347,7 +347,7 @@ label erik_breastfeeding:
     player_name "Я услышал голоса и я подумал..."
     show player 11
     show erik 3b
-    eri "Я...Я просто хочу пойти в свою комнату прямо сейчас."
+    eri "Я... Я просто хочу пойти в свою комнату прямо сейчас."
     show erik 2
     show mrsj 19b
     mrsjo "Все хорошо Я-"
@@ -362,7 +362,7 @@ label erik_breastfeeding:
     mrsjo "Я просто пыталась вытащить его из своей раковины, {b}[firstname]{/b}."
     show mrsj 19c
     show player 10
-    player_name "Все нормально, {b}Mrs. Johnson{/b}."
+    player_name "Все нормально, {b}Миссис Джонсон{/b}."
     player_name "Я не хотел вламываться к вам вот так..."
     show player 5
     pause
@@ -371,7 +371,7 @@ label erik_breastfeeding:
     show player 5
     show mrsj 19
     mrsjo "Не волнуйся о нем. Он будет в порядке..."
-    mrsjo "Дело в том что ... {b}Erik{/b}похоже не видит или не может говорить со многими девченками, Так что я попыталась и..."
+    mrsjo "Дело в том что... {b}Эрик{/b} похоже не видит или не может говорить со многими девченками, так что я попыталась и..."
     show player 11
     mrsjo "...Я дала ему немного женсокой заботы!"
     mrsjo "Я думала я смогу вытащить его с его компьютера если бы он мог просто... попробовать немного на вкус!"
@@ -379,11 +379,11 @@ label erik_breastfeeding:
     show player 5
     player_name "..."
     show mrsj 19
-    mrsjo "Ты можешь просто... ты знаешь.Оставить это между нами?"
+    mrsjo "Ты можешь просто... ты знаешь. Оставить это между нами?"
     mrsjo "Я не думаю что он бы хотел чтобы другие ребят в школе узнали про это."
     show mrsj 19c
     show player 10
-    player_name "Все хорошо, {b}Mrs. Johnson{/b}.Я никому не скажу."
+    player_name "Все хорошо, {b}Миссис Джонсон{/b}. Я никому не скажу."
     hide player
     hide mrsj
     with dissolve
@@ -398,7 +398,7 @@ label erik_breastfeeding:
 label mrsj_room_locked_dialogue:
     scene expression game.timer.image("erik_inside{}_b")
     show player 10 with dissolve
-    player_name "Ууупс! {b}Mrs. Johnson{/b} должна держать дверь закрытой..."
+    player_name "Ууупс! {b}Миссис Джонсон{/b} должна держать дверь закрытой..."
     hide player with dissolve
     $ game.main()
 
@@ -406,8 +406,8 @@ label mrsj_filled_block:
     scene expression game.timer.image("erik_inside{}_b")
     show player 10
     with dissolve
-    player_name "Я должен дать {b}Mrs. Johnson{/b} отдохнуть."
-    player_name "Кроме того,я не думаю что я смогу справиться с этими двумя уроками за один день..."
+    player_name "Я должен дать {b}Миссис Джонсон{/b} отдохнуть."
+    player_name "Кроме того, я не думаю что я смогу справиться с этими двумя уроками за один день..."
     hide player with dissolve
     $ game.main()
 
@@ -419,7 +419,7 @@ label eriks_house_intro:
     mrsjo "Привет, {b}[firstname]{/b}!"
     show mrsj 14
     show player 36 with dissolve
-    player_name "Привет, {b}Mrs. Johnson{/b}."
+    player_name "Привет, {b}Миссис Джонсон{/b}."
     show player 13 with dissolve
     show mrsj 17
     mrsjo "Много времени прошло с твоего прошлого визита к нам!"
@@ -431,7 +431,7 @@ label eriks_house_intro:
     show mrsj 17
     mrsjo "Хорошо это слышать от молодого человека, вроде тебя, ведешь себя так ответсвенно."
     show mrsj 49
-    mrsjo "Не забудь оставить что не будь и для себя чтобы цеплять девченок,милый."
+    mrsjo "Не забудь оставить что не будь и для себя чтобы цеплять девченок, милый."
     show mrsj 50
     show player 21
     player_name "Да, хорошо..."
@@ -440,7 +440,7 @@ label eriks_house_intro:
     show mrsj 17
     mrsjo "Что ж, рада снова тебя видеть!"
     show mrsj 18
-    mrsjo "Ты наверно здесь чтобы увидеть {b}Эрика{/b},а не маленькую старуху как я."
+    mrsjo "Ты наверно здесь чтобы увидеть {b}Эрика{/b}, а не маленькую старуху как я."
     show mrsj 17
     mrsjo "Тут довольно тихо в округе..."
     show mrsj 14
@@ -448,7 +448,7 @@ label eriks_house_intro:
     player_name "Что вы имеете в виду?"
     show player 5
     show mrsj 19
-    mrsjo "Ну,у {b}Эрика{/b} немного поситителей и ты кажется его единственный друг."
+    mrsjo "Ну, у {b}Эрика{/b} немного поситителей и ты кажется его единственный друг."
     show mrsj 17
     show player 13
     mrsjo "Я хочу чтобы ты знал что тебе всегда рады в этом доме. Днем или ночью."
@@ -456,14 +456,14 @@ label eriks_house_intro:
     mrsjo "Ты и {b}Эрик{/b} хорошие детки."
     show mrsj 50
     show player 2
-    player_name "Спасибо, {b}Mrs. Johnson{/b}."
+    player_name "Спасибо, {b}Миссис Джонсон{/b}."
     show player 13
     pause
     show player 12
-    player_name "Где {b}Erik{/b} в любом случае?"
+    player_name "Где {b}Эрик{/b} в любом случае?"
     show player 5
     show mrsj 17
-    mrsjo "Я думаю я видела его недавно.Он что то делал редкое с внешним видом своей комнаты!"
+    mrsjo "Я думаю я видела его недавно. Он что то делал редкое с внешним видом своей комнаты!"
     mrsjo "Сейчас он в подвале."
     return
 
@@ -481,30 +481,30 @@ label erikentrance_erik_thief_2_over:
     player_name "Не очень много, все либо очень заняты или не хотят приходить."
     show erik 5
     show player 11
-    eri "Даже {b}Mia{/b}?"
+    eri "Даже {b}Мия{/b}?"
     show erik 1
     show player 10
     player_name "Я думаю она занята своей домашкой."
     show erik 3
     show player 5
-    eri "Aww чувак, кто еще будет играть с нами в карты?"
+    eri "Авв чувак, кто еще будет играть с нами в карты?"
     show player 1
     show erik 1b at Position(xpos=870)
     show mrsj 17b zorder 2 at right
     with dissolve
-    mrsjo "Что случилось,тыковка?"
+    mrsjo "Что случилось, тыковка?"
     show erik 4b
     show mrsj 14b
-    eri "Ох, ничего, {b}Mrs. Johnson{/b}."
+    eri "Ох, ничего, {b}Миссис Джонсон{/b}."
     show erik 1b
     show mrsj 18
     mrsjo "Ох, Да ладно! Я слышала что вы ребята говорили об приглошении друзей."
     show erik 5b
     show mrsj 14b
-    eri "Что ж, мы  никого не можем найти что бы поиграть в покер с нами."
+    eri "Что ж, мы никого не можем найти что бы поиграть в покер с нами."
     show erik 1b
     show mrsj 17
-    mrsjo "Оох, это звучит весело!"
+    mrsjo "Оох, это звучит грустно!"
     show erik 5b
     show mrsj 14b
     eri "Было бы более весело если бы у нас были другие игроки..."
@@ -521,21 +521,21 @@ label erikentrance_erik_thief_2_over:
     eri "Серьезно?"
     show erik 1b
     show mrsj 17
-    mrsjo "Да! Это не справедливо что пара хороших ребят как вы не могу найти кого то чтобы поиграть..."
-    mrsjo "Знаешь что, если вам понадобиться другой игрок,дай мне знать,Я всегда готова для хорошей игры в покера ночью!"
+    mrsjo "Да! Это не справедливо, что пара хороших ребят как вы не могу найти кого то чтобы поиграть..."
+    mrsjo "Знаешь что, если вам понадобиться другой игрок, дай мне знать, Я всегда готова для хорошей игры в покера ночью!"
     show erik 1
     show player 14
     show mrsj 14
     player_name "Это звучит круто!"
     show player 17
-    player_name "Спасибо, {b}Mrs. Johnson{/b}."
+    player_name "Спасибо, {b}Миссис Джонсон{/b}."
     show player 1
     show erik 1 at right
     hide mrsj
     with dissolve
     pause
     show player 14
-    player_name "Чувак!!Я не могу поверить {b}Mrs. Johnson{/b} будет играть с нами."
+    player_name "Чувак!! Я не могу поверить {b}Миссис Джонсон{/b} будет играть с нами."
     show erik 4
     show player 1
     eri "Чтож, Я думаю мы кого то нашли..."
@@ -569,7 +569,7 @@ label erikentrance_erik_thief_over:
     show player 4 with dissolve
     player_name "..."
     show player 29 with dissolve
-    player_name "Эмм, Вам не нужно, {b}Mrs. Johnson{/b}!"
+    player_name "Эмм, Вам не нужно, {b}Миссис Джонсон{/b}!"
     show player 13 with dissolve
     show mrsj 49
     mrsjo "Ох, нет. Я настаиваю!"
@@ -585,8 +585,8 @@ label erikentrance_erik_thief_over:
 label erikentrance_mrsj_yoga_2_over:
     scene expression game.timer.image("erik_inside{}_b")
     show player 10 with dissolve
-    player_name "( Здесь тихо,кто не будь есть дома? )"
-    player_name "( Может быть {b}Erik{/b}в своей комнате. )"
+    player_name "( Здесь тихо, кто не будь есть дома? )"
+    player_name "( Может быть {b}Эрик{/b} в своей комнате. )"
     show player 17
     player_name "( Я надеюсь он не спит... или занят чем то другим. )"
     hide player with dissolve
@@ -604,7 +604,7 @@ label erikentrance_mrsj_yoga_2_started:
     player_name "Я думаю все прошло хорошо?"
     show player 13
     show mrsj 17
-    mrsjo "{b}Anna{/b}была там что бы помочь тебе?"
+    mrsjo "{b}Анна{/b} была там что бы помочь тебе?"
     show mrsj 14
     show player 14
     player_name "Да, она была."
@@ -615,7 +615,7 @@ label erikentrance_mrsj_yoga_2_started:
     show mrsj 18
     mrsjo "Ха ха ха!"
     show mrsj 49
-    mrsjo "{b}Anna{/b} может встать в любую позицию в которую я ей посажу."
+    mrsjo "{b}Анна{/b} может встать в любую позицию в которую я ей посажу."
     mrsjo "Когда то она у меня была искривленая как крендель с солью."
     show mrsj 50
     show player 12
@@ -636,20 +636,20 @@ label erikentrance_mrsj_yoga_2_started:
     show mrsj 18
     mrsjo "Ты должен пойти!"
     show mrsj 49
-    mrsjo "{b}Anna{/b} может научить тебя многим вещам..."
+    mrsjo "{b}Анна{/b} может научить тебя многим вещам..."
     show mrsj 50
     show player 17
     player_name "Я уверен, ха ха."
     show player 13
     show mrsj 19
-    mrsjo "Спасибо что помог мне.Еще раз."
+    mrsjo "Спасибо что помог мне. Ещё раз."
     show mrsj 17
     mrsjo "И не думай что я забыла как много ты сделал для {b}Эрика{/b} и меня."
     show mrsj 49
     mrsjo "Я должна тебе... много."
     show mrsj 50
     show player 33
-    player_name "Не волнуйтесь об этом.Это не трудно."
+    player_name "Не волнуйтесь об этом. Это не трудно."
     hide player
     hide mrsj
     with dissolve
@@ -668,7 +668,7 @@ label erikentrance_erik_vr_over:
     player_name "Хм?"
     show player 11
     show mrsj 19
-    mrsjo "Мне нужно что бы кто-то пошел и преподал моей группе по йоге сегодня ньчью.У меня другая встреча мне нужно там присутствовать."
+    mrsjo "Мне нужно что бы кто-то пошел и преподал моей группе по йоге сегодня ньчью. У меня другая встреча мне нужно там присутствовать."
     show mrsj 14
     show player 12
     player_name "Я?!"
@@ -698,9 +698,9 @@ label erikentrance_erik_vr_over:
     player_name "Эмм... Эти движения выглядят довольно сложно..."
     show player 385
     show mrsj 17
-    mrsjo "Моя подруга {b}Anna{/b} будет там чтобы тебе помочб во время урока."
+    mrsjo "Моя подруга {b}Анна{/b} будет там чтобы тебе помочб во время урока."
     show mrsj 18
-    mrsjo "Она моя маленькая нетерпеливая бобриха.Всегда готова помочь и порадовать."
+    mrsjo "Она моя маленькая нетерпеливая бобриха. Всегда готова помочь и порадовать."
     show mrsj 14
     show player 386
     player_name "Ох. хорошо... Я постараюсь из-за всех сил."
@@ -712,7 +712,7 @@ label erikentrance_erik_vr_over:
     mrsjo "Пока!"
     show mrsj 14
     show player 386
-    player_name "Пока, {b}Mrs. Johnson{/b}."
+    player_name "Пока, {b}Миссис Джонсон{/b}."
     show player 385
     hide mrsj with dissolve
     return
@@ -728,14 +728,14 @@ label erikentrance_erik_orcette_completed:
     show player 377
     player_name "!!!"
     show player 376
-    player_name "П... привет, {b}Mrs. Johnson{/b}."
+    player_name "П... привет, {b}Миссис Джонсон{/b}."
     show player 378
     mrsjo "..."
     show mrsj 17
     mrsjo "Итак, чем вы двое планируете заниматься..."
     show mrsj 14
     show player 376
-    player_name "Ох,ничем!"
+    player_name "Ох, ничем!"
     show player 377
     show mrsj 49
     mrsjo "Вообщем что у тебя там в руках?"
@@ -746,8 +746,8 @@ label erikentrance_erik_orcette_completed:
     player_name "эм.... Да что то в этом роде."
     show player 377
     show mrsj 17
-    mrsjo "Я просто люблю сюрпризы!Что это? Это должно быть какая то новенькая игра."
-    mrsjo "Это все чем {b}Erik{/b} занимается в последнее время..."
+    mrsjo "Я просто люблю сюрпризы! Что это? Это должно быть какая то новенькая игра."
+    mrsjo "Это все чем {b}Эрик{/b} занимается в последнее время..."
     show mrsj 14
     show player 379
     player_name "Да... эм... Это не.. Ну..."
@@ -772,7 +772,7 @@ label erikentrance_erik_orcette_completed:
     player_name "Ох..."
     show player 24
     show mrsj 44
-    mrsjo "Это {b}Erik{/b} тебя надоумил?"
+    mrsjo "Это {b}Эрик{/b} тебя надоумил?"
     mrsjo "Я видела эту молнию на экране его компьютера когда я вошла в его комнату один раз."
     show mrsj 46
     show player 25
@@ -794,7 +794,7 @@ label erikentrance_erik_orcette_completed:
     show player 22
     player_name "{b}*Глоток*{/b}"
     show mrsj 44
-    mrsjo "{b}Erik{/b} наверху,сладкий."
+    mrsjo "{b}Эрик{/b} наверху, сладкий."
     mrsjo "Ох, и проследи что бы использовал смазку с этой штукой."
     mrsjo "Ты же не хочешь получить ожоги от трения на твоих...частях."
     hide mrsj with dissolve
@@ -816,7 +816,7 @@ label erikentrance_mrsj_intro_started_day:
     player_name "Хорошо, повеселись!"
     show player 13
     show mrsj 17
-    mrsjo "Ты тоже! Скажи {b}Erik{/b} что я вернусь к ужину и что бы он не ел слишко много сладостей."
+    mrsjo "Ты тоже! Скажи {b}Эрику{/b}, что я вернусь к ужину и что бы он не ел слишко много сладостей."
     show mrsj 49
     mrsjo "Я хочу чтобы он был хорошим и жаждуещим меня сегодня вечером!"
     return
@@ -829,6 +829,6 @@ label erikentrance_mrsj_intro_started_night:
     mrsjo "Я пошла спать, ток что развлекайтесь. Но запомните не делйте слишком громко если будете играть в компьютерные игры."
     show mrsj 14
     show player 14
-    player_name "Сделаем.Доброй ночи {b}Mrs. Johnson{/b}!"
+    player_name "Сделаем. Доброй ночи {b}Миссис Джонсон{/b}!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -3,7 +3,7 @@ label erik_room_dialogue:
     if erik.over(erik_crown_card) and not erik.known(erik_orcette):
         scene expression game.timer.image("erik_house_bedroom{}_b")
         show player 12 with dissolve
-        player_name "( Хм, {b}Erik{/b} здесь нет. Он должен быть в подвале... )"
+        player_name "( Хм, {b}Эрика{/b} здесь нет. Он должен быть в подвале... )"
         hide player with dissolve
 
     elif erik.completed(erik_bullying) and not erik.known(erik_bullying_2):
@@ -50,7 +50,7 @@ label erik_cards:
         show erik 36 at Position (xpos=1014)
         with dissolve
         eri "Круто!"
-        eri "Вот,ты должен увидеть новую карту которую я получил."
+        eri "Вот, ты должен увидеть новую карту которую я получил."
         eri "Я почти уверен что это будет быстра победа в предстоящем турнире!"
         show erik 38
         eri "..."
@@ -62,7 +62,7 @@ label erik_cards:
         player_name "Ты уверен?"
         show player 11
         show erik 37
-        eri "Да,я уверен! Я немогу в это поверить! Моя карта{b}Королевского члена с шипами {/b} пропала!!"
+        eri "Да,я уверен! Я немогу в это поверить! Моя карта {b}Королевский член с шипами{/b} пропала!!"
         show erik 2 at right
         if player.location == L_school_scienceclassroom:
             show erikl 2 at right
@@ -83,7 +83,7 @@ label erik_cards:
         eri "И как же?"
         show erik 3b
         show player 17
-        player_name "Я могу достать тебе еще одну."
+        player_name "Я могу достать тебе ещё одну."
         show player 13
         show erik 5
         eri "И как ты собираешься это сделать"
@@ -98,7 +98,7 @@ label erik_cards:
         show erik 3b
         pause
         show player 14
-        player_name "Не волнуйся, чувак.Я работаю сейчас на {b}[deb_name]'s{/b} подруги {b}Diane{/b}."
+        player_name "Не волнуйся, чувак. Я работаю сейчас на {b}[deb_name]{/b} подруги {b}Дианы{/b}."
         show player 13
         show erik 4
         eri "Ты реально купишь мне новую? Ты лучший, чувак!"
@@ -106,7 +106,7 @@ label erik_cards:
         show player 14
         player_name "Я рад помочь!"
         show player 17
-        player_name "Кроме того,Я хочу увидеть как ты выйграешь этот турнир!"
+        player_name "Кроме того, Я хочу увидеть как ты выйграешь этот турнир!"
         $ player.remove_item("eriks_cards")
         $ erik_card_hunt.finish()
         $ erik.add_event(erik_crown_card)
@@ -116,8 +116,8 @@ label erik_cards:
         player_name "Где ты видел свои карты в последний раз?"
         show player 11
         show erik 5
-        eri "Хммм... Я думаю что в последний раз Я взял их отсюда и оставил сдесь."
-        eri "Я играл в подвале... Но, {b}Mrs. Johnson{/b} может куда то их засунула..."
+        eri "Хммм... Я думаю что в последний раз Я взял их отсюда и оставил здесь."
+        eri "Я играл в подвале... Но, {b}Миссис Джонсон{/b} может куда то их засунула..."
         show erik 1
         show player 14
         player_name "Я помогу тебе их найти."
@@ -175,7 +175,7 @@ label erik_crown_card:
         player_name "Карт"
         show player 11
         show erik 31
-        eri "Это одна из моих любимых...Но у меня есть несколько экземпляров..."
+        eri "Это одна из моих любимых... Но у меня есть несколько экземпляров..."
         show erik 1
         if player.location == L_school_scienceclassroom:
             show erikl 1f at right
@@ -221,7 +221,7 @@ label erik_crown_card:
 
         show erik 1 at right
         show player 10 at left
-        player_name "Какая карта пропала еще раз?"
+        player_name "Какая карта пропала ещё раз?"
         show player 11
         show erik 5
         eri "Хмм... Она назывется {b}Королевский член с шипами{/b}."
@@ -260,7 +260,7 @@ label erik_package:
         show player 13
         show erik 44
         eri "Нет, но я всегда хотел попробовать!"
-        eri "{b}Mrs. Johnson{/b} ничего не видела? Я не хочу что бы она была в бешенстве..."
+        eri "{b}Миссис Джонсон{/b} ничего не видела? Я не хочу что бы она была в бешенстве..."
         show erik 42
         show player 12
         player_name "Хех, я думаю она бы с этим смирилась.Она кажется очень классной!"
@@ -305,11 +305,11 @@ label erik_package:
     else:
         show erik 1 at right
         show player 12 at left
-        player_name "Что за предмет ты хотел еще раз?"
+        player_name "Что за предмет ты хотел ещё раз?"
         show player 13
         show erik 5
         eri "Это что то вроде резинового трубы... Называется {b}Orcette{/b}..."
-        eri "You can find it online."
+        eri "Ты можешь найти его в Интернете."
         show erik 1
         show player 14
         player_name "Отлично, понял."
@@ -326,7 +326,7 @@ label erik_vr_game:
     if player.has_item("game02") and player.has_item("virtualsaga"):
         show erik 1 at right with dissolve
         show player 14 at left with dissolve
-        player_name "I got it!"
+        player_name "Понял!"
         show player 239_240
         pause
         show player 400
@@ -339,7 +339,7 @@ label erik_vr_game:
         if player.location == L_school_scienceclassroom:
             show erikl 45 at right
         with dissolve
-        eri "Вау... Это наврено было очень дорого..."
+        eri "Вау... Это наверное было очень дорого..."
         show erik 47
         eri "Сколько это стоило?!"
         show erik 45
@@ -356,7 +356,7 @@ label erik_vr_game:
         show player 13
         show erik 47
         eri "Спасибо, {b}[firstname]{/b}."
-        eri "Я уже упоминал о наличие людей в подвале с {b}Mrs. Johnson{/b}."
+        eri "Я уже упоминал о наличие людей в подвале с {b}Миссис Джонсон{/b}."
         eri "Она не возражала что бы мы использовали его."
         eri "Она всегда была печальна от того что у меня никогда не было друзей..."
         show erik 45
@@ -372,7 +372,7 @@ label erik_vr_game:
         player_name "хорошо!"
         show player 13
         show erik 46
-        eri "TСпасибо еще раз за Гарнитуру! Не терпится уже ее опробовать!"
+        eri "Спасибо еще раз за Гарнитуру! Не терпится уже ее опробовать!"
         show erik 49
         if player.location == L_school_scienceclassroom:
             show erikl 48 at right
@@ -442,7 +442,7 @@ label under_bed_book_search:
     scene expression game.timer.image("under_eriks_bed{}")
     show book_03 at Position (xpos=431,ypos=425,xanchor=0,yanchor=0)
     player_name "Просто кучка пыли..."
-    player_name "...Подождите минутку!Вот и книга под этим!"
+    player_name "...Подождите минутку! Вот и книга под этим!"
     call screen under_eriks_bed
 
     player_name "Мило, вот оно!"
@@ -464,8 +464,8 @@ label under_bed_book_search:
     else:
 
         show player 14 with dissolve
-        player_name "Отлично!Эта последняя книга!"
-        player_name "Сейчас мне надо только  вернуть их в библиотеку!"
+        player_name "Отлично! Эта последняя книга!"
+        player_name "Сейчас мне надо только вернуть их в библиотеку!"
     hide player with dissolve
     $ M_bissette.trigger(T_bissette_ask_erik)
     $ player.get_item("oedipuss")

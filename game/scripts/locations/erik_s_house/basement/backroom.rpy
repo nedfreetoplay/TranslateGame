@@ -19,7 +19,7 @@ label mrsj_afterpoker_fun:
     with dissolve
     mrsjo "Я все думала чем вы занимались оба так долго!"
     show mrsjsex 3
-    eri "Извините, {b}Mrs. Johnson{/b}."
+    eri "Извините, {b}Миссис Джонсон{/b}."
     show mrsjsex 1
     mrsjo "Я подумала что вы не хотите проводить со мной время..."
     show mrsjsex 2
@@ -30,7 +30,7 @@ label mrsj_afterpoker_fun:
     show mrsjsex 2
     player_name "Мы можем?"
     show mrsjsex 3
-    eri "Вы уверены, {b}Mrs. Johnson{/b}?"
+    eri "Вы уверены, {b}Миссис Джонсон{/b}?"
     show mrsjsex 1
     mrsjo "Почему бы тебе просто не попробовать?"
     show mrsjsex 4 with fastdissolve
@@ -92,7 +92,7 @@ label mrsj_afterpoker_fun:
                 mrsjo "Божееее мой!"
                 mrsjo "Это была отличная работа, Мальчики..."
                 mrsjo "Я думаю вы оба хотели большего..."
-                mrsjo "Я... Я думаю мы должны остановиться... на сегодня,по крайней мере."
+                mrsjo "Я... Я думаю мы должны остановиться... на сегодня, по крайней мере."
 
                 scene erik_basement
                 show player 1f at Position(xpos=756)
@@ -103,13 +103,13 @@ label mrsj_afterpoker_fun:
                 mrsjo "Мне нужно завтра рано вставать."
                 show mrsj 27f at Position(xoffset=-1)
                 show erik 5
-                eri "Извини что не дал поспать, {b}Mrs. Johnson{/b}..."
+                eri "Извини что не дал поспать, {b}Миссис Джонсонs{/b}..."
                 show mrsj 28f
                 show erik 1
-                mrsjo "Все нормально!Мне понравилось нашей маленькой ночью."
+                mrsjo "Все нормально! Мне понравилось нашей маленькой ночью."
                 show mrsj 27f at Position(xoffset=-1)
                 show player 14f
-                player_name "Спасибо что поиграли с нами, {b}Mrs. Johnson{/b}."
+                player_name "Спасибо что поиграли с нами, {b}Миссис Джонсон{/b}."
                 show mrsj 28f
                 show player 1f
                 mrsjo "Мне было очень приятно, играть с... друг с другом."
@@ -117,9 +117,9 @@ label mrsj_afterpoker_fun:
                 hide erik
                 hide player
                 with dissolve
-                mrsjo "Мальчики дайте мне знать если вам нужен будет еще кто то, чтобы поиграть снова..."
+                mrsjo "Мальчики дайте мне знать, если вам нужен будет еще кто то, чтобы поиграть снова..."
                 show mrsj 35
-                player_name "Разумеется, {b}Mrs. Johnson{/b}..."
+                player_name "Разумеется, {b}Миссис Джонсон{/b}..."
                 $ renpy.end_replay()
                 $ persistent.cookie_jar["Mrs Johnson"]["unlocked"] = True
                 $ persistent.cookie_jar["Mrs Johnson"]["gallery"]["01_unlocked"] = True

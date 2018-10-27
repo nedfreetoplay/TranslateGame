@@ -8,7 +8,7 @@ label eriksroom_erik_breastfeeding_started:
     pause
     show player 10
     player_name "Хмм?"
-    player_name "( Я думаю я слышу некоторые голоса из комнаты {b}Mrs. Johnson{/b}. )"
+    player_name "( Я думаю я слышу некоторые голоса из комнаты {b}Миссис Джонсон{/b}. )"
     show player 12
     player_name "( Я должен спросить её где найти {b}Эрика{/b}... )"
     hide player with dissolve
@@ -29,11 +29,11 @@ label june_intro:
     show player 1 at left
     show erik 4 at right
     with dissolve
-    eri "Хэй,чувак."
-    eri "Ты закончил разговаривать с {b}Mrs. Johnson{/b}?"
+    eri "Хэй, чувак."
+    eri "Ты закончил разговаривать с {b}Миссис Джонсон{/b}?"
     show player 14
     show erik 1
-    player_name "Да, она счтает что эта хоршая идея чтобы познакомиться с другими девченками..."
+    player_name "Да, она считает что эта хоршая идея чтобы познакомиться с другими девченками..."
     show player 1
     show erik 5
     eri "Ох, серьезно?"
@@ -60,7 +60,7 @@ label june_intro:
     show player 11
     eri "Я не в форме и у меня плохо получается разговаривать с людьми..."
     show player 5
-    eri "... Признай это,чувак, я только недотепа..."
+    eri "... Признай это, чувак, я только недотепа..."
     show erik 3
     eri "... Единственная вещь в которой я хорош это играть в игры!"
     show player 10
@@ -92,7 +92,7 @@ label june_intro:
     player_name "Как её зовут?"
     show player 1
     show erik 4
-    eri "Я думаю её зовут {b}June{/b}."
+    eri "Я думаю её зовут {b}Джун{/b}."
     show player 14
     show erik 1
     player_name "Ты когда-нибудь разговаривал с ней?"
@@ -136,13 +136,13 @@ label june_intro:
     eri "Я видел ее в компьютерном классе раньше много раз."
     show player 14
     show erik 1
-    player_name " Этот {b}Компютерный класс{/b} в {b}школе{/b}?"
+    player_name "Этот {b}Компютерный класс{/b} в {b}школе{/b}?"
     show player 1
     show erik 4
     eri "Да. Он на втором этаже..."
     show player 14
     show erik 1
-    player_name "Я пойду посмотрю на неё, возможно я попробую  сделать что не будь для тебя."
+    player_name "Я пойду посмотрю на неё, возможно я попробую сделать что ни будь для тебя."
     show player 1
     show erik 4
     eri "Хорошо, спасибо, мужик."
@@ -155,7 +155,7 @@ label erik_sex_ed:
     show erik 5 at right
     with dissolve
     eri "Хэй, {b}[firstname]{/b}!"
-    eri "Ты закончил разговаривать с{b}Mrs. Johnson{/b}?"
+    eri "Ты закончил разговаривать с {b}Миссис Джонсон{/b}?"
     show erik 1
     show player 14
     player_name "Да, она сказала что ей нужно подумать об этом..."
@@ -168,7 +168,7 @@ label erik_sex_ed:
     mrsjo "Можете подойти сюда, пожалуйста?"
     show erik 1
     show player 10
-    player_name "Это была {b}Mrs. Johnson{/b}?"
+    player_name "Это была {b}Миссис Джонсон{/b}?"
     show player 5
     show erik 5
     eri "Да... Я думал что она в своей комнате."
@@ -206,13 +206,13 @@ label erik_bullying:
     player_name "Все в порядке?"
     show player 5
     show erik 5 with dissolve
-    eri "{b}Mrs. Johnson{/b} отправила тебя сюда, хм?"
+    eri "{b}Миссис Джонсон{/b} отправила тебя сюда, хм?"
     show erik 3b
     show player 10
-    player_name "Я просто решил тебя проведать,вот и все."
+    player_name "Я просто решил тебя проведать, вот и все."
     show player 5
     show erik 5
-    eri "Что ж... {b}Dexter{/b} издевается надо мной каждый раз когда после твоего ухода..."
+    eri "Что ж... {b}Декстер{/b} издевается надо мной каждый раз когда после твоего ухода..."
     eri "Очень трудно ходить в школу зная что он будет там тоже. Ждать..."
     show erik 3b
     show player 12
@@ -221,7 +221,7 @@ label erik_bullying:
     show erik 5
     eri "Несколько недель назад, Я сидел в столовой и он подощел ко мне..."
     show erik 3
-    eri "...Он сказал что хочет копию моей домашки для урока {b}Miss Bissette{/b}."
+    eri "...Он сказал что хочет копию моей домашки для урока {b}Мисс Биссетта{/b}."
     show player 12
     player_name "И что ты сделал?"
     show player 11
@@ -243,7 +243,7 @@ label erik_bullying:
     show player 16
     pause
     show player 12
-    player_name "Хэй, {b}Erik{/b}..."
+    player_name "Хэй, {b}Эрик{/b}..."
     show erik 3 with dissolve
     show player 10
     player_name "Я рад что ты рассказал мне."
@@ -259,7 +259,7 @@ label erik_bullying:
     show player 13
     show erik 5
     eri "Да, я думаю..."
-    eri "Но,можешь пожалуйста не говорить  {b}Mrs. Johnson{/b} что у меня проблемы в школе?"
+    eri "Но,можешь пожалуйста не говорить {b}Миссис Джонсон{/b} что у меня проблемы в школе?"
     eri "Я не хочу чтобы она слишком волновалась.."
     show erik 3b
     show player 2
