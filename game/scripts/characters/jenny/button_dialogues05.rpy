@@ -264,9 +264,9 @@ label jenny_dialogue_watch_neighbours_continue01:
     jen "Итак?!"
     jen "Есть что-нибудь интересное?"
     show jenny 137
-    player_name "Хммм... Подожди, я вижу... {b}Mrs. Johnson{/b} на кровати..."
+    player_name "Хммм... Подожди, я вижу... {b}Миссис Джонсон{/b} на кровати..."
     show windowmrsjday 4a with dissolve
-    player_name "Что {b}Erik{/b} делает в её комнате?"
+    player_name "Что {b}Эрик{/b} делает в её комнате?"
     jen "Чем они занимаются?!"
     player_name "Он стоит перед ней на коленях..."
     player_name "Она просто разговаривает с ним."
@@ -414,8 +414,8 @@ label jenny_dialogue_watch_neighbours_menu_make_her_cum:
     show jennysex 134b
     player_name "Ты хочешь сказать, что мы можем сделать это снова?"
     show jennysex 135b
-    jen "Мы еще об этом подумамаем,извращенец..."
-    jen "Я должна привести себя в порядок.Увидимся попозже."
+    jen "Мы еще об этом подумамаем, извращенец..."
+    jen "Я должна привести себя в порядок. Увидимся попозже."
     scene bedroom
     show player 18
     with fade
