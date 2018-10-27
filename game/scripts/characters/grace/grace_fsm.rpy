@@ -1,6 +1,6 @@
 label grace_triggers_init:
     python:
-        T_grace_intro = Trigger("intro", "default")
+        T_grace_intro = Trigger("intro", "Описание")
     return
 
 label grace_fsm_init:

@@ -23,7 +23,7 @@ label button_grace_tattoo:
     mia "Я хотела бы сделать тату... Сейчас."
     show mia 7f
     show grace 2
-    grace "Сейчас?Я вижу..."
+    grace "Сейчас? Я вижу..."
     show grace 3
     grace "Вы уже придумали какой-нибудь рисунок?"
     show grace 1
@@ -83,7 +83,7 @@ label button_grace_tattoo_help:
     mia "...и я обязательно верну тебе деньги!"
     show mia 7
     show player 17
-    player_name "Все в порядке,ха ха."
+    player_name "Все в порядке, ха ха."
     show player 13
     show grace 6
     grace "Так что?"
@@ -121,7 +121,7 @@ label button_grace_tattoo_help:
     grace "Удоставерься что ты оставила повязку на ней по крайней мере несколько дней."
     show grace 1
     show mia 10f
-    mia "Хорошо,спасибо!"
+    mia "Хорошо, спасибо!"
     show mia 7f
     show grace 2
     grace "Пока, ребята."
@@ -186,10 +186,10 @@ label button_grace_tattoo_come_back:
     player_name "Очень жаль что ты не смогла сделать свою Татуировку сегодня..."
     show player 5
     show mia 12
-    mia "Все нормально.Сейчас мне нужно идти домой."
+    mia "Все нормально. Сейчас мне нужно идти домой."
     show mia 8
     show player 10
-    player_name "Хорошо,увидимся позже."
+    player_name "Хорошо, увидимся позже."
     hide player
     hide mia
     hide grace
@@ -249,7 +249,7 @@ label button_grace_paint:
     eve "Извини, она может быть немного заторможенной."
     show eve 5f
     show grace 3
-    grace "Хэй! Я все слышала!"
+    grace "Хэй! Я всё слышала!"
     show eve 6f
     show grace 1
     eve "Да, Я специально сказала это громко..."
@@ -275,18 +275,18 @@ label button_grace_paint:
     player_name "Ровно столько, чтобы сделать одну картину."
     show player 1
     show grace 2
-    grace "Ааах,художник, хм?"
+    grace "Ааах, художник, хм?"
     show grace 4
     grace "Иллюстрации, первого парня {b}Иви{/b} привело в дом художника."
     show player 11
     show grace 1
     show eve 6bf
-    eve "Чч, лучше чем этот байкерский фрик который шлялся здесь  старшей школе."
+    eve "Чч, лучше чем этот байкерский фрик который шлялся здесь в старшей школе."
     show eve 1f
     show grace 4
     grace "Хех, у тебя тут нет оргументов..."
     show grace 2
-    grace "Хочешь одну бутылку каждого цвета будет достаточно?"
+    grace "Одну бутылку каждого цвета будет достаточно?"
     show grace 3
     grace "Я предпологаю ты знаешь как смешивать?"
     show player 10
@@ -295,7 +295,7 @@ label button_grace_paint:
     show player 11
     show eve 2f
     eve "Да, ты знаешь? Голубой и красный создает фиолетовый."
-    eve "Желтый и синий  создает зеленый."
+    eve "Желтый и синий создает зеленый."
     show player 2
     show eve 1f
     player_name "Ох да, как цветное колесо, так?"
@@ -303,7 +303,7 @@ label button_grace_paint:
     show grace 2
     grace "Да, точно."
     show grace 3
-    grace "Теперь я думаю единственный вопрос дл меня,что ты сделаешь для меня?"
+    grace "Теперь я думаю единственный вопрос для меня, что ты сделаешь для меня?"
     show grace 1
     show player 10
     player_name "Ах, эмм. Я не зняю? Что ты хочешь чтобы я сделал?"
@@ -312,7 +312,7 @@ label button_grace_paint:
     grace "Хмм, ты заметил граффити на стене дома когда ты входил?"
     show player 10
     show grace 1
-    player_name "... Да,его довольно трудно не заметить."
+    player_name "... Да, его довольно трудно не заметить."
     show player 11
     show grace 2
     grace "Я отдам тебе краски если ты сотрешь его для меня."
@@ -381,7 +381,7 @@ label button_grace_paint:
     grace "{b}Коробки прямо перед стойкой{/b}.Только {b}перемести их{/b} за мою спину и краска твоя."
     show grace 1
     show player 2
-    player_name "Хорошо звучит!"
+    player_name "Звучит Отлично!"
     return
 
 label button_grace_you_look_familiar:
@@ -394,7 +394,7 @@ label button_grace_you_look_familiar:
     grace "Все в порядке?"
     show grace 1
     show player 30
-    player_name "Извини,но ты выглядишь... знакомой."
+    player_name "Извини, но ты выглядишь... знакомой."
     show player 5
     show grace 3
     grace "Хм?"
@@ -405,12 +405,12 @@ label button_grace_you_look_familiar:
     player_name "Сестры?"
     show player 11
     show grace 3
-    grace "Моя маленькая сестра? {b}Ив{/b}?"
+    grace "Моя маленькая сестра? {b}Ева{/b}?"
     show grace 1
     show player 38 with dissolve
-    player_name "Ох!Конечно!"
+    player_name "Ох! Конечно!"
     show player 14 with dissolve
-    player_name "Я вижу связь сейчас,."
+    player_name "Я теперь вижу связь."
     show player 13
     show grace 4
     grace "Ха Ха."
@@ -428,7 +428,7 @@ label button_grace_nothing:
     grace "Просто дай мне знать если тыбе чего то захочется, и мы сможем договориться о встрече!"
     show grace 1
     show player 14
-    player_name "Хорошо,Спасибо!"
+    player_name "Хорошо, Спасибо!"
     show player 13
     show grace 2
     grace "Увидимся."
