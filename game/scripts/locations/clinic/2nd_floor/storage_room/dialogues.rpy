@@ -37,7 +37,7 @@ label roz_storage_sex_pre_repeat:
     show player 13f
     pause
     show roz 5
-    roz "Удивлена увидеть тебя так быстро. I musta left an impression."
+    roz "Удивлена увидеть тебя так быстро. Я должен оставить впечатление."
     show player 14f
     show roz 4
     player_name "Д...даа. Вы были действительно хороша!"
@@ -122,7 +122,7 @@ label roz_storage_sex_pre_first:
     roz "И я думаю, что ты сможешь что-то сделать для меня."
     show player 38f
     show roz 6
-    player_name "Oh uh, s-sure. What did you have in mind?"
+    player_name "О, да, конечно. Что ты имела в виду?"
     show player 3f
     show roz 7
     roz "Так, короче, {b}[firstname]{/b}."
@@ -357,11 +357,11 @@ label roz_storage_sex_cum_after_first:
     hide roz with dissolve
     pause
     show player 37f
-    player_name "(Я... Это просто пиздец... у меня был секс с {b}Роз{/b}.)"
-    player_name "(Она старше моей бабушки...)"
+    player_name "( Я... Это просто пиздец... у меня был секс с {b}Роз{/b}. )"
+    player_name "( Она старше моей бабушки... )"
     show player 24f
-    player_name "(Ну по крайней мере я получил {b}Записи о захоронениях{/b}.)"
-    player_name "(Я надеюсь что там будет запись о судостроителе.)"
+    player_name "( Ну по крайней мере я получил {b}Записи о захоронениях{/b}. )"
+    player_name "( Я надеюсь что там будет запись о судостроителе. )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
