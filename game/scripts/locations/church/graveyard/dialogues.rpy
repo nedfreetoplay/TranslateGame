@@ -40,7 +40,7 @@ label stray_cat:
                 call expression game.dialog_select("stray_cat_have_food_take_her_pre")
                 call screen cat_name_input
                 if cat_name.strip() == "":
-                    $ cat_name = "Pussywillow"
+                    $ cat_name = "Киска ивы"
                 $ cat = Character("[cat_name]", color = "#c87efe")
                 call expression game.dialog_select("stray_cat_have_food_take_her_after")
                 $ M_player.set("pet cat", True)
