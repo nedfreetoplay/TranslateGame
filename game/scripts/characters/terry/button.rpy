@@ -123,7 +123,7 @@ label terry_button_dialogue:
 
                             call expression game.dialog_select("terry_dialogue_fake_id_no")
 
-            "Золотой Шваггер" if M_roxxy.is_state(S_roxxy_spin_bottle) and not player.has_item("goldschwagger"):
+            "GoldSchwagger" if M_roxxy.is_state(S_roxxy_spin_bottle) and not player.has_item("goldschwagger"):
                 call expression game.dialog_select("terry_dialogue_goldschwagger")
                 $ player.get_item("goldschwagger")
             "Уйти":
