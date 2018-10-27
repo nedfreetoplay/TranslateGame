@@ -6,7 +6,7 @@ label ronda_dialogue_intro:
     player_name "Привет, {b}Ронда{/b}. Как дела?"
     show player 13 with dissolve
     show ronda 3
-    ron "У меня всё хорошо.Этот вопрос был тренеровкой?"
+    ron "У меня всё хорошо. Этот вопрос был тренеровкой?"
     show ronda 2
     show player 11
     player_name "..."
@@ -19,7 +19,7 @@ label ronda_dialogue_intro:
     show player 34
     player_name "???"
     show ronda 3
-    ron "Не важно. Это то ,что мой отец всегда говорит..."
+    ron "Не важно. Это то, что мой отец всегда говорит..."
     show player 5
     ron "В любом случае, тебе лучше поторопиться потому что испытания быстро приближаются!"
     show ronda 2
