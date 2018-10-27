@@ -3,25 +3,25 @@ label police_office_first_visit_pre:
     show yumi 2f at left
     show harold 1 at right
     with dissolve
-    yum "Большое спасибо вам за эту возможность,сэр!"
+    yum "Большое спасибо вам за эту возможность, сэр!"
     yum "Я с нетерпением ждала этого момента с тех пор, как поступила в Академию."
     show harold 2
     show yumi 1f
-    harold "Это отлично, {b}Yumi{/b}."
+    harold "Это отлично, {b}Юми{/b}."
     harold "Приятно иметь нового партнера."
     show yumi 2f
     show harold 1
     yum "Мне нужно вернуться в камеру.."
     show yumi 1f
     show harold 2
-    harold "О. Хорошо тогда.До скорого."
+    harold "О. Хорошо тогда. До скорого."
     show harold 1
     hide yumi with dissolve
     pause
     show player 1 at left with dissolve
     show harold 2
-    harold "Хэй!Что ты здесь делаешь?"
-    harold "Разве ты не один из {b}Mia's{/b} одноклассников?"
+    harold "Хэй! Что ты здесь делаешь?"
+    harold "Разве ты не один из одноклассников {b}Мии{/b}?"
     show harold 1
     show player 14
     player_name "Привет, У меня есть несколько вопросов."
@@ -30,14 +30,14 @@ label police_office_first_visit_pre:
 
 label police_office_first_visit_wheres_mia:
     show player 14
-    player_name "Мне было просто интересно: вы знаете где {b}Mia{/b}?"
+    player_name "Мне было просто интересно: вы знаете где {b}Мия{/b}?"
     show player 11
     show harold 2
     harold "Извини, Сейчас я ничем не могу тебе помочь; мы заняты новым делом..."
     harold "Но, она должна быть в школе или дома."
     show harold 1
     show player 14
-    player_name "Хорошо.Спасибо,Сэр!"
+    player_name "Хорошо. Спасибо, Сэр!"
     hide player
     hide harold
     with dissolve
@@ -70,7 +70,7 @@ label police_office_mia_harold_gift:
     harold "Что-то для меня?"
     show harold 1
     show player 12
-    player_name "Ну, это от {b}Mia{/b}..."
+    player_name "Ну, это от {b}Мии{/b}..."
     player_name "...Она сказала, что нашла это дома и хочет, чтобы оно было у вас."
     show player 239_240 with dissolve
     pause
@@ -104,11 +104,11 @@ label police_office_mia_harold_gift:
     player_name "Конечно, в чем дело?"
     show player 13
     show harold 33
-    harold "Просто скажи {b}Yumi{/b} что нам нужна обновленная информация о переводе заключенного..."
+    harold "Просто скажи {b}Юми{/b} что нам нужна обновленная информация о переводе заключенного..."
     harold "...Она должна быть в подвале."
     show harold 34
     show player 14
-    player_name "Хорошо,Я скажу ей."
+    player_name "Хорошо, Я скажу ей."
     show player 13
     show harold 35
     harold "Спасибо еще раз, парень."
@@ -122,10 +122,10 @@ label police_office_mia_convince_harold_pre:
     show player 14 at left
     show earl 3 at right
     with dissolve
-    player_name "Здравствуйте, офицер {b}Earl{/b}!"
+    player_name "Здравствуйте, офицер {b}Ярл{/b}!"
     show player 13
     show earl 2 with dissolve
-    ear "Здравствуй... Как тебя зовут еще раз"
+    ear "Здравствуй... Как тебя зовут ещё раз?"
     show earl 1
     show player 10
     player_name "{b}[firstname]{/b}, Я в классе с вашей дочерью.."
@@ -136,11 +136,11 @@ label police_office_mia_convince_harold_pre:
     ear "Что тебе нужно?"
     show earl 3 with dissolve
     show player 12
-    player_name "Ну,Я надеялась найти {b}Harold{/b} здесь.Он где-то здесь?"
+    player_name "Ну, Я надеялся найти {b}Гарольда{/b} здесь. Он где-то здесь?"
     show player 13
     show earl 2 with dissolve
     ear "Он только что вышел на патрулирование, но он должен скоро вернуться.."
-    ear "Я вря дли закончу свою коробку с пончиками,когда он вернется за стол..."
+    ear "Я вря дли закончу свою коробку с пончиками, когда он вернется за стол..."
     ear "...и я ем БЫСТРО!"
     ear "В любом случае... этот парень давно не раскрывал дела.. Я не думаю что он больше на это способен."
     show earl 3 with dissolve
@@ -155,12 +155,12 @@ label police_office_mia_convince_harold_pre:
     ear "Хэй... У меня закончились пончики!"
     show player 13
     ear "Слушай, парень. Мне нужно быстро съездить и пополнить запасы. Я становлюсь злым, когда мне не хватает сахара в крови."
-    ear "И ты не хочешь познакомиться со злым {b}Earl{/b}."
-    ear "{b}Harold{/b} скоро вернется. Побудь здесь!"
+    ear "И ты не хочешь познакомиться со злым {b}Ярлом{/b}."
+    ear "{b}Гарольд{/b} скоро вернется. Побудь здесь!"
     hide earl with dissolve
     show player 12
     player_name "Хмм..."
-    player_name "( {b}Harold{/b} не очень хорошо справляется на работе,и потерял продвижение по службе... )"
+    player_name "( {b}Гарольд{/b} не очень хорошо справляется на работе, и потерял продвижение по службе... )"
     show player 10
     player_name "( Он получает страдания и дома и на работе. )"
     show player 5
@@ -171,7 +171,7 @@ label police_office_mia_convince_harold_pre:
     harold "Какие у тебя планы на сегодня?"
     show harold 1
     show player 14
-    player_name "{b}Mia{/b} хотел, чтобы я попросил тебя присоединиться к ней и {b}Helen{/b} на ужин в выходные."
+    player_name "{b}Мия{/b} хотела, чтобы я попросил тебя присоединиться к ней и {b}Хелен{/b} на ужин в выходные."
     show player 13
     show harold 29
     harold "..."
@@ -182,7 +182,7 @@ label police_office_mia_convince_harold_pre:
     hide harold
     show harold 26 at Position (xpos=762)
     with dissolve
-    harold "У меня много работы.В последнее время у меня есть много дел."
+    harold "У меня много работы. В последнее время у меня есть много дел."
     harold "Мое самое старое дело начинает выделяться на фоне моего шефа."
     harold "Мне поручили пресловутое дело ночного бандита."
     harold "Я получил накал страстей в последнее время из-за отсутствия результатов о местонахождении пропавших товаров..."
@@ -191,18 +191,18 @@ label police_office_mia_convince_harold_pre:
 
 label police_office_mia_convince_harold_pre_erik_thief:
     show harold 26
-    harold "...и {b}Larry{/b} также отказывается говорить местоположения товара..."
+    harold "...и {b}Ларри{/b} также отказывается говорить местоположения товара..."
     show harold 25
     show player 12
     player_name "Я поговорю с ним. Я знаю его жену."
-    player_name "Если я не смогу узнать у него местонахождение, может быть, я смогу попросить {b}Mrs. Johnson{/b} помочь нам."
+    player_name "Если я не смогу узнать у него местонахождение, может быть, я смогу попросить {b}Миссис Джонсон{/b} помочь нам."
     return
 
 label police_office_mia_convince_harold_pre_no_erik_thief:
     show player 12
-    player_name "Я слышал новости.В последнее время я часто видел вора возле моего дома."
+    player_name "Я слышал новости. В последнее время я часто видел вора возле моего дома."
     show harold 29
-    player_name "Он всегда крадется к моей соседке, {b}Mrs. Johnson{/b},во двор."
+    player_name "Он всегда крадется к моей соседке, {b}Миссис Джонсон{/b}, во двор."
     show player 5
     show harold 3
     harold "Серьезно? Если ты заметишь его снова, позвони мне напрямую."
@@ -226,15 +226,15 @@ label police_office_mia_convince_harold_mid:
     harold "Мне лучше вернуться к работе. Если я когда-нибудь захочу решить некоторые свои дела и освободиться пораньше от работы."
     show harold 1
     show player 14
-    player_name "Поговорим попозже, {b}Harold{/b}."
+    player_name "Поговорим попозже, {b}Гарольд{/b}."
     hide harold with dissolve
     return
 
 label police_office_mia_convince_harold_mid_erik_thief:
     show player 12
-    player_name "( Похоже, мне нужно помочь ему найти, где {b}Larry{/b} спрятал все украденное. )"
+    player_name "( Похоже, мне нужно помочь ему найти, где {b}Ларри{/b} спрятал все украденное. )"
     show player 10
-    player_name "( Иначе,у него никогда не будет времени поужинать с {b}Mia{/b} и {b}Helen{/b}. )"
+    player_name "( Иначе, у него никогда не будет времени поужинать с {b}Мией{/b} и {b}Хелен{/b}. )"
     show player 12
     player_name "( Я должен заехать в тюрьму и увидеться с ним.. )"
     player_name "( Может, он скажет мне, где украденные вещи. )"
@@ -244,17 +244,17 @@ label police_office_mia_convince_harold_mid_no_erik_thief:
     show player 12
     player_name "( Похоже, мне нужно помочь ему найти украденные товары. )"
     show player 10
-    player_name "(В противном случае, он никогда не найдет время чтобы поужинать с {b}Mia{/b} и {b}Helen{/b}. )"
+    player_name "( В противном случае, он никогда не найдет время чтобы поужинать с {b}Мией{/b} и {b}Хелен{/b}. )"
     show player 12
-    player_name "( Мне лучше приглядывать за задним двором {b}Mrs. Johnson's{/b} ночью. )"
-    player_name "( {b}Harold{/b} также отметил, вор был замечен в парке тоже. )"
+    player_name "( Мне лучше приглядывать за задним двором {b}Миссис Джонсон{/b} ночью. )"
+    player_name "( {b}Гарольд{/b} также отметил, что вор был замечен в парке. )"
     return
 
 label police_office_mia_convince_harold_after:
     show player 5
     pause
     show player 30
-    player_name "( {b}Earl{/b} все еще не вернулся. )"
+    player_name "( {b}Ярл{/b} все ещё не вернулся. )"
     show player 33
     player_name "( Интересно, сколько пончиков он сжирает каждый день... )"
     hide harold
@@ -270,10 +270,10 @@ label police_office_mia_return_goods_pre:
     harold "Привет, {b}[firstname]{/b}."
     show harold 1f
     show player 454
-    player_name "Хэй, {b}Harold{/b}!"
+    player_name "Привет, {b}Гарольд{/b}!"
     show player 453
     show harold 3f
-    harold "Что за большая сумка,у тебя с собой?"
+    harold "Что за большая сумка, у тебя с собой?"
     show harold 1f
     show player 454
     player_name "Это то, что я нашел в парке..."
@@ -308,7 +308,7 @@ label police_office_mia_return_goods_pre_erik_thief:
 
 label police_office_mia_return_goods_pre_no_erik_thief:
     show player 14f
-    player_name "{b}Larry{/b} на самом деле сказал мне, где это было."
+    player_name "{b}Ларри{/b} на самом деле сказал мне, где это было."
     player_name "Он сказал, что спрятал все украденное в парке.."
     return
 
@@ -320,7 +320,7 @@ label police_office_mia_return_goods_after:
     show player 17f
     player_name "О, не благодари меня. Я бы не нашел его, если бы ты не собрал улики.."
     show player 14f
-    player_name "Если кто-нибудь спросит меня об этом, это был офицер {b}Harold{/b} кто нашел!"
+    player_name "Если кто-нибудь спросит меня об этом, это был офицер {b}Гарольд{/b} кто нашел!"
     show player 13f
     show harold 49
     harold "О, ты слишком великодушный."
@@ -335,7 +335,7 @@ label police_office_mia_return_goods_after:
     ear "*Фыркать* Hee-uck-uck-uck"
     show earl 5
     show harold 49
-    harold "Не совсем, {b}Earl{/b}. Это все украденные вещи ночного грабителя.!"
+    harold "Не совсем, {b}Ярл{/b}. Это все украденные вещи ночного грабителя!"
     show harold 48
     show earl 6
     ear "Деррррьмммммо!"
@@ -344,13 +344,13 @@ label police_office_mia_return_goods_after:
     yum "Поздравляю, сэр!"
     show yumi 10
     show earl 6
-    ear "Я...Я всегда знал что могу на тебя рассчитывать, {b}Harold{/b}!"
+    ear "Я... Я всегда знал что могу на тебя рассчитывать, {b}Гарольд{/b}!"
     show earl 5
     show harold 49
     harold "Спасибо ребята. Я действительно ничего такого не сделал-"
     show harold 48
     show player 14f
-    player_name "{b}Harold's{/b} просто скромничает!"
+    player_name "{b}Гарольд{/b} просто скромничает!"
     show player 13f
     show earl 6
     ear "Итак, какие там пропавшие вещи?"
@@ -360,23 +360,23 @@ label police_office_mia_return_goods_after:
     hide harold
     show earl 7 at left
     with dissolve
-    ear "Вау! Я не думал, что ты на такое способен в последнее время, {b}Harold{/b}!"
+    ear "Вау! Я не думал, что ты на такое способен в последнее время, {b}Гарольд{/b}!"
     ear "Но ты раскрыл одно из самых громких дел в последние годы!"
     show earl 8
-    ear "Ты наверняка получишь продвижение по службе, найдя все украденные предметы! Черт возьми, ты заслуживаешь повышения.!"
+    ear "Ты наверняка получишь продвижение по службе, найдя все украденные предметы! Черт возьми, ты заслуживаешь повышения!"
     show earl 7
-    "*Ворчание* *Ворчание*"
+    "*Урчание* *Урчание*"
     show earl 8
     ear "Знаешь... Мой живот урчит... Все это волнение сделало меня очень голодным!"
-    ear "Мне нужно найти себе пончик.!"
+    ear "Мне нужно найти себе пончик!"
     hide earl
     show harold 48 at left
     with dissolve
     show yumi 11
-    yum "Поздравляю еще раз, {b}Harold{/b}."
+    yum "Поздравляю ещё раз, {b}Гарольд{/b}."
     show yumi 10
     show harold 49
-    harold "Спасибо, {b}Yumi{/b}."
+    harold "Спасибо, {b}Юми{/b}."
     show harold 50
     hide yumi
     show player 11f
@@ -404,20 +404,20 @@ label police_office_mia_return_goods_after:
     harold "Ты знаешь... на самом деле попытался решить мои другие дела вместо того, чтобы пытаться просто сделать его в течение дня."
     show harold 1f
     show player 14f
-    player_name "Молодец {b}Harold{/b}.Я рад что тебе лучше."
+    player_name "Молодец {b}Гарольд{/b}. Я рад что тебе лучше."
     player_name "Я знаю, что всегда чувствую себя хорошо после чего-то в школе."
     show player 17f
-    player_name "{b}Mia{/b} и {b}Helen{/b} будут рады услышать, что ты решил это дело тоже!"
+    player_name "{b}Мия{/b} и {b}Хелен{/b} будут рады услышать, что ты решил это дело тоже!"
     show player 13f
     show harold 25f
     pause
     show harold 2f
-    harold "Знаешь что. Я все-таки приду на ужин все-таки."
-    harold "Я чувствую, как груз упал с моих плечь теперь, когда ценности людей были найдены."
+    harold "Знаешь что. Я все-таки приду на ужин."
+    harold "Я чувствую, как груз теперь упал с моих плечь, когда ценности людей были найдены."
     harold "Я позвоню им в ближайшее время и составлю планы на ужин... Мне действительно есть, о чем им рассказать!"
     show harold 1f
     show player 14f
-    player_name "Я рад, что все получилось в конце концов, {b}Harold{/b}."
+    player_name "Я рад, что все получилось в конце концов, {b}Гарольд{/b}."
     show player 13f
     pause
     show player 36f with dissolve
@@ -449,7 +449,7 @@ label police_harolds_desk_dialogue:
     player_name "( Это его старая фотография? )"
     call screen harolds_desk
     scene police_office_picture
-    player_name "( Это... {b}Helen{/b} и {b}Harold{/b}?! )"
+    player_name "( Это... {b}Хелен{/b} и {b}Гарольд{/b}?! )"
     player_name "( Вау... Они так по-другому... и намного счастливее! )"
     player_name "..."
     player_name "( Где это место? )"
