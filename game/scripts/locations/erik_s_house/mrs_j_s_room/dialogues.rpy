@@ -5,19 +5,19 @@ label mrsjroom_mrsj_private_yoga_intro:
     show mrsj 54
     show player 434
     mrsjo "Ну, у меня есть несколько специальных позиций, которые я всегда хотела попробовать."
-    mrsjo "Я просто никогда никому не делала их... если ты не думаешь, чтобы мне помочь?"
+    mrsjo "У меня никогда не было того, с кем можно было бы их сделать... только если ты не хочешь мне помочь?"
     show mrsj 53
     show player 435
     player_name "Конечно, {b}Миссис Джонсон{/b}, Я с удовольствием помогу!"
     show mrsj 54
     show player 434
-    mrsjo "Ты думаешь, что у тебя достаточно энергии, чтобы идти в ногу?"
+    mrsjo "Ты думаешь, что у тебя достаточно энергии, чтобы смочь?"
     show mrsj 53
     show player 435
     player_name "Я могу попробовать!"
     show mrsj 54
     show player 434
-    mrsjo "Окей. Начните с снятия одежды..."
+    mrsjo "Окей. Начни со снятия одежды..."
     show mrsj 53
     show player 8 with fastdissolve
     pause
@@ -28,7 +28,7 @@ label mrsjroom_mrsj_private_yoga_intro:
     show player 431 with vpunch
     show mrsj 54
     mrsjo "Вау!"
-    mrsjo "Я не думаю, что я когда-либо видел что-то о йоге!"
+    mrsjo "Я не думаю, что я когда-либо видела что-то такое возбужденное в йоге!"
     mrsjo "Почему бы тебе не лечь на кровать и не устроиться поудобнее со мной?"
     scene erik_upstairs_night_c2
     show mrsjsex 33 at topright
@@ -61,7 +61,7 @@ label mrsjroom_mrsj_private_yoga_pos1:
     mrsjo "Эта позиция большое удовольствие..."
     mrsjo "... ты просто подожди, позволь мне поработать..."
     show mrsjsex 40
-    mrsjo "Ты такой большой, {b}[firstname]{/b}..."
+    mrsjo "Ты такой БОЛЬШОЙ, {b}[firstname]{/b}..."
     show mrsjsex 41 with fastdissolve
     pause 0.5
     show mrsjsex 42 at Position(xoffset=-14) with fastdissolve
@@ -85,8 +85,8 @@ label mrsjroom_mrsj_private_yoga_pos1:
 label mrsjroom_mrsj_private_yoga_pos2:
     hide screen erimom_private_pos2_sex_options
     show mrsjsex 42_43_44_45_46
-    mrsjo "Hold me tight, {b}[firstname]{/b}..."
-    mrsjo "... cum inside me!"
+    mrsjo "Продолжай, {b}[firstname]{/b}..."
+    mrsjo "... кончи в меня!"
     player_name "Ты уверена?"
     mrsjo "Да, мне нужно почувствовать твою энергию!"
     show mrsjsex 47 at Position(xoffset=-34) with vpunch
@@ -94,9 +94,9 @@ label mrsjroom_mrsj_private_yoga_pos2:
     show white zorder 4
     pause 0.3
     hide white with dissolve
-    mrsjo "Yes..."
-    mrsjo "I love the feeling of all that energy flowing, dripping..."
-    player_name "Isn't doing it inside dangerous?"
+    mrsjo "Да..."
+    mrsjo "Мне нравится ощущение, когда энергия течет, капает..."
+    player_name "Разве во внутрь это не опасно?"
     show mrsjsex 48 at Position(xoffset=-13) with dissolve
     mrsjo "Я на таблетках, тебе не стоит об этом беспокоиться, милый..."
     scene erik_upstairs_night_c2
@@ -134,10 +134,10 @@ label mrsjroom_mrsj_3some_intro:
     player_name "{b}Эрик{/b} и я хотели спросить, не могли бы вы научить нас кое-чему?"
     show player 13
     show erik 4f
-    eri "Да, мы хотели бы попробовать... занимающийся сексом."
+    eri "Да, мы хотели бы попробовать... позаниматься сексом."
     show mrsj 40
     show erik 1f
-    mrsjo "Я надеялась, что двое придут ко мне на пару уроков."
+    mrsjo "Я надеялась, что вы двое придете ко мне на пару уроков."
     show mrsj 39
     show player 21
     player_name "Серьёзно?"
@@ -148,11 +148,11 @@ label mrsjroom_mrsj_3some_intro:
     show erik 1f
     mrsjo "Ну, я читала эту замечательную книгу, которую ты мне принес..."
     show mrsj 40
-    mrsjo "... and I think I have just the right thing for us!"
+    mrsjo "... и я думаю что нашла правильные вещи для вас!"
     mrsjo "Как насчет того, чтобы показать вам пару поз?"
     show mrsj 39
     show player 21
-    player_name "Se-sex positions?"
+    player_name "Се-сексуальные позиции?"
     show player 13
     show mrsj 40
     mrsjo "Почему бы тебе не снять одежду и присоединиться ко мне в постели?"
@@ -203,7 +203,7 @@ label mrsjroom_mrsj_3some_pos2:
     player_name "Я вошел внутрь... Это нормально?"
     mrsjo "Хорошо, что я начала принимать таблетки..."
     player_name "Простите, {b}Миссис Джонсон{/b}."
-    mrsjo "Все в порядке, дорогой. Я люблю чувство спермы капает из моего..."
+    mrsjo "Все в порядке, дорогой. Я люблю чувство когда сперма капает из моего..."
     mrsjo "... Думаю, нам стоит сделать перерыв."
     scene erik_upstairs_night_c2
     show mrsj 56 at right
@@ -217,39 +217,39 @@ label mrsjroom_mrsj_3some_pos2:
     show erik 59f
     show mrsj 56
     mrsjo "Просто немного устала, Тыковка..."
-    mrsjo "... but you both did amazingly well."
-    mrsjo "I think I need a nap after all this!"
-    mrsjo "You boys feel free to come back another day..."
+    mrsjo "... но вы оба отлично справились."
+    mrsjo "умаю, мне нужно вздремнуть после всего этого!"
+    mrsjo "Мальчики, вы можете вернуться в другой день..."
     show mrsj 55
     show erik 60f
-    eri "Come on, we should leave and let {b}Mrs. Johnson{/b} rest."
+    eri "Давай, мы должны уйти и дать {b}миссис Джонсон{/b} отдохнуть."
     show erik 59f
     scene expression "backgrounds/location_erik_house_inside_night_blur.jpg"
     show erik 4 at right
     show player 1 at left
     with fade
-    eri "That was amazing!!"
+    eri "Это было потрясающе!!"
     show erik 1
     show player 17
-    player_name "Yeah, {b}Mrs. Johnson{/b} is awesome..."
+    player_name "Да, {b}миссис Джонсон{/b} великолепна..."
     show erik 4
     show player 1
-    eri "I never thought it would feel this good..."
+    eri "Никогда не думал, что будет так хорошо..."
     show erik 1
     show player 14
-    player_name "I think she really liked it too!"
+    player_name "Думаю, ей тоже очень понравилось!"
     show erik 4
     show player 1
-    eri "You need to come by again so we can have more fun..."
+    eri "Тебе нужно зайти еще раз, чтобы нам было веселее..."
     show erik 1
     show player 14
-    player_name "I'll try to come by soon, I promise!"
+    player_name "Я постараюсь прийти в ближайшее время, обещаю!"
     show erik 4
     show player 1
-    eri "I'll go play some games in my room, talk to you later."
+    eri "Я пойду поиграю в игры на компе в своей комнате, поговорим позже."
     show erik 1
     show player 14
-    player_name "Cool, I'll see you then!"
+    player_name "Круто, тогда увидимся позже!"
     hide erik
     hide player
     with dissolve
