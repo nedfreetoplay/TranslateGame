@@ -9,7 +9,7 @@ label sister_fsm_init:
     python:
 
         S_jenny_start = State("start")
-        S_jenny_bored = State("bored", "Ждать что что-то случится")
+        S_jenny_bored = State("bored", "Ждать того, что что-то случится")
         S_jenny_bedroom1 = State("Bedroom1", "В ожидании рейда трусиков")
 
 
