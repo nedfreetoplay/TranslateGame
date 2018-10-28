@@ -72,9 +72,9 @@ label yoga_room_mrsj_yoga_help_started_pre_first:
         "Прости?"
     show player 385
     if not M_anna.is_state(S_anna_start):
-        anna "Ты не видел {b}Tammy{/b} в последнее время?"
+        anna "Ты не видел {b}Тэмми{/b} в последнее время?"
     else:
-        "Ты не видел {b}Tammy{/b} в последнее время?"
+        "Ты не видел {b}Тэмми{/b} в последнее время?"
     show anna 11
     show player 384
     player_name "На самом деле, она не сможет прийти сегодня вечером."
@@ -88,7 +88,7 @@ label yoga_room_mrsj_yoga_help_started_pre_first:
         "Ох, она рассказала тебе что надо делать?"
     show anna 11
     show player 386
-    player_name "Ну, {b}Mrs. Johnson{/b} дала мне этот список с указаниями."
+    player_name "Ну, {b}Миссис Джонсон{/b} дала мне этот список с указаниями."
     show player 381
     player_name "Я посмотрел их немного... Думаю,я справлюсь."
     if not M_anna.is_state(S_anna_start):
@@ -101,11 +101,11 @@ label yoga_room_mrsj_yoga_help_started_pre_first:
     else:
 
         show player 384
-        player_name "Ты не видела девушку по имени, {b}Anna{/b}?"
-        player_name "{b}Mrs. Johnson{/b} сказала что она сможет помочь мне."
+        player_name "Ты не видела девушку по имени, {b}Анна{/b}?"
+        player_name "{b}Миссис Джонсон{/b} сказала что она сможет помочь мне."
         show player 385
         show anna 3 with dissolve
-        anna "Я {b}Anna{/b}!!"
+        anna "Я - {b}Анна{/b}!!"
         show anna 1
         show player 386
         player_name "Ох!!"
@@ -200,9 +200,9 @@ label yoga_room_class_failure_dialogue:
         show player 417
     show anna 13
     if mrsj.started(mrsj_yoga_help):
-        anna "Просто взгляни на {b}Tammy's{/b} заметки и постарайся их запомнить на следующий раз."
+        anna "Просто взгляни на заметки {b}Тэмми{/b} и постарайся их запомнить на следующий раз."
     else:
-        anna "Просто взгляни на {b}Tammy's{/b} заметки и постарайся их запомнить на следующий раз."
+        anna "Просто взгляни на заметки {b}Тэмми{/b} и постарайся их запомнить на следующий раз."
     if boner_fail:
         show player 419
     else:
@@ -218,7 +218,7 @@ label yoga_room_class_failure_dialogue:
     if mrsj.started(mrsj_yoga_help):
         player_name "Я должен запомнить все движения и попытаться еще раз завтра."
         show player 25
-        player_name "Я не могу позволить чтобы {b}Mrs. Johnson{/b} и {b}Anna{/b} вот так разочеровались во мне..."
+        player_name "Я не могу позволить чтобы {b}Миссис Джонсон{/b} и {b}Анна{/b} вот так разочеровались во мне..."
     else:
         player_name "Я должен запомнить все движения и попытаться еще раз завтра."
     hide player with dissolve
@@ -358,7 +358,7 @@ label yoga_room_class_success_after:
     anna "...И мне очень понравилось быть твоей помощницей!"
     show anna 1
     show player 83
-    player_name "Я просто пытался помочь {b}Mrs. Johnson{/b}."
+    player_name "Я просто пытался помочь {b}Миссис Джонсон{/b}."
     show player 79 with dissolve
     player_name "Это было и в правду довольно весело."
     show player 82 at left with dissolve
@@ -371,7 +371,7 @@ label yoga_room_class_success_after:
     show player 82 at left with dissolve
     show anna 2
     anna "Просто убедись что ты пришёл ночью."
-    anna "Это когда{b}Tammy{/b} уходит и мне нужна помощь..."
+    anna "Это когда {b}Тэмми{/b} уходит и мне нужна помощь..."
     show anna 1
     show player 83
     player_name "Эмм... Конечно."
