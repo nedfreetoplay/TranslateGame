@@ -66,7 +66,7 @@ label mia_dialogue_helen_change_news:
     mia "Что случилось?"
     show mia 7
     show player 14
-    player_name "Я разговаривала с твоей мамой. Я думаю, что достучался до нее!"
+    player_name "Я разговаривал с твоей мамой. Я думаю, что достучался до нее!"
     show player 13
     show mia 10
     mia "Ты сделал это?! Но как..."
@@ -444,7 +444,7 @@ label mia_dialogue_science_classroom_mia_parent_unblock:
     player_name "Во всяком случае, я должен вернуться к классу-"
     show player 11
     show mia 12
-    mia "Подожди!! I..."
+    mia "Подожди!! Я..."
     mia "Я хотела узнать твое мнение о кое чём."
     show player 14
     show mia 8
@@ -971,7 +971,7 @@ label mia_dialogue_mia_show_tattoo_pass:
     player_name "Круто! Я рад, что тебе понравилось."
     show player 13
     show mia 30
-    mia "Мы должны посетить {b}Сахарные тату{/b} и посмотрим, смогут ли они сделать это для меня."
+    mia "Мы должны посетить салон {b}Сахарные татушки{/b} и посмотрим, смогут ли они сделать это для меня."
     show mia 7
     if player.location == L_school_scienceclassroom:
         show mial 1f
