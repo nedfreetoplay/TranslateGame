@@ -69,7 +69,7 @@ label engine_broken_dialogue:
     player_name "( Подонки! )"
     show player 11
     player_name "( Я никак не могу это исправить. Нам нужен совершенно новый двигатель. )"
-    player_name "( Я, наверное, должен сказать {b}[deb_name]{/b}об этом. Она расстроится! )"
+    player_name "( Я, наверное, должен сказать {b}[deb_name]{/b} об этом. Она расстроится! )"
     return
 
 label lawnmower_dialogue:
@@ -215,7 +215,7 @@ label garage_dewitt_make_new_flute:
     pause
     show player 566 with dissolve
     player_name "Эй, эта штука звучит неплохо!"
-    player_name "Бьюсь об заклад,{b}Ms. Dewitt{/b} офигеет , когда увидит, что я сделал флейту с нуля!"
+    player_name "Бьюсь об заклад,{b}Мисс Девитт{/b} офигеет , когда увидит, что я сделал флейту с нуля!"
     hide player with dissolve
     return
 
