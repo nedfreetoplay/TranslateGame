@@ -85,7 +85,7 @@ label mia_button_dialogue:
 
             call expression game.dialog_select("mia_dialogue_mias_house_entrance_intro")
     menu mia_dialogue:
-        "Обащаться." if player.location == L_miahouse_miaroom:
+        "Общаться." if player.location == L_miahouse_miaroom:
             call expression game.dialog_select("mia_dialogue_chat")
             jump expression game.dialog_select("mia_dialogue")
 
@@ -130,7 +130,7 @@ label mia_button_dialogue:
             $ player.remove_item(drawn_tattoo)
             $ M_mia.trigger(T_mia_right_tattoo)
 
-        "Sugar Tats" if M_mia.is_state([S_mia_get_tattoo, S_mia_buy_tattoo]):
+        "Салон Sugar Tats." if M_mia.is_state([S_mia_get_tattoo, S_mia_buy_tattoo]):
             call expression game.dialog_select("mia_dialogue_mia_get_tattoo")
 
         "Церковь." if M_mia.is_state(S_mia_church_plan):
