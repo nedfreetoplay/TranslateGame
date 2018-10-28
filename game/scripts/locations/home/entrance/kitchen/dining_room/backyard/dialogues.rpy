@@ -34,7 +34,7 @@ label backyard_mom_fetch_towel_success:
     deb "... Согреть меня по другому..."
     show debbie 207 with dissolve
     show player 11f
-    player_name "{b}*Глоть*{/b}"
+    player_name "{b}*Глоток*{/b}"
     show player 10f
     player_name "Я... Эмм-"
     show player 5f
@@ -147,7 +147,7 @@ label backyard_mom_midnight_swim:
     dia "Это намного лучше обычной мастурбации! Думаю, что это просто глупое табу..."
     show diane 175
     show debbie 199
-    deb "Да, может быть, но мне хорошо и с моими пальцами, {b}Diane{/b}..."
+    deb "Да, может быть, но мне хорошо и с моими пальцами, {b}Диана{/b}..."
     deb "У меня никогда не было проблем с оргазмом. Но в последнее время... Я только прикасаюсь и бум, фейерверки!"
     show debbie 198
     show diane 176
@@ -155,7 +155,7 @@ label backyard_mom_midnight_swim:
     show diane 175
     pause
     show debbie 199
-    deb "Это всё {b}[firstname]{/b}, {b}Diane{/b}! Вся эта история будто что-то пробудила во мне..."
+    deb "Это всё {b}[firstname]{/b}, {b}Диана{/b}! Вся эта история будто что-то пробудила во мне..."
     show debbie 198
     show diane 171
     dia "Звучит офигенно!"
@@ -179,7 +179,7 @@ label backyard_mom_midnight_swim:
     show debbie 201
     deb "Mмм, о господи!"
     show debbie 199
-    deb "Прекрати, {b}Diane{/b}..."
+    deb "Прекрати, {b}Диана{/b}..."
     show debbie 201
     deb "Из-за тебя я ещё сильнее возбуждаюсь."
     show debbie 198
@@ -189,7 +189,7 @@ label backyard_mom_midnight_swim:
     show diane 170
     pause
     show debbie 199
-    deb "Это плохая идея, {b}Diane{/b}."
+    deb "Это плохая идея, {b}Диана{/b}."
     deb "Это мимолетное увлечение. Он скоро вырастет и начнет ухлестывать за девочками своего возраста."
     show debbie 198
     show diane 171
@@ -265,7 +265,7 @@ label backyard_mom_midnight_swim:
     dia "Тебя завтра ждет насыщенный день."
     show diane 175
     show debbie 201
-    deb "... А ты всё не оставляешь свои надежды, {b}Diane{/b}! Кто знает, что произойдет на самом деле..."
+    deb "... А ты всё не оставляешь свои надежды, {b}Диана{/b}! Кто знает, что произойдет на самом деле..."
     deb "Я тебе скоро позвоню, ладно?"
     show debbie 200
     show diane 172
@@ -275,7 +275,7 @@ label backyard_mom_midnight_swim:
     show diane 177 with dissolve
     pause
     show debbie 201
-    deb "Да, да... Спокойной ночи, {b}Diane{/b}!"
+    deb "Да, да... Спокойной ночи, {b}Диана{/b}!"
     show debbie 202
     show diane 178
     with dissolve
@@ -286,7 +286,7 @@ label backyard_mom_midnight_swim:
     dia "Ну, особенно с того момента, как оба полотенца у меня!!"
     show diane 179 with dissolve
     dia "Хахаха! Спокойной ночи, {b}сосочка{/b}!"
-    deb "Эй! {b}Diane{/b}! Какого черта!"
+    deb "Эй! {b}Диана{/b}! Какого черта!"
     hide diane with dissolve
     pause
     show debbie 199 with dissolve
@@ -303,7 +303,7 @@ label backyard_mom_midnight_swim:
 
     scene home_diningroom_night_c
     show player 26f with dissolve
-    player_name "Не знаю, почему {b}[deb_name]{/b} и {b}Diane{/b} были настолько расковаными... Нужно спросить, не нужна ли {b}[deb_name]{/b} моя помощь."
+    player_name "Не знаю, почему {b}[deb_name]{/b} и {b}Диана{/b} были настолько расковаными... Нужно спросить, не нужна ли {b}[deb_name]{/b} моя помощь."
     hide player with dissolve
 
     scene backyard_night_c with fade
@@ -326,12 +326,12 @@ label backyard_mom_midnight_swim:
     player_name "Просто пришел удостовериться, что всё в порядке..."
     show player 13f
     show debbie 204
-    deb "Ох, хех. Прости! Просто мы с {b}Diane{/b} немного перебрали."
+    deb "Ох, хех. Прости! Просто мы с {b}Дианой{/b} немного перебрали."
     show debbie 205
     show player 26f
     player_name "Оу, окей."
     show player 14f
-    player_name "{b}Diane{/b} уже ушла?"
+    player_name "{b}Диана{/b} уже ушла?"
     show player 13f
     show debbie 204
     deb "Хех, да. И она забрала оба полотенца!"
