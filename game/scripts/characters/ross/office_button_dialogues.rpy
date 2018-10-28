@@ -7,7 +7,7 @@ label button_ross_office_generic_pre_hscene:
     ross "Мило с твоей стороны что ты решил навестить меня!"
     show ross 10
     show player 2f
-    player_name "Здравствуйте, {b}Miss Ross{/b}."
+    player_name "Здравствуйте, {b}Мисс Росс{/b}."
     show ross 11
     show player 1f
     ross "Чем я могу тебе помочь?"
@@ -18,7 +18,7 @@ label button_ross_office_generic_post_hscene:
     show ross 10 at left
     show player 2f at right
     with dissolve
-    player_name "Хэй, {b}Мисс Росс{/b}!"
+    player_name "Привет, {b}Мисс Росс{/b}!"
     show player 1f
     show ross 27 with dissolve
     ross "{b}[firstname]{/b}! Я так рада тебя видеть!"
