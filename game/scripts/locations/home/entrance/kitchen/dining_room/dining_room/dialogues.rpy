@@ -72,7 +72,7 @@ label dining_room_mom_diane_dinner:
     show player 226
     show jenny 47
     show debbie 70
-    jen "Стоп, ты серьезно?! {b}Diane{/b} теперь жить тут будет? Вот просто так?"
+    jen "Стоп, ты серьезно?! {b}Диана{/b} теперь будет жить тут? Вот просто так?"
     show player 224
     show jenny 48
     show debbie 71
@@ -131,7 +131,7 @@ label dining_room_mom_diane_dinner:
     dia "Было так приятно хоть недолго побыть вне дома!"
     show diane 136
     show debbie 92f
-    deb "Была рада тебя увидеть, {b}Diane{/b}! Тебе здесь всегда рады!"
+    deb "Была рада тебя увидеть, {b}Диана{/b}! Тебе здесь всегда рады!"
     show debbie 91f
     show diane 137
     dia "Ох, и не думай, что я забуду о твоем предложении!"
@@ -139,12 +139,12 @@ label dining_room_mom_diane_dinner:
     dia "Только скажи! Я тут же соберу вещи и прилечу к вам!"
     show diane 136
     show debbie 93f
-    deb "Хах! Я знаю, {b}Diane{/b}. Главное, будь на связи."
+    deb "Хах! Я знаю, {b}Диана{/b}. Главное, будь на связи."
     show debbie 91f
     show diane 137
     dia "Всем доброй ночи!"
     show player 2
-    player_name "Доброй ночи, {b}Diane{/b}!"
+    player_name "Доброй ночи, {b}Диана{/b}!"
     hide debbie
     hide diane
     hide jenny
@@ -174,7 +174,7 @@ label dining_room_sis_breakfast:
     show jenny 48
     player_name "Хмм?"
     show jenny 47
-    jen "Тебе нравится работать на {b}Diane{/b}."
+    jen "Тебе нравится работать у {b}Дианы{/b}?"
     show player 321
     show jenny 48
     player_name "Да, и что?"
@@ -198,7 +198,7 @@ label dining_room_sis_breakfast:
     player_name "Чего?"
     show player 322
     show jenny 87
-    jen "Да ладно, я же знаю, что ты слышал истории о {b}Diane{/b}!"
+    jen "Да ладно, я же знаю, что ты слышал истории о {b}Диане{/b}!"
     show player 320
     show jenny 86
     jen "Она очень любит... обнимать и целовать своих помощников."
@@ -247,7 +247,7 @@ label dining_room_sis_breakfast:
     player_name "Я подумаю."
     show player 322
     show jenny 86
-    jen "Ладно, придешь ко мне, когда примишь решение."
+    jen "Ладно, придешь ко мне, когда подумаешь."
     show player 323
     show jenny 88
     player_name "Хорошо..."
@@ -264,7 +264,7 @@ label dining_room_sis_breakfast_done:
     show jenny 47
     show player 322
     if game.timer.is_weekend():
-        jen "Ты разве не собирался пойти к {b}Erik{/b}?"
+        jen "Ты разве не собирался пойти к {b}Эрику{/b}?"
     else:
         jen "Тебе разве не пора в школу?"
     show jenny 48
