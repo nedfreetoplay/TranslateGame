@@ -18,7 +18,7 @@ label dining_room_table_dialogue:
     else:
 
         show player 2 with dissolve
-        player_name "( Nobody's here. The table isn't set either. )"
+        player_name "( Здесь никого нет. Стол тоже не накрыт. )"
     $ game.main()
 
 label dining_room_table_sis:
