@@ -215,11 +215,11 @@ label entrance_mia_angelicas_home_visit:
     player_name "..."
     show player 30
     player_name "Что сейчас?"
-    player_name "Я привел к вам {b}Helen{/b}. Разве этого недостаточно?"
+    player_name "Я привел к вам {b}Хелен{/b}. Разве этого недостаточно?"
     show player 5
     show ang 4
     ang "О, нет, дорогой ребенок. {b}У Бога{/b} есть много вещей для вас."
-    ang "{b} Хелен{/b} далеко не очищенна. Ее упрямство раздражает."
+    ang "{b}Хелен{/b} далеко не очищенна. Ее упрямство раздражает."
     show ang 3
     show player 26
     player_name "Расскажи мне об этом."
@@ -237,7 +237,7 @@ label entrance_mia_angelicas_home_visit:
     player_name "Что вам нужно?"
     show player 5
     show ang 2
-    ang "Я намерен подорвать{b}Helen{/b} с помощью бичевания."
+    ang "Я намерена подорвать {b}Хелен{/b} с помощью бичевания."
     show ang 1
     show player 12
     player_name "Что?"
@@ -493,7 +493,7 @@ label entrance_mom_clothes_dirty:
 
 label entrance_mom_debt_collectors:
     scene henchman_cs1 2 with fade
-    show text "Я ожидал увидеть {b}Эрика{/b}, но вместо него там стоял странный мужчина...\nОн был весь в черном, с таким взглядом, что даже тренер Бриджит не могла бы м ним соперничать." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я ожидал увидеть {b}Эрика{/b}, но вместо него там стоял странный мужчина...\nОн был весь в черном, с таким взглядом, что даже тренер Бриджит не могла бы с ним соперничать." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     scene henchman_cs1 1
