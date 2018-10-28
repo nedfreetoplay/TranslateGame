@@ -22,7 +22,7 @@ label button_ross_end_intro:
     ross "Вот он мой маленький герой!"
     show player 2f
     show ross 1
-    player_name "Хех, здравствуйте {b}Miss Ross{/b}."
+    player_name "Хех, здравствуйте {b}Мисс Росс{/b}."
     show player 1f
     show ross 13 with dissolve
     ross "Ты занят {b}сегодня вечером{/b}?"
