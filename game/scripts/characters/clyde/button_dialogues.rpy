@@ -6,10 +6,10 @@ label button_clyde_roxxy_get_evidence_intro:
     player_name "Нам нужно поговорить об этой ситуации с {b}Кристи{/b}."
     show player 5f
     show clyde 22
-    clyde "Я не хочу..."
+    clyde "Я бы предпочел не..."
     show clyde 21
     show player 10f
-    player_name "{b}Клайд{/b}, они хотят отправить её в тюрьму и избавиться от трейлера!"
+    player_name "{b}Клайд{/b}, они собираются отправить ее в тюрьму и забрать трейлер!"
     show player 5f
     show clyde 26
     clyde "Послушай дорогой! Ты думаешь что я не знаю об этом!"
@@ -109,7 +109,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 4
     clyde "Пффф! Да ладно дружище..."
     clyde "Ты хоть знаешь с кем ты разговариваешь?"
-    clyde "Я могу продать замороженый кетчуп как девченка которая носит белые перчатки!"
+    clyde "Я могу продать эскимо с кетчупом девушке в белых перчатках!"
     show clyde 3
     show player 11f
     player_name "..."

@@ -6,7 +6,7 @@ label judith_dialogue_start:
     jud "Эй {b}[firstname]{/b}!"
     show player 2 at left
     show judith 4 at right
-    player_name "Эй {b}Judith{/b}, как дела?"
+    player_name "Эй {b}Джудит{/b}, как дела?"
     show player 1 at left
     show judith 5 at right
     jud "О, Я в порядке!"
@@ -14,7 +14,7 @@ label judith_dialogue_start:
     jud "Я... я просто хотела поблагодарить тебя."
     show judith 4 at right
     show player 21 at left
-    player_name "Ох,за что?"
+    player_name "Ох, за что?"
     show judith 3 at right
     show player 13 at left
     jud "В раздевалке... с тобой я чувствовала себя в... безопасности."
@@ -22,14 +22,14 @@ label judith_dialogue_start:
     show player 11 at left
     player_name "Oх..."
     show judith 5 at right
-    jud "И,ты знаешь... ты дал отпор {b}Annie{/b}.Я думаю, это было очень смело."
+    jud "И, ты знаешь... ты дал отпор {b}Энни{/b}. Я думаю, это было очень смело."
     show judith 4 at right
     show player 29 at left
-    player_name "Все в порядке, {b}Judith{/b}.Я просто пытался поступить правильно.."
+    player_name "Все в порядке, {b}Джудит{/b}. Я просто пытался поступить правильно."
     player_name "Это я должен извиниться... я показал тебе мой... ты знаешь..."
     show judith 5 at right
     show player 11 at left
-    jud "Ох все в порядке!!Мне понравилось-"
+    jud "Ох все в порядке!! Мне понравилось-"
     show judith 3 at right
     jud "Я имею в виду... Я вообше не возражала."
     show judith 5 at right
@@ -39,7 +39,7 @@ label judith_dialogue_start:
     player_name "Хаха. Да. Я так думаю..."
     show judith 5 at right
     show player 1 at left
-    jud "Я должна идти!Увидимся в классе тогда.!"
+    jud "Я должна идти! Увидимся в классе тогда!"
     show player 14 at left
     show judith 4 at right
     player_name "Увидимся позже!"
@@ -50,14 +50,14 @@ label judith_dialogue_left_hallway_intro:
     show judith 1 at right
     show player 14 at left
     with dissolve
-    player_name "Хэй, {b}Judith{/b}!"
+    player_name "Хэй, {b}Джудит{/b}!"
     show player 13
     show judith 5
     jud "Ох привет, {b}[firstname]{/b}."
     jud "Как дела?"
     show judith 4
     show player 14
-    player_name "Очень хорошо.Как ты?"
+    player_name "Очень хорошо. Как ты?"
     show player 13
     show judith 6
     jud "..."
@@ -74,7 +74,7 @@ label judith_dialogue_art_classroom_intro:
     show xtra 23 as basket zorder 0 at Position (ypos = 635)
     show xtra 24 as fruit zorder 0 at Position (ypos = 565)
     with dissolve
-    player_name "Наслаждаешься искусством, {b}Judith{/b}?"
+    player_name "Наслаждаешься искусством, {b}Джудит{/b}?"
     show player 13
     show judith 5
     jud "Да!"
@@ -84,7 +84,7 @@ label judith_dialogue_art_classroom_intro:
     player_name "Да, мне тоже!"
     show player 13
     show judith 5
-    jud "Мне это нравится, потому что независимо от того, насколько плохи мои рисунки, это все еще считается искусством!"
+    jud "Мне это нравится, потому что независимо от того, насколько плохи мои рисунки, это все ещё считается искусством!"
     show judith 4
     show player 17
     player_name "Хех, это хорошо."
@@ -104,31 +104,31 @@ label judith_dialogue_bathroom_fun:
     player_name "Если ты не против?"
     show player 1
     show judith 5
-    jud "О,определенно!"
+    jud "О, определенно!"
     jud "Пошли!"
     return
 
 label judith_dialogue_dictionary_return:
     show player 14
-    player_name "Привет, {b}Judith{/b}!Возвращаю твою книгу."
+    player_name "Привет, {b}Джудит{/b}! Возвращаю твою книгу."
     show player 239_240 with dissolve
     pause
     show player 522 with dissolve
-    player_name "Спасибо еще раз!"
+    player_name "Спасибо ещё раз!"
     show player 13
     show judith 43
     with dissolve
-    jud "Ох,хорошо Я уже начала волноваться...."
+    jud "Ох, хорошо Я уже начала волноваться..."
     show judith 4 with dissolve
     show player 14
-    player_name "Не нужно беспокоиться.Она отличной форме... Посмотри."
+    player_name "Не нужно беспокоиться. Она в отличной форме... Посмотри."
     show player 13
     show judith 5
-    jud "Спасибо что бы осторожен с ней, {b}[firstname]{/b}."
+    jud "Спасибо что был осторожен с ней, {b}[firstname]{/b}."
     jud "Не знаю, почему я так волнавалась..."
     show judith 4
     show player 14
-    player_name "Спасибо, что одолжила мне её.!"
+    player_name "Спасибо, что одолжила мне её!"
     show player 13
     show judith 5
     jud "Все что угодно для те-"
@@ -136,7 +136,7 @@ label judith_dialogue_dictionary_return:
     jud "В смысле... в любое время!"
     show judith 1
     show player 10
-    player_name "Хорошо, ну, увидимся позже.."
+    player_name "Хорошо, ну, увидимся позже."
     show player 5
     show judith 3
     jud "Пока, {b}[firstname]{/b}."
@@ -144,19 +144,19 @@ label judith_dialogue_dictionary_return:
 
 label judith_dialogue_bissette_find_full_dictionary:
     show player 14
-    player_name "Привет, {b}Judith{/b}! Есть минутка?"
+    player_name "Привет, {b}Джудит{/b}! Есть минутка?"
     show player 13
     show judith 5
     jud "Конечно, {b}[firstname]{/b}."
     show judith 4
     show player 14
-    player_name "Я надеялся что смогу одолжить у тебя твой Французский словарь.."
+    player_name "Я надеялся что смогу одолжить у тебя твой Французский словарь."
     player_name "Мне нужно сделать быструю копию некоторых страниц и я верну его."
     show player 13
     show judith 3
     jud "Мой Французский словарь?"
     show judith 5
-    jud "Безусловно!До тех пор, пока ты обещаешь быть осторожен с ним?"
+    jud "Безусловно! До тех пор, пока ты обещаешь быть осторожен с ним?"
     show judith 4
     show player 11
     player_name "( Что с женщинами и их французскими словарями? )"

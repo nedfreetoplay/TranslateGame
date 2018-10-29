@@ -60,17 +60,17 @@ label backroom_couple_finish_dialogue:
     jan "Эхх..."
     show jane 12 with dissolve
     show player 10
-    player_name "Is this common?"
+    player_name "Это обычное дело?"
     show player 5
     show jane 5
     jan "..."
     show jane 4
     jan "Понимаешь..."
     jan "Людям нравится делать это зесь, и я не собираюсь их останавливать."
-    jan "Just keep this to yourself, pretty please ?"
+    jan "Просто держи это при себе, пожалуйста."
     show jane 1
     show player 12
-    player_name "Yeah, I won't tell anyone..."
+    player_name "Да, я никому не расскажу..."
     show player 5
     show jane 2
     jan "Спасибо."
@@ -95,7 +95,7 @@ label poem_assignment_book_dialogue:
     player_name "Это должно быть та книга-"
     show book_07_c with dissolve
     player_name "!!!" with hpunch
-    player_name "Whoa!"
+    player_name "Воу!"
     player_name "{b}Мия{/b} была права. Эта штука реально очень наглядная!"
     player_name "Хмм, интересно что {b}Джудит{/b} делала с ней в той темной комнате?"
     player_name "..."
