@@ -1068,7 +1068,7 @@ label mia_dialogue_art_sessions_intro:
 
 label mia_dialogue_art_sessions_stat_pass:
     show player 10
-    player_name "Я бы очень хотела, чтобы ты пришел помочь, {b}Мия{/b}."
+    player_name "Я бы очень хотел, чтобы ты пришла помочь, {b}Мия{/b}."
     show player 5
     show mia 12
     mia "Ты бы хотел?"

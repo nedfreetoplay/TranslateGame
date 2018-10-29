@@ -59,7 +59,7 @@ label jane_library_dialogue_bissette_return_overdue_books:
     show xtra 42
     show player 14f at right
     with dissolve
-    player_name "Я нашел все книги, что не вернули в срок!"
+    player_name "Я нашел все книги, которые не вернули в срок!"
     show player 239_240f with dissolve
     pause
     show player 507f at Position (xoffset=-9) with dissolve
