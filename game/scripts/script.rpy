@@ -38,8 +38,8 @@ label after_load:
 label start:
     $ game = Game(language)
     if firstname.strip() == "":
-        $ firstname = "Anon"
-        $ persistent.firstname = "Anon"
+        $ firstname = "Аноним"
+        $ persistent.firstname = "Аноним"
     $ player = Player(firstname)
     call INIT_GLOBAL
     $ player.go_to(L_home_bedroom)
