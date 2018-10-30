@@ -161,7 +161,7 @@ label park_dewitt_eve_meet_up:
     eve "Парню с караоке машиной! {b}Эван{/b}?"
     show eve 1
     show player 12
-    player_name "Ты думаешь {b}Эрик{/b}?"
+    player_name "Ты имеешь в виду {b}Эрика{/b}?"
     show player 5
     show eve 2
     eve "Да, его!"
@@ -189,7 +189,7 @@ label park_dewitt_eve_meet_up:
     hide tyrone
     with dissolve
     show player 10
-    player_name "Я должен поговорить с {b}Эриком{/b} о {b}взять немного пива Mr. Johnson{/b}."
+    player_name "Я должен поговорить с {b}Эриком{/b} можно ли {b}взять немного пива Миссис Джонсон{/b}."
     return
 
 label park_rap_battle_first_visit:
