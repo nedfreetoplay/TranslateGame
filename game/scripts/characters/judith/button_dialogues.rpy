@@ -3,10 +3,10 @@ label judith_dialogue_start:
     show player 1 at left
     show judith 5 at right
     with dissolve
-    jud "Эй {b}[firstname]{/b}!"
+    jud "Привет {b}[firstname]{/b}!"
     show player 2 at left
     show judith 4 at right
-    player_name "Эй {b}Джудит{/b}, как дела?"
+    player_name "Привет {b}Джудит{/b}, как дела?"
     show player 1 at left
     show judith 5 at right
     jud "О, Я в порядке!"
@@ -50,7 +50,7 @@ label judith_dialogue_left_hallway_intro:
     show judith 1 at right
     show player 14 at left
     with dissolve
-    player_name "Хэй, {b}Джудит{/b}!"
+    player_name "Привет, {b}Джудит{/b}!"
     show player 13
     show judith 5
     jud "Ох привет, {b}[firstname]{/b}."
@@ -249,7 +249,7 @@ label judith_dialogue_dewitt_find_flute:
     jud "Ага."
     show judith 4
     show player 10
-    player_name "Хорошо, спасибо, {b}Judith{/b}."
+    player_name "Хорошо, спасибо, {b}Джудит{/b}."
     return
 
 label judith_dialogue_talent_show_help:
@@ -290,7 +290,7 @@ label judith_dialogue_talent_show_help:
 
 label judith_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "Judith, вы дальнозоркая или близорукая"
+    player_name "Джудит, ты дальнозоркая или близорукая?"
     show player 1
     show judith 2
     jud "Эмм, ну."
@@ -314,7 +314,7 @@ label judith_dialogue_okita_get_bifocal_lenses:
     show judith 1
     player_name "Ну я всмысле, нет.Это хреново, что вы не можете видеть без них."
     show player 2 with dissolve
-    player_name "... Но это также хорошая вещь, потому что я ищу пару Варифокальных линз.."
+    player_name "... Но это также хорошая вещь, потому что я ищу пару Варифокальных линз."
     show player 1
     show judith 5
     jud "Ох.что ж, ты некоторые нашел."
@@ -386,10 +386,10 @@ label judith_dialogue_okita_get_bifocal_lenses:
     show player 1
     show judith 5
     jud "Ты сделаешь?!"
-    jud "Хорошо,встретимся в парке.!Я буду там {b}вечером{/b}."
+    jud "Хорошо,встретимся в парке.!Я буду там {b}днем{/b}."
     show player 2
     show judith 4
-    player_name "{b}В парке,вечером.{/b} Понял!"
+    player_name "{b}В парке, днем.{/b} Понял!"
     show player 1
     show judith 5
     jud "Отлично! Увидимся там!"
@@ -411,7 +411,7 @@ label judith_dialogue_okita_take_picture_judith:
     jud "Потому что все хорошл, Мы не-"
     show player 2
     show judith 1
-    player_name "Нет, {b}Judith{/b}. Все в порядке, правда!"
+    player_name "Нет, {b}Джудит{/b}. Все в порядке, правда!"
     show judith 4
     player_name "Встретимся там!"
     show player 1
@@ -421,7 +421,7 @@ label judith_dialogue_okita_take_picture_judith:
 
 label judith_dialogue_ross_ask_model:
     show player 2
-    player_name "Я работаю над проектом для {b}Miss Ross{/b} и для этого требуется живая модель."
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
     player_name "Ты была бы не заинтересована?"
     show player 1
     show judith 5
@@ -446,7 +446,7 @@ label judith_dialogue_ross_ask_model:
     jud "Тогда я сделаю это! Для тебя, {b}[firstname]{/b}!"
     show player 2
     show judith 4
-    player_name "Спасибо {b}Judith{/b}! Это действительно круто с твоей стороны!"
+    player_name "Спасибо {b}Джудит{/b}! Это действительно круто с твоей стороны!"
     player_name "Просто встретимся в художественном классе."
     show player 1
     show judith 5
@@ -467,7 +467,7 @@ label judith_dialogue_left_hallway_leave:
 
 label judith_dialogue_art_classroom_leave:
     show player 14
-    player_name "Увидимся позже, {b}Judith{/b}."
+    player_name "Увидимся позже, {b}Джудит{/b}."
     show player 13
     show judith 5
     jud "Пока, {b}[firstname]{/b}."
