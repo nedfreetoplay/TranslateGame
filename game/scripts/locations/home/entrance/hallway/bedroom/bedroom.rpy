@@ -230,14 +230,14 @@ label jerking_off_dialogue:
                     scene black with fade
                     $ game.timer.tick()
 
-                "Рокси" if M_player.is_set("jerk roxxy"):
+                "Рокси." if M_player.is_set("jerk roxxy"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_roxxy")
                     scene black with fade
                     $ game.timer.tick()
-                "Оставить.":
+                "Уйти.":
 
                     $ pass
-        "Оставить.":
+        "Уйти.":
 
             $ pass
     $ game.main()
