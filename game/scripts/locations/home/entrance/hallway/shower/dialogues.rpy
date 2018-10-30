@@ -1,6 +1,6 @@
 label shower_mom_sis_check:
     scene shower_cutscene1
-    show text "Я бросился наверх, услышав проклятия {b}[jen_name]{/b}.\nСцена при входе была почти смешной. {b}[jen_name]{/b} была взволнована и выглядела как утонувшая крыса.\nОткрытая труба изливала воду повсюду и делала вокруг беспорядок." at Position(xpos=500, ypos=700)
+    show text "Я бросился наверх, услышав проклятия {b}[jen_name]{/b}.\nСцена при входе была почти смешной. {b}[jen_name]{/b} была взволнована и выглядела как мокрая крыса.\nОткрытая труба изливала воду повсюду и делала вокруг беспорядок." at Position(xpos=500, ypos=700)
     with dissolve
     $ renpy.pause()
     hide shower_cutscene1
@@ -21,7 +21,7 @@ label shower_mom_sis_check:
     player_name "Что мне прикажешь делать?"
     show player 11
     show jenny 27
-    jen "Исправьте это, очевидно! В конце концов, ты здесь единственный мужчина!"
+    jen "Исправь это, очевидно! В конце концов, ты здесь единственный мужчина!"
     show jenny 26
     show player 12
     player_name "Отлично! Я думаю, нужно {b}спустится вниз{/b} и посмотреть как выключается {b}водопроводный кран{/b}..."
@@ -50,7 +50,7 @@ label shower_mom_pipe_check:
     jen "Похоже, у тебя получилось. Вода остановилась."
     show player 12
     show jenny 26 at right
-    player_name "Да, я выключил водяной клапан. Что дальше?"
+    player_name "Да, я выключил водяной кран. Что дальше?"
     show player 5
     show jenny 27
     jen "О чем ты меня спрашиваешь? Я не знаю, заменить его или что-то?"
@@ -81,7 +81,7 @@ label shower_mom_pipe_check:
     jen "Что с тобой происходит?"
     show player 24
     show jenny 30
-    player_name "Прсти, {b}[jen_name]{/b}. Я только-"
+    player_name "Прости, {b}[jen_name]{/b}. Я только-"
     show jenny 31
     jen "Ой, заткнись!"
     show player 25
@@ -385,7 +385,7 @@ label shower_mom_sex_wash_handjob:
     return
 
 label shower_mom_sex_finger:
-    player_name "Я еще не вымыл{b}везде{/b}..."
+    player_name "Я еще не вымыл {b}везде{/b}..."
     show debbies 55 at Position(xpos=688,ypos=768) with dissolve
     pause .35
     show debbies 56_55
@@ -772,7 +772,7 @@ label shower_sis_sex_intro_sorry:
     player_name "Я знаю но-"
     show jenny 104
     show player 342
-    jen "Зткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Заткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
     return
 
 label shower_sis_sex_intro_help_fail:
@@ -926,7 +926,7 @@ label sis_shower_sex_pre:
     show player 348
     jen "Что из этого тебе не понятно?"
     show jenny 164
-    jen "... Я не буду этого делать, пока ты не будешь {b}умолять{/b}меня!"
+    jen "... Я не буду этого делать, пока ты не будешь {b}умолять{/b} меня!"
     show jenny 167
     show player 349
     player_name "Умолять... для чего именно?"
