@@ -95,8 +95,8 @@ label attic_entry_dialogue:
         player_name "Хмм..."
         show player 35
         if not player.has_picked_up_item("stool"):
-            player_name "( Мне нужно {b}стоят{/b} на чём либо до открытия... )"
+            player_name "( Мне нужно {b}стоять{/b} на чём то для открытия... )"
         else:
-            player_name "( Эта маленькая люк {b}заперт{/b}. )"
+            player_name "( Этот маленький люк {b}заперт{/b}. )"
         jump expression game.dialog_select("hallway_dialogue")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
