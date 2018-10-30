@@ -103,7 +103,7 @@ label telescope_erik_afternoon_2:
 
 label telescope_erik_afternoon_3:
     scene windowerikday04a_b
-    player_name "( Что {b}Erik{/b} смтрит? )"
+    player_name "( Что это {b}Эрик{/b} смотрит? )"
     player_name "( Это выглядит странно знакомым... )"
     return
 
