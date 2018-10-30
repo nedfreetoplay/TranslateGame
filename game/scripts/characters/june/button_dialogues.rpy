@@ -4,7 +4,7 @@ label june_dialogue_bissette_fix_printer_repeat:
     show june 17 at right
     show player 10 at left
     with dissolve
-    player_name "Привет {b}June{/b}! Ты уже починила принтер?"
+    player_name "Привет {b}Джун{/b}! Ты уже починила принтер?"
     show player 5
     show june 19
     june "Нет, извини. У меня не было времени вообще возиться с ним."
@@ -20,13 +20,13 @@ label june_dialogue_bissette_fix_printer_first:
     show player 10 at left
     show june 1 at right
     with dissolve
-    player_name "Привет, {b}June{/b}?"
+    player_name "Привет, {b}Джун{/b}?"
     show player 5
     show june 3
     june "Да, {b}[firstname]{/b}?"
     show june 2
     show player 12
-    player_name "У меня проблемы с принтером.Что означает загрузка письма ПК?"
+    player_name "У меня проблемы с принтером. Что означает загрузка письма ПК?"
     show player 5
     show june 4
     june "Угх, это опять происходит?!Что за кусок дерьма!"
@@ -49,7 +49,7 @@ label june_dialogue_bissette_fix_printer_first:
     show player 13 at left
     show june 9f at right
     with dissolve
-    june "О, иногда тебе просто нужно перезапустить его.Дай мне только проверить питание."
+    june "О, иногда тебе просто нужно перезапустить его. Дай мне только проверить питание."
     show june 10f with dissolve
     show player 108f
     player_name "Серьезно?"
@@ -127,8 +127,8 @@ label june_dialogue_bissette_fix_printer_pass:
     june "Теперь ты можешь копировать свои страницы..."
     show june 17
     show player 14
-    player_name "Хвала небесам! Мне очень нужно отдать эту книгу назад {b}Judith{/b} прежде чем она расстроится."
-    player_name "Спасибо за твою помощь, {b}June{/b}!"
+    player_name "Хвала небесам! Мне очень нужно отдать эту книгу назад {b}Джудит{/b} прежде чем она расстроится."
+    player_name "Спасибо за твою помощь, {b}Джун{/b}!"
     show player 13
     show june 18
     june "Без проблем."
@@ -144,7 +144,7 @@ label june_dialogue_bissette_fix_printer_pass:
 
     show player 510 with dissolve
     player_name "Отлично! Наконец-то у меня есть полный французский словарь."
-    player_name "Сейчас мне просто нужно вернуть ее книгу назад {b}Judith's{/b} и я смогу начать частные уроки с {b}Мисс Bissette{/b}."
+    player_name "Сейчас мне просто нужно вернуть книгу назад {b}Джудит{/b} и я смогу начать частные уроки с {b}Мисс Биссет{/b}."
     hide player with dissolve
     return
 
@@ -153,7 +153,7 @@ label june_dialogue_okita_faptic_engine:
     show player 2 at left
     show june 2 at right
     with dissolve
-    player_name "{b}Miss Okita{/b} хочет, чтобы я достал ей что-нибудь  назывемое как {b}Faptic Механизм{/b}. Она сказала, что ты можешь помочь?"
+    player_name "{b}Мисс Окита{/b} хочет, чтобы я достал ей что-нибудь  назывемое как {b}Faptic Механизм{/b}. Она сказала, что ты можешь помочь?"
     show player 1
     show june 4
     june "Какого черта она хочет с одним из них?"
@@ -185,7 +185,7 @@ label june_dialogue_okita_faptic_engine:
     june "Ну, это будет трудно достать."
     show player 10
     show june 2
-    player_name "Что такое {b}Faptic Механизм{/b} в любом случае?"
+    player_name "Что такое {b}Faptic Механизм{/b}?"
     show player 11
     show june 3
     june "О,ты не знаешь?"
@@ -251,10 +251,10 @@ label june_dialogue_okita_faptic_engine:
     june "Да! Я всегда хотел один, но мои родители не могли себе этого позволить."
     show player 2
     show june 2
-    player_name "Ты знаешь что? У моего приятеля{b}Erik{/b} раньше была одна такая!"
+    player_name "Ты знаешь что? У моего приятеля {b}Эрика{/b} раньше была один такой!"
     show player 1
     show june 6
-    june "У него она еше есть?"
+    june "У него он еще есть?"
     show player 2
     show june 5
     player_name "Без понятия."
@@ -263,8 +263,8 @@ label june_dialogue_okita_faptic_engine:
     june "Ну Хорошо, если бы ты смог взать одну такую,то я бы смогла достать один {b}Faptic механизм{/b} для тебя."
     show player 2
     show june 2
-    player_name "Прекрсно! Я поговорю с {b}Erik{/b} и посмотрим, есть ли она еще у него."
-    player_name "Спасибо за информацию, {b}June{/b}."
+    player_name "Прекрсно! Я поговорю с {b}Эриком{/b} и посмотрим, есть ли он еще у него."
+    player_name "Спасибо за информацию, {b}Джун{/b}."
     show player 1
     show june 3
     june "Удачи!"
@@ -280,12 +280,12 @@ label june_dialogue_okita_get_controller_info:
     show june 4
     june "{b}Мастер Бластер{/b}."
     show june 3
-    june "Разве ты не говорил, что у твоего приятеля {b}Erik{/b} есть одна?"
+    june "Разве ты не говорил, что у твоего приятеля {b}Эрика{/b} есть одна?"
     show player 2
     show june 2
     player_name "Да, у него раньше была.."
     player_name "Я пойду спрошу его об этом."
-    player_name "Спасибо, {b}June{/b}."
+    player_name "Спасибо, {b}Джун{/b}."
     show player 1
     show june 3
     june "Удачи!"
@@ -348,7 +348,7 @@ label june_dialogue_okita_has_controller:
 label june_dialogue_mc_intro:
     show player 14 at left
     show june 5 at right
-    player_name "Хэй, {b}June{/b}!"
+    player_name "Привет, {b}Джун{/b}!"
     show player 1
     show june 6
     june "Приветик, {b}[firstname]{/b}!"
@@ -373,10 +373,10 @@ label june_dialogue_intro:
 label june_dialogue_okita_get_bifocal_lenses:
     show player 2
     player_name "Привет, так эмм..."
-    player_name "Я вроде как помогаю {b}Мисс Okita{/b} с проектом."
+    player_name "Я вроде как помогаю {b}Мисс Окита{/b} с проектом."
     show player 1
     show june 4
-    june "{b}Miss Okita{/b} попросила тебя о помощи с ее проектами?"
+    june "{b}Мисс Окита{/b} попросила тебя о помощи с ее проектами?"
     show player 10
     show june 2
     player_name "Да."
@@ -408,7 +408,7 @@ label june_dialogue_okita_get_bifocal_lenses:
     player_name "Мне нужна пара от кого-то кто является и тем и другим."
     show player 3
     show june 4
-    june "Я не могу поверить чир {b}Мисс Okita{/b} попросила {b}ТЕБЯ{/b} помочь с ее проектами..."
+    june "Я не могу поверить что {b}Мисс Окита{/b} попросила {b}ТЕБЯ{/b} помочь с ее проектами..."
     show player 29
     show june 2
     player_name "Ну она своего рода, заставила меня..."
@@ -424,7 +424,7 @@ label june_dialogue_okita_get_bifocal_lenses:
 
 label june_dialogue_ross_ask_model:
     show player 2
-    player_name "Я работаю над проектом для {b}Мисс Ross{/b} и для этого требуется живая модель."
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
     player_name "Ты былА бы заинтересована?"
     show player 1
     show june 3
@@ -444,7 +444,7 @@ label june_dialogue_ross_ask_model:
     player_name "У тебя?"
     show june 3
     show player 11
-    june "Да, пакет расширения для Орсетте's Подземелья запущен сегодня."
+    june "Да, пакет расширения для Подземелья Орсетте запущен сегодня."
     june "Тебе лучше верить, чтобы я получила эту копию!"
     show player 10
     show june 5
@@ -605,7 +605,7 @@ label june_dialogue_ask_about_class:
     june "О, эта вешь? Это просто глупая игра..."
     show player 14
     show june 2
-    player_name "Как она называется"
+    player_name "Как она называется?"
     show player 1
     show june 3
     june "Она завется Orc Bork."
@@ -635,12 +635,12 @@ label june_dialogue_ask_about_class:
 label june_dialogue_erik_help:
     show player 14
     player_name "Честно говоря, Я знаю!"
-    player_name "Мой хороший друг {b}Erik{/b} ЛЮБИТ игры с орками!"
+    player_name "Мой хороший друг {b}Эрик{/b} ЛЮБИТ игры с орками!"
     player_name "Особенно... Орсетты."
     player_name "Я думаю, вы оба должны играть вместе.!"
     show player 1
     show june 3
-    june "{b}Erik{/b}?"
+    june "{b}Эрик{/b}?"
     show player 11
     june "Я не думаю, что знаю его...."
     show player 10
@@ -703,7 +703,7 @@ label june_dialogue_mc_help:
     show june 5
     player_name "Хорошо,где тогда?"
     show player 10
-    player_name "Если мы будем играть в коридоре, {b}Annie{/b} задержит нас..."
+    player_name "Если мы будем играть в коридоре, {b}Анна{/b} задержит нас..."
     show player 11
     show june 6
     june "Хмм... Как насчет того,чтобы мы поиграли у тебя дома?"
