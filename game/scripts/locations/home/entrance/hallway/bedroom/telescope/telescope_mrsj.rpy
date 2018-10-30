@@ -100,7 +100,7 @@ label telescope_mrsj_sister_spying:
     show player 361
     show jenny 144
     jen "Что тебе больше нравится?"
-    jen "Смотреть на {b}Mrs. Johnson{/b}... или смотреть на {b}меня{/b}?"
+    jen "Смотреть на {b}Миссис Джонсон{/b}... или смотреть на {b}меня{/b}?"
     show player 360
     show jenny 143
     player_name "Я не знаю..."
