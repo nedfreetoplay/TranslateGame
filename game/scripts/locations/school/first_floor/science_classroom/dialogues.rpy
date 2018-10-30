@@ -127,7 +127,7 @@ label science_classroom_first_visit:
 label science_classroom_cutscene:
     scene location_school_science_cutscene01
     with fade
-    show text "Интересно, почему {b}Miss Okita{/b} всегда такая сварливая?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Интересно, почему {b}Мисс Окита{/b} всегда такая сварливая?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Она казалась довольно непреклонной в отсутствии дополнительных кредитов." at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -191,7 +191,7 @@ label science_classroom_after_cutscene:
     okita "Ты мог сжечь всю школу дотла!"
     show player 10
     show okita 11b
-    player_name "Простите, {b}Miss Okita{/b}. Я не-"
+    player_name "Простите, {b}Мисс Окита{/b}. Я не-"
     player_name "... Я не знаю, что случилось!"
     show player 5
     show okita 11
@@ -230,7 +230,7 @@ label science_classroom_after_cutscene:
     okita "... и он в отчаянии."
     show player 10
     show okita 10bf
-    player_name "Ухх, {b}Miss Okita{/b}?"
+    player_name "Ухх, {b}Мисс Окита{/b}?"
     show player 5
     okita "..."
     show okita 10cf
@@ -239,7 +239,7 @@ label science_classroom_after_cutscene:
     show okita 10bf
     player_name "..."
     show okita 10cf
-    okita "Yes, this could work out nicely."
+    okita "Да, это может сработать."
     show okita 10bf
     show erik 51f
     show mia 43
@@ -253,8 +253,8 @@ label science_classroom_after_cutscene:
     okita "О, да, да!"
     show okita 11
     okita "Вы ребятки возвращайтесь к работе."
-    okita "[firstname], ты только смотришь за {b}Mia{/b} и {b}Erik{/b} сегодня."
-    okita "I don't want you blowing anything else up."
+    okita "[firstname], ты только смотришь за {b}Мией{/b} и {b}Эриком{/b} сегодня."
+    okita "Я не хочу, чтобы ты еще что-нибудь взорвал."
     show okita 11b
     show player 10
     player_name "... Д-да, мэм."
@@ -306,7 +306,7 @@ label science_classroom_mia_return_favor:
     mia "{b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "Привет, {b}Mia{/b}."
+    player_name "Привет, {b}Мия{/b}."
     show player 12
     player_name "Как твоя...нога?"
     show player 13
@@ -359,7 +359,7 @@ label science_classroom_okita_has_items:
     show playerl 1 zorder 1 at Position(xpos=0.1475, ypos=1.0)
     show playerg 1 zorder 2 at Position(xpos=0.165, ypos=0.35)
     with dissolve
-    player_name "Привет, {b}Miss Okita{/b}, Я-"
+    player_name "Привет, {b}Мисс Окита{/b}, Я-"
     show player 10
     player_name "... Ох."
     show okita 3
@@ -376,13 +376,13 @@ label science_classroom_okita_has_items:
     mia "Привет, {b}[firstname]{/b}!"
     show player 2
     show mial 7
-    player_name "Привет {b}Mia{/b}!"
-    player_name "{b}Miss Okita{/b}, Я получил-"
+    player_name "Привет {b}Мия{/b}!"
+    player_name "{b}Мисс Окита{/b}, Я получил-"
     show player 11
     show okita 9
     okita "Да, да! Мне это прекрасно известно."
     show okita 5
-    okita "Я помогала {b}Mia{/b} с ее опытом. Почему бы тебе не присоединиться к нам."
+    okita "Я помогала {b}Мие{/b}. Почему бы тебе не присоединиться к нам."
     show player 10
     show okita 4
     player_name "Я думал, мне нельзя трогать химическое оборудование?"
@@ -491,13 +491,13 @@ label science_classroom_okita_has_items:
     okita "Мне нужно принять душ!"
     show okita 20
     show mia 43
-    mia "Простите, {b}Miss Okita{/b}. Я не хотела..."
+    mia "Простите, {b}Мисс Окита{/b}. Я не хотела..."
     show mia 45
     show player 10
-    player_name "Все хорошо, {b}Mia{/b}. Не-"
+    player_name "Все хорошо, {b}Мия{/b}. Не-"
     show player 11
     show okita 21
-    okita "Это не хорошо! Я вычту баллы из твоей оценки за это, {b}Mia{/b}!"
+    okita "Это не хорошо! Я вычту баллы из твоей оценки за это, {b}Мия{/b}!"
     show okita 20
     show mia 46
     mia "Да, мэм."
@@ -528,7 +528,7 @@ label science_classroom_okita_has_glasses:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "{b}Miss Okita{/b}, Они у меня!"
+    player_name "{b}Мисс Окита{/b}, Они у меня!"
     player_name "У меня есть линзы, которые вам были нужны!"
     show player 1
     show okita 3
@@ -557,7 +557,7 @@ label science_classroom_okita_has_glasses:
     show okita 5
     okita "Нет, это обезьянья работа."
     show okita 9
-    okita "{b}Tori Okita{/b} не делает обезьянью работу..."
+    okita "{b}Тори Окита{/b} не делает обезьянью работу..."
     show okita 4
     player_name "..."
     show player 10
@@ -584,7 +584,7 @@ label science_classroom_okita_has_glasses_try_again:
     scene location_school_science_closeup
     show player 2 at left
     show okita 4 at right
-    player_name "Хорошо, {b}Miss Okita{/b}. Думаю, на этот раз у меня получится."
+    player_name "Хорошо, {b}Мисс Окита{/b}. Думаю, на этот раз у меня получится."
     show player 1
     show okita 9
     okita "Ты не можешь сделать ничего хуже."
@@ -638,13 +638,13 @@ label science_classroom_okita_has_glasses_int_pass:
     with dissolve
     pause
     show kevin 9f
-    kev "Извените, {b}Miss Okita{/b}?"
+    kev "Извените, {b}Мисс Окита{/b}?"
     show kevin 8f
     show okita 5f
     okita "И убедись, что блок питания заряжен!"
     show kevin 9f
     show okita 4f
-    kev "Эээ, {b}Miss Okita{/b}? Не могли бы вы нам помочь?"
+    kev "Эээ, {b}Мисс Окита{/b}? Не могли бы вы нам помочь?"
     show kevin 8f
     show okita 9f
     okita "Ухх."
@@ -653,7 +653,7 @@ label science_classroom_okita_has_glasses_int_pass:
     okita "Да, {b}Kevin{/b}. Что случилось?"
     show kevin 9f
     show okita 4
-    kev "{b}Ronda{/b} и я работали над заданием, которое вы раздали сегодня во время урока, и мы столкнулись с проблемой."
+    kev "{b}Ронда{/b} и я работали над заданием, которое вы раздали сегодня во время урока, и мы столкнулись с проблемой."
     show kevin 8f
     show okita 9
     okita "*вздох*"
@@ -738,14 +738,14 @@ label science_classroom_okita_has_glasses_int_pass:
     pause
     show okita 5
     show kevin 8f
-    player_name "Я вижу у {b}Miss Okita{/b}... "
+    player_name "Я вижу у {b}Мисс Окита{/b}... "
     pause
-    player_name "... и посмотрите на тело {b}Ronda{/b}! Она в форме!"
+    player_name "... и посмотрите на тело {b}Ронды{/b}! Она в форме!"
     pause
     player_name "..."
     show okita 4
     show kevin 9f
-    player_name "Ой мой бог! Я вижу у {b}Kevin{/b}..."
+    player_name "Ой мой бог! Я вижу у {b}Кевина{/b}..."
     pause
     hide ronda
     hide rondal
@@ -815,7 +815,7 @@ label science_classroom_okita_has_glasses_int_pass:
     okita "{b}[firstname]{/b}, у тебя все еще есть Код от моего офиса?"
     show okita 4f
     show player 11f
-    player_name "Да, {b}Miss Okita{/b}."
+    player_name "Да, {b}Мисс Окита{/b}."
     show player 73f
     pause
     show player 459f
@@ -901,7 +901,7 @@ label science_classroom_mia_strip_aftermath:
     mia "Привет, {b}[firstname]{/b}..."
     show mia 8
     show player 10
-    player_name "{b}Mia{/b}!"
+    player_name "{b}Мия{/b}!"
     player_name "Прости за вчерашнее."
     show player 12
     player_name "Дома все в порядке?"
@@ -916,7 +916,7 @@ label science_classroom_mia_strip_aftermath:
     mia " Моя мама говорит, что я должна быть дома после школы и не говорить с тобой..."
     show mia 8
     show player 10
-    player_name "...Но {b}Mia{/b} Я-"
+    player_name "...Но {b}Мия{/b} Я-"
     show player 11
     show mia 12
     mia "Мы не можем разговаривать, прости..."
@@ -936,13 +936,13 @@ label science_classroom_okita_has_faptic:
     okita "У тебя получилось?"
     show player 506 with dissolve
     show okita 4
-    player_name "Вот, Miss Okita.."
+    player_name "Вот, Мисс Окита."
 
     show player 505
     show okita 3
     okita "Хм, что-то не так..."
     show okita 5
-    okita "Это то, что {b}June{/b} дала тебе?"
+    okita "Это то, что {b}Джун{/b} дала тебе?"
     show okita 4
     show player 10 with dissolve
     player_name "Эээ, да мэм."
@@ -1109,7 +1109,7 @@ label button_okita_tinkered_belt:
     okita "И спрячь этот пульт!"
     show player 2 with dissolve
     show okita 11b
-    player_name "Хорошо, {b}Miss Okita{/b}!"
+    player_name "Хорошо, {b}Мисс Окита{/b}!"
 
 
     scene location_school_science_cutscene06
@@ -1122,7 +1122,7 @@ label button_okita_tinkered_belt:
     with fade
     show text "Я не знал, что она была одета в ремень прямо тогда и там!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... Бедная, {b}Miss Okita{/b}." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... Бедная, {b}Мисс Окита{/b}." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1137,7 +1137,7 @@ label button_okita_tinkered_belt:
     okita "Я понятия не имею, о чем ты говоришь..."
     show okita 11bf
     show principal 2
-    smi "НЕ ВРИ МНЕ, {b}TORI{/b}!" with hpunch
+    smi "НЕ ВРИ МНЕ, {b}ТОРИ{/b}!" with hpunch
     show principal 28 at right with dissolve
     smi "Твой кабинет снова не заперт и кто-то рылся в моих ящиках!"
     smi "Я знаю, что тебе помогли, и я хочу знать, кто это был!"
@@ -1189,7 +1189,7 @@ label button_okita_tinkered_belt:
     show okita 78f
     show principal 28 at right with dissolve
     smi "Должна ли я напоминать тебе, что никто другой не нанял бы твою высокомерную задницу!?"
-    smi "Это ваша последняя остановка, {b}Tori{/b}!"
+    smi "Это ваша последняя остановка, {b}Тори{/b}!"
     smi "После этого вы будете работать в окне быстрого питания с минимальной заработной платой!"
     smi "Есть ли у нас понимание здесь!?"
     show okita 79f
@@ -1220,7 +1220,7 @@ label button_okita_tinkered_belt:
     show principal 27
     smi "Господи, {b}Tori{/b}."
 
-    smi "Кто нибудь подойдите и помогите {b}Miss Okita{/b} пройти в ее кабинет!"
+    smi "Кто нибудь подойдите и помогите {b}Мисс Окита{/b} пройти в ее кабинет!"
     show player 10 zorder 0 at left
     show principal 29
     player_name "Я-Я помогу."
@@ -1245,7 +1245,7 @@ label button_okita_tinkered_belt:
     okita "Я КОНЧАЮ!"
     show principal 27
     smi "Я заменю тебя на сегодня."
-    smi "Наслаждайся, пока есть время, {b}Tori{/b}! Я перекодирую замок к концу недели!"
+    smi "Наслаждайся, пока есть время, {b}Тори{/b}! Я перекодирую замок к концу недели!"
     smi "Это твое последнее предупреждение, и я серьезно!"
 
 
@@ -1460,7 +1460,7 @@ label science_classroom_dewitt_science_adhesive:
     show kevin 23 at Position (xpos=600)
     show player 13 at left
     with dissolve
-    eve "Вы действительно собираетесь проникнуть в {b}кабинет Principal Smith{/b} сегодня вечером?!"
+    eve "Вы действительно собираетесь проникнуть в {b}кабинет директрисы Смит{/b} сегодня вечером?!"
     show eve 1
     show player 10
     player_name "Ты не идешь?"
@@ -1471,12 +1471,12 @@ label science_classroom_dewitt_science_adhesive:
     eve "Не поймите меня неправильно... Мне нравится немного озорства, но это слишком рискованно!"
     show eve 1
     show player 14
-    player_name "Все в порядке, {b}Eve{/b}. {b}Kevin{/b} и я сделаем все."
+    player_name "Все в порядке, {b}Ив{/b}. {b}Кэвин{/b} и я сделаем все."
     show player 13
     show kevin 33
     kev "..."
     show player 10
-    player_name "{b}Kevin{/b}?"
+    player_name "{b}Кэвин{/b}?"
     show player 5
     show kevin 24
     kev "... Вообще-то, я думал, что эту часть я тоже пропущу."
@@ -1495,7 +1495,7 @@ label science_classroom_dewitt_science_adhesive:
     show eve 1
     show player 12 with dissolve
     player_name "Я все еще собираюсь пройти через это."
-    player_name "Я не могу позволить {b}Principal Smith{/b} зарубить {b}Talent Show{/b}!"
+    player_name "Я не могу позволить {b}Директриса Смит{/b} зарубить {b}Шоу талантов{/b}!"
     show player 5
     show eve 2b
     eve "... Ты действительно собираешься сделать это в одиночку?"
@@ -1509,15 +1509,15 @@ label science_classroom_dewitt_science_adhesive:
     show player 34
     kev "..."
     show player 35
-    player_name "Я не знаю, может {b}Erik{/b} поможет мне?"
+    player_name "Я не знаю, может {b}Эрик{/b} поможет мне?"
     show player 5
     show kevin 24b
     show eve 2b
-    eve "... {b}Erik{/b}?"
+    eve "... {b}Эрик{/b}?"
     eve "Хех, лучше в одиночку!"
     show eve 1
     show player 12
-    player_name "Эй, не говори так... {b}Erik{/b} хороший парень!"
+    player_name "Эй, не говори так... {b}Эрик{/b} хороший парень!"
     player_name "... Он бы не бросил меня в последнюю минуту."
     show player 5
     show eve 9f
@@ -1538,7 +1538,7 @@ label science_classroom_dewitt_science_adhesive:
     with dissolve
     pause
     show player 10
-    player_name "... Я должен спросить {b}Erik{/b}, поможет ли он мне {b}проникнуть в школу сегодня вечером{/b}."
+    player_name "... Я должен спросить {b}Эрика{/b}, поможет ли он мне {b}проникнуть в школу сегодня вечером{/b}."
     player_name "В одиночку идти опасно..."
     hide player with dissolve
     return
