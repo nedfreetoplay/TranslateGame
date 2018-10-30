@@ -7,20 +7,20 @@ label backyard:
 
 label telescope_backyard_morning_1:
     scene windowbackyardday01
-    player_name "( Там коврик для йоги {b}Mrs. Johnson's{/b} ... )"
+    player_name "( Там коврик для йоги {b}Миссис Джонсон{/b} ... )"
     player_name "( ...На заднем дворе никого нет. )"
     return
 
 label telescope_backyard_afternoon_1:
     scene windowbackyardday01
-    player_name "( Там коврик для йоги {b}Mrs. Johnson's{/b} ... )"
+    player_name "( Там коврик для йоги {b}Миссис Джонсон{/b} ... )"
     player_name "( ...На заднем дворе никого нет. )"
     return
 
 label telescope_backyard_afternoon_2:
     scene windowbackyardday02
     player_name "( Блин... )"
-    player_name "( {b}Mrs. Johnson{/b} такая... гибкая... )"
+    player_name "( {b}Миссис Джонсон{/b} такая... гибкая... )"
     return
 
 label telescope_backyard_afternoon_3:
@@ -38,6 +38,6 @@ label telescope_backyard_afternoon_4:
 
 label telescope_backyard_night_1:
     scene windowbackyardnight01
-    player_name "( {b}Mrs. Johnson{/b} оставила коврик для йоги снаружи. )"
+    player_name "( {b}Миссис Джонсон{/b} оставила коврик для йоги снаружи. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
