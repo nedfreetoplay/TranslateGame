@@ -20,7 +20,7 @@ label june_bedroom_dialogue_cosplay_sex_pre:
     show player_sitting 5
     june "Конечно, глупенький!"
     june "Мне может понадобиться твоя помощь, пока я надену вещи..."
-    june "И мне нужно твое мнение о целом процессе!"
+    june "И мне нужно твое мнение о всем процессе!"
     show player_sitting 3
     june "Мой косплей должен выглядеть идеально."
     show june_sitting 11
@@ -320,7 +320,7 @@ label june_bedroom_dialogue_leave:
     show june_sitting 6
     show player_sitting 4
     player_name "Да... [tmp_deb_name] сказала, что мне нужно лечь спать пораньше.."
-    player_name "Извини, {b}June{/b}..."
+    player_name "Извини, {b}Джун{/b}..."
     show june_sitting 5
     show player_sitting 3
     june "Все в порядке, Наверное."
@@ -466,7 +466,7 @@ label june_bedroom_dialogue_cosplay_sex_cum_inside_dialogue:
     show junesex 14b with fastdissolve
     june "Я... как же хорошо..."
     june "... твое семя орка глубоко во мне..."
-    june "... Мой атаман..."
+    june "... Мой предводитель..."
     return
 
 label june_bedroom_dialogue_cosplay_sex_cum_outside:
@@ -493,7 +493,7 @@ label june_bedroom_dialogue_cosplay_sex_cum_outside_dialogue:
     june "..."
     show junesex 12b
     june "Так много... спермы!"
-    june "Я надеялся, что ты будете удержишь меня внизу и кончишь внутрь..."
+    june "Я надеялся, что ты удержишь меня внизу и кончишь внутрь..."
     june "... со всей этой сильной оркской спермой..."
     june "Может быть в следующий раз?"
     return
@@ -565,7 +565,7 @@ label june_bedroom_dialogue_aftercum_inside:
     player_name "Означает ли это, что мы можем сделать это снова в ближайшее время?"
     show june_sitting 10
     show player_sitting 3
-    june "Это завист от того... ты бы хотел?"
+    june "Это завист от того... хотел ты бы еще?"
     show player_sitting 6
     show june_sitting 11
     player_name "Я бы с удовольствием."
