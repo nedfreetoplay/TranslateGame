@@ -5,7 +5,7 @@ label button_mrsj_greetings:
     player_name "Привет, {b}Миссис Джонсон{/b}!"
     show player 1
     show mrsj 17
-    mrsjo "Эй, {b}[firstname]{/b}!"
+    mrsjo "Привет, {b}[firstname]{/b}!"
     mrsjo "Как твои дела?"
     show player 14
     show mrsj 14
@@ -51,8 +51,8 @@ label button_mrsj_private_yoga_intro:
     player_name "Вы... Вы голая, {b}Миссис Джонсон{/b}."
     show player 434
     show mrsj 54
-    mrsjo "Мне нравится чувствовать... комфортность в моей комнате..."
-    mrsjo "Ты что, не спрашивал меня?"
+    mrsjo "Мне нравится чувствовать... комфорт в моей комнате..."
+    mrsjo "Ты что-то спрашивал у меня?"
     show mrsj 53
     return
 
