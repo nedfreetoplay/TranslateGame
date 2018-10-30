@@ -10,7 +10,7 @@ label map_june_mc_help_started:
 label map_june_erik_help_started:
     scene outside_school_b
     show player 17 with dissolve
-    player_name "Я должна сообщить {b}Эрику{/b} хорошие новости!"
+    player_name "Я должен сообщить {b}Эрику{/b} хорошие новости!"
     player_name "Он будет в восторге от этого!"
     show player 14
     player_name "{b}Джун{/b} кажется идеальной девушкой для него!"
