@@ -31,36 +31,54 @@ label park_rap_battle:
         menu park_rap_battle_options:
             "Давай рэп-битву.":
                 call expression game.dialog_select("park_rap_battle_start")
-                menu:
-                    "Чико":
-                        $ rap_opponent = "Chico"
-                        call expression game.dialog_select("park_rap_battle_opponent")
-                        jump expression game.dialog_select("rapbattle_listing")
+                $ end_while_rapbattle = False
+                $ tips = False
+                if game.cheat_mode:
+                    $ tips = True
+                else:
+                    $ tips = False
+                while not end_while_rapbattle:
+                    menu:
+                        "Чико":
+                            $ end_while_rapbattle = True
+                            $ rap_opponent = "Chico"
+                            call expression game.dialog_select("park_rap_battle_opponent")
+                            jump expression game.dialog_select("rapbattle_listing")
 
-                    "<>[chr_warn]Сад" if player.stats.chr() < 4:
-                        $ pass
+                        "<>[chr_warn]Сад" if player.stats.chr() < 4:
+                            $ end_while_rapbattle = True
+                            $ pass
 
-                    "Чад" if player.stats.chr() >= 4:
-                        $ rap_opponent = "Chad"
-                        call expression game.dialog_select("park_rap_battle_opponent")
-                        jump expression game.dialog_select("rapbattle_listing")
+                        "Чад" if player.stats.chr() >= 4:
+                            $ end_while_rapbattle = True
+                            $ rap_opponent = "Chad"
+                            call expression game.dialog_select("park_rap_battle_opponent")
+                            jump expression game.dialog_select("rapbattle_listing")
 
-                    "<>[chr_warn]Тайрон" if player.stats.chr() < 7:
-                        $ pass
+                        "<>[chr_warn]Тайрон" if player.stats.chr() < 7:
+                            $ end_while_rapbattle = True
+                            $ pass
 
-                    "Тайрон" if player.stats.chr() >= 7:
-                        $ rap_opponent = "Tyrone"
-                        call expression game.dialog_select("park_rap_battle_opponent")
-                        jump expression game.dialog_select("rapbattle_listing")
+                        "Тайрон" if player.stats.chr() >= 7:
+                            $ end_while_rapbattle = True
+                            $ rap_opponent = "Tyrone"
+                            call expression game.dialog_select("park_rap_battle_opponent")
+                            jump expression game.dialog_select("rapbattle_listing")
 
-                    "Пропустить Мини игру (Cheat)" if game.cheat_mode:
-                        $ game.timer.tick()
-                        $ player.stats.increase("chr")
-                        show unlock23 at truecenter with dissolve
-                        pause
-                        hide unlock23 with dissolve
+                        "Подсказки: {color=#FFD700}ВКЛЮЧЕНЫ{/color}" if tips:
+                            $ tips = False
+
+                        "Подсказки: ВЫКЛЮЧЕНЫ" if not tips:
+                            $ tips = True
+
+                        "Пропустить Мини игру (Cheat)" if game.cheat_mode:
+                            $ end_while_rapbattle = True
+                            $ game.timer.tick()
+                            $ player.stats.increase("chr")
+                            show unlock23 at truecenter with dissolve
+                            pause
+                            hide unlock23 with dissolve
             "Я должен идти.":
-
                 call expression game.dialog_select("park_rap_battle_leave")
 
     hide player
