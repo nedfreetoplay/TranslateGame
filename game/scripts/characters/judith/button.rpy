@@ -9,18 +9,18 @@ label judith_button_dialogue:
         elif player.location == L_school_artclassroom:
             call expression game.dialog_select("judith_dialogue_art_classroom_intro")
         menu:
-            "Повеселиться в Ванной" if not M_judith.is_set("sex sequence locked"):
+            "Повеселиться в туалете." if not M_judith.is_set("sex sequence locked"):
                 call expression game.dialog_select("judith_dialogue_bathroom_fun")
                 $ M_judith.set("in bathroom", True)
                 $ M_judith.place(place = L_school_stall)
                 $ M_judith.force(tod = [0,1])
                 $ L_school_girlsroom.unlock()
 
-            "Словарь" if not M_bissette.is_set("judith return dictionary"):
+            "Словарь." if not M_bissette.is_set("judith return dictionary"):
                 call expression game.dialog_select("judith_dialogue_dictionary_return")
                 $ M_bissette.set("judith return dictionary", True)
 
-            "Словарь" if M_bissette.is_state(S_bissette_find_full_dictionary):
+            "Словарь." if M_bissette.is_state(S_bissette_find_full_dictionary):
                 call expression game.dialog_select("judith_dialogue_bissette_find_full_dictionary")
                 $ M_bissette.trigger(T_bissette_judith_borrow_dictionary)
 
