@@ -1,6 +1,6 @@
 label moms_bedroom_night:
     scene debbie_peek_sequence_1_night
-    player_name "( {b}[deb_name]'s{/b} спит. )"
+    player_name "( {b}[deb_name]{/b} спит. )"
     player_name "( Мне не следует шуметь. )"
     return
 
@@ -235,7 +235,7 @@ label moms_bedroom_mom_dinner_outfit_ask:
     deb "Ничего такого, чего бы ты раньше не видел."
     show debbie 152
     show player 14f
-    player_name "Ухх... Ну, скажи как называется та {b}рыба{/b}? Которую любит {b}Diane{/b}?"
+    player_name "Ухх... Ну, скажи как называется та {b}рыба{/b}? Которую любит {b}Диана{/b}?"
     show debbie 153
     show player 1f
     deb "{b}Морская форель{/b}, милый."
@@ -403,14 +403,14 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_cuddle")
                 menu mom_bed_sleep_together_cuddle_options:
-                    "продолжать":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_cuddle_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_cuddle_options")
-                    "остановиться.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Спросить о поцелуе":
+            "Спросить о поцелуе.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_kiss_sex_available")
@@ -418,14 +418,14 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_kiss")
                 menu mom_bed_sleep_together_kiss_options:
-                    "продолжать":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_kiss_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_kiss_options")
-                    "остановиться.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Кормить грудью":
+            "Кормить грудью.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_breastfeed_sex_available")
@@ -433,14 +433,14 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_breastfeed")
                 menu mom_bed_sleep_together_breastfeed_options:
-                    "продолжать":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_breastfeed_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_breastfeed_options")
-                    "остановиться.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Тереть":
+            "Тереть.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_rub_sex_available")
@@ -448,23 +448,23 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_rub")
                 menu mom_bed_sleep_together_rub_options:
-                    "продолжать":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_rub_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_rub_options")
-                    "остановиться.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
 
-            "Трахать" if M_mom.is_set("sex available"):
+            "Трахать." if M_mom.is_set("sex available"):
                 $ anim_toggle = False
                 $ xray = False
                 call expression game.dialog_select("mom_bed_sleep_together_fuck")
                 menu mom_bed_sleep_together_fuck_options:
-                    "продолжать":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_fuck_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_fuck_options")
-                    "Кончить":
+                    "Кончить.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_fuck_cum")
                         $ renpy.end_replay()
@@ -770,10 +770,10 @@ label mom_bed_panties_masturbation_not_really:
     deb "Как ее зовут?"
     show debbie 26
     show player 151
-    player_name "{b}Mia{/b}..."
+    player_name "{b}Мия{/b}..."
     show debbie 25
     show player 152
-    deb "Да! Что насчет {b}Mia{/b}? Она симпатичная!"
+    deb "Да! Что насчет {b}Мии{/b}? Она симпатичная!"
     show debbie 26
     show player 151
     player_name "Да, наверное..."
@@ -906,7 +906,7 @@ label mom_bed_panties_masturbation_i_like_you:
         show debbie 23c
         pause
         show debbie 23e
-        deb "Что это такое?"
+        deb "Что такое?"
         deb "О! Мои трусики?"
         deb "Наверное, я просто.....забыла!"
         show debbie 23d
