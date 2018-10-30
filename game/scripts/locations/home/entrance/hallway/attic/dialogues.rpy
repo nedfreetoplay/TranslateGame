@@ -1,5 +1,5 @@
 label attic_first_visit:
-    show expression Cutscene("home_attic_cs", "Используя ключ и табурет, я смог попасть на наш чердак.\nЯ никогда не был здесь раньше.\nЯ был полон волнения, задаваясь вопросом, какие сокровища {b}[deb_name]{/b} и папа спрятали.") as cutscene with fade
+    show expression Cutscene("home_attic_cs", "Используя ключ и табурет, я смог попасть на наш чердак.\nЯ никогда не был здесь раньше.\nЯ был полон волнения, задаваясь вопросом, какие сокровища {b}[deb_name]{/b} и папа спрятали там.") as cutscene with fade
     with dissolve
     pause
     hide cutscene
