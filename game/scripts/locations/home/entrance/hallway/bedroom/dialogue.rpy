@@ -5,7 +5,7 @@ label bedroom_mc_start_just_wokeup:
     show player 8
     player_name "Ух... Ненавижу рано просыпаться."
     show player 9
-    player_name "( {b}Erik{/b} ничего не написал. Может он ещё спит. )"
+    player_name "( {b}Эрик{/b} ничего не написал. Может он ещё спит. )"
     player_name "( Зайду к нему по пути в школу. )"
     hide player 9 with dissolve
     return
@@ -46,10 +46,10 @@ label bedroom_erik_bullying:
     player_name "Ха? {b}[deb_name]{/b}? Сколько уже времени?"
     show player 100bf
     show debbie 13f
-    deb "{b}Mrs. Johnson{/b} внизу, она хочет тебя увидеть."
+    deb "{b}Миссис Джонсон{/b} внизу, она хочет тебя увидеть."
     show debbie 14f
     show player 101bf
-    player_name "{b}Mrs. Johnson{/b}? Увидеть меня?"
+    player_name "{b}Миссис Джонсон{/b}? Увидеть меня?"
     show player 100bf
     show debbie 13f
     deb "Она ничего не мне объяснила, только сказал, что хочет поговорить с тобой до того, как ты куда-нибудь направишься."
@@ -101,7 +101,7 @@ label bedroom_mia_tattoo_help:
 label bedroom_mia_strip_aftermath_grounded:
     scene expression game.timer.image("bedroom{}")
     show player 24 with dissolve
-    player_name "( Не могу поверить, что мы с{b}Mia{/b} больше не сможем видеться. )"
+    player_name "( Не могу поверить, что мы с{b}Мией{/b} больше не сможем видеться. )"
     show player 25
     player_name "( Её родители мне не доверяют. )"
     show player 35
@@ -114,7 +114,7 @@ label bedroom_mia_concerning_visit:
     show player 4 with dissolve
     pause
     show player 30 at Position (xoffset=-6) with dissolve
-    player_name "( Интересно, как у {b}Mia{/b} дела. )"
+    player_name "( Интересно, как у {b}Мии{/b} дела. )"
     show player 12 at Position (xoffset=-6)
     player_name "( Я уже несколько дней ничего от неё не слышал... )"
     player_name "( ...Нужно зайти к ней и узнать, как она себя чувствует... )"
@@ -262,7 +262,7 @@ label bedroom_mom_doorbell:
     scene expression game.timer.image("bedroom{}")
     show player 12 with dissolve
     player_name "( Кто-то звонит в дверь. )"
-    player_name "( Наверное {b}Erik{/b}... )"
+    player_name "( Наверное {b}Эрик{/b}... )"
     hide player with dissolve
     return
 
@@ -365,7 +365,7 @@ label bedroom_bissette_french_food_assignment:
 label bedroom_sis_couch_1:
     scene expression game.timer.image("bedroom{}")
     show player 10 with dissolve
-    player_name "( Я слышал кого-то в коридоре... Это дверь {b}[jen_name]'s{/b}? )"
+    player_name "( Я слышал кого-то в коридоре... Это дверь {b}[jen_name]{/b}? )"
     show player 4
     player_name "( Интересно, что она там делает. )"
     hide player with dissolve
@@ -406,7 +406,7 @@ label bedroom_bissette_french_food_assignment_after:
     else:
         scene studybedroom02
     with fade
-    show text "В это книге есть все, что только можно знать о сыре.\nВсё от создания, готовки и поедания всех сортов сыра...\n...Но я прошелся только по нескольким главам, надеюсь, этого хватит, чтобы удовлетворить {b}Ms. Bissette{/b}." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "В это книге есть все, что только можно знать о сыре.\nВсё от создания, готовки и поедания всех сортов сыра...\n...Но я прошелся только по нескольким главам, надеюсь, этого хватит, чтобы удовлетворить {b}Мисс Биссетт{/b}." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -429,7 +429,7 @@ label bedroom_bissette_do_poem_assignment:
     scene expression game.timer.image("bedroom{}")
     show player 511 with dissolve
     player_name "Наконец-то!"
-    player_name "Надеюсь этого хватит, чтобы впечатлить {b}Мисс Биссетта{/b}..."
+    player_name "Надеюсь этого хватит, чтобы впечатлить {b}Мисс Биссетт{/b}..."
     player_name "Нужно просто {b}Распечатать{/b} это в {b}компьютерном классе{/b} и дело с концом."
     hide player with dissolve
     return
@@ -581,7 +581,7 @@ label bedroom_sleeping_jerk_off_debbie:
     show player 496f
     player_name "OХ!"
     show player 496g with flash
-    player_name "HHHNNNGGGG, HHuuuUUHH!!"
+    player_name "ХХХХХХГГГГГГГ, ХХХХХуууууУУУГГГГГГ!!"
     show player 496h
     hide jerkbubble
     hide debbied
@@ -634,7 +634,7 @@ label bedroom_sleeping_jerk_off_mia:
     show player 496f
     player_name "OХ!"
     show player 496g with flash
-    player_name "HHHNNNGGGG, HHuuuUUHH!!"
+    player_name "ХХХХХНННГГГГ, ХХХХуууууууХХХХ!!"
     show player 496h
     hide jerkbubble
     hide miad
@@ -669,7 +669,7 @@ label bedroom_sleeping_erik_thief_pre:
     scene bedroom_night with fade
     show player 101bf
     player_name "( Он явно исходит снаружи. )"
-    player_name "( ... Может со двора {b}Erik{/b}? )"
+    player_name "( ... Может со двора {b}Эрика{/b}? )"
     show player 100bf
     return
 
@@ -686,17 +686,17 @@ label bedroom_sleeping_erik_thief_use_telescope:
     player_name "!?!"
     player_name "Что за..."
     scene windowbackyardnight02b
-    player_name "( Кто-то лазает по двору {b}Erik{/b}?! )"
+    player_name "( Кто-то лазает по двору {b}Эрика{/b}?! )"
     player_name "( Наверное, это тот {b}Взломшик{/b}, о котором говорили в новостях! )"
     scene windowbackyardnight02c
     player_name "..."
-    player_name "( Он хочет пробраться в дом {b}Erik's{/b}?! )"
+    player_name "( Он хочет пробраться в дом {b}Эрика{/b}?! )"
 
     scene bedroom_night with fade
     show player 101bf with dissolve
     player_name "( Это плохо! )"
-    player_name "( А что, если {b}Erik{/b} и {b}Mrs. Johnson{/b} в опасности? )"
-    player_name "( Нужно выйти и посмотреть что он делает во дворе {b}Erik{/b}. )"
+    player_name "( А что, если {b}Эрик{/b} и {b}Миссис Джонсон{/b} в опасности? )"
+    player_name "( Нужно выйти и посмотреть что он делает во дворе {b}Эрика{/b}. )"
     hide player with dissolve
     return
 
@@ -715,7 +715,7 @@ label bedroom_sleeping_erik_bullying_3_started:
     player_name "( Я думаю, что тренировки в зале начали приносить свои плоды! )"
     pause
     show player 12
-    player_name "( Но {b}Dexter{/b} ни за что не уступит. )"
+    player_name "( Но {b}Декстер{/b} ни за что не уступит. )"
     player_name "(... Так что я должен выложиться на полную! )"
     show player 8 with dissolve
     pause
@@ -729,7 +729,7 @@ label bedroom_sleeping_erik_bullying_3_started:
 label bedroom_sleeping_dewitt_eve_karaoke:
     scene expression game.timer.image("bedroom{}")
     show player 14 with dissolve
-    player_name "Я должен встретиться с {b}Eve{/b} у {b}Erik{/b} дома сегодня ночью!"
+    player_name "Я должен встретиться с {b}Ив{/b} у {b}Эрика{/b} дома сегодня ночью!"
     show player 30
     player_name "Сон может и подождать."
     hide player with dissolve
@@ -738,7 +738,7 @@ label bedroom_sleeping_dewitt_eve_karaoke:
 label bedroom_sleeping_dewitt_school_sneak_mission:
     scene expression game.timer.image("bedroom{}")
     show player 10 with dissolve
-    player_name "Сегодня я собирался пробраться в школу вместе с {b}Erik{/b}."
+    player_name "Сегодня я собирался пробраться в школу вместе с {b}Эриком{/b}."
     player_name "Поэтому по что не могу лечь спать."
     hide player with dissolve
     return
@@ -746,9 +746,9 @@ label bedroom_sleeping_dewitt_school_sneak_mission:
 label bedroom_sleeping_mia_midnight_call:
     scene location_home_bedroom_cutscene01 with dissolve
     player_name "Хрр..."
-    "{b}Bzzt{/b}!"
+    "{b}Бззт{/b}!"
     player_name "..."
-    "{b}Bzzzzzzt{/b}!"
+    "{b}Бззззззззт{/b}!"
     scene bedroom_cs04 with dissolve
     player_name "Ха?"
     player_name "Это мой телефон?"
@@ -782,7 +782,7 @@ label bedroom_sleeping_debbie_solo_dream:
     scene dream_debbie_05 with dissolve:
         ypos 0
     pause
-    player_name "Hnnggg!!" with flash
+    player_name "Хнннгггг!!" with flash
     pause
     scene dream_debbie_05 with flash:
         ypos 0
@@ -814,7 +814,7 @@ label bedroom_sleeping_debbie_solo_dream:
 
 label bedroom_sleeping_debbie_night_visit:
     scene location_home_bedroom_cutscene01 with dissolve
-    player_name "Zzz..."
+    player_name "Зззз..."
     scene location_home_bedroom_cutscene02 with dissolve
     deb "( ... )"
     deb "( Я не могу заснуть. )"
@@ -1013,7 +1013,7 @@ label bedroom_sleeping_debbie_midnight_noises:
 label bedroom_sleeping_debbie_night_visit_three:
     $ M_mom.set("sex speed", .175 / .75)
     scene location_home_bedroom_cutscene01 with dissolve
-    player_name "Zzz..."
+    player_name "Ззз..."
     scene location_home_bedroom_cutscene02 with dissolve
     pause
     scene location_home_bedroom_sex01
@@ -1175,7 +1175,7 @@ label bedroom_sleeping_debbie_night_visit_three_cum_pre:
     scene location_home_bedroom_sex01
     show debbies 20p_20q
     with flash
-    player_name "HHNNGGG!!!!!"
+    player_name "ХХННГГГГ!!!!!"
 
     deb "AAAAAAAAХХХ!!!"
     pause
@@ -1235,7 +1235,7 @@ label bedroom_sleeping_debbie_night_visit_three_cum_pre:
     deb "..."
     deb "Ладно, милый.."
     deb "... Но мы можем так себя вести, только когда рядом никого нет!"
-    deb "И ты не скажешь об этом {b}НИКОМУ{/b}! оСОБЕННО {b}[jen_name]{/b}!"
+    deb "И ты не скажешь об этом {b}НИКОМУ{/b}! ОСОБЕННО {b}[jen_name]{/b}!"
     deb "Ты понял?!"
     show debbies 20t
     player_name "Да."
@@ -1341,7 +1341,7 @@ label bedroom_sleeping_debbie_smith_dream:
     show player 266
     player_name "( Это был очень странный сон! )"
     player_name "( Мы с {b}[deb_name]{/b} делали всякие вещи, и она было голая! )"
-    player_name "( А потом {b}Principal Smith{/b}... )"
+    player_name "( А потом {b}Директриса Смит{/b}... )"
     show player 267 with hpunch
     player_name "( !!! )"
     show player 268
