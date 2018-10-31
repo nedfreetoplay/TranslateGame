@@ -3,7 +3,7 @@ label prom_poster:
     pause
     player_name "( Скоро приближается выпускной. )"
     player_name "( Кажется это было бы подходящим временем ... если бы я уже встречался. )"
-    player_name "( Мне лучше поторопиться и найти когото. )"
+    player_name "( Мне лучше поторопиться и найти кого-то. )"
     player_name "( Интересно кого я мог бы попросить. )"
     $ game.main()
 
@@ -21,7 +21,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 642
     show erik 4
     eri "Ах, прямо за..."
-    eri "Это выглядит тяжолым!"
+    eri "Это выглядит тяжелым!"
     show erik 1
     show player 641
     player_name "Немного, да."
@@ -44,7 +44,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show erik 1
     show player 641
     player_name "Нет, я справлюсь."
-    player_name "В какю игру ты играешь-"
+    player_name "В какую игру ты играешь-"
     show player 642
     show erik 1b
     dex "Ой, Давай {b}Бекка{/b} просто дай взглянуть..."
@@ -457,7 +457,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show roxxy 2
     rox "Я знаю?!"
     show roxxy 1b
-    rox "Просто прийди на пляж  в {b}Субботу вечером{/b}!"
+    rox "Просто приходи на пляж в {b}Субботу вечером{/b}!"
     show roxxy 1
     show erik 1f
     show player 14
