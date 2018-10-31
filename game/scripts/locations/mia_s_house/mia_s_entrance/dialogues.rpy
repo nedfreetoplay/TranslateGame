@@ -543,7 +543,7 @@ label mias_house_sneak:
     with Pause(0.5)
 
     scene mia_sneak01 with dissolve
-    show text "TДверь открыта.\n Надеюсь, я не влипну ни в какие неприятности...\n Всё, захожу." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Дверь открыта.\n Надеюсь, я не влипну ни в какие неприятности...\n Всё, захожу." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
