@@ -87,12 +87,12 @@ label ivy_paizuri_first:
     with dissolve
     ivy "{b}*Хихиканье*{/b} Почему ты все еще так одет?"
     ivy "Нам не нужны полотенца для этого вида массажа."
-    player_name "Ох.Извини..."
+    player_name "Ох. Извини..."
     show ivy 14 at Position (xpos=780,ypos=655) with dissolve
     pause 0.5
     hide expression "characters/ivy/char_ivy_13.png"
     show ivy 15 at Position (xpos=804,ypos=655) with vpunch
-    ivy "Вот!Так намного лучше не так ли?"
+    ivy "Вот! Так намного лучше не так ли?"
     player_name "Да,так и есть."
     show ivy 16 at Position (xpos=870,ypos=658)
     pause 1
@@ -241,7 +241,7 @@ label ivy_blowjob_pre:
     show player 29
     player_name "Я Ээээ..."
     show ivy 3
-    ivy "расслабься,Я просто дурачусь!"
+    ivy "Расслабься, Я просто дурачусь!"
     show ivy 12
     ivy "Иди за мной."
     scene massage_room_closeup with fade
@@ -451,7 +451,7 @@ label ivy_reverse_cowgirl_first:
     show ivy 2
     ivy "Сейчас, раздевайся и ложись на кровать.Ты можешь положить свою одежды на стол."
     ivy "Я дам тебе пару минут чтобы подготовиться."
-    ivy "Нужно убедиться, что никто не помешает.."
+    ivy "Нужно убедиться, что никто не помешает."
     hide ivy 2 with dissolve
     show player 18
     player_name "( Уф, это было менее неловко, чем я ожидал! )"
@@ -493,11 +493,11 @@ label ivy_reverse_cowgirl_after:
     show playersex 19 zorder 1
     show ivy 7 zorder 2 at Position (xpos=800,ypos=656)
     with dissolve
-    ivy "Для этого нам понадобится презерватив.."
+    ivy "Для этого нам понадобится презерватив."
     show ivy 6 at Position (xpos=799,ypos=655)
-    player_name "Ой, мэн..."
+    player_name "Ой, блин..."
     show ivy 7 at Position (xpos=800,ypos=656)
-    ivy "О не волнуйся! ты таже не заметишь что он там.Верь мне."
+    ivy "О не волнуйся! ты даже не заметишь что он там. Верь мне."
     show ivy 9 at Position (xpos=730,ypos=674) with dissolve
     pause
     show ivy 10 at Position (xpos=730,ypos=697) with dissolve
@@ -522,7 +522,7 @@ label ivy_reverse_cowgirl_after:
     show ivysex 17 with dissolve
     ivy "{b}*Хихиканье*{/b} Интересно подойдет ли он.."
     ivy "Ты готов почувствать себя раю?"
-    player_name "{b}*Gulp*{/b} Yeah."
+    player_name "{b}*глоток*{/b} Да."
     ivy "Поехали..."
     show playersex 22
     show ivysex 18 with dissolve
@@ -833,7 +833,7 @@ label ivy_cowgirl_hscene_dialog:
         if not anim_toggle:
             show playersex 20
             show ivysex 10
-        ivy "...вы можешь быть просто подростком..."
+        ivy "...ты можешь быть просто подростком..."
         if not anim_toggle:
             show playersex 21
             show ivysex 11
