@@ -109,7 +109,7 @@ label trailer_tractor_roxxy_beat_clyde:
     show roxxy 3d
     show clyde 6
     show player 5f
-    clyde "{b}*Глоть*{/b} что ты сделала {b}Декстеру{/b}?!"
+    clyde "{b}*глоток*{/b} Что ты сделала {b}Декстеру{/b}?!"
     clyde "Он мировой мужик!"
     show clyde 5
     show player 10f
@@ -237,11 +237,11 @@ label trailer_tractor_roxxy_confront_clyde:
     with dissolve
     pause
     show clyde 22 with dissolve
-    clyde "Lookin' fer a place to fall apart."
-    clyde "Tryin' to find a place to leave my broken heart."
-    clyde "I need a place for hidin' when I- *hic*"
-    clyde "... When I feel them teardrops start!"
-    clyde "Lookin' fer a place to fall apaaaaaaart!"
+    clyde "Ищу место, где можно развалиться."
+    clyde "Пытаюсь найти место, где оставить разбитое сердце."
+    clyde "Мне нужно место, чтобы спрятаться, когда я- *ик*"
+    clyde "... Когда я почувствую, что слезы наливаются!"
+    clyde "Ищу место, где можно развааааааааааалиться!"
     show clyde 21
     show player 90f at right
     show roxxy 31 zorder 1 at Position (xpos=600)
