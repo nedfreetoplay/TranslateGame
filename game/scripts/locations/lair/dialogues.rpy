@@ -70,7 +70,7 @@ label seasucc_dialogue_aqua_seasucc_intro:
     player_name "Что это за странная вещь?"
     show player 5
     show aqua 20
-    aqua "Это не вещь.Это {b}SsseaSucc{/b}!"
+    aqua "Это не вещь. Это {b}SsseaSucc{/b}!"
     show aqua 19
     show player 12
     player_name "Хмм. И что делает этот {b}Моресос{/b}?"
@@ -432,14 +432,14 @@ label aqua_lure_steal:
             $ M_aqua.trigger(T_aqua_dive)
             if game.cheat_mode:
                 menu:
-                    "Skip Mini-Game (Cheat)":
+                    "Пропустить Мини-Игру (Чит)":
                         jump expression game.dialog_select("squid_attack")
-                    "Play Mini-Game":
+                    "Играть В Мини-Игру":
 
                         $ pass
 
             call screen squid_fight
-        "Еще нет.":
+        "Ещё нет.":
 
             call expression game.dialog_select("aqua_lure_steal_not_yet")
     $ game.main()
@@ -514,9 +514,9 @@ label aqua_lure_steal_pre:
 
 label aqua_lure_steal_after:
     player_name "!!!"
-    player_name "(Черт! Я должен буду идти за ней, если я хочу вернуть приманку.)"
-    player_name "(... Это может быть опасно, хотя.)"
-    player_name "(Нужно лучше удостовериться что Я сначала готов.)"
+    player_name "( Черт! Я должен буду идти за ней, если я хочу вернуть приманку. )"
+    player_name "( ... Это может быть опасно, хотя. )"
+    player_name "( Нужно лучше удостовериться что Я сначала готов. )"
     return
 
 label aqua_lure_steal_dive_pre:
@@ -538,14 +538,14 @@ label aqua_lure_steal_dive_after:
     with dissolve
 
     scene location_lair_ocean_look
-    player_name "(Она должна быть где то здесь.)"
+    player_name "( Она должна быть где то здесь. )"
     player_name "..."
-    player_name "(Гррр... Куда она смылась?!)"
+    player_name "( Гррр... Куда она смылась?! )"
 
     scene location_lair_ocean_prefight
-    player_name "(!!!)" with hpunch
-    player_name "(Что за- !!)"
-    player_name "(Гиганский кальмар!?!)"
+    player_name "( !!! )" with hpunch
+    player_name "( Что за- !! )"
+    player_name "( Гиганский кальмар!?! )"
 
     scene versus_squid with vpunch
     $ renpy.pause(1.0, hard = True)
@@ -553,8 +553,8 @@ label aqua_lure_steal_dive_after:
 
 label aqua_lure_steal_not_yet:
     show player 476b
-    player_name "(Неа... Я не буду нырять за ней.)"
-    player_name "(Не знаю что меня там ждёт.)"
-    player_name "(Возможно позже...)"
+    player_name "( Неа... Я не буду нырять за ней. )"
+    player_name "( Не знаю что меня там ждёт. )"
+    player_name "( Возможно позже... )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
