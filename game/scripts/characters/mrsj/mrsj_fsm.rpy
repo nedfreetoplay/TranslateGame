@@ -1,14 +1,14 @@
 label mrsj_triggers_init:
     python:
 
-        T_mrsj_intro = Trigger("intro", "MILF Next Door" )
-        T_mrsj_yoga_intro = Trigger("yoga intro", "Who's That Milf There")
-        T_mrsj_yoga_help_asked = Trigger("yoga help asked", "Women In Tights? Yes Please Part 1")
-        T_mrsj_yoga_helped_annie = Trigger("yoga helped annie", "Women In Tights? Yes Please Part 2")
-        T_mrsj_poker_night_asked = Trigger("poker night asked", "Poker 1, 2, Strip Part 1")
-        T_mrsj_poker_night_lost = Trigger("poker night lost", "Poker 1, 2, Strip Part 2")
-        T_mrsj_sex_ed_prepped = Trigger("sex ed prepped", "Sex Ed For Dummies")
-        T_mrsj_threesome = Trigger("threesome", "Sex Ed Just Got Practical")
+        T_mrsj_intro = Trigger("intro", "Милф следующая дверь" )
+        T_mrsj_yoga_intro = Trigger("yoga intro", "Кто этот Милф там")
+        T_mrsj_yoga_help_asked = Trigger("yoga help asked", "Женщины В Колготках? Да, Пожалуйста Часть 1")
+        T_mrsj_yoga_helped_annie = Trigger("yoga helped annie", "Женщины В Колготках? Да Пожалуйста, Часть 2")
+        T_mrsj_poker_night_asked = Trigger("poker night asked", "Покер 1, 2, Стрип Часть 1")
+        T_mrsj_poker_night_lost = Trigger("poker night lost", "Покер 1, 2, Стрип Часть 2")
+        T_mrsj_sex_ed_prepped = Trigger("sex ed prepped", "Секс Для Чайников")
+        T_mrsj_threesome = Trigger("threesome", "Секс только для получения практики")
     return
 
 label mrsj_fsm_init:
