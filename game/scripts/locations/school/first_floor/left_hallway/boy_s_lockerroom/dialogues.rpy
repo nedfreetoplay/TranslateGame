@@ -26,7 +26,7 @@ label boys_lockerroom_roxxy_shower_event:
     becca "Ты же типа не можешь больше у нас списывать..."
     show becca 3
     show missy 2
-    missy "Да, {b}Miss Bissette{/b} сказала, что если поймает кого-то списывающим - нам всем конец."
+    missy "Да, {b}Мисс Биссетт{/b} сказала, что если поймает кого-то списывающим - нам всем конец."
     show missy 1
     show becca 1
     show roxxy 17
@@ -186,11 +186,11 @@ label boys_lockerroom_judith_changing:
     show combo 5 at left
     show annie 1 at right
     player_name "Слушай..."
-    player_name "{b}Джуди{/b} не очень комфортно себя чувствует в мужской раздевалке."
+    player_name "{b}Джудит{/b} не очень комфортно себя чувствует в мужской раздевалке."
     player_name "И ей нужно чуть больше времени, понимаешь?"
     show combo 4 at left
     show annie 5 at right
-    ann "Это правда, {b}Джуди{/b}?"
+    ann "Это правда, {b}Джудит{/b}?"
     show combo 6 at left
     show annie 6 at right
     jud "Ну..."
@@ -542,7 +542,7 @@ label roxxy_shower_dialogue_please_pass:
     missy "Думаешь, что у меня прекрасные ноги?"
     show missy 1f
     show jersey 17
-    player_name "Да, я уверен, что {b}Becca{/b} хотела бы себе такие ноги!"
+    player_name "Да, я уверен, что {b}Бекка{/b} хотела бы себе такие ноги!"
     show jersey 18
     show becca 2bf
     becca "Что?! Нет!"
@@ -631,7 +631,7 @@ label roxxy_shower_dialogue_please_pass:
     rox "... Мудак."
     hide roxxy with fastdissolve
     show jersey 10
-    player_name "Да я же просто пошутил, {b}Roxxy{/b}..."
+    player_name "Да я же просто пошутил, {b}Рокси{/b}..."
     show jersey 11
     pause
     show jersey 13
