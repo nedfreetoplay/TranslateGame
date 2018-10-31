@@ -4,9 +4,9 @@ label okitas_office_enter_office:
     with dissolve
     player_name "Воу, посмотри на все эти веши!"
     player_name "И как я должен здесь что нибудь найти?"
-    player_name "Это похоже на эпизодо один из этих банальных научно-фантастических фильмов которые {b}Erik{/b} смотрит все время."
+    player_name "Это похоже на эпизод одного из этих банальных научно-фантастических фильмов которые {b}Эрик{/b} смотрит все время."
     show player 35
-    player_name "Что Okita хочет снова?"
+    player_name "Что Окита хочет снова?"
     show player 34
     pause
     show player 35
@@ -37,7 +37,7 @@ label okitas_office_enter_office:
     pause
     kont "..."
     show kont 1
-    kont "Приветствую вас, Чело-век. Я -- Kinetic Опиративная Система Терминал с Эмоциональным с Интерфейсом реального времени и Навигационными множествами."
+    kont "Приветствую вас, Чело-век. Я -- Кинетическая Оперативная Система Терминал с Эмоциональным  Интерфейсом реального времени и Навигационными множествами."
     show player 10
     player_name "... хм?"
     show player 11
@@ -224,7 +224,7 @@ label okitas_office_missing_items:
     scene expression game.timer.image("location_school_office4{}_blur")
     show player 2
     with dissolve
-    player_name "Я еще не могу уйти. Окита saсказала что мней нужен лабораторный халат, защитные очки, и её Чертежи."
+    player_name "Я еще не могу уйти. Окита сказала что мне нужно взять лабораторный халат, защитные очки, и Чертежи."
 
     $ game.main()
     return
@@ -404,12 +404,12 @@ label konterina_dialogue_1:
     show player 2 at left
     show kont 1 at Position(xpos=0.75, ypos=0.825)
     with dissolve
-    kont "Пожалуйста сообщите {b}Окита-Сан{/b} что моей ходовой части требуется черезвычайно тежелая, и тчательная очистка."
+    kont "Пожалуйста сообщите {b}Окита-Сан{/b} что моей ходовой части требуется черезвычайно тежелая, и тщательная очистка."
     show player 10
     player_name "Эмм, хорошо."
     show player 11
     show kont 2
-    kont "... И скажи ей что я сказал чтобы ты должен помочь с очисткой."
+    kont "... И скажи ей что я сказала что ты должен помочь с очисткой."
     show player 10
     player_name "Эмм?"
     show player 11
@@ -933,7 +933,7 @@ label okitas_office_extract_cum:
                 player_name "Ох! Я собираюсь!"
                 player_name "Я собираюсь!"
                 show okitap 9 at Position(xpos=0.55, ypos=1.0) with dissolve
-                player_name "Hnnngg!!" with hpunch
+                player_name "Хннгггг!!" with hpunch
                 pause
                 show okitap 10
                 pause
