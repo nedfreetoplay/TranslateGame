@@ -264,7 +264,7 @@ label helens_bedroom_mia_helen_outfit_request:
     helen "Спасибо, {b}[firstname]{/b}."
     show helen 47
     show player 79 with dissolve
-    player_name "Не за что, {b}Helen{/b}... Но мне правда нужно идти."
+    player_name "Не за что, {b}Хелен{/b}... Но мне правда нужно идти."
     player_name "До свидания!"
     hide player
     hide helen
