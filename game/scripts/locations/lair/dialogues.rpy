@@ -100,7 +100,7 @@ label seasucc_dialogue_aqua_seasucc_intro:
     player_name "Кормить его? Странно..."
     player_name "Но я, до сих пор ничего не слышал о {b}Синих Мухоморах{/b}."
     show player 10
-    player_name "Где мне такие найти?"
+    player_name "Где мне найти их?"
     show player 5
     show aqua 20
     aqua "Оно растет на суше. {b}Глубоко в лесу{/b}. Опасно для {b}Аквы{/b}."
@@ -123,13 +123,13 @@ label seasucc_dialogue_aqua_seasucc_no_mushroom:
     show player 12 zorder 3 at left
     show player 5
     show aqua 20
-    aqua "Тебе нужно будет накормить егое специальной едой, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
+    aqua "Тебе нужно будет накормить его специальной едой, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
     show aqua 19
     show player 10
     player_name "Где я могу их найти?"
     show player 5
     show aqua 20
-    aqua "Они растут на суше. {b}Глубоко в лессу{/b}. Опасно для {b}Аквы{/b}."
+    aqua "Они растут на суше. {b}Глубоко в лесу{/b}. Опасно для {b}Аквы{/b}."
     show aqua 19
     show player 14
     player_name "Ладно, попробую найти."
@@ -326,7 +326,7 @@ label seasucc_cum_pre:
     show player seasucc 3
     show aqua 25
     if M_aqua.is_state(S_aqua_seasucc_mushroom):
-        aqua "Теперь когда {b}SeaSucc{/b} попробовал твоё ссемя, он запомнит."
+        aqua "Теперь когда {b}SeaSucc{/b} попробовал твоё сссемя, он запомнит."
         aqua "Вы теперь друзья!"
         aqua "Теперь он будет доставлять удовольстие всегда."
         show popup_seasucc at truecenter with dissolve
@@ -345,7 +345,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_intro:
     show seasucc 1 zorder 2
     show player 13 zorder 3 at left
     with dissolve
-    aqua "Вернешься за добаввкой?"
+    aqua "Вернешься за добавввкой?"
     show aqua 19
     return
 
