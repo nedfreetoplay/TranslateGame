@@ -31,7 +31,13 @@ init python:
             self._bg = random.choice(self._backgrounds)
             positions = [(0,175), (356,170), (858,212)]
             self._buttons = [AquaMazeButton("objects/object_cavehole_0{}.png".format(i+1), i, pos) for i, pos in enumerate(positions)]
-            self._TIMER = 15 
+
+            self._left_arrow = renpy.displayable("attack_01b.png")
+            self._center_arrow = renpy.displayable("attack_02b.png")
+            self._right_arrow = renpy.displayable("attack_03b.png")
+            self.current_stage = 0
+
+            self._TIMER = 15
             self._TIMER_DECREMENT = 0.01
             self._timer = self._TIMER
             self._start_timer = clock()
@@ -57,7 +63,26 @@ init python:
             filler_r = renpy.render(self._bar_full, width, height, st, at)
             filler_r_crop = filler_r.subsurface((0, 0, self.bar_length, 33))
             render.blit(filler_r_crop, (255,660))
-            if self._choices == [1, 1, 0, 0, 1, 2, 1]:
+
+            win_choices = [1, 1, 0, 0, 1, 2, 1]
+            draw_arrow = True
+            for i, elm in enumerate(self._choices):
+                if elm == win_choices[i]:
+                    draw_arrow = True
+                else:
+                    draw_arrow = False
+                    break
+            if len(self._choices) < len(win_choices) and draw_arrow and tips:
+                if win_choices[self.current_stage] == 0:
+                    what_arrow = self._left_arrow
+                if win_choices[self.current_stage] == 1:
+                    what_arrow = self._center_arrow
+                if win_choices[self.current_stage] == 2:
+                    what_arrow = self._right_arrow
+                arrow = renpy.render(what_arrow, width, height, st, at)
+                render.blit(arrow, (width/2 - 25, height*3/4))
+
+            if self._choices == win_choices:
                 renpy.jump("maze_pass")
             renpy.not_infinite_loop(1)
             renpy.redraw(self, 0)
@@ -75,6 +100,9 @@ init python:
                     button.hovered = True
                     if ev.type == pygame.MOUSEBUTTONUP:
                         self._choices.append(button.id)
+
+                        self.current_stage += 1
+
                         current_bg = self._bg
                         bgs = copy(self._backgrounds)
                         bgs.remove(current_bg)

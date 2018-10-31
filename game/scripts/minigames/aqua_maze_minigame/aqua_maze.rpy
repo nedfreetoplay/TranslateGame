@@ -1,12 +1,22 @@
 label maze_pre:
     if game.cheat_mode:
         scene location_lair_ocean with None
-        menu:
-            "Пропутить мини-игру (Чит)":
-                jump maze_pass
-            "Играть в мини-игру":
-
-                $ pass
+        $ end_while = False
+        $ tips = False
+        if game.cheat_mode:
+            $ tips = True
+        while not end_while:
+            menu:
+                "Пропутить мини-игру (Чит)":
+                    $ end_while = True
+                    jump maze_pass
+                "Играть в мини-игру":
+                    $ end_while = True
+                    $ pass
+                "Подсказки: {color=#FFD700}ВКЛЮЧЕНЫ{/color}" if tips:
+                    $ tips = False
+                "Подсказки: ОТКЛЮЧЕНЫ" if not tips:
+                    $ tips = True
     call screen lair_maze
 
 label maze_fail:
