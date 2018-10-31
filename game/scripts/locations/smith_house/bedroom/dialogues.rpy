@@ -65,7 +65,7 @@ label smith_window_exit_dialogue:
 label smith_window_exit_roxxy_sneak_into_smith:
     scene expression "backgrounds/location_smith_frontyard_cutscene01.jpg"
     with fade
-    show text "Как только я услышал, как кто-то шел из прихожей к спальням\n... Я выпрыгнул в открытое окно и приземлился на крышу снизу!\nМысль о том, что меня могли поймать в спальне {b}Директрисы Смит{/b}’s до сих пор преследует меня в кошмарах!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Как только я услышал, как кто-то шел из прихожей к спальням\n... Я выпрыгнул в открытое окно и приземлился на крышу снизу!\nМысль о том, что меня могли поймать в спальне {b}Директрисы Смит{/b} до сих пор преследует меня в кошмарах!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
