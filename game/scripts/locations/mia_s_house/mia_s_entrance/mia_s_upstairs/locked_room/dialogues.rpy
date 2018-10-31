@@ -100,12 +100,12 @@ label mia_tied_up_dialogue:
     harold "{b}Хелен{/b}, почему ты так кричишь?!"
     show harold 14
     show helen 7b
-    helen "Возвращайся вниз, {b}Harold{/b}."
+    helen "Возвращайся вниз, {b}Гарольд{/b}."
     show helen 8b
     show harold 13
     show player 11
-    harold "Нет, подожди минуточку {b}Helen{/b}!"
-    harold "Это слишком, и зашло слишком далеко!!"
+    harold "Нет, подожди минуточку {b}Хелен{/b}!"
+    harold "Это слишком, и зашло очень далеко!!"
     show harold 14
     show helen 7b
     show player 22
@@ -146,12 +146,12 @@ label mia_tied_up_dialogue:
     player_name "Да, простите, я обязательно... Я как раз собираюсь уходить."
     hide player with dissolve
     show helen 7b
-    helen "Нам нужно поговорить, {b}Harold{/b}."
+    helen "Нам нужно поговорить, {b}Гарольд{/b}."
     show helen 8b
     show harold 17
     harold "Я так не думаю, {b}Хелен{/b}."
     harold "Здесь нечего обсуждать."
-    harold "{b}Mia{/b} идет в свою комнату и мы разберемся с этим завтра!"
+    harold "{b}Мия{/b} идет в свою комнату и мы разберемся с этим завтра!"
     hide harold
     hide helen
     scene black
