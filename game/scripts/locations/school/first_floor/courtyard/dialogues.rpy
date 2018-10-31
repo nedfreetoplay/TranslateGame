@@ -45,13 +45,13 @@ label courtyard_roxxy_intense_gymercise:
     bri "Продолжай тренироваться, личинка!"
     show coach 1
     show jersey 28
-    player_name "Да... {b}Coach Bridget{/b}..."
+    player_name "Да... {b}тренер Бриджет{/b}..."
     show coach 3
     show jersey 27
     bri "А теперь убирайся с глаз моих!"
     bri "И тебе лучше показать прогресс в следующий раз!"
     show coach 1
-    player_name "Простите, {b}Coach Bridget{/b}!"
+    player_name "Простите, {b}тренер Бриджет{/b}!"
     hide coach
     hide jersey
     with dissolve
@@ -64,7 +64,7 @@ label courtyard_bridget_intro:
     bri "Смотрите, кто пришел!"
     show coach 1 at right
     show jersey 17 at left
-    player_name "Здрасьте, {b}Coach Bridget{/b}!"
+    player_name "Здрасьте, {b}тренер Бриджет{/b}!"
     show jersey 18 at left
     player_name "Я знаю, что пропустил несколько тренировок, но уверяю вас, что буду готов к Региональным Легкоатлетическим Соревно-"
     show coach 3 at right
@@ -108,7 +108,7 @@ label courtyard_bridget_intro:
     show coach 3 at right
     bri "Лучше тащи свою задницу в {b}местный спортзал{/b} сейчас же, и начинай заниматься, если хочешь пройти этот класс..."
     show coach 4 at right
-    bri "... или иди в {b}Miss Bissette's class{/b}, где тяжелая работа и хорошие оценки не имеют значения!"
+    bri "... или иди в {b}класс Мисс Биссетт{/b}, где тяжелая работа и хорошие оценки не имеют значения!"
     bri "Сейчас, {b}ИДИ ПРОЧЬ С ГЛАЗ МОИХ!!!{/b}"
     hide coach 7 with dissolve
     show ronda 3 at right with dissolve
