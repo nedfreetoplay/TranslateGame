@@ -103,7 +103,7 @@ label library_bissette_find_poem_reference_book:
     show player 12f
     player_name "Это будет не легко-"
     show player 32f at Position(xoffset=-69) with dissolve
-    player_name "Это {b}Mia{/b}?"
+    player_name "Это {b}Мия{/b}?"
     show player 14f with dissolve
     player_name "Интересно что она здесь делает?"
     player_name "Я должен пойти и сказать Привет!"
@@ -136,7 +136,7 @@ label poem_assignment_lock:
 label poem_assignment_lock_bissette_find_poem_reference_book:
     scene library
     show player 14f with dissolve
-    player_name "Надо поздороваться с{b}Мией{/b}."
+    player_name "Надо поздороваться с {b}Мией{/b}."
     hide player with dissolve
     return
 
