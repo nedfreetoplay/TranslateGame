@@ -38,7 +38,7 @@ label trailer_roxxy_studying_at_roxxys:
     crys "Откуда я могу знать?!"
     crys "У тебя тут слишком много хлама, нужно чудо, чтобы найти хоть что-то!"
     rox "Ах, забудь... Просто, блять, сиди тут, а я принесу его!"
-    crys "{b}*Buuuurp*{/b}"
+    crys "{b}*рыыыыг*{/b}"
     crys "Зачем он вообще тебе нужен?"
     rox "Неважно, Я уже сама его нашла. А ты дальше смотри свои ситкомы..."
     crys "... Неблагодарное отродье!"
@@ -116,8 +116,8 @@ label trailer_roxxy_studying_at_roxxys:
     clyde "Пфф, ну и ладно"
     clyde "Я сам это сделаю!"
     clyde "Как дела, чувак?"
-    clyde "Я {b}Clyde{/b}!"
-    clyde "Я кузен {b}Roxxy's{/b}."
+    clyde "Я {b}Клайд{/b}!"
+    clyde "Я кузен {b}Рокси{/b}."
     clyde "Иногда она как будто об этом забывает!"
     show clyde 3
     show roxxy 1l
@@ -134,11 +134,11 @@ label trailer_roxxy_studying_at_roxxys:
     player_name "Ха, да ладно?"
     show player 5f
     show roxxy 1l
-    rox "Чего тебе надо, {b}Clyde{/b}?"
+    rox "Чего тебе надо, {b}Клайд{/b}?"
     show roxxy 1k
     show clyde 4
     clyde "Тц, не знаю, чего ты вся на нервах!"
-    clyde "Твоя {b}Momma's{/b} просила меня зайти сегодня."
+    clyde "Твоя {b}мама{/b} просила меня зайти сегодня."
     clyde "Так что если что-то не устраивает... Выскажи это ей!"
     show clyde 3
     show roxxy 33
@@ -148,7 +148,7 @@ label trailer_roxxy_studying_at_roxxys:
     crys "Это же мой милый племянник!"
     show crystal 5 zorder 1 at Position (xpos=500) with dissolve
     show clyde 4
-    clyde "Привет, {b}Auntie{/b}!"
+    clyde "Привет, {b}тётушка{/b}!"
     show clyde 3
     show crystal 6
     crys "Чего ты так долго?!"
@@ -166,7 +166,7 @@ label trailer_roxxy_studying_at_roxxys:
     show roxxy 32
     show crystal 6
     crys "Ох, я прощаю тебя..."
-    crys "Заходи, твоей тётушке {b}Auntie{/b} нужно что-то сладенькое..."
+    crys "Заходи, твоей {b}тётушке{/b} нужно что-то сладенькое..."
     show crystal 5
     show clyde 4 with dissolve
     clyde "С удовольствием!"
@@ -176,7 +176,7 @@ label trailer_roxxy_studying_at_roxxys:
     with dissolve
     pause
     show clyde 15 with dissolve
-    clyde "Ммм, а ты сегодня просто красотка, {b}Auntie{/b}!"
+    clyde "Ммм, а ты сегодня просто красотка, {b}тётушка{/b}!"
     show clyde 14b
     crys "Ой, только без этого!"
     show clyde 13 with dissolve
@@ -184,7 +184,7 @@ label trailer_roxxy_studying_at_roxxys:
     show player 11f
     show clyde 14 with dissolve
     crys "Боже правый!"
-    crys "Неужели {b}Roxxy{/b} нашла себе нового мужика..."
+    crys "Неужели {b}Рокси{/b} нашла себе нового мужика..."
     show player 13f
     show clyde 1
     show crystal 9f zorder 1 at Position (xpos=395)
@@ -234,7 +234,7 @@ label trailer_roxxy_studying_at_roxxys:
     hide crystal
     show clyde 4
     with dissolve
-    clyde "Оу, только после вас, {b}Auntie{/b}."
+    clyde "Оу, только после вас, {b}тётушка{/b}."
     show clyde 9 with dissolve
     clyde "... А вы равлекитесь тут со своей 'учебой'."
     hide clyde with dissolve
@@ -255,7 +255,7 @@ label trailer_roxxy_studying_at_roxxys:
     show roxxy 1i
     show player 11
 
-    clyde "Вооуу! Притормози, {b}Auntie{/b}! Ты так порвешь мои джинсы!"
+    clyde "Вооуу! Притормози, {b}тётушка{/b}! Ты так порвешь мои джинсы!"
     show roxxy 1j
     clyde "Я вытащу его как мужно скорее!"
     crys "Быстрее! Я уже хочу его увидеть"
@@ -318,12 +318,12 @@ label trailer_roxxy_get_uniform_on_doggo:
     show roxxy 61
     player_name "..."
     show roxxy 62
-    rox "Уф, тупой {b}Clyde{/b}!"
+    rox "Уф, тупой {b}Клайд{/b}!"
     rox "Я клянусь, я расчленю эту свинью и приготовлю из него бекон!"
     scene black with fade
     scene expression "backgrounds/location_trailer_cutscene01.jpg"
     with fade
-    show text "Никогда не видел, чтобы кто-то стирал одежду под шлангом с водой!\n{b}Roxxy{/b} видно очень нелегко." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Никогда не видел, чтобы кто-то стирал одежду под шлангом с водой!\n{b}Рокси{/b} видно очень нелегко." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Я должен был ей как-то помочь, но был просто в ступоре..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -410,7 +410,7 @@ label trailer_roxxy_check_trailer:
     show player 11
     player_name "..."
     show player 10
-    player_name "А что с {b}Clyde{/b}?"
+    player_name "А что с {b}Клайдом{/b}?"
     show player 5
     show roxxy 2c
     rox "Точно!"
@@ -420,7 +420,7 @@ label trailer_roxxy_check_trailer:
     rox "Я прикончу его!"
     hide roxxy with dissolve
     show player 10
-    player_name "Воу! {b}Roxxy{/b} Успокойся!"
+    player_name "Воу! {b}Рокси{/b} Успокойся!"
     player_name "... Подожди меня!"
     hide player with dissolve
     return
@@ -432,10 +432,10 @@ label trailer_roxxy_trailer_foreclosed:
     scene black with fade
     scene expression L_trailer.background_blur
     show player 108 with dissolve
-    player_name "{b}Roxxy's Trailer{/b} всё ещё оцеплен."
+    player_name "{b}Трейлер Рокси{/b} всё ещё оцеплен."
     show player 109
     show player 108
-    player_name "Нужно найти {b}Roxxy{/b} или вообще узнать всё в одиночку."
+    player_name "Нужно найти {b}Рокси{/b} или вообще узнать всё в одиночку."
     player_name "Должен же быть способ..."
     hide player
     return
