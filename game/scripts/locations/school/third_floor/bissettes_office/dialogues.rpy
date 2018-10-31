@@ -1,7 +1,7 @@
 label bissettes_office_first_visit:
     scene school_office1_b with fade
     show player 10 with dissolve
-    player_name "{b}Miss Bisette's{/b} кабинет выглядит таким...Французким!"
+    player_name "Кабинет {b}Мисс Биссетт{/b} выглядит таким...Французким!"
     show player 14
     player_name "Возможно отдныжды мы сможем с ней поехать в путешествие..."
     hide player with dissolve
@@ -15,7 +15,7 @@ label bissettes_office_afternoon_visit:
     bis "Bonjour(Добрый день), {b}[firstname]{/b}!"
     show teacher 1
     show player 14
-    player_name "Здрасте, {b}Miss Bissette{/b}."
+    player_name "Здрасте, {b}Мисс Биссетт{/b}."
     show player 17
     player_name "Мне нравится ваш кабинет!Это очень... эмм... по Французки."
     show player 13
@@ -29,16 +29,16 @@ label bissettes_office_afternoon_visit:
     bis "Что ж, {b}[firstname]{/b}, Я беспокоюсь о предстоящем экзамене."
     show teacher 4
     show player 33
-    player_name "Хм? Вам не нужно волноваться, {b}Miss Bissette{/b}."
+    player_name "Хм? Вам не нужно волноваться, {b}Мисс Биссетт{/b}."
     show player 14
     player_name "Я никогда не чувствовал себя настолько подготовленым к тесту чем раньше.Я хорошо с ним справлюсь обязательно!"
     show player 13
     show teacher 5
     bis "Oui(Да), {b}[firstname]{/b}! Ты безусловно мой лучший ученик и Я очень горжусь тобой!"
-    bis "Это за {b}Roxxy{/b} я очень беспокоюсь..."
+    bis "Это за {b}Рокси{/b} я очень беспокоюсь..."
     show teacher 4
     show player 12
-    player_name "{b}Roxxy{/b}?"
+    player_name "{b}Рокси{/b}?"
     show player 5
     show teacher 5
     bis "Oui(Да)!Учитывая что она даже не появлялась на экзамене, не существует способа заставить её получить хороую отметку"
@@ -48,9 +48,9 @@ label bissettes_office_afternoon_visit:
     show player 5
     show teacher 5
     bis "Ce serait ennuyeux(Это будет досадно)..."
-    bis "Если {b}Roxxy{/b} не появится на экзамене, это снизит среднегодовое число всех студентов."
+    bis "Если {b}Рокси{/b} не появится на экзамене, это снизит среднегодовое число всех студентов."
     show teacher 15 with dissolve
-    bis "Я боюсь{b}Директриса Smith{/b} снимет с меня голову!"
+    bis "Я боюсь {b}Директриса Смит{/b} оторвет мне голову!"
     show teacher 14
     show player 10
     player_name "Вы хотите сказать что она уволит вас?!"
@@ -63,7 +63,7 @@ label bissettes_office_afternoon_visit:
     show player 12
     player_name "Что ж я не позволю этому случиться!"
     show player 14
-    player_name "Я найду способ убедить {b}Roxxy{/b} появиться на экзамене, я обещаю!"
+    player_name "Я найду способ убедить {b}Рокси{/b} появиться на экзамене, я обещаю!"
     show player 13
     show teacher 2
     bis "Ох, {b}[firstname]{/b}! Tu es mon heros(Ты мой герой)!"
@@ -77,12 +77,12 @@ label bissettes_office_afternoon_visit:
     bis "Très Bien(очень хорошо)!Удачи, {b}[firstname]{/b}!"
     show teacher 1
     show player 14
-    player_name "Спасибо, {b}Miss Bissette{/b}."
+    player_name "Спасибо, {b}Мисс Биссетт{/b}."
     show player 13
     hide teacher with dissolve
     show player 35
     player_name "Хмм, это будет нелегко..."
-    player_name "Это единственая убедительная вещь чтобы {b}Roxxy{/b} пришла на экзамен."
+    player_name "Это единственая убедительная вещь чтобы {b}Рокси{/b} пришла на экзамен."
     player_name "Но так же она должна его как то пройти..."
     show player 4 with dissolve
     player_name "..."
@@ -440,7 +440,7 @@ label bissette_hscene_dialog:
 
 label bissettes_office_sex_cum_chair_angle:
     bis "АААААААХХХХ!!!!"
-    player_name "Hnnngg!!!"
+    player_name "Хннггггг!!!"
     show teachers_chair 14_15 at Position(xalign = 0.564) with flash
     pause
     show teachers_chair 16 with dissolve
@@ -467,7 +467,7 @@ label bissettes_office_sex_cum_chair_angle:
 
 label bissettes_office_sex_cum_desk_angle:
     bis "АААААААХХХХ!!!!"
-    player_name "Hnnngg!!!"
+    player_name "Хннггг!!!"
     show teachers 52_53 at right with flash
     pause
     show teachers 54 with dissolve
@@ -499,7 +499,7 @@ label bissettes_office_sex_cum_first:
     bis "Дождаться не могу!"
     show teacher 45
     show player 36 with dissolve
-    player_name "Скоро увидимся, {b}Miss Bissette{/b}!"
+    player_name "Скоро увидимся, {b}Мисс Биссетт{/b}!"
     show player 426 with dissolve
     show teacher 46
     bis "Au revoir(До свидания), {b}[firstname]{/b}!"
@@ -528,7 +528,7 @@ label bissettes_office_sex_cum_repeat:
     bis "Очень хорошо. Au revoir(До свидания), {b}[firstname]{/b}!"
     show teacher 45
     show player 36 with dissolve
-    player_name "Au revoir(До свидания), {b}Miss Bissette{/b}!"
+    player_name "Au revoir(До свидания), {b}Мисс Биссетт{/b}!"
     hide player
     hide teacher
     with dissolve
