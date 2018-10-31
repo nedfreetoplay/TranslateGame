@@ -5,10 +5,10 @@ label cafeteria_milk_delivery:
     ann "Что здесь происходит??"
     show annie 1
     show player 164
-    player_name "Привет {b}Annie{/b}! Я эм..."
+    player_name "Привет {b}Анна{/b}! Я эм..."
     show annie 9
     player_name "Что ж, Я должен был доствить это в кафетерию."
-    player_name "Это доставка{b}Молока{/b}!"
+    player_name "Это доставка {b}Молока{/b}!"
     show annie 4
     show player 163
     ann "Я знаю что это.У меня есть глаза."
@@ -17,20 +17,20 @@ label cafeteria_milk_delivery:
     show player 164
     player_name "... Потому что женщина которая это делает попрасила меня доставить."
     player_name "Я помогаю ей."
-    player_name "Вот сдесь{b}счет{/b}!"
+    player_name "Вот здесь {b}счет{/b}!"
     show annie 12
     show player 163
     ann "Хмм..."
     show annie 13
     ann "Я не могу это принять."
-    ann "Тебе нужно поговорить с {b}Директрисой Smith{/b} на {b}Третьем этаже{/b}."
+    ann "Тебе нужно поговорить с {b}Директрисой Смит{/b} на {b}Третьем этаже{/b}."
     show annie 6
     show player 164
     player_name "Но-"
     show player 163
     show annie 5
     ann "Я не могу доверять кому-то кто лишен полномочий для доставки!"
-    ann "Если{b}Директриса Smith{/b} одобрит это, я возьму это у тебя."
+    ann "Если {b}Директриса Смит{/b} одобрит это, я возьму это у тебя."
     show annie 6
     show player 164
     player_name "Хорошо, отлично..."
@@ -45,10 +45,10 @@ label cafeteria_milk_delivery_invoice:
     show player 163
     ann "..."
     show annie 3
-    ann "{b}Директриса Smith{/b} взяла {b}счет{/b}?"
+    ann "{b}Директриса Смит{/b} взяла {b}счет{/b}?"
     show annie 1
     show player 164
-    player_name "Да, она была... отчасти... занята.Однако она сказала что я должен отдать его тебе."
+    player_name "Да, она была... отчасти... занята. Однако она сказала что я должен отдать его тебе."
     show annie 5
     show player 163
     ann "Я вижу..."
@@ -57,7 +57,7 @@ label cafeteria_milk_delivery_invoice:
     ann "Я тогда я заберу это."
     show annie 14
     show player 17
-    player_name "Спасибо, {b}Annie{/b}!"
+    player_name "Спасибо, {b}Анни{/b}!"
     hide player
     hide annie
     with dissolve
@@ -67,26 +67,26 @@ label cafeteria_erik_favor_not_known:
     scene cafeteria_b
     show player 2 at left with dissolve
     show kevin 1 at right with dissolve
-    player_name "Хэй, {b}Kevin{/b}!"
+    player_name "Привет, {b}Кэвин{/b}!"
     show player 1 at left
     show kevin 2 at right
-    kev "Ъэй, чувак..."
+    kev "Привет, чувак..."
     show kevin 1 at right
     show player 10 at left
     player_name "ты правда работаешь в кафитерии..."
     show kevin 2 at right
     show player 13 at left
-    kev "Ага!Мне осталось еще 2 месяца этого дерьма."
+    kev "Ага! Мне осталось еще 2 месяца этого дерьма."
     show kevin 1 at right
     show player 17 at left
     player_name "Это хреново."
     show kevin 2 at right
     show player 1 at left
     kev "Да но что я могу сделать?"
-    kev "Кстати,{b}Dexter{/b} делает вам трудные деньки в коридорах ?"
+    kev "Кстати, {b}Декстер{/b} доставляет вам неприятности в коридоре?"
     show kevin 1 at right
     show player 24 at left
-    player_name "Да, он и {b}Roxxy{/b} всегда по нашу душу..."
+    player_name "Да, он и {b}Рокси{/b} всегда по нашу душу..."
     show player 26 at left
     player_name "Но это ничто. Мне все равно что они там говорят."
     show kevin 3 at right
@@ -124,7 +124,7 @@ label cafeteria_erik_favor_not_known:
     kev "Отлично мэн. Мне нужно возвращаться к работе.Увидимся позже!"
     show kevin 1 at right
     show player 36 at left
-    player_name "Еще Увидимся, {b}Kevin{/b}!"
+    player_name "Еще Увидимся, {b}Кэвин{/b}!"
     hide player
     hide kevin
     with dissolve
@@ -134,10 +134,10 @@ label cafeteria_erik_favor_known_intro:
     scene cafeteria_b
     show player 2 at left with dissolve
     show kevin 1 at right with dissolve
-    player_name "Хэй, {b}Kevin{/b}!"
+    player_name "Привет, {b}Кэвин{/b}!"
     show kevin 2 at right
     show player 1 at left
-    kev "Хэй, чувак..."
+    kev "Привет, чувак..."
     kev "Удалось ли тебе найти кого-то кто смог бы взять на себя мои кафитерные обязательства?"
     return
 
@@ -151,11 +151,11 @@ label cafeteria_erik_favor_known_found_replacement:
     kev "Кто займет мое место?"
     show kevin 1 at right
     show player 17 at left
-    player_name "Это {b}Erik{/b}... и мне пришлось подкупить его..."
+    player_name "Это {b}Эрик{/b}... и мне пришлось подкупить его..."
     show kevin 2 at right
     show player 1 at left
     kev "Хаха! Что ж, спасибо,чувак!"
-    kev "Теперь я смогу проводить больше времени в{b}Спортзале{/b}!"
+    kev "Теперь я смогу проводить больше времени в {b}Спортзале{/b}!"
     show kevin 6 at right
     show player 11 at left
     kev "...И мне она больше не понадобиться этим заниматься!"
@@ -199,7 +199,7 @@ label cafeteria_erik_favor_2_completed:
     scene cafeteria_b
     show player 36 at left with dissolve
     show erik 11 at right with dissolve
-    player_name "Привет, {b}Erik{/b}!"
+    player_name "Привет, {b}Эрик{/b}!"
     show erik 12 at right
     show player 1 at left
     eri "Привет, {b}[firstname]{/b}!"
