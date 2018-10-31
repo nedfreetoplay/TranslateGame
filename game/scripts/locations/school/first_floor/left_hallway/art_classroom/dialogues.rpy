@@ -177,7 +177,7 @@ label art_classroom_ross_molding_clay_cutscene:
     ross "Но..."
     show ross 24
     show principal 27
-    smi "Слушай, это просто не в бюджете {b}Barbara{/b}."
+    smi "Слушай, это просто не в бюджете {b}Барбара{/b}."
     smi "Тебе придется обходиться без этого."
     show ross 25
     show principal 26
@@ -347,7 +347,7 @@ label leave_art_classroom:
 
         scene location_school_art_closeup
         show player 2 with dissolve
-        player_name "{b}Miss Ross{/b} хочет, чтобы я взял глиняную плиту и занял свое место."
+        player_name "{b}Мисс Росс{/b} хочет, чтобы я взял глиняную плиту и занял свое место."
         $ game.main()
 
 label player_ross_magazines_3_left:
@@ -361,7 +361,7 @@ label player_ross_magazines_3_left:
 
 label player_ross_magazines_2_left:
     show player 14 with dissolve
-    player_name "Теперь мне нужно найти еще одну стопку журналов для {b}Miss Ross{/b}."
+    player_name "Теперь мне нужно найти еще одну стопку журналов для {b}Мисс Росс{/b}."
     hide player with dissolve
     $ player.remove_item("magazines1")
     $ player.get_item("magazines2")
