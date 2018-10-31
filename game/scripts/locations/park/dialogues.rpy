@@ -45,7 +45,7 @@ label park_rap_battle:
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
-                        "<>[chr_warn]Сад" if player.stats.chr() < 4:
+                        "<>[chr_warn]Чад" if player.stats.chr() < 4:
                             $ end_while_rapbattle = True
                             $ pass
 
@@ -71,7 +71,7 @@ label park_rap_battle:
                         "Подсказки: ВЫКЛЮЧЕНЫ" if not tips:
                             $ tips = True
 
-                        "Пропустить Мини игру (Cheat)" if game.cheat_mode:
+                        "Пропустить Мини игру (Чит)" if game.cheat_mode:
                             $ end_while_rapbattle = True
                             $ game.timer.tick()
                             $ player.stats.increase("chr")

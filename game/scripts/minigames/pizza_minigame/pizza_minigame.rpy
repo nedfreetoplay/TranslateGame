@@ -6,6 +6,23 @@ label pizza_minigame:
         hide player with dissolve
         jump pizza_interior_dialogue
     $ pizza_earnings = 0
+    $ tips = False
+    $ end_while_pizza_minigame = False
+    if game.cheat_mode:
+        $ tips = True
+    else:
+        $ tips = False
+    while not end_while_pizza_minigame:
+        menu:
+            "Замедление времени: {color=#FFD700}ВКЛЮЧЕНО{/color}" if tips:
+                $ tips = False
+
+            "Замедление времени: ВЫКЛЮЧЕНО" if not tips:
+                $ tips = True
+
+            "Начать доставку":
+                $ end_while_pizza_minigame = True
+
     call screen pizza_minigame
 
 label pizza_delivered_fail:

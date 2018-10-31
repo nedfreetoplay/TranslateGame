@@ -120,6 +120,11 @@ init python:
         
         def _timer(self):
             SPEED = 3+int(float(self._player.level)/4.0)
+            if tips:
+                for house in self._pizza_houses:
+                    if house.hitbox(self._player.x, self._player.y):
+                        if (not self._pizza_button_1.has_been_pressed and self._pizza_button_1.id_ == house.id_) or (not self._pizza_button_2.has_been_pressed and self._pizza_button_2.id_ == house.id_) or (not self._pizza_button_3.has_been_pressed and self._pizza_button_3.id_ == house.id_):
+                            SPEED = 2+int(float(1.0)/4.0)
             for house in self._pizza_houses:
                 house.move(self._level*SPEED)
         
