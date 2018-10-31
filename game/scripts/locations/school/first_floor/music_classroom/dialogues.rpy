@@ -3,7 +3,7 @@ label music_classroom_dewitt_intro:
     show dewitt 1 at left
     show player 14f at right
     with dissolve
-    player_name "Хей, {b}Мисс Девитт{/b}."
+    player_name "Привет, {b}Мисс Девитт{/b}."
     show player 13f
     show dewitt 2
     dewitt "О боже мой, {b}[firstname]{/b}! Это ты, милый?"
@@ -134,7 +134,7 @@ label music_classroom_dewitt_intro:
     dewitt "Но перед тем как вы уйдете, я бы хотела задержать вас на пару минут!"
     show dewitt 14 at Position (xoffset=-127) with dissolve
     dewitt "Хэй!"
-    dewitt "{b}Tyrone{/b}, посмотри на меня!"
+    dewitt "{b}Тайрон{/b}, посмотри на меня!"
     show dewitt 13 at Position (xoffset=-127)
     tyrone "..."
     show dewitt 2 with dissolve
@@ -211,7 +211,7 @@ label music_classroom_dewitt_talent_show_help:
     show dewitt 10b at left
     show player 10f at right
     with dissolve
-    player_name "Хей, {b}Мисс Девитт{/b}."
+    player_name "Привет, {b}Мисс Девитт{/b}."
     show player 5f
     show dewitt 11b
     dewitt "Привет, сладкий. Как ты?"
@@ -379,7 +379,7 @@ label music_classroom_music_sheet:
     show music_checkout_form with dissolve
     pause
     player_name "Хмм..."
-    player_name "Судя по всему, {b}Джуди{/b} была последней, кто брал школьную флейту."
+    player_name "Судя по всему, {b}Джудит{/b} была последней, кто брал школьную флейту."
     player_name "{b}Лучше бы мне её поскорее найти{/b}!"
     hide music_checkout_form with dissolve
     $ game.main()
@@ -482,7 +482,7 @@ label music_classroom_dewitt_talent_show_progress:
     show player 17f
     player_name "О-ох, да! Я думаю, что становлюсь неплохим музыкантом."
     show player 14f
-    player_name "Вы прекрасный учитель, {b}Ms. Dewitt{/b}!"
+    player_name "Вы прекрасный учитель, {b}Мисс Девитт{/b}!"
     show player 13f
     show dewitt 5
     dewitt "А ты быстро учишься, сладкий."
@@ -766,10 +766,10 @@ label music_classroom_dewitt_talent_show_practice:
     show player 13f at right
     show dewitt 2 at left
     with dissolve
-    dewitt "Хей, {b}[firstname]{/b}!"
+    dewitt "Привет, {b}[firstname]{/b}!"
     show dewitt 1
     show player 14f
-    player_name "Хей, {b}Мисс Девитт{/b}!"
+    player_name "Привет, {b}Мисс Девитт{/b}!"
     show player 13f
     show dewitt 3
     dewitt "Готов попрактиковаться?"
@@ -782,7 +782,7 @@ label music_classroom_dewitt_talent_show_practice:
 
     scene music_class_cs06
     with fade
-    show text "Практиковаться с {b}Кевин{/b} и {b}Ева{/b} было весело!\nМы просто зажжем на  {b}Смотре Талантов{/b}!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Практиковаться с {b}Кевином{/b} и {b}Евой{/b} было весело!\nМы просто зажгем на  {b}Шоу Талантов{/b}!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -806,9 +806,9 @@ label music_classroom_dewitt_talent_show_practice:
     eve "Хех? О чем ты, {b}Кевин{/b}?"
     show eve 1
     show kevin 24f with dissolve
-    kev "{b}Директриса Смит{/b} никогда не допустит этого {b}Смотра Талантов{/b}!"
-    kev "{b}[firstname]{/b} и я слышали планы {b}Annie{/b}."
-    kev "У них явно есть что-то в рукаве!"
+    kev "{b}Директриса Смит{/b} никогда не допустит этого {b}Шоу Талантов{/b}!"
+    kev "{b}[firstname]{/b} и я слышали планы {b}Анны{/b}."
+    kev "У них явно есть козырь в рукаве!"
     show kevin 24bf
     show eve 2b
     eve "... Может расскажем {b}Мисс Девитт{/b}?"
@@ -833,12 +833,12 @@ label music_classroom_dewitt_talent_show_practice:
     eve "{b}Директриса Смит{/b} выгонет нас, если поймет, что мы пытаемся ей помешать..."
     show eve 1
     show kevin 24f with dissolve
-    kev "И? Хочешь позволить ей испортить {b}Смотр Талантов Мисс Девитт{/b}?!"
+    kev "И? Хочешь позволить ей испортить {b}Шоу Талантов Мисс Девитт{/b}?!"
     show kevin 24bf
     show eve 2b
     eve "Я этого не говорила!"
     eve "... Просто... Нам нужно быть аккуратнее! Только и всего."
-    eve "Моя {b}сестра{/b}  {b}убьет{/b} меня, если меня исключат!"
+    eve "Моя {b}сестра{/b} {b}убьет{/b} меня, если меня исключат!"
     show eve 1
     show player 14
     player_name "Тебе не нужно сюда влезать, {b}Ева{/b}. Мы с {b}Кевином{/b} сами справимся."
@@ -869,7 +869,7 @@ label music_classroom_dewitt_talent_show_practice:
     show player 35
     player_name "А это неплохая идея..."
     show kevin 23 with dissolve
-    player_name "Мы можем запереть их в офисе {b}Директриса Смит{/b} до конца {b}Смотра Талантов{/b}!"
+    player_name "Мы можем запереть их в офисе {b}Директриса Смит{/b} до конца {b}Шоу Талантов{/b}!"
     show player 13
     show eve 6
     eve "Видишь, я же говорила - женские уловки!"
@@ -884,7 +884,7 @@ label music_classroom_dewitt_talent_show_practice:
     eve "Что? Я должна сама всё продумать?!"
     show eve 1
     show player 10 with dissolve
-    player_name "Мы не можем их запереть. У Энни есть {b}мастерключ{/b} для всех замков в школе."
+    player_name "Мы не можем их запереть. У Энни есть {b}мастер-ключ{/b} для всех замков в школе."
     show player 5
     show kevin 24
     kev "... А даже если и нет. {b}Директриса Смит{/b} просто пошлет её через окно за помощью."
@@ -898,7 +898,7 @@ label music_classroom_dewitt_talent_show_practice:
     show kevin 20 with dissolve
     kev "..."
     show eve 2
-    eve "{b}У моей сестры{/b} есть тайзер в магазине... Может просто пальнем в них?"
+    eve "{b}У моей сестры{/b} есть электрошокер в магазине... Может просто пальнем в них?"
     show eve 1
     show player 10
     player_name "Это немного перебор, не думаешь?"
@@ -1002,10 +1002,10 @@ label music_classroom_dewitt_talent_show_practice:
     return
 
 label dewitt_talent_show_helping_kevin:
-    player_name "( Нужно сначала убедить Кевина принять участие в {b}смотре талантов{/b}."
+    player_name "( Нужно сначала убедить Кевина принять участие в {b}шоу талантов{/b}."
     return
 
 label dewitt_talent_show_helping_eve:
-    player_name "( Нужно сначала убедить Еву принять участие в {b}смотре талантов{/b}"
+    player_name "( Нужно сначала убедить Еву принять участие в {b}шоу талантов{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
