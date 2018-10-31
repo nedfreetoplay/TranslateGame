@@ -38,8 +38,8 @@ label yoga_room_mrsj_yoga_help_started:
 
                 call expression game.dialog_select("yoga_room_class_failure")
 
-        "Нисходящая собака." if store._in_replay == None or yoga_stage == 1:
-            $ yoga_position = "Нисходящая собака"
+        "Собака мордой вниз." if store._in_replay == None or yoga_stage == 1:
+            $ yoga_position = "Собака мордой вниз"
             if yoga_stage == 1:
                 $ yoga_stage += 1
                 call expression game.dialog_select("yoga_room_class_1st_position_success")

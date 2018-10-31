@@ -10,8 +10,8 @@ label judith_triggers_init:
 label judith_fsm_init:
     python:
 
-        S_judith_start = State("start", "default")
-        S_judith_latina_bashing_delay = State("latina bashing delay", "default")
+        S_judith_start = State("start", "описание")
+        S_judith_latina_bashing_delay = State("latina bashing delay", "описание")
         S_judith_latina_bashing = State("latina bashing")
         S_judith_in_girls_bathroom = State("in girls bathroom")
         S_judith_end = State("end", "default")
