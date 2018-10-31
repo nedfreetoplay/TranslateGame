@@ -2,14 +2,14 @@ label left_hallway_judith_changing:
     scene lefthall_c
     show player 2 at left with dissolve
     show judith 6 at right with dissolve
-    player_name "Хей, {b}Judith{/b}..."
+    player_name "Привет, {b}Джудит{/b}..."
     show player 11 at left
     player_name "..."
     show player 10 at left
     player_name "Все в порядке?"
     show player 5 at left
     show judith 3 at right
-    jud "Оу, хей, {b}[firstname]{/b}..."
+    jud "Оу, привет, {b}[firstname]{/b}..."
     jud "Мне не очень хорошо; Наверное, нужно пойти домой."
     show player 10 at left
     show judith 1 at right
@@ -114,7 +114,7 @@ label left_hallway_latinos_bashing:
     lopez "Иди мимо, снежок!"
     show latinas 18 at right
     show player 113
-    player_name "Ты в порядке {b}Judith{/b}?"
+    player_name "Ты в порядке {b}Джудит{/b}?"
     hide judith
     show player 90 at left
     with dissolve
@@ -140,7 +140,7 @@ label left_hallway_judith_missing:
     show player 11 with dissolve
     player_name "..."
     show player 10
-    player_name "...Где {b}Judith{/b}?"
+    player_name "...Где {b}Джудит{/b}?"
     player_name "( Она же обычно в коридоре. )"
     show player 34
     player_name "Хмм..."
@@ -162,7 +162,7 @@ label left_hallway_martinez_book_search:
     player_name "Хей, {b}Мартинез{/b}?"
     show player 5
     show martinez 22b
-    martinez "...Чего ты хочешь, Culo?"
+    martinez "...Чего ты хочешь, задница?"
     show martinez 20b
     show lopez 19
     lopez "Да! Чего тебе надо?"
@@ -188,10 +188,10 @@ label left_hallway_martinez_book_search:
     show martinez 22b
     martinez "Да пофиг! У нас нет на это времени..."
     show martinez 21b
-    martinez "Д'вай, {b}Лопес{/b}. Мы уже должны быть в спортзале."
+    martinez "Давай, {b}Лопес{/b}. Мы уже должны быть в спортзале."
     show martinez 20b
     show lopez 19
-    lopez "И правда, {b}Мартинез{/b}. Ещё увидимся, Culo!"
+    lopez "И правда, {b}Мартинез{/b}. Ещё увидимся, задница!"
     lopez "Хахаха!"
     hide lopez
     show martinez 23
@@ -239,7 +239,7 @@ label left_hallway_cult_discovery:
     eri "Может мы уже уйдем?"
     show player 12
     show erik 1
-    player_name "Давай просто придерживаться плана. И не забывай оглядываться по сторонам"
+    player_name "Давай просто придерживаться плана. И не забывай оглядываться по сторонам."
     show player 1
     show erik 3
     eri "Окей..."
@@ -285,7 +285,7 @@ label left_hallway_school_sneak_mission:
     show erik 50
     eri "..."
     show player 12
-    player_name "Давай, пойдем в офис {b}Principal Smith{/b} на {b}третьем этаже{/b}."
+    player_name "Давай, пойдем в офис {b}Директриса Смит{/b} на {b}третьем этаже{/b}."
     hide player
     hide erik
     with dissolve
@@ -318,7 +318,7 @@ label left_hallway_roxxy_shower_event:
     player_name "Где твоя одежда?"
     show jersey 5
     show erik 63
-    eri "Хей, {b}[firstname]{/b}..."
+    eri "Привет, {b}[firstname]{/b}..."
     eri "Я переодевался в {b}раздевалке{/b}, когда {b}Рокси{/b} зашла со своими подружками..."
     show erik 62
     eri "... Они выпнули меня."
