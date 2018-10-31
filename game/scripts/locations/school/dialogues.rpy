@@ -1404,18 +1404,18 @@ label school_roxxy_assignment:
     show dexter 2
     show roxxy 11f
     with dissolve
-    rox "Uh huh."
+    rox "Ух хух."
     rox "Всё, ты закончил?"
     show roxxy 9f
     show dexter 8
-    dex "Whatever."
-    dex "You'll apologize eventually."
+    dex "Все."
+    dex "В конце концов ты извинишься."
     show dexter 6 with dissolve
-    dex "Just remember. Until you do, don't ask me for nothin'!"
+    dex "Просто запомни. Пока ты этого не сделаешь, не проси меня ни о чем!"
     show dexter 2 with dissolve
     show roxxy 10f
-    rox "Like I need anything from you!"
-    rox "You'd probably just screw it up, even if I did!"
+    rox "Как будто мне от тебя что-то нужно!"
+    rox "Ты бы, наверное, просто облажался, даже если бы я попросила!"
     show roxxy 6f with dissolve
     dex "..."
     show dexter 4 with dissolve
@@ -2787,7 +2787,7 @@ label school_roxxy_trailer_park_romance_intro:
     rox "{b}[firstname]{/b}!"
     show roxxy 1
     show player 14
-    player_name "О, {b}Roxxy{/b}."
+    player_name "О, {b}Рокси{/b}."
     player_name "Как дела?"
     show player 13
     show roxxy 1b
@@ -3241,7 +3241,7 @@ label school_roxxy_locker_sex:
     missy "Пфф, да ладно тебе!"
     show missy 7
     show becca 25
-    becca "Мы прекрасно видели, как ты наяривала себе, когда мы играли в бутылочку на пляже... {b}Roxxy{/b}..."
+    becca "Мы прекрасно видели, как ты наяривала себе, когда мы играли в бутылочку на пляже... {b}Рокси{/b}..."
     show becca 24
     show roxxy 2c
     rox "... Не было такого!"
