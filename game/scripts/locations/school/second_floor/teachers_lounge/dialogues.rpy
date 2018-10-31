@@ -24,7 +24,7 @@ label coffee_pot_dialogue_right_time:
     with fade
     show text "Это похоже на наилучший план действий." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я знал что {b}Директрима Smith{/b} пила кофе с этого горшка каждое утро." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я знал что {b}Директриса Смит{/b} пила кофе с этого горшка каждое утро." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "И так как это было синтезировано с помощью её ДНК, это не должно повлиять на кого то еще." at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -50,7 +50,7 @@ label smith_lounge_dialogue:
     show player 22 at left
     show principal 33 at right
     with dissolve
-    player_name "( Вот дерьмо!Директриса Smith уже здесь! )"
+    player_name "( Вот дерьмо! Директриса Смит уже здесь! )"
     show player 11
     show principal 31 with dissolve
     player_name "( ... )"
