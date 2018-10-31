@@ -63,7 +63,7 @@ label coachs_office_roxxy_pom_poms_wrong_time:
     bri "Я могу тебе помочь?"
     show coach 8
     show player 10
-    player_name "Err, эммм..."
+    player_name "Эээ, эммм..."
     show player 11
     show coach 10
     bri "Да?"
@@ -146,10 +146,10 @@ label coachs_office_locker_hide_fail_dialogue:
     player_name "Это... не уборная?"
     show player 22 with dissolve
     show coach 4
-    bri "Уберай свою тощую задницу от сюда!"
+    bri "Уберай свою тощую задницу отсюда!"
     show coach 7
     show player 23
-    player_name "В пути!"
+    player_name "Уже В пути!"
     hide player with dissolve
     show coach 10 at right with dissolve
     bri "Чудила."
