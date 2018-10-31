@@ -32,7 +32,7 @@ label school_lock_check(destination_screen, destination_label):
     elif M_dewitt.is_state(S_dewitt_paint_trail) and destination_screen not in ["School Right Hallway", "School Hall", "School Second Floor", "School Third Floor", "Principal Smith's Office"]:
         scene expression temp_bg
         show player 12 with dissolve
-        player_name "Этот путь ведёт не туда.."
+        player_name "Этот путь ведёт не туда."
 
     elif L_school_girlsroom.locked and destination_screen == "School Girl's Lockerroom":
         scene expression temp_bg
