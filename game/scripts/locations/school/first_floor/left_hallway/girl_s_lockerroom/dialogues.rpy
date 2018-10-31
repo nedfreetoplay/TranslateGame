@@ -20,7 +20,7 @@ label girls_lockerroom_judith_toilet_first_intro:
     player_name "!!!"
     jud "{b}*плачет*{/b}"
     show player 108
-    player_name "{b}Джуди{/b}?!"
+    player_name "{b}Джудит{/b}?!"
     show judith 13
     show player 109
     jud "...привет, {b}[firstname]{/b}."
@@ -252,7 +252,7 @@ label girls_lockerroom_judith_toilet_not_here:
     show player 11 with dissolve
     player_name "..."
     show player 10
-    player_name "( {b}Джуди{/b} здесь нет. )"
+    player_name "( {b}Джудит{/b} здесь нет. )"
     player_name "( Она должно быть в корридоре или уже дома. )"
     show player 108f
     player_name "( Нужно спросить её, хочет ли она {b}повеселиться{/b}. )"
