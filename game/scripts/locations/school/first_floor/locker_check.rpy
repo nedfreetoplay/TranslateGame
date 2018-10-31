@@ -21,7 +21,7 @@ label locker_locked_1:
     return
 
 label locker_locked_2:
-    player_name "Заперта и у меня нет ключа."
+    player_name "Заперто и у меня нет ключа."
     player_name "Наверное, у {b}Директрисы Смит{/b} есть ключ ко всему."
     hide player with dissolve
     return
