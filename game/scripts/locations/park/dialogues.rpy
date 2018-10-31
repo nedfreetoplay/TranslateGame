@@ -41,7 +41,7 @@ label park_rap_battle:
                     menu:
                         "Чико":
                             $ end_while_rapbattle = True
-                            $ rap_opponent = "Chico"
+                            $ rap_opponent = "Чико"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
@@ -51,7 +51,7 @@ label park_rap_battle:
 
                         "Чад" if player.stats.chr() >= 4:
                             $ end_while_rapbattle = True
-                            $ rap_opponent = "Chad"
+                            $ rap_opponent = "Чад"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
@@ -61,7 +61,7 @@ label park_rap_battle:
 
                         "Тайрон" if player.stats.chr() >= 7:
                             $ end_while_rapbattle = True
-                            $ rap_opponent = "Tyrone"
+                            $ rap_opponent = "Тайрон"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
@@ -330,7 +330,7 @@ label park_rap_battle_leave:
     return
 
 label park_rap_battle_opponent:
-    if rap_opponent == "Chico":
+    if rap_opponent == "Чико":
         player_name "Я пойду против {b}[rap_opponent]{/b} первый."
         hide eve with dissolve
         call expression game.dialog_select("park_rap_battle_opponent_chico")
@@ -338,7 +338,7 @@ label park_rap_battle_opponent:
 
         player_name "Я пойду против {b}[rap_opponent]{/b}."
         hide eve with dissolve
-        if rap_opponent == "Chad":
+        if rap_opponent == "Чад":
             call expression game.dialog_select("park_rap_battle_opponent_chad")
         else:
 
@@ -379,7 +379,7 @@ label park_rap_battle_opponent_chico_first:
     chi "Ты меня не знаешь, фу!"
     show chico 1
     show player 71
-    player_name "Ну, {b}Eve{/b} сказала мне только твое имя-"
+    player_name "Ну, {b}Ева{/b} сказала мне только твое имя-"
     show chico 3 with hpunch
     show player 74
     chi "{b}ЙОУ{/b}! Заткнись {b}нахуй{/b}!"
@@ -508,7 +508,7 @@ label park_take_picture_judith_pre:
     with fade
     show text "Я не знаю, как эта фотография должна была помочь {b}Джудит{/b}?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... Но казалось, что это небольшая цена, чтобы заплатить за линзы, которые хотела {b}Okita{/b}." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... Но казалось, что это небольшая цена, чтобы заплатить за линзы, которые хотела {b}Окита{/b}." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Плюс это сделает {b}Джудит{/b} по-настоящему счастливой!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
