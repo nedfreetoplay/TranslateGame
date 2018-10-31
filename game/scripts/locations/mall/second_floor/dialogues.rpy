@@ -146,7 +146,7 @@ label photo_booth_roxxy_take_picture:
     rox "Неважно,извращенец!"
     show roxxy 3c
     rox "Не кому больше этого не показывай!"
-    rox "Если {b}Dexter{/b} узнает об этом он убьет на обоих!"
+    rox "Если {b}Декстер{/b} узнает об этом он убьет нас обоих!"
     show roxxy 1
     show player 14
     player_name "Да,да... Я не буду."
@@ -165,7 +165,7 @@ label photo_booth_roxxy_take_picture:
     show player 13 with dissolve
     show roxxy 1b
     rox "Хорошо."
-    rox "Позвони мне, когда ID будет готов."
+    rox "Позвони мне, когда документы будут готовы."
     show roxxy 1
     show player 14
     player_name "Да, Хорошо."
@@ -174,8 +174,8 @@ label photo_booth_roxxy_take_picture:
     player_name "( ... )"
     show player 5
     player_name "( Что ж, это было странно. )"
-    player_name "( Я провалился лицом в {b}Roxxy's{/b} сиськи и она даже не разозлилась... )"
-    player_name "( Я должен принести {b}Это фото к Captain Terry{/b} на {b}причал{/b}. )"
+    player_name "( Я провалился лицом в сиськи {b}Рокси{/b} и она даже не разозлилась... )"
+    player_name "( Я должен принести {b}Это фото к Капитану Терри{/b} на {b}причал{/b}. )"
     hide player with dissolve
     return
 
