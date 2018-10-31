@@ -1,7 +1,7 @@
 label trailer_park_first_visit:
     scene expression game.timer.image("trailer_interior{}")
     show player 10 with dissolve
-    player_name "( Вот тут {b}Roxxy{/b} и живет? )"
+    player_name "( Вот тут {b}Рокси{/b} и живет? )"
     player_name "( Здесь же полно всякого мусора... )"
     hide player with dissolve
     return
@@ -90,7 +90,7 @@ label trailer_interior_roxxy_get_cheerleader_outfit:
     rox "... Как ты обычно и делаешь."
     show roxxy 3df
     show crystal 3
-    crys "{b}Roxxy{/b}!"
+    crys "{b}Рокси{/b}!"
     crys "Я ведь говорила тебе не разговаривать так со мной!"
     crys "Я занимаюсь тут многими делами."
     show roxxy 2bf
@@ -99,7 +99,7 @@ label trailer_interior_roxxy_get_cheerleader_outfit:
     show roxxy 2cf
     show player 11
     rox "Стоп!"
-    rox "{b}Clyde{/b} был здесь сегодня утром?!"
+    rox "{b}Клайд{/b} был здесь сегодня утром?!"
     show roxxy 2bf
     show crystal 2
     crys "... Ага."
@@ -129,7 +129,7 @@ label trailer_interior_crystal_sex_offer_pre_first:
     show player 13 at left
     show crystal 2 zorder 1 at right
     with dissolve
-    crys "Кто тут у нас... Это ведь новый парень {b}Roxxy{/b}..."
+    crys "Кто тут у нас... Это ведь новый парень {b}Рокси{/b}..."
     show crystal 4 with dissolve
     show player 10
     player_name "Эм, парень?"
@@ -148,7 +148,7 @@ label trailer_interior_crystal_sex_offer_pre_first:
     crys "Хахахаха!!"
     crys "Меня ещё никто не называл \"Мэм\"..."
     show crystal 2
-    crys "Зови меня просто {b}Crystal{/b}."
+    crys "Зови меня просто {b}Кристал{/b}."
     show crystal 3 with dissolve
     crys "... А по поводу засаживания..."
     show crystal 3b_3c with dissolve
@@ -176,7 +176,7 @@ label trailer_interior_crystal_sex_offer_pre_first:
     show player 5
     show crystal 2
     crys "О, тут не за что извиняться."
-    crys "{b}Roxxy{/b} должна прислушаться ко мне и перестать трахаться с парнями по одному разу."
+    crys "{b}Рокси{/b} должна прислушаться ко мне и перестать трахаться с парнями по одному разу."
     show crystal 1
     show player 10
     player_name "Ага, эмм... Она вообще здесь?"
@@ -220,10 +220,10 @@ label trailer_interior_crystal_sex_offer_pre_first:
     crys "Я тоже не против помочь."
     hide crystal_talking_head
     show player 10
-    player_name "... А {b}Roxxy{/b}?!"
+    player_name "... А {b}Рокси{/b}?!"
     show player 5
     show crystal_talking_head zorder 2
-    crys "Ох, да не волнуйся ты о {b}Roxxy{/b}..."
+    crys "Ох, да не волнуйся ты о {b}Рокси{/b}..."
     crys "Ей не навредит то, о чем она не узнает."
     hide crystal_talking_head
     show player 5
@@ -232,7 +232,7 @@ label trailer_interior_crystal_sex_offer_pre_first:
     pause
     show crystal undress 2 with dissolve
     show player 428
-    crys "Просто позволь {b}Crystal{/b} тебе помочь..."
+    crys "Просто позволь {b}Кристал{/b} тебе помочь..."
     show crystal undress 3 with dissolve
     show player 427
     player_name "{b}*Глоть*{/b}"
@@ -348,10 +348,10 @@ label trailer_interior_crystal_sex_offer_denied_first:
     crys "Это не сложно! Просто достань этого плохого парня и выбери дырку..."
     show crystal undress 8b
     show player 12 with dissolve
-    player_name "Нет, я имею ввиду... Я не могу так поступить с {b}Roxxy{/b}..."
+    player_name "Нет, я имею ввиду... Я не могу так поступить с {b}Рокси{/b}..."
     show player 5
     show crystal undress 8
-    crys "Пфф, я же сказала. {b}Roxxy{/b} ничего не узнает!"
+    crys "Пфф, я же сказала. {b}Рокси{/b} ничего не узнает!"
     show crystal undress 8b
     show player 10
     player_name "Да, но я-то буду знать..."
@@ -365,7 +365,7 @@ label trailer_interior_crystal_sex_offer_denied_first:
     show crystal undress 4 with dissolve
     crys "Ох, знаешь... А ты и правда хороший малый."
     show crystal undress 2 with dissolve
-    crys "Я не представляю, как в этом мире {b}Roxxy{/b} смогла наткнуться на тебя..."
+    crys "Я не представляю, как в этом мире {b}Рокси{/b} смогла наткнуться на тебя..."
     show crystal undress 1 with dissolve
     crys "{b}*Вздох*{/b}"
     show crystal 6 with dissolve
@@ -386,7 +386,7 @@ label trailer_interior_crystal_sex_offer_denied_repeat:
     show player 24
     player_name "Я..."
     show player 25
-    player_name "Прости, {b}Crystal{/b}. Но я не могу..."
+    player_name "Прости, {b}Кристал{/b}. Но я не могу..."
     show crystal undress 9 with dissolve
     crys "..."
     show crystal undress 6 with dissolve
@@ -408,7 +408,7 @@ label trailer_interior_crystal_sex_offer_denied_repeat:
 
 label trailer_interior_crystal_sex_or_anal_menu:
     menu:
-        "Sex.":
+        "Вагинальный Секс.":
             $ M_crystal.set("crystal anal", False)
             if M_roxxy.get("roxxy crystal sex") and not L_trailer.is_here(M_crystal):
                 call expression game.dialog_select("trailer_interior_crystal_sex_or_anal_choose_sex_first")
@@ -418,7 +418,7 @@ label trailer_interior_crystal_sex_or_anal_menu:
             else:
 
                 call expression game.dialog_select("trailer_interior_crystal_sex_or_anal_choose_sex_repeat")
-        "Anal.":
+        "Анальный секс.":
 
             $ M_crystal.set("crystal anal", True)
             if M_roxxy.get("roxxy crystal sex") and not L_trailer.is_here(M_crystal):
@@ -491,7 +491,7 @@ label trailer_interior_crystal_sex_or_anal_choose_sex_outside:
     crys "Вот так..."
     crys "На всю аплитуду..."
     pause
-    crys "Mmm..."
+    crys "Ммм..."
     pause
     crys "Аахх!"
     pause
@@ -511,7 +511,7 @@ label trailer_interior_crystal_sex_or_anal_choose_sex_repeat:
     hide player
     show crystal undress 12
     with dissolve
-    crys "Mmm, мне не нужен этот петтинг, {b}[firstname]{/b}..."
+    crys "Ммм, мне не нужен этот петтинг, {b}[firstname]{/b}..."
     crys "Дай мне его полностью!"
     player_name "Д-да, мэм..."
     hide crystal
@@ -533,7 +533,7 @@ label trailer_interior_crystal_sex_or_anal_choose_sex_repeat:
 
 label trailer_interior_crystal_sex_or_anal_choose_anal_first:
     show crystal undress 10 with dissolve
-    crys "Mmm!"
+    crys "Ммм!"
     show crystal undress 10b
     show player 8 with dissolve
     pause
@@ -555,7 +555,7 @@ label trailer_interior_crystal_sex_or_anal_choose_anal_first:
     crys "Давай уже!"
     show crystals cum 2
     crys "!!!" with hpunch
-    crys "NGGHHH!!!"
+    crys "НГГГХХХХ!!!"
     pause
     player_name "Вы трясетесь..."
     crys "..."
@@ -591,14 +591,14 @@ label trailer_interior_crystal_sex_or_anal_choose_anal_outside:
     crys "Давай, порадуй мамочку!"
     show crystals cum 2
     crys "!!!" with hpunch
-    crys "Fuuuuuuu-"
+    crys "Фуууууууу-"
     $ M_crystal.set("sex speed", .175)
     show expression AnimatedImage("crystals", [1,2,3,4,5,6,7,8], M_crystal) as crystals
     with dissolve
     pause
     crys "Боже мой!"
     player_name "Шшш!!"
-    player_name "Вы должны быть потише, или {b}Roxxy{/b} нас услышит!"
+    player_name "Вы должны быть потише, или {b}Рокси{/b} нас услышит!"
     pause
     crys "{b}*Скулит*{/b}"
     pause
@@ -615,12 +615,12 @@ label trailer_interior_crystal_sex_or_anal_choose_anal_repeat:
     crys "А то!"
     crys "Не пойми меня неправильно."
     crys "Мне нравится обычный секс..."
-    crys "... Но самые мощные оргазмы я получаю лишь тогда, когда меня имеют в жопу!"
+    crys "... Но самые мощные оргазмы я получаю лишь тогда, когда меня имеют в попу!"
     crys "Так всегда было."
     show player 427
     player_name "... Серьезно?"
     show player 426
-    crys "Mmmmm!"
+    crys "Ммммммм!"
     show crystal undress 10 with dissolve
     crys "Давай, просто засунь его туда и сам увидишь."
     show crystal undress 10b
@@ -649,13 +649,13 @@ label trailer_interior_crystal_sex_or_anal_choose_anal_repeat:
     $ M_crystal.set("sex speed", .175)
     show expression AnimatedImage("crystals", [1,2,3,4,5,6,7,8], M_crystal) as crystals
     with dissolve
-    crys "NNGGGHHH!!!"
+    crys "НННГГГГХХХХХ!!!"
     crys "Господи, как же глубоко!"
     pause
     crys "Такое чувство, что ты сломаешь мне позвоночник!"
     player_name "Мне перестать?!"
-    crys "GGRRRAAAHHH!!!"
-    player_name "{b}Crystal{/b}!"
+    crys "ГГГРРРРАААХХХ!!!"
+    player_name "{b}Кристал{/b}!"
     crys "КАК ЖЕ ХОРОШО!!!"
     crys "Давай же, еби меня сильнее!"
     pause
@@ -667,7 +667,7 @@ label trailer_interior_crystal_sex_or_anal_choose_anal_repeat:
     pause
     crys "НЕ ОСТАНАВЛИВАЙСЯ!!!"
     pause
-    crys "NGGHHH!!!" with hpunch
+    crys "ННГГГГХХХХ!!!" with hpunch
     return
 
 label trailer_interior_crystal_sex_loop:
@@ -757,7 +757,7 @@ label crystal_trailer_interior_hscene_dialog:
 
             elif random_count > 33 and random_count <= 66:
                 if M_crystal.is_set("crystal anal"):
-                    crys "Mmm, вот так {b}[firstname]{/b}!{p=1}{nw}"
+                    crys "Ммм, вот так {b}[firstname]{/b}!{p=1}{nw}"
                     crys "Продожай вбивать его так же глубоко!{p=2}{nw}"
                 else:
 
@@ -782,7 +782,7 @@ label crystal_trailer_interior_hscene_dialog:
                     crys "Aaх!{p=1}{nw}"
         else:
 
-            crys "Еби мемня жестче!{p=2}{nw}"
+            crys "Еби меня жестче!{p=2}{nw}"
 
     elif animcounter == 2:
         if not M_roxxy.get("roxxy crystal sex"):
@@ -807,7 +807,7 @@ label crystal_trailer_interior_hscene_dialog:
             elif random_count > 33 and random_count <= 66:
                 if M_crystal.is_set("crystal anal"):
                     player_name "Тут так узко!{p=1}{nw}"
-                    crys "Mmm, не останавливайся!{p=1}{nw}"
+                    crys "Ммм, не останавливайся!{p=1}{nw}"
             else:
 
                 crys "Твой член и правда особенный, {b}[firstname]{/b}!{p=2}{nw}"
@@ -817,16 +817,16 @@ label crystal_trailer_interior_hscene_dialog:
         if M_roxxy.get("roxxy crystal sex"):
             if random_count <= 33:
                 if not M_crystal.is_set("crystal anal"):
-                    crys "Nngghhh!{p=1}{nw}"
+                    crys "Ннггхххх!{p=1}{nw}"
 
             elif random_count > 66:
                 if not M_crystal.is_set("crystal anal"):
                     crys "Я скоро-{p=1}{nw}"
-                    crys "NGGHHH!!!{p=1}{nw}"
+                    crys "НГГХХХ!!!{p=1}{nw}"
         else:
 
             if random_count > 50:
-                crys "Aaah!!{p=1}{nw}"
+                crys "Аааах!!{p=1}{nw}"
                 crys "Уже близко!{p=1}{nw}"
     return
 
@@ -864,10 +864,10 @@ label trailer_interior_crystal_sex_outside_cum_anal:
     crys "Я тоже!"
     pause
     crys "ЕБИ МЕНЯ!!!"
-    crys "NGGHHH!!!"
+    crys "НГГХХХ!!!"
     player_name "Шшш-"
     show crystals cum 2_2b
-    player_name "HNNGGG!!!" with flash
+    player_name "НГГХХХ!!!" with flash
     pause
     show crystals retract 3
     show crystals_anal_cum
@@ -920,7 +920,7 @@ label trailer_interior_crystal_sex_outside_cum:
     crys "Шшш, тише..."
     pause
     show crystals cum 2_2b
-    player_name "HNNGGG!!!" with flash
+    player_name "НГГХХХ!!!" with flash
     pause
     show crystals retract 3 with dissolve
     crys "Mмм..."
@@ -950,7 +950,7 @@ label trailer_interior_crystal_sex_outside_cum:
     show crystal undress 2
     show player 26
     with dissolve
-    player_name "Спасибо, {b}Crystal{/b}."
+    player_name "Спасибо, {b}Кристал{/b}."
     show player 13
     show crystal undress 1 with dissolve
     crys "Обращайся, малыш."
@@ -968,7 +968,7 @@ label trailer_interior_crystal_sex_cum_repeat_anal:
     player_name "Я тоже!!"
     show crystals cum 2_2b
     crys "AAAХХХ!!!"
-    player_name "HNNGGG!!!" with flash
+    player_name "НГГХХХ!!!" with flash
     pause
     show crystals retract 3
     show crystals_anal_cum
@@ -1014,7 +1014,7 @@ label trailer_interior_crystal_sex_cum_repeat:
     crys "Выплесни всё, малыш!"
     crys "Тебе это нужно!"
     show crystals cum 2_2b
-    player_name "HNNGGHHH!!!" with flash
+    player_name "НГГХХХ!!!" with flash
     crys "Aххх!!"
     pause
     show crystals retract 3 with dissolve
@@ -1050,7 +1050,7 @@ label trailer_interior_crystal_sex_cum_repeat:
     crys "Окей?"
     show crystal 4 with dissolve
     show player 14
-    player_name "Конечно, {b}Crystal{/b}."
+    player_name "Конечно, {b}Кристал{/b}."
     show player 13
     show crystal 2b with dissolve
     crys "Хехехе!"
@@ -1063,15 +1063,15 @@ label trailer_interior_crystal_sex_cum_first_anal:
     player_name "Я больше не могу держаться!"
     crys "..."
     pause
-    player_name "{b}Crystal{/b}?!"
+    player_name "{b}Кристал{/b}?!"
     crys "..."
     pause
-    player_name "{b}CRYSTAL{/b}!?!"
+    player_name "{b}КРИСТАЛ{/b}!?!"
     player_name "Я скоро-"
     pause
     show crystals cum 2_2b
-    player_name "HNNGGG!!!" with flash
-    crys "NGGHHHAAAAAAAAAHHHH!!!" with hpunch
+    player_name "ХННГГГГГ!!!" with flash
+    crys "НГГХХХААААААААААААААХХХ!!!" with hpunch
     pause
     show crystals retract 3
     show crystals_anal_cum
@@ -1114,7 +1114,7 @@ label trailer_interior_crystal_sex_cum_first_anal:
     hide crystal_anal_cum
     show crystal undress 11b
     with dissolve
-    crys "Почувствуй, как я трясусь'!"
+    crys "Почувствуй, как я трясусь!"
     show player 429
     player_name "Ххе, я полагаю, я был хорош?"
     show player 426
@@ -1160,13 +1160,13 @@ label trailer_interior_crystal_sex_cum_first:
     player_name "Да, я уже на пределе!"
     crys "Давай же!"
     crys "Наполни меня полностью'!"
-    player_name "Nngghh!"
+    player_name "Ннггххх!"
     pause
     crys "Вот так!"
     crys "О черт! Вот оно!"
     show crystals cum 2_2b
-    player_name "HNNGGG!!" with flash
-    crys "AAAhhhh!!!"
+    player_name "ХННГГГГ!!" with flash
+    crys "ААаааххххх!!!"
     pause
     show crystals retract 3 with dissolve
     crys "Хаа... Хааа..."
@@ -1189,7 +1189,7 @@ label trailer_interior_crystal_sex_cum_first:
     show crystal undress 10
     crys "Если моя дочь не сможет тебя удовлетворить..."
     show player 110f with dissolve
-    crys "... Просто прийди к старушке Crystal!"
+    crys "... Просто приходи к старушке Кристал!"
     crys "Понял?!"
     show crystal undress 10b
     show player 111f
@@ -1208,7 +1208,7 @@ label trailer_interior_crystal_sex_cum_first:
     crys "Хочешь баночку?"
     show crystal 5
     show player 14
-    player_name "Нет, спасибр..."
+    player_name "Нет, спасибо..."
     player_name "Я, наверное, должен идти."
     show player 13
     show crystal 6
@@ -1258,11 +1258,11 @@ label trailer_interior_crystal_sex_repeat_outside_offer_pre:
     show crystal 5
     show player 10
     player_name "Что?!" with hpunch
-    player_name "... Но ведь {b}Roxxy{/b} прямо здесь!"
+    player_name "... Но ведь {b}Рокси{/b} прямо здесь!"
     show player 5
     show crystal 16b with dissolve
     crys "Ох, она скорее всего говорит по телефону или что-то ещё!"
-    crys "Если мы не будем шуметь, - ничего плохого не произойдет."
+    crys "Если мы не будем шуметь - ничего плохого не произойдет."
     show crystal 5 with dissolve
     player_name "..."
     show player 10
@@ -1333,7 +1333,7 @@ label trailer_interior_crystal_sex_repeat_outside_offer_accept:
 label trailer_interior_crystal_sex_repeat_outside_offer_denied:
     show player 12
     player_name "Мы не можем делать это!"
-    player_name "Когда {b}Roxxy{/b} прямо тут!"
+    player_name "Когда {b}Рокси{/b} прямо тут!"
     show player 5
     show crystal 11 at center with dissolve
     crys "Тц, ладно."
