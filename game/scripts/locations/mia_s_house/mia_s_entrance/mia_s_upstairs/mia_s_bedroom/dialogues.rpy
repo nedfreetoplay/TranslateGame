@@ -241,7 +241,7 @@ label mia_study_like_mia_kiss:
     mia "Так что мне пора ложиться спать."
     show mia 13
     show player 142
-    player_name "Хорошо, {b}Mia{/b}."
+    player_name "Хорошо, {b}Мия{/b}."
     player_name "Увидимся в {b}школе{/b}!"
     scene expression game.timer.image("backgrounds/location_mia_bedroom{}.jpg")
     show mia 7 at right
@@ -422,7 +422,7 @@ label mia_strip_show_dialogue:
     show mia 38
     mia "..."
     show player 12f
-    player_name "Это была моя идея! {b}Mia{/b} не-"
+    player_name "Это была моя идея! {b}Мия{/b} не-"
     show player 22f
     show helen 7f
     helen "Кто разрешил тебе говорить?! ИЛИ БЫТЬ ЗДЕСЬ ВООБЩЕ! {b}В МОЕМ ДОМЕ{/b}!!!"
@@ -447,7 +447,7 @@ label mia_strip_show_dialogue:
     show player 37 at Position (xoffset=41) with dissolve
     player_name "{b}Helen{/b} действительно разозлилась."
     show player 25 with dissolve
-    player_name "Я просто надеюсь, что у {b}Mia{/b} не будет много проблем..."
+    player_name "Я просто надеюсь, что у {b}Мии{/b} не будет много проблем..."
     hide player with dissolve
     return
 
@@ -1072,7 +1072,7 @@ label mia_bedroom_sex_cum_inside_anal_after:
     show mias 18b
     mia "Спасибо, что не торопишься."
     show mias 17b
-    player_name "Незачто, {b}Mia{/b}."
+    player_name "Незачто, {b}Мия{/b}."
     show mias 18b
     mia "Мне лучше привести себя в порядок."
     mia "Мама может увидеть пятна на простынях..."
@@ -1184,7 +1184,7 @@ label mia_bedroom_sex_end_dialogue:
     show mia 7
     show player 14
     player_name "Хорошо!"
-    player_name "Спокойной ночи, {b}Mia{/b}."
+    player_name "Спокойной ночи, {b}Мия{/b}."
     hide player
     hide mia
     with dissolve
@@ -1202,7 +1202,7 @@ label mia_bedroom_teddy:
 label mia_bedroom_teddy_masturbation_seen:
     scene expression game.timer.image("backgrounds/location_mia_bedroom{}_blur.jpg")
     show player 439 with dissolve
-    player_name "Это плюшевый медведь {b}Mia{/b} с которым она играла ранее."
+    player_name "Это плюшевый медведь {b}Мии{/b} с которым она играла ранее."
     player_name "Кажется, у него немного странный запах..."
     show player 441
     player_name "Пахнет как..."
