@@ -53,7 +53,7 @@ label backroom_couple_finish_dialogue:
     show jane 8 at right
     show player 23 at left
     with dissolve
-    jan "Вот что тут за крики!"
+    jan "Что тут за крики!"
     show player 11
     jan "ТОЛЬКО НЕ ОПЯТЬ!!!" with hpunch
     show jane 7 with dissolve
@@ -66,7 +66,7 @@ label backroom_couple_finish_dialogue:
     jan "..."
     show jane 4
     jan "Понимаешь..."
-    jan "Людям нравится делать это зесь, и я не собираюсь их останавливать."
+    jan "Людям нравится делать это здесь, и я не собираюсь их останавливать."
     jan "Просто держи это при себе, пожалуйста."
     show jane 1
     show player 12
@@ -75,10 +75,10 @@ label backroom_couple_finish_dialogue:
     show jane 2
     jan "Спасибо."
     jan "Я возвращаюсь на своё рабочее место."
-    jan "Если тебе нужна помощь в поиске чего-то или ты видишь, что кто то ещё делает это здесь, дай мне знать!"
+    jan "Если тебе нужна помощь в поиске чего-то или ты видишь, что кто-то ещё делает это здесь, дай мне знать!"
     hide jane with dissolve
     show player 17
-    player_name "Мне надо по чаще посещать библиотеку!"
+    player_name "Мне надо почаще посещать библиотеку!"
     hide player with dissolve
     return
 
