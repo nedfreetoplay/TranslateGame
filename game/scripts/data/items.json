@@ -4,7 +4,7 @@
         "name": "{b}Домашнее задание:{/b}",
         "cost": "0",
         "image": "objects/item_homework1.png",
-        "description": "Используйте свой стол дома, чтобы выполнить домашнее задание и улучшить свои оценки!",
+        "description": "Используйте свой комп дома, чтобы выполнить домашнее задание и улучшить свои оценки!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -112,7 +112,7 @@
         "name": "{b}Молочный кувшин:{/b}",
         "cost": "300",
         "image": "objects/item_jug1.png",
-        "description": "Термальный кувшин молока. Храните свежее молоко хорошо и прохладно!",
+        "description": "Термальный кувшин молока. Хранит свежее молоко хорошо и прохладно!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -121,7 +121,7 @@
         "name": "{b}Истребитель жуков:{/b}",
         "cost": "100",
         "image": "objects/item_spray1.png",
-        "description": "Ничто не может выжить истребителя!",
+        "description": "Ничто не может выжить после истребителя!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -130,7 +130,7 @@
         "name": "{b}Ликвидатор жуков:{/b}",
         "cost": "100",
         "image": "objects/item_spray2.png",
-        "description": "Ничто не может выжить ликвидатора!",
+        "description": "Ничто не может выжить после ликвидатора!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -139,7 +139,7 @@
         "name": "{b}Уничтожитель жуков:{/b}",
         "cost": "100",
         "image": "objects/item_spray3.png",
-        "description": "Ничто не может пережить от уничтожителя!",
+        "description": "Ничто не может выжить после уничтожителя!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -154,7 +154,7 @@
     },
     "package": {
         "id": "18",
-        "name": "{b}пакет от Пи'нка:{/b}",
+        "name": "{b}Пакет от Пи'нка:{/b}",
         "cost": "0",
         "image": "objects/item_package1.png",
         "description": "Купленный товар в Пинк.",
@@ -298,7 +298,7 @@
     },
     "buttplug": {
         "id": "34",
-        "name": "{b}Торцевая вилка:{/b}",
+        "name": "{b}Анальная пробка:{/b}",
         "cost": "100",
         "image": "objects/item_sex1.png",
         "description": "Фаллоимитатор формой конуса для анальной вставки, которая светится в темноте.",
@@ -445,7 +445,7 @@
         "name": "{b}Кнут \"Святая Кара\":{/b}",
         "cost": "500",
         "image": "objects/item_sex16.png",
-        "description": "Кнут, чтобы наказать грешников.",
+        "description": "Кнут, чтобы наказывать грешников.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -478,7 +478,7 @@
     },
     "card04": {
         "id": "54",
-        "name": "{b}Trading Card - Диллон:{/b}",
+        "name": "{b}Торговая карточка - Диллон:{/b}",
         "cost": "0",
         "image": "objects/item_card5.png",
         "description": "Фаппенинг карта для Диллона.",
@@ -487,7 +487,7 @@
     },
     "eriks_cards": {
         "id": "55",
-        "name": "{b}Эрик фаппенинг торговые карты:{/b}",
+        "name": "{b}Коробка с карточками:{/b}",
         "cost": "0",
         "image": "objects/item_box1.png",
         "description": "Эта коробка содержит фаппенинг карты, которые Эрик потерял.",
@@ -661,7 +661,7 @@
         "name": "{b}Секретный ключ Хелен:{/b}",
         "cost": "0",
         "image": "objects/item_key3.png",
-        "description": "Ключ тайно спрятанный статуей Марии",
+        "description": "Ключ тайно спрятанный на статуи Марии",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -715,7 +715,7 @@
         "name": "{b}Карта сокровищ:{/b}",
         "cost": "0",
         "image": "objects/item_map1.png",
-        "description": "Карта сокровищ, которую вы приобрели после решения сложной головоломки.",
+        "description": "Карта сокровищ, которую вы получили после решения сложной головоломки.",
         "closeup": "objects/closeup_map_01.png",
         "dialogue_label": "treasure_map"
     },
@@ -838,10 +838,10 @@
     },
     "game": {
         "id": "94",
-        "name": "{b}Морские собаки Сага:{/b}",
+        "name": "{b}Сага Морской собаки:{/b}",
         "cost": "100",
         "image": "transform-game_1",
-        "description": "Последняя сенсационная видео игры от DarkCookie!",
+        "description": "Последняя сенсационная видео игра от DarkCookie!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -850,7 +850,7 @@
         "name": "{b}Мир орцетте:{/b}",
         "cost": "100",
         "image": "transform-game_2",
-        "description": "Последняя сенсационная видео игры от DarkCookie!",
+        "description": "Последняя сенсационная видео игра от DarkCookie!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -928,7 +928,7 @@
     },
     "m_pizza_pamphlet": {
         "id": "104",
-        "name": "{b}Пицца брошюра:{/b}",
+        "name": "{b}Брошюра пицерии:{/b}",
         "cost": "0",
         "image": "objects/object_mailbox_item02.png",
         "description": "",
@@ -1030,7 +1030,7 @@
         "name": "{b}Контроллер - Главный бластер:{/b}",
         "cost": "0",
         "image": "objects/item_controller1.png",
-        "description" : "Эрика мастер бластер контроллер. Он должен содержать {b}Вибромотор{/b}",
+        "description" : "Мастер бластер контроллер Эрика. Он должен содержать {b}Вибромотор{/b}",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1111,7 +1111,7 @@
         "name": "{b}Сломанная Флейта:{/b}",
         "cost": "0",
         "image": "objects/item_flute2.png",
-        "description": "Сломанная флейта, на которой был странный запах.",
+        "description": "Сломанная флейта, со странным запахом.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1120,7 +1120,7 @@
         "name": "{b}Дрель:{/b}",
         "cost": "0",
         "image": "objects/item_drill1.png",
-        "description": "Сверло используемое для {b}бурения{/b} вещей *подмигивание*.",
+        "description": "Сверло используемое для {b}сверления{/b} вещей *подмигивание*.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1156,7 +1156,7 @@
         "name": "{b}Деревянные Доски:{/b}",
         "cost": "0",
         "image": "objects/item_wood1.png",
-        "description": "Большую стопку досок вы нашли в Домеке на дереве.",
+        "description": "Большую стопку досок вы нашли в Домике на дереве.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1165,7 +1165,7 @@
         "name": "{b}Мольберты:{/b}",
         "cost": "0",
         "image": "objects/item_easel2.png",
-        "description": "Некоторой ручной работы мольберт для {b}Мисс Росс{/b}",
+        "description": "Мольберт ручной работы  для {b}Мисс Росс{/b}",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1183,7 +1183,7 @@
         "name": "{b}Поддельная Гитара:{/b}",
         "cost": "0",
         "image": "objects/item_guitar2.png",
-        "description": "Привосходная копия измененной {b}Крылатая{/b} гитары.",
+        "description": "Привосходная копия измененной {b}Крылатой{/b} гитары.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1264,7 +1264,7 @@
         "name": "{b}Фото - Рокси и [firstname] :{/b}",
         "cost": "0",
         "image": "objects/item_picture1.png",
-        "description": "Рокси сиськи такие мягкие...",
+        "description": "У Рокси сиськи такие мягкие...",
         "closeup": "objects/closeup_picture1b.png",
         "dialogue_label": ""
     },
