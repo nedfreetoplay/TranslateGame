@@ -46,16 +46,16 @@
     },
     "french_dictionary": {
         "id": "6",
-        "name": "{b}Французкий Словарь:{/b}",
+        "name": "{b}Французский Словарь:{/b}",
         "cost": "0",
         "image": "objects/item_book3.png",
-        "description": "Omelet Du Fromage! (Сырный Омлет!)",
+        "description": "Омлет Дю Фромаж!",
         "closeup": "",
         "dialogue_label": ""
     },
     "oedipuss": {
         "id": "7",
-        "name": "{b}Эдипюсс:{/b}",
+        "name": "{b}Эдип:{/b}",
         "cost": "0",
         "image": "objects/item_book4.png",
         "description": "Делать это древним способом.",
@@ -346,7 +346,7 @@
         "name": "{b}Молочный раб:{/b}",
         "cost": "1000",
         "image": "objects/item_sex6.png",
-        "description": "Костюм коровы на все тело с вставляемым а анус хвостом.",
+        "description": "Костюм коровы на все тело с вставляемым в анус хвостом.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -406,7 +406,7 @@
     },
     "lingerie": {
         "id": "46",
-        "name": "{b}Белье из магазина Пинк:{/b}",
+        "name": "{b}Розовое Белье:{/b}",
         "cost": "400",
         "image": "objects/item_sex13.png",
         "description": "Сексуальное женское нижнее белье.",
@@ -874,7 +874,7 @@
     },
     "orcette_cosplay": {
         "id": "98",
-        "name": "{b}Костюм Королева Орцетте:{/b}",
+        "name": "{b}Косплей на королеву Орцетты:{/b}",
         "cost": "300",
         "image": "transform-cosplay_1",
         "description": "Наряд подходит для Королевы Орцетте, сделан из лоскутов кожи ее врагов.",
@@ -1165,7 +1165,7 @@
         "name": "{b}Мольберты:{/b}",
         "cost": "0",
         "image": "objects/item_easel2.png",
-        "description": "Мольберт ручной работы  для {b}Мисс Росс{/b}",
+        "description": "Мольберт ручной работы для {b}Мисс Росс{/b}",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1198,7 +1198,7 @@
     },
     "beer": {
         "id": "134",
-        "name": "{b}Пиво:{/b}",
+        "name": "{b}Ящик Пива:{/b}",
         "cost": "0",
         "image": "objects/item_beer1.png",
         "description": "Это жидкий хлеб, ребята.",
