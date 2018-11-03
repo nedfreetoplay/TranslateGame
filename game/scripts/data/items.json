@@ -22,13 +22,13 @@
         "name": "{b}Детали компьютера:{/b}",
         "cost": "200",
         "image": "objects/item_parts1.png",
-        "description": "Новые компьютерные детали для сладкой графики.",
+        "description": "Новые компьютерные детали для приятной графики.",
         "closeup": "",
         "dialogue_label": ""
     },
     "swimsuit": {
         "id": "4",
-        "name": "{b}Купальник:{/b}",
+        "name": "{b}Плавки:{/b}",
         "cost": "100",
         "image": "objects/item_swimsuit1.png",
         "description": "Гладкие плавки для плавания.",
@@ -46,16 +46,16 @@
     },
     "french_dictionary": {
         "id": "6",
-        "name": "{b}Русский Словарь:{/b}",
+        "name": "{b}Французкий Словарь:{/b}",
         "cost": "0",
         "image": "objects/item_book3.png",
-        "description": "Омлет Дю Фромаж!",
+        "description": "Omelet Du Fromage! (Сырный Омлет!)",
         "closeup": "",
         "dialogue_label": ""
     },
     "oedipuss": {
         "id": "7",
-        "name": "{b}Задержка киски:{/b}",
+        "name": "{b}Эдипюсс:{/b}",
         "cost": "0",
         "image": "objects/item_book4.png",
         "description": "Делать это древним способом.",
@@ -73,7 +73,7 @@
     },
     "cholas_tricks": {
         "id": "9",
-        "name": "{b}Чола трюки:{/b}",
+        "name": "{b}Приемы Чолы:{/b}",
         "cost": "0",
         "image": "objects/item_book6.png",
         "description": "Полное руководство по макияжу бровей, банданы, пирсинг, и всего того что ниже талии.",
@@ -112,7 +112,7 @@
         "name": "{b}Молочный кувшин:{/b}",
         "cost": "300",
         "image": "objects/item_jug1.png",
-        "description": "Термальный кувшин молока. Хранит свежее молоко хорошо и прохладно!",
+        "description": "Термальный кувшин для молока. Хранит свежее молоко долго и в прохладе!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -148,7 +148,7 @@
         "name": "{b}Коробки Свежего Молока:{/b}",
         "cost": "0",
         "image": "objects/item_milk1.png",
-        "description": "Доставка свежего молока!",
+        "description": "Доставка свежего молока в коробках!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -175,7 +175,7 @@
         "name": "{b}Гаечный ключ:{/b}",
         "cost": "50",
         "image": "objects/item_wrench1.png",
-        "description": "Металлический инструмент, используемый для обеспечения сцепления и затягивания болтов.",
+        "description": "Металлический инструмент, используемый для сцепления и затягивания болтов.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -220,7 +220,7 @@
         "name": "{b}Презерватив:{/b}",
         "cost": "0",
         "image": "objects/item_condom1.png",
-        "description": "Экстра, экстра, очень большой презерватив.",
+        "description": "Очень, очень, очень большой презерватив.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -244,7 +244,7 @@
     },
     "stool": {
         "id": "28",
-        "name": "{b}Стул:{/b}",
+        "name": "{b}Табурет:{/b}",
         "cost": "0",
         "image": "objects/item_stool1.png",
         "description": "Маленький табурет.",
@@ -346,7 +346,7 @@
         "name": "{b}Молочный раб:{/b}",
         "cost": "1000",
         "image": "objects/item_sex6.png",
-        "description": "Полное снаряжение коровы с вставляемым хвостом.",
+        "description": "Костюм коровы на все тело с вставляемым а анус хвостом.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -406,7 +406,7 @@
     },
     "lingerie": {
         "id": "46",
-        "name": "{b}Розовое Белье:{/b}",
+        "name": "{b}Белье из магазина Пинк:{/b}",
         "cost": "400",
         "image": "objects/item_sex13.png",
         "description": "Сексуальное женское нижнее белье.",
@@ -436,7 +436,7 @@
         "name": "{b}Рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_note1.png",
-        "description": "Рисунок предмета требуемый Анжеликой.",
+        "description": "Рисунок предмета для Анжелики.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -526,7 +526,7 @@
         "name": "{b}Противозачаточные таблетки:{/b}",
         "cost": "0",
         "image": "objects/item_pills1.png",
-        "description": "Мы же не хотим, чтобы ты опустошил весь город сейчас, не так ли?",
+        "description": "Мы же не хотим, чтобы ты обрюхатил весь город сейчас, не так ли?",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -550,7 +550,7 @@
     },
     "donuts_fail": {
         "id": "62",
-        "name": "{b}ДОХ-фундук:{/b}",
+        "name": "{b}Пончики:{/b}",
         "cost": "50",
         "image": "objects/item_donut1.png",
         "description": "Некоторые вкусные дегустационные пончики.",
@@ -559,7 +559,7 @@
     },
     "donuts_correct": {
         "id": "63",
-        "name": "{b}ДОХ-фундук:{/b}",
+        "name": "{b}Пончики:{/b}",
         "cost": "50",
         "image": "objects/item_donut1.png",
         "description": "Некоторые вкусные дегустационные пончики.",
@@ -598,7 +598,7 @@
         "name": "{b}Кошачья пища:{/b}",
         "cost": "100",
         "image": "objects/item_catfood1.png",
-        "description": "Это особый бренд еды для кошек, для лучших животных в мире!",
+        "description": "Это особая марка корма для кошек, для лучших животных в мире!",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -607,7 +607,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing1.png",
-        "description": "Вы нарисовали бабочку для татуирования.",
+        "description": "Твой рисунок татуировки бабочки.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -616,7 +616,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing2.png",
-        "description": "Вы нарисовали дельфина для татуирования.",
+        "description": "Твой рисунок татуировки дельфина.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -625,7 +625,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing3.png",
-        "description": "Вы нарисовали звёзды для татуирования.",
+        "description": "Ваш рисунок татуировки звезд.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -634,7 +634,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing4.png",
-        "description": "Вы нарисовали цветы для татуирования.",
+        "description": "Твой рисунок татуировки из цветов.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -643,7 +643,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing5.png",
-        "description": "Вы нарисовали череп для татуирования.",
+        "description": "Твой рисунок татуировки черепа.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -652,7 +652,7 @@
         "name": "{b}Тату рисунок:{/b}",
         "cost": "0",
         "image": "objects/item_tattoo_drawing6.png",
-        "description": "Вы нарисовали печенья для татуирования.",
+        "description": "Твой рисунок татуировки с печеньем.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -661,7 +661,7 @@
         "name": "{b}Секретный ключ Хелен:{/b}",
         "cost": "0",
         "image": "objects/item_key3.png",
-        "description": "Ключ тайно спрятанный на статуи Марии",
+        "description": "Ключ тайно спрятанный на статуи Марии.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -670,7 +670,7 @@
         "name": "{b}Записи некролога:{/b}",
         "cost": "0",
         "image": "objects/item_records1.png",
-        "description": "Записи некролога, содержащие имя боатсмис.",
+        "description": "Записи некролога, содержащие имя лодочника.",
         "closeup": "objects/closeup_records_01.png",
         "dialogue_label": "obituary_records"
     },
@@ -679,7 +679,7 @@
         "name": "{b}Свиток:{/b}",
         "cost": "0",
         "image": "objects/item_scroll1.png",
-        "description": "Таинственный свиток, который вы нашли спрятанным в дереве на холме ворона.",
+        "description": "Таинственный свиток, который вы нашли спрятанным в дереве на холме Равен.",
         "closeup": "objects/closeup_scroll_01.png",
         "dialogue_label": "scroll"
     },
@@ -706,7 +706,7 @@
         "name": "{b}Старая книга:{/b}",
         "cost": "0",
         "image": "objects/item_book9.png",
-        "description": "Старая книга из библиотеки, которая выглядит так, что может расшифровать что-то.",
+        "description": "Старая книга из библиотеки, которая, похоже, может что-то расшифровать.",
         "closeup": "objects/closeup_book_09.png",
         "dialogue_label": "old_book"
     },
@@ -733,16 +733,16 @@
         "name": "{b}Специальные приманки:{/b}",
         "cost": "0",
         "image": "objects/item_bait4.png",
-        "description": "Приманка для ловли рыбы, но свиду необычная.",
+        "description": "Приманка для ловли рыбы. Говорят, что на нее можно поймать все, что угодно.",
         "closeup": "objects/closeup_bait04.png",
         "dialogue_label": ""
     },
     "tigger": {
         "id": "83",
-        "name": "{b}Демон возрождения тигра:{/b}",
+        "name": "{b}Рыба Демон:{/b}",
         "cost": "0",
         "image": "objects/item_tigger1.png",
-        "description": "Как только заклятый враг человека, но больше не будет свиней выходить на рынок.",
+        "description": "Когда-то заклятый враг человека, но уже больше не будет идти на рынок.",
         "closeup": "objects/closeup_tigger_01.png",
         "dialogue_label": "tigger"
     },
@@ -751,16 +751,16 @@
         "name": "{b}Гриб:{/b}",
         "cost": "0",
         "image": "objects/item_mushroom1.png",
-        "description": "Грибы в течение нескольких дней Буа.",
+        "description": "Грибы для дневных мальчиков.",
         "closeup": "objects/closeup_mushroom_01.png",
         "dialogue_label": ""
     },
     "report_card": {
         "id": "85",
-        "name": "{b}Карточка отчёта:{/b}",
+        "name": "{b}Табель:{/b}",
         "cost": "0",
         "image": "objects/item_report1.png",
-        "description": "Моя школьная карточка для отчёта.",
+        "description": "Мой школьный табель успеваемости.",
         "closeup": "report_card_closeup",
         "dialogue_label": ""
     },
@@ -832,7 +832,7 @@
         "name": "{b}Жаба:{/b}",
         "cost": "0",
         "image": "objects/item_toad1.png",
-        "description": "Похоже, как ведьмы и ученые используют для сущности жаб.",
+        "description": "Похоже, и ведьмы, и ученые используют эссенцию жабы.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -856,28 +856,28 @@
     },
     "card01": {
         "id": "96",
-        "name": "{b}Торговая карточка - Летающий петух Гоблин:{/b}",
+        "name": "{b}Обменная карточка - Летающий член Гоблина:{/b}",
         "cost": "50",
         "image": "objects/item_card1.png",
-        "description": "Фаппенинг карта для летающих петух Гоблин.",
+        "description": "Игровая карта.",
         "closeup": "objects/closeup_card01.png",
         "dialogue_label": ""
     },
     "card02": {
         "id": "97",
-        "name": "{b}Торговая карточка - Петух корона шипов:{/b}",
+        "name": "{b}Обменная карточка - Член с короной из шипов:{/b}",
         "cost": "50",
         "image": "transform-card_2",
-        "description": "Фаппенинг карта для коронки петуха шипов.",
+        "description": "Игровая карта.",
         "closeup": "objects/closeup_card02.png",
         "dialogue_label": ""
     },
     "orcette_cosplay": {
         "id": "98",
-        "name": "{b}Орцетте королева одежды:{/b}",
+        "name": "{b}Костюм Королева Орцетте:{/b}",
         "cost": "300",
         "image": "transform-cosplay_1",
-        "description": "Наряд подходят для орцетте королева из битвы шрамы кожи ее врагов.",
+        "description": "Наряд подходит для Королевы Орцетте, сделан из лоскутов кожи ее врагов.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -895,7 +895,7 @@
         "name": "{b}Коровий косплей:{/b}",
         "cost": "300",
         "image": "transform-sex_6",
-        "description": "Черный и белый пятнистый бикини сопровождается колокол, хвост вилкой и ушное оголовье.",
+        "description": "Черно-белое пятнистое бикини с колокольчиком, заглушкой для хвоста и оголовьем для ушей.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1027,7 +1027,7 @@
     },
     "controller": {
         "id": "115",
-        "name": "{b}Контроллер - Главный бластер:{/b}",
+        "name": "{b}Контроллер - Мастер бластер:{/b}",
         "cost": "0",
         "image": "objects/item_controller1.png",
         "description" : "Мастер бластер контроллер Эрика. Он должен содержать {b}Вибромотор{/b}",
@@ -1120,7 +1120,7 @@
         "name": "{b}Дрель:{/b}",
         "cost": "0",
         "image": "objects/item_drill1.png",
-        "description": "Сверло используемое для {b}сверления{/b} вещей *подмигивание*.",
+        "description": "Дрель используется для {b}сверления{/b} вещей. *винк* *винк*.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1129,7 +1129,7 @@
         "name": "{b}Палка:{/b}",
         "cost": "0",
         "image": "objects/item_stick1.png",
-        "description": "Это бл**ь палка. Ткните его другой палкой.",
+        "description": "Это же гребаная палка. Ткните его другой палкой.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1183,7 +1183,7 @@
         "name": "{b}Поддельная Гитара:{/b}",
         "cost": "0",
         "image": "objects/item_guitar2.png",
-        "description": "Привосходная копия измененной {b}Крылатой{/b} гитары.",
+        "description": "Привосходная копия измененной гитары {b}Фендер{/b}.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1192,7 +1192,7 @@
         "name": "{b}Гитара:{/b}",
         "cost": "0",
         "image": "objects/item_guitar1.png",
-        "description": "Обычная {б}Крылатая{/б} гитара.",
+        "description": "Обычная гитара {б}Фендер{/б}.",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1219,7 +1219,7 @@
         "name": "{b}клейкая лента:{/b}",
         "cost": "0",
         "image": "objects/item_sticky1.png",
-        "description": "Этот материал настолько силен, что вы не хотели бы застрять в определенных вещах... или вы?",
+        "description": "Этот материал настолько силен, что вы не хотели бы застрять в определенных вещах... или нет?",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1273,7 +1273,7 @@
         "name": "{b}Водка GoldSchwagger:{/b}",
         "cost": "0",
         "image": "objects/item_goldschwagger1.png",
-        "description": "Бекка, кажется, очень любит это, в нем мало золотых хлопьев...",
+        "description": "Бекка, кажется, очень любит это, в нем немного золотых хлопьев...",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1300,13 +1300,13 @@
         "name": "{b}Бикини Сары:{/b}",
         "cost": "0",
         "image": "objects/item_bikini_01.png",
-        "description": "Бикини Сары, приходит в поле, когда Рокси просто ломается...",
+        "description": "Бикини Сары, пригодятся, раз у Рокси порвались...",
         "closeup": "",
         "dialogue_label": ""
     },
     "massage_oil": {
         "id": "146",
-        "name": "{b}массажное масло:{/b}",
+        "name": "{b}Массажное масло:{/b}",
         "cost": "0",
         "image": "objects/item_lotion2.png",
         "description": "Массажное масло для намыливания тела...",
