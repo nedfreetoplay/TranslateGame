@@ -35,14 +35,14 @@ label rapbattle_listing:
     if getPlayingMusic("<loop 108.292 to 180.658>audio/music_rap.ogg"):
         $ playMusic("<loop 108.292 to 180.658>audio/music_rap.ogg")
 
-    $ chico1 = Rap(line = "Чико, почему ты такая стерва? \nТвоей разбитой губе понадобится ____.", rhymes = ["швы", "заплатки", "поцелуй"], answer = "швы")
+    $ chico1 = Rap(line = "Чико, почему ты такая стерва?\nТвоей разбитой губе понадобится ____.", rhymes = ["швы", "заплатки", "поцелуй"], answer = "швы")
     $ chico2 = Rap(line = "Ты уверен, что тебя зовут не Рик?\nПотому что сейчас ты ведешь себя ____.", rhymes = ["хуй", "писюн", "задница"], answer = "хуй")
     $ chico_list = [chico1, chico2]
     $ chico3 = Rap(line = "Ты хочешь команду? Я дам тебе три.\nУ тебя не будет других богов \nпередо ____.", rhymes = ["мной", "Као", "Иисусом"], answer = "мной")
     $ chico4 = Rap(line = "Преклонитесь передо мной и уважайте мой ход.\nя даю команды сейчас,\nэто моё ____.", rhymes = ["шоу", "рэп", "жизнь"], answer = "шоу")
     $ chico_list2 = [chico3, chico4]
-    $ chico5 = Rap(line = "Кроме Евы, все что я вижу здесь, только позера. \nТы сделал ход, \nно я буду ____.", rhymes = ["близко", "лучше", "Иисус"], answer = "близко")
-    $ chico6 = Rap(line = "И правда мужик? Один из твоих родственников?\nЯ мог бы вытянуть лучшие рэпы в \n мусорном ____.", rhymes = ["сумка", "грузовик", "ведре"], answer = "ведре")
+    $ chico5 = Rap(line = "Кроме Евы, все что я вижу здесь,\nтолько позера. Ты сделал ход, \nно я буду ____.", rhymes = ["близко", "лучше", "Иисус"], answer = "близко")
+    $ chico6 = Rap(line = "И правда мужик? Один из твоих родственников?\nЯ мог бы вытянуть лучшие рэпы в\nмусорном ____.", rhymes = ["сумка", "грузовик", "ведре"], answer = "ведре")
     $ chico_list3 = [chico5, chico6]
     $ chico7 = Rap(line = "Эй йоу, Чико, ты действительно хочешь рэпа? \nты читаешь так, будто у тебя перья на ____.", rhymes = ["твоей кепке", "твоих волосах", "твоей заднице"], answer = "твоей кепке")
     $ chico8 = Rap(line = "Йоу, твои рифмы такие ненормальные; \nВсе что тебе нужно это ____.", rhymes = ["новый сникерс", "закадровый смех", "мамкины спагетти"], answer = "закадровый смех")
@@ -117,7 +117,7 @@ label chico01:
     if player.stats.chr() > 3:
         $ chico_random = renpy.random.randint(1,4)
     if player.stats.chr() == 0 or chico_random == 1:
-        show text " {size=17}Ты думаешь, что можешь противостоять мне белый хлебушек? \nеще до того, как ты начнешь, ты уже труп!{/size}" at Position(xpos = 320, ypos = 675)
+        show text "{size=17}Ты думаешь, что можешь противостоять мне белый хлебушек? \nеще до того, как ты начнешь, ты уже труп!{/size}" at Position(xpos = 320, ypos = 675)
         $ renpy.pause()
         hide text
         show text "{size=17}Ты такой пресный как простой тост; \n Дай мне показать тебе, как амигское западное жаркое!{/size}" at Position(xpos = 320, ypos = 670)
@@ -126,7 +126,7 @@ label chico01:
         $ temp_list = chico_list4
 
     elif player.stats.chr() == 1 or chico_random == 2:
-        show text " {size=17}Ты вернулся, но ты должен был бежать,\nвот вот тебя изобьет латино-американец.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Ты вернулся, но ты должен был бежать,\nвот вот тебя изобьет латино-американец.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Это наш парк, и твоя задница под запретом,\nТебе лучше уйти сейчас, и это приказ.{/size}" at Position(xpos = 320, ypos = 670)
@@ -135,7 +135,7 @@ label chico01:
         $ temp_list = chico_list2
 
     elif player.stats.chr() == 2 or chico_random == 3:
-        show text " {size=17}Как ты себя чувствуешь, с парочкой побед?\nсовершенствуйся и будешь признан как родной.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Как ты себя чувствуешь, с парочкой побед?\nсовершенствуйся и будешь признан как родной.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Так что брось пару брусков и рок это бит,\nили тащи свою задницу домой и гоняй лысого.{/size}" at Position(xpos = 320, ypos = 670)
@@ -144,7 +144,7 @@ label chico01:
         $ temp_list = chico_list3
 
     elif player.stats.chr() == 3 or chico_random == 4:
-        show text " {size=17}Посмотрите на этого дурака,он потрясен.\nЯ знаю, что этот дурак ошибся,{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Посмотрите на этого дурака,он потрясен.\nЯ знаю, что этот дурак ошибся,{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Он всегда думал что может подойти ко мне\nДолжно быть он ударился головой об дерево.{/size}" at Position(xpos = 320, ypos = 670)
@@ -162,7 +162,7 @@ label chad01:
     if player.stats.chr() > 6:
         $ chad_random = renpy.random.randint(1,3)
     if player.stats.chr() == 4 or chad_random == 1:
-        show text " {size=17}Я знаю, мы только познакомились и я ненавижу быть грубым,\nноЧико должен был покончить с тобой\nты не должен быть здесь, чувак.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Я знаю, мы только познакомились и я ненавижу быть грубым,\nноЧико должен был покончить с тобой\nты не должен быть здесь, чувак.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Но добро пожаловать на мой урок,\nшкола вот-вот начнется,\nсадись мальчик, ты захочешь скопировать это искусство.{/size}" at Position(xpos = 320, ypos = 670)
@@ -177,7 +177,7 @@ label chad01:
         $ temp_list = chad_list
 
     elif player.stats.chr() == 5 or chad_random == 2:
-        show text " {size=17}Ты снова вернулся и звонок скоро зазвонит,\n Школа на сессии давайте сделаем это.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Ты снова вернулся и звонок скоро зазвонит,\n Школа на сессии давайте сделаем это.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}В прошлый раз я был почти впечатлен, но ты все равно\nужасен. Ты сам сделал эту дрянь?\n твои щорты липкие, как гель для волос.{/size}" at Position(xpos = 320, ypos = 670)
@@ -192,7 +192,7 @@ label chad01:
         $ temp_list = chad_list2
 
     elif player.stats.chr() == 6 or chad_random == 3:
-        show text " {size=17}Моя кожа светлая, но мое сердце темное,\nТы в моем районе парень,Я управляю этим парком.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Моя кожа светлая, но мое сердце темное,\nТы в моем районе парень,Я управляю этим парком.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Ты подошел ко мне в шортах и сандалиях,\nУ меня огненный рэп, слишком жаркий для обращения.{/size}" at Position(xpos = 320, ypos = 670)
@@ -216,7 +216,7 @@ label tyrone01:
     if player.stats.chr() > 9:
         $ tyrone_random = renpy.random.randint(1,3)
     if player.stats.chr() == 7 or tyrone_random == 1:
-        show text " {size=17}Не кричи, не волнуйся, я приду с применением силы \nпрыгну в окно и вышибу двери.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Не кричи, не волнуйся, я приду с применением силы \nпрыгну в окно и вышибу двери.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Был как полицейский тут служащий,\n орестую твою задницу которая этого заслуживает.{/size}" at Position(xpos = 320, ypos = 670)
@@ -228,7 +228,7 @@ label tyrone01:
         show text "{size=17}Я разогреваю этот ритм и начал этого угля,\nприготовил этого маленького MC как запеканку.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text " {size=17}Пока я буду на кухне, я сделаю брауни,\nнужна помощь от этого дурака пытающимся порадировать меня.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Пока я буду на кухне, я сделаю брауни,\nнужна помощь от этого дурака пытающимся порадировать меня.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Обратно на улицы и в мой квартал,\nЯ в своем районе от моей головы до кончика моего члена.{/size}" at Position(xpos = 320, ypos = 670)
@@ -243,7 +243,7 @@ label tyrone01:
         $ temp_list = tyrone_list
 
     elif player.stats.chr() == 8 or tyrone_random == 2:
-        show text " {size=17}Вернись на место, время начать все сначала,\nповесить микрофон сука,ты знаешь что я победил.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Вернись на место, время начать все сначала,\nповесить микрофон сука,ты знаешь что я победил.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Мой РЭП быстрее, а разум быстрее,\nты идешь ко мне,ты шагаешь к мастеру.{/size}" at Position(xpos = 320, ypos = 670)
@@ -255,7 +255,7 @@ label tyrone01:
         show text "{size=17}Я плюю жару изо рта, как китайский дракон,\nЯ зажарю тебя живьем, мальчик и глотну с бутыля.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text " {size=17}Зажгу затяжку от жары твоего пепла,\n дунул, дунул передал с рук в руки к массам.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Зажгу затяжку от жары твоего пепла,\n дунул, дунул передал с рук в руки к массам.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         show text "{size=17}Толпа соберется, когда мы засунем тебя в грязь,\nЯ утешу твою мамку, когда ей будет больно.{/size}" at Position(xpos = 320, ypos = 670)
@@ -275,7 +275,7 @@ label tyrone01:
     call screen rapbattle
 
 label tyrone02:
-    show text " {size=17}Я думал, что ты здесь последний раз,\nна этот раз я прикончу тебя, как бомбу.{/size}" at Position(xpos = 320, ypos = 670)
+    show text "{size=17}Я думал, что ты здесь последний раз,\nна этот раз я прикончу тебя, как бомбу.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
     show text "{size=17}Ты видишь, Я был в этом парке гораздо дольше, чем ты.,\nя поднялся из грязи в князи и получил эту банду.{/size}" at Position(xpos = 320, ypos = 670)
@@ -287,7 +287,7 @@ label tyrone02:
     show text "{size=17}Не могу поверить, что ты пришел сюда,и плюешься своим сыром,\nты не пройдешь мимо меня, Я брошу тебя с легкостью.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
-    show text " {size=17}Так что теперь пришло время поставить тебя на свое место,\nЯ устал от тебя, мальчик, терпеть не могу твое гребаное лицо.{/size}" at Position(xpos = 320, ypos = 670)
+    show text "{size=17}Так что теперь пришло время поставить тебя на свое место,\nЯ устал от тебя, мальчик, терпеть не могу твое гребаное лицо.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
     $ temp_list = tyrone_list4

@@ -12,6 +12,7 @@ label pizza_minigame:
         $ tips = True
     else:
         $ tips = False
+    scene location_pizza_day_blur with None
     while not end_while_pizza_minigame:
         menu:
             "Замедление времени: {color=#FFD700}ВКЛЮЧЕНО{/color}" if tips:
