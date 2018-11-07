@@ -100,13 +100,13 @@ label rapbattle_listing:
 
     $ player_point = 0
 
-    if rap_opponent == "Chico":
+    if rap_opponent == "Чико":
         jump chico01
 
-    elif rap_opponent == "Chad":
+    elif rap_opponent == "Чад":
         jump chad01
 
-    elif rap_opponent == "Tyrone":
+    elif rap_opponent == "Тайрон":
         jump tyrone01
 
 label chico01:
@@ -296,11 +296,11 @@ label tyrone02:
     call screen rapbattle
 
 label end_phase:
-    if rap_opponent == "Chico":
+    if rap_opponent == "Чико":
         $ time_count = 7
         $ timer_range = 7
 
-    elif rap_opponent == "Chad" or rap_opponent == "Tyrone":
+    elif rap_opponent == "Чад" or rap_opponent == "Тайрон":
         $ time_count = 9
         $ timer_range = 9
     $ player_point += 1
@@ -321,13 +321,13 @@ label rapbattle_win:
     $ renpy.suspend_rollback(False)
     $ renpy.checkpoint()
     scene park_bench
-    if rap_opponent == "Chico":
+    if rap_opponent == "Чико":
         call expression game.dialog_select("rapbattle_win_chico")
 
-    elif rap_opponent == "Chad":
+    elif rap_opponent == "Чад":
         call expression game.dialog_select("rapbattle_win_chad")
 
-    elif rap_opponent == "Tyrone":
+    elif rap_opponent == "Тайрон":
         $ A_eminem.unlock()
         call expression game.dialog_select("rapbattle_win_tyrone")
 
@@ -339,7 +339,7 @@ label rapbattle_win:
     with dissolve
 
     $ game.timer.tick()
-    if (rap_opponent == "Chico" and player.stats.chr() < 4) or (rap_opponent == "Chad" and player.stats.chr() < 7) or (rap_opponent == "Tyrone" and player.stats.chr() < 10):
+    if (rap_opponent == "Чико" and player.stats.chr() < 4) or (rap_opponent == "Чад" and player.stats.chr() < 7) or (rap_opponent == "Тайрон" and player.stats.chr() < 10):
         $ player.stats.increase("chr")
         show unlock23 at truecenter with dissolve
         pause
@@ -426,13 +426,13 @@ label rapbattle_lose:
     $ renpy.suspend_rollback(False)
     $ renpy.checkpoint()
     scene park_bench
-    if rap_opponent == "Chico":
+    if rap_opponent == "Чико":
         call expression game.dialog_select("rapbattle_win_chico")
 
-    elif rap_opponent == "Chad":
+    elif rap_opponent == "Чад":
         call expression game.dialog_select("rapbattle_win_chad")
 
-    elif rap_opponent == "Tyrone":
+    elif rap_opponent == "Тайрон":
         call expression game.dialog_select("rapbattle_win_tyrone")
 
     hide player
