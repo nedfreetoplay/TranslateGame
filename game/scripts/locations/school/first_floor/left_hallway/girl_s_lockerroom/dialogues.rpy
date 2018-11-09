@@ -207,7 +207,7 @@ label girls_lockerroom_judith_toilet_first_should_stop:
 label girls_lockerroom_judith_toilet_first_cant:
     show judith 16
     show player 108
-    player_name "Не сейчас, {b}Джуди{/b}..."
+    player_name "Не сейчас, {b}Джудит{/b}..."
     player_name "К тому же, нам правда пора... Я не хочу опаздывать, и {b}Энни{/b} может нас здесь застукать..."
     show judith 13
     show player 109
