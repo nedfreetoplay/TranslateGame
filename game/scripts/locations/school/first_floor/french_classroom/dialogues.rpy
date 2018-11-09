@@ -197,7 +197,7 @@ label french_classroom_bissette_study:
     show desk 11 at Position (xoffset=-27)
     player_name "...Velow."
     show desk 10 at Position (xoffset=-27)
-    bis "No VI-loo."
+    bis "Нет VI-loo."
     show desk 11 at Position (xoffset=-27)
     player_name "Vv...velo"
     show desk 10 at Position (xoffset=-27)
@@ -209,7 +209,7 @@ label french_classroom_bissette_study:
     show desk 9 at Position (xoffset=-27) with dissolve
     bis "Ты учишься очень быстро."
     show desk 11 at Position (xoffset=-27) with dissolve
-    player_name "Спасибо, {b}Miss Bissette{/b}. Вы хороший учитель!"
+    player_name "Спасибо, {b}Мисс Биссетт{/b}. Вы хороший учитель!"
     show desk 9 at Position (xoffset=-27) with dissolve
     bis "Ах, такой чародей!"
     show desk 8 at Position (xoffset=-29) with dissolve
