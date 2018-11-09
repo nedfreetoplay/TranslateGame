@@ -137,9 +137,9 @@ label school_dialogue:
         elif M_roxxy.is_state(S_roxxy_trailer_park_romance) and game.timer.is_morning():
             call expression game.dialog_select("school_roxxy_trailer_park_romance_intro")
             menu:
-                "Not right now.":
+                "Не сейчас.":
                     call expression game.dialog_select("school_roxxy_trailer_park_romance_no")
-                "I can come":
+                "Я могу пойти.":
 
                     call expression game.dialog_select("school_roxxy_trailer_park_romance_yes")
                     $ M_roxxy.trigger(T_roxxy_accepted_picnic)
