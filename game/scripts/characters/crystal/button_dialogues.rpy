@@ -162,7 +162,7 @@ label button_crystal_final_evening:
     crys "Ммм, а вот и приятный умелый молодой человек!"
     show crystal 5
     show player 14
-    player_name "А, привет {b}Кристи{/b}..."
+    player_name "А, привет {b}Кристалл{/b}..."
     show player 13
     show crystal 6
     crys "Почему бы тебе не выпить пивка и посидеть со мной?"
@@ -184,7 +184,7 @@ label button_crystal_final_day:
     crys "Ммм, а вот и приятный умелый человек!"
     show crystal 1
     show player 14
-    player_name "А, привет {b}Кристи{/b}..."
+    player_name "А, привет {b}Кристалл{/b}..."
     show player 13
     show crystal 2
     crys "Почему бы тебе не выпить пивка и посидеть со мной?"
@@ -385,7 +385,7 @@ label button_crystal_should_go_day:
     show player 3 with dissolve
     player_name "{b}*глоток*{/b}"
     show player 29
-    player_name "Я эээто... Увидемся позже, {b}Кристи{/b}."
+    player_name "Я эээто... Увидемся позже, {b}Кристалл{/b}."
     show player 3
     show crystal 2
     crys "Делай как знаешь."
