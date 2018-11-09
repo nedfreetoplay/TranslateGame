@@ -146,7 +146,7 @@ label kitchen_mom_dinner_fish:
     show player 13 at left
     show debbie 1 at right
     with dissolve
-    player_name "Хэй, {b}[deb_name]{/b}. Я купил {b}рыбу{/b}, которую ты хотела."
+    player_name "Привет, {b}[deb_name]{/b}. Я купил {b}рыбу{/b}, которую ты хотела."
     show player 2
     deb "Спасибо, милый, теперь я могу закончить готовить ужин."
     show debbie 2
@@ -173,9 +173,9 @@ label kitchen_mom_dinner_fish:
     dia "... Главный {b}мужчина этого дома{/b}!"
     show diane 136
     show player 14
-    player_name "Хэй, {b}Диана{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 17
-    player_name "Прекрасно выглядешь!"
+    player_name "Прекрасно выглядишь!"
     show diane 138
     show player 203
     dia "Ох, перестань!"
@@ -186,7 +186,7 @@ label kitchen_mom_dinner_fish:
     show diane 137
     show debbie 91f
     dia "Не знаю, как ты можешь держать себя в руках рядом с ним!"
-    dia "А где второй ребенок? Она присоединится к нам сегодня,или у неё встреча Сучек Summerville?"
+    dia "А где второй ребенок? Она присоединится к нам сегодня,или у неё встреча Сучек Саммервиля?"
     show player 10
     show diane 136
     player_name "Нет, она будет ужинать с нами."
@@ -335,11 +335,11 @@ label kitchen_mom_diane_visit:
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f at Position(xpos=0.3318,ypos=1.000)
     deb "Я не знала, что мне делать!"
-    deb "Я думала, если он закончить, то..."
+    deb "Я думала, если он закончит, то..."
     deb "..."
     show diane 121 at Position(xpos=0.7796,ypos=0.7464)
     show debbie 59f
-    dia "Это так неправильно..."
+    dia "Это неправильно..."
     show diane 120 at Position(xpos=0.7746,ypos=0.7464)
     show debbie 60f
     deb "И ещё кое-что..."
@@ -375,7 +375,7 @@ label kitchen_mom_diane_visit:
     deb "... {b}*Эх*{/b}"
     show diane 125
     show debbie 59f
-    dia "Ты... Трогала её?"
+    dia "Ты... Трогала его?"
     show diane 126
     show debbie 60f
     deb "... Да."
@@ -475,7 +475,7 @@ label kitchen_mom_diane_visit:
     player_name "( {b}[deb_name]{/b} не очень комфортно из-за этой ситуации... )"
     show player 203
     player_name "( Хотя она сказала, что ей понравилось. )"
-    player_name "( В любом случае, я рад, что {b}Диане{/b} это нормально для нас, заниматься чем-то подобным! )"
+    player_name "( В любом случае, я рад, что {b}Диана{/b} считает это нормально, заниматься чем-то подобным! )"
     return
 
 label kitchen_mom_kissing_practice:
@@ -717,7 +717,7 @@ label kitchen_mom_dishes_yes:
     show player 274
     show debbie 61
     player_name "Не за что, {b}[deb_name]{/b}."
-    show expression Cutscene("help_debbie_kitchen_cutscene", "Не думаю, что {b}[deb_name]{/b} кто-нибудь помогал с посудой раньше... \nОна сказала,что её бывший муж вообще ничего не делал по дому, а мой {b}отец{/b} помогал только в саду, или изредко что-то чинил. \nОна стояла со мной на кухне до тех пор, пока я не разложил всю посуду по местам, а после этого мы мило поговорили. \nБыло приятно узнать {b}[deb_name]{/b} по-лучше...") as cutscene with fade
+    show expression Cutscene("help_debbie_kitchen_cutscene", "Не думаю, что {b}[deb_name]{/b} кто-нибудь помогал с посудой раньше... \nОна сказала,что её бывший муж вообще ничего не делал по дому, а мой {b}отец{/b} помогал только в саду, или изредка что-то чинил. \nОна стояла со мной на кухне до тех пор, пока я не разложил всю посуду по местам, а после этого мы мило поговорили. \nБыло приятно узнать {b}[deb_name]{/b} по-лучше...") as cutscene with fade
     pause
     hide cutscene with dissolve
     return
