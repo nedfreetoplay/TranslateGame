@@ -102,7 +102,7 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "..."
     show roxxy 3c
     rox "Да, мы увидим..."
-    rox "Давай, {b}[firstname]{/b}.Пошли отсюда."
+    rox "Давай, {b}[firstname]{/b}. Пошли отсюда."
     rox "Я немогу смотреть на неё сейчас смотреть."
     hide roxxy with dissolve
     show player 5 with dissolve
