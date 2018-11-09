@@ -4,7 +4,7 @@ label sis_computer_locked:
     return
 
 label sis_computer_locked_diary_locked:
-    player_name "( Нужно понять, что то за пароль. )"
+    player_name "( Нужно понять, что это за пароль. )"
     return
 
 label sis_computer_locked_diary_unlocked:
@@ -168,8 +168,8 @@ label sispc_email04_response:
     call screen sis_email
 
 label sispc_email04_response_dialogue:
-    player_name "( У {b}[jen_name]{/b} розовый аккаунт?! Но она же может смотреть этот канал, лишь когда все спят. )"
-    player_name "( Нужно будет проверить это какой-нибудь ночью. )"
+    player_name "( У {b}[jen_name]{/b} есть аккаунт на Pink Chanel?! Но она же может смотреть этот канал, лишь когда все спят. )"
+    player_name "( Нужно будет проверить это как-нибудь ночью. )"
     return
 
 label sispc_password_reminder:
