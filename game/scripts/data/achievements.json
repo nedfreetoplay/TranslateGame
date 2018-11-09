@@ -154,7 +154,7 @@
     "slick-mofo": {
         "id": 20,
         "name": "Slick mofo",
-        "description": "Закончи обучение Сомраку.",
+        "description": "Закончи обучение у Сомрака.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_20.png"
@@ -186,7 +186,7 @@
     "computer-genius": {
         "id": 24,
         "name": "Компьютерный гений.",
-        "description": "Perv on Jenny's PC.",
+        "description": "Изврат на ПК Джинни.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_24.png"
@@ -226,7 +226,7 @@
     "ready-for-college": {
         "id": 29,
         "name": "Подготовка к колледжу.",
-        "description": "Max out your savings account.",
+        "description": "Наполни свой сберегательный счет.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_29.png"
@@ -250,7 +250,7 @@
     "apple": {
         "id": 32,
         "name": "Микроволновое яблоко",
-        "description": "Find the microwaved apple.",
+        "description": "Найди яблоко в микроволновке.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_32.png"
@@ -258,7 +258,7 @@
     "oldies-goodies": {
         "id": 33,
         "name": "Всем привет!",
-        "description": "Have sex with Roz.",
+        "description": "Трахни Роз.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_33.png"
@@ -266,7 +266,7 @@
     "yoga-apprentice": {
         "id": 34,
         "name": "Ученик йоги",
-        "description": "Help out a yogee with her lessons.",
+        "description": "Помогите на уроках йоги.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_34.png"
@@ -282,7 +282,7 @@
     "solo-pleasure": {
         "id": 36,
         "name": "Одинокое удовольствие",
-        "description": "Go for some alone time...",
+        "description": "Проведи время в одиночку...",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_36.png"
@@ -298,7 +298,7 @@
     "gt500": {
         "id": 38,
         "name": "The GT500",
-        "description": "Заводи машину!",
+        "description": "Заведи машину!",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_38.png"
@@ -321,7 +321,7 @@
     },
     "caught": {
         "id": 41,
-        "name": "Caught!",
+        "name": "Поймали!",
         "description": "Witness a couple going at it.",
         "hidden": true,
         "enabled": false,
@@ -329,16 +329,16 @@
     },
     "zana": {
         "id": 42,
-        "name": "Zana (of the Endless)",
-        "description": "Get stuck at the talent show.",
+        "name": "Zana (of the Endless).",
+        "description": "Вставить на шоу талантов.",
         "hidden": true,
         "enabled": false,
         "image": "buttons/cellphone_achieve_01.png"
     },
     "treasure-hunt": {
         "id": 43,
-        "name": "Treasure Hunt",
-        "description": "Find the golden lure.",
+        "name": "Охота за сокровищами.",
+        "description": "Найдите золотую приманку.",
         "hidden": true,
         "enabled": false,
         "image": "buttons/cellphone_achieve_01.png"
