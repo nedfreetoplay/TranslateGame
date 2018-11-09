@@ -2,10 +2,10 @@ label school_erik_intro_started:
     scene outside_school_b
     show duo 6 at left with dissolve
     show mia 1 at right with dissolve
-    player_name "Эй, {b}Мия{/b}!"
+    player_name "Привет, {b}Мия{/b}!"
     show duo 1 at left
     show mia 4 at right
-    mia "Эй, {b}[firstname]{/b}! Рада снова видеть тебя!"
+    mia "Привет, {b}[firstname]{/b}! Рада снова видеть тебя!"
     mia "Привет, {b}Эрик{/b}! Как выходные?"
     show duo 10 at left
     show mia 1 at right
@@ -79,10 +79,10 @@ label school_roxxy_intense_gymercise:
     show erik 28 at right
     show player 1 at left
     with dissolve
-    eri "Эй, {b}[firstname]{/b}."
+    eri "Привет, {b}[firstname]{/b}."
     show erik 27
     show player 14
-    player_name "Эй, {b}Эрик{/b}."
+    player_name "Привет, {b}Эрик{/b}."
     player_name "Почему ты одет в..."
     show erik 28
     show player 11
@@ -125,10 +125,10 @@ label school_mia_glasses_favor:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Эй, {b}[firstname]{/b}."
+    mia "Привет, {b}[firstname]{/b}."
     show mia 7
     show player 14
-    player_name "Эй, {b}Мия{/b}."
+    player_name "Привет, {b}Мия{/b}."
     show player 12
     player_name "Как дела у твоего отца?"
     show player 5
