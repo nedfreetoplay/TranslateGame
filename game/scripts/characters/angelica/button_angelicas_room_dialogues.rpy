@@ -183,7 +183,7 @@ label angelicas_room_dialogue_helen_route_spread_helen:
     show ang 9
     ang "Киска?"
     ang "Полагаю, я смогу это сделать."
-    ang "Сначала ты должен раздеться.."
+    ang "Сначала ты должен раздеться."
     ang "Я хочу посмотреть, как киска {b}Хелен{/b} возбуждает тебя."
     show ang 10
     pause
@@ -304,7 +304,7 @@ label angelicas_room_dialogue_mia_route:
 label angelicas_room_dialogue_mia_harolds_thoughts:
     scene church_nun_night_c
     show player 12 with dissolve
-    player_name "( Мне нужно поговорить с {b}Гарольдом{/b} прежде чем я вижу {b}Сестру Анжелику{/b}. )"
+    player_name "( Мне нужно поговорить с {b}Гарольдом{/b} прежде чем я увижу {b}Сестру Анжелику{/b}. )"
     hide player with dissolve
     return
 
@@ -366,7 +366,7 @@ label helen_sacrement_training_part2_pre:
     ang "Вы принесли то, что мне нужно?"
     show ang 5f
     show player 12f
-    player_name "Да, кажется, я что-то нашел.."
+    player_name "Да, кажется, я что-то нашел."
     show player 239_240f with dissolve
     pause
     show player 455f
@@ -389,15 +389,15 @@ label helen_sacrement_training_part2_pre:
     show helen 33
     show ang 17f
     show player 10f
-    player_name "Ну, мне лучше вернуться домой.. Уже поздно."
+    player_name "Ну, мне лучше вернуться домой. Уже поздно."
     show player 11f
     show ang 18f
     ang "Проводить. Я хочу, чтобы ты остался для следующего шага в очищении {b}Хелен{/b}.."
-    ang "{b}Хелен{/b} сказала мне, что видел, как она оскверняла свое тело на днях."
+    ang "{b}Хелен{/b} сказала мне, что ты видел, как она оскверняла свое тело на днях."
     ang "Похоже, она втягивает тебя в свои грешные грехи."
     show ang 17f
     show helen 32
-    helen "Прости, {b}[firstname]{/b} Я-"
+    helen "Прости, {b}[firstname]{/b}. Я-"
     show helen 33
     show ang 18f
     ang "Тише!"
@@ -406,7 +406,7 @@ label helen_sacrement_training_part2_pre:
     show ang 18f
     ang "Как видишь: {b}Хелен{/b} все еще сомневается в моих методах."
     ang "Я хочу, чтобы ты стал свидетелем ее наказания..."
-    ang "...И посмотри, как я предпочитаю  удалять все ее мерзкие грехи из ее тела."
+    ang "...И посмотри, как я предпочитаю удалять все ее мерзкие грехи из ее тела."
     show ang 17f
     show helen 30
     helen "!!!"
@@ -417,8 +417,8 @@ label helen_sacrement_training_part2_pre:
     show ang 18f
     ang "{b}Хелен{/b}, радуйся! Сегодня начинается 2-й ритуал таинства очищения!"
     ang "Это будет больно, но боль является произведением греха."
-    ang "Как только вы сможете терпеть боль, вы будете ближе к святому искуплению."
-    ang "Теперь. Я хочу, чтобы ты избавилась от всей своей одежды.."
+    ang "Как только ты сможешь терпеть боль, ты будешь ближе к святому искуплению."
+    ang "Теперь. Я хочу, чтобы ты избавилась от всей своей одежды."
     show ang 17f
     show helen 33
     helen "..."
@@ -470,7 +470,7 @@ label helen_sacrement_training_part2_pre:
     helen "Ауввв!"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Кайся {b}Хелен{/b}!"
+    ang "Кайся, {b}Хелен{/b}!"
     ang "Почувствуйте гнев {b}Бога{/b}, что лижет твой зад!"
     hide helen
     show ang 19
@@ -576,7 +576,7 @@ label helen_sacrement_training_part2_pre:
     pause
     show ang 20 with dissolve
     "{b}*УДАР!*{/b}" with hpunch
-    helen "Больше {b}Сестра{/b}... Я хочу... большего..."
+    helen "Больше, {b}Сестра{/b}... Я хочу... больше..."
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
@@ -590,7 +590,7 @@ label helen_sacrement_training_part2_pre:
     show ang 17 at Position (xoffset=312) with dissolve
     helen "Охххх..."
     show ang 18 at Position (xoffset=312)
-    ang "Ты такая жадный извращенный грешник..."
+    ang "Ты такая жадная извращенная грешница..."
     ang "Я собираюсь насладиться нашими будущими ритуалами...."
     show ang 17 at Position (xoffset=312)
     pause
@@ -615,13 +615,13 @@ label helen_sacrement_training_part2_pre:
     show ang 18f
     ang "Вы можете оставить нас сейчас, {b}[firstname]{/b}."
     ang "{b}Хелен{/b} потребуется дальнейшее обучение, но сначала мне нужно, чтобы она была более подчиненной и более терпимой к болям этого мира."
-    ang "Возможно, когда придет время, Я могу использовать тебя для чего-то более...полноценного, если вы хотите."
+    ang "Возможно, когда придет время, Я могу использовать тебя для чего-то более...полноценного, если захочешь."
     show ang 17f
     show player 10f
     player_name "Я не зн-"
     show player 11f
     show ang 18f
-    ang "Оставьте нас. Я достану тебя, когда ты мне понадобишься."
+    ang "Оставь нас. Я найду тебя, когда ты мне понадобишься."
     hide ang
     hide helen
     hide player
@@ -633,7 +633,7 @@ label helen_sacrement_training_part2_after:
     pause
     scene church_stairs_night with fade
     show player 12
-    player_name "Это безумие! Я должен сказать что-то кому-то, но сестра Анжелика, похоже, имеет такой контроль над {b}Хелен{/b}."
+    player_name "Это безумие! Я должен рассказать кому-то, но сестра Анжелика, похоже, имеет большой контроль над {b}Хелен{/b}."
     player_name "{b}Хелен{/b} наверное, скажет, что охотно участвует..."
     show player 25
     player_name "Я должен поговорить с ней и посмотреть, все ли с ней в порядке."
@@ -651,16 +651,16 @@ label angelicas_room_dialogue_mia_angelicas_whip:
     ang "Тогда почему ты здесь?"
     show ang 5f
     show player 12f
-    player_name "Где, вы сказали, я могу найти один?"
+    player_name "Где, вы сказали, я могу найти его?"
     show player 5f
     show ang 6f
-    ang "Я уверен, что кто-то из вашего возраста знает о грязных похотливых местах, которые продают такие вещи."
-    ang "Перестань испытывать мое терпение и принеси мне хлыст.."
+    ang "Я уверен, что кто-то вашего возраста знает о грязных похотливых местах, которые продают такие вещи."
+    ang "Перестань испытывать мое терпение и принеси мне хлыст."
     hide ang
     hide helen
     with dissolve
     show player 10f
-    player_name "( Может быть, {b}розовый магазин в торговом центре{/b} несет в себе что-то вроде этого. )"
+    player_name "( Может быть, в {b}розовом магазине в торговом центре{/b} есть что-то вроде этого. )"
     hide player with dissolve
     return
 
@@ -697,7 +697,7 @@ label angelicas_room_dialogue_mia_angelicas_final_request_strap_on:
     show ang 9 with dissolve
     ang "Да."
     ang "Я не делаю ошибок."
-    ang "А теперь поторопись и забери это.!"
+    ang "А теперь поторопись и забери это!"
     hide ang
     hide helen
     with dissolve
@@ -705,7 +705,7 @@ label angelicas_room_dialogue_mia_angelicas_final_request_strap_on:
     player_name "..."
     show player 10f
     player_name "( Я думаю, моя последняя задача - получить ее {b}страпон{/b}. )"
-    player_name "( Только одно место, где можно продать что-то подобное, это {b}розовый{/b}... )"
+    player_name "( Только одно место, где можно найти что-то подобное, это {b}розовый магазин{/b}... )"
     hide player with dissolve
     return
 
