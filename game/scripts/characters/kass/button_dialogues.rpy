@@ -5,7 +5,7 @@ label kassy_first_visit:
     Kass "Добро пожаловать в {b}Амур{/b}. Меня зовут {b}Касси{/b}, есть что не будь с чем я могу вам сегодня помочь?"
     show player 2f
     show kass 1
-    player_name "Нет спасибо, Я только остматриваюсь."
+    player_name "Нет, спасибо, Я только осматриваюсь."
     show player 1f
     show kass 2
     Kass "Хорошо. Что ж, дайте мне знать если вам понадобится помощь."
@@ -21,7 +21,7 @@ label kassy_repeat:
     show player 2f at right
     show kass 1 at left
     with dissolve
-    player_name "Привет {b}Касси{/b}!"
+    player_name "Привет, {b}Касси{/b}!"
     show player 1f
     show kass 2
     Kass "Здравствуйте, чем я могу вам помочь?"
