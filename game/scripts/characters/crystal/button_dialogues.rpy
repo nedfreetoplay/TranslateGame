@@ -279,7 +279,7 @@ label button_crystal_roxxys_mom:
             show player 12
             player_name "Я вижу сходство, но ты выглядишь слишком молодой, чтобы быть мамой {b}Рокси{/b}."
             show player 10
-            player_name "Вы уверены что вы не сестра?"
+            player_name "Вы уверены, что вы не сестра?"
             show player 5
             show crystal 2
             crys "Ну что ж, если у тебя нет 'серебряного языка'!"
