@@ -40,7 +40,7 @@ label helen_dialogue_helen_end_intro:
     show player 13 at left
     show helen 63 at right
     with dissolve
-    helen "Здравствуйте, {b}[firstname]{/b}."
+    helen "Привет, {b}[firstname]{/b}."
     show helen 62
     show player 14
     player_name "Привет, {b}Хелен{/b}."
