@@ -3,7 +3,7 @@ label button_clyde_roxxy_get_evidence_intro:
     show clyde 1 at left
     show player 12f at right
     with dissolve
-    player_name "Нам нужно поговорить об этой ситуации с {b}Кристи{/b}."
+    player_name "Нам нужно поговорить об этой ситуации с {b}Кристалл{/b}."
     show player 5f
     show clyde 22
     clyde "Я бы предпочел не..."
@@ -23,7 +23,7 @@ label button_clyde_roxxy_get_evidence_intro:
     clyde "Тогда мы оба и окажемся за решёткой!"
     show clyde 21
     show player 10f
-    player_name "Нет, если ты скажешь им, что {b}Кристи{/b} понятия не имела, что ты спрятал там наркотики.."
+    player_name "Нет, если ты скажешь им, что {b}Кристалл{/b} понятия не имела, что ты спрятал там наркотики."
     show player 5f
     clyde "..."
     show clyde 2
@@ -45,7 +45,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 1 at left
     clyde "..."
     show player 10f
-    player_name "Смотри чувак. Она взяла вину на себя потому что она твоя семья."
+    player_name "Смотри чувак. Она взяла вину на себя, потому что она твоя семья."
     player_name "... Но это было гораздо хуже чем она думала!"
     player_name "Она может изчезнуть на долгое время и {b}Рокси{/b} потеряет свою {b}Маму{/b} и свой дом."
     show player 12f
@@ -56,7 +56,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 22
     clyde "... Ох, дерьмо! Ты прав."
     clyde "{b}Роксанна{/b} не должна страдать по моей вине..."
-    clyde "... Но Я не вернусь обратно в тюрьму! ... Нет сэр!"
+    clyde "... Но Я не вернусь обратно в тюрьму! ... Нет, сэр!"
     show clyde 21
     player_name "..."
     show player 14f
@@ -68,7 +68,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 22
     clyde "Наверное, я мог бы вернуться в долину..."
     clyde "Они никогда не смогут найти меня там."
-    clyde "... Я уверен что точно буду скучать по {b}Тете Кристи{/b} все-таки..."
+    clyde "... Я уверен что точно буду скучать по {b}Тете Кристалл{/b} все-таки..."
     show clyde 21
     show player 10f
     player_name "Ты спасешь её из тюрьмы, мужик."
@@ -103,7 +103,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     clyde "Этого будет достаточно что бы получить $100,000 с хорошего покупателя, Я думаю."
     show clyde 3
     show player 10f
-    player_name "Это безумие"
+    player_name "Это безумие."
     player_name "Ты реально можешь продать его?"
     show player 5f
     show clyde 4
@@ -142,7 +142,7 @@ label button_clyde_roxxy_get_evidence_about_roxxy_fail:
     show clyde 26
     clyde "[chr_warn]Эй, тебе не надо называть меня {b}меня{/b} трусом!"
     clyde "[chr_warn]Ты не предстовляешь себе какого это быть в тюрьме для кого то вроде меня!"
-    clyde "[chr_warn]Я когда-то был там однажды и будь я проклят если бы я не вернулся назад"
+    clyde "[chr_warn]Я когда-то был там однажды и будь я проклят если бы я не вернулся назад."
     show clyde 25
     show player 15f
     player_name "[chr_warn]Неважно... {b}ТРУС{/b}!"
@@ -161,7 +161,7 @@ label button_clyde_roxxy_get_evidence_nevermind:
     show player 90f
     show clyde 22
     clyde "Да, это именно то, что я планирую сделать!"
-    clyde "Я считаю, что это целый беспорядок, забывающий внизу этих пивных банок!"
+    clyde "Я так кумекаю, шо энто пивко к концу банки и так всю память начисто отшибет!"
     hide clyde
     hide player
     with dissolve
@@ -172,7 +172,7 @@ label button_clyde_roxxy_selling_meth_ask_roxxy:
     show clyde 1 at left
     show player 10f at right
     with dissolve
-    player_name "Когда ты сможешь продать этот Мет"
+    player_name "Когда ты сможешь продать этот Мет?"
     show player 5f
     show clyde 2
     clyde "Притормози конец, парень!"
@@ -214,7 +214,7 @@ label button_clyde_roxxy_selling_meth:
     show clyde 1
     clyde "..."
     show clyde 22
-    clyde "Ну, я видел как {b}Тетей Кристи{/b} делала это много раз!"
+    clyde "Ну, я видел как {b}Тетя Кристалл{/b} делала это много раз!"
     show clyde 1
     show player 37f with dissolve
     player_name "..."
@@ -226,7 +226,7 @@ label button_clyde_roxxy_selling_meth:
     show clyde 1
     show player 12f
     player_name "Ни черта не смыслю в этом."
-    player_name "... Но Я точно знаю, что ты определенно недостаточно компетенты, чтобы сделать это в одиночку."
+    player_name "... Но Я точно знаю, что ты определенно недостаточно компетентен, чтобы сделать это в одиночку."
     show player 90f
     show clyde 22
     clyde "Ну, это не... Подожди секунду, что ты имел в виду?!"
@@ -238,7 +238,7 @@ label button_clyde_roxxy_selling_meth:
     clyde "Ччч, Неважно, парень."
     clyde "Пойдешь или не пойдешь. Это не важно для меня!"
     show clyde 26
-    clyde "... Но если ты пойдешь то лучше бы тебе {b}встретиться со мной в трейлире вечером {/b}."
+    clyde "... Но если ты пойдешь то лучше бы тебе {b}встретиться со мной в трейлире вечером{/b}."
     clyde "Ты понял?"
     show clyde 1
     show player 12f
@@ -404,7 +404,7 @@ label button_clyde_cletus_introduce:
     show clyde 11
     clyde "Я, {b}Клетус{/b}... Я телепат."
     show clyde 4 with dissolve
-    clyde "... И я могу прочесть твои мысли силой вволи!"
+    clyde "... И я могу прочесть твои мысли силой вввволи!"
     show clyde 3
     show player 10f
     player_name "Мои мысли?"
@@ -412,7 +412,7 @@ label button_clyde_cletus_introduce:
     show clyde 9 with dissolve
     clyde "Да точно, парень!"
     show clyde 4 with dissolve
-    clyde "Так что не говори людям что я здесь"
+    clyde "Так что не говори людям, что я здесь."
     clyde "Потому что я знаю..."
     clyde "Особенно, если эти будет полиция."
     show clyde 3
@@ -434,7 +434,7 @@ label button_clyde_intro_0:
     show clyde 2 at left
     show player 5f at right
     with dissolve
-    clyde "Я могу тебе помочь с чем-то?"
+    clyde "Я могу тебе помочь?"
     show clyde 1
     show player 10f
     player_name "Эммм, нет?"
@@ -558,7 +558,7 @@ label button_clyde_where_are_you_from:
     show player 5f
     show clyde 4
     clyde "Да, большая часть моей семьи все еще живет там."
-    clyde "Я думал, что перееду сюда с {b}Тетушкой Кристи{/b}, чтобы произнести заклинание."
+    clyde "Я думал, что перееду сюда с {b}Тетушкой Кристалл{/b}, чтобы произнести заклинание."
     clyde "Дайте городской жизни справедливую встряску."
     show clyde 3
     show player 10f
@@ -599,7 +599,7 @@ label button_clyde_see_ya:
     show player 5f with dissolve
     show clyde 4
     clyde "Ага, хорошо."
-    clyde "Продолжим в следующий раз, братиш!"
+    clyde "Продолжим в следующий раз, братишка!"
     clyde "Ууу!!"
     show clyde 3
     show player 30f
@@ -660,7 +660,7 @@ label button_clyde_nevermind:
     player_name "... Может быть в другой раз?"
     show player 5f
     show clyde 4
-    clyde "Пф, Черт возьма да, братиш!"
+    clyde "Пф, Черт возьми да, братишка!"
     clyde "Ты знаешь где меня найти."
     hide player
     hide clyde
