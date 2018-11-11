@@ -1,16 +1,16 @@
 label roz_triggers_init:
     python:
 
-        T_roz_favour = Trigger("favour", "Roz needs a favour in return for the obituary records")
-        T_roz_fuckery = Trigger("fuckery", "Quite literally some fuckery with Roz")
+        T_roz_favour = Trigger("favour", "Роз нуждается в одолжении в обмен на записи некролога")
+        T_roz_fuckery = Trigger("fuckery", "Буквально небольшой секс с Роз")
     return
 
 label roz_fsm_init:
     python:
 
         S_roz_start = State("start")
-        S_roz_sexy_time = State("sexy time", "Lets get funky with ol' Rozzy")
-        S_roz_end = State("end", "The end of the end but not for Roz")
+        S_roz_sexy_time = State("sexy time", "Позволяет получить веселье со старушкой Роз")
+        S_roz_end = State("end", "Конец конца, но не для Роз")
 
 
         S_roz_start.add(T_roz_favour, S_roz_sexy_time)
