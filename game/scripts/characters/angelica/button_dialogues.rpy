@@ -42,7 +42,7 @@ label angelica_dialogue_ross_get_linens:
     show ang 2
     show player 592
     with dissolve
-    ang "Скажи {b}Мие{/b}, что я ожидаю увидеть её пораньше для следующей службы! Она давно не исповедывалась."
+    ang "Скажи {b}Мие{/b}, что я хочу увидеть её пораньше для следующей службы! Она давно не исповедывалась."
     show player 593
     show ang 1
     player_name "Хорошо, я дам ей знать об этом."
@@ -82,7 +82,7 @@ label angelica_dialogue_change_talk:
     ang "Если хочешь поговорить, приходи ко мне ночью в мои покои..."
     show ang 1
     show player 25
-    player_name "Хорошо, тогда. Извините."
+    player_name "Хорошо. Извините."
     hide player
     hide ang
     with dissolve
