@@ -16,10 +16,10 @@ label latinas_dialogue_shower:
     lopez "Что?! Не может быть..."
     lopez "Ты хочешь сказать что у этого парня {b}Огромный член{/b}?"
     show latinas 3 at right
-    martinez "Хорошо парень! Покажи нам что там у тебя внизу, ты можешь его вытащить!"
+    martinez "Хорошо, парень! Покажи нам что там у тебя внизу, ты можешь его вытащить!"
     show latinas 1 at right
     show player 60 at left
-    player_name "Эммм... я думаю я откажусь. Я просто приму душ дома тогда-"
+    player_name "Эммм... я думаю что откажусь. Я просто приму душ дома тогда-"
     show latinas 4 at right
     window hide
     pause
@@ -29,9 +29,9 @@ label latinas_dialogue_shower:
     pause
     player_name "..."
     show player 62 at left
-    martinez "Вот видишь!"
+    martinez "Вот - видишь!"
     show latinas 6 at right
-    lopez "...Вот что ты называла {b}большим{/b}?"
+    lopez "...Вот это ты называла {b}большим{/b}?"
     show latinas 7 at right
     show player 63 at left
     martinez "Он вялый?!..."
@@ -47,12 +47,12 @@ label latinas_dialogue_shower:
     window hide
     pause
     show latinas 11 at right
-    lopez "О мой бог puta(шлюха)!"
+    lopez "О мой бог, puta(шлюха)!"
     martinez "Расслабься, все уже видели его в школе! Хаха!"
     show latinas 12 at right
     lopez "Йоу, такое вряд ли!"
     show latinas 13 at right
-    martinez "Возможно ему понравятся таои девченки?"
+    martinez "Возможно ему понравятся твои девченки?"
     show latinas 14 at right
     lopez "Здесь я знаю что сработает!"
     show latinas 15 at right
