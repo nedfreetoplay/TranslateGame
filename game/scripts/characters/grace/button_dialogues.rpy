@@ -5,7 +5,7 @@ label button_grace_mia_get_tattoo:
     show grace 2 at right
     show tattoo_desk at right
     with dissolve
-    grace "Эй там!"
+    grace "Эй, там!"
     grace "У вас здесь встреча?"
     return
 
@@ -14,7 +14,7 @@ label button_grace_generic:
     show grace 2 at right
     show tattoo_desk at right
     with dissolve
-    grace "Эй там!"
+    grace "Эй, там!"
     grace "У вас здесь встреча?"
     return
 
@@ -60,7 +60,7 @@ label button_grace_tattoo:
     player_name "Тебе не хватает?"
     show player 5
     show mia 12 with dissolve
-    mia "Нет,это все что мне удалось накопить."
+    mia "Нет, это все что мне удалось накопить."
     mia "Как думаешь что мне делать?"
     show mia 8
     return
@@ -131,7 +131,7 @@ label button_grace_tattoo_help:
     show mia 7 right
     with dissolve
     show player 14
-    player_name "Какого это?"
+    player_name "Ну как?"
     show player 13
     show mia 12
     mia "Татуировка?"
@@ -140,7 +140,7 @@ label button_grace_tattoo_help:
     player_name "Да."
     show player 13
     show mia 12
-    mia "Все прекрасно... просто имеет маленькие покалывания."
+    mia "Все прекрасно... просто немножко покалывает."
     show mia 10
     mia "И я рада что это сделала... Я наконец могу сказать что я сделать то чего я хотела."
     show mia 7
@@ -337,7 +337,7 @@ label button_grace_paint:
     grace "Тебе нужно сказать этим маленьким сучкам, Я надеру их чертовы задницы если это повторится снова!"
     show grace 9
     show player 10
-    player_name "Черт я не знал твоя {b}Сестра{/b} была такой большой задницей!"
+    player_name "Черт я не знал, что твоя {b}Сестра{/b} была такой большой задницей!"
     show eve 6f
     show player 11
     eve "Хех, ты не предстовляешь."
@@ -355,13 +355,13 @@ label button_grace_paint:
     show grace 3
     grace "Хммм, Я думаю что это не плохая идея."
     show grace 4
-    grace "...Особенно если ты заткнешся о своей вагине! Агх!"
+    grace "...Особенно если ты заткнешься о своей вагине! Агх!"
     show grace 1
     show eve 6bf
     eve "... Сука."
     show eve 5f
     show grace 4
-    grace "Хахаха, не притворяйся будто не любишь насилие."
+    grace "Хахаха, не притворяйся будьто не любишь насилие."
     show grace 1
     show eve 6bf
     eve "Да, да..."
@@ -378,7 +378,7 @@ label button_grace_paint:
     hide eve
     with dissolve
     show grace 2
-    grace "{b}Коробки прямо перед стойкой{/b}.Только {b}перемести их{/b} за мою спину и краска твоя."
+    grace "{b}Коробки прямо перед стойкой{/b}. Только {b}перемести их{/b} за мою спину и краска твоя."
     show grace 1
     show player 2
     player_name "Звучит Отлично!"
