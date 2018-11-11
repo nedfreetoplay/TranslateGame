@@ -17,7 +17,7 @@ label sis_button_dialogue:
             else:
 
                 menu:
-                    "У меня недостаточно.":
+                    "У меня недостаточно средств.":
                         call expression game.dialog_select("jenny_dialogue_panties_trade_cant_buy")
             jump expression game.dialog_select("hallway_dialogue")
         else:
@@ -42,11 +42,11 @@ label sis_button_dialogue:
                 "{b}Рокси{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
                     call expression game.dialog_select("jenny_dialogue_roxxy_pre")
                     menu:
-                        "Платить" if player.has_money(500):
+                        "Платить." if player.has_money(500):
                             $ player.spend_money(500)
                             call expression game.dialog_select("jenny_dialogue_roxxy_pay")
                             $ M_bissette.trigger(T_bissette_jenny_paid)
-                        "Не платить":
+                        "Не платить.":
 
                             call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
 
