@@ -5,7 +5,7 @@ label sploosh_button_dialogue:
     player_name "Здравствуйте?"
     Sploosh "ХХХХррррррр..."
     show player 4
-    player_name "(Хммм... Он,должно быть, спит)"
+    player_name "(Хммм... Он, должно быть, спит.)"
     menu:
         "Просыпайтесь Адмирал Сплуш":
             show player 10
