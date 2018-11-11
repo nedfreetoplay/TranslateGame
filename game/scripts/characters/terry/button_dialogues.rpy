@@ -88,14 +88,14 @@ label terry_dialogue_terry_start:
     player_name "..."
     show player 2
     show terry 1
-    player_name "Итак где здесь лучшее место для ловли рыбы {b}Капитан Терри{/b}?"
+    player_name "Итак, где здесь лучшее место для ловли рыбы {b}Капитан Терри{/b}?"
     show player 1
     show terry 2
     Terry "Ну, прямо с причала, конечно!"
-    Terry "Просто бросьте веревку вон с того {b}стула{/b} и рыба не заставит себя долго ждать.."
+    Terry "Просто бросьте веревку вон с того {b}стула{/b} и рыба не заставит себя долго ждать."
     show player 2
     show terry 1
-    player_name "Ладно! есть ещё советы?"
+    player_name "Ладно! Есть ещё советы?"
     show player 1
     show terry 4 at Position(xpos=0.71,ypos=0.7047)
     Terry "Хмм..."
@@ -125,7 +125,7 @@ label terry_dialogue_terry_start:
     player_name "Реально?"
     show player 11
     show terry 2
-    Terry "И не сомневайся. Рыбачить здорово, но врядли ты захочешь здесь поплавать!"
+    Terry "И не сомневайся. Рыбачить здорово, но вряд ли ты захочешь здесь поплавать!"
     show player 10
     show terry 1
     player_name "О... Хорошо Капитан. Спасибо за все советы."
@@ -210,7 +210,7 @@ label terry_dialogue_terry_nemesis:
     player_name "Это странное название для рыбы."
     show player 11
     show tstand 15
-    Terry "Он не рыба! Он дьявол который насрал в океане, чтобы замучить меня, я говорю тебе"
+    Terry "Он не рыба! Он дьявол который насрал в океане, чтобы замучить меня, я говорю тебе."
     show tstand 5
     player_name "..."
     show player 10
@@ -395,11 +395,11 @@ label terry_dialogue_terry_retire:
     with fade
     show text "{b}Капитан Терри{/b} многие годы избегал этой воды..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Но Тигруля, наконец, исчезла, похоже он не мог дождаться чтобы окунуться." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Но Тигруля, наконец, исчез, похоже он не мог дождаться чтобы окунуться." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Я не мог сдержать улыбку, смотря, как он радостно прыгает в воду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Гордость которую я почувстовал, когда вернул ему в этот момент..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Гордость которую я почувстовал, когда вернул ему этот момент..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Это то что я никогда не забуду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
@@ -461,7 +461,7 @@ label terry_dialogue_terry_tigger_sign:
     player_name "Куда вы едите?"
     show tstand 2
     show player 11
-    Terry "Куда угодно куда леди скажет... Хах!"
+    Terry "Куда угодно, куда леди скажет... Хах!"
     show tstand 1
     show player 14
     player_name "Хаха! Ну, я счастлив за вас, ребята."
@@ -477,7 +477,7 @@ label terry_dialogue_terry_tigger_sign:
     show tstand 2
     show player 13
     Terry "Кстати говоря о моем выходе на пенсию; я хочу чтобы ты знал..."
-    Terry "Я все равно куплю любую рыбу, которую ты поймаешь у моего причала, Шкипер.."
+    Terry "Я все равно куплю любую рыбу, которую ты поймаешь у моего причала, Шкипер."
     show tstand 1
     show player 10
     player_name "... Но я думал, что ты больше не будешь их продавать?"
@@ -489,12 +489,12 @@ label terry_dialogue_terry_tigger_sign:
     player_name "О, д-да! Конечно!"
     show tstand 2
     show player 11
-    Terry "О-хо... Ты же знаешь что я не могу без моей рыбы и текилы"
+    Terry "О-хо... Ты же знаешь что я не могу без моей рыбы и текилы."
     show player 13
     Terry "... И чем свежее рыба, тем лучше!"
     show tstand 1
     show player 14
-    player_name "Ладно, Я буду иметь это в виду Капитан ."
+    player_name "Ладно, Я буду иметь это в виду Капитан."
     show tstand 2
     show player 13
     Terry "Хорошо парень!"
@@ -532,7 +532,7 @@ label terry_dialogue_buy_fish:
     show player 203
     show terry 2
     Terry "Конечно! Ты пришел в нужное место."
-    Terry "У меня есть {b}Морская форель{/b}, {b}Люциан{/b} и {b}Скумбрия{/b}."
+    Terry "У меня есть {b}Морская форель{/b}, {b}Морской окунь{/b} и {b}Скумбрия{/b}."
     Terry "Что выберешь?"
     return
 
@@ -725,7 +725,7 @@ label terry_dialogue_fishing_bait:
     Terry "Понятно дела, помощник!"
     Terry "Первое, тебе нужно знать, какую рыбу ты пытаешся поймать."
     Terry "Каждый {b}вид{/b} рыбы любит определенный тип {b}приманки{/b}!"
-    Terry "{b}Морская форель{/b} нравятся черви, {b}Люциан{/b} нравятся голубые приманки, и {b}Скумбрие{/b} нравятся зеленые приманки!"
+    Terry "{b}Морской форели{/b} нравятся черви, {b}морскому окуню{/b} нравятся голубые приманки, и {b}Скумбрии{/b} нравятся зеленые приманки!"
     show player 2
     show terry 1
     player_name "Потрясающе! Спасибо за совет!"
@@ -1595,7 +1595,7 @@ label terry_dialogue_goldschwagger:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 10 at left
     with dissolve
-    player_name "Ты когда нибудь слышал о {b}GoldSchwagger Водку{/b}?"
+    player_name "Ты когда нибудь слышал о {b}GoldSchwagger Водке{/b}?"
     show player 5
     show terry 2
     Terry "О, конечно!"
