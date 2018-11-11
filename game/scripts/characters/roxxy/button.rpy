@@ -117,7 +117,7 @@ label roxxy_classroom_dialogue:
                 call expression game.dialog_select("button_roxxy_meet_me_at_my_locker")
                 $ M_roxxy.set("meet for locker sex", True)
 
-            "Увидимся сегодня ночью" if M_roxxy.get("roxxy relationship") == 4:
+            "Увидимся сегодня ночью." if M_roxxy.get("roxxy relationship") == 4:
                 call expression game.dialog_select("button_roxxy_ill_see_you_tonight")
 
             "Ничего." if M_roxxy.get("roxxy relationship")<=2:
@@ -186,7 +186,7 @@ label roxxy_beach_button_dialogue:
     else:
         call expression game.dialog_select("beach_roxxy_dialogue_relationship_{}".format(M_roxxy.get("roxxy relationship")))
     menu:
-        "Я поиграю" if M_roxxy.finished_state(S_roxxy_spin_bottle):
+        "Я поиграю." if M_roxxy.finished_state(S_roxxy_spin_bottle):
             call expression game.dialog_select("button_roxxy_beach_spin_bottle")
             if M_roxxy.get("roxxy beach sex") or M_becca.get("becca beach sex") or M_missy.get("missy beach sex") or M_player.get("mc beach sex"):
                 call expression game.dialog_select("button_roxxy_beach_spin_bottle_sex_repeat")
