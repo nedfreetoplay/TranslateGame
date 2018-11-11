@@ -3,7 +3,7 @@ label erik_dialogue:
     menu:
         "Линзы." if M_okita.is_state(S_okita_get_bifocal_lenses):
             call expression game.dialog_select("erik_dialogue_okita_get_bifocal_lenses")
-        "Ничего":
+        "Ничего.":
 
             call expression game.dialog_select("erik_dialogue_leave")
     $ game.main()
