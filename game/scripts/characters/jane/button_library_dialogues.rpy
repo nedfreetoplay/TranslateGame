@@ -80,7 +80,7 @@ label jane_library_dialogue_bissette_return_overdue_books:
     show jane 1f
     with dissolve
     player_name "Спасибо!"
-    player_name "{b}101 тип сыра{/b}..."
+    player_name "{b}101 вид сыра{/b}..."
     show player 5f with dissolve
     show jane 2f
     jan "Это оно?"
