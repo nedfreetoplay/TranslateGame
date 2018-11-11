@@ -26,7 +26,7 @@ label erik_dialogue_okita_get_bifocal_lenses:
     player_name "У тебя случайно нет запасного комплекта очков, не так ли?"
     show player 1
     show erik 4
-    eri "ты шутишь?"
+    eri "Ты шутишь?"
     eri "Ты знаешь, сколько раз {b}Декстер{/b} разбивал эту пару?"
     eri "Я всегда держу запасной комплект рядом."
     show player 2
@@ -84,7 +84,7 @@ label erik_dialogue_leave:
     player_name "Просто сказать привет."
     show player 1
     show erik 4
-    june "Ах,хорошо тогда..."
+    june "Ах, хорошо тогда..."
     show erik 1
     show player 29 at Position(xoffset=8)
     player_name "Эээ... Увидимся позже!"
