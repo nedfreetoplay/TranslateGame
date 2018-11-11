@@ -83,7 +83,7 @@ label button_erik_talent_show:
     eri "Нет. Что натолкнуло тебя на эту мысль?"
     show erik 51
     show player 10
-    player_name "Разве это не твои гитары висят в подвале?.."
+    player_name "Разве это не твои гитары висят в подвале?"
     player_name "Я просто предположил-"
     show player 5
     show erik 4
@@ -752,14 +752,14 @@ label button_erik_ask_favor:
     eri "Немного..."
     show erik 1 at right
     show player 17 at left
-    player_name "Хорошо,ладно. Он дежурит в кафетерии еще два месяца...."
+    player_name "Хорошо, ладно. Он дежурит в кафетерии еще два месяца...."
     player_name "...И ему действительно нужна замена."
     show erik 2 at right
     show player 11 at left
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
-    eri "Агх. Я{b}НЕНАВИЖУ{/b} дежурство в кафетерии..."
+    eri "Агх. Я {b}НЕНАВИЖУ{/b} дежурство в кафетерии..."
     show erik 3 at right
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
@@ -893,7 +893,7 @@ label button_erik_webcam_help:
 label button_erik_ask_model:
     show player 10 at left
     show erik 1 at right
-    player_name "Я работаю над проектом для {b}Мисс Росс{/b}и для этого требуется живая модель."
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
     player_name "Ты был бы заинтересован?"
     show player 11
     show erik 5
@@ -954,7 +954,7 @@ label button_erik_talked_to_roxxy_booze:
     player_name "Подумай об этом как о шансе показать себя с хорошей стороны!"
     show player 13
     show erik 5
-    eri "Хмм, нет спасибо!"
+    eri "Хмм, нет, спасибо!"
     show player 5
     eri "Я уверен, что все стороны одинаково плохи."
     show erik 52
