@@ -32,17 +32,17 @@ label clyde_button_dialogue:
                     "Неважно.":
                         call expression game.dialog_select("button_clyde_roxxy_get_evidence_nevermind")
 
-            "Продажа мета" if M_roxxy.is_state(S_roxxy_selling_meth_ask_roxxy):
+            "Продажа мета." if M_roxxy.is_state(S_roxxy_selling_meth_ask_roxxy):
                 call expression game.dialog_select("button_clyde_roxxy_selling_meth_ask_roxxy")
 
-            "Продажа мета" if M_roxxy.is_state(S_roxxy_selling_meth):
+            "Продажа мета." if M_roxxy.is_state(S_roxxy_selling_meth):
                 call expression game.dialog_select("button_clyde_roxxy_selling_meth")
                 $ M_roxxy.trigger(T_roxxy_meet_clyde)
 
-            "Продажа мета" if M_roxxy.is_state(S_roxxy_meeting_clyde):
+            "Продажа мета." if M_roxxy.is_state(S_roxxy_meeting_clyde):
                 call expression game.dialog_select("button_clyde_roxxy_meeting_buyer")
 
-            "Хочешь попасть в диапазон?" if M_roxxy.finished_state(S_roxxy_beat_clyde) and L_trailer_tractor.is_here(M_clyde):
+            "Хочешь пострелять?" if M_roxxy.finished_state(S_roxxy_beat_clyde) and L_trailer_tractor.is_here(M_clyde):
                 jump shooting_range_dialogue
 
             "Хорошо, как ты?" if not M_clyde.get("cletus"):
@@ -57,10 +57,10 @@ label clyde_button_dialogue:
             "Что здесь происходит?" if L_trailer_shack.is_here(M_clyde) and not L_trailer_shack_interior.locked:
                 call expression game.dialog_select("button_clyde_whats_going_on")
 
-            "Хороший трактор" if L_trailer_tractor.is_here(M_clyde):
+            "Хороший трактор." if L_trailer_tractor.is_here(M_clyde):
                 call expression game.dialog_select("button_clyde_nice_tractor")
 
-            "Увидимся, {b}Клайд{/b}" if not M_clyde.get("cletus"):
+            "Увидимся, {b}Клайд{/b}." if not M_clyde.get("cletus"):
                 call expression game.dialog_select("button_clyde_see_ya")
                 $ game.main()
 
