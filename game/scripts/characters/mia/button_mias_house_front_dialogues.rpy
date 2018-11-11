@@ -3,10 +3,10 @@ label mia_dialogue_mias_house_front_intro:
     show player 14 at left
     show mia 1 at right
     with dissolve
-    player_name "Эй {b}Мия{/b}!"
+    player_name "Привет, {b}Мия{/b}!"
     show mia 4
     show player 1
-    mia "Привет {b}[firstname]{/b}!"
+    mia "Привет, {b}[firstname]{/b}!"
     mia "Что ты здесь делаешь?"
     show mia 1
     show player 29
@@ -44,11 +44,11 @@ label mia_dialogue_mias_house_front_homework:
     mia "Скоро увидимся!"
     hide mia with dissolve
     show player 5 with dissolve
-    player_name "( Я должен попытаться закончить домашнюю домашнюю работу {b}французскому{/b}, с этим я смогу учиться с {b}Мией{/b}. )"
+    player_name "( Я должен попытаться закончить домашнюю работу по {b}французскому{/b}, тогда я смогу учиться с {b}Мией{/b}. )"
     show player 4
     pause
     player_name "( Интересно, почему она выбрала меня, чтобы помочь ей учиться. )"
-    player_name "( Обычно она учится с {b}Джуди{/b}, и она очень хорошо говорит по-французски... )"
+    player_name "( Обычно она учится с {b}Джудит{/b}, и она очень хорошо говорит по-французски... )"
     player_name "( ...Я не знаю, как я могу ей помочь. )"
     show player 13
     player_name "( По крайней мере, мы потусуемся, и она очень милая... )"
