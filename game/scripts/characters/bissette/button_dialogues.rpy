@@ -2,10 +2,10 @@ label bissette_dialogue_meet_in_office:
     show player 10 at left
     show teacher 1 at right
     with dissolve
-    player_name "{b}Мисс биссетта{/b}, что мне нужно сделать?"
+    player_name "{b}Мисс Биссетт{/b}, что мне нужно сделать?"
     show player 5
     show teacher 12
-    bis "Ох, {b}[firstname]{/b}. Не здесь. {b}Приходите ко мне в моем кабинете после школы{/b}, хорошо?"
+    bis "Ох, {b}[firstname]{/b}. Не здесь. {b}Приходи ко мне в мой кабинет после школы{/b}, хорошо?"
     show teacher 13
     show player 14
     player_name "Хорошо, Я встречу вас там."
@@ -15,7 +15,7 @@ label bissette_dialogue_check_dictionary:
     show teacher 1 at right
     show player 10 at left
     with dissolve
-    player_name "Хэй, {b}Мисс биссетта{/b}. Я нашел словарь в библиотеке, но в нем отсутствует несколько страниц."
+    player_name "Привет, {b}Мисс Биссетт{/b}. Я нашел словарь в библиотеке, но в нем отсутствует несколько страниц."
     show player 239_240 with dissolve
     pause
     show player 503 with dissolve
@@ -25,15 +25,15 @@ label bissette_dialogue_check_dictionary:
     with dissolve
     bis "Вот это да!"
     bis "Я думаю, это усложнит задачу."
-    bis "Французский английский раздел не поврежден, но вы пропустете много слов..."
-    bis "Я боюсь, что некоторые из них могут иметь решающее значение для субъектов, которые мы должны изучать."
+    bis "Французско-английский раздел не поврежден, но вы пропустете много слов..."
+    bis "Я боюсь, что некоторые из них могут иметь решающее значение для субъектов, которые мы должны изучить."
     show teacher 21b
     show player 10
     player_name "Фу, я боялся, что.."
     show player 5
     show teacher 21
     bis "Хм, возможно, не всё потеряно. Я уверена, что {b}ваши одноклассники{/b} будет готовы позволить вам копировать недостающие страницы из их словаря."
-    bis "Можно использовать {b}ксерокс в компьютерной лаборатории{/b}."
+    bis "Можно использовать {b}ксерокс в компьютерном классе{/b}."
     show teacher 22
     show player 14
     player_name "Хорошая идея!"
@@ -54,11 +54,11 @@ label bissette_dialogue_check_dictionary:
     show teacher 11
     bis "хмм..."
     show teacher 2
-    bis "Возможно {b}Джуди{/b}?"
+    bis "Возможно {b}Джудит{/b}?"
     bis "Она имеет большой талант во французском языке..."
     show teacher 1
     show player 14
-    player_name "Хорошо, Я начну с {b}Джуди{/b}."
+    player_name "Хорошо, Я начну с {b}Джудит{/b}."
     return
 
 label bissette_dialogue_intro:
@@ -68,7 +68,7 @@ label bissette_dialogue_intro:
     bis "Привет, {b}[firstname]{/b}!"
     show player 17 at left
     show teacher 1 at right
-    player_name "Привет, {b}Мисс биссетт{/b}!"
+    player_name "Привет, {b}Мисс Биссетт{/b}!"
     show player 1 at left
     show teacher 2 at right
     bis "У вас удалось достичь учебную программу?"
@@ -92,17 +92,17 @@ label bissette_dialogue_food_assignment_intro:
 label bissette_dialogue_food_assignment_prepare_assignment:
     player_name "Я должен снова посетить этого библиотекаря. Может быть, она могла бы найти книгу о {b}французской кухни{/b} для меня."
     player_name "Тогда я могу ввести что-то на моем компьютере."
-    player_name "Спасибо, {b}Мисс биссетта{/b}!"
+    player_name "Спасибо, {b}Мисс Биссетт{/b}!"
     return
 
 label bissette_dialogue_food_assignment_do_assignment:
     player_name "Я должен набрать что-то на моем компьютере."
-    player_name "Спасибо, {b}Мисс биссетта{/b}!"
+    player_name "Спасибо, {b}Мисс Биссетт{/b}!"
     return
 
 label bissette_dialogue_poem_assignment_intro:
     show player 10
-    player_name "Напомниnt мне, что было задано?"
+    player_name "Напомните мне, что было задано?"
     show player 5
     show teacher 2
     bis "{i}Что? Вы уже забыли{/i}?"
@@ -110,7 +110,7 @@ label bissette_dialogue_poem_assignment_intro:
     show teacher 1
     show player 14
     player_name "Ох, конечно!"
-    player_name "Спасибо, {b}Мисс биссетта{/b}."
+    player_name "Спасибо, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 2
     bis "Вернитесь ко мне, как только это будет завершено."
@@ -124,7 +124,7 @@ label bissette_dialogue_poem_assignment_do_assignment:
 
 label bissette_dialogue_poem_assignment_print_assignment:
     show player 14
-    player_name "Я закончил стихотворение, {b}Мисс биссетта{/b}."
+    player_name "Я закончил стихотворение, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 2
     bis "Отлично, дай мне посмотреть!"
@@ -133,7 +133,7 @@ label bissette_dialogue_poem_assignment_print_assignment:
     player_name "Ох, во первых мне нужно распечатать..."
     show player 5
     show teacher 2
-    bis "Хорошо, принтер находится в {b}Компьютерной лаборатории{/b}, помнишь?"
+    bis "Хорошо, принтер находится в {b}Компьютерном классе{/b}, помнишь?"
     show teacher 1
     show player 14
     player_name "Ага, сейчас вернусь!"
@@ -182,7 +182,7 @@ label bissette_dialogue_tutoring:
     bis "{i}Какой{/i}!? Вы не желая вознаграждения?!"
     show teacher 4
     show player 29 with dissolve
-    player_name "Эмм... нет, Я имею в виду... Специальная награда звучит замечательно, {b}Мисс биссетта{/b}."
+    player_name "Эмм... нет, Я имею в виду... Специальная награда звучит замечательно, {b}Мисс Биссетт{/b}."
     show player 3
     show teacher 3
     bis "А великолепно!"
@@ -197,7 +197,7 @@ label bissette_dialogue_tutoring:
     bis "Просто не забудьте принести ваш {b}французский словарь {/b}."
     show teacher 1
     show player 24
-    player_name "А, чёрт. О том, что... {b}Мисс биссетта{/b}, Я не могу найти свой {b}Французский словарь{/b}."
+    player_name "А, чёрт. О том, что... {b}Мисс Биссетт{/b}, Я не могу найти свой {b}Французский словарь{/b}."
     show player 25
     player_name "Его нет в моем рюкзаке, моем доме, или в моем шкафчике..."
     show player 5
@@ -223,7 +223,7 @@ label bissette_dialogue_tutoring:
     bis "Ох, глупая я, мечты мои. Просто дайте мне знать, когда у вас будет словарь, Хорошо?"
     show teacher 1
     show player 14
-    player_name "Хорошо, {b}Мисс биссетта{/b}."
+    player_name "Хорошо, {b}Мисс Биссетт{/b}."
     return
 
 label bissette_dialogue_get_dictionary:
@@ -250,17 +250,17 @@ label bissette_dialogue_replace_missing_pages:
     player_name "Ох, конечно!"
     show player 13
     show teacher 2
-    bis "Проверить {b}Джуди{/b}. У неё очень хороший французский."
+    bis "Поговори с {b}Джудит{/b}. У неё очень хороший французский."
     show teacher 1
     show player 14
-    player_name "И потом {b}В Компьютерной Лаборатории имеется копировальный аппарат{/b}..."
+    player_name "И потом {b}В Компьютерном классе имеется копировальный аппарат{/b}..."
     player_name "Хорошо, еще раз спасибо!"
     return
 
 label bissette_dialogue_chat:
     show player 29 at left
     show teacher 1 at right
-    player_name "{b}Мисс биссетта{/b}, Я просто хотел сказать, что я действительно ценю вашу помощь с домашним заданием!"
+    player_name "{b}Мисс Биссетт{/b}, Я просто хотел сказать, что я действительно ценю вашу помощь с домашним заданием!"
     show player 13 at left
     show teacher 3 at right
     bis "С удовольствием! Все, что я хочу, это убедиться, что вы мотивированы выполнять..."
@@ -275,12 +275,12 @@ label bissette_dialogue_chat:
     bis "Я могу рассмотреть ваше {b}домашнее задание{/b} с вами, когда вы принесете его, если хотите!"
     show teacher 1 at right
     show player 17 at left
-    player_name "Звучит неплохо., {b}Мисс Биссетта{/b}! Спасибо вам!"
+    player_name "Звучит неплохо, {b}Мисс Биссетт{/b}! Спасибо вам!"
     return
 
 label bissette_dialogue_leave:
     show player 14
-    player_name "Нет. Я просто хотел поздороваться.."
+    player_name "Нет. Я просто хотел поздороваться."
     show teacher 2
     show player 13
     bis "Что ж, присаживайтесь. Занятие скоро начнется!"
@@ -288,6 +288,6 @@ label bissette_dialogue_leave:
     bis "На сегодня у меня запланирован увлекательный урок!"
     show teacher 1
     show player 2
-    player_name "Звучит отлично, {b}Мисс Биссетта{/b}."
+    player_name "Звучит отлично, {b}Мисс Биссетт{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
