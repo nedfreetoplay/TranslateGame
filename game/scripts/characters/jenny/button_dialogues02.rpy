@@ -368,7 +368,7 @@ label jenny_dialogue_make_deal:
                 "Остановится." if store._in_replay == None:
                     call expression game.dialog_select("jenny_dialogue_make_deal_stop")
 
-        "Пока нет" if player.has_money(500):
+        "Пока нет." if player.has_money(500):
             call expression game.dialog_select("jenny_dialogue_make_deal_not_yet")
 
         "Мне не хватает." if not player.has_money(500):
