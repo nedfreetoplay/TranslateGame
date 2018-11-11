@@ -14,11 +14,11 @@ label grace_dialogue:
                     $ player.spend_money(200)
                     $ game.timer.tick()
                     $ M_mia.trigger(T_mia_tattoo_done)
-                "Вернись позже.":
+                "Позже.":
 
                     call expression game.dialog_select("button_grace_tattoo_come_back")
 
-        "Краска" if M_ross.is_state(S_ross_get_paint_grace):
+        "Краска." if M_ross.is_state(S_ross_get_paint_grace):
             call expression game.dialog_select("button_grace_paint")
             $ M_ross.set("talked to grace", True)
 
