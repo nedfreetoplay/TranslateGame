@@ -40,7 +40,7 @@ label larry_police_cell_dialogue_erik_father_forgive_known:
     show player 11f
     show larry 15
     larry "Я спрятал полную сумку украденых вещей которых я взял."
-    larry "Я скажу тебе куда если ты просто скажешь{b}Тэмми{/b} что я извиняюсь."
+    larry "Я скажу тебе куда если ты просто скажешь {b}Тэмми{/b}, что я извиняюсь."
     larry "Я просто не хочу, чтобы она всегда меня ненавидела, ты знаешь?"
     larry "Я не должен был её оставлять..."
     show larry 14
@@ -50,7 +50,7 @@ label larry_police_cell_dialogue_erik_father_forgive_known:
     show player 5f
     larry "Ты можешь вернуть украденое в полицию, или оставить их себе! Мне все равно."
     larry "Только пожалуйста скажи ей как я сожелею..."
-    larry "Возможно,однажды она сможет найти силы в своем сердце что бы простить меня..."
+    larry "Возможно, однажды она сможет найти силы в своем сердце что бы простить меня..."
     show larry 14
     show player 35f
     player_name "Хмм..."
@@ -91,7 +91,7 @@ label larry_police_cell_dialogue_erik_father_treasure_not_known:
     larry "И что... что она сказала?!"
     show larry 14
     show player 12f
-    player_name "Она не! Слушай, Мужик... Она получила сообщение как ты и хотел."
+    player_name "Она не...! Слушай, Мужик... Она получила сообщение как ты и хотел."
     show player 10f
     player_name "Ты ничего не говорил об ответном сообщении!"
     show player 5f
