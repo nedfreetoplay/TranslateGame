@@ -98,7 +98,7 @@ label button_okita_intro:
     show okita 5
     okita "Она не хочет, чтобы я занималась своими домашними проектами во время школьного семестра."
     show okita 9
-    okita "... Сказала, что я должна оставаться на сто процентов сосредоточенным на учебном плане."
+    okita "... Сказала, что я должна оставаться на сто процентов сосредоточенной на учебном плане."
     show okita 11
     okita "Это полнейший абсурд!"
     show player 10
@@ -109,7 +109,7 @@ label button_okita_intro:
     okita "С {b}Кодом{/b} конечно. {b}Директриса Смит{/b} должна хронить его {b}спрятаным где-то в своем кабинете{/b}, Я уверена."
     show player 10
     show okita 4
-    player_name "Ты хочешь, чтобы я {b}ворвался в кабинет Директрисы и украл у неё{/b}?!"
+    player_name "Ты хочешь, чтобы я {b}ворвался в кабинет Директрисы и украл у неё код{/b}?!"
     show player 11
     show okita 5
     okita "Это ведь на самом деле не воровство... Мне просто нужно чтобы ты узнал код."
@@ -120,7 +120,7 @@ label button_okita_intro:
     player_name "Она может исключить меня!"
     show player 11
     show okita 5
-    okita "Это имеет значение? Ты останешься здесь ещё на год, даже если завалишь мой класс...."
+    okita "Это имеет значение? Ты останешься здесь ещё на год, если завалишь мой класс...."
     show player 10
     show okita 4
     player_name "Да, но..."
@@ -128,7 +128,7 @@ label button_okita_intro:
     show okita 3
     okita "Не будь глупцом. Это хорошая сделка! Если ты заберешь чертежи из моего офиса, поможешь мне создать что на них, и запустить несколько тестов, чтобы доказать, что они работают..."
     show okita 5
-    okita "... Я поставлю тебе 5+ в классе.."
+    okita "... Я поставлю тебе 5+."
     show player 14
     show okita 4
     player_name "5+!?"
@@ -138,7 +138,7 @@ label button_okita_intro:
     player_name "Значит, по сути, либо Я помогу тебе сделать это или я застрял с плохими оценками?"
     show player 11
     show okita 3
-    okita "Да, без моей помощи я посчитала что твои шансы на прохождение моего класса 3,720 к 1."
+    okita "Да, без моей помощи я посчитала что твои шансы на прохождение моего класса 3720 к 1."
     show player 12
     show okita 4
     player_name "Блин, Да уж, выбор у меня невелик."
@@ -147,7 +147,7 @@ label button_okita_intro:
     okita "Ты наконец-то начинаешь понимать ситуацию!"
     show player 12
     show okita 6
-    player_name "И как мне получить ключ от {b}кабинета Директрисы Смит{/b}?"
+    player_name "И как мне найти ключ в {b}кабинете Директрисы Смит{/b}?"
     show player 11
     show okita 5
     okita "Это твоя проблема."
@@ -160,7 +160,7 @@ label button_okita_intro:
     show okita 7
     okita "Всего наилучшего, {b}[firstname]{/b}!"
     show okita 5
-    okita "... Ох и пока ты в моём кабинете, почему бы тебе не взять {b}лабораторный халат{/b} и {b}пару защитных очков {/b}."
+    okita "... Ох и когда ты будешь в моём кабинете, почему бы тебе не взять {b}лабораторный халат{/b} и {b}пару защитных очков {/b}."
     okita "Они тебе понадобятся."
     hide okita
 
@@ -205,10 +205,10 @@ label button_okita_foam_misshap:
     show player 1 at left
     show okita 5 at right
     with dissolve
-    okita "Хорошо, ты тут. Мы можем начать."
+    okita "Хорошо, что ты тут. Мы можем начинать."
     show player 2
     show okita 4
-    player_name "Да, ладно."
+    player_name "Да, хорошо."
     player_name "Итак что мы будем создавать во-первых?"
     show okita 5
     okita "Я покажу тебе."
@@ -216,12 +216,12 @@ label button_okita_foam_misshap:
     show okita 12 zorder 1 at Position(xpos=0.85, ypos=1.0)
     with dissolve
 
-    okita "Я называю этих красавиц, Окитатронный глаз."
+    okita "Я называю этих красавиц, Окитатронные окуляры."
 
     show bp 1 zorder 2 at Position(xpos=0.5, ypos=0.95) with dissolve
     pause
     player_name "Очки?"
-    okita "Хах, не очки..."
+    okita "Хах, нет, не очки..."
 
     hide bp with dissolve
     show player 109f
@@ -272,7 +272,7 @@ label button_okita_foam_misshap:
     player_name "{b}Варифокальные{/b}?"
     show player 11
     show okita 3
-    okita "Да, это означает, что эти {b}линзы{/b} с двумя разными предписаниями; с наилучшими и наихудшими."
+    okita "Да, это означает, что эти {b}линзы{/b} с двумя разными искривлениями."
     show player 10
     show okita 4
     player_name "Как для тех кто одновременно близорукий и дальнозоркий?"
@@ -342,7 +342,7 @@ label button_okita_get_faptic_engine:
     show player 2 at left
     show okita 4 at right
     with dissolve
-    player_name "Хэй, {b}Мисс Окита{/b}. Вы решили проблему с очками?"
+    player_name "Привет, {b}Мисс Окита{/b}. Вы решили проблему с очками?"
     show player 1
     show okita 3
     okita "Ты имеешь в виду с {b}Окитатронными окулярами{/b}?"
@@ -557,7 +557,7 @@ label button_okita_tired_from_belt:
     player_name "Психотропную что?"
     show player 11
     show okita 2
-    okita "Это светящийся цветок... Ты можешь згать его как, 'Бутон Незабудки'."
+    okita "Это светящийся цветок... Ты можешь знать его как, 'Бутон Незабудки'."
     show player 10
     show okita 1
     player_name "Нет, никогда не слышал о нем."
