@@ -8,16 +8,16 @@ label kevin_dialogue_ross_find_magazines:
     kev "Как дела, {b}[firstname]{/b}?"
     show player 2
     show kevin 29b
-    player_name "Не очень.Что ты читаешь?"
+    player_name "Не очень. Что ты читаешь?"
     show player 1
     show kevin 30b
-    kev "Ох, просто некоторые журналы которые я взял в спортзале."
+    kev "Ох, просто некоторые журналы, которые я взял, в спортзале."
     show player 2
     show kevin 29b
     player_name "Круто, ты ищешь новую работу или типо того?"
     show player 1
     show kevin 30
-    kev "Нет,почему?"
+    kev "Нет, почему?"
     show player 11
     show kevin 29
     player_name "..."
@@ -29,7 +29,7 @@ label kevin_dialogue_ross_find_magazines:
     show player 11
     player_name "..."
     show player 10
-    player_name "Ох,точно... Ты думаешь, я могу взять один из этих журналов?"
+    player_name "Ох, точно... Ты думаешь, я могу взять один из этих журналов?"
     show player 11
     show kevin 30 with dissolve
     kev "Хех, Я не знал что ты был знатаком мужских форм..."
@@ -38,7 +38,7 @@ label kevin_dialogue_ross_find_magazines:
     player_name "Вообще-то я уже в Колледже."
     show player 11
     show kevin 30b
-    kev "Ох,точно. Колледж."
+    kev "Ох, точно. Колледж."
     show kevin 31 with dissolve
     kev "Я понял тебя Бро! Ни слова больше!"
     kev "Бери все что тебе нужно! Вот этот займет меня на некоторое время."
@@ -47,7 +47,7 @@ label kevin_dialogue_ross_find_magazines:
     player_name "Крутяк! Спасибо, эмм, Бро..."
     show player 1
     show kevin 31c
-    kev "Чееерт возьми,он блестит..."
+    kev "Чееерт возьми, он блестит..."
     show player 10
     player_name "..."
     return
@@ -68,7 +68,7 @@ label kevin_dialogue_ross_ask_model:
     show kevin 3
     show player 11
     kev "Голым!?"
-    kev "Ох, мужик. Я не знаю,Бро."
+    kev "Ох, мужик. Я не знаю, Бро."
     kev "Это только ты там будешь рисовать?"
     show player 10
     show kevin 1
@@ -138,11 +138,11 @@ label kevin_dialogue_dewitt_kevin_give_guitar:
     player_name "Эта?"
     show player 5
     show kevin 15f
-    kev "Эмм, да Бро!"
+    kev "Эмм, да, Бро!"
     kev "Я надеюсь ты ее не украл или типо того."
     show kevin 14f
     show player 14
-    player_name "Вообще-то её одолжил, у моего друга. Так что будь остороже с ней, хорошо?"
+    player_name "Вообще-то я её одолжил, у моего друга. Так что будь остороже с ней, хорошо?"
     hide player
     show kevin 27 at left
     with dissolve
@@ -184,14 +184,14 @@ label kevin_dialogue_talent_show_help:
     player_name "С ним?"
     show player 11
     show kevin 22 with dissolve
-    kev "Я сказал с ним? Извини, я иммел ввиду с ней."
+    kev "Я сказал с ним? Извини, я имел в виду с ней."
     kev "... Да, ОНА разбила её на кусочки."
     show kevin 23 with dissolve
     show player 14
-    player_name "Хм,ты западаешь на сумашедших девченок,хм?"
+    player_name "Хм, ты западаешь на сумашедших девченок, хм?"
     show player 13
     show kevin 22 with dissolve
-    kev "Хех,Ты знаешь! Сумашедшие дувченки, Я на пути к ним! Полностью..."
+    kev "Хех, Ты знаешь! Сумашедшие дувченки, Я на пути к ним! Полностью..."
     show kevin 23 with dissolve
     show player 14
     player_name "Итак если бы у тебя была гитара, ты бы сыграл на шоу талантов?"
@@ -256,7 +256,7 @@ label kevin_dialogue_dewitt_science_adhesive:
     kev "Я позабочусь об остальном."
     show kevin 1
     show player 14
-    player_name "Круто!Спасибо, {b}Кевин{/b}!"
+    player_name "Круто! Спасибо, {b}Кевин{/b}!"
     return
 
 label kevin_dialogue_leave:
