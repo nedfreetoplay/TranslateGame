@@ -6,7 +6,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show player 13 zorder 2 at left
     with dissolve
     sara "Ой, смотри, дорогой!"
-    sara "Твой маленький друг здесь.."
+    sara "Твой маленький друг здесь."
     show sara 1
     show tstand 2
     Terry "О, хо-хо, действительно так..."
@@ -14,7 +14,7 @@ label terry_button_contest_roxxy_go_see_contest:
     Terry "Пришел, погрузиться в атмосферу не так ли?"
     show tstand 1
     show player 14
-    player_name "Эй {b}Капитан{/b}!"
+    player_name "Привет, {b}Капитан{/b}!"
     player_name "Привет, {b}Мисс Сара{/b}!"
     show player 17
     player_name "Да, это просто потрясающе!"
@@ -77,10 +77,10 @@ label terry_button_contest_roxxy_go_see_contest:
     Terry "Ну, поговорим о дьяволе!"
     show tstand 1
     show becca bikini 2f
-    becca "Эй, {b}[firstname]{/b}."
+    becca "Привет, {b}[firstname]{/b}."
     show becca bikini 1f
     show player 14
-    player_name "Привет, девочки."
+    player_name "Привет, девчонки."
     show player 13
     show sara 2
     sara "Ну, не милашка ли в бикини!"
@@ -96,7 +96,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show missy bikini 13
     missy "Спасибо!"
     show missy bikini 2
-    missy "Я была так рада, когда увидела, что  устраивает {b}Капитан{/b}."
+    missy "Я была так рада, когда увидела, что устраивает {b}Капитан{/b}."
     missy "С тех пор, как он сказал, что ему понравились мои сиськи на днях, когда мы их показывали..."
     show missy bikini 1
     show player 22
@@ -125,7 +125,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show becca bikini 6
     becca "Ммм, нам пора уходить!"
     show becca bikini 14
-    becca "{b}[firstname]{/b}, мы встречаемся с {b}Рокси{/b} в душе, если хочешь к нам присоединиться."
+    becca "{b}[firstname]{/b}, мы встречаемся с {b}Рокси{/b} в душе, если хочешь присоединяйся к нам."
     hide becca
     hide missy
     with dissolve
@@ -134,7 +134,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show player 37 with dissolve
     player_name "..."
     show tstand 23b
-    Terry "... Теперь, Любовь."
+    Terry "... любовь моя."
     Terry "Просто успокойся и дай мне объяснить."
     show tstand 23
     sara "..."
@@ -143,7 +143,7 @@ label terry_button_contest_roxxy_go_see_contest:
     show sara 6
     show player 11 with dissolve
     show tstand 23b
-    Terry "Хорошо, на днях... Видишь ли, эти девушки воспользовались услугами шкипера.."
+    Terry "Хорошо, на днях... Видишь ли, эти девушки воспользовались услугами шкипера."
     Terry "Я просто немного поработал своей магией, чтобы убедиться, что он получил достаточную отдачу за свою тяжелую работу..."
     Terry "Вот и все!"
     show tstand 23
