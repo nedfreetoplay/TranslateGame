@@ -4,7 +4,7 @@ label anna_yoga_button_dialogue:
         "Где {b}Миссис Джонсон{/b}?":
             call expression game.dialog_select("anna_button_yoga_room_dialogue_wheres_mrsj")
 
-        "Йога" if mrsj.completed(mrsj_yoga_help):
+        "Йога." if mrsj.completed(mrsj_yoga_help):
             call expression game.dialog_select("anna_button_yoga_room_dialogue_yoga")
             $ yoga_position = ""
             $ yoga_stage = 1
