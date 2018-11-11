@@ -317,7 +317,7 @@ label button_ross_found_art_pad:
     show mia 69
     mia "*В ужасе*"
     show mia 10
-    mia "Вау Это так здорово!"
+    mia "Вау. Это так здорово!"
     show mia 7
     show ross 11
     ross "Разве нет!?"
@@ -484,7 +484,7 @@ label button_ross_collage:
     player_name "Мы сможем это сделать, правда {b}Мия{/b}?"
     show player 1f
     show mia 10b
-    mia "Абсолютно. В действительности, я думаю что у моего {b}Папа{/b} есть немного резинового клея дома."
+    mia "Абсолютно. В действительности, я думаю что у моего {b}Папы{/b} есть немного резинового клея дома."
     show mia 10
     mia "Я пойду возьму его!"
     hide mia with dissolve
@@ -500,7 +500,7 @@ label button_ross_collage:
     show ross 10b with dissolve
     ross "Хмм..."
     show ross 11
-    ross "... Я бы начала с {b}Библиотеки{/b}.У них должен быть огромный выбор на выбор!"
+    ross "... Я бы начала с {b}Библиотеки{/b}. У них должен быть огромный выбор на выбор!"
     show player 2f
     show ross 10
     player_name "Отлично, Я пойду это проверю."
@@ -516,7 +516,7 @@ label button_ross_find_magazines:
     show ross 11
     ross "{b}Журналы{/b}?"
     ross "Попробуй в {b}Библиотеке{/b}."
-    ross "И посмотри,если сможешь ли ты найти {b}три большие стопки журналов{/b}, ладно?"
+    ross "И посмотри, если сможешь ли ты найти {b}три большие стопки журналов{/b}, ладно?"
     if M_ross.get("talked with jane"):
         hide ross with dissolve
         show player 10 with dissolve
