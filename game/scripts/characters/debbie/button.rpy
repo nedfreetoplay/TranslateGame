@@ -25,7 +25,7 @@ label mom_button_dialogue:
         if M_mom.is_set("revealing") and player.location == L_home_kitchen:
             call expression game.dialog_select("debbie_dialogue_mom_revealing_kitchen_pre")
             menu:
-                "Взять за попку":
+                "Взять за попку.":
                     if M_mom.is_set("sex available"):
                         label mom_kitchen_replay:
                             call expression game.dialog_select("debbie_dialogue_mom_revealing_feel_ass_sex_pre")
@@ -36,7 +36,7 @@ label mom_button_dialogue:
 
                         call expression game.dialog_select("debbie_dialogue_mom_revealing_feel_ass_no_sex")
                         jump expression game.dialog_select("debbie_dialogue_options")
-                "Поговорить":
+                "Поговорить.":
 
                     call expression game.dialog_select("debbie_dialogue_mom_revealing_talk")
                     jump expression game.dialog_select("debbie_dialogue_options")
@@ -161,7 +161,7 @@ label mom_button_dialogue:
                     call expression game.dialog_select("debbie_dialogue_laundry_sex_kitchen")
                     jump expression game.dialog_select("basement_mom_sex")
 
-            "Целоваться" if M_mom.is_state(S_mom_kissing_practice) and player.location == L_home_kitchen:
+            "Целоваться." if M_mom.is_state(S_mom_kissing_practice) and player.location == L_home_kitchen:
                 call expression game.dialog_select("debbie_dialogue_kiss")
                 menu:
                     "Ты можешь меня научить?":
@@ -170,10 +170,10 @@ label mom_button_dialogue:
                             jump expression game.dialog_select("mom_kissing_practice")
                         else:
                             call expression game.dialog_select("debbie_dialogue_kiss_teach_stat_fail")
-                    "Ничего":
+                    "Ничего.":
                         call expression game.dialog_select("debbie_dialogue_kiss_leave")
 
-            "Практиковать поцелуи" if M_mom.is_set("practice kissing") and player.location == L_home_kitchen:
+            "Практиковать поцелуи." if M_mom.is_set("practice kissing") and player.location == L_home_kitchen:
                 call expression game.dialog_select("debbie_dialogue_kiss_practice")
                 $ game.timer.tick()
             "Неважно.":
