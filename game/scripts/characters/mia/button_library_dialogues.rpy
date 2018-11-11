@@ -2,7 +2,7 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     show player 14 at left
     show mia 7 at right
     with dissolve
-    player_name "Эй, {b}Мия{/b}! Что ты собираешься делать?"
+    player_name "Привет, {b}Мия{/b}! Что ты собираешься делать?"
     show player 13
     show mia 10
     mia "О, привет, {b}[firstname]{/b}! Я как раз собиралась готовиться к предстоящему тесту по химии."
@@ -18,7 +18,7 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     player_name "Она действительно это сделает?"
     show mia 10
     mia "Вероятно, нет, но это не сложно, чтобы попытаться, не так ли?"
-    mia "И я действительно могу тусоваться с {b}Джуди{/b} за пределами моего дома тоже!"
+    mia "И я действительно могу тусоваться с {b}Джудит{/b} за пределами моего дома тоже!"
     show mia 7
     show player 14
     player_name "Да, я полагаю, что нет."
@@ -71,7 +71,7 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     player_name "Наверное, мне стоит поискать {b}книгу о французском романе{/b}..."
     show player 13
     show mia 10
-    mia "Ты знаешь, {b}Джуди{/b} и я нашли действительно информативную тему."
+    mia "Ты знаешь, {b}Джудит{/b} и я нашли действительно информативную тему."
     show mia 7
     show player 10
     player_name "Неужели?"
@@ -85,10 +85,10 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     show mia 12
     mia "Хм, нет, не совсем."
     show mia 10
-    mia "{b}Джуди{/b} была последней. Она использовала его {b}в задней комнате{/b}, кажется."
+    mia "{b}Джудит{/b} была последней. Она использовала ее {b}в задней комнате{/b}, кажется."
     show mia 7
     show player 10
-    player_name "Думаешь, она могла оставить его там?"
+    player_name "Думаешь, она могла оставить ее там?"
     show player 13
     show mia 10
     mia "Возможно."
@@ -118,7 +118,7 @@ label mia_library_dialogue_bissette_mia_book_feedback:
     mia "...Да."
     show mia 55
     show player 10
-    player_name "Интересно, чем занималась {b}Джуди{/b} с этой книгой."
+    player_name "Интересно, чем занималась {b}Джудит{/b} с этой книгой."
     show player 5
     show mia 56
     mia "Хех, да, я не знаю..."
@@ -132,7 +132,7 @@ label mia_library_dialogue_bissette_mia_book_feedback:
     mia "Без проблем, {b}[firstname]{/b}."
     hide mia with dissolve
     show player 14
-    player_name "Хорошо, мне лучше взять это домой для {b}моего компьютера{/b} и перейти к написанию этого стихотворения для {b}Мисс Биссетт{/b}."
+    player_name "Хорошо, мне лучше взять ее домой для {b}моего компьютера{/b} и перейти к написанию этого стихотворения для {b}Мисс Биссетт{/b}."
     return
 
 label mia_library_dialogue_do_not_disturb:
