@@ -195,7 +195,7 @@ label button_dexter_intro_final:
 
 label button_dexter_basketball_final:
     show player 12
-    player_name "Ещё играешь в баскеткетбол?"
+    player_name "Ещё играешь в баскетбол?"
     show player 91
     dex "..."
     show player 12
@@ -218,7 +218,7 @@ label button_dexter_basketball_final:
 
 label button_dexter_basketball:
     show player 12
-    player_name "Ещё играешь в баскеткетбол?"
+    player_name "Ещё играешь в баскетбол?"
     show player 90
     show dexter 3
     dex "Конечно, я рожден для этого!"
@@ -237,7 +237,7 @@ label button_dexter_basketball:
     show dexter 2 with dissolve
     player_name "..."
     show dexter 3
-    dex "Да что ты понимаешь в баскеткетболе, мелкий сучёныш?!"
+    dex "Да что ты понимаешь в баскетболе, мелкий сучёныш?!"
     dex "Это спорт для настоящих мужчин!"
     show dexter 1
     show player 17
