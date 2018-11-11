@@ -13,7 +13,7 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     player_name "Мы просто пытаемся получить информацию об аресте, который вы сегодня произвели."
     show player 5
     show earl 2 with dissolve
-    ear "Хмм, ты дочь {b}Кристи{/b}, не правда ли?"
+    ear "Хмм, ты дочь {b}Кристалл{/b}, не правда ли?"
     show earl 1
     show roxxy 1jf
     rox "..."
@@ -69,7 +69,7 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     show roxxy 1jf with dissolve
     show earl 2
     ear "Да, сынок. Это конечно плохо."
-    ear "... Ну, я знаю {b}Кристи{/b} очень давно."
+    ear "... Ну, я знаю {b}Кристалл{/b} очень давно."
     ear "Когда-то мы вместе ходили в школу."
     ear "Она всегда умела попадать в неприятности..."
     ear "... Но после допроса сегодня утром, я могу сказать вам без сомнения, что она не знает ничего о приготовлении мета."
@@ -88,7 +88,7 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     show player 5
     show earl 2
     ear "О, трейлер?"
-    ear "... Ну, если {b}Кристи{/b} будет осуждена, его вернут властям штата и продадут."
+    ear "... Ну, если {b}Кристалл{/b} будет осуждена, его вернут властям штата и продадут."
     show earl 1
     show player 25
     player_name "Шшшииишшшш..."
@@ -96,7 +96,7 @@ label earl_police_office_dialogue_roxxy_ask_earl_release:
     player_name "Мы можем что-нибудь сделать, чтобы исправить это?"
     show player 5
     show earl 2
-    ear "Нет, если только ты не убедишь {b}Кристи{/b} расказать о том кого она выгораживает..."
+    ear "Нет, если только ты не убедишь {b}Кристалл{/b} расказать о том кого она выгораживает..."
     show earl 1
     rox "..."
     show player 11
