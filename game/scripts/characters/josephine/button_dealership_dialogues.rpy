@@ -19,7 +19,7 @@ label josephine_button_dealership_dialogue_intro:
     pause
     show sato 2 behind xtra3 at Position(xpos=.7630,ypos=0.7299) with dissolve
     show player 11
-    Mr. Sato "{b}Josephine{/b}!"
+    Mr. Sato "{b}Джозефина{/b}!"
     show sato 1
     show joe 3 at Position(xpos=0.4976,ypos=1.0000) with fastdissolve
     Josephine "Что?!"
@@ -41,7 +41,7 @@ label josephine_button_dealership_dialogue_intro:
     Josephine "Я ищу туфли."
     show joe 2
     show sato 2
-    Mr. Sato "... {b}Josephine{/b}, это шутка!"
+    Mr. Sato "... {b}Джозефина{/b}, это шутка!"
     Mr. Sato "Разве у тебя нет гордости?"
     Mr. Sato "Как ты можешь сидеть и ничего не делать, когда все остальные так усердно работают?"
     show sato 1
@@ -60,14 +60,14 @@ label josephine_button_dealership_dialogue_intro:
     show player 9 with dissolve
     show sato 2
     Mr. Sato "А, очень хорошо!"
-    Mr. Sato "Видишь, {b}Жозефина{/b}..."
+    Mr. Sato "Видишь, {b}Джозефина{/b}..."
     Mr. Sato "Почему ты не можешь вести себя как {b}Ким{/b}?"
     show sato 1
     show joe 3 at Position(xpos=0.4976,ypos=1.0000) with dissolve
     Josephine "Пфф, мы не можем же все запихать носы тебе в зад, {b}Папа{/b}."
     show joe 2
     show sato 2
-    Mr. Sato "{b}Жозефина{/b}!"
+    Mr. Sato "{b}Джозефина{/b}!"
     show sato 1
     show kim 2
     kim "Не могли бы вы попросить меня принести вам кофе, {b}Мр. Сато{/b}?"
@@ -75,7 +75,7 @@ label josephine_button_dealership_dialogue_intro:
     show sato 2
     Mr. Sato "О, это было бы прекрасно, {b}Ким{/b}."
     Mr. Sato "Просто принеси его в мой офис, хорошо?"
-    Mr. Sato "Приведи себя в порядок, {b}Жозефина{/b}!"
+    Mr. Sato "Приведи себя в порядок, {b}Джозефина{/b}!"
     show sato 1
     show kim 3
     show player 11
@@ -192,7 +192,7 @@ label josephine_button_dealership_dialogue_insurance_claim_right_plate:
     show joe 6
     Josephine "Да, похоже, он есть в нашей базе."
     show joe 5
-    Josephine "Вы всё ещё живете на 240 Cookie Street?"
+    Josephine "Вы всё ещё живете на улице Печенки дом 240?"
     show joe 4
     show player 17
     player_name "Ага!"
