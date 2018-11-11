@@ -16,7 +16,7 @@ label button_ross_make_collage:
     show ross 56 with dissolve
     show mia 60b
     ross "Мы сложные существа, {b}Мия{/b}."
-    ross "Ты не поверишь насколько мощные оргазмы можно получить если нажаты правильные кнопки"
+    ross "Ты не поверишь насколько мощные оргазмы можно получить если нажаты правильные кнопки."
     show ross 56b
     mia "..."
     show ross 56
@@ -75,7 +75,7 @@ label button_ross_make_collage:
     ross "... Нам наверно следует начать вот с этих коллажей, мм?"
     show ross 10
     show player 2f
-    player_name "Звучит неплохо"
+    player_name "Звучит неплохо."
     show player 1f
     show mia 60f
     show ross 57 at Position(xpos=0.3525, ypos=1.0) with dissolve
@@ -148,7 +148,7 @@ label button_ross_make_collage:
     show ross 27f zorder 1 at Position(xpos=0.45, ypos=1.0)
     with dissolve
     ross "Это по-настоящему замечательная работа, {b}[firstname]{/b}!"
-    ross "У тебя такое бурное воображение.!"
+    ross "У тебя такое бурное воображение!"
     show player 605
     show ross 26f
     player_name "Спасибо, {b}Мисс Росс{/b}."
@@ -283,10 +283,10 @@ label button_ross_get_easels:
     ross "Это может чувствоваться чрезвычайно приятно!"
     show ross 12
     show mia 12b
-    mia "Да, но библия говори-"
+    mia "Да, но библия говорит-"
     show ross 13
     show mia 8
-    ross "О чепуха!"
+    ross "О, чепуха!"
     ross "Если бы Бог не хотел, чтобы мы засовывали туда вещи, он бы дал анусу рвотный рефлекс..."
     show ross 10
     show player 1f at right with dissolve
@@ -308,7 +308,7 @@ label button_ross_get_easels:
     player_name "Нет, всё еще работаю над ними."
     show player 1f
     show ross 11
-    ross "О, чтож кыш! у нас девчачьи разговоры!"
+    ross "О, чтож кыш! У нас девчачьи разговоры!"
     show player 10f
     show ross 10
     player_name "Моя ошибка."
@@ -328,15 +328,15 @@ label button_ross_need_easels:
     show player 1f zorder 1 at right
     show mia 7 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "Вот вы оба где!"
+    ross "Вот вы где!"
     show ross 27 with dissolve
-    ross "У меня самы потрясающие новости!"
+    ross "У меня самые потрясающие новости!"
     show ross 26
     show player 2f
     player_name "В чем же дело?"
     show player 1f
     show ross 27
-    ross "Я встретил милейшую даму в торговом центре прошлой ночью, и мы разговорились."
+    ross "Я встретила милейшую даму в торговом центре прошлой ночью, и мы разговорились."
     ross "Оказывется, она занималась некоторым обнаженным моделированием раньше, и она согласилась приехать сюда и помоделировать для нас."
     show player 10f
     show mia 8b
@@ -356,7 +356,7 @@ label button_ross_need_easels:
     player_name "{b}Мия{/b}, разве это не отлично?"
     show player 13f
     show mia 56
-    mia "Д-да, потрясающие"
+    mia "Д-да, потрясающие."
     show mia 55
     show ross 27
     ross "Мы наконец-то сможем заняться настоящим искусством!"
@@ -381,7 +381,7 @@ label button_ross_need_easels:
     ross "Серьезно?"
     show player 2f
     show ross 10
-    player_name "Конечно,почему нет."
+    player_name "Конечно, почему нет."
     show player 1f
     show ross 27 with dissolve
     ross "О, это было бы потрясающе, {b}[firstname]{/b}!"
@@ -397,7 +397,7 @@ label button_ross_need_easels:
     show mia 7f
     pause
     show ross 21
-    ross "... И это даст {b}Мии{/b} и мне времени для более девчачьего разговора!"
+    ross "... И это даст {b}Мии{/b} и мне время для девчачьего разговора!"
     show mia 8f
     pause
     show ross 10f zorder 0 at Position(xpos=0.55, ypos=1.0)
@@ -444,12 +444,12 @@ label button_ross_has_easels:
     ross "Некоторым девушкам это действительно нравится, но я нахожу это слишком подавляющим..."
     show ross 12
     show mia 12
-    mia "Вау, это звучит безумно.."
+    mia "Вау, это звучит безумно."
     show ross 13
     show mia 8
     ross "Поэтому рекомендую идти в другом направлении. Так намного проще расслабиться и насладиться ощущениями, когда задействован всего один пенис."
     show mia 8b
-    ross "Также женщины гараздо белее нежные."
+    ross "Также женщины гараздо более нежные."
     show ross 12
     show mia 12b
     mia "Хорошо, но разве ты не ревнуешь?"
