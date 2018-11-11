@@ -20,7 +20,7 @@ label aqua_dialogue:
         "Другие.":
             call expression game.dialog_select("aqua_dialogue_the_others")
             jump expression game.dialog_select("aqua_dialogue_options")
-        "как твои дела?":
+        "Как твои дела?":
 
             call expression game.dialog_select("aqua_dialogue_how_are_you")
             jump expression game.dialog_select("aqua_dialogue_options")
