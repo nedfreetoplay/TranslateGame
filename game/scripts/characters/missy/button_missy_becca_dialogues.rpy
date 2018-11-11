@@ -16,7 +16,7 @@ label button_missy_becca_chat_with_becca_missy:
     missy "Я думаю, что он супер милый!"
     show missy 7
     show becca 2f
-    becca "Да-да... Я хорошо знаю, что вы думаете."
+    becca "Да-да... Я знаю, что вы думаете."
     show becca 1f
     show missy 8
     missy "Интересно, если он... Знаешь, хорошо оборудован?"
@@ -34,9 +34,9 @@ label button_missy_becca_chat_with_becca_missy:
     show becca 1f
     show missy 1b
     missy "Да, она вроде как..."
-    missy "... Но именно поэтому я ей верю!"
+    missy "... Но, именно поэтому я ей верю!"
     show missy 8
-    missy "Держу пари {b}[firstname]{/b} это упаковка серьезного тепла!"
+    missy "Держу пари {b}[firstname]{/b} - это упаковка серьезного тепла!"
     show missy 7
     show player 10f at right with dissolve
     player_name "Прости, {b}Мисси{/b}?"
@@ -171,7 +171,7 @@ label button_missy_becca_chat_with_becca_missy:
     show player 10f
     player_name "Есть что-нибудь, что я мог бы сделать для неё, что могло бы сделать её светлее?"
     show player 12f
-    player_name "... Пехапс, заставить её перестать вести себя как Стерва ко мне?"
+    player_name "... возможно, заставить её перестать вести себя как Стерва ко мне?"
     show player 5f
     show missy 8
     missy "Пфф, вряд ли."
@@ -183,7 +183,7 @@ label button_missy_becca_chat_with_becca_missy:
     show missy 2b
     missy "..."
     show missy 1b
-    missy "Ну, я полагаю, ты могла бы получить её бутылку {b}GoldSchwagger{/b}"
+    missy "Ну, я полагаю, ты мог бы получить для неё бутылку {b}GoldSchwagger{/b}"
     show missy 1
     show player 10f
     player_name "Что это за фигня?"
@@ -248,7 +248,7 @@ label button_missy_becca_intro_rox11:
     show becca 1 at Position (xpos=315)
     show missy 1b at left
     with dissolve
-    missy "Эй, {b}[firstname]{/b}!"
+    missy "Привет, {b}[firstname]{/b}!"
     show missy 1
     show becca 2
     becca "{b}*Вздох*{/b} Чего ты хочешь?"
@@ -460,7 +460,7 @@ label button_missy_becca_look_beautiful:
 
 
             show player 14f
-            player_name "{b}Мисси{/b}, Конечно!"
+            player_name "У {b}Мисси{/b}, Конечно!"
             show player 13f
             show becca 2b with dissolve
             becca "ЧТО?!"
@@ -485,7 +485,7 @@ label button_missy_becca_look_beautiful:
             show player 10f
             player_name "Эй!"
             show player 12f
-            player_name "Успокойтесь! Вы оба великолепны и  веснушки {b}Бекки{/b} очаровательны!"
+            player_name "Успокойтесь! Вы оба великолепны и веснушки {b}Бекки{/b} очаровательны!"
             show player 13f
             show becca 23 with dissolve
             becca "Хммф!"
@@ -538,7 +538,7 @@ label button_missy_becca_leave:
     player_name "Я должен идти."
     show player 13f
     show missy 1b
-    missy "уже уходишь?"
+    missy "Уже уходишь?"
     show missy 1
     show becca 8
     becca "Не забудьте приехать к нам {b}в эти выходные на пляж{/b}!"
