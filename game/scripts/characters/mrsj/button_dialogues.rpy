@@ -23,13 +23,13 @@ label button_mrsj_sex_ed_intro:
     show player 11 zorder 2 at left
     show erik 1f zorder 1 at Position(xpos=300)
     with dissolve
-    mrsjo "Эй, мальчик..."
+    mrsjo "Привет, мальчик..."
     show mrsj 41
     show player 21
     player_name "П-привет, {b}Миссис Джонсон{/b}!"
     show player 13
     show erik 4f
-    eri "Ты... Очень симпатичный, {b}Миссис Джонсон{/b}."
+    eri "Ты... Очень симпатичная, {b}Миссис Джонсон{/b}."
     show erik 1f
     show mrsj 40b with fastdissolve
     mrsjo "Ну, ты просто будешь пялиться на меня или хочешь спросить меня кое о чем?"
@@ -193,7 +193,7 @@ label button_mrsj_route_gf:
     mrsjo "У меня другая идея!"
     mrsjo "Что, если бы я взяла это внимание..."
     show player 11
-    mrsjo "... и дал его {b}тебе{/b}?"
+    mrsjo "... и дала его {b}тебе{/b}?"
     show mrsj 50
     player_name "!!!" with vpunch
     show mrsj 49
@@ -231,7 +231,7 @@ label button_mrsj_sex_ed_prep:
     show player 5
     show mrsj 17
     mrsjo "Мне нужна хорошая Учебная книга, {b}Кама Сутра{/b}."
-    mrsjo "И некоторые {b}противозачаточные таблетки{/b}!"
+    mrsjo "И {b}противозачаточные таблетки{/b}!"
     show mrsj 49
     mrsjo "Вы никогда не можете быть слишком осторожны..."
     show mrsj 50
