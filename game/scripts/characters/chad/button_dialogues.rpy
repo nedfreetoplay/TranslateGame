@@ -7,7 +7,7 @@ label button_chad_get_eve_drawing_first:
     player_name "Она сказала что он может быть у тебя."
     show player 1
     show chad 2
-    chad "Да, у меня."
+    chad "Да, он у меня."
     show player 10
     show chad 1
     player_name "Итак, могу я получить его?"
@@ -33,10 +33,10 @@ label button_chad_get_eve_drawing_first:
     chad "Ты должен {b}принести мне этот рисунок{/b}, Чувак!"
     show player 10
     show chad 1 at Position(xpos=0.8, ypos=1.0) with dissolve
-    player_name "... И если я это сделаю, ты отдашь мне {b}Скетчбук{/b}?"
+    player_name "... И если я это сделаю, ты отдашь мне {b}блокнот{/b}?"
     show player 11
     show chad 6
-    chad "Хаааах, договорились, йоу."
+    chad "Хаааах, договорились, чувак."
     show chad 2
     chad "Ты...?"
     show player 10
@@ -69,7 +69,7 @@ label button_chad_get_eve_drawing:
     show player 10 at left
     show chad 1 at Position(xpos=0.8, ypos=1.0)
     with dissolve
-    player_name "Что ты хочешь за {b}Скетчбук{/b}?"
+    player_name "Что ты хочешь за {b}блокнот{/b}?"
     show player 11
     show chad 2
     chad "Забыл чтоли?"
@@ -108,7 +108,7 @@ label button_chad_get_eve_drawing_completed:
     chad "Чувак! Вот это женщина, йоу!"
     show player 2
     show chad 7
-    player_name "Можно мне получить {b}Скетчбук{/b}?"
+    player_name "Можно мне получить {b}блокнот{/b}?"
     show player 1
     show chad 9
     chad "Ах, да. Я виноват! Я тут слюни пускаю и все такое!"
