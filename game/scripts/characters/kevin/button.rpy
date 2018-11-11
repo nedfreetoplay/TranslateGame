@@ -38,7 +38,7 @@ label kevin_button_dialogue:
 
             "Клей." if M_dewitt.is_state(S_dewitt_science_adhesive):
                 call expression game.dialog_select("kevin_dialogue_dewitt_science_adhesive")
-            "Ничего":
+            "Ничего.":
                 call expression game.dialog_select("kevin_dialogue_leave")
 
     hide kevin
