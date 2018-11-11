@@ -53,7 +53,7 @@ label button_okita_ingredients_tissue:
     player_name "Да, но как я должен достать это?"
     show player 11
     show okita 9
-    okita "... Я уверена, ты что-нибудь придумаешь.."
+    okita "... Я уверена, ты что-нибудь придумаешь."
     show okita 4
     player_name "..."
     return
@@ -72,7 +72,7 @@ label button_okita_got_all_ingredients:
     player_name "Ну, есть одна маленькая проблема..."
     show okita 3
     show player 532
-    okita "... Это {b}Куриный бульен{/b}?"
+    okita "... Это {b}Куриный бульон{/b}?"
     show player 533
     show okita 1
     player_name "Да. Это всё что есть в {b}Консумере{/b}..."
