@@ -32,7 +32,7 @@ label josephine_button_dealership_dialogue:
 
                         call expression game.dialog_select("josephine_button_dealership_dialogue_buy_vehicle_no_money")
 
-        "Сделать страховку" if M_mom.is_state(S_mom_fix_car):
+        "Проверить страховку." if M_mom.is_state(S_mom_fix_car):
             label josephine_button_dealership_dialogue_insurance_claim_plate_menu:
                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_pre")
                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_plate_menu_dialogue")
@@ -71,7 +71,7 @@ label josephine_button_dealership_dialogue:
                             else:
 
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_stat_fail")
-                        "Сдаться":
+                        "Сдаться.":
 
                             call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_give_up")
 
@@ -101,11 +101,11 @@ label josephine_button_dealership_dialogue:
                 "Ничего из этого.":
 
                     jump expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_plate_menu")
-        "Ким":
+        "Ким.":
 
             call expression game.dialog_select("josephine_button_dealership_dialogue_kim")
             jump josephine_button_dealership_dialogue_options
-        "Ничего":
+        "Ничего.":
 
             $ pass
 
