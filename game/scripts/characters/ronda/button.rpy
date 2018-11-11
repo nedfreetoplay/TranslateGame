@@ -12,7 +12,7 @@ label ronda_button_dialogue:
                 call expression game.dialog_select("ronda_dialogue_talent_show_help")
                 $ M_dewitt.set("talent ask ronda", False)
 
-        "Модель" if M_ross.is_state(S_ross_ask_model):
+        "Модель." if M_ross.is_state(S_ross_ask_model):
             call expression game.dialog_select("ronda_dialogue_model_help")
         "Оставить.":
 
