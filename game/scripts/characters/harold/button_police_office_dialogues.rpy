@@ -247,7 +247,7 @@ label harold_police_office_dialogue_roxxy_ask_earl_release:
     show harold 2
     harold "Извините, детки."
     harold "Хранение наркотиков это серьёзная задержка и выходит за рамки моих полномочий."
-    harold "Вам придется поговорить с шефом, если хотите подробностей.."
+    harold "Вам придется поговорить с шефом, если хотите подробностей."
     show harold 1
     show player 10
     player_name "... Oх."
@@ -270,7 +270,7 @@ label harold_police_office_dialogue_roxxy_ask_earl_release:
     rox "... Я не уверена."
     show roxxy 1j
     show player 12
-    player_name "Ну, я думаю, нам лучше пойти поговорить {b}шефом{/b}."
+    player_name "Ну, я думаю, нам лучше пойти поговорить с {b}шефом{/b}."
     hide player
     hide roxxy
     with dissolve
@@ -341,7 +341,7 @@ label harold_police_office_dialogue_thief:
     player_name "Он всегда крадется к моей соседке, {b}Миссис Джонсон{/b}, во двор ночью."
     show player 5
     show harold 6
-    harold "Также были сообщения о нем рядом с парком. Если вы заметишь его там, держи меня в курсе"
+    harold "Также были сообщения о нем рядом с парком. Если ты заметишь его там, держи меня в курсе."
     show harold 1
     show player 12
     player_name "Хорошо, Я также поищу еще улики."
@@ -368,12 +368,12 @@ label harold_police_office_dialogue_donuts:
     player_name "Но-"
     show player 5
     show harold 2
-    harold "Мне нужно идти, извини.."
+    harold "Мне нужно идти, извини."
     return
 
 label harold_police_office_dialogue_donuts_wrong:
     show player 437 at left with fastdissolve
-    player_name "Я эмм,Вам кое-что принес."
+    player_name "Я эмм, Вам кое-что принес."
     show player 1
     show player 436
     harold "..."
@@ -382,10 +382,10 @@ label harold_police_office_dialogue_donuts_wrong:
     show harold 8
     show player 1
     with fastdissolve
-    harold "Ты принесла мне коробку с ... пончиками?!"
+    harold "Ты принес мне коробку с ... пончиками?!"
     show player 14
     show harold 7
-    player_name "Да! Я подумал,может ты захочешь перекусить ими на работе..."
+    player_name "Да! Я подумал, может ты захочешь перекусить на работе..."
     show player 1
     show harold 9
     harold "О..."
@@ -394,8 +394,8 @@ label harold_police_office_dialogue_donuts_wrong:
     show harold 10
     player_name "..."
     show harold 11
-    harold "Но я err... Спасибо тебе за эту идею!"
-    harold "Я уверен что {b}Эрл{/b} будет более чем счастлив получить их..."
+    harold "Но я эээ... Спасибо тебе за эту идею!"
+    harold "Я уверен, что {b}Эрл{/b} будет более чем счастлив получить их..."
     show player 10
     show harold 10
     player_name "Хорошо."
@@ -420,10 +420,10 @@ label harold_police_office_dialogue_donuts_correct:
     show harold 8
     show player 1
     with fastdissolve
-    harold "Ты принесла мне коробку с ... пончиками?!"
+    harold "Ты принес мне коробку с ... пончиками?!"
     show player 14
     show harold 7
-    player_name "Да! Я подумал,может ты захочешь перекусить ими на работе..."
+    player_name "Да! Я подумал, может ты захочешь перекусить на работе..."
     show player 1
     show harold 9
     harold "Дай мне посмотреть..."
@@ -471,7 +471,7 @@ label harold_police_office_dialogue_donuts_correct:
     player_name "Спасибо, {b}Гарольд{/b}."
     show player 1
     show harold 46
-    harold "Хорошо, теперь убирайтесь отсюда, покамой босс не увидео нас с этими пончиками!"
+    harold "Хорошо, теперь убирайтесь отсюда, пока мой босс не увидел нас с этими пончиками!"
     show player 17
     show harold 45
     player_name "Ха ха."
