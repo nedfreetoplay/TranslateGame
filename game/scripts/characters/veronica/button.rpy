@@ -1,7 +1,7 @@
 label veronica_button_dialogue:
     call expression game.dialog_select("veronica_dialogue_pre")
     menu:
-        "Овощной Бульон" if M_okita.is_state(S_okita_get_ingredients):
+        "Овощной Бульон." if M_okita.is_state(S_okita_get_ingredients):
             call expression game.dialog_select("veronica_dialogue_vegatable_stock")
             $ M_okita.set("talked with veronica", True)
 
