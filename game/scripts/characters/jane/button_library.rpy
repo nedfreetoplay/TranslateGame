@@ -37,7 +37,7 @@ label library_desk_dialogue:
 
                     call expression game.dialog_select("jane_library_dialogue_french_food_book_holders")
 
-            "Журналы" if M_ross.is_state(S_ross_find_magazines):
+            "Журналы." if M_ross.is_state(S_ross_find_magazines):
                 if M_ross.get("talked with jane"):
                     call expression game.dialog_select("jane_library_dialogue_magazines_repeat")
                 else:
@@ -45,7 +45,7 @@ label library_desk_dialogue:
                     call expression game.dialog_select("jane_library_dialogue_magazines_first")
                     $ M_ross.set("talked with jane", True)
 
-            "Возврат библиотечных книг" if get_returnable_books():
+            "Возврат библиотечных книг." if get_returnable_books():
                 call expression game.dialog_select("jane_library_dialogue_return_books_pre")
                 if M_jane.get("first book returned"):
                     call expression game.dialog_select("jane_library_dialogue_return_books_first")
