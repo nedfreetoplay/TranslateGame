@@ -68,12 +68,12 @@ label button_roxxy_showers_check_on_roxxy:
     missy "Если вы не начнете встречаться, я могу еще поиграть с ним?"
     show missy bikini 1b
     show roxxy bikini 19
-    rox "... Что с тобой такое?"
+    rox "... Что с тобой?"
     show roxxy bikini 20
     show missy bikini 8
     missy "Что?!"
     show missy bikini 13
-    missy "Вы можете смотреть,Я не против!"
+    missy "Вы можете смотреть, Я не против!"
     show missy bikini 1b
     show becca bikini 16b
     becca "Ну ты и шлюха, {b}Мисси{/b}..."
@@ -152,7 +152,7 @@ label button_roxxy_showers_check_on_roxxy:
     rox "Я убью тебя..."
     show roxxy bikini 20
     show missy bikini 8
-    missy "Подожди, Я не!"
+    missy "Подожди, Я не...!"
     show missy bikini 9
     show becca bikini 6
     show roxxy bikini 10
@@ -184,7 +184,7 @@ label button_roxxy_showers_check_on_roxxy:
     becca "Хахаха! Нет, ты не умерла."
     show becca bikini 16b
     becca "Ты везучая сука несмотря..."
-    becca "Ее разорваный верхний бикини!"
+    becca "Ее разорваный верх бикини!"
     show becca bikini 16
     show missy bikini 8
     missy "... Ого, в самом деле?"
@@ -293,7 +293,7 @@ label button_roxxy_showers_get_new_bikini:
     missy "Хватит говорить всякое дерьмо об моих сиськах!"
     show missy bikini 11
     show player 12f
-    player_name "УСПАКОЙСЯ!"
+    player_name "УСПОКОЙСЯ!"
     show becca bikini 12 with dissolve
     player_name "Никто не пришел с {b}Беккой{/b} к согласию."
     show player 14f
