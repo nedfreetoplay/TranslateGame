@@ -331,7 +331,7 @@ label button_ross_found_model:
     jud "... И розовый."
     show judith 54f
     show ross 36
-    ross "Вот,я помогу!"
+    ross "Вот, я помогу!"
     hide ross
     show judith 61f at Position(xpos=0.22, ypos=1.0) with dissolve
     pause
@@ -357,11 +357,11 @@ label button_ross_found_model:
 
     scene location_school_art_cutscene08
     with fade
-    show text "Я могу сказать что {b}Джудит{/b} по прежнему нервничала, что {b}Мисс Росс{/b} помогла ей подняться на пьедестал." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я могу сказать что {b}Джудит{/b} по прежнему нервничала, так что {b}Мисс Росс{/b} помогла ей подняться на пьедестал." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Было очень смело от нее моделировать аудиторию." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Было очень смело от нее позировать на аудиторию." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... Но она не совсем поразительная-вдохновляющей позе там наверху." at Position (xpos=512, ypos=700) with dissolve
+    show text "... Но она не совсем в поразительно-вдохновляющей позе там наверху." at Position (xpos=512, ypos=700) with dissolve
     pause
     hide text
     with dissolve
@@ -476,7 +476,7 @@ label button_ross_found_model:
     show judith 72e
     ross "Да, просто наслаждайся,родная."
     show judith 72c_72d
-    jud "NNGGHH!"
+    jud "ННГГХХ!"
     pause
     show judith 72
     jud "Хаааах!"
@@ -545,7 +545,7 @@ label button_ross_found_model:
     show rossg 4
     mia "Хехехее, Я надеюсь что бог не смотрит..."
     show rossg 2
-    ross "Вы оба хорошо работаете"
+    ross "Вы оба хорошо работаете."
     show rossg 1
     ross "Продолжаем."
     show rossg 5_6 with dissolve
@@ -564,7 +564,7 @@ label button_ross_found_model:
     show rossg 7_8 at Position(xpos=0.59, ypos=1.0) with dissolve
     pause
     show rossg 4 at Position(xpos=0.6, ypos=1.0) with dissolve
-    mia "Туууу Туууу!"
+    mia "Туууу-Туууу!"
     show rossg 9 with dissolve
     mia "Пффф, хахахахаха!!!!"
     show rossg 2 with dissolve
