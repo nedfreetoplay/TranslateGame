@@ -591,7 +591,7 @@ label mia_dialogue_science_classroom_intro:
     show mia 10
     mia "У меня все в порядке."
     show mia 12
-    mia "Не с нетерпением жду следующего занятия."
+    mia "Я с нетерпением жду следующего занятия."
     show mia 7
     show player 17
     player_name "Да. Я слышу тебя."
@@ -1161,7 +1161,7 @@ label mia_dialogue_homework_still_busy:
     show player 4 with dissolve
     pause
     player_name "( Интересно, почему она выбрала меня, чтобы помочь ей учиться. )"
-    player_name "( Обычно она учится с {b}Джуди{/b}, и она очень хорошо говорит по-французски... )"
+    player_name "( Обычно она учится с {b}Джудит{/b}, и она очень хорошо говорит по-французски... )"
     player_name "( ...Я не знаю, как я могу ей помочь. )"
     show player 13 with dissolve
     player_name "( По крайней мере, мы потусуемся, и она очень милая... )"
