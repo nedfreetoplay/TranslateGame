@@ -115,7 +115,7 @@ label erik_button_dialogue:
                 call expression game.dialog_select("button_erik_ask_beer")
                 $ M_dewitt.trigger(T_dewitt_erik_deal)
 
-            "Выпивка для {b}Рокси{/b}" if M_roxxy.get("talked to roxxy booze"):
+            "Выпивка для {b}Рокси{/b}." if M_roxxy.get("talked to roxxy booze"):
                 call expression game.dialog_select("button_erik_talked_to_roxxy_booze")
                 $ M_roxxy.trigger(T_roxxy_get_beer)
 
@@ -129,7 +129,7 @@ label erik_button_dialogue:
             "Карты." if erik.started(erik_card_hunt):
                 call expression game.dialog_select("erik_cards")
 
-            "Королевский член с шипами." if erik.started(erik_crown_card):
+            "Кольцо на королевский член с шипами." if erik.started(erik_crown_card):
                 jump erik_crown_card
 
             "Упаковка." if erik.started(erik_orcette) or erik.started(erik_orcette_2):
