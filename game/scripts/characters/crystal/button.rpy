@@ -39,7 +39,7 @@ label roxmom_dialogue:
             call expression game.dialog_select("button_crystal_she_here")
             jump expression game.dialog_select("roxmom_dialogue_repeat")
 
-        "Вы счастливы быть дома" if not game.timer.is_dark() and M_roxxy.finished_state(S_roxxy_hows_it_going_delay):
+        "Вы счастливы быть дома?" if not game.timer.is_dark() and M_roxxy.finished_state(S_roxxy_hows_it_going_delay):
             call expression game.dialog_select("button_crystal_happy_home")
             jump expression game.dialog_select("roxmom_dialogue_repeat")
         "{b}Отец Рокси{/b}.":
