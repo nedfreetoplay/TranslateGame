@@ -23,56 +23,56 @@ label terry_button_dialogue:
 
         call expression game.dialog_select("terry_dialogue_intro")
         menu:
-            "Купить немного рыбы ($100)":
+            "Купить немного рыбы ($100).":
                 call expression game.dialog_select("terry_dialogue_buy_fish")
                 menu:
-                    "Морская форель":
+                    "Морская форель.":
                         $ fish = "Seatrout"
                         call expression game.dialog_select("terry_dialogue_buy_fish_buy")
-                    "Люциан":
+                    "Морской окунь.":
 
                         $ fish = "Snapper"
                         call expression game.dialog_select("terry_dialogue_buy_fish_buy")
-                    "Скумбрия":
+                    "Скумбрия.":
 
                         $ fish = "Mackerel"
                         call expression game.dialog_select("terry_dialogue_buy_fish_buy")
-                    "Неважно":
+                    "Неважно.":
 
                         call expression game.dialog_select("terry_dialogue_buy_fish_nevermind")
 
-            "Продать рыбу (80$)" if player.has_item("seatrout", "snapper", "mackerel"):
+            "Продать рыбу (80$)." if player.has_item("seatrout", "snapper", "mackerel"):
                 call expression game.dialog_select("terry_dialogue_sell_fish")
                 menu:
-                    "Морская форель" if player.has_item("seatrout"):
+                    "Морская форель." if player.has_item("seatrout"):
                         $ fish = "Seatrout"
                         call expression game.dialog_select("terry_dialogue_sell_fish_sell")
 
-                    "Люциан" if player.has_item("snapper"):
+                    "Морской окунь." if player.has_item("snapper"):
                         $ fish = "Snapper"
                         call expression game.dialog_select("terry_dialogue_sell_fish_sell")
 
-                    "Скумбрия" if player.has_item("mackerel"):
+                    "Скумбрия." if player.has_item("mackerel"):
                         $ fish = "Mackerel"
                         call expression game.dialog_select("terry_dialogue_sell_fish_sell")
-                    "Неважно":
+                    "Неважно.":
 
                         call expression game.dialog_select("terry_dialogue_sell_fish_nevermind")
-            "Купить напиток (5$)":
+            "Купить напиток (5$).":
 
                 call expression game.dialog_select("terry_dialogue_buy_drink_pre")
                 menu:
                     "Купить.":
                         call expression game.dialog_select("terry_dialogue_buy_drink")
-                    "Я пройду.":
+                    "Я пас.":
 
                         call expression game.dialog_select("terry_dialogue_buy_drink_pass")
-            "Ловить рыбу":
+            "Ловить рыбу.":
 
                 call expression game.dialog_select("terry_dialogue_fishing")
                 $ M_terry.set("bait talk", True)
 
-            "Приманка" if M_terry.is_set("bait talk"):
+            "Приманка." if M_terry.is_set("bait talk"):
                 call expression game.dialog_select("terry_dialogue_fishing_bait")
 
             "Что за секрет?" if M_terry.is_state(S_terry_secret):
@@ -80,21 +80,21 @@ label terry_button_dialogue:
                 $ M_terry.trigger(T_terry_secret_lure)
                 $ M_aqua.trigger(T_aqua_special_lure)
 
-            "Об этой приманке" if M_terry.is_state([S_terry_lure, S_terry_trade]) and not M_aqua.is_state(S_aqua_trade):
+            "О приманке." if M_terry.is_state([S_terry_lure, S_terry_trade]) and not M_aqua.is_state(S_aqua_trade):
                 call expression game.dialog_select("terry_dialogue_lure")
 
-            "Золотой Компас" if M_aqua.is_state(S_aqua_trade) and M_terry.is_state(S_terry_trade):
+            "Золотой Компас." if M_aqua.is_state(S_aqua_trade) and M_terry.is_state(S_terry_trade):
                 call expression game.dialog_select("terry_dialogue_golden_compass")
                 $ player.remove_item("golden_compass")
                 $ player.get_item("special_lure")
                 $ M_terry.trigger(T_terry_lure_trade)
                 $ M_aqua.trigger(T_terry_lure_trade)
 
-            "Уйти" if M_terry.is_state([S_terry_bored, S_terry_retire]) and M_aqua.is_state(S_aqua_valor_test):
+            "Уйти." if M_terry.is_state([S_terry_bored, S_terry_retire]) and M_aqua.is_state(S_aqua_valor_test):
                 call expression game.dialog_select("terry_dialogue_retire")
                 $ M_terry.trigger(T_terry_retire)
 
-            "Поддельный документ" if M_roxxy.get("talked to roxxy id") and M_roxxy.is_state(S_roxxy_get_fake_id, S_roxxy_fake_id_get_picture):
+            "Поддельные документы." if M_roxxy.get("talked to roxxy id") and M_roxxy.is_state(S_roxxy_get_fake_id, S_roxxy_fake_id_get_picture):
                 if M_roxxy.is_state(S_roxxy_get_fake_id):
                     call expression game.dialog_select("terry_dialogue_fake_id")
                     $ M_roxxy.trigger(T_roxxy_ask_terry)
@@ -107,7 +107,7 @@ label terry_button_dialogue:
                         call expression game.dialog_select("terry_dialogue_fake_id_picture_first")
                         $ M_roxxy.set("talked to terry", True)
                     menu:
-                        "Да" if player.has_money(400):
+                        "Да." if player.has_money(400):
                             $ player.spend_money(400)
                             call expression game.dialog_select("terry_dialogue_fake_id_yes")
                             menu:
@@ -119,14 +119,14 @@ label terry_button_dialogue:
                             $ game.timer.tick(2)
                             $ M_player.set("jerk roxxy", True)
                             $ M_roxxy.trigger(T_roxxy_give_id)
-                        "Нет":
+                        "Нет.":
 
                             call expression game.dialog_select("terry_dialogue_fake_id_no")
 
-            "GoldSchwagger" if M_roxxy.is_state(S_roxxy_spin_bottle) and not player.has_item("goldschwagger"):
+            "GoldSchwagger." if M_roxxy.is_state(S_roxxy_spin_bottle) and not player.has_item("goldschwagger"):
                 call expression game.dialog_select("terry_dialogue_goldschwagger")
                 $ player.get_item("goldschwagger")
-            "Уйти":
+            "Уйти.":
 
                 $ pass
 
