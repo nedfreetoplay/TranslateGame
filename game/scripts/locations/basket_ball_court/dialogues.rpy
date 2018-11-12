@@ -152,7 +152,7 @@ label basketball_court_bissette_get_books:
     player_name "Хей, эмм, {b}Декстер{/b}..."
     show player 5
     show dexter 3
-    dex "Че надо ЧМО?"
+    dex "Че те надо, ЧМО?"
     show dexter 1
     show player 10
     player_name "Я надеялся, что у тебя все еще есть библиотечная книга, которую ты взял..."
@@ -162,13 +162,13 @@ label basketball_court_bissette_get_books:
     show dexter 6 with dissolve
     show player 11
     dex "Я че похож на парня, который будет читать библиотечные книги?"
-    dex "...Или ты подумал что я какой-то ботаник, как ты или твой друг-имбирь?"
+    dex "...Или ты подумал, что я какой-то ботаник, как ты или твой друг-имбирь?"
     show dexter 2 with dissolve
     show player 10
     player_name "Что? Нет, Я не..."
     show player 11
     show dexter 4 with dissolve
-    dex "Тебе лучше свалить отсюда, {b}[firstname]{/b}, пока я не напинал под сендвич!"
+    dex "Тебе лучше свалить отсюда, {b}[firstname]{/b}, пока я не напинал тебе под сендвич!"
     show dexter 2 with dissolve
     show player 12
     player_name "Хорошо, хорошо, ухожу!"
