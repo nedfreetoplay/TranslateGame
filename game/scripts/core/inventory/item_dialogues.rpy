@@ -3,7 +3,7 @@ label obituary_records(item):
     show expression item.closeup at Position(xalign = 0.5, yalign = 1.0)
     with None
     player_name "Хмм..."
-    player_name "Похоже, единственное имя, под Boatsmith это..."
+    player_name "Похоже, единственное имя, связанное с лодочником это..."
     player_name "...Бен Довер?"
     player_name "Теперь мне просто нужно посетить кладбище и найти его надгробный камень."
     $ M_aqua.trigger(T_aqua_obituary_records)
