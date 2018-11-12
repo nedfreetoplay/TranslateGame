@@ -29,7 +29,7 @@ label beach_statue_aqua_treasure_search:
     pause
     show text "...пока не устал, и руки не начали болеть." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Обессилев я готов был отбросить эту затею." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Обессилив, я готов был отбросить эту затею." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     show text "Может не тут надо было копать?" at Position (xpos= 512, ypos= 700) with dissolve
     with dissolve
@@ -39,7 +39,7 @@ label beach_statue_aqua_treasure_search:
     scene location_beach_digging02 with fade
     show text "... Вдруг! Лопата ударилась об что-то твёрдое!" at Position (xpos= 512, ypos = 700) with dissolve
     pause
-    show text "Силы в миг вернулись, и вот, я уже достовал то что тут спрятал Бен Довэр." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Силы в миг вернулись, и вот, я уже достовал то, что тут спрятал Бен Довэр." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     show text "...это был большой, тяжёлый сундук; Это оно! Я нашёл клад!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
@@ -50,8 +50,8 @@ label beach_statue_aqua_treasure_search:
 
 label treasure_lock_intro:
     scene location_beach_lock with fade
-    player_name "О, нет.."
-    player_name "( Похоже что мне нужен {b}ключ{/b}...и {b}комбинация{/b} шифра что бы открыть. )"
+    player_name "О, нет..."
+    player_name "( Похоже что мне нужен {b}ключ{/b}...и {b}комбинация{/b} шифра чтобы открыть. )"
     return
 
 label treasure_unlocked:
@@ -150,7 +150,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player 654bf with dissolve
     show becca bikini 6
     becca "!!!"
-    becca "ООО Бог мой!"
+    becca "ООО, Бог мой!"
     becca "Это же {b}GoldSchwagger{/b}!!!?"
     show player 654f
     player_name "... Д-да?"
@@ -2104,7 +2104,7 @@ label beach_cabin_roxxy_massage:
     rox "У тебя лучший массаж!"
     show roxxy bikini 1
     show player 12
-    player_name "Эй, это же {b}Мисс Сара{/b} бикини?"
+    player_name "Эй, это же бикини {b}Мисс Сары{/b}?"
     show player 13
     show roxxy bikini 2
     rox "Да, она сказала мне сохранить, помнишь?"
@@ -2302,7 +2302,7 @@ label beach_roxxy_spin_bottle_sex_intro:
     show player 14f at right
     show missy bikini 1 zorder 2 at left
     with dissolve
-    player_name "Хей, {b}Мисси{/b}."
+    player_name "Привет, {b}Мисси{/b}."
     show player 13f
     show missy bikini 16 with dissolve
     missy "{b}*вздох*{/b}!"
