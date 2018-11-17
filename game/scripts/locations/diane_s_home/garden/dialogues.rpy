@@ -406,7 +406,7 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     player_name "Ты выглядишь великолепно, {b}Диана{/b}."
     show diane 12
     show player 13
-    dia "Ох. Это ты сейчас так говоришь, но если бы ты увидели меня без одежды, ты бы пел другую мелодию!"
+    dia "Ох. Это ты сейчас так говоришь, но если бы ты увидели меня без одежды, ты бы пел другую песню!"
     show diane 13
     show player 11
     player_name "..."
@@ -419,11 +419,11 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     show player 21
     player_name "Немного."
     show player 35
-    player_name "Иногда я стараюсь ходить в спортзал."
+    player_name "Иногда я пытаюсь ходить в спортзал."
     show diane 2
     show player 13
     dia "Правда?!"
-    dia "Это здорого!"
+    dia "Это великолепно!"
     show diane 14
     dia "Ты знаешь, есть много преимуществ, чтобы оставаться в форме."
     show diane 8
@@ -639,7 +639,7 @@ label dianes_garden_diane_bug_infestation:
     player_name "Что ты имеешь в виду? Как?"
     show player 11
     show diane 106
-    dia "Они полны вредителями!"
+    dia "Они полны вредителей!"
     show player 22
     dia "Они захватили весь мой сад!!"
     show player 10
@@ -767,8 +767,8 @@ label dianes_garden_diane_sunbathing_okay:
     show player 13 at left
     dia "Ну, конечно!"
     show diane 18 at right
-    dia "Как еще я буду делать свою спину?"
-    dia "Ты же не хочешь, чтобы я сгорел, правда?"
+    dia "Как еще я буду получать загар на свою спину?"
+    dia "Ты же не хочешь, чтобы я сгорела, правда?"
     show diane 17 at right
     show player 21 at left
     player_name "Хорошо. Я помогу тебе с этим..."
@@ -931,7 +931,7 @@ label dianes_garden_diane_drunk_apology:
     dia "Стой."
     dia "Это я должна извиняться."
     show diane 22 at right
-    dia "Я слишком много выпила... И... Я явно перешел черту."
+    dia "Я слишком много выпила... И... Я явно перешла черту."
     show player 21 at left
     player_name "Все хорошо {b}Диана{/b}..."
     show diane 23 at right
@@ -1371,7 +1371,7 @@ label dianes_dialogue_pre_fun_milk_delivery_intro:
 label dianes_dialogue_pre_fun_milk_delivery_location:
     show diane 1
     show player 29
-    player_name "Куда ты хотела, чтобы я отвез их в школу? Я забыл..."
+    player_name "Куда ты хотела, чтобы я отдал их в школе? Я забыл..."
     show diane 2
     show player 13
     dia "В {b}столовую{/b}!"
@@ -1682,7 +1682,7 @@ label dianes_dialogue_after_fun_intro:
     if not game.timer.is_weekend():
         dia "Заскочил ко мне домой на обратном пути из школы?"
     else:
-        dia "Скучно дома, и захотелось увидеть меня старушку?"
+        dia "Скучно дома, и захотелось увидеть старушку?"
     show diane 88
     show player 29
     player_name "Все... в порядке?"
@@ -1801,7 +1801,7 @@ label dianes_dialogue_after_fun_talk_about_debbie_confess:
     dia "Ты сказал ей?"
     show diane 88
     show player 10
-    player_name "Никогда..."
+    player_name "Нет..."
     show diane 89
     show player 11
     dia "Почему нет? Если она заставляет тебя так себя чувствовать-"
@@ -2218,7 +2218,7 @@ label dianes_dialogue_after_fun_diane_breeding_help_not_known_pass:
     dia "Я должна кое что подготовить для нас..."
     show diane 88
     show player 21
-    player_name "Увидемся там, {b}Диана{/b}!"
+    player_name "Увидимся там, {b}Диана{/b}!"
     hide player
     hide diane
     with dissolve
