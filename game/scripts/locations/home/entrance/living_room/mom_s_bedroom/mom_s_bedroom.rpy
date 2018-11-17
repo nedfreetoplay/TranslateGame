@@ -24,9 +24,9 @@ label mom_bedroom:
         $ M_mom.trigger(T_mom_dinner_outfit_check)
 
         menu:
-            "Ask {b}[deb_name]{/b}.":
+            "Спросить {b}[deb_name]{/b}.":
                 call expression game.dialog_select("moms_bedroom_mom_dinner_outfit_ask")
-            "Just leave.":
+            "Уйти.":
 
                 $ pass
 
