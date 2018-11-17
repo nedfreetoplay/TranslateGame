@@ -207,7 +207,7 @@ label principals_office_annie_trouble:
     player_name "Ох да Мэм!"
     show player 11 at left
     show principal 9
-    smi "... И все же, ты выяснила реальную причину проблемы в раздевалке"
+    smi "... И все же, ты выяснила реальную причину проблемы в раздевалке..."
     show principal 7 at right
     smi "Что случилось, конкретно, {b}Энни{/b}?"
     show principal 6 at right
