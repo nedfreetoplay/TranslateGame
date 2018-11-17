@@ -34,8 +34,8 @@ label church_angelicas_room_mia_return_priest_outfit:
     player_name "..."
     show ang 2
     ang "Я наблюдала за тобой все это время."
-    ang "Кража одежды священника... Выдавать себя за нашего священника на исповеди..."
-    ang "...И лгать этой бедной женщине."
+    ang "Украл одежду священника... Выдавал себя за нашего священника на исповеди..."
+    ang "...И лгал этой бедной женщине."
     show ang 1
     show player 10
     player_name "Это не то, о чем вы думаете!"
@@ -87,7 +87,7 @@ label church_angelicas_room_mia_church_night_visit:
     show player 5
     show ang 2
     ang "Я знала, что могу на тебя рассчитывать."
-    ang "Ты соблюдаешь наше согласие... И умеешь хранить секреты."
+    ang "Ты соблюдаешь наше соглашение... И умеешь хранить секреты."
     ang "Вот почему я надеюсь, что ты мне поможешь..."
     show ang 1
     show player 12
@@ -111,10 +111,10 @@ label church_angelicas_room_mia_church_night_visit:
     player_name "Хорошо, что мне нужно делать?"
     show player 11
     show ang 2
-    ang "Мне нужно, чтобы ты нашел кого-нибудь!"
+    ang "Мне нужно, чтобы ты нашел кое-кого!"
     show ang 1
     show player 10
-    player_name "Я нужен вам, чтобы найти кого-то?!"
+    player_name "Я нужен вам, чтобы найти кое-кого?!"
     show player 11
     show ang 2
     ang "Да, грешников."
@@ -208,7 +208,7 @@ label church_angelicas_room_mia_church_sacrement:
     show helen 1 at Position (xoffset=2)
     show ang 2f
     ang "Мы {b}Божьи{/b} создания, {b}Хелен{/b}... Мы все равны!"
-    ang "ты не должна стыдиться того, кто ты есть..."
+    ang "Ты не должна стыдиться того, кто ты есть..."
     show ang 1f
     show helen 25 with dissolve
     helen "..."
@@ -245,7 +245,7 @@ label church_angelicas_room_mia_church_sacrement:
     show player 5f
     show ang 2f
     show helen 29
-    ang "Теперь ты можешь оставить нас, сегодня мне не нужна твоя помощь"
+    ang "Теперь ты можешь оставить нас, сегодня мне не нужна твоя помощь."
     ang "Приходи в другой раз, чтобы мы могли продолжить наши занятия..."
     show ang 1f
     show player 10f
@@ -453,7 +453,7 @@ label helen_final_sacrament_pre:
     ang "Поторопись и раздевайся."
     show ang 33
     show player 23f
-    player_name "Раздевайся?!"
+    player_name "Раздеваться?!"
     show player 10f
     player_name "Ты не собираешься использовать это...на-"
     show player 11f
@@ -485,7 +485,7 @@ label helen_final_sacrament_pre:
     show ang 33f
     helen "Да, {b}Сестра Анжелика{/b}?"
     show ang 34f
-    ang "Иы готова?"
+    ang "Ты готова?"
     show ang 33f
     helen "Да."
     helen "Очистите меня, {b}Сестра Анжелика{/b}."
@@ -718,7 +718,7 @@ label helen_final_sacrament_fuck_helen_cum_after:
     helen "Я... приму его святое семя... как покорная и послушная жена."
     show ang 34
     ang "Хорошо, {b}Хелен{/b}."
-    ang "На этом завершается наше святое таинство. Теперь вы двое можете уйти с миром."
+    ang "На этом завершается наше святое таинство. Теперь вы двое можете идти с миром."
     ang "Я буду продолжать предлагать различные ритуалы причастия в ночное время."
     ang "Приходи если хочешь... участвовать."
     show ang 33
@@ -753,7 +753,7 @@ label helen_final_sacrament_watch_angelica:
 
     scene church_nun_night_hs_2 with fade
     show helens 13 with dissolve
-    ang "{b}Хелен{/b}, я с нетерпением ждал этого момента."
+    ang "{b}Хелен{/b}, я с нетерпением ждала этого момента."
     ang "Вы всегда представляли себя самым набожным и благочестивым членом {b}Божьей{/b} паствы."
     ang "Я всегда хотела проникнуть в душу грязного грешника... и не использовать {b}Слово Божье{/b}."
     helen "Ох?"
@@ -846,9 +846,9 @@ label helen_final_sacrament_watch_angelica_cum_pre:
     helen "Спасибо, {b}Сестра Анжелика{/b}."
     show player 11f
     show ang 34
-    ang "Что касается тебя {b}[firstname]{/b}, должна сказать, я немного разочарована тобой."
+    ang "Что касается тебя {b}[firstname]{/b}, должна сказать, что я немного разочарована в тебе."
     show player 24f
-    ang "{b}Бог{/b} призвал вас на помощь, а вы отвернулись..."
+    ang "{b}Бог{/b} призвал тебя на помощь, а ты отвернулся..."
     ang "...Когда ты должен был поделиться своими семенами с {b}Хелен{/b}!"
     show player 5f
     ang "Но, возможно, это и есть вера."
