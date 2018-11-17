@@ -74,10 +74,10 @@ label mom_movie_night:
         $ M_mom.set("movie night", False)
         call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_pre")
         menu:
-            "Да":
+            "Да.":
                 call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_yes")
                 jump expression game.dialog_select("mom_sleeping")
-            "Нет":
+            "Нет.":
 
                 call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_no")
 
@@ -1162,7 +1162,7 @@ label tv_channel_channel_03_first_view:
 
 label tv_channel_channel_04_first_view:
     show home_tv_channel_04 at Position(xpos=522, ypos=521)
-    player_name "( Хей, это же Mayor Rump! )"
+    player_name "( Хей, это же Мэр Рамп! )"
     return
 
 label tv_channel_channel_05_first_view:
