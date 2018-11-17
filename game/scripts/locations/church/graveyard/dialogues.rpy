@@ -10,7 +10,7 @@ label right_tombstone:
 
 label right_tombstone_aqua_graveyard_search:
     player_name "( Имя на этой надгробной плите - Бен Довер! )"
-    player_name "( Должно быть единственная. )"
+    player_name "( Должно быть единственный. )"
     player_name "( Но теперь, когда я нашел его, я не знаю, что я должен искать дальше... )"
     player_name "Хмм..."
     player_name "( Может быть, где-то есть {b}подсказка{/b}? )"
@@ -59,7 +59,7 @@ label stray_cat_first_pre:
     show player 10
     player_name "Ух, привет?"
     show player 11
-    cat "Мяу"
+    cat "Мяу."
     show player 10
     player_name "Откуда доносится этот звук?"
     cat "Мууууууурррррр!"
@@ -73,14 +73,14 @@ label stray_cat_first_pre:
     player_name "Ну привет малыш."
     show player 1
     show cat 4
-    cat "Мммууурррр"
+    cat "Мммууурррр."
     show player 2
     show cat 3
     player_name "Что ты здесь делаешь совсем один?"
     player_name "Потерялся?"
     show player 1
     show cat 4
-    cat "Мммууурррр"
+    cat "Мммууурррр."
     show player 2
     show cat 3
     player_name "Бедняжка."
@@ -107,21 +107,21 @@ label stray_cat_first_pre:
     player_name "Ты - кошечка, правда?!"
     show player 1
     show cat 4
-    cat "Мммууурррр"
+    cat "Мммууурррр."
     show cat 5 with dissolve
-    cat "Мммууурррр"
+    cat "Мммууурррр."
     show player 2
     player_name "Ты выглядишь голодной."
     player_name "Хочешь кушать малышка?"
     show player 1
     show cat 4
-    cat "Мяу"
+    cat "Мяу."
     show player 2
     show cat 3
     return
 
 label stray_cat_first_after:
-    player_name "Хехе, хоршо. Может быть я смогу что-нибудь найти для тебя."
+    player_name "Хехе, хорошо. Может быть я смогу что-нибудь найти для тебя."
     show player 4
     show cat 3
     player_name "( Хмм. )"
@@ -134,20 +134,20 @@ label stray_cat_no_food:
     show cat 3 at Position(xpos=0.57, ypos=0.77) with dissolve
     pause
     show cat 4
-    cat "Мяу"
+    cat "Мяу."
     show player 2
     show cat 3
     player_name "Ааа... До сих пор голодна?"
     show player 1
     show cat 4
-    cat "Мурмяю"
+    cat "Мур-мяю."
     show player 2
     show cat 5
     player_name "Ты просто симпатяшка!"
     player_name "Я попробую найти тебе еду, хорошо?"
     show player 1
     show cat 4
-    cat "Мрррррр"
+    cat "Мрррррр."
     show player 2
     show cat 5
     player_name "Подожди!"
@@ -158,13 +158,13 @@ label stray_cat_have_food_pre:
     show cat 3 at Position(xpos=0.57, ypos=0.77) with dissolve
     pause
     show cat 4
-    cat "Мяу"
+    cat "Мяу."
     show player 2
     show cat 3
     player_name "Привет."
     show player 1
     show cat 4
-    cat "Мяу"
+    cat "Мяу."
     show player 2
     show cat 3
     label feed_cat:
@@ -174,12 +174,12 @@ label stray_cat_have_food_pre:
         hide player with dissolve
         show cplayer 1 at left with dissolve
         show cat 4
-        cat "Ммррррр"
+        cat "Ммррррр."
         show cplayer 2
         show cat 3
         player_name "Вот именно! Я принес тебе что-то вкусненькое!"
         show cat 4
-        cat "Мяу"
+        cat "Мяу."
         hide cat with dissolve
         show cat 6 at Position(xpos=0.578, ypos=0.77) with dissolve
         pause
@@ -194,12 +194,12 @@ label stray_cat_have_food_pre:
         show cat 8 at left with dissolve
         pause
         show cat 9
-        cat "Пррррр"
+        cat "Пррррр."
         show cat 10
         player_name "Хехе, точно."
         player_name "Ням ням для киски!"
         show cat 9
-        cat "Мурмяу"
+        cat "Мурмяу."
         show cat 8
 
         scene black with fade
@@ -219,7 +219,7 @@ label stray_cat_have_food_pre:
         player_name "Теперь стало лучше, не так ли, девочка?"
         show player 1
         show cat 4
-        cat "Мрррр"
+        cat "Мрррр."
         show player 2
         show cat 5
         player_name "Ты такая милая."
@@ -292,13 +292,13 @@ label stray_cat_have_food_leave_her:
     player_name "По крайней мере, я принес тебе поесть..."
     show player 11
     show cat 4
-    cat "Мррррр"
+    cat "Мррррр."
     show player 10
     show cat 5
     player_name "Ты хорошая девочка."
     player_name "Оставайся в безопасности, хорошо?"
     show player 11
     show cat 4
-    cat "Мяу"
+    cat "Мяу."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
