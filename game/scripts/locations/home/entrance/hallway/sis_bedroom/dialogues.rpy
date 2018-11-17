@@ -209,7 +209,7 @@ label sis_bedroom_sis_mom_needs_you_pre:
     show jenny 21 zorder 0 at right
     show player 108f zorder 1 at left
     with dissolve
-    player_name "Эм, Вообщете {b}[deb_name]{/b} нужно..."
+    player_name "Эм, Вообще-то {b}[deb_name]{/b} нужно..."
     show player 111f
     player_name "...С тобой кое о чем поговорить!"
     show jenny 22
