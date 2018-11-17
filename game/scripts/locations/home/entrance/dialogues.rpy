@@ -41,7 +41,7 @@ label entrance_erik_bullying:
     mrsjo "Я просто хочу, лучшего для него, а ты его единственный друг."
     show mrsj 19c
     show player 12
-    player_name "Хорошо.Пойду спрошу у него."
+    player_name "Хорошо. Пойду спрошу у него."
     hide mrsj
     hide player
     with dissolve
@@ -119,7 +119,7 @@ label entrance_erik_bullying_3:
     mrsjo "Спасибо."
     show mrsj 14
     show player 36 with dissolve
-    player_name "Спокойной ночи {b}Миссис Джонсон{/b}."
+    player_name "Спокойной ночи, {b}Миссис Джонсон{/b}."
     show player 13 with dissolve
     show mrsj 17
     mrsjo "Спокойной ночи."
@@ -291,7 +291,7 @@ label entrance_mia_angelicas_home_visit:
     pause
     show player 38 with dissolve
     player_name "Куда пойти чтобы добыть {b}плетку{/b}?"
-    player_name "Может в {b}Розовый магазин в торговом центре{/b} торгуют чем-то похожим."
+    player_name "Может в {b}магазине Pink в торговом центре{/b} торгуют чем-то похожим."
     show player 37 with dissolve
     player_name "..."
     hide player with dissolve
@@ -443,7 +443,7 @@ label entrance_mom_lawn_help:
     show debbie 2
     deb "Ну, газон не косили уже несколько недель..."
     deb "Можешь покосить его!"
-    deb "{b}Косилка{/b}должна быть в {b}гараже{/b}."
+    deb "{b}Косилка{/b} должна быть в {b}гараже{/b}."
     show debbie 1
     show player 14
     player_name "Хорошо. Пойду посмотрю."
@@ -973,7 +973,7 @@ label entrance_bissette_roxxy_jenny_mentoring:
     player_name "Конечно, {b}[deb_name]{/b}!"
     show player 10
     show roxxy 1 at Position (xpos=600) with dissolve
-    player_name "Хэй {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
+    player_name "Привет, {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
     show player 5
     show roxxy 2
     rox "Пф. А что, ты думаешь, что я пришла тебя увидеть или что-то вроде того?!"
@@ -1120,7 +1120,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     player_name "Конечно, {b}[deb_name]{/b}!"
     show player 10
     show roxxy 1 at Position (xpos=600) with dissolve
-    player_name "Хей, {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
+    player_name "Привет, {b}Рокси{/b}! Ты пришла к {b}[jen_name]{/b}?"
     show player 5
     show roxxy 2
     rox "Да, предложение ведь ещё в силе?"
@@ -1170,7 +1170,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     rox "Ага, а ты, значит, {b}[jen_name]{/b}??"
     show roxxy 1
     show jenny 12f
-    jen "Верно"
+    jen "Верно."
     jen "Давай, {b}Рокси{/b}. Сделаем это у меня в комнате."
     show jenny 11f
     show roxxy 1b
@@ -1238,7 +1238,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     show debbie 2
     deb "Может"
     show debbie 13
-    deb "...Только будь аккуратен, милый"
+    deb "...Только будь аккуратен, милый."
     hide player
     hide debbie
     with dissolve
