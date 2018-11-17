@@ -204,7 +204,7 @@ label aunt_button_dialogue:
             "Насос." if quest08 in quest_list and quest08 not in completed_quests:
                 call expression game.dialog_select("dianes_dialogue_pre_fun_pump_intro")
                 menu:
-                    "Где она находится?":
+                    "Где он находится?":
                         call expression game.dialog_select("dianes_dialogue_pre_fun_pump_location")
                         call expression game.dialog_select("dia_default_dialogue_options")
                     "Ещё.":
@@ -256,7 +256,7 @@ label aunt_button_dialogue:
                         call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_not_done")
                         call expression game.dialog_select("dia_default_dialogue_options")
 
-                    "Я от них избавилась!" if infestation_done:
+                    "Я от них избавился!" if infestation_done:
                         call expression game.dialog_select("dianes_dialogue_pre_fun_bug_infestation_done")
                         $ aunt_dialogue_advance = True
                         $ completed_quests.append(quest10)
