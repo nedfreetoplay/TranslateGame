@@ -4,19 +4,19 @@ label erikentrance_erik_gf_over:
     show june 2 at Position (xpos=700)
     show erik 1 at right
     with dissolve
-    player_name "Ох,привет ребята!"
+    player_name "Ох, привет ребята!"
     show player 1
     show erik 4
-    eri "Хэй, {b}[firstname]{/b}!"
+    eri "Привет, {b}[firstname]{/b}!"
     show june 3
     show erik 1
-    june "привет!"
+    june "Привет!"
     show player 14
     show june 2
     player_name "Я не знал что вы оба уже общаетесь!"
     show player 1
     show erik 4
-    eri "Да, мы играли в Ork Bork много..."
+    eri "Да, мы играли в Ork Bork..."
     show erik 1
     show june 6
     june "Ха ха. Да, мы совсем пристрастились!"
@@ -36,10 +36,10 @@ label erikentrance_erik_gf_over:
     show player 17
     player_name "Все в порядке, я тогда зайду в другой раз."
     show player 14
-    player_name "увидимся позже ребята!"
+    player_name "Увидимся позже ребята!"
     show player 1
     show erik 4
-    eri "Позже, приятель."
+    eri "Ага, приятель."
     hide player
     hide june
     hide erik
@@ -472,10 +472,10 @@ label erikentrance_erik_thief_2_over:
     show player 14 at left
     show erik 1 zorder 1 at right
     with dissolve
-    player_name "Хэй, {b}Эрик{/b}."
+    player_name "Привет, {b}Эрик{/b}."
     show erik 4
     show player 1
-    eri "Хэй, ты кого нибудь нашел?"
+    eri "Привет, ты кого нибудь нашел?"
     show erik 1
     show player 10
     player_name "Не очень много, все либо очень заняты или не хотят приходить."
@@ -604,7 +604,7 @@ label erikentrance_mrsj_yoga_2_started:
     player_name "Я думаю все прошло хорошо?"
     show player 13
     show mrsj 17
-    mrsjo "{b}Анна{/b} была там что бы помочь тебе?"
+    mrsjo "{b}Анна{/b} была там чтобы помочь тебе?"
     show mrsj 14
     show player 14
     player_name "Да, она была."
