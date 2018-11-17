@@ -4,9 +4,9 @@ label erik_basement:
         call expression game.dialog_select("eriks_basement_dewitt_eve_karaoke")
         if game.cheat_mode:
             menu:
-                "Играть в мини игру":
+                "Играть в мини игру.":
                     call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
-                "Пропустить мини игру (Чит)":
+                "Пропустить мини игру (Чит).":
                     jump guitar_hero_minigame_karaoke_pass
         else:
             call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
@@ -26,13 +26,13 @@ label eriks_basement_dewitt_eve_karaoke:
     show eve 2 at Position (xpos=600)
     show erik 1 at right
     with dissolve
-    eve "Хэй, Самое время! Я начала думать что ты кинул меня!"
+    eve "Привет, ты вовремя! Я начала думать, что ты кинул меня!"
     show eve 5
     show player 29 with dissolve
-    player_name "Извини, Меня задержали! Хэй {b}Эрик{/b}!"
+    player_name "Извини, Меня задержали! Привет, {b}Эрик{/b}!"
     show player 13 with dissolve
     show erik 4
-    eri "Хэй, {b}[firstname]{/b}! Я только что говорил {b}Еве{/b} о моей гильдии в World of Orcette."
+    eri "Привет, {b}[firstname]{/b}! Я только что говорил {b}Еве{/b} о моей гильдии в World of Orcette."
     show erik 1
     show eve 6b
     eve "Да, это было захватывающе."
@@ -58,10 +58,10 @@ label eriks_basement_dewitt_eve_karaoke:
     show eve 5
     show player 13
     show erik 53
-    eri "Д-дааа, почему?"
+    eri "Д-дааа, а что?"
     show erik 52
     show eve 6
-    eve "Потому что мне кажется мне нужно немного сегодня вечером!"
+    eve "Ну мне кажется что понадобится немного сегодня вечером!"
     show eve 5
     show player 14
     player_name "Это не плохая идея. Это расслабит нас для караоке."
@@ -160,7 +160,7 @@ label eriks_basement_dewitt_eve_karaoke:
     pause
     show erik 17f with dissolve
     show eve 21 with dissolve
-    eve "Whooooo!"
+    eve "Хуууууу!"
     show eve 20
     show player 191 with dissolve
     player_name "Черт!"
@@ -293,14 +293,14 @@ label poker_table:
     if not poker_table_seen:
         show player 14 at left with dissolve
         show erik 1 at right with dissolve
-        player_name "У тебя даже чертов{b}Покерный стол{/b} здесь внизу?"
+        player_name "У тебя даже чертов {b}Покерный стол{/b} здесь внизу?"
         show player 1
         show erik 4
         eri "Да. Ты хочешь сыграть?"
         $ poker_table_seen = True
         menu:
             "Играть в покер с {b}Эриком{/b}?"
-            "Да":
+            "Да.":
                 player_name "Я хотел бы, но я никогода раньше не играл в покер..."
                 show player 14
                 eri "Все хорошо, я обьясню тебе правила."
@@ -314,7 +314,7 @@ label poker_table:
                 $ renpy.pause()
                 hide popup_unfinished at truecenter with dissolve
                 $ game.main()
-            "Нет":
+            "Нет.":
 
                 player_name "Может быть в другой раз, чувак. Я сейчас не в настроении."
                 show player 14
@@ -418,7 +418,7 @@ label mrsj_poker:
                 hide popup_unfinished at truecenter with dissolve
                 jump mrsj_poker_repeat
 
-            "Пропустить мини-игру (Cheat)" if game.cheat_mode:
+            "Пропустить мини-игру (Cheat)." if game.cheat_mode:
                 menu:
                     "{b}Миссис Джонсон{/b} Проигрывает":
                         jump mrsj_lost
@@ -747,7 +747,7 @@ label erik_orcette:
     player_name "Что ты делаешь?"
     show player 13
     show erik 5
-    eri "Хэй, {b}[firstname]{/b}!"
+    eri "Привет, {b}[firstname]{/b}!"
     eri "... Я как раз думал о продаже покерного стола."
     show erik 1
     show player 23
@@ -767,7 +767,7 @@ label erik_orcette:
     eri "И мне бы пригодилось немного деньжат."
     show erik 3b
     show player 12
-    player_name "Не Будет ли {b}Миссис Джонсон{/b} против если ты продаешь вещи её бывшего мужа"
+    player_name "Не Будет ли {b}Миссис Джонсон{/b} против если ты продаешь вещи её бывшего мужа."
     show player 11
     show erik 5
     eri "Я думаю. Она всегда говорит что она готова на все что бы сделать меня счастливым и мне очень нужны наличные..."
