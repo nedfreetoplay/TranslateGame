@@ -37,10 +37,10 @@ label roz_storage_sex_pre_repeat:
     show player 13f
     pause
     show roz 5
-    roz "Удивлена увидеть тебя так быстро. Я должен оставить впечатление."
+    roz "Удивлена увидеть тебя так быстро. Я долженf оставить впечатление."
     show player 14f
     show roz 4
-    player_name "Д...даа. Вы были действительно хороша!"
+    player_name "Д...даа. Ты была действительно хороша!"
     show player 13f
     show roz 5
     roz "Хех, тебе повезло узнать некоторые хитрости будучи ещё молодым, малыш."
@@ -60,7 +60,7 @@ label roz_storage_sex_pre_repeat:
     show player 80
     pause
     show roz 19
-    roz "Почему бы тебе не достать своего великана чтобы мы могли начать"
+    roz "Почему бы тебе не достать своего великана чтобы мы могли начать."
     show player 83
     player_name "Да, Мадам!"
     hide player with dissolve
@@ -106,7 +106,7 @@ label roz_storage_sex_pre_first:
     show player 11f
     show roz 5
     roz "Не нашёл? Странно."
-    roz "Возможно что не помню куда положила, но помню что приносила сюда."
+    roz "Возможно, что я не помню куда положила, но помню, что приносила ее сюда."
     roz "Моя память не настолько хороша как в былые времена."
     show roz 4
     player_name "..."
@@ -197,13 +197,13 @@ label roz_storage_sex_pre_first:
     show roz 18
     pause
     show roz 19
-    roz "Подходи сюда, и дай тёте {b}Роз{/b} то чего ей не хватало."
+    roz "Подходи сюда, и дай тёте {b}Розе{/b} то чего ей не хватало."
     show roz 18
     show player 481
     player_name "Л...ладно!"
     show player 483 at Position (xpos=.36,ypos=1.0)
     show roz 19
-    roz "That's a good boy..."
+    roz "Хороший мальчик..."
     return
 
 label roz_storage_sex_pre_after:
@@ -314,7 +314,7 @@ label roz_storage_sex_cum_after_repeat:
     show player 3f
     show roz 15
     roz "С удовольствием, {b}[firstname]{/b}."
-    roz "Приходи ещё, и опять сможешь получить {b}Роз{/b} . Хорошо?"
+    roz "Приходи ещё, и опять сможешь поиметь {b}Роз{/b} . Хорошо?"
     show player 29f
     show roz 14
     player_name "К...конечно."
@@ -352,7 +352,7 @@ label roz_storage_sex_cum_after_first:
     show roz 14
     pause
     show roz 15
-    roz "и сможем запустить второй раунд? Хех!"
+    roz "И сможем запустить второй раунд? Хех!"
     show roz 14
     hide roz with dissolve
     pause
