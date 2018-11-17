@@ -62,9 +62,9 @@ label dianes_dialogue_diane_mouse_attack_known:
     player_name "Ага."
     show diane 155
     dia "..."
-    dia "Нууу, хорошо, тогда сними меня. Надеюсь ты не врёшь"
+    dia "Нууу, хорошо, тогда сними меня. Надеюсь ты не врёшь."
     show diane 156
-    player_name "Не беспокойтесь, шнурки для обуви не кусаются."
+    player_name "Не беспокойся, шнурки для обуви не кусаются."
     show player 14 at Position(xpos=200)
     show diane 144 at Position(xpos=650)
     with dissolve
@@ -72,7 +72,7 @@ label dianes_dialogue_diane_mouse_attack_known:
     show player 13
     show diane 146
     dia "Да, всё хорошо."
-    dia "Хотя, чувствую себя очень глупо за крик на шнурок для обуви."
+    dia "Хотя, чувствую себя очень глупо за крики на шнурки для обуви."
     show diane 147
     dia "Могу поклясться, что видела как он двигался..."
     show diane 148
@@ -85,7 +85,7 @@ label dianes_dialogue_diane_mouse_attack_known:
     show diane 144
     pause
     show diane 149
-    dia "Я хотела сказать... Очень приятно осознавать что ты пришёл меня спасти."
+    dia "Я хотела сказать... Очень приятно осознавать, что ты пришёл меня спасти."
     show diane 150
     show player 29 at Position(xoffset=26)
     player_name "О, Я ээээ... Это просто нормальная реакция..."
@@ -102,7 +102,7 @@ label dianes_dialogue_diane_mouse_attack_known:
     show player 14
     player_name "Всё в порядке, {b}Тётя Диана{/b}. Мне это не мешает."
     show diane 144
-    player_name "Я рад что вы в безопастности."
+    player_name "Я рад, что ты в безопастности."
     show player 13
     show diane 149
     dia "Ну, я всё ещё очень неподобающе одета сейчас."
@@ -110,13 +110,13 @@ label dianes_dialogue_diane_mouse_attack_known:
     dia "Мне жаль, что тебе пришлось видеть меня такой. Надеюсь, это не слишком тебя напугало?"
     show diane 150
     show player 33
-    player_name "Я не на миг не подумал что вы выглядите старой!"
+    player_name "Я не на миг не подумал, что вы выглядите старой!"
     show player 13
     show diane 147
     dia "О, ты просто говоришь это из вежливости!"
     show diane 150
     show player 26
-    player_name "Нет, я говорю серьездно... Выглядите прекрастно, {b}Тётя Диана{/b}."
+    player_name "Нет, я говорю серьезно... Выглядите прекрасно, {b}Тётя Диана{/b}."
     show player 13
     show diane 148
     dia "!!!"
