@@ -274,7 +274,7 @@ label bedroom_mom_movie_afterthoughts:
     player_name "Она, конечно, ничего не сказала."
     player_name "... но мне было крайне некомфортно."
     show player 11
-    player_name "Надеюсь, {b}[deb_name]{/b} е расстроилась из-за этого..."
+    player_name "Надеюсь, {b}[deb_name]{/b} не расстроилась из-за этого..."
     player_name "..."
     show player 24
     player_name "Ах, ладно, переживать буду завтра. А сейчас нужно немного поспать."
