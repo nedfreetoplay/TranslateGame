@@ -69,7 +69,7 @@ label sis_bedroom_sis_caught_stealing_panties:
     jen "{b}НЕМНОГО{/b}?!"
     jen "С какими же извращенцами ты общаешься!"
     show jenny 9c at Position(xpos=937)
-    jen "Только не говори мне, что этот урод - {b}Erik{/b}."
+    jen "Только не говори мне, что этот урод - {b}Эрик{/b}."
     show player 12
     show jenny 10b
     player_name "Конечно нет!"
@@ -81,7 +81,7 @@ label sis_bedroom_sis_caught_stealing_panties:
     jen "Хмм..."
     show jenny 12b
     show player 11
-    jen "Ладно! Если они так сильно тебе нужны - ты можешь {b}купить их{/b}у меня."
+    jen "Ладно! Если они так сильно тебе нужны - ты можешь {b}купить их{/b} у меня."
     show jenny 11b
     show player 10
     player_name "Что?"
@@ -91,7 +91,7 @@ label sis_bedroom_sis_caught_stealing_panties:
     jen "Я знаю, что ты подрабатываешь в последнее время."
     show jenny 11b
     show player 10
-    player_name "{b}Diane{/b} сказала тебе?"
+    player_name "{b}Диана{/b} сказала тебе?"
     show player 11
     show jenny 9c
     jen "Какая разница..."
@@ -434,7 +434,7 @@ label sneak_in_sis_bed:
     if not store._in_replay == None:
         jump expression game.dialog_select("sis_bed_replay_fuck")
     menu:
-        "Быстроый секс.":
+        "Быстрый секс.":
             label sis_bed_replay_fuck:
                 call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck")
 
@@ -1291,7 +1291,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis:
     jen "У него как у коня!"
     show jenny 179
     show roxxy 40
-    rox "Серьезно? Ты видела его член"
+    rox "Серьезно? Ты видела его член?"
     show roxxy 39
     show jenny 180
     jen "Ох, да, было пару раз."
@@ -1311,7 +1311,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis:
     jen "А у твоего парня большой?"
     show jenny 179
     show roxxy 40
-    rox "У {b}Dexter{/b}?"
+    rox "У {b}Дектера{/b}?"
     show roxxy 42
     rox "Пфф."
     show roxxy 43 with dissolve
@@ -1323,7 +1323,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis:
     show jenny 179
     rox "..."
     show jenny 180
-    jen "Ну, да лдно... Хочешь выучить несколько движений?"
+    jen "Ну, да ладно... Хочешь выучить несколько движений?"
     show jenny 179
     show roxxy 37
     rox "Ещё как!"
@@ -1350,7 +1350,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis:
     rox "Скажем так, он думает, что он мой парень."
     show roxxy 39
     show jenny 180
-    jen "Мне нравится твой стиль, {b}Roxxy{/b}!"
+    jen "Мне нравится твой стиль, {b}Рокси{/b}!"
     show jenny 179
     show roxxy 40
     rox "Хехе, спасибо!"
@@ -1488,7 +1488,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
     jen "Я была права, они более упругие..."
     jen "Я даже немного завидую!"
     show jenny 176
-    rox "... Thanks."
+    rox "... Спасибо."
     show jenny 174
     jen "У тебя очень милые соски!"
     show jenny 175
@@ -1562,7 +1562,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis_sex:
     jen "У твоего бывшего был большой?"
     show jenny 179
     show roxxy 40
-    rox "У {b}Dexter{/b}?"
+    rox "У {b}Декстера{/b}?"
     show roxxy 42
     rox "Пфф."
     show roxxy 43 with dissolve
@@ -1587,7 +1587,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis_sex:
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis_sex:
     show jenny 180
-    jen "Вряд ли ему хватит этого упорства, {b}Roxxy{/b}!"
+    jen "Вряд ли ему хватит этого упорства, {b}Рокси{/b}!"
     jen "Ему бы пришлось целовать мои ноги и ползать как собачке, прежде чем я пущу его в ко мне в трусики..."
     show jenny 179
     show roxxy 37
