@@ -1519,7 +1519,7 @@ label mom_sleeping_sex_available:
     player_name "Незачто. Люблю тебя, {b}[deb_name]{/b}."
     show player 110
     show debbie 81
-    deb "Я тоже тебя люблю, sweetie."
+    deb "Я тоже тебя люблю, милый."
     hide debbie
     hide player
     with dissolve
