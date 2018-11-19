@@ -21,6 +21,6 @@ label take_caveflower_dialogue:
     show player 559
     with dissolve
     player_name "Они... Светятся!"
-    player_name "Над собрать и отнести оките."
+    player_name "Над собрать и отнести Оките."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
