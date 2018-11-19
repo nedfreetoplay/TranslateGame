@@ -103,21 +103,21 @@ label mrsj_afterpoker_fun:
                 mrsjo "Мне нужно завтра рано вставать."
                 show mrsj 27f at Position(xoffset=-1)
                 show erik 5
-                eri "Извини что не дал поспать, {b}Миссис Джонсонs{/b}..."
+                eri "Извини что не дал поспать, {b}Миссис Джонсон{/b}..."
                 show mrsj 28f
                 show erik 1
-                mrsjo "Все нормально! Мне понравилось нашей маленькой ночью."
+                mrsjo "Все нормально! Мне все понравилось в нашей маленькой ночи."
                 show mrsj 27f at Position(xoffset=-1)
                 show player 14f
                 player_name "Спасибо что поиграли с нами, {b}Миссис Джонсон{/b}."
                 show mrsj 28f
                 show player 1f
-                mrsjo "Мне было очень приятно, играть с... друг с другом."
+                mrsjo "Мне было очень приятно, играть с... вами."
                 show mrsj 34 at center
                 hide erik
                 hide player
                 with dissolve
-                mrsjo "Мальчики дайте мне знать, если вам нужен будет еще кто то, чтобы поиграть снова..."
+                mrsjo "Мальчики дайте мне знать, если вам нужен будет еще кто-то, чтобы поиграть снова..."
                 show mrsj 35
                 player_name "Разумеется, {b}Миссис Джонсон{/b}..."
                 $ renpy.end_replay()
