@@ -10,7 +10,7 @@ label erik_thief_block2:
     scene eriks_backyard_night_b
     show door_thief_night at Position (xpos=882,ypos=655)
     player_name "( Я пока не могу уйти. )"
-    player_name "( Что если он пытается вломиться?! )"
+    player_name "( Что если он попытается вломиться?! )"
     player_name "( Надо убедиться, что ничего плохого не происходит... )"
     $ game.main()
 
@@ -83,7 +83,7 @@ label erik_thief_dex_pass:
     player_name "Он попытался сбежать, но я смог догнать его..."
     show larry 7
     show mrsj 19
-    mrsjo "Ох боже!"
+    mrsjo "Ох, боже!"
     show mrsj 38
     show larry 5
     mrsjo "Давай-ка посмотрим, кто скрывается за этой маской..."
@@ -150,7 +150,7 @@ label erik_thief_dex_pass:
     mrsjo "Ты всё еще думаешь только о себе!!"
     show mrsj 51
     show erik 53
-    eri "{b}Миссис Джонсон{/b}... Что теперь случилось?"
+    eri "{b}Миссис Джонсон{/b}... Что теперь делать?"
     show larry 11
     show erik 51
     show mrsj 52
