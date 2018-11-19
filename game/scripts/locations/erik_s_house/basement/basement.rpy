@@ -42,7 +42,7 @@ label eriks_basement_dewitt_eve_karaoke:
     player_name "Спасибо что позволил нам прийти сегодня вечером, {b}Эрик{/b}."
     show player 13
     show erik 4
-    eri "Да, без проблем, дружище! Тебе повезло моя что гильдия отменила рейд сегодня вечером."
+    eri "Да, без проблем, дружище! Тебе повезло, что моя гильдия отменила рейд сегодня вечером."
     show erik 1
     show player 10
     player_name "Рейд?"
@@ -226,7 +226,7 @@ label eriks_basement_dewitt_replace_guitar:
     show player 577 with dissolve
     pause
     show mrsj 50f at left with dissolve
-    player_name "( Сейчас мне просто нужно вытащить реальную гитару от сюда так чтобы {b}Миссис Джонсон{/b} не увидела меня. )"
+    player_name "( Сейчас мне просто нужно вытащить реальную гитару отсюда так, чтобы {b}Миссис Джонсон{/b} не увидела меня. )"
     show player 576
     show mrsj 52f
     mrsjo "Что это черт подери?"
@@ -244,7 +244,7 @@ label eriks_basement_dewitt_replace_guitar:
     player_name "Д-даа. Вам нравится?"
     show player 577bf
     show mrsj 49f
-    mrsjo "Хехехе, это думал что Я не замечу что ты уходишь с гитарой моего бывшего мужа?"
+    mrsjo "Хехехе, ты думал что Я не замечу, что ты уходишь с гитарой моего бывшего мужа?"
     show mrsj 50f
     show player 577cf
     player_name "... Мне просто нужно одолжить её для школьного шоу талантов и {b}Эрик{/b} подумал что вы можете расстроится."
@@ -252,16 +252,16 @@ label eriks_basement_dewitt_replace_guitar:
     show mrsj 18f
     mrsjo "Он?"
     show mrsj 49f
-    mrsjo "Авв, он такой милый молодой парень что бы так сильно заботиться о моих чувствах."
+    mrsjo "Авв, он такой милый молодой парень чтобы так сильно заботиться о моих чувствах."
     show mrsj 50f
     show player 577cf
     player_name "Вы не против если я одолжу эту гитару хоть ненадолго?"
     show player 577bf
     show mrsj 18f
-    mrsjo "Пффф, не совсем, дорогой."
+    mrsjo "Пффф, ни сколько, дорогой."
     show mrsj 49f
     mrsjo "Я никогда не понимала причину за что я так любила ни на что не годного бывшего. Он даже не умел хорошо играть на ней."
-    mrsjo "Ты можешь оставить ей себе навсегда Мне все равно"
+    mrsjo "Ты можешь оставить ей себе навсегда. Мне все равно."
     mrsjo "Она просто так там лежала и собирала пыль."
     show mrsj 50f
     show player 577f
@@ -319,7 +319,7 @@ label poker_table:
                 player_name "Может быть в другой раз, чувак. Я сейчас не в настроении."
                 show player 14
                 show erik 1
-                eri "Все круто. без проблем."
+                eri "Все круто. Без проблем."
                 show player 1
                 show erik 4
                 hide player
@@ -337,7 +337,7 @@ label poker_table:
         show erik 1
         show player 4
         player_name "Хммм..."
-        player_name "Да.Ты прав."
+        player_name "Да. Ты прав."
         player_name "Мы должны {b}найти кого-то{/b} кто бы захотел поиграть с нами."
         hide erik
         hide player
@@ -358,14 +358,14 @@ label mrsj_poker:
         player_name "Что вы имеете в виду?"
         show player 11
         show mrsj 18
-        mrsjo "Ты не можешь играть в покер без отлично выпивки!"
+        mrsjo "Ты не можешь играть в покер без отличной выпивки!"
         show mrsj 14
         show player 1
         show erik 4f
         eri "Выпивки?"
         show erik 1f
         show mrsj 18
-        mrsjo "Давайте посмотрим что осталось в {b}шкавчике с напитками{/b}, Давайте?"
+        mrsjo "Давайте посмотрим что осталось в {b}шкавчике с напитками{/b}."
         hide player
         hide mrsj
         hide erik
@@ -420,11 +420,11 @@ label mrsj_poker:
 
             "Пропустить мини-игру (Cheat)." if game.cheat_mode:
                 menu:
-                    "{b}Миссис Джонсон{/b} Проигрывает":
+                    "{b}Миссис Джонсон{/b} Проигрывает.":
                         jump mrsj_lost
-                    "{b}Эрик{/b} Проигрывает":
+                    "{b}Эрик{/b} Проигрывает.":
                         jump erik_lost
-                    "{b}[firstname]{/b} Проигрывает":
+                    "{b}[firstname]{/b} Проигрывает.":
                         jump player_lost
     $ game.main()
 
@@ -437,13 +437,13 @@ label cabinet:
         player_name "Слишком много алкоголя..."
         show player 1
         show erik 4
-        eri "Да, {b}Миссис Джонсон{/b} всегда хорошо держалась."
+        eri "Да, {b}Миссис Джонсон{/b} хорошо держалась."
         show erik 1
         show player 14
         player_name "Что попробуем?"
         show player 1
         show erik 4
-        eri "Я подумал может быть мы его оставим для особого случая?"
+        eri "Я подумал может быть мы ее оставим для особого случая?"
         show erik 1
         show player 4
         player_name "Я думаю ты прав."
@@ -465,7 +465,7 @@ label cabinet:
             mrsjo "Ох, вы оба в этом уверены?"
             show mrsj 19c
             show player 10
-            player_name "О чем?"
+            player_name "В чем?"
             show mrsj 19
             show player 11
             mrsjo "С алкоголем, ты помнишь что произошло в прошлый раз, правда?"
@@ -490,7 +490,7 @@ label cabinet:
             eri "Виски..."
             eri "Виски... виски..."
             eri "Виски... виски... виски..."
-            eri "Нет ничего но виски здесь..."
+            eri "Нет ничего, но виски здесь..."
             show erik 1f
             show mrsj 17
             mrsjo "Мой муж пил только виски."
@@ -503,7 +503,7 @@ label cabinet:
             eri "Давайте попробуем его прежде чем ставить на стол?"
             show erik 16
             show mrsj 22
-            mrsjo "посмотрим как он на вкус..."
+            mrsjo "Посмотрим какой он на вкус..."
             show erik 20
             show mrsj 21
             show player 185
@@ -511,7 +511,7 @@ label cabinet:
             eri "Поехали..."
             show player 186
             show erik 17
-            player_name "За ваше здоровье!"
+            player_name "Ваше здоровье!"
             show player 189
             show erik 19
             show mrsj 25
@@ -559,7 +559,7 @@ label mrsj_afterpoker_fun_block:
     eri "{b}Миссис Джонсон{/b} ждет нас, помнишь?"
     show player 14
     show erik 1
-    player_name "Ох, тоооочн!"
+    player_name "Ох, тоооочноооо!"
     player_name "Давай вернемся обратно и посмотрим чего она хотела."
     show player 1
     show erik 4
@@ -574,18 +574,18 @@ label erik_vr:
     show erik 15f at right
     show player 13 at left
     with dissolve
-    eri "Хэй, {b}[firstname]{/b}."
+    eri "Привет, {b}[firstname]{/b}."
     show erik 15bf
     show player 14
-    player_name "Хэй!"
+    player_name "Привет!"
     show player 11
     player_name "..."
     show player 12
     player_name "Ты... пил?"
     show player 11
     show erik 15f
-    eri "Ох, {b}Mrs. Johnson{/b} хотела чтобы я прибрался в подвале."
-    eri "Я как раз собирался выбрасить весь старую выпивку."
+    eri "Ох, {b}Миссис Джонсон{/b} хотела чтобы я прибрался в подвале."
+    eri "Я как раз собирался выбросить всю старую выпивку."
     show erik 15bf
     pause
     show player 38 with dissolve
@@ -608,28 +608,28 @@ label erik_vr:
     show player 14
     player_name "Что если мы используем этот алкоголь с пользой!"
     show player 17
-    player_name "Я имею в виду, это просто глупо все это добро выкидывать..."
+    player_name "Я имею в виду, это просто глупо выкидывать все это добро..."
     show player 13
     show erik 5
     eri "Хммм.... Да, я думаю."
     show erik 3b
     show player 14
-    player_name "Что если мы приглоси сюда друзей со школы и... повеселимся!"
+    player_name "Что если мы пригласим сюда друзей со школы и... повеселимся!"
     show player 33
     player_name "Это место идеальное для вечернинок!"
     show player 14
-    player_name "Только подумай, мы могли бы приглосить девченок к себе, играть в покер, и напиваться!"
+    player_name "Только подумай, мы могли бы пригласить девченок к себе, играть в покер, и напиваться!"
     show player 13
     show erik 5
     eri "Я в этом не уверен."
     eri "{b}Миссис Джонсон{/b} будет в ярости если все выйдет из-под контроля..."
     show erik 3b
     show player 12
-    player_name "Давай, {b}Эрик{/b}... Это место иделаное!"
+    player_name "Давай, {b}Эрик{/b}... Это место идеальное!"
     show player 14
     player_name "Просто подумай сколько крутых вещей мы могли бы тут сделать!"
     show player 33
-    player_name "Мы погли бы даже приглосить девченок и поиграть в покер на раздевание..."
+    player_name "Мы погли бы даже пригласить девченок и поиграть в покер на раздевание..."
     show player 18
     show erik 4 with hpunch
     eri "!!!"
@@ -666,14 +666,14 @@ label erik_vr:
     show player 11
     player_name "..."
     show player 12
-    player_name "Я слышал что это та одна из тех непристойных игр-"
+    player_name "Я слышал что это одна из тех непристойных игр-"
     show player 5
     show erik 5b
     eri "Эммм!!"
     show erik 5
     eri "В общем!"
     show erik 4
-    eri "Ты  это зделаешь, Я думаю"
+    eri "Ты это сделаешь?"
     eri "Ты сможешь найти их в {b}Cosmic Cumics{/b}, в торговом центре."
     show erik 1
     show player 14
@@ -694,7 +694,7 @@ label erik_card_hunt:
     eri "Привет, {b}[firstname]{/b}."
     show erik 1
     show player 14
-    player_name "Хэй, {b}Эрик{/b}."
+    player_name "Привет, {b}Эрик{/b}."
     show player 2
     player_name "Я решил заглянуть к тебе и посмотреть чем ты занимаешься."
     show player 1
@@ -710,19 +710,19 @@ label erik_card_hunt:
     show erik 1
     show player 12
     player_name "Хммм..."
-    player_name "Я могу помочь тебе найти их. Они не могли куда то изчезнуть."
+    player_name "Я могу помочь тебе найти их. Они не могли куда-то изчезнуть."
     show player 13
     show erik 5
-    eri "Да, они должны быть где то здесь."
+    eri "Да, они должны быть где-то здесь."
     eri "Не удивлюсь если {b}Миссис Джонсон{/b} переложили их?"
     show erik 1
     show player 14
-    player_name "Ох да, я тоже  хотел тебе сказать."
+    player_name "Ох да, я тоже хотел тебе сказать."
     show player 17
     player_name "Она упоминала что собралась готовить ужин для тебя."
     show player 5
     show erik 5
-    eri "Ты хочешь сказать что она уже ушла? Убейте меня!"
+    eri "Ты хочешь сказать, что она уже ушла? Убейте меня!"
     eri "Может быть я оставил их наверху."
     eri "Можешь посмотреть внизу?"
     show erik 1
@@ -767,10 +767,10 @@ label erik_orcette:
     eri "И мне бы пригодилось немного деньжат."
     show erik 3b
     show player 12
-    player_name "Не Будет ли {b}Миссис Джонсон{/b} против если ты продаешь вещи её бывшего мужа."
+    player_name "Не Будет ли {b}Миссис Джонсон{/b} против если ты продашь вещи её бывшего мужа?"
     show player 11
     show erik 5
-    eri "Я думаю. Она всегда говорит что она готова на все что бы сделать меня счастливым и мне очень нужны наличные..."
+    eri "Я думаю. Она всегда говорит, что она готова на все чтобы сделать меня счастливым и мне очень нужны наличные..."
     show erik 3b
     show player 12
     player_name "Да ладно, {b}Эрик{/b}. Все эти вещи дороги её как память."
@@ -785,7 +785,7 @@ label erik_orcette:
     player_name "Ох, да ладно."
     pause
     show player 14
-    player_name "Слушай, Я куплю тебе все что ты захочеть только если ты пообещаешь мне не продавать этот стол."
+    player_name "Слушай, Я куплю тебе все что ты захочешь только если ты пообещаешь мне не продавать этот стол."
     show player 30
     player_name "Договорились?"
     show player 5
@@ -796,19 +796,19 @@ label erik_orcette:
     show player 43
     player_name "Потому что у меня есть некоторые планы на этот подвал!"
     show player 14
-    player_name "Я думаю мы сможем использовать его для тусовок... а может приглосим... людей сюда!"
+    player_name "Я думаю мы сможем использовать его для тусовок... а может пригласим... людей сюда!"
     show player 13
     show erik 4
     eri "Хорошо..."
     show erik 5
-    eri "Но пообщай что не будешь смеятся надо мной?"
+    eri "Но пообещай, что не будешь смеятся надо мной?"
     show erik 3b
     show player 12
     player_name "Эээ... конечно?"
     show player 5
     eri "..."
     show erik 5
-    eri "Ты можешь купить эту вещь только по онлайну..."
+    eri "Ты можешь купить эту вещь только по интернету..."
     eri "Итак если твой комп до сих пор сломан, ты должен его починить."
     show erik 1
     show player 12
@@ -823,7 +823,7 @@ label erik_orcette:
     player_name "Что это?"
     show player 11
     show erik 5
-    eri "Это что то вроде... резинку... тоннель?"
+    eri "Это что-то вроде... резинового... тоннеля?"
     show erik 1
     show player 12
     player_name "Что?"
@@ -835,7 +835,7 @@ label erik_orcette:
     player_name "Подожди... Это, сексуальная игрушка?!"
     show player 13
     show erik 5
-    eri "Хэй! Ты обещал!"
+    eri "Эй! Ты обещал!"
     show erik 3
     show player 17
     player_name "Хорошо. хорошо."
@@ -855,10 +855,10 @@ label erik_orcette:
     show player 12
     player_name "Я сделаю."
     show player 10
-    player_name "Просто расслабся, потому что это займет некторое время для доставки."
+    player_name "Просто расслабся, потому что это займет некоторое время для доставки."
     show player 11
     show erik 5
-    eri "Посмотри что бы не было жучков на моей поссылке которые смогут меня отследить!"
+    eri "Посмотри чтобы не было жучков на моей поссылке по которым смогут меня отследить!"
     show erik 1
     show player 12
     player_name "Чего?"
@@ -866,10 +866,10 @@ label erik_orcette:
     show erik 5
     eri "Ты знаешь, компания доставок в наши дни отслеживает все свои перевозки."
     show erik 4
-    eri "Они могут сказать тебе точно когда она придет"
+    eri "Они могут сказать тебе точно когда она придет."
     show erik 1
     show player 12
-    player_name "Хорошо. Я посмотрю что я смогу зделать."
+    player_name "Хорошо. Я посмотрю что я смогу сделать."
     show player 5
     show erik 4
     eri "Спасибо, {b}[firstname]{/b}. Ты лучший!"
@@ -904,7 +904,7 @@ label eriks_basement_first_time:
     player_name "Могу я тут осмотреться?"
     show erik 1
     show player 1
-    eri "Конечно  приятель!"
+    eri "Конечно приятель!"
     show erik 1
     show player 14
     player_name "Мило!"
