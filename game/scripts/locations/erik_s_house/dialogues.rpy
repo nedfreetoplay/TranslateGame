@@ -100,7 +100,7 @@ label mrs_j_intro:
     hide mrsj 6 at right with dissolve
     show erik 1 at right with dissolve
     show player 14 at left
-    player_name "Чувак, она такая фигуристая! Тебе так повезло оно позволяет тебе снимать комнату!"
+    player_name "Чувак, она такая фигуристая! Тебе так повезло она позволяет тебе снимать комнату!"
     show erik 3 at right
     show player 1 at left
     eri "Эм... Ага... Наверное..."
@@ -110,16 +110,16 @@ label mrs_j_intro:
     show erik 5 at right
     show player 1 at left
     eri "Ну она проводит очень много времени в {b}Спортзале{/b}."
-    eri "Они там преподают занятия йогой."
+    eri "Она там преподает занятия йогой."
     show erik 1 at right
     show player 14 at left
-    player_name "И так, ты хочешь пойти на тусовку... или?"
+    player_name "Итак, ты хочешь пойти на тусовку... или?"
     show erik 3 at right
     show player 11 at left
     eri "Я не могу сейчас. Мне нужно... Я скачал эту новую игру и-"
     show erik 1 at right
     show player 12 at left
-    player_name "Все в порядке, {b}Эрик{/b}. Увидимся завтра или типа того."
+    player_name "Все в порядке, {b}Эрик{/b}. Увидимся завтра или позже."
     show player 36 at left
     show erik 7 at right
     eri "Круто. Увидимся позже..."
@@ -135,7 +135,7 @@ label door18_locked_dialogue:
         scene eriks_backyard_b
     show player 11 at left
     show erik 5 at right
-    eri "Эммм... Почему мы идем ко  мне домой?"
+    eri "Эммм... Почему мы идем ко мне домой?"
     eri "Разве нам не надо идти в {b}школу{/b}?"
     show erik 1 at right
     show player 14 at left
@@ -202,7 +202,7 @@ label erik_mailbox:
     if game.mail["erik"] == "m_magazine":
         show expression "objects/object_mailbox_item01_closeup.png" with dissolve
         player_name "( Хмм. Журнал. Интересно для кого он... )"
-        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это, однако.. )"
+        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это, однако... )"
         player_name "( Мне лучше положить его обратно. )"
         hide expression "objects/object_mailbox_item01_closeup.png" with dissolve
 
@@ -232,7 +232,7 @@ label erik_mailbox:
     elif game.mail["erik"] == "m_newspaper":
         player_name "( Местные новости. Это должно быть Интересно... )"
         show expression "objects/object_newspaper.png" with dissolve
-        player_name "( Вот все еще на свободе? Я думал что они его уже поймали. )"
+        player_name "( Вор все еще на свободе? Я думал что они его уже поймали. )"
         player_name "( Я лучше положу это обратно. )"
         hide expression "objects/object_newspaper.png" with dissolve
     call screen erik_mailbox
