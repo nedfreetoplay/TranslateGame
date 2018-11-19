@@ -45,7 +45,7 @@ label forest_okita_get_ingredients:
     scene expression game.timer.image("forest{}_b")
     show player 2 with dissolve
     player_name "Тааак, {b}грибы{/b} должны быть где-то здесь."
-    player_name "... Ещё надо найти {b}Жабу{/b} возлеводы, и {b}цветок{/b} в пещере."
+    player_name "... Ещё надо найти {b}Жабу{/b} возле воды, и {b}цветок{/b} в пещере."
     hide player with dissolve
     return
 
@@ -64,9 +64,9 @@ label awesomo_dialogue_intro:
 
     player_name "Что ты здесь делаешь?"
     awesomo "Гаф!"
-    player_name "ты заставил всех волноваться из-за тебя!"
+    player_name "Ты заставил всех волноваться!"
     awesomo "Гаф!"
-    player_name "Ты забавная собачка..."
+    player_name "Ты забавный песик..."
     return
 
 label awesomo_dialogue_give_cookie:
@@ -78,7 +78,7 @@ label awesomo_dialogue_give_cookie:
     player_name "!!!"
     show player 180
     player_name "Боже мой!"
-    player_name "Кто то проголодался..."
+    player_name "Кто-то проголодался..."
     show player 181
     player_name "Хмм..."
     show player 182
@@ -91,7 +91,7 @@ label awesomo_dialogue_check_name_tag_pre:
     show player 177
     player_name "Посмотрим, ты ли это, кого я ищу..."
     show awesomo_tag zorder 2 with dissolve
-    player_name "{b}ШИКАРДОС'а{/b}... Ага! Должно быть это, ты!"
+    player_name "{b}ШИКАРДОС{/b}... Ага! Должно быть это, ты!"
     hide awesomo_tag with dissolve
     return
 
@@ -145,7 +145,7 @@ label forest_dirt_pile_have_shovel_leave:
 label forest_dirt_pile_no_shovel:
     scene location_forest_dirt1
     player_name "( Есть кое-что странное в этой куче земли... )"
-    player_name "( Такое ощущение будто что то двигается под ней. )"
+    player_name "( Такое ощущение будто что-то двигается под ней. )"
     player_name "( Мне нужно найти {b}лопату{/b} чтобы выкопать это. )"
     return
 
@@ -206,7 +206,7 @@ label altar_intro_pre:
     with fade
     show text "Странное каменое строение стоит в середине леса." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Это выглядит старинным!Полностью покрытым мхом..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это выглядит старинным! Полностью покрытое мхом..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     if not game.timer.is_dark():
         show text "...а вот и {b}солнечный свет{/b} светит прямо на него." at Position (xpos= 512, ypos= 700) with dissolve
@@ -222,8 +222,8 @@ label altar_intro_pre:
 label altar_intro_day:
     scene location_forest_puzzle_day
     player_name "Хмм..."
-    player_name "Это похоже на алтарь, как на цкрковном колоколе"
-    player_name "...Но что то не так. Я в тупике."
+    player_name "Это похоже на алтарь, как на церковном колоколе."
+    player_name "...Но что-то не так. Я в тупике."
     player_name "Так, какие были ключи?"
     player_name "Каменный алтарь, среди деревьев, и {b}луна{/b} освещает его."
     player_name "Над этим надо подумать."
@@ -231,7 +231,7 @@ label altar_intro_day:
 
 label altar_intro_night:
     scene location_forest_puzzle_night_closed
-    player_name "Что то странное."
+    player_name "Что-то странное."
     player_name "Кажется это лунный свет светит на алтарь."
     player_name "Эти символы должны быть важными, и похоже, я могу их перемещать, чтобы сложить картинку..."
     player_name "Похоже на головоломку."
@@ -255,9 +255,9 @@ label altar_puzzle_finish_dialogue:
 label altar_puzzle_leave:
     scene expression game.timer.image("forest{}_b")
     show player 12 with dissolve
-    player_name "Эх... Может есть что то, что подскажет как решить эту загадку."
+    player_name "Эх... Может есть что-то, что подскажет как решить эту загадку."
     if not player.has_item("scroll"):
-        player_name "Я мог бы ещё раз {b}взглянуть на церковный колокол{/b}, не пропустил ли я что- нибудь."
+        player_name "Я мог бы ещё раз {b}взглянуть на церковный колокол{/b}, не пропустил ли я что-нибудь."
     else:
         player_name "Возможно, {b}свиток который я нашел в дереве{/b} содержит детали этой головоломки."
     hide player with dissolve
