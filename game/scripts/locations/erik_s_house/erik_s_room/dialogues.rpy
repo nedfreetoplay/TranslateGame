@@ -33,7 +33,7 @@ label june_intro:
     eri "Ты закончил разговаривать с {b}Миссис Джонсон{/b}?"
     show player 14
     show erik 1
-    player_name "Да, она считает что эта хоршая идея чтобы познакомиться с другими девченками..."
+    player_name "Да, она считает что эта хоршая идея чтобы познакомиться с другими девчонками..."
     show player 1
     show erik 5
     eri "Ох, серьезно?"
@@ -60,22 +60,22 @@ label june_intro:
     show player 11
     eri "Я не в форме и у меня плохо получается разговаривать с людьми..."
     show player 5
-    eri "... Признай это, чувак, я только недотепа..."
+    eri "... Признай это, чувак, я - недотепа..."
     show erik 3
-    eri "... Единственная вещь в которой я хорош это играть в игры!"
+    eri "... Единственная вещь в которой я хорош - это играть в игры!"
     show player 10
     show erik 3c
     player_name "И что?"
     show player 14
-    player_name "Что если мы найдем тебе девушку геймершу?"
+    player_name "Что если мы найдем тебе девушку-геймершу?"
     show player 1
     show erik 5
-    eri "Девушку геймершу..."
+    eri "Девушку-геймершу..."
     show erik 4
-    eri "Я... я думаю да?"
+    eri "Я... я думаю, да?"
     show player 4
     show erik 1
-    player_name "хмм..."
+    player_name "Хмм..."
     show player 14
     player_name "Ты знаешь девушек в школе кому нравятся видео-игры?"
     show player 11
@@ -83,7 +83,7 @@ label june_intro:
     eri "Ну... Есть одна девушка из другого класса... Она довольна милая."
     show player 14
     show erik 1
-    player_name "Эту девушка в школе которая тебе нравятся"
+    player_name "Эту девушку в школе которая тебе нравятся."
     show player 1
     show erik 5
     eri "Я не знаю... она просто выглядит... прекрасно!"
@@ -119,7 +119,7 @@ label june_intro:
     player_name "Хорошо, ну, это может быть немного сложнее чем я думал."
     show player 11
     show erik 3
-    eri "Может быть нам нужно просто сдаться.."
+    eri "Может быть нам нужно просто сдаться."
     show erik 2
     eri "*Вздох*"
     show player 10
@@ -142,7 +142,7 @@ label june_intro:
     eri "Да. Он на втором этаже..."
     show player 14
     show erik 1
-    player_name "Я пойду посмотрю на неё, возможно я попробую сделать что ни будь для тебя."
+    player_name "Я пойду посмотрю на неё, возможно я попробую сделать что-нибудь для тебя."
     show player 1
     show erik 4
     eri "Хорошо, спасибо, мужик."
@@ -191,14 +191,14 @@ label erik_bullying:
     scene expression game.timer.image("eriks_room{}_c")
     show player 13 at left with dissolve
     show erik 5 at right with dissolve
-    eri "Хэй, {b}[firstname]{/b}."
+    eri "Привет, {b}[firstname]{/b}."
     eri "Как поживаешь?"
     show erik 1
     show player 14
     player_name "Я довольно хорошо."
     show player 12
     player_name "Как насчет тебя?"
-    player_name "Ты недавно пропустил занятия ?"
+    player_name "Ты недавно пропустил занятия?"
     show player 5
     show erik 2 with dissolve
     eri "..."
@@ -212,14 +212,14 @@ label erik_bullying:
     player_name "Я просто решил тебя проведать, вот и все."
     show player 5
     show erik 5
-    eri "Что ж... {b}Декстер{/b} издевается надо мной каждый раз когда после твоего ухода..."
+    eri "Что ж... {b}Декстер{/b} издевается надо мной каждый раз после твоего ухода..."
     eri "Очень трудно ходить в школу зная что он будет там тоже. Ждать..."
     show erik 3b
     show player 12
     player_name "Что случилось когда я ушел?"
     show player 5
     show erik 5
-    eri "Несколько недель назад, Я сидел в столовой и он подощел ко мне..."
+    eri "Несколько недель назад, Я сидел в столовой и он подошел ко мне..."
     show erik 3
     eri "...Он сказал что хочет копию моей домашки для урока {b}Мисс Биссетта{/b}."
     show player 12
@@ -249,7 +249,7 @@ label erik_bullying:
     player_name "Я рад что ты рассказал мне."
     show player 30
     player_name "Дай мне знать если он потревожит тебя снова."
-    player_name "И надеюст он сможет сосредоточить свое внимание на ком то другом!"
+    player_name "И надеюсь он сможет сосредоточить свое внимание на ком то другом!"
     show player 13
     show erik 5
     eri "Хорошо, спасибо {b}[firstname]{/b}."
@@ -259,8 +259,8 @@ label erik_bullying:
     show player 13
     show erik 5
     eri "Да, я думаю..."
-    eri "Но,можешь пожалуйста не говорить {b}Миссис Джонсон{/b} что у меня проблемы в школе?"
-    eri "Я не хочу чтобы она слишком волновалась.."
+    eri "Но, можешь пожалуйста не говорить {b}Миссис Джонсон{/b} что у меня проблемы в школе?"
+    eri "Я не хочу чтобы она слишком волновалась."
     show erik 3b
     show player 2
     player_name "Хорошо."
