@@ -51,29 +51,29 @@ label erik_cards:
         with dissolve
         eri "Круто!"
         eri "Вот, ты должен увидеть новую карту которую я получил."
-        eri "Я почти уверен что это будет быстра победа в предстоящем турнире!"
+        eri "Я почти уверен что это будет быстрая победа в предстоящем турнире!"
         show erik 38
         eri "..."
         eri "Где она?"
         pause
         show player 11
-        eri "НЕТ! Её сдесь нет!"
+        eri "НЕТ! Её здесь нет!"
         show player 12
         player_name "Ты уверен?"
         show player 11
         show erik 37
-        eri "Да,я уверен! Я немогу в это поверить! Моя карта {b}Королевский член с шипами{/b} пропала!!"
+        eri "Да, я уверен! Я немогу в это поверить! Моя карта {b}Кольцо с шипами на королевский член{/b} пропала!!"
         show erik 2 at right
         if player.location == L_school_scienceclassroom:
             show erikl 2 at right
         with dissolve
         eri "Что мне теперь делать?"
-        eri "Я полностью в жопе"
+        eri "Я в полной жопе."
         show erik 3
         if player.location == L_school_scienceclassroom:
             show erikl 1f at right
         with dissolve
-        eri "Это была самой... Ценной..."
+        eri "Она была самой... Ценной..."
         show player 34
         player_name "Хмм..."
         show player 33
@@ -86,7 +86,7 @@ label erik_cards:
         player_name "Я могу достать тебе ещё одну."
         show player 13
         show erik 5
-        eri "И как ты собираешься это сделать"
+        eri "И как ты собираешься это сделать?"
         show erik 3b
         show player 35
         player_name "Они продают эти карты в {b}Cosmic Cumics{/b} не так ли?"
@@ -98,7 +98,7 @@ label erik_cards:
         show erik 3b
         pause
         show player 14
-        player_name "Не волнуйся, чувак. Я работаю сейчас на {b}[deb_name]{/b} подруги {b}Дианы{/b}."
+        player_name "Не волнуйся, чувак. Я работаю сейчас на {b}[deb_name]{/b}, подругу {b}Дианы{/b}."
         show player 13
         show erik 4
         eri "Ты реально купишь мне новую? Ты лучший, чувак!"
@@ -106,7 +106,7 @@ label erik_cards:
         show player 14
         player_name "Я рад помочь!"
         show player 17
-        player_name "Кроме того, Я хочу увидеть как ты выйграешь этот турнир!"
+        player_name "Кроме того, Я хочу увидеть как ты выиграешь этот турнир!"
         $ player.remove_item("eriks_cards")
         $ erik_card_hunt.finish()
         $ erik.add_event(erik_crown_card)
@@ -117,7 +117,7 @@ label erik_cards:
         show player 11
         show erik 5
         eri "Хммм... Я думаю что в последний раз Я взял их отсюда и оставил здесь."
-        eri "Я играл в подвале... Но, {b}Миссис Джонсон{/b} может куда то их засунула..."
+        eri "Я играл в подвале... Но, {b}Миссис Джонсон{/b} возможно куда-то их засунула..."
         show erik 1
         show player 14
         player_name "Я помогу тебе их найти."
@@ -139,7 +139,7 @@ label erik_crown_card:
         player_name "Я получил карту которую ты хотел."
         show player 13
         show erik 4
-        eri "{b}Королевский член с шипами{/b}!?"
+        eri "{b}Кольцо с шипами на королевский член{/b}!?"
         show erik 1
         show player 2
         player_name "Ага!"
@@ -172,7 +172,7 @@ label erik_crown_card:
             show erikl 30 at right
         with dissolve
         show player 10
-        player_name "Карт"
+        player_name "Карт-"
         show player 11
         show erik 31
         eri "Это одна из моих любимых... Но у меня есть несколько экземпляров..."
@@ -224,7 +224,7 @@ label erik_crown_card:
         player_name "Какая карта пропала ещё раз?"
         show player 11
         show erik 5
-        eri "Хмм... Она назывется {b}Королевский член с шипами{/b}."
+        eri "Хмм... Она назывется {b}Кольцо с шипами на королевский член{/b}."
         eri "Ты сказал что ты сможешь её найти в {b}Cosmic Cumics{/b}?"
         show erik 1
         show player 14
@@ -252,18 +252,18 @@ label erik_package:
         if player.location == L_school_scienceclassroom:
             show erikl 42 at right
         with dissolve
-        eri "приятно!"
+        eri "Приятно!"
         eri "Эта штука выглядит... Круто!"
-        eri "Он даже имеет цвет в самы раз..."
+        eri "Он даже имеет цвет в самый раз..."
         show player 14
         player_name "Ты когда нибудь пользовался этим раньше?"
         show player 13
         show erik 44
         eri "Нет, но я всегда хотел попробовать!"
-        eri "{b}Миссис Джонсон{/b} ничего не видела? Я не хочу что бы она была в бешенстве..."
+        eri "{b}Миссис Джонсон{/b} ничего не видела? Я не хочу чтобы она была в бешенстве..."
         show erik 42
         show player 12
-        player_name "Хех, я думаю она бы с этим смирилась.Она кажется очень классной!"
+        player_name "Хех, я думаю она бы с этим смирилась. Она кажется очень классной!"
         show player 13
         show erik 44
         eri "Может быть..."
@@ -280,7 +280,7 @@ label erik_package:
         show player 18
         player_name "..."
         show player 17
-        player_name "Ох {b}Эрик{/b}..."
+        player_name "Ох, {b}Эрик{/b}..."
         show player 18
         show erik 44
         eri "Что?!"
@@ -305,10 +305,10 @@ label erik_package:
     else:
         show erik 1 at right
         show player 12 at left
-        player_name "Что за предмет ты хотел ещё раз?"
+        player_name "Что за предмет ты хотел?"
         show player 13
         show erik 5
-        eri "Это что то вроде резинового трубы... Называется {b}Orcette{/b}..."
+        eri "Это что-то вроде резиновой трубы... Называется {b}Orcette{/b}..."
         eri "Ты можешь найти его в Интернете."
         show erik 1
         show player 14
@@ -330,10 +330,10 @@ label erik_vr_game:
         show player 239_240
         pause
         show player 400
-        player_name "Я получил Гарнитуру!"
+        player_name "Я получил VR Гарнитуру!"
         show player 399
         show erik 4
-        eri "Ох да?!"
+        eri "Ох, да?!"
         show player 13 with dissolve
         show erik 46
         if player.location == L_school_scienceclassroom:
@@ -357,19 +357,19 @@ label erik_vr_game:
         show erik 47
         eri "Спасибо, {b}[firstname]{/b}."
         eri "Я уже упоминал о наличие людей в подвале с {b}Миссис Джонсон{/b}."
-        eri "Она не возражала что бы мы использовали его."
+        eri "Она не возражала чтобы мы использовали его."
         eri "Она всегда была печальна от того что у меня никогда не было друзей..."
         show erik 45
         show player 14
         player_name "Круто!"
         show player 33
-        player_name "Хмм... Я уже начал думать кого же мы могли бы приглосить."
+        player_name "Хмм... Я уже начал думать кого же мы могли бы пригласить."
         show player 13
         show erik 47
         eri "Я никого не знаю, но я бы пошел неважно кого бы ты там не нашел!"
         show erik 45
         show player 14
-        player_name "хорошо!"
+        player_name "Хорошо!"
         show player 13
         show erik 46
         eri "Спасибо еще раз за Гарнитуру! Не терпится уже ее опробовать!"
@@ -407,7 +407,7 @@ label erik_vr_game:
         eri "В {b}Cosmic Cumics{/b}."
         show erik 1
         show player 14
-        player_name "Хорошо. Пойду посмотрю если смогу найти его там.."
+        player_name "Хорошо. Пойду посмотрю если смогу найти его там."
         show player 13
         show erik 4
         eri "Спасибо, {b}[firstname]{/b}!"
@@ -421,21 +421,21 @@ label sock_pile_book_search:
     scene expression game.timer.image("eriks_room{}_c")
     show player 517 with dissolve
     player_name "Хмм, что с этими носками?"
-    player_name "Они твердые как дерево"
+    player_name "Они твердые как дерево."
     show player 516
     player_name "..."
     show player 517
     player_name "Грубое..."
-    player_name "Я даже не буду беспокоится что бы капаться здесь ради книги здесь..."
+    player_name "Я даже не буду беспокоится чтобы капаться здесь ради книги..."
     hide player with dissolve
     $ game.main()
 
 label dresser_book_search:
     scene expression game.timer.image("backgrounds/location_erik_house_bedroom_dresser_day{}.jpg")
     player_name "!!!"
-    player_name "Они изпачканы?"
+    player_name "Они испачканы?"
     pause
-    player_name "В его коммоде такой же беспорядок как и в его комнате!"
+    player_name "В его комоде такой же беспорядок как и в его комнате!"
     $ game.main()
 
 label under_bed_book_search:
@@ -445,7 +445,7 @@ label under_bed_book_search:
     player_name "...Подождите минутку! Вот и книга под этим!"
     call screen under_eriks_bed
 
-    player_name "Мило, вот оно!"
+    player_name "Мило, вот она!"
     hide book_03
     show book_04_c with dissolve
     player_name "{b}Oedipuss{/b}?"
