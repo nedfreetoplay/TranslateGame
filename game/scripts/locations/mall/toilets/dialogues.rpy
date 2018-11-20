@@ -43,7 +43,7 @@ label rump_toilets_stall_block_dialogue:
     show player 37 at left with dissolve
     player_name "( ... )"
     show player 38
-    player_name "( Это был мер Рамп?! )"
+    player_name "( Это был мэр Рамп?! )"
     show player 22
     show rump_guard 1 at right
     with hpunch
@@ -51,7 +51,7 @@ label rump_toilets_stall_block_dialogue:
     show rump_guard 2
     guard "Эй!"
     guard "Здесь никому нельзя находиться!"
-    guard "Ты должен уйти от сюда прямо СЕЙЧАС!!!"
+    guard "Ты должен уйти отсюда прямо СЕЙЧАС!!!"
     scene black with fade
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
