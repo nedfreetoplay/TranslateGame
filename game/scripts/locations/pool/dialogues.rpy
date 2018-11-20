@@ -99,7 +99,7 @@ label pool_cassie_after_fun:
         show player 22
     ron "!!!"
     ron "Это не-"
-    ron "Я этого не говорила"
+    ron "Я этого не говорила."
     show ronda 10
     if wearing_swimsuit:
         show player 51f
@@ -113,13 +113,13 @@ label pool_cassie_after_fun:
         show player 50f
     else:
         show player 17
-    player_name "...Ну, вообще-то, она была очень добра ко мне"
+    player_name "...Ну, вообще-то, она была очень добра ко мне."
     show ronda 8
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
-    ron "Угх. Ну ты и свинья"
+    ron "Угх. Ну ты и свинья."
     hide player
     hide ronda
     with dissolve
@@ -278,7 +278,7 @@ label pool_cutscene01_dialogue:
 
 label pool_cutscene02:
     show poolcutscene01 with dissolve
-    show text "Я в бассейне не в первый раз и уже научился держать нужный темп.\nЯ могу без проблем проплыть несколько кругов и закончить свою тренеровку!." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я в бассейне не в первый раз и уже научился держать нужный темп.\nЯ могу без проблем проплыть несколько кругов и закончить свою тренеровку!" at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
@@ -324,8 +324,8 @@ label poolrules03_dialogue:
     else:
         show player 11
     cas "Эй!"
-    cas "Это мед комната."
-    cas "Ты не можешь туда войти. Она только для персонала"
+    cas "Это мед. комната."
+    cas "Ты не можешь туда войти. Она только для персонала."
     if wearing_swimsuit:
         show player 51f
     else:
@@ -381,7 +381,7 @@ label changing_dialogue_occupied_after:
         Character("Olivia") "Эй, сначала купи мне выпить!"
 
     elif rand_girl == 4:
-        Character("Ivy") "Hey, сначала купи мне выпить!"
+        Character("Ivy") "Эй, сначала купи мне выпить!"
 
     elif rand_girl == 5:
         Character("Amelie") "Эй! Проваливай отсюда!!!"
@@ -439,7 +439,7 @@ label changing_caught:
     player_name "Но тут нет двери, чтобы постучать-"
     show player 11f
     show cassie 59
-    cas "Можешь оправдываться перед кем-то ещё"
+    cas "Можешь оправдываться перед кем-то ещё."
     show player 23f with hpunch
     cas "Тебе {b}запрещено{/b} посещать бассейн."
     show player 10f
@@ -577,7 +577,7 @@ label pool_rescued_dialogue:
     player_name "{b}*Кха*{/b}"
     show cassie 14
     cas "...От тебя как-то слишком много проблем..."
-    cas "Я забираю тебя в мед команту, пока ты не придешь в себя."
+    cas "Я забираю тебя в мед. команту, пока ты не придешь в себя."
     return
 
 label medic_room_dialogue_count_0:
@@ -588,7 +588,7 @@ label medic_room_dialogue_count_0:
     show cassie 37
     player_name "Я в норме..."
     show cassie 36
-    cas "Хоршо, что ты не захлебнулся..."
+    cas "Хорошо, что ты не захлебнулся..."
     show cassie 41
     cas "...Ты что, не умеешь плавать?!"
     show cassie 38
@@ -609,7 +609,7 @@ label medic_room_dialogue_count_0:
     cas "Хаха!"
     cas "Хмм... Ладно..."
     show cassie 41
-    cas "Ты когда нибудь был... Ну знаешь, близок с девушкой?"
+    cas "Ты когда-нибудь был... Ну знаешь, близок с девушкой?"
     show cassie 44
     player_name "Да... Конечно! Это постоянно происходит..."
     show cassie 41
@@ -679,7 +679,7 @@ label medic_room_dialogue_count_0_do_not_feel_like_it:
     cas "Ничего удивительного, ты ведь никогда не был с девушкой..."
     show cassie 44
     player_name "Я просто подожду, пока это не пройдет..."
-    player_name "И спасибо, что спасли меня..."
+    player_name "И, спасибо, что спасли меня..."
     show cassie 41
     cas "...Без проблем..."
     hide cassie with dissolve
@@ -699,7 +699,7 @@ label medic_room_dialogue_count_1:
     show cassie 52
     show player 51
     cas "Слушай, эта комната только для персонала, окей?"
-    cas "Так что я не могу впускать сюда кого попало..."
+    cas "Так что я не могу впустить сюда кого попало..."
     show cassie 54
     cas "...Но для тебя я сделаю исключение."
     show cassie 53
@@ -707,7 +707,7 @@ label medic_room_dialogue_count_1:
     player_name "Правда?"
     show cassie 52
     show player 51
-    cas "Только не говори никому"
+    cas "Только не говори никому."
     show cassie 53
     show player 50
     player_name "...конечно {b}Кэсси{/b}!"
