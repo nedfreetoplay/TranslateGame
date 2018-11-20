@@ -25,7 +25,7 @@ label telescope_backyard_afternoon_2:
 
 label telescope_backyard_afternoon_3:
     scene windowbackyardday03
-    player_name "( {b}Mrs. Johnson{/b} всегда занимается йогой... )"
+    player_name "( {b}Миссис Джонсон{/b} всегда занимается йогой... )"
     player_name "( Думаю, ей нравится оставаться в форме. )"
     return
 
