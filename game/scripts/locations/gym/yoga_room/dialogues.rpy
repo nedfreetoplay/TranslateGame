@@ -90,7 +90,7 @@ label yoga_room_mrsj_yoga_help_started_pre_first:
     show player 386
     player_name "Ну, {b}Миссис Джонсон{/b} дала мне этот список с указаниями."
     show player 381
-    player_name "Я посмотрел их немного... Думаю,я справлюсь."
+    player_name "Я посмотрел их немного... Думаю, я справлюсь."
     if not M_anna.is_state(S_anna_start):
         show player 386
         player_name "Она сказала что ты может быть сможешь помочь мне?"
@@ -113,7 +113,7 @@ label yoga_room_mrsj_yoga_help_started_pre_first:
         show anna 3
         anna "Я надеялась ты знаешь что ты делаешь. Ха ха!"
         show anna 2
-        anna "Я здесь что бы помочь тебе с движениями, не волнуйся."
+        anna "Я здесь чтобы помочь тебе с движениями, не волнуйся."
     return
 
 label yoga_room_mrsj_yoga_help_started_intro:
@@ -246,7 +246,7 @@ label yoga_room_class_1st_position_success:
     show player 411 at left
     show anna 18
     with dissolve
-    anna "Это было отлично!Я уже чувствую себя намного гибче!"
+    anna "Это было отлично! Я уже чувствую себя намного гибче!"
     show anna 17
     show player 412
     return
@@ -435,7 +435,7 @@ label yoga_room_strangers_only:
     with dissolve
     player_name "( Здесь никого нет из моих знакомых... )"
     show player 35
-    player_name "( Возможно,я должен придти в другой раз... )"
+    player_name "( Возможно, я должен придти в другой раз... )"
     hide player 35 with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
