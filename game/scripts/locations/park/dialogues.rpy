@@ -39,27 +39,27 @@ label park_rap_battle:
                     $ tips = False
                 while not end_while_rapbattle:
                     menu:
-                        "Чико":
+                        "Чико.":
                             $ end_while_rapbattle = True
                             $ rap_opponent = "Чико"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
-                        "<>[chr_warn]Чад" if player.stats.chr() < 4:
+                        "<>[chr_warn]Чад." if player.stats.chr() < 4:
                             $ end_while_rapbattle = True
                             $ pass
 
-                        "Чад" if player.stats.chr() >= 4:
+                        "Чад." if player.stats.chr() >= 4:
                             $ end_while_rapbattle = True
                             $ rap_opponent = "Чад"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
-                        "<>[chr_warn]Тайрон" if player.stats.chr() < 7:
+                        "<>[chr_warn]Тайрон." if player.stats.chr() < 7:
                             $ end_while_rapbattle = True
                             $ pass
 
-                        "Тайрон" if player.stats.chr() >= 7:
+                        "Тайрон." if player.stats.chr() >= 7:
                             $ end_while_rapbattle = True
                             $ rap_opponent = "Тайрон"
                             call expression game.dialog_select("park_rap_battle_opponent")
@@ -71,7 +71,7 @@ label park_rap_battle:
                         "Подсказки: ВЫКЛЮЧЕНЫ" if not tips:
                             $ tips = True
 
-                        "Пропустить Мини игру (Чит)" if game.cheat_mode:
+                        "Пропустить Мини игру (Чит)." if game.cheat_mode:
                             $ end_while_rapbattle = True
                             $ game.timer.tick()
                             $ player.stats.increase("chr")
@@ -429,7 +429,7 @@ label park_rap_battle_opponent_tyrone:
     tyrone "Ay, кто этот дурак?"
     show tyrone 1
     show player 2
-    player_name "Хей Я-"
+    player_name "Хей, Я-"
     show player 3
     show tyrone 3
     tyrone "Разве я спрашивал тебя?"
@@ -843,12 +843,12 @@ label park_pilly_button_dialogue:
     show clyde 1
     show player 10f
     player_name "Лучше быстро исчезни, если ты не хочешь оказаться в тюрьме."
-    player_name "{b}Рокси{/b}, и я {b}завтра превратим это в полицию{/b}."
+    player_name "{b}Рокси{/b}, и я {b}завтра передадим это в полицию{/b}."
     show player 5f
     show clyde 4 with dissolve
     clyde "Не волнуйся, ничего страшного."
     clyde "К тому времени меня уже не будет, приятель!"
-    clyde "Просто позаботься о своей кузине!"
+    clyde "Просто позаботься о моей кузине!"
     show clyde 3
     player_name "..."
     hide clyde with dissolve
