@@ -208,7 +208,7 @@ label moms_bedroom_mom_dinner_outfit:
     scene home_livingroom_b
     show player 35
     with dissolve
-    player_name "Я лучше не буду забывать, что сегодня на ужин {b}рыба{/b}. Что за рыбу она просила принести?"
+    player_name "Мне лучше не буду забывать, что сегодня на ужин {b}рыба{/b}. Что за рыбу она просила принести?"
     show player 34
     return
 
