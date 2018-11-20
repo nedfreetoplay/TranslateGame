@@ -978,7 +978,7 @@ label science_classroom_okita_has_faptic_try_again:
     scene location_school_science_closeup
     show player 2 at left
     show okita 4 at right
-    player_name "Хорошо, {b}Miss Okita{/b}. Думаю, на этот раз у меня получилось лучше."
+    player_name "Хорошо, {b}Мисс Окита{/b}. Думаю, на этот раз у меня получилось лучше."
     show player 1
     show okita 9
     okita "Ты не можешь сделать ничего хуже."
@@ -1218,7 +1218,7 @@ label button_okita_tinkered_belt:
     okita "Надо... прилечь...."
     show okita 78f
     show principal 27
-    smi "Господи, {b}Tori{/b}."
+    smi "Господи, {b}Тори{/b}."
 
     smi "Кто нибудь подойдите и помогите {b}Мисс Окита{/b} пройти в ее кабинет!"
     show player 10 zorder 0 at left
@@ -1347,7 +1347,7 @@ label science_classroom_dewitt_science_adhesive:
     with dissolve
     show player 14 zorder 1 at Position (xoffset=-84)
     with dissolve
-    player_name "Как продвигаются дела, {b}Kevin{/b}?"
+    player_name "Как продвигаются дела, {b}Кэвин{/b}?"
     show player 13 at Position (xoffset=-84)
     show kevin labcoat 3 with dissolve
     kev "Не беспокойся, братан! Я получил его прямо здесь."
@@ -1471,7 +1471,7 @@ label science_classroom_dewitt_science_adhesive:
     eve "Не поймите меня неправильно... Мне нравится немного озорства, но это слишком рискованно!"
     show eve 1
     show player 14
-    player_name "Все в порядке, {b}Ив{/b}. {b}Кэвин{/b} и я сделаем все."
+    player_name "Все в порядке, {b}Ева{/b}. {b}Кэвин{/b} и я сделаем все."
     show player 13
     show kevin 33
     kev "..."
@@ -1486,7 +1486,7 @@ label science_classroom_dewitt_science_adhesive:
     player_name "Что?! После всех твоих громких разговоров?"
     show player 5
     show kevin 22 with dissolve
-    kev "... Извени, {b}[firstname]{/b}."
+    kev "... Извини, {b}[firstname]{/b}."
     show kevin 24b with dissolve
     show player 37 with dissolve
     player_name "..."
@@ -1495,7 +1495,7 @@ label science_classroom_dewitt_science_adhesive:
     show eve 1
     show player 12 with dissolve
     player_name "Я все еще собираюсь пройти через это."
-    player_name "Я не могу позволить {b}Директриса Смит{/b} зарубить {b}Шоу талантов{/b}!"
+    player_name "Я не могу позволить {b}Директрисе Смит{/b} зарубить {b}Шоу талантов{/b}!"
     show player 5
     show eve 2b
     eve "... Ты действительно собираешься сделать это в одиночку?"
