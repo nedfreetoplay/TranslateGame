@@ -225,7 +225,7 @@ label moms_bedroom_mom_dinner_outfit_ask:
     show player 11f
     player_name "( !!! )" with hpunch
     show debbie 161
-    deb "Милый!Я все еще переодеваюсь!"
+    deb "Милый! Я все еще переодеваюсь!"
     show player 21f
     show debbie 152 with fastdissolve
     player_name "О, И... Извени!"
@@ -967,7 +967,7 @@ label mom_bed_panties_masturbation_i_like_you:
     show player 159
     pause .2
     show player 160 with dissolve
-    player_name "хух, хуууух, хууууух..."
+    player_name "Хух, хуууух, хууууух..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 24b
     else:
@@ -1075,7 +1075,7 @@ label mom_bed_sleep_together_pre:
     deb "Да, все должно быть в порядке. Если ты проснешься рано и вернешься в свою комнату до того, как {b}[jen_name]{/b} проснется."
     show debbie 82
     show player 111
-    player_name "Я смогу этосделать."
+    player_name "Я смогу это сделать."
     scene debbie_cuddle
     with fade
     show debbies 77
@@ -1606,7 +1606,7 @@ label mom_sex_loop_pre_suck_tits:
     player_name "Могу я поцеловать твою грудь?."
     show debbies 68
     deb "Быть нежными."
-    deb "Они чувствительны."
+    deb "Они чувствительные."
     return
 
 label mom_sex_loop_pre_cowgirl:
