@@ -3,7 +3,7 @@ label park_bushes_erik_father_treasure_started:
     show player 4 with dissolve
     player_name "Хмм..."
     show player 12 with dissolve
-    player_name "( Выгядит так как буд то здесь есть тайник. )"
+    player_name "( Выгядит так как буд-то здесь есть тайник. )"
     show player 14
     player_name "( Может {b}отец Эрика{/b} говорил правду. )"
     player_name "( Надо осмотреться. )"
@@ -15,7 +15,7 @@ label park_bushes_mia_stolen_goods:
     show player 4 with dissolve
     player_name "Хмм..."
     show player 12 with dissolve
-    player_name "( Отличное место чтобы что то скрыть. )"
+    player_name "( Отличное место чтобы что-то скрыть. )"
     show player 14
     player_name "( Надо осмотреться. )"
     hide player with dissolve
