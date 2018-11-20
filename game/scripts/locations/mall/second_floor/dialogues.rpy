@@ -22,7 +22,7 @@ label photo_booth_roxxy_take_picture:
     show player 14
     player_name "Да!"
     show player 26
-    player_name "Ты всегда красиво выглядишь.!"
+    player_name "Ты всегда красиво выглядишь!"
     show player 13
     show roxxy 4
     rox "..."
@@ -40,7 +40,7 @@ label photo_booth_roxxy_take_picture:
     player_name "..."
     rox "..."
     show roxxy 1h
-    rox "Хорошо, я собираюсь войти.."
+    rox "Хорошо, я собираюсь войти."
     hide roxxy_booth
     show roxxy booth 2
     with dissolve
@@ -55,7 +55,7 @@ label photo_booth_roxxy_take_picture:
     show player 10
     player_name "Ты уверена, что знаешь, как все работает?"
     show player 5
-    rox "Это не высшая математика,!"
+    rox "Это не высшая математика!"
     rox "Ты просто кладешь деньги и нажимаешь кнопку."
     show player 14
     player_name "Хех, хорошо."
@@ -87,7 +87,7 @@ label photo_booth_roxxy_take_picture:
     pause
     scene expression "backgrounds/location_mall_upstairs_booth_inside.jpg"
     show roxxy booth 5 at right with dissolve
-    rox "Скажи сыыр, {b}[firstname]{/b}!"
+    rox "Скажи сыыыыыыр, {b}[firstname]{/b}!"
     show roxxy booth 6 with dissolve
     player_name "Стой, стой, стой!!!"
     show roxxy booth 7 with dissolve
@@ -143,7 +143,7 @@ label photo_booth_roxxy_take_picture:
     player_name "Я не собираюсь... Я имею в виду Я не-"
     show player 5
     show roxxy 2
-    rox "Неважно,извращенец!"
+    rox "Неважно, извращенец!"
     show roxxy 3c
     rox "Не кому больше этого не показывай!"
     rox "Если {b}Декстер{/b} узнает об этом он убьет нас обоих!"
