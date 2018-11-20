@@ -44,7 +44,7 @@ label map_erik_intro_in_progress:
     eri "Работы, где я мог бы просто сидеть за компьютером и играть в игры весь день..."
     show erik 1
     show player 14
-    player_name "О! Блин компьтер... Кажется, мой {b}сломалась{/b}?"
+    player_name "О! Блин, компьютер... Кажется, мой {b}сломался{/b}."
     show player 35
     player_name "Я думаю, что мне нужно заменить некоторые части в нем, или что-то..."
     show player 12
@@ -58,7 +58,7 @@ label map_erik_intro_in_progress:
     player_name "Хорошо, пойду проверю!"
     show erik 7
     show player 36
-    eri "Увидемся позже!"
+    eri "Увидимся позже!"
     hide erik
     hide player
     with dissolve
