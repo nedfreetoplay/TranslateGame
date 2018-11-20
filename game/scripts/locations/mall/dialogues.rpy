@@ -14,20 +14,20 @@ label mall_mom_mall_outing:
     deb "Еще раз спасибо, что пошел со мной, милый!"
     show player 14
     show debbie 164
-    player_name "Без проблем, {b}[deb_name]{/b}.Мне весело!"
+    player_name "Без проблем, {b}[deb_name]{/b}. Мне весело!"
     show player 13
     show debbie 166
     deb "Я тоже!"
     show debbie 164
     deb "..."
     show debbie 165
-    deb "Есть ли магазины ,в которые ты бы хотел пойти пока мы здесь?"
+    deb "Есть ли магазины, в которые ты бы хотел пойти пока мы здесь?"
     show player 14
     show debbie 164
     player_name "Хмм, Нет, не совсем."
     show player 13
     show debbie 165
-    deb "Хорошо,тогда {b}Tammy{/b} рассказала мне об этом {b}новом магазине{/b} который недавно открылся."
+    deb "Хорошо, тогда, {b}Тэмми{/b} рассказала мне об этом {b}новом магазине{/b}, который недавно открылся."
     deb "Я думаю она сказала что он называется, {b}Cupid{/b}."
     deb "Мы должны пойти и его заценить! Что скажешь?"
     show player 14
@@ -35,7 +35,7 @@ label mall_mom_mall_outing:
     player_name "Конечно, {b}[deb_name]{/b}. Хорошо."
     show player 13
     show debbie 165
-    deb "... Это должно быть на {b}Втором этаже{/b}."
+    deb "... Он должно быть на {b}Втором этаже{/b}."
     show debbie 167 at right with dissolve
     deb "Показывай путь, дорогой."
     hide player
@@ -58,12 +58,12 @@ label mall_roxxy_fake_id_ask_terry:
     show roxxy 1
     show player 29 with dissolve
     player_name "Я незнаю."
-    player_name "Достаточно хорошие,Я думаю..."
+    player_name "Достаточно хорошие, Я думаю..."
     show player 13 with dissolve
     show roxxy 1l with dissolve
     rox "Хммм..."
     show roxxy 1d
-    rox "Так что если бы у тебя была девушка... ты мог бы.. покупать её вещи и разные штуковины, хм?"
+    rox "Так что если бы у тебя была девушка... ты мог бы... покупать её вещи и разные штуковины, хм?"
     show roxxy 1e
     show player 12
     player_name "Эмм, да. Я думаю."
