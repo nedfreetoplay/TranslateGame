@@ -12,7 +12,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 642 at left
     show erik 4 at right
     with dissolve
-    eri "Хэй!"
+    eri "Привет!"
     eri "Как дела, чувак?!"
     show erik 1
     show player 641
@@ -133,7 +133,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 12f at right
     show erik 51f
     with dissolve
-    player_name "Мы должны что то сделать!"
+    player_name "Мы должны что-то сделать!"
     show player 90f
     show erik 3bf
     eri "Н-но... {b}Декстер{/b} убьет нас!"
@@ -158,7 +158,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     becca "Да пошел ты, {b}Декстер{/b}!"
     hide dexter
     show becca 18
-    dex "Грбольно!" with hpunch
+    dex "Гр, больно!" with hpunch
     show dexter 41 at Position (xoffset=-80)
     show becca 2b
     with dissolve
@@ -205,14 +205,14 @@ label school_righthallway_roxxy_go_in_auditorium:
     becca "Я никогда раньше его таким не видела!"
     show becca 19
     show player 12f
-    player_name "Что ж не волнуйся.Я не думаю что он попробует сделать что-то подобное снова..."
+    player_name "Что ж не волнуйся. Я не думаю что он попробует сделать что-то подобное снова..."
     show player 14f
     show dexter 41 zorder 0 at Position (xpos=400) with dissolve
-    player_name "... Мэн ты действительно получил хорошо!"
+    player_name "... Черт, ты действительно получил хорошо!"
     show player 13f
     dex "{b}*Кашель*{/b} Охх... Мои... Бубенчики..."
     show roxxy 3cf at Position (xpos=75) with dissolve
-    rox "Что черт возьми здесь проиходит-"
+    rox "Что, черт возьми, здесь проиходит?"
     show roxxy 2cf
     rox "Что случилось с {b}Беккой{/b}?"
     show roxxy 27f at Position (xoffset=34) with dissolve
@@ -257,7 +257,7 @@ label school_righthallway_roxxy_go_in_auditorium:
             player_name "... Нет?"
             show player 90f
             show roxxy 2f
-            rox "Охх, да.Он бы просто уничтожил тебя."
+            rox "Охх, да. Он бы просто уничтожил тебя."
             rox "Не будь идиотом."
             show roxxy 1f f
             show dexter 41 at Position (xoffset=2)
@@ -346,7 +346,7 @@ label school_righthallway_roxxy_go_in_auditorium:
             player_name "... Нет?"
             show player 5f
             show roxxy 2f
-            rox "Охх, да.Он бы просто уничтожил тебя."
+            rox "Охх, да. Он бы просто уничтожил тебя."
             rox "Не будь идиотом."
             show roxxy 1f f
             show dexter 41 at Position (xoffset=2)
@@ -372,7 +372,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 13f
     player_name "..."
     show erik 3b
-    eri "... Итак,ты теперь подружился с ними, хм?"
+    eri "... Итак, ты теперь подружился с ними, хм?"
     show erik 52
     show player 14 at Position (xpos=700) with dissolve
     player_name "Да, немного."
@@ -385,7 +385,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     show dexter 41 at Position (xoffset=0)
     show player 11
     show erik 3b
-    eri "... Охх, нам стоит убираться от сюда."
+    eri "... Охх, нам стоит убираться отсюда."
     show erik 52
     show player 12
     player_name "Да, пошли."
@@ -469,7 +469,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     hide roxxy with dissolve
     pause
     show erik 4 with dissolve
-    eri "Вау,чувак!"
+    eri "Вау, чувак!"
     eri "Конкурс бикини?!"
     eri "Это так круто!"
     show erik 1
@@ -486,7 +486,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     player_name "Давай мужик, подумай о всех тех бикини!"
     show player 13
     show erik 3b
-    eri "Ты спятил?!Я не могу пропустить рейд!"
+    eri "Ты спятил?! Я не могу пропустить рейд!"
     eri "Это МИНУС 50 ДКР!"
     show erik 52
     show player 10
@@ -496,7 +496,7 @@ label school_righthallway_roxxy_go_in_auditorium:
     eri "Это очень важно, чувак!"
     show erik 52
     show player 14
-    player_name "Хех, хорошо. Отлино."
+    player_name "Хех, хорошо. Отлично."
     player_name "Я думаю, я тогда пойду один..."
     show player 13
     show erik 3b
