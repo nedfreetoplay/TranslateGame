@@ -74,7 +74,7 @@ label library_jane_intro_sure:
     jan "Спасибо!"
     show jane 2
     jan "Если ищете конкретную {b}книгу{/b}, подходите ко мне."
-    jan "Я постораюсь найти их для тебя!."
+    jan "Я постораюсь найти их для тебя!"
     show jane 1
     show player 2
     player_name "Это приятно слышать! Спасибо!"
@@ -114,7 +114,7 @@ label library_ross_find_magazines:
     scene library
     show player 2
     with dissolve
-    player_name "Хмм, Мне нужно {b}найти библиотекаршу{/b} где она хранит эти журналы."
+    player_name "Хмм, Мне нужно {b}найти библиотекаршу{/b}, где она хранит эти журналы."
     return
 
 label check_out_lock:
@@ -155,7 +155,7 @@ label kamasutra:
 label kamasutra_dialogue:
     scene libraryshelf with None
     show book_02_c at truecenter with dissolve
-    player_name "Woa..."
+    player_name "Вау..."
     player_name "В этой книге есть все сексуальные...позиции?"
     player_name "Это должно быть то что она просила..."
     hide book_02_c with dissolve
@@ -188,10 +188,10 @@ label library_old_book:
 label library_old_book_dialogue:
     scene libraryshelf with None
     show closeup_book_09 at truecenter with dissolve
-    player_name "Эта книга будет полезна всем кто хочет расшифровать что то."
+    player_name "Эта книга будет полезна всем кто хочет расшифровать что-то."
     player_name "..."
     if not player.has_item("weird_coin"):
-        player_name "Хех.Может быть некоторые {b}спрятаные пиратские сокровища{/b} были кем не будь беспечно выбрашенными."
+        player_name "Хех. Может быть некоторые {b}спрятаные пиратские сокровища{/b} были кем нибудь беспечно выбрашенны."
         player_name "Но это только мои {b}беспочвенные желания{/b}."
     else:
 
