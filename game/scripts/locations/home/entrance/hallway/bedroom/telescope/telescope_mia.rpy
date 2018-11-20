@@ -101,7 +101,7 @@ label telescope_mia_sister_spying:
 label telescope_mia_morning_1:
     scene windowmiamorning01
     if game.timer.dayOfWeek() == "Sun":
-        player_name "( Она собирается в церковь.. )"
+        player_name "( Она собирается в церковь. )"
     elif game.timer.is_weekend():
         player_name "( Интересно, что она сегодня делает? )"
     else:
