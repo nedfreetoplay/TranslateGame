@@ -15,7 +15,7 @@ label shower_mom_sis_check:
     player_name "Как такое могло произойти?!"
     show player 11
     show jenny 27
-    jen "Откуда мне об этом знать? По-твоему, я похож на водопроводчика?! Я всего лишь включил раковину!"
+    jen "Откуда мне об этом знать? По-твоему, я похожа на водопроводчика?! Я всего лишь включила раковину!"
     show player 12
     show jenny 26
     player_name "Что мне прикажешь делать?"
@@ -35,7 +35,7 @@ label shower_mom_close_valve:
     show jenny 27 at right
     show player 11 at left
     with dissolve
-    jen "Вода все еще распыляется вокруг!"
+    jen "Вода все еще бежит!"
     jen "Иди в {b}подвал{/b} и закрой водопроводный {b}кран{/b}!"
     hide player
     hide jenny
@@ -50,7 +50,7 @@ label shower_mom_pipe_check:
     jen "Похоже, у тебя получилось. Вода остановилась."
     show player 12
     show jenny 26 at right
-    player_name "Да, я выключил водяной кран. Что дальше?"
+    player_name "Да, я закрыл водопроводный кран. Что дальше?"
     show player 5
     show jenny 27
     jen "О чем ты меня спрашиваешь? Я не знаю, заменить его или что-то?"
@@ -271,7 +271,7 @@ label shower_mom_walk_in_yes:
     player_name "Извени, {b}[deb_name]{/b}! Я не думал, что здесь кто-то есть!"
     deb "..."
     show debbie 35
-    deb "...Ничего.."
+    deb "...Ничего..."
     deb "Если тебе что-то нужно в ванной, просто постучи."
     deb "Я закончу через несколько минут, ладно?"
     show debbie 34
