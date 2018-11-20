@@ -28,7 +28,7 @@ label coachs_locker_locked_bissette_roxxy_pom_poms:
     show expression game.timer.image("coach_office{}_b")
     show player 12 with dissolve
     player_name "Держу пари что они в этом шкафу."
-    player_name "Похоже мне нужен ключ чтобы туда войти."
+    player_name "Похоже мне нужен ключ чтобы попасть туда."
     hide player with dissolve
     return
 
@@ -41,13 +41,13 @@ label coachs_locker_locked:
 
 label coachs_office_roxxy_pom_poms_right_time:
     show player 30 with dissolve
-    player_name "Хорошо,её здесь нет."
+    player_name "Хорошо, её здесь нет."
     show player 14
     player_name "Это мой шанс найти эти {b}Помпоны{/b}!"
     show player 3f with dissolve
     player_name "..."
     show player 38 at Position (xoffset=41) with dissolve
-    player_name "Сейчас где же они могут быть?"
+    player_name "Сейчас, где же они могут быть?"
     hide coach
     hide player
     with dissolve
@@ -69,7 +69,7 @@ label coachs_office_roxxy_pom_poms_wrong_time:
     bri "Да?"
     show coach 8
     show player 21
-    player_name "Нет,Я просто..."
+    player_name "Нет, Я просто..."
     show player 27
     show coach 9
     bri "..."
@@ -77,7 +77,7 @@ label coachs_office_roxxy_pom_poms_wrong_time:
     show player 29
     show xtra 21 at left
     with dissolve
-    player_name "Извините меня,мне нужно в туалет!"
+    player_name "Извините меня, мне нужно в туалет!"
     hide player
     hide xtra
     with dissolve
@@ -116,7 +116,7 @@ label coach_locker_pom_poms_dialogue:
     player_name "Сейчас мне только нужно отнести их назад к {b}Рокси{/b}-"
     show player 11
     bri "ДА, да! Просто направляйся по трассе и Я там тебя встречу."
-    bri "Сначала Я должна переодеться ."
+    bri "Сначала Я должна переодеться."
     show player 22
     player_name "!!!" with hpunch
     show player 23
@@ -171,7 +171,7 @@ label coachs_office_locker_peeking_dialogue:
 
     scene coach_locker_cs1
     with fade
-    show text "Здесь довольно тесно но я смог попать в шкафчик и закрыть дверь.\nКак раз вовремя,когда {b}Тренер Бриджит{/b} почти поймала меня!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Здесь довольно тесно но я смог попать в шкафчик и закрыть дверь.\nКак раз вовремя, когда {b}Тренер Бриджит{/b} почти поймала меня!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -179,7 +179,7 @@ label coachs_office_locker_peeking_dialogue:
 
     scene coach_locker_cs2
     with fade
-    show text "Все что ядолжен сейчас сделать это сидеть тихо и надеяться что она не найдем меня." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Все что я должен сейчас сделать это сидеть тихо и надеяться что она не найдем меня." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -193,7 +193,7 @@ label coachs_office_locker_peeking_dialogue:
     player_name "( Пожалуйста не смотри сюда... )"
     pause
     show coach 2
-    bri "Мэн, уверена что то там готовят снаружи."
+    bri "Мэн, уверена что-то там готовят снаружи."
     bri "Я вспотела как шлюха в церкви!"
     show coach 11 with dissolve
     player_name "( Она раздевается! )"
@@ -205,7 +205,7 @@ label coachs_office_locker_peeking_dialogue:
     player_name "( Она знает?! )"
     pause
     show coach 14 at Position (xoffset=51) with dissolve
-    bri "Я бы хотела что бы ты пропустил оружейную выстовку!"
+    bri "Я бы хотела чтобы ты пропустил оружейную выстовку!"
     player_name "( ... )"
     pause
     bri "Проклятая девченка!"
@@ -217,7 +217,7 @@ label coachs_office_locker_peeking_dialogue:
     show coach 9 with dissolve
     pause
     show coach 10
-    bri "Хмм. Кажется я что то слышала."
+    bri "Хмм. Кажется я что-то слышала."
     bri "Наверно это мое воображение..."
     hide coach with dissolve
     pause
