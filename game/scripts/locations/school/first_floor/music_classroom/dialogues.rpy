@@ -141,7 +141,7 @@ label music_classroom_dewitt_intro:
     dewitt "Я бы хотела напомнить вам, что скоро начнется смотр музыкальных талантов."
     dewitt "... И у нас остались свободные места, которые нужно заполнить."
     show dewitt 3 at Position (xoffset=-7)
-    dewitt "Помни, {b}Я предлагаю дополнительный кредит{/b} всем, кто участвует.."
+    dewitt "Помните, {b}Я предлагаю дополнительный кредит{/b} всем, кто участвует."
     player_name "!!!"
     show dewitt 2
     dewitt "Так что я надеюсь на то, что в этом году всё пройдет без каких-либо проблем!"
@@ -166,7 +166,7 @@ label music_classroom_dewitt_smith_berating:
     show dewitt 13 at left
     show principal 5 at right
     with dissolve
-    smi "Ты не можешь снова пытаться провечти этот смотр!"
+    smi "Ты не можешь снова пытаться провести этот смотр!"
     show principal 4 with dissolve
     smi "Разве прошлый год был недостаточно неловким для тебя?!"
     show principal 26 at Position (xoffset=-70)
@@ -192,7 +192,7 @@ label music_classroom_dewitt_smith_berating:
     show dewitt 13
     show principal 5 with dissolve
     smi "Хаха!"
-    smi "Не могу дождаться, как ты провалишься в этот раз..."
+    smi "Не могу дождаться, чтобы увидеть как ты провалишься в этот раз..."
     show principal 26 at Position (xoffset=-70) with dissolve
     show dewitt 14
     dewitt "*Грр*"
@@ -532,7 +532,7 @@ label music_classroom_dewitt_talent_get:
     dewitt "Правда?! Кого ты нашел, и на чем они играют?"
     show dewitt 4
     show player 14f
-    player_name "Ну, {b}Ева{/b} певица."
+    player_name "Ну, {b}Ева{/b} - певица."
     show player 13f
     show dewitt 5
     dewitt "Да ладно! И насколько она хороша?"
@@ -558,7 +558,7 @@ label music_classroom_dewitt_talent_get:
     dewitt "Хей, а это ведь неплохая идея!"
     show dewitt 4
     show player 10f
-    player_name "Ха?"
+    player_name "А?"
     show player 5f
     show dewitt 5
     dewitt "Нужно чтобы вы сыграли что-нибудь вместе для завершения смотра!"
@@ -737,7 +737,7 @@ label music_classroom_dewitt_find_dewitt:
     player_name "Вы в порядке?"
     show player 5f
     show dewitt 9d
-    dewitt "Ох, всё будет в порядке. Я просто немного подавлена в данный момент"
+    dewitt "Ох, всё будет в порядке. Я просто немного подавлена в данный момент."
     show dewitt 9f with dissolve
     show player 14f
     player_name "У меня для вас сюрприз!"
@@ -807,7 +807,7 @@ label music_classroom_dewitt_talent_show_practice:
     show eve 1
     show kevin 24f with dissolve
     kev "{b}Директриса Смит{/b} никогда не допустит этого {b}Шоу Талантов{/b}!"
-    kev "{b}[firstname]{/b} и я слышали планы {b}Анны{/b}."
+    kev "{b}[firstname]{/b} и я слышали планы {b}Энни{/b}."
     kev "У них явно есть козырь в рукаве!"
     show kevin 24bf
     show eve 2b
@@ -819,7 +819,7 @@ label music_classroom_dewitt_talent_show_practice:
     show player 10
     player_name "Это просто её расстроит."
     show player 12
-    player_name "Мы сами должны разобраться с {b}Директриса Смит{/b}!"
+    player_name "Мы сами должны разобраться с {b}Директрисой Смит{/b}!"
     show player 13
     show kevin 20 with dissolve
     pause
@@ -857,7 +857,7 @@ label music_classroom_dewitt_talent_show_practice:
     kev "Так что за план, {b}[firstname]{/b}?"
     show kevin 23
     show player 10
-    player_name "Нужно просто держать {b}Директриса Смит{/b} и {b}Энни{/b} подальше от {b}аудитории{/b}!"
+    player_name "Нужно просто держать {b}Директрису Смит{/b} и {b}Энни{/b} подальше от {b}аудитории{/b}!"
     show player 5
     show kevin 20 with dissolve
     kev "..."
@@ -869,7 +869,7 @@ label music_classroom_dewitt_talent_show_practice:
     show player 35
     player_name "А это неплохая идея..."
     show kevin 23 with dissolve
-    player_name "Мы можем запереть их в офисе {b}Директриса Смит{/b} до конца {b}Шоу Талантов{/b}!"
+    player_name "Мы можем запереть их в офисе {b}Директрисы Смит{/b} до конца {b}Шоу Талантов{/b}!"
     show player 13
     show eve 6
     eve "Видишь, я же говорила - женские уловки!"
@@ -901,10 +901,10 @@ label music_classroom_dewitt_talent_show_practice:
     eve "{b}У моей сестры{/b} есть электрошокер в магазине... Может просто пальнем в них?"
     show eve 1
     show player 10
-    player_name "Это немного перебор, не думаешь?"
+    player_name "Это перебор, не думаешь?"
     show player 5
     show kevin 21
-    kev "Не то что бы {b}Директриса Смит{/b} не заслужила..."
+    kev "Не то чтобы {b}Директриса Смит{/b} не заслужила..."
     show kevin 23 with dissolve
     show player 12
     player_name "Никаких тайзеров!"
