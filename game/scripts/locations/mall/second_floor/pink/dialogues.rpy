@@ -73,7 +73,7 @@ label ivy_paizuri_first:
     scene massage_room_closeup with fade
     show player 175 at left
     with dissolve
-    player_name "( Я не ожидал что это будет так просто хотя... )"
+    player_name "( Я не ожидал что это будет так просто, хотя... )"
     show player 57
     player_name "( Действительно ли я готов к этому? )"
     player_name "( ...Я не могу остановиться. )"
@@ -93,7 +93,7 @@ label ivy_paizuri_first:
     hide expression "characters/ivy/char_ivy_13.png"
     show ivy 15 at Position (xpos=804,ypos=655) with vpunch
     ivy "Вот! Так намного лучше не так ли?"
-    player_name "Да,так и есть."
+    player_name "Да, так и есть."
     show ivy 16 at Position (xpos=870,ypos=658)
     pause 1
     show ivy 17 at Position (xpos=870,ypos=655)
@@ -113,16 +113,16 @@ label ivy_paizuri_first:
     show ivysex 1 zorder 2
     with dissolve
     show ivysex 7 with dissolve
-    ivy "Прежде чем мы начнем, я должна тебе кое-что сказать.."
+    ivy "Прежде чем мы начнем, я должна тебе кое-что сказать..."
     ivy "Этот комната звукоизолирована..."
     player_name "( Ох? )"
     ivy "...Так что тебе не надо ничего сдерживать."
-    ivy "А сейчас,просто расслабься..."
+    ivy "А сейчас, просто расслабься..."
     return
 
 label ivy_paizuri_repeat:
     show player 1
-    ivy "Ты знаешь правила.Я вернусь через минуту."
+    ivy "Ты знаешь правила. Я вернусь через минуту."
     hide ivy with dissolve
     pause 0.5
     hide player with dissolve
@@ -264,12 +264,12 @@ label ivy_blowjob_first:
     show player 18
     player_name "( Фух! Это было гораздо менее неловко чем я мог ожидать! )"
     show player 175 with dissolve
-    player_name "( Я не ожидал что это будет так просто хотя... )"
+    player_name "( Я не ожидал что это будет так просто, хотя... )"
     show player 57
     player_name "(  Действительно ли я готов к этому? )"
-    player_name "( ...Нет,Я не могу повернуть назад. )"
+    player_name "( ...Нет, Я не могу повернуть назад. )"
     show player 175
-    player_name "(Можно просто наслаждаться этим. )"
+    player_name "( Можно просто наслаждаться этим. )"
     hide player with dissolve
     scene massage_room
     show playersex 19 zorder 1
@@ -283,7 +283,7 @@ label ivy_blowjob_first:
     pause 0.5
     hide expression "characters/ivy/char_ivy_13.png"
     show ivy 15 at Position (xpos=804,ypos=655) with vpunch
-    ivy "Вот!Так намного лучше не так ли?"
+    ivy "Вот! Так намного лучше, не так ли?"
     player_name "Да, так и есть."
     show ivy 16 at Position (xpos=870,ypos=658)
     pause 1
@@ -365,7 +365,7 @@ label ivy_blowjob_hscene_dialog:
     if animcounter == 1:
         if not anim_toggle:
             show ivysex 3
-        player_name "( Мэн, если ее рот вызывает такие хорошие ощущения, настоящий секс должен быть безумным... )"
+        player_name "( Блин, если ее рот вызывает такие хорошие ощущения, настоящий секс должен быть безумным... )"
         if not anim_toggle:
             show ivysex 4
         player_name "Аааах... Быстрее..."
@@ -399,15 +399,15 @@ label ivy_blowjob_hscene_dialog:
         player_name "Эмм, я сожалею об этом..."
         ivy "Ты знаешь, обычно я беру дополнительную плату за глотание."
         player_name "Я..."
-        player_name "( Дерьмо,может быть мне не стоило этого делать. )"
+        player_name "( Дерьмо, может быть мне не стоило этого делать. )"
         show ivysex 1
         ivy "{b}*Хихиканье*{/b} Ох парень, ты бы видел вырожение своего лица!"
-        ivy "Не волнуйся об этом, ты хорошо потренировался!Это за счет заведения."
+        ivy "Не волнуйся об этом, ты хорошо потренировался! Это за счет заведения."
         player_name "*нервный смех* Спасибо."
         player_name "Еще раз, извини за это..."
-        ivy "Серьезно,все хорошо... Ты знаешь, Мои обычные клиенты обычно не выпускают там много{b}тепла{/b}."
-        player_name "Ох, эм, спасибо,Я думаю."
-        ivy "Теперь,давай приведем себя в порядок."
+        ivy "Серьезно,все хорошо... Ты знаешь, Мои обычные клиенты обычно не выпускают там много {b}тепла{/b}."
+        player_name "Ох, эм, спасибо, Я думаю."
+        ivy "Теперь, давай приведем себя в порядок."
     return
 
 label ivy_reverse_cowgirl:
@@ -429,11 +429,11 @@ label ivy_reverse_cowgirl_pre:
     show ivy 5 at right
     with dissolve
     player_name "Да, Я попробую премиум, пожалуйста."
-    ivy "Охох,довольно смело для твоего возраста!"
+    ivy "Ох-ох, довольно смело для твоего возраста!"
     show player 29
     player_name "Я эмм..."
     show ivy 3
-    ivy "{b}*Хихиканье*{/b} Мне нравится нетерпиливые мужчины!"
+    ivy "{b}*Хихиканье*{/b} Мне нравятся нетерпиливые мужчины!"
     show ivy 2
     ivy "Иди за мной."
     scene massage_room_closeup with fade
@@ -449,7 +449,7 @@ label ivy_reverse_cowgirl_first:
     show ivy 3 at right
     ivy "{b}*Хихиканье*{/b} Это будет еще круче, как только мы начнем."
     show ivy 2
-    ivy "Сейчас, раздевайся и ложись на кровать.Ты можешь положить свою одежды на стол."
+    ivy "Сейчас, раздевайся и ложись на кровать. Ты можешь положить свою одежды на стол."
     ivy "Я дам тебе пару минут чтобы подготовиться."
     ivy "Нужно убедиться, что никто не помешает."
     hide ivy 2 with dissolve
@@ -470,13 +470,13 @@ label ivy_reverse_cowgirl_first:
     show ivy 18 zorder 3 at Position (xpos=870,ypos=655) with dissolve
     ivy "{b}*Хихиканье*{/b} Почему ты все еще так одет?"
     ivy "Нам не нужны полотенце для этого вида массажа."
-    player_name "Ох. извини..."
+    player_name "Ох, извини..."
     show ivy 14 at Position (xpos=780,ypos=655) with dissolve
     pause 0.5
     hide expression "characters/ivy/char_ivy_13.png"
     show ivy 15 at Position (xpos=804,ypos=655) with vpunch
-    ivy "Вот так!Намного лучше, не так ли?"
-    player_name "Да,так и есть."
+    ivy "Вот так! Намного лучше, не так ли?"
+    player_name "Да, так и есть."
     show ivy 16 at Position (xpos=870,ypos=658)
     pause 1
     show ivy 17 at Position (xpos=870,ypos=655)
@@ -520,7 +520,7 @@ label ivy_reverse_cowgirl_after:
     show ivysex 16 with dissolve
     pause
     show ivysex 17 with dissolve
-    ivy "{b}*Хихиканье*{/b} Интересно подойдет ли он.."
+    ivy "{b}*Хихиканье*{/b} Интересно подойдет ли он."
     ivy "Ты готов почувствать себя раю?"
     player_name "{b}*глоток*{/b} Да."
     ivy "Поехали..."
@@ -680,14 +680,14 @@ label ivy_cowgirl_pre:
     show player 29
     player_name "Я эмм..."
     show ivy 3
-    ivy "Я люблю нетерпеливых мужчин.."
+    ivy "Я люблю нетерпеливых мужчин."
     show ivy 2
     ivy "Следуй за мной."
     scene massage_room_closeup with fade
     show ivy 2 at right
     show player 43 at left
     with dissolve
-    ivy "Хорошо, я просто удостоверюсь, что никто не сможет нас прервать.."
+    ivy "Хорошо, я просто удостоверюсь, что никто не сможет нас прервать."
     return
 
 label ivy_cowgirl_first:
@@ -696,7 +696,7 @@ label ivy_cowgirl_first:
     show ivy 3
     ivy "{b}*Хихиканье*{/b} Будет еще круче, как только мы начнем."
     show ivy 2
-    ivy "Сейчас, раздевайся и ложись на кровать.Ты можешь положить свои одежды на стол."
+    ivy "Сейчас, раздевайся и ложись на кровать. Ты можешь положить свои одежды на стол."
     ivy "Я дам тебе несколько минут на подготовку."
     hide ivy 2
     scene blank with dissolve
@@ -721,7 +721,7 @@ label ivy_cowgirl_first:
     pause 0.5
     hide expression "characters/ivy/char_ivy_13.png"
     show ivy 15 at Position (xpos=804,ypos=655) with vpunch
-    ivy "Вот так!Намного лучше, не так ли?"
+    ivy "Вот так! Намного лучше, не так ли?"
     player_name "Да,так и есть."
     show ivy 16 at Position (xpos=870,ypos=658)
     pause 1
@@ -729,7 +729,7 @@ label ivy_cowgirl_first:
     pause 1
     show ivy 18 at Position (xpos=870,ypos=655)
     ivy "Как, черт возьми, ты прятал эту штуку?"
-    ivy "В любом случае:мое имя Айви."
+    ivy "В любом случае: мое имя Айви."
     ivy "Теперь, моя очередь подготовиться..."
     return
 
@@ -743,7 +743,7 @@ label ivy_cowgirl_after:
     show ivy 6 at Position (xpos=799,ypos=655)
     player_name "Ахх мэн..."
     show ivy 7 at Position (xpos=800,ypos=656)
-    ivy "О, не волнуйся, ты даже не заметишь, что он там.Поверь мне."
+    ivy "О, не волнуйся, ты даже не заметишь, что он там. Поверь мне."
     show ivy 9 at Position (xpos=730,ypos=674) with dissolve
     pause
     show ivy 10 at Position (xpos=730,ypos=697) with dissolve
