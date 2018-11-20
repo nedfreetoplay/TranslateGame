@@ -253,7 +253,7 @@ label girls_lockerroom_judith_toilet_not_here:
     player_name "..."
     show player 10
     player_name "( {b}Джудит{/b} здесь нет. )"
-    player_name "( Она должно быть в корридоре или уже дома. )"
+    player_name "( Она должно быть в коридоре или уже дома. )"
     show player 108f
     player_name "( Нужно спросить её, хочет ли она {b}повеселиться{/b}. )"
     hide player 108f
@@ -575,7 +575,7 @@ label girls_lockerroom_roxxy_lockerroom_event:
     show missy 3
     missy "..."
     show becca 2
-    becca "Да, и вообще то твою сестру уволили из {b}Consum-R{/b} за то, что она неправильно подсчитала выручку?"
+    becca "Да, и вообще-то твою сестру уволили из {b}Consum-R{/b} за то, что она неправильно подсчитала выручку?"
     show becca 1
     show missy 2f with dissolve
     missy "Что?"
