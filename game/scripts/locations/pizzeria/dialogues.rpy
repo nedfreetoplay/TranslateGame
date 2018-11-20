@@ -17,10 +17,10 @@ label pizza_interior_pizza_count_0:
     tony "Он напоминает мне самого себя в молодости."
     show tony 1
     show player 10f
-    player_name "Me?"
+    player_name "Я?"
     show tony 3
     show player 13f
-    tony "Да ты, вот что я тебе скажу: Ищешь работёнку?"
+    tony "Да, ты, вот что я тебе скажу: Ищешь работёнку?"
     show tony 1
     show player 14f
     player_name "Да, я долго искал хоть какую-нибудь."
@@ -48,7 +48,7 @@ label pizza_interior_pizza_count_0:
     maria "Тони, не большой вопрос: Откуда нам знать будет ли с этого парня хоть какая-то польза?"
     show maria 1
     show tony 2
-    tony "Ни откуда, но ты только взляни на него! Он молод, полон энергии, и выглядит здаровым!"
+    tony "Ниоткуда, но ты только взляни на него! Он молод, полон энергии, и выглядит здаровым!"
     tony "Что ещё нам нужно?"
     show maria 2
     show player 11f
