@@ -72,7 +72,7 @@ label mom_shower:
             call expression game.dialog_select("shower_mom_sex_walk_in_pre")
             jump expression game.dialog_select("mom_shower_question")
         menu:
-            "Зайти внутрь":
+            "Зайти внутрь.":
                 $ playSound("<loop 0.5>audio/ambience_shower_interior.ogg")
                 call expression game.dialog_select("shower_mom_sex_walk_in_pre")
                 label mom_shower_question:
@@ -82,7 +82,7 @@ label mom_shower:
                     "Мыть [deb_name].":
                         call expression game.dialog_select("shower_mom_sex_wash")
                         menu shower_mom_sex_wash_menu:
-                            "Мастурбирует.":
+                            "Мастурбировать.":
                                 call expression game.dialog_select("shower_mom_sex_wash_handjob")
                                 jump expression game.dialog_select("mom_shower_end")
 
@@ -114,7 +114,7 @@ label mom_shower:
                                 else:
 
                                     jump expression game.dialog_select("mom_shower_sex")
-                            "Оставить":
+                            "Оставить.":
 
                                 jump expression game.dialog_select("mom_shower_end")
 
@@ -126,7 +126,7 @@ label mom_shower:
                             $ cum = False
                         call expression game.dialog_select("shower_mom_sex_fuck_pre")
                         jump expression game.dialog_select("mom_shower_sex_loop")
-            "Оставить":
+            "Оставить.":
 
                 call expression game.dialog_select("shower_mom_sex_leave")
     else:
