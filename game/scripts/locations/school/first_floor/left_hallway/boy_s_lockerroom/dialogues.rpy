@@ -64,8 +64,8 @@ label boys_lockerroom_roxxy_shower_event:
     becca "Хаха!"
     becca "... Да, он милый."
     show becca 8
-    becca "Но не думаю, что у  {b}Рокси{/b} что-нибудь получится."
-    becca "Ей нужно кое-что ещё, чтобы понравиться {b}Кевин{/b}!"
+    becca "Но не думаю, что у {b}Рокси{/b} что-нибудь получится."
+    becca "Ей нужно кое-что ещё, чтобы понравиться {b}Кевину{/b}!"
     show becca 7
     show roxxy 17
     show missy 3
@@ -74,7 +74,7 @@ label boys_lockerroom_roxxy_shower_event:
     show becca 3
     show missy 2
     missy "Подождите-ка..."
-    missy "... {b}Кевин{/b} гей?"
+    missy "... {b}Кевин{/b} - гей?"
     show missy 1
     show roxxy 17
     rox "А ты не знала?"
@@ -100,7 +100,7 @@ label boys_lockerroom_roxxy_shower_event:
     becca "Ага, жаль, что у тебя нет пениса, {b}Рокси{/b}. Я слышала, что она любит ставить хорошие оценки тем, кто может неплохо поработать своим членом."
     show missy 6
     show becca 1
-    missy "Хаха"
+    missy "Хаха!"
     show missy 1
     show roxxy 17
     rox "Я не могу провалить эти экзамены, я же буду выглядеть полной идиоткой!"
@@ -255,7 +255,7 @@ label boys_lockerroom_judith_changing:
     ann "Надевайте уже форму и валите на урок, {b}СЕЙЧАС ЖЕ{/b}!!!"
     show combo 19 at left
     show annie 7 at right
-    ann "Я сообщу об этом инциденте {b}Директриса Смит{/b}, как и о вашем опоздании..."
+    ann "Я сообщу об этом инциденте {b}Директрисе Смит{/b}, как и о вашем опоздании..."
     show combo 20 at left
     ann "...Идите уже!!"
     hide combo
@@ -458,7 +458,7 @@ label roxxy_shower_dialogue_leave:
     becca "Тут зона свободная от задротов!"
     show becca 1f
     show missy 1bf
-    missy "Hехе, точно!"
+    missy "Хехе, точно!"
     show missy 1f
     player_name "..."
     show jersey 12
