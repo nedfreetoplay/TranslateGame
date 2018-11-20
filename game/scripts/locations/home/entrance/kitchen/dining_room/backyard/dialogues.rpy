@@ -3,7 +3,7 @@ label backyard_mom_fetch_towel_fail:
     show debbie 204 at left
     show player 13f at right
     with dissolve
-    deb "Ты забыл принести мне{b}полотенце из ванны{/b}?"
+    deb "Ты забыл принести мне {b}полотенце из ванны{/b}?"
     show debbie 205
     show player 14f
     player_name "Прости! Сейчас вернусь!"
