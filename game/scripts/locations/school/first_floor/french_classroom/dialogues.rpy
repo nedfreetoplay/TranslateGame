@@ -470,13 +470,13 @@ label french_classroom_bissette_hand_in_assignment:
     show desk 25 with dissolve
     pause
     show desk 26 with dissolve
-    bis "Oh, oui! Joue avec mes seins, {b}[firstname]{/b}!"
+    bis "О, да! Играй с моими сиськами, {b}[firstname]{/b}!"
     show desk 24 with dissolve
     player_name "Вы уверены, что {b}Директриса Смит{/b} не придет?"
     show desk 5 at Position (xoffset=-58)
     show teacher 10c at right
     with dissolve
-    bis "Oh non! j'ai oublie!"
+    bis "О, нет! Я забыла!"
     bis "Я забыла сдать промежуточный отчет!"
     bis "Прости меня, {b}[firstname]{/b}. Боюсь, мы должны остановиться на сегодня."
     show teacher 10b
@@ -491,10 +491,10 @@ label french_classroom_bissette_hand_in_assignment:
     player_name "Конечно, {b}Мисс Биссетт{/b}."
     show desk 5 at Position (xoffset=-58)
     show teacher 10
-    bis "Au revoir, mon petit lapin!"
+    bis "Пока, кролик!"
     show teacher 9
     show desk 6 at Position (xoffset=-58)
-    player_name "Au revoir."
+    player_name "Пока."
     hide desk
     hide teacher
     with dissolve
@@ -511,7 +511,7 @@ label french_classroom_bissette_poem_assignment:
     player_name "Bonjour, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 2
-    bis "Comment allez-vous?"
+    bis "Как дела?"
     show teacher 1
     show player 14
     player_name "О умм, У меня все хорошо."
@@ -537,14 +537,14 @@ label french_classroom_bissette_poem_assignment:
     player_name "О, правда?"
     show player 13
     show teacher 12
-    bis "Oui, beaucoup..."
+    bis "Да, много..."
     bis "Вам знаком французский роман?"
     show teacher 13
     show player 10
     player_name "Н-нет, не совсем..."
     show player 11
     show teacher 16 zorder 1 with dissolve
-    bis "On apprend alors!"
+    bis "Тогда учимся!"
     bis "Французы-лучшие любовники во всем мире!"
     show teacher 17
     show player 26
@@ -559,7 +559,7 @@ label french_classroom_bissette_poem_assignment:
     player_name "Я даже не знаю, с чего начать..."
     show player 13
     show teacher 25 with dissolve
-    bis "Ridicule!"
+    bis "Смешно!"
     show teacher 26 with dissolve
     bis "Ты прирожденный, я верю в тебя, {b}[firstname]{/b}!"
     show teacher 27 with dissolve
@@ -567,7 +567,7 @@ label french_classroom_bissette_poem_assignment:
     player_name "Хех. Хорошо, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 25 with dissolve
-    bis "Tres Bien, mon bel homme!"
+    bis "Хорошо, мой красавец!"
     show teacher 26 with dissolve
     bis "Я знаю, ты напишешь что-нибудь, что растопит сердце!"
     show teacher 16 with dissolve
@@ -586,7 +586,7 @@ label french_classroom_bissette_poem_assignment:
     player_name "Я скоро вернусь, {b}Мисс Биссетт{/b}."
     show player 13
     show teacher 16
-    bis "Au revoir, {b}[firstname]{/b}."
+    bis "Пока, {b}[firstname]{/b}."
     hide teacher with dissolve
     show player 29 with dissolve
     player_name "Вау!!!"
@@ -602,8 +602,8 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     player_name "Вот, {b}Мисс Биссетт{/b}. Я закончил поэму."
     show player 13 with dissolve
     show teacher 23 with dissolve
-    bis "Surperbe!"
-    bis "Oh, comme c'est beau!"
+    bis "Превосходно!"
+    bis "Как красиво!"
     bis "Да, это будет замечательно."
     bis "Класс в твоем распоряжении."
     show teacher 24
@@ -619,7 +619,7 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     player_name "Никогда!"
     show player 11
     show teacher 12
-    bis "Quoi? Давай сейчас, {b}[firstname]{/b}."
+    bis "Что? Давай сейчас, {b}[firstname]{/b}."
     bis "Твои слова прекрасны... Было бы неправильно не поделиться такой вещью, да?"
     show teacher 13
     show player 10
@@ -637,12 +637,12 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     player_name "... Не совсем."
     show player 23
     show teacher 19
-    bis "{b}Roxxy{/b}, проснись!"
+    bis "{b}Рокси{/b}, проснись!"
     show player 22
     show teacher 18
     rox "Хмм?"
     show teacher 19
-    bis "Fille paresseuse! Проснись, я сказала!"
+    bis "Ленивая девушка! Проснись, я сказала!"
     show teacher 18
     rox "Что?!"
     show teacher 19
@@ -666,9 +666,9 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     rox "Мне плевать на это дурацкое задание!"
     show roxxy 29f
     show teacher 19
-    bis "Quoi?! Comment oses-tu!"
+    bis "Чего?! Как ты смеешь!"
     bis "Ты пойдешь туда и прочитаешь или я оставлю тебя под стражей до конца срока!"
-    bis "Comprenez vous?!"
+    bis "Понятно?!"
     show teacher 20
     show roxxy 30f
     rox "Серьезно?!"
@@ -701,7 +701,7 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     player_name "... Хорошо, я сделаю это."
     show player 5
     show teacher 12 at center
-    bis "Tres bien!"
+    bis "Отлично!"
     bis "Я так горжусь тобой!"
     show teacher 1
     hide player with dissolve
@@ -732,7 +732,7 @@ label french_classroom_bissette_hand_in_poem_assignment_roxxy_sex:
     show roxxy 29f at left
     show teacher 2 at right
     with dissolve
-    bis "Tres Bien!"
+    bis "Отлично!"
     bis "{b}[firstname]{/b}, твой французкий прекрасен!"
     show teacher 1
     show player 14
@@ -767,7 +767,7 @@ label french_classroom_bissette_hand_in_poem_assignment_roxxy_sex:
     rox "Ей повезло, что я не надрала ей задницу прямо здесь и сейчас!"
     show roxxy 29f
     show teacher 19 at right with dissolve
-    bis "Que se passe-t-il!?"
+    bis "Что происходит??"
     bis "Что это за вопли такие!?"
     show teacher 18
     show player 22
@@ -813,7 +813,7 @@ label french_classroom_bissette_hand_in_poem_assignment_roxxy_sex:
     player_name "Да! Хорошо!"
     show player 13
     show teacher 12
-    bis "Tres Bien! Подойди и сядь рядом со мной!"
+    bis "Отлично! Подойди и сядь рядом со мной!"
     scene black with fade
     return
 
@@ -823,7 +823,7 @@ label french_classroom_bissette_hand_in_poem_assignment_no_roxxy_sex:
     show roxxy 29f at left
     show teacher 2 at right
     with dissolve
-    bis "Tres Bien!"
+    bis "Отлично!"
     bis "{b}[firstname]{/b}, твой французский идеален!"
     show teacher 1
     show player 14
@@ -857,7 +857,7 @@ label french_classroom_bissette_hand_in_poem_assignment_no_roxxy_sex:
     rox "Тебе повезло, что я не надрала тебе задницу прямо здесь и сейчас!"
     show roxxy 29f
     show teacher 19 at right with dissolve
-    bis "Que se passe-t-il!?"
+    bis "Что происходит??"
     bis "Что это за вопли такие!?"
     show teacher 18
     show player 22
@@ -903,7 +903,7 @@ label french_classroom_bissette_hand_in_poem_assignment_no_roxxy_sex:
     player_name "Да! Хорошо!"
     show player 13
     show teacher 12
-    bis "Tres Bien! Подойди и сядь рядом со мной!"
+    bis "Отлично! Подойди и сядь рядом со мной!"
     scene black with fade
     return
 
@@ -963,7 +963,7 @@ label french_classroom_bissette_hand_in_poem_assignment_have_kissed:
     bis "Ты должен показать мне, что ты знаешь!"
     player_name "Правда?"
     show desk 16
-    bis "Oui."
+    bis "Да."
     show desk 27 at Position (xpos=342) with dissolve
     pause
     show desk 28 with dissolve
@@ -989,11 +989,11 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
     show desk 15 at Position (xpos=400)
     player_name "Н-нет..."
     show desk 16
-    bis "Oh, Je dois t'apprendre!"
+    bis "О, я должна научить тебя!"
     show desk 15
     player_name "...Ты хочешь научить меня?"
     show desk 16
-    bis "Oui."
+    bis "Да."
     show desk 27 at Position (xpos=342) with dissolve
     pause
     show desk 28 with dissolve
@@ -1002,7 +1002,7 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
     pause
     pause
     show desk 30
-    bis "Tres Bien, {b}[firstname]{/b}..."
+    bis "Отлично, {b}[firstname]{/b}..."
     bis "Ты тоже естественный в этом."
     show desk 29
     player_name "Д-да, спасибо!"
@@ -1014,7 +1014,7 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
 label french_classroom_bissette_hand_in_poem_assignment_continue:
     scene classroom_night
     bis "Мммм..."
-    bis "Mon bel homme..."
+    bis "Мой красавец..."
     bis "Ты заставляешь меня волноваться..."
     player_name "*глоток*"
     bis "Возможно, нам стоит взять это-"
@@ -1025,17 +1025,17 @@ label french_classroom_bissette_hand_in_poem_assignment_continue:
     "*Бззт*"
     smi "Где ты? Ты забыла о нашей встрече?!"
     smi "Не заставляй меня спускаться и тащить свою тощую задницу в мой кабинет!"
-    smi "ИДИТЕ ЮДА НЕМЕДЛЕННО!"
+    smi "ИДИТЕ СЮДА НЕМЕДЛЕННО!"
     "*Bzzt*"
     show desk 30
-    bis "Sacrebleu! Чего она хочет сейчас?!"
+    bis "Проклятье! Чего она хочет сейчас?!"
     bis "*гммм* Извени, {b}[firstname]{/b}. Кажется, мы должны прерваться еще раз."
     show desk 29
     player_name "Все хорошо, {b}Мисс Биссетт{/b}. Я понимаю."
     show desk 31_32 with dissolve
     pause
     show desk 30
-    bis "Mmm, Ta {b}bouche{/b} est magique!"
+    bis "Ммм, твой {b}рот{/b} волшебный!"
     show desk 29
     player_name "А?"
     show desk 30
@@ -1043,7 +1043,7 @@ label french_classroom_bissette_hand_in_poem_assignment_continue:
     show desk 29
     player_name "Оооо, {b}bouche{/b}  значит {b}рот{/b}?"
     show desk 30
-    bis "Oui."
+    bis "Да."
     show desk 27 with dissolve
     pause
     show teacher 10 at right
@@ -1057,7 +1057,7 @@ label french_classroom_bissette_hand_in_poem_assignment_continue:
     player_name "Увидемся завтра, {b}Мисс Биссетт{/b}."
     show desk 5
     show teacher 10
-    bis "Au revoir, mon bel homme."
+    bis "Пока, красавец."
     hide teacher with dissolve
     player_name "..."
     show desk 34
@@ -1087,7 +1087,7 @@ label french_classroom_bissette_smith_final_report:
     player_name "...и {b}Директриса Смит{/b}."
     show player 13
     show teacher 12
-    bis "Bonjour, {b}[firstname]{/b}."
+    bis "Здравствуй, {b}[firstname]{/b}."
     show teacher 13
     show player 114
     show principal 29f
@@ -1100,7 +1100,7 @@ label french_classroom_bissette_smith_final_report:
     show principal 29f
     smi "..."
     show principal 28f with dissolve
-    smi "Просто помни, что я положила на тебя глаз!"
+    smi "Просто помни, что я слежу за тобой!"
     hide principal
     hide teacher
     with dissolve
@@ -1153,7 +1153,7 @@ label french_class_roxxy_lolipop_intro:
     rox "Я сказала, что получу его!"
     show roxxy 9f at Position (xoffset=9)
     show teacher 19
-    bis "... Putain, mais quelle branleuse..."
+    bis "... Черт побери, ну какая дрянь..."
     hide teacher with dissolve
     pause
     show player 13 at left
@@ -1307,7 +1307,7 @@ label french_class_roxxy_lolipop_for_lolipop:
     player_name "Если ты дашь мне свой леденец..."
     show player 13
     show roxxy 3c
-    rox "What?"
+    rox "Что?"
     show roxxy 3d
     show player 14
     player_name "Тот леденец, который ты сосала."
