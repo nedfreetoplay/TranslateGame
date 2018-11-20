@@ -209,7 +209,7 @@ label mia_locker_first_visit_helen_route:
 label ronda_locker_first_visit:
     player_name "Есть вообще какой-то вид спорта, в котором она ничего не умеет?"
     player_name "Наверное, благодаря этому она поступит в колледж на бюджет."
-    player_name "Она с головой уходит в школьную жизнб."
+    player_name "Она с головой уходит в школьную жизнь."
     return
 
 label roxxy_locker_first_visit:
