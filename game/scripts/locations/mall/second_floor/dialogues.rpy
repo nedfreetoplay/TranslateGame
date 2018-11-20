@@ -104,7 +104,7 @@ label photo_booth_roxxy_take_picture:
     player_name "Я подскользнулся!"
     show player 5
     show roxxy 2
-    rox "... Да,точно."
+    rox "... Да, точно."
     rox "Я просто пыталась дать тебе небольшую награду..."
     show roxxy 68 with dissolve
     pause
@@ -149,7 +149,7 @@ label photo_booth_roxxy_take_picture:
     rox "Если {b}Декстер{/b} узнает об этом он убьет нас обоих!"
     show roxxy 1
     show player 14
-    player_name "Да,да... Я не буду."
+    player_name "Да, да... Я не буду."
     show player 645 with dissolve
     show roxxy 1g
     rox "..."
@@ -182,7 +182,7 @@ label photo_booth_roxxy_take_picture:
 label photo_booth_generic_dialogue:
     scene expression player.location.background
     show player 2
-    player_name "Хмм,Мне не нужно фотографироваться прямо сейчас..."
+    player_name "Хмм, Мне не нужно фотографироваться прямо сейчас..."
     hide player
     return
 
