@@ -1426,7 +1426,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
     show roxxy 35
     show jenny 169
     jen "Скажи мне что-то, что я не знаю..."
-    jen "These ladies won me three consecutive state championships!"
+    jen "Эти девочки подарили мне три победы подряд на чемпионате штата!"
     show jenny 168
     show roxxy 36
     jen "Скажи мне что-то, чего я не знаю..."
@@ -1443,7 +1443,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
     rox "Да, но они не такие большие, как у тебя..."
     show roxxy 38
     show jenny 169
-    jen "Ммм, может и так, но твои явно более упругие"
+    jen "Ммм, может и так, но твои явно более упругие."
     show jenny 168
     show roxxy 37
     rox "Хехе, может..."
