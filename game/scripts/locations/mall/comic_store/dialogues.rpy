@@ -16,7 +16,7 @@ label comic_store_erik_vr_started_have_all:
 
 label comic_store_erik_vr_started_do_not_have_all:
     show player 35 with dissolve
-    player_name "( У них должны быть вещи которые {b}Эрик{/b}хотел где-то здесь. )"
+    player_name "( У них должны быть вещи, которые хотел {b}Эрик{/b}, где-то здесь. )"
     show player 12 with dissolve
     player_name "( Может быть на тех полках на прилавке? )"
     hide player with dissolve
