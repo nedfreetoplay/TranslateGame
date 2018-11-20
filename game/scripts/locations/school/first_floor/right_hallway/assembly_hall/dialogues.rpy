@@ -30,11 +30,11 @@ label assembly_hall_dewitt_graffit_mess:
     dewitt "{b}Директриса Смит{/b} вот кто!"
     show dewitt 13f
     show kevin 24f
-    kev "Ты думаешь что директриса пробралась сюда и нарисовала бадлончиком член на стене?"
+    kev "Ты думаешь что директриса пробралась сюда и нарисовала балончиком с краской член на стене?"
     show kevin 23f
     show dewitt 14f
     dewitt "Нет."
-    dewitt "... Но Я готов поспорить что эта сучка стоит за этим каким-то образом"
+    dewitt "... Но Я готова поспорить что эта сучка стоит за этим каким-то образом."
     dewitt "Она сделает все что она может чтобы мое шоу отменили!"
     show dewitt 13f
     show principal 27 at right with dissolve
@@ -44,16 +44,16 @@ label assembly_hall_dewitt_graffit_mess:
     dewitt "Помяни дьявола."
     show dewitt 13
     show principal 27
-    smi "*Вздох* Кто несет ответственность за за этот бардак?!"
+    smi "*Вздох* Кто несет ответственность за этот бардак?!"
     show principal 26
     show eve 10
-    eve "Мы точно не знаем,мэм.Мы только пришли и нашли это таким образом."
+    eve "Мы точно не знаем, мэм. Мы только что пришли и нашли это таким образом."
     show eve 9
     show principal 27
     smi "Тсс, Спорим это {b}Евина{/b} маленькая банда хулиганов снова."
     show principal 26
     show eve 2bf
-    eve "Что?! Мои друзься не делали этого!"
+    eve "Что?! Мои друзья не делали этого!"
     show eve 1f
     show dewitt 14
     dewitt "Мммхмм."
@@ -68,9 +68,9 @@ label assembly_hall_dewitt_graffit_mess:
     dewitt "Еще как, я думаю ты могла!"
     show dewitt 13
     show principal 27
-    smi "Ох, не надо так драмотизировать..."
-    smi "Я попробую гайти команду для уборки."
-    smi "Однако, я боюсь Я не смогу это сделать вовремя для вашего шоу."
+    smi "Ох, не надо так драматизировать..."
+    smi "Я попробую найти команду для уборки."
+    smi "Однако, я боюсь Я не смогу это сделать до вашего шоу."
     smi "Какая жалость..."
     show principal 26
     show dewitt 14
@@ -84,7 +84,7 @@ label assembly_hall_dewitt_graffit_mess:
     hide principal with dissolve
     dewitt "..."
     show eve 2bf
-    eve "Честно слово,мои друзья не делали этого, {b}Мисс Девитт{/b}."
+    eve "Честно слово, мои друзья не делали этого, {b}Мисс Девитт{/b}."
     show eve 1f
     show player 5
     show dewitt 11bf at Position (xpos=700) with dissolve
@@ -183,11 +183,11 @@ label assembly_hall_dewitt_graffit_mess:
     show kevin 21 at Position (xoffset=95)
     kev "Кто бы это не сделал он был настолько туп чтобы вступить на краску прежде чем уйти."
     show kevin 19 with dissolve
-    kev "Ччч, здесь есть след."
+    kev "Эээ, здесь есть след."
     show kevin 20 at Position (xoffset=95)
     show player 14
     player_name "Ты прав!"
-    player_name "Давай проследуем за ним и увидим куда он приведет!"
+    player_name "Давай проследуем по ниму и увидим куда он приведет!"
     show player 13
     show kevin 22 at Position (xoffset=95) with dissolve
     kev "Сразу за тобой."
@@ -199,7 +199,7 @@ label assembly_hall_dewitt_graffit_mess:
 label assembly_hall_dewitt_clean_graffit:
     scene assembly_hall_cs06
     with fade
-    show text "Может показаться что {b}Ева{/b} и её банда начали без меня!\nОни сделали потрясающую работу.В актовом зале небыло не пятнышка!\nЯ считаю что правдива старая поговорка, \"нельзя судить о книге по обложке.\"" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Может показаться что {b}Ева{/b} и её банда начали без меня!\nОни сделали потрясающую работу. В актовом зале небыло не пятнышка!\nЯ считаю что правдива старая поговорка, \"нельзя судить о книге по обложке.\"" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -267,16 +267,16 @@ label assembly_hall_dewitt_show_auditorium:
     show player 28f
     with dissolve
     show tyrone 6 at right with dissolve
-    dewitt "Вы просто удивительные дети!Все вы!"
+    dewitt "Вы просто удивительные дети! Все вы!"
     show tyrone 8 with dissolve
     show dewitt 9d
-    dewitt "Подождите секундочку,вы все пили пиво!?"
+    dewitt "Подождите секундочку, вы все пили пиво!?"
     show tyrone 6 with dissolve
     show player 22f
     dewitt "Вы не можете делать такие вещи на территории школы! {b}Директриса Смит{/b} снимет с нас шкуры!"
     show dewitt 9c
     show eve 2b
-    eve "Ох верно. Извините, мэм"
+    eve "Ох верно. Извините, мэм."
     eve "Ребята, прячьте эту дрянь пожалуйста!"
     show eve 1 with dissolve
     show tyrone 8 with dissolve
@@ -299,7 +299,7 @@ label assembly_hall_dewitt_show_auditorium:
     dewitt "Я не знаю как вам это удалось, {b}[firstname]{/b}!"
     show dewitt 1b
     show player 14f
-    player_name "Да это ерунда.Мне просто не нравиться видеть вас расстроеной, {b}Мисс Девитт{/b}."
+    player_name "Да это ерунда. Мне просто не нравиться видеть вас расстроеной, {b}Мисс Девитт{/b}."
     show player 13f
     show dewitt 19 with dissolve
     dewitt "Ой, ты настоящий маленький соблазнитель, сахарок."
@@ -362,7 +362,7 @@ label assembly_hall_dewitt_talent_show:
     kev "Хэй, так они действительно застряли?!"
     show kevin 17f
     show player 17
-    player_name "Да, мужик. Они будут там надолго..."
+    player_name "Да, мужик. Они будут там долго..."
     show player 13
     show kevin 18f
     kev "Бро, Это так круто!"
@@ -378,7 +378,7 @@ label assembly_hall_dewitt_talent_show:
     kev "Да, это была вся {b}Евина работа{/b}."
     show kevin 17f
     show eve 12
-    eve "{b}Kevin{/b} не выглядит мечтательным?"
+    eve "{b}Кэвин{/b} не выглядит мечтательным?"
     show eve 11
     show player 10
     player_name "Эмм... Да, я думаю?"
@@ -411,7 +411,7 @@ label assembly_hall_dewitt_talent_show:
     eve "Офигительные!"
     show eve 11
     show player 553
-    player_name "Да,Я выгляжу круто?"
+    player_name "Да, Я выгляжу круто?"
     show player 552
     show eve 12
     eve "Хахаха! Полностью!"
@@ -440,9 +440,9 @@ label assembly_hall_dewitt_talent_show:
     hide text with dissolve
     if game.cheat_mode:
         menu:
-            "Играть мини-игру":
+            "Играть в мини-игру.":
                 pass
-            "Пропустить Мини-игру (Cheat)":
+            "Пропустить Мини-игру (Cheat).":
 
                 jump expression game.dialog_select("guitar_hero_minigame_talent_show_pass")
     call screen guitar_hero(0, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")
