@@ -316,7 +316,7 @@ label mom_movie_night_romance_movie_two:
     player_name "Ага!"
     show player 1
     show debbie 63
-    deb "Я думаю, что мы можем посмотреть один из этих твоих боевиков"
+    deb "Я думаю, что мы можем посмотреть один из этих твоих боевиков."
     show player 2
     show debbie 61
     player_name "Вообще-то, я как раз думал о чем-то романтичном..."
