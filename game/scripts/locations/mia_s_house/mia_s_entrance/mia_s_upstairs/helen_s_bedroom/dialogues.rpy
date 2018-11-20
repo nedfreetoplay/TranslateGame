@@ -481,7 +481,7 @@ label helen_bedroom_sex_start_after:
         helen "Боже..."
         helen "Ваш...член..."
         helen "В прошлый раз я не успела рассмотреть его."
-        helen "Воистину, {b}Господь{/b} благословил вас"
+        helen "Воистину, {b}Господь{/b} благословил вас."
     else:
 
         pause
@@ -643,7 +643,7 @@ label helen_bedroom_sex_cum_intro:
 
 label helen_bedroom_sex_cum_repeat:
     show player 29 with dissolve
-    player_name "...но сделай одолжение, не рассказывай никому, чем мы здесь занимались"
+    player_name "...но сделай одолжение, не рассказывай никому, чем мы здесь занимались."
     player_name "Я не хочу, чтобы {b}Мия{/b} знала об этом."
     show player 13 with dissolve
     if M_helen.is_set("corset lingerie"):
