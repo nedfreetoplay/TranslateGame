@@ -529,7 +529,7 @@ label bedroom_sleeping_jerk_off_roxxy:
     show player 496f
     rox "Ну и что это?!"
     show player 496g
-    player_name "HNNGGG!!!" with flash
+    player_name "ХННГГГГГ!!!" with flash
     rox "Вау!!!"
     show player 496h
     hide jerkbubble
@@ -623,7 +623,7 @@ label bedroom_sleeping_jerk_off_mia:
     show player 496c_496d_496e_496d_496c
     pause
     show miad 2
-    mia "Ты думаешь это влезет?"
+    mia "Ты думаешь он влезет?"
     mia "... В мою..."
     show miad 1
     $ M_player.set("sex speed", M_player.get("sex speed") / 2)
@@ -916,7 +916,7 @@ label bedroom_sleeping_debbie_night_visit_two:
     deb "( Постоянно представляю его внутри себя! )"
     show debbies 2
     deb "( ... )"
-    deb "( ... Может Diane права; Может я должна просто расслабиться и будь, что будет. )"
+    deb "( ... Может Диана права; Может я должна просто расслабиться и будь, что будет. )"
     deb "( Этот его голодный взгляд... )"
     deb "( Mмм, да я намокаю просто думая об этом... )"
     show debbies 3
@@ -1329,7 +1329,7 @@ label bedroom_sleeping_debbie_smith_dream:
     smi "Что ты тут делаешь???"
     smi "Ты что... СПИШЬ?!"
 
-    smi "А ну БЫСТРО в клас или твоей заднице придется задержаться здесь {b}после занятий{/b}!"
+    smi "А ну БЫСТРО в класс или твоей заднице придется задержаться здесь {b}после занятий{/b}!"
     scene black with fade
     pause .2
     scene expression game.timer.image("bedroom{}")
@@ -1401,7 +1401,7 @@ label bedroom_debbie_sleepover_pre:
     deb "Я же сказал, что уже не могу терпеть."
     show debbies 20h with dissolve
     deb "Ммм..."
-    deb "А теперь, хватит трать время зря... Иди ко мне, милый!"
+    deb "А теперь, хватит тратить время зря... Иди ко мне, милый!"
     $ M_mom.set("sex speed", M_mom.get("sex speed") / 3)
     show expression AnimatedImage("debbies", ["20h","20i","20j","20k","20l","20m","20n","20o"], M_mom) as debbies
     return
@@ -1523,7 +1523,7 @@ label bedroom_debbie_sleepover_cum_dialogue:
     show debbies 20r with dissolve
     pause
     show debbies 20s with dissolve
-    deb "Ох {b}[firstname]{/b}... Это было..."
+    deb "Ох, {b}[firstname]{/b}... Это было..."
     show debbies 20t
     player_name "Крышесносно?"
     show debbies 20s
@@ -1577,7 +1577,7 @@ label bedroom_debbie_sleepover_after_not_random:
     player_name "..."
     show player 2
     player_name "Хмм, {b}[deb_name]{/b} видно ушла раньше, чем я проснулся..."
-    player_name "Фух, сто за ночка! Я спал как младенец..."
+    player_name "Фух, что за ночка! Я спал как младенец..."
     return
 
 label bedroom_debbie_sleepover_after_not_basement_sex:
@@ -1639,7 +1639,7 @@ label pet_cat:
     elif randomizer() < 30:
         player_name "Хочешь проспать весь день?"
     elif randomizer() < 45:
-        player_name "Чем ты сегодня занималься, а?"
+        player_name "Чем ты сегодня занималась, а?"
     elif randomizer() < 60:
         player_name "Ты милый маленький шерстяной шарик."
     elif randomizer() < 75:
