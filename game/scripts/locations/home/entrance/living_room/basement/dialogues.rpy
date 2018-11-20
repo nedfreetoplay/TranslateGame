@@ -181,7 +181,7 @@ label basement_mom_sex_pre:
         show debbie 62 at right
         show player 13 at left
         with dissolve
-        deb "Sit up on the washer for me."
+        deb "Сядь на стиральную машину за мной."
     scene home_basement_sex_01
     show player 270 zorder 1 at Position(xpos=466,ypos=768)
     show debbie 107 zorder 0 at Position(xpos=200)
