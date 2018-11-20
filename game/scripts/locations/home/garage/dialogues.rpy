@@ -215,7 +215,7 @@ label garage_dewitt_make_new_flute:
     pause
     show player 566 with dissolve
     player_name "Эй, эта штука звучит неплохо!"
-    player_name "Бьюсь об заклад,{b}Мисс Девитт{/b} офигеет , когда увидит, что я сделал флейту с нуля!"
+    player_name "Бьюсь об заклад, {b}Мисс Девитт{/b} офигеет, когда увидит, что я сделал флейту с нуля!"
     hide player with dissolve
     return
 
