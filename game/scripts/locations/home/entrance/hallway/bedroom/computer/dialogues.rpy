@@ -279,7 +279,7 @@ label sis_camshow_01_finish:
     show player 311 at Position(xpos = 672)
     with fade
     player_name "Вау..."
-    player_name "( {b}[jen_name]'s{/b} устраивает Эротический видеочат?! )"
+    player_name "( {b}[jen_name]{/b} устраивает Эротический видеочат?! )"
     show player 310
     player_name "( Так странно видеть ее такой... )"
     show player 312
