@@ -458,7 +458,7 @@ label mia_bedroom_sex:
         call expression game.dialog_select("mia_bedroom_sex_sure")
         jump expression game.dialog_select("mia_strip_repeat")
     menu:
-        "Учится":
+        "Учится.":
             call expression game.dialog_select("mia_bedroom_sex_study")
             menu:
                 "Может потом.":
@@ -904,7 +904,7 @@ label mia_bedroom_sex_vaginal_repeat_intro:
     player_name "...Да..."
     player_name "Извени."
     show mias 2
-    mia "Не переживай.Мне понравилось."
+    mia "Не переживай. Мне понравилось."
     mia "И я хочу еще."
     show mias 6
     mia "Охх!"
@@ -1006,7 +1006,7 @@ label mia_bedroom_sex_cum_outside_repeat:
     mia "Это было здорово!"
     mia "Ты кончил довольно быстро!"
     show mias 15
-    player_name "Извени..."
+    player_name "Извини..."
     show mias 16
     mia "Я пошутила."
     return
@@ -1019,7 +1019,7 @@ label mia_bedroom_sex_cum_outside_after:
     mia "Мне лучше привести себя в порядок."
     mia "Мама может увидеть пятна на простынях..."
     show mias 15
-    player_name "Извени..."
+    player_name "Извини..."
     show mias 16
     mia "Не беспокойся."
     mia "Это было здорово, {b}[firstname]{/b}."
