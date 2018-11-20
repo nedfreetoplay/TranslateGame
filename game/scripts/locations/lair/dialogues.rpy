@@ -70,13 +70,13 @@ label seasucc_dialogue_aqua_seasucc_intro:
     player_name "Что это за странная вещь?"
     show player 5
     show aqua 20
-    aqua "Это не вещь. Это {b}SsseaSucc{/b}!"
+    aqua "Это не вещь. Это {b}Ммморесос{/b}!"
     show aqua 19
     show player 12
     player_name "Хмм. И что делает этот {b}Моресос{/b}?"
     show player 5
     show aqua 20
-    aqua "Это испоользовалось что бы предоставлять удовольствия."
+    aqua "Это испооользовалось чтобы предоставлять удовольствия."
     show aqua 19
     show player 12
     player_name "Для получения удовольствия?"
@@ -111,7 +111,7 @@ label seasucc_dialogue_aqua_seasucc_intro:
     player_name "Ну ладно, попробую поискать."
     show player 13
     show aqua 20
-    aqua "Дааа. Достань {b}Falicum{/b}. Подружись с {b}SeaSucc{/b}."
+    aqua "Дааа. Достань {b}Falicum{/b}. Подружись с {b}МореСосом{/b}."
     aqua "Тогда мы получим полное наслаждение."
     return
 
@@ -123,7 +123,7 @@ label seasucc_dialogue_aqua_seasucc_no_mushroom:
     show player 12 zorder 3 at left
     show player 5
     show aqua 20
-    aqua "Тебе нужно будет накормить его специальной едой, {b}Falicum Mussshroom{/b}. {b}Falicum{/b}."
+    aqua "Тебе нужно будет накормить его специальной едой, {b}Falicum Грибами{/b}. {b}Falicum{/b}."
     show aqua 19
     show player 10
     player_name "Где я могу их найти?"
@@ -156,7 +156,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     player_name "Это то что надо {b}Моресосу{/b}?"
     show player 499
     show aqua 20
-    aqua "Дааа. Скорми {b}SeaSucc{/b}. Подружись!"
+    aqua "Дааа. Скорми {b}Моресосу{/b}. Подружись!"
     aqua "Сяятть... И Скорми {b}Falicum{/b}."
     show aqua 19
     show player 10 with dissolve
@@ -184,7 +184,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show player seasucc 5
     with dissolve
     show aqua 22
-    aqua "Мммм, {b}SeaSucc{/b} нравится {b}Falicum{/b}."
+    aqua "Мммм, {b}Моресосу{/b} нравится {b}Falicum{/b}."
     show aqua 21
     show seasucc 1
     show player seasucc 7
@@ -192,13 +192,13 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     player_name "Похоже ты и вправду голоден!"
     show player seasucc 3 with dissolve
     show aqua 22
-    aqua "Ты попробуй {b}SeaSucc{/b} сейчас. Дааа?"
+    aqua "Ты попробуй {b}Моресоса{/b} сейчас. Дааа?"
     show aqua 21
     show player seasucc 7 with dissolve
     player_name "Ухх..."
     show player seasucc 5 with dissolve
     show aqua 22
-    aqua "Не волнуйся. Покажжи {b}SeaSucc{/b} большого угря."
+    aqua "Не волнуйся. Покажжи {b}Моресосу{/b} большого угря."
     show aqua 21
     show player seasucc 6 with dissolve
     player_name "..."
@@ -211,7 +211,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     show player_boner seasucc 2b
     with dissolve
     show aqua 25
-    aqua "Ахх, доброе утро большой змей. "
+    aqua "Ахх, доброе утро большой змей."
     show aqua 21
     show seasucc 5
     show player seasucc 7
@@ -245,7 +245,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_intro:
     player_name "Это... потрясающе!!"
     show player seasucc 14
     show aqua 23
-    aqua "Дааа. Отличное удовольствие! {b}SeaSucc{/b} хорошо!"
+    aqua "Дааа. Отличное удовольствие! {b}Моресосу{/b} хорошо!"
     show aqua 24
     pause
     return
@@ -306,8 +306,8 @@ label seasucc_cum:
 label seasucc_cum_pre:
     show player seasucc 13
     show aqua 23
-    aqua "Дай {b}SsseaSucc{/b} семена."
-    aqua "Кончи для {b}SeaSucc{/b}!!!"
+    aqua "Дай {b}Моресосу{/b} семена."
+    aqua "Кончи для {b}Моресоса{/b}!!!"
     show aqua 24
     pause
     hide player
@@ -326,7 +326,7 @@ label seasucc_cum_pre:
     show player seasucc 3
     show aqua 25
     if M_aqua.is_state(S_aqua_seasucc_mushroom):
-        aqua "Теперь когда {b}SeaSucc{/b} попробовал твоё сссемя, он запомнит."
+        aqua "Теперь когда {b}Моресос{/b} попробовал твоё сссемя, он запомнит."
         aqua "Вы теперь друзья!"
         aqua "Теперь он будет доставлять удовольстие всегда."
         show popup_seasucc at truecenter with dissolve
@@ -334,7 +334,7 @@ label seasucc_cum_pre:
         hide popup_seasucc with dissolve
     else:
 
-        aqua "{b}SeaSucc{/b} нравятся твои сссемена!"
+        aqua "{b}Моресосу{/b} нравятся твои сссемена!"
     return
 
 label seasucc_dialogue_aqua_seasucc_mushroom_repeat_intro:
@@ -356,8 +356,8 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     player_name "Да."
     show player 13
     show aqua 20
-    aqua "{b}SeaSucc{/b} этто хорошо!"
-    aqua "Сядь... И скорми {b}SeaSucc{/b}."
+    aqua "{b}Моресос{/b} этто хорошо!"
+    aqua "Сядь... И скорми {b}Моресосу{/b}."
     show aqua 19
     hide player
     show player seasucc 1 zorder 3 with dissolve
@@ -368,7 +368,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     with dissolve
     pause
     show aqua 22
-    aqua "Ппокажи {b}SeaSucc{/b} большого угря."
+    aqua "Ппокажи {b}Моресосу{/b} большого угря."
     show aqua 21
     hide player_pants
     show player seasucc 11 with dissolve
@@ -409,7 +409,7 @@ label seasucc_dialogue_aqua_seasucc_mushroom_repeat_yes:
     player_name "Эта штука чувствует себя... великолепно!!"
     show player seasucc 14
     show aqua 23
-    aqua "Дааа. Наилучшее удовольствие! {b}SeaSucc{/b} хорошо!"
+    aqua "Дааа. Наилучшее удовольствие! {b}Моресосу{/b} хорошо!"
     show aqua 24
     return
 
@@ -432,9 +432,9 @@ label aqua_lure_steal:
             $ M_aqua.trigger(T_aqua_dive)
             if game.cheat_mode:
                 menu:
-                    "Пропустить Мини-Игру (Чит)":
+                    "Пропустить Мини-Игру (Чит).":
                         jump expression game.dialog_select("squid_attack")
-                    "Играть В Мини-Игру":
+                    "Играть В Мини-Игру.":
 
                         $ pass
 
