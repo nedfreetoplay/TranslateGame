@@ -86,7 +86,7 @@ label police_cell_mia_harold_to_the_rescue:
 
     scene police_cell_inside_cs2
     with fade
-    show text "Кнутри камеры была {b}Кристал{/b}...\n...Мама {b}Рокси{/b}, широко известная своими проблемами с алгоголем.\nПосле того, как выпьет, она не прочь подраться..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Внутри камеры была {b}Кристалл{/b}...\n...Мама {b}Рокси{/b}, широко известная своими проблемами с алкоголем.\nПосле того, как выпьет, она не прочь подраться..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
 
@@ -178,7 +178,7 @@ label police_cell_mia_harold_to_the_rescue:
     yum "Ага... Даже не хочу знать, что с моей причёской."
     show yumi 5 with dissolve
     show harold 41
-    harold "Если честно, мне нравится твои волосы сейчас. Ходи пока так."
+    harold "Если честно, мне нравятся твои волосы сейчас. Ходи пока так."
     show player 13f
     show harold 40
     show yumi 7
