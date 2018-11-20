@@ -104,7 +104,7 @@ label courtyard_bridget_intro:
     bri "Ты даже не можешь сделать 3 жалких отжимания?!"
     show coach 7 at right
     player_name "Я..."
-    player_name "Я... простети... мэм..."
+    player_name "Я... простите... мэм..."
     show coach 3 at right
     bri "Лучше тащи свою задницу в {b}местный спортзал{/b} сейчас же, и начинай заниматься, если хочешь пройти этот класс..."
     show coach 4 at right
@@ -121,7 +121,7 @@ label courtyard_bridget_intro:
     show ronda 4 at right
     show jersey 27 at left
     ron "Стоять!"
-    ron "Если каким-то чудом тебе удастся {b}пройти испытания{/b}... тогда приходи поговорить со мной. В противном случае, перестань тратить мое время."
+    ron "Если каким-то чудом тебе удасться {b}пройти испытания{/b}... тогда приходи поговорить со мной. В противном случае, перестань тратить мое время."
     show ronda 1 at right
     show jersey 28 at left
     player_name "Хорошо!"
