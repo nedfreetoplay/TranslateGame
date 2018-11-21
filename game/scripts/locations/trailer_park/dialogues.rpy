@@ -41,7 +41,7 @@ label trailerpark_roxxy_go_to_picnic:
     with dissolve
     pause
     show player 661 with dissolve
-    player_name "Ух ты, бутерброд с джемом и арахисовым маслом"
+    player_name "Ух ты, бутерброд с джемом и арахисовым маслом."
     show player 662
     player_name "Круто!"
     show player 663
@@ -180,7 +180,7 @@ label trailerpark_roxxy_go_to_picnic:
     show player 5f
     rox "Блляяя-"
     show roxxy 90cf
-    rox "... Я подвернула лодыжку"
+    rox "... Я подвернула лодыжку."
     show roxxy 90f
     rox "Ооох, это реально больно!"
     show roxxy 90bf
