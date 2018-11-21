@@ -36,7 +36,7 @@ label school_erik_intro_started:
     show mia 6
     mia "Ну, для начала мне стоит спросить это у своих родителей."
     mia "Они могут быть против этого."
-    mia "Мне нельзя долго задержиться после школы или встречаться с друзьями за пределами своего дома."
+    mia "Мне нельзя долго задерживаться после школы или встречаться с друзьями за пределами своего дома."
     show mia 2
     show duo 9
     player_name "Серьёзно? Это отстой."
@@ -1032,7 +1032,7 @@ label school_erik_webcam_quest_sneak_in:
     eri "У меня плохое предчувствие..."
     show player 10
     show erik 1
-    player_name "Ага, тут явно что-то происходит"
+    player_name "Ага, тут явно что-то происходит."
     show player 11
     show erik 5
     eri "Что они делают в школе так поздно?"
@@ -3163,7 +3163,7 @@ label school_roxxy_fight_dexter:
     show player 5
     player_name "..."
     show player 38 at Position (xoffset=51) with dissolve
-    player_name "Готов ли я или нет?.."
+    player_name "Готов ли я или нет?"
     show player 3 at Position (xoffset=26) with dissolve
 
     return
@@ -3455,7 +3455,7 @@ label school_roxxy_locker_sex:
     show missy 5
     missy "Да и похер."
     show missy 2
-    missy "Если что, то моя шлюховатость обеспечивает нам доступ к члену такого человека, как {b}[firstname]'s{/b}!"
+    missy "Если что, то моя шлюховатость обеспечивает нам доступ к члену такого человека, как {b}[firstname]{/b}!"
     missy "Ты ещё меня благодарить должна!"
     show missy 2b
     show becca 7f
@@ -3688,7 +3688,7 @@ label roxxy_locker_hscene_dialog:
             player_name "..."
             player_name "Ладно!"
             $ M_roxxy.set("sex speed", .06)
-            rox "Fuuuuuck..." with hpunch
+            rox "Ебааааааааать..." with hpunch
             player_name "Тише, прошу!"
             rox "{b}*вдох*{/b}"
 
@@ -3766,7 +3766,7 @@ label roxxy_locker_sex_cum_first:
     rox "Да... Дай пару секунд..."
     rox "Фух."
     show player locker 17
-    player_name "Это было сумасшедше!"
+    player_name "Это было сумасшедствие!"
     show player locker 17b
     rox "Ага, но согласись, что была классно?"
     show player locker 17
