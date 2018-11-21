@@ -231,7 +231,7 @@ label spin_bottle_minigame_becca_solo_intro_pre_repeat:
     show becca bikini 1
     with dissolve
     rox "Давай, {b}Бекка{/b}..."
-    rox "Сними этот бикини!"
+    rox "Сними это бикини!"
     show roxxy bikini 21
     show becca bikini 6
     becca "Я ээ..."
