@@ -2,9 +2,9 @@ label basketball_minigame_prepare:
     if M_roxxy.get("basketball unlocked"):
         if game.cheat_mode:
             menu:
-                "Пропустить (Чит)":
+                "Пропустить (Чит).":
                     jump basketball_success
-                "Играть":
+                "Играть.":
 
                     call screen basketball_minigame
         else:
