@@ -239,7 +239,7 @@ label trailer_tractor_roxxy_confront_clyde:
     show clyde 22 with dissolve
     clyde "Ищу место, где можно развалиться."
     clyde "Пытаюсь найти место, где оставить разбитое сердце."
-    clyde "Мне нужно место, чтобы спрятаться, когда я- *ик*"
+    clyde "Мне нужно место, чтобы спрятаться, когда я- *ик*."
     clyde "... Когда я почувствую, что слезы наливаются!"
     clyde "Ищу место, где можно развааааааааааалиться!"
     show clyde 21
@@ -254,7 +254,7 @@ label trailer_tractor_roxxy_confront_clyde:
     clyde "... Чегось?!"
     show clyde 22 with dissolve
     clyde "Оох, отвянь {b}Роксана{/b}..."
-    clyde "Не видишь, что- *глыть*"
+    clyde "Не видишь, что- *глыть*."
     show clyde 8 with dissolve
     show roxxy 3b
     pause
@@ -280,8 +280,8 @@ label trailer_tractor_roxxy_confront_clyde:
     show clyde 22
     clyde "{b}*Всхлип*{/b} да я и сам не знаю..."
     clyde "Мы просто кутили в трейлере когда они ко всем чертям вынесли дверь!"
-    clyde "Они нашли мою заначку и начали нас мутузить"
-    clyde "Тогда она- *всхлип*"
+    clyde "Они нашли мою заначку и начали нас мутузить."
+    clyde "Тогда она- *всхлип*."
     clyde "Тогда она сказала им, что я тут не при делах..."
     clyde "... Что заначка была её."
     show clyde 21
