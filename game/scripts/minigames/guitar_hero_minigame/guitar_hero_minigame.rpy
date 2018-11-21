@@ -20,9 +20,9 @@ label guitar_hero_minigame_karaoke_fail:
     with dissolve
     if M_dewitt.get("failcount") >= 3 or game.cheat_mode:
         menu:
-            "Играть в мини-игру":
+            "Играть в мини-игру.":
                 call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
-            "Пропустить мини-игру (чит)":
+            "Пропустить мини-игру (чит).":
                 jump guitar_hero_minigame_karaoke_pass
     else:
         call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
@@ -145,9 +145,9 @@ label guitar_hero_minigame_talent_show_fail:
     hide text with dissolve
     if M_dewitt.get("failcount") >= 3 or game.cheat_mode:
         menu:
-            "Играть в мини-игру":
+            "Играть в мини-игру.":
                 call screen guitar_hero(0, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")
-            "Пропустить мини-игру (чит)":
+            "Пропустить мини-игру (чит).":
                 jump guitar_hero_minigame_talent_show_pass
     else:
         call screen guitar_hero(1, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")
@@ -298,7 +298,7 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "{b}Кевин{/b} на гитаре!"
 
     player_name "{b}Ева{/b} по вокалу!"
-    player_name "... И меня"
+    player_name "... И меня."
     player_name "Ох Иисусе...!"
     player_name "Ахх!"
     player_name "Я {b}[firstname]{/b}!"
@@ -380,7 +380,7 @@ label guitar_hero_minigame_talent_show_pass:
     eve "Это было самое смешное, что я когда-либо видела в жизни!"
     show eve 11
     show kevin 18f
-    kev "Да, и {b}Одежда директора Смит{/b} разорвана в клочья"
+    kev "Да, и {b}Одежда директора Смит{/b} разорвана в клочья."
     kev "Они действительно хотели остановить это шоу, да?"
     show kevin 17f
     show player 14
@@ -398,7 +398,7 @@ label guitar_hero_minigame_talent_show_pass:
     dewitt "Я никогда не была так горда!"
     show dewitt 1bf at Position (xoffset=-73)
     show eve 12f
-    eve "Спасибо мэм"
+    eve "Спасибо, мэм."
     show eve 11f
     show kevin 18
     kev "...Откуда вы вышли?!"
@@ -485,7 +485,7 @@ label guitar_hero_minigame_talent_show_pass:
     player_name "Я буду там."
     show player 13 with dissolve
     show dewitt 19f
-    dewitt "МММ, не могу дождаться!"
+    dewitt "Ммм, не могу дождаться!"
     dewitt "Увидимся, {b}[firstname]{/b}."
     hide dewitt with dissolve
     show player 18
