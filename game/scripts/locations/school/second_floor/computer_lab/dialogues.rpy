@@ -6,8 +6,8 @@ label printer_dialogue_bissette_scan_missing_pages:
     player_name "Эту кнопку!"
     player_name "..."
     player_name "..."
-    player_name "PC Письмо Загрузки? Что черт возьми это значит?"
-    player_name "Может мне стоит{b}Попросить кого-нибудь{/b} как заставить эту штуку работать."
+    player_name "ПК Письмо Загрузки? Что черт возьми это значит?"
+    player_name "Может мне стоит {b}спросить кого-нибудь{/b} как заставить эту штуку работать."
     hide player with dissolve
     return
 
@@ -21,13 +21,13 @@ label printer_dialogue_bissette_print_poem_assignment:
     show player 184 with dissolve
     pause    
     show player 386 with dissolve
-    player_name "Хорошо!Теперь у меня в руках Французкая поэма."
+    player_name "Хорошо! Теперь у меня в руках Французкая поэма."
     hide player with dissolve
     return
 
 label printer_dialogue_nothing:
     show player 4 at left with dissolve
-    player_name "У меня ничего нет что бы распечатать в данный момент."
+    player_name "У меня ничего нет чтобы распечатать в данный момент."
     hide player with dissolve
     return
 
