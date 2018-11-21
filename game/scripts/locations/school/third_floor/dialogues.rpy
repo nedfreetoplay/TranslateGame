@@ -45,7 +45,7 @@ label okita_office_locked:
     with dissolve
     player_name "Упс! Это не правильный код..."
     show player 34
-    player_name "Хмм,мне лучше дважды проверить {b}код{/b} который я достал из стола {b}Директрисы Смит{/b} прежде чем попыться снова."
+    player_name "Хмм, мне лучше дважды проверить {b}код{/b} который я достал из стола {b}Директрисы Смит{/b} прежде чем попыться снова."
     $ game.main()
 
 label third_floor_okita_get_ingredients:
@@ -100,7 +100,7 @@ label smith_office_annie_guarding_distract_pass:
 
     show player 2f
     player_name "Что ж это должно занять её на какое-то время..."
-    player_name "Сейчас я обыщу кабинет для того чтобы найти  {b}ДНК Директрисы Смит{/b}в нём."
+    player_name "Сейчас я обыщу кабинет для того чтобы найти {b}ДНК Директрисы Смит{/b} в нём."
     return
 
 label smith_office_annie_guarding_distract_fail:
@@ -111,7 +111,7 @@ label smith_office_annie_guarding_distract_fail:
     player_name "[chr_warn]... Я просто искал {b}Директрису Смит{/b}."
     show player 11
     show annie 3
-    ann "[chr_warn]Да, чтож её здесь нет."
+    ann "[chr_warn]Да, ну её здесь нет."
     show annie 4
     ann "[chr_warn]Так что вали отсюда!"
     show player 12
@@ -145,9 +145,9 @@ label smith_office_annie_guarding:
     show annie 1
     player_name "..."
     show annie 3
-    ann "Она сказала что кто то уже пробирался туда и она переживает за свои вещи."
+    ann "Она сказала что кто-то уже пробирался туда и она переживает за свои вещи."
     show annie 5
-    ann "Тебе случаем ничего об этом не известно, не так ли?!"
+    ann "Тебе случаем ничего об этом не известно, а?!"
     show player 10
     show annie 6
     player_name "М-мне? Нет, я ничего не знаю об этом!"
@@ -170,7 +170,7 @@ label third_floor_roxxy_intro:
     scene expression game.timer.image("school_hall_third_floor{}_b")
     show player 30 with dissolve
     player_name "( ... )"
-    player_name "( Это похоже как {b}Рокси{/b} спорит с некоторыми учителями... )"
+    player_name "( Похоже {b}Рокси{/b} спорит с некоторыми учителями... )"
     show player 33
     player_name "( Я должен взглянуть поближе! )"
     hide player with dissolve
