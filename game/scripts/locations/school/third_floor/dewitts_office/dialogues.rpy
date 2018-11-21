@@ -22,10 +22,10 @@ label dewitts_office_dewitt_office_reward:
     eve "Горячая коробка!"
     show eve 5f
     show tyrone 7f
-    tyrone "Закрой дверь, белый!Ты позволяешь всему дыму выходить!"
+    tyrone "Закрой дверь, белый! Ты позволяешь всему дыму выходить!"
     show tyrone 8f at Position (xoffset=16) with dissolve
     show dewitt 30
-    dewitt "Хэй, будь вежлив с {b}[firstname]{/b}!Он мой маленький сахарок!"
+    dewitt "Хэй, будь вежлив с {b}[firstname]{/b}! Он мой маленький сахарок!"
     show dewitt 28
     show tyrone 7f with dissolve
     tyrone "Пфффф, хахаха!"
@@ -37,7 +37,7 @@ label dewitts_office_dewitt_office_reward:
     pause
     show dewitt 29
     dewitt "Хмм?"
-    dewitt "Ох! Да, Я не знаю.Они где-то здесь."
+    dewitt "Ох! Да, Я не знаю. Они где-то здесь."
     show dewitt 28
     show tyrone 8f at Position (xoffset=16) with dissolve
     show player 212f
@@ -47,10 +47,10 @@ label dewitts_office_dewitt_office_reward:
     show dewitt 28
     show tyrone 6f with dissolve
     show player 29f with dissolve
-    player_name "Хех,Я не очень хороший танцор."
+    player_name "Хех, Я не очень хороший танцор."
     show player 3f at Position (xoffset=-8)
     show dewitt 29
-    dewitt "Ну все в порядке,сахарок."
+    dewitt "Ну все в порядке, сахарок."
     show dewitt 30
     dewitt "Просто приясдь и я станцую для тебя!"
     show dewitt 28
@@ -73,11 +73,11 @@ label dewitts_office_dewitt_office_reward:
     show expression AnimatedImage("dewitt_twerk", ["1c","2c","3c","4c","5c","6c","7c","8c","9c","10c"], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
     with dissolve
 
-    tyrone "Черт! Ты действительно знаешь как встяхнуть этой штукрй, {b}Мисс Девитт{/b}."
-    eve "Ни хера!Ты думаешь что можешь учить меня как это делать?"
+    tyrone "Черт! Ты действительно знаешь как встяхнуть этой штукой, {b}Мисс Девитт{/b}."
+    eve "Ни хера! Ты думаешь что можешь учить меня как это делать?"
     tyrone "Ох пожалуйста, у тебя должны быть причендалы в твоем багажнике чтобы осуществлять такие движения!"
-    eve "Хэй Хуй! Не неси дерьми или я надеру твою задницу!"
-    tyrone "Тебе нужно поймать меня первой,Чудохлебушек!"
+    eve "Хэй, Хуй! Не неси дерьма или я надеру твою задницу!"
+    tyrone "Тебе нужно поймать меня первой, Чудохлебушек!"
     eve "...Ублюдок!"
     scene expression game.timer.image("dewitt_office_sex{}")
     show expression AnimatedImage("dewitt_twerk", ["1c","2c","3c","4c","5c","6c","7c","8c","9c","10c"], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
@@ -92,9 +92,9 @@ label dewitts_office_dewitt_office_reward:
     dewitt "Так что ты скажешь, {b}[firstname]{/b}? Тебе понравились мои танцы?"
     show dewitts 2
     player_name "Д-да!"
-    player_name "У вас хорошая попка"
+    player_name "У вас хорошая попка."
     show dewitts 1
-    dewitt "Хех,тебе лучше поверить в это."
+    dewitt "Хех, тебе лучше поверить в это."
     dewitt "Все нормально, сахарок. Ты можешь потрогать если хочешь."
     show dewitts 2
     player_name "Серьезно?"
@@ -120,7 +120,7 @@ label dewitts_office_dewitt_office_reward:
     dewitt "Ага!{p=1}{nw}"
     show player dewitts 1 with dissolve
     show dewitts 1
-    dewitt "О боже мой,ты проказник!"
+    dewitt "О боже мой, ты проказник!"
     show dewitts 2
     show player dewitts 1b with hpunch
     pause 1
@@ -146,13 +146,13 @@ label dewitts_office_dewitt_office_reward:
     player_name "Ох Да. Хорошо."
     player_name "Я думаю уже становится поздно."
     show dewitts 1
-    dewitt "Время летит когда веселишься!"
-    dewitt "Спасибо еще раз за сегодня, {b}[firstname]{/b}.Это был действительно невероятный сюрприз!"
+    dewitt "Время летит быстро когда веселишься!"
+    dewitt "Спасибо еще раз за сегодня, {b}[firstname]{/b}. Это был действительно невероятный сюрприз!"
     show dewitts 2
     player_name "Мне очень приятно, {b}Мисс Девитт{/b}."
     player_name "Увидимся, завтра."
     show dewitts 1
-    dewitt "Спокойной ночи,сахарок."
+    dewitt "Спокойной ночи, сахарок."
     hide dewitts
     hide dewitt cloths
     hide player
@@ -164,7 +164,7 @@ label dewitt_office_dewitt_night_visit:
     show dewitt 18 at left
     show player 14f at right
     with dissolve
-    player_name "Привет {b}Мисс Девитт{/b}."
+    player_name "Привет, {b}Мисс Девитт{/b}."
     player_name "Что вы делаете?"
     show player 13f
     show dewitt 19
@@ -173,7 +173,7 @@ label dewitt_office_dewitt_night_visit:
     dewitt "Что ты об этом думаешь?"
     show dewitt 18
     show player 17f
-    player_name "Хмм, Это круто! мне нравится этот бит!"
+    player_name "Хмм, Это круто! Мне нравится этот бит!"
     show player 14f
     player_name "Кто это?"
     show player 13f
@@ -243,7 +243,7 @@ label dewitt_office_dewitt_night_visit:
     pause
     player_name "Это так сексуально, {b}Мисс Девитт{/b}!"
     dewitt "{b}Мелоди{/b}, {b}[firstname]{/b}..."
-    player_name "Извините.Это так сексуально, {b}Мелоди{/b}!"
+    player_name "Извините. Это так сексуально, {b}Мелоди{/b}!"
     dewitt "Хех, чтож Я рада что тебе нравится..."
     dewitt "Почему бы тебе не достать свой этот большой член?"
     player_name "Серьезно?"
@@ -255,7 +255,7 @@ label dewitt_office_dewitt_night_visit:
     show player dewitts 2 zorder 2 at left
     with dissolve
     dewitt "Черт, это один из хороших!"
-    dewitt "Интересно как он будет себя чувствать на вкус ?"
+    dewitt "Интересно как он будет себя чувствать на вкус?"
     show dewitts 2
     player_name "Вы имеете в виду Я могу-"
     player_name "... В-вы хотите меня тоже..."
@@ -348,7 +348,7 @@ label dewitt_twerk_loop:
 label dewitt_hscene_dialog:
     if animcounter == 0:
         if randomizer() <= 50:
-            dewitt "Ох ебать,конечно!{p=2}{nw}"
+            dewitt "Ох ебать, конечно!{p=2}{nw}"
             dewitt "Это большой мальчик!{p=2}{nw}"
             dewitt "Мммм...{p=1}{nw}"
 
@@ -368,7 +368,7 @@ label dewitt_hscene_dialog:
             dewitt "Аххх!{p=1}{nw}"
 
         elif not M_dewitt.is_state(S_dewitt_office_night_visit):
-            dewitt "Блять,этот член настолько хорош!{p=2}{nw}"
+            dewitt "Блять, этот член настолько хорош!{p=2}{nw}"
             player_name "Я люблю смотреть как ты катаешся на нем {b}Мисс Девитт{/b}...{p=3}{nw}"
             dewitt "Хех, Ммм...{p=1}{nw}"
 
@@ -410,7 +410,7 @@ label dewitt_twerk_hscene_dialog:
         show player dewitts 1b with hpunch
         show player dewitts 1 with dissolve
         dewitt "Ннннгггг!{p=1}{nw}"
-        dewitt "Ты  хочешьз заставить меня  чтобы я тебя умоляла об этом, {b}[firstname]{/b}?{p=2}{nw}"
+        dewitt "Ты хочешь заставить меня чтобы я тебя умоляла об этом, {b}[firstname]{/b}?{p=2}{nw}"
     return
 
 label dewitt_sex_cum_first:
@@ -422,14 +422,14 @@ label dewitt_sex_cum_first:
     show dewitts 15_16 at left with flash
     player_name "ХННГГГГ!!!"
     dewitt "АХ, ЕБАТЬ ДАААААААА!!"
-    player_name "{b}Miss Dewitt{/b}!!"
+    player_name "{b}Мисс Девитт{/b}!!"
     dewitt "ХННГГГГ!!!"
     player_name "Хааах... Хааах..."
     show dewitts 17 with dissolve
     dewitt "{b}*Фух*{/b}."
     show dewitts 18 with dissolve
     dewitt "Черт, это было здорово!"
-    dewitt "Ты получил что то особенное тут, сладенький!"
+    dewitt "Ты получил что-то особенное тут, сладенький!"
     player_name "Д-дааа! Ты тоже, {b}Мелоди{/b}..."
     hide dewitts with dissolve
 
@@ -451,7 +451,7 @@ label dewitt_sex_cum_first:
     player_name "Хех, Я этому рад."
     show player 13f
     show dewitt 19b
-    dewitt "Хорошо! Приходи ко мне в любое время,сахарок!"
+    dewitt "Хорошо! Приходи ко мне в любое время, сахарок!"
     dewitt "Мои двери всегда открыты."
     show dewitt 18b
     show player 14f
@@ -465,10 +465,10 @@ label dewitt_sex_cum_first:
     return
 
 label dewitt_sex_cum_repeat:
-    player_name "ОХ!Вот оно пришло!"
+    player_name "ОХ! Вот оно пришло!"
     dewitt "НАПОЛНИ  меня, сахарок!"
     dewitt "Ммм!"
-    dewitt "Я собираюсь кончить надо твоим шарикам!"
+    dewitt "Я собираюсь кончить над твоим шарикам!"
     $ M_dewitt.set("sex speed", 0.4)
     show dewitts 15_16 at left with flash
     player_name "ХННГГГГ!!!"
@@ -487,7 +487,7 @@ label dewitt_sex_cum_repeat:
     show dewitt 19b at left
     with dissolve
     dewitt "Спасибо за хорошое время, сахарок."
-    dewitt "Увидемся еще раз, скоро?"
+    dewitt "Увидимся еще раз, скоро?"
     show dewitt 18b
     show player 14f
     player_name "Конечно!"
