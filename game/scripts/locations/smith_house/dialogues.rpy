@@ -1,7 +1,7 @@
 label smith_frontyard_sneaking:
     scene expression "backgrounds/location_smith_frontyard_night_blur.jpg"
     show player 12 with dissolve
-    player_name "Это место выглядит слишком причудливо"
+    player_name "Это место выглядит слишком причудливо."
     player_name "Ладно, мне нужно просто {b}войти, отыскать тесты, и быстро свалить{/b}."
     show player 17
     player_name "Проще простого!"
