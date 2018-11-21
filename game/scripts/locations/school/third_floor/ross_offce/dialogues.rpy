@@ -29,7 +29,7 @@ label ross_office_hscene:
     ross "Вот мой маленький герой!"
     show ross 12
     show player 2f
-    player_name "Вау,это пахнет очень хорошо здесь!"
+    player_name "Вау, здесь пахнет очень хорошо!"
     show ross 13
     show player 1f
     ross "Тебе это нравится? Это моя любимая благовония."
@@ -37,7 +37,7 @@ label ross_office_hscene:
     show ross 12
     show player 10f
     player_name "Эмм, Конечно. Я думаю..."
-    player_name "А замем это гиганское полотно?"
+    player_name "А зачем это гиганское полотно?"
     show player 11f
     show ross 13
     ross "Хехе, терпение, {b}[firstname]{/b}. Нельзя торопиться или искусство пострадает."
@@ -129,7 +129,7 @@ label ross_office_hscene:
     with dissolve
     scene black with fade
     ross "Вот и все, {b}[firstname]{/b}..."
-    ross "Просто сойти с уми с ними!"
+    ross "Просто сойти с ума с ними!"
     player_name "..."
     ross "Хехе, это щекочет!"
     scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg") with fade
@@ -344,7 +344,7 @@ label ross_hscene_dialog:
 
 label ross_office_ross_sex_cum_dialogue:
     player_name "я немогу сдержаться!"
-    ross "Ох,Я люблю это!Я люблю это!Я люблю это!"
+    ross "Ох, Я люблю это! Я люблю это! Я люблю это!"
     pause
     ross "ААААХХ!!"
     pause
