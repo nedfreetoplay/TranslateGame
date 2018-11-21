@@ -51,15 +51,15 @@ init python:
             dex_frame_r = renpy.render(self.dex_frames[self.dex_did_pushup][0], width, height, st, at)
             
             if renpy.variant("mobile"):
-                instructions_r = renpy.render(Text("Tap the screen to do pushups!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажимайте на экран, чтобы сделать отжимания!", style = "style_instructions"), width, height, st, at)
             else:
-                instructions_r = renpy.render(Text("Tap {b}spacebar{/b} to do pushups!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажимайте {b}пробел{/b}, чтобы сделать отжимания!", style = "style_instructions"), width, height, st, at)
             mc_filler_r = renpy.render(self._filler_mc, width, height, st, at).subsurface((0,545-self.mc_filler_height, 98, self.mc_filler_height))
             dex_filler_r = renpy.render(self._filler_dex, width, height, st, at).subsurface((0,545-self.dex_filler_height, 98, self.dex_filler_height))
             bar_full_r = renpy.render(self._bar_empty, width, height, st, at)
             timer_filler_r = renpy.render(self._bar_full, width, height, st, at).subsurface((0, 0, self.bar_length, 33))
-            mc_pushups_r = renpy.render(Text("MC: {}".format(self.mc_pushup_count), style = "style_instructions"), width, height, st, at)
-            dex_pushups_r = renpy.render(Text("Dexter: {}".format(self.dex_pushup_count), style = "style_instructions"), width, height, st, at)
+            mc_pushups_r = renpy.render(Text("Вы: {}".format(self.mc_pushup_count), style = "style_instructions"), width, height, st, at)
+            dex_pushups_r = renpy.render(Text("Декстер: {}".format(self.dex_pushup_count), style = "style_instructions"), width, height, st, at)
             
             
             render.blit(dex_frame_r, self.dex_frames[self.dex_did_pushup][1])
