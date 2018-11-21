@@ -45,7 +45,7 @@ label shooting_range_dialogue:
                 $ player.spend_money(400)
                 $ player.earnings = 400
                 jump shooting_minigame_prepare
-            "неважно.":
+            "Неважно.":
                 show player 12f
                 player_name "Вообще-то, забудь."
                 show player 10f
@@ -75,7 +75,7 @@ label shooting_minigame_prepare:
                 if not renpy.variant("mobile"):
                     $ config.mouse = {"default": [("buttons/shooting_cursor.png", 48, 49)]}
                 call screen shooting_minigame
-            "Пропустить мини-игру(чит).":
+            "Пропустить мини-игру (чит).":
                 $ M_roxxy.set("lost shooting", True)
                 jump shooting_range_success
 
@@ -128,7 +128,7 @@ label shooting_range_fail:
                 clyde "Хех, это будет самые легкие деньги, которые я когда-либо делал!"
                 show clyde 3
                 jump shooting_range_dialogue
-            "Нет":
+            "Нет.":
                 show player 12f
                 player_name "Нет. Может, как-нибудь в другой раз."
                 show player 5f
@@ -140,9 +140,9 @@ label shooting_range_fail:
                 show clyde 3 with dissolve
                 show player 12f
                 if M_clyde.get("cletus"):
-                    player_name "заткнись, {b}Клетус{/b}."
+                    player_name "Заткнись, {b}Клетус{/b}."
                 else:
-                    player_name "заткнись, {b}Клайд{/b}."
+                    player_name "Заткнись, {b}Клайд{/b}."
                 show player 90f
                 show clyde 4
                 clyde "Ахахаха!"
@@ -325,7 +325,7 @@ label shooting_range_fail_first:
     clyde "... А когда я выиграю?"
     show clyde 19
     show player 12f
-    player_name "Рокси позолит посмотреть на свои сиськи 10 секунд"
+    player_name "Рокси позолит посмотреть на свои сиськи 10 секунд."
     show player 114f
     show roxxy 31
     rox "ЧТО БЫ ДЛЯТЬ ДЕЛАЕШЬ, {b}[firstname]{/b}?!"
@@ -335,7 +335,7 @@ label shooting_range_fail_first:
     show player 5f
     show clyde 20
     clyde "Мне нравится твой стиль, {b}[firstname]{/b}!"
-    clyde "Я согласен"
+    clyde "Я согласен."
     show clyde 19
     show roxxy 3
     rox "... Вы оба засранцы!"
@@ -396,7 +396,7 @@ label shooting_range_fail_repeat:
     show player 114
     clyde "Я тоже!"
     show roxxy 14
-    clyde "Ахахаха"
+    clyde "Ахахаха."
     show clyde 19
     show roxxy 3c
     show player 5
@@ -463,12 +463,12 @@ label shooting_range_success_outro:
     show clyde 1
     show player 114f
     show roxxy 3c
-    rox "Ты не можешь быть серьезным!"
+    rox "Ты можешь быть серьезным!"
     rox "Это моя {b}униформа{/b}!"
     show roxxy 3d
     show player 5f
     show clyde 2
-    clyde "Я говорил тебе, что она будет склонна отдать его обратно..."
+    clyde "Я говорил тебе, что она будет склонна отдать ее обратно..."
     clyde "Не волнуйся... Она, наверное, просто побежала домой..."
     show clyde 1
     show player 12f
