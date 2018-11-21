@@ -71,7 +71,7 @@ label treehouse_controller_dialogue_after:
     pause
     hide expression "boxes/popup_item_controller1.png" with dissolve
     show player 502
-    player_name "Отнесу её лучше {b}Джун{/b}."
+    player_name "Отнесу его лучше {b}Джун{/b}."
     return
 
 label lure_02:
