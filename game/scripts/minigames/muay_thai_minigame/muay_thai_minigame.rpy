@@ -51,7 +51,7 @@ label training01_payment_dialogue:
                 with dissolve
                 jump training_during_dialogue
 
-            "Пропустить мини-игру" if game.cheat_mode:
+            "Пропустить мини-игру." if game.cheat_mode:
                 $ cheat_pass = True
                 show player 40 at left
                 show master 6 at right
@@ -116,7 +116,7 @@ label training01_payment_dialogue:
                     $ sister.add_event(sis_shower_cuddle01)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 1 and sister.completed(sis_panty01) and game.cheat_mode:
+                "У меня есть трусики (Чит)." if training_tier == 1 and sister.completed(sis_panty01) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
@@ -328,7 +328,7 @@ label training01_payment_dialogue:
                     $ sister.add_event(sis_webcam03)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 4 and sister.completed(sis_panty04) and game.cheat_mode:
+                "У меня есть трусики (Чит)." if training_tier == 4 and sister.completed(sis_panty04) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
@@ -409,7 +409,7 @@ label training01_payment_dialogue:
                     mas "Тогда возвращайся, когда передумаешь, молодой ученик!"
                     show master 6
                     show player 40
-                    player_name "Да, {b}Master Somrak{/b}!!!"
+                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
                     hide player
                     hide master
                     with dissolve
