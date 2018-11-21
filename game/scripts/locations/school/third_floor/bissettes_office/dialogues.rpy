@@ -3,7 +3,7 @@ label bissettes_office_first_visit:
     show player 10 with dissolve
     player_name "Кабинет {b}Мисс Биссетт{/b} выглядит таким...Французким!"
     show player 14
-    player_name "Возможно отдныжды мы сможем с ней поехать в путешествие..."
+    player_name "Возможно отднажды мы сможем с ней поехать в путешествие..."
     hide player with dissolve
     return
 
@@ -17,13 +17,13 @@ label bissettes_office_afternoon_visit:
     show player 14
     player_name "Здрасте, {b}Мисс Биссетт{/b}."
     show player 17
-    player_name "Мне нравится ваш кабинет!Это очень... эмм... по Французки."
+    player_name "Мне нравится ваш кабинет! Это очень... эмм... по Французки."
     show player 13
     show teacher 3
     bis "Merci beaucoup(Большое спасибо) !"
     show teacher 1
     show player 35
-    player_name "Так почему вы хотели меня видеть в вашем кабинете?"
+    player_name "Так, почему вы хотели меня видеть в вашем кабинете?"
     show player 13
     show teacher 5
     bis "Что ж, {b}[firstname]{/b}, Я беспокоюсь о предстоящем экзамене."
@@ -31,7 +31,7 @@ label bissettes_office_afternoon_visit:
     show player 33
     player_name "Хм? Вам не нужно волноваться, {b}Мисс Биссетт{/b}."
     show player 14
-    player_name "Я никогда не чувствовал себя настолько подготовленым к тесту чем раньше.Я хорошо с ним справлюсь обязательно!"
+    player_name "Я никогда не чувствовал себя настолько подготовленым к тесту чем раньше. Я хорошо с ним справлюсь, обязательно!"
     show player 13
     show teacher 5
     bis "Oui(Да), {b}[firstname]{/b}! Ты безусловно мой лучший ученик и Я очень горжусь тобой!"
@@ -41,7 +41,7 @@ label bissettes_office_afternoon_visit:
     player_name "{b}Рокси{/b}?"
     show player 5
     show teacher 5
-    bis "Oui(Да)!Учитывая что она даже не появлялась на экзамене, не существует способа заставить её получить хороую отметку"
+    bis "Oui(Да)! Учитывая что она даже не появлялась на экзамене, не существует способа заставить её получить хороую отметку."
     show teacher 4
     show player 10
     player_name "Что случится если она не пройдет тест?"
@@ -68,7 +68,7 @@ label bissettes_office_afternoon_visit:
     show teacher 2
     bis "Ох, {b}[firstname]{/b}! Tu es mon heros(Ты мой герой)!"
     show teacher 12
-    bis "Если ты это сделаешь для меня,я дам тебе лучшее особое вознаграждение ты можешь себе представить,да?"
+    bis "Если ты это сделаешь для меня, я дам тебе лучшее особое вознаграждение ты можешь себе представить, да?"
     show teacher 13
     show player 29 with dissolve
     player_name "Д-да!"
@@ -102,15 +102,15 @@ label bissettes_office_night_visit:
     player_name "Вы начали без меня?"
     show player 5
     show teacher 29
-    bis "*hic* Oui, mon bel homme!(да мой красивый мужчина)"
+    bis "*ик* Oui, mon bel homme!(да, мой красивый мужчина)"
     bis "Я только что закончила свою 2 бутылку."
     show teacher 30 with dissolve
-    bis "Позволь мне налить- *hic*"
+    bis "Позволь мне налить- *ик*"
     show teacher 31 with dissolve
-    bis "ça me saoûle(это меня обьянило)."
+    bis "ça me saoûle(это меня опьянило)."
     show teacher 33 with dissolve
     show player 13
-    bis "Ты видишь *hic* Франция делает лучшее вино!"
+    bis "Ты видишь *ик* Франция делает лучшее вино!"
     show teacher 32
     show player 17
     player_name "Хехе, как скажите."
@@ -164,7 +164,7 @@ label bissettes_office_night_visit:
     bis "Не забудь использовать свой язычок, {b}[firstname]{/b}."
     show teacher 39b_39c_39d
     bis "Ох, mon bel homme(мой красивый мужчина)..."
-    bis "Ты заставляешь- *hic*"
+    bis "Ты заставляешь- *ик*"
     bis "Ты заставляешь меня таять этими поцелуями!"
     pause
     pause
@@ -172,7 +172,7 @@ label bissettes_office_night_visit:
     show teacher 39
     with dissolve
     bis "Я знаю что ты скрываешь что то большое в этих твоих штанах..."
-    bis "Я покажу тебе мою.Ты покажы мне свой, да?"
+    bis "Я покажу тебе мою. Ты покажы мне свой, да?"
     show teacher 38
     show player 83b
     player_name "Конечно!"
@@ -240,10 +240,10 @@ label bissettes_office_night_visit_repeat:
     show teacher 29 at right
     show player 13 at left
     with dissolve
-    bis "И так, нехочешь немного вина или это прямком к занятию любовью?"
+    bis "И так, нехочешь немного вина или перейдем к занятию любовью?"
     show teacher 28
     show player 26
-    player_name "Занятием любовью,Пожалуйста."
+    player_name "Занятием любовью, Пожалуйста."
     show player 13
     show teacher 31 with dissolve
     bis "Dieu merci(Господи спасибо)!"
@@ -271,7 +271,7 @@ label bissettes_office_night_visit_repeat:
     with dissolve
     pause
     show player 527 at Position (xoffset=360)
-    player_name "You're beautiful."
+    player_name "Ты прекрасна."
     show player 525 at Position (xoffset=360)
     show teacher 39
     bis "Не стесняйся поцелуй их."
@@ -282,14 +282,14 @@ label bissettes_office_night_visit_repeat:
     bis "Не забудь использовать свой язычок, {b}[firstname]{/b}."
     show teacher 39b_39c_39d
     bis "Ох, mon bel homme(Мой красивый мужчина)..."
-    bis "Ты заставляешь- *hic*"
+    bis "Ты заставляешь- *ик*"
     bis "Ты заставляешь таять этими поцелуями!"
     pause
     show player 83c at left
     show teacher 39
     with dissolve
-    bis "Я знаю что ты скрываешь что то большое в этих твоих штанах..."
-    bis "Я покажу тебе мою.Ты покажы мне свой, да?"
+    bis "Я знаю что ты скрываешь что-то большое в этих твоих штанах..."
+    bis "Я покажу тебе мою. Ты покажи мне свой, да?"
     show teacher 38
     show player 83b
     player_name "Конечно!"
@@ -338,8 +338,8 @@ label bissettes_office_night_visit_repeat:
     with dissolve
     bis "Войди в меня, {b}[firstname]{/b}."
     show teachers 52 with dissolve
-    bis "Ohh, elle est si grosse(Oxx она уже такая большая)!"
-    bis "Aaaah!"
+    bis "Ohh, elle est si grosse (Oxx, он уже такой большой)!"
+    bis "Ааааа!"
 
     $ M_bissette.set("change angle", False)
     $ M_bissette.set("sex speed", .175)
@@ -353,7 +353,7 @@ label bissettes_office_chair_sex_intro:
     with dissolve
     bis "Давай попробуем на стуле, нам должно быть более удобно."
     show teachers_chair 2 with dissolve
-    player_name "Вам лучше знать.Вы учитель!"
+    player_name "Вам лучше знать. Вы учитель!"
     show teachers_chair 3 with dissolve
     bis "Oh, mon bel homme(Ох мой прекрасный мужчина)..."
     show teachers_chair 16 with dissolve
@@ -377,7 +377,7 @@ label bissettes_office_sex_intro:
     with dissolve
     pause
     show expression AnimatedImage("teachers", [1,2,3,4,5,6,7], M_bissette) as teachers at right with dissolve
-    bis "Ohh, elle est si grosse!(Она уже такая большая)"
+    bis "Ohh, elle est si grosse!(Oxx, он уже такой большой)"
     bis "Ааааах!"
     jump expression game.dialog_select("bissettes_office_sex_loop")
 
@@ -424,9 +424,9 @@ label bissette_hscene_dialog:
     elif animcounter == 3:
         if not M_bissette.is_state(S_bissette_wine_sampling):
             bis "Сильнее! Еби меня сильнее!{p=2}{nw}"
-            bis "Oh, Oui(Ох да)!{p=2}{nw}"
+            bis "Oh, Oui(Ох, да)!{p=2}{nw}"
             bis "(Я скоро кончу), {b}[firstname]{/b}!{p=2}{nw}"
-            player_name "Me too!{p=2}{nw}"
+            player_name "Я тоже!{p=2}{nw}"
             bis "Не останавливайся!{p=2}{nw}"
             bis "Не-{p=1}{nw}"
 
@@ -483,7 +483,7 @@ label bissettes_office_sex_cum_desk_angle:
     player_name "Абсолютно!"
     show teachers 55
     bis "Tres Bien(Очень хорошо), mon bel homme(мой красивый мужчина)!"
-    bis "И так,присядь."
+    bis "Итак, присядь."
     bis "Я приготовлю тебе несколько кусочков сыра которые подойдут к вину..."
     show teachers 56
     player_name "Хорошо..."
@@ -519,7 +519,7 @@ label bissettes_office_sex_cum_repeat:
     player_name "Да,это так."
     show player 13
     show teacher 46
-    bis "Хочешь еше одну сессиб завра?"
+    bis "Хочешь еше одну сессию завра?"
     show teacher 45
     show player 14
     player_name "Может быть, Я дам вам знать."
