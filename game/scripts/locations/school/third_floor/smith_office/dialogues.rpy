@@ -20,7 +20,7 @@ label principals_office_delivery_invoice:
     show principal 24
     player_name "Я... Мне сказали передать вам этот {b}Счёт{/b} за доставку?"
     show principal 25
-    smi "Ты недисциплинированная простофиля! Ты невидишь что я занята?"
+    smi "Ты недисциплинированный простофиля! Ты не видишь что я занята?"
     show principal 24
     player_name "Извините, {b}Директриса Смит{/b}..."
     show principal 25
@@ -52,7 +52,7 @@ label principals_office_no_entry:
     player_name "Что ж..."
     show player 22 at left
     show principal 2 at right
-    smi "А сейчас убирайся с моего {b}КАБИНЕТ{/b}!!!"
+    smi "А сейчас убирайся из моего {b}КАБИНЕТ{/b}!!!"
     hide player 22 at left with dissolve
     hide principal 2 at right with dissolve
     return
@@ -88,7 +88,7 @@ label principals_office_smith_intro:
     hide expression ReportCard() with dissolve
     show player 10
     show principal 1 with dissolve
-    player_name "Ох мэн, Я все завалил?!"
+    player_name "Ох, блин, Я все завалил?!"
     show player 11
     show principal 27
     smi "Я говорила тебе..."
@@ -100,7 +100,7 @@ label principals_office_smith_intro:
     player_name "Я не прогуливал! Мой отец умер!"
     show player 11
     show principal 2
-    smi "Молчать, {b}Энни{/b}!"
+    smi "Молчать! {b}Энни{/b}!"
     show principal 1
     show annie 3
     ann "И-извините Мэм."
@@ -204,7 +204,7 @@ label principals_office_annie_trouble:
     smi "Что с твоими неудовлетворительными оценками и всем..."
     show player 10 at left
     show principal 13
-    player_name "Ох да Мэм!"
+    player_name "Ох, да Мэм!"
     show player 11 at left
     show principal 9
     smi "... И все же, ты выяснила реальную причину проблемы в раздевалке..."
