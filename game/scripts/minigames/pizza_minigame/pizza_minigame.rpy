@@ -21,7 +21,7 @@ label pizza_minigame:
             "Замедление времени: ВЫКЛЮЧЕНО" if not tips:
                 $ tips = True
 
-            "Начать доставку":
+            "Начать доставку.":
                 $ end_while_pizza_minigame = True
 
     call screen pizza_minigame
