@@ -17,12 +17,12 @@ label school_lock_check(destination_screen, destination_label):
     elif M_smith.is_state(S_smith_go_to_locker) and destination_screen.lower() not in ("school hall", "school second floor", "school third floor", "principal smith's office", "school locker"):
         scene expression temp_bg
         show player 2 with dissolve
-        player_name "Я должен подождать {b}Энни{/b} около моего шкафчика..."
+        player_name "Я должен подождать {b}Энни{/b} около своего шкафчика..."
 
     elif M_bridget.get_state() == S_bridget_intro and destination_screen not in ["School Hall", "School Courtyard"]:
         scene expression temp_bg
         show jersey 10 with dissolve
-        player_name "( Я должен пойти на {b}Поле{/b} для моего {b}класса легкой атлетики{/b}. )"
+        player_name "( Я должен пойти на {b}Поле{/b} для {b}класса легкой атлетики{/b}. )"
 
     elif M_bissette.get_state() == S_bissette_intro and destination_screen not in ["French Classroom"]:
         scene expression temp_bg
