@@ -125,7 +125,7 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     rox "Знаешь, ты действительно получаешь от этого удовольствие, {b}Мисси{/b}..."
     show roxxy bikini 20
     show missy naked 2f
-    missy "Вот дерьмо. Извини, {b}Рокси{/b}"
+    missy "Вот дерьмо. Извини, {b}Рокси{/b}."
     missy "Я забыла, что ты здесь..."
     show missy naked 9_10 at Position (xpos=300) with dissolve
     show player 428
