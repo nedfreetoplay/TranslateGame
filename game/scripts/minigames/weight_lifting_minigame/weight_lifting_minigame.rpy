@@ -6,12 +6,12 @@ label weightlifting_dialogue:
         kev "Приветик, приятель!"
         show kevin 8 at right
         show player 14 at left
-        player_name "Привет {b}Кевин{/b}!"
+        player_name "Привет, {b}Кевин{/b}!"
         show kevin 10 at right
         show player 11 at left
         kev "Готов поднять железку, братан?"
         menu:
-            "Конечно, бро":
+            "Конечно, бро.":
                 show player 17 at left
                 show kevin 8 at right
                 player_name "Да, бро!"
@@ -59,7 +59,7 @@ label weightlifting_dialogue:
                 jump training_dialogue
 
 
-            "Пропустить мини-игру (чит)" if game.cheat_mode:
+            "Пропустить мини-игру (чит)." if game.cheat_mode:
                 $ player.stats.increase("str")
                 $ game.timer.tick()
                 show unlock25 at truecenter with dissolve
