@@ -526,7 +526,7 @@ label recount:
         $ erik_status = "win"
         jump cloth_remove
     elif bot02_points > bot_points and bot02_points > player_points and len(mrsj_cloth_active) > 0:
-        mrsjo "У меня все еще есть!"
+        mrsjo "Я выиграла!"
         $ mrsj_status = "win"
         jump cloth_remove
     else:
@@ -930,7 +930,7 @@ label poker_call:
         poker_sayer02 "Не могу поверить, что выиграла!"
         jump end_dialogue
     else:
-        player_name "Игра продолжается.."
+        player_name "Игра продолжается."
     $ reveal_card(deck, table)
     if len(table) == 5:
         player_name "Покажи свои карты!"
@@ -984,7 +984,7 @@ label cloth_remove:
                 show erikpoker 12
                 eri "Да."
                 show erikpoker 1
-                player_name "Ух, хорошая {b}* ик *{/b} игра."
+                player_name "Ух, хорошая {b}*ик*{/b} игра."
                 jump player_lost
             $ player_active = False
             jump end_dialogue
@@ -1205,7 +1205,7 @@ label cloth_remove:
         show mrsj 18 at Position(xpos=876,ypos=768)
         with fade
 
-        mrsjo "Хахаха"
+        mrsjo "Хахаха."
         show mrsj 17
         mrsjo "Кто-то слишком много выпил!!"
         show mrsj 14
