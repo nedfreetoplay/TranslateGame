@@ -7,15 +7,15 @@ label maze_pre:
             $ tips = True
         while not end_while:
             menu:
-                "Пропутить мини-игру (Чит)":
+                "Пропутить мини-игру (Чит).":
                     $ end_while = True
                     jump maze_pass
-                "Играть в мини-игру":
+                "Играть в мини-игру.":
                     $ end_while = True
                     $ pass
                 "Подсказки: {color=#FFD700}ВКЛЮЧЕНЫ{/color}" if tips:
                     $ tips = False
-                "Подсказки: ОТКЛЮЧЕНЫ" if not tips:
+                "Подсказки: ОТКЛЮЧЕНЫ." if not tips:
                     $ tips = True
     call screen lair_maze
 
