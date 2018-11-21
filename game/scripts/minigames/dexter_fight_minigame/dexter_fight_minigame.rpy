@@ -1,9 +1,9 @@
 label dexter_fight_pre:
     if game.cheat_mode:
         menu:
-            "Пропустить мини-игру(чит)":
+            "Пропустить мини-игру(чит).":
                 $ renpy.call('dexter_fight_success', 0)
-            "Играть в мини-игру":
+            "Играть в мини-игру.":
                 call screen dexter_fight
     call screen dexter_fight
 
@@ -38,7 +38,7 @@ label dexter_fight_minigame_prepare:
     show missy 2b
     show roxxy 33
     with dissolve
-    rox "Ничего, всё хорошо"
+    rox "Ничего, всё хорошо."
     rox "Я понимаю, о чем ты говоришь."
     rox "Я просто немного волнуюсь."
     rox "Ты лучше всех знаешь, что {b}Декстер{/b} с тех пор, как мы расстались, становится все более агрессивным."
@@ -95,7 +95,7 @@ label dexter_fight_minigame_prepare:
     show missy 2
     missy "Ох, конечно, извини."
     show missy 8
-    missy "... Он большой!."
+    missy "... Он большой!"
     show missy 7
     show becca 7
     show roxxy 1f
@@ -162,7 +162,7 @@ label dexter_fight_minigame_prepare:
     rox "Мы расстались, тупица!"
     show roxxy 3bf
     show dexter 12d
-    dex "Я не тупица"
+    dex "Я не тупица."
     show dexter 14 with dissolve
     show roxxy 3f
     rox "Ну и что? Ты собираешься ударить меня?"
@@ -184,7 +184,7 @@ label dexter_fight_minigame_prepare:
     show dexter 14
     pause
     show dexter 12d
-    dex "Я сказал Съебали нахуй"
+    dex "Я сказал Съебались нахуй."
     show becca 19
     show erik 53f at Position (xpos=500) with dissolve
     show roxxy 2bf
