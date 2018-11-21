@@ -160,7 +160,7 @@ label pushups_minigame_lose:
         dex "Я победил этого лузера!"
         show dexter 11
         show player 25
-        player_name "Пфф, кого это вволнует?"
+        player_name "Пфф, кого это волнует?"
         hide player with dissolve
         show dexter 12
         dex "Хахаха!"
