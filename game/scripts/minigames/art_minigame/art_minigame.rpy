@@ -58,7 +58,7 @@ label art_minigame_done_dialogue:
     smi "Закрой дверь пожалуйста, {b}Энни{/b}."
     show principalo 3
     show annieo 2
-    ann "Да, мэм"
+    ann "Да, мэм."
     show principalo 4
     show annieo 1
     smi "Помни о чём мы говорили."
@@ -166,7 +166,7 @@ label art_minigame_done_dialogue:
     show annieo 10f with dissolve
     pause
     show annieo 9f
-    ann "Да, мэм"
+    ann "Да, мэм."
     ann "... Извените."
     hide annieo
     show principalo 5 at Position(xpos=0.315, ypos=1.0)
@@ -239,10 +239,10 @@ label art_minigame_done_dialogue:
     smi "Я приучу тебя к дисциплине позже, сучка!"
     show principalo 12f
     show annieo 9f
-    ann "Конечно ваше {b}Величие{/b}!"
+    ann "Конечно, ваше {b}Величие{/b}!"
     show annieo 8f
     show principalo 14f
-    smi "Покрути картину что бы я смогла её рассмотреть!"
+    smi "Покрути картину чтобы я смогла её рассмотреть!"
     show principalo 12f
     pause
     show player 518f zorder 0 with dissolve
@@ -347,7 +347,7 @@ label art_minigame_done_dialogue:
     ross "..."
     show player 10f
     player_name "Да, представь самое странное, что ты можешь."
-    player_name "И умножь это на 1000"
+    player_name "И умножь это на 1000."
     player_name "Ты даже близко не приблизишься к тому, какой странной была моя ночь..."
     show player 11f
     show mia 12bf
