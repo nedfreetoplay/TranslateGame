@@ -10,7 +10,7 @@ label teachers_lounge_okita_dose_smith:
     scene location_school_lounge_day_blur
     show player 11
     player_name "( Вот и она! Пьет кофе как я и думал. )"
-    player_name "( Мне просто нужно дозировать в горшок с кофе! )"
+    player_name "( Мне просто нужно добавить в колбу с кофе! )"
     return
 
 label coffee_pot_dialogue_wrong_time:
@@ -62,11 +62,11 @@ label smith_lounge_dialogue:
     player_name "Я просто-"
     show player 11
     show principal 32
-    smi "Ученикам разрешено быть зесь!"
+    smi "Ученикам не разрешено быть зесь!"
     smi "Возвращайся в свой класс немедленно или я тебя исключу!"
     show player 10
     show principal 31
-    player_name "Д-да,мэм!"
+    player_name "Д-да, мэм!"
     $ player.go_to(L_school_floor2)
     $ game.main()
 
