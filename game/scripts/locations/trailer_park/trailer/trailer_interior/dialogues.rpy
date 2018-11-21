@@ -716,7 +716,7 @@ label crystal_trailer_interior_hscene_dialog:
                     crys "Это так прекрасно!{p=1}{nw}"
                 else:
 
-                    crys "Mmm, да, это оно!{p=1}{nw}"
+                    crys "Ммм, да, это оно!{p=1}{nw}"
                     crys "Выплесни весь этот яд!{p=2}{nw}"
 
             elif random_count > 33 and random_count <= 66:
@@ -1159,7 +1159,7 @@ label trailer_interior_crystal_sex_cum_first_anal:
 label trailer_interior_crystal_sex_cum_first:
     player_name "Да, я уже на пределе!"
     crys "Давай же!"
-    crys "Наполни меня полностью'!"
+    crys "Наполни меня полностью!"
     player_name "Ннггххх!"
     pause
     crys "Вот так!"
