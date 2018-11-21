@@ -28,7 +28,7 @@ label smith_painting_dialogue:
     scene expression "backgrounds/location_smith_bedroom_frame.jpg"
     show expression "objects/object_key_04.png" at Position (xoffset=-245,yoffset=-320)
     player_name "Хмм, этот ключ может мне пригодиться."
-    player_name "{b}Может где-то в этой комнате я и смогу его применить{/b}"
+    player_name "{b}Может где-то в этой комнате я и смогу его применить{/b}."
     return
 
 label smith_exams:
