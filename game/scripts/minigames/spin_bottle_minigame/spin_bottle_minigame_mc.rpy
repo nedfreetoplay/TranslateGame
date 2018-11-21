@@ -668,7 +668,7 @@ label spin_bottle_minigame_mc_4some_missy_cum_dialogue:
     rox "Не останавливайся, {b}[firstname]{/b}."
     rox "Наполни эту тупую сучку!"
     missy "Ооо даааа!!!"
-    missy "Спасибо, спасибо,СПАСИБО!!"
+    missy "Спасибо, спасибо, СПАСИБО!!"
     pause
     show missys_beach 14_15 at Position (xalign = 0.5)
     player_name "ННГГГ!!!" with flash
