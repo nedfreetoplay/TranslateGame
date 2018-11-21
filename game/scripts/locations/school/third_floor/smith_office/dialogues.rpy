@@ -417,14 +417,14 @@ label principals_office_dewitt_smith_office_trap:
     eri "Только поторопись, чувак. Я хочу убраться от сюда..."
     show erik 52
     show player 12
-    player_name "Я буду."
+    player_name "Хорошо."
     hide player
     hide erik
     with dissolve
 
     scene smith_office_cs01
     with fade
-    show text "Я удоставерился что стулья были склеены к полу перед передвижением подушек.\nЯ ни за что не позволил бы {b}Директрисе Смит{/b} и {b}Энни{/b} испортить {b}Шоу талантов{/b}.\nНе после всей той тяжелой работы которую мы вложили в неё!\nЯ не останавливался до тех пор,пока не использовал последнюю каплю клея." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я удоставерился что стулья были склеены к полу перед передвижением подушек.\nЯ ни за что не позволил бы {b}Директрисе Смит{/b} и {b}Энни{/b} испортить {b}Шоу талантов{/b}.\nНе после всей той тяжелой работы которую мы вложили в неё!\nЯ не останавливался до тех пор, пока не использовал последнюю каплю клея." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -523,9 +523,9 @@ label principals_office_dewitt_trap_check_up:
     show player 17f at Position (xoffset=100) with dissolve
     player_name "( Это сработало! )"
     show player 14f at Position (xoffset=100)
-    player_name "( Они не как не смогут сейчас помешать {b}Шоу талантов{/b}!)"
+    player_name "( Они никак не смогут сейчас помешать {b}Шоу талантов{/b}!)"
     player_name "( Они застряли там до тех пор пока кто-то их там не найдет. )"
-    player_name "(Мне лучше вернуться быстрее в {b}Актовый зал{/b} или я пропущу введение. )"
+    player_name "( Мне лучше вернуться быстрее в {b}Актовый зал{/b} или я пропущу начало. )"
     hide player with dissolve
     return
 
@@ -565,7 +565,7 @@ label desk03_locked_dialogue:
         smi "Что ты делаешь?"
         show principal 1 at right
         show player 29 at left
-        player_name "Ох, Простите.. Я просто смотрел!"
+        player_name "Ох, Простите... Я просто смотрел!"
         show player 3 at left
         show principal 5 at right
         smi "Если я {b}КОГДА-НИБУДЬ{/b} поймаю тебя когда ты роешься в моих вещах..."
@@ -682,7 +682,7 @@ label keycode_note_taken:
     pause
     hide expression "boxes/popup_item_note2.png" with dissolve
     pause 1
-    player_name "А теперь я могу открыть {b}Мисс Оките{/b} кабинет чтобы забрать все вещи которые она просила."
+    player_name "А теперь я могу открыть кабинет {b}Мисс Окиты{/b} чтобы забрать все вещи которые она просила."
     $ M_okita.trigger(T_okita_keycode_acquired)
     $ game.main()
     return
