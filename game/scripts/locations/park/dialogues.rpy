@@ -3,9 +3,9 @@ label park_count_night_0:
     show player 34 with dissolve
     player_name "..."
     show player 35
-    player_name "( Я слышу голоса вдалеке... )"
+    player_name "( I can hear distant voices... )"
     show player 14
-    player_name "( Может мне стоит пойти проверить! )"
+    player_name "( Maybe I should go check it out! )"
     hide player with dissolve
     return
 
@@ -19,66 +19,48 @@ label park_rap_battle:
         call expression game.dialog_select("park_rap_battle_first_visit")
         $ M_eve.set("first park visit", False)
         menu:
-            "Хорошо выглядишь!":
+            "You look good!":
                 call expression game.dialog_select("park_rap_battle_first_visit_look_good")
                 jump expression game.dialog_select("park_rap_battle_options")
-            "Мне нужно вернуться домой.":
+            "I should go home.":
 
                 call expression game.dialog_select("park_rap_battle_first_visit_go_home")
     else:
 
         call expression game.dialog_select("park_rap_battle_pre")
         menu park_rap_battle_options:
-            "Давай рэп-битву.":
+            "Let's rap battle.":
                 call expression game.dialog_select("park_rap_battle_start")
-                $ end_while_rapbattle = False
-                $ tips = False
-                if game.cheat_mode:
-                    $ tips = True
-                else:
-                    $ tips = False
-                while not end_while_rapbattle:
-                    menu:
-                        "Чико":
-                            $ end_while_rapbattle = True
-                            $ rap_opponent = "Чико"
-                            call expression game.dialog_select("park_rap_battle_opponent")
-                            jump expression game.dialog_select("rapbattle_listing")
+                menu:
+                    "Chico":
+                        $ rap_opponent = "Chico"
+                        call expression game.dialog_select("park_rap_battle_opponent")
+                        jump expression game.dialog_select("rapbattle_listing")
 
-                        "<>[chr_warn]Чад" if player.stats.chr() < 4:
-                            $ end_while_rapbattle = True
-                            $ pass
+                    "<>[chr_warn]Chad" if player.stats.chr() < 4:
+                        $ pass
 
-                        "Чад" if player.stats.chr() >= 4:
-                            $ end_while_rapbattle = True
-                            $ rap_opponent = "Чад"
-                            call expression game.dialog_select("park_rap_battle_opponent")
-                            jump expression game.dialog_select("rapbattle_listing")
+                    "Chad" if player.stats.chr() >= 4:
+                        $ rap_opponent = "Chad"
+                        call expression game.dialog_select("park_rap_battle_opponent")
+                        jump expression game.dialog_select("rapbattle_listing")
 
-                        "<>[chr_warn]Тайрон" if player.stats.chr() < 7:
-                            $ end_while_rapbattle = True
-                            $ pass
+                    "<>[chr_warn]Tyrone" if player.stats.chr() < 7:
+                        $ pass
 
-                        "Тайрон" if player.stats.chr() >= 7:
-                            $ end_while_rapbattle = True
-                            $ rap_opponent = "Тайрон"
-                            call expression game.dialog_select("park_rap_battle_opponent")
-                            jump expression game.dialog_select("rapbattle_listing")
+                    "Tyrone" if player.stats.chr() >= 7:
+                        $ rap_opponent = "Tyrone"
+                        call expression game.dialog_select("park_rap_battle_opponent")
+                        jump expression game.dialog_select("rapbattle_listing")
 
-                        "Подсказки: {color=#FFD700}ВКЛЮЧЕНЫ{/color}" if tips:
-                            $ tips = False
+                    "Skip Mini-Game (Cheat)" if game.cheat_mode:
+                        $ game.timer.tick()
+                        $ player.stats.increase("chr")
+                        show unlock23 at truecenter with dissolve
+                        pause
+                        hide unlock23 with dissolve
+            "I have to go.":
 
-                        "Подсказки: ВЫКЛЮЧЕНЫ" if not tips:
-                            $ tips = True
-
-                        "Пропустить Мини игру (Чит)" if game.cheat_mode:
-                            $ end_while_rapbattle = True
-                            $ game.timer.tick()
-                            $ player.stats.increase("chr")
-                            show unlock23 at truecenter with dissolve
-                            pause
-                            hide unlock23 with dissolve
-            "Я должен идти.":
                 call expression game.dialog_select("park_rap_battle_leave")
 
     hide player
@@ -90,255 +72,255 @@ label park_dewitt_eve_meet_up:
     show eve 1 zorder 1 at Position (xpos=450)
     show player 12 at left
     with dissolve
-    player_name "Хорошо, я тут. Какие идеи?"
+    player_name "Alright, I'm here. What's this idea you had?"
     show player 5
     show eve 2b
-    eve "Ну для начала нам, наверное, надо вычистить зал для шоу талантов?"
+    eve "Well, we need help to clean the auditorium for the talent show, right?"
     show eve 1
     show player 10
-    player_name "Да."
+    player_name "Yeah."
     show player 5
     show eve 2
-    eve "Поздоровайся с помощниками."
+    eve "Say hello to the help."
     show eve 1
     show tyrone 2 at Position (xpos=650)
     show chad 1 at right
     show chad 1 at Position (xoffset=-46)
     with dissolve
-    tyrone "Что стряслось, чувак?"
+    tyrone "What up, crackajack?"
     show tyrone 1
     show player 12
-    player_name "Тпру. Хочешь сказать, эти парни помогут нам убраться?"
+    player_name "Whoa. You mean these guys are gonna help us clean?"
     show player 5
     show chad 4 with dissolve
-    chad "Точняк! Ты думаешь, потому, что мы гангста, мы не можем делать небольшую благотворительную работу время от времени?"
+    chad "That's right! What, you think just cause we gangsta we can't do a little charity work from time to time?"
     show chad 1 at Position (xoffset=-46) with dissolve
     show player 10
-    player_name "Нет, но я не думал-"
+    player_name "Well no, I didn't mean-"
     show player 11
     show tyrone 2
-    tyrone "Хорошо, потому что ты был прав! Хахаха!"
+    tyrone "Good, cause you'd be right! Hahaha!"
     show tyrone 1
     show player 12
-    player_name "Ну ладно, признаю что я удивлён."
+    player_name "Okay, I'm officially confused."
     show player 5
     show eve 2
-    eve "Хех, они помогут нам."
-    eve "... Но тебе тоже что-то надо сделать."
+    eve "Heh, they're gonna help us."
+    eve "... But you'll have to do something for them too."
     show eve 1
     show player 14
-    player_name "Понятно."
+    player_name "Oh, I see."
     show player 12
-    player_name "И что мне делать?"
+    player_name "What do they want?"
     show player 5
     show chad 2 at Position (xoffset=-46)
-    chad "Ты должен {b}достать немного 40s{/b}, йоу!"
+    chad "You gotta {b}get us some forties{/b}, yo!"
     show chad 1 at Position (xoffset=-46)
     show player 10
-    player_name "А, 40s?"
+    player_name "Eh, forties?"
     show player 5
     show eve 1bf with dissolve
-    eve "Не надо 40s! Я сказала банки!"
+    eve "No forties! I told you cans!"
     show eve 1cf
     show chad 2 at Position (xoffset=-46)
-    chad "Пфф, ладно! Не важно."
+    chad "Pssh, fine! Whatever."
     show chad 1 at Position (xoffset=-46)
     show eve 2 with dissolve
-    eve "Они просто хотят чтобы ты {b}достал им пиво{/b}."
+    eve "They just want you to {b}get them some beer{/b}."
     show eve 1
     show player 10
-    player_name "Что?! Я не достаточно взрослый чтобы покупать пиво!"
+    player_name "What?! I'm not old enough to buy beer!"
     show player 5
     show eve 6b
-    eve "Ну да. Я знаю!"
+    eve "Well, yeah. I know that!"
     show eve 6
-    eve "А твоему другу не достаточно лет?"
+    eve "Doesn't your buddy have some?"
     show eve 1
     show player 12
-    player_name "Хух?"
+    player_name "Huh?"
     show player 5
     show eve 6
-    eve "Парню с караоке машиной! {b}Эван{/b}?"
+    eve "That guy with the karaoke machine! {b}Evan{/b}?"
     show eve 1
     show player 12
-    player_name "Ты имеешь в виду {b}Эрика{/b}?"
+    player_name "You mean {b}Erik{/b}?"
     show player 5
     show eve 2
-    eve "Да, его!"
+    eve "Yeah, that guy!"
     show eve 6
-    eve "{b}У него дома была куча пива.{/b}!"
+    eve "{b}He had a bunch of beer there at his place{/b}!"
     show eve 1
     show player 37 with dissolve
-    player_name "Эй, чел."
+    player_name "Ah, man."
     show player 38 with dissolve
-    player_name "... Они помогут нам очистить все, не так ли?"
+    player_name "... They're gonna help us clean the entire thing, right?"
     show player 5 with dissolve
     show tyrone 2
-    tyrone "Договор был такой, чучуло."
+    tyrone "That's the idea, dummy."
     show tyrone 1
     show player 4 with dissolve
     player_name "..."
     show player 12 with dissolve
-    player_name "Хорошо, я посмотрю, что я могу сделать."
-    player_name "Встретимся завтра в {b}актовом зале{/b} для уборки!"
+    player_name "Fine, I'll see what I can do."
+    player_name "I'll meet you guys in the {b}auditorium{/b} tomorrow for the clean up!"
     show player 5
     show eve 2
-    eve "Они будут там!"
+    eve "They'll be there!"
     hide eve
     hide chad
     hide tyrone
     with dissolve
     show player 10
-    player_name "Я должен поговорить с {b}Эриком{/b} можно ли {b}взять немного пива Миссис Джонсон{/b}."
+    player_name "I should talk to {b}Erik{/b} about {b}taking some of Mr. Johnson's beer{/b}."
     return
 
 label park_rap_battle_first_visit:
     show player 1 at left
     show eve 2 at right
     with dissolve
-    eve "Так ты решил показаться, да?"
+    eve "So you decided to show up, huh?"
     show eve 1
     show player 2
-    player_name "Ну, ты сказала, что я должен..."
+    player_name "Well, you said that I should..."
     show eve 6
     show player 11
-    eve "Не поздновато ли для тебя?"
-    eve "У тебя что, нет комендантского часа?"
+    eve "Isn't it a bit late for you?"
+    eve "Don't you have a curfew, or something?"
     show eve 1
     show player 5
     player_name "..."
     show eve 6
     show player 11
-    eve "Я шучу!!"
+    eve "I'm just kidding!!"
     show eve 1
     show player 17
-    player_name "Хаха..."
+    player_name "Oh. Haha..."
     show player 1
     show eve 2
-    eve "Итак, что случилось?"
+    eve "So, what's up?"
     show eve 1
     return
 
 label park_rap_battle_first_visit_look_good:
     show player 21
-    player_name "Не знаю, говорил ли я тебе, но мне очень нравятся твои волосы! "
+    player_name "I don't know if I've ever told you, but I really like your hair!"
     show eve 4
     show player 13
-    eve "Хаха! Они разные!"
+    eve "Haha! That's random!"
     show player 29
-    player_name "Просто говорю... Синий действительно хорошо на тебе смотрится."
+    player_name "Just saying... The blue really looks good on you."
     show eve 3
     show player 13
     eve "..."
     show eve 4
-    eve "О... Спасибо?"
+    eve "Uhh... Thanks?"
     show eve 6
     show player 11
-    eve "Хм... Эй, тебе стоит остаться здесь ненадолго!"
-    eve "Ребята скоро устроят {b}рэп-битву{/b}."
+    eve "Hmm... Hey, you should stick around for a bit!"
+    eve "The guys are gonna {b}rap battle{/b} soon."
     show eve 1
     show player 2
-    player_name "О, да? Как ... рассеять друг друга микрофоном?"
+    player_name "Oh yeah? Like... dissing each other with a mic?"
     show eve 6
     show player 1
-    eve "Да!"
+    eve "Yeah!"
     show eve 7
     show player 11
-    eve "Я думаю ты должен это сделать."
+    eve "I think you should do it."
     show eve 5
     show player 23 with hpunch
-    player_name "Что?!"
+    player_name "What?!"
     show eve 6
     show player 5
-    eve "Да ладно. Не стесняйся."
-    eve "Давай повеселимся!"
+    eve "Oh come on. You can't be THAT shy?"
+    eve "Just have fun with it!"
     show eve 5
     show player 21
-    player_name "Думаю можно попробовать..."
+    player_name "I guess I could try it..."
     show player 13
     show eve 6
-    eve "Ну что? Идешь?"
+    eve "So? You going to do it?"
     return
 
 label park_rap_battle_first_visit_go_home:
     show player 10
-    player_name "О, дерьмо! Мне нужно идти. У меня есть дела."
+    player_name "Oh crap! I have to go. There's something I have to do."
     show eve 2
     show player 13
-    eve "Наверное, у тебя действительно есть комендантский час..."
+    eve "I guess you really do have a curfew..."
     show eve 1
     show player 2
-    player_name "Сожалею. Я приду в другой раз!"
+    player_name "Sorry. I'll come by another time to hang out!"
     show eve 7
     show player 13
-    eve "Хорошо."
+    eve "Yeah, whatever."
     return
 
 label park_rap_battle_pre:
     show player 1 at left
     show eve 6 at right
     with dissolve
-    eve "Привет {b}[firstname]{/b}!"
+    eve "Hey {b}[firstname]{/b}!"
     show eve 5
     show player 14
-    player_name "Привет, {b}Ева{/b}!"
+    player_name "Hey, {b}Eve{/b}!"
     show eve 6
     show player 1
-    eve "Я рада, что ты появился!"
+    eve "I'm glad you showed up!"
     show eve 3
     show player 14
-    player_name "Приятно видеть тебя снова..."
+    player_name "It's nice seeing you again..."
     show eve 4
     show player 1
-    eve "Че как дела?"
+    eve "So what's up?"
     show eve 1
     return
 
 label park_rap_battle_start:
     show player 33
     show eve 5
-    player_name "Я хочу снова рэп-битву!"
+    player_name "I wanna rap battle again!"
     show eve 6
     show player 1
-    eve "Да??"
+    eve "Oh yah??"
     show eve 5
     show player 26
-    player_name "Да! Думаю, мне лучше."
+    player_name "Yeah! I think I'm getting better."
     show eve 6
     show player 1
-    eve "Клево!"
+    eve "That's cool!"
     show eve 8
-    eve "Okay. Вот твой микрофон..."
+    eve "Okay. Here's your mic..."
     show eve 1
     show player 70
-    player_name "Хммм... С кем мне следует сражаться?"
+    player_name "Hmmm... Who should I battle?"
     show player 71
     return
 
 label park_rap_battle_leave:
     show player 10
-    player_name "Вообще-то, мне нужно идти. Мне нужно кое-что сделать."
+    player_name "Actually, I have to go. There's something I have to do."
     show player 13
     show eve 6
-    eve "Но, ты только пришел..."
+    eve "But, you just got here..."
     show eve 1
     show player 2
-    player_name "Сожалею. Я приду в другое время, чтобы потусоваться!"
+    player_name "Sorry. I'll come by another time to hangout!"
     show eve 7
     show player 13
-    eve "Хорошо..."
+    eve "Alright then..."
     return
 
 label park_rap_battle_opponent:
-    if rap_opponent == "Чико":
-        player_name "Я пойду против {b}[rap_opponent]{/b} первый."
+    if rap_opponent == "Chico":
+        player_name "I'll go against {b}[rap_opponent]{/b} first."
         hide eve with dissolve
         call expression game.dialog_select("park_rap_battle_opponent_chico")
     else:
 
-        player_name "Я пойду против {b}[rap_opponent]{/b}."
+        player_name "I'll go against {b}[rap_opponent]{/b}."
         hide eve with dissolve
-        if rap_opponent == "Чад":
+        if rap_opponent == "Chad":
             call expression game.dialog_select("park_rap_battle_opponent_chad")
         else:
 
@@ -365,88 +347,88 @@ label park_rap_battle_opponent_chico_first:
     show player 77
     show douche 1 at right
     with dissolve
-    player_name "Привет ребята!"
+    player_name "Hey guys!"
     show douche 2
     show player 74
     show chico 3 with dissolve
-    chi "Ты кто такой, черт возьми?!"
+    chi "Who the fuck're you?!"
     show chico 1
     show player 71
-    player_name "Привет! Я {b}[firstname]{/b}!"
-    player_name "И я предполагаю, что ты... {b}Чико{/b}?"
+    player_name "Oh, hi! I'm {b}[firstname]{/b}!"
+    player_name "And I'm guessing you're... {b}Chico{/b}?"
     show chico 2
     show player 74
-    chi "Ты меня не знаешь, фу!"
+    chi "You don't know me, foo!"
     show chico 1
     show player 71
-    player_name "Ну, {b}Ева{/b} сказала мне только твое имя-"
+    player_name "Well, {b}Eve{/b} just told me your name so-"
     show chico 3 with hpunch
     show player 74
-    chi "{b}ЙОУ{/b}! Заткнись {b}нахуй{/b}!"
+    chi "{b}YO{/b}! Shut the {b}fuck{/b}, {b}UP{/b}!"
     show player 75
     show chico 1
     player_name "..."
     show chico 4
     show player 74
-    chi "Я иду первым, {b}подвинься{/b}!"
+    chi "I'm going first, now {b}step up{/b}!"
     return
 
 label park_rap_battle_opponent_chico_repeat:
     show player 77
     show douche 1 at right
     with dissolve
-    player_name "Привет ребята!"
+    player_name "Hey guys!"
     show douche 2
     show player 74
     show chico 3 with dissolve
-    chi "Ты вернулся за добавкой? Мелкий сопляк!"
+    chi "You back for some more? You lil'punk!"
     show chico 1
     show player 71
-    player_name "Привет {b}Чико{/b}!"
-    player_name "Давай начнем!"
+    player_name "Hey {b}Chico{/b}!"
+    player_name "Yah, let's do it!"
     show chico 4
     show player 74
-    chi "Я иду первым, {b}подвинься{/b}!"
+    chi "I'm going first. Now {b}step up{/b}!"
     return
 
 label park_rap_battle_opponent_chad:
     show player 1
     show chad 2 at right with dissolve
-    chad "Так ты тот парень, который победил Чико."
-    chad "Не знаю, почему ты подходишь ко мне, если не думаешь, что сможешь победить меня."
+    chad "So you’re the the kid who beat Chico."
+    chad "Don’t know why you’re stepping up to me though unless you think you can beat me somehow."
     show chad 1
     show player 2
-    player_name "Это именно то, о чем я думаю."
+    player_name "That's exactly what I'm thinking."
     show chad 4
     show player 1
-    chad "Зацени это! У паренька есть яйца!"
-    chad "Я сыграю в твою игру, просто знай, что ты не уйдешь отсюда так же, как пришел."
+    chad "Check this out! Punk has balls!"
+    chad "I’ll play your game, just know you aren’t leaving here the same way you came in."
     return
 
 label park_rap_battle_opponent_tyrone:
     show player 1
     show tyrone 2 at right with dissolve
-    tyrone "Ay, кто этот дурак?"
+    tyrone "Ay who is this fool?"
     show tyrone 1
     show player 2
-    player_name "Хей Я-"
+    player_name "Hey I’m-"
     show player 3
     show tyrone 3
-    tyrone "Разве я спрашивал тебя?"
+    tyrone "Was I asking you!"
     show player 12
     show tyrone 1
-    player_name "Нет, но я подумал-"
+    player_name "No, but I thought-"
     show tyrone 2
-    tyrone "Ты неправильно подумал!"
-    tyrone "Теперь ты пытаешься получить по заднице, или ты здесь, чтобы тратить мое чертово время?"
+    tyrone "You thought wrong!"
+    tyrone "Now you tryin’ to get your ass beat, or you here to waste my damn time?"
     show tyrone 4
     show player 12
-    player_name "Никакой?"
+    player_name "Neither?"
     show player 1
     show tyrone 3
-    tyrone "Мальчишка, я дал тебе только два варианта, и ты делаешь последний, прямо сейчас!"
+    tyrone "Boi, I only gave you two options, and you’re doing the latter, right now!"
     show tyrone 2
-    tyrone "Давай я тебя зажарю, и покончим с этим!"
+    tyrone "Let me just roast you, and get this over with!"
     return
 
 label park_take_picture_judith:
@@ -466,33 +448,33 @@ label park_take_picture_judith_pre:
     show player 1 at left
     show judith 5 at right
     with dissolve
-    jud "Ты пришел!"
+    jud "You really came!"
     show player 2
     show judith 4
-    player_name "Я же тебе сказал что приду."
+    player_name "I told you I would."
     show player 1
     show judith 5
-    jud "Это замечательно! Не могу передать, как много это для меня значит."
+    jud "This is wonderful! I can't tell you how much this means to me."
     show player 2
     show judith 4
-    player_name "Нет проблем, {b}Джудит{/b}."
-    player_name "Что ты хочешь, чтобы я сделал?"
+    player_name "It's no problem, {b}Judith{/b}."
+    player_name "What do you need me to do?"
     show player 1
     show judith 5
-    jud "... Просто садись рядом со мной."
+    jud "... Just, come sit next to me."
     show player 2
     show judith 4
-    player_name "Хорошо."
+    player_name "Alright."
 
     scene location_park_bench_closeup2
     show playerf 2 zorder 2 at Position(xpos=0.4125, ypos=1.01)
     show playerfa 1 zorder 3 at Position(xpos=0.394, ypos=0.736)
     show judithf 4 zorder 0 at Position(xpos=0.695, ypos=1.0)
     show judithfa 3 zorder 1 at Position(xpos=0.6645, ypos=0.635)
-    player_name "Так?"
+    player_name "Like this?"
     show playerf 2b
     show judithf 5
-    jud "Нет, глупыш."
+    jud "No, silly."
 
     scene location_park_bench_closeup3
     show playerf 2f zorder 2 at Position(xpos=0.4125, ypos=1.01)
@@ -501,16 +483,16 @@ label park_take_picture_judith_pre:
     show judithfa 4 zorder 1 at Position(xpos=0.725, ypos=0.4375)
     show juditho 1 zorder 4 at Position(xpos=0.5065, ypos=0.639)
     with dissolve
-    jud "Так!"
-    jud "Улыбочку!"
+    jud "Like this!"
+    jud "Smile!"
 
     scene location_park_bench_cutscene
     with fade
-    show text "Я не знаю, как эта фотография должна была помочь {b}Джудит{/b}?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I'm not sure how this picture was supposed to help {b}Judith{/b}?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... Но казалось, что это небольшая цена, чтобы заплатить за линзы, которые хотела {b}Окита{/b}." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... But it seemed like a small price to pay for the lenses {b}Okita{/b} wanted, though." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Плюс это сделает {b}Джудит{/b} по-настоящему счастливой!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Plus it made {b}Judith{/b} really happy!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -521,76 +503,76 @@ label park_take_picture_judith_pre:
     show judithf 6 zorder 0 at Position(xpos=0.695, ypos=1.0)
     show judithfa 2 zorder 1 at Position(xpos=0.67, ypos=0.7275)
     with dissolve
-    jud "Это идеально!"
+    jud "This is perfect!"
     show judithf 5
-    jud "Спасибо большое, {b}[firstname]{/b}!"
+    jud "Thank you so much, {b}[firstname]{/b}!"
     show playerf 2
     show judithf 4
-    player_name "Нет проблем."
+    player_name "No problem."
     show playerf 2c
-    player_name "Как насчет запасного набора очков..."
+    player_name "So about that spare set of glasses..."
     show judithf 2
     show judithfa 1 at Position(xpos=0.67, ypos=0.76) with dissolve
     show playerf 2b
-    jud "Ох, Конечно!"
-    jud "Я держу их в шкафчике в школе."
+    jud "Ohh, of course!"
+    jud "I keep them in my locker at school."
     show judithf 3
-    jud "Я могу записать комбинацию для тебя, одну секунду."
+    jud "I can write down the combination for you, just one second."
     show playerf 2c
     show judithf 1
-    player_name "Все в порядке, мне не нужна комбинация."
+    player_name "That's alright, I don't need the combination."
     return
 
 label park_take_picture_judith_have_master_key:
     show playerf 2b
     show judithf 2
-    jud "Не нужно?"
+    jud "You don't?"
     show playerf 2c
     show judithf 1
-    player_name "У меня есть мастер-ключ от всех шкафчиков."
+    player_name "I have a masterkey to all the lockers."
     show playerf 2b
     show judithf 5
-    jud "Правда?! Как тебе удалось получить его?"
+    jud "Really?! How did you manage to get that?"
     show playerf 2c
     show judithf 4
-    player_name "Хех, У меня свои методы."
+    player_name "Heh, I have my ways."
     show playerf 2b
     show judithf 5
-    jud "Это потрясающе!"
-    jud "Я понятия не имела, что ты такой плохой мальчик!"
+    jud "That's so awesome!"
+    jud "I had no idea you were such a bad boy!"
     show playerf 2c
     show judithf 4
-    player_name "Ухх, Да. Хе, Похоже..."
-    player_name "Спасибо за помощь, {b}Джудит{/b}. Увидимся позже."
+    player_name "Uhh, Yeah. Heh, I guess..."
+    player_name "Thanks for the help, {b}Judith{/b}. I'll see you around."
     show playerf 2b
     show judithf 5
-    jud "Спасибо, {b}[firstname]{/b}! Увидемся!"
+    jud "Thank you, {b}[firstname]{/b}! See you soon!"
     return
 
 label park_take_picture_judith_do_not_have_master_key:
     show playerf 2b
     show judithf 2
-    jud "Не нужно?"
+    jud "You don't?"
     show playerf 2c
     show judithf 1
-    player_name "Я знаю, где {b}директрисса Смит хранит свой Мастер-ключ{/b}..."
+    player_name "I know where {b}Principal Smith keeps her Masterkey{/b}..."
     show playerf 2b
     show judithf 5
-    jud "Правда?! Ты собираешься украсть ключ директора?"
+    jud "Really?! You're going to steal the Principal's key?"
     show playerf 2c
     show judithf 4
-    player_name "Украсть?! Я не знаю насчет этого... Я просто хочу одолжить его, пока они не купят мне новый замок."
+    player_name "Steal?! I dunno about that... I just wanna borrow it till they get me a new lock."
     show playerf 2b
     show judithf 5
-    jud "Это потрясающе!"
-    jud "Я понятия не имела, что ты такой плохой мальчик!"
+    jud "That's so awesome!"
+    jud "I had no idea you were such a bad boy!"
     show playerf 2c
     show judithf 4
-    player_name "Ухх, Да. Хе, Похоже..."
-    player_name "Спасибо за помощь, {b}Джудит{/b}. Увидимся позже."
+    player_name "Uhh, Yeah. Heh, I guess..."
+    player_name "Thanks for the help, {b}Judith{/b}. I'll see you around."
     show playerf 2b
     show judithf 5
-    jud "Спасибо, {b}[firstname]{/b}! Увидемся!"
+    jud "Thank you, {b}[firstname]{/b}! See you soon!"
     return
 
 label fountain_dialogue:
@@ -602,7 +584,7 @@ label fountain_dialogue:
         else:
 
             show expression "objects/object_coin_01.png" at Position(xalign = 0.44, yalign = 0.81)
-    player_name "( Я вижу там много монет. )"
+    player_name "( I can see a lot of coins in there. )"
     $ player.location.call_screen(False, False)
 
 label coin_dialogue:
@@ -615,10 +597,10 @@ label coin_dialogue_pre:
     hide expression "objects/object_coin_01.png"
     show expression "objects/closeup_coin_01.png" at Position(xalign = 0.5, yalign = 1.0)
     with dissolve
-    player_name "Хух?"
-    player_name "Похоже на очень старую монету."
-    player_name "Только посмотрите на эти странные {b}символы{/b}!"
-    player_name "Мне следует оставить ее себе. Может, она чего-то стоит?"
+    player_name "Huh?"
+    player_name "That looks like a really old coin."
+    player_name "Just look at these odd {b}symbols{/b}!"
+    player_name "I should keep it. Maybe it's worth something?"
     show popup_item_coin1 at truecenter with dissolve
     return
 
@@ -631,7 +613,7 @@ label coin_dialogue_after:
 label park_night_closed:
     scene park_night
     show player 10 with dissolve
-    player_name "( Уже поздно. Мне нужно вернуться домой. )"
+    player_name "( It's getting late. I should go home. )"
     hide player
     hide park_night
     $ game.main()
@@ -650,129 +632,129 @@ label park_pilly_button_dialogue:
     show player_outfit bb 638e at Position (xpos=400)
     show clyde 2 at left
     with dissolve
-    clyde "Ах, вот он где!"
-    clyde "Позволь мне говорить прямо сейчас!"
+    clyde "Ah, 'dere he is!"
+    clyde "You just let me do the talkin' now!"
     show clyde 1
     show pilly 2f at right with dissolve
-    buyer "... {b}Клайд{/b}?"
+    buyer "... {b}Clyde{/b}?"
     show pilly 1f
     show clyde 4 with dissolve
-    clyde "Ох, ох... Как поживает {b}Пилли{/b}..."
+    clyde "Oh, uhh... How's it goin' dere, {b}Pilly{/b}..."
     show clyde 3
     show player 10
-    player_name "{b}Пилли{/b}?"
-    player_name "Что это за имя такое?"
+    player_name "{b}Pilly{/b}?"
+    player_name "What kind of name is that?"
     show player 5
     show pilly 2f
-    pilly "Простите?!"
+    pilly "Excuse me?!"
     show pilly 1f
     show clyde 22 with dissolve
-    clyde "Тссс, не говори ничего о его имени..."
-    clyde "Он чувствительный."
+    clyde "Shhhh, don't say nothin' bout his name..."
+    clyde "He's sensative."
     show clyde 2
-    clyde "Не обращай на него внимания, {b}Пилли{/b}. Как насчет покурить, прежде чем мы перейдем к делу?"
+    clyde "Uhh, don't mind him, {b}Pilly{/b}. How 'bout a smoke afore we get down to business?"
     show clyde 1
     pilly "..."
     show pilly 2f
-    pilly "Я бросил."
+    pilly "I quit."
     show pilly 1f
     show clyde 22
-    clyde "Да ну на?!"
-    clyde "... Ты знаешь, никто не любит слабаков, {b}Пилли{/b}."
+    clyde "For real?!"
+    clyde "... You know, nobody likes a quitter, {b}Pilly{/b}."
     show clyde 21
     show pilly 2f
-    pilly "Да, ну... Я получил предложение, от которого не смог отказаться."
-    pilly "Где {b}Кристи{/b}?"
+    pilly "Yeah, well... I got an offer I couldn't refuse."
+    pilly "Where's {b}Crystal{/b}?"
     show pilly 1f
     show clyde 22
-    clyde "Боюсь, {b}тетушка{/b} занята другим."
+    clyde "I'm afraid mah {b}Auntie{/b} is otherwise occupied."
     show clyde 21
     pilly "..."
     show pilly 2f
-    pilly "Ну, это позор, {b}твоя тетя{/b} обычно предлагает подсластить пилюлю."
-    pilly "Кто этот джентльмен?"
+    pilly "Well that's a shame, {b}your Auntie{/b} usually offers to sweeten the deal."
+    pilly "Who is this gentleman?"
     show pilly 1f
     show player 11
     player_name "..."
     show clyde 2
-    clyde "А, ну да... Это мой новый помощник."
-    clyde "Ты можешь позвонить ему... Эмм..."
-    clyde "... {b}Мистер Уайт{/b}!"
+    clyde "Ah, well... This 'ere's my newest associate."
+    clyde "You can call him... Err..."
+    clyde "... {b}Mr. White{/b}!"
     show clyde 1
     show player 18
     pilly "..."
     show pilly 2f
-    pilly "Здесь происходит что-то подозрительное, и мне это не нравится, {b}Клайд{/b}."
+    pilly "Somethin' fishy is going on here and I don't like it, {b}Clyde{/b}."
     show pilly 1f
     show clyde 2
-    clyde "Сейчас, сейчас... Что-то не чисто!"
+    clyde "Now, now... Ain't no funny business!"
     show player 90
     show clyde 28 with dissolve
-    clyde "Я принес товар, как мы и договаривались..."
-    clyde "Посмотри сам!"
+    clyde "I brought the merchandise just like we agreed..."
+    clyde "Have a look fer yerself!"
     show clyde 1
     show pilly 4f
     with dissolve
-    pilly "Это намного больше, чем мы обсуждали по телефону."
+    pilly "Hmm, this is a lot more than we discussed over the phone."
     show pilly 6f with dissolve
     show clyde 2
-    clyde "Видишь ли, у меня небольшая распродажа."
-    clyde "Я отдам тебе всю партию за $100,000!"
+    clyde "Well ya see, I'm having a little goin' outta business sale."
+    clyde "I'll give ya the entire lot for $100,000!"
     show clyde 1
     pilly "..."
     show pilly 5f
-    pilly "Хех, как именно вы пришли к такому количеству?"
+    pilly "Heh, how exactly did you arrive at that number?"
     show pilly 6f
     show clyde 26
-    clyde "Это 5 фунтов лучших вещей прямо сейчас!"
-    clyde "Это стоит каждого пенни!"
+    clyde "That's 5 pounds of mah finest stuff right 'dere!"
+    clyde "It's worth every penny!"
     show clyde 25
     pilly "..."
     show pilly 5f
-    pilly "Думаю, нет."
-    pilly "Я дам тебе $60,000."
+    pilly "I think not."
+    pilly "I'll give you $60,000."
     show pilly 6f
     show clyde 26
-    clyde "Пфф, ты что, совсем из ума выжил?!"
-    clyde "Ты не воспользуешься мной!"
+    clyde "Pfft, are you outta yer damn mind?!"
+    clyde "You ain't takin' advantage of me!"
     show clyde 25
     show pilly 5f
-    pilly "Поступай как знаешь."
+    pilly "Suit yerself."
     show clyde 27
     show pilly 2f
     with dissolve
-    pilly "Удачи вам!"
+    pilly "Good luck!"
     show pilly 1f
     show clyde 28
-    clyde "Ну, подожди."
+    clyde "Well, hold on now!"
     show clyde 22
     show pilly 6f
     with dissolve
-    clyde "Не делай ничего радикального, мы просто торгуемся!"
+    clyde "Don't do nuthin' drastic, we just hagglin' here!"
     show clyde 26
     clyde "$75,000!"
     show clyde 25
     show player 12
-    player_name "Мы возьмем $ 60,000."
+    player_name "We'll take the $60,000."
     show player 90
     show clyde 22
-    clyde "{b}ЧТО?!{/b}" with hpunch
+    clyde "{b}WHAT?!{/b}" with hpunch
     show clyde 26
-    clyde "А теперь послушай меня!"
+    clyde "Now you listen here!"
     show clyde 25
     show player 12
-    player_name "Заткнись, {b}Клайд{/b}!"
+    player_name "Shut up, {b}Clyde{/b}!"
     show clyde 21
-    player_name "Не забывай, зачем мы здесь!"
+    player_name "Don't forget why we're here!"
     show player 90
     clyde "..."
     show clyde 22
-    clyde "Хорошо."
+    clyde "Fine."
     show clyde 21
     show pilly 5f
-    pilly "Хех, приятно видеть, что твой \"помощник\" - разумный человек."
+    pilly "Heh, nice to see your \"associate\" is a reasonable man."
     show pilly 3f with dissolve
-    pilly "Приятно вести бизнес с вами, {b}Мистер Уайт{/b}."
+    pilly "Pleasure doing business with you, {b}Mr. White{/b}."
     show player 638b
     show player_outfit 638d
     show pilly 1f
@@ -781,47 +763,47 @@ label park_pilly_button_dialogue:
     show player 638
     show player_outfit 638c
     with dissolve
-    player_name "Д-да... Спасибо."
+    player_name "Y-yeah... Thanks."
     show player 638b
     show player_outfit 638d
     hide pilly
     with dissolve
     show clyde 22
-    clyde "... Чувак, он только что склонил нас над бочкой со сделкой!"
+    clyde "... Man, he just bent us over the barrel with dat deal!"
     show clyde 21
     show player 12f at Position (xpos=700)
     show player_outfit 638ef at Position (xpos=700)
     with dissolve
-    player_name "Давай, давай выбираться отсюда!"
+    player_name "C'mon, let's get out of here!"
     show player 90f
     show clyde 22
-    clyde "Ну, держись!"
-    clyde "А как насчет нас?"
+    clyde "Well, hold on now!"
+    clyde "What about mah cut?"
     show clyde 21
     show player 10f
-    player_name "Хм?"
+    player_name "Huh?"
     show player 5f
     show clyde 2
-    clyde "Мы собираемся разделить эти деньги поровну, не так ли?!"
+    clyde "We gonna split that money fifty-fifty ain't we?!"
     show clyde 1
     show player 12f
-    player_name "Нет!"
-    player_name "Это значит, что {b}Тетя{/b} выйдит из тюрьмы!"
-    player_name "... Помнишь?!"
+    player_name "No!"
+    player_name "This is to get {b}Your Aunt{/b} outta jail!"
+    player_name "... Remember?!"
     show player 90f
     show clyde 2
-    clyde "Хорошо, но..."
-    clyde "Может, просто сходим в стрип-клуб или ещё куда-нибудь?"
-    clyde "На такие деньги можно купить кучу приватных танцев..."
+    clyde "Well, ya but..."
+    clyde "Can't we just take a lil' bit to the strip club or somethin'?"
+    clyde "You could buy a whole lot of lap dances with that kind of money..."
     show clyde 1
     show player 12f
-    player_name "... Тащи свою задницу домой и начинай писать это письмо!"
+    player_name "... Get your ass home and start writing that letter!"
     show player 90f
     show clyde 26
-    clyde "Хорошо, хорошо."
-    clyde "Ты настоящий любитель вечеринок, понимаешь?"
+    clyde "Alright, alright."
+    clyde "Sheesh, you're a real party pooper, you know dat?"
     show clyde 31 with dissolve
-    clyde "Кроме того, я написал тебе дурацкое письмо!"
+    clyde "Besides, I dun wrote yer stupid letter!"
     hide clyde
     hide player
     hide player_outfit
@@ -835,26 +817,26 @@ label park_pilly_button_dialogue:
     with dissolve
     player_name "..."
     show player 14f
-    player_name "Да, это должно сработать."
+    player_name "Yeah, that should work."
     show player 13f
     show clyde 2
-    clyde "Хорошо."
-    clyde "Я рад, что с этим бардаком покончено!"
+    clyde "Good."
+    clyde "I'm glad dis mess is all over with!"
     show clyde 1
     show player 10f
-    player_name "Лучше быстро исчезни, если ты не хочешь оказаться в тюрьме."
-    player_name "{b}Рокси{/b}, и я {b}завтра превратим это в полицию{/b}."
+    player_name "You'd better disappear quickly if you don't wanna end up in prison."
+    player_name "{b}Roxxy{/b} and I will {b}turn this into the police tomorrow{/b}."
     show player 5f
     show clyde 4 with dissolve
-    clyde "Не волнуйся, ничего страшного."
-    clyde "К тому времени меня уже не будет, приятель!"
-    clyde "Просто позаботься о своей кузине!"
+    clyde "Oh, dun you worry none."
+    clyde "I'll be long gone by then, buddy!"
+    clyde "You just take real good care mah cousin now!"
     show clyde 3
     player_name "..."
     hide clyde with dissolve
     pause
     show player 14f
-    player_name "Я должен отнести письмо {b}к Рокси завтра в школу{/b}."
+    player_name "I should take the letter to {b}Roxxy tomorrow at school{/b}."
     hide player
     hide player_outfit
     with dissolve

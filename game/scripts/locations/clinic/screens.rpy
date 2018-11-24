@@ -4,7 +4,7 @@ screen hospital:
     imagebutton:
         focus_mask True
         pos (0,0)
-        if player.location.is_here(M_roz):
+        if L_hospital.is_here(M_roz):
             if datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30):
                 idle "objects/object_desk_09_hat.png"
                 hover HoverImage("objects/object_desk_09_hat.png")

@@ -1,6 +1,6 @@
 label dining_room_dialogue:
     $ player.go_to(L_home_diningroom)
-    if sister.started(sis_breakfast):
+    if M_jenny.is_state(S_jenny_breakfast):
         call expression game.dialog_select("dining_room_sis_breakfast_started")
 
     elif M_mom.is_state(S_mom_fetch_towel) and player.has_item("towel"):
@@ -9,16 +9,8 @@ label dining_room_dialogue:
 
 label dining_room_table_dialogue:
     scene expression game.timer.image("dining_room{}")
-    if M_mom.is_state(S_mom_diane_dinner) and game.timer.is_evening():
-        call expression game.dialog_select("dining_room_mom_diane_dinner")
-        $ M_mom.trigger(T_mom_diane_dinner_chat)
-
-        $ player.go_to(L_home_entrance)
-        $ game.timer.tick()
-    else:
-
-        show player 2 with dissolve
-        player_name "( Здесь никого нет. Стол тоже не накрыт. )"
+    show player 2 with dissolve
+    player_name "( Nobody's here. The table isn't set either. )"
     $ game.main()
 
 label dining_room_table_sis:
@@ -27,11 +19,9 @@ label dining_room_table_sis:
     show jenny 44 at left
     show player 316 zorder 0 at Position(xpos=610)
     with dissolve
-    if not sister.completed(sis_breakfast):
+    if M_jenny.is_state(S_jenny_breakfast):
         call expression game.dialog_select("dining_room_sis_breakfast")
-
-        $ sis_breakfast.finish()
-        $ M_jenny.unforce()
+        $ M_jenny.trigger(T_jenny_breakfast_done)
     else:
 
         call expression game.dialog_select("dining_room_sis_breakfast_done")

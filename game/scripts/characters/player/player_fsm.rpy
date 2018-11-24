@@ -1,11 +1,11 @@
 label player_triggers_init:
     python:
 
-        T_mc_homework = Trigger("homework", "Завершите домашнее задание по французскому языку")
-        T_mc_nun_thoughts = Trigger("nun thoughts", "Вы преодолеваете затруднительное положение, которое монахиня положила на вас")
-        T_mc_mowed_lawn = Trigger("mowed lawn", "Ты подстриг свой газон")
-        T_mc_lockerroom_change = Trigger("locker room changed", "Вы переоделись в свой Джерси в раздевалке")
-        T_mc_beach_sex = Trigger("beach sex", "Вам просто повезло с четверкой на пляже.")
+        T_mc_homework = Trigger("homework", "Complete French homework")
+        T_mc_nun_thoughts = Trigger("nun thoughts", "You go over the predicament the nun has put you in")
+        T_mc_mowed_lawn = Trigger("mowed lawn", "You have mowed your front lawn")
+        T_mc_lockerroom_change = Trigger("locker room changed", "You changed into your Jersey in the locker room")
+        T_mc_beach_sex = Trigger("beach sex", "You just had a foursome on the beach, lucky you.")
     return
 
 label player_fsm_init:
@@ -27,12 +27,13 @@ label player_fsm_init:
 
 label player_machine_init:
     python:
-        M_player = Machine("player", default_loc=[[L_NULL, L_NULL, L_NULL, L_NULL]],
+        M_player = Machine("player", default_loc=[[L_NULL, L_NULL, L_NULL, L_NULL]], character=player_name,
                            vars = {"just wokeup": True,
                                    "sex speed": .4,
                                    "jerk mom": False,
                                    "jerk mia": False,
                                    "jerk roxxy": False,
+                                   "jerk diane": False,
                                    "telescope active": True,
                                    "telescope selection": None,
                                    "found cat": False,
@@ -47,7 +48,9 @@ label player_machine_init:
                                    "mc beach sex": 0,
                                    "beach bottle spins": 0,
                                    "left of 4some": None,
+                                   "took pregnax":False,
                                   },
         )
+        M_player.add_action(T_all_sleep, ["clear", "took pregnax"])
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

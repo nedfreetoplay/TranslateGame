@@ -1,10 +1,9 @@
 label mia_bedroom:
-    if sister.started(sis_telescope02):
+    if M_jenny.is_state(S_jenny_telescope_spying_tier_2):
         call expression game.dialog_select("telescope_mia_sister_spying")
         $ persistent.cookie_jar["Mia"]["unlocked"] = True
         $ persistent.cookie_jar["Mia"]["gallery"]["02_unlocked"] = True
-        $ sis_telescope02.finish()
-        $ sister.add_event(sis_hallway02)
+        $ M_jenny.trigger(T_jenny_spied_on_neighbour_tier_2)
         jump expression game.dialog_select("bedroom_dialogue")
     else:
         call expression game.dialog_select(game.telescope.mia)
@@ -16,19 +15,19 @@ label mia_bedroom:
 label telescope_mia_sister_spying:
     scene
     show windowmiaday 3
-    player_name "( О бог... )"
-    player_name "( Что {b}Мия{/b} делает? )"
-    player_name "( Надеюсь, ее не поймают за этим... )"
+    player_name "( Oh my... )"
+    player_name "( What's {b}Mia{/b} doing? )"
+    player_name "( I hope she doesn't get caught doing that... )"
     hide windowmiaday
     hide screen telescope
     show telescope_caught 1
     with dissolve
 
-    jen "( Хм... Интересно, что он задумал. )"
+    jen "( Hmm... I wonder what he's up to. )"
     show telescope_caught 3 with dissolve
     pause
     show telescope_caught 5
-    jen "( Опять?! )"
+    jen "( Again?! )"
     scene location_home_bedroom_telescope_window
     show player 357 at Position(xpos=456,ypos=758)
     with dissolve
@@ -36,33 +35,33 @@ label telescope_mia_sister_spying:
     show jenny 137 at right with fastdissolve
     pause
     show jenny 138
-    jen "Кажется, тебе это нравится."
+    jen "You seem to be enjoying this."
     show jenny 137
     show player 358 at Position(xpos=448)
     player_name "!!!" with vpunch
     show player 360 at Position(ypos=768)
-    player_name "Ты можешь перестать подкрадываться ко мне?!"
+    player_name "Could you stop sneaking up on me like that?!"
     show jenny 138
     show player 361
-    jen "Я просто хотела одолжить карандаш."
-    jen "Я не ожидала, что снова увижу, как ты пялишься на наших соседей..."
+    jen "I was just gonna borrow a pencil."
+    jen "I didn't expect to catch you perving on our neighbors again..."
     show player 360
     show jenny 137
-    player_name "Я не пялился!"
+    player_name "I'm not!"
     show player 361
     show jenny 138
-    jen "Да ну?"
-    jen "Позволь я посмотрю."
+    jen "Oh, really?"
+    jen "Let's see, then."
     show player 360
     show jenny 137
-    player_name "Чего?"
+    player_name "What?"
     show player 361
     show jenny 138
-    jen "Подвинься."
+    jen "Move over."
     show player 361 at left
     show jenny 142 at Position(xpos=806,ypos=768)
     with fastdissolve
-    jen "Так, посмотрим..."
+    jen "Let's have a look..."
     show jenny 140
     pause
     show windowmiaday 3 with dissolve
@@ -71,27 +70,27 @@ label telescope_mia_sister_spying:
     show player 361 at left
     show jenny 140 at Position(xpos=545,ypos=768)
     with dissolve
-    jen "... Это девчонка из твоего класса?"
+    jen "... Is that the girl from your class?"
     show jenny 142
-    jen "Тебе нравится смотреть как девушки мастурбируют?"
+    jen "Do you enjoy watching girls masturbate?"
     show jenny 141
     show player 360
-    player_name "Это не так! Я..."
-    player_name "Это случайность, я не знал что она там!"
+    player_name "It's not like that! I..."
+    player_name "It was an accident, I didn't know she was there!"
     show jenny 142
     show player 361
-    jen "Ага, щас."
-    jen "Бьюсь об заклад, ты любишь смотреть, как она делает это в своей комнате..."
-    jen "Ты дрочишь, наблюдая за ней?"
+    jen "Yeah, right."
+    jen "I bet you love watching her do things in her room..."
+    jen "Do you jack off while watching her?"
     show jenny 141
     show player 360
-    player_name "Нет..."
+    player_name "No..."
     show jenny 142
     show player 361
-    jen "Хаха! Так я и поверила..."
+    jen "Haha! Sure..."
     show jenny 138 at right with fastdissolve
-    jen "Забудь про карандаш..."
-    jen "Я просто позволю тебе закончить то, что ты начал..."
+    jen "Forget the pencil..."
+    jen "I'll just let you finish whatever you started here..."
     hide jenny with fastdissolve
     show player 359
     pause
@@ -101,31 +100,31 @@ label telescope_mia_sister_spying:
 label telescope_mia_morning_1:
     scene windowmiamorning01
     if game.timer.dayOfWeek() == "Sun":
-        player_name "( Она собирается в церковь.. )"
+        player_name "( She's getting ready for church. )"
     elif game.timer.is_weekend():
-        player_name "( Интересно, что она сегодня делает? )"
+        player_name "( I wonder what she's doing today? )"
     else:
-        player_name "( Она готовится к школе. )"
+        player_name "( She's getting ready for school. )"
     return
 
 label telescope_mia_morning_2:
     scene windowmiamorning02
-    player_name "( Слишком поздно... Я всегда пропускаю самое интересное! )"
+    player_name "( Too late... I always miss the best part! )"
     return
 
 label telescope_mia_afternoon_1:
     scene windowmiaday 1
-    player_name "( Ее жалюзи закрыты. Ее, наверное, нет дома. )"
+    player_name "( Her blinds are closed. She's probably not home. )"
     return
 
 label telescope_mia_afternoon_2:
     scene windowmiaday 2
-    player_name "( Ее нет дома. )"
+    player_name "( She's not home. )"
     return
 
 label telescope_mia_night_1:
     scene windowmianight01
-    player_name "( Она все время читает или учится... )"
+    player_name "( She's always reading or studying... )"
     return
 
 label telescope_mia_night_2:
@@ -134,18 +133,18 @@ label telescope_mia_night_2:
         $ persistent.cookie_jar["Mia"]["gallery"]["01_unlocked"] = True
         $ M_mia.set("telescope teddy seen", True)
         scene windowmianight03a_b
-        player_name "( Что она делает? )"
+        player_name "( What's she doing? )"
         player_name "..."
-        player_name "( Она... )"
-        player_name "( ...Трахает своего {b}плюшевого мишку{/b}? )"
-        player_name "( Вау... )"
-        player_name "( Это реально круто- )"
+        player_name "( She's... )"
+        player_name "( ...Humping her {b}Teddy Bear{/b}? )"
+        player_name "( Wow... )"
+        player_name "( That's really hot- )"
         scene windowmianight03c with hpunch
         player_name "!!!"
         scene windowmianight03d
-        player_name "( Вот дерьмо! )"
-        player_name "( Думаю, ее только что поймали.... )"
-        player_name "( Ее {b}мама{/b} должно быть в ярости... Она всегда так строга с ней...)"
+        player_name "( Oh, crap! )"
+        player_name "( I think she just got caught... )"
+        player_name "( Her {b}Mom{/b} must be furious... She's always so strict with her... )"
         $ renpy.end_replay()
     else:
         call telescope_mia_night_3
@@ -153,6 +152,6 @@ label telescope_mia_night_2:
 
 label telescope_mia_night_3:
     scene windowmianight02
-    player_name "( Она должно быть уже спит. )"
+    player_name "( She must be sleeping. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

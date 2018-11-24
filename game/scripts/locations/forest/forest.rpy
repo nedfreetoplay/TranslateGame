@@ -27,13 +27,13 @@ label awesomo_dialogue_button:
     scene expression L_forest.background_blur
     call expression game.dialog_select("awesomo_dialogue_intro")
     menu awesomo_dialogue_loop:
-        "Дать печенье.":
+        "Give Cookie.":
             call expression game.dialog_select("awesomo_dialogue_give_cookie")
             jump expression game.dialog_select("awesomo_dialogue_loop")
-        "Проверьте жетон с именем.":
+        "Check name tag.":
 
             call expression game.dialog_select("awesomo_dialogue_check_name_tag_pre")
-            $ awesomo = Character("Шикардос")
+            $ awesomo = Character("Awesomo")
             call expression game.dialog_select("awesomo_dialogue_check_name_tag_after")
             $ player.get_item("dog")
     $ game.main()

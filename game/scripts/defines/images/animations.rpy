@@ -58,6 +58,13 @@ image player 239_240f:
     pause .4
     repeat
 
+image player 694_694b:
+    Transform("characters/player/char_player_694.png")
+    pause M_player.get('sex speed')
+    Transform("characters/player/char_player_694b.png",xoffset=2)
+    pause M_player.get('sex speed')
+    repeat
+
 image player 496c_496d_496e_496d_496c:
     "characters/player/char_player_496c.png"
     pause M_player.get('sex speed')
@@ -135,6 +142,13 @@ image player medmo 155_156_156b:
     pause M_mom.get("sex speed")*5/6
     "characters/player/char_player_156b.png"
     pause M_mom.get("sex speed")*5/6
+    repeat
+
+image player 427d_e:
+    Transform("player 427d")
+    pause .4
+    Transform("player 427e")
+    pause .4
     repeat
 
 
@@ -326,7 +340,7 @@ image debbies 65_66_64:
     pause M_mom.get("sex speed")
     repeat
 
-image debbies 68_67 = Animation("characters/debbie/char_debbie_sex_68.png", .4, "characters/debbie/char_debbie_sex_67.png", .4)
+image debbies 68_67 = Animation("debbies 68", .4, "debbies 67", .4)
 image debbies 72_71 = Animation("characters/debbie/char_debbie_sex_72.png", .4, "characters/debbie/char_debbie_sex_71.png", .4)
 image debbies 73_74 = Animation("characters/debbie/char_debbie_sex_73.png", .4, "characters/debbie/char_debbie_sex_74.png", .4)
 image debbies 81_82 = Animation("characters/debbie/char_debbie_sex_81.png", .5, "characters/debbie/char_debbie_sex_82.png", .5)
@@ -685,182 +699,12 @@ image jennysex 139_140_141_142 = Animation("characters/jenny/char_jenny_sex_139.
 image jennysex 139b_140b_141b_142b = Animation("characters/jenny/char_jenny_sex_139b.png", .4, "characters/jenny/char_jenny_sex_140b.png", .4, "characters/jenny/char_jenny_sex_141b.png", .3, "characters/jenny/char_jenny_sex_142b.png", .2)
 
 
-image diane_masturbate 1_2 = Animation("backgrounds/location_diane_kitchen_vegies01.jpg", .4, "backgrounds/location_diane_kitchen_vegies01b.jpg", .4)
-image diane 77_78_76 = Animation("characters/diane/char_diane_77.png", .35, "characters/diane/char_diane_78.png", .35, "characters/diane/char_diane_76.png", .35)
-image diane 83_82 = Animation("characters/diane/char_diane_83.png", .3, "characters/diane/char_diane_82.png", .3)
-image dianesex 11_12 = Animation("characters/diane/char_diane_sex_11.png", .4, "characters/diane/char_diane_sex_12.png", .4)
-image dianesex 19_20 = Animation("characters/diane/char_diane_sex_19.png", .4, "characters/diane/char_diane_sex_20.png", .4)
-image dianesex 26_27:
-    Image("characters/diane/char_diane_sex_26.png", xoffset = 0)
-    pause M_aunt.get("sex speed")
-    Image("characters/diane/char_diane_sex_27.png", xoffset = 16)
-    pause M_aunt.get("sex speed")
+image diane_masturbate 1_2:
+    "backgrounds/location_diane_kitchen_vegies01.jpg"
+    pause M_diane.get("sex speed")
+    "backgrounds/location_diane_kitchen_vegies01b.jpg",
+    pause M_diane.get("sex speed")
     repeat
-image dianesex 30_31:
-    Image("characters/diane/char_diane_sex_30.png", xoffset = 0)
-    pause M_aunt.get("sex speed")
-    Image("characters/diane/char_diane_sex_31.png", xoffset = 16)
-    pause M_aunt.get("sex speed")
-    repeat
-image dianesex 32_33 = Animation("characters/diane/char_diane_sex_32.png", .4, "characters/diane/char_diane_sex_33.png", .4)
-image dianesex 38_40:
-    "characters/diane/char_diane_sex_38.png"
-    pause M_aunt.get("sex speed")
-    Image("characters/diane/char_diane_sex_40.png", xoffset = 3)
-    pause M_aunt.get("sex speed")
-    repeat
-image dianesex 50_52:
-    "characters/diane/char_diane_sex_50.png"
-    pause M_aunt.get("sex speed")
-    Image("characters/diane/char_diane_sex_52.png", xoffset = 5)
-    pause M_aunt.get("sex speed")
-    repeat
-image dianesex 54_55:
-    "characters/diane/char_diane_sex_54.png"
-    pause M_aunt.get("sex speed")*5/4
-    "characters/diane/char_diane_sex_55.png"
-    pause M_aunt.get("sex speed")*5/4
-    repeat
-image dianesex 58_59_58_57:
-    Transform("dianes 58", xoffset = -2)
-    pause M_aunt.get("sex speed")*3/4
-    Transform("dianes 59", xoffset = 1)
-    pause M_aunt.get("sex speed")*2.5/4
-    Transform("dianes 58", xoffset = -2)
-    pause M_aunt.get("sex speed")*3.5/4
-    Transform("dianes 57")
-    pause M_aunt.get("sex speed")
-    repeat
-image dianesex 61_60:
-    Image("characters/diane/char_diane_sex_61.png", xoffset = -45)
-    pause M_aunt.get("sex speed")*5/4
-    Image("characters/diane/char_diane_sex_60.png", xoffset = -45)
-    pause M_aunt.get("sex speed")*5/4
-    repeat
-image dianesex_xray 6_9:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_30.png")
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_31.png", xoffset = 43)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_06.png", xoffset = 376, yoffset = 417)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_09.png", xoffset = 392, yoffset = 400)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_xray 6_7:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_26.png")
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_27.png", xoffset = 43)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_06.png", xoffset = 376, yoffset = 417)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_07.png", xoffset = 392, yoffset = 400)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_cowoutfit 39_41:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_38.png", xoffset = 86, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_40.png", xoffset = 92, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/diane/char_diane_sex_39.png", xoffset = 267, yoffset = 145)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_41.png", xoffset = 268, yoffset = 144)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_cowoutfit 51_53:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_50.png", xoffset = 77)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_52.png", xoffset = 89)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/diane/char_diane_sex_51.png", xoffset = 115)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_53.png", xoffset = 133)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_xray 42_43:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_38.png", xoffset = 86, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_40.png", xoffset = 92, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_42.png", xoffset = 498, yoffset = 359)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_43.png", xoffset = 486, yoffset = 334)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_xray 46_47:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_50.png", xoffset = 77)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_52.png", xoffset = 89)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_46.png", xoffset = 272, yoffset = 270)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_47.png", xoffset = 302, yoffset = 290)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_cowoutfit_xray 39_41_42_43:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_38.png", xoffset = 86, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_40.png", xoffset = 92, yoffset = 40)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/diane/char_diane_sex_39.png", xoffset = 267, yoffset = 145)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_41.png", xoffset = 268, yoffset = 144)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_42.png", xoffset = 498, yoffset = 359)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_43.png", xoffset = 486, yoffset = 334)
-        pause M_aunt.get("sex speed")
-        repeat
-image dianesex_cowoutfit_xray 51_53_46_47:
-    contains:
-        subpixel True
-        Image("characters/diane/char_diane_sex_50.png", xoffset = 77)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_52.png", xoffset = 89)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/diane/char_diane_sex_51.png", xoffset = 115)
-        pause M_aunt.get("sex speed")
-        Image("characters/diane/char_diane_sex_53.png", xoffset = 133)
-        pause M_aunt.get("sex speed")
-        repeat
-    contains:
-        Image("characters/player/char_player_sex_46.png", xoffset = 272, yoffset = 270)
-        pause M_aunt.get("sex speed")
-        Image("characters/player/char_player_sex_47.png", xoffset = 302, yoffset = 290)
-        pause M_aunt.get("sex speed")
-        repeat
 
 
 image ivysex 4_3:
@@ -1871,4 +1715,39 @@ image beccas_solo 3_4:
     Transform("beccas_solo 4")
     pause .2
     repeat
+
+image principal 22_23f:
+    Transform("principal 22f")
+    pause .4
+    Transform("principal 23f")
+    pause .4
+    repeat
+
+
+
+transform flip:
+    xzoom -1
+
+transform unflip:
+    xzoom 1
+
+transform lright:
+    unflip
+    xcenter .5
+
+transform lcenter:
+    unflip
+    xcenter .25
+
+transform lleft:
+    unflip
+    xcenter 0
+
+transform fliplright:
+    flip
+    xcenter 1.0
+
+transform fliplleft:
+    flip
+    xcenter .5
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

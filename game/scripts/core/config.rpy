@@ -5,6 +5,8 @@ init -1 python:
     config.font_replacement_map["fonts/Arial.ttf", True, False] = ("fonts/Arial-Bold.ttf", False, False)
     config.font_replacement_map["fonts/Arial.ttf", False, True] = ("fonts/Arial-Oblique.ttf", False, False)
     config.font_replacement_map["fonts/Arial.ttf", True, True] = ("fonts/Arial-BoldOblique.ttf", False, False)
+    config.font_replacement_map["fonts/ArialBlack.ttf", True, False] = ("fonts/ArialBlack-Bold.ttf", False, False)
+    config.font_replacement_map["fonts/ArialBlack.ttf", False, True] = ("fonts/ArialBlack-Oblique.ttf", False, False)
 
     config.debug_sound = True
     config.replay_scope = {"firstname" : persistent.firstname, "jen_char_name" : persistent.jen_char_name, "deb_char_name" : persistent.deb_char_name}
@@ -139,7 +141,7 @@ init -1 python:
 
     config.has_autosave = False
 
-    config.auto_save_extra_info = "[persistent.firstname] - День [persistent.last_game_day]"
+    config.auto_save_extra_info = "[persistent.firstname] - Day [persistent.last_game_day]"
 
     config.developer = "auto"
     config.rollback_enabled = True
@@ -177,9 +179,9 @@ init -1 python:
     config.default_afm_time = 10
 
 python early:
+    config.version = "0.17.0"
     config.name = "SummertimeSaga"
-    config.version = "0.16.1"
-    config.save_directory = str(config.name)
+    config.save_directory = "SummertimeSaga"
 
 init python:
     class Wrapped(object):
@@ -222,7 +224,7 @@ init python:
             return getattr(self._file, attr)
     def create_extras(name):
         if name[:8] != 'private/':
-            raise Exception("Can only create extras from private resources")
+            raise CannotCreateExtrasError()
         if name[-4] == '.':
             fn=name[8:-4]
             ext=name[-4:]
@@ -231,7 +233,7 @@ init python:
             ext=''
         hashname = hashlib.md5(fn).hexdigest()
         new_fn = os.path.join(config.basedir,'game','images','extras',hashname+ext)
-        print "Создание {} от {}".format(new_fn,fn+ext)
+        print "Creating {} from {}".format(new_fn,fn+ext)
         fio = Wrapped(renpy.file('hide/'+fn+ext),fn+ext)
         out = open(new_fn,'wb')
         while True:

@@ -68,6 +68,7 @@ init python:
             for note in self._notes_to_blit:
                 if not note.move(): 
                     self._counter_failed_notes += 1
+                    renpy.music.play("audio/sfx_missed_chord{}.ogg".format(random.randint(1,2)), "sound")
                     self._notes_to_blit.remove(note)
                 note_r = renpy.render(note.displayable, width, height, st, at)
                 render.blit(note_r, (note.x, note.y))
@@ -93,6 +94,7 @@ init python:
                     self._notes_to_blit.remove(note)
                 else:
                     self._counter_failed_notes += 1
+                    renpy.music.play("audio/sfx_missed_chord{}.ogg".format(random.randint(1,2)), "sound")
             pass
         
         def event(self, ev, x, y, st):
@@ -108,7 +110,7 @@ init python:
                         elif self._NOTES_PIXEL_MAP["f"] < y <= (self._NOTES_PIXEL_MAP["f"] + self._LANE_WIDTH):
                             self._hit_note(self._NOTES_PIXEL_MAP["f"])
             
-            if ev.type == pygame.KEYDOWN:
+            if ev.type == pygame.KEYUP:
                 if ev.key == pygame.K_a:
                     self._hit_note(self._NOTES_PIXEL_MAP["a"])
                 elif ev.key == pygame.K_s:
@@ -120,4 +122,7 @@ init python:
 
 screen guitar_hero(guitar_hero_bg, guitar_hero_win_label, guitar_hero_fail_label):
     add GuitarHero(guitar_hero_bg, guitar_hero_win_label, guitar_hero_fail_label)
+
+screen guitar_hero_test:
+    add GuitarHero(0, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

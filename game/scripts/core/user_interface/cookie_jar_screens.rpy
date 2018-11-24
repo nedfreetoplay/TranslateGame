@@ -24,12 +24,42 @@ screen popup_cookiejar_scene_locked:
         idle "boxes/popup_cookie_jar_02.png"
         action Hide("popup_cookiejar_scene_locked")
 
+screen popup_cookie_jar_reset:
+    imagebutton:
+        idle "backgrounds/menu_ground.png"
+        action Hide("popup_cookie_jar_reset")
+
+    key "K_SPACE" action Hide("popup_cookie_jar_reset")
+
+    imagebutton:
+        focus_mask True
+        align (0.5,0.5)
+        idle "boxes/popup_cookie_jar_reset.png"
+        action Hide("popup_cookie_jar_reset")
+
+    imagebutton:
+        focus_mask True
+        pos 330,420
+        idle "buttons/menu_no.png"
+        hover HoverImage("buttons/menu_no.png")
+        action Hide("popup_cookie_jar_reset")
+
+    imagebutton:
+        focus_mask True
+        pos 590,420
+        idle "buttons/menu_yes.png"
+        hover HoverImage("buttons/menu_yes.png")
+        action Function(lock_all_scenes), Hide("popup_cookie_jar_reset")
+
+
+
 screen cookie_jar() tag menu:
     imagemap:
         ground "backgrounds/menu_cookie_jar_01.jpg"
         hover HoverImage("backgrounds/menu_cookie_jar_01.jpg")
 
-        hotspot (428,111,170,45) action [Hide("cookie_jar"), Show("main_menu")]
+        hotspot (301,111,170,45) action [Hide("cookie_jar"), Show("main_menu")]
+        hotspot (544,111,170,45) action [Show("popup_cookie_jar_reset")]
 
     default cookie_page = 1
     default cookies_per_page = 28

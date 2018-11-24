@@ -66,5 +66,5 @@ screen bissettes_office_sex_options:
         pos (370,665)
         idle "buttons/diane_stage01_04.png"
         hover HoverImage("buttons/diane_stage01_04.png")
-        action Hide("bissettes_office_sex_options"), Function(M_bissette.toggle, "change angle"), If(M_bissette.is_set("change angle"), Jump("bissettes_office_sex_intro"), Jump("bissettes_office_chair_sex_intro"))
+        action Hide("bissettes_office_sex_options"), Function(M_bissette.toggle, "change angle"), SetVariable("animated", False), If(M_bissette.is_set("change angle"), Jump("bissettes_office_sex_intro"), Jump("bissettes_office_chair_sex_intro"))
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

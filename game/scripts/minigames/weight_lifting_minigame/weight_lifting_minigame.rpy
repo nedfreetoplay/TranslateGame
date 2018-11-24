@@ -3,27 +3,27 @@ label weightlifting_dialogue:
         scene lifting
         show player 1 at left with dissolve
         show kevin 9 at right with dissolve
-        kev "Приветик, приятель!"
+        kev "Hey there, bud!"
         show kevin 8 at right
         show player 14 at left
-        player_name "Привет {b}Кевин{/b}!"
+        player_name "Hey {b}Kevin{/b}!"
         show kevin 10 at right
         show player 11 at left
-        kev "Готов поднять железку, братан?"
+        kev "You ready to lift some lead, bro?"
         menu:
-            "Конечно, бро":
+            "Yeah, bro!":
                 show player 17 at left
                 show kevin 8 at right
-                player_name "Да, бро!"
+                player_name "Yeah, bro!"
                 show kevin 9 at right
                 show player 11 at left
-                kev "Начни с лёгкого веса!"
+                kev "You have to start with some light reps!"
                 show kevin 8 at right
                 show player 12 at left
-                player_name "Какие упражнения мы делаем?"
+                player_name "What exercise are we doing?"
                 show kevin 13 at right
                 show player 24 at left
-                kev "Возьми эти легкие гантели..."
+                kev "Take those light dumbbells..."
                 show kevin 9 at right
                 show player 85 at left
                 if player.stats.str() < 3:
@@ -32,7 +32,7 @@ label weightlifting_dialogue:
                     show player 307 at left
                 else:
                     show player 308 at left
-                kev "Мы собираемся сделать несколько {b}плечевых прессов{/b}!!"
+                kev "We're gonna do some {b}shoulder presses{/b}!!"
                 hide player 85 at left
                 hide player 307 at left
                 hide player 308 at left
@@ -40,26 +40,26 @@ label weightlifting_dialogue:
                 with dissolve
                 hide lifting
                 jump weightlifting
-            "Не могу прямо сейчас.":
+            "Can't right now.":
 
                 show player 10 at left
                 show kevin 8 at right
-                player_name "Я сейчас не могу."
-                player_name "Я должен сделать кое-что еще..."
+                player_name "I can't, right now."
+                player_name "I gotta do something else first..."
                 show kevin 9 at right
                 show player 1 at left
-                kev "Не беспокойся, братан!"
+                kev "No worries, bro!"
                 show kevin 11 at right
                 show player 84 at left
-                kev "Увидимся в следующий раз, братан!"
-                player_name "Пока!"
+                kev "I'll see you next time, bro!"
+                player_name "See ya!"
                 hide player 84 at left with dissolve
                 hide kevin 11 at right with dissolve
                 hide lifting
                 jump training_dialogue
 
 
-            "Пропустить мини-игру (чит)" if game.cheat_mode:
+            "Skip Mini-Game (Cheat)" if game.cheat_mode:
                 $ player.stats.increase("str")
                 $ game.timer.tick()
                 show unlock25 at truecenter with dissolve
@@ -68,12 +68,12 @@ label weightlifting_dialogue:
     else:
         scene expression game.timer.image("training{}_b")
         show player 3 at left with dissolve
-        player_name "( Блин, Кевина здесь нет. )"
+        player_name "( Oh man, Kevin isn't here. )"
         show player 34 at left
         if game.timer.is_weekend():
-            player_name "( Возможно, он находится дома... )"
+            player_name "( Perhaps he is at home... )"
         else:
-            player_name "( Держу пари, он тусуется в {b}кафетерии{/b}. )"
+            player_name "( I bet he's hanging out at the {b}Cafeteria{/b}. )"
         hide player with dissolve
         $ game.main()
 
@@ -89,18 +89,18 @@ label weightlifting_done:
     scene lifting with dissolve
     show player 28 at left with dissolve
     show kevin 10 at right with dissolve
-    kev "Прямо сейчас, приятель!"
+    kev "Right on, dude!"
     show kevin 8 at right
-    player_name "Поразительно. Мои руки и плечи горят..."
+    player_name "Wow. My arms and shoulders are burning..."
     show kevin 7 at right
     show player 11 at left
-    kev "Продолжай качать, братан, и у тебя будут такие же безумные пушки!!"
+    kev "You keep pumping that lead bro, and you gonna get mad guns like these!!"
     show kevin 8 at right
     show player 17 at left
-    player_name "Спасибо, что заметил меня, {b}Кевин{/b}!"
+    player_name "Thanks for spotting me, {b}Kevin{/b}!"
     show kevin 11 at right
     show player 84 at left
-    kev "Нет проблем, братан! Приходи завтра!"
+    kev "No problem, bro! Come back tomorrow!"
     hide player 84 at left with dissolve
     hide kevin 11 at right with dissolve
     show unlock25 at truecenter with dissolve
@@ -118,17 +118,17 @@ label weightlifting_fail:
     scene lifting with dissolve
     show player 27 at left with dissolve
     show kevin 9 at right with dissolve
-    kev "...Все в порядке, приятель."
-    kev "В следующий раз будет лучше."
+    kev "...It's alright, dude."
+    kev "You'll do better next time."
     show kevin 8 at right
     show player 24 at left
-    player_name "Черт... Я думала, что смогу это сделать..."
+    player_name "Damn... I thought I could do it..."
     show kevin 10 at right
     show player 13 at left
-    kev "Возьми выходной и возвращайся когда отдохнешь!"
+    kev "Take a day off, and come back fresh!"
     show kevin 8 at right
     show player 21 at left
-    player_name "Окей. Увидимся, {b}Кевин{/b}!"
+    player_name "Okay. See ya, {b}Kevin{/b}!"
     hide player 21 at left with dissolve
     hide kevin 8 at right with dissolve
     show unlock26 at truecenter with dissolve

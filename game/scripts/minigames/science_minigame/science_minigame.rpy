@@ -2,74 +2,74 @@ label science_minigame_success:
     scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
     show player 2 at Position(xpos=0.25, ypos=1.0)
     show okita 4 at Position(xpos=0.7, ypos=1.0)
-    player_name "Кажется, у меня получилось!"
+    player_name "I think I did it!"
     show player 1
     show okita 5
-    okita "Позволь мне посмтреть!"
+    okita "Let me see!"
     show okita 35 at Position(xpos=0.65, ypos=1.0) with dissolve
 
     okita "..."
     show okita 34
-    okita "Выглядит правильно!"
-    okita "О, это так захватывающе!"
+    okita "It looks correct!"
+    okita "Oh, this is so exciting!"
     show player 2
     show okita 35
-    player_name "Спасибо, Я-"
+    player_name "Thanks, I-"
 
     show okita 36 at Position(xpos=0.7, ypos=1.0) with dissolve
     show player 23
     player_name "( !!! )" with hpunch
     show player 10
-    player_name "Вау, вы выглядите... в порядке."
+    player_name "Wow, you're just gonna... Okay."
     show okita 37 at Position(xpos=0.65, ypos=1.0) with dissolve
-    okita "Хммм!"
+    okita "Hmmph!"
     show okita 38
-    okita "Это на самом деле очень вкусно!"
+    okita "That actually tastes pretty good!"
     show player 10
     show okita 6 at Position(xpos=0.7, ypos=1.0) with dissolve
-    player_name "... Это сделал я..."
+    player_name "... That had my..."
     show player 11
     player_name "..."
     show player 10
-    player_name "И это все? Мы закончили?"
+    player_name "So is that it? Are we done?"
     show player 11
     show okita 7
-    okita "Почти!"
-    okita "Осталось сделать еще кое-что."
+    okita "Almost!"
+    okita "Just one last thing to do."
     show okita 28 with dissolve
     player_name "..."
     show okita 29 at Position(xpos=0.65, ypos=1.0) with dissolve
 
-    okita "Вам просто нужно убедиться, что {b}директриса Смит{/b} примет это."
+    okita "You just need to make sure {b}Principal Smith{/b} ingests this."
     show player 10
     show okita 30
-    player_name "Что?!"
-    player_name "Как я должен это сделать?"
+    player_name "What?!"
+    player_name "How am I supposed to do that?"
     show player 11
     show okita 29
-    okita "Ты что-нибудь придумаешь..."
+    okita "You'll come up with something..."
     show player 535 at Position(xpos=0.3, ypos=1.0)
     show okita 5 at Position(xpos=0.7, ypos=1.0) with dissolve
     with dissolve
-    okita "Как и всегда."
+    okita "You always do."
     show player 534
     show okita 4
-    player_name "Прекрасно..."
+    player_name "Wonderful..."
     show player 535
     show okita 3
-    okita "Просто {b}подсунь это ей в еду или еще куда-нибудь{/b}."
+    okita "Just {b}slip it into her food or something{/b}."
     show player 10 at Position(xpos=0.25, ypos=1.0) with dissolve
     show okita 4
-    player_name "Тогда я получу свою пятерку?"
+    player_name "Then I get my A?"
     show player 11
     show okita 5
-    okita "Хм, Мы это обсудим."
+    okita "Hmm, we'll discuss it."
 
     hide okita with dissolve
     hide player
     show player 2f
     with dissolve
-    player_name "Хорошо, я могу это сделать."
+    player_name "Alright, I can do this."
 
     $ player.remove_item("mushroom")
     $ player.remove_item("toad")
@@ -88,23 +88,23 @@ label science_minigame_fail:
     show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
     show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
     show okita 11 at right
-    okita "Нет, Нет, НЕТ!"
-    okita "Как тебе всегда удается все испортить?!"
+    okita "No, No, NO!"
+    okita "How do you always manage to screw these things up?!"
     show player 10
     show okita 11b
-    player_name "Простите, я немного запуталась..."
+    player_name "Sorry, I got confused..."
     show player 11
     show okita 9
-    okita "Ухх..."
+    okita "Ugh..."
     show okita 11
-    okita "Ну, сегодня у нас нет времени начинать все сначала. Завтра тебе придется повторить попытку."
+    okita "Well, we don't have time to start over today. You'll have to try again tomorrow."
     show player 10
     show okita 11b
-    player_name "Хорошо."
-    player_name "Тогда увидимся завтра вечером."
+    player_name "O-okay."
+    player_name "I guess I'll see you tomorrow night then."
     show player 11
     show okita 11
-    okita "Постарайся не подвести меня в следующий раз!"
+    okita "Try not to fail me next time!"
     $ game.timer.tick(2)
     $ player.go_to(L_map)
     $ game.main()

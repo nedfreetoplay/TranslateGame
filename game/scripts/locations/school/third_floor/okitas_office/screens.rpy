@@ -76,7 +76,7 @@ screen okita_sex_options:
         pos (350,665)
         idle "buttons/ar_switch_01.png"
         hover HoverImage("buttons/ar_switch_01.png")
-        action Hide("okita_sex_options"), Function(M_okita.toggle, "in augmented reality"), Jump("okita_h_scene_loop")
+        action Hide("okita_sex_options"), Function(M_okita.toggle, "in augmented reality"), SetVariable("animated", False), Jump("okita_h_scene_loop")
 
     imagebutton:
         focus_mask True
@@ -94,7 +94,7 @@ screen okita_sex_options:
                 hover HoverImage("buttons/speed_02.png")
                 action Hide("okita_sex_options"), Function(M_okita.set, "sex speed", M_okita.get("sex speed") + 0.05), Jump("okita_h_scene_loop")
 
-        if M_okita.get("sex speed") > .05:
+        if M_okita.get("sex speed") > .051:
             imagebutton:
                 focus_mask True
                 pos (450,735)
@@ -110,4 +110,38 @@ label button_okita_xray:
     $ player.go_to(L_map)
     $ game.main()
     return
+
+screen okita_handjob_options:
+
+    imagebutton:
+        pos (250,700)
+        focus_mask True
+        idle "buttons/judith_stage02_01.png"
+        hover HoverImage("buttons/judith_stage02_01.png")
+        action Hide("okita_handjob_options"), Jump("okita_handjob_loop")
+
+    imagebutton:
+        pos (450,700)
+        focus_mask True
+        idle "buttons/judith_stage02_02.png"
+        hover HoverImage("buttons/judith_stage02_02.png")
+        action Hide("okita_handjob_options"), Jump("okita_handjob_cum")
+
+    if M_okita.get('sex speed') < .4:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_02.png"
+            hover HoverImage("buttons/speed_02.png")
+            action Hide("okita_handjob_options"), Function(M_okita.set, "sex speed", M_okita.get("sex speed") + 0.1), Jump("okita_handjob_loop")
+            xpos 250
+            ypos 735
+
+    if M_okita.get('sex speed') > .21:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_01.png"
+            hover HoverImage("buttons/speed_01.png")
+            action Hide("okita_handjob_options"), Function(M_okita.set, "sex speed", M_okita.get("sex speed") - 0.1), Jump("okita_handjob_loop")
+            xpos 450
+            ypos 735
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

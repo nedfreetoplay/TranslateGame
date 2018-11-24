@@ -2,40 +2,40 @@ label gym_training_dialogue_first:
     scene expression game.timer.image("training{}_b")
     pause 0.001
     show player 35 at left
-    player_name "Вау..." with None
+    player_name "Woah..." with None
     show player 14
-    player_name "В этом месте есть всё!"
-    player_name "Тут даже есть секция бокса!"
+    player_name "This place has everything!"
+    player_name "It even has all that boxing stuff too!"
     show master 2 at right
     show player 11
     with dissolve
-    mas "Это не боксерский зал, а тренировочный лагерь {b}Муау Тай{/b}!"
+    mas "This is not a boxing gym, but a {b}Muay Thai{/b} training camp!"
     show master 1
     show player 17
-    player_name "Ага. Я вижу..."
+    player_name "Oh. I see..."
     show master 3
     show player 11
-    mas "Только самые упорные и дисциплинированные ученики получат мои знания!"
+    mas "Only the toughest and most disciplined students get to learn my teachings!"
     show master 5
     show player 12
-    player_name "Хммм... Разве я не могу просто поднимать какой-нибудь вес и быть сильнее всех?"
+    player_name "Hmmm... Couldn't I just, like, lift some weights and just be stronger than everyone?"
     show master 4
     show player 11
-    mas "{b}НЕТ!!!{/b}" with hpunch
+    mas "{b}NO!!!{/b}" with hpunch
     show master 3
     show player 1
-    mas "Без умственной и физической дисциплины Муай Тай..."
+    mas "Without the mental and physical discipline of Muay Thai..."
     show master 4
     show player 11
-    mas "...ты будешь просто большим куском мяса!"
+    mas "...you are nothing more than a sack of meat!"
     show master 3
-    mas "Обучаясь использовать восемь частей нашего тела и наносить удары, мы становимся самым эффективным оружием!"
+    mas "By learning to use the eight parts of our body to strike, we become the most efficient weapon!"
     show master 5
     show player 12
-    player_name "Правда? А если у меня есть пушка?"
+    player_name "Oh yeah? What if I had a gun?"
     show master 4
     show player 11
-    mas "Ты {b}ГЛУПЕЦ{/b}!!!"
+    mas "You {b}FOOL{/b}!!!"
     show player 6
     show master 7
     window hide
@@ -43,48 +43,48 @@ label gym_training_dialogue_first:
     pause
     show master 1
     show player 38
-    player_name "Ауч!!"
-    player_name "Больно!"
+    player_name "Ouch!!"
+    player_name "That hurt!"
     show master 4
     show player 11
-    mas "Ты медленый... и слабый! Оружие в твоих руках бесполезно!"
+    mas "You are slow... and weak! A gun would be of no use for you!"
     show master 2
-    mas "Это не хорошо, тебе надо поработать над {b}Выдержкой{/b}."
+    mas "This is no good, we will have to work on your {b}Dexterity{/b}."
     show master 5
     show player 12
-    player_name "Хорошо, так, когда мы начнём?"
+    player_name "Alright, so, when do we start training?"
     show master 4
     show player 11
-    mas "Хах! Мои уроки не бесплатны, молодой ученик."
+    mas "Hah! My lessons are not free, young apprentice."
     show master 3
-    mas "Я принимаю только одну форму оплаты..."
-    mas "...и она заключается в виде..."
+    mas "I only accept one form of payment..."
+    mas "...and it comes in the form of..."
     show player 22
-    mas "...{b}трусиков{/b}!"
+    mas "...a pair of {b}panties{/b}!"
     show player 21
     show master 6
-    player_name "Чего?"
+    player_name "A pair of-"
     show master 4
     show player 11
-    mas "Может мне повторить, ученик?"
+    mas "Must I repeat myself, student?"
     show master 6
     show player 10
-    player_name "Нет... Я постараюсь их найти, Сенсей."
+    player_name "Uh, no... I'll see what I can find, Sir."
     show master 4
     show player 22
-    mas "Прощаясь ты должен поклониться!"
+    mas "You have to bow before you leave!"
     show master 1
     show player 40
-    player_name "Да, Сенсей!"
+    player_name "Yes, Sir!"
     show master 4
     show player 22
-    mas "Зови меня {b}Мастер Сомрек{/b}!!!"
+    mas "And call me, {b}Master Somrak{/b}!!!"
     show master 1
     show player 40
-    player_name "Да, {b}Мастер Сомрек{/b}!!!"
+    player_name "Yes, {b}Master Somrak{/b}!!!"
     show master 2
     show player 1
-    mas "Хорошо, иди!"
+    mas "Good! Now, go!"
     hide player
     hide master
     with dissolve
@@ -98,41 +98,41 @@ label gym_training_dialogue_second:
     show player 14 at left
     show master 6 at right
     with dissolve
-    player_name "{b}Мастер Сомрек{/b}!"
-    player_name "Я готов изучать новые приемы!"
+    player_name "{b}Master Somrak{/b}!"
+    player_name "I'm ready to learn new techniques!"
     show player 1
     show master 2
-    mas "Ты готов учиться! Хорошо, Хорошо!"
+    mas "You are eager to learn! Good, good!"
     show master 3
-    mas "Но мои уроки не бесплатны, молодой ученик."
-    mas "Твоей новой платой будет за обучение будет..."
+    mas "But my lessons are not free, young apprentice."
+    mas "Your new payment for your training will be..."
     show player 11
     show master 9
-    mas "...пара использованных {b}трусиков{/b}!"
+    mas "...a used pair of {b}panties{/b}!"
     show master 1
     player_name "..."
     show master 3
-    mas "И убедись, что они {b}использованные{/b}!"
+    mas "And make sure they are {b}used{/b}!"
     show master 5
     show player 12
-    player_name "Использованные?"
+    player_name "Used?"
     show player 11
     show master 3
-    mas "Ты должен увидеть, как женщина снимает их лично!"
+    mas "You must witness the woman take them off personally!"
     show master 9
-    mas "Убедись, что они были ношеные и впитали её запах!"
+    mas "Make sure they have been worn and they have absorbed her scent!"
     show master 6
     show player 21
-    player_name "Ох... Я постараюсь их найти, Сенсей."
+    player_name "Uh... I'll see what I can find, Sir."
     show master 4
     show player 5
-    mas "Ты должен поклониться перед уходом, идиот!" with hpunch
+    mas "You must bow before you leave, idiot!" with hpunch
     show master 6
     show player 40
-    player_name "Да, {b}Мастер Сомрек{/b}!!!"
+    player_name "Yes, {b}Master Somrak{/b}!!!"
     show master 2
     show player 1
-    mas "Хорошо! Теперь в путь!"
+    mas "Good! Now, go!"
     hide player
     hide master
     with dissolve
@@ -147,43 +147,43 @@ label gym_training_dialogue_third:
     show player 14 at left
     show master 6 at right
     with dissolve
-    player_name "{b}Мастер Сомрек{/b}!"
-    player_name "Я готов изучать новые приемы!"
+    player_name "{b}Master Somrak{/b}!"
+    player_name "I'm ready to learn new techniques!"
     show player 1
     show master 2
-    mas "Ты готов учиться! Хорошо, хорошо!"
+    mas "You are eager to learn! Good, good!"
     show master 3
-    mas "Но мои уроки не бесплатны, молодой ученик."
-    mas "Твоей новой платой будет за обучение будут..."
+    mas "But my lessons are not free, young apprentice."
+    mas "Your new payment for your training will be..."
     show player 11
     show master 9
-    mas "...влажные {b}трусики{/b}!"
+    mas "...wet {b}panties{/b}!"
     show master 1
     player_name "..."
     show master 3
-    mas "И убедись, что они {b}влажные{/b}!"
+    mas "And make sure they are {b}wet{/b}!"
     show master 5
     show player 12
-    player_name "Влажные?"
+    player_name "Wet?"
     show player 11
     show master 3
-    mas "Ты должен быть свидетелем!"
+    mas "You must be a witness!"
     show master 9
-    mas " {b}Трусики{/b} должны быть {b}пропитаны{/b} соками!"
+    mas "The {b}panties{/b} must be {b}soaked{/b} with her juices!"
     show master 3
-    mas "Убедись, что их носила возбужденная женщина!!"
+    mas "Make sure they have been worn by an aroused woman!!"
     show master 6
     show player 21
-    player_name "Ох... Я постараюсь их найти, Сенсей."
+    player_name "Uh... I'll see what I can find, Sir."
     show master 4
     show player 5
-    mas "Ты должен поклониться прежде чем уйти, идиот!"
+    mas "You have to bow before you leave, idiot!"
     show master 6
     show player 40
-    player_name "Да, {b}Мастер Сомрек{/b}!!!"
+    player_name "Yes, {b}Master Somrak{/b}!!!"
     show master 2
     show player 1
-    mas "Хорошо! Теперь в путь!"
+    mas "Good! Now, go!"
     hide player
     hide master
     with dissolve
@@ -197,49 +197,49 @@ label gym_training_dialogue_fourth:
     show player 14 at left
     show master 6 at right
     with dissolve
-    player_name "{b}Мастер Сомрек{/b}!"
-    player_name "Я готов изучать новые приемы!"
+    player_name "{b}Master Somrak{/b}!"
+    player_name "I'm ready to learn new techniques!"
     show player 1
     show master 2
-    mas "Великолепно"
+    mas "Excellent!"
     show master 3
-    mas "Но мой последний урок не бесплатен, юный ученик."
-    mas "Последней платой за твою тренировку будут..."
+    mas "But my last lesson is not free, young apprentice."
+    mas "The last payment for your training will be..."
     show player 11
     show master 9
-    mas "...{b}трусики{/b} пропитанные {b}смазкой{/b}!!!"
+    mas "...{b}panties{/b} drenched in {b}squirt{/b}!!!"
     show master 1
     player_name "!!!"
     show master 3
-    mas "Убедись, что они полностью {b}пропитаны смазкой{/b}!"
+    mas "Make sure they are completely {b}drenched in squirt{/b}!"
     show master 5
     show player 12
-    player_name "Смазкой?"
+    player_name "Squirt?"
     show master 4
     show player 22
-    mas "Ты человек или попугай?!" with hpunch
+    mas "Are you man or parrot?!" with hpunch
     show master 5
     show player 5
     player_name "..."
     show player 11
     show master 3
-    mas "Ты должен быть свидетелем!"
+    mas "You must be a witness!"
     show master 9
-    mas "Убедись, что они будут {b}пропитаны{/b} и {b}обрызганы{/b} женскими соками!!"
+    mas "Make sure they have been {b}soaked{/b} and {b}sprayed{/b} with the juices of a woman!!"
     show player 21
     show master 5
-    player_name "Это будет непросто..."
+    player_name "That's going to be hard to do..."
     show master 6
-    player_name "...но я постараюсь найти их, Сенсей."
+    player_name "...But I'll see what I can find, Sir."
     show master 2
     show player 5
-    mas "Ты должен поклониться, помнишь?"
+    mas "You must bow, remember?"
     show master 6
     show player 40
-    player_name "Да, {b}Мастер Сомрек{/b}!!!"
+    player_name "Yes, {b}Master Somrak{/b}!!!"
     show master 2
     show player 1
-    mas "Хорошо! Теперь в путь!"
+    mas "Good! Now, go!"
     hide player
     hide master
     with dissolve
@@ -252,19 +252,19 @@ label cedric_dialogue:
     show ced 1 at left
     show player 14f at right
     with dissolve
-    player_name "Привет!"
-    player_name "Можешь меня подстраховать?"
+    player_name "Hi!"
+    player_name "You think you could spot me?"
     show ced 2
     show player 1f
-    ced "Ох..."
+    ced "Uh..."
     show player 11f
-    ced "Ты хоть раз от груди жал, шкет?"
+    ced "Do you even lift, bro?"
     show player 10f
     show ced 1
-    player_name "Что?"
+    player_name "Huh?"
     show ced 2
     show player 5f
-    ced "Извини, не страхую дрищей."
+    ced "Sorry, I don't spot shrimps."
     hide ced
     hide player
     with dissolve
@@ -273,15 +273,15 @@ label cedric_dialogue:
 label tired_training_dialogue:
     scene expression game.timer.image("training{}_b")
     show player 5 with dissolve
-    player_name "( Я устал, пора домой. )"
+    player_name "( I'm tired, I should go home and sleep. )"
     hide player with dissolve
     $ game.main()
 
 label cant_solo_lift:
     scene expression game.timer.image("training{}_b")
     show player 11 at left with dissolve
-    player_name "( Сам я не справлюсь. )"
-    player_name "( Нужно, чтобы кто-то меня подстраховал! )"
+    player_name "( I can't do that on my own. )"
+    player_name "( I need someone to spot me! )"
     hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

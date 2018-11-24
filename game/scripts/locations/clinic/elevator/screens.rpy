@@ -20,5 +20,5 @@ screen hospital_elevator:
         pos (454,120)
         idle "buttons/elevator_03.png"
         hover HoverImage("buttons/elevator_03.png")
-        action Show("popup_unfinished")
+        action Hide("hospital_elevator"), If(L_hospital_floor3.locked, Jump("hospital_floor3_locked"), Jump("hospital_third_floor_dialogue"))
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

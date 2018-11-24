@@ -14,6 +14,7 @@ label spin_bottle_minigame_roxxy:
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro_pre")
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro")
             $ anim_toggle = True
+            $ animated = False
             $ M_roxxy.set("sex speed", .09)
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro_after")
             jump expression game.dialog_select("spin_bottle_minigame_roxxy_solo_loop")
@@ -45,46 +46,46 @@ label spin_bottle_minigame_roxxy_solo_intro_pre:
     show missy sitting 7 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "Что?! НЕТ!!"
+    missy "What?! NO!!"
     show player_sitting 3b
     show missy sitting 8
     show roxxy sitting 5
-    rox "Хе-хе, извините сучки."
+    rox "Hehe, sorry bitches."
     show roxxy sitting 3
-    rox "Он весь мой сегодня."
+    rox "He's all mine tonight."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 10b
-    becca "Аууу..."
+    becca "Aww..."
     show becca sitting 10
     show missy sitting 7
-    missy "А мы можем просто-"
+    missy "Can't we just-"
     show missy sitting 6
     show roxxy sitting 6
     show player_sitting 3b
-    rox "НЕТ!!!"
+    rox "NO!!!"
     show roxxy sitting 2
     show missy sitting 8
     missy "..."
     show missy sitting 7
-    missy "Вот отстой!"
+    missy "This sucks!"
     hide roxxy
     hide player_sitting
     with dissolve
 
     scene expression "backgrounds/location_beach_water_night_blur.jpg"
     show roxxy bikini 25 with dissolve
-    rox "Сюда везунчик..."
+    rox "This way lucky..."
     hide roxxy with dissolve
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
     show player 13 at left
     show roxxy bikini 22 at right
     with dissolve
-    rox "Я так рада, что ты сегодня полностью в моем распоряжении."
+    rox "I'm so glad I get you all to myself tonight."
     show roxxy bikini 21
     show player 14
-    player_name "Хех, да. Я тоже."
+    player_name "Heh, yeah. Me too."
     hide player
     show roxxy bikini 17 at left
     with dissolve
@@ -92,15 +93,15 @@ label spin_bottle_minigame_roxxy_solo_intro_pre:
     show roxxy bikini 23 at center
     show player 13 at left
     with dissolve
-    rox "Эти сучки, вероятно, через пару минут будут стоять у двери и наблюдать за нами."
+    rox "Ugh, those bitches will probably be at the door watching us in a couple minutes."
     show roxxy bikini 21
     show player 14
-    player_name "Ну, мы можем вернуться, если хочешь?"
+    player_name "Well, we can take this back to your place if you want?"
     show player 13
     show roxxy bikini 1 with dissolve
     rox "..."
     show roxxy bikini 2
-    rox "Нет, к черту все!"
+    rox "Nah, screw it!"
     show roxxy bikini 5 with dissolve
     show player 426
     pause
@@ -117,13 +118,13 @@ label spin_bottle_minigame_roxxy_solo_intro_pre:
     show roxxy 22 with dissolve
     pause
     show roxxy 23b with dissolve
-    rox "Пусть смотрят."
+    rox "Let them watch."
     show roxxy 24
     show player 13
-    rox "Я хочу тебя прямо сейчас!"
+    rox "I want you right now!"
     show roxxy 23
     show player 14
-    player_name "Хорошо."
+    player_name "A-alright."
     hide player
     hide roxxy
     with dissolve
@@ -133,11 +134,11 @@ label spin_bottle_minigame_roxxy_solo_intro:
     scene expression "backgrounds/location_beach_cabin_sex_roxxy.jpg"
     show roxxys_solo 1
     with dissolve
-    rox "Ммм, дай мне его {b}[firstname]{/b}..."
+    rox "Mmm, give it to me {b}[firstname]{/b}..."
     show roxxys_solo 2 with dissolve
     pause
     show roxxys_solo 3 with dissolve
-    rox "Аххххх..."
+    rox "Aahhh..."
     return
 
 label spin_bottle_minigame_roxxy_solo_intro_after:
@@ -153,7 +154,9 @@ label spin_bottle_minigame_roxxy_solo_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            show expression AnimatedImage("roxxys_solo", [7,8,9,10,11,12,13,14,15,16], M_roxxy) as roxxys_solo
+            if not animated:
+                show expression AnimatedImage("roxxys_solo", [7,8,9,10,11,12,13,14,15,16], M_roxxy) as roxxys_solo
+                $ animated = True
             pause 5
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_hscene_dialog")
             pause 3
@@ -174,22 +177,22 @@ label spin_bottle_minigame_roxxy_solo_loop:
 label spin_bottle_minigame_roxxy_solo_hscene_dialog:
     if animcounter == 0:
         if randomizer() < 25:
-            rox "Да!!{p=1}{nw}"
+            rox "Yes!!{p=1}{nw}"
 
     elif animcounter == 1:
         if randomizer() < 25:
-            rox "Охх, он так глубоко!{p=2}{nw}"
+            rox "Ohh, it's so deep!{p=2}{nw}"
 
     elif animcounter == 2:
         if randomizer() < 25:
-            rox "Ааааххххх!!{p=1}{nw}"
-            rox "О бог мой!{p=1}{nw}"
+            rox "Aaahhh!!{p=1}{nw}"
+            rox "Oh god!{p=1}{nw}"
 
     elif animcounter == 3:
         if randomizer() < 25:
             rox "{b}[firstname]{/b}!!!{p=1}{nw}"
             pause 1
-            rox "О, трахни меня сильнее!{p=2}{nw}"
+            rox "Oh, fuck me harder!{p=2}{nw}"
     return
 
 label spin_bottle_minigame_roxxy_solo_cum:
@@ -202,40 +205,40 @@ label spin_bottle_minigame_roxxy_solo_cum:
     $ game.main()
 
 label spin_bottle_minigame_roxxy_solo_cum_dialogue:
-    rox "Я кончаю!"
-    player_name "Да, я тоже!"
+    rox "I'm gonna cum!"
+    player_name "Yeah, me too!"
     pause
-    rox "Ааааа, БЛЯДЬ!!!"
+    rox "Aahhh, FUCK!!!"
     show roxxys_solo 3_4
-    player_name "ХННГГГГ!" with flash
+    player_name "HNNGGG!" with flash
     pause
     show roxxys_solo 5 with dissolve
-    player_name "Ааааааа... Ааааааа..."
+    player_name "Haaah... Haaah..."
     show roxxys_solo 6 with dissolve
-    rox "Это было потрясающе!"
-    player_name "О, да..."
+    rox "That was amazing!"
+    player_name "Heh, yeah..."
     pause
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
     show player 366 at left
     show roxxy 108 at right
     with dissolve
-    rox "Хехе, ну, я уверена, что это было неплохое шоу!"
+    rox "Hehe, well I bet that was quite a show!"
     show roxxy 107
-    rox "Я едва могу стоять на ногах..."
+    rox "I can barely stand..."
     show roxxy 106
     show player 365
-    player_name "Думаешь, им понравилось?"
+    player_name "Yeah, you think they enjoyed it?"
     show player 366
-    rox "Хмм..."
+    rox "Hmm..."
     show roxxy 107
-    rox "Что скажете, сучки? Вам понравилось?"
+    rox "What do you say bitches? Did you enjoy that?"
     show roxxy 106
     pause
     scene expression "backgrounds/location_beach_cutscene06.jpg" with fade
-    missy "Да..."
-    rox "Хахаха!"
-    player_name "Хахаха!"
+    missy "Yes..."
+    rox "Hahaha!"
+    player_name "Hahaha!"
     hide player
     hide roxxy
     return

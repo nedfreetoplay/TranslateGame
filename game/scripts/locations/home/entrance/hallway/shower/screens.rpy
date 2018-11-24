@@ -118,4 +118,46 @@ screen sis_shower_sex_options:
             idle "buttons/speed_01.png"
             hover HoverImage("buttons/speed_01.png")
             action Hide("sis_shower_sex_options"), Function(M_jenny.set, "sex speed", M_jenny.get("sex speed") - 0.1), Jump(game.dialog_select("sis_shower_sex_loop"))
+
+
+screen debbie_shower_blowjob_options:
+
+    imagebutton:
+        pos (170,700)
+        focus_mask True
+        idle "buttons/judith_stage02_01.png"
+        hover HoverImage("buttons/judith_stage02_01.png")
+        action Hide("debbie_shower_blowjob_options"), Jump("debbie_shower_blowjob_loop")
+
+    imagebutton:
+        pos (370,700)
+        focus_mask True
+        idle "buttons/diane_stage01_02.png"
+        hover HoverImage("buttons/diane_stage01_02.png")
+        action Hide("debbie_shower_blowjob_options"), Jump("debbie_shower_blowjob_cum_in")
+
+    imagebutton:
+        pos (570,700)
+        focus_mask True
+        idle "buttons/diane_stage01_03.png"
+        hover HoverImage("buttons/diane_stage01_03.png")
+        action Hide("debbie_shower_blowjob_options"), Jump("debbie_shower_blowjob_cum_out")
+
+    if M_mom.get('sex speed') < .4:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_02.png"
+            hover HoverImage("buttons/speed_02.png")
+            action Hide("debbie_shower_blowjob_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") + 0.1), Jump("debbie_shower_blowjob_loop")
+            xpos 250
+            ypos 735
+
+    if M_mom.get('sex speed') > .21:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_01.png"
+            hover HoverImage("buttons/speed_01.png")
+            action Hide("debbie_shower_blowjob_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.1), Jump("debbie_shower_blowjob_loop")
+            xpos 450
+            ypos 735
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

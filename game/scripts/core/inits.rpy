@@ -2,11 +2,13 @@ label INIT_FSM_TRIGGERS:
     $ renpy.not_infinite_loop(10)
     python:
 
-        T_all_sleep = Trigger("sleep", "Спокойной ночи.")
-        T_all_school_entrance = Trigger("hallway", "Увидимся в школе.")
-        T_all_on_load = Trigger("on load", "При запуске игры")
+        T_all_sleep = Trigger("sleep", "Sleep for the night")
+        T_all_school_entrance = Trigger("hallway", "Meet everyone back at school")
+        T_all_on_load = Trigger("on load", "On game load")
         for lbl in [lbl for lbl in renpy.get_all_labels() if "triggers" in lbl]:
             renpy.call_in_new_context(lbl)
+        for trig_name, trigger in [(name, var) for name, var in globals().items() if name.startswith("T_")]:
+            trigger._name = trig_name
     return
 
 label INIT_FSM_MACHINES:
@@ -23,6 +25,9 @@ label INIT_FSM:
     python:
         for lbl in [lbl for lbl in renpy.get_all_labels() if "fsm" in lbl]:
             renpy.call_in_new_context(lbl)
+        for state_name, state in [(name, var) for name, var in globals().items() if name.startswith("S_")]:
+            state._name = state_name
+        instantiate_machines()
     return
 
 label INIT_JSONS:
@@ -44,11 +49,7 @@ label INIT_JSONS:
             json_file.close()
     return
 
-label INIT_GLOBAL:
-    call INIT_LOCATIONS
-    call INIT_FSM
-    call INIT_INVENTORY_ITEMS
-    call INIT_JSONS
+label INIT_GAME:
     python:
         store.temp_game = Game()
         for attribute, value in [(k, v) for k, v in game.__dict__.items() if k not in ["website_address", "CA_FILE"]]:
@@ -69,9 +70,18 @@ label INIT_GLOBAL:
                 store.temp_player.inventory = store.temp_inventory
             else:
                 try:
-                    store.temp_player.__dict__[k] = v
+                    store.temp_player.__dict__[k] = copy(v)
                 except KeyError:
                     pass
-        player = store.temp_player
+        player = copy(store.temp_player)
+    return
+
+label INIT_GLOBAL:
+    call INIT_LOCATIONS
+    call INIT_FSM
+    call INIT_PMS
+    call INIT_INVENTORY_ITEMS
+    call INIT_JSONS
+    call INIT_GAME
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

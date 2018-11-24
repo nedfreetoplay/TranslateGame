@@ -53,5 +53,5 @@ screen mom_finger_options:
             pos (450,735)
             idle "buttons/speed_01.png"
             hover HoverImage("buttons/speed_01.png")
-            action Hide("mom_finger_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.025), Jump("mom_finger_loop")
+            action Hide("mom_finger_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.05), Jump("mom_finger_loop")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

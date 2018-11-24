@@ -1,6 +1,6 @@
 label ross_triggers_init:
     python:
-        T_ross_intro = Trigger("intro", "Описание")
+        T_ross_intro = Trigger("intro", "default")
         T_ross_molded_clay = Trigger("molded clay")
         T_ross_find_partner = Trigger("find partner")
         T_ross_convinced_mia = Trigger("convinced mia")

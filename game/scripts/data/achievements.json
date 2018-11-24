@@ -1,40 +1,40 @@
 {
     "angler": {
         "id": 1,
-        "name": "Рыболовство",
-        "description": "Поймайте один из всех видов рыб.",
+        "name": "The Angler",
+        "description": "Catch one of every type of fish.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_01.png"
     },
     "prolific-camshow": {
         "id": 2,
-        "name": "Продвинутый показ",
-        "description": "Достигните конца истории Дженни.",
+        "name": "Prolific camshow",
+        "description": "Reach the end of Jenny's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_02.png"
     },
     "end-of-chores": {
         "id": 3,
-        "name": "Конец работы",
-        "description": "Достигните конца истории Дебби.",
+        "name": "End of the chores",
+        "description": "Reach the end of Debbie's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_03.png"
     },
     "not-a-prude": {
         "id": 4,
-        "name": "Не ханжа",
-        "description": "Достигните конца истории Мии.",
+        "name": "Not a prude",
+        "description": "Reach the end of Mia's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_04.png"
     },
-    "milky-buisness": {
+    "milky-business": {
         "id": 5,
-        "name": "Молочный бизнес",
-        "description": "Достигните конца истории Дианы.",
+        "name": "Milky business",
+        "description": "Reach the end of Diane's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_05.png"
@@ -42,7 +42,7 @@
     "sharing-is-caring": {
         "id": 6,
         "name": "Sharing is caring",
-        "description": "Достигните конца истории Миссис Джонсон.",
+        "description": "Have a threeway with Mrs. Johnson.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_06.png"
@@ -50,103 +50,103 @@
     "hoes-before-bros": {
         "id": 7,
         "name": "Hoes before bros",
-        "description": "Достигните конца истории Джун.",
+        "description": "Reach the end of June's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_07.png"
     },
     "bros-before-hoes": {
         "id": 8,
-        "name": "Мотылек",
-        "description": "Достигните конца истории Эрика.",
+        "name": "Bros before hoes",
+        "description": "Reach the end of Erik's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_08.png"
     },
     "repentance": {
         "id": 9,
-        "name": "Раскаяние",
-        "description": "Достигните конца истории Хелен.",
+        "name": "Repentance",
+        "description": "Reach the end of Helen's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_09.png"
     },
     "mermaid": {
         "id": 10,
-        "name": "Русалочка",
-        "description": "Достигните конца истории Аквы.",
+        "name": "The Mermaid",
+        "description": "Reach the end of Aqua's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_10.png"
     },
     "the-man": {
         "id": 11,
-        "name": "Ты тоже классный парень",
-        "description": "Достигните конца истории Рокси.",
+        "name": "You're the man",
+        "description": "Reach the end of Roxxy's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_11.png"
     },
     "excellent-francais": {
         "id": 12,
-        "name": "Прекрасный француз",
-        "description": "Достигните конца истории Мисс Биссетты.",
+        "name": "Excellent français",
+        "description": "Reach the end of Ms Bissette's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_12.png"
     },
     "music-taste": {
         "id": 13,
-        "name": "Музыкальный вкус",
-        "description": "Достигните конца истории Мисс Девитт.",
+        "name": "Music taste",
+        "description": "Reach the end of Mrs Dewitt's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_13.png"
     },
     "science-experiments": {
         "id": 14,
-        "name": "Научные эксперименты",
-        "description": "Достигните конца истории Мисс Окиты.",
+        "name": "Science experiments",
+        "description": "Reach the end of Ms Okita's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_14.png"
     },
     "painting-nude": {
         "id": 15,
-        "name": "Обнаженное рисование",
-        "description": "Достигните конца истории Мисс Росс.",
+        "name": "Painting in the nude",
+        "description": "Reach the end of Ms Ross' story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_15.png"
     },
     "drowning-in-pussy": {
         "id": 16,
-        "name": "Утонул... в киске?",
-        "description": "Достигните конца истории Кэсси.",
+        "name": "Drowning... in pussy?",
+        "description": "Reach the end of Cassie's story.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_16.png"
     },
     "passing-grade": {
         "id": 17,
-        "name": "Отличник",
-        "description": "Заполните все поля на A+.",
+        "name": "Passing grade",
+        "description": "Have an A+ on every course.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_17.png"
     },
     "smooth-mcgroove": {
         "id": 18,
-        "name": "Глаткий Ритм",
-        "description": "Не подведи меня на шоу талантов.",
+        "name": "Smooth McGroove",
+        "description": "Don't fail at the talent show.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_18.png"
     },
     "overpowered": {
         "id": 19,
-        "name": "Сила тяжести",
-        "description": "Обновление статистики до максимального значения",
+        "name": "Overpowered",
+        "description": "Upgrade your stats to the max.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_19.png"
@@ -154,38 +154,38 @@
     "slick-mofo": {
         "id": 20,
         "name": "Slick mofo",
-        "description": "Закончи обучение Сомраку.",
+        "description": "Finish master Somrak's training.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_20.png"
     },
     "cedric-got-nothing": {
         "id": 21,
-        "name": "Седрик ничего не получил от тебя.",
-        "description": "Закончи тренировку с Кевином.",
+        "name": "Cedric got nothing on you",
+        "description": "Finish Kevin's training.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_21.png"
     },
     "eminem": {
         "id": 22,
-        "name": "Эминем",
-        "description": "Выиграй Тайрона в рэп батле.",
+        "name": "Eminem",
+        "description": "Beat Tyrone in a rap battle.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_22.png"
     },
     "gamer": {
         "id": 23,
-        "name": "NГР@K",
-        "description": "Играйте в видеоигры!",
+        "name": "G@M3R",
+        "description": "Play videogames!",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_23.png"
     },
     "computer-genius": {
         "id": 24,
-        "name": "Компьютерный гений.",
+        "name": "Computer Genius",
         "description": "Perv on Jenny's PC.",
         "hidden": false,
         "enabled": true,
@@ -193,39 +193,39 @@
     },
     "asstronomer": {
         "id": 25,
-        "name": "Асстроном",
-        "description": "Используй телескоп.",
+        "name": "Ass-tronomer",
+        "description": "Use the telescope.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_25.png"
     },
     "flies": {
         "id": 26,
-        "name": "Мухи, которые не летают.",
-        "description": "Посмотрите на двукрылых.",
+        "name": "Flies that don't fly",
+        "description": "Look at dipterae.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_26.png"
     },
     "europe": {
         "id": 27,
-        "name": "Мистер Вселенная",
-        "description": "Посмотрите на карту Европы.",
+        "name": "Mr. Worldwide",
+        "description": "Look at an accurate map of Europe.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_27.png"
     },
     "inception": {
         "id": 28,
-        "name": "Ввод",
-        "description": "Сыграй в Летнюю Сагу.",
+        "name": "Inception",
+        "description": "Play Summertime Saga.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_28.png"
     },
     "ready-for-college": {
         "id": 29,
-        "name": "Подготовка к колледжу.",
+        "name": "Ready for college",
         "description": "Max out your savings account.",
         "hidden": false,
         "enabled": true,
@@ -233,23 +233,23 @@
     },
     "rooster": {
         "id": 30,
-        "name": "Петух",
-        "description": "Посмотри на работу Дебби.",
+        "name": "The Rooster",
+        "description": "Check out Debbie's art.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_30.png"
     },
     "home-sweet-home": {
         "id": 31,
-        "name": "Тёплый дом.",
-        "description": "Купи дом.",
+        "name": "Home Sweet Home",
+        "description": "Purchase a house.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_31.png"
     },
     "apple": {
         "id": 32,
-        "name": "Микроволновое яблоко",
+        "name": "Microwaved Apple",
         "description": "Find the microwaved apple.",
         "hidden": true,
         "enabled": true,
@@ -257,7 +257,7 @@
     },
     "oldies-goodies": {
         "id": 33,
-        "name": "Всем привет!",
+        "name": "Oldies Goodies",
         "description": "Have sex with Roz.",
         "hidden": false,
         "enabled": true,
@@ -265,7 +265,7 @@
     },
     "yoga-apprentice": {
         "id": 34,
-        "name": "Ученик йоги",
+        "name": "Yoga Apprentice",
         "description": "Help out a yogee with her lessons.",
         "hidden": false,
         "enabled": true,
@@ -273,15 +273,15 @@
     },
     "whats-in-there": {
         "id": 35,
-        "name": "Что это?",
-        "description": "Проверьте все шкафчики учеников.",
+        "name": "What's in there?",
+        "description": "Check out every student locker.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_35.png"
     },
     "solo-pleasure": {
         "id": 36,
-        "name": "Одинокое удовольствие",
+        "name": "Solo pleasure",
         "description": "Go for some alone time...",
         "hidden": false,
         "enabled": true,
@@ -289,8 +289,8 @@
     },
     "rump-n-pump": {
         "id": 37,
-        "name": "Рамп и Памп",
-        "description": "Наблюдайте за двумя местными знаменитостями.",
+        "name": "Rump and Pump",
+        "description": "Witness two local celebrities having fun.",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_37.png"
@@ -298,26 +298,26 @@
     "gt500": {
         "id": 38,
         "name": "The GT500",
-        "description": "Заводи машину!",
+        "description": "Get your dream car!",
         "hidden": true,
         "enabled": true,
         "image": "buttons/cellphone_achieve_38.png"
     },
     "donuts": {
         "id": 39,
-        "name": "Пончик- Фолкнер",
-        "description": "Купи пончики для Гарольда.",
+        "name": "Donut craving",
+        "description": "Purchase a donut for harold.",
         "hidden": false,
         "enabled": true,
         "image": "buttons/cellphone_achieve_39.png"
     },
     "game-over": {
         "id": 40,
-        "name": "Игра... Окончена?!",
-        "description": "Проиграть.",
+        "name": "Game... Over?!",
+        "description": "Lose the game.",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_40.png"
+        "image": "buttons/cellphone_achieve_39.png"
     },
     "caught": {
         "id": 41,
@@ -339,6 +339,22 @@
         "id": 43,
         "name": "Treasure Hunt",
         "description": "Find the golden lure.",
+        "hidden": true,
+        "enabled": false,
+        "image": "buttons/cellphone_achieve_01.png"
+    },
+    "dialogues": {
+        "id": 44,
+        "name": "Dialogues",
+        "description": "How many dialogues were written by our patrons?",
+        "hidden": true,
+        "enabled": false,
+        "image": "buttons/cellphone_achieve_01.png"
+    },
+    "the-jackhammer": {
+        "id": 45,
+        "name": "The jackhammer",
+        "description": "Named your character \"The Jackhammer\"",
         "hidden": true,
         "enabled": false,
         "image": "buttons/cellphone_achieve_01.png"

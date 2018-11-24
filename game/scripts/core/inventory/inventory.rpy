@@ -44,6 +44,7 @@ init -1 python:
                 self.money -= Item(item).cost
                 if Item(item).cost > 0:
                     renpy.play("audio/sfx_coins2.ogg")
+            return
         
         def remove_item (self, item):
             if str(item) in self.items:

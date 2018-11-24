@@ -1,0 +1,14 @@
+
+[android]
+pyjnius
+
+[dev]
+mock
+pycodestyle
+pylint
+
+[ios]
+pyobjus
+
+[macosx]
+pyobjus

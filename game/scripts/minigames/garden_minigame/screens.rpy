@@ -10,18 +10,13 @@ init python:
             self.clicked_time = 0
         
         def displayable(self):
-            if quest10 in quest_list and not infestation_done:
+            if M_diane.is_state(S_diane_clean_garden, S_diane_clean_garden_report, S_diane_go_to_mall, S_diane_go_to_consumr, S_diane_get_bug_spray, S_diane_clear_bug_infested_garden):
                 image = self._rotten_image
-                points = self._rotten_points
             else:
                 image = self._image
-                points = self._points
-            
-            if quest10 in completed_quests and points > 0:
-                points = points + 5
+            points = self.points()
             
             if self.clicked:
-                
                 if points == -15:
                     image = "objects/minigame01_number06.png"
                 elif points == -10:
@@ -40,7 +35,6 @@ init python:
                     image = "objects/minigame01_number07.png"
                 elif points == 25:
                     image = "objects/minigame01_number08.png"
-            
             return renpy.displayable(image)
         
         def click(self, time):
@@ -48,11 +42,13 @@ init python:
             self.clicked_time = time
         
         def points(self):
-            if quest10 in quest_list and not infestation_done:
+            if M_diane.is_state(S_diane_clean_garden, S_diane_clean_garden_report, S_diane_go_to_mall, S_diane_go_to_consumr, S_diane_get_bug_spray, S_diane_clear_bug_infested_garden):
                 points = self._rotten_points
             else:
                 points = self._points
             
+            if M_diane.finished_state(S_diane_clear_bug_infested_garden) and points > 0:
+                points = points + 5
             return points
         
         def reset(self):
@@ -113,7 +109,7 @@ init python:
             for name in garden_vermin:
                 garden_vermin[name].reset()
                 if name == "Earwig":
-                    if quest10 in quest_list:
+                    if M_diane.finished_state(S_diane_bug_infested_garden):
                         self._goods.append(garden_vermin[name])
                 else:
                     self._goods.append(garden_vermin[name])
@@ -205,7 +201,6 @@ init python:
                                     self._finish_time = st
                                 renpy.play("audio/sfx_splat.ogg")
                                 break
-            
             return
         
         def gridCalc(self):
@@ -223,7 +218,6 @@ init python:
         def goodPlacement(self, good):
             xpos = good["Coordinates"]["xPos"] + (self._grid_width / 2) - (good["Width"] / 2)
             ypos = good["Coordinates"]["yPos"] + (self._grid_height / 2) - (good["Height"] / 2)
-            
             return (xpos,ypos)
 
 screen garden_minigame:

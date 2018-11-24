@@ -88,7 +88,6 @@ init python:
             bottle_r = renpy.render(self.bottle, width, height, st, at)
             width, height = bottle_r.get_size()
             render.blit(bottle_r, (self.center[0]-width/2, self.center[1]-height/2))
-            renpy.not_infinite_loop(1)
             renpy.redraw(self, self.delay)
             return render
         
@@ -211,19 +210,19 @@ screen spin_bottle_minigame_mc_4some_options(character_machine):
             action Hide("spin_bottle_minigame_mc_4some_options"), Function(renpy.call, "spin_bottle_minigame_mc_4some_loop_pre", character_machine, next_character_machine_right)
 
     if anim_toggle:
-        if character_machine.get("sex speed") < .175:
+        if character_machine.get("sex speed") < .09:
             imagebutton:
                 focus_mask True
                 pos (250,735)
                 idle "buttons/speed_02.png"
                 hover HoverImage("buttons/speed_02.png")
-                action Hide("spin_bottle_minigame_mc_4some_options"), Function(character_machine.set, "sex speed", character_machine.get("sex speed") + 0.05), Function(renpy.call, "spin_bottle_minigame_mc_4some_loop", character_machine)
+                action Hide("spin_bottle_minigame_mc_4some_options"), Function(character_machine.set, "sex speed", character_machine.get("sex speed") + 0.03), Function(renpy.call, "spin_bottle_minigame_mc_4some_loop", character_machine)
 
-        if character_machine.get("sex speed") > .076:
+        if character_machine.get("sex speed") > .031:
             imagebutton:
                 focus_mask True
                 pos (450,735)
                 idle "buttons/speed_01.png"
                 hover HoverImage("buttons/speed_01.png")
-                action Hide("spin_bottle_minigame_mc_4some_options"), Function(character_machine.set, "sex speed", character_machine.get("sex speed") - 0.05), Function(renpy.call, "spin_bottle_minigame_mc_4some_loop", character_machine)
+                action Hide("spin_bottle_minigame_mc_4some_options"), Function(character_machine.set, "sex speed", character_machine.get("sex speed") - 0.03), Function(renpy.call, "spin_bottle_minigame_mc_4some_loop", character_machine)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

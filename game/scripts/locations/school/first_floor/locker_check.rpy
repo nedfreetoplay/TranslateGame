@@ -7,7 +7,7 @@ label locker_check(direction, locker):
     if player.has_picked_up_item("master_key"):
         if not locker.is_visited:
             $ charname = locker.name.split("'")[0]
-            player_name "Используя мастер-ключ, я смог открыть {b}[charname]{/b} шкафчик."
+            player_name "Using the master key I was able to open {b}[charname]'s{/b} locker."
         $ player.location = locker
     else:
         call expression "locker_locked_{}".format(random.randint(1,2))
@@ -17,12 +17,12 @@ label locker_check(direction, locker):
 
 label locker_locked_1:
     show player 10 with dissolve
-    player_name "Это не мой шкафчик... Мне нужен ключ, чтобы открыть его."
+    player_name "That's not my locker... I would need a key to open it."
     return
 
 label locker_locked_2:
-    player_name "Заперто и у меня нет ключа."
-    player_name "Наверное, у {b}Директрисы Смит{/b} есть ключ ко всему."
+    player_name "It's locked and I don't have the key."
+    player_name "{b}Principal Smith{/b} probably has a key to everything."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

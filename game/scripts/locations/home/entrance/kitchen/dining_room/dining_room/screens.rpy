@@ -1,7 +1,7 @@
 screen dining_room:
     add game.timer.image("backgrounds/location_home_diningroom_day{}.jpg")
 
-    if game.timer.is_morning() and sister.known(sis_breakfast) and not sister.over(sis_breakfast):
+    if L_home_diningroom.is_here(M_jenny):
         imagebutton:
             focus_mask True
             pos (158,439)

@@ -63,32 +63,7 @@ init -2 python:
             game.sleep()
         except OnSleepException:
             renpy.jump("sleeping_locked")
-        
-        for event in store.my_events:
-            event.complete_events()
-        
-        global aunt_dialogue_advance
-        global aunt_count
-        global sis_bedroom_count
-        global diary_scene
-        global erik_drunk
-        global training_done
-        global mrsj_filled
-        global erik_funky
-        global orcette_mail_lock
-        global M_jenny
-        
-        if aunt_dialogue_advance:
-            aunt_dialogue_advance = False
-            aunt_count += 1
-        M_jenny.unforce()
-        diary_scene = False
-        erik_drunk = False
-        training_done = False
-        mrsj_filled = False
-        erik_funky = False
-        if game.timer.dayOfWeek() == "Tue" and erik.completed(erik_orcette):
-            orcette_mail_lock = True
+
 
     def randomizer(name = "", start = 0, end = 99):
         rand = renpy.random.randint(start, end)
@@ -112,14 +87,18 @@ init -2 python:
         current_camshow = nextCamShow
 
     def get_returnable_books():
+        books = []
         if player.has_item("french_dictionary") and player.has_item("french_love") and M_bissette.is_state(S_bissette_end):
-            return True
+            books.append("french_dictionary")
+            books.append("french_love")
         if player.has_item("old_book") and M_aqua.is_state((S_aqua_trade, S_aqua_fishing, S_aqua_chase,
                    S_aqua_squid_gaurd, S_aqua_maze, S_aqua_lair, S_aqua_found,
                    S_aqua_mating_proposal, S_aqua_valor_test, S_aqua_mate,
                    S_aqua_seasucc_intro, S_aqua_seasucc_mushroom, S_aqua_end)):
-            return True
-        return False
+            books.append("old_book")
+        if player.has_item("breeding_guide") and M_diane.finished_state(S_diane_return_production_book):
+            books.append("breeding_guide")
+        return books
 
     def insert_newlines(string, every=30):
         lines = []
@@ -130,14 +109,17 @@ init -2 python:
     def text_identity(text):
         return text
 
+    def is_christmas():
+        return (datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30))
+
+    def is_halloween():
+        return (datetime.date.today().month == 10 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 31))
+
     class Quest:
         def __init__(self, name, image="", status= False):
             self.name = name
             self.image = image
             self.status = status
-
-    def quest_complete(Quest):
-        completed_quests.append(Quest)
 
     def clamp(number, lower, upper):
         assert lower < upper, "Error in clamp call, lower bound is greater than upper bound"
@@ -145,4 +127,13 @@ init -2 python:
 
     def gauss(mean, deviation, lower, upper):
         return int(clamp(random.gauss(mean, deviation), lower, upper))
+
+    def replace_bracket(string):
+        def replace(match):
+            return globals()[match.group(0)]
+        if "[" in string:
+            re.sub(r"(\[\w+\])", replace, string)
+            return string
+        else:
+            return string
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

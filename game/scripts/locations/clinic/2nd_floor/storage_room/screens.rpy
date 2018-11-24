@@ -73,7 +73,7 @@ screen hospital_storage_cabinet:
         align (0.5,0.97)
         idle "boxes/auto_option_generic_01.png"
         hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("hospital_storage_room"), Jump("hospital_storage_room_dialogue")
+        action Hide("hospital_storage_cabinet"), Jump("hospital_storage_room_dialogue")
 
 screen roz_storage_sex_options:
     imagebutton:

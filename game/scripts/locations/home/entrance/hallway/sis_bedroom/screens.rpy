@@ -79,7 +79,7 @@ screen upstairs_bedroom:
             action Show("sisbed_options")
 
     elif player.location.is_here(M_jenny):
-        if sister.over(sis_final):
+        if M_jenny.finished_state(S_jenny_hallway_noises):
             $ img_i = "objects/character_jenny_03.png"
             $ img_h = HoverImage("objects/character_jenny_03.png")
             $ img_x = 580
@@ -106,7 +106,7 @@ screen upstairs_bedroom:
 
 
     else:
-        if sis_diary_unlocked and not game.timer.is_dark():
+        if M_jenny.is_state(S_jenny_read_diary) and not L_home_sisbedroom.is_here(M_jenny):
             imagebutton:
                 focus_mask True
                 pos (610,520)
@@ -161,11 +161,11 @@ screen bedtable01_options:
 screen bedside01:
     add "backgrounds/location_home_jennytable.jpg"
     imagebutton:
+        focus_mask True
+        pos (382,302)
         idle "objects/object_panties_01.png"
         hover HoverImage("objects/object_panties_01.png")
-        action Hide("bedside01"), Jump ("sis_bedroom_dialogue")
-        xpos 382
-        ypos 302
+        action Hide("bedside01"), Function(M_jenny.trigger, T_jenny_panty_caught), Jump ("sis_bedroom_dialogue")
 
 screen sis_cheerleader_sex_options:
     imagebutton:
@@ -194,7 +194,7 @@ screen sis_cheerleader_sex_options:
             hover HoverImage("buttons/diane_stage01_02.png")
             if sis_final_cum == "Outside":
                 action Hide("sis_cheerleader_sex_options"), Jump(game.dialog_select("sis_cheerleader_fuck_cum_inside_unhappy"))
-            elif sis_final_cum == "Inside" and sister.completed(sis_final2):
+            elif sis_final_cum == "Inside" and M_jenny.finished_state(S_jenny_cam_show):
                 action Hide("sis_cheerleader_sex_options"), Jump(game.dialog_select("sis_cheerleader_fuck_cum_inside_happy"))
 
     if store._in_replay == None and player.stats.str() < 7 and not sis_cheerleader_sex2_menu:

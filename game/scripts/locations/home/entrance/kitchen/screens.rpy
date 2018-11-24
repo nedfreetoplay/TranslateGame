@@ -37,6 +37,16 @@ screen kitchen:
                 hover mom_hover
                 action Hide("kitchen"), Function(renpy.call, "home_lock_check", "Mom", "mom_button_dialogue")
 
+    if (M_diane.finished_state(S_diane_milk_production_increase) and game.timer.is_dark() and
+        (M_mom.is_state(S_mom_sleepover, S_mom_romance_movie, S_mom_romance_movie_two, S_mom_spy) or sister.in_progress(sis_couch01) or sister.started(sis_couch03) or M_mom.get("movie night"))):
+        imagebutton:
+            focus_mask True
+            pos (0, 0)
+            idle "objects/character_diane_nightgown_water_{}.png".format(M_diane.get_pregnant_str())
+            hover HoverImage("objects/character_diane_nightgown_water_{}.png".format(M_diane.get_pregnant_str()))
+            action Hide("kitchen"), Jump("aunt_button_dialogue")
+
+
     imagebutton:
         focus_mask True
         pos (350,700)
@@ -46,7 +56,7 @@ screen kitchen:
 
 screen deb_name_input:
     add NameInputText("boxes/popup_name_debbie.png", deb_name, "b96dff")
-    add Input(size = 24, color = "#b96dff", default = "", changed = debbie_name, length = 12, xpos = 313, ypos = 329, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    add Input(size = 24, color = "#b96dff", default = "", changed = debbie_name, length = 12, xpos = 313, ypos = 329, allow = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 

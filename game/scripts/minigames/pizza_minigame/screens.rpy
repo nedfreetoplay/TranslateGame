@@ -33,12 +33,14 @@ init python:
             size = get_size("buttons/pizza_bad.png")
             pos = ((self.size[0]-size[0])/2, (self.size[1]-size[1])/2)
             self.displayable = im.Composite(self.size, origin, self._img, pos, "buttons/pizza_bad.png")
+            self.has_been_pressed = True
         
         def good(self):
             origin = (0, 0)
             size = get_size("buttons/pizza_good.png")
             pos = ((self.size[0]-size[0])/2, (self.size[1]-size[1])/2)
             self.displayable = im.Composite(self.size, origin, self._img, pos, "buttons/pizza_good.png")
+            self.has_been_pressed = True
 
     class PizzaHouse:
         def __init__(self, displayable, position, slice=None):
@@ -120,25 +122,20 @@ init python:
         
         def _timer(self):
             SPEED = 3+int(float(self._player.level)/4.0)
-            if tips:
-                for house in self._pizza_houses:
-                    if house.hitbox(self._player.x, self._player.y):
-                        if (not self._pizza_button_1.has_been_pressed and self._pizza_button_1.id_ == house.id_) or (not self._pizza_button_2.has_been_pressed and self._pizza_button_2.id_ == house.id_) or (not self._pizza_button_3.has_been_pressed and self._pizza_button_3.id_ == house.id_):
-                            SPEED = 2+int(float(1.0)/4.0)
             for house in self._pizza_houses:
                 house.move(self._level*SPEED)
         
         def on_event(self, button_pressed):
             if not button_pressed.has_been_pressed:
-                button_pressed.has_been_pressed = True
                 for house in self._pizza_houses:
                     if house.hitbox(self._player.x, self._player.y):
                         if button_pressed.id_ == house.id_:
                             button_pressed.good()
                             self.earnings += 80*self._level
                             return
-                    else:
-                        button_pressed.wrong()
+                button_pressed.wrong()
+                return
+        
         def event(self, ev, x, y, st):
             if ev.type == pygame.MOUSEBUTTONUP:
                 if self._pizza_button_1.hitbox(x, y):

@@ -13,7 +13,7 @@ default sispc_family_seen = False
 default sispc_nude_seen = False
 
 screen sis_computer:
-    if comp_locked == False:
+    if not M_jenny.is_set("comp locked"):
         add "backgrounds/location_computer_jenny_02.jpg"
 
         imagebutton:
@@ -77,7 +77,7 @@ screen sis_computer:
         add Input(size=20, color="#5d9aff", default="", changed=sis_comp, length=12, xpos= 425, ypos = 422, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
         key "K_RETURN" action Jump("pass_check")
         imagebutton idle "buttons/enter_02.png" hover HoverImage("buttons/enter_02.png") at Position(xpos = 780, ypos = 405) action Jump("pass_check")
-        imagebutton idle "buttons/computer_button_01.png" hover HoverImage("buttons/computer_button_01.png") action [If(comp_locked == True and sis_diary_unlocked == True, [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sispc_password_reminder")], [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sis_bedroom_dialogue")])] pos 109,576
+        imagebutton idle "buttons/computer_button_01.png" hover HoverImage("buttons/computer_button_01.png") action [If(M_jenny.is_set("comp locked") and M_jenny.finished_state(S_jenny_read_diary), [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sispc_password_reminder")], [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sis_bedroom_dialogue")])] pos 109,576
 
 screen summertime tag comp_screen:
     imagebutton idle "buttons/computer_window_07.png" action [Hide("sis_computer"), Hide("summertime"), Jump("sispc_summertime_response")] pos 270,150
@@ -104,11 +104,11 @@ screen sis_webcam_screen tag comp_screen:
         add "buttons/computer_window_06.png" pos 270,150
 
         imagebutton:
+            focus_mask True
+            pos (719,495)
             idle "buttons/computer_button_04.png"
             hover HoverImage("buttons/computer_button_04.png")
-            action [SetVariable("connected", True), Function(sister.add_event, sis_webcam01), Show("sis_webcam_screen")]
-            xpos 719
-            ypos 495
+            action SetVariable("connected", True), Function(M_jenny.trigger, T_jenny_webcam_connected), Show("sis_webcam_screen")
     else:
         add "buttons/computer_window_06b.png" pos 270,150
 

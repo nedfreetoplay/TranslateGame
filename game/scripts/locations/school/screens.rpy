@@ -1,7 +1,7 @@
 screen school_hall:
     if datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30):
         add game.timer.image("backgrounds/location_school_christmas_day{}.jpg")
-    elif (datetime.date.today().month == 10 and datetime.date.today().day > 25) and (datetime.date.today().month == 11 and datetime.date.today().day < 2):
+    elif (datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2):
         add game.timer.image("backgrounds/location_school_halloween_day{}.jpg")
     else:
         add game.timer.image("backgrounds/location_school_day{}.jpg")
@@ -142,7 +142,7 @@ screen roxxy_locker_sex_options:
                 pos (250,735)
                 idle "buttons/speed_02.png"
                 hover HoverImage("buttons/speed_02.png")
-                action Hide("roxxy_locker_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") + 0.05), Jump("roxxy_locker_sex_loop")
+                action Hide("roxxy_locker_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") + 0.03), Jump("roxxy_locker_sex_loop")
 
         if M_roxxy.get("sex speed") > .031:
             imagebutton:
@@ -150,5 +150,5 @@ screen roxxy_locker_sex_options:
                 pos (450,735)
                 idle "buttons/speed_01.png"
                 hover HoverImage("buttons/speed_01.png")
-                action Hide("roxxy_locker_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") - 0.05), Jump("roxxy_locker_sex_loop")
+                action Hide("roxxy_locker_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") - 0.03), Jump("roxxy_locker_sex_loop")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

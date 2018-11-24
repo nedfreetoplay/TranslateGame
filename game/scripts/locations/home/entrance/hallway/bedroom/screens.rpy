@@ -122,7 +122,7 @@ screen bed01_options:
         align (0.5,0.97)
         idle "boxes/bed01_option_01.png"
         hover HoverImage("boxes/bed01_option_01.png")
-        action If(M_mom.get_state() == S_mom_debt_call,
+        action If(M_mom.is_state(S_mom_debt_call),
                   [Hide("bed01_options"), Hide("bedroom"), Jump("bedroom_check_on_mom")],
                   If(game.ui_locked,
                      [Hide("bed01_options"), Hide("bedroom"), Jump("bed_locked")],
@@ -136,9 +136,9 @@ screen bed01_options:
             align (0.5,0.9)
             idle "boxes/bed01_option_02.png"
             hover HoverImage("boxes/bed01_option_02.png")
-            action If(M_mom.get_state() == S_mom_debt_call,
+            action If(M_mom.is_state(S_mom_debt_call),
                       [Hide("bed01_options"), Hide("bedroom"), Jump("bedroom_check_on_mom")],
-                      If(game.ui_locked,
+                      If(game.ui_locked and not M_diane.is_state(S_diane_peeking_masturbate),
                          [Hide("bed01_options"), Hide("bedroom"), Jump("bed_locked")],
                          [Hide("bed01_options"), Hide("bedroom"), Jump("jerking_off_dialogue")]
                       )
@@ -219,4 +219,46 @@ screen june_mcbedroom_cosplay_sex_options:
             idle "buttons/speed_01.png"
             hover HoverImage("buttons/speed_01.png")
             action Hide("june_mcbedroom_cosplay_sex_options"), Function(M_june.set, "sex speed", M_june.get("sex speed") - 0.1), Jump("june_bedroom_dialogue_cosplay_sex_loop")
+
+screen bedroom_debbie_sleepover_options:
+
+    imagebutton:
+        focus_mask True
+        idle "buttons/judith_stage02_01.png"
+        hover HoverImage("buttons/judith_stage02_01.png")
+        action Hide("bedroom_debbie_sleepover_options"), Jump("bedroom_debbie_sleepover_loop")
+        xpos 250
+        ypos 700
+
+    imagebutton:
+        focus_mask True
+        idle "buttons/diane_stage01_02.png"
+        hover HoverImage("buttons/diane_stage01_02.png")
+        action Hide("bedroom_debbie_sleepover_options"), Jump("bedroom_debbie_sleepover_cum")
+        xpos 450
+        ypos 700
+
+    imagebutton:
+        pos (370,665)
+        idle "buttons/diane_stage01_04.png"
+        hover HoverImage("buttons/diane_stage01_04.png")
+        action Hide("bedroom_debbie_sleepover_options"), Function(M_mom.toggle, "change angle"), SetVariable("animated", False), Jump("bedroom_debbie_sleepover_loop")
+
+    if M_mom.get('sex speed') < .12:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_02.png"
+            hover HoverImage("buttons/speed_02.png")
+            action Hide("bedroom_debbie_sleepover_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") + 0.03), Jump("bedroom_debbie_sleepover_loop")
+            xpos 250
+            ypos 735
+
+    if M_mom.get('sex speed') > .061:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_01.png"
+            hover HoverImage("buttons/speed_01.png")
+            action Hide("bedroom_debbie_sleepover_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.03), Jump("bedroom_debbie_sleepover_loop")
+            xpos 450
+            ypos 735
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

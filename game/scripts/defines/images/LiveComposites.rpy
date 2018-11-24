@@ -1,20 +1,20 @@
 
 image school = ConditionSwitch(
     "datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30)", "backgrounds/location_school_christmas_day_blur.jpg",
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) and (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_day_blur.jpg",
+    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_day_blur.jpg",
     "True", "backgrounds/location_school_day_blur.jpg",
     )
 image school_night = ConditionSwitch(
     "datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30)", "backgrounds/location_school_christmas_night_blur.jpg",
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) and (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_night_blur.jpg",
+    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_night_blur.jpg",
     "True", "backgrounds/location_school_night_blur.jpg",
     )
 image graveyard = ConditionSwitch(
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) and (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_day_blur.jpg",
+    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_day_blur.jpg",
     "True", "backgrounds/location_church_graveyard_day_blur.jpg",
     )
 image graveyard_night = ConditionSwitch(
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) and (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_night_blur.jpg",
+    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_night_blur.jpg",
     "True", "backgrounds/location_church_graveyard_night_blur.jpg",
     )
 image office = ConditionSwitch(
@@ -115,7 +115,7 @@ image libraryshelf = Composite(
     (0,0), "library_shelf", 
     (742,416), "buttons/book_01.png",
     (190,453), ConditionSwitch("M_bissette.get_state() == S_bissette_get_dictionary and not player.has_item(\"french_dictionary\")", "buttons/book_04.png", "True", Null()),
-    (234,110), ConditionSwitch("aunt.completed(aunt_breeding_guide) and not player.has_item(\"breeding_guide\") and not aunt.known(aunt_breeding_bull)", "buttons/book_02.png", "True", Null()),
+    (234,110), ConditionSwitch("not M_diane.finished_state(S_diane_check_bookshelf)", "buttons/book_02.png", "True", Null()),
     (406,440), ConditionSwitch("mrsj.started(mrsj_sex_ed) and not player.has_item(\"kamasutra\")" , "buttons/book_03.png", "True", Null()),
     (836,108), ConditionSwitch("not player.has_item(\"old_book\")", "buttons/book_05.png", "True", Null()), 
     )
@@ -453,17 +453,17 @@ image debbies_66x = Composite(
 image debbies_67x = Composite(
     (1024,698),
     (0,0), "characters/debbie/char_debbie_sex_67.png",
-    (378,245), "characters/player/char_player_sex_59.png", 
+    (0,0), "characters/player/char_player_sex_59.png", 
     )
 image debbies_68x = Composite(
     (1024,698),
     (0,0), "characters/debbie/char_debbie_sex_68.png",
-    (378,245), "characters/player/char_player_sex_59.png", 
+    (0,0), "characters/player/char_player_sex_59.png", 
     )
 image debbies_69x = Composite(
     (947,761),
     (0,0), "characters/debbie/char_debbie_sex_69.png",
-    (263,352), "characters/player/char_player_sex_57.png", 
+    (0,63), "characters/player/char_player_sex_57.png", 
     )
 image debbies_69xc = Composite(
     (947,761),
@@ -771,12 +771,7 @@ image dianesex 27 = ConditionSwitch(
     "xray == False", "characters/diane/char_diane_sex_27.png",
     "True", Null(),
     )
-image dianesex 28 = ConditionSwitch( 
-    "xray == True and condom_on == False", "dianesex_28x",
-    "xray == True and condom_on == True", "dianesex_28xr",
-    "xray == False", "characters/diane/char_diane_sex_28.png",
-    "True", Null(),
-    )
+
 image dianesex 30 = ConditionSwitch( 
     "xray == True", "dianesex_30x",
     "xray == False", "characters/diane/char_diane_sex_30.png",
@@ -785,78 +780,6 @@ image dianesex 30 = ConditionSwitch(
 image dianesex 31 = ConditionSwitch( 
     "xray == True", "dianesex_31x",
     "xray == False", "characters/diane/char_diane_sex_31.png",
-    "True", Null(),
-    )
-image dianesex 36 = ConditionSwitch( 
-    "shed_cow_outfit == True", "dianesex_36o",
-    "shed_cow_outfit == False", "characters/diane/char_diane_sex_36.png",
-    "True", Null(),
-    )
-image dianesex 38 = ConditionSwitch( 
-    "shed_cow_outfit == True and xray == True", "dianesex_38ox",
-    "shed_cow_outfit == True and xray == False", "dianesex_38o",
-    "shed_cow_outfit == False and xray == True", "dianesex_38x",
-    "shed_cow_outfit == False and xray == False", "characters/diane/char_diane_sex_38.png",
-    "True", Null(),
-    )
-image dianesex 40 = ConditionSwitch( 
-    "shed_cow_outfit == True and xray == True", "dianesex_40ox",
-    "shed_cow_outfit == True and xray == False", "dianesex_40o",
-    "shed_cow_outfit == False and xray == True", "dianesex_40x",
-    "shed_cow_outfit == False and xray == False", "characters/diane/char_diane_sex_40.png",
-    "True", Null(),
-    )
-image dianesex 42 = ConditionSwitch( 
-    "shed_cow_outfit == True", "dianesex_42o",
-    "shed_cow_outfit == False", "characters/diane/char_diane_sex_42.png",
-    "True", Null(),
-    )
-image dianesex 44 = ConditionSwitch( 
-    "shed_cow_outfit == True", "dianesex_44o",
-    "shed_cow_outfit == False", "characters/diane/char_diane_sex_44.png",
-    "True", Null(),
-    )
-image dianesex 46 = ConditionSwitch( 
-    "shed_cow_outfit == True", "dianesex_46o",
-    "shed_cow_outfit == False", "characters/diane/char_diane_sex_46.png",
-    "True", Null(),
-    )
-image dianesex 48 = ConditionSwitch( 
-    "shed_cow_outfit == True", "dianesex_48o",
-    "shed_cow_outfit == False", "characters/diane/char_diane_sex_48.png",
-    "True", Null(),
-    )
-image dianesex 50 = ConditionSwitch( 
-    "shed_cow_outfit == True and xray == True", "dianesex_50ox",
-    "shed_cow_outfit == True and xray == False", "dianesex_50o",
-    "shed_cow_outfit == False and xray == True", "dianesex_50x",
-    "shed_cow_outfit == False and xray == False", "characters/diane/char_diane_sex_50.png",
-    "True", Null(),
-    )
-image dianesex 52 = ConditionSwitch( 
-    "shed_cow_outfit == True and xray == True", "dianesex_52ox",
-    "shed_cow_outfit == True and xray == False", "dianesex_52o",
-    "shed_cow_outfit == False and xray == True", "dianesex_52x",
-    "shed_cow_outfit == False and xray == False", "characters/diane/char_diane_sex_52.png",
-    "True", Null(),
-    )
-
-image dianes 57 = ConditionSwitch( 
-    
-    
-    "shed_xray_toggle == False", "characters/diane/char_diane_sex_57.png",
-    "True", Null(),
-    )
-image dianes 58 = ConditionSwitch( 
-    
-    
-    "shed_xray_toggle == False", "characters/diane/char_diane_sex_58.png",
-    "True", Null(),
-    )
-image dianes 59 = ConditionSwitch( 
-    
-    
-    "shed_xray_toggle == False", "characters/diane/char_diane_sex_59.png",
     "True", Null(),
     )
 

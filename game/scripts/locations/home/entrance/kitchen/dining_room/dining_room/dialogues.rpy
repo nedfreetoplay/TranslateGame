@@ -6,34 +6,34 @@ label dining_room_mom_diane_dinner:
     show debbie 65 at Position(xpos=0.8626,ypos=1.0118)
     show table 1 at Position(xpos=0.4976,ypos=0.7630)
     with fade
-    deb "... Я рад, что твой молочный бизнес процветает!"
-    deb "Скажи мне, хорошо ли {b}[firstname]{/b} ухаживает за твоим садом?"
+    deb "... I'm glad your milk business is doing so well!"
+    deb "Tell me, how's {b}[firstname]{/b} been doing in your garden?"
     show jenny 45
-    deb "Он как будто там целыми сутками торчит."
+    deb "It seems like he's always over there nowadays."
     show debbie 66
     show jenny 44
     show player 218
     show diane 130
-    deb "Хах!"
+    deb "Hah!"
     show diane 129
     show debbie 64
     show player 214
-    dia "Он прекрасно всё делает! Мои овощи ещё никогда не выглядели так аппетитно!"
-    dia "Даже не знаю, что бы я делала без него."
+    dia "He's doing a great job! My vegetables have never looked so delicious!"
+    dia "I don't know what I would do without him."
     show diane 128
     dia "..."
     show diane 130
-    dia "Но хватит обо мне!"
+    dia "But enough talk about me!"
     show diane 129
-    dia "Как у тебя дела?"
-    dia "Надеюсь, ты на позитиве?"
+    dia "How are things around here going?"
+    dia "You all staying positive?"
     show player 213
     show diane 128
     show debbie 67 at Position(xpos=0.8294,ypos=1.0118)
-    deb "Ну, это были тяжелые несколько месяцов; Но мы справляемся."
+    deb "Well, it's been a tough couple of months; But we're hanging in there."
     show jenny 45
     show debbie 65 at Position(xpos=0.8626,ypos=1.0118)
-    deb "{b}[firstname]{/b} тоже очень сильно помог."
+    deb "{b}[firstname]{/b} has been a big help to us as well."
     show jenny 44
     show player 220
     show debbie 68 at Position(xpos=0.8294,ypos=1.0118)
@@ -46,53 +46,53 @@ label dining_room_mom_diane_dinner:
     pause
     show debbie 71 at Position(xpos=0.7992,ypos=1.0118)
     show player 224
-    deb "Он помогает мне по дому и, иногда, чинит всякие штуки!"
-    deb "Он даже смог договориться с диллером, чтобы мне заменили двигатель автомобиля, абсолютно бесплатно!"
+    deb "He's been helping with chores and making repairs!"
+    deb "He even got the car dealership to replace the engine in my car, free of charge!"
     show player 226
     show diane 129
     show debbie 70
     show jenny 45
-    dia "Да ладно?"
+    dia "You don't say?"
     show player 225
     show diane 128
     show jenny 44
-    player_name "Не так уж и сложно это было..."
+    player_name "It really wasn't that big a deal..."
     show player 226
     show diane 129
-    dia "Знаете..."
-    dia "Если вам понадобится моя помощь, я могу переехать к вам ненадолго..."
+    dia "You know..."
+    dia "If you guys need help around here, I could always move in for awhile..."
     show jenny 46
     jen "..."
-    dia "... Ну, пока вы ещё не полностью встали на ноги. Окей?"
+    dia "... Just until you get back on your feet, you know?"
     show debbie 71
     show diane 128
     show player 224
-    deb "Это очень неплохое предложение..."
-    deb "Нам и правда может пригодится твоя помощь."
+    deb "I mean, it might not be a terrible idea..."
+    deb "We could definitely use the help."
     show player 226
     show jenny 47
     show debbie 70
-    jen "Стоп, ты серьезно?! {b}Диана{/b} теперь будет жить тут? Вот просто так?"
+    jen "Wait, seriously?! {b}Diane{/b} is living here now? Just like that?"
     show player 224
     show jenny 48
     show debbie 71
-    deb "Это ведь просто мысли в слух!"
-    deb "Она же не переезжает к нам прямо сейчас, {b}[jen_name]{/b}!"
+    deb "It's just a thought!"
+    deb "She's not moving right this very second, {b}[jen_name]{/b}!"
     show jenny 47
     show player 226
     show debbie 70
-    jen "... И где же она будет спать?"
+    jen "... Where would she even sleep?"
     show debbie 71
     show player 224
     show jenny 48
-    deb "Мы что-нибудь придумаем!"
-    deb "Она может спать в моей комнате, мне не сложно поспать на диване."
+    deb "We'd figure something out!"
+    deb "She can sleep in my room for awhile, I don't mind the couch."
     show player 226
     show diane 128
     show debbie 70
-    dia "Ты не будешь спать на диване! Мы просто будем спать на одной кровати."
-    dia "Как когда мы были детьми!"
-    dia "... Мне будет так приятно!"
+    dia "You're not sleeping on the couch! We'll just share the bed for awhile."
+    dia "Just like the sleepovers we used to have when we were kids!"
+    dia "... It'll be nice to spend some more time with you guys!"
     show player 221
     show diane 134 at Position(xpos=0.3981,ypos=1.0118)
     pause
@@ -101,7 +101,7 @@ label dining_room_mom_diane_dinner:
     pause
     show jenny 47
     show player 226
-    jen "Вы все такие странные..."
+    jen "You guys are weird..."
     show jenny 48
     show debbie 71 at Position(xpos=0.7992,ypos=1.0118)
     pause
@@ -115,36 +115,36 @@ label dining_room_mom_diane_dinner:
     pause
     show diane 133 at Position(xpos=0.3483,ypos=1.0118)
     show debbie 67 at Position(xpos=0.8294,ypos=1.0118)
-    deb "Мы можем позже обговорить детали."
+    deb "We can work out the details later."
     show player 218
-    deb "А сейчас нужно есть, еда же остывает!"
+    deb "Right now, our foods getting cold!"
     show debbie 64 at Position(xpos=0.8626,ypos=1.0118)
     show diane 132
-    dia "Это очень вкусно, {b}[deb_name]{/b}!"
+    dia "This is really delicious, {b}[deb_name]{/b}!"
     scene location_home_entrance_night_blur
     show diane 137 at right
     show debbie 91f
     show player 203 at Position(xpos=0.2820,ypos=1.0000)
     show jenny 49f at left
     with fade
-    dia "Спасибо за то, что пригласили!"
-    dia "Было так приятно хоть недолго побыть вне дома!"
+    dia "Thanks for having me over, guys!"
+    dia "It was nice to get out of the house for awhile!"
     show diane 136
     show debbie 92f
-    deb "Была рада тебя увидеть, {b}Диана{/b}! Тебе здесь всегда рады!"
+    deb "It's great seeing you, {b}Diane{/b}! You're welcome here anytime!"
     show debbie 91f
     show diane 137
-    dia "Ох, и не думай, что я забуду о твоем предложении!"
+    dia "Oh, and don't go thinking I'm gonna forget about your offer!"
     show diane 137
-    dia "Только скажи! Я тут же соберу вещи и прилечу к вам!"
+    dia "You just say the word! I'll pack my bags and be on your doorstep in an instant!"
     show diane 136
     show debbie 93f
-    deb "Хах! Я знаю, {b}Диана{/b}. Главное, будь на связи."
+    deb "Hah! I know you would, {b}Diane{/b}. I'll be in touch about it."
     show debbie 91f
     show diane 137
-    dia "Всем доброй ночи!"
+    dia "Goodnight, everyone!"
     show player 2
-    player_name "Доброй ночи, {b}Диана{/b}!"
+    player_name "Good night, {b}Diane{/b}!"
     hide debbie
     hide diane
     hide jenny
@@ -170,111 +170,111 @@ label dining_room_sis_breakfast:
     pause
     show jenny 47
     show player 320
-    jen "Так..."
+    jen "So..."
     show jenny 48
-    player_name "Хмм?"
+    player_name "Hmm?"
     show jenny 47
-    jen "Тебе нравится работать у {b}Дианы{/b}?"
+    jen "So you like working for {b}Diane{/b}."
     show player 321
     show jenny 48
-    player_name "Да, и что?"
+    player_name "Yeah, and?"
     show player 320
     show jenny 47
-    jen "Она хорошо тебе платит?"
+    jen "She paying you pretty well?"
     show player 321
     show jenny 88
-    player_name "... ага..."
+    player_name "... yeah..."
     show player 322
     show jenny 86
-    jen "Сколько?"
+    jen "How much?"
     show player 323
     show jenny 88
-    player_name "Это конфиденциальная информация..."
+    player_name "That's kind of private..."
     show player 322
     show jenny 87
-    jen "Она... платит тебе {b}чем-то кроме{/b} денег?"
+    jen "Is she... paying you in any {b}other{/b} ways?"
     show player 323
     show jenny 88
-    player_name "Чего?"
+    player_name "What?"
     show player 322
     show jenny 87
-    jen "Да ладно, я же знаю, что ты слышал истории о {b}Диане{/b}!"
+    jen "Come on, I know you've heard the stories about {b}Diane{/b}!"
     show player 320
     show jenny 86
-    jen "Она очень любит... обнимать и целовать своих помощников."
+    jen "She likes to give... hugs and kisses to her helpers."
     show player 321
     show jenny 48
-    player_name "Я не совсем тебя понял..."
+    player_name "I don't get it."
     show player 322
     show jenny 47
-    jen "Боже, какой же ты тупой!"
+    jen "Gosh, you're so dumb!"
     show jenny 48
     player_name "..."
     show player 322
     show jenny 47
-    jen "Неважно, я хотела тебя спросить, раз уж сейчас ты неплохо зарабатываешь..."
+    jen "Anyway, I was gonna ask you something, now that you're making the big bucks..."
     show player 321
     show jenny 88
-    player_name "...Да?"
+    player_name "...Okay?"
     show player 320
     show jenny 86
-    jen "Могу я одолжить у тебя немного {b}денег{/b}?"
+    jen "Can I borrow some {b}money{/b}?"
     show player 321
     show jenny 88
-    player_name "У меня?!"
+    player_name "From me?!"
     show player 320
     show jenny 86
-    jen "Ну, да."
+    jen "Well, yeah."
     show player 320
     show jenny 86
-    jen "Раз ты говоришь, что тебе платят..."
+    jen "You said you're getting paid..."
     show jenny 87
-    jen "А мне нужно сделать кое-что, что принесет мне деньги уже мне. Понимаешь??"
+    jen "Plus, I need the money to start something up that will earn me my own money. Get it??"
     show player 322
     show jenny 86
-    jen "Более того, тебе ведь не на что их тратить!"
+    jen "Besides, it's not like you have anything to spend it on!"
     show player 323
     show jenny 88
-    player_name "Ну не знаю..."
-    player_name "Я немало трудился, чтобы их заработать, {b}[jen_name]{/b}."
+    player_name "I don't know..."
+    player_name "I worked hard for that money, {b}[jen_name]{/b}."
     show player 322
     show jenny 86
-    jen "Слушай сюда, идиот, я влюбом случает тебе отплачу!"
+    jen "Look, I'll pay you back one way or another, dummy!"
     show jenny 87
-    jen "Ты можешь мне доверять..."
+    jen "You can trust me..."
     show player 323
     show jenny 88
-    player_name "Я подумаю."
+    player_name "I'll think about it."
     show player 322
     show jenny 86
-    jen "Ладно, придешь ко мне, когда подумаешь."
+    jen "That's fine, come see me when you've made up your mind."
     show player 323
     show jenny 88
-    player_name "Хорошо..."
+    player_name "Alright..."
     return
 
 label dining_room_sis_breakfast_done:
     jen "..."
     show jenny 47
     show player 318
-    jen "Почему ты всё ещё здесь?"
+    jen "What are you still doing here?"
     show jenny 48
     show player 323
-    player_name "Ха?"
+    player_name "Huh?"
     show jenny 47
     show player 322
     if game.timer.is_weekend():
-        jen "Ты разве не собирался пойти к {b}Эрику{/b}?"
+        jen "Shouldn't you be hanging out with {b}Erik{/b}?"
     else:
-        jen "Тебе разве не пора в школу?"
+        jen "Shouldn't you be going to school?"
     show jenny 48
     show player 321
-    player_name "Ох, и правда..."
+    player_name "Oh, right..."
     show jenny 87
     show player 322
-    jen "Боже, какой же ты тупой."
+    jen "Gosh, you're so stupid."
     show jenny 86
-    jen "Зайди ко мне, если всё же решишься одолжить мне денег..."
+    jen "Just come see me when you've made up your mind about our deal..."
     return
 
 label dining_room_sis_breakfast_started:
@@ -282,8 +282,8 @@ label dining_room_sis_breakfast_started:
     show diningroom_jenny_breakfast at Position(xpos=473,ypos=718)
     show player 1f at right
     with dissolve
-    player_name "( Хах. {b}[jen_name]{/b} уже проснулась? )"
-    player_name "( Она обычно ещё спить в такое время. )"
+    player_name "( Huh. {b}[jen_name]{/b} is awake already? )"
+    player_name "( She usually sleeps in. )"
     hide player
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

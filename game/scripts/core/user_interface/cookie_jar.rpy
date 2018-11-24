@@ -63,14 +63,15 @@ init python:
                                           "gallery_image": "buttons/cookie_jar_box_03_",
         }
 
-    persistent.cookie_jar["Diane"]["gallery_total"] = 6
+    persistent.cookie_jar["Diane"]["gallery_total"] = 7
 
-    persistent.cookie_jar["Diane"]["gallery_labels"] = {"01_label": "dianes_garden_diane_sunbathing_replay",
-                                                        "02_label": "dianes_dialogue_drink_replay",
-                                                        "03_label": "aunt_masturbate_not_seen",
-                                                        "04_label": "dianes_dialogue_after_fun_have_fun_replay",
-                                                        "05_label": "aunt_dialogue_button_night",
-                                                        "06_label": "aunt_shed_sex_seated",
+    persistent.cookie_jar["Diane"]["gallery_labels"] = {"01_label": "dianes_kitchen_diane_look_in_kitchen",
+                                                        "02_label": "dianes_garden_diane_drunk_like_a_sailor",
+                                                        "03_label": "kitchen_diane_dinner",
+                                                        "04_label": "dianes_dialogue_breastfeed",
+                                                        "05_label": "diane_cucumber_start",
+                                                        "06_label": "diane_sex_breed_start",
+                                                        "07_label": "diane_debbie_sex_start",
     }
 
 
@@ -429,6 +430,20 @@ init python:
 
     persistent.cookie_jar["Crystal"]["gallery_labels"] = {"01_label": "crystal_hscene_replay",
     }
+    if "Micoe" not in persistent.cookie_jar:
+        persistent.cookie_jar["Micoe"] = {"idle": "buttons/cookie_jar_27.png",
+                                          "locked_idle": "buttons/cookie_jar_27_locked.png",
+                                          "unlocked": False,
+                                          "order": "27",
+                                          "gallery": {},
+                                          "gallery_image": "buttons/cookie_jar_box_27_",
+        }
+
+    persistent.cookie_jar["Micoe"]["gallery_total"] = 1
+
+    persistent.cookie_jar["Micoe"]["gallery_labels"] = {"01_label": "micoe_bj_scene",
+        }
+
 
     for cookie in persistent.cookie_jar:
         cookie_count = 1
@@ -451,10 +466,10 @@ label replay_INITS(replay_label, replay_cookie):
         jen_char_name = store.jen_char_name
         deb_name = store.deb_name
         deb_char_name = store.deb_char_name
-        player = Player(persistent.firstname)
+        player = Player(firstname)
         game = Game()
-        sister = Event_Queue()
-        erik = Event_Queue()
+        sister = Event_Queue("sister")
+        erik = Event_Queue("erik")
 
     call define_events
     call INIT_LOCATIONS
@@ -484,7 +499,11 @@ label replay_INITS(replay_label, replay_cookie):
         }
         for iter_str, iter_var in list(locals().iteritems()):
             if "M_" in iter_str or "S_" in iter_str or "T_" in iter_str or "L_" in iter_str or iter_str.startswith("erik_") or iter_str.startswith("sis_"):
-                properties[iter_str] = iter_var
+                new_var = iter_var
+                if "M_diane" in iter_str:
+                    new_var.outfit = "shirtless"
+                properties[iter_str] = new_var
+
 
     $ renpy.call_replay(Game.dialog_select(replay_label), properties)
     call screen cookie_jar_gallery(replay_cookie)

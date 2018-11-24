@@ -111,20 +111,7 @@ screen popup_parts:
         pos (410,421)
         idle "buttons/shop_button_200.png"
         hover HoverImage("buttons/shop_button_200.png")
-        action [Function(player.get_item, "parts"),
-            If(
-               not player.has_money(200),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("parts"),
-                  Show("popup_fail02"),
-                  [Function(quest_complete, quest05),
-                   Show("popup_parts")
-                  ]
-               )
-            ),
-            Hide("popup_parts")
-        ]
+        action Hide("popup_parts"), BuyItem("parts")
 
 screen popup_swimsuit:
     imagebutton:
@@ -138,18 +125,7 @@ screen popup_swimsuit:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "swimsuit"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("swimsuit"),
-                  Show("popup_fail02"),
-                  Show("popup_swimsuit")
-               )
-            ),
-            Hide("popup_swimsuit")
-        ]
+        action Hide("popup_swimsuit"), BuyItem("swimsuit")
 
 screen popup_webcam:
     imagebutton:
@@ -163,21 +139,9 @@ screen popup_webcam:
         pos (410,421)
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action [Function(player.get_item, "supersaga_webcam"),
-            If(
-               not player.has_money(300),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("supersaga_webcam"),
-                  Show("popup_fail02"),
-                  Show("popup_webcam")
-               )
-            ),
-            Hide("popup_webcam")
-        ]
+        action Hide("popup_webcam"), BuyItem("supersaga_webcam")
 
 screen popup_bike:
-    $ player.transport_level = max(player.transport_level, 1)
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_bike")
@@ -189,18 +153,7 @@ screen popup_bike:
         pos (410,421)
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action [Function(player.get_item, "bike"),
-            If(
-               not player.has_money(500),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("bike"),
-                  Show("popup_fail02"),
-                  Show("popup_bike")
-               )
-            ),
-            Hide("popup_bike")
-        ]
+        action Hide("popup_bike"), BuyItem("bike"), If(player.has_money(Item("bike").cost), Function(player.upgrade_transport, 1), NullAction())
 
 screen popup_milkjug:
     imagebutton:
@@ -214,18 +167,7 @@ screen popup_milkjug:
         pos (410,421)
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action [Function(player.get_item, "milkjug"),
-            If(
-               not player.has_money(300),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("milkjug"),
-                  Show("popup_fail02"),
-                  Show("popup_milkjug")
-               )
-            ),
-            Hide("popup_milkjug")
-        ]
+        action Hide("popup_milkjug"), BuyItem("milkjug"), If(player.has_money(Item("milkjug").cost) and M_diane.is_state(S_diane_buy_milk_jug), [Hide("consumr"), Jump("consumr_diane_get_milk_jug_bought")], NullAction())
 
 screen popup_exterminator:
     imagebutton:
@@ -239,18 +181,7 @@ screen popup_exterminator:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "exterminator"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("exterminator"),
-                  Show("popup_fail02"),
-                  Show("popup_exterminator")
-               )
-            ),
-            Hide("popup_exterminator")
-        ]
+        action Hide("popup_exterminator"), BuyItem("exterminator")
 
 screen popup_eradicator:
     imagebutton:
@@ -264,18 +195,7 @@ screen popup_eradicator:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "eradicator"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("eradicator"),
-                  Show("popup_fail02"),
-                  Show("popup_eradicator")
-               )
-            ),
-            Hide("popup_eradicator")
-        ]
+        action Hide("popup_eradicator"), BuyItem("eradicator")
 
 screen popup_annihilator:
     imagebutton:
@@ -289,18 +209,7 @@ screen popup_annihilator:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "annihilator"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("annihilator"),
-                  Show("popup_fail02"),
-                  Show("popup_annihilator")
-               )
-            ),
-            Hide("popup_annihilator")
-        ]
+        action Hide("popup_annihilator"), BuyItem("annihilator"), If(player.has_money(Item("annihilator").cost) and M_diane.is_state(S_diane_get_bug_spray), [Hide("consumr"), Jump("consumr_diane_buy_bug_spray")], NullAction())
 
 screen popup_gas_can:
     imagebutton:
@@ -314,18 +223,7 @@ screen popup_gas_can:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "gas_can"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("gas_can"),
-                  Show("popup_fail02"),
-                  Show("popup_gas_can")
-               )
-            ),
-            Hide("popup_gas_can")
-        ]
+        action Hide("popup_gas_can"), BuyItem("gas_can")
 
 screen popup_wrench:
     imagebutton:
@@ -339,18 +237,7 @@ screen popup_wrench:
         pos (410,421)
         idle "buttons/shop_button_50.png"
         hover HoverImage("buttons/shop_button_50.png")
-        action [Function(player.get_item, "wrench"),
-            If(
-               not player.has_money(50),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("wrench"),
-                  Show("popup_fail02"),
-                  Show("popup_wrench")
-               )
-             ),
-             Hide("popup_wrench")
-        ]
+        action Hide("popup_wrench"), BuyItem("wrench")
 
 screen popup_cat_food:
     imagebutton:
@@ -364,18 +251,7 @@ screen popup_cat_food:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [Function(player.get_item, "cat_food"),
-            If(
-               not player.has_money(100),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("cat_food"),
-                  Show("popup_fail02"),
-                  Show("popup_cat_food")
-               )
-            ),
-            Hide("popup_cat_food")
-        ]
+        action Hide("popup_cat_food"), BuyItem("cat_food")
 
 screen popup_chicken_stock:
     imagebutton:
@@ -389,28 +265,17 @@ screen popup_chicken_stock:
         pos (410,421)
         idle "buttons/shop_button_50.png"
         hover HoverImage("buttons/shop_button_50.png")
-        action [Function(player.get_item, "chicken_stock"),
-            If(
-               not player.has_money(50),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("chicken_stock"),
-                  Show("popup_fail02"),
-                  Show("popup_chicken_stock")
-               )
-            ),
-            Hide("popup_chicken_stock")
-        ]
+        action Hide("popup_chicken_stock"), BuyItem("chicken_stock")
 
 label consumr_chicken_stock_dialogue:
     scene location_mall_consumr_day_blur
     show player 4
     with dissolve
     if M_okita.is_state(S_okita_get_ingredients):
-        player_name "Хм, Окита сказала {b}Овощной Бульон{/b}, но у них есть только Куриный..."
-        player_name "Может, продавец сможет мне помочь?"
+        player_name "Hmm, Okita said {b}Vegetable Stock{/b} but they only have Chicken..."
+        player_name "Maybe the Clerk can help me?"
     else:
-        player_name "Не понимаю, зачем мне сейчас куриный бульон..."
+        player_name "I don't see why I would need chicken stock right now..."
     $ game.main()
 
 screen popup_fail01:

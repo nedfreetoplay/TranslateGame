@@ -3,10 +3,10 @@ label button_ross_grab_clay:
     show player 1f at right
     show ross 2 at left
     with dissolve
-    ross "Иди возьми плитку глины, {b}[firstname]{/b}, чтобы мы могли начать."
+    ross "Go grab a slab of clay, {b}[firstname]{/b}, so we can get started."
     show player 2f
     show ross 1
-    player_name "Да, Мэм."
+    player_name "Yes, Ma'am."
 
     return
 
@@ -15,46 +15,46 @@ label button_ross_find_partner:
     show player 2f at right
     show ross 1 at left
     with dissolve
-    player_name "Здравствуйте, {b}Мисс Росс{/b}. Вы готовы начать?"
+    player_name "Hey, {b}Miss Ross{/b}. You ready to get started?"
     show player 1f
     show ross 2
-    ross "Привет, {b}[firstname]{/b}! Почти..."
+    ross "Hey there, {b}[firstname]{/b}! Just about..."
     show ross 11 with dissolve
-    ross "Сначала я хотела с тобой кое-что обсудить."
+    ross "I actually wanted to discuss something with you first."
     show player 2f
     show ross 10
-    player_name "Оу?"
+    player_name "Oh?"
     show ross 11
     show player 1f
-    ross "Я думаю,мы должны найти тебе партнера для этих занятий,что ты думаешь?"
+    ross "I think we should get you a partner for these sessions, what do you think?"
     show ross 10
     show player 10f
-    player_name "Партнера?"
+    player_name "A partner?"
     show ross 11
     show player 11f
-    ross "Да, кто-то кто будет работать поралельно с тобой и подкидывал тебе идеи вперед!"
+    ross "Yeah, somebody to work along side you and bounce idea's back and forth!"
     show ross 10
     show player 2f
-    player_name "Конечно, Хорошо."
-    player_name "У тебя есть кто-нибудь на примете?"
+    player_name "Sure, okay."
+    player_name "Did you have anyone in mind?"
     show player 1f
     show ross 10b with dissolve
-    ross "Хмм..."
+    ross "Hmm..."
     show ross 11 with dissolve
-    ross "Ну, моя первоначальная мысль - {b}Ева{/b}. Она талантливая художница, как и вы..."
-    ross "... Но я сомневаюсь, что у нее будет время со всеми ее музыкальными обучениями."
+    ross "Well my initial thought is {b}Eve{/b}. She's a talented artist just like yourself..."
+    ross "... But I doubt she'd have time with all her musical studies."
     show ross 10b with dissolve
     pause
     show ross 11 with dissolve
-    ross "Ты думаешь {b}Мии{/b} было бы интересно?"
-    ross "Она просто такая милашка, не так ли!?"
+    ross "Do you think {b}Mia{/b} would be interested?"
+    ross "She's just such a cutie pie, isn't she!?"
     show ross 10
     show player 2f
-    player_name "Ээээ, да. Наверно."
+    player_name "Err, yeah. I suppose."
     show player 1f
     show ross 11
-    ross "Отлично! Почему бы тебе не пойти поговорить с ней?"
-    ross "Скажи её что я сказала чтобы она притащила свою миленькую задницу сюда!"
+    ross "Great! Well why don't you go talk to her?"
+    ross "Tell her I said to get her cute butt in here!"
     show player 11f
     show ross 10
     player_name "..."
@@ -66,15 +66,15 @@ label button_ross_ask_mia_partner:
     show player 1f at right
     show ross 2 at left
     with dissolve
-    ross "{b}[firstname]{/b}, ты вернулся!"
-    ross "Где {b}Мия{/b}?"
+    ross "{b}[firstname]{/b}, you're back!"
+    ross "Where's {b}Mia{/b}?"
     show player 10f
     show ross 1
-    player_name "Ох, эмм... я ещё не убедил её."
+    player_name "Oh, uhh... I haven't convinced her yet."
     show player 11f
     show ross 2
-    ross "Ну чтож поторопись, {b}[firstname]{/b}!"
-    ross "Нам нужен ее энтузиазм, если мы собираемся выиграть эту вещь!"
+    ross "Well get a move on, {b}[firstname]{/b}!"
+    ross "We need her enthusiasm if we're gonna win this thing!"
     return
 
 label button_ross_mia_is_partner:
@@ -83,79 +83,79 @@ label button_ross_mia_is_partner:
     show ross 2 at left
     show mia 7 zorder 0 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    ross "Привет, милашка!"
+    ross "Hey there, Cutie Pie!"
     show ross 1
     show mia 56 at Position(xpos=0.635, ypos=1.0) with dissolve
-    mia "... О, эммм. П-привет."
+    mia "... Oh, umm. H-hello."
     show ross 2
     show mia 55
-    ross "Я так рада что, {b}[firstname]{/b} убедил тебя присоединиться к нас!"
+    ross "I'm so glad, {b}[firstname]{/b} convinced you to join us!"
     show ross 1
     show mia 56
-    mia "Хехе, да... Он сказал, что вам ребята очень нужна моя помощь?"
+    mia "Hehe, yeah... He said you guys really needed my help?"
     show ross 2
     show mia 55
-    ross "Нам разумеется!"
+    ross "We surely do!"
     show ross 1
     show player 2f
     show mia 8b at Position(xpos=0.65, ypos=1.0) with dissolve
-    player_name "Итак, сейчас мы готовы начать?"
+    player_name "So are we ready to start now?"
     show player 1f
     show ross 11 with dissolve
-    ross "Ага! Почему бы вам обоим не достать свои художественные альбомы и не сесть напротив друг друга."
+    ross "Yup! Why don't you both get out your art pads and have a seat opposite each other."
     show player 2f
     show ross 10
-    player_name "Хорошо."
+    player_name "Okay."
     show mia 8
     show player 596f with dissolve
     mia "..."
     show mia 12
-    mia "Эмм, вопрос..."
+    mia "Umm, question..."
     show mia 8
     show ross 11
-    ross "Да, дорогая?"
+    ross "Yes, Dear?"
     show mia 12
     show ross 10
-    mia "Что если у меня нет художественного альбома?"
+    mia "What if I don't have an art pad?"
     show mia 8
     show ross 25
-    ross "Ох, правильно."
+    ross "Oh, right."
     show ross 25b
-    ross "Ну, обычно я бы предоставила тебе один из этих..."
+    ross "Well usually I'd provide you with one of those..."
     show ross 25
-    ross "... Но я боюсь,что мы исчерпали запасы.."
+    ross "... But I'm afraid we've exhausted our stores."
     show ross 24
     show player 598f
-    player_name "Это хреново!"
+    player_name "That sucks!"
     show player 596f
     show mia 12b
-    mia "О, ну, ничего страшного. Я не очень хорошо рисую в любом случае..."
+    mia "Oh well, it's no big deal. I'm not very good at drawing anyways..."
     show mia 10
-    mia "Я просто посмотрю."
+    mia "I'll just watch."
     show mia 7
     show ross 11
-    ross "Глупости!"
-    ross "Мы достанем тебе один!"
+    ross "Nonsense!"
+    ross "We'll get you one!"
     show ross 27 with dissolve
-    ross "{b}[firstname]{/b}, почему бы тебе не спросить {b}Еву{/b} если мы можем одолжить у неё один."
+    ross "{b}[firstname]{/b}, why don't you go ask {b}Eve{/b} if we can borrow one of hers."
     show ross 26
     show player 598f
-    player_name "... Д-да, хорошо!"
+    player_name "... Y-yeah, okay!"
     show ross 27
     show player 596f
-    ross "Увидишь, {b}[firstname]{/b} поможет!"
+    ross "See, {b}[firstname]{/b} to the rescue!"
     show player 1f
     show ross 11
     with dissolve
-    ross "Мы просто останемся здесь и поговорим о женском."
+    ross "We'll just stay here and have some girl talk."
     show ross 13
-    ross "Правильно, милашка?"
+    ross "Right, Cutie Pie?"
     show ross 12
     show mia 56 at Position(xpos=0.635, ypos=1.0) with dissolve
-    mia "Хех, хорошо..."
+    mia "Heh, okay..."
     show mia 55
     show player 2f
-    player_name "Скоро вернусь."
+    player_name "Be right back."
     return
 
 label button_ross_find_art_pad:
@@ -164,59 +164,59 @@ label button_ross_find_art_pad:
     show mia 55 at Position(xpos=0.435, ypos=1.0)
     show player 1f at right
     with dissolve
-    ross "... Ты знаешь, {b}Мию{/b}. Я дружила с девушкой, которая была похожа на тебя!"
+    ross "... You know, {b}Mia{/b}. I used to be friends with a girl who looked just like you!"
     show ross 12
     show mia 56
-    mia "Реально?"
+    mia "Really?"
     show ross 13
     show mia 55
-    ross "Абсолютно! Ей звали Старчайлд и мы следили за нашей любимой группой по всей стране."
+    ross "Absolutely! Her name was Starchild and we used to follow our favorite band all over the country."
     show ross 12
     show mia 12b at Position(xpos=0.45, ypos=1.0) with dissolve
-    mia "Ну это звучит очень здорово!"
+    mia "Well that sounds pretty neat!"
     show ross 13
     show mia 8b
-    ross "О, именно!"
-    ross "У этой девушки были всегда лучшие наркотики!"
+    ross "Oh, it was!"
+    ross "That girl always had the best drugs!"
     show ross 11
-    ross "... И как целуется! Она могла делать своим языком такие вещи, которые-"
+    ross "... And what a kisser! She could do things with her tongue that woul-"
     show player 10f
     show ross 10
     show mia 55 at Position(xpos=0.435, ypos=1.0) with dissolve
-    player_name "*Кхм* Я вам не помешал?"
+    player_name "*Ahem* Am I interrupting something?"
     show player 11f
     show mia 12f with dissolve
-    mia "{b}[firstname]{/b}, ты вернулся!"
+    mia "{b}[firstname]{/b}, you're back!"
     show mia 12bf
-    mia "Слава богу!"
+    mia "Thank goodness!"
     show mia 8bf
     show ross 11
-    ross "Тебе удалось взять {b}Евин альбом{/b}?"
+    ross "Did you manage to get {b}Eve's artpad{/b}?"
     show player 10f
     show ross 10
-    player_name "Нет, извините. Я все еще работаю над этим."
+    player_name "No, sorry. I'm still working on it."
     show player 11f
     show ross 11
-    ross "Тсс, ну брысь тогда! У нас девчачьи разговоры..."
+    ross "Tsk, well shoo then! We're having girl talk here..."
     show ross 10
     show player 10f
-    player_name "... Х-хорошо. Я скоро вернусь."
+    player_name "... A-alright. I'll be back."
     hide player with dissolve
     show mia 12f at Position(xpos=0.55, ypos=1.0) with dissolve
 
-    mia "Нет! Подожди! Погоди!"
+    mia "No! Wait! Hold up!"
     show mia 8f
     pause
     show ross 13 at Position(xpos=0.15, ypos=1.0) with dissolve
-    ross "Сейчас на чем я остановилась?"
+    ross "Now where was I?"
     show ross 12
     show mia 8b with dissolve
     mia "..."
     show ross 13
-    ross "Да,точно! Она могла делать ее языком такое, что заставило бы шлюху покраснеть!"
+    ross "Oh, right! She could do things with her tongue that would make a whore blush!"
     show ross 12
     show mia 56 a Position (xpos=0.535, ypos=1.0) with dissolve
-    mia "... О боже."
+    mia "... Oh my."
     return
 
 label button_ross_found_art_pad:
@@ -225,75 +225,75 @@ label button_ross_found_art_pad:
     show mia 55 at Position(xpos=0.435, ypos=1.0)
     show player 11f zorder 1 at right
     with dissolve
-    ross "... Хмм, Я думаю, что мой любимый в {b}Прая-ду-Абрико{/b}"
+    ross "... Hmm, I think my favorite one is the {b}Praia do Abricó{/b}"
     show ross 11 with dissolve
-    ross "Он вернулся домой в Рио-де-Жанейро."
+    ross "It's back home in Rio de Janeiro."
     show ross 10
     show mia 56
-    mia "О, я не знаю..."
-    mia "... Я не думаю, что я достаточно храбрая для для нудистского пляжа."
+    mia "Oh, I dunno..."
+    mia "... I don't think I'm brave enough for a nude beach."
     show ross 13
     show mia 55
-    ross "О, уверена что готова, милашка!"
-    ross "Никто не должен стыдиться своего тела. Человеческая тело-это ведь произведение искусства..."
+    ross "Oh, sure you are, Cutie Pie!"
+    ross "Nobody should be ashamed of their body. The human form is a work of art after all..."
     show ross 13
-    ross "... Особенно твое."
-    ross "Ты совершенно прекрасна, {b}Мия{/b}!"
+    ross "... Especially yours."
+    ross "You're just absolutely gorgeous, {b}Mia{/b}!"
     show ross 12
     show mia 56
-    mia "Вау, я... эмм..."
+    mia "Wow, I... Uhh..."
     show player 10f
 
-    player_name "{b}*Кхм*{/b}"
+    player_name "{b}*Ahem*{/b}"
     show player 11f
     show mia 12bf with dissolve
-    mia "О, {b}[firstname]{/b}, слава богу ты вернулся!"
+    mia "Oh, {b}[firstname]{/b}, thank goodness you're back!"
     show mia 8b zorder 0 at Position(xpos=0.65, ypos=1.0) with dissolve
     show player 2f
-    player_name "Вам ребята было весело?"
+    player_name "You guys having fun?"
     show player 1f
     show ross 11
-    ross "Мы оторвались!"
-    ross "Я думаю что ты получил {b}художественный альбом{/b}?"
+    ross "We're having a blast!"
+    ross "I assume you got the {b}Art Pad{/b}?"
     show ross 10
     show player 598f with dissolve
-    player_name "Ага, Я взял его вот он здесь."
+    player_name "Yup, I got it right here."
     show player 596f
     show ross 11 with dissolve
-    ross "Хорошая работа, {b}[firstname]{/b}!"
-    ross "Итак мы должны начать."
-    ross "Я хочу, чтобы вы оба сели друг напротив друга."
+    ross "Good work, {b}[firstname]{/b}!"
+    ross "We should get started now."
+    ross "I want both of you to take a seat opposite one another."
     show ross 58 with dissolve
-    ross "... Потому что сегодня вы будете рисовать портреты друг друга используя карандаш и бумагу."
+    ross "... Because today you're going to be drawing portaits of each other using pencil and paper."
     show player 598f
     show ross 10 with dissolve
-    player_name "Значит вы хотите что бы я нарисовал {b}Мию{/b}?"
+    player_name "So you want me to draw {b}Mia{/b}?"
     show player 596f
     show ross 11
-    ross "Вот именно и {b}Мия{/b}, Я хочу чтобы ты нарисовала {b}[firstname]{/b}."
+    ross "That's right and {b}Mia{/b}, I want you to draw {b}[firstname]{/b}."
     show ross 10
     show mia 12b
-    mia "Я попробую..."
+    mia "I'll try..."
     show ross 13
     show mia 8b
-    ross "Ты слишком восхитительна, не правда ли?"
+    ross "You're just too adorable aren't you?"
     show ross 12
     show mia 55 at Position(xpos=0.635, ypos=1.0) with dissolve
-    ross "Не волнуйся, нет такого понятия, как плохое искусство!"
+    ross "Don't worry, there's no such thing as bad art!"
     show mia 56
-    mia "... Если вы так говорите."
+    mia "... If you say so."
     show mia 55
     show ross 11
-    ross "Итак, давайте начинать."
+    ross "Now let's get started."
 
 
     scene location_school_art_cutscene06
     with fade
-    show text "Мне всегда нравилось искусство, но рисование живой модели было совершенно другим опытом..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I always did enjoy art but drawing a live model was a totally different experience..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... Я рад что {b}Мисс Росс{/b} выбрала {b}Мию{/b} как моего напарника для этого." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... I'm glad {b}Miss Ross{/b} had chosen {b}Mia{/b} as my partner for this." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Она на самом деле милашка!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "She really was cute!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -303,87 +303,87 @@ label button_ross_found_art_pad:
     show mia 8b at right
     show ross 11f zorder 0 at Position(xpos=0.535, ypos=1.0)
     with dissolve
-    ross "Вы оба, отлично поработали!"
-    ross "Это такой красивый рисунок, {b}[firstname]{/b}!"
+    ross "Well done, both of you!"
+    ross "It's such a beautiful drawing, {b}[firstname]{/b}!"
 
     show ross 28f at Position(xpos=0.435, ypos=1.0) with dissolve
-    ross "Я чувствую что у нас хорошие шансы в этом конкурсе..."
-    ross "Ты должен показать {b}Мие{/b}."
+    ross "I'm feeling very good about our chances in this art contest..."
+    ross "You should show {b}Mia{/b}."
     show ross 12 at Position(xpos=0.35, ypos=1.0)
     show player 560
     with dissolve
 
     pause
     show mia 69
-    mia "*В ужасе*"
+    mia "*gasp*"
     show mia 10
-    mia "Вау Это так здорово!"
+    mia "Wow! It's so good!"
     show mia 7
     show ross 11
-    ross "Разве нет!?"
+    ross "Isn't it!?"
     show ross 13
-    ross "Это почти так же красиво, как и в реальной жизни!"
+    ross "It's almost as beautiful as the real thing!"
     show ross 13c
-    ross "Ты не думаешь, {b}[firstname]{/b}?"
+    ross "Don't you think, {b}[firstname]{/b}?"
     show player 561
     show ross 12b
-    player_name "Д-да, практически..."
+    player_name "Y-yeah, almost..."
 
     show player 560
     show ross 12
     show mia 56 with dissolve
-    mia "Ой, спасибо {b}[firstname]{/b}."
+    mia "Aww, thanks {b}[firstname]{/b}."
     show mia 55
     show ross 13
-    ross "Ладно, тогда, давай посмотрим, как ты справилась {b}Мия{/b}?"
+    ross "Alright then, let's see how you did {b}Mia{/b}?"
     show mia 59b with dissolve
-    mia "Mмм, нет. Всё в порядке.Я бы не хотела."
+    mia "Mmm, no. That's okay. I'd rather not."
     show ross 11
     show mia 59d
-    ross "О, Чепуха! Только не строй из себя недотрогу!"
-    ross "Запомни, нет такого понятия, как плохое искусство..."
+    ross "Oh, pish posh! Don't play so hard to get!"
+    ross "Remember, there's no such thing as bad art..."
     show ross 10
     show mia 59e
-    mia "... Хорошо."
+    mia "... Okay."
     show mia 59c
     show ross 24
 
     ross "..."
     show mia 59
-    mia "Я говорила вам, Я не очень хорошо..."
+    mia "I told you, I'm not very good..."
     show mia 59c
     show ross 25
-    ross "Ну нет, это -- интересно..."
+    ross "Well no, it's -- Interesting..."
     show ross 11
-    ross "Есть определенно простор для совершенствования."
+    ross "There's definitely room for improvement."
     show player 561
     show ross 10
-    player_name "Мне нравится, {b}Мия{/b}!"
+    player_name "I like it, {b}Mia{/b}!"
     show player 560
     show mia 57
-    mia "Тебе?"
+    mia "You do?"
     show player 561
     show mia 58
-    player_name "Да, это правда мило!"
+    player_name "Yeah, it's really cute!"
 
     show player 560
     show ross 11
-    ross "Теперь смотри, {b}Мия{/b}. {b}[firstname]{/b} это нравится!"
+    ross "There, now see, {b}Mia{/b}. {b}[firstname]{/b} likes it!"
     show ross 10
     mia "..."
     show ross 11
-    ross "Чтож, я думаю что нам лучше назвать его на сегоднешний день."
-    ross "Мы с вами добились очень хорошего прогресса!"
+    ross "Well, I think we had better call it there for today."
+    ross "We made some really good progress, you two!"
     show ross 58 at Position(xpos=0.41, ypos=1.0) with dissolve
-    ross "Убедитесь, что бы вы оба много отдыхали и не забывайте делать те медитации, которым я вас учила!"
+    ross "Make sure you both get lots of rest and don't forget to do those meditations I taught you!"
     show ross 10 at Position(xpos=0.35, ypos=1.0) with dissolve
     show player 2
     with dissolve
-    player_name "Ладно, я постараюсь, {b}Мисс Росс{/b}."
-    player_name "Увидимся, {b}Мия{/b}!"
+    player_name "Alright, I'll try, {b}Miss Ross{/b}."
+    player_name "See ya, {b}Mia{/b}!"
     show player 1
     show mia 56 with dissolve
-    mia "Пока, {b}[firstname]{/b}."
+    mia "Bye, {b}[firstname]{/b}."
     return
 
 label button_ross_collage:
@@ -391,119 +391,119 @@ label button_ross_collage:
     show player 2f zorder 1 at right
     show mia 2f zorder 0 at Position(xpos=0.55, ypos=1.0)
     with dissolve
-    player_name "Ты готова к следующему занятию с {b}Мисс Росс{/b}?"
+    player_name "You ready for another session with {b}Miss Ross{/b}?"
     show player 1f
     show mia 6f
-    mia "Да, наверное..."
+    mia "Yeah, I guess..."
     show player 10f
     show mia 2f
-    player_name "Кажется, ты не в восторге от этого.."
-    player_name "Я думал, что ты любишь искусство?"
+    player_name "You don't seem very excited about it."
+    player_name "I thought you loved art?"
     show player 11f
     show mia 6f
-    mia "Я люблю искусство."
-    mia "... И мне очень нравится смотреть как работают ты и {b}Мисс Росс{/b}."
+    mia "I do love art."
+    mia "... And I really like watching you and {b}Miss Ross{/b} work."
     show mia 6bf
-    mia "Это просто..."
+    mia "It's just..."
     show mia 6f
-    mia "{b}Мисс Росс{/b} заставляет меня чувствовать себя немного неловко."
+    mia "{b}Miss Ross{/b} makes me feel a little self-conscious."
     show player 10f
     show mia 2f
-    player_name "Она?"
+    player_name "She does?"
     show player 11f
     show mia 6f
-    mia "Она очень прямолинейна со мной, ты не думаешь?"
+    mia "She's being very forward with me, don't you think?"
     show player 2f
     show mia 2f
-    player_name "Да, но она такая же со всеми."
+    player_name "Yeah but she's like that with everyone."
     show player 1f
     show mia 6f
-    mia "Она?"
-    mia "Я не знаю, она прожила такую насыщенную жизнь и у нее много опыта..."
+    mia "Is she?"
+    mia "I dunno, she's lived such an adventurous life and she's so full of experience..."
     show mia 6bf
-    mia "Она заставляет меня чувствовать себя скучной."
+    mia "She makes me feel so boring."
     show player 2f
     show mia 2f
-    player_name "Я не думаю что ты скучная, {b}Мия{/b}."
+    player_name "I don't think you're boring, {b}Mia{/b}."
     show player 1f
     show mia 4f
-    mia "Ты нет?"
+    mia "You don't?"
     show mia 1f
     show player 2f
-    player_name "Вовсе нет."
-    player_name "Я думаю, что тебе просто нужно расслабиться и быть обьективной."
-    player_name "Готов поспорить {b}Мисс Росс{/b} может научить нас многим классным вещам!"
+    player_name "Not at all."
+    player_name "I think you just need to relax and keep an open mind."
+    player_name "I betcha {b}Miss Ross{/b} can teach us a lot of cool stuff!"
     show mia 5f
     show player 1f
     mia "..."
     show mia 3f
-    mia "Да, может быть ты прав, {b}[firstname]{/b}!"
+    mia "Yeah, maybe you're right, {b}[firstname]{/b}!"
     show mia 4f
-    mia "Я мог-"
+    mia "I coul-"
     show mia 1f
     show player 11f
     show ross 11 at left with dissolve
 
-    ross "Вот мои любимые ученики!"
+    ross "There's my favorite students!"
     show mia 8b at Position(xpos=0.65, ypos=1.0) with dissolve
-    ross "О чем вы, голубки, говорите??"
+    ross "What are you two love-birds talking about?"
     show mia 55 at Position(xpos=0.635, ypos=1.0) with dissolve
     show player 10f
-    player_name "Голубки?"
+    player_name "Love-birds?"
     show mia 56
     show player 11f
-    mia "Нам было просто интересно,что будет на сегоднешнем занятии?"
+    mia "We were just wondering what todays session would be about?"
     show mia 55
     show ross 13
-    ross "Сразу к делу, хм?"
-    ross "Ты маленькая хлопушка, Я люблю это!"
+    ross "Straight to business, huh?"
+    ross "You little firecracker, I love it!"
     show ross 12
     mia "..."
     show ross 58 with dissolve
-    ross "Сегодня каждый из вас сделает коллаж!"
+    ross "Today you're each going to make a collage!"
     show ross 10 with dissolve
     show mia 12b at Position(xpos=0.65, ypos=1.0) with dissolve
-    mia "Коллаж? Я даже не знаю, что это значит..."
+    mia "Collage? I don't even know what that means..."
     show mia 8b
     show ross 27 with dissolve
-    ross "Ох, они намного веселее!Тебе должно понравится {b}Мия{/b}!"
-    ross "Мы собираемся вырезать картинки из журналов и клеить их вместе, чтобы сделать искусство."
+    ross "Oh, they are so much fun! You're going to love them {b}Mia{/b}!"
+    ross "We're going to cut pictures out of magazines and glue them together to make art."
     show ross 26
     show player 2f
     show mia 7
-    player_name "По-моему, будет интересно."
+    player_name "Sounds like fun to me."
     show player 1f
     show mia 10
-    mia "Да, так и есть."
+    mia "Yeah, it really does."
     show mia 7
     show ross 11 with dissolve
-    ross "Хорошо, ну у меня есть почти все, что нам нужно. Нам только не хватает {b}резинового клея{/b} и {b}большой стопки журналов{/b}."
-    ross "Почему бы вам двоим не пойти и не найти нам немного?"
+    ross "Alright, well I've got just about everything we need right here. We're just missing {b}rubber cement{/b} and {b}a big stack of magazines.{/b}"
+    ross "Why don't you two go find us some?"
     show ross 10
     show player 2f
-    player_name "Мы сможем это сделать, правда {b}Мия{/b}?"
+    player_name "We can do that, right {b}Mia{/b}?"
     show player 1f
     show mia 10b
-    mia "Абсолютно. В действительности, я думаю что у моего {b}Папа{/b} есть немного резинового клея дома."
+    mia "Absolutely. In fact, I think my {b}Dad{/b} has some rubber cement at home."
     show mia 10
-    mia "Я пойду возьму его!"
+    mia "I'll go get it!"
     hide mia with dissolve
 
     show ross 11
-    ross "... И она ушла!"
-    ross "Я полагаю, это значит, что ты отвечаешь за поиск {b}журналов, [firstname]{/b}."
-    ross "Если ты сможешь найти {b}три большие стопки журналов{/b}, думаю, этого должно быть достаточно."
+    ross "... And away she goes!"
+    ross "I guess that means you're in charge of finding the {b}magazines, [firstname]{/b}."
+    ross "If you can find {b}three BIG stacks of magazines{/b}, I think that should be enough."
     show player 2f
     show ross 10
-    player_name "Есть идеи где я могу найти несколько?"
+    player_name "Any idea where I could find some?"
     show player 1f
     show ross 10b with dissolve
-    ross "Хмм..."
+    ross "Hmm..."
     show ross 11
-    ross "... Я бы начала с {b}Библиотеки{/b}.У них должен быть огромный выбор на выбор!"
+    ross "... I'd start at the {b}Library{/b}. They should have a huge selection to choose from!"
     show player 2f
     show ross 10
-    player_name "Отлично, Я пойду это проверю."
+    player_name "Alright, I'll go check it out."
     return
 
 label button_ross_find_magazines:
@@ -511,27 +511,27 @@ label button_ross_find_magazines:
     show player 2f zorder 1 at right
     show ross 10 at left
     with dissolve
-    player_name "Где вы сказали, я должен их искать ещё раз?"
+    player_name "Where did you say I should look again?"
     show player 1f
     show ross 11
-    ross "{b}Журналы{/b}?"
-    ross "Попробуй в {b}Библиотеке{/b}."
-    ross "И посмотри,если сможешь ли ты найти {b}три большие стопки журналов{/b}, ладно?"
+    ross "For the {b}magazines{/b}?"
+    ross "Try the {b}Library{/b}."
+    ross "And see if you can find {b}three BIG stacks of magazines{/b}, alright?"
     if M_ross.get("talked with jane"):
         hide ross with dissolve
         show player 10 with dissolve
-        player_name "{b}*Вздох*{/b}"
-        player_name "В Библиотеке нет никаких журналов."
+        player_name "{b}*Sigh*{/b}"
+        player_name "The library doesn't have any magazines though."
         if M_ross.get("magazines remaining") == 3:
-            player_name "И мне все еще нужно найти еще 3 журнала."
+            player_name "And I still need to find 3 more magazines."
         elif M_ross.get("magazines remaining") == 2:
-            player_name "И мне все еще нужно найти еще 2 журнала."
+            player_name "And I still need to find 2 more magazines."
         elif M_ross.get("magazines remaining") == 1:
-            player_name "И мне все еще нужно найти еще 1 журнал."
-        player_name "Я думаю я должен {b}осмотреться здесь в школе.{/b}"
+            player_name "And I still need to find 1 more magazine."
+        player_name "I guess I should {b}look around here at school.{/b}"
     else:
         show ross 10
         show player 2f
-        player_name "{b}Библиотека{/b}, понятно!"
+        player_name "{b}Library{/b}, got it!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

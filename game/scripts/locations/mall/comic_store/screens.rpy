@@ -4,8 +4,8 @@ screen comic_store:
     imagebutton:
         focus_mask True
         pos (675,318)
-        idle "objects/character_tatiana_01.png"
-        hover HoverImage("objects/character_tatiana_01.png")
+        idle "objects/character_lilly_01.png"
+        hover HoverImage("objects/character_lilly_01.png")
         action Hide("comic_store"), Jump("tatiana_dialogue")
 
     imagebutton:

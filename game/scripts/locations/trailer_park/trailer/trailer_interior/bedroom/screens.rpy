@@ -40,7 +40,7 @@ screen roxxy_bed_sex_options:
                 pos (250,735)
                 idle "buttons/speed_02.png"
                 hover HoverImage("buttons/speed_02.png")
-                action Hide("roxxy_bed_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") + 0.05), Jump("button_roxxy_trailer_bed_sex_loop")
+                action Hide("roxxy_bed_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") + 0.03), Jump("button_roxxy_trailer_bed_sex_loop")
 
         if M_roxxy.get("sex speed") > .031:
             imagebutton:
@@ -48,5 +48,5 @@ screen roxxy_bed_sex_options:
                 pos (450,735)
                 idle "buttons/speed_01.png"
                 hover HoverImage("buttons/speed_01.png")
-                action Hide("roxxy_bed_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") - 0.05), Jump("button_roxxy_trailer_bed_sex_loop")
+                action Hide("roxxy_bed_sex_options"), Function(M_roxxy.set, "sex speed", M_roxxy.get("sex speed") - 0.03), Jump("button_roxxy_trailer_bed_sex_loop")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

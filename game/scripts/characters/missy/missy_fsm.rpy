@@ -1,7 +1,7 @@
 label missy_triggers_init:
     python:
 
-        T_missy_beach_sex = Trigger("beach sex", "Главный герой только что переспал с Мисси на пляже.")
+        T_missy_beach_sex = Trigger("beach sex", "MC just had sex with Missy on the beach.")
     return
 
 label missy_fsm_init:

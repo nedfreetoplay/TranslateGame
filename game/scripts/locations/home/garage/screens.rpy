@@ -22,13 +22,13 @@ screen garage:
         hover HoverImage("boxes/auto_option_08.png")
         action Hide("garage"), Jump("home_front")
 
-    if not player.has_picked_up_item("shovel"):
+    if not player.has_picked_up_item("shovel") and M_diane.is_state(S_diane_need_shovel):
         imagebutton:
             focus_mask True
             pos (30,250)
             idle game.timer.image("objects/object_shovel_01{}.png")
             hover HoverImage(game.timer.image("objects/object_shovel_01{}.png"))
-            action Function(player.get_item, "shovel"), Show("popup", Image = "boxes/popup_item_shovel1.png")
+            action Hide("garage"), Jump("home_garage_pick_up_shovel")
 
     if not player.has_picked_up_item("stool"):
         imagebutton:

@@ -1,27 +1,38 @@
 label sis_bedroom_sis_not_in_room:
     scene jennybedroom
     show player 34 at left with dissolve
-    player_name "( Хммм... )"
+    player_name "( Hmmm... )"
     show player 35 at left
-    player_name "( Она не у себя в комнате... )"
+    player_name "( She's not in her room... )"
     show player 18 at left
-    player_name "( Может, я могу пока тут осмотреться! )"
+    player_name "( Maybe I can look around a bit! )"
     hide player 18 at left with dissolve
+    return
+
+label sis_bedroom_sis_in_room:
+    scene jennybedroom
+    show player 22 at left
+    show jenny 7b at right
+    with dissolve
+    jen "What the {b}FUCK{/b} are you doing in here?!!" with hpunch
+    show jenny 9c
+    show player 5
+    jen "Get out of my room, you pervert!"
     return
 
 label sis_bedroom_sis_sleeping:
     scene jennybedroom_clear
-    player_name "( {b}[jen_name]{/b} спит. )"
-    player_name "( Я должен вести себя очень тихо, или она меня заметит... )"
-    player_name "( ...Если она проснется - я труп! )"
+    player_name "( {b}[jen_name]{/b}'s sleeping. )"
+    player_name "( I have to be real quiet or she might hear me... )"
+    player_name "( ...Don't want to wake her up, or I'm dead! )"
     return
 
 label sis_bedroom_sis_hallway_2_started:
     scene jennybedroom_closeup
     show jenny 22 at right
     show player 11 at left with dissolve
-    jen "Да отстань от меня уже! Почему ты не попросишь трусики у {b}[deb_name]{/b}, извращенец!"
-    jen "У неё в {b}ящичке{/b} их огромное количество, а иногда она просто разбрасывает одежду {b}в её комнате{/b}!!"
+    jen "Leave me alone, already! Why don't you just pester {b}[deb_name]{/b} for some of her panties, pervert!"
+    jen "She has so many in {b}her drawer{/b}, and leaves her clothes scattered throughout {b}her room{/b}!!"
     return
 
 label sis_bedroom_sis_caught_stealing_panties:
@@ -29,112 +40,112 @@ label sis_bedroom_sis_caught_stealing_panties:
     show player 22 at left
     show jenny 7b at right
     with dissolve
-    jen "Какого {b}хуя{/b} ты тут забыл?!!" with hpunch
+    jen "What the {b}FUCK{/b} are you doing in here?!!" with hpunch
     show jenny 8b at right
     show player 23 at left
-    player_name "Это не то, что ты-"
+    player_name "It's not what you-"
     show player 22
     show jenny 7b
-    jen "Ты рылся в моих вещах?!"
+    jen "Were you going through my things?!"
     show jenny 8b
     show player 23
-    player_name "Да подожди же!"
+    player_name "Wait!"
     show jenny 7b
     show player 22
-    jen "Или даже пытался что-то {b}украсть{/b}??"
+    jen "Are you trying to {b}steal{/b} my stuff??"
     show player 23
     show jenny 8b
-    player_name "Дай мне всё объяснить!!"
+    player_name "Let me explain!!"
     show player 22
     show jenny 9c at Position(xpos=937)
-    jen "Ох, лучше бы тебе имет {b}действительно{/b} хорошее, блять, объяснение!"
-    jen "Если ты не хочешь, чтобы {b}[deb_name]{/b} узнала о том, что ты воруешь мои вещи."
+    jen "Oh, you better have a {b}really{/b} good fucking explanation!"
+    jen "Unless you want {b}[deb_name]{/b} to know about you stealing from me."
     show player 23
     show jenny 6b
-    player_name "Да нет же!"
+    player_name "No!"
     show player 10
     show jenny 10b
-    player_name "То есть... Всё не совсем так..."
-    player_name "Ладно, слушай, мне очень нужно оказать кое-кому одну услугу."
-    player_name "И эта услуга... короче, я должен принести ему {b}трусики{/b}..."
+    player_name "Well... It's not like that..."
+    player_name "Okay, look, I desperately need to do someone a favor."
+    player_name "And that favor is... to get them a pair of {b}panties{/b}..."
     show player 5
     show jenny 9c
-    jen "Что за хуйня?!"
+    jen "What the fuck?!"
     show jenny 10b
     show player 21
-    player_name "Я понимаю, это звучит немного странно..."
+    player_name "I know, It sounds a little weird..."
     show jenny 7b at right
     show player 11
     with hpunch
-    jen "{b}НЕМНОГО{/b}?!"
-    jen "С какими же извращенцами ты общаешься!"
+    jen "A {b}LITTLE{/b}?!"
+    jen "What kind of sick perverted people have you been hanging around?"
     show jenny 9c at Position(xpos=937)
-    jen "Только не говори мне, что этот урод - {b}Erik{/b}."
+    jen "Please, don't tell me it's that {b}Erik{/b} creep."
     show player 12
     show jenny 10b
-    player_name "Конечно нет!"
+    player_name "Of course not!"
     show player 10
-    player_name "Слушай, {b}[jen_name]{/b}! Они мне очень нужны!"
+    player_name "Listen, {b}[jen_name]{/b}! I really need this!"
     show jenny 11b
-    player_name "Я дам тебе всё, что ты хочешь!"
+    player_name "I'll give you whatever you want for them!"
     show player 5
-    jen "Хмм..."
+    jen "Hmmm..."
     show jenny 12b
     show player 11
-    jen "Ладно! Если они так сильно тебе нужны - ты можешь {b}купить их{/b}у меня."
+    jen "Alright! If you need them so badly, I'll let you {b}buy{/b} them off of me."
     show jenny 11b
     show player 10
-    player_name "Что?"
+    player_name "What?"
     show jenny 12b
     show player 11
-    jen "Ага."
-    jen "Я знаю, что ты подрабатываешь в последнее время."
+    jen "That's right."
+    jen "I know you've been working for someone lately."
     show jenny 11b
     show player 10
-    player_name "{b}Diane{/b} сказала тебе?"
+    player_name "{b}Diane{/b}?"
     show player 11
     show jenny 9c
-    jen "Какая разница..."
+    jen "Whatever..."
     show jenny 12b
-    jen "У тебя должно быть при себе {b}немного{/b} денег!"
+    jen "You must have {b}some{/b} cash on you!"
     show jenny 11b
     show player 10
-    player_name "Но-"
+    player_name "But-"
     show jenny 9c
     show player 11
-    jen "{b}ПОСЛУШАЙ МЕНЯ{/b}! Я {b}не{/b} собираюсь просто так швырять тебе свое белье, понятно?!"
-    jen "Мне нужно покупать что-то новое, так что твой {b}единственный{/b} вариант..."
+    jen "{b}LOOK{/b}! I'm {b}not{/b} going to just throw away all my underwear, okay?!"
+    jen "I'll need to buy new ones, so the {b}only{/b} way you're getting any of mine..."
     show jenny 12b
     show player 5
-    jen "... это {b}деньги{/b}."
+    jen "... is with {b}money{/b}."
     show jenny 18b at right
     show player 10
-    player_name "Как много ты хочешь?"
+    player_name "How much do you want?"
     show jenny 19b
     show player 11
-    jen "{b}$100{/b} покроют всё это."
+    jen "{b}$100{/b} should cover it."
     show jenny 18b
     show player 29
-    player_name "Это большая сумма..."
+    player_name "That's a lot of money..."
     show jenny 9c at Position(xpos=937)
     show player 11 at left
-    jen "Ну? Берешь их или нет?!"
+    jen "So? You taking them or not?!"
     show jenny 6b
     return
 
 label sis_bedroom_sis_caught_stealing_panties_buy_panties:
     show player 12 at left
     show jenny 18b at right
-    player_name "Окей! Я беру!"
+    player_name "Okay! Fine!"
     play audio coins2
     show player 41 at Position (xpos=38) with fastdissolve
     pause
     show jenny 80b at Position(xpos=945)
     show player 1 at left
-    jen "Вот и отлично, забирай..." with fastdissolve
+    jen "Alright, you can keep them..." with fastdissolve
     show jenny 81b
     show player 11
-    jen "А теперь вали из моей комнаты, извращенец!"
+    jen "Now, get out of my room, pervert!"
     show jenny 14b
     show unlock17 at truecenter
     pause
@@ -144,63 +155,63 @@ label sis_bedroom_sis_caught_stealing_panties_buy_panties:
 label sis_bedroom_sis_caught_stealing_panties_do_not_buy_panties:
     show jenny 10b at Position(xpos=937)
     show player 35 at left
-    player_name "Вообще-то, сейчас они мне не нужны..."
+    player_name "Actually, I don't need any right now..."
     show jenny 9c
     show player 39 at Position (xpos=38)
-    jen "Тогда давай их сюда и вали из моей комнаты, извращенец!"
+    jen "Then give them back, and get out of my room, you pervert!"
     return
 
 label sis_bedroom_sis_caught_stealing_panties_cant_buy_panties:
     show player 24 at left
     show jenny 10b at Position(xpos=937)
-    player_name "У меня сейчас столько нет..."
+    player_name "I don't have that much money on me..."
     show jenny 9c
     show player 5
-    jen "Тебе же хуже. А теперь пошел вон отсюда, извращенец!"
+    jen "Too bad. Get out of my room, you pervert!"
     return
 
 label sis_bedroom_sis_diary_locked:
     scene jennybedroom_closeup
     show jenny 20 at right
     show player 24 at left with dissolve
-    jen "Ну и ну."
-    jen "И что же нужно этому маленькому извращенцу в этот раз?"
-    jen "Может быть, ещё трусики?"
+    jen "Well, well."
+    jen "What does the little pervert want, this time?"
+    jen "More panties? Perhaps?"
     return
 
 label sis_bedroom_sis_diary_locked_more_panties:
     show jenny 21
     show player 111f
-    player_name "Да, вообще-то, мне нужны ещё трусики."
+    player_name "Yeah, more panties, actually."
     show player 106
     show jenny 22
-    jen "Зайдешь попозже..."
+    jen "Just come back later..."
     show jenny 23
     show player 108f
-    player_name "Но-"
+    player_name "But-"
     show jenny 22
     show player 109f
-    jen "Я сейчас немного занята, не видишь??"
+    jen "I'm busy right now, can't you see??"
     show jenny 23
     show player 108f
-    player_name "Ладно..."
+    player_name "Alright..."
     show jenny 22
     show player 109f
-    jen "И дверь закрой!"
+    jen "And close the door on the way out!"
     show jenny 20
     show player 106
-    jen "Не хочу, чтобы какой-то извращенец подглядывал за мной."
+    jen "I wouldn't want a pervert spying on me."
     show jenny 21
     show player 109f
     player_name "..."
     show player 108f
-    player_name "Ладно..."
+    player_name "Okay..."
     return
 
 label sis_bedroom_sis_mom_needs_you:
     call expression game.dialog_select("sis_bedroom_sis_mom_needs_you_pre")
     menu:
-        "Ей нужна помощь.":
+        "She needs help.":
             call expression game.dialog_select("sis_bedroom_sis_mom_needs_you_help")
     return
 
@@ -209,41 +220,41 @@ label sis_bedroom_sis_mom_needs_you_pre:
     show jenny 21 zorder 0 at right
     show player 108f zorder 1 at left
     with dissolve
-    player_name "Эм, Вообщете {b}[deb_name]{/b} нужно..."
+    player_name "Umm... Actually, {b}[deb_name]{/b} needs to..."
     show player 111f
-    player_name "...С тобой кое о чем поговорить!"
+    player_name "...Talk to you about something!"
     show jenny 22
     show player 106
-    jen "О чем же?"
+    jen "What about?"
     return
 
 label sis_bedroom_sis_mom_needs_you_help:
     show jenny 23
     show player 111f
-    player_name "Ей нужна твоя помощь..."
+    player_name "She needs help with something downstairs..."
     show player 110f
     jen "..."
     show jenny 22
     show player 106
-    jen "И с чем же ей нужна помощь?"
+    jen "What does she need help with anyway?"
     show player 108f
     show jenny 23
-    player_name "Я не уверен."
-    player_name "Она просто... Попросила сказать тебе об этом!"
+    player_name "I'm not sure."
+    player_name "She just... asked me to tell you!"
     show jenny 22
     show player 109f
-    jen "Угх!"
+    jen "Ugh!"
     show jenny 24
-    jen "Ладно, сейчас спущусь..."
+    jen "Fine. I'm going..."
     show jennybed zorder 1 at right
     show player 5 zorder 2
     show jenny 9 zorder 2
-    jen "Только не трогай тут ничего, и вообще прочь из комнаты..."
+    jen "Just don't touch anything, and leave my room..."
     hide jenny 9 with fade
     show player 106
     player_name "..."
     show player 113
-    player_name "Окей..."
+    player_name "Okay..."
     hide player
     hide jennybed
     return
@@ -252,66 +263,66 @@ label sis_bedroom_sis_final_started:
     scene jenny_webcam2
     show jenny 151 at Position(xpos=407,ypos=748)
     with fade
-    jen "Хей, парни!"
+    jen "Heyyy, guys!"
     show jenny 155
-    jen "Я так рада, что вы наслаждаетесь моим шоу."
+    jen "I'm so glad you've been enjoying my new cam shows."
     show jenny 151
-    jen "Новые игрушки так популярны, я получила кучу новых подписчиков!"
+    jen "My new toys have been so popular, I've been getting tons of new subscribers!"
     show jenny 150
     jen "..."
     show jenny 152
-    jen "Что?! Думаете, я могу ещё лучше? Но как?!"
-    jen "Ролевые игры?"
+    jen "What?! You guys think I could do better? But, how?!"
+    jen "Role play?"
     show jenny 154
-    jen "Вы имеете ввиду всякие костюмы?"
+    jen "You mean like... outfits and costumes?"
     show jenny 152
-    jen "Но тогда какая тема?"
-    jen "Чирлидерши и связывание?!"
+    jen "But what kind of theme, though?"
+    jen "Cheerleaders and bondage?!"
     show jenny 154
-    jen "Это немного, специфично... Но, видно это сейчас популярно."
+    jen "It's kind of specific... but I guess that's what's popular right now."
     show jenny 153
-    jen "Хмм..."
+    jen "Hmm..."
     show jenny 151
-    jen "А что ещё заставит вас донатить?"
+    jen "What else would make you guys... open up your wallets?"
     show jenny 152
-    jen "Больше хардкора? В сексе?"
-    jen "Без презерватива?!"
+    jen "More hardcore? You guys mean sex?"
+    jen "And raw too?!"
     show jenny 154
-    jen "Ну, наверное, это будет выглядет более натурально..."
+    jen "I guess it does look more natural..."
     show jenny 152
-    jen "Ну, вам парни не повезло. У меня сейчас нет парня."
+    jen "Well, you guys are out of luck. I don't have a boyfriend."
     show jenny 151
-    jen "К сожалению, всё что у меня есть - это мои игрушки! Хаха!"
+    jen "Unfortunately, all I have right now are my toys! Haha!"
     show jenny 150
     jen "..."
     show jenny 152
-    jen "Думаете, что с этим я смогу удвоить свой доход?"
+    jen "You guys really think I could double my income with this kind of stuff?"
     show jenny 153
-    jen "Хмм..."
+    jen "Hmm..."
     show jenny 155
-    jen "Ладно! Спасибо за ваши предложения, парни!!"
+    jen "All right! Thanks for the suggestions, guys!!"
     show jenny 159 at left
     show jenny 159 at Position(ypos=748)
-    jen "Посмотрю, что можно сделать..."
+    jen "I'll see what i can do..."
     show jenny 160 at Position(ypos=771) with fastdissolve
 
-    jen "Черт... Они хотят увидеть настоящий секс."
-    jen "Не думаю, что кто-то из моих бывших согласится. Да и они такие мудаки."
-    jen "Хотя, всегда есть {b}[firstname]{/b}."
-    jen "Угх... Не знаю, хорошая ли это идея."
-    jen "Немого стремно думать о таком, но у него вроде неплохой член."
-    jen "Он, наверное, даже сделает это бесплатно. Мелкий извращенец."
-    jen "А если я ему что-нибудь пообещаю, он ещё и достанет мне костюмы!"
-    jen "Боже, как же заманчиво! За это зрелище они готовы отвалить кучу денег."
-    jen "Я должна это обдумать..."
+    jen "Shit... They want to see actual sex, now."
+    jen "I don't know if any of my ex-boyfriends would want to do this. They're all jerks, regardless."
+    jen "Though, there's always {b}[firstname]{/b}."
+    jen "Ugh... I don't know if that's a good idea."
+    jen "It's kind of gross thinking about it, but he does have a nice cock, I suppose."
+    jen "I bet he'd even do it for free, the little pervert."
+    jen "If I promise him something good, he might get me all my costumes too!"
+    jen "It's so tempting! They'd pay a lot of money to see that stuff."
+    jen "I'll have to think this over..."
     scene hallway
     show player 11
     with fade
     player_name "..."
     show player 35
-    player_name "( Неужели она зайдет так далеко, чтобы удовлетворить своих подписчиков... )"
+    player_name "( I can't believe she's going this far, just to please her subscribers... )"
     show player 4 at Position(xpos=518)
-    player_name "( Наверное, ей нравится получать столько внимания... И денег. )"
+    player_name "( She must love the attention she's getting... and the money. )"
     hide player with dissolve
     return
 
@@ -331,12 +342,12 @@ label sneak_in_sis_bed:
     elif not store._in_replay == None:
         jump expression game.dialog_select("sis_bed_replay_cont")
     menu:
-        "Уйти.":
+        "Leave.":
             call expression game.dialog_select("sneak_in_sis_bed_pre_leave")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Прижаться." if sister.known(sis_shower_cuddle01) and not sister.known(sis_shower_cuddle02):
-            $ sis_shower_cuddle01.finish()
+        "Cuddle." if M_jenny.finished_state(S_jenny_somrak_panty_trade) and not M_jenny.finished_state(S_jenny_titty_deal):
+            $ M_jenny.trigger(T_jenny_peep_cuddle)
             label sis_bed_replay_fail:
                 call expression game.dialog_select("sneak_in_sis_bed_cuddle_fail")
             $ renpy.end_replay()
@@ -344,8 +355,8 @@ label sneak_in_sis_bed:
             $ persistent.cookie_jar["Jenny"]["gallery"]["07_unlocked"] = True
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Прижаться" if sister.known(sis_shower_cuddle02):
-            $ sis_shower_cuddle02.finish()
+        "Cuddle." if M_jenny.finished_state(S_jenny_titty_deal):
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
             label sis_bed_replay_cont:
                 call expression game.dialog_select("sneak_in_sis_bed_cuddle_pass")
 
@@ -355,11 +366,11 @@ label sneak_in_sis_bed:
             elif not store._in_replay == None:
                 jump expression game.dialog_select("sis_bed_replay_cont_2")
     menu:
-        "Уйти.":
+        "Leave.":
             call expression game.dialog_select("sneak_in_sis_bed_cuddle_leave")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Сжать груди." if not sister.known(sis_shower_cuddle03):
+        "Squeeze boobs." if not M_jenny.finished_state(S_jenny_hallway_meetup_focus):
             label sis_bed_replay_fail_2:
                 call expression game.dialog_select("sneak_in_sis_bed_squeeze_boobs_fail")
             $ renpy.end_replay()
@@ -368,10 +379,8 @@ label sneak_in_sis_bed:
             $ persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_2"
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Сжать груди." if sister.known(sis_shower_cuddle03):
-            $ sis_shower_cuddle03.finish()
-            if not sister.known(sis_couch03):
-                $ sister.add_event(sis_couch03)
+        "Squeeze boobs." if M_jenny.finished_state(S_jenny_hallway_meetup_focus):
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
             label sis_bed_replay_cont_2:
                 call expression game.dialog_select("sneak_in_sis_bed_squeeze_boobs_pass")
 
@@ -381,11 +390,11 @@ label sneak_in_sis_bed:
     elif not store._in_replay == None:
         jump expression game.dialog_select("sis_bed_replay_cont_3")
     menu:
-        "Уйти.":
+        "Leave.":
             call expression game.dialog_select("sneak_in_sis_bed_squeeze_boobs_leave")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Потереть киску." if not sister.known(sis_shower_cuddle04):
+        "Rub pussy." if not M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
             label sis_bed_replay_fail_3:
                 call expression game.dialog_select("sneak_in_sis_bed_rub_pussy_fail")
             $ renpy.end_replay()
@@ -394,10 +403,8 @@ label sneak_in_sis_bed:
             $ persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_3"
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Потереть киску." if sister.known(sis_shower_cuddle04):
-            if not sister.known(sis_final):
-                $ sister.add_event(sis_final)
-            $ sis_shower_cuddle04.finish()
+        "Rub pussy." if M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
             label sis_bed_replay_cont_3:
                 call expression game.dialog_select("sneak_in_sis_bed_rub_pussy_pass")
 
@@ -407,11 +414,11 @@ label sneak_in_sis_bed:
     elif not store._in_replay == None:
         jump expression game.dialog_select("sis_bed_replay_cont_4")
     menu:
-        "Уйти.":
+        "Leave.":
             call expression game.dialog_select("sneak_in_sis_bed_rub_pussy_leave")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Вставить внутрь." if not sister.known(sis_shower_cuddle05) or player.stats.dex() < 7:
+        "Put it inside." if not M_jenny.finished_state(S_jenny_cam_show) or player.stats.dex() < 7:
             label sis_bed_replay_fail_4:
                 if player.stats.dex() < 7:
                     $ stat_warn = dex_warn
@@ -426,37 +433,37 @@ label sneak_in_sis_bed:
             $ persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_4"
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Вставить внутрь." if sister.known(sis_shower_cuddle05) and player.stats.dex() >= 7:
-            $ sis_shower_cuddle05.finish()
+        "Put it inside." if M_jenny.finished_state(S_jenny_cam_show) and player.stats.dex() >= 7:
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_5)
             label sis_bed_replay_cont_4:
                 call expression game.dialog_select("sneak_in_sis_bed_sex_stat_pass")
 
     if not store._in_replay == None:
         jump expression game.dialog_select("sis_bed_replay_fuck")
     menu:
-        "Быстроый секс.":
+        "Rabbit fuck.":
             label sis_bed_replay_fuck:
                 call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck")
 
     menu sisbedroom_sex_loop:
-        "Продолжать.":
+        "Keep going.":
             call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck_keep_going")
             jump expression game.dialog_select("sisbedroom_sex_loop")
 
-        "Кончить внуть." if store._in_replay == "sis_bed_replay_5" or store._in_replay == None and player.stats.str() < 7:
+        "Cum inside." if store._in_replay == "sis_bed_replay_5" or store._in_replay == None and player.stats.str() < 7:
             call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_fail")
             $ renpy.end_replay()
             $ persistent.cookie_jar["Jenny"]["unlocked"] = True
             $ persistent.cookie_jar["Jenny"]["gallery"]["07_unlocked"] = True
             $ persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_5"
 
-        "Кончить внутрь." if store._in_replay == "sis_bed_replay_final" or store._in_replay == None and player.stats.str() >= 7:
+        "Cum inside." if store._in_replay == "sis_bed_replay_final" or store._in_replay == None and player.stats.str() >= 7:
             call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_pass")
             $ renpy.end_replay()
             $ persistent.cookie_jar["Jenny"]["unlocked"] = True
             $ persistent.cookie_jar["Jenny"]["gallery"]["07_unlocked"] = True
             $ persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_final"
-        "Вытащить и кончить.":
+        "Cum outside.":
 
             call expression game.dialog_select("sneak_in_sis_bed_rabbit_fuck_cum_outside")
             $ renpy.end_replay()
@@ -470,21 +477,21 @@ label sneak_in_sis_bed_pre:
     scene jennybedroom_bed with None
     show jennysex 46 at right
     with dissolve
-    player_name "( Может если я буду очень аккуратен... )"
-    player_name "( ...Она не заметит... )"
+    player_name "( Maybe if I'm real careful... )"
+    player_name "( ...I can sneak in without her noticing... )"
     show jennysex 47 with dissolve
-    player_name "( Нужно просто медленно залезть к ней под одеяло... )"
+    player_name "( I just have to to slip under the sheets slowly like this... )"
     hide jennysex
     show jennysex 48 zorder 1 at Position(xpos=644)
     show jenny_bedcover zorder 2 at right
     with dissolve
-    player_name "( Ладно, это страшнее, чем я думал... )"
-    player_name "( Но я так хочу её потрогать... )"
-    player_name "( ... может она не заметит легкого прикосновения? )"
+    player_name "( Okay, this is scarier than I expected... )"
+    player_name "( I really want to hold her though... )"
+    player_name "( ... maybe she won't notice just a light touch? )"
     return
 
 label sneak_in_sis_bed_pre_leave:
-    player_name "( С другой стороны, может лучше в другой раз. )"
+    player_name "( On second thought, maybe I should do it some other time. )"
     hide jennysex
     hide jenny_bedcover
     return
@@ -497,37 +504,37 @@ label sneak_in_sis_bed_cuddle_fail:
     show jennysex 52
     jen "{b}[firstname]{/b}?"
     show jennysex 53
-    jen "Какого {b}ХУЯ{/b} ты тут делаешь??!!" with hpunch
+    jen "What the {b}FUCK{/b} are you doing??!!" with hpunch
     show jennysex 91
-    player_name "Не кричи так! Ты разбудишь {b}[deb_name]{/b}..."
+    player_name "Don't yell! You're gonna wake up {b}[deb_name]{/b}..."
     show jennysex 53
-    jen "Думаешь, мне {b}есть до этого дело{/b}??! Да что с тобой не так?!"
+    jen "You think I {b}CARE{/b}??! What's wrong with you?!"
     show jennysex 91
-    player_name "Прости..."
-    player_name "Прости меня!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jennysex 53
-    jen "Заткнись и {b}ПРОВАЛИВАЙ{/b}!!" with hpunch
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     hide jennysex
     hide jenny_bedcover
     return
 
 label sneak_in_sis_bed_cuddle_pass:
     show jennysex 49 at Position(xpos=682) with fastdissolve
-    player_name "( Воу... Её кожа такая мягкая... )"
-    player_name "( ...И она, вроде как, не заметила, что я трогаю её ногу. )"
-    player_name "( Я поглажу её немного... )"
+    player_name "( Woah... Her skin is so soft... )"
+    player_name "( ...And she doesn't seem to notice my hand touching her leg. )"
+    player_name "( I'll caress it just a bit... )"
     show jennysex 84
     pause .4
     show jennysex 49_84 at Position(xpos = 682)
     pause 8
     show jennysex 84
-    player_name "( Если она не заметит, можно будет продвигаться дальше... )"
+    player_name "( If she doesn't notice this, maybe I could go further... )"
     return
 
 label sneak_in_sis_bed_cuddle_leave:
-    player_name "( Я хочу большего... )"
-    player_name "( Но нужно уйти до того, как она меня заметит. )"
-    player_name "( Попробую ещё раз в следующий раз... )"
+    player_name "( I want do more... )"
+    player_name "( But I should probably leave before I wake her up. )"
+    player_name "( I'll try again some other night... )"
     hide jennysex
     hide jenny_bedcover
     return
@@ -542,16 +549,16 @@ label sneak_in_sis_bed_squeeze_boobs_fail:
     show jennysex 52
     jen "{b}[firstname]{/b}?"
     show jennysex 53
-    jen "Какого {b}ХУЯ{/b} ты тут делаешь??!!" with hpunch
+    jen "What the {b}FUCK{/b} are you doing??!!" with hpunch
     show jennysex 91
-    player_name "Не кричи так! Ты разбудишь {b}[deb_name]{/b}..."
+    player_name "Don't yell! You're gonna wake up {b}[deb_name]{/b}..."
     show jennysex 53
-    jen "Думаешь, мне {b}есть до этого дело{/b}??! Да что с тобой не так?!"
+    jen "You think I {b}CARE{/b}??! What's wrong with you?!"
     show jennysex 91
-    player_name "Прости..."
-    player_name "Прости меня!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jennysex 53
-    jen "Заткнись и {b}ПРОВАЛИВАЙ{/b}!!" with hpunch
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     hide jennysex
     hide jenny_bedcover
     return
@@ -561,44 +568,44 @@ label sneak_in_sis_bed_squeeze_boobs_pass:
     pause
     show jennysex 55
     pause
-    player_name "( Вау, а они большие... )"
-    player_name "( Почти что не помещаются в руку... )"
+    player_name "( Woah, they're huge... )"
+    player_name "( I can barely fit them in my hand... )"
     show jennysex 54_55
     pause 8
     show jennysex 56 with fastdissolve
     player_name "!!!"
-    player_name "( Черт! Неужели она просыпается?! )"
+    player_name "( Oh crap! Did she wake up?! )"
     show jennysex 57 with fastdissolve
     pause
     show jennysex 58 with fastdissolve
-    player_name "( Она... )"
-    player_name "( Она подняла футболку... )"
-    player_name "( Что она пытается мне сказать? )"
-    player_name "( Хочет, чтобы я снова их потрогал...? )"
+    player_name "( She... )"
+    player_name "( She lifted her shirt up... )"
+    player_name "( Is she trying to tell me something? )"
+    player_name "( Maybe she wants me to feel her breasts again... )"
     show jennysex 59 with fastdissolve
     pause
     show jennysex 60_59
     pause 8
     show jennysex 60
-    player_name "( Они такие {b}теплые{/b}... )"
+    player_name "( They're so {b}warm{/b}... )"
     show jennysex 59
-    player_name "( ...такие {b}мягкие{/b}... )"
+    player_name "( ...so {b}soft{/b}... )"
     show jennysex 60
-    player_name "( Это охрененно... )"
+    player_name "( This is awesome... )"
     show jennysex 61 with fastdissolve
     player_name "!!!"
-    player_name "( Ох, черт! )"
+    player_name "( Oh, crap! )"
     show jennysex 62 with fastdissolve
-    player_name "( У меня встает... )"
-    player_name "( Дерьмо! Он давит прямо ей на киску... )"
-    player_name "( Стоп... )"
-    player_name "( Она никак не реагирут? )"
-    player_name "( Может я смогу потерться об неё... )"
+    player_name "( I'm getting hard... )"
+    player_name "( Shit! It's pressing right against her pussy... )"
+    player_name "( Wait... )"
+    player_name "( She didn't react at all? )"
+    player_name "( Maybe I can rub it against her... )"
     return
 
 label sneak_in_sis_bed_squeeze_boobs_leave:
-    player_name "( Нет... Слишком рисковано. )"
-    player_name "( Попробую в следующий раз. )"
+    player_name "( No... It's too risky. )"
+    player_name "( I'll try some other time. )"
     hide jennysex
     hide jenny_bedcover
     return
@@ -617,16 +624,16 @@ label sneak_in_sis_bed_rub_pussy_fail:
     show jennysex 66
     jen "{b}[firstname]{/b}?"
     show jennysex 67
-    jen "Какого {b}ХУЯ{/b} ты тут делаешь??!!" with hpunch
-    show jennysex 91
-    player_name "Не кричи так! Ты разбудишь {b}[deb_name]{/b}..."
-    show jennysex 53
-    jen "Думаешь, мне {b}есть до этого дело{/b}??! Да что с тобой не так?!"
-    show jennysex 91
-    player_name "Прости..."
-    player_name "Прости меня!!"
-    show jennysex 53
-    jen "Заткнись и {b}ПРОВАЛИВАЙ{/b}!!" with hpunch
+    jen "What the {b}FUCK{/b} are you doing??!!" with hpunch
+    show jennysex 65b
+    player_name "Don't yell! You're gonna wake up {b}[deb_name]{/b}..."
+    show jennysex 67
+    jen "You think I {b}CARE{/b}??! What's wrong with you?!"
+    show jennysex 65b
+    player_name "I..."
+    player_name "I'm sorry!!"
+    show jennysex 67
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     hide jennysex
     hide jenny_bedcover
     return
@@ -637,25 +644,25 @@ label sneak_in_sis_bed_rub_pussy_pass:
     show jennysex 62_64 at Position(xpos=682)
     pause 8
     show jennysex 62 at Position(xpos=682)
-    player_name "( Её дыхание учащается... )"
-    player_name "( Это ощущение... Она и правда намокла... )"
+    player_name "( Her breathing is getting faster... )"
+    player_name "( This feeling... She's actually getting wet... )"
     show jennysex 63 at Position(xpos=684)
-    player_name "( Как же {b}хорошо{/b}! Я хочу большего... )"
+    player_name "( It's {b}SO{/b} good! I want more... )"
     show jennysex 68 at Position(xpos=682) with fastdissolve
-    player_name "( Посмотрим, смогу ли я приспустить... )"
+    player_name "( Let's see if I can lower her panties... )"
     show jennysex 69 with fastdissolve
     pause
     show jennysex 70 at Position(xpos=652) with fastdissolve
     pause
     show jennysex 71 at Position(xpos=682) with fastdissolve
-    player_name "( Боже... )"
+    player_name "( Man... )"
     show jennysex 72 with fastdissolve
-    player_name "( Не могу поверить, что я собираюсь это сделать... )"
+    player_name "( I can't believe I'm about to do this... )"
     return
 
 label sneak_in_sis_bed_rub_pussy_leave:
-    player_name "( Нет... не сейчас. )"
-    player_name "( Нужно уйти, пока она не перевернулась. )"
+    player_name "( No... I can't, not yet. )"
+    player_name "( I should get out of here before she flips out. )"
     hide jennysex
     hide jenny_bedcover
     return
@@ -664,20 +671,20 @@ label sneak_in_sis_bed_sex_stat_fail:
     show jennysex 76 at Position(xpos=674) with fastdissolve
     pause
     show jennysex 75 at Position(xpos=682)
-    jen "[stat_warn]Ты и {b}правда{/b} думал, что я позволю тебе зайти так далеко?!" with hpunch
+    jen "[stat_warn]Do you {b}REALLY{/b} think I'm gonna let you go that far?!" with hpunch
     show jennysex 74
-    jen "[stat_warn]Радуйся, что я не остановила тебя раньше, ебучий извращенец!!"
+    jen "[stat_warn]You're lucky I didn't stop you earlier, you fucking pervert!!"
     show jennysex 73b
-    player_name "Ты... Ты знала, что я здесь?"
+    player_name "You... you knew I was here?"
     show jennysex 74
-    jen "[stat_warn]Кончено же, идиот! Просто я хотела посмотреть, насколько ты {b}отчаянный{/b}."
+    jen "[stat_warn]Of course, you idiot! I just wanted to see how {b}desperate{/b} you were for me."
     show jennysex 75
-    jen "[stat_warn]А сейчас подтяни штаны, и закончи в {b}своей{/b} комнате то, что ты начал!!"
+    jen "[stat_warn]Now pull up your pants and go finish what you started in your {b}OWN{/b} room!!"
     show jennysex 73b
-    player_name "Я..."
-    player_name "Я прошу прощения!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jennysex 75
-    jen "Ага, конечно, {b}ВАЛИ УЖЕ ОТСЮДА{/b}!!" with hpunch
+    jen "Yeah right, {b}GET OUT{/b}!!" with hpunch
     hide jennysex
     hide jenny_bedcover
     return
@@ -686,24 +693,25 @@ label sneak_in_sis_bed_sex_stat_pass:
     show jennysex 76 at Position(xpos=674) with fastdissolve
     pause
     show jennysex 75 at Position(xpos=682)
-    jen "Ты и {b}правда{/b} думал, что я позволю тебе зайти так далеко?!" with hpunch
+    jen "Do you {b}REALLY{/b} think I'm gonna let you go that far?!" with hpunch
     show jennysex 74
-    jen "Радуйся, что я не остановила тебя раньше, ебучий извращенец!!"
+    jen "You're lucky I didn't stop you earlier, you fucking pervert!!"
     show jennysex 73b
-    player_name "Ты... Ты знала, что я здесь?"
+    player_name "You... you knew I was here?"
     show jennysex 74
-    jen "Кончено же, идиот! Ты слишком тупой, чтобы тебя не заметить..."
+    jen "Of course, you idiot! You were too slow and stupid to notice..."
     show jennysex 73
     return
 
 label sneak_in_sis_bed_rabbit_fuck:
     show jennysex 77 at Position(xpos=713)
-    jen "Ахх!!!" with vpunch
+    jen "Ahh!!!" with vpunch
     show jennysex 79b at Position(xpos=720) with fastdissolve
-    jen "ЧТО ТЫ ТВОРИШЬ?!!"
+    jen "What are you DOING?!!"
     show jennysex 78 at Position(xpos=713) with fastdissolve
-    player_name "Я хочу тебя, {b}[jen_name]{/b}!!!"
-    $ anim_toggle = False
+    player_name "I want you, {b}[jen_name]{/b}!!!"
+    $ anim_toggle = True
+    $ animated = False
     $ xray = False
     show screen sex_xray_anim_buttons
     pause
@@ -724,15 +732,15 @@ label sneak_in_sis_bed_rabbit_fuck:
             pause
             $ animcounter += 1
     show jennysex 79b at Position(xpos=720)
-    jen "БЛЯТЬ!!!"
+    jen "FUCK!!!"
     show jennysex 77 at Position(xpos=713)
-    jen "Не так БЫСТРО!!"
+    jen "Don't go so FAST!!"
     show jennysex 79b at Position(xpos=720)
-    jen "О Боже..."
+    jen "Oh god..."
     show jennysex 77 at Position(xpos=713)
-    jen "Это..."
+    jen "It's..."
     show jennysex 79 at Position(xpos=720)
-    jen "... Это {b}ПРОСТО АХУЕННО{/b}!!" with vpunch
+    jen "... It's {b}SO FUCKING GOOD{/b}!!" with vpunch
     if anim_toggle:
         hide jennysex 79
         show jennysex 78_79 at Position(xpos = 713)
@@ -748,9 +756,9 @@ label sneak_in_sis_bed_rabbit_fuck:
             pause
             $ animcounter += 1
     show jennysex 77 at Position(xpos=713)
-    jen "Не {b}СМЕЙ{/b} кончать в меня..."
+    jen "Don't you {b}DARE{/b} cum inside me..."
     show jennysex 79b at Position(xpos=720)
-    jen "... Я клянусь, Я {b}ТЕБЯ ПРИКОНЧУ{/b}!!"
+    jen "... I swear, I'll {b}KILL YOU{/b}!!"
     return
 
 label sneak_in_sis_bed_rabbit_fuck_keep_going:
@@ -788,19 +796,19 @@ label sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_fail:
     hide white with dissolve
     pause
     show jennysex 88 at Position(xpos=674)
-    jen "[str_warn]Какого {b}ХЕРА{/b}??" with vpunch
-    jen "[str_warn]Ты хотел КОНЧИТЬ В МЕНЯ??"
+    jen "[str_warn]What the {b}FUCK{/b}??" with vpunch
+    jen "[str_warn]Were you about to cum INSIDE ME??"
     show jennysex 89
-    player_name "Не кричи! Ты разбудишь {b}[deb_name]{/b}..."
+    player_name "Don't yell! You're gonna wake up {b}[deb_name]{/b}..."
     show jennysex 87
-    jen "[str_warn]Да что с тобой не так?!"
+    jen "[str_warn]What's wrong with you?!"
     show jennysex 88
-    jen "[str_warn]Я ведь могу {b}ЗАБЕРЕМЕНИТЬ{/b}, знаешь??! ИДИОТ!!"
+    jen "[str_warn]You know I can get {b}PREGNANT{/b}, right??! YOU IDIOT!!"
     show jennysex 89
-    player_name "Я..."
-    player_name "Я прошу прощения!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jennysex 88
-    jen "Ага, конечно! {b}ПОШЕЛ ВОН{/b}!!"
+    jen "Yeah. Suure you are! {b}GET OUT{/b}!!"
     hide jennysex
     hide jenny_bedcover
     return
@@ -809,11 +817,11 @@ label sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_pass:
     show jennysex 78 at Position(xpos=713)
     pause
     show jennysex 79 at Position(xpos=720)
-    jen "Боже..."
+    jen "Oh god..."
     show jennysex 78 at Position(xpos=713)
-    jen "... Я больше не могу..."
+    jen "... I can't take much more..."
     show jennysex 80a at Position(xpos=738)
-    jen "{b}Aххх!!!!{/b}" with vpunch
+    jen "{b}Ahhhh!!!!{/b}" with vpunch
     show white zorder 3
     show jennysex 80b
     hide white with dissolve
@@ -824,25 +832,25 @@ label sneak_in_sis_bed_rabbit_fuck_cum_inside_stat_pass:
     pause
     $ xray = False
     show jennysex 81b at Position(xpos=674) with fastdissolve
-    jen "{b}*Жадно дышит*{/b}"
+    jen "{b}*Panting*{/b}"
     show jennysex 81 at Position(xpos=674)
-    jen "Ты что, кончил в меня??"
+    jen "Did you just cum inside me??"
     show jennysex 90
-    player_name "Я... Я не уверен..."
+    player_name "I... I'm not sure..."
     show jennysex 82
-    jen "Не смей врать! Я чувствую, он продолжает пульсировать во мне!"
+    jen "Don't lie! I felt it, it just kept shooting deep inside me!"
     show jennysex 90
-    player_name "Это просто рефлекс!"
-    player_name "Я... Я не мог остановиться..."
+    player_name "It was a reflex!"
+    player_name "I... I couldn't stop..."
     show jennysex 82
-    jen "Да что с тобой не так?!" with hpunch
-    jen "Я ведь могу {b}ЗАБЕРЕМЕНИТЬ{/b}, знаешь??! ИДИОТ!!"
+    jen "What's wrong with you?!" with hpunch
+    jen "You know I can get {b}PREGNANT{/b}, right??! YOU IDIOT!!"
     show jennysex 90
-    player_name "Я..."
-    player_name "Я проше прощения!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jennysex 82
-    jen "Просто..."
-    jen "Просто {b}ВАЛИ ОТСЮДА{/b}!!" with hpunch
+    jen "Just..."
+    jen "Just {b}GET OUT{/b}!!" with hpunch
     hide jennysex
     hide jenny_bedcover
     return
@@ -859,18 +867,18 @@ label sneak_in_sis_bed_rabbit_fuck_cum_outside:
     hide white with dissolve
     pause
     show jennysex 86 with fastdissolve
-    player_name "Ахх..."
+    player_name "Ahh..."
     show jennysex 88
-    jen "Ну что, удовлетворен?! Мелкий ублюдок..." with hpunch
+    jen "Are you SATISFIED now?! You little shit..." with hpunch
     show jennysex 87
-    jen "Тебе повезло, что я была возбуждена..."
-    jen "... и, что у тебя отличный... член."
+    jen "You're lucky I was feeling horny..."
+    jen "... and that you have a nice... dick."
     show jennysex 89
-    player_name "Мне он тоже нравится-"
+    player_name "I enjoyed it too-"
     show jennysex 87
-    jen "Мне нет до этого дела!!"
+    jen "I don't care!!"
     show jennysex 88
-    jen "{b}ВАЛИ УЖЕ ОТСЮДА{/b}!!"
+    jen "Hurry up and {b}GET OUT{/b}!!"
     hide jennysex
     hide jenny_bedcover
     return
@@ -882,13 +890,14 @@ label diary_dialogue:
         call expression game.dialog_select("diary0" + str(counter))
         $ counter += 1
     call expression game.dialog_select("diary_after")
+    $ M_jenny.trigger(T_jenny_diary_read)
     $ game.main()
 
 label diary01:
     show jenny_diary 01 at truecenter with dissolve
-    player_name "( А это... Её {b}дневник{/b}... )"
-    player_name "( Интересно... )"
-    player_name "( Может, чуток почитать... )"
+    player_name "( This must be... Her {b}diary{/b}... )"
+    player_name "( Interesting... )"
+    player_name "( Maybe I can read some of it. )"
     window hide
     call screen diary_next
     return
@@ -896,8 +905,8 @@ label diary01:
 label diary02:
     show jenny_diary next at Position (xpos = 512, ypos = 394) with Dissolve(0.2)
     show jenny_diary 02 at truecenter with Dissolve(0.2)
-    player_name "( Ей нужно придумать хоть какое-то занятие... )"
-    player_name "( Она слишком долго просто сидит тут ничего не делая... )"
+    player_name "( She should really think about moving out... )"
+    player_name "( She's been staying here and doing nothing for so long... )"
     window hide
     call screen diary_next
     return
@@ -905,8 +914,8 @@ label diary02:
 label diary03:
     show jenny_diary next at Position (xpos = 512, ypos = 394) with Dissolve(0.2)
     show jenny_diary 03 at truecenter with Dissolve(0.2)
-    player_name "Вау..."
-    player_name "( Никогда бы не подумал, что {b}[jen_name]{/b} была настолько {b}возбуждена{/b}... )"
+    player_name "Whoa..."
+    player_name "( I never knew {b}[jen_name]{/b} was THAT {b}horny{/b}... )"
     window hide
     call screen diary_next
     return
@@ -923,19 +932,19 @@ label diary_after:
     hide jenny_diary
     show player 108f
     with dissolve
-    player_name "( ...Не могу поверить, что она написала все эти вещи... )"
+    player_name "( ...I can't believe she wrote all this stuff... )"
     show player 21
-    player_name "( Неужели она и правда... Поможет мне потерять девственность?? )"
+    player_name "( Would she really... Help me lose my virginity?? )"
     show player 108f
-    player_name "( Или... Она просто шутила? )"
+    player_name "( Or... She was just joking? )"
     show player 12
-    player_name "( ...И о чем это вэбкам шоу {b}Live Crush{/b} вообще?? )"
+    player_name "( ...And what is this {b}Live Crush{/b} cam show about?? )"
     show player 109f
     player_name "..."
     show player 108f
-    player_name "( Я так много не знал о {b}[jen_name]{/b}... )"
+    player_name "( So many things I didn't know {b}[jen_name]{/b} was into... )"
     show player 113
-    player_name "( Нужне быстрее свалить отсюда, а то будет хуже. )"
+    player_name "( I should get out of here before she gets back. )"
     hide player
     return
 
@@ -946,43 +955,39 @@ label bedtable_night:
 
 label bedtable_night_dialogue:
     scene jennybedroom_night
-    player_name "( Я ещё вернусь, когда она не сможет меня спалить. )"
+    player_name "( I should come back later, when she's not around. )"
     return
 
 label desk02_locked_dialogue:
     scene expression game.timer.image("sisbedroom{}")
     show player 35 at left
-    player_name "( У меня нет {b}пароля{/b} от её компьютера... )"
+    player_name "( I don't have the {b}password{/b} for her computer... )"
     $ game.main()
 
 label bedside01_dialogue:
     call expression game.dialog_select("bedside01_dialogue{}".format(random.randint(1,2)))
-    $ look_for_panties = True
-    $ sis_bedroom_count = 1
-
     python:
         for image in renpy.get_showing_tags():
             renpy.hide(image)
-    show screen bedside01
-    call screen ui
+    call screen bedside01
 
 label bedside01_dialogue1:
     scene bedside01
-    player_name "ЧТО ЗА-"
+    player_name "WHAT THE-"
     player_name "..."
-    player_name "( Это... {b}Секс игрушки{/b}?! )"
+    player_name "( Are those... {b}sex toys{/b}?! )"
     player_name "..."
-    player_name "( ...и её {b}трусики{/b}! )"
-    player_name "( Может если... я возьму одни... )"
-    player_name "( ...она не заметит. )"
+    player_name "( ...and her {b}panties{/b}! )"
+    player_name "( Maybe if... I could just take one pair... )"
+    player_name "( ...she won't notice. )"
     return
 
 label bedside01_dialogue2:
     scene bedside01
-    player_name "( Боже... )"
+    player_name "( Man... )"
     player_name "..."
-    player_name "( Это место просто наполнено этими мезкими вещами! )"
-    player_name "( Лучше сначала спросить у неё... )"
+    player_name "( This thing is always filled with nasty stuff! )"
+    player_name "( I'd better ask her first if I can take those panties... )"
     return
 
 label siscomp_day:
@@ -998,33 +1003,33 @@ label siscomp_day:
 label siscomp_day_pre:
     scene jennybedroom
     show player 98 at left with dissolve
-    player_name "( Хмм... Посмотрим, включен ли компьютер. )"
-    player_name "( Интересно, что же я там найду... )"
+    player_name "( Hmm... Let's see if she left her computer on. )"
+    player_name "( I wonder what I could find on here... )"
     return
 
 label siscomp_day_showering:
     show jenny 8b at right with dissolve
     jen "..."
     show jenny 7b at right with hpunch
-    jen "{b}ЧЕМ{/b} я могу тебе помочь??!"
+    jen "Can I help you with {b}SOMETHING{/b}??!"
     show jenny 8b at right
     show player 23 at left
     player_name "!!!"
     show player 29 at left
     show jenny 10b at right
-    player_name "Прости... Я просто хотел проверить, работает ли у тебя инет!!"
-    player_name "А то у меня что-то не подключается..."
+    player_name "Sorry!! I was just... trying to see if your internet is working!!"
+    player_name "I can't seem to connect on my computer..."
     show player 3 at left
     show jenny 9c at right
-    jen "Не смей, блять, {b}трогать{/b} мой компьютер!!"
+    jen "Don't fucking {b}touch{/b} my computer!!"
     show player 24 at left
-    jen "Просто спроси меня в следующий раз."
+    jen "Just ask me next time."
     show player 10 at left
     show jenny 6b at right
-    player_name "Обязательно!"
+    player_name "Of course!"
     show player 22 at left
     show jenny 7b at right
-    jen "А теперь пошел прочь из {b}МОЕЙ КОМНАТЫ{/b}!!!"
+    jen "Now, get out of {b}MY ROOM{/b}!!!"
     hide player
     hide jenny
     with dissolve
@@ -1034,25 +1039,25 @@ label siscomp_day_not_showering:
     show jenny 8 at right with dissolve
     jen "..."
     show jenny 7 at right with hpunch
-    jen "{b}ЧЕМ{/b} я могу тебе помочь??!"
+    jen "Can I help you with {b}SOMETHING{/b}??!"
     show jenny 8 at right
     show player 23 at left
     player_name "!!!"
     show player 29 at left
     show jenny 10 at right
-    player_name "Прости... Я просто хотел проверить, работает ли у тебя инет!!"
-    player_name "А то у меня что-то не подключается..."
+    player_name "Sorry!! I was just... trying to see if your internet is working!!"
+    player_name "I can't seem to connect on my computer..."
     show player 3 at left
     show jenny 9 at right
-    jen "Не смей, блять, {b}трогать{/b} мой компьютер!!"
+    jen "Don't fucking {b}touch{/b} my computer!!"
     show player 24 at left
-    jen "Просто спроси меня в следующий раз."
+    jen "Just ask me next time."
     show player 10 at left
     show jenny 6 at right
-    player_name "Обязательно!"
+    player_name "Of course!"
     show player 22 at left
     show jenny 7 at right
-    jen "А теперь пошел прочь из {b}МОЕЙ КОМНАТЫ{/b}!!!"
+    jen "Now, get out of {b}MY ROOM{/b}!!!"
     hide player
     hide jenny
     with dissolve
@@ -1063,68 +1068,68 @@ label jennys_bedroom_bissette_roxxy_cheerleader_deal:
     show jenny 11 at right
     show player 10 at left
     with dissolve
-    player_name "Хей, {b}[jen_name]{/b}."
+    player_name "Hey, {b}[jen_name]{/b}."
     show player 5
     show jenny 9
-    jen "Чего тебе?"
+    jen "What do you want?"
     show jenny 9b
     show player 10
-    player_name "Мне нужна твоя помощь с кое-чем..."
+    player_name "I need your help with something..."
     show player 5
     show jenny 12
-    jen "Как много ты мне заплатишь"
+    jen "How much are you paying me?"
     show jenny 11
     show player 12
-    player_name "Я ведь ещё даже не сказал, что я хочу!"
+    player_name "I haven't even told you what it is yet!"
     show player 5
     show jenny 9
-    jen "Хмм, и правда... Прежде чем устанавливать цену, я должна узнать все детали!"
+    jen "Hmm, good point... I should hear all the details before I set the price!"
     show jenny 11
     show player 37 with dissolve
-    player_name "*Эх*"
+    player_name "*Sigh*"
     show player 10 with dissolve
-    player_name "Одной девочке из моей школы нужно потренировать её навыки чирлидерши"
+    player_name "There's this girl at school who needs help with her cheer-leading routine."
     show player 5
     show jenny 9
-    jen "Ты пытаешься завалить её в постель?"
+    jen "Is this some girl you're trying to bang?"
     show jenny 11
     show player 12
-    player_name "Что? Нет!"
+    player_name "Huh? NO!"
     show player 5
     show jenny 12
-    jen "Почему нет? Она уродина?"
+    jen "Why not? Is she ugly?"
     show jenny 11
     show player 12
-    player_name "Нет, она великолепна, но полнейшая сука!"
+    player_name "No, she's gorgeous, but a total bitch!"
     show player 5
     show jenny 12
-    jen "Хмм, она мне уже нравится."
+    jen "Hmm, I like her already."
     show jenny 11
     player_name "..."
     show player 12
-    player_name "Ну так что, ты ей поможешь?"
+    player_name "So you'll help her with the routine?"
     show player 5
     show jenny 12
     jen "$500."
     show jenny 11
     show player 10
-    player_name "Что?! Ты с ума сошла?"
+    player_name "What?! Are you nuts?"
     show player 5
     show jenny 9
-    jen "Такова цена."
-    jen "Плати или вали."
+    jen "That's the price."
+    jen "Pay up or get out."
     show jenny 9b
     show player 12
-    player_name "Почему ты не можешь просто помочь мне?"
+    player_name "Couldn't you just help me out?"
     show player 5
     show jenny 12
-    jen "Хахаха, неплохая попытка, {b}[firstname]{/b}!"
+    jen "Hahahaha, good one {b}[firstname]{/b}!"
     show jenny 13 with dissolve
     jen "$500."
     show jenny 18 with dissolve
     show player 12
-    player_name "*Пфф* Ладно!"
-    player_name "Вернусь, когда будут деньги..."
+    player_name "*Sigh* Fine!"
+    player_name "I'll come back when I've got the money..."
     hide player
     hide jenny
     with dissolve
@@ -1153,55 +1158,55 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre:
     show poms 41 zorder 665
     show xtra 41 zorder 666
     with dissolve
-    rox "Ещё раз спасибо за то, что одолжила мне униформу."
+    rox "Thanks again for letting me borrow your old uniform."
     show roxxy 35
     show jenny 169
-    jen "Без проблем!"
-    jen "Она всё равно мне уже мала."
-    jen "Черт, да всё эта школьная униформа вообще очень плохо сидит  на теле..."
+    jen "Not a problem!"
+    jen "It doesn't fit me anyways."
+    jen "Shit, this college uniform barely fits..."
     show jenny 168
     show roxxy 37
-    rox "Хаха, точно."
+    rox "Haha, yeah."
     show roxxy 36
-    rox "Такое ощущение, что твои сиськи в любой момент могут выскочить..."
+    rox "It looks like your tits are gonna spill out, like any second..."
     show roxxy 35
     show jenny 170
-    jen "Хехе!"
+    jen "Hehe!"
     show jenny 169
-    jen "... Об этом я и говорю! Судьи точно дают дополнительные очки за сексуальность."
-    jen "Поэтому я никогда не носила лифчик на соревнованиях."
+    jen "... That's what I'm saying though! The judges totally give extra points for sex appeal."
+    jen "That's why I never wear a bra during competitions."
     show jenny 168
     show roxxy 36
-    rox "Д-да, я об этом и не задумывалась."
-    rox "Да ты просто гений!"
+    rox "Y-yeah, I never thought about it."
+    rox "You're like, a total genius!"
     show roxxy 35
     show jenny 169
-    jen "Скажи мне что-то, чего я не знаю..."
-    jen "Эти девочки подарили мне три победы подряд на чемпионате штата!"
+    jen "Tell me something I don't know..."
+    jen "These ladies won me three consecutive state championships!"
     show jenny 168
     show roxxy 36
-    rox "... Они и правда хороши..."
+    rox "... They are really nice..."
     show roxxy 38
     show jenny 169
-    jen "Спасибо!"
-    jen "Твои тоже."
+    jen "Thanks!"
+    jen "Yours are nice too."
     show jenny 168
     show roxxy 36
-    rox "Да, но они не такие большие, как у тебя..."
+    rox "Yeah but mine aren't as big as yours..."
     show roxxy 38
     show jenny 169
-    jen "Ммм, может быть, но я уверена, что твои более упругие."
+    jen "Mmm, maybe not but I betcha they're perkier than mine."
     show jenny 168
     show roxxy 37
-    rox "Хехе, возможно..."
+    rox "Hehe, maybe..."
     show roxxy 35
     show jenny 169
-    jen "Дай-ка мне на них посмотреть."
+    jen "Lemme have a look at those puppies."
     hide roxxy
     hide roxxy_outfit
     show jenny 171 at center
     with dissolve
-    rox "Воу! Что ты-{p=1}{nw}"
+    rox "Whoa!! What are you-{p=1}{nw}"
     show jenny 171b with dissolve
     pause .1
     show jenny 171c with dissolve
@@ -1209,189 +1214,189 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre:
     show roxxy 34b at Position (xpos=317,ypos=768)
     show jenny 169 at Position (xpos=638,ypos=762)
     with dissolve
-    jen "Спокойно!"
-    jen "Тут ведь только мы."
+    jen "Calm down!"
+    jen "It's just us girls here."
     show jenny 168
     rox "..."
     show roxxy 34
-    rox "Я-я не знаю..."
+    rox "I-I dunno..."
     show roxxy 34b
     show jenny 169
-    jen "Смотри."
+    jen "Here."
     show jenny 172 with dissolve
     pause
     show jenny 173 with dissolve
-    jen "Видишь, нечего смущаться!"
+    jen "See, nothing to be embarrassed about!"
     show jenny 179
     show roxxy 40 at Position (xpos=352,ypos=768)
     show roxxy_outfit cheer 41d
     with dissolve
-    rox "... Ну да, наверное..."
+    rox "... Y-yeah, I guess..."
     hide roxxy
     hide roxxy_outfit
     show jenny 175 at center
     rox "!!!" with hpunch
     show jenny 174
-    jen "Я была права, они и правда упругие..."
-    jen "Я даже немного завидую!"
+    jen "I was right, they are perkier than mine..."
+    jen "I'm kinda jealous!"
     show jenny 176
-    rox "... Спасибо."
+    rox "... Thanks."
     show jenny 174
-    jen "У тебя очень милые соски!"
+    jen "You've got cute little nipples too!"
     show jenny 175
     rox "..."
     show jenny 174
-    jen "Оуу, она смущена!"
+    jen "Aww, she's shy!"
     show jenny 176
-    rox "Я не-"
+    rox "I'm not-"
     show jenny 174
-    jen "Восхитительно!"
-    jen "Хочешь потрогать мои?"
+    jen "So adorable!"
+    jen "Don't you wanna feel mine?"
     show jenny 176
-    rox "Хочешь, чтобы я-"
+    rox "You want me to-"
     show jenny 177
     rox "!!!" with hpunch
-    jen "Видишь, ничего ужасного..."
+    jen "See, not so bad..."
     show jenny 178
-    rox "У тебя такая мягкая кожа..."
+    rox "Your skin is so soft..."
     show jenny 177
-    jen "Приятно, правда?"
-    jen "Это благодаря особому лосьону. Я дам тебе попробывать!"
+    jen "I know, right?"
+    jen "It's this special lotion I use. I'll hook you up!"
     show jenny 178
-    rox "Спасибо, {b}[jen_name]{/b}!"
+    rox "Thanks, {b}[jen_name]{/b}!"
     show roxxy 39 at Position (xpos=352,ypos=768)
     show jenny 181 at Position (xpos=638,ypos=762)
     show roxxy_outfit cheer 41d
     with dissolve
-    jen "Черт возми, милая! У тебя прекрасное тело!"
+    jen "Damn girl! You've got a bangin' body!"
     show jenny 179
     show roxxy 40
-    rox "Думаешь, судьи заметят?"
+    rox "You think the judges will notice?"
     show roxxy 39
     show jenny 180
-    jen "Обязательно!"
-    jen "Я понимаю, почему этот задрот так тебя хочет."
+    jen "Totally!"
+    jen "I can see why that dweeb downstairs wants to hit that."
     show jenny 179
     show roxxy 40
-    rox "Не могу поверить, что вы живете вместе!"
-    rox "Ты просто замечательная, а он такой придурок!"
+    rox "I can't believe you two live together!"
+    rox "You're so awesome and he's such a dork!"
     show roxxy 39
     return
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis:
     show jenny 180
-    jen "Он не такой уж и плохой..."
-    jen "Иногда он довольно полезен."
+    jen "He's not so bad..."
+    jen "He can be pretty useful to have around."
     show jenny 179
     show roxxy 40
-    rox "... Да, он и правда помог мне недавно."
+    rox "... Yeah, I guess he has been pretty helpful recently."
     show roxxy 39
     show jenny 180
-    jen "Кстати, только между нами..."
-    jen "У него как у коня!"
+    jen "Also, just between you and me..."
+    jen "He's hung like a horse!"
     show jenny 179
     show roxxy 40
-    rox "Серьезно? Ты видела его член"
+    rox "Really?! You mean you've seen his dick?"
     show roxxy 39
     show jenny 180
-    jen "Ох, да, было пару раз."
-    jen "Мы всё же живем вместе."
+    jen "Oh, I've seen it plenty of times."
+    jen "We do live together after all."
     show jenny 179
     show roxxy 40
-    rox "И правда..."
-    rox "Так он, большой, да?"
+    rox "I guess that's true..."
+    rox "So it's big, huh?"
     show roxxy 39
     show jenny 181
-    jen "Огромный!"
+    jen "Huge!"
     show jenny 179
     show roxxy 42
-    rox "Интересно."
+    rox "Interesting."
     show roxxy 39
     show jenny 180
-    jen "А у твоего парня большой?"
+    jen "Is your boyfriend packing?"
     show jenny 179
     show roxxy 40
-    rox "У {b}Dexter{/b}?"
+    rox "{b}Dexter{/b}?"
     show roxxy 42
-    rox "Пфф."
+    rox "Pfft."
     show roxxy 43 with dissolve
     show jenny 181
-    jen "Хахаха!"
+    jen "Hahaha!"
     show jenny 180
     show roxxy 39 with dissolve
-    jen "Маленький, да? Это плохо."
+    jen "Tiny, eh? That's too bad."
     show jenny 179
     rox "..."
     show jenny 180
-    jen "Ну, да лдно... Хочешь выучить несколько движений?"
+    jen "Well, anyways... You ready to learn some moves?"
     show jenny 179
     show roxxy 37
-    rox "Ещё как!"
+    rox "Hell yeah!"
     show roxxy 39
     show jenny 180
-    jen "Отлично, сделаем это!"
+    jen "Cool, let's do it!"
     return
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis:
     show jenny 180
-    jen "Странно, правда?!"
-    jen "Я говорю всем, что он просто прислуга..."
+    jen "I know right!"
+    jen "I tell everybody he's the maintenance boy..."
     show jenny 179
     show roxxy 37
-    rox "Хаха!"
+    rox "Hahaha!"
     show roxxy 40
-    rox "Да, мой парень всё время надерает ему зад."
+    rox "Yeah, my boyfriend threatens to kick his ass all the time."
     show roxxy 39
     show jenny 180
-    jen "У тебя есть парень?"
+    jen "You have a boyfriend?"
     show jenny 179
     show roxxy 40
-    rox "Ну, типа того..."
-    rox "Скажем так, он думает, что он мой парень."
+    rox "Well, kinda..."
+    rox "Let's just say, he thinks he's my boyfriend."
     show roxxy 39
     show jenny 180
-    jen "Мне нравится твой стиль, {b}Roxxy{/b}!"
+    jen "I like your style, {b}Roxxy{/b}!"
     show jenny 179
     show roxxy 40
-    rox "Хехе, спасибо!"
+    rox "Hehe, thanks!"
     show roxxy 39
     show jenny 180
-    jen "У него большой?"
+    jen "Is he packing?"
     show jenny 179
     show roxxy 40
-    rox "Что ты имеешь ввиду?"
+    rox "What do you mean?"
     show roxxy 39
     show jenny 180
-    jen "Ну знаешь, там на юге..."
-    jen "Он большой?"
+    jen "You know, down south..."
+    jen "Is he big?"
     show jenny 179
     show roxxy 42
-    rox "Пффф..."
+    rox "Pfft..."
     show roxxy 43 with dissolve
     show jenny 180
-    jen "Маленький!?"
+    jen "He's small!?"
     show jenny 179
     show roxxy 40 with dissolve
-    rox "Просто крохотный."
+    rox "Real tiny."
     show roxxy 39
     show jenny 181
-    jen "Хахаха!"
+    jen "Hahaha!"
     show jenny 179
     show roxxy 40
-    rox "Да, он у меня не для секса."
+    rox "Yeah, I don't keep him around for the sex."
     show roxxy 39
     show jenny 180
-    jen "Да я и не подумала бы..."
+    jen "I wouldn't think so..."
     show jenny 179
     rox "..."
     show jenny 180
-    jen "Ну, да лдно... Хочешь выучить несколько движений?"
+    jen "Well, anyways... You ready to learn some moves?"
     show jenny 179
     show roxxy 37
-    rox "А то!"
+    rox "Hell yeah!"
     show roxxy 39
     show jenny 180
-    jen "Отлично, тогда сделаем это!"
+    jen "Cool, let's do it!"
     return
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
@@ -1402,59 +1407,55 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
     show poms 41 zorder 665
     show xtra 41 zorder 666
     with dissolve
-    rox "Ещё раз спасибо за то, что одолжила мне униформу."
+    rox "Thanks again for letting me borrow your old uniform."
     show roxxy 35
     show jenny 169
-    jen "Без проблем!"
-    jen "Она всё равно мне уже мала."
-    jen "Черт, да всё эта школьная униформа вообще очень плохо сидит  на теле..."
+    jen "Not a problem!"
+    jen "It doesn't fit me anyways."
+    jen "Shit, this college uniform barely fits..."
     show jenny 168
     show roxxy 37
-    rox "Хаха, точно"
+    rox "Haha, yeah."
     show roxxy 36
-    rox "Такое ощущение, что твои сиськи в любой момент могут выскочить..."
+    rox "It looks like your tits are gonna spill out, like any second..."
     show roxxy 35
     show jenny 170
-    jen "Хехе!"
+    jen "Hehe!"
     show jenny 169
-    jen "... Об этом я и говорю! Судьи точно дают дополнительные очки за сексуальность."
-    jen "Поэтому я никогда не носила лифчик на соревнованиях."
+    jen "... That's what I'm saying though! The judges totally give extra points for sex appeal."
+    jen "That's why I never wear a bra during competitions."
     show jenny 168
     show roxxy 36
-    rox "Д-да, я об этом и не задумывалась."
-    rox "Да ты просто гений!"
+    rox "Y-yeah, I never thought about it."
+    rox "You're like, a total genius!"
     show roxxy 35
     show jenny 169
-    jen "Скажи мне что-то, что я не знаю..."
+    jen "Tell me something I don't know..."
     jen "These ladies won me three consecutive state championships!"
     show jenny 168
     show roxxy 36
-    jen "Скажи мне что-то, чего я не знаю..."
-    jen "Эти девочки подарили мне три победы подряд на чемпионате штата!"
-    show jenny 168
-    show roxxy 36
-    rox "... Они и правда хороши..."
+    rox "... They are really nice..."
     show roxxy 38
     show jenny 169
-    jen "Спасибо!"
-    jen "Твои тоже."
+    jen "Thanks!"
+    jen "Yours are nice too."
     show jenny 168
     show roxxy 36
-    rox "Да, но они не такие большие, как у тебя..."
+    rox "Yeah but mine aren't as big as yours..."
     show roxxy 38
     show jenny 169
-    jen "Ммм, может и так, но твои явно более упругие"
+    jen "Mmm, maybe not but I betcha they're perkier than mine."
     show jenny 168
     show roxxy 37
-    rox "Хехе, может..."
+    rox "Hehe, maybe..."
     show roxxy 35
     show jenny 169
-    jen "Дай-ка мне на них взгялнуть."
+    jen "Lemme have a look at those puppies."
     hide roxxy
     hide roxxy_outfit
     show jenny 171 at center
     with dissolve
-    rox "Воу, что ты-{p=1}{nw}"
+    rox "Whoa!! What are you-{p=1}{nw}"
     show jenny 171b with dissolve
     pause .1
     show jenny 171c with dissolve
@@ -1462,159 +1463,159 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_pre_sex:
     show roxxy 34b at Position (xpos=317,ypos=768)
     show jenny 169 at Position (xpos=638,ypos=762)
     with dissolve
-    jen "Спокойно!"
-    jen "Здесь только мы вдвоем."
+    jen "Calm down!"
+    jen "It's just us girls here."
     show jenny 168
     rox "..."
     show roxxy 34
-    rox "Я-я не знаю..."
+    rox "I-I dunno..."
     show roxxy 34b
     show jenny 169
-    jen "Смотри."
+    jen "Here."
     show jenny 172 with dissolve
     pause
     show jenny 173 with dissolve
-    jen "Видишь, вообще нечего стесняться!"
+    jen "See, nothing to be embarrassed about!"
     show jenny 179
     show roxxy 40 at Position (xpos=352,ypos=768)
     show roxxy_outfit cheer 41d
     with dissolve
-    rox "... Да, наверное..."
+    rox "... Y-yeah, I guess..."
     hide roxxy
     hide roxxy_outfit
     show jenny 175 at center
     rox "!!!" with hpunch
     show jenny 174
-    jen "Я была права, они более упругие..."
-    jen "Я даже немного завидую!"
+    jen "I was right, they are perkier than mine..."
+    jen "I'm kinda jealous!"
     show jenny 176
     rox "... Thanks."
     show jenny 174
-    jen "У тебя очень милые соски!"
+    jen "You've got cute little nipples too!"
     show jenny 175
     rox "..."
     show jenny 174
-    jen "Оуу, она смущена!"
+    jen "Aww, she's shy!"
     show jenny 176
-    rox "Я не-"
+    rox "I'm not-"
     show jenny 174
-    jen "Просто восхитительно!"
-    jen "Хочешь потрогать мои?"
+    jen "So adorable!"
+    jen "Don't you wanna feel mine?"
     show jenny 176
-    rox "Хочешь, чтобы я-"
+    rox "You want me to-"
     show jenny 177
     rox "!!!" with hpunch
-    jen "Видишь, ничего ужасного..."
+    jen "See, not so bad..."
     show jenny 178
-    rox "У тебя такая мягкая кожа..."
+    rox "Your skin is so soft..."
     show jenny 177
-    jen "Приятно, правда?"
-    jen "Это благодаря особому лосьону. Я дам тебе попробывать!"
+    jen "I know, right?"
+    jen "It's this special lotion I use. I'll hook you up!"
     show jenny 178
-    rox "Спасибо, {b}[jen_name]{/b}!"
+    rox "Thanks, {b}[jen_name]{/b}!"
     show roxxy 39 at Position (xpos=352,ypos=768)
     show jenny 181 at Position (xpos=638,ypos=762)
     show roxxy_outfit cheer 41d
     with dissolve
-    jen "Боже, милая! У тебя потрясное тело!"
+    jen "Damn girl! You've got a bangin' body!"
     show jenny 179
     show roxxy 40
-    rox "Думаешь, судьи заметят?"
+    rox "You think the judges will notice?"
     show roxxy 39
     show jenny 180
-    jen "Обязательно!"
-    jen "Не могу поверить, что {b}[firstname]{/b} смог сделать это с такой как ты!"
+    jen "Totally!"
+    jen "I can't believe {b}[firstname]{/b} is hitting that!"
     show jenny 179
     show roxxy 40
-    rox "Хехе, ну я заставила его попотеть ради этого."
-    rox "Он очень упорный парень..."
+    rox "Hehe, well I really made him work for it."
+    rox "He's a pretty tenacious guy..."
     show roxxy 39
     return
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis_sex:
     show jenny 180
-    jen "Да, иногда он и правда очень упрямый..."
-    jen "Он достаточно находчивый, отдаю ему должное."
+    jen "Yeah, he can be really stubborn..."
+    jen "He's resourceful though, I'll give him that."
     show jenny 179
     show roxxy 40
-    rox "К тому же у него огромный член!"
+    rox "Plus, he's got that huge cock!"
     show roxxy 39
     show jenny 180
-    jen "Невероятно просто, да?!"
-    jen "Да он просто конь!"
+    jen "I know right?!"
+    jen "He's hung like a freaking horse!"
     show jenny 179
     show roxxy 40
-    rox "Воу, подожди... Хочешь сказать, что ты его видела?"
+    rox "Whoa, wait... You mean you've seen it?"
     show roxxy 39
     show jenny 180
-    jen "Ох, да, было пару раз."
-    jen "Это почти неизбежно. Мы ведь живем вместе."
+    jen "Oh, I've seen it plenty of times."
+    jen "Kind of unavoidable really. Living in close proximity like this."
     show jenny 179
     show roxxy 40
-    rox "Да, я понимаю."
-    rox "Наверное сложно жить вместе с парнем..."
+    rox "Yeah, I guess that makes sense."
+    rox "It must be annoying living with some random dude..."
     show roxxy 39
     show jenny 181
-    jen "Хехе, не знаю. У всего есть свои плюсы."
+    jen "Hehe, I dunno. It has it's perks."
     show jenny 179
     rox "..."
     show jenny 180
-    jen "У твоего бывшего был большой?"
+    jen "Was your last boyfriend packing?"
     show jenny 179
     show roxxy 40
-    rox "У {b}Dexter{/b}?"
+    rox "{b}Dexter{/b}?"
     show roxxy 42
-    rox "Пфф."
+    rox "Pfft."
     show roxxy 43 with dissolve
     show jenny 181
-    jen "Хахаха!"
+    jen "Hahaha!"
     show jenny 180
     show roxxy 39 with dissolve
-    jen "Маленький, да? Это плохо."
-    show roxxy 35e
+    jen "Tiny, eh? That's too bad."
+    show roxxy 35e at Position (xoffset=-120, yoffset=100)
     show jenny 179
-    rox "Да уж, к тому же он просто придурок."
+    rox "Yeah, he turned out to be a huge douchebag too."
     show jenny 180
     show roxxy 39
-    jen "Ну, да ладно... Хочешь выучить пару движений?"
+    jen "Well, anyways... You ready to learn some moves?"
     show jenny 179
     show roxxy 37
-    rox "А то!"
+    rox "Hell yeah!"
     show roxxy 39
     show jenny 180
-    jen "Отлично, тогда начнем!"
+    jen "Cool, let's do it!"
     return
 
 label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis_sex:
     show jenny 180
-    jen "Вряд ли ему хватит этого упорства, {b}Roxxy{/b}!"
-    jen "Ему бы пришлось целовать мои ноги и ползать как собачке, прежде чем я пущу его в ко мне в трусики..."
+    jen "Not hard enough, {b}Roxxy{/b}!"
+    jen "He'd have to kiss my feet and grovel like a dog before I let him in my panties..."
     show jenny 179
     show roxxy 37
-    rox "Хахаха! А ты та ещё сучка, {b}[jen_name]{/b}!"
+    rox "Hahaha! Sheesh, you're a hardcore bitch, {b}[jen_name]{/b}!"
     show roxxy 40
-    rox "Ему повезло, что тебе это не интересно, верно ведь?"
-    rox "Хотя, он вроде как пытается..."
+    rox "Lucky for him, you aren't interested, huh?"
+    rox "Otherwise, I could totally see him trying..."
     show roxxy 39
     show jenny 180
-    jen "... Да, повезло ему..."
-    jen "... Ну, он хотя бы хорош?"
+    jen "... Yeah. Lucky for him..."
+    jen "... So is he any good?"
     show jenny 179
     show roxxy 40
-    rox "Что ты имеешь ввиду? Типа, в постели?"
-    jen "Ага."
-    rox "Он просто великолепен!"
+    rox "What do you mean? Like, in bed?"
+    jen "Yeah."
+    rox "He's amazing!"
     show roxxy 39
     show jenny 180
-    jen "Великолепен? Ты шутишь!."
+    jen "Amazing? You're joking."
     show jenny 179
     show roxxy 40
-    rox "Нет, я абсолютно серьезно!"
-    rox "Он как будто савант или типа того..."
-    rox "... И этот его массивный член!"
+    rox "No, I'm completely serious!"
+    rox "He's like an idiot savant or something..."
+    rox "... And he's got that massive cock!"
     show roxxy 39
     show jenny 180
-    jen "Ха? В каком смысле массивный?"
+    jen "Huh? What do you mean by massive?"
     show jenny 179 with None
     show roxxy 43b
     hide roxxy_outfit
@@ -1624,35 +1625,35 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis_sex:
     show roxxy_outfit cheer 41d
     with dissolve
     show jenny 180
-    jen "Ты шутишь!"
-    show jenny 179
-    show roxxy 42
-    rox "Даже не чуть-чуть."
-    show roxxy 43 with dissolve
-    show jenny 180
-    jen "Боже мой..."
-    show jenny 179
-    show roxxy 40 with dissolve
-    rox "Это просто потрясно!"
-    show roxxy 39
-    show jenny 181
-    jen "Хахаха!"
+    jen "You're joking!"
     show jenny 179
     show roxxy 40
-    rox "Клянусь тебе, он будто машина для оргазмов!"
+    rox "Not even a little bit."
     show roxxy 39
     show jenny 180
-    jen "Интересно..."
+    jen "Holy shit..."
+    show jenny 179
+    show roxxy 40
+    rox "It's super crazy!"
+    show roxxy 39
+    show jenny 181
+    jen "Hahaha!"
+    show jenny 179
+    show roxxy 40
+    rox "I swear, he's like an orgasm machine!"
+    show roxxy 39
+    show jenny 180
+    jen "Interesting..."
     show jenny 179
     rox "..."
     show jenny 180
-    jen "Ну, да ладно... Хочешь выучить пару движений?"
+    jen "Well, anyways... You ready to learn some moves?"
     show jenny 179
     show roxxy 37
-    rox "А то!"
+    rox "Hell yeah!"
     show roxxy 39
     show jenny 180
-    jen "Отлично, сделаем это!"
+    jen "Cool, let's do it!"
     return
 
 
@@ -1660,32 +1661,32 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_after:
     scene black with fade
     scene hallway
     show player 33 with dissolve
-    player_name "( Вау!!! )"
+    player_name "( Wow!!! )"
     show player 17
-    player_name "( Может это была не такая уж и плохая идея! )"
+    player_name "( Maybe this wasn't such a bad idea after all! )"
     hide player with dissolve
     return
 
 label jennybedroom_talk_after_cuddle:
     show player 2
-    player_name "Просто хотел узнать, как у тебя дела."
+    player_name "I was just wondering how you're doing."
     show player 13
     show jenny 10 at Position(xpos = 937)
     jen "..."
     show jenny 9
-    jen "Обычно ты не спрашиваешь у меня что-то подобное..."
-    jen "Почему тебя внезапно это начало волновать?"
+    jen "You usually don't ask me those things..."
+    jen "Why do you care all of a sudden?"
     show player 2
     show jenny 9b
-    player_name "Просто, мне кажется, что мы должны быть немного ближе."
+    player_name "Well, sometimes I feel like we should be closer."
     show player 11
     show jenny 7 at right
-    jen "Послушай меня, идиот."
-    jen "Со мной всё в порядке, и мы НЕ друзья."
+    jen "Listen, you idiot."
+    jen "I'm fine, and we're NOT friends."
     show jenny 8
     show player 5
     player_name "..."
     show jenny 9 at Position(xpos = 937)
-    jen "Хочешь со мной о чем-то ещё поговорить, или я могу просто выпнуть тебя из моей комнаты?"
+    jen "Is there anything else you wanted to talk about, or can I just kick you out of my room?"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

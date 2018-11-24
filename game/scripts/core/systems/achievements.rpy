@@ -39,6 +39,16 @@ init:
 
         if persistent.achievements is None:
             persistent.achievements = {}
+
+        deleted_achievements = {}
+        for nameid in persistent.achievements.keys():
+            if nameid not in store.achievements_json.keys():
+                deleted_achievements[nameid] = persistent.achievements[nameid]
+
+        for nameid in deleted_achievements.keys():
+            del persistent.achievements[nameid]
+        del deleted_achievements
+
         for achievement in Achievement.get_instances():
             if achievement.nameid not in persistent.achievements.keys():
                 persistent.achievements[achievement.nameid] = True

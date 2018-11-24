@@ -2,9 +2,9 @@ label school_mia_study_reminder:
     scene expression "backgrounds/location_school_day_blur.jpg"
     show player 4
     with dissolve
-    player_name "( Хмм, я догнал программу по французскому языку, значит, {b}я могу помочь Мии с её учёбой{/b}. )"
+    player_name "( Hmm, now that I've caught up in French class, {b}I can help Mia with her studies{/b}. )"
     show player 1
-    player_name "( {b}Мне следует поговорить с ней об этом{/b}! )"
+    player_name "( {b}I should talk to her about it{/b}! )"
     return
 
 label school_dialogue:
@@ -59,7 +59,7 @@ label school_dialogue:
             $ erik_intro.finish()
             $ M_smith.trigger(T_smith_intro)
             $ M_roxxy.trigger(T_roxxy_teachers_berating)
-
+            $ game.lock_ui()
 
         elif M_dewitt.is_state(S_dewitt_talent_show_ask_annie) and not game.timer.is_dark():
             call expression game.dialog_select("school_hallway_dewitt_talent_show_ask_annie")
@@ -123,6 +123,7 @@ label school_dialogue:
             $ renpy.end_replay()
             $ persistent.cookie_jar["Roxxy"]["unlocked"] = True
             $ persistent.cookie_jar["Roxxy"]["gallery"]["03_unlocked"] = True
+            $ player.remove_item("smith_exams")
             $ M_roxxy.trigger(T_roxxy_gave_exams)
 
         elif M_roxxy.is_state(S_roxxy_dexter_flirt) and not game.timer.is_dark():
@@ -153,16 +154,16 @@ label school_dialogue:
         elif M_roxxy.is_state(S_roxxy_fight_dexter) and not game.timer.is_dark():
             call expression game.dialog_select("school_roxxy_fight_dexter")
             menu:
-                "Да.":
+                "No.":
                     show player 10 with dissolve
-                    player_name "Нет, это вопрос жизни и смерти... Мне нужно больше готовиться."
+                    player_name "No, this is life or death... I should really prepare more."
                     $ player.go_to(L_map)
                     $ game.main()
-                "Нет.":
+                "Yes.":
 
                     show player 12 with dissolve
-                    player_name "Хватит бегать..."
-                    player_name "Пора разделаться с {b}Декстером{/b} раз и навсегда!"
+                    player_name "No more running..."
+                    player_name "It's time to put {b}Dexter{/b} down for good!"
                     jump dexter_fight_minigame_prepare
             hide player with dissolve
 
@@ -170,6 +171,10 @@ label school_dialogue:
             call expression game.dialog_select("school_roxxy_locker_sex")
             call expression game.dialog_select("roxxy_locker_sex_loop_pre")
             jump expression game.dialog_select("roxxy_locker_sex_loop")
+
+        elif M_diane.is_state(S_diane_delivery_3) and not game.timer.is_dark():
+            call expression game.dialog_select("school_diane_delivery_3")
+            $ M_diane.trigger(T_diane_make_delivery_3)
         call pa_announcement
 
     elif not M_dewitt.is_state(S_dewitt_school_sneak_mission) and not game.timer.is_dark():

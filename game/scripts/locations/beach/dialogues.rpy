@@ -1,5 +1,5 @@
 label treasure_open_no_key:
-    player_name "( Даже если бы у меня была комбинация, мне всё равно надо найти {b}ключ{/b}! )"
+    player_name "( Even if I had the combination I still need to find the {b}key{/b}! )"
     return
 
 label beach_island_aqua_treasure_search:
@@ -7,41 +7,41 @@ label beach_island_aqua_treasure_search:
     show player 11 at left with dissolve
     pause
     show player 10
-    player_name "Какая {b}интересная статуя{/b}."
+    player_name "That's one {b}strange looking statue.{/b}"
     show player 2
     player_name "..."
-    player_name "Согласно карте, {b}сокровища{/b} должны быть здесь."
+    player_name "But according to the map, the {b}treasure{/b} should be right here."
     hide player with dissolve
     return
 
 label beach_statue_no_shovel:
     scene location_beach_island_blur
     show player 2 at left
-    player_name "( Без лопаты я {b}клад{/b} не {b}выкопаю{/b}. )"
+    player_name "( I can't dig for {b}buried treasure{/b} without a {b}shovel.{/b} )"
     show player 4
-    player_name "( ...Кажись, я видел её где-то {b}дома{/b}. )"
+    player_name "( ...I think we have one at {b}home{/b} somewhere. )"
     hide player with dissolve
     return
 
 label beach_statue_aqua_treasure_search:
     scene location_beach_digging01 with fade
-    show text "Я копал несколько часов..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I continued to dig for what must have been hours..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "...пока не устал, и руки не начали болеть." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "...before long I started to tire, my arms aching." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Обессилев я готов был отбросить эту затею." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Exhaustion was about to overtake me and I considered giving up." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Может не тут надо было копать?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Was I in the wrong spot?" at Position (xpos= 512, ypos= 700) with dissolve
     with dissolve
     pause
     hide text
     with dissolve
     scene location_beach_digging02 with fade
-    show text "... Вдруг! Лопата ударилась об что-то твёрдое!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "... Then, bang! My shovel hit something hard!" at Position (xpos= 512, ypos = 700) with dissolve
     pause
-    show text "Силы в миг вернулись, и вот, я уже достовал то что тут спрятал Бен Довэр." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "My strength returned in an instant as I hurried to uncover what Ben Dover had buried." at Position (xpos= 512, ypos = 700) with dissolve
     pause
-    show text "...это был большой, тяжёлый сундук; Это оно! Я нашёл клад!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...It was a large heavy chest; This was it! I had found the treasure!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -50,8 +50,8 @@ label beach_statue_aqua_treasure_search:
 
 label treasure_lock_intro:
     scene location_beach_lock with fade
-    player_name "О, нет.."
-    player_name "( Похоже что мне нужен {b}ключ{/b}...и {b}комбинация{/b} шифра что бы открыть. )"
+    player_name "oh man.."
+    player_name "( It looks like I need a {b}key{/b}...And a {b}combination{/b} to open this. )"
     return
 
 label treasure_unlocked:
@@ -72,9 +72,9 @@ label treasure_aqua_treasure_unlock:
     hide expression "objects/object_compass_01.png"
     call screen treasure_chest
     show closeup_compass_01 at Position(xalign = 0.5, yalign = 1.0) with dissolve
-    player_name "Урааа!!"
-    player_name "( Не могу поверить! Я нашёл сокровища! )"
-    player_name "( Это должно быть компас, о котором рассказывал Терри. )"
+    player_name "Whoa!!"
+    player_name "( I can't believe it! I found the treasure! )"
+    player_name "( This has to be the compass Terry was talking about. )"
     show popup_item_compass1 at truecenter with dissolve
     pause
     hide popup_item_compass1 with dissolve
@@ -84,8 +84,8 @@ label treasure_aqua_treasure_unlock:
 label beach_roxxy_spin_bottle_goldschwagger:
     scene expression game.timer.image("backgrounds/location_beach_water_day{}_blur.jpg")
     show player 13f at right with dissolve
-    player_name "( Вау, это идеальный день для пляжа! )"
-    player_name "( Интересно, а девочки уже здесь? )"
+    player_name "( Wow, this is the perfect day for the beach! )"
+    player_name "( I wonder if the girls are here already? )"
     hide player
     show roxxy bikini 17f at right
     with dissolve
@@ -96,122 +96,122 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy bikini 1f at Position (xpos=500)
     show player 14f at right
     with dissolve
-    player_name "Э-эй, {b}Рокси{/b}..."
+    player_name "H-hey, {b}Roxxy{/b}..."
     show player 13f
     show roxxy bikini 2f
-    rox "Я рада, что у тебя получилось!"
+    rox "I'm glad you made it!"
     show becca bikini 11 at Position(xpos=315)
     show missy bikini 1 at left
     with dissolve
     show roxxy bikini 1f
-    becca "Ого, вы обнимаетесь?"
+    becca "Eugh, you two are hugging now?"
     show becca bikini 12
     show missy bikini 2
-    missy "Привет, {b}[firstname]{/b}!!!"
+    missy "Hi, {b}[firstname]{/b}!!!"
     show missy bikini 1
     show player 14f
-    player_name "Привет, {b}Мисси{/b}! {b}Бекка{/b}..."
-    player_name "Вы выглядите красивыми в купальниках!"
+    player_name "Hey, {b}Missy{/b}! {b}Becca{/b}..."
+    player_name "You all look beautiful in your swimsuits!"
     show player 13f
     show missy bikini 2b
-    missy "Хехехе, правда?!"
+    missy "Hehehe, I do?!"
     show missy bikini 1b
     becca "..."
     show becca bikini 11
-    becca "Постарайся не пялиться, извращенец."
+    becca "Just try not to stare, Perv."
     show becca bikini 12
     show missy bikini 2b
-    missy "Этот топ делает мою грудь больше?"
+    missy "Does this top make my boobs look bigger?"
     show missy bikini 1b
     show becca bikini 14
-    becca "Силикон - это то, что заставит эти крошечные сиськи выглядеть больше..."
+    becca "Silicone is the only thing that's gonna make those tiny tits look bigger..."
     show becca bikini 12
     show missy bikini 11
     show player 5f
     player_name "..."
     show roxxy bikini 19 at Position (xpos=600) with dissolve
-    rox "{b}Бекка{/b}, ты собираешься быть стервой весь день?"
+    rox "Are you gonna be a bitch all day, {b}Becca{/b}?"
     show roxxy bikini 20
     show becca bikini 11
-    becca "... возможно."
-    becca "ОН будет здесь весь день?"
+    becca "... Maybe."
+    becca "Is HE gonna be here all day?"
     show becca bikini 12
     show roxxy bikini 19
-    rox "{b}*Вздох*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy bikini 20
     show player 10f
-    player_name "... {b}Бекка{/b}, Я..."
+    player_name "... {b}Becca{/b}, I umm..."
     show missy bikini 1
     show roxxy bikini 1f at Position (xpos=500) with dissolve
-    player_name "... Я принес тебе кое-что!"
+    player_name "... I brought you something!"
     show player 239_240f with dissolve
     show becca bikini 11
-    becca "Почему я должна что-то хотеть от-"
+    becca "Why would I want anything from-"
     show player 654bf with dissolve
     show becca bikini 6
     becca "!!!"
-    becca "ООО Бог мой!"
-    becca "Это же {b}GoldSchwagger{/b}!!!?"
+    becca "Oh my god!"
+    becca "Is that {b}GoldSchwagger{/b}!!!?"
     show player 654f
-    player_name "... Д-да?"
+    player_name "... Umm, yes?"
     show player 654bf
-    show becca 17
-    becca "ОООООООДДДДДДДДАААААА!!!"
+    show becca bikini 17
+    becca "OhmygodohmygodOHMYGOD!!!"
     show becca bikini 8
     show player 13f
     with dissolve
     show roxxy bikini 1 at Position (xpos=600) with dissolve
-    becca "Эта. штука. она. ЛУЧШАЯ!"
+    becca "This. stuff. is. THE BEST!"
     show becca bikini 7 with dissolve
-    becca "Спасибо за-"
+    becca "Thanks for-"
     show becca bikini 7c
     becca "..."
     show becca bikini 7
-    becca "То есть..."
+    becca "I mean..."
     show becca bikini 7b
     show roxxy bikini 2
-    rox "Видишь {b}Бекка{/b}."
-    rox "{b}[firstname]{/b} хороший парень!"
+    rox "See {b}Becca{/b}."
+    rox "{b}[firstname]{/b} is a good guy!"
     show roxxy bikini 1
     show missy bikini 2b
-    missy "И милый!"
+    missy "And cute!"
     show missy bikini 1b
     show becca bikini 7
-    becca "... Да, ну..."
-    becca "Полагаю, он неплох."
-    becca "Для ботана."
+    becca "... Yeah, well..."
+    becca "I guess he's not SO bad."
+    becca "For a nerd."
     show becca bikini 7b
     show missy bikini 2b
-    missy "Милый ботан!"
+    missy "A cute nerd!"
     show missy bikini 1b
     show roxxy bikini 2
-    rox "Ладно, {b}Мисси{/b}! Мы поняли!"
+    rox "Okay, {b}Missy{/b}! We get it!"
     show roxxy bikini 2f at Position (xpos=500) with dissolve
-    rox "Давайте начнем вечеринку."
-    rox "Мне нужно немного солнца!"
+    rox "C'mon, let's get this party started."
+    rox "I've gotta get some sun!"
     hide roxxy
     show becca bikini 8
     with dissolve
-    becca "Не могу поверить, что он принес мне {b}GoldSchwagger{/b}!"
+    becca "I can't believe he brought me {b}GoldSchwagger{/b}!"
     hide becca with dissolve
-    becca "{b}Декстер{/b} всегда забывал!"
+    becca "{b}Dexter{/b} always forgets!"
     show player 17f
     player_name "..."
     show missy bikini 2b
-    missy " {b}[firstname]{/b}, можешь сесть рядом со мной!"
+    missy "C'mon {b}[firstname]{/b}, you can sit next to me!"
     show missy bikini 1b
     show player 14f
-    player_name "Хех, звучит неплохо."
+    player_name "Heh, sounds good."
     hide player
     hide missy
     with dissolve
     scene expression "backgrounds/location_beach_cutscene02.jpg"
     with fade
-    show text "Прекрасная погода. Красивый пляж. Красивые девушки...\n... Что еще нужно пареньку?!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Beautiful weather. Beautiful beach. Beautiful girls...\n... What more could a guy ask for?!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Бекка{/b} и {b}Мисси{/b} возможно, не были величайшими собеседниками в мире...\nНо они восполнили эти недостатки другими способами!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Becca{/b} and {b}Missy{/b} may not have been the greatest conversationalists in the world...\nBut they made up for those shortcomings in other ways!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... и {b}Рокси{/b} оказалась на удивление хорошей компанией!\nМне показалось, что мы близки к тому, чтобы стать друзьями..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... And {b}Roxxy{/b} turned out to be surprisingly good company!\nIt almost felt like we were close to becoming friends..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -224,98 +224,98 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 1 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    rox "... А потом вся эта пирамида рухнула!!"
+    rox "... And then the entire pyramid collapsed!!"
     show roxxy sitting 2
     show missy sitting 5
-    missy "Хахахаха!"
+    missy "Hahahaha!"
     show missy sitting 2
     show player_sitting 4
-    player_name "Все это?!"
+    player_name "The whole thing?!"
     show player_sitting 3
     show becca sitting 3
-    becca "Да... и эта тощая сучка приземлилась первой, прямо мне на лицо!"
+    becca "Yeah... And this skinny bitch landed cunt first, right on my face!"
     show becca sitting 2
     show missy sitting 5
-    missy "Ааахахахаха!"
+    missy "Aaahahahaha!"
     show player_sitting 4
-    player_name "... Правда?!"
+    player_name "... Really?!"
     show player_sitting 3
     show roxxy sitting 3
-    rox "Это было довольно весело!"
+    rox "It was pretty hilarious!"
     show roxxy sitting 2
-    missy "{b}*фырк*{/b} Хахахаха!"
+    missy "{b}*Snort*{/b} Hahahaaaaah!"
     show becca sitting 7
-    becca "... Для тебя возможно!"
-    becca "Она тяжелее, чем кажется!"
+    becca "... For you maybe!"
+    becca "She's heavier than she looks!"
     show becca sitting 8
     show missy sitting 3
-    missy "По крайней мере ..."
+    missy "At least..."
     show missy sitting 5
-    missy "{b}*фырк*{/b} ... по крайней мере, в тот день на мне были трусики."
+    missy "{b}*Snort*{/b} ... At least I was wearing panties that day."
     show becca sitting 7
-    becca "Нет, те розовые стринги не в счет!"
+    becca "No, that little pink thong doesn't count!"
     show becca sitting 2
     show missy sitting 6
     show player_sitting 4
-    player_name "Ты помнишь цвет?"
+    player_name "You remember the color?"
     show player_sitting 3
     show becca sitting 3
-    becca "Ты шутишь? Изображение этих крошечных розовых стрингов, идущих на меня со скоростью сто миль в час, похоже на... Разрыв мозга!"
+    becca "Are you kidding? The image of that tiny pink thong coming at me, one hundred miles per hour, is like... Burned into my brain!"
     show becca sitting 5
-    becca "Как в кошмарном сне!"
+    becca "It haunts my nightmares!"
     show player_sitting 5
     show missy sitting 5
     show roxxy sitting 5
-    rox "Пффф, Хахаха!"
-    missy "Хахаха!"
-    becca "Хахаха!"
+    rox "Pfft, Hahaha!"
+    missy "Hahaha!"
+    becca "Hahaha!"
     show roxxy sitting 1
     show becca sitting 1
     show player_sitting 3
     player_name "..."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Уже поздно... Нам действительно нужно развести костер, если мы собираемся остаться."
+    rox "It's getting late... We should really get a fire going if we're gonna hang around."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 3
-    becca "Это хорошая идея-"
-    becca "У меня голова кругом идет..."
+    becca "That's a good idea-"
+    becca "Whew, my head is spinning..."
     show becca sitting 2
     show missy sitting 5
-    missy "Хахаха! {b}*фырк*{/b}"
+    missy "Hahahaha! {b}*Snort*{/b}"
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Блин, вы двое действительно не можете держать свой ликер."
+    rox "Sheesh, you two really can't hold your liquor."
     show missy sitting 2
     show roxxy sitting 2
     show player_sitting 4
-    player_name "Я сделаю это."
-    player_name "Девочки, вы просто расслабьтесь."
+    player_name "I'll do it."
+    player_name "You girls just chill."
     hide player_sitting with dissolve
     show becca sitting 3
-    becca "Вау, такой джентльмен..."
+    becca "Wow, such a gentleman..."
     show becca sitting 2
     rox "..."
     show roxxy sitting 3
-    rox "... наконец-то потеплела к нему?"
+    rox "... You finally warming up to him?"
     show roxxy sitting 2
     show becca sitting 3
-    becca "... может быть."
-    becca "Немного."
+    becca "... Maybe."
+    becca "A little bit."
     show becca sitting 2
     show roxxy sitting 3
-    rox "Сейчас самое подходящее время!"
+    rox "It's about time!"
     show roxxy sitting 2
     show missy sitting 3
     show becca sitting 8
-    missy "Серьезно."
+    missy "For real."
     show becca sitting 1
-    missy "Хей, {b}[firstname]{/b}?"
+    missy "Hey, {b}[firstname]{/b}?"
     show missy sitting 2
-    player_name "Хмм?"
+    player_name "Hmm?"
     show missy sitting 3
-    missy "Правда ли, что у ботаников огромные члены?!"
+    missy "Is it true nerds have huge dicks?!"
     show becca sitting 8
     show roxxy sitting 8
     becca "!!!" with hpunch
@@ -323,134 +323,134 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2
     show becca sitting 7b
     show roxxy sitting 7
-    becca "Какого черта, {b}Мисси{/b}?!"
+    becca "What the hell, {b}Missy{/b}?!"
     show becca sitting 6b
     show roxxy sitting 3
-    rox "Хорошоооо!"
+    rox "Oookay!"
     show becca sitting 6
-    rox "Нет, больше пива для нее..."
+    rox "No, more beer for her..."
     show roxxy sitting 2
     show missy sitting 3
-    missy "Да ладно, разве вам не любопытно?!"
+    missy "Oh c'mon, you can't tell me you guys aren't curious?!"
     show missy sitting 2
     show becca sitting 3
-    becca "Хахаха, ты такая тупая шлюха, {b}Мисси{/b}..."
+    becca "Hahaha, You're such a dumb slut, {b}Missy{/b}..."
     show becca sitting 2
     show roxxy sitting 5
-    rox "Хахаха!"
+    rox "Hahaha!"
     show roxxy sitting 2
     show missy sitting 3
-    missy "... И что?"
-    missy "Я хучу!"
+    missy "... So?"
+    missy "I'm having fun!"
     show missy sitting 6
     missy "..."
     show missy sitting 3
     show becca sitting 8
-    missy "О, боже! У меня появилась отличная идея!"
+    missy "Oh my gosh! I just had the best idea!"
     show becca sitting 2
     show missy sitting 2
     show roxxy sitting 3
-    rox "Ой-ё-ёй."
+    rox "Uh oh."
     show roxxy sitting 2
     show becca sitting 3
-    becca "Это должно быть круто."
+    becca "This should be good."
     show becca sitting 2
     show missy sitting 7
-    missy "Нет, серьезно, заткнись!"
+    missy "No seriously, shut up!"
     show missy sitting 3
     show becca sitting 8
-    missy "Мы должны поиграть в {b}Бутылочку{/b}!"
+    missy "We should play {b}Spin the Bottle{/b}!"
     show becca sitting 1
     show missy sitting 2
     show roxxy sitting 3
-    rox "Что?!"
+    rox "What?!"
     show roxxy sitting 2
     show missy sitting 3
-    missy "Да, давай! Это будет так весело!"
+    missy "Yeah, c'mon! It'll be so much fun!"
     show missy sitting 2
     show roxxy sitting 6
-    rox "Ты просто хочешь поцеловать {b}[firstname]{/b}..."
+    rox "You just wanna kiss {b}[firstname]{/b}..."
     show roxxy sitting 2
     show missy sitting 3
     show becca sitting 8
-    missy "Черт возьми!"
-    missy "Не так ли?!"
+    missy "Hell yeah!"
+    missy "Don't you?!"
     show becca sitting 1
     show missy sitting 2
     show roxxy sitting 7
     rox "..."
     show roxxy sitting 6
-    rox "О, нет ... Не совсем."
-    rox "... Я сомневаюсь что {b}Бекка{/b} хоч-"
+    rox "Uhh, no... Not really."
+    rox "... And I doubt {b}Becca{/b} wan-"
     show roxxy sitting 2
     show becca sitting 3
-    becca "Я в игре!"
+    becca "I'll play!"
     show becca sitting 2
     show roxxy sitting 7
     rox "!!!" with hpunch
     show roxxy sitting 8
-    rox "Правда?!"
+    rox "Really?!"
     show roxxy sitting 7
     show becca sitting 3
-    becca "Ну, почему бы и нет?"
-    becca "Я очень пьяна, так что, наверное, все равно не вспомню.."
+    becca "Meh, why not?"
+    becca "I'm pretty wasted so I probably won't remember anyways..."
     show roxxy sitting 1
     show becca sitting 2
     show missy sitting 5
-    missy "Это дух!"
+    missy "That's the spirit!"
     show missy sitting 2
     show roxxy sitting 2
     rox "..."
     show roxxy sitting 6
-    rox "Ну, я думаю, если вы, ребята, действительно хотите... Я буду играть."
+    rox "Well, I guess if you guys really want to... I'll play."
     show player_sitting 1 zorder 0 at Position (xpos=650) with dissolve
     show roxxy sitting 3
-    rox "Ты не против поиграть в бутылочку {b}[firstname]{/b}?"
+    rox "You okay with playing spin the bottle {b}[firstname]{/b}?"
     show roxxy sitting 2
     show player_sitting 4b
-    player_name "Ох... Не знаю."
-    player_name "Как это работает?"
+    player_name "Uhh... I dunno."
+    player_name "How does it work?"
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Ты серьезно не знаешь?"
+    rox "You seriously don't know?"
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 3
-    becca "Конечно, нет, он ботан..."
-    becca "Мы покажем тебе"
+    becca "Of course he doesn't, he's a nerd..."
+    becca "We'll show you."
     show becca sitting 2
     show missy sitting 3
     show becca sitting 8
-    missy "О, я первая!"
+    missy "Oh, I'm so going first!"
     show becca sitting 2
     show missy sitting 2
     show player_sitting 3b
     show roxxy sitting 6
-    rox "{b}*вздыхая*{/b} Хорошо."
+    rox "{b}*Sigh*{/b} Fine."
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 5
-    missy "УРА!!"
+    missy "Yay!!"
     show missy sitting 3
     show becca sitting 8
-    missy "Хорошо,так что все, что вам нужно сделать, это крутануть {b}Бутылочку{/b} и потом {b}Поцеловать того на кого она покажет{/b} когда остановится."
+    missy "Okay, so all you have to do is {b}Spin this bottle{/b} and then {b}Kiss whomever it's pointing at{/b} when it comes to a stop."
     show becca sitting 2
     show missy sitting 2
     show player_sitting 5
     player_name "!!!" with hpunch
     show player_sitting 4
-    player_name "Поцеловать?!"
-    player_name "В губы?"
+    player_name "Kiss?!"
+    player_name "Like on the lips?"
     show player_sitting 5
     show missy sitting 3
-    missy "Ага!"
+    missy "That's right!"
     show missy sitting 2
     show player_sitting 3b
     show roxxy sitting 6
-    rox "МЫ не будем играть если не хочешь..."
+    rox "We really don't have to play if you don't want to..."
     show roxxy sitting 2
     show player_sitting 4
-    player_name "Н-нет! Я буду играть!"
+    player_name "N-no! I'll play!"
     scene expression "backgrounds/location_beach_fire_dialogue.jpg"
     show roxxy sitting 6 zorder 1 at right
     show becca sitting 3 at Position (xpos=300)
@@ -458,32 +458,32 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    becca "Хе-хе, Я была уверена..."
+    becca "Hehe, I bet you will..."
     show becca sitting 2
     rox "..."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Хорошо."
+    rox "Alright."
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 4 with dissolve
-    missy "Хорошо, Я кручу первая!"
+    missy "Okay, so I spin first!"
     call screen spin_bottle("becca", True)
     show missy sitting 6
     missy "..."
     show missy sitting 3
-    missy "... И {b}[firstname]{/b} целует меня!"
+    missy "... And then {b}[firstname]{/b} kisses me!"
     show missy sitting 2
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Подожди-ка!"
-    rox "... она остановилась на {b}Бекка{/b}. А не на {b}[firstname]{/b}!"
+    rox "Wait a second!"
+    rox "... It landed on {b}Becca{/b}. Not {b}[firstname]{/b}!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
     show becca sitting 8
-    missy "Ох, правда?"
-    missy "{b}*вздыхая*{/b} Хорошо."
+    missy "Oh, did it?"
+    missy "{b}*Sigh*{/b} Fine."
     hide becca
     hide missy
     with dissolve
@@ -512,60 +512,60 @@ label beach_roxxy_spin_bottle_goldschwagger:
     player_name "!!!"
     show player_sitting 3
     show missy sitting 7
-    missy "Вот."
+    missy "There."
     show missy sitting 2
     show becca sitting 7b
-    becca "Что это было?!"
+    becca "What the hell was that?!"
     show becca sitting 6b
     show missy sitting 7
-    missy "А?"
+    missy "Huh?"
     show missy sitting 8
     show becca sitting 7b
-    becca "Ты называешь это поцелуем?"
+    becca "You call that a kiss?"
     show becca sitting 6b
     show missy sitting 1
     missy "..."
     show roxxy sitting 2
     rox "..."
     show missy sitting 7
-    missy "Что, ты хочешь, чтобы я тебя за язык или что?!"
+    missy "What, did you want me to slip you the tongue or something?!"
     show missy sitting 8
     show becca sitting 7b
-    becca "А?! Нет!"
-    becca "Я только..."
-    becca "Ты паршиво целуешься... Это все, что я хочу сказать."
+    becca "Huh?! NO!"
+    becca "I'm just..."
+    becca "You're a pretty sucky kisser... Is all I'm saying."
     show becca sitting 6b
     show missy sitting 7
-    missy "Заткнись!"
-    missy "Это нечестно, я не пыталась!"
-    missy "{b}[firstname]{/b}, я не пыталась!"
+    missy "Shut up!"
+    missy "That's not fair, I wasn't trying!"
+    missy "{b}[firstname]{/b}, I wasn't trying!"
     show missy sitting 8
     show becca sitting 1
     show player_sitting 5
     player_name "..."
     show player_sitting 4
-    player_name "Я не... Я имею в виду-"
+    player_name "I'm not... I mean-"
     show player_sitting 5
     show missy sitting 7
-    missy "Серьезно, я не был'-"
+    missy "Seriously, I wasn'-"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 6
-    rox "ДАЛЬШЕ!"
+    rox "MOVING ON!"
     show roxxy sitting 3
     show missy sitting 6
-    rox "{b}[firstname]{/b} твой черед."
+    rox "{b}[firstname]{/b} It's your turn."
     show roxxy sitting 2
     show missy sitting 2
     show player_sitting 4b
-    player_name "Хо-орошо..."
+    player_name "O-okay..."
     show player_sitting 15 with dissolve
     pause
     call screen spin_bottle("becca", True)
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Бекка{/b} опять!"
-    missy "Это подстроено!"
+    missy "{b}Becca{/b} again!"
+    missy "This is rigged!"
     show missy sitting 8
     hide player_sitting
     hide becca
@@ -575,7 +575,7 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player car 2b zorder 1
     show player_arms car 1 zorder 2
     with dissolve
-    becca "Это бутылка пива... Как бы мы подст-"
+    becca "It's a beer bottle... How would we rig-"
     show player front sitting 7b
     show player_arms front sitting 3
     show becca front sitting 3
@@ -603,57 +603,57 @@ label beach_roxxy_spin_bottle_goldschwagger:
     becca "..."
     rox "..."
     show missy sitting 7
-    missy "... Как все прошло?!"
+    missy "... How was it?!"
     show missy sitting 8
     show becca sitting 3
-    becca "... пока."
+    becca "... Wow."
     show becca sitting 1
     show player_sitting 5
     show missy sitting 3
-    missy "Было круто?!"
+    missy "Was it good?!"
     show missy sitting 2
     show becca sitting 2
     becca "..."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Это выглядело довольно хорошо!"
+    rox "It looked pretty good!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Бекка{/b}!!!"
+    missy "{b}Becca{/b}!!!"
     show missy sitting 8
     show becca sitting 6b
-    becca "Хмм?"
+    becca "Hmm?"
     show missy sitting 7
-    missy "Как все прошло?!"
+    missy "How was it?!"
     show missy sitting 8
     pause
     show becca sitting 3
-    becca "Очень хорошо..."
+    becca "Pretty good..."
     show becca sitting 2
     show player_sitting 4
-    player_name "Да?"
+    player_name "It was?"
     show player_sitting 3
     show missy sitting 2
     show becca sitting 3
-    becca "{b}*гммм*{/b} Я думаю... Да, наверное."
-    becca "... Для ботаника. Ты знаешь?"
+    becca "{b}*Ahem*{/b} I mean... Yeah, I guess."
+    becca "... For a nerd. You know?"
     show becca sitting 2
     show player_sitting 3b
     show roxxy sitting 4 with dissolve
-    rox "Хорошо, теперь моя очередь!"
+    rox "Alright, my turn!"
     call screen spin_bottle("missy", True)
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Хммм, {b}Мисси{/b}..."
+    rox "Hmm, {b}Missy{/b}..."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 3
-    becca "Предупреждаю. Она отстой."
+    becca "Be warned. She sucks."
     show becca sitting 2
     show missy sitting 7
-    missy "Я не!"
-    missy "Смотри!"
+    missy "I do not!"
+    missy "Watch this!"
     hide missy
     hide roxxy
     with dissolve
@@ -692,23 +692,23 @@ label beach_roxxy_spin_bottle_goldschwagger:
     with dissolve
     player_name "!!!"
     show roxxy sitting 6
-    rox "... Блин, ты наговорился?!"
+    rox "... Sheesh, did you use enough tongue?!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 3
-    missy "Воу... {b}Рокси{/b}, ты на вкус как вишня!"
+    missy "Wow... {b}Roxxy{/b}, you taste like cherries!"
     show missy sitting 2
     show roxxy sitting 6
-    rox "Охх... хорошо."
+    rox "Uhh... Right, okay."
     show roxxy sitting 3
-    rox "{b}Бекка{/b} твоя очередь."
+    rox "{b}Becca{/b} it's your turn."
     show roxxy sitting 2
     show becca sitting 4 with dissolve
     call screen spin_bottle("mc", True)
     show becca sitting 2 with dissolve
     show missy sitting 7
-    missy "{b}[firstname]{/b} опять?!"
-    missy "Это так несправедливо!"
+    missy "{b}[firstname]{/b} again?!"
+    missy "This is so unfair!"
     show missy sitting 8
     becca "..."
     rox "..."
@@ -726,16 +726,16 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player_arms front sitting 3
     show becca front sitting 3
     with dissolve
-    becca "Ммм..."
+    becca "Mmm..."
     show player front sitting 7
     show becca front sitting 3b
-    missy "О, боже..."
+    missy "Oh, man..."
     show player front sitting 7b
     show becca front sitting 3
     rox "..."
     show player front sitting 7
     show becca front sitting 3b
-    rox "... Ты должен поиграть с её титьками, {b}[firstname]{/b}."
+    rox "... You should play with her tits a little, {b}[firstname]{/b}."
     hide player
     hide player_arms
     hide player_shadow
@@ -749,40 +749,40 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 7 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "Что?!"
-    missy "Сиськи-это не часть игры!"
+    missy "What?!"
+    missy "Tits aren't part of the game!"
     show missy sitting 8
     show roxxy sitting 6
-    rox "Почему нет?"
+    rox "Why not?"
     show roxxy sitting 3
-    rox "Я просто говорю, они там."
+    rox "I'm just saying, they're right there."
     show roxxy sitting 2
     show becca sitting 3
-    becca "... Хорошо. Я солгала."
-    becca "Он действительно хорош в этом!"
+    becca "... Okay. I lied."
+    becca "He's really good at that!"
     show becca sitting 2
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Ха, теперь кто хочет его?"
+    rox "Hah, now who's falling in love with him?"
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 3
-    becca "Заткнись!"
+    becca "Shut up!"
     show becca sitting 2
     show missy sitting 4 with dissolve
-    missy "Обе заткнитесь, моя очередь!"
+    missy "Both of you shut up, it's my turn!"
     show missy sitting 2 with dissolve
     call screen spin_bottle("becca", True)
     show missy sitting 7
-    missy "Да ладно, {b}Бекка{/b} опять?!"
-    missy "Что за черт!"
+    missy "Oh c'mon, {b}Becca{/b} again?!"
+    missy "What the hell!"
     show missy sitting 8
     show roxxy sitting 3
-    rox "Заткнись и целуй ее!"
-    rox "Правильно на этот раз!"
+    rox "Just shut up and kiss her!"
+    rox "Properly this time!"
     show roxxy sitting 2
     show missy sitting 7
-    missy "{b}*вздох*{/b} Хорошо."
+    missy "{b}*Sigh*{/b} Fine."
     hide missy
     hide becca
     with dissolve
@@ -798,19 +798,19 @@ label beach_roxxy_spin_bottle_goldschwagger:
     pause
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
-    rox "Теперь это намного лучше."
+    rox "Now that's much better."
     show becca front sitting 3bf at Position (xoffset=-4)
     show missy front sitting 3 at Position (xoffset=4)
     player_name "..."
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
-    rox "Готова поспорить, ты рад, что сегодня вечером пошёл к нам. Хм, {b}[firstname]{/b}?"
+    rox "I bet you're glad you came to hang out with us tonight. Huh, {b}[firstname]{/b}?"
     show becca front sitting 3bf at Position (xoffset=-4)
     show missy front sitting 3 at Position (xoffset=4)
-    player_name "... Определенно!"
+    player_name "... Definitely!"
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
-    rox "Хах!"
+    rox "Hah!"
     hide missy
     hide becca
     hide missy_arm
@@ -823,22 +823,22 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 3 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "Видите, я же говорила что хорошо целуюсь!"
+    missy "See, I told you I'm a good kisser!"
     show missy sitting 2
     show becca sitting 7b
-    becca "Не знаю кто тебе это сказал, но они солгали!"
-    becca "Ты... весь язык!"
+    becca "I dunno who told you that but they were lying!"
+    becca "You're all tongue!"
     show missy sitting 8
     show becca sitting 2
     show roxxy sitting 5
-    rox "Хаха!"
+    rox "Haha!"
     show roxxy sitting 2
     show missy sitting 7
-    missy "Да пошли вы обе!"
+    missy "Grr, screw you both!"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Ладно, теперь очередь {b}[firstname]{/b}!"
+    rox "Okay, {b}[firstname]'s{/b} turn!"
     show roxxy sitting 2
     show missy sitting 2
     show player_sitting 15 with dissolve
@@ -847,10 +847,10 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player_sitting 3b
     show missy sitting 8
     show roxxy sitting 3
-    rox "О, похоже, это твоя счастливая ночь."
+    rox "Oh, it looks like it's your lucky night."
     show roxxy sitting 2
     show missy sitting 7
-    missy "Это отстой..."
+    missy "This sucks..."
     show missy sitting 8
     hide player_sitting
     hide roxxy
@@ -867,13 +867,13 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy front sitting 3b at Position (xoffset=3)
     show roxxy_arm front sitting 1 at Position (xoffset=3)
     with dissolve
-    rox "Ммм..."
+    rox "Mmm..."
     show player front sitting 7b at Position (xoffset=-3)
     show roxxy front sitting 3 at Position (xoffset=3)
-    becca "Он неплох, верно!"
+    becca "He's good, right!"
     show player front sitting 7 at Position (xoffset=-3)
     show roxxy front sitting 3b at Position (xoffset=3)
-    missy "... Так нечестно."
+    missy "... So unfair."
     show player front sitting 7b at Position (xoffset=-3)
     show roxxy front sitting 3 at Position (xoffset=3)
     pause
@@ -891,43 +891,43 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 8 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    rox "Черт, {b}[firstname]{/b}..."
+    rox "Holy shit, {b}[firstname]{/b}..."
     show roxxy sitting 6
-    rox "Почему у тебя это так хорошо получается?!"
+    rox "Why are you so good at that?!"
     show roxxy sitting 2
     show player_sitting 4b
-    player_name "... Я не знаю."
+    player_name "... I dunno."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Просто... Вау!"
+    rox "Just... Wow!"
     show roxxy sitting 2
     show missy sitting 3
     show player_sitting 7
-    missy "Давай, продолжим в том же духе!"
+    missy "C'mon, let's keep it going!"
     show missy sitting 8
     rox "..."
     show missy sitting 7
-    missy "{b}Рокси{/b}!!!"
+    missy "{b}Roxxy{/b}!!!"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Хмм?"
+    rox "Hmm?"
     show roxxy sitting 2
     show missy sitting 7
-    missy "Твой черёд!"
+    missy "It's your turn!"
     show missy sitting 8
     show roxxy sitting 3
-    rox "Ой, прости..."
+    rox "Oh, sorry..."
     show roxxy sitting 4 with dissolve
     call screen spin_bottle("becca", True)
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "{b}Бекка{/b} опять."
+    missy "{b}Becca{/b} again."
     show missy sitting 8
     rox "..."
     show missy sitting 7
-    missy "Почему всегда {b}Бекка{/b}?!"
+    missy "Why is it always {b}Becca{/b}?!"
     show missy sitting 8
     hide roxxy
     hide becca
@@ -944,11 +944,11 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show roxxy front sitting 3b at Position (xoffset=5)
     show roxxy_arm front sitting 2c
     show becca front sitting 3f
-    missy "Вау!"
+    missy "Whoa!"
     show roxxy front sitting 3 at Position (xoffset=5)
     show roxxy_arm front sitting 2d
     show becca front sitting 3bf
-    missy "Она на самом деле потянулась за её сиськами!"
+    missy "She actually went for her tits!"
     show roxxy front sitting 3b at Position (xoffset=5)
     show roxxy_arm front sitting 2c
     show becca front sitting 3f
@@ -965,45 +965,45 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 2 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    becca "Какого черта, {b}Рокси{/b}?!"
+    becca "What the hell, {b}Roxxy{/b}?!"
     show becca sitting 6
     show roxxy sitting 6
-    rox "О, не делай вид, будто тебе это не нравится."
+    rox "Oh, don't pretend like you didn't like it."
     show roxxy sitting 3
-    rox "Твои соски как камень."
+    rox "Your nipples are as hard as a rock."
     show roxxy sitting 2
     show becca 8b
     becca "!!!"
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Кроме того, это скучно, если это просто поцелуи."
+    rox "Besides, this is boring if it's just kissing."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 1
     becca "..."
     show missy sitting 3
-    missy "Я согласна!"
+    missy "I agree!"
     show missy sitting 2
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Уверена, что {b}[firstname]{/b} понравилось!"
+    rox "I bet {b}[firstname]{/b} liked it!"
     show roxxy sitting 2
     show player_sitting 4
-    player_name "Д-да!"
-    player_name "Это было круто!"
+    player_name "Y-yeah!"
+    player_name "That was awesome!"
     show player_sitting 3
     show roxxy sitting 5
     show missy sitting 5
     show becca sitting 5
-    rox "Хахаха!"
-    missy "Хахаха!"
-    becca "Хахаха!"
+    rox "Hahaha!"
+    missy "Hahaha!"
+    becca "Hahaha!"
     show roxxy sitting 3
     show missy sitting 2
     show becca sitting 2
     show player_sitting 3b
-    rox "Смотри {b}Becca{/b}, я знаю, что я делаю."
-    rox "Вращай, сучка!"
+    rox "See {b}Becca{/b}, I know what I'm doing."
+    rox "Spin it, bitch!"
     show roxxy sitting 2
     show player_sitting 3
     becca "..."
@@ -1016,40 +1016,40 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 6
     missy "!!!"
     show missy sitting 7
-    missy "Это какое-то дерьмо!"
+    missy "This is such bullshit!"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Заткнись, {b}Мисси{/b}!"
+    rox "Shut up, {b}Missy{/b}!"
     show roxxy sitting 3
-    rox "Некоторые из нас пытаются насладиться шоу!"
-    rox "Иди {b}[firstname]{/b} и поиграй с её сиськами на этот раз!"
+    rox "Some of us are trying to enjoy the show!"
+    rox "Get in there {b}[firstname]{/b} and play with her tits this time!"
     show roxxy sitting 2
     show player_sitting 4b
-    player_name "... Правда?"
+    player_name "... Really?"
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Черт возьми, да!"
-    rox "У {b}Бекки{/b} хорошая стойка."
+    rox "Hell yeah!"
+    rox "{b}Becca's{/b} got a nice rack."
     show roxxy sitting 6
-    rox "... Не так хороша, как у меня, но..."
+    rox "... Not as nice as mine but..."
     show roxxy sitting 2
     show becca sitting 7
-    becca "Пошла ты, {b}Рокси{/b}."
+    becca "Screw you, {b}Roxxy{/b}."
     show becca sitting 6
     show roxxy sitting 3
-    rox "Ты же знаешь, что хочешь, сука..."
+    rox "You know you want it, bitch..."
     show roxxy sitting 2
     show missy sitting 3
-    missy "Я хочу!"
+    missy "I want it!"
     show missy sitting 5
-    missy "Ахахаах!"
+    missy "Ahahaah!"
     show becca sitting 6b
     becca "..."
     show roxxy sitting 3
-    rox "Видишь, она полностью возбуждена!"
+    rox "See, she's totally turned on!"
     show becca sitting 9
-    rox "Давай, {b}[firstname]{/b}!"
+    rox "Do it, {b}[firstname]{/b}!"
     show roxxy sitting 2
     hide becca
     hide player_sitting
@@ -1065,11 +1065,11 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player_arms front sitting 4
     show becca front sitting 3b
     with dissolve
-    becca "Мммм..."
+    becca "Mmmm..."
     show player front sitting 7b
     show player_arms front sitting 4d
     show becca front sitting 3
-    missy "Я как желе..."
+    missy "I'm so jelly right now..."
     show player front sitting 7
     show player_arms front sitting 4
     show becca front sitting 3b
@@ -1077,11 +1077,11 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show player front sitting 7b
     show player_arms front sitting 4d
     show becca front sitting 3
-    becca "Нннн!"
+    becca "Nnngh!"
     show player front sitting 7
     show player_arms front sitting 4
     show becca front sitting 3b
-    missy "Черт!"
+    missy "Damn!"
     hide player
     hide player_shadow
     hide player_arms
@@ -1095,80 +1095,80 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy sitting 6 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    becca "Ахх..."
+    becca "Ahh..."
     show becca sitting 2
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Продолжай!"
+    rox "You should have kept going!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "Что?! Ни за что, теперь моя очередь!"
+    missy "What?! No way, it's my turn!"
     show missy sitting 8
     show player_sitting 3b
     show roxxy sitting 3
-    rox "... Ох, заткнись, {b}Мисси{/b}."
+    rox "... Oh, shut up, {b}Missy{/b}."
     show roxxy sitting 6
-    rox "Посмотрите на нее."
-    rox "Пару часов назад она не хотела с ним ничего делать."
+    rox "Look at her."
+    rox "A couple of hours ago she didn't want anything to do with him."
     show roxxy sitting 3
-    rox "А сейчас готова запрыгнуть на него."
+    rox "Now she's totally ready to jump his bone."
     show roxxy sitting 2
     show player_sitting 5
     show becca sitting 7
-    becca "Не готова!"
+    becca "I am not!"
     show becca sitting 6
     show player_sitting 3b
     show roxxy sitting 5
-    rox "Ага. Щас!"
+    rox "Hah. Yeah right!"
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 7
-    missy "Могу я покрутить, пожалуйста?"
+    missy "Can I spin now, please?"
     show missy sitting 8
     show roxxy sitting 6
-    rox "Бьюсь об заклад, твоя киска сейчас намокнет!"
+    rox "I bet your pussy is sopping wet right now!"
     show roxxy sitting 2
     show becca sitting 8b
     show player_sitting 5
     becca "..."
     show missy sitting 7
-    missy "К черту все, я верчу!"
+    missy "Screw it, I'm spinning!"
     show player_sitting 3
     show missy sitting 8
     show roxxy sitting 3
-    rox "Признай это!"
+    rox "Admit it!"
     show roxxy sitting 2
     show becca sitting 10b
-    becca "... Заткнись!"
+    becca "... Shut up!"
     show roxxy sitting 5
     show becca sitting 10
-    rox "Ахаха, я так и знала!"
+    rox "Ahaha, I knew it!"
     show missy sitting 4 with dissolve
     player_name "..."
     call screen spin_bottle("mc", True)
     show missy sitting 5
     show becca sitting 9
-    missy "ДА!"
-    missy "НАКОНЕЦ!"
+    missy "YES!"
+    missy "Finally!"
     show missy sitting 2
     becca "..."
     show missy sitting 3
-    missy "Ладно, не стесняйся, можешь щупать все, что хочешь, {b}[firstname]{/b}!"
+    missy "Okay, feel free to grope whatever you want, {b}[firstname]{/b}!"
     show missy sitting 2
     show roxxy sitting 5
-    rox "Хахаха!"
+    rox "Hahahaah!"
     show roxxy sitting 3
-    rox "Ты грязная шлюшка, {b}Мисси{/b}!"
+    rox "You are such a dirty slut, {b}Missy{/b}!"
     show roxxy sitting 2
     show becca sitting 2
     show missy sitting 7
-    missy "Шшшш, не порти все!"
+    missy "Shhh, don't ruin this for me!"
     show missy sitting 9
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Вперед, {b}[firstname]{/b}."
-    rox "Дай ей это."
+    rox "Go ahead, {b}[firstname]{/b}."
+    rox "Give it to her."
     show roxxy sitting 2
     hide becca
     hide player_sitting
@@ -1203,11 +1203,11 @@ label beach_roxxy_spin_bottle_goldschwagger:
     scene black
     with dissolve
     scene expression "backgrounds/location_beach_cutscene03.jpg" with fade
-    show text "Это оказалась замечательная ночь!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "This turned out to be a wonderful night!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Не могу поверить что встречался с {b}Рокси{/b} и {b}её подружками{/b}!\nНикто мне не поверит!\n... И {b}Рокси{/b} подталкивала их к дальнейшему!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I can't believe I'm actually making out with {b}Roxxy{/b} and {b}her friends{/b}!\nNobody is going to believe me!\n... And {b}Roxxy{/b} is even pushing her friends to take things further!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Интересно, зачем она это делала?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Why would she do that, I wonder?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1218,89 +1218,89 @@ label beach_roxxy_spin_bottle_goldschwagger:
     show missy bikini 1b at left
     show player 14f at right
     with dissolve
-    player_name "Я должен ... На самом деле вернуться домой."
-    player_name "Очень поздно."
+    player_name "I should... Really get home."
+    player_name "It's getting super late."
     show player 13f
     show missy bikini 2
-    missy "О, нет....."
+    missy "Aww, but..."
     show missy bikini 1
     show roxxy bikini 2 at Position (xpos=600) with dissolve
-    rox "{b}[firstname]{/b} прав."
-    rox "Мы должны отвезти пышку домой, пока она не вырубилась."
+    rox "{b}[firstname]{/b}'s right."
+    rox "We gotta get the lush over here home before she passes out."
     show roxxy bikini 1
     show becca bikini 10
-    becca "Хмм?"
-    becca "Нет, Я... {b}*зевая*{/b}..."
-    becca "... Я в порядке!"
+    becca "Hmm?"
+    becca "No, I'm... {b}*Yawn*{/b}..."
+    becca "... I'm fine!"
     show becca bikini 9
     show roxxy bikini 2
-    rox "Ага, точно."
-    rox "Я её не понесу!"
+    rox "Yeah, right."
+    rox "I'm not carrying her this time!"
     show roxxy bikini 1
     show missy bikini 8
-    missy "Эй, в последний раз я её несла!"
+    missy "Hey, I had to carry her last time!"
     show missy bikini 1
     show roxxy bikini 2
-    rox "Ну, тебе лучше надеяться, что она сама дойдет до дома."
-    rox "'Потому, что я её не понесу!"
+    rox "Well, you'd better hope she makes it home then."
+    rox "'Cause I'm not doing it!"
     show roxxy bikini 1
     show missy bikini 8
-    missy "Ахх, блин..."
+    missy "Ahh, man..."
     show missy bikini 1
     show roxxy bikini 1f at Position (xpos=500) with dissolve
     show player 14f
-    player_name "Спасибо за прекрасный вечер дамы!"
+    player_name "Thanks for the great night ladies!"
     show player 13f
     show becca bikini 10
-    becca "Спасибо за {b}GoldSchwagger, [firstname]{/b}!"
+    becca "Thank you for the {b}GoldSchwagger, [firstname]{/b}!"
     show becca bikini 9
     show player 14f
-    player_name "Хех, незачто!"
+    player_name "Heh, my pleasure!"
     hide becca with dissolve
     pause
     hide player
     show roxxy bikini 17f at right
     with dissolve
-    rox "Увидемся в школе, {b}[firstname]{/b}."
+    rox "I'll see you at school, {b}[firstname]{/b}."
     show roxxy bikini 18f
-    player_name "Спасибо за приглашение, {b}Рокси{/b}!"
+    player_name "Thanks for inviting me, {b}Roxxy{/b}!"
     hide roxxy
     show roxxy bikini 2f at Position (xpos=500)
     show player 13f at right
     with dissolve
-    rox "Да, было весело!"
-    rox "... Может повторим в {b}следующии выходные{/b}!"
+    rox "Yeah, it was fun!"
+    rox "... Maybe we'll do it again {b}next weekend{/b}!"
     hide roxxy with dissolve
     show missy bikini 1b
     missy "..."
     player_name "..."
     show missy bikini 2b
-    missy "Ну... Ааа..."
-    missy "Звони... как-нибудь?"
+    missy "So... Uhh..."
+    missy "Call me... Sometime?"
     show player 11f
-    missy "K, пока!"
+    missy "K, bye!"
     hide missy with dissolve
     show player 10f
-    player_name "Подожди!"
+    player_name "Wait!"
     show player 5f
     player_name "..."
     show player 12f
-    player_name "Ты не давала мне свой номер..."
+    player_name "You never gave me your number..."
     show player 5f
     player_name "..."
     show player 10f
-    player_name "О, ну."
+    player_name "Oh, well."
     show player 17f
-    player_name "( Чувак, ну и ночка выдалась! )"
-    player_name "( Мне лучше вернуться домой, пока {b}[deb_char_name]{/b} не начала волноваться. )"
+    player_name "( Man, what a night! )"
+    player_name "( I'd better get home before {b}Debbie{/b} starts worrying. )"
     hide player with dissolve
     return
 
 label beach_roxxy_spin_bottle_no_goldschwagger:
     scene expression game.timer.image("backgrounds/location_beach_water_day{}_blur.jpg")
     show player 5 with dissolve
-    player_name "( {b}Рокси{/b} и ее друзья там, но я не могу пойти с пустыми руками! )"
-    player_name "Я должен поговорить с {b}Капитаном Терри{/b} о бутылке {b}GoldSchwagger{/b} для {b}Бекки{/b} сначала... )"
+    player_name "( {b}Roxxy{/b} and her friends are over there but I can't go in empty handed! )"
+    player_name "I should speak with {b}Captain Terry{/b} about getting a bottle of {b}GoldSchwagger{/b} for {b}Becca{/b} first... )"
     hide player with dissolve
     return
 
@@ -1311,58 +1311,58 @@ label beach_roxxy_spin_bottle_wrong_time:
     show missy bikini 12 at left
     show player 13f at right
     with dissolve
-    rox "Пфф, ну посмотрите, кто, наконец, решил появился!"
+    rox "Psh, well look who finally decided to showed up!"
     show roxxy bikini 20f
     show player 5f
     show becca bikini 17
-    becca "Ботан!"
+    becca "Nerd!"
     show missy bikini 8
-    missy "Ты пропустил всю вечеринку, {b}[firstname]{/b}!"
+    missy "You missed the entire party, {b}[firstname]{/b}!"
     show missy bikini 12
-    becca "Хахаха, ботанский ботан!"
+    becca "Hahaha, nerdy neeeeerd!"
     show becca bikini 1b
     show player 12f
-    player_name "{b}Бекка{/b} вставило?"
+    player_name "Is {b}Becca{/b} hammered?"
     show becca bikini 17
     show missy bikini 1
     show player 5f
     show roxxy bikini 19bf
-    rox "Да, мы собирались отвезти её домой..."
+    rox "Yeah, we were just about to take her home..."
     show roxxy bikini 20f
     show player 10f
-    player_name "О, понятно."
+    player_name "Oh, alright."
     show becca bikini 1b
-    player_name "Вам нужна помощь или что-то ещё?"
+    player_name "Do you need help or something?"
     show player 5f
     show roxxy bikini 19f
-    rox "Нет, мы сами."
-    rox "Я думала, когда самая популярная девушка в школе приглашает тебя на вечеринку, ты приходишь вовремя..."
+    rox "No, we've got it."
+    rox "I'd think that when the most popular girl in school invites you to a party, you'd show up for it on time..."
     show roxxy bikini 20f
     show player 10f
-    player_name "Прости, {b}Рокси{/b}. Я, должно быть, запуталась..."
+    player_name "I'm sorry, {b}Roxxy{/b}. I must have gotten confused..."
     show player 5f
     show roxxy bikini 19f
-    rox "Да, или ты меня не слушал!"
-    rox "В любом случае, я должен позаботиться о пьяной заднице {b}Бекки{/b} ..."
+    rox "Yeah or you weren't listening!"
+    rox "Whatever, I've gotta tend to {b}Becca's{/b} drunk ass..."
     hide roxxy
     hide becca
     with dissolve
-    becca "БББОООТТТТАААННН!!!"
-    becca "Хахаха!"
+    becca "NEEEEEEERD!!!"
+    becca "Hahaha!"
     show player 37f with dissolve
-    player_name "Я действительно облажался..."
+    player_name "I really screwed up..."
     show player 5f with dissolve
     show missy bikini 2
-    missy "Ничего страшного, {b}[firstname]{/b}"
-    missy "{b}Просто приходи днем в следующие выходные{/b}."
-    missy "{b}Рокси{/b} будет здесь."
+    missy "It's okay, {b}[firstname]{/b}"
+    missy "{b}Just show up in the afternoon next weekend{/b}."
+    missy "{b}Roxxy{/b} will be over it by then."
     show missy bikini 1
     show player 10f
-    player_name "А, хорошо."
-    player_name "Спасибо, {b}Мисси{/b}."
+    player_name "Yeah, alright."
+    player_name "Thanks, {b}Missy{/b}."
     show player 5f
     show missy bikini 2b
-    missy "Пока!"
+    missy "See ya!"
     hide player
     hide missy
     with dissolve
@@ -1371,13 +1371,13 @@ label beach_roxxy_spin_bottle_wrong_time:
 label beach_roxxy_invite_to_bikini_contest:
     scene expression "backgrounds/location_beach_water_contest_day_blur02.jpg"
     show player 14f at right with dissolve
-    player_name "Вау, посмотрите на это место!"
-    player_name "Здесь так много бикини!"
+    player_name "Whoa, look at this place!"
+    player_name "There are so many bikinis!"
     show player 31f with dissolve
     player_name "..."
     show player 32f
-    player_name "Хей, это же {b}Капитан Терри{/b} там?!"
-    player_name "Я должен пойти и посмотреть, что он делает здесь."
+    player_name "Hey, is that {b}Captain Terry{/b} up there?!"
+    player_name "I should go and see what he's doing here."
     hide player with dissolve
     return
 
@@ -1386,97 +1386,97 @@ label beach_cabin_roxxy_in_cabin:
     show roxxy bikini 13f at right
     show player 10 at left
     with dissolve
-    player_name "... {b}Рокси{/b}?"
-    player_name "Ты в порядке?"
+    player_name "... {b}Roxxy{/b}?"
+    player_name "You alright?"
     show player 5
     show roxxy bikini 15f
-    rox "... Нет."
-    rox "Фу, это было так неловко!"
+    rox "... No."
+    rox "Ugh, that was so embarrassing!"
     show roxxy bikini 14f
     show player 10
-    player_name "Не так все плохо."
-    player_name "Я не думаю, что кто-нибудь видел кроме {b}Бекки{/b} и меня..."
+    player_name "It's not so bad."
+    player_name "I don't think anybody saw but {b}Becca{/b} and I..."
     show player 5
     show roxxy bikini 15f
-    rox "... Правда?"
+    rox "... Really?"
     show roxxy bikini 14f
     show player 14
-    player_name "Да."
-    player_name "Кроме того, даже если кто-то видел... Какая разница?"
+    player_name "Yeah."
+    player_name "Besides, even if somebody did... Who cares?"
     show player 18
-    player_name "У тебя потрясающая грудь!"
-    player_name "Определенно нечего стыдиться ..."
+    player_name "You have amazing breasts!"
+    player_name "Definitely nothing to be ashamed of..."
     show player 13
     rox "..."
     show roxxy bikini 15 with dissolve
-    rox "Да, я думаю, ты прав."
+    rox "Yeah, I guess you're right about that."
     show roxxy bikini 14
     rox "..."
     show roxxy bikini 13
-    rox "... но что мне теперь делать?!"
-    rox "Я не могу участвовать в конкурсе в порваном бикини!"
+    rox "... But what am I going to do?!"
+    rox "I can't compete in the contest with a broken bikini top!"
     show roxxy bikini 14
     show player 10
-    player_name "У тебя есть запасной?"
+    player_name "You don't have a back up?"
     show player 5
     show roxxy bikini 13
-    rox "... Нет."
+    rox "... No."
     show roxxy bikini 14
     show player 34
     player_name "..."
     show player 14
-    player_name "Не волнуйся, {b}Рокси{/b}."
-    player_name "Я щас пойду и куплю тебе новый!"
+    player_name "Don't worry, {b}Roxxy{/b}."
+    player_name "I'll just go and buy you a new one!"
     show player 13
     show roxxy bikini 15
-    rox "Ты не успеешь!"
+    rox "We don't have time for that!"
     show player 5
-    rox "Сорревнование вот вот начнется, {b}[firstname]{/b}!"
+    rox "The competition is starting soon, {b}[firstname]{/b}!"
     show roxxy bikini 13
-    rox "... Я облажалась."
+    rox "... I'm completely screwed."
     show roxxy bikini 14
     show player 10
-    player_name "Успокойся."
-    player_name "Я что нибудь придумаю!"
+    player_name "Calm down."
+    player_name "I'll find you something!"
     show player 5
     show roxxy bikini 15
-    rox "Да, хорошо!"
-    rox "Где ты его найдешь?"
+    rox "Yeah, right!"
+    rox "Where are you going to find one?"
     show roxxy bikini 14
     show player 10
-    player_name "Ну, на пляже..."
+    player_name "Well, this is a beach..."
     show player 14
-    player_name "{b}Где-то же должен быть ещё купальник{/b}."
+    player_name "{b}There's gotta be an extra bathing suit here somewhere.{/b}"
     show player 13
     show roxxy bikini 15b
-    rox "Иди и скажи {b}Бекка{/b} чтобы она отдала мне свой!"
+    rox "Go and tell {b}Becca{/b} to bring me hers!"
     show roxxy bikini 15c
     show player 12
-    player_name "Ааа?"
-    player_name "Ты хочешь взять купальник {b}Бекки{/b}?"
+    player_name "Huh?"
+    player_name "You want to take {b}Becca's{/b} swimsuit?"
     show player 5
     show roxxy bikini 15b
-    rox "Да, эта сука отдаст его мне, если я ей скажу."
+    rox "Yeah, that bitch will give it to me if I tell her too."
     show roxxy bikini 15c
     show player 12
-    player_name "... Но тогда, что она будет носить?"
+    player_name "... But then, what is she going to wear?"
     show player 5
     show roxxy bikini 15b
-    rox "Умм, кого это волнует?"
-    rox "Не похоже, что она все равно выиграет!"
+    rox "Umm, who cares?"
+    rox "It's not like she's gonna win anyways!"
     show roxxy bikini 15c
     show player 10
-    player_name "Не надо, {b}я найду тебе другой!{/b}"
+    player_name "Don't do that, {b}I'll find you one!{/b}"
     show player 5
     show roxxy bikini 15b
-    rox "Хмм, ладно!"
-    rox "Я дам тебе 10 минут, а потом забуру у {b}Бекки{/b}..."
+    rox "Hmm, fine!"
+    rox "I'll give you ten minutes but after that, I'm taking {b}Becca's{/b}..."
     show roxxy bikini 15c
     show player 10
-    player_name "Я быстро."
+    player_name "I'll be back."
     hide player with dissolve
     show roxxy bikini 15b
-    rox "... только не уродливый!"
+    rox "... Don't get me an ugly one either!"
     hide roxxy with dissolve
     return
 
@@ -1485,17 +1485,17 @@ label beach_cabin_roxxy_get_new_bikini:
     show player 5 at left
     show roxxy bikini 15 at right
     with dissolve
-    rox "Ну что, нашел?!"
+    rox "Did you find one?!"
     show roxxy bikini 14
     show player 10
-    player_name "Не волнуйся, {b}я найду тебе купальник!{/b}"
+    player_name "Stop worrying, {b}I'll find you a swimsuit!{/b}"
     show player 5
     show roxxy bikini 15b
-    rox "Хррр!"
-    rox "Ну, лучше найди побыстрее, или я заберу у {b}Бекки{/b}..."
+    rox "Hmph!"
+    rox "Well, it had better be a good one, otherwise I'm taking {b}Becca's{/b}..."
     hide roxxy with dissolve
     show player 10
-    player_name "Хмм, {b}Я должен найти здесь бикини, которую никто не использует{/b}."
+    player_name "Hmm, {b}I should look around here for a bikini that nobody's using{/b}."
     hide player with dissolve
     return
 
@@ -1504,26 +1504,26 @@ label beach_cabin_roxxy_has_bikini:
     show roxxy bikini 14 at right
     show player 14 at left
     with dissolve
-    player_name "{b}Рокси{/b}, вроде нашел!"
+    player_name "{b}Roxxy{/b}, I think I've found one!"
     show roxxy bikini 15
-    rox "Правда?!"
-    rox "Покажи, покажи!"
+    rox "Really?!"
+    rox "Lemme see, lemme see!"
     show roxxy bikini 14
     show player 239_240 with dissolve
     pause
     show player 656b with dissolve
     show roxxy bikini 15
-    rox "*ах*"
+    rox "*Gasp*"
     show roxxy bikini 15d
     show player 13
     with dissolve
-    rox "Красивый!"
+    rox "It's pretty!"
     show roxxy bikini 15e
     show player 14
-    player_name "Ага, он... Патриотический."
+    player_name "Yeah, it's umm... Patriotic."
     show player 13
     show roxxy bikini 15d
-    rox "Хахаха!"
+    rox "Hehehe!"
     show roxxy bikini 9 with dissolve
     show player 433
     pause
@@ -1534,16 +1534,16 @@ label beach_cabin_roxxy_has_bikini:
     show roxxy 22 with dissolve
     pause
     show roxxy 23b with dissolve
-    rox "Что ты делаешь?"
+    rox "What are you doing?"
     show roxxy 23
     pause
-    player_name "Хмм?"
+    player_name "Hmm?"
     show roxxy 24
-    rox "Ты уже видел меня голой, помнишь?"
+    rox "You've already seen me naked, remember?"
     show roxxy 23
-    player_name "Да, Я... Я только..."
+    player_name "Yeah, I know... I'm just..."
     show roxxy 23b
-    rox "Пш, перестань ботанить!"
+    rox "Psh, stop acting so nerdy!"
     show player 433 with dissolve
     show roxxy 22 with dissolve
     pause
@@ -1552,102 +1552,102 @@ label beach_cabin_roxxy_has_bikini:
     pause
     show roxxy bikini usa 14 with dissolve
     show player 435
-    player_name "... Вау!"
+    player_name "... Wow!"
     show roxxy bikini usa 11 with dissolve
     show player 434
-    rox "Я знаю!"
+    rox "I know, right!"
     show roxxy bikini usa 6b with dissolve
-    rox "Хм, немного жмет ..."
+    rox "Hmm, it's a bit tight..."
     show roxxy bikini usa 6c with dissolve
     pause
     show roxxy bikini usa 6b with dissolve
-    rox "Он не слишком маленький?"
+    rox "It's not too small is it?"
     pause
     show roxxy bikini usa 6c with dissolve
     player_name "..."
     show roxxy bikini usa 6b
-    rox "... Что думаешь?"
+    rox "... What do you think?"
     show roxxy bikini usa 9 with dissolve
     player_name "..."
     show roxxy bikini usa 12 with dissolve
     rox "{b}[firstname]{/b}!!!"
     show roxxy bikini usa 13
     show player 435
-    player_name "Хмм?"
+    player_name "Hmm?"
     show player 434
     show roxxy bikini usa 8 with dissolve
-    rox "Как выглядит?"
+    rox "How does it look?"
     show player 435
-    player_name "... Действительно, ДЕЙСТВИТЕЛЬНО хорошо!"
-    player_name "... Это как, мое любимое бикини когда-либо!"
+    player_name "... Really, REALLY good!"
+    player_name "... That's like, my favorite bikini ever!"
     show player 434
     show roxxy bikini usa 10 with dissolve
-    rox "Хахаха!"
-    rox "Ты думаешь я выйграю?"
+    rox "Hehehe!"
+    rox "You still think I'll win?"
     show roxxy bikini usa 9
     show player 17
-    player_name "Без сомнения!"
+    player_name "Without a doubt!"
     show player 13
     show roxxy bikini usa 10
-    rox "Отлично!"
-    rox "Теперь мне просто нужно, чтобы ты смазал меня маслом!"
+    rox "Good!"
+    rox "Now I just need you to oil me up and it's a sure thing!"
     show roxxy bikini usa 9
     show player 22
     player_name "!!!" with hpunch
     show player 23
-    player_name "Ты сказала, хочешь что бы Я что..."
+    player_name "Did you say, you want ME to..."
     show player 22
-    player_name "{b}*глоток*{/b}"
+    player_name "{b}*Gulp*{/b}"
     show roxxy bikini usa 12 with dissolve
-    rox "Ха, ты стесняешься меня, {b}[firstname]{/b}?"
-    rox "Я могу попросить {b}Бекки{/b} если ты не можешь..."
-    rox "Я просто подумала, ты нашел бикини и ещё..."
+    rox "Hah, you getting shy on me, {b}[firstname]{/b}?"
+    rox "I can have {b}Becca{/b} do it if you don't want to..."
+    rox "I just thought, since you found me the replacement bikini and all..."
     show roxxy bikini usa 13
     show player 36 with dissolve
-    player_name "Н-нет! Я готов!"
+    player_name "N-no! I'll do it!"
     show player 14 with dissolve
-    player_name "Я обязательно это сделаю!"
+    player_name "I'll definitely do it!"
     show player 13
     show roxxy bikini usa 12
-    rox "Ха-ха, я так и думала!"
-    rox "{b} Они обычно держат немного в башне спасателя.{/b}"
-    rox "Почему бы тебе не пойти и взять бутылку, а я буду ждать тебя здесь."
+    rox "Haha, I thought so!"
+    rox "{b}They usually keep some in the life guard's tower.{/b}"
+    rox "Why don't you go grab the bottle and I'll wait for you here."
     show roxxy bikini usa 13
     show player 14
-    player_name "Ясно! Я скоро вернусь!"
+    player_name "Totally! I'll be right back!"
     show player 12
-    player_name "Не двигайся!"
+    player_name "Don't move!"
     hide player with fastdissolve
     pause
     show roxxy bikini usa 6b with dissolve
-    rox "Ха-ха, поспеши, {b}[firstname]{/b}!"
+    rox "Haha, hurry back, {b}[firstname]{/b}!"
     hide roxxy with dissolve
     return
 
 label beach_tower_roxxy_get_oil:
     scene expression "backgrounds/location_beach_cutscene01.jpg"
     with fade
-    show text "Я практически поднялся по лестнице на башню спасателя!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I practically flew up the ladder to the life guard's tower!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Рокси{/b} действительно позволит мне втереть масло в ее тело перед соревнованием!\nПросто неверится!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Roxxy{/b} was actually going to let me oil her body up for the competition!\nI couldn't believe it!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я должен быстрее найти бутылку, чтобы быть как можно больше времени с ней!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I'd best locate that bottle quickly so I can get as much time with her as possible!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
 
     scene expression "backgrounds/location_beach_tower_day_blur.jpg"
     show player 14 with fastdissolve
-    player_name "( Хмм, {b}Рокси{/b} сказала что я найду {b}бутылку с маслом{/b} где-то здесь! )"
+    player_name "( Hmm, {b}Roxxy{/b} said there should be a {b}bottle of oil{/b} in here somewhere! )"
     hide player with fastdissolve
     return
 
 label beach_cabin_roxxy_get_oil:
     scene expression "backgrounds/location_beach_water_contest_day_blur.jpg"
     show player 29 with fastdissolve
-    player_name "Боже мой! Что я делаю?!"
+    player_name "Holy crap! What am I doing?!"
     show player 29f with fastdissolve
-    player_name "Я должен {b}найти эту бутылку масла{/b} на {b}вышке спасателя{/b} прежде чем {b}Рокси{/b} передумает!"
+    player_name "I've gotta {b}get that bottle of oil{/b} from the {b}life guard's tower{/b} before {b}Roxxy{/b} changes her mind!"
     hide player with fastdissolve
     return
 
@@ -1656,49 +1656,49 @@ label beach_cabin_roxxy_has_oil:
     show roxxy bikini usa 9 at right with None
     show player 184b at left
     with fastdissolve
-    player_name "{b}*Уфф*{/b} Я сделал..."
-    player_name "Я сделал это..."
-    player_name "{b}*Уфф*{/b}"
+    player_name "{b}*Huff*{/b} I made..."
+    player_name "I made it..."
+    player_name "{b}*Puff*{/b}"
     show player 658 with dissolve
-    player_name "Уф! Вот масло..."
+    player_name "Phew! Here's your oil..."
     show roxxy bikini usa 10
-    rox "Шиш, ты бежал всю дорогу или что?!"
+    rox "Sheesh, did you run the entire way or something?!"
     show roxxy bikini usa 9
     show player 184b with dissolve
     player_name "..."
     show roxxy bikini usa 10
-    rox "Хахахахаха!"
+    rox "Hahahahaah!"
     show roxxy bikini usa 10
-    rox "Ну, молодец чтоли..."
+    rox "Well, thanks I guess..."
     show roxxy bikini usa 9
     player_name "..."
     show roxxy bikini usa 10
-    rox "Ладно..."
-    rox "Давай начнем смазывать маслом, хорошо?!"
+    rox "Okay, well..."
+    rox "Let's start oiling then, shall we?!"
     show roxxy bikini usa 9
     show player 658 with dissolve
-    player_name "Д-да, хорошо!"
+    player_name "Y-yeah, okay!"
     scene expression "backgrounds/location_beach_cabin_closeup_massage.jpg"
     show roxxy massage 2 with dissolve
-    rox "Просто убедись, что смажешь все, хорошо?"
+    rox "Just make sure you get everything, okay!"
     show roxxy massage 3 with dissolve
-    rox "Начни с моих плеч..."
+    rox "Start with my shoulders..."
     show roxxy massage 1 with dissolve
-    player_name "Хорошо!"
+    player_name "Alright!"
     show roxxy massage 4_5 with dissolve
-    rox "Ммм..."
+    rox "Mmm..."
     player_name "..."
     pause
     show roxxy massage 1 with dissolve
-    player_name "Я все правильно делаю?"
+    player_name "Am I doing it right?"
     show roxxy massage 2
-    rox "... Ты что, никогда раньше не тер плечи девушкам?"
+    rox "... What, have you never rubbed a girls shoulders before?"
     show roxxy massage 1
-    player_name "Ну - Нет!"
-    player_name "Я имею в виду... Конечно, я натирал плечи многим девушкам!"
+    player_name "Wha- No!"
+    player_name "I mean... Of course, I've rubbed plenty of girls shoulders!"
     show roxxy massage 2
-    rox "Ух хух..."
-    rox "Тогда не задавай глупых вопросов!"
+    rox "Uh huh..."
+    rox "Well, don't ask stupid questions then!"
     show roxxy massage 1
     player_name "..."
     pause
@@ -1710,12 +1710,12 @@ label beach_cabin_roxxy_has_oil:
     show roxxy massage 3 with dissolve
     pause
     show roxxy massage 8_9 with dissolve
-    rox "Ммм... Так хорошо."
-    rox "Убедись, что не пропустил ни одного места!"
-    player_name "Ага, я знаю."
-    player_name "Я обязательно покрою все!"
+    rox "Mmm... That's good."
+    rox "Make sure you don't miss any spots!"
+    player_name "Yeah, I know."
+    player_name "I'll make sure to coat everything!"
     pause
-    rox "О, это действительно хорошо."
+    rox "Ooh, that's really good."
     player_name "..."
     label roxxy_massage_89:
         show roxxy massage 8_9 with dissolve
@@ -1727,10 +1727,10 @@ label beach_cabin_roxxy_has_oil:
     show roxxy massage 5 with dissolve
     pause
     show roxxy massage 6_7 with dissolve
-    rox "ААА... Это очень приятно, {b}[firstname]{/b}..."
-    player_name "... Д-да?"
-    rox "Мммммм, не останавливайся..."
-    player_name "Х-хорошо."
+    rox "Ahhh... That feels REALLY good, {b}[firstname]{/b}..."
+    player_name "... Y-yeah?"
+    rox "Mmmhmm, don't stop..."
+    player_name "O-okay."
     pause
     label roxxy_massage_67:
         show roxxy massage 6_7 with dissolve
@@ -1742,21 +1742,21 @@ label beach_cabin_roxxy_has_oil:
     show roxxy massage 8 with dissolve
     pause
     show roxxy massage 9_10 with dissolve
-    rox "Ннннн!!"
+    rox "Ngghh!!"
     rox "..."
-    rox "О, вау!"
+    rox "Oh, wow!"
     player_name "..."
-    rox "Потрясающие ощущения!"
+    rox "That feels amazing!"
     pause
     show roxxy massage 3 with dissolve
-    rox "Ааа, продолжай!"
+    rox "Ahh, keep going!"
     show roxxy massage 9_10 with dissolve
-    rox "Не останавливойся!"
-    rox "Не остан-"
-    becca "{b}Рокси{/b} время начинать -"
+    rox "Don't stop!"
+    rox "Don't-"
+    becca "{b}Roxxy{/b} it's time to start heading-"
     scene expression "backgrounds/location_beach_cutscene04.jpg"
     with fade
-    show text "Повезло...\n{b}Мисси{/b} и {b}Бекка{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Just my luck...\n{b}Missy{/b} and {b}Becca{/b} were at the entrance of the tent..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1766,7 +1766,7 @@ label beach_cabin_roxxy_has_oil:
     show becca bikini 18 at Position(xpos=315)
     show missy bikini 12 at left
     with dissolve
-    becca "... Вот дерьмо!"
+    becca "... Holy shit!"
     show becca bikini 1b
     hide roxxy
     show roxxy bikini usa 15 zorder 1 at Position (xpos=650)
@@ -1775,99 +1775,99 @@ label beach_cabin_roxxy_has_oil:
     show missy bikini 14
     pause
     show missy bikini 15 with dissolve
-    missy "Я так и знала, черт возьми!"
-    missy "Смотри, {b}Бекка{/b}?"
-    missy "Я же говорила что у ботанов огромные члены!"
+    missy "I fucking knew it!"
+    missy "See, {b}Becca{/b}?"
+    missy "I told you nerds have huge dicks!"
     show becca bikini 15
     show missy bikini 14
     becca "..."
     show player 78f
     show becca bikini 18
-    becca "Извени, мы не верили-"
+    becca "Sorry, we didn't realize-"
     show becca bikini 15
     becca "..."
     show becca bikini 18
-    becca "Если серьезно... черт возьми {b}[firstname]{/b}!"
+    becca "Seriously though... Holy shit {b}[firstname]{/b}!"
     show becca bikini 15
     show player 82f
     show roxxy bikini usa 18 with dissolve
-    rox "Мы ничего не делали..."
+    rox "We weren't doing anything..."
     show becca bikini 1b
-    rox "Он просто мазал меня маслом для соревнований!!!"
+    rox "He was just putting oil on me for the competition!!!"
     show roxxy bikini usa 17
     becca "..."
     show becca bikini 2b
-    becca "Ну, это не выглядит безобидно {b}Рокси{/b}..."
+    becca "Well, it certainly didn't look like nothing {b}Roxxy{/b}..."
     show becca bikini 1b
     show missy bikini 13
-    missy "Серьезно!"
-    missy "Можно мне тоже?"
+    missy "For real!"
+    missy "Can I go next?"
     show missy bikini 14
     show becca bikini 14
-    becca "Заткнись, {b}Мисси{/b}!"
+    becca "Shut up, {b}Missy{/b}!"
     show becca bikini 16
     show missy bikini 2
-    missy "... Что?!"
+    missy "... What?!"
     show missy bikini 13
-    missy "Я тоже хочу масла!"
-    missy "Ты намажешь меня маслом, не так ли {b}[firstname]{/b}?"
+    missy "I want some oil too!"
+    missy "You'll rub oil on me, won't you {b}[firstname]{/b}?"
     show becca bikini 1b
     show missy bikini 14
     show player 83f
-    player_name "... Я..."
+    player_name "... I uhh."
     show player 82f
     show roxxy bikini usa 18
-    rox "Вы, ребята, серьезно!"
-    rox "Вы не должны никому об этом говорить!"
+    rox "You guys, seriously!"
+    rox "You can't tell anybody about this!"
     show roxxy bikini usa 17
     show becca bikini 2b
-    becca "Да, {b}Декстер{/b} убьет вас если узнает."
+    becca "Yeah, {b}Dexter{/b} would kill you both if he heard about this."
     show becca bikini 1b
     player_name "..."
     rox "..."
     show becca bikini 2
-    becca "Мы никому не расскажем."
+    becca "We won't tell anybody."
     show becca bikini 14
-    becca "Правда, {b}Мисси{/b}?!"
+    becca "Right, {b}Missy{/b}?!"
     show becca bikini 16
     show missy bikini 2b
-    missy "Хмм?!"
-    missy "Рассказать что?"
+    missy "Hmm?!"
+    missy "Tell anybody what?"
     show missy bikini 14
     show becca bikini 14
-    becca "... Точно."
+    becca "... Exactly."
     show becca bikini 2
-    becca "Да ладно, они зовут всех на сцену."
+    becca "C'mon, they are calling everyone to the stage."
     show becca bikini 16
     missy "..."
     show becca bikini 14
-    becca "Хватит пялиться на его член и пойдем!"
+    becca "Quit staring at his dick and lets go!"
     show becca bikini 16
     show missy bikini 13
-    missy "... Ааа."
+    missy "... Aww."
     hide missy with dissolve
     show becca bikini 15
     pause
     show becca bikini 18
-    becca "... вот дерьмо."
+    becca "... Holy shit."
     hide becca with dissolve
     pause
     show roxxy bikini usa 19
     rox "..."
     show player 83f
-    player_name "... Ты в порядке?"
+    player_name "... You okay?"
     show player 82f
     show roxxy bikini usa 18f at Position (xpos=550) with dissolve
-    rox "Д-да."
-    rox "Только нервничаю из-за соревнования."
+    rox "Y-yeah."
+    rox "Just nervous about the competition is all."
     show roxxy bikini usa 17f
     show player 83f
-    player_name "Ага."
-    player_name "Не волнуйся, ты великолепна!"
+    player_name "Right."
+    player_name "Don't worry, you're gonna do great!"
     show player 82f
     rox "..."
     show player 83f
-    player_name "Давай, нам лучше поторопиться!"
+    player_name "C'mon, we better hurry!"
     hide player with dissolve
     rox "..."
     show roxxy bikini usa 13f
@@ -1875,75 +1875,75 @@ label beach_cabin_roxxy_has_oil:
     hide roxxy with dissolve
     scene expression "backgrounds/location_beach_water_contest_closeup.jpg"
     show tstand 19b zorder 0 at Position (xpos=729)
-    Terry "О, хо-хо! Однажды ты станешь причиной моей смертью, дорогая..."
+    Terry "Oh ho ho! You're gonna be the death of me one day, Love..."
     show tstand 20b
-    sara "Хехе, ну, по крайней мере, ты умрешь счастливым!"
+    sara "Hehe, well at least you'll die happy!"
     show tstand 19b
-    Terry "Бог с ним!"
+    Terry "Amen to that!"
     show player 11 zorder 2 at left with dissolve
     show tstand 19
-    Terry "Ну тогда, если это не шкипер, еще раз."
-    Terry "Как дела, дружище?"
+    Terry "Well then, if it isn't the skipper, once more."
+    Terry "How's it going, lad?"
     show tstand 19d
     show player 14
-    player_name "Все отлично, {b}Капитан{/b}!"
-    player_name "Я просто проводил своего друга на сцену."
+    player_name "It's going awesome, {b}Captain{/b}!"
+    player_name "I was just escorting my friend here to the stage."
     show player 13
     show roxxy bikini usa 9f zorder 1 at Position (xpos=400) with dissolve
     pause
     show tstand 19
-    Terry "Уфф, какая красотка!"
+    Terry "Phew, what a beauty!"
     show tstand 19d
     show roxxy bikini usa 10f
-    rox "... Спа-спасибо!"
+    rox "... T-thanks!"
     show roxxy bikini usa 9f
     show tstand 20c with dissolve
-    sara "{b}*ах*{/b}"
-    sara "Это мое бикини?"
+    sara "{b}*Gasp*{/b}"
+    sara "Is that my bikini?"
     show tstand 19d
     show roxxy bikini usa 16f
     with dissolve
     rox "!!!"
     show player 21
-    player_name "Да."
+    player_name "Y-yeah."
     show roxxy bikini usa 17f
-    player_name "У {b}Рокси{/b} порвался топ в последнюю минуту и я нашел только этот."
-    player_name "Надеюсь вы не против, {b}Мисс Сара{/b}?"
-    player_name "... Я бы спросил но..."
+    player_name "{b}Roxxy's{/b} top broke at the last second and it was the only replacement I could find."
+    player_name "I hope that's okay, {b}Miss Sara{/b}?"
+    player_name "... I would have asked but..."
     show player 11
     show tstand 20
-    sara "Хахаха, ни слова больше."
-    sara "Нет проблем, дорогуша."
+    sara "Hehehe, say no more."
+    sara "It's no problem at all, dear."
     show roxxy bikini usa 13f
     show player 13
-    sara "Был бы он чуть побольше..."
+    sara "I just wish it was a little bigger is all..."
     show tstand 19d
     show roxxy bikini usa 11f with dissolve
-    rox "Это выглядит плохо?"
+    rox "Does it look bad?"
     show roxxy bikini usa 9f
     show tstand 19
-    Terry "Нет!"
-    Terry "Он немного туговот, но ничего..."
-    Terry "На самом деле он заставляет меня салютовать все больше и больше!"
+    Terry "Not at all!"
+    Terry "It's a bit tight but there's nothing wrong with that..."
+    Terry "In fact it's making me want to salute all the more!"
     Terry "Oh ho ho!"
     show tstand 20
-    sara "Хаха, {b}Терри{/b} ты ужасен!"
-    sara "Ты выглядишь великолепно, милая!"
-    sara "Иди и оставь его!"
+    sara "Haha, {b}Terry{/b} you're terrible!"
+    sara "You look gorgeous, sweetie!"
+    sara "Go ahead and keep it!"
     show tstand 20d at right with dissolve
-    sara "Но сначала ты должна пойти и выиграть!"
+    sara "But first you gotta get up there and win this thing!"
     hide tstand
     show tstand 19d at Position (xpos=729)
     with dissolve
     show roxxy bikini usa 10f
-    rox "Точно!"
+    rox "Right!"
     show roxxy bikini usa 10 zorder 1 at Position (xpos=450) with dissolve
-    rox "Пожелай мне удачи, {b}[firstname]{/b}!"
+    rox "Wish me luck, {b}[firstname]{/b}!"
     show roxxy bikini usa 9
     show player 14
-    player_name "Хах, тебе не нужно это, но удачи!"
+    player_name "Heh, you don't need it but good luck!"
     show roxxy bikini usa 10
-    rox "Ааа, спасибо {b}[firstname]{/b}!"
+    rox "Aww, thanks {b}[firstname]{/b}!"
     hide player
     show roxxy bikini usa 7 at left
     with dissolve
@@ -1952,35 +1952,35 @@ label beach_cabin_roxxy_has_oil:
     show player 13 at left
     with dissolve
     show tstand 19
-    Terry "Я так понимаю, всё идет хорошо?"
+    Terry "I'll take it things are progressing well with that one?"
     show tstand 19d
     show player 10
-    player_name "А?"
+    player_name "Huh?"
     show player 5
     show tstand 19c
-    Terry "Ох хо хо!"
-    Terry "Неважно, шкипер."
+    Terry "Oh ho ho!"
+    Terry "Nevermind Skipper."
     show tstand 19
-    Terry "Почему бы тебе не взять мою {b}Сара{/b} и не найти пару мест?"
-    Terry "Мне нужно вести шоу!"
+    Terry "Why don't you take my {b}Sara{/b} here and go find a couple of seats?"
+    Terry "I've got a show to host!"
     show player 13
     show tstand 20b
-    sara "Вперед, любовь моя."
+    sara "Go get em, love."
     show tstand 20e with dissolve
     pause
     show tstand 20 with dissolve
-    sara "Давай, {b}[firstname]{/b}! найдем свободные места!"
+    sara "C'mon, {b}[firstname]{/b}! Let's go find some seats!"
     hide tstand with dissolve
     show player 14
-    player_name "Да, мэм."
+    player_name "Yes, ma'am."
     hide player with dissolve
     scene expression "backgrounds/location_beach_cutscene05.jpg"
     with fade
-    show text "Соревнование было так здорово смотреть!\nВсе эти красивые женщины в скудных бикини...\n... И {b}Мисс Сара{/b} сидит рядом со мной все представление.\nКакой прекрасный день!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "The competition was so much fun to watch!\nAll those beautiful women in skimpy bikinis...\n... And {b}Miss Sara{/b} sitting beside me the entire event.\nIt was such a good day!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "{b}Рокси{/b} и ее подружки попали в финал!\n... Но ни у кого не было сомнений, кто победит." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Roxxy{/b} and her friends all made it to the finals too!\n... But there was never a doubt as to who was going to win." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Ни одна из них не могла сравниться с {b}Рокси{/b}!!!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "None of those other girls could compare to {b}Roxxy{/b}!!!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1990,97 +1990,97 @@ label beach_cabin_roxxy_has_oil:
     show becca bikini 17 at Position (xpos=315)
     show roxxy bikini usa 4 at right
     with dissolve
-    rox "Вууу!!!"
-    missy "Хахаха!"
+    rox "Woooo!!!"
+    missy "Hehehe!"
     show roxxy bikini usa 2
-    becca "Так держать, девочка!"
+    becca "Way to go, girl!"
     show missy bikini 1
     show becca bikini 1
     show player 14
-    player_name "Поздравляю, {b}Рокси{/b}!"
+    player_name "Congratulations, {b}Roxxy{/b}!"
     show player 14f at Position (xpos=550) with dissolve
-    player_name "Всем вам, правда!"
+    player_name "To all of you, really!"
     show player 13f
     show missy bikini 2
-    missy "Я добрался до финала!"
+    missy "I made it to the finals!"
     show missy bikini 13
-    missy "Ты видел меня, {b}[firstname]{/b}?!"
+    missy "Did you see me, {b}[firstname]{/b}?!"
     show missy bikini 1
     show becca bikini 14
-    becca "... Конечно, он видел тебя, дура..."
-    becca "Он был в толпе, наблюдая все это время."
+    becca "... Of course he saw you, dummy..."
+    becca "He was in the crowd watching the entire time."
     show becca bikini 16
     show missy bikini 2b
-    missy "Вы проверяли, не смотрит ли он?!"
+    missy "Oh, were you checking to see if he was watching?!"
     show missy bikini 1b
     show becca bikini 14
-    becca "Что?!"
-    becca "Н-нет!"
-    becca "Заткнись!"
+    becca "What?!"
+    becca "N-no!"
+    becca "Shut up!"
     show becca bikini 1
     show roxxy bikini usa 4
-    rox "Хахаха!"
+    rox "Hahaha!"
     show roxxy bikini usa 3
-    rox "Вы прекратите или нет!"
+    rox "You guys never stop!"
     show player 13 at Position (xpos=500) with dissolve
     show roxxy bikini usa 4
-    rox "Не могу поверить, я победила!"
+    rox "I can't believe I won!"
     show player 18
-    rox "{b}[firstname]{/b}, я победила!!!"
+    rox "{b}[firstname]{/b}, I won!!!"
     show roxxy bikini usa 2
     show player 14
-    player_name "Я знаю! Ты была великолепна!"
+    player_name "I know! You were really awesome!"
     show player 13
     show roxxy bikini usa 4
-    rox "Хахаха!"
+    rox "Hehehe!"
     show roxxy bikini usa 3
-    rox "Спасибо за большую помощь сегодня!"
+    rox "Thank you so much for all your help today!"
     show roxxy bikini usa 2
     show becca bikini 2b
-    becca "Ха, да... Это была \"большая помощь\" правда, {b}Рокси{/b}?!"
+    becca "Heh, yeah... He was a \"big help\" wasn't he, {b}Roxxy{/b}?!"
     show becca bikini 1b
     rox "..."
     show missy bikini 8
-    missy "... А?"
+    missy "... Huh?"
     show missy bikini 2
-    missy "Подожди! Поняла!"
+    missy "Oh, wait! I get it!"
     show missy bikini 13
     show becca bikini 16
-    missy "Ты говоришь про его член, правда?!"
+    missy "You're talking about his huge dick, right?!"
     show becca bikini 17
     show roxxy bikini usa 4
     show player 37 at Position (xoffset=41) with dissolve
-    becca "Хахаха!"
-    missy "Хахаха!"
-    rox "... Хахаха!"
+    becca "Hahaha!"
+    missy "Hahaha!"
+    rox "... Hahaha!"
     show becca bikini 1
     show missy bikini 1
     show roxxy bikini usa 3
-    rox "Не обращай внимания, {b}[firstname]{/b}."
-    rox "Серьезно, спасибо тебе!"
+    rox "Just ignore them, {b}[firstname]{/b}."
+    rox "Seriously, thank you for today!"
     show roxxy bikini usa 2
     show player 14 with dissolve
-    player_name "Пожалуйста."
-    player_name "Нужна помощь чтобы добраться домой?"
+    player_name "My pleasure."
+    player_name "You need help carrying it home?"
     show player 13
     show roxxy bikini usa 3
-    rox "Не, я заставлю этих двух сучек."
+    rox "Nah, I'll make these two bitches carry it."
     show roxxy bikini usa 2
     becca "..."
     show missy bikini 2
-    missy "О, я помогу!"
+    missy "Oh, I'll carry it!"
     show missy bikini 1
     show roxxy bikini usa 3
-    rox "Увидемся в школе?"
+    rox "I'll see you at school?"
     show roxxy bikini usa 2
     show player 14
-    player_name "Конечно. Увидемся завтра."
+    player_name "Sure. I'll see you all tomorrow."
     show player 13
     show becca bikini 2b
-    becca "Пока, {b}[firstname]{/b}."
+    becca "See ya, {b}[firstname]{/b}."
     show becca bikini 1b
     show missy bikini 13
-    missy "Поккккка, {b}[firstname]{/b}!!!"
+    missy "Byeee, {b}[firstname]{/b}!!!"
     hide becca
     hide missy
     hide roxxy
@@ -2093,28 +2093,28 @@ label beach_cabin_roxxy_massage:
     show roxxy bikini 2 at right
     show player 13 at left
     with dissolve
-    rox "Прости, мне понадобилась целая вечность, чтобы ускользнуть от них!"
+    rox "Sorry, it took me forever to slip away from them!"
     show roxxy bikini 1
     show player 14
-    player_name "Без проблем."
-    player_name "Ты готова для массажа?"
+    player_name "No problem."
+    player_name "You ready for a massage?"
     show player 13
     show roxxy bikini 2
-    rox "Да!"
-    rox "У тебя лучший массаж!"
+    rox "Hell yeah!"
+    rox "You give the best massages!"
     show roxxy bikini 1
     show player 12
-    player_name "Эй, это же {b}Мисс Сара{/b} бикини?"
+    player_name "Hey, isn't that {b}Miss Sara's{/b} bikini?"
     show player 13
     show roxxy bikini 2
-    rox "Да, она сказала мне сохранить, помнишь?"
-    rox "Я подумала, ты захочешь, чтобы я надела его на наши сеансы массажа?"
+    rox "Yeah, she told me to keep it remember?"
+    rox "I thought you might want me to wear it for our massage sessions?"
     show roxxy bikini 1
     show player 14
-    player_name "Д-да, определенно!"
+    player_name "Y-yeah, definitely!"
     show player 13
     show roxxy bikini 2
-    rox "Хахаха!"
+    rox "Hehehe!"
     show roxxy bikini 5 with dissolve
     pause
     show roxxy bikini 6 with dissolve
@@ -2135,7 +2135,7 @@ label beach_cabin_roxxy_massage:
     show roxxy bikini usa 14 with dissolve
     pause
     show roxxy bikini usa 12 with dissolve
-    rox "Хватит стоять и смотреть на мои сиськи, начинай растирать!"
+    rox "Well don't just stand there gawking at my tits, start rubbing!"
     hide roxxy
     hide player
     with dissolve
@@ -2143,21 +2143,21 @@ label beach_cabin_roxxy_massage:
     show roxxy massage 3 with dissolve
     pause
     show roxxy massage 4_5 with dissolve
-    rox "Ммм..."
+    rox "Mmm..."
     player_name "..."
     pause
     show roxxy massage 1 with dissolve
-    player_name "Так хорошо?"
+    player_name "Does that feel good?"
     show roxxy massage 2
-    rox "... О, да."
-    rox "Три немного сильнее."
+    rox "... Oh, yeah."
+    rox "Rub a little harder."
     show roxxy massage 1
-    player_name "Так!"
+    player_name "You got it!"
     show roxxy massage 3 with dissolve
     pause
     show roxxy massage 4_5 with dissolve
     pause
-    rox "Пф, хорошо!"
+    rox "Phew, that's good!"
     player_name "..."
     pause
     label roxxy_massage_45_repeat:
@@ -2168,12 +2168,12 @@ label beach_cabin_roxxy_massage:
     show roxxy massage 3 with dissolve
     pause
     show roxxy massage 8_9 with dissolve
-    rox "Ммм... хорощо."
-    rox "Убедись, что не пропустил ни одного места!"
-    player_name "Ага, я знаю."
-    player_name "Я обязательно покрою все!"
+    rox "Mmm... That's so good."
+    rox "Make sure you don't miss any spots!"
+    player_name "Yeah, I know."
+    player_name "I'll make sure to get everything!"
     pause
-    rox "О, вот так!"
+    rox "Ooh, that's it!"
     player_name "..."
     label roxxy_massage_89_repeat:
         show roxxy massage 8_9 with dissolve
@@ -2186,10 +2186,10 @@ label beach_cabin_roxxy_massage:
     pause
     show roxxy massage 6_7 with dissolve
     pause
-    rox "ААА... Это очень приятно, {b}[firstname]{/b}..."
-    player_name "... Д-да?"
-    rox "Мммммм, не останавливайся..."
-    player_name "Х-хорошо."
+    rox "Ahhh... That feels REALLY good, {b}[firstname]{/b}..."
+    player_name "... Y-yeah?"
+    rox "Mmmhmm, don't stop..."
+    player_name "O-okay."
     pause
     label roxxy_massage_67_repeat:
         show roxxy massage 6_7 with dissolve
@@ -2201,21 +2201,21 @@ label beach_cabin_roxxy_massage:
     show roxxy massage 8 with dissolve
     pause
     show roxxy massage 9_10 with dissolve
-    rox "Ннннн!!"
+    rox "Ngghh!!"
     rox "..."
-    rox "О, вау!"
+    rox "Oh, wow!"
     player_name "..."
-    rox "Потрясающие ощущения!"
+    rox "That feels amazing!"
     pause
     show roxxy massage 3 with dissolve
-    rox "Ааа, продолжай!"
+    rox "Ahh, keep going!"
     show roxxy massage 9_10 with dissolve
-    rox "Не останавливойся!"
-    rox "Не остан-"
-    missy "{b}Рокси{/b}, ты здесь?"
+    rox "Don't stop!"
+    rox "Don't-"
+    missy "{b}Roxxy{/b}, are you guys in here?"
     scene expression "backgrounds/location_beach_cutscene04.jpg"
     with fade
-    show text "Опять, {b}Мисси{/b} и {b}Бекка{/b} были у входа в кабинку..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Once again, {b}Missy{/b} and {b}Becca{/b} were at the entrance of the tent..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -2229,70 +2229,70 @@ label beach_cabin_roxxy_massage:
     show roxxy bikini usa 15b zorder 1 at Position (xpos=650)
     show player 82f zorder 0 at right
     with dissolve
-    rox "Черт побери, вы двое!"
-    rox "Вы опять шпионили?!"
+    rox "God damnit, you two!"
+    rox "Are you spying on us again?!"
     show roxxy bikini usa 15
     show missy bikini 13
-    missy "Да."
+    missy "Yes."
     show missy bikini 1b
     show becca bikini 14
-    becca "Ха?! Нет!"
+    becca "Huh?! No!"
     show roxxy bikini usa 17 with dissolve
-    becca "Заткнись, {b}Мисси{/b}!"
+    becca "Shut up, {b}Missy{/b}!"
     show becca bikini 16
     show missy bikini 8
-    missy "Что?"
+    missy "What?"
     show missy bikini 15 with dissolve
-    missy "Мы тоже хотим массаж..."
+    missy "We want a massage too..."
     show missy bikini 14 with dissolve
     show becca bikini 18
-    becca "О. Мой. Бог."
+    becca "Oh. My. God."
     show becca bikini 1
     show roxxy bikini usa 15b with dissolve
-    rox "{b}*вздох*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy bikini usa 18 with dissolve
-    rox "Мы как раз заканчивали..."
+    rox "We were just finishing anyways..."
     show roxxy bikini usa 17
     show missy bikini 13
-    missy "Отлично, я следующая!"
+    missy "Cool, I'll go next!"
     show missy bikini 14
     show roxxy bikini usa 18
-    rox "Да, я так не думаю!"
-    rox "Тащите свои тупые задницы обратно в воду!"
+    rox "Yeah, I don't think so!"
+    rox "Get your dumb asses back out to the water!"
     show roxxy bikini usa 17
     show missy bikini 10
-    missy "Ауф..."
+    missy "Aww..."
     hide becca
     hide missy
     with dissolve
     show roxxy bikini usa 18f at Position (xpos=550) with dissolve
-    rox "Извини за них, {b}[firstname]{/b}..."
+    rox "Sorry about them, {b}[firstname]{/b}..."
     show roxxy bikini usa 17f
     show player 83bf
-    player_name "Хех, все в порядке."
-    player_name "На самом деле это действительно мило."
+    player_name "Heh, it's okay."
+    player_name "It's actually really cute."
     show player 83cf
     show roxxy bikini usa 12f
-    rox "Хе-хе, да, я знаю..."
-    rox "... Но я не могу дать им все, что они хотят."
-    rox "Бунча жадные суки, эти две!"
+    rox "Heh, yeah I know..."
+    rox "... But I can't give them everything they want."
+    rox "Buncha greedy bitches, those two!"
     show roxxy bikini usa 13f
     show player 83bf
-    player_name "Хахаха!"
+    player_name "Hahaha!"
     show player 83cf
     show roxxy bikini usa 10f with dissolve
-    rox "Ну, спасибо за массаж."
+    rox "Well, thanks for the massage."
     show roxxy bikini usa 9f
     show player 83bf
-    player_name "Пожалуйста."
+    player_name "My pleasure."
     show player 83cf
     show roxxy bikini usa 11f
-    rox "Кто знает? Может, в следующий раз мы закончим..."
+    rox "Who knows? Maybe next time we'll get to finish..."
     show roxxy bikini usa 9f
     show player 82f
-    player_name "{b}*глоток*{/b}"
+    player_name "{b}*Gulp*{/b}"
     show roxxy bikini usa 10f
-    rox "Хехехе."
+    rox "Hehehe."
     hide roxxy with dissolve
     hide player with dissolve
     return
@@ -2302,129 +2302,129 @@ label beach_roxxy_spin_bottle_sex_intro:
     show player 14f at right
     show missy bikini 1 zorder 2 at left
     with dissolve
-    player_name "Хей, {b}Мисси{/b}."
+    player_name "Hey, {b}Missy{/b}."
     show player 13f
     show missy bikini 16 with dissolve
-    missy "{b}*вздох*{/b}!"
+    missy "{b}*Gasp*{/b}!"
     show missy bikini 13 with dissolve
-    missy "Он здесь!"
-    missy "{b}Рокси{/b}, {b}Бекка{/b}!! Он здесь, Он здесь, Он здесь!!!"
+    missy "He's here!"
+    missy "{b}Roxxy{/b}, {b}Becca{/b}!! He's here, he's here, HE's HERE!!!"
     show missy bikini 1 with None
     show becca bikini 2 zorder 1 at Position (xpos=315)
     show roxxy bikini 1f zorder 0 at Position (xpos=500)
     with dissolve
-    becca "Привет, {b}[firstname]{/b}."
+    becca "Hi, {b}[firstname]{/b}."
     show becca bikini 1
     show player 14f
-    player_name "Привет, {b}Becca{/b}."
+    player_name "Hey, {b}Becca{/b}."
     show player 13f
     show missy bikini 2
-    missy "Наконец-то он здесь!!"
+    missy "He's finally here!!"
     show missy bikini 1
     show roxxy bikini 19bf
-    rox "Боже мой, заткнись наконец."
-    rox "Мы тебя и в первый раз слышали."
+    rox "Oh my god, shut up."
+    rox "We heard you the first time."
     show roxxy bikini 1f
     show missy bikini 10
-    missy "Тсс, заткнись!"
+    missy "Tsk, you shut up!"
     show missy bikini 13
     show roxxy bikini 20 at Position (xpos=600) with dissolve
-    missy "Я взволнована..."
+    missy "I'm excited..."
     show missy bikini 1
     show becca bikini 19
     becca "..."
     show roxxy bikini 19
-    rox "Вы хотите чтобы я все рассказала?!"
+    rox "Do you want me to call the whole thing off?!"
     show roxxy bikini 20
     show becca bikini 6
     show missy bikini 8
-    becca "Что?!"
-    missy "Нет, пожалуйста!"
+    becca "What?!"
+    missy "No, please!"
     show becca bikini 6b
-    missy "Прости меня! Слушай, я затыкаюсь прямо сейчас!"
+    missy "I'm sorry! Look, I'm shutting up right now!"
     show missy bikini 16 with dissolve
     show roxxy bikini 2
-    rox "Посмотрим, как долго это продлится..."
+    rox "Yeah, we'll see how long that lasts..."
     show roxxy bikini 1
     show player 17f
-    player_name "Хахаха, девчонки вы такие смешные!"
+    player_name "Hahaha, you girls are too funny!"
     show player 14f
     show roxxy bikini 1f at Position (xpos=500) with dissolve
-    player_name "Итак, что случилось?"
-    player_name "{b}Рокси{/b} сказала что-то о сюрпризе?"
+    player_name "So, what's up?"
+    player_name "{b}Roxxy{/b} said something about a surprise?"
     show player 13f
     show roxxy bikini 2f
-    rox "Да, сказа-"
+    rox "Yeah, I've got-"
     show missy bikini 13 with dissolve
-    missy "Большой сюрприз!"
+    missy "A great surprise!"
     show roxxy bikini 24f
     show becca bikini 13
     with dissolve
     pause
     show roxxy bikini 20 at Position (xpos=600) with dissolve
-    missy "Вы будете любить-"
+    missy "You're going to love-"
     hide becca
     show missy bikini 18
     with dissolve
-    becca "{b}Мисси{/b} заткнись!"
+    becca "{b}Missy{/b} shut up!"
     show missy bikini 18b
     show roxxy bikini 19
-    rox "Серьезно?!"
-    rox "Ты даже 5 секунд помолчать не можешь?!"
+    rox "Seriously?!"
+    rox "You can't even be quiet for five seconds?!"
     show roxxy bikini 20
     show missy bikini 19
-    becca "Не волнуйся, она помолчит."
+    becca "Don't worry, she's done."
     show missy bikini 19b
     show roxxy bikini 19b
-    rox "{b}*ох*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy bikini 2f at Position (xpos=500) with dissolve
-    rox "Мы будем играть в бутылочку или нет."
+    rox "We're gonna play spin the bottle."
     show roxxy bikini 1f
     show player 14f
-    player_name "Хе, опять в бутылочку?"
+    player_name "Heh, spin the bottle again?"
     show player 13f
     show roxxy bikini 22f with dissolve
-    rox "Да, но с небольшим изменением правил."
+    rox "Yes, but with a slight rule change."
     show roxxy bikini 21f
     show player 12f
-    player_name "Изменением правил?"
+    player_name "Rule change?"
     show player 13f
-    rox "Ммммммм..."
+    rox "Mmmhmm..."
     show roxxy bikini 22f
-    rox "Видишь ли, в определенный момент... Я укажу {b}финальное вращение{/b}."
-    rox "Затем ты будешь вращать в последний раз.."
-    rox "... И тот, на кого покажет бутылка, присоединится к нам в раздевалке за особую награду."
+    rox "You see, at a certain point... I'm gonna call {b}final spin{/b}."
+    rox "Then you will spin one final time."
+    rox "... And whomever the bottle lands on, will join us in the changing room for a special reward."
     show roxxy bikini 21f
     show player 14f
-    player_name "О?"
-    player_name "Что за особая награда?"
+    player_name "Oh?"
+    player_name "What kind of special reward?"
     show player 13f
     show missy bikini 17 with dissolve
-    missy "Мммммффффммм!"
+    missy "Mrffllmmmrf!"
     show roxxy bikini 19bf with dissolve
     rox "..."
     show missy bikini 18b with dissolve
-    rox "Она просто не может держать рот на замке!"
+    rox "She really can't keep her mouth shut!"
     show missy bikini 19b
     show roxxy bikini 2f
-    rox "В любом случае, это сюрприз."
-    rox "Тебе придется играть, чтобы узнать."
+    rox "Anyways, it's a surprise."
+    rox "You'll have to play to find out."
     show roxxy bikini 1f
     show player 14f
-    player_name "Ну, хорошо."
-    player_name "Давай!"
+    player_name "Heh, alright."
+    player_name "Let's do it!"
     show player 13f
     show missy bikini 17 with dissolve
-    missy "Ммммррррффф!!"
+    missy "Mrrfff!!"
     show player 14f
-    player_name "Хех, она так взволнована..."
+    player_name "Heh, she's so excited..."
     show player 13f
     show missy bikini 18b with dissolve
     show roxxy bikini 19f
-    rox "{b}*ох*{/b}..."
+    rox "{b}*Sigh*{/b}..."
     show roxxy bikini 1f
     show missy bikini 19
-    becca "Ты понятия не имеешь..."
+    becca "You have no idea..."
     hide roxxy
     hide missy
     hide player

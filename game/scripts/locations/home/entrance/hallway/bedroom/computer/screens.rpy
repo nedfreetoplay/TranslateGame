@@ -297,7 +297,7 @@ screen MC_picture(number):
         add "buttons/computer_pic_07.png" pos 220,150
 
 screen camshow_options:
-    if not store._in_replay == None or not sister.over(sis_webcam04):
+    if not store._in_replay == None or not M_jenny.finished_state(S_jenny_prepare_stream_tier_4):
         imagebutton:
             focus_mask True
             pos (250,700)

@@ -1,86 +1,120 @@
 init python:
     class Weightlifting(renpy.Displayable):
+        
         def __init__(self, **kwargs):
             super(Weightlifting, self).__init__(**kwargs)
             
             
-            self._background_string = ""
-            if renpy.variant("mobile"):
-                self._background_string = "_mobile"
+            bg_img = 'backgrounds/location_gym_minigame04{}.jpg'
+            bar_img = 'buttons/meter_03.png'
+            effort_img = 'buttons/meter_04.png'
+            arrow_img = 'buttons/arrows.png'
+            
+            
+            self.bar = renpy.displayable(bar_img)
+            self.effort = renpy.displayable(effort_img)
+            self.arrow = renpy.displayable(arrow_img)
+            
+            suffix = '_mobile' if renpy.variant('mobile') else ''
             if player.stats.str() >= 7:
-                self._background_string += "_heavy"
+                suffix += '_heavy'
             elif player.stats.str() >= 3:
-                self._background_string += "_medium"
-            self.backgrounds = [renpy.displayable("backgrounds/location_gym_minigame04a{}.jpg".format(self._background_string)),
-                                renpy.displayable("backgrounds/location_gym_minigame04b{}.jpg".format(self._background_string))
-                               ] 
+                suffix += '_medium'
+            self.bgs = (
+                    renpy.displayable(bg_img.format('a' + suffix)),
+                    renpy.displayable(bg_img.format('b' + suffix)))
             
             
-            self._meter = renpy.displayable("buttons/meter_03.png")
-            self._arrows = renpy.displayable("buttons/arrows.png")
-            self._filler = renpy.displayable("buttons/meter_04.png")
+            self.children = self.bgs + (self.bar, self.effort, self.arrow)
             
-            self._counter = 0 
-            self.time_y_value = 586 
-            self.y_value = 610 
-            self.win = False 
-            self.started = False 
             
-            self._TIMER = 8 
-            self._TIMER_BAR_LENGTH = 586
-            self._BAR_X_POS, self._BAR_Y_POS = 42, 54 
-            self._BAR_WIDTH = 160 
-            self._ARROW_X_OFFSET = 74 
-            self._TIMER_DECREMENT = 0.01
+            self.bar_x, self.bar_y = 42, 54
+            self.effort_width = 160
+            self.effort_min_y, self.effort_max_y = 45, 610
+            self.arrow_x = 74
+            self.arrow_min_y, self.arrow_max_y = 155, 586
             
-            self._start_timer = 0
-            self._timer = self._TIMER 
+            
+            self.effort_max_h = self.effort_max_y - self.effort_min_y
+            self.arrow_max_h = self.arrow_max_y - self.arrow_min_y
+            
+            
+            self.click_gain = 0.08 
+            self.gravity = 0.0065 
+            self.lift_after = 6 
+            self.tick_duration = 1.0 / 60 
+            self.time_limit = 8.0 
+            
+            
+            self.clicks = 0 
+            self.progress = 0
+            self.started = None
+            self.ticked = None
+            print 'init'
         
-        def render(self, width, height, st, at):
+        def render(self, w, h, st, at):
             if self.started:
-                if int((self._TIMER-self._timer)/self._TIMER_DECREMENT) <= int((clock()-self._start_timer)/self._TIMER_DECREMENT):
-                    self.timer()
-            render = renpy.render(self.backgrounds[(self._counter/12)%2], width, height, st, at)
-            self._width, self._height = render.get_size()
-            meter_r = renpy.render(self._meter, width, height, st, at)
-            arrows_r = renpy.render(self._arrows, width, height, st, at)
-            filler_r = renpy.render(self._filler, width, height, st, at)
-            render.blit(meter_r, (self._BAR_X_POS, self._BAR_Y_POS))
-            filler_w, filler_h = filler_r.get_size()
-            filler_r_crop = filler_r.subsurface((-self._BAR_X_POS, -self._BAR_Y_POS, self._BAR_WIDTH, self.y_value))
-            render.blit(filler_r_crop, (0, 0))
-            render.blit(arrows_r, (self._ARROW_X_OFFSET, self.time_y_value))
+                
+                if self.progress >= 1:
+                    renpy.jump('weightlifting_done')
+                
+                
+                time_left = 1 - min(1, (st - self.started) / self.time_limit)
+                
+                
+                if time_left == 0:
+                    renpy.jump('weightlifting_fail')
+                
+                
+                ticks_elapsed = (st - self.ticked) / self.tick_duration
+                if ticks_elapsed >= 1:
+                    self.ticked = st
+                    
+                    downforce = self.gravity * ticks_elapsed
+                    self.progress = max(0, self.progress - downforce)
+            else:
+                
+                time_left = 1.0
+            
+            
+            render = renpy.render(
+                self.bgs[self.clicks / self.lift_after % 2], w, h, st, at)
+            
+            
+            bar = renpy.render(self.bar, w, h, st, at)
+            render.blit(bar, (self.bar_x, self.bar_y))
+            
+            
+            effort = renpy.render(self.effort, w, h, st, at)
+            effort = effort.subsurface((
+                -self.bar_x, -self.bar_y, self.effort_width,
+                self.effort_min_y + self.effort_max_h * (1 - self.progress)))
+            render.blit(effort, (0, 0))
+            
+            
+            arrow = renpy.render(self.arrow, w, h, st, at)
+            render.blit(arrow, (
+                self.arrow_x, self.arrow_min_y + self.arrow_max_h * time_left))
+            
+            
             renpy.redraw(self, 0)
             return render
         
-        def timer(self):
-            self._timer = max(self._timer - self._TIMER_DECREMENT, 0)
-            if self.y_value < 600:
-                self.y_value += 4 
-            self.time_y_value -= self._TIMER_BAR_LENGTH / (self._TIMER / self._TIMER_DECREMENT) 
-            
-            if self.win:
-                renpy.jump("weightlifting_done")
-            elif self.time_y_value < 144:
-                renpy.jump("weightlifting_fail")
-            if self.y_value < 45:
-                self.win = True
-        
-        def on_event(self):
-            if not self.started:
-                self.started = True
-                self._start_timer = clock()
-            self._counter += 1
-            self.y_value -= 50
-        
         def event(self, ev, x, y, st):
-            if renpy.variant("mobile") and ev.type == pygame.MOUSEBUTTONUP:
-                self.on_event()
-                return
-            if ev.type == pygame.KEYDOWN and ev.key == pygame.K_SPACE:
-                self.on_event()
-                return
-            return
+            click = renpy.variant('mobile') and ev.type == pygame.MOUSEBUTTONUP
+            space = ev.type == pygame.KEYDOWN and ev.key == pygame.K_SPACE
+            
+            if not click and not space:
+                return 
+            
+            if not self.started:
+                self.started = self.ticked = st
+            
+            self.clicks += 1
+            self.progress += self.click_gain
+        
+        def visit(self):
+            return self.children
 
 screen weightlifting:
     add Weightlifting()

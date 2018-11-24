@@ -4,7 +4,7 @@ label jenny_dialogue_trade_panties_more_panties_repeat:
     show jenny 9 at Position(xpos=937)
     show player 11 at left
     with dissolve
-    jen "Ну? Ты нашел {b}игрушку{/b}?"
+    jen "Well? Did you find the {b}toy{/b}?"
     show jenny 6
     return
 
@@ -13,31 +13,31 @@ label jenny_dialogue_trade_panties_have_toy_electroclit:
     pause
     show jenny 18 zorder 2 at right
     show player 287 zorder 1 at left
-    player_name "Вот твоя игрушка..." with fastdissolve
+    player_name "Here's your toy..." with fastdissolve
     show jenny 62
     show player 13
-    jen "Спасибо!" with fastdissolve
+    jen "Thanks!" with fastdissolve
     show jenny 11 at Position(xpos=937)
     show player 14
     with fastdissolve
-    player_name "Как насчет трусишек?"
+    player_name "What about the panties?"
     show jenny 9
     show player 11
-    jen "Покинь мою комнату, я переоденусь."
+    jen "Leave my room so I can change."
     show jenny 10
     show player 10
-    player_name "Но... Мне сказали убедиться, что они поношенные."
+    player_name "But... I was told to make SURE they're used."
     show jenny 9
     show player 11
-    jen "И? Они такие!"
+    jen "So? They are!"
     show jenny 10
     show player 10
-    player_name "Прошу прощения, но..... Мне сказали присутствовать при их снятии..."
+    player_name "I'm sorry, but... I was told to be present when you take them off..."
     show jenny 9
     show player 11
-    jen "Вау... Ты действительно извращенец!"
-    jen "Хорошо..."
-    jen "Но прикройте свои глаза! Я не разрешаю тебе смотреть на меня!"
+    jen "Wow... You really ARE a pervert!"
+    jen "Fine..."
+    jen "But cover your eyes! I'm not letting you watch me!"
     show jenny 6
     show player 296
     player_name "..."
@@ -48,16 +48,16 @@ label jenny_dialogue_trade_panties_have_toy_electroclit:
     pause
     show jenny 53 at right with fastdissolve
 
-    jen "Вот! Возьми!"
+    jen "Here! Take them!"
     show player 291 at Position(xpos=38)
     show jenny 56
     with fastdissolve
     pause
     show player 292
-    player_name "Спасибо..."
+    player_name "Thanks..."
     show player 290
     show jenny 59
-    jen "А теперь убирайся из моей комнаты, извращенец!" with hpunch
+    jen "Now, get out of my room, pervert!" with hpunch
     show jenny 58
     show unlock17 zorder 3 at truecenter
     pause
@@ -71,40 +71,40 @@ label jenny_dialogue_trade_panties_have_toy_ultravibrato:
     pause
     show jenny 18 zorder 2 at right
     show player 288 zorder 1 at left
-    player_name "Вот твоя игрушка..." with fastdissolve
+    player_name "Here's your toy..." with fastdissolve
     show jenny 63
     show player 13
-    jen "Спасибо!" with fastdissolve
+    jen "Thanks!" with fastdissolve
     show jenny 11 at Position(xpos=937)
     show player 14
-    player_name "Как насчет трусишек?" with fastdissolve
+    player_name "What about the panties?" with fastdissolve
     show jenny 9
     show player 11
-    jen "Точно... Тебе нужны {b}мокрые{/b} трусики, да?"
+    jen "Right... You wanted {b}wet{/b} panties, huh?"
     show jenny 10
     show player 10
-    player_name "Да... Они должны быть свежими..."
+    player_name "Yeah... It has to be fresh..."
     show jenny 9
     show player 5
-    jen "Чувак, ты действительно больной и извращенец."
+    jen "Man, you really are sick and perverted."
     show jenny 10
     show player 10
-    player_name "Прости, мне сказали убедиться в этом..."
+    player_name "I'm sorry, I was told to make sure..."
     show jenny 9
     show player 11
-    jen "Тогда, полагаю, ты должен быть свидетелем."
-    jen "Оставайся здесь, чтобы я могла это сделать."
+    jen "I guess you have to be a witness, then."
+    jen "Stay right there so I can get this done."
     show jenny 10
     show player 21
-    player_name "Что ты собираешься делать?"
+    player_name "What are you gonna do?"
     show jenny 7 at right
     show player 11
-    jen "А ты как думаешь?!"
-    jen "Я НАМОЧУ тебе трусики, ИДИОТ!!"
+    jen "What do you think?!"
+    jen "I'm getting those panties WET, you IDIOT!!"
     show jenny 9 at Position(xpos=937)
-    jen "Так что закрой глаза, я не могу сделать это, когда ты смотришь на меня."
+    jen "So cover your eyes, I can't do it with you watching me."
     show player 10
-    player_name "Хорошо..."
+    player_name "Okay..."
     scene jennybedroom_c_2
     pause 0.001
     show player 296 zorder 1 at left
@@ -116,11 +116,11 @@ label jenny_dialogue_trade_panties_have_toy_ultravibrato:
     show jenny 69_68
     pause 5
     show jenny 67
-    jen "Ахххх..." with fastdissolve
+    jen "Ahhh..." with fastdissolve
     show jenny 66
     player_name "!!!"
     show jenny 67
-    jen "Вот, это должно сработать..."
+    jen "There, that should do it..."
     scene jennybedroom
     show player 296 at left
     show jenny 51 at right
@@ -129,19 +129,19 @@ label jenny_dialogue_trade_panties_have_toy_ultravibrato:
     show jenny 52 with fastdissolve
     pause
     show jenny 54 at right with fastdissolve
-    jen "Вот. Возьми!"
+    jen "Here. Take them!"
     show player 291 at Position(xpos=38)
     show jenny 56
     with fastdissolve
     pause
     show jenny 57
-    jen "Бьюсь об заклад, тебе понравилась эта маленькая сессия, ты больной."
+    jen "I bet you enjoyed this little session, you sicko."
     show player 292
     show jenny 56
-    player_name "Я только-"
+    player_name "I just-"
     show player 290
     show jenny 59
-    jen "Убирайся из моей комнаты, извращенец!" with hpunch
+    jen "Get out of my room, you pervert!" with hpunch
     show jenny 58
     show unlock31 zorder 3 at truecenter
     pause
@@ -155,37 +155,37 @@ label jenny_dialogue_trade_panties_have_toy_sybian:
     pause
     show jenny 18 zorder 2 at right
     show player 289 zorder 1 at Position(xpos=12)
-    player_name "Да, Я достал." with fastdissolve
-    player_name "Ну... эта штука очень тяжелая!!"
+    player_name "Yeah, I got it." with fastdissolve
+    player_name "Man... this thing is heavy!!"
     show player 13 at left
     show jenny 64
-    jen "Спасибо!" with fastdissolve
+    jen "Thanks!" with fastdissolve
     show player 21
     show jenny 10 at Position(xpos=937)
-    player_name "Так... как мы собираемся получить твой сквирт на трусиках?" with fastdissolve
+    player_name "So... how are we going about getting your squirt on the panties?" with fastdissolve
     show player 1
     show jenny 9
-    jen "Верно... Ты хочешь мой {b}сквирт{/b} на эти трусики..."
+    jen "Right... You wanted my {b}squirt{/b} on these panties..."
     show player 21
     show jenny 10
-    player_name "Да. Они должны быть очень влажной..."
+    player_name "Yeah. It has to be really wet..."
     show player 11
     show jenny 12
-    jen "Я обычно не брызгаюсь... Но теперь, когда ты принес мне двойной вибратор..."
+    jen "I don't usually squirt... But now that you got me a Dual Sybian..."
     show player 21
     show jenny 82
-    player_name "Ты сможешь это сделать?"
+    player_name "You can do it?"
     show player 11
     show jenny 19 at right
-    jen "Возможно... но мне нужна помошь."
+    jen "Maybe... but I may need some help."
     show jenny 18
     player_name "..."
     show player 10
-    player_name "Что тебе-"
+    player_name "What do you-"
     show player 11
     show jenny 60
     with fastdissolve
-    jen "Заткнись и возьми этот пульт."
+    jen "Shut up and take this remote."
     show jenny 18
     show player 293
     with fastdissolve
@@ -193,9 +193,9 @@ label jenny_dialogue_trade_panties_have_toy_sybian:
     show player 295
     show jenny 64
     with fastdissolve
-    jen "Этой штуке нужен {b}пробный запуск{/b}."
-    jen "Не трудись закрывать глаза..."
-    jen "Ты должен увидеть пульт, в конце концов."
+    jen "This thing needs a {b}test run{/b}."
+    jen "Don't bother closing your eyes..."
+    jen "You gotta see the remote, after all."
     scene jennybedroom_c_2b
     pause 0.001
     show jenny 70 at Position(xpos=686)
@@ -209,21 +209,21 @@ label jenny_dialogue_trade_panties_have_toy_sybian:
     pause
     show jenny 72 at Position (xpos=845,ypos=723) with dissolve
     pause
-    player_name "Что мне прикажешь делать?"
+    player_name "What am I supposed to do?"
     show jenny 75
-    jen "Мне нужно, чтобы ты его включил, идиот!" with hpunch
+    jen "I need you to turn it on, you idiot!" with hpunch
     show jenny 72
-    player_name "Хорошо! Хорошо!"
+    player_name "Okay! Okay!"
     hide player
     return
 
 label jenny_dialogue_trade_panties_do_not_have_toy:
     show player 24 at left
     show jenny 10 at Position(xpos=937)
-    player_name "Пока у меня нет игрушки для тебя..."
+    player_name "I don't have the toy yet..."
     show jenny 9
     show player 5
-    jen "Очень плохо. Убирайся из моей комнаты, извращенец!"
+    jen "Too bad. Get out of my room, you pervert!"
     hide player
     hide jenny
     return
@@ -231,23 +231,23 @@ label jenny_dialogue_trade_panties_do_not_have_toy:
 label jenny_dialogue_trade_panties_do_not_need_panties:
     show jenny 10 at Position(xpos=937)
     show player 35 at left
-    player_name "Вообще-то, мне не нужны {b}трусики{/b} прямо сейчас..."
+    player_name "Actually, I don't need any {b}panties{/b} right now..."
     show jenny 9
     show player 11
-    jen "Тогда убирайся из моей комнаты, извращенец!"
+    jen "Then get out of my room, pervert!"
     hide player
     hide jenny
     return
 
 label sybian_stage1:
     show jenny 74 at Position (xpos=843,ypos=723)
-    jen "Ох!.." with vpunch
+    jen "Oh!.." with vpunch
     show jenny 83 at Position (xpos=845,ypos=723)
-    jen "Это... интересно..."
+    jen "That's... interesting..."
     show jenny 74_83 at Position (xpos=843,ypos=723)
     pause 5
     show jenny 75 at Position (xpos=845,ypos=723)
-    jen "Ты должен сделать его быстрее, идиот!!"
+    jen "You gotta make it go faster, you IDIOT!!"
     show jenny 74 at Position (xpos=843,ypos=723)
     show screen sybianscr
     with fastdissolve
@@ -256,13 +256,13 @@ label sybian_stage1:
 
 label sybian_stage2:
     show jenny 83 at Position (xpos=845,ypos=723)
-    jen "Ох, Мой, Бог!!" with vpunch
+    jen "Oh, My, God!!" with vpunch
     show jenny 74 at Position (xpos=843,ypos=723)
-    jen "Эта штука трахает восхитительно!!"
+    jen "This thing is fucking amazing!!"
     show jenny 74_83 at Position (xpos=843,ypos=723)
     pause 5
     show jenny 75 at Position (xpos=845,ypos=723)
-    jen "Быстрее, сделай его БЫСТРЕЕ!!"
+    jen "Faster, make it go FASTER!!"
     show jenny 74 at Position (xpos=843,ypos=723)
     show screen sybianscr
     with fastdissolve
@@ -271,17 +271,17 @@ label sybian_stage2:
 
 label sybian_stage3:
     show jenny 83 at Position (xpos=845,ypos=723)
-    jen "Аххххх!!!" with vpunch
+    jen "Ahhhh!!!" with vpunch
     show jenny 74 at Position (xpos=843,ypos=723)
-    jen "ОХХХ БОГ..."
+    jen "OH GOD..."
     show jenny 83 at Position (xpos=845,ypos=723)
-    jen "...Я ДУМАЮ..."
+    jen "...I THINK..."
     show jenny 74 at Position (xpos=843,ypos=723)
-    jen "...Я..."
+    jen "...I'M..."
     show jenny 83 at Position (xpos=845,ypos=723)
-    jen "...Я КОНЧАЮ!!!"
+    jen "...I'M CUMMING!!!"
     show jenny 76 at Position (xpos=842,ypos=701)
-    jen "Ахххх!!!" with vpunch
+    jen "Ahhh!!!" with vpunch
     jump expression game.dialog_select("sybian_cum")
 
 label sybian_cum:
@@ -289,7 +289,7 @@ label sybian_cum:
     $ persistent.cookie_jar["Jenny"]["unlocked"] = True
     $ persistent.cookie_jar["Jenny"]["gallery"]["03_unlocked"] = True
     $ player.get_item("panties")
-    $ sis_panty04.finish()
+    $ M_jenny.trigger(T_jenny_panty_sex_toy_traded_tier_3)
     $ sis_quest_first = True
     jump expression game.dialog_select("hallway_dialogue")
 
@@ -299,26 +299,26 @@ label sybian_cum_dialogue:
     show player 13 at left
     show jenny 57 at right
     with dissolve
-    jen "Вау..."
-    jen "Я не знала, что смогу это сделать."
+    jen "Wow..."
+    jen "I didn't know I could do that."
     show jenny 54 at right
     show player 11
-    jen "Бьюсь об заклад, тебе понравилось участвовать, противный мальчик." with fastdissolve
-    jen "Вот, держи."
+    jen "I bet you enjoyed taking part, you nasty boy." with fastdissolve
+    jen "Here you go."
     show player 314 at Position(xpos=38)
     show jenny 56
-    player_name "Я эээ-" with fastdissolve
+    player_name "I uhh-" with fastdissolve
     show player 313
     show jenny 56
     with fastdissolve
     pause
     show player 314
-    player_name "Спасибо..."
+    player_name "Thanks..."
     show jenny 57
     show player 313
-    jen "Нет..."
-    jen "Спасибо ТЕБЕ, за помощь..."
-    jen "А теперь убирайся из моей комнаты, извращенец."
+    jen "No..."
+    jen "Thank YOU, for the help..."
+    jen "Now, get out of my room, you pervert."
     show jenny 56
     $ renpy.end_replay()
     show unlock31 zorder 3 at truecenter
@@ -329,7 +329,7 @@ label sybian_cum_dialogue:
     return
 
 label jenny_dialogue_make_deal:
-    if sis_deal_first:
+    if M_jenny.is_state(S_jenny_titty_deal):
         $ label_format = "_first"
     else:
         $ label_format = "_repeat"
@@ -337,41 +337,39 @@ label jenny_dialogue_make_deal:
     if not store._in_replay == None:
         jump expression game.dialog_select("jenny_dialogue_make_deal_replay")
     menu:
-        "Хорошо." if player.has_money(500):
-            $ sis_deal_first = False
-            if not sister.known(sis_shower_cuddle02):
-                $ sister.add_event(sis_shower_cuddle02)
+        "Alright." if player.has_money(500):
+            $ M_jenny.trigger(T_jenny_paid_for_titties)
             $ player.spend_money(500)
             label jenny_dialogue_make_deal_replay:
                 call expression game.dialog_select("jenny_dialogue_make_deal_alright{}".format(label_format))
             menu sis_titsplay_menu:
-                "Продолжать.":
+                "Continue.":
                     call expression game.dialog_select("jenny_dialogue_make_deal_continue")
                     jump expression game.dialog_select("sis_titsplay_menu")
 
-                "Пососать." if store._in_replay == None and player.stats.dex() < 5:
+                "Suck on it." if store._in_replay == None and player.stats.dex() < 5:
                     call expression game.dialog_select("jenny_dialogue_make_deal_suck_stat_fail")
 
-                "Пососать." if not store._in_replay == None or player.stats.dex() >= 5:
+                "Suck on it." if not store._in_replay == None or player.stats.dex() >= 5:
                     call expression game.dialog_select("jenny_dialogue_make_deal_suck_stat_pass")
                     menu sis_titssuck_menu:
-                        "Продолжать.":
+                        "Keep going.":
                             call expression game.dialog_select("jenny_dialogue_make_deal_suck_continue")
                             jump expression game.dialog_select("sis_titssuck_menu")
-                        "Остановится.":
+                        "Stop.":
 
                             call expression game.dialog_select("jenny_dialogue_make_deal_suck_stop")
                             $ renpy.end_replay()
                             $ persistent.cookie_jar["Jenny"]["unlocked"] = True
                             $ persistent.cookie_jar["Jenny"]["gallery"]["04_unlocked"] = True
 
-                "Остановится." if store._in_replay == None:
+                "Stop." if store._in_replay == None:
                     call expression game.dialog_select("jenny_dialogue_make_deal_stop")
 
-        "Пока нет" if player.has_money(500):
+        "Not yet" if player.has_money(500):
             call expression game.dialog_select("jenny_dialogue_make_deal_not_yet")
 
-        "Мне не хватает." if not player.has_money(500):
+        "I don't have enough." if not player.has_money(500):
             call expression game.dialog_select("jenny_dialogue_make_deal_not_enough")
     return
 
@@ -381,56 +379,56 @@ label jenny_dialogue_make_deal_pre_first:
     show jenny 7 at right
     show jenny 12 at Position(xpos=937)
     with dissolve
-    jen "Ну?"
-    jen "Ты думал о нашей маленькой {b}сделке{/b}?"
+    jen "So?"
+    jen "Have you thought about our little {b}deal{/b}?"
     show player 14
     show jenny 11
-    player_name "Ну, я не против одолжить тебе денег, но когда я получу их обратно?"
+    player_name "Well, I don't mind lending you some money, but when do I get it back?"
     show player 1
     show jenny 9
-    jen "Ах да, об этом... Мне действительно нужны все деньги, которые я могу получить."
+    jen "Oh yeah, about that... I really do need all the money I can get."
     show player 11
     show jenny 12
-    jen "Так что если, ты знаешь... Я могу отплатить тебе {b}по-другому{/b}?"
-    jen "Может сделать {b}что-нибудь{/b} для тебя..."
+    jen "So what if, you know... I could repay you in a {b}different way{/b}?"
+    jen "Maybe do {b}something{/b} for you..."
     show jenny 11
     show player 21
-    player_name "Например?"
+    player_name "Like what?"
     show player 11
     show jenny 19 at right
-    jen "Не знаю, может, что-нибудь что тебе нравится?"
-    jen "Что-то, чего ты всегда хотел?"
+    jen "I don't know, maybe something you'd like?"
+    jen "Something that you've always wanted?"
     show jenny 6 at Position(xpos=937)
     show player 10
-    player_name "Эээ... Я не знаю..."
+    player_name "Uhh... I don't know..."
     show player 11
     show jenny 9
-    jen "Блин, Ты такой тупой!"
+    jen "Gosh, You're so stupid!"
     show jenny 7 at right
-    jen "Я пытаюсь {b}СКАЗАТЬ ТЕБЕ{/b} кое-что!" with hpunch
+    jen "I'm trying to {b}TELL YOU{/b} something!" with hpunch
     show player 10
     show jenny 6 at Position(xpos=937)
-    player_name "Я ничего не понимаю! Что ты предлагаешь?!"
+    player_name "I don't get it! What are you offering?!"
     show player 11
     show jenny 12
-    jen "Ты всегда пялишься на мои {b}титьки{/b} как извращенец!"
-    jen "Я могу позволить {b}смотреть{/b} на них... может позволю {b}потрогать{/b} их..."
+    jen "You always stare at my {b}breasts{/b} like a pervert!"
+    jen "I can let you {b}see{/b} them... maybe even let you {b}touch{/b} them..."
     show player 21
     show jenny 18 at right
-    player_name "Пр- Правда?"
-    player_name "И, сколько денег тебе нужно?"
+    player_name "Re- Really?"
+    player_name "Well, how much money do you need?"
     show jenny 19
     show player 11
-    jen "Я сделаю это за {b}$500{/b}."
+    jen "I'll do it for {b}$500{/b}."
     show player 12
     show jenny 8
-    player_name "Это большие деньги..."
+    player_name "That's a lot of money..."
     show player 11
     show jenny 7
-    jen "Прошу прощения?!"
-    jen "Они стоят гораздо больше!!"
+    jen "Excuse me?!"
+    jen "They're worth WAY more than that!!"
     show jenny 9 at Position(xpos=937)
-    jen "Ну, договорились или нет?"
+    jen "So, deal or no deal?"
     show player 11
     show jenny 6
     return
@@ -440,24 +438,24 @@ label jenny_dialogue_make_deal_pre_repeat:
     show jenny 7 at right
     show jenny 12 at Position(xpos=937)
     with dissolve
-    jen "Итак?"
-    jen "Хочешь заключить небольшую {b}сделку{/b}?"
+    jen "So?"
+    jen "You want to make a little {b}deal{/b}?"
     show jenny 11
     show player 21
-    player_name "Да..."
-    player_name "Еще раз, сколько тебе нужно денег?"
+    player_name "Yeah..."
+    player_name "How much money do you need again?"
     show jenny 19 at right
     show player 11
-    jen "Я сделаю это за {b}$500{/b}."
+    jen "I'll do it for {b}$500{/b}."
     show player 12
     show jenny 8
-    player_name "Это большие деньги, {b}[jen_name]{/b}..."
+    player_name "That's a lot of money, {b}[jen_name]{/b}..."
     show player 11
     show jenny 7
-    jen "Прошу прощения?!"
-    jen "Они стоят гораздо больше!!"
+    jen "Excuse me?!"
+    jen "They're worth WAY more than that!!"
     show jenny 9 at Position(xpos=937)
-    jen "Итак: договорились или нет?"
+    jen "So: Deal or no deal?"
     show player 11
     show jenny 6
     return
@@ -465,34 +463,34 @@ label jenny_dialogue_make_deal_pre_repeat:
 label jenny_dialogue_make_deal_alright_first:
     show player 12 at left
     show jenny 82 at Position(xpos=937)
-    player_name "Хорошо."
+    player_name "Fine."
     show player 41 at Position(xpos=38) with fastdissolve
     pause
     show player 11 at left
     show jenny 80 at Position(xpos=945)
-    jen "Подожди: Я сначала пересчитаю." with fastdissolve
+    jen "Hold on: I'm counting it first." with fastdissolve
     show jenny 14
-    jen "Хмм..."
+    jen "Hmm..."
     play audio coins2
     show player 1
     show jenny 12 at Position(xpos=937)
-    jen "Хорошо. Все в порядке." with fastdissolve
+    jen "Fine. It's all here." with fastdissolve
     show jenny 10
     show player 21
-    player_name "Итак... как мы можем это сделать?"
+    player_name "So... how do we do this?"
     show player 11
     show jenny 7 at right
-    jen "Ты ничего не трогаешь, пока я не скажу тебе. Понятно?!"
+    jen "You're not touching ANYTHING, unless I tell you otherwise. Understood?!"
     show player 21
     show jenny 8
-    player_name "Хорошо..."
+    player_name "Okay..."
     show jenny 161 at Position(xpos = 943) with fastdissolve
     pause
     show jenny 162 with fastdissolve
     pause
     show jenny 91 at right with fastdissolve
     show player 1
-    jen "Ты можешь трогать их только ОДНОЙ рукой..."
+    jen "You can touch it with ONE hand..."
     hide player
     show jenny 92
     with fastdissolve
@@ -504,12 +502,12 @@ label jenny_dialogue_make_deal_alright_first:
     show jenny 95_94
     pause 8
     show jenny 95
-    jen "Почему ты так сжимаешь мой сосок?"
+    jen "Why are you squeezing my nipple like that?"
     show jenny 94
-    jen "Ты не можешь просто потрогать нормально?"
+    jen "Can't you just touch it normally?"
     show jenny 95
     pause
     show jenny 96
-    jen "Хахх..."
+    jen "Hahh..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -2,69 +2,69 @@ label kim_button_dialogue_intro:
     show player 13 at left
     show kim 2 at right
     with dissolve
-    kim "Привет!"
-    kim "Что я могу сделать для вас что бы вы смогли получить ваш новый автомобиль сегодня?"
+    kim "Herro there!"
+    kim "What can I do to get you into a new vehicle today?"
     show kim 1
     show player 10
-    player_name "Ох, эммм..."
+    player_name "Oh, uhh..."
     show player 4 with dissolve
     return
 
 label kim_button_dialogue_button:
     show player 14 with dissolve
-    player_name "Мне нравятся ваш значок."
-    player_name "Ты поклоник {b}Мэра Рампа{/b}?"
+    player_name "I like your button."
+    player_name "You a fan of {b}Mayor Rump{/b}?"
     show player 13
     show kim 2
-    kim "Ох, {b}Мэр Рамп{/b} номер 1, лучший мэр."
-    kim "Он и {b}Ким{/b} хорошие друзья!"
+    kim "Oh, {b}Mayor Rump{/b} is numba 1, best mayor."
+    kim "Him and {b}Kim{/b} good friends!"
     show kim 3
     show player 10
-    player_name "Ты дружишь с {b}Мэром Рампом{/b}?"
+    player_name "You're friends with {b}Mayor Rump{/b}?"
     show player 13
     show kim 2
-    kim "Да, Я помогаю ему с его политикой взамен на финансирование."
+    kim "Yes, I herp him with his poricies in exchange for funding."
     show kim 6 with dissolve
-    kim "Тогда я взойду на мой трон!"
+    kim "When I ascend to my throne!"
     show kim 3 with dissolve
     show player 10
-    player_name "... Трон?"
+    player_name "... Throne?"
     show player 5
     show kim 2
-    kim "Да!"
-    kim "Когда я стану главой этого автосалона, Я построю мощьную империю."
+    kim "Yes!"
+    kim "When I take over this dearership, I will erect a mighty throne."
     show kim 5 with dissolve
-    kim "Уах ха ха ха!"
+    kim "Hue hue hue hue!"
     show player 12
-    player_name "Ну, удачи со всем этим..."
+    player_name "Well, good luck with all that..."
     show player 5
     show kim 2 with dissolve
-    kim "Она мне не нужна.."
+    kim "I no need ruck..."
     hide kim with dissolve
     show player 10
-    player_name "Хммм, почему же наш {b}Мэр{/b} общается с этим парнем?"
+    player_name "Hmm, why would our {b}Mayor{/b} be hanging out with that guy?"
     show player 12
-    player_name "... Странно."
+    player_name "... Weird."
     hide player with dissolve
     return
 
 label kim_button_dialogue_browsing:
     show player 14 with dissolve
-    player_name "Я только пришел сюда что бы посмотреть."
+    player_name "I'm just here to browse."
     show player 13
     show kim 2
-    kim "Хмммм, посмотреть, мм?"
-    kim "Очень хорошо."
-    kim "... Но если ты захочешь что то купить, Ты должен поговорить со мной и не с кем другим!"
-    kim "Ты понял?!"
+    kim "Hmmph, a browser, eh?"
+    kim "Very well."
+    kim "... But should you wish to purchase something, I insist you speak with me and no one erse!"
+    kim "You understand?!"
     show kim 1
     show player 10
-    player_name "Ухх, да..."
-    player_name "Само собой."
+    player_name "Uhh, yeah..."
+    player_name "Sure thing."
     show player 5
     show kim 2
-    kim "Хорошо."
-    kim "Я буду следить за тобой!"
+    kim "Good."
+    kim "I will be watching!"
     hide kim
     hide player
     with dissolve
@@ -72,39 +72,39 @@ label kim_button_dialogue_browsing:
 
 label kim_button_dialogue_sign:
     show player 14 with dissolve
-    player_name "Это ты на значке?"
+    player_name "Is that you on the sign?"
     show player 13
     show kim 5 with dissolve
-    kim "Ох, ты заметил знак, мм?!"
-    kim "Да, {b}Ким{/b} номер 1, лучший продавец машин!"
-    kim "Вскоре, это место будет принадлежать мне."
+    kim "Oh, you notice sign, eh?!"
+    kim "Yes, {b}Kim{/b} is numba 1, best car salesman!"
+    kim "Soon, I own this prace."
     show kim 4
     show player 12
-    player_name "Ох да?"
+    player_name "Oh yeah?"
     show player 13
     show kim 6 with dissolve
-    kim "Ох да... Я покарю это автосалон!"
-    kim "Я распростряню его, по всему миру!"
+    kim "Oh yes... I will conquer this Car Dearership!"
+    kim "I will expand it, into national chain!"
     show player 11
-    kim "Когда нибудь, Я покарю весь мир со своими автосалонами !!"
+    kim "One day, I will cover the entire pranet with my Dearerships!!"
     show kim 3
     show player 3
     with dissolve
     player_name "..."
     show kim 5 with dissolve
-    kim "Уах ха ха ха!"
-    kim "Я буду автосолным БОГОМ!!!"
+    kim "Hue hue hue hue!"
+    kim "I will be a dearership GOD!!!"
     show kim 4
     show player 10 with dissolve
-    player_name "... Хорошо."
-    player_name "Ну, Я пойду осмотрюсь..."
+    player_name "... Right."
+    player_name "Well, I'm gonna go look around now..."
     show player 5
     show kim 2 with dissolve
-    kim "Да, иди салага."
-    kim "Найдешь меня если захочешь что то купить."
+    kim "Yes, you go rook."
+    kim "Come find me if you want make purchase."
     hide kim with dissolve
     show player 12
-    player_name "Какой странный парень."
+    player_name "What an odd fellow."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

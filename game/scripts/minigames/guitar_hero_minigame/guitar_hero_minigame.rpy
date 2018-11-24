@@ -3,26 +3,26 @@ label guitar_hero_minigame_karaoke_fail:
     show erik 3f at Position (xpos=400)
     show player 5 at left
     show eve 23 at right with dissolve
-    eve "Вы, ребята, отстой!"
+    eve "Boo! You guys suck!"
     show eve 22
     show player 10
-    player_name "Я не знал, что это за песня такая!"
+    player_name "I didn't know the words to that song!"
     show player 12
-    player_name "{b}Эрик{/b}, выбери другую!"
+    player_name "{b}Erik{/b}, pick another!"
     show player 5
     show erik 3bf
-    eri "Хорошо..."
+    eri "Alright..."
     show erik 3f
     show player 14
-    player_name "Вот так-то!"
+    player_name "Here we go!"
     hide player
     hide erik
     with dissolve
     if M_dewitt.get("failcount") >= 3 or game.cheat_mode:
         menu:
-            "Играть в мини-игру":
+            "Play Minigame":
                 call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
-            "Пропустить мини-игру (чит)":
+            "Skip Minigame (Cheat)":
                 jump guitar_hero_minigame_karaoke_pass
     else:
         call screen guitar_hero(1, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
@@ -36,8 +36,8 @@ label guitar_hero_minigame_karaoke_pass:
     show player 13 at left
     show eve 19 at right
     with dissolve
-    eve "Я покажу вам, как это делается!"
-    eve "Прочь с дороги, мальчики!"
+    eve "I'll show you amateurs how it's done!"
+    eve "Out of my way, boys!"
     show eve 15 with dissolve
     show erik 5f
     show player 11
@@ -46,10 +46,10 @@ label guitar_hero_minigame_karaoke_pass:
 
     scene erik_basement_cs2
     with fade
-    show text "Думаю, выпивка сделала свое дело, потому что {b}Ева{/b} потрясла этот микрофон с некоторой серьезной уверенностью\nОна была великолепна! Я был полностью поражен тем, как прекрасен её голос!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I guess the booze did it's job because {b}Eve{/b} rocked that mic with some serious confidence!\nShe was amazing! I was completely blown away by how beautiful her voice was!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
-    show text "Возможно, мне стоило остановить её на трех стаканах...\n... Но я не хотел пропустить это шоу." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Perhaps I should have stopped her at three glasses though...\n... As it ended up being quite the show!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -59,71 +59,71 @@ label guitar_hero_minigame_karaoke_pass:
     show player 83c at left
     show eve 17c at right
     with dissolve
-    eve "ЕЕЕЕЕ!!!"
+    eve "WHOOOOO!!!"
     show eve 16 with dissolve
     show player 83b
-    player_name "Черт девченка, ты жжешь!"
+    player_name "Damn girl, you rock!"
     show player 83c
     show eve 17
-    eve "Спасибо! Я думаю - *ик* я думаю, что это не так уж плохо петь перед другими."
+    eve "Thanks! I guess- *hic* I guess it isn't that bad singing in front of others."
     show eve 16
     show player 83b
-    player_name "Это значит, что ты будешь петь в шоу талантов?!"
+    player_name "Does that mean you'll sing in the talent show?!"
     show player 83c
     eve "..."
     show eve 17
-    eve "Конечно, почему бы и нет!"
+    eve "Sure, why not!"
     show eve 16
     show player 83b
-    player_name "Ты великолепна!"
-    player_name "Хотя, может, не стоит раздеваться перед шоу талантов."
+    player_name "You're awesome!"
+    player_name "Maybe keep your clothes on for the talent show though."
     show player 83c
     show eve 17b with dissolve
-    eve "Хмм?"
+    eve "Hmm?"
     show eve 17d with dissolve
-    eve "О! Пфффф!"
+    eve "Oh! Pfft!"
     show eve 17c with dissolve
-    eve "Ахахаха!"
+    eve "Hahahahaha!"
     show eve 17 with dissolve
-    eve "Упс. Наверное, я - *ик* думаю, я увлеклась..."
+    eve "Whoopsie. Guess I- *hic* Guess I got carried away..."
     show eve 15 with dissolve
     show erik 58f
-    eri "Хех, все в порядке. Мы не против."
+    eri "Heh, it's okay. We didn't mind."
     show erik 57f
     show eve 2b
-    eve "Ох, конечно *ик* {b}Эрик{/b} конечно..."
+    eve "Oh right, *hic* {b}Erik's{/b} here..."
     show eve 4 with dissolve
-    eve "Я совершенно забыла, хехехе."
+    eve "I completely forgot, hehehe."
     show eve 3
     eri "..."
     show player 79 with dissolve
-    player_name "Наверное, мне стоит помочь тебе добраться домой."
+    player_name "I should probably help you get home."
     show player 83c
     show eve 2
     with dissolve
-    eve "О, такой ... *ик* настоящий джентльмен!"
-    eve "Я просто напишу своей сестре *ик* она меня заберет."
+    eve "Aww, such a- *hic* such a gentleman!"
+    eve "I'll just text my sis- *hic* She'll pick me up."
     show eve 5
     show erik 58f
-    eri "Увидимся позже."
+    eri "I'll see you guys later."
     show erik 57f
     show player 83b
-    player_name "Спасибо за вечеринку {b}Эрик{/b}."
+    player_name "Thanks for the party {b}Erik{/b}."
     show player 83c
     show eve 15 with dissolve
-    eve "Да, вечеринка! Уу-хуууу!"
+    eve "Yeah, party! Whooooo!"
     show eve 5 with dissolve
     show player 83b
-    player_name "Хех, ну ты и пьяница. Пойдем домой!"
+    player_name "Heh, c'mon drunkie. Let's go home!"
     show player 83c
     show eve 2
-    eve "Я был действительно хороша - *ик* не так ли, {b}[firstname]{/b}?"
+    eve "I was really good wasn't- *hic* wasn't I, {b}[firstname]{/b}?"
     show eve 5
     show player 83b
-    player_name "Конечно."
+    player_name "You sure were."
     show player 83c
     show eve 4 with dissolve
-    eve "Хехехе."
+    eve "Hehehe."
     hide eve
     hide player
     hide erik
@@ -139,15 +139,15 @@ label guitar_hero_minigame_karaoke_pass:
 label guitar_hero_minigame_talent_show_fail:
     scene assembly_hall_cs03
     with fade
-    show text "Это не было хорошим началом, и толпа становилась беспокойной...\n{b}Ева{/b} и {b}Кевин{/b} выглядели обеспокоенными, но я знал, что мы всё ещё можем спасти его!\nЯ дал им обоим обнадеживающий кивок и начал сверху.\nМы обязательно победим их за это время!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "It was not a good start and the crowd was growing restless...\n{b}Eve{/b} and {b}Kevin{/b} looked worried but I knew we could still save it!\nI gave them both a reassuring nod and started it over from the top.\nWe'll win them over this time for sure!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
     if M_dewitt.get("failcount") >= 3 or game.cheat_mode:
         menu:
-            "Играть в мини-игру":
+            "Play Minigame":
                 call screen guitar_hero(0, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")
-            "Пропустить мини-игру (чит)":
+            "Skip Minigame (Cheat)":
                 jump guitar_hero_minigame_talent_show_pass
     else:
         call screen guitar_hero(1, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")
@@ -159,7 +159,7 @@ label guitar_hero_minigame_talent_show_pass:
     $ persistent.cookie_jar["Dewitt"]["gallery"]["02_unlocked"] = True
     scene assembly_hall_cs02
     with fade
-    show text "Зрители были потрясены, когда мы играли нашими сердцами!\n{b}Кевин{/b} разорвал на своей гитаре и у {b}Евы{/b} ангельский голосок убаюкал их подчинил их себе!\n... Я закончил все это с причудливым соло флейты, которое заставила толпу содрогнуться!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "The crowd was transfixed as we played our hearts out!\n{b}Kevin{/b} shredded on his guitar and {b}Eve's{/b} angelic voice lulled them into submission!\n... I finished it all off with a whimsical flute solo that left the crowd reeling!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -169,54 +169,54 @@ label guitar_hero_minigame_talent_show_pass:
     show player 554 at left
     show eve 12 at right
     with dissolve
-    eve "Отличная работа, ребята!"
+    eve "Awesome job guys!"
     show eve 11
     show player 555
-    player_name "Да, это было действительно потрясающе!"
+    player_name "Yeah, that was really amazing!"
     show player 554
     show kevin 18f
-    kev "Где, черт возьми, {b}Мисс Девитт{/b}?!"
+    kev "Where the heck is {b}Miss Dewitt{/b}?!"
     show kevin 17f
     show player 553
-    player_name "... А?"
+    player_name "... Huh?"
     show player 552
     show kevin 18f
-    kev "Братан, она пропала!"
+    kev "Bro, she's gone!"
     show kevin 17f
     show eve 12
-    eve "Он прав! Она была здесь секунду назад..."
+    eve "He's right! She was right here a second ago..."
     show eve 11
     show player 553
-    player_name "Она должна была закончить шоу речью.."
+    player_name "She's supposed to close out the show with a speech."
     show player 552
     player_name "..."
     show kevin 18f
-    kev "Чтож кто-то должен подняться и что-то сказать!"
+    kev "Well somebody has to go up and say something!"
     show kevin 17f
     show eve 12
-    eve "{b}[firstname]{/b} должен сделать это!"
+    eve "{b}[firstname]{/b} should do it!"
     show eve 11
     show player 553
-    player_name "... Почему я всегда должен все делать?!"
+    player_name "... Why do I always have to do everything?!"
     show player 552
     show kevin 18f
-    kev "У тебя получится, братан!"
+    kev "You got this, Bro!"
     show kevin 17f
     show player 553
-    player_name "{b}*Вздох*{/b} Хорошо."
+    player_name "{b}*Sigh*{/b} Fine."
     show player 551c with dissolve
-    player_name "( Думаю, я положу свои волосы набок. )"
+    player_name "( Think I'll put my hair back down. )"
     show player 551b at Position (xoffset=6) with dissolve
     show eve 12
-    eve "Ох... Мне нравятся твои волосы!"
+    eve "Aww... I liked your hair like that though!"
     show eve 11
     show player 551d with dissolve
     pause
     show player 14 at Position (xoffset=52) with dissolve
-    player_name "Извини! Может быть, ты сможешь поправить мне прическу в следующий раз?"
+    player_name "Sorry! Maybe you can fix my hair another time."
     show player 13 at Position (xoffset=52)
     show eve 12
-    eve "Все в порядке! А теперь убирайcя отсюда!"
+    eve "Alright! Now get out there!"
     hide player
     hide kevin
     hide eve
@@ -224,7 +224,7 @@ label guitar_hero_minigame_talent_show_pass:
 
     scene assembly_hall_cs04
     with fade
-    show text "Толпа затаив дыхание ждала, когда я направлюсь на подиум.\nЯ понятия не имел, что сказать этим людям!\nКуда черт возьми подевалась {b}Мисс Девитт{/b}?" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "The crowd was waiting with bated breath as I made my way to the podium.\nI had no idea what to say to these people!\nWhere the heck had {b}Miss Dewitt{/b} gotten off to?" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -233,32 +233,32 @@ label guitar_hero_minigame_talent_show_pass:
     show player podium 3 at Position (xoffset=-120)
     show xtra 44
     with dissolve
-    player_name "Здравствуйте, итак эм..."
-    player_name "Это было нечто, мм?"
+    player_name "H-hey, so uh..."
+    player_name "That was really something, huh?"
     show player podium 4 at Position (xoffset=-120)
-    player_name "Мы просто хотим сказать, что мы ценим..."
+    player_name "We just want to say we appreci-"
     show player podium 2 zorder 1 with dissolve
     player_name "!!!"
-    player_name "Какого..."
+    player_name "What the-"
 
     scene under_podium
     show dewitt under 1
     with dissolve
-    dewitt "Ну Здравствуй, сладкий мой."
+    dewitt "Well hello there, sugar."
     show dewitt under 2
-    player_name "Что ты делаешь?"
+    player_name "What are you doi-"
     show dewitt under 3 with dissolve
-    dewitt "Тссс...."
+    dewitt "Shhhh...."
     show dewitt under 1 with dissolve
-    dewitt "Я знаю, что ты сделал."
-    dewitt "Ты так рисковал отчислением, чтобы этот {b}Шоу талантов{/b} прошел без сучка и задоринки."
+    dewitt "I know what you did."
+    dewitt "How you risked expulsion to make sure this {b}Talent Show{/b} went off without a hitch."
     show dewitt under 2
-    player_name "В этом нет ничего особенного, мэм."
-    player_name "Ты действительно должны были прийти сюда и закончить шоу!"
+    player_name "It's no big deal, Ma'am."
+    player_name "You should really come up here and close out the show!"
     show dewitt under 1
-    dewitt "Ну эх! Нет, пока у меня не будет шанса отблагодарить тебя, мой сладкий!"
+    dewitt "Nu uh! Not until I've had a chance to properly thank you, sugar!"
     show dewitt under 4 with dissolve
-    player_name "Что ты де..."
+    player_name "What are you-"
     $ M_dewitt.set("sex speed", 0.175)
     scene dewitt_podium_bj
     show dewitt bj 1 at left
@@ -267,67 +267,67 @@ label guitar_hero_minigame_talent_show_pass:
     show dewitt bj 2
     pause
     show dewitt bj 3
-    dewitt "Продолжай говорить, {b}[firstname]{/b}!"
-    dewitt "Твоя обожающая толпа ждет!"
+    dewitt "Keep talking, {b}[firstname]{/b}!"
+    dewitt "Your adoring crowd is waiting!"
 
     scene assembly_hall_podium_c
     show player podium 2
     show xtra 44
     with dissolve
-    player_name "{b}*Кхм*{/b} Извините... Где я остановился?"
+    player_name "{b}*Ahem*{/b} Sorry... Where was I?"
     player_name "..."
-    player_name "А, точно!"
+    player_name "Oh, right!"
 
     $ M_dewitt.set("sex speed", 0.175)
     scene dewitt_podium_bj
     show dewitt bj 4
     with dissolve
-    player_name "Мы просто хотели сказать, что мы ценим..."
+    player_name "We just wanted to say that we appre-"
     hide dewitt
     show expression AnimatedImage("dewitts_bj", [1,2,3,4,5,6,7,8,9,10,11,12], M_dewitt) as dewitts_bj
     with dissolve
-    player_name "Вот дерьмо!"
+    player_name "Holy shit!"
     show screen dewitt_bj_options
-    player_name "... О, Вау!"
-    player_name "Мы-мы очень благодарны..."
-    player_name "... Вы все пришли..."
-    player_name "Ох чувак!!!"
-    player_name "... Вы пришли поддержать нас!"
-    player_name "Давайте послушаем ещё раз..."
-    player_name "Мммм!"
-    player_name "{b}Кевин{/b} на гитаре!"
+    player_name "... Oh, Wow!"
+    player_name "W-we really appreciate..."
+    player_name "... You all coming out to..."
+    player_name "Oh man!!"
+    player_name "... coming out to support us!"
+    player_name "Let's hear it one more time for-"
+    player_name "Mmmm!"
+    player_name "{b}Kevin{/b} on guitar!"
 
-    player_name "{b}Ева{/b} по вокалу!"
-    player_name "... И меня"
-    player_name "Ох Иисусе...!"
-    player_name "Ахх!"
-    player_name "Я {b}[firstname]{/b}!"
-    dewitt "Ммм."
+    player_name "{b}Eve{/b} on vocals!"
+    player_name "... And I'm-"
+    player_name "Oh, jesus!"
+    player_name "Haaaah!"
+    player_name "I'm {b}[firstname]{/b}!"
+    dewitt "Mmm."
     player_name "..."
-    player_name "Также особая благодарность-"
-    player_name "Бляяяя..."
-    player_name "... Мс Тирону!"
-    player_name "... И конечно, же {b}Мисс Девитт{/b}!"
-    player_name "Которая-"
-    player_name "Ахх!"
-    player_name "О боже!"
-    player_name "{b}Мисс Девитт{/b}, никогда не подводит..."
-    player_name "... Выкачивает каждый..."
-    player_name "... Последний..."
-    dewitt "{b}*Хлюп*{/b}"
-    player_name "... Талант..."
-    player_name "... Из её учеников!"
-    player_name "Я хочу..."
-    player_name "Я СОБИРАЮСЬ!!!"
+    player_name "Also a special thanks to-"
+    player_name "Fuuuuuu..."
+    player_name "... MC Tyrone!"
+    player_name "... And of course, {b}Miss Dewitt{/b}!"
+    player_name "Who-"
+    player_name "Haaah!"
+    player_name "Oh, god!"
+    player_name "{b}Miss Dewitt{/b}, who never fails..."
+    player_name "... To suck every..."
+    player_name "... Last... Drop..."
+    dewitt "{b}*Slurp*{/b}"
+    player_name "... Of talent..."
+    player_name "... Out of her students!"
+    player_name "I'm gonna..."
+    player_name "I'M GONNA!!!"
     hide screen dewitt_bj_options
 
     scene assembly_hall_podium_c
     show player podium 1
     show xtra 44
     with dissolve
-    player_name "КОНЧИТЬ!!!"
-    player_name "Ох, возьми все это!"
-    player_name "Даааа..."
+    player_name "HNNGGG!!!"
+    player_name "Ooohhh, take it all!"
+    player_name "Yeeaaaahhh..."
 
     $ M_dewitt.set("sex speed", 0.075)
     scene dewitt_podium_bj
@@ -343,30 +343,30 @@ label guitar_hero_minigame_talent_show_pass:
     pause
     show dewitt bj 7
     pause
-    dewitt "МММ, вкусно!"
-    dewitt "Ещё раз спасибо, сладкий!"
-    dewitt "!!!"
+    dewitt "Mmm, delicious!"
+    dewitt "Thanks again, sugar!"
+    dewitt "Muah!"
 
     scene assembly_hall_podium_c
     show player podium 2
     show xtra 44
     with dissolve
-    player_name "{b}*Фух*{/b}"
+    player_name "{b}*Phew*{/b}"
     show player podium 3 zorder 0 at Position (xoffset=-120) with dissolve
-    player_name "Извините, я хотел сказать ..."
-    player_name "Я собираюсь объявить, что сейчас все подошло к концу."
+    player_name "Sorry, I meant to say."
+    player_name "I'm gonna call it all to the close now."
     show player podium 4 at Position (xoffset=-120)
-    player_name "Еще раз спасибо, что пришли!"
-    player_name "... И обязательно запишитесь на шоу в следующем году!"
-    player_name "Мы любим тебя, Саммервилл!"
-    player_name "Спокойной ночи!"
+    player_name "Thanks again for coming out!"
+    player_name "... And be sure to sign up for next year's show!"
+    player_name "We love you Summerville!"
+    player_name "Goodnight!"
     show player podium 5 at Position (xoffset=-56) with dissolve
     pause
 
 
     scene assembly_hall_cs07
     with fade
-    show text "Когда я закончил свою речь. Я заметил очень странную пару, входящую в зал.\nСудя по всему это {b}Директриса Смит{/b} и {b}Энни{/b} которые сумели освободиться все-таки.\nСудя по их состоянию, это было нелегко!\nОни не задержались на долго... Повернувшись, чтобы уйти в тот момент, когда они поняли, что их избили." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "As I finished my speech. I spotted a very pecular pair entering the Auditorium.\nIt seems {b}Principal Smith{/b} and {b}Annie{/b} had managed to get themselves free after all.\nJudging by the state of them, it hadn't been easy!\nThey didn't stay long... Turning to leave the instant they realized they'd been beaten." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -376,117 +376,117 @@ label guitar_hero_minigame_talent_show_pass:
     show player 13 at left
     show eve 12 at Position (xpos=450)
     with dissolve
-    eve "Хахахаха!! Ты видел, что подушка прилипла к {b}Энни{/b}?!"
-    eve "Это было самое смешное, что я когда-либо видела в жизни!"
+    eve "Hahahaha!! Did you see that cushion stuck to {b}Annie{/b}?!"
+    eve "That might be the funniest thing I've ever seen in my life!"
     show eve 11
     show kevin 18f
-    kev "Да, и {b}Одежда директора Смит{/b} разорвана в клочья"
-    kev "Они действительно хотели остановить это шоу, да?"
+    kev "Yeah, and {b}Principal Smith's clothes{/b} were in tatters!"
+    kev "They really wanted to stop this show, huh?"
     show kevin 17f
     show player 14
-    player_name "Хех, да. Не могу поверить, что им удалось освободиться самостоятельно!"
+    player_name "Heh, yeah. I can't believe they managed to get loose on their own!"
     show player 13
     show dewitt 9bf at right
     show dewitt 9bf at Position (xoffset=-73)
     with dissolve
     $ renpy.end_replay()
-    dewitt "Боже мой, вы были просто великолепны!"
+    dewitt "Oh my goodness, you guys were so great!"
     show eve 11f
     show kevin 17 at Position (xpos=700)
     with dissolve
     show dewitt 3bf at Position (xoffset=-73)
-    dewitt "Я никогда не была так горда!"
+    dewitt "I've never been more proud!"
     show dewitt 1bf at Position (xoffset=-73)
     show eve 12f
-    eve "Спасибо мэм"
+    eve "Thanks, Ma'am!"
     show eve 11f
     show kevin 18
-    kev "...Откуда вы вышли?!"
+    kev "... Where did you get off to?"
     show kevin 17
     show dewitt 9bf at Position (xoffset=-73)
-    dewitt "О, мне просто надо было сделать кое-что маленькое."
+    dewitt "Oh, I was just tending to a little something."
     show dewitt 1bf at Position (xoffset=-73)
     show kevin 18
-    kev "Что-нибудь маленькое?"
+    kev "A little something?"
     show kevin 17
     show dewitt 9bf at Position (xoffset=-73)
-    dewitt "... Хм, ну, хорошо. Что-то большое на самом деле!"
+    dewitt "... Hmm, well. A big something actually!"
     show dewitt 1bf at Position (xoffset=-73)
     player_name "..."
     show dewitt 19f with dissolve
-    dewitt "Кстати, отличная речь, {b}[firstname]{/b}."
-    dewitt "У тебя большой талант...."
-    dewitt "... Для публичных выступлений."
+    dewitt "Great speech by the way, {b}[firstname]{/b}."
+    dewitt "You have quite a talent..."
+    dewitt "... For public speaking."
     show dewitt 18f
     show eve 12f
-    eve "Эй, ребята, хотите отпраздновать?! ... Перекусить или ещё что-нибудь?"
+    eve "Hey, you guys wanna celebrate?! ... Grab a bite to eat or something?"
     show eve 11f
     show kevin 18
-    kev "Я вниз!"
+    kev "I'm down!"
     show kevin 17
     show dewitt 19f
-    dewitt "О, Нет, спасибо, дорогая. Боюсь, у меня нет свободного места..."
+    dewitt "Oh, no thanks, sweetie. I'm afraid I'm full..."
     show dewitt 18f
     show eve 12 with dissolve
     eve "{b}[firstname]{/b}?"
     show eve 11
     show player 14
-    player_name "Мне тоже придется отказаться. Я довольно сильно устал."
+    player_name "I'm going to have to pass too. I'm pretty tired."
     show player 13
     show eve 12
-    eve "Ой! Ну же!"
+    eve "Awww! Come on!"
     show eve 11
     show dewitt 19f
-    dewitt "На самом деле вы не могли бы дать {b}[firstname]{/b} и я ненадолго остаюсь один?"
+    dewitt "Actually would you mind giving {b}[firstname]{/b} and I a moment alone real quick?"
     show dewitt 18f
     show eve 11f with dissolve
     show kevin 18
-    kev "Эй, если передумаешь, напиши нам смс."
+    kev "Hey, if you change your mind, shoot us a text."
     show kevin 17
     show player 14
-    player_name "Хорошо. Позже!"
+    player_name "Alright. Later!"
     show player 13
     hide kevin
     hide eve
     with dissolve
     show dewitt 9bf at Position (xoffset=-73) with dissolve
-    dewitt "Я просто хотел поблагодарить тебя ещё раз за все, {b}[firstname]{/b}."
+    dewitt "I just wanted to thank you one more time for everything, {b}[firstname]{/b}."
     show dewitt 9df at Position (xoffset=-73)
-    dewitt "если бы не этот {b}Шоу Талантов{/b} ничего бы не случилось без твоей помощи."
+    dewitt "This {b}Talent Show{/b} never would have happened without your help."
     show dewitt 1bf at Position (xoffset=-73)
     show player 14
-    player_name "С удовольствием, {b}Мисс Девитт{/b}."
+    player_name "It was my pleasure, {b}Miss Dewitt{/b}."
     show player 13
     show dewitt 9bf at Position (xoffset=-73)
-    dewitt "Я решила поставить тебе пятерку в классе."
+    dewitt "I've decided to give you an A+ in my class."
     show dewitt 1bf at Position (xoffset=-73)
     show player 14
-    player_name "Правда?!"
+    player_name "Really?!"
     show player 13
     show dewitt 3bf at Position (xoffset=-73)
-    dewitt "Все правильно, сладкий моя."
+    dewitt "That's right, sugar."
     show dewitt 1bf at Position (xoffset=-73)
     show player 14
-    player_name "О, спасибо!"
+    player_name "Oh, thank you!"
     show player 13
     show dewitt 19f with dissolve
-    dewitt "... И у меня есть еще один сюрприз для тебя."
+    dewitt "... And I have one more surprise for you."
     show dewitt 18f
     show player 10
-    player_name "Хм?"
+    player_name "Hmm?"
     hide player
     show dewitt 6f at left
     with dissolve
-    dewitt "Вам придется прийти ко мне в офис {b}завтра{/b} после школы, если хочешь..."
+    dewitt "You'll have to come to my office {b}tomorrow{/b} after school if you want it..."
     show player 29 at left
     show dewitt 18f at Position (xpos=300)
     with dissolve
-    player_name "Окей..."
-    player_name "Я буду там."
+    player_name "O-okay..."
+    player_name "I'll be there."
     show player 13 with dissolve
     show dewitt 19f
-    dewitt "МММ, не могу дождаться!"
-    dewitt "Увидимся, {b}[firstname]{/b}."
+    dewitt "Mmm, I can't wait!"
+    dewitt "See you then, {b}[firstname]{/b}."
     hide dewitt with dissolve
     show player 18
     player_name "..."

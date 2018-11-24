@@ -8,7 +8,7 @@ init python:
             self.x= 15
             self.y = 4
             self.position = (290,48)
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self.battery, width, height, st, at)
             bar_r = renpy.render(self.bar, width, height, st, at)
@@ -25,7 +25,7 @@ init python:
             self.picture_y_offset = 5
             self.picture = im.FactorScale(picture, 0.5)
             self.picture_pos = (position[0]-self.picture_x_offset, position[1]-self.picture_y_offset)
-
+        
         def move(self, yamount):
             self.position = (self.position[0], self.position[1]+yamount)
             self.picture_pos = (self.position[0]-self.picture_x_offset, self.position[1]-self.picture_y_offset)
@@ -65,30 +65,36 @@ init python:
                     "eve":"buttons/cookie_jar_24.png",
                     "helen":"buttons/cookie_jar_06.png",
                     "mom":"buttons/cookie_jar_01.png",
-                    "terry":"",
+                    "terry":"buttons/cookie_jar_28.png",
                     "grace":"",
                     "earl":"",
                     "jenny":"buttons/cookie_jar_02.png",
                     "aqua":"buttons/cookie_jar_12.png",
                     "crystal":"buttons/cookie_jar_26.png",
-                    "aunt":"buttons/cookie_jar_03.png",
+                    "diane":"buttons/cookie_jar_03.png",
                     "chad":"",
                     "bissette":"buttons/cookie_jar_15.png",
                     "somrak":"",
-                    "ross":"buttons/cookie_jar_17.png"
+                    "ross":"buttons/cookie_jar_17.png",
+                    "micoe":"buttons/cookie_jar_27.png",
+                    "priya":"buttons/cookie_jar_29.png",
             }
             for m in store.machines:
                 if store.machines[m].get_state() is not None and not store.machines[m].get_state().is_end_state and store.machines[m].priority > 0:
                     image = images[m.lower()]
                     if image == "":
                         image = "buttons/cellphone_goals_checkbox.png"
-                    self.goals.append(CellPhoneGoal((120, 140+i*50), store.machines[m].get_state().description, image))
+                    state = store.machines[m].get_state()
+                    if state.delay > 0:
+                        self.goals.append(CellPhoneGoal((120, 140+i*50), "Maybe I should wait a few days...", image))
+                    else:
+                        self.goals.append(CellPhoneGoal((120, 140+i*50), state.description, image))
                     i += 1
             self.checkbox = renpy.displayable("buttons/cellphone_goals_checkbox.png")
             self.goals_bg = renpy.displayable("buttons/cellphone_title_goals.png")
             self.mouse_button_down = False
             self.start_mouse_coord_y = 0
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             goals_bg_r = renpy.render(self.goals_bg, width, height, st, at)
@@ -99,10 +105,10 @@ init python:
                 if 140 <= goal.position[1] <= 440:
                     render.blit(goal_r, goal.position)
                     render.blit(picture_r, goal.picture_pos)
-
+            
             renpy.redraw(self, 0)
             return render
-
+        
         def event(self, ev, x, y, st):
             sensitivity = 4
             if ev.type == pygame.MOUSEBUTTONDOWN:
@@ -110,7 +116,7 @@ init python:
                 self.start_mouse_coord_y = y
             elif ev.type == pygame.MOUSEBUTTONUP:
                 self.mouse_button_down = False
-
+            
             if self.mouse_button_down:
                 try:
                     if ev.button == 4:
@@ -134,6 +140,10 @@ init python:
                     delta = self.goals[0].position[1] - 140
                     for goal in self.goals:
                         goal.move(-delta)
+                if self.goals[-1].position[1] < 440:
+                    delta = 440-self.goals[-1].position[1]
+                    for goal in self.goals:
+                        goal.move(delta)
             pass
 
     class CellPhoneStatsApp(renpy.Displayable):
@@ -147,7 +157,7 @@ init python:
             self.stats_chr = renpy.displayable("buttons/cellphone_bar03.png")
             self.stats_int = renpy.displayable("buttons/cellphone_bar04.png")
             self.x_start = 136
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             title_r = renpy.render(self.title, width, height, st, at)
@@ -156,7 +166,7 @@ init python:
             dex_r = renpy.render(self.stats_dex, width, height, st, at)
             chr_r = renpy.render(self.stats_chr, width, height, st, at)
             int_r = renpy.render(self.stats_int, width, height, st, at)
-
+            
             render.blit(title_r, (45, 50))
             render.blit(tabs_r, (57, 275))
             for count in xrange(player.stats.str()):
@@ -171,10 +181,10 @@ init python:
             for count in xrange(player.stats.int()):
                 x = self.x_start + count*19
                 render.blit(int_r, (x, 540-80))
-
+            
             renpy.redraw(self, 0)
             return render
-
+        
         def event(self, ev, x, y, st):
             pass
 
@@ -188,10 +198,10 @@ init python:
             self.displayable = renpy.displayable(self.image)
             self.position = position
             self.width, self.height = (300,41)
-
+        
         def move(self, yamount):
             self.position = (self.position[0], self.position[1]+yamount)
-
+        
         def hitbox(self, x, y):
             xp, yp = self.position
             return (xp <= x <= xp+self.width) and (yp <= y <= yp+self.height)
@@ -202,7 +212,7 @@ init python:
             self._bg = renpy.displayable("buttons/cellphone.png")
             self.overlay = renpy.displayable("buttons/cellphone_text_bg.png")
             self.message = message
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             overlay_r = renpy.render(self.overlay, width, height, st, at)
@@ -231,7 +241,7 @@ init python:
             self.current_message = None
             self.back_button_width, self.back_button_height = (19, 25)
             self.back_button_position = (44, 55)
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             global game
@@ -243,7 +253,7 @@ init python:
             if self.current_message is None:
                 message_bg_r = renpy.render(self.message_bg, width, height, st, at)
                 for message in self.messages:
-                    message_r = renpy.render(Text(message.sender + " - " + message.content_prev, style = "style_cellphone_message"), width, height, st, at)
+                    message_r = renpy.render(Text(message.sender + " - " + insert_newlines(message.content_prev, 25), style = "style_cellphone_message"), width, height, st, at)
                     if 110 <= message.position[1] <= 490:
                         render.blit(message_bg_r, (message.position))
                         render.blit(message_r, (message.position[0]+20, message.position[1]))
@@ -251,7 +261,7 @@ init python:
                 render = self.current_message.render(width, height, st, at)
             renpy.redraw(self, 0)
             return render
-
+        
         def event(self, ev, x, y, st):
             if self.messages:
                 if self.current_message is None:
@@ -261,7 +271,7 @@ init python:
                         self.start_mouse_coord_y = y
                     elif ev.type == pygame.MOUSEBUTTONUP:
                         self.mouse_button_down = False
-
+                    
                     if self.mouse_button_down:
                         try:
                             if ev.button == 4:
@@ -289,6 +299,10 @@ init python:
                             delta = self.messages[0].position[1] - 110
                             for message in self.messages:
                                 message.move(-delta)
+                        if self.messages[-1].position[1] < 440:
+                            delta = 440-self.messages[-1].position[1]
+                            for message in self.messages:
+                                message.move(delta)
                 else:
                     self.current_message.event(ev, x, y, st)
                     if (self.back_button_position[0]<=x<=self.back_button_position[0]+self.back_button_width) and (self.back_button_position[1]<=y<=self.back_button_position[1]+self.back_button_height):
@@ -306,41 +320,42 @@ init python:
             self.num_achieve_range = xrange(len(persistent.achievements.values()))
             self.positions = [(60, self.y_start+i*50) for i in self.num_achieve_range]
             self.bar = renpy.displayable("buttons/cellphone_achieve_line.png")
-
+            self.achievement_list = [(Achievement(a), locked) for a, locked in persistent.achievements.items() if Achievement(a).enabled]
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             global game
             game.new_achievements = False
             achieve_unlocked = sum([not locked for locked in persistent.achievements.values()])
-            title_r = renpy.render(Text("Достижения", sytle="style_cellphone_title"), width, height, st, at) #Название сверху
-            x_of_y_r = renpy.render(Text("{} of {}".format(achieve_unlocked, len(persistent.achievements.values())), style="style_cellphone_achievements_header"), width, height, st, at)
-            achievements_have_been_unlocked_r = renpy.render(Text("Достижений разблокировано".upper(), style="style_cellphone_achievements_subheader"), width, height, st, at) #Кол. разблокированных достижейний
+            title_r = renpy.render(Text("Achievements", sytle="style_cellphone_title"), width, height, st, at)
+            x_of_y_r = renpy.render(Text("{} of {}".format(achieve_unlocked, len(self.achievement_list)), style="style_cellphone_achievements_header"), width, height, st, at)
+            achievements_have_been_unlocked_r = renpy.render(Text("Achievements have been unlocked".upper(), style="style_cellphone_achievements_subheader"), width, height, st, at)
             bar_r = renpy.render(self.bar, width, height, st, at)
             x_of_y_size = x_of_y_r.get_size()
             unlocked_size = achievements_have_been_unlocked_r.get_size()
-
+            
             render.blit(title_r, (145, 50))
             render.blit(x_of_y_r, ((409-x_of_y_size[0])/2,100))
             render.blit(achievements_have_been_unlocked_r, ((409-unlocked_size[0])/2,120))
             render.blit(bar_r, (55, 140))
-            for i, achievement_locked in enumerate([(Achievement(a), locked) for a, locked in persistent.achievements.items()]): #Цикл отрисовки всех достижейний
+            for i, achievement_locked in enumerate(self.achievement_list):
                 achieve_r = None
                 achievement, locked = achievement_locked
-                achieve_image_r = renpy.render(achievement.displayable, width, height, st, at)
                 if achievement.enabled:
+                    achieve_image_r = renpy.render(achievement.displayable, width, height, st, at)
                     if not(achievement.hidden and locked):
                         achieve_r = renpy.render(Text(achievement.name+"\n"+achievement.description, style = "style_cellphone_achievements"), width, height, st, at)
                     else:
-                        achieve_r = renpy.render(Text("Достижение скрыто", style = "style_cellphone_achievements"), width, height, st, at)
-                if self.y_start <= self.positions[i][1] <= 440:
+                        achieve_r = renpy.render(Text("Achievement Hidden", style = "style_cellphone_achievements"), width, height, st, at)
+                if self.y_start <= self.positions[i][1] <= 440 and achieve_r is not None:
                     render.blit(achieve_image_r, self.positions[i])
                     render.blit(achieve_r, (self.positions[i][0]+50, self.positions[i][1]+8))
             renpy.redraw(self, 0)
             return render
-
+        
         def move(self, i, yamount):
             self.positions[i] = (self.positions[i][0], self.positions[i][1]+yamount)
-
+        
         def event(self, ev, x, y, st):
             sensitivity = 4
             if ev.type == pygame.MOUSEBUTTONDOWN:
@@ -348,7 +363,7 @@ init python:
                 self.start_mouse_coord_y = y
             elif ev.type == pygame.MOUSEBUTTONUP:
                 self.mouse_button_down = False
-
+            
             if self.mouse_button_down:
                 try:
                     if ev.button == 4:
@@ -372,6 +387,10 @@ init python:
                     delta = self.positions[0][1] - self.y_start
                     for i in self.num_achieve_range:
                         self.move(i, -delta)
+                if self.positions[-1][1] < 440:
+                    delta = 440-self.positions[-1][1]
+                    for i in self.num_achieve_range:
+                        self.move(i, delta)
             pass
 
     class CellPhoneApp():
@@ -388,22 +407,22 @@ init python:
             self.width, self.height = get_size(displayable)
             self.hovered = False
             self.app = app
-
+        
         @property
         def h_image(self):
             return im.MatrixColor(self._displayable, self._h_matrix)
-
+        
         @property
         def std_image(self):
             return im.MatrixColor(self._displayable, self._n_matrix)
-
+        
         @property
         def image(self):
             if self.hovered:
                 return im.MatrixColor(self._displayable, self._h_matrix)
             else:
                 return im.MatrixColor(self._displayable, self._n_matrix)
-
+        
         def hitbox(self, x, y):
             return (self.x <= x <= self.x+self.width) and (self.y <= y <= self.y+self.height)
 
@@ -424,7 +443,7 @@ init python:
             self._n_matrix = im.matrix.identity()
             self.temp_apps = renpy.displayable("buttons/cellphone_app_temp.png")
             self.battery = CellPhoneBattery()
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._cellphone, width, height, st, at)
             if self.current_app is None:
@@ -443,7 +462,7 @@ init python:
                 render.blit(self.battery.render(width, height, st, at), self.battery.position)
             renpy.redraw(self, 0)
             return render
-
+        
         def event(self, ev, x, y, st):
             if self.current_app is None:
                 for app in self.apps:
@@ -486,17 +505,15 @@ screen cellphone:
 label cellphone_exit:
     if game.read_message:
         $ game.read_message = False
+        $ player.location.hide_screen()
+        $ game.unlock_sleep()
         if M_mia.is_state(S_mia_urgent_message):
-            $ player.location.hide_screen()
-            $ game.unlock_sleep()
             jump expression game.dialog_select("mia_urgent_text")
 
         elif M_mia.is_state(S_mia_midnight_call):
-            $ player.location.hide_screen()
-            $ game.unlock_sleep()
             jump expression game.dialog_select("mia_midnight_text")
         else:
 
-            $ game.main()
+            call check_pregnancies
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

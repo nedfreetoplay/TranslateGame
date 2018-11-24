@@ -1,143 +1,145 @@
 label eve_classroom_dialogue_eve_intro:
-    show evedesk 1 at left with dissolve
-    eve "Вау...Я думала, что ты  мертв!"
+    scene classroom
+    show evedesk 1 at left
+    with fade
+    eve "Wow... I thought you were dead for sure!"
     show evedesk 2
-    player_name "Что?... Что ты имеешь в виду?"
+    player_name "What?... What do you mean?"
     show evedesk 1
-    eve "Не знаю... Ты пропал на месяц, и люди начали выдумывать слухи о том, что твоя семья была убита или что-то вроде того..."
+    eve "I dunno... You've been missing all month, and people started making up rumors about how your family had been murdered or something..."
     show evedesk 3
-    player_name "Ухх... Ничего подобного!"
+    player_name "Ugh... It's nothing like that!"
     show evedesk 4
-    eve "Я так и думала. Люди просто любят поговорить, а эта школа - просто шутка."
-    eve "Я рада, что наш последний год почти закончился..."
+    eve "I figured. People just like to talk, and this school is just a big joke."
+    eve "I'm glad our last year is almost over..."
     show evedesk 5
-    player_name "Да, я знаю, что ты имеешь в виду."
+    player_name "Yeah, I know what you mean."
     show evedesk 6
-    eve "Тебе стоит как-нибудь потусоваться с нами в {b}парке{/b}... Без всех этих идиотов из школы и расслабляешся, понимаешь?"
+    eve "You should hang out with us at the {b}park{/b} sometime... Avoid all these idiots around school and chill, you know?"
     show evedesk 5
-    eve "Приходи {b}ночью{/b}... в это время мы тусим там."
-    player_name "Эхх... Думаю, я могу прийти как-нибудь ночью."
+    eve "Make sure you come by at {b}night{/b}... it's usually when we go out there."
+    player_name "Ehh... I guess I could come by one night."
     show evedesk 6
-    eve "Зависит только от тебя. Если захочешь - приходи!"
+    eve "It's up to you. Do whatever you want!"
     show evedesk 4
-    eve "О, ты слышал объявление {b}Мисс Биссетт{/b} о специальном вознаграждении?"
+    eve "Oh hey, did you hear {b}Miss Bissette's{/b} announcement about a special reward?"
     show evedesk 1
-    eve "Или ты проспал эту часть?"
+    eve "Or were you asleep for that part?"
     show evedesk 3
-    player_name "Эй! Я проснулся... для этого."
+    player_name "Hey! I was awake... for that part."
     show evedesk 4
-    eve "Интересно, какая будет награда."
-    eve "Она не очень много об этом говорила. Наверное, что-то глупое."
-    eve "Я уже делаю довольно хорошо, так что даже не стоит пытаться."
+    eve "I wonder what the reward will be."
+    eve "She didn't really say much about it. Probably something stupid anyway."
+    eve "I'm already doing pretty well so it's not even worth trying."
     show evedesk 2
-    player_name "Почему?"
+    player_name "Why not?"
     show evedesk 6
-    eve "Как улучшение от 4 до 5 даст мого возможностей?"
-    eve "У тебя больше шансов выиграть..."
+    eve "How is going from a B to an A much improvement?"
+    eve "You'd be more likely to win..."
     show evedesk 5
-    player_name "У меня?"
+    player_name "Me?"
     show evedesk 1
-    eve "Ну, да... ты движешься в правильном направлении, не так ли?"
-    eve " У тебя есть много возможностей для улучшения."
+    eve "Well, yeah... you're failing right now aren't you?"
+    eve "You've got lots of room for improvement."
     show evedesk 6
-    eve "Плюс, {b}Мисс Биссетт{/b} мальчики нравятся больше."
-    eve "Тебе стоит серьезно подумать об этом."
+    eve "Plus, {b}Miss Bissette{/b} favors guys anyway."
+    eve "You should seriously consider it."
     hide evedesk with dissolve
     return
 
 label eve_classroom_dialogue_intro:
     show evedesk 4 at left with dissolve
-    eve "Привет, {b}[firstname]{/b}."
+    eve "Hey, {b}[firstname]{/b}."
     show evedesk 5
-    player_name "Привет, {b}Ева{/b}."
+    player_name "Hey, {b}Eve{/b}."
     show evedesk 4
-    eve "Что случилось?"
+    eve "What's up?"
     return
 
 label eve_classroom_dialogue_talent_show_help:
     show evedesk 5
-    player_name "Ты играешь на каких-нибудь инструментах?"
+    player_name "Do you play any instruments?"
     show evedesk 4
-    eve "Нет, я не играю. Я всегда хотел учиться, но у меня просто не было времени, понимаешь?"
+    eve "No, I don't play any instruments. I've always wanted to learn but I just haven't had the time, you know?"
     show evedesk 5
-    player_name "Хорошо, а как насчет пения?"
+    player_name "Okay, well how about singing?"
     show evedesk 1
-    eve "Ох, умм..."
+    eve "Oh, umm..."
     show evedesk 4
-    eve "Да, мне нравится петь, наверное. Не знаю, насколько я хороша."
+    eve "Yeah, I like to sing I guess. I dunno if I'm any good though."
     show evedesk 5
-    player_name "Я уверен в тебе! Ты должна участвовать в шоу талантов со мной!"
+    player_name "I bet you are! You should sign up for the talent show with me!"
     show evedesk 3
-    player_name "Нам действительно не хватает добровольцев."
+    player_name "We're really hurting for more volunteers."
     show evedesk 1
-    eve "... Да, Я не знаю."
-    eve "Ты хочешь, чтобы я пела перед всей школой? Звучит довольно неловко."
-    eve "... И я не пела некоторое время. С тех пор, как сломалась моя караоке-машина."
-    eve "Я давно не практиковалась."
+    eve "... Yeah, I dunno."
+    eve "You want me to sing in front of the entire school? That sounds pretty embarassing."
+    eve "... And I haven't sang in awhile. Not since my karaoke machine broke."
+    eve "I'm quite out of practice."
     show evedesk 5
-    player_name "Хмм..."
-    player_name "Знаешь, у моего друга {b}Эрика{/b} есть {b}караоке-машина{/b} в подвале."
+    player_name "Hmm..."
+    player_name "You know, I think my friend {b}Erik{/b} has a {b}karaoke machine{/b} in his basement."
     show evedesk 4
-    eve "О, правда?"
+    eve "Oh, yeah?"
     show evedesk 5
-    player_name "Точно! Приходи как-нибудь и потренируйся!"
+    player_name "Totally! You should come over sometime and practice!"
     show evedesk 4
-    eve "Ты хочешь, чтобы я спела для тебя и твоего друга?"
+    eve "Heh, you want me to sing for you and your friend?"
     show evedesk 5
-    player_name "Нет, мы можем петь все вместе! Давай, сделаем это сегодня вечером, будет весело!"
+    player_name "Nah, we can all sing together! C'mon, we'll do it tonight, it'll be fun!"
     eve "..."
     show evedesk 4
-    eve "Ладно, думаю, я могу зайти ненадолго."
+    eve "Alright, I guess I can stop by for a little while."
     show evedesk 5
-    player_name "Превосходно! {b}встретимся у Эрика дома{/b} ночью."
+    player_name "Awesome! {b}I'll meet you at Erik's house{/b} tonight."
     return
 
 label eve_classroom_dialogue_adehsive:
     show evedesk 5
-    player_name "Какой план?"
+    player_name "What was the plan again?"
     show evedesk 4
-    eve "Ты должен встретиться с {b}Кевин{/b} в {b}научной лаборатории после занятий{/b}."
-    eve "Помнишь?"
+    eve "You're supposed to meet {b}Kevin{/b} in the {b}science lab after class{/b}."
+    eve "Remember?"
     show evedesk 5
-    player_name "Ох, да точно. Спасибо, {b}Ева{/b}!"
+    player_name "Oh, that's right. Thanks, {b}Eve{/b}!"
     return
 
 label eve_classroom_dialogue_bissettes_reward:
     show evedesk 5
-    player_name "Ты собираешься записаться на репетиторство к {b}Мисс Биссетт{/b}?"
+    player_name "Are you going to sign up to be tutored by {b}Miss Bissette{/b}?"
     show evedesk 4
-    eve "Я уже делаю довольно хорошо, так что даже не стоит пытаться."
+    eve "I'm already doing pretty well so it's not even worth trying."
     show evedesk 2
-    player_name "Почему нет?"
+    player_name "Why not?"
     show evedesk 6
-    eve "Как переход от 4 к 5 считается значительным улучшением?"
-    eve "У тебя больше шансов выиграть..."
+    eve "How is going from a B to an A much improvement?"
+    eve "You'd be more likely to win..."
     show evedesk 5
-    player_name "Я?"
+    player_name "Me?"
     show evedesk 1
-    eve "Ну, конечно... ты аутсайдер сейчас, не так ли?"
-    eve " У тебя есть много возможностей для улучшения."
+    eve "Well, yeah... you're failing right now aren't you?"
+    eve "You've got lots of room for improvement."
     show evedesk 6
-    eve "Плюс, {b}Мисс Биссетт{/b} благоволит парням."
-    eve "Тебе стоит серьезно подумать об этом."
+    eve "Plus, {b}Miss Bissette{/b} favors guys anyway."
+    eve "You should seriously consider it."
     return
 
 label eve_classroom_dialogue_hang_out:
     show evedesk 5
-    player_name "Где, говоришь, ты проводишь время?"
+    player_name "Where did you say you hung out at?"
     show evedesk 4
-    eve "Мои друзья и {b}Я тусуемся в парке{/b}."
-    eve "Просто убедитесь, что ты {b}пришел ночью{/b}... в это время мы всегда тусуемся там."
+    eve "My friends and {b}I hang out at the park{/b}."
+    eve "Just make sure you {b}come by at night{/b}... it's usually when we go out there."
     show evedesk 5
-    player_name "Хорошо. Я могу заскочить на одну ночь."
+    player_name "Alright. I might stop by one night."
     show evedesk 6
-    eve "Это зависит только от тебя. Делай как знаешь!"
+    eve "It's up to you. Do whatever you want!"
     return
 
 label eve_classroom_dialogue_leave:
     show evedesk 5
-    player_name "Ничего, просто хотел поздороваться."
+    player_name "Nothing, just wanted to say hello."
     show evedesk 4
-    eve "О. Тогда поговорим позже."
+    eve "Oh. Talk to you later then."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

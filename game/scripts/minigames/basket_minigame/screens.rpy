@@ -10,7 +10,7 @@ init python:
             self.radius = 185
             self.rot_speed = 10
             self.move_arrow(force=True)
-
+        
         def move_arrow(self, force=False):
             if (clock() - self._start_arrow_rotation)*self.rot_speed*100 >= 1 or force:
                 self._start_arrow_rotation = clock()
@@ -53,24 +53,43 @@ init python:
             self.in_air = False
             self.hit_net = False
             self.normal = 0
-            self.V0 = 110
+            self.V0 = 110 
             self.bounce_coefficient = 0.5
             self.point_of_contact_x = 0
             self.point_of_contact_y = 0
-
+        
         def move(self, alpha):
             V0 = self.V0
-            t = 6*(clock()-self.start_time)
-            g = 9.81
-
+            t = 6*(clock()-self.start_time) 
+            g = 9.81 
+            
             alpha = alpha * math.pi / 180
-            if self.normal == 0:
+            if self.normal == 0: 
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 x = -V0 * math.cos(alpha) * t + self.origin[0]
                 y = (g*t*t)/2 - V0*math.sin(alpha)*t+self.origin[1]
             else:
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 x = self.point_of_contact_x + self.normal*t
                 y = g*t*t/2 + self.point_of_contact_y
-
+            
             if y > 1024 or x < -116:
                 self.in_air = False
                 self.position = self.origin
@@ -81,7 +100,7 @@ init python:
                 self.position = (x, y)
                 self.x, self.y = self.position
                 return None
-
+        
         def hitbox(self, x1, y1, x2, y2):
             sx1 = self.x
             sx2 = self.x+self.width
@@ -102,7 +121,7 @@ init python:
             positions = [(88,641), (193,641), (297,641)]
             self.lives_images = [BasketLife(position, i) for i, position in enumerate(positions)]
             self.life_arrow_d = renpy.displayable("buttons/basketball_life_arrow.png")
-
+        
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             if renpy.variant("mobile"):
@@ -128,7 +147,7 @@ init python:
                     self.ball.point_of_contact_y = self.ball.y + self.ball.height/2
                     self.ball.start_time = clock()
                     self.ball.normal = self.ball.V0 * self.ball.bounce_coefficient
-                if is_success is not None:
+                if is_success is not None: 
                     if not self.ball.hit_net:
                         self.lives_images[self.life].wrong()
                         self.life -= 1
@@ -148,7 +167,6 @@ init python:
             render.blit(ball_r, self.ball.position)
             net_r = renpy.render(self.net, width, height, st, at)
             render.blit(net_r, self.net_position)
-            renpy.not_infinite_loop(1)
             renpy.redraw(self, 0)
             return render
         def event(self, ev, x, y, st):

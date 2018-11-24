@@ -6,20 +6,12 @@ screen dianes_front_yard:
         pos (289,382)
         idle game.timer.image("objects/object_door_106{}.png")
         hover HoverImage(game.timer.image("objects/object_door_106{}.png"))
-        action Hide("dianes_front_yard"), If(
-                                             game.timer.is_dark(),
-                                             Jump(game.dialog_select("diane_front_yard_night_locked")),
-                                             If(
-                                                not aunt.known(aunt_mouse_attack),
-                                                Jump("dianelobby_locked"),
-                                                [Function(playSound), Jump(game.dialog_select("dianelobby_dialogue"))]
-                                             )
-        )
+        action Hide("dianes_front_yard"), Call("diane_house_lock_check", L_diane_home)
 
     imagebutton:
         focus_mask True
         pos (563,482)
         idle game.timer.image("objects/object_door_107{}.png")
         hover HoverImage(game.timer.image("objects/object_door_107{}.png"))
-        action Hide("dianes_front_yard"), Jump("garden_dialogue")
+        action Hide("dianes_front_yard"), Call("diane_house_lock_check", L_diane_garden)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -12,5 +12,9 @@ label mall_dialogue:
 
     elif M_roxxy.is_state(S_roxxy_fake_id_ask_terry) and M_roxxy.get("take roxxy mall"):
         call expression game.dialog_select("mall_roxxy_fake_id_ask_terry")
+
+    elif M_diane.is_state(S_diane_go_to_mall):
+        call expression game.dialog_select("mall_diane_get_bug_spray")
+        $ M_diane.trigger(T_diane_arrived_at_mall)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -97,13 +97,13 @@ screen pink:
         hover HoverImage("objects/object_toy_14.png")
         action Show("popup_handcuffs")
         pos 147,468
-
-    imagebutton:
-        focus_mask True
-        idle "objects/character_ivy_01.png"
-        hover HoverImage("objects/character_ivy_01.png")
-        action Hide("pink"), Jump("ivy_button_dialogue")
-        pos 910,350
+    if L_pink.is_here(M_ivy):
+        imagebutton:
+            focus_mask True
+            idle "objects/character_ivy_01.png"
+            hover HoverImage("objects/character_ivy_01.png")
+            action Hide("pink"), Jump("ivy_button_dialogue")
+            pos 910,350
 
     imagebutton:
         focus_mask True

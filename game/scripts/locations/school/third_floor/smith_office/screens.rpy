@@ -1,11 +1,24 @@
 screen principal_smiths_office:
     if not M_ross.is_set('smith office painting'):
         add game.timer.image("backgrounds/location_school_office_day{}.jpg")
+
     else:
         add game.timer.image("backgrounds/location_school_office_painting_day{}.jpg")
 
-    if quest09_1:
-        add "characters/principal/char_principal_24.png" xpos 49 ypos 310
+    if M_diane.is_state(S_diane_delivery_3_fetch_invoice, S_diane_delivery_3_drop_off_goods):
+        imagebutton:
+            focus_mask True
+            pos (449,310)
+            idle "principal 24f"
+            hover HoverImage("principal 24f")
+            action Hide("principal_smiths_office"), Jump("smith_office_smith_delivery_3_dialogue")
+
+        imagebutton:
+            focus_mask True
+            pos (55,359)
+            idle "objects/character_ronda_03.png"
+            hover HoverImage("objects/character_ronda_03.png")
+            action Hide("principal_smiths_office"), Jump("smith_office_ronda_delivery_3_dialogue")
 
     else:
         if M_smith.is_state(S_smith_intro):
@@ -15,6 +28,7 @@ screen principal_smiths_office:
                 idle "objects/object_desk_03_annie.png"
                 hover HoverImage("objects/object_desk_03_annie.png")
                 action Hide("principal_smiths_office"), Jump("principals_office_smith_intro")
+
         elif M_smith.is_state(S_smith_go_to_locker):
             imagebutton:
                 focus_mask True
@@ -22,6 +36,7 @@ screen principal_smiths_office:
                 idle "objects/object_desk_03_annie.png"
                 hover HoverImage("objects/object_desk_03_annie.png")
                 action Hide("principal_smiths_office"), Jump("principals_office_smith_go_to_locker")
+
         elif player.location.is_here(M_smith):
             imagebutton:
                 focus_mask True
@@ -29,6 +44,7 @@ screen principal_smiths_office:
                 idle "objects/object_desk_03c.png"
                 hover HoverImage("objects/object_desk_03c.png")
                 action Hide("principal_smiths_office"), Jump("principals_office_smith_no_desk")
+
         else:
             imagebutton:
                 focus_mask True
@@ -37,10 +53,7 @@ screen principal_smiths_office:
                 hover HoverImage(game.timer.image("objects/object_desk_03{}.png"))
                 action Show("desk03_options")
 
-        if M_okita.is_state(S_okita_get_ingredients) and game.timer.is_afternoon() and game.ui_locked and not player.has_item('tissue'):
-            $ pass
-
-        else:
+        if not (M_okita.is_state(S_okita_get_ingredients) and game.timer.is_afternoon() and game.ui_locked and not player.has_item('tissue')):
             imagebutton:
                 focus_mask True
                 pos (350,700)
@@ -65,6 +78,7 @@ screen principal_smiths_office:
 
 screen principle_garbage:
     add "backgrounds/location_school_office_garbage.jpg"
+
     if M_okita.is_state(S_okita_get_ingredients) and not player.has_picked_up_item("tissue"):
         imagebutton:
             focus_mask True
@@ -75,13 +89,14 @@ screen principle_garbage:
 
 screen principle_drawer:
     add game.timer.image("backgrounds/location_school_office_drawer_day{}.jpg")
-    if quest09_1 and quest09 not in completed_quests:
+
+    if False:
         imagebutton:
             focus_mask True
             pos (110,25)
             idle "objects/object_papers_01.png"
             hover HoverImage("objects/object_papers_01.png")
-            action Hide("principle_drawer"), Jump("milk_delivery")
+            action Hide("principle_drawer"), Jump("principle_drawer_diane_delivery_3_fetch_invoice")
 
     else:
         imagebutton:
@@ -119,8 +134,9 @@ screen desk04_options:
         pos (350,600)
         idle "boxes/desk04_option_01.png"
         hover HoverImage("boxes/desk04_option_01.png")
-        if quest09_1 and quest09 not in completed_quests or not player.location.is_here(M_smith):
+        if not player.location.is_here(M_smith):
             action Hide("desk04_options"), Hide("principal_smiths_office"), Jump("principle_drawer")
+
         else:
             action Hide("desk04_options"), Hide("principal_smiths_office"), Jump("desk03_locked_dialogue")
 

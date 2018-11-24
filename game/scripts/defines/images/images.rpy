@@ -1034,6 +1034,38 @@ image car02_night:
     pause 7.0
     repeat
 
+image santa_car_night:
+    pause 2.0
+    choice:
+        "map/map_car_horizontal07_night.png"
+        ypos 455
+    xpos 1000
+    alpha 0.0
+    parallel:
+        linear 7.0 xpos 480
+    parallel:
+        linear 1.0 alpha 1.0
+        pause 10
+        linear 1.0 alpha 0.0
+    pause 7.0
+    repeat
+
+image santa_car:
+    pause 2.0
+    choice:
+        "map/map_car_horizontal07.png"
+        ypos 455
+    xpos 1000
+    alpha 0.0
+    parallel:
+        linear 7.0 xpos 480
+    parallel:
+        linear 1.0 alpha 1.0
+        pause 10
+        linear 1.0 alpha 0.0
+    pause 7.0
+    repeat
+
 image car03_night:
     pause 3.0
     choice:
@@ -1284,18 +1316,16 @@ image annie 20 = Image("characters/annie/char_annie_20.png",xoffset=-105,yoffset
 image annie 20b = Image("characters/annie/char_annie_20b.png",xoffset=-105,yoffset=-12)
 image annie 20c = Image("characters/annie/char_annie_20c.png",xoffset=-105,yoffset=-12)
 image annie 21 = Image("characters/annie/char_annie_21.png", xoffset=-105, yoffset=-12)
+image annie 24 = "characters/annie/char_annie_24.png"
+image annie 25 = "characters/annie/char_annie_25.png"
+image annie 26 = "characters/annie/char_annie_26.png"
+image annie 28 = "characters/annie/char_annie_28.png"
 image annie spying 1 = Image("characters/annie/char_annie_spying_01.png", xoffset=260, yoffset=-182)
 image annie spying 2 = Image("characters/annie/char_annie_spying_02.png", xoffset=260, yoffset=-182)
 image annie spying 3 = Image("characters/annie/char_annie_spying_03.png", xoffset=260, yoffset=-182)
 image annie spying 4 = Image("characters/annie/char_annie_spying_04.png", xoffset=222, yoffset=-182)
 image annie spying 5 = Image("characters/annie/char_annie_spying_05.png", xoffset=166, yoffset=-182)
 
-image annie 1f = im.Flip("characters/annie/char_annie_01.png", horizontal=True)
-image annie 2f = im.Flip("characters/annie/char_annie_02.png", horizontal=True)
-image annie 3f = im.Flip("characters/annie/char_annie_03.png", horizontal=True)
-image annie 4f = im.Flip("characters/annie/char_annie_04.png", horizontal=True)
-image annie 5f = im.Flip("characters/annie/char_annie_05.png", horizontal=True)
-image annie 6f = im.Flip("characters/annie/char_annie_06.png", horizontal=True)
 
 
 image annieo 1 = "characters/annie/char_annie_outfit_01.png"
@@ -1329,189 +1359,191 @@ image annieoverlay 1 = "characters/annie/char_annie_outfit_overlay.png"
 image annieoverlay 1f = im.Flip("characters/annie/char_annie_outfit_overlay.png", horizontal=True)
 
 
-image diane 1 = "characters/diane/char_diane_01.png"
-image diane 2 = "characters/diane/char_diane_02.png"
-image diane 3 = "characters/diane/char_diane_03.png"
-image diane 4 = "characters/diane/char_diane_04.png"
-image diane 5 = "characters/diane/char_diane_05.png"
-image diane 6 = "characters/diane/char_diane_06.png"
-image diane 7 = "characters/diane/char_diane_07.png"
-image diane 8 = "characters/diane/char_diane_08.png"
-image diane 9 = "characters/diane/char_diane_09.png"
-image diane 10 = "characters/diane/char_diane_10.png"
-image diane 11 = "characters/diane/char_diane_11.png"
-image diane 12 = "characters/diane/char_diane_12.png"
-image diane 13 = "characters/diane/char_diane_13.png"
-image diane 14 = "characters/diane/char_diane_14.png"
-image diane 15 = "characters/diane/char_diane_15.png"
-image diane 16 = "characters/diane/char_diane_16.png"
-image diane 17 = "characters/diane/char_diane_17.png"
-image diane 18 = "characters/diane/char_diane_18.png"
-image diane 19 = "characters/diane/char_diane_19.png"
-image diane 20 = "characters/diane/char_diane_20.png"
-image diane 21 = "characters/diane/char_diane_21.png"
-image diane 22 = "characters/diane/char_diane_22.png"
-image diane 23 = "characters/diane/char_diane_23.png"
-image diane 24 = "characters/diane/char_diane_24.png"
-image diane 25 = "characters/diane/char_diane_25.png"
-image diane 26 = "characters/diane/char_diane_26.png"
-image diane 27 = "characters/diane/char_diane_27.png"
-image diane 28 = "characters/diane/char_diane_28.png"
-image diane 29 = "characters/diane/char_diane_29.png"
-image diane 30 = "characters/diane/char_diane_30.png"
-image diane 31 = "characters/diane/char_diane_31.png"
-image diane 32 = "characters/diane/char_diane_32.png"
-image diane 33 = "characters/diane/char_diane_33.png"
-image diane 34 = "characters/diane/char_diane_34.png"
-image diane 35 = "characters/diane/char_diane_35.png"
-image diane 36 = "characters/diane/char_diane_36.png"
-image diane 37 = "characters/diane/char_diane_37.png"
-image diane 38 = "characters/diane/char_diane_38.png"
-image diane 39 = "characters/diane/char_diane_39.png"
-image diane 40 = "characters/diane/char_diane_40.png"
-image diane 41 = "characters/diane/char_diane_41.png"
-image diane 42 = "characters/diane/char_diane_42.png"
-image diane 43 = "characters/diane/char_diane_43.png"
-image diane 44 = "characters/diane/char_diane_44.png"
-image diane 45 = "characters/diane/char_diane_45.png"
-image diane 46 = "characters/diane/char_diane_46.png"
-image diane 47 = "characters/diane/char_diane_47.png"
-image diane 48 = "characters/diane/char_diane_48.png"
-image diane 49 = "characters/diane/char_diane_49.png"
-image diane 50 = "characters/diane/char_diane_50.png"
-image diane 51 = "characters/diane/char_diane_51.png"
-image diane 52 = "characters/diane/char_diane_52.png"
-image diane 53 = "characters/diane/char_diane_53.png"
-image diane 54 = "characters/diane/char_diane_54.png"
-image diane 55 = "characters/diane/char_diane_55.png"
-image diane 56 = "characters/diane/char_diane_56.png"
-image diane 57 = "characters/diane/char_diane_57.png"
-image diane 58 = "characters/diane/char_diane_58.png"
-image diane 59 = "characters/diane/char_diane_59.png"
-image diane 60 = "characters/diane/char_diane_60.png"
-image diane 61 = "characters/diane/char_diane_61.png"
-image diane 62 = "characters/diane/char_diane_62.png"
-image diane 63 = "characters/diane/char_diane_63.png"
-image diane 64 = "characters/diane/char_diane_64.png"
-image diane 65 = "characters/diane/char_diane_65.png"
-image diane 66 = "characters/diane/char_diane_66.png"
-image diane 67 = "characters/diane/char_diane_67.png"
-image diane 68 = "characters/diane/char_diane_68.png"
-image diane 69 = "characters/diane/char_diane_69.png"
-image diane 70 = "characters/diane/char_diane_70.png"
-image diane 71 = "characters/diane/char_diane_71.png"
-image diane 72 = "characters/diane/char_diane_72.png"
-image diane 73 = "characters/diane/char_diane_73.png"
-image diane 74 = "characters/diane/char_diane_74.png"
-image diane 75 = "characters/diane/char_diane_75.png"
-image diane 76 = "characters/diane/char_diane_76.png"
-image diane 77 = "characters/diane/char_diane_77.png"
-image diane 78 = "characters/diane/char_diane_78.png"
-image diane 79 = "characters/diane/char_diane_79.png"
-image diane 80 = "characters/diane/char_diane_80.png"
-image diane 81 = "characters/diane/char_diane_81.png"
-image diane 82 = "characters/diane/char_diane_82.png"
-image diane 83 = "characters/diane/char_diane_83.png"
-image diane 84 = "characters/diane/char_diane_84.png"
-image diane 85 = "characters/diane/char_diane_85.png"
-image diane 86 = "characters/diane/char_diane_86.png"
-image diane 87 = "characters/diane/char_diane_87.png"
-image diane 88 = "characters/diane/char_diane_88.png"
-image diane 89 = "characters/diane/char_diane_89.png"
-image diane 90 = "characters/diane/char_diane_90.png"
-image diane 91 = "characters/diane/char_diane_91.png"
-image diane 92 = "characters/diane/char_diane_92.png"
-image diane 93 = "characters/diane/char_diane_93.png"
-image diane 94 = "characters/diane/char_diane_94.png"
-image diane 95 = "characters/diane/char_diane_95.png"
-image diane 96 = "characters/diane/char_diane_96.png"
-image diane 97 = "characters/diane/char_diane_97.png"
-image diane 98 = "characters/diane/char_diane_98.png"
-image diane 99 = "characters/diane/char_diane_99.png"
-image diane 100 = "characters/diane/char_diane_100.png"
-image diane 101 = "characters/diane/char_diane_101.png"
-image diane 102 = "characters/diane/char_diane_102.png"
 
-image diane 104 = "characters/diane/char_diane_104.png"
-image diane 105 = "characters/diane/char_diane_105.png"
-image diane 106 = "characters/diane/char_diane_106.png"
-image diane 107 = "characters/diane/char_diane_107.png"
-image diane 108 = "characters/diane/char_diane_108.png"
-image diane 109 = "characters/diane/char_diane_109.png"
-image diane 110 = "characters/diane/char_diane_110.png"
-image diane 111 = "characters/diane/char_diane_111.png"
-image diane 112 = "characters/diane/char_diane_112.png"
-image diane 113 = "characters/diane/char_diane_113.png"
-image diane 114 = "characters/diane/char_diane_114.png"
-image diane 115 = "characters/diane/char_diane_115.png"
-image diane 116 = "characters/diane/char_diane_116.png"
-image diane 117 = "characters/diane/char_diane_117.png"
-image diane 118 = "characters/diane/char_diane_118.png"
-image diane 119 = "characters/diane/char_diane_119.png"
-image diane 120 = "characters/diane/char_diane_120.png"
-image diane 121 = "characters/diane/char_diane_121.png"
-image diane 122 = "characters/diane/char_diane_122.png"
-image diane 123 = "characters/diane/char_diane_123.png"
-image diane 124 = "characters/diane/char_diane_124.png"
-image diane 125 = "characters/diane/char_diane_125.png"
-image diane 126 = "characters/diane/char_diane_126.png"
-image diane 127 = "characters/diane/char_diane_127.png"
-image diane 128 = "characters/diane/char_diane_128.png"
-image diane 129 = "characters/diane/char_diane_129.png"
-image diane 130 = "characters/diane/char_diane_130.png"
-image diane 131 = "characters/diane/char_diane_131.png"
-image diane 132 = "characters/diane/char_diane_132.png"
-image diane 133 = "characters/diane/char_diane_133.png"
-image diane 134 = "characters/diane/char_diane_134.png"
-image diane 135 = "characters/diane/char_diane_135.png"
-image diane 136 = "characters/diane/char_diane_136.png"
-image diane 137 = "characters/diane/char_diane_137.png"
-image diane 138 = "characters/diane/char_diane_138.png"
-image diane 139 = "characters/diane/char_diane_139.png"
-image diane 140 = "characters/diane/char_diane_140.png"
-image diane 141 = "characters/diane/char_diane_141.png"
-image diane 142 = "characters/diane/char_diane_142.png"
-image diane 143 = "characters/diane/char_diane_143.png"
-image diane 144 = "characters/diane/char_diane_144.png"
-image diane 145 = "characters/diane/char_diane_145.png"
-image diane 146 = "characters/diane/char_diane_146.png"
-image diane 147 = "characters/diane/char_diane_147.png"
-image diane 148 = "characters/diane/char_diane_148.png"
-image diane 149 = "characters/diane/char_diane_149.png"
-image diane 150 = "characters/diane/char_diane_150.png"
-image diane 151 = "characters/diane/char_diane_151.png"
-image diane 152 = "characters/diane/char_diane_152.png"
-image diane 153 = "characters/diane/char_diane_153.png"
-image diane 154 = "characters/diane/char_diane_154.png"
-image diane 144 = "characters/diane/char_diane_144.png"
-image diane 144b = "characters/diane/char_diane_144b.png"
-image diane 145 = "characters/diane/char_diane_145.png"
-image diane 146 = "characters/diane/char_diane_146.png"
-image diane 147 = "characters/diane/char_diane_147.png"
-image diane 148 = "characters/diane/char_diane_148.png"
-image diane 149 = "characters/diane/char_diane_149.png"
-image diane 150 = "characters/diane/char_diane_150.png"
-image diane 151 = "characters/diane/char_diane_151.png"
-image diane 152 = "characters/diane/char_diane_152.png"
-image diane 152b = "characters/diane/char_diane_152b.png"
-image diane 153 = "characters/diane/char_diane_153.png"
-image diane 154 = "characters/diane/char_diane_154.png"
-image diane 155 = "characters/diane/char_diane_155.png"
-image diane 155b = "characters/diane/char_diane_155b.png"
-image diane 156 = "characters/diane/char_diane_156.png"
-image diane 157 = "characters/diane/char_diane_157.png"
-image diane 158 = "characters/diane/char_diane_158.png"
-image diane 159 = "characters/diane/char_diane_159.png"
-image diane 160 = "characters/diane/char_diane_160.png"
-image diane 161 = "characters/diane/char_diane_161.png"
-image diane 162 = "characters/diane/char_diane_162.png"
-image diane 163 = "characters/diane/char_diane_163.png"
-image diane 164 = "characters/diane/char_diane_164.png"
-image diane 165 = "characters/diane/char_diane_165.png"
-image diane 166 = "characters/diane/char_diane_166.png"
-image diane 167 = "characters/diane/char_diane_167.png"
-image diane 168 = "characters/diane/char_diane_168.png"
-image diane 169 = "characters/diane/char_diane_169.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 image diane 170 = Image("characters/diane/char_diane_170.png",xoffset=-323,yoffset=-145)
 image diane 171 = Image("characters/diane/char_diane_171.png",xoffset=-323,yoffset=-145)
 image diane 172 = Image("characters/diane/char_diane_172.png",xoffset=-323,yoffset=-145)
@@ -1523,72 +1555,74 @@ image diane 177 = Image("characters/diane/char_diane_177.png",xoffset=-315,yoffs
 image diane 178 = Image("characters/diane/char_diane_178.png",xoffset=-349,yoffset=-250)
 image diane 179 = Image("characters/diane/char_diane_179.png",xoffset=-340,yoffset=-330)
 
-image diane bed 5 = "objects/character_diane_05.png"
-image diane_passedout_b = "objects/object_bed_07_blurred.png"
-
-
-image dianesex 1 = "characters/diane/char_diane_sex_01.png"
-image dianesex 2 = "characters/diane/char_diane_sex_02.png"
-image dianesex 3 = "characters/diane/char_diane_sex_03.png"
-image dianesex 4 = "characters/diane/char_diane_sex_04.png"
-image dianesex 5 = "characters/diane/char_diane_sex_05.png"
-image dianesex 6 = "characters/diane/char_diane_sex_06.png"
-image dianesex 7 = "characters/diane/char_diane_sex_07.png"
-image dianesex 8 = "characters/diane/char_diane_sex_08.png"
-image dianesex 9 = "characters/diane/char_diane_sex_09.png"
-image dianesex 10 = "characters/diane/char_diane_sex_10.png"
-image dianesex 11 = "characters/diane/char_diane_sex_11.png"
-image dianesex 12 = "characters/diane/char_diane_sex_12.png"
-image dianesex 13 = "characters/diane/char_diane_sex_13.png"
-image dianesex 14 = "characters/diane/char_diane_sex_14.png"
-image dianesex 15 = "characters/diane/char_diane_sex_15.png"
-image dianesex 16 = "characters/diane/char_diane_sex_16.png"
-image dianesex 17 = "characters/diane/char_diane_sex_17.png"
-image dianesex 18 = "characters/diane/char_diane_sex_18.png"
-image dianesex 19 = "characters/diane/char_diane_sex_19.png"
-image dianesex 20 = "characters/diane/char_diane_sex_20.png"
-image dianesex 21 = "characters/diane/char_diane_sex_21.png"
-image dianesex 22 = "characters/diane/char_diane_sex_22.png"
-image dianesex 23 = "characters/diane/char_diane_sex_23.png"
-image dianesex 24 = "characters/diane/char_diane_sex_24.png"
-image dianesex 25 = "characters/diane/char_diane_sex_25.png"
 
 
 
-image dianesex 29 = "characters/diane/char_diane_sex_29.png"
 
 
-image dianesex 32 = "characters/diane/char_diane_sex_32.png"
-image dianesex 33 = "characters/diane/char_diane_sex_33.png"
-image dianesex 34 = "characters/diane/char_diane_sex_34.png"
-image dianesex 35 = "characters/diane/char_diane_sex_35.png"
 
-image dianesex 37 = "characters/diane/char_diane_sex_37.png"
 
-image dianesex 39 = "characters/diane/char_diane_sex_39.png"
 
-image dianesex 41 = "characters/diane/char_diane_sex_41.png"
 
-image dianesex 43 = "characters/diane/char_diane_sex_43.png"
 
-image dianesex 45 = "characters/diane/char_diane_sex_45.png"
 
-image dianesex 47 = "characters/diane/char_diane_sex_47.png"
 
-image dianesex 49 = "characters/diane/char_diane_sex_49.png"
 
-image dianesex 51 = "characters/diane/char_diane_sex_51.png"
 
-image dianesex 53 = "characters/diane/char_diane_sex_53.png"
-image dianesex 54 = "characters/diane/char_diane_sex_54.png"
-image dianesex 55 = "characters/diane/char_diane_sex_55.png"
-image dianesex 56 = "characters/diane/char_diane_sex_56.png"
-image dianesex 57 = "characters/diane/char_diane_sex_57.png"
-image dianesex 58 = "characters/diane/char_diane_sex_58.png"
-image dianesex 59 = "characters/diane/char_diane_sex_59.png"
-image dianesex 60 = "characters/diane/char_diane_sex_60.png"
-image dianesex 61 = "characters/diane/char_diane_sex_61.png"
-image dianesex 62 = "characters/diane/char_diane_sex_62.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 image becca 1 = "characters/becca/char_becca_01.png"
@@ -2982,6 +3016,14 @@ image kevin 31c = "characters/kevin/char_kevin_31c.png"
 image kevin 32 = "characters/kevin/char_kevin_32.png"
 image kevin 33 = "characters/kevin/char_kevin_33.png"
 image kevin 33b = "characters/kevin/char_kevin_33b.png"
+image kevin 37 = "characters/kevin/char_kevin_37.png"
+image kevin 38 = "characters/kevin/char_kevin_38.png"
+image kevin 39 = "characters/kevin/char_kevin_39.png"
+image kevin 40 = "characters/kevin/char_kevin_40.png"
+image kevin 41 = "characters/kevin/char_kevin_41.png"
+image kevin 42 = "characters/kevin/char_kevin_42.png"
+image kevin 43 = "characters/kevin/char_kevin_43.png"
+
 image kevin labcoat 2 = Image("characters/kevin/char_kevin_labcoat_02.png", xoffset=-37)
 image kevin labcoat 3 = Image("characters/kevin/char_kevin_labcoat_03.png", xoffset=-24)
 image kevin labcoat 4 = "characters/kevin/char_kevin_labcoat_04.png"
@@ -3166,6 +3208,7 @@ image player 65 = "characters/player/char_player_65.png"
 image player 66 = "characters/player/char_player_66.png"
 image player 67 = "characters/player/char_player_67.png"
 image player 68 = "characters/player/char_player_68.png"
+image player 68b = "characters/player/char_player_68b.png"
 image player 69 = "characters/player/char_player_69.png"
 image player 70 = "characters/player/char_player_70.png"
 image player 71 = "characters/player/char_player_71.png"
@@ -3214,6 +3257,7 @@ image player 101g = "characters/player/char_player_101g.png"
 image player 101h = "characters/player/char_player_101h.png"
 image player 102 = "characters/player/char_player_102.png"
 image player 103 = "characters/player/char_player_103.png"
+image player 103b = "characters/player/char_player_103b.png"
 image player 104 = "characters/player/char_player_104.png"
 image player 105 = "characters/player/char_player_105.png"
 image player 106 = "characters/player/char_player_106.png"
@@ -3249,9 +3293,9 @@ image player 131 = "characters/player/char_player_131.png"
 image player 132 = "characters/player/char_player_132.png"
 image player 133 = "characters/player/char_player_133.png"
 image player 134 = "characters/player/char_player_134.png"
-image player 135 = "characters/player/char_player_135.png"
-image player 136 = "characters/player/char_player_136.png"
-image player 137 = "characters/player/char_player_137.png"
+image player 135 = "characters/player/char_player_135_[drink_made].png"
+image player 136 = "characters/player/char_player_136_[drink_made].png"
+image player 137 = "characters/player/char_player_137_[drink_made].png"
 image player 138 = "characters/player/char_player_138.png"
 image player 139 = "characters/player/char_player_139.png"
 image player 140 = "characters/player/char_player_140.png"
@@ -3279,14 +3323,25 @@ image player 160 = "characters/player/char_player_160.png"
 image player 161 = "characters/player/char_player_161.png"
 image player 162 = "characters/player/char_player_162.png"
 image player 163 = "characters/player/char_player_163.png"
+image player 163d = "characters/player/char_player_163d.png"
+image player 163e = "characters/player/char_player_163e.png"
+image player 163j = "characters/player/char_player_163j.png"
 image player 164 = "characters/player/char_player_164.png"
 image player 165 = "characters/player/char_player_165.png"
 image player 166 = "characters/player/char_player_166.png"
 image player 167 = "characters/player/char_player_167.png"
 image player 168 = "characters/player/char_player_168.png"
+image player 168b = "characters/player/char_player_168b.png"
+image player 168c = "characters/player/char_player_168c.png"
 image player 169 = "characters/player/char_player_169.png"
+image player 169b = "characters/player/char_player_169b.png"
+image player 169c = "characters/player/char_player_169c.png"
 image player 170 = "characters/player/char_player_170.png"
+image player 170b = "characters/player/char_player_170b.png"
+image player 170c = "characters/player/char_player_170c.png"
 image player 171 = "characters/player/char_player_171.png"
+image player 171b = "characters/player/char_player_171b.png"
+image player 171c = "characters/player/char_player_171c.png"
 image player 172 = "characters/player/char_player_172.png"
 image player 173 = "characters/player/char_player_173.png"
 image player 174 = "characters/player/char_player_174.png"
@@ -3344,6 +3399,8 @@ image player 223 = "characters/player/char_player_223.png"
 image player 224 = "characters/player/char_player_224.png"
 image player 225 = "characters/player/char_player_225.png"
 image player 226 = "characters/player/char_player_226.png"
+image player 226b = Image("characters/player/char_player_226b.png",xoffset=-1)
+image player 226c = Image("characters/player/char_player_226c.png",xoffset=-4)
 image player 227 = "characters/player/char_player_227.png"
 image player 227b = "characters/player/char_player_227b.png"
 image player 227c = "characters/player/char_player_227c.png"
@@ -3385,9 +3442,18 @@ image player 258 = "characters/player/char_player_258.png"
 image player 259 = "characters/player/char_player_259.png"
 image player 260 = "characters/player/char_player_260.png"
 image player 261 = "characters/player/char_player_261.png"
+image player 261b = "characters/player/char_player_261b.png"
 image player 261bf = im.Flip("characters/player/char_player_261b.png", horizontal=True)
 image player 262 = "characters/player/char_player_262.png"
+image player 262b = "characters/player/char_player_262b.png"
+image player 262c = "characters/player/char_player_262c.png"
+image player 262d = "characters/player/char_player_262d.png"
+image player 262e = Image("characters/player/char_player_262e.png",xoffset=-8)
+image player 262g = Image("characters/player/char_player_262g.png",xoffset=-8)
+image player 262h = "characters/player/char_player_262h.png"
 image player 263 = "characters/player/char_player_263.png"
+image player 263b = "characters/player/char_player_263b.png"
+image player 263c = "characters/player/char_player_263c.png"
 image player 264 = "characters/player/char_player_264.png"
 image player 265 = "characters/player/char_player_265.png"
 image player 265f = im.Flip("characters/player/char_player_265.png", horizontal=True)
@@ -3433,6 +3499,9 @@ image player 296 = "characters/player/char_player_296.png"
 image player 297 = "characters/player/char_player_297.png"
 image player 298 = "characters/player/char_player_298.png"
 image player 299 = "characters/player/char_player_299.png"
+image player 299b = "characters/player/char_player_299b.png"
+image player 299c = "characters/player/char_player_299c.png"
+image player 299d = "characters/player/char_player_299d.png"
 image player 300 = "characters/player/char_player_300.png"
 image player 301 = "characters/player/char_player_301.png"
 image player 302 = "characters/player/char_player_302.png"
@@ -3509,6 +3578,7 @@ image player 368 = "characters/player/char_player_368.png"
 image player 368b = "characters/player/char_player_368b.png"
 image player 368bf = im.Flip("characters/player/char_player_368b.png", horizontal=True)
 image player 369 = "characters/player/char_player_369.png"
+image player 369b = "characters/player/char_player_369b.png"
 image player 370 = "characters/player/char_player_370.png"
 image player 371 = "characters/player/char_player_371.png"
 image player 372 = "characters/player/char_player_372.png"
@@ -3566,11 +3636,28 @@ image player 423 = "characters/player/char_player_423.png"
 image player 424 = "characters/player/char_player_424.png"
 image player 425 = "characters/player/char_player_425.png"
 image player 426 = "characters/player/char_player_426.png"
+image player 426b = Image("characters/player/char_player_426b.png",xoffset=-47)
+image player 426e = Image("characters/player/char_player_426e.png",xoffset=-9)
+image player 426g = Image("characters/player/char_player_426g.png",xoffset=-47)
+image player 426h = Image("characters/player/char_player_426h.png",xoffset=-47)
 image player 427 = "characters/player/char_player_427.png"
+image player 427b = Image("characters/player/char_player_427b.png",xoffset=-50)
+image player 427c = Image("characters/player/char_player_427c.png",xoffset=-16)
+image player 427d = Image("characters/player/char_player_427d.png",xoffset=-16)
+image player 427e = Image("characters/player/char_player_427e.png",xoffset=-16)
+image player 427g = "characters/player/char_player_427g.png"
 image player 428 = "characters/player/char_player_428.png"
 image player 428f = im.Flip("characters/player/char_player_428.png", horizontal=True)
 image player 429 = "characters/player/char_player_429.png"
+image player 429b = "characters/player/char_player_429b.png"
+image player 429c = "characters/player/char_player_429c.png"
+image player 429d = "characters/player/char_player_429d.png"
+image player 429e = "characters/player/char_player_429e.png"
+image player 429g = "characters/player/char_player_429g.png"
+image player 429h = "characters/player/char_player_429h.png"
+image player 429i = "characters/player/char_player_429i.png"
 image player 430 = "characters/player/char_player_430.png"
+image player 430b = "characters/player/char_player_430b.png"
 image player 430c = "characters/player/char_player_430c.png"
 image player 430cf = im.Flip("characters/player/char_player_430c.png", horizontal=True)
 image player 430d = "characters/player/char_player_430d.png"
@@ -3846,6 +3933,10 @@ image player 638b = Image("characters/player/char_player_638b.png",xoffset=28)
 image player_outfit bb 638c = Image("characters/player/char_player_638c.png",xoffset=11)
 image player_outfit bb 638d = Image("characters/player/char_player_638d.png",xoffset=11)
 image player_outfit bb 638e = Image("characters/player/char_player_638e.png",xoffset=-1)
+image player 640b = "characters/player/char_player_640b.png"
+image player 640c = "characters/player/char_player_640c.png"
+image player 640d = "characters/player/char_player_640d.png"
+image player 640e = "characters/player/char_player_640e.png"
 image player 641 = "characters/player/char_player_641.png"
 image player 642 = "characters/player/char_player_642.png"
 image player 643 = "characters/player/char_player_643.png"
@@ -3875,9 +3966,56 @@ image player 661 = "characters/player/char_player_661.png"
 image player 662 = "characters/player/char_player_662.png"
 image player 663 = "characters/player/char_player_663.png"
 image player 664 = Image("characters/player/char_player_664.png",xoffset=43)
+image player 667 = "characters/player/char_player_667.png"
+image player 667b = "characters/player/char_player_667b.png"
+image player 668 = "characters/player/char_player_668.png"
+image player 670 = "characters/player/char_player_670.png"
+image player 670b = "characters/player/char_player_670b.png"
+image player 670c = "characters/player/char_player_670c.png"
+image player 670d = "characters/player/char_player_670d.png"
+image player 671 = "characters/player/char_player_671.png"
+image player 672 = "characters/player/char_player_672.png"
+image player 673 = "characters/player/char_player_673.png"
+image player 674 = "characters/player/char_player_674.png"
+image player 675 = "characters/player/char_player_675.png"
+image player 676 = "characters/player/char_player_676.png"
+image player 677 = "characters/player/char_player_677.png"
+image player 678 = "characters/player/char_player_678.png"
+image player 679 = "characters/player/char_player_679.png"
+image player 680 = "characters/player/char_player_680.png"
+image player 681 = "characters/player/char_player_681.png"
+image player 681b = "characters/player/char_player_681b.png"
+image player 682 = "characters/player/char_player_682.png"
+image player 683 = "characters/player/char_player_683.png"
+image player 684 = "characters/player/char_player_684.png"
+image player 685 = "characters/player/char_player_685.png"
+image player 686 = "characters/player/char_player_686.png"
+image player 687 = "characters/player/char_player_687.png"
+image player 688 = Image("characters/player/char_player_688.png",xoffset=9)
+image player 689 = Image("characters/player/char_player_689.png",xoffset=9)
+image player 691b = "characters/player/char_player_691b.png"
+image player 692c = "characters/player/char_player_692c.png"
+image player 692d = "characters/player/char_player_692d.png"
+image player 695 = "characters/player/char_player_695.png"
+image player 696 = "characters/player/char_player_696.png"
+image player 700 = "characters/player/char_player_700.png"
+image player 701 = "characters/player/char_player_701.png"
+image player 702 = "characters/player/char_player_702.png"
+image player 703 = "characters/player/char_player_703.png"
+image player 705 = "characters/player/char_player_705.png"
+image player 706 = "characters/player/char_player_706.png"
+image player 707 = "characters/player/char_player_707.png"
+
+image player_dick 222 = Image("characters/player/char_player_222_dick_OL.png",xoffset=104,yoffset=-94)
 
 image player_wet = Image("characters/player/char_player_wet.png",xoffset=48,yoffset=-328)
 image player_wet bed = Image("characters/player/char_player_wet_bed.png",xoffset=173,yoffset=-446)
+
+image player massage 1 = Image("characters/player/char_player_massage_01.png",xoffset=-48)
+image player massage 2 = Image("characters/player/char_player_massage_02.png",xoffset=-48)
+image player massage 3 = Image("characters/player/char_player_massage_03.png",xoffset=-48)
+image player massage 4 = Image("characters/player/char_player_massage_04.png",xoffset=-48)
+image player massage 5 = Image("characters/player/char_player_massage_05.png",xoffset=-48)
 
 
 image player locker 1 = Image("characters/player/char_player_locker_01.png",xoffset=-4)
@@ -3901,6 +4039,10 @@ image player locker 17b = Image("characters/player/char_player_locker_17b.png",x
 
 image player_boner locker 1 = Image("characters/player/char_player_locker_10.png",xoffset=50,yoffset=-127)
 image player_boner locker 2 = Image("characters/player/char_player_locker_10b.png",xoffset=80,yoffset=-110)
+
+image player afterjerk 1 = "characters/player/char_player_afterjerk_01.png"
+image player afterjerk 2 = "characters/player/char_player_afterjerk_02.png"
+image player afterjerk 3 = "characters/player/char_player_afterjerk_03.png"
 
 
 image player bed 1 = Image("characters/player/char_player_bed_01.png", yoffset=-85)
@@ -4758,13 +4900,16 @@ image debbie 62 = "characters/debbie/char_debbie_62.png"
 image debbie 63 = "characters/debbie/char_debbie_63.png"
 image debbie 63b = "characters/debbie/char_debbie_63b.png"
 image debbie 64 = "characters/debbie/char_debbie_64.png"
+image debbie 64b = "characters/debbie/char_debbie_64b.png"
+image debbie 64c = "characters/debbie/char_debbie_64c.png"
+image debbie 64d = "characters/debbie/char_debbie_64d.png"
 image debbie 65 = "characters/debbie/char_debbie_65.png"
 image debbie 66 = "characters/debbie/char_debbie_66.png"
-image debbie 67 = "characters/debbie/char_debbie_67.png"
-image debbie 68 = "characters/debbie/char_debbie_68.png"
-image debbie 69 = "characters/debbie/char_debbie_69.png"
-image debbie 70 = "characters/debbie/char_debbie_70.png"
-image debbie 71 = "characters/debbie/char_debbie_71.png"
+image debbie 67 = Image("characters/debbie/char_debbie_67.png",xoffset=-31)
+image debbie 68 = Image("characters/debbie/char_debbie_68.png",xoffset=-34)
+image debbie 69 = Image("characters/debbie/char_debbie_69.png",xoffset=-62)
+image debbie 70 = Image("characters/debbie/char_debbie_70.png",xoffset=-64)
+image debbie 71 = Image("characters/debbie/char_debbie_71.png",xoffset=-64)
 image debbie 72 = "characters/debbie/char_debbie_72.png"
 image debbie 73 = "characters/debbie/char_debbie_73.png"
 image debbie 74 = "characters/debbie/char_debbie_74.png"
@@ -4860,6 +5005,9 @@ image debbie 161 = "characters/debbie/char_debbie_161.png"
 image debbie 161b = "characters/debbie/char_debbie_161b.png"
 image debbie 162 = "characters/debbie/char_debbie_162.png"
 image debbie 163 = "characters/debbie/char_debbie_163.png"
+image player 163b = "characters/player/char_player_163b.png"
+image player 163c = "characters/player/char_player_163c.png"
+image player 163g = "characters/player/char_player_163g.png"
 image debbie 164 = "characters/debbie/char_debbie_164.png"
 image debbie 164b = "characters/debbie/char_debbie_164b.png"
 image debbie 165 = "characters/debbie/char_debbie_165.png"
@@ -4944,6 +5092,8 @@ image debbie 216 = "characters/debbie/char_debbie_216.png"
 image debbie 217 = "characters/debbie/char_debbie_217.png"
 image debbie 218 = "characters/debbie/char_debbie_218.png"
 image debbie 219 = "characters/debbie/char_debbie_219.png"
+image debbie 220 = "characters/debbie/char_debbie_220.png"
+image debbie 221 = "characters/debbie/char_debbie_221.png"
 
 
 
@@ -5792,24 +5942,7 @@ image okitas 13 = "characters/okita/char_okita_sex_13.png"
 image okitas 14 = "characters/okita/char_okita_sex_14.png"
 
 
-image ronda 1 = "characters/ronda/char_ronda_01.png"
-image ronda 2 = "characters/ronda/char_ronda_02.png"
-image ronda 3 = "characters/ronda/char_ronda_03.png"
-image ronda 4 = "characters/ronda/char_ronda_04.png"
-image ronda 5 = "characters/ronda/char_ronda_05.png"
-image ronda 6 = "characters/ronda/char_ronda_06.png"
-image ronda 7 = "characters/ronda/char_ronda_07.png"
-image ronda 8 = "characters/ronda/char_ronda_08.png"
-image ronda 9 = "characters/ronda/char_ronda_09.png"
-image ronda 10 = "characters/ronda/char_ronda_10.png"
-image ronda 11 = "characters/ronda/char_ronda_11.png"
-image ronda 11f = im.Flip("characters/ronda/char_ronda_11.png", horizontal=True)
-
-
-image rondal 1 = "characters/ronda/char_ronda_labcoat_01.png"
-image rondal 1f = im.Flip("characters/ronda/char_ronda_labcoat_01.png", horizontal=True)
-image rondal 1b = "characters/ronda/char_ronda_labcoat_01b.png"
-image rondal 1bf = im.Flip("characters/ronda/char_ronda_labcoat_01b.png", horizontal=True)
+image ronda chair = "objects/character_ronda_03.png"
 
 
 image ross 1 = "characters/ross/char_ross_01.png"
@@ -6348,6 +6481,7 @@ image roz 8 = "characters/roz/char_roz_08.png"
 image roz 9 = "characters/roz/char_roz_09.png"
 image roz 10 = "characters/roz/char_roz_10.png"
 image roz 11 = "characters/roz/char_roz_11.png"
+image roz 11b = "characters/roz/char_roz_11b.png"
 image roz 12 = "characters/roz/char_roz_12.png"
 image roz 13 = "characters/roz/char_roz_13.png"
 image roz 14 = "characters/roz/char_roz_14.png"
@@ -6356,6 +6490,10 @@ image roz 16 = "characters/roz/char_roz_16.png"
 image roz 17 = "characters/roz/char_roz_17.png"
 image roz 18 = "characters/roz/char_roz_18.png"
 image roz 19 = "characters/roz/char_roz_19.png"
+image roz 20 = "characters/roz/char_roz_20.png"
+image roz 21 = "characters/roz/char_roz_21.png"
+image roz 22 = "characters/roz/char_roz_22.png"
+image roz 23 = "characters/roz/char_roz_23.png"
 
 
 image rozs 1 = "characters/roz/char_roz_sex_01.png"
@@ -6397,6 +6535,8 @@ image jenny 2 = "characters/jenny/char_jenny_02.png"
 image jenny 3 = "characters/jenny/char_jenny_03.png"
 image jenny 6 = "characters/jenny/char_jenny_06.png"
 image jenny 6b = "characters/jenny/char_jenny_06b.png"
+image jenny 6c = "characters/jenny/char_jenny_06c.png"
+image jenny 6d = "characters/jenny/char_jenny_06d.png"
 image jenny 7 = "characters/jenny/char_jenny_07.png"
 image jenny 7b = "characters/jenny/char_jenny_07b.png"
 image jenny 8 = "characters/jenny/char_jenny_08.png"
@@ -6449,6 +6589,7 @@ image jenny 45 = "characters/jenny/char_jenny_45.png"
 image jenny 46 = "characters/jenny/char_jenny_46.png"
 image jenny 47 = "characters/jenny/char_jenny_47.png"
 image jenny 48 = "characters/jenny/char_jenny_48.png"
+image jenny 48b = "characters/jenny/char_jenny_48b.png"
 image jenny 49 = "characters/jenny/char_jenny_49.png"
 image jenny 50 = "characters/jenny/char_jenny_50.png"
 image jenny 51 = "characters/jenny/char_jenny_51.png"
@@ -6491,6 +6632,9 @@ image jenny 85 = "characters/jenny/char_jenny_85.png"
 image jenny 86 = "characters/jenny/char_jenny_86.png"
 image jenny 87 = "characters/jenny/char_jenny_87.png"
 image jenny 88 = "characters/jenny/char_jenny_88.png"
+image jenny 88b = "characters/jenny/char_jenny_88b.png"
+image jenny 88c = "characters/jenny/char_jenny_88c.png"
+image jenny 88d = "characters/jenny/char_jenny_88d.png"
 image jenny 89 = "characters/jenny/char_jenny_89.png"
 image jenny 90 = "characters/jenny/char_jenny_90.png"
 image jenny 91 = "characters/jenny/char_jenny_91.png"
@@ -6588,6 +6732,9 @@ image jenny 178 = "characters/jenny/char_jenny_178.png"
 image jenny 179 = "characters/jenny/char_jenny_179.png"
 image jenny 180 = "characters/jenny/char_jenny_180.png"
 image jenny 181 = "characters/jenny/char_jenny_181.png"
+image jenny 182 = "characters/jenny/char_jenny_182.png"
+image jenny 183 = "characters/jenny/char_jenny_183.png"
+image jenny 184 = "characters/jenny/char_jenny_184.png"
 
 
 
@@ -6764,13 +6911,6 @@ image jennysex_cunnilingus_player = "characters/jenny/char_jenny_sex_138.png"
 image table 1 = "objects/object_table_01.png"
 
 
-image tatia 1 = "characters/tatiana/char_tatiana_01.png"
-image tatia 2 = "characters/tatiana/char_tatiana_02.png"
-image tatia 3 = "characters/tatiana/char_tatiana_03.png"
-image tatia 4 = "characters/tatiana/char_tatiana_04.png"
-image tatia 5 = "characters/tatiana/char_tatiana_05.png"
-
-
 image terry 1 = "characters/terry/char_terry_01.png"
 image terry 2 = "characters/terry/char_terry_02.png"
 image terry 3 = "characters/terry/char_terry_03.png"
@@ -6859,12 +6999,6 @@ image tyrone 5 = "characters/tyrone/char_tyrone_05.png"
 image tyrone 6 = "characters/tyrone/char_tyrone_06.png"
 image tyrone 7 = "characters/tyrone/char_tyrone_07.png"
 image tyrone 8 = "characters/tyrone/char_tyrone_08.png"
-
-
-image veronica 1 = "characters/vero/char_vero_01.png"
-image veronica 2 = "characters/vero/char_vero_02.png"
-image veronica 3 = "characters/vero/char_vero_03.png"
-image veronica 4 = "characters/vero/char_vero_04.png"
 
 
 image yumi 1 = "characters/yumi/char_yumi_01.png"

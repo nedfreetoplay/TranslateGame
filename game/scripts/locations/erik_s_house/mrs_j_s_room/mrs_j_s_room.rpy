@@ -24,13 +24,14 @@ label mrsj_private_yoga:
     $ M_mrsj.set('sex speed', .4)
     call expression game.dialog_select("mrsjroom_mrsj_private_yoga_intro")
     $ anim_toggle = True
+    $ animated = False
     $ xray = False
 
     label mrsj_private_yoga_pos1_repeat:
         hide screen erimom_private_pos1_sex_options
-        show screen xray_scr
+        show screen sex_anim_buttons
         pause
-        hide screen xray_scr
+        hide screen sex_anim_buttons
         if anim_toggle:
             show mrsjsex 36_37
             pause 8
@@ -53,12 +54,13 @@ label mrsj_private_yoga:
             $ M_mrsj.set('sex speed', .3)
             call expression game.dialog_select("mrsjroom_mrsj_private_yoga_pos1")
             $ anim_toggle = True
+            $ animated = False
 
             label mrsj_private_yoga_pos2_repeat:
                 hide screen erimom_private_pos2_sex_options
-                show screen xray_scr
+                show screen sex_anim_buttons
                 pause
-                hide screen xray_scr
+                hide screen sex_anim_buttons
                 if anim_toggle:
                     show mrsjsex 42_43_44_45_46 at Position(xpos=580,ypos=710)
                     pause 8
@@ -96,14 +98,15 @@ label mrsj_3some:
     $ mrsj_filled = True
     call expression game.dialog_select("mrsjroom_mrsj_3some_intro")
     $ anim_toggle = True
+    $ animated = False
     $ xray = False
     $ M_mrsj.set('sex speed', .4)
 
     label mrsj_3some_pos1_repeat:
         hide screen mrsj_3some_pos1_sex_options
-        show screen xray_scr
+        show screen sex_anim_buttons
         pause
-        hide screen xray_scr
+        hide screen sex_anim_buttons
         if anim_toggle:
             show mrsjsex 21_22_23_24_25 at topright
             pause 8
@@ -132,12 +135,13 @@ label mrsj_3some:
             $ M_mrsj.set('sex speed', .3)
             call expression game.dialog_select("mrsjroom_mrsj_3some_pos1")
             $ anim_toggle = True
+            $ animated = False
 
             label mrsj_3some_pos2_repeat:
                 hide screen mrsj_3some_pos2_sex_options
-                show screen xray_scr
+                show screen sex_anim_buttons
                 pause
-                hide screen xray_scr
+                hide screen sex_anim_buttons
                 if anim_toggle:
                     show mrsjsex 28_29_30 at Position(xanchor=0,xpos=200,ypos=100)
                     pause 8

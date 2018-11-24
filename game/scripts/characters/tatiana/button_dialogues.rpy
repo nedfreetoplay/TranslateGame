@@ -1,70 +1,70 @@
 label tatiana_dialogue_pre:
     scene comic_c
     show xtra 17 zorder 2
-    show tatia 2 zorder 1 at right
+    show lilly f_normal_talk zorder 1 at right
     show player 1 zorder 3 at left
     with dissolve
-    tati "Чего желаем?"
-    show tatia 1
+    lilly "What's up?"
+    show lilly f_normal
     return
 
 label tatiana_dialogue_familiar:
     show player 4
-    player_name "Мне кажется, я тебя где-то видел."
-    show tatia 3
+    player_name "I feel like I've seen you somewhere."
+    show lilly f_laugh
     show player 1
-    tati "Правда. Ну, вы, наверное, видели меня в интернете..."
-    show tatia 2
-    tati "Я делаю много трансляций {b}видеоигр{/b}, и я публикую их на своем {b}YT канал{/b}."
-    show tatia 4
-    tati "Я обычно пишу под именем {b}PureRuby87{/b}."
-    show tatia 5
+    lilly "Right. Well, you've probably seen me on the internet..."
+    show lilly f_normal_talk
+    lilly "I do a lot of {b}video game streams{/b} and I post them on my {b}YT channel{/b}."
+    show lilly f_sexy_talk
+    lilly "I usually go by the name of {b}VirginLilly69{/b}."
+    show lilly f_sexy
     show player 17
-    player_name "А, точно! Мой друг {b}Эрик{/b} любит твои стримы!"
+    player_name "Oh, right! My friend {b}Erik{/b} loves your stuff!"
     show player 21
-    player_name "Он продолжает говорить о твоих видео и твоих {b}огромных{/b}... эмм... фанатах!"
-    show tatia 3
+    player_name "He keeps talking about your videos and your {b}huge{/b}... err... fan base!"
+    show lilly f_laugh
     show player 1
-    tati "Ох... Ребята, вы такие милые."
-    show tatia 2
-    tati "Хочешь еще о чем-нибудь поговорить?"
-    show tatia 1
+    lilly "Aww... You guys are so sweet."
+    show lilly f_normal_talk
+    lilly "Is there anything else you want to talk about?"
+    show lilly f_normal
     return
 
 label tatiana_dialogue_suggestions:
     show player 2
-    player_name "Есть ли у вас какие-либо предложения? Новые продукты которые вы порекомендовали бы?"
+    player_name "Do you have any suggestions? New products that you would recommend?"
     show player 1
-    tati "Хммм..."
-    show tatia 2
-    tati "Ну, я действительно люблю {b}косплей{/b}!"
-    show tatia 4
-    tati "Мне нравится носить {b}сексуальные наряды{/b}. На самом деле, у нас есть новая линия костюмов, которые только что пришли!"
-    show tatia 5
+    lilly "Hmmm..."
+    show lilly f_normal_talk
+    lilly "Well, I really love {b}cosplay{/b}!"
+    show lilly f_sexy_talk
+    lilly "I like to wear {b}sexy outfits{/b}. Actually, we have a new line of costumes that just came in!"
+    show lilly f_sexy
     show player 21
-    player_name "О, правда? Звучит интересно..."
-    show tatia 4
+    player_name "Oh, yeah? Sounds interesting..."
+    show lilly f_sexy_talk
     show player 1
-    tati "Это иногда трудно, чтобы соответствовать моим... Ммм... формам."
-    tati "Они делают их такими тугими, понимаешь?"
-    show tatia 3
-    tati "Но парни обычно не возражают!"
-    show tatia 5
+    lilly "It's sometimes hard to fit my... umm... forms into them."
+    lilly "They make them so tight, you know?"
+    show lilly f_laugh
+    lilly "But guys usually don't seem to mind!"
+    show lilly f_sexy
     show player 29
-    player_name "Хаха. Я вижу."
+    player_name "Haha. I see."
     show player 2
-    player_name "Спасибо, я сейчас посмотрю."
-    show tatia 1
+    player_name "Thanks, I'll have a look."
+    show lilly f_normal
     return
 
 label tatiana_dialogue_leave:
     show player 2
-    player_name "Да, думаю, у меня есть все, что мне нужно. Спасибо!"
-    show tatia 2
+    player_name "Yeah, I think I have everything I need. Thanks!"
+    show lilly f_normal_talk
     show player 1
-    tati "Отлично! Спасибо за покупки в {b}Космических комиксах{/b}..."
-    show tatia 3
+    lilly "Great! Thanks for shopping at {b}Cosmic Cumics{/b}..."
+    show lilly f_laugh
     show player 13
-    tati "И расскажите о нас друзьям!"
+    lilly "And tell your friends about us!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

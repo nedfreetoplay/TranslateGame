@@ -18,13 +18,37 @@ init python:
             destination = destination.parents[0]
         return path
 
+    def locations_reset():
+        for loc in store.locations:
+            if loc in store.temp_locations:
+                for temp_loc in store.temp_locations:
+                    if store.locations[loc].name.lower() == store.temp_locations[temp_loc].name.lower():
+                        store.locations[loc].locked = store.temp_locations[temp_loc].locked
+                        store.locations[loc].first_visit = store.temp_locations[temp_loc].first_visit
+
+    class LocationSchedule(): 
+        def __init__(self, schedule=[[None, None, None, None]]):
+            self.set_schedule(schedule)
+        
+        def set_schedule(self, schedule):
+            if len(schedule) == 1:
+                self.schedule = [schedule[0]]*7
+            elif len(schedule) == 2:
+                self.schedule = [schedule[0]]*5
+                self.schedule.extend([schedule[1]]*2)
+            elif len(schedule) == 7:
+                self.schedule = schedule
+            else:
+                raise SummertimeSagaInitException("location attribute must be a matrix of 1x4, 2x4 or 7x4")
+
+
     class Location(KeepRefs):
         """
             Location : A Location object represents the locations in the game as a tree.
             
             You can access any parent or child of a given location.
         """
-        def __init__(self, name, unlock_popup=None, background="menu_ground", parents=[], locked=False):
+        def __init__(self, name, unlock_popup=None, background="menu_ground", parents=[], locked=False, label=""):
             super(Location,self).__init__()
             self.name = name
             self.locked = locked
@@ -40,6 +64,7 @@ init python:
             self._bg = background
             self.unlock_popup = unlock_popup
             self.temporary_locked = False
+            self.label = label
         
         def __repr__(self):
             return self.name
@@ -53,6 +78,21 @@ init python:
             except AttributeError:
                 return True
         
+        def copy(self):
+            l = Location(self.name)
+            for key, value in self.__dict__.items():
+                if key not in ("parents", "children"):
+                    l.__dict__[key] = copy(value)
+            return l
+        
+        @property
+        def formatted_name(self):
+            name = self.name
+            name = name.lower()
+            name = name.replace("'", "")
+            name = name.replace(" ", "_")
+            return name
+        
         def call(self):
             """
                 Method to call the correct location label
@@ -61,7 +101,10 @@ init python:
                 no ' characters (Mia's replaced with mias), 
                 spaces replaced by _ and ending in _dialogue.
             """
-            renpy.call(self.name.replace(" ", "_").strip("'").lower()+"_dialogue")
+            if self.label:
+                renpy.call(self.label)
+            else:
+                renpy.call(self.formatted_name+"_dialogue")
             pass
         
         def call_screen(self, ui=True, clear=True, new_context=False):
@@ -81,13 +124,10 @@ init python:
             if clear:
                 for visible_image in renpy.get_showing_tags():
                     renpy.hide(visible_image)
-            name = self.name
+            name = self.formatted_name
             if game.timer.is_night() and self.name in ["Lair"]:
                 name = "Town Map"
                 ui = True
-            name = name.lower()
-            name = name.replace("'", "")
-            name = name.replace(" ", "_")
             if ui:
                 renpy.show_screen(name)
                 renpy.call_screen("ui")
@@ -99,11 +139,8 @@ init python:
             """
                 Hides the screens associated with that location.
             """
-            name = self.name.lower()
-            name = name.replace("'", "")
-            name = name.replace(" ", "_")
             renpy.hide_screen("ui")
-            renpy.hide_screen(name)
+            renpy.hide_screen(self.formatted_name)
             pass
         
         @property
@@ -339,12 +376,18 @@ label INIT_LOCATIONS:
 
 
         L_diane_yard = Location("Diane's Front Yard", unlock_popup="unlock15", background="diane_front", parents=L_map, locked=True)
-        L_diane_garden = Location("Diane's Garden", background="garden", parents=L_diane_yard)
-        L_diane_home = Location("Diane's Lobby", background="diane_entrance", parents=L_diane_yard, locked=True)
-        L_diane_kitchen = Location("Diane's Kitchen", background="diane_kitchen", parents=[L_diane_garden, L_diane_home], locked=True)
+        L_diane_garden = Location("Diane's Garden", background="diane_garden", parents=L_diane_yard)
+        L_diane_home = Location("Diane's Lobby", background="diane_entrance", parents=L_diane_yard, locked=True, label="dianelobby_dialogue")
+        L_diane_kitchen = Location("Diane's Kitchen", background="diane_kitchen", parents=[L_diane_garden, L_diane_home], locked=True, label="dianes_kitchen_dialogue")
         L_diane_bedroom = Location("Diane's Bedroom", background="diane_bedroom", parents=L_diane_home)
-        L_diane_shed = Location("Diane's Shed", background="shed01", parents=L_diane_garden, locked=True)
+        L_diane_shed = Location("Diane's Shed", background="diane_shed01", parents=L_diane_garden, locked=True, label="shed")
         L_church_graveyard = Location("Church Graveyard", background="church_graveyard", parents=L_diane_garden)
+
+
+        L_diane_barn_building = Location("Diane's Barn Building", background="barn_build_frontyard", parents=L_map)
+        L_diane_barn = Location("Diane's Barn", unlock_popup="popup_diane_barn", background="barn_frontyard", parents=L_map, locked=True)
+        L_diane_barn_interior = Location("Diane's Barn Interior", background="barn", parents=L_diane_barn)
+        L_diane_barn_garden = Location("Diane's Barn Garden", background="barn_garden", parents=L_diane_barn)
 
 
         L_home = Location("Home Front", background="home_front", parents=L_map)
@@ -461,8 +504,11 @@ label INIT_LOCATIONS:
         L_hospital = Location("Hospital", unlock_popup="unlock40", background="hospital_first", parents=L_map, locked=True)
         L_hospital_keystorage = Location("Hospital Key Storage", background="hospital_box", parents=L_hospital) 
         L_hospital_floor2 = Location("Hospital 2nd Floor", background="hospital_second", parents=L_hospital)
+        L_hospital_floor3 = Location("Hospital 3rd Floor", background="hospital_third", parents=L_hospital, locked=True)
+        L_hospital_lab = Location("Hospital Laboratory", background= "hospital_lab", parents=L_hospital_floor3)
         L_hospital_elevator = Location("Hospital Elevator", background="hospital_elevator", parents=[L_hospital, L_hospital_floor2])
         L_hospital_room = Location("Hospital 2nd Floor Room", background="hospital_room", parents=L_hospital_floor2)
+        L_hospital_room_bathroom = Location("Hospital 2nd Floor Bathroom", background="hospital_bathroom", parents=L_hospital_room)
         L_hospital_storageroom = Location("Hospital Storage Room", background="hospital_storage", parents=L_hospital_floor2)
         L_hospital_storagecabinet = Location("Hospital Storage Cabinet", background="hospital_cabinet", parents=L_hospital_storageroom)
 
@@ -501,6 +547,11 @@ label INIT_LOCATIONS:
         L_smith_basement = Location("Smith's Basement", background="smith_basement", parents=L_smith_entrance, locked=True)
 
 
+        L_annie_front = Location("Annie's House Front", background="annie_frontyard", parents=L_map, locked=True)
+        L_annie_livingroom = Location("Annie's House Livingroom", background="annie_livingroom", parents=L_annie_front)
+        L_annie_daycare = Location("Annie's House Daycare", background="annie_daycare", parents=L_annie_front)
+
+
         L_bank = Location("Bank", unlock_popup="unlock6", background="bank", parents=L_map, locked=True)
         L_basketball_court = Location("Basketball Court", unlock_popup="popup_basketball", background="basketball", parents=L_map, locked=True)
         L_beach_house = Location("Beach House", background = "beach_house", parents = L_map)
@@ -513,173 +564,5 @@ label INIT_LOCATIONS:
         store.locations = {}
         for loc in Location.get_instances():
             store.locations[loc.name.lower()] = loc
-
-        store.locations_rus = {
-            "Town Map": "Карта Города",
-            "School Hall": "Школьный Зал",
-            "French Classroom": "Класс Французского Языка",
-            "Science Classroom": "Научный Класс",
-            "Music Classroom": "Музыкальный Класс",
-            "School Courtyard": "Школьный Двор",
-            "School Left Hallway": "Левый Коридор Школы",
-            "School Second Floor": "Школа Второй Этаж",
-            "School Right Hallway": "Школьный Коридор Справа",
-            "School Locker": "Школьный Шкафчик",
-            "School Girl's Lockerroom": "Раздевалка девочек",
-            "Boy's Lockerroom": "Раздевалка мальчиков",
-            "Roxxy's Locker": "Шкафчик Рокси",
-            "Judith's Locker": "Шкафчик Джудит",
-            "Art Classroom": "Художественный Класс",
-            "Utility Closet": "Шкаф Общего Назначения",
-            "Boy's Locker Shower": "Душевая мальчиков",
-            "Bathroom Stall": "Ванная Комната",
-            "Assembly Hall": "Актовый Зал",
-            "Coach Bridget's Office": "Офис Тренера Бриджет",
-            "Annie's Locker": "Шкафчик Энни",
-            "Eve's Locker": "Шкафчик Евы",
-            "Dexter's Locker": "Шкафчик Декстера",
-            "Erik's Locker": "Шкафчик Эрика",
-            "Kevin's Locker": "Шкафчик Кевина",
-            "Ronda's Locker": "Шкафчик Ронды",
-            "Mia's Locker": "Шкафчик Мии",
-            "Computer Lab": "Компьютерная Лаборатория",
-            "Cafeteria": "Кафетерий",
-            "Teacher's Lounge": "Гостиная учителя",
-            "School Third Floor": "Школа Третий Этаж",
-            "Mrs Bissette's Office": "Офис Миссис Биссетт",
-            "Mrs Dewitt's Office": "Офис Миссис Девитт",
-            "Mrs Ross' Office": "Офис Миссис Росс",
-            "Mrs Okita's Office": "Офис Мисс Окиты",
-            "Principal Smith's Office": "Кабинет Директрисы Смит",
-            "Diane's Front Yard": "Передний двор Дианы",
-            "Diane's Garden": "Сад Дианы",
-            "Diane's Lobby": "Лобби Дианы",
-            "Diane's Kitchen": "Кухня Дианы",
-            "Diane's Bedroom": "Спальня Дианы",
-            "Diane's Shed": "Сарай Дианы",
-            "Church Graveyard": "Церковное Кладбище",
-            "Home Front": "Фасад Дома",
-            "Mailbox": "Почтовый ящик",
-            "Garage": "Гараж",
-            "Car Engine": "Двигатель Автомобиля",
-            "Entrance": "Вход",
-            "Kitchen": "Кухня",
-            "Dining Room": "Столовая",
-            "Backyard": "Задний двор",
-            "Living Room": "Гостиная",
-            "Basement": "Подвал",
-            "Master Bedroom": "Главная Спальня",
-            "Hallway": "Коридор",
-            "Shower": "Душ",
-            "Attic": "Чердак",
-            "Upstairs Bedroom": "Наверху Спальня",
-            "Bedroom": "Спальня",
-            "Erik's House": "Дом Эрика",
-            "Erik's Mailbox": "Почтовый ящик Эрика",
-            "Erik's Backyard": "Задний двор Эрика",
-            "Erik's House Entrance": "Вход в Дом Эрика",
-            "Erik's Basement": "Подвал Эрика",
-            "Erik's Basement Backroom": "Подсобное помещение Эрика",
-            "Erik's Basement Backroom Cabinet": "Задняя комната подвала Эрика",
-            "Erik's Room": "Комната Эрика",
-            "Under Erik's Bed": "Под кроватью Эрика",
-            "Mrs Johnson's Room": "Комната Миссис Джонсон",
-            "Mia's House": "Дом Мии",
-            "Mia's Mailbox": "Почтовый ящик Мии",
-            "Mia's House Entrance": "Вход в Дом Мии",
-            "Mia's House Upstairs": "Дом Мии наверху",
-            "Mia's Bedroom": "Спальня Мии",
-            "Helen's Bedroom": "Спальня Хелен",
-            "Helen's Statue": "Статуя Хелен",
-            "Harold's House Office": "Домашний офис Гарольда",
-            "Helen's Locked Room": "Запертая комната Хелен",
-            "Beach": "Пляж",
-            "Beach Water": "Пляжная Вода",
-            "Beach Showers": "Пляжные Душевые",
-            "Beach Cabin": "Пляжный Домик",
-            "Beach Tower": "Пляжная Башня",
-            "Beach Island": "Пляжный Остров",
-            "Treasure Chest": "Сундук с Сокровищами",
-            "Church Front": "Фасад Церкви",
-            "Church": "Церковь",
-            "Church Stairs": "Церковные Лестницы",
-            "Church Cloister Bell": "Церковный Монастырский Колокол",
-            "Church Bell Closeup": "Церковный Колокол Крупным Планом",
-            "Angelica's Room": "Комната Анжелики",
-            "Forest": "Лес",
-            "Forest Shrine": "Лесной Храм",
-            "Waterfall": "Водопад",
-            "Cave": "Пещера",
-            "Gym Front": "Тренажерный Зал Спереди",
-            "Gym": "Гимнастический Зал",
-            "Yoga Room": "Помещение Для Занятий Йогой ",
-            "Mall": "Торговый Центр",
-            "Movie Theatre": "Rинотеатр",
-            "Mall Toilets": "Туалеты Торгового Центра",
-            "Comic Store": "Магазин Комиксов",
-            "Consumr": "Консумер",
-            "Mall Second Floor": "Торговый Центр Второй Этаж",
-            "Mall Photo Booth": "Торговый Центр Фото Стенд",
-            "Cupid": "Купидон",
-            "Cupid Dressingroom": "Гардероб Купидона",
-            "Cupid Necklace Display": "Купидон Ожерелье Дисплей",
-            "Pink": "Pink",
-            "Donut Shop": "Магазин Пончиков",
-            "Donut Shop Interior": "Интерьер Магазина Пончиков",
-            "Pizzeria Exterior": "Внешний Вид Пиццерии",
-            "Pizzeria Interior": "Интерьер Пиццерии",
-            "Pizzeria Kitchen": "Кухня Пиццерии",
-            "Pizzeria Storage": "Хранилище Пиццерии",
-            "Trailer Park": "Парк Трейлеров",
-            "Trailer": "Прицеп",
-            "Shack": "Лачуга",
-            "Tractor": "Трактор",
-            "Shack Interior": "Интерьер Лачуги",
-            "Trailer Interior": "Интерьер Трейлера",
-            "Trailer Bedroom": "Спальня Трейлера",
-            "Treehouse": "Дом на дереве",
-            "Treehouse Closeup": "Дом на дереве Крупным Планом",
-            "Treehouse Interior": "Интерьер Дома на дереве",
-            "Police Lobby": "Лобби Полиции",
-            "Police Office": "Полицейское Управление",
-            "Police Basement": "Полицейский Подвал",
-            "Hospital": "Больница",
-            "Hospital Key Storage": "Хранение ключей для больницы",
-            "Hospital 2nd Floor": "Больница 2 этаж",
-            "Hospital Elevator": "Больничный лифт",
-            "Hospital 2nd Floor Room": "Больница 2 Этаж Комната",
-            "Hospital Storage Room": "Комната Хранения Больницы",
-            "Hospital Storage Cabinet": "Шкаф Хранения Больницы",
-            "Library Front": "Фасад Библиотеки",
-            "Library": "Библиотека",
-            "Library Bookshelf": "Книжная Полка Библиотеки",
-            "Library Backroom": "Подсобное Помещение Библиотеки",
-            "Library Meeting Room": "Зал Заседаний Библиотеки",
-            "Park": "Парк",
-            "Park Fountain": "Фонтан в Парке",
-            "Park Bushes": "Кусты в Парке",
-            "Park Bushes Bag": "Сумка в Кустах Парка",
-            "Tattoo Parlor": "Тату Салон",
-            "Tattoo Parlor Interior": "Интерьер Тату Салона",
-            "Dealership Front": "Фасад Автосалона",
-            "Dealership": "Автосалон",
-            "Beach House Front": "Фасад Пляжного Дома",
-            "Beach House Entrance": "Вход в Пляжный Дом",
-            "Beach House Bedroom": "Спальня в Пляжный Доме",
-            "Beach House Patio": "Пляжный домик",
-            "Smith's Frontyard": "Передний двор Смит",
-            "Smith's Entrance": "Вход Смит",
-            "Smith's Hallway": "Прихожая Смит",
-            "Smith's Bedroom": "Спальня Смит",
-            "Smith's Basement": "Подвал Смит",
-            "Bank": "Банк",
-            "Basketball Court": "Баскетбольная Площадка",
-            "Beach House": "Пляжный домик",
-            "Hill": "Холм",
-            "Lair": "Логово",
-            "Pier": "Причал",
-            "Pool": "Бассейн",
-            "Warehouse": "Склад"
-        }
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

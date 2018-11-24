@@ -48,7 +48,7 @@ screen hallway:
 
 screen jen_name_input:
     add NameInputText("boxes/popup_name_jenny.png", jen_name, "ff6df0")
-    add Input(size = 24, color = "#ff6df0", default = "", changed = jenny_name, length = 12, xpos = 313, ypos = 329, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    add Input(size = 24, color = "#ff6df0", default = "", changed = jenny_name, length = 12, xpos = 313, ypos = 329, allow = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

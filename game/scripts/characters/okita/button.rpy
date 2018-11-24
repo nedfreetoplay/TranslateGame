@@ -18,9 +18,9 @@ label okita_button_dialogue:
         call expression game.dialog_select("science_classroom_okita_has_glasses")
         if M_okita.is_set("glasses assembly fail"):
             menu:
-                "Попробовать ещё раз":
+                "Try again":
                     call expression game.dialog_select("science_classroom_okita_has_glasses_try_again")
-                "Ничего.":
+                "Nothing.":
 
                     $ game.main()
 
@@ -49,9 +49,9 @@ label okita_button_dialogue:
         call expression game.dialog_select("science_classroom_okita_has_faptic")
         if M_okita.is_set("belt assembly fail"):
             menu:
-                "Попробовать ещё раз":
+                "Try again":
                     call expression game.dialog_select("science_classroom_okita_has_faptic_try_again")
-                "Ничего.":
+                "Nothing.":
 
                     $ game.main()
 
@@ -96,25 +96,25 @@ label okita_button_dialogue:
             scene location_school_science_closeup
             show player 11 at left
             show okita 2 at right
-            player_name "Насчет тех предметов которые вам нужны..."
+            player_name "About those items you needed..."
             menu okita_items:
-                "Гриб" if not player.has_item("mushroom"):
+                "Mushroom" if not player.has_item("mushroom"):
                     call expression game.dialog_select("button_okita_ingredients_mushroom")
 
-                "Похотливая Жаба" if not player.has_item("toad"):
+                "Horny Toad" if not player.has_item("toad"):
                     call expression game.dialog_select("button_okita_ingredients_toad")
 
-                "Цветок" if not player.has_item("caveflower"):
+                "Flower" if not player.has_item("caveflower"):
                     call expression game.dialog_select("button_okita_ingredients_flower")
 
-                "Низкопробная Жидкость" if not player.has_item("chicken_stock"):
+                "Base Liquid" if not player.has_item("chicken_stock"):
                     call expression game.dialog_select("button_okita_ingredients_stock")
 
-                "ДНК Смит" if not player.has_item("tissue"):
+                "Smith DNA" if not player.has_item("tissue"):
                     call expression game.dialog_select("button_okita_ingredients_tissue")
-                "Вот и всё.":
+                "That's all.":
 
-                    player_name "Тогда я вернусь за этими вещами."
+                    player_name "I'll get back to collecting those items then."
                     $ game.main()
             jump expression game.dialog_select("okita_items")
 

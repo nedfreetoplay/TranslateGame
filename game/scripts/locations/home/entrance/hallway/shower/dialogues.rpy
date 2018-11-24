@@ -1,6 +1,6 @@
 label shower_mom_sis_check:
     scene shower_cutscene1
-    show text "Я бросился наверх, услышав проклятия {b}[jen_name]{/b}.\nСцена при входе была почти смешной. {b}[jen_name]{/b} была взволнована и выглядела как мокрая крыса.\nОткрытая труба изливала воду повсюду и делала вокруг беспорядок." at Position(xpos=500, ypos=700)
+    show text "I rushed upstairs towards {b}[jen_name]{/b}'s cursing.\nThe scene upon entering was almost comical. {b}[jen_name]{/b} was absolutely flustered and looked like a drowned rat.\nThe exposed pipe was spouting water all over the place and making quite a mess." at Position(xpos=500, ypos=700)
     with dissolve
     $ renpy.pause()
     hide shower_cutscene1
@@ -9,22 +9,22 @@ label shower_mom_sis_check:
     show player 11 at left
     show jenny 27 at right
     with dissolve
-    jen "Ты как раз вовремя появился!"
+    jen "About time you showed up!"
     show player 10
     show jenny 26
-    player_name "Как такое могло произойти?!"
+    player_name "How did this happen?!"
     show player 11
     show jenny 27
-    jen "Откуда мне об этом знать? По-твоему, я похож на водопроводчика?! Я всего лишь включил раковину!"
+    jen "How should I know! Do I look like a plumber to you?! All I did was turn on the sink!"
     show player 12
     show jenny 26
-    player_name "Что мне прикажешь делать?"
+    player_name "What am I supposed to do?"
     show player 11
     show jenny 27
-    jen "Исправь это, очевидно! В конце концов, ты здесь единственный мужчина!"
+    jen "Fix it obviously! You're the only man around here after all!"
     show jenny 26
     show player 12
-    player_name "Отлично! Я думаю, нужно {b}спустится вниз{/b} и посмотреть как выключается {b}водопроводный кран{/b}..."
+    player_name "Fine! I guess I'll head {b}downstairs{/b} and see about shutting off the {b}water valve{/b}..."
     hide player
     hide jenny
     with dissolve
@@ -35,8 +35,8 @@ label shower_mom_close_valve:
     show jenny 27 at right
     show player 11 at left
     with dissolve
-    jen "Вода все еще распыляется вокруг!"
-    jen "Иди в {b}подвал{/b} и закрой водопроводный {b}кран{/b}!"
+    jen "The water's still spraying everywhere!"
+    jen "Go to the {b}basement{/b} and shut off the water {b}valve{/b}!"
     hide player
     hide jenny
     with dissolve
@@ -47,22 +47,22 @@ label shower_mom_pipe_check:
     show jenny 29 at Position (xpos=800)
     show player 11 at left
     with dissolve
-    jen "Похоже, у тебя получилось. Вода остановилась."
+    jen "Looks like you got it. The water stopped."
     show player 12
     show jenny 26 at right
-    player_name "Да, я выключил водяной кран. Что дальше?"
+    player_name "Yeah, I turned off the water valve. Now what?"
     show player 5
     show jenny 27
-    jen "О чем ты меня спрашиваешь? Я не знаю, заменить его или что-то?"
+    jen "What are you asking me for? I don't know, replace it or something?"
     show player 10
     show jenny 26
-    player_name "Я никогда не работал над чем-то подобным!"
+    player_name "I've never worked on anything like this before!"
     show player 5
     show jenny 27
-    jen "Ну, теперь ты живешь в доме с девушками, а это значит, что тебе нужно научиться исправлять такие вещи!"
+    jen "Well you're living in a house with girls now which means you need to learn how to fix these kinda things!"
     show player 10
     show jenny 26
-    player_name "Окей! Окей! Я думаю, я пойду в {b}CONSUM-R{/b} и посмотрю, как получить {b}трубный ключ{/b}."
+    player_name "Okay! Okay! I guess I'll go to {b}CONSUM-R{/b} and see about getting a pipe {b}wrench{/b}."
     show player 212
     player_name "..."
     show player
@@ -70,31 +70,31 @@ label shower_mom_pipe_check:
     $ renpy.pause()
     show jenny 27
     jen "..."
-    jen "Ты хорошо все разглядел, маленький извращенец?!"
+    jen "Did you get a good look you little Perv?!"
     show player 23
     show jenny 26
-    player_name "Я не-"
+    player_name "I wasn't-"
     show player 22
     show jenny 41 at Position(xpos=0.9123,ypos=1.0000)
-    jen "О, пожалуйста, думаешь, я не могу понять, когда кто-то пялится на мои сиськи?"
+    jen "Oh please, You think I can't tell when someone is staring at my tits?"
     player_name "..."
-    jen "Что с тобой происходит?"
+    jen "What's the matter with you?"
     show player 24
     show jenny 30
-    player_name "Прости, {b}[jen_name]{/b}. Я только-"
+    player_name "I'm sorry, {b}[jen_name]{/b}. I was just-"
     show jenny 31
-    jen "Ой, заткнись!"
+    jen "Oh, shut up!"
     show player 25
-    jen "Если собираешься пялиться, хотя бы будь мужиком!"
-    jen "Отрицая это или оправдываясь, ты выглядишь слабаком."
-    jen "Никто не хочет, чтобы его проверял бесхребетный маленький слабак!"
+    jen "If you're going to stare, at least be a man about it!"
+    jen "Denying it or making excuses just makes you look like a wimp."
+    jen "No one wants to be checked out by a spineless little wimp!"
     show player 5
     player_name "..."
     show jenny 27 at right
-    jen "Если бы ты поднялся сюда, чтобы разобраться с этой ситуацией с трубами раньше, возможно, я была бы в лучшем настроении."
+    jen "If you had gotten up here to deal with this pipe situation sooner, perhaps I'd be in a better mood."
     show jenny 41 at Position(xpos=0.9123,ypos=1.0000)
-    jen "... Но с тех пор, как ты решил приятно провести время...."
-    jen "Думаю, тебе стоит взять это..."
+    jen "... But since you decided to take your Sweet time..."
+    jen "I think you should take this..."
     show player 22
     show jenny 32
     $ renpy.pause()
@@ -102,21 +102,21 @@ label shower_mom_pipe_check:
     $ renpy.pause()
     show player 23
     show jenny 42 at right
-    jen "...  чтобы постирать внизу для меня."
+    jen "... Downstairs to the wash for me."
     player_name "( !!! )" with hpunch
     show player 21
-    player_name "Ко-конечно..."
+    player_name "S-Sure..."
     show jenny 37
     show player 211
     jen "..."
     show jenny 38
-    jen "Перестань пялиться и иди! Я не собираюсь весь день ждать ,пока ты {b}починишь эту трубу{/b}!"
+    jen "Stop staring and go! I don't want to wait around all day for you to {b}fix that pipe{/b}!"
     show player 22
     player_name "( !!! )"
     hide player with dissolve
     show jenny 36
-    jen "Хех, я так и знала!"
-    jen "У этого маленького неудачника есть кое-что для меня!"
+    jen "Heh, I knew it!"
+    jen "That little loser has a thing for me!"
     hide jenny with dissolve
     hide shower2
     return
@@ -127,75 +127,79 @@ label shower_mom_fix_pipe_no_wrench:
     if not game.timer.is_dark():
         show jenny 27 at right
         with dissolve
-        jen "Ты наконец-то собираешься починить раковину?"
-        jen "Поторопись уже!"
+        jen "Are you finally going to fix the sink?"
+        jen "Hurry it up already!"
         hide jenny with dissolve
         show player 4
     with dissolve
-    player_name "( Мне нужен {b}ключ{/b} ,чтобы починить сломанную трубу. )"
+    player_name "( I need a {b}wrench{/b} to fix the broken pipe. )"
     hide player
     with dissolve
     return
 
 label shower_mom_fix_pipe_wrench:
-    show expression Cutscene("shower_cutscene2", "Как только я вернулся домой, я направился наверх, чтобы починить раковину в ванной.\nЯ заменил сломаную трубу на новую и затянул ее настолько, насколько смог. \nБыло немного странно, что {b}[deb_name]{/b} и {b}[jen_name]{/b} все время наблюдали за мной.\nК счастью для меня, ремонт прошел гладко...") as cutscene with dissolve
+    scene expression "backgrounds/location_home_bathroom_cutscene02.jpg"
+    show expression FilteredText("Once I got back home I headed upstairs to fix the bathroom sink.\nI replaced the joint with a new length of pipe and tightened it as much as I could.\nIt kind of felt weird having {b}[deb_name]{/b} and {b}[jen_name]{/b} watch me the whole time.\nLucky for me, the repairs all went smoothly...") as cutscene at Position (xpos= 512, ypos= 700)
+    with fade
     pause
     hide cutscene
-    hide text
+    scene black
+    with fade
+
     scene shower2
     show player 203f at right
     show jenny 11f at Position(xpos=0.3649,ypos=1.0000)
     show debbie 62f at left
     with dissolve
-    deb "Вау!!"
-    deb "Великолепная работа, {b}[firstname]{/b}!"
+    deb "Wow!!"
+    deb "Great work, {b}[firstname]{/b}!"
     show jenny 9f
     show debbie 61f
-    jen "Закончил..."
+    jen "Finally..."
     show jenny 11f
     show debbie 62f
-    deb "Не хами, {b}[jen_name]{/b}. Было мило с его стороны исправить это для нас..."
+    deb "Don't be rude, {b}[jen_name]{/b}. It was nice of him to fix this for us..."
     show player 2f
     show jenny 11f
     show debbie 61f
-    player_name "Хех, никаких проблем."
-    player_name "Я был счастлив сделать это."
-    player_name "...Кроме того, {b}[jen_name]{/b} права. Исправлять подобные вещи теперь моя обязанность."
+    player_name "Heh, not problem."
+    player_name "I was happy to do it."
+    player_name "... Besides, {b}[jen_name]{/b} is right. Fixing stuff like this is my responsibility now."
     show player 29f
     show jenny 10f
     show debbie 62f
-    deb "Однажды ты осчастливишь девушку и будешь хорошем мужем!"
+    deb "You're going to make some lucky girl a great husband one day!"
     show player 203f
     show jenny 9f
     show debbie 61f
-    jen "Пфффф..."
-    jen "Не говори так, он зазнается!"
+    jen "Pfft..."
+    jen "Don't say things like that, you'll give him a big head!"
     show player 16f
     show jenny 12f
-    jen "В конце концов, он все еще слабак."
+    jen "He's still a wimp, after all."
     show player 15f
     show jenny 11f
     show debbie 61f
-    player_name "Я не слабак!"
+    player_name "I am not a wimp!"
     show player 16f
     show jenny 12f
-    jen "Ха, какая разница, слабак!"
+    jen "Hah, whatever, Wimp!"
     show player 1f
     show jenny 11f
     show debbie 62f
-    deb "... Не слушай ее, {b}[firstname]{/b}. Она дразнит тебя только потому, что считает милым."
+    deb "... Don't listen to her, {b}[firstname]{/b}. She's only teasing you because she thinks you're cute."
     show jenny 9f
     show debbie 59f
-    jen "... Ага!"
+    jen "... As if!"
     show player 11f
-    jen "... А сейчас вы двое можете выйти? Я весь день ждала, чтобы принять душ!"
+    jen "... Now can you two get out? I've been waiting to shower all day!"
     show jenny 10f
     show debbie 60f
     show player 1f
-    deb "Пойдем, {b}[firstname]{/b}. Пока Принцесса не заразила нас своим дурным настроением."
+    deb "C'mon, {b}[firstname]{/b}. Let's get out of Princess's way before her foul mood infects us."
     show jenny 9f
     show debbie 59f
-    jen "Хех, \"Принцесса\" звучало как оскорбление..."
+    jen "Heh, like calling me \"Princess\" is an insult..."
     hide debbie
     hide jenny
     hide player
@@ -205,54 +209,54 @@ label shower_mom_fix_pipe_wrench:
 label shower_mom_shower_peek_after:
     scene location_home_hallway_day
     show player 3
-    player_name "( Тело {b}[deb_name]{/b} выглядит очень хорошо, но я не хочу подглядывать за ней слишком долго... )"
-    player_name "( было бы очень неловко, если бы она меня поймала. )"
+    player_name "( {b}[deb_name]{/b}'s body looks real good but I don't want to peek at her too long... )"
+    player_name "( It would be really awkward if she caught me. )"
     hide player with dissolve
     return
 
 label shower_mom_shower_peek:
     player_name "( !!! )"
     show debbie_shower 6a_6b_6c
-    player_name "( {b}[deb_name]{/b} в душе! )"
-    player_name "( Вау... )"
-    player_name "( У нее такое прекрасное тело! )"
-    player_name "( Не могу поверить, что она оставила дверь приоткрытой! "
-    player_name "( Я могу видеть абсолютно все! )"
+    player_name "( {b}[deb_name]'s{/b} in the shower! )"
+    player_name "( Wow... )"
+    player_name "( She has such a great body! )"
+    player_name "( I can't believe she left the door cracked like this! "
+    player_name "( I can see everything! )"
     hide debbie_shower 6a_6b_6c
     scene shower06a
     player_name "..."
     scene shower06d
-    player_name "( Мне лучше уйти, пока она меня не увидела. )"
+    player_name "( I'd better go before she sees me. )"
     scene hallway
     show player 79 with dissolve
-    player_name "Вау..."
-    player_name "Не могу поверить, что живу с этой прекрасной женщиной!"
-    player_name "... Жаль, что она видит меня, как ребенка моего {b}отца{/b}."
+    player_name "Wow..."
+    player_name "I can't believe I'm living with this beautiful woman now!"
+    player_name "... It's a shame she only sees me as my {b}Father{/b}'s kid."
     show player 78 with dissolve
     player_name "( !!! )"
     show player 81
-    player_name "Я лучше вернусь в свою комнату, пока никто меня не поймал..."
+    player_name "I'd better get back to my room before somebody sees this tent I'm pitching..."
     hide player with dissolve
     return
 
 label shower_mom_walk_in:
-    player_name "( Потрясающе! )"
+    player_name "( Awesome! )"
     show debbie_shower 6a_6b_6c
     pause
-    player_name "( Интересно, ее грудь такая же мягкая, как ноги? )"
-    player_name "( Они смотрятся... прекрасно! )"
+    player_name "( I wonder if her breasts feel as soft as her legs. )"
+    player_name "( They look... perfect! )"
     hide debbie_shower 6a_6b_6c
     scene shower06a
     pause
     scene shower06d
-    player_name "(Интересно, что случится, если я просто войду туда? )"
-    player_name "( Она, вероятно, рассердится, но что, если нет? )"
+    player_name "( I wonder what would happen if I just walked in there? )"
+    player_name "( She would probably get mad but what if she's ok with it? )"
     show debbie_shower 6a_6b_6c
-    player_name "( Я всегда могу притвориться, что не понял, что она в душе.... )"
+    player_name "( I could always pretend like I didn't realize she was in the shower... )"
     return
 
 label shower_mom_walk_in_yes:
-    player_name "( Я не могу сопротивляться... Я вхожу! )"
+    player_name "( I can't resist... I'm going in! )"
     hide debbie_shower 6a_6b_6c
     scene shower_closeup
     show player 5 at left
@@ -260,51 +264,51 @@ label shower_mom_walk_in_yes:
     with dissolve
     deb "( !!! )"
     show player 29 with dissolve
-    player_name "Упс!"
+    player_name "Oops!"
     show player 3
     show debbie 35c
-    deb "Милый, что ты здесь делаешь?!!"
+    deb "Sweetie, what are you doing in here?!!"
     show debbie 35
-    deb "Я голая!"
+    deb "I'm naked!"
     show debbie 34
     show player 42 at Position (xoffset=38) with dissolve
-    player_name "Извени, {b}[deb_name]{/b}! Я не думал, что здесь кто-то есть!"
+    player_name "Sorry, {b}[deb_name]{/b}! I didn't think anyone was in here!"
     deb "..."
     show debbie 35
-    deb "...Ничего.."
-    deb "Если тебе что-то нужно в ванной, просто постучи."
-    deb "Я закончу через несколько минут, ладно?"
+    deb "It's...alright.."
+    deb "If you need something in the bathroom, just knock."
+    deb "I'll be done in a few minutes, okay?"
     show debbie 34
     show player 37 with dissolve
-    player_name "Ладно..."
+    player_name "Okay..."
     show player 3 with dissolve
     show debbie 35
-    deb "Теперь дай мне закончить, милый."
+    deb "Now let me finish my shower, sweetie."
     show debbie 33
-    deb "И закрой за собой дверь!"
+    deb "And close the door behind you!"
     show debbie 32
     show player 29
-    player_name "Закрою!"
+    player_name "Will do!"
     hide player with dissolve
     show debbie 35
-    deb "Это из-за-"
+    deb "Is this because of the-"
     deb "..."
-    deb "Поцелуев..."
-    deb "Я должна быть более осторожной с ним."
+    deb "The kissing..."
+    deb "I should be more careful with him."
     hide debbie with dissolve
     scene hallway
     show player 24 with dissolve
-    player_name "( Тьфу... Это было неловко... )"
-    player_name "( Почему я подумал, что это хорошая идея? )"
+    player_name "( Ugh... That was awkward... )"
+    player_name "( Why did I think that was a good idea? )"
     pause
     show player 37 at Position (xoffset=41) with dissolve
-    player_name "( Надеюсь, она не слишком злится на меня. )"
+    player_name "( I hope she isn't too mad at me. )"
     hide player with dissolve
     return
 
 label shower_mom_walk_in_no:
-    player_name "Наверное, мне не стоит."
-    player_name "Я не хочу, чтобы она расстраивалась."
+    player_name "I probably shouldn't."
+    player_name "I don't want her to be upset."
     hide debbie_shower 6a_6b_6c
     return
 
@@ -317,11 +321,11 @@ label shower_mom_sex_walk_in_pre:
     with dissolve
     show debbie 35 at right
     show player 1 at left
-    deb "О, {b}[firstname]{/b}... Я не ожидала, что ты так просто ворвешься!"
+    deb "Oh, {b}[firstname]{/b}... I didn't expect you to just barge in like that!"
     show debbie 33
-    deb "Хотя, теперь, когда ты здесь..."
+    deb "Though, now that you're here..."
     show debbie 36
-    deb "Хочешь присоединиться ко мне, милый?"
+    deb "Care to join me, sweetie?"
     hide debbie
     hide player
     show debbies 37 with dissolve
@@ -329,122 +333,149 @@ label shower_mom_sex_walk_in_pre:
 
 label shower_mom_sex_walk_in_after:
     scene shower_closeup
-    show debbies 37_36
+    show debbies 37_36 at Position (xpos=474)
     pause 4.8
     show debbies 35
-    player_name "Я люблю принимать душ с тобой, {b}[deb_name]{/b}"
+    player_name "I love showering with you, {b}[deb_name]{/b}"
     show debbies 76 with dissolve
     pause .1
     show debbies 41_76
     pause 4
-    show debbies 42
-    deb "Могу я помочь тебе опустить его?"
-    show debbies 43
-    deb "Так..."
-    show debbies 44
-    deb "Какие планы на сегодня?"
-    show debbies 43
-    deb "Что-нибудь веселое?"
-    show debbies 72_71
+    show debbies 42 at Position (xoffset=38)
+    deb "Can I help you down here too?"
+    show debbies 43 at Position (xoffset=38)
+    deb "So..."
+    show debbies 44 at Position (xoffset=38)
+    deb "What do you have planned today?"
+    show debbies 43 at Position (xoffset=38)
+    deb "Something fun?"
+    show debbies 72_71 at Position (xoffset=38)
     pause 4
-    show debbies 45 with dissolve
-    deb "Ты весь напряжен. Теперь все зависит от тебя, милый..."
-    show debbies 73 with dissolve
+    show debbies 45 at Position (xoffset=38) with dissolve
+    deb "You're all hard. It's up to you now, sweetie..."
+    show debbies 73 at Position (xoffset=38) with dissolve
     return
 
 label shower_mom_sex_wash:
-    player_name "На этот раз я хочу помыть тебя."
+    player_name "I want to wash you this time."
     show debbies 50 with dissolve
-    deb "Давай, милый."
+    deb "Go ahead, sweetie."
     show debbies 51
     pause 1
     show debbies 52_53_52_51
-    pause 4.8
+    pause
     show debbies 54
-    player_name "Так приятно..."
+    player_name "So soft..."
     return
 
 label shower_mom_sex_wash_handjob:
     show debbies 45 with dissolve
     pause .4
     show debbies 73_74
-    pause 4
+    pause
     show debbies 73
-    player_name "{b}[deb_name]{/b}, я кончаю..."
+    player_name "{b}[deb_name]{/b}, I'm gonna..."
     show debbies 47 at Position(xpos=526,ypos=768)
-    player_name "Мммммммм!!!"
+    player_name "HNNGGG!!!"
     show white zorder 4 with dissolve
     show debbies 47 at Position(xpos=526,ypos=768)
-    show playersex 33 zorder 3 at Position(xpos=549,ypos=508)
+    show playersex 33 zorder 3 at Position(xpos=610,ypos=880)
     hide white with dissolve
     pause
     show debbies 48
     hide playersex
     with dissolve
-    deb "Ммм, хороший мальчик."
+    deb "Mmm, good boy."
     return
 
 label shower_mom_sex_finger:
-    player_name "Я еще не вымыл {b}везде{/b}..."
+    player_name "I haven't washed {b}everywhere{/b} yet..."
     show debbies 55 at Position(xpos=688,ypos=768) with dissolve
     pause .35
     show debbies 56_55
     pause 4
-    deb "... Я почти добралась, милый..."
+    deb "... I'm almost there, sweetie..."
     show debbies 56
-    deb "Я-Аааааа!!!"
+    deb "I-Aaaaah!!!"
     show debbies 50 at Position(xpos=498,ypos=768) with dissolve
-    deb "Откуда ты всегда точно знаешь, где тереть?"
+    deb "How do you always know exactly where to rub?"
     show debbies 49
-    player_name "Не знаю, просто чувствую, наверное?"
+    player_name "I dunno, just a feeling I guess?"
     show debbies 50
     return
 
 label shower_mom_sex_blowjob:
     show debbies 111 with dissolve
-    deb "Как насчет особого угощения?"
+    deb "How about a special treat?"
     show debbies 110
-    player_name "Да, пожалуйста..."
+    player_name "Yes, please..."
     show debbies 112 at Position(xpos=512) with dissolve
     pause .3
-    show debbies 113_114 at Position(xpos=513)
-    pause 5
-    show debbies 112 at Position(xpos=512)
+    show expression AnimatedImage("debbies", [113,114], M_mom) as debbies at Position(xpos=513) with dissolve
+    $ animated = True
+    call screen debbie_shower_blowjob_options
+
+label debbie_shower_blowjob_loop:
+    show screen sex_anim_buttons
+    pause
+    hide screen sex_anim_buttons
+    $ animcounter = 0
+    while animcounter < 4:
+        if anim_toggle:
+            if not animated:
+                show expression AnimatedImage("debbies", [113,114], M_mom) as debbies at Position(xpos=513) with dissolve
+                $ animated = True
+            pause 5
+            call expression game.dialog_select("debbie_shower_blowjob_hscene_dialog")
+            pause 3
+        else:
+
+            $ pose_counter = 0
+            $ pose_list = [113,114]
+            $ poses_done = []
+            while poses_done != pose_list:
+                show expression "debbies {}".format(pose_list[pose_counter]) as debbies at Position(xpos=513) with dissolve
+                pause
+                $ poses_done.append(pose_list[pose_counter])
+                $ pose_counter += 1
+            call expression game.dialog_select("debbie_shower_blowjob_hscene_dialog")
+        $ animcounter += 1
+    call screen debbie_shower_blowjob_options
+
+label debbie_shower_blowjob_hscene_dialog:
+    if animcounter == 1 and randomizer() < 25:
+        player_name "Oh, god!{p=1}{nw}"
+    if animcounter == 4 and randomizer() < 25:
+        player_name "I can't-{p=1}{nw}"
     return
 
-label shower_mom_sex_blowjob_loop:
-    show debbies 113_114 at Position(xpos=513)
-    pause 5
-    show debbies 112 at Position(xpos=512)
-    return
-
-label shower_mom_sex_blowjob_cum_in_mouth:
+label debbie_shower_blowjob_cum_in:
     show debbies 113 at Position(xpos=513)
     pause .3
     show debbies 116 at Position(xpos=517)
-    player_name "УУУУХХХХ!!!"
+    player_name "HNNGGG!!!"
     deb "( !!! )"
     show white with dissolve
     hide white with dissolve
     pause
     show debbies 117 at Position(xpos=523) with dissolve
-    deb "Ммммм!!!"
+    deb "HMMPH!!!"
     show debbies 118 at Position(xpos=516)
-    deb "{b}*глоток*{/b}"
+    deb "{b}*Gulp*{/b}"
     show debbies 115 at Position(xpos=531)
-    deb "... О, так много!"
+    deb "... Oh, that was a lot!"
     show debbies 110 at Position(xpos=512)
-    player_name "Прости, {b}[deb_name]{/b}."
+    player_name "Sorry, {b}[deb_name]{/b}."
     show debbies 111
-    deb "Не извеняйся, милый."
-    deb "Мне нравится этот вкус!"
+    deb "No, don't apologize, sweetie."
+    deb "I love the taste!"
     return
 
-label shower_mom_sex_blowjob_cum_on_face:
+label debbie_shower_blowjob_cum_out:
     show debbies 113 at Position(xpos=513)
     pause .3
     show debbies 116 at Position(xpos=517)
-    player_name "МММММММ!!!"
+    player_name "HNNGGG!!!"
     deb "( !!! )"
     show white with dissolve
     show debbies 115 at Position(xpos=531)
@@ -452,48 +483,48 @@ label shower_mom_sex_blowjob_cum_on_face:
     hide white with dissolve
     pause
     show playersex 75 at Position(xpos=574,ypos=655)
-    deb "Хехе, посмотри на беспорядок, который ты сделал на моем лице!"
-    deb "... Я покрыта..."
-    player_name "Прости, {b}[deb_name]{/b}."
-    deb "Все в порядке!"
-    deb "Мы в душе, поэтому его легко очистить!"
-    deb "... Просто помогите мне вытащить это из моих волос."
+    deb "Heheh, look at the mess you made of my face!"
+    deb "... I’m covered..."
+    player_name "Sorry, {b}[deb_name]{/b}."
+    deb "It’s okay!"
+    deb "We're in the shower so it's easy to clean off!"
+    deb "... Just help me get it out of my hair."
     return
 
 label shower_mom_sex_already_fingered:
     show debbies 49
-    player_name "Могу я засунуть его внутрь?"
+    player_name "Can I put it in?"
     show debbies 50
-    deb "Милый, я только что пришла... Сейчас это будет слишком чувствительно..."
-    deb "Я закончу своей рукой."
+    deb "Sweetie, I just came... It's a little too sensitive right now..."
+    deb "I'll finish you off with my hand."
     return
 
 label shower_mom_sex_fuck_pre:
     show debbies 49 with dissolve
     if randomizer() <= 33:
         player_name "{b}[deb_name]{/b}..."
-        player_name "Могу я засунуть его внутрь тебя?"
+        player_name "Can I put it inside you?"
         show debbies 50
-        deb "Конечно, милый..."
+        deb "Of course, sweetie..."
         show debbies 57 at Position(xpos=688,ypos=768) with dissolve
-        deb "О, я ждала этого весь день..."
+        deb "Oh, I've been waiting all day for this..."
     elif randomizer() <= 66:
-        player_name "{b}[deb_name]{/b}, Я хочу сделать это с тобой."
+        player_name "{b}[deb_name]{/b}, I want to do it with you."
         show debbies 50
-        deb "О, милый..."
-        deb "Ты ненасытен."
-        deb "Держи мою ногу и дай мне этот большой член!"
+        deb "Oh, sweetie..."
+        deb "You are insatiable."
+        deb "Hold my leg and give me that big cock!"
         show debbies 57 at Position(xpos=688,ypos=768) with dissolve
         pause
     else:
-        player_name "{b}[deb_name]{/b}, я хочу тебя."
+        player_name "{b}[deb_name]{/b}, I want you."
         show debbies 50
-        deb "Я надеялся, что ты это скажешь."
-        deb "Дай мне свой красивый член."
+        deb "I was hoping you would."
+        deb "Give me that beautiful cock of yours."
         show debbies 57 at Position(xpos=688,ypos=768) with dissolve
         pause
     show debbies 58 with dissolve
-    deb "Аааах!"
+    deb "Haah!"
     show debbies 59 with dissolve
     pause
     return
@@ -505,7 +536,9 @@ label mom_shower_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            show expression AnimatedImage("debbies", [59,60,61], M_mom) as debbies at Position(xpos = 688,ypos = 768)
+            if not animated:
+                show expression AnimatedImage("debbies", [59,60,61], M_mom) as debbies at Position(xpos = 688,ypos = 768)
+                $ animated = True
             pause 5
             if animcounter in [1,2,3]:
                 call expression game.dialog_select("debbie_shower_hscene_dialog")
@@ -528,25 +561,25 @@ label mom_shower_sex_loop:
 label debbie_shower_hscene_dialog:
     if randomizer() <= 33:
         if animcounter == 1:
-            deb "Аххххх!!!{p=1}{nw}"
-            deb "Дай мне это, милый!{p=2}{nw}"
+            deb "Ahhhh!!!{p=1}{nw}"
+            deb "Give it to me, sweetie!{p=2}{nw}"
         elif animcounter == 3:
-            deb "Кончи для меня!{p=2}{nw}"
+            deb "Cum for me!{p=2}{nw}"
     elif randomizer() <= 66:
         if animcounter == 1:
-            deb "Ооооо!!{p=1}{nw}"
+            deb "Ohh!!{p=1}{nw}"
         elif animcounter == 2:
-            deb "Милый! Глубже!{p=2}{nw}"
+            deb "Sweetie! Deeper!{p=2}{nw}"
         elif animcounter == 3:
-            player_name "{b}[deb_name]{/b}, я люблю тебя!{p=2}{nw}"
-            deb "Я тебя тоже люблю!{p=2}{nw}"
+            player_name "{b}[deb_name]{/b}, I love you!{p=2}{nw}"
+            deb "I love you too!{p=2}{nw}"
     else:
         if animcounter == 2:
-            player_name "Мне нравится, как твои сиськи подпрыгивают.{p=2}{nw}"
-            deb "Да,а мне нравится твой огромный член!{p=2}{nw}"
+            player_name "I love the way your tits bounce.{p=2}{nw}"
+            deb "Yeah, well I love your huge cock!{p=2}{nw}"
         elif animcounter == 3:
-            deb "Ааааа!!{p=1}{nw}"
-            deb "Да, это то самое место!{p=2}{nw}"
+            deb "Ahh!!{p=1}{nw}"
+            deb "Yes, that's the spot!{p=2}{nw}"
     return
 
 label mom_shower_sex_cum:
@@ -559,12 +592,12 @@ label mom_shower_sex_cum:
 
 label mom_shower_sex_cum_pre:
     if randomizer() <= 33:
-        player_name "Уххххх!"
+        player_name "UHHH!"
     elif randomizer() <= 66:
-        deb "Дай мне это, милый!"
-        deb "Кончи глубоко в меня!"
+        deb "Give it to me, sweetie!"
+        deb "Cum deep inside me!"
     else:
-        deb "АААААХХХХХ!"
+        deb "HAAAAAHH!"
     return
 
 label mom_shower_sex_cum_after:
@@ -573,42 +606,42 @@ label mom_shower_sex_cum_after:
     hide white with dissolve
     pause
     if randomizer() <= 50:
-        player_name "Это было приятно..."
+        player_name "That felt good..."
 
     show playersex 53 zorder 3 at Position(xpos=663,ypos=632)
     show debbies 57
     with dissolve
     if randomizer() <= 50:
-        deb "Ты выпустил так много..."
-        deb "Такой бардак."
-        deb "Хорошо, что мы в душе..."
+        deb "You let out so much..."
+        deb "Such a mess."
+        deb "Good thing we're in the shower..."
     else:
-        deb "Охх!"
-        deb "Боже, как мне нравится твой член!"
-        player_name "Хехе, я почти уверен, что он чувствует то же самое ..."
-        deb "Ха Ха Ха!"
-        deb "Держи меня секундочку. Мои ноги немного шатаются после всего этого!"
+        deb "Ohh!"
+        deb "God, I love this cock of yours!"
+        player_name "Hehe, I'm pretty sure it feels the same way about you..."
+        deb "Ha Ha Ha!"
+        deb "Hold on to me for a second. My legs are a little wobbly after all that!"
     return
 
 label mom_shower_end_dialogue:
     hide playersex
     hide debbies
-    show debbies 34 at Position(xpos=498,ypos=768)
+    show debbies 34 at Position(xpos=474,ypos=768)
     with dissolve
     if randomizer() <= 50:
-        deb "Это было весело, но мне действительно нужно было спуститься вниз и начать готовить обед."
-        deb "Мы сделаем это снова, хорошо?"
-        deb "Убедись, что{b}[jen_name]{/b} не увидит, как ты выходишь из ванной, хорошо?"
+        deb "That was fun but I should really get back downstairs and start dinner."
+        deb "We'll do this again, okay?"
+        deb "Make sure {b}[jen_name]{/b} doesn't see you leave the bathroom, okay?"
     else:
-        deb "Надеюсь {b}[jen_name]{/b} не слышала нас..."
+        deb "I hope {b}[jen_name]{/b} didn't hear us..."
         show debbies 35
-        player_name "Я сомневаюсь в этом. Душ шумит..."
+        player_name "I doubt it. Not with the shower running..."
         show debbies 34
-        deb "... Да, наверное, я слишком сильно волнуюсь."
-        deb "Я должна спуститься вниз и начать готовить обед..."
-        deb "Принешь мне полотенце?"
+        deb "... Yeah, I suppose I'm worrying too much."
+        deb "I should get downstairs and start cooking dinner..."
+        deb "Fetch me a towel?"
         show debbies 35
-        player_name "Конечно, {b}[deb_name]{/b}!"
+        player_name "Sure thing, {b}[deb_name]{/b}!"
     hide debbie_shower
     hide debbie
     hide debbies
@@ -624,53 +657,53 @@ label mom_shower_end:
     jump expression game.dialog_select("hallway_dialogue")
 
 label shower_mom_sex_leave:
-    player_name "Наверное, мне не стоит."
-    player_name "Я не хочу, чтобы она расстраивалась."
+    player_name "I probably shouldn't."
+    player_name "I don't want her to be upset."
     return
 
 label shower_sis_sex_pre:
     scene shower3 with None
-    player_name "( {b}[jen_name]{/b} в душе... )"
-    player_name "( ... и она меня еще не заметила? )"
-    player_name "( Может быть, я... )"
+    player_name "( {b}[jen_name]{/b} is in the shower... )"
+    player_name "( ... and she hasn't noticed me yet? )"
+    player_name "( Maybe I could... )"
     return
 
 label shower_sis_sex_peep_after_cuddle:
     scene shower05a
-    player_name "( ...Она снова оставила дверь открытой ... )"
+    player_name "( ...She left her door open again... )"
     scene shower05b
-    player_name "( ...Как будто она хочет, чтобы я смотрел? )"
+    player_name "( ...It's like she wanted me to watch? )"
     scene shower05c
-    player_name "( У нее действительно отличное тело. )"
+    player_name "( She really has a great body. )"
     scene shower05b
     scene shower05a
     player_name "..."
     show shower 05d_05e
-    player_name "( ...Она- )"
-    player_name "( Вау... )"
-    player_name "( ...Я должен... )"
-    player_name "( ...уйти, пока она не заметила... )"
+    player_name "( ...Is she- )"
+    player_name "( Wow... )"
+    player_name "( ...I should... )"
+    player_name "( ...leave, before she notices... )"
     hide shower 05d_05e
     hide shower05a
     return
 
 label shower_sis_sex_peep_before_cuddle:
     scene shower3
-    player_name "Черт! {b}[jen_name]{/b} в душе..."
+    player_name "Oh shit! {b}[jen_name]{/b} is in the shower..."
     scene shower4 with hpunch
-    player_name "( Дерьмо!! Она заметила меня! )"
+    player_name "( CRAP!! She saw me! )"
     scene shower2
     show jenny 3 at right
     show player 6 at left
     with dissolve
-    jen "Что с тобой не так??!"
-    jen "Разве ты не видишь, что я здесь?"
+    jen "What's wrong with you??!"
+    jen "Can't you see I'm in here?"
     show jenny 2 at Position(xpos=962) with fastdissolve
-    player_name "Дверь была не заперта!"
+    player_name "The door was unlocked!"
     show player 3 with fastdissolve
-    jen "Постучи сначала в следующий раз, извращенец!"
+    jen "Knock first next time, you pervert!"
     show player 29
-    player_name "Прости! Я думал, здесь никого нет..."
+    player_name "Sorry! I thought no one was in here..."
     hide jenny
     hide player
     with dissolve
@@ -681,20 +714,20 @@ label shower_sis_sex_go_inside:
     scene shower2b
     show player 11 at Position(xpos=261)
     with fade
-    player_name "( Не могу поверить, что собираюсь сделать это... )"
+    player_name "( I can't believe I'm about to do this... )"
     show player 4 at Position(xpos=267)
-    player_name "( Будет ли она кричать на меня в этот раз, или она позволит мне остаться? )"
-    player_name "( Она оставила дверь открытой, как бы приглашая меня... )"
+    player_name "( Will she scream at me this time, or will she let me stay? )"
+    player_name "( She left the door open like she's inviting me... )"
     show player 13 at Position(xpos=261)
-    player_name "( Я знаю... )"
+    player_name "( I know... )"
     show player 249 at left with fastdissolve
-    player_name "( Я могу просто притвориться, что не видел ее! )"
+    player_name "( I can just pretend like I didn't see her! )"
     show player 261f at Position(xpos=137) with fastdissolve
-    player_name "( Хорошо,  вхожу... )"
+    player_name "( Alright, I'm going in... )"
     return
 
 label shower_sis_sex_leave:
-    player_name "( Нет, слишком рискованно... )"
+    player_name "( No, too risky... )"
     return
 
 label shower_sis_sex_intro:
@@ -708,13 +741,12 @@ label shower_sis_sex_intro:
     if not store._in_replay == None:
         jump expression game.dialog_select("sis_shower_jump_1")
 
-    elif sister.known(sis_shower_cuddle02) and not sister.known(sis_hallway01):
-        $ sis_shower_cuddle02.finish()
-        $ sister.add_event(sis_hallway01)
+    elif M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_2):
+        $ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
     menu:
-        "Ой, Прости!":
+        "Oops, Sorry!":
             call expression game.dialog_select("shower_sis_sex_intro_sorry")
-        "Помочь?":
+        "Need help?":
 
             if sis_shower_intro_first:
                 call expression game.dialog_select("shower_sis_sex_intro_help_fail")
@@ -739,8 +771,8 @@ label shower_sis_sex_intro_first:
     show jenny 163b with fastdissolve
     pause
     show jenny 106 with fastdissolve
-    jen "Так так..."
-    jen "Мне было интересно, когда ты последуешь за мной."
+    jen "Well well..."
+    jen "I was wondering when you'd follow me in here."
     show jenny 105
     return
 
@@ -751,40 +783,40 @@ label shower_sis_sex_intro_repeat:
     with fade
     pause
     show jenny 163b with fastdissolve
-    jen "А?"
+    jen "Huh?"
     show jenny 104
     jen "{b}[firstname]{/b}?!" with hpunch
-    jen "Какого хрена?!"
-    jen "Разве ты не видишь, что я здесь?!!"
+    jen "What the fuck?!"
+    jen "Can't you see I'm in here?!!"
     show jenny 105
     return
 
 label shower_sis_sex_intro_sorry:
     show jenny 105
     show player 343
-    player_name "Ой!"
-    player_name "Извени! Я не заметил тебя..."
+    player_name "Oops!"
+    player_name "Sorry! I didn't see you..."
     show jenny 106
     show player 342
-    jen "Разве я не говорила тебе стучаться?! Идиот!"
+    jen "Didn't I tell you to knock first?! You idiot!"
     show player 343
     show jenny 105
-    player_name "Я знаю но-"
+    player_name "I know but-"
     show jenny 104
     show player 342
-    jen "Заткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     return
 
 label shower_sis_sex_intro_help_fail:
     show jenny 105
     show player 343
-    player_name "Я подумал, может тебе снова нужна помощь..."
+    player_name "I thought, maybe you needed help again..."
     show jenny 107
     show player 342
-    jen "Помощь? Ха!!"
+    jen "Help? Ha!!"
     show jenny 106
-    jen "Больше чем я помогаю себе, пока извращеный идиот смотрит..."
-    jen "Ты действительно не можешь перестать шпионить за мной, не так ли?"
+    jen "More like me helping myself, while a perverted idiot watches..."
+    jen "You really can't stop spying on me, can you?"
     show jenny 105
     player_name "..."
     return
@@ -792,20 +824,20 @@ label shower_sis_sex_intro_help_fail:
 label shower_sis_sex_intro_help_pass:
     show jenny 105
     show player 343
-    player_name "Я знаю..."
-    player_name "Мне было интересно, если... ну ты знаешь... тебе нужна помощь?"
+    player_name "I know..."
+    player_name "I was wondering if... you know... you need help?"
     show jenny 104
     show player 342
-    jen "Помощь??"
+    jen "Help??"
     show jenny 106
-    jen "О! Ха-ха!"
+    jen "Oh! Haha!"
     show jenny 105
     show player 343
-    player_name "Что смешного?"
+    player_name "What's so funny?"
     show player 342
     show jenny 106
-    jen "Ух... ты {b}жалок{/b}."
-    jen "Я знаю, ты просто хочешь увидеть меня голой!"
+    jen "Gosh... you're so {b}pathetic{/b}."
+    jen "I know you just want to see me naked!"
     show jenny 105
     player_name "..."
     return
@@ -815,44 +847,41 @@ label sis_shower_sex:
     if not store._in_replay == None:
         call expression game.dialog_select("sis_shower_jump_2")
     menu:
-        "Уйти.":
+        "Leave.":
             call expression game.dialog_select("sis_shower_sex_leave")
 
-        "Умолять." if not sister.known(sis_shower_cuddle03):
+        "Beg." if not M_jenny.finished_state(S_jenny_hallway_meetup_focus):
             call expression game.dialog_select("sis_shower_sex_first_beg_fail")
 
-        "Умолять." if sister.known(sis_shower_cuddle03):
-            if not sister.known(sis_couch03):
-                $ sister.add_event(sis_couch03)
-            $ sis_shower_cuddle03.finish()
+        "Beg." if M_jenny.finished_state(S_jenny_hallway_meetup_focus):
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
             label sis_shower_jump_2:
                 call expression game.dialog_select("sis_shower_sex_first_beg_pass")
             if not store._in_replay == None:
                 call expression game.dialog_select("sis_shower_jump_3")
             menu:
-                "Уйти.":
+                "Leave.":
                     call expression game.dialog_select("sis_shower_sex_leave")
 
-                "Умолять." if not sister.known(sis_shower_cuddle04):
+                "Beg." if not M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
                     call expression game.dialog_select("sis_shower_sex_second_beg_fail")
 
-                "Умолять." if sister.known(sis_shower_cuddle04):
-                    if not sister.known(sis_final):
-                        $ sister.add_event(sis_final)
-                    $ sis_shower_cuddle04.finish()
+                "Beg." if M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
+                    $ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
                     label sis_shower_jump_3:
                         call expression game.dialog_select("sis_shower_sex_second_beg_pass")
                     if not store._in_replay == None:
                         call expression game.dialog_select("sis_shower_jump_4")
                     menu:
-                        "Вставить." if not sister.known(sis_shower_cuddle05) or player.stats.dex() < 7:
+                        "Put it inside." if not M_jenny.finished_state(S_jenny_cam_show) or player.stats.dex() < 7:
                             call expression game.dialog_select("sis_shower_sex_put_it_in_fail")
 
-                        "Вставить." if sister.known(sis_shower_cuddle05) and player.stats.dex() >= 7:
-                            $ sis_shower_cuddle05.finish()
+                        "Put it inside." if M_jenny.finished_state(S_jenny_cam_show) and player.stats.dex() >= 7:
+                            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_5)
                             label sis_shower_jump_4:
                                 $ M_jenny.set("sex speed", .4)
-                                $ anim_toggle = False
+                                $ anim_toggle = True
+                                $ animated = False
                                 $ xray = False
                             call expression game.dialog_select("sis_shower_sex_put_it_in_pass")
                             jump expression game.dialog_select("sis_shower_sex_loop")
@@ -865,163 +894,163 @@ label sis_shower_sex:
 label sis_shower_sex_pre:
     show jenny 107
     show player 342
-    jen "Хорошо, я позволю тебе остаться..."
+    jen "Okay, I'll let you stay..."
     show jenny 106
-    jen "... но, ты помогаешь только {b}смотря{/b} своими {b}глазами{/b}."
+    jen "... but, you'll only help by {b}looking{/b} with your {b}eyes{/b}."
     show jenny 104
-    jen "Понятно?!"
+    jen "Got it?!"
     show jenny 105
     show player 343
-    player_name "Да, {b}[jen_name]{/b}..."
+    player_name "Yes, {b}[jen_name]{/b}..."
     show player 342
     show jenny 109 at right
-    jen "Хорошо."
-    jen "Сейчас..."
+    jen "Good."
+    jen "Now..."
     show jenny 110 with fastdissolve
-    jen "Мне нравится моя грудь, красивая и мыльная..."
+    jen "I like my breasts nice and soapy..."
     show jenny 111
-    jen "Поэтому я люблю использовать мнооооого мыла!"
+    jen "So, I like to use loooots of soap!"
     show jenny 112 with fastdissolve
     pause
     show jenny 113 with fastdissolve
     pause
     show jenny 115 with fastdissolve
-    jen "Тебе нравится видеть весь этот... {b}крем{/b} на мне?"
-    jen "Это заставляет тебя думать о чем-то {b}другом{/b}?"
+    jen "Do you like seeing all this... {b}cream{/b} on me?"
+    jen "Does it make you think of something {b}else{/b}?"
     show jenny 114
     show player 343
-    player_name "Я... Я не знаю..."
+    player_name "I... I don't know..."
     show player 342
-    jen "Хммм..."
+    jen "Hmm..."
     show jenny 115
     show player 344
-    jen "Давай намылим их немного!"
+    jen "Let's lather them up a little!"
     show jenny 116 at Position(xpos=984) with fastdissolve
     pause
     show jenny 117_118_119_116 at Position(xpos=980)
     pause 8
     show player 345 at left
     show jenny 122 at Position(xpos=980)
-    player_name "Ого..."
+    player_name "Uh oh..."
     show jenny 120b
     show player 346 with fastdissolve
     pause 0.05
     show player 347 with vpunch
     pause
     show jenny 120
-    jen "Ну, это было легко!"
+    jen "Well, that was easy!"
     show player 348 at Position(xpos=60)
     show jenny 109 at Position(xpos=1024)
-    jen "Раз тебе это нравится, может, мы сможем вымыть {b}еще одну{/b} часть моего тела..."
+    jen "Since you seem to be enjoying this, maybe we can wash {b}another{/b} part of my body..."
     show jenny 108
     show player 349
-    player_name "Хорошо..."
+    player_name "Okay..."
     show jenny 109
     show player 348
-    jen "Во-первых, я хочу услышать, как ты {b}умоляешь{/b} об этом."
+    jen "First, I want to hear you {b}beg{/b} for it."
     show jenny 167
     show player 349
-    player_name "Что ты имеешь в виду?"
+    player_name "What do you mean?"
     show jenny 166
     show player 348
-    jen "Что из этого тебе не понятно?"
+    jen "Which part of that didn't you understand?"
     show jenny 164
-    jen "... Я не буду этого делать, пока ты не будешь {b}умолять{/b} меня!"
+    jen "... I'm not doing it, unless you {b}beg{/b} for it!"
     show jenny 167
     show player 349
-    player_name "Умолять... для чего именно?"
+    player_name "Beg... for what exactly?"
     show jenny 109
     show player 348
-    jen "Я хочу, чтобы ты {b}умолял{/b} показать мою киску."
+    jen "I want you to {b}beg{/b} to see my pussy."
     show jenny 108
     return
 
 label sis_shower_sex_leave:
     show player 349
     show jenny 167
-    player_name "Думаю, я просто уйду отсюда..."
+    player_name "I think I'll just leave..."
     show player 348
     jen "???"
     show jenny 166
-    jen "Ты не будешь этого делать?"
+    jen "You won't do it?"
     show player 349
     show jenny 165
-    player_name "Нет, извени."
+    player_name "No, sorry."
     show player 354
     show jenny 164
-    jen "Думаешь, ты {b}слишком хорош{/b} для этого?!"
+    jen "You think you're {b}too good{/b} for this?!"
     show player 349
     show jenny 165
-    player_name "Это не похоже-"
+    player_name "It's not like-"
     show player 354
     show jenny 164
-    jen "Заткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     return
 
 label sis_shower_sex_first_beg_fail:
     show player 349
     show jenny 108
-    player_name "Можешь... показать мне свою киску?"
+    player_name "Can... you show me your pussy?"
     show player 348
     show jenny 109
-    jen "Я не слышу {b}пожалуйста{/b}."
+    jen "I didn't hear a {b}please{/b}."
     show player 349
     show jenny 167
-    player_name "Пожалуйста, покажи мне свою киску, {b}[jen_name]{/b}?"
+    player_name "Can you please show me your pussy, {b}[jen_name]{/b}?"
     show player 348
     show jenny 166
-    jen "Знаешь что..."
-    jen "Я не думаю, что ты заслуживаешь этого, даже если просил."
-    jen "Ты все равно слишком жалок."
+    jen "You know what..."
+    jen "I don't think you deserve this, even if you begged for it."
+    jen "You're too pathetic, anyway."
     show player 349
     show jenny 167
-    player_name "Но я думал, тебе нужна помощь-"
+    player_name "But, I thought you needed help-"
     show player 348
     show jenny 166
-    jen "Может позже... если ты будешь относиться ко мне немного лучше..."
+    jen "Maybe later... if you treat me a little better..."
     show jenny 164
     show player 354
-    jen "Сейчас, {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Now, {b}GET OUT{/b}!!" with hpunch
     return
 
 label sis_shower_sex_first_beg_pass:
     show player 349
     show jenny 108
-    player_name "Можешь... показать мне свою киску?"
+    player_name "Can... you show me your pussy?"
     show jenny 109
     show player 348
-    jen "Я не слышу {b}пожалуйста{/b}."
+    jen "I didn't hear a {b}please{/b}."
     show jenny 108
     show player 349
-    player_name "Пожалуйста, покажи мне свою киску, {b}[jen_name]{/b}?"
+    player_name "Can you please show me your pussy, {b}[jen_name]{/b}?"
     show player 348
     show jenny 109
-    jen "Хорошо..."
+    jen "Alright..."
     show jenny 127
     show player 344b
     with fastdissolve
-    jen "Давай помоем эту часть моего тела... прямо здесь..."
+    jen "Let's wash this part of my body... right here..."
     show jenny 124_125_126_123
     pause 8
-    jen "Ммм..."
+    jen "Hmm..."
     show jenny 127
-    jen "Знаешь что?"
-    jen "Я не могу туда добраться... Мне нужна помощь..."
+    jen "You know what?"
+    jen "I can't reach back there so... I might need some help after all..."
     show player 349 at Position(xpos=60)
     show jenny 123
-    player_name "...Моя помощь?"
+    player_name "...My help?"
     show player 348
     show jenny 109 at Position(xpos=1024) with fastdissolve
-    jen "Не совсем..."
-    jen "Во-первых, положи немного мыла на него..."
+    jen "Not exactly..."
+    jen "First, put some soap on it."
     show jenny 167
     show player 349
-    player_name "На него?"
+    player_name "On it?"
     show player 348
     show jenny 166
-    jen "На {b}член{/b}, идиот!"
+    jen "On your {b}dick{/b}, you idiot!"
     show jenny 111 with fastdissolve
-    jen "Вот, возьми!"
+    jen "Here, take it!"
     show jenny 108
     show player 356
     with fastdissolve
@@ -1030,83 +1059,83 @@ label sis_shower_sex_first_beg_pass:
     pause
     show player 348 with fastdissolve
     show jenny 109
-    jen "Теперь ты знаешь, что делать..."
+    jen "Now, you know what to do..."
     show jenny 108
     show player 349
-    player_name "Я не знаю..."
+    player_name "I don't know..."
     show jenny 109
     show player 348
-    jen "Я хочу услышать, как ты {b}умоляешь{/b} меня, но на этот раз {b}ПО-НАСТОЯЩЕМУ{/b} ..."
+    jen "I want to hear you {b}beg{/b} for it, but for {b}REAL{/b} this time..."
     show jenny 108
     return
 
 label sis_shower_sex_second_beg_fail:
     show player 349
     show jenny 167
-    player_name "Могу я... помочь тебе, пожалуйста, {b}[jen_name]{/b}?"
+    player_name "Can I... please help you, {b}[jen_name]{/b}?"
     show jenny 164
     show player 354
-    jen "НЕПРАВИЛЬНО!!" with hpunch
+    jen "WRONG!!" with hpunch
     show jenny 109
     show player 348
-    jen "Я хочу чтобы ты называл меня {b}принцессой{/b}..."
+    jen "I want you to call me {b}princess{/b}..."
     show jenny 167
     show player 349
-    player_name "Могу ли я помочь вам, {b}принцесса{/b}?"
+    player_name "Can I please help you, {b}princess{/b}?"
     show player 348
     show jenny 166
-    jen "Знаешь что?"
-    jen "Я не думаю, что ты заслуживаешь этого, даже если просил."
-    jen "Ты все равно слишком жалок."
+    jen "You know what?"
+    jen "I don't think you deserve this, even if you begged for it."
+    jen "You're too pathetic anyway."
     show player 349
     show jenny 167
-    player_name "Но я думал, тебе нужна помощь-"
+    player_name "But, I thought you needed help-"
     show player 348
     show jenny 166
-    jen "Может позже... если ты будешь относиться ко мне немного лучше..."
+    jen "Maybe later... if you treat me a little better..."
     show jenny 164
     show player 354
-    jen "Сейчас, {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Now, {b}GET OUT{/b}!!" with hpunch
     return
 
 label sis_shower_sex_second_beg_pass:
     show jenny 167
     show player 349
-    player_name "Могу я... помочь тебе, пожалуйста, {b}[jen_name]{/b}?"
+    player_name "Can I... please help you, {b}[jen_name]{/b}?"
     show player 354
     show jenny 164
-    jen "НЕПРАВИЛЬНО!!" with hpunch
+    jen "WRONG!!" with hpunch
     show jenny 109
     show player 348
-    jen "Я хочу чтобы ты называл меня {b}принцессой{/b}..."
+    jen "I want you to call me {b}princess{/b}..."
     show jenny 108
     show player 349
-    player_name "Могу ли я, пожалуйста, помочь вам,  {b}принцесса{/b}?"
+    player_name "Can I please help you, {b}princess{/b}?"
     show player 354
     show jenny 164
-    jen "ГРОМЧЕ!!" with hpunch
+    jen "LOUDER!!" with hpunch
     show player 355
     show jenny 108
-    player_name "Могу..."
-    player_name "{b}Могу ли я, пожалуйста, помочь вам, принцесса{/b}?!!" with hpunch
+    player_name "Can..."
+    player_name "{b}CAN I PLEASE HELP YOU, PRINCESS{/b}?!!" with hpunch
     show player 348
     show jenny 109
-    jen "Так то лучше!"
-    jen "Конечно."
-    jen "Я позволяю тебе помочь мне..."
+    jen "MUCH better!"
+    jen "Sure."
+    jen "I'll let you help me..."
     show jenny 166
-    jen "... не, {b}ТРОГАЙ{/b} меня своими руками!!"
+    jen "... but, {b}NO TOUCHING{/b} with your hands!!"
     hide player
     hide jenny
     show jennysex 96
     with fastdissolve
-    jen "Понятно?!"
+    jen "Understood?!"
     show jennysex 95 at Position(xpos=511)
-    player_name "Да, {b}[jen_name]{/b}..."
+    player_name "Yes, {b}[jen_name]{/b}..."
     show jennysex 92_93_94_95 at Position(xpos=511)
     pause 8
     show jennysex 96 at Position(xpos=512)
-    jen "Тебе нравится, маленький извращенец?"
+    jen "You like that, you little pervert?"
     show jennysex 93 at Position(xpos=534)
     pause
     show jennysex 94 at Position(xpos=513)
@@ -1118,34 +1147,34 @@ label sis_shower_sex_put_it_in_fail:
     hide jennysex
     show jenny 129 zorder 1 at Position(xpos=443)
     show player 351 zorder 2 at Position(xpos=260)
-    jen "[dex_warn]Не так быстро, извращенец!!" with hpunch
-    jen "[dex_warn]Что ты пытаешься сделать?!"
+    jen "[dex_warn]Not so fast, pervert!!" with hpunch
+    jen "[dex_warn]Just what are you trying to do here?!"
     show jenny 128
     player_name "!!!"
     show jenny 130
-    jen "Я же сказала тебе {b}БЕЗ РУК{/b}??"
+    jen "Didn't I tell you {b}NO HANDS{/b}??"
     show player 351b
     show jenny 131
-    player_name "Извините ... Я не удержался ..."
+    player_name "Sorry... I couldn't resist..."
     show jenny 132
     show player 351
-    jen "Тебе повезло, что я позволила тебе зайти так далеко!"
+    jen "You're lucky I let you go this far!"
     show jenny 131
     show player 351b
-    player_name "М..."
-    player_name "Мне жаль!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jenny 130
     show player 351
-    jen "Заткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Shut up and {b}GET OUT{/b}!!" with hpunch
     return
 
 label sis_shower_sex_put_it_in_pass:
     show jennysex 98
-    jen "Аааа!!!" with hpunch
+    jen "Ahh!!!" with hpunch
     show jennysex 97
-    jen "Что ты ДЕЛАЕШЬ?!!"
+    jen "What are you DOING?!!"
     show jennysex 101 at Position(xpos=476)
-    player_name "Я хочу тебя, {b}[jen_name]{/b}!!!"
+    player_name "I want you, {b}[jen_name]{/b}!!!"
     return
 
 label sis_shower_sex_loop:
@@ -1155,7 +1184,9 @@ label sis_shower_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            show expression AnimatedImage("jennysex", [98,99,100,101], M_jenny) as jennysex at Position(xpos = 511)
+            if not animated:
+                show expression AnimatedImage("jennysex", [98,99,100,101], M_jenny) as jennysex at Position(xpos = 511)
+                $ animated = True
             pause 5
             if animcounter in [1,3]:
                 call expression game.dialog_select("jenny_shower_hscene_dialog")
@@ -1174,19 +1205,19 @@ label sis_shower_sex_loop:
             if animcounter in [1,3]:
                 call expression game.dialog_select("jenny_shower_hscene_dialog")
         $ animcounter += 1
-    jen "Не смей кончать в меня...{p=2}{nw}"
+    jen "Don't you dare cum inside me...{p=2}{nw}"
     if not anim_toggle:
         show jennysex 97 at Position(xpos=511)
-    jen "... Я клянусь Я {b}УБЬЮ ТЕБЯ{/b}!!{p=2}{nw}"
+    jen "... I swear, I'll {b}KILL YOU{/b}!!{p=2}{nw}"
     call screen sis_shower_sex_options
 
 label jenny_shower_hscene_dialog:
     if animcounter == 1:
-        jen "Аааааа!!!{p=1}{nw}"
+        jen "Ahhhh!!!{p=1}{nw}"
 
     elif animcounter == 3:
-        jen "О!!!{p=1}{nw}"
-        player_name "Ууух...{p=1}{nw}"
+        jen "Oh!!!{p=1}{nw}"
+        player_name "Uhhh...{p=1}{nw}"
     return
 
 label sis_shower_sex_cum_1:
@@ -1222,22 +1253,22 @@ label sis_shower_sex_cum_1_pre_manual:
 label sis_shower_sex_cum_1_after:
     show jenny 130 zorder 1 at Position(xpos=443)
     show player 351 zorder 2 at Position(xpos=260)
-    jen "[str_warn]Какого {b}ХРЕНА{/b}??" with hpunch
-    jen "[str_warn]Ты собирался кончить {b}В{/b} меня!?"
+    jen "[str_warn]What the {b}FUCK{/b}??" with hpunch
+    jen "[str_warn]Were you about to cum {b}INSIDE{/b} me!?"
     show jenny 131
     show player 351b
-    player_name "Нет..."
+    player_name "No..."
     show jenny 130
     show player 351
-    jen "Что с тобой?!"
-    jen "Ты же знаешь что я могу {b}ЗАБЕРЕМЕНЕТЬ{/b}, правда??! ТЫ ИДИОТ!"
+    jen "What's wrong with you?!"
+    jen "You know I can get {b}PREGNANT{/b}, right??! YOU IDIOT!"
     show jenny 131
     show player 351b
-    player_name "М..."
-    player_name "Мне жаль!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jenny 130
     show player 351
-    jen "Да, точно! Мы закончили! {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Yeah right! We're done here! {b}GET OUT{/b}!!" with hpunch
     hide jenny
     hide player
     with dissolve
@@ -1278,7 +1309,7 @@ label sis_shower_sex_cum_2_manual:
 label sis_shower_sex_cum_2_pre:
     show white
     show jennysex 102 at Position(xpos=516)
-    jen "{b}Аааах!!!!{/b}" with hpunch
+    jen "{b}Aahhh!!!!{/b}" with hpunch
     hide white with dissolve
     pause
     show jennysex 103 at Position(xpos=511) with fastdissolve
@@ -1289,31 +1320,31 @@ label sis_shower_sex_cum_2_pre:
     return
 
 label sis_shower_sex_cum_2_after:
-    jen "{b}*тяжело дыша*{/b}"
-    jen "Боже мой..."
+    jen "{b}*Panting*{/b}"
+    jen "Oh god..."
     hide jennysex
     show jenny 134 zorder 1 at Position(xpos=600)
     show player 353 zorder 2 at Position(xpos=260)
     with dissolve
-    jen "Какого хрена?!?!"
-    jen "Я чувствую его!!!"
+    jen "What the FUCK?!"
+    jen "I felt that!!!"
     show player 352
-    jen "Ты продолжаешь стрелять спермой глубоко во внутрь!!"
+    jen "You just kept shooting cum deep inside!!"
     show jenny 133
     show player 349 at Position(xpos=254)
-    player_name "Это был рефлекс!"
-    player_name "Я... Я не смог остановиться..."
+    player_name "It was a reflex!"
+    player_name "I... I couldn't stop..."
     show jenny 134
     show player 348
-    jen "Ты не понимаешь, ты идиот?!"
-    jen "Если ты продолжишь кончать в меня каждый раз, я могу {b}ЗАБЕРЕМЕНЕТЬ{/b}!!"
+    jen "Don't you get it, you idiot?!"
+    jen "If you keep cumming inside me like that every time, I could get {b}PREGNANT{/b}!!"
     show jenny 133
     show player 349
-    player_name "Пр..."
-    player_name "Прости меня!!"
+    player_name "I..."
+    player_name "I'm sorry!!"
     show jenny 134
     show player 353 at Position(xpos=260)
-    jen "За-Заткнись и {b}ВЫМЕТАЙСЯ{/b}!!" with hpunch
+    jen "Sh-Shut up and {b}GET OUT{/b}!!" with hpunch
     hide jenny
     hide player
     with dissolve

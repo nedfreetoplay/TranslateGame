@@ -48,11 +48,10 @@ init python:
 
     class Player(KeepRefs):
         def __init__(self, name=""):
-            self.name = name if str(name).strip() != "" else "Аноним"
+            self.name = name if str(name).strip() != "" else "Anon"
             self.inventory = Inventory()
             self.location = None
             self.stats = PlayerStats()
-            self.quests = []
             self.grades = {"french":5,
                            "music":5,
                            "art":5,
@@ -61,14 +60,20 @@ init python:
             self.furnishings_purchased = []
             self.transport_level = 0
             self.earnings = 0
+            self.pregnancy_chance = 20
             self.messages = []
+            self.counter_pregnancy_tries = 0
         
-        def add_quest(self, quest):
-            self.quests.append(quest)
+        def upgrade_transport(self, level, force=False):
+            if force:
+                self.transport_level = level
+            else:
+                self.transport_level = max(self.transport_level, level)
+            pass
         
         def receive_message(self, message_id, new_message=True):
             global game
-            if message_id not in self.messages:
+            if message_id not in self.messages or True:
                 self.messages.append(message_id)
                 game.new_message = new_message
         
@@ -121,6 +126,7 @@ init python:
         
         def get_item(self, item):
             self.inventory.get_item(item)
+            return
         
         def remove_item(self, item):
             self.inventory.remove_item(item)
@@ -129,6 +135,7 @@ init python:
             return self.inventory.money >= money
         
         def get_money(self, money):
+            money = int(money)
             self.inventory.money += money
         
         def spend_money(self, money):
@@ -176,8 +183,5 @@ init python:
             return [m for m in store.machines if player.location.is_here(m)]
         
         def has_jerk_available(self):
-            for var in M_player._vars:
-                if var.startswith("jerk ") and M_player._vars[var]:
-                    return True
-            return False
+            return True in [v for k, v in M_player._vars.items() if k.startswith("jerk")]
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

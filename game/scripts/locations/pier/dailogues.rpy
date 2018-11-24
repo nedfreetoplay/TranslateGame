@@ -1,13 +1,13 @@
 label pier_first_visit:
     scene expression game.timer.image("backgrounds/location_pier{}.jpg")
     show player 2 at left with dissolve
-    player_name "( Здесь пахнет так, как буд то поблизости океан. )"
-    player_name "( Люди говорят что тут лучшее место для {b}рыбалки{/b}. )"
+    player_name "( It smells like the ocean around here. )"
+    player_name "( People say it's the best spot for {b}fishing{/b}. )"
     return
 
 label pier_board_first_visit:
     scene expression game.timer.image("pier{}")
     show player 4 at left with dissolve
-    player_name "( Это должны быть {b}виды рыб{/b}, которую можно поймать на Пирсе и какую {b}приманку{/b} нужно использовать. )"
+    player_name "( These must be the {b}types of fish{/b} you can catch on the Pier and what {b}bait{/b} to use. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

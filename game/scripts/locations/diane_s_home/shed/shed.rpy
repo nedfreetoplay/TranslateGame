@@ -1,91 +1,89 @@
 label shed:
     $ player.go_to(L_diane_shed)
-    if aunt_had_sex:
-        if game.timer.is_dark():
-            if quest12 in completed_quests and quest13 not in quest_list and aunt.started(aunt_breeding_help):
-                call expression game.dialog_select("dianes_shed_diane_breeding_help_started")
-                $ quest_list.append(quest13)
-                $ aunt_breeding_help.status = True
-    else:
-
+    if M_diane.is_state(S_diane_fetch_pump) and not M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint, S_dewitt_make_replacement_guitar]):
         scene expression game.timer.image("shed{}")
-        if not player.has_item("pump") and quest08 not in completed_quests:
-            show pump_object at Position(xpos = 118, ypos = 437)
+        show pump_object at Position(xpos = 118, ypos = 437)
+        call expression game.dialog_select("dianes_shed_diane_fetch_pump")
 
-        if shed_dialogue == 0 and not M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint, S_dewitt_make_replacement_guitar]):
-            call expression game.dialog_select("dianes_shed_shed_dialouge_0")
-            $ shed_dialogue = 1
+    elif M_diane.is_state(S_diane_delivery_2_fetch_goods):
+        call expression game.dialog_select("dianes_shed_diane_delivery_2_fetch_goods")
+        $ L_annie_front.unlock()
 
-        elif shed_dialogue == 1 and drink_milk_offer and not aunt_shed_scene and game.timer.is_evening():
-            call expression game.dialog_select("dianes_shed_shed_dialouge_1_intro")
-            menu:
-                "Это хорошо.":
-                    call expression game.dialog_select("dianes_shed_shed_dialouge_1_okay")
-                "Нет, это не правильно.":
+    elif L_diane_shed.is_here(M_diane):
+        if M_diane.is_state(S_diane_debbie_drop_off, S_diane_check_shed_light):
+            call expression game.dialog_select("dianes_shed_diane_check_shed_light")
+            $ M_diane.trigger(T_diane_house_locked)
+            $ M_diane.trigger(T_diane_caught_milking)
+            $ game.timer.tick(3)
+            $ player.go_to(L_map)
+            $ game.main()
 
-                    call expression game.dialog_select("dianes_shed_shed_dialouge_1_wrong")
-            $ aunt_shed_scene = True
+        elif M_diane.is_state(S_diane_milking_help):
+            call expression game.dialog_select("dianes_shed_milking_help")
+            $ M_diane.trigger(T_diane_milking_malfunction_help)
+            $ game.timer.tick(2)
+            $ player.go_to(L_map)
+            $ game.main()
+
     $ game.main()
 
-label locked_shed_dialogue:
-    scene garden
-    if seen_shed_locked:
-        call expression game.dialog_select("dianes_shed_seen_shed_locked")
+label dianes_shed_got_milk_delivery_3:
+    show expression "backgrounds/location_diane_shed01_day_blur.jpg"
+    show player 168b with dissolve
+    player_name "!!!"
+    show player 168c
+    player_name "Holy crap! This is a lot heavier than the last one!"
+    show player 167
+    pause
+    show player 168
+    player_name "{b}Diane{/b} should really invest in a hand truck."
+    player_name "It's gonna be tough hauling this all the way to school by myself."
+    hide player with dissolve
+    show popup_item_milk at truecenter with dissolve
+    $ player.get_item("milk_carton")
+    hide popup_item_milk with dissolve
+    $ M_diane.trigger(T_diane_found_delivery_3_goods)
+    $ game.main()
+
+label dianes_shed_pick_up_milk_delivery_02:
+    scene shed
+    show player 163c with dissolve
+    player_name "Sheesh, this is a lot heavier than last time!"
+    player_name "I guess, that's a good thing though..."
+    player_name "... {b}Diane's{/b} business is growing quick!"
+
+    player_name "Alright, I'm supposed to {b}deliver this to the daycare next door.{/b}"
+    hide player with dissolve
+    $ game.main()
+
+label dianes_shed_get_milk_to_dump:
+    scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
+    show player 680 with dissolve
+    player_name "Oh, it's still warm."
+    player_name "Alright, {b}I just need to pour this into one of the storage jugs.{/b}"
+    player_name "Easy peasy."
+    hide player with dissolve
+
+    $ M_diane.set("acquired milk", True)
+    $ game.main()
+
+label dianes_shed_dump_milk:
+    if M_diane.get("acquired milk"):
+        scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
+        show player 680 with dissolve
+        player_name "Alright, I just pour this in here like so..."
+        show player 681 with dissolve
+        player_name "... Aaaand done!"
+        show player 17 with dissolve
+        player_name "Now, I should go check on {b}Diane{/b}."
+        hide player with dissolve
+        $ M_diane.trigger(T_diane_make_drink)
     else:
-        call expression game.dialog_select("dianes_shed_not_seen_shed_locked")
-        $ seen_shed_locked = True
-    $ game.main()
-
-label aunt_dialogue_button_night:
-    label aunt_shed_sex_seated:
-        call expression game.dialog_select("dianes_shed_dianes_dialogue")
-    if not store._in_replay == None:
-        call expression game.dialog_select("aunt_shed_replay_1")
-        call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk_no_sex")
-        dia "Давайте найдем на {b}разводной стул{/b}..."
-        $ anim_toggle = False
-        $ xray = False
-        $ shed_cow_outfit = True
-        $ M_aunt.set("sex speed", .4)
-        $ previous_shed_sex_action = 0
-        if store._in_replay == "aunt_shed_sex_seated":
-            $ shed_sex_action = 1
-        else:
-            $ shed_sex_action = 0
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk")
-        jump expression game.dialog_select("shed_sex_loop")
-    dia "Есть что-нибудь, о чём ты хотел поговорить, прежде чем мы начнем?"
-    menu dia_default_dialogue_options_night:
-        "Коробка." if quest13 in quest_list and quest13 not in completed_quests and not player.has_item("package"):
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_not_package")
-            call expression game.dialog_select("dia_default_dialogue_options_night")
-
-        "Коробка." if quest13 in quest_list and quest13 not in completed_quests and player.has_item("package"):
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_package")
-            $ completed_quests.append(quest13)
-            $ player.remove_item("package")
-            call expression game.dialog_select("dia_default_dialogue_options_night")
-
-        "Давай доить!" if quest12 not in completed_quests or quest13 not in completed_quests:
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_not_lets_milk")
-
-        "Давай доить!" if quest12 in completed_quests and quest13 in completed_quests:
-            if not shed_had_sex:
-                call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk_no_sex")
-            else:
-
-                call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk_no_sex")
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk")
-            $ anim_toggle = False
-            $ xray = False
-            $ shed_cow_outfit = True
-            $ previous_shed_sex_action = 0
-            $ shed_sex_action = 0
-            $ shed_sex_angle = 0
-            $ M_aunt.set("sex speed", .4)
-            call expression game.dialog_select("shed_sex_loop")
-        "Я должен идти.":
-
-            call expression game.dialog_select("dianes_shed_dianes_dialogue_leave")
+        scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
+        show player 681b with dissolve
+        player_name "This must be a storage jug!"
+        player_name "It's cold to the touch!"
+        player_name "{b}I just need to find the pump and then dump it in here.{/b}"
+        hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

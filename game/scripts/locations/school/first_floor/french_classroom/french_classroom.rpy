@@ -4,10 +4,10 @@ label classroom_dialogue:
     if M_roxxy.is_state(S_roxxy_lolipop):
         call expression game.dialog_select("french_class_roxxy_lolipop_intro")
         menu:
-            "Только один раз.":
+            "Just this once.":
                 call expression game.dialog_select("french_class_roxxy_lolipop_just_once")
                 $ M_roxxy.trigger(T_roxxy_lolipop_once)
-            "В обмен на твой леденец.":
+            "In exchange for your Lolipop.":
                 call expression game.dialog_select("french_class_roxxy_lolipop_for_lolipop")
                 $ M_roxxy.trigger(T_roxxy_lolipop_lolipop)
 
@@ -24,6 +24,9 @@ label classroom_dialogue:
         if M_bissette.is_state(S_bissette_intro):
             call expression game.dialog_select("french_classroom_bissette_intro")
             $ M_bissette.trigger(T_bissette_improvement_challenge)
+            call expression game.dialog_select("eve_classroom_dialogue_eve_intro")
+            $ L_park.unlock()
+            $ M_eve.trigger(T_eve_park_hangout)
 
         elif M_bissette.is_state(S_bissette_tutoring):
             call expression game.dialog_select("french_classroom_bissette_tutoring")

@@ -96,10 +96,10 @@ label ross_button_dialogue:
     elif M_ross.is_state(S_ross_end):
         call expression game.dialog_select("button_ross_end_intro")
         menu:
-            "Да.":
-                call expression game.dialog_select("button_ross_end_intro")
-            "Нет.":
+            "Yes.":
+                call expression game.dialog_select("button_ross_end_yes")
+            "No.":
 
-                call expression game.dialog_select("button_ross_end_intro")
+                call expression game.dialog_select("button_ross_end_no")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

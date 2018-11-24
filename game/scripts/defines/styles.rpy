@@ -137,4 +137,11 @@ style style_machine_info_debug:
     antialias True
     bold True
     outlines [ (absolute(1), "#000", absolute(0), absolute(0)) ]
+
+style style_pregnancy_percentage:
+    font "fonts/ArialBlack.ttf"
+    size 40
+    antialias True
+    bold True
+    color "#692560"
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

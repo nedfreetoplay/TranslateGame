@@ -3,20 +3,20 @@ label courtyard_roxxy_intense_gymercise:
     show coach 3 at right
     show jersey 11 at left
     with dissolve
-    bri "Посмотрите-ка, что кошка притащила."
-    bri "Как проходят твои тренировки?"
+    bri "Well, look what the cat dragged in."
+    bri "How's your training?"
     show jersey 10
     show coach 1
-    player_name "Ум... Я пытался ходить в спортзал!"
+    player_name "Uhm... I've been trying to go to the gym!"
     show jersey 11
     show coach 3
-    bri "Пытался, да?"
-    bri "Посмотрим, сколько отжиманий ты сможешь сделать."
+    bri "Trying, huh?"
+    bri "Let's see how many push-ups you can do, now."
     show coach 2
-    bri "Может быть, ты превзошел свой личный рекорд... Повтори еще раз, два раза!?"
+    bri "Maybe you beat your personal best of... What was it again, two!?"
     show coach 4
     show jersey 22
-    bri "Теперь упал и сделал двадцать!" with hpunch
+    bri "Now drop and give twenty!" with hpunch
     show coach 6
     show jersey 29
     with fastdissolve
@@ -24,34 +24,34 @@ label courtyard_roxxy_intense_gymercise:
     show jersey 30
     pause 0.5
     show jersey 29
-    bri "Один!"
+    bri "One!"
     show jersey 30
     pause 0.5
     show jersey 29
-    bri "Два!"
+    bri "Two!"
     show jersey 30
     pause 0.7
     show jersey 29
-    bri "Три!"
+    bri "Three!"
     show jersey 30
     pause 0.9
     show jersey 29
-    bri "Четыре!"
+    bri "Four!"
     show jersey 27
     show coach 2
     with fastdissolve
-    bri "Поздравляю, {b}[firstname]{/b}! Ты превратился из никчемного в жалкого!"
+    bri "Congratulations, {b}[firstname]{/b}! You've improved from worthless to pathetic!"
     show coach 3
-    bri "Продолжай тренироваться, личинка!"
+    bri "Keep training, maggot!"
     show coach 1
     show jersey 28
-    player_name "Да... {b}тренер Бриджет{/b}..."
+    player_name "Yes... {b}Coach Bridget{/b}..."
     show coach 3
     show jersey 27
-    bri "А теперь убирайся с глаз моих!"
-    bri "И тебе лучше показать прогресс в следующий раз!"
+    bri "Now get out of my sight!"
+    bri "And you better show more progress next time!"
     show coach 1
-    player_name "Простите, {b}тренер Бриджет{/b}!"
+    player_name "Sorry, {b}Coach Bridget{/b}!"
     hide coach
     hide jersey
     with dissolve
@@ -61,83 +61,85 @@ label courtyard_bridget_intro:
     scene expression game.timer.image("backgrounds/location_school_gym{}_blur.jpg")
     show jersey 13 at left with dissolve
     show coach 2 at right with dissolve
-    bri "Смотрите, кто пришел!"
+    bri "Look who decided to show up!"
     show coach 1 at right
     show jersey 17 at left
-    player_name "Здрасьте, {b}тренер Бриджет{/b}!"
+    player_name "Hi, {b}Coach Bridget{/b}!"
     show jersey 18 at left
-    player_name "Я знаю, что пропустил несколько тренировок, но уверяю вас, что буду готов к Региональным Легкоатлетическим Соревно-"
+    player_name "I know I've missed a few training sessions, but I assure you that I will be ready for the Regional Athletics Tri-"
     show coach 3 at right
     show jersey 22 at left
-    bri "Заткнись, слизняк!" with hpunch
-    bri "Ты отстаешь на месяц от всех остальных,{b}[firstname]{/b},  и я не позволю тебе утащить команду с твоим отсутствием обязательств!"
-    bri "Если ты не сможете получить квалификационные баллы, ты {b}можешь забыть о своих зачетах и окончании в этом году.{/b}"
+    bri "Shut up, you maggot!" with hpunch
+    bri "You are one month behind everyone else, {b}[firstname]{/b}, and I'm not going to let you drag down the team with your lack of commitment!"
+    bri "If you can't make the qualifying scores, you can {b}forget about your credits and graduating this year.{/b}"
     show coach 7 at right
     show jersey 10 at left
-    player_name "Не беспокойтесь, мэм! Уверен, с отборочными проблем не будет!"
+    player_name "Don't worry, Ma'am! I'm sure the qualifiers will be no problem!"
     show coach 3 at right
     show jersey 11 at left
-    bri "...Ты уверен?"
-    bri "Почему бы тебе не показать нам свои \"элитные спортивные навыки\" сделав {b}20 отжиманий{/b} прямо сейчас, ты, жалкий маленький болван?!"
+    bri "...Oh yeah?"
+    bri "Why don't you show us your \"elite athletic skills\" by doing {b}20 pushups{/b} right now, you pathetic little twerp?!"
     show coach 5 at right
     show jersey 10 at left
-    player_name "Но-"
+    player_name "But-"
     show jersey 23 at left
-    bri "{b}*СВИСТОК*{/b}"
+    bri "{b}*WHISTLE*{/b}"
     show coach 6 at right
     show jersey 29 at left
-    player_name "Грр..."
+    player_name "Ghh..."
     show jersey 30 at left
-    bri "Один..."
+    bri "One..."
     show jersey 29 at left
-    player_name "Гррр..."
+    player_name "Ghhhh..."
     show jersey 30 at left
-    bri "Два..."
+    bri "Two..."
     show jersey 29 at left
-    player_name "...Я...Я не могу..."
+    player_name "...I...I can't..."
     show jersey 30 at left
-    bri "Три-"
+    bri "Thr-"
     bri "... ... ..."
     show coach 3 at right
-    bri "Что?!! Это все, на что ты способен??"
+    bri "What?!! Is that all you got??"
     show jersey 27 at left
-    bri "Ты даже не можешь сделать 3 жалких отжимания?!"
+    bri "You can't even do 3 miserable pushups?!"
     show coach 7 at right
-    player_name "Я..."
-    player_name "Я... простети... мэм..."
+    player_name "I..."
+    player_name "I'm... Sorry... Ma'am..."
     show coach 3 at right
-    bri "Лучше тащи свою задницу в {b}местный спортзал{/b} сейчас же, и начинай заниматься, если хочешь пройти этот класс..."
+    bri "You better get your ass to the {b}local Gym{/b} now, and start lifting, if you want to pass this class..."
     show coach 4 at right
-    bri "... или иди в {b}класс Мисс Биссетт{/b}, где тяжелая работа и хорошие оценки не имеют значения!"
-    bri "Сейчас, {b}ИДИ ПРОЧЬ С ГЛАЗ МОИХ!!!{/b}"
+    bri "... just stick to {b}Miss Bissette's class{/b}, where hard work and good grades don't matter!"
+    bri "Now, {b}GET OUT OF MY SIGHT!!!{/b}"
     hide coach 7 with dissolve
-    show ronda 3 at right with dissolve
-    ron "Ты никогда не пройдешь квалификацию..."
-    ron "Зачем ты вообще ходишь на эти занятия?"
-    show ronda 2 at right
+    show ronda b_jersey a_jersey_sides f_normal_talk at right with dissolve
+    ron "You're never going to make it past the qualifiers..."
+    ron "Why do you even bother coming to this class?"
+    show ronda f_normal at right
     show jersey 28 at left
-    player_name "Я все еще могу это сделать..."
-    player_name "...И ты знаешь, что именно...Я подумал, может, ты мне поможешь -"
-    show ronda 4 at right
+    player_name "I can still make it..."
+    player_name "...And you know what...I was thinking, maybe you could help me tr-"
+    show ronda f_upset_angry at right
     show jersey 27 at left
-    ron "Стоять!"
-    ron "Если каким-то чудом тебе удастся {b}пройти испытания{/b}... тогда приходи поговорить со мной. В противном случае, перестань тратить мое время."
-    show ronda 1 at right
+    ron "Hold it right there!"
+    show ronda f_upset_talk
+    ron "If, by some miracle, you manage to {b}make the trials{/b}... then come talk to me. Otherwise, you can stop wasting your breath."
+    show ronda f_normal at right
     show jersey 28 at left
-    player_name "Хорошо!"
-    player_name "Но когда я это сделаю, тебе придется показать мне некоторые свои трюки!"
-    show ronda 3 at right
-    ron "Я буду в {b}бассейне{/b} следующие две недели тренироваться на дистанции 200 метров..."
-    ron "Если ты будешь в команде, приходи ко мне."
-    show ronda 1 at right
+    player_name "Okay!"
+    player_name "But when I do, you'll have to show me some of your tricks!"
+    show ronda f_normal_talk at right
+    ron "I'll be at the {b}swimming pool{/b} for the next two weeks, training for the 200m trials..."
+    ron "If you make the team, then come see me."
+    show ronda f_normal at right
     show jersey 20 at left
-    player_name "Договорились!!"
-    show ronda 3 at right
+    player_name "Deal!!"
+    show ronda f_rolleyes at right
     show jersey 19 at left
-    ron "Тьфу... Патетический..."
-    hide ronda 2 at right with dissolve
-    hide jersey 19 at left with dissolve
+    ron "Ugh... Pathetic..."
     hide gym
+    hide ronda
+    hide jersey
+    with dissolve
     return
 
 label courtyard_bridget_training:
@@ -145,10 +147,10 @@ label courtyard_bridget_training:
     show player 11 at left with dissolve
     show coach 3 at right with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "Тебе лучше тренироваться в {b}тренажерном зале{/b}, или я засуну свою ногу тебе в задницу!!"
+    bri "You better be training your ass off at the {b}Gym{/b}, or I'm going to shove my foot up your ass!!"
     show player 32
     show coach 7
-    player_name "Да, мэм!!!"
+    player_name "Yes, Ma'am!!!"
     hide coach
     hide player
     with dissolve

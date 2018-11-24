@@ -17,16 +17,7 @@ screen rapbattle:
     $ a = 570
     for Rap in temp_list[player_point].rhymes:
         $ b = 380 + rap_index*60
-        # Added Tips
-        if tips:
-            $ rhyme = temp_list[player_point].rhymes[rap_index]
-            if rhyme == temp_list[player_point].answer:
-                textbutton "{color=#FFD700}[rhyme]{/color}" style style.button["rapbattle"] text_style style.text["rapbattle_text"] pos a,b action If(temp_list[player_point].rhymes[rap_index] == temp_list[player_point].answer, Jump("end_phase"), [Hide("rapbattle"), Jump("rapbattle_lose")])
-            else:
-                textbutton "[rhyme]" style style.button["rapbattle"] text_style style.text["rapbattle_text"] pos a,b action If(temp_list[player_point].rhymes[rap_index] == temp_list[player_point].answer, Jump("end_phase"), [Hide("rapbattle"), Jump("rapbattle_lose")])
-        else:
-            textbutton temp_list[player_point].rhymes[rap_index] style style.button["rapbattle"] text_style style.text["rapbattle_text"] pos a,b action If(temp_list[player_point].rhymes[rap_index] == temp_list[player_point].answer, Jump("end_phase"), [Hide("rapbattle"), Jump("rapbattle_lose")])
-        # End Tips
+        textbutton temp_list[player_point].rhymes[rap_index] style style.button["rapbattle"] text_style style.text["rapbattle_text"] pos a,b action If(temp_list[player_point].rhymes[rap_index] == temp_list[player_point].answer, Jump("end_phase"), [Hide("rapbattle"), Jump("rapbattle_lose")])
         $ rap_index += 1
     timer 0.02 repeat True action If(time_count > 0, SetVariable("time_count", time_count - 0.01), [Hide("rapbattle"), Jump("rapbattle_lose")])
     bar value time_count range timer_range pos 260,685 xmaximum 513 ymaximum 33 style "time_bar"
@@ -35,78 +26,78 @@ label rapbattle_listing:
     if getPlayingMusic("<loop 108.292 to 180.658>audio/music_rap.ogg"):
         $ playMusic("<loop 108.292 to 180.658>audio/music_rap.ogg")
 
-    $ chico1 = Rap(line = "Чико, почему ты такая стерва?\nТвоей разбитой губе понадобится ____.", rhymes = ["швы", "заплатки", "поцелуй"], answer = "швы")
-    $ chico2 = Rap(line = "Ты уверен, что тебя зовут не Рик?\nПотому что сейчас ты ведешь себя ____.", rhymes = ["хуй", "писюн", "задница"], answer = "хуй")
+    $ chico1 = Rap(line = "Chico, why are you such a bitch?\nYour busted lip gonna need a ____.", rhymes = ["stitch", "patch", "kiss"], answer = "stitch")
+    $ chico2 = Rap(line = "You sure your name's not Rick?\nCuz, right now you're being a ____.", rhymes = ["dick", "penis", "ass"], answer = "dick")
     $ chico_list = [chico1, chico2]
-    $ chico3 = Rap(line = "Ты хочешь команду? Я дам тебе три.\nУ тебя не будет других богов \nпередо ____.", rhymes = ["мной", "Као", "Иисусом"], answer = "мной")
-    $ chico4 = Rap(line = "Преклонитесь передо мной и уважайте мой ход.\nя даю команды сейчас,\nэто моё ____.", rhymes = ["шоу", "рэп", "жизнь"], answer = "шоу")
+    $ chico3 = Rap(line = "You want a command? I'll give you three.\nYou shall have no other gods\nbefore ____.", rhymes = ["me", "Kao", "Jesus"], answer = "me")
+    $ chico4 = Rap(line = "Bow before me and respect my flow.\nI give the commands now,\nthis is my ____.", rhymes = ["show", "rap", "life"], answer = "show")
     $ chico_list2 = [chico3, chico4]
-    $ chico5 = Rap(line = "Кроме Евы, все что я вижу здесь,\nтолько позера. Ты сделал ход, \nно я буду ____.", rhymes = ["близко", "лучше", "Иисус"], answer = "близко")
-    $ chico6 = Rap(line = "И правда мужик? Один из твоих родственников?\nЯ мог бы вытянуть лучшие рэпы в\nмусорном ____.", rhymes = ["сумка", "грузовик", "ведре"], answer = "ведре")
+    $ chico5 = Rap(line = "Besides Eve, all I see here is posers.\nYou may have started this flow,\nbut I'll be the ____.", rhymes = ["closer", "better", "Jesus"], answer = "closer")
+    $ chico6 = Rap(line = "And really man? One of your kin?\nI could pull better raps from\nthe garbage ____.", rhymes = ["bag", "truck", "bin"], answer = "bin")
     $ chico_list3 = [chico5, chico6]
-    $ chico7 = Rap(line = "Эй йоу, Чико, ты действительно хочешь рэпа? \nты читаешь так, будто у тебя перья на ____.", rhymes = ["твоей кепке", "твоих волосах", "твоей заднице"], answer = "твоей кепке")
-    $ chico8 = Rap(line = "Йоу, твои рифмы такие ненормальные; \nВсе что тебе нужно это ____.", rhymes = ["новый сникерс", "закадровый смех", "мамкины спагетти"], answer = "закадровый смех")
+    $ chico7 = Rap(line = "Hey yo, Chico, you really wanna rap?\nYou talkin like you got feathers in ____.", rhymes = ["yo cap", "yo hair", "yo ass"], answer = "yo cap")
+    $ chico8 = Rap(line = "Yo, your rhymes are so whack;\nAll you need is a ____.", rhymes = ["new shtick", "laugh track", "mom's spaghetti"], answer = "laugh track")
     $ chico_list4 = [chico7, chico8]
 
     $ chad_time = 6.0
-    $ chad1 = Rap(line = "Очень приятно познакомиться с тобой Чад и я \nрад что я сделал, потому что твое чтение было \nслабым, а ты сложен как ____.", rhymes = ["ребенок", "женщина", "слон"], answer = "ребенок")
-    $ chad2 = Rap(line = "Я могу быть в твоем классе,но ты будешь \nучиться у меня. Я починю твое мастерство,\nи я это даже сделаю  ____.", rhymes = ["бесплатно", "массаж", "все"], answer = "бесплатно")
-    $ chad3 = Rap(line = "Ты ничему не можешь меня научить,ты не освоил ни хрена. \nТы можешь получить\nэто место сейчас,я думаю пришло время тебе ____.", rhymes = ["присесть", "убираться", "отъебаться"], answer = "присесть")
-    $ chad4 = Rap(line = "Твоя проза слаба,и твой \nсклад ума не стоит упомиминания, Твоё \nчтение неудачника, и это принесет тебе ____.", rhymes = ["арест", "аутизм", "овации"], answer = "арест")
+    $ chad1 = Rap(line = "It's real nice to meet you Chad and I am\nglad that I did, Because you flows are\nweak, and you're built like a ____.", rhymes = ["kid", "woman", "elephant"], answer = "kid")
+    $ chad2 = Rap(line = "I might be in your class, but you will\nlearn from me. I am going to fix your art,\nand I'll even do it for ____.", rhymes = ["free", "a massage", "everyone"], answer = "free")
+    $ chad3 = Rap(line = "There is nothing you can teach me,\nyou ain't mastered shit. You can have\nthis seat now, I think it's time YOU ____.", rhymes = ["sit", "go away", "fuckoff"], answer = "sit")
+    $ chad4 = Rap(line = "Your prose is weak, and your\ncomposition isn't worth mention, Your\nflows are a failure and that nets you ____.", rhymes = ["detention", "autism", "applause"], answer = "detention")
     $ chad_list = [chad1, chad2, chad3, chad4]
-    $ chad5 = Rap(line = "Этот снова уставший рэп? Хорошо Чад, \nдавай сделаем это диким, тебе нравится эта школа \nтварь, мм? Чтож, давай тогда, ____.", rhymes = ["ребенок", "чувак", "лузер"], answer = "ребенок")
-    $ chad6 = Rap(line = "Я здесь не затем, чтобы впечатлять тебя, но поверь,\nя оставлю впечатление,ты не будешь\nв стостоянии ходить после того,как я закончу с этим ____.", rhymes = ["сеансом", "дерьмом", "линией"], answer = "сеансом")
-    $ chad7 = Rap(line = "Ты симпатичный парень, так что да, давай поговорим о тебе, \nи о том, как я уничтожу тебя и эту пидорскую____.", rhymes = ["прическу", "стиль", "рожу"], answer = "прическу")
-    $ chad8 = Rap(line = "Ты хочешь плюнуть на естественную науку о жаре\n конвекции? Я зажарил тебя \n, и это дало твоим мальчикам ____.", rhymes = ["эрекцию", "аутизм", "мурашки по коже"], answer = "эрекцию")
+    $ chad5 = Rap(line = "This tired rap again? Alright Chad,\nlet's make it wild, You like this school\nthing huh? Well come on then, ____.", rhymes = ["child", "dude", "loser"], answer = "child")
+    $ chad6 = Rap(line = "I'm not here to impress you, but trust\nme, i'll leave an impression, you won't be\nable to walk after i'm done with this ____.", rhymes = ["session", "shit", "line"], answer = "session")
+    $ chad7 = Rap(line = "You are a pretty boy, so yeah, let's talk\nabout you, and about how I am\ndestroying you and that pansy ass ____.", rhymes = ["hairdo", "style", "face"], answer = "hairdo")
+    $ chad8 = Rap(line = "You wanna spit science about the heat\nof convection? I roasted you\nand it gave your boys' an ____.", rhymes = ["erection", "autism", "goosebumps"], answer = "erection")
     $ chad_list2 = [chad5, chad6, chad7, chad8]
-    $ chad9 = Rap(line = "Давай не будем говорить о твоей такой тонкой коже\n я все в твоем районе, \nи ты знаешь, что это мой ____.", rhymes = ["биз", "женшина", "слон"], answer = "биз")
-    $ chad10 = Rap(line = "Да, я ношу сандалии, потому что кроссовки тают, \nмой огонь горячее твоего,когда я снимаю свой ____.", rhymes = ["ремень", "штаны", "парик"], answer = "ремень")
-    $ chad11 = Rap(line = "Мне насрать на твое остроумие, у меня острый\nкак клинок, когда я покончу с твоей задницей, \nя зайду в торговый центр и ____.", rhymes = ["перепихнусь", "напьюсь", "выброшусь"], answer = "перепихнусь")
-    $ chad12 = Rap(line = "Так что это было весело в твоем классе, жаль что \n твой рэп был плохим, я выпустился с этой \n школы, это конец, До свидания ____.", rhymes = ["Чад", "все", "жены"], answer = "Чад")
+    $ chad9 = Rap(line = "Let's not talk about skin, as thin as\nyours is, I'm all up in your hood,\nand you know it's my ____.", rhymes = ["biz", "woman", "elephant"], answer = "biz")
+    $ chad10 = Rap(line = "Yeah, I wear sandals, because sneakers\nwould melt, My fire's hotter than yours,\nwhen I take off my ____.", rhymes = ["belt", "pants", "wig"], answer = "belt")
+    $ chad11 = Rap(line = "I give a shit about your wit, mine's as\nsharp as a blade, When I am done with\nyour ass, I'll hit up the mall and get ____.", rhymes = ["laid", "drunk", "thrown out"], answer = "laid")
+    $ chad12 = Rap(line = "So it's been fun in your class, shame\nyour raps were bad, I graduated this\nschool, it's over, Goodbye ____.", rhymes = ["Chad", "everyone", "waifus"], answer = "Chad")
     $ chad_list3 = [chad9, chad10, chad11, chad12]
 
     $ tyrone_time = 6.0
-    $ tyrone1 = Rap(line = "Не говори о моей семье, я тебя нахуй порежу. \nУ меня есть в доме меч, острый, как ____.", rhymes = ["гинсу", "джутсу", "Винду"], answer = "гинсу")
-    $ tyrone2 = Rap(line = "Но ничто так не остро, как ритм в этом рэпе, \nкак нож в твоем сердце, просто нельзя ____.", rhymes = ["устранить", "следовать", "опровергнуть"], answer = "устранить")
-    $ tyrone3 = Rap(line = "Ты зажен во мне кровожадное намерение, \nМне нужно успокоиться, прежде чем я ____.", rhymes = ["истощусь", "согнусь", "запрусь"], answer = "истощусь")
-    $ tyrone4 = Rap(line = "Дай мне немного кексов, парень, \nмне тоже нужно облегчение, так что не возвышайся ____.", rhymes = ["высоко", "сторону", "шагай"], answer = "высоко")
-    $ tyrone5 = Rap(line = "Ты единственный раста, которого я когда-либо встречал, \nтоже самый гейский, если бы мне пришлось ____.", rhymes = ["ставить", "переживать", "потеть"], answer = "ставить")
-    $ tyrone6 = Rap(line = "Ты не на улице, ты,отмечен как заноза в заднице, \nя был повсюду вокруг, ты не оставил этот ____.", rhymes = ["парк", "темноту", "искру"], answer = "парк")
-    $ tyrone7 = Rap(line = "И да, я помню,как я оказался, я шлепнул двух сук, ты вскоре будешь ____.", rhymes = ["третим", "свободным", "собой"], answer = "третим")
-    $ tyrone8 = Rap(line = "Мне не нужно заканчивать, я обезвредил твою бомбу, \nзаменил ее своим собственным сжиганием ____.", rhymes = ["напалма", "пальмы", "псалом"], answer = "напалма")
+    $ tyrone1 = Rap(line = "Don't talk about my family, i'll fuckin\ncut you. I got a sword at the house,\nsharp as a ____.", rhymes = ["Ginsu", "Jutsu", "Windu"], answer = "Ginsu")
+    $ tyrone2 = Rap(line = "But nothings as sharp as this rap's\ngroove, like a knife in your heart,\njust can't ____.", rhymes = ["remove", "behoove", "disprove"], answer = "remove")
+    $ tyrone3 = Rap(line = "You ignited in me a murderous intent,\nI need to calm down before I am ____.", rhymes = ["spent", "bent", "pent"], answer = "spent")
+    $ tyrone4 = Rap(line = "Let me get some of that brownie, guy,\nI need relief too, so don't\nBogart the ____.", rhymes = ["high", "side", "stride"], answer = "high")
+    $ tyrone5 = Rap(line = "You're the only Rasta that I've ever\nmet, the gayest one too, if I had to ____.", rhymes = ["bet", "fret", "sweat"], answer = "bet")
+    $ tyrone6 = Rap(line = "You're not in the streets you punk ass\nmark, I've been all around,\nyou ain't left this ____.", rhymes = ["park", "dark", "spark"], answer = "park")
+    $ tyrone7 = Rap(line = "And yeah, I remember how I came to be,\nI smacked two bitches,\nyou about to be ____.", rhymes = ["three", "free", "thee"], answer = "three")
+    $ tyrone8 = Rap(line = "I don't need to finish, I defused your\nbomb, replaced it with my\nown burning ____.", rhymes = ["napalm", "palm", "psalm"], answer = "napalm")
     $ tyrone_list = [tyrone1, tyrone2, tyrone3, tyrone4, tyrone5, tyrone6, tyrone7, tyrone8]
-    $ tyrone9 = Rap(line = "Я говорил тебе один раз раньше, и я скажу тебе еще раз, \nоставь мою семью в покое, \nпрежде чем я передам гнев в прошлое ____.", rhymes = ["десяти", "шариковой ручкой", "лощина"], answer = "десяти")
-    $ tyrone10 = Rap(line = "Я включу обогреватель до одиннадцати, когда я доберусь до тебя,\nя мистер T. в этом матче, и мне жаль тебя, ____.", rhymes = ["фуу", "r2d2", "тоже"], answer = "фуу")
-    $ tyrone11 = Rap(line = "Ты представляешь себя драконом? \nСучка, это очень мило. \nУ тебя вес ящерицы в дешевой заднице ____.", rhymes = ["костюма", "дороги", "добычи"], answer = "костюма")
-    $ tyrone12 = Rap(line = "Я настоящий истребитель драконов, \nи,истребительница кисок,в придачу \nу меня в логове гарем,а что есть у тебя? ____?", rhymes = ["Фрукт", "привлекательность", "безмолвность"], answer = "Фрукт")
-    $ tyrone13 = Rap(line = "Ты не смог бы поджарить меня, \nдаже если бы у тебя был мой огонь, ты проиграешь эту битву теперь, \nкогда спровоцировал мой ____.", rhymes = ["гнев", "дробилку", "оруженосца"], answer = "гнев")
-    $ tyrone14 = Rap(line = "Ты думаешь, что избил меня, когда я истекал кровью? \nЭто история неудачника, в этом вся моя мотивация  ____.", rhymes = ["необходима", "бусина", "подвиг"], answer = "необходима")
-    $ tyrone15 = Rap(line = "Я получил удар, как пуля в мозг, ты передо мной? \nТы должен быть ____.", rhymes = ["безумный", "крейн", "глупый"], answer = "безумный")
-    $ tyrone16 = Rap(line = "Я видела тебя насквозь и знаю, кто ты такой. \nИди к себе домой мальчик, \nвозьми свою растовскую  ____ задницу.", rhymes = ["далекую", "бар", "машина"], answer = "далекую")
+    $ tyrone9 = Rap(line = "I told you once before and I'll tell\nyou again, leave my family out\nof this before I turn wrath past ____.", rhymes = ["ten", "ballpen", "glen"], answer = "ten")
+    $ tyrone10 = Rap(line = "I'll turn the heat to eleven when I'm\nbustin on you, I'm Mr. T. in this\nmatch and I pity you, ____.", rhymes = ["foo", "r2d2", "too"], answer = "foo")
+    $ tyrone11 = Rap(line = "You fancy yourself a dragon? Bitch,\nthat's cute. You got the weight of a\nlizard in a cheap ass ____.", rhymes = ["suit", "route", "loot"], answer = "suit")
+    $ tyrone12 = Rap(line = "I'm a real dragon slayer, and pussy\nslayer to boot, I got a harem in my lair,\nwhat you got? ____?", rhymes = ["Fruit", "cute", "mute"], answer = "Fruit")
+    $ tyrone13 = Rap(line = "You couldn't roast me, even if you\nhad MY fire, You going to lose this battle\nnow that you provoked my ____.", rhymes = ["ire", "gyr", "squire"], answer = "ire")
+    $ tyrone14 = Rap(line = "You think you'd beaten me when I\nstart to bleed? This is an underdog\nstory, that's the motivation I ____.", rhymes = ["need", "bead", "deed"], answer = "need")
+    $ tyrone15 = Rap(line = "I got the impact like a bullet to\nthe brain, you front on me?\nYou must be ____.", rhymes = ["insane", "krain", "inane"], answer = "insane")
+    $ tyrone16 = Rap(line = "I seen through you and I know what\nyou are. Go own home boy, take yo\nRasta ass ____.", rhymes = ["far", "bar", "car"], answer = "far")
     $ tyrone_list2 = [tyrone9, tyrone10, tyrone11, tyrone12, tyrone13, tyrone14, tyrone15, tyrone16]
-    $ tyrone17 = Rap(line = "Подожди, дай мне начать битву на этот раз. \nЭто упреждающий удар, надрать тебе задницу ____.", rhymes = ["стишком", "грязью", "центами"], answer = "стишком")
-    $ tyrone18 = Rap(line = "Я бил твоих ребят, ты последний в списке, \nЧико командовал, а Чад был ____.", rhymes = ["уволен", "шипел", "бухой"], answer = "уволен")
-    $ tyrone19 = Rap(line = "Я бы сказал, что уже убил тебя, \nно ты все еще дышишь, и это скоро будет исправлено, \nты, сырая ____ задница.", rhymes = ["языческая", "фримэн", "спермой"], answer = "языческая")
-    $ tyrone20 = Rap(line = "Я слышал твой рэп и слушал, как ты сорвался, \nпришло время уложить вас в постель с физраствором ____ физраствором.", rhymes = ["капельничным", "клип", "вырвано"], answer = "капельничным")
-    $ tyrone21 = Rap(line = "Я бы посмотрел тебе в глаза, \nно я не вижу сквозь дым, ты думал, \nчто плюешься огнем, но твоя задница ____.", rhymes = ["посмешище", "чувак", "дубак"], answer = "посмешище")
-    $ tyrone22 = Rap(line = "У меня лед в венах, я порочный и холодный. \nЯ прикончу тебя прямо здесь, \nу тебя не будет шанса получить ____.", rhymes = ["старье", "смелость", "холод"], answer = "старье")
-    $ tyrone23 = Rap(line = "Запомни мои слова, когда я положил твою задницу на стул, \nты просил об этом в начале, \nкогда ты назвал меня ____.", rhymes = ["клоуном", "педиком", "хмурым"], answer = "клоуном")
-    $ tyrone24 = Rap(line = "Кто смеется сейчас, сучка? Ты не очень хорошо выглядишь, \nя здесь, я показал тебе, это мой ____.", rhymes = ["район", "дерево", "состояние"], answer = "район")
+    $ tyrone17 = Rap(line = "Hold up, let me start the battle this\ntime. It's a preemptive strike,\nkicking your ass with ____.", rhymes = ["rhyme", "grime", "dime"], answer = "rhyme")
+    $ tyrone18 = Rap(line = "I beat your boys, you the last on the\nlist, Chico was commanded,\nand Chad was ____.", rhymes = ["dissmissed", "hissed", "pissed"], answer = "dissmissed")
+    $ tyrone19 = Rap(line = "I'd say I already killed you, but you\nstill breathin, and that's about to\nbe corrected, you dank ass ____.", rhymes = ["heathen", "freeman", "semen"], answer = "heathen")
+    $ tyrone20 = Rap(line = "I've heard your raps and listened to\nyou rip, It's time to put you to bed\nwith a saline ____.", rhymes = ["drip", "clip", "rip"], answer = "drip")
+    $ tyrone21 = Rap(line = "I'd look you in the eye, but I can't\nsee through the smoke, you thought you\nspit fire, but yo ass is a ____.", rhymes = ["joke", "bloke", "croak"], answer = "joke")
+    $ tyrone22 = Rap(line = "I got ice in my veins, I'm vicious\nand cold. I'll end you right here, you\nwon't have a chance to get ____.", rhymes = ["old", "bold", "cold"], answer = "old")
+    $ tyrone23 = Rap(line = "Remember my words when I put your\nass down, you asked for this in the\nbeginning when you called me a ____.", rhymes = ["clown", "down", "frown"], answer = "clown")
+    $ tyrone24 = Rap(line = "Who's laughing now, bitch? You don't\nlook so good, I'm here now,\nI showed you, This is MY ____.", rhymes = ["hood", "wood", "stood"], answer = "hood")
     $ tyrone_list3 = [tyrone17, tyrone18, tyrone19, tyrone20, tyrone21, tyrone22, tyrone23, tyrone24]
-    $ tyrone25 = Rap(line = "Я остановлю тебя прямо здесь, ясно, что ты закончил. \nУ тебя закончился рэп, и я должен ____.", rhymes = ["тонну", "телефон", "ничего"], answer = "тонну")
-    $ tyrone26 = Rap(line = "Так что я возьму твою лодку и поплыву по рэп-морю. \nНепобедимый и бесспорный, лучший ____.", rhymes = ["Мс", "Дс", "ПК"], answer = "Мс")
-    $ tyrone27 = Rap(line = "Я победил твою команду и теперь ты кланяешься, \nпосмотри на меня, сука, я ____ капитан.", rhymes = ["сейчас", "корова", "голубок"], answer = "сейчас")
+    $ tyrone25 = Rap(line = "I'm a stop you right there, it's clear\nthat you're done. You're straight outta raps,\nand I gotta ____.", rhymes = ["ton", "phone", "none"], answer = "ton")
+    $ tyrone26 = Rap(line = "So i'll take your boat, and sail the\nrap sea. Undefeated and undisputed,\nbest ____.", rhymes = ["MC", "DC", "PC"], answer = "MC")
+    $ tyrone27 = Rap(line = "I've defeated your crew and now you\nbow, Look at me, bitch,\nI'm the Captain ____.", rhymes = ["now", "cow", "dove"], answer = "now")
     $ tyrone_list4 = [tyrone25, tyrone26, tyrone27]
 
     $ player_point = 0
 
-    if rap_opponent == "Чико":
+    if rap_opponent == "Chico":
         jump chico01
 
-    elif rap_opponent == "Чад":
+    elif rap_opponent == "Chad":
         jump chad01
 
-    elif rap_opponent == "Тайрон":
+    elif rap_opponent == "Tyrone":
         jump tyrone01
 
 label chico01:
@@ -117,37 +108,37 @@ label chico01:
     if player.stats.chr() > 3:
         $ chico_random = renpy.random.randint(1,4)
     if player.stats.chr() == 0 or chico_random == 1:
-        show text "{size=17}Ты думаешь, что можешь противостоять мне белый хлебушек? \nеще до того, как ты начнешь, ты уже труп!{/size}" at Position(xpos = 320, ypos = 675)
+        show text " {size=17}You think you can stand up to me\nwhite bread?\nEven before you start, you're already dead!{/size}" at Position(xpos = 320, ypos = 675)
         $ renpy.pause()
         hide text
-        show text "{size=17}Ты такой пресный как простой тост; \n Дай мне показать тебе, как амигское западное жаркое!{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}You so bland you like plain ol' toast;\nLemme show you how the western ESE roast!{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chico_list4
 
     elif player.stats.chr() == 1 or chico_random == 2:
-        show text "{size=17}Ты вернулся, но ты должен был бежать,\nвот вот тебя изобьет латино-американец.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}You back, but you should have ran,\nabout to get whipped by the latino man.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Это наш парк, и твоя задница под запретом,\nТебе лучше уйти сейчас, и это приказ.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}This is our park, and your ass is banned,\nYou best leave now, and that's a command.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chico_list2
 
     elif player.stats.chr() == 2 or chico_random == 3:
-        show text "{size=17}Как ты себя чувствуешь, с парочкой побед?\nсовершенствуйся и будешь признан как родной.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}You feeling yourself, with a couple of wins?\nStep up hard and be recognized as kin.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Так что брось пару брусков и рок это бит,\nили тащи свою задницу домой и гоняй лысого.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}So drop some bars and rock this beat,\nor take your ass home and beat your meat.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chico_list3
 
     elif player.stats.chr() == 3 or chico_random == 4:
-        show text "{size=17}Посмотрите на этого дурака,он потрясен.\nЯ знаю, что этот дурак ошибся,{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}Look at this fool, he's shaken.\nI know this fool mistaken,{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Он всегда думал что может подойти ко мне\nДолжно быть он ударился головой об дерево.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}For ever thinking he could step to me,\nMust have bumped his head at three.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chico_list
@@ -162,46 +153,46 @@ label chad01:
     if player.stats.chr() > 6:
         $ chad_random = renpy.random.randint(1,3)
     if player.stats.chr() == 4 or chad_random == 1:
-        show text "{size=17}Я знаю, мы только познакомились и я ненавижу быть грубым,\nноЧико должен был покончить с тобой\nты не должен быть здесь, чувак.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}I know we just met and I hate to be rude,\nBut Chico should have ended you man,\nyou shouldn't be here dude.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Но добро пожаловать на мой урок,\nшкола вот-вот начнется,\nсадись мальчик, ты захочешь скопировать это искусство.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}But welcome to my class,\nschool's about to start,\nTake a seat boy, you'll wanna copy this art.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Ты мог бы научиться чему-то выступая против \nчеловека который овладел этим, поверь мне, тебе нежно\nулучшить свое чтение,потому что ты уродливый ублюдок.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}You might learn something rapping against\na man who mastered, trust me, you'll\nneed refined flows, because you a ugly bastard.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Урок закончен и больше тебе здесь нечего делать\nя вдохнул свой рэп в тебя,\nи оно капает с твоих ушей.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Class is over and there is nothing left for\nyou here, I blew my rap load in your face,\nand it's dripping from your ear.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chad_list
 
     elif player.stats.chr() == 5 or chad_random == 2:
-        show text "{size=17}Ты снова вернулся и звонок скоро зазвонит,\n Школа на сессии давайте сделаем это.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}You're back again and the bell's about to ring,\nSchool is in session let's do this thing.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}В прошлый раз я был почти впечатлен, но ты все равно\nужасен. Ты сам сделал эту дрянь?\n твои щорты липкие, как гель для волос.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I was almost impressed last time, but you still\nwack as hell. You been jacking it alone?\nYour shorts sticky as hair gel.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Но хватит о тебеu, давай поговорим обо мне,\nя самый спокойный в районе но\nсейчас я задам жару.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}But enough about you, let's talk about me,\nI'm the chillest around but\nI'm gonna bring the heat.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Как осечка,\nэта битва уже закончена\nЯ приготовил тебя, чувак, здавайся.Я выйграл.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Like a flash in the pan,\nthis battle's already done\nI've cooked you dude, give up. I've won.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chad_list2
 
     elif player.stats.chr() == 6 or chad_random == 3:
-        show text "{size=17}Моя кожа светлая, но мое сердце темное,\nТы в моем районе парень,Я управляю этим парком.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}My skin is light, but my heart is dark,\nYou in my hood boy, I run this park. {/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Ты подошел ко мне в шортах и сандалиях,\nУ меня огненный рэп, слишком жаркий для обращения.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Stepped to me in shorts and sandals,\nI got the fire raps, too hot to handle.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}У меня было это злобное остроумие,сделать тебя тупым\nв вонючем говне, думал, ты пойдешь и ударишь,\nно я увидел сперму на твоем месте.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I been had that wicked wit, Make you dumb\non stupid shit, Think you gonna go and hit,\nbut I seen cum where you sit.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Ты думал, что ты прошел,но ты только промахнулся,\nшкола закрыта на лето\nи твоя задница свободна.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}You thought you passed, but you only missed,\nSchool’s out for summer\nand your ass is dismissed.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = chad_list3
@@ -216,55 +207,55 @@ label tyrone01:
     if player.stats.chr() > 9:
         $ tyrone_random = renpy.random.randint(1,3)
     if player.stats.chr() == 7 or tyrone_random == 1:
-        show text "{size=17}Не кричи, не волнуйся, я приду с применением силы \nпрыгну в окно и вышибу двери.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}Don't front, don't fret, I'm comin' with force\njumping in windows and kicking in doors{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Был как полицейский тут служащий,\n орестую твою задницу которая этого заслуживает.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Be like the police up in here serving,\nwarrants on yo ass that you deserving.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Я самая плохая Раста, которую ты когда-либо видел,\nэто была твоя ошибка, когда ты начал доставать меня.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I'm the baddest Rasta that you'll ever see,\nit was a mistake when you started fuckin' with me.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Я разогреваю этот ритм и начал этого угля,\nприготовил этого маленького MC как запеканку.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I'm a heat up this beat and start up the coal,\ncook this little MC like a casserole. {/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Пока я буду на кухне, я сделаю брауни,\nнужна помощь от этого дурака пытающимся порадировать меня.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}While I'm in the kitchen I'll make a brownie,\nneed relief from this fool tryin' to clown me.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Обратно на улицы и в мой квартал,\nЯ в своем районе от моей головы до кончика моего члена.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Back to the streets and onto my block,\nI'm hood from my head to the tip my cock.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}И никогда не забудь, как ты добрался до меня,\n едва наскребывая каждую победу.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}And never forget how you made it to me,\nbarely scraping through with each victory.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Теперь, когда я закончил и сбросил эту бомбу,\nя зайду к тебе и брошу твою кровать и трахну твою мать.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Now that I finished and dropped this bomb,\nI'll drop by your crib and fuck your mom.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = tyrone_list
 
     elif player.stats.chr() == 8 or tyrone_random == 2:
-        show text "{size=17}Вернись на место, время начать все сначала,\nповесить микрофон сука,ты знаешь что я победил.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}Back in the spot, time to start again,\nhang up the mic bitch, you know imma win.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Мой РЭП быстрее, а разум быстрее,\nты идешь ко мне,ты шагаешь к мастеру.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}My raps are fast and mind is faster,\nYou step to me, you step to a master.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Я твой последний босс в твоем маленьком квесте,\nУ меня адский огненный дождь и сейчас пойдет ливень.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I am the final boss of this little quest of yours,\nI got hellfire rain and it's about to downpour.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Я плюю жару изо рта, как китайский дракон,\nЯ зажарю тебя живьем, мальчик и глотну с бутыля.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}I spit heat from my mouth like Chinese dragon,\nI'll roast you alive boy and sip the flagon.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Зажгу затяжку от жары твоего пепла,\n дунул, дунул передал с рук в руки к массам.{/size}" at Position(xpos = 320, ypos = 670)
+        show text " {size=17}Light up the toke from the heat of your ashes,\npuff puff pass and hand off to the masses.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Толпа соберется, когда мы засунем тебя в грязь,\nЯ утешу твою мамку, когда ей будет больно.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}A crowd will gather as we put you in the dirt,\nI'll comfort your moms when her feelings are hurt.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17} Я привезу ее к себе и засуну ей глубоко свой член, мистер,\nпосле брошу её задницу и приду за твоей сестрой.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Take her back to my place and dick her deep, mister,\nthrow her ass away and go after your sister.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
-        show text "{size=17}Мораль этой истории в том что я убью тебя дурень,\nлирически непревзойденный, когда твоя кровь станет бассейном.{/size}" at Position(xpos = 320, ypos = 670)
+        show text "{size=17}Morale of the story is I'll kill you fool,\nlyrically unmatched, when your blood starts to pool.{/size}" at Position(xpos = 320, ypos = 670)
         $ renpy.pause()
         hide text
         $ temp_list = tyrone_list2
@@ -275,32 +266,32 @@ label tyrone01:
     call screen rapbattle
 
 label tyrone02:
-    show text "{size=17}Я думал, что ты здесь последний раз,\nна этот раз я прикончу тебя, как бомбу.{/size}" at Position(xpos = 320, ypos = 670)
+    show text " {size=17}I thought you had enough last time you here,\nthis time I'll finish you like a blast to the ear.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
-    show text "{size=17}Ты видишь, Я был в этом парке гораздо дольше, чем ты.,\nя поднялся из грязи в князи и получил эту банду.{/size}" at Position(xpos = 320, ypos = 670)
+    show text "{size=17}You see, I been in this park much longer than you,\nfought up from the bottom and earned this crew.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
-    show text "{size=17}Ты думаешь, что можешь прийти сюда и зажигать на моей лодке?\nЯ вышвырну тебя за борт и посмотрим, поплывешь ли ты.{/size}" at Position(xpos = 320, ypos = 670)
+    show text "{size=17}You think you can come here rocking my boat?\nI'll kick you overboard and see if you float.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
-    show text "{size=17}Не могу поверить, что ты пришел сюда,и плюешься своим сыром,\nты не пройдешь мимо меня, Я брошу тебя с легкостью.{/size}" at Position(xpos = 320, ypos = 670)
+    show text "{size=17}I can't believe you got here spittin' your cheese,\nyou won't get past me, I'll drop you with ease.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
-    show text "{size=17}Так что теперь пришло время поставить тебя на свое место,\nЯ устал от тебя, мальчик, терпеть не могу твое гребаное лицо.{/size}" at Position(xpos = 320, ypos = 670)
+    show text " {size=17}So now it's time to put you in your place,\nI'm tired of you boy, can't stand your fuckin' face.{/size}" at Position(xpos = 320, ypos = 670)
     $ renpy.pause()
     hide text
     $ temp_list = tyrone_list4
     $ player_point = 0
     $ renpy.random.shuffle(temp_list[player_point].rhymes)
-    call screen rapbattle
+    call screen rapbattle  
 
 label end_phase:
-    if rap_opponent == "Чико":
+    if rap_opponent == "Chico":
         $ time_count = 7
         $ timer_range = 7
 
-    elif rap_opponent == "Чад" or rap_opponent == "Тайрон":
+    elif rap_opponent == "Chad" or rap_opponent == "Tyrone":
         $ time_count = 9
         $ timer_range = 9
     $ player_point += 1
@@ -321,13 +312,13 @@ label rapbattle_win:
     $ renpy.suspend_rollback(False)
     $ renpy.checkpoint()
     scene park_bench
-    if rap_opponent == "Чико":
+    if rap_opponent == "Chico":
         call expression game.dialog_select("rapbattle_win_chico")
 
-    elif rap_opponent == "Чад":
+    elif rap_opponent == "Chad":
         call expression game.dialog_select("rapbattle_win_chad")
 
-    elif rap_opponent == "Тайрон":
+    elif rap_opponent == "Tyrone":
         $ A_eminem.unlock()
         call expression game.dialog_select("rapbattle_win_tyrone")
 
@@ -339,7 +330,7 @@ label rapbattle_win:
     with dissolve
 
     $ game.timer.tick()
-    if (rap_opponent == "Чико" and player.stats.chr() < 4) or (rap_opponent == "Чад" and player.stats.chr() < 7) or (rap_opponent == "Тайрон" and player.stats.chr() < 10):
+    if (rap_opponent == "Chico" and player.stats.chr() < 4) or (rap_opponent == "Chad" and player.stats.chr() < 7) or (rap_opponent == "Tyrone" and player.stats.chr() < 10):
         $ player.stats.increase("chr")
         show unlock23 at truecenter with dissolve
         pause
@@ -356,65 +347,65 @@ label rapbattle_win_chico:
     show chico 3
     show douche 2 at right
     with dissolve
-    chi "Ты чекнутый, мужик!"
+    chi "You loco, man!"
     show chico 2
-    chi "...Это было хорошо..."
+    chi "...That was good..."
     show chico 1
     show player 77
-    player_name "Спасибо!"
+    player_name "Thanks!"
     show chico 2
     show player 76
-    chi "Хорошо, мужик, Мир!!"
+    chi "Aight, man, peace!"
     return
 
 label rapbattle_win_chad:
     show player 203 at left
     show chad 2 at right
     with dissolve
-    chad "Неплохо пацан. Очень даже не плохо"
-    chad "Возможно, я тебя немного недооценил."
+    chad "Not bad kid. Not bad at all."
+    chad "Maybe I misjudged you a bit."
     show chad 1
     show player 2
-    player_name "Спасибо. Ты тоже был хорош!"
+    player_name "Thanks. You were good, too."
     return
 
 label rapbattle_win_tyrone:
     show player 203 at left
     show tyrone 2 at right
     with dissolve
-    tyrone "Не буду врать, что было не так уж плохо."
-    tyrone "Я хочу снова тебя здесь увидеть, хорошо?"
+    tyrone "Not going to lie that wasn't half bad."
+    tyrone "I want to see you around here again aight."
     show player 2
     show tyrone 1
-    player_name "Конечно, посмотрим."
+    player_name "Sure I’ll see."
     return
 
 label rapbattle_win_after_eve:
     show player 76 at left
     show eve 4 at right
     with dissolve
-    eve "Ух ты! Это было великолепно!"
+    eve "Wow! That was great!"
     show player 77
     show eve 5
-    player_name "Спасибо!"
+    player_name "Thanks!"
     show eve 7
     show player 76 at left
-    eve "Ты уверен, что это был твой первый раз??"
+    eve "Are you sure this was your first time??"
     show eve 5
     show player 71
-    player_name "Да!"
+    player_name "Yeah!"
     show eve 6
     show player 76
-    eve "Ну, я рада, что ты попробовал. Ты должен вернуться снова в ближайшее время!"
+    eve "Well, I'm glad you tried it. You should come back again, soon!"
     show eve 5
     show player 77
-    player_name "Конечно! Я думаю, что смогу!"
+    player_name "Sure! I think I will!"
     show eve 6
     show player 76
-    player_name "Сейчас, мне нужно идти домой! Увидимся в следующий раз!"
+    player_name "I have to go home now! I'll see you next time!"
     show eve 5
     show player 77
-    eve "Окей. Спокойной ночи!"
+    eve "Okay. Good night!"
     hide player
     hide eve
     with dissolve
@@ -426,14 +417,14 @@ label rapbattle_lose:
     $ renpy.suspend_rollback(False)
     $ renpy.checkpoint()
     scene park_bench
-    if rap_opponent == "Чико":
-        call expression game.dialog_select("rapbattle_win_chico")
+    if rap_opponent == "Chico":
+        call expression game.dialog_select("rapbattle_lose_chico")
 
-    elif rap_opponent == "Чад":
-        call expression game.dialog_select("rapbattle_win_chad")
+    elif rap_opponent == "Chad":
+        call expression game.dialog_select("rapbattle_lose_chad")
 
-    elif rap_opponent == "Тайрон":
-        call expression game.dialog_select("rapbattle_win_tyrone")
+    elif rap_opponent == "Tyrone":
+        call expression game.dialog_select("rapbattle_lose_tyrone")
 
     hide player
     hide chico
@@ -458,63 +449,63 @@ label rapbattle_lose_chico:
     show chico 3
     show douche 2 at right
     with dissolve
-    chi "Йоу! Это были какие-то слабые тексты!"
+    chi "Yo! That was some weak lyrics!"
     show chico 1
     show player 75
     player_name "..."
     show chico 4
-    chi "Убирайся отсюда, фуууу!"
+    chi "Get outta here, foo!"
     return
 
 label rapbattle_lose_chad:
     show player 3 at left
     show chad 4 at right
     with dissolve
-    chad "Я чувствую себя оскорбленным."
+    chad "Yo I feel so insulted right now."
     show chad 3
-    chad "У тебя хватило яиц подойти ко мне, но затем ты пришел ко мне с этим мусором!"
-    chad "Лучше бы мне больше никогда не видеть тебя здесь!"
+    chad "You had the balls to step up to me, but then come to me with this trash!"
+    chad "I'd better never see your face around here again!"
     return
 
 label rapbattle_lose_tyrone:
     show player 3 at left
     show tyrone 3 at right
     with dissolve
-    tyrone "Зачем ты все равно пришел сюда?"
-    tyrone "Пришел и потратил впустую мое время. Теперь я в бешенстве."
-    tyrone "Тебе нужно личное сопровождение или типа того!? Уйди!"
+    tyrone "Why'd you even come here?"
+    tyrone "Went and wasted my time. Now, I’m pissed"
+    tyrone "You need a personal escort or something!? Leave!"
     return
 
 label rapbattle_lose_after_eve:
     show player 71 at left
     show eve 1 at right
     with dissolve
-    player_name "Это было довольно плохо..."
+    player_name "That was pretty bad..."
     show eve 6
     show player 76
-    eve "Хахаха, не то слово..."
+    eve "Haha! Yeah..."
     show eve 7
-    eve "Но все в порядке, у тебя все получится."
+    eve "But it's okay; you'll get better at it."
     show eve 1
     show player 71
-    player_name "Я не знаю, подхожу ли я для этого..."
+    player_name "I don't know if I'm cut out for this..."
     show eve 6
     show player 76
-    eve "Не смей так говорить!"
+    eve "Don't say that!"
     show eve 7
-    eve "Ребята узнают тебя, так что все будет не так плохо."
+    eve "The guys will get to know you, so it won't be so bad."
     show eve 1
     show player 71
-    player_name "Да. Возможно..."
+    player_name "Yeah. Perhaps..."
     show eve 6
     show player 76
-    eve "Я должна идти, но я думаю, что ты должен вернуться снова в следующий раз!"
+    eve "I have to go now, but I think you should come back again next time!"
     show eve 1
     show player 77
-    player_name "Хорошо. Спокойной ночи!"
+    player_name "Alright. Good night!"
     show eve 6
     show player 76
-    eve "Увидимся!"
+    eve "See ya!"
     hide player
     hide eve
     with dissolve

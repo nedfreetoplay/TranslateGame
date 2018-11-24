@@ -8,7 +8,7 @@ label home_entrance:
         $ erik_bullying.finish()
 
 
-    elif M_mia.is_state(S_mia_angelicas_impatience):
+    if M_mia.is_state(S_mia_angelicas_impatience):
         call expression game.dialog_select("entrance_mia_angelicas_impatience")
         $ M_mia.trigger(T_angelica_house_visit)
 
@@ -23,7 +23,7 @@ label home_entrance:
         $ M_mia.trigger(T_angelica_strapon_request)
 
 
-    elif M_mom.is_state(S_mom_overheard):
+    if M_mom.is_state(S_mom_overheard):
         call expression game.dialog_select("entrance_mom_overheard")
         $ M_mom.trigger(T_mom_check)
 
@@ -55,10 +55,10 @@ label home_entrance:
     elif M_mom.is_state(S_mom_hang_out) and not game.timer.is_dark():
         call expression game.dialog_select("entrance_mom_hang_out")
         menu:
-            "Да.":
+            "Yes.":
                 call expression game.dialog_select("entrance_mom_hang_out_yes")
                 $ M_mom.trigger(T_mom_hang_out_accept)
-            "Нет.":
+            "No.":
 
 
                 call expression game.dialog_select("entrance_mom_hang_out_no")
@@ -90,33 +90,54 @@ label home_entrance:
     elif M_mom.is_state(S_mom_midnight_search):
         jump mom_midnight_swim
 
-    elif sister.started(sis_couch01) and game.timer.is_evening():
+    if M_jenny.is_state(S_jenny_couch_naughty_time) and game.timer.is_evening():
         call expression game.dialog_select("entrance_sis_couch_1")
 
-    elif sister.started(sis_couch02) and game.timer.is_evening():
+    elif M_jenny.is_state(S_jenny_couch_naughty_time_tier_2) and game.timer.is_evening():
         call expression game.dialog_select("entrance_sis_couch_2")
 
-    elif sister.started(sis_couch03) and game.timer.is_evening() and (not M_mom.is_state(S_mom_sleepover) or not L_home_livingroom.is_here(M_mom)):
+    elif M_jenny.is_state(S_jenny_couch_naughty_time_tier_3) and game.timer.is_evening() and (not M_mom.is_state(S_mom_sleepover) or not L_home_livingroom.is_here(M_mom)):
         call expression game.dialog_select("entrance_sis_couch_3")
         jump home_livingroom_dialogue
 
-    elif M_bissette.is_state(S_bissette_roxxy_jenny_mentoring) and game.timer.is_afternoon():
+    if M_bissette.is_state(S_bissette_roxxy_jenny_mentoring) and game.timer.is_afternoon():
         if not M_roxxy.get("roxxy trailer sex"):
             call expression game.dialog_select("entrance_bissette_roxxy_jenny_mentoring")
         else:
-            call expression game.dialog_select("entrance_bissette_roxxy_jenny_mentoring_sex")
 
+            call expression game.dialog_select("entrance_bissette_roxxy_jenny_mentoring_sex")
         $ M_bissette.trigger(T_bissette_roxxy_jenny_hangout)
+
+    if M_diane.is_state(S_diane_debbie_evening_visit) and game.timer.is_evening():
+        call expression game.dialog_select("entrance_diane_debbie_evening_visit_overhear")
+
+    elif M_diane.is_state(S_diane_debbie_drop_off_request) and game.timer.is_dark():
+        call expression game.dialog_select("entrance_diane_debbie_drop_off_request")
+        $ M_diane.trigger(T_diane_debbie_request)
+
+    elif M_diane.is_state(S_diane_couch_crashing):
+        call expression game.dialog_select("entrance_diane_couch_crashing")
+        $ M_diane.trigger(T_diane_moved_in)
+        $ game.timer.tick(3)
+        $ game.main()
+
+    elif M_diane.is_state(S_diane_peeking) and game.timer.is_evening():
+        call expression game.dialog_select("entrance_diane_peeking")
+
+    if game.timer.is_evening() and M_diane.pregnancy.gave_birth and not M_diane.pregnancy.gave_birth_dialogue_seen:
+        call expression game.dialog_select("entrance_diane_gave_birth_dialogue_seen")
+        $ M_diane.pregnancy.gave_birth_dialogue_seen = True
+
     $ game.main()
 
 label vacuum_dialogue:
     call expression game.dialog_select("entrance_mom_vacuum")
     menu:
-        "Позволь помочь.":
+        "Let me help.":
             call expression game.dialog_select("entrance_mom_vacuum_yes")
             $ game.timer.tick()
             $ M_mom.trigger(T_mom_vacuumed)
-        "Это слишком громко.":
+        "It's too loud.":
             call expression game.dialog_select("entrance_mom_vacuum_no")
     $ M_mom.set("chores", False)
     $ game.main()

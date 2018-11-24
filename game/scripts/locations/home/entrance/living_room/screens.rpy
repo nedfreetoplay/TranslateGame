@@ -4,15 +4,30 @@ screen living_room:
     else:
         add game.timer.image("backgrounds/location_home_livingroom_day{}.jpg")
 
-    if sister.started(sis_couch01) and game.timer.is_evening() and (M_mom.get_state() != S_mom_sleepover or not player.location.is_here(M_mom)):
+    if M_jenny.is_state(S_jenny_couch_naughty_time) and L_home_livingroom.is_here(M_jenny):
         imagebutton:
             focus_mask True
             pos (412,331)
             idle "images/objects/object_tv_02_night.png"
             hover HoverImage("images/objects/object_tv_02_night.png")
             action Hide("living_room"), Jump("couch_dialogue")
-
     else:
+        if L_home_livingroom.is_here(M_diane) and not M_mom.is_state(S_mom_romance_movie, S_mom_romance_movie_two, S_mom_spy) and not M_mom.get("movie night"):
+            if M_diane.pregnancy.gave_birth:
+                imagebutton:
+                    focus_mask True
+                    pos (653,386)
+                    idle "objects/character_diane_casual_" + M_diane.pregnancy.baby_gender +".png"
+                    hover HoverImage("objects/character_diane_casual_" + M_diane.pregnancy.baby_gender +".png")
+                    action Hide("living_room"), Jump("aunt_button_dialogue")
+            else:
+                imagebutton:
+                    focus_mask True
+                    pos (331,480)
+                    idle "objects/object_couch_02.png"
+                    hover HoverImage("objects/object_couch_02.png")
+                    action Hide("living_room"), Jump("aunt_button_dialogue")
+
         imagebutton:
             focus_mask True
             pos (1002,251)
@@ -148,4 +163,72 @@ screen sis_couch_sex_options:
             idle "buttons/speed_01.png"
             hover HoverImage("buttons/speed_01.png")
             action Hide("sis_couch_sex_options"), Function(M_jenny.set, "sex speed", M_jenny.get("sex speed") - 0.1), Jump("sis_couch_sex_loop")
+
+screen debbie_movie_night_couch_blowjob_options:
+
+    imagebutton:
+        pos (250,700)
+        focus_mask True
+        idle "buttons/judith_stage02_01.png"
+        hover HoverImage("buttons/judith_stage02_01.png")
+        action Hide("debbie_movie_night_couch_blowjob_options"), Jump("debbie_movie_night_couch_blowjob_loop")
+
+    imagebutton:
+        pos (450,700)
+        focus_mask True
+        idle "buttons/judith_stage02_02.png"
+        hover HoverImage("buttons/judith_stage02_02.png")
+        action Hide("debbie_movie_night_couch_blowjob_options"), Jump("debbie_movie_night_couch_blowjob_cum")
+
+    if M_mom.get('sex speed') < .175:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_02.png"
+            hover HoverImage("buttons/speed_02.png")
+            action Hide("debbie_movie_night_couch_blowjob_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") + 0.05), Jump("debbie_movie_night_couch_blowjob_loop")
+            xpos 250
+            ypos 735
+
+    if M_mom.get('sex speed') > .076:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_01.png"
+            hover HoverImage("buttons/speed_01.png")
+            action Hide("debbie_movie_night_couch_blowjob_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.05), Jump("debbie_movie_night_couch_blowjob_loop")
+            xpos 450
+            ypos 735
+
+screen debbie_movie_night_couch_sex_options:
+
+    imagebutton:
+        pos (250,700)
+        focus_mask True
+        idle "buttons/judith_stage02_01.png"
+        hover HoverImage("buttons/judith_stage02_01.png")
+        action Hide("debbie_movie_night_couch_sex_options"), Jump("debbie_movie_night_couch_sex_loop")
+
+    imagebutton:
+        pos (450,700)
+        focus_mask True
+        idle "buttons/judith_stage02_02.png"
+        hover HoverImage("buttons/judith_stage02_02.png")
+        action Hide("debbie_movie_night_couch_sex_options"), Jump("debbie_movie_night_couch_sex_cum")
+
+    if M_mom.get('sex speed') < .175:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_02.png"
+            hover HoverImage("buttons/speed_02.png")
+            action Hide("debbie_movie_night_couch_sex_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") + 0.05), Jump("debbie_movie_night_couch_sex_loop")
+            xpos 250
+            ypos 735
+
+    if M_mom.get('sex speed') > .076:
+        imagebutton:
+            focus_mask True
+            idle "buttons/speed_01.png"
+            hover HoverImage("buttons/speed_01.png")
+            action Hide("debbie_movie_night_couch_sex_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.05), Jump("debbie_movie_night_couch_sex_loop")
+            xpos 450
+            ypos 735
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

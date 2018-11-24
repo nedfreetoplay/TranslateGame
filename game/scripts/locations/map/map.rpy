@@ -22,8 +22,6 @@ label map_dialogue:
             $ L_warehouse.unlock()
             $ L_beachhouse_front.unlock()
             $ L_map.unlock(False, False)
-            if quest05 not in completed_quests:
-                $ quest_list.append(quest05)
             $ erik.complete_events(erik_intro)
             $ M_erik.place(place = L_erikhouse_basement)
             $ M_erik.force()

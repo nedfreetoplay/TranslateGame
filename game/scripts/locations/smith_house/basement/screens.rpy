@@ -8,18 +8,12 @@ screen smiths_basement:
             idle game.timer.image("objects/object_door_121{}.png")
         else:
             idle game.timer.image("objects/object_door_122{}.png")
+        action NullAction()
 
-        if game.timer.is_dark():
-            hover HoverImage("objects/object_door_122_night.png")
-        else:
-            hover HoverImage("objects/object_door_122.png")
+    imagebutton:
+        focus_mask True
+        align 0.5,0.97
+        idle "boxes/auto_option_generic_01.png"
+        hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("smiths_basement"), Jump("smiths_entrance_dialogue")
-
-
-    #imagebutton:
-    #    focus_mask True
-    #    align 0.5,0.97
-    #    idle "boxes/auto_option_generic_01.png"
-    #    hover HoverImage("boxes/auto_option_generic_01.png")
-    #    action Hide("smiths_basement"), Jump("smiths_entrance_dialogue")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

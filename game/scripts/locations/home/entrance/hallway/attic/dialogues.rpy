@@ -1,15 +1,17 @@
 label attic_first_visit:
-    show expression Cutscene("home_attic_cs", "Используя ключ и табурет, я смог попасть на наш чердак.\nЯ никогда не был здесь раньше.\nЯ был полон волнения, задаваясь вопросом, какие сокровища {b}[deb_name]{/b} и папа спрятали там.") as cutscene with fade
-    with dissolve
+    scene expression "backgrounds/location_home_attic_cutscene.jpg"
+    show expression FilteredText("Using the key and stool, I was able to get into our attic.\nI had never been up there before.\nI was filled with excitement wondering what treasures {b}[deb_name]{/b} and dad had stashed away.") as cutscene at Position (xpos= 512, ypos= 700)
+    with fade
     pause
     hide cutscene
-    with dissolve
+    scene black
+    with fade
     return
 
 label painting:
     scene expression game.timer.image("attic{}")
     show expression "objects/closeup_painting01.png" with dissolve
-    player_name "{b}[deb_name]{/b} любила рисовать домашних животных..."
+    player_name "{b}[deb_name]{/b} used to love painting farm animals..."
     hide expression "objects/closeup_painting01.png" with dissolve
     $ A_rooster.unlock()
     $ game.main()

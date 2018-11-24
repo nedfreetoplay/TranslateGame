@@ -6,62 +6,58 @@ label hallway_dialogue:
         $ playSound("<loop 1>audio/ambience_shower_hallway.ogg")
 
     if not game.timer.is_dark():
-        if hallway_count == 0:
-            label jenny_intro:
-            call expression game.dialog_select("hallway_sis_start")
+        if M_jenny.is_state(S_jenny_start):
+            call expression game.dialog_select("hallway_jenny_start")
             call screen jen_name_input
             if jen_char_name.strip() == "":
-                $ jen_char_name = "Джени"
+                $ jen_char_name = "Jenny"
             $ config.replay_scope["jen_char_name"] = jen_char_name
             $ persistent.jen_char_name = jen_char_name
             $ jen = Character("[jen_char_name]", color="#ff6df0")
-            $ hallway_count = 1
+            $ M_jenny.trigger(T_jenny_hallway)
 
         elif M_mom.is_state(S_mom_sis_boobs_afterthoughts):
             call expression game.dialog_select("hallway_mom_sis_boobs_afterthoughts")
             $ M_mom.trigger(T_mom_sis_nice_boobs)
 
-        elif sister.started(sis_hallway01) and sister.over(sis_shower_cuddle02):
+        elif M_jenny.is_state(S_jenny_hallway_meetup):
             call expression game.dialog_select("hallway_sis_hallway_1_started")
-            $ sis_hallway01.finish()
-            $ sister.add_event(sis_couch01)
+            $ M_jenny.trigger(T_jenny_hallway_chat)
 
-        elif sister.started(sis_hallway02) and sister.over(sis_telescope02) and M_mom.is_set("jerk available"):
+        elif M_jenny.is_state(S_jenny_hallway_meetup_focus):
             call expression game.dialog_select("hallway_sis_hallway_2_started")
-            $ sis_hallway02.finish()
-            $ sister.add_event(sis_shower_cuddle03)
+            $ M_jenny.trigger(T_jenny_hallway_chat_focus)
 
-        elif sister.started(sis_final) and sister.completed(sis_shower_cuddle04):
+        elif M_jenny.is_state(S_jenny_hallway_noises):
             call expression game.dialog_select("hallway_sis_final_started")
 
-
-        elif sister.over(sis_final) and not sister.known(sis_final2):
+        elif M_jenny.is_state(S_jenny_overhear_caught):
             call expression game.dialog_select("hallway_sis_final_over")
-            $ sister.add_event(sis_final2)
+            $ M_jenny.trigger(T_jenny_stream_idea)
 
         if L_home_shower.is_here(M_jenny) and (
-                sister.started(sis_shower_cuddle01) or
-                sister.started(sis_shower_cuddle02) or
-                sister.started(sis_shower_cuddle03) or
-                sister.started(sis_shower_cuddle04) or
-                sister.started(sis_shower_cuddle05)
+                M_jenny.is_state(S_jenny_shower_peep_bed_cuddle) or
+                M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_2) or
+                M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_3) or
+                M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_4) or
+                M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_5)
         ):
             scene hallway
             show player 14 at left
             with dissolve
-            player_name "( Кто-то принимает душ. )"
+            player_name "( Someone's in the shower. )"
             show player 26
-            player_name "( Думаю, они оставили дверь незапертой... )"
+            player_name "( I think they left the door unlocked... )"
             hide player
             with dissolve
 
         elif M_mom.is_state([S_mom_shower_peek, S_mom_shower_walk_in]) and L_home_shower.is_here(M_mom):
             scene hallway
             show player 14 with dissolve
-            player_name "( Кто-то принимает душ? )"
-            player_name "( Интересно, если это {b}[deb_name]{/b}. )"
+            player_name "( Someone's in the shower? )"
+            player_name "( I wonder if it's {b}[deb_name]{/b}. )"
             show player 26
-            player_name "( Может быть, я могу заглянуть немного... )"
+            player_name "( Maybe I can peek just a little... )"
             hide player with dissolve
     else:
 
@@ -92,11 +88,11 @@ label attic_entry_dialogue:
 
         scene expression game.timer.image("hallway{}")
         show player 34 with dissolve
-        player_name "Хмм..."
+        player_name "Hmm..."
         show player 35
         if not player.has_picked_up_item("stool"):
-            player_name "( Мне нужно {b}стоять{/b} на чём то для открытия... )"
+            player_name "( I need something to {b}stand on{/b} to reach the opening... )"
         else:
-            player_name "( Этот маленький люк {b}заперт{/b}. )"
+            player_name "( That small trap door is {b}locked{/b}. )"
         jump expression game.dialog_select("hallway_dialogue")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,7 +1,7 @@
 label becca_triggers_init:
     python:
 
-        T_becca_beach_sex = Trigger("beach sex", "Главный герой только что переспал с Беккой на пляже.")
+        T_becca_beach_sex = Trigger("beach sex", "MC just had sex with Becca on the beach.")
     return
 
 label becca_fsm_init:

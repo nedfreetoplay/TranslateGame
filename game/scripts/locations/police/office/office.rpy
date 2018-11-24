@@ -3,7 +3,7 @@ label police_office_dialogue:
     if L_police_office.first_visit and player.location.is_here(M_harold):
         call expression game.dialog_select("police_office_first_visit_pre")
         menu:
-            "Где {b}Мия{/b}?":
+            "Where's {b}Mia{/b}?":
                 call expression game.dialog_select("police_office_first_visit_wheres_mia")
                 $ L_police_office.visited()
 

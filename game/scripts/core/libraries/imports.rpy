@@ -9,7 +9,7 @@ init -10 python:
     import re
     import random
     import math
-    from collections import defaultdict, OrderedDict
+    from collections import defaultdict, OrderedDict, Counter
     import weakref
     import codecs
     import hashlib
@@ -19,4 +19,9 @@ init -10 python:
     if renpy.variant("pc"):
         import certifi
         import requests
+    try:
+        import android
+
+    except ImportError:
+        android = None
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

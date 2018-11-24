@@ -1,13 +1,13 @@
 label girls_lockerroom_judith_in_girls_bathroom:
     scene girl_lockerroom
     show player 106 at left with dissolve
-    player_name "Вау! Такая огромная дыра в полу..."
-    player_name "( Неудивительно, что эту раздевалку закрыли! )"
+    player_name "Woah! There's a big hole in the ground in here..."
+    player_name "( No wonder they had to close this lockeroom! )"
     show player 90
     player_name "..."
     show player 10
-    player_name "( Я всё ещё слышу плач. )"
-    player_name "( Здесь точно {b}кто-то есть{/b}... )"
+    player_name "( I can still hear sobbing. )"
+    player_name "( There's definitely {b}someone in here{/b}... )"
     hide player 10 with dissolve
     return
 
@@ -18,103 +18,103 @@ label girls_lockerroom_judith_toilet_first_intro:
     pause
     show player 106f zorder 0 at Position (xpos = 639, ypos = 768) with dissolve
     player_name "!!!"
-    jud "{b}*плачет*{/b}"
+    jud "{b}*Sobbing*{/b}"
     show player 108
-    player_name "{b}Джудит{/b}?!"
+    player_name "{b}Judith{/b}?!"
     show judith 13
     show player 109
-    jud "...привет, {b}[firstname]{/b}."
+    jud "...Hey, {b}[firstname]{/b}."
     show judith 12
     show player 108
-    player_name "Всё хорошо?"
+    player_name "Are you okay?"
     show judith 13
     show player 109
-    jud "Я просто хочу держаться от всех подальше."
+    jud "I just wanted to stay away, from everyone."
     show judith 12
     show player 108
-    player_name "Но почему?"
+    player_name "What do you mean?"
     show judith 13
     show player 109
-    jud "Я никому не нравлюсь... И все смеются над моей внешностью..."
-    jud "...хотя бы здесь надо мной некому смеяться."
+    jud "No one likes me... And everyone makes fun of my body..."
+    jud "...so at least in here I won't be made fun of."
     show judith 12
     show player 108
-    player_name "Ты не должна позволять другим так с собой обращаться!"
+    player_name "You can't let these people get to you that way!"
     show judith 13
     show player 109
-    jud "Они правы. Я уродина..."
+    jud "They're right, though. I am ugly..."
     return
 
 label girls_lockerroom_judith_toilet_first_not_ugly:
     show player 111
     show judith 12
-    player_name "Я не считаю тебя уродиной!!"
+    player_name "I don't think you're ugly at all!!"
     show judith 15
     show player 110
-    jud "...Правда?"
+    jud "...Really?"
     show judith 14
     show player 111
-    player_name "Да!"
-    player_name "По-моему ты хорошо выглядишь!"
+    player_name "Yeah!"
+    player_name "I think you look good!"
     show judith 15
     show player 110
-    jud "Это...самое милое, из всего, что мне говорили..."
+    jud "That's...the nicest thing anyone has said to me..."
     show judith 14
     show player 111
-    player_name "Ну, я правда так считаю... И уверен, что не один я!"
-    player_name "Попробуй не обращать внимание на весь этот негатив."
+    player_name "Well, I'm just being honest... And I'm sure I'm not the only one!"
+    player_name "You just have to ignore all the negative stuff at school."
     show judith 15
     show player 110
-    jud "Думаю ты прав..."
+    jud "I guess you're right..."
     show judith 14
     show player 111
-    player_name "Ладно, нам уже пора на уроки."
+    player_name "Anyway, we should get out of here and get back to class."
     show judith 17
     show player 106f
-    jud "Постой!!"
-    jud "Останься ещё ненадолго... Со {b}мной{/b}..."
+    jud "Wait!!"
+    jud "Stay here a little longer... With {b}me{/b}..."
     return
 
 label girls_lockerroom_judith_toilet_first_ok:
     show judith 16
     show player 111
-    player_name "Оу... Ладно."
+    player_name "Oh... Okay."
     show judith 17
     show player 110
-    jud "Ты помнишь когда..."
-    jud "...мы оба были в раздевалке? И стояли перед {b}Энни{/b}?"
+    jud "Do you remember the other day when..."
+    jud "...We were both in the lockeroom? In front of {b}Annie{/b}?"
     show judith 16
     show player 111
-    player_name "Да."
+    player_name "Yeah?"
     show judith 17
     show player 110
-    jud "Ну, мне... Мне понравилось, как ты на меня смотрел."
+    jud "Well I... I liked the way you looked at me."
     show judith 16
     show player 106f
     player_name "!!!"
     show judith 17
-    jud "Дело даже не во взгляде... Твое тело тоже среагировало."
+    jud "It wasn't just your eyes... Your body was also reacting."
     show judith 16
     player_name "..."
     show judith 17
-    jud "Это моя {b}грудь{/b} сделала тебя... счастливее {b}там, внизу{/b}?"
+    jud "Was it my {b}breasts{/b} that made you... So happy? {b}Down there{/b}?"
     show judith 16
     show player 111
-    player_name "П... Прости!"
+    player_name "I... I'm sorry!"
     show judith 17
     show player 106f
-    jud "Не извиняйся!!"
-    jud "...Мне правда понравилось, и..."
-    jud "...я бы хотела, ну знаешь, снова на него посмотреть."
+    jud "Don't be sorry!!"
+    jud "...I really liked it and..."
+    jud "...I was wondering If I could, you know, see it again?"
     return
 
 label girls_lockerroom_judith_toilet_first_sure:
     show judith 16
     show player 111
-    player_name "Я думаю, что..."
+    player_name "I guess so..."
     show judith 17
     show player 106f
-    jud "Позволь мне."
+    jud "Let me do it."
     hide player
     show judith 18 at Position(xpos = 447, ypos = 768)
     player_name "!!!"
@@ -131,55 +131,55 @@ label girls_lockerroom_judith_toilet_first_sure:
     window hide
     pause
     show judith 24
-    jud "Он такой... Красивый..."
-    jud "...И толстый."
+    jud "It's so... Nice..."
+    jud "...And thick."
     show judith 23
-    player_name "{b}*Глыть*{/b}"
+    player_name "{b}*Gasp*{/b}"
     show judith 24
-    jud "Он так здорово ощущается в руке..."
+    jud "I just love how it feels in my hand..."
     show judith 25_23
     pause 4
     jud "..."
     show judith 23
-    jud "Хочешь потрогать мою грудь?"
+    jud "Would you like to touch my breasts?"
     return
 
 label girls_lockerroom_judith_toilet_first_yes:
-    player_name "Да! Был бы не против..."
+    player_name "Yeah! I'd love to..."
     show judith 33
     player_name "..."
     show judith 34
-    player_name "Вау..."
+    player_name "Wow..."
     show judith 35
-    jud "Так давай!"
-    jud "Потрогай их... Но будь нежнее! Они очень чувствительны..."
+    jud "Go ahead!"
+    jud "Touch them... But be gentle! They're really sensitive..."
     show judith 36_37_38
     pause 4
     show judith 39 with hpunch
-    jud "*стонет*"
+    jud "*Moaning*"
     player_name "!!!"
     show judith 33
-    jud "Достаточно. Моему телу слишком хорошо, когда ты трогаешь мои соски..."
+    jud "It's just too much. My body get's all fuzzy when you touch my nipples..."
     show judith 4f zorder 1 at Position( xpos = 310, ypos = 768)
     show player 112 zorder 0 at Position (xpos = 639, ypos = 768)
-    player_name "Я не хотел сделать тебе больно."
+    player_name "I didn't mean to hurt you."
     show player 13f
     show judith 5f
-    jud "Да нет, всё хорошо! Ощущения прекрасные... Я просто очень чувствительная..."
+    jud "No, it's fine! It felt really good... I'm just sensitive..."
     show judith 4f
     show player 10f
-    player_name "Может быть закончим..."
+    player_name "Maybe we should stop..."
     show player 13f
     show judith 5f
-    jud "Да... Спасибо, что остался со мной, теперь мне куда легче..."
+    jud "Yeah... Thanks for staying with me, I feel much better..."
     show judith 2f
-    jud "...и если хочешь, мы можем как-нибудь повторить..."
+    jud "...And if you want, we could do this again, some time..."
     show judith 4f
     show player 17f
-    player_name "Я только за!"
+    player_name "I'd like that!"
     show judith 5f
     show player 13f
-    jud "Увидимся."
+    jud "I'll see you later then."
     hide player
     hide judith
     with dissolve
@@ -187,64 +187,64 @@ label girls_lockerroom_judith_toilet_first_yes:
 
 label girls_lockerroom_judith_toilet_first_should_stop:
     show judith 24
-    player_name "Думаю, хватит..."
+    player_name "I think we should stop..."
     show judith 6f zorder 1 at Position( xpos = 310, ypos = 768)
     show player 112 zorder 0 at Position (xpos = 639, ypos = 768)
-    player_name "Мы не должны опаздывать на уроки и {b}Энни{/b} может нас здесь застукать..."
+    player_name "We can't be late for class and {b}Annie{/b} could see us in here..."
     show player 13f
     show judith 2f
-    jud "Понимаю. Спасибо, что побыл со мной..."
+    jud "I understand. Thanks for staying with me..."
     show judith 3f
-    jud "...и если хочешь, мы можем как-нибудь повторить..."
+    jud "...And if you want, we could do this again, some time..."
     show judith 4f
     show player 17f
-    player_name "Я только за!"
+    player_name "I'd like that!"
     show player 13f
     show judith 5f
-    jud "Увидимся."
+    jud "I'll see you later then."
     return
 
 label girls_lockerroom_judith_toilet_first_cant:
     show judith 16
     show player 108
-    player_name "Не сейчас, {b}Джуди{/b}..."
-    player_name "К тому же, нам правда пора... Я не хочу опаздывать, и {b}Энни{/b} может нас здесь застукать..."
+    player_name "I can't do that right now, {b}Judith{/b}..."
+    player_name "Also, we should really go... I don't want to be late and {b}Annie{/b} could see us in here..."
     show judith 13
     show player 109
-    jud "Оу..."
-    jud "Хорошо, можешь идти. Думаю, я посижу здесь ещё немного..."
+    jud "Oh..."
+    jud "You can go, then. I'll stay here a little bit longer I think..."
     show player 111
     show judith 14
-    player_name "Ладно, до скорого."
+    player_name "Alright, I'll see you later then."
     return
 
 label girls_lockerroom_judith_toilet_should_leave:
     show judith 16
     show player 108
-    player_name "К тому же, нам правда пора... Я не хочу опаздывать, и {b}Энни{/b} может нас здесь застукать..."
+    player_name "We should really go... I don't want to be late and {b}Annie{/b} is already on my case..."
     show judith 13
     show player 109
-    jud "Оу..."
-    jud "Хорошо, можешь идти. Думаю, я посижу здесь ещё немного..."
+    jud "Oh..."
+    jud "You can go, then. I'll stay here a little bit longer I think..."
     show judith 14
     show player 111
-    player_name "Ладно, до скорого."
+    player_name "Alright, I'll see you later then."
     return
 
 label girls_lockerroom_judith_toilet_first_ugly:
     show judith 12
     show player 108
-    player_name "Я знаю, но ты должна смириться с этим!"
+    player_name "I know, but you have to learn to deal with it!"
     show player 109
     jud "..."
     show judith 11
-    jud "{b}*всхлип*{/b}"
+    jud "{b}*Sobbing*{/b}"
     show player 108
-    player_name "Прости..."
+    player_name "I'm sorry..."
     show player 106f
-    jud "Я просто хочу побыть одна."
+    jud "I just want to be alone right now."
     show player 108
-    player_name "Тогда до встречи..."
+    player_name "I'll see you later, then..."
     return
 
 label girls_lockerroom_judith_toilet_not_here:
@@ -252,10 +252,10 @@ label girls_lockerroom_judith_toilet_not_here:
     show player 11 with dissolve
     player_name "..."
     show player 10
-    player_name "( {b}Джудит{/b} здесь нет. )"
-    player_name "( Она должно быть в корридоре или уже дома. )"
+    player_name "( {b}Judith{/b} is not here. )"
+    player_name "( She must be in the hallway or at home. )"
     show player 108f
-    player_name "( Нужно спросить её, хочет ли она {b}повеселиться{/b}. )"
+    player_name "( I should ask her to come in for {b}some fun{/b}. )"
     hide player 108f
     return
 
@@ -263,36 +263,36 @@ label judith_toilet_replay:
     scene expression game.timer.image("toilet_stall{}")
     show judith 14 zorder 1 at Position( xpos = 310, ypos = 768)
     show player 111 zorder 0 at Position (xpos = 639, ypos = 768) with dissolve
-    player_name "Привет!"
+    player_name "Hey!"
     show judith 15
     show player 110
-    jud "Я надеялась, что ты придёшь..."
-    jud "Кто-нибудь видел, как ты вошёл?"
+    jud "I was hoping you'd come see me..."
+    jud "Did anyone see you come in here?"
     show judith 14
     show player 108
-    player_name "Не думаю."
+    player_name "I don't think so?"
     show judith 14
     show player 110
-    jud "Хорошо..."
-    jud "Эмм... Ну? Чем займёмся?"
+    jud "Oh, good..."
+    jud "Emm... So? What do you feel like doing?"
     call screen judith_stage01
 
 label judith_kiss:
     show player 108
     show judith 14
-    player_name "Хмм... Ты когда-нибудь целовалась?"
+    player_name "Hmm... Have you ever kissed someone?"
     show judith 15
     show player 110
-    jud "В смысле прям с поцелуем?"
+    jud "You mean, like a... Kiss, kiss?"
     show judith 14
     show player 17f
-    player_name "Ну да!"
+    player_name "Well, yeah!"
     show judith 13
     show player 110
-    jud "Никогда..."
+    jud "Not really..."
     show judith 14
     show player 17f
-    player_name "Давай попробуем!"
+    player_name "Let's try it!"
     show judith 4f
     show player 110
     jud "..."
@@ -303,25 +303,25 @@ label judith_kiss:
     show judith 5f zorder 1 at Position( xpos = 320, ypos = 768)
     show player 13f zorder 0 at Position (xpos = 640, ypos = 768)
     with dissolve
-    jud "Это... Было здорово..."
+    jud "That... Was good..."
     show judith 4f
     show player 17f
-    player_name "Но немного странно. Хаха."
+    player_name "Feels a bit strange I guess. Ha ha."
     show judith 5f
     show player 11f
-    jud "Давай попробуем кое-что ещё!"
+    jud "Let's do something else!"
     show judith 4f
     show player 14f
-    player_name "Давай..."
+    player_name "Okay..."
     call screen judith_stage02
 
 label judith_handjob:
     show player 111
     show judith 16
-    player_name "Может, давай как в прошлый раз?"
+    player_name "We could do like last time, I guess?"
     show judith 17
     show player 106f
-    jud "Давай я начну."
+    jud "Let me do it."
     hide player
     show judith 18 at Position(xpos = 465, ypos = 768)
     player_name "!!!"
@@ -338,43 +338,43 @@ label judith_handjob:
     window hide
     pause
     show judith 24
-    jud "Он такой... Красивый..."
-    jud "...И толстый."
+    jud "It's so... Nice..."
+    jud "...And thick."
     show judith 23
-    player_name "{b}*вздох*{/b}"
+    player_name "{b}*Gasp*{/b}"
     show judith 24
-    jud "Он так здорово лежит в руке..."
+    jud "I just love how it feels in my hand..."
     show judith 25_23
     pause 4
-    player_name "Это так... круто!"
+    player_name "That feels sooo... good!"
     show judith 24
-    jud "Хочешь, чтобы я остановилась?"
+    jud "You want me to stop?"
     call screen judith_stage03
 
 label judith_keepgoing:
     show judith 25_23
     pause 4
-    player_name "Это так... круто!"
+    player_name "That feels sooo... good!"
     show judith 24
-    jud "Хочешь, чтобы я остановилась?"
+    jud "You want me to stop?"
     call screen judith_stage03
 
 label judith_playwithtits:
     show judith 33
     jud "..."
     show judith 35
-    jud "Тебе нравится их трогать?"
+    jud "You like feeling them?"
     show judith 34
-    player_name "Да..."
+    player_name "Yeah..."
     show judith 36
-    player_name "Твоя грудь такая мягкая..."
+    player_name "Your breasts are so nice and soft..."
     show judith 36_37_38
     pause 4
     show judith 39 with hpunch
-    jud "{b}*стонет*{/b}"
+    jud "{b}*Moaning*{/b}"
     player_name "!!!"
     show judith 35
-    jud "Хочешь попробовать что-то ещё?"
+    jud "You want to try something else?"
     call screen judith_stage03
 
 label judith_cum:
@@ -385,29 +385,29 @@ label judith_cum:
     show judith 27
     jud "..."
     show judith 28
-    jud "Вау, ты так много кончил!"
+    jud "Wow, that's a lot of cum!"
     show judith 29
-    player_name "Извини! Я не хотел..."
+    player_name "Sorry! I didn't mean to make a mess..."
     show judith 28
-    jud "Всё нормально..."
-    jud "Я всегда хотела узнать, каково это!"
+    jud "It's fine..."
+    jud "I always wanted to know how that feels!"
     show judith 30
-    player_name "Оу. Ахаха!"
+    player_name "Oh. Ha ha!"
     show judith 5f zorder 1 at Position( xpos = 300, ypos = 768)
     show player 13f zorder 0 at Position (xpos = 623, ypos = 768)
-    jud "Можем повторить как-нибудь..."
+    jud "We could do this again..."
     show player 17f
     show judith 4f
-    player_name "Я только за!"
+    player_name "I'd like that!"
     show player 13f
     show judith 5f
-    jud "Я тоже..."
+    jud "Me too..."
     show player 2f
     show judith 4f
-    player_name "Нужно уже идти..."
+    player_name "We should get out of here..."
     show player 1f
     show judith 5f
-    jud "Хорошо!"
+    jud "Okay!"
     $ renpy.end_replay()
     $ M_judith.set("in bathroom", False)
     $ M_judith.unforce()
@@ -419,16 +419,16 @@ label judith_cum:
 
 label judith_pullpants:
     show judith 24
-    jud "Я пока... не готова для этого."
+    jud "I'm not... Ready for that yet."
     show judith 23
-    player_name "Оу... Все хорошо! Давай не будем."
+    player_name "Oh... It's okay! We don't have to."
     show judith 24
-    jud "Давай в другой раз..."
-    jud "...когда мне будет покомфортнее."
+    jud "Maybe another time..."
+    jud "...When I feel a bit more comfortable."
     show judith 23
-    player_name "Я согласен."
+    player_name "I'm ok with that."
     show judith 24
-    jud "Может быть займемся чем-то ещё?"
+    jud "Can we do something else?"
     call screen judith_stage03
 
 label girls_lockerroom_roxxy_lockerroom_event:
@@ -437,177 +437,177 @@ label girls_lockerroom_roxxy_lockerroom_event:
     show becca 1 at left
     show roxxy 3 at right
     with dissolve
-    rox "Это полное дерьмо!"
+    rox "It's total bullshit!"
     show roxxy 3d
     show becca 2
-    becca "Не могу поверить, что {b}Мисс Девитт{/b} правда исключила тебя из команды!"
+    becca "I can't believe {b}Coach Bridget{/b} really suspended you from the team!"
     show becca 1
     show missy 2
-    missy "Да, она не понимает, что без тебя в команде начнётся полный пиздец?"
+    missy "Yeah, doesn't she realize that the team is going to suck hardcore with you?"
     show missy 1
     show becca 6
-    becca "Ну, всё не ТАК плохо."
+    becca "Well, we aren't THAT bad."
     show becca 1
     show missy 1bf with dissolve
-    missy "... Ой да ладно. Ты даже прыжок выполнить нормально не можешь!"
+    missy "... Please. You can't even do a proper toe touch!"
     show missy 2bf
     show becca 2
-    becca "Эй, вообще-то могу!"
+    becca "Hey, I can too!"
     show becca 6
-    becca "Просто не люблю это делать, потому что потом сиськи болят!"
+    becca "I just don't like to do them cause it makes my tits sore!"
     show becca 8
-    becca "Доске вроде тебя не понять!"
+    becca "You'd understand if you weren't such a stick!"
     show becca 7
     show missy 4f
-    missy "Да пошла ты, шалава! У {b}Рокси{/b} всё получается отлично, и сиськи у неё побольше, чем у тебя!"
+    missy "Screw you, Skank! {b}Roxxy{/b} does them just fine and she's got bigger tits than you do!"
     show missy 4bf
     show becca 8
-    becca "Пффф, ну да... У ВСЕХ сиськи побольше, чем у тебя!"
+    becca "Pfft, yeah well... EVERYONE has bigger tits than you!"
     show becca 7
     show missy 4f
-    missy "Ах, вот ты как! Я сейчас-"
+    missy "Oh, that's it! I'm gonna-"
     show roxxy 31
-    rox "Может вы двое заткнётесь?"
+    rox "Would you two cut it out?"
     show missy 3 with dissolve
     show roxxy 3
-    rox "Давайте решать мою проблему!"
+    rox "Focus on me and my problems!"
     show roxxy 3d
     show missy 1b
-    missy "Прости, {b}Рокси{/b}."
+    missy "Sorry, {b}Roxxy{/b}."
     show missy 1
     show becca 2
-    becca "Я даже не знаю, что сказать..."
+    becca "I just don't know what to tell you..."
     show becca 1
     show roxxy 3
-    rox "Я больше не могу пиздить домашку у этой четырёхглазой коровы."
-    rox "Если меня спалят ещё раз, то точно исключат."
+    rox "Well, I can't steal homework from that four-eyed cow anymore."
+    rox "If I get caught again, they're going to expel me."
     show roxxy 3d
     show missy 3
     missy "..."
     show becca 2
-    becca "А что насчёт {b}Декстера{/b}?"
+    becca "What about {b}Dexter{/b}?"
     show becca 1
     show missy 1
     rox "..."
     show roxxy 2
-    rox "А что с ним?"
+    rox "What about him?"
     show roxxy 1
     show becca 2
-    becca "Ну он же твой парень, так?"
+    becca "He's your boyfriend, isn't he?"
     show becca 1
     show roxxy 3c
-    rox "... так, и чё?"
-    rox "Он слишком тупой, чтобы помогать мне с домашкой, если ты об этом..."
-    rox "... Он до сих пор читает по слогам."
+    rox "... Yeah, so?"
+    rox "He's too stupid to help me with my homework if that's where you're going with this..."
+    rox "... He can barely read."
     show roxxy 3d
     show missy 6
-    missy "Хахаха!"
+    missy "Hahaha!"
     show roxxy 31
-    rox "Заткнись, {b}Мисси{/b}!"
+    rox "Shut up, {b}Missy{/b}!"
     show roxxy 3b
     show missy 1b
-    missy "... Прости."
+    missy "... Sorry."
     show missy 1
     show becca 2
-    becca "Он не должен помогать тебе с домашкой. Пусть он украдёт чью-то домашку для тебя!"
+    becca "You don't need him to help you do the homework. Just have him steal someone elses homework for you!"
     show becca 1
     show roxxy 29
-    rox "... Хмм."
+    rox "... Hmm."
     show roxxy 30
-    rox "Неплохо."
-    rox "Продолжать делать то, что делала, только без рисков."
+    rox "That's not bad."
+    rox "I can continue on the same way but without any of the risk."
     show roxxy 29
     show missy 2
-    missy "... А {b}Декстер{/b} правда не умеет читать?"
+    missy "... So {b}Dexter{/b} really can't read?"
     show missy 1
     show roxxy 3
-    rox "... {b}Мисси{/b}, забей."
+    rox "... {b}Missy{/b} drop it."
     show roxxy 3d
     show missy 1b
-    missy "Хехе, прости, но это очень смешно."
+    missy "Hehe, I'm sorry it's just kind of funny is all."
     show missy 1
     show becca 2
-    becca "Кого это вообще волнует?"
-    becca "Он самый популярный парень в школе и у него есть ТАЧКА!"
+    becca "Who cares if he can read?"
+    becca "He's the most popular guy in school AND he has a car!"
     show becca 1
     show roxxy 2
-    rox "Да."
-    rox "... и он всегда может купить нам бухло!"
+    rox "Yeah."
+    rox "... And he's old enough to buy us alcohol!"
     show roxxy 1
     show missy 8
-    missy "Ты права, это реально круто!"
+    missy "You're right, that's definitely a perk!"
     show missy 7
     show becca 2
-    becca "Так что, мы все решили?"
+    becca "So you're all set then?"
     show becca 1
     show missy 1
     show roxxy 1b
-    rox "Не совсем."
-    rox "{b}Декстер{/b} может спиздить работы для {b}Французской Сучки{/b} и {b}Мисс Росс{/b} на раз-два."
-    rox "Я просто могу сказать ей, что она милаха, и показать, что мне интересно её тупое ИЗО."
+    rox "Not quite."
+    rox "{b}Dexter{/b} can steal work for the {b}French Bitch{/b} and {b}Miss Ross{/b} is easy enough to please."
+    rox "I just need to tell her she's pretty and pretend I'm interested in her stupid art."
     show roxxy 3c
-    rox "... но, что мне делать с {b}Мисс Девитт{/b}?"
+    rox "... But what am I going to do for {b}Miss Dewitt's class{/b}?"
     show roxxy 1
     becca "..."
     show missy 1b
-    missy "Просто выбери флейту, прям как {b}Бекка{/b} и я."
+    missy "Just pick up the flute like {b}Becca{/b} and I did."
     show missy 1
     show roxxy 3c
-    rox "Что, серьёзно?"
+    rox "Ugh, seriously?"
     show roxxy 1
     show missy 1b
-    missy "Да, это вообще не сложно."
-    missy "... И это хорошая практика для, ну знаешь..."
+    missy "Yeah, it's not that hard."
+    missy "... And it's good practice, you know..."
     show missy 8
-    missy "... Минета!"
+    missy "... For blowjobs!"
     show missy 7
     show roxxy 2
-    rox "Пффф, ну да, конечно!"
+    rox "Pfft, yeah right!"
     show roxxy 1
     show missy 2
-    missy "Я серьёзно!"
+    missy "I'm serious!"
     show missy 5
-    missy "... Ну, так сказала {b}моя сестра{/b}..."
+    missy "... Or well, that's what {b}my sister{/b} says..."
     show missy 1
     show roxxy 2
-    rox "Играть на флейте и сосать член - две абсолютно разные вещи, тупая ты пизда."
+    rox "Playing a musical instrument and sucking dick are two completely different things, you dumb slut."
     show roxxy 1
     show missy 3
     missy "..."
     show becca 2
-    becca "Да, и вообще то твою сестру уволили из {b}Consum-R{/b} за то, что она неправильно подсчитала выручку?"
+    becca "Yeah and didn't your sister get fired from her job at {b}Consum-R{/b} because she couldn't count the register properly?"
     show becca 1
     show missy 2f with dissolve
-    missy "Что?"
+    missy "Huh?"
     show missy 4f
-    missy "... Нет!"
+    missy "... No!"
     show missy 2f
-    missy "В смысле..."
+    missy "I mean..."
     show missy 4f
-    missy "... заткнись, {b}Бекка{/b}!"
+    missy "... Shut up, {b}Becca{/b}!"
     show missy 2bf
     show becca 4
-    becca "Пфффф!!!"
+    becca "Pffftt!!!"
     show becca 8
-    becca "\"Моя сестра сказала...\""
+    becca "\"My sister says...\""
     show becca 4
-    becca "Хахаха!"
+    becca "Hahaha!"
     show missy 2 with dissolve
-    missy "Да ладно вам, я просто сказала, чтобы она шла на флейту и что мы поможем ей с этим."
+    missy "Look, I'm just saying go with the flute and we can help you practice."
     show missy 1
-    becca "Хахаха!"
+    becca "Hahaha!"
     show becca 1
     show missy 4f with dissolve
-    missy "Я сказала затнись, {b}Бекка{/b}!!"
+    missy "I said shut up, {b}Becca{/b}!!"
     show missy 2bf
     show roxxy 2
-    rox "Гхх, заткнитесь вы обе..."
+    rox "Ugh, both of you shut up..."
     show missy 1 with dissolve
     show roxxy 1b
-    rox "Так всё, погнали на урок, иначе эта {b}Французская шлюха{/b} зашепелявит нас до смерти."
+    rox "C'mon, we better get going or the {b}French Bitch{/b} is gonna lecture us with her mush mouth again."
     show roxxy 1
     show becca 4
-    becca "Хахаха!"
+    becca "Haha!"
     hide becca
     hide missy
     hide roxxy
@@ -615,71 +615,71 @@ label girls_lockerroom_roxxy_lockerroom_event:
 
     scene expression game.timer.image("lefthall{}")
     show player 23 at left with dissolve
-    player_name "( Вот блин! Они идут сюда! )"
+    player_name "( Oh crap! They're coming this way! )"
     show player 22
     show roxxy 1 at Position (xpos=500)
     show missy 1f at Position (xpos=700)
     show becca 2f at right
     with dissolve
-    becca "Эй, ты что, шпионил за нами?!"
+    becca "Hey, were you spying on us?!"
     show becca 1f
     show roxxy 3c
-    rox "Чёртов извращуга!"
+    rox "What the hell you perv!"
     show roxxy 3b
     show missy 8f
-    missy "Приветик, {b}[firstname]{/b}."
+    missy "Hi, {b}[firstname]{/b}."
     show missy 7f
     show roxxy 3cf at Position (xoffset=-50) with dissolve
     becca "..."
     show missy 3f
     rox "..."
     show missy 2f
-    missy "В смысле... ну и, какого хера ты тут забыл, задрот?!"
+    missy "I mean... Yeah, what the fuck, nerd?!"
     show roxxy 3c with dissolve
     show missy 1f
     show player 12
-    player_name "Я не-"
+    player_name "I wasn't-"
     show player 22
     show roxxy 3
-    rox "Не ври нам!"
+    rox "Don't lie!"
     show roxxy 3d
     show becca 2f
-    becca "Да, очевидно, что ты подслушивал!"
+    becca "Yeah, it's obvious you were listening!"
     show becca 1f
     show player 24
-    player_name "... Ладно."
+    player_name "... Fine."
     show player 12
-    player_name "Я подслушавал, вы счастливы?"
+    player_name "I was listening, you happy?"
     show player 24
     show roxxy 3
-    rox "Охх, неудачник..."
+    rox "Eugh, you're such a loser..."
     show roxxy 3d
     show player 12
-    player_name "Знаешь, в том, что {b}Декстер{/b} сворует домашки нет никакого смысла..."
-    player_name "Учителя поймут, что их делала не ты."
+    player_name "You know, having {b}Dexter{/b} steal people's homework isn't going to work..."
+    player_name "The teachers are going to know you didn't write it."
     show player 16
     show becca 8f
-    becca "Пффф, да что ты понимаешь?!"
+    becca "Pfft, what do you know?!"
     show becca 7f
     show roxxy 3c
-    rox "... И почему это вообще тебя волнует?"
+    rox "... And why do you care?"
     show roxxy 3d
     show player 12
-    player_name "Да не волнует!"
-    player_name "Провались на тесте и докажи всем, что они были правы."
-    player_name "Мне вообще параллельно..."
+    player_name "I don't care!"
+    player_name "Flunk out and prove everybody right about you."
+    player_name "It won't bother me one bit..."
     hide player with dissolve
     show roxxy 29
     rox "..."
     show missy 8f
-    missy "Пока, {b}[firstname]{/b}!"
+    missy "Bye, {b}[firstname]{/b}!"
     show missy 7f
     show roxxy 3cf at Position (xoffset=-50) with dissolve
     show becca 2f
-    becca "Какого чёрта, {b}Мисси{/b}?"
+    becca "What the hell, {b}Missy{/b}?"
     show becca 1f
     show missy 2 with dissolve
-    missy "... Что опять не так?"
+    missy "... What?"
     scene black
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

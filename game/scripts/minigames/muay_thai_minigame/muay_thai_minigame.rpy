@@ -17,7 +17,7 @@ label bag_minigame_attack:
     elif training_tier == 4:
         $ playSound("audio/sfx_punch2.ogg", loop = False)
         show minigame02a4 with hpunch
-    player_name "Ауч!!"
+    player_name "Huah!!"
     jump training01_done_dialogue
 
 label training01_payment_dialogue:
@@ -26,173 +26,174 @@ label training01_payment_dialogue:
     show player 1 at left
     show master 2 at right
     with dissolve
-    if (not sister.completed(sis_panty02) and player.stats.dex() == 2) or (not sister.completed(sis_panty03) and player.stats.dex() == 5) or (not sister.completed(sis_panty04) and player.stats.dex() == 7):
-        mas "Пока я не могу научить тебя ничему большему."
-        mas "Получи еще немного жизненного опыта! Может быть, провести еще немного времени с милой женщиной, которая дала тебе эти трусики!"
+    if (M_jenny.between_states(S_jenny_somrak_panty_trade, S_jenny_somrak_more_panty) and player.stats.dex() >= 2) or (M_jenny.between_states(S_jenny_somrak_panty_trade_tier_2, S_jenny_panty_deal_tier_3) and player.stats.dex() >= 5) or (M_jenny.between_states(S_jenny_somrak_panty_trade_tier_3, S_jenny_panty_deal_tier_4) and player.stats.dex() >= 7) or (M_jenny.finished_state(S_jenny_somrak_panty_trade_tier_4) and player.stats.dex() >= 10):
+        mas "I can't teach you anything more for now."
+        mas "Go out into the world, and get some more life experience! Maybe spend some more time with the nice woman who gave you those panties!"
         show player 40 at left
         show master 6 at right
-        player_name "Да, {b}Мастер Сомрак{/b}!!!"
+        player_name "Yes, {b}Master Somrak{/b}!!!"
 
     elif training_skip_payment:
-        mas "Ахх!"
-        mas "Вы вернулись!"
-        mas "Вы готовы продолжить обучение, юный ученик?"
+        mas "Ahh!"
+        mas "You have returned!"
+        mas "Are you ready to continue your training, young apprentice?"
         show master 1
         menu:
-            "Тренироваться.":
+            "Train.":
                 show player 40 at left
                 show master 6 at right
-                player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                player_name "Yes, {b}Master Somrak{/b}!!!"
                 show master 2
                 show player 1
-                mas "Хорошо, хорошо! Тогда давайте начнем, наконец!"
+                mas "Good, good! Let us begin, then!"
                 hide player
                 hide master
                 with dissolve
                 jump training_during_dialogue
 
-            "Пропустить мини-игру" if game.cheat_mode:
+            "Skip Mini-Game (Cheat)" if game.cheat_mode:
                 $ cheat_pass = True
                 show player 40 at left
                 show master 6 at right
-                player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                player_name "Yes, {b}Master Somrak{/b}!!!"
                 show master 2
                 show player 1
-                mas "Хорошо, хорошо! Тогда давайте начнем, наконец!"
+                mas "Good, good. Let us begin, then."
                 hide player
                 hide master
                 with dissolve
                 jump training_during_dialogue
-            "Не сейчас.":
+            "Nevermind.":
 
                 show master 5 at right
                 show player 10 at left
-                player_name "Вообще-то, забудь..."
+                player_name "Actually, nevermind..."
                 show master 4
                 show player 11
-                mas "Тогда возвращайся, когда передумаешь, юный ученик!"
+                mas "Then return when you have changed your mind, young apprentice!"
                 show master 6
                 show player 40
-                player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                player_name "Yes, {b}Master Somrak{/b}!!!"
                 hide player
                 hide master
                 with dissolve
     else:
 
-        mas "Ахх!"
-        mas "Вы вернулись!"
-        mas "Вы принесли то, что я ищу?"
+        mas "Ahh!"
+        mas "You have returned!"
+        mas "Have you brought what I seek?"
         show master 1
         if player.has_item("panties"):
             menu:
-                "У меня есть трусики." if training_tier == 1 and sister.completed(sis_panty01):
+                "I have the panties." if training_tier == 1 and M_jenny.is_state(S_jenny_somrak_panty_trade):
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 39 at Position (xpos=38)
                     show master 9 at right
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show player 30 at left
                     show master 8
                     player_name "..." with fastdissolve
                     show player 11
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     show master 3
-                    mas "Очень хорошо!" with fastdissolve
+                    mas "Very good!" with fastdissolve
                     show player 12
-                    player_name "Они мне очень дорого обошлись... Надеюсь, обучение того стоит."
+                    player_name "Those cost me a lot... The training better be worth it."
                     show player 1
                     show master 4
-                    mas "Искусство муай тай бесценно, молодой ученик!"
+                    mas "The art of Muay Thai is invaluable, young apprentice!"
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready to train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_shower_cuddle01)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 1 and sister.completed(sis_panty01) and game.cheat_mode:
+                "I have the panties. (Cheat)" if training_tier == 1 and M_jenny.is_state(S_jenny_somrak_panty_trade) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 39 at Position (xpos=38)
                     show master 9 at right
-                    mas "Да..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show player 30 at left
                     show master 8
                     player_name "..." with fastdissolve
                     show player 11
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     show master 3
-                    mas "Очень хорошо!" with fastdissolve
+                    mas "Very good!" with fastdissolve
                     show player 12
-                    player_name "Они мне очень дорого обошлись... Надеюсь, обучение того стоит."
+                    player_name "Those cost me a lot. The training better be worth it."
                     show player 1
                     show master 4
-                    mas "Искусство муай тай бесценно, молодой ученик!"
+                    mas "The art of Muay Thai is invaluable, young apprentice!"
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready to train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_shower_cuddle01)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded)
                     jump training_during_dialogue
 
-                "У меня есть трусики." if training_tier == 2 and sister.completed(sis_panty02):
+                "I have the panties." if training_tier == 2 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_2):
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 39 at Position (xpos=38)
                     show master 9 at right
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show player 30 at left
                     show master 8
                     player_name "..." with fastdissolve
                     show player 11
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     show master 3
-                    mas "Очень хорошо!" with fastdissolve
+                    mas "Very good!" with fastdissolve
                     show player 12
-                    player_name "Они мне очень дорого обошлись... Надеюсь, обучение того стоит."
+                    player_name "Those cost me a lot. The training better be worth it."
                     show player 1
                     show master 4
-                    mas "Искусство муай тай бесценно, молодой ученик!"
+                    mas "The art of Muay Thai is invaluable, young apprentice!"
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready to train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player 40
                     hide master 6
                     with dissolve
                     $ player.remove_item("panties")
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_2)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 2 and sister.completed(sis_panty02) and game.cheat_mode:
+                "I have the panties. (Cheat)" if training_tier == 2 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_2) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 314 at Position (xpos=38)
                     show master 6 at right
-                    player_name "Да, {b}Мастер Сомрак{/b}!"
+                    player_name "Yes, {b}Master Somrak{/b}!"
                     show player 1 at left
                     show master 11
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show master 8
                     player_name "..." with fastdissolve
                     show player 1
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     pause
                     show player 11
                     show master 14
@@ -203,32 +204,33 @@ label training01_payment_dialogue:
                     pause
                     player_name "..."
                     show master 17
-                    mas "Ты хорошо поработал, молодой ученик!" with fastdissolve
+                    mas "You've done well, young apprentice!" with fastdissolve
                     show player 1
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready train?"
                     show player 40
                     show master 16
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
                     $ player.remove_item("panties")
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_2)
                     jump training_during_dialogue
 
-                "У меня есть трусики." if training_tier == 3 and sister.completed(sis_panty03):
+                "I have the panties." if training_tier == 3 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_3):
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 314 at Position (xpos=38)
                     show master 6 at right
-                    player_name "Да, {b}Мастер Сомрак{/b}!"
+                    player_name "Yes, {b}Master Somrak{/b}!"
                     show player 1 at left
                     show master 11
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show master 8
                     player_name "..." with fastdissolve
                     show player 1
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     pause
                     show player 11
                     show master 12
@@ -237,35 +239,35 @@ label training01_payment_dialogue:
                     pause
                     show master 14
                     pause
-                    mas "Ты хорошо поработал, молодой ученик!" with fastdissolve
+                    mas "You've done well, young apprentice!" with fastdissolve
                     show player 1
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player 40
                     hide master 6
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_webcam02)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_3)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 3 and sister.completed(sis_panty03) and game.cheat_mode:
+                "I have the panties. (Cheat)" if training_tier == 3 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_3) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 314 at Position (xpos=38)
                     show master 6 at right
-                    player_name "Да, {b}Мастер Сомрак{/b}!"
+                    player_name "Yes, {b}Master Somrak{/b}!"
                     show player 1 at left
                     show master 11
-                    mas "Да..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show master 8
                     player_name "..." with fastdissolve
                     show player 1
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     pause
                     show player 11
                     show master 14
@@ -275,34 +277,34 @@ label training01_payment_dialogue:
                     show master 13
                     pause
                     show master 3
-                    mas "Очень хорошо!" with fastdissolve
+                    mas "Very good!" with fastdissolve
                     show player 1
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_webcam02)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_3)
                     jump training_during_dialogue
 
-                "У меня есть трусики." if training_tier == 4 and sister.completed(sis_panty04):
+                "I have the panties." if training_tier == 4 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_4):
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 314 at Position (xpos=38)
                     show master 6 at right
-                    player_name "Да, {b}Мастер Сомрак{/b}!"
+                    player_name "Yes, {b}Master Somrak{/b}!"
                     show player 1 at left
                     show master 11
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show master 8
                     player_name "..." with fastdissolve
                     show player 1
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     pause
                     show player 11
                     show master 14
@@ -314,62 +316,62 @@ label training01_payment_dialogue:
                     player_name "..."
                     show master 17
                     show master 3
-                    mas "Ты хорошо поработал, молодой ученик!" with fastdissolve
+                    mas "You've done well, young apprentice!" with fastdissolve
                     show player 40
                     show master 16
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready train?"
                     show player 40
                     show master 17
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_webcam03)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_4)
                     jump training_during_dialogue
 
-                "У меня есть трусики. (Чит)" if training_tier == 4 and sister.completed(sis_panty04) and game.cheat_mode:
+                "I have the panties. (Cheat)" if training_tier == 4 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_4) and game.cheat_mode:
                     $ cheat_pass = True
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
                     show player 39 at Position (xpos=38)
                     show master 9 at right
-                    mas "Даа..." with fastdissolve
+                    mas "Yes..." with fastdissolve
                     show player 30 at left
                     show master 8
                     player_name "..." with fastdissolve
                     show player 11
-                    mas "{b}*Нюхает*{/b}"
+                    mas "{b}*Sniff*{/b}"
                     show master 3
-                    mas "Очень хорошо!" with fastdissolve
+                    mas "Very good!" with fastdissolve
                     show player 12
-                    player_name "Они мне очень дорого обошлись... Надеюсь, обучение того стоит."
+                    player_name "Those cost me a lot... The training better be worth it."
                     show player 1
                     show master 4
-                    mas "Искусство муай тай бесценно, молодой ученик!"
+                    mas "The art of Muay Thai is invaluable, young apprentice!"
                     show master 2
-                    mas "Готовы ли вы тренироваться?"
+                    mas "Are you ready to train?"
                     show player 40
                     show master 6
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player 40
                     hide master 6
                     with dissolve
                     $ player.remove_item("panties")
-                    $ sister.add_event(sis_webcam03)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_4)
                     jump training_during_dialogue
-                "Не сейчас.":
+                "Nevermind.":
 
                     show master 5 at right
                     show player 10 at left
-                    player_name "Вообще-то, забудь..."
+                    player_name "Actually, nevermind..."
                     show master 4
                     show player 11
-                    mas "Тогда возвращайся, когда передумаешь, юный ученик!"
+                    mas "Then return when you have changed your mind, young apprentice!"
                     show master 6
                     show player 40
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
@@ -377,39 +379,39 @@ label training01_payment_dialogue:
 
 
             menu:
-                "У меня есть трусики." if not panty_lie_seen:
+                "I have the panties." if not panty_lie_seen:
                     show master 2 at right
                     show player 11 at left
-                    mas "Я не вижу никаких трусиков, ученик!"
+                    mas "I don't see any panties, apprentice."
                     show master 5
                     show player 10
-                    player_name "Ах, да, об этом..."
-                    player_name "Я их ещё не нашел..."
+                    player_name "Oh, right, about that..."
+                    player_name "I haven't exactly found them yet..."
                     show master 4
                     show player 11
-                    mas "Продолжай искать, мой молодой ученик!"
+                    mas "Keep looking, my young apprentice!"
                     show player 1
-                    mas "Возвращайся ко мне, когда найдешь их!"
+                    mas "Return to me when you have found them!"
                     show master 6
                     show player 40
-                    player_name "Да, {b}Мастер Сомрак{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master with dissolve
                     $ panty_lie_seen = True
 
-                "<>У меня есть трусики." if panty_lie_seen:
+                "<>I have the panties." if panty_lie_seen:
                     $ pass
-                "Не сейчас.":
+                "Nevermind.":
 
                     show master 5 at right
                     show player 10 at left
-                    player_name "Вообще-то, забудь..."
+                    player_name "Actually, nevermind..."
                     show master 4
                     show player 11
-                    mas "Тогда возвращайся, когда передумаешь, молодой ученик!"
+                    mas "Then return when you have changed your mind, young apprentice!"
                     show master 6
                     show player 40
-                    player_name "Да, {b}Master Somrak{/b}!!!"
+                    player_name "Yes, {b}Master Somrak{/b}!!!"
                     hide player
                     hide master
                     with dissolve
@@ -421,64 +423,64 @@ label training_during_dialogue:
         scene minigame02b
         show master 3f at left
         with dissolve
-        mas "Ты знаешь, что делать, юный ученик!"
+        mas "You know what to do, young apprentice!"
         show master 2f
-        mas "Как мы практиковались в прошлый раз."
+        mas "Just like we practiced last time."
         show master 4f
-        mas "А теперь покажи мне!!"
+        mas "Now, show me!!"
     else:
 
         if training_tier == 1:
             show master 3f at left
             with dissolve
-            mas "Во-первых, вы научитесь использовать удары!"
+            mas "First, you will learn to use punches!"
             show master 2f
-            mas "Вы должны владеть бедерами! Начать оттуда..."
+            mas "You must build power from the hips! Start from there..."
             show master 4f
-            mas "...затем поверните плечо, вытяните руку прямо..."
+            mas "...then turn your shoulder, extend your elbow straight..."
             show master 10f
-            mas "...и {b}УДАР{/b}!" with hpunch
+            mas "...and {b}STRIKE{/b}!" with hpunch
             show master 4f
-            mas "Теперь покажи мне!!"
+            mas "Now, show me!!"
 
         elif training_tier == 2:
             show master 3f at left
             with dissolve
-            mas "Теперь вы научитесь приёмам с руками!"
+            mas "Now, you will learn to use elbows!"
             show master 2f
-            mas "Это самый полезный метод на коротком расстоянии; он может вырезать кожу вокруг глаз..."
+            mas "It is most useful technique at short range; it can cut skin around the eyes..."
             show master 4f
-            mas "...под любым углом, прямо от плеча..."
+            mas "...come from any angle, straight from your shoulder..."
             show master 10f
-            mas "...и {b}УДАР{/b}!" with hpunch
+            mas "...and {b}STRIKE{/b}!" with hpunch
             show master 4f
-            mas "А теперь покажи мне!!"
+            mas "Now, show me!!"
 
         elif training_tier == 3:
             show master 3f at left
             with dissolve
-            mas "Теперь вы научитесь использовать удары ногами!"
+            mas "Now, you will learn to use kicks!"
             show master 2f
-            mas "Ноги на коврик, ваш удар начинается оттуда!"
+            mas "Anchor your feet to the mat, your momentum starts from there!"
             show master 4f
-            mas "Повернись бедрами, повернись..."
+            mas "Pivot from your hips, turn your body..."
             show master 10f
-            mas "...и {b}УДАР{/b}!" with hpunch
+            mas "...and {b}STRIKE{/b}!" with hpunch
             show master 4f
-            mas "А теперь покажи мне!!"
+            mas "Now, show me!!"
 
         elif training_tier == 4:
             show master 3f at left
             with dissolve
-            mas "Наконец, Вы научитесь пользоваться коленями!"
+            mas "Finally, you will learn to use knees!"
             show master 2f
-            mas "Вы должны целиться в солнышко или в голову, тогда с огромной силой..."
+            mas "You must to aim at the plexus or the head, then with tremendous power..."
             show master 4f
-            mas "...поверните бедра, приготовьтесь к прыжку..."
+            mas "...turn your hips, prepare to jump..."
             show master 10f
-            mas "...и {b}УДАР{/b}!" with hpunch
+            mas "...and {b}STRIKE{/b}!" with hpunch
             show master 4f
-            mas "А теперь покажи мне!!"
+            mas "Now, show me!!"
     $ training_skip_payment = True
     hide master
     with dissolve
@@ -514,20 +516,20 @@ label training01_done_dialogue:
         show masterplayer 28 at left
         show master 3 at right
         with dissolve
-        mas "Ты хорошо поработал, юный ученик!"
+        mas "You did well, young apprentice!"
         show master 6
         show unlock9 at truecenter
         pause
         hide unlock9 with dissolve
         show master 2
         show masterplayer 27
-        mas "Тем не менее, я все ещё вижу возможности для улучшения!"
+        mas "However, I still see room for improvement!"
         show master 3
-        mas "Иди отдыхай!"
-        mas "Мы продолжим ваше обучение, когда вы вернетесь."
+        mas "Go! rest!"
+        mas "We will continue your training when you return."
         show masterplayer 40
         show master 6
-        player_name "Да, спасибо, {b}Мастер Сомрак{/b}!!!"
+        player_name "Yes! Thank you, {b}Master Somrak{/b}!!!"
         hide masterplayer
         hide master
         with dissolve
@@ -537,109 +539,109 @@ label training01_done_dialogue:
             show masterplayer 27 at left
             show master 3 at right
             with dissolve
-            mas "Молодец, молодой ученик!"
+            mas "Well done, young apprentice!"
             show master 2
-            mas "Вы улучшились, я чувствую это!"
+            mas "You have improved, I can sense it!"
             show masterplayer 28
-            mas "Подойдите! Вы заработали себе новый пояс!"
+            mas "Here! You have have earned yourself a new belt!"
             show master 6
             show unlock9 at truecenter
             pause
             hide unlock9 with dissolve
             show master 3
             show masterplayer 27
-            mas "Теперь... продолжи свое обучение, все что вам нужно сделать..."
+            mas "Now... to continue your training, all you have to do..."
             show master 2
             show masterplayer 21
-            mas "...принесите мне больше {b}трусикив{/b}!"
+            mas "...is bring me more {b}panties{/b}!"
             show masterplayer 40
             show master 6
-            player_name "Да! Спасибо вам, {b}Мастер Сомрак{/b}!!!"
+            player_name "Yes! Thank you, {b}Master Somrak{/b}!!!"
             hide masterplayer with dissolve
             pause
             show master 2
-            mas "У меня хорошее предчувствие насчет этого..."
+            mas "I have a good feeling about that one..."
             $ training_tier = 2
 
         elif training_tier == 2:
             show masterplayer 27 at left
             show master 3 at right
             with dissolve
-            mas "Молодец, молодой ученик!"
+            mas "Well done, young apprentice!"
             show master 2
             show masterplayer 28
-            mas "Вы улучшились, я чувствую это!"
+            mas "You have improved, I can sense it!"
             show master 6
             show unlock9 at truecenter
             pause
             hide unlock9 with dissolve
             show master 3
-            mas "Теперь отдыхай!"
-            mas "Мы обсудим следующую часть вашего обучения, когда вы вернетесь."
+            mas "Now, rest!"
+            mas "We will discuss the next part of your training when you return."
             show masterplayer 40
             show master 6
-            player_name "Да, спасибо вам, {b}Мастер Сомрак{/b}!!!"
+            player_name "Yes! Thank you, {b}Master Somrak{/b}!!!"
             hide masterplayer with dissolve
             pause
             show master 2
-            mas "Он быстро учится..."
+            mas "He learns fast..."
             $ training_tier = 3
 
         elif training_tier == 3:
             show masterplayer 27 at left
             show master 3 at right
             with dissolve
-            mas "Молодец, молодой ученик!"
+            mas "Well done, young apprentice!"
             show master 2
             show masterplayer 28
-            mas "Вы улучшились, я чувствую это!"
+            mas "You have improved, I can sense it!"
             show master 6
             show unlock9 at truecenter
             pause
             hide unlock9 with dissolve
             show master 3
-            mas "Теперь отдыхай!"
-            mas "Мы обсудим следующую часть вашего обучения, когда вы вернетесь."
+            mas "Now, rest!"
+            mas "We will discuss the next part of your training when you return."
             show masterplayer 40
             show master 6
-            player_name "Да! Спасибо вам, {b}Мастер Сомрак{/b}!!!"
+            player_name "Yes! Thank you, {b}Master Somrak{/b}!!!"
             hide masterplayer with dissolve
             pause
             show master 2
-            mas "Он быстро учится..."
+            mas "He learns fast..."
             $ training_tier = 4
 
         elif training_tier == 4:
             show masterplayer 28 at left
             show master 3 at right
             with dissolve
-            mas "Молодец, молодой ученик!"
+            mas "Well done, young apprentice!"
             show master 2
             show masterplayer 28
-            mas "Или я должен сказать, {b}Мастер{/b}?"
-            mas "Вы преуспели в каждом задании, которое я вам дал."
-            mas "Вы значительно улучшились с момента нашей первой встречи!"
-            mas "А теперь..."
+            mas "Or should I say, young {b}master{/b}?"
+            mas "You have excelled in every task I have given you."
+            mas "You have improved much since the first time we met!"
+            mas "And now..."
             show master 6
             show unlock9 at truecenter
             pause
             hide unlock9 with dissolve
             show master 3
-            mas "Нет ничего, чему я могу тебя научить."
+            mas "There is nothing more I can teach you."
             show master 2
-            mas "...но я не буду говорить \"нет\" больше {b}трусикам{/b}!"
+            mas "...but I won't say \"no\" to more {b}panties{/b}!"
             show master 6
             pause
             show master 4
-            mas "А теперь иди и используй свои новые навыки!" with hpunch
+            mas "Now go out there and use your new skills!" with hpunch
             show masterplayer 40
             show master 6
-            player_name "Да, {b}Мастер Сомрак{/b}!!!"
-            player_name "Спасибо вам!"
+            player_name "Yes, {b}Master Somrak{/b}!!!"
+            player_name "Thank you!"
             hide masterplayer with dissolve
             pause
             show master 2
-            mas "Он напоминает мне меня, когда я был маленьким..."
+            mas "He reminds me of myself when I was young..."
     hide master
     with dissolve
     $ game.main()
@@ -648,13 +650,13 @@ label training_failed_dialogue:
     scene expression game.timer.image("training{}_b")
     show masterplayer 27 at left
     show master 7 at right
-    mas "{b}НЕПРАВИЛЬНО!!{/b}" with vpunch
+    mas "{b}WRONG!!{/b}" with vpunch
 
 
-    mas "Ты меня не слушаешь! Ты дерешься как глупая собака!"
-    mas "Используй мозг, а не силу!"
+    mas "You don't listen! You fight like foolish dog!"
+    mas "Focus! Use less muscle, more brain!"
     show master 4
-    mas "Тренируйся больше, потом возвращайся..."
+    mas "Train more, then come back..."
     hide masterplayer
     hide master
     with dissolve

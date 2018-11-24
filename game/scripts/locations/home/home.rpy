@@ -40,11 +40,12 @@ label home_front:
         call expression game.dialog_select("home_front_mom_car_fixed_check_car")
         $ M_mom.set("jerk count", 0)
         $ M_mom.set("sex speed", .3)
+        $ animated = False
         menu:
-            "Ещё немного.":
+            "A little longer.":
                 call expression game.dialog_select("home_front_mom_car_fixed_check_car_little_longer")
                 jump expression game.dialog_select("mom_car_jerk_loop")
-            "Выйти из машины.":
+            "Leave the car.":
 
                 call expression game.dialog_select("home_front_mom_car_fixed_check_car_finished")
 
@@ -56,5 +57,13 @@ label home_front:
         $ M_mom.trigger(T_mom_bad_guys_beatup)
         $ game.timer.tick()
         jump expression game.dialog_select("hallway_dialogue")
+
+    elif M_diane.is_state(S_diane_checkup_results):
+        call expression game.dialog_select("home_diane_checkup_results")
+        $ M_diane.trigger(T_diane_package_block)
+        $ player.go_to(L_home_entrance)
+        if not game.timer.is_dark():
+            $ game.timer.tick(3)
+        $ game.main()
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -26,10 +26,7 @@ label beach_house_sleeping:
     scene expression "backgrounds/location_beach_house_bedroom_sleep.jpg"
     pause
     $ Sleep()
-    if game.timer.is_weekend():
-        call expression game.dialog_select("beachhouse_weekend_just_wokeup")
-    else:
-        call expression game.dialog_select("beachhouse_weekday_just_wokeup")
-    call expression game.dialog_select("player_just_wokeup")
+    if M_player.is_set("just wokeup"):
+        call expression game.dialog_select("player_just_wokeup")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

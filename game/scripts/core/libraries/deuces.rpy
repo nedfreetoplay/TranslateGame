@@ -1,4 +1,7 @@
 init -5 python:
+    class DeucesException(ValueError):
+        pass
+
     class Card ():
         """
         Static class that handles cards. We represent cards as 32-bit integers, so 
@@ -613,7 +616,7 @@ init -5 python:
             elif hr <= LookupTable.MAX_HIGH_CARD:
                 return LookupTable.MAX_TO_RANK_CLASS[LookupTable.MAX_HIGH_CARD]
             else:
-                raise Exception("Inavlid hand rank, cannot return rank class")
+                raise DeucesException("Invalid hand rank, cannot return rank class")
         
         def class_to_string(self, class_int):
             """

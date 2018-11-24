@@ -1,54 +1,44 @@
 screen master_bedroom:
-    if not game.timer.is_dark():
-        add "backgrounds/location_home_debbiebedroom_day.jpg"
+    add game.timer.image("backgrounds/location_home_debbiebedroom_day{}.jpg")
 
-        if M_mom.is_set("sex available") and player.location.is_here(M_mom):
-            imagebutton:
-                focus_mask True
-                pos (550,400)
-                idle "objects/character_debbie_03.png"
-                hover HoverImage("objects/character_debbie_03.png")
-                action Hide("master_bedroom"), Jump("mom_dialogue_button_room")
-
-        elif not M_mom.is_set("bed locked"):
-            imagebutton:
-                focus_mask True
-                pos (435,435)
-                idle "objects/object_bed_03.png"
-                hover HoverImage("objects/object_bed_03.png")
-                action Hide("master_bedroom"), Jump("mom_bed")
-
-        if M_mom.get_state() == S_mom_fetch_laundry:
-            imagebutton:
-                focus_mask True
-                pos (247,517)
-                idle "objects/object_laundry_01.png"
-                hover HoverImage("objects/object_laundry_01.png")
-                action Hide("master_bedroom"), Jump("mom_room_laundry")
-
+    if L_home_mombedroom.is_here(M_diane) and not M_diane.pregnancy:
         imagebutton:
             focus_mask True
-            pos (0,459)
-            idle "objects/object_desk_07.png"
-            hover HoverImage("objects/object_desk_07.png")
-            action Show("desk07_options")
+            pos (532,405)
+            idle "objects/character_diane_nightgown_bed_duo.png"
+            hover HoverImage("objects/character_diane_nightgown_bed_duo.png")
+            action Hide("master_bedroom"), Jump("diane_debbie_3way_dialogue")
 
-    else:
-        add "backgrounds/location_home_debbiebedroom_night.jpg"
+    elif M_mom.is_set("sex available") and L_home_mombedroom.is_here(M_mom) and not game.timer.is_dark():
+        imagebutton:
+            focus_mask True
+            pos (550,400)
+            idle "objects/character_debbie_03.png"
+            hover HoverImage("objects/character_debbie_03.png")
+            action Hide("master_bedroom"), Jump("mom_dialogue_button_room")
 
+    elif M_mom.is_set("panties taken") or (game.timer.is_dark() and L_home_mombedroom.is_here(M_mom) and (M_mom.get("sex available") or M_mom.is_state(S_mom_sleepover) or not M_mom.get("bed locked"))):
         imagebutton:
             focus_mask True
             pos (435,435)
-            idle "objects/object_bed_03_night.png"
-            hover HoverImage("objects/object_bed_03_night.png")
+            idle game.timer.image("objects/object_bed_03{}.png")
+            hover HoverImage(game.timer.image("objects/object_bed_03{}.png"))
             action Hide("master_bedroom"), Jump("mom_bed")
 
+    if M_mom.is_state(S_mom_fetch_laundry):
         imagebutton:
             focus_mask True
-            pos (0,459)
-            idle "objects/object_desk_07_night.png"
-            hover HoverImage("objects/object_desk_07_night.png")
-            action Show("desk07_options")
+            pos (247,517)
+            idle "objects/object_laundry_01.png"
+            hover HoverImage("objects/object_laundry_01.png")
+            action Hide("master_bedroom"), Jump("mom_room_laundry")
+
+    imagebutton:
+        focus_mask True
+        pos (0,459)
+        idle game.timer.image("objects/object_desk_07{}.png")
+        hover HoverImage(game.timer.image("objects/object_desk_07{}.png"))
+        action Show("desk07_options")
 
     if not M_mom.is_set("panties taken"):
         imagebutton:
@@ -138,7 +128,7 @@ screen mom_sex_options:
             elif mom_sex_position == "suck tits":
                 idle "buttons/debbie_stage01_07.png"
                 hover HoverImage("buttons/debbie_stage01_07.png")
-            action Hide("mom_sex_options"), If(mom_sex_position == "cowgirl", SetVariable("mom_sex_position", "suck tits"), SetVariable("mom_sex_position", "cowgirl")), Jump("mom_sex_loop_pre")
+            action Hide("mom_sex_options"), If(mom_sex_position == "cowgirl", SetVariable("mom_sex_position", "suck tits"), SetVariable("mom_sex_position", "cowgirl")), SetVariable("animated", False), Jump("mom_sex_loop_pre")
 
     imagebutton:
         if mom_sex_position == "missionary":
@@ -150,14 +140,14 @@ screen mom_sex_options:
             pos (770,700)
             idle "buttons/debbie_stage01_08.png"
             hover HoverImage("buttons/debbie_stage01_08.png")
-        action Hide("mom_sex_options"), If(mom_sex_position == "missionary", SetVariable("mom_sex_position", "cowgirl"), SetVariable("mom_sex_position", "missionary")), Jump("mom_sex_loop_pre")
+        action Hide("mom_sex_options"), If(mom_sex_position == "missionary", SetVariable("mom_sex_position", "cowgirl"), SetVariable("mom_sex_position", "missionary")), SetVariable("animated", False), Jump("mom_sex_loop_pre")
 
     if mom_sex_position == "cowgirl":
         imagebutton:
             pos (370,665)
             idle "buttons/diane_stage01_04.png"
             hover HoverImage("buttons/diane_stage01_04.png")
-            action Hide("mom_sex_options"), Function(M_mom.toggle, "change angle"), Jump("mom_sex_loop_pre")
+            action Hide("mom_sex_options"), Function(M_mom.toggle, "change angle"), SetVariable("animated", False), Jump("mom_sex_loop_pre")
 
     if mom_sex_position in ["missionary", "cowgirl"]:
         if M_mom.get("sex speed") < .4:

@@ -25,39 +25,8 @@ default pier_board_first = True
 
 default police_earl_first_visit = True
 
-default aunt_count = 0
-default in_garden = False
-default shed_dialogue = 0
-default aunt_dialogue_advance = False
-default after_minigame = False
-default drunk_dialogue = False
-default shed_unlocked = False
-default aunt_shed_scene = False
-default drink_milk_offer = False
-default pump_quest_active = False
-default aunt_drink_active = False
-default aunt_drink_made = False
-default aunt_extra_shot = False
-default aunt_drink_offered = False
-default garden_firsttime = False
-default infestation_done = False
-default aunt_masturbating_seen = False
-default seen_shed_locked = False
-default xray_toggle = False
 default xray = 0
-default aunt_had_sex = False
-default condom_on = True
-default shed_sex_angle = 0
-default shed_cow_outfit = True
-default cow_outfit = 0
-default shed_xray_toggle = False
-default shed_cum = False
-default shed_had_sex = False
-default shed_sex_count = 0
-default aunt_apology_seen = False
-default milking_unlocked = False
-default garden_done = 0
-default shed_sex_action = 0
+default drink_made = "margarita"
 
 default poker_drunk = False
 default erik_drunk = False
@@ -73,7 +42,6 @@ default left_hall_cult_seen = False
 
 default sis_shower_intro_first = True
 
-default ivy_dialogue_count = 0
 default ivy_condom_on = True
 default xray_needed = False
 default ivy_cum_inside = False

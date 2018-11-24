@@ -3,39 +3,39 @@ label button_clyde_roxxy_get_evidence_intro:
     show clyde 1 at left
     show player 12f at right
     with dissolve
-    player_name "Нам нужно поговорить об этой ситуации с {b}Кристи{/b}."
+    player_name "We need to talk about this situation with {b}Crystal{/b}."
     show player 5f
     show clyde 22
-    clyde "Я бы предпочел не..."
+    clyde "I'd rather not..."
     show clyde 21
     show player 10f
-    player_name "{b}Клайд{/b}, они собираются отправить ее в тюрьму и забрать трейлер!"
+    player_name "{b}Clyde{/b}, they're gonna send her away to prison and take the trailer away!"
     show player 5f
     show clyde 26
-    clyde "Послушай дорогой! Ты думаешь что я не знаю об этом!"
-    clyde "Я сожалею, но я ничего не могу, я не могу это прекратить!"
+    clyde "Look 'chere! You think I dun know that!"
+    clyde "I feel bad but there ain't nothin' I can do to stop it!"
     show clyde 25
     show player 12f
-    player_name "Ты можешь сдаться..."
+    player_name "You could turn yourself in..."
     show player 5f
     show clyde 22
-    clyde "Да точно..."
-    clyde "Тогда мы оба и окажемся за решёткой!"
+    clyde "Yeah right..."
+    clyde "Then we'd both end up behind bars!"
     show clyde 21
     show player 10f
-    player_name "Нет, если ты скажешь им, что {b}Кристи{/b} понятия не имела, что ты спрятал там наркотики.."
+    player_name "Not if you tell them that {b}Crystal{/b} had no idea you hid the drugs there."
     show player 5f
     clyde "..."
     show clyde 2
-    clyde "... И зачем мне это?"
+    clyde "... And why would I do that?"
     show clyde 1
     show player 12f
-    player_name "... Потому что это будет правильным решением!"
+    player_name "... Because it's the right thing to do!"
     show player 90f
     show clyde 2
-    clyde "Пффф."
-    clyde "Я не хочу попасть в тюрьму!"
-    clyde "Красивому парню как я, эти животные сожрут меня заживо."
+    clyde "Pfft."
+    clyde "I can't be going away to prison!"
+    clyde "Handsome feller like me, those animals will eat me alive in 'dere."
     show clyde 1
     return
 
@@ -45,89 +45,89 @@ label button_clyde_roxxy_get_evidence_about_roxxy_pass:
     show clyde 1 at left
     clyde "..."
     show player 10f
-    player_name "Смотри чувак. Она взяла вину на себя потому что она твоя семья."
-    player_name "... Но это было гораздо хуже чем она думала!"
-    player_name "Она может изчезнуть на долгое время и {b}Рокси{/b} потеряет свою {b}Маму{/b} и свой дом."
+    player_name "Look, man. She took the fall for you because she's your family."
+    player_name "... But this is way worse than she thinks it is!"
+    player_name "She's gonna go away for a long time and {b}Roxxy{/b} is gonna lose her {b}Mom{/b} and her home."
     show player 12f
-    player_name "{b}Рокси{/b} не сделала ничего, чтобы заслужить это!"
+    player_name "{b}Roxxy{/b} didn't do anything to deserve that!"
     show player 5f
     show clyde 21
     clyde "..."
     show clyde 22
-    clyde "... Ох, дерьмо! Ты прав."
-    clyde "{b}Роксанна{/b} не должна страдать по моей вине..."
-    clyde "... Но Я не вернусь обратно в тюрьму! ... Нет сэр!"
+    clyde "... Aww, shit! You're right."
+    clyde "{b}Roxanne{/b} shouldn't have to suffer on my account..."
+    clyde "... But I ain't goin' back to prison! ... No sir!"
     show clyde 21
     player_name "..."
     show player 14f
-    player_name "Что если бы ты послал своё признание в письменном виде?"
-    player_name "Расскажи им о своей хижине и пусть они придут и найдут доказательства."
-    player_name "Если ты все сделаешь правильно, ты можешь быть уже далеко до того,как они начнут тебя искать."
+    player_name "What if you sent your confession in with a letter?"
+    player_name "Tell them about your shack and let them come find the evidence."
+    player_name "If you do things right, you can be long gone before they start searching for you."
     show player 13f
     clyde "..."
     show clyde 22
-    clyde "Наверное, я мог бы вернуться в долину..."
-    clyde "Они никогда не смогут найти меня там."
-    clyde "... Я уверен что точно буду скучать по {b}Тете Кристи{/b} все-таки..."
+    clyde "I suppose I could go on back to the holler..."
+    clyde "They ain't never gonna find me there."
+    clyde "... I sure would miss {b}Auntie Crystal{/b} though..."
     show clyde 21
     show player 10f
-    player_name "Ты спасешь её из тюрьмы, мужик."
+    player_name "You'd be saving her from prison, man."
     show player 5f
     show clyde 22
-    clyde "Хмм, Я думаю у тебя хороший план."
+    clyde "Hmm, I reckon' you got a good plan."
     show player 13f
-    clyde "Значит, я сделаю это, и она выйдет безнаказанной?"
+    clyde "So I do this and she gets off scot free?"
     show clyde 21
     show player 12f
-    player_name "... Мы все ещё должны прийти с деньгами за её залог, но для начала неплохо."
+    player_name "... We'd still have to come up with bail money for her but it's a good start."
     show player 5f
     show clyde 22
-    clyde "Сколько денег тебе нужно?"
+    clyde "How much money you need?"
     show clyde 21
     show player 12f
     player_name "$50,000..."
     show player 5f
     show clyde 2
-    clyde "... Мда."
-    clyde "Ну, я могу это сделать!"
+    clyde "... Huh."
+    clyde "Well I can do that!"
     show clyde 1
     show player 10f
-    player_name "Что?!" with hpunch
-    player_name "Ты же не серьезно..."
-    player_name "У тебя есть $50,000 завалявшиеся где-то?"
+    player_name "What?!" with hpunch
+    player_name "You can't be serious..."
+    player_name "You have $50,000 laying around somewhere?"
     show player 11f
     show clyde 2
-    clyde "Не совсем."
+    clyde "Not exactly."
     show clyde 4 with dissolve
-    clyde "... Но у меня есть целая куча метамфитомина."
-    clyde "Этого будет достаточно что бы получить $100,000 с хорошего покупателя, Я думаю."
+    clyde "... But I got a whole mess of that Meth."
+    clyde "Enough to clear $100,000 to the right buyer, I imagine."
     show clyde 3
     show player 10f
-    player_name "Это безумие"
-    player_name "Ты реально можешь продать его?"
+    player_name "That's nuts!"
+    player_name "Can you really sell it?"
     show player 5f
     show clyde 4
-    clyde "Пффф! Да ладно дружище..."
-    clyde "Ты хоть знаешь с кем ты разговариваешь?"
-    clyde "Я могу продать эскимо с кетчупом девушке в белых перчатках!"
+    clyde "Pfft! C'mon buddy..."
+    clyde "Dontcha know who yer talkin' to?"
+    clyde "I could sell a ketchup popsicle to a gal wearin' white gloves!"
     show clyde 3
     show player 11f
     player_name "..."
     show player 12f
-    player_name "... Замороженый кетчуп?"
+    player_name "... Ketchup popsicle?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Да, дружище!"
+    clyde "Yeah, buddy!"
     show clyde 3 with dissolve
     show player 14f
-    player_name "... Когда ты сможешь это сделать?"
+    player_name "... When can you do it?"
     show player 13f
     show clyde 4
-    clyde "Хммм, мне нужно будет позвонить моему покупателю."
-    clyde "... Но очень скоро, я думаю."
+    clyde "Hmm, I'll have to call up mah buyer."
+    clyde "... But perty soon, I reckon'."
     show clyde 3
     show player 14f
-    player_name "Мне надо рассказать {b}Рокси{/b} хорошие новости!"
+    player_name "I'm gonna go tell {b}Roxxy{/b} the good news!"
     hide player
     hide clyde
     with dissolve
@@ -137,19 +137,19 @@ label button_clyde_roxxy_get_evidence_about_roxxy_fail:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "[chr_warn]Ты просто трус!"
+    player_name "[chr_warn]You're a coward!"
     show player 90f
     show clyde 26
-    clyde "[chr_warn]Эй, тебе не надо называть меня {b}меня{/b} трусом!"
-    clyde "[chr_warn]Ты не предстовляешь себе какого это быть в тюрьме для кого то вроде меня!"
-    clyde "[chr_warn]Я когда-то был там однажды и будь я проклят если бы я не вернулся назад"
+    clyde "[chr_warn]Hey now, don't you be calling {b}ME{/b} no coward!"
+    clyde "[chr_warn]You got no idea what it's like in the slammer fer someone like me!"
+    clyde "[chr_warn]I dun been there once and I'll be damned if I'm goin' back!"
     show clyde 25
     show player 15f
-    player_name "[chr_warn]Неважно... {b}ТРУС{/b}!"
+    player_name "[chr_warn]Whatever... {b}COWARD{/b}!"
     show player 16f
     show clyde 26
-    clyde "[chr_warn]Да пошел ты!"
-    clyde "[chr_warn]Я не приму это!"
+    clyde "[chr_warn]Screw you!"
+    clyde "[chr_warn]I dun hafta take this!"
     hide clyde
     hide player
     with dissolve
@@ -157,11 +157,11 @@ label button_clyde_roxxy_get_evidence_about_roxxy_fail:
 
 label button_clyde_roxxy_get_evidence_nevermind:
     show player 12f
-    player_name "Угх, забей!"
+    player_name "Ugh, forget it!"
     show player 90f
     show clyde 22
-    clyde "Да, это именно то, что я планирую сделать!"
-    clyde "Я считаю, что это целый беспорядок, забывающий внизу этих пивных банок!"
+    clyde "Yeah, that's exactly what I plan on doin'!"
+    clyde "I reckon' thars a whole mess of forgettin' at the bottom of these here beer cans!"
     hide clyde
     hide player
     with dissolve
@@ -172,18 +172,18 @@ label button_clyde_roxxy_selling_meth_ask_roxxy:
     show clyde 1 at left
     show player 10f at right
     with dissolve
-    player_name "Когда ты сможешь продать этот Мет"
+    player_name "When can you sell that Meth?"
     show player 5f
     show clyde 2
-    clyde "Притормози конец, парень!"
-    clyde "Это требуем времени."
+    clyde "Hold yer horses, buddy!"
+    clyde "These things take time."
     show clyde 1
     player_name "..."
     show clyde 2
-    clyde "Просто иди и скажи моей сладкой {b}кузине{/b}, что {b}Клайд{/b} позаботитьтся обо всем!"
+    clyde "You just go on and tell my sweet {b}cousin{/b} that {b}Clyde{/b} is gon take care of everthang!"
     show clyde 1
     show player 14f
-    player_name "... Верно."
+    player_name "... Right."
     hide player
     hide clyde
     with dissolve
@@ -193,57 +193,57 @@ label button_clyde_roxxy_selling_meth:
     scene expression player.location.background_blur
     show clyde 3 at left
     show player 10f at right
-    player_name "Ты уже связался со своим покупателем?"
+    player_name "You get in touch with your buyer yet?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Да, приятель!"
+    clyde "Yeah, buddy!"
     show player 13f
-    clyde "Я намериваюсь заключить с ним сделку!"
+    clyde "I'm fixin' to make a killin' on dis here deal!"
     show clyde 3
     show player 12f
-    player_name "{b}Рокси{/b} сказала, что ты не торгавал Метом раньше!"
+    player_name "{b}Roxxy{/b} says you've never sold Meth before!"
     show player 90f
     show clyde 26 with dissolve
-    clyde "Что?!"
-    clyde "Она ничего не знает!"
-    clyde "У меня было много таких сделок!"
+    clyde "What?!"
+    clyde "She dun know nuthin'!"
+    clyde "I been in on plenty of these here deals!"
     show clyde 25
     show player 12f
-    player_name "Ты на самом деле имел дело с покупателями раньше?"
+    player_name "You've actually dealt with the buyers before?"
     show player 5f
     show clyde 1
     clyde "..."
     show clyde 22
-    clyde "Ну, я видел как {b}Тетей Кристи{/b} делала это много раз!"
+    clyde "Well, I watched {b}Auntie Crystal{/b} do it a hundert times!"
     show clyde 1
     show player 37f with dissolve
     player_name "..."
-    player_name "{b}*Вздох*{/b} Я пойду с тобой."
+    player_name "{b}*Sigh*{/b} I'm coming with you."
     show player 90f with dissolve
     show clyde 2
-    clyde "Хм?"
-    clyde "Что ты знаешь о продаже наркотиков?!"
+    clyde "Huh?"
+    clyde "What do you know about selling drugs?!"
     show clyde 1
     show player 12f
-    player_name "Ни черта не смыслю в этом."
-    player_name "... Но Я точно знаю, что ты определенно недостаточно компетенты, чтобы сделать это в одиночку."
+    player_name "Not a damn thing."
+    player_name "... But I know you and you're definitely not competent enough to do this alone."
     show player 90f
     show clyde 22
-    clyde "Ну, это не... Подожди секунду, что ты имел в виду?!"
+    clyde "Well, that's not... Wait a second, what's campito mean?!"
     show clyde 1
     show player 12f
-    player_name "... Именно."
+    player_name "... Exactly."
     show player 90f
     show clyde 2
-    clyde "Ччч, Неважно, парень."
-    clyde "Пойдешь или не пойдешь. Это не важно для меня!"
+    clyde "Tch, Whatever, buddy."
+    clyde "Come or don't come. It don't matter none to me!"
     show clyde 26
-    clyde "... Но если ты пойдешь то лучше бы тебе {b}встретиться со мной в трейлире вечером {/b}."
-    clyde "Ты понял?"
+    clyde "... But iffin' you are comin', you'd best {b}meet me at the trailer, tonight{/b}."
+    clyde "You got that?"
     show clyde 1
     show player 12f
-    player_name "Да, я понял."
-    player_name "Увидимся {b}сегодня в трейлере Рокси{/b}."
+    player_name "Yeah, I got it."
+    player_name "I'll see you {b}tonight at Roxxy's trailer{/b}."
     hide player
     hide clyde
     with dissolve
@@ -253,15 +253,15 @@ label button_clyde_roxxy_meeting_buyer:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "Мы все по прежнему хороши что бы продавать мет?"
+    player_name "We still good to sell that Meth?"
     show player 90f
     show clyde 4 with dissolve
-    clyde "Уверен"
-    clyde "Просто будть здесь {b}вечером{/b}, если увязался со мной."
+    clyde "Sure 'nuff."
+    clyde "Just be here {b}tonight{/b} iffin' your plan is to tag along."
     show clyde 3
     show player 12f
-    player_name "Да, понял."
-    player_name "Увидимся {b}вечером{/b}."
+    player_name "Yeah, I got it."
+    player_name "I'll see you {b}tonight{/b}."
     hide player
     hide clyde
     with dissolve
@@ -271,52 +271,52 @@ label button_clyde_roxxy_meeting_buyer_dark:
     scene expression player.location.background_blur
     show clyde 1 at left
     show player 12f at right
-    player_name "Ты готов идти?"
+    player_name "You ready to go?"
     show player 90f
     show clyde 1
     clyde "..."
     show clyde 2
-    clyde "Ты одел это?"
+    clyde "You wearing dat?"
     show clyde 1
     show player 5f
     player_name "..."
     show player 10f
-    player_name "Что не так с моей одеждой?"
+    player_name "What's wrong with what I'm wearing?"
     show player 5f
     show clyde 2
-    clyde "Ого... Не знаю, приятель. Ты выглядишь ужасно подозрительно..."
-    clyde "Я уверен, что ни за что не куплю наркотики у кого-то похожего на тебя."
+    clyde "Eugh... I dunno, buddy. You look awfully suspicious..."
+    clyde "I sure as heck wouldn't buy no drugs off somebody lookin' like you."
     show clyde 1
     show player 10f
-    player_name "Ну, у меня другой одежды не было..."
+    player_name "Well, I didn't bring any other clothes..."
     show player 5f
     clyde "..."
     show clyde 2
-    clyde "Подожди секунду. У меня есть кое что получше для тебя!"
+    clyde "Hold on a second. I gots somethin' fer you to wear!"
     hide clyde with dissolve
     show player 12f
-    player_name "... Это будет интересно."
+    player_name "... This should be interesting."
     scene black with fade
     pause
     scene park_bench
     show clyde 4 at left
     with dissolve
-    clyde "Давай парень..."
-    clyde "Не заставляй нас опоздать!"
+    clyde "C'mon now, buddy..."
+    clyde "You gon make us late!"
     show clyde 3
     show player 12f at right
     show player_outfit bb 638ef at Position (xpos=866)
     with dissolve
-    player_name "Я не верю что ты уговорил меня надеть это..."
-    player_name "Я чувствую себя глупо!"
+    player_name "I can't believe I let you talk me into wearing this..."
+    player_name "I feel ridiculous!"
     show player 90f
     show clyde 4
-    clyde "Шшш, не будь глупцом."
-    clyde "Ты похож на настоящего торговца!"
+    clyde "Psh, dun be silly."
+    clyde "You look like the real deal!"
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "Покупатель может придти с секунды на секунду."
+    clyde "The buyer should be here any second now."
     hide clyde
     hide player
     hide player_outfit
@@ -328,103 +328,103 @@ label button_clyde_cletus_introduce:
     show clyde 3 at left
     show clyde_hat at left
     with dissolve
-    player_name "{b}Клайд{/b}?!"
+    player_name "{b}Clyde{/b}?!"
     show player 5f
     show clyde 22 with dissolve
     clyde "!!!"
     show clyde 21
     show player 10f
-    player_name "Когда ты вернешься в город?!"
+    player_name "When did you get back into town?!"
     show player 5f
     show clyde 2
-    clyde "Эээ, прости приятель."
-    clyde "Ты ошибся приятеля..."
+    clyde "Ehh, sorry buddy."
+    clyde "You got the wrong feller..."
     show clyde 1
     show player 10f
-    player_name "Хм?"
+    player_name "Huh?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Меня зовут {b}Клетус{/b}!"
-    clyde "Рад познакомиться с тобой!"
+    clyde "Name's {b}Cletus{/b}!"
+    clyde "Pleasure to meet ya!"
     show clyde 3
     player_name "..."
     show player 12f
-    player_name "О чем ты говоришь, {b}Клайд{/b}?"
+    player_name "What are you talking about, {b}Clyde{/b}?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "{b}*Кгхм*{/b} Ешё раз..."
-    clyde "Мое имя не {b}Клайд{/b}... а {b}Клетус{/b}."
+    clyde "{b}*Ahem*{/b} Again..."
+    clyde "The names not {b}Clyde{/b}... It's {b}Cletus{/b}."
     show clyde 1
     show player 12f
-    player_name "... Но ты так похож на кузена {b}Рокси{/b}, {b}Клайда{/b}."
+    player_name "... But you look just like {b}Roxxy's{/b} cousin {b}Clyde{/b}."
     show player 5f
     show clyde 2
-    clyde "Хмм, что ж извини. Я не знаю этого человека {b}Клайда{/b}."
+    clyde "Hmm, well sorry. I don't know this {b}Clyde{/b} person."
     show clyde 9 with dissolve
-    clyde "Тем не менее это звучит так как будто он красивый сукин сын!"
+    clyde "He sure does sound like a handsome son bitch though!"
     show clyde 3 with dissolve
     player_name "..."
     show player 17f
-    player_name "Ты что сейчас прикалываешься надо мной?!"
+    player_name "Are you joking with me right now?!"
     show player 13f
     show clyde 4
-    clyde "Позвольте спросить у вас..."
-    clyde "Этот {b}Клайд{/b} носит шляпу?"
+    clyde "Let me ask you this..."
+    clyde "Did this {b}Clyde{/b} wear a hat?"
     show clyde 3
     show player 10f
-    player_name "... Нет."
+    player_name "... No."
     show player 5f
     show clyde 4
-    clyde "Ну, тогда проехали!"
-    clyde "Как вы можете видеть... Клетус никогда никуда не уходит без своей верной шляпы!"
+    clyde "Well, then there ya go!"
+    clyde "As you can see... {b}Cletus{/b} never goes nowhere, without his trusty hat!"
     show clyde 3
     player_name "..."
     show player 25f
-    player_name "Это так странно."
+    player_name "This is weird."
     show player 12f
-    player_name "Мне нужно идти."
+    player_name "I'm gonna go."
     show player 5f
     show clyde 4
-    clyde "Ладно. Что ж, рад был с тобой познакомиться, {b}[firstname]{/b}!"
+    clyde "Alright. Well, it was nice meetin' ya, {b}[firstname]{/b}!"
     show clyde 3
     player_name "..."
     show player 92f
-    player_name "Я тебе не говорил своего имени!"
+    player_name "I didn't tell you my name!"
     show player 91f
     show clyde 22
     clyde "!!!" with hpunch
-    clyde "Ох, ээээ..."
-    clyde "... Ну, я..."
+    clyde "Oh, err..."
+    clyde "... Well, I..."
     show clyde 11 with dissolve
-    clyde "Эммм... Телепатия!"
+    clyde "Umm... Telepathy!"
     show clyde 12
     show player 10f
-    player_name "Хмм?!"
+    player_name "Huh?!"
     show player 5f
     show clyde 11
-    clyde "Я, {b}Клетус{/b}... Я телепат."
+    clyde "I, {b}Cletus{/b}... Am a telepath."
     show clyde 4 with dissolve
-    clyde "... И я могу прочесть твои мысли силой вволи!"
+    clyde "... And I dun read yer thoughts with mah mind bullets!"
     show clyde 3
     show player 10f
-    player_name "Мои мысли?"
+    player_name "Mind bullets?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Да точно, парень!"
+    clyde "Dat's right, buddy!"
     show clyde 4 with dissolve
-    clyde "Так что не говори людям что я здесь"
-    clyde "Потому что я знаю..."
-    clyde "Особенно, если эти будет полиция."
+    clyde "So don't go tellin' people that I'm here."
+    clyde "Cause I'll know..."
+    clyde "Especially, if those people are the fuzz."
     show clyde 3
     player_name "..."
     show player 25f
-    player_name "Я..."
-    player_name "... Только..."
-    player_name "... Пока."
+    player_name "I..."
+    player_name "... Just..."
+    player_name "... Bye."
     hide player with dissolve
     pause
     show clyde 4
-    clyde "До скорого, парень!"
+    clyde "So long, buddy!"
     hide clyde
     hide clyde_hat
     with dissolve
@@ -434,37 +434,37 @@ label button_clyde_intro_0:
     show clyde 2 at left
     show player 5f at right
     with dissolve
-    clyde "Я могу тебе помочь с чем-то?"
+    clyde "Can I help you with somethin'?"
     show clyde 1
     show player 10f
-    player_name "Эммм, нет?"
+    player_name "Uhh, no?"
     show player 5f
     show clyde 22
-    clyde "О чувак. Ты один из демократов, Иисус любит тебя??"
+    clyde "Oh, man. Are you one of dem door to door, jesus loves ya, people?"
     show clyde 21
     show player 12f
-    player_name "Что?! Нет!"
+    player_name "What?! No!"
     show player 5f
     show clyde 26
-    clyde "{b}*Задыхаясь*{/b} Ты что коп?!"
-    clyde "Ты должен мне сказать, такие правила!"
+    clyde "{b}*Gasp*{/b} Are you a cop?!"
+    clyde "You have to tell me now, it's the law!"
     show clyde 25
     show player 12f
-    player_name "Нет мужик... Мы познакомились только прошлой ночью!"
+    player_name "No, man... We met just the other night!"
     show player 5f
     clyde "..."
     show player 10f
-    player_name "Я помогал {b}Рокси{/b} с домашним заданием?"
+    player_name "I was helping {b}Roxxy{/b} with her homework?"
     show player 5f
     show clyde 4 with dissolve
-    clyde "Ох, да наверное!"
-    clyde "Ты новый парень {b}Рокси{/b}!"
+    clyde "Oh, shit yeah!"
+    clyde "Yer {b}Roxanne's{/b} new boyfriend!"
     show clyde 3
     show player 10f
-    player_name "Нет, мы только друзья-"
+    player_name "No, we're just fr-"
     show player 5f
     show clyde 4
-    clyde "Как дела, брат?!"
+    clyde "How's it goin', brother?!"
     show clyde 3
     player_name "..."
     return
@@ -473,13 +473,13 @@ label button_clyde_intro_1:
     show clyde 4 at left
     show player 5f at right
     with dissolve
-    clyde "Как дела, брат?!"
+    clyde "What's up, brother?!"
     show clyde 3
     show player 14f
-    player_name "Ох, привет {b}Клайд{/b}..."
+    player_name "Oh, hey {b}Clyde{/b}..."
     show player 5f
     show clyde 4
-    clyde "Что ты здесь делаешь?!"
+    clyde "Whatchu doin' out here?!"
     show clyde 3
     return
 
@@ -488,104 +488,104 @@ label button_cletus_intro:
     show clyde 3 at left
     show clyde_hat at left
     with dissolve
-    player_name "И так {b}Клетус{/b}, верно?"
+    player_name "So {b}Cletus{/b}, right?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Ты прав, парень!"
+    clyde "Dat's right, buddy!"
     show clyde 4 with dissolve
-    clyde "Чем я могу тебе помочь?!"
+    clyde "What can I do ya fer?!"
     show clyde 3
     return
 
 label button_clyde_how_are_you:
     show player 37f with dissolve
-    player_name "{b}*Вздох*{/b} У меня все в порядке."
-    player_name "Как дела?"
+    player_name "{b}*Sigh*{/b} I'm good."
+    player_name "How are you doing?"
     show player 5f with dissolve
     show clyde 9 with dissolve
-    clyde "Много того, что никто не делает!"
-    clyde "Хахаха, знаешь что я имею в виду, брат?!"
+    clyde "More like, who ain't I doin'!"
+    clyde "Hahah, know what I mean, brother?!"
     show clyde 3 with dissolve
     show player 24f
     player_name "..."
     show clyde 11 with dissolve
-    clyde "'Потому что у меня был весь секс... с девушками..."
-    clyde "{b}*Кгхм*{/b} человеческими девушками."
+    clyde "'Cause I'm havin' all the sex... With the ladies..."
+    clyde "{b}*Ahem*{/b} Human ladies."
     show clyde 12
     show player 12f
-    player_name "Да, я понял, {b}Клайд{/b}..."
+    player_name "Yeah, I get it, {b}Clyde{/b}..."
     show clyde 9 with dissolve
-    clyde "Хех, конечно ты!"
+    clyde "Heh, yeah you do!"
     show clyde 3 with dissolve
     return
 
 label button_clyde_where_are_you_from:
     show player 10f
-    player_name "Я никогда не слышал, чтобы кто-то говорил так, как ты, {b}Клайд{/b}..."
+    player_name "I've never heard anybody talk the way you do, {b}Clyde{/b}..."
     show player 12f
-    player_name "В общем откуда ты?"
+    player_name "Where are you from anyways?"
     show player 5f
     show clyde 4
-    clyde "Потому что все вы, городские, говорите странно!"
-    clyde "Там в низу в долине, мы все так разговариваем..."
+    clyde "Dat's cause all you city folk be talkin' weird!"
+    clyde "Down in the Holler, we all talk like dis..."
     show clyde 3
     show player 10f
-    player_name "... В долине?"
+    player_name "... The Holler?"
     show player 5f
     show clyde 4
-    clyde "Да."
+    clyde "Yeah."
     show clyde 3
     show player 10f
-    player_name "Что это?!"
+    player_name "What is that?!"
     show player 5f
     show clyde 4
-    clyde "Эмм, где я вырос. Ясень пень!"
+    clyde "Uhh, where I growed up. Duh!"
     show clyde 3
     show player 11f
     player_name "..."
     show clyde 4
-    clyde "Это в нескольких округах севернее от сюда."
-    clyde "На холмах."
+    clyde "It's just a few counties North of here."
+    clyde "Up in the hills."
     show clyde 3
     show player 10f
-    player_name "Я думал, что на севере сплошные леса."
+    player_name "I thought it was all woods up north?"
     show player 5f
     show clyde 4
-    clyde "Да, довольно много..."
+    clyde "Yeah, perty much..."
     show clyde 3
     show player 12f
-    player_name "Люди живут там?"
+    player_name "People live up there?"
     show player 5f
     show clyde 4
-    clyde "Да, большая часть моей семьи все еще живет там."
-    clyde "Я думал, что перееду сюда с {b}Тетушкой Кристи{/b}, чтобы произнести заклинание."
-    clyde "Дайте городской жизни справедливую встряску."
+    clyde "Psh, most my family still livin' dere."
+    clyde "I thought I'd move up here with {b}Auntie Crystal{/b} fer a spell."
+    clyde "Give city life a fair shake."
     show clyde 3
     show player 10f
-    player_name "И как получается?"
+    player_name "How's that working out?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Ээээ, есть свои плюсы и минусы."
-    clyde "Я скучаю по родному самогону дома и по всей травке."
+    clyde "Ehh, it's got its ups and downs."
+    clyde "I miss the moonshine from back home and all the weed."
     show clyde 1
     player_name "..."
     show clyde 4 with dissolve
-    clyde "... Но я и тут готовлю убойные блюда!"
+    clyde "... But I'm makin' a killin' cookin' up here!"
     show clyde 22 with dissolve
     clyde "!!!"
     show clyde 21
     show player 12f
-    player_name "И что ты готовишь?"
+    player_name "What are you cooking?"
     show player 5f
     show clyde 22
-    clyde "Э-э-э... "
+    clyde "Ehh... "
     show clyde 21
     clyde "..."
     show clyde 22
-    clyde "Курицу!"
+    clyde "Chicken!"
     show clyde 4 with dissolve
-    clyde "Хех, да! Я готовлю жареных цыплят!"
-    clyde "Вы, городские, просто не можете насытиться..."
+    clyde "Heh, yeah! I'm cookin' buttloads of fried chicken!"
+    clyde "You city folk just can't get enough..."
     show clyde 3
     show player 4f with dissolve
     player_name "..."
@@ -595,12 +595,12 @@ label button_clyde_where_are_you_from:
 
 label button_clyde_see_ya:
     show player 36f with dissolve
-    player_name "Мне нужно идти..."
+    player_name "I should get going..."
     show player 5f with dissolve
     show clyde 4
-    clyde "Ага, хорошо."
-    clyde "Продолжим в следующий раз, братиш!"
-    clyde "Ууу!!"
+    clyde "Yeah, okay."
+    clyde "Keep on rockin', brother!"
+    clyde "Wooo!!"
     show clyde 3
     show player 30f
     player_name "..."
@@ -611,44 +611,44 @@ label button_clyde_see_ya:
 
 label button_clyde_whats_going_on:
     show player 12f
-    player_name "Что у тебя там происходит?"
+    player_name "What have you got going on in there?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Эээ, извини бро."
-    clyde "В эту лачугу строго запрещается заходить!"
+    clyde "Ehh, sorry brother."
+    clyde "The shack is strictly off limits!"
     show clyde 9 with dissolve
-    clyde "Если только у тебя нет женских прелестей?!"
+    clyde "Unless you got lady parts?!"
     show clyde 3 with dissolve
     show player 30f
-    player_name "... Нет."
+    player_name "... Nope."
     show player 5f
     show clyde 4
-    clyde "Хех, что ж запомни это... Если хижина качается, лучше не стучать!"
+    clyde "Heh, well remember this... If the shack is a rockin', best not be knockin'!"
     show clyde 9 with dissolve
-    clyde "Понимаешь о чем я?!"
+    clyde "Know what I mean?!"
     show clyde 3
     show player 401f
-    player_name "... Да. несмотря на то что мне бы очень хотелось..."
+    player_name "... Yeah. I wish I didn't though..."
     show player 403f
     return
 
 label button_clyde_nice_tractor:
     show player 14f
-    player_name "Хороший трактор."
+    player_name "Nice tractor."
     show player 13f
     show clyde 4
-    clyde "Ох, да!"
-    clyde "Это {b}Большая Берта{/b}!"
-    clyde "Разве она не красавица?!"
+    clyde "Oh, yeah!"
+    clyde "Dat 'dere is {b}Big Bertha{/b}!"
+    clyde "Ain't she a beauty?!"
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "Я сам её построил из остатков металлолома."
-    clyde "31.2 лошадиных сил, 2500 об/мин, 8.5 галлонов..."
-    clyde "... И только посмотри на этот рубиново красный завершение!"
-    clyde "Мммм! Она самая сексуальная вещь на четырех колесах!"
+    clyde "I built her up from scraps, myself."
+    clyde "31.2 horsepower, 2500 rpm, 8.5 gallon tank..."
+    clyde "... And just look at that ruby red finish!"
+    clyde "Mmm! She's the sexiest thing on four wheels!"
     show clyde 9 with dissolve
-    clyde "Понимаешь о чем я?"
+    clyde "Know what I mean?"
     show clyde 3 with dissolve
     show player 5f
     player_name "..."
@@ -656,12 +656,12 @@ label button_clyde_nice_tractor:
 
 label button_clyde_nevermind:
     show player 10f
-    player_name "На самом деле, неважно."
-    player_name "... Может быть в другой раз?"
+    player_name "Actually, nevermind."
+    player_name "... Maybe some other time?"
     show player 5f
     show clyde 4
-    clyde "Пф, Черт возьма да, братиш!"
-    clyde "Ты знаешь где меня найти."
+    clyde "Psh, hell yeah, Brother!"
+    clyde "You know where to find me."
     hide player
     hide clyde
     hide clyde_hat
@@ -670,46 +670,46 @@ label button_clyde_nevermind:
 
 label button_clyde_know_youre_clyde:
     show player 15f
-    player_name "Давай, {b}Клайд{/b}! Я знаю это ты!"
+    player_name "C'mon, {b}Clyde{/b}! I know it's you!"
     show player 16f
     show clyde 4
-    clyde "Я не понимаю о чем ты говоришь..."
+    clyde "I don't know what yer talkin' bout..."
     show clyde 3
     show player 15f
-    player_name "Это глупо, я никому не скажу, что ты вернулся..."
+    player_name "This is stupid, I'm not gonna tell anybody you're back..."
     show player 16f
     show clyde 4
-    clyde "Что ты там куришь, приятель?"
+    clyde "Whatchu been smokin', buddy?"
     show player 428f
-    clyde "Меня зовут {b}Клетус{/b}, и я здесь впервые."
-    clyde "Навсегда."
+    clyde "The names {b}Cletus{/b} and this is my first time being here."
+    clyde "Ever."
     show clyde 3
     show player 403f
     player_name "..."
     show player 402f with dissolve
-    player_name "Он по-прежнему пишет {b}Клайд{/b} над вашим текстовым полем!"
+    player_name "It still says {b}Clyde{/b} above your text box!"
     show player 403f
     show clyde 2 with dissolve
-    clyde "Эй!"
-    clyde "Не ломай все стены!"
-    clyde "Это обман!"
-    clyde "Моё имя {b}Клетус{/b}!!!"
+    clyde "Hey now!"
+    clyde "Don't go breakin' the fourth wall!"
+    clyde "That's cheatin'!"
+    clyde "The name is {b}Cletus{/b}!!!"
     show clyde 26
-    clyde "Скажи это!"
+    clyde "Say it!"
     show clyde 25
     show player 90f
     player_name "..."
     show clyde 2
-    clyde "Давай, ты знаешь что хочешь сказать это..."
+    clyde "C'mon, you know you wanna say it..."
     show clyde 1
     show player 24f
-    player_name "{b}*Вздох*{/b}"
+    player_name "{b}*Sigh*{/b}"
     show player 25f
-    player_name "{b}Клетус{/b}."
+    player_name "{b}Cletus{/b}."
     show player 24f
     show clyde 4 with dissolve
-    clyde "Вот так!"
-    clyde "Это было не так сложно, правда?!"
+    clyde "There ya go!"
+    clyde "That weren't so hard now, was it?!"
     show clyde 3
     player_name "..."
     return

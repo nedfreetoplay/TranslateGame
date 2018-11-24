@@ -1,3 +1,36 @@
+{b}Summertime Saga v0.17.0{/b}
+- {i}New Locations:{/i}
+    - Diane's Home has an expansion
+    - Hospital Third Floor
+    - Annie's Home (Daycare)
+    
+- {i}New Character Events:{/i}
+    - Smith/Titty event reworked
+    - Diane's story
+    
+- {i}Minigames:{/i}
+    - Milking minigame
+    - Mixology minigame
+    - Pregnancy Minigame
+    
+- {i}New sex scenes:{/i}
+    - Threesome with Debbie and Diane
+    - Cucumber scene reworked
+    - Breeding scene reworked
+    
+- {i}New Features:{/i}
+    - Pregnancy! (only for Diane at this point)
+    - Missed note auditive cue for the music minigame
+    
+- {i}Rework of the codebase:{/i}
+    - Removed Diane's old code
+    
+- {i}Bug fixes:{/i}
+    - Fixed Mia not appearing at the library
+    - Fixed crash on achievements list
+    - Fixed long load time issues caused by Ren'Py 7
+    - Fixed a bug which would prevent getting the glasses for okita from judith if you asked her to be somewhere else (same bug occured on Mia with Bissette)
+
 {b}Summertime Saga v0.16.1{/b}
 - {i}Bug fixes:{/i}
     - Multiple dialogue and posing improvements for a more consistent experience.

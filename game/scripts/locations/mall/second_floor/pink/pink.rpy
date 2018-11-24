@@ -12,5 +12,10 @@ label pink_dialogue:
 
     elif M_mia.is_state([S_mia_angelicas_order, S_mia_angelicas_whip]) and not player.has_item("whip"):
         call expression game.dialog_select("pink_mia_angelicas_whip")
+
+    elif M_diane.is_state(S_diane_get_outfit_package):
+        call expression game.dialog_select("pink_diane_get_outfit_package")
+        $ M_diane.trigger(T_diane_got_outfit_package)
+        $ player.get_item("package")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

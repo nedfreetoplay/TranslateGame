@@ -2,61 +2,67 @@ label basement_mom_wash_clothes:
     scene home_basement_sideview
     show player 324 at Position(xpos=860)
     show debbie 136 at Position(xpos=550,ypos=805)
-    deb "... Отлично, ты принес эту грязную одежду."
+    deb "... Oh good, you brought those dirty clothes down."
     show debbie 137
-    deb "{b}*хихикая*{/b}"
+    deb "{b}*Giggle*{/b}"
     show player 325
     show debbie 135
-    player_name "Что смешного?"
+    player_name "What's so funny?"
     show player 326
     show debbie 136
-    deb "Твоя одежда! Она в полном беспорядке!"
+    deb "Your clothes! They're a mess!"
     show player 324
     show debbie 137
-    deb "Ты действительно много работал, да?"
+    deb "You were really working hard out there, huh?"
     show player 325
     show debbie 135
-    player_name "Да, я, наверное, должен был переодеться во что-то еще, прежде чем начать..."
+    player_name "Yeah, I should probably have changed into something else before starting..."
     show player 324
     show debbie 136
-    deb "Все в порядке, милый! Мы приведем тебя в порядок."
-    deb "Просто отдай свою одежду и я добавлю ее в стирку."
+    deb "It's okay, sweetie! We'll get you all cleaned up."
+    deb "Just hand over your clothes and I'll add them to the laundry."
     show player 325
     show debbie 135
-    player_name "Хорошо, {b}[deb_name]{/b}. Так и сделаю."
+    player_name "It's okay, {b}[deb_name]{/b}. I can do it."
     show player 324
     show debbie 136
-    deb "Нет проблем. Я как раз собиралась загрузить машинку."
+    deb "It's no problem. I was just getting ready to start a load anyways."
     show debbie 135
     show player 327 at Position(xoffset=-27) with fastdissolve
     pause
-    show expression Cutscene("home_basement_cutscene", "Было немного неловко раздеваться перед {b}[deb_name]{/b}. \nНо она, похоже, не заметила. Она просто поспешно засунула мою одежду в машину. \nЯ не мог не заметить этого взгляда, когда она рассказывала о своей работе.\nИзлишне говорить, что я довольно быстро забыл о своем смущении...") as cutscene with fade
+
+    scene expression "backgrounds/location_home_basement_cutscene.jpg"
+    show expression FilteredText("It was a little embarrassing stripping down in front of {b}[deb_name]{/b}. \nShe didn't seem to notice though. She just hurriedly stuffed my clothes into the machine. \nI couldn't help but notice the view as she went about her work.\nNeedless to say, I forgot my embarrassment rather quickly...") as cutscene at Position (xpos= 512, ypos= 700)
+    with fade
     pause
     hide cutscene
+    scene black
+    with fade
+
     scene home_basement_sideview
     show player 330 at Position(xpos=860)
     show debbie 142 at Position(xpos=550,ypos=805)
     with fade
-    deb "( Он, вероятно, будет носить эти вонючие боксеры весь день. )"
-    deb "( Я тоже должна их добавить. В противном случае они могут оказаться на его полу на следующей неделе... )"
+    deb "( He's probably going to wear those stinky boxers all day now. )"
+    deb "( I should add them too. Otherwise they might end up laying on his floor for the next week... )"
     show debbie 136
-    deb "Боксеры тоже, {b}[firstname]{/b}."
+    deb "Boxers too, {b}[firstname]{/b}."
     show player 332
-    deb "Возможно, теперь все будет постирано."
+    deb "Might as well get it all done now."
     show debbie 135
     player_name "( !!! )"
     show player 331
-    player_name "Правда? Нет, все в порядке. Я просто брошу их в корзину с грязной одеждой наверху..."
+    player_name "Really? No, It's okay. I'll just toss them in the dirty clothes basket upstairs..."
     show debbie 136
     show player 330
-    deb "Не говори глупостей, ты сейчас здесь. Давай просто бросим их, и ты сможешь принять душ!"
+    deb "Don't be silly, you're here now. Let's just toss them in and you can go have a shower!"
     show debbie 135
     show player 333
-    player_name "... Да, но-"
+    player_name "... Yeah, but-"
     show debbie 136
     show player 330
-    deb "Не нужно стесняться. Ничего такого, чего бы я не видела раньше миллион раз."
-    deb "И давай поторопимся и покончим с этим."
+    deb "No need to feel embarrassed. It's nothing I haven't seen a million times before."
+    deb "Let's just hurry up and get it over with."
     show debbie 138
     show player 334 with fastdissolve
     pause
@@ -69,10 +75,10 @@ label basement_mom_wash_clothes:
     pause
     show debbie 140
     show player 338 at Position(xpos=853)
-    deb "Ой блин..."
+    deb "Oh my..."
     deb "..."
-    deb "Вау! Это... Ого..."
-    deb "Давай я принесу тебе что-нибудь, чтобы прикрыться."
+    deb "Wow! That's umm... That's..."
+    deb "Let me grab something for you to cover yourself up."
     show debbie 141 with fastdissolve
     pause
     show player 339 at Position(xpos=845)
@@ -80,35 +86,35 @@ label basement_mom_wash_clothes:
     with fastdissolve
     pause
     show player 341
-    player_name "Прости, {b}[deb_name]{/b}."
+    player_name "I'm sorry, {b}[deb_name]{/b}."
     show player 340
     show debbie 143
-    deb "Хех, нет проблем, милый."
-    deb "Такое случается."
+    deb "Heh, not a problem, sweetie."
+    deb "These things happen."
     show debbie 140
-    deb "Это совершенно естественно."
+    deb "It's perfectly natural."
     show debbie 142
-    deb "Хех."
+    deb "Heh."
     show debbie 143
-    deb "Что-то полотенце для рук маловато?"
-    deb "Извините, у меня здесь нет ничего больше этого..."
-    deb "Тебе лучше пойти сейчас и принять душ."
+    deb "That hand towel isn't really equal to the task is it?"
+    deb "Sorry I don't have anything larger down here..."
+    deb "You'd best run along now and take your shower."
     show debbie 142
     show player 341
-    player_name "Да, Мэм."
+    player_name "Yes, Ma'am"
     hide player with dissolve
 
     show debbie 139
-    deb "( Бог мой... )"
-    deb "( ... Я понятия не имела, что он такой... Одаренный. )"
+    deb "( Goodness... )"
+    deb "( ... I had no idea he was so... Gifted. )"
     scene black with fade
     return
 
 label basement_mom_close_valve:
     scene home_basement
     show player 34 with dissolve
-    player_name "( Водяной кран должен находиться рядом с водонагревателем. )"
-    player_name "( Я лучше выключу его, пока наверху не затопило. )"
+    player_name "( The water valve should be next to the water heater. )"
+    player_name "( I'd better shut it off before the upstairs floods. )"
     hide player with dissolve
     return
 
@@ -117,56 +123,57 @@ label basement_mom_give_laundry:
     show debbie 125 at right
     show player 277 at left
     with dissolve
-    player_name "О, вот ты где!"
+    player_name "Oh, there you are!"
     show player 276
-    player_name "Я принес твое белье, как ты просила."
+    player_name "I brought your laundry down like you asked."
     show player 13
     show debbie 121
     with dissolve
     pause
     show debbie 123
-    deb "Спасибо, милый."
-    deb "Это был лишь предлог, чтобы затащить тебя сюда..."
+    deb "Thanks, sweetie."
+    deb "That was just an excuse to get you down here..."
     show debbie 124
     show player 10
-    player_name "Да? Что ты собираешься делать?"
+    player_name "Oh? What are you up to?"
     show player 5
     show debbie 123
-    deb "Хехе..."
+    deb "Hehe..."
     show debbie 63 with dissolve
-    deb "Я оставила тебе эту записку утром, потому что хотела увидеть тебя перед твоим уходом."
+    deb "I left you that note this morning because I wanted to see you before you leave."
     show debbie 61
     show player 11
-    player_name "Хух?"
+    player_name "Huh?"
     show debbie 39
-    deb "Я хочу тебя, {b}[firstname]{/b}!"
+    deb "I want you, {b}[firstname]{/b}!"
     show debbie 62
     show player 1
-    deb "Я хочу прокатиться на твоем большом члене!"
+    deb "I want to ride that big cock of yours!"
     show debbie 61
     show player 2
-    player_name "ККК-Конечно!"
+    player_name "SSS-Sure!"
     show player 13
     show debbie 62
-    deb "Раздевайся!"
+    deb "Get those clothes off!"
     show player 11
     show debbie 125
     player_name "( !!! )"
     show player 297
-    player_name "Д-Да, Мэм!"
+    player_name "Y-Yes, Ma'am!"
     show player 13
     show debbie 62
-    deb "{b}[jen_name]{/b} не найдет нас здесь."
+    deb "{b}[jen_name]{/b} won't find us down here."
     show player 21
     show debbie 125
-    player_name "Ну... хорошо."
+    player_name "Well... okay."
     return
 
 label basement_mom_sex:
     $ M_mom.set("sex speed", .175)
     $ player.go_to(L_home_basement)
     $ cum = False
-    $ anim_toggle = False
+    $ anim_toggle = True
+    $ animated = False
     $ xray = False
     if not M_mom.is_state(S_mom_give_laundry) and randomizer() <= 50:
         $ mom_basement_rand = True
@@ -190,14 +197,14 @@ label basement_mom_sex_pre:
     show player 271 at Position(xpos=655,ypos=768)
     pause
     if mom_basement_rand:
-        player_name "Хорошо?"
+        player_name "Good?"
         show debbie 108
-        deb "Прекрасно."
-        deb "Твой член просто идеален."
+        deb "Perfect."
+        deb "That cock of yours is just perfect."
     else:
 
         show debbie 108
-        deb "Мой черед..."
+        deb "My turn..."
     show debbie 109 at Position(xpos=205)
     pause
     show debbie 110
@@ -212,15 +219,15 @@ label basement_mom_sex_pre:
     pause
     show debbie 115
     if mom_basement_rand:
-        deb "Теперь сядь и позволь мне помочь тебе с твоим грязным липким грузом."
+        deb "Now sit back and let me help you with your dirty sticky load."
     else:
 
-        deb "Нравится то, что видишь?"
+        deb "Like what you see?"
         show debbie 114
-        player_name "Ты прекрасна, {b}[deb_name]{/b}."
+        player_name "You're beautiful, {b}[deb_name]{/b}."
         show debbie 115
-        deb "Просто сядь и расслабся, милый."
-        deb "Начнем медленно и аккуратно..."
+        deb "Just sit back and relax, sweetie."
+        deb "Let's start nice and slow..."
     hide player
     hide debbie
     show debbies 124 at Position(xpos=650)
@@ -229,7 +236,7 @@ label basement_mom_sex_pre:
     show debbies 125 at Position(xpos=655) with dissolve
     pause
     show debbies 126f at Position(xpos=660) with dissolve
-    deb "Ох!"
+    deb "Oh!"
     show debbies 126e
     pause
     show debbies 126d
@@ -240,13 +247,13 @@ label basement_mom_sex_pre:
     pause
     show debbies 126
     if mom_basement_rand:
-        deb "Мммм..."
-        deb "Он едва помещается в меня."
+        deb "Mmmm..."
+        deb "I can barely fit you all in."
     else:
 
-        deb "Аххх..."
+        deb "Ahh..."
         player_name "( !!! )"
-        player_name "Ты вся мокрая..."
+        player_name "You're so warm..."
     return
 
 label basement_mom_sex_loop:
@@ -256,7 +263,9 @@ label basement_mom_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            show expression AnimatedImage("debbies", ["126","126b","126c","126d","126e","126f","126g","126h","126i","126j"], M_mom) as debbies at Position(xpos = 660)
+            if not animated:
+                show expression AnimatedImage("debbies", ["126","126b","126c","126d","126e","126f","126g","126h","126i","126j"], M_mom) as debbies at Position(xpos = 660)
+                $ animated = True
             pause 4
             call expression game.dialog_select("debbie_basement_hscene_dialog")
             pause 3
@@ -277,22 +286,22 @@ label basement_mom_sex_loop:
 label debbie_basement_hscene_dialog:
     if animcounter == 1:
         if mom_basement_rand:
-            deb "О, малыш!{p=1}{nw}"
-            deb "Да!{p=1}{nw}"
+            deb "Oh, baby!{p=1}{nw}"
+            deb "Yes!{p=1}{nw}"
         else:
 
-            deb "Ахххх!!!{p=1}{nw}"
+            deb "Ahhhh!!!{p=1}{nw}"
 
     elif animcounter == 2:
-        deb "Ахх!!!{p=1}{nw}"
+        deb "Ahh!!!{p=1}{nw}"
 
     elif animcounter == 3:
         if mom_basement_rand:
-            deb "О!{p=1}{nw}"
+            deb "Oh!{p=1}{nw}"
         else:
 
-            deb "О, милый!!!{p=1}{nw}"
-            player_name "Уххх...{p=1}{nw}"
+            deb "Oh, sweetie!!!{p=1}{nw}"
+            player_name "Uhhh...{p=1}{nw}"
     return
 
 label basement_mom_sex_cum:
@@ -301,13 +310,13 @@ label basement_mom_sex_cum:
     show debbies 129 at Position(xpos=609) with vpunch
     hide white with dissolve
     if mom_basement_rand:
-        deb "О, милый!"
-        deb "Я тоже кончаю!"
+        deb "Oh, sweetie!"
+        deb "I'm cumming too!"
         show debbies 129 with flash
-        deb "АХХ!!!"
+        deb "AHH!!!"
     else:
 
-        deb "Ахх!!!"
+        deb "Ahh!!!"
     jump expression game.dialog_select("basement_mom_sex_after")
 
 label basement_mom_sex_after:
@@ -344,32 +353,32 @@ label basement_confession_kiss:
 
 label basement_mom_sex_after_pre_give_laundry:
     show debbies 132 at Position(xpos=650) with fade
-    deb "Спасибо, что принес мне белье..."
+    deb "Thanks for bringing me the laundry..."
     show debbies 131
-    player_name "В любое время, {b}[deb_name]{/b}."
+    player_name "Anytime, {b}[deb_name]{/b}."
     show debbies 132
-    deb "Дай мне знать, если захочешь сделать это снова."
+    deb "Let me know if you want to do it again down here."
     show debbies 131
-    player_name "Определенно."
+    player_name "Definitely."
     return
 
 label basement_mom_sex_after_pre_random:
     show debbies 130 at Position(xpos=650) with fade
-    deb "Это было замечательно, милый!"
+    deb "That was wonderful, sweetie!"
     show debbies 131
-    player_name "Это точно!"
-    player_name "Мне нравится делать это с тобой в подвале!"
-    player_name "Мы можем шуметь здесь так громко, как захотим."
+    player_name "Yeah it was!"
+    player_name "I like doing it with you in the basement!"
+    player_name "We can be as loud as we want down here."
     show debbies 132
-    deb "Хе-Хе, Да. Это определенно преимущество!"
+    deb "Hehe, Yeah. That's definitely a perk!"
     return
 
 label basement_mom_sex_after_pre:
     show debbies 132 at Position(xpos=650) with fade
-    deb "Это было хорошо, милый."
-    deb "Спасибо за приглашение!"
+    deb "That was good, sweetie."
+    deb "Thanks for the invite!"
     show debbies 131
-    player_name "В любое время!"
+    player_name "Anytime!"
     return
 
 label basement_confession_kiss_pre:
@@ -377,27 +386,27 @@ label basement_confession_kiss_pre:
     show player 227 at Position(xpos=200)
     show debbie 73 at Position(xpos=650)
     with fade
-    deb "Милый..."
+    deb "Sweetie..."
     return
 
 label basement_confession_kiss_concerned_random:
-    deb "Я хочу, чтобы ты сказал мне, если ты больше не хочешь этого делать, хорошо?"
+    deb "I want you to tell me if you don't want to do this anymore, okay?"
     show player 228
     show debbie 76
-    player_name "Нет, все хорошо, {b}[deb_name]{/b}..."
-    player_name "Мне всегда хочется делать это с тобой."
+    player_name "No, it's fine, {b}[deb_name]{/b}..."
+    player_name "I always feel like doing it with you."
     show player 227
     show debbie 77
-    deb "Правда?"
+    deb "Really?"
     show player 228
-    player_name "Да, это все, о чем я думаю, когда вижу тебя..."
+    player_name "Yeah, that's all I think about doing when I see you..."
     show player 227
     show debbie 75
-    deb "Ты всегда такой милый..."
+    deb "You're always so sweet..."
     return
 
 label basement_confession_kiss_after:
-    deb "Поцелуй меня."
+    deb "Give me a kiss."
     hide player
     show debbie 80 at Position(xpos=500)
     with dissolve
@@ -409,10 +418,10 @@ label basement_confession_kiss_after:
     show player 228 at Position(xpos=200)
     show debbie 78 at Position(xpos=650)
     with dissolve
-    player_name "Я люблю тебя, {b}[deb_name]{/b}!"
+    player_name "I love you, {b}[deb_name]{/b}!"
     show player 227
     show debbie 75
-    deb "Я люблю тебя тоже, милый..."
+    deb "I love you too, sweetie..."
     scene home_basement
     hide debbie
     hide player
@@ -432,8 +441,8 @@ label broken_pipe_dialogue:
     scene home_basement_c
     show player 2
     with dissolve
-    player_name "Хорошо, кран закрыт."
-    player_name "Я должен вернуться в {b}ванную{/b} чтобы посмотреть смогу ли я подчинить {b}раковину{/b}."
+    player_name "Okay, the valve's shut."
+    player_name "I should go back to the {b}bathroom{/b} to see if I can fix the {b}sink{/b}."
     hide player
     with dissolve
     return
@@ -441,10 +450,10 @@ label broken_pipe_dialogue:
 label laundry_dialogue:
     call expression game.dialog_select("laundry_dialogue_pre")
     menu:
-        "Позволь помочь.":
+        "Let me help.":
             call expression game.dialog_select("laundry_dialogue_help")
             $ M_mom.trigger(T_mom_cleaned_laundry)
-        "Ты занята.":
+        "You're busy.":
 
 
             call expression game.dialog_select("laundry_dialogue_busy")
@@ -456,68 +465,73 @@ label laundry_dialogue_pre:
     show debbie 123 at right
     show player 1 at left
     with dissolve
-    deb "О! Привет, милый!"
-    deb "Тебе что-нибудь нужно?"
+    deb "Oh! Hi, sweetie!"
+    deb "You need something?"
     show debbie 124
     return
 
 label laundry_dialogue_help:
     show debbie 124
     show player 14
-    player_name "Я могу постирать, {b}[deb_name]{/b}. Почему бы тебе не сделать перерыв."
+    player_name "I can do the laundry, {b}[deb_name]{/b}. Why don't you take a break."
     show debbie 123
     show player 5
-    deb "Все нормально. Я справлюсь."
+    deb "It's fine. I can do it."
     show debbie 122
     show player 10
-    player_name "Ты заслуживаешь отдыха. Ты так много работаешь по дому."
-    player_name "Кроме того, мне нравится помогать тебе."
+    player_name "You deserve a rest. You do so much work around the house."
+    player_name "Besides, I enjoy helping you."
     show debbie 123
     show player 11
-    deb "О, {b}[firstname]{/b}. В последнее время ты мне очень помогаешь!"
+    deb "Oh, {b}[firstname]{/b}. You've been such a big help around here lately!"
     show player 1
-    deb "Что я сделала, чтобы заслужить такого замечательного жильца?"
+    deb "What did I do to deserve such a wonderful tenant?"
     show player 275
     show debbie 62
-    deb "Ты знаешь, как все работает?"
+    deb "You know how everything works?"
     show debbie 125
     show player 276
-    player_name "Да, я не в первый раз стираю."
+    player_name "Yup, it's not my first time doing a load of laundry."
     show debbie 63
     show player 275
-    deb "Большое спасибо за это, {b}[firstname]{/b}."
-    deb "Я действительно ценю это."
-    deb "Твой {b}Отец{/b} гордился бы тобой!"
+    deb "Thanks so much for doing this, {b}[firstname]{/b}."
+    deb "I really appreciated it."
+    deb "Your {b}Father{/b} would be so proud of you!"
     show debbie 125
     show player 277
-    player_name "Хех, спасибо!"
-    show expression Cutscene("help_debbie_basement_cutscene", "Было очень весело помогать {b}[deb_name]{/b} по дому. \nДумаю, ей тоже это нравится. Всегда так хочется завести разговор и узнать больше о своей жизни. \nВ последнее время мы все ближе и ближе, и я не могу не восхищаться ее красотой и очарованием. \nКажется, ей тоже становится более комфортно со мной. Она смотрит на меня, ее невинные прикосновения...") as cutscene with fade
+    player_name "Heh, thanks!"
+    scene expression "backgrounds/location_home_cutscene03.jpg"
+    show expression FilteredText("It's been really fun helping {b}[deb_name]{/b} out around the house. \nI think she's enjoying it as well. Always so eager to strike up a conversation and learn more about my life. \nWe've certainly been getting a lot closer as of late and I can't help but admire her beauty and charm. \nShe seems to be growing more comfortable with me too. The way she looks at me, her innocent touches...") as cutscene at Position (xpos= 512, ypos= 700)
+    with fade
     pause
-    hide cutscene with dissolve
-    scene home_basement_c with fade
+    hide cutscene
+    scene black
+    with fade
+
+    scene home_basement_c
     show debbie 2 at right
     show player 13 at left
     with dissolve
-    deb "Хех, еще раз спасибо за это, {b}[firstname]{/b}."
-    deb "Мне очень понравились наши беседы."
+    deb "Heh, thanks again for this, {b}[firstname]{/b}."
+    deb "I've really been enjoying our little talks."
     show debbie 1
     show player 14
-    player_name "Да, мне тоже!"
+    player_name "Yeah, me too!"
     show player 13
     show debbie 13
-    deb "В последнее время ты мне очень помогаешь..."
-    deb "Не мог бы ты подняться наверх и взять {b}лосьон{/b} из моего ящика?"
-    deb "Мои ноги немного суховаты."
+    deb "You've been such a big help recently..."
+    deb "Would you mind running upstairs and grabbing the {b}lotion{/b} out of my drawer?"
+    deb "My legs are feeling a bit dry."
     show debbie 1
     show player 12
-    player_name "Где он находится, наверху?"
+    player_name "Where is it upstairs?"
     show player 5
     show debbie 13
-    deb "Посмотри в {b}ящике в спальне{/b}."
-    deb "Он должен быть там."
+    deb "Just look in the {b}drawer in my bedroom{/b}."
+    deb "It should be in there."
     show debbie 1
     show player 14
-    player_name "Хорошо, Я сейчас вернусь!"
+    player_name "Okay, I'll be right back!"
     hide player
     hide debbie
     with dissolve
@@ -528,8 +542,8 @@ label laundry_dialogue_help:
 
 label laundry_dialogue_busy:
     show player 14
-    player_name "Похоже, что ты занята."
-    player_name "Я вернусь позже."
+    player_name "Looks like you're busy."
+    player_name "I'll come back later."
     return
 
 label mom_lotion_fun:
@@ -550,6 +564,7 @@ label mom_lotion_fun:
                 $ M_mom.set("sex flip", False)
                 $ M_mom.set("robe on", True)
                 $ first_pass = True
+                $ animated = False
                 jump expression game.dialog_select("mom_finger_loop")
 
         call expression game.dialog_select("mom_lotion_fun_pre")
@@ -569,11 +584,11 @@ label mom_lotion_fun:
 
         call expression game.dialog_select("mom_lotion_fun_first_pre")
         menu:
-            "Помочь ей.":
+            "Help her.":
                 call expression game.dialog_select("mom_lotion_fun_first_help_her")
                 $ player.go_to(L_home_livingroom)
                 $ M_mom.set("lotion fun", True)
-            "Уйти.":
+            "Leave.":
 
                 call expression game.dialog_select("mom_lotion_fun_first_leave")
 
@@ -592,11 +607,11 @@ label mom_lotion_fun_kitchen_sex_available:
     show debbie 1 at right
     show player 485 at left
     with dissolve
-    player_name "Вот он, {b}[deb_name]{/b}!"
+    player_name "Here it is, {b}[deb_name]{/b}!"
     show player 484
     show debbie 2
-    deb "Спасибо, милый."
-    deb "Позволь мне сесть на стол, чтобы тебе не пришлось наклоняться."
+    deb "Thanks, sweetie."
+    deb "Let me just sit up on the counter so you don't have to bend over."
     show debbie 183 with dissolve
     pause
     show debbie 184 zorder 2
@@ -618,68 +633,68 @@ label mom_lotion_fun_kitchen_sex_available:
     show player_arms 488c_488d with dissolve
     show player 487g
     show debbie 185b
-    deb "О, щекотно!"
+    deb "Oh, that tickles!"
     show debbie 185g
-    deb "Тебе нравится заботиться обо мне, не так ли?"
+    deb "You like taking care of me, don't you?"
     show debbie 185f
     show player 487f
-    player_name "Всегда!"
+    player_name "Always!"
     show player 487g
     show player_arms 488c_488d_488e with dissolve
     pause
     show debbie 185b
-    deb "Я бы сказала, ты такой хороший мальчик..."
-    deb "...Но я знаю, почему тебе нравится это делать."
+    deb "I'd say you're such a good boy..."
+    deb "...But I know why you like to do this."
     show debbie 185f
     show player 487
     player_name "..."
     show debbie 185g
-    deb "Тебе просто нравится мое маленькое шоу..."
+    deb "You just like the little show I give you..."
     show debbie 185f
     show player 487g
     player_name "!!!"
     show debbie 185g
-    deb "Твой маленький массаж меня возбуждает."
+    deb "You're little massage makes me so horny."
     show debbie 185b
     show player 487d
-    deb "Продолжай массировать и, возможно, ты сможешь помочь мне кое с чем еще..."
+    deb "Keep massaging and maybe you can help me with a little something else..."
     show debbie 185f
     show player 487f
-    player_name "Да, мэм!"
+    player_name "Yes, ma'am!"
     show player 487g
     show debbie_robe 185k
     show player_arms 488e_488f
     with dissolve
     pause
     show debbie 185b
-    deb "Это действительно здорово. Я как масло в твоих руках."
+    deb "That feels really good. I'm like butter in your hands."
     hide player_arms
     show player 13 at Position (xoffset=-118)
     hide debbie_robe
     show debbie 189
     with dissolve
-    deb "Кажется, даже моя одежда хочет соскользнуть."
+    deb "Even my clothes want to slip off it seems."
     show debbie 188
     show player 26 at Position (xoffset=-118)
-    player_name "И когда ты снял свои трусики?"
+    player_name "And when did your panties come off?"
     show player 13 at Position (xoffset=-118)
     show debbie 189
-    deb "{b}*хихикает*{/b}"
+    deb "{b}*Giggle*{/b}"
     show debbie 187
-    deb "Интересно, заметил ли ты."
+    deb "I wondered if you'd notice."
     show debbie 189
-    deb "Итак, ты хочешь попробовать что-то еще?"
+    deb "Well then, are you up for trying something else?"
     show debbie 188
     show player 14 at Position (xoffset=-118)
-    player_name "Конечно!"
+    player_name "Of course!"
     show player 110f at Position (xoffset=-118)
     show debbie 191
     show debbie_robe 191b zorder 2
     with dissolve
-    deb "Тогда будь хорошим мальчиком и используй свои пальцы, чтобы заставить меня кончить..."
+    deb "Then be a good boy and use your fingers to make me cum..."
     show debbie 190
     show player 26 at Position (xoffset=-119)
-    player_name "Да, {b}[deb_name]{/b}."
+    player_name "Yes, {b}[deb_name]{/b}."
     show player finger 193b zorder 3
     show debbie 192
     show debbie_robe 194b at right
@@ -690,17 +705,17 @@ label mom_lotion_fun_pre:
     show debbie 1 at right
     show player 485 at left
     with dissolve
-    player_name "Понял!"
+    player_name "Got it!"
     show player 484
     show debbie 2
-    deb "Отлично! Одну секундочку."
+    deb "Great! One sec."
     show player 486
     show debbie 183 with dissolve
     pause
     show debbie 184b zorder 2
     show debbie_robe 184e zorder 2
     with dissolve
-    deb "Готов!"
+    deb "Ready!"
     show player 484
     show debbie 185
     show debbie_robe 185h
@@ -714,67 +729,67 @@ label mom_lotion_fun_pre:
     show player_arms 488b
     with dissolve
     show debbie 185d
-    deb "О! Как холодно."
+    deb "Oh! That's cold."
     show player 487d
-    deb "Втирай немного лосьона в руки, прежде чем применять его."
+    deb "Rub the lotion in your hands a bit before you apply it."
     show player 487c
     show debbie 185
     show player_arms 488c_488d with dissolve
     show debbie 185b
-    deb "Так хорошо."
+    deb "That feels good."
     show debbie 185
     show player 487f
     show player_arms 488b with dissolve
-    player_name "Прекрасно!"
+    player_name "Good!"
     show player 487g
     show player_arms 488c_488d with dissolve
     pause
     show player 487f
     show player_arms 488 with dissolve
-    player_name "Где-нибудь еще?"
+    player_name "Anywhere else?"
     show player 487g
     show debbie 185c
-    deb "Хмм?"
+    deb "Hmm?"
     show player 487e
-    player_name "Ты хочешь, чтобы я положил лосьон куда-нибудь еще?"
+    player_name "Did you want me to put lotion anywhere else?"
     show player 487d
     show debbie 185d
-    deb "О..."
+    deb "Oh..."
     show debbie 185g
-    deb "Умм... Если ты не возражаешь, потри немного выше на моей ноге..."
+    deb "Umm... If you don't mind you could rub some a bit higher on my leg..."
     show debbie 185f
     show player 487e
-    player_name "Хо... Хорошо..."
+    player_name "O... Okay..."
     show player_arms 488b with dissolve
     show player 487c
     pause
     show player_arms 488c_488d_488e with dissolve
     show debbie 185d
-    deb "Ммм... Немного глубже."
+    deb "Mmm... Dig your hands in a bit deeper there."
     show player_arms 488e with dissolve
-    deb "Чувствуешь этот узел?"
-    deb "Попробуй натереть..."
+    deb "Feel that knot?"
+    deb "Try and rub that out..."
     show debbie 185c
     show player 487b
-    player_name "Хо... Хорошо..."
+    player_name "O... Okay..."
     show player 487c
     show player_arms 488e_488f with dissolve
     pause
     show debbie 185b
-    deb "Ммм... Так хорошо."
+    deb "Mmm... That feels good."
     show debbie 185
     show player 487f
     player_name "!!!"
     show player 487g
-    player_name "( Она сейчас очень расслаблена! )"
-    player_name "( Интересно, понимает ли она, что я вижу сквозь ее трусики! )"
+    player_name "( She's really relaxing now! )"
+    player_name "( I wonder if she realizes I can see through her panties! )"
     show debbie 185d
-    deb "О, твои пальцы, так хорошо."
-    deb "Ты практиковался?"
+    deb "Oh, your fingers feel so good."
+    deb "Have you been practicing?"
     show debbie 185g
-    deb "Некоторым маленьким леди понравится, насколько ты услужлив и внимателен."
+    deb "Some little lady is going to love how helpful and attentive you are."
     show debbie 185d
-    deb "О! Вот здесь..."
+    deb "Oh! Right there..."
     show debbie 185f
     pause
     show debbie_robe 185i with dissolve
@@ -787,50 +802,50 @@ label mom_lotion_fun_pre:
     hide debbie_robe
     show debbie 187
     with dissolve
-    deb "...Умм... Спасибо, милый..."
+    deb "...Um... Thank you, sweetie..."
     show debbie 186
     show player 29
-    player_name "...пожалуйста..."
+    player_name "...You're welcome..."
     show player 3
     show debbie 187
-    deb "Послушай, я должна... ум..."
+    deb "Listen, I should... um..."
     return
 
 label mom_lotion_fun_location_dialogue:
     if player.location == L_home_basement:
-        deb "Наверное, мне надо закончить... стирку..."
-        deb "Иди наверх и... ум..."
+        deb "I should probably finish this load... of laundry..."
+        deb "Go on upstairs and... um..."
 
     elif player.location == L_home_kitchen:
-        deb "Мне, наверное, надо закончить готовить..."
+        deb "I should probably finish the dishes..."
     return
 
 label mom_lotion_fun_location_dialogue_after:
     show debbie 186
     show player 29
-    player_name "Да... Я как раз собиралась заканчивать."
+    player_name "Yeah... I was just about done."
     show player 3
     show debbie 187
-    deb "Спасибо... опять, милый."
+    deb "Thanks... again, sweetie."
     show debbie 186
     show player 29
-    player_name "Пожалуйста."
+    player_name "You're welcome."
     return
 
 label mom_lotion_fun_after:
     show player 24 with dissolve
-    player_name "Блин..."
-    player_name "Думаю, она заметила, что я смотрю..."
+    player_name "Damn..."
+    player_name "I think she noticed me looking..."
     show player 34
     pause
     show player 35
-    player_name "Она вся мокрая?"
+    player_name "Was she getting wet?"
     show player 43
     pause
     show player 81 with dissolve
     pause
     show player 83
-    player_name "Я лучше найду себе другое занятие."
+    player_name "I'd better find something else to do."
     return
 
 label mom_lotion_fun_first_pre:
@@ -838,46 +853,46 @@ label mom_lotion_fun_first_pre:
     show debbie 1 at right
     show player 485 at left
     with dissolve
-    player_name "У меня есть твой {b}лосьон{/b}, {b}[deb_name]{/b}."
+    player_name "I've got your {b}lotion{/b}, {b}[deb_name]{/b}."
     show player 484
     show debbie 2
-    deb "О, спасибо большое!"
+    deb "Oh, thank you so much!"
     show debbie 8b
-    deb "Ай!"
+    deb "Ow!"
     show player 486
     pause
     show debbie 11b
-    deb "Эта боль в спине не отступает!"
-    deb "Совсем не весело стареть, {b}[firstname]{/b}. Я не рекомендую!"
+    deb "This dang back pain just won't relent!"
+    deb "It's really no fun getting old, {b}[firstname]{/b}. I don't recommend it!"
     show debbie 10b
     return
 
 label mom_lotion_fun_first_help_her:
     show player 485
-    player_name "Хочешь, чтобы я тебе помог тебе?"
+    player_name "Do you want me to help you?"
     show player 484
     show debbie 13
-    deb "Хмм?"
-    deb "Ты имеешь ввиду... с моим лосьоном?"
+    deb "Hmm?"
+    deb "You mean... with my lotion?"
     show debbie 10b
     show player 485
-    player_name "Ну, конечно... Если хочешь."
+    player_name "Well, yeah... If you want?"
     show player 484
     show debbie 11b
-    deb "Ты не будешь возражать?"
+    deb "You wouldn't mind?"
     show debbie 10b
     show player 485
-    player_name "Конечно, нет! Я был бы очень рад!."
-    player_name "Я могу нанести лосьон и сделать массаж везде!"
-    player_name "Как тебе такое предложение?!"
+    player_name "Of course not! I'd be very happy to!."
+    player_name "I can apply the lotion and give you a massage all at once!"
+    player_name "How does that sound?!"
     show player 484
     show debbie 14
     deb "..."
     show debbie 2
-    deb "Звучит замечательно, милый!"
-    deb "Как девушка может отказаться от бесплатного массажа?"
-    deb "Одну секундочку..."
-    deb "... Позволь мне устроиться поудобнее."
+    deb "That sounds wonderful, sweetie!"
+    deb "How could a girl say no to a free massage?"
+    deb "One second..."
+    deb "... Let me just get comfortable."
     show player 486
     show debbie 183 with dissolve
     pause
@@ -885,13 +900,13 @@ label mom_lotion_fun_first_help_her:
     show debbie_robe 184e zorder 2
     with dissolve
     show player 485
-    player_name "Ты сказала, что у тебя сухие ноги?"
+    player_name "You said your legs feel dry?"
     show player 484
     show debbie 184b
-    deb "Да, они всегда кажутся сухими в это время года!"
+    deb "Yeah, they always seem to be the worst this time of year!"
     show debbie 184
     show player 485
-    player_name "Хорошо."
+    player_name "Okay."
     show player 484
     show debbie 185
     show debbie_robe 185h
@@ -907,20 +922,20 @@ label mom_lotion_fun_first_help_her:
     player_name "( !!! )"
     show debbie 185c
     show player 487b
-    player_name "Упс, я не ожидал, что это выйдет так много!"
+    player_name "Oops, I wasn't expecting it to come out that fast!"
     show player 487d
     show debbie 185b
-    deb "Хех."
+    deb "Heh."
     show debbie 185d
-    deb "Все в порядке, милый. Там много поверхности, чтобы пропитать!"
+    deb "It's alright, sweetie. There's a lot of ground to cover!"
     show debbie 185
     show player 487b
-    player_name "Хорошо."
+    player_name "O-okay."
     show player 487c
     show player_arms 488c_488d with dissolve
     show player 487
     show debbie 185d
-    deb "Ммм, как приятно..."
+    deb "Mmm, that feels nice..."
     show debbie 185
     show player 487c
     show player_arms 488b with dissolve
@@ -929,45 +944,45 @@ label mom_lotion_fun_first_help_her:
     pause
     show player_arms 488 with dissolve
     show player 487e
-    player_name "Позаботились о нижней половине."
-    player_name "Ты хочешь, чтобы я намазал тебе бедра?"
+    player_name "That takes care of the lower half."
+    player_name "Did you want me to do your thighs as well?"
     show player 487d
     show debbie 185b
-    deb "... Да, я полагаю. Если не возражаешь."
+    deb "... Yeah, I suppose. So long as you're sure you don't mind?"
     show debbie 185
     show player 487b
-    player_name "Да, нет."
+    player_name "Not at all."
     show player 487c
     show player_arms 488b with dissolve
     pause
     show player_arms 488c_488d_488e with dissolve
     pause
     show debbie 185d
-    deb "Ммм, у тебя хорошо получается, {b}[firstname]{/b}..."
+    deb "Mmm, you're pretty good at this, {b}[firstname]{/b}..."
     show player_arms 488e with dissolve
-    deb "Можешь тереть сильнее, если хочешь."
-    deb "У меня определенно есть напряжение в мышцах бедер..."
+    deb "You can rub a bit harder if you want."
+    deb "I've definitely got some tension stored up in my thigh muscles..."
     show debbie 185c
     show player 487b
-    player_name "Да, Я чувствую."
+    player_name "Y-yeah, I can feel it."
     show player 487c
     show player_arms 488e_488f with dissolve
     pause
     show debbie 185b
-    deb "О, это рай..."
+    deb "Oh, This is heaven..."
     show debbie 185
     show player 487f
     player_name "( !!! )"
     show player 487g
-    player_name "( Она сейчас действительно расслаблена! )"
-    player_name "( Интересно, понимает ли она, что я вижу сквозь ее трусики? )"
+    player_name "( She's really relaxed right now! )"
+    player_name "( I wonder if she realizes I can see through her panties? )"
     show debbie 185d
-    deb "У тебя прекрасные руки, {b}[firstname]{/b}!"
-    deb "Ты должен стать массажистом..."
+    deb "You have wonderful hands, {b}[firstname]{/b}!"
+    deb "You should consider becoming a masseur..."
     show debbie 185g
-    deb "Держу пари, ты бы сколотил состояние!"
+    deb "I bet you would make a fortune!"
     show debbie 185d
-    deb "О! Прямо там..."
+    deb "Oh! Right there..."
     show debbie 185f
     pause
     show debbie_robe 185i with dissolve
@@ -980,49 +995,49 @@ label mom_lotion_fun_first_help_her:
     hide debbie_robe
     show debbie 187
     with dissolve
-    deb "... Хе-хе, этого, наверное, достаточно. Я могу закончить отсюда."
+    deb "... Heh, that's probably enough. I can finish from here."
     show debbie 186
     show player 29
-    player_name "Ты уверена?"
+    player_name "You're sure?"
     show player 3
     show debbie 187
-    deb "Почему бы тебе не подняться наверх?"
-    deb "Я должен присматривать за стиркой..."
-    deb "... и включить сушилку."
+    deb "Why don't you head on upstairs?"
+    deb "I've gotta keep an eye on this laundry..."
+    deb "... and get the dryer going."
     show debbie 186
     show player 29
-    player_name "Да, хорошо."
+    player_name "Y-Yeah, okay."
     show player 3
     show debbie 187
-    deb "Спасибо опять, милый."
+    deb "Thanks again, sweetie."
     show debbie 186
     show player 29
-    player_name "Пожалуйста."
+    player_name "You're welcome."
     scene home_livingroom_b with fade
     show player 24 with dissolve
-    player_name "Черт..."
-    player_name "Она, должно быть, заметила, что я подглядываю."
+    player_name "Dang..."
+    player_name "She must have noticed me peeking."
     show player 34
     pause
     show player 35
-    player_name "Она была взволнована или я просто вообразил это?"
+    player_name "Was she getting excited or did I just imagine it?"
     show player 43
     pause
     show player 81 with dissolve
     pause
     show player 83
-    player_name "... Наверное, мне стоит отвлечься!"
+    player_name "... I should probably get my mind off it!"
     return
 
 label mom_lotion_fun_first_leave:
     show player 485
-    player_name "Что-нибудь еще, {b}[deb_name]{/b}?"
+    player_name "Anything else, {b}[deb_name]{/b}?"
     show player 484
     show debbie 11b
-    deb "Нет, этого достаточно."
-    deb "Еще раз спасибо за помощь, милый."
+    deb "Nope, that will do it."
+    deb "Thanks again for all the help, sweetie."
     show debbie 10b
     show player 485
-    player_name "Пожалуйста, {b}[deb_name]{/b}."
+    player_name "You're welcome, {b}[deb_name]{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

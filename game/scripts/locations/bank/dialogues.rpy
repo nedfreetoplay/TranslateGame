@@ -2,17 +2,17 @@ label bank_first_time:
     scene bank
     show player 1 at left with dissolve
     show liu 2 at right with dissolve
-    liu "Добро пожаловать в {b}Финансовый банк им. Летней саги{/b}!"
+    liu "Welcome to {b}Saga Financial Bank{/b}!"
     show liu 1 at right
     show player 14 at left
-    player_name "Привет!"
+    player_name "Hi!"
     show liu 3 at right
     show player 1 at left
-    liu "Пожалуйста, можете использовать наши {b}банкоматы{/b} для {b}денежных операций{/b}!"
-    liu "Также вы можете найти ответы на свои вопросы на нашей памятке {b}или на информационном стенде{/b}!"
+    liu "Please, feel free to use our {b}ATM machines{/b} for {b}deposits{/b}!"
+    liu "Or we can also assist you with any questions you may have at our {b}help desk{/b}!"
     show liu 1 at right
     show player 14 at left
-    player_name "Да, конечно!"
+    player_name "Okay, sure!"
     hide player 14 at left with dissolve
     hide liu 1 at right with dissolve
     return
@@ -27,84 +27,84 @@ label bank_liu_start:
     player_name "..."
     show liu 9 at right
     show player 12 at left
-    player_name "Извините?"
+    player_name "Excuse me?"
     show liu 5 at right
     show player 1 at left
-    liu "Ох! Мне жаль!"
-    liu "Чем я могу Вам помочь?"
+    liu "Oh! I'm sorry!"
+    liu "How can I help you today, sir?"
     return
 
 label bank_liu_account_info:
     show liu 4 at right
     show player 2 at left
-    player_name "Можете сказать как у меня дела со счётом?"
+    player_name "Can you tell me how my account is doing?"
     show liu 5 at right
     show player 1 at left
-    liu "Я вижу у вас семейный счёт в нашем банке!"
-    liu "Недавно вы создали сберегательный счёт, который имеет..."
-    liu "... {b}[player.inventory.savings]{/b} долларов!"
+    liu "I see that you have a family joint account with us!"
+    liu "You recently created a savings account which has..."
+    liu "... {b}[player.inventory.savings]{/b} dollars in it!"
     show liu 4 at right
     show player 17 at left
-    player_name "Да, это мои сбережения на колледж."
+    player_name "Yeah, that's my savings for college starting in the fall."
     show liu 5 at right
     show player 1 at left
-    liu "Что ещё я могу сделать для вас?"
+    liu "Anything else I can do for you?"
     return
 
 label bank_liu_more_info:
     show liu 4 at right
     show player 4 at left
-    player_name "Хммм..."
+    player_name "Hmmm..."
     show player 30 at left
-    player_name "Можете мне подробнее рассказать как работает эта система?"
+    player_name "Can you tell me a bit more about the savings from other primary accounts?"
     show liu 5 at right
     show player 1 at left
-    liu "У нас так же есть счёт вашей семьи, который имеет..."
+    liu "Well you also have your family's accounts, which has..."
     show liu 9 at right
     show player 11 at left
-    liu "Ох..."
+    liu "Oh..."
     show player 10 at left
-    player_name "Что-то не так?"
+    player_name "What's wrong?"
     show liu 6 at right
     show player 23 at left
-    liu "Что ж, ваш основной счёт семьи сейчас заморожен..."
+    liu "Well... It seems like your primary family account has been frozen..."
     show liu 11 at right
     show player 10 at left
-    player_name "Как это случилось?"
+    player_name "How can that be?"
     show liu 6 at right
     show player 5 at left
-    liu "Большинство кредитов не было оплачено и банк заморозил счёт."
+    liu "A large number of loans have not been paid and the bank had to intervene."
     show liu 11 at right
     liu "..."
     show liu 6 at right
     show player 22 at left
-    liu "У меня есть... другие плохие новости..."
+    liu "I have... other bad news..."
     show player 11 at left
-    liu "Кроме того, ваша семья не оплатила {b}ипотечный кредит{/b}..."
-    liu "...Последняя оплата была 6 месяцев назад..."
+    liu "It also seems like your family has not paid their {b}mortgage payments{/b}..."
+    liu "...The last one was over 6 months ago..."
     show liu 11 at right
     show player 22 at left
     player_name "..."
     show player 23 at left with hpunch
-    player_name "Что?!?"
+    player_name "What?!?"
     show liu 6 at right
     show player 5 at left
-    liu "Боюсь в последствии всего этого будет {b}лишение права выкупа{/b}..."
+    liu "I'm afraid the only outcome will surely be {b}foreclosure{/b}..."
     show liu 11 at right
     show player 10 at left
-    player_name "Я не могу перерить в это..."
+    player_name "I can't believe this..."
     show liu 6 at right
     show player 5 at left
-    liu "Судя по вашей реакции... я пологаю вы не знали об этом."
+    liu "From your reaction... I assume you didn't know about this."
     show liu 11 at right
     show player 24 at left
-    player_name "Нуу... Я знал что у {b}Отца{/b} были проблемы... но не думал что настолько всё плохо."
+    player_name "Well... I knew my {b}Dad{/b} had some problems... but never this bad."
     show liu 6 at right
-    liu "Мне очень жаль."
+    liu "I'm sorry to say, but there's not much I can do in this situation."
     show liu 11 at right
     show player 25 at left
-    player_name "Это нормально. Я только хотел узнать..."
-    player_name "Мне нужно идти..."
+    player_name "It's fine. I just wanted to know..."
+    player_name "I have to go now..."
     hide player 25 at left
     hide liu 11 at right
     with dissolve
@@ -113,11 +113,11 @@ label bank_liu_more_info:
 label bank_liu_gtg:
     show liu 4 at right
     show player 14 at left
-    player_name "Мне нужно идти. Но я вернусь в другой раз!"
+    player_name "I have to go. But I'll come back another time!"
     show liu 5 at right
     show player 1 at left
-    liu "Спасибо что используете наш банк!"
-    liu "Возвращайтесь скорее!"
+    liu "Thanks for doing business with us!"
+    liu "Come back soon!"
     hide player 1 at left
     hide liu 5 at right
     with dissolve
@@ -126,57 +126,57 @@ label bank_liu_gtg:
 label bank_liu_chat:
     show liu 9 at right
     show player 10 at left
-    player_name "Это немного личный вопрос, но..."
-    player_name "У вас всё в порядке?"
+    player_name "This might sound a bit personal, but..."
+    player_name "Is everything alright?"
     show liu 6 at right
     show player 13 at left
-    liu "Эм... Конечно!"
-    liu "С чего вы решили?"
+    liu "Em... Of course!"
+    liu "What makes you think that?"
     show liu 9 at right
     show player 2 at left
-    player_name "Я не знаю, мне только показалось, что у вас был ужасный день на работе..."
+    player_name "I dunno, you just seemed like you've had a terrible day at work..."
     show liu 6 at right
     show player 13 at left
-    liu "Ох... это не то, что... на работе всё хорошо, на самом деле..."
+    liu "Ohh... It's not that... Work is fine, really..."
     show liu 10 at right
-    liu "{b}*вздох*{/b}"
+    liu "{b}*sigh*{/b}"
     show player 11 at left
-    liu "Знаете... Проблемы дома..."
+    liu "It's just... You know, problems at home sometimes..."
     show liu 6 at right
-    liu "...Он к вам как-"
+    liu "...It gets to you like-"
     show liu 8 at right
-    liu "Подождите, почему я это говорю вам?"
+    liu "Wait... Why am I telling you this?"
     show liu 4 at right
     show player 29 at left
-    player_name "Ой, простите! Я не хотел, чтобы вам было не удобно."
-    player_name "Иногда, когда у меня проблемы дома..."
+    player_name "Oh, I'm sorry! I didn't mean to make you uncomfortable."
+    player_name "Sometimes when I have problems at home..."
     show liu 9 at right
     show player 33 at left
-    player_name "Я просто говорю с кем-нибудь об этом!"
+    player_name "I just have to tell someone about it. You know, let it out!"
     show liu 5 at right
     show player 13 at left
-    liu "Ну... Да, я думаю, вы правы."
+    liu "Well... Yeah, I guess you're right."
     show liu 7 at right
     show player 13 at left
-    liu "Я должна вернуться к работе, хотя..."
+    liu "I have to get back to work though..."
     show liu 10 at right
     liu "..."
     show liu 5 at right
     show player 11 at left
-    liu "Напомни как тебя зовут?"
+    liu "What's your name again?"
     show liu 4 at right
     show player 17 at left
-    player_name "Ох, меня зовут {b}[firstname]{/b}!"
+    player_name "Oh, my name is {b}[firstname]{/b}!"
     show liu 7 at right
     show player 2 at left
-    liu "Приятно познакомиться {b}[firstname]{/b}, я {b}Лиу Вэнг{/b}!"
+    liu "Nice to meet you {b}[firstname]{/b}, I'm {b}Liu Wang{/b}!"
     $ liu = Character('Liu Wang', color="#c8ffc8")
     show liu 4 at right
     show player 14 at left
-    player_name "Увидимся позже, {b}Лиу{/b}!"
+    player_name "I'll see you next time, {b}Liu{/b}!"
     show liu 8 at right
     show player 1 at left
-    liu "Пока!"
+    liu "Bye!"
     hide player 1 at left
     hide liu 8
     with dissolve

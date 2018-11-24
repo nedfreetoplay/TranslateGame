@@ -2,7 +2,7 @@ init python:
     build.archive("audio", "all")
     build.archive("images", "all")
     build.archive("scripts", "all")
-    build.directory_name = str(config.name) + "-" + str(config.version)
+    build.directory_name = str(config.name) + "-" + str(config.version).replace(".", "-")
     build.executable_name = config.name
     build.include_update = False
     build.classify('**~', None)

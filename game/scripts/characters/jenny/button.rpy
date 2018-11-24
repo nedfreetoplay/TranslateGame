@@ -1,132 +1,105 @@
 label sis_button_dialogue:
-    if sis_panties_trade:
-        if not sis_panties_bought:
-            call expression game.dialog_select("jenny_dialogue_panties_trade_pre")
-            if player.has_money(100):
-                menu:
-                    "Вот $100.":
-                        $ player.spend_money(100)
-                        $ player.get_item("panties")
-                        $ sis_panty01.finish()
-                        $ completed_quests.append(quest07)
-                        $ sis_panties_bought = True
-                        call expression game.dialog_select("jenny_dialogue_panties_trade_buy")
-                    "Мне это не нужно.":
+    call expression game.dialog_select("jenny_dialogue_pre")
+    menu sis_bedroom_menu:
+        "Talk.":
+            if not M_jenny.finished_state(S_jenny_shower_peep_bed_cuddle_tier_2):
+                call expression game.dialog_select("jennybedroom_talk_after_cuddle")
+            else:
+                call expression game.dialog_select("jenny_dialogue_talk_before_cuddle")
 
-                        call expression game.dialog_select("jenny_dialogue_panties_trade_do_not_buy")
+        "I love you." if M_jenny.finished_state(S_jenny_cam_show):
+            if sis_confession_first:
+                call expression game.dialog_select("jenny_dialogue_confess_first")
+                $ sis_confession_first = False
             else:
 
-                menu:
-                    "У меня недостаточно.":
-                        call expression game.dialog_select("jenny_dialogue_panties_trade_cant_buy")
+                call expression game.dialog_select("jenny_dialogue_confess_repeat")
             jump expression game.dialog_select("hallway_dialogue")
-        else:
 
-            call expression game.dialog_select("jenny_dialogue_pre")
-            menu sis_bedroom_menu:
-                "Говорить.":
-                    if not sister.over(sis_shower_cuddle02):
-                        call expression game.dialog_select("jennybedroom_talk_after_cuddle")
-                    else:
-                        call expression game.dialog_select("jenny_dialogue_talk_before_cuddle")
+        "{b}Roxxy{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
+            call expression game.dialog_select("jenny_dialogue_roxxy_pre")
+            menu:
+                "Pay" if player.has_money(500):
+                    $ player.spend_money(500)
+                    call expression game.dialog_select("jenny_dialogue_roxxy_pay")
+                    $ M_bissette.trigger(T_bissette_jenny_paid)
+                "Don't Pay":
 
-                "Я люблю тебя." if sister.over(sis_final2):
-                    if sis_confession_first:
-                        call expression game.dialog_select("jenny_dialogue_confess_first")
-                        $ sis_confession_first = False
-                    else:
+                    call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
 
-                        call expression game.dialog_select("jenny_dialogue_confess_repeat")
-                    jump expression game.dialog_select("hallway_dialogue")
+        "{b}[deb_name]{/b} needs you." if M_jenny.is_state(S_jenny_debbie_needs_jenny):
+            call expression game.dialog_select("sis_bedroom_sis_mom_needs_you")
+            $ M_jenny.trigger(T_jenny_tricked)
 
-                "{b}Рокси{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
-                    call expression game.dialog_select("jenny_dialogue_roxxy_pre")
-                    menu:
-                        "Платить" if player.has_money(500):
-                            $ player.spend_money(500)
-                            call expression game.dialog_select("jenny_dialogue_roxxy_pay")
-                            $ M_bissette.trigger(T_bissette_jenny_paid)
-                        "Не платить":
+        "Trade for panties." if not M_jenny.finished_state(S_jenny_panty_deal_tier_4):
+            call expression game.dialog_select("jenny_dialogue_trade_panties")
 
-                            call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
+        "Make a deal." if M_jenny.finished_state(S_jenny_breakfast):
+            call expression game.dialog_select("jenny_dialogue_make_deal")
+            jump expression game.dialog_select("hallway_dialogue")
 
-                "{b}[deb_name]{/b} тебя ищет." if sis_panties_bought and not sis_diary_unlocked and sister.over(sis_shower_cuddle01) and sister.completed(sis_panty02):
-                    call expression game.dialog_select("sis_bedroom_sis_mom_needs_you")
-                    $ diary_scene = True
-                    $ sis_diary_unlocked = True
-                    $ M_jenny.place(place = L_NULL)
-                    $ M_jenny.force(tod = [0,1])
+        "Cam show." if M_jenny.between_states(S_jenny_cam_show, S_jenny_end):
+            $ sis_cheerleader_sex2_menu = False
+            if not M_jenny.is_state(S_jenny_cam_show):
+                $ game.timer.tick()
+                $ anim_toggle = False
+                $ xray = False
+                call expression game.dialog_select("jenny_dialogue_cam_show_pre")
+                if sis_final_cum == "Inside" and sis_final_cum_inside_first:
+                    call expression game.dialog_select("jenny_dialogue_cam_show_pre_inside")
+                    $ sis_final_cum_inside_first = False
 
-                "Обмен на трусики." if not sister.completed(sis_panty04):
-                    call expression game.dialog_select("jenny_dialogue_trade_panties")
+                elif sis_final_cum == "Outside":
+                    call expression game.dialog_select("jenny_dialogue_cam_show_pre_outside")
+                call expression game.dialog_select("jenny_dialogue_cam_show_pre_after")
+                jump expression game.dialog_select("sis_cheerleader_fuck_looprep")
 
-                "Заключить сделку." if sister.over(sis_breakfast):
-                    call expression game.dialog_select("jenny_dialogue_make_deal")
-                    jump expression game.dialog_select("hallway_dialogue")
+            elif not player.has_item("handcuffs") or not player.has_item("cheerleader_outfit"):
+                call expression game.dialog_select("jenny_dialogue_cam_show_no_items")
+                jump expression game.dialog_select("hallway_dialogue")
 
-                "Видео шоу." if sister.known(sis_final2):
-                    $ sis_cheerleader_sex2_menu = False
-                    if sister.completed(sis_final2):
-                        $ game.timer.tick()
-                        $ anim_toggle = False
-                        $ xray = False
-                        call expression game.dialog_select("jenny_dialogue_cam_show_pre")
-                        if sis_final_cum == "Inside" and sis_final_cum_inside_first:
-                            call expression game.dialog_select("jenny_dialogue_cam_show_pre_inside")
-                            $ sis_final_cum_inside_first = False
+            elif player.has_item("handcuffs") and player.has_item("cheerleader_outfit"):
+                $ game.timer.tick()
+                $ player.remove_item("handcuffs")
+                $ player.remove_item("cheerleader_outfit")
+                $ M_jenny.trigger(T_jenny_stream_ready)
+                label sis_cheerleader_replay:
+                    call expression game.dialog_select("jenny_dialogue_cam_show_have_items")
+                $ anim_toggle = False
+                $ xray = False
+                jump expression game.dialog_select("sis_cheerleader_fuck_looprep")
 
-                        elif sis_final_cum == "Outside":
-                            call expression game.dialog_select("jenny_dialogue_cam_show_pre_outside")
-                        call expression game.dialog_select("jenny_dialogue_cam_show_pre_after")
-                        jump expression game.dialog_select("sis_cheerleader_fuck_looprep")
+        "Need toys?" if M_jenny.is_state(S_jenny_help_stream_tier_4, S_jenny_prepare_stream_tier_4):
+            if M_jenny.is_state(S_jenny_help_stream_tier_4):
+                call expression game.dialog_select("jenny_dialogue_need_toys")
+                $ M_jenny.trigger(T_jenny_need_toys)
 
-                    elif not player.has_item("handcuffs") or not player.has_item("cheerleader_outfit"):
-                        call expression game.dialog_select("jenny_dialogue_cam_show_no_items")
-                        jump expression game.dialog_select("hallway_dialogue")
+            elif not player.has_item("badmonster"):
+                call expression game.dialog_select("jenny_dialogue_need_toys_do_not_have_toys")
 
-                    elif player.has_item("handcuffs") and player.has_item("cheerleader_outfit"):
-                        $ game.timer.tick()
-                        $ player.remove_item("handcuffs")
-                        $ player.remove_item("cheerleader_outfit")
-                        $ sis_final2.finish()
-                        $ sister.add_event(sis_shower_cuddle05)
-                        label sis_cheerleader_replay:
-                            call expression game.dialog_select("jenny_dialogue_cam_show_have_items")
-                        $ anim_toggle = False
-                        $ xray = False
-                        jump expression game.dialog_select("sis_cheerleader_fuck_looprep")
+            elif player.has_item("badmonster"):
+                call expression game.dialog_select("jenny_dialogue_need_toys_have_toys")
+                $ player.remove_item("badmonster")
+                $ M_jenny.trigger(T_jenny_brought_toys)
 
-                "Нужны игрушки?" if sister.over(sis_shower_cuddle05) and not sister.completed(sis_webcam04):
-                    if not sister.known(sis_webcam04):
-                        call expression game.dialog_select("jenny_dialogue_need_toys")
-                        $ sister.add_event(sis_webcam04)
+        "Watch TV tonight." if M_jenny.finished_state(S_jenny_cam_show) and not sis_watch_tv_tonight:
+            call expression game.dialog_select("jenny_dialogue_watch_tv_tonight")
+            $ sis_watch_tv_tonight = True
+            jump expression game.dialog_select("sis_bedroom_menu")
 
-                    elif not player.has_item("badmonster"):
-                        call expression game.dialog_select("jenny_dialogue_need_toys_do_not_have_toys")
-
-                    elif player.has_item("badmonster"):
-                        call expression game.dialog_select("jenny_dialogue_need_toys_have_toys")
-                        $ player.remove_item("badmonster")
-                        $ sis_webcam04.finish()
-
-                "Смотреть ТВ сегодня вечером." if sister.over(sis_final2) and not sis_watch_tv_tonight:
-                    call expression game.dialog_select("jenny_dialogue_watch_tv_tonight")
-                    $ sis_watch_tv_tonight = True
-                    jump expression game.dialog_select("sis_bedroom_menu")
-
-                "Наблюдать за соседями." if sister.over(sis_final2):
-                    $ game.timer.tick()
-                    call expression game.dialog_select("jenny_dialogue_watch_neighbours")
-                    call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue01")
-                    label neighbors_spy_replay:
-                        call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue02")
-                    $ persistent.cookie_jar["Mrs Johnson"]["unlocked"] = True
-                    $ persistent.cookie_jar["Mrs Johnson"]["gallery"]["03_unlocked"] = True
-                    call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue03")
-                    $ anim_toggle = False
-                    $ xray = False
-                    call expression game.dialog_select("jenny_dialogue_watch_neighbours_menu")
-                    jump expression game.dialog_select("bedroom_dialogue")
+        "Watch the neighbors." if M_jenny.finished_state(S_jenny_cam_show):
+            $ game.timer.tick()
+            call expression game.dialog_select("jenny_dialogue_watch_neighbours")
+            call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue01")
+            label neighbors_spy_replay:
+                call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue02")
+            $ persistent.cookie_jar["Mrs Johnson"]["unlocked"] = True
+            $ persistent.cookie_jar["Mrs Johnson"]["gallery"]["03_unlocked"] = True
+            call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue03")
+            $ anim_toggle = False
+            $ xray = False
+            call expression game.dialog_select("jenny_dialogue_watch_neighbours_menu")
+            jump expression game.dialog_select("bedroom_dialogue")
     hide player
     hide jenny
     $ game.main()

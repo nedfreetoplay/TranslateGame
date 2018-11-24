@@ -90,7 +90,7 @@ screen library_bookshelf:
             hover HoverImage("buttons/book_04.png")
             action Hide("library_bookshelf"), Jump("french_dictionary")
 
-    if aunt.completed(aunt_breeding_guide) and not player.has_item("breeding_guide") and not aunt.known(aunt_breeding_bull):
+    if M_diane.is_state(S_diane_check_bookshelf):
         imagebutton:
             focus_mask True
             pos (234,110)

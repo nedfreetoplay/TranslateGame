@@ -1,30 +1,14 @@
 screen entrance:
     add L_home_entrance.background
-    if not player.has_picked_up_item("attic_key"):
-        imagebutton:
-            focus_mask True
-            pos (982,356)
-            idle game.timer.image("objects/object_key_01{}.png")
-            hover HoverImage(game.timer.image("objects/object_key_01{}.png"))
-            action Function(player.get_item, "attic_key"), Hide("entrance"), Jump("attic_key")
 
 
-    if M_mom.get_state() == S_mom_diane_visit and game.timer.is_evening():
+    if (M_mom.is_state(S_mom_diane_visit) or (M_diane.is_state(S_diane_debbie_evening_visit))) and game.timer.is_evening():
         imagebutton:
             focus_mask True
             pos (699,236)
             idle "objects/object_door_35_evening.png"
             hover HoverImage("objects/object_door_35_evening.png")
             action Hide("entrance"), Function(playSound), Jump("home_kitchen_dialogue")
-
-
-    elif M_mom.get_state() == S_mom_diane_dinner and game.timer.is_evening():
-        imagebutton:
-            focus_mask True
-            pos (699,236)
-            idle "objects/object_door_35_evening02.png"
-            hover HoverImage("objects/object_door_35_evening02.png")
-            action Hide("entrance"), Function(playSound), Jump("dining_room_table_dialogue")
 
     else:
         imagebutton:
@@ -70,4 +54,12 @@ screen entrance:
             idle "boxes/auto_option_08.png"
             hover HoverImage("boxes/auto_option_08.png")
             action Hide("entrance"), Function(renpy.call, "home_lock_check", "Home Front", "home_front")
+
+        if not player.has_picked_up_item("attic_key"):
+            imagebutton:
+                focus_mask True
+                pos (982,356)
+                idle game.timer.image("objects/object_key_01{}.png")
+                hover HoverImage(game.timer.image("objects/object_key_01{}.png"))
+                action Function(player.get_item, "attic_key"), Hide("entrance"), Jump("attic_key")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

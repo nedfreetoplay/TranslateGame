@@ -115,7 +115,7 @@ screen name_input:
     add "backgrounds/menu_name.jpg"
     add SnowBlossom(Animation("buttons/leaf01.png", 0.15, "buttons/leaf02.png", 0.15))
     add "backgrounds/menu_name_overlay.png"
-    add Input(size=16, color="#5d9aff", default=firstname, changed=name_func, length=12, xpos= 720, ypos = 392, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+    add Input(size=16, color="#5d9aff", default=firstname, changed=name_func, length=12, xpos= 720, ypos = 392, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
     key "K_RETURN" action Start()
     imagebutton:
         idle "buttons/menu_name_back01.png"
@@ -262,7 +262,7 @@ screen pledgers() tag menu:
                 pledgers = pledgers[:-2]
 
                 file_.close()
-            $ ylength = (((len(pledgers) / pledgers_lines) / 2) * 19) + 200
+            $ ylength = (len(pledgers) / pledgers_lines) * 19
             imagemap:
                 ground im.Composite((962, ylength), (0, 0), "backgrounds/menu_ground.png")
 
@@ -448,7 +448,7 @@ screen save() tag menu:
 
         hotspot (133, 275, 225, 168) hovered Show("load_save_slot_description", slot = 1) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(1), slot = 1):
             use load_save_slot(1)
-        hotspot (400, 275, 225, 168) hovered Show("load_save_slot_description", slot = 2) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(2), slot = 3):
+        hotspot (400, 275, 225, 168) hovered Show("load_save_slot_description", slot = 2) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(2), slot = 2):
             use load_save_slot(2)
         hotspot (668, 275, 225, 168) hovered Show("load_save_slot_description", slot = 3) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(3), slot = 3):
             use load_save_slot(3)
@@ -462,7 +462,7 @@ screen save() tag menu:
 screen set_save_description(file_save, slot) tag save:
     python:
         if FileSaveName(slot) == "":
-            store.save_name = "{} - День {}".format(store.firstname, game.timer._game_day)
+            store.save_name = "{} - Day {}".format(store.firstname, game.timer._game_day)
         else:
             store.save_name = FileSaveName(slot)
     modal True
@@ -471,8 +471,8 @@ screen set_save_description(file_save, slot) tag save:
         idle "backgrounds/menu_ground.png"
         action file_save, Hide("set_save_description")
     add "boxes/popup_name_save.png" at truecenter
-    text "{b}Дайте этому сохранить описание:{/b}" xalign 0.5 yalign 0.415
-    add Input(size = 20, color = "#FFFFFF", default = store.save_name, changed = save_description, length = 35, xpos = 300, ypos = 353, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
+    text "{b}Give this save a description:{/b}" xalign 0.5 yalign 0.415
+    add Input(size = 20, color = "#FFFFFF", default = store.save_name, changed = save_description, length = 35, xpos = 300, ypos = 353, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
     key "K_RETURN" action [file_save, Hide("set_save_description")]
     imagebutton idle "buttons/menu_ok.png" hover HoverImage("buttons/menu_ok.png") action [file_save, Hide("set_save_description")] xalign 0.5 yalign 0.57
 
@@ -544,7 +544,7 @@ screen load_save_slot(slot) tag save:
 screen load_save_slot_description(slot) tag save:
     $ file_text = "{}".format(FileSaveName(slot))
     if file_text == "":
-        $ file_text = "Без описания"
+        $ file_text = "No Description"
     if not file_text.endswith("."):
         $ file_text += "."
     text "{b}[file_text]{/b}" xalign 0.5 yalign 0.92
@@ -562,19 +562,19 @@ screen yesno_prompt(message, yes_action, no_action):
     if message in [layout.DELETE_SAVE, layout.OVERWRITE_SAVE]:
         add "backgrounds/menu_confirm.jpg"
         if message == layout.DELETE_SAVE:
-            text "{b}Вы действительно хотите удалить это сохранение?" xalign 0.5 yalign 0.56
+            text "{b}Are you sure you want to delete this save?" xalign 0.5 yalign 0.56
 
         elif message == layout.OVERWRITE_SAVE:
-            text "{b}Вы действительно хотите перезаписать это сохранение?" xalign 0.5 yalign 0.56
+            text "{b}Are you sure you want to overwrite this save?" xalign 0.5 yalign 0.56
 
     elif message == layout.LOADING:
-        text "{b}Вы действительно хотите загрузить это сохранение?" xalign 0.5 yalign 0.56
+        text "{b}Are you sure you want to load this save?" xalign 0.5 yalign 0.56
 
     elif message == layout.QUIT:
-        text "{b}Вы действительно хотите выйти из игры?" xalign 0.5 yalign 0.56
+        text "{b}Are you sure you want to quit the game?" xalign 0.5 yalign 0.56
 
     elif message == layout.MAIN_MENU:
-        text "{b}Вы действительно хотите выйти из главного меню?" xalign 0.5 yalign 0.56
+        text "{b}Are you sure you want to quit to the main menu?" xalign 0.5 yalign 0.56
 
     imagemap:
         ground "menu_ground"
@@ -592,7 +592,7 @@ screen yesno_prompt(message, yes_action, no_action):
         $ persistent.time_spent_playing += (time() - time_spent_playing_start)
         $ time_spent_playing_start = time()
         $ time_spent_playing_string = format_seconds_to_dhm(persistent.time_spent_playing)
-        text "Вы потратили [time_spent_playing_string] времени в игре..." xalign 0.5 yalign 0.5
+        text "You've spent [time_spent_playing_string] eating cookies..." xalign 0.5 yalign 0.5
 
     text "{a=http://www.patreon.com/summertimesaga}http://www.patreon.com/summertimesaga{/a}" xalign 0.5 yalign 0.855
 
@@ -672,7 +672,7 @@ screen sex_anim_buttons:
         action [
             If(
                 anim_toggle,
-                SetVariable("anim_toggle", False),
+                [SetVariable("anim_toggle", False),SetVariable("animated", False)] ,
                 SetVariable("anim_toggle", True)
             ),
             Return

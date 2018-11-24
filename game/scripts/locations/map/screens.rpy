@@ -43,13 +43,28 @@ screen town_map:
             hover HoverImage(game.timer.image("map/bball01{}.png"))
             action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Basketball Court", "basket_court_dialogue")
 
-    if not L_diane_yard.locked:
+    if not L_diane_yard.locked and not M_diane.finished_state(S_diane_build_toys):
         imagebutton:
             focus_mask True
             pos (468,62)
             idle game.timer.image("map/dianehouse01{}.png")
             hover HoverImage(game.timer.image("map/dianehouse01{}.png"))
-            action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Diane", "diane_front_yard")
+            action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Diane", "dianes_front_yard_dialogue")
+
+    elif M_diane.between_states(S_diane_build_toys, S_diane_barn_news):
+        imagebutton:
+            focus_mask True
+            pos (468,62)
+            idle game.timer.image("map/barn01{}.png")
+            hover HoverImage(game.timer.image("map/barn01{}.png"))
+            action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Diane's Barn", "barn_build_front_dialogue")
+    elif M_diane.finished_state(S_diane_barn_news) or M_diane.is_state(S_diane_barn_news):
+        imagebutton:
+            focus_mask True
+            pos (468,62)
+            idle game.timer.image("map/barn01{}.png")
+            hover HoverImage(game.timer.image("map/barn01{}.png"))
+            action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Diane's Barn", "barn_front_dialogue")
 
     if not L_miahouse.locked:
         imagebutton:
@@ -243,6 +258,14 @@ screen town_map:
             hover HoverImage(game.timer.image("map/smith01{}.png"))
             action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Smith", "smiths_frontyard_dialogue")
 
+    if not L_annie_front.locked:
+        imagebutton:
+            focus_mask True
+            pos (344, 59)
+            idle game.timer.image("map/annie01{}.png")
+            hover HoverImage(game.timer.image("map/annie01{}.png"))
+            action Hide("town_map"), Hide("ui"), Function(renpy.call, "map_lock_check", "Annie", "annies_house_front_dialogue")
+
     add game.timer.image("car01{}")
     add game.timer.image("car02{}")
     add game.timer.image("car03{}")
@@ -250,4 +273,6 @@ screen town_map:
     add "sparkle02"
     add "sparkle03"
     add "cloud01"
+    if datetime.date.today().month == 12 and 15 <= datetime.date.today().day <= 30 and random.random() >= 0.9:
+        add game.timer.image("santa_car[}")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
