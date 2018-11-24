@@ -10,9 +10,9 @@ label cassie_fsm_init:
     python:
 
         S_cassie_start = State("start")
-        S_cassie_ban_from_pool = State("ban from pool", "You should go to the pool at night...")
-        S_cassie_caught_skinny_dipping = State("caught skinny dipping", "Cassie lifted your ban! Go for a swim!")
-        S_cassie_medic_room = State("medic room", "Have fun in the medic room...")
+        S_cassie_ban_from_pool = State("ban from pool", "Вы должны пойти в бассейн ночью...")
+        S_cassie_caught_skinny_dipping = State("caught skinny dipping", "Кэсси сняла свой запрет! Сходите поплавать!")
+        S_cassie_medic_room = State("medic room", "Веселитесь в комнате медика...")
         S_cassie_end = State("end")
 
 
@@ -21,7 +21,7 @@ label cassie_fsm_init:
         S_cassie_caught_skinny_dipping.add(T_cassie_drowning, S_cassie_medic_room)
         S_cassie_medic_room.add(T_cassie_end, S_cassie_end, actions=["exec", A_drowning_in_pussy.unlock])
 
-        M_cassie.add(S_cassie_start, S_cassie_ban_from_pool, 
+        M_cassie.add(S_cassie_start, S_cassie_ban_from_pool,
                      S_cassie_caught_skinny_dipping,
                      S_cassie_medic_room, S_cassie_end)
     return

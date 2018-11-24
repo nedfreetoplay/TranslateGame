@@ -14,7 +14,7 @@ label chad_button_dialogue:
     else:
         call expression game.dialog_select("button_chad_generic")
         menu:
-            "Nothing":
+            "Уйти.":
                 call expression game.dialog_select("button_chad_nothing")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
