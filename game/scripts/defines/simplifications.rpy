@@ -1,1 +1,1 @@
-define sim_crack = "*ТРЕСК!*"
+define sim_crack = "*ТРЕСК!*" # Встречается в порке Елены

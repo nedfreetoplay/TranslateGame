@@ -2,19 +2,19 @@ label angelica_dialogue:
     if M_ross.is_state(S_ross_get_linens) and not player.has_item("linens"):
         call expression game.dialog_select("angelica_dialogue_ross_get_linens_pre")
         menu:
-            "Linens":
+            "Скатерти.":
                 call expression game.dialog_select("angelica_dialogue_ross_get_linens")
                 $ player.get_item("linens")
 
     elif M_mia.is_set("helen dialogue change"):
         call expression game.dialog_select("angelica_dialogue_change_pre")
         menu:
-            "Talk.":
+            "Говорить.":
                 call expression game.dialog_select("angelica_dialogue_change_talk")
-            "Graveyard.":
+            "Кладбище.":
 
                 call expression game.dialog_select("angelica_dialogue_change_graveyard")
-            "Nevermind.":
+            "Неважно.":
 
                 call expression game.dialog_select("angelica_dialogue_change_leave")
     else:
