@@ -3,10 +3,10 @@ label anna_button_dialogue:
     if M_anna.is_state(S_anna_dog_hunt):
         call expression game.dialog_select("anna_dialogue_anna_dog_hunt")
         menu:
-            "Yes":
+            "Да.":
                 call expression game.dialog_select("anna_dialogue_anna_dog_hunt_yes")
                 $ M_anna.trigger(T_anna_find_awesomo)
-            "No":
+            "Нет.":
 
                 call expression game.dialog_select("anna_dialogue_anna_dog_hunt_no")
 

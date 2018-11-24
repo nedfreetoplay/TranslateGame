@@ -1,10 +1,10 @@
 label anna_yoga_button_dialogue:
     call expression game.dialog_select("anna_button_yoga_room_dialogue_pre")
     menu:
-        "Where's {b}Mrs. Johnson{/b}?":
+        "Где {b}Миссис Джонсон{/b}?":
             call expression game.dialog_select("anna_button_yoga_room_dialogue_wheres_mrsj")
 
-        "Yoga" if mrsj.completed(mrsj_yoga_help):
+        "Йога." if mrsj.completed(mrsj_yoga_help):
             call expression game.dialog_select("anna_button_yoga_room_dialogue_yoga")
             $ yoga_position = ""
             $ yoga_stage = 1
