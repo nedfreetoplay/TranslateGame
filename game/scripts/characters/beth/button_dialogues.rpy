@@ -4,48 +4,48 @@ label beth_dialogue_pre:
     show xtra 27 zorder 2 at center
     show player 1 zorder 3 at left
     with dissolve
-    beth "Howdy, mister!"
+    beth "Привет, мистер!"
     show player 14
     show beth 1
-    player_name "Hi."
+    player_name "Привет."
     show player 1
     show beth 2
-    beth "Looking to buy some sweet holes, are ya?"
+    beth "Хотите купить сладких пончиков, не так ли?"
     show beth 1
     return
 
 label beth_dialogue_do_not_know:
     show player 14
-    player_name "Hmm... I'm not sure what I need to buy yet."
+    player_name "Хмм... Я ещё не уверен, что мне это нужно купить."
     show player 1
     show beth 2
-    beth "You don't know?"
+    beth "Не знаете?"
     show player 14
     show beth 1
-    player_name "Well, I'm buying these for someone as a gift but I'm not sure what he likes."
+    player_name "Ну, я покупаю это в подарок, но не знаю, что нравится."
     show player 1
     show beth 2
-    beth "I can't help ya if you don't know what ya'd like!"
+    beth "Я не смогу тебе помочь, если ты не знаешь, чего хочешь!"
     show player 14
     show beth 1
-    player_name "I'll come back later when I know the toppings."
+    player_name "Я вернусь позже, когда узнаю."
     return
 
 label beth_dialogue_want_donuts:
     show player 14
-    player_name "I'd like to buy a small box, please."
+    player_name "Я бы хотел купить маленькую коробочку, пожалуйста."
     show player 1
     show beth 2
-    beth "Sure thing!"
-    beth "What kind of glaze and topping would you like on them?"
+    beth "Конечно!"
+    beth "Какую глазурь и начинку вы бы хотели?"
     return
 
 label beth_dialogue_leave:
     show player 14
-    player_name "I'm fine, thanks!"
-    player_name "Perhaps another time..."
+    player_name "Хорошо, спасибо!"
+    player_name "Возможно в другой раз..."
     show player 1
     show beth 2
-    beth "Sure thing, see ya!"
+    beth "Конечно, пока!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

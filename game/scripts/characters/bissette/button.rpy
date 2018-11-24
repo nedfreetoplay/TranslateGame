@@ -10,7 +10,7 @@ label bissette_button_dialogue:
 
         call expression game.dialog_select("bissette_dialogue_intro")
         menu:
-            "Food Assignment." if M_bissette.between_states(S_bissette_find_food_book, S_bissette_french_food_assignment):
+            "Любимая еда." if M_bissette.between_states(S_bissette_find_food_book, S_bissette_french_food_assignment):
                 call expression game.dialog_select("bissette_dialogue_food_assignment_intro")
                 if not M_bissette.is_state(S_bissette_french_food_assignment):
                     call expression game.dialog_select("bissette_dialogue_food_assignment_prepare_assignment")
@@ -18,7 +18,7 @@ label bissette_button_dialogue:
 
                     call expression game.dialog_select("bissette_dialogue_food_assignment_do_assignment")
 
-            "Poem Assignment." if M_bissette.between_states(S_bissette_find_poem_reference_book, S_bissette_print_poem_assignment):
+            "Стихотворение." if M_bissette.between_states(S_bissette_find_poem_reference_book, S_bissette_print_poem_assignment):
                 if M_bissette.between_states(S_bissette_find_poem_reference_book, S_bissette_do_poem_assignment):
                     call expression game.dialog_select("bissette_dialogue_poem_assignment_intro")
                     if M_bissette.is_state(S_bissette_do_poem_assignment):
@@ -27,11 +27,11 @@ label bissette_button_dialogue:
 
                     call expression game.dialog_select("bissette_dialogue_poem_assignment_print_assignment")
 
-            "Private Tutoring." if M_bissette.is_state(S_bissette_end) and not M_bissette.is_set("night visit"):
+            "Частный Репетитор." if M_bissette.is_state(S_bissette_end) and not M_bissette.is_set("night visit"):
                 call expression game.dialog_select("bissette_dialogue_private_tutoring")
                 $ M_bissette.set("night visit", True)
 
-            "Tutoring." if M_bissette.between_states(S_bissette_tutoring, S_bissette_fix_printer):
+            "Обучение." if M_bissette.between_states(S_bissette_tutoring, S_bissette_fix_printer):
                 if M_bissette.is_state(S_bissette_tutoring):
                     call expression game.dialog_select("bissette_dialogue_tutoring")
                     $ M_bissette.trigger(T_bissette_require_dictionary)
@@ -41,10 +41,10 @@ label bissette_button_dialogue:
                 else:
 
                     call expression game.dialog_select("bissette_dialogue_replace_missing_pages")
-            "Chat.":
+            "Общаться.":
 
                 call expression game.dialog_select("bissette_dialogue_chat")
-            "Not really.":
+            "Уйти.":
 
                 call expression game.dialog_select("bissette_dialogue_leave")
 
