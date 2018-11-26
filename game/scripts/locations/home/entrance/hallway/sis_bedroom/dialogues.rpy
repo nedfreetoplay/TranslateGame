@@ -981,7 +981,7 @@ label bedside01_dialogue2:
     scene bedside01
     player_name "( Боже... )"
     player_name "..."
-    player_name "( Это место просто наполнено этими мезкими вещами! )"
+    player_name "( Это место просто наполнено этими мерзкими вещами! )"
     player_name "( Лучше сначала спросить у неё... )"
     return
 
