@@ -14,4 +14,7 @@ init -3 python:
 
     if persistent.last_game_day is None:
         persistent.last_game_day = 0
+
+    if persistent.display_android_text is None:
+        persistent.display_android_text = True
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

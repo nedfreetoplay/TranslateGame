@@ -40,7 +40,7 @@ screen church_graveyard:
         align (0.5,0.97)
         idle "boxes/auto_option_generic_01.png"
         hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("church_graveyard"), If(M_diane.finished_state(S_diane_couch_crashing), Jump("barn_dialogue"), Jump(game.dialog_select("dianes_garden_dialogue")))
+        action Hide("church_graveyard"), If(M_diane.finished_state(S_diane_couch_crashing), If(M_diane.finished_state(S_diane_barn_news), Jump(game.dialog_select("barn_garden_dialogue")), Jump(game.dialog_select("barn_build_front_dialogue"))), Jump(game.dialog_select("dianes_garden_dialogue")))
 
 screen cat_name_input:
     add NameInputText("boxes/popup_name_cat.png", cat_name, "c87efe")

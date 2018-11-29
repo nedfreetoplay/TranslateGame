@@ -16,6 +16,7 @@ init -10 python:
     import json
     import itertools
     import operator
+    import textwrap
     if renpy.variant("pc"):
         import certifi
         import requests

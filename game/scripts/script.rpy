@@ -48,6 +48,7 @@ label after_load:
     $ store.temp_machines = {}
     $ store.temp_locations = {}
     $ store.temp_pms = {}
+    $ store.temp_events = {}
     python:
         try:
             store.temp_locations = copy(store.locations)
@@ -63,7 +64,9 @@ label after_load:
             store.temp_machines = copy(store.machines)
         except AttributeError:
             store.machines = {}
-
+    call INIT_INVENTORY_ITEMS
+    call INIT_JSONS
+    call INIT_GAME
     call INIT_FSM
     python:
         try:
@@ -77,23 +80,24 @@ label after_load:
     $ orphaned_states()
     $ machines_reset()
 
-    call INIT_INVENTORY_ITEMS
-    call INIT_JSONS
-    call INIT_GAME
     python:
         persistent.last_game_day = game.timer._game_day
         Machine.machine_trigger(T_all_on_load)
     call UPDATE_PMS
-    call define_events
+
     python:
-        for ev in store.my_events:
-            event = Event_Queue(ev.name)
-            for i, e in enumerate(ev._events):
-                for v in [b for b in globals().values() if isinstance(b, Event)]:
-                    if v._name == e._name:
-                        v.__dict__ = e.__dict__
-                        event._events.append(v)
-            globals()[event.name] = event
+        try:
+            if isinstance(store.my_events, list):
+                for e in store.my_events:
+                    store.temp_events[e.name.lower()] = e
+            else:
+                store.temp_events = copy(store.my_events)
+        except AttributeError:
+            store.my_events = {}
+    call define_events
+    if not store.my_events:
+        $ store.temp_events = copy(store.my_events)
+    $ events_reset()
     return
 
 label start:
@@ -109,11 +113,6 @@ label start:
     python:
         savegame_version = config.version
         store.temp_machines = {}
-        sister = Event_Queue("sister")
-        erik = Event_Queue("erik")
-        mrsj = Event_Queue("mrsj")
-        June = Event_Queue("June")
-        Roz = Event_Queue("Roz")
 
         movedpiece = 0
         piecelist = [[0,0],[-60,580],[830,580],[830,580],[830,580],[-60,580],
@@ -129,10 +128,12 @@ label start:
         quest11 = Quest("Hidden Camera", image = "buttons/cellphone_goals_side12.png", status = False)
         quest_list = []
         completed_quests = []
-        events = []
+
+    call define_events
+    python:
+        store.my_events = {}
         for e in Event_Queue.get_instances():
-            events.append(e)
-        store.my_events = events
+            store.my_events[e.name] = e
         config.replay_scope["firstname"] = firstname
         persistent.firstname = firstname
         orphaned_states()
@@ -145,13 +146,6 @@ label cheat_intro:
     jump intro
 
 label intro:
-    call define_events
-    python:
-        events = []
-        for e in Event_Queue.get_instances():
-            events.append(e)
-        store.my_events = events
-
     call expression game.dialog_select("intro_dialogue")
     jump bedroom_dialogue
 

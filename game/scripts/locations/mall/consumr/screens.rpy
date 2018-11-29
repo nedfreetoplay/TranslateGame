@@ -153,7 +153,7 @@ screen popup_bike:
         pos (410,421)
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action Hide("popup_bike"), BuyItem("bike"), If(player.has_money(Item("bike").cost), Function(player.upgrade_transport, 1), NullAction())
+        action Hide("popup_bike"), BuyItem("bike", "get_bike_dialogue")
 
 screen popup_milkjug:
     imagebutton:
@@ -167,7 +167,7 @@ screen popup_milkjug:
         pos (410,421)
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action Hide("popup_milkjug"), BuyItem("milkjug"), If(player.has_money(Item("milkjug").cost) and M_diane.is_state(S_diane_buy_milk_jug), [Hide("consumr"), Jump("consumr_diane_get_milk_jug_bought")], NullAction())
+        action Hide("popup_milkjug"), BuyItem("milkjug", "diane_get_milk_jug_dialogue")
 
 screen popup_exterminator:
     imagebutton:
@@ -209,7 +209,7 @@ screen popup_annihilator:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action Hide("popup_annihilator"), BuyItem("annihilator"), If(player.has_money(Item("annihilator").cost) and M_diane.is_state(S_diane_get_bug_spray), [Hide("consumr"), Jump("consumr_diane_buy_bug_spray")], NullAction())
+        action Hide("popup_annihilator"), BuyItem("annihilator", "diane_get_bug_spray_dialogue")
 
 screen popup_gas_can:
     imagebutton:

@@ -1148,7 +1148,7 @@ label okitas_office_okita_is_hypersexual:
     player_name "... Huh?"
     player_name "What happens when it-"
     show player 81
-    show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
+    show playerdev 1 at Position(xpos=0.32, ypos=0.34)
     player_name "( !!! )" with hpunch
 
     scene location_school_office4_closeup_hscene_space
@@ -1602,7 +1602,7 @@ label okita_pre_hscene_repeatable:
         pause
         player_name "... But if we're going into the {b}Augmented Reality{/b}, won't I feel-"
         show player 81
-        show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
+        show playerdev 1 at Position(xpos=0.32, ypos=0.34)
         player_name "( !!! )" with hpunch
         $ M_okita.set("first time repeatable", False)
     $ M_okita.set("in augmented reality", True)

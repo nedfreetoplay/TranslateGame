@@ -85,8 +85,8 @@ init python:
                 erik_funky = False
                 if game.timer.dayOfWeek() == "Tue" and erik.completed(erik_orcette):
                     orcette_mail_lock = True
-                for event in store.my_events:
-                    event.complete_events()
+                for e in store.my_events:
+                    store.my_events[e].complete_events()
                 
                 Machine.trigger(T_all_sleep)
                 Machine.machine_trigger(T_all_sleep)
@@ -302,4 +302,13 @@ init python:
         @classmethod
         def can_show(cls, name, layer="master"):
             return renpy.can_show(name, layer) or renpy.loadable(name)
+        
+        def copy(self):
+            game = Game()
+            for attribute, value in [(k, v) for k, v in self.__dict__.items() if k not in ["website_address", "CA_FILE"]]:
+                try:
+                    game.__dict__[attribute] = value
+                except KeyError:
+                    pass
+            return game
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

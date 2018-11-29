@@ -18,13 +18,23 @@ init python:
             return render
 
     class CellPhoneGoal():
-        def __init__(self, position, text, picture):
-            self.text = insert_newlines(text, every=30)
-            self.position = position
+        def __init__(self, position, text, picture, goals):
+            text, n = insert_newlines(text, every=30)
+            self.text = text
+            self.num_of_lines = n
+            self.position = (position[0],position[1])
             self.picture_x_offset = 60
             self.picture_y_offset = 5
+            self._pic = picture
             self.picture = im.FactorScale(picture, 0.5)
             self.picture_pos = (position[0]-self.picture_x_offset, position[1]-self.picture_y_offset)
+            self.height = max(n*20, 40)
+            self.goals = goals
+        
+        def sum_heights(self):
+            if len(self.goals) == 0:
+                return 0
+            return sum([g.height for g in self.goals])
         
         def move(self, yamount):
             self.position = (self.position[0], self.position[1]+yamount)
@@ -86,9 +96,9 @@ init python:
                         image = "buttons/cellphone_goals_checkbox.png"
                     state = store.machines[m].get_state()
                     if state.delay > 0:
-                        self.goals.append(CellPhoneGoal((120, 140+i*50), "Maybe I should wait a few days...", image))
+                        self.goals.append(CellPhoneGoal((120, 140+i*50), "Maybe I should wait a few days...", image, self.goals))
                     else:
-                        self.goals.append(CellPhoneGoal((120, 140+i*50), state.description, image))
+                        self.goals.append(CellPhoneGoal((120, 140+i*50), state.description, image, self.goals))
                     i += 1
             self.checkbox = renpy.displayable("buttons/cellphone_goals_checkbox.png")
             self.goals_bg = renpy.displayable("buttons/cellphone_title_goals.png")
@@ -99,7 +109,7 @@ init python:
             render = renpy.render(self._bg, width, height, st, at)
             goals_bg_r = renpy.render(self.goals_bg, width, height, st, at)
             render.blit (goals_bg_r, (45,50))
-            for goal in self.goals:
+            for i, goal in enumerate(self.goals):
                 picture_r = renpy.render(goal.picture, width, height, st, at)
                 goal_r = renpy.render(Text(goal.text, style = "style_cellphone_hints"), width, height, st, at)
                 if 140 <= goal.position[1] <= 440:
@@ -253,7 +263,7 @@ init python:
             if self.current_message is None:
                 message_bg_r = renpy.render(self.message_bg, width, height, st, at)
                 for message in self.messages:
-                    message_r = renpy.render(Text(message.sender + " - " + insert_newlines(message.content_prev, 25), style = "style_cellphone_message"), width, height, st, at)
+                    message_r = renpy.render(Text(message.sender + " - " + insert_newlines(message.content_prev, 25)[0], style = "style_cellphone_message"), width, height, st, at)
                     if 110 <= message.position[1] <= 490:
                         render.blit(message_bg_r, (message.position))
                         render.blit(message_r, (message.position[0]+20, message.position[1]))

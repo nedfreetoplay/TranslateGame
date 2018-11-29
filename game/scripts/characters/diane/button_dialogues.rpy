@@ -930,6 +930,24 @@ label dianes_dialogue_hows_the_baby_pregnancy_1:
 
 label dianes_dialogue_hows_the_baby_pregnancy_2:
     show player 13 at left
+    show diane b_naked a_naked_sides f_normal_talk
+    with dissolve
+    dia "Oh, there's not much to report yet."
+    dia "Unless you're interested in hearing about my morning sickness?"
+    show diane f_normal
+    show player 10
+    player_name "Well, if you want to talk about it we can?"
+    show player 13
+    show diane f_laugh
+    dia "Haha, oh goodness no!"
+    show diane f_normal_talk
+    dia "I appreciate you asking though."
+    dia "Thanks, {b}[firstname]{/b}."
+    show diane f_normal
+    return
+
+label dianes_dialogue_hows_the_baby_pregnancy_3:
+    show player 13 at left
     show diane f_normal_talk b_naked a_naked_sides
     with dissolve
     dia "Heh, my tits are so swollen!"
@@ -968,7 +986,7 @@ label dianes_dialogue_hows_the_baby_pregnancy_2:
     show diane f_normal
     return
 
-label dianes_dialogue_hows_the_baby_pregnancy_3:
+label dianes_dialogue_hows_the_baby_pregnancy_4:
     show player 13 at left
     if not M_diane.outfit == "nightgown":
         show diane f_tired_talk b_naked a_touch_belly

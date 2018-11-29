@@ -779,9 +779,9 @@ init python:
             except IndexError:
                 _loc = self._default_locations[game.timer._dow][game.timer._tod - 1]
             if game.in_shower is not None:
-                if game.in_shower._name == self._name and (_loc in L_home.get_all_children() and (_loc_self is None or _loc_self in L_home.get_all_children())):
+                if game.in_shower._name == self._name and (_loc in L_home.get_all_children() and (_loc_self is None)):
                     _loc = L_home_shower
-            return _loc or _loc_self
+            return _loc_self or _loc
         
         @property
         def forced(self):

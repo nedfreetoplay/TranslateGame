@@ -127,6 +127,9 @@ init python:
             name = self.formatted_name
             if game.timer.is_night() and self.name in ["Lair"]:
                 name = "Town Map"
+                name = name.lower()
+                name = name.replace("'", "")
+                name = name.replace(" ", "_")
                 ui = True
             if ui:
                 renpy.show_screen(name)
@@ -454,9 +457,9 @@ label INIT_LOCATIONS:
         L_cave = Location("Cave", background="forest_cave", parents=L_waterfall)
 
 
-        L_gym_front = Location("Gym Front", unlock_popup="unlock3", background="training_front", parents=L_map, locked=True)
-        L_gym = Location("Gym", background="training", parents=L_gym_front)
-        L_yoga_room = Location("Yoga Room", background="yoga", parents=L_gym)
+        L_gym_front = Location("Gym Front", unlock_popup="unlock3", background="gym_front", parents=L_map, locked=True)
+        L_gym = Location("Gym", background="gym", parents=L_gym_front)
+        L_yoga_room = Location("Yoga Room", background="gym_yoga", parents=L_gym)
 
 
         L_mall = Location("Mall", unlock_popup="unlock16", background="mall", parents=L_map, locked=True)

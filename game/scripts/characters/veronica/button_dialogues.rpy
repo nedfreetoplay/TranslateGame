@@ -40,6 +40,7 @@ label veronica_dialogue_pre_d20:
 
 label veronica_dialogue_vegatable_stock:
     show player 2
+    show vero
     player_name "I'm looking for {b}Vegetable Stock{/b}. Do you guys carry it?"
     show player 1
     show vero f_normal_talk

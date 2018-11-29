@@ -1,6 +1,21 @@
 init python:
-    class Event:
+    def events_reset():
+        store.my_events = {}
+        for e in Event_Queue.get_instances():
+            store.my_events[e.name] = e
+            e = e.name
+            if e in store.temp_events:
+                for events_tmp in store.temp_events[e]._events:
+                    for events in Event.get_instances():
+                        if events._name == events_tmp._name:
+                            store.my_events[e]._events.append(events)
+                            events._completed = events_tmp._completed
+                            events._done = events_tmp._done
+        return
+
+    class Event(KeepRefs):
         def __init__(self, name, completed = False, hint = ""):
+            super(Event, self).__init__()
             self._name = name
             self._completed = completed
             self._done = False
@@ -29,7 +44,7 @@ init python:
         def __init__(self, name):
             super(Event_Queue, self).__init__()
             self._events = []
-            self.name = name
+            self.name = name.lower()
             pass
         
         def __repr__(self):
@@ -70,6 +85,7 @@ init python:
 
 label define_events:
     python:
+        sister = Event_Queue("sister")
 
         sis_panty01 = Event("Panties", hint = "This is a hint to test out the new hint system ingame!")
         sis_shower_cuddle01 = Event("Shower/Cuddle 01", hint = "This is a hint to test out the new hint system ingame!")
@@ -96,11 +112,13 @@ label define_events:
         sis_shower_cuddle05 = Event("Shower/Cuddle 05", hint = "This is a hint to test out the new hint system ingame!")
         sis_webcam04 = Event("Cam Show 04", hint = "This is a hint to test out the new hint system ingame!")
 
+        Roz = Event_Queue("Roz")
 
         roz_intro = Event("GILF Alert", hint = "This is a hint to test out the new hint system ingame!")
         roz_trick = Event("You Shouldn't Make A Granny Walk So Much", hint = "This is a hint to test out the new hint system ingame!")
         roz_storage = Event("We Need That GILF Card", hint = "This is a hint to test out the new hint system ingame!")
 
+        erik = Event_Queue("erik")
 
         erik_intro = Event("Brother From Another Mother", hint = "This is a hint to test out the new hint system ingame!")
         erik_favor = Event("Asking A Brother For A Favor Part 1", hint = "This is a hint to test out the new hint system ingame!")
@@ -126,6 +144,7 @@ label define_events:
         erik_sex_ed = Event("Reasons Why Sex Ed Is Important", hint = "This is a hint to test out the new hint system ingame!")
         erik_find_gf = Event("Help A Brother Out", hint = "This is a hint to test out the new hint system ingame!")
 
+        mrsj = Event_Queue("mrsj")
 
         mrsj_intro = Event("MILF Next Door", hint = "This is a hint to test out the new hint system ingame!")
         mrsj_yoga_intro = Event("Who's That Milf There", hint = "This is a hint to test out the new hint system ingame!")
@@ -138,6 +157,7 @@ label define_events:
         mrsj_3some = Event("Sex Ed Just Got Practical", hint = "This is a hint to test out the new hint system ingame!")
         mrsj_private_yoga = Event("Private Yoga Lessons With An Expert", hint = "This is a hint to test out the new hint system ingame!")
 
+        June = Event_Queue("June")
 
         june_intro = Event("June, The Gamer Girl Part 1", hint = "This is a hint to test out the new hint system ingame!")
         june_intro_2 = Event("June, The Gamer Girl Part 2", hint = "This is a hint to test out the new hint system ingame!")

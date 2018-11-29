@@ -15,16 +15,12 @@ init python:
             self.machine = machine
         
         def spin(self):
-            
-            angles = [random.randint(30,330) for i in xrange(100-self.pregnancy_chance)]
             self.is_spinning = True
-            results = []
-            for speed in xrange(30,71):
-                results.append(((sum(range(speed)))%360, speed))
-            choice_list_other = [r[1] for r in results if r[0] in angles]
-            choice_list = [r[1] for r in results if r[0] == 0]
-            choice_list.extend(choice_list_other)
-            self.speed = random.choice(choice_list)
+            true_angles, false_angles = get_angles_speeds()
+            if random.randint(1,100) <= self.pregnancy_chance: 
+                self.angle, self.speed = random.choice(true_angles)
+            else:
+                self.angle, self.speed = random.choice(false_angles)
             pass
         
         def render(self, width, height, st, at):
@@ -37,8 +33,9 @@ init python:
                 if self.angle >= 345 or self.angle <= 15:
                     self.machine.pregnancy.is_pregnant = True
                     player.counter_pregnancy_tries = 0
+                    renpy.call("pregnancy_won", self.return_label)
                 player.counter_pregnancy_tries += 1
-                renpy.jump(self.return_label)
+                renpy.call("pregnancy_lost", self.return_label)
             if self.speed == 0 and self.is_spinning:
                 self.delay = 1
             

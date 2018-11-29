@@ -49,7 +49,53 @@ init -1 python:
     style.menu_choice.size = 16
     style.menu_choice.drop_shadow = [(1, 1)]
 
+init -2:
+    style inactive_menu_choice:
+        color "#777777"
+        drop_shadow [(1,1)]
+        size 16
+        text_align 0.5
+        xalign 0.5
+        yalign 0.5
 
+    style menu_window is default
+
+    style menu_choice is button_text clear
+
+    style menu_choice_button is button:
+        xminimum int(config.screen_width * 0.30)
+        xmaximum int(config.screen_width * 0.30)
+        xpadding 3
+        ypadding 3
+
+    style mm_button:
+        size_group "mm"
+
+    style file_picker_frame is menu_frame
+    style file_picker_nav_button is small_button
+    style file_picker_nav_button_text is small_button_text
+    style file_picker_button is large_button
+    style file_picker_text is large_button_text
+
+    style quick_button is default:
+        background None
+        xpadding 7
+        ypadding -2
+
+    style quick_button_text is default:
+        size 20
+        idle_color "#8888"
+        hover_color "#ccc"
+        selected_idle_color "#cc08"
+        selected_hover_color "#cc0"
+        insensitive_color "#4448"
+
+    style yesno_button:
+        size_group "yesno"
+
+    style yesno_label_text:
+        text_align 0.5
+        layout "subtitle"
 
 style default:
     font "fonts/DejaVuSans.ttf"

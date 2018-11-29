@@ -100,11 +100,15 @@ init -2 python:
             books.append("breeding_guide")
         return books
 
-    def insert_newlines(string, every=30):
+    def splice_string(string, every=30):
         lines = []
         for i in xrange(0, len(string), every):
             lines.append(string[i:i+every])
         return '\n'.join(lines)
+
+    def insert_newlines(string, every=30):
+        lines = textwrap.wrap(string, every)
+        return "\n".join(lines), len(lines)
 
     def text_identity(text):
         return text
@@ -136,4 +140,20 @@ init -2 python:
             return string
         else:
             return string
+
+    def get_angles_speeds(angle_width=30, angle_range=xrange(30,330), speed_range=xrange(30,71)):
+        new_angle = lambda a,s:(a+s)%360
+        angle_width /= 2.0
+        true_angles = []
+        false_angles = []
+        for initial_angle, initial_speed in [(a,s) for a in angle_range for s in speed_range]:
+            angle, speed = initial_angle, initial_speed
+            while speed > 0:
+                angle = new_angle(angle, speed)
+                speed -= 1
+            if angle>(360-angle_width) or a<angle_width:
+                true_angles.append((initial_angle, initial_speed))
+            else:
+                false_angles.append((initial_angle, initial_speed))
+        return true_angles, false_angles
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

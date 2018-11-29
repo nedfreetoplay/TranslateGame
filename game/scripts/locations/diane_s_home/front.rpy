@@ -142,7 +142,7 @@ label diane_house_lock_check(location):
                 call expression game.dialog_select("dianelobby_locked")
 
             elif location is L_diane_shed:
-                if M_dewitt.is_state(S_dewitt_shed_get_paint) and not player.has_item("paint"):
+                if M_dewitt.is_state(S_dewitt_shed_get_paint):
                     $ game.main(location = location)
                 else:
                     jump locked_shed_dialogue

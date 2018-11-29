@@ -58,7 +58,7 @@ label dianes_garden_diane_find_carpenter:
     show diane f_normal_talk
     dia "I would really appreciate it, handsome."
     hide player
-    show diane kiss
+    show diane kiss_shirtless
     with dissolve
     pause
     hide diane

@@ -190,7 +190,7 @@ screen xray_scr:
         action [
             If(
                 anim_toggle,
-                SetVariable("anim_toggle", False),
+                [SetVariable("anim_toggle", False),SetVariable("animated", False)],
                 SetVariable("anim_toggle", True)
             ),
             Return

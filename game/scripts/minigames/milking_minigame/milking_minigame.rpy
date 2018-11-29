@@ -36,6 +36,7 @@ label milking_game_pre:
             show diane f_sad
             player_name "I'll do it next time!"
             player_name "Take care, {b}Diane{/b}!"
+            $ game.timer.tick()
     $ game.main()
 
 label milking_game_pre_after_sex:
@@ -88,6 +89,7 @@ label milking_game_pre_after_sex:
             show diane f_sad
             player_name "I'll do it next time!"
             player_name "Take care, {b}Diane{/b}!"
+            $ game.timer.tick()
     $ game.main()
 
 label milking_minigame_done(earnings):
@@ -190,7 +192,7 @@ label milking_minigame_done(earnings):
                 show player 14
             player_name "T-thanks!"
             hide player
-            if M_diane.get("sex_pre_milking"):
+            if M_diane.get("sex_pre_milking") or M_diane.outfit == "cow":
                 show diane kiss_both_naked at Position (xoffset=-217)
             else:
                 show diane kiss_shirtless

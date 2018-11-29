@@ -146,6 +146,6 @@ init python:
                     self.on_event(self._pizza_button_3)
             pass
 
-screen pizza_minigame:
-    add PizzaMinigame(player.transport_level)
+screen pizza_minigame(transport_level):
+    add PizzaMinigame(transport_level)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

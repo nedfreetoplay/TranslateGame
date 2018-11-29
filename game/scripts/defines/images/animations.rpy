@@ -1722,32 +1722,4 @@ image principal 22_23f:
     Transform("principal 23f")
     pause .4
     repeat
-
-
-
-transform flip:
-    xzoom -1
-
-transform unflip:
-    xzoom 1
-
-transform lright:
-    unflip
-    xcenter .5
-
-transform lcenter:
-    unflip
-    xcenter .25
-
-transform lleft:
-    unflip
-    xcenter 0
-
-transform fliplright:
-    flip
-    xcenter 1.0
-
-transform fliplleft:
-    flip
-    xcenter .5
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

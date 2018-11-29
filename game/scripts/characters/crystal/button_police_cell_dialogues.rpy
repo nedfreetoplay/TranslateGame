@@ -7,109 +7,109 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show player 5f at right
     show roxxy 3d at Position (xpos=700)
     with dissolve
-    crys "Это моя дочка?"
-    crys "Что вы все делаете здесь?"
+    crys "Is that mah daughter?"
+    crys "What are ya'll doing here?"
     show crystal jail 1
     show player 11f
     show roxxy 3
-    rox "Ты реально накосячила в этот раз {b}Мама{/b}!"
-    rox "Они лишат нас трейлера и они говорили о том что отправят тебя в тюрьму!"
+    rox "You really screwed up this time {b}Mom{/b}!"
+    rox "They foreclosed the trailer and they're talking about sending you to prison!"
     show roxxy 3d
     show crystal jail 2
-    crys "Пффф, эти свиньи ничего не сделают."
-    crys "Они только болтать горазды!"
+    crys "Pfft, these pigs aint gonna do nuthin'."
+    crys "They're all talk!"
     show crystal jail 1
     show player 5f
     show roxxy 3c
-    rox "{b}Мама{/b} это не шутка!"
-    rox "Они нашли полкило мета!"
-    rox "Тебя упекут в тюрму надолго!"
+    rox "{b}Mom{/b} this isn't a joke!"
+    rox "They found a pound of Meth!"
+    rox "You're going to get sent away for a long time!"
     show roxxy 3d
     show crystal jail 2
-    crys "Фуф, по крайней мере они не нашли большую заначку!"
+    crys "Phew, at least they didn't find the big stash!"
     show crystal jail 1
     show player 11f
     player_name "!!!" with hpunch
     show player 10f
-    player_name "Ты хочешь сказать что их несколько?!"
+    player_name "You mean there's more?!"
     show player 5f
     show crystal jail 2
-    crys "Хм?"
-    crys "Я не знаю о чем ты говоришь..."
-    crys "Почему ты приводишь своего парня всегда сюда?!"
-    crys "Это семейный бизнес и это личное!"
-    crys "Разве я тебя этому не учила?"
+    crys "Huh?"
+    crys "I dunno what yer talkin' about..."
+    crys "Why'd you bring your boyfriend down here anyways?!"
+    crys "This is family business and it's personal!"
+    crys "Didn't I teach you that?"
     show crystal jail 3
     show roxxy 30
-    rox "Он не мой парен-"
+    rox "He's not my boyfrien-"
     show roxxy 3d
     rox "..."
     show roxxy 3c
-    rox "Не могла бы ты сосредоточиться!"
-    rox "Я, черт побери, знаю что все это принадлежит этому идиоту {b}Клайду{/b}!"
+    rox "Would you focus please!"
+    rox "I know damn well that stuff all belongs to that idiot {b}Clyde{/b}!"
     show roxxy 3b
     show crystal jail 2
-    crys "Что ты делаешь?!"
-    crys "Закрой свой рот!"
+    crys "What are you doin'?!"
+    crys "Shut yer mouth!"
     show crystal jail 3
     show roxxy 3c
-    rox "Почему ты берешь всю вину на себя?"
-    rox "Это его косяк,не наш..."
+    rox "Why are you taking the fall for him?"
+    rox "This is his mess, not ours..."
     show roxxy 3d
     show crystal jail 2
-    crys "Он семья, {b}Роксана{/b}!"
-    crys "... и мы заботимся о семье!"
-    crys "Сейчас, Я знаю что я научила тебя этому!"
+    crys "He's family, {b}Roxanne{/b}!"
+    crys "... And we take care of family!"
+    crys "Now, I know I taught you that!"
     show crystal jail 1
     show roxxy 30
-    rox "Это тупо..."
+    rox "This is stupid..."
     show roxxy 29
     show crystal jail 2
-    crys "Я сказала твоей {b}Тете{/b} что я заботилась о нем пока он быз здесь."
-    crys "Я не хочу смотреть как его увезут в тюрму."
+    crys "I told your {b}Auntie{/b} I'd look after him while he was up here."
+    crys "I ain't about to watch him get hauled off to prison."
     show crystal jail 1
     show roxxy 3c
-    rox "... И что я должна делать?!"
-    rox "Если ты будешь признана виновной они изымут наш трейлер!"
-    rox "Я буду обязана спать на улице среди деревьев?"
+    rox "... And what am I supposed to do?!"
+    rox "If you get convicted they're gonna reposess the trailer!"
+    rox "Am I supposed to just sleep outside in the woods?"
     show roxxy 3b
     show crystal jail 2
-    crys "Не будь дурой."
-    crys "Ты можешь пойти и пожить пока с {b}Теткой и кузенами{/b}."
+    crys "Don't be stupid."
+    crys "You can just go on down to live with your {b}Auntie and cousins{/b}."
     show crystal jail 1
     show roxxy 3
-    rox "Они живут в старой хижине, у черта на куличиках!"
+    rox "They live in an old run down cabin, in the middle of nowhere!"
     show roxxy 3d
     show crystal jail 2
-    crys "... и так?"
+    crys "... So?"
     show crystal jail 1
     show roxxy 3
-    rox "Так что, ни хрена!"
-    rox "Я пойду и расскажу правду и верну трейлер назад."
+    rox "So, no fucking way!"
+    rox "I'm gonna turn that jackass in myself and get the trailer back."
     show roxxy 3d
     show crystal jail 4
-    crys "{b}*Вздох*{/b}!"
+    crys "{b}*Gasp*{/b}!"
     show crystal jail 2
-    crys "Ты этого не сделаешь!"
-    crys "Я не растила проклятую крысу!"
-    crys "Сейчас я скажу тебе что, {b}Клайд{/b} эта семья и ты не должна стучать на свою семью!"
+    crys "You'll do no such thing!"
+    crys "I didn't raise me no damned rat!"
+    crys "Now I dun told you, {b}Clyde{/b} is family and you don't snitch on family!"
     show crystal jail 3
     show roxxy 3b
     rox "..."
     show crystal jail 2
-    crys "Ты меня услышала девченка?!"
+    crys "You hear me girl?!"
     show crystal jail 3
     rox "..."
     show roxxy 3c
-    rox "Да, мы увидим..."
-    rox "Давай, {b}[firstname]{/b}. Пошли отсюда."
-    rox "Я немогу смотреть на неё сейчас смотреть."
+    rox "Yeah, we'll see..."
+    rox "C'mon, {b}[firstname]{/b}. Let's get outta here."
+    rox "I can't stand to look at her right now."
     hide roxxy with dissolve
     show player 5 with dissolve
     player_name "..."
     show crystal jail 2
-    crys "Я не шучу, {b}Роксана{/b}!"
-    crys "Если ты настукачичшь ты можешь забыть о том чтобы жить со мной!"
+    crys "I'm not joking, {b}Roxanne{/b}!"
+    crys "If you snitch you can forget about livin' with me!"
     show crystal jail 3
     scene black with fade
     pause
@@ -119,114 +119,114 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show roxxy 3df at Position (xpos=400)
     show earl 2 at right
     with dissolve
-    ear "Что ж, у тебя есть немного везения чтобы убедить ее сказать правду об этой неразберихе?"
+    ear "Well, did you have any luck convincing her to tell the truth about this mess?"
     show earl 1
     show roxxy 29f
     rox "..."
     show player 10
-    player_name "Нет, сэр."
+    player_name "No, sir."
     show player 5
     show earl 2
-    ear "Черт, ну и позорище..."
+    ear "That's a damn shame..."
     show earl 1
     player_name "..."
     show roxxy 3cf
-    rox "Что если я возьму всю ответственность за все это?"
+    rox "What if I turned in the one responsible for all this?"
     show roxxy 3df
     show earl 2
-    ear "Ты получила информацию для меня?"
+    ear "You got information for me?"
     show earl 1
     show player 11
     show roxxy 3cf
-    rox "Я этого не говорила!"
-    rox "Я просто спросила... \"Что если.\""
+    rox "I didn't say that!"
+    rox "I'm just asking... \"What if.\""
     show roxxy 3bf
     show player 5
     show earl 2
-    ear "Хмм..."
-    ear "Что ж, если бы у тебя была информация о реальном виновнике."
-    ear "... И доказательством того что твоя {b}мать{/b} не участвовала в создании или распространении наркотиков."
-    ear "Я могу сделать так чтобы все обвинения были сняты и свелись к простому хранению хранению наркотиков."
+    ear "Hmm..."
+    ear "Well, if you did have information about the real culprit."
+    ear "... And proof that your {b}mother{/b} wasn't involved in the creation or distribution of the drugs."
+    ear "I could get the charges dropped down to simple posession."
     show roxxy 3df
-    ear "Но это попрежнему отсанется год в тюрьме и огромный штраф."
+    ear "That's still a year in prison and a hefty fine."
     show earl 1
     show roxxy 3bf
     rox "..."
     show roxxy 3cf
-    rox "Что если кто то подбросил наркотики в наш трейлер и она не знала об этом?"
+    rox "What if someone else hid the drugs in our trailer and she didn't know about it?"
     show roxxy 3df
     show earl 2
-    ear "Ох, а вот это интересно..."
-    ear "Если бы ты смогла доказать что она не знала что кто то другой спрятал наркотики в её доме или принудил ее спрятать их против её воли..."
-    ear "... Есть вероятность что она не увидит тюремного заключения вовсе."
+    ear "Oh, now that's interesting..."
+    ear "If you could prove that she was unaware that someone else had hidden drugs in her home or had forced her to hide them against her will..."
+    ear "... It's possible she won't see prison at all."
     show earl 1
     show roxxy 3cf
-    rox "... И трейлер?"
+    rox "... And the trailer?"
     show roxxy 3df
     show earl 2
-    ear "Хмм..."
-    ear "Что ж,если она не останется за решеткой до ей судебного разберательства."
-    ear "В этом случае трейлер следует вернуть в права пользования."
-    ear "Если ты только сможешь заплать за ее залог."
+    ear "Hmm..."
+    ear "Well, she'd have to stay in jail until her trial."
+    ear "In that case the trailer would need to remain foreclosed."
+    ear "Unless you could post her bail money."
     show earl 1
     show player 12
-    player_name "Сколько это будет стоить?"
+    player_name "How much would that be?"
     show player 5
     show earl 2
-    ear "За такое количество наркотиков?"
-    ear "Думаю не меньше чем $50,000..."
+    ear "For this amount of Narcotics?"
+    ear "I'd expect nothing less than $50,000..."
     show earl 1
     show roxxy 2bf
     show player 23
-    player_name "Охренеть!"
+    player_name "Holy crap!"
     show player 12
-    player_name "Это много?"
+    player_name "That much?"
     show player 10
-    player_name "Где мы можем взять столько денег?"
+    player_name "Where would we get that kind of money?"
     show player 5
     show roxxy 14f
     rox "..."
     show earl 2
-    ear "Ну, Я думаю мне лучше вернуться к работе."
-    ear "Мне очень жаль что я ничем немогу вам больше помочь детки..."
+    ear "Well, I'd best get back to work."
+    ear "I'm sorry I can't do more to help you kids out..."
     show earl 1
     show player 10
-    player_name "Спасибо еще раз, Офицер."
+    player_name "Thanks again, Officer."
     show player 5
     hide earl with dissolve
     show player 10
-    player_name "Что ты будешь делать?"
+    player_name "What are you gonna do?"
     show player 5
     show roxxy 33 at center with dissolve
-    rox "... Я не знаю."
-    rox "Я должна обратиться к {b}Клайду{/b} но он не сделает мне ничего хорошего."
-    rox "Мы все равно потеряем трейлер и {b}Мама{/b} отречется от меня."
+    rox "... I dunno."
+    rox "I could turn {b}Clyde{/b} in but that wouldn't really do me much good."
+    rox "We'll still lose the trailer and {b}Mom{/b} will probably disown me."
     show roxxy 32
     player_name "..."
     show roxxy 33
-    rox "Мне только нужно все обдумать какое-то время."
+    rox "I just need to think things over for awhile."
     show roxxy 32
     show player 10
-    player_name "... Тебе нужно место где остановиться? Я уверен что, моя {b}хозяйка дома{/b} будет не против дать тебе поспать на диване столько,сколько это будет необходимо."
+    player_name "... Do you need a place to stay? I'm sure, my {b}Landlady{/b} wouldn't mind letting you crash on the couch for as long as you need."
     show player 5
     show roxxy 33
-    rox "... Нет, спасибо."
-    rox "Я могу остановиться у {b}Бекки{/b} на пару дней."
+    rox "... No, thanks."
+    rox "I can stay at {b}Becca's{/b} place for a few days."
     show roxxy 32
     show player 10
-    player_name "... Отлично."
-    player_name "Я думаю, увидимся в школе тогда?"
+    player_name "... Alright."
+    player_name "I guess, I'll see you at school then?"
     show player 5
     show roxxy 33
-    rox "... Да."
+    rox "... Yeah."
     hide roxxy with dissolve
     player_name "( ... )"
     show player 24
-    player_name "( Бедная, {b}Рокси{/b}. )"
-    player_name "( Я хотел бы что то сделать чтобы помочь ей. )"
+    player_name "( Poor, {b}Roxxy{/b}. )"
+    player_name "( I wish there was something I could do to help her. )"
     show player 90
-    player_name "( ... Может мне стоит {b}поговорить с Клайдом{/b} завтра. )"
-    player_name "( Весь этот беспорядок по его вине, это он во всем виноват в конце концов... )"
+    player_name "( ... Maybe I should {b}speak with Clyde{/b} tomorrow. )"
+    player_name "( This whole mess is his fault after all... )"
     hide player with dissolve
     return
 
@@ -238,16 +238,16 @@ label crystal_police_cell_dialogue_default:
     pause .5
     show player 5f at right
     with dissolve
-    crys "Тебе лучше держать рот на замке обо всем это!"
-    crys "Ты меня слышишь?!"
+    crys "You best be keepin' your mouth shut about all this!"
+    crys "Ya hear me?!"
     show crystal jail 3
     show player 10f
-    player_name "Д-даа, мэм."
+    player_name "Y-yes, ma'am."
     show crystal jail 2
     show player 5f
-    crys "Хорошо."
-    crys "Присмотри за моей дочерью тоже, когда это все случится..."
-    crys "Я не растила ее что бы быть стукачкой!"
+    crys "Good."
+    crys "Keep an eye on my daughter too, while yer at it..."
+    crys "I didn't raise her to be no snitch!"
     show crystal jail 3
     player_name "..."
     return

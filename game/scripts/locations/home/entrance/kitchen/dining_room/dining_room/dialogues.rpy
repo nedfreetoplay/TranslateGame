@@ -182,31 +182,30 @@ label dining_room_sis_breakfast:
     show jenny 47
     jen "She paying you pretty well?"
     show player 321
-    show jenny 88
+    show jenny 48
     player_name "... yeah..."
     show player 322
-    show jenny 86
+    show jenny 47
     jen "How much?"
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "That's kind of private..."
     show player 322
-    show jenny 87
+    show jenny 47
     jen "Is she... paying you in any {b}other{/b} ways?"
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "What?"
     show player 322
-    show jenny 87
+    show jenny 47
     jen "Come on, I know you've heard the stories about {b}Diane{/b}!"
     show player 320
-    show jenny 86
     jen "She likes to give... hugs and kisses to her helpers."
     show player 321
     show jenny 48
     player_name "I don't get it."
     show player 322
-    show jenny 47
+    show jenny 88b
     jen "Gosh, you're so dumb!"
     show jenny 48
     player_name "..."
@@ -214,42 +213,38 @@ label dining_room_sis_breakfast:
     show jenny 47
     jen "Anyway, I was gonna ask you something, now that you're making the big bucks..."
     show player 321
-    show jenny 88
+    show jenny 48
     player_name "...Okay?"
     show player 320
-    show jenny 86
+    show jenny 47
     jen "Can I borrow some {b}money{/b}?"
     show player 321
-    show jenny 88
+    show jenny 48
     player_name "From me?!"
     show player 320
-    show jenny 86
+    show jenny 47
     jen "Well, yeah."
     show player 320
-    show jenny 86
     jen "You said you're getting paid..."
-    show jenny 87
     jen "Plus, I need the money to start something up that will earn me my own money. Get it??"
     show player 322
-    show jenny 86
     jen "Besides, it's not like you have anything to spend it on!"
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "I don't know..."
     player_name "I worked hard for that money, {b}[jen_name]{/b}."
     show player 322
-    show jenny 86
+    show jenny 47
     jen "Look, I'll pay you back one way or another, dummy!"
-    show jenny 87
     jen "You can trust me..."
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "I'll think about it."
     show player 322
-    show jenny 86
+    show jenny 47
     jen "That's fine, come see me when you've made up your mind."
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "Alright..."
     return
 

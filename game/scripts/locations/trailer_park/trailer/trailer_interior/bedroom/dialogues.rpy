@@ -606,7 +606,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     with dissolve
     player_name "Heh, yeah. I'll be careful."
     hide player
-    show roxxy 1ef
+    show roxxy 1kf
     with dissolve
     pause
     crys "Did you see the size of that thing?!"

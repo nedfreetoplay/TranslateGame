@@ -154,14 +154,6 @@ label aunt_button_dialogue:
             call expression game.dialog_select("dianes_dialogue_dump_pump")
             $ game.main()
 
-        "Carpenter." if M_diane.is_state(S_diane_find_carpenter):
-            if M_diane.is_state(S_diane_find_carpenter):
-                call expression game.dialog_select("dianes_dialogue_find_carpenter")
-            else:
-
-                call expression game.dialog_select("dianes_dialogue_carpenter_deal")
-                $ M_diane.trigger(T_diane_informed)
-
         "Cow Suit." if not M_diane.get("breed first time") and L_diane_barn_interior.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_cow_suit")
             call expression game.dialog_select("diane_outfit_change")
@@ -171,7 +163,7 @@ label aunt_button_dialogue:
             call expression game.dialog_select("dianes_dialogue_breeding_session")
             jump diane_sex_breed_start
 
-        "How's the baby?" if M_diane.pregnancy and 0<M_diane.pregnancy.stage<4:
+        "How's the baby?" if M_diane.pregnancy and 1<=M_diane.pregnancy.stage<=4:
             call expression game.dialog_select("dianes_dialogue_hows_the_baby_pregnancy_{}".format(M_diane.pregnancy.stage))
             jump dia_default_dialogue_options
 

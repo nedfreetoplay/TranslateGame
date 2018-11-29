@@ -8,6 +8,10 @@ init -1 python:
     config.font_replacement_map["fonts/ArialBlack.ttf", True, False] = ("fonts/ArialBlack-Bold.ttf", False, False)
     config.font_replacement_map["fonts/ArialBlack.ttf", False, True] = ("fonts/ArialBlack-Oblique.ttf", False, False)
 
+    config.thumbnail_width = 221
+    config.thumbnail_height = 164
+    config.narrator_menu = True
+
     config.debug_sound = True
     config.replay_scope = {"firstname" : persistent.firstname, "jen_char_name" : persistent.jen_char_name, "deb_char_name" : persistent.deb_char_name}
     config.enter_replay_transition = fade
@@ -40,9 +44,9 @@ init -1 python:
         progress_screen = [ 'alt_shift_K_p', 'meta_shift_K_p', 'K_F2' ],
 
         
-        self_voicing = [ 'V', 'alt_K_v'  ],
-        clipboard_voicing = [ 'C', 'alt_shift_K_c' ],
-        debug_voicing = [ 'alt_shift_K_v', 'meta_shift_K_v' ],
+        self_voicing = [ ],
+        clipboard_voicing = [ ],
+        debug_voicing = [ ],
 
         
         rollforward = [ 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ],
@@ -144,6 +148,7 @@ init -1 python:
     config.auto_save_extra_info = "[persistent.firstname] - Day [persistent.last_game_day]"
 
     config.developer = "auto"
+    config.console = config.developer or renpy.variant("mobile")
     config.rollback_enabled = True
     config.screen_width = 1024
     config.screen_height = 768
@@ -179,7 +184,7 @@ init -1 python:
     config.default_afm_time = 10
 
 python early:
-    config.version = "0.17.0"
+    config.version = "0.17.1"
     config.name = "SummertimeSaga"
     config.save_directory = "SummertimeSaga"
 

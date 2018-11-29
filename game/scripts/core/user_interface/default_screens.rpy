@@ -54,27 +54,6 @@ screen choice(items):
             else:
                 text caption style "menu_caption"
 
-init -2:
-    $ config.narrator_menu = True
-    style inactive_menu_choice:
-        color "#777777"
-        drop_shadow [(1,1)]
-        size 16
-        text_align 0.5
-        xalign 0.5
-        yalign 0.5
-
-    style menu_window is default
-
-    style menu_choice is button_text clear
-
-
-    style menu_choice_button is button:
-        xminimum int(config.screen_width * 0.30)
-        xmaximum int(config.screen_width * 0.30)
-        xpadding 3
-        ypadding 3
-
 screen input(prompt):
     window style "input_window":
         has vbox
@@ -129,10 +108,6 @@ screen name_input:
         action Start()
         xpos 726
         ypos 506
-
-transform credit_scroll:
-    xalign 0.0 yalign 0.0
-    linear 20.0 yalign 1.0
 
 screen popup(Image):
     zorder 100
@@ -276,6 +251,7 @@ screen main_menu() tag menu:
     add "backgrounds/menu_menu.jpg"
     add "cloud_animation" xpos 600 ypos 65
     add SnowBlossom(Animation("buttons/leaf01.png", 0.15, "buttons/leaf02.png", 0.15))
+
     imagemap:
 
         ground "backgrounds/menu_menu_overlay.png"
@@ -292,10 +268,16 @@ screen main_menu() tag menu:
         hotspot ( 730, 554, 175, 48) action Quit(confirm = True) hovered Show("gui_tooltip", my_picture = "buttons/tooltip_05.png", my_tt_xpos=0, my_tt_ypos=0) unhovered Hide("gui_tooltip")
         text "[config.version] changelog" xalign 0.9 yalign 0.85
         hotspot (800, 610,175, 48) action [Hide("main_menu"), ShowMenu("changelog"), Hide("gui_tooltip")]
+    if renpy.variant("mobile") and persistent.display_android_text:
+        side "tl":
+            textbutton "For an optimal experience,\nplease install the SwiftKey keyboard." action SetField(persistent, "display_android_text", False) background None text_size 10 text_color "#FEFEFE"
 
-init -2:
-    style mm_button:
-        size_group "mm"
+    imagebutton:
+        focus_mask True
+        align 0.1, 0.98
+        idle "buttons/clear_persistent.png"
+        hover HoverImage("buttons/clear_persistent.png")
+        action ClearPersistent()
 
 screen navigation() tag menu:
     imagemap:
@@ -364,13 +346,6 @@ screen file_picker():
                     text "[file_name]. [file_time!t]\n[save_name!t]"
 
                     key "save_delete" action FileDelete(i)
-
-init -2:
-    style file_picker_frame is menu_frame
-    style file_picker_nav_button is small_button
-    style file_picker_nav_button_text is small_button_text
-    style file_picker_button is large_button
-    style file_picker_text is large_button_text
 
 screen preferences() tag menu:
     $ autosaving_enabled = persistent.autosaving_enabled
@@ -444,24 +419,24 @@ screen save() tag menu:
         hover HoverImage("backgrounds/menu_saving01.jpg")
         alpha False
 
-        use load_save_page_buttons(FileCurrentPage())
-
-        hotspot (133, 275, 225, 168) hovered Show("load_save_slot_description", slot = 1) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(1), slot = 1):
-            use load_save_slot(1)
-        hotspot (400, 275, 225, 168) hovered Show("load_save_slot_description", slot = 2) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(2), slot = 2):
-            use load_save_slot(2)
-        hotspot (668, 275, 225, 168) hovered Show("load_save_slot_description", slot = 3) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(3), slot = 3):
-            use load_save_slot(3)
-        hotspot (133, 468, 225, 168) hovered Show("load_save_slot_description", slot = 4) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(4), slot = 4):
-            use load_save_slot(4)
-        hotspot (400, 468, 225, 168) hovered Show("load_save_slot_description", slot = 5) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(5), slot = 5):
-            use load_save_slot(5)
-        hotspot (668, 468, 225, 168) hovered Show("load_save_slot_description", slot = 6) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(6), slot = 6):
-            use load_save_slot(6)
+        use load_save_page_buttons(FileCurrentPage(), "save")
+        if not FileCurrentPage() == "auto":
+            hotspot (133, 275, 225, 168) hovered Show("load_save_slot_description", slot = 1) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(1), slot = 1):
+                use load_save_slot(1)
+            hotspot (400, 275, 225, 168) hovered Show("load_save_slot_description", slot = 2) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(2), slot = 2):
+                use load_save_slot(2)
+            hotspot (668, 275, 225, 168) hovered Show("load_save_slot_description", slot = 3) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(3), slot = 3):
+                use load_save_slot(3)
+            hotspot (133, 468, 225, 168) hovered Show("load_save_slot_description", slot = 4) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(4), slot = 4):
+                use load_save_slot(4)
+            hotspot (400, 468, 225, 168) hovered Show("load_save_slot_description", slot = 5) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(5), slot = 5):
+                use load_save_slot(5)
+            hotspot (668, 468, 225, 168) hovered Show("load_save_slot_description", slot = 6) unhovered Hide("load_save_slot_description") action Hide("load_save_slot_description"), Function(clearSaveName), Show("set_save_description", file_save = FileSave(6), slot = 6):
+                use load_save_slot(6)
 
 screen set_save_description(file_save, slot) tag save:
     python:
-        if FileSaveName(slot) == "":
+        if FileSaveName(slot) == "" or " - Day " in FileSaveName(slot):
             store.save_name = "{} - Day {}".format(store.firstname, game.timer._game_day)
         else:
             store.save_name = FileSaveName(slot)
@@ -469,12 +444,12 @@ screen set_save_description(file_save, slot) tag save:
     key "mouseup_3" action [file_save, Hide("set_save_description")]
     imagebutton:
         idle "backgrounds/menu_ground.png"
-        action file_save, Hide("set_save_description")
+        action If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")
     add "boxes/popup_name_save.png" at truecenter
     text "{b}Give this save a description:{/b}" xalign 0.5 yalign 0.415
     add Input(size = 20, color = "#FFFFFF", default = store.save_name, changed = save_description, length = 35, xpos = 300, ypos = 353, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
-    key "K_RETURN" action [file_save, Hide("set_save_description")]
-    imagebutton idle "buttons/menu_ok.png" hover HoverImage("buttons/menu_ok.png") action [file_save, Hide("set_save_description")] xalign 0.5 yalign 0.57
+    key "K_RETURN" action [If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")]
+    imagebutton idle "buttons/menu_ok.png" hover HoverImage("buttons/menu_ok.png") action [If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")] xalign 0.5 yalign 0.57
 
 screen load() tag menu:
     imagemap:
@@ -483,7 +458,7 @@ screen load() tag menu:
         hover HoverImage("backgrounds/menu_loading01.jpg")
         alpha False
 
-        use load_save_page_buttons(FileCurrentPage())
+        use load_save_page_buttons(FileCurrentPage(), "load")
 
         hotspot (133, 275, 225, 168) hovered Show("load_save_slot_description", slot = 1) unhovered Hide("load_save_slot_description") action FileLoad(1):
             use load_save_slot(1)
@@ -498,13 +473,14 @@ screen load() tag menu:
         hotspot (668, 468, 225, 168) hovered Show("load_save_slot_description", slot = 6) unhovered Hide("load_save_slot_description") action FileLoad(6):
             use load_save_slot(6)
 
-screen load_save_page_buttons(load_save_page) tag save:
+screen load_save_page_buttons(load_save_page, load_or_save) tag save:
     if load_save_page in ["auto", "quick", "1", "2"]:
         $ load_save_page = 3
     $ load_save_page = int(load_save_page)
 
-    hotspot (289, 208, 38, 37) clicked FilePage("auto"):
-        use load_save_page_number((289, 208, 38, 37), "auto")
+    if load_or_save == "load":
+        hotspot (289, 208, 38, 37) clicked FilePage("auto"):
+            use load_save_page_number((289, 208, 38, 37), "auto")
     hotspot (348, 208, 38, 37) clicked FilePage("quick"):
         use load_save_page_number((348, 208, 38, 37), "quick")
     hotspot (407, 208, 38, 37) clicked FilePage(load_save_page - 2):
@@ -549,10 +525,6 @@ screen load_save_slot_description(slot) tag save:
         $ file_text += "."
     text "{b}[file_text]{/b}" xalign 0.5 yalign 0.92
 
-init -2 python:
-    config.thumbnail_width = 221
-    config.thumbnail_height = 164
-
 screen yesno_prompt(message, yes_action, no_action):
     modal True
 
@@ -595,17 +567,8 @@ screen yesno_prompt(message, yes_action, no_action):
         text "You've spent [time_spent_playing_string] eating cookies..." xalign 0.5 yalign 0.5
 
     text "{a=http://www.patreon.com/summertimesaga}http://www.patreon.com/summertimesaga{/a}" xalign 0.5 yalign 0.855
-
-
     key "game_menu" action no_action
 
-init -2:
-    style yesno_button:
-        size_group "yesno"
-
-    style yesno_label_text:
-        text_align 0.5
-        layout "subtitle"
 
 screen gui_tooltip:
     add my_picture xpos my_tt_xpos ypos my_tt_ypos
@@ -624,20 +587,6 @@ screen quick_menu():
         textbutton _("Skip") action Skip()
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Prefs") action ShowMenu("preferences")
-
-init -2:
-    style quick_button is default:
-        background None
-        xpadding 7
-        ypadding -2
-
-    style quick_button_text is default:
-        size 20
-        idle_color "#8888"
-        hover_color "#ccc"
-        selected_idle_color "#cc08"
-        selected_hover_color "#cc0"
-        insensitive_color "#4448"
 
 screen popup_unfinished:
     imagebutton:
@@ -691,7 +640,7 @@ screen sex_xray_anim_buttons:
         action [
             If(
                 anim_toggle,
-                SetVariable("anim_toggle", False),
+                [SetVariable("anim_toggle", False),SetVariable("animated", False)],
                 SetVariable("anim_toggle", True)
             ),
             Return

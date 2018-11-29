@@ -277,6 +277,7 @@ label diane_repeatable_breastfeed:
 label diane_cucumber_start:
     if store._in_replay is not None:
         scene expression "backgrounds/location_diane_shed_hay_stack.jpg"
+        $ M_diane.is_naked = True
     $ animated = True
     $ anim_toggle = True
     $ M_diane.set('sex speed', .4)

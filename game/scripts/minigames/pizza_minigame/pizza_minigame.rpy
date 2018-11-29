@@ -6,7 +6,17 @@ label pizza_minigame:
         hide player with dissolve
         jump pizza_interior_dialogue
     $ pizza_earnings = 0
-    call screen pizza_minigame
+    if player.transport_level > 1:
+        menu:
+            "Use the bike":
+                call screen pizza_minigame(1)
+            "Use the scooter" if player.transport_level>1:
+                call screen pizza_minigame(2)
+            "Use the small car" if player.transport_level>2:
+                call screen pizza_minigame(3)
+            "Use the fast car" if player.transport_level>3:
+                call screen pizza_minigame(4)
+    call screen pizza_minigame(1)
 
 label pizza_delivered_fail:
     scene pizza_behind_c with None

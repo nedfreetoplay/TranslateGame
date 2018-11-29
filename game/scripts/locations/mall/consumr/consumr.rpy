@@ -1,6 +1,6 @@
 label consumr:
     $ player.go_to(L_consumr)
-    if M_okita.is_state(S_okita_get_ingredients):
+    if M_okita.is_state(S_okita_get_ingredients) and not player.has_item("chicken_stock"):
         call expression game.dialog_select("consumr_okita_get_ingredients")
 
     elif M_diane.is_state(S_diane_go_to_consumr):
@@ -16,5 +16,22 @@ label consumr:
         if player.has_item("milkjug"):
             jump expression game.dialog_select("consumr_diane_get_milk_jug_bought")
         $ player.get_money(300)
+    $ game.main()
+
+label diane_get_bug_spray_dialogue:
+    if player.has_item("annihilator") and M_diane.is_state(S_diane_get_bug_spray):
+        hide screen consumr
+        jump consumr_diane_buy_bug_spray
+    $ game.main()
+
+label diane_get_milk_jug_dialogue:
+    if player.has_item("milkjug") and M_diane.is_state(S_diane_buy_milk_jug):
+        hide screen consumr
+        jump consumr_diane_get_milk_jug_bought
+    $ game.main()
+
+label get_bike_dialogue:
+    if player.has_item("bike"):
+        $ player.upgrade_transport(1)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

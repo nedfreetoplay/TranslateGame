@@ -216,15 +216,14 @@ label dianes_kitchen_diane_clean_garden_report:
     show diane lingerie_kiss
     with dissolve
     dia "You're so sweet!"
-    $ M_diane.is_naked = 1
     show player 13 at left
-    show diane b_lingerie a_naked_sides f_smirk_talk
+    show diane b_lingerie a_lingerie_sides f_smirk_talk
     with dissolve
     dia "Thank you, handsome!"
     show diane f_smirk
     player_name "..."
     show diane f_smirk_talk
-    dia "I should finished getting dressed."
+    dia "I should finish getting dressed."
     dia "You wanna go with me to pick up the {b}pesticide{/b}?"
     show diane f_smirk
     player_name "Y-yeah, okay."
@@ -236,7 +235,6 @@ label dianes_kitchen_diane_clean_garden_report:
     hide player
     hide diane
     with dissolve
-    $ M_diane.is_naked = 0
     scene expression "backgrounds/location_diane_kitchen_closeup.jpg"
     show player 13f at right
     with dissolve

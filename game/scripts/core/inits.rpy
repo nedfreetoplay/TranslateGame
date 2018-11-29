@@ -78,10 +78,10 @@ label INIT_GAME:
 
 label INIT_GLOBAL:
     call INIT_LOCATIONS
-    call INIT_FSM
-    call INIT_PMS
     call INIT_INVENTORY_ITEMS
     call INIT_JSONS
     call INIT_GAME
+    call INIT_FSM
+    call INIT_PMS
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
