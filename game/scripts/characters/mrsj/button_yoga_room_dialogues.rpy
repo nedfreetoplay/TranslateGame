@@ -258,7 +258,7 @@ label mrsj_button_yoga_room_dialogue_youre_so_fit:
     mrsjo "Моя {b}попа{/b} все ещё выглядит немного большой..."
     show mrsj 16 at right
     show player 23 at left
-    mrsjo "...И мои {b}сиськи{/b} не похожи на используемые..."
+    mrsjo "...И мои {b}сиськи{/b} не выглядят подтянутыми..."
     player_name "..."
     show player 28 at left
     show mrsj 19 at right
