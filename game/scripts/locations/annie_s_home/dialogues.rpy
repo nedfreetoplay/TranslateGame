@@ -340,76 +340,76 @@ label annie_front_diane_ask_help_annie:
     lucy "Такой милый мальчик..."
     show lucy f_normal
     show player 10
-    player_name "So long as it gets you over to {b}Diane's{/b} as quickly as possible."
+    player_name "До тех пор, пока это не приведет вас к {b}Диане{/b} как можно быстрее."
     show player 5
     show richard f_confused_talk
-    rich "Hmm, I dunno..."
-    rich "I like to make sure the work I do is of the highest quality-"
+    rich "Хмм, Не знаю..."
+    rich "Я хотел бы убедиться, что работа, которую я делаю, имеет высокое качество-"
     show richard f_confused
     show lucy f_normal_talk
-    lucy "Oh, pish posh!"
-    lucy "It's just a couple of toys for the little ones. I'm sure, {b}[firstname]{/b} is more than capable of building toys."
+    lucy "О, дерьмо собачье!"
+    lucy "Это просто пара игрушек для малышей. Я уверена, что {b}[firstname]{/b} более чем способен создавать игрушки."
     show lucy f_normal
     show player 29 with dissolve
-    player_name "Y-yeah, that shouldn't be a problem."
+    player_name "Д-Да, это не должно быть проблемой."
     show player 5 with dissolve
     show lucy f_normal_talk
-    lucy "There, you see!"
-    lucy "Cross this item off your list and go on over to {b}Diane's{/b}!"
+    lucy "Вот, видишь!"
+    lucy "Вычеркни этот пункт из списка и перейди к заданию от {b}Дианы{/b}!"
     show lucy f_normal
     show richard f_confused_talk
-    rich "I..."
+    rich "Я..."
     show richard f_confused
     pause
     show richard f_confused_talk at flip
     show richard at Position (xpos=275)
     with dissolve
-    rich "I suppose, I can get started on the barn while the boy takes a swing at it..."
+    rich "Полагаю, я могу начать работу на амбаре, пока мальчик качается на..."
     show richard f_normal_talk
-    rich "... Nothing's crossed off the list until completion though!"
-    rich "I'll be back to check on those toys later tonight!"
+    rich "... Однако ничего не вычеркнуто из списка до завершения!"
+    rich "Я вернусь, чтобы проверить эти игрушки позже!"
     show richard f_normal
     show lucy f_normal_talk
-    lucy "Sounds fair."
+    lucy "Звучит справедливо."
     show lucy a_dressed_shoo f_laugh with dissolve
-    lucy "Now shoo!"
+    lucy "А теперь Кыш!"
     show lucy f_normal a_dressed_hips with dissolve
     show richard f_normal_talk
-    rich "Tch, hold on!"
-    rich "I've gotta gather my tools..."
+    rich "Ччч, держись!"
+    rich "Мне нужно собрать инструменты..."
     hide richard with dissolve
     show lucy f_normal_talk
-    lucy "Go, go, go!"
+    lucy "Давай, давай, давай!"
     show player 13
-    lucy "Thank goodness you showed up when you did."
+    lucy "Слава богу, ты пришел."
     show lucy f_laugh
-    lucy "He was driving me crazy!"
+    lucy "Он сводит меня с ума!"
     show lucy f_normal
     show player 14
-    player_name "Heh, yeah?"
+    player_name "Хех, да?"
     show player 13
     show lucy f_normal_talk
-    lucy "You're not gonna insist on starting right away are you?"
+    lucy "Ты же не собираешься настаивать на том, чтобы начать прямо сейчас?"
     show lucy f_normal
     show player 10
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 14
-    player_name "Oh, n-no... I'll start whenever is best for you, ma'am."
+    player_name "О, н-нет... Начну когда будет лучше для вас, мэм."
     show player 13
     show lucy f_normal_talk
-    lucy "{b}Lucy{/b}, {b}[firstname]{/b}."
+    lucy "{b}Люси{/b}, {b}[firstname]{/b}."
     show lucy f_normal
     show player 10
-    player_name "Huh?"
+    player_name "А?"
     show player 5
     show lucy f_normal_talk
-    lucy "Call me {b}Lucy{/b}."
+    lucy "Зови меня {b}Люси{/b}."
     show lucy f_normal
     show player 14
-    player_name "O-okay, {b}Lucy{/b}."
+    player_name "Х-хорошо, {b}Люси{/b}."
     show player 13
     show lucy f_normal_talk
-    lucy "I'm gonna let the kids out to play, while the weather is so nice."
+    lucy "Я собираюсь выпустить детей поиграть, пока погода такая хорошая."
     lucy "They can really be a handful when they're cooped up inside all day."
     lucy "You can start on the toys once they wear themselves out."
     show lucy f_laugh
