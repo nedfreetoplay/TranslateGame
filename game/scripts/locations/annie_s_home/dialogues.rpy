@@ -410,27 +410,27 @@ label annie_front_diane_ask_help_annie:
     show player 13
     show lucy f_normal_talk
     lucy "Я собираюсь выпустить детей поиграть, пока погода такая хорошая."
-    lucy "They can really be a handful when they're cooped up inside all day."
-    lucy "You can start on the toys once they wear themselves out."
+    lucy "Они действительно могут быть кучей, когда они заперты внутри весь день."
+    lucy "Вы можете начать с игрушек, которые пришли в негодность."
     show lucy f_laugh
-    lucy "Sound good?"
+    lucy "Звучит хорошо?"
     show lucy f_normal
     show player 14
-    player_name "Sure."
+    player_name "Да."
     show player 13
     show lucy f_normal_talk
-    lucy "Do you like kids?"
+    lucy "Тебе нравятся маленькие дети?"
     show lucy f_normal
     show player 10
-    player_name "Uhh yeah, I guess..."
+    player_name "О, да, наверное..."
     show player 5
     show lucy f_normal_talk
-    lucy "Hehe, well you'd better be sure, if you're gonna stick around."
+    lucy "Хехе, тебе лучше быть уверенным, если ты собираешься остаться."
     show expression "backgrounds/location_annie_cutscene01.jpg"
-    show expression FilteredText("{b}Lucy{/b} wasn't kidding!\nThe toddlers poured forth from the daycare like a locust swarm.\nScreaming, yelling, and hurling toys...\nIt was kind of terrifying!") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("{b}Люси{/b} не пошутила!\nМалыши выливались из яслей, как рой саранчи.\nКричали, вопили и швыряли игрушки...\nЭто было ужасно!") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("All the while {b}Lucy{/b} could hardly contain her happiness.\nShe really did enjoy looking after them and seeing her smile made my day!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Все это время {b}Люси{/b} едва могла сдерживать свое счастье.\nЕй действительно нравилось ухаживать за ними и видеть, как ее улыбка сделала мой день!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -439,38 +439,38 @@ label annie_front_diane_ask_help_annie:
     show player 12 at left
     show lucy b_messy
     with dissolve
-    player_name "Holy crap..."
+    player_name "Срань господня..."
     show player 5
     show lucy f_laugh
-    lucy "Hehe, I know."
-    lucy "Aren't they wonderful?!"
+    lucy "Хе-хе, я знаю."
+    lucy "Разве они не замечательные?!"
     show lucy f_normal
     show player 12
-    player_name "Huh?"
+    player_name "А?"
     show player 29 with dissolve
-    player_name "I mean, yeah... Heh, wonderful!"
+    player_name "В смысле, да... Хех, замечательно!"
     show player 3
     show lucy f_normal_talk
-    lucy "You're really good with them, {b}[firstname]{/b}."
+    lucy "Ты действительно справляешься с ними, {b}[firstname]{/b}."
     show lucy f_normal
     show player 12 with dissolve
-    player_name "Oh, I dunno about that..."
+    player_name "О, я не знаю насчет этого..."
     show player 5
     show lucy f_laugh
-    lucy "I'm serious!"
+    lucy "Я серьезно!"
     show lucy f_normal_talk
-    lucy "It's refreshing to see a young man who's so good with children."
-    lucy "It seems like all of the dads I meet through the daycare can't wait to be rid of their kids."
+    lucy "Приятно видеть молодого человека, который так хорошо ладит с детьми."
+    lucy "Похоже, что все отцы, которых я встречаю в детском саду, не могут дождаться, чтобы избавиться от своих детей."
     show lucy f_normal
     show player 10
-    player_name "Really?"
-    player_name "That's just sad..."
-    player_name "What about {b}Richard{/b}?"
-    player_name "It seems like {b}Anne{/b} idealizes him..."
+    player_name "Правда?"
+    player_name "Это просто печально..."
+    player_name "А как насчет {b}Ричарда{/b}?"
+    player_name "Кажется, {b}Энни{/b} идеализирует его..."
     show player 5
     show lucy f_normal_talk
-    lucy "Hehe well, let's just say he took a very hands off approach to raising {b}Annie{/b}."
-    lucy "His main focus has always been his business."
+    lucy "Хе-хе, ну, скажем так, он взял подход 'руки прочь' к воспитанию {b}Энни{/b}."
+    lucy "Его основным направлением всегда был бизнес."
     show lucy f_normal
     show player 10
     player_name "That seems really unfair to you {b}Lucy{/b}..."
