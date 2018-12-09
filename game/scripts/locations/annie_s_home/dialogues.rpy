@@ -473,42 +473,42 @@ label annie_front_diane_ask_help_annie:
     lucy "Его основным направлением всегда был бизнес."
     show lucy f_normal
     show player 10
-    player_name "That seems really unfair to you {b}Lucy{/b}..."
+    player_name "Это кажется тебе несправедливым, {b}Люси{/b}..."
     show player 5
     show lucy f_normal_talk a_dressed_wave with dissolve
-    lucy "Oh, it's fine."
+    lucy "О, все в порядке."
     show lucy a_dressed_sides with dissolve
-    lucy "{b}Richard{/b} never really wanted kids."
-    lucy "I knew what I was getting into when I convinced him to have {b}Annie{/b}."
-    lucy "I worry about how it affected her though."
-    lucy "She'll do anything to gain her father's approval."
+    lucy "{b}Ричард{/b} никогда по-настоящему не хотел иметь детей."
+    lucy "Я знала, во что ввязываюсь, когда убедила его завести {b}Энни{/b}."
+    lucy "Я беспокоюсь о том, как это повлияло на нее."
+    lucy "Она сделает все, чтобы получить одобрение отца."
     show lucy f_normal
     show player 35
-    player_name "Hmm, that does explain some things about her behavior..."
+    player_name "Хм, это объясняет некоторые вещи в ее поведении..."
     show player 34
     show lucy f_confused_talk
-    lucy "What's that dear?"
+    lucy "О чем ты?"
     show lucy f_normal
     show player 10
-    player_name "Oh, uhh... Nothing ma'-"
+    player_name "О, эээ... Ни о чем мэм'-"
     show player 14
-    player_name "{b}*Ahem*{/b} I mean, nothing {b}Lucy{/b}."
-    player_name "I should probably get started on those toys soon, huh?"
+    player_name "{b}*Гммм*{/b} Я имею в виду, ничего {b}Люси{/b}."
+    player_name "Мне, наверное, уже пора начинать делать эти игрушки, да?"
     show player 13
     show lucy f_normal_talk
-    lucy "You're right."
-    lucy "I should get the little ones inside for nap time."
+    lucy "Ты прав."
+    lucy "Я должна уложить малышей спать."
     show lucy f_normal
     show player 10
-    player_name "Does {b}Richard{/b} have any tools I can use?"
+    player_name "У {b}Ричарда{/b} есть какие-нибудь инструменты, которыми я могу воспользоваться?"
     show player 13
     show lucy f_laugh a_dressed_cover with dissolve
-    lucy "Haha, does {b}Richard{/b} have any tools..."
+    lucy "Ха-ха, у {b}Ричарда{/b} есть какие-нибудь инструменты..."
     show lucy f_normal_talk a_dressed_sides with dissolve
-    lucy "Go check inside the house, you'll find what you need in no time."
+    lucy "Иди проверь внутри дома, ты найдешь то, что тебе нужно."
     show lucy f_normal
     show player 14
-    player_name "Thanks."
+    player_name "Спасибо."
     hide player
     hide lucy
     with dissolve
