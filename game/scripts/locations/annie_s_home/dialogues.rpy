@@ -519,45 +519,45 @@ label annies_house_livingroom_diane_delivery_2:
     show richard a_dressed_phone_talk f_phone_talk
     show player 13 at left
     with dissolve
-    rich "No, absolutely not!"
-    rich "Well, I don't care if you don't like it..."
+    rich "Нет, абсолютно нет!"
+    rich "Ну, мне все равно, если тебе это не нравится..."
     show player 5
     show richard f_phone
     pause
     show richard f_phone_talk
-    rich "No..."
-    rich "The fact of the matter is that it's OSHA regulation."
-    rich "No, I do things strictly by the book!"
-    rich "I told you as much when you hired me."
+    rich "Нет..."
+    rich "Дело в том, что это регулирование OSHA."
+    rich "Нет, я все делаю строго по правилам!"
+    rich "Я говорил тебе об этом, когда ты меня нанимал."
     show richard f_normal
     rich "..."
     show richard f_phone_talk
-    rich "No, more money won't make it go away."
-    rich "Rules are rules."
-    rich "Look, I need you to hold on for a second."
+    rich "Нет, больше денег не заставит его исчезнуть."
+    rich "Правила есть правила."
+    rich "Слушай, мне нужно, чтобы ты подождал секунду."
     show richard f_normal_talk a_dressed_phone with dissolve
-    rich "Can I help you?"
+    rich "Я могу помочь?"
     show richard f_normal
     show player 12
-    player_name "Uhh, maybe..."
+    player_name "Эээ, наверно..."
     show player 10
-    player_name "Do you live here?"
+    player_name "Вы здесь живете?"
     show player 5
     show richard f_normal_talk
-    rich "Yes?"
+    rich "Да?"
     show richard f_normal
     show player 239_240 with dissolve
     pause
     show player 163c with dissolve
-    player_name "I'm supposed to deliver this-"
+    player_name "Я должен доставить это-"
     show player 163g
     show richard f_normal_talk
-    rich "Oh, you're the milk guy..."
-    rich "Ugh, alright. Follow me."
+    rich "О, ты молочник..."
+    rich "Фу, хорошо. Иди за мной."
     show richard a_dressed_phone_talk f_phone_talk at fliplright
     with dissolve
-    rich "Now, where were we?"
-    rich "Oh right, OSHA guidelines article 7..."
+    rich "Итак, на чем мы остановились?"
+    rich "Ах да, руководство OSHA статья 7..."
     hide richard with dissolve
     player_name "..."
     hide player with dissolve
@@ -565,186 +565,186 @@ label annies_house_livingroom_diane_delivery_2:
     show richard a_dressed_phone f_normal_talk at flip, Position (xcenter=0.75)
     show player 163b at left
     with dissolve
-    rich "{b}Lucy{/b}!"
-    rich "The milk man's here!"
+    rich "{b}Люси{/b}!"
+    rich "Молочник здесь!"
     show richard f_normal at flip, Position (xcenter=0.75)
-    lucy "Oh, coming!"
+    lucy "О, иду!"
     show richard a_dressed_phone f_normal_talk at unflip
     show richard at lcenter
     with dissolve
-    rich "My wife's the one who ordered it."
-    rich "She'll sort you out."
+    rich "Его заказала моя жена."
+    rich "Она с тобой разберется."
     show richard a_dressed_phone_talk f_phone at flip, Position (xcenter=0.75) with dissolve
     show player 163c
-    player_name "O-okay."
+    player_name "Х-хорошо."
     show player 163b
     show lucy f_normal_talk at Position (xpos=650) with dissolve
-    lucy "Phew, these kids are wearing me out!"
+    lucy "Фу, эти дети изматывают меня!"
     show lucy f_normal
     show richard f_phone_talk at flip
-    rich "Uh huh..."
+    rich "Угу..."
     show richard f_phone at flip
     show lucy f_normal_talk
-    lucy "{b}Richard{/b}, could you, umm... Help carry these over to the house?"
+    lucy "{b}Ричард{/b}, не могли бы вы, мм... Помочь донести это до дома?"
     show lucy f_normal
     show richard f_angry_talk at flip
-    rich "Not now, {b}Lucy{/b}! Can't you see I'm on the phone with a client?!"
+    rich "Не сейчас, {b}Люси{/b}! Разве ты не видишь, что я разговариваю по телефону с клиентом?!"
     show richard f_phone_talk at flip
-    rich "Oh, sorry... One second."
+    rich "Ой, извини... Секундочку."
     show richard a_dressed_phone f_angry_talk at flip with dissolve
-    rich "This daycare was your dumb idea and you should handle it your own damn self!"
+    rich "Этот детский сад был твоей глупой идеей, и ты должна справиться с этим самостоятельно!"
     show lucy f_sad
-    rich "... And make sure you count the money this time before handing it over!"
-    rich "Money is tight enough around here without you throwing more down the drain!"
+    rich "... И убедитесь, что ты пересчитала деньги на этот раз, прежде чем передать их!"
+    rich "С деньгами итак достаточно туго, не надо бросать их на ветер!"
     show richard f_angry at flip
     show lucy f_sad_talk
     show player 163g
-    lucy "Yes, dear..."
+    lucy "Да, милый..."
     show lucy f_sad_down
     hide richard with dissolve
-    rich "Sorry, about that again..."
+    rich "Извини, снова об этом..."
     lucy "..."
     show player 163c
-    player_name "I'll help you, ma'am."
+    player_name "Я помогу Вам, мэм."
     show player 163b
     show lucy f_sad_talk
-    lucy "Oh, that's not necessary. I'm sure you have lots of-"
+    lucy "В этом нет необходимости. Я уверена, что у вас много-"
     show lucy f_sad
     show player 163c
-    player_name "I insist."
+    player_name "Я настаиваю."
     show player 163b
     show lucy f_normal
     lucy "..."
     show lucy f_normal_talk
-    lucy "Well, aren't you sweet!"
-    lucy "Let me call my daughter over to watch the kids for a second."
+    lucy "Ну, разве ты не прелесть!"
+    lucy "Позвольте мне позвать дочь, чтобы присмотреть за детьми."
     show lucy f_normal
     show player 163c
-    player_name "Yeah, okay."
+    player_name "Да, хорошо."
     show player 163b
     hide lucy with dissolve
     player_name "..."
-    lucy "{b}Annie{/b}, sweetie?"
-    lucy "Could you come help me for a second?"
-    ann "Ugh, I was just walking out the door, {b}Mom{/b}..."
-    lucy "I only need you for a couple minutes."
-    ann "Ughhh!!!"
+    lucy "{b}Энни{/b}, милая?"
+    lucy "Не могла ли ты помочь мне на секунду?"
+    ann "Ух, Я как раз выходила за дверь, {b}Мам{/b}..."
+    lucy "Ты мне нужна всего на пару минут."
+    ann "Аххх!!!"
     show annie 7 at Position (xpos=600)
     show lucy f_normal at Position (xpos=650)
     with dissolve
-    ann "This had better not make me late!"
-    ann "{b}Mrs. Smith{/b} doesn't tolerate-"
+    ann "Лучше бы мне не опаздывать!"
+    ann "{b}Миссис Смит{/b} терпеть не может-"
     show annie 1
     ann "..."
     show annie 4
-    ann "What is he doing here?"
+    ann "Что он здесь делает?"
     show annie 6
-    lucy "Hmm?"
+    lucy "Хмм?"
     show lucy f_confused_talk
-    lucy "Do you two know each other?"
+    lucy "Вы двое знаете друг друга?"
     show lucy f_confused
     show player 163c
-    player_name "Heh, we're in the same class at school."
+    player_name "Мы учимся в одном классе в школе."
     show player 163b
     show lucy f_laugh
-    lucy "Well, isn't that nice?"
+    lucy "Ну, разве это не прекрасно?"
     show lucy f_normal
     show annie 5
-    ann "Hardly..."
+    ann "Едва..."
     show annie 6
     show lucy f_normal_talk
-    lucy "This nice young man-"
-    lucy "Sorry, I didn't catch your name?"
+    lucy "Этот приятный молодой человек-"
+    lucy "Прости, я не расслышала вашего имени?"
     show lucy f_normal
     show player 163c
     player_name "{b}[firstname]{/b}."
     show player 163b
     show lucy f_normal_talk
-    lucy "Hi, {b}[firstname]{/b}. I'm {b}Lucy{/b}."
+    lucy "Привет, {b}[firstname]{/b}. Я {b}Люси{/b}."
     show lucy f_normal
     show player 163c
-    player_name "Nice to meet you, ma'am."
+    player_name "Приятно познакомиться, мэм."
     show player 163b
     show lucy f_laugh
-    lucy "Oh, goodness."
+    lucy "О, боже."
     show lucy f_normal_talk
-    lucy "I hope you're friends with this one, {b}Annie{/b}?"
-    lucy "I like him!"
+    lucy "Надеюсь, ты дружишь с ним, {b}Энни{/b}?"
+    lucy "Он мне нравится!"
     show lucy f_normal
     show annie 3
-    ann "He's a delinquent!"
+    ann "Он преступник!"
     show annie 1
     show player 163g
     show lucy f_normal_talk
-    lucy "Oh, don't call him that!"
+    lucy "О, не называй его так!"
     show lucy f_normal
     show annie 4
-    ann "... That's what he is!"
+    ann "... Вот кто он такой!"
     show annie 1
     show lucy f_normal_talk
-    lucy "{b}[firstname]{/b}, offered to haul all this milk inside for me."
-    lucy "Would you watch the kids, while I help him?"
+    lucy "{b}[firstname]{/b}, предлагал перетащить все это молоко внутрь для меня."
+    lucy "Присмотришь за детьми, пока я ему помогу?"
     show player 163b
     show lucy f_normal
     show annie 4f with dissolve
-    ann "No way! Absolutely not!"
-    ann "You know I HATE kids!"
+    ann "Нет! Ни за что!"
+    ann "Ты же знаешь, я НЕНАВИЖУ детей!"
     show annie 1f
     show lucy f_normal_talk
-    lucy "Pleeeeeeeeease?"
-    lucy "It'll just take a moment."
+    lucy "Пожалууууууууйста?"
+    lucy "Это займет всего минуту."
     show lucy f_normal
     show annie 6f
     ann "..."
     show annie 5f
-    ann "Why can't {b}Dad{/b} do it?!"
+    ann "Почему {b}папа{/b} не может это сделать?!"
     show annie 6f
     show lucy f_normal_talk
-    lucy "Oh, he's on the phone arguing with a client."
+    lucy "Он разговаривает по телефону с клиентом."
     show lucy f_normal
     show annie 5f
-    ann "... Is that moron still complaining about the OSHA regulations?!"
-    ann "It's not like {b}Dad{/b} wrote the rules, he just abides by them like any decent person would..."
+    ann "... Этот идиот все еще жалуется на правила OSHA?!"
+    ann "Это не похоже на то, что {b}папа{/b} написал правила, он просто соблюдает их, как любой приличный человек..."
     show annie 6f
     show lucy f_confused_talk
-    lucy "I don't-"
+    lucy "Я не-"
     show lucy f_confused
     lucy "..."
     show lucy f_confused_talk
-    lucy "What's an OSHA?"
+    lucy "Что такое OSHA?"
     show lucy f_confused
     show annie 7f
-    ann "Errghh!! Nevermind..."
+    ann "Эххррр!! Неважно..."
     show annie 4f
-    ann "Just hurry up!"
+    ann "Просто поторопись!"
     hide annie
     show lucy hug_annie
     with dissolve
-    lucy "Thank you, sweetie!"
-    lucy "Follow me, {b}[firstname]{/b}!"
+    lucy "Спасибо, дорогая!"
+    lucy "Иди за мной, {b}[firstname]{/b}!"
     show annie 6f at Position (xpos=600)
     hide lucy
     with dissolve
     show player 163c
-    player_name "Yes, ma'am."
+    player_name "Да, мэм."
     hide player with dissolve
     ann "..."
     show annie 4f
-    ann "Hey! Stop running!!"
+    ann "Эй! Хватит бегать!!"
     hide annie with dissolve
-    ann "Eugh, don't put that in your mouth!!!"
+    ann "Эй, не клади это себе в рот!!!"
     scene expression "backgrounds/location_annie_livingroom_day_blur.jpg"
     show lucy bend
     show player 426 at left
     with dissolve
-    lucy "Alright, everything looks good."
-    lucy "I dunno what you all are putting in this milk but the kids just can't get enough!"
-    player_name "Mmmhmm."
-    lucy "This will all be gone in a couple weeks."
-    lucy "I'll need to order a lot more next time."
-    lucy "Assuming {b}Richard{/b} lets me."
+    lucy "Хорошо, все выглядит неплохо."
+    lucy "Я не знаю, что вы все кладете в это молоко, но дети просто не могут насытиться!"
+    player_name "Мммммм."
+    lucy "Все это исчезнет через пару недель."
+    lucy "В следующий раз мне нужно будет заказать намного больше."
+    lucy "Если {b}Ричард{/b} мне позволит."
     player_name "..."
-    lucy "That wouldn't be a problem would it?"
+    lucy "Это не будет проблемой, не так ли?"
     player_name "..."
     show lucy f_confused_talk at Position (xpos=650)
     lucy "{b}[firstname]{/b}?"
@@ -752,149 +752,149 @@ label annies_house_livingroom_diane_delivery_2:
     show player 11
     player_name "!!!"
     show player 29 with dissolve
-    player_name "I'm sorry, what was that last bit?"
+    player_name "Простите, это было в последний раз?"
     show player 3
     show lucy f_normal_talk
-    lucy "I said I'll need to order more next time, if that's alright?"
+    lucy "Я сказала, что в следующий раз мне нужно будет заказать больше, если вы не против?"
     show lucy f_normal
     show player 29
-    player_name "... Yeah, I think so."
+    player_name "... Да, я тоже так думаю."
     show player 17 with dissolve
-    player_name "I'll speak with {b}Diane{/b} about it."
+    player_name "Я поговорю об этом с {b}Дианой{/b}."
     show player 13
     show lucy f_laugh
-    lucy "Wonderful!"
+    lucy "Замечательно!"
     show lucy f_normal_talk
-    lucy "As for your payment..."
+    lucy "Что касается вашей оплаты..."
     show lucy f_normal_down a_dressed_cleavage with dissolve
     show player 11
     player_name "!!!"
     show lucy a_dressed_money with dissolve
-    lucy "That should cover it."
+    lucy "Это должно покрыть все расходы."
     show lucy f_normal a_dressed_sides
     show player 638b at Position (xoffset=-19)
     with dissolve
     player_name "..."
     show player 638 at Position (xoffset=-21)
-    player_name "Uhh, this is too much."
+    player_name "Ох, это слишком много."
     show player 13
     show lucy a_dressed_money f_normal_down with dissolve
     lucy "..."
     show player 14
-    player_name "That's fifty dollars more than the price..."
+    player_name "Это на пятьдесят долларов больше стоимости..."
     show player 13
     show lucy f_confused_talk
     lucy "!!!"
     show lucy f_laugh
-    lucy "Whoopsie!"
+    lucy "Упс!"
     show lucy f_normal_talk
-    lucy "Hehe, I'm such a clutz with money..."
+    lucy "Хе-хе, у меня так много денег..."
     show lucy f_laugh a_dressed_cleavage with dissolve
-    lucy "... And you're a sweetheart!"
+    lucy "... А ты просто милашка!"
     hide player
     show lucy hug_mc
     with dissolve
-    lucy "Thank you for being honest, {b}[firstname]{/b}!"
+    lucy "Спасибо за честность, {b}[firstname]{/b}!"
     player_name "!!!"
     pause
     show player 29 at left
     show lucy f_normal
     with dissolve
-    player_name "Heh. N-no problem, ma'am."
-    player_name "I wouldn't want your husband to get angry at you again."
+    player_name "Хех. Н-никаких проблем, мэм."
+    player_name "Я не хочу, чтобы твой муж снова на тебя разозлился."
     show player 3
     show lucy f_confused
-    lucy "Hmm?"
+    lucy "Хмм?"
     show lucy f_laugh a_dressed_wave with dissolve
-    lucy "Oh! No..."
+    lucy "О! Нет..."
     show player 13 with dissolve
-    lucy "He's just so busy with {b}his carpentry business{/b} and all!"
-    lucy "He doesn't have time for me and my problems."
+    lucy "Он просто так занят {b}своими плотницкими делами{/b} и все такое!"
+    lucy "У него нет времени на меня и мои проблемы."
     show lucy f_normal a_dressed_sides with dissolve
     player_name "..."
     show player 10
-    player_name "He's a {b}carpenter{/b}?"
+    player_name "Он {b}плотник{/b}?"
     show player 5
-    lucy "Mmmhmm."
+    lucy "Мммммм."
     show lucy f_sad_talk
-    lucy "He's been doing it for over 20 years."
-    lucy "Poor dear, works himself to the bone."
+    lucy "Он занимается этим более 20 лет."
+    lucy "Бедняжка, работает до мозга костей."
     show lucy f_sad
     show player 12
-    player_name "Well, he should make time."
+    player_name "Ну, он должен найти время."
     show player 14
-    player_name "You're such a nice lady!"
+    player_name "Вы такая милая леди!"
     show player 13
     show lucy f_normal_talk
-    lucy "Aww, well thank you, {b}[firstname]{/b}!"
-    lucy "You're nice too!"
+    lucy "Ой, ну спасибо, {b}[firstname]{/b}!"
+    lucy "Ты тоже милый!"
     show lucy f_normal
-    ann "DON'T THROW THINGS!!!" with hpunch
+    ann "НЕ БРОСАЙТЕ ВЕЩИ!!!" with hpunch
     show player 11
     player_name "!!!"
     show lucy f_confused
-    ann "AAAHHH!!"
+    ann "ААААААА!!"
     show lucy f_confused_talk
-    lucy "Uh oh..."
+    lucy "Ой..."
     show player 13
-    lucy "It sounds like the kids are getting the better of {b}Annie{/b} in there."
-    lucy "I'd better go rescue her!"
+    lucy "Звучит так,будто дети берут верх над {b}Энни{/b}."
+    lucy "Я лучше пойду спасу ее!"
     hide lucy with dissolve
     player_name "..."
     show player 17
-    player_name "( Oh, I have to check this out! )"
+    player_name "( О, я должен это проверить! )"
     hide player with dissolve
     scene expression "backgrounds/location_annie_daycare_day_blur.jpg"
     show annie 25 at right
     show player 11 at Position (xpos=400)
     show lucy f_confused at fliplleft
     with dissolve
-    ann "I TOLD YOU TO STOP RUNNING!!!"
+    ann "Я СКАЗАЛА ВАМ ПЕРЕСТАТЬ БЕГАТЬ!!!"
     show annie 24
     pause
     show annie 25
-    ann "Ugh, finally!"
-    ann "What took you so long?!"
+    ann "Наконец-то!"
+    ann "Почему ты так долго?!"
     show annie 24
     show lucy f_confused_talk
-    lucy "I'm sorry, sweetie. I-"
+    lucy "Мне очень жаль, дорогая. Я-"
     show lucy f_confused
     show annie 25
-    ann "Look at me, I'm a disaster now!"
-    ann "I'm going to have to shower again!"
+    ann "Посмотри на меня, я теперь катастрофа!"
+    ann "Мне снова придется принимать душ!"
     show annie 24
     show lucy f_sad_down
     lucy "..."
     show annie 25
-    ann "Thanks a lot {b}Mom{/b}!"
+    ann "Спасибо большое {b}Мам{/b}!"
     show annie 26 with dissolve
     pause
     hide annie with dissolve
     pause
     show player 10f at right with dissolve
-    player_name "Wow, that was..."
-    player_name "... You alright, ma'am?"
+    player_name "Ничего себе, это было..."
+    player_name "... Вы в порядке, мэм?"
     show player 5f
     show lucy f_sad
-    lucy "Hmm?"
+    lucy "Хмм?"
     show lucy f_sad_talk
-    lucy "Oh, It's fine."
+    lucy "О, все хорошо."
     show lucy f_sad
     lucy "..."
     show lucy f_sad_talk
-    lucy "Thanks again, for your help today, {b}[firstname]{/b}."
+    lucy "Еще раз спасибо за помощь сегодня, {b}[firstname]{/b}."
     show lucy f_sad
     show player 14f
-    player_name "It was no problem, ma'am."
-    player_name "I'll see you next time."
+    player_name "Это не было проблемой, мэм."
+    player_name "Увидимся в следующий раз."
     show player 13f
     hide lucy with dissolve
     pause
     show player 5f
-    player_name "( That poor woman... )"
+    player_name "( Бедная женщина... )"
     pause
     show player 18f
-    player_name "( Welp, I should get this money back to {b}Diane{/b} and tell her that the daycare will be needing more next time. )"
+    player_name "( Ну, я должен вернуть эти деньги {b}Диане{/b} и сказать ей, что в следующий раз детскому саду понадобится больше. )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
