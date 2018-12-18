@@ -23,10 +23,8 @@ label hill_mia_find_harold:
 label hill_tree:
     scene expression game.timer.image("location_lair_hill_tree{}")
     if not player.has_item("scroll"):
-        call expression game.dialog_select("hill_tree_no_scroll")
-        $ player.get_item("scroll")
+        jump expression game.dialog_select("hill_tree_no_scroll")
     else:
-
         pause
     $ game.main()
 
@@ -38,10 +36,13 @@ label hill_tree_no_scroll:
     player_name "What's this? Some kind of old scroll?"
     player_name "I wonder how long it's been hidden in there."
     call screen hill_tree
+
+label hill_tree_get_scroll:
+    $ player.get_item("scroll")
     show popup_item_scroll1 at truecenter with dissolve
     pause
     hide popup_item_scroll1 with dissolve
-    return
+    $ game.main()
 
 label hill_dewitt_stick:
     call expression game.dialog_select("hill_dewitt_stick_dialogue")

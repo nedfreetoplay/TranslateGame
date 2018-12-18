@@ -1,3 +1,14 @@
+label cupid_daisy_get_new_flowers:
+    scene expression player.location.background_blur
+    show player 11 with dissolve
+    player_name "( Whoa. )"
+    player_name "( I wasn't expecting such a huge selection of flowers... )"
+    pause
+    show player 13
+    player_name "( I should see if they have any {b}Sunflowers{/b} for {b}Daisy{/b}. )"
+    hide player with dissolve
+    return
+
 label cupid_mom_cupid_store:
     scene location_mall_cupid_blur
     show player 5 at left

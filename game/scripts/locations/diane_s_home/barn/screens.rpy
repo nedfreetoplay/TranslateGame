@@ -27,7 +27,26 @@ screen dianes_barn:
 
 screen dianes_barn_interior:
     add L_diane_barn_interior.background
-
+    if player.location.is_here(M_daisy):
+        if game.timer.is_dark():
+            imagebutton:
+                focus_mask True
+                pos (44,46)
+                idle "objects/character_daisy_sleeping.png"
+                hover HoverImage("objects/character_daisy_sleeping.png")
+                action TalkTo("daisy")
+        else:
+            imagebutton:
+                focus_mask True
+                if M_daisy.pregnancy.gave_birth:
+                    pos (27,413)
+                    idle "objects/character_daisy_baby_" + M_daisy.pregnancy.baby_gender +".png"
+                    hover HoverImage("objects/character_daisy_baby_" + M_daisy.pregnancy.baby_gender +".png")
+                else:
+                    pos (27,413)
+                    idle "objects/character_daisy_[M_daisy.get_naked_str][M_daisy.pregnancy.to_string].png"
+                    hover HoverImage("objects/character_daisy_" + M_daisy.get_naked_str + M_daisy.pregnancy.to_string + ".png")
+                action TalkTo("daisy")
     imagebutton:
         focus_mask True
         pos (929,364)
@@ -88,6 +107,14 @@ screen dianes_barn_garden:
         idle game.timer.image("objects/object_crack_01{}.png")
         hover HoverImage(game.timer.image("objects/object_crack_01{}.png"))
         action Hide("dianes_barn_garden"), Jump("church_graveyard_dialogue")
+
+    if M_daisy.is_state(S_daisy_assembled_statue, S_daisy_viewed_statue):
+        imagebutton:
+            focus_mask True
+            pos (150,496)
+            idle "objects/object_statue_garden_01.png"
+            hover HoverImage("objects/object_statue_garden_01.png")
+            action Hide("dianes_barn_garden"), Jump("barn_garden_statue_dialogue")
 
     imagebutton:
         focus_mask True

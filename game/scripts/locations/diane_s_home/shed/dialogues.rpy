@@ -758,20 +758,20 @@ label dianes_shed_seen_shed_locked:
 
 label dianes_shed_not_seen_shed_locked:
     scene garden
-    show player 35 at left with dissolve
+    show player 35 with dissolve
     player_name "Hmm.. The shed is locked. I wonder what's in there?"
-    show diane f_smirk_talk b_naked a_naked_sides with dissolve
-    show player 22 at left
-    dia "Are you snooping around?"
-    show diane f_smirk
-    show player 10 at left
-    player_name "Uhh, sorry. I was just looking for tools..."
-    show diane f_normal_talk
-    show player 11 at left
-    dia "It's okay. Perhaps one day I'll give you a little tour..."
-    show player 21 at left
-    show diane f_normal
-    player_name "Sure, {b}Diane{/b}..."
+
+
+
+
+
+
+
+
+
+
+
+
     hide player
     hide diane
     with dissolve

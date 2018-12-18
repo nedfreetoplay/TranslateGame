@@ -356,7 +356,23 @@
         "name": "The jackhammer",
         "description": "Named your character \"The Jackhammer\"",
         "hidden": true,
-        "enabled": false,
-        "image": "buttons/cellphone_achieve_01.png"
+        "enabled": true,
+        "image": "buttons/cellphone_achieve_41.png"
+    },
+    "more-girl-than-cow": {
+        "id": 46,
+        "name": "More girl than cow",
+        "description": "Reached the end of Daisy's story.",
+        "hidden": true,
+        "enabled": true,
+        "image": "buttons/cellphone_achieve_40.png"
+    },
+    "hes-real": {
+        "id": 47,
+        "name": "He's real!",
+        "description": "Seen Santa Claus.",
+        "hidden": true,
+        "enabled": true,
+        "image": "buttons/cellphone_achieve_42.png"
     }
 }

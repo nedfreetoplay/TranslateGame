@@ -2,6 +2,7 @@ label trailer_tractor_dialogue:
     $ player.go_to(L_trailer_tractor)
     if M_roxxy.is_state(S_roxxy_beat_clyde):
         call expression game.dialog_select("trailer_tractor_roxxy_beat_clyde")
+        $ M_clyde.set("doggo_quest", True)
         jump expression game.dialog_select("shooting_minigame_prepare")
 
     elif M_roxxy.is_state(S_roxxy_confront_clyde):

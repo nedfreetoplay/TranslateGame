@@ -19,11 +19,11 @@ label left_hallway_judith_changing:
     jud "Well..."
     jud "...I just..."
     show judith 3 at right
-    jud "... I can't go in the guy's Locker Room."
+    jud "... I can't go in the {b}boys locker room{/b}."
     show player 10 at left
     show judith 1 at right
-    player_name "... The guy's Locker Room?"
-    player_name "Why would you need to go in the guy's Locker Room?"
+    player_name "... The {b}boys locker room{/b}?"
+    player_name "Why would you need to go in the {b}boys locker room{/b}?"
     show player 5 at left
     show judith 3 at right
     jud "You mean nobody told you?"
@@ -32,9 +32,9 @@ label left_hallway_judith_changing:
     player_name "... No?"
     show player 5 at left
     show judith 3 at right
-    jud "A pipe burst in the girls locker and it's closed for repairs..."
+    jud "A pipe burst in the {b}girls locker room{/b} and it's closed for repairs..."
     show judith 2 at right
-    jud "We're sharing the boys Locker Room now."
+    jud "We're sharing the {b}boys locker room{/b} now."
     show judith 1 at right
     show player 10 at left
     player_name "For real?!"
@@ -65,7 +65,7 @@ label left_hallway_judith_changing:
 label left_hallway_latinos_bashing:
     scene lefthall_c
     show judith 10 at left
-    show martinez 20 at Position (xpos=625)
+    show martinez at Position (xpos=350)
     show latinas 19 at right
     with dissolve
     lopez "Just look at those nasty-ass saggy tits!"
@@ -73,9 +73,9 @@ label left_hallway_latinos_bashing:
     show judith 7 at left
     jud "..."
     show judith 8 at left
-    show martinez 21
+    show martinez f_normal_talk
     martinez "She's probably too poor to afford a bra..."
-    show martinez 20
+    show martinez f_normal
     show latinas 18 at right
     show judith 7 at left
     jud "It's not like that!!"
@@ -91,11 +91,11 @@ label left_hallway_latinos_bashing:
     lopez "Haha!"
     show latinas 18
     show judith 9 at left
-    show martinez 21
+    show martinez f_angry_talk
     martinez "Yo, you better not hang around here no more..."
-    show martinez 22 with dissolve
+    show martinez a_dressed_sign with dissolve
     martinez "PUTA! Did you just hear? This is our turf, so get out!"
-    show martinez 20 with dissolve
+    show martinez f_angry a_dressed_crossed with dissolve
     show latinas 18 at right
     show player 12 at Position( xpos = 290, ypos = 768)
     hide judith 9
@@ -107,9 +107,9 @@ label left_hallway_latinos_bashing:
     hide combo 7 at left
     show player 90 at Position( xpos = 290, ypos = 768)
     show judith 9 at left
-    show martinez 21
+    show martinez f_angry_talk
     martinez "You defending this ugly bitch now??"
-    show martinez 20
+    show martinez f_angry
     show latinas 19 at right
     lopez "Keep walking white boy!"
     show latinas 18 at right
@@ -118,15 +118,15 @@ label left_hallway_latinos_bashing:
     hide judith
     show player 90 at left
     with dissolve
-    show martinez 21
+    show martinez f_angry_talk
     martinez "What's the matter, white boy, you not gonna run after your bitch?"
-    show martinez 20
+    show martinez f_angry
     show latinas 18 at right
     show player 12 at left
     player_name "You didn't have to do this..."
-    show martinez 22 with dissolve
+    show martinez f_angry_talk a_dressed_sign with dissolve
     martinez "We'll do whatever the fuck we want!"
-    show martinez 20 with dissolve
+    show martinez f_angry a_dressed_crossed with dissolve
     show latinas 19
     lopez "Haha! See ya!"
     hide player
@@ -155,50 +155,50 @@ label left_hallway_judith_missing:
 
 label left_hallway_martinez_book_search:
     scene lefthall_c
-    show martinez 20b at Position (xpos=625)
+    show martinez a_dressed_backpack at Position (xpos=350)
     show lopez 18 at right
     show player 10 at left
     with dissolve
     player_name "Hey, {b}Martinez{/b}?"
     show player 5
-    show martinez 22b
+    show martinez f_normal_talk
     martinez "...What do you want, Culo?"
-    show martinez 20b
+    show martinez f_normal
     show lopez 19
     lopez "Yeah! What do you want?"
     show lopez 18
     show player 10
     player_name "Uhh, I heard you had a book that's overdue from the library."
     show player 5
-    show martinez 21b
+    show martinez f_angry_talk
     martinez "What, are you stalking me or something, White boy?"
-    show martinez 20b
+    show martinez f_angry
     show player 10
     player_name "Huh? No, the librarian sent me!"
     show player 5
     show lopez 19
     lopez "So, you're just the librarians little bitch?"
     show lopez 18
-    show martinez 21b
+    show martinez f_laugh
     martinez "Haha!"
-    show martinez 20b
+    show martinez f_normal
     show player 12
     player_name "What? No, she ordered a book for me and asked if I could talk to you guys in return."
     show player 5
-    show martinez 22b
+    show martinez f_angry_talk
     martinez "Whatever, bitch! We ain't got time for this..."
-    show martinez 21b
+    show martinez f_normal_talk
     martinez "C'mon, {b}Lopez{/b}. We gotta get ready for gym class."
-    show martinez 20b
+    show martinez f_normal
     show lopez 19
     lopez "Sure thing, {b}Martinez{/b}. Later, Culo!"
     lopez "Hahaha!"
     hide lopez
-    show martinez 23
+    show martinez b_back f_empty a_empty
     with dissolve
     show player 428
     pause
-    show martinez 23 at right with dissolve
+    show martinez at Position (xpos=500) with dissolve
     show player 11
     player_name "!!!"
     hide martinez with dissolve
@@ -319,7 +319,7 @@ label left_hallway_roxxy_shower_event:
     show jersey 5
     show erik 63
     eri "Hey, {b}[firstname]{/b}..."
-    eri "I was just in the {b}locker room{/b} changing, when {b}Roxxy{/b} and her friends came in..."
+    eri "I was just in the {b}boys locker room{/b} changing, when {b}Roxxy{/b} and her friends came in..."
     show erik 62
     eri "... They kicked me out."
     show erik 61

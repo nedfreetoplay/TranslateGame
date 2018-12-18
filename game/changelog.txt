@@ -1,3 +1,96 @@
+{b}Summertime Saga v0.17.5{/b}
+- {i}New Features:{/i}
+    - Earn interests weekly on your savings at the Bank! Interest rate is 3%
+    - Beach House price has been reduced to $5000
+    - Santa riding the streets of Summerville
+    - Updated the Cookie Jar
+    - New quests and cutscenes
+    - New holliday decorations
+    - Cupid store interface improved with new items
+    - Added time skipping functionnality to all frontyards (direct children of the map, including MC's bedroom)
+    - 2 brand new achievements to unlock (they are secret achievements)
+    - Added a toggle for save locking (if you really want to load an earlier save file)
+        - This is on by default, which means it will prevent you from loading an earlier save
+        - This has no menu option (that is intentionnal)
+        - To disable savegame locking, set persistent.enable_save_locking to False
+
+
+- {i}Rework of the codebase:{/i}
+    - New Martinez character art and rig
+    - New Consuela character art and rig
+    - Added label notification (enable from the debug menu - General) for debugging purposes
+    - Added night version of the treehouse wood pile, the scroll at the hill and the stick at the hill.
+    
+- {i}New Characters:{/i}
+    - Meet Consuela Martinez, on Thursdays at the Beach House
+    - Remember that odd item from {b}Diane{/b}'s barn? You should start investigating.
+
+- {i}New sex scenes:{/i}
+    - One new sex scene.
+
+- {i}Bug Fixes:{/i}
+    - Fixed save resetting when taking the Pregnax pills.
+    - Fixed Diane being in the shed when entering for paint.
+    - Fixed being able to check the school's lockers at night.
+    - Pregnancies are now in sequence (and not in parallel). This is to still be able to see each character at the hospital, even if they get pregnant on the same day
+    - Added missing lewd Diane closeup (drunk on her bed)
+    - Fixed being able to start the school delivery (Diane quest) on the weekend.
+    - Fixed Tony meeting you for the first time twice.
+    - Fixed "Debbie's sleeping" dialogue triggering when Debbie isn't in her room for one reason or another.
+    - Fixed incorrect button usage during diane's evening visit (in diane's story, not debbie's)
+    - Fixed hill tree screen not hiding
+    - Fixed Diane's outfit being the wrong one during the pie quest.
+    - Fixed Day 0 Sleep issue.
+    - Fixed being able to exit the stolen goods screen without taking the key
+    - Fixed daytime scene on using the workshop in the garage when it's night time.
+    - Fixed time going back one tick if saving right after manually ticking time on the map/bedroom/etc
+    - Fixed a bug that would trigger a night scene during daytime when entering the bedroom after watching a movie with debbie for the second time.
+    - Fixed a bug which caused mia to lock you out of your sleep
+    - Fixed a bug that caused diane to never see you jack it.
+    - Fixed an issue that caused debbie to be forever naked by the pool, if you slept before bringing her a towel.
+    - Fixed being able to craft the glue for dewitt at night time
+    - Fixed the game.timer.image() function. It now displays images correctly regardless of period (christmas, halloween, ...), time of day and extra information.
+
+
+
+{b}Summertime Saga v0.17.1{/b}
+
+- {i}New Features:{/i}
+    - Added the choice of vehicle to use in the pizza minigame. A more extensive rework of that minigame is planned for the 0.20 update.
+    - Added a button to clear persistent data on the main menu.
+    - Added a text for android users that entice to use the SwiftKey keyboard for an optimal experience. Click it to dismiss it.
+
+- {i}Rework of the codebase:{/i}
+    - Added Vector2 class for future usage in minigames and other purposes.
+
+- {i}Bug Fixes:{/i}
+    - Fixed the pregnancy minigame crash, and adjusted the chance of getting a character pregnant
+    - Added win/fail backgrounds to pregnancy minigame
+    - Fixed Exception due to invalid pose on diane's cookie jar scene 5
+    - Fixed Exception on launch related to player not being defined
+    - Fixed erik resetting on load/save
+    - Fixed time not ticking after breed sex if not milking Diane
+    - Fixed wrapping of words on the Cellphone Goal App
+    - Removed keybinds for renpy voice narrator
+    - Fixed diane ghost trigger on pie scene
+    - Fixed bug "location_training" being undefined.
+    - Removed ability to save in autosave slots
+    - If default formatting was used in the save description, update when overwriting the save
+    - Fixed overwriting saves losing data bug
+    - Fixed missing arm in breakfast scene
+    - Fixed AnimatedImages sometimes not being animated properly
+    - Fixed player not being bumped to map when talking to aqua
+    - Fixed incorrect call_screen at night when in Aqua's Lair
+    - Fixed Report Card not updating
+    - Dating list was not bugged. Its behavior is intended although inconsistent for characters without a story.
+    - Fixed Diane's shirt dissappearing when talking to Richard
+    - Fixed Diane switching clothes for a kiss in the barn
+    - Fixed Veronica dissappearing when talking about Chicken Stock
+    - Fixed Diane's arm misalignment when in her bra and panties
+    - Fixed AR Device overlay misaligned on player's face
+    - Fixed Debbie disappearing from Cupid
+    - Removed Carpenter option from Diane's button dialogues pointing to missing labels
+
 {b}Summertime Saga v0.17.0{/b}
 - {i}New Locations:{/i}
     - Diane's Home has an expansion
@@ -201,7 +294,7 @@
     - New Location system, that will be implemented in the near future.
     - New method for doing minigames, and old minigames being redone with this method. (it will fix the timer bars being faster/slower depending on device specs)
     - New Item management solution, in order to fix save file compatibility issues.
-    - Some old characters have been moved to the new FSM (Functional State Machine) flow. Begone, deprecated Events system!
+    - Some old characters have been moved to the new FSM (Finite State Machine) flow. Begone, deprecated Events system!
     - General cleanup of the codebase. Removing old unused variables, and working towards a more object-oriented codebase.
     - Reworking the overall structure of the codebase, to allow more efficient work, and less merge conflicts.
     - Ability to add descriptions to your saved games.

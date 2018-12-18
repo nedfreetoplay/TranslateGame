@@ -324,7 +324,7 @@ label mom_fsm_init:
         S_mom_midnight_noises.add(T_mom_midnight_wakeup, S_mom_midnight_search)
         S_mom_midnight_search.add(T_mom_midnight_swim, S_mom_fetch_towel,
                                   actions = ["location", {"place": L_home_backyard},
-                                             "force", {"flag": True},
+                                             "force", {"tod": [2,3]},
                                              ],
                                   )
         S_mom_fetch_towel.add(T_mom_gave_towel, S_mom_night_visit_three,

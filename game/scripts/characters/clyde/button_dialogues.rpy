@@ -1,3 +1,597 @@
+label button_clyde_pink_beaver:
+    scene expression player.location.background_blur with None
+    show player 14f at right
+    show clyde 1 at left
+    if M_clyde.get("cletus"):
+        show clyde_hat at left
+    player_name "Hey, about that beaver you wanted."
+    show player 13f
+    show clyde 2
+    clyde "Yah?"
+    show clyde 1
+    show player 239_240f
+    pause
+    show player 709f
+    player_name "Is this it?"
+    show player 708f
+    show clyde 30
+    clyde "!!!"
+    show clyde 4 with dissolve
+    clyde "Well butter my butt and call me a biscuit, you actually got it!"
+    show clyde 3
+    show player 709f
+    player_name "I thought this might be it."
+    show clyde 34
+    show player 13f
+    with dissolve
+    pause
+    show clyde 35
+    clyde "How the heck did you win dis thing?!"
+    show clyde 33 with dissolve
+    clyde "The fair ain't even gon' be here for another 2 months!"
+    show clyde 32
+    show player 12f
+    player_name "I bought it at the shopping mall, {b}Clyde{/b}."
+    show player 5f
+    show clyde 2 with dissolve
+    clyde "The mall?"
+    clyde "Ah, shoot."
+    clyde "I ain't never been in 'dere."
+    clyde "Where's that dog run off to now?"
+    clyde "C'mon, girl!"
+    show clyde 1
+    pause
+    show player 10f
+    player_name "Wait. You've never been to the mall?"
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "No, sir."
+    show clyde 3
+    show player 10f
+    player_name "Where do you buy your groceries then?"
+    show player 5f
+    show clyde 4
+    clyde "Pfft, you city folk and yer groceries..."
+    clyde "I ain't payin' nobody fer stuff dat's free right here in the woods!"
+    show clyde 3
+    show player 10f
+    player_name "... Huh?"
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "I hunt fer mah food, buddy."
+    show clyde 4 with dissolve
+    clyde "Speakin' of, I got a nice pot of squirrel stewin' back in mah shack."
+    clyde "You oughta come by fer dinner!"
+    show clyde 3
+    show player 12f
+    player_name "Eugh, no thanks."
+    show player 5f
+    pig "{b}*Squeeeeee*{/b}"
+    show clyde 4
+    clyde "There you are!"
+    if M_clyde.get("cletus"):
+        show clyde_hat down
+    show clyde 36
+    with dissolve
+    clyde "Where you been girl?!"
+    if M_clyde.get("cletus"):
+        show clyde_hat
+    show clyde 38
+    with dissolve
+    pig "*{b}Oink{/b}*"
+    show clyde 37
+    clyde "Look what {b}[firstname]{/b} brought fer ya!"
+    show clyde 38
+    pig "{b}*SQUEE SQUEE*{/b}"
+    show clyde 37
+    clyde "Hehehe, look how happy she is!"
+    if M_clyde.get("cletus"):
+        show clyde_hat down
+    show clyde 36
+    with dissolve
+    clyde "You go and have some fun now!"
+    if M_clyde.get("cletus"):
+        show clyde_hat
+    show clyde 3
+    with dissolve
+    pig "{b}*Snort*{/b}"
+    pause
+    show clyde 4
+    clyde "Now dat is one happy dog."
+    clyde "Alright feller..."
+    show clyde 9 with dissolve
+    clyde "I gotta repay you fer dis somehow."
+    show clyde 3 with dissolve
+    show player 12f
+    player_name "Don't worry about it."
+    player_name "Just consider it a gift."
+    show player 5f
+    show clyde 4
+    clyde "Now hold on, just a second."
+    show clyde 1 with dissolve
+    pause
+    show clyde 9 with dissolve
+    clyde "Oh!"
+    clyde "I got just the thing!"
+    hide clyde
+    hide clyde_hat
+    with dissolve
+    show player 10f
+    player_name "Where are you going?!"
+    show player 5f
+    clyde "Wait there!"
+    pause
+    clyde "Don't you move a muscle!"
+    show player 25f
+    player_name "Oh, man."
+    player_name "R-really, it's okay..."
+    player_name "I don't nee-"
+    show player 11f
+    show clyde 40 at left
+    if M_clyde.get("cletus"):
+        show clyde_hat at left
+    with dissolve
+    clyde "Check it out!"
+    show clyde 39
+    if player.has_item("mysterious_statue_1"):
+        show player 23f
+        player_name "!!!"
+        show player 30f
+        if M_clyde.get("cletus"):
+            player_name "{b}Clyde{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+        else:
+            player_name "{b}Cletus{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+        show player 90f
+        show clyde 40
+        clyde "Oh, right."
+        clyde "I did say that, didn't I?"
+        show clyde 39
+        pause
+        show clyde 11 with dissolve
+        clyde "Well, I was lyin'."
+        show clyde 12
+        show player 12f
+        player_name "Why?!"
+        show player 90f
+    else:
+
+        player_name "!!!"
+        show player 30f
+        player_name "What the heck is that?"
+        show player 5f
+        show clyde 40
+        clyde "Well, it used to belong to my grandpappy."
+        show clyde 39
+        show player 10f
+        player_name "You're grandpappy?!"
+        show player 5f
+        show clyde 9 with dissolve
+        clyde "That's right!"
+        clyde "Ole' {b}Jebediah Delmont{/b} himself!"
+        show clyde 3
+        pause
+        player_name "..."
+        show clyde 2 with dissolve
+        clyde "You've never heard of {b}Jebadiah Delmont{/b}?"
+        show clyde 1
+        show player 10f
+        player_name "No?"
+        show player 5f
+        show clyde 2
+        clyde "{b}*Sigh*{/b} Good grief."
+        show clyde 4 with dissolve
+        clyde "He used to be perty famous 'round these parts for his cows and their delicious milk!"
+        clyde "He won all sorts of contests."
+        show clyde 3
+        show player 10f
+        player_name "He was a dairy farmer?"
+        show player 5f
+        show clyde 4
+        clyde "Well, he didn't just do dairy farmin'."
+        clyde "He had all sorts of animals."
+        show clyde 9 with dissolve
+        clyde "You shoulda seen the chicken eggs he'd bring to fair."
+        clyde "They was as big as a football!"
+        show clyde 3 with dissolve
+        show player 10f
+        player_name "For real?"
+        show player 5f
+        show clyde 4
+        clyde "Heh, yeah buddy!"
+        show clyde 3
+        pause
+        show player 17f
+        player_name "That sounds awesome!"
+        show player 14f
+        player_name "Tell me more."
+        show player 13f
+        show clyde 11 with dissolve
+        clyde "Oh, no. I uhh-"
+        clyde "{b}*Ahem*{/b} I really don't wanna get into all that..."
+        show clyde 12
+        show player 10f
+        player_name "Huh, why not?"
+        show player 5f
+    show clyde 11
+    clyde "Look buddy, my grandpappy ain't exactly the pride of the {b}Delmont family{/b}..."
+    clyde "We don't like talkin' bout it!"
+    show clyde 12
+    show player 10f
+    player_name "How come?"
+    show player 5f
+    show clyde 2 with dissolve
+    clyde "{b}*Sigh*{/b} Let's just say ole' {b}Jebediah{/b} was a little, touched in the head, alright?"
+    show clyde 1
+    show player 10f
+    player_name "Touched in the head?"
+    show player 5f
+    show clyde 2
+    clyde "You know."
+    clyde "He had a few screws loose."
+    show clyde 1
+    show player 10f
+    player_name "Uhh..."
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "His wheel was turning but the hamster was dead."
+    show clyde 3 with dissolve
+    show player 10f
+    player_name "I don't..."
+    show player 5f
+    show clyde 4
+    clyde "He was a few cards short of a full deck."
+    show clyde 3
+    show player 12f
+    player_name "What are you talking about?!"
+    show player 5f
+    show clyde 26 with dissolve
+    clyde "Tch, he was nuttier than a porta potty at a peanut festival, alright?!"
+    show clyde 25
+    show player 12f
+    player_name "You mean he was crazy?"
+    show player 5f
+    show clyde 26
+    clyde "That's what I've been tryin' to tell ya..."
+    show clyde 25
+    show player 10f
+    player_name "Oh."
+    show player 5f
+    show clyde 2
+    clyde "Yeah."
+    clyde "Mama says he was always a bit eccentric."
+    clyde "Folk in the holler used to call him the hillbilly wizard."
+    show clyde 1
+    show player 10f
+    player_name "He was a wizard?"
+    show player 5f
+    show clyde 2
+    clyde "Yeah, but he wasn't a very good one."
+    clyde "I remember, he tried turnin' me into a toad one time, cause I had gone and got my head stuck in the stairs."
+    show clyde 1
+    show player 10f
+    player_name "You got your head stuck in the stairs?!"
+    show player 5f
+    show clyde 2
+    clyde "My brother told me there was a leprechaun livin' under the stairs and I wanted to see him."
+    show clyde 1
+    show player 17f
+    player_name "Pfft, hahaha!"
+    show player 13f
+    show clyde 2
+    clyde "Anyways, his spell didn't work."
+    show clyde 11 with dissolve
+    clyde "So Mama had to grease me up with bacon fat and slide me out."
+    show clyde 12
+    show player 17f
+    player_name "Haha!"
+    show player 13f
+    show clyde 4
+    clyde "Then there was this one time, I was failin' the second grade..."
+    clyde "... And grandpappy, he said, \"Don't you worry none little {b}Clyde{/b}. Grandpappy will fix it right up fer ya.\""
+    show clyde 3
+    pause
+    show player 14f
+    player_name "Okay, so what happened?"
+    show player 13f
+    show clyde 2 with dissolve
+    clyde "Well, I don't rightly know. They found him in the school house, in the middle of the night, buck naked and covered in chicken blood."
+    show clyde 1
+    show player 23f
+    player_name "Chicken blood?!"
+    show player 11f
+    show clyde 2
+    clyde "Yeah, he said he was performin' some kinda ritual thingy to help me with my schoolin'."
+    clyde "Apparently he was a hootin' and a hollerin' and a carryin' on."
+    show clyde 1
+    show player 10f
+    player_name "Yeah, he does sound a little crazy, {b}Clyde{/b}."
+    show player 12f
+    show clyde 2
+    clyde "Yeah, I reckon he was."
+    clyde "He was a sweet ole' feller though."
+    clyde "It's too bad all dem evil spirits got mad at him."
+    show clyde 1
+    show player 10f
+    player_name "Evil spirits?"
+    show player 11f
+    show clyde 2
+    clyde "Yeah, he told me all about it right after he broke this here statue and hid the pieces."
+    clyde "Said they was coming fer him and he wanted her to be safe."
+    show clyde 1
+    show player 10f
+    player_name "Her?"
+    show player 5f
+    show clyde 40 with dissolve
+    clyde "The lady in the statue, of course!"
+    clyde "He was real tore up about hiding her away."
+    clyde "She was his good luck charm after all."
+    show clyde 39
+    show player 12f
+    player_name "Weird."
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "Then we caught him fornicatin' with the livestock and Mama sent him off to the nut house."
+    show clyde 3 with dissolve
+    show player 22f
+    player_name "!!!" with hpunch
+    show player 23f
+    player_name "You mean he-"
+    player_name "W-with animals?!"
+    show player 37f
+    show clyde 11
+    with dissolve
+    clyde "{b}*Sigh*{/b} Yup, crying like a baby too."
+    clyde "Them spirits musta really done a number on him, poor feller."
+    show clyde 12
+    show player 10f with dissolve
+    player_name "So uhh..."
+    player_name "... Is your grandpa still living at the nut house then?"
+    show player 5f
+    show clyde 2 with dissolve
+    clyde "Ah, nah."
+    clyde "About two weeks after Mama sent him there, his room caught on fire and he burnt up in it."
+    show clyde 1
+    show player 24f
+    player_name "Jesus..."
+    show clyde 2
+    clyde "They not sure how the fire started but I reckon them spirits finally got him."
+    show clyde 1
+    player_name "I don't even..."
+    player_name "..."
+    show clyde 30
+    clyde "Yeah, it was real sad..."
+    show clyde 29
+    pause
+    show player 11f
+    show clyde 2
+    clyde "Anyways!"
+    show player 5f
+    show clyde 40 with dissolve
+    clyde "I reckon he wouldn't mind me giving you this piece of the statue."
+    clyde "Seein' as you helped me and all."
+    clyde "Who knows, maybe it'll bring you luck too."
+    show clyde 39
+    show player 10f
+    player_name "R-right."
+    player_name "Thanks, I guess..."
+    show player 715f
+    show clyde 9
+    with dissolve
+    clyde "Don't mention it, buddy!"
+    show player 5f with dissolve
+    clyde "Now if you'll excuse me."
+    clyde "I wanna watch my dog give that ole' beaver what fer!"
+    hide clyde
+    hide clyde_hat
+    with dissolve
+    clyde "Hehehe."
+    show player 239_240f with dissolve
+    pause
+    show player 715f with dissolve
+    player_name "( You know, this actually explains quite a lot about {b}Clyde{/b} and why he is the way he is... )"
+    pause
+    player_name "( I guess I should keep an eye out for the other pieces of this statue. )"
+    hide player with dissolve
+    return
+
+label button_clyde_mysterious_statue_1:
+    scene expression player.location.background_blur with None
+    show player 239_240f at right
+    show clyde 1 at left
+    if M_clyde.get("cletus"):
+        show clyde_hat at left
+    pause
+    show player 688cf
+    player_name "You know anything about this {b}Clyde{/b}?"
+    show player 688bf
+    show clyde 30
+    clyde "{b}*Gasp*{/b} Where in the world did you find that?!"
+    show clyde 29
+    show player 688cf
+    player_name "It was buried under my friends house."
+    show player 688bf
+    pause
+    show player 688cf
+    player_name "The name {b}Delmont{/b} is etched in the bottom."
+    show player 688bf
+    show clyde 2
+    clyde "Yeah."
+    show clyde 4 with dissolve
+    clyde "It's part of my grandpappy's good luck charm."
+    show clyde 3
+    show player 688cf
+    player_name "Grandpappy?"
+    player_name "You mean your grandfather?"
+    show player 13f with dissolve
+    show clyde 4
+    clyde "Uh huh, {b}Jebadiah Delmont{/b}."
+    clyde "He was real famous in these parts many years ago for the milk his cows produced."
+    show clyde 3
+    show player 10f
+    player_name "Cow milk?"
+    show player 5f
+    clyde "Mmhmm."
+    show clyde 4
+    clyde "It was delicious!"
+    clyde "Won a bunch of contests with it."
+    show clyde 3
+    show player 14f
+    player_name "That's pretty cool."
+    show player 13f
+    show clyde 4
+    clyde "He had some amazing chicken eggs too."
+    clyde "They was big as a football!"
+    show clyde 3
+    pause
+    show player 12f
+    player_name "Right..."
+    show player 5f
+    pause
+    show player 10f
+    player_name "So uhh..."
+    player_name "Do you know where the rest of this statue might be?"
+    show player 5f
+    show clyde 11 with dissolve
+    clyde "Nope!"
+    show clyde 12
+    pause
+    show player 10f
+    player_name "Oh, cause I just thought-"
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "Sorry feller, can't help ya!"
+    clyde "I dun know squat!"
+    show clyde 3 with dissolve
+    show player 10f
+    player_name "Alright..."
+    show player 24f
+    player_name "Thanks anyways, I guess."
+    show player 5f
+    show clyde 1 with dissolve
+    return
+
+label button_clyde_mysterious_statue_2:
+    scene expression player.location.background_blur with None
+    show player 239_240f at right
+    show clyde 1 at left
+    if M_clyde.get("cletus"):
+        show clyde_hat at left
+    pause
+    show player 715bf with dissolve
+    player_name "Any idea where I can find more of this statue?"
+    show player 715cf
+    show clyde 2
+    clyde "Erm, not really."
+    clyde "Knowin' grandpappy, that last piece will probably {b}find you{/b}."
+    show clyde 1
+    show player 10f with dissolve
+    player_name "What do you mean?"
+    show player 5f
+    show clyde 2
+    clyde "Yeah, I reckon I'd prolly jus' {b}find a nice comfy place to relax{/b}..."
+    clyde "... {b}somewheres near the beach, maybe{/b}."
+    show clyde 1
+    pause
+    show clyde 2
+    clyde "I betcha' {b}that head will pop up all on it's own{/b}."
+    show clyde 1
+    show player 10f with dissolve
+    player_name "Ehh, right..."
+    player_name "Well, thanks. I guess..."
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "No problem, buddy."
+    show clyde 1 with dissolve
+    return
+
+
+label button_clyde_your_dog:
+    scene expression player.location.background_blur with None
+    show player 10f at right
+    show clyde 1 at left
+    if M_clyde.get("cletus"):
+        show clyde_hat at left
+    player_name "So, about your dog..."
+    show player 5f
+    show clyde 4 with dissolve
+    clyde "Ah yeah, she's a good girl ain't she?"
+    show clyde 3
+    show player 10f
+    player_name "Okay, sure."
+    show player 12f
+    player_name "You realize she isn't a dog though, right?"
+    show player 5f
+    show clyde 4
+    clyde "Best dog I ever had!"
+    show clyde 3
+    show player 24f
+    player_name "{b}*Sigh*{/b}"
+    show player 5f
+    show clyde 4
+    clyde "That's why I'm practicin' so hard, to win her one of dem {b}stuffed beavers{/b} at the fair."
+    show clyde 3
+    show player 12f
+    player_name "Yeah, you mentioned that."
+    show player 10f
+    player_name "Why don't you just buy her one?"
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "Psh, now you'se talkin' crazy..."
+    clyde "What, you think {b}Pink beavers{/b} jus' be growin' on trees or somethin'?"
+    show clyde 3 with dissolve
+    show player 10f
+    player_name "Does the color really matter?"
+    show player 5f
+    show clyde 4
+    clyde "Heck ya it matters!"
+    clyde "{b}Pink beavers{/b} is the best beavers."
+    show clyde 9 with dissolve
+    clyde "Ever'body knows dat!"
+    show clyde 3 with dissolve
+    show player 402f
+    player_name "... Right."
+    show player 10f
+    player_name "Okay, well good luck with all that I guess..."
+    show player 5f
+    show clyde 4
+    clyde "\"Luck\" is my middle name, brother."
+    show clyde 3
+    pause
+    show clyde 2 with dissolve
+    clyde "Actually it's Cornelius."
+    show clyde 1
+    show player 12f
+    player_name "Huh?"
+    show player 5f
+    show clyde 2
+    if M_clyde.get("cletus"):
+        clyde "{b}Cletus Cornelius Delmont{/b}."
+    else:
+        clyde "{b}Clyde Cornelius Delmont{/b}."
+    show clyde 1
+    show player 10f
+    player_name "You're middle name is Cornelius?"
+    show player 5f
+    show clyde 9 with dissolve
+    clyde "Yeah buddy."
+    clyde "Like that prospector fella on the flyin' Reindeer show."
+    show clyde 4
+    clyde "You seen dat one?!"
+    show clyde 3
+    show player 10f
+    player_name "I don't think so..."
+    show player 5f
+    show clyde 4
+    clyde "Maaan, das a great one!"
+    show clyde 3
+    show player 10f
+    player_name "You're a weird guy, {b}Clyde{/b}."
+    show player 5f
+    show clyde 4
+    clyde "Uh huh!"
+    show clyde 1 with dissolve
+    return
+
 label button_clyde_roxxy_get_evidence_intro:
     scene expression player.location.background_blur
     show clyde 1 at left

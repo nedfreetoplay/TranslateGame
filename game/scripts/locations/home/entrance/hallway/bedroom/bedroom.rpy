@@ -1,5 +1,6 @@
 label bedroom_dialogue:
     $ player.go_to(L_home_bedroom)
+    scene expression game.timer.image("bedroom{}") with None
     if not M_player.is_set("just wokeup"):
         if M_mom.is_state(S_mom_mrsj_visit) and not game.timer.is_dark():
             jump expression game.dialog_select("home_front")

@@ -115,6 +115,7 @@ init python:
                 if 140 <= goal.position[1] <= 440:
                     render.blit(goal_r, goal.position)
                     render.blit(picture_r, goal.picture_pos)
+                    print goal._pic, goal.height, goal.position, goal.picture_pos
             
             renpy.redraw(self, 0)
             return render

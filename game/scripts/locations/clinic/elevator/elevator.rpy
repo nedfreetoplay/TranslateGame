@@ -82,7 +82,7 @@ label elevator_priya_check_pregnax:
     show roz 9
     roz "Make sure you get my good side!"
 
-    if is_halloween():
+    if Game.is_halloween():
         scene expression "backgrounds/location_hospital_cutscene01_halloween.jpg"
     else:
         scene expression "backgrounds/location_hospital_cutscene01.jpg"

@@ -16,6 +16,8 @@ image mc_locker = "backgrounds/location_school_locker_mc_day.jpg"
 image mc_locker_night = "backgrounds/location_school_locker_mc_night.jpg"
 image erik_locker = "backgrounds/location_school_locker_erik_day.jpg"
 image erik_locker_night = "backgrounds/location_school_locker_erik_night.jpg"
+image location_diane_garden_cutscene12 = "backgrounds/location_diane_garden_cutscene12_[M_diane.get_naked_str].jpg"
+image location_diane_garden_cutscene12b = "backgrounds/location_diane_garden_cutscene12b_[M_diane.get_naked_str].jpg"
 
 
 image popup_unfinished = "boxes/popup_unfinished.png"
@@ -418,7 +420,7 @@ image home_livingroom_b = "backgrounds/location_home_livingroom_day_blur.jpg"
 image home_livingroom_c = "backgrounds/location_home_livingroom_closeup_day.jpg"
 image home_livingroom_night = "backgrounds/location_home_livingroom_night.jpg"
 image home_livingroom_night_b = "backgrounds/location_home_livingroom_night_blur.jpg"
-image home_livingroom_night_c = "backgrounds/location_home_livingroom_closeup_night.jpg"
+image home_livingroom_night_c = "backgrounds/location_home_livingroom_couch_closeup_night.jpg"
 image home_livingroom_couch01 = "backgrounds/location_home_livingroom_couch01.jpg"
 image home_livingroom_couch02 = "backgrounds/location_home_livingroom_couch02.jpg"
 image location_home_livingroom_couch03 = "backgrounds/location_home_livingroom_couch03.jpg"
@@ -2076,8 +2078,18 @@ image clyde 28 = Image("characters/clyde/char_clyde_28.png",xoffset=96)
 image clyde 29 = Image("characters/clyde/char_clyde_29.png",xoffset=96)
 image clyde 30 = Image("characters/clyde/char_clyde_30.png",xoffset=96)
 image clyde 31 = Image("characters/clyde/char_clyde_31.png",xoffset=96)
+image clyde 32 = Image("characters/clyde/char_clyde_32.png",xoffset=96)
+image clyde 33 = Image("characters/clyde/char_clyde_33.png",xoffset=96)
+image clyde 34 = Image("characters/clyde/char_clyde_34.png",xoffset=96)
+image clyde 35 = Image("characters/clyde/char_clyde_35.png",xoffset=96)
+image clyde 36 = "characters/clyde/char_clyde_36.png"
+image clyde 37 = Image("characters/clyde/char_clyde_37.png",xoffset=49)
+image clyde 38 = Image("characters/clyde/char_clyde_38.png",xoffset=13)
+image clyde 39 = Image("characters/clyde/char_clyde_39.png",xoffset=96)
+image clyde 40 = Image("characters/clyde/char_clyde_40.png",xoffset=96)
 
 image clyde_hat = Image("characters/clyde/char_clyde_hat_left.png",xoffset=155,yoffset=-544)
+image clyde_hat down = Image("characters/clyde/char_clyde_hat_down.png",xoffset=334,yoffset=-80)
 
 
 
@@ -3139,20 +3151,26 @@ image rump_guard 2 = "characters/mayor/char_mayor_guard_02.png"
 
 
 image player 1 = "characters/player/char_player_01.png"
+image player 1b = "characters/player/char_player_01b.png"
 image player 2 = "characters/player/char_player_02.png"
 image player 3 = Image("characters/player/char_player_03.png",xoffset=8)
 image player 4 = "characters/player/char_player_04.png"
 image player 5 = "characters/player/char_player_05.png"
+image player 5b = "characters/player/char_player_05b.png"
 image player 6 = "characters/player/char_player_06.png"
 image player 7 = "characters/player/char_player_07.png"
 image player 8 = "characters/player/char_player_08.png"
 image player 8b = "characters/player/char_player_08b.png"
 image player 9 = "characters/player/char_player_09.png"
 image player 10 = "characters/player/char_player_10.png"
+image player 10b = "characters/player/char_player_10b.png"
 image player 11 = "characters/player/char_player_11.png"
 image player 12 = "characters/player/char_player_12.png"
+image player 12b = "characters/player/char_player_12b.png"
+image player 12c = "characters/player/char_player_12c.png"
 image player 13 = "characters/player/char_player_13.png"
 image player 14 = "characters/player/char_player_14.png"
+image player 14b = "characters/player/char_player_14b.png"
 image player 15 = "characters/player/char_player_15.png"
 image player 16 = "characters/player/char_player_16.png"
 image player 17 = "characters/player/char_player_17.png"
@@ -4005,6 +4023,22 @@ image player 703 = "characters/player/char_player_703.png"
 image player 705 = "characters/player/char_player_705.png"
 image player 706 = "characters/player/char_player_706.png"
 image player 707 = "characters/player/char_player_707.png"
+image player 712 = "characters/player/char_player_712.png"
+image player 713 = "characters/player/char_player_713.png"
+image player 714 = "characters/player/char_player_714.png"
+image player 714b = "characters/player/char_player_714b.png"
+image player 717 = "characters/player/char_player_717.png"
+image player 717b = "characters/player/char_player_717b.png"
+image player 717c = "characters/player/char_player_717c.png"
+image player 718 = "characters/player/char_player_718.png"
+image player 719 = "characters/player/char_player_719.png"
+image player 719b = "characters/player/char_player_719b.png"
+image player 719c = "characters/player/char_player_719c.png"
+image player 719d = "characters/player/char_player_719d.png"
+image player 720 = "characters/player/char_player_720.png"
+image player 720b = "characters/player/char_player_720b.png"
+image player 721 = "characters/player/char_player_721.png"
+image player 722 = "characters/player/char_player_722.png"
 
 image player_dick 222 = Image("characters/player/char_player_222_dick_OL.png",xoffset=104,yoffset=-94)
 

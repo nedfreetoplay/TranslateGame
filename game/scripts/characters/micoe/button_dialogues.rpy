@@ -307,8 +307,6 @@ label micoe_dialogue_pregnax:
     show micoe f_normal
     show player 14
     player_name "Don't worry, I won't tell."
-    hide player
-    hide micoe
-    with dissolve
+    show player 18
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

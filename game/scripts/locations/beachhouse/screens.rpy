@@ -1,5 +1,5 @@
 screen beach_house_front:
-    add game.timer.image("backgrounds/location_beach_house{}.jpg")
+    add player.location.background
     if not player.has_picked_up_item("beach_house_key"):
         imagebutton:
             focus_mask True
@@ -24,11 +24,11 @@ screen popup_buy_beach_house:
     imagebutton:
         focus_mask True
         align (0.5,0.72)
-        idle "buttons/shop_button_30000.png"
-        hover HoverImage("buttons/shop_button_30000.png")
+        idle "buttons/shop_button_5000.png"
+        hover HoverImage("buttons/shop_button_5000.png")
         action [Function(player.get_item, "beach_house_key"),
             If(
-                not player.has_money(30000),
+                not player.has_money(5000),
                 Show("popup_fail01"),
                 [Hide("popup_buy_beach_house"), Show("popup", Image = "boxes/popup_key4.png"), Function(A_home_sweet_home.unlock)]
             ),
@@ -36,7 +36,7 @@ screen popup_buy_beach_house:
         ]
 
 screen beach_house_entrance:
-    add game.timer.image("backgrounds/location_beach_house_entrance{}.jpg")
+    add player.location.background
     imagebutton:
         focus_mask True
         pos (184,274)
@@ -49,9 +49,16 @@ screen beach_house_entrance:
         idle game.timer.image("objects/object_stairs_08{}.png")
         hover HoverImage(game.timer.image("objects/object_stairs_08{}.png"))
         action Hide("beach_house_entrance"), Jump("beach_house_bedroom_dialogue")
+    if L_beachhouse_entrance.is_here(M_consuela):
+        imagebutton:
+            focus_mask True
+            pos (464,383)
+            idle "objects/character_consuela_01.png"
+            hover HoverImage("objects/character_consuela_01.png")
+            action Hide("beach_house_entrance"), Jump("consuela_button_dialogue")
 
 screen beach_house_bedroom:
-    add game.timer.image("backgrounds/location_beach_house_bedroom{}.jpg")
+    add player.location.background
     imagebutton:
         focus_mask True
         pos (0,290)
@@ -72,7 +79,7 @@ screen beach_house_bedroom:
         action Hide("beach_house_bedroom"), Jump("beach_house_sleeping")
 
 screen beach_house_patio:
-    add game.timer.image("backgrounds/location_beach_house_patio{}.jpg")
+    add player.location.background
     imagebutton:
         focus_mask True
         pos (797,194)

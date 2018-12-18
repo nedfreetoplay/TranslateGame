@@ -139,76 +139,76 @@ label diane_fsm_init:
         S_diane_need_shovel = State("get shovel", "Diane needs a shovel, there's one in the garage.")
 
 
-        S_diane_delivery_1_task = State("first delivery task", "Diane needs you at her house.", delay = 3)
-        S_diane_delivery_1 = State("first delivery", "You need to head to the Pizzeria for your delivery.")
+        S_diane_delivery_1_task = State("first delivery task", "Diane needs me at her house.", delay = 3)
+        S_diane_delivery_1 = State("first delivery", "I need to head to the Pizzeria for mer delivery.")
         S_diane_delivery_1_place_goods = State("first delivery place goods", "Follow Maria to the back to place the delivery goods.")
         S_diane_delivery_1_done = State("first delivery done", "Maria is indeed quite sexy...")
 
 
-        S_diane_wheelbarrow = State("wheelbarrow", "Diane needs you to lift a wheelbarrow.", delay = 3)
+        S_diane_wheelbarrow = State("wheelbarrow", "Diane needs me to lift a wheelbarrow.", delay = 3)
         S_diane_wheelbarrow_retry = State("wheelbarrow retry", "Take another shot at that wheelbarrow!", delay = 1)
 
 
-        S_diane_drunken_splur = State("drunken splur", "You should check up Diane and her garden.", delay = 1)
+        S_diane_drunken_splur = State("drunken splur", "I should check up Diane and her garden.", delay = 1)
         S_diane_get_cold_towel = State("get cold towel", "Find a cold towel for Diane.")
         S_diane_bring_cold_towel = State("bring cold towel", "Now to return to Diane.")
         S_diane_drunken_splur_aftermath = State("drunken splur aftermath", "I should let her rest")
 
 
-        S_diane_bug_infested_garden = State("bug infested garden", "You should check up on Diane and her garden.")
-        S_diane_clean_garden = State("clean garden", "You need to try to clean up that infestation!")
-        S_diane_clean_garden_report = State("clean garden report", "You should tell Diane the job is done.")
-        S_diane_go_to_mall = State("go to mall", "You and Diane are going to the mall.")
-        S_diane_go_to_consumr = State("go to consumr", "You need to look in Consumr for bug spray.")
-        S_diane_get_bug_spray = State("get bug spray", "You need to get bug spray for the garden.")
+        S_diane_bug_infested_garden = State("bug infested garden", "I should check up on Diane and her garden.")
+        S_diane_clean_garden = State("clean garden", "I need to try to clean up that infestation!")
+        S_diane_clean_garden_report = State("clean garden report", "I should tell Diane the job is done.")
+        S_diane_go_to_mall = State("go to mall", "Diane and I are going to the mall.")
+        S_diane_go_to_consumr = State("go to consumr", "I need to look in Consumr for bug spray.")
+        S_diane_get_bug_spray = State("get bug spray", "I need to get bug spray for the garden.")
         S_diane_clear_bug_infested_garden = State("clear bug infested garden", "Use the spray to clear the garden.")
         S_diane_garden_restored = State("garden restored", "Tell diane the garden has been cleared.")
 
 
-        S_diane_check_up_on_garden = State("check up on garden", "You should check up on Diane and her garden.", delay = 1)
+        S_diane_check_up_on_garden = State("check up on garden", "I should check up on Diane and her garden.", delay = 1)
         S_diane_look_in_kitchen = State("look in kitchen", "Diane isn't in her garden, maybe the kitchen ?")
         S_diane_seen_cucumber = State("seen cucumber", "Diane is certainly into some weird sex stuff")
         S_diane_work_on_garden = State("work on garden", "Should probably work on the garden now...")
 
 
         S_diane_get_augmentation = State("get augmentation", "I'm tired, I should get some sleep...")
-        S_diane_pump_request = State("pump request", "Diane has a small task for you.")
-        S_diane_fetch_pump = State("fetch pump", "The pump should be in the shed.")
-        S_diane_return_pump = State("return pump", "You should bring the pump back to Diane.")
+        S_diane_pump_request = State("pump request", "Diane has a small task for me.")
+        S_diane_fetch_pump = State("fetch pump", "The pump should be in the kitchen.")
+        S_diane_return_pump = State("return pump", "I should bring the pump back to Diane.")
 
 
-        S_diane_delivery_2_task = State("second delivery task", "Diane needs you at her house.", delay = 3)
+        S_diane_delivery_2_task = State("second delivery task", "Diane needs me at her house.", delay = 3)
         S_diane_delivery_2_fetch_goods = State("second delivery fetch goods", "Fetch the delivery from the shed.")
-        S_diane_delivery_2 = State("second delivery", "You need to head to Annie's house for the delivery.")
+        S_diane_delivery_2 = State("second delivery", "I need to head to Annie's house for the delivery.")
         S_diane_delivery_2_done = State("second delivery done", "Diane seems to be struggling to meet her delivery demands.")
         S_diane_delivery_2_resting = State("second delivery resting", "Diane is exhausted and needs to rest some more.")
 
 
-        S_diane_d9_intro = State("d9 intro", "Diane wants to talk to you in her garden", delay = 1)
-        S_diane_debbie_drop_off_request = State("debbie drop off request", "Debbie has something to ask of you.")
-        S_diane_debbie_drop_off = State("debbie drop off", "Debbie asked you to drop something off at Diane's.")
+        S_diane_d9_intro = State("d9 intro", "Diane wants to talk to me in her garden", delay = 1)
+        S_diane_debbie_drop_off_request = State("debbie drop off request", "Debbie has something to ask of me.")
+        S_diane_debbie_drop_off = State("debbie drop off", "Debbie asked me to drop something off at Diane's.")
         S_diane_check_shed_light = State("check shed light", "The shed lights are still on.")
 
 
-        S_diane_ready_for_day_off = State("ready for day off", "You should see what Diane is doing.", delay = 1)
+        S_diane_ready_for_day_off = State("ready for day off", "I should see what Diane is doing.", delay = 1)
         S_diane_dump_pump = State("dump pump", "I should dump the content of the pump in the shed into the storage jug.")
-        S_diane_daylight_drinking = State("daylight drinking", "You should go see what Diane is doing.")
+        S_diane_daylight_drinking = State("daylight drinking", "I should go see what Diane is doing.")
         S_diane_make_drink = State("make drink", "Head to the kitchen to make another drink for Diane.")
         S_diane_return_drink = State("return drink", "Return to Diane with the drink.")
         S_diane_drunken_garden_work = State("drunken garden work", "Do some gardening while diane drinks the day away.")
 
 
-        S_diane_drunken_shenanigans_apology = State("drunken shenanigans apology", "You should check up on Diane to see if she is okay.", delay = 1)
+        S_diane_drunken_shenanigans_apology = State("drunken shenanigans apology", "I should check up on Diane to see if she is okay.", delay = 1)
 
 
         S_diane_gardening_help = State("gardening help", "Time to see if Diane needs anything again.", delay = 2)
         S_diane_milking_help = State("milking help", "Diane seemed in pain. Hurry to the shed.")
 
 
-        S_diane_debbie_evening_visit = State("debbie evening visit", "You hear something from the kitchen in the evening.", delay = 1)
+        S_diane_debbie_evening_visit = State("debbie evening visit", "I hear something from the kitchen in the evening.", delay = 1)
 
 
-        S_diane_delivery_3_task = State("delivery 3 task", "Diane has another delivery for you to do.", delay = 1)
+        S_diane_delivery_3_task = State("delivery 3 task", "Diane has another delivery for me to do.", delay = 1)
         S_diane_delivery_3_fetch_goods = State("delivery 3 fetch goods", "Get the delivery goods from the shed.")
         S_diane_delivery_3 = State("delivery 3", "Deliver the goods to the School Cafeteria.")
         S_diane_delivery_3_fetch_invoice = State("delivery 3 fetch invoice", "Annie requires a delivery invoice from Principal Smith.")
@@ -216,42 +216,42 @@ label diane_fsm_init:
         S_diane_delivery_3_done = State("delivery 3 done", "Report to Diane about the delivery.")
 
 
-        S_diane_debbie_dinner = State("debbie dinner", "Debbie needs your help for dinner with Diane.", delay = 1)
-        S_diane_meet_debbie_kitchen = State("meet debbie kitchen", "You should go see [deb_name] in the kitchen")
-        S_diane_debbie_dinner_outfit = State("debbie dinner outfit", "Debbie wants your advice on her dinner outfit.")
-        S_diane_debbie_dinner_fish = State("debbie dinner fish", "You need to acquire a fish for the dinner with Diane.")
+        S_diane_debbie_dinner = State("debbie dinner", "Debbie needs mer help for dinner with Diane.", delay = 1)
+        S_diane_meet_debbie_kitchen = State("meet debbie kitchen", "I should go see [deb_name] in the kitchen")
+        S_diane_debbie_dinner_outfit = State("debbie dinner outfit", "Debbie wants mer advice on her dinner outfit.")
+        S_diane_debbie_dinner_fish = State("debbie dinner fish", "I need to acquire a fish for the dinner with Diane.")
         S_diane_dinner = State("dinner", "Time for dinner with Diane and the gang.")
 
 
-        S_diane_find_carpenter = State("find carpenter", "You need to look for a carpenter to help build the barn.", delay = 1)
+        S_diane_find_carpenter = State("find carpenter", "I need to look for a carpenter to help build the barn. Diane may know who to ask.", delay = 1)
         S_diane_ask_help_annie = State("ask help annie", "I need to help Annie's dad to build some tools before he can work on Diane's barn.")
-        S_diane_help_annie = State("help annie", "In exchange for carpenting services, you need to help Annie.")
+        S_diane_help_annie = State("help annie", "In exchange for carpenting services, me need to help Annie.")
         S_diane_build_toys = State("build toys", "Time to build some toys!")
-        S_diane_inform_carpenter = State("inform carpenter", "Inform the carpenter that your end of the deal is completed.")
-        S_diane_couch_crashing = State("couch crashing", "You hear some noises coming from the living room in the evening.")
+        S_diane_inform_carpenter = State("inform carpenter", "Inform the carpenter that mer end of the deal is completed.")
+        S_diane_couch_crashing = State("couch crashing", "I hear some noises coming from the living room in the evening.")
 
 
         S_diane_barn_news = State("barn news", "Diane has news about the barn.", delay = 7)
         S_diane_check_barn_out = State("check barn out", "Let's check the progress on Diane's barn!")
         S_diane_get_milk_jug = State("get milk jug", "I need a milk jug from Consumr.")
         S_diane_buy_milk_jug = State("buy milk jug", "I need a milk jug from Consumr.")
-        S_diane_increase_milk_production = State("increase milk production", "Diane needs your help to find out how to increase milk production.")
-        S_diane_production_ask_librarian = State("production ask librarian", "You should ask the librarian if the Library has a book on how to increase production.")
+        S_diane_increase_milk_production = State("increase milk production", "Diane needs mer help to find out how to increase milk production.")
+        S_diane_production_ask_librarian = State("production ask librarian", "I should ask the librarian if the Library has a book on how to increase production.")
         S_diane_check_bookshelf = State("check bookshelf", "The librarian says the book is on the shelf.")
         S_diane_return_production_book = State("return production book", "Time to return the book to Diane.")
 
 
         S_diane_peeking = State("peeking", "NB! Debbie's story needs to be complete for this.", delay = 2)
         S_diane_peeking_masturbate = State("peeking masturbate", "Time to beat the meat!")
-        S_diane_breeding_candidate = State("creeding candidate", "Diane has an idea that she wants to run by you.")
+        S_diane_breeding_candidate = State("creeding candidate", "Diane has an idea that she wants to run by me.")
         S_diane_barn_checkup = State("barn checkup", "Diane told me to meet her at the Barn")
-        S_diane_jizz_checkup = State("jizz checkup", "You should head to the hospital for a checkup.")
+        S_diane_jizz_checkup = State("jizz checkup", "I should head to the hospital for a checkup.")
         S_diane_jizz_checkup_extra_hand = State("jizz checkup extra hand", "Need to head into the bathroom to get that sample.")
         S_diane_checkup_results = State("checkup results", "Head on back to Diane with the results.")
 
 
         S_diane_outfit_package = State("outfit package", "I should check up on Diane at the Barn", delay = 1)
-        S_diane_get_outfit_package = State("get outfit package", "You need to collect the package for Diane from the Pink store.")
+        S_diane_get_outfit_package = State("get outfit package", "I need to collect the package for Diane from the Pink store.")
         S_diane_return_outfit_package = State("return outfit package", "Head on to Diane to hand over the package.")
 
 
@@ -455,8 +455,8 @@ label diane_fsm_init:
         S_diane_return_production_book.add(T_diane_gave_production_book, S_diane_peeking)
 
 
-        S_diane_peeking.add(T_diane_gotta_jack_it, S_diane_peeking_masturbate)
-        S_diane_peeking_masturbate.add(T_diane_learns_your_secret, S_diane_breeding_candidate)
+        S_diane_peeking.add(T_diane_gotta_jack_it, S_diane_peeking_masturbate, actions=["exec", game.lock_sleep])
+        S_diane_peeking_masturbate.add(T_diane_learns_your_secret, S_diane_breeding_candidate, actions=["exec", game.unlock_sleep])
         S_diane_breeding_candidate.add(T_diane_breeding_partner, S_diane_barn_checkup)
         S_diane_barn_checkup.add(T_diane_go_to_hospital, S_diane_jizz_checkup,
                                  actions = ["exec", L_hospital.unlock,

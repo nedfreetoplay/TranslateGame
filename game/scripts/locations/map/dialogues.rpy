@@ -44,7 +44,7 @@ label map_erik_intro_in_progress:
     eri "A job where I could just sit at my computer playing games all day, heh..."
     show erik 1
     show player 14
-    player_name "Oh! Speaking of computer... I think mine is {b}broken{/b}?"
+    player_name "Oh, speaking of computers... {b}Mine is definitely broken{/b}."
     show player 35
     player_name "I think I need to replace some parts in it, or something..."
     show player 12

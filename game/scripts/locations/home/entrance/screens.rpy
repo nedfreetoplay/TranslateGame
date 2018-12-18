@@ -2,14 +2,20 @@ screen entrance:
     add L_home_entrance.background
 
 
-    if (M_mom.is_state(S_mom_diane_visit) or (M_diane.is_state(S_diane_debbie_evening_visit))) and game.timer.is_evening():
+    if M_mom.is_state(S_mom_diane_visit) and game.timer.is_evening():
         imagebutton:
             focus_mask True
             pos (699,236)
             idle "objects/object_door_35_evening.png"
             hover HoverImage("objects/object_door_35_evening.png")
             action Hide("entrance"), Function(playSound), Jump("home_kitchen_dialogue")
-
+    elif M_diane.is_state(S_diane_debbie_evening_visit) and game.timer.is_evening():
+        imagebutton:
+            focus_mask True
+            pos (699,236)
+            idle "objects/object_door_35_evening03.png"
+            hover HoverImage("objects/object_door_35_evening03.png")
+            action Hide("entrance"), Function(playSound), Jump("home_kitchen_dialogue")
     else:
         imagebutton:
             focus_mask True

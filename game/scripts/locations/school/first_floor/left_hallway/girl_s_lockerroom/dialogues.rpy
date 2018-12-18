@@ -443,7 +443,7 @@ label girls_lockerroom_roxxy_lockerroom_event:
     becca "I can't believe {b}Coach Bridget{/b} really suspended you from the team!"
     show becca 1
     show missy 2
-    missy "Yeah, doesn't she realize that the team is going to suck hardcore with you?"
+    missy "Yeah, doesn't she realize that the team is going to suck hardcore without you?"
     show missy 1
     show becca 6
     becca "Well, we aren't THAT bad."

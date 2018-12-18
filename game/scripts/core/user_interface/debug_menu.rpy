@@ -78,6 +78,17 @@ screen debug_menu(current_screen):
                     add Input(size=20, color="#fefefe", default="", changed=setDebugMenuPythonToWatch, length=60, allow = " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789./*-+'{}[]()_&|\"\\=%,;:#")
                     textbutton "Watch" action Function(renpy.watch, store.debugMenuPythonToWatch)
                     textbutton "Unwatch" action Function(renpy.unwatch, store.debugMenuPythonToWatch)
+                hbox:
+                    xfill True
+                    textbutton "Toggle Debug Period" action Function(Game.toggle_debug_period)
+                    text "[game.get_period_str]" color "#c61f1d" size 16
+                hbox:
+                    xfill True
+                    textbutton "Toggle Label Name Notification" action ToggleField(persistent, "notify_label_name")
+                    if persistent.notify_label_name:
+                        text "Label name notifications are ON" color "#c61f1d" size 16
+                    else:
+                        text "Label name notifications are OFF" color "#28701d" size 16
 
             elif current_screen == "player":
                 hbox:

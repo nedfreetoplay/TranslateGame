@@ -1,5 +1,5 @@
 screen basement:
-    add game.timer.image("backgrounds/location_home_basement_day{}.jpg")
+    add player.location.background
 
     imagebutton:
         focus_mask True

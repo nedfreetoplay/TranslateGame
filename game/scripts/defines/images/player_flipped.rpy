@@ -258,11 +258,20 @@ image player 670f = im.Flip("characters/player/char_player_670.png",horizontal=T
 image player 670bf = im.Flip("characters/player/char_player_670b.png",horizontal=True)
 image player 671f = im.Flip("characters/player/char_player_671.png",horizontal=True)
 image player 672f = im.Flip("characters/player/char_player_672.png",horizontal=True)
+image player 688bf = im.Flip("characters/player/char_player_688b.png",horizontal=True)
+image player 688cf = im.Flip("characters/player/char_player_688c.png",horizontal=True)
 image player 691bf = im.Flip("characters/player/char_player_691b.png",horizontal=True)
 image player 691cf = im.Flip("characters/player/char_player_691c.png",horizontal=True)
 image player 691df = im.Flip("characters/player/char_player_691d.png",horizontal=True)
 image player 704f = im.Flip("characters/player/char_player_704.png",horizontal=True)
 image player 705f = im.Flip("characters/player/char_player_705.png",horizontal=True)
+image player 715f = im.Flip("characters/player/char_player_715.png",horizontal=True)
+image player 715bf = im.Flip("characters/player/char_player_715b.png",horizontal=True)
+image player 715cf = im.Flip("characters/player/char_player_715c.png",horizontal=True)
+image player 708f = im.Flip("characters/player/char_player_708.png",horizontal=True)
+image player 709f = im.Flip("characters/player/char_player_709.png",horizontal=True)
+image player 719f = im.Flip("characters/player/char_player_719.png",horizontal=True)
+image player 719bf = im.Flip("characters/player/char_player_719b.png",horizontal=True)
 
 image player_wet_f = im.Flip("characters/player/char_player_wet.png",xoffset=-48,yoffset=-328, horizontal=True)
 
@@ -296,6 +305,11 @@ image playerfb 1f = im.Flip("characters/player/char_player_front_boner_01.png", 
 image playerfb 2f = im.Flip("characters/player/char_player_front_boner_02.png", horizontal=True)
 image playerfb 3f = im.Flip("characters/player/char_player_front_boner_03.png", horizontal=True)
 
+
+image clyde 1f = im.Flip("characters/clyde/char_clyde_01.png",horizontal=True)
+image clyde 2f = im.Flip("characters/clyde/char_clyde_02.png",horizontal=True)
+image clyde 3f = im.Flip("characters/clyde/char_clyde_03.png",horizontal=True)
+image clyde 4f = im.Flip("characters/clyde/char_clyde_04.png",horizontal=True)
 
 
 image jersey 10f = im.Flip("characters/jersey/char_jersey_10.png", horizontal=True)
@@ -576,6 +590,11 @@ image principal 26f = im.Flip( "characters/principal/char_principal_26.png", hor
 image principal 27f = im.Flip( "characters/principal/char_principal_27.png", horizontal=True)
 image principal 28f = im.Flip( "characters/principal/char_principal_28.png", horizontal=True)
 image principal 29f = im.Flip("characters/principal/char_principal_29.png",xoffset=70, horizontal=True)
+
+
+
+image martinez 20f = im.Flip("characters/latinas/char_latinas_20.png",horizontal=True)
+image martinez 21f = im.Flip("characters/latinas/char_latinas_21.png",horizontal=True)
 
 
 image eve 1f = im.Flip("characters/eve/char_eve_01.png", horizontal=True)

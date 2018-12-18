@@ -7,6 +7,13 @@ label beach_house_entrance_dialogue:
     if L_beachhouse_entrance.first_visit:
         call expression game.dialog_select("beach_house_first_time")
         $ L_beachhouse_entrance.first_visit = False
+    if L_beachhouse_entrance.is_here(M_consuela) and M_consuela.is_state(S_consuela_start):
+        call expression game.dialog_select("beach_house_entrance_meet_consuela")
+        $ M_consuela.trigger(T_consuela_intro)
+
+    if L_beachhouse_entrance.is_here(M_consuela) and M_consuela.is_state(S_consuela_end) and player.has_item("mysterious_statue_1") and player.has_item("mysterious_statue_2") and not player.has_item("mysterious_statue_3"):
+        call expression game.dialog_select("beach_house_entrance_mysterious_statue_3")
+        $ player.get_item("mysterious_statue_3")
     $ game.main()
 
 label beach_house_bedroom_dialogue:

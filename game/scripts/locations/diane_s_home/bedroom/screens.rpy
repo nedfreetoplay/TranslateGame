@@ -21,8 +21,8 @@ screen dianes_bedroom:
         imagebutton:
             focus_mask True
             pos (228,141)
-            idle "images/objects/object_bed_07.png"
-            hover HoverImage("images/objects/object_bed_07.png")
+            idle "images/objects/object_bed_07b.png"
+            hover HoverImage("images/objects/object_bed_07b.png")
             action Hide("dianes_bedroom"), Jump(game.dialog_select("diane_bedroom_diane_delivery_2_done"))
 
     imagebutton:

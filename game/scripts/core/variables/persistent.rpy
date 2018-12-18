@@ -17,4 +17,10 @@ init -3 python:
 
     if persistent.display_android_text is None:
         persistent.display_android_text = True
+
+    if persistent.enable_save_locking is None:
+        persistent.enable_save_locking = True
+
+    if persistent.notify_label_name is None:
+        persistent.notify_label_name = False
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -14,9 +14,9 @@ label take_caveflower:
 
 label take_caveflower_dialogue:
     show expression game.timer.image("backgrounds/location_forest_cave{}_blur.jpg")
-    show expression "boxes/popup_item_flower1.png" at truecenter with dissolve
+    show expression "boxes/popup_item_flower8.png" at truecenter with dissolve
     pause
-    hide expression "boxes/popup_item_flower1.png" with dissolve
+    hide expression "boxes/popup_item_flower8.png" with dissolve
     scene location_forest_cave_night_blur
     show player 559
     with dissolve

@@ -1,5 +1,5 @@
 screen home_front:
-    add game.timer.image("backgrounds/location_home_front_day{}.jpg")
+    add player.location.background
 
     imagebutton:
         if game.mail["player"] != "" or (erik.completed(erik_orcette) and not player.has_item("orcette") and not erik.known(erik_orcette_2) and orcette_mail_lock):

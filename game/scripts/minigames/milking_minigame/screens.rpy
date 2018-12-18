@@ -1,6 +1,6 @@
 init python:
     class MilkingMinigame(renpy.Displayable):
-        def __init__(self, **properties):
+        def __init__(self, character="diane", **properties):
             super(MilkingMinigame, self).__init__(**properties)
             
             
@@ -11,18 +11,26 @@ init python:
             
             
             
+            self.character = character
             
             self._bg = renpy.displayable("backgrounds/location_barn_minigame.jpg")
-            self.l_tit_d = renpy.displayable("buttons/milking_boob_01.png")
-            self.l_tit_squeezed_d = renpy.displayable("buttons/milking_boob_02.png")
-            self.r_tit_d = im.Flip("buttons/milking_boob_01.png", horizontal=True)
-            self.r_tit_squeezed_d = im.Flip("buttons/milking_boob_02.png", horizontal=True)
+            if self.character == "daisy":
+                self.l_tit_d = renpy.displayable("buttons/milking_boob_03.png")
+                self.l_tit_squeezed_d = renpy.displayable("buttons/milking_boob_04.png")
+                self.r_tit_d = im.Flip("buttons/milking_boob_03.png", horizontal=True)
+                self.r_tit_squeezed_d = im.Flip("buttons/milking_boob_04.png", horizontal=True)
+            
+            else:
+                self.l_tit_d = renpy.displayable("buttons/milking_boob_01.png")
+                self.l_tit_squeezed_d = renpy.displayable("buttons/milking_boob_02.png")
+                self.r_tit_d = im.Flip("buttons/milking_boob_01.png", horizontal=True)
+                self.r_tit_squeezed_d = im.Flip("buttons/milking_boob_02.png", horizontal=True)
             
             self.l_pump = renpy.displayable("buttons/milking_pump.png")
             self.r_pump = im.Flip("buttons/milking_pump.png", horizontal=True)
             self.milk_resting = renpy.displayable("buttons/milking_milk_01.png")
             self.milk_moving_parts = [renpy.displayable("buttons/milking_milk_02.png"),
-                                renpy.displayable("buttons/milking_milk_03.png")]
+                                      renpy.displayable("buttons/milking_milk_03.png")]
             self.milk_moving = None
             
             self.l_button_d = renpy.displayable("buttons/milking_button_left.png")
@@ -135,10 +143,16 @@ init python:
                 elif M_diane.pregnancy.stage > 2:
                     self._multiplier = 1.5
                 renpy.hide_screen("milking_minigame")
-                renpy.call("milking_minigame_done", int(self._earnings * self._multiplier))
+                if self.character == "diane":
+                    renpy.call("milking_minigame_done", int(self._earnings * self._multiplier))
+                elif self.character == "daisy":
+                    renpy.call("milking_minigame_done_daisy", int(self._earnings * self._multiplier))
             if self.numbers_in_a_row_count > 4:
                 renpy.hide_screen("milking_minigame")
-                renpy.jump("milking_minigame_fail")
+                if self.character == "diane":
+                    renpy.jump("milking_minigame_fail")
+                elif self.character == "daisy":
+                    renpy.jump("milking_minigame_fail_daisy")
             return
         
         def on_event(self, side):
@@ -188,6 +202,6 @@ init python:
                         self.on_event("right")
             pass
 
-screen milking_minigame:
-    add MilkingMinigame()
+screen milking_minigame(character="diane"):
+    add MilkingMinigame(character)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

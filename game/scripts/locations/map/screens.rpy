@@ -273,6 +273,7 @@ screen town_map:
     add "sparkle02"
     add "sparkle03"
     add "cloud01"
-    if datetime.date.today().month == 12 and 15 <= datetime.date.today().day <= 30 and random.random() >= 0.9:
-        add game.timer.image("santa_car[}")
+    if Game.is_christmas() and random.random() >= 0.9:
+        $ A_hes_real.unlock()
+        add game.timer.image("santa_car{}")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

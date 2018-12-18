@@ -228,33 +228,15 @@ label garage_lawnmower_not_needed:
     hide player 35 with dissolve
     return
 
-label garage_use_workbench:
-    if M_dewitt.is_state(S_dewitt_make_new_flute) and player.has_item("drill") and player.has_item("stick"):
-        call expression game.dialog_select("garage_dewitt_make_new_flute")
-        $ player.remove_item("broken_flute")
-        $ player.remove_item("drill")
-        $ player.remove_item("stick")
-        $ player.get_item("flute")
-        $ game.timer.tick()
-        $ M_dewitt.trigger(T_dewitt_fix_flute)
-
-    elif M_dewitt.is_state(S_dewitt_make_replacement_guitar) and player.has_item("paint") and player.has_item("wood_pile"):
-        call expression game.dialog_select("garage_dewitt_make_replacement_guitar")
-        $ player.remove_item("wood_pile")
-        $ player.remove_item("paint")
-        $ player.get_item("fake_guitar")
-        $ game.timer.tick()
-        $ M_dewitt.trigger(T_dewitt_made_replacement_guitar)
-
-    elif M_ross.is_state(S_ross_get_easels) and player.has_item("wood_pile"):
-        call expression game.dialog_select("garage_build_easels")
-        $ player.remove_item("wood_pile")
-        $ player.get_item("easels")
-        $ game.timer.tick()
-    else:
-
-        call expression game.dialog_select("garage_workbench_not_needed")
-    $ game.main()
+label garage_use_workbench_night:
+    scene expression player.location.background_blur
+    show player 3 with dissolve
+    player_name "( Damn! I can't see a thing! )"
+    show player 4 with dissolve
+    player_name "( And the light fixture is broken! )"
+    player_name "( I should come back and work on this during the {b}day{/b}... )"
+    hide player with dissolve
+    return
 
 label garage_dewitt_drill:
     call expression game.dialog_select("garage_dewitt_drill_dialogue")
@@ -662,6 +644,7 @@ label car_mom_bj_cum:
     deb "... {b}*Gulp*{/b}"
     show debbie car 2 at right
     hide debbie_arms_car
+    hide debbie_car_bj
     show debbie_arms_car 1
     hide xtra
     show xtra 30 at right

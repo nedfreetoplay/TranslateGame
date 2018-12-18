@@ -17,7 +17,7 @@ label judith_dialogue_start:
     player_name "Oh. For what?"
     show judith 3 at right
     show player 13 at left
-    jud "In the locker room... You made me feel... safe."
+    jud "In the {b}boys locker room{/b}... You made me feel... safe."
     show judith 4 at right
     show player 11 at left
     player_name "Oh..."
@@ -93,7 +93,7 @@ label judith_dialogue_art_classroom_intro:
 
 label judith_dialogue_bathroom_fun:
     show player 2
-    player_name "Say, would you like to sneak into the girls locker for a little... You know?"
+    player_name "Say, would you like to sneak into the {b}girls locker room{/b} for a little... You know?"
     show player 1
     show judith 5
     jud "... You really want to..."

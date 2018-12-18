@@ -36,6 +36,8 @@ init python:
                     player.messages.remove("{}_pregnancy_labor".format(self.name))
                 except ValueError:
                     pass
+                except NameError:
+                    pass
         
         def copy(self):
             p = PregnancyManager(self.name, True)
@@ -49,6 +51,10 @@ init python:
             for mname, m in store.machines.items():
                 pm = m.pregnancy
                 if pm:
+                    if pm.stage == 1 and not pm.text_announcement_seen:
+                        continue
+                    if pm.stage == 5 and not pm.text_labor_seen:
+                        continue
                     pm.days_elapsed += 1
                     if pm.character_bedridden and pm.days_elapsed == 38:
                         pm.character_bedridden = False
@@ -60,12 +66,12 @@ init python:
                             pm.init()
                         else:
                             pm.stage += 1
-                            if pm.stage == 1 and "{}_pregnancy".format(pm.name) not in player.messages:
-                                player.receive_message("{}_pregnancy".format(pm.name))
-                            if pm.stage == 5 and "{}_pregnancy_labor".format(pm.name) not in player.messages:
-                                pm.character_bedridden = True
-                                pm.randomize_gender()
-                                player.receive_message("{}_pregnancy_labor".format(pm.name))
+                    if pm.stage == 1 and "{}_pregnancy".format(pm.name) not in player.messages:
+                        player.receive_message("{}_pregnancy".format(pm.name))
+                    if pm.stage == 5 and "{}_pregnancy_labor".format(pm.name) not in player.messages:
+                        pm.character_bedridden = True
+                        pm.randomize_gender()
+                        player.receive_message("{}_pregnancy_labor".format(pm.name))
             for k, v in store.pregnancy_managers.items():
                 store.pregnancy_managers[k] = v.copy()
                 store.machines[k].pregnancy = store.pregnancy_managers[k]
@@ -96,6 +102,13 @@ init python:
         @property
         def to_string(self):
             return self.__str__()
+        
+        @property
+        def apparent_stage(self):
+            if self.stage in (3,4):
+                return 3
+            else:
+                return self.stage
 
 label INIT_PMS:
     python:

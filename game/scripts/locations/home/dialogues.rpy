@@ -748,7 +748,7 @@ label home_front_mom_bad_guys_revisit:
     player_name "!!!"
     show white zorder 4 with dissolve
     show debbies 47 at Position(xpos=498,ypos=768)
-    show playersex 33 zorder 3 at Position(xpos=521,ypos=508)
+    show playersex 33 zorder 3 at Position(xpos=610,ypos=880)
     hide white with dissolve
     pause
     show debbies 48

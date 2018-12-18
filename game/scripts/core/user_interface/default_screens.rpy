@@ -272,13 +272,6 @@ screen main_menu() tag menu:
         side "tl":
             textbutton "For an optimal experience,\nplease install the SwiftKey keyboard." action SetField(persistent, "display_android_text", False) background None text_size 10 text_color "#FEFEFE"
 
-    imagebutton:
-        focus_mask True
-        align 0.1, 0.98
-        idle "buttons/clear_persistent.png"
-        hover HoverImage("buttons/clear_persistent.png")
-        action ClearPersistent()
-
 screen navigation() tag menu:
     imagemap:
         ground "backgrounds/menu_quickmenu.jpg"
@@ -382,6 +375,13 @@ screen preferences() tag menu:
 
     if persistent.allow_internet_connections:
         add "buttons/checkbox.png" pos 766,376
+
+    imagebutton:
+        focus_mask True
+        pos 601,619
+        idle "buttons/clear_persistent.png"
+        hover HoverImage("buttons/clear_persistent.png")
+        action ClearPersistent()
 
 screen quick_preferences tag menu:
     $ autosaving_enabled = persistent.autosaving_enabled

@@ -67,7 +67,6 @@ label veronica_dialogue_vegatable_stock:
     player_name "Hmm, I guess {b}Chicken Stock{/b} will have to do."
     show player 2
     player_name "I should buy some and take it to Okita."
-
     return
 
 label veronica_dialogue_bug_spray:

@@ -1,7 +1,7 @@
 init python:
     savegame_version_required = config.version
     def check_savegame():
-        if config.developer:
+        if config.developer or not persistent.enable_save_locking:
             return
         try:
             savegame_version
@@ -28,6 +28,9 @@ label bad_savegame:
 
 
 
+
+label game_main:
+    $ game.main()
 
 label splashscreen:
     scene black
@@ -105,6 +108,8 @@ label start:
     if firstname.strip() == "":
         $ firstname = "Anon"
         $ persistent.firstname = "Anon"
+    if "jackhammer" in firstname.lower():
+        $ A_the_jackhammer.unlock()
     $ player = Player(firstname)
     call INIT_GLOBAL
     $ player.go_to(L_home_bedroom)
@@ -184,7 +189,7 @@ label intro_dialogue:
     stop music fadeout 2
     $ playSound("<loop 7 to 114>audio/ambience_suburb.ogg")
     show expression "backgrounds/intro_04.jpg"
-    show expression FilteredText("Now a month later, things are finally starting settle down.\nI've gotten used to my new living arrangement and today will be my first day back at college.\nIt'll be nice to see my friends again.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Now a month later, things are finally starting to settle down.\nI've gotten used to my new living arrangement and today will be my first day back at college.\nIt'll be nice to see my friends again.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     show expression FilteredText("There are {i}3 things{/i} I have to take care of before the end of the semester.\n1) - {b}I have to secure a way to pay for next semester's tuition.{/b}\n2) - {b}I have to uncover the truth about my father's murder.{/b}\n3) - {b}I have to find a date for the Sorority Ball.{/b}") as cutscene at Position (xpos= 512, ypos= 700) with dissolve

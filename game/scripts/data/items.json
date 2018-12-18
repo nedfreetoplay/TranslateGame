@@ -1056,7 +1056,7 @@
         "id": "118",
         "name": "{b}Psychotropic Euphorbia:{/b}",
         "cost": "0",
-        "image": "objects/item_flower1.png",
+        "image": "objects/item_flower8.png",
         "description" : "A glow in the dark flower.",
         "closeup": "",
         "dialogue_label": ""
@@ -1145,7 +1145,7 @@
     "beach_house_key": {
         "id": "128",
         "name": "{b}Beach House Key:{/b}",
-        "cost": "30000",
+        "cost": "5000",
         "image": "objects/item_key5.png",
         "description": "The key to your very own home.",
         "closeup": "",
@@ -1331,7 +1331,7 @@
         "closeup": "",
         "dialogue_label": ""
     },
-        "fertility_pills": {
+    "fertility_pills": {
         "id": "149",
         "name": "{b}Fertility Pills:{/b}",
         "cost": "0",
@@ -1340,13 +1340,220 @@
         "closeup": "",
         "dialogue_label": "pregnax_pills"
     },
-        "mysterious_statue_1": {
+    "mysterious_statue_1": {
         "id": "150",
-        "name": "{b}Mysterious Statue:{/b}",
+        "name": "{b}Mysterious Statue(Legs):{/b}",
         "cost": "0",
         "image": "objects/item_statue1.png",
-        "description": "A mysterious statue {b}Richard{/b} found when making the barn.",
+        "description": "A mysterious statue piece that {b}Richard{/b} found when building the barn.",
         "closeup": "objects/closeup_statue_01.png",
         "dialogue_label": "mysterious_statue_1"
+    },
+    "mysterious_statue_2": {
+        "id": "151",
+        "name": "{b}Mysterious Statue(Torso):{/b}",
+        "cost": "0",
+        "image": "objects/item_statue2.png",
+        "description": "A mysterious statue piece that {b}Clyde{/b} gave to me in exchange for a {b}Pink Beaver{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "mysterious_statue_3": {
+        "id": "152",
+        "name": "{b}Mysterious Statue(Head):{/b}",
+        "cost": "0",
+        "image": "objects/item_statue3.png",
+        "description": "A mysterious statue piece that I found in the {b}Graveyard{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_1": {
+        "id": "153",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush1.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_2": {
+        "id": "154",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush2.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_3": {
+        "id": "155",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush3.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_4": {
+        "id": "155",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush4.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_5": {
+        "id": "156",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush5.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_6": {
+        "id": "157",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush6.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_7": {
+        "id": "158",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush7.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_8": {
+        "id": "159",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush8.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_9": {
+        "id": "160",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush9.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_10": {
+        "id": "161",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush10.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_11": {
+        "id": "162",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "200",
+        "image": "objects/item_plush11.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "plush_12": {
+        "id": "163",
+        "name": "{b}Stuffed Doll:{/b}",
+        "cost": "100",
+        "image": "objects/item_plush12.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_1": {
+        "id": "164",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower1.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_2": {
+        "id": "165",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower2.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_3": {
+        "id": "166",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower3.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_4": {
+        "id": "167",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower4.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_5": {
+        "id": "168",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower5.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_6": {
+        "id": "169",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower6.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "flower_7": {
+        "id": "170",
+        "name": "{b}Flowers:{/b}",
+        "cost": "50",
+        "image": "objects/item_flower7.png",
+        "description": "I bought this at {b}Cupid{/b}.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "milk_sample": {
+        "id": "171",
+        "name": "{b}Milk:{/b}",
+        "cost": "0",
+        "image": "objects/item_jar1.png",
+        "description": "{b}Diane{/b} gave me this sample of her delicious milk!",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "veggie_pizza": {
+        "id": "172",
+        "name": "{b}Vegetarian Pizza:{/b}",
+        "cost": "20",
+        "image": "objects/item_pizza1.png",
+        "description": "{b}Daisy{/b} sure seems to enjoy these pizzas!",
+        "closeup": "",
+        "dialogue_label": ""
     }
 }

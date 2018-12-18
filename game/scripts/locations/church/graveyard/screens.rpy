@@ -1,5 +1,5 @@
 screen church_graveyard:
-    if (datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2):
+    if Game.is_halloween():
         add game.timer.image("backgrounds/location_church_graveyard_halloween_day{}.jpg")
     else:
         add game.timer.image("backgrounds/location_church_graveyard_day{}.jpg")

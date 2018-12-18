@@ -49,7 +49,7 @@ init -100 python:
         
         def __call__(self):
             player.location.hide_screen()
-            renpy.jump(character.button_dialogue)
+            renpy.jump(self.character.button_dialogue)
 
     class ClearPersistent(Action):
         def __init__(self):

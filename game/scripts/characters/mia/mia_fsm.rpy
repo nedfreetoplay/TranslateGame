@@ -186,11 +186,11 @@ label mia_fsm_init:
                              )
         S_mia_return_favor.add(T_mia_night_invite, S_mia_night_visit)
         S_mia_night_visit.add(T_mia_strip_tease, S_mia_strip_aftermath,
-                              actions = ["inc", "progress count",]
+                              actions = ["inc", "progress count","exec", game.lock_sleep,]
                               )
         S_mia_strip_aftermath.add(T_mia_grounded, S_mia_midnight_call,
                                   actions = ["clear", "story delay",
-                                             "exec", game.lock_sleep,
+                                             "exec", game.unlock_sleep,
                                              ],
                                   )
         S_mia_midnight_call.add(T_mia_message, S_mia_midnight_help,

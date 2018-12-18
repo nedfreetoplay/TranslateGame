@@ -444,6 +444,20 @@ init python:
     persistent.cookie_jar["Micoe"]["gallery_labels"] = {"01_label": "micoe_bj_scene",
         }
 
+    if "Daisy" not in persistent.cookie_jar:
+        persistent.cookie_jar["Daisy"] = {"idle": "buttons/cookie_jar_30.png",
+                                          "locked_idle": "buttons/cookie_jar_30_locked.png",
+                                          "unlocked": False,
+                                          "order": "28",
+                                          "gallery": {},
+                                          "gallery_image": "buttons/cookie_jar_box_30_",
+        }
+
+    persistent.cookie_jar["Daisy"]["gallery_total"] = 1
+
+    persistent.cookie_jar["Daisy"]["gallery_labels"] = {"01_label": "daisy_sex_breed_start",
+        }
+
 
     for cookie in persistent.cookie_jar:
         cookie_count = 1

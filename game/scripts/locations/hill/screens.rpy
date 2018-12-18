@@ -24,8 +24,8 @@ screen hill:
         imagebutton:
             focus_mask True
             pos (100,700)
-            idle "objects/object_stick_01.png"
-            hover HoverImage("objects/object_stick_01.png")
+            idle game.timer.image("objects/object_stick_01{}.png")
+            hover HoverImage(game.timer.image("objects/object_stick_01{}.png"))
             action Hide("hill"), Jump("hill_dewitt_stick")
 
 screen hill_tree:
@@ -38,5 +38,5 @@ screen hill_tree:
         else:
             idle "objects/object_scroll_01_night.png"
             hover HoverImage("objects/object_scroll_01_night.png")
-        action Return()
+        action Hide("hill_tree"), Jump("hill_tree_get_scroll")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

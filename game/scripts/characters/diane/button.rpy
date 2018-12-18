@@ -124,6 +124,14 @@ label aunt_button_dialogue:
             call expression game.dialog_select("dianes_dialogue_on_my_way_debbie")
             $ game.main()
 
+        "Cow Girl." if M_daisy.between_states(S_daisy_awakened_statue, S_daisy_picking_flowers):
+            call expression game.dialog_select("dianes_dialogue_cow_girl")
+            jump dia_default_dialogue_options
+
+        "{b}Daisy{/b}." if M_daisy.finished_state(S_daisy_picking_flowers):
+            call expression game.dialog_select("dianes_dialogue_daisy")
+            jump dia_default_dialogue_options
+
         "Paint." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
             call expression game.dialog_select("dianes_dialogue_pre_fun_paint")
             $ M_dewitt.trigger(T_dewitt_shed_paint)
@@ -173,6 +181,10 @@ label aunt_button_dialogue:
         "Ready to pump?" if M_diane.finished_state(S_diane_return_production_book) and L_diane_barn_interior.is_here(M_diane) and M_diane.pregnancy.stage <= 2:
             call expression game.dialog_select("dianes_dialogue_ready_to_pump")
             jump milking_game_pre
+
+        "Milk Sample." if M_daisy.is_state(S_daisy_viewed_statue):
+            call expression game.dialog_select("dianes_dialogue_milk_sample")
+            $ player.get_item("milk_sample")
 
         "I should get to work." if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
             call expression game.dialog_select("dianes_dialogue_leave_d1")

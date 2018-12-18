@@ -1,7 +1,7 @@
 label roz_dialogue_3rd_floor_priya:
     scene hospital_desk
     show roz 1 at left
-    if is_christmas():
+    if Game.is_christmas():
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 10f at right
@@ -109,7 +109,7 @@ label roz_dialogue_3rd_floor_priya:
 label roz_dialogue_3rd_floor:
     scene hospital_desk
     show roz 1 at left
-    if is_christmas():
+    if Game.is_christmas():
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 10f at right
@@ -136,7 +136,7 @@ label roz_dialogue_3rd_floor:
 label roz_dialogue_intro:
     scene hospital_desk
     show roz 1 at left
-    if datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30):
+    if Game.is_christmas():
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 14f at right

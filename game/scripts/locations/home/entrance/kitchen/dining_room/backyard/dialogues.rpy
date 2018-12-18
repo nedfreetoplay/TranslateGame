@@ -220,7 +220,7 @@ label backyard_mom_midnight_swim:
     show diane 174
     dia "There's the juicy details I've been waiting for!"
     dia "Tell me, this big cock of his..."
-    dia "AIs it really as big as you've made it out to be?!"
+    dia "Is it really as big as you've made it out to be?!"
     show diane 176
     dia "... Cause you are really over selling it!"
     show diane 175

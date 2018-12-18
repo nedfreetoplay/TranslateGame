@@ -17,10 +17,17 @@ label bedroom_bissette_roxxy_jenny_mentoring:
     return
 
 label bedroom_dewitt_make_replacement_guitar:
-    show player 14 with dissolve
-    player_name "I think I have everything I need to make my fake guitar."
-    player_name "I should head back to my garage so I can start working on it."
-    hide player with dissolve
+    if game.timer.is_dark():
+        show player 14 with dissolve
+        player_name "I think I have everything I need to make my fake guitar."
+        show player 4
+        player_name "I need to remember to assemble it in the garage tomorrow."
+        hide player with dissolve
+    else:
+        show player 14 with dissolve
+        player_name "I think I have everything I need to make my fake guitar."
+        player_name "I should head back to my garage so I can start working on it."
+        hide player with dissolve
     return
 
 label bedroom_sis_telescope_1:

@@ -222,6 +222,8 @@ init python:
                 target.set_priority(1)
             elif isinstance(target, list) and len(target) >= 2:
                 target[0].set_priority(target[1])
+        elif act == "setoutfit":
+            machine.outfit = target
         else:
             raise FSMActionError("{} unknown action: {} on {}".format(machine._name, act,target))
 
@@ -534,11 +536,13 @@ init python:
             self._state = self.initial_state
             self.set_default_locations(copy(self.backup_default_loc))
             self._vars = copy(self.backup_vars)
+            previous_state = None
             previous_trigger = None
             while self._state != state:
                 self._state.delay = 0
                 for trigger in self._state._table:
-                    if previous_trigger != trigger:
+                    if previous_trigger != trigger or previous_state != self._state:
+                        previous_state = self._state
                         self.trigger(trigger)
                         previous_trigger = trigger
             if null_delay:
@@ -757,7 +761,7 @@ init python:
             global game
             _loc = None
             _loc_self = None
-            if self.pregnancy.character_bedridden:
+            if self.pregnancy.character_bedridden and not self._name == "daisy":
                 return L_hospital_room
             try:
                 for key in reversed(self._force_loc):

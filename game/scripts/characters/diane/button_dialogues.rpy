@@ -1,3 +1,90 @@
+label dianes_dialogue_daisy:
+    show player 14 at left
+    show diane f_normal b_naked a_naked_sides
+    player_name "How's {b}Daisy{/b} getting on?"
+    show player 13
+    show diane f_normal_talk
+    dia "Oh, she's settling in great!"
+    dia "Kinda funny that a dairy farmer would find a magical cow girl, isn't it?"
+    dia "It's a good thing I built that barn..."
+    show diane f_normal
+    pause
+    show diane f_laugh
+    dia "She's a sweet girl."
+    show diane f_normal
+    show player 14
+    player_name "Yeah, she is."
+    show player 13
+    show diane f_normal_talk
+    dia "I'm so glad we found her."
+    show diane f_normal
+    return
+
+label dianes_dialogue_cow_girl:
+    scene expression player.location.background_blur with None
+    show player 10 at left
+    show diane b_naked a_naked_sides
+    with dissolve
+    player_name "Any progress with our new friend?"
+    show player 5
+    show diane f_shamed_talk_smile
+    dia "{b}*Sigh*{/b} That poor thing."
+    dia "She's still half convinced her master is gonna pop up and punish her for letting us see her."
+    dia "Whatever that awful man did to her, she's not ready to talk about it."
+    show diane f_shamed
+    show player 10
+    player_name "Has she at least given you her name?"
+    show player 5
+    show diane f_shamed_talk_smile
+    dia "No, not yet."
+    dia "She's coming around though."
+    dia "I imagine it won't be long till she's ready to speak with you."
+    show diane f_shamed
+    show player 10
+    player_name "Okay."
+    show player 5
+    return
+
+label dianes_dialogue_milk_sample:
+    scene expression player.location.background_blur with None
+    show diane b_naked a_naked_sides
+    show player 14 at left
+    player_name "Could I have a small sample of your milk?"
+    show player 13
+    show diane f_smirk_talk
+    dia "Hehe, feeling thirsty, are we?"
+    show diane f_smirk
+    show player 29 with dissolve
+    player_name "N-no, I really do just need a sample."
+    show player 13 with dissolve
+    show diane f_surprised
+    pause
+    show diane f_shamed_talk
+    dia "Oh."
+    dia "Uhh, sure. Just give me a second."
+    if M_diane.outfit == "shirtless":
+        show diane b_topless
+    show diane a_squeeze3 f_down_front
+    with dissolve
+    pause
+    show diane f_normal_talk a_bottle1 with dissolve
+    dia "Will this work?"
+    show diane b_naked f_normal a_naked_sides with dissolve
+    show player 713
+    with dissolve
+    player_name "Yeah, this is perfect!"
+    player_name "Thanks, {b}Diane{/b}!"
+    show diane f_normal_talk
+    hide player with dissolve
+    dia "No pro-"
+    show diane f_surprised
+    pause
+    show diane f_shamed_front
+    dia "( What is he up to? )"
+    hide diane with dissolve
+
+    return
+
 label dianes_dialogue_hows_baby_doing_boy:
     show player 14 at left
     show diane b_casual a_casual_baby

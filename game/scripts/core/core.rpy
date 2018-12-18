@@ -113,12 +113,6 @@ init -2 python:
     def text_identity(text):
         return text
 
-    def is_christmas():
-        return (datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30))
-
-    def is_halloween():
-        return (datetime.date.today().month == 10 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 31))
-
     class Quest:
         def __init__(self, name, image="", status= False):
             self.name = name

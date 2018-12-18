@@ -1,7 +1,7 @@
 screen school_hall:
-    if datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30):
+    if Game.is_christmas():
         add game.timer.image("backgrounds/location_school_christmas_day{}.jpg")
-    elif (datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2):
+    elif Game.is_halloween():
         add game.timer.image("backgrounds/location_school_halloween_day{}.jpg")
     else:
         add game.timer.image("backgrounds/location_school_day{}.jpg")
@@ -88,8 +88,8 @@ screen school_locker:
         imagebutton:
             focus_mask True
             pos (308,599)
-            idle "objects/object_card_02.png"
-            hover HoverImage("objects/object_card_02.png")
+            idle game.timer.image("objects/object_card_02{}.png")
+            hover HoverImage(game.timer.image("objects/object_card_02{}.png"))
             action Function(player.get_item, "card04"), Show("popup", Image = "boxes/popup_item_card5.png")
     if M_roxxy.is_state(S_roxxy_lolipop_for_lolipop, S_roxxy_lolipop_just_once) and not player.has_item("roxxy_homework") and not game.timer.is_dark():
         imagebutton:

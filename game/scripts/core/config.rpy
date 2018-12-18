@@ -12,7 +12,7 @@ init -1 python:
     config.thumbnail_height = 164
     config.narrator_menu = True
 
-    config.debug_sound = True
+    config.debug_sound = False
     config.replay_scope = {"firstname" : persistent.firstname, "jen_char_name" : persistent.jen_char_name, "deb_char_name" : persistent.deb_char_name}
     config.enter_replay_transition = fade
     config.exit_replay_transition = fade
@@ -184,7 +184,7 @@ init -1 python:
     config.default_afm_time = 10
 
 python early:
-    config.version = "0.17.1"
+    config.version = "0.17.5"
     config.name = "SummertimeSaga"
     config.save_directory = "SummertimeSaga"
 

@@ -1,20 +1,20 @@
 
 image school = ConditionSwitch(
-    "datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30)", "backgrounds/location_school_christmas_day_blur.jpg",
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_day_blur.jpg",
+    "Game.is_christmas()", "backgrounds/location_school_christmas_day_blur.jpg",
+    "Game.is_halloween()", "backgrounds/location_school_halloween_day_blur.jpg",
     "True", "backgrounds/location_school_day_blur.jpg",
     )
 image school_night = ConditionSwitch(
-    "datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30)", "backgrounds/location_school_christmas_night_blur.jpg",
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_school_halloween_night_blur.jpg",
+    "Game.is_christmas()", "backgrounds/location_school_christmas_night_blur.jpg",
+    "Game.is_halloween()", "backgrounds/location_school_halloween_night_blur.jpg",
     "True", "backgrounds/location_school_night_blur.jpg",
     )
 image graveyard = ConditionSwitch(
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_day_blur.jpg",
+    "Game.is_halloween()", "backgrounds/location_church_graveyard_halloween_day_blur.jpg",
     "True", "backgrounds/location_church_graveyard_day_blur.jpg",
     )
 image graveyard_night = ConditionSwitch(
-    "(datetime.date.today().month == 10 and datetime.date.today().day > 25) or (datetime.date.today().month == 11 and datetime.date.today().day < 2)", "backgrounds/location_church_graveyard_halloween_night_blur.jpg",
+    "Game.is_halloween()", "backgrounds/location_church_graveyard_halloween_night_blur.jpg",
     "True", "backgrounds/location_church_graveyard_night_blur.jpg",
     )
 image office = ConditionSwitch(

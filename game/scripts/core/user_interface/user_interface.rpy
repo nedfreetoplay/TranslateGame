@@ -1,7 +1,7 @@
 screen ui:
     if not game.ui_locked:
         $ suffix = ""
-        if player.location.name not in ["Town Map", "Bedroom", "Erik's House", "Mia's House"] and M_player.get_state() != S_player_start or game.timer.game_day() == 0:
+        if player.location not in Location.get_first_children() and M_player.get_state() != S_player_start or game.timer.game_day() == 0:
             $ suffix = "_noskip"
         imagemap:
             ground "buttons/ui_ground.png"
@@ -25,8 +25,8 @@ screen ui:
                 add "buttons/cellphone_achieve_alert.png" pos 835,5
             hotspot (867, 5, 60, 71) action If(renpy.get_screen("backpack"), [Hide("backpack"), Play("audio", "audio/sfx_phone_notification.ogg")], [Show("backpack"), Play("audio", "audio/sfx_backpack_open.ogg")])
             hotspot (946, 5, 68, 70) action ShowMenu("navigation")
-            if suffix == "":
-                hotspot (503, 44, 31, 25) action Function(game.timer.tick)
+            if not suffix:
+                hotspot (503, 44, 31, 25) action [Function(game.timer.tick), Jump("game_main")]
 
     else:
         imagemap:

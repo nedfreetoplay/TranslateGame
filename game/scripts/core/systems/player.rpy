@@ -128,8 +128,9 @@ init python:
             self.inventory.get_item(item)
             return
         
-        def remove_item(self, item):
-            self.inventory.remove_item(item)
+        def remove_item(self, *items):
+            for item in items:
+                self.inventory.remove_item(item)
         
         def has_money(self, money):
             return self.inventory.money >= money
@@ -184,4 +185,8 @@ init python:
         
         def has_jerk_available(self):
             return True in [v for k, v in M_player._vars.items() if k.startswith("jerk")]
+        
+        def calculate_interests(self):
+            self.inventory.savings *= 1.03
+            self.inventory.savings = int(round(self.inventory.savings, 0))
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

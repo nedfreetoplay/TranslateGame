@@ -292,6 +292,11 @@ label job_done_dialogue(earnings):
     hide text "{b}[earnings]{/b}"
     hide unlock7
     with dissolve
+    if M_daisy.is_state(S_daisy_pizza_craving):
+        call expression game.dialog_select("barn_front_daisy_pizza_craving")
+        $ M_daisy.trigger(T_daisy_find_food)
+        $ player.go_to(L_diane_barn_interior)
+        $ game.main()
     $ game.main()
 
 label garden_firsttime_text:

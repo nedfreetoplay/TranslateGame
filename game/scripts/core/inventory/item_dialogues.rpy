@@ -107,12 +107,13 @@ label pregnax_pills(item):
                 show player 707 with dissolve
                 pause
                 $ player.pregnancy_chance *= 2
+                $ M_player.set("took pregnax", True)
+                hide player with dissolve
             "No":
                 show player 705
                 player_name "Nah, I don't think now is the best time to take one of these."
-        hide player with dissolve
-        $ M_player.set("took pregnax", True)
-    $ game.main()
+                hide player with dissolve
+    return
 
 label condom:
     scene expression game.timer.image("jennybedroom{}")

@@ -48,6 +48,8 @@ init python:
             
             You can access any parent or child of a given location.
         """
+        roots = []
+        
         def __init__(self, name, unlock_popup=None, background="menu_ground", parents=[], locked=False, label=""):
             super(Location,self).__init__()
             self.name = name
@@ -65,6 +67,8 @@ init python:
             self.unlock_popup = unlock_popup
             self.temporary_locked = False
             self.label = label
+            if self.is_root:
+                Location.roots.append(self)
         
         def __repr__(self):
             return self.name
@@ -84,6 +88,14 @@ init python:
                 if key not in ("parents", "children"):
                     l.__dict__[key] = copy(value)
             return l
+        
+        @classmethod
+        def get_first_children(cls):
+            children = []
+            for root in cls.roots:
+                children.extend(root.children)
+            children.extend(cls.roots)
+            return children
         
         @property
         def formatted_name(self):
@@ -177,13 +189,23 @@ init python:
                 Property method to return the blurred background of
                 the location depending on time of day.
             """
-            if self.name != "Town Map":
-                if renpy.loadable(game.timer.image("images/backgrounds/location_"+self._bg+"{}_blur.jpg")):
-                    return game.timer.image("backgrounds/location_"+self._bg+"{}_blur.jpg")
-                else:
-                    return self.background
+            bg = self.background
+            splits = bg.split(".")
+            bg = splits[-2]
+            ext = splits[-1]
+            newbg = bg+"_blur"+"."+ext
+            bg = bg+"."+ext
+            if renpy.loadable(newbg):
+                return newbg
             else:
-                return game.timer.image("map/map_base{}_blur.jpg")
+                return bg
+        
+        
+        
+        
+        
+        
+        
         
         def is_child_of(self, location):
             return self in location.get_all_children()

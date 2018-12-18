@@ -28,6 +28,10 @@ init python:
 
     class Game(KeepRefs):
         language = "en"
+        christmas_debug = False
+        halloween_debug = False
+        noperiod_debug = False
+        
         def __init__(self, language="en"):
             self.timer = DayTimer()
             self.language = language
@@ -114,6 +118,8 @@ init python:
                 
                 player.pregnancy_chance = 20
                 PregnancyManager.increment_pregnancy()
+                if self.timer._dow == 0:
+                    player.calculate_interests()
         
         @property
         def in_shower(self):
@@ -288,7 +294,7 @@ init python:
             elif not M_diane.finished_state(S_diane_d9_intro):
                 M_diane.outfit = "dressed"
                 M_diane.is_naked = 0
-            elif M_diane.between_states(S_diane_delivery_2_resting, S_diane_return_outfit_package):
+            elif M_diane.between_states(S_diane_d9_intro, S_diane_return_outfit_package) or M_diane.is_state(S_diane_d9_intro):
                 M_diane.outfit = "shirtless"
                 M_diane.is_naked = 0
             else:
@@ -311,4 +317,46 @@ init python:
                 except KeyError:
                     pass
             return game
+        
+        @classmethod
+        def is_christmas(cls):
+            return (datetime.date.today().month == 12 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 30)) or (cls.christmas_debug and not cls.noperiod_debug)
+        
+        @classmethod
+        def is_halloween(cls):
+            return (datetime.date.today().month == 10 and (datetime.date.today().day >= 15 and datetime.date.today().day <= 31)) or (cls.halloween_debug and not cls.noperiod_debug)
+        
+        @classmethod
+        def _debug_period_reset(cls):
+            cls.christmas_debug = False
+            cls.halloween_debug = False
+            cls.noperiod_debug = False
+        
+        @property
+        def get_period_str(self):
+            to_add = ""
+            if self.christmas_debug or self.halloween_debug or self.noperiod_debug:
+                to_add = "(debug)"
+            if self.is_christmas():
+                return "Christmas" + to_add
+            elif self.is_halloween():
+                return "Halloween" + to_add
+            elif to_add and not self.is_christmas() and not self.is_halloween():
+                return "No Period" + to_add
+            else:
+                return "Default behavior"
+        
+        @classmethod
+        def toggle_debug_period(cls):
+            if cls.christmas_debug:
+                cls._debug_period_reset()
+                cls.halloween_debug = True
+            elif cls.halloween_debug:
+                cls._debug_period_reset()
+                cls.noperiod_debug = True
+            elif cls.noperiod_debug:
+                cls._debug_period_reset()
+            else:
+                cls._debug_period_reset()
+                cls.christmas_debug = True
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

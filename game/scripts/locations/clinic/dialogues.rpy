@@ -1,7 +1,7 @@
 label hospital_jizz_checkup:
     scene hospital_desk
     show roz 1 at left
-    if is_christmas():
+    if Game.is_christmas():
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 13f at right

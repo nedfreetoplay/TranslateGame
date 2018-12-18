@@ -138,29 +138,53 @@ init python:
                 if self.is_evening(): 
                     tmp = name.format("_evening") 
                     if Game.can_show(tmp, layer): 
-                        return tmp 
+                        return tmp, False 
                 tmp = name.format("_night")
                 if Game.can_show(tmp, layer):
-                    return tmp
+                    return tmp, False
                 tmp = name.format("_day") 
                 if Game.can_show(tmp, layer):
-                    return tmp
+                    return tmp, False
             else:
                 if Game.can_show(name, layer):
-                    return name
+                    return name, False
                 tmp = name.format("_day")
                 if Game.can_show(tmp, layer):
-                    return tmp
-            return name.format("")
+                    return tmp, False
+            return name.format(""), True
         
-        def image(self, name, layer = "master"):
+        def image(self, name, addendum="", layer = "master"):
+            splits = name.split(".")
+            extension = ""
+            if len(splits) >= 2:
+                extension = "."+splits[-1]
+            name = splits[0]
+            formatting = "{}" in name and name.split("{}")[1]
+            after_formatting = ""
+            if formatting:
+                after_formatting = name.split("{}")[1]
+                name = name.split("{}")[0]
+            name2 = name
             if not re.search('\{}', name):
-                name = name + '{}.jpg'
-            if is_christmas():
-                name.format("_christmas{}")
-            elif is_halloween():
-                name.format("_halloween{}")
-            return self._image(name, layer)
+                name = name + '{}'
+                extension = extension or ".jpg"
+            if Game.is_christmas():
+                name2 = name.format("_christmas")
+            elif Game.is_halloween():
+                name2 = name.format("_halloween")
+            else:
+                name2 = name.format("")
+            name2 = name2 + addendum + "{}" + after_formatting
+            name = name.format(addendum) + "{}" + after_formatting
+            if len(splits) >= 2:
+                name2 += extension
+                name += extension
+            formatted, default = self._image(name2, layer)
+            if default:
+                formatted, other_default = self._image(name, layer)
+                return formatted
+            else:
+                return formatted
         
         
         def is_weekend(self):

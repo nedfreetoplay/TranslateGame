@@ -124,7 +124,7 @@ screen bed01_options:
         hover HoverImage("boxes/bed01_option_01.png")
         action If(M_mom.is_state(S_mom_debt_call),
                   [Hide("bed01_options"), Hide("bedroom"), Jump("bedroom_check_on_mom")],
-                  If(game.ui_locked,
+                  If(game.sleep_lock,
                      [Hide("bed01_options"), Hide("bedroom"), Jump("bed_locked")],
                      [Hide("bed01_options"), Hide("bedroom"), Jump("sleeping")]
                   )
@@ -138,7 +138,7 @@ screen bed01_options:
             hover HoverImage("boxes/bed01_option_02.png")
             action If(M_mom.is_state(S_mom_debt_call),
                       [Hide("bed01_options"), Hide("bedroom"), Jump("bedroom_check_on_mom")],
-                      If(game.ui_locked and not M_diane.is_state(S_diane_peeking_masturbate),
+                      If(game.sleep_lock and not M_diane.is_state(S_diane_peeking_masturbate),
                          [Hide("bed01_options"), Hide("bedroom"), Jump("bed_locked")],
                          [Hide("bed01_options"), Hide("bedroom"), Jump("jerking_off_dialogue")]
                       )

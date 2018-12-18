@@ -440,7 +440,7 @@ label debbie_dialogue_ask_about_men_in_suits:
     player_name "Was my {b}Dad{/b} involved with them?"
     show player 11
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Sigh({/b} I suppose, I can't keep you in the dark forever..."
+    deb "{b}*Sigh*{/b} I suppose, I can't keep you in the dark forever..."
     deb "Your {b}Father{/b} was a good man, {b}[firstname]{/b}."
     deb "... But he had a weakness for gambling."
     deb "He always told me it was nothing to concern myself over and that he had it all in hand."
@@ -460,7 +460,7 @@ label debbie_dialogue_ask_about_men_in_suits:
     show debbie 60 at Position (xoffset=-28)
     deb "I've done my best but I'm afraid I just don't have the money to cover it all, sweetie."
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Sigh({/b} Maybe you and I should just disappear and start over somewhere else."
+    deb "{b}*Sigh*{/b} Maybe you and I should just disappear and start over somewhere else."
     show player 1
     show debbie 63 at Position (xoffset=-28) with dissolve
     deb "Heh, that would be an adventure, wouldn't it?"

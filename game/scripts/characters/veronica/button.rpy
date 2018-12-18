@@ -12,7 +12,7 @@ label veronica_button_dialogue:
         "Vegetable Stock" if M_okita.is_state(S_okita_get_ingredients):
             call expression game.dialog_select("veronica_dialogue_vegatable_stock")
             $ M_okita.set("talked with veronica", True)
-            jump veronica_button_menu
+            $ game.main()
 
         "What do you sell here?" if M_diane.between_states(S_diane_start, S_diane_garden_restored):
             call expression game.dialog_select("veronica_dialogue_what_do_you_sell")

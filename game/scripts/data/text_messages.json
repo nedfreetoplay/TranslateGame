@@ -28,6 +28,19 @@
         "content_preview": "The baby is coming!",
         "content": "Meet me at the clinic!",
         "image": "buttons/cellphone_text_diane01.png"
+    },
+    "daisy_pregnancy" : {
+        "sender": "diane",
+        "content_preview": "I need to speak with you urgently!",
+        "content": "It's about Daisy...\nCan you come see me ?",
+        "image": "buttons/cellphone_text_diane01.png"
+    },
+    "daisy_pregnancy_labor" : {
+        "sender": "diane",
+        "content_preview": "{b}Daisy{/b} gave birth last night.",
+        "content": "You should come and\nsee the baby!",
+        "image": "buttons/cellphone_text_diane01.png"
     }
 }
+
 

@@ -83,6 +83,9 @@ define kim = Character("Kim")
 define rich = Character("Rich")
 define lucy = Character("Lucy")
 define priya = Character("Priya")
+define cow = Character("Mysterious Cow Girl")
+define daisy = Character("Daisy")
+define consuela = Character("Consuela")
 
 define player_name = Character('[firstname]', color="#6f96f1")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

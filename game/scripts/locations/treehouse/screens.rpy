@@ -12,8 +12,8 @@ screen treehouse:
         imagebutton:
             focus_mask True
             pos (145,684)
-            idle "objects/object_pile_01.png"
-            hover HoverImage("objects/object_pile_01.png")
+            idle game.timer.image("objects/object_pile_01{}.png")
+            hover HoverImage(game.timer.image("objects/object_pile_01{}.png"))
             action Hide("treehouse"), Jump("treehouse_got_wood_pile")
 
 screen treehouse_closeup:

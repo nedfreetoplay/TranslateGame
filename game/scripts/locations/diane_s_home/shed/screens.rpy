@@ -1,7 +1,7 @@
 screen dianes_shed:
     add game.timer.image("backgrounds/location_diane_shed01_day{}.jpg")
 
-    if player.location.is_here(M_diane):
+    if player.location.is_here(M_diane)and not M_dewitt.is_state(S_dewitt_shed_get_paint):
         imagebutton:
             focus_mask True
             pos (670,280)

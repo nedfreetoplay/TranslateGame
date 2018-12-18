@@ -22,7 +22,7 @@ label science_classroom_dialogue:
         $ player.go_to(L_map)
         $ game.main()
 
-    elif M_dewitt.is_state(S_dewitt_science_adhesive):
+    elif M_dewitt.is_state(S_dewitt_science_adhesive) and game.timer.is_day():
         call expression game.dialog_select("science_classroom_dewitt_science_adhesive")
         $ player.go_to(L_map)
         $ player.get_item("sticky_tape")

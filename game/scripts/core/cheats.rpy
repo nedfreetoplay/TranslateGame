@@ -1,11 +1,19 @@
 init 10 python:
     if renpy.variant("mobile"):
-        config.developer = True
+        config.console = True
+        config.developer = False
     else:
         config.developer = "auto"
 
     def label_callback(name, abnormal):
         store.last_label = name
+        
+        filename = renpy.get_filename_line()[0]
+        if filename.startswith("renpy/common/"):
+            return
+        if persistent.notify_label_name and abnormal:
+            renpy.notify(name)
+
     config.label_callback = label_callback
 
     def unlock_all_scenes():

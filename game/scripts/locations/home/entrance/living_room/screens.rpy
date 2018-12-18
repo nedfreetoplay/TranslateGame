@@ -1,8 +1,11 @@
 screen living_room:
     if M_mom.get_state() in [S_mom_romance_movie, S_mom_romance_movie_two] or (M_mom.is_set("movie night") and game.timer.is_dark()):
-        add "backgrounds/location_home_livingroom_night_debbie.jpg"
+        if Game.is_christmas():
+            add "backgrounds/location_home_livingroom_christmas_night_debbie.jpg"
+        else:
+            add "backgrounds/location_home_livingroom_night_debbie.jpg"
     else:
-        add game.timer.image("backgrounds/location_home_livingroom_day{}.jpg")
+        add player.location.background
 
     if M_jenny.is_state(S_jenny_couch_naughty_time) and L_home_livingroom.is_here(M_jenny):
         imagebutton:

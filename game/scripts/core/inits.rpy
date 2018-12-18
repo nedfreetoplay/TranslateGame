@@ -47,6 +47,15 @@ label INIT_JSONS:
             json_file = renpy.file("scripts/data/dialogues.json")
             store.sploosh = json.load(json_file)
             json_file.close()
+
+        try:
+            json_file = renpy.file("keymap.json")
+            store.keymap = json.load(json_file)
+            json_file.close()
+        except:
+            json_file = renpy.file("scripts/data/default_keymap.json")
+            store.keymap = json.load(json_file)
+            json_file.close()
     return
 
 label INIT_GAME:

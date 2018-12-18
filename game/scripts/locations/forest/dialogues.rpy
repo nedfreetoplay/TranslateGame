@@ -71,6 +71,7 @@ label awesomo_dialogue_intro:
 
 label awesomo_dialogue_give_cookie:
     scene expression game.timer.image("forest{}_b")
+    show player 177
     player_name "Want a cookie?"
     show player 178 at Position(xpos=517)
     player_name "Here you go..."

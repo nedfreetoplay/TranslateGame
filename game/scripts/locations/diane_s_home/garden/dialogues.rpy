@@ -565,7 +565,7 @@ label diane_garden_need_shovel_has_shovel:
     player_name "Got it!!"
     show diane f_normal_talk
     show player 1
-    dia "You should really take all the money I'm playing you to the {b}Bank{/b} too, when you're done!"
+    dia "You should really take all the money I'm paying you to the {b}Bank{/b} too, when you're done!"
     dia "That's your decision though."
     show diane f_normal
     show player 4
