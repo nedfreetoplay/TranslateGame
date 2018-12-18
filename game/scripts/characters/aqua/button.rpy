@@ -17,32 +17,32 @@ label aqua_dialogue:
 
         call expression game.dialog_select("aqua_dialogue_pre")
     menu aqua_dialogue_options:
-        "The others.":
+        "Другие.":
             call expression game.dialog_select("aqua_dialogue_the_others")
             jump expression game.dialog_select("aqua_dialogue_options")
-        "How are you?":
+        "Как твои дела?":
 
             call expression game.dialog_select("aqua_dialogue_how_are_you")
             jump expression game.dialog_select("aqua_dialogue_options")
 
-        "Mating." if M_aqua.is_state(S_aqua_mating_proposal):
+        "Спаривание." if M_aqua.is_state(S_aqua_mating_proposal):
             call expression game.dialog_select("aqua_dialogue_mating_pre")
             menu:
-                "Me?" if player.stats.chr() < 7:
+                "Я?" if player.stats.chr() < 7:
                     call expression game.dialog_select("aqua_dialogue_mating_stat_fail")
 
 
-                "I can help!" if player.stats.chr() >= 7:
+                "Я могу помочь!" if player.stats.chr() >= 7:
                     call expression game.dialog_select("aqua_dialogue_mating_stat_pass")
                     $ M_aqua.trigger(T_aqua_mating_offer)
 
-        "Mating." if M_aqua.is_state(S_aqua_valor_test):
+        "Спаривание." if M_aqua.is_state(S_aqua_valor_test):
             call expression game.dialog_select("aqua_dialogue_mating_hint")
 
-        "Mate." if M_aqua.is_state([S_aqua_seasucc_intro, S_aqua_seasucc_mushroom, S_aqua_end]):
+        "Партнер." if M_aqua.is_state([S_aqua_seasucc_intro, S_aqua_seasucc_mushroom, S_aqua_end]):
             call expression game.dialog_select("aqua_dialogue_mate")
             jump expression game.dialog_select("aqua_sex")
-        "Nothing.":
+        "Ничего.":
 
             call expression game.dialog_select("aqua_dialogue_nothing")
 

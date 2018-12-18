@@ -2,24 +2,24 @@ label angelicas_room_dialogue:
     if M_helen.is_set("helen route"):
         call expression game.dialog_select("angelicas_room_dialogue_helen_route_pre")
         menu angelicas_room_dialogue_helen_route_options:
-            "Spanking.":
+            "Порка.":
                 call expression game.dialog_select("angelicas_room_dialogue_helen_route_spanking")
                 jump expression game.dialog_select("sacrament_complete")
-            "Holy Seed.":
+            "Святое Семя.":
 
                 call expression game.dialog_select("angelicas_room_dialogue_helen_route_holy_seed")
                 jump expression game.dialog_select("helen_mc_churchsex")
-            "Spread {b}Helen{/b}.":
+            "Растопырить {b}Хелен{/b}.":
 
                 call expression game.dialog_select("angelicas_room_dialogue_helen_route_spread_helen")
                 jump expression game.dialog_select("sacrament_complete")
-            "Have you sinned?":
+            "Согрешили ли вы?":
 
                 show popup_unfinished at truecenter with dissolve
                 pause
                 hide popup_unfinished with dissolve
                 jump expression game.dialog_select("angelicas_room_dialogue_helen_route_options")
-            "Nothing.":
+            "Ничего.":
 
                 call expression game.dialog_select("angelicas_room_dialogue_helen_route_leave")
 
@@ -32,18 +32,18 @@ label angelicas_room_dialogue:
     elif M_mia.is_state(S_mia_find_sinners):
         call expression game.dialog_select("angelicas_room_dialogue_mia_find_sinners_pre")
         menu:
-            "Find sinners.":
+            "Найти грешников.":
                 call expression game.dialog_select("angelicas_room_dialogue_mia_find_sinners")
 
     elif M_mia.is_state(S_mia_angelicas_whip):
         call expression game.dialog_select("angelicas_room_dialogue_mia_angelicas_whip_pre")
         menu:
-            "The Whip.":
+            "Кнут.":
                 if player.has_item("whip"):
                     $ player.remove_item("whip")
                     jump expression game.dialog_select("helen_sacrement_training_part2")
                 call expression game.dialog_select("angelicas_room_dialogue_mia_angelicas_whip")
-            "Nothing.":
+            "Ничего.":
 
                 call expression game.dialog_select("angelicas_room_dialogue_mia_angelicas_whip_leave")
     else:
@@ -55,13 +55,13 @@ label angelicas_room_dialogue:
             $ player.go_to_previous()
             $ game.main()
         menu:
-            "Strap on." if M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]) and not player.has_item("strapon"):
+            "Страпон." if M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]) and not player.has_item("strapon"):
                 call expression game.dialog_select("angelicas_room_dialogue_mia_angelicas_final_request_strap_on")
 
-            "Nothing." if M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]):
+            "Ничего." if M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]):
                 call expression game.dialog_select("angelicas_room_dialogue_mia_angelicas_final_request_leave")
 
-            "Nothing." if not M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]):
+            "Ничего." if not M_mia.is_state([S_mia_harolds_thoughts, S_mia_angelicas_final_request]):
                 call expression game.dialog_select("angelicas_room_dialogue_default_leave")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

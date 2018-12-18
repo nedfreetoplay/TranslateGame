@@ -4,107 +4,107 @@ label angelicas_room_dialogue_helen_route_pre:
     show ang 6f at left
     show player 5f at right
     with dissolve
-    ang "Good evening, {b}[firstname]{/b}. Have you come to assist in my training of {b}Helen{/b}?"
+    ang "Добрый вечер, {b}[firstname]{/b}. Ты пришел помочь мне в моем обучении {b}Хелен{/b}?"
     show ang 5f
     show player 10f
-    player_name "Only if you need my help."
+    player_name "Только, если моя помощь нужна."
     show player 5f
     show ang 9 with dissolve
-    ang "The {b}Lord{/b} always needs help from his followers."
-    ang "Besides, {b}Helen{/b} has been hoping you'd stop in again."
+    ang "{b}Господу{/b} всегда нужна помощь от его последователей."
+    ang "Кроме того, {b}Хелен{/b} надеялась, что ты снова зайдешь."
     show ang 10
     show helen 39
-    helen "I'm happy to see you here, {b}Master{/b}."
+    helen "Я рада видеть тебя здесь, {b}Мой Господин{/b}."
     show helen 37
     show ang 9
-    ang "{b}Helen{/b}, let's get you setup for tonight's ritual."
+    ang "{b}Хелен{/b}, давай-ка подготовим тебя для сегодняшнего ритуала."
     show helen 37 at Position (xpos=464) with dissolve
     show ang 13 with dissolve
     pause
     show ang 14 with dissolve
-    ang "I'm restraining you still, just in case you get some sinful impulse to cover yourself."
+    ang "Я свяжу тебя на всякий случай, чтобы у тебя не возникло греховной мысли прикрыться."
     hide helen
     show ang 15
     with dissolve
-    ang "I enjoy seeing you heeding my commands so submissively, {b}Helen{/b}."
+    ang "Мне нравится видеть, что ты так покорно следуешь моей воле, {b}Хелен{/b}."
     show helen whip 1 at Position (xpos=161)
     hide ang
     show ang 9 at Position (xpos=462)
     with dissolve
-    ang "Now."
-    ang "Is there something you'd like to have done to {b}Helen{/b}?"
+    ang "Сейчас."
+    ang "Есть что-то особенное, что ты хотел бы сделать с {b}Хелен{/b}?"
     show ang 10
     return
 
 label angelicas_room_dialogue_helen_route_spanking:
     show player 24f
-    player_name "I want to watch you... whip..."
+    player_name "Я хочу наблюдать, как ты... Выпорешь..."
     show player 29f
-    player_name "Nevermind."
+    player_name "Неважно."
     show player 5f
     show ang 9
-    ang "Oh?"
-    ang "Are you to shy to ask me to punish {b}Helen{/b}?"
+    ang "О?"
+    ang "Ты слишком стесняешься, чтобы попросить меня наказать {b}Хелен{/b}?"
     show ang 10
     show player 24f
     player_name "..."
     show ang 9
-    ang "Don't worry, {b}[firstname]{/b}."
-    ang "{b}Helen{/b}, likes being whipped. Right, {b}Helen{/b}?"
+    ang "Не волнуйся, {b}[firstname]{/b}."
+    ang "{b}Хелен{/b} любит порку. Правда, {b}Хелен{/b}?"
     show ang 10
-    helen "Yes, {b}Sister Angelica{/b}."
+    helen "Да, {b}Сестра Анжелика{/b}."
     show ang 18f at Position (xoffset=27) with dissolve
-    ang "Sit back, {b}[firstname]{/b} and enjoy the show."
+    ang "Присаживайся, {b}[firstname]{/b} и наблюдай за нами."
     show helen whip 1 at left
     show ang 18 at left
     show ang 18 at Position (xoffset=312)
     hide player
     with dissolve
-    ang "Repent, {b}Helen{/b}!"
-    ang "Feel the wrath of {b}God{/b} licking at your backside!"
+    ang "Покайся, {b}Хелен{/b}!"
+    ang "Почувствуй гнев {b}Божий{/b}, лобзающий твой зад!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "Ohhhh!"
+    helen "Охххх!"
     show ang 18 at Position (xoffset=312)
-    ang "Beg for me... Beg me for more!"
+    ang "Умоляй меня... Умоляй меня о продолжении!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "More! Punish my sinful flesh!"
+    helen "Еще! Накажи мою грешную плоть!"
     show ang 18 at Position (xoffset=312)
-    ang "You are such a dirty woman..."
+    ang "Ты такая порочная шлюха..."
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Such a slut."
-    ang "Tell me...whose cock is better?"
+    ang "Такая шлюха."
+    ang "Скажи мне...чей член лучше?"
     show ang 17 at Position (xoffset=312)
-    helen "Wha-"
+    helen "Чт-"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "I want to hear you say it, slut. Is {b}[firstname]{/b} penis better than {b}Harold's{/b}?"
+    ang "Я хочу услышать, как ты это скажешь, шлюха. Член {b}[firstname]{/b} лучше, чем {b}Гарольда{/b}?"
     show ang 17 at Position (xoffset=312)
     helen "..."
     helen "......"
@@ -113,52 +113,52 @@ label angelicas_room_dialogue_helen_route_spanking:
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "Ahhhhh!!! {b}[firstname]{/b}! I... love... his fat cock!"
+    helen "Аххххх!!! {b}[firstname]{/b}! Я... люблю... его толстый член!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "So vulgar, {b}Helen{/b}... Now ask me to whip you more, slut."
+    ang "Как вульгарно, {b}Елена{/b}... Теперь проси меня пороть тебя еще, шлюха."
     show ang 17 at Position (xoffset=312)
-    helen "Whip my slutty body, {b}Sister Angelica{/b}! Help me!"
+    helen "Выпори мое распутное тело, {b}Сестра Анжелика{/b}! Помоги мне!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "More {b}Sister{/b}... I want... more..."
-    helen "Why... are... you waiting?"
+    helen "Больше {b}Сестра{/b}... Я хочу... больше..."
+    helen "Почему... почему... ты ждёшь?"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 2 at Position (xpos=161)
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "Ohhhhhhh!!!"
+    helen "Оххххххх!!!"
     show ang 18 at Position (xoffset=312)
-    ang "Such a greedy perverted sinner you are..."
+    ang "Ты такая жадная извращенка-грешница..."
     hide ang
     hide helen
     with dissolve
@@ -166,11 +166,11 @@ label angelicas_room_dialogue_helen_route_spanking:
 
 label angelicas_room_dialogue_helen_route_holy_seed:
     show player 10f
-    player_name "I'm here to help purge {b}Helen's{/b} sins."
+    player_name "Я здесь, чтобы помочь очистить {b}Хелен{/b} от греха."
     show ang 9
-    ang "Perfect. Your deeds won't go unnoticed in the eyes of the {b}Lord{/b}, {b}[firstname]{/b}..."
-    ang "...Or mine."
-    ang "Then let us begin the last ritual."
+    ang "Отлично! Твои деяния не останутся незамеченными в глазах {b}Господа{/b}, {b}[firstname]{/b}..."
+    ang "...Или меня."
+    ang "Давайте же начнем последний ритуал."
     hide ang
     hide helen
     hide player
@@ -179,15 +179,15 @@ label angelicas_room_dialogue_helen_route_holy_seed:
 
 label angelicas_room_dialogue_helen_route_spread_helen:
     show player 24f
-    player_name "Could you... spread {b}Helen's{/b}..."
+    player_name "Не могли бы вы... сказать {b}Хелен{/b}..."
     show ang 9
-    ang "Pussy?"
-    ang "I suppose I could."
-    ang "First you have to get naked."
-    ang "I want to see how {b}Helen's{/b} pussy excites you."
+    ang "Киска?"
+    ang "Полагаю, я смогу это сделать."
+    ang "Сначала ты должен раздеться."
+    ang "Я хочу посмотреть, как киска {b}Хелен{/b} возбуждает тебя."
     show ang 10
     pause
-    player_name "Alright."
+    player_name "Хорошо."
     show player 8f with dissolve
     pause
     show player 261 with dissolve
@@ -196,9 +196,9 @@ label angelicas_room_dialogue_helen_route_spread_helen:
     pause
     show player 64f
     show ang 9
-    ang "Good boy."
+    ang "Хороший мальчик."
     show ang 9f at Position (xoffset=100) with dissolve
-    ang "Turn around {b}Helen{/b}."
+    ang "Повернись, {b}Елена{/b}!"
     show ang 10f at Position (xoffset=100)
     show helen whip 3 with dissolve
     pause
@@ -214,21 +214,21 @@ label angelicas_room_dialogue_helen_route_spread_helen:
     show ang 25f with dissolve
     pause
     show ang 22_23_24f
-    helen "Ohhhh..."
+    helen "Охххх..."
     show player 65f with dissolve
     pause
     show player 430bf with dissolve
-    helen "Ahhhh..."
+    helen "Ахххх..."
     show ang 26f
-    ang "Did you like that?"
+    ang "Тебе нравится?"
     show player 430f
     show ang 25f
-    helen "Yes..."
+    helen "Да..."
     show ang 26f
-    ang "Quiet, slut. I meant {b}[firstname]{/b}."
+    ang "Тише, блудница. Я спрашиваю {b}[firstname]{/b}."
     show ang 22_23_24f
     show player 430bf
-    player_name "Yes."
+    player_name "Да."
     pause
     hide player
     hide ang
@@ -239,10 +239,10 @@ label angelicas_room_dialogue_helen_route_spread_helen:
 
 label angelicas_room_dialogue_helen_route_leave:
     show player 10f
-    player_name "Nothing."
+    player_name "Ничего."
     show player 5f
     show ang 6f at Position (xoffset=-22) with dissolve
-    ang "Leave then. I'm busy right now."
+    ang "Тогда уходи. Я сейчас занята."
     hide player
     hide ang
     hide helen
@@ -261,10 +261,10 @@ label sacrament_complete_dialogue:
     show ang 6f at Position (xpos=434)
     show player 5f at right
     with dissolve
-    ang "Feel free to visit again if you wish to participate in my nightly sacrament."
+    ang "Приходи ещё, если захочешь поучаствовать в моем ночном таинстве."
     show ang 5f
     show player 10f
-    player_name "I'd better get back home."
+    player_name "Мне лучше вернуться домой."
     hide player
     hide helen
     hide ang
@@ -276,26 +276,26 @@ label angelicas_room_dialogue_mia_route:
     show ang 2f at left
     show player 5f at right
     with dissolve
-    ang "What are you doing here?"
+    ang "Что ты здесь делаешь?"
     show ang 1f
     show player 10f
-    player_name "Are you still performing the purification sacrament?"
+    player_name "Вы всё ещё предлагаете очищающее таинство?"
     show player 5f
     show ang 2f
-    ang "I can, but I don't have any other sinners at the moment..."
-    ang "{b}Helen{/b} doesn't visit me anymore."
-    ang "She is probably having her sins purged by her husband as we speak."
+    ang "Да, но сейчас у меня нет никаких грешников..."
+    ang "{b}Хелен{/b} меня больше не посещает."
+    ang "Наверное, прямо сейчас, когда мы с тобой разговариваем, ее муж очищает ее от греха."
     show ang 1f
     show player 12f
-    player_name "Are you alright?"
-    player_name "You seem sad."
+    player_name "С тобой все в порядке?"
+    player_name "Ты выглядишь грустной."
     show player 5f
     show ang 2f
-    ang "I'm fine. I've no need for you services anymore."
-    ang "Leave me."
+    ang "Я в порядке. Но мне больше не нужны твои услуги."
+    ang "Оставить меня."
     show ang 1f
     show player 10f
-    player_name "Okay."
+    player_name "Хорошо."
     hide player
     hide ang
     with dissolve
@@ -304,7 +304,7 @@ label angelicas_room_dialogue_mia_route:
 label angelicas_room_dialogue_mia_harolds_thoughts:
     scene church_nun_night_c
     show player 12 with dissolve
-    player_name "( I should talk with {b}Harold{/b} before I see {b}Sister Angelica{/b}. )"
+    player_name "( Мне нужно поговорить с {b}Гарольдом{/b} прежде чем я увижу {b}Сестру Анжелику{/b}. )"
     hide player with dissolve
     return
 
@@ -313,25 +313,25 @@ label angelicas_room_dialogue_mia_find_sinners_pre:
     show ang 1 at right
     show player 12 at left
     with dissolve
-    player_name "Hi, {b}Sister Angelica{/b}..."
+    player_name "Привет, {b}Сестра Анжелика{/b}..."
     show player 5
     show ang 2
-    ang "...Yes?"
-    ang "What is it you want?"
+    ang "...Да?"
+    ang "Чего ты хочешь?"
     show ang 1
     return
 
 label angelicas_room_dialogue_mia_find_sinners:
     show player 12
-    player_name "What do you need me to do for you again?"
+    player_name "Хотите чтобы я нашёл грешника?"
     show player 5
     show ang 2
-    ang "I need you to find appropriate candidates for my sacrament."
-    ang "Bring me {b}Helen{/b}, the woman from the confessional, so we can begin our meetings..."
+    ang "Да, мне нужно, чтобы ты нашел подходящих кандидатов для моего таинства."
+    ang "Приведите мне {b}Хелен{/b}, женщину из исповеди, чтобы мы могли начать наши встречи..."
     show ang 1
     show player 12
-    player_name "Oh, right... You want me to convince her."
-    player_name "Okay. I'll see what I can do..."
+    player_name "А, точно... Ты хочешь, чтобы я убедил ее."
+    player_name "Окей. Посмотрю, что можно сделать..."
     hide player
     hide ang
     with dissolve
@@ -362,80 +362,80 @@ label helen_sacrement_training_part2_pre:
     show player 5f at right
     show ang 6f at left
     with dissolve
-    ang "Well?"
-    ang "Have you brought what I need?"
+    ang "Ну?"
+    ang "Вы принесли то, что мне нужно?"
     show ang 5f
     show player 12f
-    player_name "Yes, I think I found something."
+    player_name "Да, кажется, я что-то нашел."
     show player 239_240f with dissolve
     pause
     show player 455f
-    player_name "Will this work?"
+    player_name "Будет ли это работать?"
     show player 456f
-    ang "Hmm..."
+    ang "Хмм..."
     hide helen
     show helen 29 at Position (xpos=575)
     show player 5f
     show ang 18f
     with dissolve
-    ang "I'm impressed."
-    ang "You seem to have a great eye for biblical accuracy."
+    ang "Я впечатлена."
+    ang "Кажется, у вас обширный глаз на библейскую точность."
     show ang 17f
     show helen 30
-    helen "What are you going to do with that whip?"
+    helen "Что ты собираешься делать с этой плеткой?"
     show helen 29
     show ang 18f
-    ang "Quiet."
+    ang "Тише."
     show helen 33
     show ang 17f
     show player 10f
-    player_name "Well I'd better get home. It's getting late."
+    player_name "Ну, мне лучше вернуться домой. Уже поздно."
     show player 11f
     show ang 18f
-    ang "Hold. I want you to stay for this next step in {b}Helen's{/b} purification."
-    ang "{b}Helen{/b} told me you saw her defiling her body the other day."
-    ang "It appears she is pulling you into her wickedly sinful ways."
+    ang "Проводить. Я хочу, чтобы ты остался для следующего шага в очищении {b}Хелен{/b}.."
+    ang "{b}Хелен{/b} сказала мне, что ты видел, как она оскверняла свое тело на днях."
+    ang "Похоже, она втягивает тебя в свои грешные грехи."
     show ang 17f
     show helen 32
-    helen "I'm sorry, {b}[firstname]{/b} I-"
+    helen "Прости, {b}[firstname]{/b}. Я-"
     show helen 33
     show ang 18f
-    ang "Quiet!"
+    ang "Тише!"
     show ang 17f
     pause
     show ang 18f
-    ang "As you can see: {b}Helen{/b} is still questioning my methods."
-    ang "I want you to witness her punishment..."
-    ang "...And see how I prefer to expunge all her vile deeds from her body."
+    ang "Как видишь: {b}Хелен{/b} все еще сомневается в моих методах."
+    ang "Я хочу, чтобы ты стал свидетелем ее наказания..."
+    ang "...И посмотри, как я предпочитаю удалять все ее мерзкие грехи из ее тела."
     show ang 17f
     show helen 30
     helen "!!!"
     show player 22f
     player_name "!!!"
-    helen "Isn't that going to hurt? I think-"
+    helen "Разве это не будет больно? Я думаю-"
     show helen 29
     show ang 18f
-    ang "{b}Helen{/b}, rejoice! Today begins the 2nd ritual of the purification sacrament!"
-    ang "This will hurt, but pain is a product of sin."
-    ang "Once you are able to tolerate pain you will be closer to holy redemption."
-    ang "Now. I want you to rid yourself of all your clothing."
+    ang "{b}Хелен{/b}, радуйся! Сегодня начинается 2-й ритуал таинства очищения!"
+    ang "Это будет больно, но боль является произведением греха."
+    ang "Как только ты сможешь терпеть боль, ты будешь ближе к святому искуплению."
+    ang "Теперь. Я хочу, чтобы ты избавилась от всей своей одежды."
     show ang 17f
     show helen 33
     helen "..."
     show helen 30
-    helen "But, {b}[firstname]{/b} is here... Is it appropriate?"
+    helen "Но, {b}[firstname]{/b} всё ещё здесь... Уместно ли это?"
     show helen 29
     show ang 18f
-    ang "{b}Helen{/b}. I'm not asking you to start masturbating in front of him as you were earlier."
-    ang "Besides, your old sin riddled body shouldn't stir any response out of a male."
+    ang "{b}Хелен{/b}. Я не прошу вас начинать мастурбировать перед ним, как раньше."
+    ang "Кроме того, ваш старый грех, пронизанный телом, не должен вызывать никакой реакции от мужчины."
     show ang 17f
     show helen 33
     helen "..."
     show ang 18f
-    ang "Remember, you came to me looking for a way to forgiveness and to make your body holy."
+    ang "Помните, вы пришли ко мне, ища путь к прощению и чтобы ваше тело было святым."
     show ang 17f
     show helen 34
-    helen "A... All right. If it will at least make me right in {b}God's{/b} eyes."
+    helen "А... Хорошо. Если это по крайней мере сделает меня правильной в глазах {b}Бога{/b}."
     show helen 35 at Position (xoffset=12) with dissolve
     pause
     show player 106f
@@ -444,113 +444,113 @@ label helen_sacrement_training_part2_pre:
     show player 11f
     show helen 38 with dissolve
     show ang 12 at left with dissolve
-    ang "Good. Now come over here."
+    ang "Хорошо. Теперь перейдем сюда."
     show helen 37 at Position (xpos=464) with dissolve
     show ang 13 with dissolve
     pause
     show ang 14 with dissolve
-    ang "I'm restraining you {b}Helen{/b} as your sinful impulse will be to cover yourself."
+    ang "Я сдерживаю вас {b}Хелен{/b}, так как ваш греховный импульс будет охватывать вас."
     hide helen
     show ang 15
     with dissolve
-    ang "As I work your body over with this whip you will learn to remember what awaits you in hell if you don't submit to my... {b}God's{/b} will."
-    helen "What?"
+    ang "Когда я работаю над вашим телом, вы научитесь запоминать то, что ждет вас в аду, если вы не подчиняетесь моему... {b}Божей{/b} воле."
+    helen "Какой?"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312)
     hide player
     with dissolve
-    ang "QUIET! Stop questioning me!"
+    ang "Тише! Перестаньте расспрашивать меня!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19 with dissolve
-    helen "Owwww!"
+    helen "Ауввв!"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Repent {b}Helen{/b}!"
-    ang "Feel the wrath of {b}God{/b} licking at your backside!"
+    ang "Кайся, {b}Хелен{/b}!"
+    ang "Почувствуйте гнев {b}Бога{/b}, что лижет твой зад!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Owww! enough! Please!"
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Аувв! Хватит! Пожалуйста!"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Don't give up so easily {b}Helen{/b}!"
-    ang "You need this!"
+    ang "Не сдавайся так легко {b}Хелен{/b}!"
+    ang "Вам нужно это!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Owww!"
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Аувв!"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Beg for me... Beg for forgiveness!"
+    ang "Прошу тебя... Умоляй о прощении!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    show ang 19 with dissolve
-    pause
-    show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Owwwwwww!"
-    show helen whip 1 at Position (xpos=161)
-    show ang 18 at Position (xoffset=312) with dissolve
-    ang "You are such a dirty, stubborn woman..."
-    ang "{b}Helen{/b}, I need to hear you say it..."
-    helen "I'm-"
-    hide helen
-    show ang 19
-    with dissolve
-    pause
-    show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Ahhh! I'm sorry! I... repent!"
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Ahhhh! Please {b}Sister{/b}... punish... my body..."
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Аувввв!"
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "What's this? Are you enjoying this {b}Helen{/b}?"
+    ang "Ты такая грязная, упрямая женщина...."
+    ang "{b}Хелен{/b}, Мне нужно услышать, как ты это скажешь...."
+    helen "Я-"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Ahhhh!!! Yes!!! I mean... no... I'm..."
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Аххх! Прости меня! Я... каюсь!"
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Ахххх! Пожалуйста {b}Сестра{/b}... наказывай... моё тело..."
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "A harlot! First, you were masturbating in front of this young man and now you are enjoying being beaten."
-    ang "I want to hear you say it, harlot. Confess to me what you!"
+    ang "Что это? Вам нравится это, {b}Хелен{/b}?"
+    hide helen
+    show ang 19
+    with dissolve
+    pause
+    show ang 20 with dissolve
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Ахххх!!! Да!!! Я имею в виду... нет... Я..."
+    show ang 19 with dissolve
+    pause
+    show ang 20 with dissolve
+    "{b}[sim_crack]{/b}" with hpunch
+    show helen whip 1 at Position (xpos=161)
+    show ang 18 at Position (xoffset=312) with dissolve
+    ang "Блудница! Сначала вы мастурбировали перед этим молодым человеком, а теперь наслаждаетесь избиением."
+    ang "Я хочу услышать это от тебя, блудница. Признайся мне, что ты!"
     show ang 17 at Position (xoffset=312)
-    helen "I..."
-    helen "I'm a slut..."
+    helen "Я..."
+    helen "Я блудница..."
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "So vulgar, {b}Helen{/b}. Now ask me to whip you more... slut."
+    ang "Так вульгарно, {b}Хелен{/b}. Теперь попроси меня побольше хлестать тебя... Блудница."
     show ang 17 at Position (xoffset=312)
 
     helen "..."
@@ -559,39 +559,39 @@ label helen_sacrement_training_part2_pre:
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show helen whip 1 at Position (xpos=161)
     show ang 18 at Position (xoffset=312) with dissolve
-    ang "Ask me!"
+    ang "Проси меня!"
     show ang 17 at Position (xoffset=312)
 
-    helen "Whip my slutty body, {b}Sister{/b}! Help me!"
+    helen "Хлестай моё распутное тело, {b}Сестра{/b}! Помоги мне!"
     hide helen
     show ang 19
     with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "More {b}Sister{/b}... I want... more..."
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Больше, {b}Сестра{/b}... Я хочу... больше..."
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
+    "{b}[sim_crack]{/b}" with hpunch
     show ang 19 with dissolve
     pause
     show ang 20 with dissolve
-    "{b}*CRACK!*{/b}" with hpunch
-    helen "Ahhhhhhh!!!"
+    "{b}[sim_crack]{/b}" with hpunch
+    helen "Аххххххх!!!"
     show helen whip 2 at left
     show ang 17 at Position (xoffset=312) with dissolve
-    helen "Ohhhhh..."
+    helen "Охххх..."
     show ang 18 at Position (xoffset=312)
-    ang "Such a greedy perverted sinner you are..."
-    ang "I'm going to enjoy our future rituals..."
+    ang "Ты такая жадная извращенная грешница..."
+    ang "Я собираюсь насладиться нашими будущими ритуалами...."
     show ang 17 at Position (xoffset=312)
     pause
 
@@ -599,29 +599,29 @@ label helen_sacrement_training_part2_pre:
     ang "{b}[firstname]{/b}?"
     show ang 17f
     show player 24f at right with dissolve
-    player_name "Yes?"
+    player_name "Да?"
     show ang 18f
-    ang "You did very well too."
-    ang "Didn't he, {b}Helen{/b}?"
+    ang "Ты тоже хорошо поработал."
+    ang "Не так ли, {b}Хелен{/b}?"
     show ang 17f
     show player 22f
-    helen "Yes..."
+    helen "Да..."
     show ang 18f
-    ang "Thank him for bringing me the whip, {b}Helen{/b}."
+    ang "Спасибо, что принес мне хлыст. {b}Хелен{/b}."
     show ang 17f
     show player 11f
-    helen "Thank... you... {b}[firstname]{/b}..."
+    helen "Спасибо... тебе... {b}[firstname]{/b}..."
 
     show ang 18f
-    ang "You may leave us now, {b}[firstname]{/b}."
-    ang "{b}Helen{/b} will require further training, but first I need to have her more subservient and more tolerant to the pains of this world."
-    ang "Perhaps, when the time comes, I can use you for something a little more...thorough, if you'd like."
+    ang "Вы можете оставить нас сейчас, {b}[firstname]{/b}."
+    ang "{b}Хелен{/b} потребуется дальнейшее обучение, но сначала мне нужно, чтобы она была более подчиненной и более терпимой к болям этого мира."
+    ang "Возможно, когда придет время, Я могу использовать тебя для чего-то более...полноценного, если захочешь."
     show ang 17f
     show player 10f
-    player_name "I don't kn-"
+    player_name "Я не зн-"
     show player 11f
     show ang 18f
-    ang "Leave us. I'll get you when I have need for you."
+    ang "Оставь нас. Я найду тебя, когда ты мне понадобишься."
     hide ang
     hide helen
     hide player
@@ -633,44 +633,44 @@ label helen_sacrement_training_part2_after:
     pause
     scene church_stairs_night with fade
     show player 12
-    player_name "This is crazy! I should say something to someone, but {b}Sister Angelica{/b} seems to have such control over {b}Helen{/b}."
-    player_name "{b}Helen{/b} probably would say she is willingly participating..."
+    player_name "Это безумие! Я должен рассказать кому-то, но сестра Анжелика, похоже, имеет большой контроль над {b}Хелен{/b}."
+    player_name "{b}Хелен{/b} наверное, скажет, что охотно участвует..."
     show player 25
-    player_name "I should talk to her and see if she's alright."
+    player_name "Я должен поговорить с ней и посмотреть, все ли с ней в порядке."
     hide player with dissolve
     return
 
 label angelicas_room_dialogue_mia_angelicas_whip:
     show ang 6f
-    ang "Did you bring me my {b}whip{/b} for the flagellation ritual in my three step purification sacrament?"
+    ang "Ты принес мне мой хлыст для ритуала бичевания в мое таинство трехступенчатого очищения?"
     show ang 5f
     show player 10f
-    player_name "No..."
+    player_name "Нет..."
     show player 5f
     show ang 6f
-    ang "Then why are you here?"
+    ang "Тогда почему ты здесь?"
     show ang 5f
     show player 12f
-    player_name "Where did you say I could find one?"
+    player_name "Где, вы сказали, я могу найти его?"
     show player 5f
     show ang 6f
-    ang "I'm sure someone of your age knows of dirty lustful places that sell such things."
-    ang "Now stop testing my patience, and bring me a whip."
+    ang "Я уверен, что кто-то вашего возраста знает о грязных похотливых местах, которые продают такие вещи."
+    ang "Перестань испытывать мое терпение и принеси мне хлыст."
     hide ang
     hide helen
     with dissolve
     show player 10f
-    player_name "( Maybe the {b}Pink store at the mall{/b} carries something like that. )"
+    player_name "( Может быть, в {b}розовом магазине в торговом центре{/b} есть что-то вроде этого. )"
     hide player with dissolve
     return
 
 label angelicas_room_dialogue_mia_angelicas_whip_leave:
     show player 10f
-    player_name "Nothing."
+    player_name "Ничего."
     show player 5f
     show ang 6f
-    ang "Leave then. I'm busy right now."
-    ang "I'll visit you when I require your assistance."
+    ang "Тогда уходи. Я сейчас занята."
+    ang "Я навещу вас, когда мне потребуется ваша помощь."
     hide player
     hide ang
     hide helen
@@ -683,11 +683,11 @@ label angelicas_room_dialogue_mia_angelicas_final_request_pre:
     show helen 37 at Position (xpos=575)
     show ang 5f at left
     with dissolve
-    player_name "Hi, {b}Sister Angelica{/b}..."
+    player_name "Привет, {b}Сестра Анжелика{/b}..."
     show player 5f
     show ang 6f
-    ang "...Yes?"
-    ang "What is it you want?"
+    ang "...Да?"
+    ang "Чего ты хочешь??"
     show ang 5f
 
 label angelicas_room_dialogue_mia_angelicas_final_request_strap_on:
@@ -696,30 +696,30 @@ label angelicas_room_dialogue_mia_angelicas_final_request_strap_on:
     show player 460f at right
     show player 460f at Position (xoffset=-1)
     with dissolve
-    player_name "Am I right in assuming you meant to hand me this photograph?"
+    player_name "Правильно ли я предполагаю, что вы хотели передать мне эту фотографию?"
     show player 461f at Position (xoffset=-1)
     show ang 9 with dissolve
-    ang "Yes."
-    ang "I don't make mistakes."
-    ang "Now hurry up and go get it!"
+    ang "Да."
+    ang "Я не делаю ошибок."
+    ang "А теперь поторопись и забери это!"
     hide ang
     hide helen
     with dissolve
     show player 5f with dissolve
     player_name "..."
     show player 10f
-    player_name "( I guess my last task is to get her a {b}strap on{/b}. )"
-    player_name "( Only one place that would sell something like that is {b}Pink{/b}... )"
+    player_name "( Я думаю, моя последняя задача - получить её {b}страпон{/b}. )"
+    player_name "( Только одно место, где можно найти что-то подобное, это {b}Pink{/b}... )"
     hide player with dissolve
     return
 
 label angelicas_room_dialogue_mia_angelicas_final_request_leave:
     show player 10f
-    player_name "Nothing."
+    player_name "Ничего."
     show player 5f
     show ang 6f
-    ang "Leave then. I'm busy right now."
-    ang "I'll visit you when I require your assistance."
+    ang "Тогда уходи. Я сейчас занята."
+    ang "Я навещу вас, когда мне потребуется ваша помощь."
     hide player
     hide ang
     hide helen
@@ -730,10 +730,10 @@ label angelicas_room_dialogue_default_pre:
     scene church_nun_night_c with fade
     show player 10f at right
     show ang 1f at left
-    ang "What are you doing here?!" with hpunch
+    ang "Что ты здесь делаешь?!" with hpunch
     show player 3f
-    player_name "Hmmmm... Sightseeing?"
-    ang "Leave at once!!! You have no business here." with hpunch
+    player_name "Хмммм... Я осмотрюсь?"
+    ang "Уходите немедленно!!! Тебе здесь нечего делать." with hpunch
     hide player
     hide ang
     hide helen
@@ -742,11 +742,11 @@ label angelicas_room_dialogue_default_pre:
 
 label angelicas_room_dialogue_default_leave:
     show player 10f
-    player_name "Nothing."
+    player_name "Ничего."
     show player 5f
     show ang 6f
-    ang "Leave then. I'm busy right now."
-    ang "I'll visit you when I require your assistance."
+    ang "Тогда уходи. Я сейчас занята."
+    ang "Я навещу вас, когда мне потребуется ваша помощь."
     hide player
     hide ang
     hide helen
