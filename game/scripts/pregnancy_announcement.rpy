@@ -99,7 +99,7 @@ label daisy_pregnant_labor_2:
     show player 5
     pause
     show player 14
-    player_name "I'd better head to the {b}Barn{/b} to check on them." #Перевести
+    player_name "Я лучше пойду {b}в Сарай{/b}, чтобы проверить их."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
