@@ -2,37 +2,37 @@ label button_consuela_intro:
     show player 10 at left
     show consuela
     with dissolve
-    player_name "Hey there, {b}Consuela{/b}."
+    player_name "Привет, {b}Консуэла{/b}."
     show player 5
     show consuela f_unsure
-    consuela "Hello, mister {b}[firstname]{/b}."
+    consuela "Привет, мистер {b}[firstname]{/b}."
     show consuela f_normal
     show player 12
-    player_name "You can just call me {b}[firstname]{/b}..."
+    player_name "Ты можешь звать меня просто {b}[firstname]{/b}..."
     show player 5
     show consuela f_unsure
-    consuela "¿Qué?"
-    consuela "No hablo inglés."
+    consuela "¿Qué? (Что?)"
+    consuela "No hablo inglés. (Я не говорю по-английски.)"
     show consuela f_normal
     show player 10
-    player_name "Oh, uhh..."
+    player_name "О, эээ..."
     show player 5
     pause
     consuela "..."
     show player 3 with dissolve
     player_name "..."
     show consuela f_unsure
-    consuela "Ehh... I clean now."
-    consuela "¿Sí?"
+    consuela "Эхх... Теперь я убираюсь."
+    consuela "¿Sí? (Да?)"
     show consuela f_normal
     show player 10 with dissolve
-    player_name "Oh, yes."
-    player_name "Err, I mean... Sí!"
+    player_name "Ну, да."
+    player_name "Эээ, Я говорю... Sí!"
     show player 14
-    player_name "Thank you, {b}Consuela{/b}."
+    player_name "Спасибо, {b}Консуэла{/b}."
     show player 13
     show consuela f_normal_talk
-    consuela "You're welcome, mister {b}[firstname]{/b}."
+    consuela "Пожалуйста, мистер {b}[firstname]{/b}."
     hide player
     hide consuela
     with dissolve
