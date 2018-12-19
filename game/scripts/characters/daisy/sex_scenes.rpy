@@ -3,9 +3,9 @@ label first_time_dialogue_daisy_sex:
     show daisy_sex_breed pre_talk
     show daisy_sex_breed_mc
     with dissolve
-    daisy "I'm so excited, {b}[firstname]{/b}!"
-    player_name "Yeah, I can see that."
-    daisy "I hope your weasel will fit, it's really larg-"
+    daisy "Я так рада, {b}[firstname]{/b}!"
+    player_name "Да, могу себе представить."
+    daisy "Я надеюсь, что ваша ласка подойдет, она действительно большая-"
     hide daisy_sex_breed_mc
     show daisy_sex_breed insert_and_pullout
     with dissolve
@@ -14,28 +14,28 @@ label first_time_dialogue_daisy_sex:
     pause 1
     show daisy_sex_breed creampie
     daisy "!!!" with hpunch
-    daisy "Wowzers!"
-    player_name "You alright?"
-    daisy "Uh huh, your weasel is just really big!"
-    player_name "Let me know if I hurt you, okay?"
-    daisy "Okay."
+    daisy "Вау!"
+    player_name "Ты в порядке?"
+    daisy "Ага, твоя ласка просто очень большая!"
+    player_name "Дай мне знать, если я сделаю тебе больно, хорошо?"
+    daisy "Хорошо."
     $ M_daisy.set('sex speed', 0.09)
     show expression AnimatedImage("daisy_sex_back", [1,2,3,4,5,6,7,8,9,10], M_daisy) as daisy_sex_breed at Position(xalign = 0.0, yoffset = 0)
     $ animated = True
     pause
-    player_name "Wow, you're really tight, {b}Daisy{/b}!"
-    daisy "Is that good?"
-    player_name "Yes, it's very good."
-    daisy "Hehe, okay!"
+    player_name "Ух ты, действительно тесно, {b}Дейзи{/b}!"
+    daisy "Это же хорошо?"
+    player_name "Да, это очень хорошо."
+    daisy "Хе-хе, хорошо!"
     pause
-    daisy "Ahh!"
-    daisy "This feels way better than it did with master!"
+    daisy "Ааа!"
+    daisy "Это намного лучше, чем с мастером!"
     pause
-    daisy "You're weasel is so deep inside me!"
-    daisy "I mean your penis..."
-    daisy "Your penis is really deep, in my floogina!"
-    player_name "Heh, you're too cute!"
-    daisy "Thanks!"
+    daisy "Твоя ласка так глубоко внутри меня!"
+    daisy "Я имею в виду твой пенис..."
+    daisy "Твой пенис так глубокий, у меня во флугине!"
+    player_name "Хех, ты очень симпатичная!"
+    daisy "Спасибо!"
     jump daisy_sex_breed_start
 
 label daisy_sex_breed_start:
@@ -86,45 +86,45 @@ label daisy_sex_breed_loop:
 
 label daisy_sex_breed_hscene_dialog:
     if animcounter == 0 and randomizer() < 50:
-        daisy "Ahh!{p=1}{nw}"
+        daisy "Ааа!{p=1}{nw}"
     if animcounter == 0 and randomizer() < 10:
-        daisy "I love your weasel!{p=1}{nw}"
-        daisy "He's the best weasel ever!{p=2}{nw}"
+        daisy "Мне нравится твоя ласка!{p=1}{nw}"
+        daisy "Он лучший ласка когда-либо!{p=2}{nw}"
         pause 1
-        player_name "Pretty sure my weasel loves you too!{p=2}{nw}"
-        daisy "He loves my hidey-hole, doesn't he?!{p=2}{nw}"
-        player_name "Uh huh!{p=1}{nw}"
+        player_name "Уверен, моя ласка тоже тебя любит!{p=2}{nw}"
+        daisy "Он любит мою потайную дырочку, не так ли?!{p=2}{nw}"
+        player_name "Ух хах!{p=1}{nw}"
     if animcounter == 0 and randomizer() < 25:
-        daisy "Gimme your milk weasel!{p=1}{nw}"
+        daisy "Дай мне молочко ласки!{p=1}{nw}"
     if animcounter == 1 and randomizer() < 25:
-        daisy "{b}*Gasp*{/b} Wowzers!{p=1}{nw}"
+        daisy "{b}*задыхаясь*{/b} Вау!{p=1}{nw}"
     if animcounter == 1 and randomizer() < 25:
-        daisy "Harder, {b}[firstname]{/b}, harder!{p=1}{nw}"
-        daisy "Ahhh!!{p=1}{nw}"
+        daisy "Сильнее, {b}[firstname]{/b}, сильнее!{p=1}{nw}"
+        daisy "Аааааа!!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 25:
-        daisy "Aahhh!!{p=1}{nw}"
+        daisy "Аааааа!!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 10:
-        daisy "MooAAAHHH!!!{p=1}{nw}"
-        daisy "MooooooooAAAHHHH!!!{p=1}{nw}"
-        player_name "Are you-?{p=1}{nw}"
-        daisy "MOOOOOOOAAAHHH!!!{p=1}{nw}"
-        player_name "Whoa!{p=1}{nw}"
+        daisy "Муууу!!!{p=1}{nw}"
+        daisy "Муууууууууууууу!!!{p=1}{nw}"
+        player_name "Ты-?{p=1}{nw}"
+        daisy "МММММУУУУУУУУУУУУУУ!!!{p=1}{nw}"
+        player_name "Вау!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
-        daisy "Oh goodness, I'm really sensative toda-{p=2}{nw}"
-        daisy "MooAAAHHHH!!!{p=1}{nw}"
-        player_name "You okay?{p=1}{nw}"
-        daisy "Don't stop!!{p=1}{nw}"
+        daisy "О боже, я очень чувствительная сегод-{p=2}{nw}"
+        daisy "МууУУУУУУУ!!!{p=1}{nw}"
+        player_name "Ты в порядке?{p=1}{nw}"
+        daisy "Не останавливайся!!{p=1}{nw}"
     if animcounter == 4:
         if randomizer() < 25:
-            daisy "I'm gonna orgasm, {b}[firstname]{/b}!{p=1}{nw}"
-            player_name "Haah, me too!{p=1}{nw}"
+            daisy "Я собираюсь кончить, {b}[firstname]{/b}!{p=1}{nw}"
+            player_name "Хаааа, я тоже!{p=1}{nw}"
         elif randomizer() < 10:
-            daisy "Oh, oh!{p=1}{nw}"
-            daisy "{b}[firstname]{/b} something's happening!{p=1}{nw}"
-            player_name "I know, I'm getting close too!{p=1}{nw}"
+            daisy "О, ооо!{p=1}{nw}"
+            daisy "{b}[firstname]{/b} что-то происходит!{p=1}{nw}"
+            player_name "Я знаю, я тоже приближаюсь!{p=1}{nw}"
             pause 1
-            daisy "Ahh, don't stop!{p=1}{nw}"
-            daisy "Don't stop!!!{p=1}{nw}"
+            daisy "Аааа, не останавливайся!{p=1}{nw}"
+            daisy "Не останавливайся!!!{p=1}{nw}"
     return
 
 label daisy_sex_breed_cum_out:
