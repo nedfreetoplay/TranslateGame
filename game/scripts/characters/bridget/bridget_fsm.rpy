@@ -1,14 +1,14 @@
 label bridget_triggers_init:
     python:
 
-        T_bridget_workout = Trigger("workout", "Default")
+        T_bridget_workout = Trigger("workout", "Описание")
     return
 
 label bridget_fsm_init:
     python:
 
         S_bridget_start = State("start")
-        S_bridget_intro = State("intro", "MC informs Mrs. Bridget of his return")
+        S_bridget_intro = State("intro", "Гг сообщает Миссис Бриджит о своем возвращении")
         S_bridget_end = State("end")
 
 
