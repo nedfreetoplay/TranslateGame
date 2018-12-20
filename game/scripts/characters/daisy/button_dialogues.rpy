@@ -509,35 +509,35 @@ label daisy_button_diane_breeding:
 
 label daisy_button_more_jebadiah_delmont_2:
     show player 10b
-    player_name "There's something I still don't understand, {b}Daisy{/b}."
+    player_name "Есть кое-что, чего я до сих пор не понимаю, {b}Дейзи{/b}."
     show player 5b
     show daisy f_normal
-    daisy "Hmm?"
+    daisy "Хмм?"
     show player 10b
-    player_name "Why were you so frightened of me when you first appeared?"
+    player_name "Почему ты так боялась меня, когда впервые появилась?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Oh."
+    daisy "О."
     show daisy f_surprised_after_appear
-    daisy "Umm..."
+    daisy "Умм..."
     pause
     show player 10b
-    player_name "You don't have to tell me if you don't want to."
+    player_name "Ты не должна говорить мне, если не хочешь."
     show player 5b
     show daisy f_sad_talk
-    daisy "No, I-"
-    daisy "I want to."
+    daisy "Нет, Я-"
+    daisy "Я хочу."
     show daisy f_sad_talk_closed
-    daisy "I just..."
+    daisy "Я просто..."
     pause
     show daisy a_naked_cover with dissolve
-    daisy "I was a bad girl, {b}[firstname]{/b}!"
+    daisy "Я была плохой девочкой, {b}[firstname]{/b}!"
     show player 10b
-    player_name "Huh?!"
-    player_name "I find that hard to imagine."
+    player_name "Ааа?!"
+    player_name "Мне трудно это представить."
     show player 5b
     show daisy f_sad_talk
-    daisy "No, I was!"
+    daisy "Нет, была!"
     show daisy a_naked_sides
     daisy "You see, master forgot to lock the shack one night and I-"
     show daisy f_sad_talk_closed
