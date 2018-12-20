@@ -757,53 +757,53 @@ label daisy_button_daisy_need_milking:
     show player 1b at left
     show daisy f_laugh
     with dissolve
-    daisy "Okay, I'm ready!"
+    daisy "Хорошо, я готова!"
     show daisy f_normal
     show player 10b
-    player_name "C-can I ask you something?"
+    player_name "М-можно тебя кое о чем спросить?"
     show player 5b
     daisy "Hmm?"
     show player 10b
-    player_name "How come you want me to-"
-    player_name "{b}*Ahem*{/b} M-milk you?"
+    player_name "Почему ты хочешь, чтобы я-"
+    player_name "{b}*ммм*{/b} По-подоил тебя?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Well, {b}Diane{/b} says you're better at it than she is and..."
+    daisy "Ну, {b}Диана{/b} говорит, что у тебя это получается лучше, чем у нее..."
     show daisy f_down_talk
-    daisy "... And I..."
+    daisy "... и Я..."
     show daisy f_down
     pause
 
     show daisy f_down_talk
-    daisy "... Y-you make me..."
-    daisy "... I dunno."
+    daisy "... Ты делаешь меня..."
+    daisy "... я не знаю."
     show daisy f_laugh
     show player 14b
-    player_name "Umm, okay."
+    player_name "Эээ, хорошо."
     show daisy f_normal
-    player_name "I guess, we should get started, huh?"
+    player_name "Думаю, нам пора начинать, да?"
     show player 1b
     pause
     hide player
     show daisy b_player_milking a_empty f_down
     with dissolve
     daisy "!!!"
-    player_name "Does that feel alright?"
+    player_name "Ты хорошо себя чувствуешь?"
     show daisy f_down_talk
-    daisy "Y-yes."
+    daisy "Д=да."
     show daisy f_down
-    player_name "Let me know if I do anything that doesn't, okay?"
+    player_name "Дайте мне знать, если я сделаю что-то не так, хорошо?"
     show daisy f_normal_smelling
-    daisy "Mmmhmm."
+    daisy "Ммммммм."
     pause
     show daisy f_down_talk
-    daisy "{b}Diane{/b} was right, you are really good at this!"
+    daisy "{b}Диана{/b} была права, ты действительно хорош в этом!"
     show daisy f_down
-    player_name "Heh, thanks."
+    player_name "Хе, спасибо."
     show daisy f_down_talk
-    daisy "Ahh!"
+    daisy "Ааа!"
     show daisy f_down
-    player_name "Just relax and enjoy, {b}Daisy{/b}."
+    player_name "Просто расслабься и наслаждайся, {b}Дейзи{/b}."
     return
 
 label daisy_button_get_new_flowers_has_flowers:
@@ -811,127 +811,127 @@ label daisy_button_get_new_flowers_has_flowers:
     show player 14b at left
     show daisy a_naked_shy_front b_naked_shy f_shy_sad at Position (yoffset=10)
     with dissolve
-    player_name "Hey, {b}Daisy{/b}."
+    player_name "Привет, {b}Дейзи{/b}."
     show player 1b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "Hi, {b}[firstname]{/b}."
+    daisy "Привет, {b}[firstname]{/b}."
     show daisy f_shy_sad at Position (yoffset=10)
     show player 14b
-    player_name "I've got something for you."
+    player_name "У меня есть кое-что для тебя."
     show player 1b
-    daisy "Hmm?"
+    daisy "Хмм?"
     show player 239_240 with dissolve
     pause
     show player 722 with dissolve
     pause
     show daisy f_normal_talk b_naked a_naked_cover with dissolve
-    daisy "{b}*Gasp*{/b} Wowzers!!!"
+    daisy "{b}*вздох*{/b} Вау!!!"
     show player 1b
     show daisy a_naked_sunflower1 f_down_talk
     with dissolve
-    daisy "Look how big and pretty they are!"
+    daisy "Посмотри, какие они большие и красивые!"
     pause
     show daisy a_naked_sunflower2 f_normal_smelling with dissolve
-    daisy "Mmm!"
+    daisy "Ммм!"
     show daisy b_naked_hug f_empty a_empty
     hide player
     with dissolve
-    daisy "Thank you, thank you, thank you!!!"
+    daisy "Спасибо, спасибо, спасибо, спасибо!!!"
     show player 14b at left
     show daisy a_naked_sunflower1 b_naked f_down zorder 1 at Position (xpos=300)
     with dissolve
-    player_name "Heh, you're welcome."
+    player_name "Хех, всегда пожалуйста."
     show player 1b
     show daisy f_down_talk
-    daisy "What are these flowers called?"
+    daisy "Как называются эти цветы?"
     show daisy f_down
     show player 14b
-    player_name "Those are called {b}Sunflowers{/b}."
+    player_name "Они называются {b}Подсолнухи{/b}."
     show player 1b
     show daisy f_normal_talk
-    daisy "Why do they call them that?"
+    daisy "Почему они их так называют?"
     show daisy f_normal
     show player 14b
-    player_name "Hmm, probably because of their yellow color."
+    player_name "Наверное, из-за их желтого цвета."
     show player 1b
     show daisy f_normal_talk
-    daisy "Oh, I get it."
+    daisy "О, я понимаю."
     show daisy f_laugh
-    daisy "Like the sun!"
+    daisy "Как солнце!"
     show daisy f_down
     show player 14b
-    player_name "Heh, that's right."
+    player_name "Хех, точно."
     show player 1b
     show daisy f_laugh
-    daisy "Hehe!"
+    daisy "Хехе!"
     show daisy f_normal
     show diane b_shirtless a_shirtless_sides f_shamed_talk_fardown at Position (xpos=600) with dissolve
     show player 13
-    dia "Oh, did you get new flowers?"
+    dia "О, ты раздобыла новые цветы?"
     show diane f_shamed_fardown with None
     show daisy f_laugh at flip
     show daisy at Position (xpos=750)
     with dissolve
-    daisy "{b}[firstname]{/b} brought me some!"
+    daisy "{b}[firstname]{/b} принес мне немного!"
     show daisy f_down
     show diane f_smirk_talk
-    dia "Well, wasn't that nice of him..."
+    dia "Ну разве это не мило с его стороны..."
     show diane f_smirk
     show daisy f_normal_talk
-    daisy "Uh huh!"
-    daisy "{b}[firstname]{/b} is the nicest man ever!"
+    daisy "Ага!"
+    daisy "{b}[firstname]{/b} самый хороший человек на свете!"
     show daisy f_down
     show diane f_smirk_talk
-    dia "He certainly is."
+    dia "Конечно."
     show diane f_smirk
     pause
     show diane f_shamed_talk_fardown
-    dia "Alright, we should get those flowers in some water so I can get you milked, sweetie."
-    dia "Lots of work to be done today."
+    dia "Хорошо, мы должны поставить цветы в воду, чтобы я могла тебя подоить, милая."
+    dia "Сегодня предстоит много работы."
     show diane f_shamed_fardown with None
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=300)
     with dissolve
-    daisy "I want {b}[firstname]{/b} to do it."
+    daisy "Я хочу, чтобы это сделал {b}[firstname]{/b}."
     show player 11
     player_name "!!!" with hpunch
     show player 10b
-    player_name "W-what?"
+    player_name "Ч-что?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Is it okay if {b}[firstname]{/b} milks me, {b}Diane{/b}?"
+    daisy "Это нормально, если {b}[firstname]{/b} подоит меня, {b}Диана{/b}?"
     show daisy f_normal
     show diane f_shamed_talk_fardown
-    dia "It's fine with me."
+    dia "Со мной все в порядке."
     show diane f_shamed_fardown with None
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=300)
     with dissolve
     show diane f_smirk
-    daisy "Will you milk me, {b}[firstname]{/b}?"
+    daisy "Будешь доить меня, {b}[firstname]{/b}?"
     show daisy f_normal
     show player 14b
-    player_name "Uhh, sure... If that's what you want."
+    player_name "Ох, конечно... Если это то, чего ты хочешь."
     show player 1b
     show daisy f_laugh
-    daisy "Yay!!"
+    daisy "Ура!!"
     show daisy f_normal
     show diane f_smirk_talk
-    dia "Just be careful with her, okay?"
+    dia "Просто будь с ней поосторожнее, ладно?"
     show diane f_smirk
     show player 14
-    player_name "Y-yeah, I will."
+    player_name "Д-да, хорошо."
     show player 13
     show diane f_shamed_talk_fardown
-    dia "Alright, let's go take care of those flowers."
+    dia "Хорошо, давайте займемся этими цветами."
     show diane f_shamed_fardown
     show daisy f_shy_talk_back
-    daisy "Okay."
+    daisy "Хорошо."
     show daisy f_normal_talk
-    daisy "I'll be right back, {b}[firstname]{/b}."
+    daisy "Я сейчас вернусь, {b}[firstname]{/b}."
     show daisy f_normal
     show player 14b
-    player_name "O-okay."
+    player_name "Х-хорошо."
     hide player
     hide daisy
     hide diane
