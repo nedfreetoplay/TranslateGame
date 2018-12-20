@@ -539,130 +539,130 @@ label daisy_button_more_jebadiah_delmont_2:
     show daisy f_sad_talk
     daisy "Нет, была!"
     show daisy a_naked_sides
-    daisy "You see, master forgot to lock the shack one night and I-"
+    daisy "Видите ли, однажды хозяин забыл запереть хижину, а я-"
     show daisy f_sad_talk_closed
-    daisy "I-"
+    daisy "Я-"
     show daisy f_sad
     pause
     show daisy f_sad_talk
-    daisy "I just wanted to go for a walk!"
+    daisy "Я просто хотела прогуляться!"
     show daisy f_sad
     pause
     show daisy f_sad_talk
-    daisy "But I got lost..."
+    daisy "Но я заблудился..."
     show daisy f_sad
     show player 10b
-    player_name "You did?"
+    player_name "И?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Uh huh."
-    daisy "It was so scary!"
-    daisy "I was lost for days with no food or water..."
-    daisy "... But then, they saved me."
+    daisy "Ух."
+    daisy "Это было так страшно!"
+    daisy "Я потерялась на несколько дней без еды и воды..."
+    daisy "... Но потом, они спасли меня."
     show daisy f_sad
     show player 10b
-    player_name "Who saved you?"
+    player_name "Кто спас тебя?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Bernice and Jethro."
-    daisy "They brought me back to their house and gave me food."
+    daisy "Бернис и Джетро."
+    daisy "Они привезли меня домой и дали мне поесть."
     show daisy f_sad
     show player 10b
-    player_name "Well that was lucky."
+    player_name "Хорошо, что повезло."
     show player 5b
     show daisy f_sad_talk
-    daisy "It was... "
+    daisy "Ага... "
     show daisy a_naked_wiping_tears with dissolve
-    daisy "{b}*Sniff*{/b}"
+    daisy "{b}*сопя*{/b}"
     show daisy a_naked_sides with dissolve
-    daisy "They were very nice people."
-    daisy "Master didn't think so though..."
+    daisy "Они были очень хорошими людьми."
+    daisy "Но мастер так не думал..."
     show daisy f_sad
-    player_name "Hmm?"
+    player_name "Хмм?"
     show daisy f_sad_talk
-    daisy "He was so mad at me!"
-    daisy "I told him I didn't mean to but he grabbed me by the arm really hard and pulled me out of the house."
-    daisy "Jethro yelled at him to take it easy and Master hit him."
-    daisy "Over and over and over again."
-    daisy "It was awful!"
+    daisy "Он был так зол на меня!"
+    daisy "Я сказала ему, что не хотела, но он схватил меня за руку и вытащил из дома."
+    daisy "Джетро закричал на него, чтобы он успокоился, и мастер ударил его."
+    daisy "Снова и снова и снова."
+    daisy "Это было ужасно!"
     show daisy f_sad
     show player 10b
-    player_name "What an asshole..."
-    player_name "Why was he so mad?!"
+    player_name "Вот же гад..."
+    player_name "Почему он так разозлился?!"
     show player 5b
     show daisy f_sad_talk
-    daisy "He said other people couldn't be trusted, especially men."
-    daisy "That they would hand me over to the Gophermant for a pat on the head."
+    daisy "Он сказал, что другим людям нельзя доверять, особенно мужчинам."
+    daisy "Что они передадут меня проветильству для похлопывания по голове."
     show daisy f_sad
     show player 10b
-    player_name "Gophermant?!"
+    player_name "Проветильству?!"
     show player 5b
     pause
     show player 10b
-    player_name "Do you mean Government?"
+    player_name "Ты имеешь в виду правительство?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Yeah, that's the one."
+    daisy "Да, точно."
     show daisy f_sad
     player_name "..."
     show player 10b
-    player_name "So then what happened?"
+    player_name "И что случилось потом?"
     show player 5b
     show daisy f_sad_talk
-    daisy "After that, master started to chain me up in the shack at night."
+    daisy "После этого хозяин стал заковывать меня ночью в хижине."
     show daisy f_sad
     show player 10b
-    player_name "He chained you up?!"
+    player_name "Он приковал тебя цепями?!"
     show player 5b
     show daisy f_sad_talk
-    daisy "Yeah, he said it was for my own good..."
-    daisy "... That I was a bad girl."
+    daisy "Да, он сказал, что это для моего же блага..."
+    daisy "... потому что я была плохой девочкой."
     show daisy f_sad
     show player 10b
-    player_name "You're not a bad girl, {b}Daisy{/b}."
-    player_name "It sounds to me, like he was a bad master."
+    player_name "Ты не плохая девочка, {b}Дейзи{/b}."
+    player_name "Мне кажется, он был плохим мастером."
     show player 5b
     show daisy f_sad_talk
-    daisy "{b}*Sniff*{/b} R-really?"
+    daisy "{b}*сопя*{/b} Пр-правда?"
     show daisy f_sad
     show player 10b
-    player_name "Yes."
-    player_name "You definitely didn't deserve to be treated like that!"
+    player_name "Да."
+    player_name "Ты определенно не заслуживаешь такого обращения!"
     show player 5b
     show daisy f_sad_talk_closed
-    daisy "It's hard to sleep when you're chained up."
+    daisy "Трудно уснуть, когда ты прикован."
     show daisy f_sad
     show player 10b
-    player_name "I bet."
-    player_name "I'd like to chain him up and show him how it feels!"
+    player_name "Держу пари."
+    player_name "Я бы хотел приковать его и показать ему, каково это!"
     show player 5b
     daisy "..."
     show player 10b
-    player_name "So that's why you were scared when you saw us?"
+    player_name "Так вот почему ты испугалась, когда увидела нас?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Uh huh."
-    daisy "I was worried master would find out."
+    daisy "Ух."
+    daisy "Я боялась, что хозяин узнает."
     show daisy f_sad
     show player 10b
-    player_name "Well, there's no need to worry about that."
-    player_name "{b}Diane{/b} and I won't let anybody hurt you, ever again."
+    player_name "Ну, об этом не стоит беспокоиться."
+    player_name "Мы с {b}Дианой{/b} больше никому не позволим причинить тебе боль."
     show player 5b
     return
 
 label daisy_button_how_are_your_flowers_3:
     show player 14b
-    player_name "How are your flowers?"
+    player_name "Как поживают твои цветы?"
     show daisy f_normal_talk
-    daisy "Oh, the {b}Sunflowers{/b} you got me are so pretty!"
+    daisy "О, {b}подсолнухи{/b}, которые ты мне дал, такие красивые!"
     daisy "I love them!"
     show daisy f_normal
     show player 14b
-    player_name "That's great!"
-    player_name "I had a feeling they would cheer you up."
+    player_name "Замечательно!"
+    player_name "У меня было чувство, что они поднимут тебе настроение."
     show player 1b
 
-    daisy "Mmhmm!"
+    daisy "Мммммм!"
     return
 
 label daisy_button_you_seem_happy:
