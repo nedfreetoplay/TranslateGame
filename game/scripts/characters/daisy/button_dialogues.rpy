@@ -667,71 +667,71 @@ label daisy_button_how_are_your_flowers_3:
 
 label daisy_button_you_seem_happy:
     show player 14b
-    player_name "You seem really happy today."
+    player_name "Ты выглядишь очень счастливой сегодня."
     show player 1b
     show daisy f_normal_talk
-    daisy "I am!"
-    daisy "Very, very happy!"
-    daisy "I get to live here in the nice barn and {b}Diane{/b} takes care of me and you bring me yummy pizza..."
+    daisy "Я!"
+    daisy "Очень, очень счастлива!"
+    daisy "Я живу здесь, в хорошем сарае, а {b}Диана{/b} заботится обо мне, а ты приносишь мне вкусную пиццу..."
     show daisy f_normal
     pause
 
     show daisy f_normal_talk
-    daisy "I'm glad you were the one who found me {b}[firstname]{/b}."
+    daisy "Я рада, что ты нашел меня {b}[firstname]{/b}."
     show daisy f_normal
     show player 14b
-    player_name "Yeah, me too."
-    player_name "I like seeing you happy, {b}Daisy{/b}!"
+    player_name "Да, я тоже."
+    player_name "Мне нравится видеть тебя счастливой, {b}Дейзи{/b}!"
     show player 1b
     show daisy f_surprised_after_appear
     daisy "!!!"
     show daisy a_naked_touch with dissolve
     pause
     show player 10b
-    player_name "You okay?"
+    player_name "Ты в порядке?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Y-yeah."
+    daisy "Д-да."
     show daisy a_naked_sides with dissolve
-    daisy "Sometimes, I feel funny in my tummy when you're around..."
+    daisy "Иногда я чувствую себя странно в животе, когда ты рядом..."
     show daisy f_normal
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 10b
-    player_name "Does it hurt?"
+    player_name "Больно?"
     show player 5b
     show daisy f_down_talk
-    daisy "N-no, it feels... All tingly."
+    daisy "Н-нет, это чувство ... Все покалывает."
     show daisy f_down
     show player 10b
-    player_name "Huh, weird."
+    player_name "Ха, странно."
     show player 5b
     return
 
 label daisy_button_want_me_to_milk_you:
     show daisy f_normal_talk
     show player 1b at left
-    daisy "Umm, {b}[firstname]{/b}?"
+    daisy "Эээ, {b}[firstname]{/b}?"
     show daisy f_normal
     show player 14b
-    player_name "Yeah?"
+    player_name "Да?"
     show player 1b
     show daisy f_normal_talk
-    daisy "C-could you milk me?"
+    daisy "Ты не мог бы подоить меня?"
     show daisy f_down_talk b_naked_boob a_empty with dissolve
-    daisy "Cause my boobies are all full again."
+    daisy "Потому что мои сиськи снова полные."
     show daisy f_down
     pause
     show player 14b
-    player_name "{b}*Gulp*{/b} S-sure."
+    player_name "{b}*глоток*{/b} Ко-конечно."
     hide player
     show daisy b_player_milking a_empty f_down
     with dissolve
     daisy "!!!"
-    player_name "Does that feel alright?"
+    player_name "Ты хорошо себя чувствуешь?"
     show daisy f_down_talk
-    daisy "Y-yes."
+    daisy "Д-да."
     show daisy f_down
-    player_name "Just relax and enjoy, {b}Daisy{/b}."
+    player_name "Просто расслабься и наслаждайтся, {b}Дейзи{/b}."
     return
 
 label daisy_button_finished_milking_intro:
@@ -739,16 +739,16 @@ label daisy_button_finished_milking_intro:
     show player 1b at left
     show daisy f_laugh a_naked_up
     with dissolve
-    daisy "{b}*Gasp* [firstname]{/b}!!!"
+    daisy "{b}*вздох* [firstname]{/b}!!!"
     show daisy f_normal a_naked_sides with dissolve
     show player 14b
-    player_name "Hey, {b}Daisy{/b}."
+    player_name "Привет, {b}Дейзи{/b}."
     show player 1b
     show daisy f_normal_talk
-    daisy "What are we gonna do today?!"
+    daisy "Что мы будем делать сегодня?!"
     show daisy f_normal
     show player 14b
-    player_name "Heh, I don't know yet."
+    player_name "Хех, я еще не знаю."
     show player 1b
     return
 
