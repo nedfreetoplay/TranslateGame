@@ -943,58 +943,58 @@ label daisy_button_get_new_flowers_no_flowers:
     show player 10b at left
     show daisy a_naked_cover f_sad_talk_closed
     with dissolve
-    player_name "You okay?"
+    player_name "Ты в порядке?"
     show player 5b
     show daisy a_naked_wiping_tears with dissolve
-    daisy "Yeah."
+    daisy "Да."
     show daisy a_naked_shy_front b_naked_shy f_shy_sad_talk at Position (yoffset=10) with dissolve
-    daisy "I just miss my flowers..."
+    daisy "Я просто скучаю по своим цветам..."
     show daisy f_shy_sad at Position (yoffset=10)
     show player 10b
-    player_name "I'm sorry, {b}Daisy{/b}."
-    player_name "Can I get you anything?"
-    player_name "I don't like seeing you sad like this..."
+    player_name "Прости, {b}Дейзи{/b}."
+    player_name "Могу я тебе что-нибудь предложить?"
+    player_name "Мне не нравится видеть тебя такой грустной..."
     show player 5b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "No, it's alright."
+    daisy "Нет, все в порядке."
     show daisy f_shy_sad at Position (yoffset=10)
     pause
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "Thanks, {b}[firstname]{/b}."
+    daisy "Спасибо, {b}[firstname]{/b}."
     hide daisy with dissolve
     show player 5
-    player_name "( Hmm, I should go to {b}Cupid{/b} and {b}the Mall{/b} and {b}get her some new flowers{/b}. )"
+    player_name "( Хмм, я должен пойти в магазин {b}Купидон{/b} в {b}торговом центре{/b} и {b}принести ей новые цветы{/b}. )"
     show player 13
-    player_name "( I bet that will cheer her up. )"
+    player_name "( Держу пари, это ее подбодрит. )"
     pause
-    player_name "( {b}Diane{/b} said I should look for {b}Sunflowers{/b}. )"
+    player_name "( {b}Диана{/b} сказала, что мне нужно поискать {b}Подсолнухи{/b}. )"
     hide player with dissolve
     return
 
 label daisy_button_sleeping:
     show player 434 with dissolve
-    player_name "( Aww, look how cute she is when she's sleeping! )"
-    player_name "( I should leave her be. )"
+    player_name "( Ой, посмотри, какая она милая, когда спит! )"
+    player_name "( Я должен оставить ее в покое. )"
     hide player with dissolve
     return
 
 label daisy_button_no_veggie_pizza:
     show player 1b
     show daisy f_normal_talk
-    daisy "Did you bring me another {b}veggie pizza{/b}?"
+    daisy "Ты принес мне еще одну {b}вегетарианскую пиццу{/b}?"
     show daisy f_normal
     show player 10b
-    player_name "No, not today."
+    player_name "Нет, не сегодня."
     show player 5b
     show daisy f_sad_talk
-    daisy "Aww..."
+    daisy "Ауу..."
     show daisy f_sad
     show player 10b
-    player_name "Sorry, {b}Daisy{/b}..."
-    player_name "... Maybe tomorrow, okay?"
+    player_name "Прости, {b}Дейзи{/b}..."
+    player_name "... Может быть, завтра, хорошо?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Okay."
+    daisy "Хорошо."
     show daisy f_sad
     return
 
