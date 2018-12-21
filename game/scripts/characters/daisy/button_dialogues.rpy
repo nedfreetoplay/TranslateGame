@@ -1000,23 +1000,23 @@ label daisy_button_no_veggie_pizza:
 
 label daisy_button_has_veggie_pizza:
     show player 14b
-    player_name "I brought you something!"
+    player_name "Я принес тебе кое-что!"
     show player 1b
     show daisy f_normal_talk
-    daisy "{b}*Gasp*{/b} A present?!"
+    daisy "{b}*вздох*{/b} Подарок?!"
     show daisy f_normal
-    player_name "Mmmhmm."
+    player_name "Ммммм."
     show player 239_240 with dissolve
     pause
     show player 719c with dissolve
     show daisy f_normal_talk
-    daisy "{b}Veggie pizza{/b}?!"
+    daisy "{b}Вегетарианская пицца{/b}?!"
     show daisy f_normal
     show player 719d
-    player_name "Hehe, that's right!"
+    player_name "Хе-хе, правильно!"
     show player 719c
     show daisy f_laugh
-    daisy "Yay!!"
+    daisy "Ура!!"
     show daisy f_normal
     show player 721 with dissolve
     pause
@@ -1025,13 +1025,13 @@ label daisy_button_has_veggie_pizza:
     with dissolve
     pause
     show daisy f_laugh a_naked_up with dissolve
-    daisy "I love pizza!!"
+    daisy "Я люблю пиццу!!"
     show player 17
-    player_name "Me too!"
+    player_name "Я тоже!"
     show player 1b
     show daisy a_naked_pizza_eat with dissolve
     pause
-    daisy "Mmm!"
+    daisy "Ммм!"
     hide player
     hide daisy
     with dissolve
@@ -1039,139 +1039,139 @@ label daisy_button_has_veggie_pizza:
 
 label daisy_button_more_jebadiah_delmont:
     show player 10b
-    player_name "So, do you think you're ready to tell me more about your old Master?"
+    player_name "Итак, ты думаешь, что готова рассказать мне больше о своем старом хозяине?"
     show player 5b
     show daisy f_shy_sad_talk a_naked_shy_front b_naked_shy at Position (yoffset=10) with dissolve
-    daisy "Mmm, maybe..."
-    daisy "What do you want to know?"
+    daisy "Ммм, возможно..."
+    daisy "Что ты хочешь знать?"
     show daisy f_shy_sad at Position (yoffset=10)
     show player 10b
-    player_name "What was he like?"
+    player_name "На кого он был похож?"
     show player 5b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "Hmm, Master was..."
-    daisy "... Different, than you and {b}Diane{/b}."
-    daisy "He didn't get along with other people very well but he didn't want to be alone either."
-    daisy "So he made me."
+    daisy "Хм, хозяин был..."
+    daisy "... другим, не таким как ты и {b}Диана{/b}."
+    daisy "Он не очень ладил с другими людьми, но и не хотел оставаться один."
+    daisy "Поэтому он сделал меня."
     show daisy f_shy_sad at Position (yoffset=10)
     show player 10b
-    player_name "He made you?"
+    player_name "Он сделал тебя?"
     show player 5b
-    daisy "Mmhmm."
+    daisy "Ммммм."
     show player 10b
-    player_name "How did he do that?"
+    player_name "Как он это сделал?"
     show player 5b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "I don't know..."
+    daisy "Я не знаю..."
     show daisy f_normal_talk b_naked a_naked_sides with dissolve
-    daisy "... Maybe he used his magics?"
+    daisy "... Может, он использовал свою магию?"
     show daisy f_normal
     pause
     show player 14b
-    player_name "So you really saw him do magic then?"
+    player_name "Так ты действительно видела, как он колдовал?"
     show player 1b
     show daisy f_laugh
-    daisy "Oh yes, wonderful magics!"
+    daisy "О да, чудесная магия!"
     show daisy f_normal
     pause
     show daisy f_normal_talk
-    daisy "He could remove his thumb or pull money out from behind my ear whenever he wanted!"
+    daisy "Он мог убрать большой палец или вытащить деньги из-за моего уха, когда захочет!"
     show daisy f_normal
     show player 5b
     player_name "..."
     show daisy f_normal_talk
-    daisy "He had a storm cloud that he trapped inside a stick!"
+    daisy "У него было грозовое облако, которое он поймал в ловушку внутри палки!"
     show daisy f_normal
     show player 10b
-    player_name "Huh?"
+    player_name "Ааа?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Yeah, if you turned it upside down, you could hear it raining inside!"
+    daisy "Да, если перевернуть его вверх дном, можно услышать, как внутри идет дождь!"
     show daisy f_normal
     player_name "..."
     show daisy f_laugh
-    daisy "Oh, oh, oh, and he had a glass ball full of snow from the north pole!"
+    daisy "О, о, о, и у него был стеклянный шар, полный снега с Северного полюса!"
     show daisy f_normal
     show player 10b
-    player_name "Let me guess, you had to shake it and then the snow would fall?"
+    player_name "Дай угадаю, ты должна была встряхнуть его, а потом падал снег?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Yeah!"
+    daisy "Да!"
     show daisy f_shy_talk
-    daisy "How did you know that?!"
+    daisy "Откуда ты это знаешь?!"
     show daisy f_shy
     show player 14b
-    player_name "They're called snow globes."
+    player_name "Они называются снежные шары."
     show player 1b
     show daisy f_sad_talk
-    daisy "{b}*Gasp*{/b} Do you know magics too?!"
+    daisy "{b}*вздох*{/b} Ты тоже разбираешься в магии?!"
     show daisy f_sad
     show player 10b
-    player_name "{b}Daisy{/b}, I don't think any of that was magic..."
+    player_name "{b}Дейзи{/b}, Не думаю, что это было волшебство..."
     show player 5b
     show daisy f_normal_talk
-    daisy "What about his wand then?!"
+    daisy "А что насчет его палочки?!"
     show daisy f_normal
     show player 10b
-    player_name "Wand?"
+    player_name "Палочки?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Yeah, it would make a clicky sound and then fire would spurt from the tip!"
+    daisy "Да, он издавал щелкающий звук, а потом огонь извергался из кончика!"
     show daisy f_laugh
-    daisy "It was definitely magics!"
+    daisy "Это определенно была магия!"
     show daisy f_normal_talk
-    daisy "I saw it."
+    daisy "Я видела это."
     show daisy f_normal
     player_name "..."
     return
 
 label daisy_button_milking_business:
     show player 14b
-    player_name "So you like it when {b}Diane{/b} milks you?"
+    player_name "Так тебе нравится, когда {b}Диана{/b} доит тебя?"
     show player 1b
     show daisy f_normal_talk
-    daisy "Oh, yes!"
+    daisy "О, да!"
     show daisy f_laugh a_naked_up with dissolve
-    daisy "Milking makes my boobies feel good!"
+    daisy "Доение заставляет мои сиськи чувствовать себя хорошо!"
     show daisy f_normal_talk a_naked_sides with dissolve
-    daisy "Plus, she's much gentler than Master was..."
+    daisy "К тому же, она намного мягче делает это, чем хозяин..."
     show daisy f_normal
     pause
     show daisy f_normal_talk
-    daisy "... I just wish it didn't tickle me so!"
+    daisy "... Я просто хочу, чтобы это меня не щекотало!"
     show daisy f_normal
     show player 14b
-    player_name "I'm sure she'll figure out a way to do it without tickling you."
+    player_name "Уверена, она придумает, как это сделать, не щекоча тебя."
     show player 1b
     show daisy f_normal_talk
-    daisy "I hope so."
-    daisy "I want {b}Diane{/b} to sell my milk too and make people happy!"
+    daisy "Надеюсь."
+    daisy "Я хочу, чтобы {b}Диана{/b} тоже продавала мое молоко и делала людей счастливыми!"
     show daisy f_normal
     return
 
 label daisy_button_how_are_your_flowers_2:
     show player 14b
-    player_name "How are your flowers?"
+    player_name "Как поживают твои цветы?"
     show player 1b
     show daisy f_normal_talk
-    daisy "They're still doing good."
-    daisy "I give them water and sunlight everyday, just like you told me."
+    daisy "Они все еще не завяли."
+    daisy "Я даю им воду и солнечный свет каждый день, как ты мне сказал."
     show daisy f_normal
     show player 14b
-    player_name "That's wonderful, {b}Daisy{/b}."
+    player_name "Это замечательно, {b}Дейзи{/b}."
     show player 1b
-    daisy "Mmhmm."
+    daisy "Ммммм."
     show daisy f_normal_talk
-    daisy "{b}Diane{/b} says there's lots of flowers in the world and they come in all sorts of different colors too!"
-    daisy "Is that true?"
+    daisy "{b}Диана{/b} говорит, что в мире много цветов, и они тоже бывают разных цветов!"
+    daisy "Это правда?"
     show daisy f_normal
     show player 14b
-    player_name "Yup, it's true."
+    player_name "Да, это правда."
     show player 1b
     show daisy f_laugh a_naked_cover with dissolve
-    daisy "Wowzers!"
+    daisy "Вау!"
     show daisy f_normal_talk a_naked_sides with dissolve
-    daisy "I hope I get to see them all someday..."
+    daisy "Надеюсь, когда-нибудь увижу их все..."
     show daisy f_normal
     return
 
@@ -1179,16 +1179,16 @@ label daisy_button_finished_pizza_intro:
     scene expression player.location.background_blur with None
     show player 1b at left
     show daisy f_normal_talk
-    daisy "Hi, {b}[firstname]{/b}!"
+    daisy "Привет, {b}[firstname]{/b}!"
     show daisy f_normal
     show player 14b
-    player_name "Hey, {b}Daisy{/b}."
-    player_name "How are you today?"
+    player_name "Привет, {b}Дейзи{/b}."
+    player_name "Как ты себя чувствуешь сегодня?"
     show player 1b
     show daisy f_sad_talk
-    daisy "Mmm, I'm bored."
+    daisy "Ммм, мне скучно."
     show daisy f_normal_talk
-    daisy "What are you doing?"
+    daisy "Что ты делаешь?"
     show daisy f_normal
     return
 
@@ -1197,12 +1197,12 @@ label daisy_button_get_pizza_has_not_pizza:
     show player 1b at left
     show daisy f_laugh
     with dissolve
-    daisy "Pizza!"
-    daisy "Hehehe!"
+    daisy "Пицца!"
+    daisy "Хехехе!"
     show daisy f_normal
     show player 14b
-    player_name "Heh, she's so excited."
-    player_name "I should head to {b}Tony's Pizzeria{/b} and get her a {b}veggie pizza{/b}."
+    player_name "Хех, Она так взволнована."
+    player_name "Мне нужно сходить в {b}пиццерию Тони{/b} и купить ей {b}вегетарианскую пиццу{/b}."
     hide player
     hide daisy
     with dissolve
@@ -1213,64 +1213,64 @@ label daisy_button_get_pizza_has_pizza:
     show player 719d at left
     show daisy
     with dissolve
-    player_name "{b}Daisy{/b}?"
-    player_name "Look what I've brought for you!"
+    player_name "{b}Дейзи{/b}?"
+    player_name "Смотри, что я тебе принес!"
     show player 719c
     show daisy f_laugh
-    daisy "Pizza?!"
+    daisy "Пицца?!"
     show daisy f_normal
     show player 720 with dissolve
-    player_name "Mmmhmm!"
+    player_name "Ммммм!"
     show daisy f_normal_talk
-    daisy "Oh, it smells really good!"
+    daisy "О, как вкусно пахнет!"
     show daisy f_normal
     pause
     show daisy f_sad_talk
-    daisy "How do I eat it?"
+    daisy "Как я могу ее съесть?"
     show daisy f_sad
     show player 720b
-    player_name "Hehe, lemme show you."
+    player_name "Хе-хе, позволь показать."
     show daisy f_normal
     show player 721 with dissolve
-    player_name "You just hold it like this and start eating from this end here."
+    player_name "Просто держи вот так и начинай есть с этого конца."
     show player 719d with dissolve
-    player_name "Mmm, so good!!"
+    player_name "Ммм, так хорошо!!"
     show player 719c
     pause
     show player 719d
-    player_name "Now you try."
+    player_name "Теперь попробуй ты."
     show daisy a_naked_pizza_hold f_normal_talk
     show player 1b
     with dissolve
-    daisy "O-okay."
+    daisy "Х-хорошо."
     show daisy a_naked_pizza_slice f_sad_talk with dissolve
-    daisy "Like this?"
+    daisy "Вот так?"
     show daisy f_normal
     show player 14b
-    player_name "Yup, just like that."
+    player_name "Да, именно так."
     show player 1b
     show daisy f_normal_talk
-    daisy "{b}*Gasp*{/b} Wowzers!!! My first pizza!"
+    daisy "{b}*вздох*{/b} Вау!!! Моя первая пицца!"
     show daisy f_normal
     show player 17 with dissolve
-    player_name "Hehe!"
+    player_name "Хехе!"
     show player 1b
     show daisy a_naked_pizza_eat f_empty with dissolve
-    daisy "Mmmhmm!!!"
+    daisy "Ммммммм!!!"
     show player 11
     player_name "!!!" with hpunch
     pause
-    daisy "More!"
+    daisy "Еще!"
     show player 10b
-    player_name "Yeah, eat as much as you'd like..."
+    player_name "Да, ешь столько, сколько хочешь..."
     hide player
     hide daisy
     with dissolve
     scene expression "backgrounds/location_diane_garden_cutscene13.jpg"
-    show expression FilteredText("The pizza went over even better than I had expected.\nTo this day I have never seen anyone throw down food like {b}Daisy{/b}.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Пицца прошла даже лучше, чем я ожидал.\nДо сегодняшнего дня я никогда не видел, чтобы кто-нибудь бросался на еду, как {b}Дейзи{/b}.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("{b}Daisy{/b} went through eight pieces in the time it took me to eat two!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("{b}Дейзи{/b} слопала восемь штук за то время, что я съел две!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -1279,56 +1279,56 @@ label daisy_button_get_pizza_has_pizza:
     show player 1b at left
     show daisy o_sauce f_burp
     with dissolve
-    daisy "{b}*Buuuuurp*{/b}"
+    daisy "{b}*рыыыыыг*{/b}"
     show daisy f_normal
     show player 14b
-    player_name "Heh, you alright over there?"
+    player_name "Хех, ты там в порядке?"
     show player 1b
     show daisy f_laugh
-    daisy "That was so delicious!!"
+    daisy "Это было так вкусно!!"
     show daisy f_normal_talk
-    daisy "Can I eat pizza everyday?!"
+    daisy "Могу я есть пиццу каждый день?!"
     show daisy f_normal
     show player 17
-    player_name "Haha, I don't think that would be a good idea..."
+    player_name "Ха-ха, Не думаю, что это хорошая идея..."
     show player 1b
     show daisy f_sad_talk
-    daisy "Oh."
+    daisy "О."
     show daisy f_sad
     show player 14b
-    player_name "... but I can bring you some every now and then."
+    player_name "... но я могу приносить тебе ее время от времени."
     show player 1b
     show daisy f_laugh a_naked_up with dissolve
-    daisy "Yay!"
-    daisy "I like pizza!"
+    daisy "Ура!"
+    daisy "Я люблю пиццу!"
     show daisy f_normal a_naked_sides with dissolve
     show player 14b
-    player_name "Hehe, me too!"
+    player_name "Хехе, я тоже!"
     show player 433
     show daisy f_normal_talk
-    daisy "Thank you, {b}[firstname]{/b}!"
+    daisy "Спасибо, {b}[firstname]{/b}!"
     hide player
     show daisy b_naked_hug f_empty a_empty o_empty
     with dissolve
-    player_name "Y-you're welcome, {b}Daisy{/b}."
+    player_name "Пожалуйста, {b}Дейзи{/b}."
     show daisy f_normal_talk o_sauce b_naked a_naked_sides
     show player 1b at left
     with dissolve
-    daisy "I'm gonna go see if {b}Diane{/b} wants some pizza too!"
+    daisy "Пойду посмотрю, не хочет ли {b}Диана{/b} тоже пиццы!"
     hide daisy with dissolve
     show player 13
     pause
     show player 14
-    player_name "You better tell her to hurry, there's only a few slices left!"
+    player_name "Лучше скажи ей поторопиться, осталось всего несколько кусочков!"
     show player 13
     pause
     show player 18
-    player_name "( I'm really glad I did this. )"
-    player_name "( {b}Daisy{/b} is so cute when she's happy. )"
+    player_name "( Я действительно рад, что сделал это. )"
+    player_name "( {b}Дейзи{/b} такая милая, когда счастлива. )"
     show player 13
     pause
     show player 426
-    player_name "( Alright, I'd better finish up here and get to work on the garden before I run out of daylight. )"
+    player_name "( Хорошо, я лучше закончу здесь и займусь садом до того, как закончится день. )"
     hide player with dissolve
     return
 
@@ -1338,15 +1338,15 @@ label daisy_button_leave:
         show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
     else:
         show daisy f_normal
-    player_name "I should get back to work."
-    player_name "Let me know if you need anything, okay?"
+    player_name "Мне нужно вернуться к работе."
+    player_name "Дай мне знать, если тебе что-нибудь понадобится, хорошо?"
     show player 1b
     if not M_daisy.finished_state(S_daisy_get_pizza):
         show daisy f_shy_shy_talk at Position (yoffset=10)
     else:
         show daisy f_normal_talk
-    daisy "O-okay."
-    daisy "Bye, {b}[firstname]{/b}."
+    daisy "Хорошо."
+    daisy "Пока, {b}[firstname]{/b}."
     hide player
     hide daisy
     with dissolve
