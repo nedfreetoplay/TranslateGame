@@ -1355,183 +1355,183 @@ label daisy_button_leave:
 label daisy_button_jebadiah_delmont:
     show player 10b at left
     show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
-    player_name "So your old master doesn't sound like a very nice guy, huh?"
+    player_name "Так твой старый хозяин не похож на хорошего парня, да?"
     show player 5b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    daisy "Mmm, he {i}could{/i} be nice... Sometimes."
-    daisy "When I was a good girl."
+    daisy "Ммм, он {i}может{/i} быть милым ... Иногда."
+    daisy "Когда я была хорошей девочкой."
     show daisy f_shy_sad at Position (yoffset=10)
     show player 10b
-    player_name "Oh?"
+    player_name "О?"
     show player 5b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "He would bring me presents and teach me songs."
+    daisy "Он приносил мне подарки и учил песням."
     show daisy f_shy_shy at Position (yoffset=10)
     show player 10b
-    player_name "Well, that doesn't sound so bad..."
+    player_name "Ну, это звучит не так уж плохо..."
     show player 5b
     show daisy f_shy_sad_talk a_naked_shy_cover at Position (yoffset=10) with dissolve
-    daisy "As long as I stayed quiet in the shack and didn't touch his things, I was a good girl."
+    daisy "Пока я молчала в хижине и не трогала его вещи, я была хорошей девочкой."
     show daisy f_shy_sad at Position (yoffset=10)
     show player 10b
-    player_name "What happened if you left the shack?"
+    player_name "Что будет, если ты выйдешь из хижины?"
     show player 5b
     show daisy f_shy_sad_talk_closed at Position (yoffset=10)
-    daisy "I don't-"
-    daisy "H-he would-"
+    daisy "Я не-"
+    daisy "Он будет-"
     show daisy b_naked a_naked_cover f_sad_talk_closed with dissolve
     pause
     show player 10b
-    player_name "Do you wanna talk about it?"
+    player_name "Хочешь поговорить об этом?"
     show player 5b
-    daisy "No, please no!"
+    daisy "Нет, пожалуйста, нет!"
     show player 10b
-    player_name "It's okay, we don't have to-"
+    player_name "Все в порядке, нам не нужно-"
     show player 433
-    daisy "No, no, no, no-"
+    daisy "Нет, нет, нет, нет, нет-"
     show player 10b
-    player_name "{b}Daisy{/b}, it's okay..."
-    player_name "We don't have to talk about him at all if you don't want to."
+    player_name "{b}Дейзи{/b}, все хорошо..."
+    player_name "Мы не должны говорить о нем, если ты не хочешь."
     show player 5b
     show daisy f_sad_talk
-    daisy "{b}*Sniff*{/b} I-I'm a good girl?"
+    daisy "{b}*сопя*{/b} Я-я хорошая девочка?"
     show daisy f_sad
     show player 14b
-    player_name "Of course!"
+    player_name "Конечно!"
     show player 10b
-    player_name "I didn't mean to upset you, I-"
+    player_name "Я не хотел тебя расстраивать, я-"
     show player 5b
     pause
     show player 14b
-    player_name "You don't need to worry, {b}Daisy{/b}."
-    player_name "{b}Diane{/b} and I would never hurt you."
+    player_name "Тебе не нужно беспокоиться, {b}Дейзи{/b}."
+    player_name "Мы с {b}Дианой{/b} никогда не причиним тебе вреда."
     show player 1b
     show daisy f_shy_sad_talk a_naked_shy_front b_naked_shy at Position (yoffset=10) with dissolve
-    daisy "O-okay."
+    daisy "Хорошо."
     show daisy f_shy_sad at Position (yoffset=10)
     return
 
 label daisy_button_about_yourself:
     show player 14b at left
     show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
-    player_name "Tell me about yourself."
+    player_name "Расскажите мне о себе."
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Me?!"
+    daisy "Я?!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Yeah, I'd like to know more about you."
+    player_name "Да, я бы хотел узнать о тебе побольше."
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "I don't-"
-    daisy "There's not much-"
+    daisy "Я не-"
+    daisy "Там не так много-"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Is there anything you like?"
+    player_name "Тебе что-нибудь нравится?"
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Umm, flowers?"
+    daisy "Ммм, цветы?"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 17
-    player_name "Heh, anything besides flowers?"
+    player_name "Что-нибудь кроме цветов?"
     show player 1b
     show daisy f_shy_down at Position (yoffset=10)
-    daisy "Hmm."
+    daisy "Хмм."
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Oats!"
+    daisy "Овес!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 10b
-    player_name "Oats?"
+    player_name "Овес?"
     show player 5b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Yeah, Master used to feed me oats all the time."
+    daisy "Да, хозяин все время кормил меня овсом."
     show daisy f_shy_laugh at Position (yoffset=10)
-    daisy "It was yummy!"
+    daisy "Это было вкусно!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "What's {b}Diane{/b} been feeding you?"
+    player_name "Чем тебя кормит {b}Диана{/b}?"
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Oh, lots of stuff..."
-    daisy "She says I should try other things and not just eat oats all the time."
+    daisy "О, многим чем интересным..."
+    daisy "Она говорит, что я должен попробовать другие вещи, а не просто есть овес все время."
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "She's right."
-    player_name "What have you tried so far?"
+    player_name "Она права."
+    player_name "Что ты уже пробовала?"
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Mmm, I've tried lettuce, carrots, bopples, grapes-"
+    daisy "Ммм, я пробовала салат, морковь, бяблоки, виноград-"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 10b
-    player_name "Bopples?"
-    player_name "What's a bopple?"
+    player_name "Бяблоки?"
+    player_name "Что за бяблоки?"
     show player 1b
     show daisy f_shy_down_talk at Position (yoffset=10)
-    daisy "Umm, they are red and crunchy and they make my tongue feel funny."
+    daisy "Они красные и хрустящие, и от них у меня смешной язык."
     show daisy f_shy_shy at Position (yoffset=10)
-    player_name "Hmm?"
+    player_name "Хмм?"
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "{b}Diane{/b} says it's because they are sweet."
+    daisy "{b}Диана{/b} говорит, это потому, что они сладкие."
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Do you mean an apple?"
+    player_name "Ты имеешь в виду яблоки?"
     show player 1b
     show daisy f_shy_laugh at Position (yoffset=10)
-    daisy "Yes, that's it!"
+    daisy "Да, точно!"
     show daisy f_shy_down_talk at Position (yoffset=10)
-    daisy "Apple."
+    daisy "Яблоки."
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "It was yummy too, but oats are much better!"
+    daisy "Это было вкусно тоже, но овес намного лучше!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Heh, okay."
+    player_name "Хех, хорошо."
     show player 1b
     return
 
 label daisy_button_how_are_your_flowers_1:
     show player 14b at left
     show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
-    player_name "How are your flowers?"
-    player_name "Have you been watching them closely?"
+    player_name "Как твои цветы?"
+    player_name "Ты внимательно следила за ними?"
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Yes, very closely!"
-    daisy "{b}Diane{/b} was right, they do drink the water!"
-    daisy "It's so neat!"
+    daisy "Да, очень внимательно!"
+    daisy "{b}Диана{/b} была права, они действительно пьют воду!"
+    daisy "Это так изящно!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Do you wanna watch them with me?!"
+    daisy "Хочешь посмотреть их со мной?!"
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Uhh, no... Sorry {b}Daisy{/b}, I have too much work to do around here."
+    player_name "Ох, нет... Извини, {b}Дейзи{/b}, у меня здесь слишком много работы."
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Oh, okay."
+    daisy "О, хорошо."
     show daisy f_shy_shy at Position (yoffset=10)
     return
 
 label daisy_button_still_nervous:
     show player 14b
     show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
-    player_name "I still make you nervous, huh?"
+    player_name "Я все еще заставляю тебя нервничать, да?"
     show player 1b
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "Y-yeah... A little."
+    daisy "Д-да... немного."
     show daisy f_shy_shy at Position (yoffset=10)
     pause
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "S-sorry."
+    daisy "П-прости."
     show daisy f_shy_shy at Position (yoffset=10)
     show player 14b
-    player_name "Heh, you don't need to be sorry."
-    player_name "It's okay, I understand."
+    player_name "Хех, тебе не нужно извиняться."
+    player_name " Все в порядке, я понимаю."
     show player 1b
     pause
     show player 14b
-    player_name "There's no rush."
+    player_name "Нет никакой спешки."
     show player 1b
     return
 
@@ -1540,30 +1540,30 @@ label daisy_button_intro_scared:
     show player 10b at left
     show daisy b_naked_behind_sad f_empty a_empty
     with dissolve
-    player_name "Hi there, uhh-"
+    player_name "Привет всем, эээ-"
     show player 11
     show daisy b_jump_scared
-    cow "EEEEP!!!" with hpunch
+    cow "ИИИИП!!!" with hpunch
     show daisy b_naked a_naked_cover f_sad_talk_closed
     pause
     show player 24
     dia "{b}[firstname]{/b}!"
     show diane b_naked a_naked_sides f_shamed_talk_smile at Position (xpos=600)
-    dia "She's still frightened of you!"
+    dia "Она все еще боится тебя!"
     show diane f_shamed
     show player 25
-    player_name "I'm sorry, I didn't mean to scare her."
+    player_name "Простите, я не хотел ее напугать."
     show player 24
     show diane f_shamed_talk_smile
-    dia "It's alright."
-    dia "Just give me a little more time with her, okay?"
+    dia "Все в порядке."
+    dia "Просто дай мне еще немного времени с ней, хорошо?"
     show diane f_shamed
     pause
     show diane f_shamed_talk_smile
-    dia "{b}I'll let you know when she's ready to speak with you.{/b}"
+    dia "{b}Я дам тебе знать, когда она будет готова поговорить с тобой.{/b}"
     show diane f_shamed
     show player 25
-    player_name "O-okay."
+    player_name "Хорошо."
     hide player with dissolve
     return
 
@@ -1572,11 +1572,11 @@ label daisy_button_intro:
     show player 14b at left
     show daisy f_shy_shy b_naked_shy a_naked_shy_front at Position (yoffset=10)
     with dissolve
-    player_name "Hey, {b}Daisy{/b}."
+    player_name "Привет, {b}Дейзи{/b}."
     show player 1b
     daisy "..."
     show daisy f_shy_shy_talk at Position (yoffset=10)
-    daisy "H-hi."
+    daisy "П-привет."
     show daisy f_shy_shy at Position (yoffset=10)
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
