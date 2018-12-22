@@ -245,152 +245,152 @@ label button_clyde_pink_beaver:
     player_name "О чем ты говоришь?!"
     show player 5f
     show clyde 26 with dissolve
-    clyde "Tch, he was nuttier than a porta potty at a peanut festival, alright?!"
+    clyde "Ччч, он был более сумасшедшим, чем горшок с портой на фестивале арахиса, хорошо ?!"
     show clyde 25
     show player 12f
-    player_name "You mean he was crazy?"
+    player_name "Ты хочешь сказать, он был сумасшедшим?"
     show player 5f
     show clyde 26
-    clyde "That's what I've been tryin' to tell ya..."
+    clyde "Вот что я хочу сказать..."
     show clyde 25
     show player 10f
-    player_name "Oh."
+    player_name "О."
     show player 5f
     show clyde 2
-    clyde "Yeah."
-    clyde "Mama says he was always a bit eccentric."
-    clyde "Folk in the holler used to call him the hillbilly wizard."
+    clyde "Да."
+    clyde "Мама говорит, он всегда был немного эксцентричным."
+    clyde "Люди в крике называли его волшебником."
     show clyde 1
     show player 10f
-    player_name "He was a wizard?"
+    player_name "Он был волшебником?"
     show player 5f
     show clyde 2
-    clyde "Yeah, but he wasn't a very good one."
-    clyde "I remember, he tried turnin' me into a toad one time, cause I had gone and got my head stuck in the stairs."
+    clyde "Да, но он был не очень хорошим парнем."
+    clyde "Помню, однажды он пытался превратить меня в жабу, потому что я ушел и застрял головой на лестнице."
     show clyde 1
     show player 10f
-    player_name "You got your head stuck in the stairs?!"
+    player_name "У тебя голова застряла на лестнице?!"
     show player 5f
     show clyde 2
-    clyde "My brother told me there was a leprechaun livin' under the stairs and I wanted to see him."
+    clyde "Мой брат сказал мне, что под лестницей живет лепрекон, а я хотел его увидеть."
     show clyde 1
     show player 17f
-    player_name "Pfft, hahaha!"
+    player_name "Пффф, хахаха!"
     show player 13f
     show clyde 2
-    clyde "Anyways, his spell didn't work."
+    clyde "В любом случае, его заклинание не сработало."
     show clyde 11 with dissolve
-    clyde "So Mama had to grease me up with bacon fat and slide me out."
+    clyde "Поэтому маме пришлось смазать меня беконным жиром и вытащить."
     show clyde 12
     show player 17f
-    player_name "Haha!"
+    player_name "Хаха!"
     show player 13f
     show clyde 4
-    clyde "Then there was this one time, I was failin' the second grade..."
-    clyde "... And grandpappy, he said, \"Don't you worry none little {b}Clyde{/b}. Grandpappy will fix it right up fer ya.\""
+    clyde "Потом был один раз, когда я завалил второй класс..."
+    clyde "... И дедушка, он сказал, \"Не волнуйся, маленький {b}Клайд{/b}. Дедушка все исправит для тебя.\""
     show clyde 3
     pause
     show player 14f
-    player_name "Okay, so what happened?"
+    player_name "Ладно, и что случилось?"
     show player 13f
     show clyde 2 with dissolve
-    clyde "Well, I don't rightly know. They found him in the school house, in the middle of the night, buck naked and covered in chicken blood."
+    clyde "Ну, я не совсем помню. Они вроде нашли его в школе, посреди ночи, голым и покрытым куриной кровью."
     show clyde 1
     show player 23f
-    player_name "Chicken blood?!"
+    player_name "Куриной кровью?!"
     show player 11f
     show clyde 2
-    clyde "Yeah, he said he was performin' some kinda ritual thingy to help me with my schoolin'."
-    clyde "Apparently he was a hootin' and a hollerin' and a carryin' on."
+    clyde "Да, он сказал, что выполняет какую-то ритуальную штуку, чтобы помочь мне с учебой."
+    clyde "По-видимому, он хулиганил, кричал и продолжал."
     show clyde 1
     show player 10f
-    player_name "Yeah, he does sound a little crazy, {b}Clyde{/b}."
+    player_name "Да, звучит немного безумно, {b}Клайд{/b}."
     show player 12f
     show clyde 2
-    clyde "Yeah, I reckon he was."
-    clyde "He was a sweet ole' feller though."
-    clyde "It's too bad all dem evil spirits got mad at him."
+    clyde "Да, я думаю, что так и было."
+    clyde "Хотя он был славным парнем."
+    clyde "Жаль, что все злые духи на него разозлились."
     show clyde 1
     show player 10f
-    player_name "Evil spirits?"
+    player_name "Злые духи?"
     show player 11f
     show clyde 2
-    clyde "Yeah, he told me all about it right after he broke this here statue and hid the pieces."
-    clyde "Said they was coming fer him and he wanted her to be safe."
+    clyde "Да, он рассказал мне об этом сразу после того, как разбил эту статую и спрятал осколки."
+    clyde "Сказал, что они придут за ним и он хочет, чтобы она была в безопасности."
     show clyde 1
     show player 10f
-    player_name "Her?"
+    player_name "Они?"
     show player 5f
     show clyde 40 with dissolve
-    clyde "The lady in the statue, of course!"
-    clyde "He was real tore up about hiding her away."
-    clyde "She was his good luck charm after all."
+    clyde "Дама в статуе, конечно!"
+    clyde "Он был очень расстроен, что спрятал ее."
+    clyde "В конце концов, она была его талисманом."
     show clyde 39
     show player 12f
-    player_name "Weird."
+    player_name "Странный."
     show player 5f
     show clyde 9 with dissolve
-    clyde "Then we caught him fornicatin' with the livestock and Mama sent him off to the nut house."
+    clyde "Потом мы поймали его на блуде со скотом, и мама отправила его в психушку."
     show clyde 3 with dissolve
     show player 22f
     player_name "!!!" with hpunch
     show player 23f
-    player_name "You mean he-"
-    player_name "W-with animals?!"
+    player_name "Ты хочешь сказать он-"
+    player_name "С животными?!"
     show player 37f
     show clyde 11
     with dissolve
-    clyde "{b}*Sigh*{/b} Yup, crying like a baby too."
-    clyde "Them spirits musta really done a number on him, poor feller."
+    clyde "{b}*вздыхая*{/b} Да, тоже плачу как ребенок."
+    clyde "Эти духи Муста действительно сделали с ним многое, бедняга."
     show clyde 12
     show player 10f with dissolve
-    player_name "So uhh..."
-    player_name "... Is your grandpa still living at the nut house then?"
+    player_name "И эээ..."
+    player_name "... Твой дедушка все еще живет в психушке?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "Ah, nah."
-    clyde "About two weeks after Mama sent him there, his room caught on fire and he burnt up in it."
+    clyde "А, нет."
+    clyde "Примерно через две недели после того, как мама отправила его туда, его комната загорелась, и он погиб в ней."
     show clyde 1
     show player 24f
-    player_name "Jesus..."
+    player_name "Боже..."
     show clyde 2
-    clyde "They not sure how the fire started but I reckon them spirits finally got him."
+    clyde "Они не знают, как начался пожар, но я думаю, что духи, наконец, добрались до него."
     show clyde 1
-    player_name "I don't even..."
+    player_name "Я даже не знаю..."
     player_name "..."
     show clyde 30
-    clyde "Yeah, it was real sad..."
+    clyde "Да, это было очень грустно..."
     show clyde 29
     pause
     show player 11f
     show clyde 2
-    clyde "Anyways!"
+    clyde "В любом случае!"
     show player 5f
     show clyde 40 with dissolve
-    clyde "I reckon he wouldn't mind me giving you this piece of the statue."
-    clyde "Seein' as you helped me and all."
-    clyde "Who knows, maybe it'll bring you luck too."
+    clyde "Думаю, он не будет возражать, если я отдам тебе этот кусок статуи."
+    clyde "Видя, как ты помог мне и все такое."
+    clyde "Кто знает, может, и тебе повезет."
     show clyde 39
     show player 10f
-    player_name "R-right."
-    player_name "Thanks, I guess..."
+    player_name "Точно."
+    player_name "Спасибо, наверно..."
     show player 715f
     show clyde 9
     with dissolve
-    clyde "Don't mention it, buddy!"
+    clyde "Не упоминай об этом, приятель!"
     show player 5f with dissolve
-    clyde "Now if you'll excuse me."
-    clyde "I wanna watch my dog give that ole' beaver what fer!"
+    clyde "А теперь прошу меня извинить."
+    clyde "Я хочу посмотреть, как моя собака даст этому бобру то, что нужно!"
     hide clyde
     hide clyde_hat
     with dissolve
-    clyde "Hehehe."
+    clyde "Хехехе."
     show player 239_240f with dissolve
     pause
     show player 715f with dissolve
-    player_name "( You know, this actually explains quite a lot about {b}Clyde{/b} and why he is the way he is... )"
+    player_name "( Ну, это многое объясняет насчет {b}Клайда{/b} и почему он такой, какой есть... )"
     pause
-    player_name "( I guess I should keep an eye out for the other pieces of this statue. )"
+    player_name "( Думаю, я должен поискать другие части этой статуи. )"
     hide player with dissolve
     return
 
@@ -402,70 +402,70 @@ label button_clyde_mysterious_statue_1:
         show clyde_hat at left
     pause
     show player 688cf
-    player_name "You know anything about this {b}Clyde{/b}?"
+    player_name "Ты знаешь что-нибудь об этом {b}Клайд{/b}?"
     show player 688bf
     show clyde 30
-    clyde "{b}*Gasp*{/b} Where in the world did you find that?!"
+    clyde "{b}*вздыхая*{/b} Где ты это нашел?!"
     show clyde 29
     show player 688cf
-    player_name "It was buried under my friends house."
+    player_name "Он был похоронен под домом моих друзей."
     show player 688bf
     pause
     show player 688cf
-    player_name "The name {b}Delmont{/b} is etched in the bottom."
+    player_name "Имя {b}Делмонт{/b} выгравировано внизу."
     show player 688bf
     show clyde 2
-    clyde "Yeah."
+    clyde "Да."
     show clyde 4 with dissolve
-    clyde "It's part of my grandpappy's good luck charm."
+    clyde "Это часть талисмана моего дедульки."
     show clyde 3
     show player 688cf
-    player_name "Grandpappy?"
-    player_name "You mean your grandfather?"
+    player_name "Дедульки?"
+    player_name "Ты имеешь в виду своего дедушку?"
     show player 13f with dissolve
     show clyde 4
-    clyde "Uh huh, {b}Jebadiah Delmont{/b}."
-    clyde "He was real famous in these parts many years ago for the milk his cows produced."
+    clyde "Ага, {b}Джебедия Делмонт{/b}."
+    clyde "Он был очень известен в этих краях много лет назад молоком, которое производили его коровы."
     show clyde 3
     show player 10f
-    player_name "Cow milk?"
+    player_name " Коровье молоко?"
     show player 5f
-    clyde "Mmhmm."
+    clyde "Мммммм."
     show clyde 4
-    clyde "It was delicious!"
-    clyde "Won a bunch of contests with it."
+    clyde "Это было восхитительно!"
+    clyde "Выиграл с ним кучу конкурсов."
     show clyde 3
     show player 14f
-    player_name "That's pretty cool."
+    player_name "Это довольно круто."
     show player 13f
     show clyde 4
-    clyde "He had some amazing chicken eggs too."
-    clyde "They was big as a football!"
+    clyde "У него также были удивительные куриные яйца."
+    clyde "Они были большими, как футбольный мяч!"
     show clyde 3
     pause
     show player 12f
-    player_name "Right..."
+    player_name "Ага..."
     show player 5f
     pause
     show player 10f
-    player_name "So uhh..."
-    player_name "Do you know where the rest of this statue might be?"
+    player_name "Ну и..."
+    player_name "Ты знаешь, где может быть другая часть этой статуи?"
     show player 5f
     show clyde 11 with dissolve
-    clyde "Nope!"
+    clyde "Нет!"
     show clyde 12
     pause
     show player 10f
-    player_name "Oh, cause I just thought-"
+    player_name "О, потому что я просто подумал-"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Sorry feller, can't help ya!"
-    clyde "I dun know squat!"
+    clyde "Извини, приятель, ничем не могу помочь!"
+    clyde "Я ничего не знаю!"
     show clyde 3 with dissolve
     show player 10f
-    player_name "Alright..."
+    player_name "Хорошо..."
     show player 24f
-    player_name "Thanks anyways, I guess."
+    player_name "В любом случае спасибо, я думаю."
     show player 5f
     show clyde 1 with dissolve
     return
@@ -478,29 +478,29 @@ label button_clyde_mysterious_statue_2:
         show clyde_hat at left
     pause
     show player 715bf with dissolve
-    player_name "Any idea where I can find more of this statue?"
+    player_name "Есть идеи, где я могу найти еще от этой статуи?"
     show player 715cf
     show clyde 2
-    clyde "Erm, not really."
-    clyde "Knowin' grandpappy, that last piece will probably {b}find you{/b}."
+    clyde "Эээ, наврятли."
+    clyde "Зная дедушку, последний кусок, вероятно, {b}найдет тебя{/b}."
     show clyde 1
     show player 10f with dissolve
-    player_name "What do you mean?"
+    player_name "Что ты имеешь в виду?"
     show player 5f
     show clyde 2
-    clyde "Yeah, I reckon I'd prolly jus' {b}find a nice comfy place to relax{/b}..."
-    clyde "... {b}somewheres near the beach, maybe{/b}."
+    clyde "Да, я думаю, я бы мог {b}найти хорошее удобное место, чтобы расслабиться{/b}..."
+    clyde "... {b}где-то рядом с пляжем, может быть{/b}."
     show clyde 1
     pause
     show clyde 2
-    clyde "I betcha' {b}that head will pop up all on it's own{/b}."
+    clyde "Бьюсь об заклад, {b}что голова всплывет сама по себе{/b}."
     show clyde 1
     show player 10f with dissolve
-    player_name "Ehh, right..."
-    player_name "Well, thanks. I guess..."
+    player_name "Эээ, ладно..."
+    player_name "Ну, спасибо. Я думаю..."
     show player 5f
     show clyde 9 with dissolve
-    clyde "No problem, buddy."
+    clyde "Без проблем, приятель."
     show clyde 1 with dissolve
     return
 
@@ -511,84 +511,84 @@ label button_clyde_your_dog:
     show clyde 1 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
-    player_name "So, about your dog..."
+    player_name "Итак, о вашей собаке..."
     show player 5f
     show clyde 4 with dissolve
-    clyde "Ah yeah, she's a good girl ain't she?"
+    clyde "Ах да, она хорошая девочка, не так ли?"
     show clyde 3
     show player 10f
-    player_name "Okay, sure."
+    player_name "Да, конечно."
     show player 12f
-    player_name "You realize she isn't a dog though, right?"
+    player_name "Ты ведь понимаешь, что она не собака, правда?"
     show player 5f
     show clyde 4
-    clyde "Best dog I ever had!"
+    clyde "Лучшая собака в моей жизни!"
     show clyde 3
     show player 24f
-    player_name "{b}*Sigh*{/b}"
+    player_name "{b}*вздох*{/b}"
     show player 5f
     show clyde 4
-    clyde "That's why I'm practicin' so hard, to win her one of dem {b}stuffed beavers{/b} at the fair."
+    clyde "Вот почему я так усердно тренируюсь, чтобы завоевать ей одного из этих {b}чучел бобров{/b} на ярмарке."
     show clyde 3
     show player 12f
-    player_name "Yeah, you mentioned that."
+    player_name "Да, ты упоминал об этом."
     show player 10f
-    player_name "Why don't you just buy her one?"
+    player_name "Почему бы тебе просто не купить ее одну?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Psh, now you'se talkin' crazy..."
-    clyde "What, you think {b}Pink beavers{/b} jus' be growin' on trees or somethin'?"
+    clyde "Пф, теперь ты говоришь как сумасшедший..."
+    clyde "Думаешь, {b}розовые бобры{/b} растут на деревьях или что-то вроде того?"
     show clyde 3 with dissolve
     show player 10f
-    player_name "Does the color really matter?"
+    player_name "Цвет действительно имеет значение?"
     show player 5f
     show clyde 4
-    clyde "Heck ya it matters!"
-    clyde "{b}Pink beavers{/b} is the best beavers."
+    clyde "Черт возьми, конечно имеет значение!"
+    clyde "{b}Розовые бобры{/b} самые лучшие бобры."
     show clyde 9 with dissolve
-    clyde "Ever'body knows dat!"
+    clyde "Все знают это!"
     show clyde 3 with dissolve
     show player 402f
-    player_name "... Right."
+    player_name "... Точно."
     show player 10f
-    player_name "Okay, well good luck with all that I guess..."
+    player_name "Ладно, удачи тебе во всем этом..."
     show player 5f
     show clyde 4
-    clyde "\"Luck\" is my middle name, brother."
+    clyde "\"Удача\" это мое второе имя, брат."
     show clyde 3
     pause
     show clyde 2 with dissolve
-    clyde "Actually it's Cornelius."
+    clyde "Вообще-то это Корнелиус."
     show clyde 1
     show player 12f
-    player_name "Huh?"
+    player_name "А?"
     show player 5f
     show clyde 2
     if M_clyde.get("cletus"):
-        clyde "{b}Cletus Cornelius Delmont{/b}."
+        clyde "{b}Клетус Корнелиус Делмонт{/b}."
     else:
-        clyde "{b}Clyde Cornelius Delmont{/b}."
+        clyde "{b}Клайд Корнелиус Делмонт{/b}."
     show clyde 1
     show player 10f
-    player_name "You're middle name is Cornelius?"
+    player_name "Твое второе имя - Корнелиус?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "Yeah buddy."
-    clyde "Like that prospector fella on the flyin' Reindeer show."
+    clyde "Да приятель."
+    clyde "Как тот старатель на шоу летающих оленей."
     show clyde 4
-    clyde "You seen dat one?!"
+    clyde "Ты видел хотябы одно?!"
     show clyde 3
     show player 10f
-    player_name "I don't think so..."
+    player_name "Не думаю..."
     show player 5f
     show clyde 4
-    clyde "Maaan, das a great one!"
+    clyde "Чувааак, оно великолепно!"
     show clyde 3
     show player 10f
-    player_name "You're a weird guy, {b}Clyde{/b}."
+    player_name "Ты странный парень, {b}Клайд{/b}."
     show player 5f
     show clyde 4
-    clyde "Uh huh!"
+    clyde "Ага!"
     show clyde 1 with dissolve
     return
 
