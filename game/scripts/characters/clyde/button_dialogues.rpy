@@ -4,134 +4,134 @@ label button_clyde_pink_beaver:
     show clyde 1 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
-    player_name "Hey, about that beaver you wanted."
+    player_name "Эй, насчет бобра, которого ты хотел."
     show player 13f
     show clyde 2
-    clyde "Yah?"
+    clyde "Да?"
     show clyde 1
     show player 239_240f
     pause
     show player 709f
-    player_name "Is this it?"
+    player_name "Это он?"
     show player 708f
     show clyde 30
     clyde "!!!"
     show clyde 4 with dissolve
-    clyde "Well butter my butt and call me a biscuit, you actually got it!"
+    clyde "Ну, смажь мою попку и назови меня печеньем, ты на самом деле понял!"
     show clyde 3
     show player 709f
-    player_name "I thought this might be it."
+    player_name "Я думал, что это может быть."
     show clyde 34
     show player 13f
     with dissolve
     pause
     show clyde 35
-    clyde "How the heck did you win dis thing?!"
+    clyde "Как, черт возьми, ты выиграл эту штуку?!"
     show clyde 33 with dissolve
-    clyde "The fair ain't even gon' be here for another 2 months!"
+    clyde "Ярмарки не будет еще 2 месяца!"
     show clyde 32
     show player 12f
-    player_name "I bought it at the shopping mall, {b}Clyde{/b}."
+    player_name "Я купил его в торговом центре, {b}Клайд{/b}."
     show player 5f
     show clyde 2 with dissolve
-    clyde "The mall?"
-    clyde "Ah, shoot."
-    clyde "I ain't never been in 'dere."
-    clyde "Where's that dog run off to now?"
-    clyde "C'mon, girl!"
+    clyde "В торговом центре?"
+    clyde "А, черт."
+    clyde "Я никогда там не был."
+    clyde "Куда эта собака убежала сейчас?"
+    clyde "Давай, девочка!"
     show clyde 1
     pause
     show player 10f
-    player_name "Wait. You've never been to the mall?"
+    player_name "Подожди. Ты никогда не был в торговом центре?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "No, sir."
+    clyde "Нет, сэр."
     show clyde 3
     show player 10f
-    player_name "Where do you buy your groceries then?"
+    player_name "Где ты тогда покупаешь продукты?"
     show player 5f
     show clyde 4
-    clyde "Pfft, you city folk and yer groceries..."
-    clyde "I ain't payin' nobody fer stuff dat's free right here in the woods!"
+    clyde "Пффф, вы горожане и ваши продукты..."
+    clyde "Я никому не буду платить за то, что бесплатно прямо здесь, в лесу!"
     show clyde 3
     show player 10f
-    player_name "... Huh?"
+    player_name "... Ааа?"
     show player 5f
     show clyde 9 with dissolve
-    clyde "I hunt fer mah food, buddy."
+    clyde "Я охочусь за едой, приятель."
     show clyde 4 with dissolve
-    clyde "Speakin' of, I got a nice pot of squirrel stewin' back in mah shack."
-    clyde "You oughta come by fer dinner!"
+    clyde "Кстати, у меня в хижине есть горшочек тушеной белки."
+    clyde "Приходи к нам на ужин!"
     show clyde 3
     show player 12f
-    player_name "Eugh, no thanks."
+    player_name "Йее, нет спасибо."
     show player 5f
-    pig "{b}*Squeeeeee*{/b}"
+    pig "{b}*хрююююю*{/b}"
     show clyde 4
-    clyde "There you are!"
+    clyde "Вот ты где!"
     if M_clyde.get("cletus"):
         show clyde_hat down
     show clyde 36
     with dissolve
-    clyde "Where you been girl?!"
+    clyde "Где же ты была, моя девочка?!"
     if M_clyde.get("cletus"):
         show clyde_hat
     show clyde 38
     with dissolve
-    pig "*{b}Oink{/b}*"
+    pig "*{b}Хрю{/b}*"
     show clyde 37
-    clyde "Look what {b}[firstname]{/b} brought fer ya!"
+    clyde "Посмотри, что {b}[firstname]{/b} принес для тебя!"
     show clyde 38
-    pig "{b}*SQUEE SQUEE*{/b}"
+    pig "{b}*ХРЮЮ ХРЮЮ*{/b}"
     show clyde 37
-    clyde "Hehehe, look how happy she is!"
+    clyde "Хехехе, посмотри, как она счастлива!"
     if M_clyde.get("cletus"):
         show clyde_hat down
     show clyde 36
     with dissolve
-    clyde "You go and have some fun now!"
+    clyde "Иди и повеселись сейчас же!"
     if M_clyde.get("cletus"):
         show clyde_hat
     show clyde 3
     with dissolve
-    pig "{b}*Snort*{/b}"
+    pig "{b}*фырк*{/b}"
     pause
     show clyde 4
-    clyde "Now dat is one happy dog."
-    clyde "Alright feller..."
+    clyde "Теперь это одна счастливая собака."
+    clyde "Ладно, парень..."
     show clyde 9 with dissolve
-    clyde "I gotta repay you fer dis somehow."
+    clyde "Я должен как-то отплатить тебе за это."
     show clyde 3 with dissolve
     show player 12f
-    player_name "Don't worry about it."
-    player_name "Just consider it a gift."
+    player_name "Не беспокойтесь об этом."
+    player_name "Просто считай это подарком."
     show player 5f
     show clyde 4
-    clyde "Now hold on, just a second."
+    clyde "Теперь подожди секунду."
     show clyde 1 with dissolve
     pause
     show clyde 9 with dissolve
-    clyde "Oh!"
-    clyde "I got just the thing!"
+    clyde "О!"
+    clyde "У меня как раз то, что надо!"
     hide clyde
     hide clyde_hat
     with dissolve
     show player 10f
-    player_name "Where are you going?!"
+    player_name "Куда это ты собрался?!"
     show player 5f
-    clyde "Wait there!"
+    clyde "Подожди здесь!"
     pause
-    clyde "Don't you move a muscle!"
+    clyde "Не двигай мышцами!"
     show player 25f
-    player_name "Oh, man."
-    player_name "R-really, it's okay..."
-    player_name "I don't nee-"
+    player_name "О, блин."
+    player_name "Правда, хорошо..."
+    player_name "Я не-"
     show player 11f
     show clyde 40 at left
     if M_clyde.get("cletus"):
         show clyde_hat at left
     with dissolve
-    clyde "Check it out!"
+    clyde "Зацени!"
     show clyde 39
     if player.has_item("mysterious_statue_1"):
         show player 23f
