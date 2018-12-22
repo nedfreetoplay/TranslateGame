@@ -138,111 +138,111 @@ label button_clyde_pink_beaver:
         player_name "!!!"
         show player 30f
         if M_clyde.get("cletus"):
-            player_name "{b}Clyde{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+            player_name "{b}Клайд{/b}, Я думал, ты сказал, что ничего не знаешь о статуе своего деда!"
         else:
-            player_name "{b}Cletus{/b}, I thought you said you didn't know anything about your Grandfather's statue!"
+            player_name "{b}Клетус{/b}, Я думал, ты сказал, что ничего не знаешь о статуе своего деда!"
         show player 90f
         show clyde 40
-        clyde "Oh, right."
-        clyde "I did say that, didn't I?"
+        clyde "О, точно."
+        clyde "Я ведь это и сказал, не так ли?"
         show clyde 39
         pause
         show clyde 11 with dissolve
-        clyde "Well, I was lyin'."
+        clyde "Ну, я просто соврал."
         show clyde 12
         show player 12f
-        player_name "Why?!"
+        player_name "Почему?!"
         show player 90f
     else:
 
         player_name "!!!"
         show player 30f
-        player_name "What the heck is that?"
+        player_name "Что это за хрень?"
         show player 5f
         show clyde 40
-        clyde "Well, it used to belong to my grandpappy."
+        clyde "Ну, это принадлежало моему дедушке."
         show clyde 39
         show player 10f
-        player_name "You're grandpappy?!"
+        player_name "Твоему дедушке?!"
         show player 5f
         show clyde 9 with dissolve
-        clyde "That's right!"
-        clyde "Ole' {b}Jebediah Delmont{/b} himself!"
+        clyde "Точно!"
+        clyde "Оле {b}Джебедия Дельмонт{/b} вообще-то!"
         show clyde 3
         pause
         player_name "..."
         show clyde 2 with dissolve
-        clyde "You've never heard of {b}Jebadiah Delmont{/b}?"
+        clyde "Ты никогда не слышал о {b}Джебедия Дельмонте{/b}?"
         show clyde 1
         show player 10f
-        player_name "No?"
+        player_name "Нет?"
         show player 5f
         show clyde 2
-        clyde "{b}*Sigh*{/b} Good grief."
+        clyde "{b}*вздыхая*{/b} Боже мой."
         show clyde 4 with dissolve
-        clyde "He used to be perty famous 'round these parts for his cows and their delicious milk!"
-        clyde "He won all sorts of contests."
+        clyde "Он славился в этих краях своими коровами и их восхитительным молоком!"
+        clyde "Он побеждал во всевозможных конкурсах."
         show clyde 3
         show player 10f
-        player_name "He was a dairy farmer?"
+        player_name "Он был молочным фермером?"
         show player 5f
         show clyde 4
-        clyde "Well, he didn't just do dairy farmin'."
-        clyde "He had all sorts of animals."
+        clyde "Ну, он не просто занимался молочной фермой."
+        clyde "У него были разные животные."
         show clyde 9 with dissolve
-        clyde "You shoulda seen the chicken eggs he'd bring to fair."
-        clyde "They was as big as a football!"
+        clyde "Видели бы вы куриные яйца, которые он приносил на ярмарку."
+        clyde "Они были размером с футбольный мяч!"
         show clyde 3 with dissolve
         show player 10f
-        player_name "For real?"
+        player_name "Да ну?"
         show player 5f
         show clyde 4
-        clyde "Heh, yeah buddy!"
+        clyde "Хе, да, чувак!"
         show clyde 3
         pause
         show player 17f
-        player_name "That sounds awesome!"
+        player_name "Звучит потрясающе!"
         show player 14f
-        player_name "Tell me more."
+        player_name "Расскажи больше."
         show player 13f
         show clyde 11 with dissolve
-        clyde "Oh, no. I uhh-"
-        clyde "{b}*Ahem*{/b} I really don't wanna get into all that..."
+        clyde "О, нет. Я эээ-"
+        clyde "{b}*ммммм*{/b} Я правда не хочу в это ввязываться..."
         show clyde 12
         show player 10f
-        player_name "Huh, why not?"
+        player_name "Хух, почему нет?"
         show player 5f
     show clyde 11
-    clyde "Look buddy, my grandpappy ain't exactly the pride of the {b}Delmont family{/b}..."
-    clyde "We don't like talkin' bout it!"
+    clyde "Слушай, приятель, мой дедушка не совсем гордость {b}семьи Дельмонт{/b}..."
+    clyde "Мы не любим об этом говорить!"
     show clyde 12
     show player 10f
-    player_name "How come?"
+    player_name "Почему?"
     show player 5f
     show clyde 2 with dissolve
-    clyde "{b}*Sigh*{/b} Let's just say ole' {b}Jebediah{/b} was a little, touched in the head, alright?"
+    clyde "{b}*вздыхая*{/b} Давайте просто скажем, что Оле' {b}Джебедия{/b} был немного тронутый, хорошо?"
     show clyde 1
     show player 10f
-    player_name "Touched in the head?"
+    player_name "Был немного тронутый?"
     show player 5f
     show clyde 2
-    clyde "You know."
-    clyde "He had a few screws loose."
+    clyde "Ну ты понимаешь."
+    clyde "У него нехватало несколько винтов."
     show clyde 1
     show player 10f
-    player_name "Uhh..."
+    player_name "Эээ..."
     show player 5f
     show clyde 9 with dissolve
-    clyde "His wheel was turning but the hamster was dead."
+    clyde "Его колесо поворачивалось, но хомяк был мертв."
     show clyde 3 with dissolve
     show player 10f
-    player_name "I don't..."
+    player_name "Я не..."
     show player 5f
     show clyde 4
-    clyde "He was a few cards short of a full deck."
+    clyde "Ему не хватило нескольких карт до полной колоды."
     show clyde 3
     show player 12f
-    player_name "What are you talking about?!"
+    player_name "О чем ты говоришь?!"
     show player 5f
     show clyde 26 with dissolve
     clyde "Tch, he was nuttier than a porta potty at a peanut festival, alright?!"
