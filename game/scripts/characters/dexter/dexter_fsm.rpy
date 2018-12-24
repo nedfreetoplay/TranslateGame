@@ -1,15 +1,15 @@
 label dexter_triggers_init:
     python:
 
-        T_dex_territory = Trigger("territory", "Dexter states that this is his territory")
-        T_dex_challenge = Trigger("challenge", "You try challenge Dexter")
+        T_dex_territory = Trigger("territory", "Декстер утверждает, что это его территория")
+        T_dex_challenge = Trigger("challenge", "Попробуйте бросить вызов Декстеру")
     return
 
 label dexter_fsm_init:
     python:
 
         S_dex_start = State("start")
-        S_dex_flirting = State("flirting", "Dexter is busy flirting on the basket court")
+        S_dex_flirting = State("flirting", "Декстер занят флиртом на баскетбольном корте")
         S_dex_end = State("end")
 
 
