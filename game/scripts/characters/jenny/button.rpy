@@ -1,13 +1,13 @@
 label sis_button_dialogue:
     call expression game.dialog_select("jenny_dialogue_pre")
     menu sis_bedroom_menu:
-        "Talk.":
+        "Говорить.":
             if not M_jenny.finished_state(S_jenny_shower_peep_bed_cuddle_tier_2):
                 call expression game.dialog_select("jennybedroom_talk_after_cuddle")
             else:
                 call expression game.dialog_select("jenny_dialogue_talk_before_cuddle")
 
-        "I love you." if M_jenny.finished_state(S_jenny_cam_show):
+        "Я люблю тебя." if M_jenny.finished_state(S_jenny_cam_show):
             if sis_confession_first:
                 call expression game.dialog_select("jenny_dialogue_confess_first")
                 $ sis_confession_first = False
@@ -16,29 +16,29 @@ label sis_button_dialogue:
                 call expression game.dialog_select("jenny_dialogue_confess_repeat")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "{b}Roxxy{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
+        "{b}Рокси{/b}." if M_bissette.is_state(S_bissette_jenny_mentoring_payment):
             call expression game.dialog_select("jenny_dialogue_roxxy_pre")
             menu:
-                "Pay" if player.has_money(500):
+                "Заплатить." if player.has_money(500):
                     $ player.spend_money(500)
                     call expression game.dialog_select("jenny_dialogue_roxxy_pay")
                     $ M_bissette.trigger(T_bissette_jenny_paid)
-                "Don't Pay":
+                "Не платить.":
 
                     call expression game.dialog_select("jenny_dialogue_roxxy_do_not_pay")
 
-        "{b}[deb_name]{/b} needs you." if M_jenny.is_state(S_jenny_debbie_needs_jenny):
+        "{b}[deb_name]{/b} тебя ищет.." if M_jenny.is_state(S_jenny_debbie_needs_jenny):
             call expression game.dialog_select("sis_bedroom_sis_mom_needs_you")
             $ M_jenny.trigger(T_jenny_tricked)
 
-        "Trade for panties." if not M_jenny.finished_state(S_jenny_panty_deal_tier_4):
+        "Обмен на трусики." if not M_jenny.finished_state(S_jenny_panty_deal_tier_4):
             call expression game.dialog_select("jenny_dialogue_trade_panties")
 
-        "Make a deal." if M_jenny.finished_state(S_jenny_breakfast):
+        "Заключить сделку." if M_jenny.finished_state(S_jenny_breakfast):
             call expression game.dialog_select("jenny_dialogue_make_deal")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Cam show." if M_jenny.between_states(S_jenny_cam_show, S_jenny_end):
+        "Видео шоу." if M_jenny.between_states(S_jenny_cam_show, S_jenny_end):
             $ sis_cheerleader_sex2_menu = False
             if not M_jenny.is_state(S_jenny_cam_show):
                 $ game.timer.tick()
@@ -69,7 +69,7 @@ label sis_button_dialogue:
                 $ xray = False
                 jump expression game.dialog_select("sis_cheerleader_fuck_looprep")
 
-        "Need toys?" if M_jenny.is_state(S_jenny_help_stream_tier_4, S_jenny_prepare_stream_tier_4):
+        "Нужны игрушки?" if M_jenny.is_state(S_jenny_help_stream_tier_4, S_jenny_prepare_stream_tier_4):
             if M_jenny.is_state(S_jenny_help_stream_tier_4):
                 call expression game.dialog_select("jenny_dialogue_need_toys")
                 $ M_jenny.trigger(T_jenny_need_toys)
@@ -82,12 +82,12 @@ label sis_button_dialogue:
                 $ player.remove_item("badmonster")
                 $ M_jenny.trigger(T_jenny_brought_toys)
 
-        "Watch TV tonight." if M_jenny.finished_state(S_jenny_cam_show) and not sis_watch_tv_tonight:
+        "Смотреть ТВ сегодня вечером." if M_jenny.finished_state(S_jenny_cam_show) and not sis_watch_tv_tonight:
             call expression game.dialog_select("jenny_dialogue_watch_tv_tonight")
             $ sis_watch_tv_tonight = True
             jump expression game.dialog_select("sis_bedroom_menu")
 
-        "Watch the neighbors." if M_jenny.finished_state(S_jenny_cam_show):
+        "Наблюдать за соседями." if M_jenny.finished_state(S_jenny_cam_show):
             $ game.timer.tick()
             call expression game.dialog_select("jenny_dialogue_watch_neighbours")
             call expression game.dialog_select("jenny_dialogue_watch_neighbours_continue01")
