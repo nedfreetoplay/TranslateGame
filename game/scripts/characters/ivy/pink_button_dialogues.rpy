@@ -2,27 +2,27 @@ label button_ivy_start_intro:
     scene location_pink_closeup
     show player 1 at left with dissolve
     show ivy 2 at right with dissolve
-    ivy "Hi!"
-    ivy "Can I help you with something?"
+    ivy "Привет!"
+    ivy "Чем могу помочь?"
     show player 29
     show ivy 1
-    player_name "It's my first time here. I... Umm..."
+    player_name "Я впервые здесь. Я... Умм..."
     show player 13
     show ivy 3
-    ivy "It's okay! I understand! Everyone's a little shy when they first come here..."
+    ivy "Все хорошо! Я понимаю! Все немного стесняются, когда впервые приходят сюда..."
     show ivy 2
-    ivy "We have a large selection of {b}toys{/b} and {b}sexy apparel{/b} that you can view on our wall display."
+    ivy "У нас есть большой выбор {b}игрушек{/b} и {b}сексуальной одежды{/b} которые вы можете просмотреть на нашей стене."
     show player 11
-    ivy "We can also offer a... {b}full body massage session{/b} in one of our... private rooms."
-    ivy "Our masseuse uses a variety of natural body relaxation techniques... That will surely satisfy your needs..."
+    ivy "Мы также можем предложить... {b}сеанс массажа всего тела{/b} в одной из наших... приватных комнат."
+    ivy "Наша массажистка использует различные природные техники релаксации тела... Это, безусловно, удовлетворит ваши потребности..."
     show player 12
     show ivy 1
-    player_name "Oh... I didn't know you offered massages here."
+    player_name "О... Я не знал, что ты предлагаешь здесь массаж."
     show player 1
     show ivy 3
-    ivy "It's one of our... less advertised... services."
+    ivy "Это один из наших... менее рекламируемых...сервисов."
     show ivy 2
-    ivy "Would you like to see our massage selection {b}pamphlet{/b}?"
+    ivy "Хотели бы вы увидеть нашу {b}брошюру{/b} по выбору массажа?"
     return
 
 
@@ -30,44 +30,44 @@ label button_ivy_end_intro:
     scene pink
     show player 1 at left with dissolve
     show ivy 2 at right with dissolve
-    ivy "Hi!"
-    ivy "Can I help you with something?"
+    ivy "Привет!"
+    ivy "Чем могу помочь?"
     return
 
-label button_ivy_diane_outfit_package:
+label button_ivy_package:
     show ivy 1
     show player 2
-    player_name "I'm here to pick up a {b}package{/b}."
+    player_name "Я здесь, чтобы забрать {b}посылку{/b}."
     show player 1
     show ivy 3
-    ivy "Sure!"
+    ivy "Конечно!"
     show ivy 2
-    ivy "What name is it under?"
+    ivy "На чье имя посылка?"
     show ivy 1
     show player 12
-    player_name "{b}Diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 1
     show ivy 11
-    ivy "Let me check... Right! Here it is!"
+    ivy "Щас проверю... Правильно! Вот она!"
     show ivy 1
     show player 170
-    player_name "Thanks!"
+    player_name "Спасибо!"
     show ivy 3
     show player 169
-    ivy "Is this for your {b}girlfriend{/b}?"
+    ivy "Это для твоей {b}подружки{/b}?"
     show ivy 1
     show player 171
     player_name "!!!"
     show player 29
-    player_name "Oh... No! It's for... Ummm... Someone asked me to get it for them!"
+    player_name "О... Нет! Это для... Мммм... Некто попросил меня доставить ее!"
     show ivy 2
     show player 13
-    ivy "Well, it's a really nice item from our collection..."
+    ivy "Ну, это действительно хорошая вещь из нашей коллекции..."
     show ivy 3
-    ivy "I'm sure you'll like it!"
+    ivy "Уверена ей понравится!"
     show player 21
     show ivy 4
-    player_name "Thanks..."
+    player_name "Спасибо..."
     hide player 21
     hide ivy 4
     show unlock29 at truecenter
@@ -79,11 +79,11 @@ label button_ivy_diane_outfit_package:
 label button_ivy_massage:
     show ivy 5
     show player 21
-    player_name "Could I see... your massage pamphlet?"
+    player_name "Можно посмотреть... твою брошюру о массаже?"
     show player 13
     show ivy 4
-    ivy "Sure! Suit yourself!"
-    player_name "Thanks..."
+    ivy "Конечно! Выбирай!"
+    player_name "Спасибо..."
     hide ivy
     hide player
     with dissolve
@@ -92,20 +92,20 @@ label button_ivy_massage:
 label button_ivy_just_shopping:
     show player 10
     show ivy 1
-    player_name "I'm fine, thank you."
-    player_name "I'm just here to do some shopping..."
+    player_name "У меня все хорошо, Спасибо."
+    player_name "Я здесь, чтобы сделать покупки..."
     show player 13
     show ivy 3
-    ivy "Alright, then! Let me know if you need anything else."
+    ivy "Тогда ладно! Дай знать, если что - то еще понадобится."
     return
 
 label button_ivy_massage_first:
     show ivy 5
     show player 21
-    player_name "I guess I could have a look at it..."
+    player_name "Думаю, я могу на нее взглянуть..."
     show player 13
     show ivy 4
-    ivy "Sure! Suit yourself!"
+    ivy "Конечно! Выбирай!"
     hide ivy
     hide player
     with dissolve
