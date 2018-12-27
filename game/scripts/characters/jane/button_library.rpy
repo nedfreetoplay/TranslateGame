@@ -19,14 +19,14 @@ label library_desk_dialogue:
 
         call expression game.dialog_select("jane_library_dialogue_pre")
         menu:
-            "Milk production book." if M_diane.is_state(S_diane_increase_milk_production):
+            "Книга по производству молока." if M_diane.is_state(S_diane_increase_milk_production):
                 call expression game.dialog_select("jane_library_dialogue_production_ask_librarian")
                 $ M_diane.trigger(T_diane_find_production_book)
 
-            "French Poetry." if M_bissette.is_state(S_bissette_find_poem_reference_book):
+            "Французская поэзия." if M_bissette.is_state(S_bissette_find_poem_reference_book):
                 call expression game.dialog_select("jane_library_dialogue_french_poetry")
 
-            "French Food." if M_bissette.between_states(S_bissette_find_food_book, [S_bissette_got_dexters_martinez_books, S_bissette_got_dexters_eriks_books,
+            "Французская еда." if M_bissette.between_states(S_bissette_find_food_book, [S_bissette_got_dexters_martinez_books, S_bissette_got_dexters_eriks_books,
                                                                                    S_bissette_got_eriks_dexters_books, S_bissette_got_eriks_martinez_books,
                                                                                    S_bissette_got_martinez_dexters_books, S_bissette_got_martinez_eriks_books
                                                                                   ]):
@@ -37,7 +37,7 @@ label library_desk_dialogue:
 
                     call expression game.dialog_select("jane_library_dialogue_french_food_book_holders")
 
-            "Magazines" if M_ross.is_state(S_ross_find_magazines):
+            "Журналы." if M_ross.is_state(S_ross_find_magazines):
                 if M_ross.get("talked with jane"):
                     call expression game.dialog_select("jane_library_dialogue_magazines_repeat")
                 else:
@@ -45,7 +45,7 @@ label library_desk_dialogue:
                     call expression game.dialog_select("jane_library_dialogue_magazines_first")
                     $ M_ross.set("talked with jane", True)
 
-            "Return library books" if get_returnable_books():
+            "Возврат библиотечных книг." if get_returnable_books():
                 call expression game.dialog_select("jane_library_dialogue_return_books_pre")
                 if M_jane.get("first book returned"):
                     call expression game.dialog_select("jane_library_dialogue_return_books_first")
@@ -54,7 +54,7 @@ label library_desk_dialogue:
                     for book in get_returnable_books():
                         player.remove_item(book)
                 call expression game.dialog_select("jane_library_dialogue_return_books_after")
-            "Nevermind.":
+            "Неважно.":
 
                 call expression game.dialog_select("jane_library_dialogue_leave")
 
