@@ -1,14 +1,14 @@
 label tatiana_dialogue:
     call expression game.dialog_select("tatiana_dialogue_pre")
     menu tatiana_options:
-        "You seem familiar.":
+        "Вы кажетесь знакомой.":
             call expression game.dialog_select("tatiana_dialogue_familiar")
             jump expression game.dialog_select("tatiana_options")
-        "Any suggestions?":
+        "Есть предложения?":
 
             call expression game.dialog_select("tatiana_dialogue_suggestions")
             jump expression game.dialog_select("tatiana_options")
-        "I found what I need.":
+        "Я нашел то, что мне нужно.":
 
             call expression game.dialog_select("tatiana_dialogue_leave")
 
