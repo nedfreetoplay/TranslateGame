@@ -2,37 +2,37 @@ label kassy_first_visit:
     show player 1f at right
     show kass 2 at left
     with dissolve
-    Kass "Welcome to {b}Cupid{/b}. My name is {b}Kassy{/b}, is there anything I can help you find today?"
+    Kass "Добро пожаловать в магазин {b}Амур{/b}. Меня зовут {b}Касси{/b}, есть что не будь с чем я могу вам сегодня помочь?"
     show player 2f
     show kass 1
-    player_name "No thanks, I'm just looking around."
+    player_name "Нет, спасибо, Я только осматриваюсь."
     show player 1f
     show kass 2
-    Kass "Alright. Well, let me know if you need any help."
+    Kass "Хорошо. Что ж, дайте мне знать если вам понадобится помощь."
     show player 2f
     show kass 1
-    player_name "Will do! Thanks, {b}Kassy{/b}."
+    player_name "Хорошо! Спасибо, {b}Касси{/b}."
     show player 1f
     show kass 2
-    Kass "My pleasure!"
+    Kass "Рада помочь!"
     return
 
 label kassy_repeat:
     show player 2f at right
     show kass 1 at left
     with dissolve
-    player_name "Hey {b}Kassy{/b}!"
+    player_name "Привет, {b}Касси{/b}!"
     show player 1f
     show kass 2
-    Kass "Hello there, what can I help you with?"
+    Kass "Здравствуйте, чем я могу вам помочь?"
     show player 2f
     show kass 1
-    player_name "Nothing right now, just browsing."
+    player_name "Пока ничем, я только осматриваюсь."
     show player 1f
     show kass 2
-    Kass "Alright. Well give me a shout if you need something."
+    Kass "Отлично. Дай мне знать, если тебе что то понадобится."
     show player 2f
     show kass 1
-    player_name "Will do! Thanks, {b}Kassy{/b}."
+    player_name "Конечно! Спасибо, {b}Касси{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
