@@ -7,84 +7,84 @@ label josephine_button_dealership_dialogue_pre:
     return
 
 label josephine_button_dealership_dialogue_intro:
-    player_name "Good morning."
+    player_name "Доброе утро."
     show player 109f
     pause
     pause
     show player 108f
-    player_name "Hello?"
+    player_name "Привет?"
     show player 109f
     pause
-    Josephine "{b}*Sigh*{/b}"
+    Josephine "{b}*вздох*{/b}"
     pause
     show sato 2 behind xtra3 at Position(xpos=.7630,ypos=0.7299) with dissolve
     show player 11
-    Mr. Sato "{b}Josephine{/b}!"
+    Mr. Sato "{b}Джозефина{/b}!"
     show sato 1
     show joe 3 at Position(xpos=0.4976,ypos=1.0000) with fastdissolve
-    Josephine "What?!"
+    Josephine "Что?!"
     show joe 2
     show sato 2
-    Mr. Sato "Did you file those TPS reports like I asked you?"
+    Mr. Sato "Ты подала те отчеты СОТ, как я тебя просил?"
     show sato 1
     show joe 3
-    Josephine "Ugh, no..."
+    Josephine "Ух, нет..."
     show player 5
-    Josephine "You know I hate doing paperwork!"
+    Josephine "Ты же знаешь, я ненавижу бумажную работу!"
     show joe 2
     show sato 2
-    Mr. Sato "I didn't give you this job for you to sit around all day texting on your phone."
+    Mr. Sato "Я дал тебе эту работу не для того, чтобы ты сидела весь день и писала смс по телефону."
     show sato 1
     show joe 3
-    Josephine "First of all."
-    Josephine "I'm not texting."
-    Josephine "I'm shopping for shoes."
+    Josephine "Во-первых."
+    Josephine "Я не пишу."
+    Josephine "Я ищу туфли."
     show joe 2
     show sato 2
-    Mr. Sato "... {b}Josephine{/b}, this isn't a joke!"
-    Mr. Sato "Don't you have any pride?"
-    Mr. Sato "How can you sit there doing nothing with all the other employees working so hard?"
+    Mr. Sato "... {b}Джозефина{/b}, это шутка!"
+    Mr. Sato "Разве у тебя нет гордости?"
+    Mr. Sato "Как ты можешь сидеть и ничего не делать, когда все остальные так усердно работают?"
     show sato 1
     Josephine "..."
     show kim 2 behind xtra3 at Position (xpos=950) with dissolve
-    kim "You rang, {b}Mr. Sato{/b}?"
+    kim "Вы звонили, {b}Мр. Сато{/b}?"
     show kim 1
     show sato 2
-    Mr. Sato "Hmm?"
-    Mr. Sato "Oh, hello {b}Kim{/b}."
+    Mr. Sato "Хмм?"
+    Mr. Sato "О, привет {b}Ким{/b}."
     show sato 1
     show joe 1 at Position(xpos=0.5474,ypos=0.7630) with dissolve
     show kim 2
-    kim "I praced my ratest sales numbers on your desk."
+    kim "Я положил брошуру с ценами на вашем столе."
     show kim 1
     show player 9 with dissolve
     show sato 2
-    Mr. Sato "Ah, very good!"
-    Mr. Sato "See there, {b}Josephine{/b}..."
-    Mr. Sato "Why can't you act more like {b}Kim{/b} here?"
+    Mr. Sato "А, очень хорошо!"
+    Mr. Sato "Видишь, {b}Джозефина{/b}..."
+    Mr. Sato "Почему ты не можешь вести себя как {b}Ким{/b}?"
     show sato 1
     show joe 3 at Position(xpos=0.4976,ypos=1.0000) with dissolve
-    Josephine "Psh, we can't all have our noses buried in your ass, {b}Dad{/b}."
+    Josephine "Пфф, мы не можем же все запихать носы тебе в зад, {b}Папа{/b}."
     show joe 2
     show sato 2
-    Mr. Sato "{b}Josephine{/b}!"
+    Mr. Sato "{b}Джозефина{/b}!"
     show sato 1
     show kim 2
-    kim "Would you rike me to fetch you coffee, {b}Mr. Sato{/b}?"
+    kim "Не могли бы вы попросить меня принести вам кофе, {b}Мр. Сато{/b}?"
     show kim 1
     show sato 2
-    Mr. Sato "Oh, that would be lovely, {b}Kim{/b}."
-    Mr. Sato "Just bring it to my office, would you?"
-    Mr. Sato "Get your act together, {b}Josephine{/b}!"
+    Mr. Sato "О, это было бы прекрасно, {b}Ким{/b}."
+    Mr. Sato "Просто принеси его в мой офис, хорошо?"
+    Mr. Sato "Приведи себя в порядок, {b}Джозефина{/b}!"
     show sato 1
     show kim 3
     show player 11
     show joe 2c
     with dissolve
-    Josephine "... Do you think I could pull these shoes off?"
+    Josephine "... Думаешь, я смогу снять эти туфли?"
     show joe 2
     show sato 2
-    Mr. Sato "Argh! Just, tend to your customer!"
+    Mr. Sato "Аррр! Обслужи клиента!"
     show sato 1
     player_name "..."
     hide sato with dissolve
@@ -92,293 +92,293 @@ label josephine_button_dealership_dialogue_intro:
     show kim 4f at right with dissolve
     pause
     show kim 5 with dissolve
-    kim "Hue hue hue hue!"
+    kim "Хии Хии Хии Хии!"
     show joe 2b
-    kim "Such a derusional fool!"
+    kim "Такой бредовый дурак!"
     show kim 4
     show joe 3
-    Josephine "What's so funny, fat boi?"
+    Josephine "Что веселого, толстячок?"
     show joe 2b
     show kim 2 with dissolve
-    kim "FAT BOY?!"
-    kim "How dare you speak to me rike that!"
+    kim "ТОЛСТЯЧОК?!"
+    kim "Как ты смеешь так со мной разговаривать!"
     show kim 1
     show player 9 with dissolve
     show joe 3
-    Josephine "You are so fucking gross..."
+    Josephine "Ты такой охуенно грубый..."
     show joe 2
     show kim 2
-    kim "Grr, Raugh while you can!"
-    kim "You just made my shit rist!"
+    kim "Грр, груби пока можешь!"
+    kim "Ты только что заставила моё дерьмо отдохнуть!"
     show kim 6 with dissolve
-    kim "Your day of reckoning is fast approaching!"
-    kim "Soon I will usurp that incompetant father of yours..."
-    kim "... And then you will crean my toirets with your tongue!"
+    kim "Твой день расплаты уже приближается!"
+    kim "Скоро я буду узурпировать твой бездарный отец..."
+    kim "... и тогда ты будете чистить мой туалиты своим языком!"
     show kim 1 with dissolve
     show joe 5
-    Josephine "{b}*Snort*{/b} Hahahaha!"
+    Josephine "{b}*фырк*{/b} Хахахаха!"
     show joe 3
-    Josephine "Yeah, whatever bitch..."
-    Josephine "Don't you have some coffee to fetch?"
+    Josephine "Да, какая ты сука..."
+    Josephine "Тебе не нужно принести кофе?"
     show joe 2b
     show kim 2
-    kim "Grr..."
+    kim "Гррр..."
     hide kim with dissolve
     player_name "..."
     show joe 7 with dissolve
     Josephine "..."
     show player 108f with dissolve
-    player_name "{b}*Ahem*{/b}"
+    player_name "{b}*Эммм*{/b}"
     show player 109f
-    Josephine "Yeah, yeah! I hear you..."
-    Josephine "{b}*Sigh*{/b}"
-    Josephine "What do you want?"
+    Josephine "Да, да! Я слышу..."
+    Josephine "{b}*вздыхая*{/b}"
+    Josephine "Что вам нужно?"
     show player 108f
-    player_name "You work for your {b}Dad{/b}?"
+    player_name "Вы работаете на своего {b}отца{/b}?"
     show player 5
     show joe 5 (xpos=0.8294,ypos=1.0000) with dissolve
-    Josephine "Oh, great observation skills..."
-    Josephine "What are you, like Sherlock Holmes's retarded nephew or something?"
+    Josephine "О, отличные навыки наблюдения..."
+    Josephine "Ты что, как отсталый племянник Шерлока Холмса или типа того?"
     show joe 4
     player_name "..."
     show joe 5
-    Josephine "Look, I don't want to work here. He just makes me do it so he can keep an eye on me."
+    Josephine "Слушай, я не хочу здесь работать. Он просто заставляет меня делать это, чтобы следить за мной."
     show joe 4
     show player 10
-    player_name "That really sucks."
+    player_name "Это отстой."
     show player 5
     show joe 5
-    Josephine "Right?!"
-    Josephine "He's such a control freak, it's ridiculous!"
+    Josephine "Правда?!"
+    Josephine "Он такой помешанный на контроле, это смешно!"
     show joe 4
     pause
     show joe 5
-    Josephine "Anyway, what can I help you with?"
+    Josephine "В любом случае, чем я могу вам помочь?"
     show joe 4
     return
 
 label josephine_button_dealership_dialogue_after:
-    Josephine "What do you want again?"
+    Josephine "Ещё раз, чего ты хочешь?"
     show joe 4 at Position(xpos=0.8294,ypos=1.0000)
     return
 
 label josephine_button_dealership_dialogue_buy_vehicle:
-    Josephine "Sure! Which one would you like to buy?"
+    Josephine "Конечно! Какую из них вы хотели бы купить?"
     return
 
 label josephine_button_dealership_dialogue_buy_vehicle_no_money:
     show player 24
     pause
     show player 29
-    player_name "Hmmm... I don't have enough money right now."
+    player_name "Хммм... У меня сейчас недостаточно денег."
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_pre:
     show player 14
-    player_name "Well, I need to speak with someone regarding an insurance claim"
+    player_name "Мне нужно поговорить с кем-нибудь по поводу страхового возмещения."
     show player 11
     show joe 5
-    Josephine "Alright. What's the license plate number on the vehicle?"
+    Josephine "Хорошо. Какой номерной знак на транспортном средстве?"
     show joe 4
     show player 4
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_plate_menu_dialogue:
-    player_name "What was {b}[deb_name]'s{/b} vanity plate again?"
+    player_name "Что было на номерном знаке автомобиля {b}[deb_name]{/b}?"
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_right_plate:
     show player 11
     show joe 6
-    Josephine "Yup, looks like we've got that in our system."
+    Josephine "Да, похоже, он есть в нашей базе."
     show joe 5
-    Josephine "Do you still live at 240 Cookie Street?"
+    Josephine "Вы всё ещё живете на улице Печенки дом 240?"
     show joe 4
     show player 17
-    player_name "Yep!"
+    player_name "Ага!"
     show player 11
     show joe 5
-    Josephine "Okay. What's the problem with the vehicle?"
+    Josephine "Хорошо. Какова проблема с автомобилем?"
     show joe 4
     show player 10
-    player_name "The engine is all smashed up!"
+    player_name "Двигатель разбит вдребезги!"
     show player 11
     show joe 6
-    Josephine "One sec..."
+    Josephine "Одну секун..."
     pause
     Josephine "..."
     pause
     show joe 5
-    Josephine "I'm sorry. It seems that the insurance policy on that vehicle was cancelled do to a lack of payment."
+    Josephine "Извините. Похоже, что страховой полис на этот автомобиль был отменен из - за отсутствия оплаты."
     show joe 4
     show player 23
-    player_name "What!?"
+    player_name "Что!?"
     show player 22
     show joe 6
-    Josephine "I see an outstanding balance of {b}$4,000{/b}."
-    Josephine "... And your deductible is set at {b}$5,000{/b}."
+    Josephine "Я вижу непогашенный остаток в {b}$4,000{/b}."
+    Josephine "... И ваша франшиза установлена на {b}$5,000{/b}."
     show joe 4
     show player 23
     player_name "( !!! )" with hpunch
     show joe 5
-    Josephine "So you're in for at least $9,000 before we'll cover anything..."
-    Josephine "How bad is the damage?"
+    Josephine "Вам нужно внести не меньше $9,000 прежде чем мы что-нибудь покроем..."
+    Josephine "Насколько серьезны повреждения?"
     show joe 4
     show player 22
-    player_name "Uhh... Yeah. It's pretty extreme."
+    player_name "Ох... Да. Довольно экстремальные."
     show joe 5
-    Josephine "That's a shame. It sounds like you're out of luck, Pal."
+    Josephine "Какая жалость. Похоже, тебе не повезло, приятель."
     show joe 4
     pause
     show player 10
-    player_name "Damn..."
+    player_name "Черт..."
     show player 24
-    player_name "What should I do now?"
+    player_name "Что мне теперь делать?"
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_stat_fail:
     show player 24
-    player_name "[chr_warn]I... Uhm... Could you?"
+    player_name "[chr_warn]Я... Эээ... Не могли бы вы?"
     show joe 5
-    Josephine "Could I... What?"
+    Josephine "Не могла ли я... что?"
     show joe 4
     show player 37
-    player_name "[chr_warn]Um... Nevermind."
+    player_name "[chr_warn]Э... Неважно."
     pause
     show player 24
-    player_name "[chr_warn]I'm sorry I bothered you."
+    player_name "[chr_warn]Прости, что побеспокоил тебя."
     show joe 5
-    Josephine "Well, I hope you get your car fixed."
+    Josephine "Надеюсь, ты починишь свою машину."
     show joe 4
     show player 25
-    player_name "Yeah, thanks..."
+    player_name "Да, спасибо..."
     show player 24
-    player_name "( Come on {b}[firstname]{/b}! All you had to do was ask for some help. )"
-    player_name "{b}*Sigh*{/b}"
-    player_name "( I'm way too nervous... )"
+    player_name "( Давай {b}[firstname]{/b}! Все, что тебе нужно было сделать, это попросить о помощи. )"
+    player_name "{b}*вздыхая*{/b}"
+    player_name "( Я слишком сильно нервничаю... )"
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_pay:
     show player 14
-    player_name "I should have enough to cover the cost."
+    player_name "У меня должно быть достаточно денег, чтобы покрыть расходы."
     show player 12
-    player_name "Do you accept cash?"
+    player_name "Вы принимаете к оплате наличные?"
     show player 5
     show joe 5
-    Josephine "Yes."
+    Josephine "Да."
     show joe 4
     show player 14
-    player_name "Here."
+    player_name "Вот."
     show player 41 at Position (xoffset=38) with dissolve
     show joe 5
-    Josephine "Thanks."
+    Josephine "Спасибо."
     show player 5
     show joe 6
-    Josephine "Did you bring the car in today?"
+    Josephine "Можете привести автомобиль сегодня?"
     show joe 4
     show player 12
-    player_name "No... It's broken."
-    player_name "It's still at our house."
+    player_name "Нет... Она сломана."
+    player_name "Она дома."
     show player 5
     show joe 6
-    Josephine "Oh... Well we can send a mechanic out."
+    Josephine "Ох... Мы можем послать механика к вам."
     show joe 5
-    Josephine "When would you like us to fix it?"
+    Josephine "Когда вы хотите чтобы подчинили машину?"
     show joe 4
     show player 14
-    player_name "Today would be ideal."
+    player_name "Сегодня было бы здорого."
     show player 12
-    player_name "It's our only car and it took me forever to get here."
+    player_name "Это наша единственная машина, и мне потребовалась целая вечность, чтобы добраться к вам."
     show player 5
     show joe 5
-    Josephine "Umm... Usually, we are booked for a week..."
+    Josephine "Умм... Обычно мы бронируем заявки за неделю......"
     show joe 6
-    Josephine "Let me look."
-    Josephine "You're in luck."
+    Josephine "Щас посмотрю."
+    Josephine "Ты счастливчик."
     show joe 5
-    Josephine "I should be able to send a mechanic out this afternoon."
+    Josephine "Я смогу отправить механика сегодня днем."
     show joe 4
     show player 14
-    player_name "Great!"
-    player_name "Thank you very much."
+    player_name "Здорого!"
+    player_name "Большое спасибо."
     show player 13
     show joe 5
-    Josephine "You're welcome."
+    Josephine "Пожалуйста."
     show joe 4
     show player 10
-    player_name "Anything else?"
+    player_name "Что-нибудь ещё?"
     show player 5
     show joe 5
-    Josephine "No, you should be all set."
+    Josephine "Нет, всё должно быть готово."
     show joe 4
     show player 14
-    player_name "Thanks again!"
+    player_name "Спасибо ещё раз!"
     show player 106
     show joe 1 at Position(xpos=0.5474,ypos=0.7630) with dissolve
-    Josephine "Uh huh."
+    Josephine "Ух хух."
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_pay_convince:
     show player 12
-    player_name "Would it be possible to make the payments later?"
+    player_name "Можно ли будет произвести оплату позже?"
     show player 10
-    player_name "We're kinda going through a rough patch at the moment."
-    player_name "The woman I'm living with only has the one car and it's pretty important to us..."
+    player_name "У нас сейчас вроде как трудный период."
+    player_name "У женщины, с которой я живу, есть только одна машина, и это очень важно для нас..."
     show player 11
     show joe 5
-    Josephine "I don't think I can-"
+    Josephine "Не думаю что я могу-"
     show joe 4
     show player 24
-    player_name "... And my {b}Father{/b} just passed away a little over a month ago..."
+    player_name "... И мой {b}отец{/b} скончался чуть больше месяца назад..."
     show player 25
-    player_name "So we've been struggling to make ends meet!"
+    player_name "так что мы изо всех сил пытаемся свести концы с концами!"
     pause
     show joe 6
-    Josephine "{b}*Sigh*{/b} Listen..."
+    Josephine "{b}*вздыхая*{/b} Слушай..."
     show joe 5
-    Josephine "I'll help you out this {b}ONE{/b} time!"
+    Josephine "Я помогу тебе в {b}ЭТОТ{/b} раз!"
     show joe 6
-    Josephine "My {b}Dad{/b} would kill me if he found out, so keep it on the down-low."
+    Josephine "Мой {b}отец{/b} убьет меня, если узнает, так что держи это в тайне."
     show joe 4
     show player 14
-    player_name "That would be wonderful! Thank you so much!"
+    player_name "Это было бы замечательно! Огромное спасибо!"
     show player 13
     show joe 5
-    Josephine "Don't mention it. I kinda like the idea of screwing him over on this."
+    Josephine "Не упоминайте об этом. Мне вроде как нравится идея надуть его."
     show joe 6
-    Josephine "I'll just make your debt disappear and reduce your deductible at the same time."
-    Josephine "I'll schedule a technician out to your house to repair the vehicle. It should be fixed by the end of the day."
+    Josephine "Я просто сделаю так, что твой долг исчезнет и уменьшу твою франшизу одновременно."
+    Josephine "Я запишу техника к Вам домой, чтобы починить машину. Это должно быть исправлено к концу дня."
     show joe 4
     show player 10
-    player_name "This is amazing, thank you so much!"
-    Josephine "... Uh huh."
+    player_name "Это потрясающе, большое спасибо!"
+    Josephine "... Ух хух."
     show player 14
-    player_name "Really, you're a wonderful person!"
+    player_name "Действительно, ты замечательный человек!"
     show player 13
     show joe 5
-    Josephine "Pffft!!! Yeah... Okay. You {b}owe me one{/b}!"
+    Josephine "Пфффф!!! Да... Хорошо. Ты {b}должен мне{/b}!"
     show joe 4
     show player 17
-    player_name "... Oh, of course. Anything you want!"
+    player_name "... О, конечно. Все что пожелаешь!"
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_give_up:
     show player 10
-    player_name "I should probably talk to {b}[deb_name]{/b} about this."
+    player_name "Я должен поговорить с {b}[deb_name]{/b} об этом."
     show player 2
-    player_name "Thanks!"
+    player_name "Спасибо!"
     show player 1
     show joe 5
-    Josephine "Sure, whatever."
+    Josephine "Конечно."
     return
 
 label josephine_button_dealership_dialogue_insurance_claim_proctologist_plate:
     show player 11
     show joe 5
-    Josephine "You are definitely not the {b}ASSMAN{/b}. The local proctologist has that license."
+    Josephine "Ты определенно не {b}ЖОПОЛИЗ{/b}. У местного проктолога есть такая лицензия."
     show joe 4
     show player 26
-    player_name "Oh. Yeah..."
+    player_name "Ох. Да..."
     show player 4
     return
 
@@ -388,36 +388,36 @@ label josephine_button_dealership_dialogue_insurance_claim_wrong_plate:
     pause
     show joe 5
     if randomizer() < 50:
-        Josephine "I'm not seeing an account that matches that license plate."
+        Josephine "Я не вижу учетной записи, соответствующей номерному знаку."
     else:
-        Josephine "That would be a neat plate, but unfortunately it's not in the system."
-    Josephine "Any other license plate you can think of?"
+        Josephine "Это была бы аккуратная пластина, но, к сожалению, её нет в системе."
+    Josephine "Есть другие номерные знаки?"
     show joe 4
     show player 4
     return
 
 label josephine_button_dealership_dialogue_kim:
     show player 10
-    player_name "What's up with that tubby guy?"
+    player_name "Что с тем толстяком?"
     show player 5
     show joe 5
-    Josephine "Hmm?"
-    Josephine "Oh, {b}Kim{/b}?"
-    Josephine "... Yeah, he's a douchebag."
-    Josephine "He spends all day brown nosing my {b}Dad{/b} and then plotting behind his back."
+    Josephine "Хмм?"
+    Josephine "О, {b}Ким{/b}?"
+    Josephine "... Да, он придурок."
+    Josephine "Он проводит весь день, обнюхивая моего {b}отца{/b}, а потом строит заговор за его спиной."
     show joe 4
     show player 12
-    player_name "Shouldn't you like, warn your {b}Dad{/b} or something?"
+    player_name "Разве ты не должна предупредить своего {b}отца{/b} или типа того?"
     show player 5
     show joe 5
-    Josephine "Psh, hell no!"
-    Josephine "If he's too stupid to see what that evil little munchkin is up to, then he deserves to lose his job."
-    Josephine "At least then, I could get out of this shit hole..."
+    Josephine "Пф, черт возьми, нет!"
+    Josephine "Если он слишком глуп, чтобы понять, что задумал этот злобный маленький манчкин, то он заслуживает того, чтобы потерять работу."
+    Josephine "По крайней мере, тогда я смогу выбраться из этой дыры..."
     show joe 4
     player_name "..."
     Josephine "..."
     show joe 3
-    Josephine "ohmygodthisissoboring!"
+    Josephine "Боже мой, это так скучно!"
     show joe 4
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
