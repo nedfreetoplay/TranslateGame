@@ -1,19 +1,19 @@
 label somrak_triggers_init:
     python:
 
-        T_perv_visit = Trigger("Visit", "Visit Somrak at the gym")
-        T_perv_pay = Trigger("Pay", "Pay Somrak a pair of panties")
-        T_perv_train = Trigger("Train", "Somrak teaches a lesson")
-        T_perv_finish = Trigger("Finish", "Somrak has finished a set of lessons")
+        T_perv_visit = Trigger("Visit", "Посещение Сомрака в тренажерном зале")
+        T_perv_pay = Trigger("Pay", "Платить Сомраку трусиками")
+        T_perv_train = Trigger("Train", "Сомрак преподает урок")
+        T_perv_finish = Trigger("Finish", "Сомрак закончил набор уроков")
     return
 
 label somrak_fsm_init:
     python:
 
         S_perv_start = State("start")
-        S_perv_wait_clean = State("waiting","Waiting for clean panties")
-        S_perv_teach_1 = State("teaching","Level one")
-        S_perv_wait_used = State("waiting","Waiting for used panties")
+        S_perv_wait_clean = State("waiting","В ожидании чистых трусиков")
+        S_perv_teach_1 = State("teaching","Уровень один")
+        S_perv_wait_used = State("waiting","В ожидании поношенных трусиков")
 
 
         S_perv_start.add(T_perv_visit, S_perv_wait_clean,
