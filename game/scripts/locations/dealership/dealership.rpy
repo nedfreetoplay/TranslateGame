@@ -2,8 +2,8 @@ label dealership_dialogue:
     if game.timer.is_dark():
         scene expression L_dealership_front.background_blur
         show player 10
-        player_name "The car dealership is closed..."
-        player_name "I should go there {b}tomorrow morning{/b}"
+        player_name "Автосалон закрыт..."
+        player_name "Он откроется {b}завтра утром{/b}."
         $ game.main()
     else:
         $ player.go_to(L_dealership)
