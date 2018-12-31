@@ -229,96 +229,95 @@ label erik_bullying_2:
 label erik_bullying_2_dialogue:
     scene hospital_bed
     show player 392 at Position (xpos=805, ypos=665)
-    show micoe f_sad_talk at left
+    show micoe 5 at left
     with fade
-    "Hello, how-"
-    show micoe f_sad
+    "Привет, как-"
     "..."
-    "Hum hum!!"
-    player_name "Uh...."
+    show micoe 4
+    "Хм хм!!"
+    player_name "Ух...."
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe f_laugh
-    "Oh good! You're starting to wake up."
-    show micoe f_normal_talk
-    "How are you feeling?"
-    show micoe f_normal
+    show micoe 3
+    "Ох хорошо! Ты начал просыпаться."
+    show micoe 2
+    "Как ты себя чувствуешь?"
+    show micoe 1
     show player 398 at Position (xpos=772, ypos=664)
-    player_name "I..."
+    player_name "Я..."
     show player 397 at Position (xpos=772, ypos=660)
-    player_name "I feel fine."
+    player_name "Я чувствую себя прекрасно."
     show player 394 at Position (xpos=768, ypos=660)
-    player_name "A bit dizzy actually."
+    player_name "Немного кружится голова."
     pause
     show player 396 at Position (xpos=772, ypos=660)
-    player_name "Where am I?"
+    player_name "Где я?"
     show player 397
-    show micoe f_normal_talk
-    "You're in the hospital."
-    show micoe f_normal
+    show micoe 5
+    "Ты в больнице."
+    show micoe 4
     show player 398 at Position (xpos=772, ypos=664)
-    player_name "I am?"
+    player_name "Я?"
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe f_laugh
-    "That's right!"
-    show micoe f_normal_talk
-    micoe "And I'm {b}Nurse Micoe{/b}."
-    show micoe f_sad_talk
-    micoe "You had a minor concussion, but you'll be fine."
-    show micoe f_normal_talk
-    micoe "You can go home when you feel ready."
-    micoe "Just make sure to drink plenty of water and get some rest."
-    show micoe f_normal
+    show micoe 3
+    "Правильно!"
+    show micoe 2
+    micoe "И я {b}Медсестра Мико{/b}."
+    show micoe 5
+    micoe "У тебя было небольшое сотрясение, но ты будешь в порядке."
+    micoe "Ты можешь пойти домой когда ты будешь готов."
+    micoe "Только убедись что пьешь достаточно воды и тебе нужен отдых."
+    show micoe 4
     show player 398 at Position (xpos=772, ypos=664)
-    player_name "Oh, I see... Thank you."
+    player_name "Ох, Я вижу... Спасибо."
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe f_normal_talk
-    micoe "I forgot to mention that you have a visitor!"
+    show micoe 2
+    micoe "Я забыла сказать что у тебя есть гость!"
     hide micoe with dissolve
     pause
     show player 393
     pause
     show erik 4f at left with dissolve
-    eri "Hey, {b}[firstname]{/b}!"
-    eri "How are you doing?"
+    eri "Хэй, {b}[firstname]{/b}!"
+    eri "Как ты себя чувствуешь?"
     show erik 1f
     show player 395
-    player_name "Hey {b}Erik{/b}. I'm fine, I think!"
+    player_name "Хэй {b}Эрик{/b}. Со мной все в порядке, Я думаю!"
     show player 393
     show erik 5f
-    eri "{b}Dexter{/b} really got you good, huh."
+    eri "{b}Декстер{/b} хорошо тебя избил, хм."
     show erik 1f
     show player 395
-    player_name "Nah, {b}Dexter{/b} punches like a girl!"
+    player_name "Нет, {b}Декстер{/b} бьет как девченка!"
     show player 393
     show erik 4f
-    eri "Heh heh."
-    eri "Thanks for standing up for me today."
+    eri "Хех хех."
+    eri "Спасибо что заступился за меня сегодня."
     show erik 1f
     show player 395
-    player_name "It's alright."
+    player_name "Всё нормально."
     show player 393
     show erik 5f
-    eri "No one has ever stood up to {b}Dexter{/b} before."
+    eri "Никто и никогда раньше не выступал против {b}Декстера{/b} раньше."
     show erik 4f
-    eri "Everyone in the school is talking about it."
+    eri "Каждый в школе только об этом и говорит."
     show erik 1f
     show player 398 at Position (xpos=772, ypos=664)
-    player_name "Eh... I wish it didn't have to go that way..."
-    player_name "...And I still got my ass kicked!"
+    player_name "Эх... Я не хотел что бы  этим все кончилось..."
+    player_name "...И все же мне надрали задницу!"
     show player 393 at Position (xpos=772, ypos=660)
     show erik 4f
-    eri "Well, {b}Dexter{/b} will think twice before he does something like that again."
+    eri "Что ж, {b}Декстер{/b} будет думать дважды прежде чем сделать что то подобное снова."
     show erik 1f
     show player 395
-    player_name "Heh! We'll see about that."
+    player_name "Хех! еще посмотрим."
     show player 393
     pause
     show erik 4f
-    eri "Hey, I overheard the nurse say you can go home."
-    eri "Ready?"
+    eri "Хэй, Я слышал что медсестра сказала что ты уже можешь идти домой."
+    eri "Готов"
     show erik 1f
     show player 395
-    player_name "Yeah."
+    player_name "Ага."
     show player 393
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
