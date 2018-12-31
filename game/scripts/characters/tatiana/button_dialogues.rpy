@@ -4,67 +4,67 @@ label tatiana_dialogue_pre:
     show lilly f_normal_talk zorder 1 at right
     show player 1 zorder 3 at left
     with dissolve
-    lilly "What's up?"
+    lilly "Что случилось?"
     show lilly f_normal
     return
 
 label tatiana_dialogue_familiar:
     show player 4
-    player_name "I feel like I've seen you somewhere."
+    player_name "Мне кажется, я тебя где-то видел."
     show lilly f_laugh
     show player 1
-    lilly "Right. Well, you've probably seen me on the internet..."
+    lilly "Правда. Ну, вы, наверное, видели меня в интернете..."
     show lilly f_normal_talk
-    lilly "I do a lot of {b}video game streams{/b} and I post them on my {b}YT channel{/b}."
+    lilly "Я делаю много трансляций {b}видеоигр{/b}, и я публикую их на своем {b}YT канал{/b}."
     show lilly f_sexy_talk
-    lilly "I usually go by the name of {b}VirginLilly69{/b}."
+    lilly "Я обычно выступаю под ником {b}VirginLilly69{/b}."
     show lilly f_sexy
     show player 17
-    player_name "Oh, right! My friend {b}Erik{/b} loves your stuff!"
+    player_name "А, точно! Мой друг {b}Эрик{/b} любит твои стримы!"
     show player 21
-    player_name "He keeps talking about your videos and your {b}huge{/b}... err... fan base!"
+    player_name "Он продолжает говорить о твоих видео и твоих {b}огромных{/b}... эмм... фанатах!"
     show lilly f_laugh
     show player 1
-    lilly "Aww... You guys are so sweet."
+    lilly "Ох... Ребята, вы такие милые."
     show lilly f_normal_talk
-    lilly "Is there anything else you want to talk about?"
+    lilly "Хочешь еще о чем-нибудь поговорить?"
     show lilly f_normal
     return
 
 label tatiana_dialogue_suggestions:
     show player 2
-    player_name "Do you have any suggestions? New products that you would recommend?"
+    player_name "Есть ли у вас какие-либо предложения? Новые продукты которые вы порекомендовали бы?"
     show player 1
-    lilly "Hmmm..."
+    lilly "Хммм..."
     show lilly f_normal_talk
-    lilly "Well, I really love {b}cosplay{/b}!"
+    lilly "Ну, я действительно люблю {b}косплей{/b}!"
     show lilly f_sexy_talk
-    lilly "I like to wear {b}sexy outfits{/b}. Actually, we have a new line of costumes that just came in!"
+    lilly "Мне нравится носить {b}сексуальные наряды{/b}. На самом деле, у нас есть новая линия костюмов, которые только что пришли!"
     show lilly f_sexy
     show player 21
-    player_name "Oh, yeah? Sounds interesting..."
+    player_name "О, правда? Звучит интересно..."
     show lilly f_sexy_talk
     show player 1
-    lilly "It's sometimes hard to fit my... umm... forms into them."
-    lilly "They make them so tight, you know?"
+    lilly "Это иногда трудно, чтобы соответствовать моим... Ммм... формам."
+    lilly "Они делают их такими тугими, понимаешь?"
     show lilly f_laugh
-    lilly "But guys usually don't seem to mind!"
+    lilly "Но парни обычно не возражают!"
     show lilly f_sexy
     show player 29
-    player_name "Haha. I see."
+    player_name "Хаха. Я вижу."
     show player 2
-    player_name "Thanks, I'll have a look."
+    player_name "Спасибо, я сейчас посмотрю."
     show lilly f_normal
     return
 
 label tatiana_dialogue_leave:
     show player 2
-    player_name "Yeah, I think I have everything I need. Thanks!"
+    player_name "Да, думаю, у меня есть все, что мне нужно. Спасибо!"
     show lilly f_normal_talk
     show player 1
-    lilly "Great! Thanks for shopping at {b}Cosmic Cumics{/b}..."
+    lilly "Отлично! Спасибо за покупки в {b}Cosmic Cumics{/b}..."
     show lilly f_laugh
     show player 13
-    lilly "And tell your friends about us!"
+    lilly "И расскажите о нас друзьям!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
