@@ -1,73 +1,73 @@
 label ronda_pool_dialogue_pre_cassie_fun:
-    show ronda b_swim a_swim_sides f_normal at right
+    show ronda 5 at right
     if wearing_swimsuit:
         show player 53f at left
     else:
         show player 1 at left
     with dissolve
     ron "..."
-    show ronda f_normal_talk
-    ron "What are you even doing here?"
-    show ronda f_normal
+    show ronda 6
+    ron "Что ты вообще здесь делаешь?"
+    show ronda 5
     if wearing_swimsuit:
         show player 50f
     else:
         show player 17
-    player_name "Just getting some exercise!"
-    player_name "I figured I had to start somewhere, and it can help me get ready for the qualifiers!"
-    show ronda f_normal_talk
+    player_name "Просто делаю некоторые упражнения!"
+    player_name "Я подумал что надо с чего-то начать, и это поможет подготоваиться к отборочным соревнованиям!"
+    show ronda 6
     if wearing_swimsuit:
         show player 51
     else:
         show player 11
-    ron "Look: I ain't helping you, let alone go in the water at the same time as you... So forget it, okay?"
-    show ronda f_normal
+    ron "Слушай: Я не смогу помочь тебе, не говоря уже о том что бы зайти в воду одновременно с тобой... Так что забудь об этом, хорошо?"
+    show ronda 5
     if wearing_swimsuit:
         show player 53
     else:
         show player 26
-    player_name "That's fine!"
-    player_name "I can manage on my own..."
-    show ronda f_rolleyes
+    player_name "Ничего страшного!"
+    player_name "Я сам справлюсь..."
+    show ronda 7
     if wearing_swimsuit:
         show player 51
     else:
         show player 11
-    ron "Ugh... Whateva."
+    ron "Угх... неважно."
     return
 
 label ronda_pool_dialogue_after_cassie_fun:
-    show ronda b_swim a_swim_sides f_upset_talk at right
+    show ronda 8 at right
     if wearing_swimsuit:
         show player 53f at left
     else:
         show player 1 at left
     with dissolve
-    ron "Here to pay {b}Cassie{/b} a little visit?"
-    show ronda f_upset
+    ron "Здесь надо заплатить Кэйсси за небольшой визит?"
+    show ronda 10
     if wearing_swimsuit:
         show player 51f
     else:
         show player 12
-    player_name "Uhh... I'm just here to swim?"
-    show ronda f_upset_talk
+    player_name "Ухх... Я пришел сюда только поплавать?"
+    show ronda 8
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
-    ron "You can stop pretending..."
-    ron "...You ain't here to train, like I am."
-    show ronda f_upset
+    ron "Можешь перестать притворяться..."
+    ron "...Ты здесь не для тренировки, как и я."
+    show ronda 8
     if wearing_swimsuit:
         show player 51f
     else:
         show player 12
-    player_name "Uhh... okay?"
-    show ronda f_upset_angry
+    player_name "Ухх... окей?"
+    show ronda 9
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
-    ron "Ugh... you're pathetic."
+    ron "Угх... ты просто жалок."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
