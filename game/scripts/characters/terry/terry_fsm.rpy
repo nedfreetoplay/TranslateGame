@@ -1,23 +1,23 @@
 label terry_triggers_init:
     python:
 
-        T_terry_intro = Trigger("intro", "Meet Terry the fisher")
-        T_terry_secret_lure = Trigger("secret lure", "Terry shows you his secret lure")
-        T_terry_tigger = Trigger("tigger", "The one that got away with the little piggy")
-        T_terry_lure_trade = Trigger("lure trade", "You traded for the golden lure")
-        T_terry_retire = Trigger("retire", "You found out how to get Terry to retire")
-        T_terry_overjoyed_swim = Trigger("overjoyed swim", "Terry has an overjoyed swim after seeing Tigger dead")
-        T_terry_hang_tigger = Trigger("hang tigger", "Terry hangs Tigger as his prized joy")
+        T_terry_intro = Trigger("intro", "Познакомьтесь с Терри Фишером")
+        T_terry_secret_lure = Trigger("secret lure", "Терри показывает вам свою секретную приманку")
+        T_terry_tigger = Trigger("tigger", "Тот, который сбежал с поросенком")
+        T_terry_lure_trade = Trigger("lure trade", "Ты обменял золотую приманку")
+        T_terry_retire = Trigger("retire", "Ты узнал, как заставить Терри уйти на пенсию")
+        T_terry_overjoyed_swim = Trigger("overjoyed swim", "Терри очень обрадовался, увидев Тигра мертвым")
+        T_terry_hang_tigger = Trigger("hang tigger", "Терри повесил Тигрулю, его обхватывет радость")
     return
 
 label terry_fsm_init:
     python:
 
         S_terry_start = State("start")
-        S_terry_secret = State("secret", "The secret behind his fishing")
-        S_terry_lure = State("lure", "The lure that made terry famous for his fishing")
-        S_terry_nemesis = State("nemesis", "Sara tells you the cause of Terry's drunken state")
-        S_terry_drunk = State("drunk", "Terry is out drunk for the day")
+        S_terry_secret = State("secret", "Секрет его рыбалки")
+        S_terry_lure = State("lure", "Приманка, которая сделала Терри известным для его рыбалки")
+        S_terry_nemesis = State("nemesis", "Сара рассказала тебе причину пьяного состояния Терри")
+        S_terry_drunk = State("drunk", "Терри сегодня пьяный")
         S_terry_trade = State("trade")
         S_terry_bored = State("bored")
         S_terry_retire = State("retire")
