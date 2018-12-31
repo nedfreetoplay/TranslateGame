@@ -5,7 +5,7 @@ label erik_basement_backroom_dialogue:
 label backroom_aquarium:
     scene expression "backgrounds/location_erik_basement_aquarium.jpg" with None
     show expression "objects/closeup_box.png" at truecenter with dissolve
-    player_name "( Here they are! I'd better get them back to {b}Erik{/b}. )"
+    player_name "( Вот и они! Мне лучше вернуть их {b}Эрику{/b}. )"
     $ player.get_item("eriks_cards")
     hide expression "objects/closeup_box.png" with dissolve
     python:
@@ -17,49 +17,49 @@ label mrsj_afterpoker_fun:
     scene erik_basement_back_c
     show mrsjsex 1 at left
     with dissolve
-    mrsjo "I was wondering what was taking you two so long!"
+    mrsjo "Я все думала чем вы занимались оба так долго!"
     show mrsjsex 3
-    eri "Sorry, {b}Mrs. Johnson{/b}."
+    eri "Извините, {b}Миссис Джонсон{/b}."
     show mrsjsex 1
-    mrsjo "I thought you two didn't want to spend time with me..."
+    mrsjo "Я подумала что вы не хотите проводить со мной время..."
     show mrsjsex 2
-    player_name "Of course we do."
+    player_name "Конечно мы хотим."
     show mrsjsex 1
-    mrsjo "I see you both can't help staring at me."
-    mrsjo "Would you boys like to... touch me?"
+    mrsjo "Я вижу вы оба не можете не пялиться на меня."
+    mrsjo "Мальчики вы хотите... потрогать меня?"
     show mrsjsex 2
-    player_name "We can?"
+    player_name "Мы можем?"
     show mrsjsex 3
-    eri "Are you sure, {b}Mrs. Johnson{/b}?"
+    eri "Вы уверены, {b}Миссис Джонсон{/b}?"
     show mrsjsex 1
-    mrsjo "Why don't you give it try?"
+    mrsjo "Почему бы тебе просто не попробовать?"
     show mrsjsex 4 with fastdissolve
     pause
     show mrsjsex 5
-    mrsjo "Haha!"
+    mrsjo "Хаха!"
     show mrsjsex 6
-    mrsjo "That's all?"
-    mrsjo "You two must be shy!"
+    mrsjo "И это всё?"
+    mrsjo "Вы, наверное стесняетесь!"
     show mrsjsex 7 with fastdissolve
-    mrsjo "Maybe you just need a little encouragement..."
+    mrsjo "Может быть вам нужно немного помочь..."
     show mrsjsex 8_9 with fastdissolve
     pause 8
     show mrsjsex 10 with fastdissolve
-    mrsjo "Oh my!"
-    mrsjo "Someone is excited..."
+    mrsjo "О мой!"
+    mrsjo "Кто-то возбужден..."
     show mrsjsex 11
-    mrsjo "... and wants more."
+    mrsjo "... и хочет большего."
     show mrsjsex 12 with fastdissolve
     pause
     show mrsjsex 13_14_13_12
     pause 7.5
     show mrsjsex 12b_13b_14b
-    mrsjo "I could use some help, boys!"
-    mrsjo "Why don't you suck on my nipples, {b}[firstname]{/b}..."
-    mrsjo "... {b}Erik{/b} already knows what to do."
+    mrsjo "Мне нужна ваша помощь, Мальчики!"
+    mrsjo "Почему бы тебе не посасать мои сосочки, {b}[firstname]{/b}..."
+    mrsjo "... {b}Эрик{/b} уже знает что нужно делать."
     show mrsjsex 15_16_17
-    $ anim_toggle = True
-    $ animated = False
+    $ anim_toggle = False
+	$ animated = False
     $ xray = False
     label mrsj_afterpoker_fun_repeat:
         show mrsjsex 17
@@ -81,46 +81,46 @@ label mrsj_afterpoker_fun:
                 $ animcounter += 1
         show mrsjsex 17
         menu:
-            "Keep going.":
+            "Продолжить.":
                 jump mrsj_afterpoker_fun_repeat
-            "Make her cum.":
+            "Заставить её кончить.":
 
                 show mrsjsex 15_16_17 at left
                 pause 8
                 show mrsjsex 18
-                mrsjo "Ahhh!!!" with hpunch
+                mrsjo "Аххх!!!" with hpunch
                 show mrsjsex 19 with fastdissolve
-                mrsjo "Goodness me!"
-                mrsjo "That was well done, boys..."
-                mrsjo "I feel like you two wanted more..."
-                mrsjo "I... I think we should stop... for tonight, at least."
+                mrsjo "Божееее мой!"
+                mrsjo "Это была отличная работа, Мальчики..."
+                mrsjo "Я думаю вы оба хотели большего..."
+                mrsjo "Я... Я думаю мы должны остановиться... на сегодня, по крайней мере."
 
                 scene erik_basement
                 show player 1f at Position(xpos=756)
                 show erik 1 at Position(xpos=876)
                 show mrsj 28f at left
                 with fade
-                mrsjo "Alright boys! I think this is enough for tonight..."
-                mrsjo "I have to get up early tomorrow."
+                mrsjo "Ладно ребята! Я думаю что этого достаточно на сегодня..."
+                mrsjo "Мне нужно завтра рано вставать."
                 show mrsj 27f at Position(xoffset=-1)
                 show erik 5
-                eri "Sorry for keeping you up, {b}Mrs. Johnson{/b}..."
+                eri "Извини что не дал поспать, {b}Миссис Джонсон{/b}..."
                 show mrsj 28f
                 show erik 1
-                mrsjo "It's fineee! I enjoyed our little night."
+                mrsjo "Все нормально! Мне все понравилось в нашей маленькой ночи."
                 show mrsj 27f at Position(xoffset=-1)
                 show player 14f
-                player_name "Thanks for playing with us, {b}Mrs. Johnson{/b}."
+                player_name "Спасибо что поиграли с нами, {b}Миссис Джонсон{/b}."
                 show mrsj 28f
                 show player 1f
-                mrsjo "It was my pleasure, playing with... with each other."
+                mrsjo "Мне было очень приятно, играть с... вами."
                 show mrsj 34 at center
                 hide erik
                 hide player
                 with dissolve
-                mrsjo "You boys let me know if you need someone to play with again..."
+                mrsjo "Мальчики дайте мне знать, если вам нужен будет еще кто-то, чтобы поиграть снова..."
                 show mrsj 35
-                player_name "Sure thing, {b}Mrs. Johnson{/b}..."
+                player_name "Разумеется, {b}Миссис Джонсон{/b}..."
                 $ renpy.end_replay()
                 $ persistent.cookie_jar["Mrs Johnson"]["unlocked"] = True
                 $ persistent.cookie_jar["Mrs Johnson"]["gallery"]["01_unlocked"] = True
