@@ -4,23 +4,23 @@ label jenny_dialogue_panties_trade_pre:
     show jenny 9 at Position(xpos=937)
     show player 11 at left
     with dissolve
-    jen "If you're here for the {b}panties{/b}, I told you, {b}$100{/b} or nothing."
+    jen "Если ты здесь за {b}трусишками{/b}, Я тебе говорила, или {b}$100{/b} или ничего."
     show jenny 6
     return
 
 label jenny_dialogue_panties_trade_buy:
     show player 12 at left
     show jenny 18 at right
-    player_name "Okay, fine."
+    player_name "Хорошо."
     play audio coins2
     show player 41 at Position (xpos=38) with fastdissolve
     pause
     show jenny 80 at Position(xpos=945)
     show player 1 at left
-    jen "Alright, you can keep them..." with fastdissolve
+    jen "Ладно, можешь оставить себе..." with fastdissolve
     show jenny 81
     show player 11
-    jen "Now, get out of my room, pervert!"
+    jen "А теперь убирайся из моей комнаты, извращенец!"
     show jenny 14
     show unlock17 at truecenter
     pause
@@ -32,10 +32,10 @@ label jenny_dialogue_panties_trade_buy:
 label jenny_dialogue_panties_trade_do_not_buy:
     show jenny 10 at Position(xpos=937)
     show player 35 at left
-    player_name "Actually, I don't need any right now..."
+    player_name "Вообще-то, мне сейчас ничего не нужно..."
     show jenny 9
     show player 39 at Position (xpos=38)
-    jen "Then give them back, and get out of my room, you pervert!"
+    jen "Тогда верни их и убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     return
@@ -43,10 +43,10 @@ label jenny_dialogue_panties_trade_do_not_buy:
 label jenny_dialogue_panties_trade_cant_buy:
     show player 24 at left
     show jenny 10 at Position(xpos=937)
-    player_name "I don't have that much money on me..."
+    player_name "У меня с собой не так много денег..."
     show jenny 9
     show player 5
-    jen "Too bad! Get out of my room, you pervert!"
+    jen "Очень жаль! Убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     return
@@ -60,143 +60,143 @@ label jenny_dialogue_pre:
 
 
 
-    jen "Well, well..."
-    jen "What would the little pervert want this time?"
+    jen "Так, так..."
+    jen "Что захотел маленький извращенец на этот раз?"
     if not M_jenny.finished_state(S_jenny_panty_deal_tier_2):
-        jen "More {b}panties{/b}, perhaps?"
+        jen "Еще {b}трусишек{/b}, возможно?"
 
     elif not M_jenny.finished_state(S_jenny_panty_deal_tier_3):
-        jen "Let me guess, more {b}panties{/b}?"
+        jen "Дай угадаю, еще {b}труселей{/b}?"
 
     elif not M_jenny.finished_state(S_jenny_panty_deal_tier_4):
         show player 1
-        jen "Don't tell me: it's more {b}panties{/b}."
+        jen "Не говори: еще {b}труселей{/b}."
     show jenny 18
     return
 
 label jenny_dialogue_talk_before_cuddle:
     show player 14
-    player_name "I wanted to say that I'm enjoying cuddling with you at night..."
+    player_name "Я хотела сказать, что мне нравится обниматься с тобой по ночам..."
     show player 18
-    player_name "...I'm just glad you're starting to like me more."
+    player_name "...Я просто рад, что начинаю нравиться тебе больше."
     show player 13
     show jenny 10 at Position(xpos = 937)
     jen "..."
     show player 11
     show jenny 9
-    jen "Really?"
+    jen "Правда?"
     show jenny 7 at right
-    jen "You think I'm doing it because I like you?!"
+    jen "Ты думаешь, я делаю это, потому что ты мне нравишься?!"
     show jenny 9 at Position(xpos = 937)
-    jen "Man, you're so pathetic."
+    jen "Чувак, ты такой жалкий."
     show player 5
     show jenny 6
     player_name "..."
     show jenny 12
-    jen "Just don't get too greedy. You're lucky I let you in my room to begin with."
+    jen "Только не жадничай слишком сильно. Тебе повезло, что я впустила тебя в свою комнату."
     show jenny 9
-    jen "Is there anything else you wanted to talk about, or can I just kick you out of my room?"
+    jen "Есть еще что-нибудь, о чем ты хотела бы поговорить, или я могу просто вышвырнуть тебя из своей комнаты?"
     return
 
 label jenny_dialogue_confess_first:
     show player 2 at left
-    player_name "Hey, {b}[jen_name]{/b}..."
+    player_name "Привет, {b}[jen_name]{/b}..."
     show player 29
-    player_name "I... I wanted to tell you something..."
+    player_name "Я... Я хотел сказать кое-что..."
     show player 1
     show jenny 10 at Position(xpos = 937)
-    jen "Uhh... okay?"
+    jen "Эээ... хорошо?"
     show player 2
-    player_name "Well..."
+    player_name "Ну..."
     show player 3
     show jenny 9
-    jen "Spit it out! I don't have all day!"
+    jen "Короче! У меня нет на это времени!"
     show player 21
     show jenny 9b
-    player_name "I think I love you."
+    player_name "Я думаю, что люблю тебя."
     show jenny 10
     jen "?!?" with hpunch
     show player 5
     show jenny 7 at right
-    jen "Eww! What the fuck!?"
-    jen "What's wrong with you??"
+    jen "Эээ! Что за хрень!?"
+    jen "Что с тобой не так??"
     show player 22
     show jenny 8
     player_name "!!!"
     show player 5
     show jenny 9 at Position(xpos = 937)
-    jen "Why are you talking like that?"
+    jen "Почему ты так разговариваешь?"
     show player 25
     show jenny 6
-    player_name "I don't know... It's just a feeling I had!!"
+    player_name "Я не знаю... Это просто чувство, у меня!!"
     show player 22
     show jenny 7 at right
-    jen "I'm not your girlfriend, you IDIOT!!"
+    jen "Я не твоя подружка, ты ИДИОТ!!"
     show player 6
     show jenny 8
-    player_name "I'm sorry!!"
+    player_name "Прости!!"
     show player 5
     show jenny 9 at Position(xpos = 937)
-    jen "Just because I let you fuck me on my cam shows, doesn't mean that I have feelings for you! Got it?!"
+    jen "Если я позволяю тебе трахать меня на моих шоу, это не значит, что у меня есть чувства к тебе! Понял?!"
     show player 25
     show jenny 6
-    player_name "Yes... I understand..."
+    player_name "Да... Я понял..."
     show player 5
     show jenny 7 at right
-    jen "Good! Now, {b}GET OUT OF MY ROOM{/b}!!" with hpunch
+    jen "Хорошо! Теперь, {b}ВАЛИ ИЗ МОЕЙ КОМНАТЫ{/b}!!" with hpunch
     show player 22
     show jenny 8
     player_name "!!!"
     hide player
     show jenny 9 at Position(xpos = 937)
     with fade
-    jen "Gosh... Have I gone too far?"
-    jen "I knew he liked me but... I can't believe that little pervert is starting to have feelings for me now."
-    jen "He has been pretty helpful... I'm making tons of money with my cam show because of him..."
-    jen "Ugh!! He's probably just horny."
+    jen "Ух... Неужели я зашла слишком далеко?"
+    jen "Я знала, что нравлюсь ему, но..... Не могу поверить, что этот маленький извращенец начинает испытывать ко мне чувства."
+    jen "Он был очень полезен... Я зарабатываю кучу денег на своем шоу из-за него..."
+    jen "Ух!! Он, наверное, просто возбужден."
     hide jenny
     hide jennybedroom
     return
 
 label jenny_dialogue_confess_repeat:
     show player 14 at left
-    player_name "Hey {b}[jen_name]{/b}..."
-    player_name "Just letting you know that I like you a lot."
+    player_name "Привет, {b}[jen_name]{/b}..."
+    player_name "Просто знай что ты мне очень нравишься."
     show player 1
     show jenny 9 at Position(xpos = 937)
-    jen "Again??"
+    jen "Опять??"
     show player 17
     show jenny 9b
-    player_name "I think that, I love you."
+    player_name "Я думаю, что, я люблю тебя."
     show jenny 10
     jen "?!?" with hpunch
     show player 25
     show jenny 9
-    jen "You have to stop with that!!"
-    jen "What's wrong with you??"
+    jen "Ты должен прекратить это!!"
+    jen "Что с тобой не так??"
     show player 22
     show jenny 6
     player_name "!!!"
     show jenny 7 at right
-    jen "I'm not your girlfriend, you IDIOT!!"
+    jen "Я не твоя подружка, ты ИДИОТ!!"
     show player 6
     show jenny 8
-    player_name "I'm sorry!!"
+    player_name "Прости!!"
     show player 5
     show jenny 9 at Position(xpos = 937)
-    jen "Just because I let you fuck me on my cam shows, doesn't mean that I have feelings for you! Got it?!"
+    jen "Только потому, что я позволяю тебе трахать меня на моих шоу, не значит, что у меня есть чувства к тебе! Понял?!"
     show jenny 6
     show player 24
-    player_name "Yes... I understand..."
+    player_name "Да... Я понял..."
     show jenny 7 at right
-    jen "Good! Now, {b}GET OUT OF MY ROOM{/b}!!"
+    jen "Хорошо! Сейчас, {b}УБИРАЙСЯ ИЗ МОЕЙ КОМНАТЫ{/b}!!"
     show player 22
     show jenny 8
     player_name "!!!"
     hide player
     show jenny 9 at Position(xpos = 937)
     with fade
-    jen "Ugh!! He's probably just horny."
+    jen "Ух!! Он, наверное, просто возбужден."
     hide jenny
     hide jennybedroom
     return
@@ -204,46 +204,46 @@ label jenny_dialogue_confess_repeat:
 label jenny_dialogue_roxxy_pre:
     show jenny 11
     show player 10
-    player_name "So about {b}Roxxy's{/b} routine..."
+    player_name "Итак, о занятии с {b}Рокси{/b}..."
     show player 5
     show jenny 12
-    jen "Did you bring the money?"
+    jen "Ты принес деньги?"
     show jenny 11
     return
 
 label jenny_dialogue_roxxy_pay:
     show player 12
-    player_name "Here."
+    player_name "Вот."
     show player 41 at Position (xoffset=38) with dissolve
     pause
     show jenny 80 at right
     show player 5
     with dissolve
-    jen "Perfect."
-    jen "Tell Whatshername, she can come see me after school tomorrow."
+    jen "Прекрасно."
+    jen "Скажи как ее там зовут, она может прийти ко мне завтра после школы."
     show jenny 14
     show player 12
-    player_name "Her name is {b}Roxxy{/b}."
+    player_name "Ее зовут {b}Рокси{/b}."
     show player 5
     show jenny 81
-    jen "Whatever."
+    jen "Не важно."
     return
 
 label jenny_dialogue_roxxy_do_not_pay:
     show player 10
-    player_name "I don't have it yet."
+    player_name "У меня пока еще нет."
     show player 5
     show jenny 9
-    jen "Well then beat it, I'm busy."
+    jen "Тогда проваливай, я занята."
     return
 
 label jenny_dialogue_trade_panties:
     menu:
-        "Not yet." if not M_jenny.is_state(S_jenny_panty_deal_tier_2) or not M_jenny.is_state(S_jenny_panty_deal_tier_3) or not M_jenny.is_state(S_jenny_panty_deal_tier_4):
+        "Еще нет." if not M_jenny.is_state(S_jenny_panty_deal_tier_2) or not M_jenny.is_state(S_jenny_panty_deal_tier_3) or not M_jenny.is_state(S_jenny_panty_deal_tier_4):
             call expression game.dialog_select("jenny_dialogue_trade_panties_not_yet")
             jump expression game.dialog_select("hallway_dialogue")
 
-        "Yeah, more panties." if M_jenny.is_state(S_jenny_panty_deal_tier_2) or M_jenny.is_state(S_jenny_panty_deal_tier_3) or M_jenny.is_state(S_jenny_panty_deal_tier_4):
+        "Да, больше трусиков." if M_jenny.is_state(S_jenny_panty_deal_tier_2) or M_jenny.is_state(S_jenny_panty_deal_tier_3) or M_jenny.is_state(S_jenny_panty_deal_tier_4):
             if sis_quest_first:
                 if M_jenny.is_state(S_jenny_panty_deal_tier_4):
                     call expression game.dialog_select("jenny_dialogue_trade_panties_more_panties_first_panty04")
@@ -263,7 +263,7 @@ label jenny_dialogue_trade_panties:
                     if not store._in_replay == None:
                         call expression game.dialog_select("sybian_replay_continue")
             menu:
-                "Here's the toy." if player.has_item("sybian") and M_jenny.is_state(S_jenny_panty_deal_tier_4):
+                "Вот игрушка." if player.has_item("sybian") and M_jenny.is_state(S_jenny_panty_deal_tier_4):
                     label sybian_replay_continue:
                         call expression game.dialog_select("jenny_dialogue_trade_panties_have_toy_sybian")
                     $ sybian_stage = 0
@@ -274,23 +274,23 @@ label jenny_dialogue_trade_panties:
                     pause
                     jump expression game.dialog_select("sybian_stage1")
 
-                "Here's the toy." if player.has_item("ultravibrato") and M_jenny.is_state(S_jenny_panty_deal_tier_3):
+                "Вот игрушка." if player.has_item("ultravibrato") and M_jenny.is_state(S_jenny_panty_deal_tier_3):
                     call expression game.dialog_select("jenny_dialogue_trade_panties_have_toy_ultravibrato")
                     $ player.get_item("panties")
                     $ player.remove_item("ultravibrato")
                     $ M_jenny.trigger(T_jenny_panty_sex_toy_traded_tier_2)
                     $ sis_quest_first = True
 
-                "Here's the toy." if player.has_item("electroclit") and M_jenny.is_state(S_jenny_panty_deal_tier_2):
+                "Вот игрушка." if player.has_item("electroclit") and M_jenny.is_state(S_jenny_panty_deal_tier_2):
                     call expression game.dialog_select("jenny_dialogue_trade_panties_have_toy_electroclit")
                     $ player.get_item("panties")
                     $ player.remove_item("electroclit")
                     $ M_jenny.trigger(T_jenny_panty_sex_toy_traded)
                     $ sis_quest_first = True
 
-                "I don't have it." if (M_jenny.is_state(S_jenny_panty_deal_tier_2) and not player.has_item("electroclit")) or (M_jenny.is_state(S_jenny_panty_deal_tier_3) and not player.has_item("ultravibrato")) or (M_jenny.is_state(S_jenny_panty_deal_tier_4) and not player.has_item("sybian")):
+                "У меня ее нет." if (M_jenny.is_state(S_jenny_panty_deal_tier_2) and not player.has_item("electroclit")) or (M_jenny.is_state(S_jenny_panty_deal_tier_3) and not player.has_item("ultravibrato")) or (M_jenny.is_state(S_jenny_panty_deal_tier_4) and not player.has_item("sybian")):
                     call expression game.dialog_select("jenny_dialogue_trade_panties_do_not_have_toy")
-                "I don't need it.":
+                "У меня ее нет.":
 
                     call expression game.dialog_select("jenny_dialogue_trade_panties_do_not_need_panties")
     return
@@ -298,27 +298,27 @@ label jenny_dialogue_trade_panties:
 label jenny_dialogue_trade_panties_not_yet:
     show player 12 at left
     show jenny 10 at Position(xpos=937)
-    player_name "I'm fine for now."
+    player_name "На данный момент я в порядке."
     show jenny 9
     show player 11
-    jen "So... What are you doing here, then?"
+    jen "Так... Тогда что ты здесь делаешь?"
     show jenny 10
     show player 10
-    player_name "I uhh... I'm just-"
+    player_name "Я эээ... Я только-"
     show jenny 7 at right
     show player 11
-    jen "I'm busy right now, can't you see!?"
+    jen "Я сейчас занята, разве ты не видишь!?"
     show jenny 8
     show player 12
-    player_name "Alright..."
+    player_name "Хорошо..."
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "And close the door on the way out!"
-    jen "I wouldn't want a pervert spying on me."
+    jen "И закрой дверь, когда будешь уходить!"
+    jen "Я бы не хотела, чтобы извращенец шпионил за мной."
     show jenny 6
     player_name "..."
     show player 10
-    player_name "Okay..."
+    player_name "Хорошо..."
     hide player
     hide jenny
     return
@@ -326,81 +326,81 @@ label jenny_dialogue_trade_panties_not_yet:
 label jenny_dialogue_trade_panties_more_panties_first_panty02:
     show player 21 at left
     show jenny 11 at Position(xpos=937)
-    player_name "Yeah, more panties, actually."
+    player_name "Да, еще трусиков, вообще-то."
     show jenny 10
-    player_name "Except this time... I need {b}used panties{/b}..."
+    player_name "В этот раз... Мне нужны {b}использованные трусики{/b}..."
     show player 11
     show jenny 7 at right
-    jen "USED?!" with hpunch
+    jen "ИСПОЛЬЗОВАННЫЕ?!" with hpunch
     show jenny 8
     show player 10
-    player_name "I know... That's what he said, though..."
+    player_name "Я знаю... Хотя, это то, что он сказал..."
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "Just give him a pair from my drawer!"
+    jen "Просто дай ему пару из моего ящика!"
     show jenny 10
     show player 10
-    player_name "I can't! He said I need to make {b}SURE{/b} they've been {b}worn{/b}..."
+    player_name "Я не могу! Он сказал, что мне нужно {b}убедиться{/b}, что они были {b}поношены{/b}..."
     show jenny 55 at right
     show player 11
-    jen "You mean I have to give you {b}THESE{/b}??"
+    jen "Ты имеешь в виду, что я должна дать тебе {b}ЭТИ{/b}??"
     show jenny 6 at Position(xpos=937)
     show player 21
-    player_name "Yeah... I guess so..."
+    player_name "Да... Наверно..."
     show jenny 11
     show player 11
-    jen "Hmmm..."
+    jen "Хммм..."
     show jenny 9
     show player 13
-    jen "Fine! I'll do it!"
+    jen "Хорошо! Я дам эти!"
     show jenny 12
     show player 11
-    jen "But you'll have to {b}buy{/b} me something."
+    jen "Но тебе придется {b}купить{/b} мне кое-что."
     show jenny 18 at right
     player_name "..."
     show jenny 19
-    jen "You heard me."
-    jen "You have to buy me some {b}girl toys{/b}."
+    jen "Ты слышал меня."
+    jen "Ты должен купить мне {b}игрушки для девочек{/b}."
     show jenny 10 at Position(xpos=937)
     show player 12
-    player_name "What?"
+    player_name "Что?"
     show jenny 9
     show player 11
-    jen "Stop acting so innocent! You know what I'm talking about!"
-    jen "{b}Sex{/b} toys!!"
+    jen "Прекрати вести себя так невинно! Ты знаешь, о чем я говорю!"
+    jen "{b}Секс{/b} игрушки!!"
     show jenny 61 at right with fastdissolve
-    jen "Like one of these!"
+    jen "Как одна из этих!"
     show jenny 18 with fastdissolve
     player_name "!!!"
     show player 14
-    player_name "I guess I could..."
+    player_name "Думаю, что смогу..."
     show player 10
-    player_name "But... aren't those expensive? And where do I get them, anyway?"
+    player_name "Но... разве они не дорогие? И где же я возьму их?"
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "I know you have the cash for it..."
+    jen "Я знаю, что у тебя есть на это деньги..."
     show jenny 12
-    jen "And you can buy them at {b}Pink{/b}, in the {b}Mall{/b}."
+    jen "И ты можешь купить их в магазине {b}Pink{/b}, в {b}торговом центре{/b}."
     show jenny 82
     show player 12
-    player_name "Which one do you want?"
+    player_name "Какую ты хочешь?"
     show jenny 12
     show player 11
-    jen "I want the {b}Electro Clit{/b}. It's the purple one."
+    jen "Я хочу {b}Электро Клитор{/b}. Он такой фиолетовый."
     show jenny 10
     show player 10
-    player_name "I don't know if I can do it... people might see me going in that store..."
+    player_name "Я не знаю, смогу ли я это сделать... люди могут увидеть меня в этом магазине..."
     show jenny 7 at right
     show player 11
-    jen "{b}LOOK{/b}! I'm doing you a favor, okay?!"
+    jen "{b}СЛУШАЙ{/b}! Я делаю тебе одолжение, хорошо?!"
     show jenny 9 at Position(xpos=937)
-    jen "If you're not going to trade for them, then go away!!"
+    jen "Если ты не собираешься торговаться за них, то уходи!!"
     show player 21
     show jenny 82
-    player_name "Well... I guess I have to..."
+    player_name "Ну... Наверное, мне придется это сделать..."
     show jenny 19 at right
     show player 11
-    jen "Come back to me when you have that {b}toy{/b}."
+    jen "Возвращайся ко мне, когда у тебя будет эта {b}игрушка{/b}."
     hide player
     hide jenny
     return
@@ -408,50 +408,50 @@ label jenny_dialogue_trade_panties_more_panties_first_panty02:
 label jenny_dialogue_trade_panties_more_panties_first_panty03:
     show player 21 at left
     show jenny 11 at Position(xpos=937)
-    player_name "Yeah, more panties, actually."
+    player_name "Да, еще трусиков, вообще-то."
     show jenny 10
-    player_name "But this time... I need... {b}wet panties{/b}..."
+    player_name "Но на этот раз... нужны... {b}мокрые трусики{/b}..."
     show jenny 7 at right
     show player 11
-    jen "First used, now {b}wet{/b} ones?!"
+    jen "Сначала ношеные, теперь {b}мокренькие{/b} подавай?!"
     show jenny 9 at Position(xpos=937)
-    jen "Just who the fuck is this creep?"
+    jen "Кто, черт возьми, этот урод?"
     show jenny 6
     show player 10
-    player_name "Look, it doesn't matter: He said I need to make sure they're wet..."
+    player_name "Слушай, это неважно, он сказал, что мне нужно убедиться, что они мокрые..."
     show jenny 9
     show player 11
-    jen "You've got to be kidding me!!"
-    jen "You mean I have to make them {b}WET{/b}??"
+    jen "Ты должно быть шутишь надо мной!!"
+    jen "Ты имеешь в виду, что я должна сделать их {b}мокрыми{/b}??"
     show jenny 6
     show player 21
-    player_name "Yeah... I guess so..."
+    player_name "Да... наверно..."
     show jenny 9
     show player 11
-    jen "You're starting to get pushy with those demands..."
-    jen "...but I'll do it."
-    jen "You'll have to buy me more {b}girl toys{/b}, though."
+    jen "Ты начинаешь настаивать на этих требованиях..."
+    jen "...но я сделаю это."
+    jen "Тебе придется купить мне еще {b}игрушек для девочек{/b}."
     show jenny 82
     show player 14
-    player_name "Sure..."
-    player_name "I guess I could..."
-    player_name "Which one do you want this time?"
+    player_name "Конечно..."
+    player_name "Думаю, что смогу..."
+    player_name "Что ты хочешь на этот раз?"
     show player 11
     show jenny 12
-    jen "I want the {b}UltraVibrator 2000{/b}."
+    jen "Я хочу {b}Ультравибратор 2000{/b}."
     show jenny 10
     show player 12
-    player_name "Damn... I really don't like going into that store..."
+    player_name "Черт... Мне правда не нравится ходить в этот магазин..."
     show jenny 7 at right
     show player 11
-    jen "{b}LOOK{/b}! You're asking me for {b}WET{/b} panties, okay?!" with hpunch
-    jen "If you're not going to trade for them, then go away!!"
+    jen "{b}СЛУШАЙ{/b}!Ты просишь у меня {b}мокрые{/b} трусики, хорошо?!" with hpunch
+    jen "Если ты не собираешься торговаться за них, то уходи!!"
     show jenny 18 at right
     show player 21
-    player_name "Well... I guess I have to..."
+    player_name "Ну... Наверное, мне придется это сделать..."
     show jenny 19
     show player 11
-    jen "Come back to me when you have that {b}toy{/b}."
+    jen "Возвращайся ко мне, когда у тебя будет эта {b}игрушка{/b}."
     hide player
     hide jenny
     return
@@ -459,62 +459,62 @@ label jenny_dialogue_trade_panties_more_panties_first_panty03:
 label jenny_dialogue_trade_panties_more_panties_first_panty04:
     show player 21 at left
     show jenny 11 at Position(xpos=937)
-    player_name "Yeah, one last time, actually."
+    player_name "Да, в последний раз, вообще-то."
     show jenny 10
-    player_name "But this time... I need you to {b}squirt on them{/b}..."
+    player_name "Но на этот раз... Мне нужно, чтобы ты {b}брызнула на них{/b}..."
     show player 11
     jen "?!"
     show player 10
-    player_name "I know!!... That's what he said, though..."
+    player_name "Я знаю!!... Хотя, это то, что он сказал..."
     show jenny 9
     show player 1
-    jen "Squirt?"
+    jen "Брызнуть?"
     show jenny 6
     show player 10
-    player_name "I know! He said I need to make {b}SURE{/b} they're {b}soaked in squirt{/b}..."
+    player_name " знаю! Он сказал, что я должен быть {b}УВЕРЕН{/b} что они {b}смочены брызгами{/b}..."
     show jenny 7 at right
     show player 11
-    jen "You mean I have to {b}SQUIRT{/b} onto them??" with hpunch
+    jen "Ты имеешь в виду, что я должна {b}БРЫЗНУТЬ{/b} на них??" with hpunch
     show jenny 8
     show player 21
-    player_name "Yeah, I guess so... they have to be really wet with that stuff!"
+    player_name "Да, наверное, именно так... они должны быть очень мокрые от этой штуки!"
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "You're starting to make this quite hard..."
+    jen "Ты начинаешь все усложнять..."
     show jenny 12
     show player 13
-    jen "...But I think I've got an idea..."
+    jen "...Но мне кажется, у меня есть идея..."
     show player 11
-    jen "You'll have to buy me a specific {b}toy{/b}, though."
+    jen "Но тебе придется купить мне специфическую {b}игрушку{/b}."
     show jenny 82
     show player 21
-    player_name "Yeah, no problem..."
-    player_name "Which one?"
+    player_name "Да, без проблем..."
+    player_name "Какую?"
     show player 11
     show jenny 19 at right
-    jen "I'll need the {b}Dual Sybian{/b}."
+    jen "Мне нужен {b}Двойной Вибратор{/b}."
     show jenny 18
     player_name "..."
     show player 10
     show jenny 10 at Position(xpos=937)
-    player_name "The what?"
+    player_name "Чего?"
     show player 11
     show jenny 9
-    jen "It looks kind of like a saddle, you can't miss it."
+    jen "Он похож на седло, его нельзя пропустить."
     show player 12
     show jenny 10
-    player_name "Uhh, how much does it cost?"
+    player_name "Ухх, сколько он может стоить?"
     show player 11
     show jenny 7 at right
-    jen "{b}LOOK{/b}, you're asking me to squirt, okay?!" with hpunch
-    jen "If you're not going to get that {b}toy{/b}, you can forget about it!!"
+    jen "{b}СЛУШАЙ{/b}, ты просишь меня устроить сквиртинг, хорошо?!" with hpunch
+    jen "Если ты не достанешь эту {b}игрушку{/b}, можешь забыть об этом!!"
     show jenny 8
     show player 10
     show jenny 18
-    player_name "Okay, okay!!"
+    player_name "Ладно, ладно!!"
     show player 11
     show jenny 19
-    jen "Come back to me when you get it."
+    jen "Возвращайся ко мне, когда получишь его."
     hide player
     hide jenny
     return
