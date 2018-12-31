@@ -1,92 +1,92 @@
 label eriks_backyard_erik_thief_in_progress:
     scene eriks_backyard_night_b
     show door_thief_night at Position (xpos=882,ypos=655)
-    player_name "( Is he...trying to get into {b}Mrs. Johnson{/b}'s back door? )"
-    player_name "( This must be the burglar we keep hearing about in the news. )"
-    player_name "( I should get a closer look... )"
+    player_name "( Он... пытается проникнуть через заднюю дверь к {b}Миссис Джонсон{/b} ? )"
+    player_name "( Должно быть, это тот взломщик, о котором мы постоянно слышим в новостях. )"
+    player_name "( Надо посмотреть поближе... )"
     return
 
 label erik_thief_block2:
     scene eriks_backyard_night_b
     show door_thief_night at Position (xpos=882,ypos=655)
-    player_name "( I can't leave just yet. )"
-    player_name "( What if he's trying to break in?! )"
-    player_name "( I have to make sure nothing bad happens... )"
+    player_name "( Я пока не могу уйти. )"
+    player_name "( Что если он попытается вломиться?! )"
+    player_name "( Надо убедиться, что ничего плохого не происходит... )"
     $ game.main()
 
 label erik_thief_confront:
     scene eriks_backyard_c
     show larry 1 at Position (xpos=800) with dissolve
     show player 12 at left with dissolve
-    player_name "...Uhm!"
-    player_name "Excuse me!"
+    player_name "...Ухх!"
+    player_name "Извините!"
     show player 16
     show larry 2 at right with dissolve
     thief "!!!" with hpunch
     show player 12
-    player_name "What're you doing?"
+    player_name "Что вы делаете?"
     show player 16
     show larry 3 with dissolve
-    thief "Oh shi-"
+    thief "Вот дерь-"
     hide larry with dissolve
     show player 15
-    player_name "HEY!"
-    player_name "Stay right there!!"
+    player_name "ЭЙ!"
+    player_name "А ну стой!!"
     hide player with dissolve
 
     scene erik_house_cs03 with fade
-    show text "I was about to confront him while he was trying to break in...\n...But he took off right away, making his way towards the fence.\nI was catching up to him, and then..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я собрался предотвратить проникновение вора во двор...\n...Но он очень ловко перескачил через забор.\nЯ погнался за ним, и тогда..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     return
 
 label erik_thief_dex_pass:
     scene erik_house_cs05 with fade
-    show text "...He ran up to the fence and tried to jump...\n...But I was just in time to get a hold of him and pin him down..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...Я его догнал и мы схватились...\n...И после непродолжиельной борьбы я его победил..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     scene eriks_backyard_c
     show larry 4 at left
     with dissolve
-    player_name "Hey!"
+    player_name "Эй!"
     show larry 5
     pause
     show larry 4
-    player_name "What were you doing?!"
-    player_name "Stop moving around!"
-    player_name "You're not going anywhere."
+    player_name "Что ты хотел сделать?!"
+    player_name "Хватит дергаться!"
+    player_name "Ты ни куда не пойдешь."
     show larry 7
     show erik 52 at Position (xpos=750)
     show mrsj 52 at right
-    mrsjo "What's making all that noise in our backyard?"
-    mrsjo "Who's out there?"
+    mrsjo "Что за шум на заднем дворе?"
+    mrsjo "Кто там?"
     show mrsj 38
     show erik 53
     eri "{b}[firstname]{/b}?"
     show erik 52
     show larry 6
-    player_name "I'm sorry, {b}Mrs. Johnson{/b}. I didn't want to wake you up..."
+    player_name "Простите, {b}Миссис Джонсон{/b}. Я не хотел вас разбудить..."
     show larry 4
-    player_name "...But I caught this guy trying to sneak into your house!"
+    player_name "...Но я поймал этого парня, он пытался проникнуть в ваш дом!"
     show larry 7
     show erik 51
     show mrsj 19
     mrsjo "!!!"
     show mrsj 52
-    mrsjo "What? What happened?"
+    mrsjo "Что? Что случилось?"
     show mrsj 38
     show erik 52
     show larry 6
-    player_name "Well, I heard some noises from my room, and I saw this guy sneaking around in your backyard."
-    player_name "I went outside to see where he went and found him by your door trying to break in!"
+    player_name "Я услышал какой-то шум и увидел, как этот парень пробирается на задний двор."
+    player_name "Я вышел на улицу, посмотреть, куда он пошел, и увидел как он пытается к вам вломиться!"
     show larry 4
-    player_name "He tried to run away, but I was able to catch up to him..."
+    player_name "Он попытался сбежать, но я смог догнать его..."
     show larry 7
     show mrsj 19
-    mrsjo "Oh my!"
+    mrsjo "Ох, боже!"
     show mrsj 38
     show larry 5
-    mrsjo "Let's see who's behind this mask..."
+    mrsjo "Давай-ка посмотрим, кто скрывается за этой маской..."
     hide mrsj
     hide larry
     show larry 8 at left
@@ -98,64 +98,64 @@ label erik_thief_dex_pass:
     show erik 51
     mrsjo "!!!" with hpunch
     show erik 53
-    eri "{b}Mr. Johnson{/b}?!"
+    eri "{b}Мистер Джонсон{/b}?!"
     show erik 3b
     player_name "!!!"
     show mrsj 51 with dissolve
     show larry 10
-    larry "I'm so sorry..."
+    larry "Простите..."
     show larry 11
     show mrsj 52
-    mrsjo "{b}Larry{/b}! What on earth are you doing in town? I thought you were living out of state?"
+    mrsjo "{b}Ларри{/b}! Боже, что ты делаешь в городе? Я думала ты живешь в другом штате?"
     show mrsj 51
     show erik 52
     show larry 10
-    larry "I... I know... It's just..."
-    larry "...A few years ago my band fell apart."
-    larry "I had money problems and... I had to come back."
+    larry "Я... Я знаю... Просто..."
+    larry "...Несколько лет назад моя группировка распалась."
+    larry "У меня были проблемы с деньгами и... Мне пришлось вернуться."
     show larry 9
     show mrsj 52
-    mrsjo "You've been back here for a few years now?!"
+    mrsjo "Ты уже несколько лет, как вернулся?!"
     show mrsj 51
     show larry 11
     larry "..."
     show mrsj 52
-    mrsjo "Explain yourself, {b}Larry{/b}!"
+    mrsjo "Объяснись, {b}Ларри{/b}!"
     show mrsj 51
     show larry 10
-    larry "I... I didn't have the guts to see you after I had left you..."
+    larry "У... У меня не хватило смелости увидеть тебя после того, как я бросил тебя..."
     show larry 9
     show mrsj 19
-    mrsjo "And you just decided it'd be good to start stealing?"
+    mrsjo "И ты решил, что не плохо бы начать воровать?"
     show mrsj 19c
     show larry 11
     larry "..."
     show larry 10
-    larry "I couldn't find work!"
-    larry "And... everybody knows me around here."
-    larry "I didn't want anybody to know..."
+    larry "Я не могу найти роботу!"
+    larry "И... меня все здесь знают."
+    larry "Я не хотел, чтобы кто-нибудь узнал..."
     show larry 11
     show mrsj 52
-    mrsjo "Why come back at all, then?"
+    mrsjo "Зачем тогда вообще возвращаться?"
     show mrsj 51
     show erik 51
     show larry 10
-    larry "I... I missed you, {b}Tammy{/b}..."
-    larry "I've been stopping by at night for the last couple months, hoping to bump into you..."
+    larry "Я... Я скучал по тебе, {b}Тэмми{/b}..."
+    larry "Я заглядывал ночью в течение последних двух месяцев, надеясь увидеться с тобой..."
     show larry 9
     show erik 52
     show mrsj 52
-    mrsjo "You should have thought about that before leaving me!!"
-    mrsjo "You know what? You haven't changed one bit."
-    mrsjo "You still just think about yourself!!"
+    mrsjo "Тебе нужно было думать об этом, прежде чем бросать нас!!"
+    mrsjo "Знаешь что? Ты совсем не изменился."
+    mrsjo "Ты всё еще думаешь только о себе!!"
     show mrsj 51
     show erik 53
-    eri "{b}Mrs. Johnson{/b}... What happens now?"
+    eri "{b}Миссис Джонсон{/b}... Что теперь делать?"
     show larry 11
     show erik 51
     show mrsj 52
-    mrsjo "Call the police."
-    mrsjo "We'll let them deal with him."
+    mrsjo "Вызывай полицию."
+    mrsjo "Пусть они позаботятся о нем."
     hide mrsj
     hide erik
     hide larry
@@ -170,29 +170,29 @@ label erik_thief_dex_pass:
     show harold 3f at left
     show larry 13 at Position (xpos=275)
     with dissolve
-    harold "It's a good thing you called!"
-    harold "We've been trying to catch him for two years..."
+    harold "Хорошо, что ты позвонил!"
+    harold "Мы два года пытались его поймать..."
     show harold 1f
     show mrsj 52
     show larry 12
-    mrsjo "I... I never thought I'd see him again..."
-    mrsjo "...He's always been trouble!"
-    mrsjo "I'm just glad it's over and he can be out of our lives for good!"
+    mrsjo "Я... Я никогда не думала, что увижу его снова..."
+    mrsjo "...Он всегда создавал проблемы!"
+    mrsjo "Я очень рада, что все закончилось, и он исчез из нашей жизни навсегда!"
     show mrsj 51
     show larry 12b
     show erik 51
     show player 11f
-    larry "{b}Tammy{/b}!"
+    larry "{b}Тэмми{/b}!"
     show erik 52
-    larry "I'm glad you're doing okay..."
-    larry "...I miss you!!"
+    larry "Я рад, что у тебя все хорошо..."
+    larry "...Я скучал по тебе!!"
     show larry 12
     show erik 50
     show player 5f
     eri "..."
     show larry 13
     show harold 3f
-    harold "Come on, {b}Larry{/b}. Let's take you to the station."
+    harold "Давай уже, {b}Ларри{/b}. Отведем тебя в участок."
     hide harold
     hide larry
     with dissolve
@@ -214,18 +214,18 @@ label erik_thief_dex_pass:
 
 label erik_thief_dex_fail:
     scene erik_house_cs04 with fade
-    show text "...He ran up to the fence and jumped over it with one step!!\nI wasn't quite agile enough to get him..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...Он подбежал к забору и перепрыгнул его в один миг!!\nЯ не был достаточно ловким чтобы поймать его..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
 
     scene eriks_backyard_c with None
     show player 25 with dissolve
-    player_name "[dex_warn]Damn..."
-    player_name "[dex_warn]I can't believe he jumped that high, and I let him get away!"
-    player_name "[dex_warn]I need to get in better shape if I ever want to catch him."
+    player_name "[dex_warn]Черт..."
+    player_name "[dex_warn]Я не могу поверить что он так высоко прыгнул, и я позволил ему уйти!"
+    player_name "[dex_warn]Я должен быть в лучшей форме если я хочу поймать его."
     show player 24
-    player_name "[dex_warn]Ugh."
-    player_name "[dex_warn]I should get back to bed..."
+    player_name "[dex_warn]Угх."
+    player_name "[dex_warn]Я должен вернуться в кровать..."
     hide player with dissolve
     scene black with fade
     return
