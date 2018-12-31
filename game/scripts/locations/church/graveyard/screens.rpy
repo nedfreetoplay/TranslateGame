@@ -44,7 +44,7 @@ screen church_graveyard:
 
 screen cat_name_input:
     add NameInputText("boxes/popup_name_cat.png", cat_name, "c87efe")
-    add Input(size = 24, color = "#c87efe", default = "", changed = stray_cat_name, length = 12, xpos = 313, ypos = 329, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+    add Input(size = 24, color = "#c87efe", default = "", changed = stray_cat_name, length = 12, xpos = 313, ypos = 329, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
