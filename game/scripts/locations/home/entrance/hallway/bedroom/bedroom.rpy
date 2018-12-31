@@ -110,14 +110,14 @@ label sleeping:
                 $ erik.add_event(erik_thief)
             call expression game.dialog_select("bedroom_sleeping_erik_thief_pre")
             menu:
-                "Use the telescope.":
+                "Использовать телескоп.":
                     call expression game.dialog_select("bedroom_sleeping_erik_thief_use_telescope")
                     $ game.timer.tick(3)
                     $ erik_thief.finish()
 
                     scene black with fade
                     jump expression game.dialog_select("erik_house_dialogue")
-                "Go back to sleep.":
+                "Вернуться ко сну.":
 
                     call expression game.dialog_select("bedroom_sleeping_erik_thief_sleep")
 
@@ -198,7 +198,7 @@ label jerking_off_dialogue:
     if M_diane.is_state(S_diane_peeking_masturbate):
         jump diane_masturbatory_fantasy_d17
     menu:
-        "Jerk off.":
+        "Дрочить.":
             $ A_solo_pleasure.unlock()
             menu:
                 "{b}[deb_name]{/b}." if M_player.is_set("jerk mom"):
@@ -206,24 +206,24 @@ label jerking_off_dialogue:
                     scene black with fade
                     $ game.timer.tick()
 
-                "Mia." if M_player.is_set("jerk mia"):
+                "Мия." if M_player.is_set("jerk mia"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_mia")
                     scene black with fade
                     $ game.timer.tick()
 
-                "Roxxy" if M_player.is_set("jerk roxxy"):
+                "Рокси." if M_player.is_set("jerk roxxy"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_roxxy")
                     scene black with fade
                     $ game.timer.tick()
 
-                "Diane" if M_player.is_set("jerk diane"):
+                "Диана." if M_player.is_set("jerk diane"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_diane")
                     scene black with fade
                     $ game.timer.tick()
-                "Leave.":
+                "Уйти.":
 
                     $ pass
-        "Leave.":
+        "Уйти.":
 
             $ pass
     $ game.main()
