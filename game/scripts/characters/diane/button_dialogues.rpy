@@ -622,25 +622,25 @@ label dianes_dialogue_leave_d12b:
 label dianes_dialogue_have_you_spoken_with_debname:
     show player 14 at left
     show diane f_tired b_naked a_magic_dressed_shovel_shirtless_sides
-    player_name "You talked with {b}[deb_name]{/b} lately?"
+    player_name "Ты говорила с {b}[deb_name]{/b} в последнее время?"
     show player 13
     show diane f_tired_talk
-    dia "Oh, all the time!"
-    dia "We're back to daily phone calls again."
+    dia "О, все время!"
+    dia "Мы снова вернулись к ежедневным телефонным звонкам."
     show diane f_tired
     show player 14
-    player_name "That's nice."
+    player_name "Это хорошо."
     show player 13
     show diane f_tired_talk
-    dia "It's been wonderful!"
-    dia "I missed her so much!"
+    dia "Это было замечательно!"
+    dia "Я так по ней скучала!"
     show diane f_tired
     show player 14
-    player_name "Well, she missed you too."
-    player_name "We all did, really."
+    player_name "Ну, она тоже по тебе скучала."
+    player_name "Мы все это сделали, правда."
     show player 13
     show diane f_tired_talk
-    dia "Aww."
+    dia "Ааа."
     hide player
     if M_diane.outfit == "dressed":
         show diane kiss
@@ -656,78 +656,78 @@ label dianes_dialogue_have_you_spoken_with_debname:
 label dianes_dialogue_about_veronica:
     show player 12 at left
     show diane f_tired b_naked a_magic_dressed_shovel_shirtless_sides
-    player_name "So how did you meet that girl {b}Veronica{/b}?"
+    player_name "Так как ты познакомилась с той девушкой, {b}Вероникой{/b}?"
     show player 13
     show diane f_tired_talk
-    dia "You mean {b}Vee{/b}?"
-    dia "Oh, I love that girl!"
-    dia "We met in the gardening section of {b}Consum-R{/b}, a couple years ago."
-    dia "She had just moved up here from the country and didn't know anybody."
+    dia "Ты имеешь в виду {b}Ви{/b}?"
+    dia "О, я люблю эту девушку!"
+    dia "Мы познакомились в садоводческой секции магазина {b}Consum-R{/b}, пару лет назад."
+    dia "Она только что переехала сюда из деревни и никого не знала."
     show diane f_tired
     show player 14
-    player_name "I bet that was rough."
+    player_name "Бьюсь об заклад, это было тяжело."
     show player 13
     show diane f_tired_talk
-    dia "Oh, it certainly was."
-    dia "She was a mess!"
-    dia "I offered to show the poor dear around town in exchange for some gardening advice and we just sorta hit it off."
+    dia "О, это определенно было так."
+    dia "Она была петерянной!"
+    dia "Я предложил показать бедняжке город в обмен на совет по садоводству, и мы вроде как поладили."
     show diane f_tired
     show player 14
-    player_name "That was nice of you."
+    player_name "Это было мило."
     show player 13
     show diane f_tired_talk
-    dia "Yeah, I guess."
-    dia "Truthfully, I was in need of a friend too."
-    dia "What with {b}[deb_name]{/b} being so wrapped up with {b}your Dad{/b} and all."
+    dia "Да, наверное."
+    dia "Честно говоря, мне тоже нужен был друг."
+    dia "Из-за того, что {b}[deb_name]{/b} так занята {b}твоим отцом{/b} и все такое."
     show diane f_tired
     show player 5
     player_name "..."
     pause
     show diane f_tired_talk
-    dia "Oh, I'm sorry handsome!"
-    dia "I didn't mean that to sound like a bad thing."
+    dia "О, прости меня, красавчик!"
+    dia "Я не хотела, чтобы это прозвучало плохо."
     show diane f_tired
     show player 10
-    player_name "Yeah, I know you didn't."
+    player_name "Да, я знаю, что это не так."
     show player 5
     show diane f_tired_talk
-    dia "Your {b}Father{/b} was a good man, I always liked him."
+    dia "Твой {b}отец{/b} был хорошим человеком, он мне всегда нравился."
     show diane f_tired
     show player 10
-    player_name "Thanks."
+    player_name "Спасибо."
     show player 5
     return
 
 label dianes_dialogue_hows_the_garden_2:
     show player 14 at left
     show diane f_tired b_naked a_magic_dressed_shovel_shirtless_sides
-    player_name "So I'm really doing okay with the garden?"
+    player_name "Так я действительно справляюсь с садом?"
     show player 13
     show diane f_tired_talk
-    dia "You're doing better than okay!"
-    dia "I've never see my garden looking this good!"
-    dia "I might have the finest cucumbers in all the land!"
+    dia "Ты справляешься лучше, чем хорошо!"
+    dia "Я никогда не видела, чтобы мой сад выглядел так хорошо!"
+    dia "У меня могут быть лучшие огурцы во всей стране!"
     show diane f_tired
     show player 14
-    player_name "Hah, I dunno about that..."
-    player_name "I'm glad it turning out so well though."
+    player_name "Ха, Не знаю насчет этого..."
+    player_name "Я рад, что все так хорошо получилось."
     show player 13
     return
 
 label dianes_dialogue_take_it_easy:
     show player 14 at left
     show diane f_tired b_naked a_magic_dressed_shovel_shirtless_sides
-    player_name "Alright, I guess I should get back to work."
+    player_name "Ладно, думаю, мне пора возвращаться к работе."
     show player 10
-    player_name "Take it easy, okay?"
-    player_name "I worry about you working yourself too hard."
+    player_name "Успокойся, хорошо?"
+    player_name "Я беспокоюсь, что ты слишком много работаешь."
     show player 5
     show diane f_tired_talk
-    dia "Psh, you sound just like {b}[deb_name]{/b}..."
-    dia "I'll be fine."
+    dia "Пф, ты говоришь как {b}[deb_name]{/b}..."
+    dia "Я в порядке."
     show diane f_tired
     show player 10
-    player_name "Okay..."
+    player_name "Ладно..."
     hide player
     hide diane
     with dissolve
@@ -736,46 +736,46 @@ label dianes_dialogue_take_it_easy:
 label dianes_dialogue_about_debname:
     show player 14 at left
     show diane f_normal
-    player_name "I'm glad you're spending time with {b}[deb_name]{/b} again."
-    player_name "I know she's been missing your company."
+    player_name "Я рад, что ты снова проводишь время с {b}[deb_name]{/b}."
+    player_name "Я знаю, что она скучает по вашей компании."
     show player 13
     show diane f_normal_talk a_dressed_blush with dissolve
-    dia "Aww and I missed hers!"
+    dia "Аууу и я скучала!"
     show diane a_dressed_shovel with dissolve
-    dia "We were inseperable in our younger years, you know?"
+    dia "В молодости мы были неразлучны, понимаешь?"
     show diane f_normal
     show player 14
-    player_name "Yeah, I've heard the stories."
+    player_name "Да, я слышал эти истории."
     show player 13
     show diane f_laugh
-    dia "Hah!"
+    dia "Ха!"
     show diane f_smirk_talk a_dressed_finger with dissolve
-    dia "Well, I hope she hasn't told you all the stories!"
+    dia "Надеюсь, она не рассказала тебе все истории!"
     show diane f_smirk a_dressed_shovel with dissolve
     show player 10
-    player_name "Huh?"
+    player_name "Ааа?"
     show player 13
     show diane f_laugh
-    dia "Hehe, nevermind."
+    dia "Хе-хе, неважно."
     show diane f_normal
     show player 14
-    player_name "I still can't get over how much you two look alike..."
+    player_name "Я до сих пор не могу понять, насколько вы похожи..."
     show player 13
     show diane f_normal_talk
-    dia "Yeah, we used to get that all the time."
-    dia "They called us twins in college."
+    dia "Да, мы привыкли получать это все время."
+    dia "В колледже нас называли близнецами."
     show diane f_normal
     show player 14
-    player_name "I can see that."
+    player_name "Я это вижу."
     show player 13
     show diane f_normal_talk
-    dia "I was the wild one and she was the pretty one!"
+    dia "Я была дикой, а она была хорошенькой!"
     show diane f_normal
     show player 29 with dissolve
-    player_name "I think you're both pretty, {b}Diane{/b}."
+    player_name "Я думаю, вы обе хорошенькие, {b}Диана{/b}."
     show player 3
     show diane f_shamed_talk_smile a_dressed_blush with dissolve
-    dia "Aww, thanks handsome."
+    dia "Ауу, спасибо, милый."
     show diane f_normal a_dressed_shovel with dissolve
     show player 13 with dissolve
     return
@@ -783,16 +783,16 @@ label dianes_dialogue_about_debname:
 label dianes_dialogue_hows_the_garden:
     show player 14 at left
     show diane f_normal
-    player_name "So how's your garden doing?"
+    player_name "Как поживает твой сад?"
     show player 13
     show diane f_sad_talk
-    dia "It's definitely seen better days..."
-    dia "I've been so pre-occupied with side work lately, I'm afraid my garden just doesn't get the attention it deserves."
+    dia "Он определенно видел лучшие дни..."
+    dia "В последнее время я была так занята другой работой, что боюсь, мой сад просто не получает внимания, которого он заслуживает."
     show diane f_normal_talk
-    dia "That's why I was so excited when {b}[deb_name]{/b} said you might be able to help me this summer."
+    dia "Вот почему я была так взволнована, когда {b}[deb_name]{/b} сказала, что ты можешь помочь мне этим летом."
     show diane f_normal
     show player 14
-    player_name "I'm happy to help, {b}Diane{/b}!"
+    player_name "Я с радостью помогу, {b}Диана{/b}!"
     show player 13
     return
 
