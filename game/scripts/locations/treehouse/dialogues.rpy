@@ -1,20 +1,20 @@
 label treehouse_first_visit:
     scene expression game.timer.image("treehouse{}_b")
     show player 32 with dissolve
-    player_name "Cool! Our old treehouse is still holding up."
+    player_name "Класс! Наш старый домик на дереве всё ещё держится."
     hide player with dissolve
     return
 
 label treehouse_closeup_first_visit:
     scene expression game.timer.image("treehouse_c{}")
-    player_name "( That doesn't look too safe... )"
+     player_name "( Выглядит не безопасно... )"
     return
 
 label treehouse_interior_first_visit:
     scene expression game.timer.image("treehouse_inside{}_b")
     show player 2 with dissolve
-    player_name "( Wow! It hasn't changed at all! )"
-    player_name "( Let's have a look around... )"
+    player_name "( Уау! Здесь ни чего не изменилось! )"
+    player_name "( Надо осмотреться вокруг... )"
     hide player with dissolve
     return
 
@@ -32,17 +32,17 @@ label treehouse_got_wood_pile:
 
 label treehouse_woodpile_ross_easels:
     show player 585 with dissolve
-    player_name "These will work great!"
+    player_name "Выглядит великолепно!"
     show player 586
     pause
     show player 585
-    player_name "I can take these to {b}Dad's old workbench{/b} at the house to build some easels."
+    player_name "Надо их взять домой чтобы {b}на папином станке{/b} сделать несколько мольбертов."
     return
 
 label treehouse_woodpile_dewitt_guitar:
     show player 585 with dissolve
-    player_name "Yeah, this should work."
-    player_name "With some tools and a little {b}paint{/b}, I can make a fake guitar no problem."
+    player_name "Да, это должно сработать."
+    player_name "С некоторым инструментом и немного {b}краски{/b}, я легко смогу сделать макет гитары."
     return
 
 label treehouse_woodpile_after:
@@ -62,16 +62,16 @@ label treehouse_controller_dialogue_pre:
     scene expression game.timer.image("treehouse_inside{}_b")
     show player 502b
     with dissolve
-    player_name "There it is!"
-    player_name "Man, {b}Erik{/b} sure did love this thing..."
-    player_name "It's nice of him to let me take it."
+    player_name "Вот оно!"
+    player_name "Насколько помню, {b}Эрику{/b} она очень нравилась..."
+    player_name "Очень мило что он позволил мне её взять."
     show expression "boxes/popup_item_controller1.png" at truecenter with dissolve
 
 label treehouse_controller_dialogue_after:
     pause
     hide expression "boxes/popup_item_controller1.png" with dissolve
     show player 502
-    player_name "I'd best get this to {b}June{/b}."
+    player_name "Отнесу его лучше {b}Джун{/b}."
     return
 
 label lure_02:
