@@ -1,22 +1,22 @@
 label dianes_dialogue_daisy:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "How's {b}Daisy{/b} getting on?"
+    player_name "Как поживает {b}Дейзи{/b}?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, she's settling in great!"
-    dia "Kinda funny that a dairy farmer would find a magical cow girl, isn't it?"
-    dia "It's a good thing I built that barn..."
+    dia "О, Она прекрасно устроилась!"
+    dia "Забавно, что фермер нашел волшебную корову, не так ли?"
+    dia "Хорошо, что я построила этот сарай..."
     show diane f_normal
     pause
     show diane f_laugh
-    dia "She's a sweet girl."
+    dia "Она очень милая девушка."
     show diane f_normal
     show player 14
-    player_name "Yeah, she is."
+    player_name "Да, верно."
     show player 13
     show diane f_normal_talk
-    dia "I'm so glad we found her."
+    dia "Я так рада, что мы нашли ее."
     show diane f_normal
     return
 
@@ -25,23 +25,23 @@ label dianes_dialogue_cow_girl:
     show player 10 at left
     show diane b_naked a_naked_sides
     with dissolve
-    player_name "Any progress with our new friend?"
+    player_name "Есть успехи с нашим новым другом?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "{b}*Sigh*{/b} That poor thing."
-    dia "She's still half convinced her master is gonna pop up and punish her for letting us see her."
-    dia "Whatever that awful man did to her, she's not ready to talk about it."
+    dia "{b}*вздыхая*{/b} Эта бедняжка."
+    dia "Она все еще наполовину убеждена, что ее хозяин появится и накажет ее за то, что она позволила нам увидеть ее."
+    dia "Что бы этот ужасный человек с ней не сделал, она не готова говорить об этом."
     show diane f_shamed
     show player 10
-    player_name "Has she at least given you her name?"
+    player_name "Она хотя бы назвала тебе свое имя?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "No, not yet."
-    dia "She's coming around though."
-    dia "I imagine it won't be long till she's ready to speak with you."
+    dia "Нет, пока нет."
+    dia "Но она приходит в себя."
+    dia "Думаю, она скоро будет готова поговорить с тобой."
     show diane f_shamed
     show player 10
-    player_name "Okay."
+    player_name "Хорошо."
     show player 5
     return
 
@@ -49,38 +49,38 @@ label dianes_dialogue_milk_sample:
     scene expression player.location.background_blur with None
     show diane b_naked a_naked_sides
     show player 14 at left
-    player_name "Could I have a small sample of your milk?"
+    player_name "Можно мне немного вашего молока?"
     show player 13
     show diane f_smirk_talk
-    dia "Hehe, feeling thirsty, are we?"
+    dia "Хе-хе, чувствуешь жажду, не так ли?"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "N-no, I really do just need a sample."
+    player_name "Нет, мне действительно нужен образец."
     show player 13 with dissolve
     show diane f_surprised
     pause
     show diane f_shamed_talk
-    dia "Oh."
-    dia "Uhh, sure. Just give me a second."
+    dia "О."
+    dia "Ох, конечно. Просто дайте мне секунду."
     if M_diane.outfit == "shirtless":
         show diane b_topless
     show diane a_squeeze3 f_down_front
     with dissolve
     pause
     show diane f_normal_talk a_bottle1 with dissolve
-    dia "Will this work?"
+    dia "Это сработает?"
     show diane b_naked f_normal a_naked_sides with dissolve
     show player 713
     with dissolve
-    player_name "Yeah, this is perfect!"
-    player_name "Thanks, {b}Diane{/b}!"
+    player_name "Да, это просто замечательно!"
+    player_name "Спасибо, {b}Диана{/b}!"
     show diane f_normal_talk
     hide player with dissolve
-    dia "No pro-"
+    dia "Без проб-"
     show diane f_surprised
     pause
     show diane f_shamed_front
-    dia "( What is he up to? )"
+    dia "( Что он собирается делать? )"
     hide diane with dissolve
 
     return
@@ -88,78 +88,78 @@ label dianes_dialogue_milk_sample:
 label dianes_dialogue_hows_baby_doing_boy:
     show player 14 at left
     show diane b_casual a_casual_baby
-    player_name "How's he doing?"
+    player_name "Как у него дела?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, he's just wonderful!"
-    dia "I never want to put him down."
+    dia "О, он просто замечательный!"
+    dia "Я никогда не хочу его отпустить."
     show diane f_normal
     show player 14
-    player_name "Well, you'll have to put him down eventually..."
+    player_name "В конце концов, тебе придется его отпустить..."
     show player 13
     show diane f_laugh
-    dia "Nah uh!"
+    dia "Не-а!"
     show diane f_cheese
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 13
     return
 
 label dianes_dialogue_hows_baby_doing_girl:
     show player 14 at left
     show diane b_casual a_casual_baby
-    player_name "How's she doing?"
+    player_name "Как у неё дела?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, she's just wonderful!"
-    dia "I never want to put her down."
+    dia "О, Она просто замечательная!"
+    dia "Я никогда не хочу её отпустить."
     show diane f_normal
     show player 14
-    player_name "Well, you'll have to put her down eventually..."
+    player_name "В конце концов, тебе придется её отпустить..."
     show player 13
     show diane f_laugh
-    dia "Nah uh!"
+    dia "Не-а!"
     show diane f_cheese
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 13
     return
 
 label dianes_dialogue_get_anything_baby:
     show player 14 at left
     show diane b_casual a_casual_baby
-    player_name "Can I get you anything?"
+    player_name "Могу я вам что-нибудь предложить?"
     show player 13
     show diane f_normal_talk
-    dia "No, I'm okay."
-    dia "Thanks, stud."
+    dia "Нет, все нормально."
+    dia "Спасибо, жеребец."
     show diane f_normal
     show player 14
-    player_name "You're welcome."
+    player_name "Пожалуйста."
     show player 13
     show diane f_shamed_talk_smile
-    dia "No really, thank you, {b}[firstname]{/b}."
-    dia "For everything."
+    dia "Нет уж, спасибо тебе, {b}[firstname]{/b}."
+    dia "За всё."
     show diane f_shamed
     show player 14
-    player_name "It's my pleasure, {b}Diane{/b}."
+    player_name "Не за что, {b}Диана{/b}."
     show player 13
     return
 
 label dianes_dialogue_baby_leave:
     show player 14 at left
     show diane b_casual a_casual_baby
-    player_name "I'll leave you guys be."
+    player_name "Я оставлю вас в покое, ребята."
     show player 13
     show diane f_normal_talk
-    dia "Alright."
+    dia "Хорошо."
     show diane f_laugh
-    dia "Say, bye bye, Daddy."
+    dia "Скажи, пока, папа."
     show diane f_cheese
     show player 17
-    player_name "Hehe."
+    player_name "Хехе."
     show player 36 with dissolve
-    player_name "Goodbye, little one."
+    player_name "До свидания, малыш."
     hide player
     hide diane
     with dissolve
@@ -169,16 +169,16 @@ label dianes_dialogue_gave_birth_intro:
     show player 14 at left
     show diane b_casual a_casual_baby
     with dissolve
-    player_name "Hey, {b}Diane{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 13
     show diane f_normal_talk
     if M_diane.pregnancy.baby_gender == "boy":
-        dia "Shh, he's sleeping."
+        dia "Шшш, он спит."
     else:
-        dia "Shh, she's sleeping."
+        dia "Шшш, она спит."
     show diane f_normal
     show player 14
-    player_name "Oh, sorry."
+    player_name "О, прости."
     show player 13
     return
 
@@ -192,77 +192,77 @@ label dianes_dialogue_intro_kitchen:
     $ M_diane.is_naked = 0
     $ M_diane.outfit = "nightgown"
     show diane b_naked a_nightgown_water
-    player_name "Hey, {b}Diane{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 13
     show diane f_normal_talk
-    dia "Hey, {b}[firstname]{/b}."
+    dia "Привет, {b}[firstname]{/b}."
     show diane f_normal
     show player 10
-    player_name "You alright?"
+    player_name "Ты в порядке?"
     show player 5
-    dia "Hmm?"
+    dia "Хмм?"
     show diane f_normal_talk
-    dia "Yeah, I'm okay."
+    dia "Да, Я в порядке."
     show player 13
-    dia "I was just thirsty so I came in here for a glass of water."
+    dia "Мне просто хотелось пить, поэтому я пришла сюда за стаканом воды."
     show diane f_normal
     pause
     show diane f_normal_talk
-    dia "Now I'm just thinking..."
+    dia "Сейчас я просто размышляю..."
     show diane f_normal
     show player 14
-    player_name "Thinking about what?"
+    player_name "О чем?"
     show player 13
     show diane f_laugh
-    dia "Hehe, I dunno, work stuff I guess..."
+    dia "Хе-хе, я не знаю, о работе, наверно..."
     show diane f_normal
     show player 14
-    player_name "O-okay."
+    player_name "Хорошо."
     show player 13
     return
 
 label dianes_dialogue_hows_business:
     show player 14 at left
     show diane b_naked a_naked_sides
-    player_name "Have you had an easier time keeping up with all your orders now?"
+    player_name "Тебе было легче следить за всеми вашими заказами сейчас?"
     show player 13
     show diane f_laugh
-    dia "Oh my, yes!"
+    dia "О боже, да!"
     show diane f_normal_talk
-    dia "I think my milk supply has more than doubled since the birth!"
-    dia "Production is going very smoothly now."
+    dia "Я думаю, что мой запас молока более чем удвоился с момента рождения!"
+    dia "Сейчас производство идет очень гладко."
     if M_diane.pregnancy.number_of_babies == 1:
-        dia "I just have to make sure I leave some milk for the little one."
+        dia "Я просто должна быть уверена, что оставлю немного молока для малыша."
         show diane f_laugh
-        dia "That child of ours is so hungry!"
+        dia "Наш ребенок так голоден!"
     else:
-        dia "I just have to make sure I leave some milk for the little ones."
+        dia "Я просто должна быть уверена, что оставлю немного молока для малышей."
         show diane f_laugh
-        dia "Those children of ours are so hungry!"
+        dia "Наши дети так голодны!"
     show diane f_normal
     show player 17
-    player_name "Haha."
+    player_name "Хаха."
     show player 14
-    player_name "Well, that milk of yours is so delicious... I can't blame them!"
+    player_name "Ну, твое молоко такое вкусное... Я не могу их винить!"
     show player 13
     return
 
 label dianes_dialogue_goodnight_1:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "I was just heading to bed."
-    player_name "You need anything?"
+    player_name "Я как раз собирался спать."
+    player_name "Тебе что-нибудь нужно?"
     show player 13
-    dia "Hmm?"
+    dia "Хмм?"
     show diane f_normal_talk
-    dia "Oh, I'm fine stud."
-    dia "Thanks for asking."
+    dia "О, я в порядке, жеребец."
+    dia "Спасибо что спросил."
     show diane f_normal
     show player 14
-    player_name "Alright then, goodnight."
+    player_name "Хорошо, спокойной ночи."
     show player 13
     show diane f_normal_talk
-    dia "Goodnight."
+    dia "Спокойной ночи."
     hide player
     hide diane
     with dissolve
@@ -275,17 +275,17 @@ label dianes_dialogue_goodnight_1:
 label dianes_dialogue_goodnight_2:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "Yeah, everything's fine."
-    player_name "Sorry to wake you."
+    player_name "Да, все в порядке."
+    player_name "Извините, что разбудил."
     show player 13
     show diane f_normal_talk
-    dia "That's okay."
+    dia "Все нормально."
     show diane f_normal
     show player 14
-    player_name "Goodnight."
+    player_name "Спокойной ночи."
     show player 13
     show diane f_normal_talk
-    dia "Goodnight, stud."
+    dia "Спокойной ночи, жеребец."
     hide player
     hide diane
     with dissolve
@@ -298,61 +298,61 @@ label dianes_dialogue_goodnight_2:
 label dianes_dialogue_what_up_to:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "What are you up to?"
+    player_name "Что ты собираешься делать?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, I'm just sitting here bored."
-    dia "Late night TV sucks."
+    dia " Я просто сижу здесь и скучаю."
+    dia "Телевизор поздно ночью-отстой."
     show diane f_normal
     show player 14
-    player_name "Heh, that's too true!"
+    player_name "Хех, это верно!"
     show player 13
     show diane f_smirk_talk
-    dia "You wanna do something fun?"
+    dia "Ты хочешь сделать что-то интересное?"
     show diane f_smirk
     show player 10
-    player_name "What did you have in mind?"
+    player_name "Что ты имеешь в виду?"
     show player 13
     show diane f_smirk_talk
-    dia "Mmm, I can think of a few things..."
+    dia "Ммм, я могу придумать несколько вещей..."
     show diane f_smirk
     return
 
 label dianes_dialogue_on_my_way_debbie:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "I was on my way to see {b}[deb_name]{/b}."
+    player_name "Я как раз собирался повидать {b}[deb_name]{/b}."
     show player 13
     show diane f_normal_talk
-    dia "Ahh, okay."
-    dia "She's in her room."
+    dia "Ааа, хорошо."
+    dia "Она в своей комнате."
     show diane f_normal
     show player 14
-    player_name "I'll talk to you later, okay?"
+    player_name "Я поговорю с тобой позже, ладно?"
     show player 13
     show diane f_normal_talk
-    dia "Alright."
+    dia "Хорошо."
     show diane f_normal
     hide player with dissolve
     pause
     show diane f_smirk_talk
-    dia "You two have fun."
+    dia "Вы вдвоем повеселитесь."
     show diane f_laugh
-    dia "Hehehe."
+    dia "Хехехе."
     hide diane with dissolve
     return
 
 label dianes_dialogue_leave_d19_d20_day:
     show player 14 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "I should check on the garden."
+    player_name "Я должен проверить сад."
     show player 13
     show diane f_normal_talk
-    dia "Okay."
-    dia "Just don't forget that I need your help pumping too!"
+    dia "Хорошо."
+    dia "Только не забывай, что мне тоже нужна твоя помощь!"
     show diane f_normal
     show player 14
-    player_name "I won't."
+    player_name "Не забуду."
     hide player
     hide diane
     with dissolve
@@ -361,64 +361,64 @@ label dianes_dialogue_leave_d19_d20_day:
 label dianes_dialogue_hows_the_business:
     show player 13 at left
     show diane f_normal_talk b_naked a_naked_sides
-    dia "Business is booming!"
-    dia "I can barely keep up with all the orders!"
+    dia "Бизнес процветает!"
+    dia "Я едва успеваю за всеми заказами!"
     show diane f_normal
     show player 14
-    player_name "That's good, right?"
+    player_name "Это ведь хорошо, правда?"
     show player 13
     show diane f_normal_talk
-    dia "It's very good."
+    dia "Это очень хорошо."
     show diane f_laugh
-    dia "I'll have to start hiring more boobs soon."
+    dia "Скоро мне придется нанимать больше сисек."
     show diane f_cheese
     return
 
 label dianes_dialogue_call_veronica:
     show player 10 at left
     show diane f_normal b_naked a_naked_sides
-    player_name "Have you talked with {b}Veronica{/b} yet?"
+    player_name "Ты уже говорила с {b}Вероникой{/b}?"
     show player 13
     show diane f_sad_talk
-    dia "No, not yet."
+    dia "Нет, еще не говорила."
     show diane f_normal_talk
-    dia "I will though."
+    dia "Я поговорю."
     show diane f_normal
     show player 14
-    player_name "She'd really like to work for you."
+    player_name "Она действительно хотела бы работать на тебя."
     show player 13
     show diane f_laugh
-    dia "Yeah, we'll see."
+    dia "Да, посмотрим."
     show diane f_cheese
     return
 
 label dianes_dialogue_what_are_you_up_to:
     show player 14 at left
     show diane f_normal b_nightgown a_nightgown_sides
-    player_name "What are you doing?"
+    player_name "Что ты делаешь?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, just watching some TV and sipping some of {b}[deb_name]{/b}'s delicious wine."
-    dia "It's so nice having roommates again."
+    dia "О, просто смотрю телевизор и потягиваю вкуснейшее вино {b}[deb_name]{/b}."
+    dia "Так приятно снова иметь соседей."
     show diane f_normal
     show player 14
-    player_name "Is it?"
+    player_name "Разве?"
     show player 13
     show diane f_normal_talk
-    dia "Of course!"
-    dia "I was so lonely over there in that big house by myself."
+    dia "Конечно!"
+    dia "Мне было так одиноко там, в большом доме, одной."
     show diane f_normal
     show player 14
-    player_name "Yeah, I can imagine."
+    player_name "Да, могу себе представить."
     show player 13
     show diane f_normal_talk
-    dia "Now I feel like I'm part of a family again."
+    dia "Теперь я снова чувствую себя частью семьи."
     show diane f_normal
     show player 14
-    player_name "You are part of our family {b}Diane{/b}."
+    player_name "Ты всегда была частью нашей семьи, {b}Диана{/b}."
     show player 13
     show diane f_normal_talk
-    dia "Aww, thanks handsome."
+    dia "Ооо, спасибо, милый."
     show diane f_normal
     return
 
