@@ -39,110 +39,110 @@ label aunt_button_dialogue:
 
     if M_diane.pregnancy.gave_birth:
         menu dia_baby_default_dialogue_options:
-            "How's he doing?" if M_diane.pregnancy.baby_gender == "boy":
+            "Как у него дела?" if M_diane.pregnancy.baby_gender == "boy":
                 call expression game.dialog_select("dianes_dialogue_hows_baby_doing_boy")
                 jump dia_baby_default_dialogue_options
 
-            "How's she doing?" if M_diane.pregnancy.baby_gender == "girl":
+            "Как у неё дела?" if M_diane.pregnancy.baby_gender == "girl":
                 call expression game.dialog_select("dianes_dialogue_hows_baby_doing_girl")
                 jump dia_baby_default_dialogue_options
-            "Can I get you anything?":
+            "Могу я вам чем-нибудь помочь?":
 
                 call expression game.dialog_select("dianes_dialogue_get_anything_baby")
                 jump dia_baby_default_dialogue_options
-            "I'll leave you guys be.":
+            "Я оставлю вас в покое, ребята.":
 
                 call expression game.dialog_select("dianes_dialogue_baby_leave")
         $ game.main()
 
     menu dia_default_dialogue_options:
-        "What have you been up to?" if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
+        "Что ты делала все это время?" if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
             call expression game.dialog_select("dianes_dialogue_what_have_you_been_up_to")
             jump dia_default_dialogue_options
 
-        "How's the garden?" if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
+        "Как там сад?" if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
             call expression game.dialog_select("dianes_dialogue_hows_the_garden")
             jump dia_default_dialogue_options
 
-        "About {b}[deb_name]{/b}." if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
+        "О {b}[deb_name]{/b}." if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
             call expression game.dialog_select("dianes_dialogue_about_debname")
             jump dia_default_dialogue_options
 
-        "How's the garden?" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
+        "Как там сад?" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
             call expression game.dialog_select("dianes_dialogue_hows_the_garden_2")
             jump dia_default_dialogue_options
 
-        "How's business?" if M_diane.pregnancy.number_of_babies>0:
+        "Как там бизнесс?" if M_diane.pregnancy.number_of_babies>0:
             call expression game.dialog_select("dianes_dialogue_hows_business")
             jump dia_default_dialogue_options
 
-        "About {b}Veronica{/b}" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
+        "О {b}Веронике{/b}" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
             call expression game.dialog_select("dianes_dialogue_about_veronica")
             jump dia_default_dialogue_options
 
-        "Have you spoken with {b}[deb_name]{/b} recently?" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
+        "ДАвно ли говорила с {b}[deb_name]{/b}?" if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
             call expression game.dialog_select("dianes_dialogue_have_you_spoken_with_debname")
             jump dia_default_dialogue_options
 
-        "Feeling better?" if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_couch_crashing):
+        "Чувствуешь себя лучше?" if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_couch_crashing):
             call expression game.dialog_select("dianes_dialogue_feeling_better")
             jump dia_default_dialogue_options
 
-        "I really like working for you." if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_return_outfit_package) and L_diane_barn_interior.is_here(M_diane):
+        "Мне очень нравится работать на тебя." if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_return_outfit_package) and L_diane_barn_interior.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_like_working_for_you")
             jump dia_default_dialogue_options
 
-        "How's the couch" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and L_diane_barn_interior.is_here(M_diane):
+        "Как там диван?" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and L_diane_barn_interior.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_hows_the_couch")
             jump dia_default_dialogue_options
 
-        "What are you up to?" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
+        "Что ты собираешься делать?" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_what_are_you_up_to")
             jump dia_default_dialogue_options
 
-        "Where's {b}[deb_name]{/b}?" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
+        "Где {b}[deb_name]{/b}?" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_wheres_debname")
             jump dia_default_dialogue_options
 
-        "I love that nightgown!" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
+        "Мне нравится эта ночная рубашка!" if M_diane.between_states(S_diane_barn_news, S_diane_return_outfit_package) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_love_that_nightgown")
             jump dia_default_dialogue_options
 
-        "You call {b}Veronica{/b} yet?" if M_diane.between_states(S_diane_milk_production_increase, S_diane_end) and game.timer.is_day():
+        "Ты уже позвонила {b}Веронике{/b}?" if M_diane.between_states(S_diane_milk_production_increase, S_diane_end) and game.timer.is_day():
             call expression game.dialog_select("dianes_dialogue_call_veronica")
             jump dia_default_dialogue_options
 
-        "How's the business going?" if M_diane.between_states(S_diane_milk_production_increase, S_diane_end) and game.timer.is_day():
+        "Как идет бизнесс?" if M_diane.between_states(S_diane_milk_production_increase, S_diane_end) and game.timer.is_day():
             call expression game.dialog_select("dianes_dialogue_hows_the_business")
             jump dia_default_dialogue_options
 
-        "What are you up to?" if M_diane.is_state(S_diane_milk_production_increase) and game.timer.is_dark():
+        "Что ты собираешься делать?" if M_diane.is_state(S_diane_milk_production_increase) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_what_up_to")
             jump dia_default_dialogue_options
 
-        "I was on my way to see {b}[deb_name]{/b}." if M_diane.is_state(S_diane_milk_production_increase) and game.timer.is_dark():
+        "Я как раз собиралась повидать {b}[deb_name]{/b}." if M_diane.is_state(S_diane_milk_production_increase) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_on_my_way_debbie")
             $ game.main()
 
-        "Cow Girl." if M_daisy.between_states(S_daisy_awakened_statue, S_daisy_picking_flowers):
+        "Коровка." if M_daisy.between_states(S_daisy_awakened_statue, S_daisy_picking_flowers):
             call expression game.dialog_select("dianes_dialogue_cow_girl")
             jump dia_default_dialogue_options
 
-        "{b}Daisy{/b}." if M_daisy.finished_state(S_daisy_picking_flowers):
+        "{b}Дейзи{/b}." if M_daisy.finished_state(S_daisy_picking_flowers):
             call expression game.dialog_select("dianes_dialogue_daisy")
             jump dia_default_dialogue_options
 
-        "Paint." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
+        "Краска." if M_dewitt.is_state([S_dewitt_ask_diane_paint, S_dewitt_shed_get_paint]):
             call expression game.dialog_select("dianes_dialogue_pre_fun_paint")
             $ M_dewitt.trigger(T_dewitt_shed_paint)
 
-        "Breastfeed" if M_diane.finished_state(S_diane_milking_help) and (L_diane_barn_interior.is_here(M_diane) or L_diane_shed.is_here(M_diane)) and M_diane.pregnancy.stage <= 2:
+        "Кормить грудью." if M_diane.finished_state(S_diane_milking_help) and (L_diane_barn_interior.is_here(M_diane) or L_diane_shed.is_here(M_diane)) and M_diane.pregnancy.stage <= 2:
             call expression game.dialog_select("dianes_dialogue_breastfeed")
 
-        "Drink" if M_diane.is_state(S_diane_make_drink):
+        "Выпивка." if M_diane.is_state(S_diane_make_drink):
             call expression game.dialog_select("dianes_dialogue_make_drink")
 
-        "Tool." if M_diane.is_state(S_diane_fetch_pump):
+        "Инструмент." if M_diane.is_state(S_diane_fetch_pump):
             if player.has_item("pump"):
                 call expression game.dialog_select("dianes_dialogue_diane_got_pump")
                 $ M_diane.trigger(T_diane_found_pump)
@@ -150,7 +150,7 @@ label aunt_button_dialogue:
             else:
                 call expression game.dialog_select("dianes_dialogue_diane_fetch_pump")
 
-        "Delivery." if M_diane.is_state(S_diane_delivery_1, S_diane_delivery_1_done):
+        "Доставка." if M_diane.is_state(S_diane_delivery_1, S_diane_delivery_1_done):
             if M_diane.is_state(S_diane_delivery_1):
                 call expression game.dialog_select("dianes_dialogue_delivery_1_reminder")
             else:
@@ -158,53 +158,53 @@ label aunt_button_dialogue:
                 call expression game.dialog_select("dianes_dialogue_delivery_1_done")
                 $ M_diane.trigger(T_diane_delivery_finished)
 
-        "Pump." if M_diane.is_state(S_diane_dump_pump):
+        "Насос." if M_diane.is_state(S_diane_dump_pump):
             call expression game.dialog_select("dianes_dialogue_dump_pump")
             $ game.main()
 
-        "Cow Suit." if not M_diane.get("breed first time") and L_diane_barn_interior.is_here(M_diane):
+        "Костюм Коровы." if not M_diane.get("breed first time") and L_diane_barn_interior.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_cow_suit")
             call expression game.dialog_select("diane_outfit_change")
             jump dia_default_dialogue_options
 
-        "Breeding Session." if (not M_diane.get("breed first time") or M_diane.finished_state(S_diane_return_outfit_package)) and M_diane.pregnancy.stage <= 2 and L_diane_barn_interior.is_here(M_diane):
+        "Селекционная Сессия." if (not M_diane.get("breed first time") or M_diane.finished_state(S_diane_return_outfit_package)) and M_diane.pregnancy.stage <= 2 and L_diane_barn_interior.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_breeding_session")
             jump diane_sex_breed_start
 
-        "How's the baby?" if M_diane.pregnancy and 1<=M_diane.pregnancy.stage<=4:
+        "Как ребенок?" if M_diane.pregnancy and 1<=M_diane.pregnancy.stage<=4:
             call expression game.dialog_select("dianes_dialogue_hows_the_baby_pregnancy_{}".format(M_diane.pregnancy.stage))
             jump dia_default_dialogue_options
 
-        "Taste Milk From Source." if L_diane_shed.is_here(M_diane) and M_diane.finished_state(S_diane_milk_production_increase):
+        "Попробовать Молоко Из Источника." if L_diane_shed.is_here(M_diane) and M_diane.finished_state(S_diane_milk_production_increase):
             call expression game.dialog_select("dianes_shed_dianes_dialogue_lets_milk")
 
-        "Ready to pump?" if M_diane.finished_state(S_diane_return_production_book) and L_diane_barn_interior.is_here(M_diane) and M_diane.pregnancy.stage <= 2:
+        "Готовы качать?" if M_diane.finished_state(S_diane_return_production_book) and L_diane_barn_interior.is_here(M_diane) and M_diane.pregnancy.stage <= 2:
             call expression game.dialog_select("dianes_dialogue_ready_to_pump")
             jump milking_game_pre
 
-        "Milk Sample." if M_daisy.is_state(S_daisy_viewed_statue):
+        "Образец молока." if M_daisy.is_state(S_daisy_viewed_statue):
             call expression game.dialog_select("dianes_dialogue_milk_sample")
             $ player.get_item("milk_sample")
 
-        "I should get to work." if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
+        "Я должен приступить к работе." if M_diane.between_states(S_diane_start, S_diane_work_on_garden):
             call expression game.dialog_select("dianes_dialogue_leave_d1")
 
-        "You should take it easy." if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
+        "Тебе следует успокоиться." if M_diane.between_states(S_diane_get_augmentation, S_diane_milking_help):
             call expression game.dialog_select("dianes_dialogue_take_it_easy")
 
-        "I should get to work." if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_return_outfit_package) and not L_home_livingroom.is_here(M_diane):
+        "Я должен приступить к работе." if M_diane.between_states(S_diane_debbie_evening_visit, S_diane_return_outfit_package) and not L_home_livingroom.is_here(M_diane):
             call expression game.dialog_select("dianes_dialogue_leave_d12b")
 
-        "Goodnight." if M_diane.between_states(S_diane_inform_carpenter, S_diane_return_outfit_package) and game.timer.is_dark():
+        "Спокойной ночи." if M_diane.between_states(S_diane_inform_carpenter, S_diane_return_outfit_package) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_goodnight")
 
-        "I should get to work." if M_diane.finished_state(S_diane_milk_production_increase) and game.timer.is_day():
+        "Я должен приступить к работе." if M_diane.finished_state(S_diane_milk_production_increase) and game.timer.is_day():
             call expression game.dialog_select("dianes_dialogue_leave_d19_d20_day")
 
-        "Goodnight." if M_diane.is_state(S_diane_milk_production_increase, S_diane_risky_frisky_kinky) and game.timer.is_dark():
+        "Спокойной ночи." if M_diane.is_state(S_diane_milk_production_increase, S_diane_risky_frisky_kinky) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_goodnight_1")
 
-        "Goodnight." if M_diane.finished_state(S_diane_risky_frisky_kinky) and game.timer.is_dark():
+        "Спокойной ночи." if M_diane.finished_state(S_diane_risky_frisky_kinky) and game.timer.is_dark():
             call expression game.dialog_select("dianes_dialogue_goodnight_2")
     $ game.main()
 
@@ -221,10 +221,10 @@ label diane_outfit_change:
     show player 26 at left
     show diane b_naked a_naked_sides f_smirk_talk
     with dissolve
-    dia "Is that better?"
+    dia "Так лучше?"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "Y-yeah."
+    player_name "Д-да."
     show player 13 with dissolve
     return
 
@@ -242,35 +242,35 @@ label diane_debbie_3way_dialogue:
     show playerf 5b at Position (xpos=200,ypos=850)
     show playerfa 1 at Position (xpos=180,ypos=640)
     with dissolve
-    deb "There he is!"
+    deb "Вот он где!"
     show debbie f_bed_sit_sexy
     show diane f_sit_bed_smirk_talk
-    dia "Finally!"
+    dia "Наконец-то!"
     show diane f_sit_bed_smirk
     show debbie f_bed_sit_sexy_talk
-    deb "We were worried you might not come tonight."
+    deb "Мы боялись, что ты не придешь сегодня вечером."
     show debbie f_bed_sit_sexy
     show diane f_sit_bed_smirk_talk
-    dia "I was about to start without you!"
+    dia "Я собирался начать без тебя!"
     show diane f_sit_bed_smirk
     show debbie f_bed_sit_sexy_talk
-    deb "Hehe, oh stop it!"
+    deb "Хе-хе, прекрати это!"
     show debbie f_bed_sit_sexy
     show diane f_sit_bed_smirk_talk
-    dia "I'm serious!"
-    dia "You gonna join us, {b}[firstname]{/b}?"
+    dia "Я серьезно!"
+    dia "Ты присоединишься к нам, {b}[firstname]{/b}?"
     show diane f_sit_bed_smirk
     menu:
-        "Yes.":
+        "Да.":
             show diane f_sit_bed_smirk b_nightgown_sit a_empty at Position (xpos=650,ypos=800)
             show debbie b_nightgown_bed a_empty f_bed_sit_sexy at flip
             show debbie at Position (xpos=-250)
             show playerf 5 at Position (xpos=200,ypos=850)
             show playerfa 1 at Position (xpos=180,ypos=640)
-            player_name "Definitely!"
+            player_name "Определенно!"
             show playerf 5b
             show debbie f_bed_sit_sexy_talk
-            deb "Oh, I'm so happy!"
+            deb "О, я так счастлива!"
             show debbie f_bed_sit_sexy b_bed_nightgown_undress
             show diane b_nightgown_undress f_sit_bed_undress_down_front
             with dissolve
@@ -284,13 +284,13 @@ label diane_debbie_3way_dialogue:
             with dissolve
             pause
             show diane f_sit_bed_smirk_talk
-            dia "Well, what are you waiting for?!"
+            dia "Ну, так чего же ты ждешь?!"
             show diane f_sit_bed_smirk
             show debbie f_bed_sit_sexy_talk
-            deb "Get those pants off!"
+            deb "Снимай эти штанишки!"
             show debbie f_bed_sit_sexy
             show playerf 5
-            player_name "Okay!"
+            player_name "Хорошо!"
             hide playerf
             hide playerfa
             hide debbie
@@ -299,49 +299,49 @@ label diane_debbie_3way_dialogue:
 
             scene expression "backgrounds/location_home_debbiebed_sex.jpg"
             show diane_debbie_sex_bed diane_talk
-            dia "Mmm, I love being in here with you guys."
-            dia "It's like the best sex ever!"
+            dia "Мне нравится быть здесь с вами, ребята."
+            dia "Это самый лучший секс в мире!"
             show diane_debbie_sex_bed debbie_talk
-            deb "Heh, it really is!"
+            deb "Хех, это действительно так!"
             show diane_debbie_sex_bed player_talk
-            player_name "Yeah!"
+            player_name "Да!"
             show diane_debbie_sex_bed debbie_talk
-            deb "So sweetie, who do you wanna start with tonight?"
+            deb "Итак, милый, с кого ты хочешь начать сегодня?"
             menu:
-                "{b}Diane{/b}.":
+                "{b}Диана{/b}.":
                     $ M_diane.set("change partner",False)
                 "{b}[deb_name]{/b}.":
 
                     $ M_diane.set("change partner",True)
             jump diane_debbie_pre_sex_loop
-        "No.":
+        "Нет.":
 
             show diane f_sit_bed_smirk b_nightgown_sit a_empty at Position (xpos=650,ypos=800)
             show debbie b_nightgown_bed a_empty f_bed_sit_sexy at flip
             show debbie at Position (xpos=-250)
             show playerf 5 at Position (xpos=200,ypos=850)
             show playerfa 1 at Position (xpos=180,ypos=640)
-            player_name "Eh, actually..."
-            player_name "I have something else I need to take care of."
+            player_name "Эх, dообще-то..."
+            player_name "У меня есть еще кое-что, о чем мне нужно позаботиться."
             show playerf 5b
             show debbie f_bed_sit_sexy_talk
-            deb "Aww, are you sure?"
+            deb "О, ты уверен?"
             show debbie f_bed_sit_sexy
             show playerf 5
-            player_name "Yeah, sorry."
+            player_name "Да, прости."
             show playerf 5b
             show debbie f_bed_sit_sexy_talk
-            deb "That's alright, sweetie."
+            deb "Все в порядке, милый."
             show debbie f_bed_sit_sexy
             show diane f_sit_bed_smirk_talk
-            dia "Your loss, stud."
-            dia "Looks like we're on our own tonight!"
+            dia "Твоя потеря, жеребец."
+            dia "Похоже, сегодня мы сами по себе!"
             hide debbie
             show diane b_nightgown_sit_kissing_debbie f_empty at Position (xoffset=100)
             with dissolve
             show playerf 3
             player_name "!!!"
-            player_name "( Ah, man... )"
+            player_name "( Ах, чувак ... )"
             hide playerf
             hide playerfa
             with dissolve
@@ -354,44 +354,44 @@ label diane_hospital_bed_dialogue:
     show diane f_gurney_normal_talk a_gown_bed_baby b_gown_bed at Position (xpos=578,ypos=850)
     show player 13
     with dissolve
-    dia "Hey, handsome."
-    dia "You come by to check on us again?"
+    dia "Привет, красавчик."
+    dia "Ты снова пришел проведать нас?"
     show diane f_gurney_normal
     menu:
-        "Yup.":
+        "Ага.":
             show diane f_gurney_normal a_gown_bed_baby b_gown_bed at Position (xpos=578,ypos=850)
             show player 14
             if M_diane.pregnancy.baby_gender == "boy":
-                player_name "How's he doing?"
+                player_name "Как у него дела?"
                 show player 426
                 show diane f_gurney_teasing_look
-                dia "He's sleeping."
+                dia "Он спит."
                 show diane f_gurney_down_front
                 show player 429
-                player_name "He's so cute!"
+                player_name "Он такой милый!"
             else:
-                player_name "How's she doing?"
+                player_name "Как у неё дела?"
                 show player 426
                 show diane f_gurney_teasing_look
-                dia "She's sleeping."
+                dia "Она спит."
                 show diane f_gurney_down_front
                 show player 429
-                player_name "She's so cute!"
+                player_name "Она такая милая!"
             show player 426
             show diane f_gurney_laugh
-            dia "Hehe."
+            dia "Хехе."
             show diane f_gurney_down_front
             pause
             show player 14
-            player_name "I guess, I should leave you guys to rest."
+            player_name "Думаю, я должен оставить вас, ребята, отдыхать."
             show player 13
             show diane f_gurney_normal_talk
-            dia "We'll be home soon."
+            dia "Мы скоро вернемся домой."
             show diane f_gurney_normal
             show player 14
-            player_name "Okay."
+            player_name "Хорошо."
             show player 429
-            player_name "I'll see you soon, little one."
+            player_name "Скоро увидимся, малышка."
             hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
