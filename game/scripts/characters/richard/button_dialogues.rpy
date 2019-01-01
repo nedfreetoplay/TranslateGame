@@ -2,24 +2,24 @@ label button_richard_intro_day:
     show player 14 at left
     show richard
     with dissolve
-    player_name "Hey, {b}Richard{/b}."
+    player_name "Привет, {b}Ричард{/b}."
     show player 13
     show richard f_confused_talk
-    rich "Oh no, {b}Lucy{/b} didn't order another batch of that milk did she?"
+    rich "О нет, {b}Люси{/b} ведь не заказывала еще одну порцию молока?"
     show richard f_confused
     show player 12
-    player_name "Huh?"
+    player_name "Эээ?"
     show player 10
-    player_name "No, I was just in the neighborhood and I thought-"
+    player_name "Нет, я просто была по соседству и подумал-"
     show player 5
     show richard f_phone_talk
-    rich "Thank god!"
+    rich "Слава богу!"
     show richard f_normal_talk
-    rich "I swear that woman has no concept of money."
+    rich "Клянусь, эта женщина понятия не имеет о деньгах."
     show richard f_normal
     pause
     show richard f_normal_talk
-    rich "{b}*Sigh*{/b} Now what is it that you want?"
+    rich "{b}*вздыхая*{/b} Так чего же ты хочешь?"
     show richard f_normal
     return
 
@@ -27,78 +27,78 @@ label button_richard_intro_night:
     show player 10 at left
     show richard f_normal
     with dissolve
-    player_name "Hey, {b}Richard{/b}."
+    player_name "Привет, {b}Ричард{/b}."
     show player 5
     show richard f_angry_talk
-    rich "What are you doing here kid?"
-    rich "Can't you see I'm trying to relax in the privacy of my own home?!"
+    rich "Что ты здесь делаешь малыш?"
+    rich "Разве ты не видишь, что я пытаюсь расслабиться в уединении собственного дома?!"
     show richard f_angry
     show player 10
-    player_name "I err-"
-    player_name "I'm sorry."
+    player_name "Я эээ-"
+    player_name "Извини."
     show player 5
     pause
     show richard f_phone_talk
-    rich "{b}*Sigh*{/b}"
+    rich "{b}*вздыхая*{/b}"
     show richard f_normal_talk
-    rich "What do you want?"
+    rich "Что тебе надо?"
     show richard f_normal
     return
 
 label button_richard_take_it_easy_lucy:
     show player 10 at left
     show richard f_normal
-    player_name "Why are you always so strict with your wife?"
+    player_name "Почему ты всегда так строг со своей женой?"
     show player 5
     show richard f_angry_talk
-    rich "What did you say?!"
+    rich "Что ты сказал?!"
     show richard f_angry
     pause
     show richard f_angry_talk
-    rich "That's none of your business, is it?"
+    rich "Это не твое дело, не так ли?"
     show richard f_angry
     show player 10
-    player_name "I just-"
-    player_name "She seems like a real nice lady and she's trying very hard to-"
+    player_name "Я только-"
+    player_name "Похоже, она очень приятная женщина и она очень старается-"
     show player 5
     show richard f_normal_talk
-    rich "Hah! That's real easy for you to say, kid."
+    rich "Ха! Тебе очень легко говорить, малыш."
     show richard f_angry_talk
-    rich "You're not the one she's putting in the poor house with all her stupid daycare ideas!"
+    rich "Ты не тот, кого она отправила в бедный дом со всеми своими дурацкими детскими идеями!"
     show richard f_angry
     show player 12
-    player_name "Y-yeah, but-"
+    player_name "Д-да, но-"
     show player 5
     show richard f_angry_talk
-    rich "I'm out here busting my hump, everyday, trying to start something real!"
-    rich "I've got enough problems without adding your mouth to the list."
-    rich "So unless you've got real business with me, I suggest you move on."
+    rich "Я здесь каждый день ломаю свой горб, пытаясь начать что-то настоящее!"
+    rich "У меня и так достаточно проблем, чтобы добавить что ты сказал в список."
+    rich "Так что, если у вас нет со мной настоящих дел, я предлагаю вам двигаться дальше."
     show richard f_angry
     return
 
 label button_richard_hows_the_business:
     show player 10 at left
     show richard f_normal
-    player_name "How's your carpentry business going?"
+    player_name "Как продвигается ваш столярный бизнес?"
     show player 5
     show richard f_normal_talk
-    rich "Why, do you have a lead on some work for me?!"
+    rich "Почему, у тебя есть зацепка по какой-то работе для меня?!"
     show richard f_normal
     show player 10
-    player_name "N-no, not really..."
+    player_name "Н-нет, не совсем..."
     show player 5
     show richard f_phone_talk
-    rich "Ugh, figures."
+    rich "Тьфу, цифры."
     show richard f_normal_talk
-    rich "Business is progressing."
-    rich "Slowly."
+    rich "Бизнес развивается."
+    rich "Медленно."
     show richard f_normal
     show player 14
-    player_name "Well, any progress is good progress, right?"
+    player_name "Ну, любой прогресс-это прогресс, да?"
     show player 13
     show richard f_normal_talk
-    rich "Yeah, I suppose."
-    rich "Still, after all these years, I really thought I'd be further along."
+    rich "Да, наверное."
+    rich "Тем не менее, после всех этих лет, я действительно думал, что буду дальше."
     show richard f_normal
     show player 5
     return
@@ -106,11 +106,11 @@ label button_richard_hows_the_business:
 label button_richard_nothing_day:
     show player 10 at left
     show richard f_normal
-    player_name "I don't need anything."
-    player_name "Sorry to bother you."
+    player_name "Мне ничего не нужно."
+    player_name "Извините за беспокойство."
     show player 5
     show richard f_normal_talk
-    rich "Uh huh."
+    rich "Ух."
     hide player
     hide richard
     with dissolve
@@ -119,12 +119,12 @@ label button_richard_nothing_day:
 label button_richard_nothing_night:
     show player 10 at left
     show richard f_normal
-    player_name "I don't need anything."
+    player_name "Мне ничего не нужно."
     show player 5
     show richard f_angry_talk
-    rich "Well, beat it then!"
+    rich "Ну, тогда проваливай отсюда!"
     show richard f_normal_talk
-    rich "{b}Tool Time{/b} is starting up any second and I don't wanna miss any of the jokes!"
+    rich "{b}Время инструмента{/b} начнется в любую секунду, и я не хочу пропустить ни одной шутки!"
     show richard f_normal
     show player 11
     player_name "..."
