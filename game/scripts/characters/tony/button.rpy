@@ -10,7 +10,7 @@ label tony_dialogue:
         call expression game.dialog_select("tony_dialogue_default")
 
     menu menu_tony_button:
-        "Заказ Пицы.":
+        "Заказ Пиццы.":
             call expression game.dialog_select("tony_dialogue_pizza_order")
             menu:
                 "Вегетарианская Пицца." if M_daisy.is_state(S_daisy_get_pizza):
@@ -23,7 +23,7 @@ label tony_dialogue:
                         call expression game.dialog_select("tony_dialogue_veggie_pizza_no_money_first")
                         $ game.main()
 
-                "Вегетарианская Пица." if M_daisy.get("veggie pizza"):
+                "Вегетарианская Пицца." if M_daisy.get("veggie pizza"):
                     call expression game.dialog_select("tony_dialogue_veggie_pizza_repeat")
                     if player.has_money(20):
                         call expression game.dialog_select("tony_dialogue_veggie_pizza_has_money_repeat")
