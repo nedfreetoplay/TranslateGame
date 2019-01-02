@@ -1,10 +1,10 @@
 label tony_dialogue_veggie_pizza_no_money_repeat:
     show player 10f
-    player_name "Oh, crap."
-    player_name "I don't have enough money on me."
+    player_name "О, черт."
+    player_name "У меня с собой недостаточно денег."
     show player 5f
     show tony f_question
-    tony "Well, you can't get no pizza without money."
+    tony "Ну, ты не можешь получить пиццу без денег."
     tony "What are you thinkin' knucklehead?"
     show tony f_suspicious
     show player 29f with dissolve
