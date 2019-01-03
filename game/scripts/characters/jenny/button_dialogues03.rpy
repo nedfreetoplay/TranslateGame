@@ -408,7 +408,7 @@ label sis_cheerleader_fuck_cum_outside:
         call expression game.dialog_select("sis_cheerleader_fuck_cum_outside_manual")
     $ xray = False
     call expression game.dialog_select("sis_cheerleader_fuck_cum_outside_after")
-    if store._in_replay == None and sister.completed(sis_final2):
+    if store._in_replay == None and M_jenny.finished_state(S_jenny_cam_show):
         call expression game.dialog_select("sis_cheerleader_fuck_after_repeat")
     else:
         call expression game.dialog_select("sis_cheerleader_fuck_after_initial")
