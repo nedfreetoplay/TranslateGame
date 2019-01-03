@@ -200,7 +200,7 @@ label roxxy_dialogue_exam_convince_roxxy_sex:
     show player 5
     show roxxy 27
     rox "..."
-    show roxxy 14
+    show roxxy 28
     rox "Наверное, это может сработать."
     show roxxy 27
     show player 33
@@ -360,7 +360,7 @@ label roxxy_dialogue_pom_poms_deal:
     show player 14
     player_name "Она была болельщицей в своем колледже!"
     show player 13
-    show roxxy 14
+    show roxxy 2
     rox "... Кто?"
     show roxxy 1
     show player 14
@@ -476,7 +476,7 @@ label roxxy_dialogue_pom_poms_deal_sex:
     show player 14 with dissolve
     player_name "Подожди, Это все!"
     show player 13
-    show roxxy 14
+    show roxxy 2
     rox "Что?"
     show roxxy 1
     show player 33
