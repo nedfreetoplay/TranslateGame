@@ -498,14 +498,14 @@ label button_missy_becca_look_beautiful:
             show player 17f
             player_name "Хаха, вы двое несколько иногда..."
             show player 13f
-        "Вы оба выглядите одинаково красиво!":
+        "Вы обе выглядите одинаково красиво!":
             
 			
 			show player 17f
-            player_name "Вы оба выглядите одинаково красиво!"
+            player_name "Вы обе выглядите одинаково красиво!"
             show player 13f
             show missy 2
-            missy "Неубедительно"
+            missy "Неубедительно."
             show missy 2b
             show becca 6
             becca "Не уклоняся от вопроса!"
