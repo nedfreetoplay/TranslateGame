@@ -301,10 +301,10 @@ label harold_police_office_dialogue_wheres_mia:
 
 label harold_police_office_dialogue_the_chief:
     show player 12
-    player_name "Кто {b}шеф{/b}?"
+    player_name "Кто у вас {b}шеф{/b}?"
     show player 5
     show harold 2
-    harold "О, ты хочешь {b}Эрл{/b}."
+    harold "О, ты ищешь {b}Эрла{/b}."
     show player 13
     harold "Он вон там, на другой стороне офиса."
     show harold 1
