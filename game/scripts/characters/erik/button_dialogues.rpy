@@ -180,7 +180,7 @@ label button_erik_borrow_guitar:
     hide erik
     with dissolve
     show player 4
-    if shed_unlocked:
+    if not L_diane_shed.locked:
         player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из сарая Дианы.{/b} )"
     else:
         player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из гаража дома.{/b} )"
@@ -203,7 +203,7 @@ label button_erik_make_guitar:
     hide erik
     with dissolve
     show player 4
-    if shed_unlocked:
+    if not L_diane_shed.locked:
         player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из сарая Дианы.{/b} )"
     else:
         player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из гаража дома.{/b} )"
