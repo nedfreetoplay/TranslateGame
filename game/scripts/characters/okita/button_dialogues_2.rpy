@@ -75,7 +75,7 @@ label button_okita_got_all_ingredients:
     okita "... Это {b}Куриный бульон{/b}?"
     show player 533
     show okita 1
-    player_name "Да. Это всё что есть в {b}Консумере{/b}..."
+    player_name "Да. Это всё что было в магазине {b}Consum-R{/b}..."
     player_name "Я подумал, может быть {b}куриный бульон{/b} всё равно сработает?"
     show player 532
     show okita 2b
