@@ -289,7 +289,7 @@ label sybian_cum:
     $ persistent.cookie_jar["Jenny"]["unlocked"] = True
     $ persistent.cookie_jar["Jenny"]["gallery"]["03_unlocked"] = True
     $ player.get_item("panties")
-    $ sis_panty04.finish()
+    $ M_jenny.trigger(T_jenny_panty_sex_toy_traded_tier_3)
     $ sis_quest_first = True
     jump expression game.dialog_select("hallway_dialogue")
 
