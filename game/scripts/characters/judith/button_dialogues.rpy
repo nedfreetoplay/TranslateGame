@@ -171,7 +171,7 @@ label judith_dialogue_bissette_find_full_dictionary:
     show judith 4
     show player 522
     with dissolve
-    player_name "Спасибо{b}Judith{/b}! Я твой должник!"
+    player_name "Спасибо {b}Джудит{/b}! Я твой должник!"
     hide judith with dissolve
     show player 13
     player_name "( Хорошо, теперь {b}направляйтесь в компьютерный класс{/b} и скопировать эти недостающие страницы. )"
