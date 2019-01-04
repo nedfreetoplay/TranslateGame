@@ -43,30 +43,30 @@ label webcam_dialogue:
         call expression game.dialog_select("webcam_dialogue_not_connected")
         call screen MC_computer
 
-    elif (not L_home_shower.is_here(M_jenny) and game.timer.is_morning()):
-        if sister.started(sis_webcam01) or sister.started(sis_webcam02) or sister.started(sis_webcam03) or sister.over(sis_webcam04):
+    elif (L_home_sisbedroom.is_here(M_jenny) and game.timer.is_morning()):
+        if M_jenny.is_state(S_jenny_watch_stream) or M_jenny.is_state(S_jenny_watch_stream_tier_2) or M_jenny.is_state(S_jenny_watch_stream_tier_3) or M_jenny.finished_state(S_jenny_prepare_stream_tier_4):
             hide screen MC_webcam
             hide screen MC_computer
             $ A_computer_genius.unlock()
-            if sister.started(sis_webcam01):
+            if M_jenny.is_state(S_jenny_watch_stream):
                 label electroclit_replay:
                     call expression game.dialog_select("webcam_dialogue_sis_webcam_started_pre")
                 call expression game.dialog_select("webcam_dialogue_sis_webcam01_started_pre")
                 $ current_camshow = 1
 
-            elif sister.started(sis_webcam02):
+            elif M_jenny.is_state(S_jenny_watch_stream_tier_2):
                 label ultravibrator_replay:
                     call expression game.dialog_select("webcam_dialogue_sis_webcam_started_pre")
                 call expression game.dialog_select("webcam_dialogue_sis_webcam02_started_pre")
                 $ current_camshow = 2
 
-            elif sister.started(sis_webcam03):
+            elif M_jenny.is_state(S_jenny_watch_stream_tier_3):
                 label dualsybian_replay:
                     call expression game.dialog_select("webcam_dialogue_sis_webcam_started_pre")
                 call expression game.dialog_select("webcam_dialogue_sis_webcam03_started_pre")
                 $ current_camshow = 3
 
-            elif sister.over(sis_webcam04):
+            elif M_jenny.finished_state(S_jenny_prepare_stream_tier_4):
                 $ sis_lastwebcam_show_seen = True
                 label badmonster_replay:
                     call expression game.dialog_select("webcam_dialogue_sis_webcam_started_pre")
