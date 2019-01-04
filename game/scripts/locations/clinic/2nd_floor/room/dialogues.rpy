@@ -229,19 +229,19 @@ label erik_bullying_2:
 label erik_bullying_2_dialogue:
     scene hospital_bed
     show player 392 at Position (xpos=805, ypos=665)
-    show micoe 5 at left
+    show micoe f_sad_talk at left
     with fade
     "Привет, как-"
+    show micoe f_sad 
     "..."
-    show micoe 4
     "Хм хм!!"
     player_name "Ух...."
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe 3
+    show micoe f_laugh
     "Ох хорошо! Ты начал просыпаться."
-    show micoe 2
+    show micoe f_normal_talk
     "Как ты себя чувствуешь?"
-    show micoe 1
+    show micoe f_normal
     show player 398 at Position (xpos=772, ypos=664)
     player_name "Я..."
     show player 397 at Position (xpos=772, ypos=660)
@@ -252,25 +252,26 @@ label erik_bullying_2_dialogue:
     show player 396 at Position (xpos=772, ypos=660)
     player_name "Где я?"
     show player 397
-    show micoe 5
+    show micoe f_normal_talk
     "Ты в больнице."
-    show micoe 4
+    show micoe f_normal
     show player 398 at Position (xpos=772, ypos=664)
     player_name "Я?"
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe 3
+    show micoe f_laugh
     "Правильно!"
-    show micoe 2
+    show micoe f_normal_talk
     micoe "И я {b}Медсестра Мико{/b}."
-    show micoe 5
+    show micoe f_sad_talk
     micoe "У тебя было небольшое сотрясение, но ты будешь в порядке."
+    show micoe f_normal_talk
     micoe "Ты можешь пойти домой когда ты будешь готов."
     micoe "Только убедись что пьешь достаточно воды и тебе нужен отдых."
-    show micoe 4
+    show micoe f_normal
     show player 398 at Position (xpos=772, ypos=664)
     player_name "Ох, Я вижу... Спасибо."
     show player 397 at Position (xpos=772, ypos=660)
-    show micoe 2
+    show micoe f_normal_talk
     micoe "Я забыла сказать что у тебя есть гость!"
     hide micoe with dissolve
     pause
