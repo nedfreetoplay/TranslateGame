@@ -5,104 +5,104 @@ label roz_dialogue_3rd_floor_priya:
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 10f at right
-    player_name "I wanted to ask you about the {b}third floor{/b}."
+    player_name "Я хотел спросить вас о {b}третьем этаже{/b}."
     show player 5f
     show roz 2
-    roz "It's restricted."
+    roz "Это запрещено."
     show roz 1
     show player 12f
-    player_name "Y-yeah, I know..."
-    player_name "... But I was hoping, maybe, you could tell me who has access?"
+    player_name "Да, я знаю..."
+    player_name "... Но я надеялся, может, вы скажете мне, у кого есть доступ?"
     show player 5f
     show roz 2
-    roz "No, that's restricted."
+    roz "Нет, это запрещено."
     show roz 1
     show player 12f
-    player_name "... But I just need to-"
+    player_name "... Но мне просто нужно-"
     show player 5f
     show roz 2
-    roz "Restricted."
+    roz "Запрещено."
     show roz 1
     show player 35f
-    player_name "Could you like, page one of the doctors working up there?"
-    player_name "I need to speak with {b}Doctor Singh{/b}."
+    player_name "Не могли бы вы вызвать одного из врачей, работающих там?"
+    player_name "Мне нужно поговорить с {b}доктором Сингх{/b}."
     show player 90f
     show roz 2
-    roz "I could."
+    roz "Я могла бы."
     show roz 1
     pause
     player_name "..."
     show player 10f
-    player_name "Would you?"
+    player_name "Не могли бы вы?"
     show player 5f
     show roz 2
-    roz "No."
+    roz "Нет."
     show roz 1
     show player 15f
-    player_name "Look, I really need to speak with him."
-    player_name "It's very important!"
+    player_name "Слушайте, мне действительно нужно поговорить с ним."
+    player_name "Это очень важно!"
     show player 16f
     show roz 2
-    roz "Oh, I didn't realize it was important..."
+    roz "О, я не понимала, насколько это важно..."
     show roz 1
     pause
     show player 10f
-    player_name "So you'll do it?"
+    player_name "Так вы сделаете это?"
     show player 5f
     show roz 2
-    roz "... No."
+    roz "... Нет."
     show roz 1
     show player 15f
-    player_name "Then why did you?!"
+    player_name "Почему?!"
     show player 16f
     show roz 2
-    roz "It's restricted."
+    roz "Это запрещено."
     show roz 1
     show player 37f with dissolve
-    player_name "{b}*Sigh*{/b}"
+    player_name "{b}*вздыхая*{/b}"
     show player 38f with dissolve
-    player_name "Is there something I can do to change your mind?"
+    player_name "Что я могу сделать, чтобы изменить ваше мнение?"
     show player 90f with dissolve
     show roz 2
-    roz "Restrict-"
+    roz "Запреще-"
     show roz 1
     pause
     show roz 2
-    roz "Oh."
-    roz "Hmm, I doubt it."
+    roz "О."
+    roz "Хм, сомневаюсь в этом."
     show roz 1
     pause
     show player 25f
-    player_name "I'll do anything!"
+    player_name "Я сделаю все что угодно!"
     show player 24f
     show roz 2
-    roz "Anything?"
+    roz "Все что угодно?"
     show roz 1
     show player 25f
-    player_name "Literally. Anything."
+    player_name "Буквально. Что угодно."
     show player 24f
-    roz "Hmm."
+    roz "Хмм."
     show roz 2
-    roz "You any good with cameras?"
+    roz "Ты умеешь обращаться с камерами?"
     show roz 1
     show player 12f
-    player_name "Cameras?"
-    player_name "Yeah, I guess."
+    player_name "С камерами?"
+    player_name "Да, наверно."
     show player 5f
     show roz 2
-    roz "I got this new fangled one from the store and the damn thing won't work."
+    roz "Я купила эту новенькую в магазине, и эта чертова штука не работает."
     show roz 1
     show player 14f
-    player_name "I could probably figure it out!"
+    player_name "Я, вероятно, мог бы посмотреть!"
     show player 13f
-    roz "Hmm."
+    roz "Хмм."
     show roz 2
-    roz "Follow me then."
+    roz "Тогда иди за мной."
     hide roz with dissolve
     pause
     show player 4f
-    player_name "( Wow, she's gonna take me up to the {b}third floor{/b} just for fixing her camera? )"
-    player_name "( How about that, I finally caught a break. )"
+    player_name "( Вау, она отвезет меня на {b}третий этаж{/b} только для того, чтобы починить камеру? )"
+    player_name "( Как насчет этого, у меня наконец-то появился перерыв. )"
     hide player with dissolve
     return
 
@@ -113,23 +113,23 @@ label roz_dialogue_3rd_floor:
         show xtra 35 zorder 2 at Position(xalign = 0.1, yalign = 0.251)
     show roz_desk at left
     show player 10f at right
-    player_name "I wanted to ask you about the {b}third floor{/b}."
+    player_name "Я хотел спросить вас о {b}третьем этаже{/b}."
     show player 5f
     show roz 2
-    roz "It's restricted."
+    roz " Это запрещено."
     show roz 1
     show player 12f
-    player_name "Y-yeah, I know..."
-    player_name "... But I was hoping, maybe, you could tell me who has access?"
+    player_name "Да, я знаю..."
+    player_name "... Но я надеялся, может, вы скажете мне, у кого есть доступ?"
     show player 5f
     show roz 2
-    roz "No, that's restricted."
+    roz "Нет, это запрещено."
     show roz 1
     show player 12f
-    player_name "... But I just need to-"
+    player_name "... Но мне просто нужно-"
     show player 5f
     show roz 2
-    roz "Restricted."
+    roz "Запрещено."
     return
 
 
