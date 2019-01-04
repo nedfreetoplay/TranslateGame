@@ -58,8 +58,8 @@ label mrsj_afterpoker_fun:
     mrsjo "Почему бы тебе не посасать мои сосочки, {b}[firstname]{/b}..."
     mrsjo "... {b}Эрик{/b} уже знает что нужно делать."
     show mrsjsex 15_16_17
-    $ anim_toggle = False
-	$ animated = False
+    $ anim_toggle = True
+    $ animated = False
     $ xray = False
     label mrsj_afterpoker_fun_repeat:
         show mrsjsex 17
