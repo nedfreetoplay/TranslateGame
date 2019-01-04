@@ -3,21 +3,21 @@ label hospital_second_floor_room_jizz_checkup:
     show player 13f at right
     show diane b_casual a_casual_sides f_normal_talk at flip
     with dissolve
-    dia "Brr, why are these exam rooms always so cold?!"
+    dia "Брр, почему в этих смотровых всегда так холодно?!"
     show diane f_normal
     show player 14f
-    player_name "I know, right?"
+    player_name "Я знаю, правильно?"
     show diane b_casual_remove1 a_empty f_empty with dissolve
     pause 1
     show diane b_casual_remove2 with dissolve
-    player_name "It's like they want you to be-"
+    player_name "Как будто они хотят, чтобы ты был-"
     show player 427f
     show diane b_casual_remove3 with dissolve
     player_name "..."
     show diane b_casual_remove4 with dissolve
     pause
     show diane b_casual_remove5 f_normal_talk with dissolve
-    dia "Want you to be what?"
+    dia "Хотят, чтобы ты был чем?"
     show diane b_casual_remove6 f_empty with dissolve
     pause
     $ M_diane.is_naked = 1
@@ -27,46 +27,46 @@ label hospital_second_floor_room_jizz_checkup:
     show diane f_normal_talk
     dia "{b}[firstname]{/b}?"
     show diane f_normal
-    player_name "Hmm?"
+    player_name "Хмм?"
     show diane f_normal_talk
-    dia "What were you saying?"
+    dia "Что ты такое говоришь?"
     show diane f_normal
     show player 10f
-    player_name "Was I saying something?"
+    player_name "Я что-то сказал?"
     show player 5f
     show diane f_laugh a_lingerie_shock with dissolve
-    dia "Hehe, yes..."
+    dia "Хехе, да..."
     show diane f_normal a_naked_sides with dissolve
     show player 14f
-    player_name "I completely forgot."
+    player_name "Я совсем забыл."
     show player 13f
     pause
     show player 429f
-    player_name "You look amazing!"
+    player_name "Ты выглядишь потрясающе!"
     show player 426f
     show diane f_shamed_talk_smile_back a_naked_touch with dissolve
-    dia "Oh, stop."
+    dia "О, остановись."
     show diane f_shamed
     show player 429f
-    player_name "I'm serious!"
+    player_name "Я серьезно!"
     show player 426f
     show diane b_gown_dress a_empty f_down_front with dissolve
     pause
     show diane b_gown a_gown_sides f_shamed_talk_look
     show player 13f
     with dissolve
-    dia "Even in this ugly hospital gown?"
+    dia "Даже в этом уродливом больничном халате?"
     show diane f_shamed
     show player 17f
-    player_name "Even in the hospital gown!"
+    player_name "Даже в больничном халате!"
     show player 13f
     show diane f_laugh
-    dia "Hehe, thanks {b}[firstname]{/b}."
+    dia "Хехе, спасибо {b}[firstname]{/b}."
     show diane f_shamed_talk_smile
-    dia "Excuse me while I lay down."
+    dia "Извините, я пока прилягу."
     show diane f_shamed
     show player 14f
-    player_name "Sure."
+    player_name "Конечно."
     scene expression "backgrounds/location_hospital_bed.jpg"
     show diane b_gown_turn f_empty a_empty at unflip
     show player 426 at left
@@ -75,145 +75,145 @@ label hospital_second_floor_room_jizz_checkup:
     show diane b_gown_bed a_gown_bed f_gurney_normal_talk at Position (ypos=20)
     show player 13
     with dissolve
-    dia "Ugh, I hope they don't leave us in here waiting forever."
+    dia "Надеюсь, они не оставят нас здесь ждать вечно."
     show diane f_gurney_normal
     show player 14
-    player_name "Yeah, me too."
+    player_name "Да, меня тоже."
     show player 13
     pause
-    "{b}*Knock, Knock*{/b}"
+    "{b}*Тук, Тук*{/b}"
     show diane f_gurney_normal_talk
-    dia "Oh, thank goodness."
-    dia "Come in."
+    dia "О, слава богу."
+    dia "Войдите."
     show diane f_gurney_normal
     pause
     show micoe f_normal_talk at Position (xpos=650) with dissolve
-    micoe "Hello."
+    micoe "Здравствуйте."
     show micoe f_normal
     show diane f_gurney_normal_talk
-    dia "Hi."
+    dia "Привет."
     show diane f_gurney_normal
     show micoe f_normal_talk
-    micoe "What can I do for you all today?"
+    micoe "Что я могу сделать для вас сегодня?"
     show micoe f_normal
     show diane f_gurney_shamed_talk_smile
-    dia "I umm..."
-    dia "Hehe, sorry I'm a little nervous."
+    dia "Я эээ..."
+    dia "Хе-хе, извини, я немного нервничаю."
     show diane f_gurney_shamed
     show micoe f_normal_talk
-    micoe "No problem."
+    micoe "Нет проблем."
     show micoe f_normal
     show diane f_gurney_shamed_talk_smile
-    dia "We're uhh... Gonna try and have a baby..."
+    dia "Мы ох... Попытаемся завести ребенка..."
     show diane f_gurney_shamed
     show micoe f_laugh
-    micoe "Oh, that's wonderful!"
+    micoe "О, это замечательно!"
     show micoe f_normal
     show diane f_gurney_shamed_talk_smile
-    dia "... And I just wanted to get checked out, you know?"
-    dia "I'm not as young as I used to be..."
+    dia "... И я просто хотела проверить, знаешь?"
+    dia "Я уже не так молода, как раньше..."
     show diane f_gurney_shamed
     show micoe f_normal_talk
-    micoe "I completely understand."
-    micoe "Is this your... husband?"
+    micoe "Я полностью понимаю."
+    micoe "Это ваш... муж?"
     show micoe f_normal
     show diane f_gurney_laugh
-    dia "Husband?!"
-    dia "Hahaha, goodness no!"
+    dia "Муж?!"
+    dia "Хахаха, боже мой, нет!"
     show diane f_gurney_normal_talk
-    dia "This is my-"
+    dia "Это мой-"
     show diane f_gurney_shamed_talk_smile
-    dia "My uhh..."
+    dia "Мой эээ..."
     show diane f_gurney_shamed
     pause
     show player 14 with None
     show micoe at flip
     show micoe at Position (xpos=350)
     with dissolve
-    player_name "Boyfriend."
+    player_name "Друг."
     show player 13
     show diane f_gurney_normal_talk
-    dia "Right!"
+    dia "Точно!"
     show diane f_gurney_laugh with None
     hide micoe
     show micoe at Position (xpos=650)
     with dissolve
-    dia "Boyfriend, haha!"
+    dia "Друг, хаха!"
     show diane f_gurney_shamed_talk_smile
-    dia "... Sorry, I'm still a little-"
+    dia "... Извините, я еще немного-"
     show diane f_gurney_shamed
     show player 14 with None
     show micoe at flip
     show micoe at Position (xpos=350)
     with dissolve
-    player_name "I wanna get checked out too."
+    player_name "Я тоже хочу провериться."
     show player 13
     show diane f_gurney_normal
-    dia "Hmm?!"
+    dia "Хмм?!"
     show player 14
-    player_name "Is that something we can do?"
+    player_name "Это то, что мы можем сделать?"
     show player 13
     show micoe f_normal_talk
-    micoe "... Sure."
-    micoe "If that's what you want, I'll grab a test kit."
+    micoe "... Конечно."
+    micoe "Если ты этого хочешь, я возьму тестовый набор."
     hide micoe with dissolve
     pause
     show player 17
-    player_name "See, I'll be getting poked and prodded too."
+    player_name "Смотри, меня тоже будут тыкать и колоть."
     show player 13
     show diane f_gurney_normal_talk
-    dia "Aww, {b}[firstname]{/b}..."
+    dia "Ааа, {b}[firstname]{/b}..."
     show diane f_gurney_normal
     pause
     show diane f_gurney_normal_talk
-    dia "You are just the sweetest man, ever!"
+    dia "Ты самый милый мужчина на свете!"
     show diane f_gurney_normal with None
     show micoe f_normal_talk a_dressed_cup3 at flip
     show micoe at Position (xpos=-100)
     with dissolve
-    micoe "Here you go."
-    micoe "I just need you to ejaculate into this cup and we'll take it upstairs for testing."
+    micoe "Вот, держи."
+    micoe "Мне просто нужно, чтобы ты эякулировал в эту чашку и мы отнесем ее наверх для тестирования."
     show micoe f_normal a_dressed_front
     show player 691b
     with dissolve
-    player_name "Alright."
+    player_name "Хорошо."
     show player 261bf with dissolve
     show micoe f_sad_talk
-    micoe "Whoa!"
+    micoe "Вау!"
     show micoe f_laugh
-    micoe "Haha, in the bathroom tiger!"
+    micoe "Ха-ха, в ванной тигр!"
     show micoe f_normal
     show player 29 with dissolve
-    player_name "Oh!"
-    player_name "Heh, sorry."
+    player_name "О!"
+    player_name "Хе, прости."
     show player 3
     show diane f_gurney_laugh
-    dia "Haha!"
+    dia "Хаха!"
     show diane f_gurney_normal
     show micoe f_normal_talk
-    micoe "I'll take your girlfriend over to see the OB/GYN while you're doing that and I'll come right back for the sample."
+    micoe "Я возьму твою девушку, чтобы показать акушеру-гинекологу, пока ты это делаешь, и я вернусь за образцом."
     show micoe f_normal
     show player 29
-    player_name "Yeah, okay."
+    player_name "Да, хорошо."
     show player 14 with dissolve
-    player_name "Unless, you want me to come with?"
+    player_name "Если только ты не хочешь, чтобы я пошел с тобой?"
     show player 13
     show diane f_gurney_normal_talk
-    dia "No, it's okay."
+    dia "Нет, все в порядке."
     hide micoe
     show micoe at Position (xpos=650)
     with dissolve
-    dia "I'll be fine."
+    dia "Все будет хорошо."
     show diane f_gurney_normal
     show micoe f_normal_talk
-    micoe "If you'll follow me, ma'am."
+    micoe "Следуйте за мной, мэм."
     show micoe f_normal
     show diane b_gown a_gown_sides f_normal_talk at Position (xpos=50) with dissolve
-    dia "S-sure."
+    dia "Конечно."
     scene black with fade
     scene expression "backgrounds/location_hospital_room_blur.jpg"
     show player 14 with dissolve
-    player_name "Alright, I guess I should get started {b}in the bathroom{/b}."
+    player_name "Хорошо, я думаю, мне следует начать {b} в ванной {/b}."
     hide player with dissolve
     return
 
