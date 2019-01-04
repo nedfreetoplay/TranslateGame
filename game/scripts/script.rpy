@@ -161,7 +161,7 @@ label intro_dialogue:
     play music "<loop 79>audio/music_sad.ogg" loop fadein 1.0
     $ playSound("<loop 5 to 179>audio/ambience_rain1.ogg")
     show expression "backgrounds/intro_01.jpg"
-    show expression FilteredText("March 3rd, on a rainy afternoon.\n{b}My father's{/b} funeral. I can't believe he's really gone.\nHe died from a work related accident at the age of 40. Leaving me all alone with no family to speak of...") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("3 марта, в дождливый день.\n{b}Похороны{/b} моего отца. Я не могу поверить, что он действительно покинул нас.\nОн умер от несчастного случая на работе в возрасте 40 лет. Все оставили меня в полном одиночестве без семьи, с которой я бы мог поговорить...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -170,7 +170,7 @@ label intro_dialogue:
     with Pause(0.5)
     $ playSound("<loop 3 to 94>audio/ambience_rain2.ogg", multi = True)
     show expression "backgrounds/intro_02.jpg"
-    show expression FilteredText("Circumstances surrounding his death have been found {i}suspicious{/i} by the police.\nThey were at our house for an entire week, bombarding me with questions to which I had no answers.\nNo {i}conclusive{/i} evidence has been found and the knowledge that my father will get no {i}justice{/i} weighs heavily upon me.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Обстоятельства его смерти {i}показались{/i} полиции подозрительными.\nПолицейские были в нашем доме всю неделю, заваливая меня вопросами, на которые у меня не было ответов.\nНикаких {i}убедительных{/i}  улик не было найдено и осознание того, что никто не ответит за {i}смерть{/i} моего отца, давило на моё сердце.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -179,7 +179,7 @@ label intro_dialogue:
     pause 0.5
     $ playSound("<loop 5 to 181>audio/ambience_rain3.ogg")
     show expression "backgrounds/intro_03.jpg"
-    show expression FilteredText("Luckily, {b}my father's{/b} life long friend has taken me in and given me a room in her home.\nThe night of the funeral, I overheard her reminiscing about {b}my father{/b} in the kitchen.\nShe eventually broke down and said she didn't know what to do.\nIt seems {b}my father{/b} had gotten involved with some real bad people who were now pressuring her to cover his {b}debts{/b}.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("К счастью, {b}давняя подруга{/b} моего отца приютила меня и выделила мне комнату в своем доме.\nВ ночь, после похорон, я подслушал её воспоминания на  кухне о {b}моём отце{/b}.\nВ конце концов она не выдержала и сказала, что не знает, что теперь делать.\nЭто означало, что мой {b}отец{/b} был ввязан в неприятности с плохими людьми, которые теперь заставляют её выплачивать его {b}долги{/b}.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -189,10 +189,10 @@ label intro_dialogue:
     stop music fadeout 2
     $ playSound("<loop 7 to 114>audio/ambience_suburb.ogg")
     show expression "backgrounds/intro_04.jpg"
-    show expression FilteredText("Now a month later, things are finally starting to settle down.\nI've gotten used to my new living arrangement and today will be my first day back at college.\nIt'll be nice to see my friends again.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("И наконец, спустя месяц, дела постепенно начали налаживаться.\nЯ привык к моей новой жизни и сегодня я, спустя столько времени, наконец-то пойду в колледж.\nБудет классно снова увидеть своих друзей.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("There are {i}3 things{/i} I have to take care of before the end of the semester.\n1) - {b}I have to secure a way to pay for next semester's tuition.{/b}\n2) - {b}I have to uncover the truth about my father's murder.{/b}\n3) - {b}I have to find a date for the Sorority Ball.{/b}") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("И наконец, есть {i}3 цели{/i} о выполнении которых мне стоит позаботиться до окончания семестра.\n1) - {b}Мне нужно найти способ нарыть денег для оплаты следующего семестра.{/b}\n2) - {b}Мне нужно разузнать правду об убийстве моего отца.{/b}\n3) - {b}Мне нужно найти пару для школьного бала.{/b}") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
     scene black
