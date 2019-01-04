@@ -1,63 +1,63 @@
 label button_lucy_baby_dialogue:
     show player 14 at left
     show lucy
-    player_name "How's my little one doing?"
+    player_name "Как поживает мой малыш?"
     show player 13
     show lucy f_laugh
-    lucy "Oh, just fine!"
+    lucy "О, все хорошо!"
     show lucy f_normal_talk
-    lucy "Everyone is having a wonderful time!"
-    lucy "Little {b}Jack{/b} has been chasing after all the girls today."
-    lucy "That's one child we'll have to keep on eye on as he gets older."
+    lucy "Все прекрасно проводят время!"
+    lucy "Маленький {b}Джек{/b} преследовал всех девочек сегодня."
+    lucy "За этим ребенком мы должны присматривать, когда он подрастет."
     show lucy f_normal
     show player 14
-    player_name "Silly kids."
-    player_name "Well, they all look like they are having fun!"
+    player_name "Глупые дети."
+    player_name "Ну, они все выглядят так, будто им весело!"
     show player 13
     show lucy f_laugh
-    lucy "Oh, yeah! That's all we do every day is have fun, fun, fun!"
+    lucy "О да! Это все, что мы делаем каждый день, это веселимся, веселимся, веселимся!"
     show lucy f_normal
     show player 14
-    player_name "Good. Well, I just thought I'd stop by and see everyone was doing."
+    player_name "Хорошо. Ну, я просто подумал, что зайду и посмотрю, что все делают."
     show player 13
     show lucy f_normal_talk
-    lucy "Awwww."
-    lucy "I must say, it's so refreshing to see a dad stop in and check up on his little one."
+    lucy "Ауууууу."
+    lucy "Должна сказать, это так приятно видеть, как папа заходит и проверяет своего малыша."
     show lucy f_normal
     return
 
 label button_lucy_baby_dialogue_multiple:
     show player 14 at left
     show lucy
-    player_name "How are my little ones doing?"
+    player_name "Как поживают мои дети?"
     show player 13
     show lucy f_laugh
-    lucy "Oh, just fine!"
+    lucy "О, все хорошо!"
     show lucy f_normal_talk
-    lucy "Everyone is having a wonderful time!"
+    lucy "Все прекрасно проводят время!"
     if randomizer() > 50:
-        lucy "Just keep an eye out for {b}Jacob{/b}."
-        lucy "He found some stickers and has been placing them everywhere."
+        lucy "Пришлось следить за {b}Джейкобом{/b}."
+        lucy "Он нашел несколько наклеек и расклеял их повсюду."
     elif randomizer() > 50:
-        lucy "Little {b}Jack{/b} has been chasing after all the girls today."
-        lucy "That's one child we'll have to keep on eye on as he gets older."
+        lucy "Маленький {b}Джек{/b} преследовал всех девочек сегодня."
+        lucy "За этим ребенком мы должны присматривать, когда он подрастет."
     else:
-        lucy "Otherwise the children have been pretty well behaved."
-        lucy "I wish everyday days were like this."
+        lucy "В остальном дети вели себя довольно хорошо."
+        lucy "Я бы хотела, чтобы все дни были такими."
     show lucy f_normal
     show player 14
-    player_name "Silly kids."
-    player_name "Well, they all look like they are having fun!"
+    player_name "Глупые дети."
+    player_name "Ну, они все выглядят так, будто им весело!"
     show player 13
     show lucy f_laugh
-    lucy "Oh, yeah! That's all we do every day is have fun, fun, fun!"
+    lucy "О да! Это все, что мы делаем каждый день, это веселимся, веселимся, веселимся!"
     show lucy f_normal
     show player 14
-    player_name "Good. Well, I just thought I'd stop by and see everyone was doing."
+    player_name "Хорошо. Ну, я просто подумал, что зайду и посмотрю, что все делают."
     show player 13
     show lucy f_normal_talk
-    lucy "Awwww."
-    lucy "I must say, it's so refreshing to see a dad stop in and check up on his little ones."
+    lucy "Ауууу."
+    lucy "Должна сказать, это так приятно видеть, как папа заходит и проверяет своих малышей."
     show lucy f_normal
     return
 
@@ -65,14 +65,14 @@ label lucy_button_intro_day:
     show player 13 at left
     show lucy f_normal_talk
     with dissolve
-    lucy "Hey there, {b}[firstname]{/b}."
-    lucy "What brings you by today?"
+    lucy "Привет, {b}[firstname]{/b}."
+    lucy "Что привело тебя сегодня?"
     show lucy f_normal
     show player 14
-    player_name "Oh, I was just in the neighborhood and thought I'd say hello."
+    player_name "О, я просто была по соседству и подумала поздороваться."
     show player 13
     show lucy f_normal_talk
-    lucy "Well, that's nice."
+    lucy "Что ж, это замечательно."
     show lucy f_normal
     return
 
@@ -80,119 +80,119 @@ label lucy_button_intro_night:
     show player 13 at left
     show lucy f_sad_talk b_messy a_dressed_cover
     with dissolve
-    lucy "Oh, goodness."
+    lucy "О, боже."
     show lucy f_normal_talk a_dressed_sides with dissolve
-    lucy "I didn't know you were stopping by, {b}[firstname]{/b}."
+    lucy "Я не знала, что ты прийдешь, {b}[firstname]{/b}."
     show lucy f_normal_talk_down
-    lucy "I imagine I look like quite a mess..."
+    lucy "Я думаю, я выгляжу как чучело..."
     show lucy f_normal
     show player 14
-    player_name "No, not at all."
-    player_name "You always look nice, {b}Lucy{/b}."
+    player_name "Нет, все не так."
+    player_name "Ты всегда хорошо выглядишь, {b}Люси{/b}."
     show player 13
     show lucy f_normal_talk
-    lucy "Well, that's nice of you to say."
+    lucy "Ну, это приятно слышать."
     show lucy f_normal
     return
 
 label button_lucy_how_are_you:
     show player 14 at left
     show lucy f_normal
-    player_name "You doing alright?"
+    player_name "Ты в порядке?"
     show player 13
-    lucy "Hmm?"
+    lucy "Хмм?"
     show lucy f_normal_talk
-    lucy "Oh, I'm just fine."
+    lucy "О, со мной все в порядке."
     show lucy f_laugh
-    lucy "These kids just brighten up my day."
+    lucy "Эти дети просто просветляют мне день."
     show lucy f_normal
     show player 12
-    player_name "{b}Richard{/b} treating you okay?"
+    player_name "{b}Ричард{/b} хорошо с тобой обращается?"
     show player 5
     show lucy f_normal_talk
-    lucy "Oh, you know {b}Richard{/b}."
-    lucy "He's set in his ways."
+    lucy "О, ты знаешь {b}Ричарда{/b}."
+    lucy "Он твердо стоит на своем."
     show lucy f_normal
     show player 12
-    player_name "Well, let me know if you ever need any help, okay?"
+    player_name "Дай мне знать, если тебе когда-нибудь понадобится помощь, хорошо?"
     show player 5
     show lucy f_normal_talk
-    lucy "You're so sweet."
-    lucy "Thanks, {b}[firstname]{/b}."
+    lucy "Ты такой милый."
+    lucy "Спасибо, {b}[firstname]{/b}."
     show lucy f_normal
     return
 
 label button_lucy_hows_the_milk:
     show player 14 at left
     show lucy f_normal
-    player_name "Satisified with your last shipment of milk?"
+    player_name "Удовлетворены ли вы последней партией молока?"
     show player 13
     show lucy f_laugh
-    lucy "Oh, yes."
+    lucy "О, да."
     show lucy f_normal_talk
-    lucy "The little ones just can't get enough."
+    lucy "Малыши просто не могут насытиться."
     show lucy f_normal
     show player 10
-    player_name "You really like looking after all these kids?"
+    player_name "Тебе правда нравится присматривать за всеми этими детьми?"
     show player 5
     show lucy f_laugh
-    lucy "I love it!"
+    lucy "Я обожаю их!"
     show lucy f_normal_talk
-    lucy "It keeps me young, you know?"
+    lucy "Это делает меня молодой, понимаешь?"
     show lucy f_normal
     show player 14
-    player_name "Well, you certainly do look young."
+    player_name "Ну, ты определенно выглядишь молодо."
     show player 13
     show lucy f_smirk_talk
-    lucy "Aww, you're such a charmer, {b}[firstname]{/b}!"
+    lucy "Ауу, ты такой очаровашка, {b}[firstname]{/b}!"
     show lucy f_smirk
     return
 
 label button_lucy_annie_around_day:
     show player 10 at left
     show lucy f_normal
-    player_name "{b}Annie{/b} around?"
+    player_name "{b}Энни{/b} тут?"
     show player 5
     show lucy f_normal_talk
-    lucy "No, I think she's at school dear."
-    lucy "You want me to tell her you stopped by?"
+    lucy "Нет, я думаю, она в школе."
+    lucy "Хочешь, я скажу ей, что ты заходил?"
     show lucy f_normal
     show player 10
-    player_name "N-no, that's okay."
-    player_name "I was just curious."
+    player_name "Нет, все в порядке."
+    player_name "Мне просто было любопытно."
     show player 5
     return
 
 label button_lucy_annie_around_night:
     show player 10 at left
     show lucy f_normal
-    player_name "Annie around?"
+    player_name "{b}Энни{/b} тут?"
     show player 5
     show lucy f_normal_talk
-    lucy "I think she mentioned she had some homework to do."
-    lucy "You know her, she's very particular about her school work."
+    lucy "Я думаю, она упомянула, что ей нужно сделать домашнее задание."
+    lucy "Ты знаешь ее, она очень придирчива к своей школьной работе."
     show lucy f_normal
     show player 10
-    player_name "Oh, I know."
+    player_name "О, я знаю."
     show player 14
-    player_name "Thanks, {b}Lucy{/b}."
+    player_name "Спасибо, {b}Люси{/b}."
     show player 13
-    lucy "Mmhmmm."
+    lucy "Мммммммм."
     return
 
 label button_lucy_leave:
     show player 14 at left
     show lucy f_normal
-    player_name "I should get going."
+    player_name "Мне нужно идти."
     show player 13
     show lucy f_normal_talk
-    lucy "Alright, sweetie."
+    lucy "Хорошо, милый."
     show lucy f_normal
     show player 14
-    player_name "It was nice seeing you again."
+    player_name "Было приятно увидеть тебя снова."
     show player 13
     show lucy f_normal_talk
-    lucy "You too, dear."
+    lucy "Мне тоже, дорогуша."
     hide player
     hide lucy
     with dissolve
