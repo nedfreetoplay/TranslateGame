@@ -1,38 +1,38 @@
-label hallway_jenny_start:
+label hallway_sis_start:
     scene hallway
     show player 1 at left
     show jenny 10 at right
     with dissolve
-    jen "Shouldn't you be at school?"
+    jen "Разве ты не должен быть в школе?"
     show player 2
-    player_name "Shouldn't you have a job?"
+    player_name "Разве у тебя не должно быть работы?"
     show jenny 6
     show player 1
     jen "!!!"
     show jenny 9
-    jen "Oh, you don't want to play this game with me, smart ass."
+    jen "Ты же не хочешь играть со мной в эту игру, умник."
     show jenny 6
     show player 14
-    player_name "Hey, you started it!"
+    player_name "Эй, ты первая начала!"
     show player 34
     player_name "..."
     show jenny 10
-    jen "What is it?"
-    player_name "{b}*Sniff*{/b}"
+    jen "Что это?"
+    player_name "{b}*нюх*{/b}"
     show player 35
-    player_name "Something smells good."
+    player_name "Что-то вкусно пахнет."
     show jenny 9
     show player 11
-    jen "Uhh, Yeah. It's probably the breakfast that's waiting for you {b}downstairs{/b}, dummy."
+    jen "Ах, Да. Это, наверное, завтрак, который ждет тебя {b}внизу{/b}, тупица."
     show jenny 12
-    jen "I can't believe she's still making you breakfast everyday. It's been over a month since {b}your dad{/b} died."
+    jen "Не могу поверить, что она до сих пор готовит тебе завтрак каждый день. Прошло больше месяца с тех пор, как умер {b}твой отец{/b}."
     show player 2
     show jenny 11
-    player_name "Yeah, she's a nice lady."
+    player_name "Да, она хорошая женщина."
     hide player with dissolve
     pause 0.5
     show jenny 10
-    jen "Ugh, yeah. Too nice if you ask me."
+    jen "Ах, да. Слишком милая, если спросите меня."
     hide jenny
     with dissolve
     return
@@ -40,13 +40,13 @@ label hallway_jenny_start:
 label hallway_mom_sis_boobs_afterthoughts:
     scene hallway
     show player 26 with dissolve
-    player_name "Wow..."
-    player_name "I can't believe {b}[jen_name]{/b} actually took her top off in front of me..."
-    if M_jenny.finished_state(S_jenny_shower_peep_bed_cuddle):
-        player_name "I've never seen them up close before..."
+    player_name "Вау..."
+    player_name "Я не могу поверить, что {b}[jen_name]{/b} оголила грудь передо мной..."
+    if sister.completed(sis_shower_cuddle01):
+        player_name "Я никогда раньше не видел их так близко..."
     else:
-        player_name "I've never seen them before."
-    player_name "Her breasts are so nice..."
+        player_name "Я никогда раньше их не видел."
+    player_name "Ее грудь такая красивая..."
     hide player with dissolve
     return
 
@@ -55,53 +55,53 @@ label hallway_sis_hallway_1_started:
     show jenny 7 at right
     show player 11 at left
     with dissolve
-    jen "Hey!"
+    jen "Эй!"
     show jenny 8
     show player 12
-    player_name "What do you want?"
+    player_name "Чего тебе надо?"
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "Have you been on my computer?"
+    jen "Ты лазил в моем компьютере?"
     show jenny 6
     show player 12
-    player_name "Uh... No?"
+    player_name "Ох... Нет?"
     show jenny 9
     show player 11
-    jen "Don't {b}lie{/b} to me."
-    jen "I know you've been snooping around my stuff..."
+    jen "Не {b}лги{/b} мне."
+    jen "Я знаю, что ты рылась в моих вещах..."
     show jenny 10
     show player 12
-    player_name "What?"
-    player_name "I haven't even been in your room!"
+    player_name "Чего?"
+    player_name "Я никогда не был в твоей комнате!"
     show jenny 9
     show player 11
-    jen "How did you know my password?"
+    jen "Откуда ты знаешь мой пароль?"
     show jenny 6
     show player 11
     player_name "..."
     show jenny 9
     show player 5
-    jen "What were you looking for anyway?"
+    jen "Что-то ты искал?"
     show jenny 10
     show player 10
-    player_name "Nothing! I told you-"
+    player_name "Ничего! Я сказал тебе-"
     show jenny 9
     show player 11
-    jen "Were you trying to find my {b}private{/b} pictures?"
-    jen "So you could {b}use{/b} them?"
+    jen "Ты пытался найти мои {b}личные{/b} фотографии?"
+    jen "Так что ты мог бы {b}использовать{/b} их?"
     show jenny 6
     show player 10
-    player_name "No! I told you-"
+    player_name "Нет! Я же сказал-"
     show jenny 9
     show player 11
-    jen "It doesn't matter."
-    jen "If you go through my things again, I'm telling {b}[deb_name]{/b}."
+    jen "Неважно."
+    jen "Если ты снова будешь рыться в моих вещах, я расскажу все {b}[deb_name]{/b}."
     show jenny 7 at right
     show player 5
-    jen "UNDERSTOOD?!" with vpunch
+    jen "ПОНЯТНО?!" with vpunch
     show jenny 8
     show player 10
-    player_name "Yeah..."
+    player_name "Да..."
     hide player
     hide jenny
     with dissolve
@@ -112,54 +112,54 @@ label hallway_sis_hallway_2_started:
     show jenny 7 at right
     show player 11 at left
     with dissolve
-    jen "Hold it right there!"
+    jen "Стоять!"
     show jenny 8
     show player 12
-    player_name "What do you want?"
+    player_name "Что тебе нужно?"
     show jenny 9 at Position(xpos=937)
     show player 11
-    jen "Where are you going?"
+    jen "Куда ты направляешся?"
     show jenny 10
     show player 10
-    player_name "Huh?"
+    player_name "Хух?"
     show jenny 9
     show player 11
-    jen "Meeting with {b}[deb_name]{/b} in her room, perhaps?"
+    jen "Взможно к {b}[deb_name]{/b} в ее комнату?"
     show jenny 6
     show player 29
-    player_name "What?"
+    player_name "Что?"
     show jenny 9
     show player 11 at left
-    jen "You've been sucking up to {b}[deb_name]{/b} a lot lately."
-    jen "I don't really care, to be honest: You always were her favorite."
+    jen "В последнее время ты часто подлизываетесь к {b}[deb_name]{/b}."
+    jen "Честно говоря, мне все равно: ты всегда был ее любимчиком."
     show jenny 6
     show player 10
-    player_name "... I don't understand."
+    player_name "... Я не понимаю."
     show jenny 9
     show player 11
-    jen "You can pretend all you want..."
-    jen "... but I see the little game you're playing."
+    jen "Можешь притворяться сколько хочешь..."
+    jen "... но я вижу маленькую игру, в которую ты играешь."
     show jenny 10
     show player 14
-    player_name "Well, {b}[deb_name]{/b} needs help around the house so I'm-"
+    player_name "Ну, {b}[deb_name]{/b} нужна была помощь по дому, так что я-"
     show jenny 9
     show player 11
-    jen "Oh, stop it!"
-    jen "Look, I don't care what you and {b}[deb_name]{/b} do in secret."
+    jen "О, прекращай!"
+    jen "Слушай, мне все равно, что ты и {b}[deb_name]{/b} делаете втайне."
     show player 16
-    jen "We both know you're just a pervert."
+    jen "Мы оба знаем, что ты - извращенец."
     show player 11
 
-    jen "What's important here is that I need you focused!"
-    jen "I can't let you get distracted by {b}[deb_name]{/b}."
-    jen "I need fresh content for my {b}cam streams{/b}..."
-    jen "... so you better get me those {b}props{/b}."
+    jen "Важно то, что мне нужно, чтобы ты сосредоточился!"
+    jen "Я не могу позволить тебе отвлекаться на {b}[deb_name]{/b}."
+    jen "Мне нужен свежий контент для моих {b}стримов{/b}..."
+    jen "... так что лучше принеси мне {b}реквизит{/b}."
     show jenny 11
     show player 12
-    player_name "Chill out. I'll get them, okay?"
+    player_name "Расслабся. Я принесу, хорошо?"
     show jenny 12
     show player 13
-    jen "Good."
+    jen "Отлично."
     hide player
     hide jenny
     with dissolve
@@ -169,11 +169,11 @@ label hallway_sis_final_started:
     scene hallway
     show player 11 with dissolve
     player_name "..."
-    player_name "( There are voices coming from {b}[jen_name]'s{/b} room... )"
+    player_name "( Какие-то голоса доносятся из комнаты {b}[jen_name]{/b} ... )"
     show player 4
-    player_name "( It sounds like... she's talking to someone? But who... )"
+    player_name "( Похоже на то что... она с кем-то разговаривает? Но с кем... )"
     show player 1
-    player_name "( Maybe I can sneak up to her door and find out... )"
+    player_name "( Может быть, я смогу подкрасться к ее двери и узнать... )"
     hide player with dissolve
     return
 
@@ -183,92 +183,92 @@ label hallway_sis_final_over:
     show jenny 9 at right
     show jenny 9 at Position(xpos=937)
     with dissolve
-    jen "Psst, hey!!"
+    jen "Пссс, эй!!"
     show player 10
     show jenny 9b
-    player_name "Huh?"
-    player_name "What're you doing?"
+    player_name "А?"
+    player_name "Что ты делаешь?"
     show player 11
     show jenny 9
-    jen "Get in my room. Now!"
+    jen "Быстро в мою комнату. Сейчас же!"
     show player 10
     show jenny 10
-    player_name "But, why?"
+    player_name "Но, почему?"
     show player 11
     show jenny 9
-    jen "Don't ask. Just do it, twerp!"
+    jen "Без вопросов. Быстро,  придурок!"
     scene jennybedroom
     show player 12 at left
     show jenny 82 at right
     show jenny 82 at Position(xpos=937)
     with fade
-    player_name "What's going on?"
+    player_name "Что здесь происходит?"
     show player 11
     show jenny 12
-    jen "I need a favor."
+    jen "Мне нужна услуга."
     show player 12
     show jenny 82
-    player_name "Let me guess, more sex toys?"
+    player_name "Позволь мне угадать, больше секс игрушек?"
     show player 16
     show jenny 9
-    jen "No, you idiot!"
+    jen "Нет, ты идиот!"
     show player 12
     show jenny 10
-    player_name "I'm not your servant, you know?"
+    player_name "Я тебе не слуга, понимаешь?"
     show player 16
     show jenny 7 at right
-    jen "Just SHUT UP already, and let me explain!!" with hpunch
+    jen "Просто ЗАТКНИСЬ уже и дай мне объяснить!!" with hpunch
     show player 11
     show jenny 19
-    jen "We'll both get what we want out of this..."
-    jen "I promise."
+    jen "Мы оба получим от этого то, что хотим..."
+    jen "Я обещаю."
     show player 12
     show jenny 18
-    player_name "... Okay?"
+    player_name "... Ладно?"
     show player 11
     show jenny 12 at Position(xpos=937)
-    jen "Good. Now, I need you to find some stuff for me. It's kind of specific, so you might have to look around."
+    jen "Хорошо. Мне нужно, чтобы ты кое-что нашел для меня. Это довольно специфично, так что придется поискать."
     show player 10
     show jenny 11
-    player_name "What stuff?"
+    player_name "Что именно?"
     show player 11
     show jenny 12
-    jen "First, I'm going to need a {b}cheerleader outfit{/b}."
-    jen "Then, I'll need some {b}handcuffs{/b}."
+    jen "Во первых, найди {b}костюм болельщицы{/b}."
+    jen "Потом {b}наручники{/b}."
     show player 10
     show jenny 10
-    player_name "Those are really specific... Where am I going to find those?"
+    player_name "Да, редкие вещи... Где мне их поискать?"
     show player 11
     show jenny 7 at right
-    jen "I DON'T KNOW!"
+    jen "Я НЕ ЗНАЮ!"
     show jenny 9 at Position(xpos=937)
-    jen "That's your part of the deal! I don't care where you get them from, as long as you get them!"
+    jen "Это твоя часть сделки! Мне все равно, где ты их возьмешь, главное, чтобы они были у тебя!"
     show player 12
     show jenny 9b
-    player_name "What do I get in return?"
-    player_name "I don't need any more panties..."
+    player_name "Что я получу взамен?"
+    player_name "Мне больше не нужны трусы..."
     show player 11
     show jenny 12
-    jen "Don't worry about that! I'll get you something way better than panties!"
+    jen "Не беспокойтесь об этом! Я дам тебе кое-что получше трусиков!"
     show player 12
     show jenny 10
-    player_name "You won't even tell me what it is?"
+    player_name "Ты даже не скажешь мне, что это такое?"
     show player 11
     show jenny 7 at right
-    jen "I said, {b}DON'T WORRY{/b}!!"
+    jen "Я сказала, {b}НЕ БЕСПОКОЙСЯ{/b}!!"
     show jenny 9 at Position(xpos=937)
-    jen "It's more than you deserve, and you'll definitely like it, so just DO IT!"
+    jen "Это больше, чем ты заслуживаешь, и тебе это определенно понравится, так что просто ИДИ И ПРИНЕСИ!"
     show player 10
     show jenny 9b
-    player_name "{b}*Sigh*{/b}"
+    player_name "{b}*вздох*{/b}"
     show jenny 82
-    player_name "Fine. I'll see what I can find..."
+    player_name "Хорошо. Посмотрим, что я смогу найти..."
     show player 1
     show jenny 12
-    jen "Good."
+    jen "Отлично."
     show player 11
     show jenny 7 at right
-    jen "Now {b}GET OUT{/b}!!" with hpunch
+    jen "А сейчас {b}ПРОВАЛИВАЙ{/b}!!" with hpunch
     hide player
     hide jenny
     return
@@ -278,48 +278,48 @@ label hallway_mom_sleepover_offer:
     show debbie 3 at right
     show player 1 at left
     with dissolve
-    deb "Hey there, sweetie."
+    deb "Привет, милый."
     show player 17
     show debbie 1
-    player_name "Hey, {b}[deb_name]{/b}."
+    player_name "Привет, {b}[deb_name]{/b}."
     show debbie 2
     show player 1
-    deb "How have you been sleeping?"
+    deb "Как спалось?"
     show player 10
     show debbie 14
-    player_name "I don't sleep as easy as I used to, you know, before {b}Dad{/b} died. I'm okay though."
+    player_name "Я не сплю так легко, как раньше, до того, как умер {b}отец{/b}. Хотя со мной все в порядке."
     show player 5
     show debbie 13
-    deb "You thinking about all the things that have been happening lately?"
+    deb "Ты думаешь обо всем, что происходило в последнее время?"
     show debbie 14b
     show player 10
-    player_name "Yeah, I guess... A little bit."
+    player_name "Да, наверное... Немного."
     show player 5
     show debbie 13
-    deb "I don't want you to worry about it, sweetie."
-    deb "Everything will be okay, I promise."
+    deb "Я не хочу, чтобы ты волновался, милый."
+    deb "Все будет хорошо, я обещаю."
     show debbie 14
     show player 10
-    player_name "How about you? You sleeping okay?"
+    player_name "Как насчет тебя? Хорошо спишь?"
     show player 5
     show debbie 13
-    deb "Not really."
+    deb "Не очень."
     show debbie 14
     pause
     show debbie 13
-    deb "... But I'm used to it. I've had trouble sleeping since my husband left many years ago."
+    deb "... Но я уже привыкла. У меня были проблемы со сном, когда мой муж ушел от меня много лет назад."
     show player 11
-    deb "I understand what you're going through."
+    deb "Я понимаю, через что ты проходишь."
     show debbie 14b
     show player 12
-    player_name "Really?"
+    player_name "Правда?"
     show player 5
     show debbie 13
-    deb "Yeah. I miss your {b}Dad{/b} too."
+    deb "Да. Я тоже скучаю по твоему {b}отцу{/b}."
     show debbie 14
     pause
     show debbie 2
-    deb "We were friends for a long time, you know?"
+    deb "Мы были друзьями очень долгое время."
     show debbie 1
     show player 13
     pause
@@ -330,31 +330,31 @@ label hallway_mom_sleepover_offer:
     show player 13 at left
     show debbie 2 at right
     with dissolve
-    deb "At least I have you now..."
+    deb "По крайней мере, теперь у меня есть ты ..."
     show debbie 1
     pause
     show debbie 2
-    deb "If you have any trouble sleeping again, just come visit me, Okay?"
+    deb "Если у тебя снова будут проблемы со сном, приходи ко мне, хорошо?"
     show debbie 1
     show player 10
-    player_name "In your bedroom?"
+    player_name "В твою спальню?"
     show player 5
     show debbie 3
-    deb "Sure!"
+    deb "Конечно!"
     show debbie 2
-    deb "Perhaps the company will help us both fall asleep?"
+    deb "Возможно, компания поможет нам заснуть?"
     show debbie 1
     show player 10
-    player_name "You don't mind me sleeping in your bed?"
+    player_name "Ты не возражаешь, если я буду спать в твоей кровати?"
     show player 11
     pause
     show debbie 13
-    deb "I think it could do us some good..."
+    deb "Думаю, это пойдет нам на пользу..."
     show player 13
-    deb "... After everything that's happened."
+    deb "... После всего, что случилось."
     show debbie 14
     show player 14
-    player_name "...Okay. Sure, {b}[deb_name]{/b}."
+    player_name "...Хорошо. Конечно, {b}[deb_name]{/b}."
     hide player
     hide debbie
     with dissolve
@@ -367,23 +367,23 @@ label hallway_mom_movie_night_two:
     scene hallway_night
     show player 1 at left
     show debbie 62 at right
-    deb "Hey there, sweetie!"
+    deb "Привет, милый!"
     show player 2
     show debbie 61
-    player_name "Hey {b}[deb_name]{/b}, what's up?"
+    player_name "Привет {b}[deb_name]{/b}, в чем дело?"
     show player 1
     show debbie 62
-    deb "I was thinking about watching another movie."
-    deb "Care to join me?"
+    deb "Я думал о просмотре кинофильма."
+    deb "Хочешь присоединиться ко мне?"
     show player 2
     show debbie 61
-    player_name "Of course, I'd love to!"
+    player_name "Конечно, с удовольствием!"
     show player 1
     show debbie 62
-    deb "Wonderful, I'll go get situated then! Come and join me in the {b}livingroom{/b} when you're ready."
+    deb "Замечательно, тогда я пойду располагаться! Приходите ко мне в {b}гостиную{/b}, когда будешь готов."
     show player 2
     show debbie 61
-    player_name "Sounds good! I'll be right down."
+    player_name "Звучит неплохо! Я сейчас спущусь."
     hide debbie
     hide player
     with dissolve
