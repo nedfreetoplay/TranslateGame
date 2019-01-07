@@ -1020,6 +1020,8 @@ label kitchen_mom_dinner_fish:
     deb "Я скажу тебе, когда всё будет готово."
     show player 203
 
+    scene black
+
     scene expression L_home_entrance.background
     show diane 137 at right
     show debbie 91f
