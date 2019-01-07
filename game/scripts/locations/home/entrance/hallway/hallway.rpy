@@ -10,7 +10,7 @@ label hallway_dialogue:
             call expression game.dialog_select("hallway_jenny_start")
             call screen jen_name_input
             if jen_char_name.strip() == "":
-                $ jen_char_name = "Jenny"
+                $ jen_char_name = "Джени"
             $ config.replay_scope["jen_char_name"] = jen_char_name
             $ persistent.jen_char_name = jen_char_name
             $ jen = Character("[jen_char_name]", color="#ff6df0")
@@ -45,19 +45,19 @@ label hallway_dialogue:
             scene hallway
             show player 14 at left
             with dissolve
-            player_name "( Someone's in the shower. )"
+            player_name "( Кто-то принимает душ. )"
             show player 26
-            player_name "( I think they left the door unlocked... )"
+            player_name "( Думаю, они оставили дверь незапертой... )"
             hide player
             with dissolve
 
         elif M_mom.is_state([S_mom_shower_peek, S_mom_shower_walk_in]) and L_home_shower.is_here(M_mom):
             scene hallway
             show player 14 with dissolve
-            player_name "( Someone's in the shower? )"
-            player_name "( I wonder if it's {b}[deb_name]{/b}. )"
+            player_name "( Кто-то принимает душ? )"
+            player_name "( Интересно, если это {b}[deb_name]{/b}. )"
             show player 26
-            player_name "( Maybe I can peek just a little... )"
+            player_name "( Может быть, я могу заглянуть немного... )"
             hide player with dissolve
     else:
 
@@ -88,11 +88,11 @@ label attic_entry_dialogue:
 
         scene expression game.timer.image("hallway{}")
         show player 34 with dissolve
-        player_name "Hmm..."
+        player_name "Хмм..."
         show player 35
         if not player.has_picked_up_item("stool"):
-            player_name "( I need something to {b}stand on{/b} to reach the opening... )"
+            player_name "( Мне нужно {b}стоять{/b} на чём то для открытия... )"
         else:
-            player_name "( That small trap door is {b}locked{/b}. )"
+            player_name "( Этот маленький люк {b}заперт{/b}. )"
         jump expression game.dialog_select("hallway_dialogue")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
