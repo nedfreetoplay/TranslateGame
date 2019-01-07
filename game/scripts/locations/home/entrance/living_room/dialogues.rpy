@@ -799,7 +799,7 @@ label mom_movie_night_couch_sex_pre:
     deb "Так..."
     hide playerfb
     show debbief 4bf
-    show debbiefa 5f at Position(xpos=0.7255, ypos=0.7625)
+    show debbiefa 5f at Position(xpos=0.74, ypos=0.7625)
     with dissolve
     pause
     show debbief 4f
@@ -1027,8 +1027,8 @@ label mom_movie_night_couch_sex:
     pause 4
     deb "Сильнее! Ещё жестче, {b}[firstname]{/b}!"
     pause
-    $ M_mom.set('sex speed', M_mom.get('sex speed') / 2)
-    show debbies 151_152_153_154_155_156_157
+    $ M_mom.set('sex speed', 0.075)
+    show expression AnimatedImage("debbies", [151,152,153,154,155,156,157], M_mom) as debbies at Position(xpos=0.5100, ypos=.8580) with dissolve
     deb "БОЖЕ М-!!!"
     pause 4
     deb "AAAAAХХХХ!!!"
@@ -1071,7 +1071,7 @@ label debbie_movie_night_couch_sex_hscene_dialog:
         deb "AAAAAHHHH!!!{p=1}{nw}"
     return
 
-label mom_movie_night_couch_sex_cum:
+label debbie_movie_night_couch_sex_cum:
     player_name "{b}[deb_name]{/b}, я больше не могу."
     deb "Всё хорошо, милый."
     deb "Я уже тоже почти!"
