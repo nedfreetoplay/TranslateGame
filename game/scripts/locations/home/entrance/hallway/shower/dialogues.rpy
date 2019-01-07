@@ -333,7 +333,7 @@ label shower_mom_sex_walk_in_pre:
 
 label shower_mom_sex_walk_in_after:
     scene shower_closeup
-    show debbies 37_36
+    show debbies 37_36 at Position (xpos=474)
     pause 4.8
     show debbies 35
     player_name "Я люблю принимать душ с тобой, {b}[deb_name]{/b}"
@@ -341,19 +341,19 @@ label shower_mom_sex_walk_in_after:
     pause .1
     show debbies 41_76
     pause 4
-    show debbies 42
+    show debbies 42 at Position (xoffset=38)
     deb "Могу я помочь тебе опустить его?"
-    show debbies 43
+    show debbies 43 at Position (xoffset=38)
     deb "Так..."
-    show debbies 44
+    show debbies 44 at Position (xoffset=38)
     deb "Какие планы на сегодня?"
-    show debbies 43
+    show debbies 43 at Position (xoffset=38)
     deb "Что-нибудь веселое?"
-    show debbies 72_71
+    show debbies 72_71 at Position (xoffset=38)
     pause 4
-    show debbies 45 with dissolve
+    show debbies 45 at Position (xoffset=38) with dissolve
     deb "Ты весь напряжен. Теперь все зависит от тебя, милый..."
-    show debbies 73 with dissolve
+    show debbies 73 at Position (xoffset=38) with dissolve
     return
 
 label shower_mom_sex_wash:
@@ -379,7 +379,7 @@ label shower_mom_sex_wash_handjob:
     player_name "Мммммммм!!!"
     show white zorder 4 with dissolve
     show debbies 47 at Position(xpos=526,ypos=768)
-    show playersex 33 zorder 3 at Position(xpos=549,ypos=508)
+    show playersex 33 zorder 3 at Position(xpos=610,ypos=880)
     hide white with dissolve
     pause
     show debbies 48
@@ -626,7 +626,7 @@ label mom_shower_sex_cum_after:
 label mom_shower_end_dialogue:
     hide playersex
     hide debbies
-    show debbies 34 at Position(xpos=498,ypos=768)
+    show debbies 34 at Position(xpos=474,ypos=768)
     with dissolve
     if randomizer() <= 50:
         deb "Это было весело, но мне действительно нужно было спуститься вниз и начать готовить обед."
