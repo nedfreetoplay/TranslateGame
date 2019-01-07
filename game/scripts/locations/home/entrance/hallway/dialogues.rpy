@@ -1,4 +1,4 @@
-label hallway_sis_start:
+label hallway_jenny_start:
     scene hallway
     show player 1 at left
     show jenny 10 at right
@@ -42,7 +42,7 @@ label hallway_mom_sis_boobs_afterthoughts:
     show player 26 with dissolve
     player_name "Вау..."
     player_name "Я не могу поверить, что {b}[jen_name]{/b} оголила грудь передо мной..."
-    if sister.completed(sis_shower_cuddle01):
+    if M_jenny.finished_state(S_jenny_shower_peep_bed_cuddle):
         player_name "Я никогда раньше не видел их так близко..."
     else:
         player_name "Я никогда раньше их не видел."
