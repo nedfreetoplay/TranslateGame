@@ -12,7 +12,7 @@ label home_kitchen_dialogue:
             call expression game.dialog_select("kitchen_mom_start")
             call screen deb_name_input
             if deb_char_name.strip() == "":
-                $ deb_char_name = "Debbie"
+                $ deb_char_name = "Дебби"
             $ config.replay_scope["deb_char_name"] = deb_char_name
             $ persistent.deb_char_name = deb_char_name
             $ deb = Character("[deb_char_name]", color="#ff6df0")
@@ -80,11 +80,11 @@ label mom_kissing_practice:
 label dishes_dialogue:
     call expression game.dialog_select("kitchen_mom_dishes")
     menu:
-        "Let me help.":
+        "Позволь помочь.":
             call expression game.dialog_select("kitchen_mom_dishes_yes")
             $ game.timer.tick()
             $ M_mom.trigger(T_mom_washed_dishes)
-        "Nevermind.":
+        "Неважно.":
 
             call expression game.dialog_select("kitchen_mom_dishes_no")
     $ M_mom.set("chores", False)
