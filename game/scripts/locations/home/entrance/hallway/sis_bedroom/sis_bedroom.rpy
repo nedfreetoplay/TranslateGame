@@ -28,18 +28,18 @@ label sis_bedroom_dialogue:
             call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties")
             if player.has_money(100):
                 menu:
-                    "Here's $100.":
+                    "Вот $100.":
                         $ player.spend_money(100)
                         $ player.get_item("panties")
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_buy_panties")
                         $ M_jenny.trigger(T_jenny_panty_bought)
-                    "I don't need it.":
+                    "Мне это не нужно.":
 
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_do_not_buy_panties")
             else:
 
                 menu:
-                    "I don't have enough.":
+                    "У меня нет достаточного количества.":
                         call expression game.dialog_select("sis_bedroom_sis_caught_stealing_panties_cant_buy_panties")
             $ player.go_to(L_home_hallway)
 
