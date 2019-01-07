@@ -1572,7 +1572,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_seen_penis_sex:
     show jenny 180
     show roxxy 39 with dissolve
     jen "Маленький, да? Это плохо."
-    show roxxy 35e
+    show roxxy 35e at Position (xoffset=-120, yoffset=100)
     show jenny 179
     rox "Да уж, к тому же он просто придурок."
     show jenny 180
