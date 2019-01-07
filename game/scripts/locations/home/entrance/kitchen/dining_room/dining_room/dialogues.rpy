@@ -194,7 +194,7 @@ label dining_room_sis_breakfast:
     show jenny 47
     jen "Она... платит тебе {b}чем-то кроме{/b} денег?"
     show player 323
-    show jenny 88
+    show jenny 48
     player_name "Чего?"
     show player 322
     show jenny 47
