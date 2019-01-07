@@ -200,13 +200,13 @@ label living_room_diane_peeking:
     player_name "... {b}I should rub one out really quick and clear my head.{/b}"
     hide player with dissolve
     return
-
+	
 label living_room_sis_couch_1_progress:
     scene expression L_home_entrance.background
     show player 11 with dissolve
     pause 0.0001
-    player_name "( I'm not going back in there, she'll catch me for sure. )"
-    player_name "( I should go to bed. )"
+    player_name "( Я не должен туда идти, или она точно меня поймает. )"
+    player_name "( Нужно вернуться в кровать. )"
     hide player with dissolve
     return
 
@@ -214,7 +214,7 @@ label living_room_sis_couch_3_started:
     scene home_livingroom_night_b
     show player 12
     with dissolve
-    player_name "( Is someone in here? )"
+    player_name "( Тут кто-то есть? )"
     show player 11
     player_name "..."
     return
@@ -222,18 +222,18 @@ label living_room_sis_couch_3_started:
 label living_room_mom_spy:
     scene home_livingroom_b
     show player 30 with dissolve
-    player_name "No, it's not the TV."
+    player_name "Нет, это не телевизор."
     show player 4 with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     pause
     show player 12 with dissolve
-    player_name "( Where is that noise coming from?! )"
+    player_name "( Тогда откуда этот шум?! )"
     show player 35
-    player_name "( I definitely hear something... Or someone... )"
+    player_name "( Я точно слышал что-то... Или кого-то... )"
     show player 12
-    player_name "( Is it coming from {b}[deb_name]{/b}'s bedroom? )"
+    player_name "( Неужели это из комнаты {b}[deb_name]{/b}? )"
     show player 10
-    player_name "( I should make sure everything is okay... )"
+    player_name "( Нужно убедиться, что всё в порядке... )"
     hide player 10 with dissolve
     return
 
@@ -250,12 +250,12 @@ label mom_movie_night:
         label mom_couch_sex_replay:
             call expression game.dialog_select("mom_movie_night_couch_sex_pre")
         menu:
-            "Blowjob.":
+            "Оральный секс.":
                 call expression game.dialog_select("mom_movie_night_couch_sex_blowjob")
-            "Sex.":
+            "Секс.":
 
                 call expression game.dialog_select("mom_movie_night_couch_sex")
-
+                
         call expression game.dialog_select("mom_movie_night_couch_sex_after")
         $ renpy.end_replay()
         $ persistent.cookie_jar["Debbie"]["unlocked"] = True
@@ -263,10 +263,10 @@ label mom_movie_night:
         $ M_mom.set("movie night", False)
         call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_pre")
         menu:
-            "Yes":
+            "Да.":
                 call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_yes")
                 jump expression game.dialog_select("mom_sleeping")
-            "No":
+            "Нет.":
 
                 call expression game.dialog_select("mom_movie_night_couch_sex_sleep_together_no")
 
@@ -278,43 +278,43 @@ label mom_movie_night:
 label mom_movie_night_romance_movie:
     show player 1 at left
     show debbie 63 at right
-    deb "There you are..."
-    deb "Ready to start the movie?"
+    deb "А вот и ты..."
+    deb "Готов уже начать смотереть какой-нибудь фильм?"
     show player 2
     show debbie 61
-    player_name "Yup! What are we watching?"
+    player_name "Да! А что ты будешь смотреть?"
     show player 1
     show debbie 60
-    deb "Hmm, I don't know... I'm kind of in the mood for a romance."
+    deb "Хмм, даже не знаю... Я в настроении для чего-нибудь романтического."
     show player 10
     show debbie 61
-    player_name "... Seriously?"
+    player_name "... Серьезно?"
     show player 90
     show debbie 62
-    deb "Hehe, yeah! Why? What would you like to watch?"
+    deb "Хаха, да! А почему нет? А ты чего бы хотел глянуть?"
     show player 10
     show debbie 61
-    player_name "I dunno... Something with some action maybe?"
+    player_name "Ну не знаю... Может быть что-нибудь экшеновое?"
     show player 90
     show debbie 62
-    deb "Pfft, typical man..."
+    deb "Пфф, типичные парни..."
     show player 10
     show debbie 61
-    player_name "Heh, is that a bad thing?"
+    player_name "Хех, разве это плохо?"
     show player 90
     show debbie 62
-    deb "Hehehe, no. I suppose not."
+    deb "Хехе, нет. Думаю, что нет."
     show debbie 60
-    deb "Ugh! I'm really in the mood for a sappy romance though!"
-    deb "How about you let me choose this one and you can pick next time?"
+    deb "Ух! Но я правда хочу глянуть какую-нибудь глупую мелодраму!"
+    deb "Может в это раз я выберу фильм, а в следующий раз ты?"
     show player 10
     show debbie 59
-    player_name "Yeah, okay..."
+    player_name "Да, окей..."
     show player 2
-    player_name "Let's see what we can find."
+    player_name "Давай посмотрим, какой у нас выбор."
     show player 1
     show debbie 62
-    deb "Yay! Thanks, {b}[firstname]{/b}!"
+    deb "Яй! Спасибо, {b}[firstname]{/b}!"
 
     scene home_livingroom_tv
     show home_tv_channel_02 at Position(xpos=522, ypos=521)
@@ -325,9 +325,9 @@ label mom_movie_night_romance_movie:
     pause
     show home_tv_channel_06b at Position(xpos=522, ypos=521)
 
-    deb "Oooh! There we go!"
-    deb "I haven't seen this one yet!"
-    player_name "... Great."
+    deb "Oooх! Ну давай посмотрим!"
+    deb "О, вот эту я ещё не видела!"
+    player_name "... Прекрасно."
 
     scene location_home_livingroom_couch03
     show playerf 2df zorder 0 at Position(xpos=0.805, ypos=1.0095)
@@ -335,33 +335,33 @@ label mom_movie_night_romance_movie:
     show debbief 3bf zorder 3 at Position(xpos=0.435, ypos=1.025)
     show debbiefa 1f zorder 4 at Position(xpos=0.5725, ypos=0.7175)
     with dissolve
-    deb "Haha, don't be like that."
-    deb "You never know, you might like it..."
+    deb "Хаха, ну перестань."
+    deb "Тебе же может понравиться..."
     show debbief 3f
     show playerf 2cf
-    player_name "I won't."
-    player_name "Believe me, I know..."
+    player_name "Не может."
+    player_name "Поверь мне, я знаю..."
     show debbief 3bf
     show playerf 2df
-    deb "Oh, just hush and watch!"
+    deb "Ох, просто замолчи и смотри!"
 
     scene expression "backgrounds/location_home_couch_cutscene01.jpg"
-    show expression FilteredText("I'll admit, the film wasn't so bad.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Признаюсь, фильм был не так уж и плох.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("Not much action but at least it had some good humor to it.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Не так много экшена, но, по крайней мере, у неё было хорошее настроение.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
-    show expression FilteredText("{b}[deb_name]{/b} certainly seemed to be enjoying it. Her melodic laughter filled the room and brought a smile to my face.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("{b}[deb_name]{/b} похоже, ей понравилось. Её мелодичный смех наполнил комнату и вызвал улыбку на моем лице.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
     scene expression "backgrounds/location_home_couch_cutscene02.jpg"
-    show expression FilteredText("She made herself comfortable as we watched and I constantly found my eyes drawn to her body...") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Она устроилась поудобнее, когда мы смотрели, и я постоянно замечал, что мои глаза тянутся к её телу...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("Especially when the movie took an erotic turn, the two lover's on screen embraced, kissing passionately.\nTheir hands exploring as they hurried to undressed one another...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Особенно когда фильм принял эротический оборот, два любовника на экране обнялись, страстно целуясь.\nИх руки изучали друг друга, когда они поспешили раздеться...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
     scene black
@@ -372,53 +372,53 @@ label mom_movie_night_romance_movie:
     show playerfa 1f zorder 1 at Position(xpos=0.8235, ypos=0.7345)
     show debbies 136b zorder 3 at Position(xpos=0.4115, ypos=1.005)
     with dissolve
-    player_name "( Wow, this is getting pretty intense... )"
+    player_name "( Cтановится немного напряженно... )"
     show playerf 3cf
-    player_name "( ...It's a bit awkward but {b}[deb_name]{/b} doesn't seem to be bothered. )"
+    player_name "( ...Хотя {b}[deb_name]{/b} вроде хорошо себя чувствует. )"
     show debbies 136c with dissolve
     show playerf 4flip
 
     player_name "( !!! )" with hpunch
     show playerf 4bf
-    player_name "( What is she doing!? )"
-    player_name "( She's touching my... )"
+    player_name "( Что она делает!? )"
+    player_name "( Она трогает мой... )"
     show playerf 3cf
-    player_name "( Did she put her foot there on purpose? )"
+    player_name "( Она положила сюда ногу с определенной целью? )"
     player_name "( ... )"
     show playerf 4bf
-    player_name "( ...No, I don't think she even realizes-- Uh oh... )"
+    player_name "( ...Нет, я думаю, что она не понимает-- Ах ох... )"
     show playerf 4flip
     show playerfb 1f zorder 2 at Position(xpos=0.8185, ypos=0.75) with dissolve
     pause
     show playerf 3bf
-    player_name "( Ah no! Ah crap! Ah jeeze! )"
-    player_name "( I didn't mean to... It's just the movie and her foot... I couldn't help it! )"
+    player_name "( О нет! Черт! О боже! )"
+    player_name "( Я не... Она так двигает своей ногой... Я ничего не могу с этим поделать! )"
     show playerf 3cf
-    player_name "( Please, don't notice... )"
-    player_name "( Please, oh please, oh please! )"
-    deb "( Phew, this is getting pretty hot and heavy. )"
-    deb "( I hope this isn't making, {b}[firstname]{/b} uncomfortable. )"
+    player_name "( Пожалуйста, не заметь это... )"
+    player_name "( Пожалуйста, пожалуйста, пожалуйста! )"
+    deb "( Фух, он становится горячим и твердым. )"
+    deb "( Надеюсь, что {b}[firstname]{/b} комфортно. )"
     show playerf 4ef
     show debbies 136d
-    deb "( Hmm, what is- )"
+    deb "( Хмм, что за- )"
     show debbies 135 with hpunch
-    deb "( Oh my god! )"
-    deb "( Is that his... )"
+    deb "( О боже! )"
+    deb "( Его... )"
     show debbies 136e
     deb "( ... )"
-    deb "( I still can't believe {b}[firstname]{/b} is {b}hung like this{/b}! )"
+    deb "( Всё ещё не могу поверить, что у {b}[firstname]{/b} {b}такой огромный{/b}! )"
     show debbies 136d
-    deb "( Where the heck did it come from?! )"
-    deb "( I mean, his {b}Father{/b} was {b}big{/b}, but {b}nothing like this{/b}! )"
+    deb "( Как это вообще произошло?! )"
+    deb "( То есть, у его {b}отца{/b} был {b}большой{/b}, но {b}не на столько же{/b}! )"
     show debbies 136e
-    deb "( It must come from his Mother's side. )"
-    deb "( Poor thing. This has got to be awkward for him. Do I just ignore it? )"
+    deb "( Наверное, это связано с генами его матери. )"
+    deb "( Бедненький. Он сейчас, скорее всего, очень странно себя чувствует. Может, просто не обращать внимание? )"
     show debbies 136d
     pause
     show debbies 136f
     deb "( ... )"
     show debbies 136e
-    deb "( Oh gosh, {b}I'm staring{/b}... Snap out of it, {b}[deb_name]{/b}! )"
+    deb "( О боже, {b}я же просто пялюсь{/b}... Отвернись, {b}[deb_name]{/b}! )"
     scene location_home_livingroom_couch03
     show playerf 3f zorder 0 at Position(xpos=0.805, ypos=1.0095)
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75)
@@ -427,44 +427,44 @@ label mom_movie_night_romance_movie:
     show debbiefa 1f zorder 4 at Position(xpos=0.56, ypos=0.715)
     with dissolve
     player_name "( ... )"
-    player_name "( This is not good. Should I say something? )"
+    player_name "( Это не хорошо. Может, мне нужно что-то сказать? )"
     show playerf 5f
-    player_name "I uhh... This movie got kinda {b}naughty{/b}, huh?"
+    player_name "Я, эмм... Это ведь достаточно {b}пошлые{/b} движения?"
     show playerf 3f
     show debbief 5bf
-    deb "Y-yeah... It sure did."
+    deb "Да, это точно."
     show debbief 5flip
     pause
     show debbief 5ff
     pause
     show debbief 5cf
     show playerf 4ef
-    player_name "( {b}Is she blushing?{/b} )"
+    player_name "( {b}Она покраснела?{/b} )"
     pause
     deb "..."
     show debbief 5bf
-    deb "- Sorry about that. I... I didn't know..."
+    deb "- Прости. Я... Я не знаю..."
     show playerf 5f
     show debbief 5flip
-    player_name "No, it's okay! Nothing I haven't seen before."
+    player_name "Нет, всё в порядке! Ничего подобного раньше не видел."
     show debbief 5ff
     pause
     show debbief 5cf
     show playerf 4ef
-    deb "( Oh no, I hope he didn't notice me {b}staring{/b}... )"
+    deb "( О нет, надеюсь он не заметил, как я {b}на него смотрела{/b}... )"
     show debbief 5flip
-    deb "( It's just so {b}huge{/b}! I wonder what something that big would even feel- )"
+    deb "( Просто он такой {b}большой{/b}! Интересно, как он будет ощущаться- )"
     show debbief 5gf with hpunch
-    deb "( ... What the heck am I thinking?! )"
+    deb "( ... О чем, чёрт возьми, я думаю?! )"
     show debbief 5cf
     pause
     show playerf 5f
-    player_name "*Ahem* So, ehh... Other than this scene, the movie is pretty good."
+    player_name "*Ахм* Эм... Помимо некоторых сцен, фильм был достаточно хорош."
     show debbief 5ff
-    player_name "... Well, I mean, it's better than I thought it would be."
+    player_name "... Так что, как мне кажется, что всё было лучше, чем я думал."
     show playerf 5bf
     show debbief 5gf
-    deb "Hehe, y-yeah? I'm glad you liked it."
+    deb "Хехе, правда? Я рада, что тебе понравилось."
     show debbief 5ff
     pause
     show debbief 5flip
@@ -480,52 +480,52 @@ label mom_movie_night_romance_movie:
     show player 2 at left
     show debbie 61 at right
     with dissolve
-    player_name "Well, thanks for the movie, {b}[deb_name]{/b}."
+    player_name "Что же, спасибо за фильм, {b}[deb_name]{/b}."
     show player 1
     show debbie 62
-    deb "Aww, of course! Thanks for watching it with me, sweetie!"
-    deb "I really enjoyed spending this time with you!"
+    deb "Спасибо, что посмотрел его со мной!"
+    deb "Мне было очень приятно провести с тобой время!"
     show player 2
     show debbie 61
-    player_name "Okay, well... Goodnight!"
+    player_name "Окей... Спокойной ночи!"
     show player 1
     show debbie 62
-    deb "Goodnight, Sweetheart!"
+    deb "Спокойной ночи, милый!"
     hide player with dissolve
     show debbie 29 at Position(xpos=0.75, ypos=1.115) with dissolve
-    player_name "( Mmm, she smells good! )"
-    deb "( I really am enjoying having him here. )"
-    deb "( He's such good company... And so handsome! )"
-    deb "( Oh gosh, What is the matter with me today!? )"
+    player_name "( Ммм, она так приятно пахнет! )"
+    deb "( Мне так хорошо, когда он рядом. )"
+    deb "( Он отличный собеседник... И такой красивый! )"
+    deb "( О боже, да что со мной сегодня!? )"
     return
 
 label mom_movie_night_romance_movie_two:
     show player 1 at left
     show debbie 62 at right
-    deb "There you are..."
-    deb "Ready for the movie?"
+    deb "А вот и ты..."
+    deb "Готов к просмотру?"
     show player 2
     show debbie 61
-    player_name "Yup!"
+    player_name "Ага!"
     show player 1
     show debbie 63
-    deb "I figured we could watch one of your cheesy action flicks tonight, if you wanted?"
+    deb "Я думаю, что мы можем посмотреть один из этих твоих боевиков."
     show player 2
     show debbie 61
-    player_name "Actually, I was thinking something romantic..."
+    player_name "Вообще-то, я как раз думал о чем-то романтичном..."
     show player 1
     show debbie 62
-    deb "What?! Who are you and what have you done with {b}[firstname]{/b}?"
+    deb "Что?! Кто ты, и что ты сделал с {b}[firstname]{/b}?"
     show player 2
     show debbie 61
-    player_name "Hehe. Well, they make you happy and I like seeing you happy, {b}[deb_name]{/b}..."
+    player_name "Хехе. Ну, это делает тебя счестливой, а мне приятно, когда тебе хорошо, {b}[deb_name]{/b}..."
     show player 1
     show debbie 62
-    deb "Aww, such a Sweetheart!"
-    deb "Well, have a seat and lets see what we can find."
+    deb "Оуу, ты такой хороший!"
+    deb "Тогда садись, и мы вместе чего-нибудь выберем."
     show player 2
     show debbie 61
-    player_name "Okay, sure!"
+    player_name "Окей!"
 
     scene home_livingroom_tv
     show home_tv_channel_02 at Position(xpos=522, ypos=521)
@@ -536,9 +536,9 @@ label mom_movie_night_romance_movie_two:
     pause
     show home_tv_channel_06b at Position(xpos=522, ypos=521)
 
-    deb "There we go!"
-    deb "Ooh, this is a good one!"
-    player_name "... Great!"
+    deb "Вот этот!"
+    deb "Ох, он должен быть очень неплохим!"
+    player_name "... Прекрасно!"
 
     scene location_home_livingroom_couch04
     show playerf 3cf zorder 0 at Position(xpos=0.805, ypos=1.0)
@@ -547,54 +547,54 @@ label mom_movie_night_romance_movie_two:
     with dissolve
     player_name "..."
     show playerf 2ef
-    player_name "So, here we are again."
+    player_name "И снова оно."
     show playerf 2ff
     show debbies 133
-    deb "Mmmhmm."
+    deb "Mммхммм."
     show debbies 135
-    deb "You know, sweetie... I sure am glad you wanted to watch another movie with me."
+    deb "Знаешь, милый... Мне кажется, что ты хочешь посмотреть со мной немного другой фильм."
     $ M_mom.set('sex speed', M_mom.get('sex speed') / .45)
     show debbies 133_134
     show playerf 3bf
 
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*Глоть*{/b}"
     show playerf 4flip
-    player_name "O-of course, I love spending time with you, {b}[deb_name]{/b}."
+    player_name "К-конечно, мне нравится проводить с тобой время {b}[deb_name]{/b}."
     show playerf 3bf
     show debbies 135
-    deb "Mmm, always so sweet..."
+    deb "Mмм, ты всегда такой милый..."
     show debbies 133_134
     pause
     show debbies 135
-    deb "I think you deserve a reward."
+    deb "Думаю, что тебя нужно наградить за это."
     show playerf 4flip
     show debbies 133_134
-    player_name "... Really?"
+    player_name "... Правда?"
     show playerf 4bf
     show debbies 135
-    deb "Mmmhmm!"
+    deb "Mммхммм!"
     show debbies 133_134
     pause
     show playerf 4bf
     show debbies 135
-    deb "A nice..."
+    deb "Прекрасная..."
     show debbies 133_134
     pause
     show debbies 135
-    deb "... Big..."
+    deb "... Большая..."
     show debbies 133_134
     pause
     show debbies 135
-    deb "... Juicy..."
+    deb "... Сочная..."
     show debbies 133_134
     show playerf 4cf
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75) with dissolve
     pause
     show debbies 135
-    deb "... Reward."
+    deb "... Награда."
     show debbies 133_134 zorder 2
     show playerf 2ef
-    player_name "Oooh {b}[deb_name]{/b}, that feels wonderful."
+    player_name "Ох, {b}[deb_name]{/b}, звучит просто прекрасно."
     show playerf 4bf
     pause
 
@@ -606,17 +606,17 @@ label mom_movie_night_romance_movie_two:
     with dissolve
     pause
     show playerf 2ef
-    player_name "W-what are you doing, {b}[deb_name]{/b}?"
+    player_name "Что ты делаешь, {b}[deb_name]{/b}?"
     show playerf 2ff
     show debbies 138
-    deb "I'm just getting more comfortable, sweetie..."
+    deb "Просто устраиваюсь по-лучше, милый..."
     show debbies 139
     pause
     show debbies 140
-    deb "Why don't you come over here and lay with me?"
+    deb "Почему бы тебе не прилечь со мной?"
     show playerf 2ef
     show debbies 139
-    player_name "Y-Yeah, okay."
+    player_name "Д-да, окей."
     pause
     scene location_home_livingroom_couch06
 
@@ -624,27 +624,27 @@ label mom_movie_night_romance_movie_two:
     show debbiep 2 zorder 1 at Position(xpos=0.4917, ypos=0.7625)
     with dissolve
     pause
-    player_name "L-like this?"
+    player_name "Вот так?"
     show debbies 141
-    deb "Just like that..."
-    deb "Doesn't that feel better, sweetie?"
+    deb "Да, именно так..."
+    deb "Тебе приятно, милый?"
     show debbies 142
-    player_name "... Yeah it does."
+    player_name "... Да, приятно."
     show debbies 141
-    deb "Mmmhmm, now kiss me."
+    deb "Mмм, а теперь поцелуй меня."
     show debbies 142
-    player_name "O-okay..."
+    player_name "О-окей..."
     show debbies 143 with dissolve
     pause
     show debbies 144
     pause
     show debbies 143
-    deb "Mmm..."
+    deb "Mмм..."
     pause
     show debbies 141 with dissolve
-    deb "Such a good kisser..."
+    deb "Ты так хорошо целуешься..."
     show debbies 142
-    player_name "Thanks, {b}[deb_name]{/b}."
+    player_name "Спасибо, {b}[deb_name]{/b}."
     show debbies 143 with dissolve
 
     pause
@@ -653,87 +653,87 @@ label mom_movie_night_romance_movie_two:
     show debbies 143
     pause
     show debbies 142 with dissolve
-    player_name "Can I kiss you someplace else?"
+    player_name "Могу ли я поцеловать тебя где-то ещё?"
     show debbies 141
-    deb "Mmm, maybe... What do you have in mind?"
+    deb "Mмм, может быть... И где же ты хочешь меня поцеловать?"
     show debbiep 1
     show debbies 145
     with dissolve
 
-    player_name "How about, here!?"
+    player_name "Что насчет этого места!?"
     $ M_mom.set('sex speed', M_mom.get('sex speed') / 1)
     show debbies 146_147
-    deb "Hah!"
-    deb "Oh yes, {b}[firstname]{/b}! Mmm..."
+    deb "Хах!"
+    deb "О да, {b}[firstname]{/b}! Mмм..."
     player_name "..."
-    deb "That's it Baby, don't stop!"
-    deb "Aah!"
+    deb "Вот так, малыш, не останавливайся!"
+    deb "Aах!"
     pause
     show debbiep 2
     show debbies 142
     with dissolve
     deb "( !?? )"
     show debbies 141
-    deb "... What's the matter?"
+    deb "... Что такое?"
     show debbies 142
-    player_name "{b}[deb_name]{/b}, you're getting my shorts all wet..."
+    player_name "{b}[deb_name]{/b}, из-за тебя у меня шорты намокли..."
     show debbies 141
-    deb "Ooh... Oh gosh! What am I doing!? Stop! {b}[firstname]{/b}, stop!"
+    deb "Ooх... О боже! Что же я делаю!? Стоп! {b}[firstname]{/b}, остановись!"
     show debbies 142
-    player_name "Did I do something wrong?"
+    player_name "Я делаю что-то не так?"
     show debbies 141
-    deb "No! I... This is too much!"
-    deb "We just need to stop, Okay!?"
+    deb "Нет! Я... Просто это перебор!"
+    deb "Нам просто нужно перестать, окей!?"
     show debbies 142
-    player_name "O-okay... I'm sorry, {b}[deb_name]{/b}."
+    player_name "О-окей... Прости меня, {b}[deb_name]{/b}."
     show debbies 141
-    deb "... No. Sweetie, you didn't do anything wrong."
-    deb "It's just..."
-    deb "I..."
-    deb "How about we just cuddle for awhile and finish the movie?"
-    deb "Would that be alright?"
+    deb "... Нет, милый. Ты не сделал ничего плохого."
+    deb "Просто..."
+    deb "Я..."
+    deb "Может просто пообнимаемся немного, а потом просто досмотрим фильм?"
+    deb "Это не проблема?"
     show debbies 142
-    player_name "Of course."
+    player_name "Конечно нет."
     show debbiep 1
     show debbies 162b at Position(xpos=0.5175, ypos=.8625)
     with dissolve
-    deb "Thanks, sweetie."
+    deb "Спасибо, милый."
     deb "..."
-    deb "( Phew, I almost lost my head there for a second. )"
+    deb "( Фух, я почти перестала себя контролировать. )"
 
     scene location_home_livingroom_night_blur
     show player 2 at left with dissolve
     show debbie 61 at right with dissolve
-    player_name "Thanks for the movie, {b}[deb_name]{/b}. It was fun!"
+    player_name "Спасибо за этот просмотр, {b}[deb_name]{/b}. Это было весело!"
     show player 1
     show debbie 62
-    deb "It sure was, sweetie. I'm so happy we are getting all this quality time together!"
-    deb "I really love spending time with you!"
+    deb "Да, было, милый. Я рада, что мы так хорошо вместе проводим время!"
+    deb "Мне правда очень приятно!"
     show player 2
     show debbie 61
-    player_name "I love spending time with you too, {b}[deb_name]{/b}."
+    player_name "Мне тоже нравится проводить с тобой время, {b}[deb_name]{/b}."
     hide player
     show debbie 29 at Position(xpos=0.75, ypos=1.115) with dissolve
-    player_name "Okay, well... Goodnight!"
+    player_name "Ну что же... Спокойной ночи!"
     show debbie 28
-    deb "Goodnight, Sweetheart!"
+    deb "Спокойно ночи, милый!"
     show debbie 59 at Position(xpos=0.75, ypos=1.0) with dissolve
-    deb "( He's such a sweet boy... )"
-    deb "( ... and so understanding. He stopped when I asked him to with no complaints whatsoever. )"
-    deb "( I should have done something to finish him. Poor thing... )"
+    deb "( Он такой милый мальчик... )"
+    deb "( ... и такой понемающий. Он остановился, как только я его попросила. )"
+    deb "( Может нужно было дать ему закончить. Бедненький ... )"
     return
 
 label mom_movie_night_couch_sex_pre:
     scene location_home_livingroom_night_blur
     show player 2 at left
     show debbie 61 at right
-    player_name "You ready?"
+    player_name "Ты готова?"
     show player 1
     show debbie 63
-    deb "Oh, I'm ready! I've been looking forward to this all day!"
+    deb "Ох, я готова! Я весь день этого ждала!"
     show player 2
     show debbie 61
-    player_name "Alright, just give me a second to get it set up..."
+    player_name "Отлично, тогда дай мне пару секунд..."
 
     scene location_home_livingroom_couch03
     show playerf 1f zorder 0 at Position(xpos=0.805, ypos=1.0095)
@@ -741,10 +741,10 @@ label mom_movie_night_couch_sex_pre:
     show debbief 3f zorder 3 at Position(xpos=0.415, ypos=1.0205)
     show debbiefa 1f zorder 4 at Position(xpos=0.5535, ypos=0.732)
     with dissolve
-    player_name "There we go, all set!"
+    player_name "Всё готово!"
     show playerf 2df
     show debbief 3bf
-    deb "Mmm, all set..."
+    deb "Mмм, готово..."
     show debbief 3f
     pause
     show debbief 4f
@@ -752,54 +752,54 @@ label mom_movie_night_couch_sex_pre:
     show debbiefa 2f at Position(xpos=0.6225, ypos=0.7175) with dissolve
     show playerf 3bf
     show debbief 5bf
-    deb "I've been thinking about you..."
+    deb "Я думала о тебе..."
     show playerf 5f
     show debbief 5flip
-    player_name "Oh yeah?"
-    player_name "... And what have you been thinking?"
+    player_name "Правда?"
+    player_name "... И о чем же конкретно ты думала?"
     show playerf 5bf
     show debbief 3bf
-    deb "How sweet you are."
-    deb "... And brave..."
-    deb "... And strong."
+    deb "Какой ты милый."
+    deb "... И храбрый..."
+    deb "... И сильный."
     show debbief 3f
     show playerf 5f
-    player_name "Is that all?"
+    player_name "И это всё?"
     show debbief 3bf
     show playerf 5bf
-    deb "No..."
+    deb "Нет..."
     show debbief 5bf
     show debbiefa 3f at Position(xpos=0.705, ypos=0.77) with dissolve
     show playerf 4hf
-    deb "I've also been thinking about that big..."
+    deb "Ещё я думала об этом большом..."
     $ M_mom.set('sex speed', M_mom.get('sex speed') / .5)
     show debbiefa 3f_3bf
     show debbief 5flip
     pause
     show debbief 5bf
-    deb "... Hard..."
+    deb "... Твердом..."
     show debbief 5flip
     pause
     show debbief 5bf
-    deb "... Juicy..."
+    deb "... Сочном..."
     show debbief 4f
     show playerf 4gf
-    player_name "Heh."
+    player_name "Хех."
     show debbiefa 4f at Position(xpos=0.6915, ypos=0.775)
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75)
     show playerf 4hf
     with dissolve
     pause
     show debbief 4bf
-    deb "... Cock."
+    deb "... Члене."
     show debbief 3f
     show playerf 2df
     pause
     show debbief 3bf
-    deb "So..."
+    deb "Так..."
     hide playerfb
     show debbief 4bf
-    show debbiefa 5f at Position(xpos=0.74, ypos=0.7625)
+    show debbiefa 5f at Position(xpos=0.7255, ypos=0.7625)
     with dissolve
     pause
     show debbief 4f
@@ -809,27 +809,27 @@ label mom_movie_night_couch_sex_pre:
     pause
     show debbief 3bf
     show playerf 2df
-    deb "What are we gonna do about this?"
+    deb "И что мы будем с этим делать?"
     show debbief 3f
     return
 
 label mom_movie_night_couch_sex_blowjob:
     show playerf 5f
-    player_name "Could you... use your mouth?"
+    player_name "Могла бы ты... использовать свой рот?"
     show debbief 3bf
     show playerf 5bf
-    deb "You want my mouth?"
+    deb "Ты хочешь мой ротик?"
     show debbief 4f
     pause
     show debbief 3bf
-    deb "Sure, sweetie. I love sucking your cock!"
+    deb "Конечно, милый. Я люблю сосать твой член!"
     show debbief 3f
     pause
     hide debbiefa
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75)
     show debbief 7bf at Position(xpos=0.4085, ypos=1.0165)
     with dissolve
-    deb "Just lay back and relax..."
+    deb "Просто ляг и расслабься..."
     show playerf 4hf
     hide playerfb
     show debbief 11f at Position(xpos=0.504, ypos=1.0165)
@@ -840,10 +840,10 @@ label mom_movie_night_couch_sex_blowjob:
     show debbief 7bf at Position(xpos=0.4085, ypos=1.0165)
     show playerfb 3f zorder 1 at Position(xpos=816, ypos=577)
     with dissolve
-    deb "... I'll take good care of you."
+    deb "... А я о тебе позабочусь."
     show debbief 7f at Position(xpos=0.4085, ypos=1.0165)
     show playerf 2cf zorder 0 at Position(xpos=0.805, ypos=1.0095)
-    player_name "... Thanks, {b}[deb_name]{/b}."
+    player_name "... Спасибо, {b}[deb_name]{/b}."
     scene location_home_livingroom_couch07
     show playerf 4bf zorder 0 at Position(xpos=0.805, ypos=1.0095)
     show playerfa 1f zorder 2 at Position(xpos=0.8235, ypos=0.7345)
@@ -854,20 +854,20 @@ label mom_movie_night_couch_sex_blowjob:
     show expression AnimatedImage("debbief", ["8flip","8bf","8cf","8df","8ef","8ff","8gf"], M_mom) as debbief zorder 3 at Position(xpos=524, ypos=780) with dissolve
     pause 2
     show playerf 4flip
-    player_name "Oh, wow!"
+    player_name "Ох, вау!"
     show playerf 4bf
     pause 4
     show playerf 4flip
-    player_name "Unngghh..."
+    player_name "Аааггхх..."
     show playerf 4bf
-    deb "Mmm..."
+    deb "Mмм..."
     pause 4
     show playerf 4flip
-    player_name "You're so good at this..."
+    player_name "А ты в этом хороша..."
     show playerf 4bf
-    deb "Mmmhmm..."
+    deb "Mммхммм..."
     pause 4
-    deb "Mmm..."
+    deb "Mмм..."
     $ animated = True
     $ M_mom.set('sex speed', 0.175)
     call screen debbie_movie_night_couch_blowjob_options
@@ -906,61 +906,61 @@ label debbie_movie_night_couch_blowjob_hscene_dialog:
         player_name "I can't-{p=1}{nw}"
     return
 
-label debbie_movie_night_couch_blowjob_cum:
+label mom_movie_night_couch_sex_blowjob_cum:
     show playerf 4flip
-    player_name "{b}[deb_name]{/b}, I'm gonna..."
+    player_name "{b}[deb_name]{/b}, я скоро..."
     show playerf 4bf
     pause
     show playerf 4df
     show debbief 9f
-    player_name "HNNGGG!!!" with flash
+    player_name "НННГГХ!!!" with flash
     show playerf 4gf
-    player_name "Uhhh, man..."
+    player_name "Оххх, боже..."
     scene location_home_livingroom_couch03
     show debbief 10f zorder 3 at Position(xpos=0.415, ypos=1.0205)
     show playerf 5f zorder 0 at Position(xpos=0.805, ypos=1.0095)
     show playerfa 1f zorder 2 at Position(xpos=0.8235, ypos=0.7345)
     show playerfb 2f zorder 1 at Position(xpos=816, ypos=577)
     with dissolve
-    player_name "{b}[deb_name]{/b}, that was incredible!"
+    player_name "{b}[deb_name]{/b}, это было потрясающе!"
     show debbief 5cf
     show debbiefa 2f zorder 4 at Position(xpos=0.6225, ypos=0.7175)
     with dissolve
-    deb "{b}*Gulp*{/b}"
+    deb "{b}*Глоть*{/b}"
     show debbief 5gf
-    deb "Goodness, that was a lot..."
+    deb "Господи, как же много..."
     show debbief 5ff
     show playerf 5f
-    player_name "Heh, sorry."
+    player_name "Хех, прости."
     show playerf 5bf
     show debbief 5gf
-    deb "Not at all, sweetie!"
-    deb "That was yummy!"
+    deb "Не извиняйся, милый!"
+    deb "Это было вкусно!"
     show debbief 5ff
     show playerf 5f
-    player_name "Oh, well I'm glad you like it."
+    player_name "Оу, что же, я рад, что тебе нравится."
     show playerf 5bf
-    deb "Mmmhmm!"
+    deb "Mммхммм!"
     show debbief 5gf
-    deb "I love you, Sweetheart."
+    deb "Я люблю тебя, милый."
     show debbief 5ff
     show playerf 5f
-    player_name "I love you too, {b}[deb_name]{/b}."
+    player_name "Я тоже тебя люблю, {b}[deb_name]{/b}."
     return
 
 label mom_movie_night_couch_sex:
     show playerf 5f
-    player_name "I want you..."
+    player_name "Я хочу тебя..."
     show debbief 3f
     show playerf 5bf
-    deb "Mmm..."
+    deb "Mмм..."
     show debbief 3bf
-    deb "I was hoping you'd say that..."
+    deb "Я надеялась, что ты это скажешь..."
     show debbief 5gf
     show debbiefa 4f at Position(xpos=0.6915, ypos=0.775)
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75)
     with dissolve
-    deb "This is the highlight of my day, you know?!"
+    deb "Это лучший момент за день, знаешь?!"
     scene location_home_livingroom_couch05
     show playerf 3cf zorder 0 at Position(xpos=0.805, ypos=1.0095)
     show playerfb 1f zorder 1 at Position(xpos=0.8185, ypos=0.75)
@@ -969,70 +969,70 @@ label mom_movie_night_couch_sex:
     with dissolve
     pause
     show debbies 138
-    deb "Oh, sweetie. I'm so wet for you..."
+    deb "О, милый. Из-за тебя я такая влажная..."
     show debbies 139
     pause
     show debbies 140
-    deb "Come and kiss me."
+    deb "Поцелуй меня."
     show playerf 2ef
-    player_name "O-okay."
+    player_name "О-окей."
     scene location_home_livingroom_couch06
     show debbies 141 zorder 0 at Position(xpos=0.5200, ypos=.8965)
     show debbiep 2 zorder 1 at Position(xpos=0.4917, ypos=0.7590)
     with dissolve
-    deb "That's it, Baby."
+    deb "Вот так, малыш."
     show debbies 143 with dissolve
     pause
     show debbies 144
-    deb "Mmm..."
+    deb "Mмм..."
     show debbies 143
     pause
     show debbies 141 with dissolve
-    deb "I'm ready, {b}[firstname]{/b}!"
-    deb "Give it to me..."
+    deb "Я готова, {b}[firstname]{/b}!"
+    deb "Дай мне его..."
     hide debbiep
     show debbies 148 at Position(xpos=0.5202, ypos=.8575)
     with dissolve
     pause
     show debbies 149 at Position(xpos=0.5208, ypos=.8950) with dissolve
-    deb "Oh, give me that big dick!"
+    deb "Дай мне уже этот большой член!"
     show debbies 150 at Position(xpos=0.5208, ypos=.8960) with dissolve
-    deb "Ahhh..."
-    deb "Yes..."
+    deb "Aхх..."
+    deb "Да..."
     show debbies 151 at Position(xpos=0.5100, ypos=.8580) with dissolve
-    deb "Yes!"
+    deb "Да!"
     $ M_mom.set('sex speed', M_mom.get('sex speed') / 3)
     show debbies 151_152_153_154_155_156_157
-    deb "YES!!!"
+    deb "ДА!!!"
     pause 4
-    deb "Oh, god..."
+    deb "О боже..."
     pause 4
-    deb "It's so good!"
+    deb "Это так приятно!"
     pause 4
-    deb "Oh, {b}[firstname]{/b}!"
+    deb "Ох, {b}[firstname]{/b}!"
     pause 4
-    player_name "Uhhh..."
-    deb "That's it, Baby. Fuck me harder!"
+    player_name "Ухх..."
+    deb "Вот так, малыш. Трахай меня сильнее!"
     pause 4
-    deb "Fuck me harder!"
+    deb "Ещё сильнее!"
     $ M_mom.set('sex speed', M_mom.get('sex speed') / 2)
     show debbies 151_152_153_154_155_156_157
     pause
-    deb "Aaahh!"
+    deb "Aaaхх!"
     pause 4
-    player_name "You like that, {b}[deb_name]{/b}?"
-    deb "Yes, Baby!"
+    player_name "Тебе это нравится, {b}[deb_name]{/b}?"
+    deb "Да, малыш!"
     pause 4
-    deb "Aahh, god!"
+    deb "Aaхх, боже!"
     pause 4
-    deb "Harder! Harder, {b}[firstname]{/b}!"
+    deb "Сильнее! Ещё жестче, {b}[firstname]{/b}!"
     pause
-    $ M_mom.set('sex speed', 0.075)
-    show expression AnimatedImage("debbies", [151,152,153,154,155,156,157], M_mom) as debbies at Position(xpos=0.5100, ypos=.8580) with dissolve
-    deb "Holy sh-!!!"
+    $ M_mom.set('sex speed', M_mom.get('sex speed') / 2)
+    show debbies 151_152_153_154_155_156_157
+    deb "БОЖЕ М-!!!"
     pause 4
-    deb "AAAAAHHHH!!!"
-    player_name "Oh, god!"
+    deb "AAAAAХХХХ!!!"
+    player_name "О господи!"
     pause
     $ animated = True
     call screen debbie_movie_night_couch_sex_options
@@ -1071,28 +1071,28 @@ label debbie_movie_night_couch_sex_hscene_dialog:
         deb "AAAAAHHHH!!!{p=1}{nw}"
     return
 
-label debbie_movie_night_couch_sex_cum:
-    player_name "{b}[deb_name]{/b}, I can't hold it."
-    deb "It's okay, sweetie."
-    deb "I'm there too!"
-    deb "I'm gonna-"
-    deb "I'M CUMMING!!"
-    player_name "HNNGGG!!!"
+label mom_movie_night_couch_sex_cum:
+    player_name "{b}[deb_name]{/b}, я больше не могу."
+    deb "Всё хорошо, милый."
+    deb "Я уже тоже почти!"
+    deb "Я-"
+    deb "Я КОНЧАЮ!!!"
+    player_name "НННГГХ!!!"
     show debbies 158 with flash
-    deb "AAAAHHHHHH!!!"
+    deb "AAAAХХХ!!!"
     pause
     show debbies 159 at Position(xpos=0.5200, ypos=.8915) with dissolve
-    player_name "Haaah... Haaah..."
+    player_name "Хаах... Хаах..."
     show debbies 161 with dissolve
-    deb "That was amazing, {b}[firstname]{/b}!"
+    deb "Это было прекрасно, {b}[firstname]{/b}!"
     show debbies 160
-    player_name "Haaah... Yeah."
+    player_name "Хаа... Это точно."
     show debbies 161
-    deb "I love you, sweetie."
+    deb "Я люблю тебя, милый."
     show debbies 160
-    player_name "I love you too."
+    player_name "И я тебя люблю."
     show debbies 162 at Position(xpos=0.5200, ypos=.8575) with dissolve
-    deb "Such a good boy..."
+    deb "Какой же ты хороший..."
     return
 
 label mom_movie_night_couch_sex_after:
@@ -1105,31 +1105,31 @@ label mom_movie_night_couch_sex_after:
     scene location_home_livingroom_night_blur
     show player 2 at left with dissolve
     show debbie 61 at right with dissolve
-    player_name "That was wonderful, {b}[deb_name]{/b}."
+    player_name "Это было восхитительно, {b}[deb_name]{/b}."
     show player 1
     show debbie 62
-    deb "It sure was, sweetie! I'm all worn out!"
+    deb "Я надеюсь, милый! Я теперь просто без сил!"
     return
 
 label mom_movie_night_couch_sex_sleep_together_pre:
     show player 2
     show debbie 61
-    player_name "Yeah, I'm tired too."
+    player_name "Да, я тоже устал."
     show player 1
     show debbie 62
-    deb "... Did you wanna sleep in my bed tonight?"
+    deb "... Не хочешь сегодня поспать у меня?"
     return
 
 label mom_movie_night_couch_sex_sleep_together_yes:
     show player 2
     show debbie 61
-    player_name "Sure, I'd love too."
+    player_name "Конечно хочу, это было бы просто замечательно."
     show player 1
     show debbie 62
-    deb "Great! I sleep so much better when you're beside me..."
+    deb "Отлично! Я сплю намного лучше, когда ты рядом..."
     show player 2
     show debbie 61
-    player_name "Y-yeah, me too."
+    player_name "Д-да, я тоже."
     hide debbie
     hide player
     scene black
@@ -1139,20 +1139,20 @@ label mom_movie_night_couch_sex_sleep_together_yes:
 label mom_movie_night_couch_sex_sleep_together_no:
     show player 10
     show debbie 61
-    player_name "Oh uh, actually, {b}[deb_name]{/b}..."
-    player_name "I'm gonna sleep in my bed tonight."
-    player_name "Is that alright?"
+    player_name "Эм, вообще-то, {b}[deb_name]{/b}..."
+    player_name "Я собирался поспать у себя."
+    player_name "Это не проблема?"
     show player 11
     show debbie 63
-    deb "Sure, sweetie."
-    deb "That's probably for the best."
+    deb "Конечно же нет, милый."
+    deb "Так, наверное, даже лучше."
     show debbie 63b
     player_name "..."
     show player 10
-    player_name "Well, goodnight, {b}[deb_name]{/b}."
+    player_name "Тогда спокойной ночи, {b}[deb_name]{/b}."
     show player 11
     show debbie 63
-    deb "Goodnight, {b}[firstname]{/b}."
+    deb "Спокойной, {b}[firstname]{/b}."
     hide debbie
     hide player
     with dissolve
@@ -1164,9 +1164,9 @@ label couch_dialogue:
         jump sis_couch_replay_1
     $ M_jenny.trigger(T_jenny_couch_fun)
     menu:
-        "Leave.":
+        "Уйти.":
             call expression game.dialog_select("couch_dialogue_leave")
-        "Keep watching.":
+        "Продолжать смотреть.":
 
             label sis_couch_replay_1:
                 call expression game.dialog_select("couch_dialogue_keep_watching_pre")
@@ -1180,37 +1180,37 @@ label couch_dialogue_pre:
     scene home_livingroom_night_c with None
     show player 11 at left
     with dissolve
-    player_name "( Someone's definitely in here. )"
+    player_name "( Здесь точно кто-то есть. )"
     scene home_livingroom_couch01
     show jennysex 1 zorder 2
     with dissolve
     pause
     show jennysex 4
     show player 298 zorder 1 at Position(xpos=450,ypos=308) with dissolve
-    player_name "( Is that... lesbian porn? )"
+    player_name "( Это... Лесбийское порно? )"
     show jennysex 1
-    player_name "( Since when do we have that channel? )"
+    player_name "( С каких пор у нас вообще есть этот канал? )"
     show jennysex 4
     show player 299 at Position(xpos=555,ypos=337) with dissolve
-    player_name "( This is some pretty hardcore stuff. )"
+    player_name "( А это достаточно жесткая штука. )"
     show jennysex 3
     show player 300 at Position(xpos=566,ypos=331)
     player_name "!!!" with vpunch
     show jennysex 2
     show player 302 at Position(xpos=593,ypos=387) with fastdissolve
-    player_name "( Oh, crap! )"
+    player_name "( Дерьмо! )"
     show jennysex 3
     show player 301 at Position(xpos=602,ypos=386) with fastdissolve
-    player_name "( {b}[jen_name]{/b} is here... )"
+    player_name "( Здесь {b}[jen_name]{/b}... )"
     show jennysex 2
-    player_name "( She isn't wearing panties?! )"
+    player_name "( Она без трусиков?! )"
     show jennysex 4
-    player_name "( It looks like she's playing with herself... )"
-    player_name "( ...and she doesn't know I'm here. )"
+    player_name "( Она же мастурбирует... )"
+    player_name "( ...и она не знает, что я здесь. )"
     return
 
 label couch_dialogue_leave:
-    player_name "( I'd better leave before she sees me. )"
+    player_name "( Нужно уйти, пока она меня не заметила. )"
     hide player with fastdissolve
     show unlock33 zorder 3 at truecenter
     pause
@@ -1222,7 +1222,7 @@ label couch_dialogue_keep_watching_pre:
     show jennysex 2_3_1_4
     pause 8
     show jennysex 1
-    player_name "( That's hot, but I shouldn't push my luck. )"
+    player_name "( Это конечно круто, но не стоит испытывать свою удачу. )"
     hide player with fastdissolve
     return
 
@@ -1255,8 +1255,8 @@ label home_livingroom_tv_masturbated_tv_sis_couch02_known:
     scene home_livingroom_night_b with None
     show player 11
     with dissolve
-    player_name "( I'm not risking that again, tonight... )"
-    player_name "( I should go to bed. )"
+    player_name "( Я не буду сегодня рисковать, опять... )"
+    player_name "( Лучше просто пойти спать. )"
     hide player with dissolve
     hide home_livingroom_night_b
     return
@@ -1265,8 +1265,8 @@ label home_livingroom_tv_masturbated_tv:
     scene home_livingroom_night_b with None
     show player 11
     with dissolve
-    player_name "( I think that's enough for one night. )"
-    player_name "( I should go to bed. )"
+    player_name "( Хватит приключений для одной ночи. )"
+    player_name "( Лучше просто пойду спать. )"
     hide player with dissolve
     hide home_livingroom_night_b
     return
@@ -1288,7 +1288,7 @@ label tv_channel_responses:
     elif tv_channel == 8:
         $ tv_channel = 0
 
-    if tv_channel in range(7) and tv_channel not in game.seen_tv_channels:
+     if tv_channel in range(7) and tv_channel not in game.seen_tv_channels:
         $ renpy.call(game.dialog_select("tv_channel_channel_0{}_first_view".format(tv_channel+1)))
         $ game.seen_tv_channels.append(tv_channel)
 
@@ -1321,16 +1321,16 @@ label tv_channel_responses:
                     label sis_couch_final:
                         call expression game.dialog_select("sis_couch_final_pre")
                     menu:
-                        "Jump on her." if store._in_replay == None and player.stats.dex() < 7:
+                        "Прыгнуть на неё." if store._in_replay == None and player.stats.dex() < 7:
                             call expression game.dialog_select("sis_couch_final_jump_her_stat_fail")
                             $ M_player.set("masturbated tv", True)
                             $ sis_watch_tv_tonight = False
                             jump expression game.dialog_select("home_livingroom_dialogue")
 
-                        "Jump on her." if not store._in_replay == None or player.stats.dex() >= 7:
+                        "Прыгнуть на неё." if not store._in_replay == None or player.stats.dex() >= 7:
                             call expression game.dialog_select("sis_couch_final_jump_her_stat_pass")
                             jump expression game.dialog_select("sis_couch_sex_loop")
-                        "Cum.":
+                        "Кончить.":
 
                             call expression game.dialog_select("sis_couch_final_cum")
                             $ renpy.end_replay()
@@ -1345,16 +1345,16 @@ label tv_channel_responses:
                     $ animated = False
                     call expression game.dialog_select("couch_footjob_loop")
                     menu couch_footjob_options:
-                        "Keep Going.":
+                        "Продолжать.":
                             call expression game.dialog_select("couch_footjob_loop")
                             jump expression game.dialog_select("couch_footjob_options")
-                        "Cum.":
+                        "Кончить.":
 
                             call expression game.dialog_select("couch_footjob_cum")
                             $ renpy.end_replay()
                             $ persistent.cookie_jar["Jenny"]["unlocked"] = True
                             $ persistent.cookie_jar["Jenny"]["gallery"]["02_unlocked"] = True
-                            $ M_jenny.trigger(T_jenny_couch_fun_tier_3)
+                            $ sis_couch03.finish()
                             $ M_player.set("masturbated tv", True)
                             jump expression game.dialog_select("home_livingroom_dialogue")
 
@@ -1379,12 +1379,12 @@ label tv_channel_sis_couch03_started:
     scene home_livingroom_couch01 with None
     show playersex 82 at Position(xpos=497)
     with dissolve
-    player_name "Let's see what's on TV..."
+    player_name "Посмотрим, что там по телеку..."
 
     scene home_livingroom_tv
     show home_tv_channel_08 at Position(xpos = 522, ypos = 521)
-    player_name "( Someone left it on the Pink Channel? )"
-    player_name "The password was..."
+    player_name "( Кто-то оставил его на Розовом Канале? )"
+    player_name "А пароль..."
     pause .4
     show text "{color=#ff4bdf}L6bv12R{/color}" as username at Position(xpos = 433, ypos = 341)
     pause .4
@@ -1393,45 +1393,45 @@ label tv_channel_sis_couch03_started:
     hide username
     hide password
     show home_tv_channel_10 at Position(xpos = 522, ypos = 521)
-    player_name "Woah!"
-    player_name "( I've never seen someone use their feet like {b}that{/b}. )"
-    player_name "( Actually, that's kind of hot. )"
+    player_name "Воу!"
+    player_name "( Никогда не видел, чтобы кто-то использовал свои ноги {b}вот так{/b}. )"
+    player_name "( Но вообще-то, это очень даже горячо. )"
     return
 
 label tv_channel_channel_01_first_view:
     show home_tv_channel_01 at Position(xpos=522, ypos=521)
-    player_name "Hmm... Let's see what's on TV."
+    player_name "Хмм... Глянем, что там по телеку."
     return
 
 label tv_channel_channel_02_first_view:
     show home_tv_channel_02 at Position(xpos=522, ypos=521)
-    player_name "( Local news. Boring! )"
+    player_name "( Местные новости. Скука! )"
     return
 
 label tv_channel_channel_03_first_view:
     show home_tv_channel_03 at Position(xpos=522, ypos=521)
-    player_name "( That's the kind of sport I could get into. )"
+    player_name "( Здесь у нас спорт. )"
     return
 
 label tv_channel_channel_04_first_view:
     show home_tv_channel_04 at Position(xpos=522, ypos=521)
-    player_name "( Hey, it's Mayor Rump! )"
+    player_name "( Хей, это же Мэр Рамп! )"
     return
 
 label tv_channel_channel_05_first_view:
     show home_tv_channel_05 at Position(xpos=522, ypos=521)
     player_name "..."
-    player_name "( These nature channels are so strange... )"
+    player_name "( Эти природные каналы такие странные... )"
     return
 
 label tv_channel_channel_06_first_view:
     show home_tv_channel_06 at Position(xpos=522, ypos=521)
-    player_name "( Who watches this stuff? )"
+    player_name "( Да кто вообще это смотрит? )"
     return
 
 label tv_channel_channel_07_first_view:
     show home_tv_channel_07 at Position(xpos=522, ypos=521)
-    player_name "( This channel's a dud. )"
+    player_name "( Этот канал не работает. )"
     return
 
 label tv_channel_channel_08_mom_jerk_available:
@@ -1440,12 +1440,12 @@ label tv_channel_channel_08_mom_jerk_available:
     scene home_livingroom_couch01
     show playersex 82 at Position(xpos=497)
     with dissolve
-    player_name "( That's pretty hot. )"
+    player_name "( А это очень горячо. )"
     show playersex 83 with fastdissolve
-    player_name "( Hmm... )"
-    player_name "( Everyone should be sleeping. )"
+    player_name "( Хмм... )"
+    player_name "( Все, должно быть, спят. )"
     show playersex 84 with fastdissolve
-    player_name "( I'll just have to be quiet... )"
+    player_name "( Нужно просто делать это тихо... )"
     show playersex 85 with fastdissolve
     pause .4
     show playersex 86_85
@@ -1453,7 +1453,7 @@ label tv_channel_channel_08_mom_jerk_available:
     scene home_livingroom_couch02
     show playersex 80 at Position(xpos=497)
     player_name "( !!! )" with hpunch
-    player_name "( Oh, Shit! {b}[deb_name]{/b}'s coming out of her room! )"
+    player_name "( Вот черт! {b}[deb_name]{/b} выходит из своей комнаты! )"
     show playersex 81
     pause
     show debbie 126 at Position (xpos=917,ypos=694)
@@ -1462,22 +1462,22 @@ label tv_channel_channel_08_mom_jerk_available:
     with dissolve
     pause
     show debbie 127 at Position (xpos=872,ypos=540) with fastdissolve
-    deb "Is someone in here?"
+    deb "Здесь кто-то есть?"
     show debbie 128 at Position (xpos=862,ypos=511) with fastdissolve
-    deb "Oh, my!"
+    deb "О боже!"
     show debbie 129
-    player_name "( Shit-shit-shit! I left the TV on! )"
+    player_name "( Черт-черт-черт! Я не выключил телевизор! )"
     show player 305
     show debbie 132 at Position (xpos=680,ypos=768) with dissolve
-    deb "I wonder who..."
+    deb "Интересно, кто же..."
     show player 304
-    deb "No, It can't be him. It must be {b}[jen_name]{/b}."
-    deb "She seems like the type who would be into porn..."
-    deb "... Foot fetish, though?"
+    deb "Нет, это не может быть он. Это, наверное, {b}[jen_name]{/b}."
+    deb "Она похожа на того, кому нравится порно..."
+    deb "... Фут фетиш, ха?"
     show player 305
     show debbie 133 at Position (xpos=812,ypos=767) with fastdissolve
-    deb "I never would have guessed that!"
-    deb "Hmm, although now that I'm seeing it... Nah, I should get back to bed."
+    deb "Никогда бы не подумала!"
+    deb "Хмм, хотя если об этом подумать... Ах, нужно просто идти дальше спать."
     show debbie 134 at Position (xpos=868,ypos=546) with fastdissolve
     pause
     scene home_livingroom_couch01
@@ -1485,29 +1485,29 @@ label tv_channel_channel_08_mom_jerk_available:
     with dissolve
     pause
     show player 306
-    player_name "( Man, that was close! )"
-    player_name "( Was she turned on by that porn? )"
+    player_name "( Боже, это было близко! )"
+    player_name "( Её завела эта порнуха? )"
     hide player
     hide home_livingroom_couch01
     return
 
 label tv_channel_channel_08_sis_peeping:
-    player_name "( Woah! That's the one she was watching last time. )"
+    player_name "( Воу! Это же то, что она смотрела в тот раз. )"
     hide home_tv_channel_09
     scene home_livingroom_couch01
     show playersex 82 at Position(xpos=497)
     with dissolve
-    player_name "( That's pretty hot. )"
+    player_name "( А это очень неплохо. )"
     show playersex 83 with fastdissolve
-    player_name "( Hmm... )"
-    player_name "( Everyone should be sleeping. )"
+    player_name "( Хмм... )"
+    player_name "( Все, должно быть, спят. )"
     show playersex 84 with fastdissolve
-    player_name "( I'll just have to be quiet. )"
+    player_name "( Нужно просто сделать это тихо. )"
     show playersex 85 with fastdissolve
     pause .4
     show playersex 86_85
     pause 8
-    player_name "( Almost there... )"
+    player_name "( Уже почти... )"
     show playersex 86
     show white
     pause 0.001
@@ -1518,12 +1518,12 @@ label tv_channel_channel_08_sis_peeping:
     show playersex 88 with fastdissolve
     pause
     show playersex 85b
-    player_name "( It looks like they have new porn videos every night. )"
-    player_name "( I should {b}come back another time{/b} to watch some... )"
+    player_name "( Неужели у них каждую ночь новое видео. )"
+    player_name "( Нужно будет {b}прийти ещё раз{/b}... )"
     show playersex 89
     with dissolve
-    player_name "( Damn it. I made a mess. )"
-    player_name "( I'd better clean this up before someone walks in. )"
+    player_name "( Черт, теперь тут грязно. )"
+    player_name "( Нужно вытереть всё это, пока кто-то не пришел. )"
     hide player
     hide home_livingroom_couch01
     return
@@ -1534,10 +1534,10 @@ label sis_couch_final_pre:
     with dissolve
     pause
     show playersex 83
-    player_name "( Hmm... )"
-    player_name "( I guess she decided not to come down. )"
+    player_name "( Хмм... )"
+    player_name "( Видимо, она решила не спускаться. )"
     show playersex 84 with fastdissolve
-    player_name "( Oh well, since I'm already here... )"
+    player_name "( Ну и ладно, раз уж я уже тут... )"
     show playersex 85 with fastdissolve
     pause
     show playersex 86_85
@@ -1550,18 +1550,18 @@ label sis_couch_final_pre:
     pause
     show jenny 79
     show playersex 90
-    jen "What, you really couldn't wait for me?" with hpunch
-    jen "You wouldn't want to miss out on my feet, now would you?"
+    jen "Ты и правда не мог меня дождаться?" with hpunch
+    jen "Разве ты не скучаешь по моим ножкам?"
     show jenny 78
-    player_name "I... I didn't know if you'd come!"
+    player_name "Я... Я не знал, что ты придешь!"
     hide jenny
     show playersex 92 at Position(xpos=533)
     with dissolve
-    jen "Why are you hiding it?"
+    jen "Зачем ты прикрываешься?"
     show playersex 94
-    jen "No one's around, idiot." with fastdissolve
+    jen "Тут никого нет, идиот." with fastdissolve
     show playersex 95
-    jen "Come on, let's see that horny cock of yours." with fastdissolve
+    jen "Давай же, дай мне посмотреть на твой возбужденный член." with fastdissolve
     show playersex 97 with fastdissolve
     pause
     show playersex 96_97
@@ -1571,46 +1571,46 @@ label sis_couch_final_pre:
 
 label sis_couch_final_jump_her_stat_fail:
     show playersex 108
-    jen "You want to cum on my feet, don't you?"
+    jen "Ты ведь хочешь кончить на мои ножки, да?"
     show playersex 109
-    player_name "Yes..."
+    player_name "Да..."
     show playersex 108
-    jen "You're such a pervert."
+    jen "Ты такой извращенец."
     show playersex 131 at Position(xpos=587)
-    jen "[dex_warn]What are you doing?!" with hpunch
+    jen "[dex_warn]Что ты делаешь?!" with hpunch
     show playersex 132
-    jen "[dex_warn]Who said you could touch me?!"
-    jen "[dex_warn]I think you got more than you deserved for today."
-    jen "[dex_warn]Go finish in your room, pervert.."
+    jen "[dex_warn]Кто разрешил тебе меня трогать?!"
+    jen "[dex_warn]Думаю, что ты и так получил слишком много."
+    jen "[dex_warn]Закончишь в своей комнате, извращуга..."
     hide playersex
     hide jenny
     return
 
 label sis_couch_final_jump_her_stat_pass:
     show playersex 108
-    jen "You want to cum on my feet, don't you?"
+    jen "Ты ведь хочешь кончить на мои ножки, да?"
     show playersex 109
-    player_name "Yes..."
+    player_name "Да..."
     show playersex 108
-    jen "You're such a pervert."
+    jen "Ты такой извращенец."
     show playersex 133 at Position(xpos=578)
-    jen "What are you-" with hpunch
+    jen "Что ты-" with hpunch
     $ M_jenny.set("sex speed", .4)
     show expression AnimatedImage("playersex", [134,135,136,137], M_jenny) as playersex at Position(xpos=553)
     player_name "{b}[jen_name]{/b}!!!"
-    player_name "I want you! Now!"
-    jen "You pervert!!! Ahh!!!"
+    player_name "Я хочу тебя, прямо сейчас!"
+    jen "Извращенец!!! Ахх!!!"
     pause 8
-    jen "Stop moving your hips like that... It's... Too deep!!"
-    jen "We... We have to stop..."
-    jen "We're too loud. {b}[deb_name]{/b} will..."
-    jen "... It's so good!!"
+    jen "Перестань так двигать своими бедрами... Это... Слишком глубоко!!"
+    jen "Нам... Нужно остановиться..."
+    jen "Мы делаем это слишком громко. {b}[deb_name]{/b} может..."
+    jen "... Как же хорошо!!"
     return
 
 label sis_couch_sex_loop:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -1638,11 +1638,11 @@ label sis_couch_sex_loop:
 
 label jenny_couch_hscene_dialog:
     if animcounter == 1:
-        jen "Ahhhh!!!{p=1}{nw}"
+        jen "Аххх!!!{p=1}{nw}"
 
     elif animcounter == 3:
-        jen "Oh!!!{p=1}{nw}"
-        player_name "Uhhh...{p=1}{nw}"
+        jen "Ох!!!{p=1}{nw}"
+        player_name "Ухх...{p=1}{nw}"
     return
 
 label sis_couch_sex_cum:
@@ -1660,23 +1660,23 @@ label sis_couch_sex_cum:
     jump expression game.dialog_select("home_livingroom_dialogue")
 
 label sis_couch_sex_cum_animation:
-    jen "...Are you?!"
-    player_name "I'm cumming!!"
-    jen "Don't-"
+    jen "...Ты?!"
+    player_name "Я кончаю!!"
+    jen "Не смей-"
     return
 
 label sis_couch_sex_cum_manual:
     show playersex 134
-    jen "...Are you?!"
+    jen "...Ты?!"
     show playersex 135
-    player_name "I'm cumming!!"
+    player_name "Я кончаю!!"
     show playersex 136
-    jen "Don't-"
+    jen "Не смей-"
     return
 
 label sis_couch_sex_cum_after:
     show playersex 138
-    jen "{b}AHHH{/b}!!!" with hpunch
+    jen "{b}AХХ{/b}!!!" with hpunch
     show white
     hide white with dissolve
     pause
@@ -1684,23 +1684,23 @@ label sis_couch_sex_cum_after:
     hide white with fastdissolve
     pause
     show playersex 142 at Position(xpos=574)
-    jen "What the {b}FUCK{/b}?!" with dissolve
+    jen "Какого {b}ХУЯ{/b}?!" with dissolve
     show playersex 141
-    player_name "I'm sorry!! I couldn't hold it..."
+    player_name "Прости!! Я не смог сдержаться..."
     show playersex 142
-    jen "Why do you keep cumming inside me, you {b}IDIOT{/b}!?"
+    jen "{b}ИДИОТ{/b}, почему ты продолжаешь в меня кончать!?"
     show playersex 141
-    player_name "I don't know..."
+    player_name "Я не знаю..."
     show playersex 140
-    jen "Ugh..."
-    jen "You know I need you fresh and rested for my cam shows!!"
-    jen "And what if I get {b}pregnant{/b}?!"
+    jen "Ух..."
+    jen "Да же знаешь, что нужен мне свежим и отдохнувшим для моих вэб кам шоу!!"
+    jen "Знаешь, я же могу {b}забеременеть{/b}!!"
     show playersex 139
     player_name "..."
     show playersex 141
-    jen "I really shouldn't watch these pornos with you..."
-    jen "I have to clean myself up now."
-    jen "Thanks a lot, pervert."
+    jen "Нужно переставать смотреть порнуху вместе с тобой..."
+    jen "А сейчас мне нужно подмыться."
+    jen "Большое спасибо, извращенец."
     hide playersex
     hide jenny
     return
@@ -1708,28 +1708,28 @@ label sis_couch_sex_cum_after:
 label sis_couch_final_cum:
     pause .4
     show playersex 108
-    jen "You want to cum on my feet, don't you?"
+    jen "Хочешь кончить на мои ножки?"
     show playersex 109
-    player_name "Yes..."
+    player_name "Да..."
     show playersex 108
-    jen "You're such a pervert."
+    jen "Ты такой извращенец."
     show playersex 97
-    player_name "Stop! I'm-"
+    player_name "Стой! Я-"
     show white
     pause 0.001
     show playersex 98
     hide white with dissolve
     pause
     show playersex 99 with dissolve
-    player_name "Ahh..."
+    player_name "Aхх..."
     show playersex 100 with fastdissolve
-    jen "Gross..."
+    jen "Просто прекрасно..."
     show playersex 101
-    player_name "Sorry about the mess..."
+    player_name "Прости..."
     show playersex 100
-    jen "Next time you need something, just ask!"
+    jen "В следующий раз, когда тебе что-нибудь понадобится, - просто попроси!"
     show playersex 103
-    jen "Now get me a tissue box, so I can clean this off, you pervert!" with hpunch
+    jen "А теперь, извращенец, дай мне салфеток, чтобы я могла вытереть это!" with hpunch
     hide playersex
     hide jenny
     return
@@ -1739,10 +1739,10 @@ label sis_couch_footjob_pre:
     hide home_tv_channel_10
     scene home_livingroom_couch01
     show playersex 83 at Position(xpos=497)
-    player_name "( Hmm... )"
-    player_name "( The others should be asleep. )"
+    player_name "( Хмм... )"
+    player_name "( Другие, должно быть, спят. )"
     show playersex 84 with fastdissolve
-    player_name "( I'll just have to be quiet. )"
+    player_name "( Нужно просто быть по тише. )"
     show playersex 85 with fastdissolve
     pause .4
     show playersex 86_85
@@ -1755,48 +1755,48 @@ label sis_couch_footjob_pre:
     pause
     show jenny 79
     show playersex 90
-    jen "Well, well!" with hpunch
-    jen "Really?"
-    jen "You don't think I saw that?"
+    jen "Так-так!" with hpunch
+    jen "Серьезно?"
+    jen "Думал, я не замечу?"
     hide jenny
     show playersex 92 at Position(xpos=533)
     with dissolve
-    jen "So, I was wondering..."
-    jen "How exactly were you able to access the Pink Channel?"
+    jen "Мне вот интересно..."
+    jen "Как именно ты смог зайти на Розовый Канал?"
     show playersex 91
-    player_name "It was already there when I turned the TV on!"
+    player_name "Да я просто включил телевизор!"
     show playersex 92
-    jen "I think you're lying."
-    jen "I also think you went through someone else's emails, and found their Pink Channel subscription."
+    jen "Я думаю, что ты лжешь."
+    jen "Ещё я думаю, что ты залез на чей-то email, и нашел там подписку на Розовый Канал."
     show playersex 91
-    player_name "I'm sorry... I didn't-"
+    player_name "Прости... Я не-"
     show playersex 92
-    jen "Cut the crap!"
+    jen "Ой, да заткнись ты!"
     show playersex 93
-    jen "If you were so horny..."
+    jen "Если ты был так возбужден..."
     show playersex 92
-    jen "... you could've just asked me for it."
+    jen "... Почему просто не пришел ко мне?"
     show playersex 91
-    player_name "I..."
+    player_name "Я..."
     show playersex 92
-    jen "So..."
-    jen "You're into feet, huh?"
+    jen "Так..."
+    jen "Ты, значит, по ножкам, ха?"
     show playersex 91
-    player_name "I don't know what you mean."
+    player_name "Не понимаю, о чем ты."
     show playersex 94
-    jen "I think..." with fastdissolve
+    jen "А я думаю..." with fastdissolve
     show playersex 95
-    jen "... you know exactly what I mean." with fastdissolve
+    jen "... что ты прекрасно понимаешь, о чем я." with fastdissolve
     show playersex 108
-    jen "Just like this, right?" with fastdissolve
+    jen "Прямо так, да?" with fastdissolve
     show playersex 97
     pause .4
     return
 
 label couch_footjob_loop:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -1819,37 +1819,37 @@ label couch_footjob_loop:
 label couch_footjob_cum:
     pause .4
     show playersex 108
-    jen "How is it?"
+    jen "Каково это?"
     show playersex 109
-    jen "Does this feel good?"
+    jen "Приятно?"
     show playersex 108
-    jen "You little pervert..."
+    jen "Мелкий извращенец..."
     show playersex 97
-    player_name "Stop! I'm-"
+    player_name "Стой! Я-"
     show white
     pause 0.001
     show playersex 98
     hide white with dissolve
     pause
     show playersex 99 with dissolve
-    player_name "Ahh..."
+    player_name "Ахх..."
     show playersex 100 with fastdissolve
-    jen "Gross..."
+    jen "Просто прекрасно..."
     show playersex 101
-    player_name "Sorry about the mess..."
+    player_name "Прости..."
     show playersex 100
-    jen "Next time you need something, just ask!"
+    jen "В следующий раз, если что-то понадобится - просто попроси!"
     show playersex 103
-    jen "Now get me a tissue box, so I can clean this off, you pervert!" with hpunch
+    jen "А теперь, извращенец, дай мне салфеток, чтобы я могла вытереть это!!" with hpunch
     hide playersex
     hide jenny
     return
 
 label sis_pink_pass:
-    player_name "Pink channel?"
-    player_name "( That must be the channel {b}[jen_name]{/b} was watching. )"
-    player_name "( I wonder where I could find her account password... )"
-    player_name "( I bet they emailed it to her. )"
+    player_name "Розовый Канал?"
+    player_name "( Это ведь тот канал, который смотрела {b}[jen_name]{/b}. )"
+    player_name "( Интересно, где я смогу найти её пароль... )"
+    player_name "( Уверен, что на электронной почте он должен быть. )"
     return
 
 label tv_pink_channel_pass_check:
