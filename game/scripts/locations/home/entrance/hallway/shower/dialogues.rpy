@@ -444,30 +444,30 @@ label debbie_shower_blowjob_loop:
 
 label debbie_shower_blowjob_hscene_dialog:
     if animcounter == 1 and randomizer() < 25:
-        player_name "Oh, god!{p=1}{nw}"
+        player_name "О, боже!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
-        player_name "I can't-{p=1}{nw}"
+        player_name "Я не могу-{p=1}{nw}"
     return
 
 label debbie_shower_blowjob_cum_in:
     show debbies 113 at Position(xpos=513)
     pause .3
     show debbies 116 at Position(xpos=517)
-    player_name "HNNGGG!!!"
+    player_name "ХННГГГГ!!!"
     deb "( !!! )"
     show white with dissolve
     hide white with dissolve
     pause
     show debbies 117 at Position(xpos=523) with dissolve
-    deb "HMMPH!!!"
+    deb "ХММММПХ!!!"
     show debbies 118 at Position(xpos=516)
-    deb "{b}*Gulp*{/b}"
+    deb "{b}*глоток*{/b}"
     show debbies 115 at Position(xpos=531)
-    deb "... Oh, that was a lot!"
+    deb "... О, так много!"
     show debbies 110 at Position(xpos=512)
-    player_name "Sorry, {b}[deb_name]{/b}."
+    player_name "Прости, {b}[deb_name]{/b}."
     show debbies 111
-    deb "No, don't apologize, sweetie."
+    deb "Нет, не извиняйся, милый."
     deb "I love the taste!"
     return
 
@@ -475,7 +475,7 @@ label debbie_shower_blowjob_cum_out:
     show debbies 113 at Position(xpos=513)
     pause .3
     show debbies 116 at Position(xpos=517)
-    player_name "HNNGGG!!!"
+    player_name "ХННГГГГ!!!"
     deb "( !!! )"
     show white with dissolve
     show debbies 115 at Position(xpos=531)
@@ -483,12 +483,12 @@ label debbie_shower_blowjob_cum_out:
     hide white with dissolve
     pause
     show playersex 75 at Position(xpos=574,ypos=655)
-    deb "Heheh, look at the mess you made of my face!"
-    deb "... I’m covered..."
-    player_name "Sorry, {b}[deb_name]{/b}."
-    deb "It’s okay!"
-    deb "We're in the shower so it's easy to clean off!"
-    deb "... Just help me get it out of my hair."
+    deb "Хехехе, посмотри, что ты наделал с моим лицом!"
+    deb "... я вся забрызгана..."
+    player_name "Прости, {b}[deb_name]{/b}."
+    deb "Все в порядке!"
+    deb "Мы в душе, так что это легко очистить!"
+    deb "... Просто помоги мне избавиться от этого в моих волосах."
     return
 	
 	label shower_mom_sex_already_fingered:
