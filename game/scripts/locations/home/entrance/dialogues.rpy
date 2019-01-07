@@ -1407,7 +1407,7 @@ label entrance_bissette_roxxy_jenny_mentoring:
     show player 11
     jen "Хахаха!!"
     show player 10
-    player_name "... {b}Может стоит их там проверить{/b}?"
+    player_name "...{b}Может стоит их там проверить{/b}?"
     show player 5
     show debbie 2
     deb "Может."
