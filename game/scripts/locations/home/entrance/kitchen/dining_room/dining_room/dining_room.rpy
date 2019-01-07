@@ -10,7 +10,7 @@ label dining_room_dialogue:
 label dining_room_table_dialogue:
     scene expression game.timer.image("dining_room{}")
     show player 2 with dissolve
-    player_name "( Nobody's here. The table isn't set either. )"
+    player_name "( Здесь никого нет. Стол тоже не накрыт. )"
     $ game.main()
 
 label dining_room_table_sis:
