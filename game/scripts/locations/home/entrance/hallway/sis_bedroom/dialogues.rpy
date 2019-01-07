@@ -14,10 +14,10 @@ label sis_bedroom_sis_in_room:
     show player 22 at left
     show jenny 7b at right
     with dissolve
-    jen "What the {b}FUCK{/b} are you doing in here?!!" with hpunch
+    jen "Какого {b}хуя{/b} ты тут забыл?!!" with hpunch
     show jenny 9c
     show player 5
-    jen "Get out of my room, you pervert!"
+    jen "А ну вали из моей комнаты, извращенец!"
 	return
 		
 	label sis_bedroom_sis_sleeping:
