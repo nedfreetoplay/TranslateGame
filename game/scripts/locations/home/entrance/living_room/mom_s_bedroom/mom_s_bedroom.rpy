@@ -18,19 +18,19 @@ label mom_bed:
                 call expression game.dialog_select("mom_bed_panties_masturbation_pre")
             if store._in_replay == None and not M_mom.is_state(S_mom_panties_masturbation_again):
                 jump expression game.dialog_select("mom_jerk_repeat")
-            deb "You promised you wouldn't do this in my room!"
+            deb "Ты обещал не делать этого в моей комнате!"
             if not store._in_replay == None:
                 jump expression game.dialog_select("replay_mom_panties_2")
             menu:
-                "I can't help it!":
+                "Я ничего не могу поделать!":
                     label replay_mom_panties_2:
                         call expression game.dialog_select("mom_bed_panties_masturbation_cant_help_it")
                     if not store._in_replay == None:
                         jump expression game.dialog_select("mom_jerk_repeat")
                     menu:
-                        "I'm trying.":
+                        "Я пытаюсь.":
                             call expression game.dialog_select("mom_bed_panties_masturbation_im_trying")
-                        "I like you.":
+                        "Ты мне нравишься.":
 
                             label mom_jerk_repeat:
                                 $ M_mom.set("sex speed", .15)
@@ -43,10 +43,10 @@ label mom_bed:
                             $ persistent.cookie_jar["Debbie"]["unlocked"] = True
                             $ persistent.cookie_jar["Debbie"]["gallery"]["02_unlocked"] = True
                             $ M_mom.trigger(T_mom_caught_masturbating)
-                        "Not really.":
+                        "На самом деле, нет.":
 
                             call expression game.dialog_select("mom_bed_panties_masturbation_not_really")
-                "Sorry.":
+                "Прости.":
 
                     call expression game.dialog_select("mom_bed_panties_masturbation_sorry")
         $ M_mom.set("panties taken", False)
@@ -73,21 +73,21 @@ label mom_bed:
             call expression game.dialog_select("mom_bed_sleep_together_pre")
         $ game.timer.tick()
         menu mom_sleep_options:
-            "Cuddle":
+            "Обнять.":
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_cuddle_sex_available")
                 else:
 
                     call expression game.dialog_select("mom_bed_sleep_together_cuddle")
                 menu mom_bed_sleep_together_cuddle_options:
-                    "Keep going":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_cuddle_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_cuddle_options")
-                    "Stop.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Ask for a kiss":
+            "Спросить о поцелуе.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_kiss_sex_available")
@@ -95,14 +95,14 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_kiss")
                 menu mom_bed_sleep_together_kiss_options:
-                    "Keep going":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_kiss_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_kiss_options")
-                    "Stop.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Breastfeed":
+            "Кормить грудью.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_breastfeed_sex_available")
@@ -110,14 +110,14 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_breastfeed")
                 menu mom_bed_sleep_together_breastfeed_options:
-                    "Keep going":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_breastfeed_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_breastfeed_options")
-                    "Stop.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Rub":
+            "Тереть.":
 
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_rub_sex_available")
@@ -125,39 +125,39 @@ label mom_bed:
 
                     call expression game.dialog_select("mom_bed_sleep_together_rub")
                 menu mom_bed_sleep_together_rub_options:
-                    "Keep going":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_rub_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_rub_options")
-                    "Stop.":
+                    "Остановиться.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
 
-            "Fuck" if M_mom.is_set("sex available"):
+            "Трахать." if M_mom.is_set("sex available"):
                 $ anim_toggle = True
                 $ animated = False
                 $ xray = False
                 call expression game.dialog_select("mom_bed_sleep_together_fuck")
                 menu mom_bed_sleep_together_fuck_options:
-                    "Keep going":
+                    "Продолжать.":
                         call expression game.dialog_select("mom_bed_sleep_together_fuck_keep_going")
                         jump expression game.dialog_select("mom_bed_sleep_together_fuck_options")
-                    "Cum":
+                    "Кончить.":
 
                         call expression game.dialog_select("mom_bed_sleep_together_fuck_cum")
                         $ renpy.end_replay()
                         $ persistent.cookie_jar["Debbie"]["unlocked"] = True
                         $ persistent.cookie_jar["Debbie"]["gallery"]["06_unlocked"] = True
                         menu:
-                            "Stay.":
+                            "Остаться.":
                                 call expression game.dialog_select("mom_bed_sleep_together_fuck_cum_stay")
                                 jump expression game.dialog_select("mom_sleeping")
-                            "Leave.":
+                            "Уйти.":
 
                                 call expression game.dialog_select("mom_bed_sleep_together_fuck_cum_leave")
                                 $ player.go_to(L_home_livingroom)
 
-            "Sleep with {b}[deb_name]{/b}." if store._in_replay == None:
+            "Спать с {b}[deb_name]{/b}." if store._in_replay == None:
                 call expression game.dialog_select("mom_bed_sleep_together_sleep")
                 jump expression game.dialog_select("mom_sleeping")
 
@@ -199,9 +199,9 @@ label mom_bedroom:
     elif M_diane.is_state(S_diane_debbie_dinner_outfit):
         call expression game.dialog_select("moms_bedroom_mom_dinner_outfit")
         menu:
-            "Ask {b}[deb_name]{/b}.":
+            "Спросить {b}[deb_name]{/b}.":
                 call expression game.dialog_select("moms_bedroom_mom_dinner_outfit_ask")
-            "Just leave.":
+            "Уйти.":
 
                 $ pass
         $ M_diane.trigger(T_diane_debbie_gave_dinner_outfit_advice)
