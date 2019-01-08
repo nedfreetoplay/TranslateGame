@@ -508,7 +508,7 @@ label laundry_dialogue_help:
     scene black
     with fade
     
-	scene home_basement_c with fade
+    scene home_basement_c
     show debbie 2 at right
     show player 13 at left
     with dissolve
