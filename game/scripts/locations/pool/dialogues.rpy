@@ -16,9 +16,9 @@ label pool_cassie_after_fun:
         show player 53f at left with dissolve
     else:
         show player 1 at left with dissolve
-    show ronda 8 at right with dissolve
+    show ronda b_swim a_swim_sides f_upset_talk with dissolve
     ron "А ты долго..."
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 51f
     else:
@@ -29,7 +29,7 @@ label pool_cassie_after_fun:
     else:
         show player 21
     player_name "Ты о чем?"
-    show ronda 8
+    show ronda f_upset_talk
     if wearing_swimsuit:
         show player 51f
     else:
@@ -40,45 +40,45 @@ label pool_cassie_after_fun:
         show player 45
     else:
         show player 21
-    show ronda 10
+    show ronda f_upset
     player_name "...Чего?"
-    show ronda 8
+    show ronda f_upset_talk
     if wearing_swimsuit:
         show player 53f
     else:
         show player 13
     ron "Ты целый час провел вместе с {b}Кэсси{/b} в мед. комнате."
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 45
     else:
         show player 21
     player_name "...Ну и?"
-    show ronda 8
+    show ronda f_upset_talk
     if wearing_swimsuit:
         show player 53f
     else:
         show player 13
     ron "Это твое представление: Знаешь, ты просто ослепил всех своим... стоячим..."
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 45
     else:
         show player 21
     player_name "Да что ты пытаешься сказать?"
-    show ronda 8
+    show ronda f_upset_talk
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
     ron "Все знают, что {b}Кэсси{/b} тянет всех понравившихся ей парней в мед. комнату!!!"
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 45
     else:
         show player 37
     player_name "Думаешь, я ей нравлюсь?"
-    show ronda 9
+    show ronda f_upset_angry
     if wearing_swimsuit:
         show player 51f
     else:
@@ -92,7 +92,7 @@ label pool_cassie_after_fun:
     else:
         show player 21
     player_name "...Ты думаешь, что у меня большой пенис?"
-    show ronda 9
+    show ronda f_upset_angry
     if wearing_swimsuit:
         show player 51f
     else:
@@ -100,21 +100,21 @@ label pool_cassie_after_fun:
     ron "!!!"
     ron "Это не-"
     ron "Я этого не говорила."
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 51f
     else:
         show player 11
     player_name "..."
-    show ronda 8
+    show ronda f_upset_talk
     ron "Просто она шлюха, ясно?"
-    show ronda 10
+    show ronda f_upset
     if wearing_swimsuit:
         show player 50f
     else:
         show player 17
     player_name "...Ну, вообще-то, она была очень добра ко мне."
-    show ronda 8
+    show ronda f_upset_talk
     if wearing_swimsuit:
         show player 51f
     else:
