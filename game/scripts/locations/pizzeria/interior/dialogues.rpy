@@ -1,62 +1,62 @@
 label pizza_interior_pizza_count_0:
     scene location_pizza_day_blur
     show player 10f at right with dissolve
-    player_name "Hey! Is anyone in-"
+    player_name "Привет! Есть ли здесь кто-"
     show tony f_normal_talk zorder 1 at fliplleft with dissolve
     show player 11f
-    tony "Eyyy, look at this one!"
-    tony "Tall, young, handsome."
-    tony "He reminds me of myself, when I was younger."
+    tony "Эййй, да ты только взгляни на него!"
+    tony "Высокий, молодой, красивый."
+    tony "Он напоминает мне самого себя в молодости."
     show tony f_normal
     show player 10f
-    player_name "Me?"
+    player_name "Я?"
     show tony f_question
     show player 13f
-    tony "Yes you, tell you what: You looking for a job?"
+    tony "Да, ты, вот что я тебе скажу: Ищешь работёнку?"
     show tony f_normal
     show player 14f
-    player_name "Yeah, I've been looking for one."
+    player_name "Да, я долго искал хоть какую-нибудь."
     show tony f_normal_talk
     show player 203f
-    tony "Good. I could use someone like you."
+    tony "Отлично. Мне пригодится кто-нибудь вроде тебя."
     show player 10f
     show tony f_normal
-    player_name "Someone like me?"
+    player_name "Кто-то вроде меня?"
     show player 11f
     show tony f_normal_talk
-    tony "Of course! Someone like you! Wait here let me get my wife."
+    tony "Ну конечно же! Кто-то типа тебя! Подожди здесь, я позову свою жену."
     show player 203f
     show maria f_normal zorder 0 at flip, Position (xpos=750) with dissolve
     show tony f_normal_talk
-    tony "{b}Maria{/b}, this is {b}[firstname]{/b}. {b}[firstname]{/b}, this is {b}Maria{/b}."
+    tony "Мария: это {b}[firstname]{/b}, {b}[firstname]{/b}: это Мария."
     show tony f_normal
     show maria f_normal_talk at flip
-    maria "Hey, {b}[firstname]{/b}. I'm guessing you're going to be the new help."
+    maria "Привет, {b}[firstname]{/b}. Пологаю ты будешь нашим новым помощником."
     show player 14f
     show maria f_normal
-    player_name "Yeah, seems like it."
+    player_name "Ага, похоже на то."
     show player 203f
     show maria f_shy_talk
-    maria "{b}Tony{/b}, quick question. Do we know if this kid is any good?"
+    maria "Тони, не большой вопрос: Откуда нам знать будет ли с этого парня хоть какая-то польза?"
     show maria f_shy
     show tony f_normal_talk
-    tony "We don't, but look at him! He's young, full of energy, and he looks healthy!"
-    tony "What else would you need?"
+    tony "Ниоткуда, но ты только взляни на него! Он молод, полон энергии, и выглядит здаровым!"
+    tony "Что ещё нам нужно?"
     show maria f_normal_talk
     show player 11f
     show tony f_normal
-    maria "Someone who works, because the last kid you hired was another lazy teen."
+    maria "Кто-то кто бы работал, потому как прошлый ребёнок которого ты нанял, был ленивым подростком."
     show maria f_normal
     show tony f_question
-    tony "He'll work. I can promise you that. Right {b}[firstname]{/b}?"
+    tony "Он будет работать. Я ручаюсь за него. Верно {b}[firstname]{/b}?"
     show tony f_normal
     show player 14f
-    player_name "Yeah. You're offering, and I need the job."
+    player_name "Ага. Вы предложили, и мне нужно работа."
     show tony f_normal_talk
     show player 203f
-    tony "Then it's settled! Come in later, and we'll discuss things further."
+    tony "Тогда решено! Приходи позже, и мы обсудим дальнейшие дела."
     show maria f_normal_talk
-    tonymaria "Have a great day!"
+    tonymaria "Хорошего дня!"
     hide tony
     hide maria
     hide player
