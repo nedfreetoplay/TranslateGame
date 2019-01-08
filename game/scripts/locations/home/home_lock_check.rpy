@@ -8,33 +8,33 @@ label home_lock_check(destination_screen, destination_label):
                 show player 22 at left
                 show debbie 2 at right
                 with dissolve
-                deb "{b}[firstname]{/b}? Are you looking for something in my room?"
+                deb "{b}[firstname]{/b}? Что ты ищешь в моей комнате?"
                 show player 21 at left
                 show debbie 1 at right
-                player_name "I was... Umm... Looking for my phone!"
+                player_name "Я... ммм... Ищу свой телефон!"
                 show player 18 at left
-                player_name "But it's right here in my pocket actually!"
+                player_name "Ааа, вот он, в кармане!"
                 show debbie 3 at right
                 show player 11 at left
-                deb "Isn't {b}Erik{/b} waiting for you?"
+                deb "Разве {b}Эрик{/b} не ждет тебя?"
                 show debbie 1 at right
                 show player 17 at left
-                player_name "Yeah, I'm on my way!"
+                player_name "Да, уже иду!"
             else:
 
                 show player 10 with dissolve
-                player_name "( I shouldn't snoop around {b}[deb_name]'s{/b} bedroom. )"
+                player_name "( Я не должен рыскать в спальне {b}[deb_name]{/b}. )"
             $ game.main()
         else:
 
 
             if M_mom.is_state(S_mom_debt_call):
                 show player 10 with dissolve
-                player_name "( I should see go see if {b}[deb_name]{/b} is alright. )"
+                player_name "( Я должен убедится, что {b}[deb_name]{/b} в порядке. )"
             else:
 
                 show player 10 with dissolve
-                player_name "( I really shouldn't disturb {b}[deb_name]{/b} when she's sleeping. )"
+                player_name "( Я действительно не должен беспокоить {b}[deb_name]{/b}, когда она спит. )"
             $ game.main()
         hide player
         hide debbie
@@ -49,16 +49,16 @@ label home_lock_check(destination_screen, destination_label):
         show debbie 2 at right
         with dissolve
         if destination_screen == "Mom":
-            deb "Your breakfast is ready in the {b}dining room{/b}, sweetie..."
+            deb "Твой завтрак готов в {b}столовой{/b}, милый..."
             show player 14
             show debbie 1
-            player_name "Thanks, {b}[deb_name]{/b}! I'll go eat now."
+            player_name "Спасибо, {b}[deb_name]{/b}! Пойду, поем."
         else:
 
-            deb "Where are you going? Your breakfast is ready in the {b}dining room{/b}, sweetie..."
+            deb "Что ты делаешь? Твой завтрак готов в {b}столовой{/b}, милый..."
             show player 14
             show debbie 1
-            player_name "Sorry, {b}[deb_name]{/b}! I'll go eat now."
+            player_name "Извени, {b}[deb_name]{/b}! Пойду, поем."
         hide player
         hide debbie
         with dissolve
@@ -66,9 +66,9 @@ label home_lock_check(destination_screen, destination_label):
     elif not game.timer.is_dark() and M_jenny.is_state(S_jenny_hallway_noises) and destination_screen not in ["Hallway", "Upstairs Bedroom"]:
         scene expression temp_bg
         show player 11 with dissolve
-        player_name "( I really want to know who {b}[jen_name]{/b} is talking to. )"
+        player_name "( Я действительно хочу знать, с кем разговаривает {b}[jen_name]{/b}. )"
         show player 4 at Position(xpos=518)
-        player_name "( Maybe I can sneak up to her door and find out... )"
+        player_name "( Может быть, я смогу подкрасться к ее двери и узнать... )"
         hide player with dissolve
 
     elif M_mia.is_state(S_mia_midnight_call, S_mia_urgent_message) and game.new_message and player.location == L_home_bedroom:
@@ -77,18 +77,18 @@ label home_lock_check(destination_screen, destination_label):
             show player 12 with dissolve
         else:
             show player 101 with dissolve
-        player_name "I should check my text messages."
+        player_name "Я должен проверить свои сообщения."
 
     elif M_bissette.is_state(S_bissette_roxxy_jenny_spying) and destination_screen not in ["Hallway", "Upstairs Bedroom"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "I should go check on {b}Roxxy{/b} and {b}[jen_name]{/b}..."
+        player_name "Я должен проверить {b}Рокси{/b} и {b}[jen_name]{/b}..."
         hide player with dissolve
 
     elif M_mom.is_state(S_mom_note) and player.location == L_home_bedroom and destination_screen not in ["MC Computer"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "( I should see what's on that {b}note{/b}. )"
+        player_name "( Я должен посмотреть, что на этой {b}записке{/b}. )"
         hide player with dissolve
 
     elif not M_jenny.finished_state(S_jenny_couch_naughty_time) and destination_screen == "Living Room TV":
@@ -101,7 +101,7 @@ label home_lock_check(destination_screen, destination_label):
         scene expression temp_bg
         show player 12 with dissolve
         play audio sfxDoor(True)
-        player_name "( Her door is locked... )"
+        player_name "( Дверь закрыта... )"
         hide player with dissolve
 
     elif M_diane.is_state(S_diane_peeking_masturbate):
@@ -127,7 +127,7 @@ label home_lock_check(destination_screen, destination_label):
     elif game.timer.is_night() and destination_screen == "Upstairs Bedroom":
         scene expression temp_bg
         show player 24 with dissolve
-        player_name "( I'm so tired right now. I'd better go to bed... )"
+        player_name "( Я очень устал. Пойду лучше спать... )"
         hide player with dissolve
     else:
 
