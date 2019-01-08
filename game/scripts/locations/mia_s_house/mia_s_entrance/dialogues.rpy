@@ -3,39 +3,39 @@ label mias_entrance_mia_parent_blocking:
     show helen 2 zorder 1 at right
     show player 1 at left
     with dissolve
-    helen "...And you are?"
+    helen "...а ты кто такой?"
     show helen 1
     show player 14
-    player_name "I'm {b}[firstname]{/b}!"
-    player_name "I'm a friend from school..."
+    player_name "Я {b}[firstname]{/b}!"
+    player_name "Школьный товарищ..."
     show helen 2
     show player 1
-    helen "A friend?"
+    helen "Друг?"
     show player 11
-    helen "Our daughter doesn't bring guests home."
-    helen "She also didn't mention anything about your visit..."
-    helen "Have you two met at church?"
+    helen "Наша дочь обычно не приводит друзей домой."
+    helen "Она никого не предупредила о твоём визите..."
+    helen "Вы с ней познакомились в церкви?"
     show helen 1
     show player 10
-    player_name "No?"
+    player_name "Нет?"
     show helen 2
     show player 11
-    helen "Are you a church goer, {b}[firstname]{/b}?"
+    helen "А ты посещаешь церковь, {b}[firstname]{/b}?"
     show helen 1
     show player 10
-    player_name "Uhh... Not really, Ma'am."
+    player_name "Охх... нечасто, мэм."
     show helen 2
     show player 11
-    helen "Of course not."
+    helen "Конечно не посещаешь."
     show helen 1
     show player 1
     show harold 2 zorder 0 at Position (xpos = 670, ypos = 768) with dissolve
-    harold "Hey, dear!"
-    harold "Is this one of {b}Mia's{/b} friends?"
+    harold "Эй, дорогая!"
+    harold "Это один из друзей {b}Мии{/b}?"
     show harold 1
     show helen 3
     show player 5
-    helen "It's a young man who's about to leave."
+    helen "Этот юноша уже собирается уходить."
     hide helen
     hide harold
     hide player
@@ -47,55 +47,55 @@ label mias_entrance_mia_helen_fight:
     show helen 6f at left
     show mia 46f at right
     with dissolve
-    mia "{b}MOM{/b}!"
-    mia "How can you let this happen?!"
+    mia "{b}МАМ{/b}!"
+    mia "Как ты вообще это допустила?!"
     show mia 45f
     show helen 5f
-    helen "Oh, stop being so childish!"
-    helen "Your father and I are simply taking a break..."
-    helen "...We are not breaking our divine sacrament over a dispute!"
-    helen "We're not wicked..."
+    helen "Ох, прекрати это ребячество!"
+    helen "Твой отец и я решили немного отдохнуть друг от друга..."
+    helen "...мы связаны таинством венчания, которое выше всех разногласий!"
+    helen "Нет греха в том..."
     hide helen with dissolve
     pause
     show player 10 at left with dissolve
-    player_name "{b}Mia{/b}!"
-    player_name "I just saw your dad outside and he-"
+    player_name "{b}Мия{/b}!"
+    player_name "Я видел снаружи твоего отца и он-"
     show player 11
     show mia 46f
-    mia "I need your help!"
+    mia "Мне нужна твоя помощь!"
     show mia 45f
     show player 10
-    player_name "Wait, what?"
+    player_name "Постой, что?"
     show player 5
     show mia 46f
-    mia "My mom and dad are splitting up and I need your help getting them back together!"
+    mia "Мои родители расходятся и ты можешь помочь мне снова свести их!"
     show mia 45f
     show player 11
     player_name "!!!"
     show mia 46f
-    mia "Will you... help me?"
+    mia "Ты мне... поможешь?"
     show mia 45f
     show player 10
-    player_name "Well, I'm not sure how I could-"
+    player_name "Ну, не уверен, что у меня полу-"
     show player 11
     show mia 46f
-    mia "Try talking to my mom first."
-    mia "I tried everything, but she won't listen..."
+    mia "Поговори с моей мамой."
+    mia "Я уже пыталась, но она меня не слышит..."
     show mia 45f
     show player 12
-    player_name "She would never listen to me."
+    player_name "Она никогда меня не слышит."
     show player 5
     show mia 46f
-    mia "Please?!"
+    mia "Ну пожалуйста!"
     show mia 45f
     show player 3 with dissolve
     player_name "..."
     show player 12 with dissolve
-    player_name "Okay, I'll try."
-    player_name "But I can't promise you it will work..."
+    player_name "Хорошо, я постараюсь."
+    player_name "Но ничего не обещаю..."
     show player 5
     show mia 46f
-    mia "Thank you, {b}[firstname]{/b}."
+    mia "Спасибо, {b}[firstname]{/b}."
     hide player
     hide mia
     with dissolve
@@ -106,50 +106,50 @@ label mias_entrance_mia_helen_refusal:
     show player 5 at left
     show mia 12 at right
     with dissolve
-    mia "Did you speak with her?"
+    mia "Ты поговорил с ней?"
     show mia 8
     show player 24
-    player_name "Yeah..."
+    player_name "Да..."
     show mia 12
-    mia "So, what did she say?"
+    mia "И что она сказала?"
     show mia 8
     show player 12
-    player_name "She's too stubborn."
-    player_name "I told you she wouldn't listen to me..."
+    player_name "Она очень упертая."
+    player_name "Я же говорил, что она меня не послушает..."
     show player 5
     show mia 12
-    mia "{b}*Sigh*{/b}"
-    mia "{b}Mom{/b} only listens to {b}God{/b}...or {b}our church{/b}."
+    mia "{b}*Вздох*{/b}"
+    mia "{b}Мама{/b} слушается только {b}Бога{/b}...или {b}священника{/b}."
     show mia 8
     show player 37 with dissolve
     player_name "..."
     show player 38 with dissolve
-    player_name "Wait."
+    player_name "Постой."
     show player 29 with dissolve
-    player_name "I think I've got an idea!"
+    player_name "У меня есть идея!"
     show player 13 with dissolve
     show mia 12
-    mia "What is it?"
+    mia "Что за идея?"
     show mia 8
     show player 14
-    player_name "When does your mom go to church?"
+    player_name "Когда твоя мама ходит в церковь?"
     show player 13
     show mia 12
-    mia "On the {b}weekend in the morning{/b}."
+    mia "В {b}воскресение утром{/b}."
     show mia 8
     show player 34
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 14
-    player_name "Alright, thanks."
+    player_name "Хорошо, спасибо."
     show player 13
     show mia 12
-    mia "What are you going to do?!"
+    mia "Что ты собираешься сделать?!"
     show mia 8
     show player 12
-    player_name "I'm not totally sure yet, but I'll get back to you if I find a way."
+    player_name "До конца ещё не придумал, но в случае чего, я всё тебе расскажу."
     show player 13
     show mia 12
-    mia "Okay..."
+    mia "Окей..."
     hide player
     hide mia
     with dissolve
@@ -161,64 +161,64 @@ label mias_entrance_mia_urgent_help:
     show player 5 at left
     show mia 12 at right
     with dissolve
-    mia "You got my text message?"
+    mia "Ты получил мое сообщение?"
     show mia 8
     show helen 23
     show player 10
-    player_name "Yeah, what's going on?"
+    player_name "Ага, что случилось?"
     show player 11
     show helen 25
     show mia 46f
-    mia "We can't find my dad..."
+    mia "Мы не можем найти папу..."
     show mia 45f
     show helen 26
-    helen "No need to get alarmed yet, of course. But..."
+    helen "Пока особо не о чем волноваться. Но всё же..."
     show player 5
     show helen 24
-    helen "...He hasn't called in days, and it's not like him."
+    helen "...он не звонил несколько дней. Это совсем на него не похоже."
     show helen 25
     show mia 46f
-    mia "He usually calls every day and checks up on us..."
-    mia "...What if something {b}BAD{/b} happened?!"
+    mia "Обычно он звонил каждый день и спрашивал как мы..."
+    mia "...что, если с ним произошло что-то {b}УЖАСНОЕ{/b}?!"
     show mia 45f
     show player 22
     player_name "!!!"
     show helen 26
-    helen "{b}Mia{/b}!"
-    helen "Don't say things like that, I'm sure he will be back."
+    helen "{b}Мия{/b}!"
+    helen "Не говори так, я уверена, он скоро вернётся."
     show helen 23
     show player 10
-    player_name "I'm not sure how I could be useful..."
-    player_name "...But I'm willing to help!"
+    player_name "Не уверен, что смогу быть полезен..."
+    player_name "...но я хочу помочь!"
     show player 5
     show helen 24
-    helen "If you're going to help us, start by questioning his coworkers at the {b}police station{/b}..."
-    helen "...And look for {b}clues{/b} around his workplace."
-    helen "That would be a good start."
+    helen "Если хочешь помочь, опроси его коллег в {b}полицейском участке{/b}..."
+    helen "...и поищи {b}зацепки{/b} на его рабочем месте."
+    helen "С этого, я думаю, следует начать."
     show helen 25
     show mia 46f
-    mia "Will you do it, {b}[firstname]{/b}?"
+    mia "Ты поможешь, {b}[firstname]{/b}?"
     show mia 45f
     show helen 23
     show player 35
-    player_name "I suppose I can ask around to see where he could be..."
+    player_name "Думаю, я могу поспрашивать людей о том, где он может быть..."
     show player 34
     helen "..."
     show helen 24
-    helen "Perhaps I was wrong about you, {b}[firstname]{/b}."
+    helen "Возможно я была неправа насчет тебя, {b}[firstname]{/b}."
     show player 13
-    helen "Thank you...for caring about us, and my husband."
+    helen "Спасибо...за то, что помогаешь нашей семье."
     show helen 23
     show player 12
-    player_name "Let's just try and find {b}Harold{/b}."
+    player_name "Ладно, пойду попробую найти {b}Гарольда{/b}."
     show player 5
     show helen 25
     show mia 46f
-    mia "Come back if you find anything!!"
+    mia "Возвращайся, если разузнаешь что-нибудь!!"
     show mia 45f
     show helen 23
     show player 14
-    player_name "I will!"
+    player_name "Хорошо!"
     hide player
     hide mia
     hide helen
@@ -233,85 +233,85 @@ label mias_entrance_mia_harold_found_news:
     helen "{b}[firstname]{/b}?"
     show helen 23
     show player 14
-    player_name "Oh, hi {b}Helen{/b}!"
+    player_name "Здравствуйте, {b}Хелен{/b}!"
     show player 13
     show helen 24
-    helen "I have to ask... Any news about my husband?"
+    helen "Ну как... Ты узнал где мой муж?"
     show helen 23
     show player 12
-    player_name "Actually, I just spoke with him."
+    player_name "Ну да, я недавно поговорил с ним лично."
     show player 10
-    player_name "He was...taking a break and driving around."
+    player_name "Он...отдыхает, катаясь по городу."
     show player 5
     show helen 24
-    helen "I see."
-    helen "So, how did he look?"
+    helen "Понимаю."
+    helen "И как он?"
     show helen 23
     show player 10
-    player_name "He looked a bit... rough."
+    player_name "Ему немного... тяжело."
     show player 5
     show helen 24
-    helen "I... I want you to be honest with me. What did {b}Harold{/b} say to you?"
+    helen "Я... я хочу знать всё. Что сказал тебе {b}Гарольд{/b}?"
     show helen 23
     show player 10
-    player_name "I'm not sure he will be back... but he said he would call."
+    player_name "Не уверен, что он вернётся домой... но он сказал, что перезвонит."
     show player 5
     show helen 24
-    helen "Hmm... Did he say anything about me?"
+    helen "Хмм... Он говорил что-нибудь обо мне?"
     show helen 23
     show player 10
-    player_name "Ehh... Well, he said you had changed...and that you two used to be happier..."
+    player_name "Охх... Ну, он сказал, что вы изменились... и что раньше он был намного счастливее..."
     show player 5
     show helen 3 with dissolve
-    helen "{b}*Sigh*{/b}"
+    helen "{b}*Вздох*{/b}"
     show helen 24 with dissolve
-    helen "Okay, thanks for letting me know..."
+    helen "Хорошо, спасибо, что всё рассказал..."
     show helen 25
     show mia 10 at right with dissolve
     mia "{b}[firstname]{/b}?!"
     show mia 7
     show helen 23
     show player 14
-    player_name "Hey, {b}Mia{/b}!"
+    player_name "Привет, {b}Мия{/b}!"
     show player 13
     show helen 25
     show mia 10
-    mia "When did you get here?"
+    mia "Когда ты пришёл?"
     show mia 7
     show helen 23
     show player 14
-    player_name "Just now."
+    player_name "Да только что."
     show player 12
-    player_name "I was telling your mom that I saw your dad."
+    player_name "Я нашел твоего папу."
     show player 5
     show helen 25
     show mia 12
-    mia "Is he okay?!"
+    mia "С ним все в порядку?!"
     show mia 8
     show helen 3 with dissolve
-    helen "Your father is fine, dear."
+    helen "Твой отец в порядке, милая."
     show helen 26 with dissolve
-    helen "He's just...taking a break, but he will visit us soon. I promise."
+    helen "Он просто...отдыхает, но вскоре он навестит нас. Обещаю."
     show helen 25
     show mia 10
-    mia "...Really?"
+    mia "...Правда?"
     show mia 7
     show helen 23
     show player 29 with dissolve
-    player_name "I think so, yeah."
+    player_name "Я думаю, да."
     show player 3
     show helen 25
     show mia 10
-    mia "That's great news!"
-    mia "Thanks for helping us, {b}[firstname]{/b}..."
-    mia "...Sorry to have bothered you with all this."
-    mia "I'm just glad it turned out to be nothing serious."
+    mia "Это замечательно!"
+    mia "Огромное спасибо, {b}[firstname]{/b}..."
+    mia "...прости, что втянула тебя во всё это."
+    mia "Я просто рада, что ничего серьёзного не случилось."
     show mia 7
     show helen 23
     show player 12
-    player_name "{b}Harold{/b} will be back, don't worry."
+    player_name "{b}Гарольд{/b} вернётся, не волнуйся."
     show player 14
-    player_name "See you at school!"
+    player_name "Увидимся в школе!"
     hide player
     hide mia
     hide helen
@@ -325,58 +325,58 @@ label mias_entrance_mia_route_split:
     show helen 50 at Position (xpos=700)
     show mia 7 at Position (xpos=500)
     with dissolve
-    harold "There he is!"
+    harold "А вот и он!"
     show harold 1
     show player 14
-    player_name "Hey! I didn't expect to see you all here."
+    player_name "Хей! Я не ожидал вас всех здесь увидеть."
     show player 13
     show helen 51
-    helen "{b}Harold{/b} has slowly started to move back in with us."
+    helen "{b}Гарольд{/b} понемногу начал возвращаться к нам."
     show helen 50
     show harold 2
-    harold "It feels great to be back home."
+    harold "Так здорово снова быть дома."
     show harold 1
     show mia 10
-    mia "Now that we are reunited, we can move onto better things, as a family."
-    mia "Thank you, {b}[firstname]{/b} for helping and being there for us."
+    mia "Теперь, когда мы снова вместе, мы можем становится лучше как семья."
+    mia "Давайте скажем спасибо {b}[firstname]{/b} за помощь."
     show mia 7
     show harold 2
-    harold "I'm glad we got to know you better..."
-    harold "...And feel free to come by more often, or sleep over!"
+    harold "Я рад, что мы познакомились поближе..."
+    harold "...чувствуй у нас себя как дома, можешь даже с ночёвкой приходить!"
     show harold 1
     show helen 26
-    helen "{b}Harold{/b}?! I'm not so sure this is-"
+    helen "{b}Гарольд{/b}?! Я не уверена, что-"
     show helen 25
     show harold 2
-    harold "Oh come on, {b}Helen{/b}, this young man may become our future son in law!"
+    harold "Да ладно тебе, {b}Хелен{/b}, этот юноша - возможно, наш будущий зять!"
     show harold 1
     show helen 50
     show mia 10
-    mia "{b}Dad{/b}!"
+    mia "{b}Пап{/b}!"
     show mia 7
     show helen 51 with dissolve
-    helen "{b}Harold{/b}!"
+    helen "{b}Гарольд{/b}!"
     show helen 50
     harold "..."
     show harold 2
-    harold "Let's go in the living room and let the kids have a little alone time."
+    harold "Давай пойдём в гостиную, молодёжи нужно побыть наедине."
     show harold 1
     show helen 26
-    helen "Of course dear."
+    helen "Как скажешь, дорогой."
     hide harold
     hide helen
     with dissolve
     show player 14
-    player_name "I'm so happy that things worked out."
-    player_name "Your parents seem to get along well..."
+    player_name "Я так рад, что всё	сработало."
+    player_name "Похоже твои родители снова поладили..."
     show player 13
     show mia 9
-    mia "I know! Things couldn't have worked out any better!"
+    mia "Я знаю! Лучше просто и быть не могло!"
     show mia 10
-    mia "Thank you ,{b}[firstname]{/b}... for everything."
+    mia "Спасибо тебе, {b}[firstname]{/b}... за всё."
     show mia 7
     show player 14
-    player_name "You're wel-"
+    player_name "Да неза-"
     hide player
     show mia 49 at left
     with dissolve
@@ -386,26 +386,26 @@ label mias_entrance_mia_route_split:
     hide mia
     show mia 9 at Position (xpos=500)
     with dissolve
-    mia "Sooo listen, now that things are back to normal."
+    mia "Слууушай, теперь снова всё как раньше."
     show mia 10
-    mia "I was thinking we could... study again?"
+    mia "Мы же можем снова вместе... готовиться к школе?"
     show mia 7
     show player 21
-    player_name "That sounds like a great idea!"
+    player_name "Это отличная идея!"
     show player 13
     show mia 10
-    mia "Stop over any night."
-    mia "I got a new magazine that mentioned a great new study trick."
-    mia "I was hoping we... could try it out."
+    mia "Целыми ночами."
+    mia "Я тут купила журнал, в котором описана потрясающая методика обучения."
+    mia "Я надеюсь что мы... её опробуем."
     show mia 7
     show player 21
-    player_name "Awesome! Count me in!"
+    player_name "Здорово! Я в деле!"
     show player 13
     show mia 10
-    mia "I'll be waiting! See you later, {b}[firstname]{/b}."
+    mia "Буду ждать! До встречи, {b}[firstname]{/b}."
     show mia 7
     show player 21
-    player_name "Bye, {b}Mia{/b}."
+    player_name "Пока, {b}Мия{/b}."
     hide player
     hide xtra 21
     hide mia
@@ -417,32 +417,32 @@ label mias_entrance_helen_route_split:
     show mia 45f at right
     show player 10 at left
     with dissolve
-    player_name "{b}Mia{/b}?!"
+    player_name "{b}Мия{/b}?!"
     show player 5
     show mia 46f
     mia "{b}[firstname]{/b}!"
     show mia 45f
     show player 10
-    player_name "What's wrong?"
+    player_name "Что случилось?"
     show player 5
     show mia 46f
-    mia "My parents split up for good!"
+    mia "Мои родители расстались навсегда!"
     show mia 45f
     show player 10
-    player_name "I... I'm so sorry."
+    player_name "Мне... очень жаль."
     show player 5
     show mia 46f
-    mia "I just feel so guilty... I didn't try hard enough."
-    mia "It's all my fault!"
+    mia "Я чувствую себя виноватой... Я недостаточно старалась."
+    mia "Это всё моя вина!"
     show mia 45f
     show player 37 with dissolve
     player_name "..."
     show player 10 with dissolve
-    player_name "No, {b}Mia{/b}. It's really not your fault..."
-    player_name "Sometimes... people don't always stay together."
+    player_name "Нет, {b}Мия{/b}. Это не твоя вина, правда..."
+    player_name "Иногда... люди просто не могут быть вместе."
     show player 11
     show mia 47f with dissolve
-    mia "Well then relationships suck! Love doesn't even exist."
+    mia "Отношения отстой! Не существует никакой любви."
     show mia 48f
     show player 22
     player_name "!!!"
@@ -450,67 +450,67 @@ label mias_entrance_helen_route_split:
     show mia 45f with dissolve
     mia "..."
     show mia 46f
-    mia "Thanks for trying to help my family..."
+    mia "Спасибо, что помогал моей семье..."
     show player 25
-    mia "I need to be alone..."
+    mia "Мне нужно побыть одной..."
     hide mia with dissolve
     show player 24
-    player_name "Shit..."
-    player_name "{b}Mia{/b} is taking this worse than I thought."
+    player_name "Дерьмо..."
+    player_name "{b}Мия{/b} переживает это сильнее, чем я думал."
     show player 37 with dissolve
-    player_name "Now she's going to blame herself for this..."
+    player_name "Теперь она только и будет винить себя..."
     show player 24 with dissolve
     pause
     show helen 23 at right with dissolve
     show player 11
     player_name "!!!"
     show player 10
-    player_name "{b}Helen{/b}... Hi..."
+    player_name "{b}Хелен{/b}... Здрасьте..."
     show player 5
     show helen 24
-    helen "Hello, {b}[firstname]{/b}."
-    helen "I appreciate hearing your concern for my daughter."
-    helen "But don't worry about {b}Mia{/b}, I'll take care of her."
+    helen "Здравствуй, {b}[firstname]{/b}."
+    helen "Я ценю твоё беспокойство за мою дочь."
+    helen "Но не нужно волноваться за {b}Мию{/b}, Я обо всём позабочусь."
     show helen 23
     show player 10
-    player_name "Oh..."
+    player_name "Ох..."
     show player 5
     show helen 24
-    helen "You should visit our house more."
-    helen "I want you to feel at home here."
-    helen "We've got an extra bed in my room..."
+    helen "Можешь и дальше приходить к нам домой."
+    helen "Ты нужен здесь."
+    helen "В моей комнате хватит места для двоих..."
     show helen 23
     show player 21
-    player_name "Heh heh... I... I thought those rituals were over."
+    player_name "Хехе... Я... Я думал, что все эти ритуалы уже в прошлом."
     show player 5
     show xtra 21 at left
     show helen 24
-    helen "But, {b}[firstname]{/b}, I'm your holy servant now."
+    helen "Но, {b}[firstname]{/b}, я твоя верная раба."
     show helen 28
-    helen "You know how I struggle with my desires."
-    helen "In fact, I feel so... unclean right now."
-    helen "I need a stiff... deep... purging..."
+    helen "Ты же знаешь, у меня постоянная борьба с моими желаниям."
+    helen "На самом деле, я чувствую себя такой... грешной."
+    helen "Мне нужен жесткий... глубокий... очистительный..."
     show helen 23
     show player 10
-    player_name "Are you suggesting, I-"
+    player_name "Вы мне предлагаете, то-"
     show player 11
     show helen 24
-    helen "Of course! Won't you... {b}Master{/b}?"
+    helen "Конечно! Вы не хотите... {b}мой Господин{/b}?"
     show helen 23
     show player 22
     player_name "!!!"
     show helen 28
-    helen "If you are busy though, I'll wait for you to purge my sins in our bed during the day..."
-    helen "...Or at night you can penetrate my sinful flesh in the nun's chamber."
+    helen "Если вы не будете заняты, приходите днём чтобы очистить меня от греха..."
+    helen "...а ночью вы можете наказать мою грешную плоть в келье монахини."
     show helen 27
     show player 10
-    player_name "Do you really need me to?"
+    player_name "Я действительно вам нужен?"
     show player 5
     show helen 24
-    helen "Of course!"
-    helen "I desperately need to be kept in line..."
-    helen "Otherwise, my sinful hands can't stop themselves from... getting dirty."
-    helen "Please visit me soon, {b}Master{/b}."
+    helen "Конечно!"
+    helen "Мою страсть нужно держать в узде..."
+    helen "В противном случае, мои грешные руки будут творить... непотребства."
+    helen "Пожалуйста, поскорее навестите меня, {b}мой Господин{/b}."
     show helen 23
     show player 11
     player_name "..."
@@ -523,17 +523,17 @@ label mias_entrance_helen_route_split:
 label mias_entrance_mia_unexpected_visit:
     scene mia_indoors
     show player 10 with dissolve
-    player_name "Hello?"
+    player_name "Здрасьте?"
     show player 12
-    player_name "( Hmm... No one's home? )"
-    player_name "( Maybe she's upstairs... )"
+    player_name "( Хмм... Никого нет дома? )"
+    player_name "( Может быть она наверху... )"
     hide player with dissolve
     return
 
 label helen_masturbating_block:
     scene mia_indoors
     show player 12 with dissolve
-    player_name "( I should find {b}Mia{/b} before I leave... )"
+    player_name "( Мне нужно найти {b}Мию{/b} пока я не ушёл... )"
     hide player with dissolve
     $ game.main()
 
@@ -543,7 +543,7 @@ label mias_house_sneak:
     with Pause(0.5)
 
     scene mia_sneak01 with dissolve
-    show text "The door is unlocked.\n I hope I don't get in trouble for this...\n Alright, I'm going in." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Дверь открыта.\n Надеюсь, я не влипну ни в какие неприятности...\n Всё, захожу." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
@@ -552,7 +552,7 @@ label mias_house_sneak:
         with Pause(0.5)
 
         scene mia_sneak02 with dissolve
-        show text "Both her parents are watching TV.\n I just have to be quiet and make my way upstairs now...\n" at Position (xpos= 512, ypos = 700) with dissolve
+        show text "Её родители смотрят телек.\n Мне нужно тихонько прокрасться наверх...\n" at Position (xpos= 512, ypos = 700) with dissolve
         pause
         hide text with dissolve
 
