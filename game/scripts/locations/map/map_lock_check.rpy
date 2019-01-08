@@ -13,12 +13,12 @@ label map_lock_check(destination_screen, destination_label):
 
     elif M_roxxy.is_state(S_roxxy_sneak_into_smith) and destination_screen != "Smith" and game.timer.is_dark():
         show player 10 with dissolve
-        player_name "I should go to {b}Principal Smith{/b}’s house now."
+        player_name "Я должен пойти в дом {b}Директрисы Смит{/b} сейчас."
         hide player with dissolve
 
     elif M_roxxy.is_state(S_roxxy_sneak_into_smith) and destination_screen == "Smith" and not game.timer.is_dark():
         show player 10 with dissolve
-        player_name "I can't go there right now!"
+        player_name "Я не могу пойти туда прямо сейчас!"
         hide player with dissolve
 
     elif M_roxxy.is_state(S_roxxy_meeting_clyde) and destination_screen == "Trailer Park":
@@ -58,11 +58,11 @@ label map_lock_check_destination_jump(destination_screen, destination_label):
     jump expression destination_label
 
 label night_locked:
-    player_name "I can't go there at night!"
+    player_name "Я не могу пойти туда ночью!"
     return
 
 label school_no_master_key_locked:
-    player_name "I can't go in school at night !"
-    player_name "Maybe if I {i}borrowed{/i} that {b}Master Key{/b} Annie used on my locker..."
+    player_name "Я не могу пойти в школу ночью!"
+    player_name "Может если я {i}одолжу{/i} тот {b}Мастер-Ключ{/b} которым Энни открыла мой шкафчик..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
