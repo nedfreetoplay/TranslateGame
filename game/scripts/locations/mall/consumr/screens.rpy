@@ -272,10 +272,10 @@ label consumr_chicken_stock_dialogue:
     show player 4
     with dissolve
     if M_okita.is_state(S_okita_get_ingredients):
-        player_name "Hmm, Okita said {b}Vegetable Stock{/b} but they only have Chicken..."
-        player_name "Maybe the Clerk can help me?"
+        player_name "Хм, Окита сказала {b}овощной бульон{/b}, но у них есть только куриный..."
+        player_name "Может, Клерк мне поможет?"
     else:
-        player_name "I don't see why I would need chicken stock right now..."
+        player_name "Не понимаю, зачем мне сейчас куриный бульон..."
     $ game.main()
 
 screen popup_fail01:
