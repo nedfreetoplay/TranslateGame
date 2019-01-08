@@ -3,15 +3,15 @@ label home_diane_checkup_results:
     show player 13 at left
     show diane b_casual a_casual_sides f_normal_talk
     with dissolve
-    dia "Thanks for going with me, {b}[firstname]{/b}."
-    dia "You were so great today!"
+    dia "Спасибо, что пошел со мной, {b}[firstname]{/b}."
+    dia "Ты был так великолепен сегодня!"
     show diane f_normal
     show player 14
-    player_name "No problem."
-    player_name "I'm just glad we got good news."
+    player_name "Без проблем."
+    player_name "Я просто рад, что у нас хорошие новости."
     show player 13
     show diane f_normal_talk
-    dia "Me too."
+    dia "Я тоже."
     hide player
     show diane kiss_casual
     with dissolve
@@ -19,20 +19,20 @@ label home_diane_checkup_results:
     show player 13 at left
     show diane b_casual a_casual_sides f_normal_talk
     with dissolve
-    dia "We'll get started tomorrow, okay?"
+    dia "Мы начнем завтра, хорошо?"
     show diane f_normal
     show player 14
-    player_name "Alright."
+    player_name "Хорошо."
     show player 13
     show diane f_normal_talk
-    dia "You'd better head up to bed and get a good nights sleep."
+    dia "Тебе лучше пойти спать и хорошенько выспаться."
     show diane f_wink
     pause
     show diane f_smirk_talk
-    dia "Lots of hard work waiting for you tomorrow, stud."
+    dia "Много тяжелой работы ждет тебя завтра, жеребец."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "{b}*Gulp*{/b} Y-yeah, okay."
+    player_name "{b}*глоток*{/b} Да, хорошо."
     hide player
     hide diane
     with dissolve
@@ -748,7 +748,7 @@ label home_front_mom_bad_guys_revisit:
     player_name "!!!"
     show white zorder 4 with dissolve
     show debbies 47 at Position(xpos=498,ypos=768)
-    show playersex 33 zorder 3 at Position(xpos=521,ypos=508)
+    show playersex 33 zorder 3 at Position(xpos=610,ypos=880)
     hide white with dissolve
     pause
     show debbies 48
