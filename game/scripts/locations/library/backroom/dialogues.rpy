@@ -1,22 +1,22 @@
 label backroom_blocked_dialogue:
     scene library
     show player 35 with dissolve
-    player_name "Hmm... I'm not sure where the school {b}textbooks{/b} are..."
-    player_name "Maybe I should ask the {b}Librarian{/b} at the {b}reception desk{/b} first."
+    player_name "Хмм... Я не знаю где искать школьные {b}учебники{/b}..."
+    player_name "Наверное надо спросить {b}библиотекаря{/b} за {b}стойкой{/b}."
     hide player 35 with dissolve
     $ game.main()
 
 label backroom_dialogue_backroom_count:
     scene backroom01
     show library 1_2 at Position(xpos = 486, ypos = 707) with dissolve
-    player_name "( OH SHIT!!! )"
+    player_name "( ВОТ ДЕРЬМО!!! )"
     player_name "..."
-    player_name "( People are having sex back here... )"
+    player_name "( Здесь люди занимаются сексом... )"
     pause 4
     player_name "..."
-    player_name "( Is that a webcam on the shelf? )"
-    player_name "( I think it's filming... Do they even know that it's there? )"
-    player_name "( Should I tell the {b}librarian{/b}? )"
+    player_name "( Это веб камера на полке? )"
+    player_name "( По-моему она снимает... А они хоть знают что она там? )"
+    player_name "( Должен ли я сказать {b}библиотекарше{/b}? )"
     return
 
 label backroom_couple_finish:
@@ -42,8 +42,8 @@ label backroom_couple_finish_dialogue:
     show library 4
     window hide
     pause
-    player_name "( Oh shit! )"
-    player_name "( I hear someone coming!! )"
+    player_name "( Вот блин! )"
+    player_name "( Я слышу как кто-то идет!! )"
     show library 5 at Position(xpos = 512, ypos = 707) with hpunch
     window hide
     pause
@@ -53,32 +53,32 @@ label backroom_couple_finish_dialogue:
     show jane 8 at right
     show player 23 at left
     with dissolve
-    jan "Oh for crying out loud!"
+    jan "Что тут за крики!"
     show player 11
-    jan "NOT AGAIN!!!" with hpunch
+    jan "ТОЛЬКО НЕ ОПЯТЬ!!!" with hpunch
     show jane 7 with dissolve
-    jan "Ugh..."
+    jan "Эхх..."
     show jane 12 with dissolve
     show player 10
-    player_name "Is this common?"
+    player_name "Это обычное дело?"
     show player 5
     show jane 5
     jan "..."
     show jane 4
-    jan "Unfortunately..."
-    jan "People seem to love doing it back here."
-    jan "Just keep this to yourself, pretty please?"
+    jan "Понимаешь..."
+    jan "Людям нравится делать это здесь, и я не собираюсь их останавливать."
+    jan "Просто держи это при себе, пожалуйста."
     show jane 1
     show player 12
-    player_name "Yeah, I won't tell anyone..."
+    player_name "Да, я никому не расскажу..."
     show player 5
     show jane 2
-    jan "Thanks."
-    jan "I'm going back to my desk."
-    jan "If you need help finding something or you see anyone else doing it in here, let me know!"
+    jan "Спасибо."
+    jan "Я возвращаюсь на своё рабочее место."
+    jan "Если тебе нужна помощь в поиске чего-то или ты видишь, что кто-то ещё делает это здесь, дай мне знать!"
     hide jane with dissolve
     show player 17
-    player_name "I should visit the library more often!"
+    player_name "Мне надо почаще посещать библиотеку!"
     hide player with dissolve
     return
 
@@ -92,14 +92,14 @@ label poem_assignment_book:
 label poem_assignment_book_dialogue:
     scene backroom01
     show book_01 at Position (xpos=376,ypos=426,xanchor=0,yanchor=0)
-    player_name "This must be the book-"
+    player_name "Это должно быть та книга-"
     show book_07_c with dissolve
     player_name "!!!" with hpunch
-    player_name "Whoa!"
-    player_name "{b}Mia{/b} was right. This thing is really graphic!"
-    player_name "Hmm, I wonder what {b}Judith{/b} was doing with it back here in this dark room by herself?"
+    player_name "Воу!"
+    player_name "{b}Мия{/b} была права. Эта штука реально очень наглядная!"
+    player_name "Хмм, интересно что {b}Джудит{/b} делала с ней в той темной комнате?"
     player_name "..."
-    player_name "Alright, I had better take this home to {b}my computer{/b} and get to writing on that poem for {b}Miss Bissette{/b}."
+    player_name "Хорошо, надо идти домой к {b}компьютору{/b} и начать писать стихи для {b}Мисс Биссетт{/b}."
     pause
     hide book_01
     hide book_07_c with dissolve
