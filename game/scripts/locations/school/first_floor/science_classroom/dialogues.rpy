@@ -679,8 +679,8 @@ label science_classroom_okita_has_glasses_int_pass:
     show okita 4 zorder 0 at right
     show kevin 9f zorder 2 at Position(xpos=0.25, ypos=1.0)
     show kevinl 1 zorder 3 at Position(xpos=0.2535, ypos=1.0)
-    show ronda 11f zorder 4 at Position(xpos=0.15, ypos=1.0)
-    show rondal 1 zorder 5 at Position(xpos=0.1515, ypos=1.0)
+    show ronda b_casual a_casual_sides f_normal o_labcoat1 zorder 4 at flip
+    show ronda at Position (xpos=300)
     with dissolve
 
     player_name "Кажется, все функции работают..."
@@ -688,12 +688,12 @@ label science_classroom_okita_has_glasses_int_pass:
     player_name "Просто нужно проверить камеру."
     show xtra 38
     show kevinl 1b
-    show rondal 1b at Position(xpos=0.149, ypos=1.0)
+    show ronda o_labcoat2
     show okitax 1 zorder 1 at Position(xpos=0.86, ypos=1.0)
     pause 0.25
     show xtra 38b
     show kevinl 1
-    show rondal 1 at Position(xpos=0.1515, ypos=1.0)
+    show ronda o_labcoat1
     hide okitax
     pause 1
     player_name "Что за-"
@@ -702,22 +702,22 @@ label science_classroom_okita_has_glasses_int_pass:
     player_name "... Это что?"
     show xtra 38
     show kevinl 1b
-    show rondal 1b at Position(xpos=0.149, ypos=1.0)
+    show ronda o_labcoat2
     show okitax 1 zorder 1 at Position(xpos=0.86, ypos=1.0)
     pause 0.25
     show xtra 38b
     show kevinl 1
-    show rondal 1 at Position(xpos=0.1515, ypos=1.0)
+    show ronda o_labcoat1
     hide okitax
     pause 0.25
     show xtra 38
     show kevinl 1b
-    show rondal 1b at Position(xpos=0.149, ypos=1.0)
+    show ronda o_labcoat2
     show okitax 1 zorder 1 at Position(xpos=0.86, ypos=1.0)
     pause 0.25
     show xtra 38b
     show kevinl 1
-    show rondal 1 at Position(xpos=0.1515, ypos=1.0)
+    show ronda o_labcoat1
     hide okitax
     pause 1.5
     player_name "Они были обнажены на секунду..."
@@ -727,7 +727,7 @@ label science_classroom_okita_has_glasses_int_pass:
     player_name "Может, если я нажму на кнопку?"
     show xtra 38
     show kevinl 1b
-    show rondal 1b at Position(xpos=0.149, ypos=1.0)
+    show ronda o_labcoat2
     show okitax 1 zorder 1 at Position(xpos=0.86, ypos=1.0)
     pause 1
     player_name "( !!! )" with hpunch
@@ -748,7 +748,6 @@ label science_classroom_okita_has_glasses_int_pass:
     player_name "Ой мой бог! Я вижу у {b}Кевина{/b}..."
     pause
     hide ronda
-    hide rondal
     show kevin 8 at Position(xpos=0.15, ypos=1.0)
     show kevinl 1bf at Position(xpos=0.1485, ypos=1.0)
     with dissolve
