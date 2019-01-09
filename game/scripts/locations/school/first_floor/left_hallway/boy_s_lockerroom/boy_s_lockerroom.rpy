@@ -27,7 +27,7 @@ label roxxy_shower_dialogue:
     if not store._in_replay == None:
         jump roxxy_shower_replay_continue
     menu:
-        "Please!":
+        "Пожалуйста!":
             if player.has_required_chr(5):
                 label roxxy_shower_replay_continue:
                 call expression game.dialog_select("roxxy_shower_dialogue_please_pass")
@@ -39,7 +39,7 @@ label roxxy_shower_dialogue:
             else:
 
                 call expression game.dialog_select("roxxy_shower_dialogue_please_fail")
-        "Nevermind.":
+        "Неважно.":
 
             call expression game.dialog_select("roxxy_shower_dialogue_leave")
     hide missy
