@@ -3,119 +3,119 @@ label trailerpark_roxxy_go_to_picnic:
     show player 13 at left
     show roxxy 1b at right
     with dissolve
-    rox "There you are!"
-    rox "I was worried you wouldn't come..."
+    rox "А вот и ты!"
+    rox "Я уже подумала, что ты не придешь..."
     show roxxy 1
     show player 14
-    player_name "Heh, I said I was coming didn't I?"
-    player_name "I've never had a picnic before..."
+    player_name "Хехе, я же сказал, что приду, так?"
+    player_name "Я никогда раньше не ходил на пикники..."
     show player 13
     show roxxy 2
-    rox "Really? Like... Never?"
+    rox "Серьезно? Вообще... никогда?"
     show roxxy 1
     show player 14
-    player_name "Never ever."
+    player_name "Ни разу в жизни."
     show player 13
     show roxxy 1b
-    rox "Heh, {b}my mom{/b} and I used to have picnics sometimes when I was younger."
-    rox "You know, back before she started drinking all the time."
+    rox "Мы с {b}моей мамой{/b} иногда ходили на пикники когда я была маленькой."
+    rox "Ну знаешь, до того как она начала постоянно бухать."
     show roxxy 1
     show player 14
-    player_name "That sounds really nice."
+    player_name "Звучит очень мило."
     show player 13
     show roxxy 1b
-    rox "... Yeah."
+    rox "... Да."
     show roxxy 1
     show player 14
-    player_name "Well, thanks for inviting me over!"
-    player_name "I've been looking forward to this all day!"
+    player_name "Ну, спасибо, что пригласила!"
+    player_name "Я с нетерпением ждал этого весь день!"
     show player 13
     rox "..."
     show player 14
-    player_name "So what's on the menu?"
+    player_name "Что там у нас в меню?"
     show player 13
     show roxxy 89b with dissolve
-    rox "Take a look..."
+    rox "Сейчас посмотрю..."
     show player 660
     show roxxy 1
     with dissolve
     pause
     show player 661 with dissolve
-    player_name "Ooh, peanut butter and jelly!"
+    player_name "Ух ты, бутерброд с джемом и арахисовым маслом."
     show player 662
-    player_name "Nice!"
+    player_name "Круто!"
     show player 663
     show roxxy 1l with dissolve
-    rox "... Yeah, sorry. I told you I'm not much of a cook."
+    rox "... Да, прости. Я же говорила что готовлю не очень."
     show roxxy 1k
     show player 662
-    player_name "What are you talking about?"
-    player_name "These look great!"
+    player_name "О чем ты говоришь?"
+    player_name "Они выглядят просто потрясно!"
     show player 663
     show roxxy 1l
-    rox "Heh, shut up..."
+    rox "Хех, заткнись..."
     show roxxy 1k
     show player 662
-    player_name "I'm serious!"
-    player_name "Blueberry jelly?"
-    player_name "Now that's classy!"
+    player_name "Я серьёзно!"
+    player_name "Черничное желе?"
+    player_name "Просто шикарно!"
     show player 663
     show roxxy 4 with dissolve
-    rox "Hahaha!"
+    rox "Ахахаха!"
     show roxxy 1h
-    rox "You always know how to make me laugh, {b}[firstname]{/b}!"
+    rox "Ты всегда знаешь, как меня рассмешить, {b}[firstname]{/b}!"
     show roxxy 1g
     player_name "..."
     show roxxy 1h
-    rox "I'm not used to hanging out with guys like you."
+    rox "Мне непривычно тусоваться с парнями вроде тебя."
     show roxxy 1g
     show player 661
-    player_name "Guys like me?"
+    player_name "Вроде меня?"
     show player 663
     show roxxy 1h
-    rox "You know, funny guys."
+    rox "Ну знаешь, весёлыми парнями."
     show roxxy 1g
     player_name "..."
     show roxxy 2
-    rox "... Or guys I can have an actual conversation with, for that matter."
+    rox "... с которыми я могу душевно поболтать, если на то пошло."
     show roxxy 1g
     show player 662
-    player_name "So, it's a good thing?"
+    player_name "Нуу, это же хорошо?"
     show player 663
     show roxxy 4
-    rox "Yes, it's a good thing!"
+    rox "Да, просто замечательно!"
     show roxxy 1h
-    rox "Hehe, I have fun when I'm hanging out with you."
+    rox "Хехе, мне так нравится тусоваться с тобой."
     show roxxy 1g
     show player 662
-    player_name "Yeah, I have fun hanging out with you too, {b}Roxxy.{/b}"
+    player_name "Да, {b}Рокси{/b}, мне тоже очень нравится."
     show player 663
     player_name "..."
     rox "..."
     show player 662
-    player_name "It's so peaceful out here."
+    player_name "Здесь так тихо."
     show player 663
     show roxxy 1b
-    rox "Yeah, I love it."
-    rox "I can't wait to show you the sky after dark, you can see every star in the sky out here."
-    rox "... I brought a blanket, let's sit down and eat!"
+    rox "Да, мне очень нравится это место."
+    rox "Очень хочу показать тебе ночное небо, оно здесь полностью усеянно звездами."
+    rox "... Я принесла плед, давай присядем и перекусим!"
     show roxxy 1b
     show player 662
-    player_name "Sounds great! Let me help you."
+    player_name "Звучит здорово! Давай помогу."
     hide player
     hide roxxy
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene10.jpg"
     with fade
-    show text "{b}Roxxy{/b} and I had a blast hanging out!\nThe food could have been better but it was really sweet of her to try." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Рокси{/b} и я отпадно провели время!\nЕда могла бы быть и получше, но всё равно очень мило, что она постаралась." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I listened to {b}Roxxy{/b} reminisce about her past and then we spoke about our hopes for the future.\nAll while watching the sun set." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я слушал рассказы {b}Рокси{/b} о её прошлом, а затем мы поговорили о наших надеждах на будущее.\nА солнце в это время медленно уходило за горизонт." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "It really was the perfect picnic." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это и вправду был идеальный пикник." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene expression "backgrounds/location_trailer_cutscene11.jpg"
     with hpunch
-    show text "Too bad it didn't last..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Но и он не мог продолжаться вечно..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -123,47 +123,47 @@ label trailerpark_roxxy_go_to_picnic:
     show roxxy 2b at right
     show player 10 at left
     with dissolve
-    player_name "Was it supposed to rain tonight?"
+    player_name "Разве сегодня обещали дождь?"
     show player 5
     show roxxy 2c
-    rox "I didn't think so!"
+    rox "Я так не думаю!"
     show roxxy 2b
     show player 11
     show rain
     pause
     rox "..."
     show roxxy 3
-    rox "Shit."
+    rox "Вот дерьмо."
     show roxxy 3d
     show player 17
-    player_name "Hahaha, don't worry about it!"
+    player_name "Хахаха, да не волнуйся!"
     show player 14
-    player_name "We should get inside!"
+    player_name "Нужно укрыться где-нибудь!"
     show roxxy 2
-    rox "Yeah, c'mon!"
+    rox "Ага, погнали!"
     hide roxxy
     hide player
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene06.jpg"
     show rain
     with fade
-    show text "The storm came on fast!\nWe grabbed our stuff and ran as quick as we could!\n{b}Roxxy{/b} guiding me through the darkness towards her mother's trailer." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Буря стремительно надвигалась!\nМы схватили наши вещи и со всех ног помчались к трейлеру мамы {b}Рокси{/b}." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene07.jpg"
     show rain
     with fade
-    show text "... But about halfway there, {b}Roxxy{/b} took a bad step and started to stumble..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... Но на полпути, {b}Рокси{/b} оступилась и начала спотыкаться..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene08.jpg"
     show rain
     with fade
-    show text "... Dragging me down into the mud along behind her." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... и я, идущий позади неё, упал прямо в грязь." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Not my most graceful moment, to be sure..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Уверен, выглядело это не очень изящно..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -174,45 +174,45 @@ label trailerpark_roxxy_go_to_picnic:
     show player_wet_f at right
     show rain
     with dissolve
-    rox "Ghuaahh!!"
+    rox "Ааааагрх!!"
     show player 10f
-    player_name "You okay?"
+    player_name "Всё хорошо?"
     show player 5f
-    rox "Fffuuuu-"
+    rox "Блляяя-"
     show roxxy 90cf
-    rox "... I twisted my ankle!"
+    rox "... Я подвернула лодыжку."
     show roxxy 90f
-    rox "Ahh, that really hurts!"
+    rox "Ооох, это реально больно!"
     show roxxy 90bf
     rox "..."
     show roxxy 90cf
-    rox "HAHAHAHA!!!"
+    rox "ХАХАХАХАХА!!!"
     show roxxy 90bf
     show player 10f
-    player_name "... What?"
+    player_name "... Что?"
     show player 5f
     show roxxy 90cf
-    rox "Your face! It's covered in mud!"
+    rox "Твоё лицо! Оно всё в грязи!"
     show player 13f
     player_name "..."
     show roxxy 90cf
-    rox "... Sorry, that was just really funny."
+    rox "... прости, просто это выглядит очень забавно."
     show roxxy 90bf
     show player 14f
-    player_name "Heh, it's fine."
+    player_name "Хех, да всё нормально."
     show player 10f
-    player_name "I'm more worried about you."
-    player_name "Can you walk?"
+    player_name "Я за тебя переживаю."
+    player_name "Ты можешь идти?"
     show player 5f
     show roxxy 90cf
-    rox "Yeah, I'm fine..."
+    rox "Да, я в порядке..."
     show roxxy 90f
-    rox "Ouch, shit!"
+    rox "Ай, вот дерьмо!"
     show roxxy 90cf
-    rox "Tsk, maybe not..."
+    rox "Уфф, а может и не в порядке..."
     show roxxy 90f
     show player 12f
-    player_name "Here, lemme carry you..."
+    player_name "Давай, я тебя понесу..."
     hide player
     hide player_wet_f
     hide roxxy_wet
@@ -220,27 +220,27 @@ label trailerpark_roxxy_go_to_picnic:
     show player_wet at Position (xoffset=-210)
     show roxxy_wet_f at Position (xoffset=-358,yoffset=-6)
     with dissolve
-    rox "What?! No, you don't have to..."
+    rox "Что?! Нет, не нужно..."
     hide roxxy_wet_f
     hide player_wet
     show roxxy_wet back_f
     show roxxy 91cf
     with dissolve
-    player_name "Don't be silly, we're getting soaked."
-    player_name "It's just a piggy back ride."
+    player_name "Не глупи, мы промокнем."
+    player_name "Я просто отнесу тебя на спине."
     show roxxy 91bf with dissolve
-    rox "Alright."
+    rox "Хорошо."
     hide roxxy
     hide roxxy_wet
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene04.jpg"
     show rain
     with fade
-    show text "... And so, I rushed through the rain towards shelter with {b}Roxxy{/b} on my back." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... итак, я помчался сквозь ливень к убежищу вместе с {b}Рокси{/b} на моих плечах." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "She was heavier than she looked but it felt good to help her out." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Она была тяжелее, чем выглядела, но было приятно помочь ей." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "... And it was quite dashing, if I do say so myself." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... И я неслабо стартанул, если так можно выразиться." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -252,35 +252,35 @@ label trailerpark_roxxy_go_to_picnic:
     show player_wet at left
     show crystal 6 at right
     with dissolve
-    crys "Damn, you kids are a mess!"
-    crys "What's the matter with her?"
+    crys "Чёрт, да вы все в грязи!"
+    crys "Что с ней произошло?"
     show crystal 5
     show player 10
-    player_name "She fell and twisted her ankle."
+    player_name "Она упала и вывихнула лодыжку."
     show player 5
     show crystal 9
-    crys "You alright?"
+    crys "Ты в порядке?"
     show crystal 5
     show roxxy 1lf at Position (xoffset=-34)
-    rox "I'm fine, {b}Mom{/b}."
-    rox "C'mon, {b}[firstname]{/b}, I'll get us some towels."
+    rox "Всё хорошо, {b}Мам{/b}."
+    rox "Пойдем, {b}[firstname]{/b}, возьмем полотенца."
     show roxxy 1kf
     show crystal 11
-    crys "Don't you go dirtying up my good towels now!"
+    crys "Будете вы ещё марать мои чистые полотенца!"
     show crystal 10
     show roxxy 1lf at Position (xoffset=-34)
-    rox "Good towels?! What the hell are you talking about?"
+    rox "Чистые полотенца?! Что за херню ты несёшь?"
     show roxxy 1kf
     show crystal 6
-    crys "Hahaha! I'm just screwin' with ya!"
-    crys "Get outta those wet clothes before you all catch colds..."
-    crys "... Does your boyfriend need help?"
+    crys "Хахаха! Неплохо так подъебала!"
+    crys "Сымайте свои грязные шмотки пока не промерзли..."
+    crys "... Твоему парню помощь нужна?"
     show crystal 5
     show roxxy 1nf at Position (xoffset=-34)
-    rox "Ugh, shut up, {b}Mom!{/b}"
+    rox "Гхх, заткнись, {b}Мам!{/b}"
     show roxxy 1mf at Position (xoffset=-34)
     show crystal 6
-    crys "Hehehe."
+    crys "Хехехе."
     hide player
     hide player_wet
     hide roxxy
