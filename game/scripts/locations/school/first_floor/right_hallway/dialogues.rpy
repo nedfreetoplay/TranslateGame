@@ -1,10 +1,10 @@
 label prom_poster:
     show expression game.timer.image("prom_poster_day{}")
     pause
-    player_name "( The prom is coming up soon. )"
-    player_name "( Seems like it'd be a good time... if I had a date. )"
-    player_name "( I'd better hurry and find someone. )"
-    player_name "( I wonder who I could ask. )"
+    player_name "( Скоро приближается выпускной. )"
+    player_name "( Кажется это было бы подходящим временем ... если бы я уже встречался. )"
+    player_name "( Мне лучше поторопиться и найти кого-то. )"
+    player_name "( Интересно кого я мог бы попросить. )"
     $ game.main()
 
 label school_righthallway_roxxy_go_in_auditorium:
@@ -12,67 +12,67 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 642 at left
     show erik 4 at right
     with dissolve
-    eri "Hey!"
-    eri "What's up, dude?!"
+    eri "Привет!"
+    eri "Как дела, чувак?!"
     show erik 1
     show player 641
-    player_name "Oh, hey, {b}Erik{/b}."
-    player_name "I'm just taking these records to the {b}auditorium{/b} for {b}Miss Dewitt{/b}..."
+    player_name "Ох, привет, {b}Эрик{/b}."
+    player_name "Я просто взял эти записи с {b}Актового зала{/b} для {b}Мисс Девитт{/b}..."
     show player 642
     show erik 4
-    eri "Ah, right on..."
-    eri "It looks heavy!"
+    eri "Ах, прямо за..."
+    eri "Это выглядит тяжелым!"
     show erik 1
     show player 641
-    player_name "A bit, yeah."
-    player_name "What are you doing here?"
+    player_name "Немного, да."
+    player_name "Что ты здесь делаешь?"
     show player 642
     show erik 4
-    eri "I was just heading to the auditorium too."
-    eri "I've got a small break before my next class and its usually quiet and dark in the {b}auditorium{/b}."
-    eri "Which is perfect for playing games on my handheld!"
+    eri "Я как раз шел Актовый зал тоже."
+    eri "У меня небольшой перерыв до моего следующего урока и обычно тихо и темно в {b}Актовом зале{/b}."
+    eri "Идеально подходит для того чтобы играть в игры на моем смартфоне!"
     show erik 1
     show player 641
-    player_name "Hmm, why do you need it dark and quiet?"
+    player_name "Хмм, зачем тебе нужна темнота и тишина?"
     show player 642
     show erik 5
-    eri "I err... I dunno."
+    eri "Я эмм... Я не знаю."
     show erik 4
-    eri "It's just more peaceful I guess!"
+    eri "Это просто более умиротворенней я думаю!"
     show erik 5
-    eri "You want me to help you carry that?"
+    eri "Ты хочешь чтобы я помог тебе с этим?"
     show erik 1
     show player 641
-    player_name "Nah, I've got it."
-    player_name "What game are you playing-"
+    player_name "Нет, я справлюсь."
+    player_name "В какую игру ты играешь-"
     show player 642
     show erik 1b
-    dex "Aww, C'mon {b}Becca{/b} just lemme get a peek..."
+    dex "Ой, Давай {b}Бекка{/b} просто дай взглянуть..."
     player_name "..."
     show erik 3b
-    eri "Wait a second. Was that {b}Dexter{/b}?"
+    eri "Подожди секунду. Это был {b}Декстер{/b}?"
     show erik 52
     show player 641
-    player_name "Yeah, it sounds like him..."
+    player_name "Да, похоже на него..."
     show player 642
     show erik 3b
-    eri "What the heck is he doing in the auditorium?"
+    eri "Какого черта он забыл в Актовом зале?"
     show erik 52
     show player 641
-    player_name "No idea..."
-    player_name "We should check it out!"
+    player_name "Без понятия..."
+    player_name "Мы должны пойти и выяснить!"
     show player 642
     show erik 3b
-    eri "... Ehh, really?"
+    eri "... Эххх, Серьезно?"
     show erik 52
     show player 641
-    player_name "Yeah, man. C'mon!"
+    player_name "Да, мужик. Давай!"
     hide player
     hide erik
     with dissolve
     scene expression "backgrounds/location_school_assembly_hall_cutscene08.jpg"
     with fade
-    show text "What was going on in the assembly hall?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Что происходило в Актовом зале?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -81,65 +81,65 @@ label school_righthallway_roxxy_go_in_auditorium:
     show dexter 34
     show becca 2 at left
     with dissolve
-    becca "{b}Dexter{/b} stop it!"
-    becca "Ugh, is this what you called me in here for?!"
+    becca "{b}Декстер{/b} остановись!"
+    becca "Угх, и ради этого ты меня сюда позвал?!"
     show becca 1
     show dexter 35
-    dex "Huh?!"
-    dex "What's the problem?"
-    dex "{b}Roxxy{/b} and I are on a break and you're always wearing those low cut tops with your tits hanging out anyways..."
-    dex "Just let me see em for a second."
+    dex "Хмм?!"
+    dex "В чем проблема?"
+    dex "{b}Рокси{/b} и я взяли перерыв и ты всегда носишь это такое низкое декольте с твоими болтающимеся сиськами везде..."
+    dex "Просто покажи мне их на секунду."
     show dexter 34
     show becca 2
-    becca "No way!"
-    becca "We're at school!"
-    becca "... And even if we weren't. I don't like you that way."
+    becca "Ни в коем случае!"
+    becca "Мы в школе!"
+    becca "... И даже если бы мы небыли. Ты мне не нравишься таким образом."
     show becca 1
     show dexter 35
-    dex "Psh, stop pretending you don't want it..."
+    dex "ШШ, перестань претворятся что тебе этого не хочется..."
     show dexter 34
     show becca 2
-    becca "I'm not pretending anything!"
+    becca "Я никогда не притворяюсь!"
     show becca 1
     show dexter 36
-    dex "Hey, what's that on you're jeans?!"
+    dex "Хэй, что это такое у тебя на джинсах?!"
     show becca 14 at Position (xoffset=86) with dissolve
-    becca "Hmm?"
+    becca "Хммм?"
     show dexter 37 at left
     hide becca
     with dissolve
-    becca "Ouch! What the fuck, {b}Dexter{/b}!"
+    becca "Ауч! Что за херня, {b}Декстер{/b}!"
     show becca 14 at left
     show becca 14 at Position (xoffset=86)
     hide dexter
     show dexter 35
     with dissolve
-    dex "Hahaha, I've always thought you had a great butt..."
+    dex "Хахахаха, Мне всегда казалось что у тебя отличная задница..."
     show dexter 34
     hide becca
     show dexter 38 at left
     with dissolve
-    becca "God damnit. I'm leaving!"
+    becca "Черт побери. Я ухожу!"
     show dexter 40 with dissolve
-    dex "Hey!"
-    dex "You aren't going anywhere 'till I see those tits!"
+    dex "Хэй!"
+    dex "Ты никуда не пойдешь пока я не увижу эти сиськи!"
     show dexter 39
-    becca "What the hell is with you today?!"
-    becca "I said no!"
+    becca "Что черт возьми с тобой сегодня?!"
+    becca "Я сказала нет!"
     show dexter 40
-    dex "Nobody tells me no!"
+    dex "Никто не говорит мне нет!"
     scene black with fade
     scene expression game.timer.image("backgrounds/location_school_right_hall{}_blur.jpg")
     show player 12f at right
     show erik 51f
     with dissolve
-    player_name "We have to do something!"
+    player_name "Мы должны что-то сделать!"
     show player 90f
     show erik 3bf
-    eri "B-but... {b}Dexter{/b} will kill us!"
+    eri "Н-но... {b}Декстер{/b} убьет нас!"
     show erik 51f
     show player 12f
-    player_name "We can't just stand here! C'mon!"
+    player_name "Мы не может просто стоять здесь! Пошли!"
     hide player
     hide erik
     with dissolve
@@ -149,140 +149,140 @@ label school_righthallway_roxxy_go_in_auditorium:
     show dexter 34 at Position (xpos=400)
     show becca 16 zorder 1 at left
     with dissolve
-    player_name "Back off her!"
+    player_name "Отвали от нее!"
     show player 90f
     show dexter 24 at Position (xoffset=47)
-    dex "Hmm?!"
+    dex "Хмм?!"
     show dexter 23 at Position (xoffset=47)
     show becca 17 with dissolve
-    becca "Screw you, {b}Dexter{/b}!"
+    becca "Да пошел ты, {b}Декстер{/b}!"
     hide dexter
     show becca 18
-    dex "Ghhurt!" with hpunch
+    dex "Гр, больно!" with hpunch
     show dexter 41 at Position (xoffset=-80)
     show becca 2b
     with dissolve
-    becca "Asshole!"
+    becca "Ублюдок!"
     show becca 19
     hide dexter with dissolve
-    dex "*Cough*"
+    dex "*Кашель*"
     hide player
     show becca 21f at Position (xpos=421)
     with dissolve
     player_name "!!!"
     show erik 3b
-    eri "Holy crap!"
+    eri "Не хрена себе!"
     show erik 52
     show becca 19 at Position (xpos=400)
     show player 10f at Position (xpos=775)
     with dissolve
-    player_name "{b}Becca{/b}, are you okay?"
+    player_name "{b}Бекка{/b}, ты в порядке?"
     show player 11f
     show becca 20
     becca "{b}[firstname]{/b}!!!"
-    becca "I was just... I mean, {b}Dexter{/b} was..."
+    becca "Я только... Я имею в виду, {b}Декстер{/b} был..."
     show becca 19
     show player 12f
-    player_name "I know. We saw it..."
+    player_name "Я знаю. Мы видели это..."
     show player 5f
     becca "..."
     show erik 4
-    eri "You just kicked his nuts to the moon!"
-    eri "That was awesome!"
+    eri "Ты просто отправила его орехи на луну!"
+    eri "Это было круто!"
     show erik 1
     show becca 20
-    becca "... It was?"
+    becca "... Это было?"
     show becca 19
     show player 14f
-    player_name "Haha, totally."
+    player_name "Хаха, полностью."
     show player 13f
-    dex "Ugh... {b}*Cough* *Sputter*{/b}"
+    dex "Угх... {b}*кашель* *Пормочет*{/b}"
     show player 12f
-    player_name "... Are you sure you're okay though?"
+    player_name "... Ты уверена что с тобой все хорошо несмотря?"
     show player 5f
     show becca 20
-    becca "{b}*Sniff*{/b} Yeah, I think so..."
-    becca "I've never seen him act that way before!"
+    becca "{b}*Вдох*{/b} Да, вроде того..."
+    becca "Я никогда раньше его таким не видела!"
     show becca 19
     show player 12f
-    player_name "Well don't worry. I don't think he'll try something like that again..."
+    player_name "Что ж не волнуйся. Я не думаю что он попробует сделать что-то подобное снова..."
     show player 14f
     show dexter 41 zorder 0 at Position (xpos=400) with dissolve
-    player_name "... Man, you really got him good!"
+    player_name "... Черт, ты действительно получил хорошо!"
     show player 13f
-    dex "{b}*Cough*{/b} Uhh... My... Nads..."
+    dex "{b}*Кашель*{/b} Охх... Мои... Бубенчики..."
     show roxxy 3cf at Position (xpos=75) with dissolve
-    rox "What the hell is going on-"
+    rox "Что, черт возьми, здесь проиходит?"
     show roxxy 2cf
-    rox "What's the matter with {b}Becca{/b}?"
+    rox "Что случилось с {b}Беккой{/b}?"
     show roxxy 27f at Position (xoffset=34) with dissolve
     rox "..."
     show roxxy 28f at Position (xoffset=34)
-    rox "... And why are you holding your balls, {b}Dexter{/b}?"
+    rox "... И почему ты держишся за свои яйца, {b}Декстер{/b}?"
     show roxxy 27f at Position (xoffset=34)
     menu:
-        "Tell {b}Roxxy{/b}.":
+        "Сказать {b}Рокси{/b}.":
             show player 12f
-            player_name "{b}Dexter{/b} was trying to force {b}Becca{/b} to flash him."
+            player_name "{b}Декстер{/b} пытался заставить {b}Бекку{/b} перепихнуться с ним."
             show player 90f
             show becca 19f
             show roxxy 3cf
             with dissolve
-            rox "... Seriously?"
+            rox "... Серьезно?"
             show roxxy 3bf
             show erik 3b
-            eri "Yeah, we saw it."
+            eri "Да, мы это видели."
             show erik 52
             show roxxy 3f
-            rox "You idiot!"
-            rox "What the hell's the matter with you?!"
+            rox "Ты идиот!"
+            rox "Да что с тобой черт подери?!"
             show roxxy 3bf
             show dexter 41 at Position (xoffset=2)
-            dex "{b}*Gasp* *Wheeze*{/b} ... Help."
+            dex "{b}*Удушье* *Хрип*{/b} ... Помоги."
             show dexter 41 at Position (xoffset=0)
             show becca 20f
-            becca "{b}*Sniff*{/b} {b}[firstname]{/b} ran in and tried to stop him."
+            becca "{b}*Вдох*{/b} {b}[firstname]{/b} вбежал и пытался его остановить."
             show becca 19f
             show roxxy 2cf
-            rox "You stood up to {b}Dexter{/b}?"
+            rox "Ты дал отпор {b}Декстеру{/b}?"
             show roxxy 2bf
             show player 10f
-            player_name "Err, kinda..."
+            player_name "Эрр, отчасти..."
             show player 5f
             show roxxy 3cf
-            rox "Are you nuts?"
-            rox "You realize he would kill you, right?"
+            rox "Ты рехнулся?"
+            rox "Ты же понимаешь что он мог тебя убить, правда?"
             show roxxy 3df
             show player 12f
-            player_name "... No?"
+            player_name "... Нет?"
             show player 90f
             show roxxy 2f
-            rox "Uhh, yeah. He would absolutely destroy you."
-            rox "Don't be stupid."
+            rox "Охх, да. Он бы просто уничтожил тебя."
+            rox "Не будь идиотом."
             show roxxy 1f f
             show dexter 41 at Position (xoffset=2)
-            dex "Uhh... You're so dead, {b}[firstname]{/b}..."
+            dex "Охх... Ты труп, {b}[firstname]{/b}..."
             show dexter 41 at Position (xoffset=0)
             show player 11f
             show roxxy 3f
-            rox "Oh, shut up!"
-            rox "You're not gonna do a damn thing!"
+            rox "Ох, Заткнись!"
+            rox "Ты ни черта не сделаешь!"
             show player 13f
-            rox "If this gets out you'll be expelled for sure!"
-            rox "... And that will be the least of your problems!"
+            rox "Если об этом узнают тебя наверняка исключат!"
+            rox "... И это будет наименьшая из твоих проблем!"
             show roxxy 3bf
             show dexter 41 at Position (xoffset=2)
             dex "..."
             show dexter 41 at Position (xoffset=0)
             show roxxy 3f
-            rox "Uh huh. That's what I thought."
+            rox "Ох хм. Вот что я думаю."
             show roxxy 3cf
-            rox "C'mon, {b}Becca{/b}. I'll walk you to the locker room."
+            rox "Давай, {b}Бекка{/b}. Я провожу тебя до раздевалки."
             show roxxy 3df
             becca "..."
             show roxxy 3d with dissolve
             show becca 20f
-            becca "Wait!"
+            becca "Подожди!"
             show becca 5 with dissolve
             pause
             show becca 22f at Position (xpos=457)
@@ -294,101 +294,101 @@ label school_righthallway_roxxy_go_in_auditorium:
             show player 13f at Position (xpos=775)
             with dissolve
             show roxxy 2bf
-            becca "Thank you."
+            becca "Спасибо."
             show becca 7
             show roxxy 1f f
             show player 14f
-            player_name "Heh, I didn't really do anything."
+            player_name "Хех, Я ничего не сделал."
             show player 13f
             show becca 8
-            becca "Yes, you did!"
-            becca "I..."
-            becca "... Just thanks!"
+            becca "Да, ты сделал!"
+            becca "Я..."
+            becca "... Просто Спасибо!"
             hide becca
             hide roxxy
             with dissolve
-        "Remain Silent.":
+        "Молчание.":
 
             show player 10f
-            player_name "I uhh..."
+            player_name "Я эмм..."
             show player 5f
             player_name "..."
             show becca 20f with dissolve
-            becca "{b}Dexter{/b} was forcing me to flash him!"
+            becca "{b}Декстер{/b} заставлял меня перепихнуться с ним!"
             show becca 19f
             show roxxy 3cf with dissolve
-            rox "... Seriously?"
+            rox "... Серьезно?"
             show roxxy 3bf
             show erik 3b
-            eri "Yeah, we saw it."
+            eri "Да, мы это видели."
             show erik 52
             show roxxy 3f
-            rox "You idiot!"
-            rox "What the hell's the matter with you?!"
+            rox "Ты идиот!"
+            rox "Да что с тобой черт подери?!"
             show roxxy 3bf
             show dexter 41 at Position (xoffset=2)
-            dex "{b}*Gasp* *Wheeze*{/b} ... Help."
+            dex "{b}*Удушье* *Хрип*{/b} ... Помоги."
             show dexter 41 at Position (xoffset=0)
             show becca 20 with dissolve
-            becca "{b}*Sniff*{/b} {b}[firstname]{/b} ran in and tried to stop him."
+            becca "{b}*Вдох*{/b} {b}[firstname]{/b} вбежал и пытался его остановить."
             show becca 19f with dissolve
             show roxxy 2cf
-            rox "You stood up to {b}Dexter{/b}?"
+            rox "Ты выстоял против {b}Декстера{/b}?"
             show roxxy 2bf
             show player 10f
-            player_name "Err, kinda..."
+            player_name "Эрр, отчасти..."
             show player 5f
             show roxxy 3cf
-            rox "Are you nuts?"
-            rox "You realize he would kill you, right?"
+            rox "Ты рехнулся?"
+            rox "Ты же понимаешь что он мог тебя убить, правда?"
             show roxxy 3df
             show player 10f
-            player_name "... No?"
+            player_name "... Нет?"
             show player 5f
             show roxxy 2f
-            rox "Uhh, yeah. He would absolutely destroy you."
-            rox "Don't be stupid."
+            rox "Охх, да. Он бы просто уничтожил тебя."
+            rox "Не будь идиотом."
             show roxxy 1f f
             show dexter 41 at Position (xoffset=2)
-            dex "Uhh... You're so dead, {b}[firstname]{/b}..."
+            dex "Охх... Ты труп, {b}[firstname]{/b}..."
             show dexter 41 at Position (xoffset=0)
             show player 11f
             show roxxy 3f
-            rox "Oh, shut up!"
-            rox "You're not gonna do a damn thing!"
-            rox "If this gets out you'll be expelled for sure!"
+            rox "Ох, Заткнись!"
+            rox "Ты ни черта не сделаешь!"
+            rox "Если об этом узнают тебя наверняка исключат!"
             show player 5f
-            rox "... And that will be the least of your problems."
+            rox "... И это будет наименьшая из твоих проблем."
             show roxxy 3bf
             show dexter 41 at Position (xoffset=2)
             dex "..."
             show dexter 41 at Position (xoffset=0)
             show roxxy 3cf
-            rox "Uh huh. That's what I thought."
-            rox "C'mon, {b}Becca{/b}. I'll walk you to the locker room."
+            rox "Ох хм. Вот что я думаю."
+            rox "Давай, {b}Бекка{/b}. Я провожу тебя до раздевалки."
             hide becca
             hide roxxy
             with dissolve
     show player 13f
     player_name "..."
     show erik 3b
-    eri "... So, you're really friends with them now, huh?"
+    eri "... Итак, ты теперь подружился с ними, хм?"
     show erik 52
     show player 14 at Position (xpos=700) with dissolve
-    player_name "Yeah, kind of."
+    player_name "Да, немного."
     show player 13
     show erik 4
-    eri "That's so awesome, dude!"
+    eri "Это круто, чувак!"
     show erik 1
     show dexter 41 at Position (xoffset=2)
-    dex "{b}*Whimper*{/b}"
+    dex "{b}*Хныканье*{/b}"
     show dexter 41 at Position (xoffset=0)
     show player 11
     show erik 3b
-    eri "... Uhh, we should probably get out of here."
+    eri "... Охх, нам стоит убираться отсюда."
     show erik 52
     show player 12
-    player_name "Yeah, let's go."
+    player_name "Да, пошли."
     hide player
     hide erik
     with dissolve
@@ -396,116 +396,116 @@ label school_righthallway_roxxy_go_in_auditorium:
     show player 13 at left
     show erik 4
     with dissolve
-    eri "... So what happened after the fake ID?"
+    eri "... Что случилось потом после поддельного ID?"
     show erik 1
     show player 14
-    player_name "I don't think I can say..."
-    player_name "... But I've been helping {b}Roxxy{/b} out with some personal stuff."
+    player_name "Я не думаю что могу сказать..."
+    player_name "... Но я помог {b}Рокси{/b} с некоторыми личными делами."
     show player 13
     eri "..."
     show erik 4
-    eri "Oooh, I get it. Ten four, dude."
-    eri "I hear what your saying."
+    eri "Ооох, Я понял. 10-4, чувак."
+    eri "Я услышал что ты сказал."
     show erik 1
     show player 14
-    player_name "Heh, what? I don't think you do..."
+    player_name "Хех, что? Я не думаю что ты понял..."
     show player 13
     show roxxy 3c at right with dissolve
-    rox "Well, that was a mess..."
+    rox "Что ж, это была неразбериха..."
     show roxxy 3d
     show erik 1f with dissolve
     show player 10
-    player_name "Is {b}Becca{/b} doing okay?"
+    player_name "С {b}Беккой{/b} все хорошо?"
     show player 5
     show roxxy 33 with dissolve
-    rox "Yeah, she's fine."
-    rox "She was just a bit shocked is all."
+    rox "Да, она в порядке."
+    rox "Она была просто немного шокирована всем этим."
     show roxxy 30 with dissolve
-    rox "I can't believe {b}Dexter{/b} did that!"
-    rox "I mean, he's done a lot of stupid shit in the past..."
+    rox "Я не могу поверить что {b}Декстер{/b} это сделал!"
+    rox "Я имею в виду, он совершал много тупого дерьма в прошлом..."
     show roxxy 3c
-    rox "... But never anything creepy!"
+    rox "... Но никогда ничего мерзкого!"
     show roxxy 3d
     show player 10
-    player_name "Well, I'm just glad {b}Erik{/b} and I were there..."
+    player_name "Чтож, я просто рад что {b}Эрик{/b} и я были там..."
     show player 5
     show roxxy 2
-    rox "... Who's {b}Erik{/b}?"
+    rox "... Кто этот {b}Эрик{/b}?"
     show roxxy 1
     show erik 2f with dissolve
     eri "..."
     show player 12
-    player_name "Umm, my friend {b}Erik{/b}..."
+    player_name "Эмм, мой друг {b}Эрик{/b}..."
     show player 90
     show roxxy 1b
-    rox "Oh, right!"
-    rox "Sorry, I forgot you were there."
+    rox "Ох, правда!"
+    rox "Извини, я забыла что ты был там."
     show roxxy 1
     show erik 3bf with dissolve
-    eri "... That's okay."
+    eri "... Все в порядке."
     show erik 1f
     show roxxy 1b
-    rox "So uhh, I was gonna tell you..."
-    rox "The girls and I are doing a bikini contest this weekend and you should totally come!"
+    rox "Так ну, я собираюсь рассказать тебе..."
+    rox "Девченки и я будем устраивать конкурс бикини в эти выходные и ты должен точно прийти!"
     show roxxy 1
     show erik 51f
     show player 10
-    player_name "Really?"
+    player_name "Серьёзно?"
     show player 14
-    player_name "That sounds awesome!"
+    player_name "Это звучит круто!"
     show player 13
     show roxxy 2
-    rox "I know right?!"
+    rox "Я знаю?!"
     show roxxy 1b
-    rox "Just come to the beach on {b}Saturday afternoon{/b}!"
+    rox "Просто приходи на пляж в {b}Субботу вечером{/b}!"
     show roxxy 1
     show erik 1f
     show player 14
-    player_name "Alright, I'll be there."
+    player_name "Хорошо, я буду там."
     show player 13
     show roxxy 1b
-    rox "Heh, cool."
-    rox "See ya, {b}[firstname]{/b}!"
+    rox "Хех, круто."
+    rox "Увидимся, {b}[firstname]{/b}!"
     hide roxxy with dissolve
     pause
     show erik 4 with dissolve
-    eri "Whoa, dude!"
-    eri "A bikini contest?!"
-    eri "That's so awesome!"
+    eri "Вау, чувак!"
+    eri "Конкурс бикини?!"
+    eri "Это так круто!"
     show erik 1
     show player 14
-    player_name "You wanna come with me?"
+    player_name "Хочешь пойти со мной?"
     show player 13
     show erik 3b
-    eri "Aww, I can't."
-    eri "I wish I could but I've got a raid with my guild {b}Saturday afternoon{/b}..."
+    eri "Ой, я не могу."
+    eri "Я хочу Я мог бы но у меня будет рейд с моей гильдией в {b}Субботу вечером{/b}..."
     show erik 52
     show player 12
-    player_name "Skip it!"
+    player_name "Забей на это!"
     show player 14
-    player_name "C'mon man, think about all those bikinis!"
+    player_name "Давай мужик, подумай о всех тех бикини!"
     show player 13
     show erik 3b
-    eri "Are you nuts?! I can't skip a raid!"
-    eri "That's a 50 DKP MINUS!"
+    eri "Ты спятил?! Я не могу пропустить рейд!"
+    eri "Это МИНУС 50 ДКР!"
     show erik 52
     show player 10
-    player_name "... Huh?"
+    player_name "... Хм?"
     show player 5
     show erik 3b
-    eri "It's a big deal, dude!"
+    eri "Это очень важно, чувак!"
     show erik 52
     show player 14
-    player_name "Heh, alright. Fine."
-    player_name "I guess, I'll go by myself then..."
+    player_name "Хех, хорошо. Отлично."
+    player_name "Я думаю, я тогда пойду один..."
     show player 13
     show erik 3b
-    eri "Shoot, I've gotta get to computer lab."
+    eri "Выстрел, я должен добраться до компьютерного класса."
     show erik 3
-    eri "I'll catch you later, dude."
+    eri "Увидимся позже, чувак."
     show erik 4
     show player 14
-    player_name "See you around, {b}Erik{/b}."
+    player_name "Увидимся, {b}Эрик{/b}."
     hide player
     hide erik
     with dissolve
