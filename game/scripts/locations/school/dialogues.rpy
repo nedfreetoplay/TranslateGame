@@ -3809,7 +3809,7 @@ label roxxy_locker_sex_cum:
 
 label roxxy_locker_sex_cum_pre:
     scene expression "backgrounds/location_school_locker_inside01.jpg"
-    hide roxxy
+    hide roxxys
     show player locker 15_15b
     player_name "ТХ!" with flash
     rox "!!!"
