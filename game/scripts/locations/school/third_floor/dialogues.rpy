@@ -19,19 +19,19 @@ label okita_office_door_need_keycode:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 10
     with dissolve
-    player_name "Hmm, I guess {b}Miss Okita{/b} keeps her office locked when she's not inside?"
-    player_name "It's got one of those automated keypad locks too."
+    player_name "Хмм, Я думаю {b}Мисс Окита{/b} держит свой кабинет закрытым когда она не внутри?"
+    player_name "Одна из этих автоматических клавиатур тоже заблокирована."
     show player 11
     pause
     show player 10
-    player_name "I'm definitely not getting in there without a {b}keycode{/b}."
+    player_name "Я определенно не могу туда войти без {b}кода{/b}."
     return
 
 label okita_office_door_okita_tired:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 10
     with dissolve
-    player_name "I should let her rest for now."
+    player_name "Я должен дать ей отдохнуть на время."
     return
 
 label okita_office_unlock:
@@ -43,16 +43,16 @@ label okita_office_locked:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 10
     with dissolve
-    player_name "Oops! That wasn't the right code..."
+    player_name "Упс! Это не правильный код..."
     show player 34
-    player_name "Hmm, I'd better double check that {b}keycode{/b} I got out of {b}Principal Smith{/b}'s desk before trying again."
+    player_name "Хмм, мне лучше дважды проверить {b}код{/b} который я достал из стола {b}Директрисы Смит{/b} прежде чем попыться снова."
     $ game.main()
 
 label third_floor_okita_get_ingredients:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 10 with dissolve
-    player_name "Hmm, I need to get into {b}Principal Smith{/b}'s office again to look for some kind of DNA sample..."
-    player_name "I should go in when she's not there."
+    player_name "Хмм, мне нужно попасть в кабинет к {b}Директрисе Смит{/b} еще раз чтобы поискать какие-то образцы ДНК..."
+    player_name "Я должен туда пойти пока её там нет."
     return
 
 label annie_enter_office_dialogue:
@@ -76,47 +76,47 @@ label smith_office_annie_guarding_distract_pass:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 2 at left
     show annie 1 at right
-    player_name "I just overheard your thief bragging downstairs near the boys locker room..."
+    player_name "Я только подслушал твоего вора который хвастался возле раздевалки мальчиков..."
     show player 1
     show annie 3
-    ann "What? Really!?"
+    ann "Что? Серьезно!?"
     show player 2
     show annie 1
-    player_name "Yup and if you hurry you might still catch him..."
+    player_name "Да и если ты поспешишь ты все еще можешь поймать его..."
     show player 1
     show annie 3
-    ann "Principal Smith will definitely reward me for that!"
-    ann "Would you mind watching this door for me?"
+    ann "Директриса Смит безусловно наградит меня за это!"
+    ann "Не присмотришь за этой дверю для меня?"
     show player 2
     show annie 1
-    player_name "Not at all. Go get him!"
+    player_name "Не за что. Иди приведи его!"
     hide annie
     hide player
     show player 1f
     show annie 16 at left
     with dissolve
-    ann "Ahahahahaah!"
+    ann "Хахаххахаха!"
     hide annie with dissolve
 
     show player 2f
-    player_name "Well that should keep her busy for awhile..."
-    player_name "Now I search the office for something with {b}Principal Smith's DNA{/b} on it."
+    player_name "Что ж это должно занять её на какое-то время..."
+    player_name "Сейчас я обыщу кабинет для того чтобы найти {b}ДНК Директрисы Смит{/b} в нём."
     return
 
 label smith_office_annie_guarding_distract_fail:
     scene expression game.timer.image("location_school_third{}_blur")
     show player 10 at left
     show annie 1 at right
-    player_name "[chr_warn]O-okay..."
-    player_name "[chr_warn]... I was just looking for {b}Principal Smith{/b}."
+    player_name "[chr_warn]Х-хорошо..."
+    player_name "[chr_warn]... Я просто искал {b}Директрису Смит{/b}."
     show player 11
     show annie 3
-    ann "[chr_warn]Yeah, well she isn't here."
+    ann "[chr_warn]Да, ну её здесь нет."
     show annie 4
-    ann "[chr_warn]So beat it!"
+    ann "[chr_warn]Так что вали отсюда!"
     show player 12
     show annie 1
-    player_name "[chr_warn]Alright, sheesh! You don't have to get your panties in a bunch!"
+    player_name "[chr_warn]Хорошо, блин! Ты не сможешь получить кучу своих трусиков!"
     return
 
 label smith_office_annie_guarding_repeat:
@@ -124,7 +124,7 @@ label smith_office_annie_guarding_repeat:
     show player 11 at left
     show annie 3 at right
     with dissolve
-    ann "Nobody is getting past me, {b}[firstname]{/b}!"
+    ann "Никто не пройдет мимо меня, {b}[firstname]{/b}!"
     return
 
 label smith_office_annie_guarding:
@@ -132,47 +132,47 @@ label smith_office_annie_guarding:
     show player 10 at left
     show annie 1 at right
     with dissolve
-    player_name "Annie, what are you doing here?"
+    player_name "Энни, что ты здесь делаешь?"
     show player 11
     show annie 3
-    ann "I'm {b}guarding {b}Principal Smith{/b}'s office{/b} while she's away."
+    ann "Я {b}охраняю кабинет Деректрисы Смит{/b} пока её нет."
     show player 10
     show annie 1
-    player_name "... Why?"
+    player_name "... Почему?"
     show player 11
     show annie 3
-    ann "Umm, because she asked me too? Duh."
+    ann "Эммм, Может потому что она попросила меня? Ежу понятно."
     show annie 1
     player_name "..."
     show annie 3
-    ann "She said someone keeps sneaking in and going through her stuff."
+    ann "Она сказала что кто-то уже пробирался туда и она переживает за свои вещи."
     show annie 5
-    ann "You wouldn't happen to know anything about that, would you?!"
+    ann "Тебе случаем ничего об этом не известно, а?!"
     show player 10
     show annie 6
-    player_name "M-me? No, I don't know anything about that!"
+    player_name "М-мне? Нет, я ничего не знаю об этом!"
     show player 11
     show annie 5
-    ann "Uh huh..."
+    ann "Ну да..."
     show annie 3
-    ann "Well whoever it is, {b}they aren't getting past me!{/b}"
+    ann "Ладно кто бы это не был, {b}они не пройдут через меня!{/b}"
     show player 10
-    player_name "Okay, well good luck with that..."
+    player_name "Хорошо, ну удачи тебе с этим..."
     hide annie with dissolve
     hide player
     show player 5 with dissolve
-    player_name "( I have to figure out into that office... )"
+    player_name "( Мне нужно придумать как пробраться в тот офис... )"
     show player 34
-    player_name "( Perhaps I can {b}trick her{/b} somehow? )"
+    player_name "(Возможно я смогу {b}развести её{/b} как-то? )"
     return
 
 label third_floor_roxxy_intro:
     scene expression game.timer.image("school_hall_third_floor{}_b")
     show player 30 with dissolve
     player_name "( ... )"
-    player_name "( It looks like {b}Roxxy{/b} is arguing with some of the teachers... )"
+    player_name "( Похоже {b}Рокси{/b} спорит с некоторыми учителями... )"
     show player 33
-    player_name "( I should take a closer look! )"
+    player_name "( Я должен взглянуть поближе! )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
