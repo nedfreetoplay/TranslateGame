@@ -1148,7 +1148,7 @@ label okitas_office_okita_is_hypersexual:
     player_name "... хм?"
     player_name "Что произойдет тогда-"
     show player 81
-    show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
+    show playerdev 1 at Position(xpos=0.32, ypos=0.34)
     player_name "( !!! )" with hpunch
 
     scene location_school_office4_closeup_hscene_space
@@ -1322,8 +1322,8 @@ label okita_h_scene_loop:
                 show okitas 1b at Position(xpos = 0.53)
     else:
 
-        if not renpy.showing(game.timer.image("backgrounds/location_school_office4_closeup_sex{}.jpg")):
-            scene expression game.timer.image("backgrounds/location_school_office4_closeup_sex{}.jpg")
+        if not renpy.showing("reality"):
+            scene expression game.timer.image("backgrounds/location_school_office4_closeup_sex{}.jpg") as reality
             if anim_toggle:
                 if not animated:
                     show expression AnimatedImage("okitas", [1,2,3,4,5,6,7,8,9,10], M_okita) as okitas at Position(xpos = 0.53)
@@ -1602,7 +1602,7 @@ label okita_pre_hscene_repeatable:
         pause
         player_name "... Но если мы будем в {b}Вирутальной реальности{/b}, я не почувствую-"
         show player 81
-        show playerdev 1 at Position(xpos=0.3672, ypos=0.337)
+        show playerdev 1 at Position(xpos=0.32, ypos=0.34)
         player_name "( !!! )" with hpunch
         $ M_okita.set("first time repeatable", False)
     $ M_okita.set("in augmented reality", True)
