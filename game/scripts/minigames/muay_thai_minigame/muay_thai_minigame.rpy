@@ -85,7 +85,7 @@ label training01_payment_dialogue:
         show master 1
         if player.has_item("panties"):
             menu:
-                "У меня есть трусики." if training_tier == 1 and sister.completed(sis_panty01):
+                "У меня есть трусики." if training_tier == 1 and M_jenny.is_state(S_jenny_somrak_panty_trade):
                     $ panty_lie_seen = False
                     show player 239_240
                     pause
