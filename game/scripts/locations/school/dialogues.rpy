@@ -1,57 +1,57 @@
 label school_diane_delivery_3:
     scene school
     show player 166 at left with dissolve
-    player_name "Phew, almost there..."
+    player_name "Фу, почти получилось..."
     show player 168b
-    ann "HOLD IT RIGHT THERE!" with hpunch
+    ann "СТОЙ ПРЯМО ЗДЕСЬ!" with hpunch
     show player 168c
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 168b
     show annie 5 at right with dissolve
-    ann "Where do you think you're going with all that milk?"
+    ann "Куда ты собрался со всем этим молоком?"
     show annie 6
     show player 168
-    player_name "Oh, hey {b}Annie{/b}."
-    player_name "I'm supposed to deliver this to the cafeteria."
+    player_name "О, привет {b}Энни{/b}."
+    player_name "Я должен доставить его в столовую."
     show player 167
     show annie 5
-    ann "I don't think so."
+    ann "Я так не думаю."
     show annie 6
     show player 166
-    player_name "What, why?"
+    player_name "Что, почему?"
     show player 165
     show annie 5
-    ann "{b}Mrs. Smith{/b} didn't say anything to me about a milk delivery today."
+    ann "{b}Миссис Смит{/b} ничего не сказала мне о сегодняшней доставке молока."
     show annie 6
     show player 166
-    player_name "... So?"
-    player_name "I'm sure {b}Mrs. Smith{/b} doesn't tell you about every little thing that's going on in the school..."
+    player_name "... И?"
+    player_name "Я уверен, что {b}Миссис Смит{/b} не рассказывает вам о каждой мелочи, которая происходит в школе..."
     show player 165
     show annie 3
-    ann "Uhh, yes she does."
-    ann "I'm her second in command."
+    ann "О, да, она это делает."
+    ann "Я ее заместитель."
     show annie 1
     player_name "..."
     show player 166
-    player_name "Look {b}Annie{/b}, this is really heavy. Can you please just get out of my way?"
-    player_name "I'm positive it's supposed to go to the cafeteria."
+    player_name "Слушай, {b}Энни{/b}, молоко действительно тяжелое. Ты можешь просто уйти с моего пути?"
+    player_name "Я уверен, что должен идти в кафетерий."
     show player 165
     show annie 4
-    ann "I said no!"
-    ann "Not until I clear it with {b}Mrs. Smith{/b}."
+    ann "Я сказала нет!"
+    ann "Нет, пока я не договорюсь с {b}Миссис Смит{/b}."
     show annie 1
     player_name "..."
     show annie 3
-    ann "C'mon, she's in her office."
+    ann "Пошли, она в своем кабинете."
     hide annie with dissolve
     show player 166
-    player_name "{b}Her office on the third floor?!{/b}"
-    player_name "Can you at least help me carry this?"
+    player_name "{b}Ее офис на третьем этаже?!{/b}"
+    player_name "Ты можешь хотя бы помочь мне нести это?"
     show player 165
-    ann "Nope!"
+    ann "Нет!"
     pause
     show player 168c
-    player_name "{b}*Sigh*{/b}"
+    player_name "{b}*вздох*{/b}"
     hide player with dissolve
     return
 
