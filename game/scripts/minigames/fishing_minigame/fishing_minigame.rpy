@@ -61,7 +61,7 @@ label before_fishing:
         call screen bait_menu
 
         show player 235 at Position(xpos=0.6062,ypos=0.9455)
-        player_name "( ... )"
+        player_name "( Надеюсь, я поймаю что-нибудь хорошее с этой... )"
         show player 236 at Position(xpos=0.4956,ypos=0.9455)
         player_name "..."
 
