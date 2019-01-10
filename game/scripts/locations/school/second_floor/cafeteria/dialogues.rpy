@@ -2,24 +2,24 @@ label cafeteria_diane_delivery_3_drop_off_goods:
     scene cafeteria_b
     show player 164 at left with dissolve
     show annie 1 at right with dissolve
-    player_name "All done!"
+    player_name "Все сделано!"
     show annie 9
     show player 163
     ann "..."
     show annie 3
-    ann "{b}Principal Smith{/b} took the {b}invoice{/b}?"
+    ann "{b}Директрисса Смит{/b} забрала {b}счет{/b}?"
     show annie 1
     show player 164
-    player_name "Yeah, she was... kind of... busy. But she said I should give it to you."
+    player_name "Да, она ... вроде... как занята. Но она сказала, что я должен отдать его тебе."
     show annie 5
     show player 163
-    ann "I see..."
+    ann "Понятно..."
     show annie 15
     show player 1
-    ann "I'll take these from you, then."
+    ann "Тогда я заберу это у тебя."
     show annie 14
     show player 17
-    player_name "Thanks, {b}Annie{/b}!"
+    player_name "Спасибо, {b}Энни{/b}!"
     hide player
     hide annie
     with dissolve
