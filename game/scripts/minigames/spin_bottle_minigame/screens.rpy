@@ -78,7 +78,7 @@ init python:
                     renpy.jump("spin_bottle_minigame_{}".format(character))
                 else:
                     renpy.end_interaction(True)
-            instructions_r = renpy.render(Text("Click the button to spin the bottle!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(Text("Нажмите кнопку, чтобы вращать бутылку!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),20))
             self.bottle = Transform(self.bottle_base, rotate=self.angle)
