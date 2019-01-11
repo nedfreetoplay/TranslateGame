@@ -17,7 +17,7 @@ label spin_bottle_minigame_becca:
                 call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro_pre_repeat")
             call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro")
             $ anim_toggle = True
-            $ animated = False
+			$ animated = False
             $ M_becca.set("sex speed", .09)
             call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro_after")
             jump expression game.dialog_select("spin_bottle_minigame_becca_solo_loop")
@@ -53,25 +53,25 @@ label spin_bottle_minigame_becca_solo_intro_pre_first:
     show player_sitting 3
     show becca sitting 8
     show missy sitting 7
-    missy "What?! NO!!"
+    missy "Что?! НЕТ!!"
     show missy sitting 8
     show becca sitting 8b
     show roxxy sitting 5
-    rox "Hehe, looks like it's {b}Becca{/b}'s lucky night..."
+    rox "Хе-хе, похоже, это счастливая ночь для {b}Бекки{/b}..."
     show roxxy sitting 2
     show becca sitting 8c
-    becca "I don't-"
+    becca "Я не-"
     show becca sitting 10b
-    becca "I mean, are you-"
+    becca "Я имею в виду, ты-"
     show becca sitting 8b
     show roxxy sitting 3
-    rox "Aww, look how shy she is..."
+    rox "Посмотри, какая она стеснительная..."
     show roxxy sitting 2
     show becca sitting 10b
-    becca "I'm not!"
+    becca "Я нет!"
     show becca sitting 10
     show roxxy sitting 6
-    rox "Isn't she just adorable?"
+    rox "Разве она не прелестна?"
     show roxxy sitting 2
     show becca sitting 9
     becca "..."
@@ -82,7 +82,7 @@ label spin_bottle_minigame_becca_solo_intro_pre_first:
 
     scene expression "backgrounds/location_beach_water_night_blur.jpg"
     show roxxy bikini 26 with dissolve
-    rox "You're going to like this..."
+    rox "Тебе это понравится..."
     hide roxxy with dissolve
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
@@ -90,33 +90,33 @@ label spin_bottle_minigame_becca_solo_intro_pre_first:
     show roxxy bikini 22 at right
     show becca bikini 1
     with dissolve
-    rox "I can't wait for you to fuck her adorable little brains out!"
+    rox "Я не могу дождаться, когда ты трахнешь ее очаровательные маленькие мозги!"
     show roxxy bikini 21
     show player 11
     player_name "!!!" with hpunch
     show becca bikini 13
     show player 10
-    player_name "Are you for real?!"
+    player_name "Ты серьезно?!"
     show becca bikini 1
     show player 11
-    rox "Mmmhmm..."
+    rox "Ммммммммм..."
     show roxxy bikini 22
-    rox "What did you think the special reward was?!"
+    rox "Как ты думаешь, что за особая награда?!"
     show roxxy bikini 21
     show player 29 with dissolve
-    player_name "I dunno, more kissing?!"
+    player_name "Не знаю, больше поцелуев?!"
     show player 3
     show becca bikini 15
     show roxxy bikini 23
-    rox "Hahaha!"
+    rox "Хахаха!"
     show roxxy bikini 22
-    rox "C'mon, {b}Becca{/b}..."
-    rox "Get that bikini off!"
+    rox "Давай, {b}Бекка{/b}..."
+    rox "Снимай бикини!"
     show roxxy bikini 21
     show becca bikini 6
-    becca "I uhh..."
+    becca "Я ээ..."
     show becca bikini 18
-    becca "O-okay."
+    becca "Хорошо."
     show becca bikini 3 with dissolve
     pause
     show becca bikini 4 with dissolve
@@ -130,53 +130,53 @@ label spin_bottle_minigame_becca_solo_intro_pre_first:
     show becca naked 1 with dissolve
     player_name "..."
     show roxxy bikini 22
-    rox "Daaamn!"
+    rox "Чёёёрт!"
     show player 426
-    rox "Isn't she sexy, {b}[firstname]{/b}?"
+    rox "Разве она не сексуальна, {b}[firstname]{/b}?"
     show roxxy bikini 21
     show player 429
-    player_name "Y-yeah..."
+    player_name "Д-Да..."
     show player 426
     show roxxy bikini 22
-    rox "Don't you just wanna ravage her?!"
+    rox "Разве ты не хочешь просто растерзать ее?!"
     show roxxy bikini 21
     show player 429
-    player_name "Y-yeah..."
+    player_name "Д-Да..."
     show player 426
     show roxxy bikini 22
-    rox "Hehehe!"
-    rox "What about you, {b}Becca{/b}?!"
-    rox "Don't you want it?"
+    rox "Хехехе!"
+    rox "А что насчет тебя, {b}Бекка{/b}?!"
+    rox "Разве ты этого не хочешь?"
     show roxxy bikini 21
     show becca naked 2
-    becca "... Yes."
+    becca "... Да."
     show becca naked 1
     show roxxy bikini 23
-    rox "C'mon, you can do better than that!"
+    rox "Да ладно, ты можешь сделать лучше, чем это!"
     show roxxy bikini 22
-    rox "I want you to beg for it!"
+    rox "Я хочу, чтобы ты умоляла об этом!"
     show roxxy bikini 21
     show player 11
     show becca naked 3
     becca "!!!"
     becca "..."
     show becca naked 2
-    becca "Please..."
+    becca "Пожалуйста..."
     show becca naked 1
     show roxxy bikini 23
-    rox "Please what?"
+    rox "Пожалуйста что?"
     show roxxy bikini 21
     show becca naked 2
-    becca "Please, {b}Roxxy{/b}..."
-    becca "I want {b}[firstname]{/b} to fuck me!"
+    becca "Пожалуйста, {b}Рокси{/b}..."
+    becca "Я хочу чтобы {b}[firstname]{/b} трахнул меня!"
     show becca naked 1
     show roxxy bikini 22
-    rox "Hahaha!"
-    rox "Alright."
-    rox "Get over there and fuck her, {b}[firstname]{/b}!"
+    rox "Хахаха!"
+    rox "Хорошо."
+    rox "Иди туда и трахни ее, {b}[firstname]{/b}!"
     show roxxy bikini 21
     show player 429
-    player_name "O-okay..."
+    player_name "Хорошо..."
     hide player
     hide becca
     hide roxxy
@@ -194,26 +194,26 @@ label spin_bottle_minigame_becca_solo_intro_pre_repeat:
     becca "!!!"
     show player_sitting 3
     show missy sitting 7
-    missy "What?! NO!!"
+    missy "Что?! НЕТ!!"
     show missy sitting 8
     show roxxy sitting 3
     show player_sitting 3b
-    rox "Hehe, looks like it's {b}Becca{/b}'s lucky night..."
+    rox "Хе-хе, похоже, это счастливая ночь для {b}Бекки{/b}..."
     show player_sitting 3
     show roxxy sitting 2
     show becca sitting 8c
-    becca "I don't-"
+    becca "Я не-"
     show becca sitting 10b
-    becca "I mean, are you-"
+    becca "Я имею в виду, ты-"
     show becca sitting 8b
     show roxxy sitting 3
-    rox "Aww, look how shy she is..."
+    rox "Посмотри, какая она стеснительная..."
     show roxxy sitting 2
     show becca sitting 8c
-    becca "I'm not!"
+    becca "Я не такая!"
     show becca sitting 9
     show roxxy sitting 6
-    rox "Isn't she just adorable?"
+    rox "Разве она не прелестна?"
     show roxxy sitting 2
     becca "..."
     hide becca
@@ -223,7 +223,7 @@ label spin_bottle_minigame_becca_solo_intro_pre_repeat:
 
     scene expression "backgrounds/location_beach_water_night_blur.jpg"
     show roxxy bikini 26 with dissolve
-    rox "You're going to like this..."
+    rox "Тебе это понравится..."
     hide roxxy with dissolve
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
@@ -231,13 +231,13 @@ label spin_bottle_minigame_becca_solo_intro_pre_repeat:
     show roxxy bikini 22 at right
     show becca bikini 1
     with dissolve
-    rox "C'mon, {b}Becca{/b}..."
-    rox "Get that bikini off!"
+    rox "Давай, {b}Бекка{/b}..."
+    rox "Сними это бикини!"
     show roxxy bikini 21
     show becca bikini 6
-    becca "I uhh..."
+    becca "Я ээ..."
     show becca bikini 18
-    becca "O-okay."
+    becca "Хорошо."
     show becca bikini 3 with dissolve
     pause
     show becca bikini 4 with dissolve
@@ -251,53 +251,53 @@ label spin_bottle_minigame_becca_solo_intro_pre_repeat:
     show becca naked 1 with dissolve
     player_name "..."
     show roxxy bikini 22
-    rox "Daaamn!"
+    rox "Чёёрт!"
     show player 426
-    rox "Isn't she sexy, {b}[firstname]{/b}?"
+    rox "Разве она не сексуальна, {b}[firstname]{/b}?"
     show roxxy bikini 21
     show player 429
-    player_name "Y-yeah..."
+    player_name "Д-Да..."
     show player 426
     show roxxy bikini 22
-    rox "Don't you just wanna ravage her?!"
+    rox "Разве ты не хочешь просто растерзать ее?!"
     show roxxy bikini 21
     show player 429
-    player_name "Y-yeah..."
+    player_name "Д-Да..."
     show player 426
     show roxxy bikini 22
-    rox "Hehehe!"
-    rox "What about you, {b}Becca{/b}?!"
-    rox "Don't you want it?"
+    rox "Хехехе!"
+    rox "А что насчет тебя, {b}Бекка{/b}?!"
+    rox "Разве ты этого не хочешь?"
     show roxxy bikini 21
     show becca naked 2
-    becca "... Yes."
+    becca "... Да."
     show becca naked 1
     show roxxy bikini 23
-    rox "C'mon, you can do better than that!"
+    rox "Да ладно, ты можешь сделать лучше, чем это!"
     show roxxy bikini 22
-    rox "I want you to beg for it!"
+    rox "Я хочу, чтобы ты умоляла об этом!"
     show roxxy bikini 21
     show player 11
     show becca naked 3
     becca "!!!"
     becca "..."
     show becca naked 2
-    becca "Please..."
+    becca "Пожалуйста..."
     show becca naked 1
     show roxxy bikini 23
-    rox "Please what?"
+    rox "Пожалуйста что?"
     show roxxy bikini 21
     show becca naked 2
-    becca "Please, {b}Roxxy{/b}..."
-    becca "I want {b}[firstname]{/b} to fuck me!"
+    becca "Пожалуйста, {b}Рокси{/b}..."
+    becca "Я хочу чтобы {b}[firstname]{/b} трахнул меня!"
     show becca naked 1
     show roxxy bikini 22
-    rox "Hahaha!"
-    rox "Alright."
-    rox "Get over there and fuck her, {b}[firstname]{/b}!"
+    rox "Хахаха!"
+    rox "Хорошо."
+    rox "Иди туда и трахни ее, {b}[firstname]{/b}!"
     show roxxy bikini 21
     show player 429
-    player_name "O-okay..."
+    player_name "Хорошо..."
     hide player
     hide becca
     hide roxxy
@@ -313,13 +313,13 @@ label spin_bottle_minigame_becca_solo_intro:
     pause
     show beccas_solo 3
     becca "!!!" with hpunch
-    becca "Holy shit!"
-    rox "Hahaha!"
-    rox "I know, right?!"
-    becca "It's so big!"
-    rox "C'mon, {b}[firstname]{/b}. She can take it!"
+    becca "Срань господня!"
+    rox "Хахаха!"
+    rox "Я знаю, верно?!"
+    becca "Он очень большой!"
+    rox "Давай, {b}[firstname]{/b}. Она готова!"
     show beccas_solo 4 with dissolve
-    becca "AAhhh!!"
+    becca "АААхххххх!!"
     return
 
 label spin_bottle_minigame_becca_solo_intro_after:
@@ -358,32 +358,32 @@ label spin_bottle_minigame_becca_solo_loop:
 label spin_bottle_minigame_becca_solo_hscene_dialog:
     if animcounter == 0:
         if randomizer() < 25:
-            becca "Oh my god!{p=2}{nw}"
-            becca "OH MY GOD!!{p=2}{nw}"
-            rox "Hahaha!{p=1}{nw}"
+            becca "О боже мой!{p=2}{nw}"
+            becca "О БОЖЕ МОЙ!!{p=2}{nw}"
+            rox "Хахаха!{p=1}{nw}"
 
     elif animcounter == 1:
         if randomizer() < 25:
-            rox "That's it, {b}[firstname]{/b}!{p=2}{nw}"
-            rox "Fuck her brains out!{p=2}{nw}"
+            rox "Вот так, {b}[firstname]{/b}!{p=2}{nw}"
+            rox "Трахни ее мозги!{p=2}{nw}"
 
     elif animcounter == 2:
         if randomizer() < 25:
-            becca "AAAHH!!{p=1}{nw}"
-            becca "I'm cumming!{p=1}{nw}"
-            becca "{b}*Whimper*{/b}{p=1}{nw}"
+            becca "АААХХХ!!{p=1}{nw}"
+            becca "Я кончаю!{p=1}{nw}"
+            becca "{b}*стонет*{/b}{p=1}{nw}"
             pause
-            rox "Hahaha, that was fast!{p=2}{nw}"
-            rox "She is making the most adorable faces!{p=2}{nw}"
-            rox "Keep going, {b}[firstname]{/b}!{p=2}{nw}"
+            rox "Хахаха, это было быстро!{p=2}{nw}"
+            rox "Она делает самые очаровательные гримасы!{p=2}{nw}"
+            rox "Продолжай, {b}[firstname]{/b}!{p=2}{nw}"
 
     elif animcounter == 3:
         if randomizer() < 25:
-            becca "Ngghh!!{p=1}{nw}"
+            becca "Ггрррр!!{p=1}{nw}"
             pause 1
         else:
 
-            becca "{b}*Whimper*{/b}{p=1}{nw}"
+            becca "{b}*стонет*{/b}{p=1}{nw}"
     return
 
 label spin_bottle_minigame_becca_solo_cum:
@@ -396,60 +396,60 @@ label spin_bottle_minigame_becca_solo_cum:
     $ game.main()
 
 label spin_bottle_minigame_becca_solo_cum_dialogue:
-    player_name "I'm getting close!"
-    becca "Finish inside me!"
-    rox "Excuse me?!"
+    player_name "Я скоро кончу!"
+    becca "Кончай во внутрь меня!"
+    rox "Извени, что?!"
     becca "..."
-    rox "That didn't sound like begging to me..."
-    becca "{b}*Whimper*{/b}"
+    rox "Это не похоже на мольбу..."
+    becca "{b}*стонет*{/b}"
     pause
-    becca "Ngghhh!!!"
-    becca "Please, {b}Roxxy{/b}!!!"
-    becca "AAhhh!!! Please, please please!"
-    rox "Hahaha!"
-    rox "Alright, {b}[firstname]{/b}..."
-    rox "Give it to her!"
+    becca "Ггрррр!!!"
+    becca "Пожалуйста, {b}Рокси{/b}!!!"
+    becca "ААхххх!!! Пожалуйста, пожалуйста пожалуйста!"
+    rox "Хахаха!"
+    rox "Хорошо, {b}[firstname]{/b}..."
+    rox "Дай ей!"
     pause
-    becca "OH MY GOD!!!"
+    becca "О БОЖЕ МОЙ!!!"
     show beccas_solo 3_4
-    player_name "HNNGGG!!!" with flash
+    player_name "ГГРРРРРР!!!" with flash
     pause
     show beccas_solo 5 with dissolve
-    player_name "Haaah... Haaah..."
-    becca "{b}*Whimper*{/b}"
+    player_name "Хааааааа... Хаааааа..."
+    becca "{b}*стонет*{/b}"
     show beccas_solo 6 with dissolve
-    rox "Haha, wow you really did a number on her..."
-    rox "That was so fucking hot!"
+    rox "Ха-ха, ничего себе, ты действительно сделал номер на ее..."
+    rox "Это было так чертовски круто!"
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
     show player 365 at left
     show becca naked 4
     show roxxy 1g at right
     with dissolve
-    player_name "You alright, {b}Becca{/b}?"
+    player_name "Ты в порядке, {b}Бекка{/b}?"
     show player 366
     show becca naked 5
-    becca "Mmmhmm, I just can't... Exactly... Feel my legs..."
+    becca "Мммхмм, Я просто не могу... Именно... Чувствовать свои ноги..."
     show becca naked 4
     show roxxy 1h
-    rox "Hehe, I think you exhausted her."
+    rox "Хе-хе, я думаю, ты измотал ее."
     show roxxy 1g
     pause
     show player 365
-    player_name "I feel kinda bad for {b}Missy{/b}."
-    player_name "Out there all by herself..."
+    player_name "Мне немного жаль {b}Мисси{/b}."
+    player_name "Она там совсем одна..."
     show player 366
     show roxxy 1h
-    rox "Psh, screw that greedy bitch."
-    rox "Besides, she's been at the door watching almost the entire time..."
-    rox "Haven't you, {b}Missy{/b}?!"
+    rox "Пффф, к черту эту жадную сучку."
+    rox "Кроме того, она почти все время наблюдала из-за двери..."
+    rox "Не так ли, {b}Мисси{/b}?!"
     show roxxy 1g
     pause
-    missy "... No."
+    missy "... Нет."
     show roxxy 4
     show player 365
-    rox "Hahaha!"
-    player_name "Hahaha!"
+    rox "Хахаха!"
+    player_name "Хахаха!"
     hide player
     hide roxxy
     hide becca
