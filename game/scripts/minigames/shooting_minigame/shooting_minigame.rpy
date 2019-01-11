@@ -328,7 +328,7 @@ label shooting_range_fail_first:
     player_name "Рокси позолит посмотреть на свои сиськи 10 секунд."
     show player 114f
     show roxxy 31
-    rox "ЧТО БЫ ДЛЯТЬ ДЕЛАЕШЬ, {b}[firstname]{/b}?!"
+    rox "ЧТО ТЫ ДЛЯТЬ ДЕЛАЕШЬ, {b}[firstname]{/b}?!"
     show roxxy 3b
     show player 113f
     player_name "Он уже видел их ..."
