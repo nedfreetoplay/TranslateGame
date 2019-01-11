@@ -82,7 +82,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show roxxy sitting 2 zorder 1 at right
     show becca sitting 8b at Position (xpos=300)
     show player_sitting 5 zorder 0 at Position (xpos=650)
-    show missy sitting 6 at left
+    show missy sitting 6b at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
     missy "Эй, подожди секундочку..."
