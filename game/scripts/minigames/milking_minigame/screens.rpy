@@ -100,9 +100,9 @@ init python:
             r_button = renpy.render(self.r_button_d, width, height, st, at)
             
             if renpy.variant("mobile"):
-                instructions_r = renpy.render(Text("Tap the buttons to milk her!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажимайте на кнопки, чтобы доить ее!", style = "style_instructions"), width, height, st, at)
             else:
-                instructions_r = renpy.render(Text("Tap A and D to milk her!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажимайте A и D, чтобы доить ее!", style = "style_instructions"), width, height, st, at)
             
             l_milk_cropped = l_milk_r.subsurface((0, 0, 176, self.l_progress))
             r_milk_cropped = r_milk_r.subsurface((0, 0, 176, self.r_progress))
