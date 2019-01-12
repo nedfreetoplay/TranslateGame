@@ -210,7 +210,7 @@ label breeding_guide_dialogue:
     player_name "( Хм, руководство селекционера? )"
     player_name "( Здесь может быть то, что я ищу... )"
     show book_01_c at truecenter with dissolve
-    player_name "( Bnfr, \"Увеличение надоев молока.\")"
+    player_name "( Итак, \"Увеличение надоев молока.\")"
     pause
     player_name "!!!" with hpunch
     player_name "( Срань господня! )"
