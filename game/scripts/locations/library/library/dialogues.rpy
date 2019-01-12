@@ -207,27 +207,27 @@ label breeding_guide:
 
 label breeding_guide_dialogue:
     scene libraryshelf
-    player_name "( Hmm, Breeder's Guide? )"
-    player_name "( This might have what I'm looking for... )"
+    player_name "( Хм, руководство селекционера? )"
+    player_name "( Здесь может быть то, что я ищу... )"
     show book_01_c at truecenter with dissolve
-    player_name "( Here we go, \"Increasing milk yield.\""
+    player_name "( Bnfr, \"Увеличение надоев молока.\")"
     pause
     player_name "!!!" with hpunch
-    player_name "( Holy crap! )"
-    player_name "( {b}Veronica{/b} was right! )"
+    player_name "( Срань господня! )"
+    player_name "( {b}Вероника{/b} была права! )"
 
     scene expression "backgrounds/location_library_day_blur.jpg"
     show player 369b
     with dissolve
-    player_name "( It seems like, if {b}Diane{/b} get's pregnant, it will increase her milk production significantly. )"
+    player_name "( Похоже ,если {b}Диана{/b} забеременеет, это значительно увеличит ее производство молока. )"
     pause
-    player_name "( *Gulp* )"
-    player_name "( I know we've been having a bit of fun together but would {b}Diane{/b} really want to... )"
-    player_name "( ... With me?! )"
+    player_name "( *Глоток* )"
+    player_name "( Я знаю, что мы немного повеселились вместе, но {b}Диана{/b} очень бы этого хотела... )"
+    player_name "( ... Со мной?! )"
     player_name "( ... )"
-    player_name "( This is going to be a really awkward conversation. )"
-    player_name "( ... But I promised I'd help her in any way I could! )"
-    player_name "( {b}I have to show her this book!{/b} )"
+    player_name "( Это будет очень неловкий разговор. )"
+    player_name "( ... Но я обещал, что помогу ей, чем смогу! )"
+    player_name "( {b}Я должен показать ей эту книгу!{/b} )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
