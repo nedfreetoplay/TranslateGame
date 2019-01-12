@@ -69,63 +69,63 @@ label pizza_interior_diane_delivery_1:
     show player 13f zorder 3 at right
     show tony f_normal_talk zorder 0 at flip, Position (xpos=750)
     with dissolve
-    tony "Well, hey there, kiddo."
-    tony "What brings you in today?"
+    tony "Ну, привет, малыш."
+    tony "Что привело тебя сегодня?"
     show tony f_normal at flip
     show player 14f
-    player_name "I have a delivery for you."
+    player_name "У меня для тебя доставка."
     show player 13f
     show tony f_suspicious
-    tony "Delivery, eh?"
+    tony "Доставка, да?"
     show tony f_normal_talk
-    tony "... Oh, from the milk place!"
+    tony "... О, из молочного магазина!"
     show tony f_normal
     show player 14f
-    player_name "That's right."
+    player_name "Верно."
     show player 239_240f with dissolve
     pause
     show player 163df with dissolve
     show tony f_normal_talk
-    tony "Excellent!"
-    tony "I dunno what kind of cows you're using but this milk is amazing!"
-    tony "It really takes our pizza dough to a whole 'nother level!"
+    tony "Прекрасно!"
+    tony "Я не знаю, каких коров вы используете, но это молоко потрясающее!"
+    tony "Это действительно поднимает наше тесто для пиццы на совершенно другой уровень!"
     show tony f_normal
     show player 163ef
-    player_name "Hehe, I'm sure {b}Diane{/b} will be happy to hear that."
+    player_name "Хе-хе, я уверен, что {b}Диана{/b} будет рада это услышать."
     show player 163df
     show tony f_normal_talk
-    tony "I'm not joking, kiddo."
-    tony "You tell her, that next time, I'm gonna triple my order."
+    tony "Я не шучу, малыш."
+    tony "Скажи ей, что в следующий раз я утрою свой заказ."
     show tony f_normal
     show player 163ef
-    player_name "Heh, okay."
-    player_name "Umm, where should I put this?"
+    player_name "Хе, хорошо."
+    player_name "Хм, где я должен положить это?"
     show player 163df
     show tony f_normal_talk
-    tony "Oh, right. One second..."
+    tony "О, да. Подожди..."
     show tony f_suspicious
-    tony "Hey, {b}Maria{/b}!"
-    tony "Getcha' butt up here for a second!"
+    tony "Эй, {b}Мария{/b}!"
+    tony "Тащи сюда свою задницу на секунду!"
     show tony f_normal
     pause
     show maria f_normal_talk zorder 1 at fliplleft with dissolve
-    maria "{b}*Sigh*{/b} What's the matter now, {b}Tony{/b}?"
+    maria "{b}*вздыхая*{/b} Что случилось сейчас, {b}Тони{/b}?"
     show maria f_normal
     show tony f_question
-    tony "Ain't nothing the matter, the milk order is here."
-    tony "Why don't you take the kid in back and show him where you keep it?"
+    tony "Ничего страшного, заказ молока здесь."
+    tony "Почему бы тебе не проводить паренька и не показать, где ты его хранишь?"
     show tony f_normal
     show maria f_shy_talk
-    maria "{b}*Sigh*{/b} Yeah, yeah... Alright."
+    maria "{b}*вздыхая*{/b} Да, да... Хорошо."
     show maria f_normal_talk
-    maria "What's your name, kid?"
+    maria "Как тебя зовут, малыш?"
     show maria f_normal
     show player 163ef
     player_name "{b}[firstname]{/b}."
     show player 163df
     show maria f_normal_talk
-    maria "Oh, that's a nice name!"
-    maria "Follow me {b}into the back{/b}, {b}[firstname]{/b}."
+    maria "О, Какое красивое имя!"
+    maria "Иди за мной {b}в кладовку{/b}, {b}[firstname]{/b}."
     hide maria with dissolve
     player_name "..."
     scene black with fade
