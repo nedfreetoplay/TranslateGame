@@ -76,7 +76,7 @@ init python:
                 for i, ingredient in enumerate(self.ingredients_in_mixer):
                     ingredient_r = renpy.render(ingredient.render, width, height, st, at)
                     render.blit(ingredient_r, self.mixer_pos[i])
-                instructions_r = renpy.render(Text("Choose the right ingredients for {b}Diane{/b}", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Выберите правильные ингредиенты для {b}Дианы{/b}", style = "style_instructions"), width, height, st, at)
             else:
                 if self.shake_counter > 70:
                     if sorted([i._id for i in self.ingredients_in_mixer]) == sorted(self.correct_answer):
@@ -88,7 +88,7 @@ init python:
                 mixer_r = renpy.render(self.mixer_d, width, height, st, at)
                 w, h = mixer_r.get_size()
                 render.blit(mixer_r, (self.prev_x-w/2, self.prev_y-h/2))
-                instructions_r = renpy.render(Text("Shake, shake SHAKE!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Трясти, Трясти ТРЯСТИ!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),22))
             renpy.redraw(self, 0)
