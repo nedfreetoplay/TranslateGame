@@ -1,45 +1,45 @@
 label home_garage_pick_up_shovel:
     scene expression game.timer.image("backgrounds/location_home_garage{}_blur.jpg")
     show player 244 with dissolve
-    player_name "Yeah, this should work!"
-    player_name "It'll be nice to have some money for a change..."
+    player_name "Да, это должно сработать!"
+    player_name "Было бы неплохо иметь немного денег для разнообразия..."
     show player 243
-    jen "{b}*Ahem*{/b}"
+    jen "{b}*гм*{/b}"
     player_name "!!!" with hpunch
     show player 243 at left
     show jenny 9 at right
     with dissolve
-    jen "What are you doing with that shovel?"
+    jen "Что ты делаешь с лопатой?"
     show jenny 9b
     show player 244
-    player_name "... Huh?"
-    player_name "Oh! I'm taking it to {b}Diane's{/b} house."
-    player_name "I'm going to be working for her this summer."
+    player_name "... Ааа?"
+    player_name "О! Я беру ее в дом {b}Дианы{/b}."
+    player_name "Я буду работать ей этим летом."
     show player 243
     show jenny 9
-    jen "{b}Diane{/b} gave you a job?"
-    jen "... She's never offered me any work!"
+    jen "{b}Диана{/b} дала тебе работу?"
+    jen "... Она никогда не предлагала мне работу!"
     show jenny 9b
     show player 14 with dissolve
-    player_name "Well, it's physical labor in her garden."
-    player_name "She probably just assumed you wouldn't be interested..."
+    player_name "Ну, это физический труд в ее саду."
+    player_name "Она, вероятно, просто предположила, что тебе это будет не интересно..."
     show player 13
     show jenny 9
-    jen "Ugh, in this heat?"
-    jen "Yeah, no way. Screw that!"
+    jen "Тьфу, в такую жару?"
+    jen "Да, ни за что. К черту это!"
     show jenny 9b
     show player 10
-    player_name "What are you doing in the garage?"
-    player_name "You never come out here..."
+    player_name "Что ты делаешь в гараже?"
+    player_name "Ты никогда сюда не выходишь..."
     show player 5
     show jenny 6d with dissolve
-    jen "I need some batteries. Don't we still have some out here?"
+    jen "Мне нужны батарейки. Разве у нас здесь их нет?"
     show jenny 6c
     show player 4 with dissolve
     pause
     show player 14 with dissolve
-    player_name "Yeah, I think so."
-    player_name "Try that box on bottom shelf there."
+    player_name "Да, я тоже так думаю."
+    player_name "Посмотри в коробке на нижней полке."
     show player 13
     pause
     show jenny 16f at Position (xoffset=190) with dissolve
@@ -48,22 +48,22 @@ label home_garage_pick_up_shovel:
     pause
     show jenny 182 with dissolve
     show player 12
-    player_name "Holy crap, what do you need so many for?"
+    player_name "Черт возьми, зачем тебе столько?"
     show player 5
     show jenny 183
-    jen "None of your business, loser!"
-    jen "Just take your shovel and beat it."
+    jen "Не твое дело, неудачник!"
+    jen "Просто возьми лопату и проваливай."
     show jenny 182
     show player 12
-    player_name "Tch, whatever."
+    player_name "Тч, неважно."
     show player 90
     show jenny 183
-    jen "Have fun busting your ass for {b}Diane{/b}..."
+    jen "Получай удовольствие напрягая задницу для {b}Дианы{/b}..."
     show jenny 184
-    jen "Hahaha!"
+    jen "Хахаха!"
     hide jenny with dissolve
     show player 12
-    player_name "... She's such a bitch."
+    player_name "... Она такая стерва."
     show player 90
     show screen popup("boxes/popup_item_shovel1.png")
     $ player.get_item("shovel")
