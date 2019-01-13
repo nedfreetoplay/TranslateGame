@@ -3,92 +3,92 @@ label milking_game_pre:
     show player 13 at left
     show diane b_naked a_naked_sides f_normal_talk
     with dissolve
-    dia "There he is."
+    dia "Вот он где."
     show diane f_smirk_talk
-    dia "You ready to give this new milking setup a try?"
+    dia "Ты готов попробовать эту новую установку доения?"
     show diane f_smirk
     show player 10
     menu:
-        "Sure!":
-            player_name "R-right now?"
+        "Конечно!":
+            player_name "П-прямо сейчас?"
             show player 13
             show diane f_laugh
-            dia "No time like the present."
+            dia "Нет времени лучше настоящего."
             show diane f_smirk
             show player 14
-            player_name "Okay."
+            player_name "Хорошо."
             show player 13
             show diane f_smirk_talk
-            dia "Thank goodness."
-            dia "These puppies are about to burst!"
+            dia "Слава Богу."
+            dia "Эти малышки вот-вот лопнут!"
             show diane f_smirk
             $ M_diane.set("sex_pre_milking", False)
             call screen milking_minigame
-        "Not right now.":
+        "Не сейчас.":
 
-            player_name "Sorry {b}Diane{/b}, I can't right now."
+            player_name "Прости {b}Диана{/b}, Я не могу прямо сейчас."
             show diane f_sad
             show diane f_sad_talk with dissolve
-            dia "Oh... Too bad! "
-            dia "These puppies are about to burst!"
-            dia "I guess I'll take care of it myself then..."
+            dia "Ооо... Очень плохо! "
+            dia "Эти малышки вот-вот лопнут!"
+            dia "Думаю, тогда я сама обо всем позабочусь..."
             show player 13
             show diane f_sad
-            player_name "I'll do it next time!"
-            player_name "Take care, {b}Diane{/b}!"
+            player_name "Я сделаю это в следующий раз!"
+            player_name "Береги себя, {b}Диана{/b}!"
             $ game.timer.tick()
     $ game.main()
 
 label milking_game_pre_after_sex:
     show diane f_smirk b_naked a_naked_sides
     show player 365
-    player_name "Yeah?"
+    player_name "Да?"
     show player 366
     show diane f_smirk
-    dia "Mmmhmm!"
+    dia "Мммммм!"
     show diane f_smirk_talk
-    dia "I've never been fucked like that, {b}[firstname]{/b}!"
-    dia "Hehe, my legs are like jello right now..."
+    dia "Меня никогда так никто не трахал, {b}[firstname]{/b}!"
+    dia "Хе-хе, мои ноги сейчас как желе..."
     show diane f_smirk
     show player 365
-    player_name "Hehe."
+    player_name "Хехе."
     show player 366
     pause
     show diane f_smirk_talk
-    dia "Phew, you should milk me before we go home."
+    dia "Фу, ты должен подоить меня, прежде чем мы пойдем домой."
     show diane f_smirk
     show player 365
     menu:
-        "Sure!":
-            player_name "Y-yeah?"
+        "Конечно!":
+            player_name "Да?"
             show player 366
             show diane f_smirk_talk
-            dia "Definitely."
-            dia "The book says I'll produce the most milk immediately after a breeding session."
+            dia "Определенно."
+            dia "В книге сказано, что я буду производить больше молока сразу после сеанса размножения."
             show diane f_smirk
             show player 365
-            player_name "O-okay."
+            player_name "Хорошо."
             show player 366
             show diane f_smirk_talk
-            dia "Just be gentle, {b}[firstname]{/b}."
+            dia "Просто будь нежным, {b}[firstname]{/b}."
             hide player
             hide diane
             with dissolve
             $ M_diane.set("sex_pre_milking", True)
             call screen milking_minigame
-        "Not right now.":
+        "Не сейчас.":
 
             show player 366
-            player_name "Sorry {b}Diane{/b}, I don't have time."
+            player_name "Прости {b}Диана{/b}, У меня нет своббодного времени."
             show diane f_sad
             show diane f_sad_talk with dissolve
-            dia "Oh... Too bad! "
-            dia "These puppies are about to burst!"
-            dia "I guess I'll take care of it myself then..."
+            dia "Ооо... Очень плохо! "
+            dia "Эти малышки вот-вот лопнут!"
+            dia "Думаю, тогда я сама обо всем позабочусь..."
             show player 365
             show diane f_sad
-            player_name "I'll do it next time!"
-            player_name "Take care, {b}Diane{/b}!"
+            player_name "Я сделаю это в следующий раз!"
+            player_name "Береги себя, {b}Диана{/b}!"
             $ game.timer.tick()
     $ game.main()
 
@@ -97,45 +97,45 @@ label milking_minigame_done_daisy(earnings):
     show player 17 at left
     show daisy f_shy_down b_naked_shy a_naked_shy_front at Position (yoffset=10)
     with dissolve
-    player_name "All done!"
+    player_name "Все готово!"
     show player 1b
     show daisy f_shy_normal_talk at Position (yoffset=10)
-    daisy "Aww, already?"
+    daisy "Ой, уже?"
     show daisy f_shy_normal at Position (yoffset=10)
     show player 14b
-    player_name "Heh, I don't think you have anything left in there..."
+    player_name "Не думаю, что у тебя там что-то осталось..."
     show player 1b
     show daisy f_shy_normal_talk at Position (yoffset=10)
-    daisy "Yeah, okay..."
-    daisy "Can you milk me again later, {b}[firstname]{/b}?"
+    daisy "Да, хорошо..."
+    daisy "Можешь подоить меня позже, {b}[firstname]{/b}?"
     show daisy f_shy_normal at Position (yoffset=10)
     show player 14b
-    player_name "S-sure, if you want."
+    player_name "Конечно, если хочешь."
     show player 1b
     show daisy f_laugh b_naked a_naked_up with dissolve
-    daisy "Yes, please!"
-    daisy "It feels so good when you do it."
+    daisy "Да, пожалуйста!"
+    daisy "Так хорошо, когда ты это делаешь."
     show daisy f_normal a_naked_sides with dissolve
     pause
     hide player
     show daisy b_naked_hug f_empty a_empty
     with dissolve
-    daisy "Thank you, {b}[firstname]{/b}!"
-    daisy "You're the bestest man ever!"
+    daisy "Спасибо, {b}[firstname]{/b}!"
+    daisy "Ты самый лучший человек на свете!"
     show player 14b at left
     show daisy b_naked a_naked_sides f_normal
     with dissolve
-    player_name "You're welcome."
-    player_name "I should probably get started on my other work."
+    player_name "Пожалуйста."
+    player_name "Мне, наверное, стоит начать другую работу."
     show player 1b
     show daisy f_normal_talk
-    daisy "Okay, {b}[firstname]{/b}."
+    daisy "Хорошо, {b}[firstname]{/b}."
     show daisy f_normal
     show player 14b
-    player_name "I'll see you soon, {b}Daisy{/b}."
+    player_name "Увидимся позже, {b}Дейзи{/b}."
     show player 1b
     show daisy f_laugh
-    daisy "Byeeeee!"
+    daisy "Пооокааа!"
     hide player with dissolve
     pause
     show daisy f_normal
@@ -152,31 +152,31 @@ label milking_minigame_fail_daisy:
     show player 24 at left
     show daisy f_sad_talk
     with dissolve
-    daisy "Are you okay, {b}[firstname]{/b}?"
+    daisy "Ты в порядке, {b}[firstname]{/b}?"
     show daisy f_sad
-    player_name "Y-yeah."
+    player_name "Да."
     show player 10b
-    player_name "I guess, I'm just a little off my game today..."
+    player_name "Думаю, я просто немного не в своей тарелке сегодня..."
     show player 5b
     show daisy f_normal_talk
-    daisy "Hehe, that's alright."
+    daisy "Хе-хе, все в порядке."
     show daisy f_normal
     show player 10b
-    player_name "You should go and ask {b}Diane{/b} to finish you off."
+    player_name "Ты должна пойти и попросить {b}Диану{/b} закончить с тобой."
     show player 5b
     show daisy f_sad_talk
-    daisy "I should?"
+    daisy "Я должна?"
     show daisy f_sad
     show player 10b
-    player_name "Yeah, I'm not having much luck..."
+    player_name "Да, мне не очень-то везет..."
     show player 5b
     pause
     show player 10b
-    player_name "Sorry, {b}Daisy{/b}."
+    player_name "Прости, {b}Дейзи{/b}."
     show player 5b
     show daisy f_normal_talk
-    daisy "Aww... It's okay."
-    daisy "Byeeeee {b}[firstname]{/b}!"
+    daisy "Ааа... Все хорошо."
+    daisy "Пооокааа {b}[firstname]{/b}!"
     hide daisy
     hide player
     with dissolve
@@ -190,70 +190,70 @@ label milking_minigame_done(earnings):
         show player 13 at left
         show diane f_laugh b_shirtless a_shirtless_sides
         with dissolve
-        dia "Phew!"
-        dia "That feels so much better!"
+        dia "Фу!"
+        dia "Так намного лучше!"
         show diane f_cheese
         pause
         show diane f_normal_talk
-        dia "Thank you, {b}[firstname]{/b}."
+        dia "Спасибо, {b}[firstname]{/b}."
         show diane f_normal
         show player 17
-        player_name "You're welcome."
+        player_name "Пожалуйста."
         show player 13
         show diane f_normal_talk
-        dia "I don't know if it's you or this new equipment but that was the smoothest milking session I've ever had."
-        dia "Just look at all that milk!"
+        dia "Я не знаю, ты ли это или это новое оборудование, но это был самый гладкий сеанс доения, который у меня когда-либо был."
+        dia "Только посмотри на все это молоко!"
         show diane f_normal
         show player 14
-        player_name "Yeah, you had a lot in there."
+        player_name "Да, у тебя там было его много."
         show player 13
         show diane f_laugh
-        dia "Hehe!"
+        dia "Хехе!"
         show diane f_normal_talk
-        dia "Keep this up and we'll fill my orders no problem!"
+        dia "Продолжайте в том же духе, и мы выполним Мои заказы без проблем!"
         show diane f_normal
         pause
         show diane f_normal_talk
-        dia "I'm gonna go ahead and give you your cut now."
+        dia "Я собираюсь пойти дальше и дать тебе твою долю сейчас."
         show diane f_normal
         show player 5
-        player_name "Hmm?"
+        player_name "Хмм?"
         show diane f_normal_talk a_shirtless_money with dissolve
-        dia "Here ya go."
+        dia "Вот."
         show diane f_normal b_shirtless a_shirtless_sides
         show player 640e
         with dissolve
-        player_name "You're gonna pay me to do this?"
+        player_name "Ты заплатишь мне за это?"
         show player 13 with dissolve
         show diane f_normal_talk
-        dia "Well, of course."
-        dia "It's a job afterall."
+        dia "Ну, конечно."
+        dia "Это же работа."
         show diane f_normal
         show player 14
-        player_name "Yeah, but-"
+        player_name "Да, но-"
         show player 13
         show diane f_smirk_talk
-        dia "Believe me, those magic hands of yours are worth every penny."
+        dia "Поверь мне, твои волшебные руки стоят каждого пенни."
         show diane f_smirk
         show player 14
-        player_name "You're sure?"
+        player_name "Ты уверена?"
         show player 13
         show diane f_smirk_talk
-        dia "Yep."
+        dia "Ага."
         show diane f_normal_talk
-        dia "Just remember, you have a garden to tend as well."
+        dia "Просто помни, что у тебя также есть сад, и о нем надо заботиться."
         show diane f_normal
         show player 14
-        player_name "I remember."
+        player_name "Я помню."
         show player 13
         show diane f_normal_talk
-        dia "Well, you'd best get to it then."
+        dia "Ну, тогда тебе лучше заняться им."
         show diane f_normal
         show player 14
-        player_name "Thanks, {b}Diane{/b}."
+        player_name "Спасибо, {b}Диана{/b}."
         show player 13
         show diane f_normal_talk
-        dia "You're welcome, handsome."
+        dia "Пожалуйста, красавчик."
         hide player
         hide diane
         with dissolve
@@ -268,27 +268,27 @@ label milking_minigame_done(earnings):
                 show player 14 at left
             show diane b_naked a_naked_sides f_smirk
             with dissolve
-            player_name "That was a lot of milk!"
+            player_name "Так много молока!"
             if M_diane.get("sex_pre_milking"):
                 show player 366
             else:
                 show player 13
             show diane f_smirk_talk
-            dia "Yeah it was."
-            dia "You did well, {b}[firstname]{/b}!"
+            dia "Да, много."
+            dia "Ты сделал все правильно, {b}[firstname]{/b}!"
             show diane f_smirk
             if M_diane.get("sex_pre_milking"):
                 show player 365
             else:
                 show player 14
-            player_name "T-thanks!"
+            player_name "Спасибо!"
             hide player
             if M_diane.get("sex_pre_milking") or M_diane.outfit == "cow":
                 show diane kiss_both_naked at Position (xoffset=-217)
             else:
                 show diane kiss_shirtless
             with dissolve
-            dia "Mmm."
+            dia "Ммм."
             pause
             if M_diane.get("sex_pre_milking"):
                 show player 366 at left
@@ -296,34 +296,34 @@ label milking_minigame_done(earnings):
                 show player 13 at left
             show diane b_naked a_naked_sides f_smirk_talk
             with dissolve
-            dia "I should get cleaned up."
+            dia "Мне нужно привести себя в порядок."
             show diane f_smirk
             if M_diane.get("sex_pre_milking"):
                 show player 365
             else:
                 show player 14
-            player_name "Yeah, alright."
+            player_name "Да, хорошо."
             if M_diane.get("sex_pre_milking"):
                 show player 366
             else:
                 show player 13
             show diane f_smirk_talk
-            dia "We're gonna do this a lot, {b}[firstname]{/b}..."
+            dia "Мы будем делать это часто, {b}[firstname]{/b}..."
             show diane f_laugh
-            dia "... And I mean, A LOT!"
+            dia "... И я имею в виду, МНОГО!"
             show diane f_smirk
             if M_diane.get("sex_pre_milking"):
                 show player 365
             else:
                 show player 14
-            player_name "Heh, okay."
-            player_name "See you at home?"
+            player_name "Хе, хорошо."
+            player_name "Увидимся дома?"
             if M_diane.get("sex_pre_milking"):
                 show player 366
             else:
                 show player 13
             show diane f_smirk_talk
-            dia "You betcha."
+            dia "Еще бы."
             hide player
             hide diane
             with dissolve
@@ -338,13 +338,13 @@ label milking_minigame_done(earnings):
                 show player 13 at left
             show diane b_naked a_naked_sides f_smirk_talk
             with dissolve
-            dia "Nice work today, handsome."
+            dia "Отличная работа, красавчик."
             show diane f_smirk
             if M_diane.get("sex_pre_milking"):
                 show player 365
             else:
                 show player 14
-            player_name "Thanks!"
+            player_name "Спасибо!"
             hide player
             if M_diane.get("sex_pre_milking") or M_diane.outfit == "cow":
                 show diane kiss_both_naked at Position (xoffset=-217)
@@ -358,13 +358,13 @@ label milking_minigame_done(earnings):
                 show player 14 at left
             show diane b_naked a_naked_sides f_smirk
             with dissolve
-            player_name "See you at the house tonight?"
+            player_name "Увидимся вечером дома?"
             if M_diane.get("sex_pre_milking"):
                 show player 366
             else:
                 show player 13
             show diane f_smirk_talk
-            dia "You betcha!"
+            dia "Еще бы!"
             hide player
             hide diane
             with dissolve
@@ -390,31 +390,31 @@ label milking_minigame_fail:
         $ M_diane.outfit = "shirtless"
     show diane f_sad_talk b_naked a_naked_sides
     with dissolve
-    dia "Hmm, well that was disappointing..."
+    dia "Что ж, это было разочаровывающе..."
     show diane f_sad
     if M_diane.get("sex_pre_milking"):
         show player 367
     else:
         show player 10
-    player_name "Sorry, {b}Diane{/b}."
-    player_name "I don't know what happened."
+    player_name "Прости, {b}Диана{/b}."
+    player_name "Я не знаю, что случилось."
     if M_diane.get("sex_pre_milking"):
         show player 368
     else:
         show player 5
     show diane f_shamed_talk_smile
-    dia "It's alright, handsome."
-    dia "I'm probably just having a off day."
+    dia "Все в порядке, красавчик."
+    dia "Наверное, у меня просто выходной."
     show diane f_shamed
     pause
     show diane f_shamed_talk_smile
-    dia "We'll can try again later, okay?"
+    dia "Мы можем попробовать позже, хорошо?"
     show diane f_shamed
     if M_diane.get("sex_pre_milking"):
         show player 367
     else:
         show player 10
-    player_name "Y-yeah, okay."
+    player_name "Да, хорошо."
     hide player
     hide diane
     with dissolve
