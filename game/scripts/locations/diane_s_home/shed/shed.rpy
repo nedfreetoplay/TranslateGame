@@ -32,12 +32,12 @@ label dianes_shed_got_milk_delivery_3:
     show player 168b with dissolve
     player_name "!!!"
     show player 168c
-    player_name "Holy crap! This is a lot heavier than the last one!"
+    player_name "Срань господня! Это намного тяжелее предыдущего!"
     show player 167
     pause
     show player 168
-    player_name "{b}Diane{/b} should really invest in a hand truck."
-    player_name "It's gonna be tough hauling this all the way to school by myself."
+    player_name "{b}Диана{/b} действительно должна инвестировать в ручную тележку."
+    player_name "Будет тяжело тащить это всю дорогу до школы самостоятельно."
     hide player with dissolve
     show popup_item_milk at truecenter with dissolve
     $ player.get_item("milk_carton")
@@ -48,20 +48,20 @@ label dianes_shed_got_milk_delivery_3:
 label dianes_shed_pick_up_milk_delivery_02:
     scene shed
     show player 163c with dissolve
-    player_name "Sheesh, this is a lot heavier than last time!"
-    player_name "I guess, that's a good thing though..."
-    player_name "... {b}Diane's{/b} business is growing quick!"
+    player_name "Блин, это намного тяжелее, чем в прошлый раз!"
+    player_name "Я думаю, это хорошо, хотя ..."
+    player_name "... Бизнес {b}Дианы{/b} быстро растет!"
 
-    player_name "Alright, I'm supposed to {b}deliver this to the daycare next door.{/b}"
+    player_name "Хорошо, я должен {b}доставить это в детский сад по соседству.{/b}"
     hide player with dissolve
     $ game.main()
 
 label dianes_shed_get_milk_to_dump:
     scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
     show player 680 with dissolve
-    player_name "Oh, it's still warm."
-    player_name "Alright, {b}I just need to pour this into one of the storage jugs.{/b}"
-    player_name "Easy peasy."
+    player_name "О, оно все еще теплое."
+    player_name "Хорошо, {b}мне просто нужно вылить это в один из бидонов.{/b}"
+    player_name "Проще простого."
     hide player with dissolve
 
     $ M_diane.set("acquired milk", True)
@@ -71,19 +71,19 @@ label dianes_shed_dump_milk:
     if M_diane.get("acquired milk"):
         scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
         show player 680 with dissolve
-        player_name "Alright, I just pour this in here like so..."
+        player_name "Хорошо, я просто наливаю это вот так..."
         show player 681 with dissolve
-        player_name "... Aaaand done!"
+        player_name "... Ииииии готово!"
         show player 17 with dissolve
-        player_name "Now, I should go check on {b}Diane{/b}."
+        player_name "Теперь, я должен пойти проверить {b}Диану{/b}."
         hide player with dissolve
         $ M_diane.trigger(T_diane_make_drink)
     else:
         scene expression "backgrounds/location_diane_shed01_day_blur.jpg"
         show player 681b with dissolve
-        player_name "This must be a storage jug!"
-        player_name "It's cold to the touch!"
-        player_name "{b}I just need to find the pump and then dump it in here.{/b}"
+        player_name "Это должно быть бидон!"
+        player_name "Он холодный на ощупь!"
+        player_name "{b}Мне просто нужно найти насос, а затем слить его сюда.{/b}"
         hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
