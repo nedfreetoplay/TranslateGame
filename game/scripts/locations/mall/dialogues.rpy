@@ -12,59 +12,59 @@ label mall_diane_get_bug_spray:
     show player 13 at left
     show diane b_casual a_casual_sides f_normal_talk
     with dissolve
-    dia "Mmm, it's nice to get out of the house for awhile."
+    dia "Ммм, приятно выбраться из дома ненадолго."
     show diane f_normal
     show player 14
-    player_name "Yeah, how come you don't go out more?"
+    player_name "Да, почему ты больше не выходишь на улицу?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, I don't know."
-    dia "There's not much to do in this town by yourself..."
+    dia "О, я не знаю."
+    dia "В этом городе мало чем можно заняться в одиночку..."
     show diane f_normal
     show player 14
-    player_name "{b}Debbie{/b} would hang out with you."
+    player_name "{b}Дебби{/b} будет тусоваться с тобой."
     show player 13
     show diane f_shamed_talk_smile
-    dia "Heh, {b}Debbie{/b} has her own stuff going on..."
-    dia "... I don't wanna bother her."
+    dia "Хе, у {b}Дебби{/b} есть свои собственные дела..."
+    dia "... Я не хочу ее беспокоить."
     show diane f_shamed
     show player 14
-    player_name "Oh, please! {b}Debbie{/b} has tons of free time."
+    player_name "О, пожалуйста! У {b}Дебби{/b} куча свободного времени."
     show player 10
-    player_name "Especially now, with {b}my dad{/b} gone..."
+    player_name "Особенно сейчас, когда нет {b}моего отца{/b} ..."
     show player 5
     dia "..."
     show diane f_shamed_talk_smile
-    dia "You're right, I should make more of an effort."
-    dia "We used to be so close when we were younger."
+    dia "Ты прав, я должна приложить больше усилий."
+    dia "Мы были так близки с ней, когда были моложе."
     show diane f_shamed
     show player 10
-    player_name "... And if she's busy..."
+    player_name "... И если она занята..."
     show player 17
-    player_name "You can always ask me!"
+    player_name "Ты всегда можешь спросить меня!"
     show player 13
     show diane f_laugh
-    dia "Hah, you don't wanna hang out with an old lady like me!"
+    dia "Ха, ты же не хочешь тусоваться со старушкой вроде меня!"
     show diane f_normal
     show player 14
-    player_name "You aren't old {b}Diane{/b}!"
-    player_name "Besides, you're one of the most fun people I know!"
+    player_name "Ты не старая {b}Диана{/b}!"
+    player_name "Кроме того, ты один из самых веселых людей, которых я знаю!"
     show player 13
     show diane f_normal_talk
-    dia "I am?"
+    dia "Я?"
     show diane f_normal
     show player 17
-    player_name "Yeah!"
+    player_name "Да!"
     show player 13
     show diane f_normal_talk
-    dia "Thanks, {b}[firstname]{/b}..."
+    dia "Спасибо, {b}[firstname]{/b}..."
     show diane f_normal
     dia "..."
     show diane f_shamed_talk_smile
-    dia "{b}*Ahem*{/b} Well, we should head towards {b}Consum-R{/b} and get that {b}pesticide{/b}."
+    dia "{b}*гм*{/b} Ну, мы должны пойти в {b}Consum-R{/b} и купить {b}пестицидов{/b}."
     show diane f_normal
     show player 14
-    player_name "Right behind you."
+    player_name "Иду прямо за тобой."
     hide player
     hide diane
     with dissolve
