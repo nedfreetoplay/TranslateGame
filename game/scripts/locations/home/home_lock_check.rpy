@@ -107,21 +107,21 @@ label home_lock_check(destination_screen, destination_label):
     elif M_diane.is_state(S_diane_peeking_masturbate):
         scene expression temp_bg
         show player 427b at Position (xoffset=50) with dissolve
-        player_name "I can't go out there with this thing."
-        player_name "{b}I should jerk off and clear my head.{/b}"
+        player_name "Я не могу пойти туда с этой штукой."
+        player_name "{b}Я должен подрочить и проветрить голову.{/b}"
         hide player with dissolve
 
     elif M_diane.is_state(S_diane_get_dirty_with_debbie) and destination_screen not in ["Bedroom", "Hallway", "Entrance", "Living Room", "Master Bedroom"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "I should follow {b}[deb_name]{/b}."
-        player_name "I think she went into her room."
+        player_name "Я должен следовать к {b}[deb_name]{/b}."
+        player_name "Думаю, она пошла в свою комнату."
         hide player with dissolve
 
     elif M_diane.is_state(S_diane_3way_aftermath) and destination_screen not in ["Master Bedroom", "Living Room", "Entrance", "Kitchen"]:
         scene expression temp_bg
         show player 14 with dissolve
-        player_name "I should go see what {b}[deb_name]{/b} is cooking {b}in the kitchen{/b}."
+        player_name "Я должен пойти посмотреть что {b}[deb_name]{/b} приготовила {b}на кухне{/b}."
         hide player with dissolve
 
     elif game.timer.is_night() and destination_screen == "Upstairs Bedroom":
