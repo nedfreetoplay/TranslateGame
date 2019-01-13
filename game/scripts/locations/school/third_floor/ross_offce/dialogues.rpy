@@ -1,11 +1,11 @@
 label ross_office_first_visit:
     scene school_office3_b with fade
     show player 11 with dissolve
-    player_name "*Sniff*"
+    player_name "*фырк*"
     show player 12
-    player_name "What's that smell?"
-    player_name "It's like...incense...and herbs..."
-    player_name "{b}Miss Ross{/b} must be spending a lot of time in here."
+    player_name "Что это за запах?"
+    player_name "Это как...ладан...и травы..."
+    player_name "{b}Мисс Росс{/b}, должно быть, проводит здесь много времени."
     hide player with dissolve
     return
 
@@ -217,27 +217,27 @@ label ross_hscene_first_time:
     $ M_ross.set ("sex speed", 0.2)
     show expression AnimatedImage("rosss", [2,3,4,5,6,7,8,9,10,11], M_ross) as rosss at right
     pause 3
-    ross "Oh my goddess! It's even better than I imagined!"
+    ross "О моя богиня! Это даже лучше, чем я себе представляла!"
     pause 2
-    player_name "Oh, {b}Miss Ross{/b}!"
+    player_name "О, {b}Мисс Росс{/b}!"
     $ M_ross.set ("sex speed", 0.1)
     pause 5
-    ross "It's never felt so good!"
+    ross "Никогда не было так хорошо!"
     pause 5
-    ross "This is incredible!"
+    ross "Это невероятно!"
     pause 2
-    player_name "Ahhh!"
+    player_name "Ааааа!"
     pause 2
-    ross "Why is this so good?!"
+    ross "Почему это так хорошо?!"
     $ M_ross.set ("sex speed", 0.06)
     pause 5
-    ross "Oh, fuck me!"
-    player_name "I can't-"
-    player_name "You're going too fast!"
+    ross "О, трахай меня!"
+    player_name "Я не могу-"
+    player_name "Ты делаешь это слишком быстро!"
     pause 5
-    ross "I love your dick, {b}[firstname]{/b}!"
+    ross "Я люблю твой член, {b}[firstname]{/b}!"
     pause 2
-    ross "Oh, I love it so much!"
+    ross "О, Я люблю его так сильно!"
     return
 
 label ross_hscene_loop:
