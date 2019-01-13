@@ -18,7 +18,7 @@ label dianes_kitchen_dialogue:
 label kitchen_drink:
     scene expression "backgrounds/location_diane_kitchen_closeup.jpg"
     show player 133 with dissolve
-    player_name "What drink should I make?"
+    player_name "Какой напиток я должен сделать?"
     call screen drink_minigame(M_diane.get("random drink"))
 
 label dianes_kitchen_get_water:
@@ -26,7 +26,7 @@ label dianes_kitchen_get_water:
     show player 667b with dissolve
     pause
     show player 667 with dissolve
-    player_name "Alright, one glass of water coming up..."
+    player_name "Хорошо, один стакан воды на подходе..."
     hide player with dissolve
 
     $ M_diane.trigger(T_diane_found_cold_towel)
@@ -35,10 +35,10 @@ label dianes_kitchen_get_water:
 label dianes_kitchen_get_pump:
     scene expression "backgrounds/location_diane_kitchen_closeup.jpg"
     show player 103b with dissolve
-    player_name "( Hmm? )"
-    player_name "( This is one weird looking tool! )"
-    player_name "( It looks like a spray bottle or something... )"
-    player_name "( I'll have to ask {b}Diane{/b} about it. )"
+    player_name "( Хмм? )"
+    player_name "( Это один странный инструмент! )"
+    player_name "( Похоже на распылитель или что-то вроде того... )"
+    player_name "( Я должен спросить {b}Диану{/b} об этом. )"
     hide player with dissolve
 
     $ player.get_item("pump")
