@@ -1,136 +1,136 @@
 label pink_diane_get_outfit_package:
     scene expression "backgrounds/location_pink_blur.jpg"
     show player 3
-    player_name "( Hmm? )"
-    player_name "( I don't see anybody minding the store... )"
+    player_name "( Хмм? )"
+    player_name "( Я не вижу никого, кто бы присматривал за магазином... )"
     show player 4 with dissolve
     pause
     show player 10 with dissolve
-    player_name "... Is anyone here?"
+    player_name "... Здесь кто-нибудь есть?"
     show player 5
     pause
     show player 10
-    player_name "H-hello?!"
+    player_name "АУ?!"
     show player 5
-    ivy "Just a moment!!"
+    ivy "Одну минуту!!"
     pause
     show player 4 with dissolve
-    player_name "( Huh, I wonder what she's doing back there? )"
+    player_name "( Интересно, что она там делает? )"
     show player 5 with dissolve
-    ivy "Be right with you!!"
+    ivy "Сейчас приду!!"
     show player 10
-    player_name "Okay!"
+    player_name "Хорошо!"
     show player 9f at left with dissolve
     pause
     pause
     show player 34 with dissolve
-    player_name "( Hmm, what could {b}Diane{/b} have ordered from a place like this?!"
+    player_name "( Хмм, Что могла заказать {b}Диана{/b} из такого места, как это?! )"
     pause
     show ivy b_naked a_naked_sheet_cover f_normal_talk with dissolve
-    ivy "Sorry about that."
+    ivy "Прости за ожидание."
     show ivy f_normal
     show player 23
     player_name "!!!"
     show ivy f_normal_talk
-    ivy "I was just finishing up with a customer."
+    ivy "Я как раз заканчивала с клиентом."
     show ivy f_normal
     show player 11
     player_name "..."
     pause
     player_name "..."
     show ivy f_shy_talk
-    ivy "Can I help you with something, cutie?"
+    ivy "Могу я тебе чем-нибудь помочь, милашка?"
     show ivy f_shy
     show player 37 with dissolve
-    player_name "Oh sheesh, I'm sorry!"
+    player_name "О Господи, прости!"
     show player 3 with dissolve
     show ivy f_laugh
-    ivy "Hehe, it's alright."
+    ivy "Хе-хе, все в порядке."
     show ivy f_normal
     show player 29
-    player_name "I umm..."
+    player_name "Я эмм..."
     show player 26 with dissolve
     pause
     show player 24
-    player_name "I'm supposed to... Uhh..."
+    player_name "Я должен... Ух..."
     pause
     show player 4 with dissolve
     pause
     show player 17 with dissolve
-    player_name "... Pick up a package!"
+    player_name "... Забрать посылку!"
     show player 13
     show ivy f_normal_talk
-    ivy "What's the name?"
+    ivy "Ваше имя?"
     show ivy f_normal
     show player 10
-    player_name "{b}Diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 13
     show ivy f_sexy_talk
-    ivy "Hmm, you don't look like a {b}Diane{/b}..."
+    ivy "Хмм, ты не выглядишь как {b}Диана{/b}..."
     show ivy f_sexy
     show player 10
-    player_name "I don't?"
+    player_name "Я не?"
     show player 12
-    player_name "I mean, no, she's my-"
+    player_name "Я имею в виду, нет, она моя-"
     show player 5
     show ivy f_laugh
-    ivy "Hehe, I'm just joking with you."
+    ivy "Хе-хе, я просто шучу."
     show ivy f_normal_talk
-    ivy "One second, I'll get your package."
+    ivy "Секундочку, я принесу твою посылку."
     hide ivy with dissolve
     pause
     show player 26
-    player_name "( Wow, she is really beautiful... )"
-    player_name "( ... And she's practically naked! )"
-    player_name "( Does she have someone else back there with her? )"
+    player_name "( Вау, она действительно красивая... )"
+    player_name "( ... И она практически голая! )"
+    player_name "( У нее есть кто-то еще там? )"
     show ivy b_naked a_naked_sheet_cover f_shy_talk with dissolve
     show player 13
-    ivy "I can't seem to find-"
+    ivy "Кажется, я не могу найти-"
     show ivy f_laugh
-    ivy "Oh, silly me! Here it is!"
+    ivy "Ах, какая я глупая! Вот она!"
     show ivy b_naked_pickup a_empty f_empty with dissolve
     show player 426
     pause
-    ivy "Here you go."
+    ivy "Вот."
     show ivy b_naked a_naked_sheet_box f_normal with dissolve
     show player 22
     player_name "!!!" with hpunch
     show ivy f_surprised_down
     with dissolve
-    ivy "Oopsie!"
+    ivy "Упс!"
     show player 171b
     show ivy a_naked_sheet_cover f_shy
     with dissolve
     show player 171
     pause
     show ivy f_shy_talk
-    ivy "Sorry about that."
+    ivy "Прости."
     show ivy f_shy
     show player 170c
-    player_name "N-no problem."
+    player_name "Нет проблем."
     show player 169c
     show ivy f_sexy_talk
-    ivy "Aww, you're so adorable when you blush!"
+    ivy "Ты такой очаровашка, когда краснеешь!"
     show ivy f_sexy
     show player 170c
-    player_name "... I am?"
+    player_name "... Я?"
     show player 169c
-    ivy "Mmhmm."
+    ivy "Ммммм."
     show player 171
-    vero "What's taking so long out here?!"
+    vero "Почему ты здесь так долго?!"
     show ivy b_hug_vero a_empty f_hug_vero_normal_back
     show vero f_sexy_talk b_empty a_empty
     with dissolve
-    vero "I'm not done with you yet!"
+    vero "Я с тобой еще не закончила!"
     hide vero
     show ivy b_hug_vero_kiss f_hug_vero_laugh
     with dissolve
-    ivy "Oh, haah..."
+    ivy "О, хаах..."
     show ivy f_hug_vero_normal_talk_back
-    ivy "I was just helping this young man with order."
+    ivy "Я просто помогал этому молодому человеку с заказом."
     show ivy f_hug_vero_normal_back
     show player 170b
-    player_name "{b}Veronica{/b}?!"
+    player_name "{b}Вероника{/b}?!"
     show player 169b
     show ivy b_hug_vero
     show vero f_sexy_talk b_empty a_empty
@@ -138,97 +138,97 @@ label pink_diane_get_outfit_package:
     vero "{b}[firstname]{/b}?"
     show vero f_sexy
     show player 170b
-    player_name "What are you doing here?"
+    player_name "Что ты здесь делаешь?"
     show player 169b
     show vero f_sexy_talk
-    vero "Oh, just blowing off a little steam."
-    vero "I never would have expected to see you in a place like this..."
+    vero "Просто выпускаю немного пара."
+    vero "Никогда бы не подумал увидеть тебя в таком месте..."
     show vero f_sexy
     show player 170b
-    player_name "I wasn't..."
-    player_name "I mean, I'm just here to pick something up..."
-    player_name "... F-for a friend!"
+    player_name "Я не..."
+    player_name "В смысле, я здесь, чтобы кое-что забрать..."
+    player_name "... для друга!"
     show player 169b
     show vero f_sexy_talk
-    vero "Oh, reeeeeally?"
+    vero "О, праааавда?"
     show vero f_sexy
     show ivy f_hug_vero_normal_talk_back
-    ivy "Someone named {b}Diane{/b} apparently."
+    ivy "Очевидно, кого-то по имени {b}Диана{/b}."
     show ivy f_hug_vero_normal
     show vero f_normal_talk
-    vero "{b}*Gasp*{/b} That package is for {b}Diane{/b}?!"
+    vero "{b}*вздох*{/b} Эта коробка для {b}Дианы{/b}?!"
     show ivy a_naked_sheet_cover b_naked f_normal
     show vero f_normal_talk b_disheveled a_disheveled_hip at Position (xpos=250)
     with dissolve
-    vero "Oh, lemme see! Lemme see!!!"
+    vero "О, дай посмотреть! Дай посмотреть!!!"
     show vero f_normal
     show player 170b
-    player_name "I dunno, she told me not to open it..."
+    player_name "Не знаю, она сказала мне не открывать..."
     show player 169b
     show vero f_normal_talk
-    vero "Well, did she tell you that I couldn't open it?"
+    vero "Ну, она сказала тебе, что я не могу ее открыть?"
     show vero f_normal
     show player 171c
-    player_name "N-no..."
+    player_name "Нет..."
     show player 170b
-    player_name "She didn't say anything about you."
-    player_name "... But I don't think-"
+    player_name "Она ничего не говорила о тебе."
+    player_name "... Но я не думаю, что-"
     show player 169b
     show vero f_normal_talk
-    vero "Oh, c'mon!"
-    vero "Just a quick peek!"
+    vero "О, да ладно!"
+    vero "Только один быстрый взгляд!"
     show vero f_normal a_disheveled_box with dissolve
     show player 10
     with dissolve
-    player_name "O-okay, I guess..."
+    player_name "Ладно, наверное..."
     show player 5
     show vero f_sexy_down a_disheveled_box_open with dissolve
     pause
     vero "..."
     show vero f_sexy_talk_down
-    vero "Whoa."
-    vero "I wasn't expecting this..."
+    vero "Вау."
+    vero "Я этого не ожидала..."
     show vero f_sexy_talk a_disheveled_hip
     show player 169b
     with dissolve
-    vero "What in the heck is she up to over there?!"
+    vero "Какого черта она там?!"
     show vero f_sexy
     show player 170b
-    player_name "I uhh..."
+    player_name "Я эээ..."
     show player 170c
-    player_name "Heh, I couldn't say."
+    player_name "Хех, я не могу сказать."
     show player 169c
     show vero f_sexy_talk
-    vero "Well, she's definitely doing something kinky and I'm terribly jealous!"
-    vero "Tell her, she had better call me!"
-    vero "I want all the juicy details!"
+    vero "Ну, она определенно делает что-то странное, и я ужасно ревную!"
+    vero "Скажи ей, что ей лучше позвонить мне!"
+    vero "Мне нужны все пикантные подробности!"
     show vero f_sexy
     show player 170c
-    player_name "Y-yeah, okay."
+    player_name "Да, хорошо."
     show player 169c
     show ivy f_sexy_talk
-    ivy "C'mon, gorgeous..."
-    ivy "Let's get back to it, shall we?"
+    ivy "Ну же, красавица..."
+    ivy "Давай вернемся к делу?"
     show ivy f_sexy with None
     show player 171 with None
     show vero f_sexy_talk at flip
     show vero at Position (xpos=800)
     with dissolve
-    vero "Mmm yes, we definitely shall!"
+    vero "Ммм да, мы определенно продолжим!"
     show vero at unflip
     show vero at Position (xpos=250)
     with dissolve
-    vero "See ya, {b}[firstname]{/b}!"
+    vero "Пока, {b}[firstname]{/b}!"
     hide vero
     hide ivy
     with dissolve
     pause
     show player 170
-    player_name "... B-bye."
+    player_name "... Пока."
     show player 169
     pause
-    player_name "( Phew, {b}Veronica{/b} is really pushy when it comes to {b}Diane{/b}. )"
-    player_name "( Speaking of {b}Diane{/b}, {b}I should get this package back to her right away!{/b} )"
+    player_name "( Уф, {b}Вероника{/b} очень настойчива, когда дело касается {b}Дианы{/b}. )"
+    player_name "( Кстати о {b}Диане{/b}, {b}я должен немедленно вернуть ей эту посылку!{/b} )"
     hide player with dissolve
     return
 
