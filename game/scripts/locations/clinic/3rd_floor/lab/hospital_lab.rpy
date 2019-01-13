@@ -7,292 +7,292 @@ label hospital_lab_dialogue:
 label hospital_laboratory_take_pills_dialogue:
     scene expression "backgrounds/location_hospital_lab_blur.jpg"
     show player 706 at left with dissolve
-    player_name "( Hmm, so it comes in pill form? )"
-    player_name "( Weird. )"
-    player_name "( I was expecting some kind of cream... )"
-    player_name "( ... Or maybe something in a syringe. )"
-    player_name "( This is much simpler! )"
-    priya "Who the hell are you?!"
+    player_name "( Хм, так это в виде таблеток? )"
+    player_name "( Странно. )"
+    player_name "( Я ожидал какой-нибудь крем... )"
+    player_name "( ... Или что-то в шприце. )"
+    player_name "( Так намного проще! )"
+    priya "Кто ты такой?!"
     show player 23
     player_name "!!!" with hpunch
     show priya f_stern a_dressed_crossed with dissolve
-    player_name "I uhh..."
+    player_name "Я эээ..."
     show player 22
     show priya f_angry
-    priya "How did you get in-"
+    priya "Как вы попали сю-"
     show priya a_dressed_point with dissolve
-    priya "{b}*Gasp*{/b} Are you stealing my drugs!"
+    priya "{b}*вздыхая*{/b} Ты крадешь мои лекарства!"
     show priya f_stern a_dressed_crossed with dissolve
     show player 23
-    player_name "N-no, I wasn't-"
+    player_name "Нет,Я не-"
     show player 22
     show priya f_angry a_dressed_point with dissolve
-    priya "I'm calling security!"
+    priya "Я вызываю охрану!"
     show priya f_stern a_dressed_sides at flip
     show priya at Position (xoffset=650)
     show player 40 with dissolve
-    player_name "W-wait, please!"
+    player_name "Подождите, пожалуйста!"
     pause
     hide priya
     show priya f_stern a_dressed_crossed
     with dissolve
     show player 10 with dissolve
-    player_name "I wasn't going to steal them, I was just looking!"
+    player_name "Я не собирался их красть, я просто искал!"
     show player 5
     show priya f_angry
-    priya "Yeah, right!"
+    priya "Да, точно!"
     show priya f_stern
     show player 10
-    player_name "I'm serious!"
-    player_name "Look, here."
+    player_name "Я серьезно!"
+    player_name "Искал, здесь."
     show player 239_240 with dissolve
     pause
     show player 705f with dissolve
-    player_name "See, no harm done."
+    player_name "Видишь, ничего страшного не случилось."
     show player 704f
     show priya f_angry a_dressed_point with dissolve
-    priya "This is a restricted area!"
-    priya "How did you even get up here?!"
+    priya "Это запретная зона!"
+    priya "Как ты вообще сюда попал?!"
     show priya f_stern a_dressed_crossed with dissolve
     show player 24 with dissolve
-    player_name "{b}*Sigh*{/b} It's a long story. Please don't make me think about it again."
+    player_name "{b}*вздыхая*{/b} Это длинная история. Пожалуйста, не заставляй меня вспоминать об этом снова."
     show player 10
-    player_name "Maybe you can help me?"
-    player_name "I'm looking for a guy named, {b}Doctor Signh{/b}?"
+    player_name "Может быть, вы сможете мне помочь?"
+    player_name "Я ищу парня по имени, {b}Доктор Сингх{/b}?"
     show player 5
     pause
     show priya f_rolleyes
-    priya "Well, you found \"him\"."
+    priya "Ну, ты нашел \"его\"."
     show priya f_stern
     show player 12
-    player_name "Huh?"
+    player_name "А?"
     show player 10
-    player_name "... You mean-"
+    player_name "... Ты хочешь сказать-"
     show player 37 with dissolve
     show priya f_angry
-    priya "I'm {b}Doctor Singh{/b}."
+    priya "Я {b}Доктор Сингх{/b}."
     show priya f_stern
     show player 30
-    player_name "B-but you're a woman... Right?"
+    player_name "Н-но ты же женщина... Верно?"
     show player 5
     show priya f_angry
-    priya "No shit, Sherlock."
+    priya "Ни хрена себе, Шерлок."
     show priya f_stern
     show player 10
-    player_name "Sorry, I didn't-"
+    player_name "Извините, я не-"
     show player 401
-    player_name "I was under the impression you were a man."
+    player_name "У меня сложилось впечатление, что ты мужчина."
     show player 403
     priya "..."
     show priya f_angry
-    priya "Would you hurry up and tell me what this is all about?!"
+    priya "Не могли бы вы поторопиться и рассказать мне, что все это значит?!"
     show priya f_stern
     show player 10
-    player_name "R-right, sorry!"
+    player_name "Верно, простите!"
     show player 4 with dissolve
-    player_name "Umm."
+    player_name "Эээ."
     show player 10 with dissolve
-    player_name "I heard something about this {b}Pregnax{/b} drug you're developing..."
+    player_name "Я слышал что вы разрабатываете таблетки {b}Pregnax{/b}..."
     show player 5
     show priya f_angry
-    priya "Oh, and who exactly did you hear it from?!"
+    priya "Ой, от кого же ты слышал это?!"
     show priya f_stern
     show player 10
-    player_name "I... I promised I wouldn't say..."
+    player_name "Я... Я обещал, что не скажу..."
     show player 18
     show priya f_angry
-    priya "It was that air headed nurse on the second floor, wasn't it?!"
-    priya "That woman can't keep her mouth closed for two seconds."
+    priya "Это была та медсестра на втором этаже, не так ли?!"
+    priya "Эта женщина не может держать рот закрытым даже в течение двух секунд."
     show priya f_stern
     show player 11
     player_name "..."
     show priya f_rolleyes
-    priya "Go on."
+    priya "Продолжай."
     show priya f_stern
     show player 10
-    player_name "You see, my fri-"
-    player_name "{b}*Ahem*{/b} M-my girlfriend is trying to get pregnant and her odds aren't very good."
-    player_name "I want to do everything I can to help increase her odds."
+    player_name "Видишь ли, мой др-"
+    player_name "{b}*гм*{/b} Моя девушка пытается забеременеть и ее шансы не очень хорошие."
+    player_name "Я хочу сделать все возможное, чтобы увеличить ее шансы."
     show player 5
     show priya f_angry
-    priya "So, that's why you broke into my lab?"
+    priya "Так вот почему ты вломился в мою лабораторию?"
     show priya f_stern
     show player 29 with dissolve
-    player_name "Y-yeah."
+    player_name "Да."
     show player 26 with dissolve
-    player_name "Which again, was not to steal anything!"
+    player_name "Который опять же, не должен был ничего украсть!"
     show player 38 with dissolve
-    player_name "I just wanted to speak with you about the {b}Pregnax{/b} drug trial."
+    player_name "Я просто хотел поговорить с вами о процессе таблеток {b}Pregnax{/b}."
     show player 5 with dissolve
     show priya f_angry
-    priya "The trial is at capacity."
+    priya "Процесс на полной мощности."
     show priya f_stern
     show player 24
-    player_name "Y-yeah, I heard about that too."
+    player_name "Да, я тоже слышал об этом."
     pause
-    player_name "Is there nothing you can do?"
+    player_name "Ты ничего не можешь сделать?"
     show priya f_facepalm a_dressed_facepalm with dissolve
     priya "..."
     show priya f_facepalm_talk
-    priya "Well, I'll admit. I'm impressed with your determination."
-    priya "It couldn't have been easy getting up here."
+    priya "Хорошо, я признаю это. Я впечатлен вашей решимостью."
+    priya "Наверное, было нелегко подняться сюда."
     show priya a_dressed_sides f_normal_talk with dissolve
-    priya "... And I'm not unsympathetic to your girlfriend's plight."
+    priya "... И мне не безразлично положение твоей девушки."
     show priya f_normal
     show player 11
     pause
     show priya f_normal_talk
-    priya "What's your name?"
+    priya "Как тебя зовут?"
     show priya f_normal
     show player 10
     player_name "{b}[firstname]{/b}."
     show player 5
     show priya f_normal_talk
-    priya "How old are you, {b}[firstname]{/b}?"
+    priya "Сколько тебе лет, {b}[firstname]{/b}?"
     show priya f_normal
     show player 10
-    player_name "I'm eighteen."
+    player_name "Мне восемнадцать."
     show player 5
     show priya f_normal_talk
-    priya "That's very young."
-    priya "Our other test subjects are all ten to thirty years older than you."
+    priya "Ты очень молод."
+    priya "Все остальные подопытные на десять-тридцать лет старше тебя."
     show priya f_normal
     show player 30
-    player_name "Is that a good or bad thing?"
+    player_name "Это хорошо или плохо?"
     show player 5
     show priya f_thinking a_dressed_thinking with dissolve
     pause
     show priya f_suspicious_talk
-    priya "It's... Intriguing."
+    priya "Это... интригующе."
     show priya f_normal_talk
-    priya "... And your girlfriend, how old is she?"
+    priya "... А твоей девушке сколько лет?"
     show priya f_normal
     show player 35
-    player_name "Uhh, I'm not sure exactly..."
+    player_name "Я не совсем уверен в этом..."
     show player 34
     show priya f_suspicious_talk
-    priya "You're trying for a baby with this woman and you don't even know her age?"
+    priya "Ты пытаешься завести ребенка с этой женщиной и даже не знаешь ее возраста?"
     show priya f_normal
     show player 35
-    player_name "N-no, I uhh..."
-    player_name "I mean, she's in her late thirties, I think."
+    player_name "Нет, Я эээ..."
+    player_name "Я имею в виду, ей уже за тридцать, я думаю."
     show player 34
     show priya f_normal_talk
-    priya "Oh, now that is interesting..."
-    priya "Is she your only sexual partner?"
+    priya "О, теперь это интересно..."
+    priya "Она твой единственный сексуальный партнер?"
     show priya f_normal
     show player 17
-    player_name "... No."
+    player_name "... Нет."
     show player 18
     show priya f_rolleyes a_dressed_crossed with dissolve
-    priya "Tsk."
+    priya "Ччч."
     show priya f_thinking a_dressed_thinking with dissolve
     pause
     show priya f_normal_talk a_dressed_crossed with dissolve
-    priya "Would you be willing to subject yourself to a few tests?"
+    priya "Вы готовы подвергнуть себя нескольким испытаниям?"
     show priya f_normal
     show player 10
-    player_name "Uhh, sure."
+    player_name "Ох, конечно."
     show player 5
     show priya f_normal_talk
-    priya "This would all be strictly off the books, mind you."
+    priya "Все это строго неофициально, заметьте."
     show priya f_normal
     show player 10
-    player_name "I'm fine with that."
+    player_name "Меня это вполне устраивает."
     show player 5
     show priya f_normal_talk
-    priya "I am not a charitable person by nature, {b}[firstname]{/b}."
+    priya "Я не благотворительный человек по своей природе, {b}[firstname]{/b}."
     show priya a_dressed_point with dissolve
-    priya "However, your unique circumstances would certainly prove useful to my research."
+    priya "Тем не менее, ваши уникальные обстоятельства, безусловно, окажутся полезными для моего исследования."
     show priya f_thinking a_dressed_thinking with dissolve
     priya "..."
     show priya f_normal_talk a_dressed_point with dissolve
-    priya "I'll give you one bottle, for now."
-    priya "Perhaps more, in the future."
+    priya "Сейчас я дам тебе одну бутылочку."
+    priya "Возможно, больше, в будущем."
     show priya f_normal a_dressed_crossed with dissolve
     show player 14
-    player_name "That would be wonderful!"
+    player_name "Это было бы замечательно!"
     show player 13
     show priya f_normal_talk
-    priya "... But only if you agree to return here for testing."
+    priya "... Но только если вы согласитесь вернуться сюда для тестирования."
     show priya f_normal
     show player 14
-    player_name "Not a problem!"
+    player_name "Нет проблем!"
     show player 13
     show priya f_normal_talk a_dressed_point with dissolve
-    priya "... And I want a full accounting of each and everytime you use the pill."
-    priya "Every detail."
+    priya "... И я хочу полный отчет о каждом приеме таблеток."
+    priya "Каждую деталь."
     show priya f_normal a_dressed_crossed with dissolve
     show player 10
-    player_name "Every detail?"
+    player_name "Каждую деталь?"
     show player 5
     show priya f_normal_talk
-    priya "If at any point I'm unsatisfied with your quality of information or test results, the deal ends."
+    priya "Если в какой-то момент я не удовлетворюсь качеством вашей информации или результатами тестирования, сделка заканчивается."
     show priya f_normal
     show player 14
-    player_name "O-okay."
+    player_name "Хорошо."
     show player 13
     show priya f_normal_talk
-    priya "There is something else you must understand, {b}[firstname]{/b}."
-    priya "We're still very early in testing with {b}Pregnax{/b}."
-    priya "{b}You must be cautious about using it{/b}."
-    priya "{b}There may very well be side effects{/b} we aren't aware of yet."
-    priya "Although, in theory it should be relatively safe."
+    priya "Есть еще кое-что, что вы должны понять, {b}[firstname]{/b}."
+    priya "Мы все еще очень рано в испытании с {b}Pregnax{/b}."
+    priya "{b}Вы должны быть осторожны в его использовании{/b}."
+    priya "{b}Вполне могут быть побочные эффекты,{/b} о которых мы еще не знаем."
+    priya "Хотя, теоретически это должно быть относительно безопасно."
     show priya f_normal
     show player 37 with dissolve
-    player_name "{b}Gulp{/b} I... I understand."
+    player_name "{b}глоток{/b} Я... Я понял."
     pause
     show player 13 with dissolve
     show priya f_normal
-    priya "Hmmph."
+    priya "Хммм."
     show priya f_normal_talk
-    priya "Return to me if you run out of pills."
-    priya "I'll be in touch with you about those... tests."
+    priya "Возвращайся ко мне, если закончатся таблетки."
+    priya "Я свяжусь с вами по поводу этих... тестов."
     show priya f_normal
     show player 14
-    player_name "I will and look forward to hearing from you."
-    player_name "Thank you, {b}Doctor Singh{/b}!"
+    player_name "Я буду с нетерпением ждать ответа от вас."
+    player_name "Спасибо, {b}Доктор Сингх{/b}!"
     show player 13
     show priya f_normal_talk
-    priya "It's {b}Priya{/b}."
+    priya "Я {b}Прия{/b}."
     show priya f_normal
     show player 30
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 5
     show priya f_normal_talk
-    priya "My name is {b}Priya{/b}."
-    priya "{b}Priya Singh{/b}."
+    priya "Меня зовут {b}Прия{/b}."
+    priya "{b}Прия Сингх{/b}."
     show priya f_normal
     show player 30
-    player_name "{b}Priya{/b}."
+    player_name "{b}Прия{/b}."
     show player 33
-    player_name "That's a very pretty name!"
+    player_name "Это очень красивое имя!"
     show player 18
     show priya f_rolleyes
-    priya "Yes, yes..."
+    priya "Да, да..."
     show priya f_normal_talk
     priya "Go on, Casanova."
     show priya a_dressed_point with dissolve
-    priya "Get out of my lab."
+    priya "Убирайся из моей лаборатории."
     show priya f_normal
     hide player with dissolve
     pause
     show priya f_facepalm_talk a_dressed_facepalm
-    priya "Grr, what are you thinking {b}Priya{/b}?!"
-    priya "You've completely lost your mind!"
+    priya "Грр, о чем ты думаешь {b}Прия{/b}?!"
+    priya "Ты совсем с ума сошла!"
     show priya f_facepalm
     pause
     show priya f_normal a_dressed_sides with dissolve
     priya "..."
     show priya f_facepalm_talk
-    priya "Oh, please, let him bring me good news..."
+    priya "Пожалуйста, пусть он принесет мне хорошие новости..."
     hide priya with dissolve
 
     scene expression "backgrounds/location_hospital_third_blur.jpg"
     show player 705 with dissolve
-    player_name "( Hmm, the directions say I need to {b}take one pill, orally, prior to engaging in sexual activity{/b}. )"
-    player_name "( {b}Effects will last for 24 hours.{/b} )"
-    player_name "( {b}There's also a warning label, \"Do not use this medication if your partner is currently menstruating or has undergone menopause.\"{/b} )"
+    player_name "( Хм, В инструкции сказано, что мне нужно {b}принять одну таблетку до начала сексуальной активности{/b}. )"
+    player_name "( {b}Влияние будут продолжаться 24 часа.{/b} )"
+    player_name "( {b}Также предупреждающий ярлык, \"Не использует это лекарство если у вашего партнера в настоящее время менструация или менопауза.\"{/b} )"
     hide player with dissolve
     $ player.get_item("fertility_pills")
     $ M_priya.trigger(T_priya_start_testing)
