@@ -6,80 +6,80 @@ label entrance_diane_gave_birth_dialogue_seen:
     show jenny f_grin at flip
     show jenny at Position (xpos=150)
     with dissolve
-    player_name "{b}Diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 14
-    player_name "You guys are finally home?"
+    player_name "Вы наконец-то дома?"
     show player 13
     show diane f_normal_talk
-    dia "Yup, we're home."
+    dia "Да, мы вернулись домой."
     show diane f_normal
     show debbie 2f
     show diane f_down_front
     if M_diane.pregnancy.baby_gender == "boy":
-        deb "Isn't he just the most precious thing ever?!"
+        deb "Разве он не самая драгоценная вещь на свете?!"
         show debbie 1f
         show jenny f_normal_talk
-        jen "I dunno, he kinda looks like a potato..."
+        jen "Не знаю, он похож на картофелину..."
         show jenny f_normal
         show debbie 2f
-        deb "No he doesn't!"
-        deb "He's so handsome!"
+        deb "Нет, это не так!"
+        deb "Он такой красивый!"
         show debbie 1f
         pause
         show debbie 2f
-        deb "Who's a handsome boy, huh?"
+        deb "Кто у нас красивый мальчик, а?"
     else:
-        deb "Isn't she just the most precious thing ever?!"
+        deb "Разве она не самая драгоценная вещь на свете?!"
         show debbie 1f
         show jenny f_normal_talk
-        jen "I dunno, she kinda looks like a potato..."
+        jen "Не знаю, она похожа на картофелину..."
         show jenny f_normal
         show debbie 2f
-        deb "No she doesn't!"
-        deb "She's beautiful!"
+        deb "Нет, это не так!"
+        deb "Она прекрасна!"
         show debbie 1f
         pause
         show debbie 2f
-        deb "Who's a pretty girl, huh?"
+        deb "Кто у нас красивая девочка, а?"
     show debbie 1f
     show diane f_laugh
-    dia "Hehe!"
+    dia "Хехе!"
     show diane f_normal
     show debbie 2f
-    deb "I can't believe you finally have a child, {b}Diane{/b}."
-    deb "I'm so happy for you!"
+    deb "Не могу поверить, что у тебя наконец-то есть ребенок, {b}Диана{/b}."
+    deb "Я так счастлива за тебя!"
     show debbie 1f
     show diane f_normal_talk
-    dia "I know, I didn't think I'd ever get to be a mommy."
+    dia "Я знаю, я не думала, что когда-нибудь стану мамой."
     show diane f_normal
     show debbie 2f
     show diane f_down_front
     if M_diane.pregnancy.baby_gender == "boy":
-        deb "He's so adorable..."
+        deb "Он такой очаровательный..."
         show jenny f_eyeroll
         show debbie 3f
-        deb "I could just gobble him up!"
+        deb "Я могу просто слопать его!"
         show debbie 1f
         show jenny f_normal
         pause
         show diane f_normal_talk
-        dia "I should really get him down for the night."
-        dia "He's had a busy day."
+        dia "Мне действительно нужно уложить его спать."
+        dia "У него был напряженный день."
     else:
-        deb "She's so adorable..."
+        deb "Она такая очаровательная..."
         show jenny f_eyeroll
         show debbie 3f
-        deb "I could just gobble her up!"
+        deb "Я могу просто слопать ее!"
         show debbie 1f
         show jenny f_normal
         pause
         show diane f_normal_talk
-        dia "I should really get her down for the night."
-        dia "She's had a busy day."
+        dia "Мне действительно нужно уложить ее спать."
+        dia "У нее был напряженный день."
     show diane f_down_front
     show debbie 2f
-    deb "Aww, okay..."
-    deb "Bye bye, little one."
+    deb "Ау, хорошо..."
+    deb "Пока пока, малыш."
     show debbie 1f
     pause
     show debbie 1 at right
@@ -88,52 +88,52 @@ label entrance_diane_gave_birth_dialogue_seen:
     with dissolve
     pause
     show debbie 3
-    deb "Oh, I just love babies!"
+    deb "О, я просто обожаю детей!"
     show debbie 1
     show jenny f_eyeroll
-    jen "Ugh, whatever."
+    jen "Уф, неважно."
     show jenny f_upset_talk
-    jen "If that thing is up all night screaming, I will absolutely lose my shit!"
+    jen "Если эта штука всю ночь будет кричать, Я просто сорвусь!"
     show jenny f_upset
     show debbie 13
-    deb "{b}*Sigh*{/b}, {b}[jen_name]{/b}..."
-    deb "Don't be like that, dear."
+    deb "{b}*вздыхая*{/b}, {b}[jen_name]{/b}..."
+    deb "Не будь такой, дорогая."
     show debbie 14b
     show jenny f_normal_talk
-    jen "I'm just saying, I need my eight hours or I get cranky."
+    jen "Я просто говорю, что мне нужны мои восемь часов для сна или я разозлюсь."
     show jenny f_normal
     show player 12
-    player_name "You're always cranky..."
+    player_name "Ты всегда капризничаешь..."
     show player 13 with None
     show jenny f_upset_talk at unflip
     show jenny at Position (xpos=-200)
     with dissolve
-    jen "What did you say?!"
+    jen "Что ты сказал?!"
     show jenny f_gross
     show player 10
-    player_name "N-nothing."
+    player_name "Ничего."
     show player 5
     pause
     show jenny f_upset_talk
-    jen "Uh huh."
+    jen "Угу."
     show jenny f_upset
     pause
     show jenny f_upset_talk
-    jen "You better watch your mouth."
-    jen "I know where you sleep."
+    jen "Лучше следи за своим языком."
+    jen "Я знаю, где ты спишь."
     hide jenny with dissolve
     pause
     show player 12
-    player_name "She's such a ray of sunshine..."
+    player_name "Она как солнечный лучик..."
     show player 13
     show debbie 3
-    deb "Hehehe!"
+    deb "Хехехе!"
     show debbie 2
-    deb "Oh, don't mind her."
-    deb "She likes babies too, she just doesn't want to admit it."
+    deb "Не обращайте на нее внимания."
+    deb "Она тоже любит детей, просто не хочет этого признавать."
     show debbie 1
     show player 12
-    player_name "If you say so."
+    player_name "Как скажешь."
     hide player
     hide debbie
     hide diane
@@ -145,12 +145,12 @@ label entrance_diane_peeking:
     show player 34 with dissolve
     pause
     show player 35
-    player_name "Hmm, it sure is quiet in here tonight..."
+    player_name "Хм, сегодня здесь тихо ..."
     show player 10
-    player_name "I wonder what {b}[deb_name]{/b} and {b}Diane{/b} are doing."
+    player_name "Интересно, что {b}[deb_name]{/b} и {b}Даина{/b} делают."
     show player 14
-    player_name "{b}They're usually in the living room{/b} watching tv and having girl talk."
-    player_name "{b}I should check on them.{/b}"
+    player_name "{b}Они обычно в гостиной{/b} смотрят телевизор и болтают."
+    player_name "{b}Я должен проверить их.{/b}"
     hide player with dissolve
     return
 
@@ -159,81 +159,81 @@ label entrance_diane_couch_crashing:
     show player 13 at left
     show diane b_casual a_casual_bag f_laugh zorder 1 at Position (xpos=625)
     with dissolve
-    dia "Honey, we're home!"
-    dia "Haha!"
+    dia "Дорогая, мы вернулись домой!"
+    dia "Хаха!"
     show player 17
-    player_name "Haha!"
+    player_name "Хаха!"
     show diane f_normal
     show debbie 2f zorder 0 with dissolve
-    deb "What in the heck is going-"
+    deb "Что, черт возьми, происходит-"
     show debbie 3f
     show player 13
-    deb "{b}*Gasp*{/b} You're here!"
+    deb "{b}*вздох*{/b} Ты здесь!"
     show debbie 2f
     show diane f_normal_talk
-    dia "I'm here!"
+    dia "Я здесь!!"
     show diane f_normal_talk a_casual_bag_point with dissolve
-    dia "Are we starting with a pajama party?"
+    dia "Мы начинаем с пижамной вечеринки?"
     show diane f_normal a_casual_bag
     show debbie 222f
     with dissolve
-    deb "Huh?"
+    deb "Ааа?"
     pause
     show debbie 3f with dissolve
-    deb "Oh, shuddup."
+    deb "О, да ладно."
     show debbie 1f
     show diane f_normal_talk
-    dia "I'm serious, I brought my nightgown and everything!"
+    dia "Я серьезно, я принесла свою ночную рубашку и все такое!"
     show diane f_normal
     show debbie 2f
-    deb "Are you hungry?"
+    deb "Ты голодная?"
     show debbie 1f
     show diane f_normal_talk
-    dia "Oh, room service and everything."
+    dia "О, обслуживание номеров и все такое."
     show diane f_smirk_talk
-    dia "You didn't tell me it was gonna be so fancy..."
+    dia "Ты не говорила мне, что это будет так чудно..."
     show diane f_smirk
     show debbie 2f
-    deb "Just get in here and I'll help you unpack."
+    deb "Просто иди сюда, Я помогу тебе распаковать вещи."
     show debbie 1f
     show diane f_laugh
-    dia "Yes, ma'am."
+    dia "Да, мэм."
     show diane f_normal_talk
-    dia "You wanna join us, {b}[firstname]{/b}?"
+    dia "Ты хочешь присоединиться к нам, {b}[firstname]{/b}?"
     show debbie 1 with dissolve
     show diane f_normal
     show player 55 with dissolve
-    player_name "{b}*Yawn*{/b}"
+    player_name "{b}*зевая*{/b}"
     show player 26 with dissolve
-    player_name "... Sure!"
+    player_name "... Конечно!"
     show player 25
     show debbie 2
-    deb "Oh sweetie, you look exhausted!"
-    deb "Why don't you just head on to bed and let {b}Diane{/b} and I spend some time together."
+    deb "Милый, ты выглядишь уставшей!"
+    deb "Почему бы тебе просто не пойти в кровать и позволить нам с {b}Дианой{/b} провести некоторое время вместе."
     show diane f_wink
     show debbie 1f with dissolve
     pause
     show diane f_smirk_talk
-    dia "Mmm, time together, huh?"
+    dia "Ммм, время вместе, хух?"
     show diane f_smirk
     show debbie 3f
-    deb "Oh, hush!"
+    deb "О, тише!"
     show diane f_laugh
-    dia "Haha."
+    dia "Хаха."
     show diane f_normal
     show debbie 1 with dissolve
     show player 26
-    player_name "Yeah, okay."
-    player_name "I am pretty tired."
+    player_name "Да, хорошо."
+    player_name "Я довольно сильно устал."
     show player 25
     show diane f_smirk_talk
-    dia "I guess it's just you and me then, beautiful."
+    dia "Думаю, тогда остались только ты и я, красавица."
     show diane f_smirk
     show debbie 3f with dissolve
-    deb "Hehe, stop it!"
+    deb "Хе-хе, прекрати!"
     show debbie 1f
     show diane f_smirk_talk
-    dia "Good night, {b}[firstname]{/b}."
+    dia "Спокойной ночи, {b}[firstname]{/b}."
     show player 55
     hide debbie
     hide diane
@@ -247,57 +247,57 @@ label entrance_diane_debbie_drop_off_request:
     show player 13 at left
     show debbie 221 at right
     with dissolve
-    deb "Hold on, {b}[firstname]{/b}."
+    deb "Подожди, {b}[firstname]{/b}."
     show debbie 220
     show player 14
-    player_name "Hey, {b}[deb_name]{/b}."
-    player_name "What's up?"
+    player_name "Привет, {b}[deb_name]{/b}."
+    player_name "Что случилось?"
     show player 13
     show debbie 221
-    deb "Did you do any work for {b}Diane{/b} today?"
+    deb "Ты сегодня работал у {b}Дианы{/b}?"
     show debbie 220
     show player 14
-    player_name "Yeah, I was over there earlier."
+    player_name "Да, я уже был там."
     show player 13
     show debbie 221
-    deb "Is she doing alright?"
+    deb "С ней все в порядке?"
     show debbie 220
     show player 5
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 10
-    player_name "Yeah, I guess..."
+    player_name "Да, наверное..."
     show player 5
     show debbie 221
-    deb "... Cause I just got off the phone with her and she sounds exhausted."
+    deb "... Потому что я только что говорила с ней по телефону, и она кажется измученной."
     show debbie 220
     show player 10
-    player_name "Well, she is working herself really hard with that new business of hers."
-    player_name "I told her to slow down but you know how passionate she is about it."
+    player_name "Ну, она очень усердно работает над своим новым бизнесом."
+    player_name "Я сказал ей притормозить, но ты же знаешь, как она страстно к этому относится."
     show player 5
     show debbie 221
-    deb "Yeah, she has a tendency to throw herself into her work and disregard her needs."
-    deb "It worries me."
-    deb "Would you mind heading back over there?"
+    deb "Да, у нее есть склонность бросаться на работу и игнорировать свои потребности."
+    deb "Это меня беспокоит."
+    deb "Мог бы ты вернуться туда?"
     show debbie 220
     show player 10
-    player_name "Tonight?"
+    player_name "Сегодня вечером?"
     show player 5
     show debbie 221
-    deb "Yeah, I want you to take her this pie I made today and make sure she eats it!"
-    deb "She probably hasn't eaten a thing all day."
+    deb "Да, я хочу, чтобы ты взял пирог, который я сегодня испекла, и убедился, что она его съест!"
+    deb "Она, наверное, ничего не ела весь день."
     show debbie 220
     show player 14
-    player_name "Yeah, I can do that."
+    player_name "Да, я могу это сделать."
     show player 13
     show debbie 221
-    deb "I would really appreciate it."
+    deb "Я была бы очень признательна."
     show debbie 2
     show player 673
     with dissolve
-    deb "Tell her she had better get a solid eight hours sleep too or it'll be me visiting her next!"
+    deb "Скажи ей, что ей тоже лучше поспать восемь часов, иначе я приду к ней в гости!"
     show debbie 1
     show player 674
-    player_name "Heh, alright."
+    player_name "Хех, хорошо."
     hide debbie
     hide player
     with dissolve
