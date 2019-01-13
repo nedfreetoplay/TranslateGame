@@ -10,16 +10,16 @@ label diane_bedroom_diane_delivery_2_done:
     $ player.go_to(L_diane_bedroom)
     if M_diane.is_state(S_diane_delivery_2_done):
         scene expression "backgrounds/location_diane_bedroom_bed02.jpg"
-        player_name "( Wow, she really was tired! )"
-        player_name "( She didn't even change into her pajamas... )"
+        player_name "( Вау, она действительно устала! )"
+        player_name "( Она даже не переоделась в пижаму... )"
         pause
         player_name "( ... )"
-        player_name "( I guess I'll just leave the money on her nightstand with a note about the additional order. )"
+        player_name "( Я думаю, я просто оставлю деньги на тумбочке с запиской о дополнительном заказе. )"
         $ M_diane.trigger(T_diane_delivery_2_finished)
     else:
         scene expression "backgrounds/location_diane_bedroom_bed02.jpg"
-        player_name "( I always seem to get more than I bargained for at {b}Diane's{/b} house. )"
+        player_name "( Кажется, я всегда получаю больше, чем рассчитывал в доме {b}Дианы{/b}. )"
         pause
-        player_name "( I should leave before I have another incident... )"
+        player_name "( Я должен уйти до того, как у меня будет еще один инцидент... )"
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
