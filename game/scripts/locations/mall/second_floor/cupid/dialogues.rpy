@@ -1,11 +1,11 @@
 label cupid_daisy_get_new_flowers:
     scene expression player.location.background_blur
     show player 11 with dissolve
-    player_name "( Whoa. )"
-    player_name "( I wasn't expecting such a huge selection of flowers... )"
+    player_name "( Вау. )"
+    player_name "( Я не ожидал такого огромного выбора цветов... )"
     pause
     show player 13
-    player_name "( I should see if they have any {b}Sunflowers{/b} for {b}Daisy{/b}. )"
+    player_name "( Я должен увидеть, есть у них {b}подсолнухи{/b} для {b}Дейзи{/b}. )"
     hide player with dissolve
     return
 
