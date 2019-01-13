@@ -3,68 +3,68 @@ label principals_office_delivery_invoice:
     show ronda chair at Position (xoffset=-320,yoffset=-55)
     show principal 22_23f at Position(xpos = 600, ypos = 764)
     player_name "!!!" with hpunch
-    player_name "What the f-"
+    player_name "Что за-"
     show principal 25f
-    smi "What is the meaning of this?!"
+    smi "Что все это значит?!"
     show principal 24f
-    ann "I'm so sorry, ma'am!"
+    ann "Мне очень жаль, мэм!"
     scene expression game.timer.image("office{}")
     show annie 3f at Position (xpos=375)
     show player 168b at left
     show titty 1f at right
     show principal 26 at Position (xpos=614)
     with dissolve
-    ann "I didn't realize-"
+    ann "Я не понимю-"
     show annie 9f
     show principal 27
-    smi "You know better than to interrupt me when I'm disciplining miscreants!"
+    smi "Ты знаешь, что лучше не перебивать меня, когда я наказываю негодяев!"
     show principal 26
-    ron "I didn't do anything wrong!"
+    ron "Я не сделала ничего плохого!"
     show principal 2
-    smi "SILENCE!"
+    smi "ТИШИНА!"
     show principal 1
     ann "..."
     show principal 28 at Position (xoffset=-54) with dissolve
-    smi "What is that {b}[firstname]'s{/b} carrying?"
+    smi "Что принес {b}[firstname]{/b}?"
     show principal 26 with dissolve
     show annie 1f
     show player 168c
-    player_name "{b}*Gulp*{/b} It's uhh, milk... ma'am."
-    player_name "For the cafeteria."
+    player_name "{b}*глоток*{/b} Это эээ, молоко... мэм."
+    player_name "Для столовой."
     show player 168b
     show annie 9f
     show principal 27
-    smi "Oh right, the delivery that I ordered."
-    smi "What's it doing in my office?!"
+    smi "Точно, доставка, которую я заказала."
+    smi "Что ты делаешь в моем кабинете?!"
     show principal 26
     show player 168c
-    player_name "{b}Annie{/b} said-"
+    player_name "{b}Энни{/b} сказала-"
     show player 168b
     show principal 27
-    smi "I don't care what {b}Annie{/b} said!"
+    smi "Мне все равно, что сказала {b}Энни{/b}!"
     show annie 6f
-    smi "Take that downstairs to the cafeteria, immediately!"
+    smi "Отнеси это вниз в кафетерий, немедленно!"
     show principal 26
     show player 168c
-    player_name "{b}*Sigh*{/b} Down the stairs?"
+    player_name "{b}*вздыхая*{/b} Вниз по лестнице?"
     show player 168b
     show principal 27
-    smi "... Problem?"
+    smi "... Проблемы?"
     show principal 26
     show player 168c
-    player_name "I... Sorry, it's just really heavy and I've already carried it all the way up here..."
+    player_name "Я... Извините, она очень тяжелая и я уже пронес ее всю дорогу сюда..."
     show player 168b
     show principal 27
-    smi "Ugh..."
+    smi "Эээ..."
     show principal 28 at Position (xoffset=-54) with dissolve
-    smi "Just {b}untie Ronda{/b} and she'll help you carry it down."
+    smi "Просто {b}развяжи Ронду{/b}, и она поможет тебе отнести коробку вниз."
     show principal 26 with dissolve
-    ron "What?! Why do I have to-"
+    ron "Что?! Почему я должна-"
     show principal 27
-    smi "It's good enough punishment for her and I'm sick of listening to her mouth!"
+    smi "Это достаточно хорошее наказание для нее, и мне надоело слушать ее!"
     show principal 26
     show player 168c
-    player_name "O-okay."
+    player_name "Хорошо."
     hide titty
     hide principal
     hide player
