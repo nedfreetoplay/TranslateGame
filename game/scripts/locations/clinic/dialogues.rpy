@@ -7,33 +7,33 @@ label hospital_jizz_checkup:
     show player 13f at right
     show diane b_casual a_casual_sides f_normal_talk at Position (xpos=400)
     with dissolve
-    dia "H-hello."
+    dia "Здрасьте."
     show diane f_normal
     show roz 2
-    roz "Yeah?"
+    roz "Да?"
     show roz 1
     show diane f_normal_talk
-    dia "I have an appointment for a check up."
+    dia "У меня назначена проверка."
     show diane f_normal
     show roz 11b at Position (xoffset=-40) with dissolve
-    roz "Hmm."
+    roz "Хмм."
     pause
     show roz 2 with dissolve
-    roz "{b}Diane{/b}?"
+    roz "{b}Диана{/b}?"
     show roz 1
     show diane f_normal_talk
-    dia "That's right."
+    dia "Верно."
     show diane f_normal
     show roz 2
-    roz "Go on up to the second floor exam room and change into a gown."
-    roz "The nurse will be up to see you momentarily."
+    roz "Поднимитесь в смотровую на втором этаже и переоденьтесь в халат."
+    roz "Медсестра сейчас придет к вам."
     show roz 1
     show diane f_normal_talk
-    dia "O-okay."
+    dia "Хорошо."
     show diane at flip
     show diane at Position (xpos=850)
     with dissolve
-    dia "C'mon, {b}[firstname]{/b}."
+    dia "Пойдем, {b}[firstname]{/b}."
     hide player
     hide diane
     with dissolve
@@ -44,82 +44,82 @@ label hospital_diane_seen_in_labor:
     show diane a_gown_bed_baby b_gown_bed f_gurney_normal_talk at Position (xpos=578,ypos=850)
     show player 5 at left
     with dissolve
-    dia "There he is!"
+    dia "Вот он где!"
     show diane f_gurney_normal
     pause
     show diane f_gurney_teasing_look
-    dia "There's your daddy!"
+    dia "А вот и твой папочка!"
     show diane f_gurney_down_front
     show player 3 with dissolve
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*глоток*{/b}"
     show diane f_gurney_normal_talk
-    dia "Come on, handsome."
+    dia "Давай же, красавчик."
     if M_diane.pregnancy.baby_gender == "boy":
-        dia "I want you to meet {b}your new son{/b}."
+        dia "Я хочу познакомить тебя с {b}твоим новым сыном{/b}."
         show diane f_gurney_down_front
         show player 10 with dissolve
-        player_name "{b}M-my son{/b}?"
+        player_name "{b}М-моим сыном{/b}?"
     else:
-        dia "I want you to meet {b}your new daughter{/b}."
+        dia "Я хочу познакомить тебя с {b}твоей новой дочерью{/b}."
         show diane f_gurney_down_front
         show player 10 with dissolve
-        player_name "{b}M-my daughter{/b}?"
+        player_name "{b}М-моей дочерью{/b}?"
     show player 13
-    dia "Mmhmmm."
+    dia "Ммммм."
     show player 426 at center with dissolve
     pause
     show player 14
-    player_name "Wow..."
+    player_name "Вау..."
     if M_diane.pregnancy.baby_gender == "boy":
-        player_name "... He's so cute!"
+        player_name "... Он такой милый!"
     else:
-        player_name "... She's so beautiful!"
+        player_name "... Она такая красивая!"
     show player 426
     show diane f_gurney_laugh
-    dia "Hehe, yup."
+    dia "Хехе, ага."
     if M_diane.pregnancy.baby_gender == "boy":
-        dia "Just like his daddy."
+        dia "Прямо как его папочка."
         show diane f_gurney_cheese
         if M_diane.pregnancy.number_of_babies == 1:
             show player 17
-            player_name "I can't believe I actually have a son!"
+            player_name "Я не могу поверить, что у меня есть сын!"
     else:
-        dia "Just like his mommy."
+        dia "Прямо как ее мамочка."
         show diane f_gurney_cheese
         if M_diane.pregnancy.number_of_babies == 1:
             show player 17
-            player_name "I can't believe I actually have a daughter!"
+            player_name "Я не могу поверить, что у меня есть дочь!"
     if M_diane.pregnancy.number_of_babies == 1:
         show player 18
         show diane f_gurney_teasing_look
-        dia "I know, me neither."
+        dia "Я знаю, я тоже."
         show player 426
-        dia "I never thought I'd have a child..."
+        dia "Я никогда не думала, что у меня будет ребенок..."
     show diane f_gurney_down_front
     pause
     show player 14
-    player_name "So when are you two coming home?"
+    player_name "Так когда вы двое возвращаетесь домой?"
     show player 13
     show diane f_gurney_normal_talk
-    dia "Oh, they wanna keep us here for couple more days."
-    dia "We'll be home soon though."
+    dia "Они хотят оставить нас здесь еще на пару дней."
+    dia "Но мы скоро вернемся домой."
     show diane f_gurney_normal
     pause
     show diane f_gurney_normal_talk
-    dia "Make sure my garden doesn't wilt away!"
+    dia "Убедитесь, что мой сад не завянет!"
     show diane f_gurney_normal
     show player 14
-    player_name "Don't worry, I'll take care of everything."
+    player_name "Не волнуйся, я обо всем позабочусь."
     show player 13
     show diane f_gurney_normal_talk
-    dia "Thanks, {b}[firstname]{/b}."
+    dia "Спасибо, {b}[firstname]{/b}."
     show diane f_gurney_laugh
-    dia "Say bye to Daddy!"
+    dia "Попрощайся с папочкой!"
     show diane f_gurney_cheese
     pause
     show player 429
     show diane f_gurney_normal
-    player_name "I'll see you soon, little one."
+    player_name "Скоро увидимся, малыш."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
