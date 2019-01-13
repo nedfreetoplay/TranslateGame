@@ -231,116 +231,116 @@ label jerking_off_dialogue:
 label diane_masturbatory_fantasy_d17:
     call expression game.dialog_select("bedroom_sleeping_jerk_off_diane")
     pause
-    player_name "Mmm, {b}Diane{/b}!"
+    player_name "Ммм, {b}Диана{/b}!"
     scene expression "backgrounds/location_home_hallway_night_blur.jpg"
     show diane b_nightgown a_nightgown_sides f_scared
     with dissolve
     dia "( ... )"
-    dia "( Oh, what am I doing? )"
+    dia "( Ох, что я делаю? )"
     pause
-    dia "( Am I really considering this?! )"
+    dia "( Я действительно обдумываю это?! )"
     pause
-    player_name "Mmm, {b}Diane{/b}!"
+    player_name "Ммм, {b}Диана{/b}!"
     show diane f_surprised
     dia "( !!! )" with hpunch
     dia "( {b}[firstname]{/b}? )"
     scene expression "backgrounds/location_home_bedroom_cutscene11.jpg" with fade
-    dia "( Is he- )"
+    dia "( Он- )"
     pause
     dia "( !!! )"
     pause
-    dia "( Oh my goodness... )"
+    dia "( О, боже мой... )"
     pause
-    dia "( It's so big! )"
+    dia "( Он такой большой! )"
     pause
-    player_name "Haah, here it comes!"
+    player_name "Ха, вот и оно!"
     scene expression "backgrounds/location_home_bedroom_cutscene11b.jpg" with fade
     pause
-    player_name "HNNGGG!!!"
+    player_name "ХННГГГГ!!!"
     dia "( !!! )" with hpunch
     pause
-    dia "( Look at all that cum! )"
+    dia "( Посмотри на всю эту сперму! )"
     pause
-    player_name "Ahh, {b}Diane{/b}!"
+    player_name "Ааа, {b}Диана{/b}!"
     pause
     scene expression "backgrounds/location_home_bedroom_cutscene12.jpg" with fade
-    dia "( All of that... Was for me? )"
+    dia "( Все это... Для меня? )"
     pause
-    player_name "Haah... Haah..."
+    player_name "Аааа... Аааа..."
     scene black with fade
     dia "{b}[firstname]{/b}?"
     scene expression "backgrounds/location_home_bedroom_sex03.jpg"
     show player afterjerk 1
     show diane b_nightgown a_nightgown_sides f_smirk
     player_name "!!!" with hpunch
-    player_name "{b}Diane{/b}?"
-    player_name "What are you-"
+    player_name "{b}Диана{/b}?"
+    player_name "Что ты-"
     show player afterjerk 2
     show diane f_reading_intrigued
-    dia "Shh."
+    dia "Шшш."
     show diane b_nightgown_sit a_empty f_sit_bed_smirk_talk_fardown with dissolve
-    dia "I had no idea you-"
+    dia "Я понятия не имела, что ты-"
     show diane f_jerk_bed_smirk_fardown b_nightgown_sit_stroke1
     pause
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke2
-    dia "T-there's so much..."
+    dia "Так много всего..."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Y-yeah."
+    player_name "Да."
     show diane f_empty b_nightgown_sit_kiss
     player_name "!!!" with hpunch
     show player afterjerk 3
     pause
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke
-    dia "Mmm, I think I want to do this {b}[firstname]{/b}..."
-    dia "I want you to breed me."
+    dia "Ммм, Я думаю, что хочу сделать это {b}[firstname]{/b}..."
+    dia "Я хочу, чтобы ты осеменил меня."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Y-you do?"
+    player_name "Ты хочешь?"
     show player afterjerk 2
-    dia "Mmmhmm!"
+    dia "Мммммм!"
     show player afterjerk 1
-    player_name "What about {b}[deb_name]{/b}?"
+    player_name "Что о {b}[deb_name]{/b}?"
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown
-    dia "When the time comes, I'll speak with her."
-    dia "I'll just have to hope she can forgive me..."
+    dia "Когда придет время, я поговорю с ней."
+    dia "Мне остается только надеяться, что она простит меня..."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "I think she'll understand, {b}Diane{/b}."
+    player_name "Думаю, она поймет, {b}Диана{/b}."
     show player afterjerk 3
     show diane f_empty b_nightgown_sit_kiss
     with dissolve
-    dia "Mmm."
+    dia "Ммм."
     pause
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke
     with dissolve
-    dia "Oh, I want you inside me so bad!"
-    dia "... But not yet!"
+    dia "О, я так сильно хочу тебя внутри себя!"
+    dia "... Но не сейчас!"
     show diane f_jerk_bed_smirk_fardown
-    player_name "Hmm?"
+    player_name "Хмм?"
     show diane f_jerk_bed_smirk_talk_fardown
-    dia "I want our first time to be special."
-    dia "Come see me tomorrow at the barn."
+    dia "Я хочу, чтобы наш первый раз был особенным."
+    dia "Приходи ко мне завтра в амбар."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "O-okay."
+    player_name "Хорошо."
     show player afterjerk 3
     show diane f_empty b_nightgown_sit_kiss
     with dissolve
     pause
     show diane f_sit_bed_smirk_talk_fardown b_nightgown_sit
     show player afterjerk 2
-    dia "Goodnight, stud."
+    dia "Спокойной ночи, жеребец."
     show diane f_sit_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Goodnight, {b}Diane{/b}..."
+    player_name "Спокойной ночи, {b}Диана{/b}..."
     hide diane with dissolve
     pause
     show player afterjerk 1
-    player_name "( Yeah, like I'm really gonna be able to sleep after that... )"
+    player_name "( Да, как будто я действительно смогу спать после этого... )"
     hide player with dissolve
     $ M_diane.trigger(T_diane_learns_your_secret)
     $ game.timer.tick()
