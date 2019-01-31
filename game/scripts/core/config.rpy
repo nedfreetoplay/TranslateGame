@@ -23,8 +23,8 @@ init -1 python:
     config.image_cache_size = 64
     config.keymap = dict(
 
-        
-        
+
+
         rollback = [ 'K_PAGEUP', 'repeat_K_PAGEUP', 'K_AC_BACK' ],
         screenshot = [ 'alt_K_s', 'alt_shift_K_s' ],
         toggle_afm = [ ],
@@ -43,32 +43,32 @@ init -1 python:
         choose_renderer = [ 'G', 'alt_shift_K_g' ],
         progress_screen = [ 'alt_shift_K_p', 'meta_shift_K_p', 'K_F2' ],
 
-        
+
         self_voicing = [ ],
         clipboard_voicing = [ ],
         debug_voicing = [ ],
 
-        
+
         rollforward = [ 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ],
         dismiss = [ 'mouseup_1', 'K_RETURN', 'K_SPACE', 'K_KP_ENTER', 'K_SELECT' ],
         dismiss_unfocused = [ ],
 
-        
+
         dismiss_hard_pause = [ ],
 
-        
+
         focus_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
         focus_right = [ 'K_RIGHT', 'repeat_K_RIGHT' ],
         focus_up = [ 'K_UP', 'repeat_K_UP' ],
         focus_down = [ 'K_DOWN', 'repeat_K_DOWN' ],
 
-        
+
         button_ignore = [ 'mousedown_1' ],
         button_select = [ 'mouseup_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         button_alternate = [ 'mouseup_3' ],
         button_alternate_ignore = [ 'mousedown_3' ],
 
-        
+
         input_backspace = [ 'K_BACKSPACE', 'repeat_K_BACKSPACE' ],
         input_enter = [ 'K_RETURN', 'K_KP_ENTER' ],
         input_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
@@ -79,7 +79,7 @@ init -1 python:
         input_home = [ 'K_HOME' ],
         input_end = [ 'K_END' ],
 
-        
+
         viewport_leftarrow = [ 'K_LEFT', 'repeat_K_LEFT' ],
         viewport_rightarrow = [ 'K_RIGHT', 'repeat_K_RIGHT' ],
         viewport_uparrow = [ 'K_UP', 'repeat_K_UP' ],
@@ -91,13 +91,13 @@ init -1 python:
         viewport_pageup = [  'K_PAGEUP', 'repeat_K_PAGEUP' ],
         viewport_pagedown = [  'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ],
 
-        
+
         skip = [ 'K_LCTRL', 'K_RCTRL' ],
         stop_skipping = [ ],
         toggle_skip = [ 'K_TAB' ],
         fast_skip = [ '>' ],
 
-        
+
         bar_activate = [ 'mousedown_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         bar_deactivate = [ 'mouseup_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         bar_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
@@ -105,27 +105,27 @@ init -1 python:
         bar_up = [ 'K_UP', 'repeat_K_UP' ],
         bar_down = [ 'K_DOWN', 'repeat_K_DOWN' ],
 
-        
+
         save_delete = [ 'K_DELETE' ],
 
-        
+
         drag_activate = [ 'mousedown_1' ],
         drag_deactivate = [ 'mouseup_1' ],
 
-        
+
         console = [ 'shift_O', 'alt_shift_K_o' ],
         console_older = [ 'K_UP', 'repeat_K_UP' ],
         console_newer = [ 'K_DOWN', 'repeat_K_DOWN'],
 
-        
+
         director = [ ],
 
-        
+
         toggle_music = [ 'm' ],
         viewport_up = [ 'mousedown_4' ],
         viewport_down = [ 'mousedown_5' ],
 
-        
+
         performance = [ 'K_F3' ],
         image_load_log = [ 'K_F4' ],
         profile_once = [ 'K_F8' ],
@@ -145,9 +145,9 @@ init -1 python:
 
     config.has_autosave = False
 
-    config.auto_save_extra_info = "[persistent.firstname] - Day [persistent.last_game_day]"
+    config.auto_save_extra_info = "[persistent.firstname] - День [persistent.last_game_day]"
 
-    config.developer = "auto"
+    config.developer = True
     config.console = config.developer or renpy.variant("mobile")
     config.rollback_enabled = True
     config.screen_width = 1024
@@ -199,7 +199,7 @@ init python:
             a = 1103515245
             c = 12345
             m = 2**31-1
-            for i in xrange(0,4096,4): 
+            for i in xrange(0,4096,4):
                 seed = (a*seed+c) % m
                 self._pattern[i] = seed & 0xff
                 self._pattern[i+1] = (seed >>8) & 0xff
@@ -254,12 +254,12 @@ init python:
             base_name = os.path.join(config.basedir,'game','hide')
         else:
             base_name = os.path.join(config.basedir,'game','hide',dir_name)
-        
-        
+
+
         for f in os.listdir(base_name):
             if os.path.isfile(os.path.join(base_name,f)):
                 create_extras(""+dir_name+"/"+f)
-            else: 
+            else:
                 if dir_name is None:
                     update_extras(f)
                 else:

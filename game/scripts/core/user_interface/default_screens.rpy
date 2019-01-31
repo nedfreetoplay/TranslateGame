@@ -94,7 +94,7 @@ screen name_input:
     add "backgrounds/menu_name.jpg"
     add SnowBlossom(Animation("buttons/leaf01.png", 0.15, "buttons/leaf02.png", 0.15))
     add "backgrounds/menu_name_overlay.png"
-    add Input(size=16, color="#5d9aff", default=firstname, changed=name_func, length=12, xpos= 720, ypos = 392, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+    add Input(size=16, color="#5d9aff", default=firstname, changed=name_func, length=12, xpos= 720, ypos = 392, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ")
     key "K_RETURN" action Start()
     imagebutton:
         idle "buttons/menu_name_back01.png"
@@ -266,7 +266,7 @@ screen main_menu() tag menu:
         hotspot ( 730, 416, 175, 48) action [Hide("main_menu"), ShowMenu("cookie_jar"), Hide("gui_tooltip")] hovered Show("gui_tooltip", my_picture = "buttons/tooltip_06.png", my_tt_xpos=0, my_tt_ypos=0) unhovered Hide("gui_tooltip")
         hotspot ( 730, 485, 175, 48) action [Hide("main_menu"), Function(playSound), Function(playMusic, "<loop 241.5>audio/music_credits.ogg"), ShowMenu("credits"), Hide("gui_tooltip")] hovered Show("gui_tooltip", my_picture = "buttons/tooltip_04.png", my_tt_xpos=0, my_tt_ypos=0) unhovered Hide("gui_tooltip")
         hotspot ( 730, 554, 175, 48) action Quit(confirm = True) hovered Show("gui_tooltip", my_picture = "buttons/tooltip_05.png", my_tt_xpos=0, my_tt_ypos=0) unhovered Hide("gui_tooltip")
-        text "[config.version] changelog" xalign 0.9 yalign 0.85
+        text "[config.version] изменения" xalign 0.9 yalign 0.85
         hotspot (800, 610,175, 48) action [Hide("main_menu"), ShowMenu("changelog"), Hide("gui_tooltip")]
     if renpy.variant("mobile") and persistent.display_android_text:
         side "tl":
@@ -446,8 +446,8 @@ screen set_save_description(file_save, slot) tag save:
         idle "backgrounds/menu_ground.png"
         action If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")
     add "boxes/popup_name_save.png" at truecenter
-    text "{b}Give this save a description:{/b}" xalign 0.5 yalign 0.415
-    add Input(size = 20, color = "#FFFFFF", default = store.save_name, changed = save_description, length = 35, xpos = 300, ypos = 353, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
+    text "{b}Дайте название сохранению:{/b}" xalign 0.5 yalign 0.415
+    add Input(size = 20, color = "#FFFFFF", default = store.save_name, changed = save_description, length = 35, xpos = 300, ypos = 353, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ")
     key "K_RETURN" action [If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")]
     imagebutton idle "buttons/menu_ok.png" hover HoverImage("buttons/menu_ok.png") action [If(slot in FileUsedSlots(), FileDelete(slot), NullAction()), file_save, Hide("set_save_description")] xalign 0.5 yalign 0.57
 
@@ -520,7 +520,7 @@ screen load_save_slot(slot) tag save:
 screen load_save_slot_description(slot) tag save:
     $ file_text = "{}".format(FileSaveName(slot))
     if file_text == "":
-        $ file_text = "No Description"
+        $ file_text = "Без описания"
     if not file_text.endswith("."):
         $ file_text += "."
     text "{b}[file_text]{/b}" xalign 0.5 yalign 0.92
@@ -534,19 +534,19 @@ screen yesno_prompt(message, yes_action, no_action):
     if message in [layout.DELETE_SAVE, layout.OVERWRITE_SAVE]:
         add "backgrounds/menu_confirm.jpg"
         if message == layout.DELETE_SAVE:
-            text "{b}Are you sure you want to delete this save?" xalign 0.5 yalign 0.56
+            text "{b}Вы действительно хотите удалить это сохранение?" xalign 0.5 yalign 0.56
 
         elif message == layout.OVERWRITE_SAVE:
-            text "{b}Are you sure you want to overwrite this save?" xalign 0.5 yalign 0.56
+            text "{b}Вы действительно хотите перезаписать это сохранение?" xalign 0.5 yalign 0.56
 
     elif message == layout.LOADING:
-        text "{b}Are you sure you want to load this save?" xalign 0.5 yalign 0.56
+        text "{b}Вы действительно хотите загрузить это сохранение?" xalign 0.5 yalign 0.56
 
     elif message == layout.QUIT:
-        text "{b}Are you sure you want to quit the game?" xalign 0.5 yalign 0.56
+        text "{b}Вы действительно хотите выйти из игры?" xalign 0.5 yalign 0.56
 
     elif message == layout.MAIN_MENU:
-        text "{b}Are you sure you want to quit to the main menu?" xalign 0.5 yalign 0.56
+        text "{b}Вы действительно хотите выйти из главного меню?" xalign 0.5 yalign 0.56
 
     imagemap:
         ground "menu_ground"
@@ -564,9 +564,10 @@ screen yesno_prompt(message, yes_action, no_action):
         $ persistent.time_spent_playing += (time() - time_spent_playing_start)
         $ time_spent_playing_start = time()
         $ time_spent_playing_string = format_seconds_to_dhm(persistent.time_spent_playing)
-        text "You've spent [time_spent_playing_string] eating cookies..." xalign 0.5 yalign 0.5
+        text "Вы потратили [time_spent_playing_string] времени в игре..." xalign 0.5 yalign 0.5
 
-    text "{a=http://www.patreon.com/summertimesaga}http://www.patreon.com/summertimesaga{/a}" xalign 0.5 yalign 0.855
+    text "{a=http://www.patreon.com/summertimesaga}http://www.patreon.com/summertimesaga{/a}" xalign 0.5 yalign 0.84
+    text "{a=https://vk.com/summertimesagarus}https://vk.com/summertimesagarus{/a}" xalign 0.5 yalign 0.87
     key "game_menu" action no_action
 
 
@@ -656,8 +657,8 @@ screen sex_xray_anim_buttons:
             hover HoverImage("buttons/anim_04.png")
         action [
             If(
-                xray, 
-                SetVariable("xray", False), 
+                xray,
+                SetVariable("xray", False),
                 SetVariable("xray", True)
             )
         ]
