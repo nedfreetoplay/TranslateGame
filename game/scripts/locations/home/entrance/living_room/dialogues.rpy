@@ -200,7 +200,7 @@ label living_room_diane_peeking:
     player_name "... {b}I should rub one out really quick and clear my head.{/b}"
     hide player with dissolve
     return
-	
+
 label living_room_sis_couch_1_progress:
     scene expression L_home_entrance.background
     show player 11 with dissolve
@@ -255,7 +255,7 @@ label mom_movie_night:
             "Секс.":
 
                 call expression game.dialog_select("mom_movie_night_couch_sex")
-                
+
         call expression game.dialog_select("mom_movie_night_couch_sex_after")
         $ renpy.end_replay()
         $ persistent.cookie_jar["Debbie"]["unlocked"] = True
@@ -1288,7 +1288,7 @@ label tv_channel_responses:
     elif tv_channel == 8:
         $ tv_channel = 0
 
-     if tv_channel in range(7) and tv_channel not in game.seen_tv_channels:
+    if tv_channel in range(7) and tv_channel not in game.seen_tv_channels:
         $ renpy.call(game.dialog_select("tv_channel_channel_0{}_first_view".format(tv_channel+1)))
         $ game.seen_tv_channels.append(tv_channel)
 

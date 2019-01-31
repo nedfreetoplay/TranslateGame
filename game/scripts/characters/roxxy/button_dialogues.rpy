@@ -578,9 +578,9 @@ label roxxy_dialogue_deal_confirmation:
     show roxxy 1 at right
     show player 12 at left
     with dissolve
-	player_name "{b}[jen_name]{/b} сказала зайти завтра после школы, и она поможет тебе с твоими делами."
+    player_name "{b}[jen_name]{/b} сказала зайти завтра после школы, и она поможет тебе с твоими делами."
     show player 5
-	show roxxy 3
+    show roxxy 3
     rox "В твоем доме?"
     rox "Угх, надеюсь оно того стоит..."
     show roxxy 1
@@ -2046,7 +2046,7 @@ label button_roxxy_french_whats_up_clyde_relationship_4:
 
 label button_roxxy_meet_me_at_my_locker:
     show player 13
-	show roxxy 1b
+    show roxxy 1b
     rox "{b}Встретимся у твоего шкафчика{/b} через 5 минут..."
     show roxxy 1
     show player 10
@@ -2661,10 +2661,10 @@ label button_roxxy_trailer_bed_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-			if not animated:
+           if not animated:
             show expression AnimatedImage("roxxys_bed", [1,2,3,4,5,6,7,8], M_roxxy) as roxxys_bed at Position(xalign = 0.0, yoffset = -14)
             $ animated = True
-			pause 5
+            pause 5
             call expression game.dialog_select("roxxy_trailer_hscene_dialog")
             pause 3
         else:

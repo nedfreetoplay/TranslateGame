@@ -196,20 +196,17 @@ label sis_camshow_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		if not animated:
-            if current_camshow == 1:
-                show expression AnimatedImage("jennysex", [23,24,25,22], M_jenny) as jennysex zorder 1 at Position(xpos = 543, ypos = 767)
-
-            elif current_camshow == 2:
-                show expression AnimatedImage("jennysex", [28,29,30,31], M_jenny) as jennysex zorder 1 at Position(xpos = 512, ypos = 770)
-
-            elif current_camshow == 3:
-                show expression AnimatedImage("jennysex", [36,37,38,35], M_jenny) as jennysex zorder 1 at Position(xpos = 540, ypos = 582)
-
-            elif current_camshow == 4:
-                show expression AnimatedImage("jennysex", [42,43,44,41], M_jenny) as jennysex zorder 1 at Position(xpos = 427, ypos = 746)
-             $ animated = True
-			pause 8
+            if not animated:
+                if current_camshow == 1:
+                    show expression AnimatedImage("jennysex", [23,24,25,22], M_jenny) as jennysex zorder 1 at Position(xpos = 543, ypos = 767)
+                elif current_camshow == 2:
+                    show expression AnimatedImage("jennysex", [28,29,30,31], M_jenny) as jennysex zorder 1 at Position(xpos = 512, ypos = 770)
+                elif current_camshow == 3:
+                    show expression AnimatedImage("jennysex", [36,37,38,35], M_jenny) as jennysex zorder 1 at Position(xpos = 540, ypos = 582)
+                elif current_camshow == 4:
+                    show expression AnimatedImage("jennysex", [42,43,44,41], M_jenny) as jennysex zorder 1 at Position(xpos = 427, ypos = 746)
+                $ animated = True
+            pause 8
         else:
 
             $ pose_counter = 0
@@ -245,7 +242,7 @@ label sis_camshow_finish:
     $ persistent.cookie_jar["Jenny"]["gallery"]["05_unlocked"] = True
     if current_camshow == 1:
         call expression game.dialog_select("sis_camshow_01_finish")
-		$ M_jenny.trigger(T_jenny_watched_stream)
+        $ M_jenny.trigger(T_jenny_watched_stream)
 
     elif current_camshow == 2:
         call expression game.dialog_select("sis_camshow_02_finish")
@@ -261,7 +258,7 @@ label sis_camshow_finish:
         call expression game.dialog_select("sis_camshow_04_finish")
         $ persistent.cookie_jar["Jenny"]["gallery_labels"]["05_label"] = "webcam_menu_4"
     $ game.timer.tick()
-	$ game.main()
+    $ game.main()
 
 label sis_camshow_01_finish:
     show jennysex 25b

@@ -499,9 +499,7 @@ label button_missy_becca_look_beautiful:
             player_name "Хаха, вы двое несколько иногда..."
             show player 13f
         "Вы обе выглядите одинаково красиво!":
-            
-			
-			show player 17f
+            show player 17f
             player_name "Вы обе выглядите одинаково красиво!"
             show player 13f
             show missy 2

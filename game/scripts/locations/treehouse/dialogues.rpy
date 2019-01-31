@@ -7,7 +7,7 @@ label treehouse_first_visit:
 
 label treehouse_closeup_first_visit:
     scene expression game.timer.image("treehouse_c{}")
-     player_name "( Выглядит не безопасно... )"
+    player_name "( Выглядит не безопасно... )"
     return
 
 label treehouse_interior_first_visit:

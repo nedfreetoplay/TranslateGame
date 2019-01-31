@@ -63,7 +63,7 @@ label bedroom_master_somrak_training:
 
 label bedroom_roxxy_spin_bottle:
     show player 17 with dissolve
-     player_name "{b}Рокси{/b} и девочки хотели, чтобы я сходил на пляж сегодня днём."
+    player_name "{b}Рокси{/b} и девочки хотели, чтобы я сходил на пляж сегодня днём."
     player_name "Мне надо туда!"
     return
 

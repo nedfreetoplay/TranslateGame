@@ -775,7 +775,7 @@ label ivy_reverse_cowgirl_after:
     return
 
 label ivy_reverse_cowgirl_loop:
-     show screen sex_xray_anim_buttons
+    show screen sex_xray_anim_buttons
     pause
     hide screen sex_xray_anim_buttons
     while animcounter < 4:
@@ -899,7 +899,7 @@ label ivy_slap_ass:
     show playersex 22
     show ivysex 20
     $ animated = False
-	jump expression game.dialog_select("ivy_reverse_cowgirl_loop")
+    jump expression game.dialog_select("ivy_reverse_cowgirl_loop")
 
 label ivy_cowgirl:
     call expression game.dialog_select("ivy_cowgirl_pre")

@@ -2,7 +2,7 @@ label waterfall_okita_get_ingredients:
     scene location_forest_waterfall_day_blur
     show player 2
     with dissolve
-   player_name "Ого, это место прекрасно!"
+    player_name "Ого, это место прекрасно!"
     player_name "... и оно идеально подходит для поиска {b}Возбужденной жабы{/b} для Окиты."
     return
 

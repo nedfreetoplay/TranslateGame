@@ -17,7 +17,7 @@ label spin_bottle_minigame_missy:
                 call expression game.dialog_select("spin_bottle_minigame_missy_solo_intro_pre_repeat")
             call expression game.dialog_select("spin_bottle_minigame_missy_solo_intro")
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ M_missy.set("sex speed", .09)
             call expression game.dialog_select("spin_bottle_minigame_missy_solo_intro_after")
             jump expression game.dialog_select("spin_bottle_minigame_missy_solo_loop")

@@ -74,7 +74,7 @@ label trailer_tractor_roxxy_beat_clyde:
     clyde "Это серьезное дело!"
     clyde "Моя собака хочет одного из этих {b}больших чучел Бобров{/b}!"
     clyde "Она особенно {b}любит розовых{/b}."
-	show clyde 5
+    show clyde 5
     show player 10f
     player_name "Ты же в курсе, что это свинья?"
     show player 5f

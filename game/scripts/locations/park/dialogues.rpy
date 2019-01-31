@@ -41,7 +41,7 @@ label park_rap_battle:
                             $ pass
 
                         "Чад." if player.stats.chr() >= 4:
-                             $ rap_opponent = "Чад"
+                            $ rap_opponent = "Чад"
                             call expression game.dialog_select("park_rap_battle_opponent")
                             jump expression game.dialog_select("rapbattle_listing")
 
@@ -60,7 +60,7 @@ label park_rap_battle:
                             pause
                             hide unlock23 with dissolve
             "Я должен идти.":
-			
+
                 call expression game.dialog_select("park_rap_battle_leave")
 
     hide player

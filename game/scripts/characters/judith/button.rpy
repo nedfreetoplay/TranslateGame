@@ -35,7 +35,6 @@ label judith_button_dialogue:
                 elif M_dewitt.is_set("talent helping eve"):
                     call expression game.dialog_select("dewitt_talent_show_helping_eve")
                 else:
-				
                     call expression game.dialog_select("judith_dialogue_talent_show_help")
                     $ M_dewitt.set("talent ask judith", False)
 
@@ -50,8 +49,8 @@ label judith_button_dialogue:
                 call expression game.dialog_select("judith_dialogue_ross_ask_model")
                 $ M_ross.trigger(T_ross_find_model)
             "Уйти.":
-			
-			
+
+
                 if player.location == L_school_lefthallway:
                     call expression game.dialog_select("judith_dialogue_left_hallway_leave")
 

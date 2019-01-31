@@ -145,8 +145,7 @@ label shower_mom_fix_pipe_wrench:
     hide cutscene
     scene black
     with fade
-		
-	scene shower2
+    scene shower2
     show player 203f at right
     show jenny 11f at Position(xpos=0.3649,ypos=1.0000)
     show debbie 62f at left
@@ -490,8 +489,8 @@ label debbie_shower_blowjob_cum_out:
     deb "Мы в душе, так что это легко очистить!"
     deb "... Просто помоги мне избавиться от этого в моих волосах."
     return
-	
-	label shower_mom_sex_already_fingered:
+
+label shower_mom_sex_already_fingered:
     show debbies 49
     player_name "Могу я засунуть его внутрь?"
     show debbies 50
@@ -536,10 +535,10 @@ label mom_shower_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		  if not animated:
-            show expression AnimatedImage("debbies", [59,60,61], M_mom) as debbies at Position(xpos = 688,ypos = 768)
-            $ animated = True
-		  pause 5
+            if not animated:
+                show expression AnimatedImage("debbies", [59,60,61], M_mom) as debbies at Position(xpos = 688,ypos = 768)
+                $ animated = True
+            pause 5
             if animcounter in [1,2,3]:
                 call expression game.dialog_select("debbie_shower_hscene_dialog")
             pause 3
@@ -742,7 +741,7 @@ label shower_sis_sex_intro:
         jump expression game.dialog_select("sis_shower_jump_1")
 
     elif M_jenny.is_state(S_jenny_shower_peep_bed_cuddle_tier_2):
-		$ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
+        $ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
     menu:
         "Ой, Прости!":
             call expression game.dialog_select("shower_sis_sex_intro_sorry")
@@ -851,10 +850,10 @@ label sis_shower_sex:
             call expression game.dialog_select("sis_shower_sex_leave")
 
         "Умолять." if not M_jenny.finished_state(S_jenny_hallway_meetup_focus):
-			call expression game.dialog_select("sis_shower_sex_first_beg_fail")
+            call expression game.dialog_select("sis_shower_sex_first_beg_fail")
 
         "Умолять." if M_jenny.finished_state(S_jenny_hallway_meetup_focus):
-			$ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
             label sis_shower_jump_2:
                 call expression game.dialog_select("sis_shower_sex_first_beg_pass")
             if not store._in_replay == None:
@@ -864,25 +863,25 @@ label sis_shower_sex:
                     call expression game.dialog_select("sis_shower_sex_leave")
 
                 "Умолять." if not M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
-					call expression game.dialog_select("sis_shower_sex_second_beg_fail")
+                    call expression game.dialog_select("sis_shower_sex_second_beg_fail")
 
                 "Умолять." if M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
-					$ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
+                    $ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
                     label sis_shower_jump_3:
                         call expression game.dialog_select("sis_shower_sex_second_beg_pass")
                     if not store._in_replay == None:
                         call expression game.dialog_select("sis_shower_jump_4")
                     menu:
                         "Вставить." if not M_jenny.finished_state(S_jenny_cam_show) or player.stats.dex() < 7:
-							call expression game.dialog_select("sis_shower_sex_put_it_in_fail")
+                            call expression game.dialog_select("sis_shower_sex_put_it_in_fail")
 
                         "Вставить." if M_jenny.finished_state(S_jenny_cam_show) and player.stats.dex() >= 7:
-							$ M_jenny.trigger(T_jenny_peep_cuddle_tier_5)
+                            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_5)
                             label sis_shower_jump_4:
                                 $ M_jenny.set("sex speed", .4)
                                 $ anim_toggle = True
                                 $ animated = False
-								$ xray = False
+                                $ xray = False
                             call expression game.dialog_select("sis_shower_sex_put_it_in_pass")
                             jump expression game.dialog_select("sis_shower_sex_loop")
     hide jenny
@@ -1190,7 +1189,7 @@ label sis_shower_sex_loop:
             pause 5
             if animcounter in [1,3]:
                 call expression game.dialog_select("jenny_shower_hscene_dialog")
-			pause 3
+            pause 3
         else:
 
             $ pose_counter = 0

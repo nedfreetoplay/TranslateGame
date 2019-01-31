@@ -428,9 +428,6 @@ label button_ross_found_model:
     show ross 37f
     show judith 69b
     jud "Х-хорошо..."
-
-	
-	
     scene location_school_art_cutscene07
     with fade
     show text "{b}Мисс Росс{/b} определенно сделала {b}Джудит{/b} более комфортно." at Position (xpos= 512, ypos= 700) with dissolve

@@ -172,9 +172,9 @@ label mom_kitchen_fuck_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-			if not animated:
+           if not animated:
             show expression AnimatedImage("debbies", [164,165,166,167,168], M_mom) as debbies
-			$ animated = True
+            $ animated = True
             pause 4
             if animcounter in [1,3]:
                 call expression game.dialog_select("debbie_kitchen_hscene_dialog")

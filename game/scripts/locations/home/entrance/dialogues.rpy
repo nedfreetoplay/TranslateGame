@@ -1214,7 +1214,7 @@ label entrance_mom_vacuum_yes:
     hide debbie
     with dissolve
     scene expression "backgrounds/location_home_cutscene02.jpg"
-	show expression FilteredText("Я чувствовал себя плохо, {b}[deb_name]{/b} испытывала затруднения при болях в спине.\nСамое малое, что я мог сделать, это помочь ей, даже если я сделаю это в последний раз.\nЛестница была худшей частью! Неудивительно, что её спина причиняет ей боль...\nПо крайней мере, {b}[deb_name]{/b} была со мной, пока я работал.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Я чувствовал себя плохо, {b}[deb_name]{/b} испытывала затруднения при болях в спине.\nСамое малое, что я мог сделать, это помочь ей, даже если я сделаю это в последний раз.\nЛестница была худшей частью! Неудивительно, что её спина причиняет ей боль...\nПо крайней мере, {b}[deb_name]{/b} была со мной, пока я работал.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -1568,5 +1568,4 @@ label entrance_diane_debbie_evening_visit_overhear:
     player_name "( {b}[deb_name]{/b} должно быть, пригласила ее. )"
     player_name "( {b}Интересно, о чем они говорят?{/b} )"
     hide player with dissolve
-    return	
-	# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+    return

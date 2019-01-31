@@ -382,7 +382,7 @@ label mom_pool_dialogue:
         $ M_mom.set("sex flip", True)
         $ M_mom.set("robe on", False)
         $ animated = False
-		$ first_pass = True
+        $ first_pass = True
         $ player.remove_item("towel")
         jump expression game.dialog_select("mom_finger_loop")
     hide player
@@ -399,18 +399,18 @@ label mom_finger_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-           if not animated: 
-			if M_mom.is_set("sex flip"):
-                show expression AnimatedImage("debbie", ["194f","195f","196f"], M_mom) as debbie at left
-                if M_mom.is_set("robe on"):
-                    show expression AnimatedImage("debbie_robe", ["194bf","195bf","196bf"], M_mom) as debbie_robe at left
-            else:
+            if not animated:
+                if M_mom.is_set("sex flip"):
+                    show expression AnimatedImage("debbie", ["194f","195f","196f"], M_mom) as debbie at left
+                    if M_mom.is_set("robe on"):
+                        show expression AnimatedImage("debbie_robe", ["194bf","195bf","196bf"], M_mom) as debbie_robe at left
+                else:
 
-                show expression AnimatedImage("debbie", [194,195,196], M_mom) as debbie at right
-                if M_mom.is_set("robe on"):
-                    show expression AnimatedImage("debbie_robe", ["194b","195b","196b"], M_mom) as debbie_robe at right
+                    show expression AnimatedImage("debbie", [194,195,196], M_mom) as debbie at right
+                    if M_mom.is_set("robe on"):
+                        show expression AnimatedImage("debbie_robe", ["194b","195b","196b"], M_mom) as debbie_robe at right
             $ animated = True
-			pause 4
+            pause 4
             call expression game.dialog_select("debbie_finger_hscene_dialog")
             pause 3
         else:

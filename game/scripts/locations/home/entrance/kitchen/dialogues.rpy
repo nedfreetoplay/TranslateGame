@@ -1588,7 +1588,7 @@ label kitchen_mom_dishes_yes:
     show debbie 61
     player_name "Не за что, {b}[deb_name]{/b}."
     scene expression "backgrounds/location_home_cutscene01.jpg"
-	show expression FilteredText("Не думаю, что {b}[deb_name]{/b} кто-нибудь помогал с посудой раньше... \nОна сказала,что её бывший муж вообще ничего не делал по дому, а мой {b}отец{/b} помогал только в саду, или изредка что-то чинил. \nОна стояла со мной на кухне до тех пор, пока я не разложил всю посуду по местам, а после этого мы мило поговорили. \nБыло приятно узнать {b}[deb_name]{/b} по-лучше...") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Не думаю, что {b}[deb_name]{/b} кто-нибудь помогал с посудой раньше... \nОна сказала,что её бывший муж вообще ничего не делал по дому, а мой {b}отец{/b} помогал только в саду, или изредка что-то чинил. \nОна стояла со мной на кухне до тех пор, пока я не разложил всю посуду по местам, а после этого мы мило поговорили. \nБыло приятно узнать {b}[deb_name]{/b} по-лучше...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -1601,7 +1601,7 @@ label kitchen_mom_dishes_no:
     show debbie 120 at Position(xpos=1014)
     player_name "Окей. Тогда я зайду позже."
     return
-	
+
 label kitchen_diane_debbie_evening_visit:
     scene expression "backgrounds/location_home_kitchen_secret.jpg"
     show diane b_kitchen a_empty
@@ -1944,5 +1944,5 @@ label kitchen_diane_debbie_evening_visit:
     hide player
     hide diane
     with dissolve
-    return	
+    return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

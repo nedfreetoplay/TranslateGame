@@ -28,7 +28,7 @@ label roz_storage_sex:
         call expression game.dialog_select("roz_storage_sex_pre_first")
     call expression game.dialog_select("roz_storage_sex_pre_after")
     $ anim_toggle = True
-	$ animated = False
+    $ animated = False
     jump expression game.dialog_select("roz_storage_sex_loop")
 
 label roz_storage_sex_pre_repeat:
@@ -232,10 +232,10 @@ label roz_storage_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		if not animated:
+           if not animated:
             show expression AnimatedImage("rozs", [1,2,3,4,5,6,7], M_roz) as rozs at right
             $ animated = True
-			pause 5
+            pause 5
             call expression game.dialog_select("roz_storage_hscene_dialog")
             pause 3
         else:

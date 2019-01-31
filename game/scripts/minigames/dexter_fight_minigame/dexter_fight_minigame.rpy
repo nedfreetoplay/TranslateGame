@@ -187,7 +187,7 @@ label dexter_fight_minigame_prepare:
     dex "Я сказал Съебались нахуй." with hpunch
     show dexter 12c
     show missy 4c with dissolve
-	show becca 19
+    show becca 19
     show erik 53f at Position (xpos=500) with dissolve
     show roxxy 2bf
     show missy 3 with dissolve

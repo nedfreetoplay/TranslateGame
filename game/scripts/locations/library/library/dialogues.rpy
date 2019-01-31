@@ -17,7 +17,7 @@ label library_jane_intro:
 
             call expression game.dialog_select("library_jane_intro_not_yet")
             $ player.go_to(L_map)
-			$ game.main()
+            $ game.main()
 
     hide player
     hide jane

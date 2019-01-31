@@ -1,7 +1,7 @@
 label mrsj_triggers_init:
     python:
 
-       T_mrsj_intro = Trigger("intro", "Милф следующая дверь" )
+        T_mrsj_intro = Trigger("intro", "Милф следующая дверь" )
         T_mrsj_yoga_intro = Trigger("yoga intro", "Кто этот Милф там")
         T_mrsj_yoga_help_asked = Trigger("yoga help asked", "Женщины В Колготках? Да, Пожалуйста Часть 1")
         T_mrsj_yoga_helped_annie = Trigger("yoga helped annie", "Женщины В Колготках? Да Пожалуйста, Часть 2")

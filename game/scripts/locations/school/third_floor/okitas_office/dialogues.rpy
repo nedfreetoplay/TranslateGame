@@ -924,7 +924,7 @@ label okitas_office_extract_cum:
     player_name "Я думаю да."
     $ animated = True
     call screen okita_handjob_options
-	
+
 label okita_handjob_loop:
     show screen sex_anim_buttons
     pause
@@ -1330,8 +1330,8 @@ label okita_h_scene_loop:
                     $ animated = True
             else:
                 show okitas 1 at Position(xpos = 0.53)
-    
-	show screen sex_anim_buttons
+
+    show screen sex_anim_buttons
     pause
     hide screen sex_anim_buttons
     $ animcounter = 0

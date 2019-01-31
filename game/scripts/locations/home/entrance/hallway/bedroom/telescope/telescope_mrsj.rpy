@@ -5,7 +5,7 @@ label erikmom_bedroom:
         $ persistent.cookie_jar["Mrs Johnson"]["gallery"]["02_unlocked"] = True
         $ M_jenny.trigger(T_jenny_spied_on_neighbour_tier_3)
         jump expression game.dialog_select("bedroom_dialogue")
-	else:
+    else:
 
         call expression game.dialog_select(game.telescope.mrsj)
 

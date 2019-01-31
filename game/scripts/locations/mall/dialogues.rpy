@@ -69,7 +69,7 @@ label mall_diane_get_bug_spray:
     hide diane
     with dissolve
     return
-	
+
 label mall_mom_mall_outing:
     scene mall
     show player 13 at left with dissolve

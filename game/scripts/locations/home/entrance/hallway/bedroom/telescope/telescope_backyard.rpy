@@ -13,7 +13,7 @@ label telescope_backyard_morning_1:
 
 label telescope_backyard_afternoon_1:
     scene windowbackyardday01
-     player_name "( Там коврик для йоги {b}Миссис Джонсон{/b} ... )"
+    player_name "( Там коврик для йоги {b}Миссис Джонсон{/b} ... )"
     player_name "( ...На заднем дворе никого нет. )"
     return
 

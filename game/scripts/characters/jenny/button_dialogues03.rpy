@@ -358,14 +358,14 @@ label sis_cheerleader_fuck_looprep:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		   if not animated:
+           if not animated:
             if not sis_cheerleader_sex2_menu:
                 show expression AnimatedImage("jennysex", [117,118,119,120,121], M_jenny) as jennysex at Position(xpos = 939, ypos = 674)
             else:
 
                 show expression AnimatedImage("jennysex", [123,124,125,126,127], M_jenny) as jennysex at Position(xpos = 986, ypos = 768)
             $ animated = True
-			pause 5
+            pause 5
             if animcounter in [1,3]:
                 call expression game.dialog_select("jenny_cheerleader_hscene_dialog")
             pause 3

@@ -667,7 +667,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     player_name "O-okay..."
     hide player with dissolve
     return
-	
+
 label moms_bedroom_night:
     scene debbie_peek_sequence_1_night
     player_name "( {b}[deb_name]{/b} спит. )"
@@ -898,7 +898,7 @@ label moms_bedroom_mom_dinner_outfit_ask:
     deb "Милый! Я все еще переодеваюсь!"
     show player 29f
     show debbie 152
-	with fastdissolve
+    with fastdissolve
     player_name "О, И... Извени!"
     show debbie 153
     show player 3f at Position (xoffset=-8)
@@ -926,7 +926,7 @@ label moms_bedroom_mom_dinner_outfit_ask:
     show player 429f
     player_name "Уххх..."
     show player 21f
-	player_name "Оно сексуальное, {b}[deb_name]{/b}."
+    player_name "Оно сексуальное, {b}[deb_name]{/b}."
     show debbie 158
     show player 13f
     deb "Хе-хе, ты такой милый!"
@@ -1275,8 +1275,8 @@ label mom_bed_panties_masturbation_im_trying:
     deb "Мы пройдем через это..."
     show debbie 29
     player_name "Да..."
-	return
-	
+    return
+
 label mom_bed_panties_masturbation_not_really:
     show debbie 26
     show player 151
@@ -1316,8 +1316,8 @@ label mom_bed_panties_masturbation_not_really:
     deb "Мы пройдем через это..."
     show debbie 29
     player_name "Да..."
-	return
-	
+    return
+
 label mom_bed_panties_masturbation_i_like_you:
     show debbie 30
     show player 149
@@ -1854,9 +1854,9 @@ label mom_bed_sleep_together_fuck:
     return
 
 label mom_bed_sleep_together_fuck_keep_going:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -2137,9 +2137,9 @@ label mom_sex_loop_pre_cowgirl:
     return
 
 label mom_sex_loop:
-    show screen xray_scr 
+    show screen xray_scr
     pause
-    hide screen xray_scr 
+    hide screen xray_scr
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:

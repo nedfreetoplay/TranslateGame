@@ -137,7 +137,7 @@ label erik_crown_card:
         show erik 1 at right
         if player.location == L_school_scienceclassroom:
             show erikl 1f at right
-		show player 14 at left
+        show player 14 at left
         player_name "Я получил карту которую ты хотел."
         show player 13
         show erik 4
@@ -222,8 +222,8 @@ label erik_crown_card:
     else:
 
         show erik 1 at right
-		if player.location == L_school_scienceclassroom:
-		show erikl 1f at right
+        if player.location == L_school_scienceclassroom:
+            show erikl 1f at right
         show player 10 at left
         player_name "Какая карта пропала ещё раз?"
         show player 11

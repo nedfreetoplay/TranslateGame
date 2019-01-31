@@ -30,16 +30,16 @@ label basement_mom_wash_clothes:
     show debbie 135
     show player 327 at Position(xoffset=-27) with fastdissolve
     pause
-    
-	scene expression "backgrounds/location_home_basement_cutscene.jpg"
-	show expression FilteredText("Было немного неловко раздеваться перед {b}[deb_name]{/b}. \nНо она, похоже, не заметила. Она просто поспешно засунула мою одежду в машину. \nЯ не мог не заметить этого взгляда, когда она рассказывала о своей работе.\nИзлишне говорить, что я довольно быстро забыл о своем смущении...") as cutscene at Position (xpos= 512, ypos= 700)
+
+    scene expression "backgrounds/location_home_basement_cutscene.jpg"
+    show expression FilteredText("Было немного неловко раздеваться перед {b}[deb_name]{/b}. \nНо она, похоже, не заметила. Она просто поспешно засунула мою одежду в машину. \nЯ не мог не заметить этого взгляда, когда она рассказывала о своей работе.\nИзлишне говорить, что я довольно быстро забыл о своем смущении...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     scene black
     with fade
-    	
-	scene home_basement_sideview
+
+    scene home_basement_sideview
     show player 330 at Position(xpos=860)
     show debbie 142 at Position(xpos=550,ypos=805)
     with fade
@@ -257,9 +257,9 @@ label basement_mom_sex_pre:
     return
 
 label basement_mom_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -501,13 +501,13 @@ label laundry_dialogue_help:
     show player 277
     player_name "Хех, спасибо!"
     scene expression "backgrounds/location_home_cutscene03.jpg"
-	show expression FilteredText("Было очень весело помогать {b}[deb_name]{/b} по дому. \nДумаю, ей тоже это нравится. Всегда так хочется завести разговор и узнать больше о своей жизни. \nВ последнее время мы все ближе и ближе, и я не могу не восхищаться ее красотой и очарованием. \nКажется, ей тоже становится более комфортно со мной. Она смотрит на меня, ее невинные прикосновения...") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Было очень весело помогать {b}[deb_name]{/b} по дому. \nДумаю, ей тоже это нравится. Всегда так хочется завести разговор и узнать больше о своей жизни. \nВ последнее время мы все ближе и ближе, и я не могу не восхищаться ее красотой и очарованием. \nКажется, ей тоже становится более комфортно со мной. Она смотрит на меня, ее невинные прикосновения...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     scene black
     with fade
-    
+
     scene home_basement_c
     show debbie 2 at right
     show player 13 at left
@@ -565,7 +565,7 @@ label mom_lotion_fun:
                 $ M_mom.set("robe on", True)
                 $ first_pass = True
                 $ animated = False
-				jump expression game.dialog_select("mom_finger_loop")
+                jump expression game.dialog_select("mom_finger_loop")
 
         call expression game.dialog_select("mom_lotion_fun_pre")
         call expression game.dialog_select("mom_lotion_fun_location_dialogue")

@@ -18,9 +18,9 @@ label sis_bedroom_sis_in_room:
     show jenny 9c
     show player 5
     jen "А ну вали из моей комнаты, извращенец!"
-	return
-		
-	label sis_bedroom_sis_sleeping:
+    return
+
+label sis_bedroom_sis_sleeping:
     scene jennybedroom_clear
     player_name "( {b}[jen_name]{/b} спит. )"
     player_name "( Я должен вести себя очень тихо, или она меня заметит... )"
@@ -347,7 +347,7 @@ label sneak_in_sis_bed:
             jump expression game.dialog_select("hallway_dialogue")
 
         "Прижаться." if M_jenny.finished_state(S_jenny_somrak_panty_trade) and not M_jenny.finished_state(S_jenny_titty_deal):
-			$ M_jenny.trigger(T_jenny_peep_cuddle)
+            $ M_jenny.trigger(T_jenny_peep_cuddle)
             label sis_bed_replay_fail:
                 call expression game.dialog_select("sneak_in_sis_bed_cuddle_fail")
             $ renpy.end_replay()
@@ -356,7 +356,7 @@ label sneak_in_sis_bed:
             jump expression game.dialog_select("hallway_dialogue")
 
         "Прижаться." if M_jenny.finished_state(S_jenny_titty_deal):
-			$ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_2)
             label sis_bed_replay_cont:
                 call expression game.dialog_select("sneak_in_sis_bed_cuddle_pass")
 
@@ -380,7 +380,7 @@ label sneak_in_sis_bed:
             jump expression game.dialog_select("hallway_dialogue")
 
         "Сжать груди." if M_jenny.finished_state(S_jenny_hallway_meetup_focus):
-			$ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_3)
             label sis_bed_replay_cont_2:
                 call expression game.dialog_select("sneak_in_sis_bed_squeeze_boobs_pass")
 
@@ -404,7 +404,7 @@ label sneak_in_sis_bed:
             jump expression game.dialog_select("hallway_dialogue")
 
         "Потереть киску." if M_jenny.finished_state(S_jenny_telescope_spying_tier_3):
-			$ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
+            $ M_jenny.trigger(T_jenny_peep_cuddle_tier_4)
             label sis_bed_replay_cont_3:
                 call expression game.dialog_select("sneak_in_sis_bed_rub_pussy_pass")
 
@@ -712,7 +712,7 @@ label sneak_in_sis_bed_rabbit_fuck:
     player_name "Я хочу тебя, {b}[jen_name]{/b}!!!"
     $ anim_toggle = False
     $ animated = False
-	$ xray = False
+    $ xray = False
     show screen sex_xray_anim_buttons
     pause
     if anim_toggle:
@@ -890,8 +890,8 @@ label diary_dialogue:
         call expression game.dialog_select("diary0" + str(counter))
         $ counter += 1
     call expression game.dialog_select("diary_after")
-     $ M_jenny.trigger(T_jenny_diary_read)
-	$ game.main()
+    $ M_jenny.trigger(T_jenny_diary_read)
+    $ game.main()
 
 label diary01:
     show jenny_diary 01 at truecenter with dissolve
@@ -970,7 +970,7 @@ label bedside01_dialogue:
         for image in renpy.get_showing_tags():
             renpy.hide(image)
 call screen bedside01
- 
+
 label bedside01_dialogue1:
     scene bedside01
     player_name "ЧТО ЗА-"
@@ -1630,7 +1630,7 @@ label jennys_bedroom_bissette_roxxy_jenny_spying_havent_seen_penis_sex:
     show roxxy 40
     rox "Даже не немного."
     show roxxy 39
-	show jenny 180
+    show jenny 180
     jen "Боже мой..."
     show jenny 179
     show roxxy 40

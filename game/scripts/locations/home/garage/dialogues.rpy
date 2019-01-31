@@ -91,7 +91,7 @@ label car_dialogue:
 
 label garage_car_mom_mall_outing:
     scene expression "backgrounds/location_car_cutscene01.jpg"
-	show expression FilteredText("И так мы запрыгнули в машину и направились в торговый центр.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("И так мы запрыгнули в машину и направились в торговый центр.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -455,7 +455,7 @@ label debbie_car_sex_leave:
 label debbie_car_sex:
     $ M_mom.set("sex speed", .175)
     $ animated = False
-	call expression game.dialog_select("debbie_car_sex_pre")
+    call expression game.dialog_select("debbie_car_sex_pre")
     if not M_mom.is_set("car sex"):
         call expression game.dialog_select("debbie_car_sex_pre_first_time")
         $ M_mom.set("car sex", True)
@@ -645,7 +645,7 @@ label car_mom_bj_cum:
     show debbie car 2 at right
     hide debbie_arms_car
     hide debbie_car_bj
-	show debbie_arms_car 1
+    show debbie_arms_car 1
     hide xtra
     show xtra 30 at right
     with dissolve

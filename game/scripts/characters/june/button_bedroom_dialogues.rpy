@@ -356,16 +356,16 @@ label june_bedroom_dialogue_normal_sex_intro:
     return
 
 label june_bedroom_dialogue_cosplay_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		   if not animated:
+           if not animated:
             show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
             $ animated = True
-			pause 8
+            pause 8
         else:
 
             $ pose_counter = 0
@@ -380,16 +380,16 @@ label june_bedroom_dialogue_cosplay_sex_loop:
     call screen june_mcbedroom_cosplay_sex_options
 
 label june_bedroom_dialogue_normal_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		if not animated:
+           if not animated:
             show expression AnimatedImage("junesex", [4,5,6,7,8], M_june) as junesex
             $ animated = True
-			pause 8
+            pause 8
         else:
 
             $ pose_counter = 0

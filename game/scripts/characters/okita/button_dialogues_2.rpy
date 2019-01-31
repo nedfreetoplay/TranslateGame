@@ -454,8 +454,8 @@ label button_okita_generic_after_q3:
             call expression game.dialog_select("button_okita_generic_after_q3_new_invention")
 
         "Гей-ловушки?" if False:
-			call expression game.dialog_select("button_okita_are_traps_gay") 
-		"Ничего.":
+            call expression game.dialog_select("button_okita_are_traps_gay")
+        "Ничего.":
 
             call expression game.dialog_select("button_okita_generic_after_q3_leave")
     return

@@ -17,7 +17,7 @@ label spin_bottle_minigame_becca:
                 call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro_pre_repeat")
             call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro")
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ M_becca.set("sex speed", .09)
             call expression game.dialog_select("spin_bottle_minigame_becca_solo_intro_after")
             jump expression game.dialog_select("spin_bottle_minigame_becca_solo_loop")

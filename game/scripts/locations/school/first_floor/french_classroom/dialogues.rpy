@@ -1014,7 +1014,7 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
 label french_classroom_bissette_hand_in_poem_assignment_continue:
     scene classroom_night
     show desk 31_32 at Position (xpos=342)
-	bis "Мммм..."
+    bis "Мммм..."
     bis "Мой красавец..."
     bis "Ты заставляешь меня волноваться..."
     player_name "*глоток*"

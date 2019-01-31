@@ -65,7 +65,7 @@ label roxmom_dialogue:
             call expression game.dialog_select("trailer_interior_crystal_sex_repeat_inside")
             call expression game.dialog_select("trailer_interior_crystal_sex_or_anal_menu")
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             jump expression game.dialog_select("trailer_interior_crystal_sex_loop")
 
         "Извините за беспокойство." if M_roxxy.between_states(S_roxxy_assignment_delay, S_roxxy_hows_it_going_delay):

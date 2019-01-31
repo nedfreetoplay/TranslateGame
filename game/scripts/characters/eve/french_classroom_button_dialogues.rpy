@@ -1,7 +1,7 @@
 label eve_classroom_dialogue_eve_intro:
     scene classroom
-	show evedesk 1 at left 
-	with fade
+    show evedesk 1 at left
+    with fade
     eve "Вау...Я думала, что ты  мертв!"
     show evedesk 2
     player_name "Что?... Что ты имеешь в виду?"

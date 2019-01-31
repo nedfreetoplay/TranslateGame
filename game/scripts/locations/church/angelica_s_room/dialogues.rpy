@@ -355,7 +355,7 @@ label helen_final_sacrament:
                 call expression game.dialog_select("helen_final_sacrament_fuck_helen_after")
 
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ xray = False
             jump expression game.dialog_select("helen_final_sacrament_fuck_helen_loop")
         "Смотреть за {b}Сестрой Анжеликой{/b}.":
@@ -364,7 +364,7 @@ label helen_final_sacrament:
                 call expression game.dialog_select("helen_final_sacrament_watch_angelica")
 
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ xray = False
             jump expression game.dialog_select("helen_final_sacrament_watch_angelica_loop")
     $ game.main()
@@ -629,10 +629,10 @@ label helen_final_sacrament_fuck_helen_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-		if not animated:
+           if not animated:
             show expression AnimatedImage("helens", [6,7,8,9,10], M_helen) as helens
             $ animated = True
-			pause 2
+            pause 2
             call expression game.dialog_select("helen_final_sacrament_hscene_dialog")
             pause 3
         else:
@@ -800,7 +800,7 @@ label helen_final_sacrament_watch_angelica_loop:
                 $ poses_done.append(pose_list[pose_counter])
                 $ pose_counter += 1
             call expression game.dialog_select("angelica_final_sacrament_hscene_dialog")
-		$ animcounter += 1
+        $ animcounter += 1
     helen "Я ооочень близко!"
     call screen final_sacrament_watch_angelica_options
 

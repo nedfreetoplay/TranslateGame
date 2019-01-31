@@ -176,7 +176,7 @@ label training01_payment_dialogue:
                     hide master 6
                     with dissolve
                     $ player.remove_item("panties")
-					$ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_2)
+                    $ M_jenny.trigger(T_jenny_somrak_panty_traded_tier_2)
                     jump training_during_dialogue
 
                 "У меня есть трусики. (Чит)" if training_tier == 2 and M_jenny.is_state(S_jenny_somrak_panty_trade_tier_2) and game.cheat_mode:

@@ -16,7 +16,7 @@ label spin_bottle_minigame_mc:
             else:
                 call expression game.dialog_select("spin_bottle_minigame_mc_4some_intro_pre_repeat")
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ M_roxxy.set("sex speed", .09)
             $ M_missy.set("sex speed", .09)
             $ M_becca.set("sex speed", .09)
@@ -62,7 +62,7 @@ label beach_mc_4some_dialogue_replay:
     call expression game.dialog_select("button_roxxy_beach_spin_bottle_sex_repeat")
     call expression game.dialog_select("spin_bottle_minigame_mc_4some_intro_pre_repeat")
     $ anim_toggle = True
-	$ animated = False
+    $ animated = False
     $ M_roxxy.set("sex speed", .09)
     $ M_missy.set("sex speed", .09)
     $ M_becca.set("sex speed", .09)
@@ -112,7 +112,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show player_sitting 5
     show becca sitting 8b
     becca "!!!"
-	show missy sitting 6b
+    show missy sitting 6b
     missy "Серьезно?!"
     show missy sitting 6
     show roxxy sitting 3
@@ -368,7 +368,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
 
 label spin_bottle_minigame_mc_4some_loop_pre(current_character_machine, next_character_machine):
     $ anim_toggle = True
-	$ animated = False
+    $ animated = False
     $ M_roxxy.set("sex speed", .09)
     $ M_missy.set("sex speed", .09)
     $ M_becca.set("sex speed", .09)

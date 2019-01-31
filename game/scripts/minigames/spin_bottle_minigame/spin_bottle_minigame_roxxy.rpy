@@ -14,7 +14,7 @@ label spin_bottle_minigame_roxxy:
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro_pre")
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro")
             $ anim_toggle = True
-			$ animated = False
+            $ animated = False
             $ M_roxxy.set("sex speed", .09)
             call expression game.dialog_select("spin_bottle_minigame_roxxy_solo_intro_after")
             jump expression game.dialog_select("spin_bottle_minigame_roxxy_solo_loop")

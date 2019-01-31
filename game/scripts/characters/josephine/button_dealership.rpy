@@ -60,7 +60,7 @@ label josephine_button_dealership_dialogue:
                                 call expression game.dialog_select("josephine_button_dealership_dialogue_insurance_claim_pay")
                                 $ M_mom.trigger(T_mom_renew_insurance)
                                 $ game.timer.tick()
-								if game.timer.is_dark():
+                                if game.timer.is_dark():
                                     $ player.go_to(L_dealership_front)
                         "Убедить её.":
 

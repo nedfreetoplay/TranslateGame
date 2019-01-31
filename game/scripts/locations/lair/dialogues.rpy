@@ -123,7 +123,7 @@ label seasucc_dialogue_aqua_seasucc_no_mushroom:
     show player 12 zorder 3 at left
     with dissolve
     player_name "Что ты сказала нужно {b}МореСосу{/b}?"
-	show player 5
+    show player 5
     show aqua 20
     aqua "Тебе нужно будет накормить его специальной едой, {b}Falicum Грибами{/b}. {b}Falicum{/b}."
     show aqua 19

@@ -12,7 +12,7 @@ label sis_cheerleader_break_free_pass_manual:
 
 label sis_cheerleader_break_free_pass_after:
     $ animated = False
-	show jennysex 119b at Position(xpos = 939, ypos = 674)
+    show jennysex 119b at Position(xpos = 939, ypos = 674)
     jen "Эй, Что ты-"
     show jennysex 122 at Position(xpos = 1022, ypos = 768)
     hide playersex

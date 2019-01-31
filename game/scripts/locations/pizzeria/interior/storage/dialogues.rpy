@@ -103,7 +103,7 @@ label pizzeria_storage_diane_delivery_1_place_goods_no_bike:
     show player 3
     show tony f_normal_talk
     tony "Вот хороший мальчик."
-    tony Вот деньги на молоко."
+    tony "Вот деньги на молоко."
     show tony a_dressed_money with dissolve
     tony "Ты приходи к нам поскорее, слышишь?"
     show tony f_normal a_dressed_hips

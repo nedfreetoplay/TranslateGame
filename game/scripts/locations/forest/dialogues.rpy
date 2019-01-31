@@ -72,7 +72,7 @@ label awesomo_dialogue_intro:
 label awesomo_dialogue_give_cookie:
     scene expression game.timer.image("forest{}_b")
     show player 177
-	player_name "Хочешь печенье?"
+    player_name "Хочешь печенье?"
     show player 178 at Position(xpos=517)
     player_name "Вот так..."
     show player 179 with hpunch

@@ -26,7 +26,7 @@ label hill_tree:
         jump expression game.dialog_select("hill_tree_no_scroll")
     else:
         pause
-	$ game.main()
+    $ game.main()
 
 label hill_tree_no_scroll:
     if not game.timer.is_dark():
@@ -36,15 +36,15 @@ label hill_tree_no_scroll:
     player_name "Что это такое? Какой-то старый свиток?"
     player_name "Интересно, как долго он там был."
     call screen hill_tree
-    
+
 label hill_tree_get_scroll:
     $ player.get_item("scroll")
     show popup_item_scroll1 at truecenter with dissolve
     pause
     hide popup_item_scroll1 with dissolve
-	$ game.main()
-	
-	label hill_dewitt_stick:
+    $ game.main()
+
+label hill_dewitt_stick:
     call expression game.dialog_select("hill_dewitt_stick_dialogue")
     $ player.get_item("stick")
     $ game.main()

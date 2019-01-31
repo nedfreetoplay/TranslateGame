@@ -520,7 +520,7 @@ label home_front_mom_bad_guys_revisit:
     hide player
     $ playSound()
     show expression "backgrounds/location_home_entrance_cutscene01.jpg"
-	show expression FilteredText("Когда я смотрел в окно, я заметил парня, который доставлял все угрозы.\nПохоже, на этот раз он привел подкрепление.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Когда я смотрел в окно, я заметил парня, который доставлял все угрозы.\nПохоже, на этот раз он привел подкрепление.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -539,8 +539,8 @@ label home_front_mom_bad_guys_revisit:
     with fade
     pause
     hide cutscene
-    
-	scene home_entrance_fight
+
+    scene home_entrance_fight
     show debbie 40 at Position(xpos=156,ypos=768)
     show henchman2 1 at right
     with dissolve
