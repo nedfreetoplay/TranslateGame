@@ -3,19 +3,19 @@ label dianes_kitchen_diane_look_in_kitchen:
     show diane_masturbate 1_2
     player_name "( !!! )" with hpunch
     pause
-    dia "Ngghhh..."
-    player_name "( {b}Diane{/b} is... )"
-    player_name "( She's... )"
-    player_name "( ... Is that a cucumber? )"
+    dia "Нгххх..."
+    player_name "( {b}Диана{/b} ... )"
+    player_name "( Она... )"
+    player_name "( ... Это что, огурец? )"
     pause
-    dia "Mmm, that's it!"
+    dia "Ммм, вот так!"
     $ M_diane.set("sex speed",0.3)
     show diane_masturbate 1_2
-    player_name "( This is... )"
-    dia "Fuck me harder, stud!"
-    player_name "( I wonder who she's imagining? )"
+    player_name "( Это... )"
+    dia "Трахни меня сильнее, жеребец!"
+    player_name "( Интересно, кого она воображает? )"
     pause
-    player_name "( I should get out of here before she sees me. )"
+    player_name "( Я должен убраться отсюда, пока она меня не увидела. )"
     pause
     hide diane_masturbate with dissolve
     $ persistent.cookie_jar["Diane"]["unlocked"] = True
@@ -28,234 +28,234 @@ label dianes_kitchen_diane_clean_garden_report:
     show player 5f with dissolve
     player_name "..."
     show player 10f
-    player_name "... Hello?!"
+    player_name "... Привет?!"
     show player 22f
-    dia "EEEEKKK!!!" with hpunch
+    dia "ИИИКККК!!!" with hpunch
     player_name "!!!"
     show player 23f
-    player_name "Diane?!"
+    player_name "Диана?!"
     show player 22f
-    dia "{b}[firstname]{/b}! Help!!!"
+    dia "{b}[firstname]{/b}! Помоги!!!"
     show player 23f
-    player_name "Where are you?!"
+    player_name "Где ты?!"
     show player 22f
-    dia "AAHHHH!!!" with hpunch
+    dia "АААААААА!!!" with hpunch
     show player 23f
-    player_name "It sounds like she's upstairs!"
+    player_name "Похоже, она наверху!"
     hide player with dissolve
     scene black with dissolve
     scene expression "backgrounds/location_diane_bedroom_closeup.jpg"
     show diane b_pole a_empty f_pole_scream
     show player 11 at left
     with dissolve
-    dia "HELP!!!"
+    dia "ПОМОГИ!!!"
     show player 10
-    player_name "{b}Diane{/b}?!"
-    player_name "What's the mat-"
+    player_name "{b}Диана{/b}?!"
+    player_name "Что случил-"
     show player 11
-    dia "M-MM-MM-MOUSE!"
+    dia "M-MM-MM-МЫШЬ!"
     show player 12
-    player_name "Huh, mouse?"
+    player_name "А, мышка?"
     show player 14
-    player_name "Is that what's got you so scared?"
+    player_name "Это то, что тебя так напугало?"
     show player 13
     dia "..."
     show player 14
-    player_name "Where is it?"
+    player_name "Где же она?"
     show player 13
     show diane b_pole_point f_pole_scared_talk_back with dissolve
-    dia "C-closet!"
+    dia "Ш-шкаф!"
     show diane f_pole_scared
     show player 10
-    player_name "You saw a mouse in your closet?"
+    player_name "Ты видела мышь в своем шкафу?"
     show diane b_pole with dissolve
     show player 14
-    player_name "I'll check it out."
+    player_name "Я проверю."
     show diane f_pole_scared_talk_back
     show player 108f at right with dissolve
-    player_name "I don't-"
+    player_name "Я не-"
     show player 670 with dissolve
     player_name "..."
-    "{b}*Thud*{/b}"
+    "{b}*стук*{/b}"
     show player 22 at left
     player_name "!!!" with hpunch
     show diane f_pole_scream
-    dia "EEEEKKK!!!"
+    dia "ИИИИКККК!!!"
     hide player
     show diane pickup
-    player_name "HRRGGG!!!" with hpunch
+    player_name "ХРРГГГ!!!" with hpunch
     player_name "..."
     show diane pickup_scared
-    dia "Was that the mouse?!"
+    dia "Это была та самая мышь?!"
     show diane pickup
-    player_name "I... I don't know..."
+    player_name "Я... Я не знаю..."
     show diane pickup_talk
-    dia "I hate mice!"
+    dia "Ненавижу мышей!"
     show diane pickup_laugh
-    player_name "Hehe, you deal with dirt and bugs all the time but mice freak you out?"
+    player_name "Хехе, ты постоянно имеешь дело с грязью и жуками, но мыши тебя пугают?"
     show diane pickup_talk
-    dia "YES!!!"
+    dia "ДА!!!"
     show diane pickup_scared
-    dia "Do you see it?!"
+    dia "Ты видел её?!"
     show diane pickup
-    player_name "Err... No?"
+    player_name "Эээ... Нет?"
     show diane pickup_talk
-    dia "I see it!"
+    dia "Я видела!"
     show diane pickup
-    player_name "... Where?"
+    player_name "... Где?"
     show diane pickup_scared
-    dia "RIGHT THERE!!"
-    dia "See it's tail?!"
+    dia "ПРЯМО ТУТ!!"
+    dia "Видишь хвост?!"
     show diane pickup
     player_name "..."
-    player_name "I think that's a shoe lace..."
+    player_name "Я думаю, это шнурок от ботинок..."
     show diane pickup_talk
-    dia "What?! NO!!!"
+    dia "Что?! НЕТ!!!"
     show diane pickup_scared
-    dia "That's a mouse!"
+    dia "Это мышь!"
     player_name "..."
     show diane pickup
-    player_name "It's kinda hard to see with you squeezing my head..."
+    player_name "Мне трудно рассмотреть, когда ты сжимаешь мою голову..."
     show diane pickup_talk
-    dia "Hmm?"
-    dia "Oh, I'm sorry, {b}[firstname]{/b}!"
+    dia "Хмм?"
+    dia "О, прости, {b}[firstname]{/b}!"
     show diane b_pole a_empty f_pole_scared
     show player 17 at left
     with dissolve
-    player_name "Heh, it's alright."
+    player_name "Хех, все в порядке."
     show player 14
-    player_name "Now, let me take care of that shoe lace for you..."
+    player_name "А теперь позволь мне позаботиться об этом шнурке..."
     hide player with dissolve
     show diane f_pole_scared_talk_back
-    dia "I'm telling you, it's a mouse!"
+    dia "Говорю тебе, это мышь!"
     show diane f_pole_scream
-    dia "Ugh, be careful, {b}[firstname]{/b}!!!"
+    dia "Ух, будь осторожен, {b}[firstname]{/b}!!!"
     player_name "..."
     show diane f_pole_scared
     show player 682 at left with dissolve
     player_name "..."
     show player 683
-    player_name "{b}*Ahem*{/b}"
+    player_name "{b}*хм*{/b}"
     show player 682
     show diane f_pole_scared
     dia "..."
     show diane f_pole_scared_talk
-    dia "It's a shoe lace."
+    dia "Это шнурок от обуви."
     show diane f_pole_scared
     show player 683
-    player_name "Heh, I told you!"
+    player_name "Хех, я же говорил тебе!"
     show player 682
     show diane b_lingerie a_lingerie_sides f_scared_talk
     with dissolve
-    dia "Are you sure there isn't a mouse in there?"
+    dia "Ты уверен, что там нет мыши?"
     show diane f_scared
     show player 683
-    player_name "Pretty sure."
+    player_name "Конечно."
     show player 13 at left with dissolve
     show diane f_laugh
-    dia "Phew!"
+    dia "Фууу!"
     show diane f_scared_talk
-    dia "I almost had a heart attack..."
+    dia "У меня чуть инфаркт не случился..."
     show diane f_normal
     show player 14
-    player_name "Yeah, I've never seen you so worked up before."
-    player_name "You alright, now?"
+    player_name "Да, я никогда не видел тебя такой взволнованной."
+    player_name " Теперь ты в порядке?"
     show player 13
     show diane f_normal_talk
-    dia "Yeah, I think so."
+    dia "Да, наверно."
     show diane f_normal
     dia "..."
     show player 17
-    player_name "... I can't believe you were screaming at a shoe lace!"
-    player_name "Hahaha!"
+    player_name "... Не могу поверить, что ты кричала на шнурки!"
+    player_name "Хахаха!"
     show diane f_laugh
-    dia "Oh, shut up!"
+    dia "О, заткнись!"
     show diane f_normal
     show player 13
     show diane f_surprised_front
     pause
     show diane f_surprised_front_talk a_lingerie_cover with dissolve
-    dia "... I'm... naked..."
+    dia "... Я... голая..."
     show diane f_shamed
     show player 10
-    player_name "Well, not really naked..."
+    player_name "Ну, не совсем голая..."
     show player 5
     show diane f_shamed_talk
-    dia "I might as well be."
-    dia "I'm sorry, {b}[firstname]{/b}."
-    dia "I'm embarrassed."
+    dia "С таким же успехом я могла бы."
+    dia "Прости, {b}[firstname]{/b}."
+    dia "Мне неловко."
     show diane f_shamed
     show player 10
-    player_name "Hmm?"
-    player_name "There's no need to be embarrassed..."
+    player_name "Хмм?"
+    player_name "Тут нечего стыдится..."
     show player 14
-    player_name "You look fantastic!"
+    player_name "Ты выглядишь потрясающе!"
     show player 13
     show diane a_lingerie_shock f_laugh at Position (yoffset=13) with dissolve
     dia "{b}[firstname]{/b}!!!"
     show diane f_smirk at Position (yoffset=13)
     show player 17
-    player_name "What? You do."
+    player_name "Что? Ты делаешь."
     show player 13
     show diane f_smirk_talk a_lingerie_sides with dissolve
-    dia "{b}Debbie{/b} would throw a fit if she knew you saw me like this."
+    dia "{b}Дебби{/b} закатила бы истерику, если бы узнала, что ты видишь меня такой."
     show diane f_smirk
     show player 14
-    player_name "Well, I'm not going to tell her..."
+    player_name "Ну, я не собираюсь ей говорить..."
     show player 13
     dia "..."
     show diane f_normal_talk
-    dia "You really think I look good?"
+    dia "Ты правда думаешь, что я хорошо выгляжу?"
     show diane f_normal
     show player 14
-    player_name "Of course!"
-    player_name "You're beautiful!"
+    player_name "Конечно!"
+    player_name "Ты прекрасна!"
     show player 13
     dia "..."
     hide player
     show diane lingerie_kiss
     with dissolve
-    dia "You're so sweet!"
+    dia "Ты такой милый!"
     show player 13 at left
     show diane b_lingerie a_lingerie_sides f_smirk_talk
     with dissolve
-    dia "Thank you, handsome!"
+    dia "Спасибо, красавчик!"
     show diane f_smirk
     player_name "..."
     show diane f_smirk_talk
-    dia "I should finish getting dressed."
-    dia "You wanna go with me to pick up the {b}pesticide{/b}?"
+    dia "Мне нужно закончить одеваться."
+    dia "Хочешь пойти со мной и забрать {b}пестицид{/b}?"
     show diane f_smirk
-    player_name "Y-yeah, okay."
+    player_name "Да, хорошо."
     show diane f_laugh
-    dia "Great!"
+    dia "Великолепно!"
     show diane f_smirk_talk
-    dia "You should wait downstairs."
-    dia "I'll just be a minute or two."
+    dia "Тебе стоит подождать меня внизу."
+    dia "Я буду через минуту или две."
     hide player
     hide diane
     with dissolve
     scene expression "backgrounds/location_diane_kitchen_closeup.jpg"
     show player 13f at right
     with dissolve
-    player_name "( Wow, I can't believe I got to see {b}Diane{/b} like that! )"
-    player_name "( She has such a great body! )"
+    player_name "( Ух ты, поверить не могу, что мне пришлось видеть {b}Диану{/b} в таком виде! )"
+    player_name "( У нее такое прекрасное тело! )"
     show diane b_casual a_casual_sides f_smirk_talk at flip with dissolve
-    dia "Ready to go, stud?"
+    dia "Готов ехать, жеребец?"
     show diane f_smirk
     show player 11f
     player_name "!!!"
     show player 14f
-    player_name "Y-yeah..."
-    player_name "Nice outfit!"
+    player_name "Да..."
+    player_name "Классный наряд!"
     show player 13f
     show diane f_laugh
-    dia "Heh, thanks!"
+    dia "Хех, спасибо!"
     show diane f_normal_talk
-    dia "We should be able to find the {b}pesticide{/b} we need at {b}Consum-R{/b}."
+    dia "Мы должны найти {b}пестицид{/b} который нам нужен в {b}Consum-R{/b}."
     show diane f_normal
     show player 14f
-    player_name "Alright, let's go."
+    player_name "Хорошо, поехали."
     hide player
     hide diane
     with dissolve
