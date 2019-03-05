@@ -10,34 +10,34 @@ label barn_garden_statue_dialogue:
 label barn_statue_has_milk:
     scene expression "backgrounds/location_diane_garden_closeup.jpg"
     show player 712 at left with dissolve
-    player_name "( So, a {b}milk pail{/b}, huh? )"
+    player_name "( Итак, {b}ведерко с молоком{/b}, да? )"
     pause
     $ M_diane.outfit = "shirtless"
     show diane b_naked a_naked_sides f_shamed_talk_smile at Position (xpos=600) with dissolve
-    dia "What are you doing with that {b}milk{/b}, {b}[firstname]{/b}?"
+    dia "Что ты делаешь с этим {b}молоком{/b}, {b}[firstname]{/b}?"
     show diane f_shamed
     show player 713
-    player_name "I have an idea."
+    player_name "У меня есть идея."
     show player 184 with dissolve
     show diane f_shamed_talk_look
-    dia "You have an idea?"
+    dia "У тебя есть идея?"
     hide player with dissolve
-    dia "You're not gonna-"
+    dia "Ты не собираешься-"
     scene expression "backgrounds/location_diane_garden_cutscene09.jpg"
-    show expression FilteredText("I had to pour milk into that pail.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Мне пришлось вылить молоко в ведро.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("It was like some urge that I couldn't fight.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Это было похоже на желание, с которым я не мог бороться.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show expression FilteredText("I'm not sure what I was expecting to happen...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Я не уверен, что ожидал такого развития событий...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene expression "backgrounds/location_diane_garden_cutscene10.jpg"
-    show expression FilteredText("... But I never could have anticipated what did.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("... Но я никогда не мог предвидеть того, что произошло.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("The statue started to crack and a strange glow began to emit from it.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Статуя начала трескаться и из нее начало исходить странное свечение.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show expression FilteredText("Before long, it was so bright, {b}Diane{/b} and I had to shield our eyes!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Вскоре стало так светло, что нам с {b}Дианой{/b} пришлось прикрыть глаза!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -48,18 +48,18 @@ label barn_statue_has_milk:
     with dissolve
     player_name "!!!"
     show diane f_surprised_front_talk
-    dia "What in the world-"
+    dia "Что это такое-"
     show diane f_surprised_front
     show player 10b
-    player_name "It's glowing..."
+    player_name "Он светится..."
     show player 428
     pause
     show diane f_surprised_front_talk
-    dia "It's so bright!"
+    dia "Он такой яркий!"
     show player 718
     show diane f_scream a_shirtless_cover
     with dissolve
-    dia "Ack!"
+    dia "Аааа!"
     player_name "!!!"
     show daisy b_appear_flash a_empty f_empty at Position (xpos=300) with flash
     pause
@@ -69,75 +69,75 @@ label barn_statue_has_milk:
     show daisy f_sad_talk_closed b_naked a_naked_up
     show diane f_scared a_shirtless_sides
     with dissolve
-    cow "No, master!!!"
+    cow "Нет, хозяин!!!"
     show player 428
-    cow "Please, I'll be a good girl!"
-    cow "I will, I'll-"
+    cow "Пожалуйста, я буду хорошей девочкой!"
+    cow "Я буду, Я-"
     show player 22
     pause
     show player 5b
     show daisy f_sad_talk
     pause
     show daisy f_scared b_naked a_naked_cover
-    cow "AHHHHHHH!!!" with hpunch
+    cow "АААААААААААА!!!" with hpunch
     show daisy f_sad_talk_closed
-    cow "D-don't look at me!"
-    cow "I didn't mean to!!"
+    cow "Не смотри на меня так!"
+    cow "Я не хотела этого делать!!"
     show player 10b
-    player_name "What in the hell?"
+    player_name "Какого черта?"
     show player 5b
-    cow "You can't see me!"
-    cow "Please, he'll hurt me if he finds out!"
+    cow "Ты не можешь меня видеть!"
+    cow "Пожалуйста, он сделает мне больно, если узнает!"
     show player 11
     show diane f_scared_talk
-    dia "Who's gonna hurt you, sweetie?"
+    dia "Кто сделает тебе больно, милая?"
     show diane f_scared with None
     show daisy f_sad_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    cow "Master."
+    cow "Хозяин."
     show player 4 with dissolve
     show diane f_scared_talk
-    dia "Who?"
+    dia "Кто?"
     show diane f_scared
     show daisy f_sad_talk
-    cow "{b}*Waaaah*{/b}"
+    cow "{b}*Ваааааа*{/b}"
     show daisy f_sad
     show player 10
-    player_name "I think she's talking about {b}Jebadiah Delmont{/b}."
+    player_name "Я думаю, она говорит о {b}Джебадиане Делмонте{/b}."
     show player 5
     show diane f_scared_talk
-    dia "Who in the heck is {b}Jebadiah Delmont{/b}?"
+    dia "Кто такой {b}Джебадиан Делмонт{/b}?"
     show diane f_scared
     show player 12
-    player_name "Uhh, it's a long story..."
+    player_name "Это длинная история..."
     show player 5
     pause
     show player 12
-    player_name "Let's just say he's the guy who made the statue."
+    player_name "Скажем так, это он сделал статую."
     show player 5
     pause
     show diane f_sad_talk
-    dia "Is that who you're talking about, sweetie?"
+    dia "Ты об этом говоришь, дорогая?"
     show diane f_sad
     show daisy f_sad_talk_closed
-    cow "{b}*Sniff*{/b} Uh huh."
+    cow "{b}*фырк*{/b} Ух хух."
     show daisy f_sad
     show diane f_sad_talk
-    dia "Aww, you poor thing."
-    dia "Don't you worry, he's not gonna hurt you ever again."
+    dia "Ой, бедняжка."
+    dia "Не волнуйся, он больше никогда тебя не обидит."
     show diane f_sad
     show daisy f_sad_talk
-    cow "{b}*Sniff*{/b} He will..."
+    cow "{b}*фырк*{/b} Он будет..."
     show daisy f_sad
     show diane f_sad_talk
-    dia "No, I won't let him."
+    dia "Нет, я не позволю ему."
     show diane f_sad
     show daisy f_sad_talk a_naked_wiping_tears with dissolve
-    cow "Y-you promise?"
+    cow "Ты обещаешь?"
     show daisy f_shy_sad b_naked_shy a_naked_shy_cover at Position (yoffset=10) with dissolve
     show diane f_shamed_talk_smile
-    dia "I promise."
+    dia "Я обещаю."
     hide daisy
     hide diane
     show daisy b_naked_diane_comfort a_empty f_empty
@@ -145,38 +145,38 @@ label barn_statue_has_milk:
     with dissolve
     pause
     show diane f_shamed_talk_look
-    dia "Aww, there there..."
-    dia "Everything is gonna be okay."
-    dia "Let's get you into the barn and get you covered up, okay?"
+    dia "Ой, ну ну..."
+    dia "Все будет в порядке."
+    dia "Давай отведем тебя в сарай и укроем, хорошо?"
     show daisy b_naked_diane_comfort2
     show diane f_shamed_talk_look_closed
-    cow "{b}*Sniff*{/b} O-okay."
+    cow "{b}*фырк*{/b} Хорошо."
     hide daisy
     hide diane
     with dissolve
     pause
     show player 34
-    player_name "( What in the hell just happened?! )"
-    player_name "( Was {b}Clyde{/b}'s kooky grandfather really a wizard?! )"
+    player_name "( Что, черт возьми, только что произошло?! )"
+    player_name "( Действительно ли сумасшедший дедушка {b}Клайда{/b} был волшебником?! )"
     pause
     show player 37 with dissolve
-    player_name "( {b}I should follow them into the barn and learn more.{/b} )"
+    player_name "( {b}Я должен пойти за ними в сарай и узнать больше.{/b} )"
     hide player with dissolve
     return
 
 label barn_statue_has_not_milk:
     scene expression player.location.background_blur with None
     show player 426 with dissolve
-    player_name "( Wow, the statue does look really good in Diane's garden! )"
+    player_name "( Вау, статуя действительно хорошо выглядит в саду Дианы! )"
     pause
-    player_name "( There is something off about it though. )"
-    player_name "( She almost looks like she's afraid... )"
+    player_name "( Однако в ней что-то не так. )"
+    player_name "( Она выглядит так, будто боится... )"
     pause
     show player 4 with dissolve
-    player_name "( ... And why does she have a {b}milk pail{/b}, I wonder? )"
+    player_name "( ... И почему у нее {b}ведерко с молоком{/b}, интересно? )"
     pause
     show player 426 with dissolve
-    player_name "( Hmm, strange... )"
+    player_name "( Хмм, странно... )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
