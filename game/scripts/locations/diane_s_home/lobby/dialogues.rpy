@@ -1,17 +1,17 @@
 label dianes_lobby_look_in_kitchen:
     scene expression "backgrounds/location_diane_entrance_day_blur.jpg"
     show player 30 with dissolve
-    player_name "I wonder what she's-"
+    player_name "Интересно, что она-"
     show player 10
-    dia "Mmm."
+    dia "Ммм."
     show player 22
-    dia "Oooh, God..."
+    dia "Оооо, Боже..."
     show player 30
-    player_name "{b}Diane's{/b} voice is coming from the kitchen!"
+    player_name "Голос {b}Дианы{/b} доносится из кухни!"
     show player 5
-    dia "That's so good!"
+    dia "Это так здорово!"
     show player 10
-    player_name "What in the world is she doing?"
+    player_name "Что же она делает?"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
