@@ -3,8 +3,8 @@ label living_room_diane_peeking:
     show player 299b at Position (yoffset=-431,xoffset=42)
     show diane reading_couch
     with dissolve
-    player_name "( It's just {b}Diane{/b}, but what's she doing out here by herself? )"
-    player_name "( Maybe I should hide and find out! )"
+    player_name "( Это просто {b}Диана{/b}, но что она здесь делает одна? )"
+    player_name "( Может, мне спрятаться и узнать? )"
     show player 299d at Position (yoffset=-291,xoffset=16) with dissolve
     pause
     scene expression "backgrounds/location_home_livingroom_couch08.jpg"
@@ -13,17 +13,17 @@ label living_room_diane_peeking:
     show player 433 zorder 0 at Position (xpos=200,ypos=820)
     with dissolve
     pause
-    dia "( Ugh, this stupid book! )"
-    dia "( Ever since {b}[firstname]{/b} brought it to me, it's all I can think about! )"
+    dia "( Ох, эта дурацкая книга! )"
+    dia "( С тех пор, как {b}[firstname]{/b} принес её мне, это все, о чем я могу думать! )"
     pause
     show diane f_couch_reading_lip_bite a_couch_reading_thinking with dissolve
-    dia "( Being bred like some broodmare... )"
+    dia "( Воспитывался, как племенная кобыла... )"
     show diane a_couch_reading_rub with dissolve
     pause
-    dia "( ... A strong bull taking me from behind. )"
-    dia "( Fucking me hard... )"
+    dia "( ... Сильный бык берет меня сзади. )"
+    dia "( Трахает меня жестко... )"
     pause
-    dia "( ... Filling me up. )"
+    dia "( ... Наполняет меня. )"
     show diane a_couch_reading_drop f_couch_down_front with dissolve
     pause
     show diane a_couch_boob_pull f_couch_smirk_down with dissolve
@@ -31,173 +31,173 @@ label living_room_diane_peeking:
     pause
     show diane a_couch_boob_pinch f_couch_explain b_couch_boob with dissolve
     show player 428
-    dia "Mmm, that's it..."
+    dia "Ммм, вот и..."
     show diane a_couch_boob_pinch f_couch_lip_bite
     pause
     show player 68b at Position (xoffset=3,yoffset=-1)
     show diane f_couch_explain
-    dia "Oh, {b}[firstname]{/b}!"
+    dia "О, {b}[firstname]{/b}!"
     show diane f_couch_lip_bite
     pause
     show diane f_couch_explain
-    dia "Ahh, breed me like an animal!!"
+    dia "Ааа, разведи меня как животное!!"
     show diane f_couch_lip_bite
     pause
     show player 430b at Position (xoffset=3)
-    player_name "... {b}Diane{/b}?"
+    player_name "... {b}Диана{/b}?"
     show player 430 at Position (xoffset=3)
     show diane f_couch_surprised a_couch_surprised with dissolve
     show player 430b at Position (xoffset=3)
-    player_name "What's going on?"
+    player_name "Что происходит?"
     show player 430 at Position (xoffset=3)
     show diane f_couch_surprised_front a_couch_boob_pull b_couch with dissolve
     pause
     show diane a_couch_hide with dissolve
     pause
     show diane f_couch_sad_talk
-    dia "N-nothing!"
-    dia "What are you-"
-    dia "I wasn't..."
+    dia "Ничего!"
+    dia "Что ты здесь-"
+    dia "Я не..."
     show diane f_couch_sad
     pause
     show diane f_couch_sad_talk
-    dia "... How long have you been there?"
+    dia "... Как долго ты там пробыл?"
     show diane f_couch_sad
     hide player
     show playerf 2 zorder 2 at Position (xpos=300)
     show playerfa 1 zorder 2 at Position (xpos=282,ypos=557)
     with dissolve
-    player_name "Umm, I dunno... A few minutes."
+    player_name "Умм, Я не... Пару минут."
     show playerf 2b
     dia "..."
     show playerf 2
-    player_name "Where's {b}[deb_name]{/b}?"
+    player_name "Где {b}[deb_name]{/b}?"
     show playerf 2b
     show diane f_couch_sad_talk
-    dia "She umm..."
-    dia "{b}*Ahem*{/b} She went to bed early tonight."
+    dia "Она эээ..."
+    dia "{b}*гм*{/b} Сегодня она рано легла спать."
     show diane f_couch_sad
     pause
     show playerf 2e
-    player_name "Was that the Breeder Guide?"
+    player_name "Это было руководство для разводчиков животных?"
     show playerf 2f
     pause
     show diane f_couch_shamed_talk_look
-    dia "... Yes."
+    dia "... Да."
     show diane f_couch_sad
     show playerf 2
-    player_name "I didn't know you kept it."
+    player_name "Я не знал, что ты сохранила его."
     show playerf 2b
     pause
     show diane f_couch_sad_talk
-    dia "I wasn't going to..."
+    dia "Я не собиралась этого делать..."
     show diane a_couch_reading_drop with dissolve
-    dia "... But I can't stop thinking about it."
+    dia "... Но я не могу перестать думать об этом."
     show diane f_couch_sad
     pause
     show diane f_couch_sad_talk
-    dia "It's just-"
-    dia "Thinking about, you know..."
+    dia "Только и-"
+    dia "Думаю об этом, ты знаешь..."
     show diane f_couch_sad
     show playerf 2
-    player_name "Being bred like an animal?"
+    player_name "Быть выращенным как животное?"
     show playerf 2b
     show diane f_couch_shamed_talk_smile_back
-    dia "Mmm, yeah."
+    dia "Ммм, да."
     show diane f_couch_shamed_front_talk
-    dia "It really turns me on..."
+    dia "Это действительно заводит меня ..."
     show diane f_couch_shamed_front
     pause
     show playerf 2
-    player_name "So why don't you do it, {b}Diane{/b}?"
-    player_name "I could-"
+    player_name "Так почему бы тебе не сделать это, {b}Диана{/b}?"
+    player_name "Я мог бы-"
     show playerf 2b
     show diane f_couch_sad_talk
     dia "{b}[firstname]{/b}..."
     show diane f_couch_sad
     show playerf 2
-    player_name "It would benefit your business."
+    player_name "Это пойдет на пользу твоему бизнесу."
     show playerf 2b
     show diane f_couch_sad_talk
-    dia "You know why we can't."
+    dia "Ты знаешь, почему мы не можем."
     show diane f_couch_sad
     show playerf 2
-    player_name "Why?!"
-    player_name "I really don't mind."
-    player_name "I want to help you!"
+    player_name "Почему?!"
+    player_name "Я действительно не против."
+    player_name "Я хочу тебе помочь!"
     show playerf 2b
     show diane f_couch_sad_talk
-    dia "Shh, you're gonna wake up {b}[deb_name]{/b}."
-    dia "She'll kill me."
+    dia "Тише, ты разбудишь {b}[deb_name]{/b}."
+    dia "Она убьет меня."
     show diane f_couch_sad
     show playerf 2
-    player_name "You really think so?"
-    player_name "That doesn't sound like {b}[deb_name]{/b}..."
-    player_name "She would want you to be happy!"
+    player_name "Ты действительно так думаешь?"
+    player_name "Это не похоже на {b}[deb_name]{/b}..."
+    player_name "Она хотела бы, чтобы ты была счастлива!"
     show playerf 2b
     show diane f_couch_sad_talk
-    dia "Happy..."
-    dia "I really don't-."
-    dia "I mean, I can't!"
+    dia "Счастлива..."
+    dia "Я действительно не-."
+    dia "Я имею в виду, я не могу!"
     show diane f_couch_sad
     player_name "..."
     show playerf 2
-    player_name "O-okay."
-    player_name "Don't worry, {b}Diane{/b}."
+    player_name "Хорошо."
+    player_name "Не переживай, {b}Диана{/b}."
     show playerf 2b
     show diane f_couch_sad_talk
     dia "{b}[firstname]{/b}..."
     show diane f_couch_sad
     show playerf 2
-    player_name "We'll figure something out."
-    player_name "Let me go check the internet really quick, maybe there is something else that can increase your production?"
+    player_name "Мы что-нибудь придумаем."
+    player_name "Позвольте мне проверить интернет очень быстро, может быть, есть что-то еще, что может увеличить ваше производство?"
     hide playerf
     hide playerfa
     with dissolve
     pause
     show diane f_couch_sad_talk
-    dia "{b}[firstname]{/b}, wait..."
-    dia "You really don't have to-"
+    dia "{b}[firstname]{/b}, подожди..."
+    dia "Тебе действительно не нужно-"
     show diane a_couch_facepalm f_couch_tired_down with dissolve
-    dia "( Oh, I've made such a mess of this. )"
+    dia "( О, я устроила такой беспорядок. )"
     pause
-    dia "( The poor kid, I should never have- )"
+    dia "( Бедный ребенок, я никогда не должна была- )"
     pause
     show diane a_couch_reading_drop f_couch_shamed_fardown with dissolve
-    dia "( He's so sweet though... )"
-    dia "( ... And caring. )"
-    dia "( ... And responsible. )"
+    dia "( Хотя он такой милый... )"
+    dia "( ... И заботливый. )"
+    dia "( ... И ответственный. )"
     show diane f_couch_shamed_front
-    dia "( {b}*Sigh*{/b} ... And handsome. )"
+    dia "( {b}*вздох*{/b} ... И красивый. )"
     pause
     show diane f_couch_shamed_fardown
-    dia "( I know it's wrong but a part of me really wants this too. )"
+    dia "( Я знаю, что это неправильно, но часть меня тоже этого хочет. )"
     pause
-    dia "( ... Maybe {b}[deb_name]{/b} really would be accepting of {b}[firstname] and I{/b}? )"
-    dia "( She's certainly done her share of kinky things in the past and I would never judge her if the shoe were on the other foot... )"
+    dia "( ... Может, {b}[deb_name]{/b} действительно примет {b} нас с [firstname]{/b}? )"
+    dia "( Она, конечно, сделала свою долю странных вещей в прошлом, и я бы никогда не осудил ее, если бы ботинок был на другой ноге... )"
     pause
     show diane f_couch_shamed_front
     dia "( {b}[firstname]{/b}... )"
-    dia "( I should go and talk with him. )"
+    dia "( Я должyf пойти и поговорить с ним. )"
     hide diane with dissolve
     scene expression "backgrounds/location_home_bedroom_night_blur.jpg"
     show player 10
     with dissolve
-    player_name "Poor, {b}Diane{/b}..."
-    player_name "I really wish she would just let me help her."
-    player_name "She's such a wonderful person and she's chasing her dream!"
-    player_name "I really wouldn't mind..."
+    player_name "Бедная, {b}Диана{/b}..."
+    player_name "Я очень хочу, чтобы она позволила мне помочь ей."
+    player_name "Она такой замечательный человек, и она преследует свою мечту!"
+    player_name "Я действительно не возражаю..."
     show player 79 at Position (xoffset=25) with dissolve
-    player_name "... H-having sex with her."
+    player_name "... Заняться с ней сексом."
     show player 83c
     pause
     show player 427b at Position (xoffset=50)
-    player_name "Why are you always interrupting me at the worst times?!"
+    player_name "Почему ты всегда перебиваешь меня в неподходящее время?!"
     show player 82
     pause
     show player 83
-    player_name "I'll have a hard time finding anything online right now."
-    player_name "... {b}I should rub one out really quick and clear my head.{/b}"
+    player_name "Мне будет трудно найти что-нибудь в интернете прямо сейчас."
+    player_name "... {b}Я должен вытереть один очень быстро и очистить голову.{/b}"
     hide player with dissolve
     return
 
@@ -901,9 +901,9 @@ label debbie_movie_night_couch_blowjob_loop:
 
 label debbie_movie_night_couch_blowjob_hscene_dialog:
     if animcounter == 1 and randomizer() < 25:
-        player_name "Oh, god!{p=1}{nw}"
+        player_name "О, боже!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
-        player_name "I can't-{p=1}{nw}"
+        player_name "Я не могу-{p=1}{nw}"
     return
 
 label mom_movie_night_couch_sex_blowjob_cum:
@@ -1068,7 +1068,7 @@ label debbie_movie_night_couch_sex_hscene_dialog:
     if animcounter == 1 and randomizer() < 25:
         deb "{b}[firstname]{/b}!!!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
-        deb "AAAAAHHHH!!!{p=1}{nw}"
+        deb "АААААХХХХХ!!!{p=1}{nw}"
     return
 
 label debbie_movie_night_couch_sex_cum:
