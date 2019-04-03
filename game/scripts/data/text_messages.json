@@ -1,44 +1,44 @@
 {
     "judith01": {
-        "sender": "judith",
-        "content_preview": "I'm in the washroom...",
-        "content": "I'm in the washroom...\nIf you want to meet me...",
+        "sender": "Джудит",
+        "content_preview": "Я в туалете...",
+        "content": "Я в туалете...\nЕсли ты хочешь встретиться со мной...",
         "image": "buttons/cellphone_text_judith01.png"
     },
     "mia01": {
-        "sender": "mia",
-        "content_preview": "HELP!",
-        "content": "HELP!",
+        "sender": "Мия",
+        "content_preview": "ПОМОГИ!",
+        "content": "ПОМОГИ!",
         "image": "buttons/cellphone_text_mia01.png"
     },
     "mia02": {
-        "sender": "mia",
-        "content_preview": "We can't find {b}my dad{/b}...",
-        "content": "We can't find {b}my dad{/b}...\nCan you come help us please?",
+        "sender": "Мия",
+        "content_preview": "Мы не можем найти {b}отца{/b}...",
+        "content": "Мы не можем найти {b}отца{/b}...\nТы можешь нам помочь, пожалуйста?",
         "image": "buttons/cellphone_text_mia01.png"
     },
     "diane_pregnancy" : {
-        "sender": "diane",
-        "content_preview": "I need to speak with you urgently!",
-        "content": "I think you did good work!\nCan you come see me ?",
+        "sender": "Диана",
+        "content_preview": "Мне нужно срочно с тобой поговорить!",
+        "content": "Я думаю, ты хорошо поработал!\nТы можешь навестить меня ?",
         "image": "buttons/cellphone_text_diane01.png"
     },
     "diane_pregnancy_labor" : {
-        "sender": "diane",
-        "content_preview": "The baby is coming!",
-        "content": "Meet me at the clinic!",
+        "sender": "Диана",
+        "content_preview": "Ребенок на подходе!",
+        "content": "Встретимся в клинике!",
         "image": "buttons/cellphone_text_diane01.png"
     },
     "daisy_pregnancy" : {
-        "sender": "diane",
-        "content_preview": "I need to speak with you urgently!",
-        "content": "It's about Daisy...\nCan you come see me ?",
+        "sender": "Диана",
+        "content_preview": "Мне нужно срочно с тобой поговорить!",
+        "content": "Это касается Дейзи...\nТы можешь навестить меня ?",
         "image": "buttons/cellphone_text_diane01.png"
     },
     "daisy_pregnancy_labor" : {
-        "sender": "diane",
-        "content_preview": "{b}Daisy{/b} gave birth last night.",
-        "content": "You should come and\nsee the baby!",
+        "sender": "Диана",
+        "content_preview": "{b}Дейзи{/b} родила прошлой ночью.",
+        "content": "Ты должен прийти и\nувидеть ребенка!",
         "image": "buttons/cellphone_text_diane01.png"
     }
 }
