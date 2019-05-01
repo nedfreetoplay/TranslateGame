@@ -378,11 +378,11 @@ label kitchen_diane_dinner:
     show player 14 at left
     show debbie 1 at right
     with dissolve
-    player_name "Hey, {b}[deb_name]{/b}. I have the {b}fish{/b} you wanted."
+    player_name "Привет, {b}[deb_name]{/b}. Я добыл {b}рыбу{/b} которая тебе нужна."
     show player 13
     show debbie 2
-    deb "Thanks, sweetie! Now I can finish dinner."
-    deb "I'll let you know when it's finished, okay?"
+    deb "Спасибо, милый! Теперь я могу закончить ужин."
+    deb "Я дам тебе знать, когда все закончится, хорошо?"
     show player 203
 
     scene black
@@ -391,64 +391,64 @@ label kitchen_diane_dinner:
     show diane b_classy a_classy_sides f_normal_talk at Position (xpos=600)
     show debbie 91f
     with dissolve
-    dia "Mmm, is that {b}Sea Trout{/b} I'm smelling?!"
-    dia "You didn't?!"
+    dia "Ммм, это {b}морской форелью{/b} пахнет?!"
+    dia "Чувствуешь?!"
     show diane f_normal
     show debbie 93f
-    deb "Of course I did!"
-    deb "I know how to treat my girl right!"
+    deb "Конечно, я чувствую!"
+    deb "Я знаю, как правильно обращаться с моей девочкой!"
     show diane f_laugh
     show debbie 91f
-    dia "Oh my gosh, I could totally kiss you right now!"
+    dia "Боже мой, я бы могла расцеловать тебя прямо сейчас!"
     show player 203 at left with dissolve
     show diane f_normal_talk
-    dia "There he is..."
-    dia "... The {b}man of the house{/b}!"
+    dia "Это все он..."
+    dia "... {b}мужчина дома{/b}!"
     show diane f_normal
     show player 14
-    player_name "Hey, {b}Diane{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 17
-    player_name "That dress looks great on you!"
+    player_name "Это платье отлично на тебе смотрится!"
     show diane f_laugh
     show player 203
-    dia "Oh stop it, you!"
+    dia "Ой, ну хватит!"
     show player 13
     show diane f_normal
     show debbie 93f
-    deb "He's quite the little charmer isn't he?"
+    deb "Он такой обаятельный, правда?"
     show diane f_normal_talk
     show debbie 91f
-    dia "I don't know how you manage to keep your hands off him!"
-    dia "Where's your other tenant? Is she going to join us tonight or did she have a Bitches of Summerville meeting to attend?"
+    dia "Я не знаю, как тебе удается держать свои руки подальше от него!"
+    dia "Где твой другой жилец? Она присоединится к нам сегодня вечером или у нее встреча с сучками из Саммервилля?"
     show player 10
     show diane f_normal
-    player_name "No, she's gonna eat with us."
+    player_name "Нет, она будет есть с нами."
     show player 12
-    player_name "... She's just upstairs getting ready."
+    player_name "... Она наверху, готовится."
     show player 203
     show diane f_laugh
-    dia "Typical princess..."
+    dia "Типичная принцесса..."
     show diane f_normal_talk
-    dia "Well, I'm not waiting for her! Not when {b}[deb_name]{/b}'s {b}Sea Trout{/b} is on the menu!"
+    dia "Ну, я ее не жду! Не тогда, когда в меню {b}морская форель{/b}, приготовленная {b}[deb_name]{/b}!"
     show debbie 92f
     show diane f_normal
-    deb "Hey, be nice!"
+    deb "Эй, веди себя хорошо!"
     show debbie 93f
-    deb "She's not as bad as you make her out to be..."
+    deb "Она не так плоха, как ты думаешь..."
     show debbie 91f
     show diane f_laugh
-    dia "Heh, if you say so."
+    dia "Хех, если ты так считаешь."
     show debbie 93f
     show diane f_normal
-    deb "I do. Now both of you get in there and sit down while I scrounge up a bottle of wine!"
+    deb "Да. А теперь вы оба идите туда и сядьте, пока я достану бутылку вина!"
     show debbie 92f
-    deb "I've got this new brand I want you to try."
+    deb "У меня есть этот новый бренд, я хочу, чтобы ты попробовала."
     hide debbie
     hide diane
     with dissolve
     show player 14
-    player_name "I should join them in the {b}Dining Room{/b}."
-    player_name "{b}[deb_name]{/b}'s cooking smells delicious!"
+    player_name "Я должен присоединиться к ним в {b}столовой{/b}."
+    player_name "Еда {b}[deb_name]{/b} пахнет вкусно!"
     hide player
     with dissolve
     scene location_home_dining
@@ -458,27 +458,27 @@ label kitchen_diane_dinner:
     show debbie 65 at Position(xpos=880)
     show table 1 zorder 1 at Position(xpos=0.4976,ypos=0.7630)
     with fade
-    deb "... the school really ordered that much?!"
-    deb "It's a good thing you've got {b}[firstname]{/b} to help you, huh?"
+    deb "... школа действительно столько заказала?!"
+    deb "Хорошо, что у тебя есть {b}[firstname]{/b}, чтобы помочь тебе, да?"
     show jenny 45 with dissolve
-    deb "It seems like he's always over there nowadays."
+    deb "Кажется, он теперь всегда там."
     show debbie 64
     show jenny 46 with dissolve
     show player 218
     show diane f_dinner_normal_talk
-    dia "Well there's just so much work that needs doing between the garden and the milk business."
-    dia "... And he's really shown an aptitude for it as well!"
+    dia "Ну, есть так много работы, которую нужно сделать между садом и молочным бизнесом."
+    dia "... И он действительно показал склонность к этому!"
     show diane f_dinner_normal
     show player 213
     show debbie 65
-    deb "Oh, really?"
+    deb "О, правда?"
     show jenny 48
     show debbie 64
     show diane f_dinner_normal_talk a_dinner_hand with dissolve
     show player 214
-    dia "Oh, yeah."
-    dia "You should really be proud of him, {b}[deb_name]{/b}!"
-    dia "He's such a responsible young man."
+    dia "О, да."
+    dia "Ты должна гордиться им, {b}[deb_name]{/b}!"
+    dia "Он такой ответственный молодой человек."
     show jenny 44 with dissolve
     show player 226b
     show diane f_dinner_normal a_dinner_hand2 b_dinner_open
@@ -486,55 +486,55 @@ label kitchen_diane_dinner:
     player_name "( !!! )"
     show jenny 45 with dissolve
     show diane f_dinner_normal_talk
-    dia "... Really smart..."
-    dia "... And strong..."
+    dia "... Очень умный..."
+    dia "... И сильный..."
     show player 226c
     show diane a_dinner_hand3
     with dissolve
-    dia "... And gentle."
+    dia "... И нежный."
     show jenny 44 with dissolve
     show diane f_dinner_normal
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*глоток*{/b}"
     show debbie 65
-    deb "Aww, of course I'm proud of him!"
+    deb "Конечно, я горжусь им!"
     if M_mom.finished_state(S_mom_diane_visit) or store._in_replay is not None:
         show debbie 67 with dissolve
-        deb "He's really been stepping up around here lately too."
+        deb "В последнее время он тоже стал здесь лучше."
         show debbie 68 with dissolve
         player_name "( !!! )"
         show debbie 69 with dissolve
         pause
         show debbie 71 with dissolve
-        deb "Helping out with chores..."
-        deb "... Doing maintenance around the house..."
+        deb "Помогает по хозяйству..."
+        deb "... Делает ремонт по дому..."
         show debbie 69 with dissolve
         pause
         show debbie 71 with dissolve
-        deb "... He's taking such good care of {b}[jen_name]{/b} and me."
+        deb "... Он хорошо заботится о {b}[jen_name]{/b} и мне."
         show debbie 69 with dissolve
-        player_name "Hehehe, I-"
+        player_name "Хехехе, Я-"
         show debbie 68 with dissolve
-        player_name "... I mean, it's-"
+        player_name "...т.е., это-"
     show jenny 47
     show debbie 64
     show player_dick 222
     with dissolve
-    jen "Ugh, all this lovey dovey shit is gonna make me barf..."
+    jen "Ух, вся эта хрень с голубками меня вырвет..."
     show diane f_dinner_annoyed_left_talk
-    dia "We don't need commentary from the peanut gallery, {b}[jen_name]{/b}..."
-    dia "Just eat your dinner and hush."
+    dia "Нам не нужны комментарии с галерки, {b}[jen_name]{/b}..."
+    dia "Просто ешь свой ужин и молчи."
     show diane f_dinner_normal
     show jenny 88b
-    jen "Psh, whatever..."
+    jen "Пф, неважно..."
     show jenny 48
     pause
     show jenny 47
-    jen "You guys are acting weird."
+    jen "Вы ведете себя странно."
     show jenny 48
     pause
-    jen "Hmm..."
+    jen "Хмм..."
     show jenny 86 at Position (xoffset=12) with dissolve
-    jen "... Oops."
+    jen "... Упс."
     show jenny 88c at left
     show diane f_dinner_annoyed_left
     with dissolve
@@ -558,76 +558,76 @@ label kitchen_diane_dinner:
     else:
         show jenny 46 zorder 0 at Position(xpos=0.1161,ypos=1.0000)
         with dissolve
-        jen "( What the fuck... )"
+        jen "( Какого хрена... )"
     show debbie 65
     show diane f_dinner_normal
-    deb "So have you had any luck finding a new workplace?"
+    deb "Вам удалось найти новое рабочее место?"
     show debbie 64
     show jenny 88c at left with dissolve
-    dia "Hmm?"
+    dia "Хмм?"
     show player 226
     show diane f_dinner_normal_talk a_dinner_touch1
     with dissolve
-    dia "Oh, uhh... No, unfortunately there just isn't anything available near town."
+    dia "Ох, ох... Нет, к сожалению, рядом с городом ничего нет."
     show diane f_dinner_normal a_dinner_touch
     show debbie 64d
     show player 224
-    deb "Please tell me you aren't really gonna move away from us..."
+    deb "Пожалуйста, скажи мне, что ты на самом деле не собираешься уходить от нас..."
     hide jenny
     show jenny 87 zorder 0 at Position(xpos=0.1161,ypos=1.0000)
     show debbie 64c
     show diane f_dinner_normal_talk a_dinner_touch1
     show player 226
     with dissolve
-    dia "Well, not if I can help it!"
+    dia "Нет, если я могу помочь!"
     show jenny 46
-    dia "{b}[firstname]{/b} actually came up with a good idea the other day..."
+    dia "{b}[firstname]{/b} на днях мне пришла в голову хорошая идея..."
     show diane f_dinner_normal
     show debbie 65
     show jenny 48b with dissolve
-    deb "Oh yeah?"
+    deb "Да?"
     show debbie 64
     show diane f_dinner_normal_talk
-    dia "Why buy a barn outside of town that doesn't even fit my business model?"
-    dia "Wouldn't it be much better to build a custom one on the land I already own?"
+    dia "Зачем покупать сарай за городом, который даже не соответствует моей бизнес-модели?"
+    dia "Не лучше ли было бы построить новый на земле, которой я уже владею?"
     show diane f_dinner_normal
     show debbie 64b
     show player 224
-    deb "Hmm?"
+    deb "Хмм?"
     show debbie 65
-    deb "You don't have enough land to build a barn, {b}Diane{/b}..."
+    deb "У тебя нет достаточно земли, чтобы построить сарай, {b}Диана{/b}..."
     show debbie 64
     show diane f_dinner_normal_talk
     show player 226
-    dia "Well no, not yet..."
-    dia "... But once I demolish the house, I think-"
+    dia "Нет, пока нет..."
+    dia "... Но как только я снесу дом, я думаю-"
     show diane f_dinner_normal
     show debbie 67 with dissolve
     show player 224
-    deb "You're gonna demolish your house?!"
+    deb "Ты собираешься снести свой дом?!"
     show debbie 64c with dissolve
     show diane f_dinner_normal_talk
     show player 226
-    dia "Sure, why not?"
+    dia "Конечно, почему бы и нет?"
     show diane f_dinner_normal
     show debbie 65
     show player 224
-    deb "I dunno."
-    deb "It's such a nice house..."
+    deb "Не знаю."
+    deb "Это такой хороший дом..."
     show debbie 64
     show diane f_dinner_laugh
     show player 226
-    dia "Psh, it's not that nice!"
+    dia "Пф, не такой он уж хороший!"
     show diane f_dinner_normal_talk
-    dia "It's way too big for me and besides, all it does is remind me of that asshole ex-husband of mine..."
+    dia "Он слишком велик для меня и, кроме того, все, что он делает, это напоминает мне о моем бывшем муже..."
     show diane f_dinner_normal
     show debbie 65
     show player 224
-    deb "Okay, but where will you live?"
+    deb "Хорошо, но где ты будешь жить?"
     show debbie 64
     show diane f_dinner_normal_talk
     show player 226
-    dia "Ehh, I'm not certain about that part yet..."
+    dia "Я пока не уверена насчет этого..."
     dia "I mean, I'm sure I can find something but I don't really have time to drag my feet on this."
     dia "If I'm gonna do it, I'll have to start construction right away!"
     dia "Otherwise I risk losing my customer base..."
