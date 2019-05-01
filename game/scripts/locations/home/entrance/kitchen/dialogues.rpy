@@ -628,143 +628,143 @@ label kitchen_diane_dinner:
     show diane f_dinner_normal_talk
     show player 226
     dia "Я пока не уверена насчет этого..."
-    dia "I mean, I'm sure I can find something but I don't really have time to drag my feet on this."
-    dia "If I'm gonna do it, I'll have to start construction right away!"
-    dia "Otherwise I risk losing my customer base..."
+    dia "Я имею в виду, я уверена, что смогу что-то найти, но у меня нет времени, чтобы затягивать это."
+    dia "Если я собираюсь это сделать, я должна начать строительство прямо сейчас!"
+    dia "В противном случае я рискую потерять свою клиентскую базу..."
     show diane f_dinner_normal
     deb "..."
     show debbie 65
     show player 224
-    deb "Do you even know anyone that's capable of building something like that?"
+    deb "Ты вообще знаешь кого-нибудь, кто способен построить что-то подобное?"
     show debbie 64
     show diane f_dinner_normal_talk
     show player 226
-    dia "Of course!"
-    dia "One of my best customers is married to a carpenter."
+    dia "Конечно!"
+    dia "Один из моих лучших клиентов замужем за плотником."
     show diane f_dinner_normal
     show player 225
-    player_name "Hmm?"
-    player_name "Oh, you mean {b}Annie's{/b} dad?"
+    player_name "Хмм?"
+    player_name "О, ты имеешь в виду отца {b}Энни{/b}?"
     show player 226
     show diane f_dinner_normal_talk
-    dia "Yeah, his name is {b}Richard{/b}, right?"
+    dia "Да, его зовут {b}Ричард{/b}, верно?"
     show diane f_dinner_normal
     show player 225
-    player_name "Yeah."
-    player_name "He doesn't seem like a very nice guy though..."
+    player_name "Да."
+    player_name "Хотя он не кажется очень хорошим парнем..."
     show player 226
     show diane f_dinner_normal_talk a_dinner_touch
-    dia "Well that's alright."
-    dia "I don't need him to be nice!"
-    dia "I just need him to be competent..."
-    dia "... And cheap!"
+    dia "Что ж, все в порядке."
+    dia "Мне не нужно, чтобы он был милым!"
+    dia "Мне просто нужно, чтобы он был компетентным..."
+    dia "... И дешев!"
     show diane f_dinner_laugh a_dinner_touch1
     show debbie 66
-    dia "Haha!"
-    deb "Haha!"
+    dia "Хаха!"
+    deb "Хаха!"
     show diane f_dinner_normal
     show debbie 65
     show player 224
-    deb "Well, you can always stay here with us while you look for a new place, you know?"
+    deb "Ну, ты всегда можешь остаться здесь с нами, пока ищешь новое место, понимаешь?"
     show debbie 64
     show jenny 46 with dissolve
     jen "( !!! )"
     show jenny 47
     show player 219
     show diane a_dinner_normal with dissolve
-    jen "What?!"
+    jen "Что?!"
     show jenny 48
     show diane f_dinner_normal_talk
-    dia "Oh, I don't want to be a bother..."
+    dia "О, я не хочу быть обузой..."
     show diane f_dinner_normal
     show debbie 65
     show player 213
-    deb "It's no bother!"
-    deb "You're as good as family and more than welcome to stay as long as you need!"
+    deb "Не беспокойся!"
+    deb "Ты как член семьи и более чем, добро пожаловать, можешь остаться так долго, как тебе нужно!"
     show debbie 64
     show jenny 47
     show player 219
-    jen "{b}[deb_name]{/b}, I really don't think it's a good idea-"
+    jen "{b}[deb_name]{/b}, Я действительно не думаю, что это хорошая идея-"
     show jenny 48
     show diane f_dinner_annoyed_left_talk
-    dia "Shh, nobody's talking to you..."
+    dia "Шшш, никто с тобой не разговаривает..."
     show diane f_dinner_normal
     show jenny 87
     show debbie 65
     show player 213
-    deb "I think it's a wonderful idea!"
-    deb "It'll give you kids a chance to bond with {b}Diane{/b}."
-    deb "Plus we could really use the extra help around here, even if it's just temporary..."
+    deb "Я думаю, это замечательная идея!"
+    deb "Это даст вам шанс сблизиться с {b}Дианой{/b}."
+    deb "К тому же нам бы не помешала дополнительная помощь, пусть даже временная..."
     show debbie 64
     show jenny 88
     show player 219
-    jen "Where's she gonna sleep?!"
+    jen "Где она будет спать?!"
     show jenny 48
     show debbie 65
     show player 213
-    deb "We'll figure something out."
+    deb "Мы что-нибудь придумаем."
     show debbie 64
     show diane f_dinner_normal_talk
     show player 214
-    dia "The couch would suit me just fine."
+    dia "Диван меня вполне устроит."
     show diane f_dinner_normal
     show jenny 88b
     show player 219
-    jen "Ugh, this is a stupid fucking idea!"
+    jen "Это, блядь, глупая идея!"
     show jenny 48
     show diane f_dinner_annoyed_left_talk
-    dia "Hey, don't talk to {b}[deb_name]{/b} like that!"
+    dia "Эй, не говори так с {b}[deb_name]{/b}!"
     show diane f_dinner_annoyed_left
     show jenny 87
     jen "..."
     show jenny 88
-    jen "Whatever."
-    jen "I'll be in my room."
+    jen "Неважно."
+    jen "Я буду в своей комнате."
     show jenny 88d with dissolve
     pause
     hide jenny with dissolve
     pause
     show player 214
     show diane f_dinner_normal_talk
-    dia "Sheesh, that girl needs to learn some respect..."
+    dia "Блин, этой девочке нужно научиться уважению..."
     show diane f_dinner_normal
     show debbie 65
     show player 213
-    deb "Oh, {b}Diane{/b}... Leave it be."
+    deb "О, {b}Диана{/b}... Оставь ее."
     show debbie 64
     show diane f_dinner_normal_talk
     show player 214
-    dia "I'm serious!"
-    dia "My parent's would have never have let me talk to them like that."
+    dia "Я серьезно!"
+    dia "Родители никогда бы не позволили мне так с ними разговаривать."
     show diane f_dinner_normal
     show debbie 65
     show player 213
-    deb "It's just a phase."
+    deb "Это просто переходной период."
     show debbie 64
     show diane f_dinner_normal_talk
     show player 214
-    dia "If you say so..."
+    dia "Как скажешь..."
     show diane f_dinner_normal
     show player 215
-    player_name "So {b}Diane{/b} is really gonna move in with us?"
+    player_name "{b}Диана{/b} действительно переедет к нам?"
     show player 213
     show debbie 65
-    deb "Sure!"
+    deb "Да!"
     show debbie 64
     show diane f_dinner_normal_talk
     show player 214
-    dia "Just give me a couple days to get the construction plans sorted out."
+    dia "Просто дай мне пару дней, чтобы разобраться с планами строительства."
     show diane f_dinner_normal
     show debbie 66
     show player 213
-    deb "Oh, this is so exciting!"
+    deb "О, это так волнующе!"
     show debbie 65
     show player 214
-    deb "It'll be just like those sleepovers we used to have when we were girls!"
+    deb "Это будет как те ночевки, которые мы устраивали, когда были девочками!"
     show diane f_dinner_laugh
     show debbie 66
-    dia "Hahaha!"
-    deb "Hahaha!"
+    dia "Хахаха!"
+    deb "Хахаха!"
     scene black with fade
     hide diane
     hide player
