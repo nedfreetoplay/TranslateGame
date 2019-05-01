@@ -1144,208 +1144,208 @@ label kitchen_mom_diane_visit:
     scene homekitchen_secret
     show diane b_kitchen a_empty f_normal_talk
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
-    dia "... I don't see the problem. Isn't it a good thing that he's helping you around the house?"
+    dia "... Я не вижу проблемы. Разве это не хорошо, что он помогает тебе по дому?"
     show diane f_normal
     show debbie 60f
-    deb "I know, it's just..."
-    deb "He's been so... affectionate towards me lately..."
+    deb "Я знаю, это просто..."
+    deb "Он был таким... в последнее время он ко мне очень привязан..."
     show diane f_laugh
     show debbie 59f
-    dia "That's not surprising, he just lost the only family he ever had..."
+    dia "Неудивительно, он только что потерял единственную семью, которая у него была..."
     show diane f_normal_talk
-    dia "He probably just needs someone he can feel close with..."
-    dia "Especially with all this other stuff that's been happening to you guys."
+    dia "Возможно, ему просто нужен кто-то, с кем он мог бы чувствовать себя ближе..."
+    dia "Особенно после всего того, что с вами происходит."
     show diane f_normal
     show debbie 17f at Position(xpos=0.3318,ypos=1.1130)
-    deb "It's not that. There's more to it! It's the way he looks at me, you know?"
+    deb "Дело не в этом. Это еще не все! Он так на меня смотрит, понимаешь?"
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
     show diane f_surprised
     dia "..."
     show diane f_normal_talk
-    dia "What do you mean?"
+    dia "Что ты имеешь в виду?"
     show diane f_normal
     show debbie 60f
-    deb "Well, a little while ago I.. I started noticing things..."
+    deb "Ну, некоторое время назад.. Я начала кое-что замечать..."
     show diane f_normal_talk
     show debbie 59f
-    dia "...Like?"
+    dia "...Например?"
     show diane f_normal
     show debbie 60f
-    deb "Like how he's always getting hard around me..."
-    deb "... And touching me... in certain ways."
+    deb "Например, как он всегда становится скованным со мной..."
+    deb "... И прикасаться ко мне... в некоторых отношениях."
     show diane f_surprised
     show debbie 59f
     dia "..."
     show debbie 60f
-    deb "... And the other day, I found him playing with himself; In my bed!"
-    deb "... With my underwear!"
+    deb "... А на днях я застала его играющим с самим собой в моей постели!"
+    deb "... С моим нижним бельем!"
     show diane f_normal_talk
     show debbie 59f at Position(xpos=0.3318,ypos=1.000)
-    dia "What did you do?!"
+    dia "Что ты сделала?!"
     show diane f_normal
     show debbie 60f
-    deb "We discussed it!"
-    deb "I told him not to do that kind of stuff in my room, but..."
+    deb "Мы это обсуждали!"
+    deb "Я сказала ему не делать этого в моей комнате, но....."
     show diane f_normal_talk
     show debbie 59f
-    dia "But, what?"
+    dia "Но, что?"
     show diane f_normal
     show debbie 60f at Position(xpos=0.3318,ypos=1.000)
-    deb "I caught him again! He apologized and started talking about urges that he couldn't control..."
+    deb "Я снова поймала его! Он извинился и начал говорить о желаниях, которые не мог контролировать..."
     show diane f_normal_talk
     show debbie 59f
-    dia "Okay, so what did you say to that?"
+    dia "Ладно, что ты на это сказала?"
     show diane f_surprised
     show debbie 17f at Position(xpos=0.3318,ypos=1.1130)
-    deb "... I kinda... Let him finish."
+    deb "... Я... Дала ему закончить."
     show diane f_normal_talk
     show debbie 20f at Position(xpos=0.3318,ypos=1.1130)
-    dia "You watched him masturbate?"
+    dia "Ты смотрела как он мастурбировал?"
     show diane f_normal
     show debbie 60f at Position(xpos=0.3318,ypos=1.000)
-    deb "I didn't know what to do!"
-    deb "I thought maybe if he just got it out of his system..."
-    deb "... You know?"
+    deb "Я не знала что делать!"
+    deb "Я подумала, может, если он просто выкинет это из головы..."
+    deb "... Знаешь?"
     show diane f_normal_talk
     show debbie 59f
-    dia "That's so naughty..."
+    dia "Это так неприлично..."
     show diane f_normal
     show debbie 60f
-    deb "There's more..."
+    deb "Это еще не все..."
     show diane f_normal_talk
     show debbie 59f
-    dia "More?!"
-    dia "You're serious?!"
-    dia "Tell me!"
+    dia "Еще?!"
+    dia "Ты серьезно?!"
+    dia "Расскажи мне!"
     show diane f_surprised
     show debbie 60f
-    deb "Diane..."
+    deb "Диана..."
     show diane f_normal_talk
     show debbie 59f
-    dia "{b}[deb_name]{/b}, tell me!"
+    dia "{b}[deb_name]{/b}, расскажи мне!"
     show diane f_surprised
     show debbie 60f
-    deb "... We've been taking showers together."
+    deb "... Мы вместе принимали душ."
     show diane f_normal_talk
     show debbie 59f
-    dia "Wow..."
+    dia "Вау..."
     show diane f_teasing
-    dia "... How is he?"
+    dia "... Как он?"
     show diane f_surprised
     show debbie 60f
-    deb "Diane!!"
+    deb "Диана!!"
     show diane f_laugh
     show debbie 59f
-    dia "What?!"
+    dia "Что?!"
     show diane f_thinking
-    dia "Don't act like a prude! We both know you're dying to tell me!"
+    dia "Не веди себя как ханжа! Мы оба знаем, что ты умираешь от желания рассказать мне!"
     show diane f_surprised
     show debbie 60f
-    deb "... {b}*Sigh*{/b}"
+    deb "... {b}*вздыхая*{/b}"
     show diane f_teasing
     show debbie 59f
-    dia "Did you... touch him?"
+    dia "Ты... трогала его?"
     show diane f_smirk
     show debbie 60f
-    deb "... Yes."
-    deb "I kinda, jerked him off..."
+    deb "... Да."
+    deb "Я его вроде как дрочила..."
     show diane f_teasing
     show debbie 59f
-    dia "All the way?"
+    dia "До конца?"
     show diane f_smirk
     show debbie 60f
-    deb "... Until he came, yeah."
+    deb "... Пока он не кончил."
     show debbie 59f
     if not M_diane.finished_state(S_diane_drunken_garden_work):
         show diane f_teasing
-        dia "So how is it?"
+        dia "Ну и как?"
         show diane f_smirk
         show debbie 60f
-        deb "... How is what?"
+        deb "... Как что?"
         show diane f_teasing
         show debbie 59f
-        dia "His {b}dick{/b}, {b}[deb_name]{/b}! Is it big?"
+        dia "Его {b}член{/b}, {b}[deb_name]{/b}! Он большой?"
         show diane f_smirk
         show debbie 60f
         deb "( !!! )"
         show debbie 59f
         deb "..."
         show diane f_explain
-        dia "Don't get shy on me now, girl. Spit it out!"
+        dia "Не стесняйся меня, девочка. Выкладывай!"
         show debbie 60f
         show diane f_smirk
-        deb "{b}Diane{/b}, he's got the biggest... {b}Dick{/b} I've ever seen!"
+        deb "{b}Диана{/b}, у него самый большой... {b}Член{/b}из тех, что я видела в жизни!"
         show diane f_teasing
         show debbie 59f
-        dia "... You don't say?!"
+        dia "... Что ты говоришь?!"
     show diane f_laugh
-    dia "I'm surprised you stopped at the handjob..."
+    dia "Я удивлена, что ты остановилась на мастурбации..."
     show diane f_smirk
     show debbie 16f at Position(xpos=0.3318,ypos=1.1130)
-    deb "{b}Diane{/b}, he's just a kid!"
+    deb "{b}Диана{/b}, он всего лишь ребенок!"
     show diane f_teasing
     show debbie 15f
-    dia "Pfft, he's in college!"
+    dia "Пфф, он ходит в колледже!"
     show diane f_smirk
     show debbie 16f
-    deb "Yeah, but I'm old enough to be his {b}Mother{/b}!"
+    deb "Да, но я достаточно взрослая, чтобы быть его {b}матерью{/b}!"
     show diane f_laugh
     show debbie 15f
-    dia "... But {b}you aren't{/b} his {b}Mother{/b}, {b}[deb_name]{/b}!"
+    dia "... Но {b}ты не{/b} его {b}мама{/b}, {b}[deb_name]{/b}!"
     show diane f_normal
     show debbie 16f
-    deb "Oh, I dunno, {b}Diane{/b}..."
+    deb "О, Я не знаю, {b}Диана{/b}..."
     show diane f_surprised
     show debbie 15f
-    dia "He obviously wants to."
+    dia "Он явно этого хочет."
     show diane f_normal
     show debbie 16f
-    deb "Please, tell me I'm not doing something terribly wrong here..."
+    deb "Пожалуйста, скажи мне, что я не делаю здесь ничего ужасного..."
     show diane f_normal_talk
     show debbie 15f
-    dia "It's your decision, but..."
-    dia "I think you should relax and enjoy it a little. Who care's about the age difference?"
+    dia "Это твое решение, но....."
+    dia "Думаю, тебе стоит расслабиться и немного насладиться этим. Кого волнует разница в возрасте?"
     show diane f_normal
     show debbie 16f
-    deb "Really? You don't think it's wrong?"
+    deb "Неужели? Ты не думаешь, что это неправильно?"
     show diane f_normal_talk
     show debbie 15f
-    dia "Nope. I don't see the harm in it!"
+    dia "Нет. Я не вижу в этом ничего плохого!"
     show diane f_normal
     show debbie 16f
-    deb "I suppose we aren't hurting anybody... And we're both consenting adults."
+    deb "Полагаю, мы никому не причиняем вреда... И мы обе взрослые."
     show diane f_laugh
     show debbie 15f
-    dia "Plus this is all really {b}HOT{/b}!"
+    dia "К тому же, это все очень {b}КРУТО{/b}!"
     show diane f_normal
     show debbie 16f
-    deb "You are such a bad influence! I don't know why I listen to you!"
+    deb "Ты так плохо на меня влияешь! Не знаю, почему я тебя слушаю!"
     show diane f_normal_talk
     show debbie 15f
-    dia "... Because you know I'm right! Just give it a chance. Who know's maybe it was meant to be?"
+    dia "... Потому что ты знаешь, что я права! Просто дай ему шанс. Кто знает, может, так и должно было быть?"
     show diane f_normal
     show debbie 62f at Position(xpos=0.3318,ypos=1.000)
-    deb "Yeah, I suppose anything is possible..."
+    deb "Да, полагаю, все возможно..."
     show diane f_normal_talk
     show debbie 61f
-    dia "Alright, well I'd better head home. It's getting late."
+    dia "Ладно, я лучше пойду домой. Уже поздно."
     show diane f_teasing
-    dia "We'll continue this another time. I want all the juicy details for my spank bank!"
+    dia "Продолжим в другой раз. Я хочу узнать все сочные детали!"
     show diane f_normal
     show debbie 62f
-    deb "{b}Diane{/b}! You're terrible!"
-    deb "Why don't you come by for dinner sometime? I'd love to see you more often!"
+    deb "{b}Диана{/b}! Ты ужасна!"
+    deb "Почему бы тебе не прийти на ужин? Я бы хотела видеть тебя почаще!"
     show debbie 61f
     show diane f_normal_talk
-    dia "I'm always down for dinner, {b}[deb_name]{/b}. Just as long as I'm not the one doing the cooking!"
-    dia "Good luck, Honey."
+    dia "Я всегда спускаюсь к ужину, {b}[deb_name]{/b}. До тех пор, пока я не буду готовить!"
+    dia "Удачи, дорогая."
     scene expression L_home_entrance.background
     show player 5
-    player_name "( That... was a lot to take in. )"
-    player_name "( {b}[deb_name]{/b} seemed really conflicted about all of this... )"
+    player_name "( Это... было слишком. )"
+    player_name "( {b}[deb_name]{/b} казалось, действительно сомневалась во всем этом... )"
     show player 203
-    player_name "( She said she's enjoying it, though. )"
-    player_name "( Either way, I'm glad {b}Diane{/b} thinks it's okay for us to be doing these things! )"
+    player_name "( Она сказала, что ей это нравится. )"
+    player_name "( В любом случае, я рад, что {b}Диана{/b} думает, что это нормально для нас, делать такие вещи! )"
     return
 
 label kitchen_mom_kissing_practice:
