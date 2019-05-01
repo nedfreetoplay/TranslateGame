@@ -1607,94 +1607,94 @@ label kitchen_diane_debbie_evening_visit:
     show diane b_kitchen a_empty
     show debbie 165bf at Position(xpos=0.3318,ypos=1.000)
     with dissolve
-    deb "And you're getting plenty of rest?"
+    deb "И ты много отдыхаешь?"
     show debbie 169bf
     show diane f_lookup
-    dia "... Yes, Mom."
+    dia "... Да, Мам."
     show diane f_smirk
     show debbie 165f
-    deb "Oh, hush!"
+    deb "О, тише!"
     show debbie 164f
     show diane f_laugh
-    dia "Haha!"
+    dia "Хаха!"
     show diane f_normal
     show debbie 165f
-    deb "I just worry about you is all."
+    deb "Я просто беспокоюсь о тебе, вот и все."
     show debbie 164f
     show diane f_normal_talk
-    dia "I know, {b}[deb_name]{/b} and I really do appreciate it..."
-    dia "... But I've got everything under control, I promise!"
-    dia "I've settled into a nice work schedule and {b}[firstname]{/b} has been making sure I stick to it."
+    dia "Я знаю, мы с {b}[deb_name]{/b} очень ценим это..."
+    dia "... Но у меня все под контролем, обещаю!"
+    dia "У меня хороший рабочий график, и {b}[firstname]{/b} следит, чтобы я его придерживалась."
     show diane f_normal
     show debbie 165bf
-    deb "He doesn't know... About the... You know..."
+    deb "Он не знает... О своем... Ты знаешь..."
     show debbie 169bf
     show diane f_shamed_talk_smile
-    dia "Mmm, yeah..."
+    dia "Ммм, да..."
     show diane f_shamed
     show debbie 165bf
-    deb "{b}Diane{/b}..."
+    deb "{b}Диана{/b}..."
     show debbie 169bf
     show diane f_shamed_talk_smile
-    dia "I didn't mean for him to find out!"
-    dia "He caught me that night you sent him over with the pie..."
+    dia "Я не хотела, чтобы он узнал!"
+    dia "Он поймал меня в ту ночь, когда ты послала его с пирогом..."
     show diane f_shamed
     show debbie 169bf
     deb "..."
     show diane f_smirk_talk
-    dia "Thanks for that, by the way."
+    dia "Кстати, спасибо за это."
     show diane f_smirk
     show debbie 164bf at Position (xoffset=10) with dissolve
     deb "..."
     show diane f_laugh
-    dia "I mean, the pie was delicious!"
+    dia "Я имею в виду, пирог был восхитительным!"
     show diane f_smirk
     show debbie 165bf with dissolve
-    deb "You know, if you'd told me what you were up to from the start, I never would have sent him over to work in your garden this summer..."
+    deb "Знаешь, если бы ты с самого начала рассказала мне, что ты задумала, я бы никогда не отправила его работать в твой сад этим летом..."
     show debbie 169bf
     show diane f_laugh
-    dia "Haha, well I guess it's a good thing I didn't tell you then, huh?"
+    dia "Ха-ха, хорошо, что я не сказала тебе тогда, а?"
     show diane f_smirk
     deb "..."
     show diane f_normal_talk
-    dia "And besides, my garden has never looked better."
-    dia "You should see the size of the crops {b}[firstname]{/b} is producing!"
+    dia "И кроме того, мой сад никогда не выглядел так хорошо."
+    dia "Ты должна увидеть размер овощей, которые выращивает {b}[firstname]{/b}!"
     show diane f_normal
     deb "..."
     show debbie 165bf
-    deb "You don't have him in there with you while you're doing it, do you?"
+    deb "Он ведь не будет с тобой, пока ты этим занимаешься?"
     show debbie 169bf
     show diane f_surprised_down
-    dia "What?"
+    dia "Что?"
     show diane f_shamed_talk_smile
-    dia "... Uhh, no. Not usually."
+    dia "... Ухх, нет. Обычно нет."
     show diane f_shamed
     show debbie 165bf
-    deb "{b}Diane{/b}!!!"
+    deb "{b}Диана{/b}!!!"
     show debbie 169bf
     show diane f_shamed_talk_smile
-    dia "What?!"
+    dia "Что?!"
     show diane f_shamed_talk
-    dia "You know how he is!"
-    dia "So determined he has to help out with every little thing..."
+    dia "Ты же знаешь, какой он!"
+    dia "Такой решительный, он должен помогать с каждой мелочью..."
     show diane f_shamed_talk_smile
-    dia "He keeps popping his head in and asking to lend a hand!"
+    dia "Он все время заглядывает и просит помочь!"
     show diane f_shamed_talk_look
-    dia "Then you go and get him all worked up about my health, so now it's practically impossible to keep him out!"
+    dia "Тогда иди и заставь его волноваться о моем здоровье, так что теперь его практически невозможно удержать!"
     show diane f_shamed
     show debbie 165bf
-    deb "Hmm, it might be best if he stops working for you..."
+    deb "Возможно, будет лучше, если он перестанет работать на тебя..."
     show debbie 169bf
     show diane f_shamed_talk
-    dia "Oh, now you're just being ridiculous!"
+    dia "О, теперь ты просто смешная!"
     show diane f_shamed
     show debbie 165bf
-    deb "You shouldn't be exposing him to-"
+    deb "Ты не должна подвергать его опасности-"
     show debbie 169bf
     show diane f_shamed_talk
-    dia "He's not a kid anymore, {b}[deb_name]{/b}!"
+    dia "Он больше не ребенок, {b}[deb_name]{/b}!"
     show diane f_normal_talk
-    dia "I think he can handle seeing a pair of tits..."
+    dia "Я думаю, он справится с парой сисек..."
     show diane f_normal
     deb "..."
     if M_mom.finished_state(S_mom_diane_visit):
