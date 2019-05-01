@@ -1699,201 +1699,201 @@ label kitchen_diane_debbie_evening_visit:
     deb "..."
     if M_mom.finished_state(S_mom_diane_visit):
         show diane f_smirk_talk
-        dia "Besides, the stuff happening in my shed is far tamer than you're little shower sessions with him!"
+        dia "Кроме того, вещи, происходящие в моем сарае, намного более укрощены, чем ваши маленькие душевые с ним!"
         show diane f_smirk
         show debbie 164bf at Position (xoffset=10)
         deb "!!!" with hpunch
         show debbie 166df with dissolve
-        deb "That's not- !!"
+        deb "Это не- !!"
         show debbie 166cf
-        deb "{b}*Sigh*{/b} I should never have told you about that..."
+        deb "{b}*вздыхая*{/b} Мне не следовало говорить тебе об этом..."
         show debbie 166ef
         show diane f_laugh
-        dia "Haha, please!"
+        dia "Ха-ха, пожалуйста!"
         show diane f_smirk_talk
-        dia "Who else do you have to discuss these things with?!"
-        dia "Besides, I think it's super hot!"
+        dia "С кем еще ты можешь это обсуждать?!"
+        dia "Кроме того, я думаю, что это супер горячо!"
         show diane f_smirk
         show debbie 165bf
-        deb "Yeah, I'm aware."
+        deb "Да, я знаю."
         show debbie 169bf
     else:
         show diane f_normal_talk
-        dia "You're really making too big a deal of this, {b}[deb_name]{/b}!"
-        dia "{b}[firstname]{/b} is really mature for his age."
+        dia "Ты действительно придаешь этому слишком большое значение, {b}[deb_name]{/b}!"
+        dia "{b}[firstname]{/b} очень зрелый для своего возраста."
         show diane f_normal
         deb "..."
         show diane f_explain
-        dia "He's been a perfect gentleman about the whole thing."
+        dia "Он вел себя как настоящий джентльмен."
         show diane f_normal_talk
-        dia "You should spend more time with him and you'd see what I mean."
+        dia "Тебе стоит проводить с ним больше времени, и ты поймешь, что я имею в виду."
         show diane f_normal
         show debbie 165bf
-        deb "You really think he can handle it?"
+        deb "Ты правда думаешь, что он справится?"
         show debbie 169bf
         show diane f_laugh
-        dia "I'm positive!"
+        dia "Я уверена!"
         show diane f_normal
         show debbie 166bf
-        deb "( Hmm, maybe I should spend more time with him... )"
+        deb "( Хмм, может мне стоит проводить с ним больше времени... )"
         show debbie 169bf
     show diane f_normal_talk
-    dia "Look, I just can't afford to lose {b}[firstname]{/b} right now, {b}[deb_name]{/b}."
-    dia "Not when my business is just taking off."
+    dia "Слушай, я просто не могу позволить себе потерять {b}[firstname]{/b} прямо сейчас, {b}[deb_name]{/b}."
+    dia "Не тогда, когда мой бизнес только начинается."
     show diane f_normal
     deb "..."
     show debbie 165bf
-    deb "Things are really going that well, huh?"
+    deb "Все действительно так хорошо, да?"
     show debbie 169bf
     show diane f_laugh
-    dia "Better than I ever imagined!"
+    dia "Лучше, чем я могла себе представить!"
     show diane f_normal_talk
-    dia "I'm already looking into ways to expand."
+    dia "Я уже ищу способы расширения."
     show diane f_normal
     show debbie 165bf
-    deb "What do you mean expand?"
+    deb "Что значит расширить?"
     show debbie 169bf
     show diane f_normal_talk
-    dia "Well, getting a proper work space for one thing."
+    dia "Ну, во-первых, найти подходящее место для работы."
     show diane f_normal
     show debbie 165bf
-    deb "Workspace?"
+    deb "Рабочее место?"
     show debbie 169bf
     show diane f_laugh
-    dia "Yeah!"
+    dia "Да!"
     show diane f_thinking
-    dia "I was looking at the most adorable little barn the other day, about two hours drive outside of town."
+    dia "На днях я смотрела на самый очаровательный маленький сарай, примерно в двух часах езды от города."
     show diane f_normal_talk
-    dia "I'll have to send you the pictures."
+    dia "Я пришлю тебе фотографии."
     show diane f_normal
     show debbie 168f
-    deb "Barn?!"
-    deb "You can't be serious!"
+    deb "Сарай?!"
+    deb "Ты это не серьезно!"
     show debbie 164f
     show diane f_explain
-    dia "Heh I'm dead serious!"
+    dia "Ха, я чертовски серьезна!"
     show diane f_normal_talk
-    dia "You know I've always wanted one!"
+    dia "Ты же знаешь, я всегда мечтала об этом!"
     show diane f_normal
     show debbie 165f
-    deb "Yeah but you have to admit, this isn't the kind of livestock you envisioned filling it with..."
+    deb "Да, но ты должна признать, что это не тот скот, которым ты представляла его наполнить..."
     show debbie 164f
     show diane f_normal_talk
-    dia "True."
+    dia "Правда."
     show diane f_smirk_talk
-    dia "... This is way better than what I had planned!"
+    dia "... Это намного лучше, чем я планировала!"
     show diane f_smirk
     show debbie 168f
-    deb "Oh my gosh, you're such a wierdo..."
+    deb "Боже мой, ты такая странная..."
     show debbie 165f
     show diane f_laugh
-    dia "Hahaha!"
-    deb "Hahaha!"
+    dia "Хахаха!"
+    deb "Хахаха!"
     show diane f_normal
-    deb "So where is this all going anyway?"
-    deb "Are you eventually gonna start looking for more women to join your little milk business?"
+    deb "Так к чему все это идет?"
+    deb "Ты в конце концов начнешь искать больше женщин, чтобы присоединиться к твоему маленькому молочному бизнесу?"
     show debbie 164f
     show diane f_normal_talk
-    dia "Yeah, maybe..."
-    dia "I mean, I'm not there yet, but it's definitely something I've thought about..."
+    dia "Да, возможно..."
+    dia "Я имею в виду, я еще не там, но это определенно то, о чем я думала..."
     show diane f_smirk_talk
-    dia "... Is that your way of volunteering?"
+    dia "... Это твой способ волонтерства?"
     show diane f_smirk
     show debbie 168f
-    deb "Pfft, yeah right!"
+    deb "Пфф, да!"
     show debbie 164f
     show diane f_laugh
-    dia "Haha, c'mon!"
+    dia "Ха-ха, давай!"
     show diane f_smirk
     show debbie 165f
-    deb "No way!"
-    deb "I'm not getting mixed up with all your silly dreams."
+    deb "Ни за что!"
+    deb "Я не собираюсь вмешиваться во все твои глупые мечты."
     show debbie 164f
     show diane f_smirk_talk
-    dia "You are such a wet blanket sometimes..."
-    dia "... But see, that's why I need {b}[firstname]{/b} to keep helping me!"
-    dia "Nobody else will work as hard as he does..."
+    dia "Иногда ты становишься таким мокрым одеялом..."
+    dia "...Но видишь, вот почему мне нужно чтобы {b}[firstname]{/b} продолжал помогать мне!"
+    dia "Никто не будет работать так усердно, как он..."
     show diane f_thinking
-    dia "... At least nobody that I can afford to pay."
+    dia "... По крайней мере, никого, кому я могла бы заплатить."
     show diane f_normal
     show debbie 169bf
     deb "..."
     show debbie 165bf
-    deb "Ugh, fine."
-    deb "... But I want you to promise me there won't be any funny business going on!"
+    deb "Тьфу, хорошо."
+    deb "... Но я хочу, чтобы ты пообещала мне, что не будет никакого смешного дела!"
     show debbie 169bf
     show diane f_normal_talk
-    dia "Oh my gosh, stop worrying!"
-    dia "I'll be on my best behaviour, I promise."
+    dia "О боже, перестань волноваться!"
+    dia "Я буду хорошо себя вести, обещаю."
     show diane f_normal
     show debbie 169bf
-    deb "Hmmph."
+    deb "Хммм."
     show debbie 169bf
     dia "..."
     show debbie 165bf
-    deb "Two hours?!"
-    deb "Are all the barns you're looking at so far away?"
+    deb "Два часа?!"
+    deb "Все амбары, которые ты смотрала, так далеко?"
     show debbie 169bf
     show diane f_normal_talk
-    dia "Pretty much."
-    dia "{b}Mayor Rump{/b} owns all the farm land just outside town and he's refusing to sell for some reason."
-    dia "So I've been forced to look a bit further out."
+    dia "Большинство."
+    dia "{b}Мэр Рамп{/b} владеет всеми сельскохозяйственными угодьями за пределами города, и он отказывается продавать их по какой-то причине."
+    dia "Поэтому я была вынуждена смотреть немного дальше."
     show diane f_normal
     show debbie 165bf
-    deb "Gosh, what am I gonna do if you move away?"
+    deb "Боже, что мне делать, если ты уедешь?"
     show debbie 169bf
     show diane f_normal_talk
-    dia "Oh, don't get all boo-hooey yet."
-    dia "There's still time and who knows, I might find something closer."
+    dia "О, не надо пока всяких глупостей."
+    dia "Еще есть время, и кто знает, может, я найду что-нибудь поближе."
     show diane f_normal
     deb "..."
     show diane f_laugh
-    dia "If you keep making that face, it's gonna freeze that way..."
+    dia "Если ты продолжишь делать такое лицо, оно замерзнет..."
     show diane f_normal
     show debbie 168f
-    deb "Heh, shut up!"
+    deb "Хех, заткнись!"
     show debbie 164f
     show diane f_laugh
-    dia "Hahaha!"
+    dia "Хахаха!"
     show diane f_surprised_down
-    dia "Oh my gosh, look at the time..."
+    dia "Боже мой, посмотри на время..."
     show diane f_normal_talk
-    dia "I've gotta get home and pump one more batch before bed."
+    dia "Мне нужно вернуться домой и накачать еще одну порцию перед сном."
     show diane f_normal
     show debbie 165f
-    deb "Aww but you just got here!"
+    deb "Но ты же только что пришла!"
     show debbie 164f
     show diane f_shamed_talk_smile
-    dia "I know, I'm sorry."
+    dia "Я знаю, мне жаль."
     show diane f_normal_talk
-    dia "I'll call you tomorrow, okay?"
+    dia "Я позвоню тебе завтра, хорошо?"
     show diane f_normal
     show debbie 165f
-    deb "Yeah, okay."
+    deb "Да, хорошо."
     hide debbie
     show diane hug_deb
     with dissolve
-    deb "Be careful going home."
+    deb "Будь осторожна."
     show diane hug_deb_talk
-    dia "I will."
+    dia "Хорошо."
     show debbie 164f at Position(xpos=0.3318,ypos=1.000)
     show diane f_laugh b_casual a_casual_sides at lright
     with dissolve
-    dia "Don't forget to try that milk I brought you!"
+    dia "Не забудь попробовать молоко, которое я тебе принесла!"
     show diane f_normal
     show debbie 165f
-    deb "Ehh, we'll see..."
+    deb "Посмотрим, посмотрим..."
     show debbie 164f
     show diane f_normal_talk
-    dia "I'm serious, {b}[deb_name]{/b}!"
-    dia "Put a splash in your morning coffee or something."
-    dia "You'll be hooked, I'm telling ya!"
+    dia "Я серьезно, {b}[deb_name]{/b}!"
+    dia "Плесни себе в утренний кофе."
+    dia "Тебе понравиться, говорю тебе!"
     show diane f_normal
     show debbie 165f
-    deb "Goodbye, {b}Diane{/b}..."
+    deb "Пока, {b}Диана{/b}..."
     show debbie 164f
     show diane f_laugh
-    dia "Hahaha! See ya, {b}[deb_name]{/b}."
+    dia "Хахаха! Пока, {b}[deb_name]{/b}."
     scene black
     with fade
     hide diane
@@ -1903,26 +1903,26 @@ label kitchen_diane_debbie_evening_visit:
     show player 5 at left with dissolve
     show diane b_casual a_casual_sides f_smirk_talk
     with dissolve
-    dia "Oh, hey there {b}[firstname]{/b}!"
-    dia "Are your ears burning?"
+    dia "О, привет {b}[firstname]{/b}!"
+    dia "- У тебя уши горят?"
     show diane f_smirk
     show player 10
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 5
     show diane f_smirk_talk
-    dia "We were just talking about you..."
+    dia "Мы только что говорили о тебе..."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "O-oh, yeah?"
+    player_name "О, правда?"
     show player 3
     show diane f_smirk_talk
-    dia "You coming by tomorrow?"
+    dia "Ты придешь завтра?"
     show diane f_smirk
     show player 29
-    player_name "I dunno, maybe..."
+    player_name "Не знаю, может быть..."
     show player 3
     show diane f_smirk_talk
-    dia "Well, I hope you do."
+    dia "Ну, я надеюсь, что ты придешь."
     hide player
     show diane kiss_casual
     with dissolve
@@ -1930,17 +1930,17 @@ label kitchen_diane_debbie_evening_visit:
     show player 21 at left
     show diane f_smirk_talk b_casual a_casual_sides
     with dissolve
-    dia "I'm gonna need those magic hands of yours for a big job real soon..."
+    dia "Мне скоро понадобятся твои волшебные руки для большой работы..."
     show diane f_smirk
     show player 28
-    player_name "{b}*Gulp*{/b} O-okay."
+    player_name "{b}*глоток*{/b} Хорошо."
     show player 21
     show diane f_laugh
-    dia "Hehe."
-    dia "See ya, stud!"
+    dia "Хехе."
+    dia "Пока, жеребец!"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "Bye, {b}Diane{/b}."
+    player_name "Пока, {b}Диана{/b}."
     hide player
     hide diane
     with dissolve
