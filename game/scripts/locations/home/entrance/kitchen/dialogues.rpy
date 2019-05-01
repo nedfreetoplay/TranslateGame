@@ -105,107 +105,107 @@ label kitchen_diane_breeding_candidate:
     show jenny at Position (xpos=200)
     show debbie 1 zorder 1 at right
     with dissolve
-    player_name "Good morning."
+    player_name "Доброе утро."
     show player 13
     show jenny f_eyeroll
     show debbie 2
-    deb "Morning, sweetie!"
+    deb "Доброе утро, милый!"
     show debbie 1
     show jenny f_upset
     show player 10
-    player_name "Where's {b}Diane{/b}?"
+    player_name "Где {b}Диана{/b}?"
     show player 13 with None
     show jenny at unflip
     show jenny zorder 0 at Position (xpos=-200)
     with dissolve
-    deb "Hmm?"
+    deb "Хмм?"
     show debbie 2
-    deb "Oh, she took off early this morning, all excited about something."
+    deb "О, она ушла рано утром, взволнованная чем-то."
     show debbie 1
     show player 14
-    player_name "Excited?"
+    player_name "Взволнованная?"
     show player 13
     show debbie 2
-    deb "Yeah, she was even more amped up than the morning her barn was finished."
+    deb "Да, она была еще более возбуждена, чем в то утро, когда ее сарай был закончен."
     show debbie 1
     show player 14
-    player_name "Really?"
+    player_name "Правда?"
     show player 13
     show jenny f_upset_talk
-    jen "She's so weird..."
+    jen "Она такая странная..."
     show jenny f_upset
     show debbie 13
-    deb "Oh, hush."
+    deb "О, тише."
     show debbie 14
     show jenny f_eyeroll
-    jen "Well she is!"
+    jen "Так и есть!"
     show jenny f_upset
     show debbie 13
     deb "{b}[jen_name]{/b}!"
     show debbie 14b
     pause
     show debbie 2
-    deb "Did {b}Diane{/b} tell you what's going on?"
+    deb "{b}Диана{/b} сказала тебе, что происходит?"
     show debbie 1
     show player 29 with dissolve
-    player_name "Oh, uhh..."
-    player_name "N-nope, heh."
+    player_name "О, эээ..."
+    player_name "Нет."
     show player 14 with dissolve
-    player_name "I should probably get over there and see what she's up to..."
+    player_name "Наверное, мне стоит пойти туда и посмотреть, что она задумала..."
     show player 13
     show debbie 2
-    deb "Well, hold on now."
-    deb "You need your breakfast!"
+    deb "Ну, погоди-ка."
+    deb "Тебе нужно позавтракать!"
     show debbie 1
     show player 14
-    player_name "No, that's okay."
-    player_name "I'm not really hungry."
+    player_name "Нет, спасибо."
+    player_name "Я не голоден."
     show player 13
     show debbie 2
-    deb "Tsk, it's not good to skip breakfast, {b}[firstname]{/b}."
+    deb "Цц, нехорошо пропускать завтрак, {b}[firstname]{/b}."
     show debbie 1
     show player 14
-    player_name "Really {b}[deb_name]{/b}, I'm fine."
-    player_name "Thanks though!"
+    player_name "Правда {b}[deb_name]{/b}, я в порядке."
+    player_name "Спасибо!"
     show player 13
     deb "..."
     show debbie 2
-    deb "Okay."
+    deb "Хорошо."
     show debbie 1
     show player 14
-    player_name "I'll see you both later tonight."
+    player_name "Увидимся вечером."
     show player 13
     show debbie 2
-    deb "Be careful, sweetie."
+    deb "Будь осторожен, милый."
     show debbie 1
     hide player with dissolve
     pause
     show jenny f_gross
     jen "..."
     show jenny f_upset_talk
-    jen "Something strange is going on with those two."
+    jen "Что-то странное происходит с этими двумя."
     show jenny f_upset
     show debbie 2
-    deb "What do you mean?"
+    deb "Что ты имеешь в виду?"
     show debbie 1 with None
     show jenny at flip
     show jenny at Position (xpos=0)
     with dissolve
     jen "..."
     show debbie 2
-    deb "They're just excited about the new business."
+    deb "Они просто в восторге от нового бизнеса."
     show debbie 1
     show jenny f_upset_talk
-    jen "Yeah, right."
+    jen "Да, ага, точно."
     show jenny f_upset
     show debbie 14
-    deb "Hmm?"
+    deb "Хмм?"
     show jenny f_upset_talk
-    jen "Ugh, nothing. Nevermind."
-    jen "I'll be in my room."
+    jen "Тьфу, ничего. Неважно."
+    jen "Я буду в своей комнате."
     hide jenny with dissolve
     show debbie 13
-    deb "Alright, dear."
+    deb "Хорошо, дорогая."
     hide debbie with dissolve
     return
 
