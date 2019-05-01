@@ -775,39 +775,39 @@ label kitchen_diane_dinner:
     show debbie 91f
     show player 203 at left
     with dissolve
-    dia "Well, I guess I'll head home and start packing!"
+    dia "Что ж, я пойду домой и начну собираться!"
     show diane f_normal
     show debbie 92f
-    deb "I can't wait!"
+    deb "Не могу ждать!"
     show debbie 91f
     show diane f_laugh
-    dia "Hehe, me neither!"
+    dia "Хе-хе, я тоже!"
     hide debbie
     show diane dinner_hug4
     with dissolve
-    dia "I'll see you really soon."
+    dia "Скоро увидимся."
     show diane dinner_hug3
-    deb "Be careful going home!"
+    deb "Будь осторожна!"
     show debbie 91f
     show diane b_classy a_classy_sides f_normal_talk
     with dissolve
-    dia "I always am."
+    dia "Я всегда осторожна."
     show debbie 91 at Position (xoffset=100)
     hide player
     show diane dinner_hug2
     with dissolve
-    dia "Come by the house soon, {b}[firstname]{/b}."
-    dia "I'll definitely need your help with all this."
+    dia "Приходи домой поскорее, {b}[firstname]{/b}."
+    dia "Мне определенно понадобится твоя помощь со всем этим."
     show diane dinner_hug1
-    player_name "Y-yeah, okay."
+    player_name "Да, хорошо."
     show debbie 91f
     show player 13 at left
     show diane b_classy a_classy_sides f_shamed_talk_smile
     with dissolve
-    dia "And tell the princess I said bye."
+    dia "И передай принцессе, что я попрощалась."
     show diane f_normal
     show debbie 93f
-    deb "Hehe, will do."
+    deb "Хехе, хорошо."
     hide debbie
     hide diane
     hide player
@@ -819,24 +819,24 @@ label kitchen_diane_dinner:
 
 label kitchen_diane_debbie_dinner_outfit:
     pause
-    deb "Oh!"
-    deb "{b}[firstname]{/b}, before you go, do you have a second to look at something?"
+    deb "О!"
+    deb "{b}[firstname]{/b}, перед уходом, у тебя есть минутка на кое-что посмотреть?"
     show player 14
     show debbie 61
-    player_name "Of course, {b}[deb_name]{/b}. What do you need?"
+    player_name "Конечно, {b}[deb_name]{/b}. Что тебе нужно?"
     show player 1
     show debbie 62
-    deb "I have a new outfit for dinner tonight and I wanted to get your opinion."
-    deb "Let me go put it on real fast."
+    deb "У меня сегодня на ужин новый наряд, и я хотела узнать твое мнение."
+    deb "Позволь мне надеть его, я очень быстро."
     hide debbie with dissolve
     scene home_livingroom_b
     show player 14
-    player_name "I'm excited to see {b}[deb_name]{/b} all dressed up!"
+    player_name "Я взволнован, чтобы увидеть наряд {b}[deb_name]{/b}!"
     show player 11
-    deb "Sweetie!"
-    deb "I'm ready!"
+    deb "Милый!"
+    deb "Я готова!"
     show player 2
-    player_name "Coming!"
+    player_name "Вхожу!"
     hide player with dissolve
     return
 
@@ -844,25 +844,25 @@ label kitchen_diane_meet_debbie_kitchen:
     scene location_home_kitchen_day_blur
     show debbie 2 at right with dissolve
     show player 203 at left with dissolve
-    deb "There you are!"
+    deb "Вот ты где!"
     show debbie 3
-    deb "I need your help with something..."
+    deb "Мне нужна твоя помощь..."
     show debbie 2
     show player 11
-    deb "{b}Diane{/b} is coming over for dinner tonight."
-    deb "... And I need you to pick up some {b}Sea Trout{/b} down at the {b}Pier{/b}."
-    deb "I want to cook her something special and {b}Sea Trout{/b} is her absolute favorite!"
+    deb "{b}Диана{/b} придет сегодня на ужин."
+    deb "... И мне нужно, чтобы ты купил немного {b}морской форели{/b} на {b}пирсе{/b}."
+    deb "Я хочу приготовить ей что-то особенное,а {b}морская форель{/b} - ее любимое блюдо!"
     show debbie 1
     show player 2
-    player_name "That's a nice surprise!"
-    player_name "It'll be good for her to get out of her house for awhile."
-    player_name "I worry about her sometimes... All alone over there."
-    player_name "I can swing by the {b}Pier{/b} and grab some {b}Sea Trout{/b} on my way home."
+    player_name "Какой приятный сюрприз!"
+    player_name "Ей будет полезно на некоторое время выбраться из дома."
+    player_name "Иногда я беспокоюсь о ней... Совсем одна там."
+    player_name "Я могу заскочить на {b}пирс{/b} и прихватить немного {b}морской форели{/b} по дороге домой."
     scene homekitchen
     show player 1 at left
     show debbie 62 at right
     with dissolve
-    deb "Thanks, sweetie."
+    deb "Спасибо, милый."
     return
 
 label kitchen_sis_telescope_1:
