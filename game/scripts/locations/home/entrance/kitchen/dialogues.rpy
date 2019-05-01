@@ -4,46 +4,46 @@ label kitchen_diane_3way_aftermath:
     show jenny at Position (xpos=200)
     show debbie 11b zorder 1 at right
     with dissolve
-    deb "Oh, would you let it go already, {b}[jen_name]{/b}!"
+    deb "О, {b}[jen_name]{/b}, может, уже забудешь?"
     show debbie 10b
     show jenny f_upset_talk
-    jen "No, I don't understand this!"
-    jen "You're really gonna let {b}Diane{/b} stay?!"
-    jen "She was fucking {b}[firstname]{/b}!"
-    jen "Right there in our living room!!"
+    jen "Нет, я не понимаю!"
+    jen "Ты правда позволишь {b}Диане{/b} остаться?!"
+    jen "Она трахалась с {b}[firstname]{/b}!"
+    jen "Прямо здесь, в нашей гостиной!!"
     show jenny f_gross
     show debbie 11b
-    deb "I told you, I dealt with it."
+    deb "Я же сказала, я справилась."
     show debbie 10b
     show jenny f_upset_talk
-    jen "You dealt with it?!"
-    jen "What does that even-"
+    jen "Ты справилась с этим?!"
+    jen "Что это вообще-"
     show jenny f_upset
     show player 14 at left with dissolve
-    player_name "Morning!"
+    player_name "Доброе утро!"
     show player 13
     show jenny f_gross at unflip
     show jenny at Position (xpos=-200)
     show debbie 2
-    deb "Good morning, sweetie!"
+    deb "Доброе утро, милый!"
     show debbie 1
     show player 14
-    player_name "It smells wonderful in here!"
+    player_name "Здесь чудесно пахнет!"
     show player 13
     show debbie 3
-    deb "Hehe, I'm making your favorite!"
+    deb "Хе-хе, я делаю твое любимое!"
     show debbie 1
     show player 14
-    player_name "Smiley face pancakes?!"
+    player_name "Блинчики со смайликами?!"
     show player 13
     show debbie 2
-    deb "And three strips of bacon!"
+    deb "И три полоски бекона!"
     show debbie 1
     show player 17
-    player_name "Yum!!"
+    player_name "Ням!!"
     show player 18
     show debbie 3
-    deb "Hehe!"
+    deb "Хехе!"
     hide player
     show debbie 4
     show jenny at flip
@@ -51,48 +51,48 @@ label kitchen_diane_3way_aftermath:
     with dissolve
     pause
     show jenny f_eyeroll
-    jen "Ugh!"
+    jen "Фу!"
     show jenny f_upset_talk
-    jen "You guys are getting weirder and weirder everyday!"
+    jen "Вы, ребята, становитесь все страннее и страннее с каждым днем!"
     show jenny f_gross
     pause
     show jenny f_upset_talk
-    jen "Whatever."
-    jen "I don't even care anymore!"
+    jen "Неважно."
+    jen "Мне уже все равно!"
     hide jenny with dissolve
-    jen "Buncha weirdos!"
+    jen "Кучка чудаков!"
     show debbie 1
     show player 5f at left
     with dissolve
     pause
-    deb "Oh, don't mind her {b}[firstname]{/b}."
+    deb "О, не обращай на нее внимания, {b}[firstname]{/b}."
     show player 5 with dissolve
     show debbie 2
-    deb "She's just being dramatic."
-    deb "You know how she is..."
+    deb "Она просто драматизирует."
+    deb "Ты же знаешь, какая она..."
     show debbie 1
     show player 10
-    player_name "Y-yeah."
+    player_name "Да."
     show player 13
     pause
     show player 14
-    player_name "Did {b}Diane{/b} already leave this morning?"
+    player_name "{b}Диана{/b} уже уехала?"
     show player 13
-    deb "Hmm?"
+    deb "Хмм?"
     show debbie 2
-    deb "Oh, yeah... She was gone before the sun was up."
-    deb "Said she wanted to get a head start on the day."
-    deb "Sounds like she'll have lots of work waiting for you."
+    deb "О, да... Она ушла еще до восхода солнца."
+    deb "Сказала, что хочет начать день с чистого листа."
+    deb "Похоже, у нее будет много работы для тебя."
     show debbie 1
     show player 29 with dissolve
-    player_name "Heh, y-yeah... Work."
+    player_name "Хех, М-да... Работа."
     show player 13 with dissolve
     show debbie 2
-    deb "C'mon, we'd better get some food into you."
-    deb "You're gonna need lots of energy to keep up with {b}Diane{/b}!"
+    deb "Давай, нам лучше положить тебе немного еды."
+    deb "Тебе понадобится много энергии, чтобы не отставать от {b}Дианы{/b}!"
     show debbie 1
     show player 14
-    player_name "O-okay, {b}[deb_name]{/b}."
+    player_name "Хорошо, {b}[deb_name]{/b}."
     hide player
     hide debbie
     with dissolve
