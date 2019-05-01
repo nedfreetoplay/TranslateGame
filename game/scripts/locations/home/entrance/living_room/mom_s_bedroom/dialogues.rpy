@@ -367,7 +367,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     deb "Я так и знала!"
     show debbie f_angry
     show diane f_sad_talk
-    dia "Пожалуйста, позвольте мне объяснить..."
+    dia "Пожалуйста, позволь мне объяснить..."
     show diane f_sad
     show debbie f_angry_talk
     deb "Я не должена была посылать его работать на тебя этим летом!"
@@ -505,8 +505,8 @@ label mom_bedroom_diane_risky_frisky_kinky:
     hide diane with dissolve
     pause
     show player 24
-    player_name "( Oh, man... )"
-    player_name "( I hope I didn't just ruin everything with {b}[deb_name]{/b}. )"
+    player_name "( О, боже... )"
+    player_name "( Надеюсь, я не испортил все с {b}[deb_name]{/b}. )"
     hide player with dissolve
     pause
     scene expression "backgrounds/location_home_debbiesidebed_dialogue_sheet.jpg"
@@ -515,156 +515,156 @@ label mom_bedroom_diane_risky_frisky_kinky:
     with dissolve
     pause
     show diane f_sit_bed_shamed_talk_look
-    dia "Don't do this, {b}[deb_name]{/b}..."
-    dia "Everything is gonna be alright."
+    dia "Не делай этого, {b}[deb_name]{/b}..."
+    dia "Все будет хорошо."
     show diane f_sit_bed_shamed_talk_look_closed
-    deb "How can you say that?!"
-    deb "Do you even realize what we're doing is wrong?"
+    deb "Как ты можешь так говорить?!"
+    deb "Ты хоть понимаешь, что мы делаем неправильно?"
     show diane f_sit_bed_shamed_talk_look
-    dia "You haven't done anything wrong, {b}[deb_name]{/b}."
-    dia "You're just following your heart."
-    dia "He really loves you, you know?"
+    dia "Ты не сделала ничего плохого, {b}[deb_name]{/b}."
+    dia "Ты просто следуешь зову сердца."
+    dia "Он действительно любит тебя, понимаешь?"
     show diane f_sit_bed_shamed_talk_look_closed
-    deb "{b}*Sniff*{/b} I know..."
+    deb "{b}*сопя*{/b} Я знаю..."
     show diane f_sit_bed_shamed_talk_look
-    dia "I'm the one who screwed up."
+    dia "Это я облажалась."
     show debbie b_bed_nightgown_straight f_bed_sit_sad
     show diane f_sit_bed_sad
     with dissolve
     pause
     show diane f_sit_bed_sad_talk
-    dia "I just..."
+    dia "Я только..."
     show diane f_sit_bed_scream
-    dia "I never meant to hurt you, {b}[deb_name]{/b}."
-    dia "It's just... {b}[firstname]{/b} is so wonderful..."
-    dia "So charming and sweet, responsible, and so eager to help with every little thing..."
-    dia "I know it's going to sound silly but he makes me feel like a teenager again!"
+    dia "Я никогда не хотела причинить тебе боль, {b}[deb_name]{/b}."
+    dia "Это просто... {b}[firstname]{/b} великолепен..."
+    dia "Такой очаровательный и милый, ответственный и готов помочь во всем..."
+    dia "Я знаю, это прозвучит глупо, но с ним я снова чувствую себя подростком!"
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sad_talk
-    deb "It's not silly."
-    deb "He has the same effect on me."
+    deb "Это не глупо."
+    deb "Он действует на меня точно так же."
     show debbie f_bed_sit_sad
     show diane f_sit_bed_shamed_talk_look
-    dia "Still, that's no excuse..."
-    dia "What you and {b}[firstname]{/b} have is beautiful..."
-    dia "... And I'm just a jealous, lonely bitch..."
+    dia "Но это не оправдание..."
+    dia "У вас с {b}[firstname]{/b} все прекрасно..."
+    dia "... А я просто ревнивая, одинокая сучка..."
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sad_talk
-    deb "Don't say that."
+    deb "Не говори так."
     show debbie f_bed_sit_sad
     show diane f_sit_bed_sad_talk
-    dia "No, I am."
+    dia "Нет, так и есть."
     show diane f_sit_bed_sad
     pause
     show diane f_sit_bed_shamed_talk_look
-    dia "I've just been so lonely, for such a long time."
+    dia "Я просто была так одинока, так долго."
     show diane f_sit_bed_shamed_talk_look_closed
     show debbie f_bed_sit_sad_talk
-    deb "I know you have..."
+    deb "Я знаю..."
     show debbie f_bed_sit_sad
     show diane f_sit_bed_shamed_talk_look
-    dia "It felt good, having someone care about me again."
+    dia "Хорошо, что кто-то снова обо мне заботится."
     show diane f_sit_bed_sad_talk
-    dia "{b}*Sniff*{/b} Please forgive me!"
+    dia "{b}*сопя*{/b} Пожалуйста, прости меня!"
     hide debbie
     show diane b_nightgown_sit_hug1 f_empty at Position (yoffset=-25)
     with dissolve
-    deb "Shh, it's alright."
-    deb "I forgive you."
-    deb "No man can ever come between us!"
+    deb "Шшш, все хорошо."
+    deb "Я прощаю тебя."
+    deb "Ни один мужчина не может встать между нами!"
     pause
     show debbie b_bed_nightgown_straight f_bed_sit_sorry a_empty
     show diane f_sit_bed_shamed_talk_smile b_nightgown_sit a_empty
     with dissolve
-    dia "Thank you."
+    dia "Спасибо."
     show diane f_sit_bed_sad_talk
-    dia "But, what do we do now?"
-    dia "Should I start packing my things?"
+    dia "Но, что нам теперь делать?"
+    dia "Мне начать собирать вещи?"
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sorry_talk
-    deb "What?!"
-    deb "No!"
-    deb "You aren't going anywhere!"
+    deb "Что?!"
+    deb "Нет!"
+    deb "Ты никуда не пойдешь!"
     show debbie f_bed_sit_sorry
     show diane f_sit_bed_sad_talk
-    dia "But-"
+    dia "Но-"
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sorry_talk
-    deb "You're right, {b}Diane{/b}."
-    deb "I am being a hypocrite."
+    deb "Ты права, {b}Диана{/b}."
+    deb "Я - лицемер."
     show debbie f_bed_sit_sorry
     show diane f_sit_bed_sad_talk
-    dia "N-no, I shouldn't have said-"
+    dia "Н-Нет, я не должна была так говорить-"
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sorry_talk
-    deb "It's okay."
+    deb "Все в порядке."
     show debbie f_bed_sit_sorry
     pause
     show debbie f_bed_sit_sorry_talk
-    deb "I know all about loneliness, {b}Diane{/b}."
-    deb "How depressing it can be and the things it can drive you to do."
-    deb "I'm not letting you go back to that."
+    deb "Я знаю все об одиночестве, {b}Диана{/b}."
+    deb "Как это может быть удручающе и что это может заставить вас делать."
+    deb "Я не позволю тебе вернуться к этому."
     show debbie f_bed_sit_sorry
     show diane f_sit_bed_sad_talk
-    dia "Y-you're sure?"
+    dia "Ты уверена?"
     show diane f_sit_bed_sad
     show debbie f_bed_sit_sorry_talk
-    deb "Yes."
-    deb "You belong here, with us."
+    deb "Да."
+    deb "Твое место здесь, с нами."
     show debbie f_bed_sit_sorry
     show diane f_sit_bed_shamed_talk_smile
-    dia "{b}*Sniff*{/b} I love you!"
+    dia "{b}*сопя*{/b} Я люблю тебя!"
     hide debbie
     show diane b_nightgown_sit_hug1 f_empty at Position (yoffset=-25)
     with dissolve
-    deb "I love you too."
+    deb "Я тоже люблю тебя."
     scene black with fade
     pause
     scene expression game.timer.image("bedroom{}")
     show player 24 with dissolve
-    player_name "( Poor {b}[deb_name]{/b}... )"
-    player_name "{b}*Sigh*{/b}"
-    player_name "( I should never have started having sex with {b}Diane{/b} in the house. )"
-    player_name "( I was just asking to get caught. )"
+    player_name "( Бедная {b}[deb_name]{/b}... )"
+    player_name "{b}*вздыхая*{/b}"
+    player_name "( Мне не следовало заниматься сексом с {b}Дианой{/b} в доме. )"
+    player_name "( Я просто хотел, чтобы меня поймали. )"
     pause
-    player_name "( Now {b}Diane{/b} will probably have to move out... )"
-    deb "Sweetie?"
+    player_name "( Теперь {b}Диане{/b}, вероятно, придется съехать... )"
+    deb "Милый?"
     show player 10f with dissolve
     player_name "{b}[deb_name]{/b}?!"
     show player 5f at right
     show debbie b_nightgown a_nightgown_sides f_sad at flip
     with dissolve
     show player 10f
-    player_name "Oh god, I'm so sorry!"
-    player_name "It was all my fault!"
+    player_name "О боже, мне очень жаль!"
+    player_name "Это я во всем виноват!"
     show player 5f
     show debbie f_sorry_talk
-    deb "Shh, it's alright."
+    deb "Шшш, успокойся."
     show debbie f_sorry
     show player 10f
-    player_name "Please, don't make {b}Diane{/b} move out!"
+    player_name "Пожалуста, не выгоняй {b}Диану{/b}!"
     show player 5f
     show debbie f_sorry_talk
-    deb "Calm down, sweetie."
-    deb "{b}Diane{/b}'s not moving out."
+    deb "Успокойся, милый."
+    deb "{b}Диана{/b} никуда не уезжает."
     show debbie f_sorry
     show player 30f
-    player_name "Phew, okay."
+    player_name "Фуу, хорошо."
     show player 10f
-    player_name "I was so worried you were gon-"
+    player_name "Я так волновался, что ты прогон-"
     show player 5f
     show debbie f_sorry_talk
-    deb "Shhh."
-    deb "Come with me, {b}[firstname]{/b}."
-    deb "I want to show you something."
+    deb "Шшшш."
+    deb "Пойдем со мной, {b}[firstname]{/b}."
+    deb "Я хочу тебе кое-что показать."
     show debbie f_sorry
-    player_name "Hmm?"
+    player_name "Хмм?"
     show debbie f_sorry_talk
-    deb "Come on."
+    deb "Пойдем."
     hide debbie with dissolve
     pause
     show player 10f
-    player_name "O-okay..."
+    player_name "Хорошо..."
     hide player with dissolve
     return
 
@@ -1005,8 +1005,8 @@ label mom_drawer_panties_dialogue:
 label mombedroom_mom_movie_afterthoughts_two:
     scene expression player.location.background_blur
     show player 5 with dissolve
-    player_name "I probably shouldn't push it for tonight."
-    player_name "I'll go sleep in my room tonight."
+    player_name "Наверное, мне не стоит настаивать на сегодняшнем вечере."
+    player_name "Сегодня я буду спать в своей комнате."
     hide player with dissolve
     return
 
@@ -2122,7 +2122,7 @@ label mom_sex_loop_pre:
 
 label mom_sex_loop_pre_suck_tits:
     show debbies 67 at left with dissolve
-    player_name "Могу я поцеловать твою грудь?."
+    player_name "Могу я поцеловать твою грудь?"
     show debbies 68
     deb "Быть нежными."
     deb "Они чувствительные."
