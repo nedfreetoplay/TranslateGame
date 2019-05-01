@@ -1,8 +1,8 @@
 label mom_bedroom_diane_refused_3way:
     scene expression "backgrounds/location_home_livingroom_night_blur.jpg"
     show player 14 with dissolve
-    player_name "Heh, if I go in there now, there's no way they'll let me leave."
-    player_name "I should leave them be."
+    player_name "Если я пойду туда сейчас, они ни за что не позволят мне уйти."
+    player_name "Я должен оставить их в покое."
     hide player with dissolve
     return
 
@@ -14,23 +14,23 @@ label mom_bedroom_diane_debbie_threeway_intro:
     show playerf 5 at Position (xpos=200,ypos=850)
     show playerfa 1 zorder 3 at Position (xpos=180,ypos=640)
     with dissolve
-    player_name "{b}[deb_name]{/b}, {b}Diane{/b}, what's going on?"
+    player_name "{b}[deb_name]{/b}, {b}Диана{/b}, что происходит?"
     show playerf 5b
     dia "..."
     show debbie f_bed_sit_sexy_talk
-    deb "{b}Diane{/b} and I have been talking and well..."
-    deb "... I love you, sweetie."
+    deb "Мы с {b}Дианой{/b} поговорили и ну..."
+    deb "... Я люблю тебя, милый."
     show debbie f_bed_sit_sexy
     show playerf 5
-    player_name "I love you too, {b}[deb_name]{/b}!"
-    player_name "But I don't underst-"
+    player_name "Я тоже тебя люблю, {b}[deb_name]{/b}!"
+    player_name "Но я не поним-"
     show playerf 5b
     show debbie f_bed_sit_sexy_talk
-    deb "... And I love {b}Diane{/b}."
-    deb "She's been my best friend, for as long as I can remember."
+    deb "... И я люблю {b}Диану{/b}."
+    deb "Она была моей лучшей подругой, сколько я себя помню."
     show debbie f_bed_sit_sexy
     show diane f_sit_bed_smirk_talk
-    dia "More than friends, {b}[deb_name]{/b}."
+    dia "Больше чем подруга, {b}[deb_name]{/b}."
     hide debbie
     show diane b_nightgown_sit_kissing_debbie f_empty at Position (xoffset=100)
     with dissolve
@@ -41,17 +41,17 @@ label mom_bedroom_diane_debbie_threeway_intro:
     show debbie b_nightgown_bed a_empty f_bed_sit_sexy_talk zorder 1 at flip
     show debbie at Position (xpos=-250)
     with dissolve
-    deb "More than friends."
-    deb "I'm done worrying about our situation."
-    deb "There's so much love here, between the three of us..."
-    deb "... And I think we should celebrate that."
-    deb "Don't you think?"
+    deb "Больше, чем друзья."
+    deb "Мне надоело беспокоиться о нашей ситуации."
+    deb "Здесь так много любви между нами тремя..."
+    deb "... И я думаю, мы должны это отпраздновать."
+    deb "Тебе так не кажется?"
     show debbie f_bed_sit_sexy
     show diane f_sit_bed_smirk_talk
-    dia "Absolutely!"
+    dia "Конечно!"
     show diane f_sit_bed_smirk
     show playerf 5
-    player_name "I'm not sure I understand-"
+    player_name "Я не уверен что понял-"
     show playerf 5b
     pause
     show diane b_nightgown_undress f_sit_bed_undress_down_front with dissolve
@@ -62,18 +62,18 @@ label mom_bedroom_diane_debbie_threeway_intro:
     show diane b_naked_sit f_sit_bed_smirk with dissolve
     pause
     show playerf 5
-    player_name "Y-you mean-"
+    player_name "Ты эээ-"
     show playerf 5b
     show debbie b_bed_nightgown_undress with dissolve
     pause
     show debbie b_bed_undress2 f_bed_sit_undress2_sexy with dissolve
     show diane f_sit_bed_smirk_talk
-    dia "C'mon, stud."
+    dia "Давай, жеребец."
     show debbie b_naked_bed f_bed_sit_sexy with dissolve
-    dia "Bring that beautiful cock over here!"
+    dia "Неси сюда этот красивый член!"
     show diane f_sit_bed_smirk
     show playerf 5
-    player_name "O-okay..."
+    player_name "Хорошо..."
     hide debbie
     show diane b_naked_sit_kissing_debbie f_empty
     with dissolve
@@ -84,112 +84,112 @@ label mom_bedroom_diane_debbie_threeway_intro:
     with dissolve
     scene expression "backgrounds/location_home_debbiebed_sex.jpg"
     show diane_debbie_sex_bed player_talk with dissolve
-    player_name "Oh, man!"
-    player_name "Is this really happening?!"
+    player_name "О, боже!"
+    player_name "Это действительно происходит?!"
     show diane_debbie_sex_bed diane_talk
-    dia "Hehe!"
+    dia "Хехе!"
     show diane_debbie_sex_bed debbie_talk
-    deb "Yes sweetie, it's really happening."
+    deb "Да милый, это действительно происходит."
     show diane_debbie_sex_bed player_talk
-    player_name "I'm not-"
-    player_name "I mean, I don't know where to start..."
+    player_name "Я не-"
+    player_name "Я имею в виду, я не знаю, с чего начать..."
     show diane_debbie_sex_bed diane_talk
-    dia "You should go first, {b}[deb_name]{/b}!"
-    dia "This was your idea afterall."
+    dia "Ты должна быть первой, {b}[deb_name]{/b}!"
+    dia "Это была твоя идея."
     show diane_debbie_sex_bed player_talk
-    player_name "Okay, {b}[deb_name]{/b} first."
+    player_name "Хорошо, сначала {b}[deb_name]{/b}."
     show diane_debbie_sex_bed debbie_talk
-    deb "Get on top of me, {b}Diane{/b}."
+    deb "Забирайся на меня, {b}Диана{/b}."
     show diane_debbie_sex_bed diane_talk
-    dia "Hehe, alright."
+    dia "Хехе, хорошо."
     $ M_diane.set("change partner", True)
     show diane_debbie_sex_bed insert with dissolve
-    player_name "Here it comes, {b}[deb_name]{/b}!"
+    player_name "Теперь, {b}[deb_name]{/b}!"
     show diane_debbie_sex_bed 7
-    deb "Oh, sweetie!" with hpunch
-    player_name "Oh, wow!"
-    player_name "You're so wet!"
-    dia "She likes an audience, don't you {b}[deb_name]{/b}?!"
-    deb "Y-yes..."
-    dia "Hehehe!"
+    deb "О, милый!" with hpunch
+    player_name "О, ааааа!"
+    player_name "Ты такая мокрая!"
+    dia "Она любит публику, не так ли {b}[deb_name]{/b}?!"
+    deb "Да..."
+    dia "Хехехе!"
     $ M_diane.set('sex speed', 0.09)
     show expression AnimatedImage("diane_debbie_sex_bed", [1,2,3,4,5,6,7,8,9,10], M_diane) as diane_debbie_sex_bed at Position(xalign = 0.0, yoffset = 0) with dissolve
-    deb "Ahh!"
-    dia "This is so damn hot!"
+    deb "Аааааа!"
+    dia "Это так чертовски круто!"
     pause
-    dia "Mmm, I love watching you get fucked, {b}[deb_name]{/b}!"
-    deb "Yea, I know."
-    player_name "You guys have done this before?!"
-    dia "Not since college."
-    deb "... And never with anybody this b-"
-    deb "IIIGGG!!"
-    deb "Oh, god!"
-    dia "Hahaha!"
+    dia "Ммм, мне нравится смотреть, как тебя трахают, {b}[deb_name]{/b}!"
+    deb "Ага, я знаю."
+    player_name "Вы делали это раньше?!"
+    dia "Со времен колледжа, нет."
+    deb "... И никогда с кем-то у кого такой б-"
+    deb "ОЛЬШООООЙ!!"
+    deb "О, боже!"
+    dia "Хахаха!"
     pause
-    dia "Wow, I can't believe you're taking the entire thing..."
-    dia "I can't do that!"
+    dia "Вау,не могу поверить, что он входит весь..."
+    dia "У меня так не получается!"
     pause
-    deb "It feels so good!"
-    deb "I'm gonna cum!"
-    dia "Oh, you heard her {b}[firstname]{/b}!"
-    dia "Speed it up!"
+    deb "Как приятно!"
+    deb "Я щас кончу!"
+    dia "О, ты слышал её {b}[firstname]{/b}!"
+    dia "Поднажми!"
     $ M_diane.set('sex speed', 0.06)
     pause
-    deb "I'm gonna-"
-    deb "YES!!"
-    deb "AAHHH!!!" with flash
+    deb "Я кончаю-"
+    deb "ДА!!"
+    deb "ААААААААА!!!" with flash
     $ M_diane.set('sex speed', 0.2)
     show expression AnimatedImage("diane_debbie_sex_bed", [1,10], M_diane) as diane_debbie_sex_bed at Position(xalign = 0.0, yoffset = 0) with dissolve
-    dia "Wow, she's shaking so much!"
+    dia "Ух ты, она так дрожит!"
     show diane_debbie_sex_bed insert with dissolve
     pause
-    deb "Haah... Haah..."
-    deb "Oh my..."
-    deb "Okay, I need a second."
-    deb "Give {b}Diane{/b} a turn, {b}[firstname]{/b}!"
-    dia "Oh, yes please!"
-    player_name "Okay."
+    deb "Ахххх... Ахххх..."
+    deb "О боже..."
+    deb "Ладно, мне нужна секундочка."
+    deb "Теперь черед {b}Дианы{/b}, {b}[firstname]{/b}!"
+    dia "О, да, пожалуйста!"
+    player_name "Хорошо."
     $ M_diane.set("change partner", False)
     show diane_debbie_sex_bed insert with dissolve
-    player_name "Here it comes, {b}Diane{/b}."
+    player_name "Теперь, {b}Диана{/b}."
     show diane_debbie_sex_bed 7
-    dia "Oh, shit!" with hpunch
-    dia "Mmm, you're so big, {b}[firstname]{/b}!"
-    deb "Haah... Isn't it wonderful?"
-    dia "It is-"
+    dia "О, черт!" with hpunch
+    dia "Ммм, такой большой, {b}[firstname]{/b}!"
+    deb "Ахх... Разве это не чудесно?"
+    dia "Да-"
     $ M_diane.set('sex speed', 0.09)
     show expression AnimatedImage("diane_debbie_sex_bed", [1,2,3,4,5,6,7,8,9,10], M_diane) as diane_debbie_sex_bed at Position(xalign = 0.0, yoffset = 0) with dissolve
-    dia "Ahh!!"
+    dia "Ахх!!"
     pause
-    deb "Wow, look at those big things go!"
-    dia "Are you-"
-    dia "Oh, shit!"
-    dia "Are you talking about my tits?!"
-    deb "Hehe, yeah."
-    deb "They're definitely bigger than mine."
-    dia "Well, duh."
-    dia "They're full of milk."
-    deb "That's true."
-    dia "Just hope I don't leak all over you."
-    deb "Aww, I wouldn't mind."
+    deb "Ух ты, смотри, какие большие штуки!"
+    dia "Ты о-"
+    dia "О, черт!"
+    dia "Ты говоришь о моих сиськах?!"
+    deb "Хехе, да."
+    deb "Они определенно больше моих."
+    dia "Ну, да."
+    dia "Они полны молока."
+    deb "Точно."
+    dia "Надеюсь, я не оболью тебя."
+    deb "Я бы не возражала."
     pause
-    dia "Ah, it's so deep!"
-    dia "I can't take it!"
-    deb "Sure you can, I did."
-    dia "Ah, fuck!"
+    dia "Ааа, он так глубоко!"
+    dia "Я не могу этого вынести!"
+    deb "Конечно, можешь, я же смогла."
+    dia "Ааа, блядь!"
     pause
-    deb "C'mon sweetie, give it to her harder!"
+    deb "Давай милый, еби ее сильнее!"
     $ M_diane.set('sex speed', 0.06)
-    dia "AAHHH!!!"
+    dia "АААААХХХХ!!!"
     pause
-    dia "I'm getting close!"
-    player_name "Me too!"
-    deb "It's alright, sweetie."
-    deb "You can finish with {b}Diane{/b}."
-    dia "Are you sure?!"
-    dia "He should finish with you."
-    dia "This whole thing was your idea!"
-    deb "It's {b}[firstname]{/b}'s choice."
+    dia "Я близко!"
+    player_name "Я тоже!"
+    deb "Это замечательно, милый."
+    deb "Ты можешь кончить с {b}Дианой{/b}."
+    dia "Ты уверенна?!"
+    dia "Он должен кончить с тобой."
+    dia "Все это было твоей идеей!"
+    deb "Пусть {b}[firstname]{/b} выбирает."
     return
 
 label mom_bedroom_diane_risky_frisky_kinky:
@@ -203,81 +203,81 @@ label mom_bedroom_diane_risky_frisky_kinky:
     show diane f_smirk_talk b_naked a_naked_sides
     show player 13f at Position (xpos=400)
     with dissolve
-    dia "Going somewhere?"
+    dia "Куда-то собрался?"
     show diane f_smirk
     show player 22
     player_name "!!!"
     show player 29 at left with dissolve
-    player_name "{b}Diane{/b}!!"
-    player_name "Uhh, sorry..."
-    player_name "I thought you were sleeping."
+    player_name "{b}Диана{/b}!!"
+    player_name "Эээ, прости..."
+    player_name "Я думал, ты спишь."
     show player 3
     pause
     show diane f_smirk_talk
-    dia "It's not easy you know."
+    dia "Знаешь, это нелегко."
     show diane f_smirk
     show player 5 with dissolve
-    player_name "Hmm?"
+    player_name "Хмм?"
     show diane f_smirk_talk
-    dia "Laying out here, by myself, while you're one room away fucking my friend."
+    dia "Лежу здесь, одна, пока ты в одной комнате трахаешься с моей подругой."
     show diane f_smirk
     show player 10
-    player_name "I wasn't..."
-    player_name "I mean, we're not-"
+    player_name "Я не..."
+    player_name "То есть, мы не-"
     show player 5
     show diane f_laugh
-    dia "Haha, you don't have to lie, {b}[firstname]{/b}."
+    dia "Хаха, тебе не нужно лгать, {b}[firstname]{/b}."
     show diane f_smirk_talk
-    dia "I can hear you guys moaning in there."
+    dia "Я слышу, как вы там стонете."
     show diane f_smirk
     show player 3 with dissolve
     player_name "..."
     show diane f_normal_talk
-    dia "Don't get me wrong, it's really hot."
+    dia "Не пойми меня неправильно, но это действительно круто."
     show diane f_smirk
     show player 10 with dissolve
-    player_name "Y-you don't think it's wrong?"
+    player_name "Т-ты не думаешь, что это неправильно?"
     show player 5
     show diane f_laugh
-    dia "Well, given what you and I do, it would make me a pretty big hypocrite if I did!"
+    dia "Ну, учитывая то, что ты и я делаем, это сделало бы меня довольно большим лицемером, если бы я это сделала!"
     show diane f_smirk
     show player 14
-    player_name "Heh, yeah."
+    player_name "Хе, да."
     show player 13
     show diane f_smirk_talk
-    dia "I'm just saying, it gets lonely, on this side of the door..."
+    dia "Я просто говорю, что по эту сторону двери становится одиноко..."
     show diane f_smirk
     show player 14
-    player_name "Sorry."
+    player_name "Прости."
     show player 13
     show diane f_smirk_talk
-    dia "I was thinking, maybe... Before you go in there... We could..."
+    dia "Я подумала, может быть... Прежде чем ты войдешь туда... Мы могли бы..."
     show diane f_smirk
     player_name "..."
     show diane f_smirk_talk
-    dia "... Mess around a little?"
+    dia "... Немножко пошалить?"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "R-really?"
+    player_name "Правда?"
     show player 13 with dissolve
     show diane f_cheese
-    dia "Mmhmmm."
+    dia "Мммммммм."
     show diane f_smirk_talk
-    dia "Think you can handle of both of us, stud?"
+    dia "Думаешь, справишься с нами обоими, жеребец?"
     show diane f_smirk
     show player 14
-    player_name "Heh, I dunno {b}Diane{/b}..."
+    player_name "Ну, я не знаю {b}Диана{/b}..."
     show player 13
     show diane f_smirk_talk
-    dia "Aww c'mon, please?"
+    dia "Да ладно, ну пожалуйста?"
     show diane f_smirk
     show player 13f at Position (xpos=300) with dissolve
     player_name "..."
     show player 14 at left with dissolve
-    player_name "Alright, but we have to make it quick."
+    player_name "Хорошо, но мы должны сделать это быстро."
     show player 13
     show diane f_smirk_talk
-    dia "Oh, don't you worry..."
+    dia "Ой, не волнуйся..."
     show diane f_down_front b_nightgown_remove1 a_empty with dissolve
     pause
     show diane b_nightgown_remove2 with dissolve
@@ -285,17 +285,17 @@ label mom_bedroom_diane_risky_frisky_kinky:
     pause
     $ M_diane.is_naked = 1
     show diane b_naked a_naked_sides f_laugh
-    dia "I can be quick!"
+    dia "Я могу быть быстрой!"
     hide player
     show diane kiss_naked at Position (xoffset=-150)
     with dissolve
     pause
     show diane b_pull_mc_naked f_empty a_empty at flip with dissolve
-    dia "Now let's get those pants off!"
+    dia "А теперь давай снимем эти штанишки!"
     pause
     scene black with fade
     hide diane
-    dia "Hehehe!"
+    dia "Хехехе!"
     scene expression "backgrounds/location_home_debbiesidebed_dialogue.jpg"
     show debbie b_bed_nightgown_sleep f_empty a_empty
     with dissolve
