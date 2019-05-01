@@ -214,26 +214,26 @@ label kitchen_diane_barn_news:
     show jenny a_dressed_juice f_gross
     show diane nightgown_dip
     with dissolve
-    deb "Hahaha!"
+    deb "Хахаха!"
     show jenny f_normal_talk
-    jen "You guys are so weird... I'm outta here."
+    jen "Вы, ребята, такие странные... Я ухожу отсюда."
     show jenny f_normal zorder 1 at Position (xpos=100)
     show diane b_nightgown a_nightgown_sides f_smirk_talk at Position (xpos=400)
     show debbie 1 zorder 2 at right
     with dissolve
-    dia "Aww, what's the matter princess?"
+    dia "В чем дело, принцесса?"
     show jenny at flip
     show jenny at Position (xpos=600)
     with dissolve
-    dia "You jealous?"
+    dia "Ты ревнуешь?"
     show diane f_smirk
     show jenny f_eyeroll
-    jen "Psh."
+    jen "Пф."
     show jenny f_normal at unflip
     show jenny at Position (xpos=100)
     with dissolve
     show diane f_smirk_talk
-    dia "Don't be grumpy, I'll take you for a spin too."
+    dia "Не сердись, я тебя тоже покатаю."
     show diane f_smirk a_nightgown_slap
     show jenny f_surprised_back
     jen "!!!" with hpunch
@@ -241,135 +241,135 @@ label kitchen_diane_barn_news:
     show jenny f_upset_talk at flip
     show jenny at Position (xpos=640)
     with dissolve
-    jen "N-no way!"
+    jen "Н-ни за что!"
     show jenny f_upset
-    dia "Hahaha, look at those rosie cheeks!"
+    dia "Ха-ха-ха, посмотри на эти розовые щечки!"
     show debbie 3
-    deb "Haha!"
+    deb "Хаха!"
     show jenny f_eyeroll
-    jen "Ugh, shuddup!"
+    jen "Тьфу, шаддап!"
     show jenny f_upset
     show player 14 at left with dissolve
-    player_name "What's going on?"
+    player_name "Что происходит?"
     show player 13
     show debbie 1
     show diane f_normal_talk
     dia "{b}[firstname]{/b}!!!"
     show diane f_normal
     show debbie 2
-    deb "Good morning, sweetie."
+    deb "Доброе утро, милый."
     show debbie 1
     show diane f_laugh
-    dia "It's done, it's done, it's doooooooone!!!"
+    dia "Готово, готово, гооотооовооо!!!"
     show diane f_cheese
     show player 13
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 17
-    player_name "Wait, you mean the barn is done?!"
+    player_name "Подожди, ты хочешь сказать, что амбар готов?!"
     show player 13
     show diane f_normal_talk
-    dia "Bingo!"
-    dia "{b}Richard{/b} just called to let me know that everything is ready."
+    dia "Бинго!"
+    dia "{b}Ричард{/b} только что позвонил и сказал что все готово."
     show diane f_normal
     show jenny f_eyeroll
-    jen "I don't get it."
+    jen "Я не понимаю."
     show jenny f_normal_talk
-    jen "I'd much rather have a house than a stupid barn."
+    jen "Лучше иметь дом, чем дурацкий сарай."
     show jenny f_normal
     show diane f_smirk_talk
-    dia "Yeah well, I'd rather have a fun roomate, than a sour puss."
+    dia "Да, я бы предпочла веселого соседа, чем кислую кошечку."
     show diane f_smirk
     show debbie 13
-    deb "{b}*Sigh*{/b} You two..."
+    deb "{b}*вздыхая*{/b} Вы двое..."
     show debbie 14
     show player 14
-    player_name "Well, I'm excited!"
+    player_name "Ну, я в восторге!"
     show player 13
     show diane f_normal_talk
-    dia "See!!"
-    dia "{b}[firstname]{/b} knows how to react to good news!"
+    dia "Видишь!!"
+    dia "{b}[firstname]{/b} знает, как реагировать на хорошие новости!"
     hide player
     show diane nightgown_hug2
     show jenny f_gross at unflip
     show jenny at Position (xpos=350)
     with dissolve
-    dia "Thank you, {b}[firstname]{/b}!"
+    dia "Спасибо, {b}[firstname]{/b}!"
     show diane nightgown_hug3
-    player_name "Y-yeah."
+    player_name "Да."
     show diane nightgown_hug4
     show jenny f_upset_talk
-    jen "Ugh, whatever."
-    jen "I'll be in my room."
+    jen "Фу, неважно."
+    jen "Я буду в своей комнате."
     hide jenny with dissolve
     pause
     show diane b_nightgown a_nightgown_sides at Position (xpos=250)
     show player 14 at left
     with dissolve
-    player_name "So are we heading over there?"
+    player_name "Так мы направляемся туда?"
     show player 13
     show diane f_normal_talk
-    dia "You bet we are!"
+    dia "Конечно!"
     show diane f_normal
     show debbie 2
-    deb "Ah ah ah!"
+    deb "Э Э Э!"
     show diane at flip
     show diane at Position (xpos=750)
     with dissolve
-    deb "After breakfast!"
+    deb "После завтрака!"
     show debbie 1
     show diane f_laugh
-    dia "Aww, but Mooooom!"
+    dia "Но, маааамммма!"
     show diane f_normal
     show debbie 2
-    deb "{b}Diane{/b}, it's the most important meal of the day."
+    deb "{b}Диана{/b}, это самая важная еда за день."
     show debbie 1
     show diane f_normal_talk
-    dia "I've been waiting almost thirty years for this, I'm going!"
-    dia "We'll just have to eat an extra big dinner tonight!"
+    dia "Я ждала этого почти тридцать лет, я ухожу!"
+    dia "Мы просто должны съесть большой ужин!"
     show diane at unflip
     show diane f_smirk_talk at Position (xpos=250)
     with dissolve
-    dia "Right, {b}[firstname]{/b}?!"
+    dia "Верно, {b}[firstname]{/b}?!"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "I uhh..."
+    player_name "Я эээ..."
     show player 3
     show debbie 3
-    deb "Hahaha, alright fine."
+    deb "Хахаха, хорошо."
     show debbie 2
     show diane at flip
     show diane at Position (xpos=750)
     with dissolve
-    deb "Go have your fun."
+    deb "Иди развлекайся."
     show player 13
     hide debbie
     show diane f_normal_talk b_nightgown_hug1 a_empty at flip
     show diane at Position (xpos=904)
     with dissolve
-    dia "Thanks!"
+    dia "Спасибо!"
     show debbie 1 at right
     show diane b_nightgown a_nightgown_sides f_normal_talk at unflip
     show diane at Position (xpos=250)
     with dissolve
-    dia "C'mon, {b}[firstname]{/b}!"
-    dia "{b}Let's go check out the new barn!{/b}"
+    dia "Пошли, {b}[firstname]{/b}!"
+    dia "{b}Пойдем посмотрим новый сарай!{/b}"
     hide diane with dissolve
     show debbie 2
-    deb "Just make sure you get dressed first!"
+    deb "Только оденься сначала!"
     show debbie 1
     show player 14
-    player_name "Hehe, I've never seen her so excited..."
+    player_name "Хе-хе, я никогда не видел ее такой взволнованной..."
     show player 13
     show debbie 2
-    deb "Yeah, you'd better go with her."
+    deb "Да, тебе лучше пойти с ней."
     hide player
     show debbie 4
     with dissolve
     pause
     show debbie 5
-    player_name "Alright, I'll see you tonight {b}[deb_name]{/b}."
+    player_name "Хорошо, увидимся вечером {b}[deb_name]{/b}."
     show debbie 2 with dissolve
-    deb "Be safe!"
+    deb "Береги себя!"
     hide debbie with dissolve
     return
 
