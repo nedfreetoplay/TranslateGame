@@ -299,209 +299,209 @@ label mom_bedroom_diane_risky_frisky_kinky:
     scene expression "backgrounds/location_home_debbiesidebed_dialogue.jpg"
     show debbie b_bed_nightgown_sleep f_empty a_empty
     with dissolve
-    dia "Hehehe!"
+    dia "Хехехе!"
     deb "!!!"
-    deb "( It's been so nice having {b}Diane{/b} here. )"
-    deb "( I didn't realize how much I missed her company all these years... )"
-    dia "Ahhh!"
+    deb "( Приятно, что {b}Диана{/b} здесь. )"
+    deb "( Я не понимала, как сильно скучала по ее компании все эти годы... )"
+    dia "Аааахх!"
     show debbie b_bed_nightgown_wake with dissolve
-    deb "( Was that..? )"
-    dia "Mmm."
-    deb "( That's {b}Diane{/b} moaning! )"
+    deb "( Что это...? )"
+    dia "Ммм."
+    deb "( Это {b}Диана{/b} стонет! )"
     pause
-    deb "( Oh my god... )"
-    deb "( Is she watching porn out there?! )"
-    deb "( I told her to behave herself while she's here. )"
+    deb "( О боже мой... )"
+    deb "( Она смотрит порно?! )"
+    deb "( Я сказала ей вести себя хорошо, пока она здесь. )"
     pause
     show debbie b_bed_nightgown_sleep with dissolve
     pause
-    dia "Oh, I needed this so bad!"
-    dia "Ahh!"
-    deb "( Poor thing... )"
-    deb "( I guess she's just as lonely as I am. )"
+    dia "О, я так нуждалась в этом!"
+    dia "Аааах!"
+    deb "( Бедняжка... )"
+    deb "( Думаю, ей так же одиноко, как и мне. )"
     pause
-    deb "( I wonder if {b}[firstname]{/b} will come to me tonight? )"
-    deb "( Mmm, I hope so... )"
+    deb "( Интересно, придет ли {b}[firstname]{/b} ко мне сегодня вечером? )"
+    deb "( Ммм, надеюсь... )"
     pause
-    dia "Hah, I'm getting close!"
-    deb "( She's really going at it out there! )"
+    dia "Ааах, я кончаю!"
+    deb "( Она действительно собирается сделать это там! )"
     pause
     show debbie b_bed_nightgown_getup f_bed_getup_lip_bite with dissolve
-    deb "( I'd better go and tell her to keep it down. )"
+    deb "( Я лучше пойду и скажу ей, чтобы она не шумела. )"
     scene expression "backgrounds/location_home_debbiesidebed_dialogue_sheet.jpg"
     hide debbie
     with dissolve
-    deb "( I don't want one of the kids to wake up and find her masturbating in our living room... )"
+    deb "( Я не хочу, чтобы кто-то из детей проснулся и обнаружил ее мастурбирующей в нашей гостиной... )"
     pause
     scene expression "backgrounds/location_home_livingroom_couch_cutscene01.jpg"
     deb "!!!" with hpunch
-    dia "I'm cumming!!"
-    dia "Oh, yes!!!"
-    player_name "Shh, you're gonna wake up {b}[deb_name]{/b}..."
+    dia "Я кончаю!!"
+    dia "О, да!!!"
+    player_name "Шшш, ты разбудишь {b}[deb_name]{/b}..."
     deb "... {b}[firstname]{/b}?"
     scene expression "backgrounds/location_home_livingroom_couch_cutscene02.jpg"
     player_name "!!!" with hpunch
     player_name "{b}[deb_name]{/b}?!!"
-    dia "Oh, shit!"
+    dia "О, черт!"
     scene expression "backgrounds/location_home_livingroom_night_blur.jpg"
     show debbie b_nightgown a_nightgown_hip f_angry_talk zorder 1 at flip
     show player 8cf zorder 1 at Position (xpos=700)
     show diane b_naked a_naked_shy f_sad zorder 2 at Position (xpos=600)
-    deb "What the hell are you doing?!"
+    deb "Что, черт побери, вы делаете?!"
     show debbie f_angry
     show player 5f with dissolve
     show diane f_sad_talk
-    dia "Hold on a second, {b}[deb_name]{/b}..."
-    dia "It's not as bad as it looks."
+    dia "Подожди секундочку, {b}[deb_name]{/b}..."
+    dia "Это не так плохо, как кажется."
     show diane f_sad
     show debbie f_angry_talk
-    deb "Not as bad as it looks?!"
-    deb "Are you kidding me?!"
-    deb "You told me there was nothing to worry about {b}Diane{/b}!"
+    deb "Не так плохо, как кажется?!"
+    deb "Ты издеваешься?!"
+    deb "Ты сказал мне, что не стоит беспокоиться о {b}Диане{/b}!"
     show debbie f_angry
     show diane f_sad_talk
-    dia "Just calm down."
+    dia "Просто успокойся."
     show diane f_sad
     show debbie f_angry_talk
-    deb "I knew you were going to do this!"
-    deb "I just knew it!"
+    deb "Я знала, что ты это сделаешь!"
+    deb "Я так и знала!"
     show debbie f_angry
     show diane f_sad_talk
-    dia "Please, just let me explain..."
+    dia "Пожалуйста, позвольте мне объяснить..."
     show diane f_sad
     show debbie f_angry_talk
-    deb "I should never have sent him over to work for you this summer!"
+    deb "Я не должена была посылать его работать на тебя этим летом!"
     show debbie f_angry
-    jen "What the hell is going on down here?!"
+    jen "Какого черта здесь происходит?!"
     show jenny f_normal_talk a_dressed_hips zorder 0 at Position (xpos=275) with dissolve
-    jen "Why are you scream-"
+    jen "Почему вы кричите-"
     show jenny a_dressed_up_surprised f_surprised at flip
     show jenny at Position (xpos=700)
     with dissolve
     pause
-    jen "Oh my god..."
-    jen "Were you two fucking?!"
+    jen "О, боже мой..."
+    jen "Вы двое трахались?!"
     show diane f_sad_talk
-    dia "{b}[jen_name]{/b} stay out of this..."
+    dia "{b}[jen_name]{/b} не вмешивайся..."
     show diane f_sad
     show jenny f_happy_talk a_dressed_hips with dissolve
-    jen "Hahaha, you were fucking each other weren't you?!"
-    jen "I knew it!"
+    jen "Ха-ха-ха, вы трахались друг с другом, не так ли?!"
+    jen "Я так и знала!"
     show jenny at unflip
     show jenny at Position (xpos=275)
     with dissolve
-    jen "I told you something was going on!"
+    jen "Я же говорила, что-то происходит!"
     show jenny f_happy
     deb "..."
     show diane f_annoyed_talk
-    dia "Shut up, {b}[jen_name]{/b}."
+    dia "Заткнись, {b}[jen_name]{/b}."
     show diane f_annoyed
     show jenny f_upset_talk
-    jen "Eww, they were doing it on our couch!"
-    jen "I watch TV there!"
+    jen "Йии, они делали это на нашем диване!"
+    jen "Я смотрю тут телевизор!"
     show jenny f_gross
     show debbie f_angry_talk
-    deb "{b}[jen_name]{/b}, SHUT UP!"
+    deb "{b}[jen_name]{/b}, ЗАТКНИСЬ!"
     show debbie f_angry
     show jenny f_surprised
     jen "!!!"
     show jenny f_upset_talk a_dressed_crossed with dissolve
-    jen "Sheesh, I dunno why you're yelling at me..."
+    jen "Блин, я не знаю, почему ты кричишь на меня..."
     show jenny f_normal_talk
-    jen "I'm not the one fucking {b}[firstname]{/b} in the living room!"
+    jen "Это не я трахалась с {b}[firstname]{/b} в гостиной!"
     show jenny f_grin
     show debbie f_angry_talk
-    deb "God damnit, {b}[jen_name]{/b}!"
+    deb "Черт побери, {b}[jen_name]{/b}!"
     show debbie f_sad_talk
-    deb "Just..."
-    deb "{b}*Sigh*{/b} Can you just go back upstairs and let me deal with this, please?"
+    deb "Просто..."
+    deb "{b}*Вздыхая*{/b} Ты можешь просто вернуться наверх и позволить мне разобраться с этим, пожалуйста?"
     show debbie f_sad
     pause
     show jenny f_eyeroll
-    jen "Pfft, fine."
+    jen "Пффф, хорошо."
     hide jenny with dissolve
     pause
     show diane f_sad_talk
-    dia "Look {b}[deb_name]{/b}, I'm not trying to..."
+    dia "Послушай {b}[deb_name]{/b}, Я и не пытаюсь..."
     show diane f_sad
     show debbie f_angry_talk
-    deb "Don't speak!"
-    deb "I can't believe you did this, {b}Diane{/b}!"
-    deb "He's just a kid and I'm supposed to protect him from stuff like this!"
-    deb "You can't just use him like some tool to get yourself off or pursue your kinky fantasies!"
+    deb "Помолчи!"
+    deb "Не могу поверить, что ты это сделала, {b}Диана{/b}!"
+    deb "Он всего лишь ребенок, и я должна защищать его от подобных вещей!"
+    deb "Ты не можешь просто использовать его как какой-то инструмент, чтобы воплотить свои странные фантазии!"
     show debbie f_angry
     show diane f_annoyed_talk
-    dia "Protect him, huh?!"
-    dia "Is that what you tell yourself you're doing when he's in there fucking your brains out?!"
+    dia "Защитить его, да?!"
+    dia "Это то, что ты говоришь себе, когда он трахает тебя до потери сознания?!"
     show diane f_annoyed
     show debbie f_angry_talk
     deb "!!!" with hpunch
-    deb "I don't..."
+    deb "Я не..."
     show debbie f_angry
     show diane f_annoyed_talk
-    dia "What?"
-    dia "You think I don't know?!"
-    dia "I'm one room away and you shriek like a banshee!"
+    dia "Что?"
+    dia "Думаешь, я не знаю?!"
+    dia "Я в соседней комнате от тебя, а ты визжишь как Банши!"
     show diane f_annoyed
     show player 10f
-    player_name "{b}Diane{/b}, don't-"
+    player_name "{b}Диана{/b}, не-"
     show player 11f
     show diane f_annoyed_talk
-    dia "NO!"
-    dia "If this is the way she wants this to go down, then I'm not gonna hold back."
+    dia "НЕТ!"
+    dia "Если она хочет, чтобы все так и было, я не буду сдерживаться."
     show diane a_naked_point with dissolve
-    dia "You're a hypocrite, {b}[deb_name]{/b}!"
-    dia "We've been talking about you and your urges all summer."
-    dia "YOUR deepening relationship with {b}[firstname]{/b}, YOUR desire to take it further, and just how amazing it all made YOU feel."
-    dia "I've never seen YOU happier than these past few weeks..."
-    dia "... And now you're gonna blow up at me for wanting just a tiny little piece of it?"
+    dia "Ты лицемерка, {b}[deb_name]{/b}!"
+    dia "Мы говорили о тебе и твоих желаниях все лето."
+    dia "ТВОИ углубляющиеся отношения с {b}[firstname]{/b}, ТВОЕ желание идти дальше, и как удивительно ТЫ себя при этом чувствовала."
+    dia "Я никогда не видел ТЕБЯ счастливее, чем в последние несколько недель..."
+    dia "... И теперь ты собираешься разозлиться на меня из-за того, что я хочу только крошечный кусочек этого?"
     show diane f_annoyed a_naked_hips_both with dissolve
     show debbie f_angry_talk
-    deb "That's different!"
+    deb "Это другое дело!"
     show debbie f_angry
     show diane f_annoyed_talk
-    dia "How in the world is it different?!"
+    dia "Чем же это отличается?!"
     show diane f_annoyed
     show debbie f_angry_talk
-    deb "... B-because I love him, okay?!"
+    deb "... Потому что я люблю его, ясно?!"
     show debbie f_angry
     show diane f_annoyed_talk
-    dia "Oh and you think I don't?!"
+    dia "А ты думаешь, что я нет?!"
     show diane f_annoyed
     show debbie f_angry_talk
-    deb "Oh god..."
+    deb "О боже..."
     show debbie f_angry
     show diane f_annoyed_talk
-    dia "How could I not love {b}[firstname]{/b}?!"
-    dia "He's the most wonderful man I've ever met."
+    dia "Как я могу не любить {b}[firstname]{/b}?!"
+    dia "Он самый замечательный человек, которого я когда-либо встречала."
     show diane f_annoyed
     show debbie f_sad_talk a_nightgown_sides with dissolve
-    deb "What are we-"
+    deb "Что мы-"
     show debbie f_sad
     pause
     show debbie a_nightgown_hand_mouth f_sad_talk with dissolve
-    deb "What have I done?!"
+    deb "Что я наделала?!"
     hide debbie with dissolve
     show player 10f at center with dissolve
-    player_name "{b}[deb_name]{/b}, wait!"
+    player_name "{b}[deb_name]{/b}, подожди!"
     show player 5f
     show diane f_sad_talk a_naked_sides with dissolve
-    dia "Let her go."
+    dia "Пусть идет."
     show diane f_sad
     show player 10f
-    player_name "B-but-"
+    player_name "Но-"
     show player 5 at left with dissolve
     show diane f_sad_talk
-    dia "Go on up to bed, {b}[firstname]{/b}."
+    dia "Иди спать, {b}[firstname]{/b}."
     show diane f_sad
     show player 10
-    player_name "Huh?!"
-    player_name "I can't-"
+    player_name "Ах?!"
+    player_name "Я не-"
     show player 5
     show diane f_sad_talk b_nightgown_remove2 a_empty with dissolve
-    dia "I can handle this..."
+    dia "Я справлюсь с этим..."
     show diane b_nightgown_remove1 with dissolve
-    dia "Just go upstairs."
+    dia "Просто иди наверх."
     hide diane with dissolve
     pause
     show player 24
