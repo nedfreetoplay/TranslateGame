@@ -4,79 +4,79 @@ label barn_daisy_pregnancy_anouncement_repeat:
     show diane b_naked a_naked_sides f_normal at Position (xpos=600)
     show daisy f_normal at Position (xpos=300)
     with dissolve
-    player_name "Hey, I got your text."
+    player_name "Привет, я получил твое сообщение."
     show player 5
     show diane f_normal_talk
-    dia "{b}Hey, {b}[firstname]{/b}."
-    dia "You uhh, might want to sit down for this..."
+    dia "{b}Привет, {b}[firstname]{/b}."
+    dia "Эх ты, возможно, захочешь присесть..."
     show diane f_normal
-    player_name "Hmm?"
+    player_name "Э?"
     show player 10b
-    player_name "What's going on?"
+    player_name "Что происходит?"
     show player 5
     show diane f_normal_talk
-    dia "{b}Daisy{/b} is pregnant again."
+    dia "{b}Дейзи{/b} опять беременна."
     show diane f_normal
     show player 10b
-    player_name "Again?!"
-    player_name "That's-"
+    player_name "Опять?!"
+    player_name "Это-"
     show player 5
     pause
     show player 30
-    player_name "Are you sure?"
+    player_name "Ты уверенна?"
     show player 5
     show diane f_normal_talk
-    dia "Well, the poor thing has been sick every morning for the past 3 days and she missed her... Umm..."
+    dia "Ну, бедняжка болела каждое утро в течение последних 3 дней, и она скучала по ее... Эмм..."
     show diane f_normal
     pause
     show diane f_shamed_talk_fardown
-    dia "{b}*Ahem*{/b} I'm pretty sure."
+    dia "{b}*Ммм*{/b} Я почти уверена."
     show diane f_shamed_fardown
     show player 10b
-    player_name "{b}*Phew*{/b} Okay..."
+    player_name "{b}*Уф*{/b} Хорошо..."
     show player 5b
     show diane f_normal_talk
-    dia "Oh, don't you worry. Everything is going to be fine."
+    dia "О, не волнуйся. Все будет хорошо."
     show diane f_laugh
-    dia "A child is a blessing!"
+    dia "Ребенок-это благословение!"
     show diane f_normal
     show player 10b
-    player_name "How are you taking all this {b}Daisy{/b}?"
+    player_name "Как ты относишься ко всему этому {b}Дейзи{/b}?"
     show player 5b
     show daisy f_normal_talk
-    daisy "I'm gonna be a mommy again!"
+    daisy "Я снова стану мамой!"
     show daisy f_normal
     show diane f_laugh
-    dia "Hehe, you certainly are sweetie."
+    dia "Хе-хе, ты определенно милашка."
     show diane f_smirk_talk_fardown
-    dia "C'mon, let's go and get you some food."
-    dia "You're eating for two now."
+    dia "Пойдем, принесем тебе поесть."
+    dia "Теперь ты ешь за двоих."
     show diane f_smirk
     hide daisy with dissolve
     pause
     show diane f_smirk_talk
-    dia "Chin up, {b}[firstname]{/b}!"
+    dia "Выше нос, {b}[firstname]{/b}!"
     show diane f_smirk
     show player 5
-    player_name "Hmm?"
+    player_name "Эээ?"
     show diane f_smirk_talk
-    dia "You're gonna be a father again."
-    dia "It's good news."
+    dia "Ты снова станешь отцом."
+    dia "Это хорошие новости."
     show diane f_smirk
     show player 14
-    player_name "Yeah, I know."
+    player_name "Да, я знаю."
     show player 13
     show diane f_laugh
-    dia "Congratulations!"
+    dia "Поздравляю!"
     show diane f_smirk
     show player 14
-    player_name "Thanks, {b}Diane{/b}."
+    player_name "Спасибо, {b}Диана{/b}."
     hide diane with dissolve
     pause
     show player 24
-    player_name "( Holy crap. )"
-    player_name "( {b}Daisy{/b} is going to have another kid... )"
-    player_name "{b}*Gulp*{/b} I hope I'm ready for this."
+    player_name "( Вот черт. )"
+    player_name "( У {b}Дейзи{/b} будет еще ребенок... )"
+    player_name "{b}*глоток*{/b} Надеюсь я готов к этому."
     hide player with dissolve
     return
 
