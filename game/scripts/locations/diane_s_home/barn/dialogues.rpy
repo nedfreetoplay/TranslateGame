@@ -265,186 +265,186 @@ label barn_daisy_caught_breeding_aftermath:
     show daisy f_laugh at Position (xpos=300)
     show diane b_naked a_naked_sides f_smirk at Position (xpos=580)
     with dissolve
-    daisy "Hi, {b}[firstname]{/b}!"
+    daisy "Привет, {b}[firstname]{/b}!"
     show daisy f_normal
     show player 14b
-    player_name "Hey, {b}Daisy{/b}. {b}Diane{/b}."
+    player_name "Привет, {b}Дейзи{/b}. {b}Диана{/b}."
     show player 1
     show diane f_smirk_talk
-    dia "Hello."
+    dia "Привет."
     show diane f_smirk
     pause
     show diane a_nudge f_smirk_talk_fardown with dissolve
-    dia "{b}*Ahem*{/b}"
+    dia "{b}*хм*{/b}"
     show diane a_naked_sides f_smirk_fardown with dissolve
     show daisy f_shy_talk
-    daisy "S-so, {b}Diane{/b}'s been telling me all about sex..."
+    daisy "Итак, {b}Диана{/b} рассказала мне все о сексе..."
     show daisy f_shy
     show player 11
     player_name "!!!"
     show daisy f_shy_talk
-    daisy "... And how it's something that two consenting adults should only do when they love each other very much."
+    daisy "... И как это то, что два взрослых человека должны делать только тогда, когда они очень любят друг друга."
     show daisy f_shy
     show player 10b
-    player_name "O-okay?"
+    player_name "Хо-хорошо?"
     show player 5b
     show diane f_smirk_talk_fardown
-    dia "Aaand?"
+    dia "Ииии?"
     show diane f_smirk_fardown
     show daisy f_shy_talk
-    daisy "... And that my master was lying and taking advantage of me, which is wrong..."
+    daisy "... И что мой учитель лгал и использовал меня, что неправильно..."
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "That's right."
+    dia "Вот именно."
     show diane f_smirk_fardown
     show daisy f_laugh
-    daisy "Oh!"
+    daisy "О!"
     show daisy f_shy_talk
-    daisy "... And that they're not called a weasel or a hidey-hole."
-    daisy "You have a penis and I have a floogina!"
+    daisy "... И что их не называют ласками или тайниками."
+    daisy "У тебя есть пенис, а у меня флугалище!"
     show daisy f_shy
     player_name "..."
     show diane f_smirk_talk_fardown
-    dia "VA-gina, dear."
+    dia "ВЛА-галище, милая."
     show diane f_smirk_fardown
     show daisy f_laugh
-    daisy "Oops, sorry!"
-    daisy "Vagina. I have a vagina."
+    daisy "Ой, прости!"
+    daisy "Влагалище. У меня есть влагалище."
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "Very good, sweetie."
+    dia "Очень хорошо, милая."
     show diane f_smirk_fardown with None
     show daisy f_normal_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    daisy "So can {b}[firstname]{/b} and I have sex now?!"
+    daisy "Итак, можем ли {b}[firstname]{/b} и я заняться сексом сейчас?!"
     show daisy f_normal
     show player 11
     show diane f_surprised
     player_name "!!!" with hpunch
     show diane f_shamed_talk_smile
-    dia "{b}*Sigh*{/b}"
+    dia "{b}*ох*{/b}"
     show player 5
     show diane f_shamed_talk_fardown
-    dia "{b}Daisy{/b}, I told you why {b}[firstname]{/b} and I are having sex, didn't I?"
+    dia "{b}Дейзи{/b}, я сказала тебе, почему {b}[firstname]{/b} и я занимаемся сексом, не так ли?"
     show diane f_shamed_fardown
     show daisy f_normal_talk
-    daisy "Yes, because you're consenting adults that love each other very much..."
-    daisy "... And it increases your milk production."
+    daisy "Да, потому что вы взрослые люди, которые очень любят друг друга..."
+    daisy "... И это увеличивает производство молока."
     show daisy f_normal
     show diane f_shamed_talk_fardown
-    dia "That's right, it's for my business."
+    dia "Правильно, это для моего бизнеса."
     show diane f_shamed_fardown
     show daisy f_laugh
-    daisy "I'm part of the business too!"
+    daisy "Я тоже часть бизнеса!"
     show daisy f_normal
     show diane f_shamed_talk_fardown
-    dia "I know that, but-"
+    dia "Я знаю это, но-"
     show diane f_shamed_fardown
     show daisy f_normal_talk
-    daisy "... And I'm an adult and I love {b}[firstname]{/b}..."
-    daisy "... And I wanna have sex too!"
+    daisy "... И я взрослая, и я люблю {b}[firstname]{/b}..."
+    daisy "... И я тоже хочу секса!"
     show daisy f_normal
     show diane f_shamed_talk_fardown
-    dia "{b}*Sigh*{/b}"
-    dia "Well, that's between you and {b}[firstname]{/b} then."
+    dia "{b}*ох*{/b}"
+    dia "Ну, тогда это между тобой и {b}[firstname]{/b}."
     show daisy at unflip
     show daisy at Position (xpos=300)
     with dissolve
     show diane f_shamed
     show player 10
-    player_name "Huh?!"
+    player_name "Эээ?!"
     show player 5
     pause
     show player 10
-    player_name "Y-you're serious?!"
+    player_name "Т-ты серьезно?!"
     show player 5
     show diane f_shamed_talk_smile
-    dia "She's right."
-    dia "You're both adults and if you two wanna have sex, I can't stop you."
-    dia "I'd rather we keep this all out in the open instead of you two doing it behind my back."
+    dia "Она права."
+    dia "Вы оба взрослые люди и если вы хотите заняться сексом, я не могу остановить тебя."
+    dia "Я бы предпочла, чтобы мы держали все это в секрете, вместо того, чтобы вы двое делали это за моей спиной."
     show diane f_shamed
     show player 10
-    player_name "I wasn't-"
-    player_name "I mean, I wouldn't have-"
+    player_name "Я не-"
+    player_name "То есть, Я бы не стал-"
     show player 5
     show diane f_shamed_talk_smile
-    dia "It's alright, {b}[firstname]{/b}."
-    dia "{b}Daisy{/b} is a sweet girl and she really likes you."
-    dia "If you like her too, then there's nothing wrong with you two having sex."
-    dia "Just promise me you'll be careful."
+    dia "Все в порядке, {b}[firstname]{/b}."
+    dia "{b}Дейзи{/b} милая девушка, и ты ей очень нравишься."
+    dia "Если она тебе нравится, то ничего плохого нет если у вас двоих будет секс."
+    dia "Просто пообещай мне, что будешь осторожна."
     show diane f_shamed
     show player 24
     player_name "..."
     show player 5b
     show daisy f_normal_talk
-    daisy "I'll be careful!"
+    daisy "Я буду осторожна!"
     show daisy f_normal
     show diane f_laugh
-    dia "Hehe, good girl {b}Daisy{/b}."
+    dia "Хехе, хорошоя девочка {b}Дейзи{/b}."
     show diane f_smirk
     pause
     show diane f_smirk_talk
-    dia "Alright, you two have a lot to talk about and I should get back to work."
-    dia "Let me know if you need anything."
+    dia "Ладно, вам двоим есть о чем поговорить, а мне пора возвращаться к работе."
+    dia "Дай мне знать, если тебе что-нибудь понадобится."
     show diane f_smirk with None
     show daisy f_laugh at flip
     show daisy at Position (xpos=750)
     with dissolve
     show diane f_smirk_fardown
-    daisy "Thanks, {b}Diane{/b}!"
+    daisy "Спасибо, {b}Диана{/b}!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "You're welcome, sweetie."
+    dia "Пожалуйста, милая."
     hide diane with dissolve
     pause
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=300)
     with dissolve
-    daisy "Are you okay, {b}[firstname]{/b}?"
-    daisy "You look funny."
+    daisy "Ты в порядке, {b}[firstname]{/b}?"
+    daisy "Ты выглядишь забавно."
     show daisy f_shy
     show player 10b
-    player_name "I don't-"
+    player_name "Я не-"
     show player 5b
     pause
     show player 10b
-    player_name "This is all really sudden."
+    player_name "Все это так неожиданно."
     show player 5b
     show daisy f_sad_talk
-    daisy "Oh."
-    daisy "You mean, you don't want to have sex with me?"
+    daisy "Ой."
+    daisy "То есть, ты не хочешь заниматься со мной сексом?"
     show daisy f_sad
     show player 10b
-    player_name "I'm not saying that, it's just... Are you sure this is what you want?"
+    player_name "Я этого не говорю, просто ..... Ты уверена, что это то, чего ты хочешь?"
     show player 5b
     show daisy f_normal_talk
-    daisy "Oh, yes!"
-    daisy "You take care of me and bring me pizza and pretty flowers!"
-    daisy "You're like the bestest man in the whole world!"
-    daisy "I'd much rather have sex with you than with master..."
+    daisy "О, да!"
+    daisy "Ты заботишься обо мне и приносишь пиццу и красивые цветы!"
+    daisy "Ты самый лучший человек на свете!"
+    daisy "Я лучше займусь сексом с тобой, чем с хозяином..."
     show daisy f_normal
     show player 10b
-    player_name "Yeah but you don't have to have sex with anybody, {b}Daisy{/b}..."
+    player_name "Да, но тебе не нужно ни с кем заниматься сексом, {b}Дейзи{/b}..."
     show player 5b
     show daisy f_normal_talk
-    daisy "I want to!"
+    daisy "Я хочу!"
     show daisy f_sexy_talk
-    daisy "I think it will be fun to put your weasel in my hidey-hole!"
+    daisy "Думаю, будет забавно засунуть твою ласку в мою норку!"
     show daisy f_sexy
     player_name "..."
     show daisy f_sexy_talk
-    daisy "Sorry, I meant your penis... In my floogina."
+    daisy "Прости, я имела в виду твой пенис... В моем флугалище."
     show daisy f_sexy
     show player 10b
-    player_name "Vagina."
+    player_name "Влагалище."
     show player 5b
     show daisy f_shy_talk
-    daisy "Oh, right!"
+    daisy "О, верно!"
     show daisy f_shy
     pause
     show daisy f_normal_talk
-    daisy "So, do you wanna have sex?!"
+    daisy "Так ты хочешь заняться сексом?!"
     show daisy f_sexy
     return
 
