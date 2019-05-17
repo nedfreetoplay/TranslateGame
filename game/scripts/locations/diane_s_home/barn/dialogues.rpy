@@ -534,96 +534,96 @@ label barn_daisy_dead_flowers:
     show player 1b at left
     show daisy b_naked_behind_sad f_empty a_empty zorder 1
     with dissolve
-    daisy "Oh no!!!"
+    daisy "О нет!!!"
     show player 5b
-    player_name "Hmm?"
-    daisy "No, no, no, no!!"
+    player_name "Хмм?"
+    daisy "Нет, нет, нет, нет!!"
     show player 10b
-    player_name "{b}Daisy{/b}?"
+    player_name "{b}Дейзи{/b}?"
     show player 5b
     show daisy b_naked a_naked_cover f_sad_talk with dissolve
-    daisy "{b}[firstname]{/b}, it's terrible!"
-    daisy "{b}*Sniff*{/b} Something's wrong!"
+    daisy "{b}[firstname]{/b}, это ужасно!"
+    daisy "{b}*фырк*{/b} Что-то не так!"
     show daisy f_sad
     show player 10b
-    player_name "Huh?"
+    player_name "Эээ?"
     show player 5b
     show daisy f_sad_talk
-    daisy "I think they're sick!"
+    daisy "Я думаю, они больны!"
     show daisy f_sad
     show player 10b
-    player_name "{b}Daisy{/b}, I don't-"
-    player_name "Who's sick?"
+    player_name "{b}Дейзи{/b}, Я не-"
+    player_name "Кто болен?"
     show player 5b
     show daisy f_sad_talk a_naked_vase_wilted at Position (xpos=300) with dissolve
-    daisy "My flowers!!!"
+    daisy "Мои цветы!!!"
     show daisy f_sad
     show player 10b
-    player_name "All of them?!"
+    player_name "Все?!"
     show player 5b
     show daisy f_sad_talk
-    daisy "{b}*Sniff*{/b} Y-yes..."
+    daisy "{b}*фырк*{/b} Да..."
     show daisy f_sad
     show player 10b
-    player_name "How did that happen?"
+    player_name "Как это произошло?"
     show player 5b
     show daisy f_sad_talk
-    daisy "I don't know! {b}*Sniff*{/b}"
-    daisy "They were pretty yesterday..."
+    daisy "Я не знаю! {b}*фырк*{/b}"
+    daisy "Они были вчера красивыми ..."
     show daisy f_sad
     show player 10b
-    player_name "I'm so sorry, {b}Daisy{/b}..."
+    player_name "Мне так жаль, {b}Дейзи{/b}..."
     show player 5b
     show diane f_sad_talk b_shirtless a_shirtless_sides at Position (xpos=600) with dissolve
     show player 5
-    dia "Is {b}Daisy{/b} crying?!"
+    dia "{b}Дейзи{/b} плачет?!"
     show diane f_sad with None
     show daisy f_sad_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    daisy "{b}Diane{/b}, something's wrong with my pretty flowers!!"
+    daisy "{b}Диана{/b}, что-то не так с моими прекрасными цветами!!"
     show daisy f_sad
 
     pause
     show diane f_shamed_talk_fardown
-    dia "Aww, sweetie..."
-    dia "That's just how it goes with flowers..."
-    dia "... They aren't meant to live forever."
-    dia "It'll be okay."
+    dia "Ауу, милая..."
+    dia "Так всегда бывает с цветами..."
+    dia "... Им не суждено жить вечно."
+    dia "Все будет хорошо."
     show diane f_shamed_fardown
     show daisy f_sad_talk
-    daisy "{b}*Sniff*{/b} But... But..."
-    daisy "How do we fix them?"
+    daisy "{b}*фырк*{/b} Но... Но..."
+    daisy "Как мы их исправим?"
     show daisy f_sad
     show diane f_shamed_talk_fardown
-    dia "I'm afraid, some things, just can't be fixed dear..."
+    dia "Боюсь, некоторые вещи нельзя исправить, дорогая..."
     show diane f_shamed_fardown
     show daisy f_sad_talk
-    daisy "... No..."
+    daisy "... Нет..."
     hide daisy
     hide diane
     show daisy b_naked_diane_comfort f_empty a_empty
     show diane b_empty a_empty f_shamed_talk_look
     with dissolve
-    dia "There, there."
-    dia "Shhh."
+    dia "Они, они."
+    dia "Шшшшш."
     show diane f_shamed_talk_look_closed
     show daisy b_naked_diane_comfort2
-    daisy "{b}*Sniff*{/b} What are we gonna do?"
+    daisy "{b}*фырк*{/b} Что мы будем делать?"
     show daisy b_naked_diane_comfort
     show diane f_shamed_talk_look
-    dia "Well, why don't we add them to the compost pile out back?"
-    dia "That way, they can help us make new flowers one day."
+    dia "Почему бы нам не добавить их в компостную кучу на заднем дворе?"
+    dia "Таким образом, однажды они помогут нам сделать новые цветы."
     show daisy b_naked_diane_comfort2
     show diane f_shamed_talk_look_closed
-    daisy "R-really?"
+    daisy "Правда?"
     show daisy b_naked_diane_comfort
-    dia "Mmhmm."
+    dia "Мммммм."
     show diane f_shamed_talk_look
-    dia "C'mon, sweetie. I'll show you."
+    dia "Давай, милая. Я тебе покажу."
     show diane f_shamed_talk_look_closed
     show daisy b_naked_diane_comfort2
-    daisy "{b}*Sniff*{/b} O-okay."
+    daisy "{b}*фырк*{/b} Хорошо."
     hide daisy
     show diane f_shamed b_shirtless a_shirtless_sides at fliplright
     with dissolve
@@ -634,39 +634,39 @@ label barn_daisy_dead_flowers:
     dia "{b}[firstname]{/b}?"
     show diane f_normal
     show player 13
-    player_name "Hmm?"
+    player_name "Ммм?"
     show diane f_normal_talk
-    dia "Why don't you run over to {b}the Mall{/b} and get her some new flowers?"
+    dia "Почему бы тебе не сбегать в {b}торговый центр{/b} и не купить ей новые цветы?"
     show diane f_normal
     show player 10
-    player_name "Right now?"
+    player_name "Сейчас?"
     show player 5
     show diane f_normal_talk
-    dia "Yeah, it'll be a nice surprise for her."
+    dia "Да, это будет приятный сюрприз для нее."
     show diane f_normal
     show player 14
-    player_name "Yeah, okay."
+    player_name "Хорошо."
     show player 13
     show diane f_normal_talk
-    dia "Try to get her something big and colorful."
+    dia "Попробуй достать ей что-нибудь большое и яркое."
     show diane f_laugh
-    dia "{b}Sunflowers{/b} would be perfect!"
+    dia "{b}Подсолнухи{/b} были бы идеальны!"
     show diane f_normal
     show player 14
-    player_name "Okay, I'll look for {b}Sunflowers{/b}."
+    player_name "Хорошо, я поищу {b}Подсолнухи{/b}."
     show player 13
-    daisy "{b}Diane{/b}?!"
+    daisy "{b}Диана{/b}?!"
     show diane f_normal_talk at fliplright with dissolve
-    dia "Coming, sweetie!"
+    dia "Иду, милая!"
     hide diane
     show diane b_shirtless a_shirtless_sides f_normal_talk at Position (xpos=600)
     with dissolve
-    dia "Thanks, {b}[firstname]{/b}."
+    dia "Спасибо, {b}[firstname]{/b}."
     hide diane with dissolve
     pause
     show player 4 with dissolve
-    player_name "( Hmm, I think that new store {b}Cupid{/b} at {b}the Mall{/b} sells flowers. )"
-    player_name "( {b}I should start there{/b}. )"
+    player_name "( Хм, я думаю, что в новом магазине {b}Cupid{/b} в {b}торговом центре{/b} продают цветы. )"
+    player_name "( {b}Я должен начать с него{/b}. )"
     hide player with dissolve
     return
 
