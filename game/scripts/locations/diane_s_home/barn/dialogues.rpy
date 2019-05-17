@@ -86,91 +86,91 @@ label barn_daisy_pregnancy_seen_in_labor:
     show diane b_naked a_naked_sides f_normal_talk at Position (xpos=600)
     show daisy a_naked_baby f_down at Position (xpos=300)
     with dissolve
-    dia "There he is!"
+    dia "Вот он!"
     show diane f_normal
     pause
     show diane f_teasing_look
     show daisy f_normal
-    dia "There's your daddy!"
+    dia "Вот твой папа!"
     show diane f_normal
     show player 3 with dissolve
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*глоток*{/b}"
     show diane f_normal_talk
-    dia "Come on, handsome."
+    dia "Давай, красавчик."
     if M_daisy.pregnancy.baby_gender == "boy":
-        dia "You have to meet {b}your new son{/b}."
+        dia "Ты должен познакомиться {b}со своим новым сыном{/b}."
         show diane f_smirk_fardown
         show player 10 with dissolve
-        player_name "{b}M-my son{/b}?"
+        player_name "{b}М-моим сыном{/b}?"
     else:
-        dia "You have to meet {b}your new daughter{/b}."
+        dia "Ты должен познакомиться {b}со своей новой дочерью{/b}."
         show diane f_smirk_fardown
         show player 10 with dissolve
-        player_name "{b}M-my daughter{/b}?"
+        player_name "{b}М-моей дочерью{/b}?"
     show player 13
-    dia "Mmhmmm."
+    dia "Ммммммм."
     show player 426
     show daisy f_down
     with dissolve
     pause
     show player 14
-    player_name "Wow..."
+    player_name "Вау..."
     if M_daisy.pregnancy.baby_gender == "boy":
-        player_name "... He's so cute!"
+        player_name "... Он такой милый!"
     else:
-        player_name "... She's so cute!"
+        player_name "... Она такая милая!"
     show player 426
     show diane f_laugh
-    dia "Hehe, yup."
+    dia "Хехе, ага."
     if M_daisy.pregnancy.baby_gender == "boy":
-        dia "Just like his daddy."
+        dia "Прямо как его папочка."
     else:
-        dia "Just like her mommy."
+        dia "Прямо как ее мамочка."
     show diane f_cheese
     show player 14b
-    player_name "How are you feeling {b}Daisy{/b}?"
+    player_name "Как ты себя чувствуешь {b}Дейзи{/b}?"
     show player 1b
     show diane f_smirk_fardown
     show daisy f_sad_talk
-    daisy "Tired."
+    daisy "Уставшей."
     show daisy f_sad
     show diane f_normal_talk
     if M_daisy.pregnancy.baby_gender == "boy":
-        dia "She was up all night pushing this little guy out."
+        dia "Она не спала всю ночь, выталкивая этого маленького парня."
     else:
-        dia "She was up all night pushing this little gal out."
-    dia "It took a lot out of her."
+        dia "Она не спала всю ночь, выталкивая эту девчонку."
+    dia "Это отняло у нее много сил."
     show diane f_smirk_fardown
     pause
     show daisy f_down
     show player 10
-    player_name "Everything went okay though, right?"
+    player_name "Все прошло хорошо, да?"
     show player 5
     show diane f_normal_talk
-    dia "Oh, yeah."
-    dia "You'll be back on your feet in no time, won't you sweetie?"
+    dia "О, да."
+    dia "Ты быстро встанешь на ноги, правда, милая?"
     show diane f_smirk_fardown
     show daisy f_down_talk
-    daisy "Yeah!"
+    daisy "Да!"
     show daisy f_laugh
-    daisy "We have a baby, {b}[firstname]{/b}!"
+    daisy "У нас ребенок, {b}[firstname]{/b}!"
     show daisy f_normal
     show player 14b
-    player_name "Y-yeah, I know."
-    player_name "Don't worry, I'll take care of you guys."
+    player_name "Д-да, я знаю."
+    player_name "Не волнуйтесь, я о вас позабочусь."
     show player 1b
     show diane f_laugh
-    dia "Aww, you're so sweet, {b}[firstname]{/b}."
+    dia "О, ты такой милый, {b}[firstname]{/b}."
     show diane f_smirk_talk_fardown
-    dia "C'mon, we should let them rest."
-    dia "Say bye to Daddy!"
+    dia "Давай, мы должны дать им отдохнуть."
+    dia "Попрощайся с папой!"
     show diane f_normal
     pause
     show player 429
-    player_name "I'll see you both soon, okay."
+    player_name "Скоро увидимся, хорошо?"
     show player 1b
     show daisy f_normal_talk
-    daisy "okay, {b}[firstname]{/b}."
+    daisy "Хорошо, {b}[firstname]{/b}."
     hide daisy
     hide player
     hide diane
