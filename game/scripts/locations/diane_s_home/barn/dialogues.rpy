@@ -450,18 +450,18 @@ label barn_daisy_caught_breeding_aftermath:
 
 label barn_daisy_caught_breeding_aftermath_yes:
     show player 14b
-    player_name "Alright, let's do it."
+    player_name "Хорошо, давай сделаем это."
     show player 1b
     show daisy f_normal_talk
-    daisy "{b}*Gasp*{/b} Really?!"
+    daisy "{b}*ах*{/b} Правда?!"
     show daisy f_laugh
-    daisy "Yay!!!"
+    daisy "Да!!!"
     show daisy f_normal
     show player 14b
-    player_name "C'mon, let's go to one of the milking machines."
+    player_name "Пойдем к одному из доильных аппаратов."
     show player 1b
     show daisy f_laugh
-    daisy "Okay!"
+    daisy "Хорошо!"
     hide daisy
     hide player
     with dissolve
