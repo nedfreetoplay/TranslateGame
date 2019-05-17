@@ -673,281 +673,281 @@ label barn_daisy_dead_flowers:
 label barn_front_daisy_pizza_craving:
     scene expression player.location.background_blur with None
     show player 684 with dissolve
-    player_name "( Ugh, it's so freaking hot out today! )"
+    player_name "( Ох, сегодня так чертовски жарко! )"
     pause
     show player 24 with dissolve
-    player_name "{b}*Sigh*{/b} I should take a break for awhile..."
+    player_name "{b}*вздох*{/b} Мне нужно сделать перерыв на некоторое время..."
     show player 11
-    daisy "{b}Diane{/b}!"
-    daisy "That tickles!!!"
+    daisy "{b}Диана{/b}!"
+    daisy "Щекотно!!!"
     show player 30
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 5
-    dia "Well, we want to make sure we got it all, don't we?"
-    daisy "Yes..."
+    dia "Ну, мы хотим убедиться, что у нас есть все, не так ли?"
+    daisy "Да..."
     show player 10
-    player_name "What are they up to in there?"
+    player_name "Что они там делают?"
     hide player with dissolve
     pause
     $ player.go_to(L_diane_barn_interior)
     scene expression player.location.background_blur with None
 
     show daisy b_diane_milking a_empty f_laugh with dissolve
-    daisy "Hehehe!"
-    dia "Heh, you have to stop squirming, sweetie."
-    daisy "I can't help it!"
+    daisy "Хехехе!"
+    dia "Ты должна перестать извиваться, милая."
+    daisy "Я ничего не могу поделать!"
     show player 10 at left with dissolve
-    player_name "What's going on in-"
+    player_name "Что происходит-"
     show player 11
     pause
     show player 29 with dissolve
-    player_name "Whoa."
+    player_name "Вау."
     show player 3
     show daisy f_normal_talk
-    daisy "H-hi, {b}[firstname]{/b}."
+    daisy "Привет, {b}[firstname]{/b}."
     show daisy f_normal b_naked a_naked_sides at Position (xpos=300)
     show diane b_naked a_naked_sides f_normal_talk at Position (xpos=600)
     with dissolve
-    dia "Hey, {b}[firstname]{/b}."
-    dia "I'm just milking our new friend here."
+    dia "Привет, {b}[firstname]{/b}."
+    dia "Я просто дою нашего нового друга."
     show diane f_normal
     show player 14 with dissolve
-    player_name "Y-yeah, I can see that."
-    player_name "Sorry, I'll leave you two alone."
+    player_name "Да, я вижу это."
+    player_name "Извините, я оставлю вас наедине."
     show player 13
     show diane f_laugh
-    dia "Oh, nonsense!"
+    dia "О, чепуха!"
     show diane f_normal_talk
-    dia "It's nothing you haven't seen before."
+    dia "Ничего такого, чего бы ты не видел раньше."
     show diane f_smirk_talk_fardown
     show daisy f_shy_back
-    dia "You don't mind if {b}[firstname]{/b} stays, do you sweetie?"
+    dia "Ты не против, если {b}[firstname]{/b} останется, милая?"
     show diane f_smirk_fardown
     show daisy f_shy_talk_back
-    daisy "No, it's okay."
+    daisy "Нет, все в порядке."
     show daisy f_shy_talk
-    daisy "{b}[firstname]{/b} is nice, right?"
+    daisy "{b}[firstname]{/b} это мило, правда?"
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "Heh, yes. {b}[firstname]{/b} is very nice."
+    dia "Хех, да. {b}[firstname]{/b} это очень мило."
     show diane f_smirk
     show daisy f_normal
     show player 14
-    player_name "How long has this been going on?"
+    player_name "Как долго это продолжается?"
     show player 13
     show diane f_smirk_talk
-    dia "Mmm, just a couple of days."
-    dia "The poor thing started acting strange and I couldn't figure out what the problem was."
-    dia "It turns out her \"boobies\" were hurting."
+    dia "Ммм, всего пару дней."
+    dia "Бедняжка начала вести себя странно, и я не могла понять, в чем проблема."
+    dia "Оказывается, ее \"сиськи\" болели."
     show diane f_cheese
     pause
     show diane f_laugh
-    dia "Haha, her words, not mine."
+    dia "Ха-ха, ее слова, не мои."
     show diane f_smirk_fardown
     show daisy f_sad_talk
-    daisy "Well, Master used to milk me everyday..."
-    daisy "... But he's not around to do it anymore."
+    daisy "Ну, мастер доил меня ежедневно..."
+    daisy "... Но его больше нет рядом."
     show daisy f_sad
     show diane f_smirk_talk_fardown
-    dia "Thank goodness for that."
-    dia "You're much better off without that creepy old man!"
+    dia "Слава богу, что так."
+    dia "Тебе гораздо лучше без этого жуткого старика!"
     show diane f_smirk_fardown
     pause
     show daisy f_normal_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    daisy "... Yeah."
-    daisy "I like when {b}Diane{/b} does it better."
+    daisy "... Да."
+    daisy "Мне нравится, когда {b}Диана{/b} делает это лучше."
     show daisy f_normal
     show diane f_laugh
-    dia "Heh."
+    dia "Хе."
     show diane f_smirk_talk_fardown
-    dia "Well, if you think I'm good at it, you should see {b}[firstname]{/b}!"
+    dia "Ну, если ты думаешь, что я хороша в этом, ты должена увидеть {b}[firstname]{/b}!"
     show diane f_smirk_fardown
     show daisy f_shy_talk
-    daisy "Really?!"
+    daisy "Правда?!"
     show daisy f_shy
-    dia "Mmmhmm."
+    dia "Мммммм."
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=300)
     with dissolve
-    daisy "{b}Diane{/b} says that you milk her sometimes too?"
+    daisy "{b}Диана{/b} говорит, ты ее тоже иногда доишь?"
     show daisy f_shy
     show diane f_smirk
     show player 14b
-    player_name "Y-yeah, sometimes..."
+    player_name "Да, иногда..."
     show player 1b
     show daisy f_normal_talk
-    daisy "I've never met anyone else that needs to be milked like me."
+    daisy "Я никогда не встречала никого, кого нужно было бы доить, как меня."
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "Perhaps {b}[firstname]{/b} can tell you more about what we do here and take your mind off all the tickling, huh?"
+    dia "Возможно, {b}[firstname]{/b} может рассказать тебе больше о том, что мы здесь делаем, и отвлечь тебя от щекотки, а?"
     hide diane
     hide daisy
     show daisy b_diane_milking a_empty f_normal_talk
     with dissolve
-    daisy "Y-yeah, okay."
+    daisy "Да, хорошо."
     show daisy f_normal
     show player 10
-    player_name "Uhh, sure..."
+    player_name "Ух, конечно..."
     show player 14
-    player_name "{b}*Ahem*{/b} You see, {b}Diane{/b} sells her milk to people who need it."
+    player_name "{b}*хм*{/b} Видешь ли, {b}Диана{/b} продает молоко тем, кто в нем нуждается."
     show player 1
     show daisy f_shy_talk
-    daisy "People need it?"
+    daisy "Людям оно нкжно?"
     show daisy f_shy
     show player 14
-    player_name "Yeah."
-    player_name "Some of her customers drink it and others cook with it."
-    player_name "Heh, I even heard some of my friends say they are mixing it into their protein shakes..."
+    player_name "Да."
+    player_name "Некоторые из ее клиентов пьют его, а другие готовят с ним."
+    player_name "Хех, я даже слышал, как некоторые из моих друзей говорят, что они смешивают его в своих протеиновых коктейлях..."
     show player 1
     show daisy f_laugh
-    daisy "Wowzers, {b}Diane{/b} must have yummy milk!"
+    daisy "Вау, у {b}Дианы{/b} наверно вкусное молоко!"
     show daisy f_normal
     show player 14
-    player_name "Yeah, it's really tasty!"
+    player_name "Да, оно действительно вкусное!"
     show player 1
     show daisy f_shy_back
-    daisy "{b}Diane{/b}, you should sell my milk too!"
+    daisy "{b}Диана{/b}, ты должна продать и мое молоко!"
     show daisy b_naked a_naked_sides f_normal_talk at flip
     show daisy at Position (xpos=750)
     show diane b_naked a_naked_sides f_smirk_fardown at Position (xpos=600)
     with dissolve
-    daisy "Master says it's the best in the whole world!"
+    daisy "Хозяин говорил, что оно лучшее во всем мире!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "You'd be okay with me selling some?"
+    dia "Ты не против, если я продам немного?"
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Of course!"
-    daisy "I wanna help people too!"
+    daisy "Конечно!"
+    daisy "Я тоже хочу помогать людям!"
     show daisy f_normal
     show diane f_laugh
-    dia "Haha, you're such a good girl, {b}Daisy{/b}."
+    dia "Ха-ха, ты такая хорошая девочка, {b}Дейзи{/b}."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Uh huh!"
+    daisy "Угу!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "I think we're about done for today..."
-    dia "Feeling better?"
+    dia "Думаю, на сегодня мы закончили..."
+    dia "Чувствуешь себя лучше?"
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Yes, much better."
-    daisy "Thank you, {b}Diane{/b}!"
+    daisy "Да, намного лучше."
+    daisy "Спасибо, {b}Диана{/b}!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "No problem, sweetie."
+    dia "Нет проблем, милая."
     show diane f_smirk_fardown
     pause
     show diane f_smirk_talk_fardown
-    dia "We should probably get some food in you now, don't you think?"
+    dia "Тебе не кажется, что сейчас нам стоит тебя покормить?"
     show diane f_smirk_fardown
     show daisy f_laugh
-    daisy "{b}*Gasp*{/b} Oats?!"
+    daisy "{b}*глоток*{/b} Овес?!"
     show daisy f_normal
     show diane f_laugh
-    dia "Heh, oats again?"
+    dia "Хех, опять овес?"
     show diane f_smirk_talk_fardown
-    dia "{b}*Sigh*{/b} Don't you get tired of eating oats all the time?"
+    dia "{b}*вздох*{/b} Тебе не надоело все время есть овес?"
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Nope!"
-    daisy "Master always feeds me oats, they're yummy!"
+    daisy "Нет!"
+    daisy "Хозяин всегда кормил меня овсом, он вкусный!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "Okay, but your old master doesn't control what you eat anymore..."
-    dia "Wouldn't you rather try something else?"
+    dia "Хорошо, но твой старый хозяин больше не контролирует, что ты ешь..."
+    dia "Может, попробуешь что-нибудь другое?"
     show diane f_smirk_fardown
     show daisy f_normal_smelling
-    daisy "Mmm"
+    daisy "Ммм"
     show daisy f_normal_talk
-    daisy "I dunno..."
-    daisy "What's better than oats?"
+    daisy "Я не знаю..."
+    daisy "Что может быть лучше овса?"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "Hehe, lots of things!"
-    dia "You could try some more things out of my garden?"
+    dia "Хе-хе, много чего!"
+    dia "Ты можешь попробовать еще что-нибудь из моего сада?"
     show diane f_smirk_fardown
     show daisy f_normal_smelling
-    daisy "Hmm..."
+    daisy "Хмм..."
     show daisy f_normal_talk at unflip
     show daisy at Position (xpos=300)
     with dissolve
-    daisy "What do you like to eat, {b}[firstname]{/b}?"
+    daisy "Что ты любишь есть, {b}[firstname]{/b}?"
     show daisy f_normal
     show diane f_normal
     show player 10b
-    player_name "Me?"
+    player_name "Я?"
     show player 17
-    player_name "Cheese burgers!"
+    player_name "Чизбургеры!"
     show player 1b
     show diane f_sad_talk
-    dia "{b}[firstname]{/b}, are you crazy?!"
+    dia "{b}[firstname]{/b}, ты с ума сошел?!"
     show player 5
-    dia "We cannot feed her a cheese burger!!"
+    dia "Мы не можем кормить ее чизбургер!!"
     show diane f_sad
     show player 10
-    player_name "Hmm, why not?"
+    player_name "Хмм, почему?"
     show player 5
     pause
     show player 11
     pause
     show player 29 with dissolve
-    player_name "Oh, right..."
+    player_name "Ой, верно..."
     show diane f_smirk
-    player_name "... Because that's beef and she's-"
+    player_name "... Потому что это говядина и она-"
     show player 3
     pause
     show player 14b
-    player_name "Sorry."
+    player_name "Прости."
     show player 1b
     show daisy f_normal_talk
-    daisy "What's a cheese burger?"
+    daisy "Что такое чизбургер?"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "Nevermind that, dear."
+    dia "Не обращай внимания, дорогая."
     show diane f_normal
     show player 14b
-    player_name "Pizza then!"
+    player_name "Тогда пицца!"
     show player 1b
     show daisy f_shy_talk
-    daisy "Pizza?"
+    daisy "Пицца?"
     show daisy f_shy
     pause
     show daisy f_laugh
-    daisy "Hehe, that's a funny word!"
+    daisy "Хе-хе, забавное слово!"
     show daisy f_normal
     show diane f_thinking
-    dia "That could work, I guess..."
+    dia "Думаю, это может сработать..."
     show diane f_normal_talk
     show player 13
-    dia "You wanna run over to {b}Tony's Pizzeria{/b} and grab a pizza for her to try?"
+    dia "Хочешь сбегать в {b}пиццерию Тони{/b} и взять пиццу, чтобы она попробовала?"
     show diane f_normal
     show player 14
-    player_name "Yeah, I can do that."
+    player_name "Да, я могу это сделать."
     show player 13
     show daisy f_normal_talk
-    daisy "Pizza!"
+    daisy "Пицца!"
     show daisy f_laugh
-    daisy "Hehehe!"
+    daisy "Хехехе!"
     show daisy f_normal
     show diane f_normal_talk
-    dia "Just remember she's a herbavore, okay?"
-    dia "I don't know if she'd be able to handle meat."
+    dia "Просто помни, что она травоядная, хорошо?"
+    dia "Не знаю, справится ли она с мясом."
     show diane f_normal
     show player 14
-    player_name "Got it!"
-    player_name "{b}One veggie pizza, coming up{/b}!"
+    player_name "Понял!"
+    player_name "{b}Одна вегетарианская пицца на подходе{/b}!"
     hide player with dissolve
     show daisy f_normal_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
     show diane f_smirk_fardown
-    daisy "PIZZA!!!"
+    daisy "ПИЦЦА!!!"
     show daisy f_normal
     show diane f_laugh
-    dia "Hehe!"
+    dia "Хехе!"
     hide diane
     hide daisy
     with dissolve
