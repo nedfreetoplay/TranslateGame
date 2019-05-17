@@ -959,138 +959,138 @@ label barn_front_daisy_picking_flowers:
     $ M_diane.outfit = "shirtless"
     show diane b_naked a_naked_sides
     with dissolve
-    player_name "Hey {b}Diane{/b}."
+    player_name "Привет {b}Диана{/b}."
     show player 13
     show diane f_normal_talk
-    dia "Hey there, stud."
-    dia "How are you today?"
+    dia "Привет, жеребец."
+    dia "Как ты сегодня?"
     show diane f_normal
     show player 14
-    player_name "I'm alright."
-    player_name "What are you doing out here in the garden?"
-    player_name "Shouldn't you be inside with our new friend?"
+    player_name "Я в порядке."
+    player_name "Что ты делаешь в саду?"
+    player_name "Разве ты не должна быть внутри с нашим новым другом?"
     show player 13
     show diane f_normal_talk
-    dia "Actually, it was her idea."
+    dia "Вообще-то, это была ее идея."
     show diane f_normal
     show player 5
-    player_name "Hmm?"
+    player_name "Эээ?"
     show diane f_normal_talk
-    dia "See for yourself."
+    dia "Посмотри сам."
     show diane f_normal
     show player 5f with dissolve
     pause
     scene expression "backgrounds/location_diane_garden_cutscene11.jpg" with fade
-    player_name "Wow, look at her..."
-    player_name "... She's smiling!"
-    dia "I know, isn't it adorable?!"
-    dia "You should have seen how timid she was when she asked to leave the barn."
-    dia "It about broke my heart."
-    player_name "I can imagine."
-    player_name "Why is she naked?"
-    dia "Well, I gave her some clothes but she said she didn't like wearing them."
-    dia "I didn't wanna force her."
+    player_name "Вау, посмотри на нее..."
+    player_name "... Она улыбается!"
+    dia "Я знаю, разве это не мило?!"
+    dia "Ты бы видел, какой робкой она была, когда попросила разрешения выйти из амбара."
+    dia "Это разбило мне сердце."
+    player_name "Могу себе представить."
+    player_name "Почему она голая?"
+    dia "Я дала ей кое-какую одежду, но она сказала, что не любит ее носить."
+    dia "Я не хотела ее принуждать."
     scene expression player.location.background_blur with None
     show player 10 at left
     show diane b_naked a_naked_sides at Position (xpos=600)
     with dissolve
-    player_name "So..."
-    player_name "What are you gonna do with her?"
+    player_name "Итак..."
+    player_name "Что ты собираешься с ней делать?"
     show player 5
-    dia "Hmm?"
+    dia "Хмм?"
     show player 10
-    player_name "I mean, shouldn't we call somebody or something?"
+    player_name "Разве мы не должны позвонить кому-нибудь или куда-нибудь?"
     show player 5
     show diane f_normal_talk
-    dia "Heh, who in the world would we call for something like this?"
+    dia "Хе-хе, кого бы мы могли позвать для чего-то подобного?"
     show diane f_normal
     show player 10
-    player_name "I dunno? Animal control?"
+    player_name "Не знаю? Контроль за животными?"
     show player 5
     show diane f_normal_talk
-    dia "No, we'll let her decide what she wants to do."
-    dia "For now, it's probably best if she stays here in the barn."
-    dia "Who knows what would happen if anybody saw her."
+    dia "Нет, пусть она сама решает, что делать."
+    dia "Сейчас, наверное, лучше, если она останется здесь, в сарае."
+    dia "Кто знает, что случится, если ее кто-нибудь увидит."
     show diane f_normal
     show player 10
-    player_name "Y-yeah, I guess that makes sense."
+    player_name "Д-да, думаю, в этом есть смысл."
     show player 5
-    cow "{b}Diane{/b}!"
-    cow "{b}Diane{/b} did you see all the flowers?!"
+    cow "{b}Диана{/b}!"
+    cow "{b}Диана{/b} ты видела все эти цветы?!"
     show daisy a_naked_bouquet f_down_talk at Position (xpos=300) with dissolve
     show player 1b
-    cow "They're so pret-"
+    cow "Они такие крас-"
     show daisy f_scared
     pause
     show daisy f_sad_talk
     show player 5b
-    cow "Eep!"
+    cow "Ик!"
     show daisy f_sad
     show diane f_shamed_talk_smile
-    dia "Shh, it's alright sweetie."
-    dia "Remember, what we talked about?"
-    dia "This is {b}[firstname]{/b} and he's a nice man."
-    dia "He won't hurt you."
+    dia "Шшш, все в порядке милая."
+    dia "Помнишь, о чем мы говорили?"
+    dia "Это {b}[firstname]{/b} и он приятный мужчина."
+    dia "Он не причинит тебе вреда."
     show diane f_shamed
     cow "..."
     show daisy f_shy_back
     show diane f_shamed_talk_smile
-    dia "You're not going to hurt her right, {b}[firstname]{/b}?"
+    dia "Ты не причинишь ей боль, {b}[firstname]{/b}?"
     show diane f_shamed
     show player 29 with dissolve
     show daisy f_sad
-    player_name "Not at all."
+    player_name "Низачто."
     show player 4
     cow "..."
     show player 14b with dissolve
-    player_name "I like your flowers."
+    player_name "Мне нравятся твои цветы."
     show player 1b
     show daisy f_sad_talk
-    cow "Y-you do?"
+    cow "Правда?"
     show daisy f_sad
     show diane f_normal
     show player 14b
-    player_name "Yes, they're very pretty."
+    player_name "Да, они очень красивые."
     show player 1b
     pause
     show daisy f_sad_talk
-    cow "{b}Diane{/b} says you're the one who woke me up."
+    cow "{b}Диана{/b} говорит, что это ты меня разбудил."
     show daisy f_sad
     show player 14b
-    player_name "Oh, umm... Yeah, I suppose I was."
+    player_name "О, ммм... Да, наверное, так и было."
     show player 1b
     show daisy f_sad_talk_closed
-    cow "T-thank you, for that."
+    cow "Спасибо тебе за это."
     show daisy f_shy
     show player 17
-    player_name "Heh, you don't have to thank me."
+    player_name "Хех, ты не должна благодарить меня."
     show player 14b
-    player_name "I'm just happy you're here now."
+    player_name "Я просто рад, что ты сейчас здесь."
     show player 1b
     show daisy f_shy_talk
-    cow "Me too."
+    cow "Я тоже."
     show daisy f_normal_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    cow "C-can I keep these, {b}Diane{/b}?"
+    cow "М-могу я оставить их себе, {b}Диана{/b}?"
     show daisy f_normal
     show diane f_normal_talk
     show player 13
-    dia "You wanna keep the flowers?"
+    dia "Ты хочешь оставить цветы?"
     show diane f_normal
     show daisy f_shy_talk
-    cow "If that's okay?"
+    cow "Если ты не против?"
     show daisy f_shy
     show diane f_laugh
-    dia "Heh, well of course it's okay sweetie!"
+    dia "Ну конечно, все в порядке, милая!"
     show diane f_normal_talk
-    dia "Let's go and put them in some water so they have something to drink, okay?"
+    dia "Давай поставим их в воду, чтобы им было что пить, хорошо?"
     show diane f_normal
     show daisy f_laugh
-    cow "Y-yeah, okay!"
+    cow "Да, хорошо!"
     show daisy f_normal
     show diane f_normal_talk
-    dia "Follow me, both of you."
+    dia "Идите за мной, оба."
     hide diane with dissolve
     show player 1b
     pause
@@ -1102,13 +1102,13 @@ label barn_front_daisy_picking_flowers:
     show daisy f_sad_talk at flip
     show daisy at Position (xpos=750)
     with dissolve
-    cow "W-wait for me!"
+    cow "Подожди меня!"
     hide daisy with dissolve
     show player 11
     pause
     show player 5
-    player_name "( Well, at least she isn't recoiling in fear anymore. )"
-    player_name "( That's a step in the right direction. )"
+    player_name "( Ну, по крайней мере, она больше не дрожит от страха. )"
+    player_name "( Это шаг в правильном направлении. )"
     $ player.go_to(L_diane_barn_interior)
     scene expression player.location.background_blur with None
     show player 1 at left
@@ -1116,265 +1116,265 @@ label barn_front_daisy_picking_flowers:
     show daisy a_naked_bouquet f_shy_talk at flip
     show daisy at Position (xpos=250)
     with dissolve
-    cow "S-so they drink the water?"
+    cow "Так они пьют воду?"
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "Mmhmm, they need water to produce food for themselves."
+    dia "Мммммм, они нуждаются в воде, чтобы произвести еду для себя."
     show diane f_smirk_fardown
     show daisy f_shy_talk
-    cow "... But where is the mouth on a flower?"
+    cow "... Но где же рот на цветке?"
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "Hehe, no dear."
-    dia "They drink water using their roots."
-    dia "It flows right up the stem and into the petals."
+    dia "Хе-хе, нет, дорогая."
+    dia "Они пьют воду корнями."
+    dia "Она течет прямо вверх по стеблю и в лепестки."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    cow "Really?!"
+    cow "Правда?!"
     show daisy f_normal
     show diane f_smirk_talk_fardown a_shirtless_vase1 with dissolve
-    dia "Lemme show you."
+    dia "Давай я тебе покажу."
     show diane f_smirk_fardown
     pause
     show daisy a_naked_sides
     show diane f_laugh a_shirtless_vase2
     with dissolve
-    dia "Just like that, see?"
+    dia "Вот так, видишь?"
     show diane f_smirk_talk_fardown a_shirtless_sides
     show daisy a_naked_vase
     with dissolve
-    dia "Now, you check in on them throughout the day and you'll see the water level goes down as they drink."
+    dia "Теперь ты проверяй их в течение дня, и ты увидишь, что уровень воды падает, когда они пьют."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    cow "O-okay, {b}Diane{/b}."
+    cow "Хорошо, {b}Диана{/b}."
     show daisy f_normal
     show diane f_smirk
     show player 14b
-    player_name "You gotta make sure they get sunlight too."
+    player_name "Ты должна убедиться, что они также получают солнечный свет."
     show player 1b
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=-200)
     with dissolve
-    cow "Sunlight?"
+    cow "Солнечный свет?"
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "He's right."
+    dia "Он прав."
     show daisy at flip
     show daisy at Position (xpos=250)
     with dissolve
-    dia "Flowers need sunlight too, otherwise they'll wilt and die."
+    dia "Цветам тоже нужен солнечный свет, иначе они завянут и умрут."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    cow "O-okay."
-    cow "Will you show me how to catch sunlight?"
+    cow "Хорошо."
+    cow "Ты покажешь мне, как ловить солнечный свет?"
     show daisy f_normal
     show player 17
-    player_name "Haha!"
+    player_name "Хаха!"
     show player 1b
     show diane f_laugh
     show daisy f_sad
-    dia "You don't catch it, sweetie."
+    dia "Ты не должна его ловить, милая."
     show diane f_smirk_talk_fardown
-    dia "All you need to do is place them in a spot where they can see the sun for a few hours a day."
+    dia "Все, что тебе нужно сделать, это поместить их в место, где они могут видеть солнце в течение нескольких часов в день."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    cow "Oh, I can do that!"
+    cow "О, я могу это сделать!"
     show daisy f_shy_talk at unflip
     show daisy at Position (xpos=-200)
     with dissolve
-    cow "T-thanks, {b}[firstname]{/b}!"
+    cow "Спасибо, {b}[firstname]{/b}!"
     show daisy f_shy
     show diane f_smirk
     show player 14b
-    player_name "You're welcome, eh..."
-    player_name "What do I call you?"
+    player_name "Пожалуйста, ээ..."
+    player_name "Как мне тебя называть?"
     show player 1b
-    cow "Hmm?"
+    cow "Хмм?"
     show player 14b
-    player_name "Do you have a name?"
+    player_name "У тебя есть имя?"
     show player 1b
     show daisy f_sad_talk_closed
-    cow "Umm..."
+    cow "Умм..."
     show daisy f_shy_talk
-    cow "{b}Diane{/b} calls me sweetie?"
+    cow "{b}Диана{/b} зовет меня милая?"
     show daisy f_shy
     show diane f_normal_talk
-    dia "Hehe, that's more of a term of endearment then a real name, dear."
+    dia "Хе-хе, это скорее ласкательное слово, чем настоящее имя, дорогая."
     show diane f_normal
     show daisy f_shy_talk
-    cow "Oh, I umm..."
+    cow "О, Я эмм..."
     show daisy f_shy
     show player 10b
-    player_name "Didn't your... Uhh, master, give you a name?"
+    player_name "Разве... Эээ, хозяин, не дал тебе имя?"
     show player 433
     show daisy f_shy_talk
-    cow "He called me little pet..."
-    cow "... Or sometimes..."
+    cow "Он называл меня малышкой..."
+    cow "... или иногда..."
     show daisy f_sad_talk_closed
-    cow "N-naughty girl."
+    cow "непослушная девочка."
     show daisy f_sad
     show diane f_laugh
-    dia "Well, those won't do!"
+    dia "Ну, это не годится!"
     show diane f_normal
     show player 10b
-    player_name "Definitely not."
+    player_name "Верно."
     show player 5b
     show daisy f_shy
     pause
     show player 14b
-    player_name "You should pick your own name."
+    player_name "Ты должна выбрать себе имя."
     show player 1b
     show daisy f_shy_talk
-    cow "I can pick it?"
+    cow "Я могу выбрать?"
     show daisy f_shy
     show diane f_normal_talk
-    dia "That's a great idea, {b}[firstname]{/b}!"
+    dia "Это хорошая идея, {b}[firstname]{/b}!"
     show diane f_normal
     show daisy f_shy_talk
-    cow "B-but, I don't know any names..."
+    cow "Но, Я не знаю никаких имен..."
     show daisy f_shy
     show player 14b
-    player_name "That's alright, we'll help you!"
+    player_name "Все в порядке, мы тебе поможем!"
     show player 1b
     show daisy f_shy_talk
-    cow "O-okay."
+    cow "Хорошо."
     show daisy f_shy
     show diane f_normal_talk
-    dia "Dorothy!"
+    dia "Дороти!"
     show diane f_normal
     show daisy f_scared
-    cow "Mmm..."
+    cow "Ммм..."
     show player 10
-    player_name "Bessie?"
+    player_name "Бесси?"
     show player 5
     show diane f_shamed_talk_smile
     show daisy f_shy_back
-    dia "Eww, no."
+    dia "Йее, нет."
     show diane f_normal_talk
-    dia "How about Molly?"
+    dia "Как насчет Молли?"
     show diane f_normal
     show daisy f_shy
-    cow "Mmm..."
+    cow "Ммм..."
     show player 17
-    player_name "Clarabelle!"
+    player_name "Кларабель!"
     show player 13
     show daisy f_down
     show diane f_laugh
-    dia "Hah, why do you keep saying cow names?"
+    dia "Ха, почему ты продолжаешь говорить коровьи имена?"
     show diane f_normal
     show player 14
-    player_name "Umm, because she's a {b}cow girl{/b}?"
+    player_name "Эээ, потому что она {b}девушка - корова{/b}?"
     show player 13
     show diane f_smirk_talk
-    dia "Yeah, but she's definitely more girl than cow!"
+    dia "Да, но она определенно больше девушка, чем корова!"
     show diane f_smirk
     show player 14
-    player_name "C'mon, it's not like I'm trying to name her Buttercup or something..."
+    player_name "Да ладно, я же не пытаюсь назвать ее Лютиком или как-то так..."
     show player 1b
     show daisy f_down_talk
-    cow "What is this called?"
+    cow "Как это называется?"
     show daisy f_down
     show diane f_normal
-    dia "Hmm?"
+    dia "Хмм?"
     show daisy f_shy_talk a_naked_flower with dissolve
-    cow "The flower, what is it called?"
+    cow "Цветок, как он называется?"
     show daisy f_shy
     show diane f_smirk_talk_fardown
-    dia "That flower is called {b}Daisy{/b}."
+    dia "Этот цветок называется {b}маргаритка{/b}."
     show diane f_smirk_fardown
     show daisy f_down_talk
-    cow "{b}Daisy{/b}..."
+    cow "{b}Дейзи{/b}..."
     show daisy f_laugh
-    cow "I like that!"
+    cow "Мне нравится!"
     show daisy f_normal_talk
-    cow "Can I be {b}Daisy{/b}?"
+    cow "Могу я быть {b}Дейзи{/b}?"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "Hehe, of course sweetie."
+    dia "Хехе, конечно милая."
     show diane f_smirk_fardown
     show player 17
-    player_name "That's a beautiful name and it suits you!"
+    player_name "Красивое имя, и оно тебе идет!"
     show player 1b
     show daisy f_normal_talk
-    cow "It does?"
+    cow "Идет?"
     show daisy f_normal
     show diane f_normal_talk
-    dia "I agree."
+    dia "Я согласна."
     show diane f_smirk_fardown
     show daisy f_laugh at flip
     show daisy at Position (xpos=250)
     with dissolve
-    cow "O-okay!"
+    cow "Хорошо!"
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "So it's decided then."
-    dia "Your name is {b}Daisy{/b}."
+    dia "Значит, решено."
+    dia "Твое имя будет {b}Дейзи{/b}."
     show diane f_smirk_fardown
     show daisy f_laugh at unflip
     show daisy at Position (xpos=-200)
     with dissolve
-    daisy "My name is {b}Daisy{/b}."
+    daisy "Мое имя {b}Дейзи{/b}."
     show daisy f_normal
     show player 14b
-    player_name "Nice to meet you, {b}Daisy{/b}!"
+    player_name "Приятно познакомиться, {b}Дейзи{/b}!"
     show player 1b
     show daisy f_laugh
-    daisy "Hehe!"
+    daisy "Хехе!"
     show daisy f_normal_talk a_naked_sides with dissolve
-    daisy "Nice to meet you, {b}[firstname]{/b}!"
+    daisy "Приятно познакомиться, {b}[firstname]{/b}!"
     show daisy f_normal
     show diane f_normal_talk
-    dia "Aww, my heart could just melt right now."
+    dia "Мое сердце может просто растаять прямо сейчас."
     show diane f_smirk_fardown
     show daisy f_sad_talk at flip
     show daisy at Position (xpos=250)
     with dissolve
-    daisy "{b}*Gasp*{/b} They can do that?!"
+    daisy "{b}*вздох*{/b} Оно может это сделать?!"
     show daisy f_sad
     show player 17
-    player_name "Pfft, hahaha!"
+    player_name "Пфф, хахаха!"
     show player 1b
     show diane f_smirk_talk_fardown
-    dia "Heh, no sweetie."
+    dia "Хех, нет дорогая."
     show daisy f_normal
-    dia "That's just an expression."
-    dia "It means I'm really happy."
+    dia "Это просто выражение такое."
+    dia "Это значит, что я действительно счастлива."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Oh."
+    daisy "О."
     show daisy f_laugh a_naked_up with dissolve
-    daisy "Then, my heart could melt too!"
+    daisy "Тогда мое сердце тоже растает!"
     show daisy f_normal a_naked_sides with dissolve
     show player 17
     show diane f_laugh
-    dia "Hahaha!"
-    player_name "Hahaha!"
+    dia "Хахаха!"
+    player_name "Хахаха!"
     show player 1b
     pause
     show diane f_smirk_talk_fardown
-    dia "Alright, well..."
+    dia "Хорошо, тогда..."
     show diane f_smirk_talk
-    dia "{b}[firstname]{/b} and I should really get some work done before we run out of daylight."
+    dia "{b}[firstname]{/b} и мне действительно нужно кое-что сделать до того, как закончится дневной свет."
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Oh."
+    daisy "О."
     show daisy f_normal
     show diane f_smirk_talk_fardown
-    dia "You just take care of your flowers for now and let us know if you need anything, okay?"
+    dia "Позаботься пока о своих цветах и дай нам знать, если тебе что-нибудь понадобится, хорошо?"
     show diane f_smirk_fardown
     show daisy f_normal_talk
-    daisy "Y-yeah."
+    daisy "Да."
     show daisy f_normal
     show diane f_normal_talk
-    dia "Alright, c'mon {b}[firstname]{/b}."
+    dia "Хорошо, пойдем {b}[firstname]{/b}."
     hide diane with dissolve
     show player 14b
-    player_name "Goodbye, {b}Daisy{/b}."
+    player_name "Пока, {b}Дейзи{/b}."
     show player 1b
     show daisy f_laugh at unflip
     show daisy at Position (xpos=-200)
     with dissolve
-    daisy "Bye!"
+    daisy "Пока!"
     hide player
     hide daisy
     with dissolve
