@@ -183,79 +183,79 @@ label barn_daisy_pregnancy_anouncement_first:
     show diane b_naked a_naked_sides f_sad at Position (xpos=600)
     show daisy f_sad at Position (xpos=300)
     with dissolve
-    player_name "Hey, I got your text."
+    player_name "Привет, я получил твое сообщение."
     show player 5
     show diane f_sad_talk
-    dia "{b}Hey, {b}[firstname]{/b}."
-    dia "You uhh, might want to sit down for this..."
+    dia "{b}Привет, {b}[firstname]{/b}."
+    dia "Эх ты, возможно, захочешь присесть..."
     show diane f_sad
-    player_name "Hmm?"
+    player_name "Эээ?"
     show player 10b
-    player_name "What's going on?"
+    player_name "Что происходит?"
     show player 5
     show diane f_sad_talk
-    dia "I think {b}Daisy{/b} is pregnant."
+    dia "Я думаю {b}Дейзи{/b} беременна."
     show diane f_sad
     show player 23
-    player_name "What?!"
-    player_name "I didn't think-"
-    player_name "I mean, are you sure?!"
+    player_name "Что?!"
+    player_name "Я не думал,что-"
+    player_name "В смысле, ты уверенна?!"
     show player 5
     show diane f_sad_talk
-    dia "Well, the poor thing has been sick every morning for the past 3 days and she missed her... Umm..."
+    dia "Ну, бедняжка болела каждое утро в течение последних 3 дней, и она скучала по ее... Эмм..."
     show diane f_sad
     pause
     show diane f_sad_talk
-    dia "{b}*Ahem*{/b} I'm pretty sure."
+    dia "{b}*ух*{/b} Я почти уверена."
     show diane f_sad
     show player 10
-    player_name "Wow, umm... Okay."
-    player_name "I didn't think she could get pregnant."
+    player_name "Вау, эмм... Хорошо."
+    player_name "Я не думал, что она может забеременеть."
     show player 5
     show diane f_sad_talk
-    dia "Yeah, I didn't think so either..."
+    dia "Да, я тоже так думала..."
     show diane f_sad
     show player 10
-    player_name "What are we going to do?"
+    player_name "Что мы будем делать?"
     show player 5
     show diane f_normal_talk
-    dia "Oh, don't you worry. Everything is going to be fine."
+    dia "О, не волнуйся. Все будет хорошо."
     show diane f_laugh
-    dia "A child is a blessing!"
+    dia "Ребенок - это благословение!"
     show diane f_normal
     show player 10b
-    player_name "How are you taking all this {b}Daisy{/b}?"
+    player_name "Как ты относишься ко всему этому {b}Дейзи{/b}?"
     show player 5b
     show daisy f_sad_talk
-    daisy "I-"
+    daisy "Я-"
     show daisy f_sad
     pause
     show daisy f_sad_talk
-    daisy "I don't know..."
-    daisy "Do you think I'll be a good mommy?"
+    daisy "Я не знаю..."
+    daisy "Думаешь, я буду хорошей мамой?"
     show daisy f_sad
     show diane f_normal_talk
-    dia "Of course you will, sweetie!"
-    dia "Besides, {b}[firstname]{/b} and I will be here to help you, every step of the way."
+    dia "Конечно, будешь, милая!"
+    dia "Кроме того, {b}[firstname]{/b} и я будем здесь, чтобы помочь тебе на каждом шагу."
     show diane f_normal_talk
-    dia "Won't we, {b}[firstname]{/b}?"
+    dia "Не так ли, {b}[firstname]{/b}?"
     show diane f_normal
     show player 14
-    player_name "Y-yeah, of course!"
+    player_name "Д-да, конечно!"
     show player 13
     show diane f_normal_talk
-    dia "In fact, why don't you come with me. I've got some books on the subject you can look at."
+    dia "На самом деле, почему бы тебе не пойти со мной. У меня есть несколько книг на эту тему, ты можешь посмотреть их."
     show diane f_normal
     show daisy f_sad_talk
-    daisy "O-okay, {b}Diane{/b}."
+    daisy "Хорошо, {b}Диана{/b}."
     hide daisy
     hide diane
     with dissolve
     pause
     show player 24
-    player_name "Holy crap."
-    player_name "{b}Daisy{/b} is going to have my child..."
-    player_name "{b}*Gulp*{/b} I hope I'm ready for this."
+    player_name "Вот черт."
+    player_name "У {b}Дейзи{/b} будет мой ребенок..."
+    player_name "{b}*глоток*{/b} Надеюсь, я к этому готов."
     hide player with dissolve
     return
 
