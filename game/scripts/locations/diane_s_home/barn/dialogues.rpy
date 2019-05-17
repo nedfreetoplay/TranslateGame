@@ -470,52 +470,52 @@ label barn_daisy_caught_breeding_aftermath_yes:
 
 label barn_daisy_caught_breeding_aftermath_no:
     show player 10b
-    player_name "{b}Daisy{/b}, I don't think this is a good idea."
+    player_name "{b}Дейзи{/b}, Я не думаю, что это хорошая идея."
     show player 5b
     show daisy f_sad_talk
-    daisy "It's not?"
+    daisy "Нет?"
     show daisy f_sad
     show player 10b
-    player_name "We shouldn't rush into this without giving it more thought."
+    player_name "Мы не должны спешить с этим, не подумав."
     show player 5b
     show daisy f_sad_talk
-    daisy "More thought?"
-    daisy "I've been thinking about having sex with you for a long time!"
+    daisy "Еще подумать?"
+    daisy "Я уже давно думаю о сексе с тобой!"
     show daisy f_sad
     show player 10b
-    player_name "Y-you have?"
+    player_name "Правда?"
     show player 5b
     show daisy f_sad_talk
-    daisy "Uh huh."
-    show daisy f_sad
-    pause
-    show player 10b
-    player_name "Still, I think... I need some time to process all of this..."
-    show player 5b
-    show daisy f_sad_talk
-    daisy "Oh, okay."
-    show daisy f_sad
-    pause
-    show daisy f_sad_talk
-    daisy "You'll let me know when you're ready though, right?"
-    show daisy f_sad
-    show player 10b
-    player_name "Yeah, I will."
-    show player 5b
-    pause
-    show player 10b
-    player_name "Thanks for understanding, {b}Daisy{/b}."
-    show player 5b
-    show daisy f_sad_talk
-    daisy "You're welcome."
+    daisy "Ух угу."
     show daisy f_sad
     pause
     show player 10b
-    player_name "I should-"
-    player_name "{b}*Ahem*{/b} I should get back to work."
+    player_name "И все же я думаю... Мне нужно время, чтобы все это переварить..."
     show player 5b
     show daisy f_sad_talk
-    daisy "Okay."
+    daisy "О, хорошо."
+    show daisy f_sad
+    pause
+    show daisy f_sad_talk
+    daisy "Дай мне знать, когда будешь готов, ладно?"
+    show daisy f_sad
+    show player 10b
+    player_name "Да, хорошо."
+    show player 5b
+    pause
+    show player 10b
+    player_name "Спасибо за понимание, {b}Дейзи{/b}."
+    show player 5b
+    show daisy f_sad_talk
+    daisy "Пожалуйста."
+    show daisy f_sad
+    pause
+    show player 10b
+    player_name "Я должен-"
+    player_name "{b}*хм*{/b} Мне нужно вернуться к работе."
+    show player 5b
+    show daisy f_sad_talk
+    daisy "Хорошо."
     hide player
     hide daisy
     with dissolve
@@ -524,8 +524,8 @@ label barn_daisy_caught_breeding_aftermath_no:
 label barn_dialogue_daisy_caught_breeding:
     scene expression player.location.background_blur with None
     show player 12 with dissolve
-    player_name "No, {b}Diane{/b} wanted some alone time with {b}Daisy{/b} to sort out that whole, \"weasel\" situation..."
-    player_name "I shouldn't interfere."
+    player_name "Нет, {b}Диана{/b} хотела побыть наедине с {b}Дейзи{/b} чтобы разобраться во всей этой ситуации с \"лаской\" ..."
+    player_name "Я не должен вмешиваться."
     hide player with dissolve
     return
 
