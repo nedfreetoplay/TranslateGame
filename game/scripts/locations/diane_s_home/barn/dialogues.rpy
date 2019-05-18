@@ -1706,146 +1706,146 @@ label barn_diane_return_outfit_package:
     show player 14 at left
     show diane b_shirtless a_shirtless_sides
     with dissolve
-    player_name "Hey {b}Diane{/b}, I'm back!"
+    player_name "Привет {b}Диана{/b}, я вернулся!"
     show player 13
     show diane f_normal_talk
-    dia "There you are."
-    dia "I was starting to worry you'd gotten lost!"
+    dia "Вот и ты."
+    dia "Я уже начала волноваться, что ты заблудился!"
     show diane f_normal
     show player 14
-    player_name "Heh, yeah... I ran into {b}Veronica{/b} again..."
+    player_name "Хе, да... Я бегал опять к {b}Веронике{/b} ..."
     show player 13
     show diane f_laugh
-    dia "Again?!"
+    dia "Опять?!"
     show diane f_normal_talk
-    dia "Is that girl stalking you or something?"
+    dia "Эта девушка преследует тебя или что?"
     show diane f_normal
     show player 10
-    player_name "N-no, I don't think so."
-    player_name "She was at {b}Pink{/b}..."
+    player_name "Н-Нет, я так не думаю."
+    player_name "Она была в магазине {b}Pink{/b}..."
     show player 13
     show diane f_smirk_talk
-    dia "Oh, was she shopping for something naughty?"
+    dia "О, она покупала что-то неприличное?"
     show diane f_smirk
     show player 14
-    player_name "Eh, she was in the back room, actually."
-    player_name "Blowing off steam, she said."
+    player_name "Вообще-то, она была в задней комнате."
+    player_name "Сказала, что выпускает пар."
     show player 13
     show diane f_shamed_talk_smile
-    dia "Oh, goodness..."
-    dia "The poor dear must really be stressed out."
+    dia "О, боже..."
+    dia "Бедняжка, должно быть, очень переживает."
     show diane f_shamed
     show player 14
-    player_name "Yeah, I think she is."
-    player_name "She wants you to call her."
+    player_name "Да, я думаю так и есть."
+    player_name "Она хочет, чтобы ты ей позвонила."
     show player 13
     show diane f_normal_talk
-    dia "Yeah, I'll have to do that."
+    dia "Да, хорошо."
     show diane f_normal
     pause
     show diane f_normal_talk
-    dia "Umm, did you get the package I ordered?"
+    dia "Ты забрал посылку, которую я заказала?"
     show diane f_normal
     show player 17
-    player_name "I did!"
+    player_name "Да!"
     show player 239_240 with dissolve
     pause
     show player 170 with dissolve
-    player_name "What's in it?"
+    player_name "Что в ней?"
     show player 13
     show diane f_laugh a_shirtless_box
     with dissolve
-    dia "Hehe, you'll find out..."
+    dia "Хе-хе, ты узнаешь..."
     show diane f_smirk_talk
-    dia "This is so exciting!"
+    dia "Это так здорово!"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "A-are we really gonna have sex, {b}Diane{/b}?"
+    player_name "Мы правда будем заниматься сексом, {b}Диана{/b}?"
     show player 3
     show diane f_smirk_talk
-    dia "Oh, you better believe it!"
-    dia "I just need to get everything ready."
-    dia "Would you mind stepping outside for a moment?"
+    dia "О, тебе лучше поверить в это!"
+    dia "Мне просто нужно все подготовить."
+    dia "Не могли бы ты выйти на минутку?"
     show diane f_smirk
     show player 29
-    player_name "O-okay, sure."
+    player_name "Да, конечно."
     hide player with dissolve
     scene expression "backgrounds/location_barn_garden_day_blur.jpg"
     show player 18 with dissolve
-    player_name "( I can't believe this is really about to happen! )"
-    player_name "( I'm gonna have sex with {b}Diane{/b}... )"
+    player_name "( Я не могу поверить, что это действительно произойдет! )"
+    player_name "( У меня будет секс с {b}Дианой{/b}... )"
     show player 13
-    dia "Okay, {b}[firstname]{/b}!"
-    dia "I'm ready!"
+    dia "Хорошо, {b}[firstname]{/b}!"
+    dia "Я готова!"
     show player 14
-    player_name "C-coming!"
+    player_name "Вхожу!"
     show player 33
-    player_name "( Phew. Alright, {b}[firstname]{/b}! This is it! )"
+    player_name "( Фу. Ладно, {b}[firstname]{/b}! Вот оно! )"
     hide player with dissolve
     scene expression "backgrounds/location_barn_day_blur.jpg"
     show player 10f with dissolve
-    player_name "{b}D-diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 13f
     $ M_diane.is_naked = 0
     $ M_diane.outfit = "cow"
     show diane f_smirk_talk b_naked a_naked_sides
-    dia "I'm here."
+    dia "Я здесь."
     show diane f_smirk
     show player 11 at left
     player_name "!!!" with hpunch
     show player 23
     player_name "..."
     show diane f_smirk_talk
-    dia "Well, what do you think?"
+    dia "Ну, как тебе?"
     show player 428
     show diane a_naked_cow_check f_smirk_down with dissolve
     pause
     show player 426
     show diane a_naked_sides with dissolve
     show player 429
-    player_name "Y-you look..."
+    player_name "Ты выглядишь..."
     show player 29 with dissolve
     show diane f_cheese
-    player_name "Wow!"
+    player_name "Вау!"
     show player 3
     show diane f_smirk_talk
-    dia "Is it too much?"
+    dia "Это слишком?"
     show diane f_smirk
     show player 12 with dissolve
-    player_name "NO!"
+    player_name "НЕТ!"
     show player 26
-    player_name "It's really, really sexy!"
+    player_name "Это очень, очень сексуально!"
     show player 426
     show diane f_smirk_talk
-    dia "You think so?!"
+    dia "ТЫ так думаешь?!"
     show diane f_smirk
     show player 26
-    player_name "I do!"
+    player_name "Да!"
     show player 426
     show diane f_smirk_talk
-    dia "Oh, good!"
-    dia "I was worried you'd think it's silly..."
+    dia "О, хорошо!"
+    dia "Я боялась, что ты сочтешь это глупостью..."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "So how do you wanna-"
+    player_name "Итак, как ты хочешь-"
     hide player
     show diane kiss_naked at Position (xoffset=-172)
     with dissolve
     player_name "!!!"
     pause
     show diane b_pull_mc_naked f_empty a_empty with dissolve
-    dia "Mmm, I can't wait another second!"
-    dia "We'll use the milking station."
-    dia "It's perfect!"
+    dia "Ммм, Я не могу ждать ни секунды!"
+    dia "Мы воспользуемся доильной станцией."
+    dia "Это прекрасно!"
     pause 
     hide diane with dissolve
     scene expression "backgrounds/location_barn_sex_back_day.jpg"
     show diane_sex_breed pre_talk
     show diane_sex_breed_mc
     with dissolve
-    dia "Give it to me, stud!"
-    dia "I want you to breed me like an animal!"
-    player_name "O-okay..."
+    dia "Дай мне это, жеребец!"
+    dia "Я хочу, чтобы ты наполнил меня, как животное!"
+    player_name "Хорошо..."
     hide diane_sex_breed_mc
     show diane_sex_breed insert_and_pullout
     with dissolve
@@ -1853,7 +1853,7 @@ label barn_diane_return_outfit_package:
     show diane_sex_breed creampie_pullout with dissolve
     pause 1
     show diane_sex_breed creampie
-    dia "Oh my god!" with hpunch
+    dia "О, бог мой!" with hpunch
     return
 
 label barn_diane_outfit_package:
