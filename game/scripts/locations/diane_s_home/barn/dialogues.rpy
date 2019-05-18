@@ -1623,33 +1623,33 @@ label barn_diane_pregnancy_anouncement:
     dia "{b}[firstname]{/b}!!"
     show player 10
     show diane f_cheese
-    player_name "What's the big emergency?!"
+    player_name "Что за срочность?!"
     show player 5
     show diane f_laugh
-    dia "We did it!"
-    dia "I'm pregnant!"
+    dia "Мы сделали это!"
+    dia "Я беременна!"
     show diane f_cheese
     show player 14
-    player_name "You are?!"
-    player_name "Are you sure?!"
+    player_name "Ты беременна!"
+    player_name "Ты уверенна?!"
     show player 13
     show diane f_laugh
-    dia "I'm positive!"
-    dia "You're gonna be a daddy!"
+    dia "Я уверена!"
+    dia "Ты станешь папочкой!"
     show diane f_cheese
     show player 14
-    player_name "I'm gonna-"
+    player_name "Я стану-"
     show player 18
     show diane f_normal
     pause
     show diane f_normal_talk
-    dia "You alright?"
+    dia "Ты в порядке?"
     show diane f_normal
     show player 14
-    player_name "Hmm?"
-    player_name "Y-yeah!"
-    player_name "This is great news, {b}Diane{/b}!"
-    player_name "I'm so happy!"
+    player_name "Эээ?"
+    player_name "Да!"
+    player_name "Это хорошая новость, {b}Диана{/b}!"
+    player_name "Я очень рад!"
     hide player
     show diane kiss_naked
     with dissolve
@@ -1657,15 +1657,15 @@ label barn_diane_pregnancy_anouncement:
     show player 13 at left
     show diane b_naked a_naked_sides f_laugh
     with dissolve
-    dia "Mmm, me too!"
-    dia "Oh, this is so exciting!"
+    dia "Ммм, я тоже!"
+    dia "О, это так волнующе!"
     show diane f_normal_talk
-    dia "I never thought I would have this opportunity!"
+    dia "Никогда не думал, что у меня будет такая возможность!"
     show diane f_normal
     pause
     show diane f_laugh
-    dia "Oh, thank you {b}[firstname]{/b}!"
-    dia "Thank you, thank you, thank you!!!"
+    dia "О, спасибо {b}[firstname]{/b}!"
+    dia "Спасибо, спасибо, спасибо!!!"
     hide player
     show diane kiss_naked
     with dissolve
@@ -1673,29 +1673,29 @@ label barn_diane_pregnancy_anouncement:
     show player 14 at left
     show diane b_naked a_naked_sides f_cheese
     with dissolve
-    player_name "Heh, you're welcome..."
+    player_name "Хе, пожалуйста..."
     show player 13
     show diane f_normal
     pause
     show player 14
-    player_name "So what should I..."
-    player_name "{b}*Ahem*{/b} Is there anything I can do for you?"
+    player_name "Так что же мне..."
+    player_name "{b}*гм*{/b} Я могу что-нибудь для тебя сделать?"
     show player 13
 
 
 
 
     show diane f_normal_talk
-    dia "Hmm?"
-    dia "Oh, no!"
-    dia "Just keep doing everything you've been doing."
-    dia "Keep being wonderful, {b}[firstname]{/b}!"
+    dia "Хмм?"
+    dia "О, нет!"
+    dia "Просто продолжай делать все, что ты делаешь."
+    dia "Продолжай быть замечательным, {b}[firstname]{/b}!"
     show diane f_normal
     show player 14
-    player_name "That, I can definitely do!"
+    player_name "Это я точно могу!"
     show player 13
     show diane f_laugh
-    dia "Hehe!"
+    dia "Хехе!"
     hide player
     hide diane
     with dissolve
