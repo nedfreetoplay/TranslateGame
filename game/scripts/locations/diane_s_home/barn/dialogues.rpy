@@ -1492,126 +1492,126 @@ label barn_player_completed_mysterious_statue:
     show diane b_naked a_naked_sides f_normal_talk
     show player 13 at left
     with dissolve
-    dia "Hey, {b}[firstname]{/b}."
-    dia "Ready to get to work?"
+    dia "Привет, {b}[firstname]{/b}."
+    dia "Готов приступить к работе?"
     show diane f_normal
     show player 14
-    player_name "Actually, I wanted to show you something."
+    player_name "Вообще-то, я хотел тебе кое-что показать."
     show player 13
     show diane f_normal_talk
-    dia "Oh?"
+    dia "О?"
     show diane f_normal
     show player 14
-    player_name "You remember that broken statue {b}Richard{/b} found buried under your house?"
+    player_name "Помнишь разбитую статую, которую {b}Ричард{/b} нашел под твоим домом?"
     show player 13
     show diane f_normal_talk
-    dia "Yeah, with those creepy legs, right?"
+    dia "Да, с этими жуткими ногами, да?"
     show diane f_normal
     show player 17
-    player_name "Heh, yeah..."
+    player_name "Хех, да..."
     show player 14
-    player_name "Well, I think I found all the pieces."
+    player_name "Ну, думаю, я нашел все кусочки."
     show player 13
     show diane f_normal_talk
-    dia "Really?"
+    dia "Правда?"
     show diane f_normal
     show player 14
-    player_name "Check it out."
+    player_name "Проверь."
     show player 239_240 with dissolve
     pause
     show player 717 with dissolve
     show diane f_smirk_talk_fardown
-    dia "Oh, wow!"
-    dia "It's a woman!"
+    dia "О, вау!"
+    dia "Это женщина!"
     show diane f_smirk_fardown
     show player 717b
-    player_name "Yeah, with really weird legs..."
-    player_name "... And horns."
+    player_name "Да, с очень странными ногами..."
+    player_name "... И рогами."
     show player 717
     show diane f_smirk_talk_fardown
-    dia "Aww, look at her cute little ears!"
-    dia "She reminds me of those silly goat men in the old myths!"
-    dia "You know, the ones with the pan flutes?"
+    dia "О, посмотри на ее милые маленькие ушки!"
+    dia "Она напоминает мне тех глупых козлоногов из старых мифов!"
+    dia "Знаешь, те, что с флейтами?"
     show diane f_smirk_fardown
     show player 717b
-    player_name "Satyrs."
+    player_name "Сатиры."
     show player 717
     show diane f_laugh
-    dia "Is that what they were called?"
+    dia "Их так называли?"
     show diane f_normal
-    player_name "Mmhmmm."
+    player_name "Ммммм."
     show diane f_normal_talk
-    dia "She's so cool!"
+    dia "Она классная!"
     show diane f_smirk_fardown
     pause
     show diane f_smirk_talk_fardown
-    dia "I wonder why she's holding a bucket?"
+    dia "Интересно, почему она держит ведро?"
     show diane f_smirk_fardown
     show player 717b
-    player_name "I think it's a {b}milk pail{/b}."
+    player_name "Я думаю это {b}ведро для молока{/b}."
     show player 717
     show diane f_normal_talk
-    dia "What makes you think that?"
+    dia "Почему ты так решил?"
     show diane f_normal
     show player 717b
-    player_name "I dunno, just a feeling, I guess..."
+    player_name "Не знаю, просто предчувствие..."
     show player 717
     show diane f_normal_talk
-    dia "So, she's like a little milk maid?"
+    dia "Значит, она как маленькая доярка?"
     show diane f_normal
     show player 717b
-    player_name "Hehe, Yeah."
-    player_name "A {b}cow girl{/b} milk maid."
+    player_name "Хехе, точно."
+    player_name "{b}Девушка-корова{/b}, доярка."
     show player 717
     show diane f_laugh
-    dia "Oh my gosh, I love it!"
+    dia "Боже мой, как мне это нравится!"
     show diane f_normal
     show player 717b
-    player_name "Hehe, I thought you might."
+    player_name "Хе-хе, я так и думал."
     show player 717c
     pause
     show player 717b
-    player_name "Why don't you keep it?"
+    player_name "Почему бы тебе не оставить ее?"
     show player 717
     show diane f_smirk_talk_fardown
-    dia "Really?"
+    dia "Правда?"
     show diane f_smirk_fardown
     show player 717b
-    player_name "Yeah."
-    player_name "I don't have anywhere to put it at my house."
+    player_name "Да."
+    player_name "У меня дома его негде поставить."
     show player 717
     show diane f_thinking
-    dia "Hmm."
+    dia "Хмм."
     show diane f_normal_talk
-    dia "It would look great in my garden, don't you think?"
+    dia "В моем саду он будет смотреться великолепно, не правда ли?"
     show diane f_normal
     show player 717b
-    player_name "Definitely!"
+    player_name "Определенно!"
     show player 13
     show diane a_statue_full f_down_front
     with dissolve
     pause
     show diane f_reading_intrigued
-    dia "I can't believe this thing turned out to be such a beautiful creature!"
+    dia "Не могу поверить, что эта штука оказалась таким красивым созданием!"
     pause
     show diane f_laugh
-    dia "Thanks, {b}[firstname]{/b}!"
+    dia "Спасибо, {b}[firstname]{/b}!"
     show diane f_normal
     show player 14
-    player_name "No problem!"
+    player_name "Без проблем!"
     show player 13
     show diane f_normal_talk
-    dia "I'm gonna go and find a place for it {b}out in the garden{/b}, right now!"
+    dia "Я собираюсь пойти и найти место для нее {b}в саду{/b}, прямо сейчас!"
     hide diane with dissolve
     pause
     show player 18
-    player_name "( Well, that certainly made {b}Diane{/b} happy. )"
+    player_name "( Что ж, это определенно сделало {b}Диану{/b} счастливой. )"
     show player 4 with dissolve
-    player_name "( I wonder if Clyde's grandfather made it? )"
-    player_name "( ... And why? )"
+    player_name "( Интересно, дед Клайда сделал ее? )"
+    player_name "( ... И почему? )"
     pause
     show player 34 with dissolve
-    player_name "( Hmm, maybe {b}I should take a closer look at that statue{/b} sometime... )"
+    player_name "( Хм, может быть, {b}мне стоит поближе взглянуть на эту статую{/b} как-нибудь... )"
     hide player with dissolve
     return
 
