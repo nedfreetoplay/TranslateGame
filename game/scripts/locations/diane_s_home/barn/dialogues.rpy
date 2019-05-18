@@ -1387,7 +1387,7 @@ label barn_daisy_awakened_statue:
     show daisy b_naked_shy a_naked_shy_front f_shy_sad at flip
     show daisy at Position (xpos=200,yoffset=10)
     with dissolve
-    dia "Here you go, sweetie."
+    dia "Держи, милая."
     hide diane
     hide daisy
     show daisy b_naked_blanket_cover1 a_empty f_blanket_shy_back zorder 0 at Position (yoffset=10)
@@ -1395,94 +1395,94 @@ label barn_daisy_awakened_statue:
     with dissolve
     pause
     show daisy b_naked_blanket_cover2 f_blanket_shy_talk_back at Position (yoffset=10)
-    cow "Uhh, t-thank you."
+    cow "Ухх, спасибо."
     show daisy b_naked_shy a_naked_shy_blanket f_shy_sad zorder 2 at flip
     show daisy at Position (xpos=700,yoffset=10)
     show diane b_naked a_naked_sides f_shamed_talk_fardown at Position (xpos=600)
     with dissolve
-    dia "You're welcome."
+    dia "Пожалуйста."
     show diane f_shamed_fardown
     show player 5 at left with dissolve
     pause
     show diane f_shamed_talk_fardown
-    dia "Now tell me about how you ended up in my garden, dear."
+    dia "А теперь расскажи мне, как ты оказалась в моем саду, дорогая."
     show diane f_shamed_fardown
     show player 5b
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    cow "I-"
-    cow "I'm not sure."
-    cow "Master was worried about something and said I had to go back to sleep."
+    cow "Я-"
+    cow "Я не уверена."
+    cow "Хозяин чем-то встревожился и сказал, что мне пора спать."
     show daisy f_shy_sad at Position (yoffset=10)
     pause
     show daisy f_shy_sad_talk at Position (yoffset=10)
-    cow "I begged him not to!"
-    cow "I hate it when he makes me sleep."
+    cow "Я умоляла его не делать этого!"
+    cow "Ненавижу, когда он заставляет меня спать."
     show daisy f_shy_sad at Position (yoffset=10)
     show diane f_shamed_talk_fardown
-    dia "I'm not sure I understand..."
+    dia "Я не уверена, что понимаю..."
     show diane f_shamed
     show player 10
-    player_name "He turned her into a statue."
+    player_name "Он превратил ее в статую."
     show player 5b
     show daisy b_jump_scared a_empty f_empty
-    cow "EEEEP!" with hpunch
+    cow "ИИИИИК!" with hpunch
     show diane b_empty a_empty f_thinking_back zorder 1 at Position (xpos=414)
     show daisy b_naked_cower f_cower_sad a_empty at unflip
     show daisy zorder 0 at Position (xpos=600,yoffset=26)
     with dissolve
     pause
     show diane f_shamed_talk
-    dia "What?"
+    dia "Что?"
     show diane f_shamed
     show player 10
-    player_name "{b}Jebadiah Delmont{/b} was supposedly some kind of hillbilly wizard."
-    player_name "I think he must have been keeping her a secret by turning her into a statue."
-    player_name "That way nobody would see her."
+    player_name "{b}Джебадия Делмонт{/b} был, предположительно, каким-то деревенским волшебником."
+    player_name "Я думаю, он держал ее в секрете, превратив в статую."
+    player_name "Таким образом, что никто бы ее не увидел."
     show player 5
     show diane f_smirk_talk
-    dia "Hillbilly wizard?!"
-    dia "That's silly!"
+    dia "Деревенским волшебником?!"
+    dia "Это глупо!"
     show diane f_smirk
     show player 10
-    player_name "I know, but-"
+    player_name "Я знаю, но-"
     show player 5
     show diane f_laugh
-    dia "Hahaha, you can't be serious!"
+    dia "Хахаха, ты не можешь быть серьезным!"
     show diane f_smirk
     show player 12
-    player_name "I didn't believe it either but... I mean..."
+    player_name "Я тоже не поверил, но..... Я имею в виду..."
     show diane f_thinking
     show player 469 with dissolve
-    player_name "How else do you explain her?"
+    player_name "Как еще ты объяснишь ее?"
     show player 5b with dissolve
     show daisy f_cower_sad_talk at Position (yoffset=26)
-    cow "Please, I didn't mean to-!"
+    cow "Пожалуйста, я не хотела-!"
     show daisy b_naked_shy a_naked_shy_cover f_shy_sad at Position (yoffset=10)
     show diane b_naked a_naked_sides f_shamed_talk_fardown at flip
     show diane at Position (xpos=750)
     with dissolve
     show player 5
-    dia "Aww, sweetie..."
-    dia "Nobody is gonna hurt you, okay?"
-    dia "{b}[firstname]{/b} here is the nicest guy you'll ever meet."
+    dia "Ауу, милая..."
+    dia "Никто тебя не обидит, ясно?"
+    dia "{b}[firstname]{/b} это самый милый парень, которого ты когда-либо встречала."
     show diane f_shamed_fardown
     pause
     show diane f_shamed_talk_smile at unflip
     show diane at Position (xpos=300)
     with dissolve
-    dia "I think she's a little frightened of you, {b}[firstname]{/b}..."
+    dia "Я думаю, она немного боится тебя, {b}[firstname]{/b}..."
     show diane f_shamed
     pause
     show diane f_shamed_talk_smile
-    dia "Why don't you head on home for the day and give me some time to calm her down, okay?"
+    dia "Почему бы тебе не поехать домой и не дать мне немного времени, чтобы успокоить ее, хорошо?"
     show diane f_shamed
     show player 10
-    player_name "Uhh, yeah. Okay."
+    player_name "Ухх, да. Хорошо."
     player_name "If you're sure you'll be alright?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "Oh, I'll be fine."
-    dia "Go on, {b}we can talk about this later{/b}, okay?"
+    dia "Со мной все будет в порядке."
+    dia "Иди, {b}мы можем поговорить об этом позже{/b}, ладно?"
     show diane f_shamed
     hide player with dissolve
     return
