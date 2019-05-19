@@ -1941,61 +1941,61 @@ label barn_diane_barn_checkup:
     show player 14 at left
     show diane b_casual a_casual_sides
     with dissolve
-    player_name "Hey, {b}Diane{/b}!"
-    player_name "I'm ready to-"
+    player_name "Привет, {b}Диана{/b}!"
+    player_name "Я готов к-"
     show player 11
     pause
     show player 14
-    player_name "Where's your overalls?"
+    player_name "Где твой комбинезон?"
     show player 13
     show diane f_normal_talk
-    dia "Hey, {b}[firstname]{/b}."
-    dia "I was just about to walk out the door."
+    dia "Привет, {b}[firstname]{/b}."
+    dia "Я как раз собирался уйти."
     show diane f_normal
     show player 10
-    player_name "Oh?"
-    player_name "Where are you going?"
+    player_name "О?"
+    player_name "Куда ты собралась?"
     show player 5
     show diane f_normal_talk
-    dia "I made an appointment to see a doctor this morning."
-    dia "If we're gonna... You know."
+    dia "Я записалась на прием к врачу сегодня утром."
+    dia "Если мы собираемся... ты знаешь."
     show diane f_wink
     pause
     show diane f_normal_talk
-    dia "I wanna get checked out and make sure everything's in tip top shape."
+    dia "Я хочу провериться и убедиться, что все в порядке."
     show diane f_normal
     show player 14
-    player_name "Ah, I see."
-    player_name "Well, can I come with you?"
+    player_name "Ааа, ясно."
+    player_name "Ну, я могу пойти с тобой?"
     show player 13
     show diane f_normal_talk
-    dia "You wanna come with me to see the doctor?"
+    dia "Хочешь пойти со мной к доктору?"
     show diane f_normal
     show player 17
-    player_name "Sure!"
+    player_name "Конечно!"
     show player 13
     show diane f_normal_talk
-    dia "Alright."
-    dia "I would definitely appreciate the company."
+    dia "Хорошо."
+    dia "Я бы определенно оценила компанию."
     show diane f_laugh
-    dia "Doctors kinda freak me out."
+    dia "Доктора меня пугают."
     show diane f_normal
     show player 14
-    player_name "Hehe, really?"
+    player_name "Хехе, правда?"
     show player 13
     show diane f_normal_talk
-    dia "Yeah."
-    dia "All that poking and prodding, you know?"
+    dia "Да."
+    dia "Все эти сувания и тыкание, понимаешь?"
     show diane f_normal
     show player 14
-    player_name "Hah, yeah. I know what you mean."
+    player_name "Ха-ха, да. Я понимаю, что ты имеешь в виду."
     show player 13
     show diane f_normal_talk
-    dia "Well come on then, stud."
-    dia "Let's get moving!"
+    dia "Тогда пошли, жеребец."
+    dia "Давайте двигаться!"
     show diane f_normal
     show player 14
-    player_name "Y-yes, ma'am!"
+    player_name "Да, мэм!"
     hide player
     hide diane
     with dissolve
