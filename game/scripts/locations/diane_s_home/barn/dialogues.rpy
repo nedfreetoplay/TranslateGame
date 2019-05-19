@@ -2006,178 +2006,178 @@ label barn_diane_return_production_book:
     show diane b_shirtless a_shirtless_sides f_normal_talk
     show player 13 at left
     with dissolve
-    dia "Finally, you're back!"
-    dia "I was starting to think you got lost or something."
+    dia "Наконец-то ты вернулся!"
+    dia "Я начала думать, что ты заблудился или что-то еще."
     show diane f_normal
     show player 14
-    player_name "Yeah, sorry."
-    player_name "I stopped off at the library."
+    player_name "Да, прости."
+    player_name "Я задержался в библиотеке."
     show player 13
     show diane f_normal_talk
-    dia "Oh?"
+    dia "О?"
     show diane f_normal
     show player 14
-    player_name "Yeah, I ran into {b}Veronica{/b} at {b}Consum-R{/b} and we started talking."
-    player_name "She says hi by the way."
+    player_name "Да, я встретил {b}Веронику{/b} в {b}Consum-R{/b} и мы начали разговаривать."
+    player_name "Кстати, она передает привет."
     show player 13
     show diane f_laugh
-    dia "Oh, I love her! She's such a sweetie!"
+    dia "О, я люблю ее! Она такая милая!"
     show diane f_normal
     show player 14
-    player_name "I asked her about increasing milk production."
+    player_name "Я спросил ее об увеличении производства молока."
     show player 11
     show diane f_sad_talk
-    dia "WHAT?!" with hpunch
+    dia "ЧТО?!" with hpunch
     show diane f_scared
     pause
     show diane f_sad_talk
-    dia "You didn't tell her I'm milking myself did you?!"
+    dia "Ты же не сказал ей, что я дою сам себя?!"
     show diane f_sad
     show player 10
-    player_name "N-no, of course not."
+    player_name "Нет, конечно нет."
     show player 5
     show diane f_lookup
-    dia "Phew! I was really worried there for a sec!"
+    dia "Фу! Я действительно взволновалась на секунду!"
     show diane f_normal
     show player 10
-    player_name "There's no need to worry."
-    player_name "She was asking how the business was going and she was very pushy..."
-    player_name "She wants to work for you, you know?"
+    player_name "Не стоит беспокоиться."
+    player_name "Она спрашивала, как идут дела, и была очень настойчива..."
+    player_name "Она хочет работать на тебя, понимаешь?"
     show player 5
     show diane f_normal_talk
-    dia "Yeah, I know."
+    dia "Да, я знаю."
     show diane f_normal
     show player 10
-    player_name "She seems pretty knowledgeable."
+    player_name "Она кажется довольно знающей."
     show player 5
     show diane f_normal_talk
-    dia "She is!"
-    dia "Her parents owned a huge dairy farm out west and she grew up working it."
+    dia "Верно!"
+    dia "Ее родители владели огромной молочной фермой на Западе, и она выросла, работая на ней."
     show diane f_normal
     show player 12
-    player_name "So when I said you were looking to increase milk production, she assumed I meant cows."
+    player_name "Поэтому, когда я сказал, что вы хотите увеличить производство молока, она предположила, что я имею в виду коров."
     show player 13
     show diane f_normal_talk
-    dia "Oh, good."
-    dia "I'm not ready to tell her yet."
+    dia "О, боже."
+    dia "Я еще не готова сказать ей."
     show diane f_normal
     show player 14
-    player_name "Anyways, she sent me down a path to find this."
+    player_name "В любом случае, она послала меня найти это."
     show player 239_240 with dissolve
     pause
     show player 369 with dissolve
-    player_name "I hope it helps..."
+    player_name "Надеюсь это поможет..."
     show player 13
     show diane a_shirtless_book_cover f_reading_intrigued
     with dissolve
-    dia "Hmm, \"Breeder's Guide?\""
+    dia "Хмм, \"Руководство для заводчиков?\""
     show diane f_normal
     show player 14
-    player_name "Yeah, it turns out, there's a fairly easy answer to your milk production problems..."
+    player_name "Да, оказывается, есть довольно простой ответ на ваши проблемы с производством молока..."
     show player 13
     show diane a_shirtless_book f_down_front with dissolve
     pause
     show diane f_surprised_down
     dia "!!!" with hpunch
-    dia "I..."
+    dia "Я..."
     show diane f_reading_intrigued
-    dia "This is-"
-    dia "I mean... I can't-"
+    dia "Это-"
+    dia "Я имею в виду... Я не могу-"
     show diane f_laugh
-    dia "Hahaha!"
+    dia "Хахаха!"
     show diane f_normal_talk
-    dia "Could you imagine me pregnant?"
+    dia "Ты можешь представить меня беременной?"
     show diane f_normal
     show player 14
-    player_name "Sure, why not?"
+    player_name "Конечно, почему бы и нет?"
     show player 13
     show diane f_thinking
     dia "..."
     show diane f_laugh
-    dia "Nobody would want to have a baby with me!"
+    dia "Никто не захочет иметь от меня ребенка!"
     show diane f_normal
     show player 14
-    player_name "I don't know about that..."
-    player_name "You're beautiful, and smart, and driven, and so much fun to be around!"
-    player_name "I bet, there are tons of guys out there who would be thrilled to have a baby with you, {b}Diane{/b}."
+    player_name "Я не знаю насчет этого..."
+    player_name "Ты красивая, умная, целеустремленная,и с тобой так весело!"
+    player_name "Держу пари, есть куча парней, которые были бы рады иметь ребенка с тобой, {b}Диана{/b}."
     show player 13
     show diane f_shamed_talk_smile
-    dia "... Yeah, right."
+    dia "... Да, точно."
     show diane f_shamed
     show player 14
-    player_name "I mean, I would."
+    player_name "Я имею в виду, я бы."
     show player 13
     show diane f_laugh
-    dia "Haha, now you're just being ridiculous..."
+    dia "Ха-ха, теперь ты просто смешон..."
     show diane f_shamed
     show player 12
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 14
-    player_name "I'm serious."
+    player_name "Я серьезно."
     show player 13
     show diane f_shamed_talk_smile
-    dia "Look, I know we have a little fun sometimes but we can't do that!"
+    dia "Слушай, я знаю, мы иногда немного веселимся, но мы не можем этого сделать!"
     show diane f_shamed
     show player 10
-    player_name "Why not?"
+    player_name "Почему нет?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "It isn't right!"
+    dia "Это неправильно!"
     show diane f_shamed_talk_smile_back
-    dia "... And what would {b}[deb_name]{/b} say?!"
-    dia "She'd probably never talk to me again!"
+    dia "... И что скажет {b}[deb_name]{/b}?!"
+    dia "Она, наверное, никогда больше со мной не заговорит!"
     show diane f_shamed
     show player 14
-    player_name "Oh, she wouldn't do that."
-    player_name "You're like, her favorite person in the entire world, {b}Diane{/b}."
+    player_name "О, она бы так не поступила."
+    player_name "Ты ее самый любимый человек на свете, {b}Диана{/b}."
     show player 13
     show diane f_shamed_talk_smile
-    dia "You really think it's a good idea for you and I to have a baby?!"
+    dia "Ты правда думаешь, что это хорошая идея для нас с тобой завести ребенка?!"
     show diane f_shamed
     show player 14
-    player_name "Well, I dunno... Maybe?"
+    player_name "Ну, я не знаю... Может быть?"
     show player 13
     show diane f_shamed_talk_smile_back
-    dia "Tch, I don't think you've really thought this through..."
+    dia "Тч, я не думаю, что ты действительно все продумал..."
     show diane f_shamed
     show player 12
-    player_name "I just want to help you, {b}Diane{/b}!"
+    player_name "Я просто хочу помочь тебе, {b}Диана{/b}!"
     show player 5
     show diane f_shamed_talk_smile
-    dia "Oh, stop it!"
+    dia "О, прекрати!"
     show diane f_shamed
     player_name "..."
     show diane f_shamed_talk_smile
-    dia "I appreciate what you're saying {b}[firstname]{/b} but it's just out of the question, alright?"
+    dia "Я ценю то, что ты говоришь {b}[firstname]{/b} но это просто невозможно, хорошо?"
     show diane f_shamed
     show player 24
-    player_name "{b}*Sigh*{/b} If you say so..."
+    player_name "{b}*вздох*{/b} Как скажешь..."
     show diane f_shamed_talk_smile
-    dia "Now, why don't you go tend to the garden while I finish up in here."
+    dia "А теперь, почему бы тебе не заняться садом, пока я здесь закончу."
     show diane f_shamed
     show player 25
-    player_name "Alright."
+    player_name "Хорошо."
     hide player with dissolve
     pause
     show diane f_down_front
     pause
-    dia "( Oh my... )"
-    dia "( Just imagine being bred like a animal! )"
-    dia "( Mmm, it's so hot! )"
+    dia "( Подумать только!... )"
+    dia "( Только представь, что тебя разводят как животное! )"
+    dia "( Ммм, это так круто! )"
     show diane f_reading_blushing
-    dia "( I can't believe {b}[firstname]{/b} really wants to do that with me! )"
+    dia "( Я не могу поверить, что {b}[firstname]{/b} действительно хочет сделать это со мной! )"
     show diane f_reading_lip_bite
-    dia "( ... Maybe... )"
+    dia "( ... Возможно... )"
     pause
     show diane a_shirtless_book_close f_explain_close with dissolve
-    dia "( No! Stop it, {b}Diane{/b}! )"
-    dia "( Get those naughty thoughts out of your head right now! )"
+    dia "( Нет! Остановись, {b}Диана{/b}! )"
+    dia "( Убери эти гадкие мысли из головы прямо сейчас! )"
     show diane a_shirtless_book_throw with dissolve
-    dia "( Even I'm not perverted enough to do something like that! )"
+    dia "( Даже я не настолько извращена, чтобы сделать что-то подобное! )"
     show diane a_shirtless_sides with dissolve
     pause
     show diane f_smirk_talk
-    dia "Phew, I need some air..."
+    dia "Фу, мне нужен свежий воздух..."
     hide diane with dissolve
     return
 
@@ -2187,32 +2187,32 @@ label barn_building_inform_carpenter:
     show player 13 at left
     show diane b_casual a_casual_bag f_laugh at lright
     with dissolve
-    dia "{b}[firstname]{/b}, there you are!"
+    dia "{b}[firstname]{/b}, вот ты где!"
     show diane f_normal_talk
-    dia "I was just about to head to your house."
+    dia "Я как раз собиралась к тебе домой."
     show diane f_normal
     show player 14
-    player_name "Wow, he's already started building!"
+    player_name "Вау, он уже начал строить!"
     show player 13
     show diane f_laugh
-    dia "Yup!"
-    dia "Isn't it exciting!"
+    dia "Ага!"
+    dia "Разве это не восхитительно!"
     show diane f_cheese
     show player 14
-    player_name "Yeah, it really is."
-    player_name "Did he give you a time frame for when he expects to complete it?"
+    player_name "Да, действительно."
+    player_name "Он сказал, когда он рассчитывает завершить его?"
     show player 13
     show diane f_normal_talk
-    dia "Hmm, not exactly but he'll call when it's ready."
+    dia "Хмм, не совсем, но он позвонит когда все будет готово."
     hide player
     show diane b_casual_bag_hug a_empty f_laugh at Position (xoffset=-414)
     with dissolve
-    dia "C'mon, roomie."
-    dia "We gotta get home before {b}Debbie{/b} starts worrying."
+    dia "Давай, сосед."
+    dia "Мы должны вернуться домой до того, как {b}Дебби{/b} начнет волноваться."
     show player 14 at left
     show diane b_casual a_casual_bag f_normal at lright
     with dissolve
-    player_name "Heh, yes ma'am."
+    player_name "Хе, да мэм."
     hide player
     hide diane
     with dissolve
