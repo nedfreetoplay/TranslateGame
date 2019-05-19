@@ -2225,261 +2225,261 @@ label barn_diane_check_barn_out:
     show richard f_normal_talk
     show player 13 at left
     with dissolve
-    rich "Hey, you got here quick."
+    rich "Эй, вы быстро."
     show richard f_normal
     show player 17
-    player_name "Heh, I could barely keep up with her."
+    player_name "Хех, я едва мог угнаться за ней."
     show player 13
     show diane f_laugh
-    dia "I'm excited!"
+    dia "Я взволнована!"
     show diane f_cheese
     show richard f_confused_talk
-    rich "Hah, I guess you're ready for the tour then?"
+    rich "Ха, полагаю, ты готов к туру?"
     show richard f_confused
     show diane f_normal_talk
-    dia "Yes, please!"
+    dia "Да, пожалуйста!"
     show diane f_normal
     show richard f_normal_talk
-    rich "Alright then, follow me."
+    rich "Хорошо, тогда следуйте за мной."
     hide richard
     hide diane
     hide player
     with dissolve
     scene expression L_diane_barn.background with fade
-    rich "I did everything exactly to your specifications."
-    rich "All the doors are thick and sturdy with custom built locking mechanisms, so you shouldn't have to worry about anyone breaking in."
-    dia "Niiice!"
+    rich "Я сделал все в точности по твоим указаниям."
+    rich "Все двери толстые и прочные с индивидуальными запирающими механизмами, поэтому вам не придется беспокоиться о том, что кто-то взломает."
+    dia "Слааавно!"
     scene expression L_diane_barn_garden.background with fade
-    rich "I made sure to keep the grunts out of your garden so everything there should be more or less the way you left it."
-    rich "... And the hay guys had some excess they didn't use, so I told them to stack it under the awning out back."
-    dia "That's perfect!"
+    rich "Я позаботился о том, чтобы не пускать ворчунов в ваш сад, чтобы все там было более или менее так, как вы его оставили."
+    rich "... А у парней с сеном были кое-какие излишки, которые они не использовали, поэтому я сказал им сложить их под навесом на заднем дворе."
+    dia "Это прекрасно!"
     scene expression L_diane_barn_interior.background with fade
-    player_name "Whoa!"
-    dia "Hehe!"
-    rich "Again, everything was done to your specifications."
-    rich "You've got plenty of extra storage space on the second floor and room to expand, should you ever decide to."
-    dia "It's so beautiful!"
-    player_name "What are those machines for?!"
+    player_name "Вау!"
+    dia "Хехе!"
+    rich "Опять же, все было сделано по вашим указаниям."
+    rich "У вас есть много дополнительного места для хранения на втором этаже и комнаты для расширения, если вы когда-нибудь решите."
+    dia "Это так здорово!"
+    player_name "Для чего эти машины?!"
     scene expression "backgrounds/location_barn_day_blur.jpg"
     show diane b_shirtless a_shirtless_sides at flip
     show diane at Position (xpos=100)
     show richard f_confused_talk
     show player 13 at left
     with dissolve
-    rich "Yeah, about those..."
-    rich "A couple fellas showed up with them about three days ago, saying you ordered them."
-    rich "All the paperwork checked out and they did all the installation."
-    rich "I still don't have any idea what they do..."
+    rich "Да, насчет этого..."
+    rich "Несколько парней пришли с ними около трех дней назад и сказали, что вы их заказали."
+    rich "Все документы проверили, и они сделали всю установку."
+    rich "Я до сих пор понятия не имею, для чего они..."
     show richard f_confused
     show diane f_laugh
-    dia "Hehe, those are, uhh... It's a secret of the trade!"
+    dia "Хе-хе, это ... .. Это секрет профессии!"
     show diane f_normal
-    rich "Hmmph."
+    rich "Хммм."
     show richard f_normal_talk
-    rich "Fair enough."
+    rich "Справедливо."
     show richard f_normal
     pause
     show richard f_normal_talk
-    rich "Welp, I think that about covers it."
+    rich "Ну, я думаю, это все."
     show richard f_normal
     show diane f_normal_talk
-    dia "Thanks so much, {b}Richard{/b}."
-    dia "This all looks even better than I imagined it."
+    dia "Спасибо большое, {b}Ричард{/b}."
+    dia "Все это выглядит даже лучше, чем я себе представляла."
     show diane f_normal
     show richard f_normal_talk
-    rich "Well, I'd appreciate it if you could recommend me to anyone you know who's needing work done."
+    rich "Я был бы признателен, если бы вы порекомендовали меня всем, кого знаете, кому нужна работа."
     show richard f_normal
     show diane f_normal_talk
-    dia "I certainly will!"
+    dia "Я с радостью!"
     show diane f_normal
     show richard f_normal_talk
-    rich "Alright, then I'll leave you to it."
-    rich "Oh, wait!"
-    rich "I nearly forgot."
+    rich "Хорошо, тогда я вас оставлю."
+    rich "О, подождите!"
+    rich "Чуть не забыл."
     show richard f_normal
-    dia "Hmm?"
+    dia "Хмм?"
     show richard f_normal_talk a_dressed_statue with dissolve
     show diane f_down_front
     show player 433
-    rich "The hay delivery guys found this half buried in the corner the other day."
+    rich "Парни из доставки сена нашли это наполовину закопанным в углу на днях."
     show richard f_confused_talk
-    rich "It's the damnedest thing..."
+    rich "Это самая ужасная вещь ..."
     show player 434
-    rich "I dunno how I missed it when I was working on the foundation."
+    rich "Не знаю, как я это пропустил, когда работал с фундаментом."
     show diane a_shirtless_statue
     show richard a_dressed_hips
     with dissolve
-    rich "You know anything about it?"
+    rich "Ты что-нибудь об этом знаешь?"
     show richard f_normal
     show diane f_normal_talk
-    dia "I've never seen it before..."
-    dia "... Looks like some sort of statue or something."
+    dia "Я никогда не видела это раньше..."
+    dia "... Похожа на какую-то статую."
     show diane f_normal
     show richard f_normal_talk
-    rich "Yeah, that's what I was thinking."
+    rich "Да, вроде как."
     show richard f_normal
     show player 14
-    player_name "Can I see it?"
+    player_name "Можно посмотреть?"
     show diane f_down_front a_shirtless_sides at unflip
     show diane at Position (xpos=-300)
     show player 688
     with dissolve
-    player_name "( Hmm, it looks like the lower half a nude woman. )"
-    player_name "( What's with the tail though? )"
+    player_name "( Хмм, похоже на нижнюю половину обнаженной женщины. )"
+    player_name "( А что с хвостом? )"
     show player 689
-    player_name "( There's something written on the bottom of it. )"
+    player_name "( Внизу что-то написано. )"
     show expression "objects/closeup_statue_01.png"
     hide player
     hide diane
     hide richard
     with dissolve
-    dia "What's that written on the bottom?"
-    player_name "{b}\"Delmont.\"{/b}"
-    player_name "Hmm, {b}Delmont{/b}..."
-    player_name "It sounds familiar."
+    dia "Что написано внизу?"
+    player_name "{b}\"Делмонт.\"{/b}"
+    player_name "Хмм, {b}Делмонт{/b}..."
+    player_name "Звучит знакомо."
     hide expression "objects/closeup_statue_01.png"
     show diane b_shirtless a_shirtless_sides f_normal_talk at Position (xpos=200)
     show richard
     show player 689 at left
     with dissolve
-    dia "Maybe it's a name?"
+    dia "Может, это имя?"
     show diane f_normal
     show richard f_confused_talk
-    rich "... Or a surname?"
+    rich "... Или фамилия?"
     show richard f_normal
     show player 12 with dissolve
-    player_name "You mind if I hang on to it?"
+    player_name "Не возражаешь, если я ее возьму?"
     show player 5
     show diane f_normal_talk
-    dia "Knock yourself out."
+    dia "Смотри не упади."
     show diane f_normal
     show player 13
     show richard f_normal_talk
-    rich "Well..."
+    rich "Ну..."
     show diane at flip
     show diane at Position (xpos=600)
-    rich "Give me a call if you need anything else."
+    rich "Позвони мне, если тебе еще что-нибудь понадобится."
     show richard f_normal
     show diane f_normal_talk
-    dia "Thanks again, {b}Richard{/b}."
+    dia "Спасибо еще раз, {b}Ричард{/b}."
     show diane f_normal
     hide richard with dissolve
     pause
     show diane f_normal_talk
-    dia "Say hi to {b}Lucy{/b} for me!"
+    dia "Передай от меня привет {b}Люси{/b}!"
     show diane f_normal
     pause
     show diane f_laugh at unflip, lright with dissolve
-    dia "Oh, this is wonderful!"
+    dia "О, это замечательно!"
     show diane f_normal_talk
-    dia "Isn't it wonderful, {b}[firstname]{/b}?!"
+    dia "Разве это не чудесно, {b}[firstname]{/b}?!"
     show diane f_normal
     show player 14
-    player_name "Heh, it does look really nice."
-    player_name "So what are those machines for?!"
+    player_name "Хех, это выглядит действительно мило."
+    player_name "Так для чего эти машины?!"
     show player 13
     show diane f_normal_talk
-    dia "Oh, right."
-    dia "Those are milking machines."
+    dia "О, верно."
+    dia "Это доильные аппараты."
     show diane f_normal
     show player 10
-    player_name "They are?"
+    player_name "Они?"
     show player 13
     show diane f_normal_talk
-    dia "You lay in them and attach the milkers to your breasts."
-    dia "I had them custom built for comfort, since I have to spend so many hours milking."
+    dia "Вы ложитесь в них и прикрепляете дойки к груди."
+    dia "Я заказал их специально для комфорта, так как мне приходится тратить так много часов на дойку."
     show diane f_normal
     show player 14
-    player_name "I see."
+    player_name "Понятно."
     show player 13
     show diane f_smirk_talk
-    dia "Gravity should make your job a lot easier with me in that position..."
+    dia "Гравитация должна сделать твою работу намного проще со мной в таком положении..."
     show diane f_smirk
     show player 11
     player_name "!!!" with hpunch
     show player 10
-    player_name "My job?!"
+    player_name "Моя работа?!"
     show player 11
     show diane f_laugh
-    dia "Of course!"
+    dia "Конечно!"
     show diane f_smirk_talk
-    dia "You're the one who keeps asking if you can help..."
-    dia "... And with those magic hands of yours, I figured, who better?"
+    dia "Это ты все время спрашиваешь, не можешь ли помочь..."
+    dia "... И с твоими волшебными руками, я подумала, кто лучше?"
     show diane f_smirk
     show player 10
-    player_name "So I'm going to be milking you?"
+    player_name "Так я буду доить тебя?"
     show player 11
     show diane f_smirk_talk
-    dia "Is that a problem?"
+    dia "Это проблема?"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "N-no!"
+    player_name "Нет!"
     show player 3
     pause
     show player 10 with dissolve
-    player_name "How come there are three of them though?"
+    player_name "Но почему их три?"
     show player 5
     show diane f_laugh
-    dia "Heh, well I'll have to expand and bring more ladies in eventually, right?"
+    dia "Хех, ну я должна буду расширить и привести больше дам в конце концов, не так ли?"
     show diane f_normal
     show player 10
-    player_name "M-more, ladies?"
-    player_name "You mean, I'm gonna be milking more ladies?"
+    player_name "Больше, дам?"
+    player_name "Ты имеешь в виду, что я буду доить больше женщин?"
     show player 11
     show diane f_normal_talk
-    dia "Maybe."
+    dia "Возможно."
     show diane f_smirk_talk
-    dia "That's between you and them."
+    dia "Это между тобой и ними."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "I uhh... Wha-"
-    player_name "{b}*Ahem*{/b} W-who do you have in mind?"
+    player_name "Я эээ... Что-"
+    player_name "{b}*гм*{/b} Кого ты имеешь в виду?"
     show player 3
     show diane f_laugh
-    dia "Hahaha, calm down handsome."
+    dia "Хахаха, успокойся красавчик."
     show diane f_normal_talk
-    dia "I don't have anyone in mind right now..."
-    dia "It could be a long while before I find the right fit for a job like that."
+    dia "У меня сейчас никого нет на примете..."
+    dia "Пройдет много времени, прежде чем я найду подходящую работу."
     show diane f_normal
     show player 14 with dissolve
-    player_name "Heh, right. That makes sense."
+    player_name "Хех, верно. В этом есть смысл."
     show player 13
     show diane f_normal_talk
-    dia "In the meantime, I'll have to see about {b}finding a way to increase my production{/b}..."
+    dia "В то же время мне нужно будет {b}найти способ увеличить производство{/b}..."
     show diane f_normal
     show player 10
-    player_name "What do you mean?"
+    player_name "Что ты имеешь в виду?"
     show player 5
     show diane f_normal_talk
-    dia "Well, I'm nearing my limit on how much breast milk I can produce in a day."
-    dia "There's gotta be something I can do to increase the flow..."
+    dia "Ну, я приближаюсь к своему пределу в том, сколько грудного молока я могу производить в день."
+    dia "Должно быть что-то, что я могу сделать, чтобы увеличить количество..."
     show diane f_normal
     show player 10
-    player_name "Increase the flow?"
-    player_name "... Maybe you should speak with a doctor?"
+    player_name "Увеличить количество?"
+    player_name "... Может, тебе стоит поговорить с врачом?"
     show player 5
     show diane f_normal_talk
-    dia "Yeah, that might be a good idea."
-    dia "Don't worry, {b}[firstname]{/b}, I'll figure something out."
+    dia "Да, это может быть хорошей идеей."
+    dia "Не переживай, {b}[firstname]{/b}, Я что-нибудь придумаю."
     show diane f_normal
     show player 14
-    player_name "N-no, I'll help too!"
+    player_name "Нет, Я тебе помогу!"
     show player 13
     show diane f_laugh
-    dia "Haha, there's something else I need you to do."
+    dia "Ха-ха, мне нужно, чтобы ты сделал кое-что еще."
     show diane f_normal
     show player 14
-    player_name "Anything!"
+    player_name "Все что угодно!"
     show player 13
     show diane f_normal_talk
-    dia "I don't think I ordered enough {b}storage containers for the milk{/b}."
-    dia "Would you run over to {b}Consum-R{/b} and {b}buy me one more?{/b}"
+    dia "Я не думаю, что заказала достаточно {b}контейнеров для хранения молока{/b}."
+    dia "Не мог бы ты забежать в {b}Consum-R{/b} и {b}купить еще один?{/b}"
     show diane f_normal
     show player 14
-    player_name "Sure thing."
+    player_name "Конечно."
     show player 13
     show diane f_normal_talk
-    dia "Thanks, {b}[firstname]{/b}."
+    dia "Спасибо, {b}[firstname]{/b}."
     hide player
     hide diane
     with dissolve
