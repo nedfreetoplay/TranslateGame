@@ -1861,65 +1861,65 @@ label barn_diane_outfit_package:
     show player 29 at left
     show diane b_shirtless a_shirtless_sides f_smirk
     with dissolve
-    player_name "H-hey, {b}Diane{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 3
     show diane f_smirk_talk
-    dia "Hi, handsome."
-    dia "You look anxious to get started!"
+    dia "Привет, красавчик."
+    dia "Похоже, тебе не терпится начать!"
     show diane f_smirk
     show player 29
-    player_name "Heh, y-yeah."
+    player_name "Хе, да."
     show player 3
     show diane f_smirk_talk
-    dia "Mmm, me too..."
-    dia "... But there's one last thing I want you to do for me."
+    dia "Ммм, мне тоже..."
+    dia "... Но есть одна последняя вещь, я хочу, чтобы ты сделал для меня."
     show diane f_smirk
     show player 14 with dissolve
-    player_name "A-anything!"
+    player_name "Все что угодно!"
     show player 13
     show diane f_smirk_talk
-    dia "I need you to go and pick up a special package at the mall for me."
+    dia "Мне нужно, чтобы ты сходил и забрал для меня специальный пакет в торговом центре."
     show diane f_smirk
     show player 14
-    player_name "I can do that!"
+    player_name "Я могу это сделать!"
     show player 14f with dissolve
-    player_name "I'll be back before you-"
+    player_name "Я вернусь быстрее, чем ты-"
     show diane f_laugh
     show player 11 with dissolve
-    dia "Hold on just a second!"
+    dia "Подожди секунду!"
     show player 13
     show diane f_smirk_talk
-    dia "I haven't even told you what store that package is in!"
+    dia "Я даже не сказала тебе, в каком магазине эта посылка!"
     show diane f_smirk
     show player 14
-    player_name "S-sorry."
+    player_name "Прости."
     show player 13
     show diane f_laugh
-    dia "Haha, it's alright."
+    dia "Ха-ха, все в порядке."
     show diane f_smirk_talk
-    dia "You'll need to look around {b}on the second floor{/b} for a store called, {b}\"Pink.\"{/b}"
+    dia "Тебе нужно будет поискать {b}на втором этаже{/b} магазин под названием, {b}\"Pink.\"{/b}"
     show diane f_smirk
     show player 17
-    player_name "{b}\"Pink\"{/b}, got it!"
+    player_name "{b}\"Pink\"{/b}, ясно!"
     show player 13
     show diane f_smirk_talk
-    dia "Tell the lady at the front desk that you're there to collect a package under the name {b}Diane{/b}."
+    dia "Скажи даме на стойке регистрации, что вы пришли забрать посылку на имя {b}Диана{/b}."
     show diane f_normal_talk
-    dia "... And don't look inside!"
+    dia "... И не заглядывай внутрь!"
     show diane f_normal
     show player 14
-    player_name "O-okay."
+    player_name "Хорошо."
     show player 13
     show diane f_normal_talk
-    dia "It's very important that you don't look inside the package, {b}[firstname]{/b}!"
+    dia "Очень важно, чтобы ты не заглядывал внутрь упаковки, {b}[firstname]{/b}!"
     show diane f_smirk_talk
-    dia "I don't want you to spoil the surprise."
+    dia "Я не хочу портить сюрприз."
     show diane f_smirk
     show player 14
-    player_name "I promise, I won't look."
+    player_name "Обещаю, я не буду смотреть"
     show player 13
     show diane f_smirk_talk
-    dia "Good boy."
+    dia "Хороший мальчик."
     hide player
     show diane kiss_shirtless
     with dissolve
@@ -1927,10 +1927,10 @@ label barn_diane_outfit_package:
     show player 13 at left
     show diane b_shirtless a_shirtless_sides f_smirk_talk
     with dissolve
-    dia "Hurry back to me, stud."
+    dia "Поспеши, жеребец."
     show diane f_smirk
     show player 14
-    player_name "Yes, ma'am!"
+    player_name "Да, мэм!"
     hide player
     hide diane
     with dissolve
