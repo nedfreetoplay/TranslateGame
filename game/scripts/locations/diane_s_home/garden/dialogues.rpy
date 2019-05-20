@@ -751,109 +751,109 @@ label dianes_garden_diane_drunken_splur:
     show player 11 at left
     show diane b_shirtless a_shirtless_drink f_drunk_talk at lright
     with dissolve
-    dia "Yoo-hooo! There you are, handsome!"
+    dia "Ю-ху! Вот ты где, красавчик!"
     show player 5
-    dia "How are you-*hic* doing today?"
-    dia "You here to give me another sh-*hic*"
-    dia "... Another show?!"
+    dia "Как у тебя-*ик* сегодня дела?"
+    dia "Ты здесь, чтобы дать мне еще одно-*ик*"
+    dia "... Еще одно шоу?!"
     show diane a_shirtless_drink_sip with dissolve
     show player 12
-    player_name "{b}Diane{/b}? Are you drunk?"
+    player_name "{b}Диана{/b}? Ты пьяна?"
     show player 11
     show diane a_shirtless_drink with dissolve
-    dia "Hehehe, yeeeaaah..."
-    dia "Just a little though!"
-    dia "It's so hot out here, you know?!"
-    dia "I just-*hic*"
-    dia "I just needed a little something to cool myself off..."
-    dia "... And I thought to myself, \"Self,\" {b}*Hic*{/b} \"your side business is really starting to take of!\""
-    dia "If that's not a cause for celebration, I don't know what is!"
+    dia "Хехехе, даааааа..."
+    dia "Чуть чуть!"
+    dia "Здесь так жарко, понимаешь?!"
+    dia "Мне просто-*ик*"
+    dia "Мне просто нужно немного чего-то чтобы охладить себя..."
+    dia "... И я подумала про себя, \"сама,\" {b}*ик*{/b} \"дополнительный бизнес действительно начинает набирать обороты!\""
+    dia "Если это не повод для праздника, то я не знаю, что это!"
     show diane a_shirtless_drink_sip with dissolve
     pause
     show diane b_shirtless_pull a_shirtless_drink_pull f_drunk with dissolve
     player_name "!!!"
     show diane f_drunk_talk
-    dia "You wanna celebrate with me, {b}[firstname]{/b}?"
+    dia "Ты хочешь отпраздновать со мной, {b}[firstname]{/b}?"
     show diane f_drunk
     show player 22
     pause
     show player 10
-    player_name "{b}Diane{/b}, your clothes... They um... Slipped."
+    player_name "{b}Диана{/b}, твоя одежда... Она... сползла."
     show player 11
     show diane f_drunk_talk
-    dia "Huh? What are you..."
+    dia "А? Что..."
     show diane a_shirtless_drink_hand_pull with dissolve
-    dia "Oh!!"
+    dia "О!!"
     show diane a_shirtless_reach_pull f_laugh_blush with dissolve
-    dia "Hahaha!"
+    dia "Хахаха!"
     show player 21
     show diane f_shamed
-    player_name "Heh..."
+    player_name "Хе..."
     show player 13
     show diane f_shamed_talk
-    dia "I guess I shouldn't have taken my shirt off, huh?"
-    dia "It doesn't help having these... Massive udders flopping around!!"
+    dia "Наверное, мне не стоило снимать рубашку, да?"
+    dia "Хотя она не поможет, имея эти... Массивные титьки которые вываливаются ото всюду!!"
     show diane f_laugh_blush
-    dia "Haha!"
+    dia "Хаха!"
     show diane b_shirtless a_shirtless_reach f_shamed with dissolve
     pause
     show player 11
     show diane b_shirtless_pull a_shirtless_drink_hand_pull with dissolve
-    dia "Oops! They keep trying to escape!"
+    dia "Упс! Они пытаются сбежать!"
     show diane a_shirtless_reach_pull f_laugh_blush with dissolve
-    dia "Haha!"
+    dia "Хаха!"
     show player 1
     show diane b_shirtless a_shirtless_drink f_drunk_talk at right with fastdissolve
-    dia "There."
-    dia "Have I ever told you how much I dislike {b}[deb_name]'s{/b} other tenant?"
+    dia "Вот."
+    dia "Я когда-нибудь говорила тебе, как сильно мне не нравится другой житель у {b}[deb_name]{/b}?"
     show player 10
     show diane f_drunk
-    player_name "Uh, no. You mean, {b}[jen_name]{/b}?"
+    player_name "Эээ, нет. Ты говоришь о, {b}[jen_name]{/b}?"
     show player 5
     show diane f_laugh_blush
-    dia "Yes! *hic* That's the one!"
+    dia "Да! *ик* О ней!"
     show diane f_drunk_talk
-    dia "She's such a biiiitch!"
+    dia "Она такая сууууучка!"
     show diane f_drunk
     show player 11
     pause
     show diane f_drunk_talk
-    dia "I wish I had nice young tits like her though..."
+    dia "Жаль, что у меня нет таких красивых молодых сисек, как у нее..."
     show diane a_shirtless_drink_sip with dissolve
     pause
     show diane a_shirtless_drink with dissolve
-    dia "What's the matter?"
-    dia "You don't like her tits?"
+    dia "В чем дело?"
+    dia "Тебе не нравятся ее сиськи?"
     show diane f_drunk
     show player 24
-    player_name "I... Uh..."
+    player_name "Я... Эээ..."
     show diane a_shirtless_drink_hand with dissolve
-    dia "You're telling me you haven't noticed them?"
+    dia "Ты хочешь сказать, что не заметил их?"
     show diane a_shirtless_drink with dissolve
     show player 10
-    player_name "Well... I don't know."
+    player_name "Ну... Я не знаю."
     show diane f_drunk_talk
     show player 11
-    dia "Here."
+    dia "Тут."
     show diane b_shirtless_pull a_shirtless_pull f_drunk with fastdissolve
     show player 22
     pause
     show diane f_drunk_talk
     show player 11
-    dia "I mean, don't you think they look better than these old things?"
+    dia "Тебе не кажется, что они выглядят лучше, чем эти старые штуки?"
     show diane f_drunk
     show player 21
-    player_name "No, I think your breasts look great, {b}Diane{/b}."
+    player_name "Нет, я думаю, твоя грудь выглядит великолепно, {b}Диана{/b}."
     show diane f_drunk_talk
     show player 13
-    dia "Awww!"
-    dia "You're so-*hic*"
-    dia "... So sweet!"
+    dia "Аааа!"
+    dia "Ты так-*ик*"
+    dia "... Такой милый!"
     show diane f_drunk
     pause
     show diane a_shirtless_reach_pull f_shamed_talk with dissolve
     show player 11
-    dia "Hmm..."
+    dia "Хмм..."
     dia "I don't feel so good all of a sudden."
     dia "I think I need to-*hic*"
     dia "I need to lie down for a bit..."
