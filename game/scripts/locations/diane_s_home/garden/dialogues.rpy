@@ -1725,52 +1725,52 @@ label dianes_garden_diane_delivery_2_task:
     show diane b_shirtless a_shirtless_tired f_tired_down at lright
     show player 14 at left
     with dissolve
-    player_name "Hello, {b}Diane{/b}."
-    player_name "How are you-"
+    player_name "Привет, {b}Диана{/b}."
+    player_name "Как у тебя-"
     show player 11
     player_name "!!!"
     show player 10
-    player_name "Are you okay?"
-    player_name "You look exhausted!"
+    player_name "Ты в порядке?"
+    player_name "Ты выглядишь измученной!"
     show player 5
     show diane f_tired_talk
-    dia "Oh, yeah. I'm alright."
-    dia "I just haven't gotten much sleep these past few days..."
-    dia "This latest delivery is killing me!"
+    dia "О, да. Я в порядке."
+    dia "Просто последние несколько дней я почти не спала..."
+    dia "Эта последняя доставка убивает меня!"
     show diane f_tired
     show player 10
-    player_name "That's not good."
-    player_name "Are you sure I can't help you milk the cow?"
+    player_name "Это не хорошо."
+    player_name "Ты уверена, что я не могу помочь тебе подоить корову?"
     show player 12
-    player_name "I really wouldn't mind."
+    player_name "Я бы не возражал."
     show player 5
     show diane f_tired_talk
-    dia "I bet you wouldn't!"
+    dia "Держу пари, что нет!"
     show diane f_laugh
-    dia "Hahahaha!"
+    dia "Хахахаха!"
     show diane f_tired
     show player 11
     player_name "..."
     show diane f_tired_talk
-    dia "Sorry, I'm a little loopy right now."
+    dia "Прости, я сейчас немного не в себе."
     show player 5
-    dia "There's no need, stud."
-    dia "I finished the order last night."
+    dia "В этом нет необходимости, жеребец."
+    dia "Я закончила заказ вчера вечером."
     show diane f_tired
     show player 12
-    player_name "Oh."
+    player_name "Ааа."
     show player 14
-    player_name "Well, that's good!"
+    player_name "Что ж, это хорошо!"
     show player 13
     show diane f_tired_talk
-    dia "You wouldn't mind delivering it for me again, would you?"
+    dia "Не могли бы ты доставить его для меня еще раз?"
     show diane f_tired
     show player 14
-    player_name "Of course not!"
-    player_name "I'd love to deliver it for you."
+    player_name "Я не против!"
+    player_name "Я с удовольствием доставлю заказ."
     show player 13
     show diane f_tired_talk
-    dia "Oh, you're a lifesaver, handsome!"
+    dia "О, ты мой спаситель, красавчик!"
     hide player
     show diane kiss_shirtless
     with dissolve
@@ -1778,61 +1778,61 @@ label dianes_garden_diane_delivery_2_task:
     show player 13 at left
     show diane b_shirtless a_shirtless_tired f_tired_talk
     with dissolve
-    dia "You won't have far to go; It's for the daycare next door."
+    dia "Вам не придется далеко идти; это для детского сада по соседству."
     show diane f_tired
     show player 10
-    player_name "Next door?"
-    player_name "I think {b}Anne{/b} lives next door..."
+    player_name "По соседству?"
+    player_name "Я думал {b}Энни{/b} живет по соседству..."
     show player 5
     show diane f_tired_down
-    dia "Hmm?"
+    dia "Хмм?"
     show player 12
-    player_name "She's a girl from my class."
+    player_name "Она из моего класса."
     show player 5
     show diane f_tired_talk
-    dia "Oh, that must be {b}Lucy's daughter{/b}."
+    dia "О, это, должно быть, {b}дочь Люси{/b}."
     show diane f_tired
     show player 12
-    player_name "{b}Lucy{/b}? I dunno, maybe..."
+    player_name "{b}Люси{/b}? не знаю, возможно..."
     show player 5
     show diane f_tired_talk
-    dia "Well, if she's anything like her mother, I'm sure she's delightful!"
+    dia "Ну, если она хоть немного похожа на свою мать, я уверена, что она восхитительна!"
     show diane f_tired
     show player 12
-    player_name "... Yeah. I dunno about that."
+    player_name "... Угу. Я не знаю об этом."
     show player 5
     show diane f_tired_talk
-    dia "Give them my regards, will you?"
-    dia "I've gotta get some sleep."
-    dia "... Just bring me the money when you're finished, okay?"
+    dia "Передай им от меня привет, ладно?"
+    dia "Мне нужно поспать."
+    dia "... Просто принеси мне деньги, когда закончишь, хорошо?"
     show diane f_tired
     show player 14
-    player_name "Sure thing, {b}Diane.{/b}"
+    player_name "Хорошо, {b}Диана.{/b}"
     show player 13
     show diane f_tired_talk
-    dia "Thanks, stud."
+    dia "Спасибо, жеребец."
     show diane f_tired at Position (xpos=450) with dissolve
     show player 10
-    player_name "Wait!!"
+    player_name "Подожди!!"
     show player 5
-    dia "Hmm?"
+    dia "Хмм?"
     show player 12
-    player_name "Where's the delivery?"
+    player_name "Где доставка?"
     show player 5
     show diane f_tired_down
     dia "..."
     show diane f_laugh
-    dia "Oh! Hahahahaha!!"
-    dia "Yeah, you'll probably need that, huh?"
+    dia "Ой! Хахахахахахаха!!"
+    dia "Да, тебе это, наверное, понадобится, да?"
     show diane f_tired_talk
-    dia "It's in the shed."
-    dia "I left it unlocked for you, handsome."
+    dia "Он в сарае."
+    dia "Я оставила его открытым для тебя, красавчик."
     show diane f_tired
     show player 17
-    player_name "Okay, I'm on it."
+    player_name "Хорошо."
     show player 13
     show diane f_tired_talk
-    dia "Thanks again, handsome."
+    dia "Еще раз спасибо, красавчик."
     hide diane
     hide player
     with dissolve
