@@ -1623,98 +1623,98 @@ label dianes_garden_diane_pump_request:
     dia "{b}[deb_name]{/b} рассказала тебе о моем новом клиенте?"
     show diane f_normal
     show player 29
-    player_name "Yeah, she said you landed a big one."
+    player_name "Да, она сказала, что ты поймала большую рыбу."
     show player 3
     show diane f_laugh
-    dia "You better believe it!"
+    dia "Тебе лучше поверить в это!"
     show diane f_normal_talk
-    dia "I've got a lot of work to do before we can make the delivery."
-    dia "I'm afraid I won't really have time to tend the garden..."
+    dia "У меня много работы, прежде чем мы сможем сделать доставку."
+    dia "Боюсь, у меня нет времени ухаживать за садом..."
     show diane f_normal
     show player 5 with dissolve
     player_name "..."
     show diane f_normal_talk
-    dia "Think you can handle it by yourself?"
+    dia "Думаешь, справишься сам?"
     show diane f_explain
-    dia "I'll give you a bump in pay..."
+    dia "Я увеличу тебе зарплату..."
     show diane f_cheese
     show player 10
-    player_name "Yeah, that's fine."
+    player_name "Да, конечно."
     show player 5
     show diane f_normal
     dia "..."
     show diane f_shamed_talk_smile
-    dia "What's the matter, handsome?"
-    dia "You still thinking about the other day?"
+    dia "В чем дело, красавчик?"
+    dia "Ты все еще думаешь о том дне?"
     show diane f_shamed
     show player 12
-    player_name "Yeah, I'm really sorry about the whole-"
+    player_name "Да, мне очень жаль насчет всего этого-"
     show player 11
     show diane f_laugh a_dressed_finger with dissolve
-    dia "Oh, don't be silly, handsome."
+    dia "Не глупи, красавчик."
     show diane f_normal_talk
-    dia "You're a young man!"
-    dia "You can't always control those things!"
+    dia "Ты молодой человек!"
+    dia "Ты не можешь всегда контролировать эти вещи!"
     show diane f_normal a_dressed_shovel with dissolve
     show player 29 with dissolve
-    player_name "Yeah, I guess..."
+    player_name "Да, наверно..."
     show player 3
     show diane f_normal_talk
-    dia "Don't give it another thought, {b}[firstname]{/b}!"
+    dia "Не думай об этом больше, {b}[firstname]{/b}!"
     show diane f_normal
     show player 13 with dissolve
     player_name "..."
     show diane f_normal_talk
-    dia "Alright, well I'd best get started."
-    dia "Lots of work to do!"
-    dia "I'll be in the shed getting everything ready if you need me, okay?"
+    dia "Ладно, мне лучше начать."
+    dia "Много работы!"
+    dia "Я буду в сарае, все подготовлю, если понадоблюсь, хорошо?"
     show diane f_normal
     show player 23
-    player_name "{b}*Gasp*{/b} Is the cow in there now?"
+    player_name "{b}*ох*{/b} Корова сейчас там?"
     show player 14
-    player_name "Can I pet it?!"
+    player_name "Можно погладить?!"
     show player 13
     show diane f_normal_talk
-    dia "Huh?"
+    dia "Ааа?"
     show diane f_lookup
-    dia "Oh, the cow... Uhh, no."
+    dia "О, корова... Ухх, нет."
     show diane f_smirk
     dia "..."
     show diane f_smirk_talk
-    dia "I'll go and visit the cow later tonight."
+    dia "Я пойду и навещу корову сегодня вечером."
     show diane f_smirk
     show player 12
-    player_name "So, what are you doing in the shed now?"
+    player_name "Так что ты сейчас делаешь в сарае?"
     show player 5
     show diane f_surprised_down a_dressed_blush with dissolve
-    dia "I uhh..."
+    dia "Я эээ..."
     show diane f_shamed_talk_smile a_dressed_finger with dissolve
-    dia "... Cleaning!"
-    dia "Yeah, I have to get all the equipment sterilized and make sure all the packaging is ready."
+    dia "... Убираюсь!"
+    dia "Да, мне нужно стерилизовать все оборудование и убедиться, что упаковка готова."
     show diane f_shamed a_dressed_shovel with dissolve
     show player 17
-    player_name "I see."
+    player_name "Ясно."
     show player 14
-    player_name "Do you need any help?"
+    player_name "Тебе нужна помощь?"
     show player 13
     show diane f_laugh
-    dia "No thanks, handsome."
-    dia "You just focus on the gardening for now and I'll-"
+    dia "Нет, спасибо, красавчик."
+    dia "Ты пока сосредоточься на садоводстве, а я-"
     show diane f_explain a_dressed_finger with dissolve
     dia "!!!"
     show diane f_normal_talk
-    dia "Actually, there is something you can do for me!"
+    dia "Вообще-то, ты можешь кое-что для меня сделать!"
     show diane f_normal a_dressed_shovel with dissolve
     show player 14
-    player_name "Sure, anything."
+    player_name "Конечно, что угодно."
     show player 13
     show diane f_smirk_talk
-    dia "{b}I left one of my tools on the kitchen counter.{/b}"
-    dia "Could you run and fetch it for me?"
+    dia "{b}Я оставила один из инструментов на кухонном столе.{/b}"
+    dia "Сбегай и принеси его мне?"
     show diane f_smirk
     show player 14
-    player_name "Of course."
-    player_name "I'll be right back."
+    player_name "Хорошо."
+    player_name "Я быстро."
     hide player
     hide diane
     with dissolve
