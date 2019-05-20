@@ -1199,57 +1199,57 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     dia "Оу, ну и ладно, {b}[firstname]{/b}."
     show diane f_thinking
     show player 13
-    dia "The girls will grow out of that phase sooner than you think..."
+    dia "Девочки выйдут из этой фазы раньше, чем ты думаешь..."
     show diane f_laugh_blush
-    dia "... Just give it some time!"
+    dia "... Дай им немного времени!"
     show diane f_eyes_closed
     show player 17
-    player_name "Thanks, {b}Diane{/b}."
+    player_name "Спасибо, {b}Диана{/b}."
     show diane f_smirk_talk
     show player 203
-    dia "No problem, stud!"
+    dia "Нет проблем, жеребец!"
     show diane f_smirk
     show xtra 21 at left with dissolve
     player_name "..."
     show diane f_normal
     dia "..."
     show diane f_thinking a_dressed_blush with dissolve
-    dia "Boy, it sure is hot out here, isn't it?"
+    dia "Мальчик, конечно, жарковато здесь, не правда ли?"
     show diane f_normal
     show player 14
     hide xtra with dissolve
-    player_name "Heh, yeah. I'm sweating like crazy!"
+    player_name "Хех, да. Я потею, как сумасшедший!"
     show player 13
     show diane f_normal_talk a_dressed_finger with dissolve
-    dia "Well, I bet I can come up with a solution to that..."
+    dia "Ну, я думаю, я могу придумать какое-то решение..."
     show diane hose with dissolve
     show player 10
-    player_name "Oh?"
+    player_name "О?"
     show player 12
-    player_name "What are you-"
+    player_name "Что ты-"
     show diane a_dressed_hose f_cheese with dissolve
     show player 11
     player_name "..."
     show player 10
-    player_name "You aren't gonna-"
+    player_name "Ты не собираешься-"
     show diane a_dressed_hose_shoot
     show player 668
     player_name "!!!" with hpunch
     pause
-    player_name "Whoa! That's freezing!"
+    player_name "Ого! Как холодно!"
     show player 669f with dissolve
     show diane f_laugh
-    dia "Oh, no you don't! You aren't getting away that easily!"
+    dia "О, нет, не надо! Ты так легко не отделаешься!"
     hide player with dissolve
     show diane hose_chase with dissolve
-    dia "Hahaha!"
+    dia "Хахаха!"
     hide diane with dissolve
     scene expression "backgrounds/location_diane_garden_cutscene06.jpg"
-    show expression FilteredText("{b}Diane{/b} and I wrestled with that hose, spraying one another and giggling like school children.") as cutscene at Position (xpos= 512, ypos = 700)
+    show expression FilteredText("Мы с {/b}Дианой{/b} боролись с этим шлангом, поливая друг друга и хихикая, как школьники.") as cutscene at Position (xpos= 512, ypos = 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("We didn't get a lot accomplished in the garden that day but we did have a lot of fun!") as cutscene at Position (xpos= 512, ypos = 700) with dissolve
+    show expression FilteredText("Мы не сделали много дел в саду в тот день, но у нас было много веселья!") as cutscene at Position (xpos= 512, ypos = 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -1258,24 +1258,24 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     show player 677 at left
     show diane b_dressed_wet f_laugh a_dressed_blush at lright
     with dissolve
-    dia "Okay, okay! I submit!"
+    dia "Ладно, ладно! Я подчиняюсь!"
     show diane f_normal_talk
-    dia "I can't keep up with you..."
+    dia "Я не могу за тобой угнаться..."
     show diane f_cheese a_dressed_shovel with dissolve
     show player 678
-    player_name "I win?!"
+    player_name "Я выиграл?!"
     show player 677
     show diane f_normal_talk
-    dia "Yeah, yeah... You win!"
+    dia "Да, да... Ты победил!"
     show diane f_normal
     show player 679 with dissolve
-    player_name "Hahaha! Victory!"
+    player_name "Хахаха! Победа!"
     show diane f_laugh
-    dia "Hehehe!"
+    dia "Хехехе!"
     show player 677 with dissolve
     show diane f_lookup
     pause
-    dia "Sheesh, is it getting dark already?"
+    dia "Блин, уже темнеет?"
     show diane f_normal_talk
     dia "You should get on home, {b}[firstname]{/b}."
     dia "I have some other work to do tonight."
