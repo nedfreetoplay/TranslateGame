@@ -1277,27 +1277,27 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     pause
     dia "Блин, уже темнеет?"
     show diane f_normal_talk
-    dia "You should get on home, {b}[firstname]{/b}."
-    dia "I have some other work to do tonight."
+    dia "Ты должен идти домой, {b}[firstname]{/b}."
+    dia "У меня сегодня есть другая работа."
     show diane f_normal
     show player 678
-    player_name "Anything I can help with?"
+    player_name "Я могу чем-нибудь помочь?"
     show player 677
     show diane f_surprised
-    dia "Hmm?"
+    dia "Хмм?"
     show diane f_smirk_talk
-    dia "Nah, I think not. I appreciate the offer, but this is work I'm better off doing alone..."
+    dia "Нет, не думаю. Я ценю твое предложение, но эту работу мне лучше делать одной..."
     show diane f_smirk
     show player 678
-    player_name "O-okay..."
+    player_name "Хорошо..."
     show player 677
     show diane f_normal_talk
-    dia "Thanks again for all your help today, stud!"
-    dia "Tell {b}[deb_name]{/b} I said, \"Hi.\""
+    dia "Еще раз спасибо за помощь, жеребец!"
+    dia "Передай {b}[deb_name]{/b}, \"Привет.\""
     show diane f_normal
     show player 678
-    player_name "Alright."
-    player_name "See ya soon, {b}Diane{/b}."
+    player_name "Хорошо."
+    player_name "Увидемся, {b}Диана{/b}."
     hide player
     hide diane
     with dissolve
@@ -1310,35 +1310,35 @@ label dianes_garden_diane_need_shovel_remove_waste_fail:
     show player 256 at Position(xpos=0.0322,ypos=1.0000)
     show diane f_normal
     with dissolve
-    player_name "[str_warn]Ughhh!!..."
-    player_name "[str_warn]...Ghhh..."
+    player_name "[str_warn]Уххххх!!..."
+    player_name "[str_warn]...Гххх..."
     show player 27 with dissolve
-    player_name "[str_warn]I... I can't do it..."
-    player_name "[str_warn]I'm sorry..."
+    player_name "[str_warn]I... Я не могу..."
+    player_name "[str_warn]Прости..."
     show player 3
     show diane f_normal_talk
-    dia "Oh..."
-    dia "It's... okay. I really did pack it way too full..."
-    dia "I'll just take some out and we can do it little by little."
+    dia "Ой..."
+    dia "Все... хорошо. Я действительно упаковала его слишком полно..."
+    dia "Я просто возьму немного, и мы сможем делать это постепенно."
     show player 23
-    player_name "No, wait... I can do it!"
+    player_name "Нет, подожди... Я смогу это сделать!"
     show player 256 with dissolve
     dia "..."
     show player 10 with dissolve
-    player_name "I'm just tired today, that's all..."
-    player_name "Let me rest and get some {b}strength{/b}. I'll come back and do it another day, I promise."
+    player_name "Я просто устал сегодня, вот и все..."
+    player_name "Дай мне отдохнуть и набраться {b}сил{/b}. Я вернусь и сделаю это в другой раз, обещаю."
     show diane f_normal
     show player 3
     dia "..."
     show diane f_laugh
     show player 5
-    dia "Oh? Well, if you say so..."
+    dia "Да? Ну, как скажешь..."
     show diane f_normal_talk
-    dia "I'll see you again soon?"
+    dia "Я скоро увижу тебя вновь?"
     show player 2
     show diane f_normal
-    player_name "Yeah, I'll be back real soon."
-    player_name "Thanks, {b}Diane{/b}!"
+    player_name "Да, я скоро вернусь."
+    player_name "Спасибо, {b}Диана{/b}!"
     hide player
     hide diane
     with dissolve
