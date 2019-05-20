@@ -529,7 +529,7 @@ label diane_garden_first_time:
     player_name "Пойду проверю и вернусь, если найду."
     show player 203
     show diane f_laugh
-    dia "Было бы здорого!"
+    dia "Было бы здорово!"
     show diane f_normal_talk
     dia "Возвращайся, если найдешь, и мы начнем."
     hide diane
@@ -588,32 +588,32 @@ label diane_garden_need_shovel_no_shovel:
     show player 2 at left
     show diane f_normal at right
     with dissolve
-    player_name "I still haven't found that {b}shovel{/b}."
-    player_name "Is there any way we can continue the work without it?"
+    player_name "Я все еще не нашел {b}лопату{/b}."
+    player_name "Есть ли способ продолжить работу без нее?"
     show diane f_normal_talk
     show player 1
-    dia "Well, we can't really dig up a garden without a shovel, can we?"
-    dia "I'll just have to pick up a new one next time I'm at the store."
+    dia "Ну, мы же не можем копать сад без лопаты, не так ли?"
+    dia "В следующий раз, когда буду в магазине, куплю новую."
     show diane f_teasing
     show player 11
-    dia "Unless..."
+    dia "Разве что..."
     show player 10
     show diane f_normal
-    player_name "Unless?"
+    player_name "Что?"
     show player 11
     show diane f_normal_talk
-    dia "... You wouldn't happen to have one at home?"
+    dia "... У тебя случайно нет дома лопаты?"
     show player 4
     show diane f_normal
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 2
-    player_name "We might have a {b}shovel{/b} in our garage!"
-    player_name "I'll go check and come back if I find something."
+    player_name "У нас есть {b}лопата{/b} в гараже!"
+    player_name "Пойду проверю и вернусь, если найду."
     show player 203
     show diane f_laugh
-    dia "That would be great!"
+    dia "Было бы здорово!"
     show diane f_normal_talk
-    dia "Come on back if you find one and we'll get started."
+    dia "Возвращайся, если найдешь, и мы начнем."
     hide diane
     hide player
     with dissolve
@@ -624,59 +624,59 @@ label diane_garden_delivery_1_task:
     show player 13 at left
     show diane f_normal_talk at lright
     with dissolve
-    dia "Oh, {b}[firstname]{/b}, I'm so glad you came by today!"
+    dia "О, {b}[firstname]{/b}, Я так рада, что ты пришел сегодня!"
     show diane f_normal
     show player 10
-    player_name "Uh oh, another garden emergency?"
+    player_name "Еще одна чрезвычайная ситуация в саду?"
     show player 5
     show diane f_laugh
-    dia "Heh, not exactly..."
+    dia "Хех, не совсем..."
     show diane f_normal_talk
-    dia "I haven't told you about my side business yet, have I?"
+    dia "Я ведь еще не рассказала тебе о своих побочных делах?"
     show diane f_normal
     show player 12
-    player_name "Side business? I thought you just lived off the money you got in your divorce?"
+    player_name "Побочный бизнес? Я думал, ты живешь на деньги, которые получила при разводе?"
     show player 5
     show diane f_smirk_talk
-    dia "Heh, well I do for the most part. My little startup is more of a pet project than an actual money making endeavor..."
+    dia "Хех, ну, я делаю по большей части. Мой маленький стартап-это скорее любимый проект, чем реальная попытка заработать деньги..."
     show diane f_smirk
     show player 14
-    player_name "Alright, so what is it?"
+    player_name "Ладно, так в чем дело?"
     show player 13
     show diane f_normal_talk
-    dia "I've been packaging and selling milk."
+    dia "Я упаковываю и продаю молоко."
     show diane f_normal
     show player 14
-    player_name "Milk?! I didn't know you had a cow! That's awesome!"
+    player_name "Молоко?! Я не знал, что у тебя есть корова! Это потрясающе!"
     show player 13
     dia "..."
     show player 32 with dissolve
-    player_name "Where is she? Can I pet her?"
+    player_name "Где она? Можно ее погладить?"
     show player 31
     show diane f_laugh
-    dia "Hahaha!"
+    dia "Хахаха!"
     show diane f_smirk_talk
-    dia "Sorry, handsome. My cow is... Well... Let's just say she isn't fond of visitors."
+    dia "Прости, красавчик. Моя корова... Что ж... Скажем так, она не любит гостей."
     show diane f_smirk
     show player 10 with dissolve
-    player_name "Aww, okay..."
-    player_name "So what do you need my help with?"
+    player_name "Ааа, хорошо..."
+    player_name "Так с чем тебе нужна моя помощь?"
     show player 13
     show diane f_normal_talk
-    dia "Well, a local pizza business placed an order and I need someone to deliver it for me."
+    dia "Ну, из местной пиццерии сделали заказ, и мне нужен кто-то, кто доставит его."
     show diane f_normal
     show player 14
-    player_name "I can do that!"
+    player_name "Я смогу это сделать!"
     show player 13
     show diane f_normal_talk
-    dia "You don't mind?"
-    dia "It would be a huge help."
+    dia "Ты не против?"
+    dia "Это было бы огромной помощью."
     show diane f_normal
     show player 14
-    player_name "No, I don't mind at all."
+    player_name "Нет, я совсем не против."
     show player 13
     show diane f_laugh
-    dia "Oh, wonderful!"
+    dia "О, прекрасно!"
     hide player
     show diane kiss
     with dissolve
@@ -685,62 +685,62 @@ label diane_garden_delivery_1_task:
     show xtra 21 at left
     show diane f_normal_talk
     with dissolve
-    dia "I dunno what I'd do without you, {b}[firstname]{/b}!"
+    dia "Я не знаю, что бы я без тебя делала, {b}[firstname]{/b}!"
     show diane f_normal
     hide xtra 21
     show player 21
-    player_name "Heh, it's no problem. I love to help!"
+    player_name "Хех, это не проблема. Я люблю помогать!"
     show player 13
     show diane f_normal_talk
-    dia "Let me grab the package for you..."
+    dia "Давай я принесу тебе пакет..."
     hide diane with dissolve
     pause
     show player 18
-    player_name "( Wow, this is so cool! )"
-    player_name "( {b}Diane{/b} really is like a farm girl at heart. )"
+    player_name "( Вау, это так круто! )"
+    player_name "( {b}Диана{/b} в глубине души похожа на деревенскую девушку. )"
     show player 33
-    player_name "( I hope she lets me meet her cow some day... )"
+    player_name "( Надеюсь, когда-нибудь она познакомит меня со своей коровой... )"
     show player 13
     show diane f_normal_talk a_dressed_milk_package with dissolve
-    dia "Here we are."
+    dia "Вот."
     show diane f_normal
     show player 427
-    player_name "Whoa, it has your face on it and everything!"
+    player_name "Ух ты, на нем твое лицо и все такое!"
     show player 426
     show diane f_smirk_talk
-    dia "Yup."
+    dia "Ага."
     show diane f_smirk
     show player 427
-    player_name "Hmm, {b}\"Auntie Diane's Original.\"{/b}"
+    player_name "Хмм, {b}\"Оригинал тетушки Дианы.\"{/b}"
     show player 426
     show diane f_smirk_talk
-    dia "Hehehe, you like that?"
+    dia "Хехехе, тебе нравится?"
     show diane f_smirk
     show player 14
-    player_name "Yeah, it's got a nice ring to it!"
+    player_name "Да, звучит неплохо!"
     show player 13
     show diane f_smirk_talk
-    dia "I thought so too."
+    dia "Я тоже так думаю."
     show diane f_cheese a_dressed_shovel
     show player 163e
     with dissolve
-    player_name "So, where am I taking it?"
+    player_name "Итак, куда я это везу?"
     show player 163d
     show diane f_normal_talk
-    dia "Just down the road to a little restaurant called, {b}\"Tony's Pizza.\"{/b}"
+    dia "Вниз по дороге в маленький ресторанчик под названием, {b}\"Пицца Тони.\"{/b}"
     show diane f_normal
     show player 163e
-    player_name "I've heard of that place!"
-    player_name "We've been getting {b}flyers{/b} from them in our {b}mailbox{/b}."
+    player_name "Я слышал об этом месте!"
+    player_name "Мы получаем {b}рекламки{/b} от них в {b}почтовом ящике{/b}."
     show player 163d
     show diane f_normal_talk
-    dia "Yeah, I hear they're pretty good."
-    dia "Say hi to {b}Tony{/b} for me, won't you?"
-    dia "Oh, and don't forget to collect the payment."
+    dia "Да, я слышала, они довольно хороши."
+    dia "Передай от меня привет {b}Тони{/b}, ладно?"
+    dia "Да,и не забудь забрать деньги."
     show diane f_normal
     show player 163e
-    player_name "Sure thing."
-    player_name "I'll be back in a flash!"
+    player_name "Конечно."
+    player_name "Я вернусь как Флэш!"
     hide player
     hide diane
     with dissolve
