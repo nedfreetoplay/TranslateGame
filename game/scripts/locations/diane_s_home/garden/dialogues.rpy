@@ -1092,11 +1092,11 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     hide diane
     with dissolve
     scene expression "backgrounds/location_diane_garden_cutscene04.jpg"
-    show expression FilteredText("The compost pile behind her house was so far!\n I barely made it; the wheelbarrow kept slipping out of my hands.") as cutscene at Position (xpos= 512, ypos = 700)
+    show expression FilteredText("Компостная яма за ее домом была так далеко!\n Я еле успевал; тачка выскальзывала у меня из рук.") as cutscene at Position (xpos= 512, ypos = 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("It felt good though, moving all that waste for {b}Diane{/b}.\n... And I was learning a lot about gardening!") as cutscene at Position (xpos= 512, ypos = 700) with dissolve
+    show expression FilteredText("И все же было приятно катить тачку для {b}Дианы{/b}.\n... И я много узнал о садоводстве!") as cutscene at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide cutscene
     scene black
@@ -1105,98 +1105,98 @@ label dianes_garden_diane_need_shovel_remove_waste_pass:
     show player 18 at left
     show diane f_laugh_blush at lright
     with dissolve
-    dia "I can't believe you did it with such ease!"
+    dia "Я не могу поверить, что ты сделал это с такой легкостью!"
     show diane f_normal
     show player 17
-    player_name "It was pretty hard, actually. Haha!"
+    player_name "Это было довольно трудно, на самом деле. Ха-ха!"
     show player 203
     show diane f_normal_talk
-    dia "Well, I sure am glad you were here..."
-    dia "I don't know what I would have done without you!"
+    dia "Что ж, я очень рада, что ты здесь..."
+    dia "Не знаю, что бы я без тебя делала!"
     show diane f_normal
     show player 2
-    player_name "It's no big deal."
-    player_name "I like the exercise!"
+    player_name "Ничего страшного."
+    player_name "Мне нравится тренировка!"
     show player 203
     show diane f_teasing
-    dia "I bet you do..."
-    dia "... You must excercise all the time."
+    dia "Держу пари, что ..."
+    dia "... ты постоянно тренируешься."
     show diane f_smirk
     show player 11
     player_name "..."
     show player 21
-    player_name "What do you mean?"
+    player_name "Что ты имеешь в виду?"
     show player 13
     show diane f_laugh
-    dia "C'mon, What's your secret? You're so lean and fit!"
+    dia "Ну же, в чем твой секрет? Ты такой стройный и подтянутый!"
     show diane f_thinking
     show player 11
-    dia "I try to stay active as often as possible but I can't seem to get rid of all this fat."
+    dia "Я стараюсь оставаться активной как можно чаще, но я не могу избавиться от всего этого жира."
     show diane f_normal
     show player 10
-    player_name "Fat?! What fat?"
+    player_name "Жир?! Какой жир?"
     show diane f_surprised
     show player 29 with dissolve
-    player_name "You look great, {b}Diane{/b}."
+    player_name "Ты отлично выглядишь, {b}Диана{/b}."
     show diane a_dressed_blush f_laugh_blush with dissolve
     show player 13 with dissolve
-    dia "Aww. You say that now. But if you saw me without clothes on, you'd be singing a different tune!"
+    dia "Оу. Ты говоришь это сейчас. Но если бы ты увидел меня без одежды, ты бы запел по-другому!"
     show diane f_surprised
     show player 11
     player_name "..."
     show diane a_dressed_shovel f_laugh_blush with dissolve
-    dia "Err... Anyway!"
+    dia "Эээ... В любом случае!"
     show diane f_teasing
-    dia "... You gonna tell me your trick or not?"
-    dia "Have you been working out?"
+    dia "... Ты расскажешь мне свой секрет или нет?"
+    dia "Ты тренируешься?"
     show diane f_smirk
     show player 21
-    player_name "A little."
+    player_name "Немного."
     show player 35
-    player_name "I try going to the gym sometimes."
+    player_name "Я иногда хожу в спортзал."
     show player 13
     show diane f_normal_talk
-    dia "Really?!"
-    dia "That's great!"
+    dia "Правда?!"
+    dia "Это здорово!"
     show diane a_dressed_finger f_explain with dissolve
-    dia "You know, there are many good advantages to staying in shape."
+    dia "Знаешь, есть много хороших преимуществ, чтобы оставаться в форме."
     show diane a_dressed_shovel f_teasing with dissolve
     show player 11
-    dia "Women love guys who are lean, strong, and full of vigor."
+    dia "Женщины любят стройных, сильных и энергичных парней."
     show diane f_smirk
     player_name "..."
     show diane f_smirk_talk
-    dia "Let's see that six pack!"
+    dia "Давай посмотрим на упаковку из шести банок!"
     show diane f_smirk
     show player 22
     player_name "!!!" with hpunch
     show player 21
-    player_name "You want to see my..."
+    player_name "Ты хочешь увидеть мои..."
     show player 11
     show diane f_smirk_talk
-    dia "Your abs! Yes."
-    dia "Give this old lady a show!"
+    dia "Твой пресс! Да."
+    dia "Покажи этой старушке шоу!"
     show diane f_smirk
     show player 10
-    player_name "O-okay..."
+    player_name "Хорошо..."
     show diane f_surprised
     show player 249 with dissolve
     show diane a_dressed_blush f_laugh_blush with dissolve
-    dia "Whooo!"
+    dia "Ваууууу!"
     show diane a_dressed_shovel f_smirk_talk with dissolve
-    dia "Look at that sexy body!"
+    dia "Посмотри на это сексуальное тело!"
     show diane f_teasing
-    dia "How can you not be popular with the girls at school?"
+    dia "Как ты можешь не нравиться девочкам в школе?"
     show diane f_smirk
     show player 250
-    player_name "Heh, I dunno..."
+    player_name "Ну, я не знаю..."
     show diane f_surprised
     show player 108f with dissolve
-    player_name "There are guys much bigger than me at school."
-    player_name "I'm definitely not one of the cool guys..."
+    player_name "В школе есть парни намного крупнее меня."
+    player_name "Я определенно не из крутых парней..."
     show player 109f
     show diane f_teasing
-    dia "Aww, well that's okay, {b}[firstname]{/b}."
+    dia "Оу, ну и ладно, {b}[firstname]{/b}."
     show diane f_thinking
     show player 13
     dia "The girls will grow out of that phase sooner than you think..."
