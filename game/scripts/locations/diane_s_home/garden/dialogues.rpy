@@ -1843,60 +1843,60 @@ label dianes_garden_diane_d9_intro:
     show player 10 at left
     show diane b_shirtless a_shirtless_tired f_tired
     with dissolve
-    player_name "Hey, {b}Diane{/b}."
-    player_name "Feeling better today?"
+    player_name "Привет, {b}Диана{/b}."
+    player_name "Чувствуешь себя лучше сегодня?"
     show player 5
     show diane f_tired_talk
-    dia "Hey, handsome."
-    dia "I feel fine. Thanks for asking."
+    dia "Привет, красавчик."
+    dia "Я прекрасно себя чувствую. Спасибо, что спросил."
     show diane f_tired
     show player 10
-    player_name "... You sure? You still look really tired."
+    player_name "... Ты уверена? Ты все еще выглядишь очень усталой."
     show player 5
     show diane f_tired_talk
-    dia "Heh, do I?"
+    dia "Хе, разве?"
     show diane f_tired
     show player 10
-    player_name "How much sleep did you get yesterday?"
+    player_name "Сколько ты вчера спала?"
     show player 5
     show diane f_tired_talk
-    dia "I'm not sure."
-    dia "I saw that note you left me about {b}Lucy's{/b} next order and I've been trying to get a head start on production."
-    dia "It's strenuous but I'm just going to have to get used to it, I guess..."
+    dia "Я не уверена."
+    dia "Я видела записку, которую ты оставил мне о следующем заказе Люси, и я пыталась начать производство."
+    dia "Это утомительно, но мне просто нужно привыкнуть к этому, я думаю..."
     show diane f_tired
     show player 10
-    player_name "What do you mean?"
+    player_name "Что ты имеешь в виду?"
     show player 5
     show diane f_tired_talk
-    dia "Well, my orders aren't slowing down anytime soon."
-    dia "As a matter of fact, they're getting bigger."
+    dia "Ну, мои заказы не замедлятся в ближайшее время."
+    dia "На самом деле, они становятся больше."
     show diane f_tired
     show player 10
-    player_name "Yeah, but-"
+    player_name "Да, но-"
     show player 5
     show diane f_tired_talk
-    dia "I've even got a line on another new client."
-    dia "My biggest yet."
+    dia "У меня даже есть наводка на другого нового клиента."
+    dia "Мой самый большой."
     show diane f_tired
     show player 10
-    player_name "{b}Diane{/b}..."
-    player_name "You have to take care of yourself first..."
-    player_name "Are you sure you aren't taking on too much, too quickly?"
-    player_name "I worry about you."
+    player_name "{b}Диана{/b}..."
+    player_name "Сначала ты должна позаботиться о себе..."
+    player_name "Ты уверена, что не берешь на себя слишком много, слишком быстро?"
+    player_name "Я беспокоюсь за тебя."
     show player 5
     show diane f_tired_talk
-    dia "Aww."
-    dia "I appreciate your concern, {b}[firstname]{/b}, but you don't need to worry about me."
-    dia "This business has been a dream of mine for a long time."
-    dia "It'll take a lot more than a few sleepless nights to stop me from seeing it through."
+    dia "Ааа."
+    dia "Я ценю твою заботу, {b}[firstname]{/b}, но тебе не нужно беспокоиться обо мне."
+    dia "Этот бизнес был моей мечтой долгое время."
+    dia "Потребуется гораздо больше, чем несколько бессонных ночей, чтобы остановить меня."
     show diane f_tired
     show player 10
-    player_name "... Alright, just..."
+    player_name "... Хорошо, только..."
     show player 14
-    player_name "... Remember I'm here to help if you need it."
+    player_name "... Помни, я здесь, чтобы помочь тебе, если понадобится."
     show player 13
     show diane f_tired_talk
-    dia "Thanks, {b}[firstname]{/b}."
+    dia "Спасибо, {b}[firstname]{/b}."
     hide player
     show diane kiss_shirtless
     with dissolve
@@ -1904,11 +1904,11 @@ label dianes_garden_diane_d9_intro:
     show player 13 at left
     show diane b_shirtless a_shirtless_tired f_tired_talk
     with dissolve
-    dia "Well, I should get back to it."
-    dia "Take good care of my garden, won't you?"
+    dia "Ну, я должна вернуться."
+    dia "Позаботься о моем саде, хорошо?"
     show diane f_tired
     show player 14
-    player_name "Of course."
+    player_name "Конечно."
     hide player
     hide diane
     with dissolve
@@ -1917,20 +1917,20 @@ label dianes_garden_diane_d9_intro:
 label dianes_garden_shed_light_on:
     scene expression player.location.background_blur
     show player 4 with dissolve
-    player_name "( Hmm? )"
-    player_name "( {b}The door is open and the light is on!{/b} )"
-    player_name "( She can't seriously still be working, can she? )"
+    player_name "( Хмм? )"
+    player_name "( {b}Дверь открыта и свет горит!{/b} )"
+    player_name "( Она не может еще работать, или может? )"
     hide player with dissolve
     return
 
 label dianes_garden_diane_missing:
     scene garden
     show player 127 with dissolve
-    player_name "Where's {b}Diane{/b}?"
+    player_name "Где {b}Диана{/b}?"
     show player 12
-    player_name "She's usually outside around this time..."
+    player_name "Обычно в это время она на улице..."
     show player 56
-    player_name "She must be somewhere."
+    player_name "Она должна быть где-то здесь."
     hide player 56 with dissolve
     return
 
@@ -1942,40 +1942,40 @@ label dianes_garden_diane_ready_for_day_off:
     show player 14 at left
     show diane b_shirtless a_shirtless_sides at lright
     with dissolve
-    player_name "Hey {b}Diane{/b}!"
-    player_name "You ready for your day off?"
+    player_name "Привет {b}Диана{/b}!"
+    player_name "Готова к выходному?"
     show player 13
     show diane f_normal_talk
-    dia "Hi, {b}[firstname]{/b}."
-    dia "Hehe, yeah I guess..."
-    dia "I just need to finish up this last batch I was working on this morning and-"
+    dia "Привет, {b}[firstname]{/b}."
+    dia "HХехе, полагаю что да..."
+    dia "Мне просто нужно закончить последнюю партию, над которой я работала этим утром и-"
     show diane f_normal
     show player 33
-    player_name "No, no, no..."
+    player_name "Нет, нет, нет..."
     show player 14
-    player_name "You're done working today!"
+    player_name "Ты закончила работать сегодня!"
     show player 13
     show diane f_normal_talk
-    dia "... But I have to make sure everything is stored away correctly."
+    dia "... Но я должна убедиться, что все хранится правильно."
     show diane f_normal
     show player 14
-    player_name "Just tell me what to do and I'll handle it."
+    player_name "Просто скажи мне, что делать, и я все улажу."
     show player 17
-    player_name "The rest of your day is all about relaxation!"
+    player_name "Остальная часть вашего дня - это отдых!"
     show player 13
     show diane f_laugh a_shirtless_shock with dissolve
-    dia "Hahaha. Okay, okay..."
+    dia "Хахаха. Хорошо, хорошо..."
     show diane f_normal_talk a_shirtless_sides with dissolve
-    dia "{b}Just head into the shed and dump what's in the pump into a storage jug.{/b}"
+    dia "{b}Просто зайдите в сарай и слей то, что в насосе, в кувшин.{/b}"
     show diane f_normal
     show player 14
-    player_name "That sounds easy enough."
+    player_name "Звучит достаточно просто."
     show player 13
     show diane f_normal_talk
-    dia "... But you have to make sure you get the cap on tight!"
+    dia "... Но ты должны убедиться, что закрыл крышку крепко!"
     show diane f_normal
     show player 14
-    player_name "You just take a seat and I'll handle it, okay?"
+    player_name "Ты просто присядь, а я займусь делами, хорошо?"
     $ M_diane.is_naked = 0
     hide player
     hide diane
