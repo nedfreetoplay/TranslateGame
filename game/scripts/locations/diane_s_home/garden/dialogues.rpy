@@ -1349,71 +1349,71 @@ label dianes_garden_diane_delivery_3_task_week:
     show player 13 at left
     show diane f_normal_talk b_shirtless a_shirtless_sides at lright
     with dissolve
-    dia "Hey there, stud!"
-    dia "You ready to make another delivery?"
+    dia "Привет, жеребец!"
+    dia "Вы готовы сделать еще одну доставку?"
     show diane f_normal
     show player 17
-    player_name "Oh, so that's the big job you were talking about!"
+    player_name "О, так это большая работа, о которой ты говорила!"
     show player 13
     show diane f_normal_talk
-    dia "Well, of course."
-    dia "What did you think it was?"
+    dia "Ну, конечно."
+    dia "Как ты думаешь, что это?"
     show diane f_normal
     show player 29 with dissolve
-    player_name "I..."
-    player_name "I dunno."
+    player_name "Я..."
+    player_name "Я не знаю."
     show player 3
     show diane f_smirk
-    dia "Mmhmm."
+    dia "Ммммм."
     show diane f_smirk_talk
-    dia "Naughty boy..."
-    dia "This is my biggest customer yet, {b}[firstname]{/b}."
-    dia "Do a good job and you can help me with my pumping when you get back, deal?"
+    dia "Непослушный мальчик..."
+    dia "Это мой самый большой клиент, {b}[firstname]{/b}."
+    dia "Сделаешь хорошую работу и поможешь мне с прокачкой, когда вернешься, договорились?"
     show diane f_smirk
     show player 17 with dissolve
-    player_name "deal!"
+    player_name "Договорились!"
     show player 13
     show diane f_laugh
-    dia "Hehe."
+    dia "Хехе."
     show diane f_smirk
     show player 14
-    player_name "So where is the package going this time?"
+    player_name "Так куда посылка на этот раз?"
     show player 13
     show diane f_normal_talk
-    dia "Just deliver it to the cafeteria at your school."
+    dia "Просто доставь ее в школьный кафетерий."
     show diane f_normal
     show player 22
     player_name "!!!"
     show player 10
-    player_name "My school?"
+    player_name "В мою школу?"
     show player 11
     show diane f_normal_talk
-    dia "That's right!"
+    dia "Точно!"
     show diane f_normal
     show player 10
-    player_name "You mean the students at school will be drinking-"
+    player_name "Ты имеешь в виду, что ученики в школе будут пить-"
     show player 11
     show diane f_normal_talk
-    dia "You'd better hurry, handsome."
-    dia "I told your principal to expect delivery ASAP."
+    dia "Тебе лучше поторопиться, красавчик."
+    dia "Я сказал вашему директору ождать доставки вскоре."
     show diane f_normal
     player_name "..."
     show player 10
-    player_name "Okay."
+    player_name "Хорошо."
     show player 5
     show diane f_normal_talk
-    dia "{b}The package is in the shed.{/b}"
+    dia "{b}Пакет в сарае.{/b}"
     show diane f_normal
     show player 10
-    player_name "Got it."
+    player_name "Ясно."
     return
 
 label dianes_garden_diane_delivery_3_task_weekend:
     scene expression player.location.background_blur
     show diane f_normal_talk
-    dia "The {b}Package{/b} has to be dropped off at the {b}School{/b}, so come back during the school week."
+    dia "{b}Посылка{/b}  должна быть доставлена в {b}школу{/b}, так что возвращайтесь в течение учебной недели."
     show player 1 at left
-    player_name "Okay."
+    player_name "Хорошо."
     return
 
 label dianes_garden_diane_delivery_3_done:
@@ -1421,59 +1421,59 @@ label dianes_garden_diane_delivery_3_done:
     show player 640e at left
     show diane b_shirtless a_shirtless_sides at lright
     with dissolve
-    player_name "Hey, {b}Diane{/b}."
-    player_name "I delivered that package to my school for you."
+    player_name "Привет, {b}Диана{/b}."
+    player_name "Я доставил этот пакет в школу для тебя."
     show player 13
     show diane a_shirtless_money f_shamed_talk_smile
     with dissolve
-    dia "Yeah, I just got off the phone with the cafeteria guy."
+    dia "Да, я только что говорила по телефону с парнем из кафетерия."
     show diane a_shirtless_sides with dissolve
-    dia "He's already placed another order."
-    dia "Even bigger than the last."
+    dia "Он уже сделал другой заказ."
+    dia "Даже больше, чем в прошлый раз."
     show diane f_shamed
     show player 14
-    player_name "That's a good thing, right?"
+    player_name "Это ведь хорошо, правда?"
     show player 13
     show diane f_shamed_talk_smile
-    dia "{b}*Sigh*{/b} Yeah, I'm just worried about meeting the demand is all."
-    dia "I need to find a better work place soon!"
-    dia "Otherwise, I might lose customers..."
+    dia "{b}*вздох*{/b} Да, я просто беспокоюсь о том, как удовлетворить спрос."
+    dia "Мне нужно найти место для работы получше!"
+    dia "Иначе я могу потерять клиентов..."
     show diane f_shamed
     show player 10
-    player_name "Anything I can do to help?"
+    player_name "Я могу чем-нибудь помочь?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "Hmm, I'm afraid not."
-    dia "I just have to hope a vacant barn becomes available."
+    dia "Мда, боюсь, что нет."
+    dia "Мне остается только надеяться, что освободится где-нибудь сарай."
     show diane f_shamed
     show player 10
-    player_name "It's a shame you don't have more land here. You could just build a new barn."
+    player_name "Жаль, что у вас здесь нет земли. Можно просто построить новый амбар."
     show player 5
     show diane f_normal_talk
-    dia "Yeah, that would be nice wouldn't it?"
-    dia "I could design it to fit my business perfectly!"
+    dia "Да, это было бы здорово, не так ли?"
+    dia "Я могла бы спроектировать его так, чтобы он идеально подходил моему бизнесу!"
     show diane f_thinking
-    dia "... You know what?!"
-    dia "You might actually be on to something {b}[firstname]{/b}..."
+    dia "... Знаешь что?!"
+    dia "Возможно, ты действительно на что-то наткнулся {b}[firstname]{/b}..."
     show player 14
-    player_name "Really?"
+    player_name "Правда?"
     show player 13
     show diane f_normal_talk
-    dia "Yeah!"
-    dia "Why don't you get started on the gardening and let me think on this for awhile."
+    dia "Да!"
+    dia "Почему бы тебе не начать работать в саду и не дать мне подумать об этом некоторое время."
     show diane f_normal
     show player 14
-    player_name "Sure thing!"
+    player_name "Конечно!"
     show player 13
     show diane f_smirk_talk
-    dia "Come and see me when you're done."
-    dia "We can have some fun."
+    dia "Приходи ко мне, когда закончишь."
+    dia "Мы сможем немного повеселиться."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "O-okay."
+    player_name "Хорошо."
     show player 3
     show diane f_laugh
-    dia "Hehehe, thanks stud!"
+    dia "Хехехе, спасибо, жеребец!"
     hide player
     show diane kiss_shirtless
     with dissolve
@@ -1484,87 +1484,87 @@ label dianes_garden_diane_delivery_3_done:
 label garden_diane_clean_garden:
     scene expression "backgrounds/location_diane_garden_closeup.jpg"
     show player 10 with dissolve
-    player_name "Oh, man..."
-    player_name "How did this happen?"
+    player_name "О, боже..."
+    player_name "Как это случилось?"
     show player 184 at right with dissolve
     player_name "..."
     show player 672 with dissolve
-    player_name "Yuck!"
-    player_name "Everything is ruined..."
+    player_name "Фу!"
+    player_name "Все испорчено...."
     show diane at flip with dissolve
-    player_name "How did this happen-"
+    player_name "Как это произошло-"
     show diane f_sad_talk
-    dia "Hi, {b}[firstname]{/b}..."
+    dia "Привет, {b}[firstname]{/b}..."
     show diane f_sad
     show player 22 at Position (xoffset=-131) with dissolve
     player_name "!!!"
     show player 10f with dissolve
-    player_name "{b}Diane{/b}, look!"
+    player_name "{b}Диана{/b}, смотри!"
     show player 671f with dissolve
     show diane f_scared
     dia "..."
     show player 672f
-    player_name "What happened to the garden?"
-    player_name "Did I screw something up?"
+    player_name "Что случилось с садом?"
+    player_name "Я что-то напортачил?"
     show player 5f with dissolve
     show diane a_dressed_blush f_shamed_talk_smile with dissolve
-    dia "Oh no, handsome..."
-    dia "This is all my fault."
+    dia "О нет, милый..."
+    dia "Это все я."
     show diane a_dressed_shovel with dissolve
-    dia "I went with an all natural pesticide this year and it wasn't as effective as I was hoping."
+    dia "В этом году я использовал натуральный пестицид, и он оказался не таким эффективным, как я надеялся."
     show diane f_shamed
     show player 12f
-    player_name "Pesticide?"
+    player_name "Пестицид?"
     show player 5f
     show diane f_shamed_talk_smile
-    dia "Yeah, you see those critters crawling all over the garden?"
+    dia "Да, видишь этих тварей, ползающих по всему саду?"
     show diane f_shamed
     show player 10f
-    player_name "Yeah..."
+    player_name "Да..."
     show player 5f
     show diane f_shamed_talk_smile a_dressed_finger with dissolve
-    dia "Those are {b}earwigs{/b}."
+    dia "Это {b}уховертки{/b}."
     show diane f_shamed a_dressed_shovel with dissolve
     player_name "..."
     show player 12f
-    player_name "Why do they call them earwigs?"
+    player_name "Почему их называют уховертками?"
     show player 5f
     show diane f_laugh
-    dia "Hehe, it's from an old wives tale... People used to believe earwigs would crawl into your ear and lay eggs in your brains."
+    dia "Хе-хе, это из бабушкиной сказки... Раньше люди верили, что уховертки могут заползти в ухо и отложить яйца в мозгу."
     show diane f_normal
     show player 11f
     player_name "!!!"
     show player 10f
-    player_name "That's not... I mean, they don't really-"
+    player_name "Это не так... Я имею в виду, они на самом деле не-"
     show player 5f
     show diane f_laugh a_dressed_blush with dissolve
-    dia "Hahaha! No, of course not!"
+    dia "Хахаха! Нет, конечно, нет!"
     show diane f_normal_talk a_dressed_shovel with dissolve
-    dia "They prefer moist rich soil, which is why they ended up in our garden here."
-    dia "I betcha there are dozens of nests in that soil right now..."
+    dia "Они предпочитают влажную богатую почву, вот почему они оказались в нашем саду."
+    dia "Бьюсь об заклад, в этой земле сейчас десятки гнезд..."
     show diane f_normal
     show player 12f
-    player_name "... Gross!!!"
-    player_name "So how do we fix it?"
+    player_name "... Гадость!!!"
+    player_name "Так как мы это исправим?"
     show player 5f
     show diane f_normal_talk a_dressed_finger with dissolve
-    dia "Hmm, well for starters, we're gonna have to throw out all these infested crops and destroy as many nests as we can."
-    dia "Then we'll need to till the soil and replant."
-    dia "Making sure we use a more effective pesticide this time."
+    dia "Ну, для начала, мы должны выбросить все эти зараженные культуры и уничтожить столько гнезд, сколько сможем."
+    dia "Потом нужно будет возделывать землю и сажать растения."
+    dia "Убедившись, что на этот раз мы используем более эффективный пестицид."
     show diane f_normal a_dressed_shovel with dissolve
     show player 14f
-    player_name "Alright."
-    player_name "Let's get started!"
+    player_name "Хорошо."
+    player_name "Давай начнем!"
     show player 13f
     show diane f_normal_talk
-    dia "Hehe, so eager..."
-    dia "I can't believe you're enjoying gardening so much!"
+    dia "Хе-хе, такой нетерпеливый..."
+    dia "Не могу поверить, что тебе так нравится работать в саду!"
     show diane f_normal
     show player 14f
-    player_name "It's a lot of fun!"
+    player_name "Это очень весело!"
     show player 13f
     show diane f_normal_talk
-    dia "Alright, well dig in!"
+    dia "Хорошо, копай!"
     hide player
     hide diane
     with dissolve
@@ -1574,36 +1574,36 @@ label garden_diane_clean_garden:
 label dianes_garden_diane_bug_infestation:
     scene garden
     show player 10 at left with dissolve
-    player_name "{b}Diane{/b}?"
+    player_name "{b}Диана{/b}?"
     show player 4 with dissolve
     player_name "..."
     show player 12 with dissolve
-    player_name "That's weird."
-    player_name "She's usually waiting here to greet me."
+    player_name "Это странно."
+    player_name "Она обычно ждет меня здесь, чтобы поприветствовать."
     show player 31 with dissolve
     player_name "!!!"
     show player 32
-    player_name "Oh, no!"
-    player_name "What's wrong with the garden?!"
+    player_name "О, нет!"
+    player_name "Что случилось с садом?!"
     hide player with dissolve
     return
 
 label dianes_garden_diane_check_up_on_garden:
     scene garden
     show player 14 with dissolve
-    player_name "Hey, {b}Diane{/b}!"
-    player_name "How's the-"
+    player_name "Привет, {b}Диана{/b}!"
+    player_name "Как-"
     show player 32 at Position (xoffset=68) with dissolve
-    player_name "Wow!!!"
+    player_name "Вау!!!"
     show player 17 with dissolve
-    player_name "The garden looks great!"
+    player_name "Сад выглядит великолепно!"
     show player 14
-    player_name "I can't believe everything is growing back so quickly."
+    player_name "Не могу поверить, что все растет так быстро."
     show player 30
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 32f with dissolve
-    player_name "{b}Diane{/b} is missing again..."
-    player_name "I wonder where she's hiding?"
+    player_name "{b}Диана{/b} опять пропала..."
+    player_name "Интересно, где она прячется?"
     hide player with dissolve
     return
 
@@ -1615,12 +1615,12 @@ label dianes_garden_diane_pump_request:
     dia "Hey, there he is!"
     show diane f_normal
     show player 29 with dissolve
-    player_name "Hi, {b}Diane{/b}."
+    player_name "Привет, {b}Диана{/b}."
     show player 3
     show diane f_laugh
-    dia "I'm so glad you're here!"
+    dia "Я так рада, что ты здесь!"
     show diane f_normal_talk
-    dia "Did {b}[deb_name]{/b} tell you about my new client?"
+    dia "{b}[deb_name]{/b} рассказала тебе о моем новом клиенте?"
     show diane f_normal
     show player 29
     player_name "Yeah, she said you landed a big one."
