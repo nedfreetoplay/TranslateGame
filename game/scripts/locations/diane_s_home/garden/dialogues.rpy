@@ -1991,17 +1991,17 @@ label dianes_garden_diane_drunken_shenanigans_apology:
     show diane at Position (xpos=250)
     show vero f_normal_talk b_casual a_casual_front at Position (xpos=600)
     with dissolve
-    vero "I just can't get over how good your garden is looking nowadays!"
-    vero "I remember when it was just a sad little patch of tomatoes..."
+    vero "Я просто не могу поверить в то, как хорошо выглядит твой сад сейчас!"
+    vero "Я помню, когда это было просто грустное маленькое пятно помидоров..."
     show vero f_normal
     show diane f_laugh
-    dia "Haha, thanks {b}Vee{/b}!"
+    dia "Хаха, спасибо {b}Ви{/b}!"
     show diane f_normal_talk
-    dia "It certainly has come a long way..."
+    dia "Конечно, он прошел долгий путь..."
     show diane f_normal
     show vero f_normal_talk
-    vero "It's really gorgeous, {b}Diane{/b}!"
-    vero "Wow!!!"
+    vero "Это действительно великолепно, {b}Диана{/b}!"
+    vero "Вау!!!"
     show vero bending at flip
     show vero at Position (xoffset=100)
     show diane f_down_front
@@ -2011,240 +2011,240 @@ label dianes_garden_diane_drunken_shenanigans_apology:
     show vero f_normal_talk b_casual a_cucumber1 at Position (xpos=600)
     show diane f_normal
     with dissolve
-    vero "Look at the size of this one!"
+    vero "Посмотрите на размер этого!"
     show vero f_normal
     show diane f_normal_talk
-    dia "Yeah, I know!"
+    dia "Да, я знаю!"
     show diane f_smirk_talk
-    dia "He's a monster."
+    dia "Просто монстр."
     show diane f_smirk
     show vero f_normal_talk a_cucumber2 with dissolve
-    vero "I'll say..."
+    vero "Я бы сказала..."
     show vero f_normal
     show diane f_normal_talk
-    dia "You wanna take him home with you?"
+    dia "Хочешь забрать его домой?"
     show diane f_wink
     show vero f_rolleyes a_cucumber1 with dissolve
-    vero "Oh my gosh, I should never have told you about that..."
+    vero "Боже мой, мне не следовало говорить тебе об этом..."
     show vero f_sexy
     show diane f_laugh a_dressed_finger with dissolve
-    dia "Hey, I'm not one to judge."
+    dia "Эй, я не осуждаю."
     show diane f_normal a_dressed_shovel with dissolve
     show vero f_sexy_down
     vero "..."
     show vero f_sexy_talk_down
-    vero "No, it's way too big for me!"
+    vero "Нет, он слишком большой для меня!"
     show vero f_sexy_down
     show diane f_laugh
-    dia "Haha, yeah. Me too."
+    dia "Хаха, да. Для меня тоже."
     show diane f_smirk
     show vero f_surprised_down
-    vero "Ahaha, I knew you'd try it!"
+    vero "Ахаха, я знала, что ты попробуешь!"
     show vero f_sexy a_casual_front with dissolve
     show diane f_smirk_talk
-    dia "Yeah, yeah..."
+    dia "Да, да..."
     show diane f_smirk
     show vero f_sexy_talk
-    vero "So what's your secret?"
-    vero "You aren't using hormones on them or anything are you?"
+    vero "Так в чем твой секрет?"
+    vero "Ты же не используешь гормоны на них или что-то в этом роде?"
     show vero f_sexy
     show diane f_normal_talk
-    dia "Psh, of course not!"
-    dia "I remember our discussion about that."
+    dia "Пфф, конечно нет!"
+    dia "Я помню наш разговор об этом."
     show diane f_normal
     show vero f_sexy_talk
-    vero "Good."
+    vero "Хорошо."
     show vero f_sexy
     show diane f_normal_talk
-    dia "To be honest, I've left most of the gardening to my friend this year."
+    dia "Честно говоря, в этом году я оставила большую часть садоводства своему другу."
     show diane f_normal
     show vero f_normal_talk
-    vero "Oh, you mean that cute one you brought into the store the other day?!"
+    vero "Ты имеешь в виду того милашку, которого ты привела в магазин на днях?!"
     show vero f_normal
     show diane f_normal_talk
-    dia "Don't get any ideas, {b}Vee{/b}!"
-    dia "He's a good kid."
+    dia "Даже не думай, {b}Ви{/b}!"
+    dia "Он хороший парень."
     show diane f_normal
     show vero f_normal_talk
-    vero "Yeah, so?"
+    vero "Да, и что?"
     show vero f_sexy_talk
-    vero "I'm a nice girl..."
+    vero "Я хорошая девушка..."
     show vero f_sexy
     show diane f_normal_talk
-    dia "Uh huh."
+    dia "Хух."
     show diane f_normal
     show vero f_laugh
-    vero "Hehehe!"
+    vero "Хехехе!"
     show vero f_sexy
     show diane f_normal_talk
-    dia "His guardian would kill me if I let you get your claws on him."
+    dia "Его опекун убьет меня, если я позволю тебе вцепиться в него когтями."
     show diane f_normal
     show vero f_sexy_talk
-    vero "Aww, c'mon."
+    vero "Ой, да ладно."
     show vero f_sexy
     show diane f_normal_talk a_dressed_finger with dissolve
-    dia "Absolutely not, {b}Vee{/b}."
+    dia "Точно нет, {b}Ви{/b}."
     show diane f_normal a_dressed_shovel with dissolve
     show vero f_sexy_talk
-    vero "Tsk, you're no fun."
+    vero "Шшш, с тобой не весело."
     show vero f_sexy
     pause
     show vero f_thinking
-    vero "... Arrghh..."
-    vero "Sometimes I really regret moving to this town."
-    vero "The men here suck!"
+    vero "... Рррггхх..."
+    vero "Иногда я действительно жалею о переезде в этот город."
+    vero "Мужчины здесь-отстой!"
     show vero f_normal
     show diane f_normal_talk
-    dia "You don't have to tell me."
+    dia "Ты не обязана мне говорить."
     show diane f_normal
     pause
     show diane f_normal_talk
-    dia "You're not thinking about moving back to the farm are you?"
+    dia "Ты же не думаешь вернуться на ферму?"
     show diane f_normal
     show vero f_laugh
-    vero "Oh, heck no!"
+    vero "О, черт возьми, нет!"
     show vero f_normal_talk
-    vero "If I went back there with my tail between my legs, I'd never hear the end of it.!"
-    vero "{b}*Sigh*{/b}"
-    vero "I can't believe I've been working at {b}Consum-R{/b} for five years!"
-    vero "It's so depressing..."
+    vero "Если я вернусь туда с поджатым хвостом, то упрекам не будет конца.!"
+    vero "{b}*вздох*{/b}"
+    vero "Не могу поверить что работаю в {b}Consum-R{/b} уже 5 лет!"
+    vero "Это так угнетает..."
     show vero f_normal
     pause
     show vero f_normal_talk
-    vero "Oh, that reminds me!"
-    vero "I wanted to ask you how the new business is going?"
+    vero "О, это напомнило мне!"
+    vero "Я хотела спросить, как продвигается новый бизнес?"
     show vero f_normal
     show diane f_normal_talk a_dressed_blush with dissolve
-    dia "Oh, uhh..."
+    dia "О, эээ..."
     show diane a_dressed_shovel with dissolve
-    dia "It's going well, so far."
+    dia "Пока все идет хорошо."
     show diane f_normal
     show vero f_normal_talk
-    vero "You're still not ready to give me the details?"
+    vero "Ты все еще не готова рассказать мне подробности?"
     show vero f_normal
     show diane f_normal_talk
-    dia "Mmm, not quite yet..."
+    dia "Ммм, пока нет..."
     show diane f_normal
     show vero f_rolleyes
-    vero "Ugh, fiiiine."
+    vero "Ух, лааадно."
     show vero f_normal_talk
-    vero "Just don't forget about me when you start making the big bucks!"
-    vero "I'm a quick learner and I'll work hard for you {b}Diane{/b}."
+    vero "Только не забывай обо мне, когда начнешь зарабатывать большие деньги!"
+    vero "Я быстро учусь и буду усердно работать на тебя, {b}Диана{/b}."
     show vero f_normal
     show diane f_normal_talk
-    dia "Heh, I know that {b}Vee{/b}..."
-    dia "I just don't have enough work to warrant hiring an extra hand at the moment."
-    dia "I promise, I'll call you as soon as I do."
+    dia "Хе, я знаю, {b}Ви{/b}..."
+    dia "Просто сейчас у меня недостаточно работы, чтобы нанять еще одного работника."
+    dia "Обещаю, я позвоню тебе, как только."
     show diane f_normal
     show player 13 at left with dissolve
     show vero f_normal_talk
-    vero "You had better."
+    vero "Так-то лучше."
     show vero f_normal
     show player 14
-    player_name "Hello ladies."
+    player_name "Здравствуйте дамы."
     show player 13
     show vero f_sexy_talk
-    vero "Uh oh, your boyfriend is here..."
+    vero "Ух ох, Твой парень здесь..."
     show vero f_sexy
     show diane f_normal_talk
-    dia "Tch, shuddup {b}Vee{/b}!"
+    dia "Ччч, заткнись {b}Ви{/b}!"
     show diane at unflip
     show diane at lcenter
     with dissolve
-    dia "Ignore her, {b}[firstname]{/b}."
+    dia "Не слушай ее, {b}[firstname]{/b}."
     show diane f_normal
     show vero f_sexy_talk
-    vero "Oh, he knows I'm only teasing..."
+    vero "Он знает, что я просто шучу..."
     show vero f_normal_talk
-    vero "We were just talking about this beautiful garden you've been working on."
+    vero "Мы как раз говорили об этом прекрасном саде, над которым ты работал."
     show vero f_normal
     show player 17
-    player_name "It looks pretty good, huh?"
+    player_name "Выглядит неплохо, да?"
     show player 18
     show vero f_normal_talk
-    vero "It looks better than good."
-    vero "What's your secret?"
+    vero "Выглядит лучше, чем хорошо."
+    vero "В чем твой секрет?"
     show vero f_normal
     show player 10
-    player_name "Huh?"
+    player_name "Ааа?"
     show player 5
     show vero f_normal_talk
-    vero "You've gotta be doing something special to get results like this."
+    vero "Ты наверно делаешь что-то особенное, чтобы получить такие результаты."
     show vero f_normal
     show player 35
-    player_name "Hmm, not really."
+    player_name "Хмм, да нет."
     show player 14
-    player_name "I just till it, sow it, and water it."
-    player_name "Like {b}Diane{/b} taught me."
+    player_name "Я просто пашу, сею и поливаю."
+    player_name "Как меня учила {b}Диана{/b}."
     show player 13
     show vero f_normal_talk
-    vero "That's it?"
+    vero "И все?"
     show vero f_normal
     show player 14
-    player_name "Yup."
+    player_name "Ага."
     show player 13
     pause
     show player 35
-    player_name "Oh!"
+    player_name "О!"
     show player 14
-    player_name "I have been fertilizing it with compost..."
+    player_name "Я удобрял его компостом..."
     show player 10
-    player_name "... Maybe that's my secret?"
+    player_name "... Может, это мой секрет?"
     show player 13
     show diane f_laugh
-    dia "Hahaha!"
+    dia "Хахаха!"
     show vero f_laugh
-    vero "Hehe, maybe..."
+    vero "Хехе, может быть..."
     show diane f_normal
     show vero f_normal
     pause
     show vero f_normal_talk
-    vero "Well, I should probably get going..."
+    vero "Ну, мне, наверное, пора идти..."
     show vero f_normal
     hide diane
     show diane f_normal_talk at flip
     show diane at Position (xpos=250)
     with dissolve
-    dia "So soon?"
+    dia "Так рано?"
     show diane f_normal
     show vero f_normal_talk
-    vero "Heh, Yeah. Those groceries at {b}Consum-R{/b} aren't going to sell themselves you know?!"
+    vero "Хех, Да. Продукты в {b}Consum-R{/b} сами себя не продадут."
     show vero f_normal
     show diane f_normal_talk
-    dia "Hah, I suppose not."
+    dia "Ха, полагаю что нет."
     hide vero
     show diane hug_vero_talk at Position (xoffset=200)
     with dissolve
-    dia "Swing by anytime, alright?"
+    dia "Заходи в любое время, хорошо?"
     show diane f_normal
     show vero f_normal_talk b_casual a_casual_front at Position (xpos=600)
-    vero "Will do."
+    vero "Хорошо."
     show vero f_normal
     show player 14
-    player_name "Bye {b}Veronica{/b}."
-    player_name "Nice seeing you again."
+    player_name "Пока {b}Вероника{/b}."
+    player_name "Был рад снова тебя видеть."
     show player 13
     show vero f_normal_talk
-    vero "Yeah, you too handsome."
+    vero "Да, ты слишком красив."
     show vero f_sexy
     pause
     show vero f_sexy_talk
-    vero "You know what?"
-    vero "I think I'll take that cucumber afterall..."
+    vero "Знаешь что?"
+    vero "Пожалуй, я все-таки возьму огурец..."
     show vero bending at Position (xoffset=370)
     show diane f_down_front
     with dissolve
     pause
     show player 426
-    vero "Hmm, now where did I put it..."
+    vero "Хм, куда же я его дела..."
     show diane f_lookup
-    dia "Oh, good grief!"
+    dia "О, боже мой!"
     show diane f_laugh
-    dia "Haha, would you get out of here already!"
+    dia "Хаха, ты бы уже ушла отсюда!"
     show diane f_normal
     show vero f_sexy_talk b_casual a_cucumber1 at Position (xpos=600) with dissolve
     show player 13
-    vero "Hehe, thanks again, {b}Diane{/b}!"
+    vero "Хехе, спасибо опять, {b}Диана{/b}!"
     hide vero with dissolve
     player_name "..."
     hide diane
