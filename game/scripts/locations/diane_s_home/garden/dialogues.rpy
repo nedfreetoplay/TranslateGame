@@ -2250,138 +2250,138 @@ label dianes_garden_diane_drunken_shenanigans_apology:
     hide diane
     show diane f_normal_talk
     with dissolve
-    dia "You ready to get to work, {b}stud{/b}?"
+    dia "Ты готов приступить к работе, {b}жеребец{/b}?"
     show diane f_normal
     show player 10
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player 14
-    player_name "Oh!"
-    player_name "Yup, I'm ready."
+    player_name "О!"
+    player_name "Ага, я готов."
     show player 13
     show diane f_normal_talk
-    dia "Glad to hear it."
+    dia "Приятно слышать это."
     show diane f_shamed_talk_smile
-    dia "... But uhh, before you get started..."
+    dia "... Но прежде чем ты начнешь..."
     show diane f_shamed
     show player 14
-    player_name "Yeah?"
+    player_name "Да?"
     show player 13
     show diane f_shamed_talk_smile a_dressed_blush with dissolve
-    dia "I think I should apologize."
+    dia "Думаю, мне следует извиниться."
     show diane f_shamed a_dressed_shovel with dissolve
     show player 10
-    player_name "Apologize?"
+    player_name "Извиниться?"
     show player 5
     show diane f_shamed_talk_smile
-    dia "You know, the other day..."
-    dia "... With the uhh-"
-    dia "{b}*Ahem*{/b} I just had too much to drink and things got a little... Umm, inappropriate."
+    dia "Знаешь, на днях..."
+    dia "... эээ-"
+    dia "{b}*хмм*{/b} Я просто слишком много выпила, и вела себя... эээ, неуместно."
     show diane f_shamed
     player_name "..."
     show diane f_shamed_talk_smile
-    dia "It's just been a long while since anyone has shown me that kind of attention and I've been lonely a lot recently and-"
-    dia "Ugh, no. Damnit, that's no excuse... I-"
+    dia "Просто прошло много времени с тех пор, как кто-то проявлял ко мне столько внимания, и в последнее время мне было одиноко-"
+    dia "Ухх, нет. Черт возьми, это не оправдание... Я-"
     show diane f_sad_talk
-    dia "Look, I took advantage of you, {b}[firstname]{/b} and I'm really sorry... I-"
+    dia "Слушай, я воспользовалась тобой, {b}[firstname]{/b} и мне очень жаль... Я-"
     show diane f_sad
     show player 14
-    player_name "You didn't take advantage of me!"
+    player_name "Ты не воспользовался мной!"
     show player 13
     show diane f_sad_talk
-    dia "Huh?"
+    dia "Ааа?"
     show diane f_sad
     show player 17
-    player_name "It was awesome!"
-    player_name "I was kinda hoping we could do it again sometime?"
+    player_name "Это было потрясающе!"
+    player_name "Я надеялся, что мы как-нибудь повторим?"
     show player 13
     show diane f_shamed_talk_smile a_dressed_blush with dissolve
-    dia "You wanna do it again?!"
+    dia "Ты хочешь повторить?!"
     show diane f_shamed
     show player 26
-    player_name "Of course. You're a beautiful woman, {b}Diane{/b}!"
+    player_name "Конечно. Ты красивая женщина, {b}Диана{/b}!"
     show player 13
     show diane f_shamed_talk_smile a_dressed_shovel with dissolve
-    dia "O-okay, but-"
-    dia "{b}[deb_name]{/b} trusted me to look after you and it wasn't right of me to-"
+    dia "Хорошо, но-"
+    dia "{b}[deb_name]{/b} доверила мне присматривать за тобой, и это было неправильно с моей стороны-"
     show diane f_shamed
     show player 14
-    player_name "I'm not a child, {b}Diane{/b}. And besides, it was fun!"
+    player_name "Я не ребенок, {b}Диана{/b}. И кроме того, это было весело!"
     show player 13
     show diane f_shamed_talk_smile
-    dia "... And {b}[deb_name]{/b} would kill me if she found out."
+    dia "... И {b}[deb_name]{/b} убьет меня, если узнает."
     show diane f_shamed
     show player 14
-    player_name "She doesn't have to know."
+    player_name "Она не должна узнать."
     show player 13
     dia "..."
     show player 14
-    player_name "I mean, we're just having a little fun."
-    player_name "I don't see the harm in it."
+    player_name "Я имею в виду, мы просто немного повеселились."
+    player_name "Я не вижу в этом ничего плохого."
     show player 13
     show diane f_shamed_talk_smile
-    dia "Hmm."
-    dia "Wouldn't you rather do that stuff with girls your own age?"
+    dia "Хмм."
+    dia "Разве ты не предпочел бы заниматься этим с девочками своего возраста?"
     show diane f_shamed
     show player 14
-    player_name "Are you kidding?!"
-    player_name "You're like a million times hotter than the girls at my school, {b}Diane{/b}!"
+    player_name "Ты шутишь?!"
+    player_name "Ты в миллион раз сексуальнее, чем девочки в моей школе, {b}Диана{/b}!"
     show player 13
     show diane f_laugh a_dressed_blush with dissolve
-    dia "Oh, I am not!"
+    dia "Ой, нет!"
     show player 17
-    player_name "Heh, it's true."
+    player_name "Хе, это правда."
     show player 18
     show diane f_smirk a_dressed_shovel with dissolve
     pause
     show diane f_lookup
-    dia "Alright, Mr. Charmer..."
+    dia "Хорошо, Мистер Очарование..."
     show diane f_smirk_talk
-    dia "We're clearly not in the right mindset to have this conversation."
-    dia "So, let's just focus on work, shall we?"
+    dia "Мы явно не в том настроении, чтобы вести этот разговор."
+    dia "Так что давай сосредоточимся на работе, хорошо?"
     show diane f_smirk
     show player 12
-    player_name "Seriously?"
+    player_name "Серьезно?"
     show player 5
     show diane f_smirk_talk
-    dia "Yes, seriously!"
+    dia "Да, серьезно!"
     show diane f_normal_talk
-    dia "I'll be in the shed if you need something."
+    dia "Я буду в сарае, если тебе что-нибудь понадобится."
     show diane f_normal
     show player 26
-    player_name "You sure I can't give you a hand?"
+    player_name "Ты уверена, что я не могу тебе помочь?"
     show player 13
     show diane f_laugh
-    dia "Haha, no. I don't need a hand..."
+    dia "Ха-ха, нет. Мне не нужна помощь..."
     show diane f_smirk_talk
-    dia "Nice try."
+    dia "Хорошая попытка."
     show diane f_smirk
     show player 14
-    player_name "What?!"
+    player_name "Что?!"
     show player 13
     show diane f_smirk_talk
-    dia "Just get started on your garden work."
+    dia "Просто начни работу в саду."
     show diane f_smirk
     show player 14
-    player_name "Alright."
+    player_name "Хорошо."
     show player 13
     hide diane with dissolve
     pause
     show player 5
-    player_name "( Hmm, I hope I didn't upset her... )"
-    player_name "{b}( I should probably leave her be for now and just focus on my work in the garden. ){/b}"
+    player_name "( Надеюсь, я ее не расстроил... )"
+    player_name "{b}( Наверное, мне стоит оставить ее в покое и сосредоточиться на работе в саду. ){/b}"
     hide player with dissolve
     return
 
 label dianes_garden_diane_do_not_disturb:
     scene townmap
-    player_name "I should visit {b}Diane{/b} another time..."
+    player_name "Я должен посетить {b}Диану{/b} в другой раз..."
     return
 
 label dianes_garden_diane_shed_still_open:
     show player 12 with dissolve
-    player_name "That's strange..."
+    player_name "Это странно..."
     show player 30
-    player_name "{b}Diane's{/b} shed is {b}still open{/b}..."
+    player_name "Сарай {b}Дианы{/b} {b}еще открыт{/b}..."
     hide player 30 with dissolve
     return
 
@@ -2392,33 +2392,33 @@ label drink_offered:
     else:
 
         show player 12 with dissolve
-    player_name "I should give {b}Diane{/b} her {b}drink{/b} before I get back to work..."
+    player_name "Я должен дать {b}Диане{/b} ее {b}напиток{/b} перед тем как вернуться к работе..."
     $ game.main()
 
 label aunt_masturbate_not_seen:
     show diane_masturbate 1_2
     player_name "!!!"
-    player_name "( ... What is she... )"
+    player_name "( ... Что она... )"
     window hide
     pause 2
-    player_name "( WOW... )"
-    player_name "( She's playing with her vegetables... )"
-    player_name "( A whole cucumber! )"
+    player_name "( ВАУ... )"
+    player_name "( Она играет со своими овощами... )"
+    player_name "( Целый огурец! )"
     player_name "( ... )"
-    player_name "( ...I should leave before I get caught. )"
+    player_name "( ...Я должна уйти, пока меня не поймали. )"
     scene garden
     with dissolve
     show player 113 with dissolve
-    player_name "I can't believe I caught her masturbating!"
+    player_name "Не могу поверить, что застукал ее за мастурбацией!"
     show player 114
-    player_name "... or that she's horny enough to do it with veggies!"
+    player_name "... или что она достаточно возбуждена, чтобы сделать это с овощами!"
     show player 113
-    player_name "Is that why she only wants {b}long{/b} and {b}hard{/b} ones?"
+    player_name "Вот почему она говорила только {b}длинные{/b} и {b}твердые{/b}?"
     show player 109f
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 108f
-    player_name "I guess she has been lonely lately..."
-    player_name "I should get back to work and pretend I didn't see anything..."
+    player_name "Думаю, она была одинока в последнее время..."
+    player_name "Я должен вернуться к работе и притвориться, что ничего не видел..."
     hide player 108f with dissolve
     $ renpy.end_replay()
     return
@@ -2427,9 +2427,9 @@ label find_shovel:
     scene expression game.timer.image("garden{}")
     show player 12 with dissolve
     if player.has_item("shovel"):
-        player_name "I should let {b}Diane{/b} know that I'm ready to start working."
+        player_name "Я должен сказать {b}Диане{/b}, что готов приступить к работе."
     else:
-        player_name "I need to find a {b}shovel{/b} before I can help with the garden..."
+        player_name "Мне нужно найти {b}лопату{/b}, прежде чем я смогу помочь с садом..."
     hide player with dissolve
     $ game.main()
 
@@ -2437,16 +2437,16 @@ label find_shovel:
 label before_masturbation:
     scene expression game.timer.image("garden{}")
     show player 34 with dissolve
-    player_name "Hmmm..."
+    player_name "Хмммм..."
     show player 12
-    player_name "I should find out if {b}Diane{/b} is home first."
+    player_name "Сначала я должен узнать, дома ли {b}Диана{/b}."
     $ game.main()
 
 label after_masturbation:
     scene expression game.timer.image("garden{}")
     show player 34 with dissolve
-    player_name "Hmmm..."
+    player_name "Хмммм..."
     show player 12
-    player_name "Maybe not right now."
+    player_name "Может, не сейчас."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
