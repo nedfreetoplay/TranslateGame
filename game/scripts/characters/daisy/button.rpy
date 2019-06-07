@@ -10,7 +10,7 @@ label daisy_button_dialogue:
                 call expression game.dialog_select("daisy_button_hows_baby_doing_boy")
                 jump daisy_baby_default_dialogue_options
 
-            "How are they doing?" if M_daisy.pregnancy.baby_gender == "twins":
+            "Как они поживают?" if M_daisy.pregnancy.baby_gender == "twins":
                 call expression game.dialog_select("daisy_button_hows_baby_doing_twins")
                 jump daisy_baby_default_dialogue_options
 
