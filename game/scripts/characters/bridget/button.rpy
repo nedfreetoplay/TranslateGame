@@ -5,9 +5,9 @@ label coach_button_dialogue:
     elif player.location == L_school_track:
         call expression game.dialog_select("coach_bridget_dialogue_courtyard_intro")
     menu:
-        "Where do I train?":
+        "Где мне тренироваться?":
             call expression game.dialog_select("coach_bridget_dialogue_training_advice")
-        "Nothing.":
+        "Уйти.":
 
             call expression game.dialog_select("coach_bridget_dialogue_leave")
     hide bridget
