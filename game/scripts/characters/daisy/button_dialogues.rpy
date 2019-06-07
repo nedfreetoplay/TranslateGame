@@ -1,19 +1,19 @@
 label daisy_button_baby_leave:
     show player 14b
-    player_name "I'll leave you guys be."
+    player_name "Я оставлю вас в покое, ребята."
     show player 1b
     show daisy f_normal_talk
-    daisy "Alright."
+    daisy "Хорошо."
     show daisy f_down_talk
-    daisy "Say, bye bye daddy."
+    daisy "Скажи, пока, папочке."
     show daisy f_down
     show player 17
-    player_name "Hehe."
+    player_name "Хехе."
     show player 14b
     if M_daisy.pregnancy.baby_gender == "twins":
-        player_name "Goodbye, little ones."
+        player_name "До свидания, малыш."
     else:
-        player_name "Goodbye, little one."
+        player_name "До свидания, малыш."
     hide player
     hide daisy
     with dissolve
@@ -21,52 +21,52 @@ label daisy_button_baby_leave:
 
 label daisy_button_get_anything_baby:
     show player 14b
-    player_name "Can I get you anything?"
+    player_name "Принести тебе что-нибудь?"
     show player 1b
     show daisy f_normal_talk
-    daisy "No, I'm okay."
-    daisy "Thanks, {b}[firstname]{/b}."
+    daisy "Нет, все нормально."
+    daisy "Спасибо, {b}[firstname]{/b}."
     show daisy f_normal
     show player 14b
-    player_name "You're welcome."
+    player_name "Пожалуйста."
     show player 1b
     return
 
 label daisy_button_hows_baby_doing_boy:
     show player 14b
-    player_name "How's he doing?"
+    player_name "Как у него дела?"
     show player 1b
     show daisy f_normal_talk
-    daisy "He sleeps alot..."
-    daisy "... And when he's not sleeping, he's eating!"
+    daisy "Он много спит ..."
+    daisy "... А когда он не спит, он ест!"
     show daisy f_normal
     show player 14b
-    player_name "Heh, so he takes after his mommy then?"
+    player_name "Значит, он похож на свою маму?"
     show player 1b
     show daisy f_laugh
-    daisy "Nu uh!"
+    daisy "Ну эээ!"
     show daisy f_normal
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 1b
     return
 
-label daisy_button_hows_baby_doing_twins:
+label daisy_button_hows_baby_doing_girl:
     show player 14b
-    player_name "How are they doing?"
+    player_name "Как у нее дела?"
     show player 1b
     show daisy f_normal_talk
-    daisy "They sleep alot..."
-    daisy "... And when they're not sleeping, they're eating!"
+    daisy "Она много спит ..."
+    daisy "... А когда она не спит, она ест!"
     show daisy f_normal
     show player 14b
-    player_name "Heh, so they take after their mommy then?"
+    player_name "Значит, она похож на свою маму?"
     show player 1b
     show daisy f_laugh
-    daisy "Nu uh!"
+    daisy "Ну эээ!"
     show daisy f_normal
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 1b
     return
 
