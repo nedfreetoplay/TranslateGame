@@ -6,7 +6,7 @@ label bridget_fsm_init:
     python:
 
         S_bridget_start = State("start")
-        S_bridget_intro = State("intro", "MC informs Mrs. Bridget of his return")
+        S_bridget_intro = State("intro", "Гг сообщает Миссис Бриджит о своем возвращении")
         S_bridget_end = State("end")
 
 
