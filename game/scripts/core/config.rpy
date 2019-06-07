@@ -1,4 +1,6 @@
 init -1 python:
+    _game_menu_screen = 'game_menu'
+
     config.font_replacement_map["fonts/DejaVuSans.ttf", False, True] = ("fonts/DejaVuSans-Oblique.ttf", False, False)
     config.font_replacement_map["fonts/DejaVuSans.ttf", True, False] = ("fonts/DejaVuSans-Bold.ttf", False, False)
     config.font_replacement_map["fonts/DejaVuSans.ttf", True, True] = ("fonts/DejaVuSans-BoldOblique.ttf", False, False)
@@ -7,13 +9,17 @@ init -1 python:
     config.font_replacement_map["fonts/Arial.ttf", True, True] = ("fonts/Arial-BoldOblique.ttf", False, False)
     config.font_replacement_map["fonts/ArialBlack.ttf", True, False] = ("fonts/ArialBlack-Bold.ttf", False, False)
     config.font_replacement_map["fonts/ArialBlack.ttf", False, True] = ("fonts/ArialBlack-Oblique.ttf", False, False)
+    config.font_replacement_map["fonts/Caveat.ttf", True, False] = ("fonts/Caveat-Bold.ttf", False, False)
+    config.font_replacement_map["fonts/Caveat.ttf", False, False] = ("fonts/Caveat-Regular.ttf", False, False)
 
-    config.thumbnail_width = 221
-    config.thumbnail_height = 164
+    config.thumbnail_width = 220
+    config.thumbnail_height = 165
     config.narrator_menu = True
 
     config.debug_sound = False
-    config.replay_scope = {"firstname" : persistent.firstname, "jen_char_name" : persistent.jen_char_name, "deb_char_name" : persistent.deb_char_name}
+    config.replay_scope = {"firstname": persistent.firstname or 'Anon',
+                           "jen_char_name": persistent.jen_char_name or 'Jenny',
+                           "deb_char_name": persistent.deb_char_name or 'Debbie'}
     config.enter_replay_transition = fade
     config.exit_replay_transition = fade
     renpy.music.register_channel("music2", "music", True)
@@ -23,13 +29,13 @@ init -1 python:
     config.image_cache_size = 64
     config.keymap = dict(
 
-
-
+        
+        
         rollback = [ 'K_PAGEUP', 'repeat_K_PAGEUP', 'K_AC_BACK' ],
         screenshot = [ 'alt_K_s', 'alt_shift_K_s' ],
         toggle_afm = [ ],
         toggle_fullscreen = [ 'alt_K_RETURN', 'alt_K_KP_ENTER', 'K_F11' ],
-        game_menu = [ 'K_MENU', 'mouseup_3' ],
+        game_menu = [ 'K_ESCAPE', 'K_MENU', 'mouseup_3' ],
         hide_windows = [ 'mouseup_2', 'h' ],
         launch_editor = [ 'E' ],
         dump_styles = [ ],
@@ -43,32 +49,32 @@ init -1 python:
         choose_renderer = [ 'G', 'alt_shift_K_g' ],
         progress_screen = [ 'alt_shift_K_p', 'meta_shift_K_p', 'K_F2' ],
 
+        
+        self_voicing = [ 'v' ],
+        clipboard_voicing = [ 'ctrl_v' ],
+        debug_voicing = [ 'shift_V' ],
 
-        self_voicing = [ ],
-        clipboard_voicing = [ ],
-        debug_voicing = [ ],
-
-
+        
         rollforward = [ 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ],
         dismiss = [ 'mouseup_1', 'K_RETURN', 'K_SPACE', 'K_KP_ENTER', 'K_SELECT' ],
         dismiss_unfocused = [ ],
 
-
+        
         dismiss_hard_pause = [ ],
 
-
+        
         focus_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
         focus_right = [ 'K_RIGHT', 'repeat_K_RIGHT' ],
         focus_up = [ 'K_UP', 'repeat_K_UP' ],
         focus_down = [ 'K_DOWN', 'repeat_K_DOWN' ],
 
-
+        
         button_ignore = [ 'mousedown_1' ],
         button_select = [ 'mouseup_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         button_alternate = [ 'mouseup_3' ],
         button_alternate_ignore = [ 'mousedown_3' ],
 
-
+        
         input_backspace = [ 'K_BACKSPACE', 'repeat_K_BACKSPACE' ],
         input_enter = [ 'K_RETURN', 'K_KP_ENTER' ],
         input_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
@@ -79,7 +85,7 @@ init -1 python:
         input_home = [ 'K_HOME' ],
         input_end = [ 'K_END' ],
 
-
+        
         viewport_leftarrow = [ 'K_LEFT', 'repeat_K_LEFT' ],
         viewport_rightarrow = [ 'K_RIGHT', 'repeat_K_RIGHT' ],
         viewport_uparrow = [ 'K_UP', 'repeat_K_UP' ],
@@ -91,13 +97,13 @@ init -1 python:
         viewport_pageup = [  'K_PAGEUP', 'repeat_K_PAGEUP' ],
         viewport_pagedown = [  'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ],
 
-
+        
         skip = [ 'K_LCTRL', 'K_RCTRL' ],
         stop_skipping = [ ],
         toggle_skip = [ 'K_TAB' ],
         fast_skip = [ '>' ],
 
-
+        
         bar_activate = [ 'mousedown_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         bar_deactivate = [ 'mouseup_1', 'K_RETURN', 'K_KP_ENTER', 'K_SELECT' ],
         bar_left = [ 'K_LEFT', 'repeat_K_LEFT' ],
@@ -105,37 +111,39 @@ init -1 python:
         bar_up = [ 'K_UP', 'repeat_K_UP' ],
         bar_down = [ 'K_DOWN', 'repeat_K_DOWN' ],
 
-
+        
         save_delete = [ 'K_DELETE' ],
 
-
+        
         drag_activate = [ 'mousedown_1' ],
         drag_deactivate = [ 'mouseup_1' ],
 
-
+        
         console = [ 'shift_O', 'alt_shift_K_o' ],
         console_older = [ 'K_UP', 'repeat_K_UP' ],
         console_newer = [ 'K_DOWN', 'repeat_K_DOWN'],
 
-
+        
         director = [ ],
 
-
+        
         toggle_music = [ 'm' ],
         viewport_up = [ 'mousedown_4' ],
         viewport_down = [ 'mousedown_5' ],
 
-
+        
         performance = [ 'K_F3' ],
         image_load_log = [ 'K_F4' ],
         profile_once = [ 'K_F8' ],
         memory_profile = [ 'K_F7' ],
-
+        
+        
+        accessibility = [ "shift_K_a" ],
         )
     if not renpy.variant("pc"):
         config.keymap["rollback"].remove("K_AC_BACK")
     for key, value in config.keymap.items():
-        config.keymap[key] = [v for v in value if v not in ("s", "a", "d", "f", "v", 'K_ESCAPE')]
+        config.keymap[key] = [v for v in value if v not in ("s", "a", "d", "f", "v")]
     try:
         config.keymap["rollback"].remove('mousedown_4')
         config.keymap["rollforward"].remove('mousedown_5')
@@ -143,11 +151,19 @@ init -1 python:
         pass
 
 
-    config.has_autosave = False
+    config.autosave_on_choice = False
+    config.autosave_slots = 6
+    config.quicksave_slots = 6
 
-    config.auto_save_extra_info = "[persistent.firstname] - День [persistent.last_game_day]"
+    config.save_json_callbacks.append(lambda j: j.update({
+        '_save_name': j.get('_save_name', None)
+            or '{} - Day {}'.format(firstname, game.timer.game_day()),
+        
+        
+        
+        '_version': config.version}))
 
-    config.developer = True
+    config.developer = "auto"
     config.console = config.developer or renpy.variant("mobile")
     config.rollback_enabled = True
     config.screen_width = 1024
@@ -160,14 +176,13 @@ init -1 python:
     config.has_voice = False
     config.use_cpickle = False
     config.save_dump = False
-    config.main_menu_music = "audio/music_title01.ogg"
     config.help = "README.html"
     config.enter_transition = None
     config.exit_transition = None
     config.intra_transition = None
     config.main_game_transition = None
     config.game_main_transition = None
-    config.end_splash_transition = None
+    config.end_splash_transition = dissolve
     config.end_game_transition = None
     config.after_load_transition = None
     config.window_show_transition = None
@@ -184,7 +199,7 @@ init -1 python:
     config.default_afm_time = 10
 
 python early:
-    config.version = "0.17.5"
+    config.version = "0.18.6"
     config.name = "SummertimeSaga"
     config.save_directory = "SummertimeSaga"
 
@@ -199,7 +214,7 @@ init python:
             a = 1103515245
             c = 12345
             m = 2**31-1
-            for i in xrange(0,4096,4):
+            for i in xrange(0,4096,4): 
                 seed = (a*seed+c) % m
                 self._pattern[i] = seed & 0xff
                 self._pattern[i+1] = (seed >>8) & 0xff
@@ -254,12 +269,12 @@ init python:
             base_name = os.path.join(config.basedir,'game','hide')
         else:
             base_name = os.path.join(config.basedir,'game','hide',dir_name)
-
-
+        
+        
         for f in os.listdir(base_name):
             if os.path.isfile(os.path.join(base_name,f)):
                 create_extras(""+dir_name+"/"+f)
-            else:
+            else: 
                 if dir_name is None:
                     update_extras(f)
                 else:

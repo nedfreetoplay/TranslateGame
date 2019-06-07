@@ -1,7 +1,7 @@
 label assembly_hall_dewitt_graffit_mess:
     scene assembly_hall_cs05
     with fade
-    show text "Состояние актового зала было за пределами моих самых диких воображений..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "The state of the assembly hall was beyond my wildest imagination..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -12,103 +12,103 @@ label assembly_hall_dewitt_graffit_mess:
     show player 22 at left
     show dewitt 11bf at Position (xpos=500)
     with dissolve
-    dewitt "Это невероятно!"
+    dewitt "This is unbelievable!"
     show dewitt 10bf
     show player 10 with dissolve
-    player_name "Охренеть, какой бардак..."
+    player_name "Holy crap, what a mess..."
     show player 11 with dissolve
     show dewitt 11bf
-    dewitt "Он испорчен! Я просто..."
-    dewitt "Я не могу поверить в это!"
+    dewitt "It's ruined! I just..."
+    dewitt "I can't believe it!"
     show dewitt 10bf
     show player 35b
     show kevin 24f
-    kev "Кто мог так поступить?"
+    kev "Who would have done this?"
     show kevin 23f
     show player 11
     show dewitt 14f
-    dewitt "{b}Директриса Смит{/b} вот кто!"
+    dewitt "{b}Principal Smith{/b} that's who!"
     show dewitt 13f
     show kevin 24f
-    kev "Ты думаешь что директриса пробралась сюда и нарисовала балончиком с краской член на стене?"
+    kev "You think the principal snuck in here and spray painted a dick on the wall?"
     show kevin 23f
     show dewitt 14f
-    dewitt "Нет."
-    dewitt "... Но Я готова поспорить что эта сучка стоит за этим каким-то образом."
-    dewitt "Она сделает все что она может чтобы мое шоу отменили!"
+    dewitt "No."
+    dewitt "... But I betcha that bitch is behind it somehow!"
+    dewitt "She'll do anything she can to get my show cancelled!"
     show dewitt 13f
     show principal 27 at right with dissolve
-    smi "Что черт возьми вообще тут происходит?"
+    smi "What in the world is going on in here?"
     show principal 26
     show dewitt 14 at Position (xpos=450) with dissolve
-    dewitt "Помяни дьявола."
+    dewitt "Speak of the devil."
     show dewitt 13
     show principal 27
-    smi "*Вздох* Кто несет ответственность за этот бардак?!"
+    smi "*Gasp* Who is responsible for this mess?!"
     show principal 26
     show eve 10
-    eve "Мы точно не знаем, мэм. Мы только что пришли и нашли это таким образом."
+    eve "We're not sure, ma'am. We just came in and found it this way."
     show eve 9
     show principal 27
-    smi "Тсс, Спорим это {b}Евина{/b} маленькая банда хулиганов снова."
+    smi "Tsk, I bet it was {b}Eve's{/b} little band of hooligans again."
     show principal 26
     show eve 2bf
-    eve "Что?! Мои друзья не делали этого!"
+    eve "What?! My friends didn't do this!"
     show eve 1f
     show dewitt 14
-    dewitt "Мммхмм."
-    dewitt "Ты думаешь что ты ловко придумала но я знаю что это ты за эти стоишь!"
+    dewitt "Mmmhmm."
+    dewitt "You think you're slick but I know you're behind this!"
     show dewitt 13
     show principal 27
-    smi "Почему {b}Мелодия{/b}, что за ужасные вещи ты говоришь!"
-    smi "Ты думаешь что я сделала вандализм в моей собственной школе?"
+    smi "Why {b}Melody{/b}, what an awful thing to say!"
+    smi "You think I would vandalize my own school?"
     show principal 26
     show player 16
     show dewitt 14
-    dewitt "Еще как, я думаю ты могла!"
+    dewitt "Hell yeah, I think you would!"
     show dewitt 13
     show principal 27
-    smi "Ох, не надо так драматизировать..."
-    smi "Я попробую найти команду для уборки."
-    smi "Однако, я боюсь Я не смогу это сделать до вашего шоу."
-    smi "Какая жалость..."
+    smi "Oh, don't be so dramatic..."
+    smi "I'll try and organize a cleaning crew."
+    smi "Though, I'm afraid I won't be able to get one in time for your show."
+    smi "Such a pity..."
     show principal 26
     show dewitt 14
-    dewitt "Грррр!!!"
+    dewitt "Grrr!!!"
     show dewitt 13
     show principal 27
-    smi "Ну что ж, безполезно плакать над разлитым молоком..."
-    smi "Хорошего вам всем дня."
+    smi "Oh well, no use crying over spilled milk..."
+    smi "You all have a good day now."
     show principal 38 at Position (xoffset=70) with dissolve
-    smi "Хахахахаха!"
+    smi "Hahahahaha!"
     hide principal with dissolve
     dewitt "..."
     show eve 2bf
-    eve "Честно слово, мои друзья не делали этого, {b}Мисс Девитт{/b}."
+    eve "I swear, my friends didn't do this, {b}Miss Dewitt{/b}."
     show eve 1f
     show player 5
     show dewitt 11bf at Position (xpos=700) with dissolve
-    dewitt "Я знаю, милая."
+    dewitt "I know, sweetie."
     show dewitt 9ff with dissolve
     pause
     show dewitt 9df with dissolve
-    dewitt "Мне просто..."
-    dewitt "Извините меня, я должна взять себя в руки..."
+    dewitt "I just..."
+    dewitt "Excuse me, I need to go collect myself..."
     hide dewitt with dissolve
     show eve 9
     show player 11
     eve "..."
     show kevin 24 at Position (xpos=600) with dissolve
-    kev "Ой, мне ее так жаль."
+    kev "Aww, I feel so bad for her."
     show kevin 23
     show eve 10
-    eve "Да,мне тоже."
+    eve "Yeah, me too."
     show eve 9
     show player 12
-    player_name "Вы ребята думаете что {b}Директриса Смит{/b} стоит за этим?"
+    player_name "You guys think {b}Principal Smith{/b} is behind this?"
     show player 5
     show kevin 24
-    kev "Вероятно,но что мы можем с этим сделать?"
+    kev "Probably, but what can we do about it?"
     show kevin 23
     show player 4 with dissolve
     pause
@@ -116,11 +116,11 @@ label assembly_hall_dewitt_graffit_mess:
     show kevin 20 with dissolve
     pause
     pause
-    eve "Не может быть..."
+    eve "No way..."
     show player 10 with dissolve
-    player_name "Что случилось {b}Ева{/b}?"
+    player_name "What's up {b}Eve{/b}?"
     show player 5
-    eve "Подойди сюда!"
+    eve "Come up here!"
     hide player
     hide kevin
     with dissolve
@@ -130,67 +130,67 @@ label assembly_hall_dewitt_graffit_mess:
     show kevin 23f
     show eve 2 at right
     with dissolve
-    eve "Это краска на основе воды!"
+    eve "This is water based paint!"
     show eve 1
     show player 10
-    player_name "Это?"
+    player_name "It is?"
     show player 5
     show kevin 24f
-    kev "И что это значит?"
+    kev "What does that mean?"
     show kevin 23f
     show eve 2
-    eve "Это означает, что мы можем отмыть её!"
+    eve "It means, we can wash it off!"
     show eve 1
     show kevin 24f
-    kev "Вау, серьезно?"
+    kev "Whoa, really?"
     show kevin 23f
     show eve 2
-    eve "Да."
+    eve "Yeah."
     show eve 1
     show player 10
-    player_name "Это займет много времени для очистки..."
+    player_name "It'll take a lot of scrubbing though..."
     show player 5
     show eve 2
-    eve "Что значит что нам нужна помошь."
-    eve "И у меня есть идея!"
-    eve "{b}[firstname]{/b}, можем встретиться в парке сегодня вечером?"
+    eve "Which means we'll need help."
+    eve "And I've got an idea!"
+    eve "{b}[firstname]{/b}, can you meet me at the park this evening?"
     show eve 1
     show player 10
-    player_name "Да, я думаю, но зачем?"
+    player_name "Yeah, I guess so but why?"
     show player 5
     show eve 2
-    eve "Я думаю я знаю где получить помошь!"
-    eve "Только не забудь, {b}в парке ночью{/b}."
+    eve "I think I know where we can get some help!"
+    eve "Just don't forget, {b}the park at night{/b}."
     show eve 1
     show player 10
-    player_name "О-окей, Я не забуду."
+    player_name "O-okay, I won't forget."
     show player 5
     show eve 2
-    eve "Круто, увидимся позже тогда."
+    eve "Cool, I'll catch you later then."
     hide eve with dissolve
     show kevin 24 with dissolve
-    kev "Интересно что она задумала?"
+    kev "I wonder what she's up to?"
     show kevin 23
     show player 10
-    player_name "Понятия не имею..."
+    player_name "No idea..."
     show player 5
     show kevin 19 with dissolve
-    kev "Хэй, посмотри на это!"
+    kev "Hey, look at this!"
     show kevin 20 at Position (xoffset=95) with dissolve
     show player 10
-    player_name "Что там?"
+    player_name "What is it?"
     show player 5
     show kevin 21 at Position (xoffset=95)
-    kev "Кто бы это не сделал он был настолько туп чтобы вступить на краску прежде чем уйти."
+    kev "Whoever did this was stupid enough to step in some paint before leaving."
     show kevin 19 with dissolve
-    kev "Эээ, здесь есть след."
+    kev "Tch, there's a trail."
     show kevin 20 at Position (xoffset=95)
     show player 14
-    player_name "Ты прав!"
-    player_name "Давай проследуем по ниму и увидим куда он приведет!"
+    player_name "You're right!"
+    player_name "Let's follow it and see where it goes!"
     show player 13
     show kevin 22 at Position (xoffset=95) with dissolve
-    kev "Сразу за тобой."
+    kev "Right behind you."
     hide player
     hide kevin
     with dissolve
@@ -199,7 +199,7 @@ label assembly_hall_dewitt_graffit_mess:
 label assembly_hall_dewitt_clean_graffit:
     scene assembly_hall_cs06
     with fade
-    show text "Может показаться что {b}Ева{/b} и её банда начали без меня!\nОни сделали потрясающую работу. В актовом зале небыло не пятнышка!\nЯ считаю что правдива старая поговорка, \"нельзя судить о книге по обложке.\"" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "It seemed that {b}Eve{/b} and her gang had gotten started without me!\nThey had done an amazing job too. The auditorium was spotless!\nI guess that old saying is true, \"you can't judge a book by its cover.\"" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -209,30 +209,30 @@ label assembly_hall_dewitt_clean_graffit:
     show tyrone 1 at Position (xpos=700)
     show player 14 at left
     with dissolve
-    player_name "Черт побери, вы ребята уже начали!"
+    player_name "Holy crap, you guys already started!"
     show player 13
     show tyrone 2
-    tyrone "Чувак, осмотрись. Мы уже закончили!"
-    tyrone "Ты выполнишь свою часть сделки?"
+    tyrone "Dude, look around you. We're already finished!"
+    tyrone "You hold up your end of the bargin?"
     show tyrone 1
     show player 14
-    player_name "Да, Я принес тебе пиво."
+    player_name "Yeah, I got your beer."
     show player 239_240 with dissolve
     pause
     show player 571 with dissolve
-    player_name "Вот тебе."
+    player_name "Here ya go."
     show player 13 with dissolve
     show tyrone 5 with dissolve
     pause
     show tyrone 7 with dissolve
-    tyrone "Хорошо. Мы как раз тут закончили."
+    tyrone "Niiiice. We were just running out."
     show tyrone 6
     show eve 2
-    eve "{b}[firstname]{/b},ты должен идти и сказать чтобы {b}Мисс Девитт{/b} пришла и посмотрела."
+    eve "{b}[firstname]{/b}, you should go and tell {b}Miss Dewitt{/b} to come take a look."
     show eve 1
     show player 14
-    player_name "Да, это хорошая мысль."
-    player_name "Спасибо что сделали это ребята!"
+    player_name "Yeah, that's a good idea."
+    player_name "Thanks for doing this guys!"
     hide player
     hide eve
     hide tyrone
@@ -245,64 +245,64 @@ label assembly_hall_dewitt_show_auditorium:
     show player 13f at Position (xpos=500)
     show eve 6 zorder 1 at right
     with dissolve
-    eve "Сюрприз!"
+    eve "Surprise!"
     show eve 1
     show dewitt 9b
-    dewitt "О боже мой!"
-    dewitt "Вы ребята-"
-    dewitt "Как вы это сделали!"
-    dewitt "Оно выглядит теперь как новенькое!"
+    dewitt "Oh my Lord!"
+    dewitt "You guys-"
+    dewitt "How did you?!"
+    dewitt "It looks good as new in here!"
     show dewitt 1b
     show player 17f
-    player_name "Хех, {b}Ева{/b} вызвала подкрепление."
+    player_name "Heh, {b}Eve{/b} called in some back-up."
     show player 13f
     show eve 6
-    eve "Да, но я бы не справилась без {b}[firstname]{/b}!"
+    eve "Yeah, but I couldn't have done it without {b}[firstname]{/b}!"
     show eve 1
     show dewitt 6
     hide player
     with dissolve
-    dewitt "Я не могу в это поверить!"
+    dewitt "I just can't believe this!"
     show dewitt 9b
     show player 28f
     with dissolve
     show tyrone 6 at right with dissolve
-    dewitt "Вы просто удивительные дети! Все вы!"
+    dewitt "You kids are just wonderful! All of you!"
     show tyrone 8 with dissolve
     show dewitt 9d
-    dewitt "Подождите секундочку, вы все пили пиво!?"
+    dewitt "Wait a second, are you all drinking beer!?"
     show tyrone 6 with dissolve
     show player 22f
-    dewitt "Вы не можете делать такие вещи на территории школы! {b}Директриса Смит{/b} снимет с нас шкуры!"
+    dewitt "You can't be having that stuff on school grounds! {b}Principal Smith{/b} will have our hides!"
     show dewitt 9c
     show eve 2b
-    eve "Ох верно. Извините, мэм."
-    eve "Ребята, прячьте эту дрянь пожалуйста!"
+    eve "Oh, right. Sorry, ma'am."
+    eve "Guys, hide that stuff will you!"
     show eve 1 with dissolve
     show tyrone 8 with dissolve
     show dewitt 9b
-    dewitt "Почему бы вам ребята не забрать этими вещи и не пойти ко мне в кабинет и мы сможем там отпраздновать!"
+    dewitt "Why don't you guys take that stuff up to my office and we can celebrate there!"
     show dewitt 1b
     show tyrone 6 with dissolve
     show player 10f
-    player_name "серьезно? Вы не против?"
+    player_name "Really? You don't mind?"
     show player 13f
     show dewitt 9b
-    dewitt "Конечно нет! Я очень счастлива сейчас, я думаю маленький праздник вот что нам надо."
+    dewitt "Lord no! I'm so happy right now, I think a little celebration is just what we need!"
     show dewitt 1b
     show eve 6
-    eve "Вы слышали ее мальчики, забирайте тут все и идемте в кабинет {b}Мисс Девитт{/b}!"
+    eve "You heard her boys, pack it up and let's hit {b}Miss Dewitt's{/b} office!"
     hide tyrone
     hide eve
     with dissolve
     show dewitt 9b
-    dewitt "Я не знаю как вам это удалось, {b}[firstname]{/b}!"
+    dewitt "I dunno how you managed this, {b}[firstname]{/b}!"
     show dewitt 1b
     show player 14f
-    player_name "Да это ерунда. Мне просто не нравиться видеть вас расстроеной, {b}Мисс Девитт{/b}."
+    player_name "It was no big deal. I just didn't like seeing you all upset, {b}Miss Dewitt{/b}."
     show player 13f
     show dewitt 19 with dissolve
-    dewitt "Ой, ты настоящий маленький соблазнитель, сахарок."
+    dewitt "Aww, you're quite the little charmer, sugar."
     show dewitt 18
     show principal 3 at right with dissolve
     pause 1
@@ -311,25 +311,25 @@ label assembly_hall_dewitt_show_auditorium:
     show player 11
     show principal 5
     with dissolve
-    smi "Какого..."
-    smi "Как это место было преведено в порядок так быстро?"
+    smi "What the..."
+    smi "How did this place get fixed up so fast?"
     show principal 3b with dissolve
     show dewitt 19
-    dewitt "Ученики собрались вместе и почистили это потому они взволнованы на конкурс талантов!"
+    dewitt "The students got together and cleaned it because they're excited for the talent show!"
     show dewitt 18
     smi "..."
     show principal 5 with dissolve
-    smi "Невозможно!"
+    smi "Impossible!"
     show principal 3b with dissolve
     show dewitt 14b
-    dewitt "Вспомни, я говорила тебе что это шоу произойдет и тебе лучше просто смериться с этим!"
-    dewitt "Давай, {b}[firstname]{/b} поднимемся на верхний этаж."
+    dewitt "Look, I told you this show is happening and you better just deal with it!"
+    dewitt "C'mon, {b}[firstname]{/b} let's head on upstairs."
     hide player
     hide dewitt
     with dissolve
     smi "..."
     show principal 2 at Position (xoffset=-70) with dissolve
-    smi "Мы еще не закончили!"
+    smi "This isn't over!"
     hide principal with dissolve
     return
 
@@ -338,12 +338,12 @@ label assembly_hall_dewitt_attend_talent_show_dialogue:
     show dewitt 3b at Position (xpos=438)
     show xtra 44
     with dissolve
-    dewitt "... Мы так счастливы что вы все пришли помочь нам!"
+    dewitt "... We're just so happy you all came out to support us!"
     show dewitt 2b
-    dewitt "Эти дети невероятно талантливы и я блогадарю своим счастливым звездам каждый день за предоставленую возможность обучить их!"
-    dewitt "Итак без лишних слов, я бы хотел подарить вам наше первое выступление  на шоу..."
+    dewitt "These kids are so talented and I thank my lucky stars everyday for the opportunity to teach them!"
+    dewitt "So without further ado, I'd like to present you with our first act of the show..."
     show dewitt 26 at Position (xpos=290) with dissolve
-    dewitt "Он здесь чтобы установить отпадную музыку и плевание огнем...попреветствуем {b}МС Тайрон{/b}!"
+    dewitt "He's here to lay down a sick beat and spit hot fire... Give it up for {b}MC Tyrone{/b}!"
     hide dewitt with dissolve
     return
 
@@ -359,90 +359,90 @@ label assembly_hall_dewitt_talent_show:
     with dissolve
     show player 13 at left with dissolve
     show kevin 18f
-    kev "Хэй, так они действительно застряли?!"
+    kev "Hey, so were they really stuck?!"
     show kevin 17f
     show player 17
-    player_name "Да, мужик. Они будут там долго..."
+    player_name "Yeah, man. They're gonna be there for a long time..."
     show player 13
     show kevin 18f
-    kev "Бро, Это так круто!"
+    kev "Bro, that's so awesome!"
     show kevin 17f
     show eve 12
-    eve "Хахахах! Я жалею что я не смог это увидеть!"
+    eve "Hahahaha! I wish I could have seen it!"
     show eve 11
     show player 14
-    player_name "Вы парни выглядите круто!"
+    player_name "You guys look great!"
     show player 13
     show kevin 18f
-    kev "Что, это!"
-    kev "Да, это была вся {b}Евина работа{/b}."
+    kev "What, this?!"
+    kev "Yeah, it was all {b}Eve's work{/b}."
     show kevin 17f
     show eve 12
-    eve "{b}Кэвин{/b} не выглядит мечтательным?"
+    eve "Doesn't {b}Kevin{/b} look dreamy?"
     show eve 11
     show player 10
-    player_name "Эмм... Да, я думаю?"
+    player_name "Err... Yeah, I guess?"
     show player 14
-    player_name "Ты тоже выглядишь прекрасно, {b}Ева{/b}!"
+    player_name "You look nice too, {b}Eve{/b}!"
     show player 13
     show eve 12
-    eve "Ой, спасибо {b}[firstname]{/b}!"
-    eve "Мы должны сделать что-то для тебя..."
+    eve "Aww, thanks {b}[firstname]{/b}!"
+    eve "We've gotta do something for you..."
     show eve 11
     show kevin 18f
-    kev "Тебе лучше поторопиться! {b}Тайрон{/b} заканчивает и мы следующие!"
-    kev "Я проверю звуковую систему последний раз."
+    kev "You better hurry! {b}Tyrone{/b} is finishing up and we're next!"
+    kev "I'm going to check on the sound system one last time."
     show kevin 17f
     show eve 12
-    eve "Хорошо, {b}Кевин{/b}."
+    eve "Alright, {b}Kevin{/b}."
     show eve 11
     hide kevin with dissolve
     show player 10
-    player_name "Тебе действительно ничего не надо делать, {b}Ева{/b}. Со мной будет все в порядке без этого."
+    player_name "You really don't have to do anything, {b}Eve{/b}. I'll be fine without it."
     show player 13
     show eve 12
-    eve "Ох, заткнись... Я как минимум собираюсь сделать что то с твоими волосами."
+    eve "Oh, shut up... I'm at least going to do something with your hair."
     show player 551
     show eve 13
     with dissolve
     player_name "..."
     show player 552
     show eve 12 with dissolve
-    eve "Офигительные!"
+    eve "Bitchin'!"
     show eve 11
     show player 553
-    player_name "Да, Я выгляжу круто?"
+    player_name "Yeah, I look cool?"
     show player 552
     show eve 12
-    eve "Хахаха! Полностью!"
+    eve "Hahaha! Totally!"
     show eve 11
     show player 555
-    player_name "Хорошо, потому что {b}Мисс Девитт{/b} вот-вот обьявит нас!"
+    player_name "Good, because {b}Miss Dewitt's{/b} about to announce us!"
     scene black with fade
 
     scene assembly_hall_podium_c
     show dewitt 2b at Position (xpos=438)
     show xtra 44
     with dissolve
-    dewitt "А сейчас в качестве особого развлечения за то что вы такая замечательная публика!"
-    dewitt "Мы планируем небольшой финал для вас всех..."
-    dewitt "В первый раз в жизни..."
-    dewitt "Позвольте представить:"
+    dewitt "Now as a special treat for being such a great crowd!"
+    dewitt "We have a little finale planned for you all..."
+    dewitt "For the first time ever..."
+    dewitt "Allow me to introduce:"
     show dewitt 26 at Position (xpos=290) with dissolve
-    dewitt "{b}Ангельская Ева и Бисквитные монстры{/b}!!!"
+    dewitt "{b}Angelic Eve and the Cookie Monsters{/b}!!!"
     scene black with fade
 
     scene assembly_hall_cs01
     with fade
-    show text "Шоу прошло зашибись! {b}Тайрон{/b} возбудуил толпу.\n... Но теперь пришло время к нашему великому финалу! Мы вознеслись на сцену со звуками ревущей публики!\n{b}Мисс Девитт{/b} должно быть безумно гордилась как все стало!\nСейчас нам просто нужно было все закончить на хорошей ноте!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "The show was going great! {b}Tyrone{/b} had gotten the crowd energized.\n... But now the time had come for our big finale! We ascended the stage to the sounds of a roaring crowd!\n{b}Miss Dewitt{/b} had to have been insanely proud of how everything turned out!\nNow we just needed to close it out on a good note!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
     if game.cheat_mode:
         menu:
-            "Играть в мини-игру.":
+            "Play Minigame":
                 pass
-            "Пропустить Мини-игру (Cheat).":
+            "Skip Minigame (Cheat)":
 
                 jump expression game.dialog_select("guitar_hero_minigame_talent_show_pass")
     call screen guitar_hero(0, "guitar_hero_minigame_talent_show_pass", "guitar_hero_minigame_talent_show_fail")

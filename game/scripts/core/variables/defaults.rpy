@@ -1,10 +1,3 @@
-default sis_panties_bought = False
-default sis_quest_first = True
-default sis_confession_first = True
-default sis_deal_first = True
-default sis_final_cum = "Outside"
-default sis_final_cum_inside_first = True
-
 default seen_garage_locked = False
 
 default tv_channel = 0
@@ -31,18 +24,38 @@ default drink_made = "margarita"
 default poker_drunk = False
 default erik_drunk = False
 
-default training_tier = 0
-default training_skip_payment = False
-
 default plates = ["incezt", "dtfmom", "assman", "peni5", "viber8r", "yes269", "xesttub", "2grl1cp"]
 
 default kassy_first_visit = True
 
 default left_hall_cult_seen = False
 
-default sis_shower_intro_first = True
-
 default ivy_condom_on = True
 default xray_needed = False
 default ivy_cum_inside = False
+
+
+default sis_email_01_read = False
+default sis_email_02_read = False
+default sis_email_04_read = False
+default sispc_desktop_seen = False
+default sispc_email_seen = False
+default sispc_livecrush_seen = False
+default sispc_toylist_seen = False
+default sispc_webcam_seen = False
+default sispc_summertime_seen = False
+default sispc_igor_seen = False
+default sispc_swimsuit_seen = False
+default sispc_family_seen = False
+default sispc_nude_seen = False
+default jenny_camslut_videos_tab_seen = False
+
+default first_revealing = True
+default current_camshow = 1
+default mrsj_seen = False
+
+default temp_list = []
+default chico_random = 0
+default chad_random = 0
+default tyrone_random = 0
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

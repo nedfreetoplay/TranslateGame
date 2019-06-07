@@ -1,9 +1,7 @@
-label anna_triggers_init:
-    python:
-        T_anna_intro = Trigger("intro")
-        T_anna_find_awesomo = Trigger("find awesomo")
-        T_anna_found_dog = Trigger("found dog")
-    return
+init python:
+    T_anna_intro = Trigger("intro")
+    T_anna_find_awesomo = Trigger("find awesomo")
+    T_anna_found_dog = Trigger("found dog")
 
 label anna_fsm_init:
     python:

@@ -1,4 +1,6 @@
-screen dianes_shed:
+screen dianes_shed():
+    use mods_screens_hook("dianes_shed")
+
     add game.timer.image("backgrounds/location_diane_shed01_day{}.jpg")
 
     if player.location.is_here(M_diane)and not M_dewitt.is_state(S_dewitt_shed_get_paint):
@@ -56,12 +58,12 @@ screen dianes_shed:
         hover HoverImage("boxes/auto_option_07.png")
         action Hide("dianes_shed"), If(M_diane.finished_state(S_diane_barn_news), Jump("barn_garden_dialogue"), Jump("dianes_garden_dialogue"))
 
-screen pump_popup:
+screen pump_popup():
     imagebutton:
         idle "boxes/popup_item_pump.png"
         action Hide("pump_popup")
 
-screen milk_popup:
+screen milk_popup():
     imagebutton:
         idle "boxes/popup_item_milk.png"
         action Hide("milk_popup")

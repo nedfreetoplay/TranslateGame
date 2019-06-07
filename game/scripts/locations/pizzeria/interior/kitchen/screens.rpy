@@ -1,4 +1,6 @@
-screen pizzeria_kitchen:
+screen pizzeria_kitchen():
+    use mods_screens_hook("pizzeria_kitchen")
+
     add L_pizzeria_kitchen.background
 
     imagebutton:

@@ -1,4 +1,4 @@
-init -10 python:
+init -990 python:
     renpy.not_infinite_loop(1000)
     import os
     import pygame
@@ -17,6 +17,7 @@ init -10 python:
     import itertools
     import operator
     import textwrap
+    import bisect
     if renpy.variant("pc"):
         import certifi
         import requests

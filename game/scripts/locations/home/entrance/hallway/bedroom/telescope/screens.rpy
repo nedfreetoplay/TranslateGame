@@ -1,4 +1,4 @@
-screen telescope:
+screen telescope():
     $ A_asstronomer.unlock()
     imagebutton:
         focus_mask True
@@ -78,6 +78,6 @@ screen telescope:
             hover HoverImage("boxes/auto_option_generic_01.png")
             action Hide("telescope"), Jump("bedroom_dialogue")
 
-screen telescope_fake:
+screen telescope_fake():
     add "backgrounds/menu_ground.png"
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

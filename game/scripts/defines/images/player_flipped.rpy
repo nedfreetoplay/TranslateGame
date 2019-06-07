@@ -138,12 +138,7 @@ image player 128f = im.Flip("characters/player/char_player_128.png", horizontal=
 image player 129f = im.Flip("characters/player/char_player_129.png", horizontal=True)
 image player 130f = im.Flip("characters/player/char_player_130.png", horizontal=True)
 image player 131f = im.Flip("characters/player/char_player_131.png", horizontal=True)
-image player 132f = im.Flip("characters/player/char_player_132.png", horizontal=True)
 image player 133f = im.Flip("characters/player/char_player_133.png", horizontal=True)
-image player 134f = im.Flip("characters/player/char_player_134.png", horizontal=True)
-image player 135f = im.Flip("characters/player/char_player_135.png", horizontal=True)
-image player 136f = im.Flip("characters/player/char_player_136.png", horizontal=True)
-image player 137f = im.Flip("characters/player/char_player_137.png", horizontal=True)
 image player 138f = im.Flip("characters/player/char_player_138.png", horizontal=True)
 image player 139f = im.Flip("characters/player/char_player_139.png", horizontal=True)
 image player 140f = im.Flip("characters/player/char_player_140.png", horizontal=True)
@@ -379,6 +374,9 @@ image debbie 2f = im.Flip("characters/debbie/char_debbie_02.png", horizontal=Tru
 image debbie 3f = im.Flip("characters/debbie/char_debbie_03.png", horizontal=True)
 image debbie 4bf = im.Flip("characters/debbie/char_debbie_04b.png",horizontal=True)
 image debbie 5f = im.Flip("characters/debbie/char_debbie_05.png",horizontal=True)
+image debbie 9bf = im.Flip("characters/debbie/char_debbie_09b.png",horizontal=True)
+image debbie 10bf = im.Flip("characters/debbie/char_debbie_10b.png",horizontal=True)
+image debbie 11bf = im.Flip("characters/debbie/char_debbie_11b.png",horizontal=True)
 image debbie 13f = im.Flip( "characters/debbie/char_debbie_13.png", horizontal=True)
 image debbie 14f = im.Flip( "characters/debbie/char_debbie_14.png", horizontal=True)
 image debbie 14bf = im.Flip("characters/debbie/char_debbie_14b.png", horizontal=True)
@@ -484,27 +482,6 @@ image dexter 16f = im.Flip("characters/dexter/char_dexter_16.png", horizontal=Tr
 image dexter 16bf = im.Flip("characters/dexter/char_dexter_16b.png", horizontal=True)
 
 
-
-image jenny 1f = im.Flip("characters/jenny/char_jenny_01.png", horizontal=True)
-image jenny 2f = im.Flip("characters/jenny/char_jenny_02.png", horizontal=True)
-image jenny 3f = im.Flip("characters/jenny/char_jenny_03.png", horizontal=True)
-image jenny 6f = im.Flip("characters/jenny/char_jenny_06.png", horizontal=True)
-image jenny 7f = im.Flip("characters/jenny/char_jenny_07.png", horizontal=True)
-image jenny 8f = im.Flip("characters/jenny/char_jenny_08.png", horizontal=True)
-image jenny 9f = im.Flip("characters/jenny/char_jenny_09.png", horizontal=True)
-image jenny 10f = im.Flip("characters/jenny/char_jenny_10.png", horizontal=True)
-image jenny 11f = im.Flip("characters/jenny/char_jenny_11.png", horizontal=True)
-image jenny 12f = im.Flip("characters/jenny/char_jenny_12.png", horizontal=True)
-image jenny 13f = im.Flip("characters/jenny/char_jenny_13.png", horizontal=True)
-image jenny 14f = im.Flip("characters/jenny/char_jenny_14.png", horizontal=True)
-image jenny 15f = im.Flip("characters/jenny/char_jenny_15.png", horizontal=True)
-image jenny 16f = im.Flip("characters/jenny/char_jenny_16.png", horizontal=True)
-image jenny 17f = im.Flip("characters/jenny/char_jenny_17.png", horizontal=True)
-image jenny 18f = im.Flip("characters/jenny/char_jenny_18.png", horizontal=True)
-image jenny 19f = im.Flip("characters/jenny/char_jenny_19.png", horizontal=True)
-image jenny 49f = im.Flip("characters/jenny/char_jenny_49.png", horizontal=True)
-
-
 image judith 1f = im.Flip("characters/judith/char_judith_01.png", horizontal=True)
 image judith 2f = im.Flip("characters/judith/char_judith_02.png", horizontal=True)
 image judith 3f = im.Flip("characters/judith/char_judith_03.png", horizontal=True)
@@ -590,11 +567,6 @@ image principal 26f = im.Flip( "characters/principal/char_principal_26.png", hor
 image principal 27f = im.Flip( "characters/principal/char_principal_27.png", horizontal=True)
 image principal 28f = im.Flip( "characters/principal/char_principal_28.png", horizontal=True)
 image principal 29f = im.Flip("characters/principal/char_principal_29.png",xoffset=70, horizontal=True)
-
-
-
-image martinez 20f = im.Flip("characters/latinas/char_latinas_20.png",horizontal=True)
-image martinez 21f = im.Flip("characters/latinas/char_latinas_21.png",horizontal=True)
 
 
 image eve 1f = im.Flip("characters/eve/char_eve_01.png", horizontal=True)
@@ -712,14 +684,6 @@ image annie 10f = im.Flip("characters/annie/char_annie_10.png",horizontal=True)
 image annie 11f = im.Flip("characters/annie/char_annie_11.png",horizontal=True)
 image annie 22f = im.Flip("characters/annie/char_annie_22.png", horizontal=True)
 image annie 23f = im.Flip("characters/annie/char_annie_23.png", horizontal=True)
-
-
-image coach 15f = im.Flip("characters/coach/char_coach_15.png", horizontal=True)
-image coach 15cf = im.Flip("characters/coach/char_coach_15c.png", horizontal=True)
-image coach 17f = im.Flip("characters/coach/char_coach_17.png",xoffset=4, horizontal=True)
-image coach 18f = im.Flip("characters/coach/char_coach_18.png", horizontal=True)
-image coach 19f = im.Flip("characters/coach/char_coach_19.png", horizontal=True)
-
 
 
 image ang 1f = im.Flip("characters/angelica/char_angelica_01.png", horizontal=True)
@@ -843,31 +807,6 @@ image teacher 19f = im.Flip("characters/teacher/char_teacher_19.png", horizontal
 image teacher 20f = im.Flip("characters/teacher/char_teacher_20.png", horizontal=True)
 image teacher 24bf = im.Flip("characters/teacher/char_teacher_24b.png", horizontal=True)
 image teacher 24cf = im.Flip("characters/teacher/char_teacher_24c.png", horizontal=True)
-
-
-image coach 1f = im.Flip("characters/coach/char_coach_01.png", horizontal=True)
-image coach 2f = im.Flip("characters/coach/char_coach_02.png", horizontal=True)
-image coach 3f = im.Flip("characters/coach/char_coach_03.png", horizontal=True)
-image coach 4f = im.Flip("characters/coach/char_coach_04.png", horizontal=True)
-image coach 6f = im.Flip("characters/coach/char_coach_06.png", horizontal=True)
-
-
-image jane 1f = im.Flip("characters/librarian/char_librarian_01.png", horizontal=True)
-image jane 2f = im.Flip("characters/librarian/char_librarian_02.png", horizontal=True)
-image jane 3f = im.Flip("characters/librarian/char_librarian_03.png", horizontal=True)
-image jane 4f = im.Flip("characters/librarian/char_librarian_04.png", horizontal=True)
-image jane 5f = im.Flip("characters/librarian/char_librarian_05.png", horizontal=True)
-image jane 7f = im.Flip("characters/librarian/char_librarian_07.png",horizontal=True,xoffset=62)
-image jane 8f = im.Flip("characters/librarian/char_librarian_08.png", horizontal=True)
-image jane 12f = im.Flip("characters/librarian/char_librarian_12.png", horizontal=True)
-image jane 17f = im.Flip("characters/librarian/char_librarian_17.png", horizontal=True)
-image jane 17bf = im.Flip("characters/librarian/char_librarian_17b.png", horizontal=True)
-image jane 18f = im.Flip("characters/librarian/char_librarian_18.png", horizontal=True)
-image jane 18bf = im.Flip("characters/librarian/char_librarian_18b.png", horizontal=True)
-image jane 19f = im.Flip("characters/librarian/char_librarian_19.png", horizontal=True)
-image jane 20f = im.Flip("characters/librarian/char_librarian_20.png", horizontal=True)
-image jane 21f = im.Flip("characters/librarian/char_librarian_21.png", horizontal=True)
-image jane 22f = im.Flip("characters/librarian/char_librarian_22.png", horizontal=True)
 
 
 image pilly 1f = im.Flip("characters/pilly/char_pilly_01.png", horizontal=True)

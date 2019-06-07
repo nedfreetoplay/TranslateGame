@@ -1,8 +1,6 @@
-label jane_triggers_init:
-    python:
+init python:
 
-        T_jane_library_pass = Trigger("library pass", "Default")
-    return
+    T_jane_library_pass = Trigger("library pass", "Default")
 
 label jane_fsm_init:
     python:

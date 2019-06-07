@@ -1,7 +1,7 @@
 label ronda_button_dialogue:
     call expression game.dialog_select("ronda_dialogue_intro")
     menu:
-        "Шоу талантов." if M_dewitt.is_set("talent ask ronda"):
+        "Talent Show." if M_dewitt.is_set("talent ask ronda"):
             if M_dewitt.is_set("talent helping kevin"):
                 call expression game.dialog_select("dewitt_talent_show_helping_kevin")
 
@@ -12,9 +12,9 @@ label ronda_button_dialogue:
                 call expression game.dialog_select("ronda_dialogue_talent_show_help")
                 $ M_dewitt.set("talent ask ronda", False)
 
-        "Модель." if M_ross.is_state(S_ross_ask_model):
+        "Model" if M_ross.is_state(S_ross_ask_model):
             call expression game.dialog_select("ronda_dialogue_model_help")
-        "Уйти.":
+        "Leave.":
 
             call expression game.dialog_select("ronda_dialogue_leave")
     hide player

@@ -2,51 +2,51 @@ label french_classroom_bissette_intro:
     scene french_class_c
     show player 1 at left with dissolve
     show teacher 2 at right with dissolve
-    bis "Вот ты где!"
+    bis "There you are!"
     show player 2 at left
     show teacher 1 at right
-    player_name "Здрасте, {b}Мисс Биссетт{/b}!"
+    player_name "Hi, {b}Miss Bissette{/b}!"
     show player 2 at left
     show teacher 5 at right
-    bis "Слушай, {b}[firstname]{/b},  я знаю, что у тебя были кое-какие личные дела, о которых нужно позаботиться, и именно поэтому ты отсутствовал в последнее время..."
-    bis "...Но все ли в порядке?"
+    bis "Listen, {b}[firstname]{/b}, I know you've had some personal matters to take care of, and that's why you've been absent lately..."
+    bis "...But is everything okay?"
     show player 24 at left
     show teacher 4 at right
-    player_name "Да. Я думаю все в порядке..."
+    player_name "Yeah. I think I should be okay..."
 
     show player 5
     show teacher 5
-    bis "Ты не единственный, кто немного отстает."
+    bis "You're not the only one a bit behind you know."
     show teacher 4
     show player 10
-    player_name "Думаю, это самый сложный класс, который у нас есть."
+    player_name "It's definitely the hardest class we have, I think."
     show player 5
     show teacher 2
-    bis "Если тебе что-нибудь понадобится, дай мне знать."
+    bis "Well, if you ever need anything, let me know."
     show teacher 1
     show player 14
-    player_name "Спасибо, {b}Мисс Биссетт{/b}."
+    player_name "Thanks, {b}Miss Bissette{/b}."
     show player 5
     show teacher 3
-    bis "Ой! Это напоминает мне!"
+    bis "Oh! That reminds me!"
     show teacher 2
-    bis "Я внедряю новую систему обучения для тех, кто пытается догнать."
+    bis "I'm implementing a new learning opportunity for those trying to catch up."
     show teacher 1
     show player 10
-    player_name "Да?"
+    player_name "Oh yeah?"
     show player 5
     show teacher 12
-    bis "Это будет немного больше... один на один тип обучения..."
-    bis "...И я надеюсь, что это активизирует студентов."
+    bis "It'll be a bit more... one on one type of learning..."
+    bis "...And I'm hoping it will energize students."
     show teacher 13
     show player 14
-    player_name "Понятно."
+    player_name "I see."
     show player 13
     show teacher 2
-    bis "Почему бы тебе не занять свое место и я буду обсуждать его в классе."
+    bis "Why don't you take your seat and I'll be discussing it in front of the class."
     show teacher 1
     show player 14
-    player_name "Хорошо."
+    player_name "Okay."
     hide player
     hide teacher
     scene black
@@ -54,7 +54,7 @@ label french_classroom_bissette_intro:
 
     scene french_class_cs9
     with fade
-    show text "{b}Мисс Биссетт{/b} сделала объявление.\nОна планировала наградить ученика, который показал наибольшее улучшение в классе после финального теста.\nОна даже предлагала частные уроки всем, кто был заинтересован." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "{b}Miss Bissette{/b} had an announcement that day.\nShe planned on rewarding the student who showed the most improvement in class after the final quiz.\nShe even offered private tutoring to anyone that was interested." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -63,12 +63,12 @@ label french_classroom_bissette_intro:
     with fade
 
     show studyclass02 with dissolve
-    show text "Я целый день пыталась наверстать упущенное в учебе..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I spent the whole day trying to catch up to my studies..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     show studyclass03
     with dissolve
-    show text "...пока не прозвенел звонок." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...until the bell rang." at Position (xpos= 512, ypos = 700) with dissolve
     pause
 
     hide text
@@ -78,49 +78,49 @@ label french_classroom_bissette_intro:
     pause 0.5
 
     show studyclass04 with dissolve
-    show text "Я и забыл, что занятия французским вызывают у меня сонливость.\nБыло трудно сосредоточиться на уроке." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I forgot how much French class makes me sleepy.\nIt was a struggle to focus on the lesson." at Position (xpos= 512, ypos = 700) with dissolve
     pause
 
     hide text
     show studyclass05
     with dissolve
-    show text "Но я всегда могу рассчитывать, что мои одноклассники не дадут мне уснуть..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "But I always can count on my classmates to keep me awake..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
 
     hide text
     show studyclass06
     with dissolve
-    show text "В последнее время они надо мной издеваются...\nНаверное, потому что я только что вернулась и теперь я в центре внимания..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "They have been picking on me lately...\nProbably, because I just came back and now I'm the center of attention..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
 
     hide text
     show studyclass07
     with dissolve
-    show text "Не поймите меня неправильно. Я могу стоять на своем..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Don't get me wrong though. I can stand my ground..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
 
     hide text
     show studyclass08
     with hpunch
-    show text "...но я думаю, что это просто, как в любой школе.\nНу, хотя бы день закончился и я могу идти домой..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...but I guess this is just how school goes.\nWell, at least the day is over and I can go home now..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
     scene french_class_c
     show teacher 2
     with dissolve
-    bis "О! И прежде чем вы все уйдете."
-    bis "Любые студенты, интересующиеся занятиями после школы, {b}приходят поговорить со мной в моем офисе или завтра в классе!{/b}"
+    bis "Oh! And before you all leave."
+    bis "Any students interested in the after school tutoring sessions, {b}come talk to me in my office or tomorrow in class!{/b}"
     show teacher 3
-    bis "До свидания!"
+    bis "Au revoir!"
     hide teacher with dissolve
     return
 
 label french_classroom_bissette_tutoring:
     scene french_class_c
     show player 5 with dissolve
-    player_name "( Я должен поговорить с {b}Мисс Биссетт{/b} о персональных занятиях. )"
-    player_name "( Мне понадобится помощь, если я хочу сдать французский. )"
+    player_name "( I should speak with {b}Miss Bissette{/b} about private tutoring. )"
+    player_name "( I'm gonna need help if I want to pass French class. )"
     hide player with dissolve
     return
 
@@ -129,25 +129,25 @@ label french_classroom_bissette_study:
     show teacher 1 at right
     show player 14 at left
     with dissolve
-    player_name "Ладно, я готов начать урок, {b}Мисс Биссетт{/b}."
+    player_name "Okay, I'm ready to start the lesson, {b}Miss Bissette{/b}."
     show player 13
     show teacher 3
-    bis "Гениально!"
+    bis "Genial!"
     show teacher 2
-    bis "Останься после уроков и мы начнем."
+    bis "Stay after class and we will begin."
     show teacher 1
     show player 14
-    player_name "Конечно."
+    player_name "Sure thing."
     hide player
     hide teacher
     with dissolve
 
     show studyclass02 with dissolve
-    show text "Я целый день пыталась наверстать упущенное в учебе..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I spent the whole day trying to catch up to my studies..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     show studyclass03 with dissolve
-    show text "...пока не прозвенел звонок." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...until the bell rang." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
@@ -155,107 +155,107 @@ label french_classroom_bissette_study:
     show teacher 7 at right
     show desk 5 at Position (xpos = 400, ypos = 768)
     with dissolve
-    bis "Ты готов к нашему первому уроку?"
-    bis "Один."
-    bis "Вместе."
+    bis "Are you ready for our first lesson?"
+    bis "Alone."
+    bis "Together."
     show teacher 9
     show desk 6
-    player_name "Ух, да?"
+    player_name "Uhh, yes?"
     show desk 5
     show teacher 7
-    bis "Ах-ах-ах, парле ву франсэ?"
+    bis "Ah ah ah, parlez-vous francais?"
     show teacher 9
     show desk 6
-    player_name "О! Ум, уии?"
+    player_name "Oh! Umm, oui?"
     show desk 5
     show teacher 7
-    bis "Хорошо!"
-    bis "Итак, ты уже посмотрел на задания?"
+    bis "Tres bien!"
+    bis "Now, have you looked at the assigned terms yet?"
     show teacher 9
     show desk 6
-    player_name "Да, посмотрел."
+    player_name "Yeah, I looked them over."
     show desk 5
     show teacher 7
-    bis "Какое создает проблему?"
+    bis "Which ones are troubling you?"
     show teacher 9
     show desk 6
-    player_name "Ну, я не очень хорошо произношу слова."
+    player_name "Well, I'm not very good at pronounciation."
     show desk 4
-    player_name "Так... Как ты произносишь это слово?"
+    player_name "Like... How do you say this word?"
     show desk 3
     show teacher 7f at Position (xpos=300) with dissolve
-    bis "Это velo или la bicyclette."
-    bis "Это значит велосипед."
+    bis "Ah, that's velo or la bicyclette."
+    bis "It means bicycle."
     hide teacher
     show desk 8 at Position (xoffset=-29)
     with dissolve
     player_name "!!!"
     show desk 9 at Position (xoffset=-27) with dissolve
-    bis "Так, повторяй за мной {b}[firstname]{/b}."
+    bis "Here, repeat after me {b}[firstname]{/b}."
     show desk 10 at Position (xoffset=-27) with dissolve
     bis "Vi-loo"
     show desk 11 at Position (xoffset=-27)
     player_name "...Velow."
     show desk 10 at Position (xoffset=-27)
-    bis "Нет VI-loo."
+    bis "No VI-loo."
     show desk 11 at Position (xoffset=-27)
     player_name "Vv...velo"
     show desk 10 at Position (xoffset=-27)
-    bis "Почти, тебе просто нужно произнести e сейчас."
+    bis "Almost, you just need to pronounce the e now."
     show desk 11 at Position (xoffset=-27)
     player_name "...Velo."
     show desk 10 at Position (xoffset=-27)
-    bis "Tres bien, мой красавец!"
+    bis "Tres bien, mon bel homme!"
     show desk 9 at Position (xoffset=-27) with dissolve
-    bis "Ты учишься очень быстро."
+    bis "You are learning very quickly."
     show desk 11 at Position (xoffset=-27) with dissolve
-    player_name "Спасибо, {b}Мисс Биссетт{/b}. Вы хороший учитель!"
+    player_name "Thanks, {b}Miss Bissette{/b}. You're such a good teacher!"
     show desk 9 at Position (xoffset=-27) with dissolve
-    bis "Ах, такой чародей!"
+    bis "Ah, un tel charmeur!"
     show desk 8 at Position (xoffset=-29) with dissolve
-    bis "Такой воспитанный молодой человек."
+    bis "Such a well mannered young man."
     show desk 9 at Position (xoffset=-27) with dissolve
-    bis "Теперь перейдем к следующему слову."
+    bis "Now let's move on to the next word."
     scene black with fade
     pause 1
     scene classroom_night
     show teacher 7 at right
     show desk 1 at Position (xpos = 400, ypos = 768)
     with dissolve
-    bis "Ты так хорошо справился, {b}[firstname]{/b} но уже поздно."
+    bis "You did so well, {b}[firstname]{/b} but it's getting late."
     show teacher 10
-    bis "Мы должны закончить на сегодня, да?"
+    bis "We should call it a day, yes?"
     show teacher 9
     show desk 2
-    player_name "Вау, уже так поздно?"
-    player_name "Я совсем потерял счет времени."
+    player_name "Wow, is it that late already?"
+    player_name "I totally lost track of time."
     show desk 1
     show teacher 7
-    bis "Да, время летит быстро, когда тебе так весело!"
-    bis "Ты знаешь, {b}[firstname]{/b}. Я так рада, что ты записался на мое репетиторство."
-    bis "Это наполняет меня радостью, помогая таким хорошим молодым студентам, как ты, добиться успеха."
+    bis "Oui, the time, it flies when you are having such fun!"
+    bis "You know, {b}[firstname]{/b}. I'm so happy you signed up for my tutoring."
+    bis "It fills me with joy, helping nice young students like yourself to succeed."
     show teacher 10
-    bis "Вот почему я стала учительницей французского."
+    bis "It's why I became a French Teacher."
     show teacher 9
     show desk 2
-    player_name "Да, мне повезло, что вы мой учитель, {b}Мисс Биссетт{/b}."
+    player_name "Yeah, I'm lucky you're my teacher, {b}Miss Bissette{/b}."
     show desk 1
     show teacher 7
-    bis "Ты льстишь..."
-    bis "Ты заставляешь меня краснеть."
-    bis "Просто продолжай практиковаться, и я думаю, что ты наверстаешь в кратчайшие сроки."
-    bis "Кто знает, может быть, ты даже заработаешь эту специальную награду..."
+    bis "Ohh, tu flattes..."
+    bis "You are making me blush."
+    bis "Just keep practicing and I think you'll be caught up in no time."
+    bis "Who knows, you might even earn that special reward..."
     show teacher 9
     show desk 2
-    player_name "Да, мэм."
+    player_name "Yes, Ma'am."
     show desk 1
     show teacher 7
-    bis "Сейчас иди домой, {b}[firstname]{/b}."
+    bis "Now get home, {b}[firstname]{/b}."
     show teacher 10
     bis "Au revoir!"
     show teacher 9
     show desk 2
-    player_name "Спокойной ночи, {b}Мисс Биссетт{/b}."
+    player_name "Goodnight, {b}Miss Bissette{/b}."
     hide desk
     hide teacher
     with dissolve
@@ -266,105 +266,105 @@ label french_classroom_bissette_smith_report:
     show teacher 4 at right
     show principal 28f at left
     with dissolve
-    smi "{b}Мисс Биссетт{/b}, Я ожидала твой промежуточный отчет на моем столе сегодня утром."
+    smi "{b}Miss Bissette{/b}, I was expecting your midterm report on my desk this morning."
     show principal 29f
     show teacher 15
     with dissolve
-    bis "Je suis desole! Это совершенно вылетело у меня из головы!"
+    bis "Je suis desole! It completely slipped my mind!"
     show teacher 4 with dissolve
     show principal 27f at Position (xoffset=70)
-    smi "Да, я хочу получить его к концу дня!"
+    smi "Yes, well, I want it in my hands by the end of the day!"
     show principal 28f with dissolve
-    smi "...И лучше бы было улучшение по сравнению со средним баллом за прошлый семестр!"
-    smi "Город не будет продолжать финансировать нас, если все наши студенты провалят свои занятия!"
+    smi "...And there had better be an improvement over last term's grade point average!"
+    smi "The city isn't going to keep funding us if our students are all failing their classes!"
     show principal 29f with dissolve
     show teacher 5
-    bis "Да, {b}Директриса Смит{/b}.(франц.) Я разработала новый метод, чтобы вдохновить студентов."
-    bis "Наверняка, это поднимет их интерес к французскому языку."
+    bis "Oui, {b}Directrice Smith{/b}. I've devised a new method to inspire the students."
+    bis "Surely, it will raise their interest in the French class."
     show teacher 4
     show principal 27f at Position (xoffset=70)
-    smi "Ха! Вы не могли вдохновить собаку лаять..."
+    smi "Hah! You couldn't inspire a dog to bark..."
     show principal 29f
     show teacher 19
-    bis "Mais, Madame... Конечно, вы-"
+    bis "Mais, Madame... Surely you-"
     show teacher 18
     show principal 27f at Position (xoffset=70)
-    smi "Просто принеси мне отчет, или я отправлю твою вонючую задницу обратно во французскую дыру, из которой ты выползла!"
+    smi "Just get me that report or I'll ship your smelly ass back to whatever French shithole you crawled out of!"
     show principal 28f with dissolve
-    smi "Все понятно?!"
+    smi "Am I understood?!"
     show principal 29f with dissolve
     show teacher 5
-    bis "...о да, {b}Директриса Смит{/b}.(франц.)"
+    bis "...O-oui, {b}Directrice Smith{/b}."
     hide principal with dissolve
     show teacher 20
     pause
     show teacher 19 at center with dissolve
-    bis "Старая злая сука!(франц.)"
+    bis "Vieille Chienne en colere!"
     show teacher 18f with dissolve
     pause
     show player 10 at left with dissolve
-    player_name "{b}Мисс Биссетт{/b}?"
+    player_name "{b}Miss Bissette{/b}?"
     show player 5
     show teacher 5 at right with dissolve
-    bis "Боже мой!!(франц.)"
+    bis "Oh, mon Dieu!"
     show teacher 1
     show player 11
     player_name "..."
     show teacher 3
-    bis "{b}[firstname]{/b}, ты напугал меня!"
+    bis "{b}[firstname]{/b}, you frightened me!"
     show teacher 1
     show player 10
-    player_name "Простите..."
+    player_name "Sorry..."
     show player 12
-    player_name "Все в порядке?"
+    player_name "Is everything alright?"
     show teacher 4
-    player_name "Я слышал крики {b}Директриса Смит{/b} в коридоре..."
+    player_name "I could hear {b}Principal Smith{/b} from down the hall..."
     show player 5
     show teacher 5
-    bis "Oui. Она просто хочет, чтобы вы, студенты, проявляли больше интереса к французкому."
+    bis "Oui. She is just wanting to see you students take more interest in the French."
     show teacher 4
     show player 12
-    player_name "Ну, она не должна была быть настолько грубой."
+    player_name "Well she didn't have to be so mean about it."
     show player 5
     show teacher 3
-    bis "О, {b}[firstname]{/b}. Ты всегда такой милый со мной..."
+    bis "Oh, {b}[firstname]{/b}. You're always so sweet to me..."
     show teacher 17 zorder 1 with dissolve
     show player 11
     player_name "!!!" with hpunch
     show teacher 16
-    bis "Знаешь, я хотела поговорить с тобой о следующем задании для твоих репетиторских занятий."
+    bis "You know, I've been wanting to speak with you about the next assignment for your tutoring sessions."
     show teacher 17
-    player_name "*глоток*"
+    player_name "*Gulp*"
     show player 10
-    player_name "Хорошо, что вы имеете в виду?"
+    player_name "Alright, what did you have in mind?"
     show player 5
     show teacher 16
-    bis "Я хочу, чтобы ты {b}написал несколько абзацев о твоей любимой еде, на Французком{/b}."
-    bis "Займемся этим вместе, да?"
+    bis "I want you to {b}write a few paragraphs about your favorite food, en Francais{/b}."
+    bis "Then we will go over it together, yes?"
     show teacher 17
     show player 14
-    player_name "Звучит неплохо."
+    player_name "Sounds good to me."
     show player 13
     show teacher 16
-    bis "... И если ты все правильно напишешь..."
-    bis "Возможно, я дам тебе попробовать мою особую награду, да?"
+    bis "... And if you write well..."
+    bis "Perhaps I will be giving you a, taste, of my special reward, yes?"
     show teacher 17
     show player 14
-    player_name "Да, Хорошо!"
+    player_name "Y-Yeah, Okay!"
     show player 13
     show teacher 3 at center with dissolve
-    bis "Tres bien! Тогда тебе лучше начать работу."
+    bis "Tres bien! You had best be getting started then."
     bis "Au revoir, {b}[firstname]{/b}!"
     hide teacher with dissolve
     show player 10
-    player_name "Интересно, какая может быть награда?"
+    player_name "I wonder what the reward could be?"
     show player 5
     player_name "..."
     show player 35 with dissolve
-    player_name "...И о какой еде мне писать?"
+    player_name "...And what food should I write about?"
     show player 14 with dissolve
-    player_name "{b}Пора сходить в библиотеку{/b}, я полагаю."
-    player_name "Та библиотекарша очень помогла. Может, она сможет найти для меня книгу о {b}французской еде{/b}?"
+    player_name "{b}Time to visit the library{/b} again, I guess."
+    player_name "That librarian was really helpful. Maybe she could find a book about {b}French food{/b} for me?"
     hide player with dissolve
     return
 
@@ -373,36 +373,36 @@ label french_classroom_bissette_hand_in_assignment:
     show teacher 1 at right
     show player 14 at left
     with dissolve
-    player_name "Я закончил задание!"
-    player_name "Я писал о сыре."
+    player_name "I finished the assignment!"
+    player_name "I wrote about fromage."
     show player 13
     show teacher 2
-    bis "О! Тебе нравится французский сыр?"
+    bis "Oh! You like the French cheese?"
     show teacher 1
     show player 14
-    player_name "Любой нравится..."
+    player_name "All cheese really..."
     show player 13
     show teacher 2
-    bis "Хе-хе, ты знаешь, что хорошо сочетается с сыром, не так ли?"
+    bis "Hehe, you know what goes well with cheese don't you?"
     show teacher 1
     show player 10
-    player_name "...Умм, крекеры?"
+    player_name "...Umm, crackers?"
     show player 5
     show teacher 3
-    bis "Не глупи, французское вино!"
+    bis "No silly, French wine!"
     show teacher 12
-    bis "Может быть, когда-нибудь мы могли бы попробовать бутылочку вместе?"
-    bis "Но сначала мы должны продолжить практиковать ваш французский."
-    bis "Останься сегодня после уроков, и мы будем заниматься одни."
-    bis "Только ты и я, да?"
+    bis "Maybe someday we could sample a bottle together?"
+    bis "But first we must continue practicing your French."
+    bis "Stay after class today and we should have the room all to ourselves."
+    bis "Just you and I, yes?"
     show teacher 13
     show player 26
-    player_name "Да, мэм."
+    player_name "Y-yes, Ma'am."
     show player 13
     show xtra 21 at left
     show teacher 2
-    bis "О, и перед тем как ты сел, добавь fromage на доску."
-    bis "Я попрошу других студентов написать про их предпочтения также хорошо."
+    bis "Oh, and before you sit down, add fromage to the blackboard."
+    bis "I'll have the other students write their favorites as well."
     hide player
     hide xtra
     hide teacher
@@ -410,91 +410,91 @@ label french_classroom_bissette_hand_in_assignment:
 
     scene french_class_cs14
     with fade
-    show text "Я чувствовал, что неплохо разбираюсь во французском.\nС каждым днем я понимал все больше и больше.\nЧастные уроки с {b}Мисс Биссетт{/b} определенно сделали язык более интересным." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I felt like i was actually getting pretty good with French.\nI was understanding more and more each day.\nThe private lesson's with {b}Miss Bissette{/b} had definitely made the language more interesting." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
     with dissolve
 
     show studyclass02 with dissolve
-    show text "Я целый день пыталась наверстать упущенное в учебе..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I spent the whole day trying to catch up to my studies..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     show studyclass03 with dissolve
-    show text "...пока не прозвенел звонок." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...until the bell rang." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
     scene classroom_night
     show desk 12 at Position (xpos = 400, ypos = 768)
     with dissolve
-    bis "Я очень горжусь твоим последним заданием."
-    bis "Ты становишься... бегущим."
+    bis "I'm really proud of your latest assignment."
+    bis "You're becoming quite... fluent."
     show desk 13
-    player_name "Да? Я рад, что вам понравилось. Я очень много над этим работал."
+    player_name "Yeah? I'm glad you liked it. I worked really hard on it."
     show desk 12
-    bis "Я уверена, что ты работал, mon bel homme."
-    bis "Ты готов к следующему уроку репетиторства?"
+    bis "I'm sure you did, mon bel homme."
+    bis "Are you ready for your next tutoring lesson?"
     show desk 13
-    player_name "Да."
+    player_name "Yes."
     show desk 12
-    bis "Тогда давайте повторим еще несколько слов."
+    bis "Let's go over some more words then."
     scene black with fade
 
     scene classroom_night
     show desk 16 at Position (xpos = 400, ypos = 768)
-    bis "Твое произношение становится таким хорошим, {b}[firstname]{/b}."
-    bis "Я думаю, ты определенно заслужил это..."
+    bis "Your pronounciation is getting so good, {b}[firstname]{/b}."
+    bis "I think you have definitely earned it..."
     show desk 19 with dissolve
-    bis "...И я так горжусь тобой."
+    bis "...And I'm so proud of you."
     show desk 20 with dissolve
-    bis "Боже мой!"
-    bis "Все эти новые знания растут..."
-    bis "{i}Что это за огромный кролик{/i}..."
+    bis "Oh, mon Dieu!"
+    bis "All this new knowledge growing..."
+    bis "Ce qu'il est enorme ce lapin..."
     show desk 19 with dissolve
     player_name "..."
     show desk 14 with dissolve
-    bis "В чем дело, {b}[firstname]{/b}?"
+    bis "What's the matter, {b}[firstname]{/b}?"
     show desk 15
-    player_name "Что, если кто-то..."
+    player_name "What if someone..."
     show desk 14
-    bis "{i}Все, так мило{/i}..."
+    bis "Aww, Tellement mignon..."
     show desk 17 with dissolve
-    bis "Не стоит беспокоиться."
+    bis "Do not be worrying."
     show desk 18 with dissolve
-    bis "Здесь."
-    bis "Это должно отвлечь тебя от забот..."
-    player_name "*глоток*"
+    bis "Here."
+    bis "These should be taking your mind off your worries..."
+    player_name "*Gulp*"
     show desk 24 with dissolve
-    player_name "Д-да..."
+    player_name "Y-yeah..."
     show desk 25 with dissolve
     pause
     show desk 26 with dissolve
-    bis "О, да! Играй с моими сиськами, {b}[firstname]{/b}!"
+    bis "Oh, oui! Joue avec mes seins, {b}[firstname]{/b}!"
     show desk 24 with dissolve
-    player_name "Вы уверены, что {b}Директриса Смит{/b} не придет?"
+    player_name "You're sure, {b}Principal Smith{/b} won't come in?"
     show desk 5 at Position (xoffset=-58)
     show teacher 10c at right
     with dissolve
-    bis "О, нет! Я забыла!"
-    bis "Я забыла сдать промежуточный отчет!"
-    bis "Прости меня, {b}[firstname]{/b}. Боюсь, мы должны остановиться на сегодня."
+    bis "Oh non! j'ai oublie!"
+    bis "I forgot to turn in the midterm report!"
+    bis "Forgive me, {b}[firstname]{/b}. I'm afraid we must stop for today."
     show teacher 10b
     show desk 6 at Position (xoffset=-58)
-    player_name "Хорошо, {b}Мисс Биссетт{/b}..."
+    player_name "Okay, {b}Miss Bissette{/b}..."
     show desk 5 at Position (xoffset=-58)
     show teacher 10c
-    bis "Мы продолжим в следующий раз, хорошо?"
-    bis "Завтра тебя ждет новое задание."
+    bis "We'll resume this next time, yes?"
+    bis "I'll have a new assignment waiting for you tomorrow."
     show teacher 10b
     show desk 6 at Position (xoffset=-58)
-    player_name "Конечно, {b}Мисс Биссетт{/b}."
+    player_name "Sure thing, {b}Miss Bissette{/b}."
     show desk 5 at Position (xoffset=-58)
     show teacher 10
-    bis "Пока, кролик!"
+    bis "Au revoir, mon petit lapin!"
     show teacher 9
     show desk 6 at Position (xoffset=-58)
-    player_name "Пока."
+    player_name "Au revoir."
     hide desk
     hide teacher
     with dissolve
@@ -508,89 +508,89 @@ label french_classroom_bissette_poem_assignment:
     bis "Bonjour, {b}[firstname]{/b}!"
     show teacher 1
     show player 14
-    player_name "Bonjour, {b}Мисс Биссетт{/b}."
+    player_name "Bonjour, {b}Miss Bissette{/b}."
     show player 13
     show teacher 2
-    bis "Как дела?"
+    bis "Comment allez-vous?"
     show teacher 1
     show player 14
-    player_name "О умм, У меня все хорошо."
+    player_name "Oh umm, I'm doing good."
     show player 13
     show teacher 3
-    bis "Прекрасно!"
+    bis "Wonderful!"
     show teacher 2
-    bis "Ты так быстро учишь французский!"
+    bis "You're learning the French so quickly!"
     show teacher 1
     show player 14
-    player_name "Да, я думаю, ваше репетиторство действительно помогает."
+    player_name "Yeah, I think your tutoring is really helping."
     show player 13
     show teacher 12
-    bis "Тогда мы должны продолжить занятия, да?"
+    bis "Ah, we must continue with the lessons then, yes?"
     show teacher 13
     show player 14
-    player_name "С удовольствием!"
+    player_name "I'd love to!"
     show player 13
     show teacher 12
-    bis "Думаю, тебе понравится следующее задание..."
+    bis "I am thinking you will enjoy this next assignment..."
     show teacher 13
     show player 14
-    player_name "О, правда?"
+    player_name "Oh, really?"
     show player 13
     show teacher 12
-    bis "Да, много..."
-    bis "Вам знаком французский роман?"
+    bis "Oui, beaucoup..."
+    bis "Are you familiar with French romance?"
     show teacher 13
     show player 10
-    player_name "Н-нет, не совсем..."
+    player_name "N-no, not really..."
     show player 11
     show teacher 16 zorder 1 with dissolve
-    bis "Тогда учимся!"
-    bis "Французы-лучшие любовники во всем мире!"
+    bis "On apprend alors!"
+    bis "The French make the best lovers in all the world!"
     show teacher 17
     show player 26
-    player_name "...Да? Я не знал этого..."
+    player_name "...Oh? I didn't know that..."
     show player 13
     show teacher 16
-    bis "О, да {b}[firstname]{/b}, так и есть!"
-    bis "Чтобы тебе понять это... Ты должен {b}написать романтическое стихотворение на Французком!{/b}"
+    bis "Oh oui, {b}[firstname]{/b}, it is known!"
+    bis "So to give you insight into this... You are to be {b}writing a romantic poem en Francais!{/b}"
     show teacher 17
     show player 10
-    player_name "Э-э, я не знаю, мэм. Я никогда не писал ничего подобного."
-    player_name "Я даже не знаю, с чего начать..."
+    player_name "Err, I dunno, Ma'am. I've never written anything like that before."
+    player_name "I wouldn't even know how to begin..."
     show player 13
     show teacher 25 with dissolve
-    bis "Смешно!"
+    bis "Ridicule!"
     show teacher 26 with dissolve
-    bis "Ты прирожденный, я верю в тебя, {b}[firstname]{/b}!"
+    bis "You're a natural, I have the faith in you, {b}[firstname]{/b}!"
     show teacher 27 with dissolve
     show player 14
-    player_name "Хех. Хорошо, {b}Мисс Биссетт{/b}."
+    player_name "Heh. O-okay, {b}Miss Bissette{/b}."
     show player 13
     show teacher 25 with dissolve
-    bis "Хорошо, мой красавец!"
+    bis "Tres Bien, mon bel homme!"
     show teacher 26 with dissolve
-    bis "Я знаю, ты напишешь что-нибудь, что растопит сердце!"
+    bis "I know you will write something that melts the heart!"
     show teacher 16 with dissolve
-    bis "Возвращайся ко мне, когда закончишь."
-    bis "Возможно, ты наконец-то получишь награду, которую так долго искал, да?"
+    bis "Return to me when it is done."
+    bis "Perhaps you will finally earn the reward you've been seeking, yes?"
     show teacher 17
     show player 11
-    player_name "*глоток*"
+    player_name "*Gulp*"
     show player 26
-    player_name "Да! Хорошо!"
+    player_name "Y-Yeah! Okay!"
     show player 13
     show teacher 16
     bis "Ca m'excite!"
     show teacher 17
     show player 14
-    player_name "Я скоро вернусь, {b}Мисс Биссетт{/b}."
+    player_name "I'll be back real soon, {b}Miss Bissette{/b}."
     show player 13
     show teacher 16
-    bis "Пока, {b}[firstname]{/b}."
+    bis "Au revoir, {b}[firstname]{/b}."
     hide teacher with dissolve
     show player 29 with dissolve
-    player_name "Вау!!!"
-    player_name "Ладно, думаю {b}мне стоит сходить в библиотеку{/b} и посмотреть, что я смогу найти о французской поэзии и романтике."
+    player_name "Wow!!!"
+    player_name "Okay, I guess {b}I should head to the library{/b} and see what I can find about French poetry and romance."
     hide player with dissolve
     return
 
@@ -599,119 +599,119 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
     show teacher 1 at right
     show player 386 at left
     with dissolve
-    player_name "Вот, {b}Мисс Биссетт{/b}. Я закончил поэму."
+    player_name "Here, {b}Miss Bissette{/b}. I finished the poem."
     show player 13 with dissolve
     show teacher 23 with dissolve
-    bis "Превосходно!"
-    bis "Как красиво!"
-    bis "Да, это будет замечательно."
-    bis "Класс в твоем распоряжении."
+    bis "Surperbe!"
+    bis "Oh, comme c'est beau!"
+    bis "Yes, this will do nicely."
+    bis "The class is in for a treat."
     show teacher 24
     show player 10
-    player_name "А? Что вы имеете в виду?"
+    player_name "Huh? What do you mean?"
     show player 5
     show teacher 2 with dissolve
-    bis "Ну ты прочитаешь ее для класса, да?"
+    bis "Well you are to be reciting it for the class, yes?"
     show teacher 1
     show player 11
     player_name "!!!" with hpunch
     show player 10
-    player_name "Никогда!"
+    player_name "No way!"
     show player 11
     show teacher 12
-    bis "Что? Давай сейчас, {b}[firstname]{/b}."
-    bis "Твои слова прекрасны... Было бы неправильно не поделиться такой вещью, да?"
+    bis "Quoi? Come now, {b}[firstname]{/b}."
+    bis "Your words are beautiful... It would be wrong not to share such a thing, yes?"
     show teacher 13
     show player 10
-    player_name "Абсолютно нет! Мне было бы слишком стыдно!"
+    player_name "Absolutely not! I'd be way too embarrassed!"
     show player 22
     show teacher 2
-    bis "Ой, не будь таким застенчивым, {b}[firstname]{/b}."
+    bis "Aww, do not be so self-concious, {b}[firstname]{/b}."
     show teacher 11
     pause
     show teacher 2
-    bis "Я знаю! Я дам тебе партнера, с которым ты будешь читать!"
-    bis "Это менее унизительно, да?"
+    bis "I know! I will be giving you a partner to read with!"
+    bis "This is less embarrassing, yes?"
     show teacher 1
     show player 12
-    player_name "... Не совсем."
+    player_name "... Not really."
     show player 23
     show teacher 19
-    bis "{b}Рокси{/b}, проснись!"
+    bis "{b}Roxxy{/b}, wake up!"
     show player 22
     show teacher 18
-    rox "Хмм?"
+    rox "Hmm?"
     show teacher 19
-    bis "Ленивая девушка! Проснись, я сказала!"
+    bis "Fille paresseuse! Wake up, I said!"
     show teacher 18
-    rox "Что?!"
+    rox "What?!"
     show teacher 19
-    bis "Иди сюда!"
+    bis "Come here!"
     show teacher 20
     pause
     pause
     show roxxy 27f at Position (xpos=500) with dissolve
     show player 24
     show teacher 19
-    bis "Поскольку ты не можешь потрудиться написать стихотворение для класса, ты будешь читать его с {b}[firstname]{/b}."
+    bis "Since you cannot be bothered to write a poem for class, you will be reciting one with {b}[firstname]{/b} here."
     show teacher 18
     show roxxy 30f
-    rox "Нет, я не буду."
+    rox "Uhh, no I won't."
     show roxxy 29f
     show player 22
     show teacher 19
-    bis "Да, будешь!"
+    bis "Yes, you will!"
     show teacher 18
     show roxxy 30f
-    rox "Мне плевать на это дурацкое задание!"
+    rox "I don't care about this stupid assignment!"
     show roxxy 29f
     show teacher 19
-    bis "Чего?! Как ты смеешь!"
-    bis "Ты пойдешь туда и прочитаешь или я оставлю тебя под стражей до конца срока!"
-    bis "Понятно?!"
+    bis "Quoi?! Comment oses-tu!"
+    bis "You will get up there and read or I will be giving you detention until the end of the term!"
+    bis "Comprenez vous?!"
     show teacher 20
     show roxxy 30f
-    rox "Серьезно?!"
+    rox "Seriously?!"
     show roxxy 29f
     show teacher 19
-    bis "Сейчас же!"
+    bis "Now!"
     show teacher 18
     show roxxy 30f
-    rox "Грррр, ладно!"
+    rox "Grrr, fine!"
     hide roxxy with dissolve
     show player 10
-    player_name "Эээ, {b}Мисс Биссетт{/b}?"
+    player_name "Umm, {b}Miss Bissette{/b}?"
     show player 5
     show teacher 2
-    bis "Да, {b}[firstname]{/b}?"
+    bis "Yes, {b}[firstname]{/b}?"
     show teacher 1
     show player 10
-    player_name "Я действительно не хочу этого делать..."
+    player_name "I uhh, really don't want to do this..."
     show player 5
     show teacher 2
-    bis "О, но это так прекрасно..."
+    bis "Aww but it is so beautiful..."
     show teacher 16 zorder 1 with dissolve
-    bis "Сделай это для меня, mon bel homme!"
+    bis "Do it for me, mon bel homme!"
     show teacher 26 with dissolve
-    bis "... Я дам тебе особую награду, если ты сделаешь это..."
+    bis "... I'll give you a special reward if you do it..."
     show teacher 27
     show player 25
-    player_name "{b}*глоток*{/b}"
+    player_name "{b}*Sigh*{/b}"
     show player 24
-    player_name "... Хорошо, я сделаю это."
+    player_name "... Alright, I'll do it."
     show player 5
     show teacher 12 at center
-    bis "Отлично!"
-    bis "Я так горжусь тобой!"
+    bis "Tres bien!"
+    bis "I'm so proud!"
     show teacher 1
     hide player with dissolve
     show teacher 2
-    bis "Нет нет! En Francais! Теперь давайте начнем!"
+    bis "Non non! En Francais! Now let's begin!"
     hide teacher with dissolve
 
     scene french_class_cs11
     with fade
-    show text "Мне не хотелось читать стихи перед классом.\n...но участие {b}Рокси{/b} действительно помогло.\nНикого не волновало, насколько слащаво было стихотворение; не с {b}Рокси{/b} , спотыкающейся за каждом слове." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I wasn't excited to recite my poem in front of the class.\n...but {b}Roxxy's{/b} involvement did actually help.\nNobody cared how sappy the poem was; Not with {b}Roxxy{/b} stumbling over every other word." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -719,7 +719,7 @@ label french_classroom_bissette_hand_in_poem_assignment_pre:
 
     scene french_class_cs13
     with fade
-    show text "К тому времени, как мы достигли конца,{b}Рокси{/b} уже не смущалась.\nНаши одноклассники хихикали над ее плохим произношением.\nОна была в ярости! Я никогда не видел ее такой злой..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "By the time we reached the end {b}Roxxy{/b} was beyond embarrassed.\nOur classmates were giggling at her poor pronounciation skills.\nShe was livid! I don't recall ever seeing her so angry..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -732,88 +732,88 @@ label french_classroom_bissette_hand_in_poem_assignment_roxxy_sex:
     show roxxy 29f at left
     show teacher 2 at right
     with dissolve
-    bis "Отлично!"
-    bis "{b}[firstname]{/b}, твой французкий прекрасен!"
+    bis "Tres Bien!"
+    bis "{b}[firstname]{/b}, your French was perfect!"
     show teacher 1
     show player 14
-    player_name "Спасибо, {b}Мисс Биссетт{/b}."
+    player_name "Thanks, {b}Miss Bissette{/b}."
     show player 13
     show teacher 19
-    bis "... И {b}Рокси{/b}..."
-    bis "... Что ж, ты пыталась."
+    bis "... And {b}Roxxy{/b}..."
+    bis "... Well, you tried."
     show teacher 18
-    rox "Грррр..."
+    rox "Grrr..."
     show teacher 2
-    bis "Очень хорошо, вот и все на сегодня."
-    bis "Не забудте сделать домашнюю работу, и я увижу вас завтра, хорошо?!"
+    bis "Very well, that is it for today everybody."
+    bis "Remember to be completing your homework and I'll be seeing you tomorrow, yes?!"
     hide teacher
     with dissolve
     show player 25f with dissolve
-    player_name "...{b}Рокси{/b}, прости за-"
+    player_name "...{b}Roxxy{/b}, I'm sorry this-"
     show player 11f
     show roxxy 3f with dissolve
-    rox "Я НЕНАВИЖУ ЕЕ!!!"
+    rox "I HATE HER!!!"
     show roxxy 29f
     show player 10f
-    player_name "... {b}Рокси{/b}, ты серьезно! Ты должна успокоиться..."
+    player_name "... {b}Roxxy{/b}, seriously! You have to calm down..."
     show player 11f
     show roxxy 31f
-    rox "УСПОКОИТСЯ?!"
-    rox "Я не собираюсь успокаиваться!"
+    rox "CALM DOWN?!"
+    rox "I'm not gonna calm down!"
     show roxxy 30f
     show player 24f
-    rox "Эта сука с болтливым ртом получает какое-то больное удовольствие от того, что смущает меня!"
-    rox "Французская шлюха!"
-    rox "Ей повезло, что я не надрала ей задницу прямо здесь и сейчас!"
+    rox "That mush mouth bitch gets some kind of sick pleasure out of embarrassing me!"
+    rox "French skank!"
+    rox "She's lucky I don't kick her ass right here and now!"
     show roxxy 29f
     show teacher 19 at right with dissolve
-    bis "Что происходит??"
-    bis "Что это за вопли такие!?"
+    bis "Que se passe-t-il!?"
+    bis "What is all this yelling!?"
     show teacher 18
     show player 22
     show roxxy 30f
-    rox "Я не могу поверить, что вы заставили меня сделать это!"
-    rox "Вы знаете, как мне неловко?!"
+    rox "I cannot believe you made me do that!"
+    rox "Do you know how embarrassed I am?!"
     show roxxy 29f
     show teacher 12
-    bis "Ба, не будь таким ребенком..."
-    bis "{b}[firstname]{/b} написал прекрасную поэму!"
+    bis "Bah, don't be such a baby..."
+    bis "{b}[firstname]{/b} wrote a beautiful poem!"
     show teacher 19
-    bis "Ты должна извиниться перед ним за свое неуклюжее произношение."
+    bis "You should be apologizing to him for your clumsy reciting."
     show teacher 13
     show roxxy 31f
-    rox "Что?! Он не тот, кого ты подставила и выглядела нелепо!"
+    rox "WHAT?! He's not the one you set up to look ridiculous!"
     show roxxy 3f
     show teacher 19
     bis "Shush toi!!"
-    bis "Это не моя вина, что ты позоришь себя своим бедным французским!"
-    bis "Ты тот, кто отказывается от учебы!"
+    bis "It is not my fault you embarrass yourself with your poor French!"
+    bis "You are the one who refuses to do your studies!"
     show teacher 18
     show roxxy 30f
-    rox "Гррр!!!"
-    rox "Я никогда этого не забуду!"
+    rox "Grrrr!!!"
+    rox "I won't forget this!"
     hide roxxy with dissolve
     show teacher 19
-    bis "Хорошо! Помни об этом, как о причине более серьезно относиться к учебе!"
+    bis "Good! Remember it, as a reason to be taking your studies more seriously!"
     show teacher 18
     show player 25
-    player_name "Вау, я никогда не видел ее такой злой раньше..."
+    player_name "Wow, I've never seen her that mad before..."
     show player 5
     show teacher 12
-    bis "Ты должен поговорить с ней, {b}[firstname]{/b}."
-    bis "Научи ее контролировать свой характер..."
+    bis "You should speak with her, {b}[firstname]{/b}."
+    bis "Teach her to be more in controlling of her temper..."
     show teacher 13
     show player 34
     player_name "..."
     show player 5
     show teacher 12
-    bis "... Но сначала мы начнем твое обучение, да?"
+    bis "... But first, we start your tutoring, yes?"
     show teacher 13
     show player 14
-    player_name "Да! Хорошо!"
+    player_name "Y-yeah! Okay!"
     show player 13
     show teacher 12
-    bis "Отлично! Подойди и сядь рядом со мной!"
+    bis "Tres Bien! Come and sit with me!"
     scene black with fade
     return
 
@@ -823,147 +823,147 @@ label french_classroom_bissette_hand_in_poem_assignment_no_roxxy_sex:
     show roxxy 29f at left
     show teacher 2 at right
     with dissolve
-    bis "Отлично!"
-    bis "{b}[firstname]{/b}, твой французский идеален!"
+    bis "Tres Bien!"
+    bis "{b}[firstname]{/b}, your French was perfect!"
     show teacher 1
     show player 14
-    player_name "Спасибо, {b}Мисс Биссетт{/b}."
+    player_name "Thanks, {b}Miss Bissette{/b}."
     show player 13
     show teacher 19
-    bis "... И {b}Рокси{/b}..."
-    bis "... Что ж, ты пыталась."
+    bis "... And {b}Roxxy{/b}..."
+    bis "... Well, you tried."
     show teacher 18
-    rox "Гррр..."
+    rox "Grrr..."
     show teacher 2
-    bis "Очень хорошо, вот и все на сегодня."
-    bis "Не забудте сделать домашнюю работу, и я увижу вас завтра, хорошо?!"
+    bis "Very well, that is it for today everybody."
+    bis "Remember to be completing your homework and I'll be seeing you tomorrow, yes?!"
     hide teacher with dissolve
     show player 25f with dissolve
-    player_name "...{b}Рокси{/b}, прости за-"
+    player_name "...{b}Roxxy{/b}, I'm sorry this-"
     show player 11f
     show roxxy 3f with dissolve
-    rox "Заткнись!"
+    rox "Shut up!"
     show roxxy 29f
     show player 10f
-    player_name "...Я просто пытаюсь извени-"
+    player_name "...I'm just trying to apolo-"
     show player 11f
     show roxxy 31f
-    rox "Я СКАЗАЛА ЗАКРОЙ СВОЙ РОТ!"
-    rox "Не могу поверить, что она заставила меня читать эту сопливую чушь перед всем классом!"
+    rox "I SAID SHUT YOUR MOUTH!"
+    rox "I cannot believe she made me read that sappy bullshit in front of the entire class!"
     show roxxy 30f
     show player 24f
-    rox "Тьфу, и с тобой для всего класса!"
-    rox "Отвратительно!"
-    rox "Тебе повезло, что я не надрала тебе задницу прямо здесь и сейчас!"
+    rox "Ugh, and with YOU of all people!"
+    rox "Disgusting!"
+    rox "You're lucky I don't kick your ass right here and now!"
     show roxxy 29f
     show teacher 19 at right with dissolve
-    bis "Что происходит??"
-    bis "Что это за вопли такие!?"
+    bis "Que se passe-t-il!?"
+    bis "What is all this yelling!?"
     show teacher 18
     show player 22
     show roxxy 30f
-    rox "Я не могу поверить, что вы заставили меня сделать это!"
-    rox "Вы знаете, как мне неловко?!"
+    rox "I cannot believe you made me do that!"
+    rox "Do you know how embarrassing that was!?"
     show roxxy 29f
     show teacher 12
-    bis "Ба, не будь таким ребенком..."
-    bis "{b}[firstname]{/b} написал прекрасную поэму!"
+    bis "Bah, don't be such a baby..."
+    bis "{b}[firstname]{/b} wrote a beautiful poem!"
     show teacher 19
-    bis "Ты должна извиниться перед ним за свое неуклюжее произношение."
+    bis "You should be apologizing to him for your clumsy reciting."
     show teacher 13
     show roxxy 31f
-    rox "Извиниться?! Перед ним?! Ты сошла с ума, черт возьми!"
+    rox "Apologize?! To him?! You're outta your damn mind!"
     show roxxy 3f
     show teacher 19
     bis "Shush toi!!"
-    bis "Мы не виноваты, что ты позоришь себя своим бедным французским!"
-    bis "Ты тот, кто отказывается от учебы!"
+    bis "It is not our fault you embarrass yourself with your poor French!"
+    bis "You are the one who refuses to do your studies!"
     show teacher 18
     show roxxy 30f
-    rox "Грррр!!!"
-    rox "Я никогда этого не забуду!"
+    rox "Grrrr!!!"
+    rox "I won't forget this!"
     hide roxxy with dissolve
     show teacher 19
-    bis "Хорошо! Помните об этом, как о причине более серьезно относиться к учебе!"
+    bis "Good! Remember it, as a reason to be taking your studies more seriously!"
     show teacher 18
     show player 25
-    player_name "Вау, я никогда не видел ее такой злой раньше..."
+    player_name "Wow, I've never seen her that mad before..."
     show player 5
     show teacher 12
-    bis "Не беспокойся о ней, {b}[firstname]{/b}."
-    bis "Она справится с этим."
+    bis "Do not concern yourself with her, {b}[firstname]{/b}."
+    bis "She'll get over this."
     show teacher 13
     show player 34
     player_name "..."
     show player 5
     show teacher 12
-    bis "Теперь, я думаю, пришло время начать обучение, да?"
+    bis "Now, I think it's time we start your tutoring, yes?"
     show teacher 13
     show player 14
-    player_name "Да! Хорошо!"
+    player_name "Y-yeah! Okay!"
     show player 13
     show teacher 12
-    bis "Отлично! Подойди и сядь рядом со мной!"
+    bis "Tres Bien! Come and sit with me!"
     scene black with fade
     return
 
 label french_classroom_bissette_hand_in_assignment_intro_continue:
     show studyclass02 with dissolve
-    show text "Я целый день пытался наверстать упущенное в учебе..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "I spent the whole day trying to catch up to my studies..." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text
     show studyclass03 with dissolve
-    show text "...пока не прозвенел звонок." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "...until the bell rang." at Position (xpos= 512, ypos = 700) with dissolve
     pause
     hide text with dissolve
 
     scene classroom_night
     show desk 16 at Position (xpos = 400, ypos = 768)
-    bis "Твой прогресс во французком впечатляет, {b}[firstname]{/b}."
-    bis "Думаю, на большом экзамене у тебя все получится."
+    bis "Your progress with the French is most impressive, {b}[firstname]{/b}."
+    bis "I think you will do very well on the big exam."
     show desk 15
-    player_name "Надеюсь на это! Мне очень нужно сдать этот предмет."
+    player_name "I hope so! I really need to pass this class."
     show desk 19 with dissolve
     bis "Aww, mon bel homme..."
     show desk 20
-    bis "Не стоит так беспокоиться..."
-    player_name "*глоток*"
+    bis "Do not be so anxious..."
+    player_name "*Gulp*"
     show desk 16 with dissolve
-    bis "Знаешь, я припоминаю, что обещала тебе особую награду за сегодняшнее чтение, да?"
+    bis "You know, I seem to recall promising you a special reward for reciting today, yes?"
     show desk 15
-    player_name "Д-да..."
+    player_name "Y-yeah..."
     show desk 16
-    bis "Знаешь, твоя поэма была прекрасна."
-    bis "Французский язык был создан для поэзии. Ты так не думаешь?"
+    bis "Your poem really was beautiful, you know?"
+    bis "The French language was made for poetry. Don't you think?"
     show desk 15
-    player_name "Д-да, мэм."
+    player_name "Y-yes, Ma'am."
     show desk 16
-    bis "Мне очень понравилась часть, которую ты написала о поцелуе."
+    bis "I really liked the part you wrote about the kissing."
     show desk 15
-    player_name "О... эта часть?"
+    player_name "Oh... that part?"
     show desk 16
-    bis "Знаете ли ты французский поцелуй особым образом?"
+    bis "Did you know the French kiss in a special way?"
     show desk 15
-    player_name "Ммм ... А? Я имею в виду, что они делают?"
+    player_name "Mmm... Huh? I mean, they do?"
     show desk 16
-    bis "Oui, они называют это французским поцелуем и все..."
+    bis "Oui, they call it the French kiss and everything..."
     show desk 15
-    player_name "О да, я слышал об этом."
+    player_name "Oh yeah, I've heard of that."
     show desk 16
-    bis "Ты пробовал французский поцелуй раньше?"
+    bis "Have you tried the French kissing before?"
     return
 
 label french_classroom_bissette_hand_in_poem_assignment_have_kissed:
     scene classroom_night
     show desk 15
-    player_name "Д-да, немного больше."
+    player_name "Y-yeah, a little bit."
     show desk 16
-    bis "Да просто?"
+    bis "Oh vraiment?"
     show desk 15
-    bis "Ты должен показать мне, что ты знаешь!"
-    player_name "Правда?"
+    bis "You must show me what you know!"
+    player_name "Really?"
     show desk 16
-    bis "Да."
+    bis "Oui."
     show desk 27 at Position (xpos=342) with dissolve
     pause
     show desk 28 with dissolve
@@ -973,12 +973,12 @@ label french_classroom_bissette_hand_in_poem_assignment_have_kissed:
     pause
     show desk 30
     bis "{b}[firstname]{/b}!"
-    bis "Я нахожусь под большим впечатлением!"
-    bis "Где ты научился так целоваться?"
+    bis "I am most impressed!"
+    bis "Where did you learn to kiss like this?"
     show desk 29
-    player_name "Ох, ох... вы знаете... Здесь и там..."
+    player_name "Oh, uhh... You know... Here and there..."
     show desk 30
-    bis "Хе-хе, хорошо. Храни свои секреты. Просто целуй меня как можно дольше!"
+    bis "Hehe, fine. Keep your secrets. Just so long as you give me more kisses!"
     show desk 31_32 with dissolve
     pause
     pause
@@ -987,13 +987,13 @@ label french_classroom_bissette_hand_in_poem_assignment_have_kissed:
 label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
     scene classroom_night
     show desk 15 at Position (xpos=400)
-    player_name "Н-нет..."
+    player_name "N-no..."
     show desk 16
-    bis "О, я должна научить тебя!"
+    bis "Oh, Je dois t'apprendre!"
     show desk 15
-    player_name "...Ты хочешь научить меня?"
+    player_name "...You want to teach me?"
     show desk 16
-    bis "Да."
+    bis "Oui."
     show desk 27 at Position (xpos=342) with dissolve
     pause
     show desk 28 with dissolve
@@ -1002,10 +1002,10 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
     pause
     pause
     show desk 30
-    bis "Отлично, {b}[firstname]{/b}..."
-    bis "Ты тоже естественный в этом."
+    bis "Tres Bien, {b}[firstname]{/b}..."
+    bis "You are a natural at this too it seems."
     show desk 29
-    player_name "Д-да, спасибо!"
+    player_name "Y-yeah, thanks!"
     show desk 31_32 with dissolve
     pause
     pause
@@ -1014,55 +1014,55 @@ label french_classroom_bissette_hand_in_poem_assignment_havent_kissed:
 label french_classroom_bissette_hand_in_poem_assignment_continue:
     scene classroom_night
     show desk 31_32 at Position (xpos=342)
-    bis "Мммм..."
-    bis "Мой красавец..."
-    bis "Ты заставляешь меня волноваться..."
-    player_name "*глоток*"
-    bis "Возможно, нам стоит взять это-"
+    bis "Mmm..."
+    bis "Mon bel homme..."
+    bis "You are getting me all excited..."
+    player_name "*Gulp*"
+    bis "Perhaps we should be taking this-"
     show desk 33 with hpunch
-    "*Бззт*"
-    smi "{b}Мисс Биссетт{/b}!"
-    "*Бззт*"
-    "*Бззт*"
-    smi "Где ты? Ты забыла о нашей встрече?!"
-    smi "Не заставляй меня спускаться и тащить свою тощую задницу в мой кабинет!"
-    smi "ИДИТЕ СЮДА НЕМЕДЛЕННО!"
+    "*Bzzt*"
+    smi "{b}Miss Bissette{/b}!"
+    "*Bzzt*"
+    "*Bzzt*"
+    smi "Where are you? Did you forget about our meeting?!"
+    smi "Don't make me come down there and drag your scrawny ass to my office!"
+    smi "GET UP HERE THIS INSTANT!"
     "*Bzzt*"
     show desk 30
-    bis "Проклятье! Чего она хочет сейчас?!"
-    bis "*гммм* Извени, {b}[firstname]{/b}. Кажется, мы должны прерваться еще раз."
+    bis "Sacrebleu! What does she want now?!"
+    bis "*Ahem* I'm sorry, {b}[firstname]{/b}. It seems we must cut this short once more."
     show desk 29
-    player_name "Все хорошо, {b}Мисс Биссетт{/b}. Я понимаю."
+    player_name "It's alright, {b}Miss Bissette{/b}. I understand."
     show desk 31_32 with dissolve
     pause
     show desk 30
-    bis "Ммм, твой {b}рот{/b} волшебный!"
+    bis "Mmm, Ta {b}bouche{/b} est magique!"
     show desk 29
-    player_name "А?"
+    player_name "Huh?"
     show desk 30
-    bis "Твой {b}рот{/b} волшебный!"
+    bis "Your {b}mouth{/b} is magical!"
     show desk 29
-    player_name "Оооо, {b}bouche{/b}  значит {b}рот{/b}?"
+    player_name "Oooh, {b}bouche{/b} means {b}mouth{/b}?"
     show desk 30
-    bis "Да."
+    bis "Oui."
     show desk 27 with dissolve
     pause
     show teacher 10 at right
     show desk 5
     with dissolve
-    bis "Я хочу, чтобы ты {b}пришел ко мне в офис завтра после занятий{/b}."
-    bis "Есть еще кое-что, с чем мне нужно тебе помощь перед экзаменом."
+    bis "I want you to {b}come to my office after class tomorrow{/b}."
+    bis "There's one more thing I want your help with before the exam."
     show teacher 9
     show desk 6
-    player_name "Конечно."
-    player_name "Увидемся завтра, {b}Мисс Биссетт{/b}."
+    player_name "Sure thing."
+    player_name "I'll see you tomorrow, {b}Miss Bissette{/b}."
     show desk 5
     show teacher 10
-    bis "Пока, красавец."
+    bis "Au revoir, mon bel homme."
     hide teacher with dissolve
     player_name "..."
     show desk 34
-    player_name "Уфф, это было потрясающе!"
+    player_name "Phew, that was awesome!"
     hide desk with dissolve
     return
 
@@ -1072,36 +1072,36 @@ label french_classroom_bissette_smith_final_report:
     show principal 27f at left
     show principal 27f at Position (xoffset=70)
     with dissolve
-    smi "Я не знаю, как вам это удалось, но Средний балл растет."
+    smi "I don't know how you managed it but the grade point average is increasing."
     show principal 26f at Position (xoffset=70)
     show teacher 2
-    bis "Я говорила вам, что могу вдохновить их!"
+    bis "I told you I could inspire them!"
     show teacher 1
     show principal 27f at Position (xoffset=70)
-    smi "Да, хорошо. Не думайте, что это повод, чтобы начать расслабляться!"
+    smi "Yeah, well. Don't think it's an excuse to start slacking off!"
     show principal 26f at Position (xoffset=70)
     show teacher 2
-    bis "Не волнуйтесь, мои ученики дают мне 110%%!"
+    bis "Don't worry, my students give me 110%%!"
     show player 14 at Position (xpos=500)
-    player_name "Доброе утро, {b}Мисс Биссетт{/b}."
+    player_name "Good morning, {b}Miss Bissette{/b}."
     show player 113
-    player_name "...и {b}Директриса Смит{/b}."
+    player_name "...and {b}Principal Smith{/b}."
     show player 13
     show teacher 12
-    bis "Здравствуй, {b}[firstname]{/b}."
+    bis "Bonjour, {b}[firstname]{/b}."
     show teacher 13
     show player 114
     show principal 29f
-    smi "Пффф."
+    smi "Hmph."
     hide player with dissolve
     show principal 26f at Position (xoffset=70)
     show teacher 12
-    bis "... Некоторые дают мне даже больше, чем 110%%!"
+    bis "... Some give me even more than 110%%!"
     show teacher 13
     show principal 29f
     smi "..."
     show principal 28f with dissolve
-    smi "Просто помни, что я слежу за тобой!"
+    smi "Just remember, I've got my eye on you!"
     hide principal
     hide teacher
     with dissolve
@@ -1110,8 +1110,8 @@ label french_classroom_bissette_smith_final_report:
 label europe_map_dialogue:
     scene expression "backgrounds/location_school_french_map.jpg"
     player_name "..."
-    player_name "Похоже на правду..."
-    player_name "{b}Мисс Биссетт{/b} до сих пор не заметила, что кто-то заменил ее карту Европы."
+    player_name "Seems about right..."
+    player_name "{b}Miss Bissette{/b} still hasn't noticed someone replaced her map of Yurup."
     pause
     $ A_europe.unlock()
     $ game.main()
@@ -1121,245 +1121,245 @@ label french_class_roxxy_lolipop_intro:
     show roxxy 6f at Position (xpos=500)
     show teacher 19 at right
     with dissolve
-    bis "Я надеюсь, что у вас есть что-то для меня сегодня!"
-    bis "Вы не можете продолжать занятия с пустыми руками {b}Роксанна{/b}!"
+    bis "I hope you are to be having something for me today!"
+    bis "You cannot continue with the showing up empty handed {b}Roxanne{/b}!"
     show teacher 18
     show roxxy 10f at Position (xoffset=9) with dissolve
-    rox "Ухх, Все зовут меня {b}Рокси{/b}..."
-    rox "Не {b}Роксанна{/b}!"
+    rox "Ugh, everyone calls me {b}Roxxy{/b}..."
+    rox "Not {b}Roxanne{/b}!"
     show roxxy 6f with dissolve
     show teacher 5
-    bis "Почему так?"
-    bis "Тебя зовут {b}Роксанна{/b}..."
-    bis "Об этом говорится в школьных записях!"
+    bis "Why is this?"
+    bis "You're name is {b}Roxanne{/b}..."
+    bis "It is saying so in the school records!"
     show teacher 4
     show roxxy 7f
-    rox "{b}*вздыхает*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy 5f
-    rox "Слушайте, я сделаю домашнее задание для вас сегодня, хорошо?!"
+    rox "Look, I'll have my homework for you today, alright?!"
     show roxxy 10f at Position (xoffset=9) with dissolve
-    rox "... Хватит меня доставать, пожалуйста!"
+    rox "... Quit riding my ass, please!"
     show roxxy 6f with dissolve
     show teacher 18
-    bis "Хмм?"
+    bis "Hmm?"
     show teacher 19
-    bis "Я не буду..."
+    bis "I am not riding anything..."
     show teacher 18
     show roxxy 7f
     rox "..."
     show teacher 19
-    bis "Просто подготовь домашнее задание к уроку, хорошо?"
+    bis "Just have your homework ready for class, yes?"
     show teacher 18
     show roxxy 11f at Position (xoffset=9) with dissolve
-    rox "Я сказала, что получу его!"
+    rox "I said I'll have it!"
     show roxxy 9f at Position (xoffset=9)
     show teacher 19
-    bis "... Черт побери, ну какая дрянь..."
+    bis "... Putain, mais quelle branleuse..."
     hide teacher with dissolve
     pause
     show player 13 at left
     show roxxy 10f at Position (xoffset=9)
-    rox "Гррр, глупая каша во рту..."
+    rox "Grr, stupid mush mouth..."
 
     show roxxy 7 at Position (xpos=600) with dissolve
     rox "!!!"
     show roxxy 10 at Position (xoffset=-9) with dissolve
-    rox "Ты опять!"
+    rox "You again!"
     show roxxy 3b with dissolve
     show player 11
     player_name "..."
     show roxxy 3c
-    rox "Почему кажется, что ты всегда рядом?!"
+    rox "Why does it seem like you're always around?!"
     show roxxy 3d
     show player 10
-    player_name "Не знаю."
-    player_name "Это не совсем большая школа..."
+    player_name "I dunno?"
+    player_name "It's not exactly a big school..."
     show player 5
     show roxxy 2
-    rox "Ну, я начинаю уставать от твоей тупой-"
+    rox "Well, I'm getting real sick of seeing your dorky-"
     show roxxy 1
     rox "..."
     show roxxy 1h
-    rox "... Подожди."
-    rox "Ты сделал {b}домашнее задание по французкому{/b} на сегодня?"
+    rox "... Wait a second."
+    rox "Do you have the {b}French Homework{/b} for today?"
     show roxxy 1g
     show player 12
-    player_name "... Да."
+    player_name "... Yeah."
     show player 5
     rox "..."
     show roxxy 47 with dissolve
-    rox "{b}*мммм*{/b}"
+    rox "{b}*Ahem*{/b}"
     show roxxy 48
-    rox "Я сказала тупой?"
-    rox "Потому что я хотел сказать..."
-    rox "... Красавец!"
-    rox "Да, так!"
+    rox "Did I say dorky?"
+    rox "Cause what I meant to say was..."
+    rox "... Handsome!"
+    rox "Yeah, that's it!"
     show roxxy 47
     show player 11
     player_name "..."
     show roxxy 48
-    rox "Ты занимался?"
+    rox "Have you been working out?"
     show roxxy 47
     show player 12
-    player_name "Почему ты так странно себя ведешь?"
+    player_name "Why are you acting weird?"
     show player 5
     rox "..."
     show player 12
-    player_name "... А, понятно."
-    player_name "Тебе нужно мое {b}домашнее задание по французкому{/b}."
+    player_name "... Oh, I see."
+    player_name "You want my {b}French Homework{/b}."
     show player 90
     show roxxy 50b with dissolve
     pause
     show roxxy 50 with dissolve
-    rox "Ну, если ты предлогаешь..."
+    rox "Well, if you're offering..."
     show roxxy 49
-    player_name "Ххпппп..."
+    player_name "Hmph..."
     show player 30
-    player_name "... И что я получу?"
+    player_name "... And what do I get?"
     show player 90
     show roxxy 50
-    rox "Ухх, Привилегия помогать самой красивой девушке в школе?"
+    rox "Uhh, the priviledge of helping out the prettiest girl in school?"
     show roxxy 49
     player_name "..."
     show player 30
-    player_name "Ты действительно думаешь, что ты самая красивая девушка в школе?"
+    player_name "You really think you're the prettiest girl in school?"
     show player 17
-    player_name "Ха!"
+    player_name "Hah!"
     show roxxy 31
-    rox "{b}*вздох*{/b} Прости?!" with hpunch
-    rox "... Я самая-"
+    rox "{b}*Gasp*{/b} Excuse me?!" with hpunch
+    rox "... I'm gonna-"
     show roxxy 3d
     show player 12
-    player_name "Ты что?!"
+    player_name "You're gonna what?!"
     show player 90
     show roxxy 29
     rox "..."
     show roxxy 3
-    rox "Рррр, ты поможешь мне или нет?!"
+    rox "Grr, are you gonna help me or not?!"
     show roxxy 29
     show player 35
-    player_name "Полагаю, я могу позволить тебе скопировать мою работу."
+    player_name "Hmm, I suppose I could let you copy my work."
     show player 34
     show roxxy 4
     return
 
 label french_class_roxxy_lolipop_just_once:
     show player 12
-    player_name "... Но не думай, что я буду отдавать тебе свою работу все время."
-    player_name "Мне может быть немного жаль тебя, но это не значит, что я позволю тебе ходить вокруг меня."
+    player_name "... But don't go thinking I'm gonna give you my work all the time."
+    player_name "I might feel a little sorry for you, but it doesn't mean I'll let you walk all over me."
     show player 90
     show roxxy 2
-    rox "Чччч, ТЕБЕ жалко МЕНЯ?!?!"
+    rox "Tch, YOU feel sorry for ME?!"
     show roxxy 1
     show player 10
-    player_name "Ну, ты на грани исключения из школы..."
+    player_name "Well, you are on the verge of flunking out of school..."
     show player 5
     show roxxy 3c
-    rox "Пошел ты, {b}[firstname]{/b}..."
+    rox "Screw you, {b}[firstname]{/b}..."
     show roxxy 3d
     show player 11
     player_name "..."
     show player 10
-    player_name "Тебе нужна домашняя работа или нет?"
+    player_name "Do you want the homework or not?"
     show player 5
     show roxxy 3
-    rox "... Да."
+    rox "... Yes."
     show roxxy 3d
     show player 14
-    player_name "... Скажи, \"Пожалуйста.\""
+    player_name "... Say, \"Please.\""
     show player 13
     show roxxy 3c
     rox "!!!"
     show roxxy 3b
     rox "..."
     show player 12
-    player_name "Знаешь что... забудь!"
+    player_name "You know what... Forget it!"
     show player 90
     show roxxy 3
-    rox "Нет, подожди!"
+    rox "No, wait!"
     show roxxy 3b
     rox "..."
     show roxxy 3c
-    rox "... Пожалуйста."
+    rox "... Please."
     show roxxy 3d
     show player 12
-    player_name "Пожалуйста, что?"
+    player_name "Please, what?"
     show player 90
     show roxxy 3
-    rox "{b}*вздыхает*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy 3c
-    rox "Пожалуйста, могу я скопировать твое домашнее задание?"
+    rox "Please, can I copy your homework."
     show roxxy 3b
     show player 4 with dissolve
     player_name "..."
     show player 12
-    player_name "Да, хорошо."
-    player_name "Я пойду и {b}заберу ее из своего шкафчика{/b}."
-    player_name "Сейчас вернусь."
+    player_name "Yeah, okay."
+    player_name "I'll go and {b}grab it out of my locker{/b}."
+    player_name "Be right back."
     hide player with dissolve
     rox "..."
     show roxxy 3
-    rox "Придурок..."
+    rox "Asshole..."
     hide roxxy with dissolve
     return
 
 label french_class_roxxy_lolipop_for_lolipop:
     show player 14
-    player_name "Если ты дашь мне свой леденец..."
+    player_name "If you give me your lolipop..."
     show player 13
     show roxxy 3c
-    rox "Что?"
+    rox "What?"
     show roxxy 3d
     show player 14
-    player_name "Тот леденец, который ты сосала."
+    player_name "That lolipop that you were sucking on."
     show player 12
-    player_name "Дай его мне."
+    player_name "Give it to me."
     show player 90
     show roxxy 10 at Position (xoffset=-9) with dissolve
     rox "..."
     show roxxy 11 at Position (xoffset=-9)
-    rox "Ты сезьезно?"
+    rox "Seriously?"
     show roxxy 10 at Position (xoffset=-9)
     show player 17
-    player_name "Ага."
+    player_name "Yup."
     show player 13
     show roxxy 13 at Position (xoffset=-55) with dissolve
-    rox "Ухх, Это действительно странно, но ладно..."
+    rox "Uhh, that's really weird but okay..."
     show roxxy 12 at Position (xoffset=-55)
     show player 90
     player_name "..."
     show player 92
-    player_name "Он недостаточно влажный."
+    player_name "It's not wet enough."
     show player 90
     show roxxy 13 at Position (xoffset=-55)
     rox "!!!"
-    rox "Ты отвратителен!"
+    rox "You're disgusting!"
     show roxxy 12 at Position (xoffset=-55)
     show player 92
-    player_name "Эй, ты хочешь домашнюю работу или нет?"
+    player_name "Hey, you want the homework or not?"
     show player 90
     rox "..."
     show roxxy 13 at Position (xoffset=-55)
-    rox "Ладно!"
+    rox "Fine!"
     show roxxy 7 with dissolve
     pause
     show roxxy 8 at Position (xoffset=-2) with dissolve
     pause
     show roxxy 12 at Position (xoffset=-55) with dissolve
-    rox "Вот, держи, извращенец!"
+    rox "Here ya go, Perv!"
     show player 97
     show roxxy 3b
     with dissolve
-    player_name "Спасибки!"
+    player_name "Thanks!"
     show player 93 with dissolve
     show player 94
-    player_name "Я пойду и {b}заберу ее из своего шкафчика{/b}."
-    player_name "Сейчас вернусь."
+    player_name "I'll go and {b}grab it out of my locker{/b}."
+    player_name "Be right back."
     hide player with dissolve
     show roxxy 14
     rox "..."
     show roxxy 3c
-    rox "Чудак..."
+    rox "Weirdo..."
     hide roxxy with dissolve
     return
 
@@ -1367,25 +1367,25 @@ label frenchclassroom_roxxy_dexter_alcohol_fight:
     scene french_class_c
     show player 4 at left
     with dissolve
-    player_name "( Хмм? )"
+    player_name "( Hmm? )"
     show player 5 with dissolve
-    player_name "( {b}Рокси{/b} пропускает уроки сегодня? )"
-    player_name "( Это не хорошо, {b}Мисс Биссетт{/b} возможно, ее выгонит... )"
+    player_name "( Is {b}Roxxy{/b} skipping class today? )"
+    player_name "( That's not good, {b}Miss Bissette{/b} might have her expelled... )"
     show eve 2 at right with dissolve
     eve "{b}[firstname]{/b}!"
     show eve 5
     show player 14
-    player_name "Привет, {b}Ева{/b}."
-    player_name "Что случилось?"
+    player_name "Hey, {b}Eve{/b}."
+    player_name "What's up?"
     show player 13
     show eve 2
-    eve "{b}Рокси{/b} и {b}Декстер{/b} опять ругаются на {b}баскетбольной площадке{/b}!"
+    eve "{b}Roxxy{/b} and {b}Dexter{/b} are going at it again on the {b}basketball court{/b}!"
     show player 11
-    eve "Пойдем, мы не можем это пропустить!"
+    eve "C'mon, we're gonna miss it!"
     show eve 5
     show player 10
-    player_name "Опять?!"
-    player_name "Хорошо, пошли."
+    player_name "Again?!"
+    player_name "Alright, let's go."
     hide player
     hide eve
     with dissolve
@@ -1396,247 +1396,247 @@ label frenchclassroom_roxxy_ask_exam_copy:
     show roxxy 32 at right
     show teacher 2f at left
     with dissolve
-    bis "Хорошо, что твои оценки наконец улучшаются, {b}Рокси{/b}."
-    bis "... Но я должна напомнить тебе о предстоящих экзаменах."
-    bis "Они составят огромную часть вашей общей оценки."
-    bis "Если ты не пройдешь их, боюсь, нам придется снова отстранить тебя от группы поддержки..."
+    bis "It is good your grades are finally improving, {b}Roxxy{/b}."
+    bis "... But I must remind you about the upcoming exams."
+    bis "They will make up a huge portion of your overall grade."
+    bis "If you fail to pass them, I fear we will have to suspend you from the cheerleading squad once more..."
     show teacher 3f
-    bis "Возможно, навсегда."
+    bis "Perhaps for good this time."
     show teacher 1f
     show roxxy 2b with dissolve
     rox "!!!"
     show teacher 2f
-    bis "Ты должна учиться усерднее, да?"
-    bis "Экзамен будет охватывать весь материал, который мы изучили в этом году."
+    bis "You must be studying hard, yes?"
+    bis "The exam will cover all of the material we've learned this year."
     show teacher 3f
-    bis "В том числе части которые ты пропустила."
+    bis "Including the portions you neglected."
     show teacher 1f
     show roxxy 2c
-    rox "... Но-"
-    rox "Я не..."
+    rox "... But-"
+    rox "I don't..."
     show roxxy 3b
     show teacher 3f
-    bis "Ах Ах Ах!"
-    bis "Ты зря теряешь время споря, {b}Рокси{/b}."
+    bis "Ah Ah Ah!"
+    bis "Your time is wasted with this arguing, {b}Roxxy{/b}."
     show teacher 12f
-    bis "Лучше потратить время на учебу, да?"
+    bis "Better to spend your time studying, yes?"
     hide teacher with dissolve
     show roxxy 1o with dissolve
     pause
     show player 14 at left with dissolve
-    player_name "Привет Рок-"
+    player_name "Hey Rox-"
     show player 11
     player_name "..."
     show player 10
-    player_name "Все в порядке?"
-    player_name "Ты выглядишь грустной."
+    player_name "Is everything alright?"
+    player_name "You look kinda sad."
     show player 5
     show roxxy 3 with dissolve
-    rox "Из-за этой болтовни меня снова вышвырнут из команды!"
+    rox "Ugh, that mush mouth is gonna get me kicked off the team again!"
     show roxxy 3d
     show player 12
-    player_name "Ты о чем?"
+    player_name "What are you talking about?"
     show player 5
     show roxxy 3
-    rox "{b}Мисс Биссетт{/b}!"
-    rox "Если я не сдам ее экзамен, они снова меня отстранят от группы поддержки."
+    rox "{b}Miss Bissette{/b}!"
+    rox "If I don't pass her exam, they'll suspend from the cheerleading squad again."
     show roxxy 3d
     show player 12
-    player_name "... Я думал, твои оценки улучшаются?"
+    player_name "... I thought your grades were getting better?"
     show player 5
     show roxxy 2
-    rox "Да, но мне нужно знать, что мы проходили ранее в этом году."
+    rox "Yeah but I need to know the stuff we covered earlier this year."
     show roxxy 3c
-    rox "Что, черт побери, мне делать, {b}[firstname]{/b}?"
-    rox "Черлидинг - единственная часть школы, которая мне нравится."
+    rox "What the hell am I going to do, {b}[firstname]{/b}?"
+    rox "Cheerleading is the only part of school that I actually like."
     show roxxy 3d
     show player 10
-    player_name "{b}Рокси{/b}..."
+    player_name "{b}Roxxy{/b}..."
     show player 5
     show roxxy 3
-    rox "Я не могу тратить все свое время на обучение...."
-    rox "... Не со всем, что происходит дома в последнее время."
+    rox "I can't exactly spend all my time studying either...."
+    rox "... Not with everything that's been happening at home lately."
     show roxxy 32 with dissolve
     player_name "..."
     show roxxy 33
-    rox "Что мне делать, {b}[firstname]{/b}?!"
+    rox "What am I going to do, {b}[firstname]{/b}?!"
     show roxxy 32
     show player 10
-    player_name "Я не знаю."
+    player_name "I don't know."
     show player 5
     show roxxy 33b
     pause
     show roxxy 32
     show player 4 with dissolve
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 35 with dissolve
-    player_name "... Эй, подожди-ка секундочку!"
-    player_name "Разве твои друзья не говорили, что {b}Директриса Смит{/b} хранит копии экзаменов у себя дома?"
+    player_name "... Hey, wait a second!"
+    player_name "Didn't your friends say something about {b}Principal Smith{/b} keeping copies of the exams in her house?"
     show player 13 with dissolve
     show roxxy 33
-    rox "Хмм?"
+    rox "Hmm?"
     show roxxy 32
     show player 14
-    player_name "{b}Бекка{/b} и {b}Мисси{/b}!"
-    player_name "Они говорили об этом в раздевалке на днях..."
+    player_name "{b}Becca{/b} and {b}Missy{/b}!"
+    player_name "They were talking about it in the locker room the other day..."
     show player 13
     show roxxy 33
-    rox "Где?"
-    rox "... Я игнорирую половину того, что говорят эти тупые шлюхи."
+    rox "Were they?"
+    rox "... I tend to ignore half of what those dumb skanks say."
     show roxxy 32
     show player 29 with dissolve
-    player_name "Хех, я почти уверен, что это то, о чем они говорили."
+    player_name "Heh, I'm pretty sure that's what they were talking about."
     show player 13 with dissolve
     show roxxy 1l
-    rox "... Но ты же не думаешь, что..."
-    rox "Я имею в виду, ты думаешь это правда?"
+    rox "... But you don't really think..."
+    rox "I mean, it's gotta be made up, right?"
     show roxxy 1k
     show player 10
-    player_name "Хмм, не знаю."
-    player_name "{b}Директриса Смит{/b} помешана на контроле всего."
+    player_name "Hmm, I dunno."
+    player_name "{b}Principal Smith{/b} is a control freak after all."
     show player 14
-    player_name "Возможно, она хранит копии у себя дома."
+    player_name "It's possible she keeps copies in her home."
     show player 13
     show roxxy 1g with dissolve
     rox "..."
     show roxxy 1h
-    rox "Ладно, думаю, тебе придется вломиться и найти их для меня..."
+    rox "Alright, I guess you'll just have to break in and find them for me..."
     show roxxy 1g
     show player 23
-    player_name "Что?! Мне?!"
+    player_name "What?! Me?!"
     show player 22
     show roxxy 2
-    rox "Ну, да!"
+    rox "Well, yeah!"
     show roxxy 1
     show player 12
-    player_name "Никогда!"
-    player_name "Это твои оценки! Ты и иди!"
+    player_name "No way!"
+    player_name "It's your grades! You do it!"
     show player 90
     show roxxy 2c
-    rox "Ты заставишь меня это сделать?!"
+    rox "You're gonna make me do it?!"
     show roxxy 2
-    rox "Я думала, ты настоящий мужчина..."
+    rox "I thought you were a real man..."
     show roxxy 1
     show player 5
     player_name "..."
     show roxxy 2
-    rox "Настоящий мужчина не заставит девушку делать такие опасные вещи!"
+    rox "A real man wouldn't make the girl do dangerous stuff like that!"
     show roxxy 1
     show player 10
-    player_name "Ну, да но..."
+    player_name "Well, yeah but..."
     show roxxy 48 at Position (xoffset=-34) with dissolve
     show player 433
-    rox "Ну, {b}[firstname]{/b}. Пожалуйста..."
+    rox "C'mon, {b}[firstname]{/b}. Please..."
     show roxxy 47 at Position (xoffset=-34)
     player_name "..."
     show roxxy 48 at Position (xoffset=-34)
-    rox "Не хочешь еще раз побыть моим рыцарем в сияющих доспехах?!"
+    rox "Won't you be my Knight in Shinning armor one more time?!"
     show roxxy 47 at Position (xoffset=-34)
     show player 427
-    player_name "Я..."
+    player_name "I uhh..."
     show player 434
     show roxxy 50c at Position (xoffset=-34) with dissolve
-    rox "Просто подумай о том, что скажут {b}Бекка{/b} и {b}Мисси{/b} когда я скажу им, какой ты храбрый."
-    rox "Я могу рассказать им все об этом в следующий раз, когда мы все вместе будем на пляже!"
+    rox "Just think about what {b}Becca{/b} and {b}Missy{/b} will say when I tell them how brave you are."
+    rox "I can tell them all about it next time we're all at the beach together!"
     show roxxy 50 at Position (xoffset=-23) with dissolve
-    rox "Помнишь пляж, {b}[firstname]{/b}?"
-    rox "... Помнишь нашу маленькую игру в бутылочку?"
+    rox "Remember the beach, {b}[firstname]{/b}?"
+    rox "... Remember our little game of spin the bottle?"
     show roxxy 49 at Position (xoffset=-23)
     show player 427 with dissolve
-    player_name "{b}*глоток*{/b} Д-да..."
+    player_name "{b}*Gulp*{/b} Y-yeah..."
     show player 434
     show roxxy 48 at Position (xoffset=-34)
-    rox "Ты мне поможешь, не так ли?"
+    rox "You'll help me out, won't you?"
     show roxxy 47 at Position (xoffset=-34)
     show player 427 with dissolve
-    player_name "Ну уххх..."
+    player_name "Uh huh..."
     show player 434
     show roxxy 4 with dissolve
-    rox "Хехехе! Я знала, что ты сделаешь это!"
-    rox "Спасибо, {b}[firstname]{/b}!"
+    rox "Hehehe! I knew you would!"
+    rox "Thanks, {b}[firstname]{/b}!"
     show roxxy 1
     show player 24
-    player_name "{b}*вздыхая*{/b}"
+    player_name "{b}*Sigh*{/b}"
     show player 10
-    player_name "Думаю, мы должны {b}отправиться к ней домой сегодня вечером{/b}."
+    player_name "I guess, {b}we should head to her house this afternoon{/b}?"
     show player 5
     show roxxy 2c
-    rox "А?!"
+    rox "Huh?!"
     show roxxy 2
-    rox "Нет, это ужасная идея!"
+    rox "No, that's a terrible idea!"
     show roxxy 1
     show player 12
-    player_name "Почему это ужасная идея?"
-    player_name "Она будет в школе."
+    player_name "How is that a terrible idea?"
+    player_name "She'll be here at school."
     show player 90
     show roxxy 2
-    rox "Нельзя вламываться в чужой дом средь бела дня!"
-    rox "Соседи обязательно вызовут полицию!"
+    rox "You can't break into someone's house in broad daylight!"
+    rox "The neighbors will call the cops on you for sure!"
     show roxxy 1
     show player 10
-    player_name "Да, но..."
+    player_name "Yeah, but..."
     show player 5
     show roxxy 1b
-    rox "Ты должен проникнуть {b}ночью{/b}!"
-    rox "{b}Директриса Смит{/b} обычно здесь задерживается допоздна, так что у тебя должно быть достаточно времени."
+    rox "You should break in {b}at night{/b}!"
+    rox "{b}Principal Smith{/b} usually stays here late anyways, so you should have plenty of time."
     show roxxy 1
     show player 30
-    player_name "Секундочку..."
-    player_name "Ты идешь со мной, так?"
+    player_name "Wait a second..."
+    player_name "You are coming with me, right?"
     show player 90
     show roxxy 50 at Position (xoffset=-23) with dissolve
-    rox "Пффф, это тело не предназначено для бега, {b}[firstname]{/b}..."
+    rox "Pfft, this body wasn't built for running, {b}[firstname]{/b}..."
     show player 433
-    rox "Я только буду задерживать тебя."
+    rox "I'd just slow you down."
     show roxxy 49 at Position (xoffset=-23)
     show player 434
     player_name "..."
     show roxxy 48 at Position (xoffset=-34) with dissolve
-    rox "Кроме того, такой сильный мужчина, как ты..."
-    rox "Тебе ведь не нужна помощь, правда?"
+    rox "Besides, a big strong man, like you..."
+    rox "You don't need any help, do you?"
     show roxxy 47 at Position (xoffset=-34)
     show player 427
-    player_name "... Нуххх."
+    player_name "... Nuh uh."
     show player 434
     show roxxy 2 with dissolve
-    rox "Хе-хе, рада это слышать!"
+    rox "Hehe, glad to hear it!"
     show roxxy 1
     show player 24
-    player_name "{b}*вздыхая*{/b}"
+    player_name "{b}*Sigh*{/b}"
     show player 10
-    player_name "Хорошо, тогда, думаю, я {b}вломлюсь в дом Директрисы Смит сегодня вечером{/b}."
+    player_name "Okay then, I guess {b}I will break into Principal Smith's house tonight{/b}."
     show player 25
-    player_name "... Один."
+    player_name "... Alone."
     show player 5
     show roxxy 1b
-    rox "Ты смошешь, {b}[firstname]{/b}!"
+    rox "You can do it, {b}[firstname]{/b}!"
     show roxxy 2
-    rox "{b}Только не забудь про экзамены{/b}!"
+    rox "{b}Just don't forget the exams{/b}!"
     show roxxy 1
     show player 12
-    player_name "Да, не забуду."
+    player_name "Yeah, I won't."
     show player 90
     show roxxy 4
-    rox "Удачи!"
+    rox "Good luck!"
     hide roxxy
     hide player
     with dissolve
     pause
     show player 37 with dissolve
     player_name "..."
-    player_name "Ух ты, я правда только что согласился вломиться в дом {b}Директрисы Смит{/b}?!"
+    player_name "Whoa, did I really just agree to break into {b}Principal Smith's house{/b}?!"
     show player 10 with dissolve
-    player_name "Как это {b}Рокси{/b} смогла меня уболтать?!"
+    player_name "How the hell did {b}Roxxy{/b} talk me into that?!"
     show player 4 with dissolve
-    player_name "Помню, я подумал, что это плохая идея, а потом ..."
+    player_name "I remember thinking it was a bad idea and then..."
     show player 11 with dissolve
     pause
     show player 10
-    player_name "Титьки."
+    player_name "Tits."
     show player 11
     pause
     show player 24
-    player_name "Она хитрая..."
+    player_name "She's crafty..."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

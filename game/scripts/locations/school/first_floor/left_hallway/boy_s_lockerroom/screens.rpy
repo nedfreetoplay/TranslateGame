@@ -1,4 +1,6 @@
-screen boys_lockerroom:
+screen boys_lockerroom():
+    use mods_screens_hook("boys_lockerroom")
+
 
     if not game.timer.is_dark():
         if L_school_shower.is_here(M_roxxy):

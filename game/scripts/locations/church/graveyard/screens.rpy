@@ -1,4 +1,6 @@
-screen church_graveyard:
+screen church_graveyard():
+    use mods_screens_hook("church_graveyard")
+
     if Game.is_halloween():
         add game.timer.image("backgrounds/location_church_graveyard_halloween_day{}.jpg")
     else:
@@ -42,9 +44,9 @@ screen church_graveyard:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("church_graveyard"), If(M_diane.finished_state(S_diane_couch_crashing), If(M_diane.finished_state(S_diane_barn_news), Jump(game.dialog_select("barn_garden_dialogue")), Jump(game.dialog_select("barn_build_front_dialogue"))), Jump(game.dialog_select("dianes_garden_dialogue")))
 
-screen cat_name_input:
+screen cat_name_input():
     add NameInputText("boxes/popup_name_cat.png", cat_name, "c87efe")
-    add Input(size = 24, color = "#c87efe", default = "", changed = stray_cat_name, length = 12, xpos = 313, ypos = 329, allow = " абвгдеёжзийклмнопрстуфхцчшъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+    add Input(size = 24, color = "#c87efe", default = "", changed = stray_cat_name, length = 12, xpos = 313, ypos = 329, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,5 +1,6 @@
 label comic_store_dialogue:
     $ player.go_to(L_comicstore)
+
     if June.started(june_cosplay) and not player.has_item("orcette_cosplay"):
         call expression game.dialog_select("comic_store_june_cosplay_started")
 
@@ -14,5 +15,11 @@ label comic_store_dialogue:
     elif L_comicstore.first_visit:
         call expression game.dialog_select("comic_store_first_visit")
         $ L_comicstore.visited()
+    $ game.main()
+
+label comic_store_jenny_buy_mask_callback:
+    $ renpy.scene(layer='screens')
+    call expression game.dialog_select("comic_store_bought_cyclone_mask")
+    $ M_jenny.trigger(T_jenny_bought_mask)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

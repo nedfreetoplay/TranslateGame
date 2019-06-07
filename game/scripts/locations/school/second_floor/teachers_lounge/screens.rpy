@@ -1,4 +1,6 @@
-screen teachers_lounge:
+screen teachers_lounge():
+    use mods_screens_hook("teachers_lounge")
+
     add game.timer.image("backgrounds/location_school_lounge_day{}.jpg")
 
     imagebutton:

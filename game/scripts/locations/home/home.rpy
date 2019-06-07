@@ -42,10 +42,10 @@ label home_front:
         $ M_mom.set("sex speed", .3)
         $ animated = False
         menu:
-            "Еще немного.":
+            "A little longer.":
                 call expression game.dialog_select("home_front_mom_car_fixed_check_car_little_longer")
                 jump expression game.dialog_select("mom_car_jerk_loop")
-            "Выйти из машины.":
+            "Leave the car.":
 
                 call expression game.dialog_select("home_front_mom_car_fixed_check_car_finished")
 

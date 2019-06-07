@@ -1,4 +1,6 @@
-screen home_front:
+screen home_front():
+    use mods_screens_hook("home_front")
+
     add player.location.background
 
     imagebutton:
@@ -26,7 +28,9 @@ screen home_front:
         hover HoverImage(game.timer.image("objects/object_door_36{}.png"))
         action Hide("home_front"), Function(renpy.call, "home_lock_check", "Garage", "home_garage")
 
-screen mailbox:
+screen mailbox():
+    use mods_screens_hook("mailbox")
+
     if game.timer.is_dark():
         add "backgrounds/location_player_mailbox_night.jpg"
     else:
@@ -34,7 +38,7 @@ screen mailbox:
 
     imagebutton:
         idle "backgrounds/menu_ground.png"
-        action Hide("mailbox"), Jump("home_front")
+        action HideAll(), Jump("home_front")
 
     if erik.completed(erik_orcette) and not player.has_item("orcette") and not erik.known(erik_orcette_2) and orcette_mail_lock:
         imagebutton:
@@ -43,6 +47,14 @@ screen mailbox:
             idle game.timer.image("mailbox_package{}")
             hover HoverImage(game.timer.image("mailbox_package{}"))
             action Hide("mailbox"), Jump("player_mailbox_dialogue")
+
+    elif game.mail["player"] == "m_bank_statement":
+        imagebutton:
+            focus_mask True
+            pos (243,428)
+            idle game.timer.image("objects/object_mailbox_item06{}.png")
+            hover HoverImage(game.timer.image("objects/object_mailbox_item06{}.png"))
+            action Show("bank_statement")
 
     elif game.mail["player"] == "m_pizza_pamphlet":
         imagebutton:

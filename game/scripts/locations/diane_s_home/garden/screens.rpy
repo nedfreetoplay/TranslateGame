@@ -1,4 +1,6 @@
-screen dianes_garden:
+screen dianes_garden():
+    use mods_screens_hook("dianes_garden")
+
     add L_diane_garden.background
 
     imagebutton:
@@ -73,7 +75,7 @@ screen dianes_garden:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("dianes_garden"), Call("diane_house_lock_check", L_diane_yard)
 
-screen garden01_options:
+screen garden01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("garden01_options")

@@ -1,19 +1,21 @@
 
-image cloud_animation:
-    contains:
-        xalign -0.3
-        "backgrounds/menu_cloud_large.png"
-        linear 90.0 xpos -1.0
+image menu_cloud_large:
+    subpixel True
+    'backgrounds/menu_cloud_large.png'
+    block:
+        pos (590, 65)
+        linear 110.0 xpos -320
         repeat
-    contains:
 
-        subpixel True
-        xalign -0.2
-        xoffset 125.0
-        yoffset 110.0
-        "backgrounds/menu_cloud_small.png"
-        linear 175.0 xpos -1.0
+image menu_cloud_small:
+    subpixel True
+    'backgrounds/menu_cloud_small.png'
+    block:
+        pos (600, 175)
+        linear 155.0 xpos -170
+        pause 30
         repeat
+
 
 
 image webcam_loading_circle:
@@ -108,20 +110,6 @@ image player_arms 488e_488f:
     pause .4
     repeat
 
-image playersex 86_85:
-    Transform("playersex 86")
-    pause .4
-    Transform("playersex 85")
-    pause .4
-    repeat
-
-image playersex 96_97:
-    Transform("playersex 96")
-    pause .4
-    Transform("playersex 97")
-    pause .4
-    repeat
-
 image playersex 134_135_136_137:
     Transform("playersex 134")
     pause M_jenny.get("sex speed")
@@ -131,6 +119,13 @@ image playersex 134_135_136_137:
     pause M_jenny.get("sex speed")
     Transform("playersex 137")
     pause M_jenny.get("sex speed")
+    repeat
+
+image player 316_317:
+    Transform("characters/player/char_player_316.png")
+    pause .4
+    Transform("characters/player/char_player_317.png")
+    pause .4
     repeat
 
 image location_debbiebed 2_3 = Animation("backgrounds/location_home_debbiebed02.jpg", .4, "backgrounds/location_home_debbiebed03.jpg", .4)
@@ -475,7 +470,6 @@ image debbie_robe 194bf_195bf_196bf:
     repeat
 
 
-image shower 05d_05e = Animation("backgrounds/location_home_shower_05d.jpg", .3, "backgrounds/location_home_shower_05e.jpg", .3)
 image jenny 69_68:
     Transform("jenny 69")
     pause .4
@@ -995,6 +989,13 @@ image junesex 4_5_6_7_8:
     pause M_june.get("sex speed")
     repeat
 
+
+image telescope_mia_masturbate:
+    Transform("backgrounds/location_telescope_mia_day03a.jpg")
+    pause .4
+    Transform("backgrounds/location_telescope_mia_day03b.jpg")
+    pause .4
+    repeat
 
 image mias 7_8:
     Transform("mias 7")

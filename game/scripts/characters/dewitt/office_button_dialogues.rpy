@@ -1,8 +1,8 @@
 label dewitt_dialogue_office_dewitt_eve_meet_up:
     scene expression game.timer.image("dewitt_office_c{}")
     show player 10 with dissolve
-    player_name "Я должен дать ей немного пространства на время."
-    player_name "И мне также следует встретится с {b}Евой{/b} в {b}парке ночью{/b}."
+    player_name "I should give her some space for the time being."
+    player_name "And I should also visit {b}Eve{/b} in the {b}park at night{/b}."
     return
 
 label dewitt_dialogue_office_dewitt_end_intro:
@@ -10,24 +10,24 @@ label dewitt_dialogue_office_dewitt_end_intro:
     show dewitt 18 at left
     show player 14f at right
     with dissolve
-    player_name "Привет, {b}Мелоди{/b}!"
+    player_name "Hey there, {b}Melody{/b}!"
     show player 13f
     show dewitt 19
-    dewitt "Ммм, привет {b}[firstname]{/b}!"
-    dewitt "Я надеялась, что ты придешь ко мне ночью..."
+    dewitt "Mmm, hey {b}[firstname]{/b}!"
+    dewitt "I was hoping you'd come visit me tonight..."
     show dewitt 18
     show player 14f
-    player_name "Хех, ты в настроении немного повеселиться?"
+    player_name "Heh, you in the mood for a bit of fun?"
     show player 13f
     show dewitt 19
-    dewitt "Я всегда в настроении для тебя, {b}[firstname]{/b}."
-    dewitt "Ты хочешь получить право на это или я должна танцевать для тебя в первой?"
+    dewitt "I'm always in the mood for you, {b}[firstname]{/b}."
+    dewitt "You wanna get right to it or should I dance for you first?"
     show dewitt 18
     return
 
 label dewitt_dialogue_office_dewitt_end_dance:
     show dewitt 19
-    dewitt "Тогда присаживайся, сахарок."
+    dewitt "Have a seat then, sugar."
     scene expression game.timer.image("dewitt_office_sex{}"):
     $ M_dewitt.set("sex speed", 0.125)
     show dewitts 1
@@ -39,17 +39,17 @@ label dewitt_dialogue_office_dewitt_end_dance:
     hide dewitt
     show expression AnimatedImage("dewitt_twerk", [1,2,3,4,5,6,7,8,9,10], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
     with dissolve
-    dewitt "Ммм..."
-    dewitt "Тебе нравится, детка?"
-    player_name "Ох, да!"
+    dewitt "Mmm..."
+    dewitt "You like that, Baby?"
+    player_name "Oh yeah!"
     show player dewitts 1b with hpunch
     show player dewitts 1 with dissolve
-    dewitt "О!"
-    dewitt "Мне нравится, когда ты так делаешь!"
+    dewitt "Oh!"
+    dewitt "I love it when you do that!"
     pause
-    dewitt "Я думаю, что я должна снять часть одежды!"
-    dewitt "Как ты думаешь, сахорок?"
-    player_name "Д-да!"
+    dewitt "I think I should lose some of these clothes!"
+    dewitt "What do you think, sugar?"
+    player_name "Y-yeah!"
     hide dewitts
     hide dewitt_twerk
     hide dewitt
@@ -64,35 +64,35 @@ label dewitt_dialogue_office_dewitt_end_dance:
     show dewitt 32b with dissolve
     pause
     show dewitt 29 with dissolve
-    dewitt "Давай сменим музыку!"
+    dewitt "Let's change up the music too!"
     show dewitt 35b at Position (xoffset=354) with dissolve
     pause
 
     show player 626 zorder 0 at Position (xpos=550) with dissolve
     pause
     show dewitt 36 at Position (xoffset=354)
-    dewitt "И что ты там делаешь?"
-    dewitt "Разве ты не слышал, что нельзя трогать танцоров?"
+    dewitt "And just what are you doing back there?"
+    dewitt "Haven't you heard you're not supposed to touch the dancers?"
     show dewitt 35 at Position (xoffset=354)
 
     show player 629
     show player_hand 629b_629c zorder 2 at Position (xpos=550)
     with dissolve
-    player_name "Ууупс..."
+    player_name "Whoops..."
     show player 628
     show dewitt 36 at Position (xoffset=354)
-    dewitt "Непослушный мальч-"
+    dewitt "Naughty bo-"
 
     show player_hand 629d
     show dewitt 37 at Position (xoffset=290) with hpunch
     show player 626
     hide player_hand
     with dissolve
-    dewitt "Эй...!"
+    dewitt "Hey there!"
     show dewitt 38 at Position (xoffset=290)
     show player 627
     with dissolve
-    dewitt "Вернись на диван, шалун!"
+    dewitt "Get back on that couch, naughty!"
 
     $ M_dewitt.set("sex speed", 0.125)
     scene expression game.timer.image("dewitt_office_sex{}"):
@@ -100,23 +100,23 @@ label dewitt_dialogue_office_dewitt_end_dance:
     show dewitt cloths 1c
     show player dewitts 1 zorder 2 at left
     with dissolve
-    dewitt "Ммм, ну как я выгляжу сейчас?"
+    dewitt "Mmm, how's it looking now?"
     hide dewitts
     hide dewitt
     show expression AnimatedImage("dewitt_twerk", ["1c","2c","3c","4c","5c","6c","7c","8c","9c","10c"], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
     with dissolve
-    player_name "Очень сексуально, {b}Мелоди{/b}!"
-    dewitt "Хех, спасибо, сахарок!"
+    player_name "You're so sexy, {b}Melody{/b}!"
+    dewitt "Heh, thanks, sugar!"
     pause
     show player dewitts 1b with hpunch
     show player dewitts 1 with dissolve
-    dewitt "Ммм!"
-    dewitt "Шалунишка!"
-    dewitt "Ты делаешь меня такой мокрой!"
+    dewitt "Mmm!"
+    dewitt "You naughty boy!"
+    dewitt "You're getting me so wet!"
     pause
-    dewitt "Ты готов к финалу?"
-    player_name "Да, мэм!"
-    dewitt "Хехе, следи внимательно..."
+    dewitt "You ready for the finale?"
+    player_name "Yes, Ma'am!"
+    dewitt "Hehe, watch closely..."
     scene black with fade
     pause 0.25
     $ M_dewitt.set("sex speed", 0.125)
@@ -124,29 +124,29 @@ label dewitt_dialogue_office_dewitt_end_dance:
     show dewitts 1
     show player dewitts 1 zorder 2 at left
     with dissolve
-    dewitt "Ммм, смотри как работает моя киска, малыш!"
+    dewitt "Mmm, watch me work this pussy, Baby!"
     hide dewitts
     show expression AnimatedImage("dewitt_twerk", ["1b","2b","3b","4b","5b","6b","7b","8b","9b","10b"], M_dewitt) as dewitt_twerk at Position(xalign = 0.55, yalign = 0.0)
     with dissolve
     pause
     show player dewitts 1b with hpunch
     show player dewitts 1 with dissolve
-    dewitt "Трахни!"
-    dewitt "Я не могу больше терпеть, сахорок!"
-    dewitt "Мне нужен этот большой член!"
+    dewitt "Fuck!"
+    dewitt "I can't take it much longer, sugar!"
+    dewitt "I need that big dick!"
     pause
     return
 
 
 label dewitt_dialogue_office_dewitt_end_bj:
     show player 14f
-    player_name "Не могли бы вы снова дать мне BJ?"
+    player_name "Would you be able to give me a BJ again?"
     show player 13f
     show dewitt 19 with dissolve
-    dewitt "С удовольствием!"
-    dewitt "Ты же знаешь, я уже играла на нескольких флейтах."
-    dewitt "Но твоя флейта - лучшее, что я имела удовольствие обхватить губами."
-    dewitt "Но хватит разговоров, позволь мне дать тебе еще одно частное представление."
+    dewitt "I'd love to!"
+    dewitt "You know I've played a few flutes before."
+    dewitt "But your skin flute is the best I've ever had the pleasure of wrapping my lips around."
+    dewitt "But enough talk let me give you another private performance."
     scene black with fade
 
     $ M_dewitt.set("sex speed", 0.175)
@@ -166,14 +166,14 @@ label dewitt_dialogue_office_dewitt_end_bj:
 
 label dewitt_dialogue_office_dewitt_end_sex:
     show dewitt 19
-    dewitt "Я надеялась, что ты захочешь прыгнуть прямо сюда!"
-    dewitt "Давайте посмотрим, кто быстрее всех появится из одежды!"
+    dewitt "I was hoping you wanted to jump right in!"
+    dewitt "Let's see who can get out of their clothes the quickest!"
     show dewitt 20 with dissolve
     show player 26f
-    player_name "А обратный отсчет?"
+    player_name "What no count down?"
     show dewitt 31f with dissolve
     show player 8f with dissolve
-    dewitt "Нет!"
+    dewitt "Nope!"
     show dewitt 32f with dissolve
     show player 261 with dissolve
     pause
@@ -182,10 +182,10 @@ label dewitt_dialogue_office_dewitt_end_sex:
     show player 263 with dissolve
     pause
     show dewitt 19b
-    dewitt "Похоже, что я выиграла!"
-    dewitt "Теперь заставь меня кончить!"
+    dewitt "Looks like I won!"
+    dewitt "Now make me cum!"
     show player 262
-    player_name "Да, мэм!"
+    player_name "Yes, Ma'am!"
     label dewitt_twerk_end:
         scene black with fade
         pause 0.25
@@ -193,13 +193,13 @@ label dewitt_dialogue_office_dewitt_end_sex:
         show dewitts 1
         show player dewitts 2 zorder 2 at left
         with dissolve
-        dewitt "Дай мне, {b}[firstname]{/b}!"
+        dewitt "Give it to me, {b}[firstname]{/b}!"
         hide player
         show dewitts 3 at left
         with dissolve
-        dewitt "Хватит играть там! Я не могу ждать!"
+        dewitt "Stop playing back there! I can't wait!"
         show dewitts 4
-        dewitt "Сейчас, сахарок..."
+        dewitt "Right here, sugar..."
         show dewitts 5 with dissolve
         pause
         $ M_dewitt.set("sex speed", 0.125)
@@ -212,32 +212,32 @@ label dewitt_dialogue_office_intro:
     show dewitt 1b at left
     show player 14f at right
     with dissolve
-    player_name "Здравствуйте, {b}Мисс Девитт{/b}."
+    player_name "Hello, {b}Miss Dewitt{/b}."
     show player 13f
     show dewitt 2b
-    dewitt "Привет, {b}[firstname]{/b}!"
-    dewitt "Тебе что-то нужно?"
+    dewitt "Hey there, {b}[firstname]{/b}!"
+    dewitt "Did you need something?"
     show dewitt 1b
     return
 
 label dewitt_dialogue_office_flute_lessons:
     show player 26f
-    player_name "Я надеялся, что вы сможете научить меня играть на флейте."
+    player_name "I was hoping you could help teach me how to master my flute."
     show player 13f
     show dewitt 19 with dissolve
-    dewitt "Я надеялась, что ты спросишь!"
-    dewitt "Приходи сюда сегодня вечером и мы сможем поиграть вместе!"
+    dewitt "I was hoping you were going ask!"
+    dewitt "Meet me here tonight and we can play together!"
     hide player
     show dewitt 6 at right
     with dissolve
-    dewitt "И не опаздывай, а то мне придется играть одной."
+    dewitt "And don't be late or I'll just have to play solo."
     return
 
 label dewitt_dialogue_office_leave:
     show player 14f
-    player_name "Не сейчас."
+    player_name "Not at the moment."
     show player 13f
     show dewitt 2b
-    dewitt " Что ж, хорошего дня!"
+    dewitt "Alright. Well, have an awesome day!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

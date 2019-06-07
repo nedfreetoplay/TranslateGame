@@ -1,4 +1,6 @@
-screen eriks_house_entrance tag eriks_house:
+screen eriks_house_entrance() tag eriks_house:
+
+
     add game.timer.image("backgrounds/location_erik_house_inside_day{}.jpg")
 
     imagebutton:

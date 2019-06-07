@@ -1,4 +1,6 @@
-screen yoga_room:
+screen yoga_room():
+    use mods_screens_hook("yoga_room")
+
     add game.timer.image("backgrounds/location_gym_yoga_day{}.jpg")
 
     if player.location.is_here(M_mrsj):

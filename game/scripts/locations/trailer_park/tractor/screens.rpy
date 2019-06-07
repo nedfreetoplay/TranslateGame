@@ -1,4 +1,6 @@
-screen tractor:
+screen tractor():
+    use mods_screens_hook("tractor")
+
     add L_trailer_tractor.background
 
     if not game.timer.is_dark():

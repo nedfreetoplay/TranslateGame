@@ -4,16 +4,12 @@ init python:
     event_wait_till = 999999
     anim_toggle = True
     animated = False
-    hallway_count= 0
-    training_done = False
     sis_lastwebcam_show_seen = False
     sis_watch_tv_tonight = False
     june_hang_out = False
     mrsj_filled = False
     erik_funky = False
-    training_count = 0
     shower_door_count = 0
-    stairs_dialogue_count = 0
     changing_count = 0
     backroom_count = 0
 
@@ -29,9 +25,6 @@ init python:
     connected = False
     ronda_after_swimming = False
 
-    diary_scene = False
-
-    MC_comp_locked = True
     poker_bot02 = ""
     rap_opponent = ""
     sis_cheerleader_sex2_menu = False

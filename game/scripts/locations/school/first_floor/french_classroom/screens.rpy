@@ -1,4 +1,6 @@
-screen french_classroom:
+screen french_classroom():
+    use mods_screens_hook("french_classroom")
+
     add game.timer.image("backgrounds/location_school_french{}.jpg")
 
     imagebutton:

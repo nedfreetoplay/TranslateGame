@@ -1,8 +1,6 @@
-label yumi_triggers_init:
-    python:
+init python:
 
-        T_yumi_backup_request = Trigger("backup request", "Юми просит срочного подкрепления")
-    return
+    T_yumi_backup_request = Trigger("backup request", "Yumi requests urgent backup")
 
 label yumi_machine_init:
     python:

@@ -1,4 +1,6 @@
-screen beach_house_front:
+screen beach_house_front():
+    use mods_screens_hook("beach_house_front")
+
     add player.location.background
     if not player.has_picked_up_item("beach_house_key"):
         imagebutton:
@@ -14,7 +16,7 @@ screen beach_house_front:
         hover HoverImage(game.timer.image("objects/object_door_114{}.png"))
         action Hide("beach_house_front"), If(player.has_picked_up_item("beach_house_key"), Jump("beach_house_entrance_dialogue"), Jump("beach_house_not_bought_dialogue"))
 
-screen popup_buy_beach_house:
+screen popup_buy_beach_house():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_buy_beach_house")
@@ -30,12 +32,14 @@ screen popup_buy_beach_house:
             If(
                 not player.has_money(5000),
                 Show("popup_fail01"),
-                [Hide("popup_buy_beach_house"), Show("popup", Image = "boxes/popup_key4.png"), Function(A_home_sweet_home.unlock)]
+                [Hide("popup_buy_beach_house"), Show('popup', None, "boxes/popup_key4.png"), Function(A_home_sweet_home.unlock)]
             ),
             Hide("popup_buy_beach_house")
         ]
 
-screen beach_house_entrance:
+screen beach_house_entrance():
+    use mods_screens_hook("beach_house_entrance")
+
     add player.location.background
     imagebutton:
         focus_mask True
@@ -57,7 +61,9 @@ screen beach_house_entrance:
             hover HoverImage("objects/character_consuela_01.png")
             action Hide("beach_house_entrance"), Jump("consuela_button_dialogue")
 
-screen beach_house_bedroom:
+screen beach_house_bedroom():
+    use mods_screens_hook("beach_house_bedroom")
+
     add player.location.background
     imagebutton:
         focus_mask True
@@ -78,7 +84,9 @@ screen beach_house_bedroom:
         hover HoverImage(game.timer.image("objects/object_bed_12{}.png"))
         action Hide("beach_house_bedroom"), Jump("beach_house_sleeping")
 
-screen beach_house_patio:
+screen beach_house_patio():
+    use mods_screens_hook("beach_house_patio")
+
     add player.location.background
     imagebutton:
         focus_mask True

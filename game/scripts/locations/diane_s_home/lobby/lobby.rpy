@@ -10,14 +10,14 @@ label dianelobby_locked:
     elif player.location == L_diane_yard:
         scene location_diane_front_day_blur
     show player 10 with dissolve
-    player_name "Кажется, я слышу кого-то на заднем дворе. Я должен проверить и посмотреть, может это {b}Диана{/b}."
+    player_name "I think I hear someone in the backyard. I should check and see if it's {b}Diane{/b}."
     hide player with dissolve
     return
 
 label dianekitchen_locked:
     scene expression player.location.background_blur
     show player 10 with dissolve
-    player_name "Я не должен заходить туда без разрешения."
+    player_name "I shouldn't go inside there without permission."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

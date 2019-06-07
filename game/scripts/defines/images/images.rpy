@@ -16,8 +16,8 @@ image mc_locker = "backgrounds/location_school_locker_mc_day.jpg"
 image mc_locker_night = "backgrounds/location_school_locker_mc_night.jpg"
 image erik_locker = "backgrounds/location_school_locker_erik_day.jpg"
 image erik_locker_night = "backgrounds/location_school_locker_erik_night.jpg"
-image location_diane_garden_cutscene12 = "backgrounds/location_diane_garden_cutscene12_[M_diane.get_naked_str].jpg"
-image location_diane_garden_cutscene12b = "backgrounds/location_diane_garden_cutscene12b_[M_diane.get_naked_str].jpg"
+image location_diane_garden_cutscene12 = "backgrounds/location_diane_garden_cutscene12_[M_diane.outfit.get].jpg"
+image location_diane_garden_cutscene12b = "backgrounds/location_diane_garden_cutscene12b_[M_diane.outfit.get].jpg"
 
 
 image popup_unfinished = "boxes/popup_unfinished.png"
@@ -38,8 +38,6 @@ image unlock3 = "boxes/popup_gym.png"
 image unlock4 = "boxes/popup_pool.png"
 image unlock5 = "boxes/popup_library.png"
 image unlock6 = "boxes/popup_bank.png"
-image unlock7 = "boxes/popup_minigame_01.png"
-
 image unlock9 = "boxes/popup_minigame_02.png"
 image unlock10 = "boxes/popup_minigame_02b.png"
 image unlock11 = "boxes/popup_energy_01.png"
@@ -62,11 +60,9 @@ image unlock27 = "boxes/popup_spray.png"
 image unlock28 = "boxes/popup_milker.png"
 image unlock29 = "boxes/popup_item_package.png"
 image unlock30 = "boxes/popup_church.png"
-image unlock31 = "boxes/popup_item_panties02.png"
 image unlock32 = "boxes/popup_police.png"
 image unlock33 = "boxes/popup_tv.png"
 image unlock34 = "boxes/popup_debbiebed.png"
-image unlock35 = "boxes/popup_minigame_06.png"
 image unlock36 = "boxes/popup_item_bait1.png"
 image unlock37 = "boxes/popup_item_card3.png"
 image unlock38 = "boxes/popup_item_orcette.png"
@@ -91,6 +87,7 @@ image unlockpizza = "boxes/popup_pizza.png"
 image unlockpier = "boxes/popup_pier.png"
 image unlockdealership = "boxes/popup_car.png"
 image unlocksmith = "boxes/popup_smith.png"
+image unlockannie = "boxes/popup_annie.png"
 
 
 
@@ -108,7 +105,7 @@ image dianekitchen_closeup = "backgrounds/location_diane_kitchen_closeup.jpg"
 image garden_firsttime_01 = "backgrounds/location_diane_garden_cutscene01.jpg"
 image garden_firsttime_02 = "backgrounds/location_diane_garden_cutscene02.jpg"
 image milking 1 = "backgrounds/location_diane_shed_closeup.jpg"
-image pump_object = "objects/item_pump1.png"
+image pump_object = "objects/item_pump2.png"
 image shed = "backgrounds/location_diane_shed01_day.jpg"
 image shed_night = "backgrounds/location_diane_shed01_night.jpg"
 image shed_blur_night = "backgrounds/location_diane_shed01_night_blur.jpg"
@@ -194,10 +191,10 @@ image eriks_backyard_c = "backgrounds/location_erik_house_backyard_closeup.jpg"
 image eriks_backyard_b = "backgrounds/location_erik_house_backyard_day_blur.jpg"
 image eriks_backyard_night = "backgrounds/location_erik_house_backyard_night.jpg"
 image eriks_backyard_night_b = "backgrounds/location_erik_house_backyard_night_blur.jpg"
-image eriks_room_c = "backgrounds/location_erik_house_bedroom_closeup_day.jpg"
-image eriks_room_night_c = "backgrounds/location_erik_house_bedroom_closeup_night.jpg"
-image erik_entrance_c = "backgrounds/location_erik_house_inside_closeup_day.jpg"
-image erik_entrance_night_c = "backgrounds/location_erik_house_inside_closeup_night.jpg"
+image eriks_room_c = "backgrounds/location_erik_house_bedroom_day_closeup.jpg"
+image eriks_room_night_c = "backgrounds/location_erik_house_bedroom_night_closeup.jpg"
+image erik_entrance_c = "backgrounds/location_erik_house_inside_day_closeup.jpg"
+image erik_entrance_night_c = "backgrounds/location_erik_house_inside_night_closeup.jpg"
 image erik_indoors = "backgrounds/location_erik_house_inside_day_blur.jpg"
 image erik_basement = "backgrounds/location_erik_basement01_blur.jpg"
 image erik_basement_cabinet = "backgrounds/location_erik_basement01_blur.jpg"
@@ -265,10 +262,10 @@ image minigame02a4 = "backgrounds/location_gym_minigame02_attack4.jpg"
 image minigame02b = "backgrounds/location_gym_minigame02_temp.jpg"
 image training = "backgrounds/location_gym_day.jpg"
 image training_b = "backgrounds/location_gym_day_blur.jpg"
-image training_c = "backgrounds/location_gym_closeup.jpg"
+image training_c = "backgrounds/location_gym_day_closeup.jpg"
 image training_night = "backgrounds/location_gym_night.jpg"
 image training_night_b = "backgrounds/location_gym_night_blur.jpg"
-image training_night_c = "backgrounds/location_gym_closeup_night.jpg"
+image training_night_c = "backgrounds/location_gym_night_closeup.jpg"
 
 
 image henchman_cs1 1 = "backgrounds/location_home_entrance_frontdoor.jpg"
@@ -297,6 +294,7 @@ image hospital_desk = "backgrounds/location_hospital_desk.jpg"
 image hospital_lock = "backgrounds/location_hospital_lock.jpg"
 image hospital_cabinet = "backgrounds/location_hospital_cabinet.jpg"
 image hospital_bed = "backgrounds/location_hospital_bed.jpg"
+image hospital_bed_night = "backgrounds/location_hospital_bed_night.jpg"
 image hospital_phone = "backgrounds/location_hospital_phone.jpg"
 image location_hospital_sex = "backgrounds/location_hospital_sex.jpg"
 
@@ -328,7 +326,6 @@ image mall_toilets_event_b = "backgrounds/location_mall_washroom_event_blur.jpg"
 image mall_toilets_stall = "backgrounds/location_mall_washroom_stall.jpg"
 image comic = "backgrounds/location_mall_comic_day.jpg"
 image comic_b = "backgrounds/location_mall_comic_day_blur.jpg"
-image comic_c = "backgrounds/location_mall_comic_closeup.jpg"
 image consumr = "backgrounds/location_mall_consumr_day_blur.jpg"
 image massage_room = "backgrounds/location_pink_massage.jpg"
 image massage_room_closeup = "backgrounds/location_pink_massage_closeup.jpg"
@@ -378,8 +375,7 @@ image home_backyard_b = "backgrounds/location_home_backyard_day_blur.jpg"
 image home_backyard_night = "backgrounds/location_home_backyard_night.jpg"
 image home_backyard_night_b = "backgrounds/location_home_backyard_night_blur.jpg"
 image backyard_night_c = "backgrounds/location_home_backyard_night_closeup.jpg"
-image home_backyard_pool_c = "backgrounds/location_home_backyard_pool_closeup.jpg"
-image home_diningroom_night_c = "backgrounds/location_home_dining_closeup_night.jpg"
+image home_diningroom_night_c = "backgrounds/location_home_dining_night_closeup.jpg"
 image home_diningroom_cs01 = "backgrounds/location_home_dining_cutscene1.jpg"
 image home_front = "backgrounds/location_home_front_day_blur.jpg"
 image home_front_night = "backgrounds/location_home_front_night_blur.jpg"
@@ -398,7 +394,7 @@ image car_interior bj = "backgrounds/location_car_bj.jpg"
 image car_interior kiss = "backgrounds/location_car_kiss.jpg"
 image mailbox_item04_c = "objects/object_mailbox_item04_closeup.png"
 image home_basement = "backgrounds/location_home_basement_day.jpg"
-image home_basement_c = "backgrounds/location_home_basement_closeup_day.jpg"
+image home_basement_c = "backgrounds/location_home_basement_day_closeup.jpg"
 image home_basement_night = "backgrounds/location_home_basement_night.jpg"
 image home_basement_sex_01 = "backgrounds/location_home_basement_sex.jpg"
 image home_basement_sideview = "backgrounds/location_home_basement_sideview.jpg"
@@ -417,10 +413,10 @@ image home_tv_channel_10 = "buttons/tv_channel_10.png"
 image home_livingroom_tv = "backgrounds/location_home_tv.jpg"
 image home_livingroom = "backgrounds/location_home_livingroom_day.jpg"
 image home_livingroom_b = "backgrounds/location_home_livingroom_day_blur.jpg"
-image home_livingroom_c = "backgrounds/location_home_livingroom_closeup_day.jpg"
+image home_livingroom_c = "backgrounds/location_home_livingroom_day_closeup.jpg"
 image home_livingroom_night = "backgrounds/location_home_livingroom_night.jpg"
 image home_livingroom_night_b = "backgrounds/location_home_livingroom_night_blur.jpg"
-image home_livingroom_night_c = "backgrounds/location_home_livingroom_couch_closeup_night.jpg"
+image home_livingroom_night_c = "backgrounds/location_home_livingroom_couch_night_closeup.jpg"
 image home_livingroom_couch01 = "backgrounds/location_home_livingroom_couch01.jpg"
 image home_livingroom_couch02 = "backgrounds/location_home_livingroom_couch02.jpg"
 image location_home_livingroom_couch03 = "backgrounds/location_home_livingroom_couch03.jpg"
@@ -434,7 +430,7 @@ image home_diningroom = "backgrounds/location_home_diningroom_day.jpg"
 image home_diningroom_night = "backgrounds/location_home_diningroom_night.jpg"
 image homekitchen = "backgrounds/location_home_kitchen_day_blur.jpg"
 image homekitchen_night = "backgrounds/location_home_kitchen_night_blur.jpg"
-image homekitchen_closeup = "backgrounds/location_home_kitchen_closeup.jpg"
+image homekitchen_closeup = "backgrounds/location_home_kitchen_day_closeup.jpg"
 image homekitchen_secret = "backgrounds/location_home_kitchen_secret.jpg"
 image location_home_bedroom_jerk = "backgrounds/location_home_bedroom_jerk.jpg"
 image location_home_bedroom_jerk_night = "backgrounds/location_home_bedroom_jerk_night.jpg"
@@ -459,14 +455,6 @@ image shower_cutscene1 = "backgrounds/location_home_bathroom_cutscene01.jpg"
 image shower_cutscene2 = "backgrounds/location_home_bathroom_cutscene02.jpg"
 image shower1 = "backgrounds/location_home_shower_01.jpg"
 image shower2 = "backgrounds/location_home_shower_02_blur.jpg"
-image shower2b = "backgrounds/location_home_shower_02b_blur.jpg"
-image shower3 = "backgrounds/location_home_shower_03.jpg"
-image shower4 = "backgrounds/location_home_shower_04.jpg"
-image shower05a = "backgrounds/location_home_shower_05a.jpg"
-image shower05b = "backgrounds/location_home_shower_05b.jpg"
-image shower05c = "backgrounds/location_home_shower_05c.jpg"
-image shower05d = "backgrounds/location_home_shower_05d.jpg"
-image shower05e = "backgrounds/location_home_shower_05e.jpg"
 image shower06a = "backgrounds/location_home_shower_06a.jpg"
 image shower06b = "backgrounds/location_home_shower_06b.jpg"
 image shower06c = "backgrounds/location_home_shower_06c.jpg"
@@ -487,8 +475,8 @@ image location_home_garage_cutscene03 = "backgrounds/location_home_garage_cutsce
 
 
 image mia_house_helen_night_b = "backgrounds/location_mia_house_helen_night_blur.jpg"
-image mia_house_helen_c_night = "backgrounds/location_mia_house_helen_closeup_night.jpg"
-image mia_house_helen_c = "backgrounds/location_mia_house_helen_closeup_day.jpg"
+image mia_house_helen_c_night = "backgrounds/location_mia_house_helen_night_closeup.jpg"
+image mia_house_helen_c = "backgrounds/location_mia_house_helen_day_closeup.jpg"
 image mia_house_helen_sneak = "backgrounds/location_mia_house_helen_sneak.jpg"
 image mia_house_helen_window0 = "backgrounds/location_mia_house_helen_closed.jpg"
 image mia_house_helen_window1 = "backgrounds/location_mia_house_helen_window1.jpg"
@@ -549,7 +537,7 @@ image debbienote = "objects/object_note_01.png"
 
 
 image mrsj_ball = "backgrounds/location_erik_house_closeup.jpg"
-image mrsj_ball_night = "backgrounds/location_erik_house_closeup_night.jpg"
+image mrsj_ball_night = "backgrounds/location_erik_house_night_closeup.jpg"
 
 
 image park = "backgrounds/location_park_day_blur.jpg"
@@ -570,8 +558,8 @@ image rapbattle_win = "backgrounds/location_park_minigame05c.jpg"
 
 image pier = "backgrounds/location_pier_day_blur.jpg"
 image pier_night = "backgrounds/location_pier_night_blur.jpg"
-image pier_closeup = "backgrounds/location_pier_closeup_day.jpg"
-image pier_closeup_night = "backgrounds/location_pier_closeup_night.jpg"
+image pier_closeup = "backgrounds/location_pier_day_closeup.jpg"
+image pier_closeup_night = "backgrounds/location_pier_night_closeup.jpg"
 image pier_board = "backgrounds/location_pier_board_day.jpg"
 image pier_board_night = "backgrounds/location_pier_board_night.jpg"
 image location_pier_running = "backgrounds/location_pier_cutscene01.jpg"
@@ -732,8 +720,8 @@ image latinas_shower_cs02 = "backgrounds/location_school_lockershowers_cutscene0
 image latinas_shower_cs03 = "backgrounds/location_school_lockershowers_cutscene03.jpg"
 image french_office_sex_c_day = "backgrounds/location_school_office1_closeup_sex_day.jpg"
 image french_office_sex_c_night = "backgrounds/location_school_office1_closeup_sex_night.jpg"
-image french_office_c_day = "backgrounds/location_school_office1_closeup_day.jpg"
-image french_office_c_night = "backgrounds/location_school_office1_closeup_night.jpg"
+image french_office_c_day = "backgrounds/location_school_office1_day_closeup.jpg"
+image french_office_c_night = "backgrounds/location_school_office1_night_closeup.jpg"
 image coach_locker_cs1 = "backgrounds/location_school_gym_cutscene01.jpg"
 image coach_locker_cs2 = "backgrounds/location_school_gym_cutscene02.jpg"
 image coach_locker_peek_overlay = "backgrounds/location_school_gym_office_peek_overlay.jpg"
@@ -750,8 +738,8 @@ image music_checkout_form = "objects/closeup_card_music01.png"
 image locker_judith = "backgrounds/location_school_locker_judith_day.jpg"
 image lefthall_c = "backgrounds/location_school_lefthall_closeup.jpg"
 image flute = "objects/object_flute_01.png"
-image dewitt_office_c_day = "backgrounds/location_school_office2_closeup_day.jpg"
-image dewitt_office_c_night = "backgrounds/location_school_office2_closeup_night.jpg"
+image dewitt_office_c_day = "backgrounds/location_school_office2_day_closeup.jpg"
+image dewitt_office_c_night = "backgrounds/location_school_office2_night_closeup.jpg"
 image dewitt_office_twerk_day = "backgrounds/location_school_office2_Sex_twerk_day.jpg"
 image dewitt_office_twerk_night = "backgrounds/location_school_office2_Sex_twerk_night.jpg"
 image school_right_hall_b = "backgrounds/location_school_right_hall_day_blur.jpg"
@@ -795,17 +783,10 @@ image jennybedroom_bed = "backgrounds/location_home_jennybedroom_bed.jpg"
 image jennycam1 = "backgrounds/location_home_jennybedroom_cam1.jpg"
 image jenny_webcam2 = "backgrounds/location_home_jennybedroom_cam2.jpg"
 image jenny_comp = "backgrounds/location_computer_jenny_01.jpg"
-image jenny_diary 01 = "objects/object_diary_01.png"
-image jenny_diary 02 = "objects/object_diary_02.png"
-image jenny_diary 03 = "objects/object_diary_03.png"
-image jenny_diary 04 = "objects/object_diary_04.png"
-image jenny_diary next = "objects/object_diary_next.png"
 image jennybedroom = "backgrounds/location_home_jennybedroom_day_blur.jpg"
-image jennybedroom_closeup = "backgrounds/location_home_jennybedroom_closeup.jpg"
 image jennybedroom_clear = "backgrounds/location_home_jennybedroom_night.jpg"
 image jennybedroom_night = "backgrounds/location_home_jennybedroom_night_blur.jpg"
 image jennybedroom_c_2 = "backgrounds/location_home_jennybedroom_closeup02.jpg"
-image jennybedroom_c_2b = "backgrounds/location_home_jennybedroom_closeup02b.jpg"
 image bedside01 = "backgrounds/location_home_jennytable.jpg"
 
 
@@ -886,7 +867,6 @@ image telescope_caught 1 = "backgrounds/location_home_bedroom_caught_01.jpg"
 image telescope_caught 2 = "backgrounds/location_home_bedroom_caught_02.jpg"
 image telescope_caught 3 = "backgrounds/location_home_bedroom_caught_03.jpg"
 image telescope_caught 4 = "backgrounds/location_home_bedroom_caught_04.jpg"
-image telescope_caught 5 = "backgrounds/location_home_bedroom_caught_05.jpg"
 
 
 image trailer_park = "backgrounds/location_trailer_day.jpg"
@@ -895,18 +875,18 @@ image trailer_park_b = "backgrounds/location_trailer_day_blur.jpg"
 image trailer_park_night_b = "backgrounds/location_trailer_night_blur.jpg"
 image trailer_interior = "backgrounds/location_trailer_interior_day.jpg"
 image trailer_interior_night = "backgrounds/location_trailer_interior_night.jpg"
-image trailer_interior_c = "backgrounds/location_trailer_closeup_day.jpg"
-image trailer_interior_c_night = "backgrounds/location_trailer_closeup_night.jpg"
+image trailer_interior_c = "backgrounds/location_trailer_day_closeup.jpg"
+image trailer_interior_c_night = "backgrounds/location_trailer_night_closeup.jpg"
 image trailer_counter = "characters/crystal/crystal_sex_anim_overlay.png"
 image trailer_counter_night = "characters/crystal/crystal_sex_anim_overlay_night.png"
+image trailer_door = "backgrounds/location_trailer_door.jpg"
+image trailer_door_night = "backgrounds/location_trailer_door_night.jpg"
 
 
 image treehouse = "backgrounds/location_treehouse_day.jpg"
 image treehouse_b = "backgrounds/location_treehouse_day_blur.jpg"
 image treehouse_night = "backgrounds/location_treehouse_night.jpg"
 image treehouse_night_b = "backgrounds/location_treehouse_night_blur.jpg"
-image treehouse_c = "backgrounds/location_treehouse_closeup_day.jpg"
-image treehouse_c_night = "backgrounds/location_treehouse_closeup_night.jpg"
 image treehouse_inside = "backgrounds/location_treehouse_inside_day.jpg"
 image treehouse_inside_b = "backgrounds/location_treehouse_inside_day_blur.jpg"
 image treehouse_inside_night = "backgrounds/location_treehouse_inside_night.jpg"
@@ -1361,191 +1341,6 @@ image annieoverlay 1 = "characters/annie/char_annie_outfit_overlay.png"
 image annieoverlay 1f = im.Flip("characters/annie/char_annie_outfit_overlay.png", horizontal=True)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 image diane 170 = Image("characters/diane/char_diane_170.png",xoffset=-323,yoffset=-145)
 image diane 171 = Image("characters/diane/char_diane_171.png",xoffset=-323,yoffset=-145)
 image diane 172 = Image("characters/diane/char_diane_172.png",xoffset=-323,yoffset=-145)
@@ -1556,75 +1351,6 @@ image diane 176 = Image("characters/diane/char_diane_176.png",xoffset=-323,yoffs
 image diane 177 = Image("characters/diane/char_diane_177.png",xoffset=-315,yoffset=-191)
 image diane 178 = Image("characters/diane/char_diane_178.png",xoffset=-349,yoffset=-250)
 image diane 179 = Image("characters/diane/char_diane_179.png",xoffset=-340,yoffset=-330)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 image becca 1 = "characters/becca/char_becca_01.png"
@@ -1854,10 +1580,6 @@ image cat 17 = "characters/cat/char_cat_17.png"
 image cat 18 = "characters/cat/char_cat_18.png"
 
 
-image ced 1 = "characters/cedric/char_cedric_01.png"
-image ced 2 = "characters/cedric/char_cedric_02.png"
-
-
 image chad 1 = "characters/chad/char_chad_01.png"
 image chad 2 = "characters/chad/char_chad_02.png"
 image chad 3 = "characters/chad/char_chad_03.png"
@@ -1895,7 +1617,6 @@ image xtra 7 = "characters/xtra/char_xtra_07.png"
 image xtra 8 = "characters/xtra/char_xtra_08.png"
 image xtra 9 = "characters/xtra/char_xtra_09.png"
 image xtra 10 = "characters/xtra/char_xtra_10.png"
-image xtra 11 = "characters/xtra/char_xtra_11.png"
 image xtra 12 = "characters/xtra/char_xtra_12.png"
 image xtra 13 = "characters/xtra/char_xtra_13.png"
 image xtra 14 = "characters/xtra/char_xtra_14.png"
@@ -1930,7 +1651,6 @@ image xtra 42 = "characters/xtra/char_xtra_42.png"
 image xtra_lab_clip 46 = Image("characters/xtra/char_xtra_46.png", xoffset=92, yoffset=-56)
 image xtra_sticky_paper 46b = Image("characters/xtra/char_xtra_46b.png", xoffset=90, yoffset=-101)
 image xtra 44 = "characters/xtra/char_xtra_44.png"
-image movie_desk = "characters/xtra/char_xtra_11.png"
 image cell_bars = "characters/xtra/char_xtra_13.png"
 image roz_desk = "characters/xtra/char_xtra_25.png"
 image tattoo_desk = "characters/xtra/char_xtra_26.png"
@@ -1949,29 +1669,6 @@ image chico 1 = "characters/chico/char_chico_01.png"
 image chico 2 = "characters/chico/char_chico_02.png"
 image chico 3 = "characters/chico/char_chico_03.png"
 image chico 4 = "characters/chico/char_chico_04.png"
-
-
-image coach 1 = "characters/coach/char_coach_01.png"
-image coach 2 = "characters/coach/char_coach_02.png"
-image coach 3 = "characters/coach/char_coach_03.png"
-image coach 4 = "characters/coach/char_coach_04.png"
-image coach 5 = "characters/coach/char_coach_05.png"
-image coach 6 = "characters/coach/char_coach_06.png"
-image coach 7 = "characters/coach/char_coach_07.png"
-image coach 8 = "characters/coach/char_coach_08.png"
-image coach 9 = "characters/coach/char_coach_09.png"
-image coach 10 = "characters/coach/char_coach_10.png"
-image coach 11 = "characters/coach/char_coach_11.png"
-image coach 12 = "characters/coach/char_coach_12.png"
-image coach 13 = "characters/coach/char_coach_13.png"
-image coach 14 = "characters/coach/char_coach_14.png"
-image coach 15 = "characters/coach/char_coach_15.png"
-image coach 15b = "characters/coach/char_coach_15b.png"
-image coach 15c = "characters/coach/char_coach_15c.png"
-image coach 16 = "characters/coach/char_coach_16.png"
-image coach 17 = "characters/coach/char_coach_17.png"
-image coach 18 = "characters/coach/char_coach_18.png"
-image coach 19 = "characters/coach/char_coach_19.png"
 
 
 image crystal 1 = "characters/crystal/crystal_01.png"
@@ -2473,24 +2170,6 @@ image eve 25 = "characters/eve/char_eve_25.png"
 image eve 26 = "characters/eve/char_eve_26.png"
 
 
-image grace 1 = "characters/grace/char_grace_01.png"
-image grace 1f = im.Flip("characters/grace/char_grace_01.png", horizontal=True)
-image grace 2 = "characters/grace/char_grace_02.png"
-image grace 2f = im.Flip("characters/grace/char_grace_02.png", horizontal=True)
-image grace 3 = "characters/grace/char_grace_03.png"
-image grace 4 = "characters/grace/char_grace_04.png"
-image grace 4f = im.Flip("characters/grace/char_grace_04.png", horizontal=True)
-image grace 5 = "characters/grace/char_grace_05.png"
-image grace 6 = "characters/grace/char_grace_06.png"
-image grace 7 = "characters/grace/char_grace_07.png"
-image grace 8 = "characters/grace/char_grace_08.png"
-image grace 9 = "characters/grace/char_grace_09.png"
-image grace 10 = "characters/grace/char_grace_10.png"
-image grace 10f = im.Flip("characters/grace/char_grace_10.png", horizontal=True)
-image grace 11 = "characters/grace/char_grace_11.png"
-image grace 11f = im.Flip("characters/grace/char_grace_11.png", horizontal=True)
-
-
 image harold_car_02 = "objects/character_harold_02.png"
 image harold 1 = "characters/harold/char_harold_01.png"
 image harold 2 = "characters/harold/char_harold_02.png"
@@ -2738,20 +2417,6 @@ image jai 1 = "characters/jaing/char_jaing_01.png"
 image jai 2 = "characters/jaing/char_jaing_02.png"
 
 
-image jane 1 = "characters/librarian/char_librarian_01.png"
-image jane 1b = "characters/librarian/char_librarian_01b.png"
-image jane 2 = "characters/librarian/char_librarian_02.png"
-image jane 2b = "characters/librarian/char_librarian_02b.png"
-image jane 3 = "characters/librarian/char_librarian_03.png"
-image jane 4 = "characters/librarian/char_librarian_04.png"
-image jane 5 = "characters/librarian/char_librarian_05.png"
-image jane 6 = "characters/librarian/char_librarian_06.png"
-image jane 7 = "characters/librarian/char_librarian_07.png"
-image jane 8 = "characters/librarian/char_librarian_08.png"
-image jane 12 = "characters/librarian/char_librarian_12.png"
-image jane 15 = "characters/librarian/char_librarian_15.png"
-
-
 image joe 1 = "characters/josephine/char_josephine_01.png"
 image joe 2 = "characters/josephine/char_josephine_02.png"
 image joe 2b = "characters/josephine/char_josephine_02b.png"
@@ -2984,12 +2649,12 @@ image junesex 14 = "characters/june/char_june_sex_14.png"
 image junesex 14b = "characters/june/char_june_sex_14b.png"
 
 
-image kass 1 = "characters/kass/char_kass_01.png"
-image kass 2 = "characters/kass/char_kass_02.png"
-
-
 image kevin 1 = "characters/kevin/char_kevin_01.png"
 image kevin 2 = "characters/kevin/char_kevin_02.png"
+image kevin 2b = "characters/kevin/char_kevin_02b.png"
+image kevin 2c = "characters/kevin/char_kevin_02c.png"
+image kevin 2d = "characters/kevin/char_kevin_02d.png"
+image kevin 2e = "characters/kevin/char_kevin_02e.png"
 image kevin 3 = "characters/kevin/char_kevin_03.png"
 image kevin 4 = "characters/kevin/char_kevin_04.png"
 image kevin 5 = "characters/kevin/char_kevin_05.png"
@@ -3002,8 +2667,11 @@ image kevin 9b = "characters/kevin/char_kevin_09b.png"
 image kevin 9f = im.Flip("characters/kevin/char_kevin_09.png", horizontal=True)
 image kevin 10 = "characters/kevin/char_kevin_10.png"
 image kevin 11 = "characters/kevin/char_kevin_11.png"
+image kevin 11b = "characters/kevin/char_kevin_11b.png"
+image kevin 11c = "characters/kevin/char_kevin_11c.png"
 image kevin 12 = "characters/kevin/char_kevin_12.png"
 image kevin 13 = "characters/kevin/char_kevin_13.png"
+image kevin 13b = "characters/kevin/char_kevin_13b.png"
 image kevin 16 = "characters/kevin/char_kevin_16.png"
 image kevin 17 = "characters/kevin/char_kevin_17.png"
 image kevin 18 = "characters/kevin/char_kevin_18.png"
@@ -3044,6 +2712,20 @@ image kevin labcoat 6 = "characters/kevin/char_kevin_labcoat_06.png"
 image kevin labcoat 7 = "characters/kevin/char_kevin_labcoat_07.png"
 image kevin labcoat 8 = "characters/kevin/char_kevin_labcoat_08.png"
 
+image kevin magic 1 = "char_kevin_01_[M_kevin.outfit.get]"
+image kevin magic 2 = "char_kevin_02_[M_kevin.outfit.get]"
+image kevin magic 3 = "char_kevin_03_[M_kevin.outfit.get]"
+image kevin magic 4 = "char_kevin_04_[M_kevin.outfit.get]"
+
+image char_kevin_01_apron = "characters/kevin/char_kevin_01.png"
+image char_kevin_01_gym = "characters/kevin/char_kevin_08.png"
+image char_kevin_02_apron = "characters/kevin/char_kevin_02.png"
+image char_kevin_02_gym = "characters/kevin/char_kevin_09.png"
+image char_kevin_03_apron = "characters/kevin/char_kevin_02d.png"
+image char_kevin_03_gym = "characters/kevin/char_kevin_11b.png"
+image char_kevin_04_apron = "characters/kevin/char_kevin_02e.png"
+image char_kevin_04_gym = "characters/kevin/char_kevin_11c.png"
+
 
 image kevinl 1 = "characters/kevin/char_kevin_labcoat_01.png"
 image kevinl 1f = im.Flip("characters/kevin/char_kevin_labcoat_01.png", horizontal=True)
@@ -3070,73 +2752,11 @@ image larry 15 = "characters/larry/char_larry_15.png"
 image larry_hands = "characters/larry/char_larry_16.png"
 
 
-image latinas 1 = "characters/latinas/char_latinas_01.png"
-image latinas 2 = "characters/latinas/char_latinas_02.png"
-image latinas 3 = "characters/latinas/char_latinas_03.png"
-image latinas 4 = "characters/latinas/char_latinas_04.png"
-image latinas 5 = "characters/latinas/char_latinas_05.png"
-image latinas 6 = "characters/latinas/char_latinas_06.png"
-image latinas 7 = "characters/latinas/char_latinas_07.png"
-image latinas 8 = "characters/latinas/char_latinas_08.png"
-image latinas 9 = "characters/latinas/char_latinas_09.png"
-image latinas 10 = "characters/latinas/char_latinas_10.png"
-image latinas 11 = "characters/latinas/char_latinas_11.png"
-image latinas 12 = "characters/latinas/char_latinas_12.png"
-image latinas 13 = "characters/latinas/char_latinas_13.png"
-image latinas 14 = "characters/latinas/char_latinas_14.png"
-image latinas 15 = "characters/latinas/char_latinas_15.png"
-image latinas 16 = "characters/latinas/char_latinas_16.png"
-image latinas 17 = "characters/latinas/char_latinas_17.png"
-image latinas 18 = "characters/latinas/char_latinas_18.png"
-image latinas 19 = "characters/latinas/char_latinas_19.png"
-
-
 image library 1 = "characters/library/char_library_01.png"
 image library 2 = "characters/library/char_library_02.png"
 image library 3 = "characters/library/char_library_03.png"
 image library 4 = "characters/library/char_library_04.png"
 image library 5 = "characters/library/char_library_05.png"
-
-
-image liu 1 = "characters/liu/char_liu_01.png"
-image liu 2 = "characters/liu/char_liu_02.png"
-image liu 3 = "characters/liu/char_liu_03.png"
-image liu 4 = "characters/liu/char_liu_04.png"
-image liu 5 = "characters/liu/char_liu_05.png"
-image liu 6 = "characters/liu/char_liu_06.png"
-image liu 7 = "characters/liu/char_liu_07.png"
-image liu 8 = "characters/liu/char_liu_08.png"
-image liu 9 = "characters/liu/char_liu_09.png"
-image liu 10 = "characters/liu/char_liu_10.png"
-image liu 11 = "characters/liu/char_liu_11.png"
-
-
-image lopez 18 = "characters/latinas/char_latinas_18.png"
-image lopez 19 = "characters/latinas/char_latinas_19.png"
-
-
-image maria 1 = "characters/maria/char_maria_01.png"
-image maria 2 = "characters/maria/char_maria_02.png"
-image maria 3 = "characters/maria/char_maria_03.png"
-
-
-image master 1 = "characters/master/char_master_01.png"
-image master 2 = "characters/master/char_master_02.png"
-image master 3 = "characters/master/char_master_03.png"
-image master 4 = "characters/master/char_master_04.png"
-image master 5 = "characters/master/char_master_05.png"
-image master 6 = "characters/master/char_master_06.png"
-image master 7 = "characters/master/char_master_07.png"
-image master 8 = "characters/master/char_master_08.png"
-image master 9 = "characters/master/char_master_09.png"
-image master 10 = "characters/master/char_master_10.png"
-image master 11 = "characters/master/char_master_11.png"
-image master 12 = "characters/master/char_master_12.png"
-image master 13 = "characters/master/char_master_13.png"
-image master 14 = "characters/master/char_master_14.png"
-image master 15 = "characters/master/char_master_15.png"
-image master 16 = "characters/master/char_master_16.png"
-image master 17 = "characters/master/char_master_17.png"
 
 
 image rump_overlay = "characters/mayor/char_mayor_overlay.png"
@@ -3179,6 +2799,7 @@ image player 19 = "characters/player/char_player_19.png"
 image player 20 = "characters/player/char_player_20.png"
 image player 21 = "characters/player/char_player_21.png"
 image player 22 = "characters/player/char_player_22.png"
+image player 22b = "characters/player/char_player_22b.png"
 image player 23 = "characters/player/char_player_23.png"
 image player 24 = "characters/player/char_player_24.png"
 image player 25 = "characters/player/char_player_25.png"
@@ -3308,9 +2929,7 @@ image player 128 = "characters/player/char_player_128.png"
 image player 129 = "characters/player/char_player_129.png"
 image player 130 = "characters/player/char_player_130.png"
 image player 131 = "characters/player/char_player_131.png"
-image player 132 = "characters/player/char_player_132.png"
 image player 133 = "characters/player/char_player_133.png"
-image player 134 = "characters/player/char_player_134.png"
 image player 135 = "characters/player/char_player_135_[drink_made].png"
 image player 136 = "characters/player/char_player_136_[drink_made].png"
 image player 137 = "characters/player/char_player_137_[drink_made].png"
@@ -3407,6 +3026,8 @@ image player 213 = "characters/player/char_player_213.png"
 image player 214 = "characters/player/char_player_214.png"
 image player 215 = "characters/player/char_player_215.png"
 image player 216 = "characters/player/char_player_216.png"
+image player 216b = "characters/player/char_player_216b.png"
+image player 216c = "characters/player/char_player_216c.png"
 image player 217 = "characters/player/char_player_217.png"
 image player 218 = "characters/player/char_player_218.png"
 image player 219 = "characters/player/char_player_219.png"
@@ -3504,8 +3125,18 @@ image player 283 = "characters/player/char_player_283.png"
 image player 284 = "characters/player/char_player_284.png"
 image player 285 = "characters/player/char_player_285.png"
 image player 286 = "characters/player/char_player_286.png"
+image player 286b = "characters/player/char_player_286b.png"
+image player 286c = "characters/player/char_player_286c.png"
+image player 286d = "characters/player/char_player_286d.png"
+image player 286e = "characters/player/char_player_286e.png"
+image player 286g = "characters/player/char_player_286g.png"
 image player 287 = "characters/player/char_player_287.png"
 image player 288 = "characters/player/char_player_288.png"
+image player 288b = "characters/player/char_player_288b.png"
+image player 288c = "characters/player/char_player_288c.png"
+image player 288d = "characters/player/char_player_288d.png"
+image player 288e = "characters/player/char_player_288e.png"
+image player 288g = "characters/player/char_player_288g.png"
 image player 289 = "characters/player/char_player_289.png"
 image player 290 = "characters/player/char_player_290.png"
 image player 291 = "characters/player/char_player_291.png"
@@ -3536,14 +3167,25 @@ image player 312 = "characters/player/char_player_312.png"
 image player 313 = "characters/player/char_player_313.png"
 image player 314 = "characters/player/char_player_314.png"
 image player 315 = "characters/player/char_player_315.png"
+image player 315b = "characters/player/char_player_315b.png"
+image player 315c = "characters/player/char_player_315c.png"
+image player 315e = "characters/player/char_player_315e.png"
+image player 315d = "characters/player/char_player_315d.png"
 image player 316 = "characters/player/char_player_316.png"
 image player 317 = "characters/player/char_player_317.png"
+image player 317b = "characters/player/char_player_317b.png"
 image player 318 = "characters/player/char_player_318.png"
 image player 319 = "characters/player/char_player_319.png"
 image player 320 = "characters/player/char_player_320.png"
+image player 320b = "characters/player/char_player_320b.png"
 image player 321 = "characters/player/char_player_321.png"
+image player 321b = "characters/player/char_player_321b.png"
 image player 322 = "characters/player/char_player_322.png"
 image player 323 = "characters/player/char_player_323.png"
+image player 323b = "characters/player/char_player_323b.png"
+image player 323c = "characters/player/char_player_323c.png"
+image player 323d = "characters/player/char_player_323d.png"
+image player 323e = "characters/player/char_player_323e.png"
 image player 324 = "characters/player/char_player_324.png"
 image player 325 = "characters/player/char_player_325.png"
 image player 326 = "characters/player/char_player_326.png"
@@ -4021,8 +3663,11 @@ image player 701 = "characters/player/char_player_701.png"
 image player 702 = "characters/player/char_player_702.png"
 image player 703 = "characters/player/char_player_703.png"
 image player 705 = "characters/player/char_player_705.png"
+image player 705b = "characters/player/char_player_705b.png"
 image player 706 = "characters/player/char_player_706.png"
+image player 706b = "characters/player/char_player_706b.png"
 image player 707 = "characters/player/char_player_707.png"
+image player 707b = "characters/player/char_player_707b.png"
 image player 712 = "characters/player/char_player_712.png"
 image player 713 = "characters/player/char_player_713.png"
 image player 714 = "characters/player/char_player_714.png"
@@ -4039,6 +3684,34 @@ image player 720 = "characters/player/char_player_720.png"
 image player 720b = "characters/player/char_player_720b.png"
 image player 721 = "characters/player/char_player_721.png"
 image player 722 = "characters/player/char_player_722.png"
+image player 723 = "characters/player/char_player_723.png"
+image player 724 = "characters/player/char_player_724.png"
+image player 725 = "characters/player/char_player_725.png"
+image player 726 = "characters/player/char_player_726.png"
+image player 727 = "characters/player/char_player_727.png"
+image player 728 = "characters/player/char_player_728.png"
+image player 728b = "characters/player/char_player_728b.png"
+image player 729 = "characters/player/char_player_729.png"
+image player 729b = "characters/player/char_player_729b.png"
+image player 730 = "characters/player/char_player_730.png"
+image player 730c = "characters/player/char_player_730c.png"
+image player 731 = "characters/player/char_player_731.png"
+image player 731 = "characters/player/char_player_731.png"
+image player 732 = "characters/player/char_player_732.png"
+image player 733 = "characters/player/char_player_733.png"
+image player 733b = "characters/player/char_player_733b.png"
+image player 733c = "characters/player/char_player_733c.png"
+image player 734 = "characters/player/char_player_734.png"
+image player 735 = "characters/player/char_player_735.png"
+image player 736 = "characters/player/char_player_736.png"
+image player 736b = "characters/player/char_player_736b.png"
+
+image player 72X = ConditionSwitch(
+    "M_somrak.get('delivered_panties') == 'Debbie'", "characters/player/char_player_724c.png",
+    "M_somrak.get('delivered_panties') == 'Jenny'", "characters/player/char_player_723c.png",
+    "M_somrak.get('delivered_panties') == 'Roxxy'", "characters/player/char_player_725c.png",
+    "M_somrak.get('delivered_panties') == 'Mia'", "characters/player/char_player_726c.png",
+    )
 
 image player_dick 222 = Image("characters/player/char_player_222_dick_OL.png",xoffset=104,yoffset=-94)
 
@@ -4259,8 +3932,8 @@ image jersey 22 = "characters/jersey/char_jersey_22.png"
 image jersey 23 = "characters/jersey/char_jersey_23.png"
 image jersey 27 = "characters/jersey/char_jersey_27.png"
 image jersey 28 = "characters/jersey/char_jersey_28.png"
-image jersey 29 = "characters/jersey/char_jersey_29.png"
-image jersey 30 = "characters/jersey/char_jersey_30.png"
+image jersey 29 = Image("characters/jersey/char_jersey_29.png",yoffset=200)
+image jersey 30 = Image("characters/jersey/char_jersey_30.png",yoffset=200)
 image jersey 31 = "characters/jersey/char_jersey_31.png"
 image jersey 32 = "characters/jersey/char_jersey_32.png"
 image jersey 33 = "characters/jersey/char_jersey_33.png"
@@ -4304,19 +3977,6 @@ image playersex 1 = "characters/player/char_player_sex_01.png"
 image playersex 2 = "characters/player/char_player_sex_02.png"
 image playersex 3 = "characters/player/char_player_sex_03.png"
 image playersex 4 = "characters/player/char_player_sex_04.png"
-image playersex 5 = "characters/player/char_player_sex_05.png"
-image playersex 6 = "characters/player/char_player_sex_06.png"
-image playersex 7 = "characters/player/char_player_sex_07.png"
-image playersex 8 = "characters/player/char_player_sex_08.png"
-image playersex 9 = "characters/player/char_player_sex_09.png"
-image playersex 10 = "characters/player/char_player_sex_10.png"
-image playersex 11 = "characters/player/char_player_sex_11.png"
-image playersex 12 = "characters/player/char_player_sex_12.png"
-image playersex 13 = "characters/player/char_player_sex_13.png"
-image playersex 14 = "characters/player/char_player_sex_14.png"
-image playersex 15 = "characters/player/char_player_sex_15.png"
-image playersex 16 = "characters/player/char_player_sex_16.png"
-image playersex 17 = "characters/player/char_player_sex_17.png"
 image playersex 18 = "characters/player/char_player_sex_18.png"
 image playersex 19 = "characters/player/char_player_sex_19.png"
 image playersex 20 = "characters/player/char_player_sex_20.png"
@@ -4368,76 +4028,20 @@ image playersex 72 = "characters/player/char_player_sex_72.png"
 image playersex 73 = "characters/player/char_player_sex_73.png"
 image playersex 74 = "characters/player/char_player_sex_74.png"
 image playersex 75 = "characters/player/char_player_sex_75.png"
-
-
-
-
 image playersex 80 = "characters/player/char_player_sex_80.png"
 image playersex 81 = "characters/player/char_player_sex_81.png"
 image playersex 82 = "characters/player/char_player_sex_82.png"
 image playersex 83 = "characters/player/char_player_sex_83.png"
 image playersex 84 = "characters/player/char_player_sex_84.png"
 image playersex 85 = "characters/player/char_player_sex_85.png"
-image playersex 85b = "characters/player/char_player_sex_85b.png"
-image playersex 86 = "characters/player/char_player_sex_86.png"
-image playersex 87 = "characters/player/char_player_sex_87.png"
-image playersex 88 = "characters/player/char_player_sex_88.png"
-image playersex 89 = "characters/player/char_player_sex_89.png"
-image playersex 90 = "characters/player/char_player_sex_90.png"
-image playersex 91 = "characters/player/char_player_sex_91.png"
-image playersex 92 = "characters/player/char_player_sex_92.png"
-image playersex 93 = "characters/player/char_player_sex_93.png"
-image playersex 94 = "characters/player/char_player_sex_94.png"
-image playersex 95 = "characters/player/char_player_sex_95.png"
-image playersex 96 = "characters/player/char_player_sex_96.png"
-image playersex 97 = "characters/player/char_player_sex_97.png"
-image playersex 98 = "characters/player/char_player_sex_98.png"
-image playersex 99 = "characters/player/char_player_sex_99.png"
-image playersex 100 = "characters/player/char_player_sex_100.png"
-image playersex 101 = "characters/player/char_player_sex_101.png"
-
-image playersex 103 = "characters/player/char_player_sex_103.png"
-
-
-
-
-image playersex 108 = "characters/player/char_player_sex_108.png"
-image playersex 109 = "characters/player/char_player_sex_109.png"
 image playersex 110 = "characters/player/char_player_sex_110.png"
 image playersex 111 = "characters/player/char_player_sex_111.png"
 image playersex 112 = "characters/player/char_player_sex_112.png"
 image playersex 113 = "characters/player/char_player_sex_113.png"
 image playersex 114 = "characters/player/char_player_sex_114.png"
 image playersex 115 = "characters/player/char_player_sex_115.png"
-image playersex 116 = "characters/player/char_player_sex_116.png"
-image playersex 116b = "characters/player/char_player_sex_116b.png"
-image playersex 117 = "characters/player/char_player_sex_117.png"
-image playersex 118 = "characters/player/char_player_sex_118.png"
-image playersex 119 = "characters/player/char_player_sex_119.png"
-image playersex 120 = "characters/player/char_player_sex_120.png"
-image playersex 121 = "characters/player/char_player_sex_121.png"
-image playersex 122 = "characters/player/char_player_sex_122.png"
-image playersex 123 = "characters/player/char_player_sex_123.png"
-image playersex 124 = "characters/player/char_player_sex_124.png"
-image playersex 125 = "characters/player/char_player_sex_125.png"
-image playersex 126 = "characters/player/char_player_sex_126.png"
-image playersex 127 = "characters/player/char_player_sex_127.png"
-image playersex 127b = "characters/player/char_player_sex_127b.png"
-image playersex 128 = "characters/player/char_player_sex_128.png"
 image playersexc 129 = "characters/player/char_player_sex_129.png"
 image playersexc 130 = "characters/player/char_player_sex_130.png"
-image playersex 131 = "characters/player/char_player_sex_131.png"
-image playersex 132 = "characters/player/char_player_sex_132.png"
-image playersex 133 = "characters/player/char_player_sex_133.png"
-image playersex 134 = "characters/player/char_player_sex_134.png"
-image playersex 135 = "characters/player/char_player_sex_135.png"
-image playersex 136 = "characters/player/char_player_sex_136.png"
-image playersex 137 = "characters/player/char_player_sex_137.png"
-image playersex 138 = "characters/player/char_player_sex_138.png"
-image playersex 139 = "characters/player/char_player_sex_139.png"
-image playersex 140 = "characters/player/char_player_sex_140.png"
-image playersex 141 = "characters/player/char_player_sex_141.png"
-image playersex 142 = "characters/player/char_player_sex_142.png"
 image players 143 = "characters/player/char_player_sex_143.png"
 image rozs 144 = "characters/player/char_player_sex_144.png"
 
@@ -4712,13 +4316,6 @@ image mias 17 = "characters/mia/char_mia_sex_17.png"
 image mias 17b = "characters/mia/char_mia_sex_17b.png"
 image mias 18 = "characters/mia/char_mia_sex_18.png"
 image mias 18b = "characters/mia/char_mia_sex_18b.png"
-
-
-image micoe 1 = "characters/micoe/char_micoe_01.png"
-image micoe 2 = "characters/micoe/char_micoe_02.png"
-image micoe 3 = "characters/micoe/char_micoe_03.png"
-image micoe 4 = "characters/micoe/char_micoe_04.png"
-image micoe 5 = "characters/micoe/char_micoe_05.png"
 
 
 image missy 1 = "characters/missy/char_missy_01.png"
@@ -5428,11 +5025,6 @@ image debbies 176 = "characters/debbie/char_debbie_sex_176.png"
 image debbies 177 = "characters/debbie/char_debbie_sex_177.png"
 
 
-image bub 1 = "characters/bubbles/char_bubbles_01.png"
-image bub 2 = "characters/bubbles/char_bubbles_02.png"
-image bub 3 = "characters/bubbles/char_bubbles_03.png"
-
-
 image teacher 1 = "characters/teacher/char_teacher_01.png"
 image teacher 2 = "characters/teacher/char_teacher_02.png"
 image teacher 3 = "characters/teacher/char_teacher_03.png"
@@ -5526,16 +5118,6 @@ image teachers_chair 15 = "characters/teacher/char_teacher_sex_chair_15.png"
 image teachers_chair 16 = "characters/teacher/char_teacher_sex_chair_16.png"
 image teachers_chair 17 = "characters/teacher/char_teacher_sex_chair_17.png"
 image teachers_chair 18 = "characters/teacher/char_teacher_sex_chair_18.png"
-
-
-
-image martinez 20 = "characters/latinas/char_latinas_20.png"
-image martinez 20b = "characters/latinas/char_latinas_20b.png"
-image martinez 21 = "characters/latinas/char_latinas_21.png"
-image martinez 21b = "characters/latinas/char_latinas_21b.png"
-image martinez 22 = Image("characters/latinas/char_latinas_22.png", xoffset=-80)
-image martinez 22b = "characters/latinas/char_latinas_22b.png"
-image martinez 23 = "characters/latinas/char_latinas_23.png"
 
 
 image mrsj 1 = "characters/mrsj/char_mrsj_01.png"
@@ -6198,9 +5780,9 @@ image roxxy 38b = Image("characters/roxxy/char_roxxy_38b.png", xoffset=120, yoff
 image roxxy 39 = "characters/roxxy/char_roxxy_39.png"
 image roxxy 40 = "characters/roxxy/char_roxxy_40.png"
 image poms 41 = Image("characters/roxxy/char_roxxy_41.png",xoffset=-310,yoffset=20)
-image roxxy_outfit cheer 41b = Image("characters/roxxy/char_roxxy_41b.png",xoffset=-149,yoffset=-28)
+image roxxy_outfit cheer 41b = Image("characters/roxxy/char_roxxy_41b.png",xoffset=-86,yoffset=-104)
 image roxxy_outfit = Image("characters/roxxy/char_roxxy_41c.png", xoffset=225, yoffset=-145)
-image roxxy_outfit cheer 41d = Image("characters/roxxy/char_roxxy_41d.png",xoffset=-155,yoffset=-29)
+image roxxy_outfit cheer 41d = Image("characters/roxxy/char_roxxy_41d.png",xoffset=-92,yoffset=-105)
 image roxxy_outfit bed panties = Image("characters/roxxy/char_roxxy_41g.png",xoffset=-222,yoffset=-206)
 image roxxy 42 = "characters/roxxy/char_roxxy_42.png"
 image roxxy 43 = "characters/roxxy/char_roxxy_43.png"
@@ -6563,372 +6145,7 @@ image sato 3 = "characters/sato/char_sato_03.png"
 image sato 4 = "characters/sato/char_sato_04.png"
 
 
-image diningroom_jenny_breakfast = "objects/object_table_02_jenny.png"
-image object_diningtable = "objects/object_table_01_breakfast.png"
-image jenny 1 = "characters/jenny/char_jenny_01.png"
-image jenny 2 = "characters/jenny/char_jenny_02.png"
-image jenny 3 = "characters/jenny/char_jenny_03.png"
-image jenny 6 = "characters/jenny/char_jenny_06.png"
-image jenny 6b = "characters/jenny/char_jenny_06b.png"
-image jenny 6c = "characters/jenny/char_jenny_06c.png"
-image jenny 6d = "characters/jenny/char_jenny_06d.png"
-image jenny 7 = "characters/jenny/char_jenny_07.png"
-image jenny 7b = "characters/jenny/char_jenny_07b.png"
-image jenny 8 = "characters/jenny/char_jenny_08.png"
-image jenny 8b = "characters/jenny/char_jenny_08b.png"
-image jenny 9 = "characters/jenny/char_jenny_09.png"
-image jenny 9b = "characters/jenny/char_jenny_09b.png"
-image jenny 9c = "characters/jenny/char_jenny_09c.png"
-image jenny 10 = "characters/jenny/char_jenny_10.png"
-image jenny 10b = "characters/jenny/char_jenny_10b.png"
-image jenny 11 = "characters/jenny/char_jenny_11.png"
-image jenny 11b = "characters/jenny/char_jenny_11b.png"
-image jenny 12 = "characters/jenny/char_jenny_12.png"
-image jenny 12b = "characters/jenny/char_jenny_12b.png"
-image jenny 13 = "characters/jenny/char_jenny_13.png"
-image jenny 14 = "characters/jenny/char_jenny_14.png"
-image jenny 14b = "characters/jenny/char_jenny_14b.png"
-image jenny 15 = "characters/jenny/char_jenny_15.png"
-image jenny 16 = "characters/jenny/char_jenny_16.png"
-image jenny 17 = "characters/jenny/char_jenny_17.png"
-image jenny 18 = "characters/jenny/char_jenny_18.png"
-image jenny 18b = "characters/jenny/char_jenny_18b.png"
-image jenny 19 = "characters/jenny/char_jenny_19.png"
-image jenny 19b = "characters/jenny/char_jenny_19b.png"
-image jenny 20 = "characters/jenny/char_jenny_20.png"
-image jenny 21 = "characters/jenny/char_jenny_21.png"
-image jenny 22 = "characters/jenny/char_jenny_22.png"
-image jenny 23 = "characters/jenny/char_jenny_23.png"
-image jenny 24 = "characters/jenny/char_jenny_24.png"
-image jennybed = "characters/jenny/char_jenny_25.png"
-image jenny 26 = "characters/jenny/char_jenny_26.png"
-image jenny 27 = "characters/jenny/char_jenny_27.png"
-image jenny 28 = "characters/jenny/char_jenny_28.png"
-image jenny 29 = "characters/jenny/char_jenny_29.png"
-image jenny 30 = "characters/jenny/char_jenny_30.png"
-image jenny 31 = "characters/jenny/char_jenny_31.png"
-image jenny 32 = "characters/jenny/char_jenny_32.png"
-image jenny 33 = "characters/jenny/char_jenny_33.png"
-image jenny 34 = "characters/jenny/char_jenny_34.png"
-image jenny 35 = "characters/jenny/char_jenny_35.png"
-image jenny 36 = "characters/jenny/char_jenny_36.png"
-image jenny 37 = "characters/jenny/char_jenny_37.png"
-image jenny 38 = "characters/jenny/char_jenny_38.png"
-image jenny 39 = "characters/jenny/char_jenny_39.png"
-image jenny 40 = "characters/jenny/char_jenny_40.png"
-image jenny 41 = "characters/jenny/char_jenny_41.png"
-image jenny 42 = "characters/jenny/char_jenny_42.png"
-image jenny 43 = "characters/jenny/char_jenny_43.png"
-image jenny 44 = "characters/jenny/char_jenny_44.png"
-image jenny 45 = "characters/jenny/char_jenny_45.png"
-image jenny 46 = "characters/jenny/char_jenny_46.png"
-image jenny 47 = "characters/jenny/char_jenny_47.png"
-image jenny 48 = "characters/jenny/char_jenny_48.png"
-image jenny 48b = "characters/jenny/char_jenny_48b.png"
-image jenny 49 = "characters/jenny/char_jenny_49.png"
-image jenny 50 = "characters/jenny/char_jenny_50.png"
-image jenny 51 = "characters/jenny/char_jenny_51.png"
-image jenny 52 = "characters/jenny/char_jenny_52.png"
-image jenny 53 = "characters/jenny/char_jenny_53.png"
-image jenny 54 = "characters/jenny/char_jenny_54.png"
-image jenny 55 = "characters/jenny/char_jenny_55.png"
-image jenny 56 = "characters/jenny/char_jenny_56.png"
-image jenny 57 = "characters/jenny/char_jenny_57.png"
-image jenny 58 = "characters/jenny/char_jenny_58.png"
-image jenny 59 = "characters/jenny/char_jenny_59.png"
-image jenny 60 = "characters/jenny/char_jenny_60.png"
-image jenny 61 = "characters/jenny/char_jenny_61.png"
-image jenny 62 = "characters/jenny/char_jenny_62.png"
-image jenny 63 = "characters/jenny/char_jenny_63.png"
-image jenny 64 = "characters/jenny/char_jenny_64.png"
-image jenny 65 = "characters/jenny/char_jenny_65.png"
-image jenny 66 = "characters/jenny/char_jenny_66.png"
-image jenny 67 = "characters/jenny/char_jenny_67.png"
-image jenny 68 = "characters/jenny/char_jenny_68.png"
-image jenny 69 = "characters/jenny/char_jenny_69.png"
-image jenny 70 = "characters/jenny/char_jenny_70.png"
-image jenny 71 = "characters/jenny/char_jenny_71.png"
-image jenny 72 = "characters/jenny/char_jenny_72.png"
-image jenny 73 = "characters/jenny/char_jenny_73.png"
-image jenny 74 = "characters/jenny/char_jenny_74.png"
-image jenny 75 = "characters/jenny/char_jenny_75.png"
-image jenny 76 = "characters/jenny/char_jenny_76.png"
-image jenny 77 = "characters/jenny/char_jenny_77.png"
-image jenny 78 = "characters/jenny/char_jenny_78.png"
-image jenny 79 = "characters/jenny/char_jenny_79.png"
-image jenny 80 = "characters/jenny/char_jenny_80.png"
-image jenny 80b = "characters/jenny/char_jenny_80b.png"
-image jenny 81 = "characters/jenny/char_jenny_81.png"
-image jenny 81b = "characters/jenny/char_jenny_81b.png"
-image jenny 82 = "characters/jenny/char_jenny_82.png"
-image jenny 83 = "characters/jenny/char_jenny_83.png"
-image jenny 84 = "characters/jenny/char_jenny_84.png"
-image jenny 85 = "characters/jenny/char_jenny_85.png"
-image jenny 86 = "characters/jenny/char_jenny_86.png"
-image jenny 87 = "characters/jenny/char_jenny_87.png"
-image jenny 88 = "characters/jenny/char_jenny_88.png"
-image jenny 88b = "characters/jenny/char_jenny_88b.png"
-image jenny 88c = "characters/jenny/char_jenny_88c.png"
-image jenny 88d = "characters/jenny/char_jenny_88d.png"
-image jenny 89 = "characters/jenny/char_jenny_89.png"
-image jenny 90 = "characters/jenny/char_jenny_90.png"
-image jenny 91 = "characters/jenny/char_jenny_91.png"
-image jenny 92 = "characters/jenny/char_jenny_92.png"
-image jenny 93 = "characters/jenny/char_jenny_93.png"
-image jenny 94 = "characters/jenny/char_jenny_94.png"
-image jenny 95 = "characters/jenny/char_jenny_95.png"
-image jenny 96 = "characters/jenny/char_jenny_96.png"
-image jenny 97 = "characters/jenny/char_jenny_97.png"
-image jenny 98 = "characters/jenny/char_jenny_98.png"
-image jenny 99 = "characters/jenny/char_jenny_99.png"
-image jenny 100 = "characters/jenny/char_jenny_100.png"
-image jenny 101 = "characters/jenny/char_jenny_101.png"
-image jenny 102 = "characters/jenny/char_jenny_102.png"
-image jenny 103 = "characters/jenny/char_jenny_103.png"
-image jenny 104 = "characters/jenny/char_jenny_104.png"
-image jenny 105 = "characters/jenny/char_jenny_105.png"
-image jenny 106 = "characters/jenny/char_jenny_106.png"
-image jenny 107 = "characters/jenny/char_jenny_107.png"
-image jenny 108 = "characters/jenny/char_jenny_108.png"
-image jenny 109 = "characters/jenny/char_jenny_109.png"
-image jenny 110 = "characters/jenny/char_jenny_110.png"
-image jenny 111 = "characters/jenny/char_jenny_111.png"
-image jenny 112 = "characters/jenny/char_jenny_112.png"
-image jenny 113 = "characters/jenny/char_jenny_113.png"
-image jenny 114 = "characters/jenny/char_jenny_114.png"
-image jenny 115 = "characters/jenny/char_jenny_115.png"
-image jenny 116 = "characters/jenny/char_jenny_116.png"
-image jenny 117 = "characters/jenny/char_jenny_117.png"
-image jenny 118 = "characters/jenny/char_jenny_118.png"
-image jenny 119 = "characters/jenny/char_jenny_119.png"
-image jenny 120 = "characters/jenny/char_jenny_120.png"
-image jenny 120b = "characters/jenny/char_jenny_120b.png"
-image jenny 121 = "characters/jenny/char_jenny_121.png"
-image jenny 122 = "characters/jenny/char_jenny_122.png"
-image jenny 123 = "characters/jenny/char_jenny_123.png"
-image jenny 124 = "characters/jenny/char_jenny_124.png"
-image jenny 125 = "characters/jenny/char_jenny_125.png"
-image jenny 126 = "characters/jenny/char_jenny_126.png"
-image jenny 127 = "characters/jenny/char_jenny_127.png"
-image jenny 128 = "characters/jenny/char_jenny_128.png"
-image jenny 129 = "characters/jenny/char_jenny_129.png"
-image jenny 130 = "characters/jenny/char_jenny_130.png"
-image jenny 131 = "characters/jenny/char_jenny_131.png"
-image jenny 132 = "characters/jenny/char_jenny_132.png"
-image jenny 133 = "characters/jenny/char_jenny_133.png"
-image jenny 134 = "characters/jenny/char_jenny_134.png"
-image jenny 135 = "characters/jenny/char_jenny_135.png"
-image jenny 136 = "characters/jenny/char_jenny_136.png"
-image jenny 137 = "characters/jenny/char_jenny_137.png"
-image jenny 138 = "characters/jenny/char_jenny_138.png"
-image jenny 139 = "characters/jenny/char_jenny_139.png"
-image jenny 140 = "characters/jenny/char_jenny_140.png"
-image jenny 141 = "characters/jenny/char_jenny_141.png"
-image jenny 142 = "characters/jenny/char_jenny_142.png"
-image jenny 143 = "characters/jenny/char_jenny_143.png"
-image jenny 144 = "characters/jenny/char_jenny_144.png"
-image jenny 145 = "characters/jenny/char_jenny_145.png"
-image jenny 146 = "characters/jenny/char_jenny_146.png"
-image jenny 147 = "characters/jenny/char_jenny_147.png"
-image jenny 148 = "characters/jenny/char_jenny_148.png"
-image jenny 149 = "characters/jenny/char_jenny_149.png"
-image jenny 150 = "characters/jenny/char_jenny_150.png"
-image jenny 151 = "characters/jenny/char_jenny_151.png"
-image jenny 152 = "characters/jenny/char_jenny_152.png"
-image jenny 153 = "characters/jenny/char_jenny_153.png"
-image jenny 154 = "characters/jenny/char_jenny_154.png"
-image jenny 155 = "characters/jenny/char_jenny_155.png"
-image jenny_cheer1 = "characters/jenny/char_jenny_156.png"
-image jenny_cheer2 = "characters/jenny/char_jenny_157.png"
-image jenny 158 = "characters/jenny/char_jenny_158.png"
-image jenny 159 = "characters/jenny/char_jenny_159.png"
-image jenny 160 = "characters/jenny/char_jenny_160.png"
-image jenny 161 = "characters/jenny/char_jenny_161.png"
-image jenny 162 = "characters/jenny/char_jenny_162.png"
-image jenny 163 = "characters/jenny/char_jenny_163.png"
-image jenny 163b = "characters/jenny/char_jenny_163b.png"
-image jenny 164 = "characters/jenny/char_jenny_164.png"
-image jenny 165 = "characters/jenny/char_jenny_165.png"
-image jenny 166 = "characters/jenny/char_jenny_166.png"
-image jenny 167 = "characters/jenny/char_jenny_167.png"
-image jenny 168 = "characters/jenny/char_jenny_168.png"
-image jenny 169 = "characters/jenny/char_jenny_169.png"
-image jenny 170 = "characters/jenny/char_jenny_170.png"
-image jenny 171 = "characters/jenny/char_jenny_171.png"
-image jenny 171b = "characters/jenny/char_jenny_171b.png"
-image jenny 171c = "characters/jenny/char_jenny_171c.png"
-image jenny 172 = "characters/jenny/char_jenny_172.png"
-image jenny 173 = "characters/jenny/char_jenny_173.png"
-image jenny 174 = "characters/jenny/char_jenny_174.png"
-image jenny 175 = "characters/jenny/char_jenny_175.png"
-image jenny 176 = "characters/jenny/char_jenny_176.png"
-image jenny 177 = "characters/jenny/char_jenny_177.png"
-image jenny 178 = "characters/jenny/char_jenny_178.png"
-image jenny 179 = "characters/jenny/char_jenny_179.png"
-image jenny 180 = "characters/jenny/char_jenny_180.png"
-image jenny 181 = "characters/jenny/char_jenny_181.png"
-image jenny 182 = "characters/jenny/char_jenny_182.png"
-image jenny 183 = "characters/jenny/char_jenny_183.png"
-image jenny 184 = "characters/jenny/char_jenny_184.png"
 
-
-
-image jenny_bedcover = "characters/jenny/char_jenny_sex_83.png"
-image jennysex 1 = "characters/jenny/char_jenny_sex_01.png"
-image jennysex 2 = "characters/jenny/char_jenny_sex_02.png"
-image jennysex 3 = "characters/jenny/char_jenny_sex_03.png"
-image jennysex 4 = "characters/jenny/char_jenny_sex_04.png"
-image jennysex 5 = "characters/jenny/char_jenny_sex_05.png"
-image jennysex 6 = "characters/jenny/char_jenny_sex_06.png"
-image jennysex 7 = "characters/jenny/char_jenny_sex_07.png"
-image jennysex 8 = "characters/jenny/char_jenny_sex_08.png"
-image jennysex 9 = "characters/jenny/char_jenny_sex_09.png"
-image jennysex 10 = "characters/jenny/char_jenny_sex_10.png"
-image jennysex 11 = "characters/jenny/char_jenny_sex_11.png"
-image jennysex 12 = "characters/jenny/char_jenny_sex_12.png"
-image jennysex 13 = "characters/jenny/char_jenny_sex_13.png"
-image jennysex 14 = "characters/jenny/char_jenny_sex_14.png"
-image jennysex 15 = "characters/jenny/char_jenny_sex_15.png"
-image jennysex 16 = "characters/jenny/char_jenny_sex_16.png"
-image jennysex 17 = "characters/jenny/char_jenny_sex_17.png"
-image jennysex 18 = "characters/jenny/char_jenny_sex_18.png"
-image jennysex 19 = "characters/jenny/char_jenny_sex_19.png"
-image jennysex 20 = "characters/jenny/char_jenny_sex_20.png"
-image jennysex 21 = "characters/jenny/char_jenny_sex_21.png"
-image jennysex 22 = "characters/jenny/char_jenny_sex_22.png"
-image jennysex 23 = "characters/jenny/char_jenny_sex_23.png"
-image jennysex 24 = "characters/jenny/char_jenny_sex_24.png"
-image jennysex 25 = "characters/jenny/char_jenny_sex_25.png"
-image jennysex 25b = "characters/jenny/char_jenny_sex_25b.png"
-image jennysex 26 = "characters/jenny/char_jenny_sex_26.png"
-image jennysex 27 = "characters/jenny/char_jenny_sex_27.png"
-image jennysex 28 = "characters/jenny/char_jenny_sex_28.png"
-image jennysex 28b = "characters/jenny/char_jenny_sex_28b.png"
-image jennysex 29 = "characters/jenny/char_jenny_sex_29.png"
-image jennysex 29b = "characters/jenny/char_jenny_sex_29b.png"
-image jennysex 30 = "characters/jenny/char_jenny_sex_30.png"
-image jennysex 31 = "characters/jenny/char_jenny_sex_31.png"
-image jennysex 32 = "characters/jenny/char_jenny_sex_32.png"
-image jennysex 33 = "characters/jenny/char_jenny_sex_33.png"
-image jennysex 34 = "characters/jenny/char_jenny_sex_34.png"
-image jennysex 35 = "characters/jenny/char_jenny_sex_35.png"
-image jennysex 36 = "characters/jenny/char_jenny_sex_36.png"
-image jennysex 37 = "characters/jenny/char_jenny_sex_37.png"
-image jennysex 38 = "characters/jenny/char_jenny_sex_38.png"
-image jennysex 39 = "characters/jenny/char_jenny_sex_39.png"
-image jennysex 40 = "characters/jenny/char_jenny_sex_40.png"
-image jennysex 41 = "characters/jenny/char_jenny_sex_41.png"
-image jennysex 42 = "characters/jenny/char_jenny_sex_42.png"
-image jennysex 43 = "characters/jenny/char_jenny_sex_43.png"
-image jennysex 44 = "characters/jenny/char_jenny_sex_44.png"
-image jennysex 45 = "characters/jenny/char_jenny_sex_45.png"
-image jennysex 46 = "characters/jenny/char_jenny_sex_46.png"
-image jennysex 47 = "characters/jenny/char_jenny_sex_47.png"
-image jennysex 48 = "characters/jenny/char_jenny_sex_48.png"
-image jennysex 49 = "characters/jenny/char_jenny_sex_49.png"
-image jennysex 50 = "characters/jenny/char_jenny_sex_50.png"
-image jennysex 51 = "characters/jenny/char_jenny_sex_51.png"
-image jennysex 52 = "characters/jenny/char_jenny_sex_52.png"
-image jennysex 53 = "characters/jenny/char_jenny_sex_53.png"
-image jennysex 54 = "characters/jenny/char_jenny_sex_54.png"
-image jennysex 55 = "characters/jenny/char_jenny_sex_55.png"
-image jennysex 56 = "characters/jenny/char_jenny_sex_56.png"
-image jennysex 57 = "characters/jenny/char_jenny_sex_57.png"
-image jennysex 58 = "characters/jenny/char_jenny_sex_58.png"
-image jennysex 59 = "characters/jenny/char_jenny_sex_59.png"
-image jennysex 60 = "characters/jenny/char_jenny_sex_60.png"
-image jennysex 61 = "characters/jenny/char_jenny_sex_61.png"
-image jennysex 62 = "characters/jenny/char_jenny_sex_62.png"
-image jennysex 63 = "characters/jenny/char_jenny_sex_63.png"
-image jennysex 64 = "characters/jenny/char_jenny_sex_64.png"
-image jennysex 65 = "characters/jenny/char_jenny_sex_65.png"
-image jennysex 65b = "characters/jenny/char_jenny_sex_65b.png"
-image jennysex 66 = "characters/jenny/char_jenny_sex_66.png"
-image jennysex 67 = "characters/jenny/char_jenny_sex_67.png"
-image jennysex 68 = "characters/jenny/char_jenny_sex_68.png"
-image jennysex 69 = "characters/jenny/char_jenny_sex_69.png"
-image jennysex 70 = "characters/jenny/char_jenny_sex_70.png"
-image jennysex 71 = "characters/jenny/char_jenny_sex_71.png"
-image jennysex 72 = "characters/jenny/char_jenny_sex_72.png"
-image jennysex 73 = "characters/jenny/char_jenny_sex_73.png"
-image jennysex 73b = "characters/jenny/char_jenny_sex_73b.png"
-image jennysex 74 = "characters/jenny/char_jenny_sex_74.png"
-image jennysex 75 = "characters/jenny/char_jenny_sex_75.png"
-image jennysex 76 = "characters/jenny/char_jenny_sex_76.png"
-
-
-
-
-image jennysex 80 = "characters/jenny/char_jenny_sex_80.png"
-image jennysex 81 = "characters/jenny/char_jenny_sex_81.png"
-image jennysex 81b = "characters/jenny/char_jenny_sex_81b.png"
-image jennysex 82 = "characters/jenny/char_jenny_sex_82.png"
-image jenny_bedcover = "characters/jenny/char_jenny_sex_83.png"
-image jennysex 84 = "characters/jenny/char_jenny_sex_84.png"
-image jennysex 85 = "characters/jenny/char_jenny_sex_85.png"
-image jennysex 85b = "characters/jenny/char_jenny_sex_85b.png"
-image jennysex 86 = "characters/jenny/char_jenny_sex_86.png"
-image jennysex 87 = "characters/jenny/char_jenny_sex_87.png"
-image jennysex 88 = "characters/jenny/char_jenny_sex_88.png"
-image jennysex 89 = "characters/jenny/char_jenny_sex_89.png"
-image jennysex 89b = "characters/jenny/char_jenny_sex_89b.png"
-image jennysex 89c = "characters/jenny/char_jenny_sex_89c.png"
-image jennysex 90 = "characters/jenny/char_jenny_sex_90.png"
-image jennysex 91 = "characters/jenny/char_jenny_sex_91.png"
-image jennysex 92 = "characters/jenny/char_jenny_sex_92.png"
-image jennysex 93 = "characters/jenny/char_jenny_sex_93.png"
-image jennysex 94 = "characters/jenny/char_jenny_sex_94.png"
-image jennysex 95 = "characters/jenny/char_jenny_sex_95.png"
-image jennysex 96 = "characters/jenny/char_jenny_sex_96.png"
-
-
-
-
-
-
-
-image jennysex 104 = "characters/jenny/char_jenny_sex_104.png"
-image jennysex 105 = "characters/jenny/char_jenny_sex_105.png"
-image jennysex 106 = "characters/jenny/char_jenny_sex_106.png"
-image jennysex 106b = "characters/jenny/char_jenny_sex_106b.png"
-image jennysex 107 = "characters/jenny/char_jenny_sex_107.png"
-image jennysex 108 = "characters/jenny/char_jenny_sex_108.png"
-image jennysex 109 = "characters/jenny/char_jenny_sex_109.png"
-image jennysex 110 = "characters/jenny/char_jenny_sex_110.png"
-image jennysex 110b = "characters/jenny/char_jenny_sex_110b.png"
-image jennysex 111 = "characters/jenny/char_jenny_sex_111.png"
-image jennysex 112 = "characters/jenny/char_jenny_sex_112.png"
-image jennysex 113 = "characters/jenny/char_jenny_sex_113.png"
-image jennysex 114 = "characters/jenny/char_jenny_sex_114.png"
-image jennysex 114b = "characters/jenny/char_jenny_sex_114b.png"
-image jennysex 115 = "characters/jenny/char_jenny_sex_115.png"
-image jennysex 115b = "characters/jenny/char_jenny_sex_115b.png"
-image jennysex 116 = "characters/jenny/char_jenny_sex_116.png"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-image jennysex 130 = "characters/jenny/char_jenny_sex_130.png"
-image jennysex 130b = "characters/jenny/char_jenny_sex_130b.png"
-image jennysex 131 = "characters/jenny/char_jenny_sex_131.png"
-image jennysex 132 = "characters/jenny/char_jenny_sex_132.png"
-image jennysex 133 = "characters/jenny/char_jenny_sex_133.png"
 image jennysex 137 = "characters/jenny/char_jenny_sex_137.png"
 image jennysex 139 = "characters/jenny/char_jenny_sex_139.png"
 image jennysex 140 = "characters/jenny/char_jenny_sex_140.png"
@@ -6941,6 +6158,7 @@ image jennysex 142b = "characters/jenny/char_jenny_sex_142b.png"
 image jennysex 143 = "characters/jenny/char_jenny_sex_143.png"
 
 image jennysex_cunnilingus_player = "characters/jenny/char_jenny_sex_138.png"
+
 
 
 image table 1 = "objects/object_table_01.png"
@@ -7018,14 +6236,6 @@ image tstand 26 = "characters/terry/char_terry_standing_26.png"
 image titty 1 = "characters/titty/char_titty_01.png"
 
 
-image tony 1 = "characters/tony/char_tony_01.png"
-image tony 2 = "characters/tony/char_tony_02.png"
-image tony 3 = "characters/tony/char_tony_03.png"
-image tony 4 = "characters/tony/char_tony_04.png"
-image tony 1f = im.Flip("characters/tony/char_tony_01.png", horizontal=True)
-image tony 2f = im.Flip("characters/tony/char_tony_02.png", horizontal=True)
-
-
 image tyrone 1 = "characters/tyrone/char_tyrone_01.png"
 image tyrone 2 = "characters/tyrone/char_tyrone_02.png"
 image tyrone 3 = "characters/tyrone/char_tyrone_03.png"
@@ -7074,4 +6284,8 @@ image prom_poster_night = "backgrounds/location_school_right_hall_poster_night.j
 
 image sploosh 1 = "characters/sploosh/char_sploosh_01.png"
 image sploosh 2 = "characters/sploosh/char_sploosh_02.png"
+
+
+image bathroom_door_left = "characters/jenny/layeredimage/bathroom_door_left.png"
+image bathroom_door_right = "characters/jenny/layeredimage/bathroom_door_right.png"
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,4 +1,6 @@
-screen gym_front:
+screen gym_front():
+    use mods_screens_hook("gym_front")
+
     add game.timer.image("backgrounds/location_gym_front_day{}.jpg")
 
     imagebutton:

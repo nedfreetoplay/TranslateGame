@@ -1,4 +1,6 @@
-screen mall_second_floor:
+screen mall_second_floor():
+    use mods_screens_hook("mall_second_floor")
+
     add "backgrounds/location_mall_upstairs_day.jpg"
 
     imagebutton:

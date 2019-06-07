@@ -1,7 +1,7 @@
 {
     "homework": {
         "id": "1",
-        "name": "{b}Домашнее задание:{/b}",
+        "name": "{b}Homework:{/b}",
         "cost": "0",
         "image": "objects/item_homework1.png",
         "description": "Use your desk at home to complete your homework and improve your grades!",
@@ -569,7 +569,7 @@
     "pearl_necklace": {
         "id": "64",
         "name": "{b}Pearl Necklace:{/b}",
-        "cost": "50",
+        "cost": "100",
         "image": "objects/item_necklace3.png",
         "description": "A pearl necklace fit for a beauty.",
         "closeup": "",
@@ -1279,37 +1279,37 @@
     },
     "smith_painting_key": {
         "id": "143",
-        "name": "{b}Маленький ключ:{/b}",
+        "name": "{b}A small key:{/b}",
         "cost": "0",
         "image": "objects/item_key6.png",
-        "description": "A small key that was taped to the back of a painting in {b}Mrs Smith{/b}'s bedroom.",
+        "description": "A small key that was taped to the back of a painting in {b}Mrs Smith's{/b} bedroom.",
         "closeup": "",
         "dialogue_label": ""
     },
     "smith_exams": {
         "id": "144",
-        "name": "{b}Экзамены:{/b}",
+        "name": "{b}Exams:{/b}",
         "cost": "0",
         "image": "objects/item_exams1.png",
-        "description": "Финал. Это основной материал для изучения, если вам не хватает морали.",
+        "description": "The finals. It is prime material to study, if you lack morals.",
         "closeup": "",
         "dialogue_label": ""
     },
     "sara_bikini": {
         "id": "145",
-        "name": "{b}Бикини Сары:{/b}",
+        "name": "{b}Sara's Bikini:{/b}",
         "cost": "0",
         "image": "objects/item_bikini_01.png",
-        "description": "Бикини Сары, пригодятся, раз у Рокси порвались...",
+        "description": "Sara's bikini, comes in a pitch when Roxxy's just broke...",
         "closeup": "",
         "dialogue_label": ""
     },
     "massage_oil": {
         "id": "146",
-        "name": "{b}Массажное масло:{/b}",
+        "name": "{b}Massage Oil:{/b}",
         "cost": "0",
         "image": "objects/item_lotion2.png",
-        "description": "Массажное масло для намыливания тела...",
+        "description": "Some massage oil to lather someone's body...",
         "closeup": "",
         "dialogue_label": ""
     },
@@ -1553,6 +1553,78 @@
         "cost": "20",
         "image": "objects/item_pizza1.png",
         "description": "{b}Daisy{/b} sure seems to enjoy these pizzas!",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "birth_control_pills": {
+        "id": "173",
+        "name": "{b}Birth Control Pills:{/b}",
+        "cost": "0",
+        "image": "objects/item_pills3.png",
+        "description": "Makes you temporarily sterile.",
+        "closeup": "",
+        "dialogue_label": "birth_control_pills"
+    },
+    "jenny_panties": {
+        "id": "174",
+        "name": "{b}[jen_name]'s Panties:{/b}",
+        "cost": "0",
+        "image": "objects/item_panties1.png",
+        "description": "{b}[jen_name]'s{/b} panties. {b}Master Somrak{/b} might be interested in them.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "debbie_panties": {
+        "id": "175",
+        "name": "{b}[deb_name]'s Panties:{/b}",
+        "cost": "0",
+        "image": "objects/item_panties2.png",
+        "description": "{b}[deb_name]'s{/b} panties. {b}Master Somrak{/b} might be interested in them.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "roxxy_panties": {
+        "id": "176",
+        "name": "{b}Roxxy's Panties:{/b}",
+        "cost": "0",
+        "image": "objects/item_panties3.png",
+        "description": "{b}Roxxy's{/b} panties. {b}Master Somrak{/b} might be interested in them.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "mia_panties": {
+        "id": "177",
+        "name": "{b}Mia's Panties:{/b}",
+        "cost": "0",
+        "image": "objects/item_panties4.png",
+        "description": "{b}Mia's{/b} panties. {b}Master Somrak{/b} might be interested in them.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "cyclone_mask": {
+        "id": "178",
+        "name": "{b}Cyclone Mask:{/b}",
+        "cost": "100",
+        "image": "objects/item_mask1.png",
+        "description": "A pink wrestler mask. Ideal to hide one's identity.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "heart_necklace": {
+        "id": "179",
+        "name": "{b}Heart Necklace:{/b}",
+        "cost": "200",
+        "image": "objects/item_necklace2.png",
+        "description": "A heart shaped necklace fit for a tramp.",
+        "closeup": "",
+        "dialogue_label": ""
+    },
+    "crystal_necklace": {
+        "id": "180",
+        "name": "{b}Crystal Necklace:{/b}",
+        "cost": "300",
+        "image": "objects/item_necklace1.png",
+        "description": "A crystal necklace fit for a ho.",
         "closeup": "",
         "dialogue_label": ""
     }

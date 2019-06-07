@@ -189,18 +189,12 @@ label mom_bedroom_diane_debbie_threeway_intro:
     dia "Are you sure?!"
     dia "He should finish with you."
     dia "This whole thing was your idea!"
-    deb "It's {b}[firstname]{/b}'s choice."
+    deb "It's {b}[firstname]'s{/b} choice."
     return
 
 label mom_bedroom_diane_risky_frisky_kinky:
-    scene expression "backgrounds/location_home_livingroom_closeup_night.jpg"
-    if M_diane.is_naked:
-        $ M_diane.set("previous outfit", "naked")
-    else:
-        $ M_diane.set("previous outfit", "cow")
-    $ M_diane.is_naked = 0
-    $ M_diane.outfit = "nightgown"
-    show diane f_smirk_talk b_naked a_naked_sides
+    scene expression "backgrounds/location_home_livingroom_night_closeup.jpg"
+    show diane f_smirk_talk b_nightgown a_nightgown_sides
     show player 13f at Position (xpos=400)
     with dissolve
     dia "Going somewhere?"
@@ -283,7 +277,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     show diane b_nightgown_remove2 with dissolve
     show player 426
     pause
-    $ M_diane.is_naked = 1
+    $ M_diane.outfit.is_naked = 1
     show diane b_naked a_naked_sides f_laugh
     dia "I can be quick!"
     hide player
@@ -646,7 +640,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     show player 5f
     show debbie f_sorry_talk
     deb "Calm down, sweetie."
-    deb "{b}Diane{/b}'s not moving out."
+    deb "{b}Diane's{/b} not moving out."
     show debbie f_sorry
     show player 30f
     player_name "Phew, okay."
@@ -670,97 +664,100 @@ label mom_bedroom_diane_risky_frisky_kinky:
 
 label moms_bedroom_night:
     scene debbie_peek_sequence_1_night
-    player_name "( {b}[deb_name]{/b} спит. )"
-    player_name "( Мне не следует шуметь. )"
+    player_name "( {b}[deb_name]'s{/b} sleeping. )"
+    player_name "( I shouldn't make any noise. )"
     return
 
 label mom_spy:
     show debbie_peek_sequence 2_3 zorder 3
-    player_name "ЧТО-!!"
+    player_name "WHA-!!"
     player_name "{b}[deb_name]{/b}?!?"
-    player_name "( ...Она голая на своей кровати... )"
-    player_name "( ...И возбуждает себя...стонет. )"
-    deb "О... Да..."
-    deb "Вот так, милый..."
-    deb "Ммм..."
-    deb "Да... {b}[firstname]{/b}..."
-    deb "Не останавливайся!"
+    player_name "( ...She's naked on her bed... )"
+    player_name "( ...And rubbing herself...moaning. )"
+    deb "Oh... Yes..."
+    deb "Just like that, sweetie..."
+    deb "Mmm..."
+    deb "Yes... {b}[firstname]{/b}..."
+    deb "Don't stop!"
     player_name "( !!! )"
-    deb "Ох бог!"
-    deb "Я уже близко, милый!"
-    deb "Трахни меня сильнее! Мне нужно кончить сильнее!"
+    deb "Oh god!"
+    deb "I'm getting close, sweetie!"
+    deb "Fuck me harder! I need to cum so bad!"
     deb "Ahh!"
 
-    deb "ДААА!!!" with hpunch
+    deb "YES!!!" with hpunch
     $ player.go_to(L_home_livingroom)
     scene home_livingroom_c
     show player 107 at left
     with fade
-    player_name "( Это... Я чувствую... )"
-    player_name "( ... Это круто! )"
-    show jenny 10 at right with dissolve
+    player_name "( This is... I'm feeling... )"
+    player_name "( ... This is so hot! )"
+    show jenny f_grin with dissolve
     jen "..."
-    show jenny 9 at right
-    jen "Что ты тут делаешь?!"
+    show jenny f_angry_talk
+    jen "What are you doing?!"
     show player 23 at left with hpunch
-    show jenny 10 at right
+    show jenny f_upset
     player_name "( !!! )"
     show player 29 at left
-    player_name "Эрр, ничего! Я просто-"
+    player_name "Err, nothing! I was just-"
     show player 11 at left
-    show jenny 9 at right
-    jen "Шпионишь за {b}[deb_name]{/b}?"
+    show jenny f_upset_talk
+    jen "Are you spying on {b}[deb_name]{/b}?"
     show player 5 at left
-    show jenny 10 at right
-    jen "Что она меняет или что-то еще?"
+    show jenny f_upset_talk
+    jen "What is she changing or something?"
+    show jenny f_upset
     show player 10 at left
-    player_name "... Нет."
+    player_name "... No."
     show player 5 at left
-    show jenny 12 at right
-    jen "Хорошо, что тогда?"
-    show jenny 16 at left
+    show jenny f_upset_talk
+    jen "Well, what then?"
+    show jenny b_bend a_empty f_empty
     show player 22f at right
     with dissolve
-    jen "Отойди!"
+    jen "Out of my way!"
     jen "..."
     show player 5f at right
-    jen "Ух ты!! Она действительно делает это там!"
-    show jenny 17f at left
-    jen "... И говорит твое имя!"
-    show player 80f at right with dissolve
-    jen "Что за черт?!"
+    jen "Whoa!! She's really going at it in there!"
+    jen "... And saying your name!"
+    show player 80f at right
+    show jenny f_surprised b_dressed a_dressed_crossed at flip
+    with dissolve
+    jen "What the hell?!"
     show player 81f at right with hpunch
     player_name "( !!! )"
-    show jenny 12f at left
     show player 78f at right
-    jen "Боже правый! У тебя там сырокопченая колбаса или что?"
+    show jenny f_grin_talk a_dressed_side with dissolve
+    jen "Good lord! Are you smuggling a summer sausage in there or what?"
     show player 80f at right
-    jen "Надеюсь, ты не шпионишь за мной каждый раз, когда я плохо себя чувствую..."
+    jen "I hope you aren't spying on me every time I'm feeling naughty..."
     show player 82f at right
-    jen "... потому что это было бы очень глупо, {b}[firstname]{/b}!"
-    jen "Что ты можешь сказать в свое оправдание?"
+    jen "... because that would be a real wimpy move, {b}[firstname]{/b}!"
+    show jenny f_upset_talk
+    jen "What do you have to say for yourself?"
     show player 83f at right
-    show jenny 11f at left
-    player_name "Пожалуйста, не говори {b}[deb_name]{/b} что я смотрел за ней..."
+    show jenny f_upset
+    player_name "Please, don't tell {b}[deb_name]{/b} I was watching her..."
     show player 82f at right
-    show jenny 19f at left
-    jen "Хех, Ну... Может быть и не скажу..."
+    show jenny f_laugh
+    jen "Heh, Well... Maybe I will, maybe I won't..."
     show player 83f at right
-    show jenny 18f at left
-    player_name "Что ты имеешь в виду?"
-    show jenny 19f at left
+    show jenny f_grin
+    player_name "What do you mean?"
+    show jenny f_grin_talk
     show player 80f at right
-    jen "Ты должен согласиться делать то, что я говорю, когда я говорю."
+    jen "You have to agree to do what I say, when I say it."
     show player 83f at right
-    show jenny 18f at left
-    player_name "А, как это?"
+    show jenny f_grin
+    player_name "Uhh, like what?"
     show player 82f at right
-    show jenny 19f at left
-    jen "Пока не знаю. Тебе придется подождать и посмотреть..."
-    show jenny 18f at left
+    show jenny f_grin_talk
+    jen "I dunno yet. You'll just have to wait and see..."
+    show jenny f_grin
     player_name "..."
-    show jenny 12f at left
-    jen "Похоже, она уже слишком близко... Наслаждайся остатком шоу, извращенец!"
+    show jenny f_laugh
+    jen "Sounds like she's getting close in there... Enjoy the rest of the show, Perv!"
     hide player
     hide jenny
     with dissolve
@@ -770,24 +767,24 @@ label mom_spy:
 label moms_bedroom_mom_panties_masturbation_again:
     scene location_home_debbiebedroom_day_blur
     show player 1 with dissolve
-    player_name "( Хорошо, Я внутри! )"
-    player_name "( Теперь мне просто {b}нужно взять пару ее трусиков{/b} перед тем, как лечь к ней в постель. )"
-    player_name "( О, как приятно... Я близко! )"
+    player_name "( Alright, I'm in! )"
+    player_name "( Now I just need to {b}grab a pair of her panties{/b} before getting into her bed. )"
+    player_name "( Oh, sweet release... Here I come! )"
     hide player with dissolve
     return
 
 label moms_bedroom_mom_sleepover_makeup:
     scene debbie_bedroom
     show player 264 at left with dissolve
-    player_name "{b}*зевает*{/b}"
+    player_name "{b}*Yawn*{/b}"
     show player 266 with dissolve
-    player_name "Не могу поверить, что я спал в кровати {b}[deb_name]{/b} прошлой ночью..."
+    player_name "I can't believe I slept in {b}[deb_name]'s{/b} bed last night..."
     show player 267
     pause
     show player 268
-    player_name "Я лучше пойду, пока она не заметила мой утренний лес."
+    player_name "I'd better go before she notices my morning wood."
     show player 267
-    deb "{b}*зевает*{/b}"
+    deb "{b}*Yawn*{/b}"
     player_name "( !!! )"
     show player 261 with dissolve
     pause
@@ -795,42 +792,42 @@ label moms_bedroom_mom_sleepover_makeup:
     pause
     show debbie 2 at right with dissolve
     show player 22 with dissolve
-    deb "Я спала, как полено!"
+    deb "I slept like a log!"
     show debbie 1
     show player 21
-    player_name "Да, я тоже..."
+    player_name "Y-yeah, me too..."
     show xtra 21 at left
     show player 5
     show debbie 3
-    deb "Это был лучший сон за долгое время!"
+    deb "That was the best sleep I've had in a long while!"
     show debbie 2
-    deb "Было приятно снова видеть кого-то здесь со мной."
-    deb "Я не осознавала, как сильно скучаю по этому чувству."
+    deb "It felt good having someone here with me again."
+    deb "I hadn't realized how much I miss that feeling."
     show debbie 1
     show player 21
-    player_name "Да, это было приятное чувство."
+    player_name "Yeah, it felt nice."
     show player 5
     show debbie 3
-    deb "Хех, ты такой симпатичный!"
+    deb "Heh, you're so cute!"
     show debbie 2
-    deb "Вам лучше подняться наверх до того, как {b}[jen_name]{/b} проснется."
+    deb "You'd best get upstairs before {b}[jen_name]{/b} gets up."
     show debbie 1
     show player 21
-    player_name "Да, я как раз собирался уходить."
+    player_name "Yeah, I was just leaving."
     show player 5
     show debbie 2
-    deb "Только не шуми, милый."
-    deb "Мы же не хотим, чтобы она узнала, что у меня к тебе особое отношение!"
+    deb "Just remember to be quiet, sweetie."
+    deb "We don't want her finding you're getting special treatment!"
     show debbie 3
-    deb "Хаха."
+    deb "Haha."
     show debbie 1
     show player 21
-    player_name "Я буду очень осторожен."
-    player_name "Не стесняйся приходить сюда снова спать, если тебе нужно."
+    player_name "I'll be careful."
+    player_name "Feel free to come sleep here again, if you need to."
     show player 13
     show debbie 2
-    deb "Увидимся, милый."
-    deb "... И помни. Ты всегда можешь спать здесь."
+    deb "See you soon, sweetie."
+    deb "... And remember. You're always welcome to sleep here."
     hide xtra
     hide player
     hide debbie
@@ -842,43 +839,43 @@ label moms_bedroom_mom_dinner_outfit:
     show debbie 144 at left
     show player 11f at right
     with dissolve
-    deb "Итак, что ты думаешь?"
+    deb "So, what do you think?"
     show debbie 145
     show player 14f
-    player_name "Отлично выглядишь, {b}[deb_name]{/b}!"
+    player_name "You look great, {b}[deb_name]{/b}!"
     show debbie 146
     show player 13f
-    deb "Правда? Как насчет с другой стороны?"
+    deb "Really? How about from the back?"
     show debbie 147 with fastdissolve
     show player 212f
     pause
     show player 21f
-    player_name "Еще лучше!"
+    player_name "Even better!"
     show player 1f
-    deb "Правда?"
-    deb "Довольно туго..."
+    deb "You're sure?"
+    deb "It's pretty tight..."
     show player 14f
-    player_name "Ничего подобного! Твоя попка выглядит шикарно, {b}[deb_name]{/b}!"
+    player_name "No way! Your butt looks perfect, {b}[deb_name]{/b}!"
     show player 212f
     pause
     show player 11f
-    deb "О, Так ты пялишься на мою задницу, да?"
+    deb "Oh, So you're staring at my butt, huh?"
     show player 21f
-    player_name "... Может быть... Чуть чуть."
+    player_name "... Maybe... A little."
     show player 1f
     show debbie 148 with fastdissolve
-    deb "Хех, ну по крайней мере ты честен!"
-    deb "Я рада что тебе нравится..."
+    deb "Heh, well at least you're honest about it!"
+    deb "I'm glad you like it..."
     show debbie 149
     show player 29f
-    player_name "Хехе, да..."
+    player_name "Heh, y-yeah..."
     hide debbie
     hide player
     with dissolve
     scene home_livingroom_b
     show player 35
     with dissolve
-    player_name "Мне лучше не буду забывать, что сегодня на ужин {b}рыба{/b}. Что за рыбу она просила принести?"
+    player_name "I'd better not forget that {b}fish{/b} for dinner tonight. What kind did she ask for again?"
     show player 34
     return
 
@@ -891,46 +888,46 @@ label moms_bedroom_mom_dinner_outfit_ask:
     pause
     show debbie 161b
     show player 14f at right with fastdissolve
-    player_name "Привет {b}[deb_name]{/b}, что было-"
+    player_name "Hey {b}[deb_name]{/b}, what was-"
     show player 428f
     player_name "( !!! )" with hpunch
     show debbie 161
-    deb "Милый! Я все еще переодеваюсь!"
+    deb "Sweetie! I'm still changing!"
     show player 29f
     show debbie 152
     with fastdissolve
-    player_name "О, И... Извени!"
+    player_name "Oh, I... I'm sorry!"
     show debbie 153
     show player 3f at Position (xoffset=-8)
-    deb "Все нормально."
-    deb "Ничего такого, чего бы ты раньше не видел."
+    deb "Heh, it's okay."
+    deb "It's nothing you haven't seen before."
     show debbie 152
     show player 29f
-    player_name "Ухх... Ну, скажи как называется та {b}рыба{/b}? Которую любит {b}Диана{/b}?"
+    player_name "Uhh... So, what was the name of that {b}fish{/b} again? The one {b}Diane{/b} likes so much?"
     show debbie 153
     show player 3f at Position (xoffset=-8)
-    deb "{b}Морская форель{/b}, милый."
+    deb "{b}Sea Trout{/b}, sweetie."
     show debbie 152
     show player 14f with dissolve
-    player_name "Понял! Я обязательно ее принесу!"
+    player_name "Got it! I'll be sure to pick one up!"
     show debbie 154
     show player 11f
-    deb "Подожди!"
+    deb "Wait!"
     show debbie 155
     show player 10f
-    player_name "Хмм?"
+    player_name "Hmm?"
     show debbie 156 with fastdissolve
     show player 11f
-    deb "Тебе нравится мое новое белье?"
+    deb "You like my new lingerie?"
     show debbie 157
     show player 429f
-    player_name "Уххх..."
+    player_name "Uhhh..."
     show player 21f
-    player_name "Оно сексуальное, {b}[deb_name]{/b}."
+    player_name "It's really sexy, {b}[deb_name]{/b}."
     show debbie 158
     show player 13f
-    deb "Хе-хе, ты такой милый!"
-    deb "Иди сюда!"
+    deb "Hehe, you're just the sweetest!"
+    deb "Come here!"
     show debbie 162 at Position(xpos=102)
     hide player
     with fastdissolve
@@ -940,32 +937,32 @@ label moms_bedroom_mom_dinner_outfit_ask:
     show debbie 155 at left
     show player 21f at right
     with fastdissolve
-    player_name "Спасибо, {b}[deb_name]{/b}!"
-    player_name "Я лучше пойду."
+    player_name "Thanks, {b}[deb_name]{/b}!"
+    player_name "I'd better get going."
     show debbie 154
     show player 13f
-    deb "Да. Увидимся вечером, милый."
+    deb "Yeah. I'll see you tonight, sweetie."
     scene home_livingroom_b
     show player 21
     with fade
-    player_name "( {b}Вау{/b}! )"
-    player_name "( {b}[deb_name]{/b} горяча! )"
+    player_name "( {b}Wow{/b}! )"
+    player_name "( {b}[deb_name]{/b} is so hot! )"
     hide player with dissolve
     return
 
 label moms_bedroom_mom_midnight_swim_after:
     scene home_livingroom_night_b
     show player 25f with dissolve
-    player_name "Я должен оставить ее в покое..."
+    player_name "I should leave her alone..."
     show player 24f
-    player_name "Она выглядела очень расстроенной..."
+    player_name "She seemed pretty upset..."
     hide player with dissolve
     return
 
 label moms_bedroom_mom_is_set_lotion:
     scene debbie_peek_sequence_1
-    player_name "( {b}[deb_name]{/b} нет в комнате. )"
-    player_name "( Она наверно на кухне или еще где-то... )"
+    player_name "( {b}[deb_name]'s{/b} not in her room. )"
+    player_name "( She's probably in the kitchen or something... )"
     return
 
 
@@ -985,19 +982,19 @@ label mom_drawer_panties:
 label mom_drawer_panties_dialogue:
     scene debbie_bedroom
     show player 490
-    player_name "( Ничего себе, они такие мягкие. )"
+    player_name "( Wow, they're so soft. )"
     show player 489
     pause
     show player 491
     pause
     show player 490
-    player_name "( ... Хмм, Пахнет свежим постельным бельем. )"
+    player_name "( ... Hmm, smells like fresh linens. )"
     show player 489
     player_name "( ... )"
     show player 490
-    player_name "( Бьюсь об заклад, ее кровать пахнет как она... )"
-    player_name "( Может быть, я мог бы немного полежать на ней? )"
-    player_name "( Она никогда не узнает. )"
+    player_name "( I bet her bed smells like her... )"
+    player_name "( Maybe, I could lay on it for just a little bit? )"
+    player_name "( She won't ever find out. )"
     hide player
     with dissolve
     return
@@ -1011,144 +1008,144 @@ label mombedroom_mom_movie_afterthoughts_two:
     return
 
 label mom_bed_panties_masturbation_first:
-    player_name "( Эти трусики такие сексуальные... )"
+    player_name "( These panties are really sexy... )"
     show location_debbiebed 2_3
     pause 5
     scene location_debbiebed04
     deb "( !!! )" with hpunch
     scene location_debbiebed05
-    deb "Ой мой..."
+    deb "Oh my..."
     player_name "{b}[deb_name]{/b}?!"
     scene debbie_bedroom_closeup
     show debbie 16 at right
     show player 152 at left
     with dissolve
-    deb "Прости, я не хотел-"
+    deb "I'm sorry, I didn't mean to-"
     show debbie 17
     show player 150
-    deb "... Я имела в виду, я ожидала-"
-    deb "Я..."
+    deb "... I mean, I was expecting-"
+    deb "I ehh..."
     show debbie 16
-    deb "Я должна уйти!"
+    deb "I should leave!"
     show debbie 15
     show player 149
-    player_name "Но-"
+    player_name "But-"
     show debbie 16
     show player 150
-    deb "Нет, все хорошо... Только..."
+    deb "No, it's fine... Just..."
     show debbie 17
     show player 154
-    deb "... Извени меня!"
+    deb "... Excuse me!"
     player_name "..."
     scene home_livingroom_b
     show debbie 16
     with dissolve
-    deb "( Я не могу поверить в то, что я только что видела! )"
-    deb "( Он действительно это делал?! )"
+    deb "( I can't believe what I just saw! )"
+    deb "( Was he really just doing that?! )"
     show debbie 20
-    deb "( ... В МОЕЙ комнате?! )"
+    deb "( ... In MY room?! )"
     show debbie 17
-    deb "( Зачем ему делать это в моей комнате?! )"
+    deb "( Why would he be doing that in my room?! )"
     show debbie 16
-    deb "( Конечно, он не может быть увлечен мною, не так ли?! )"
+    deb "( Surely he can't be attracted to me, can he?! )"
     show debbie 19
     deb "..."
     show debbie 18
-    deb "( Наверное, это нормально... )"
-    deb "( Он молодой человек и его гормоны заставляют его делать сумасшедшие вещи! )"
-    deb "( Это должно быть именно так! Он просто запутался после всего, что случилось недавно... )"
+    deb "( It's probably normal... )"
+    deb "( He's a young man and his hormones are making him do crazy things! )"
+    deb "( That's gotta be it! He's probably just confused after everything that's happened recently... )"
     show debbie 17
-    deb "( ... Мне нужно поговорить с ним об этом? )"
+    deb "( ... Should I talk to him about it? )"
     show debbie 16
-    deb "( Полагаю, я должна хотя бы попросить его сделать что-то подобное в его собственной комнате... И только не с моим  {b}нижним бельем{/b}! )"
+    deb "( I suppose, I should at least ask him to do that kind of thing in his own room... And not with {b}my underwear{/b}! )"
     scene debbie_bedroom_closeup
     show player 151 at left
     with dissolve
-    player_name "( Вот дерьмо. Это плохо! )"
-    player_name "( Я {b}СИЛЬНО{/b} облажался... )"
-    player_name "( Зачем я вообще это сделал! )"
+    player_name "( Oh, crap. This is bad! )"
+    player_name "( I'm {b}SO{/b} screwed... )"
+    player_name "( Why did I even DO this! )"
     show player 153
-    player_name "...Ух..."
-    player_name "( Я глупец... )"
+    player_name "...Ugh..."
+    player_name "( I'm so stupid... )"
     show player 151
-    player_name "( ... Между нами все было так хорошо, а теперь это все испортит! )"
+    player_name "( ... Things were doing so well between us and now this is going to ruin everything! )"
     scene home_livingroom_b
     show debbie 13 at right with dissolve
     show player 5 at left with dissolve
-    deb "Привет, милый!"
+    deb "Hey, sweetie!"
     show debbie 14
     show player 21
     player_name "..."
     show debbie 13
     show player 24
-    deb "Слушай, я просто хочу, чтобы ты знал, что я не злюсь..."
-    deb "Мастурбация-это совершенно нормально..."
-    deb "Я знаю, что ты прошел через многое в последнее время; потерял своего {b}отца{/b} и переехал сюда к нам..."
+    deb "Listen, I just want you to know I'm not mad..."
+    deb "Masturbation is perfectly normal..."
+    deb "I know you have been going through a lot recently; Losing your {b}Dad{/b} and moving in here with us..."
     show player 5
     show debbie 14
     player_name "..."
     show debbie 13
-    deb "Ты должно быть напряжен и более чем смущен..."
-    deb "... Но тебе не следует делать это в моей комнате! ... И уж точно не с моим бельем!"
+    deb "You've got to be stressed and more than a little confused..."
+    deb "... But you shouldn't be doing that in my room! ... And certainly not with my lingerie!"
     show debbie 14
     show player 24
-    player_name "Я знаю, прошу прощения. Я не знаю, что на меня нашло!"
+    player_name "I know, I'm sorry. I don't know what came over me!"
     show debbie 13
     show player 5
-    deb "Все хорошо, милый..."
+    deb "It's okay, sweetie..."
     show player 11
-    deb "Нам просто нужно найти тебе хорошую девушку или типа того..."
-    deb "... {b}Может дать интернет порно{/b} попробовать до тех пор?"
+    deb "We just need to find you a nice Girlfriend or something..."
+    deb "... {b}Maybe give internet porn{/b} a try until then?"
     show debbie 14
     show player 21
-    player_name "{b}[deb_name]{/b}!! Пожалуйста, прекрати, это все так неловко!"
+    player_name "{b}[deb_name]{/b}!! Please stop, this is all really embarrassing!"
     show debbie 13
     show player 13
-    deb "... Прости. Я только пытаюсь помочь."
-    deb "Не надо так смущаться. На самом деле, это не имеет большого значения... Все мастурбируют. Это совершенно нормально!"
-    deb "Я все еще думаю, что ты отличный парень! Это просто тяжелое время для тебя..."
+    deb "... Sorry. I'm just trying to help."
+    deb "Don't be so embarrassed. Really, it's not a big deal... Everyone masturbates. It's perfectly normal!"
+    deb "I still think you're a great kid! You're just having a tough time is all..."
     show debbie 14
     show player 21
-    player_name "Я не ребенок..."
+    player_name "I'm not a kid..."
     show debbie 13
     show player 13
-    deb "Ты прав, мне очень жаль. Ты не ребенок. Просто пообещай больше не делать этого в моей комнате."
+    deb "You're right, I sorry. You aren't a kid. Just promise not to do that in my room anymore."
     show player 21
     show debbie 14
-    player_name "Обещаю..."
+    player_name "I promise..."
     return
 
 label mom_bed_panties_masturbation_repeat:
-    player_name "( Они такие мягкие против моей кожи... )"
+    player_name "( These feel so soft against my skin... )"
     show location_debbiebed 2_3
     pause 5
     scene location_debbiebed04
     deb "!!!" with hpunch
     scene location_debbiebed05
-    deb "Опять!"
+    deb "Again!"
     player_name "{b}[deb_name]{/b}!!"
     scene debbie_bedroom_closeup
     show player 150 zorder 1 at left
     show debbie 16 at right with dissolve
-    deb "Милый!"
+    deb "Sweetie!"
     show debbie 25b at Position(xpos = 810, ypos = 768) with dissolve
-    deb "Ты испортишь все мои красивые трусики!"
+    deb "You're going to ruin all my nice panties!"
     show debbie 26 zorder 0 at Position(xpos = 610) with dissolve
     show player 151
-    player_name "Прости, я просто..... Кажется, я не могу остановиться."
+    player_name "Sorry, I just... I can't seem to stop."
     show player 150
     show debbie 25
-    deb "Все в порядке. Ты мужчина и у тебя есть желания..."
-    deb "Хочешь, я покажу тебе еще одно маленькое шоу, чтобы ускорить процесс?"
+    deb "It's alright. You're a man and you have urges..."
+    deb "Want me to give you another little show to help speed things up?"
     show debbie 26
     show player 154
     player_name "( !!! )"
     show player 149
-    player_name "Правда?"
-    player_name "Да!"
+    player_name "Really?"
+    player_name "Yeah!"
     show player 150 zorder 0
     show debbie 25b zorder 1 at Position(xpos = 810) with dissolve
-    deb "Хорошо, милый."
+    deb "Alright, sweetie."
     show debbie 19 at right with dissolve
     pause
     show debbie 21 with dissolve
@@ -1158,53 +1155,53 @@ label mom_bed_panties_masturbation_repeat:
     show debbie 23d with dissolve
     pause
     show debbie 23e
-    deb "Как я выгляжу?"
+    deb "How do I look?"
     show debbie 23d
     show player 149
-    player_name "Красивая..."
+    player_name "Beautiful..."
     show player 150
     show debbie 24b
     show player 155_156_156b_156 with dissolve
     pause
     pause
-    player_name "О, {b}[deb_name]{/b}! Ты сексуальна!"
+    player_name "Oh, {b}[deb_name]{/b}! You're so sexy!"
     show player 157_158_159 with flash
     show debbie 24c
     deb "( !!! ){p=1.5}{nw}"
     show player 161 with dissolve
     show debbie 24b
-    deb "Это позволит сделать все здесь!"
+    deb "That almost made it all the way over here!"
     show debbie 23d
     show player 160
-    player_name "Ты лучшая {b}[deb_name]{/b}..."
+    player_name "You're the best {b}[deb_name]{/b}..."
     show player 161
     show debbie 23e
-    deb "Лучше бы я позволила тебе сделать это!"
-    deb "А теперь иди сюда и обними меня."
+    deb "I'd better be for letting you do this!"
+    deb "Now, come over here and give me a hug."
     show debbie 23d
     hide player
     show debbie 28
     with dissolve
-    deb "Люблю тебя."
+    deb "Love you."
     show debbie 29
-    player_name "Я тоже тебя люблю."
+    player_name "Love you, too."
     return
 
 label mom_bed_panties_masturbation_pre:
     scene location_debbiebed01
-    player_name "( Они такие мягкие против моей кожи... )"
+    player_name "( These feel so soft against my skin... )"
     show location_debbiebed 2_3
-    player_name "( Это как раз то, что мне было нужно... )"
+    player_name "( Oh, this is just what I needed... )"
     pause 5
     scene location_debbiebed04
     deb "( !!! )" with hpunch
     scene location_debbiebed05
-    deb "Ой мой..."
+    deb "Oh my..."
     player_name "{b}[deb_name]{/b}!!"
     scene debbie_bedroom_closeup
     show player 152 at left with dissolve
     show debbie 16 at right with dissolve
-    deb "{b}Опять{/b}??!"
+    deb "{b}Again{/b}??!"
     show debbie 20
     pause
     deb "..."
@@ -1212,176 +1209,176 @@ label mom_bed_panties_masturbation_pre:
     show debbie 25b zorder 0 at Position(xpos=0.675, ypos= 1.0) with dissolve
     pause 1
     show debbie 25 at Position(xpos =0.58, ypos = 768) with dissolve
-    deb "Милый, мы уже разговаривали об этом."
+    deb "Sweetie, we talked about this."
     return
 
 label mom_bed_panties_masturbation_sorry:
     show debbie 26
     show player 151
-    player_name "Извени, {b}[deb_name]{/b}..."
-    player_name "Я не знаю, что на меня нашло!"
-    player_name "...Это больше не повторится, обещаю!"
+    player_name "I'm sorry, {b}[deb_name]{/b}..."
+    player_name "I don't know what came over me!"
+    player_name "...It won't happen again, I promise!"
     show debbie 27
     show player 152
-    deb "О, милый..."
+    deb "Oh, sweetie..."
     show debbie 25
-    deb "...Просто, пожалуйста, попробуй сделать это в другом месте."
-    deb "Ты можешь сделать это для меня?"
+    deb "...Just please, try and do it elsewhere from now on."
+    deb "Can you do that for me?"
     show debbie 26
     show player 151
-    player_name "Да, мэм..."
+    player_name "Yes, Ma'am..."
     return
 
 label mom_bed_panties_masturbation_cant_help_it:
     show debbie 26
     show player 151
-    player_name "Извени, {b}[deb_name]{/b}... Но только {b}так приятно{/b}..."
+    player_name "I'm sorry, {b}[deb_name]{/b}... It just {b}feels so good{/b}..."
     show debbie 27
     show player 152
-    deb "Я знаю, милый... Но это неправильно, что ты делаешь это в моей постели... И вместе с моей одеждой!"
+    deb "I know, sweetie... But it's not right you doing it in my bed... And with my clothes!"
     show debbie 25
-    deb "Почему ты не можешь найти другой способ, чтобы освободить свою... {b}Энергию{/b}?"
-    deb "А что насчет девочек в твоей школе, они тебе не нравятся?"
+    deb "Why can't you find another outlet to release your... {b}Energy{/b} with?"
+    deb "What about the girls at your school, don't you like any of them?"
     return
 
 label mom_bed_panties_masturbation_im_trying:
     show debbie 26
     show player 151
-    player_name "Я пытаюсь, {b}[deb_name]{/b}..."
-    player_name "...Иногда нелегко знакомиться с девушками..."
+    player_name "I'm trying, {b}[deb_name]{/b}..."
+    player_name "...It's not easy to meet girls sometimes..."
     show player 152
     deb "..."
     show debbie 25
-    deb "Ты пробовал приглашать их на свидания?"
+    deb "Have you tried asking them on dates?"
     show debbie 26
     show player 149
-    player_name "Что?"
-    player_name "Я не могу просто... сделай это вот так..."
+    player_name "What?"
+    player_name "I can't just... do it like that..."
     show debbie 25
     show player 152
-    deb "Ну, тебе придется приложить усилия, милый!"
+    deb "Well, you have to make an effort, sweetie!"
     show debbie 26
     show player 151
-    player_name "{b}*вздыхая*{/b} Я попробую, {b}[deb_name]{/b}."
+    player_name "{b}*Sigh*{/b} I will, {b}[deb_name]{/b}."
     show debbie 25
     show player 152
-    deb "Как долго будешь пытаться..."
+    deb "As long as you're trying..."
     show debbie 25b zorder 0 at Position(xpos=0.675, ypos= 1.0) with dissolve
-    deb "Иди сюда..."
+    deb "Come here..."
     hide player
     show debbie 28
     with dissolve
     player_name "..."
-    deb "Мы пройдем через это..."
+    deb "We're going to get through this..."
     show debbie 29
-    player_name "Да..."
+    player_name "Y-yeah..."
     return
 
 label mom_bed_panties_masturbation_not_really:
     show debbie 26
     show player 151
-    player_name "Не знаю..."
-    player_name "...Наверное, я просто не нашел того, кто мне нравится."
+    player_name "I dunno... Not really..."
+    player_name "...I just haven't found one that I like, I guess."
     deb "..."
     show debbie 25
     show player 152
-    deb "Как насчет соседской девушки?"
+    deb "How about that neighbor girl?"
     show debbie 27
     show player 150
-    deb "Как ее зовут?"
+    deb "What's her name again?"
     show debbie 26
     show player 151
-    player_name "{b}Мия{/b}..."
+    player_name "{b}Mia{/b}..."
     show debbie 25
     show player 152
-    deb "Да! Что насчет {b}Мии{/b}? Она симпатичная!"
+    deb "Yeah! What about {b}Mia{/b}? She's cute!"
     show debbie 26
     show player 151
-    player_name "Да, наверное..."
+    player_name "Yeah, I guess..."
     show debbie 25
     show player 152
-    deb "Ну, тебе придется приложить усилия, милый!"
+    deb "Well, you have to make an effort, sweetie!"
     show debbie 26
     show player 151
-    player_name "Я попробую, {b}[deb_name]{/b}."
+    player_name "I'll try, {b}[deb_name]{/b}."
     show debbie 25
     show player 152
-    deb "Как долго будешь пытаться..."
+    deb "As long as you're trying..."
     show debbie 25b zorder 0 at Position(xpos=0.675, ypos= 1.0) with dissolve
-    deb "Иди сюда..."
+    deb "Come here..."
     hide player
     show debbie 28
     with dissolve
     player_name "..."
-    deb "Мы пройдем через это..."
+    deb "We're going to get through this..."
     show debbie 29
-    player_name "Да..."
+    player_name "Y-yeah..."
     return
 
 label mom_bed_panties_masturbation_i_like_you:
     show debbie 30
     show player 149
     if M_mom.is_state(S_mom_panties_masturbation_again):
-        player_name "Ты мне нравишься..."
+        player_name "I like you..."
     else:
-        player_name "Но я не могу выбросить тебя из головы..."
+        player_name "But I can't get you out of my head..."
     show player 152
     deb "..."
     if M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 25
         show player 150
-        deb "Это не так... Ты просто запутался."
+        deb "You don't mean that... You're just confused."
         show debbie 30
         show player 149
-        player_name "Нет, я действительно так думаю! {b}[deb_name]{/b}, я думаю только о тебе."
+        player_name "No, I really do mean it! {b}[deb_name]{/b}, you're all I think about."
         show player 151
-        player_name "Девочки моего возраста просто не могут соперничать с тобой!"
+        player_name "The girls my age just can't hold a candle to you!"
         show player 152
         deb "..."
         show debbie 25
-        deb "Я..."
+        deb "I..."
         show debbie 26
-        deb "Это очень мило с твоей стороны, {b}[firstname]{/b} но мы не можем сделать это!"
+        deb "That's really sweet of you to say, {b}[firstname]{/b} but we can't do this!"
         show player 150
         show debbie 25
-        deb "{b}*вздыхая*{/b} Это все моя вина..."
-        deb "... Все эти поцелуи..."
+        deb "{b}*Sigh*{/b} This is all my fault..."
+        deb "... All that kissing..."
         show debbie 27
-        deb "О боже, и еще в машине!"
+        deb "Oh god and the thing in the car!"
         show debbie 27
         deb "..."
-        deb "Я просто ужасный человек..."
+        deb "I'm a terrible person..."
         show debbie 26
         show player 149
-        player_name "Ты не виновата, {b}[deb_name]{/b}..."
+        player_name "It's not your fault, {b}[deb_name]{/b}..."
         show debbie 30
         show player 151
-        player_name "Это я! Я просто не хочу никого другого!"
-        player_name "... Может, со мной что-то не так..."
+        player_name "It's me! I just don't want anyone else!"
+        player_name "... Maybe there's something wrong with me..."
         show debbie 25b zorder 0 at Position(xpos=0.675, ypos= 1.0) with dissolve
         pause.4
         show debbie 15 at Position(xpos=0.8, ypos=1.0) with dissolve
         show player 150
         player_name "..."
         show debbie 17
-        deb "{b}*вздыхая*{/b}"
+        deb "{b}*Sigh*{/b}"
         show debbie 18
-        deb "Милый, с тобой все в порядке."
-        deb "Ты просто запуталась... Вот и все."
+        deb "Sweetie, there's nothing wrong with you."
+        deb "You're just confused... That's all."
     if not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 17 at Position(xpos=0.8, ypos=1.0) with dissolve
-    deb "... Может, тебе просто нужно выкинуть это из головы?"
+    deb "... Maybe you just need to get this out of your system?"
     show debbie 15
     if M_mom.is_state(S_mom_panties_masturbation_again):
         show player 149
-        player_name "Что ты имеешь в виду?"
+        player_name "What do you mean?"
         show debbie 18
-        deb "Я собираюсь сделать это, но {b}только один раз, хорошо{/b}?"
+        deb "I'm going to do this but {b}only this one time, alright{/b}?"
         show debbie 17
-        deb "И ты должен пообещать мне, что будешь больше стараться разговаривать с девочками в школе!"
+        deb "And you have to promise me that you'll try harder to talk with girls at school!"
         show debbie 19
         show player 149
-        player_name "Что ты собираешься делать?"
+        player_name "What are you gonna do?"
     show player 154
     show debbie 21
     window hide
@@ -1403,46 +1400,46 @@ label mom_bed_panties_masturbation_i_like_you:
         show debbie 23e
     else:
         show debbie 31
-    deb "Давай, {b}[firstname]{/b}. Закончи то, что начал..."
+    deb "Go ahead, {b}[firstname]{/b}. Finish what you started..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 23b
     else:
         show debbie 23
     show player 149
-    player_name "...Ты хочешь сказать, все в порядке?!!"
+    player_name "...You mean it's okay?!!"
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 23e
     else:
         show debbie 31
     show player 150
     if M_mom.is_state(S_mom_panties_masturbation_again):
-        deb "Все хорошо, {b}только один раз{/b}!"
+        deb "It's okay, {b}just this once{/b}!"
     else:
-        deb "Просто {b}сделай это{/b}. Все в порядке..."
+        deb "Just {b}do it{/b}. It's okay..."
         show debbie 23b
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show player 149
         player_name "{b}[deb_name]{/b}..."
-        player_name "...Ты не носишь трусики?"
+        player_name "...You're not wearing panties?"
         show player 150
         show debbie 23c
         pause
         show debbie 23e
-        deb "Что такое?"
-        deb "О! Мои трусики?"
-        deb "Наверное, я просто.....забыла!"
+        deb "What's that?"
+        deb "Oh! My panties?"
+        deb "I guess I just...forgot!"
         show debbie 23d
         player_name "..."
         show debbie 23e
-        deb "Это поможет?"
+        deb "Does it...help?"
         show debbie 23d
         show player 149
-        player_name "Мне нравится."
+        player_name "I like it."
     else:
 
         show debbie 23
         show player 155 with dissolve
-        player_name "Хорошо..."
+        player_name "O-okay..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show player 155_156_156b_156
     else:
@@ -1452,25 +1449,25 @@ label mom_bed_panties_masturbation_i_like_you:
         show debbie 24d
     else:
         show debbie 24
-    player_name "О, {b}[deb_name]{/b}..."
+    player_name "Oh, {b}[deb_name]{/b}..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 24b
     else:
         show debbie 24f
-    deb "О мой..."
+    deb "Oh my..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 24d
     else:
         show debbie 24
     pause
-    player_name "{b}[deb_name]{/b}!!! Я кончаю-"
+    player_name "{b}[deb_name]{/b}!!! I'm gonna-"
     deb "..."
     show player 157 with flash
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 24c
     else:
         show debbie 24e
-    player_name "Хнннн!!"
+    player_name "HNNGGG!!"
     pause .4
     show player 158
     pause .4
@@ -1489,12 +1486,12 @@ label mom_bed_panties_masturbation_i_like_you:
     show player 159
     pause .2
     show player 160 with dissolve
-    player_name "Хух, хуууух, хууууух..."
+    player_name "huuuh, huuuh, huuuuh..."
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 24b
     else:
         show debbie 24f
-    deb "Ничего себе, так много!"
+    deb "Wow, that was a lot!"
     player_name "..."
     show player 161
     if M_mom.is_set("no panties") and not M_mom.is_state(S_mom_panties_masturbation_again):
@@ -1508,24 +1505,24 @@ label mom_bed_panties_masturbation_i_like_you:
     pause
     if M_mom.is_state(S_mom_panties_masturbation_again):
         show debbie 16
-        deb "Ты должен сделать усилие, чтобы встретить других девушек сейчас...{b}обещал{/b}?"
+        deb "You have to make an effort to meet other girls now... {b}Promise{/b}?"
         show debbie 15
         show player 160
-        player_name "Да..."
+        player_name "Yeah..."
         show debbie 17
         show player 161
-        deb "Это было просто {b}один раз{/b}... Чтобы избавиться от..."
+        deb "This was just a {b}one time thing{/b}... To get it out of your system..."
     show debbie 17
-    deb "Иди сюда..."
+    deb "Come here..."
     hide player
     show debbie 28 with dissolve
     pause
     show debbie 29
     player_name "..."
     show debbie 28
-    deb "Мы пройдем через это..."
+    deb "We're going to get through this..."
     show debbie 29
-    player_name "Да..."
+    player_name "Y-yeah..."
     return
 
 label mom_bed_sleep_together_pre_sex_available:
@@ -1535,35 +1532,35 @@ label mom_bed_sleep_together_pre_sex_available:
     deb "..."
     show debbie 81
     deb "{b}[firstname]{/b}?"
-    deb "Все в порядке?"
+    deb "Is everything okay?"
     show player 111
-    player_name "Привет, {b}[deb_name]{/b}."
+    player_name "Hey, {b}[deb_name]{/b}."
     show player 108
-    player_name "У меня просто проблемы со сном..."
-    player_name "Все, о чем я могу думать, это чтобы быть внутри тебя."
+    player_name "I'm just having trouble sleeping..."
+    player_name "All I can think about is being inside you."
     show player 109
     show debbie 81
-    deb "Это нормально."
-    deb "У тебя слишком много энергии, которую нужно...сбросить."
-    deb "Заходи, я точно знаю, что делать."
+    deb "It's okay."
+    deb "You have too much energy that needs... releasing."
+    deb "Come inside, I know exactly what to do."
     show debbie 82
     show player 108
-    player_name "Ты уверена?"
+    player_name "You sure?"
     show debbie 81
     show player 110
-    deb "О, да... мне тоже это нужно."
+    deb "Oh, yes... I need it, too."
     scene debbie_cuddle
     show debbies 77
     with fade
 
-    player_name "Спасибо, {b}[deb_name]{/b}."
+    player_name "Thanks, {b}[deb_name]{/b}."
     show debbies_bed_overlay zorder 3 at Position(xpos=438)
     show debbies 79 zorder 2 at Position(xpos=365)
     with dissolve
-    player_name "Я просто не мог уснуть... Я был так возбужден, думая о тебе..."
-    player_name "...И я хотел снова быть в тебе."
+    player_name "I couldn't sleep... I was so horny thinking about you..."
+    player_name "...And I wanted to be in you again."
     show debbies 80
-    deb "Это совершенно нормально, милый."
+    deb "It's perfectly normal, sweetie."
     return
 
 label mom_bed_sleep_together_pre:
@@ -1573,56 +1570,56 @@ label mom_bed_sleep_together_pre:
     deb "..."
     show debbie 81
     deb "{b}[firstname]{/b}?"
-    deb "Все хорошо?"
+    deb "Is everything okay?"
     show debbie 82
     show player 111
-    player_name "Да, {b}[deb_name]{/b}."
+    player_name "Yes, {b}[deb_name]{/b}."
     show player 108
-    player_name "Я не могу уснуть..."
+    player_name "I'm just having trouble sleeping..."
     show player 109
     show debbie 81
-    deb "О..."
-    deb "Ничего страшного, милый."
-    deb "Я понимаю, через что тебе приходится пройти..."
+    deb "Oh..."
+    deb "That's okay, sweetie."
+    deb "I understand what you're going through..."
     show debbie 83
-    deb "... И со всем, что случилось..."
+    deb "... And with everything that's happened..."
     show debbie 82
     show player 108
-    player_name "Можно я сегодня с тобой посплю?"
+    player_name "Can I sleep with you tonight?"
     show player 109
     show debbie 83
-    deb "{b}*вздыхая*{/b}"
+    deb "{b}*Sigh*{/b}"
     show debbie 81
     show player 110
-    deb "Да, все должно быть в порядке. Если ты проснешься рано и вернешься в свою комнату до того, как {b}[jen_name]{/b} проснется."
+    deb "Yeah, that should be okay. So long as you wake up early and return to your room before {b}[jen_name]{/b} wakes up."
     show debbie 82
     show player 111
-    player_name "Я смогу это сделать."
+    player_name "I can do that."
     scene debbie_cuddle
     with fade
     show debbies 77
     with fade
-    player_name "Спасибо, {b}[deb_name]{/b}."
+    player_name "Thanks, {b}[deb_name]{/b}."
     show debbies_bed_overlay zorder 3 at Position(xpos=438)
     show debbies 79 zorder 2 at Position(xpos=365)
     with dissolve
-    player_name "Мне нравится быть рядом с тобой..."
-    player_name "... Здесь, в твоей кровати."
+    player_name "I like being close to you..."
+    player_name "... Here in your bed."
     show debbies 80
-    deb "Я знаю, милый. Мне тоже нравится."
+    deb "I know, sweetie. I like it too."
     show debbies 79
-    player_name "Правда?"
+    player_name "You do?"
     return
 
 label mom_bed_sleep_together_cuddle_sex_available:
     show debbies 79
-    player_name "Мы можем обняться?"
+    player_name "Can we cuddle?"
     show debbies 80
-    deb "Конечно."
+    deb "Of course."
     show debbies 83 with dissolve
-    player_name "Ты пахнешь очень приятно, {b}[deb_name]{/b}..."
+    player_name "You smell really good, {b}[deb_name]{/b}..."
     show debbies 84
-    deb "Спасибо, милый."
+    deb "Thanks, sweetie."
     show debbies 81_82 with dissolve
     pause 4
     show debbies 81
@@ -1630,20 +1627,20 @@ label mom_bed_sleep_together_cuddle_sex_available:
 
 label mom_bed_sleep_together_cuddle:
     show debbies 79
-    player_name "Мы можем обняться? Немного?"
+    player_name "Can we cuddle? Just a little bit?"
     show debbies 80
-    deb "Конечно, милый."
+    deb "Sure, sweetie."
     show debbies 81_82 with dissolve
     deb "( !!! )"
-    deb "( Он... ласкает мои бедра... )"
-    deb "( Неужели это слишком? )"
-    deb "( Это приятно, но я должна остановить его? )"
+    deb "( He's... caressing my hips... )"
+    deb "( Is this too much? )"
+    deb "( It feels good but should I stop him? )"
     show debbies 83
-    player_name "Ты очень хорошо пахнешь, {b}[deb_name]{/b}..."
+    player_name "You smell really good, {b}[deb_name]{/b}..."
     show debbies 82
     deb "( ... )"
     show debbies 84
-    deb "Спасибо, {b}[firstname]{/b}."
+    deb "Thanks, {b}[firstname]{/b}."
     show debbies 82
     return
 
@@ -1655,10 +1652,10 @@ label mom_bed_sleep_together_cuddle_keep_going:
 
 label mom_bed_sleep_together_kiss_sex_available:
     show debbies 83
-    player_name "Мы можем поцеловаться?"
+    player_name "Can we kiss?"
     show debbies 84
-    deb "Тебе даже не нужно спрашивать, милый."
-    deb "Иди сюда..."
+    deb "You don't even have to ask, sweetie."
+    deb "Come here..."
     show debbies 85_86 with dissolve
     pause 4
     show debbies 81 with dissolve
@@ -1668,46 +1665,46 @@ label mom_bed_sleep_together_kiss:
     show debbies 83
     player_name "{b}[deb_name]{/b}..."
     show debbies 84
-    deb "Да?"
+    deb "Yes?"
     show debbies 83
-    player_name "Можно тебя поцеловать?"
+    player_name "Can I kiss you?"
     show debbies 84
-    deb "Ты хочешь меня поцеловать?"
-    deb "... Сейчас?"
+    deb "You want to kiss me?"
+    deb "... Right now?"
     show debbies 83
-    player_name "Да, пожалуйста."
+    player_name "Y-yes, please."
     show debbies 81
     deb "..."
     show debbies 83
-    player_name "Я не знаю, почему... Я просто очень хочу поцеловать тебя прямо сейчас."
+    player_name "I don't know why... I just really want to kiss you right now."
     show debbies 84
-    deb "... Это мило, {b}[firstname]{/b}."
+    deb "... That's sweet, {b}[firstname]{/b}."
     show debbies 83
-    player_name "Значит, все в порядке?"
-    player_name "... поцеловать тебя, совсем чуть-чуть?"
+    player_name "So is it alright?"
+    player_name "... to kiss you, just a little bit?"
     show debbies 84
-    deb "Я..."
-    deb "Я полагаю, мы можем поцеловаться, но только немного!"
+    deb "I..."
+    deb "I suppose we can kiss but just a little bit!"
     show debbies 83
-    player_name "Да."
+    player_name "Y-yeah."
     show debbies 85_86 with hpunch
     deb "( !!! )"
-    deb "( Я чувствую его язык! )"
-    deb "( Почему он так хорош в этом?! )"
-    deb "Ммм..."
-    deb "( О, мой... )"
-    deb "( Его руки на моей груди... )"
-    deb "Ммм..."
-    deb "( ... Это меня так возбуждает! )"
+    deb "( I can feel his tongue! )"
+    deb "( Why is he so good at this?! )"
+    deb "Mmm..."
+    deb "( Oh my... )"
+    deb "( His hands are on my breasts... )"
+    deb "Mmm..."
+    deb "( ... This is making me so horny! )"
     show debbies 83 with dissolve
-    player_name "... Как это было?"
+    player_name "... How was that?"
     show debbies 84
     deb "..."
-    deb "{b}*глоток*{/b} Это было действительно хорошо, {b}[firstname]{/b}."
+    deb "{b}*Gulp*{/b} That was really good, {b}[firstname]{/b}."
     show debbies 83
-    player_name "Ты в порядке, {b}[deb_name]{/b}?"
+    player_name "Are you okay, {b}[deb_name]{/b}?"
     show debbies 84
-    deb "... Да, все нормально, милый. Здесь просто очень жарко."
+    deb "... Yeah, I'm fine, sweetie. It's just hot in here."
     show debbies 81 with dissolve
     return
 
@@ -1719,9 +1716,9 @@ label mom_bed_sleep_together_kiss_keep_going:
 
 label mom_bed_sleep_together_breastfeed_sex_available:
     show debbies 83
-    player_name "Могу я... пососать грудь?"
+    player_name "Can I... suck on your breasts?"
     show debbies 87 with dissolve
-    deb "Только... будь нежным."
+    deb "Just... be gentle."
     show debbies 88_89 at Position(xpos=329) with dissolve
     pause 4
     show debbies 89 at Position(xpos=327)
@@ -1729,27 +1726,27 @@ label mom_bed_sleep_together_breastfeed_sex_available:
 
 label mom_bed_sleep_together_breastfeed:
     show debbies 83
-    player_name "Могу ли я ... Поцеловать тебя сюда?"
+    player_name "Can I... Kiss you down here?"
     show debbies 84
-    deb "Хмм?"
+    deb "Hmm?"
     show debbies 83
-    player_name "В шею... И твою грудь..."
+    player_name "Your neck... And your chest..."
     show debbies 84
-    deb "О, я не знаю..."
+    deb "Oh, I dunno..."
     show debbies 83
-    player_name "Только немного, я обещаю."
+    player_name "Just a little, I promise."
     show debbies 84
     deb "..."
     show debbies 87 with dissolve
-    deb "... нежнее."
+    deb "... Be gentle."
     show debbies 88_89 at Position(xpos=329) with dissolve
-    deb "( Ах! Он сосет мой сосок! )"
-    deb "( ... Ох бог! )"
-    deb "( Аххх...!! )" with hpunch
-    deb "( Как приятно! )"
+    deb "( Ah! He's sucking my nipple! )"
+    deb "( ... Oh God! )"
+    deb "( Ahhh...!! )" with hpunch
+    deb "( It feels so good! )"
     deb "( ... )"
-    deb "( Он так крепко держится! )"
-    deb "( ... Хочется, чтобы он продолжал!! )"
+    deb "( He's latched on so tight! )"
+    deb "( ... I wish I could take this further! )"
     show debbies 88 at Position(xpos=329)
     return
 
@@ -1761,17 +1758,17 @@ label mom_bed_sleep_together_breastfeed_keep_going:
 
 label mom_bed_sleep_together_rub_sex_available:
     show debbies 90 at Position(xpos=327) with dissolve
-    deb "Да, милый."
+    deb "Yes, sweetie."
     show debbies 91 with dissolve
-    deb "Достань его и положи мне между ног..."
+    deb "Take it out, and place it between my legs..."
     show debbies 92 with dissolve
     pause
     show debbies 93_94 at Position(xpos=329) with dissolve
-    deb "Ты такой красивый и сильный."
-    deb "Я это чувствую..."
-    deb "Продолжай двигать бедрами, милый."
-    deb "Как приятно..."
-    deb "Ахххх.."
+    deb "You're so nice and hard, now."
+    deb "I can feel it..."
+    deb "Keep moving your hips, sweetie."
+    deb "It feels so good..."
+    deb "Ahhh.."
     pause
     show debbies 93_94 at Position(xpos=329)
     pause 4
@@ -1780,23 +1777,23 @@ label mom_bed_sleep_together_rub_sex_available:
 
 label mom_bed_sleep_together_rub:
     show debbies 90 at Position(xpos=327) with dissolve
-    deb "( Что он... )"
+    deb "( What is he... )"
     show debbies 91 with dissolve
     deb "..."
     show debbies 92 with dissolve
-    deb "( Он только что его вытащил?! )"
-    deb "( О мой бог! )"
-    deb "( Я должна остановить его, но... )"
+    deb "( Did he just take it out?! )"
+    deb "( Oh my god! )"
+    deb "( I should be stopping him but... )"
     deb "( ... )"
     show debbies 93_94 at Position(xpos=329) with hpunch
-    deb "( Аххх...! )"
-    deb "Мммм!"
-    deb "( Я близко! )"
-    deb "( Он собирается заставить меня кончить! )"
-    deb "( ОХ БОГ!!! )"
-    deb "( Я кончаю... )"
-    deb "( Я КОНЧАЮ!! )"
-    deb "ААААХХХХ!"
+    deb "( Ahhh...! )"
+    deb "Mmm!"
+    deb "( I'm getting close! )"
+    deb "( He's going to make me cum! )"
+    deb "( OH GOD!!! )"
+    deb "( I'm gonna... )"
+    deb "( I'M GONNA!! )"
+    deb "AAAHHH!"
     show debbies 93 at Position(xpos=329)
     return
 
@@ -1813,50 +1810,50 @@ label mom_bed_sleep_together_stop:
 label mom_bed_sleep_together_fuck:
     show debbies 95 with dissolve
     if randomizer() <= 50:
-        deb "Позволь мне помочь, милый..."
-        deb "...А теперь вставь его в меня... поглубже."
+        deb "Let me help you, sweetie..."
+        deb "...Now, slide it inside me... deep."
         show debbies 96 with dissolve
-        deb "Вот так... Да, милый..."
+        deb "Just like that... Yes, sweetie..."
     else:
-        deb "Я не могу терпеть все эти приставания."
-        deb "Я хочу, чтобы ты закопал в меня этот большой член."
-        deb "Не двигайся медленно..."
-        deb "Ты достаточно меня дразнил."
+        deb "I can't take all the teasing like that."
+        deb "I want you to bury that big cock in me."
+        deb "Don't go slow..."
+        deb "You've teased me enough."
         show debbies 96 with dissolve
         pause
     show debbies 98 at Position(xpos=327) with dissolve
     if randomizer() <= 50:
-        deb "АХХ!"
+        deb "AHH!"
     else:
-        deb "Охх..."
+        deb "Ohh..."
     show screen xray_scr
     pause
     if anim_toggle:
         hide screen xray_scr
         show debbies 97_98 at Position(xpos=329)
-        deb "О, да!{p=1}{nw}"
-        deb "Да, милый...{p=1}{nw}"
-        deb "Продолжай...{p=1}{nw}"
-        deb "Глубже... Быстрее!!{p=1}{nw}"
+        deb "Oh, yes!{p=1}{nw}"
+        deb "Yes, sweetie...{p=1}{nw}"
+        deb "Keep going...{p=1}{nw}"
+        deb "Deeper... Faster!!{p=1}{nw}"
     else:
 
         hide screen xray_scr
         show debbies 97 at Position(xpos=329)
-        deb "О, да!"
+        deb "Oh, yes!"
         show debbies 98 at Position(xpos=327)
-        deb "Да, милый..."
+        deb "Yes, sweetie..."
         show debbies 97 at Position(xpos=329)
-        deb "Продолжай..."
+        deb "Keep going..."
         show debbies 98 at Position(xpos=327)
-        deb "Глубже... Быстрее!!"
+        deb "Deeper... Faster!!"
         show debbies 97 at Position(xpos=329)
     show debbies 97 at Position(xpos=329)
     return
 
 label mom_bed_sleep_together_fuck_keep_going:
-    show screen xray_scr
+    show screen xray_scr 
     pause
-    hide screen xray_scr
+    hide screen xray_scr 
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -1878,41 +1875,41 @@ label mom_bed_sleep_together_fuck_keep_going:
     return
 
 label mom_bed_sleep_together_fuck_cum:
-    deb "ААХХХ!!!"
+    deb "AAHH!!!"
     show white zorder 4
     show debbies 99 at Position(xpos=327) with vpunch
     hide white with dissolve
     if randomizer() <= 50:
-        deb "ДА малыш..."
+        deb "YES baby..."
         $ xray = False
         show debbies 98 at Position(xpos=327) with dissolve
-        deb "{b}*пыхтит*{/b}"
-        deb "Оставайся внутри меня еще немного..."
-        deb "Мне нравится чувствовать твою сперму внутри себя."
+        deb "{b}*Huffing*{/b}"
+        deb "Stay inside me a bit longer..."
+        deb "I like feeling your cum inside me."
         show debbies 100 with fade
-        deb "Ее так много..."
-        player_name "Это... плохо?"
-        deb "Нет, милый. Это чудесно!"
+        deb "You came so much..."
+        player_name "Was it... wrong?"
+        deb "No, sweetie. It felt wonderful!"
     else:
         $ xray = False
         show debbies 98 at Position(xpos=327) with dissolve
-        deb "Ох, малыш..."
+        deb "Oh, baby..."
         show debbies 100 with fade
-        deb "Я не думала, что ты остановишься..."
-        deb "Это было здорово..."
+        deb "I didn't think you were going to stop..."
+        deb "That was great..."
 
     show debbies 80 at Position(xpos=329) with fade
     if randomizer() <= 50:
-        deb "Пожалуйста, останься со мной на ночь."
+        deb "Please stay with me tonight."
     else:
-        deb "Ты сегодня здесь спишь?"
+        deb "Are you sleeping here tonight?"
     show debbies 79
     return
 
 label mom_bed_sleep_together_fuck_cum_stay:
-    player_name "Хорошо, {b}[deb_name]{/b}."
+    player_name "Alright, {b}[deb_name]{/b}."
     show debbies 80
-    deb "Молодец."
+    deb "Good boy."
     hide debbies
     hide debbies_bed_overlay
     scene black
@@ -1920,9 +1917,9 @@ label mom_bed_sleep_together_fuck_cum_stay:
     return
 
 label mom_bed_sleep_together_fuck_cum_leave:
-    player_name "Я не могу. Может завтра."
+    player_name "I can't. Maybe tomorrow."
     show debbies 80
-    deb "Ох... Хорошо, не стесняйтесь."
+    deb "Aww... Well don't be shy."
     scene black
     hide debbies
     hide debbies_bed_overlay
@@ -1932,14 +1929,14 @@ label mom_bed_sleep_together_fuck_cum_leave:
     show player 111 at right
     show debbie 82 at left
     with dissolve
-    player_name "Спокойной ночи, {b}[deb_name]{/b}."
+    player_name "Goodnight, {b}[deb_name]{/b}."
     show player 110
     show debbie 81
-    deb "Спокойной ночи, милый."
-    deb "Я люблю тебя."
+    deb "Goodnight, sweetie."
+    deb "I love you."
     show debbie 82
     show player 111
-    player_name "Я тоже люблю тебя, {b}[deb_name]{/b}."
+    player_name "Love you too, {b}[deb_name]{/b}."
     hide player
     hide debbie
     with dissolve
@@ -1947,9 +1944,9 @@ label mom_bed_sleep_together_fuck_cum_leave:
 
 label mom_bed_sleep_together_sleep:
     show debbies 79 with dissolve
-    player_name "Спокойной ночи, {b}[deb_name]{/b}..."
+    player_name "Goodnight, {b}[deb_name]{/b}..."
     show debbies 80 with dissolve
-    deb "Спокойной ночи, {b}[firstname]{/b}..."
+    deb "Goodnight, {b}[firstname]{/b}..."
     hide debbies
     hide debbies_bed_overlay
     return
@@ -1957,21 +1954,21 @@ label mom_bed_sleep_together_sleep:
 label mom_bed_night:
     scene debbie_bedroom_night
     show player 106 with dissolve
-    player_name "( Мне пробраться в ее кровать? )"
+    player_name "( Should I sneak into her bed? )"
     show player 34
-    player_name "Хмм..."
-    player_name "( Я не должен беспокоить ее, когда она спит... )"
+    player_name "Hmm..."
+    player_name "( I shouldn't bother her when she's sleeping... )"
     hide player with dissolve
     return
 
 label mom_bed_day:
     scene debbie_bedroom
     show player 1 with dissolve
-    player_name "( Мне было так хорошо, дрочить в ее постели. )"
-    player_name "( ... Просто полностью быть окутаным ее запахом. )"
+    player_name "( It felt so good, jerking off in her bed. )"
+    player_name "( ... Just utterly enveloped in her scent. )"
     show player 5
-    player_name "( Но я пообещал ей, что больше так не буду. )"
-    player_name "( Я должен изо всех сил стараться сдержать это обещание. )"
+    player_name "( But I promised her I wouldn't do that again. )"
+    player_name "( I should really try my hardest to keep that promise. )"
     hide player with dissolve
     return
 
@@ -1994,13 +1991,13 @@ label mom_sleeping_pre:
 label mom_sleeping_sex_available_random:
     scene debbie_bedroom
     show player 7 with dissolve
-    player_name "{b}*зевая*{/b}"
+    player_name "{b}*Yawn*{/b}"
     show player 101 with dissolve
-    player_name "Похоже {b}[deb_name]{/b} только что встала."
+    player_name "Looks like {b}[deb_name]{/b} is already up."
     show player 8 with dissolve
     pause
     show player 14 with dissolve
-    player_name "Мне лучше улизнуть отсюда, так чтобы {b}[jen_name]{/b} не увидела меня."
+    player_name "I'd better sneak out of here, so {b}[jen_name]{/b} doesn't see me."
     hide debbie
     hide player
     with dissolve
@@ -2011,33 +2008,33 @@ label mom_sleeping_sex_available:
     show debbie 83 at left
     show player 7 at right
     with dissolve
-    player_name "{b}*зевая*{/b}"
+    player_name "{b}*Yawn*{/b}"
     show player 8 with dissolve
     show debbie 81
-    deb "Доброе утро, {b}[firstname]{/b}."
+    deb "Morning, {b}[firstname]{/b}."
     show debbie 82
     show player 22 with hpunch
     player_name "!!!"
     show player 108 with dissolve
-    player_name "Доброе утро! Я тебя разбудил?"
+    player_name "Morning! Did I wake you?"
     show player 109
     show debbie 82
-    deb "Нет, милый."
-    deb "Я тоже наслаждался тобой рядом."
+    deb "No, sweetie."
+    deb "I, too, was enjoying you next to me."
     show debbie 81
     show player 111
-    player_name "Да, было приятно спать с тобой. В твоей кровати подушки мягче."
+    player_name "Yeah, it was nice sleeping with you. Your bed has softer pillows."
     show player 110
     show debbie 81
-    deb "Точно."
-    deb "Наверное, мне тоже лучше встать."
-    deb "Еще раз спасибо, что спал со мной."
+    deb "Right."
+    deb "I suppose I'd better get up too."
+    deb "Thanks again for sleeping with me."
     show debbie 82
     show player 111
-    player_name "Незачто. Люблю тебя, {b}[deb_name]{/b}."
+    player_name "You're welcome. Love you, {b}[deb_name]{/b}."
     show player 110
     show debbie 81
-    deb "Я тоже тебя люблю, милый."
+    deb "I love you too, sweetie."
     hide debbie
     hide player
     with dissolve
@@ -2046,7 +2043,7 @@ label mom_sleeping_sex_available:
 label mom_room_laundry_dialogue:
     scene debbie_bedroom
     show player 276 with dissolve
-    player_name "Я должен отнести это в {b}подвал{/b}."
+    player_name "I should take this down to the {b}basement{/b}."
     hide player with dissolve
     return
 
@@ -2082,11 +2079,11 @@ label mom_sex:
 label mom_sex_pre:
     show debbies 106 at left
     with fade
-    deb "Начинай медленно и аккуратно, милый."
+    deb "Now, start nice and slow, sweetie."
     show debbies 103 with dissolve
     pause
     show debbies 104 with dissolve
-    deb "Ахх..."
+    deb "Aahh..."
     show debbies 104 at left
     return
 
@@ -2122,24 +2119,24 @@ label mom_sex_loop_pre:
 
 label mom_sex_loop_pre_suck_tits:
     show debbies 67 at left with dissolve
-    player_name "Могу я поцеловать твою грудь?."
+    player_name "Can I kiss your breasts?."
     show debbies 68
-    deb "Быть нежными."
-    deb "Они чувствительные."
+    deb "Be gentle."
+    deb "They're sensitive."
     return
 
 label mom_sex_loop_pre_cowgirl:
     with dissolve
     if randomizer() <= 50:
-        deb "Ляг на спину и дай мне повернуться."
+        deb "Lay back and let me take a turn."
     else:
-        deb "Тебе просто нравится смотреть, как мои сиськи подпрыгивают, не так ли, мой непослушный мальчик?"
+        deb "You just like watching my tits bounce don't you, my naughty boy?"
     return
 
 label mom_sex_loop:
-    show screen xray_scr
+    show screen xray_scr 
     pause
-    hide screen xray_scr
+    hide screen xray_scr 
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -2191,71 +2188,71 @@ label debbie_bed_hscene_dialog:
     if mom_sex_position == "missionary":
         if randomizer() <= 33:
             if animcounter == 1:
-                deb "Аххххх!!!{p=1}{nw}"
+                deb "Ahhhh!!!{p=1}{nw}"
 
             elif animcounter == 3:
-                deb "О, милый!!!{p=1}{nw}"
-                player_name "Уххх...{p=1}{nw}"
+                deb "Oh, sweetie!!!{p=1}{nw}"
+                player_name "Uhhh...{p=1}{nw}"
 
         elif randomizer() <= 66:
             if animcounter == 1:
-                deb "О...{p=1}{nw}"
+                deb "Oh...{p=1}{nw}"
 
             elif animcounter == 2:
-                deb "Дай мне это, милый.{p=2}{nw}"
-                player_name "Вот так?{p=2}{nw}"
-                deb "Даааааа....{p=1}{nw}"
+                deb "Give it to me, sweetie.{p=2}{nw}"
+                player_name "You like that?{p=2}{nw}"
+                deb "Yesss....{p=1}{nw}"
 
             elif animcounter == 3:
-                deb "Ахх!{p=1}{nw}"
+                deb "Ahh!{p=1}{nw}"
         else:
 
             if animcounter == 2:
-                deb "Быстрее, милый!{p=2}{nw}"
-                deb "Я почти!{p=2}{nw}"
-                player_name "О, {b}[deb_name]{/b}! Я чувствую, как ты сжимаешь его!{p=2}{nw}"
+                deb "Faster, sweetie!{p=2}{nw}"
+                deb "I'm almost there!{p=2}{nw}"
+                player_name "Oh, {b}[deb_name]{/b}! I can feel you clenching down on me!{p=2}{nw}"
 
             elif animcounter == 3:
-                deb "Ахх!!!{p=1}{nw}"
+                deb "Ahh!!!{p=1}{nw}"
 
     elif mom_sex_position == "suck tits":
         if randomizer() <= 33:
             if animcounter == 2:
-                deb "Да, милый....{p=1}{nw}"
-                deb "Продолжай сосать их.{p=1}{nw}"
+                deb "Yes, sweetie....{p=1}{nw}"
+                deb "Keep sucking on them.{p=1}{nw}"
 
         elif randomizer() <= 66:
             if animcounter == 1:
-                deb "Мммм...{p=1}{nw}"
+                deb "Mmmm...{p=1}{nw}"
 
             elif animcounter == 2:
-                deb "О!{p=1}{nw}"
-                deb "Аккуратно, милый!{p=1}{nw}"
+                deb "Oh!{p=1}{nw}"
+                deb "Gently, sweetie!{p=1}{nw}"
         else:
             if animcounter == 3:
-                deb "О, малыш...{p=1}{nw}"
-                deb "Тебе нравится сосать мои сиськи?{p=2}{nw}"
-                player_name "Ммммммм..{p=1}{nw}"
+                deb "Oh, baby...{p=1}{nw}"
+                deb "You like sucking on my titties?{p=2}{nw}"
+                player_name "Mmhmm..{p=1}{nw}"
 
     elif mom_sex_position == "cowgirl":
         if randomizer() <= 50:
             if animcounter == 1:
-                deb "Ахххх!!!{p=1}{nw}"
+                deb "Ahhhh!!!{p=1}{nw}"
 
             elif animcounter == 3:
-                deb "О, милый!!!{p=1}{nw}"
-                player_name "Ухххх...{p=1}{nw}"
+                deb "Oh, sweetie!!!{p=1}{nw}"
+                player_name "Uhhh...{p=1}{nw}"
         else:
 
             if animcounter == 2:
-                deb "Тебе нравится так?{p=2}{nw}"
-                player_name "Да...{p=1}{nw}"
-                deb "Мне тоже...{p=2}{nw}"
-                deb "Я чувствую тебя глубоко внутри меня.{p=2}{nw}"
+                deb "You like this?{p=2}{nw}"
+                player_name "Yeah...{p=1}{nw}"
+                deb "I do too...{p=2}{nw}"
+                deb "I can really feel you deep inside me like this.{p=2}{nw}"
 
             elif animcounter == 3:
-                deb "Аххх!!!{p=1}{nw}"
-                deb "О, малыш...{p=1}{nw}"
+                deb "Ahh!!!{p=1}{nw}"
+                deb "Oh, baby...{p=1}{nw}"
     return
 
 label mom_sex_cum_inside:
@@ -2285,8 +2282,8 @@ label mom_sex_cum_inside:
 
 label mom_sex_cum_inside_missionary_pre_random:
     show debbies 103 at left
-    player_name "{b}[deb_name]{/b}, я кончаю..."
-    deb "Давай, милый!"
+    player_name "{b}[deb_name]{/b}, I'm gonna..."
+    deb "Let it out, sweetie!"
     show debbies 105 with hpunch
     player_name "{b}[deb_name]{/b}!!!"
     show white with dissolve
@@ -2294,56 +2291,56 @@ label mom_sex_cum_inside_missionary_pre_random:
 
 label mom_sex_cum_inside_missionary_pre:
     show debbies 105 at left with hpunch
-    player_name "О, {b}[deb_name]{/b}!"
+    player_name "Oh, {b}[deb_name]{/b}!"
     show white with dissolve
     return
 
 label mom_sex_cum_inside_missionary_after_cum_random:
     hide white with dissolve
-    deb "Аххх!!!"
-    deb "Да!"
-    deb "Оставаться внутри меня..."
+    deb "Ahhh!!!"
+    deb "Yes!"
+    deb "Stay inside me for a while..."
     show debbies 106 with fade
     return
 
 label mom_sex_cum_inside_missionary_after_cum:
     hide white with dissolve
-    deb "Ахх!!!"
-    deb "О, милый..."
-    deb "Это было напряженно..."
-    player_name "Это было приятно."
-    deb "Да..."
-    deb "О, милый. Ты молодец."
+    deb "Ahh!!!"
+    deb "Oh, sweetie..."
+    deb "That was intense..."
+    player_name "That felt good."
+    deb "Yeah..."
+    deb "Oh, sweetie. You are good."
     show debbies 106 with fade
     return
 
 label mom_sex_cum_inside_missionary_after_xray_random:
-    deb "Так много спермы..."
+    deb "You let out so much..."
     return
 
 label mom_sex_cum_inside_missionary_after_xray:
-    deb "Ты все еще такой напряженный..."
-    deb "Держу пари, ты можешь еще!"
+    deb "You're still so stiff..."
+    deb "I bet you could go again!"
     return
 
 label mom_sex_cum_inside_cowgirl_pre:
     scene debbie_bedroom_closeup_sex
     show debbies 69 at left with vpunch
     player_name "{b}[deb_name]{/b}!!!"
-    deb "Ахх!!!"
+    deb "Ahh!!!"
     show white with dissolve
     return
 
 label mom_sex_cum_inside_cowgirl_after_cum:
     hide white with dissolve
     pause
-    deb "О..."
+    deb "Oh..."
     show debbies 70 with dissolve
-    deb "Ты должен предупредить меня, когда собираешься это сделать, милый."
-    player_name "Извени, {b}[deb_name]{/b}."
-    player_name "Я ничего не мог с собой поделать..."
-    player_name "это было слишком хорошо..."
-    deb "Все нормально. Давай приведем тебя в порядок..."
+    deb "You should warn me when you're about to do it, sweetie."
+    player_name "Sorry, {b}[deb_name]{/b}."
+    player_name "I just couldn't help it..."
+    player_name "It felt too good..."
+    deb "It's okay. Let's clean you up..."
     return
 
 label mom_sex_cum_outside:
@@ -2371,14 +2368,14 @@ label mom_sex_cum_outside:
 
 label mom_sex_cum_outside_missionary_pre_random:
     show debbies 103
-    player_name "{b}[deb_name]{/b}, Я кончаю..."
-    deb "Давай, милый!"
+    player_name "{b}[deb_name]{/b}, I'm gonna..."
+    deb "Let it out, sweetie!"
     return
 
 label mom_sex_cum_outside_missionary_pre:
     show debbies 103
-    player_name "{b}[deb_name]{/b}, могу я кончить на тебя сверху?"
-    deb "Да, милый!"
+    player_name "{b}[deb_name]{/b}, can I cum on top of you?"
+    deb "Yes, sweetie!"
     return
 
 label mom_sex_cum_outside_missionary_after_xray_random:
@@ -2391,10 +2388,10 @@ label mom_sex_cum_outside_missionary_after_xray_random:
     pause
     hide playersex
     show debbies 108
-    deb "О!!!"
-    deb "Вау!"
-    deb "Хех, посмотри на меня! Я вся забрызгана!"
-    player_name "Да... Наверное, я немного увлеклась."
+    deb "Oh!!!"
+    deb "Wow!"
+    deb "Heh, look at me! I'm covered!"
+    player_name "Yeah... I guess I got a little carried away."
     return
 
 label mom_sex_cum_outside_missionary_after_xray:
@@ -2407,29 +2404,29 @@ label mom_sex_cum_outside_missionary_after_xray:
     pause
     hide playersex
     show debbies 108
-    deb "О!"
-    deb "Я не думала, что это будет так много!"
-    deb "Мне придется поменять простыни!"
-    player_name "Извени..."
-    deb "Не стоит. Все замечательно!"
+    deb "Oh!"
+    deb "I didn't think it'd be that much!"
+    deb "I'm going to have to change the sheets!"
+    player_name "Sorry..."
+    deb "Don't be. It feels wonderful!"
     return
 
 label mom_sex_cum_outside_cowgirl_random:
     show debbies 64 at left
-    player_name "{b}[deb_name]{/b}, я кончаю..."
+    player_name "{b}[deb_name]{/b}, I'm gonna..."
     show debbies 109 with dissolve
     show white with dissolve
     show playersex 72 at Position(xpos=478, ypos=418)
     hide white with dissolve
     pause
     show playersex 73 at Position(xpos=524, ypos=478) with dissolve
-    deb "Спасибо за предупреждение, милый."
-    deb "Давайте приведем себя в порядок..."
+    deb "Thanks for the warning, sweetie."
+    deb "Let's get ourselves cleaned up..."
     return
 
 label mom_sex_cum_outside_cowgirl:
     show debbies 64 at left
-    player_name "{b}[deb_name]{/b}! Я..."
+    player_name "{b}[deb_name]{/b}! I'm..."
     show debbies 109 with dissolve
     show white with dissolve
     show playersex 72 at Position(xpos=478, ypos=418)
@@ -2437,10 +2434,10 @@ label mom_sex_cum_outside_cowgirl:
     pause
     show playersex 73 at Position(xpos=524, ypos=478) with dissolve
     deb "!!!"
-    player_name "Вау, как много..."
-    deb "Ха ха ха..."
-    deb "Она везде!."
-    deb "Я вся пропитана!"
+    player_name "Wow, that's a lot..."
+    deb "Ha Ha Ha..."
+    deb "It's everywhere!."
+    deb "I'm soaked!"
     return
 
 label mom_bed_after_sex:
@@ -2467,27 +2464,27 @@ label mom_bed_after_sex_pre:
     show player 227 at Position(xpos=200)
     show debbie 73 at Position(xpos=650)
     with fade
-    deb "Милый..."
+    deb "Sweetie..."
     return
 
 label mom_bed_after_sex_random:
-    deb "Я хочу, чтобы ты сказал мне, если ты больше не хочешь этого делать, хорошо?"
+    deb "I want you to tell me if you don't want to do this anymore, okay?"
     show player 228
     show debbie 76
-    player_name "Нет, все хорошо, {b}[deb_name]{/b}."
-    player_name "Мне всегда хочется сделать это с тобой."
+    player_name "No, it's fine, {b}[deb_name]{/b}."
+    player_name "I always feel like doing it with you."
     show player 227
     show debbie 77
-    deb "Правда?"
+    deb "Really?"
     show player 228
-    player_name "Да, это все, о чем я думаю, когда вижу тебя..."
+    player_name "Yeah, that's all I think about doing when I see you..."
     show player 227
     show debbie 75
-    deb "Ты всегда такой милый..."
+    deb "You're always so sweet..."
     return
 
 label mom_bed_after_sex_after:
-    deb "Поцелуй меня."
+    deb "Give me a kiss."
     hide player
     show debbie 80
     with dissolve
@@ -2499,10 +2496,10 @@ label mom_bed_after_sex_after:
     show player 228 at Position(xpos=200)
     show debbie 78
     with dissolve
-    player_name "Я люблю тебя, {b}[deb_name]{/b}!"
+    player_name "I love you, {b}[deb_name]{/b}!"
     show player 227
     show debbie 75
-    deb "Я тоже тебя люблю, милый..."
+    deb "I love you too, sweetie..."
     hide debbie
     hide player
     with dissolve

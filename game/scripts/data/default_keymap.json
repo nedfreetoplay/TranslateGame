@@ -1,11 +1,38 @@
 {
-    "key_str":{"id":32, "string":"Space"},
-    "key_a":{"id":97, "string":"A"},
-    "key_s":{"id":115, "string":"S"},
-    "key_d":{"id":100, "string":"D"},
-    "key_f":{"id":102, "string":"F"},
-    "key_left":{"id":276, "string":"Left Arrow"},
-    "key_up":{"id":273, "string":"Up Arrow"},
-    "key_right":{"id":275, "string":"Right Arrow"},
-    "key_down":{"id":274, "string":"Down Arrow"}
+    "key_str": {
+        "id": 32,
+        "string": "Space"
+    },
+    "key_a": {
+        "id": 97,
+        "string": "A"
+    },
+    "key_s": {
+        "id": 115,
+        "string": "S"
+    },
+    "key_d": {
+        "id": 100,
+        "string": "D"
+    },
+    "key_f": {
+        "id": 102,
+        "string": "F"
+    },
+    "key_left": {
+        "id": 276,
+        "string": "Left Arrow"
+    },
+    "key_up": {
+        "id": 273,
+        "string": "Up Arrow"
+    },
+    "key_right": {
+        "id": 275,
+        "string": "Right Arrow"
+    },
+    "key_down": {
+        "id": 274,
+        "string": "Down Arrow"
+    }
 }

@@ -1,22 +1,23 @@
 label dianes_dialogue_breastfeed:
     if store._in_replay:
         scene expression L_diane_barn_interior.background_blur
+        $ player.location = L_diane_barn_interior
     show player 14 at left
     show diane b_naked a_naked_sides f_smirk
-    player_name "Могу я попробовать еще вашего молока?"
+    player_name "Could I sample some more of your milk?"
     show player 13
     show diane f_laugh
-    dia "Хочешь еще одну дозу прямо из крана?"
+    dia "Heh, you want another dose straight from the tap?"
     show diane f_smirk
     show player 17
-    player_name "Да, пожалуйста!"
+    player_name "Yes, please!"
     show player 13
     show diane f_smirk_talk
-    dia "Хмм, хорошо."
-    dia "Просто помни, не пить слишком много, хорошо?"
+    dia "Hmm, alright."
+    dia "Just remember not to drink too much, okay?"
     show diane f_smirk
     show player 14
-    player_name "Ага, я помню!"
+    player_name "Yup, I remember!"
     hide player
     hide diane
     with dissolve
@@ -31,40 +32,40 @@ label diane_repeatable_breastfeed:
         scene expression "backgrounds/location_barn_hay_stack.jpg"
     if store._in_replay is not None:
         scene expression "backgrounds/location_barn_hay_stack.jpg"
-    if M_diane.outfit == "shirtless":
-        $ M_diane.is_naked = 0
+    if M_diane.outfit.get == "shirtless":
+        $ M_diane.outfit.is_naked = 0
     show diane b_hay_feeding a_hay_feeding_arm f_hay_feeding_explain
     with dissolve
-    dia "Ммм, этот теплый рот чувствует себя так хорошо после дня накачки."
+    dia "Mmm, that warm mouth feels so good after a day of pumping."
     show diane f_hay_feeding_lip_bite
     pause
     show diane f_hay_feeding_explain
-    dia "Как сегодня на вкус, жеребец?"
+    dia "Ahh, how's it taste today, stud?"
     show diane f_hay_feeding_smirk_down
-    player_name "Ммммм!"
+    player_name "Mmhmm!"
     show diane f_hay_feeding_laugh
-    dia "Хехехе!"
+    dia "Hehehe!"
     show diane f_hay_feeding_smirk_down
     pause
     show diane f_hay_feeding_explain
-    dia "Мы не должны делать это, но по какой-то причине ..."
-    dia "... Это просто заставляет меня хотеть сделать это еще больше!"
+    dia "We shouldn't be doing this but for some reason..."
+    dia "... That just makes me wanna do it even more!"
     show diane f_hay_feeding_lip_bite
     pause
     show diane b_hay_feeding1 a_empty with dissolve
-    dia "Нггхх!"
+    dia "Ngghh!"
     show diane f_hay_feeding_shamed_talk_look
-    dia "Хорошо, нам лучше остановиться, прежде чем ты выпьешь меня насухо, жеребец."
+    dia "Alright, we'd better stop before you drink me dry, stud."
     show diane f_hay_feeding_smirk_down
-    player_name "Ауу."
+    player_name "Aww."
     show diane f_hay_feeding_explain
-    dia "Я знаю..."
+    dia "I know..."
     show diane f_hay_feeding_shamed_talk_look
-    dia "Мы сделаем это снова в другой день, хорошо?"
+    dia "We'll do it again another day, alright?"
     show diane f_hay_feeding_smirk_down
-    player_name "Да, хорошо."
+    player_name "Yeah, alright."
     show playersex 1 at right
-    if M_diane.outfit == "shirtless":
+    if M_diane.outfit.get == "shirtless":
         show diane f_hay_feeding_smirk_front b_hay_undress1
     else:
         show diane f_hay_feeding_smirk_front b_hay_sit
@@ -72,20 +73,20 @@ label diane_repeatable_breastfeed:
     pause
     if M_diane.is_set("first cucumber"):
         $ M_diane.set("first cucumber", False)
-        if M_diane.outfit == "shirtless":
-            $ M_diane.is_naked = 1
+        if M_diane.outfit.get == "shirtless":
+            $ M_diane.outfit.is_naked = 1
 
         show diane f_hay_feeding_smirk_front_talk
-        dia "У тебя все еще стояк?"
-        if M_diane.outfit == "shirtless":
+        dia "Are you still hard?"
+        if M_diane.outfit.get == "shirtless":
             show diane b_hay_dressed f_hay_feeding_smirk_front with dissolve
         else:
             show diane f_hay_feeding_smirk_front
-        player_name "Ух."
+        player_name "Uh huh."
         show diane f_hay_feeding_smirk_front_talk
-        dia "Почему бы тебе не достать этот большой член для меня?"
+        dia "Why don't you take that big dick out for me?"
         show diane f_hay_feeding_smirk_front
-        player_name "Хорошо."
+        player_name "O-okay."
         show playersex 2 with dissolve
         show diane f_hay_feeding_down_front
         pause
@@ -94,96 +95,96 @@ label diane_repeatable_breastfeed:
         show playersex 3 with dissolve
         pause
         show diane f_hay_feeding_smirk_front_talk
-        dia "Прекрасно!"
-        if M_diane.outfit == "shirtless":
-            dia "Мой черед."
+        dia "Wonderful!"
+        if M_diane.outfit.get == "shirtless":
+            dia "My turn."
             show diane f_hay_feeding_smirk_down b_hay_undress1 with dissolve
             pause
             show diane b_hay_undress2 with dissolve
             pause
             show diane b_hay_naked with dissolve
-        dia "Теперь позволь мне просто-"
+        dia "Now let me just-"
         hide playersex
         show diane b_hay_rub f_hay_feeding_lip_bite a_empty
         player_name "!!!" with hpunch
-        player_name "О, боже!"
+        player_name "Oh, god!"
         pause
         pause
         show diane b_hay_sit f_hay_feeding_smirk_front
         show playersex 3
         with dissolve
-        player_name "Как думаешь, мы могли бы сделать это снова?"
-        player_name "Ты знаешь, твои сиськи и мой... Ух..."
+        player_name "Do you think we could do that thing again?"
+        player_name "You know, with your boobs and my... Uhh..."
         show diane f_hay_feeding_smirk_front_talk
-        dia "Хочешь еще трах сиськами?"
+        dia "You want another boobjob?"
         show diane f_hay_feeding_smirk_front
-        player_name "Да, трах сиськами!"
+        player_name "Yeah, boobjob!"
         show diane f_hay_feeding_laugh
-        dia "Хехе."
+        dia "Hehe."
         show diane f_hay_feeding_smirk_front_talk
-        dia "Ну, мы могли..."
+        dia "Well, we could..."
         show diane f_hay_feeding_smirk_front
         pause
         show diane f_hay_feeding_smirk_front_talk
-        dia "... Или, может быть, вы могли бы позаботиться о моих потребностях сегодня?"
+        dia "... Or, maybe, you could take care of my needs today?"
         show diane f_hay_feeding_smirk_front
-        player_name "Хух?"
-        player_name "Хорошо, конечно."
+        player_name "Huh?"
+        player_name "O-okay, sure."
         show diane f_hay_feeding_smirk_front_talk
-        dia "Хороший мальчик!"
+        dia "Good boy!"
         show diane f_hay_feeding_smirk_front
-        player_name "Что ты хочешь, чтобы я сделал?"
+        player_name "What do you need me to do?"
         show diane f_hay_feeding_smirk_front_talk
-        dia "Ну, посмотрим..."
+        dia "Well, let's see..."
         show diane f_hay_feeding_thinking
         pause
         show diane f_hay_feeding_smirk_front_talk
-        dia "О, я знаю!"
+        dia "Oh, I know!"
         show diane f_hay_feeding_smirk_front b_hay_cucumber1 with dissolve
-        player_name "Ах, огурец?"
+        player_name "Uhh, a cucumber?"
         show diane f_hay_feeding_smirk_front_talk
-        dia " Да ладно, не прикидывайся дурачком."
-        dia "Я знаю, что ты видел меня на кухне в тот день."
+        dia "Oh, c'mon, don't play dumb."
+        dia "I know you saw me in the kitchen that day."
         show diane f_hay_feeding_smirk_front
-        player_name "Да, но ты хочешь, чтобы я ... -"
+        player_name "Y-yeah, but you want me to-"
         show diane f_hay_feeding_laugh
-        dia "Мммммм!"
+        dia "Mmhmm!"
         show diane f_hay_feeding_smirk_front
         pause
-        player_name "Хорошо."
+        player_name "Alright."
         show diane b_hay_cucumber2 with dissolve
         pause
         show diane hay_behind_talk
         show playersex 18
         with dissolve
-        dia "Будь нежным, хорошо?"
+        dia "Be gentle, okay?"
         show diane hay_behind
-        player_name "Хорошо."
+        player_name "Okay."
         show diane hay_behind_pre with dissolve
         pause
         hide playersex
         show diane hay_insert1
         with dissolve
-        player_name "Так?"
-        dia "Ммм, вот так!"
+        player_name "Like this?"
+        dia "Mmm, just like that!"
         hide diane
         jump diane_cucumber_start
     else:
 
-        if M_diane.outfit == "shirtless":
+        if M_diane.outfit.get == "shirtless":
             show diane b_hay_dressed with dissolve
 
         menu:
-            "Трах сиськами.":
+            "Boobjob.":
                 show playersex 1 at right
                 show diane f_hay_feeding_smirk_front
                 with dissolve
-                player_name "Как ты думаете, мы могли бы сделать трах сиськами еще раз?"
+                player_name "Do you think you we could do that boobjob thing again?"
                 show diane f_hay_feeding_smirk_front_talk
-                dia "Конечно, мы можем."
-                dia "Снимай штаны и садись сюда."
+                dia "Sure, we can do that."
+                dia "Get those pants off and sit up here."
                 show playersex 2
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane f_hay_feeding_smirk_down b_hay_undress1
                 else:
                     show diane f_hay_feeding_down_front
@@ -191,37 +192,37 @@ label diane_repeatable_breastfeed:
                 pause
                 show playersex 4 with dissolve
                 pause 1
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane b_hay_undress2 f_hay_feeding_down_front
                 show playersex 3
                 with dissolve
                 pause
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane b_hay_naked with dissolve
                     pause
                 hide diane
                 hide playersex
 
                 scene expression "backgrounds/location_barn_floor_boobjob.jpg"
-                if M_diane.outfit == "shirtless":
-                    $ M_diane.is_naked = 1
+                if M_diane.outfit.get == "shirtless":
+                    $ M_diane.outfit.is_naked = 1
                 show diane_sex_boobjob 2
                 show diane_sex_boobjob_look talk
                 with dissolve
-                dia "Тебе правда это нравится, да?"
+                dia "You really like this, huh?"
                 hide diane_sex_boobjob_look
 
                 jump diane_boobjob_start
-            "Огурец.":
+            "Cucumber.":
 
                 show playersex 1 at right
                 show diane f_hay_feeding_smirk_front
                 with dissolve
-                player_name "Хочешь снова использовать огурец?"
+                player_name "Would you like to use the cucumber again?"
                 show diane f_hay_feeding_smirk_front_talk
-                dia "О, определенно!"
+                dia "Oh, definitely!"
                 show playersex 2
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane f_hay_feeding_smirk_down b_hay_undress1
                 else:
                     show diane f_hay_feeding_down_front
@@ -229,46 +230,46 @@ label diane_repeatable_breastfeed:
                 pause
                 show playersex 4 with dissolve
                 pause 1
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane b_hay_undress2 f_hay_feeding_down_front
                 show playersex 3
                 with dissolve
                 pause
-                if M_diane.outfit == "shirtless":
+                if M_diane.outfit.get == "shirtless":
                     show diane b_hay_naked with dissolve
                     pause
-                    $ M_diane.is_naked = 1
+                    $ M_diane.outfit.is_naked = 1
                 show diane f_hay_feeding_smirk_front_talk b_hay_cucumber1 with dissolve
-                dia "Просто будь нежнее, хорошо?"
+                dia "Just be gentle, okay?"
                 show playersex 18
                 show diane hay_behind
                 with dissolve
-                player_name "Хорошо."
+                player_name "I will."
                 show diane hay_behind_pre with dissolve
-                player_name "Вот и он..."
+                player_name "Here it comes..."
                 hide playersex
                 show diane hay_insert1
                 with dissolve
                 pause
                 hide diane
                 jump diane_cucumber_start
-            "Мне лучше вернуться к работе.":
+            "I better get back to work.":
 
                 if store._in_replay is None:
                     scene expression player.location.background_blur with None
                 else:
                     scene expression L_diane_shed.background_blur with None
-                if M_diane.outfit == "shirtless":
-                    $ M_diane.is_naked = 1
+                if M_diane.outfit.get == "shirtless":
+                    $ M_diane.outfit.is_naked = 1
                     show diane b_topless a_naked_sides f_smirk_talk
                 else:
                     show diane b_naked a_naked_sides f_smirk_talk
                 show player 13 at left
                 with dissolve
-                dia "А теперь верни свою милую задницу к работе!"
+                dia "Now get your cute butt back to work!"
                 show diane f_smirk
                 show player 14
-                player_name "Да, мэм!"
+                player_name "Yes, ma'am!"
                 hide player
                 hide diane
                 with dissolve
@@ -277,13 +278,13 @@ label diane_repeatable_breastfeed:
 label diane_cucumber_start:
     if store._in_replay is not None:
         scene expression "backgrounds/location_diane_shed_hay_stack.jpg"
-        $ M_diane.is_naked = True
+        $ M_diane.outfit.is_naked = True
     $ animated = True
     $ anim_toggle = True
     $ M_diane.set('sex speed', .4)
     show expression AnimatedImage("diane_hay_insert", [1,2], M_diane) as diane_hay_insert at Position(xalign = 0.0, yoffset = 0)
-    dia "Ааааа!!"
-    player_name "Вау, ты и правда мокрая, {b}Диана{/b}!"
+    dia "Ahhh!!"
+    player_name "Wow, you're really wet, {b}Diane{/b}!"
     jump diane_cucumber_loop
 
 label diane_cucumber_loop:
@@ -314,53 +315,53 @@ label diane_cucumber_loop:
     call screen diane_cucumber_options
 
 label diane_cucumber_cum:
-    dia "Я почти..!"
+    dia "I'm almost there!"
     if randomizer() < 50:
-        dia "Не останавливайся!"
+        dia "Don't stop!"
     else:
-        dia "Трахни меня!"
+        dia "Fuck me!"
     pause
-    dia "НГГХХХХ!!!" with flash
+    dia "NGGHHH!!!" with flash
     hide diane_hay_insert
     show diane hay_insert1
     with dissolve
-    dia "Аааа... Аааа..."
+    dia "Haah... Haah..."
     show playersex 18
     show diane hay_behind_pre
     with dissolve
     pause
     show diane hay_behind_talk with dissolve
-    dia "О, это было прекрасно {b}[firstname]{/b}!"
+    dia "Oh, that was wonderful {b}[firstname]{/b}!"
     show diane hay_behind
     if randomizer() < 50:
-        player_name "Хе-хе, ты кончила очень тяжело!"
+        player_name "Hehe, you came really hard!"
         show diane hay_behind_talk
-        dia "Верно, хехе!"
+        dia "I did, hehe!"
     else:
-        player_name "Хе-хе, да, это было весело!"
-        player_name "Ты дрожала как сумасшедшая в конце."
+        player_name "Hehe, yeah, that was fun!"
+        player_name "You were shaking like crazy at the end there."
         show diane hay_behind_talk
-        dia "Хехе!"
-    dia "Это потому, что ты так заботишься обо мне."
+        dia "Hehe!"
+    dia "That's because you took such good care of me."
     show diane hay_behind
     pause
     show diane hay_behind_talk
-    dia "Кстати, спасибо тебе за это."
+    dia "Thank you for that, by the way."
     show diane hay_behind
-    player_name "Без проблем."
+    player_name "No problem."
     show diane hay_behind_talk
-    dia "Хаах... Мне нужно немного отдохнуть."
-    dia "Ты не против вернуться к работе?"
+    dia "Haah... I need to rest for a moment."
+    dia "You okay going back to work?"
     show diane hay_behind
-    player_name "Конечно."
+    player_name "S-sure."
     show diane hay_behind_talk
-    dia "Хороший мальчик."
+    dia "Good boy."
     show diane hay_behind
     hide playersex with dissolve
     pause
     show diane hay_behind_pre with dissolve
-    dia "Уф!"
-    dia "Это было круто!"
+    dia "Phew!"
+    dia "That was intense!"
     hide diane with dissolve
     $ persistent.cookie_jar["Diane"]["unlocked"] = True
     $ persistent.cookie_jar["Diane"]["gallery"]["05_unlocked"] = True
@@ -377,27 +378,27 @@ label diane_cucumber_cum:
 
 label diane_cucumber_hscene_dialog:
     if animcounter == 0 and randomizer() < 25:
-        dia "О, боже!{p=1}{nw}"
+        dia "Oh, god!{p=1}{nw}"
     if animcounter == 0 and randomizer() < 25:
-        dia "Ааа!{p=1}{nw}"
+        dia "Ahh!{p=1}{nw}"
     if animcounter == 1 and randomizer() > 75:
-        dia "Да!{p=1}{nw}"
+        dia "Yes!{p=1}{nw}"
     if animcounter == 1 and randomizer() > 75:
-        dia "Ммм, вот так {b}[firstname]{/b}!{p=1}{nw}"
-        dia "Трахни меня этим огурцом!{p=2}{nw}"
+        dia "Mmm, that's it {b}[firstname]{/b}!{p=1}{nw}"
+        dia "Fuck me with that cucumber!{p=2}{nw}"
     if animcounter == 2 and randomizer() < 25:
-        dia "Глубже, {b}[firstname]{/b}!{p=1}{nw}"
+        dia "Deeper, {b}[firstname]{/b}!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 25:
-        dia "Ты непослушный мальчишка!{p=1}{nw}"
-        player_name "Хех.{p=1}{nw}"
+        dia "You naughty boy!{p=1}{nw}"
+        player_name "Heh.{p=1}{nw}"
     if animcounter == 3 and randomizer() > 75:
-        dia "Аааа!!{p=1}{nw}"
-        dia "Я почти...{p=2}{nw}"
+        dia "Ahhh!!{p=1}{nw}"
+        dia "I'm almost there...{p=2}{nw}"
     if animcounter == 3 and randomizer() > 75:
-        dia "Быстрее!{p=1}{nw}"
+        dia "Faster!{p=1}{nw}"
         if M_diane.get("sex speed") > 0.21:
             $ M_diane.set("sex speed", M_diane.get("sex speed") - 0.1)
-        dia "Ааа!!{p=1}{nw}"
+        dia "Ahh!!{p=1}{nw}"
     return
 
 label diane_first_breastfeed:
@@ -405,57 +406,57 @@ label diane_first_breastfeed:
     scene expression "backgrounds/location_diane_shed_hay_stack.jpg"
     show diane b_hay_feeding a_hay_feeding_arm f_hay_feeding_explain
     with dissolve
-    dia "Ммм, этот теплый рот чувствует себя так хорошо после дня накачки."
+    dia "Mmm, that warm mouth feels so good after a day of pumping."
     show diane f_hay_feeding_lip_bite
     pause
     show diane f_hay_feeding_explain
-    dia "Как сегодня на вкус, жеребец?"
+    dia "Ahh, how's it taste today, stud?"
     show diane f_hay_feeding_smirk_down
-    player_name "Ммммм!"
+    player_name "Mmhmm!"
     show diane f_hay_feeding_laugh
-    dia "Хехехе!"
+    dia "Hehehe!"
     show diane f_hay_feeding_smirk_down
     pause
     show diane f_hay_feeding_explain
-    dia "Мы не должны этого делать, но по какой-то причине..."
-    dia "... Это просто заставляет меня хотеть сделать это еще больше!"
+    dia "We shouldn't be doing this but for some reason..."
+    dia "... That just makes me wanna do it even more!"
     show diane f_hay_feeding_lip_bite
     pause
     show diane b_hay_feeding1 a_empty with dissolve
-    dia "Нггхх!"
+    dia "Ngghh!"
     show diane f_hay_feeding_shamed_talk_look
-    dia "Ладно, нам лучше остановиться, пока ты не выпил меня досуха, жеребец."
+    dia "Alright, we'd better stop before you drink me dry, stud."
     show diane f_hay_feeding_smirk_down
-    player_name "Ауу."
+    player_name "Aww."
     show diane f_hay_feeding_explain
-    dia "Я знаю..."
+    dia "I know..."
     show diane f_hay_feeding_shamed_talk_look
-    dia "Мы повторим это в другой раз, хорошо?"
+    dia "We'll do it again another day, alright?"
     show playersex 1 at right
-    if M_diane.outfit == "shirtless":
+    if M_diane.outfit.get == "shirtless":
         show diane f_hay_feeding_smirk_down b_hay_undress1
     else:
         show diane f_hay_feeding_smirk_front b_hay_sit
     with dissolve
-    player_name "Есть ли что-нибудь еще, что мы можем сделать?"
-    if M_diane.outfit == "shirtless":
+    player_name "Isn't there anything else we can do?"
+    if M_diane.outfit.get == "shirtless":
         show diane b_hay_dressed f_hay_feeding_smirk_front_talk with dissolve
     else:
         show diane f_hay_feeding_smirk_front_talk
-    dia "Например?"
+    dia "Like what?"
     show diane f_hay_feeding_smirk_front
-    player_name "Я не знаю..."
-    player_name "... Я просто такой возбужденный!"
+    player_name "I dunno..."
+    player_name "... I'm just so horny!"
     show diane f_hay_feeding_laugh
-    dia "Хе-хе, я знаю, красавчик, я тоже ..."
+    dia "Hehe, I know handsome, me too..."
     show diane f_hay_feeding_smirk_front
     pause
     show diane f_hay_feeding_smirk_front_talk
-    dia "Хорошо, почему бы тебе не вытащить его для меня?"
-    dia "Дай мне хорошенько на него взглянуть."
+    dia "Alright, why don't you take it out for me?"
+    dia "Let me get a good look at it."
     show diane f_hay_feeding_smirk_front
     pause
-    player_name "Хорошо."
+    player_name "O-okay."
     show playersex 2 with dissolve
     show diane f_hay_feeding_down_front
     pause
@@ -464,54 +465,54 @@ label diane_first_breastfeed:
     show playersex 3 with dissolve
     pause
     show diane f_hay_feeding_surprised_front_talk
-    dia "Ммм, Боже милостивый..."
-    dia "Это что-то особенное!"
+    dia "Mmm, good lord..."
+    dia "That is something really special!"
     show diane f_hay_feeding_surprised_front
-    player_name "Да?"
+    player_name "Y-yeah?"
     show diane f_hay_feeding_smirk_front
-    dia "Мммммм."
+    dia "Mmmhmm."
     pause
-    if M_diane.outfit == "shirtless":
-        $ M_diane.is_naked = 1
+    if M_diane.outfit.get == "shirtless":
+        $ M_diane.outfit.is_naked = 1
         show diane f_hay_feeding_smirk_front_talk
-        dia "Полагаю, теперь моя очередь, да?"
+        dia "I guess it's my turn now, huh?"
         show diane f_hay_feeding_smirk_down b_hay_undress1 with dissolve
         pause
         show diane b_hay_undress2 with dissolve
-        player_name "Вау!"
+        player_name "Wow!"
         show diane b_hay_naked f_hay_feeding_laugh with dissolve
-        dia "Хехехе, тебе нравится?"
+        dia "Hehehe, you like?"
         show diane f_hay_feeding_smirk_front
-    player_name "Ты такая красивая, {b}Диана{/b}!"
+    player_name "You're so beautiful, {b}Diane{/b}!"
     show diane f_hay_feeding_smirk_front_talk
-    dia "О, я не настолько красива..."
+    dia "Oh, I'm not THAT beautiful..."
     show diane f_hay_feeding_smirk_front
-    player_name "Да, это так!"
+    player_name "Yes you are!"
     show diane f_hay_feeding_smirk_front_talk
-    dia "Ччч, такая очаровашка..."
+    dia "Tsk, such a charmer..."
     show diane f_hay_feeding_smirk_front
-    player_name "Итак, что же мы будем делать-"
+    player_name "So what are we going to do-"
     hide playersex
     show diane b_hay_rub f_hay_feeding_lip_bite a_empty
     player_name "!!!" with hpunch
-    player_name "О, боже!"
+    player_name "Oh, god!"
     pause
     pause
-    if M_diane.outfit == "shirtless":
-        player_name "Могу я положить его внутрь, {b}Диана{/b}?"
+    if M_diane.outfit.get == "shirtless":
+        player_name "Can I put it inside, {b}Diane{/b}?"
         show playersex 3 at right
         show diane b_hay_naked f_hay_feeding_shamed_front_talk
         with dissolve
-        dia "Нгг, нет..."
+        dia "Ngh, no..."
         show diane f_hay_feeding_shamed_front
-        player_name "Почему?"
+        player_name "How come?"
         show diane f_hay_feeding_shamed_front_talk
-        dia "{b}[firstname]{/b}, ты знаешь почему..."
-        dia "Мы не можем..."
+        dia "{b}[firstname]{/b}, you know why..."
+        dia "We can't..."
         show diane f_hay_feeding_shamed_front
-        player_name "{b}*вздыхая*{/b} Но я так сильно этого хочу!"
+        player_name "{b}*Sigh*{/b} But I want to, so bad!"
         show diane f_hay_feeding_shamed_front_talk
-        dia "Я знаю, милый..."
+        dia "I know, handsome..."
         show diane f_hay_feeding_shamed_front
         pause
         show diane f_hay_feeding_smirk_front_talk
@@ -519,29 +520,29 @@ label diane_first_breastfeed:
         show playersex 3 at right
         show diane b_hay_sit f_hay_feeding_smirk_front_talk
         with dissolve
-    dia "Садись сюда."
+    dia "Come sit here."
     show diane f_hay_feeding_smirk_front
-    player_name "Хмм?"
+    player_name "Hmm?"
     show diane f_hay_feeding_smirk_front_talk
-    dia "Давай."
-    dia "Я позабочусь об этом для тебя."
+    dia "Come on."
+    dia "I'm gonna take care of this for you."
     show diane f_hay_feeding_smirk_front
-    player_name "Хорошо..."
+    player_name "O-okay..."
     hide diane
     hide playersex
     scene expression "backgrounds/location_barn_floor_boobjob.jpg"
-    if M_diane.outfit == "shirtless":
-        $ M_diane.is_naked = 1
+    if M_diane.outfit.get == "shirtless":
+        $ M_diane.outfit.is_naked = 1
     show diane_sex_boobjob 2
     show diane_sex_boobjob_look talk
     with dissolve
-    dia "Тебе нравится моя грудь не так ли?"
+    dia "You like my breasts don't you?"
     show diane_sex_boobjob_look
-    player_name "Конечно!"
+    player_name "Of course!"
     show diane_sex_boobjob_look talk
-    dia "Я покажу тебе кое-что особенное..."
+    dia "I'm gonna show you something special..."
     show diane_sex_boobjob_look
-    player_name "Что ты-"
+    player_name "What are you-"
     hide diane_sex_boobjob_look
     jump diane_boobjob_start
 
@@ -550,9 +551,9 @@ label diane_boobjob_start:
     $ anim_toggle = True
     $ M_diane.set('sex speed', .25)
     show expression AnimatedImage("diane_sex_boobjob", [1,2,3,2], M_diane) as diane_sex_boobjob at Position(xalign = 0.0, yoffset = 0)
-    player_name "Аааа!" with hpunch
-    dia "Тебе это нравится?"
-    player_name "Да!!"
+    player_name "Haah!" with hpunch
+    dia "You like that?"
+    player_name "Y-yes!!"
     label diane_boobjob_loop:
         show screen sex_anim_buttons
         pause
@@ -582,54 +583,54 @@ label diane_boobjob_start:
 
 label diane_boobjob_hscene_dialog:
     if animcounter == 0 and randomizer() < 25:
-        player_name "Боже мой, это потрясающе!{p=2}{nw}"
-        dia "Хехехе!{p=1}{nw}"
+        player_name "Oh my god, this feels amazing!{p=2}{nw}"
+        dia "Hehehe!{p=1}{nw}"
     if animcounter == 1 and randomizer() > 90:
-        player_name "Где ты этому научилась?{p=2}{nw}"
-        dia "Хмм?{p=1}{nw}"
-        dia "О, ммм... На самом деле, это была {b}[deb_name]{/b} кто показала мне как это делать...{p=2}{nw}"
+        player_name "Where did you learn to do this?{p=2}{nw}"
+        dia "Hmm?{p=1}{nw}"
+        dia "Oh, umm... Actually, it was {b}[deb_name]{/b} who showed me how to do this...{p=2}{nw}"
         dia "Back when we were young and wild.{p=2}{nw}"
-        player_name "Что?!{p=1}{nw}"
-        player_name "{b}[deb_name]{/b} научила тебя этому?!{p=2}{nw}"
-        dia "Хехе, что?{p=1}{nw}"
-        dia "Вы не думали, что {b}[deb_name]{/b} была девственницей?{p=2}{nw}"
-        player_name "Ну, нет.{p=1}{nw}"
-        player_name "Я только не...{p=1}{nw}"
-        player_name "Ааа!!{p=1}{nw}"
+        player_name "What?!{p=1}{nw}"
+        player_name "{b}[deb_name]{/b} taught you this?!{p=2}{nw}"
+        dia "Hehe, what?{p=1}{nw}"
+        dia "You didn't think {b}[deb_name]{/b} was a virgin did you?{p=2}{nw}"
+        player_name "Well, no.{p=1}{nw}"
+        player_name "I just didn't...{p=1}{nw}"
+        player_name "Ahh!!{p=1}{nw}"
     if animcounter == 1 and randomizer() > 75:
-        player_name "Ммм, это так круто!{p=2}{nw}"
+        player_name "Mmm, this is so hot!{p=2}{nw}"
     if animcounter == 2 and randomizer() > 90:
-        dia "Тебе правда нравится трахать мои сиськи, правда, красавчик?{p=2}{nw}"
-        player_name "Да!{p=1}{nw}"
-        dia "Хехе!{p=1}{nw}"
+        dia "You really like fucking my boobs, don't you handsome?{p=2}{nw}"
+        player_name "Y-yeah!{p=1}{nw}"
+        dia "Hehe!{p=1}{nw}"
     else:
-        dia "Тебе нравится, как мои сиськи обвиваются вокруг твоего члена?{p=2}{nw}"
-        player_name "Да!{p=1}{nw}"
+        dia "You like the way my tits feel wrapped around your cock?{p=2}{nw}"
+        player_name "Y-yes!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 10:
-        dia "Мне нравится чувствовать твой большой твердый член между моих сисек...{p=2}{nw}"
-        player_name "Мне тоже!{p=1}{nw}"
+        dia "I love feeling that big hard cock of yours in between my tits...{p=2}{nw}"
+        player_name "Me too!{p=1}{nw}"
     if animcounter == 3 and randomizer() > 75:
-        player_name "Я уже близко...{p=2}{nw}"
+        player_name "I'm getting close...{p=2}{nw}"
     return
 
 label diane_boobjob_cum:
-    player_name "Я уже близко, {b}Диана{/b}!"
-    dia "Все в порядке, красавчик."
-    dia "Выпусти её."
+    player_name "I'm getting close, {b}Diane{/b}!"
+    dia "That's alright, handsome."
+    dia "Let it out."
     pause
     show diane_sex_boobjob cum
     show diane_sex_boobjob_cum
-    player_name "ХННГГГГ!!!" with flash
+    player_name "HNNGGG!!!" with flash
     show diane_sex_boobjob 2
     show diane_sex_boobjob_look talk
     with dissolve
-    dia "Хороший мальчик!"
+    dia "Good boy!"
     show diane_sex_boobjob_look
     pause
-    player_name "Ааааа... Ааааа..."
+    player_name "Haah... Haah..."
     pause
     show diane_sex_boobjob_look talk
-    dia "Хехехе!"
+    dia "Hehehe!"
     scene black with fade
     hide diane_sex_boobjob_look
     hide diane_sex_boobjob
@@ -645,13 +646,13 @@ label diane_boobjob_cum:
         pause
         show player 14 with dissolve
         show diane f_smirk
-        player_name "Это было потрясающе!"
+        player_name "That was awesome!"
         show player 13
         show diane f_smirk_talk
-        dia "Теперь ты чувствуешь себя лучше?"
+        dia "You feel better now?"
         show diane f_smirk
         show player 17
-        player_name "Определенно!"
+        player_name "Definitely!"
         show player 13
         show diane a_naked_touch_cum f_down_front with dissolve
         pause
@@ -660,73 +661,73 @@ label diane_boobjob_cum:
         player_name "!!!"
         show diane f_smirk a_naked_sides with dissolve
         show player 10
-        player_name "Ты только-"
+        player_name "Did you just-"
         show player 5
         show diane f_laugh
-        dia "Хехехе!"
+        dia "Hehehe!"
         show diane f_smirk_talk
-        dia "Ты пил мое молоко, будет справедливо, если я попробую твое."
+        dia "You've been drinking my milk, it's only fair I get to try yours."
         show diane f_smirk
         show player 14
-        player_name "... Ну?"
+        player_name "... Well?"
         show player 13
         show diane f_smirk_talk
-        dia "Не плохо."
+        dia "It's not bad."
         show diane f_smirk
         pause
         show diane f_smirk_talk
-        dia "Я не думаю, что мы получим какие-либо заказы на это..."
+        dia "I don't think we're gonna get any orders for it though..."
         show diane f_cheese
         show player 17
-        player_name "Хаха!"
+        player_name "Haha!"
         show player 14
-        player_name "Да, наверное, нет."
+        player_name "Yeah, probably not."
         show player 13
         show diane f_smirk_talk
-        dia "Ладно, нам действительно пора возвращаться к работе."
-        dia "... И мне нужно привести себя в порядок!"
+        dia "Alright, we really should get back to work."
+        dia "... And I need to clean myself up!"
         show diane f_smirk
         show player 14
-        player_name "Да, хорошо {b}Диана{/b}."
-        player_name "Я буду в саду, если понадоблюсь."
+        player_name "Yeah, okay {b}Diane{/b}."
+        player_name "I'll be in the garden if you need me."
         show player 13
         show diane f_smirk_talk
-        dia "Спасибо, {b}[firstname]{/b}."
+        dia "Thanks, {b}[firstname]{/b}."
         show diane f_smirk
         hide player with dissolve
         pause
         show diane a_naked_touch_cum f_down_front with dissolve
         pause
         show diane a_naked_lick_cum f_lick_finger with dissolve
-        dia "Ммм!"
+        dia "Mmm!"
         hide diane with dissolve
     else:
-        if M_diane.outfit == "shirtless":
-            $ M_diane.is_naked = 1
+        if M_diane.outfit.get == "shirtless":
+            $ M_diane.outfit.is_naked = 1
         show player 261bf at left
         show diane b_naked a_naked_sides f_down_front o_boob_cum
         with dissolve
         pause
         show player 14
         show diane f_smirk
-        player_name "Уф!"
-        player_name "Спасибо, {b}Диана{/b}."
-        player_name "Мне действительно это было нужно."
+        player_name "Phew!"
+        player_name "Thanks, {b}Diane{/b}."
+        player_name "I really needed that."
         show player 13
         show diane f_smirk_talk
-        dia "С удовольствием, жеребец."
-        dia "А теперь возвращайся к работе, ладно?"
+        dia "My pleasure, stud."
+        dia "Now get back to work, will ya?"
         show diane f_smirk
         show player 14
-        player_name "Да, хорошо."
+        player_name "Y-yeah, okay."
         hide player with dissolve
         pause
         show diane a_naked_touch_cum f_down_front with dissolve
         pause
         show diane a_naked_lick_cum f_lick_finger with dissolve
-        dia "Ммм, вкусно!"
+        dia "Mmm, Delicious!"
         show diane a_naked_sides f_cheese with dissolve
-        dia "Хехе!"
+        dia "Hehe!"
         hide diane with dissolve
     $ persistent.cookie_jar["Diane"]["unlocked"] = True
     $ persistent.cookie_jar["Diane"]["gallery"]["04_unlocked"] = True
@@ -744,10 +745,11 @@ label diane_boobjob_cum:
 label diane_sex_breed_start:
     if store._in_replay:
         scene expression "backgrounds/location_barn_sex_back_day.jpg"
+        $ player.location = L_diane_barn_interior
     $ diane_sex_position = "back"
     $ anim_toggle = True
     $ animated = True
-    $ M_diane.outfit = "cow"
+    $ M_diane.outfit.set_default_outfit_schedule([["cow", "cow", "nightgown", "nightgown"]])
     $ M_diane.set('sex speed', 0.09)
     show expression AnimatedImage("diane_sex_back", [1,2,3,4,5,6,7,8,9,10], M_diane) as diane_sex_breed at Position(xalign = 0.0, yoffset = 0)
     jump diane_sex_breed_loop
@@ -794,115 +796,115 @@ label diane_sex_breed_loop:
 label diane_sex_breed_hscene_dialog:
     if animcounter == 0 and randomizer() < 25:
         if randomizer() > 50:
-            dia "О, да!{p=1}{nw}"
-            dia "Так глубоко!{p=1}{nw}"
+            dia "Oh yes!{p=1}{nw}"
+            dia "It's so deep!{p=1}{nw}"
         else:
             if M_diane.pregnancy.number_of_babies>0:
-                dia "О, я так хочу еще одного ребенка, {b}[firstname]{/b}.{p=2}{nw}"
+                dia "Oh, I want another baby so bad, {b}[firstname]{/b}.{p=2}{nw}"
             else:
-                dia "О, я так сильно хочу твоего ребенка, {b}[firstname]{/b}.{p=2}{nw}"
-            dia "Засунь его в меня, пожалуйста!{p=2}{nw}"
+                dia "Oh, I want your baby so bad, {b}[firstname]{/b}.{p=2}{nw}"
+            dia "Put it inside me, please!{p=2}{nw}"
     if animcounter == 0 and randomizer() > 90:
-        dia "Да, {b}[firstname]{/b}!{p=1}{nw}"
-        dia "Трахни меня, как животное!{p=1}{nw}"
+        dia "Yes, {b}[firstname]{/b}!{p=1}{nw}"
+        dia "Fuck me like an animal!{p=1}{nw}"
     if animcounter == 1 and randomizer() < 25:
-        dia "Мой бык!{p=1}{nw}"
-        dia "Мой большой сильный бык!{p=2}{nw}"
+        dia "My bull!{p=1}{nw}"
+        dia "My big strong bull!{p=2}{nw}"
     if animcounter == 1 and randomizer() < 25:
         if randomizer() > 50:
-            dia "О, это так замечательно!{p=1}{nw}"
+            dia "Oh, it's so good!{p=1}{nw}"
         else:
-            dia "У тебя такой большой, {b}[firstname]{/b}!{p=1}{nw}"
+            dia "You're so big, {b}[firstname]{/b}!{p=1}{nw}"
     if animcounter == 2 and randomizer() > 75:
         if randomizer() > 50:
-            player_name "Пф, это потрясающе {b}Диана{/b}!{p=2}{nw}"
-            dia "Мммммм!{p=1}{nw}"
+            player_name "Phew, this feels amazing {b}Diane{/b}!{p=2}{nw}"
+            dia "Mmmhmm!{p=1}{nw}"
         else:
-            dia "Да!{p=1}{nw}"
-            dia "О боже, да!{p=1}{nw}"
+            dia "Yes!{p=1}{nw}"
+            dia "Oh god, yes!{p=1}{nw}"
     if animcounter == 3 and randomizer() > 90:
-        player_name "Мычи для меня.{p=1}{nw}"
-        dia "Что?{p=1}{nw}"
+        player_name "Moo for me.{p=1}{nw}"
+        dia "What?{p=1}{nw}"
         pause 1
-        player_name "Ты хочешь, чтобы тебя трахнули как животное, не так ли?{p=2}{nw}"
-        dia "О боже, да!{p=1}{nw}"
-        player_name "Тогда мычи для меня.{p=1}{nw}"
+        player_name "You want to be fucked like an animal, don't you?{p=2}{nw}"
+        dia "Oh, god yes!{p=1}{nw}"
+        player_name "Then moo for me.{p=1}{nw}"
         pause 1
-        dia "... Муу?{p=1}{nw}"
-        player_name "Ты можешь лучше...{p=2}{nw}"
+        dia "... Moo?{p=1}{nw}"
+        player_name "You can do better than that...{p=2}{nw}"
         if M_diane.get("sex speed") > 0.031:
             $ M_diane.set("sex speed", M_diane.get("sex speed") - 0.03)
-        dia "Муууу!{p=1}{nw}"
-        player_name "Громче, {b}Диана{/b}!{p=1}{nw}"
-        dia "Муууу!!{p=1}{nw}"
-        player_name "Громче!{p=1}{nw}"
+        dia "Moo!{p=1}{nw}"
+        player_name "Louder, {b}Diane{/b}!{p=1}{nw}"
+        dia "Moo!!{p=1}{nw}"
+        player_name "Louder!{p=1}{nw}"
         if M_diane.get("sex speed") > 0.031:
             $ M_diane.set("sex speed", M_diane.get("sex speed") - 0.03)
-        dia "О, черт!{p=1}{nw}"
-        player_name "Мычи для меня!{p=1}{nw}"
-        dia "МУУУУ!!!{p=1}{nw}"
+        dia "Oh, shit!{p=1}{nw}"
+        player_name "Moo for me!{p=1}{nw}"
+        dia "MOO!!!{p=1}{nw}"
         pause 1
-        dia "МУУУУУУУУУУУ!!!{p=1}{nw}"
+        dia "MOOOOOOO!!!{p=1}{nw}"
     if animcounter == 3 and randomizer() > 75:
         if randomizer() > 50:
-            dia "Вот так!{p=1}{nw}"
-            dia "Трахни меня, жеребец!{p=1}{nw}"
+            dia "That's it!{p=1}{nw}"
+            dia "Fuck me, stud!{p=1}{nw}"
         if M_diane.get("sex speed") > 0.031:
             $ M_diane.set("sex speed", M_diane.get("sex speed") - 0.03)
         if randomizer() > 50:
-            dia "Ооо! Оооо!!{p=1}{nw}"
+            dia "Ohh! Oooh!!{p=1}{nw}"
             pause 1
-            dia "ООООО, БОЖЕ!!!{p=1}{nw}"
+            dia "OOOOH, GOD!!!{p=1}{nw}"
         else:
-            dia "Ааааааа!!!{p=1}{nw}"
+            dia "Aaahhh!!!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
         if randomizer() < 50:
-            dia "Так хорошо!{p=1}{nw}"
+            dia "It's so good!{p=1}{nw}"
             pause 1
-            dia "Ох, это так чертовски хорошо!{p=1}{nw}"
+            dia "Oh, it's so fucking good!{p=1}{nw}"
         else:
-            dia "Наполни меня до краев, жеребец!{p=1}{nw}"
+            dia "Fill me up, stud!{p=1}{nw}"
     if animcounter == 4 and randomizer() > 75:
         if randomizer() > 50:
-            player_name "Вау, {b}Диана{/b}, ты такая мокрая!{p=1}{nw}"
+            player_name "Wow, {b}Diane{/b}, you're so wet!{p=1}{nw}"
             pause 1
-            dia "Я знаю!{p=1}{nw}"
-            dia "Мое тело любит твой член!{p=1}{nw}"
+            dia "I know!{p=1}{nw}"
+            dia "My body loves your cock!{p=1}{nw}"
         else:
-            dia "Давай, {b}[firstname]{/b}!{p=1}{nw}"
-            dia "Осемени меня!{p=1}{nw}"
+            dia "Do it, {b}[firstname]{/b}!{p=1}{nw}"
+            dia "Breed me!{p=1}{nw}"
     return
 
 label diane_sex_breed_cum_pre:
-    player_name "{b}Диана{/b} я кончаю!"
-    dia "Ааа, яяяя  ттттоооожжжжееее!!!"
+    player_name "{b}Diane{/b} I'm gonna cum!"
+    dia "Ah, meeee toooo!!!"
     pause
     if randomizer() < 50:
-        dia "Кончи в меня, {b}[firstname]{/b}!"
+        dia "Cum in me, {b}[firstname]{/b}!"
         if M_diane.pregnancy.number_of_babies>0:
-            dia "Я хочу еще одного ребенка внутри себя!"
+            dia "I want another baby inside me!"
         else:
-            dia "Я хочу, чтобы твой ребенок был внутри меня!"
+            dia "I want your baby inside me!"
     else:
-        dia "Кончи в меня, {b}[firstname]{/b}!"
-        dia "Я хочу все!"
-    player_name "Ох, боже!"
+        dia "Cum inside me, {b}[firstname]{/b}!"
+        dia "I want all of it!"
+    player_name "Oh god!"
     pause
     if store._in_replay is None:
         $ M_diane.trigger(T_diane_brought_outfit_package)
     call screen diane_cum_breed_options 
 
 label diane_sex_breed_cum_out:
-    player_name "Я не..."
+    player_name "I don't..."
     $ M_diane.set('sex speed', 0.09)
     pause
-    player_name "Я не могу..."
+    player_name "I can't..."
     pause
-    dia "АААААААА!!!"
+    dia "AAAAHHHH!!!"
     scene expression "backgrounds/location_barn_sex_back_day.jpg"
     show diane_sex_breed after
     show diane_sex_breed_mc cumshot 2
-    player_name "ННГГГГ!!!" with flash
+    player_name "HNNGGG!!!" with flash
     show diane_sex_breed_mc cumshot 1
     show diane_sex_flying_cum 1
     with dissolve
@@ -910,8 +912,8 @@ label diane_sex_breed_cum_out:
     show diane_sex_flying_cum 2
     with dissolve
     pause
-    player_name "Ааааа... Ааааа..."
-    dia "Что-"
+    player_name "Haah... Haah..."
+    dia "Wha-"
     pause
     hide diane_sex_flying_cum
     hide diane_sex_breed_mc
@@ -922,69 +924,69 @@ label diane_sex_breed_cum_out:
     show diane b_naked a_naked_sides f_sad_talk
     with dissolve
     if randomizer() < 50:
-        dia "... Что случилось?"
-        dia "{b}[firstname]{/b}, ты должен был кончить в меня..."
+        dia "... What happened?"
+        dia "{b}[firstname]{/b}, you were supposed to cum inside me..."
         show diane b_naked a_naked_sides f_sad
         show player 367
-        player_name "Я знаю."
+        player_name "I know."
         show player 368
         pause
         show player 367
-        player_name "Я знаю..."
-        player_name "Прости."
-        player_name "Настал момент, и я просто ..."
+        player_name "I know..."
+        player_name "I'm sorry."
+        player_name "The moment came and I just kinda..."
         show player 368
         pause
         show player 367
-        player_name "Уф, я не знаю."
-        player_name "Я кончу в тебя в следующий раз, ладно?"
+        player_name "Phew, I dunno."
+        player_name "I'll cum inside you next time, okay?"
         show player 368
         pause
         if M_diane.pregnancy.number_of_babies>0:
             show diane f_shamed_talk_smile
-            dia "Хорошо..."
+            dia "Alright..."
         else:
             show diane f_sad_talk
-            dia "Ты должен помнить, есть причина, по которой мы это делаем..."
+            dia "You have to remember, there's a reason we're doing this..."
             show diane f_shamed
             show player 367
-            player_name "Я знаю."
+            player_name "I know."
             show player 368
         show diane f_normal_talk
-        dia "Это было невероятно, хотя!"
+        dia "That WAS incredible though!"
     else:
-        dia "Ты вытащил!"
+        dia "You pulled out!"
         show diane f_sad
         show player 367
-        player_name "Я знаю."
+        player_name "I know."
         show player 368
         show diane f_sad_talk
-        dia "Почему ты-"
-        dia "{b}[firstname]{/b}, Я не могу забеременеть, если ты кончишь мне на спину!"
+        dia "Why did you-"
+        dia "{b}[firstname]{/b}, I can't get pregnant if you cum on my back!"
         show diane f_sad
         show player 367
-        player_name "Прости."
-        player_name "Я просто не мог на этот раз ..."
+        player_name "I'm sorry."
+        player_name "I just, couldn't this time..."
         show player 368
         pause
         show diane f_sad_talk
-        dia "Все в порядке."
-        dia "Я не сумасшедшая."
+        dia "It's alright."
+        dia "I'm not mad."
         if M_diane.pregnancy.number_of_babies>0:
             show diane f_sad
             show player 367
         else:
-            dia "Ты просто должен помнить, почему мы делаем это."
+            dia "You just have to remember why we're doing this."
             show diane f_sad
             pause
             show diane f_normal_talk
-            dia "Не пойми меня неправильно, мне очень нравится трахать тебя, {b}[firstname]{/b}..."
+            dia "Don't get me wrong, I REALLY like fucking you, {b}[firstname]{/b}..."
             show diane f_sad_talk
-            dia "... Но если я не забеременею, бизнес пострадает."
+            dia "... But if I don't get pregnant then the business will suffer."
             show diane f_sad
             show player 367
-            player_name "Я знаю."
-        player_name "Прости."
+            player_name "I know."
+        player_name "I'm sorry."
         hide player
         show diane kiss_both_naked at Position (xoffset=-217)
         with dissolve
@@ -993,25 +995,25 @@ label diane_sex_breed_cum_out:
         show player 366 at left
         show diane b_naked a_naked_sides f_normal_talk
         with dissolve
-        dia "Не извиняйся."
+        dia "Don't apologize."
         show diane f_smirk_talk
         if M_diane.pregnancy.number_of_babies>0:
-            dia "В следующий раз положи в меня еще одного ребенка!"
+            dia "Just next time, put another baby in me!"
         else:
-            dia "В следующий раз положи в меня ребенка!"
-        dia "Хорошо?"
+            dia "Just next time, put a baby in me!"
+        dia "Okay?"
         show diane f_smirk
         show player 365
-        player_name "Хорошо..."
+        player_name "Okay..."
         show player 366
         show diane f_smirk_talk
-        dia "Теперь давай начнем дойку."
+        dia "Now, let's start milking."
         show diane f_smirk
         show player 365
-        player_name "Да, мэм."
+        player_name "Yes, ma'am."
         show player 366
         show diane f_smirk_talk
-        dia "Просто будь нежным, {b}[firstname]{/b}."
+        dia "Just be gentle, {b}[firstname]{/b}."
         hide player
         hide diane
         with dissolve
@@ -1021,21 +1023,21 @@ label diane_sex_breed_cum_out:
     jump milking_game_pre_after_sex
 
 label diane_sex_breed_cum_in:
-    player_name "Ооо!"
+    player_name "Ooh!"
     pause
     player_name "Here it comes!"
-    dia "Наполни меня, {b}[firstname]{/b}!!"
+    dia "Fill me up, {b}[firstname]{/b}!!"
     pause
-    dia "ААААААААААА!!!"
+    dia "AAAAHHHH!!!"
     scene expression "backgrounds/location_barn_sex_back_day.jpg"
     $ M_diane.set("sex speed",0.4)
     show diane_sex_breed creampie zorder 0
-    show xray_diane_back zorder 1 at Position (xpos=440,ypos=680)
-    player_name "ХННГГГГГ!!!" with flash
+    show xray_diane_back zorder 1 at Position (align=(0,0))
+    player_name "HNNGGG!!!" with flash
     hide xray_diane_back
     show diane_sex_breed creampie_pullout
     with dissolve
-    dia "НГГХХХХ!!!"
+    dia "NGGHHH!!!"
     show diane_sex_breed insert_and_pullout
     show diane_sex_dick_cum 2 zorder 3
     with dissolve
@@ -1049,16 +1051,16 @@ label diane_sex_breed_cum_in:
     show diane_sex_breed after_spread
     show diane_sex_cum spread
     with dissolve
-    player_name "Ааааа... Аааааа..."
+    player_name "Haah... Haah..."
     pause
-    dia "О, БОЖЕ!"
+    dia "Oh, GOD!"
     pause
-    dia "ТАк много..."
+    dia "So much..."
     pause
     $ persistent.cookie_jar["Diane"]["unlocked"] = True
     $ persistent.cookie_jar["Diane"]["gallery"]["06_unlocked"] = True
     $ renpy.end_replay()
-    call screen pregnancy_minigame(return_label="diane_sex_breed_cum_in_after_minigame", machine=M_diane)
+    call call_pregnancy_minigame (return_label="diane_sex_breed_cum_in_after_minigame", machine=M_diane)
 
 label diane_sex_breed_cum_in_after_minigame:
     hide diane_sex_cum
@@ -1075,50 +1077,51 @@ label diane_sex_breed_cum_in_after_minigame:
     show diane b_naked a_naked_sides f_smirk_talk
     with dissolve
     if randomizer() < 50 or M_diane.is_set("breed first time"):
-        dia "Так много спермы, {b}[firstname]{/b}!"
+        dia "That was so much cum, {b}[firstname]{/b}!"
         show diane f_smirk
         show player 365
-        player_name "Прости."
+        player_name "S-sorry."
         show player 366
         show diane f_smirk_talk
-        dia "Нет, это замечательно!"
+        dia "No, it's wonderful!"
     else:
-        dia "Ммм, Я люблю твои огромные загрузки, {b}[firstname]{/b}."
+        dia "Mmm, I love your huge loads, {b}[firstname]{/b}."
         show diane f_smirk
         show player 365
-        player_name "Да?"
+        player_name "Y-yeah?"
         show player 366
         show diane f_laugh
-        dia "Они замечательны!"
+        dia "They feel so wonderful!"
     show diane f_smirk
     show player 365
-    player_name "Хех."
+    player_name "Heh."
     show player 366
     pause
     show player 365
     if M_diane.pregnancy.number_of_babies>0:
-        player_name "Как ты думаешь, ты ... ты знаешь ... снова беременна?"
+        player_name "Do you think you're... You know... Pregnant again?"
     else:
-        player_name "Как ты думаешь, ты ... ты знаешь ... беременна?"
+        player_name "Do you think you're... You know... Pregnant?"
     show player 366
     show diane f_laugh
-    dia "Ха-ха, еще слишком рано чтобы знать."
+    dia "Haha, it's too early to know."
     show diane f_smirk_talk
-    dia "Надеюсь, что да."
+    dia "I hope so."
     show diane f_smirk
     pause
     show player 365
-    player_name "У тебя может быть мой ребенок внутри, прямо сейчас!"
+    player_name "You might have my baby inside you, right now!"
     show player 366
     show diane f_smirk_talk
-    dia "Хехе, я знаю!"
-    dia "Это так захватывающе!"
-    dia "Ох, жеребец ... Ты был так хорош!"
+    dia "Hehe, I know!"
+    dia "It's so exciting!"
+    dia "Oh, stud... You were so good!"
     jump milking_game_pre_after_sex
 
 label diane_debbie_sex_start:
     if store._in_replay:
         scene expression "backgrounds/location_home_debbiebed_sex.jpg"
+        $ M_diane.set('sex speed', 0.09)
     $ anim_toggle = True
     if not M_diane.is_set("3way first time"):
         $ M_diane.set('sex speed', 0.09)
@@ -1156,166 +1159,162 @@ label diane_debbie_sex_loop:
 label diane_debbie_sex_hscene_dialog:
     if not M_diane.get("change partner"):
         if animcounter == 0 and randomizer() < 25:
-            dia "О БОЖЕ!{p=1}{nw}"
-            dia "Не останавливайся!!{p=1}{nw}"
+            dia "OH MY GOD!{p=1}{nw}"
+            dia "Don't stop!!{p=1}{nw}"
         if animcounter == 1 and randomizer() < 25:
-            dia "О, черт!{p=1}{nw}"
-            dia "Ааааа!{p=1}{nw}"
+            dia "Oh, shit!{p=1}{nw}"
+            dia "Ahhh!{p=1}{nw}"
         if animcounter == 2 and randomizer() < 10:
-            deb "Хехе, Мне нравится этот вид!{p=2}{nw}"
-            dia "Извините, если я протеку на тебя...{p=2}{nw}"
-            deb "Все хорошо, я не против.{p=2}{nw}"
+            deb "Hehe, I love this view!{p=2}{nw}"
+            dia "Sorry, if I leak on you...{p=2}{nw}"
+            deb "It's okay, I don't mind.{p=2}{nw}"
         elif randomizer() < 25:
-            dia "Боже мой, так глубоко!{p=2}{nw}"
-            deb "У моего мальчика лучший член, не так ли?!{p=2}{nw}"
-            dia "Да!!{p=1}{nw}"
+            dia "Oh my god, it's so deep!{p=2}{nw}"
+            deb "My boy has the best cock, doesn't he?!{p=2}{nw}"
+            dia "Yes!!{p=1}{nw}"
         if animcounter == 3 and randomizer() < 25:
-            player_name "Я близко...!{p=1}{nw}"
-            dia "Ааа, я тоже!{p=1}{nw}"
-            deb "Это хорошо, милый, давай!{p=2}{nw}"
+            player_name "I'm getting close!{p=1}{nw}"
+            dia "Ahh, me too!{p=1}{nw}"
+            deb "That's okay sweetie, you go right ahead!{p=2}{nw}"
     else:
         if animcounter == 0 and randomizer() < 25:
-            dia "Давай, {b}[firstname]{/b}!{p=1}{nw}"
-            dia "Трахни ее сильнее!{p=1}{nw}"
+            dia "C'mon, {b}[firstname]{/b}!{p=1}{nw}"
+            dia "Fuck her harder!{p=1}{nw}"
             if M_diane.get("sex speed") > 0.31:
                 $ M_diane.set("sex speed", M_diane.get("sex speed") - 0.03)
-            deb "О, боже!{p=1}{nw}"
+            deb "Oh, god!{p=1}{nw}"
         elif randomizer() < 50:
-            deb "ААААА!!{p=1}{nw}"
-            dia "Вот так, жеребец!{p=1}{nw}"
+            deb "AHHH!!{p=1}{nw}"
+            dia "That's it, stud!{p=1}{nw}"
         if animcounter == 1 and randomizer() < 25:
-            deb "Ааа!{p=1}{nw}"
+            deb "Ahh!{p=1}{nw}"
         if animcounter == 2 and randomizer() < 25:
-            dia "Как это так просто для тебя?!{p=2}{nw}"
-            deb "Хмм?{p=1}{nw}"
-            dia "Ты берешь этот огромный член, как будто это ничего!{p=2}{nw}"
-            deb "Ммм, я не знаю...{p=1}{nw}"
-            deb "... Это просто замечательно!{p=1}{nw}"
+            dia "How is it so easy for you?!{p=2}{nw}"
+            deb "Hmm?{p=1}{nw}"
+            dia "You take that huge cock like it's nothing!{p=2}{nw}"
+            deb "Mmm, I dunno...{p=1}{nw}"
+            deb "... It just feels so wonderful!{p=1}{nw}"
         if animcounter == 3 and randomizer() < 25:
-            player_name "Я близко...!{p=1}{nw}"
-            deb "Ааа, я тоже!{p=1}{nw}"
-            dia "Давай, красавчик.{p=1}{nw}"
-            dia "Покажи {b}[deb_name]{/b} как сильно ты ее любишь.{p=2}{nw}"
+            player_name "I'm getting close!{p=1}{nw}"
+            deb "Ahh, me too!{p=1}{nw}"
+            dia "Go ahead, handsome.{p=1}{nw}"
+            dia "Show {b}[deb_name]{/b} how much you love her.{p=2}{nw}"
     return
 
 label diane_debbie_sex_cum:
-    player_name "Вот оно!"
+    player_name "Here it comes!"
     pause
     if M_diane.get("cum inside"):
         show diane_debbie_sex_bed cumpie
         if not M_diane.get("change partner"):
-            show xray_diane_debbie_sex at Position (xpos=360,ypos=680)
+            show xray_diane_debbie_sex at Position (align=(0,0))
         else:
-            show xray_diane_debbie_sex at Position (xpos=380,ypos=750)
+            show xray_diane_debbie_sex at Position (xpos=190,ypos=420)
     else:
         show diane_debbie_sex_bed base
         show diane_debbie_sex_bed_cumshot_mc
-    player_name "ХННГГГГ!!!" with flash
+    player_name "HNNGGG!!!" with flash
     if not M_diane.get("change partner"):
-        dia "НГГХХХХ!!!"
+        dia "NGGHHH!!!"
     else:
-        deb "ОООООО!!!"
+        deb "OHHH!!!"
     hide xray_diane_debbie_sex with dissolve
     pause
-    player_name "Ааааа... Ааааа..."
+    player_name "Haah... Haah..."
     hide diane_debbie_sex_bed_cumshot_mc
 
     if not M_diane.get("change partner"):
         show diane_debbie_sex_bed diane_after_talk
         with dissolve
-        dia "О, вау..."
+        dia "Oh, wow..."
         if M_diane.get("cum inside"):
-            dia "Он так сильно вошел в меня."
+            dia "He came so much in me."
             show diane_debbie_sex_bed debbie_after_talk
-            deb "Хехе, это мой мальчик!"
+            deb "Hehe, that's my boy!"
             show diane_debbie_sex_bed diane_after_talk
-            dia "Ммм."
+            dia "Mmm."
         else:
             show diane_debbie_sex_bed debbie_after_talk
-            deb "Так много!"
+            deb "There's so much!"
             show diane_debbie_sex_bed diane_after_talk
-            dia "Блин, я покрыта!"
-            dia "Хаха!"
+            dia "Sheesh, I'm covered!"
+            dia "Haha!"
     else:
         show diane_debbie_sex_bed debbie_after_talk
         with dissolve
-        deb "О, мой..."
+        deb "Oh, my..."
         if M_diane.get("cum inside"):
             deb "I feel so full."
             show diane_debbie_sex_bed diane_after_talk
-            dia "Хехе, это мой большой сексуальный жеребец!"
+            dia "Hehe, that's my big sexy stud!"
             show diane_debbie_sex_bed debbie_after_talk
-            deb "Ммм."
+            deb "Mmm."
         else:
             show diane_debbie_sex_bed diane_after_talk
-            dia "Так много!"
+            dia "There's so much!"
             show diane_debbie_sex_bed debbie_after_talk
-            deb "Хехе!"
-            deb "О, я люблю чувствовать это на себе!"
+            deb "Hehe!"
+            deb "Oh, I love feeling it on me!"
 
     if M_diane.is_set("3way first time"):
         show diane_debbie_sex_bed diane_after_talk
-        dia "Я так рада, что это случилось!"
+        dia "I'm so glad this happened!"
         show diane_debbie_sex_bed debbie_after_talk
-        deb "Это было замечательно, не так ли?"
-        player_name "Это было так здорово!"
+        deb "It was wonderful, wasn't it?"
+        player_name "It was so awesome!"
         show diane_debbie_sex_bed diane_after_talk
-        dia "Хехехе!"
+        dia "Hehehe!"
         show diane_debbie_sex_bed debbie_after_talk
-        deb "Хехехе!"
-        player_name "Мы можем сделать это снова?!"
+        deb "Hehehe!"
+        player_name "Can we do this again?!"
         show diane_debbie_sex_bed diane_after_talk
-        dia "Я упала!"
+        dia "I'm down!"
         show diane_debbie_sex_bed debbie_after_talk
-        deb "Конечно, мы можем повторить когда захочешь, {b}[firstname]{/b}."
+        deb "Of course, we can do it whenever you want, {b}[firstname]{/b}."
         pause
         show diane_debbie_sex_bed debbie_after_talk
-        deb "Прямо сейчас, я просто хочу, чтобы ты пришел и полежал с нами."
+        deb "Right now, I just want you to come and lay with us."
         show diane_debbie_sex_bed debbie_lounge_after_talk with dissolve
-        deb "Я измотана!"
+        deb "I'm worn out!"
         show diane_debbie_sex_bed diane_lounge_after_talk
-        dia "Ха, да... Я тоже!"
+        dia "Hah, yeah... Me too!"
         show diane_debbie_sex_bed player_lounge_after_talk
-        player_name "Хехе."
+        player_name "Hehe."
         show diane_debbie_sex_bed debbie_lounge_after_talk
-        deb "Иди сюда, милый!"
-        deb "Ложись между нами."
+        deb "C'mere sweetie!"
+        deb "Lie here between us."
         show diane_debbie_sex_bed player_lounge_after_talk
-        player_name "Хорошо."
+        player_name "O-okay."
     else:
 
         show diane_debbie_sex_bed diane_after_talk
-        dia "Пфф."
-        dia "Я так устала..."
+        dia "Phew."
+        dia "I'm so exhausted now..."
         show diane_debbie_sex_bed debbie_after_talk
-        deb "Ух, я тоже."
-        deb "Нас двое и мы все еще не можем угнаться за ним!"
+        deb "Ugh, me too."
+        deb "There's two of us and we still can't keep up with him!"
         show diane_debbie_sex_bed diane_after_talk
-        dia "Хаха!"
-        player_name "Без разницы."
+        dia "Haha!"
+        player_name "Whatever."
         show diane_debbie_sex_bed player_lounge_after_talk with dissolve
-        player_name "Я устал тоже!"
+        player_name "I'm tired too!"
         show diane_debbie_sex_bed debbie_lounge_after_talk
-        deb "Все хорошо, милый."
-        deb "Просто лежи и отдыхай."
+        deb "That's alright, sweetie."
+        deb "You just lay here and rest."
         show diane_debbie_sex_bed diane_lounge_after_talk
-        dia "Ауу, Я люблю вас, ребята!"
+        dia "Aww, I love you guys!"
         show diane_debbie_sex_bed debbie_lounge_after_talk
-        deb "Хехе, мы тебя тоже."
+        deb "Hehe, we love you too."
 
     scene black with fade
     hide diane_debbie_sex_bed
 
-    if M_diane.get("previous outfit") == "naked":
-        $ M_diane.is_naked = 1
-    else:
-        $ M_diane.outfit = "cow"
     $ persistent.cookie_jar["Diane"]["unlocked"] = True
     $ persistent.cookie_jar["Diane"]["gallery"]["07_unlocked"] = True
     $ renpy.end_replay()
     $ M_diane.trigger(T_diane_debbie_3way)
     if M_diane.get("cum inside") and not M_diane.get("change partner"):
-        call screen pregnancy_minigame("diane_debbie_sleeping", M_diane)
+        call call_pregnancy_minigame ("diane_debbie_sleeping", M_diane)
     jump diane_debbie_sleeping
 
 label diane_debbie_sleeping:
@@ -1341,16 +1340,16 @@ label diane_debbie_sleepover_wakeup_first:
     show player 8 with dissolve
     pause
     show player 5 with dissolve
-    player_name "Хмм?"
+    player_name "Hmm?"
     show player 10
-    player_name "Куда все подевались?"
+    player_name "Where'd everybody go?"
     show player 9 at Position (xoffset=40) with dissolve
     pause
     show player 17 with dissolve
-    player_name "{b}*нюхая*{/b} Что-то вкусно пахнет!"
+    player_name "{b}*Sniff*{/b} Something smells great!"
     show player 14
-    player_name "{b}[deb_name]{/b} возможно готовит {b}на кухне{/b}."
-    player_name "Я должен проверить."
+    player_name "{b}[deb_name]{/b} must be cooking {b}In the kitchen{/b}."
+    player_name "I should go check it out."
     hide player with dissolve
     return
 
@@ -1361,7 +1360,7 @@ label diane_debbie_sleepover_wakeup_repeat:
     show player 8 with dissolve
     pause
     show player 14 with dissolve
-    player_name "Похоже, {b}Диана{/b} и {b}[deb_name]{/b} уже встали."
+    player_name "Looks like {b}Diane{/b} and {b}[deb_name]{/b} are already up."
     hide player with dissolve
     return
 
@@ -1372,60 +1371,60 @@ label diane_debbie_pre_sex_loop:
         if randomizer() > 50:
             if animated:
                 show diane_debbie_sex_bed player_talk
-            player_name "Я думаю пришел черед {b}Дианы{/b}."
+            player_name "I think it's time that {b}Diane{/b} had a turn."
             if animated:
                 show diane_debbie_sex_bed debbie_talk
-            deb "Если это то, чего ты хочешь, милый."
-            deb "Давай."
+            deb "If that's what you want, sweetie."
+            deb "Go ahead."
             if animated:
                 show diane_debbie_sex_bed diane_talk
-            dia "Мммммм, неси сюда этот большой член."
+            dia "Mmhmm, bring that big dick over here."
             show diane_debbie_sex_bed insert with dissolve
-            deb "Хехе!"
-            dia "Давай жеребец, покажи мне что у тебя есть!"
+            deb "Hehe!"
+            dia "C'mon stud, show me what you got!"
             show diane_debbie_sex_bed 7
             dia "!!!" with hpunch
         else:
             if animated:
                 show diane_debbie_sex_bed player_talk
-            player_name "{b}Диана{/b}, ты следующая!"
+            player_name "{b}Diane{/b}, you're up next!"
             if animated:
                 show diane_debbie_sex_bed diane_talk
-            dia "Ммм, мне повезло!"
+            dia "Mmm, lucky me!"
             show diane_debbie_sex_bed insert with dissolve
-            dia "Давай жеребец, покажи мне что у тебя есть!"
+            dia "C'mon stud, show me what you got!"
             show diane_debbie_sex_bed 7
             dia "!!!" with hpunch
     else:
         if randomizer() > 50:
             if animated:
                 show diane_debbie_sex_bed player_talk
-            player_name "Готова, {b}[deb_name]{/b}?"
+            player_name "Ready, {b}[deb_name]{/b}?"
             if animated:
                 show diane_debbie_sex_bed debbie_talk
-            deb "Ммм!"
+            deb "Mmm!"
             show diane_debbie_sex_bed insert with dissolve
-            deb "Вот так, милый!"
-            deb "Позволь мне показать кое-что, {b}[firstname]{/b}!"
-            player_name "Ух!"
+            deb "That's it sweetie!"
+            deb "Let me show a thing or two, {b}[firstname]{/b}!"
+            player_name "Uh huh!"
             show diane_debbie_sex_bed 7
-            dia "О!" with hpunch
+            dia "Oh!" with hpunch
         else:
             if animated:
                 show diane_debbie_sex_bed player_talk
-            player_name "Черед {b}[deb_name]{/b}!"
+            player_name "It's {b}[deb_name]'s{/b} turn!"
             if animated:
                 show diane_debbie_sex_bed diane_talk
-            dia "Ааа, хорошая идея..."
-            dia "Мне нужно отдохнуть!"
+            dia "Ahh, good idea..."
+            dia "I need a break!"
             if animated:
                 show diane_debbie_sex_bed debbie_talk
-            deb "Хехе!"
+            deb "Hehe!"
             show diane_debbie_sex_bed insert with dissolve
-            player_name "Вот и он, {b}[deb_name]{/b}."
-            deb "Я готова!"
+            player_name "Here it comes, {b}[deb_name]{/b}."
+            deb "I'm ready!"
             show diane_debbie_sex_bed 7
-            deb "О! Вот так, милый!" with hpunch
+            deb "Oh! That's it sweetie!" with hpunch
     $ animated = False
     jump diane_debbie_sex_loop
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

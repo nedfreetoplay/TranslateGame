@@ -1,10 +1,133 @@
-init python:
+init -1 python:
+    class Item:
+        def __init__(self, name_id):
+            self.name = store.items[name_id]["name"]
+            self.id_ = store.items[name_id]["id"]
+            self.cost = int(store.items[name_id]["cost"])
+            self.image = store.items[name_id]["image"]
+            if self.image.startswith("transform"):
+                self.transform = self.image
+                self.image = Transform(self.image.split("-")[1])
+            else:
+                self.transform = None
+            self.description = store.items[name_id]["description"]
+            counter = 0
+            newdesc = ""
+            for char in self.description:
+                counter += 1
+                if counter >= 65 and char == " " or counter >= 80:
+                    counter = 0
+                    newdesc += "\n"
+                newdesc += char
+            self.description = newdesc
+            self.closeup = store.items[name_id]["closeup"]
+            self.dialogue = store.items[name_id]["dialogue_label"]
+            if self.closeup and not self.dialogue:
+                self.dialogue = 'generic_item_closeup'
+            try:
+                self.popup_image = store.items[name_id]["popup_image"]
+            except KeyError:
+                self.popup_image = None
+            self.name_id = name_id
+        
+        def __str__(self):
+            return self.name_id
+
+    class Inventory(object):
+        def __init__(self, money = 20, savings = 0):
+            self.items = []
+            self.picked_up = []
+            self.money = money
+            self.savings = savings
+            self.interests = 0
+            self.total_interests = 0
+        
+        def __contains__(self, item):
+            return item in self.items
+        
+        def __getnewargs__(self):
+            return (self.money, self.savings)
+        
+        def __getstate__(self):
+            state = {}
+            state["items"] = self.items
+            state["picked_up"] = self.picked_up
+            state["money"] = self.money
+            state["savings"] = self.savings
+            return state
+        
+        def __setstate__(self, state):
+            self.items = state["items"]
+            self.picked_up = state["picked_up"]
+            self.money = state["money"]
+            self.savings = state["savings"]
+        
+        
+        def get_item (self, item, force=False):
+            if item not in self.items and (self.money >= Item(item).cost or force):
+                self.picked_up.append(item)
+                self.items.append(item)
+                if not force:
+                    self.money -= Item(item).cost
+                    if Item(item).cost > 0:
+                        renpy.play("audio/sfx_coins2.ogg")
+            return
+        
+        def remove_item (self, item):
+            if str(item) in self.items:
+                self.items.remove(str(item))
+        
+        def remove_picked_up(self, item):
+            if str(item) in self.picked_up:
+                self.picked_up.remove(str(item))
+        
+        def trade_item (self, item, item_2):
+            if str(item) in self.items:
+                self.items.remove(str(item))
+                self.items.append(str(item_2))
+        
+        def spend_money (self, value):
+            try:
+                value = int(value)
+            except ValueError:
+                value = 0
+            self.money -= value
+            renpy.play("audio/sfx_coins2.ogg")
+        
+        def clear(self):
+            self.picked_up = []
+            self.items = []
+
+    def deposit_money(d_money):
+        if player.inventory.money >= d_money and (player.inventory.savings + d_money) <= 25000:
+            player.inventory.savings += d_money
+            player.inventory.money -= d_money
+
+    def withdraw_money(d_money):
+        if player.inventory.savings >= d_money:
+            player.inventory.savings -= d_money
+            player.inventory.money += d_money
+
     class PlayerStats(object) :
         def __init__(self):
             self._str = 0
             self._int = 0
             self._dex = 0
             self._chr = 0
+        
+        def __getstate__(self):
+            state = {}
+            state["str"] = self._str
+            state["int"] = self._int
+            state["dex"] = self._dex
+            state["chr"] = self._chr
+            return state
+        
+        def __setstate__(self, state):
+            self._str = state["str"]
+            self._int = state["int"]
+            self._dex = state["dex"]
+            self._chr = state["chr"]
         
         def increase(self,stat):
             if stat == "str":
@@ -63,6 +186,44 @@ init python:
             self.pregnancy_chance = 20
             self.messages = []
             self.counter_pregnancy_tries = 0
+            self.last_baby_gender = "boy"
+            self.visited_locations = []
+            self.locked_locations = []
+        
+        def __getnewargs__(self):
+            return (self.name,)
+        
+        def __getstate__(self):
+            state = {}
+            state["location"] = self.location
+            state["transport_level"] = self.transport_level
+            state["pregnancy_chance"] = self.pregnancy_chance
+            state["messages"] = self.messages
+            state["stats"] = self.stats
+            state["counter_pregnancy_tries"] = self.counter_pregnancy_tries
+            state["grades"] = self.grades
+            state["name"] = self.name
+            state["furnishings_purchased"] = self.furnishings_purchased
+            state["inventory"] = self.inventory
+            state["locked_locations"] = self.locked_locations
+            state["visited_locations"] = self.visited_locations
+            return state
+        
+        def __setstate__(self, state):
+            self.location = state["location"]
+            self.transport_level = state["transport_level"]
+            self.pregnancy_chance = state["pregnancy_chance"]
+            self.messages = state["messages"]
+            self.stats = state["stats"]
+            self.counter_pregnancy_tries = state["counter_pregnancy_tries"]
+            self.grades = state["grades"]
+            self.furnishings_purchased = state["furnishings_purchased"]
+            self.inventory = state["inventory"]
+            self.name = state["name"]
+            self.locked_locations = state["locked_locations"]
+            self.visited_locations = state["visited_locations"]
+            pass
+        
         
         def upgrade_transport(self, level, force=False):
             if force:
@@ -115,17 +276,27 @@ init python:
         def increase_grade_music(self):
             self._increase_grade("music")
         
-        def has_item(self, *items):
+        def has_item(self, *items, **kwargs):
+            regex = kwargs.get("regex", False)
+            if not regex:
+                return not set(items).isdisjoint(self.inventory.items)
+            else:
+                inv = '\n'.join(self.inventory.items)
+                return any(re.search('^' + item + '$', inv, re.MULTILINE)
+                           for item in items)
+        
+        def has_picked_up_item(self, *items, **kwargs):
+            regex = kwargs.get("regex", False)
+            if not regex:
+                return not set(items).isdisjoint(self.inventory.picked_up)
+            else:
+                inv = '\n'.join(self.inventory.picked_up)
+                return any(re.search('^' + item + '$', inv, re.MULTILINE)
+                           for item in items)
+        
+        def get_item(self, *items):
             for item in items:
-                if item in self.inventory:
-                    return True
-            return False
-        
-        def has_picked_up_item(self, item):
-            return item in self.inventory.picked_up
-        
-        def get_item(self, item):
-            self.inventory.get_item(item)
+                self.inventory.get_item(item)
             return
         
         def remove_item(self, *items):
@@ -140,7 +311,11 @@ init python:
             self.inventory.money += money
         
         def spend_money(self, money):
-            self.inventory.money -= money
+            try:
+                money = int(money)
+            except ValueError:
+                money = 0
+            self.inventory.money = max(self.inventory.money - money, 0)
         
         def has_required_str(self, req):
             return self.stats.str()>= req
@@ -170,6 +345,12 @@ init python:
             for i in range(amount):
                 self.stats.increase("chr")
         
+        def cheat_stats(self):
+            self.stats._dex = 999
+            self.stats._int = 999
+            self.stats._str = 999
+            self.stats._chr = 999
+        
         def go_to(self, location):
             self.location = location
             if not L_map.locked and location.is_first_child or location==L_map or game.force_unlock_map:
@@ -187,6 +368,13 @@ init python:
             return True in [v for k, v in M_player._vars.items() if k.startswith("jerk")]
         
         def calculate_interests(self):
+            old_savings = self.inventory.savings
             self.inventory.savings *= 1.03
             self.inventory.savings = int(round(self.inventory.savings, 0))
+            self.inventory.interests = self.inventory.savings - old_savings
+            self.inventory.total_interests += self.inventory.interests
+        
+        @property
+        def get_name_hash(self):
+            return sum([ord(x)**2 for x in self.name])
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

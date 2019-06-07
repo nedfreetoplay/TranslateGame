@@ -1,4 +1,6 @@
-screen garage:
+screen garage():
+    use mods_screens_hook("garage")
+
     add game.timer.image("backgrounds/location_home_garage_day{}.jpg")
 
     imagebutton:
@@ -36,7 +38,7 @@ screen garage:
             pos (257,250)
             idle game.timer.image("objects/object_stool_01{}.png")
             hover HoverImage(game.timer.image("objects/object_stool_01{}.png"))
-            action Function(player.get_item, "stool"), Show("popup", Image = "boxes/popup_item_stool1.png")
+            action Function(player.get_item, "stool"), Show('popup', None, "boxes/popup_item_stool1.png")
 
     if not player.has_picked_up_item("drill") and M_dewitt.is_state(S_dewitt_make_new_flute):
         imagebutton:
@@ -53,7 +55,9 @@ screen garage:
         hover HoverImage(game.timer.image("objects/object_workbench_01{}.png"))
         action Hide("garage"), Jump("garage_use_workbench")
 
-screen car_engine:
+screen car_engine():
+    use mods_screens_hook("car_engine")
+
     add game.timer.image("backgrounds/location_home_garage_car_day{}.jpg")
 
     imagebutton:
@@ -63,7 +67,7 @@ screen car_engine:
         hover HoverImage(game.timer.image("objects/object_engine_01{}.png"))
         action Hide("car_engine"), Jump("engine_broken")
 
-screen car_mom_jerk_options:
+screen car_mom_jerk_options():
     imagebutton:
         pos (250,700)
         idle "buttons/judith_stage02_01.png"
@@ -76,7 +80,7 @@ screen car_mom_jerk_options:
         hover HoverImage("buttons/cam_stage01_02.png")
         action Hide("car_mom_jerk_options"), Jump("home_front_mom_car_fixed_check_car_finished")
 
-screen car_mom_sex_options:
+screen car_mom_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

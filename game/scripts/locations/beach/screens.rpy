@@ -1,4 +1,6 @@
-screen beach:
+screen beach():
+    use mods_screens_hook("beach")
+
     add game.timer.image("backgrounds/location_beach_day{}.jpg")
 
     if not game.timer.is_dark() and M_aqua.is_set("treasure search"):
@@ -7,23 +9,25 @@ screen beach:
             pos (666,569)
             idle "objects/object_island_01.png"
             hover HoverImage("objects/object_island_01.png")
-            action Hide("beach"), Jump("beach_island_dialogue")
+            action MoveTo(L_beach_island)
 
     imagebutton:
         focus_mask True
         pos (442,317)
         idle game.timer.image("objects/object_tower_01{}.png")
         hover HoverImage(game.timer.image("objects/object_tower_01{}.png"))
-        action Hide("beach"), Jump("beach_tower_dialogue")
+        action MoveTo(L_beach_tower)
 
     imagebutton:
         focus_mask True
         pos (52,527)
         idle game.timer.image("objects/object_umbrella_01{}.png")
         hover HoverImage(game.timer.image("objects/object_umbrella_01{}.png"))
-        action Hide("beach"), Jump("beach_water_dialogue")
+        action MoveTo(L_beach_water)
 
-screen beach_water:
+screen beach_water():
+    use mods_screens_hook("beach_water")
+
     if M_roxxy.is_state(S_roxxy_invite_to_bikini_contest,S_roxxy_check_on_roxxy, S_roxxy_go_see_contest, S_roxxy_in_cabin, S_roxxy_get_new_bikini, S_roxxy_get_oil) and game.timer == Date("afternoon", "saturday"):
         add game.timer.image("backgrounds/location_beach_water_contest{}.jpg")
         if not M_roxxy.is_state(S_roxxy_check_on_roxxy ,S_roxxy_in_cabin, S_roxxy_get_new_bikini, S_roxxy_get_oil):
@@ -61,7 +65,7 @@ screen beach_water:
         pos (716,380)
         idle game.timer.image("objects/object_cabin_01{}.png")
         hover HoverImage(game.timer.image("objects/object_cabin_01{}.png"))
-        action Hide("beach_water"), Jump("beach_cabin_dialogue")
+        action MoveTo(L_beach_cabin)
 
     if L_beach_water.is_here(M_roxxy) and game.timer.is_dark():
         imagebutton:
@@ -76,37 +80,44 @@ screen beach_water:
         align 0.5,0.97
         idle "boxes/auto_option_generic_01.png"
         hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("beach_water"), Jump("beach_dialogue")
+        action MoveTo(L_beach)
 
 
-screen beach_showers:
+screen beach_showers():
+    use mods_screens_hook("beach_showers")
+
     add L_beach_showers.background
     imagebutton:
         focus_mask True
         align 0.5,0.97
         idle "boxes/auto_option_generic_01.png"
         hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("beach_showers"), Jump("beach_water_dialogue")
+        action MoveTo(L_beach_water)
 
 
-screen beach_cabin:
+screen beach_cabin():
+    use mods_screens_hook("beach_cabin")
+
     add L_beach_cabin.background
     imagebutton:
         focus_mask True
         align 0.5,0.97
         idle "boxes/auto_option_generic_01.png"
         hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("beach_cabin"), Jump("beach_water_dialogue")
+        action MoveTo(L_beach_water)
 
 
-screen beach_tower:
+screen beach_tower():
+    use mods_screens_hook("beach_tower")
+
     add L_beach_tower.background
     imagebutton:
         focus_mask True
         pos (438,443)
         idle game.timer.image("objects/object_ladder_01{}.png")
         hover HoverImage(game.timer.image("objects/object_ladder_01{}.png"))
-        action Hide("beach_tower"), Jump("beach_dialogue")
+        action MoveTo(L_beach)
+
     if M_roxxy.is_state(S_roxxy_get_oil) and not player.has_item("massage_oil"):
         imagebutton:
             focus_mask True
@@ -115,7 +126,9 @@ screen beach_tower:
             hover HoverImage(game.timer.image("objects/object_bottle_01{}.png"))
             action Hide("beach_tower"), Jump("beach_tower_oil_pickup")
 
-screen beach_island:
+screen beach_island():
+    use mods_screens_hook("beach_island")
+
     add "backgrounds/location_beach_island_day.jpg"
 
     imagebutton:
@@ -136,9 +149,9 @@ screen beach_island:
         align (0.5,0.97)
         idle "boxes/auto_option_generic_02.png"
         hover HoverImage("boxes/auto_option_generic_02.png")
-        action Hide("beach_island"), Jump("beach_dialogue")
+        action MoveTo(L_beach)
 
-screen treasure_lock:
+screen treasure_lock():
     default lock01 = 0
     default lock02 = 0
     default lock03 = 0
@@ -207,7 +220,9 @@ screen treasure_lock:
         else:
             hotspot (728,407,188,186) background "backgrounds/location_beach_lock.jpg" action SetScreenVariable("lock04", 1)
 
-screen treasure_chest:
+screen treasure_chest():
+    use mods_screens_hook("treasure_chest")
+
     imagebutton:
         focus_mask True
         pos (440,275)

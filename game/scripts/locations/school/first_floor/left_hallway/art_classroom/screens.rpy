@@ -1,4 +1,6 @@
-screen art_classroom:
+screen art_classroom():
+    use mods_screens_hook("art_classroom")
+
     add game.timer.image("backgrounds/location_school_art_day{}.jpg")
 
     if player.location.is_here(M_judith):
@@ -49,7 +51,7 @@ screen art_classroom:
                 action Hide("art_classroom"), Jump("art_classroom_ross_molding_clay_cutscene")
 
 
-screen tattoos:
+screen tattoos():
     imagebutton:
         focus_mask True
         pos (88,113)

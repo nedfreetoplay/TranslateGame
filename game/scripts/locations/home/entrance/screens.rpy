@@ -1,4 +1,6 @@
-screen entrance:
+screen entrance():
+    use mods_screens_hook("entrance")
+
     add L_home_entrance.background
 
 

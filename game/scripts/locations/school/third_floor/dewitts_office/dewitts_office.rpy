@@ -1,10 +1,8 @@
-default dewitt_office_first_visit = True
-
-label dewitt_office_dialogue:
+label mrs_dewitts_office_dialogue:
     $ player.go_to(L_school_dewittoffice)
-    if dewitt_office_first_visit and not game.timer.is_dark():
+    if L_school_dewittoffice.first_visit and not game.timer.is_dark():
         call expression game.dialog_select("dewitts_office_first_visit")
-        $ dewitt_office_first_visit = False
+        $ L_school_dewittoffice.visited()
 
     if player.location.is_here(M_dewitt):
         if M_dewitt.is_state(S_dewitt_office_reward):

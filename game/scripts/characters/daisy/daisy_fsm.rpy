@@ -1,22 +1,20 @@
-label daisy_triggers_init:
-    python:
-        T_daisy_intro = Trigger()
-        T_daisy_view_statue = Trigger()
-        T_daisy_awaken_statue = Trigger()
-        T_daisy_checked_on_cow = Trigger()
+init python:
+    T_daisy_intro = Trigger()
+    T_daisy_view_statue = Trigger()
+    T_daisy_awaken_statue = Trigger()
+    T_daisy_checked_on_cow = Trigger()
 
-        T_daisy_named_herself = Trigger()
+    T_daisy_named_herself = Trigger()
 
-        T_daisy_find_food = Trigger()
-        T_daisy_eaten_pizza = Trigger()
+    T_daisy_find_food = Trigger()
+    T_daisy_eaten_pizza = Trigger()
 
-        T_daisy_flower_bad_news = Trigger()
-        T_daisy_gave_new_flowers = Trigger()
-        T_daisy_milked = Trigger()
+    T_daisy_flower_bad_news = Trigger()
+    T_daisy_gave_new_flowers = Trigger()
+    T_daisy_milked = Trigger()
 
-        T_daisy_caught_breeding = Trigger()
-        T_daisy_end= Trigger()
-    return
+    T_daisy_caught_breeding = Trigger()
+    T_daisy_end= Trigger()
 
 label daisy_fsm_init:
     python:
@@ -42,7 +40,7 @@ label daisy_fsm_init:
         S_daisy_end = State("end")
 
 
-        S_daisy_start.add(T_daisy_intro, S_daisy_assembled_statue, actions=["setoutfit", "blanket"])
+        S_daisy_start.add(T_daisy_intro, S_daisy_assembled_statue, actions=["setdefaultoutfit", "naked"])
         S_daisy_assembled_statue.add(T_daisy_view_statue, S_daisy_viewed_statue)
         S_daisy_viewed_statue.add(T_daisy_awaken_statue, S_daisy_awakened_statue,
                                     actions=["setdefaultloc", [[L_diane_barn_interior, L_diane_barn_interior, L_diane_barn_interior, L_diane_barn_interior]],
@@ -77,7 +75,8 @@ label daisy_machine_init:
                                "change angle": False,
                                "daisy_breed_first_time": True},
         )
-        M_daisy.outfit = "blanket"
-        M_daisy.is_naked = False
+        M_daisy.outfit.set_default_outfit_schedule("naked")
+        M_daisy.outfit.is_naked = False
+        M_daisy.pregnancy.location_schedule["_labor"] = LocationSchedule(L_diane_barn_interior)
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

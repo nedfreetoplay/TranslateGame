@@ -56,6 +56,8 @@ label dianes_garden_dialogue:
         elif M_diane.is_state(S_diane_delivery_1_task):
             call expression game.dialog_select("diane_garden_delivery_1_task")
             show screen popup("boxes/popup_item_milk.png")
+            pause
+            hide screen popup
             $ L_pizzeria_exterior.unlock()
             $ M_diane.trigger(T_diane_get_delivery_task)
 
@@ -110,15 +112,9 @@ label dianes_garden_dialogue:
             call expression game.dialog_select("dianes_garden_diane_drunken_shenanigans_apology")
             $ M_diane.trigger(T_diane_apologizing)
 
-        elif M_diane.is_state(S_diane_delivery_3_task):
-            if game.timer.is_weekend():
-                call expression game.dialog_select("dianes_garden_diane_delivery_3_task_weekend")
-            else:
-                call expression game.dialog_select("dianes_garden_diane_delivery_3_task_week")
-                $ M_diane.trigger(T_diane_get_delivery_3_task)
-            hide player
-            hide diane
-            with dissolve
+        elif M_diane.is_state(S_diane_delivery_3_task) and not game.timer.is_weekend():
+            call expression game.dialog_select("dianes_garden_diane_delivery_3_task_week")
+            $ M_diane.trigger(T_diane_get_delivery_3_task)
 
         elif M_diane.is_state(S_diane_delivery_3_done):
             call expression game.dialog_select("dianes_garden_diane_delivery_3_done")

@@ -1,4 +1,6 @@
-screen park:
+screen park():
+    use mods_screens_hook("park")
+
     add game.timer.image("backgrounds/location_park_day{}.jpg")
 
     if player.location.is_here(M_anna):
@@ -45,7 +47,7 @@ screen park:
         pos (318,377)
         idle game.timer.image("objects/object_fountain_01{}.png")
         hover HoverImage(game.timer.image("objects/object_fountain_01{}.png"))
-        action Hide("park"), Jump("fountain_dialogue")
+        action MoveTo(L_park_fountain)
 
     if M_ross.is_state(S_ross_find_eve_backpack) and not player.has_picked_up_item("eve_backpack") and not game.timer.is_dark():
         imagebutton:
@@ -63,7 +65,7 @@ screen park:
             hover HoverImage("objects/character_pilly_01.png")
             action Hide("park"), Jump("park_pilly_button")
 
-screen bench03_options:
+screen bench03_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("bench03_options")
@@ -79,7 +81,9 @@ screen bench03_options:
             [Hide("park"), Hide("bench03_options"), Jump("park_rap_battle")]
         )
 
-screen park_fountain:
+screen park_fountain():
+    use mods_screens_hook("park_fountain")
+
     if not player.has_item("weird_coin"):
         imagebutton:
             focus_mask True

@@ -12,14 +12,14 @@ label forest_dialogue:
             call expression game.dialog_select("forest_anna_missing_pup_started_have_cookies")
             $ M_anna.set("awesomo lured", True)
             $ player.remove_item("cookies")
-        else:
 
+        elif not M_anna.get("awesomo lured"):
             call expression game.dialog_select("forest_anna_missing_pup_started_no_cookies")
 
-    elif M_okita.is_state(S_okita_get_ingredients) and not player.has_item("mushroom") and not player.has_item("toad"):
+    if M_okita.is_state(S_okita_get_ingredients) and not player.has_item("mushroom") and not player.has_item("toad"):
         call expression game.dialog_select("forest_okita_get_ingredients")
 
-    elif M_dewitt.is_state(S_dewitt_make_new_flute) and not player.has_item("stick"):
+    if M_dewitt.is_state(S_dewitt_make_new_flute) and not player.has_item("stick"):
         call expression game.dialog_select("forest_dewitt_make_new_flute")
     $ game.main()
 
@@ -27,10 +27,10 @@ label awesomo_dialogue_button:
     scene expression L_forest.background_blur
     call expression game.dialog_select("awesomo_dialogue_intro")
     menu awesomo_dialogue_loop:
-        "Дать печеньки.":
+        "Give Cookie.":
             call expression game.dialog_select("awesomo_dialogue_give_cookie")
             jump expression game.dialog_select("awesomo_dialogue_loop")
-        "Проверить имя.":
+        "Check name tag.":
 
             call expression game.dialog_select("awesomo_dialogue_check_name_tag_pre")
             $ awesomo = Character("Awesomo")

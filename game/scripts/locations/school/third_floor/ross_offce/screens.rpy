@@ -1,4 +1,6 @@
-screen mrs_ross_office:
+screen mrs_ross_office():
+    use mods_screens_hook("mrs_ross_office")
+
     add game.timer.image("backgrounds/location_school_office3_day{}.jpg")
 
     if player.location.is_here(M_ross):
@@ -24,7 +26,7 @@ screen mrs_ross_office:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("mrs_ross_office"), Jump("third_floor_dialogue")
 
-screen ross_sex_options:
+screen ross_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

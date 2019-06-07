@@ -112,6 +112,6 @@ init python:
                         self.player_answers.append(self.player_current_answers)
                         self._return_screen(set(self.player_current_answers) == self._current_paint.answer)
 
-screen art_minigame:
+screen art_minigame():
     add ArtMinigame()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

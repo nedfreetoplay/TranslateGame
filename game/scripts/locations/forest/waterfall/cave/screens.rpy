@@ -1,4 +1,6 @@
-screen cave:
+screen cave():
+    use mods_screens_hook("cave")
+
     add game.timer.image("backgrounds/location_forest_cave_day{}.jpg")
 
     if M_okita.is_state(S_okita_get_ingredients) and not player.has_picked_up_item("caveflower") and game.timer.is_dark():

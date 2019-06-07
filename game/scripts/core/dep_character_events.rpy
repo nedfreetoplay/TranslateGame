@@ -51,7 +51,14 @@ init python:
             return "Event_Queue: {}".format(self._events)
         
         def add_event(self, event):
-            if event in self._events:
+            if event._name in [e._name for e in self._events]:
+                if event not in self._events:
+                    ev = [e for e in self._events if e._name == event._name][0]
+                    self._events.remove(ev)
+                    event._completed = ev._completed
+                    event._done = ev._done
+                    event._hint = ev._hint
+                    self._events.append(event)
                 return
             self._events.append(event)
         
@@ -85,32 +92,6 @@ init python:
 
 label define_events:
     python:
-        sister = Event_Queue("sister")
-
-        sis_panty01 = Event("Panties", hint = "This is a hint to test out the new hint system ingame!")
-        sis_shower_cuddle01 = Event("Shower/Cuddle 01", hint = "This is a hint to test out the new hint system ingame!")
-        sis_panty02 = Event("Used Panties", hint = "This is a hint to test out the new hint system ingame!")
-        sis_webcam01 = Event("Cam Show 01", hint = "This is a hint to test out the new hint system ingame!")
-        sis_telescope01 = Event("Telescope Spy 01", hint = "This is a hint to test out the new hint system ingame!")
-        sis_breakfast = Event("Breakfast With Sis", hint = "This is a hint to test out the new hint system ingame!")
-        sis_shower_cuddle02 = Event("Shower/Cuddle 02", hint = "This is a hint to test out the new hint system ingame!")
-        sis_hallway01 = Event("Hallway Encounter 01", hint = "This is a hint to test out the new hint system ingame!")
-        sis_couch01 = Event("Couch Event 01", hint = "This is a hint to test out the new hint system ingame!")
-        sis_couch02 = Event("Couch Event 02", hint = "This is a hint to test out the new hint system ingame!")
-        sis_panty03 = Event("Wet Panties", hint = "This is a hint to test out the new hint system ingame!")
-        sis_webcam02 = Event("Cam Show 02", hint = "This is a hint to test out the new hint system ingame!")
-        sis_telescope02 = Event("Telescope Spy 02", hint = "This is a hint to test out the new hint system ingame!")
-        sis_hallway02 = Event("Hallway Encounter 02", hint = "This is a hint to test out the new hint system ingame!")
-        sis_shower_cuddle03 = Event("Shower/Cuddle 03", hint = "This is a hint to test out the new hint system ingame!")
-        sis_couch03 = Event("Couch Event 03", hint = "This is a hint to test out the new hint system ingame!")
-        sis_panty04 = Event("Panty Squirt", hint = "This is a hint to test out the new hint system ingame!")
-        sis_webcam03 = Event("Cam Show 03", hint = "This is a hint to test out the new hint system ingame!")
-        sis_telescope03 = Event("Telescope Spy 03", hint = "This is a hint to test out the new hint system ingame!")
-        sis_shower_cuddle04 = Event("Shower/Cuddle 04", hint = "This is a hint to test out the new hint system ingame!")
-        sis_final = Event("Your Sister's Final Request Part 1", hint = "This is a hint to test out the new hint system ingame!")
-        sis_final2 = Event("Your Sister's Final Request Part 2", hint = "This is a hint to test out the new hint system ingame!")
-        sis_shower_cuddle05 = Event("Shower/Cuddle 05", hint = "This is a hint to test out the new hint system ingame!")
-        sis_webcam04 = Event("Cam Show 04", hint = "This is a hint to test out the new hint system ingame!")
 
         Roz = Event_Queue("Roz")
 

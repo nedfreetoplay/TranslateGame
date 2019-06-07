@@ -1,10 +1,8 @@
-label june_triggers_init:
-    python:
-        T_june_intro = Trigger("intro", "default")
-        T_june_mc_hang_out = Trigger("ask hang out", "default")
-        T_june_erik_hang_out = Trigger("erik hang out", "default")
-        T_june_completed_ork_bork = Trigger("completed ork bork", "default")
-    return
+init python:
+    T_june_intro = Trigger("intro", "default")
+    T_june_mc_hang_out = Trigger("ask hang out", "default")
+    T_june_erik_hang_out = Trigger("erik hang out", "default")
+    T_june_completed_ork_bork = Trigger("completed ork bork", "default")
 
 label june_fsm_init:
     python:

@@ -21,6 +21,8 @@ label map_dialogue:
             $ L_hill.unlock()
             $ L_warehouse.unlock()
             $ L_beachhouse_front.unlock()
+            $ L_boat_bridge.unlock()
+            $ L_rump_front.unlock()
             $ L_map.unlock(False, False)
             $ erik.complete_events(erik_intro)
             $ M_erik.place(place = L_erikhouse_basement)

@@ -1,11 +1,16 @@
-screen comic_store:
-    add "backgrounds/location_mall_comic_day.jpg"
+screen comic_store():
+    use mods_screens_hook("comic_store")
+
+    if M_jenny.between_states(S_jenny_get_a_mask, S_jenny_come_back_camshow) and game.timer.is_day():
+        add "backgrounds/location_mall_comic_lucha_day.jpg"
+    else:
+        add "backgrounds/location_mall_comic_day.jpg"
 
     imagebutton:
         focus_mask True
         pos (675,318)
-        idle "objects/character_lilly_01.png"
-        hover HoverImage("objects/character_lilly_01.png")
+        idle "objects/character_lily_01.png"
+        hover HoverImage("objects/character_lily_01.png")
         action Hide("comic_store"), Jump("tatiana_dialogue")
 
     imagebutton:
@@ -71,10 +76,10 @@ screen comic_store:
         hover HoverImage("boxes/auto_option_10.png")
         action Hide("comic_store"), Jump("mall_dialogue")
 
-screen popup_virtualsaga:
+screen popup_virtualsaga():
     imagebutton:
         idle "backgrounds/menu_ground.png"
-        action [Hide("popup_virtualsaga")]
+        action Hide("popup_virtualsaga")
 
     add "boxes/pink_item_11.png" pos 276,281
 
@@ -102,7 +107,7 @@ screen comic_item_info(Item):
     imagebutton:
         idle "buttons/shop_button_" + str(Item.price) + ".png"
         hover HoverImage("buttons/shop_button_" + str(Item.price) + ".png")
-        action If(not player.has_money(Item.price), Show("popup_fail01"), If(player.has_item(Item.item), Show("popup_fail02"), [Function(player.get_item, Item.item), Show("popup", Image = Item.popup)])) pos 685, 93
+        action BuyItem(Item.item, buy_action=Item.callback and Function(Item.callback)) pos 685, 93
 
 screen comic_item_preview(Item):
     imagebutton:
@@ -123,7 +128,8 @@ screen comic_ui(interface):
     $ items = []
 
     for Item in comicstore.items:
-        if Item.category == interface and Item.purchased == False:
+        if Item.category == interface and Item.purchased == False and (
+                not Item.availability or eval(Item.availability)):
             $ items += [Item]
 
     $ a = 0
@@ -138,7 +144,12 @@ screen comic_ui(interface):
         $ a = 123
         $ b = 163 + (c2 * 133)
         $ a += c3 * 130
-        imagebutton idle Item.idle hover Item.hover xpos a ypos b action [Show("comic_item_info", Item = Item), If(Item.image == "", NullAction(), Show("comic_item_preview", Item = Item))]
+        imagebutton:
+            idle Item.idle
+            hover Item.hover
+            xpos a
+            ypos b
+            action [Show("comic_item_info", Item = Item), If(Item.image == "", NullAction(), Show("comic_item_preview", Item = Item))]
         $ c += 1
         $ c3 += 1
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

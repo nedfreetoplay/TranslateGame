@@ -1,26 +1,26 @@
 label eriksroom_erik_breastfeeding_started:
     scene expression game.timer.image("erik_house_bedroom{}_b")
     show player 12 with dissolve
-    player_name "( Здесь никого нет? )"
+    player_name "( No one here? )"
     show player 14
-    player_name "( Он должен быть в подвале... )"
+    player_name "( He must be in the basement... )"
     show player 11
     pause
     show player 10
-    player_name "Хмм?"
-    player_name "( Я думаю я слышу некоторые голоса из комнаты {b}Миссис Джонсон{/b}. )"
+    player_name "Huh?"
+    player_name "( I think I can hear some voices coming from {b}Mrs. Johnson's{/b} room. )"
     show player 12
-    player_name "( Я должен спросить её где найти {b}Эрика{/b}... )"
+    player_name "( I should ask her where {b}Erik{/b} is... )"
     hide player with dissolve
     return
 
 label eriksroom_erik_bullying_3_completed:
     scene expression game.timer.image("erik_house_bedroom{}_b")
     show player 30 with dissolve
-    player_name "Хм?"
-    player_name "( {b}Эрик{/b} как обычно за своим компьютером. )"
+    player_name "Huh?"
+    player_name "( {b}Erik{/b} is usually at his computer. )"
     show player 12
-    player_name "( Он должен быть в подвале... )"
+    player_name "( He must be in the basement... )"
     hide player with dissolve
     return
 
@@ -29,123 +29,123 @@ label june_intro:
     show player 1 at left
     show erik 4 at right
     with dissolve
-    eri "Хэй, чувак."
-    eri "Ты закончил разговаривать с {b}Миссис Джонсон{/b}?"
+    eri "Hey, man."
+    eri "Did you end up talking to {b}Mrs. Johnson{/b}?"
     show player 14
     show erik 1
-    player_name "Да, она считает что эта хоршая идея чтобы познакомиться с другими девчонками..."
+    player_name "Yeah, she thinks it might be a good idea to meet other girls..."
     show player 1
     show erik 5
-    eri "Ох, серьезно?"
+    eri "Oh, really?"
     show player 14
     show erik 1
-    player_name "Да, я согласен с ней!"
+    player_name "Yeah, I agree with her!"
     show erik 3c
-    player_name "Я могу попробовать и помочь тебе..."
+    player_name "I can try and help you..."
     show player 11
     show erik 3b
-    eri "Я не знаю, {b}[firstname]{/b}."
+    eri "I don't know, {b}[firstname]{/b}."
     show erik 3
-    eri "Я не думаю что я когда не будь найду кого-то кто мне подойдет..."
+    eri "I don't think I'll ever find someone who's right for me..."
     show player 10
     show erik 2
-    player_name "Чего?"
+    player_name "What?"
     show player 11
     show erik 3b
-    eri "Тот кому я понравлюсь!"
+    eri "Someone who's like me!"
     show player 10
     show erik 3c
-    player_name "Что ты имеешь в виду?"
+    player_name "What do you mean?"
     show erik 3b
     show player 11
-    eri "Я не в форме и у меня плохо получается разговаривать с людьми..."
+    eri "I'm out of shape, I'm not good at talking to people..."
     show player 5
-    eri "... Признай это, чувак, я - недотепа..."
+    eri "... Face it, man, I'm just a klutz..."
     show erik 3
-    eri "... Единственная вещь в которой я хорош - это играть в игры!"
+    eri "... The only thing I'm good at is playing games!"
     show player 10
     show erik 3c
-    player_name "И что?"
+    player_name "So?"
     show player 14
-    player_name "Что если мы найдем тебе девушку-геймершу?"
+    player_name "What if we found you a gamer girl?"
     show player 1
     show erik 5
-    eri "Девушку-геймершу..."
+    eri "A gamer girl..."
     show erik 4
-    eri "Я... я думаю, да?"
+    eri "I... I guess so?"
     show player 4
     show erik 1
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 14
-    player_name "Ты знаешь девушек в школе кому нравятся видео-игры?"
+    player_name "Do you know a girl at school who likes video games?"
     show player 11
     show erik 4
-    eri "Ну... Есть одна девушка из другого класса... Она довольна милая."
+    eri "Well... There's this one girl from another class... She's kind of cute."
     show player 14
     show erik 1
-    player_name "Эту девушку в школе которая тебе нравятся."
+    player_name "There's a girl at school that you like?"
     show player 1
     show erik 5
-    eri "Я не знаю... она просто выглядит... прекрасно!"
+    eri "I don't know... she just seems... nice!"
     show player 14
     show erik 1
-    player_name "Как её зовут?"
+    player_name "What's her name?"
     show player 1
     show erik 4
-    eri "Я думаю её зовут {b}Джун{/b}."
+    eri "I think her name is {b}June{/b}."
     show player 14
     show erik 1
-    player_name "Ты когда-нибудь разговаривал с ней?"
+    player_name "Have you ever talked to her?"
     show player 1
     show erik 14
-    eri "Ну только один раз..."
-    eri "... Мы, эм, я спросил её об..."
+    eri "Well this one time..."
+    eri "... We, uh, I asked her about..."
     show player 11
     show erik 3
-    eri "Нет, не совсем."
+    eri "No, not really."
     show erik 3b
-    eri "Я думаю я одолжил ей один из своих карандашей, один раз..."
+    eri "I think she borrowed one of my pencils, once..."
     show player 14
     show erik 3c
-    player_name "Почему ты не говорил с ней побольше?!"
+    player_name "Why don't you speak to her more?!"
     show player 11
     show erik 3
-    eri "Я не могу!"
+    eri "I can't!"
     show erik 3b
-    eri "Я слишком стесняюсь..."
-    eri "... и я даже не знаю что ей сказать."
+    eri "I'm WAY too shy..."
+    eri "... and I don't even know what I would say to her."
     show player 35
     show erik 3c
-    player_name "Хорошо, ну, это может быть немного сложнее чем я думал."
+    player_name "Okay, well, this might just be harder than I thought."
     show player 11
     show erik 3
-    eri "Может быть нам нужно просто сдаться."
+    eri "Maybe we should just give up..."
     show erik 2
-    eri "*Вздох*"
+    eri "*Sigh*"
     show player 10
-    player_name "Что?!"
+    player_name "What?!"
     show player 14
     show erik 3c
-    player_name "Да брось, {b}Эрик{/b}!"
-    player_name "Ты увидишь! Я думаю что ты ей понравился..."
-    player_name "Где она обычно проводит время?"
+    player_name "Come on, {b}Erik{/b}!"
+    player_name "You'll see! I think she might like you..."
+    player_name "Where does she usually hang out?"
     show player 1
     show erik 1
-    eri "Хмм..."
+    eri "Hmm..."
     show erik 5
-    eri "Я видел ее в компьютерном классе раньше много раз."
+    eri "I've seen her in the computer room many times before."
     show player 14
     show erik 1
-    player_name "Этот {b}Компютерный класс{/b} в {b}школе{/b}?"
+    player_name "The {b}computer room{/b} at {b}school{/b}?"
     show player 1
     show erik 4
-    eri "Да. Он на втором этаже..."
+    eri "Yeah. It's on the second floor..."
     show player 14
     show erik 1
-    player_name "Я пойду посмотрю на неё, возможно я попробую сделать что-нибудь для тебя."
+    player_name "I'll go see her, maybe I can try and set something up for you."
     show player 1
     show erik 4
-    eri "Хорошо, спасибо, мужик."
+    eri "Okay, thanks, man."
     show erik 1
     return
 
@@ -154,33 +154,33 @@ label erik_sex_ed:
     show player 13 at left
     show erik 5 at right
     with dissolve
-    eri "Хэй, {b}[firstname]{/b}!"
-    eri "Ты закончил разговаривать с {b}Миссис Джонсон{/b}?"
+    eri "Hey, {b}[firstname]{/b}!"
+    eri "Did you end up talking to {b}Mrs. Johnson{/b}?"
     show erik 1
     show player 14
-    player_name "Да, она сказала что ей нужно подумать об этом..."
+    player_name "Yeah, she said she needed to think about it..."
     show player 13
     show erik 5
-    eri "Может не стоило ей говорить-"
+    eri "Maybe we shouldn't have said-"
     show erik 1b
     show player 11
-    mrsjo "Мальчики?"
-    mrsjo "Можете подойти сюда, пожалуйста?"
+    mrsjo "Boys?"
+    mrsjo "Can you come over here, please?"
     show erik 1
     show player 10
-    player_name "Это была {b}Миссис Джонсон{/b}?"
+    player_name "Was that {b}Mrs. Johnson{/b}?"
     show player 5
     show erik 5
-    eri "Да... Я думал что она в своей комнате."
+    eri "Yeah... I think she's in her room."
     show erik 1
     show player 14
-    player_name "Она хочет чтобы мы подошли..."
+    player_name "She wants us to come over..."
     show player 13
     show erik 5
-    eri "Почему?"
+    eri "Why?"
     show erik 1
     show player 14
-    player_name "Нам нужно посмотреть..."
+    player_name "We'll have to see..."
     hide player
     hide erikl
     hide erik
@@ -191,79 +191,79 @@ label erik_bullying:
     scene expression game.timer.image("eriks_room{}_c")
     show player 13 at left with dissolve
     show erik 5 at right with dissolve
-    eri "Привет, {b}[firstname]{/b}."
-    eri "Как поживаешь?"
+    eri "Hey, {b}[firstname]{/b}."
+    eri "How've you been?"
     show erik 1
     show player 14
-    player_name "Я довольно хорошо."
+    player_name "I've been doing pretty good."
     show player 12
-    player_name "Как насчет тебя?"
-    player_name "Ты недавно пропустил занятия?"
+    player_name "How about you?"
+    player_name "Have you been missing classes lately or something?"
     show player 5
     show erik 2 with dissolve
     eri "..."
     show player 10
-    player_name "Все в порядке?"
+    player_name "Is everything alright?"
     show player 5
     show erik 5 with dissolve
-    eri "{b}Миссис Джонсон{/b} отправила тебя сюда, хм?"
+    eri "{b}Mrs. Johnson{/b} sent you up here, huh?"
     show erik 3b
     show player 10
-    player_name "Я просто решил тебя проведать, вот и все."
+    player_name "Just checking up on you, that's all."
     show player 5
     show erik 5
-    eri "Что ж... {b}Декстер{/b} издевается надо мной каждый раз после твоего ухода..."
-    eri "Очень трудно ходить в школу зная что он будет там тоже. Ждать..."
+    eri "Well... {b}Dexter{/b} has been on my case ever since you left..."
+    eri "It's just been hard to attend school knowing he'll be there too. Waiting..."
     show erik 3b
     show player 12
-    player_name "Что случилось когда я ушел?"
+    player_name "What happened while I was away?"
     show player 5
     show erik 5
-    eri "Несколько недель назад, Я сидел в столовой и он подошел ко мне..."
+    eri "A few weeks ago, I was sitting in the cafeteria and he came up to me..."
     show erik 3
-    eri "...Он сказал что хочет копию моей домашки для урока {b}Мисс Биссетта{/b}."
+    eri "...He said he wanted a copy of my homework for {b}Miss Bissette's{/b} class."
     show player 12
-    player_name "И что ты сделал?"
+    player_name "What did you do?"
     show player 11
     show erik 5
-    eri "Я сказал ему нет!"
-    eri "Но, он сказал что засунет меня в шкафчик если я не сделаю то что он сказал..."
+    eri "I told him no!"
+    eri "But, he said he'd stick me into a locker If I didn't do what he asked..."
     show erik 3b
     player_name "..."
     show erik 5
-    eri "Все равно, я отказался давать ему свою домашку до недавних пор."
+    eri "Anyway, I ended up giving him my homework and have been until recently."
     show erik 3b
     show player 38 with dissolve
-    player_name "Что случилось?"
+    player_name "What happened?"
     show player 11 with dissolve
     show erik 5
-    eri "Я сказал ему что он не может заставлять меня делать это постоянно."
-    eri "И тогда... Он ударил меня у всех на глазах..."
+    eri "I told him he can't push me around all the time."
+    eri "And then... He hit me in front of everyone..."
     show erik 2 with dissolve
     show player 16
     pause
     show player 12
-    player_name "Хэй, {b}Эрик{/b}..."
+    player_name "Hey, {b}Erik{/b}..."
     show erik 3 with dissolve
     show player 10
-    player_name "Я рад что ты рассказал мне."
+    player_name "I'm glad you told me."
     show player 30
-    player_name "Дай мне знать если он потревожит тебя снова."
-    player_name "И надеюсь он сможет сосредоточить свое внимание на ком то другом!"
+    player_name "Let me know if he bothers you again."
+    player_name "And hopefully he can focus his attention on someone else!"
     show player 13
     show erik 5
-    eri "Хорошо, спасибо {b}[firstname]{/b}."
+    eri "Alright, thanks {b}[firstname]{/b}."
     show erik 3b
     show player 14
-    player_name "С тобой все будет в порядке?"
+    player_name "You gonna be OK?"
     show player 13
     show erik 5
-    eri "Да, я думаю..."
-    eri "Но, можешь пожалуйста не говорить {b}Миссис Джонсон{/b} что у меня проблемы в школе?"
-    eri "Я не хочу чтобы она слишком волновалась."
+    eri "Yeah, I guess..."
+    eri "But, can you please not tell {b}Mrs. Johnson{/b} I'm being bullied at school?"
+    eri "I don't want her to worry so much..."
     show erik 3b
     show player 2
-    player_name "Хорошо."
+    player_name "Okay."
     hide player
     hide erikl
     hide erik

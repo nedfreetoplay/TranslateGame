@@ -2,387 +2,387 @@ label roxxy_dialogue_exam_convince:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
+    player_name "Hey there, {b}Roxxy{/b}!"
     show player 5
     show roxxy 30
-    rox "Отвали лошара!"
+    rox "Gross, go away!"
     show roxxy 29
     show player 10
-    player_name "Да ладно, {b}Рокси{/b}. Я и не рассчитовал, что ты согласишься разговаривать со мной."
+    player_name "C'mon, {b}Roxxy{/b}. I didn't intend for you to recite that speech with me."
     show player 5
     show roxxy 31
-    rox "Агх, не напоминай мне!"
-    rox "Ты счастливчик и я не хочу выбивать из тебя все дерьмо только из-за этого."
+    rox "Ugh, don't remind me!"
+    rox "You're lucky I don't beat the shit out of you for that."
     show roxxy 30
-    rox "Я была полностью унижена!"
+    rox "I was completely humiliated!"
     show roxxy 29
     show player 12
-    player_name "Да, что ж я не хотел читать это тоже!"
+    player_name "Yeah, well I didn't want to read it either!"
     show player 5
     show roxxy 30
-    rox "Кого волнует чего ты там хотел?!"
+    rox "Who cares what you want?!"
     show roxxy 29
     show player 22
     player_name "..."
     show player 10
-    player_name "Послушай, Я извиняюсь, хорошо..."
-    player_name "Я хочу загладить свою вину!"
+    player_name "Listen, I'm sorry, alright..."
+    player_name "I want to make it up to you!"
     show player 5
     show roxxy 30
-    rox "Ох действительно?"
-    rox "Как ты думаешь ты сможешь это сделать?"
+    rox "Oh really?"
+    rox "How do you think you're going to do that?"
     show roxxy 29
     show player 10
-    player_name "Ну, у нас скоро будет этот экзамен по Французкому. Я подумал может Я мог бы помочь тебе подготовиться к нему?"
+    player_name "Well, we have that French exam coming up. I thought maybe I could help you study for it?"
     show player 5
     show roxxy 14
     rox "..."
     show roxxy 3
-    rox "С какой стати я захотела учиться в этом тупом классе?"
+    rox "Why would I want to study for that stupid class?"
     show roxxy 29
     show player 12
-    player_name "Ты не беспокоишься о своих оценках?"
+    player_name "Don't you care about your grades?"
     show player 5
     show roxxy 2
-    rox "Пфф, нет."
+    rox "Pfft, no."
     show roxxy 28
-    rox "Единственая вещь которая меня заботила - это команда Черлидирш но это все в прошлом..."
+    rox "The only thing I cared about was the cheer squad but that's all over now..."
     show roxxy 27
     show player 12
-    player_name "Хь? Разве ты больше не в команде Поддержки?"
+    player_name "Huh? You're not on the cheer squad anymore?"
     show player 5
     show roxxy 32 with dissolve
     rox "..."
     show player 10
-    player_name "Что случилось?"
+    player_name "What happened?"
     show player 5
     show roxxy 33
-    rox "Ох, эта тупая лесбиянка, {b}Тренер Бриджит{/b}..."
-    rox "Она на меня наехала на днях, орала о том, что Я не слышу ее или что-то в этом роде..."
+    rox "Ugh, that stupid Dyke, {b}Coach Bridget{/b}..."
+    rox "She got all pissy the other day, yelling about how I don't listen to her or something..."
     show roxxy 30 with dissolve
-    rox "Я не знаю, Я была невнимательна."
+    rox "I dunno, I wasn't really paying attention."
     show roxxy 29
     show player 37 with dissolve
     player_name "..."
     show roxxy 28
-    rox "Но она забрала мои {b}Помпоны{/b} и отстранила меня."
+    rox "But she took my {b}Pom Poms{/b} and suspended me."
     show roxxy 27
     show player 10 with dissolve
-    player_name "На сколько?"
+    player_name "For how long?"
     show player 5
     show roxxy 28
-    rox "До чемпионата штата..."
+    rox "Until the State Championship..."
     show roxxy 30
-    rox "Как я должна тренироваться без моих {b}Помпонов{/b}?"
+    rox "How am I supposed to practice without my {b}Pom Poms{/b}?"
     show roxxy 29
     show player 34
     player_name "..."
     show player 35
-    player_name "Что, если я верну тебе их назад?"
+    player_name "What if I got them back for you?"
     show player 5
     show roxxy 2
-    rox "Пфф, да точно."
+    rox "Pfft, yeah right."
     show roxxy 1
     show player 12
-    player_name "Я серьезно!"
-    player_name "Что бы восполнить твои смущения, не так ли?"
+    player_name "I'm serious!"
+    player_name "That would make up for embarrassing you the other day, wouldn't it?"
     show player 5
     show roxxy 27
     rox "..."
     show roxxy 14
-    rox "Наверное."
+    rox "I guess."
     show roxxy 27
     show player 33
-    player_name "Тогда считай, что все уже сделано!"
+    player_name "Then consider it done!"
     show player 14
-    player_name "Я скоро вернусь с твоими {b}Помпонами{/b}."
+    player_name "I'll be right back with those {b}Pom Poms{/b}."
     show player 13
     show roxxy 14
-    rox "Неважно..."
+    rox "Whatever..."
     hide roxxy with dissolve
     show player 35
-    player_name "Хмм, {b}Помпоны Рокси{/b}..."
-    player_name "Я уверен что {b}Тренер Бриджит{/b} спрятала где-нибудь их {b}в своем кабинете{/b}."
+    player_name "Hmm, {b}Roxxy's Pom Poms{/b}..."
+    player_name "I bet {b}Coach Bridget{/b} has them stashed away {b}in her office{/b} somewhere."
     return
 
 label roxxy_dialogue_exam_convince_roxxy_sex:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
+    player_name "Hey there, {b}Roxxy{/b}!"
     show player 5
     show roxxy 3
-    rox "{b}*Вздох*{/b} Извини, что накричала на тебя {b}[firstname]{/b}..."
-    rox "Я не злилась на тебя или что-то в этом роде... Это все из-за этой грязной сучки!"
+    rox "{b}#Sigh*{/b} Sorry, about all the yelling {b}[firstname]{/b}..."
+    rox "I wasn't mad at you or anything... Just that stupid mush mouth bitch!"
     show roxxy 29
     show player 10
-    player_name "Я знаю это {b}Рокси{/b}, но ты должна позволить ей тренировать тебя..."
+    player_name "I know that {b}Roxxy{/b} but you shouldn't let her get you so worked up..."
     show player 5
     show roxxy 31
-    rox "Агх, Я ничего не могу поделать!"
-    rox "Ты знаешь я ненавижу когда меня смущают..."
+    rox "Ugh, I can't help it!"
+    rox "You know I hate feeling embarrassed..."
     show roxxy 30
-    rox "... И это было совершенно унизительно!"
+    rox "... And that was utterly humiliating!"
     show roxxy 29
     show player 12
-    player_name "Серьезно, все было не так плохо. Что-то еще тебя беспокоит."
-    player_name "Что случилось?"
+    player_name "Seriously, it wasn't that bad. Something else must be bothering you."
+    player_name "What happened?"
     show player 5
     show roxxy 30
-    rox "{b}*Вздох*{/b} Я не хочу об этом говорить."
+    rox "{b}*Sigh*{/b} I don't wanna talk about it."
     show roxxy 29
     show player 22
     player_name "..."
     show player 10
-    player_name "{b}Рокси{/b}... Не будь такой."
-    player_name "Я твой парень, помнишь?"
-    player_name "Ты можешь положиться на меня."
+    player_name "{b}Roxxy{/b}... Don't be like that."
+    player_name "I'm your boyfriend, remember?"
+    player_name "You can depend on me."
     show player 5
     show roxxy 1b
-    rox "Слушай, Я ценю все что ты говоришь, {b}[firstname]{/b}, но сейчас ты ничем не можешь мне помочь в этот раз."
+    rox "Look, I appreciate what you're saying, {b}[firstname]{/b} but there's nothing you can do to help me this time."
     show roxxy 30
-    rox "Я просто, даже думать не хочу об этой тупой школе и об этих тупых учителях."
+    rox "I just, don't even wanna think about this stupid school and its dumb teachers."
     show roxxy 29
     show player 10
-    player_name "Ладно что ж, Что по поводу этого Французкого экзамена который у нас будет? Ты хочешь подготовиться к нему, вместе?"
+    player_name "Alright well, what about that French exam we have coming up? Do you wanna study for it, together?"
     show player 5
     show roxxy 14
     rox "..."
     show roxxy 3
-    rox "Агх, {b}[firstname]{/b}... Серьезно-"
+    rox "Ugh, {b}[firstname]{/b}... Seriously-"
     show roxxy 29
     show player 12
-    player_name "{b}Рокси{/b}, ты должна улучшить свои оценки!"
+    player_name "{b}Roxxy{/b}, you have to keep your grades up!"
     show player 5
     show roxxy 31
-    rox "Уже слишком поздно, Окей?!"
+    rox "It's too late, okay?!"
     show roxxy 1l
-    rox "Я все запорола..."
+    rox "I screwed up..."
     show roxxy 1o
     show player 12
-    player_name "Хмм? Что случилось?!"
+    player_name "Huh? What happened?!"
     show player 5
     show roxxy 33b with dissolve
     rox "..."
     show player 10
-    player_name "Как ты все запорола?"
+    player_name "How did you screw up?"
     show player 5
     show roxxy 33
-    rox "Ах, эта тупая лесбиянка, {b}Тренер Бриджит{/b}..."
-    rox "Она обсуждала это недвано, кричала о том как Я не слышу её или что то типо того..."
+    rox "Ugh, that stupid Dyke, {b}Coach Bridget{/b}..."
+    rox "She got all pissy the other day, yelling about how I don't listen to her or something..."
     show roxxy 30 with dissolve
-    rox "Я не знаю, Я не была внимательной."
+    rox "I dunno, I wasn't really paying attention."
     show roxxy 29
     show player 37 with dissolve
     player_name "..."
     show roxxy 28
-    rox "... Но она забрала мои {b}Помпоны{/b} и отстранила меня."
+    rox "... But she took my {b}Pom Poms{/b} and suspended me."
     show roxxy 27
     show player 10 with dissolve
-    player_name "На сколько?"
+    player_name "For how long?"
     show player 5
     show roxxy 28
-    rox "До чемпионата штата..."
+    rox "Until the State Championship..."
     show roxxy 30
-    rox "Как я должна тренироваться без моих {b}Помпонов{/b}?"
+    rox "How am I supposed to practice without my {b}Pom Poms{/b}?"
     show roxxy 29
     show player 34
     player_name "..."
     show player 35
-    player_name "Что если я верну тебе их назад?"
+    player_name "What if I got them back for you?"
     show player 5
     show roxxy 2
-    rox "Пфф, да конечно."
+    rox "Pfft, yeah right."
     show roxxy 1
     show player 12
-    player_name "Я Серьезно!"
-    player_name "Тогда ты сможешь снова практиковаться и {b}Тренер Бриджет{/b} даже не узнает что они пропали."
+    player_name "I'm serious!"
+    player_name "Then you could practice again and {b}Coach Bridget{/b} wouldn't even know they're gone."
     show player 5
     show roxxy 27
     rox "..."
     show roxxy 28
-    rox "Наверное, это может сработать."
+    rox "I guess, that could work."
     show roxxy 27
     show player 33
-    player_name "Тогда считай что это все уже сделано!"
+    player_name "Then consider it done!"
     show roxxy 2c
-    rox "Всерьез?!"
+    rox "For real?!"
     show roxxy 2b
     show player 14
-    player_name "Я скоро вернусь с этими {b}помпонами{/b}."
+    player_name "I'll be right back with those {b}Pom Poms{/b}."
     show player 13
     show roxxy 1b
-    rox "Ладно, что ж... Только будь осторожен!"
-    rox "Я не хочу что бы у тебя были тоже проблемы."
+    rox "Alright, well... Just be careful!"
+    rox "I don't want you getting in trouble too."
     hide roxxy with dissolve
     show player 35
-    player_name "Хмм, {b}Помпоны Рокси{/b}..."
-    player_name " Я уверен что {b}Тренер Бриджет{/b} спрятала где-нибудь их {b}в своем кабинете{/b}."
+    player_name "Hmm, {b}Roxxy's Pom Poms{/b}..."
+    player_name "I bet {b}Coach Bridget{/b} has them stashed away {b}in her office{/b} somewhere."
     return
 
 label roxxy_dialogue_pom_poms:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Приветик, {b}Рокси{/b}."
+    player_name "Hey there, {b}Roxxy{/b}."
     show player 5
     show roxxy 2
-    rox "Ты взял мои {b}Помпоны{/b}?"
+    rox "Did you get my {b}Pom Poms{/b}?"
     show roxxy 1
     show player 10
-    player_name "Ещё нет."
+    player_name "Not yet."
     show player 11
     show roxxy 14
-    rox "Что ж тогда зачем ты разговариваешь со мной?"
-    rox "Потеряйся!"
+    rox "Well then why are you talking to me?"
+    rox "Get lost!"
     hide roxxy with dissolve
     show player 35
-    player_name "Хмм, {b}Помпоны Рокси{/b}..."
-    player_name "Я уверен что {b}Тренер Бриджит{/b} спрятала их {b}в своем кабинете{/b} где-нибудь."
+    player_name "Hmm, {b}Roxxy's Pom Poms{/b}..."
+    player_name "I bet {b}Coach Bridget{/b} has them stashed away {b}in her office{/b} somewhere."
     return
 
 label roxxy_dialogue_pom_poms_sex:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Привет {b}Рокси{/b}."
+    player_name "Hey {b}Roxxy{/b}."
     show player 5
     show roxxy 2
-    rox "Ты взял мои {b}Помпоны{/b}?"
+    rox "Did you get my {b}Pom Poms{/b}?"
     show roxxy 1
     show player 10
-    player_name "Ещё нет."
+    player_name "Not yet."
     show player 13
     show roxxy 1b
-    rox "Ладно, что ж... Только будь осторожен!"
-    rox "Я не хочу что бы у тебя были тоже проблемы."
+    rox "Alright, well... Just be careful!"
+    rox "I don't want you getting in trouble too."
     hide roxxy with dissolve
     show player 35
-    player_name "Хм, {b}Помпоны Рокси{/b}..."
-    player_name "Я уверен что {b}Тренер Бриджит{/b} спрятала где-нибудь их {b}в своем кабинете{/b}."
+    player_name "Hmm, {b}Roxxy's Pom Poms{/b}..."
+    player_name "I bet {b}Coach Bridget{/b} has them stashed away {b}in her office{/b} somewhere."
     return
 
 label roxxy_dialogue_pom_poms_deal:
     show roxxy 1 at right
     show player 14 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
-    player_name "Я взял твои {b}Помпоны{/b}!"
+    player_name "Hey there, {b}Roxxy{/b}!"
+    player_name "I got your {b}Pom Poms{/b}!"
     show player 13
     show roxxy 2
-    rox "Нет ты этого не..."
+    rox "No you didn't..."
     show roxxy 1
     show player 14
-    player_name "Серьезно! Это тебе."
+    player_name "Seriously! Here ya go."
     show player 239_240 with dissolve
     pause
     show player 514 at Position (xoffset=9) with dissolve
-    player_name "Видишь?"
+    player_name "See?"
     show player 13
     show roxxy 44
     show poms 45
     with dissolve
-    rox "Ты реально взял их..."
+    rox "You really got em..."
     show player 14
-    player_name "Хех, я же сказал тебе что возьму!"
-    player_name "Так ты меня простишь за прошлый раз?"
+    player_name "I told you I would!"
+    player_name "So do you forgive me for the other day?"
     show player 13
     show roxxy 28
-    rox "да, конечно."
+    rox "Yeah, sure."
     show roxxy 27
     show player 14
-    player_name "...И ты придешь на экзамен по Французкому?"
+    player_name "...And you'll show up for the French exam?"
     show player 13
     show roxxy 3
     hide poms
     with dissolve
-    rox "Стоп, Подожди!"
+    rox "Whoa, hold on now!"
     show roxxy 2
-    rox "Это не было частью нашего уговора!"
+    rox "That wasn't part of the agreement!"
     show roxxy 1
     show player 5
     player_name "..."
     show player 12
-    player_name "Давай {b}Рокси{/b}..."
+    player_name "C'mon {b}Roxxy{/b}..."
     show player 11
     show roxxy 2
-    rox "Абсолютно, нет!"
+    rox "Absolutely not!"
     show roxxy 1
     show player 10
-    player_name "...Но {b}Мисс Биссетт{/b} могут уволить, если ты пропустишь."
+    player_name "...But {b}Miss Bissette{/b} could get fired if you skip out."
     show player 5
     show roxxy 2
-    rox "Круто, это ещё одна причина для меня что бы пропустить его!"
-    rox "Я ненавижу этот сучий третий мир!"
+    rox "Awesome, that's even more reason for me to blow it off!"
+    rox "I hate that third world bitch!"
     show roxxy 1
     show player 35
-    player_name "Хм? Франция не из третьего мира..."
+    player_name "Huh? France isn't third world..."
     show player 34
     show roxxy 2
-    rox "Пфф, неважно."
+    rox "Pfft, whatever."
     show roxxy 1b
-    rox "Я буду рада увидеть её мертвой."
+    rox "I'll be glad to see her gone."
     show roxxy 1
     show player 5
     player_name "..."
     show player 10
-    player_name "Должно же быть что-то, что я могу сделать?"
+    player_name "There has to be something I can do?"
     show player 5
     show roxxy 2
-    rox "Я не думаю, Слабак!"
+    rox "I don't think so, Dweeb!"
     show roxxy 1b
-    rox "А теперь вали, Мне нужно подумать о новых номерах для чемпионата штата."
+    rox "Now scram, I gotta start thinking up a new routine for the State Championship."
     show roxxy 1
     show player 4 with dissolve
     player_name "..."
     show player 14 with dissolve
-    player_name "Подожди, это всё!"
+    player_name "Wait, that's it!"
     show player 13
     show roxxy 14
-    rox "Агх, что на этот раз?"
+    rox "Ugh, what now?"
     show roxxy 1
     show player 33
-    player_name "Я хотел помочь тебе с твоими номерами!"
+    player_name "I could help you with your routine!"
     show player 13
     show roxxy 4
-    rox "Хаха! Да точно."
+    rox "Hah! Yeah right."
     show roxxy 2
-    rox "Что ты знаешь об болельщицах?"
+    rox "What do you know about cheering?"
     show roxxy 1
     show player 14
-    player_name "... Ничего."
+    player_name "... Nothing."
     show player 13
     show roxxy 2
-    rox "Да, так я и думала-"
+    rox "Yeah, that's what I thou-"
     show roxxy 1
     show player 33
-    player_name "Но {b}[jen_name]{/b} знает!"
+    player_name "But {b}[jen_name]{/b} does!"
     show player 14
-    player_name "Она была болельщицей в своем колледже!"
+    player_name "She was head cheerleader at her college!"
     show player 13
     show roxxy 2
-    rox "... Кто?"
+    rox "... Who?"
     show roxxy 1
     show player 14
-    player_name "Девушка которая живет в том же доме что и я."
-    player_name "Её команда выигравала Государственные чемпионаты несколько раз в школе."
-    player_name "Я мог бы {b}попросить её помочь тебе{/b} с твоими номерами!"
+    player_name "A girl that lives at the same house as me."
+    player_name "Her squad won State a bunch of times in high school."
+    player_name "I could {b}get her to help you{/b} with your routine!"
     show player 13
     show roxxy 2
-    rox "Хмм, ты не лжешь?"
+    rox "Hmm, you aren't lying?"
     show roxxy 1
     show player 14
-    player_name "Нет!"
+    player_name "Nope!"
     show player 13
     show roxxy 14
     rox "..."
     show roxxy 2
-    rox "Хорошо. Если ты уговоришь ее помочь, Я приду на этот гребаный тест."
+    rox "Alright. If you can get her to help, I'll show up for the stupid test."
     show roxxy 2
-    rox "... Но я скатаю все ответы с тебя!"
+    rox "... But I'm copying all the answers off you!"
     show roxxy 1
     show player 14
-    player_name "Меня это устраивает!"
+    player_name "That's fine by me!"
     show player 13
     show roxxy 5 with dissolve
     rox "..."
@@ -390,136 +390,136 @@ label roxxy_dialogue_pom_poms_deal:
     show player 1
     player_name "..."
     show roxxy 10 with dissolve
-    rox "Что ж {b}иди спроси если она готова{/b}!"
+    rox "Well {b}go ask her already{/b}!"
     show player 11
     show roxxy 11
-    rox "Черт, ты такой лузер!"
+    rox "Sheesh, you're such a loser!"
     show roxxy 6 with dissolve
     show player 10
-    player_name "Я уже иду!"
+    player_name "I'm going!"
     return
 
 label roxxy_dialogue_pom_poms_deal_sex:
     show roxxy 1 at right
     show player 14 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
-    player_name "Я взял твои {b}Помпоны{/b}!"
+    player_name "Hey there, {b}Roxxy{/b}!"
+    player_name "I got your {b}Pom Poms{/b}!"
     show player 13
     show roxxy 2
-    rox "Нет ты этого не..."
+    rox "No you didn't..."
     show roxxy 1
     show player 14
-    player_name "Серьезно! Это тебе."
+    player_name "Seriously! Here ya go."
     show player 239_240 with dissolve
     pause
     show player 514 at Position (xoffset=9) with dissolve
-    player_name "Видишь?"
+    player_name "See?"
     show player 13
     show roxxy 44
     show poms 45
     with dissolve
-    rox "Ты реально взял их..."
+    rox "You really got em..."
     show player 14
-    player_name "Хех, Я же сказал тебе что возьму."
-    player_name "Я знаю как позоботиться о своей девушке!"
+    player_name "Heh, I told you I would."
+    player_name "I know how to take care of my girl!"
     show player 13
     show roxxy 28
-    rox "Та как, Самый лучший парень на свете!"
+    rox "You're like, the best boyfriend ever!"
     show roxxy 27
     show player 14
-    player_name "Это точно. А сейчас идем подготавливаться к Французкому экзамену..."
+    player_name "That's right. Now let's go study for that french exam..."
     show player 13
     show roxxy 3
     hide poms
     with dissolve
-    rox "Стоп, Подожди!"
+    rox "Whoa, hold on now!"
     show roxxy 2
-    rox "Я ничего не буду делать для этой тупой французкой шлюхи!"
+    rox "I'm not doing anything for that stupid french skank!"
     show roxxy 1
     show player 5
     player_name "..."
     show player 12
-    player_name "Давай {b}Рокси{/b}..."
+    player_name "C'mon {b}Roxxy{/b}..."
     show player 11
     show roxxy 2
-    rox "Абсолютно нет!"
+    rox "Absolutely not!"
     show roxxy 1
     show player 10
-    player_name "...Но {b}Мисс Биссет{/b} могут уволить если ты пропустишь."
+    player_name "...But {b}Miss Bissette{/b} could get fired if you skip out."
     show player 5
     show roxxy 2
-    rox "Почему ты так переживаешь?!"
-    rox "Это будет ей уроком! Опозорить меня так как она могла..."
+    rox "Why do you care so much?!"
+    rox "It would serve her right! Embarrassing me the way she did..."
     show roxxy 1
     show player 35
-    player_name "{b}Рокси{/b}, она хороший учитьель и она очень старается."
+    player_name "{b}Roxxy{/b}, she's a good teacher and she's trying really hard."
     show player 34
     show roxxy 2
-    rox "Да ладно ага, она очень старается заполучить в свои руки хуи некоторых своих учеников..."
+    rox "Psh yeah, she's trying really hard to get her hands on some student dick..."
     show roxxy 1b
-    rox "Её видно на сквозь."
+    rox "She's so transparent."
     show roxxy 1
     show player 5
     player_name "..."
     show player 10
-    player_name "Я не могу ничего не делать и просто смотреть как его уволят, {b}Рокси{/b}."
+    player_name "I can't do nothing and watch her get fired, {b}Roxxy{/b}."
     show player 5
     show roxxy 2
-    rox "{b}*Вздох*{/b} Ты такой добродушный дурак..."
+    rox "{b}*Sigh*{/b} You are such a sap for charity cases..."
     show roxxy 1b
-    rox "Слушай, Я постараюсь. Это все что я могу обещать."
-    rox "Прямо сейчас, Я должна сфокусироваться и подготавливаться к Чемпионату штата."
+    rox "Look, I'll try. That's all I can promise."
+    rox "Right now, I need to focus on preparing for the State Championship."
     show roxxy 1
     show player 4 with dissolve
     player_name "..."
     show player 14 with dissolve
-    player_name "Подожди, Это все!"
+    player_name "Wait, that's it!"
     show player 13
     show roxxy 2
-    rox "Что?"
+    rox "What?"
     show roxxy 1
     show player 33
-    player_name "Я хотел помочь тебе с твоими номерами!"
+    player_name "I could help you with your routine!"
     show player 13
     show roxxy 4
-    rox "Хаха! Да точно."
+    rox "Hah! Yeah right."
     show roxxy 2
-    rox "Что ты знаешь об болельщицах?"
+    rox "What do you know about cheering?"
     show roxxy 1
     show player 14
-    player_name "... Ничего."
+    player_name "... Nothing."
     show player 13
     show roxxy 2
-    rox "Хаха, тогда как ты-"
+    rox "Haha, then how are you-"
     show roxxy 1
     show player 33
-    player_name "Но {b}[jen_name]{/b} знает!"
+    player_name "But {b}[jen_name]{/b} does!"
     show player 14
-    player_name "Она была болельщицей в своём колледжеe!"
+    player_name "She was head cheerleader at her college!"
     show player 13
     show roxxy 14
-    rox "... Кто?"
+    rox "... Who?"
     show roxxy 1
     show player 14
-    player_name "Девушка которая живет в том же доме что и я."
-    player_name "Ее команда выигравала Государственные чемпионаты несколько раз в школе."
-    player_name "Я мог бы {b}попросить ее помочь тебе{/b} с твоими номерами!"
+    player_name "A girl that lives at the same house as me."
+    player_name "Her squad won State a bunch of times in high school."
+    player_name "I could {b}get her to help you{/b} with your routine!"
     show player 13
     show roxxy 2
-    rox "Хмм, а сколько раз?"
+    rox "Hmm, a bunch of times?"
     show roxxy 1
     show player 14
-    player_name "Не менее трех..."
+    player_name "At least three..."
     show player 13
     show roxxy 2
-    rox "Хмм, это звучит многообещающе..."
-    rox "Хорошо. Если ты уговоришь ее помочь, Я приду на этот гребаный тест."
+    rox "Hmm, that does sound promising..."
+    rox "Alright. If you can get her to help, I'll show up for the stupid test."
     show roxxy 2
-    rox "... Но я скатаю все ответы с тебя!"
+    rox "... But I'm copying all the answers off you!"
     show roxxy 1
     show player 14
-    player_name "Меня это устраивает!"
+    player_name "That's fine by me!"
     show player 13
     show roxxy 5 with dissolve
     rox "..."
@@ -527,118 +527,118 @@ label roxxy_dialogue_pom_poms_deal_sex:
     show player 1
     player_name "..."
     show roxxy 10 with dissolve
-    rox "Что ж, {b}бери свою симпотичную задницу и ступай{/b}!"
+    rox "Well, {b}get your cute butt moving{/b}!"
     show player 11
     show roxxy 11
-    rox "У меня полно работы."
+    rox "I've got a lot of work to do."
     show roxxy 6 with dissolve
     show player 10
-    player_name "Я ухожу!"
+    player_name "I'm going!"
     return
 
 label roxxy_dialogue_cheerleader_deal:
     show player 5 at left
     show roxxy 2 at right
     with dissolve
-    rox "{b}Что[jen_name] сказала{/b}?"
+    rox "{b}What did [jen_name] say{/b}?"
     show roxxy 1
     show player 10
-    player_name "Я еще не спрашивал у неё."
+    player_name "I haven't asked her yet."
     show player 5
     show roxxy 3
-    rox "Ну, чего же ты тогда ждешь?!"
+    rox "Well, what are you waiting for?!"
     show roxxy 1
     show player 12
-    player_name "Я спрошу у неё, только расслабься!"
+    player_name "I'll ask her, just chill out!"
     show player 5
     show roxxy 3
-    rox "Аарргхх, какое же ты ничтожество!"
+    rox "Arrghh, you're such a loser!"
     return
 
 label roxxy_dialogue_cheerleader_deal_sex:
     show player 5 at left
     show roxxy 2 at right
     with dissolve
-    rox "{b}Что [jen_name] сказала{/b}?"
+    rox "{b}What did [jen_name] say{/b}?"
     show roxxy 1
     show player 10
-    player_name "Я ещё у нее не спрашивал."
+    player_name "I haven't asked her yet."
     show player 5
     show roxxy 1b
-    rox "Что ж, не затягивай. Здесь очень много работы!"
+    rox "Well, don't wait too long. There's a lot of work to do!"
     show roxxy 1
     show player 12
-    player_name "Я спрошу её, только успокойся!"
+    player_name "I'll ask her, just relax!"
     show player 5
     show roxxy 1b
-    rox "Я надеюсь что она так хороша как ты ее описываешь..."
+    rox "I hope she's as good as you made her out to be..."
     return
 
 label roxxy_dialogue_deal_confirmation:
     show roxxy 1 at right
     show player 12 at left
     with dissolve
-    player_name "{b}[jen_name]{/b} сказала зайти завтра после школы, и она поможет тебе с твоими делами."
+    player_name "{b}[jen_name]{/b} said to stop by tomorrow after school and she'll help you with your routine."
     show player 5
     show roxxy 3
-    rox "В твоем доме?"
-    rox "Угх, надеюсь оно того стоит..."
+    rox "Your house?"
+    rox "Ugh, this better be worth it..."
     show roxxy 1
     show player 12
-    player_name "Оно будет! Только помни, что ты пообещала мне прийти на экзамен."
+    player_name "It will be! Just remember you promised to show up for the test!"
     show player 5
     show roxxy 2
-    rox "Да, да..."
-    rox "Если эта {b}[jen_name]{/b} действительно поможет, Я сделаю."
+    rox "Yeah, yeah..."
+    rox "If this {b}[jen_name]{/b} actually helps, I will."
     show roxxy 3
-    rox "А теперь вали отсюда пока никто не увидел, что я разговариваю с тобой."
+    rox "Now get out of here before somebody sees me talking to you."
     return
 
 label roxxy_dialogue_deal_confirmation_sex:
     show roxxy 1 at right
     show player 12 at left
     with dissolve
-    player_name "{b}[jen_name]{/b} сказала остаться завтра после школы и она поможет тебе с твоими номерами."
+    player_name "{b}[jen_name]{/b} said to stop by tomorrow after school and she'll help you with your routine."
     show player 5
     show roxxy 1b
-    rox "В твоем доме?"
-    rox "Хорошо!"
+    rox "Your house?"
+    rox "Alright!"
     show roxxy 1
     show player 12
-    player_name "Я уверен что она поможет тебе с твоими номерами!"
+    player_name "I'm positive she can help you with your routine!"
     show player 5
     show roxxy 1h
-    rox "Круто!"
-    rox "Когда она и я сможем закончить эти номера и тогда может быть, после, ты можешь придти в это место для маленькой \"обучающей\" сессии?"
+    rox "Awesome!"
+    rox "Her and I can knock this routine out and then maybe, afterwards, you can come back to my place for a little \"study\" session?"
     show roxxy 1g
     show player 14
-    player_name "Мы не будем больше делать домашнее задания, вместе?"
+    player_name "We aren't going to get much studying done, are we?"
     show player 13
     show roxxy 4
-    rox "Хаха, определенно нет!"
+    rox "Haha, definitely not!"
     show roxxy 1h
-    rox "Поверь мне, после когда я закончу с тобой, учиться будет последние о чем я буду думать!"
+    rox "Trust me, after I finish with you, studying will be the last thing on your mind!"
     return
 
 label roxxy_dialogue_intro:
     show player 2 at left
     show roxxy 6 at right
     with dissolve
-    player_name "Привет {b}Рокси{/b}..."
+    player_name "Hey {b}Roxxy{/b}..."
     show player 1
     show roxxy 11
-    rox "Эмм... Ты разговариваешь со мной?"
+    rox "Ehm... You talking to me?"
     show roxxy 10
     return
 
 label roxxy_dialogue_ask_model:
     show player 10
-    player_name "Я работаю надо одним проектом для {b}Мисс Росс{/b} и для этого требуется настоящая модель."
-    player_name "Тебя это интересует?"
+    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
+    player_name "Would you be interested?"
     show roxxy 2
     show player 11
-    rox "Пфф, надо подумать!"
-    rox "Мечтай, слабак!"
+    rox "Pfft, as if!"
+    rox "Keep dreaming, ya Dweeb!"
     hide player
     hide roxxy
     show player 16
@@ -649,41 +649,41 @@ label roxxy_dialogue_ask_model:
 label roxxy_dialogue_talent_show_help:
     show roxxy 7
     show player 5
-    player_name "( Я не думаю что у нее нет изюменки в теле... )"
+    player_name "( I don't think she has a musical bone in her body... )"
     show player 26
-    player_name "( ... Хотя с таким то телом как у неё, Я думаю она ей не нужна. )"
+    player_name "( ... Though with a body like that, I guess she doesn't really need one. )"
     show roxxy 6
     pause
     show roxxy 5 with dissolve
     pause
     show roxxy 10 with dissolve
-    rox "На что ты пялишься, Слизняк?!"
+    rox "What are you staring at, creep?!"
     show player 23 with hpunch
-    player_name "Я был..."
+    player_name "I was..."
     show player 29 with dissolve
-    player_name "Я иммел в виду, Я не пялился-"
+    player_name "I mean, I wasn't-"
     show player 3
     show roxxy 13 with dissolve
-    rox "Иди потеряйся пока я не натравила {b}Декстера{/b} на тебя!"
+    rox "Just get lost before I sic {b}Dexter{/b} on you!"
     show player 29
-    player_name "Я только пытался найти нескольких добровольцев для шоу {b}Мисс Девитт{/b}-"
+    player_name "I was just trying to find some volunteer's for {b}Ms. Dewitt's{/b} talen-"
     show roxxy 31
     show player 22 with hpunch
-    rox "{b}ДЕКСТЕР{/b}!"
+    rox "{b}DEXTER{/b}!"
     show roxxy 3
     show player 12
-    player_name "Хорошо, Ладно! Я ухожу! Успокой свои Картофельки!"
+    player_name "Alright, alright! I'm leaving! Calm your tits!"
     show player 11
     show roxxy 12 with dissolve
-    rox "Ммхм!"
+    rox "Hmmph!"
     return
 
 label roxxy_dialogue_leave:
     show player 12
-    player_name "... Что ж, да?"
+    player_name "... Well, yeah?"
     show player 11
     show roxxy 11
-    rox "Ты тупица. Пожалуйста не говори со мной..."
+    rox "You're stupid. Please don't talk to me..."
     show player 90
     show roxxy 5
     player_name "..."
@@ -696,127 +696,128 @@ label button_roxxy_intro:
     show dewitt 13 zorder 2 at Position (xpos=200)
     show teacher 19f zorder 3 at left
     with dissolve
-    bis "C'est inacceptable(Это не приемлимо)!"
-    bis "Ты не можешь вернуться к работе с другими..."
+    bis "C'est inacceptable!"
+    bis "You cannot be turning in the work of others..."
     show teacher 18f
     show roxxy 2
-    rox "Я не знаю о чем вы говорите."
+    rox "I don't know what your talking about."
     show roxxy 1g
     show teacher 19f
-    bis "Они очень стараются что бы получить хорощие оценки, а ты только списываешь у них!"
+    bis "They work hard for their grades and you take from them!"
     show teacher 18f
     show dewitt 13
-    dewitt "... Ну по крайней мере она приходит в ваш класс."
-    dewitt "Ты не появлялась на уроках Музыки уже больше месяца, {b}Рокси{/b}!"
+    dewitt "... Well at least she shows up for your class."
+    dewitt "You haven't been to a music lesson in over a month, {b}Roxxy{/b}!"
     show dewitt 13
     show roxxy 1h
-    rox "Я была занята!"
-    rox "... К тому же, всем насрать на вашу тупую музыку!"
+    rox "I've been busy!"
+    rox "... Besides, nobody cares about your stupid music!"
     show roxxy 1g
     show dewitt 14
-    dewitt "Абсурд, ты просто очень ленивая жопа!"
-    dewitt "Чем ты вообще могла быть занята!"
+    dewitt "Nonsense, you're just lazy is all!"
+    dewitt "What could you possibly be busy with?!"
     show dewitt 13
     show ross 23
-    ross "Запугивать других студентов, несомненно..."
+    ross "Terrorizing other students, no doubt..."
     show ross 22
     show teacher 19f
-    bis "Oui!(Да)"
-    bis "Она всегда хулиганит в моем классе!"
+    bis "Oui!"
+    bis "She is always playing the bully in my classroom as well!"
     show teacher 18f
     show ross 23
-    ross "Как ты можешь получать удовольствие от страданий других, {b}Рокси{/b}?!"
-    ross "Это отвратительно..."
+    ross "How can you find joy in the suffering of others, {b}Roxxy{/b}?!"
+    ross "It's despicable..."
     show ross 22
     show roxxy 2
-    rox "Да, Я поняла!"
-    rox "Я отвратительная, ненадежная, и линивая!"
-    rox "Бла, бла, бла!"
+    rox "Yeah, I get it!"
+    rox "I'm despicable, unreliable, and lazy!"
+    rox "Blah, blah, blah!"
     show roxxy 1g
     show teacher 19f
-    bis "... И ты все проваливаешь!"
-    bis "И ты до сих пор желаешь получить диплом об окончаним?!"
+    bis "... And you are failing!"
+    bis "Are you even desiring to graduate?!"
     show teacher 18f
     show ross 23
-    ross "Нам нужно встретиться с {b}её мамой{/b} чтобы всё это обсудить..."
+    ross "We need to schedule a meeting with {b}her mother{/b} to discuss all of this..."
     show ross 22
     show dewitt 14
-    dewitt "Чч, Какой смысл?"
-    dewitt "{b}Её мать{/b} не придет."
+    dewitt "Tch, What's the point?"
+    dewitt "{b}Her mother{/b} won't show up."
     show dewitt 13
     show teacher 19f
-    bis "Oui(Да)! Я пыталась поговорить с ней дважды, но оба раза она просто игнорировала меня!"
+    bis "Oui! I have been speaking with her twice now and both times she has ignored me!"
     show teacher 18f
     show roxxy 3c
-    rox "... Может быть она не понимала твой ломаный Английский?"
+    rox "... Maybe she couldn't understand you're broken English?"
     show roxxy 4
-    rox "Хахаха!"
+    rox "Hahaha!"
     bis "..."
     dewitt "..."
     show ross 23
-    ross "... Сейчас не над чем смеяться, дорогуша."
+    ross "... This isn't a laughing matter, dear."
     show ross 22
     show roxxy 1g
-    bri "Вы уже закончили с этой сиськастой телкой?"
-    show coach 1f zorder 0 at Position (xpos=600)
+    bri "You all about done with the boo hooing?"
+    show bridget a_dressed_crossed f_normal zorder 0 at flip
+    show bridget at Position (xpos=300)
     with dissolve
     show roxxy 1h
-    rox "Наконец-то, кто-то согласился со мной об всей этой тупости!"
+    rox "Finally, someone who will agree with me about all this being stupid!"
     show roxxy 1g
     bri "..."
-    show coach 2f
-    bri "Не бойся."
-    bri "Возможно я не поклоник домашних заданий или тестов, но ты отлично понимаешь как и что школа важна для твоего будушего!"
-    bri "Я поговорила с другими учителями и мы все считаем, что лучше всего - исключить тебе из {b}Команды Поддержки{/b}, пока ты не улучшишь свои оценки."
-    show coach 1f
+    show bridget a_dressed_crossed f_normal_talk
+    bri "Afraid not."
+    bri "I may not be a fan of homework or tests but you know as well as I do that school is important for your future!"
+    bri "I've spoken with the other teachers and we all agree that the best course of action is to suspend you from the {b}Cheerleading Squad{/b} until you get your grades up."
+    show bridget a_dressed_crossed f_normal
     show roxxy 31
-    rox "ЧТО?!" with hpunch
-    rox "Нет!"
+    rox "WHAT?!" with hpunch
+    rox "No!"
     show roxxy 3
-    rox "{b}Тренер Бриджет{/b}, Пожалуйста, не делайте этого!"
+    rox "{b}Coach Bridget{/b}, please don't do this!"
     show roxxy 3c
-    rox "Я могу... Я иммею в виду, Я буду..."
+    rox "I can... I mean, I will..."
     show roxxy 14
-    show coach 3f
-    bri "Ох, заткнись!"
-    show coach 2f
-    bri "Слушай, Я не хочу делать этого..."
-    bri "Ты лучшая черлидерша которая у нас есть..."
-    bri "... Но ты не оставляешь мне иного выбора."
-    bri "Сфокусируйся на своей учебе и подтяни свои оценки."
-    bri "Желательно до начала {b}Чемпионата штата{/b}!"
-    bri "Команда рассчитывает только на тебя, они тебя будут ждать там!"
-    show coach 4f
-    bri "Так что не спорь!"
-    hide coach with dissolve
+    show bridget a_dressed_crossed f_angry_talk
+    bri "Oh, shut up!"
+    show bridget a_dressed_crossed f_normal_talk
+    bri "Look, I don't want to do this..."
+    bri "You're the best cheerleader we have right now..."
+    bri "... But you aren't giving me much choice here."
+    bri "Focus on your studies and get your grades up."
+    bri "Preferably before the {b}State Championship{/b}!"
+    bri "The team is counting on you to be there!"
+    show bridget a_dressed_crossed f_angry_yell
+    bri "So don't screw up!"
+    hide bridget with dissolve
     show roxxy 3
-    rox "... Но каким образом я должна это наверстать?!"
+    rox "... But how am I supposed to catch up?!"
     show roxxy 14
     show dewitt 14
-    dewitt "Ты можешь начать с посещаимости занятий!"
+    dewitt "You can start by showing up to class!"
     hide dewitt with dissolve
     show roxxy 29
     show teacher 19f
-    bis "... И делать свою собственую домашню работу для разнообразия!"
-    bis "Fille paresseuse(ленивая девчонка)!"
+    bis "... And doing your own work for a change!"
+    bis "Fille paresseuse!"
     hide teacher with dissolve
     show ross 23
-    ross "... И ради всего святого. Будь вежливой с другими учащимися."
-    ross "Ты что никогда не слышала о Карме?"
+    ross "... And for goodness sake. Be nice to the other students."
+    ross "Haven't you ever heard of karma?"
     show ross 22
     show roxxy 14
     rox "..."
     show ross 23
-    ross "Ты должна относится к другим так как бы хотела чтобы относились к тебе."
+    ross "You should treat others the way you want to be treated."
     show ross 22
     show roxxy 3b
     rox "..."
     show ross 24
-    ross "{b}*Вздох*{/b}."
+    ross "{b}*Sigh*{/b}."
     hide ross with dissolve
     pause
     show roxxy 33
-    rox "Меня полностью поимели!"
+    rox "I'm completely screwed!"
     show roxxy 27
     show player 11 at left
     with dissolve
@@ -824,32 +825,32 @@ label button_roxxy_intro:
     show roxxy 1m with dissolve
     rox "!!!"
     show roxxy 31 with dissolve
-    rox "Какого черта ты уставился, Лузер?!"
+    rox "What the hell are you looking at, Loser?!"
     show roxxy 3b
     show player 14
-    player_name "Судя по всему, Я смотрю на девушку которая завалила все экзамены и которую скоро вышвырнут из школы..."
+    player_name "From the sounds of things, I'm looking at a girl who's about to flunk out of school..."
     show player 22
     show roxxy 31
     rox "!!!" with hpunch
-    rox "Да пошел ты!"
+    rox "Screw you!"
     show roxxy 3b
     show player 2
-    player_name "Сейчас, {b}Рокси{/b}... Это было не очень мило!"
+    player_name "Now, {b}Roxxy{/b}... That's not very nice!"
     show player 12
-    player_name "Не слышала, что {b}Мисс Росс{/b} сказала о Карме?"
+    player_name "Didn't you hear what {b}Miss Ross{/b} said about Karma?"
     show player 18
     show roxxy 30
-    rox "Ррраааххх, Я ненавижу эту тупую школу!"
+    rox "Rrraaahhh, I hate this stupid school!"
     hide roxxy with dissolve
     show player 17
-    player_name "Осторожно! Если будешь продолжать в таком духе твой лоб скоро взорвется!"
-    player_name "Хахах..."
+    player_name "Careful! That vein in your forhead looks like it's about to burst!"
+    player_name "Haha..."
     show player 13
-    player_name "( И поделом ей будет за то, что издевалась над всеми все время! )"
+    player_name "( Serves her right for being such a bully all the time! )"
     show player 4 with dissolve
-    player_name "( Хммм, Интересно постарается ли она измениться или просто бросит? )"
+    player_name "( Hmm, I wonder if she's going to try and change or just drop out? )"
     show player 18
-    player_name "( В любом случае, на это будет интересно посмотреть! )"
+    player_name "( Either way, this is going to be interesting to watch! )"
     hide player with dissolve
     return
 
@@ -858,14 +859,14 @@ label button_roxxy_get_homework_locker:
     show player 13 at left
     show roxxy 3c at right
     with dissolve
-    rox "Ты взял {b}домашку из своего шкафчика{/b}?"
+    rox "Did you get {b}the homework out of your locker{/b}?"
     show roxxy 3d
     show player 10
-    player_name "Еще нет."
+    player_name "Not yet."
     show player 5
     show roxxy 3
-    rox "Отлично, шевелись!"
-    rox "Уроки скоро начнутся!"
+    rox "Well, hurry up!"
+    rox "Class is going to start soon!"
     hide roxxy
     hide player
     with dissolve
@@ -876,94 +877,94 @@ label button_roxxy_lolipop_for_lolipop:
     show player 93 at left
     show roxxy 1b at right
     with dissolve
-    rox "У тебя есть домашка?"
+    rox "Do you have the homework?"
     show roxxy 1
     show player 94
-    player_name "Да."
+    player_name "Yeah."
     show player 93
     rox "..."
     show roxxy 3c
-    rox "... Что ж? Отдай мне её уже!"
+    rox "... Well? Give it to me already!"
     show roxxy 3d
     show player 94
-    player_name "Не так быстро."
+    player_name "Not so fast."
     show player 97
-    player_name "Я решил: Я не хочу это больше терпеть."
+    player_name "I've decided I don't want this anymore."
     show player 97b
     rox "..."
     show player 97
-    player_name "Закончим это."
+    player_name "Finish it for me."
     show player 97b
     show roxxy 14
     rox "!!!"
     show roxxy 3c
-    rox "... Ты хочешь засунуть это в мой рот?!"
+    rox "... You want me to put that in my mouth?!"
     show roxxy 14
     show player 97
-    player_name "Вот именно."
+    player_name "That's right."
     show player 97b
     show roxxy 3c
-    rox "Фуу!"
+    rox "EWW!"
     show roxxy 3
-    rox "Ни за что, блять!"
+    rox "No fucking way!"
     show roxxy 3b
     show player 97
-    player_name "Хорошо, ну тогда я думаю ты не хочешь эту домашку в конце концов..."
+    player_name "Alright, well then I guess you don't want the homework after all..."
     show player 97b
     show roxxy 29
     rox "..."
     show roxxy 3c
-    rox "Ауч, почему ты это делаешь?!"
+    rox "Eugh, why are you doing this?!"
     show roxxy 31
-    rox "Это отвратительно!"
+    rox "It's disgusting!"
     show roxxy 3b
     show player 97
-    player_name "Разве?"
-    player_name "Это так же амерзительно когда ты и твои друзья издевались над бедными девушками с брекитами в туалете на днях?"
+    player_name "Is it?"
+    player_name "Is it as disgusting as you and your friends throwing that poor girls retainer in the toilet the other day?"
     show player 97b
     show roxxy 3c
     rox "!!!"
-    rox "Как ты об этом узнал?!"
+    rox "How do you know about that?!"
     show roxxy 3d
     show player 97
-    player_name "... Ты хвасталась об этом при мне!"
+    player_name "... You were gloating about it right in front of me!"
     show player 97b
     show roxxy 29
     rox "..."
     show roxxy 3c
-    rox "... Ты серьезно заставишь меня сделать это?!"
+    rox "... You're seriously gonna make me do this?!"
     show roxxy 3d
     show player 97
-    player_name "Точно."
-    player_name "Ты очень любишь унижать людей..."
-    player_name "Я думаю ты заслуживаешь отведать на вкус свое собсетвенное лекарство!"
+    player_name "That's right."
+    player_name "You love humiliating people so much..."
+    player_name "I think you deserve a taste of your own medicine!"
     show player 97b
     show roxxy 29
     rox "..."
     show player 91
     show roxxy 12
     with dissolve
-    rox "Ауч, ладно!"
+    rox "Eugh, fine!"
     show roxxy 7 with dissolve
     pause
     show roxxy 10 with dissolve
-    rox "Здесь, доволен?!"
+    rox "There, happy?!"
     show roxxy 13
     show player 12
-    player_name "Почти."
-    player_name "Поторопись и копируй мою домашку."
-    player_name "Я ее заберу обратно сразу как только зазвенит звонок."
+    player_name "Almost."
+    player_name "Hurry up and copy my homework."
+    player_name "I'm taking it back as soon as the bell rings."
     show player 91
     show roxxy 12
     rox "..."
     show player 92
-    player_name "... И если ты вынешь этот чупачупс из твоего рта, сделке конец!"
+    player_name "... And if you take that lolipop out of your mouth, the deal is off!"
     show player 91
     show roxxy 7 with dissolve
     hide player with dissolve
     pause
     show roxxy 8 with dissolve
-    rox "... Так мерзко..."
+    rox "... So gross..."
     hide roxxy with dissolve
     return
 
@@ -972,67 +973,67 @@ label button_roxxy_lolipop_just_once:
     show player 13 at left
     show roxxy 3c at right
     with dissolve
-    rox "У тебя есть домашка?"
+    rox "Do you have the homework?"
     show roxxy 1
     show player 14
-    player_name "Да."
+    player_name "Yeah."
     show player 13
     show roxxy 3d
     rox "..."
     show roxxy 3
-    rox "... Что ж? Отдай мне её уже!"
+    rox "... Well? Give it to me already!"
     show roxxy 3d
     show player 12
-    player_name "Не так быстро."
+    player_name "Not so fast."
     show player 30
-    player_name "Скажи, \"Спасибо.\""
+    player_name "Say, \"Thank you.\""
     show player 90
     show roxxy 29
     rox "..."
     show player 12
-    player_name "Скажи это или сделке конец!"
+    player_name "Say it or the deal is off!"
     show player 90
     show roxxy 3c
-    rox "Почему ты ведешь себя как урод?!"
+    rox "Why are you being such a dick?!"
     show roxxy 3d
     show player 12
-    player_name "... Ты была конченной сукой со всеми в этой школе уже долгие годы!"
+    player_name "... You've been a complete bitch to everybody in this school for years!"
     show player 92
-    player_name "Я просто дал тебе немного отведать твое собсетвенное лекарство."
+    player_name "I'm just giving you a small taste of your own medicine."
     show player 90
     show roxxy 3
-    rox "Ррр!"
+    rox "Grr!"
     show roxxy 31
-    rox "Отлично!"
+    rox "Fine!"
     show roxxy 3c
-    rox "... Спасибо!"
+    rox "... Thank you!"
     show roxxy 3b
     show player 12
-    player_name "... Нет."
-    player_name "Скажи так, что бы я тебе поверил."
+    player_name "... No."
+    player_name "Say it like you mean it."
     show player 90
     show roxxy 14
     rox "!!!"
-    rox "{b}*Вздох*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy 28 with dissolve
-    rox "Спасибо..."
+    rox "Thank you..."
     show roxxy 27
     show player 12
-    player_name "Спасибо за что?"
+    player_name "Thank you for what?"
     show player 90
     rox "..."
     show roxxy 28
-    rox "... Спасибо что позволил скатать твою домашку."
+    rox "... Thank you for letting me copy your homework."
     show roxxy 27
     show player 12
-    player_name "Лучше."
-    player_name "Это было не так сложно, так ведь?"
+    player_name "Better."
+    player_name "That wasn't so hard, was it?"
     show player 90
     show roxxy 29 with dissolve
     rox "..."
     show player 12
-    player_name "Сейчас поторопись и копируй это."
-    player_name "Я его заберу обратно сразу как только зазвенит звонок."
+    player_name "Now hurry up and copy it."
+    player_name "I'm taking it back as soon as the bell rings."
     show player 90
     show roxxy 15 with dissolve
     rox "..."
@@ -1042,13 +1043,13 @@ label button_roxxy_lolipop_cutscene:
 
     scene expression "backgrounds/location_school_french_cutscene15.jpg"
     with fade
-    show text "... И так {b}Рокси{/b} начала копировоть мою домашку." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "... And so {b}Roxxy{/b} began copying my homework." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Временное решение ее проблемы в лучшем случае." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "A temporary solution to her problem at best." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я просто надеюсь что {b}Мисс Биссетт{/b} не узнает, что я тот у кого она списала!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I just hope {b}Miss Bissette{/b} doesn't find out I'm the one she's cheating off of!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Как же хорошо унижать её немного, но это не стоит того чтобы попадать в неприятности..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "It feels good to humiliate her a bit but it isn't worth getting in trouble..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1058,65 +1059,65 @@ label button_roxxy_lolipop_cutscene:
     show roxxy 6 at right
     show teacher 24cf at left
     with dissolve
-    bis "... Это вполне отлично..."
-    bis "Ты это сделала сама?"
+    bis "... This is quite good..."
+    bis "You did this by yourself?"
     show teacher 24bf
     show roxxy 5 with dissolve
-    rox "... Да."
+    rox "... Yeah."
     show roxxy 6 with dissolve
     show teacher 24cf
-    bis "Хмм, без всяких шуток?"
+    bis "Hmm, no funny business?"
     show teacher 24bf
     show roxxy 11 with dissolve
-    rox "Конечно нет!"
+    rox "Of course not!"
     show roxxy 9 with dissolve
-    bis "Подумаешь."
+    bis "Hmph."
     show teacher 24cf
-    bis "Очень хорошо."
-    bis "... Но мне лучше не говорить правды иначе будет плохо!"
-    bis "Если я узнаю, что ты крадешь чужие работы еще раз, Я прослежу за тем чтобы тебя выгнали из группу поддержки навсегда, ясно?"
+    bis "Very well."
+    bis "... But I had better not be discovering otherwise!"
+    bis "If I find out you are stealing others work again I will see to it you're off the cheerleading squad for good, yes?"
     hide teacher
     show roxxy 15b
     with dissolve
     rox "..."
     show roxxy 15c
-    rox "Какого хрена-"
-    rox "Хэй, {b}[firstname]{/b}?!"
+    rox "What the-"
+    rox "Hey, {b}[firstname]{/b}?!"
     show roxxy 15b
     show player 10 at left with dissolve
-    player_name "Что?"
+    player_name "What?"
     show player 5
     show roxxy 15c
-    rox "Что этот знак после \"A\" означает?"
+    rox "What's this symbol next to the \"A\" mean?"
     show roxxy 15b
     show player 10
-    player_name "Ты некогда не видела отметки \"A+\" раньше?"
+    player_name "You've never seen an \"A+\" before?"
     show player 11
     show roxxy 15e
-    rox "... Нет."
+    rox "... No."
     show roxxy 15d
     show player 14
-    player_name "Эта лучшая оценка которую ты можешь получить."
+    player_name "It's the best grade you can get."
     show player 13
     show roxxy 15e
-    rox "Ты хочешь сказать, что это выше чем \"A?\""
+    rox "You mean, it goes higher than \"A?\""
     show roxxy 15d
     show player 14
-    player_name "Хех, да."
+    player_name "Heh, yeah."
     show player 13
     show roxxy 15e
-    rox "... Ох."
-    rox "Что ж, отличная работа я думаю."
+    rox "... Oh."
+    rox "Well, nice job I guess."
     show roxxy 15d
     show player 12
-    player_name "Только не попадись, когда будешь возвращать мою работу!"
+    player_name "Just don't get caught turning in my work!"
     show player 13
     show roxxy 15c
-    rox "Да, да."
+    rox "Yeah, yeah."
     hide player with dissolve
     show roxxy 15e
-    rox "... {b}[firstname]{/b} может быть умнее чем кажется."
-    rox "Очень жаль, что он такой слабак."
+    rox "... {b}[firstname]{/b} must be smarter than he looks."
+    rox "Too bad he's such a dweeb."
     hide roxxy with dissolve
     return
 
@@ -1125,20 +1126,20 @@ label button_roxxy_need_booze:
     show roxxy 1 at right
     show player 14 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
+    player_name "Hey, {b}Roxxy{/b}!"
     show player 13
     show roxxy 1b
-    rox "Привет, {b}[firstname]{/b}."
-    rox "Есть успехи в поисках {b}Выпивки{/b} для меня и для девочек на эти выходные?"
+    rox "Hey, {b}[firstname]{/b}."
+    rox "Any luck finding {b}Drinks{/b} for me and the girls this weekend?"
     show roxxy 1
     show player 10
-    player_name "Еще нет."
+    player_name "Not yet."
     show player 5
     show roxxy 1b
-    rox "Ну, дай мне знать если ты найдешь что нибудь."
+    rox "Well, let me know if you find anything."
     show roxxy 1
     show player 14
-    player_name "Ладно."
+    player_name "Alright."
     hide roxxy
     hide player
     with dissolve
@@ -1149,44 +1150,44 @@ label button_roxxy_need_booze_first:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "Хэй, так ну..."
-    player_name "Я слышал как вы с {b}Беккой{/b} говорили о выпивке на какую-то вечеринку?"
+    player_name "Hey, so uhh..."
+    player_name "I heard you and {b}Becca{/b} talking about drinks for some party?"
     show player 5
     show roxxy 1b
-    rox "... Да."
-    rox "Мы обычно зависаем {b}на пляже{/b} по {b}выходным{/b}."
+    rox "... Yeah."
+    rox "We usually hang out at {b}the beach{/b} on {b}the weekends{/b}."
     show roxxy 3
-    rox "... И {b}Декстер{/b} всегда доставал нам пива."
+    rox "... And {b}Dexter{/b} always buys us beer."
     show roxxy 30
-    rox "{b}*Вздох*{/b} Я думаю нам надо придумать что-то другое."
+    rox "{b}*Sigh*{/b} I guess we'll have to figure something else out."
     show roxxy 3d
     show player 14
-    player_name "Хмм, что если я принесу тебе немного пива?"
+    player_name "Hmm, what if I got you some beers?"
     show player 13
     show roxxy 2
-    rox "... Ты?"
+    rox "... You?"
     show roxxy 1
     show player 17
-    player_name "Конечно, почему нет?"
+    player_name "Sure, why not?"
     show player 13
     show roxxy 2
-    rox "Ты уверен что ты можешь достать его для нас?"
+    rox "You really think you can get us some?"
     show roxxy 1
     show player 29 with dissolve
-    player_name "... Возможно."
+    player_name "... Maybe."
     show player 13 with dissolve
     show roxxy 1b
-    rox "Если ты сможешь найти способ принести его нам, Я буду перед тобой в огромном долгу!"
+    rox "If you can figure out a way to get us some, I'll owe you big time!"
     show roxxy 1
     show player 14
-    player_name "Хорошо,я посмотрю что можно сделать."
+    player_name "Okay, I'll look into it."
     show player 13
     hide roxxy
     hide player
     show player 34
     with dissolve
-    player_name "( Хмм, интересно не мог ли бы {b}Эрик{/b} позволить мне взять немного выпивки из своего подвала? )"
-    player_name "( {b}Я должен спросить его об этом{/b}. )"
+    player_name "( Hmm, I wonder if {b}Erik{/b} would let me take some from his basement? )"
+    player_name "( {b}I should ask him about it{/b}. )"
     hide player with dissolve
     return
 
@@ -1197,74 +1198,74 @@ label button_roxxy_get_fake_id_first:
     show player 14 at Position (xpos=500)
     show roxxy 1 at right
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
+    player_name "Hey, {b}Roxxy{/b}!"
     show player 13
     show becca 2
-    becca "Фу, что ты здесь делаешь, ботан?!"
+    becca "Ugh, what are you doing here, nerd?!"
     show becca 1
     show roxxy 3c
-    rox "Заткнись, {b}Бекка{/b}!"
+    rox "Shut up, {b}Becca{/b}!"
     show roxxy 1b
     show player 11
-    rox "{b}[firstname]{/b} собирается достать для нас выпивку на вечеринку."
+    rox "{b}[firstname]{/b} is going to get us drinks for the party."
     show roxxy 1
     show player 18f at Position (xpos=600) with dissolve
     show missy 1b
-    missy "Он?!"
+    missy "He is?!"
     show missy 1
     show becca 8
-    becca "... Да, точно."
+    becca "... Yeah, right."
     show becca 7
     show player 90f
     show roxxy 3c
-    rox "Он!"
+    rox "He is!"
     show becca 1
     show roxxy 2
-    rox "Не так ли, {b}[firstname]{/b}?"
+    rox "Aren't you, {b}[firstname]{/b}?"
     show roxxy 1
     show player 10 at Position (xpos=500) with dissolve
-    player_name "Да, насчет этого..."
-    player_name "Я не смог получить алкоголь."
+    player_name "Yeah, about that..."
+    player_name "I couldn't get the alcohol."
     show player 5
     show roxxy 2b
     rox "..."
     show becca 8
-    becca "Видишь, Я так и знала!"
+    becca "See, I knew it!"
     show roxxy 3d
-    becca "Этот ботан не на что не способен..."
+    becca "This nerd isn't good for anything..."
     show becca 7
     player_name "..."
     show player 14
-    player_name "Я думаю Я смогу достать вам поддельные документы!"
+    player_name "I think I can get you a fake ID though!"
     show player 13
     show becca 1
     show roxxy 2b
     rox "!!!"
     show roxxy 2
-    rox "Реально?!"
+    rox "Really?!"
     show roxxy 1
     show player 17
-    player_name "Да!"
+    player_name "Yeah!"
     show player 13
     show missy 1b
-    missy "Круто!"
+    missy "Awesome!"
     show missy 1
     show player 14
-    player_name "Очевидно есть {b}парень на пирсе который сможет сделать{/b}."
+    player_name "Apparently there's {b}a guy down at the pier who makes them{/b}."
     show player 10
-    player_name "Думаешь это сработает?"
+    player_name "Would that work?"
     show player 5
     show roxxy 2
-    rox "Еще как сработает!"
+    rox "Hell yeah, it'll work!"
     show roxxy 1b
     show player 13
-    rox "С поддельными документами, мы можем покупать пиво столько сколько захотим!"
+    rox "With a fake ID, we could buy beer whenever we want!"
     show roxxy 1
     show player 14
-    player_name "Отлично, Я пойду и {b}поговорю с этим парнем{/b}."
+    player_name "Alright, I'll go and {b}talk with the guy{/b}."
     show player 13
     show roxxy 1b
-    rox "Хорошо, приходи к нам когда у тебя все будет готово."
+    rox "Alright, come and see us when you have all the details."
     hide roxxy
     hide becca
     hide missy
@@ -1279,27 +1280,27 @@ label button_roxxy_get_fake_id:
     show player 14 at Position (xpos=500)
     show roxxy 1 at right
     with dissolve
-    player_name "Привет, {b}Рокси{/b}!"
+    player_name "Hey, {b}Roxxy{/b}!"
     show player 13
     show roxxy 1b
-    rox "Привет, {b}[firstname]{/b}."
-    rox "Что парень с фальшивыми документами сказал?"
+    rox "Hey, {b}[firstname]{/b}."
+    rox "What did the fake ID guy say?"
     show roxxy 1
     show player 10
-    player_name "Я еще не разговаривал с ним."
+    player_name "I haven't spoken with him yet."
     show player 5
     show becca 8
-    becca "... Типично."
+    becca "... Typical."
     show becca 7
     show missy 2
-    missy "Что ж, чего же ты тогда ждешь?"
+    missy "Well, what are you waiting for?"
     show missy 2b
     show roxxy 2
-    rox "Ты сказал {b}что он был на причале{/b}, так?"
+    rox "You said {b}he was down at the pier{/b}, right?"
     show roxxy 1
     show player 14
-    player_name "Да."
-    player_name "Я пойду и поговорю с ним."
+    player_name "Yeah."
+    player_name "I'll go and speak with him."
     hide player
     hide roxxy
     hide becca
@@ -1314,46 +1315,46 @@ label button_roxxy_fake_id_ask_terry:
     show player 13f at Position (xpos=600)
     show roxxy 1 at right
     with dissolve
-    becca "Угх, вернулся опять?!"
-    becca "Тебе что больше нечем заняться кроме как мешать нам?!"
+    becca "Ugh, back again?!"
+    becca "Don't you have anything better to do than bother us?!"
     show becca 1
     show player 5f
     player_name "..."
     show roxxy 3c
-    rox "Ты когда-нибудь можешь заткнуться, {b}Becca{/b}?!"
+    rox "Do you ever shut up, {b}Becca{/b}?!"
     show roxxy 3d
     show becca 3
     show missy 6
-    missy "Хаха, она никогда не затыкается!"
+    missy "Haha, she never shuts up!"
     show missy 3
     show becca 3b
-    becca "Да пошла ты, {b}Мисси{/b}!"
+    becca "Screw you, {b}Missy{/b}!"
     show becca 1
     show missy 2b
     show roxxy 3
-    rox "{b}*Вздох*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy 1b
-    rox "Что ты нашел {b}[firstname]{/b}?"
+    rox "What did you find {b}[firstname]{/b}?"
     show roxxy 1
     show player 14 at Position (xpos=500) with dissolve
-    player_name "Я могу достать вам документы, без проблем!"
+    player_name "I can get you the ID, no problem!"
     show player 13
     show roxxy 1b
-    rox "Реально?!"
-    rox "Ох, это круто, {b}[firstname]{/b}!"
+    rox "Really?!"
+    rox "Oh, this is awesome, {b}[firstname]{/b}!"
     show roxxy 1
     show missy 6
-    missy "Это реально круто!"
+    missy "It is really cool!"
     show missy 1
     becca "..."
     show becca 2
-    becca "... Неважно."
-    becca "Это звучит очень хорошо чтобы быть правдой!"
+    becca "... Whatever."
+    becca "This sounds too good to be true!"
     show becca 1
     show player 14f at Position (xpos=600) with dissolve
-    player_name "Нет, все законно!"
+    player_name "No, it's legit!"
     show player 10f
-    player_name "Мне только нужно ваши свежие фотки и $400."
+    player_name "I just need a recent photo and $400."
     show player 5f
     show missy 3
     show roxxy 2c
@@ -1361,143 +1362,143 @@ label button_roxxy_fake_id_ask_terry:
     show player 5 at Position (xpos=500) with dissolve
     show roxxy 2b
     show becca 8
-    becca "Видишь, Я говорила тебе!"
-    becca "Слишком хорошо что бы быть правдой!"
+    becca "See, I told you!"
+    becca "Too good to be true!"
     show becca 7
     show missy 2
-    missy "Мы не можем себе этого позволить..."
+    missy "We can't afford that..."
     show missy 2b
     show roxxy 30
-    rox "Агх, мы снова влипли..."
+    rox "Ugh, we're screwed again..."
     show roxxy 14
     show player 4 with dissolve
     player_name "..."
     show player 10 with dissolve
-    player_name "Что если я заплачу за вас?!"
+    player_name "What if I pay for it?!"
     show player 5
     show becca 1
     show missy 3
     show roxxy 2b
     rox "!!!"
     show roxxy 2c
-    rox "У тебя что завалялись где то лишние $400?!"
+    rox "You've got $400 laying around somewhere?!"
     show roxxy 2b
     show player 10
-    player_name "Ну, нет... Не совсем."
+    player_name "Well, no... Not exactly."
     show roxxy 1
-    player_name "Все же, я много работал в последние время."
+    player_name "I have been working a lot recently, though."
     show player 5
     show missy 8
-    missy "Ты работаешь?!"
+    missy "You have a job?!"
     show missy 7
     show player 14f at Position (xpos=600) with dissolve
-    player_name "Хех, да."
+    player_name "Heh, yeah."
     show player 13f
     show becca 8
-    becca "Где ты работаешь, на заводе задротов?!"
+    becca "Where are you working, the nerd factory?!"
     show becca 7
     show player 24f
     show roxxy 3d
     show missy 6
-    missy "Хаха!"
+    missy "Haha!"
     show missy 3
     show roxxy 3c
-    rox "... Вы обе заткнитесь!"
+    rox "... Would you two zip it!"
     show roxxy 3d
     show becca 1
     show missy 1b
-    missy "Извини, {b}Рокси{/b}."
+    missy "Sorry, {b}Roxxy{/b}."
     show missy 1
     show roxxy 1b
-    rox "Ты не против заплатить за наши документы?"
+    rox "You don't mind paying for the ID's?"
     show roxxy 1
     show player 10 at Position (xpos=500) with dissolve
-    player_name "Нет, все в порядке."
+    player_name "Nah, it's fine."
     show player 5
     show roxxy 1l with dissolve
-    rox "Хмм..."
-    rox "... И ты сказал тебе нужны свежие фотки?"
+    rox "Hmm..."
+    rox "... And you said you need an up to date photo?"
     show roxxy 1k
     show player 10
-    player_name "Да."
+    player_name "Yeah."
     show player 12
-    player_name "С этим есть проблема?"
+    player_name "Is that a problem?"
     show player 5
     show roxxy 27
     rox "..."
     show becca 3
     show missy 1b
-    missy "А как насчет той {b}фото будки{/b}, в {b}тороговом центре{/b}?"
+    missy "What about that {b}photo booth{/b}, at {b}the mall{/b}?"
     show missy 1
     show roxxy 2 with dissolve
-    rox "Ох да... Эта может сработать."
+    rox "Oh yeah... That could work."
     show roxxy 1
     show player 14f at Position (xpos=600) with dissolve
-    player_name "Хорошая идея, {b}Мисси{/b}."
+    player_name "Good idea, {b}Missy{/b}."
     show player 13f
     show missy 8
-    missy "Хех, ты действительно так думаешь?"
+    missy "Heh, you really think so?"
     show missy 7
     show becca 2
     becca "..."
     show becca 2b with dissolve
-    becca "... Фуу."
+    becca "... Eww."
     show becca 1
     show missy 2
-    missy "{b}*Кгхм*{/b} Я имела ввиду... Заткнись, ботан!"
+    missy "{b}*Ahem*{/b} I mean... Shut up, nerd boy!"
     show missy 2b
     show player 11 at Position (xpos=500) with dissolve
     show roxxy 3
-    rox "Все заткнитесь!"
+    rox "Everybody shut up!"
     show roxxy 1b
-    rox "{b}[firstname]{/b}, встреться с нами возле торгового цента и Я дам тебе фотографии."
+    rox "{b}[firstname]{/b}, meet us at the mall and I'll get you a picture."
     show roxxy 1
     show player 13
     show becca 2
-    becca "Я не пойду..."
+    becca "I'm not going..."
     show player 5f at Position (xpos=600) with dissolve
     show roxxy 3d
-    becca "Нет если она будет там!"
+    becca "Not if he's gonna be there!"
     show becca 1
     show player 24f
     show roxxy 3c
-    rox "Ладно!"
+    rox "Fine!"
     show roxxy 3d
     show becca 2
-    becca "{b}Мисси{/b} тоже не пойдет!"
+    becca "{b}Missy{/b} isn't going either!"
     show becca 3b
     show missy 3
-    becca "... Правда, {b}Мисси{/b}?"
+    becca "... Right, {b}Missy{/b}?"
     show becca 3
     show missy 2
-    missy "Я тоже нет?"
+    missy "I'm not?"
     show missy 2
     show becca 3b
-    becca " Нет, ты не пойдешь!"
+    becca "No, you're not!"
     show becca 3
     show missy 4
-    missy "Ооу..."
+    missy "Aww..."
     show missy 2b
     show becca 1
     show roxxy 30
-    rox "... Неважно."
+    rox "... Whatever."
     show roxxy 3c
     show player 5 at Position (xpos=500) with dissolve
-    rox "Да ладно, {b}[firstname]{/b}! Давайте уже покончим с этим."
+    rox "C'mon, {b}[firstname]{/b}! Let's get this over with."
     hide roxxy with dissolve
     show player 10
-    player_name "О-окей..."
+    player_name "O-okay..."
     hide player with dissolve
     becca "..."
     show becca 3
     show missy 4
-    missy "Почему я не могу пойти?!"
+    missy "Why can't I go?!"
     show missy 4b
     show becca 3b
-    becca "Агх, заткнись, ты тупая шлюшка!"
+    becca "Ugh, shut up, you dumb skank!"
     show becca 3
     show missy 4
-    missy "... Ты заткнись!"
+    missy "... You shut up!"
     scene black with fade
     return
 
@@ -1505,28 +1506,28 @@ label button_roxxy_fake_id_get_picture:
     show roxxy 1 at right
     show player 14 at left
     with dissolve
-    player_name "Привет, {b}Рокси{/b}."
+    player_name "Hey, {b}Roxxy{/b}."
     show player 13
     show roxxy 1b
-    rox "Привет, {b}[firstname]{/b}."
-    rox "Ты получил эти {b}Поддельные документы{/b} ?"
+    rox "Hi {b}[firstname]{/b}."
+    rox "Did you get that {b}fake ID{/b} yet?"
     show roxxy 1
     show player 10
-    player_name "Нет, пока нет."
+    player_name "No, not yet."
     show player 5
     show roxxy 3c
-    rox "Агх, тогда шевелись!"
+    rox "Ugh, well hurry up!"
     show roxxy 1b
-    rox "Нам нужна выпивка для нашей вечеринки!"
+    rox "We're gonna need drinks for our party!"
     show roxxy 1
     show player 14
-    player_name "Да, не волнуйся."
+    player_name "Yeah, don't worry."
     show player 17
-    player_name "Я над этим работаю!"
+    player_name "I'm on it!"
     show player 13
     hide roxxy with dissolve
     show player 4 with dissolve
-    player_name "( Хмм, мне просто нужно {b}принести фотку Рокси к Капитану Терри на причал.{/b} )"
+    player_name "( Hmm, I just need to {b}take this photo of Roxxy to Captain Terry at the pier.{/b} )"
     hide player with dissolve
     return
 
@@ -1537,39 +1538,39 @@ label button_roxxy_get_evidence:
     show missy 1 at left
     show player 10f at right
     with dissolve
-    player_name "Привет, {b}Рокси{/b}."
-    player_name "Как ты себя чувствуешь?"
+    player_name "Hey {b}Roxxy{/b}."
+    player_name "How are you holding up?"
     show player 5f
     show becca 2
     show missy 2b
-    becca "Что за тупой вопрос!"
+    becca "What a stupid question!"
     show becca 1
     show missy 2
-    missy "Да, её {b}мама{/b} в тюрьме и она бездомная..."
-    missy "Как ты думаешь как она себя чувствует, ты мудак?!"
+    missy "Yeah, her {b}mom{/b} is in jail and she's homeless..."
+    missy "How do you think she's holding up, you asshole?!"
     show missy 2b
     show roxxy 30f
-    rox "Агх, да пошли вы все на хуй!"
+    rox "Ugh, fuck you guys!"
     hide roxxy with dissolve
     show becca 3b
-    becca "Так держать, {b}Мисси{/b}!"
+    becca "Nice going, {b}Missy{/b}!"
     show becca 3
     show missy 2
-    missy "... Хмм?"
+    missy "... Huh?"
     show missy 2b
     show becca 2
-    becca "{b}Рокси{/b}, Подожди!"
+    becca "{b}Roxxy{/b}, wait up!"
     hide becca with dissolve
     show missy 1b
-    missy "Что я сказала?"
+    missy "What did I say?"
     show missy 2
-    missy "Эй, вернитесь!"
+    missy "Hey you guys, come back!"
     hide missy with dissolve
     show player 24f
-    player_name "( Хмм, Я думаю оставлю её в покое на время. )"
-    player_name "( Возможно мне стоит поговорить с {b}Клайдом{/b}? )"
+    player_name "( Hmm, I guess I should give her space for now. )"
+    player_name "( Perhaps I should speak with {b}Clyde{/b}? )"
     show player 90f
-    player_name "( Весь этот бардак - эта его вина в конце-концов... )"
+    player_name "( This whole mess is his fault after all... )"
     hide player with dissolve
     return
 
@@ -1578,212 +1579,212 @@ label button_roxxy_hows_it_going:
     show player 14 at left
     show roxxy 1 at right
     with dissolve
-    player_name "Итак, как у тебя дела?"
-    player_name "{b}Твоя Мама{/b} вернулась назад домой и обустроилась?"
+    player_name "So how is everything going?"
+    player_name "You get {b}your mom{/b} back home and settled in?"
     show player 13
     show roxxy 1b
-    rox "Хех, да."
-    rox "Она вернулась и она стирвознее чем никогда."
-    rox "Веришь или нет, она действительно скучала по {b}Клайду{/b}."
+    rox "Heh, yeah."
+    rox "She's back and bitchier than ever."
+    rox "Believe it or not, she's really missing {b}Clyde{/b}."
     show roxxy 1
     show player 10
-    player_name "Она?"
+    player_name "She is?"
     show player 5
     show roxxy 2
-    rox "... Или может быть она соскучилась по его наркотиками?"
+    rox "... Or maybe she just misses his drugs?"
     show roxxy 1b
     show player 11
-    rox "Я не знаю, очень сложно разговаривать с ней."
+    rox "I dunno, it's hard to tell with her."
     show roxxy 1
     show player 12
-    player_name "Слышно что не будь о {b}Клайде{/b} с того времени как он свалил?"
+    player_name "Have you heard from {b}Clyde{/b} since he took off?"
     show player 5
     show roxxy 3
-    rox "Черта с два!"
-    rox "... И Я надеюсь что никогда не объявится."
+    rox "Hell no!"
+    rox "... And I hope I never hear from him again."
     show roxxy 3c
-    rox "Тупой ублюдок чуть не разрушил мою жизнь!"
+    rox "Stupid bastard almost ruined my life!"
     show roxxy 3d
     show player 10
-    player_name "Да."
+    player_name "Yeah."
     show player 14
-    player_name "Он придет в конце концов, не так ли?"
+    player_name "He came through in the end though, didn't he?"
     show player 13
     show roxxy 3c
-    rox "Нет, пошел он."
+    rox "No, screw him."
     show player 11
-    rox "Ты прошел через это!"
+    rox "You came through!"
     show player 13
     show roxxy 1
     pause
     show roxxy 1b
-    rox "Никто никогда не делал что то в этом роде раньше со мной."
+    rox "Nobody has ever done anything like that for me before."
     show roxxy 1
     show player 14
-    player_name "Хех, Да ладно {b}Рокси{/b}... это не большое дело."
+    player_name "Heh, c'mon {b}Roxxy{/b}... It's not a big deal."
     show player 13
     show roxxy 1b
-    rox "{b}[firstname]{/b}... Это большое дело!"
-    rox "Спасибо."
-    rox "Я серьезно!"
+    rox "{b}[firstname]{/b}... It's a big deal!"
+    rox "Thank you."
+    rox "I mean it!"
     show roxxy 1
     show player 13
     player_name "..."
     show player 14
-    player_name "Всегда Пожалуйста."
+    player_name "You're welcome."
     show player 13
     show roxxy 1b
-    rox "Хэй, так ну..."
-    rox "Я не знаю если ты заинтересован..."
-    rox "... но..."
+    rox "Hey, so uhh..."
+    rox "I dunno if you would be interested..."
+    rox "... But..."
     show player 5
-    rox "Мои друзья и Я будем празновать эти выходные."
-    rox "... На пляже."
-    rox "Ты знаешь... Я подумала может... ты захочешь присоедениться к нам?"
+    rox "My friends and I are gonna celebrate this weekend."
+    rox "... At the beach."
+    rox "You know... I thought maybe... you'd like to join us?"
     show roxxy 1
     show player 10
-    player_name "Серьезно?"
+    player_name "Really?"
     show player 5
     show roxxy 2
-    rox "Хех, ну... Только если ты хочешь?"
+    rox "Heh, well... Only if you want to?"
     show roxxy 1
     show player 12
-    player_name "Я думаю что твои подруги не хотят видеться со мной?"
+    player_name "I thought you girls didn't want to be seen with me?"
     show player 5
     show roxxy 1b
-    rox "Я готова сделать исключение. Учитавая все что ты сделал для меня."
-    rox "{b}Бекке{/b} это может не понравиться, но она сделает все что я ей скажу."
+    rox "I'm willing to make an exception. Given everything you've done for me."
+    rox "{b}Becca{/b} might not like it, but she'll do whatever I tell her to."
     show roxxy 1
     show player 13
     player_name "..."
     show roxxy 2
-    rox "... И я обсалютно уверена что {b}Мисси{/b} втюрилась в тебя."
+    rox "... And I'm pretty sure {b}Missy{/b} has a crush on you."
     show roxxy 1
     show player 10
-    player_name "Она не?"
+    player_name "She does?"
     show player 5
     show roxxy 1b
-    rox "Хах, да..."
-    rox "Однако не слишком радуйся ."
-    rox "Она не совсем сообразительная."
-    rox "... И ты все еще должен одержать верх над {b}Беккой{/b}."
+    rox "Hah, yeah..."
+    rox "Don't get too excited though."
+    rox "She's not exactly the sharpest tool in the shed."
+    rox "... And you still have to win over {b}Becca{/b}."
     show roxxy 1
     show player 10
-    player_name "... Что насчет тебя?"
+    player_name "... What about you?"
     show player 5
     show roxxy 2c
-    rox "... Я?"
-    rox "Я..."
+    rox "... Me?"
+    rox "I..."
     show roxxy 2b
     rox "..."
     show roxxy 1l with dissolve
-    rox "{b}[firstname]{/b}, Я..."
+    rox "{b}[firstname]{/b}, I..."
     show roxxy 2bf at Position (xpos=600) with dissolve
     show player 11
-    becca "Вот вы где!"
-    missy "Мы тебя везде обыскались!"
+    becca "There you are!"
+    missy "We've been looking everywhere for you!"
     show becca 1f at Position(xpos=715)
     show missy 1f at right
     with dissolve
     show roxxy 1f f
     rox "..."
     show missy 1bf
-    missy "Привет, {b}[firstname]{/b}!"
+    missy "Hey, {b}[firstname]{/b}!"
     show missy 1f
     show player 14
-    player_name "Ох, привет {b}Мисси{/b}."
-    player_name "Ты сегодня отлично выглядишь."
+    player_name "Oh, hey {b}Missy{/b}."
+    player_name "You look nice today."
     show player 13
     show becca 3f
     show missy 4cf with dissolve
-    missy "Правда?!"
+    missy "I do?!"
     show missy 6f with dissolve
-    missy "... Спасибо!"
+    missy "... Thanks!"
     show missy 1bf
-    missy "Ты знаешь, это было очень круто что ты сделал для {b}Рокси{/b}."
+    missy "You know, it was really cool what you did for {b}Roxxy{/b}."
     show missy 1f
     show becca 19f
     becca "..."
     show roxxy 1bf
-    rox "Да, Я на самом деле как раз приглосила его придти и отпразновать с нами в эти выходные."
+    rox "Yeah, I was actually just inviting him to come celebrate with us this weekend."
     show roxxy 1f f
     show missy 8f
-    missy "{b}*Ахнула*{/b} Это было бы круто!"
-    missy "О боже мой, Мне придется найти новый купальник!"
+    missy "{b}*Gasp*{/b} That would be awesome!"
+    missy "Oh my gosh, I'll have to find a new swim suit!"
     show missy 7f
     becca "..."
     show roxxy 2f
-    rox "Ты так странно себя ведешь?"
+    rox "What are you acting so weird about?"
     show roxxy 1f f
     show becca 2f
     show missy 1f
-    becca "Я не понимаю..."
+    becca "I just don't understand..."
     show player 5
-    becca "Этот ботан сделал пару хороших вещей для тебя и сейчас он резко стал достаточно крутым чтобы зависать с нами?"
+    becca "This nerd does a couple nice things for you and now he's suddenly cool enough to hang with us?"
     show becca 23f
     show missy 2f
-    missy "Не будь сучкой, {b}Бекка{/b}..."
+    missy "Don't be a bitch, {b}Becca{/b}..."
     show missy 2bf
     show becca 3bf
-    becca "Ох, заткнись ты шлюха!"
-    becca "Ты просто надеешься, что он повернется членом в твою сторону."
+    becca "Oh, shut up you slutbag!"
+    becca "You're just hoping he'll throw some dick your way."
     show becca 23f
     show missy 3f
     missy "!!!"
     show missy 2f
-    missy "Я не!"
+    missy "I am not!"
     show missy 2bf
     missy "..."
     show roxxy 3cf
-    rox "Он не просто сделал пару хороших вещей для меня {b}Бекка{/b}."
-    rox "Он вытащил {b}мою маму{/b} из тюрьмы и вернул её домой!"
-    rox "... И я сказала, что он достаточно крут чтобы позависать с нами!"
+    rox "He didn't just do a couple nice things for me, {b}Becca{/b}."
+    rox "He bailed {b}my mom{/b} out of jail and got my home back!"
+    rox "... And I say he's cool enough to hang out with us!"
     show roxxy 3f
-    rox "Так что смирись с этим."
+    rox "So deal with it."
     show roxxy 3df
     show becca 2f
-    becca "... Ладно!"
-    becca "Только не думай что мы стали друзьями, ботан!"
+    becca "... Fine!"
+    becca "Just don't go thinking we're friends, nerd boy!"
     show becca 23f
     player_name "..."
     show becca 2f
-    becca "Я иду в класс!"
+    becca "I'm going to class!"
     hide becca with dissolve
     show roxxy 1f f
     show missy 7f
     missy "..."
     show missy 8f
-    missy "Что ж, Я взволнована."
+    missy "Well, I'm excited."
     show missy 6f
-    missy "Увидимся в {b}Субботу{/b}, {b}[firstname]{/b}!"
+    missy "See ya {b}Saturday{/b}, {b}[firstname]{/b}!"
     show missy 7f
     show player 14
-    player_name "Увидимся, {b}Мисси{/b}."
+    player_name "See ya, {b}Missy{/b}."
     show player 13
     hide missy with dissolve
     show roxxy 2 at Position (xpos=700) with dissolve
-    rox "Не обращай внимания на {b}Бекку{/b}."
-    rox "Она изменит своё мнение."
+    rox "Don't mind {b}Becca{/b}."
+    rox "She'll come around."
     show roxxy 1f
     show player 10
-    player_name "Ага..."
+    player_name "Yeah..."
     show player 13
     show roxxy 1b
-    rox "Только не забудь!"
-    rox "{b}В субботу вечером на пляже{/b}!"
+    rox "Just don't forget!"
+    rox "{b}Saturday afternoon at the beach{/b}!"
     show roxxy 1f
     show player 14
-    player_name "О-окей, Я не забуду!"
+    player_name "O-okay, I won't forget!"
     show player 13
     show roxxy 1b
-    rox "Увидимся, {b}[firstname]{/b}!"
+    rox "See ya, {b}[firstname]{/b}!"
     hide roxxy with dissolve
     pause
     show player 4 with dissolve
-    player_name "( Хмм, что ж... {b}Рокси{/b} и {b}Мисси{/b}- я понравился им. )"
-    player_name "( ... Возможно я должен сделать что-то хорошое для {b}Бекки{/b} тоже? )"
-    player_name "( Нужно только перенести вещи в верном направлении. )"
-    player_name "( Нужно дождатся когда {b}Мисси{/b} будет одна и тогда я смогу {b}спросить её, что нравится Бекке{/b}."
+    player_name "( Hmm, well... {b}Roxxy{/b} and {b}Missy{/b} both like me. )"
+    player_name "( ... Maybe I should do something nice for {b}Becca{/b} too? )"
+    player_name "( Just to get things moving in the right direction. )"
+    player_name "( I should see about getting {b}Missy{/b} alone so I can {b}ask her what Becca likes{/b}."
     hide player with dissolve
     return
 
@@ -1791,48 +1792,48 @@ label button_roxxy_sneak_into_smith:
     scene french_class_c
     show roxxy 1 at right
     show player 10 at left
-    player_name "Какой план еще раз?"
+    player_name "What's the plan again?"
     show player 5
     show roxxy 1b
-    rox "Надо ворваться в дом {b}Директрисы Смитт{/b} {b}Сегодня ночью, после того как стемнеет{/b}."
-    rox "К счастью {b}Бекка и Мисси{/b} были правы насчет её, {b}она хранит копии экзаменов здесь.{/b}"
+    rox "Just break into {b}Principal Smith's{/b} house {b}tonight, after it gets dark{/b}."
+    rox "Hopefully {b}Becca and Missy{/b} are right about her {b}keeping a copy of the exams there.{/b}"
     show roxxy 1
     show player 12
-    player_name "... И ты уверенна что не хочешь пойти вместе со мной?"
+    player_name "... And you're sure you don't wanna come with me?"
     show player 5
     show roxxy 48 at Position (xoffset=-34) with dissolve
-    rox "Ах, я тебе там не нужна."
+    rox "Aww, you don't need me."
     show player 433
-    rox "Я буду тебе только абузой... Помнишь?"
+    rox "I'd just slow you down... Remember?"
     show roxxy 47 at Position (xoffset=-34)
     show player 427
-    player_name "... Д-да."
+    player_name "... Y-yeah."
     show player 433
     show roxxy 4 with dissolve
-    rox "Ну ладно всё, Удачи!"
+    rox "Alright then, good luck!"
     hide roxxy with dissolve
     pause
     show player 37 with dissolve
     player_name "..."
-    player_name "Угх, почему она так убедительна?!"
+    player_name "Ugh, why is she so persuasive?!"
     hide player with dissolve
     return
 
 label roxxy_beach_button_massage:
-    player_name "Ты знаешь, У меня всё ещё есть эта бутылочка с маслом с соревнований..."
+    player_name "You know, I've still got that bottle of oil from the contest..."
     show player 13f
     show roxxy bikini 2f
-    rox "Хех, ох да?"
-    rox "Хмм, ты предлагаешь мне массаж?"
+    rox "Heh, oh yeah?"
+    rox "Hmm, you offering me a massage?"
     show roxxy bikini 1f
     show player 14f
-    player_name "Вот о чём я думал..."
+    player_name "That's what I was thinking..."
     show player 13f
     show roxxy bikini 2f
-    rox "Хехе, хорошо! Просто дай мне секундочку я ускользну от этих двух сучек и встретимся в раздевалке."
+    rox "Hehe, alright! Just give me a second to slip away from these two bitches and I'll meet you in the changing room."
     show roxxy bikini 1f
     show player 14f
-    player_name "Звучит неплохо."
+    player_name "Sounds good."
     hide player
     hide roxxy
     with dissolve
@@ -1843,8 +1844,8 @@ label french_roxxy_dialogue_relationship_0:
 
     show roxxy 10 at right
     with dissolve
-    rox "Угх, отвратительно..."
-    rox "Держись от меня подальше, ботан!"
+    rox "Ugh, gross..."
+    rox "Get away from me, nerd!"
     hide player
     hide roxxy
     with dissolve
@@ -1855,7 +1856,7 @@ label french_roxxy_dialogue_relationship_1:
     show roxxy 11 at right
     with dissolve
     rox "{b}[firstname]{/b}..."
-    rox "Что теперь ты хочешь?"
+    rox "What do you want now?"
     show roxxy 7 with dissolve
     return
 
@@ -1863,8 +1864,8 @@ label french_roxxy_dialogue_relationship_2:
     show player 13 at left
     show roxxy 1b at right
     with dissolve
-    rox "Привет, {b}[firstname]{/b}."
-    rox "Как дела?"
+    rox "Hey, {b}[firstname]{/b}."
+    rox "What's up?"
     show roxxy 1
     return
 
@@ -1872,21 +1873,21 @@ label french_roxxy_dialogue_relationship_3:
     show player 5 at left
     show roxxy 33 at right
     with dissolve
-    rox "Привет, {b}[firstname]{/b}."
+    rox "Hey, {b}[firstname]{/b}."
     show roxxy 32
     show player 10
-    player_name "Привет, {b}Рокси{/b}."
+    player_name "Hey, {b}Roxxy{/b}."
     show player 5
     show roxxy 33
-    rox "Что небудь слышно о {b}Декстере{/b}?"
+    rox "Any sign of {b}Dexter{/b}?"
     show roxxy 32
     show player 12
-    player_name "Не волнуйся, Я разберусь с {b}Декстером{/b}."
+    player_name "Don't worry, I'll handle {b}Dexter{/b}."
     show player 5
     rox "..."
     show roxxy 33
-    rox "Только не делай никаких глупостей."
-    rox "Я не вынесу, если с тобой что-то случится..."
+    rox "Just, don't do anything stupid."
+    rox "I don't want anything to happen to you..."
     show roxxy 32
     player_name "..."
     return
@@ -1901,21 +1902,21 @@ label french_roxxy_dialogue_relationship_4:
     with dissolve
     pause
     show roxxy 59d with dissolve
-    rox "Как твои дела, красавчик?"
+    rox "How's it going, handsome?"
     show roxxy 59e
-    player_name "Эмм, хехе."
-    player_name "Что на тебя нашло?"
+    player_name "Uhh, hehe."
+    player_name "What's gotten into you?"
     show roxxy 59d
-    rox "Я просто счастлива увидеться со своим мужчиной!"
+    rox "I'm just happy to see my man is all!"
     show roxxy 59e
-    player_name "Что ж, Я тоже счастлив видеть тебя."
+    player_name "Well, I'm happy to see you too."
     show roxxy 59d
-    rox "Кто бы сомневался!"
-    rox "Так ты придешь сегодня вечером?!"
+    rox "Of course you are!"
+    rox "So are you coming over tonight?!"
     show roxxy 59e
-    player_name "Ты хочешь меня тоже?"
+    player_name "You want me to?"
     show roxxy 59d
-    rox "Да, ещё бы!"
+    rox "Yeah, duh!"
     show player 13 at left
     show roxxy 1g at center
     with dissolve
@@ -1923,123 +1924,123 @@ label french_roxxy_dialogue_relationship_4:
 
 label button_roxxy_hows_it_going_relationship_1:
     show player 10
-    player_name "Как у тебя дела?"
+    player_name "How's it going?"
     show player 5
     show roxxy 10 with dissolve
-    rox "Угх, было бы гараздо лучше, если бы ты перестал пытаться разговаривать со мной на людях!"
+    rox "Ugh, it would be going a lot better, if you would stop trying to talk to me in public!"
     show roxxy 7 with dissolve
     player_name "..."
     return
 
 label button_roxxy_hows_it_going_relationship_2:
     show player 14
-    player_name "Как поживаешь, {b}Рокси{/b}?"
+    player_name "How's it going, {b}Roxxy{/b}?"
     show player 13
     show roxxy 1b
-    rox "Хех, всё в порядке."
+    rox "Heh, it's alright."
     show roxxy 2
-    rox "Эта бродяжка {b}Биссетт{/b} до сих пор пилит меня, но по крайней мере я догнала достаточно, чтобы не беспокоится о том, что меня могут выгнать из группы поддержки снова."
+    rox "That mush mouth {b}Bissette{/b} is still riding me but at least I'm caught up enough that I don't have to worry about getting kicked off the cheerleading team again."
     show roxxy 1
     show player 14
-    player_name "Да?"
+    player_name "Yeah?"
     show player 17
-    player_name "Это круто!"
+    player_name "That's awesome!"
     show player 14
-    player_name "Дай мне знать если тебе когда не будь понадобится помощь с чем угодно?"
+    player_name "Let me know if you ever need help with anything?"
     show player 13
     show roxxy 1b
-    rox "Спасибо, {b}[firstname]{/b}."
+    rox "Thanks, {b}[firstname]{/b}."
     return
 
 label button_roxxy_french_whats_up_clyde_relationship_2:
     show player 10
-    player_name "Ты слышала что-нибудь от {b}Клайде{/b} после всего что произошло?"
+    player_name "You heard from {b}Clyde{/b} since everything went down?"
     show player 5
     show roxxy 3c
-    rox "Угх, нет. Слава Богу!"
-    rox "Я надеюсь никогда больше не услышать об этом тупице снова..."
+    rox "Ugh, no. Thank god!"
+    rox "I hope I never hear from his dumbass again..."
     show roxxy 3d
     show player 12
-    player_name "Хех, жестко..."
+    player_name "Heh, harsh..."
     show player 5
     show roxxy 3c
-    rox "Да но, он почти не разрушил мою жизнь!"
+    rox "Yeah well, he like totally almost ruined my life!"
     show roxxy 2
-    rox "Кто знает где бы я была, если бы ты не вмешался и не помог."
+    rox "Who knows where I'd be if you hadn't stepped up to help."
     show roxxy 1
     show player 14
-    player_name "Это пустяки, серьезно."
+    player_name "It was nothing, really."
     show player 13
     show roxxy 1b
-    rox "{b}[firstname]{/b},это не было ничего..."
-    rox "Я никогда не смогу тебя отблагодарить."
+    rox "{b}[firstname]{/b}, it wasn't nothing..."
+    rox "I can't thank you enough."
     show roxxy 1
     show player 14
-    player_name "Н-еа, не переживай об этом."
+    player_name "Nah, don't worry about it."
     show player 17
-    player_name "Я только рад видеть тебя снова улыбающейся."
+    player_name "I'm just happy to see you smiling again."
     show player 13
     rox "..."
     return
 
 label button_roxxy_french_whats_up_clyde_relationship_3:
     show player 10
-    player_name "Почему {b}Клайд{/b} надел шляпу и назвал себя {b}Клетус{/b}?"
+    player_name "Why is {b}Clyde{/b} wearing a hat and calling himself {b}Cletus{/b}?"
     show player 5
     show roxxy 2 with dissolve
-    rox "{b}*Вздох*{/b} Потому что он идиот..."
-    rox "Он пытался спрятаться от копов или что-то вроде того."
-    rox "Я говорила ему, что это не сработает."
+    rox "{b}*Sigh*{/b} Because he's an idiot..."
+    rox "He's trying to hide from the cops or something."
+    rox "I told him it wasn't going to work."
     show roxxy 1
     show player 12
-    player_name "Он реально думал что шапки достаточно чтобы одурачить копов?"
+    player_name "He really thinks a hat is enough to fool the cops?"
     show player 5
     show roxxy 1b
-    rox "Да."
-    rox "Я не понимаю почему они еще не арестовали его!"
+    rox "Yeah."
+    rox "I don't understand why they haven't picked him up yet?!"
     show roxxy 1
     show player 10
-    player_name "Ты ведь не думаешь что, это и в правду работает... верно?"
+    player_name "You don't think, it's actually working... Do you?"
     show player 5
     show roxxy 2
-    rox "Пффф, ни за что."
+    rox "Pfft, no way."
     show roxxy 1b
-    rox "Они наверно очень заняты с настоящими приступниками чем иметь дело с этим дебилом."
+    rox "They're probably just too busy with actual criminals to deal with that moron."
     show roxxy 4
-    rox "Хахаха!"
+    rox "Hahaha!"
     show player 17
-    player_name "Хахаха!"
+    player_name "Hahaha!"
     show roxxy 1
     show player 13
     return
 
 label button_roxxy_french_whats_up_clyde_relationship_4:
     show player 10
-    player_name "Почему {b}Клайд{/b} надел шляпу и назвал себя {b}Клетус{/b}?"
+    player_name "Why is {b}Clyde{/b} wearing a hat and calling himself {b}Cletus{/b}?"
     show player 5
     show roxxy 2 with dissolve
-    rox "{b}*Вздох*{/b} Потому что он идиот..."
-    rox "Он пытался спрятаться от копов или что то вроде."
-    rox "Я говорила ему что это не сработает."
+    rox "{b}*Sigh*{/b} Because he's an idiot..."
+    rox "He's trying to hide from the cops or something."
+    rox "I told him it wasn't going to work."
     show roxxy 1
     show player 12
-    player_name "Он реально думал что шапки достаточно чтобы одурачить копов?"
+    player_name "He really thinks a hat is enough to fool the cops?"
     show player 5
     show roxxy 1b
-    rox "Да."
-    rox "Я не понимаю почему они еще не арестовали его?!"
+    rox "Yeah."
+    rox "I don't understand why they haven't picked him up yet?!"
     show roxxy 1
     show player 10
-    player_name "Ты ведь не думаешь что, это и в правду работает... верно?"
+    player_name "You don't think, it's actually working... Do you?"
     show player 5
     show roxxy 2
-    rox "Пффф, ни за что."
+    rox "Pfft, no way."
     show roxxy 1b
-    rox "Они наверно очень заняты с настоящими приступниками чем иметь дело с этим дебилом."
+    rox "They're probably just too busy with actual criminals to deal with that moron."
     show roxxy 4
-    rox "Хахаха!"
+    rox "Hahaha!"
     show player 17
-    player_name "Хахаха!"
+    player_name "Hahaha!"
     show roxxy 1
     show player 13
     return
@@ -2047,54 +2048,54 @@ label button_roxxy_french_whats_up_clyde_relationship_4:
 label button_roxxy_meet_me_at_my_locker:
     show player 13
     show roxxy 1b
-    rox "{b}Встретимся у твоего шкафчика{/b} через 5 минут..."
+    rox "{b}Meet me at your locker{/b} in five minutes..."
     show roxxy 1
     show player 10
-    player_name "Ты это Серьезно..."
+    player_name "You don't mean..."
     show player 13
     show roxxy 4
-    rox "Конечно!"
+    rox "I do!"
     show roxxy 1b
-    rox "5 минут!"
+    rox "Five minutes!"
     hide roxxy with dissolve
     pause
     show player 10
-    player_name "Ох,блин..."
+    player_name "Oh, man..."
     return
 
 label button_roxxy_ill_see_you_tonight:
     show player 14
-    player_name "Окей, увдимся сегодня ночью."
+    player_name "Okay, I'll see you tonight then."
     show player 13
     show roxxy 1h
-    rox "Ммм, Я не могу ждать!"
+    rox "Mmm, I can't wait!"
     show roxxy 1g
     return
 
 label french_roxxy_dialogue_leave_relationship_1:
     show player 10
-    player_name "Ох, Мне ничего не нужно."
-    player_name "Только хотел поздороваться."
+    player_name "Oh, I don't need anything."
+    player_name "Just saying hi."
     show player 5
     show roxxy 10 with dissolve
-    rox "Угх, что ж делай что ты должен делать со многими людьми поблизости?!"
+    rox "Ugh, well do you have to do it with so many people around?!"
     show roxxy 7 with dissolve
     player_name "..."
     return
 
 label french_roxxy_dialogue_leave_relationship_2:
     show player 14
-    player_name "Я только направляюсь в класс."
+    player_name "I'm just heading to class."
     show player 10
-    player_name "Хочешь прогуляться вместе?"
+    player_name "You wanna walk together?"
     show player 13
     show roxxy 1b
-    rox "Вот блин, Я бы с радостью но я должна встретиться с {b}Беккой{/b} и {b}Мисси{/b}."
-    rox "Извини, {b}[firstname]{/b}..."
+    rox "Oh man, I totally would but I'm supposed to meet {b}Becca{/b} and {b}Missy{/b} soon."
+    rox "Sorry, {b}[firstname]{/b}..."
     show roxxy 1
     show player 14
-    player_name "Не беспокойся."
-    player_name "Увидимся ещё."
+    player_name "No worries."
+    player_name "See ya, around."
     show player 13
     hide player
     hide roxxy
@@ -2104,32 +2105,32 @@ label french_roxxy_dialogue_leave_relationship_2:
 label french_roxxy_dialogue_leave_relationship_3:
     show roxxy 32 with dissolve
     show player 12
-    player_name "Не волнуйся."
-    player_name "Я не позволю чтобы что-то случилось ни с тобой ни с твоими друзьями."
+    player_name "Don't worry."
+    player_name "I'm not going to let anything happen to you or your friends."
     show player 90
     show roxxy 33
-    rox "Да, а как насчёт тебя?!"
+    rox "Yeah but what about you?!"
     show roxxy 32
     show player 12
-    player_name "Я буду в порядке."
-    player_name "Я обещаю."
+    player_name "I'll be fine."
+    player_name "I promise."
     hide player
     show roxxy 59 at left
     with dissolve
-    rox "Просто будь осторожен."
+    rox "Just be careful."
     hide roxxy with dissolve
     return
 
 label french_roxxy_dialogue_leave_relationship_4:
     show player 14
-    player_name "Мне нужно идти на урок."
+    player_name "I should get going to class."
     show player 13
     show roxxy 1b
-    rox "Да, хорошо."
-    rox "Давай пройдемся вместе тогда!"
+    rox "Yeah, okay."
+    rox "Let's walk together then!"
     show roxxy 1
     show player 14
-    player_name "Конечно."
+    player_name "Sure."
     hide player
     hide roxxy
     with dissolve
@@ -2139,8 +2140,8 @@ label beach_roxxy_dialogue_relationship_0:
     show player 5 at left
     show roxxy bikini 19 at right
     with dissolve
-    rox "Угх, мерзость..."
-    rox "Отвали от меня, кретин!"
+    rox "Ugh, gross..."
+    rox "Get away from me, nerd!"
     hide player
     hide roxxy
     with dissolve
@@ -2152,10 +2153,10 @@ label beach_roxxy_dialogue_relationship_1:
     with dissolve
     rox "{b}[firstname]{/b}!"
     show roxxy bikini 19b
-    rox "Что ты здесь делаешь?!"
+    rox "What are you doing here?!"
     show roxxy bikini 20
     show player 10
-    player_name "Привет, {b}Рокси{/b}."
+    player_name "Hey, {b}Roxxy{/b}."
     show player 5
     return
 
@@ -2163,15 +2164,15 @@ label beach_roxxy_dialogue_relationship_2:
     show player 13 at left
     show roxxy bikini 2 at right
     with dissolve
-    rox "Приветик, {b}[firstname]{/b}!"
-    rox "Что ты здесь делаешь?!"
+    rox "Hey, {b}[firstname]{/b}!"
+    rox "What are you doing here?!"
     show roxxy bikini 1
     show player 14
-    player_name "Я просто мимо проходил."
-    player_name "Я решил заскочить и спросить как дела."
+    player_name "I was just in the neighborhood."
+    player_name "Thought I would drop by and see how you're doing."
     show player 13
     show roxxy bikini 22
-    rox "Круто!"
+    rox "Cool!"
     show roxxy bikini 1
     return
 
@@ -2179,8 +2180,8 @@ label home_roxxy_dialogue_relationship_0:
     show player 5 at left
     show roxxy 3c at right
     with dissolve
-    rox "Угх, мерзость..."
-    rox "Отвали от меня, задрот!"
+    rox "Ugh, gross..."
+    rox "Get away from me, nerd!"
     hide player
     hide roxxy
     with dissolve
@@ -2192,10 +2193,10 @@ label home_roxxy_dialogue_relationship_1:
     with dissolve
     rox "{b}[firstname]{/b}!"
     show roxxy 3
-    rox "Что ты здесь делаешь?!"
+    rox "What are you doing here?!"
     show roxxy 3d
     show player 10
-    player_name "Привет, {b}Рокси{/b}."
+    player_name "Hey, {b}Roxxy{/b}."
     show player 5
     return
 
@@ -2203,17 +2204,17 @@ label home_roxxy_dialogue_relationship_2:
     show player 13 at left
     show roxxy 1b at right
     with dissolve
-    rox "Приветик, {b}[firstname]{/b}!"
-    rox "Что ты здесь делаешь?!"
+    rox "Hey, {b}[firstname]{/b}!"
+    rox "What are you doing here?!"
     show roxxy 1
     show player 14
-    player_name "Я просто мимо проходил."
-    player_name "Я решил заскочить и узнать как ты там."
+    player_name "I was just in the neighborhood."
+    player_name "Thought I would drop by and see how you're doing."
     show player 13
     show roxxy 4
-    rox "Круто!"
+    rox "Cool!"
     show roxxy 2
-    rox "Извини за беспорядок..."
+    rox "Sorry about the mess..."
     show roxxy 1
     return
 
@@ -2221,33 +2222,33 @@ label home_roxxy_dialogue_relationship_3:
     show player 5 at left
     show roxxy 33 at right
     with dissolve
-    rox "Приветик, {b}[firstname]{/b}."
+    rox "Hey, {b}[firstname]{/b}."
     show roxxy 32
     show player 10
-    player_name "Привет, {b}Рокси{/b}."
+    player_name "Hey, {b}Roxxy{/b}."
     show player 5
     show roxxy 33
-    rox "Что нибудь слышно о {b}Декстере{/b}?"
+    rox "Any sign of {b}Dexter{/b}?"
     show roxxy 32
     show player 12
-    player_name "Не волнуйся, Я позабочусь о {b}Декстере{/b}."
+    player_name "Don't worry, I'll handle {b}Dexter{/b}."
     show player 5
     rox "..."
     show roxxy 33
-    rox "Только, не делай никаких глупостей."
-    rox "Я не хочу, чтобы с тобой что-то случилось..."
+    rox "Just, don't do anything stupid."
+    rox "I don't want anything to happen to you..."
     show roxxy 32
     player_name "..."
     return
 
 label home_roxxy_dialogue_relationship_4:
     show roxxy 59d at left with dissolve
-    rox "А вот и мой мужчина!"
-    rox "Я ждала тебя..."
+    rox "There's my man!"
+    rox "I was waiting on you..."
     show roxxy 59e
-    player_name "Вот он Я!"
+    player_name "Here I am!"
     show roxxy 59d
-    rox "Хехе!"
+    rox "Hehe!"
     show roxxy 92 with dissolve
     player_name "..."
     show roxxy 1 at center
@@ -2258,63 +2259,63 @@ label home_roxxy_dialogue_relationship_4:
 
 label home_roxxy_dialogue_leave_relationship_1:
     show player 14
-    player_name "Я был неподалеку и Я решил заскочить и сказать привет."
+    player_name "I was nearby and I thought I'd stop in and say hello."
     show player 13
     show roxxy 2
-    rox "... Ох."
-    rox "Это так странно."
+    rox "... Oh."
+    rox "That's so weird."
     show roxxy 1
     show player 10
-    player_name "Разве?"
+    player_name "It is?"
     show player 5
     show roxxy 3c
-    rox "Ты не должен был приходить без предупреждения."
+    rox "You shouldn't just drop by unannounced."
     show roxxy 3d
     show player 10
-    player_name "О-окей. Извини."
+    player_name "O-okay. Sorry."
     show player 5
     show roxxy 3
-    rox "Угх, это место просто-катастрофа!"
+    rox "Ugh, this place is a disaster!"
     hide roxxy with dissolve
     player_name "..."
     show player 12
-    player_name "Хорошо, что ж, думаю тогда я лучше пойду..."
+    player_name "Okay, well I guess I'll just be going then..."
     show player 5
     player_name "..."
     return
 
 label home_roxxy_dialogue_leave_relationship_2:
     show player 14
-    player_name "Что ж, мне пора идти домой."
-    player_name "Рад был тебя увидеть, {b}Рокси{/b}."
+    player_name "Well, I should probably get home."
+    player_name "Nice seeing you, {b}Roxxy{/b}."
     show player 13
     show roxxy 1b
-    rox "Ага, тебя тоже, {b}[firstname]{/b}."
-    rox "Возвращайся снова и мы потусуемся вместе."
+    rox "Yeah, you too, {b}[firstname]{/b}."
+    rox "Come back again and we'll hang out."
     show roxxy 1
     show player 17
-    player_name "Круто!"
+    player_name "Cool!"
     show player 14
-    player_name "Увидимся ещё."
+    player_name "See ya, around."
     show player 13
     show roxxy 2
-    rox "Подожди!"
+    rox "Wait!"
     show roxxy 1b
     show player 11
-    rox "Не забудь придти потусить с нами на пляже в {b}Субботу вечером{/b}."
+    rox "Don't forget to come hang out with us at the beach {b}Saturday evening{/b}."
     show roxxy 1
     show player 10
-    player_name "Ты ещё развлекаешся в {b}Субботу{/b}?"
+    player_name "You're partying again {b}Saturday{/b}?"
     show player 13
     show roxxy 1b
-    rox "Хехе, мы отрываемся каждую {b}Субботу{/b}."
+    rox "Hehe, we party every {b}Saturday{/b}."
     show roxxy 1h
-    rox "Кто знает, может быть мы будем играть в {b}бутылочку.{/b}"
+    rox "Who knows, maybe we'll play more {b}spin the bottle.{/b}"
     show roxxy 1g
     show player 14
-    player_name "Да, круто!"
+    player_name "Yeah, awesome!"
     show player 17
-    player_name "Я приду!"
+    player_name "I'll be there!"
     hide player
     hide roxxy
     with dissolve
@@ -2323,118 +2324,118 @@ label home_roxxy_dialogue_leave_relationship_2:
 label home_roxxy_dialogue_leave_relationship_3:
     show roxxy 32 with dissolve
     show player 12
-    player_name "Не волнуйся."
-    player_name "Я не позволю чтобы что-то случилось ни с тобой ни с твоими друзьями."
+    player_name "Don't worry."
+    player_name "I'm not going to let anything happen to you or your friends."
     show player 90
     show roxxy 33
-    rox "Да, а как насчёт тебя?!"
+    rox "Yeah but what about you?!"
     show roxxy 32
     show player 12
-    player_name "Я буду в порядке."
-    player_name "Я обещаю."
+    player_name "I'll be fine."
+    player_name "I promise."
     hide player
     show roxxy 59 at left
     with dissolve
-    rox "Просто будь осторожен."
+    rox "Just be careful."
     hide roxxy with dissolve
     return
 
 label home_roxxy_dialogue_leave_relationship_4:
     show player 14
-    player_name "У меня есть другие дела я должен их сделать сегодня вечером."
+    player_name "I've got other stuff I need to do tonight"
     show player 13
     show roxxy 1h
-    rox "Намного важнее чем твоя красивая девушка?!"
+    rox "More important than you're beautiful girlfriend?!"
     show roxxy 1g
     show player 12
-    player_name "Хмм?!"
+    player_name "Huh?!"
     show player 10
-    player_name "Н-нет..."
+    player_name "N-no..."
     show player 5
     show roxxy 4
-    rox "Хахахаха!"
+    rox "Hahahaha!"
     show roxxy 1b
-    rox "Я просто прикалываюсь над тобой!"
+    rox "I'm just screwing with you!"
     show roxxy 1
     show player 13
     player_name "..."
     show roxxy 1b
-    rox "Хочешь чтобы я поехала с тобой?"
+    rox "You need me to come with?"
     show roxxy 1
     show player 14
-    player_name "Нет, Я справлюсь с этим."
-    player_name "Ты только оставайся здесь и сосредточься на самой горячей девушке в школе..."
+    player_name "Nah, I can handle it."
+    player_name "You just stay here and focus on being the hottest girl in school..."
     show player 13
     show roxxy 2
-    rox "Пффф!"
-    rox "Вот так можно сосредоточиться..."
+    rox "Pfft!"
+    rox "Like that takes any focus..."
     hide player
     show roxxy 92 at left with dissolve
     pause
     show roxxy 59d with dissolve
-    rox "Возвращайся скорей!"
+    rox "Come back soon!"
     hide roxxy with dissolve
     return
 
 label button_roxxy_home_hang_out:
     show player 14
-    player_name "Я просто подумал, может быть, сходим куда-нибудь?"
+    player_name "I was just thinking, maybe we could hang out?"
     show player 13
     show roxxy 3c
-    rox "Хмм?"
+    rox "Huh?"
     show player 5
     show roxxy 2
-    rox "Почему ты хочешь куда-то сходить?"
+    rox "Why would we hang out?"
     show roxxy 1
     show player 12
-    player_name "... Потому что мы друзья?"
+    player_name "... Because we're friends?"
     show player 5
     show roxxy 2
-    rox "... Верно."
+    rox "... Right."
     show roxxy 1
     player_name "..."
     show roxxy 2
-    rox "Что ж, Я вроде бы сейчас разговариваю по телефону."
-    rox "Так что это неподходящее время."
+    rox "Well, I'm kinda talking on the phone right now."
+    rox "So this is a bad time."
     show roxxy 1
     show player 10
-    player_name "Ох, хорошо."
-    player_name "... Может быть в другой раз?"
+    player_name "Oh, okay."
+    player_name "... Maybe some other time?"
     show player 5
     show roxxy 2
     rox "..."
     hide roxxy with dissolve
     pause
     show player 12
-    player_name "Эмм, пока?"
+    player_name "Umm, bye?"
     show player 5
     player_name "..."
     return
 
 label button_roxxy_home_hows_it_going:
     show player 14
-    player_name "Как продвигаются твои дела?"
+    player_name "So how are things going around here?"
     show player 13
     show roxxy 4
-    rox "Очень хорошо!"
+    rox "Really good!"
     show roxxy 1b
-    rox "Вообще то стало намного лучше когда {b}Клайд{/b} ушел."
+    rox "Things are actually a lot better with {b}Clyde{/b} gone."
     show roxxy 1
     show player 14
-    player_name "Ох да?"
+    player_name "Oh yeah?"
     show player 13
     show roxxy 1b
-    rox "Полностью."
+    rox "Totally."
     show roxxy 2
-    rox "То есть, моей маме чертовски стыдно до сих пор..."
+    rox "I mean, my mom is still embarrassing as hell..."
     show roxxy 1b
-    rox "... Но так легче жить когда дело касается только её."
+    rox "... But it's easier to deal with when it's just her."
     show roxxy 1
     show player 14
-    player_name "Твоя мама не такая уж и плохая, {b}Рокси{/b}."
+    player_name "You're mom isn't so bad, {b}Roxxy{/b}."
     show player 13
     show roxxy 2
-    rox "Ну да,конечно!"
+    rox "Yeah right!"
     show roxxy 1
     return
 
@@ -2443,45 +2444,45 @@ label button_roxxy_trailer_bed_sex_first:
     show player 14 at left
     show roxxy 1
     with dissolve
-    player_name "Итак ты сказала что ты хотела потусоваться?"
+    player_name "So you said you wanted to hang out?"
     show player 13
     show roxxy 1h
-    rox "Хехехе, да..."
+    rox "Hehehe, yes..."
     show roxxy 1g
     show player 10
-    player_name "Ясно, эмм... Чем бы ты хотела заняться?"
-    player_name "Мы могли бы пойти в кино или что ни-"
+    player_name "Alright, uhh... What do you want to do?"
+    player_name "We could go rent a movie or som-"
     hide player
     show roxxy 92 at left
     player_name "!!!" with hpunch
     pause
-    rox "Мммм..."
+    rox "Mmm..."
     show roxxy 59d with dissolve
     rox "..."
     show roxxy 59e
-    player_name "Хех, ох..."
-    player_name "Ты хочешь продолжить с того места где мы с тобой остановились в прошлый раз, ммм?"
+    player_name "Heh, oh..."
+    player_name "You wanna pick up where we left off last time, huh?"
     show roxxy 59d
-    rox "... Правильно."
+    rox "... That's right."
     show roxxy 92 with dissolve
     pause
 
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy foot 8b_9b at right with dissolve
-    rox "Ебаааать!!"
-    rox "Ты так хорош а этом!"
+    rox "Fuuuuuck!!"
+    rox "You are so good at this!"
     player_name "..."
-    rox "Где ты так научился-"
-    rox "Ааааххх!!"
+    rox "Why are you so good at-"
+    rox "Aaahhh!!"
     pause
-    rox "Не останавливайся, {b}[firstname]{/b}!"
+    rox "Don't stop, {b}[firstname]{/b}!"
     pause
-    rox "Ахх, Дерьмо! Мммм, не останавливайся!!!"
+    rox "Ahh, Shit! Mmm, don't stop!!!"
     pause
-    rox "Аааах!!"
+    rox "Haaah!!"
     player_name "..."
-    rox "... Я больше не выдержу!"
-    player_name "Хмм?"
+    rox "... I can't take it anymore!"
+    player_name "Hmm?"
     hide roxxy
     show roxxy 93b zorder 1
     show player_sitting 16b zorder 2 at Position (xpos=588)
@@ -2498,33 +2499,33 @@ label button_roxxy_trailer_bed_sex_first:
     show roxxy 40 at Position (xoffset=-248,yoffset=-78)
     show roxxy_outfit bed panties zorder 2
     with dissolve
-    rox "Выеби меня, {b}[firstname]{/b}!"
+    rox "Fuck me, {b}[firstname]{/b}!"
     show roxxy 39 at Position (xoffset=-248,yoffset=-78)
     show player_sitting 17
-    player_name "В самом деле?!"
+    player_name "Really?!"
     show player_sitting 16
     show roxxy 40 at Position (xoffset=-248,yoffset=-78)
-    rox "Да, в самом деле!"
+    rox "Yes, really!"
     hide roxxy_outfit
     show roxxy 96b
     with dissolve
     show player_sitting 16b
-    rox "Я так сильно тебя хочу!"
+    rox "I want you so bad!"
     show roxxy 98 with dissolve
-    rox "Ты не чувствуешь какая я мокрая?"
+    rox "Didn't you feel how wet I am?"
     show roxxy 97b with dissolve
     show player_sitting 17b
-    player_name "Д-дааа..."
+    player_name "Y-yeah..."
     show player_sitting 16b
     show roxxy 99 with dissolve
-    rox "Ммм, Мне он нужен!"
+    rox "Mmm, I need it!"
     show roxxy 99b
     pause
     show roxxy 100 with dissolve
-    rox "Иди сюда и трахни меня, {b}[firstname]{/b}!"
+    rox "Get over here and fuck me, {b}[firstname]{/b}!"
     show roxxy 100b_100c
     show player_sitting 17b
-    player_name "Х-хорошо!"
+    player_name "O-okay!"
     show player_sitting 22 at right with dissolve
     pause
     show player_sitting 23 with dissolve
@@ -2548,16 +2549,16 @@ label button_roxxy_trailer_bed_sex_first:
 
     scene expression "backgrounds/location_trailer_bedroom_sex.jpg"
     show roxxys_bed 9b at left with dissolve
-    rox "Мммм, Я не могу поверить что у меня с тобой был секс..."
-    rox "Не так давно, Я быпросто посмеялась над этой мыслью-"
+    rox "Mmm, I can't believe I'm about to have sex with you..."
+    rox "Not long ago, I would have laughed at the idea-"
     show roxxys_bed 10 with dissolve
     rox "!!!" with hpunch
     show roxxys_bed 1 at Position(xalign = 0.0, yoffset = -14) with dissolve
-    rox "НИ ХРЕНА СЕБЕ!!!"
-    rox "Глоток!!!"
+    rox "HOLY SHIT!!!"
+    rox "Nngghhh!!!"
     show roxxys_bed 2 at Position(xalign = 0.0, yoffset = -14) with dissolve
-    rox "Он чертовски большой!!"
-    rox "Я не могу-"
+    rox "It's so fucking big!!"
+    rox "I can't-"
     return
 
 label button_roxxy_trailer_bed_sex_repeat:
@@ -2565,18 +2566,18 @@ label button_roxxy_trailer_bed_sex_repeat:
     show player 14 at left
     show roxxy 1 at right
     with dissolve
-    player_name "И так, Ты хочешь... Эм, повеселиться еще раз?"
+    player_name "So, you wanna... Umm, hang out again?"
     show player 13
     show roxxy 4
-    rox "Хаха, Ты такой придурок!"
+    rox "Haha, you're such a dork!"
     show roxxy 1h
-    rox "Если ты хочешь трахнуть меня, то так и скажи!"
+    rox "If you wanna fuck me, then just say so!"
     show roxxy 1g
     show player 14
-    player_name "... Я хочу выебать тебя."
+    player_name "... I wanna fuck you."
     show player 13
     show roxxy 2
-    rox "Хорошо! Самое, мать его, время!"
+    rox "Good! It's about damn time!"
     show roxxy 1g
     player_name "..."
     hide player
@@ -2589,12 +2590,12 @@ label button_roxxy_trailer_bed_sex_repeat:
     show roxxy_outfit zorder 2 at Position (xoffset=-76,yoffset=22)
     show player_sitting 16 zorder 2 at Position (xpos=588)
     with dissolve
-    rox "Я твоя сучка, помнишь?"
+    rox "I'm your bitch, remember?"
     hide roxxy_outfit
     show roxxy 93
     with dissolve
     show player_sitting 17
-    player_name "Да?"
+    player_name "Yeah?"
     show player_sitting 16b
     show roxxy 94 with dissolve
     pause
@@ -2611,14 +2612,14 @@ label button_roxxy_trailer_bed_sex_repeat:
     show roxxy 98 with dissolve
     pause
     show roxxy 99 with dissolve
-    rox "Так что иди сюда и трахни меня как суку какой я и являюсь..."
+    rox "So get over here and fuck me like the bitch I am..."
     if randomizer() > 50:
         show roxxy 100b_100c with dissolve
     else:
         show roxxy 100d_100e with dissolve
     pause
     show player_sitting 17b
-    player_name "О-окей!"
+    player_name "O-okay!"
     show player_sitting 22 at right with dissolve
     pause
     show player_sitting 23 with dissolve
@@ -2641,12 +2642,12 @@ label button_roxxy_trailer_bed_sex_repeat:
 
     scene expression "backgrounds/location_trailer_bedroom_sex.jpg"
     show roxxys_bed 9b at left with dissolve
-    rox "Ммм, вот и всё {b}[firstname]{/b}... Дай его мне!"
+    rox "Mmm, that's it {b}[firstname]{/b}... Give it to me!"
     show roxxys_bed 10
     rox "!!!" with hpunch
     show roxxys_bed 1 at Position(xalign = 0.0, yoffset = -14) with dissolve
-    rox "Ебааааать!"
-    rox "Я клянусь, Он становится больше с каждым разом!"
+    rox "Fuuuuck!"
+    rox "I swear, it gets bigger every time!"
     return
 
 label button_roxxy_trailer_bed_sex_loop_pre:
@@ -2661,9 +2662,9 @@ label button_roxxy_trailer_bed_sex_loop:
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-           if not animated:
-            show expression AnimatedImage("roxxys_bed", [1,2,3,4,5,6,7,8], M_roxxy) as roxxys_bed at Position(xalign = 0.0, yoffset = -14)
-            $ animated = True
+            if not animated:
+                show expression AnimatedImage("roxxys_bed", [1,2,3,4,5,6,7,8], M_roxxy) as roxxys_bed at Position(xalign = 0.0, yoffset = -14)
+                $ animated = True
             pause 5
             call expression game.dialog_select("roxxy_trailer_hscene_dialog")
             pause 3
@@ -2688,87 +2689,87 @@ label roxxy_trailer_hscene_dialog:
     if animcounter == 0:
         if M_roxxy.get("roxxy trailer sex first"):
             rox "!!!{p=1}{nw}" with hpunch
-            rox "АААХХХХХХ!!!{p=1}{nw}"
+            rox "AAAHHHHHH!!!{p=1}{nw}"
 
         elif not M_roxxy.get("roxxy trailer sex first"):
             if random_count <= 33:
-                rox "Ахх!{p=1}{nw}"
+                rox "Ahh!{p=1}{nw}"
                 pause
-                player_name "Тебе это нравится?{p=1}{nw}"
-                rox "Даа!!{p=1}{nw}"
+                player_name "You like that?{p=1}{nw}"
+                rox "Yess!!{p=1}{nw}"
 
             elif random_count > 33 and random_count <= 66:
-                rox "Охренеть!{p=1}{nw}"
-                player_name "Очень грубо?!{p=1}{nw}"
-                rox "НЕТ!!!{p=1}{nw}"
-                rox "Трахай меня жестче!{p=1}{nw}"
-                player_name "О-окей...{p=1}{nw}"
+                rox "Holy shit!{p=1}{nw}"
+                player_name "Too rough?!{p=1}{nw}"
+                rox "NO!!!{p=1}{nw}"
+                rox "Fuck me harder!{p=1}{nw}"
+                player_name "O-okay...{p=1}{nw}"
             else:
 
-                rox "Ммм, Я блять обожаю когда ты тянешь меня за волосы!{p=2}{nw}"
-                player_name "Ох да?{p=1}{nw}"
-                rox "Дааааа!{p=1}{nw}"
-                player_name "... Может быть я должен тянуть сильнее тогда!{p=2}{nw}"
+                rox "Mmm, I fucking love it when you pull my hair!{p=2}{nw}"
+                player_name "Oh yeah?{p=1}{nw}"
+                rox "Yessss!{p=1}{nw}"
+                player_name "... Maybe I should pull it harder then!{p=2}{nw}"
 
     elif animcounter == 1:
         if M_roxxy.get("roxxy trailer sex first"):
-            rox "Вот чёрт!{p=1}{nw}"
-            rox "Оооох дерьмо!!{p=1}{nw}"
-            rox "ААААХХХХХХ!!!{p=1}{nw}"
+            rox "Oh shit!{p=1}{nw}"
+            rox "Ooooh shit!!{p=1}{nw}"
+            rox "AAAAHHHHH!!!{p=1}{nw}"
 
         elif not M_roxxy.get("roxxy trailer sex first"):
             if random_count <= 33:
-                player_name "Чья ты сучка?{p=2}{nw}"
-                rox "Я твоя сучка, {b}[firstname]{/b}!{p=2}{nw}"
-                player_name "Громче!{p=1}{nw}"
-                rox "Я твоя сучка!! Я твоя сучка!!! Оо Боже, {b}[firstname]{/b}!{p=2}{nw}"
-                rox "Я ТВОЯ МАЛЕНЬКАЯ ГРЯЗНАЯ СУЧКА!!!{p=2}{nw}"
+                player_name "Who's bitch are you?{p=2}{nw}"
+                rox "I'm your bitch, {b}[firstname]{/b}!{p=2}{nw}"
+                player_name "Louder!{p=1}{nw}"
+                rox "I'm your bitch!! I'm your bitch!!! Oh god, {b}[firstname]{/b}!{p=2}{nw}"
+                rox "I'M YOUR DIRTY LITTLE BITCH!!!{p=2}{nw}"
         else:
 
-            rox "Аххх! Ебать, как хорошо!!!{p=1}{nw}"
+            rox "Ahhh! Fuck this is so good!!!{p=1}{nw}"
 
     elif animcounter == 2:
         if M_roxxy.get("roxxy trailer sex first"):
-            rox "Мммм, ебать!{p=1}{nw}"
-            rox "Ггггггг!!!{p=1}{nw}"
+            rox "Mmmm, fuck!{p=1}{nw}"
+            rox "Nngghhh!!!{p=1}{nw}"
 
         elif not M_roxxy.get("roxxy trailer sex first"):
             if random_count <= 33:
-                rox "Выебиии меняяя!!!{p=1}{nw}"
+                rox "Fuuuck meeee!!!{p=1}{nw}"
 
             elif random_count > 33 and random_count <= 66:
-                rox "ААААААХХХХ!!!"
+                rox "AAAAAHHHH!!!"
             else:
 
-                rox "АААХХХХ!!! ЕБАТЬ ДА!!!{p=1}{nw}"
-                rox "Боже, твой член настолько хорош, {b}[firstname]{/b}!!!{p=2}{nw}"
+                rox "AAAHHHH!!! FUCK YES!!!{p=1}{nw}"
+                rox "God, your dick is so good, {b}[firstname]{/b}!!!{p=2}{nw}"
         else:
 
             rox "{b}[firstname]{/b}!!!{p=1}{nw}"
 
     elif animcounter == 3:
         if M_roxxy.get("roxxy trailer sex first"):
-            player_name "Тебе нравится когда я тяну тебя за волосы?!{p=2}{nw}"
+            player_name "You like me pulling your hair?!{p=2}{nw}"
             pause
-            rox "ДААААА!{p=1}{nw}"
-            rox "Ахх, назави меня сукой!{p=2}{nw}"
-            player_name "Хмм?{p=1}{nw}"
-            rox "Скажи мне что я твоя сука!{p=2}{nw}"
-            player_name "... Ты моя сука?{p=2}{nw}"
-            rox "Блять, Дааа!!!{p=1}{nw}"
+            rox "YESSSS!{p=1}{nw}"
+            rox "Ahh, call me a bitch!{p=2}{nw}"
+            player_name "Hmm?{p=1}{nw}"
+            rox "Tell me I'm your bitch!{p=2}{nw}"
+            player_name "... You're my bitch?{p=2}{nw}"
+            rox "Fuck yesss!!!{p=1}{nw}"
 
         elif not M_roxxy.get("roxxy trailer sex first"):
             if random_count <= 33:
-                rox "Гггггг!! Как же это охеренно хорошо!!!{p=1}{nw}"
+                rox "Ngghhh!! It's so fucking good!!!{p=1}{nw}"
 
             elif random_count > 66:
-                rox "Гггггг!!! Бляяяять!!!{p=1}{nw}"
+                rox "Ngghhh!!! Fuuuuck!!!{p=1}{nw}"
         else:
 
             if random_count > 50:
-                rox "Ооох, Я собираюсь кончить!{p=1}{nw}"
-                player_name "Я тоже почти!{p=1}{nw}"
-                rox "Я собираюсь-{p=1}{nw}"
+                rox "Oooh, I'm gonna cum!{p=1}{nw}"
+                player_name "I'm getting close too!{p=1}{nw}"
+                rox "I'm gonna-{p=1}{nw}"
     return
 
 label button_roxxy_trailer_bed_sex_cum:
@@ -2786,158 +2787,167 @@ label button_roxxy_trailer_bed_sex_cum:
     $ game.main()
 
 label roxxy_trailer_sex_cum_first:
-    player_name "Кончи для меня, сучка!"
-    rox "ААААХХХХ!!!"
+    player_name "Cum for me, bitch!"
+    rox "AAAAHHHH!!!"
     show roxxys_bed 10_10b
-    player_name "ГГГГГГГГ!!!{nw}{p=1.2}" with flash
+    player_name "HNNGGG!!!{nw}{p=1.2}" with flash
+    show roxxys_bed 10
+    show xray_roxxy_trailer_bed at Position (align=(0,0))
+    with dissolve
+    pause
+    hide xray_roxxy_trailer_bed
     show roxxys_bed 11 with dissolve
     pause
-    hide roxxy
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy 101
     show player_sitting 17b at Position (xpos=630)
     with dissolve
-    player_name "Аааах... Аааах..."
-    player_name "Уф, это было... Великолепно!"
+    player_name "Haaah... Haaah..."
+    player_name "Phew, that was... Awesome!"
     show player_sitting 16b
     rox "..."
     show player_sitting 17b
-    player_name "{b}Рокси{/b}?"
+    player_name "{b}Roxxy{/b}?"
     show player_sitting 16b
-    rox "{b}*Хнычет*{/b}"
+    rox "{b}*Whimper*{/b}"
     show player_sitting 17b
-    player_name "... Ты в порядке?"
+    player_name "... You alright?"
     show player_sitting 16b
-    rox "Ухх, о да? Я лучше всех!"
-    rox "Это было невероя-"
-    rox "Ммм..."
-    rox "Невероятно!"
+    rox "Uhh, fuck yea? I'm great!"
+    rox "That was incredi-"
+    rox "Mmm..."
+    rox "Incredible!"
     show player_sitting 17b
-    player_name "Хех, ты все еще немного в конвульсиях..."
+    player_name "Heh, you're still convulsing a bit..."
     show player_sitting 16b
-    rox "... Это потому что Я еще чувствую волны-"
-    rox "ГГГГГГ..."
+    rox "... That's 'cause I'm still feeling waves of-"
+    rox "Nngghh..."
     rox "..."
-    rox "Матерь божья!"
+    rox "Holy shit!"
     hide player_sitting
     show roxxy 102
     with dissolve
-    player_name "Неплохо для ботана, мм?"
+    player_name "Not bad for a nerd, huh?"
     show roxxy 104
-    rox "Хахаха!"
+    rox "Hahaha!"
     show roxxy 103
-    rox "Да, если бы ты только справился раньше."
-    rox "Мы могли бы заниматься этим все лето!"
+    rox "Yeah, if only you had manned up sooner."
+    rox "We could have been doing this all summer!"
     show roxxy 102
-    player_name "Хех, что ж я думаю мы должны компенсировать потерянное время..."
+    player_name "Heh, well I guess we'll just have to make up for lost time..."
     show roxxy 103
-    rox "Ещё как!"
-    rox "... Просто полежи здесь со мной ещё немножко."
-    rox "Я всё еще не чувствую своих ног!"
+    rox "Hell yeah!"
+    rox "... Just lie here with me for a second though."
+    rox "I still can't feel my legs!"
     show roxxy 105
-    player_name "Хахаха!"
-    rox "Хахаха!"
+    player_name "Hahaha!"
+    rox "Hahaha!"
     hide roxxy with dissolve
 
     scene expression game.timer.image("trailer_bedroom{}_blur")
     show player 14 at left
     show roxxy 23 at right
     with dissolve
-    player_name "Хех, это было очень круто!"
+    player_name "Heh, so that was fun!"
     show player 13
     show roxxy 23b
-    rox "Боже мой, Я не думаю что я смогу завтра ходить..."
+    rox "Oh my god, I don't think I'm going to be able to walk tomorrow..."
     show roxxy 23
     show player 14
-    player_name "Хахаха... Реально?!"
+    player_name "Hahaha... Really?!"
     show player 13
     show roxxy 24
-    rox "Я серьёзно!"
+    rox "I'm serious!"
     show roxxy 23
     show player 10
-    player_name "Извини, Я не хотел-"
+    player_name "Sorry, I didn't mean to-"
     show player 5
     show roxxy 23b
-    rox "Ох, заткнись!"
-    rox "Ты не должен извиняться после того как дал девушке множественные сногшибательные оргазмы..."
+    rox "Oh, shut up!"
+    rox "You're not supposed to apologize after you give a girl multiple earth shattering orgasms..."
     show roxxy 23
     show player 10
-    player_name "... Правда."
-    player_name "Изв-"
+    player_name "... Right."
+    player_name "Sor-"
     show player 12
-    player_name "То есть..."
+    player_name "I mean..."
     show player 5
     show roxxy 24
-    rox "Просто поцелуй меня, ты дурачок!"
+    rox "Just kiss me, you idiot!"
     hide player
     show roxxy 92b at left
     with dissolve
     pause
     show roxxy 59g with dissolve
-    rox "Не забывай!"
-    rox "Теперь ты МОЙ парень!"
+    rox "Don't forget!"
+    rox "You're MY man now!"
     show roxxy 59h
-    player_name "Хех, Я этого не забуду..."
+    player_name "Heh, I won't forget..."
     show roxxy 59g
-    rox "... И я твоя Сучка!"
+    rox "... And I'm your bitch!"
     show roxxy 59h
     player_name "..."
     show roxxy 59g
-    rox "Скажи это!"
+    rox "Say it!"
     show roxxy 59h
-    player_name "Я твой парень, а ты моя сучка."
+    player_name "I'm your man and you're my bitch."
     show roxxy 59g
-    rox "Хорошо!"
+    rox "Good!"
     show roxxy 92b with dissolve
     pause
     show roxxy 24 at center
     show player 13 at left
     with dissolve
-    rox "Закрой дверь когда будешь уходить."
-    rox "Иначе, моя мама придет сюда и будет задавать мне миллиард вопросов..."
+    rox "Close the door on the way out."
+    rox "Otherwise, my mom is going to come in here and ask me a billion questions..."
     show roxxy 23
     player_name "..."
     show player 14
-    player_name "Спокойной ночи, {b}Рокси{/b}."
+    player_name "Good night, {b}Roxxy{/b}."
     show player 13
     show roxxy 24
-    rox "Ммм, спокойной ночи, {b}[firstname]{/b}..."
+    rox "Mmm, good night, {b}[firstname]{/b}..."
     hide player
     hide roxxy
     with dissolve
     return
 
 label roxxy_trailer_sex_cum_repeat:
-    player_name "Кончи для меня, сучка!"
-    rox "ААААХХХХ!!!"
+    player_name "Cum for me, bitch!"
+    rox "AAAAHHHH!!!"
     show roxxys_bed 10_10b
-    player_name "ГГГГГГГГ!!!{nw}{p=1.2}" with flash
-    show roxxys_bed 11 with dissolve
+    player_name "HNNGGG!!!{nw}{p=1.2}" with flash
+    show roxxys_bed 10
+    show xray_roxxy_trailer_bed at Position (align=(0,0))
+    with dissolve
     pause
-    hide roxxy
+    hide xray_roxxy_trailer_bed
+    show roxxys_bed 11
+    with dissolve
+    pause
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy 101
     show player_sitting 16b at Position (xpos=630)
     with dissolve
-    rox "Ты знаешь... Я очень люблю этот твой член, {b}[firstname]{/b}!"
+    rox "You know... I really love that dick of yours, {b}[firstname]{/b}!"
     show player_sitting 17b
-    player_name "Только мой член?"
+    player_name "Just my dick?"
     show player_sitting 16b
-    rox "... Я-"
+    rox "... I-"
     rox "..."
     hide player_sitting
     show roxxy 102
     with dissolve
-    player_name "Хех, извини..."
-    player_name "Я не должен был этого говорить."
-    player_name "Увидимся завтра?!"
+    player_name "Heh, sorry..."
+    player_name "I shouldn't have said that."
+    player_name "I'll see you tomorrow?!"
     show roxxy 103
-    rox "...Ага."
-    rox "Безусловно!"
+    rox "...Yeah."
+    rox "Definitely!"
     show roxxy 102
-    player_name "Наверно мне пора идти."
+    player_name "I should probably get going."
     show roxxy 103
-    rox "Хорошо..."
+    rox "Alright..."
     hide roxxy with dissolve
 
     scene expression game.timer.image("trailer_bedroom{}_blur")
@@ -2945,9 +2955,9 @@ label roxxy_trailer_sex_cum_repeat:
     with dissolve
     pause
     show roxxy 59h with dissolve
-    player_name "Приятных снов, {b}Рокси{/b}."
+    player_name "Good night, {b}Roxxy{/b}."
     show roxxy 59g
-    rox "Спокойной ночи, {b}[firstname]{/b}."
+    rox "Good night, {b}[firstname]{/b}."
     hide roxxy with dissolve
     return
 
@@ -2957,69 +2967,69 @@ label button_roxxy_beach_intro:
     show missy bikini 2 at left
     show roxxy bikini 1f at Position (xpos=500)
     with dissolve
-    missy "{b}*Вздох* [firstname]{/b} пришел!!"
+    missy "{b}*Gasp* [firstname]{/b} is here!!"
     show missy bikini 1
     show roxxy bikini 2f
-    rox "Наконец-то!"
-    rox "Я уже начала думать что ты уже не придешь!"
+    rox "Finally!"
+    rox "I was starting to think you weren't gonna show!"
     show roxxy bikini 1f
     show becca bikini 8 with dissolve
-    becca "Ууууууууууууу!!!"
+    becca "Woooooooooo!!!"
     show becca bikini 9 with dissolve
     player_name "..."
     show player 10f
-    player_name "{b}Бекка{/b} в стельку?!"
+    player_name "Is {b}Becca{/b} hammered?!"
     show player 5f
     show roxxy bikini 2f
-    rox "{b}*Вздох*{/b} Что ж, это после заката в субботу так что..."
+    rox "{b}*Sigh*{/b} Well, it's after sun down on a Saturday so..."
     show roxxy bikini 1f
     show missy bikini 2b
-    missy "Она такая легкая!"
+    missy "She's such a light weight!"
     show missy bikini 1b
     show becca bikini 10
-    becca "Да пошли вы сучки!"
+    becca "Fuck you bitches!"
     show becca bikini 9
     show player 17f
-    player_name "Хахаха!"
+    player_name "Hahaha!"
     show player 13f
     show becca bikini 10
-    becca "Кто нибудь возьмите бутылку чтобы я могла поцеловать {b}[firstname]{/b} снова!"
+    becca "Somebody get a bottle so I can kiss {b}[firstname]{/b} again!"
     show becca bikini 9
     show player 11f
     player_name "!!!"
     show missy bikini 10
-    missy "Хэй, это мои слова, шлюха!"
+    missy "Hey, that's my line, skank!"
     show missy bikini 11
     show roxxy bikini 19 with dissolve
-    rox "Угх, вы обе заткнитесь."
+    rox "Ugh, both of you shut up."
     show roxxy bikini 2f with dissolve
-    rox "Нам не обязательно играть если ты не хочешь, {b}[firstname]{/b}..."
+    rox "We don't have to play if you don't want to, {b}[firstname]{/b}..."
     show player 13f
-    rox "Хочешь что бы {b}Мисси{/b} принесла тебе пива?"
+    rox "You want me to have {b}Missy{/b} get you a beer?"
     show roxxy bikini 1f
     show missy bikini 1
     return
 
 label button_roxxy_beach_spin_bottle:
     show player 14f
-    player_name "Мы можем играть."
+    player_name "We can play."
     show player 13f
     show missy bikini 13
-    missy "ДА!"
+    missy "YES!"
     show missy bikini 1b
     show becca bikini 8 with dissolve
-    becca "Уууууууууууу!!!"
+    becca "Woooooooooo!!!"
     show becca bikini 9 with dissolve
     show roxxy bikini 2f
-    rox "Хаха, хорошо."
+    rox "Haha, alright."
     show roxxy bikini 2 with dissolve
-    rox "{b}Мисси{/b} иди возьми какую-то пустую бутылку и мы сможем начать."
+    rox "{b}Missy{/b} go grab us an empty bottle and we can get started."
     show roxxy bikini 1
     show missy bikini 2b
-    missy "Уже бегу!"
+    missy "I'm on it!"
     hide missy with dissolve
     show roxxy bikini 2f with dissolve
-    rox "Садись здесь рядом со мной, {b}[firstname]{/b}..."
+    rox "Come sit next to me, {b}[firstname]{/b}..."
     hide player
     hide roxxy
     hide becca
@@ -3034,45 +3044,45 @@ label button_roxxy_beach_spin_bottle_sex_repeat:
     show missy sitting 1 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    player_name "Ну что девченки готовы к игре в бутылочку?"
+    player_name "You girls up for a game of spin the bottle?"
     show player_sitting 3
     show missy sitting 5
-    missy "ДА!!!"
+    missy "YES!!!"
     show missy sitting 2
     show roxxy sitting 3
-    rox "Конечно."
+    rox "Of course."
     show roxxy sitting 2
     show becca sitting 3
-    becca "Мне плохо."
+    becca "I'm down."
     show becca sitting 2
     show player_sitting 4
-    player_name "Круто."
+    player_name "Awesome."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Ты помнишь новые правила?"
-    rox "Я назову {b}последнее вращение{/b} и победитель получить особенный приз в раздевалке."
+    rox "You remember the new rules?"
+    rox "I'll call {b}final spin{/b} and the winner gets a special reward in the changing room."
     show roxxy sitting 2
     show player_sitting 4b
-    player_name "Я запомнил."
+    player_name "I remember."
     show player_sitting 3
     show missy sitting 5
-    missy "Хехе, лучшая особенный приз когда-либо!"
+    missy "Hehe, best special reward ever!"
     show missy sitting 3
-    missy "Правда, {b}Бекка{/b}?!"
+    missy "Right, {b}Becca{/b}?!"
     show missy sitting 2
     show becca sitting 9
     becca "..."
     show roxxy sitting 6
-    rox "Заткнитесь, обе.."
+    rox "Shut up, you two..."
     show roxxy sitting 3
-    rox "Давайте начнем."
+    rox "Let's get started."
     return
 
 label button_roxxy_beach_leave_before_spin_bottle:
     show player 10f
-    player_name "Ещё увидимся."
+    player_name "I'll see you around."
     show roxxy bikini 2f
-    rox "Пока, {b}[firstname]{/b}!"
+    rox "See ya, {b}[firstname]{/b}!"
     hide player
     hide roxxy
     with dissolve
@@ -3080,41 +3090,41 @@ label button_roxxy_beach_leave_before_spin_bottle:
 
 label button_roxxy_beach_leave:
     show player 10f
-    player_name "Нет, Я действительно не могу остаться на ночь..."
+    player_name "Nah, I can't really stay tonight..."
     show player 5f
     show becca bikini 10
-    becca "Что?!"
+    becca "What?!"
     show becca bikini 9
     show missy bikini 2
-    missy "Ооу..."
+    missy "Aww..."
     show missy bikini 1
     show becca bikini 10
-    becca "Я не смогу его поцеловать если его здесь не будет!!!"
+    becca "I can't kiss him if he isn't here!!!"
     show becca bikini 9
     show missy bikini 10
-    missy "Отстооой!"
+    missy "Laaaaame!"
     show missy bikini 11
     show roxxy bikini 19 with dissolve
-    rox "О мой Бог... Заткнитесь, вы обе!"
+    rox "Oh my god... Shuddup, both of you!"
     show roxxy bikini 2f with dissolve
-    rox "Ты уверен, что не можешь остаться?"
-    rox "У нас есть пиво..."
+    rox "You sure you can't stay?"
+    rox "We have beer..."
     show roxxy bikini 1f
     show player 10f
-    player_name "Нет, У меня есть дело в другом месте я должен быть там."
-    player_name "Извини."
+    player_name "No, I have somewhere else I need to be."
+    player_name "Sorry."
     show player 5f
     show roxxy bikini 2f
-    rox "Я думаю, нам придеться развлекаться самостоятельно..."
+    rox "I guess, we'll just have to entertain ourselves..."
     show roxxy bikini 1f
     show becca bikini 7 with dissolve
-    becca "Агх, это отстой!"
+    becca "Ugh, this sucks!"
     show becca bikini 9 with dissolve
     show missy bikini 10
-    missy "Отстооой!"
+    missy "Laaaaame!"
     show missy bikini 11
     show roxxy bikini 2f
-    rox "Увидимся, {b}[firstname]{/b}!"
+    rox "See ya, {b}[firstname]{/b}!"
     hide becca
     hide missy
     hide roxxy

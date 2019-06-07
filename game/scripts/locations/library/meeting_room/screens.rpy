@@ -1,4 +1,6 @@
-screen library_meeting_room:
+screen library_meeting_room():
+    use mods_screens_hook("library_meeting_room")
+
     add "backgrounds/location_library_meeting_day.jpg"
 
     imagebutton:

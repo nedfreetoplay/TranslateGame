@@ -17,7 +17,7 @@ init python:
             self.items = []
 
     class ComicItem:
-        def __init__(self, item, name = "", image = "", popup = "", idle = "", hover = "", price = 0, category = "", purchased = False):
+        def __init__(self, item, name = "", image = "", popup = "", idle = "", hover = "", price = 0, category = "", purchased = False, availability=None, callback=None):
             self.name = name
             self.image = image
             self.popup = popup
@@ -27,6 +27,8 @@ init python:
             self.category = category
             self.item = item
             self.purchased = purchased
+            self.availability = availability 
+            self.callback = callback
 
 
     class ComicStore (object) :

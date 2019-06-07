@@ -2,96 +2,96 @@ label button_grace_mia_get_tattoo:
     scene tattoo_indoor_c
     show mia 7f at Position (xpos=400)
     show player 13 at left
-    show grace 2 at right
+    show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Эй, там!"
-    grace "У вас здесь встреча?"
+    grace "Hey there!"
+    grace "Are you here for an appointment?"
     return
 
 label button_grace_generic:
     show player 13 at left
-    show grace 2 at right
+    show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Эй, там!"
-    grace "У вас здесь встреча?"
+    grace "Hey there!"
+    grace "Are you here for an appointment?"
     return
 
 label button_grace_tattoo:
     show mia 10f
-    mia "Я хотела бы сделать тату... Сейчас."
+    mia "I'd like to get a tattoo... Now."
     show mia 7f
-    show grace 2
-    grace "Сейчас? Я вижу..."
-    show grace 3
-    grace "Вы уже придумали какой-нибудь рисунок?"
-    show grace 1
+    show grace f_normal_talk
+    grace "Now? I see..."
+    show grace f_suspicious
+    grace "Do you have a design in mind?"
+    show grace f_normal
     show mia 30f at Position (xoffset=64) with dissolve
-    mia "Мой друг нарисовал это для меня, и Я хотела бы его сделать сегодня!"
+    mia "My friend here drew this for me, and I'd like it done today!"
     show mia 7f
-    show grace 5
+    show grace f_normal_down_talk a_dressed_hip_paper
     with dissolve
-    grace "Хмм..."
-    show grace 6
-    grace "Ты уверена что ты этого хочешь?"
-    grace "Татуировки постоянные, так что я должна убиться что мои клиенты знают что они делают!"
-    show grace 7
+    grace "Hmm..."
+    show grace f_normal_talk
+    grace "Are you sure you want this done?"
+    grace "Tattoos are permanent, so I have to make sure my clients know what they're getting into!"
+    show grace f_normal
     show mia 10f
-    mia "Я думала об этом об этом уже долгое время... Да, я и правда хочу это сделать."
+    mia "I've been thinking about it for a long time and... Yes, I do want it."
     show mia 7f
-    show grace 6
-    grace "Отлично, солнышко. но, это не дешево!"
-    show grace 7
+    show grace f_normal_talk
+    grace "Alright, sweetie. But, it aint cheap!"
+    show grace f_normal
     show player 14
-    player_name "Сколько это стоит?"
+    player_name "How much is it?"
     show player 13
-    show grace 5
-    grace "Для этого размера... с цветами... примерно {b}$400{/b}."
-    show grace 7
+    show grace f_normal_down_talk
+    grace "For that size... with colors... Around {b}$400{/b}."
+    show grace f_normal
     show player 22
     show mia 12f
     mia "!!!"
-    mia "Черт... Я думаю у меня только {b}$200{/b}..."
+    mia "Damn... I think I only have {b}$200{/b}..."
     show mia 8f
     show player 11
     player_name "..."
     show player 10
-    player_name "Тебе не хватает?"
+    player_name "You don't have enough?"
     show player 5
     show mia 12 with dissolve
-    mia "Нет, это все что мне удалось накопить."
-    mia "Как думаешь что мне делать?"
+    mia "No, that's all I was able to save up."
+    mia "What do you think I should do?"
     show mia 8
     return
 
 label button_grace_tattoo_help:
     show player 14
-    player_name "Я позабочусь об остальном."
+    player_name "I'll cover the rest."
     show player 13
     show mia 12
-    mia "Реально?!"
+    mia "Really?!"
     show mia 7
     show player 14
-    player_name "Почему нет."
-    player_name "Я работал в последнее время так что у меня есть немного денег чтобы потратить..."
+    player_name "Why not."
+    player_name "I've been working lately so I have some money to spend..."
     show player 17
-    player_name "...И это ради благого дела!"
+    player_name "...And it's for a good cause!"
     show player 13
     show mia 10
-    mia "Это очень мило с твоей стороны..."
-    mia "...и я обязательно верну тебе деньги!"
+    mia "That's really sweet of you..."
+    mia "...And I'll make sure to pay you back!"
     show mia 7
     show player 17
-    player_name "Все в порядке, ха ха."
+    player_name "It's alright, ha ha."
     show player 13
-    show grace 6
-    grace "Так что?"
+    show grace f_normal_talk
+    grace "So?"
     show mia 7f with dissolve
-    grace "Готова начать?"
-    show grace 7
+    grace "Ready to start?"
+    show grace f_normal
     show mia 10f
-    mia "Я готова!"
+    mia "I'm ready!"
     hide player
     hide mia
     hide grace
@@ -99,7 +99,7 @@ label button_grace_tattoo_help:
     with dissolve
 
     scene tattoo_cs01
-    show text "Потребовалось некоторое время чтобы {b}Грэйс{/b} закончила работу.\nЯ очень переживал за {b}Мию{/b}...\n...но, казалось что она была в порядке на протяжении всего времени!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "It took a while for {b}Grace{/b} to finish the work.\nI was really nervous for {b}Mia{/b}...\n...But, she seemed to be fine the whole time!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -109,60 +109,60 @@ label button_grace_tattoo_help:
     scene tattoo_indoor_b
     show mia 7f at Position (xpos=400)
     show player 13 at left
-    show grace 2 at right
+    show grace f_normal_talk at right
     with dissolve
-    grace "Все готово!"
-    grace "Я надеюсть вам это понравится ребята."
-    show grace 1
+    grace "All done!"
+    grace "I hope you guys like it."
+    show grace f_normal
     show mia 10f
-    mia "Это потрясающе! И это не было так больно как я думала..."
+    mia "It's great! And it didn't hurt as much as I thought..."
     show mia 7f
-    show grace 2
-    grace "Удоставерься что ты оставила повязку на ней по крайней мере несколько дней."
-    show grace 1
+    show grace f_normal_talk
+    grace "Make sure you leave the bandage on it for at least a few days."
+    show grace f_normal
     show mia 10f
-    mia "Хорошо, спасибо!"
+    mia "Okay, thank you!"
     show mia 7f
-    show grace 2
-    grace "Пока, ребята."
+    show grace f_normal_talk
+    grace "Bye, guys."
     hide grace with dissolve
     pause(.25)
     hide mia
-    show mia 7 right
+    show mia 7 at right
     with dissolve
     show player 14
-    player_name "Ну как?"
+    player_name "How does it feel?"
     show player 13
     show mia 12
-    mia "Татуировка?"
+    mia "The tattoo?"
     show mia 7
     show player 14
-    player_name "Да."
+    player_name "Yeah."
     show player 13
     show mia 12
-    mia "Все прекрасно... просто немножко покалывает."
+    mia "It's fine... It just has this tingling sensation."
     show mia 10
-    mia "И я рада что это сделала... Я наконец могу сказать что я сделать то чего я хотела."
+    mia "And I'm glad I did it... I can finally say I did something that I wanted."
     show mia 7
     show player 10
-    player_name "Ты не боишся что твоя мама сможет об этом узнать?"
+    player_name "Are you scared your mom might find out?"
     show player 5
     show mia 9
-    mia "Надеюсь что нет, но оно находится в хорошо скрытом месте, ха ха."
+    mia "Hopefully not, but it's in a well hidden spot, ha ha."
     show mia 7
     show player 17
-    player_name "Я думаю это круто что ты сделала."
+    player_name "I think it's cool you did it."
     show player 18
     show mia 10
-    mia "Спасибо, {b}[firstname]{/b}.Я счаслива что ты пошел со мной."
+    mia "Thanks, {b}[firstname]{/b}. I'm happy you came with me."
     show player 13
-    mia "Тем не менее, мне нужно идти.Прежде чем моя мама начала что-то подозревать..."
+    mia "I should get going, though. Before my mom starts getting suspicious..."
     show mia 7
     show player 14
-    player_name "Хорошо, увидимся в школе!"
+    player_name "Okay, see you at school!"
     show player 13
     show mia 10
-    mia "Пока."
+    mia "Bye."
     hide player
     hide mia
     with dissolve
@@ -170,26 +170,26 @@ label button_grace_tattoo_help:
 
 label button_grace_tattoo_come_back:
     show player 10
-    player_name "Может быть нам вернуться попозже?"
+    player_name "Maybe we should come back later?"
     show player 5
     mia "..."
     show mia 12
-    mia "Я думаю мы должны."
+    mia "I suppose we should."
     show mia 8
     show player 10
-    player_name "Все будет хорошо. Мы всегда сможем вернуться в другой раз."
+    player_name "It's okay. We can always come back another time."
     show player 5
     show mia 12
-    mia "Ты прав."
+    mia "You're right."
     show mia 8
     show player 10
-    player_name "Очень жаль что ты не смогла сделать свою Татуировку сегодня..."
+    player_name "Sorry you couldn't get your tattoo today..."
     show player 5
     show mia 12
-    mia "Все нормально. Сейчас мне нужно идти домой."
+    mia "It's fine. I should get home now."
     show mia 8
     show player 10
-    player_name "Хорошо, увидимся позже."
+    player_name "Alright, see you later."
     hide player
     hide mia
     hide grace
@@ -201,237 +201,237 @@ label button_grace_paint:
     scene location_tattoo_indoor_closeup
     show player 10 zorder 3 at left
     show xtra 26 zorder 1 at Position(xpos=0.65, ypos=1.0)
-    show grace 1 zorder 0 at right
-    player_name "Могу я тебя спросить?"
+    show grace f_normal zorder 0 at right
+    player_name "May I ask you something?"
     show player 11
-    show grace 2
-    grace "Конечно!"
+    show grace f_normal_talk
+    grace "Sure!"
     show player 10
-    show grace 1
-    player_name "Ну, ты видишь..."
+    show grace f_normal
+    player_name "Well, you see..."
     show player 11
     pause
     show player 10
-    player_name "Дело в том..."
+    player_name "The thing is..."
     show player 11
     grace "..."
     show player 10
-    player_name "... Дело вот в чем..."
+    player_name "... Here's the thing..."
     show player 11
     show eve 2f zorder 2 at Position(xpos=0.35, ypos=1.0) with dissolve
-    eve "Господи, выкладывай уже, {b}[firstname]{/b}!"
+    eve "Geez, spit it out already, {b}[firstname]{/b}!"
     show eve 1bf with dissolve
-    eve "Как дела, Хрюшка Энн?"
+    eve "What up, Raggedy Ann?"
     show eve 5f with dissolve
-    show grace 4
-    grace "Хех, не очень."
-    show grace 2
-    grace "Ты останешься вне проблем, Дрянь?"
+    show grace f_laugh
+    grace "Heh, not much."
+    show grace f_normal_talk
+    grace "You staying outta trouble, Punk?"
     show eve 6bf
-    show grace 1
-    eve "Конечно нет."
+    show grace f_normal
+    eve "Of course not."
     show player 1
     show eve 5f
-    show grace 4
-    grace "Хехе."
+    show grace f_laugh
+    grace "Hehe."
     show eve 2f
-    show grace 1
-    eve "Смотри, {b}[firstname]{/b} здесь нужно немного чернил."
+    show grace f_normal
+    eve "Look, {b}[firstname]{/b} here needs some ink."
     show eve 5f
-    show grace 2
-    grace "Ох, ты думаешь сделать здесь себе тату, Кобель?"
+    show grace f_normal_talk
+    grace "Oh, you thinking of getting a tattoo there, Stud?"
     show player 11
-    show grace 1
+    show grace f_normal
     player_name "..."
     show eve 1bf with dissolve
-    eve "Нет, нет, нет. Ему нажны на самом деле чернилы! Как в бутылках, да Тупица!"
+    eve "No, no, no. He needs actual ink! Like in bottles, ya Dummy!"
     show eve 6bf
-    eve "Извини, она может быть немного заторможенной."
+    eve "Sorry, she can be a little slow."
     show eve 5f
-    show grace 3
-    grace "Хэй! Я всё слышала!"
+    show grace f_suspicious
+    grace "Hey! I heard that!"
     show eve 6f
-    show grace 1
-    eve "Да, Я специально сказала это громко..."
+    show grace f_normal
+    eve "Yeah, I said it loud..."
     show eve 5f
-    show grace 4
-    grace "Хаха, по умничай тут."
+    show grace f_laugh
+    grace "Haha, smart ass."
     show eve 6f
-    show grace 1
-    eve "Люблю тебя, Сис!"
+    show grace f_normal
+    eve "Looove ya, Sis!"
     show eve 5f
-    show grace 2
-    grace "Да, да. Тебе повезло что ты милашка."
+    show grace f_normal_talk
+    grace "Yeah, yeah. You're lucky you're cute."
     show player 1
-    show grace 1
+    show grace f_normal
     show eve 1bf with dissolve
-    eve "Я, я не милашка?"
-    show grace 2
+    eve "I am, aren't I?"
+    show grace f_normal_talk
     show eve 5f with dissolve
-    grace "Итак, сколько чернил тебе нужно, {b}[firstname]{/b}?"
+    grace "So, how much ink do you need, {b}[firstname]{/b}?"
     show player 2
-    show grace 1
-    player_name "Эммм, я не уверен."
-    player_name "Ровно столько, чтобы сделать одну картину."
+    show grace f_normal
+    player_name "Umm, I'm not sure."
+    player_name "Just enough to do one painting."
     show player 1
-    show grace 2
-    grace "Ааах, художник, хм?"
-    show grace 4
-    grace "Иллюстрации, первого парня {b}Иви{/b} привело в дом художника."
+    show grace f_normal_talk
+    grace "Ahhh, an artist, huh?"
+    show grace f_laugh
+    grace "Figures, the first guy {b}Eve{/b} brings home is an artist."
     show player 11
-    show grace 1
+    show grace f_normal
     show eve 6bf
-    eve "Чч, лучше чем этот байкерский фрик который шлялся здесь в старшей школе."
+    eve "Tch, better than that biker freak you had hanging around here in high school."
     show eve 1f
-    show grace 4
-    grace "Хех, у тебя тут нет оргументов..."
-    show grace 2
-    grace "Одну бутылку каждого цвета будет достаточно?"
-    show grace 3
-    grace "Я предпологаю ты знаешь как смешивать?"
+    show grace f_laugh
+    grace "Heh, you'll get no arguements there..."
+    show grace f_normal_talk
+    grace "Would one bottle of each primary color be enough?"
+    show grace f_suspicious
+    grace "I assume you know how to mix?"
     show player 10
-    show grace 1
-    player_name "Смешивать?"
+    show grace f_normal
+    player_name "Mix?"
     show player 11
     show eve 2f
-    eve "Да, ты знаешь? Голубой и красный создает фиолетовый."
-    eve "Желтый и синий создает зеленый."
+    eve "Yeah, you know? Blue and red make purple."
+    eve "Yellow and blue make green."
     show player 2
     show eve 1f
-    player_name "Ох да, как цветное колесо, так?"
+    player_name "Oh yeah, like color wheel stuff, right?"
     show player 1
-    show grace 2
-    grace "Да, точно."
-    show grace 3
-    grace "Теперь я думаю единственный вопрос для меня, что ты сделаешь для меня?"
-    show grace 1
+    show grace f_normal_talk
+    grace "Yeah, exactly."
+    show grace f_suspicious
+    grace "I guess the only question now, is what are you gonna do for me?"
+    show grace f_normal
     show player 10
-    player_name "Ах, эмм. Я не зняю? Что ты хочешь чтобы я сделал?"
-    show grace 3
+    player_name "Oh, uhh. I dunno? What do you want me to do?"
+    show grace f_suspicious
     show player 11
-    grace "Хмм, ты заметил граффити на стене дома когда ты входил?"
+    grace "Hmm, did you happen to notice the graffiti on the side of the building when you came in?"
     show player 10
-    show grace 1
-    player_name "... Да, его довольно трудно не заметить."
+    show grace f_normal
+    player_name "... Yeah, it's pretty hard to miss."
     show player 11
-    show grace 2
-    grace "Я отдам тебе краски если ты сотрешь его для меня."
-    show grace 1
+    show grace f_normal_talk
+    grace "I'll give you the paints if you can wash it off for me."
+    show grace f_normal
     show eve 2f
-    eve "Взаправду?"
+    eve "For real?"
     show player 2
     show eve 1f
-    player_name "Я это сделаю!"
+    player_name "I can do that!"
     show player 1
     show eve 6bf
-    grace "Пфффф, что за пустая трата времени!"
+    grace "Pfft, what a waste of time!"
     show eve 1f
     show player 11
     player_name "..."
     show eve 1bf with dissolve
-    eve "Оно снова будет помечено..."
+    eve "It's just gonna get tagged again..."
     show eve 1f
-    show grace 8
+    show grace f_angry_talk a_dressed_hips_mad
     with dissolve
-    grace "Чтож, это все твои тупые блядские друзья продолжают этим заниматься!"
-    grace "Тебе нужно сказать этим маленьким сучкам, Я надеру их чертовы задницы если это повторится снова!"
-    show grace 9
+    grace "Well, it's your stupid fucking friends that keep doing it!"
+    grace "You need to tell those little bitches, I'll whoop their fucking asses if it happens again!"
+    show grace f_angry
     show player 10
-    player_name "Черт я не знал, что твоя {b}Сестра{/b} была такой большой задницей!"
+    player_name "Daaang, I didn't know your {b}Sister{/b} was such a bad ass!"
     show eve 6f
     show player 11
-    eve "Хех, ты не предстовляешь."
+    eve "Heh, you have no idea."
     show eve 5f
-    show grace 8
-    grace "Я не знаю почему ты общаешься так или иначе общаешься с этой кучкой придурков..."
+    show grace f_angry_talk
+    grace "I dunno why you hang out with those douchebags anyways..."
     show eve 2f
-    show grace 9
-    eve "... Если ты хочешь шантажировать {b}[firstname]{/b} через выполнение этой работы. Ты могла бы по крайней мере сделать для него что то полезное."
-    eve "Напримере передвинуть все это тяжелое дерьмо которое ты заказала в подсобку?"
+    show grace f_angry
+    eve "... If you're going to blackmail {b}[firstname]{/b} into doing chores. You could at least have him do something useful."
+    eve "Like maybe moving all that heavy shit you ordered into the back room?"
     show eve 6bf
-    show grace 1 with dissolve
-    eve "Я не хочу надрывать свою вигину чтобы перенести это дерьмо!"
+    show grace f_normal a_dressed_hip with dissolve
+    eve "I don't wanna bust my vagina carrying that shit!"
     show eve 5f
-    show grace 3
-    grace "Хммм, Я думаю что это не плохая идея."
-    show grace 4
-    grace "...Особенно если ты заткнешься о своей вагине! Агх!"
-    show grace 1
+    show grace f_suspicious
+    grace "Hmm, I suppose that's not a bad idea."
+    show grace f_laugh
+    grace "... Especially if it gets you to shut up about your vagina! Ugh!"
+    show grace f_normal
     show eve 6bf
-    eve "... Сука."
+    eve "... Bitch."
     show eve 5f
-    show grace 4
-    grace "Хахаха, не притворяйся будьто не любишь насилие."
-    show grace 1
+    show grace f_laugh
+    grace "Hahaha, don't pretend like you don't love the abuse."
+    show grace f_normal
     show eve 6bf
-    eve "Да, да..."
+    eve "Yeah, yeah..."
     show eve 2f
-    eve "Если ты меня простишь, {b}[firstname]{/b}."
+    eve "If you'll excuse me, {b}[firstname]{/b}."
     show player 1
-    eve "Я должна пойти предупредить парней что {b}Грэйс{/b} снова обьявила войну."
+    eve "I'd better go warn the guys that {b}Grace{/b} is on the war path again."
     show eve 1f
-    show grace 4
-    grace "Черт побери!"
-    show grace 1
+    show grace f_laugh
+    grace "Damn right!"
+    show grace f_normal
     show eve 6f
-    eve "увидимся, Сис!"
+    eve "See ya, Sis!"
     hide eve
     with dissolve
-    show grace 2
-    grace "{b}Коробки прямо перед стойкой{/b}. Только {b}перемести их{/b} за мою спину и краска твоя."
-    show grace 1
+    show grace f_normal_talk
+    grace "The {b}boxes are right in front of the counter{/b}. Just {b}move them{/b} into the back for me and the paint is yours."
+    show grace f_normal
     show player 2
-    player_name "Звучит Отлично!"
+    player_name "Sounds good!"
     return
 
 label button_grace_you_look_familiar:
     show player 10
-    player_name "Ты знаешь... Я думаю..."
+    player_name "You know... I think..."
     show player 12
-    player_name "Эммм."
+    player_name "Uhh."
     show player 34
-    show grace 3
-    grace "Все в порядке?"
-    show grace 1
+    show grace f_suspicious
+    grace "Is everything okay?"
+    show grace f_normal
     show player 30
-    player_name "Извини, но ты выглядишь... знакомой."
+    player_name "Sorry, but you look... familiar."
     show player 5
-    show grace 3
-    grace "Хм?"
-    show grace 2
-    grace "Хмм... Наверно ты говоришь о моей сестре?"
-    show grace 1
+    show grace f_suspicious
+    grace "Huh?"
+    show grace f_normal_talk
+    grace "Hmm... Maybe you're thinking of my sister?"
+    show grace f_normal
     show player 12
-    player_name "Сестры?"
+    player_name "Sister?"
     show player 11
-    show grace 3
-    grace "Моя маленькая сестра? {b}Ева{/b}?"
-    show grace 1
+    show grace f_suspicious
+    grace "My little sister? {b}Eve{/b}?"
+    show grace f_normal
     show player 38 with dissolve
-    player_name "Ох! Конечно!"
+    player_name "Oh! Of course!"
     show player 14 with dissolve
-    player_name "Я теперь вижу связь."
+    player_name "I can see the connection, now."
     show player 13
-    show grace 4
-    grace "Ха Ха."
-    show grace 2
-    grace "В любом случае, Я могу что то для тебя сделать?"
+    show grace f_laugh
+    grace "Ha ha."
+    show grace f_normal_talk
+    grace "Anyway, is there anything I can do for you?"
     return
 
 label button_grace_nothing:
     show player 14
-    player_name "Я просто осматриваюсь."
+    player_name "I'm just looking around."
     show player 13
-    show grace 2
-    grace "Круто! Осмотрись."
-    grace "Я делаю все стили и проекты, продемонстрированные в моем магазине!"
-    grace "Просто дай мне знать если тыбе чего то захочется, и мы сможем договориться о встрече!"
-    show grace 1
+    show grace f_normal_talk
+    grace "Cool! Have a look."
+    grace "I do all styles and designs showcased in my shop!"
+    grace "Just let me know if you ever think about getting something, and we can make an appointment!"
+    show grace f_normal
     show player 14
-    player_name "Хорошо, Спасибо!"
+    player_name "Okay, thanks!"
     show player 13
-    show grace 2
-    grace "Увидимся."
+    show grace f_normal_talk
+    grace "See ya."
     hide grace
     hide mia
     hide player

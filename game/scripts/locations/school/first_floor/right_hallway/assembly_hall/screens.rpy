@@ -1,5 +1,7 @@
-screen assembly_hall:
-    if M_dewitt.is_state(S_dewitt_paint_trail):
+screen assembly_hall():
+    use mods_screens_hook("assembly_hall")
+
+    if M_dewitt.is_state([S_dewitt_paint_trail, S_dewitt_check_up, S_dewitt_eve_meet_up, S_dewitt_erik_get_beer]):
         add "backgrounds/location_school_assembly_hall_paint.jpg"
 
     elif M_dewitt.is_state([S_dewitt_attend_talent_show, S_dewitt_talent_show]):
@@ -37,7 +39,7 @@ screen assembly_hall:
             hover HoverImage("objects/character_kevin_03.png")
             action Hide("assembly_hall"), Jump(game.dialog_select("assembly_hall_dewitt_talent_show"))
 
-screen dewitt_bj_options:
+screen dewitt_bj_options():
     if M_dewitt.get("sex speed") < .175:
         imagebutton:
             focus_mask True

@@ -1,4 +1,4 @@
-label okita_office_dialogue:
+label mrs_okitas_office_dialogue:
     $ player.go_to(L_school_okitaoffice)
     if game.timer.is_night():
         call expression game.dialog_select("bissette_office_night_lock")

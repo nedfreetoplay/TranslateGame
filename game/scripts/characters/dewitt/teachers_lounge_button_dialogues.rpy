@@ -5,88 +5,88 @@ label dewitt_dialogue_lounge_intro:
     with dissolve
     pause
     show dewittl 1 with dissolve
-    player_name "O, привет, {b}Мисс Девитт.{/b}"
+    player_name "Oh, hi there, {b}Miss DeWitt.{/b}"
     show player 11
     show dewittl 3 with dissolve
-    dewitt "{b}[firstname]{/b}? Тебе нельзя здесь находиться..."
+    dewitt "{b}[firstname]{/b}? You're not supposed to be in here..."
     show player 10
     show dewittl 2
-    player_name "Да, простите."
+    player_name "Yeah, sorry."
     show player 2
-    player_name "{b}Мисс Росс{/b} послала меня отыскать старые журналы."
-    player_name "Мы делаем коллаж!"
+    player_name "{b}Miss Ross{/b} has me looking for old magazines."
+    player_name "We're making a collage!"
     show player 1
     show dewittl 3
-    dewitt "Коллаж, а?"
-    dewitt "Я делала их все время, когда была молодой!"
+    dewitt "Collage, huh?"
+    dewitt "I used to make those all the time when I was younger!"
     show player 2
     show dewittl 2
-    player_name "Чем вы там перекусываете?"
+    player_name "What are you snacking on?"
     show player 1
     show dewittl 3b at Position(xpos=0.965, ypos=1.0) with dissolve
-    dewitt "Ах это?"
+    dewitt "Oh this?"
     show dewittl 3 at right with dissolve
-    dewitt "Это один из {b}специальных пироженых Барбары{/b}."
+    dewitt "It's one of {b}Barbara's special brownies{/b}."
     show player 2
     show dewittl 2
-    player_name "Я не знал, что {b}Мисс Росс{/b} умеет печь?"
+    player_name "I didn't know {b}Miss Ross{/b} could bake?"
     show player 1
     show dewittl 3
-    dewitt "Она делает ЛУЧШИЕ пирожные!"
-    dewitt "Я просто не могу насытиться!"
+    dewitt "She makes the BEST brownies!"
+    dewitt "I just can't get enough!"
     show player 2
     show dewittl 2
-    player_name "... Класс!"
-    player_name "А можно мне взять несколько этих журналов со стола?"
+    player_name "... Neat!"
+    player_name "So, do you think I could have a few of those magazines there on the table?"
     show player 1
     show dewittl 3
-    dewitt "Почему бы и нет."
+    dewitt "I don't see why not."
     show player 2
     show dewittl 2
-    player_name "Прекрас-"
+    player_name "Awes-"
     show player 11
     show dewittl 6 with dissolve
-    dewitt "Если ты сможешь ответить на вопрос из моего сдующего теста!"
+    dewitt "If you can answer a question off my next test!"
     show player 10
     show dewittl 2 with dissolve
-    player_name "Правда?"
+    player_name "Really?"
     show player 11
     show dewittl 3
-    dewitt "В жизни нет ничего бесплатного, {b}[firstname]{/b}."
-    dewitt "А теперь посмотрим..."
-    dewitt "К какому виду инструментов относится флейта?"
+    dewitt "Nothing's free in life, {b}[firstname]{/b}."
+    dewitt "Now lets see..."
+    dewitt "The flute is a member of which instrumental family?"
     return
 
 label dewitt_dialogue_lounge_stat_pass:
     show player 2 at left
     show dewittl 2 at right
-    player_name "Это просто! Духовые."
+    player_name "That's easy! Woodwind."
     show player 1
     show dewittl 3
-    dewitt "Очень хорошо, {b}[firstname]{/b}!"
-    dewitt "Думаю, ты все-таки был внимателен в классе."
+    dewitt "Very good, {b}[firstname]{/b}!"
+    dewitt "I guess you've been paying attention in class after all."
     show dewittl 4 with dissolve
-    dewitt "Подойди и возьмите столько журналов, сколько тебе нужно."
+    dewitt "Go ahead and take as many magazines as you need."
     show player 595 with dissolve
     show dewittl 2
-    player_name "Потрясающе!"
+    player_name "Awesome!"
 
-    player_name "Спасибо, {b}Мисс Девитт{/b}! Приятного аппетита!"
+    player_name "Thanks, {b}Miss Dewitt{/b}! Enjoy your brownie!"
     show player 594
     show dewittl 1b at Position(xpos=0.965, ypos=1.0) with dissolve
-    dewitt "Ох, так вкусно! Ммм..."
+    dewitt "Ohm, so good! Mmm..."
     return
 
 label dewitt_dialogue_lounge_stat_fail:
     show player 10
     show dewittl 2
-    player_name "[int_warn]Эээ... У инструментов есть семьи?"
+    player_name "[int_warn]Err... Instrument's have families?"
     show player 11
     show dewittl 3
-    dewitt "[int_warn]Хех, ну, это то, что тебе лучше выяснить, если ты хочешь эти журналы. "
-    dewitt "[int_warn]Возвращайся, когда узнаешь ответ."
+    dewitt "[int_warn]Heh, well that's something you'd better figure out if you want these magazines."
+    dewitt "[int_warn]Come back when you know the answer."
     show dewittl 2
     show player 10
-    player_name "[int_warn]Ааа, блин..."
+    player_name "[int_warn]Ah, man..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

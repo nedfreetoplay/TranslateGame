@@ -12,8 +12,7 @@ label barn_statue_has_milk:
     show player 712 at left with dissolve
     player_name "( So, a {b}milk pail{/b}, huh? )"
     pause
-    $ M_diane.outfit = "shirtless"
-    show diane b_naked a_naked_sides f_shamed_talk_smile at Position (xpos=600) with dissolve
+    show diane b_shirtless a_shirtless_sides f_shamed_talk_smile at Position (xpos=600) with dissolve
     dia "What are you doing with that {b}milk{/b}, {b}[firstname]{/b}?"
     show diane f_shamed
     show player 713
@@ -44,7 +43,7 @@ label barn_statue_has_milk:
     with dissolve
     scene expression player.location.background_blur with None
     show player 428 at left
-    show diane b_naked a_naked_sides f_surprised_front at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides f_surprised_front at Position (xpos=600)
     with dissolve
     player_name "!!!"
     show diane f_surprised_front_talk
@@ -140,7 +139,7 @@ label barn_statue_has_milk:
     dia "I promise."
     hide daisy
     hide diane
-    show daisy b_naked_diane_comfort a_empty f_empty
+    show daisy b_naked_diane_comfort_shirtless a_empty f_empty
     show diane a_empty b_empty f_shamed_talk_look_closed
     with dissolve
     pause
@@ -148,7 +147,7 @@ label barn_statue_has_milk:
     dia "Aww, there there..."
     dia "Everything is gonna be okay."
     dia "Let's get you into the barn and get you covered up, okay?"
-    show daisy b_naked_diane_comfort2
+    show daisy b_naked_diane_comfort2_shirtless
     show diane f_shamed_talk_look_closed
     cow "{b}*Sniff*{/b} O-okay."
     hide daisy
@@ -157,7 +156,7 @@ label barn_statue_has_milk:
     pause
     show player 34
     player_name "( What in the hell just happened?! )"
-    player_name "( Was {b}Clyde{/b}'s kooky grandfather really a wizard?! )"
+    player_name "( Was {b}Clyde's{/b} kooky grandfather really a wizard?! )"
     pause
     show player 37 with dissolve
     player_name "( {b}I should follow them into the barn and learn more.{/b} )"

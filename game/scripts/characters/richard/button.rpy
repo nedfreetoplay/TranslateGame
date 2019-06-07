@@ -5,14 +5,14 @@ label richard_button_dialogue:
     else:
         call expression game.dialog_select("button_richard_intro_night")
     menu richard_button_menu:
-        "Ты должен быть полегче с {b}Люси{/b}." if game.timer.is_day():
+        "You should take it easy on {b}Lucy{/b}." if game.timer.is_day():
             call expression game.dialog_select("button_richard_take_it_easy_lucy")
             jump richard_button_menu
-        "Как дела?":
+        "How's the business going?":
 
             call expression game.dialog_select("button_richard_hows_the_business")
             jump richard_button_menu
-        "Ничего.":
+        "Nothing.":
 
             if game.timer.is_day():
                 call expression game.dialog_select("button_richard_nothing_day")

@@ -6,18 +6,22 @@ label daisy_button_dialogue:
     if M_daisy.pregnancy.gave_birth:
         call expression game.dialog_select("daisy_button_gave_birth_intro")
         menu daisy_baby_default_dialogue_options:
-            "Как он поживает?" if M_daisy.pregnancy.baby_gender == "boy":
+            "How's he doing?" if M_daisy.pregnancy.baby_gender == "boy":
                 call expression game.dialog_select("daisy_button_hows_baby_doing_boy")
                 jump daisy_baby_default_dialogue_options
 
-            "Как она поживает?" if M_daisy.pregnancy.baby_gender == "girl":
+            "How are they doing?" if M_daisy.pregnancy.baby_gender == "twins":
+                call expression game.dialog_select("daisy_button_hows_baby_doing_twins")
+                jump daisy_baby_default_dialogue_options
+
+            "How's she doing?" if M_daisy.pregnancy.baby_gender == "girl":
                 call expression game.dialog_select("daisy_button_hows_baby_doing_girl")
                 jump daisy_baby_default_dialogue_options
-            "Принести тебе что-нибудь?":
+            "Can I get you anything?":
 
                 call expression game.dialog_select("daisy_button_get_anything_baby")
                 jump daisy_baby_default_dialogue_options
-            "Я оставлю вас в покое, ребята.":
+            "I'll leave you guys be.":
 
                 call expression game.dialog_select("daisy_button_baby_leave")
         $ game.main()
@@ -66,47 +70,47 @@ label daisy_button_dialogue:
         call expression game.dialog_select("daisy_button_intro")
 
     menu daisy_menu_button:
-        "Все еще нервничаешь?" if not M_daisy.finished_state(S_daisy_get_pizza):
+        "Still nervous?" if not M_daisy.finished_state(S_daisy_get_pizza):
             call expression game.dialog_select("daisy_button_still_nervous")
             jump daisy_menu_button
 
-        "Как твои цветы?" if not M_daisy.finished_state(S_daisy_get_pizza):
+        "How are your flowers?" if not M_daisy.finished_state(S_daisy_get_pizza):
             call expression game.dialog_select("daisy_button_how_are_your_flowers_1")
             jump daisy_menu_button
 
-        "Расскажите мне о себе." if not M_daisy.finished_state(S_daisy_get_pizza):
+        "Tell me about yourself." if not M_daisy.finished_state(S_daisy_get_pizza):
             call expression game.dialog_select("daisy_button_about_yourself")
             jump daisy_menu_button
 
-        "{b}Джебадия Делмонт{/b}" if not M_daisy.finished_state(S_daisy_get_pizza):
+        "{b}Jebadiah Delmont{/b}" if not M_daisy.finished_state(S_daisy_get_pizza):
             call expression game.dialog_select("daisy_button_jebadiah_delmont")
             jump daisy_menu_button
 
-        "Как твои цветы?" if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
+        "How are your flowers?" if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_how_are_your_flowers_2")
             jump daisy_menu_button
 
-        "Доильный бизнес." if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
+        "Milking business." if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_milking_business")
             jump daisy_menu_button
 
-        "Еще о {b}Джебадия Делмонт{/b}" if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
+        "More about {b}Jebadiah Delmont{/b}" if M_daisy.between_states(S_daisy_get_pizza, S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_more_jebadiah_delmont")
             jump daisy_menu_button
 
-        "Ты выглядишь очень счастливой сегодня." if M_daisy.finished_state(S_daisy_need_milking):
+        "You seem really happy today." if M_daisy.finished_state(S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_you_seem_happy")
             jump daisy_menu_button
 
-        "Как твои цветы?" if M_daisy.finished_state(S_daisy_need_milking):
+        "How are your flowers?" if M_daisy.finished_state(S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_how_are_your_flowers_3")
             jump daisy_menu_button
 
-        "Еще о {b}Джебадия Делмонт{/b}" if M_daisy.finished_state(S_daisy_need_milking):
+        "More about {b}Jebadiah Delmont{/b}" if M_daisy.finished_state(S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_more_jebadiah_delmont_2")
             jump daisy_menu_button
 
-        "Трахаться." if M_daisy.finished_state(S_daisy_caught_breeding) and not M_daisy.pregnancy:
+        "Have sex." if M_daisy.finished_state(S_daisy_caught_breeding) and not M_daisy.pregnancy:
             if M_daisy.get("daisy_breed_first_time"):
                 call expression game.dialog_select("daisy_button_have_sex_first")
                 jump first_time_dialogue_daisy_sex
@@ -114,11 +118,11 @@ label daisy_button_dialogue:
                 call expression game.dialog_select("daisy_button_have_sex_repeat")
                 jump daisy_sex_breed_start
 
-        "Как ребенок?" if 0 < M_daisy.pregnancy.stage < 5:
+        "How's the baby?" if 0 < M_daisy.pregnancy.stage < 5:
             call expression game.dialog_select("daisy_button_hows_the_baby_{}".format(M_daisy.pregnancy.apparent_stage))
             jump daisy_menu_button
 
-        "Пицца." if M_daisy.finished_state(S_daisy_get_pizza):
+        "Pizza." if M_daisy.finished_state(S_daisy_get_pizza):
             if player.has_item("veggie_pizza"):
                 call expression game.dialog_select("daisy_button_has_veggie_pizza")
                 $ player.remove_item("veggie_pizza")
@@ -126,10 +130,10 @@ label daisy_button_dialogue:
                 call expression game.dialog_select("daisy_button_no_veggie_pizza")
             $ game.main()
 
-        "Хочешь, чтобы я тебя подоил?" if M_daisy.finished_state(S_daisy_need_milking):
+        "You want me to milk you?" if M_daisy.finished_state(S_daisy_need_milking):
             call expression game.dialog_select("daisy_button_want_me_to_milk_you")
             call screen milking_minigame("daisy")
-        "Я должен идти.":
+        "I should go.":
 
             call expression game.dialog_select("daisy_button_leave")
     $ game.main()

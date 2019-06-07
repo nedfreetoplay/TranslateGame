@@ -1,4 +1,6 @@
-screen eriks_room:
+screen eriks_room():
+    use mods_screens_hook("eriks_room")
+
     add game.timer.image("backgrounds/location_erik_house_bedroom_day{}.jpg")
 
     if M_bissette.is_set("eriks book search") and not game.timer.is_dark():
@@ -63,7 +65,9 @@ screen eriks_room:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("eriks_room"), Jump("erik_indoors")
 
-screen under_eriks_bed:
+screen under_eriks_bed():
+    use mods_screens_hook("under_eriks_bed")
+
     imagebutton:
         focus_mask True
         pos (431,425)

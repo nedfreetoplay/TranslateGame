@@ -1,4 +1,6 @@
-screen helens_locked_room:
+screen helens_locked_room():
+    use mods_screens_hook("helens_locked_room")
+
     add game.timer.image("backgrounds/location_mia_house_locked_day{}.jpg")
 
     if M_mia.get_state() == S_mia_locked_room:

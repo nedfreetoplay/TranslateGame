@@ -4,10 +4,10 @@ label classroom_dialogue:
     if M_roxxy.is_state(S_roxxy_lolipop):
         call expression game.dialog_select("french_class_roxxy_lolipop_intro")
         menu:
-            "Только один раз.":
+            "Just this once.":
                 call expression game.dialog_select("french_class_roxxy_lolipop_just_once")
                 $ M_roxxy.trigger(T_roxxy_lolipop_once)
-            "В обмен на твой леденец.":
+            "In exchange for your Lolipop.":
                 call expression game.dialog_select("french_class_roxxy_lolipop_for_lolipop")
                 $ M_roxxy.trigger(T_roxxy_lolipop_lolipop)
 

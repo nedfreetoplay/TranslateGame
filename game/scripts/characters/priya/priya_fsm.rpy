@@ -1,19 +1,17 @@
-label priya_triggers_init:
-    python:
-        T_priya_start = Trigger()
-        T_priya_talked_to_roz = Trigger()
-        T_priya_helped_roz_with_camera = Trigger()
-        T_priya_start_testing = Trigger()
-    return
+init python:
+    T_priya_start = Trigger()
+    T_priya_talked_to_roz = Trigger()
+    T_priya_helped_roz_with_camera = Trigger()
+    T_priya_start_testing = Trigger()
 
 label priya_fsm_init:
     python:
 
-        S_priya_start = State("start", "У Микое может быть, есть информация о том, как повысить рождаемость.")
-        S_priya_talk_to_roz = State("talk to roz", "Я должен поговорить с Роз, чтобы получить доступ на третий этаж.")
-        S_priya_roz_camera_check = State("roz camera check", "Роз сказала мне, что ей нужна камера, установленная в лифте.")
-        S_priya_look_in_lab = State("look in lab", "Наконец-то! Возможно, я никогда не оправлюсь от этого, но теперь я могу шпионить.")
-        S_priya_end = State("end", "Сюжетная линия Прии заканчивается здесь.")
+        S_priya_start = State("start", "Micoe maybe has some info on how to increase fertility.")
+        S_priya_talk_to_roz = State("talk to roz", "I should talk to Roz, to get access to the third floor")
+        S_priya_roz_camera_check = State("roz camera check", "Roz told me she needed a camera installed in the elevator.")
+        S_priya_look_in_lab = State("look in lab", "At last! I may never recover from that, but I can snoop around now.")
+        S_priya_end = State("end", "Priya's storyline ends here.")
 
 
         S_priya_start.add(T_priya_start, S_priya_talk_to_roz)

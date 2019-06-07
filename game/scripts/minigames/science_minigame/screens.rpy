@@ -30,6 +30,7 @@ init python:
             self.player_answers = []
             self.middle_positions = ((474, 440), (474, 342), (474,246))
             self._timer = 99999999999999
+            self._colors = iter(("blue", "pink"))
             self._advance_page()
         
         def _return_screen(self, ret):
@@ -53,12 +54,16 @@ init python:
             try:
                 self._bg = next(self._backgrounds)
                 self._current_answer = next(self._answers)
+                self._color = next(self._colors)
             except StopIteration:
                 renpy.hide_screen("science_minigame")
                 renpy.jump("science_minigame_success") 
         
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Combine the right ingredients for the {b}"+self._color+"{/b} serum!", style = "style_instructions"), width, height, st, at)
+            text_width, text_height = instructions_r.get_size()
+            render.blit(instructions_r, ((512 - (text_width / 2)),22))
             if (clock() - self._timer) * 1000 >= 500:
                 if self._should_advance_page:
                     self._advance_page()
@@ -92,6 +97,6 @@ init python:
                         self.player_answers.append(self.player_current_answers)
                         self._return_screen(set(self.player_current_answers) == self._current_answer)
 
-screen science_minigame:
+screen science_minigame():
     add ScienceMinigame()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

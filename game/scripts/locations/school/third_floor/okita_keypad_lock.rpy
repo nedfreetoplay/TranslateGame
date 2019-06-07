@@ -56,6 +56,6 @@ init python:
                 if ev.type == pygame.MOUSEBUTTONUP and button.should_blit:
                     self.code.append(button.index)
 
-screen okita_keypad:
+screen okita_keypad():
     add OkitaKeypad()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

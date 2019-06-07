@@ -1,4 +1,6 @@
-screen hospital_2nd_floor:
+screen hospital_2nd_floor():
+    use mods_screens_hook("hospital_2nd_floor")
+
     add game.timer.image("backgrounds/location_hospital_second{}.jpg")
 
     imagebutton:

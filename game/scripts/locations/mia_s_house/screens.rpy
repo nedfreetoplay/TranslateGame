@@ -1,4 +1,6 @@
-screen mias_house:
+screen mias_house():
+    use mods_screens_hook("mias_house")
+
     add game.timer.image("backgrounds/location_mia_day{}.jpg")
 
     imagebutton:
@@ -50,7 +52,7 @@ screen mias_house:
 
     imagebutton:
         focus_mask True
-        if game.mail["mia"] != "":
+        if game.has_mail("mia"):
             pos (830,480)
             idle game.timer.image("objects/object_mailbox_mia01{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_mia01{}.png"))
@@ -59,14 +61,14 @@ screen mias_house:
             pos (830,500)
             idle game.timer.image("objects/object_mailbox_mia02{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_mia02{}.png"))
-        action Hide("mias_house"), Show("mia_mailbox")
+        action Hide("mias_house"), Function(game.lock_ui), Show("mias_mailbox")
 
-screen mia_mailbox:
+screen mias_mailbox():
     add game.timer.image("backgrounds/location_mia_mailbox_day{}.jpg")
 
     imagebutton:
         idle "backgrounds/menu_ground.png"
-        action Hide("mia_mailbox"), Jump("mias_house")
+        action Hide('mias_mailbox'), Function(game.unlock_ui), MoveTo(L_miahouse)
 
     if game.mail["mia"] == "m_pizza_pamphlet":
         imagebutton:
@@ -74,7 +76,7 @@ screen mia_mailbox:
             pos (240,480)
             idle game.timer.image("objects/object_mailbox_item02{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item02{}.png"))
-            action Hide("mia_mailbox"), Jump("mia_mailbox")
+            action MoveTo(L_miahouse_mailbox)
 
     elif game.mail["mia"] == "m_newspaper":
         imagebutton:
@@ -82,5 +84,5 @@ screen mia_mailbox:
             pos (250,575)
             idle game.timer.image("objects/object_mailbox_item05{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item05{}.png"))
-            action Hide("mia_mailbox"), Jump("mia_mailbox")
+            action MoveTo(L_miahouse_mailbox)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

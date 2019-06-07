@@ -71,7 +71,8 @@ init python:
         def __init__(self, transport_level=1, **properties):
             super(PizzaMinigame, self).__init__(**properties)
             self._bg = renpy.displayable("backgrounds/location_pizza_minigame_scroll_03b.jpg")
-            self._road = renpy.displayable("backgrounds/location_pizza_minigame_scroll_01.png")
+            self._grass = Crop((0, 0, 1024, 99), renpy.displayable("backgrounds/location_pizza_minigame_scroll_01.png"))
+            self._road = Crop((0, 100, 1024, 245), renpy.displayable("backgrounds/location_pizza_minigame_scroll_01.png"))
             self._forest = renpy.displayable("backgrounds/location_pizza_minigame_scroll_02.png")
             self._player = PizzaDriver(transport_level, (100,480))
             self._pizza_button_1 = PizzaButton("buttons/pizza_01.png", (650,635), 1)
@@ -83,17 +84,27 @@ init python:
             slices.extend([None]*3)
             random.shuffle(slices)
             self._pizza_houses = []
-            house_pos = [(800+self._level*400,280), (1400+self._level*400,280), (2000+self._level*400,223), (2600+self._level*400,223), (3200+self._level*400,190), (3800+self._level*400,190)]
+            house_pos = [(800+self._level*400,275), (1400+self._level*400,275), (2000+self._level*400,200), (2600+self._level*400,200), (3200+self._level*400,168), (3800+self._level*400,168)]
             for i, slice in enumerate(slices):
                 self._pizza_houses.append(PizzaHouse("buttons/pizza_house_0{}.png".format(i+1), house_pos[i], slice))
             self.earnings = 0
+            self.gx = 1024
+            self.rx = 1024
+            self.fx = 1024
+            self.speed = 0.0
+            self._r_timer = clock() 
         
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
+            grass_r = renpy.render(self._grass, width, height, st, at)
+            render.blit(grass_r, (self.gx,531))
+            render.blit(grass_r, (self.gx - 1024,531))
             road_r = renpy.render(self._road, width, height, st, at)
-            render.blit(road_r, (0,531))
+            render.blit(road_r, (self.rx,630))
+            render.blit(road_r, (self.rx - 1024,630))
             forest_r = renpy.render(self._forest, width, height, st, at)
-            render.blit(forest_r, (0, 369))
+            render.blit(forest_r, (self.fx, 369))
+            render.blit(forest_r, (self.fx - 1024, 369))
             player_r = renpy.render(self._player.displayable, width, height, st, at)
             for house in self._pizza_houses:
                 house_r = renpy.render(house.displayable, width, height, st, at)
@@ -101,13 +112,6 @@ init python:
                     pass
                 render.blit(house_r, (house.x, house.y))
             self._timer()
-            if self._pizza_button_1.has_been_pressed and self._pizza_button_2.has_been_pressed and self._pizza_button_3.has_been_pressed:
-                global pizza_earnings
-                pizza_earnings = self.earnings
-                if self.earnings < 3*self._level*80:
-                    renpy.jump("pizza_delivered_fail")
-                else:
-                    renpy.jump("pizza_delivered_success")
             render.blit(player_r, self._player.position)
             button1_r = renpy.render(self._pizza_button_1.displayable, width, height, st, at)
             button2_r = renpy.render(self._pizza_button_2.displayable, width, height, st, at)
@@ -121,9 +125,36 @@ init python:
             return render
         
         def _timer(self):
-            SPEED = 3+int(float(self._player.level)/4.0)
+            ACCELERATION = float(config.framerate)/renpy.get_refresh_rate()
+            if ACCELERATION < 1.0:
+                ACCELERATION = 1.0
+            SPEED = (3.0+float(self._player.level)/4.0)*ACCELERATION
+            if self._pizza_button_1.has_been_pressed and self._pizza_button_2.has_been_pressed and self._pizza_button_3.has_been_pressed:
+                self.speed = self.speed-0.03 * ACCELERATION * ACCELERATION
+                if self.speed < 0:
+                    global pizza_earnings
+                    pizza_earnings = self.earnings
+                    if self.earnings < 3*self._level*80:
+                        renpy.jump("pizza_delivered_fail")
+                    else:
+                        renpy.jump("pizza_delivered_success")
+            else:
+                self.speed = self.speed+0.02 * ACCELERATION * ACCELERATION
+                if self.speed > SPEED:
+                    self.speed = SPEED
             for house in self._pizza_houses:
-                house.move(self._level*SPEED)
+                house.move(self._level*self.speed)
+            if (clock() - self._r_timer)*100 >= 1:
+                self.fx -= 0.2*self._level*self.speed
+                if self.fx < 0:
+                    self.fx = 1024
+                self.rx -= 1.5*self._level*self.speed
+                if self.rx < 0:
+                    self.rx = 1024
+                self.gx -= 1.1*self._level*self.speed
+                if self.gx < 0:
+                    self.gx = 1024
+                self._r_timer = clock() 
         
         def on_event(self, button_pressed):
             if not button_pressed.has_been_pressed:

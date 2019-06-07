@@ -1,4 +1,6 @@
-screen hospital_storage_room:
+screen hospital_storage_room():
+    use mods_screens_hook("hospital_storage_room")
+
     add "backgrounds/location_hospital_storage.jpg"
 
     imagebutton:
@@ -15,7 +17,9 @@ screen hospital_storage_room:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("hospital_storage_room"), Jump("hospital_second_floor_dialogue")
 
-screen hospital_storage_cabinet:
+screen hospital_storage_cabinet():
+    use mods_screens_hook("hospital_storage_cabinet")
+
     add "backgrounds/location_hospital_cabinet.jpg"
 
     imagebutton:
@@ -45,7 +49,7 @@ screen hospital_storage_cabinet:
             pos (148,469)
             idle "objects/object_pharmacy_04.png"
             hover HoverImage("objects/object_pharmacy_04.png")
-            action Function(player.get_item, "birth_control_pills"), Show("popup", Image = "boxes/popup_item_pills1.png")
+            action Function(player.get_item, "birth_control_pills"), Show('popup', None, "boxes/popup_item_pills1.png")
 
     imagebutton:
         focus_mask True
@@ -75,7 +79,7 @@ screen hospital_storage_cabinet:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("hospital_storage_cabinet"), Jump("hospital_storage_room_dialogue")
 
-screen roz_storage_sex_options:
+screen roz_storage_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

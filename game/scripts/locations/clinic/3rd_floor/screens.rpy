@@ -1,4 +1,6 @@
-screen hospital_3rd_floor:
+screen hospital_3rd_floor():
+    use mods_screens_hook("hospital_3rd_floor")
+
     add L_hospital_floor3.background
 
     imagebutton:

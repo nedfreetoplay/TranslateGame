@@ -2,20 +2,20 @@ label sploosh_button_dialogue:
     scene expression game.timer.image("backgrounds/location_pier_boxes{}.jpg")
     show player 10 at left with dissolve
     show sploosh 1 at right
-    player_name "Здравствуйте?"
-    Sploosh "ХХХХррррррр..."
+    player_name "Hello?"
+    Sploosh "ZZZzzzz..."
     show player 4
-    player_name "(Хммм... Он, должно быть, спит.)"
+    player_name "(Hmm... He must be sleeping)"
     menu:
-        "Разбудить Адмирала Сплуш.":
+        "Wake up Admiral Sploosh":
             show player 10
-            player_name "Эмм... Извините?"
+            player_name "Erm... Excuse me?"
             show sploosh 2
             show player 11
             python:
                 if store.sploosh["amount"] != 0:
                     choices = store.sploosh["dialogues"]
-                    choices.append(["There are currently {} dialogues written by our patrons!".format(store.sploosh["amount"]), "Так говорит команда разработчиков..."])
+                    choices.append(["There are currently {} dialogues written by our patrons!".format(store.sploosh["amount"]), "So sayeth the dev team..."])
                     rng = random.randint(0, store.sploosh["amount"])
                     dialogues = choices[rng]
                     
@@ -25,16 +25,16 @@ label sploosh_button_dialogue:
                         Sploosh(d)
                 else:
                     renpy.show("player 23")
-                    Sploosh("Я Король всего мира!!!")
+                    Sploosh("I'm the king of the world!!!")
             show player 23
             player_name "!!!" with hpunch
             show sploosh 1
-            Sploosh "ХХХХррррррр..."
+            Sploosh "ZZZzzzz..."
             show player 1
-            player_name "Что за странный пират..."
+            player_name "What a strange pirate..."
             hide player with dissolve
-        "Оставить.":
-            player_name "Лучше не беспокоить его..."
-            Sploosh "ХХХХррррррр..."
+        "Leave":
+            player_name "I'd better not disturb him..."
+            Sploosh "ZZZzzzz..."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,4 +1,6 @@
-screen dianes_barn_building:
+screen dianes_barn_building():
+    use mods_screens_hook("dianes_barn_building")
+
     add L_diane_barn_building.background
     if L_diane_barn_building.is_here(M_diane):
         imagebutton:
@@ -8,7 +10,9 @@ screen dianes_barn_building:
             hover HoverImage("objects/character_diane_shirtless_construction.png")
             action Hide("dianes_barn_building"), Jump("aunt_button_dialogue")
 
-screen dianes_barn:
+screen dianes_barn():
+    use mods_screens_hook("dianes_barn")
+
     add L_diane_barn.background
 
     imagebutton:
@@ -25,7 +29,9 @@ screen dianes_barn:
         hover HoverImage(game.timer.image("objects/object_door_134{}.png"))
         action Hide("dianes_barn"), Jump("barn_dialogue")
 
-screen dianes_barn_interior:
+screen dianes_barn_interior():
+    use mods_screens_hook("dianes_barn_interior")
+
     add L_diane_barn_interior.background
     if player.location.is_here(M_daisy):
         if game.timer.is_dark():
@@ -44,8 +50,8 @@ screen dianes_barn_interior:
                     hover HoverImage("objects/character_daisy_baby_" + M_daisy.pregnancy.baby_gender +".png")
                 else:
                     pos (27,413)
-                    idle "objects/character_daisy_[M_daisy.get_naked_str][M_daisy.pregnancy.to_string].png"
-                    hover HoverImage("objects/character_daisy_" + M_daisy.get_naked_str + M_daisy.pregnancy.to_string + ".png")
+                    idle "objects/character_daisy_[M_daisy.outfit.get][M_daisy.pregnancy.to_string].png"
+                    hover HoverImage("objects/character_daisy_" + M_daisy.outfit.get + M_daisy.pregnancy.to_string + ".png")
                 action TalkTo("daisy")
     imagebutton:
         focus_mask True
@@ -70,11 +76,13 @@ screen dianes_barn_interior:
                 hover HoverImage("objects/character_diane_casual_" + M_diane.pregnancy.baby_gender +".png")
             else:
                 pos (613,357)
-                idle "objects/character_diane_[M_diane.get_naked_str][M_diane.pregnancy.to_string].png"
-                hover HoverImage("objects/character_diane_" + M_diane.get_naked_str + M_diane.pregnancy.to_string + ".png")
+                idle "objects/character_diane_[M_diane.outfit.get][M_diane.pregnancy.to_string].png"
+                hover HoverImage("objects/character_diane_" + M_diane.outfit.get + M_diane.pregnancy.to_string + ".png")
             action Hide("dianes_barn_interior"), Jump("aunt_button_dialogue")
 
-screen dianes_barn_garden:
+screen dianes_barn_garden():
+    use mods_screens_hook("dianes_barn_garden")
+
     add L_diane_barn_garden.background
 
     imagebutton:

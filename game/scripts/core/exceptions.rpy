@@ -2,35 +2,40 @@ init python:
     class SummertimeSagaException(Exception):
         def __init__(self, message = "SummertimeSagaException triggered"):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
     class OnSleepException(SummertimeSagaException):
         def __init__(self, message = "OnSleepException triggered"):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
     class FSMException(SummertimeSagaException):
         def __init__(self, message = "FSM Exception Triggered"):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
     class DuplicateStateAddedException(FSMException):
         def __init__(self, message = "Duplicate State added."):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
     class DuplicateTriggerAddedException(FSMException):
         def __init__(self, message = "Duplicate Trigger added."):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
@@ -65,14 +70,16 @@ init python:
     class FSMActionError(FSMException):
         def __init__(self, message = "Action Exception Triggered"):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
     class CannotCreateExtrasError(SummertimeSagaException):
         def __init__(self, message = "Can only create extras from private resources"):
             self.message = message
-        
+        def __str__(self):
+            return self.message
         def __repr__(self):
             return self.message
 
@@ -81,4 +88,11 @@ init python:
             self.location = location
         def __str__(self):
             return "{} is not a valid argument for MoveTo screen Action. Type : {} ; Expected : Location".format(location, type(location))
+
+    class ModLoaderError(SummertimeSagaInitException):
+        def __init__(self, message="ModLoaderError occured"):
+            self.message = message
+        
+        def __str__(self):
+            return self.message
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

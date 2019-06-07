@@ -1,4 +1,3 @@
-default mrsj_seen = False
 
 label telescope:
     scene black

@@ -7,7 +7,7 @@ label barn_daisy_pregnancy_anouncement_repeat:
     player_name "Hey, I got your text."
     show player 5
     show diane f_normal_talk
-    dia "{b}Hey, {b}[firstname]{/b}."
+    dia "Hey, {b}[firstname]{/b}."
     dia "You uhh, might want to sit down for this..."
     show diane f_normal
     player_name "Hmm?"
@@ -102,6 +102,11 @@ label barn_daisy_pregnancy_seen_in_labor:
         show diane f_smirk_fardown
         show player 10 with dissolve
         player_name "{b}M-my son{/b}?"
+    elif M_daisy.pregnancy.baby_gender == "twins":
+        dia "You have to meet {b}your children{/b}."
+        show diane f_smirk_fardown
+        show player 10 with dissolve
+        player_name "{b}C-children{/b}?"
     else:
         dia "You have to meet {b}your new daughter{/b}."
         show diane f_smirk_fardown
@@ -117,6 +122,8 @@ label barn_daisy_pregnancy_seen_in_labor:
     player_name "Wow..."
     if M_daisy.pregnancy.baby_gender == "boy":
         player_name "... He's so cute!"
+    elif M_daisy.pregnancy.baby_gender == "twins":
+        player_name "... They're so cute!"
     else:
         player_name "... She's so cute!"
     show player 426
@@ -124,6 +131,8 @@ label barn_daisy_pregnancy_seen_in_labor:
     dia "Hehe, yup."
     if M_daisy.pregnancy.baby_gender == "boy":
         dia "Just like his daddy."
+    elif M_daisy.pregnancy.baby_gender == "twins":
+        dia "Just like their daddy."
     else:
         dia "Just like her mommy."
     show diane f_cheese
@@ -137,6 +146,8 @@ label barn_daisy_pregnancy_seen_in_labor:
     show diane f_normal_talk
     if M_daisy.pregnancy.baby_gender == "boy":
         dia "She was up all night pushing this little guy out."
+    elif M_daisy.pregnancy.baby_gender == "twins":
+        dia "She was up all night pushing these little ones out."
     else:
         dia "She was up all night pushing this little gal out."
     dia "It took a lot out of her."
@@ -153,7 +164,10 @@ label barn_daisy_pregnancy_seen_in_labor:
     show daisy f_down_talk
     daisy "Yeah!"
     show daisy f_laugh
-    daisy "We have a baby, {b}[firstname]{/b}!"
+    if M_daisy.pregnancy.baby_gender == "twins":
+        daisy "We have babies, {b}[firstname]{/b}!"
+    else:
+        daisy "We have a baby, {b}[firstname]{/b}!"
     show daisy f_normal
     show player 14b
     player_name "Y-yeah, I know."
@@ -167,7 +181,7 @@ label barn_daisy_pregnancy_seen_in_labor:
     show diane f_normal
     pause
     show player 429
-    player_name "I'll see you both soon, okay."
+    player_name "I'll see you all soon, okay."
     show player 1b
     show daisy f_normal_talk
     daisy "okay, {b}[firstname]{/b}."
@@ -186,7 +200,7 @@ label barn_daisy_pregnancy_anouncement_first:
     player_name "Hey, I got your text."
     show player 5
     show diane f_sad_talk
-    dia "{b}Hey, {b}[firstname]{/b}."
+    dia "Hey, {b}[firstname]{/b}."
     dia "You uhh, might want to sit down for this..."
     show diane f_sad
     player_name "Hmm?"
@@ -278,7 +292,7 @@ label barn_daisy_caught_breeding_aftermath:
     dia "{b}*Ahem*{/b}"
     show diane a_naked_sides f_smirk_fardown with dissolve
     show daisy f_shy_talk
-    daisy "S-so, {b}Diane{/b}'s been telling me all about sex..."
+    daisy "S-so, {b}Diane's{/b} been telling me all about sex..."
     show daisy f_shy
     show player 11
     player_name "!!!"
@@ -583,7 +597,6 @@ label barn_daisy_dead_flowers:
     with dissolve
     daisy "{b}Diane{/b}, something's wrong with my pretty flowers!!"
     show daisy f_sad
-
     pause
     show diane f_shamed_talk_fardown
     dia "Aww, sweetie..."
@@ -602,27 +615,27 @@ label barn_daisy_dead_flowers:
     daisy "... No..."
     hide daisy
     hide diane
-    show daisy b_naked_diane_comfort f_empty a_empty
+    show daisy b_naked_diane_comfort_shirtless f_empty a_empty
     show diane b_empty a_empty f_shamed_talk_look
     with dissolve
     dia "There, there."
     dia "Shhh."
     show diane f_shamed_talk_look_closed
-    show daisy b_naked_diane_comfort2
+    show daisy b_naked_diane_comfort2_shirtless
     daisy "{b}*Sniff*{/b} What are we gonna do?"
-    show daisy b_naked_diane_comfort
+    show daisy b_naked_diane_comfort_shirtless
     show diane f_shamed_talk_look
     dia "Well, why don't we add them to the compost pile out back?"
     dia "That way, they can help us make new flowers one day."
-    show daisy b_naked_diane_comfort2
+    show daisy b_naked_diane_comfort2_shirtless
     show diane f_shamed_talk_look_closed
     daisy "R-really?"
-    show daisy b_naked_diane_comfort
+    show daisy b_naked_diane_comfort_shirtless
     dia "Mmhmm."
     show diane f_shamed_talk_look
     dia "C'mon, sweetie. I'll show you."
     show diane f_shamed_talk_look_closed
-    show daisy b_naked_diane_comfort2
+    show daisy b_naked_diane_comfort2_shirtless
     daisy "{b}*Sniff*{/b} O-okay."
     hide daisy
     show diane f_shamed b_shirtless a_shirtless_sides at fliplright
@@ -956,8 +969,7 @@ label barn_front_daisy_pizza_craving:
 label barn_front_daisy_picking_flowers:
     scene expression player.location.background_blur with None
     show player 14 at left
-    $ M_diane.outfit = "shirtless"
-    show diane b_naked a_naked_sides
+    show diane b_shirtless a_shirtless_sides
     with dissolve
     player_name "Hey {b}Diane{/b}."
     show player 13
@@ -992,7 +1004,7 @@ label barn_front_daisy_picking_flowers:
     dia "I didn't wanna force her."
     scene expression player.location.background_blur with None
     show player 10 at left
-    show diane b_naked a_naked_sides at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides at Position (xpos=600)
     with dissolve
     player_name "So..."
     player_name "What are you gonna do with her?"
@@ -1112,7 +1124,7 @@ label barn_front_daisy_picking_flowers:
     $ player.go_to(L_diane_barn_interior)
     scene expression player.location.background_blur with None
     show player 1 at left
-    show diane b_naked a_naked_sides f_smirk_fardown at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides f_smirk_fardown at Position (xpos=600)
     show daisy a_naked_bouquet f_shy_talk at flip
     show daisy at Position (xpos=250)
     with dissolve
@@ -1382,8 +1394,7 @@ label barn_front_daisy_picking_flowers:
 
 label barn_daisy_awakened_statue:
     scene expression player.location.background_blur with None
-    $ M_diane.outfit = "shirtless"
-    show diane b_naked f_shamed_talk_fardown a_shirtless_blanket at Position (xpos=600)
+    show diane b_shirtless f_shamed_talk_fardown a_shirtless_blanket at Position (xpos=600)
     show daisy b_naked_shy a_naked_shy_front f_shy_sad at flip
     show daisy at Position (xpos=200,yoffset=10)
     with dissolve
@@ -1398,7 +1409,7 @@ label barn_daisy_awakened_statue:
     cow "Uhh, t-thank you."
     show daisy b_naked_shy a_naked_shy_blanket f_shy_sad zorder 2 at flip
     show daisy at Position (xpos=700,yoffset=10)
-    show diane b_naked a_naked_sides f_shamed_talk_fardown at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides f_shamed_talk_fardown at Position (xpos=600)
     with dissolve
     dia "You're welcome."
     show diane f_shamed_fardown
@@ -1458,7 +1469,7 @@ label barn_daisy_awakened_statue:
     show daisy f_cower_sad_talk at Position (yoffset=26)
     cow "Please, I didn't mean to-!"
     show daisy b_naked_shy a_naked_shy_cover f_shy_sad at Position (yoffset=10)
-    show diane b_naked a_naked_sides f_shamed_talk_fardown at flip
+    show diane b_shirtless a_shirtless_sides f_shamed_talk_fardown at flip
     show diane at Position (xpos=750)
     with dissolve
     show player 5
@@ -1616,7 +1627,7 @@ label barn_player_completed_mysterious_statue:
     return
 
 label barn_diane_pregnancy_anouncement:
-    scene expression "backgrounds/location_barn_day_blur.jpg"
+    scene expression player.location.background_blur
     show player 13 at left
     show diane b_naked a_naked_sides f_laugh
     with dissolve
@@ -1702,7 +1713,7 @@ label barn_diane_pregnancy_anouncement:
     return
 
 label barn_diane_return_outfit_package:
-    scene expression "backgrounds/location_barn_day_blur.jpg"
+    scene expression player.location.background_blur
     show player 14 at left
     show diane b_shirtless a_shirtless_sides
     with dissolve
@@ -1786,8 +1797,7 @@ label barn_diane_return_outfit_package:
     show player 10f with dissolve
     player_name "{b}D-diane{/b}?"
     show player 13f
-    $ M_diane.is_naked = 0
-    $ M_diane.outfit = "cow"
+    $ M_diane.outfit.set_default_outfit_schedule([["cow","cow","nightgown","nightgown"]])
     show diane f_smirk_talk b_naked a_naked_sides
     dia "I'm here."
     show diane f_smirk
@@ -1857,7 +1867,7 @@ label barn_diane_return_outfit_package:
     return
 
 label barn_diane_outfit_package:
-    scene expression "backgrounds/location_barn_day_blur.jpg"
+    scene expression player.location.background_blur
     show player 29 at left
     show diane b_shirtless a_shirtless_sides f_smirk
     with dissolve
@@ -1937,7 +1947,7 @@ label barn_diane_outfit_package:
     return
 
 label barn_diane_barn_checkup:
-    scene expression "backgrounds/location_barn_day_blur.jpg"
+    scene expression player.location.background_blur with None
     show player 14 at left
     show diane b_casual a_casual_sides
     with dissolve
@@ -2002,7 +2012,7 @@ label barn_diane_barn_checkup:
     return
 
 label barn_diane_return_production_book:
-    scene expression player.location.background_blur
+    scene expression player.location.background_blur with None
     show diane b_shirtless a_shirtless_sides f_normal_talk
     show player 13 at left
     with dissolve
@@ -2208,7 +2218,7 @@ label barn_building_inform_carpenter:
     show diane b_casual_bag_hug a_empty f_laugh at Position (xoffset=-414)
     with dissolve
     dia "C'mon, roomie."
-    dia "We gotta get home before {b}Debbie{/b} starts worrying."
+    dia "We gotta get home before {b}[deb_name]{/b} starts worrying."
     show player 14 at left
     show diane b_casual a_casual_bag f_normal at lright
     with dissolve
@@ -2260,7 +2270,7 @@ label barn_diane_check_barn_out:
     rich "You've got plenty of extra storage space on the second floor and room to expand, should you ever decide to."
     dia "It's so beautiful!"
     player_name "What are those machines for?!"
-    scene expression "backgrounds/location_barn_day_blur.jpg"
+    scene expression L_diane_barn_interior.background_blur
     show diane b_shirtless a_shirtless_sides at flip
     show diane at Position (xpos=100)
     show richard f_confused_talk
@@ -2324,8 +2334,8 @@ label barn_diane_check_barn_out:
     show diane at Position (xpos=-300)
     show player 688
     with dissolve
-    player_name "( Hmm, it looks like the lower half a nude woman. )"
-    player_name "( What's with the tail though? )"
+    player_name "( Are those hooves? )"
+    player_name "( ... And a tail too. )"
     show player 689
     player_name "( There's something written on the bottom of it. )"
     show expression "objects/closeup_statue_01.png"

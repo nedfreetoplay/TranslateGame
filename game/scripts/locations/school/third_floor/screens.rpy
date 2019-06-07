@@ -1,4 +1,6 @@
-screen school_third_floor:
+screen school_third_floor():
+    use mods_screens_hook("school_third_floor")
+
     add game.timer.image("backgrounds/location_school_third_day{}.jpg")
 
     if M_dewitt.is_state(S_dewitt_paint_trail):
@@ -16,28 +18,28 @@ screen school_third_floor:
         pos (277,247)
         idle game.timer.image("objects/object_door_98{}.png")
         hover HoverImage(game.timer.image("objects/object_door_98{}.png"))
-        action Hide("school_third_floor"), Function(renpy.call, "school_lock_check", "Mrs Bissette's Office", "bissettes_office_dialogue")
+        action HideAll(), Call("school_lock_check", "Mrs Bissette's Office", "mrs_bissettes_office_dialogue")
 
     imagebutton:
         focus_mask True
         pos (454,301)
         idle game.timer.image("objects/object_door_99{}.png")
         hover HoverImage(game.timer.image("objects/object_door_99{}.png"))
-        action Hide("school_third_floor"), Function(renpy.call, "school_lock_check", "Mrs Dewitt's Office", "dewitt_office_dialogue")
+        action HideAll(), Call("school_lock_check", "Mrs Dewitt's Office", "mrs_dewitts_office_dialogue")
 
     imagebutton:
         focus_mask True
         pos (591,344)
         idle game.timer.image("objects/object_door_100{}.png")
         hover HoverImage(game.timer.image("objects/object_door_100{}.png"))
-        action Hide("school_third_floor"), Function(renpy.call, "school_lock_check", "Mrs Ross' Office", "ross_office_dialogue")
+        action HideAll(), Call("school_lock_check", "Mrs Ross' Office", "mrs_ross_office_dialogue")
 
     imagebutton:
         focus_mask True
         pos (700,379)
         idle game.timer.image("objects/object_door_101{}.png")
         hover HoverImage(game.timer.image("objects/object_door_101{}.png"))
-        action Hide("school_third_floor"), Function(renpy.call, "school_lock_check", "Mrs Okita's Office", "okita_office_door")
+        action HideAll(), Call("school_lock_check", "Mrs Okita's Office", "okita_office_door")
 
     if (M_okita.is_state(S_okita_get_ingredients) and game.timer.is_afternoon() and not player.has_item("tissue")) and not M_dewitt.is_state([S_dewitt_paint_trail, S_dewitt_check_up]):
         imagebutton:

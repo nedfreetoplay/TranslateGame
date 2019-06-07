@@ -1,4 +1,6 @@
-screen pier:
+screen pier():
+    use mods_screens_hook("pier")
+
     if M_terry.get_state() == S_terry_end:
         add game.timer.image("backgrounds/location_pier_tigger{}.jpg")
 

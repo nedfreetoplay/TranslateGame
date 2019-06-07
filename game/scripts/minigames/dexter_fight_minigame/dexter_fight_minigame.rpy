@@ -1,9 +1,9 @@
 label dexter_fight_pre:
     if game.cheat_mode:
         menu:
-            "Пропустить мини-игру(чит).":
+            "Skip minigame (Cheat)":
                 $ renpy.call('dexter_fight_success', 0)
-            "Играть в мини-игру.":
+            "Play minigame":
                 call screen dexter_fight
     call screen dexter_fight
 
@@ -13,163 +13,163 @@ label dexter_fight_minigame_prepare:
     show roxxy 32 at Position (xpos=600)
     show missy 2b at left
     with dissolve
-    becca "... Его там не было когда вы смотрели?"
+    becca "... And he wasn't there when you checked?"
     show becca 1
     show roxxy 33
-    rox "Нет."
+    rox "Nope."
     show roxxy 32
     show becca 3
     show missy 2
-    missy "Её {b}мама{/b} сказала что он был там, {b}Бекка{/b}."
+    missy "Her {b}mom{/b} said he was there, {b}Becca{/b}."
     show missy 2b
     show becca 3b
-    becca "Да, но... Она была пьяна?"
+    becca "Yeah, but... Was she drinking?"
     show becca 1
     show missy 3
     show roxxy 33
-    rox "{b}*Вздыхая*{/b} Эта моя {b}мама{/b}. Конечно, она была пьяна... Она постоянно пьет!"
+    rox "{b}*Sigh*{/b} It's my {b}mom{/b}. Of course she was drinking... She's always drinking!"
     show roxxy 33b
     show missy 4d
     with dissolve
     missy "..."
     show becca 2
-    becca "Прости, я не хотела этого делать..."
+    becca "Sorry, I didn't mean to..."
     show becca 1
     show missy 2b
     show roxxy 33
     with dissolve
-    rox "Ничего, всё хорошо."
-    rox "Я понимаю, о чем ты говоришь."
-    rox "Я просто немного волнуюсь."
-    rox "Ты лучше всех знаешь, что {b}Декстер{/b} с тех пор, как мы расстались, становится все более агрессивным."
+    rox "No, it's okay."
+    rox "I know what you're saying."
+    rox "I'm just worried."
+    rox "You know better than anyone that {b}Dexter{/b} has been getting more and more aggressive since we broke up."
     show roxxy 32
     becca "..."
     show roxxy 33
-    rox "Если {b}Декстер{/b} узнает, что я встречаюсь с {b}[firstname]{/b}... Кто знает, что он сделает? "
+    rox "If {b}Dexter{/b} thinks that I'm dating {b}[firstname]{/b}... Who knows what he'll do?"
     show roxxy 32
     show missy 1b
-    missy "... Ты встречаешься, {b}[firstname]{/b}?"
+    missy "... Are you dating, {b}[firstname]{/b}?"
     show missy 1
     show roxxy 28
-    rox "Я..."
+    rox "I..."
     show roxxy 27
     pause
     show roxxy 1l
-    rox "... Я не знаю, хорошо?"
+    rox "... I don't know, okay?"
     show roxxy 1k
     show becca 2
-    becca "Как ты можешь не знать?"
+    becca "How can you not know?"
     show becca 1
     show roxxy 28
-    rox "Я имею в виду..."
+    rox "I mean..."
     show roxxy 27
     pause
     show roxxy 1l
-    rox "{b}*Вздыхая*{/b} Слушай, он мне нравится, правда?!"
-    rox "Он такой милый и забавный. Он заботится обо мне и моей {b}маме{/b}..."
+    rox "{b}*Sigh*{/b} Look, I like him, right?!"
+    rox "He's sweet and funny. He takes care of me and my {b}mom{/b}..."
     show roxxy 1k
     show becca 8
-    becca "... А ещё он симпатичный парень."
+    becca "... And he's handsome."
     show becca 7
     show roxxy 1l
-    rox "Да?"
-    rox "С каких пор ты считаешь его красивым??"
+    rox "Huh?"
+    rox "Since when do you think he's handsome?"
     show roxxy 1k
     show becca 8
-    becca "... После инцедента с {b}Декстером{/b}."
+    becca "... Since the {b}Dexter{/b} incident."
     show becca 7
     rox "..."
     show roxxy 1f
-    rox "Хех. Да, он красивый."
+    rox "Heh. Yes, he's handsome."
     show roxxy 1e
     show becca 3
     show missy 8
-    missy "... И у него огромный член!"
+    missy "... And he's got a huge cock!"
     show missy 7
     show roxxy 1i
     rox "!!!"
     show roxxy 1e
     show becca 3b
-    becca "Тссс! Люди услышат тебя, тупица!"
+    becca "Shh! People will hear you, stupid!"
     show becca 3
     show missy 2
-    missy "Ох, конечно, извини."
+    missy "Oh, right... Sorry."
     show missy 8
-    missy "... Он большой!"
+    missy "... It is big though."
     show missy 7
     show becca 7
     show roxxy 1f
-    rox "Да, мы знаем, что он большой!"
+    rox "Yes, we know it's big!"
     show roxxy 1e
     show becca 2
-    becca "Так в чем же проблема?!"
+    becca "So what's the problem?!"
     show becca 1
     show roxxy 2 at Position (xpos=567) with dissolve
-    rox "Вы имеете в виду, моего сумасшедшего бывшего пареня?"
+    rox "You mean other than my psycho ex-boyfriend?"
     show roxxy 1
     show missy 8
-    missy "Тебе точно стоит встречатся с {b}[firstname]{/b}!"
+    missy "You should totally date, {b}[firstname]{/b}!"
     show missy 7
     show becca 3b
-    becca "Я просто сказала!"
+    becca "I just said that!"
     show becca 3
     show missy 2
-    missy "Ты сделаешь это?"
+    missy "You did?"
     show missy 8
-    missy "Ладно, хорошо... Ты должна встречаться с ним и позволить нам играть с ним!"
+    missy "Okay, well... You should date him AND let us play with him!"
     show missy 7
     show becca 7
     becca "..."
     show roxxy 2
-    rox "Вы блять жадные сучки! Вы знаете это?"
+    rox "Man, you are some greedy bitches! You know that?"
     show roxxy 1
     becca "..."
     show missy 8
-    missy "... Но мы твои жадные сучки!"
+    missy "... But we're your greedy bitches though!"
     show missy 7
     show roxxy 4
-    rox "Хех, да я знаю."
+    rox "Heh, yeah I know."
     show roxxy 2
-    rox "Во-первых мы должны выяснить ситуацию с {b}Декстером{/b}."
+    rox "First, we have to figure out this {b}Dexter{/b} situ-"
     show roxxy 2b
-    dex "Вот шлюха!" with hpunch
+    dex "There's the whore!" with hpunch
     show becca 19
     show missy 3
     show roxxy 2bf at Position (xpos=500)
     with dissolve
     rox "!!!"
     show dexter 12d at right with dissolve
-    dex "Разве ты не должна отсасывать своему новому парню-неудачнику?!"
+    dex "Shouldn't you be off sucking your new loser boyfriends dick or something?!"
     show dexter 12c
     show roxxy 3f
-    rox "Прости?"
+    rox "Excuse me?!"
     show roxxy 3bf
     show dexter 12d
-    dex "Ты услышала меня, шлюха!"
+    dex "You heard me, whore!"
     show dexter 12c
     show roxxy 3f
-    rox "Не смей со мной так разговаривать!"
+    rox "Don't you fucking talk to me like that!"
     show roxxy 3bf
     show dexter 12d
-    dex "Я видел тебя!"
-    dex "... Целуешь этого ботана в своем дерьмовом трейлере!"
+    dex "I saw you!"
+    dex "... Kissing that nerd in your shitty little trailer!"
     show dexter 12c
     show roxxy 2bf
     rox "!!!"
     show roxxy 3cf
-    rox "Это не твое дело {b}Декстер{/b}!"
+    rox "That's none of your business {b}Dexter{/b}!"
     show roxxy 3f
-    rox "Мы расстались, тупица!"
+    rox "We're broken up, stupid!"
     show roxxy 3bf
     show dexter 12d
-    dex "Я не тупица."
+    dex "Grr, I'm not stupid!"
     show dexter 14 with dissolve
     show roxxy 3f
-    rox "Ну и что? Ты собираешься ударить меня?"
+    rox "So what? You're gonna hit me now?"
     show roxxy 3bf
     show dexter 15
-    dex "Вот именно."
-    dex "Я сделаю то, что должен был сделать давным-давно..."
+    dex "That's right."
+    dex "I'm gonna do what I should have done a long time ago..."
     show dexter 14
     show becca 23 at Position (xpos=340)
     hide missy
@@ -180,84 +180,84 @@ label dexter_fight_minigame_prepare:
     dex "!!!"
     show roxxy 3bf
     show dexter 15 with dissolve
-    dex "Убирайтесь с дороги, сучки!"
+    dex "Get outta my way you cunts!"
     show dexter 14
     pause
     show dexter 12d
-    dex "Я сказал Съебались нахуй." with hpunch
+    dex "I said move!" with hpunch
     show dexter 12c
     show missy 4c with dissolve
     show becca 19
     show erik 53f at Position (xpos=500) with dissolve
     show roxxy 2bf
     show missy 3 with dissolve
-    eri "Отойди от девчонок!"
+    eri "Step away from the girls!"
     show erik 50f
     dex "..."
     show dexter 12 with dissolve
-    dex "Ты чё там вякнул, недомерок?!"
+    dex "What the hell did you just say, runt?!"
     show dexter 11
     show erik 3bf
-    eri "Я..."
+    eri "I err..."
     show erik 5f
-    eri "О-отойди от них!"
+    eri "S-step away from them..."
     show erik 52f
     show roxxy 3cf
-    rox "Ты с ума сошёл?!"
-    rox "Уходи отсюда!"
+    rox "Are you crazy?!"
+    rox "Get out of here!"
     show roxxy 3df
     show erik 5bf
-    eri "... Нет!!!"
-    eri "Я не могу просто стоять и смотреть, как он причиняет боль девушкам..."
-    eri "Особенно девушкам моего лучшего друга!"
+    eri "... No!"
+    eri "I can't just stand here and watch him hurt girls..."
+    eri "Especially, not my best friend's girl!"
     show erik 3bf
     show roxxy 2bf
     rox "!!!"
     becca "..."
     show becca 3
     show missy 2
-    missy "Это ещё кто?!"
+    missy "Who's that?!"
     show missy 2b
     show becca 3b
-    becca "Это друг {b}[firstname]{/b}."
+    becca "It's {b}[firstname]'s{/b} friend..."
     show becca 3
     show missy 1b
-    missy "Оххх..."
+    missy "Oooh..."
     show missy 3
     show becca 19
     show dexter 12
-    dex "Ну, и что ты собираешься с этим делать?!"
-    dex "Придурок!"
+    dex "Well, what are you going to do about it?!"
+    dex "Dweeb!"
     show dexter 11
     show erik 2f at Position (xoffset=20) with dissolve
     eri "..."
     show erik 3f with dissolve
-    eri "{b}*Вздыхая*{/b} Я не могу отступить!"
-    eri "{b}[firstname]{/b} не отступит."
+    eri "{b}*Sigh*{/b} I can't back down!"
+    eri "{b}[firstname]{/b} wouldn't back down!"
     show erik 3bf
     show dexter 12
-    dex "Да, ну. {b}[firstname]{/b} здесь нет, толстяк!"
-    dex "Остались только мы с тобой."
+    dex "Yeah, well. {b}[firstname]{/b} isn't here fat boy!"
+    dex "It's just you and me."
     show dexter 11
     show erik 4f
     eri "!!!"
     show erik 67f with dissolve
-    eri "Я не хотел этого делать, {b}Декстер{/b}..."
-    eri "... Но ты не оставляешь мне выбора."
+    eri "I didn't want to do this {b}Dexter{/b}..."
+    eri "... But you leave me no choice."
     show erik 68f with dissolve
-    eri "Сегодня ты встретишься с {b}Эриком могучим{/b}!"
-    eri "Чемпион Орсетте и мастер священных кусочков трески!"
+    eri "Today, you face {b}Erik the Mighty{/b}!"
+    eri "Champion of Orcette and master of the Sacred Cod Piece!"
     show erik 69f with dissolve
-    eri "Трепещи от страха, кретин, ибо ты сейчас увидишь свою Смерть!"
+    eri "Tremble in fear cretin, for you behold your own DOOM!"
     show becca 2b with dissolve
     rox "..."
     becca "..."
     show missy 2
-    missy "Неужели это он?"
+    missy "Is he for real?"
     show missy 3
     show becca 19 with dissolve
     show erik 70f with dissolve
-    eri "Именем молота Рактара и светом Шкуревана ты будешь отомщен!"
+    eri "By Rak'thar's hammer, by the suns of Whorevan, you shall be avenged!"
     pause
     hide dexter
     show erik 71f
@@ -265,28 +265,28 @@ label dexter_fight_minigame_prepare:
     pause
     hide erik
     show dexter 12 at right with dissolve
-    dex "Ахахахаха!"
+    dex "HAHAHAHAHA!"
     show dexter 22
-    dex "Хорошая речь, ботан!"
+    dex "Nice speech, NERD!"
     show dexter 11
     show roxxy 3f
-    rox "{b}Декстер{/b}! Какой же ты засранец!"
+    rox "Jesus, {b}Dexter{/b}! You're such an asshole!"
     show roxxy 3bf
     show dexter 12
-    dex "Да, и что?"
-    dex "Раньше тебе нравились такие вещи...."
+    dex "Yeah, so?"
+    dex "You used to like this kinda stuff..."
     show dexter 11
     show roxxy 3f
-    rox "Ну, я больше этого не делаю!"
-    rox "Просто оставьте нас в покое!"
+    rox "Well, I don't anymore!"
+    rox "Just leave us alone!"
     show roxxy 3bf
     show dexter 15 with dissolve
-    dex "Я так не думаю...."
-    dex "Никто не смеет бросать меня!"
-    dex "Я научу тебя меня уважать-"
+    dex "I don't think so..."
+    dex "Nobody dumps me!"
+    dex "I'm gonna teach you some respect-"
     show dexter 14
     show player 15 at Position (xpos=500) with dissolve
-    player_name "Отъебись от неё!"
+    player_name "Back off!"
     show player 16
     show roxxy 2bf
     dex "!!!"
@@ -295,9 +295,9 @@ label dexter_fight_minigame_prepare:
     missy "{b}[firstname]{/b}!"
     show missy 1
     show becca 2b with dissolve
-    becca "{b}*Дыша с трудом*{/b}"
+    becca "{b}*Gasp*{/b}"
     show dexter 12d with dissolve
-    dex "А вот и трус наконец решил показать свое лицо."
+    dex "So the coward finally decides to show his face."
     hide player
     show dexter 16 at left
     with dissolve
@@ -308,23 +308,23 @@ label dexter_fight_minigame_prepare:
     show dexter 18 at Position (xpos=1175)
     with dissolve
     show player 113
-    player_name "Девочки, вы в порядке?"
+    player_name "You girls okay?"
     show player 114
     show becca 20
-    becca "... ммм, да."
+    becca "... Yeah."
     show becca 19
     show missy 8
-    missy "Мы сейчас."
+    missy "We are now."
     show missy 7
     show roxxy 2cf
-    rox "Я не собираюсь!"
+    rox "I'm not!"
     show missy 3
-    rox "Какого черта ты делаешь?!"
-    rox "Он убьет тебя!"
+    rox "What the hell are you doing?!"
+    rox "He'll kill you!"
     show roxxy 2bf
     show player 12
-    player_name "Нет, он не..."
-    player_name "Не в этот раз."
+    player_name "No he won't."
+    player_name "Not this time."
     hide player
     show dexter 16 at left
     with dissolve
@@ -340,16 +340,16 @@ label dexter_fight_minigame_prepare:
     rox "{b}[firstname]{/b}!!!"
     show roxxy 2bf
     show player 15
-    player_name "Все в порядке, я разберусь с этим!"
-    player_name "Просто хватай {b}Эрика{/b} и убирайся отсюда!"
+    player_name "It's alright, I've got this!"
+    player_name "Just grab {b}Erik{/b} and get out of here!"
     show player 16
     show becca 20
-    becca "Мы им займёмся."
+    becca "We're on it!"
     hide missy
     hide becca
     with dissolve
     show roxxy 2cf
-    rox "Я не собираюсь бросать тебя!"
+    rox "I'm not leaving you!"
     show roxxy 2bf
     hide player
     show dexter 16 at left
@@ -357,10 +357,10 @@ label dexter_fight_minigame_prepare:
     show player 90 at Position (xpos=500)
     show dexter 12d at right
     with dissolve
-    dex "Хватит убегать, дерись со мной, говнюк!"
+    dex "Quit dancing and fight me you little shit!"
     show dexter 14 with dissolve
     show player 16
-    player_name "( Вот оно! Пришло время, чтобы положить вверх над этим ублюдком! )"
+    player_name "( This is it! It's time to put up or shut up! )"
     hide player
     hide dexter
     hide roxxy
@@ -373,7 +373,7 @@ label dexter_fight_success(dexter_health):
     hide screen dexter_fight_win
     scene expression "backgrounds/location_school_cutscene05.jpg"
     with fade
-    show text "Чем человек больше...\nТем больнее ему падать!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "The bigger they are...\nThe harder they fall!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -383,186 +383,186 @@ label dexter_fight_success(dexter_health):
     show missy 1f at Position (xpos=700)
     show dexter 47 at Position (xpos=950)
     with dissolve
-    rox "{b}[firstname]{/b}, у тебя получилось!"
+    rox "{b}[firstname]{/b}, you did it!"
     hide player
     show roxxy 59d at left
     with dissolve
     show becca 6f
-    becca "Вот дерьмо!"
+    becca "Holy shit!"
     show becca 5f
     show missy 4f
-    missy "ПОКОНЧИ С НИМ!"
+    missy "FINISH HIM!"
     show missy 4bf
     show roxxy 59b
     player_name "..."
     show dexter 49 with dissolve
-    dex "Тьфу..."
+    dex "Ugh..."
     show dexter 47 with dissolve
     show roxxy 59c
-    player_name "... НЕТ."
-    player_name "Он этого не заслуживает."
+    player_name "... No."
+    player_name "He's not worth it."
     show roxxy 59b
     show dexter 49 with dissolve
-    dex "... Почему я не могу тебя ударить?!"
+    dex "... Why can't I hit you?!"
     show dexter 48
     show roxxy 59c
-    player_name "Твои дни издевательства над друзьями закончились {b}Декстер{/b}..."
-    player_name "{b}Рокси{/b} больше не твоя девушка!"
+    player_name "You're days of bullying my friends are over, {b}Dexter{/b}..."
+    player_name "{b}Roxxy{/b} isn't your girl anymore!"
     show roxxy 59b
     dex "..."
     show roxxy 59c
-    player_name "Ты слышишь меня, засранец?!"
+    player_name "You hear me, asshole?!"
     show roxxy 59b
     show missy 3 at Position (xpos=650)
     show becca 5
     with dissolve
     show dexter 49
-    dex "Тссс! Я, блядь, услышал тебя, хорошо?!"
-    dex "Но это ещё не конец, {b}[firstname]{/b}!"
-    dex "Я не знаю, кто научил тебя всему этому ниндзя-дерьму, но это не последний раз!"
+    dex "Tssh! I fucking hear you, alright?!"
+    dex "This isn't over, {b}[firstname]{/b}!"
+    dex "I dunno who taught you all that ninja bullshit but you haven't heard the last of me!"
     show dexter 48
     show roxxy 59c
-    player_name "Все нормально."
-    player_name "Если хочешь чтобы тебе надрали задницу ещё раз, я буду рад помочь."
-    player_name "... Но если я еще раз увижу, как ты угрожаешь {b}Рокси{/b} и её друзьям... Ты так просто не отделаешься!"
+    player_name "That's fine."
+    player_name "You want another ass beating, I'll be more than happy to oblige."
+    player_name "... But if I ever catch you threatening {b}Roxxy{/b} and her friends again... You won't get off this easily!"
     show roxxy 59b
     show dexter 47 with dissolve
-    dex "Грр!"
+    dex "Grr!"
     hide dexter with dissolve
     pause
     show roxxy 59d
     show missy 8f at Position (xpos=700)
     show becca 5f
     with dissolve
-    missy "Это было так отвратительно!"
+    missy "That was so bad ass!"
     show missy 7f
     show becca 6f
-    becca "Это правда."
+    becca "It really was!"
     show becca 5f
     show roxxy 59e
-    player_name "Простите, что опоздал..."
+    player_name "Sorry I was late..."
     show roxxy 59d
     rox "..."
     show roxxy 92 at Position (xoffset=0) with dissolve
     pause
     show becca 7f
     show missy 8f
-    missy "Охх!"
+    missy "Oooh!"
     show missy 7f
     show becca 8f
-    becca "Давай, девочка!"
+    becca "Get it girl!"
     show becca 7f
     pause
     show roxxy 59d with dissolve
-    rox "Это было чертовски сексуально!"
+    rox "That was so freakin' hot!"
     show roxxy 59e
-    player_name "Хех, да?"
+    player_name "Heh, oh yeah?"
     show roxxy 59d
-    rox "ДА!"
-    rox "Я хочу сорвать с тебя эту одежду прямо сейчас!"
+    rox "Totally!"
+    rox "I kinda wanna rip those clothes off you right now!"
     show roxxy 59e
-    player_name "... Ты что?!"
+    player_name "... You do?!"
     show roxxy 59d
-    rox "Мммхмхм."
+    rox "Mmmhmm."
     show missy 8f
-    missy "Можно посмотреть?!"
+    missy "Can we watch?!"
     show missy 7f
     becca "..."
     show roxxy 92 with dissolve
     pause
-    smi "Что это за суматоха такая??!"
+    smi "What is all this commotion?!"
     show becca 19 at Position (xpos=475)
     show missy 3 at Position (xpos=625)
     show player 11 at left
     show roxxy 2cf at Position (xpos=150)
     with dissolve
-    rox "Вот дерьмо!"
+    rox "Oh, shit!"
     show roxxy 2bf
     show principal 27 at right with dissolve
-    smi "Мне напомнить вам, дети, что в этой школе строго запрещено публичное выражение чувств?!"
+    smi "Do I need to remind you kids about this school's strict no public display of affection policy?!"
     show principal 26
     show player 10
-    player_name "Не надо, мэм."
+    player_name "No, ma'am."
     show player 5
     show roxxy 33f
-    rox "Простите, {b}Миссис Смит{/b}..."
+    rox "Sorry, {b}Mrs. Smith{/b}..."
     show roxxy 32f
     show missy 8
-    missy "ОУ, но все становилось только лучше!"
+    missy "Aww, but it was just getting good!"
     show missy 7
     show principal 3b at Position (xoffset=70) with dissolve
     smi "!!!"
     show principal 27 with dissolve
-    smi "Что за разговоры?!"
+    smi "Is that back talk I'm hearing?!"
     show principal 29
     show missy 3
     missy "!!!"
     show missy 4c at Position (xoffset=13) with dissolve
-    missy "Что, нет! Я имею в виду..."
+    missy "What, no! I mean..."
     show missy 4d at Position (xoffset=13)
     show becca 3b
-    becca "Хаха, молодец {b}Мисси{/b}..."
+    becca "Haha, nice going {b}Missy{/b}..."
     show becca 3
     show missy 4
-    missy "Заткнись, {b}Бекка{/b}!"
+    missy "Shut up, {b}Becca{/b}!"
     show missy 4b
     show becca 19
     show principal 27
-    smi "Всё, хватит!"
+    smi "That's enough!"
     show missy 3
     show roxxy 2bf
-    smi "Вы обе ко мне в кабинет быстро!"
+    smi "Both of you report to my office at once!"
     show principal 29
     show becca 20
-    becca "Вот блин..."
+    becca "Oh man..."
     show becca 19
     show missy 4
-    missy "... Чёрт!"
+    missy "... Crap!"
     hide missy
     hide becca
     with dissolve
     show principal 28 at Position (xoffset=70) with dissolve
-    smi "Что касается вас двоих, вам лучше пойти в класс, если Вы не хотите присоединиться к ним?!"
+    smi "As for you two, you'd better get your butts to class unless you wanna join them?!"
     show principal 29 with dissolve
     show roxxy 33f
-    rox "Да, мэм."
+    rox "Yes, ma'am."
     show roxxy 32f
     show player 10
-    player_name "Пошли!"
+    player_name "We're going!"
     show player 5
     show principal 27
-    smi "Хм!"
+    smi "Hmph!"
     hide principal with dissolve
     pause
     show roxxy 1h at center with dissolve
-    rox "... Она такая стерва."
+    rox "... She's such a bitch."
     show roxxy 1g
     show player 14
-    player_name "Это точно."
-    player_name "Но нам лучше пойти на занятия."
+    player_name "Heh, yeah."
+    player_name "We'd better get to class though."
     show player 13
     show roxxy 1b
-    rox "{b}*Вздыхая*{/b} Да, ты прав."
+    rox "{b}*Sigh*{/b} Yeah, I suppose you're right."
     show roxxy 1
     pause
     show roxxy 1b
-    rox "... Мм, прежде чем ты уйдешь..."
+    rox "... Umm, before you go..."
     show roxxy 1
     show player 14
-    player_name "Да?"
+    player_name "Yeah?"
     show player 13
     show roxxy 1h
-    rox "Почему бы тебе не зайти ко мне сегодня вечером?"
-    rox "Мы можем продолжить с того, на чем остановились в прошлый раз..."
+    rox "Why don't you come by my place tonight?"
+    rox "We can pick up where we left off last time..."
     show roxxy 1g
     show player 29 with dissolve
-    player_name "{b}*Глоток*{/b} Да, хорошо!"
+    player_name "{b}*Gulp*{/b} Y-yeah... Okay!"
     show player 13 with dissolve
     show roxxy 1h
-    rox "Хе-хе, увидимся {b}сегодня{/b} дурачёк."
+    rox "Hehe, see you {b}tonight{/b} then, stud."
     show roxxy 1g
     show player 17 with dissolve
-    player_name "Обязательно."
+    player_name "See ya."
     hide player
     hide roxxy with dissolve
     $ M_roxxy.trigger(T_roxxy_ninja_dexter)
@@ -576,21 +576,31 @@ label dexter_fight_fail(dexter_health):
     show roxxy 2bf at left
     show dexter 12d at right
     with dissolve
-    dex "Это то, ради чего ты меня бросила?"
-    dex "Какая-то занудная маленькая сучка?!"
+    dex "This is what you left me for?"
+    dex "Some nerdy little bitch?!"
     show dexter 12c
     show roxxy 2cf
-    rox "... {b}[firstname]{/b}! Встань!"
+    rox "... {b}[firstname]{/b}! Get up!"
     show roxxy 2bf
     show dexter 15 with dissolve
-    dex "Не такой уж он и красивый, правда??"
+    dex "Not so handsome now, is he?"
     show roxxy 2cf
-    rox "{b}[firstname]{/b}! Прошу!"
+    rox "{b}[firstname]{/b}! Please!"
     show roxxy 33bf at Position (xoffset=34)
     show dexter 12
     with dissolve
-    dex "Хахахаха!"
+    dex "HAHAHAHA!"
     scene black with fade
     pause
-    call screen gameover
+
+
+
+
+
+    call screen confirm(_('GAME OVER...'),
+                        background='menu_condom',
+                        no_action=(Hide('confirm'), Jump('dexter_fight_pre')),
+                        no_text='Retry',
+                        yes_action=ShowMenu('load'),
+                        yes_text='Load')
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -3,304 +3,304 @@ label trailer_roxxy_studying_at_roxxys:
     show roxxy 6 at right
     show player 36 zorder 2 at left
     with dissolve
-    player_name "Хэй!"
+    player_name "Hey!"
     show player 13
     show roxxy 13
     with dissolve
-    rox "Угх, а я надеялась, что ты не придешь."
+    rox "Ugh, I was hoping you wouldn't show."
     show roxxy 6b with dissolve
     show player 10
-    player_name "Эм... Чего?"
+    player_name "Uhh... Sorry?"
     show player 5
     show roxxy 12 with dissolve
-    rox "Неважно. Давай просто покончим с этим."
+    rox "Whatever. Let's just get this over with."
     show roxxy 7 with dissolve
     show player 10
-    player_name "Будем заниматься прямо тут?"
+    player_name "We studying outside?"
     show player 5
     show roxxy 11 with dissolve
-    rox "... Ага"
-    rox "Поверь мне, тут намого лучше."
+    rox "... Yeah."
+    rox "It's nicer out here, trust me."
     show roxxy 1 with dissolve
     show player 10
-    player_name "Ладно, если ты так хочешь."
+    player_name "Alright, if that's what you want."
     show player 30
-    player_name "Может у тебя есть хотя бы фонарик? Тут темновато..."
+    player_name "Do you have a light or something? It's pretty dark..."
     show player 5
     show roxxy 1b
-    rox "Хмм, да... Одну секунду."
+    rox "Hmm, yeah... Hold on a second."
     hide roxxy with dissolve
-    rox "Маааам?!"
+    rox "Moooom?!"
     show player 11 at center with dissolve
-    rox "Где фонарь?"
-    crys "Чего?!"
-    rox "... Фонарь, который мы покупали перед тем, как ходили на кемпинг в последний раз?!"
-    crys "Откуда я могу знать?!"
-    crys "У тебя тут слишком много хлама, нужно чудо, чтобы найти хоть что-то!"
-    rox "Ах, забудь... Просто, блять, сиди тут, а я принесу его!"
-    crys "{b}*рыыыыг*{/b}"
-    crys "Зачем он вообще тебе нужен?"
-    rox "Неважно, Я уже сама его нашла. А ты дальше смотри свои ситкомы..."
-    crys "... Неблагодарное отродье!"
+    rox "Where's that lantern at?"
+    crys "What?!"
+    rox "... That lantern you got for the tent last time we went camping?!"
+    crys "How the hell should I know?!"
+    crys "Ya got so much shit piled up in here, it's a wonder you can find anything!"
+    rox "Ugh, forget it... Just fucking sit there and I'll find it!"
+    crys "{b}*Buuuurp*{/b}"
+    crys "Whatchu need it for anyways?"
+    rox "Nevermind, I've got it. Just go back to watching your stupid stories..."
+    crys "... Ungrateful brat!"
     show roxxy 76 zorder 4 at right with dissolve
     show player 106
-    rox "Есть кто дома?"
+    rox "Will this work?"
     show roxxy 77
     player_name "..."
-    rox "Алло?!"
+    rox "Hello?!"
     show roxxy 78
     show player 10
-    player_name "А? Оу, извини!"
+    player_name "Huh? Oh, sorry!"
     show player 5
     show roxxy 76
-    rox "Только дава по-быстрому, окей?!"
+    rox "Just hurry up, will ya?!"
     show roxxy 77
     show player 10
-    player_name "Да, конечно."
-    player_name "Тогда начнем прямо с первой главы?"
+    player_name "Yeah, okay."
+    player_name "I guess we'll just start with chapter one?"
     show player 5
     show roxxy 1j
     show roxxy_lantern zorder 3 at right
     with dissolve
     rox "..."
     show player 10
-    player_name "... Ага."
-    player_name "Так-"
+    player_name "... Right."
+    player_name "So uhh-"
     show roxxy 1i
-    clyde "Чертвы звери!"
+    clyde "Damned varmints!"
     show player 11f with dissolve
-    clyde "Валите отсюда!"
+    clyde "Get on out'chere!"
     show roxxy 1l
-    rox "Ох, только не это..."
+    rox "Oh, please no..."
     show roxxy 1j
-    clyde "Повезло вам, что при мне нет ружья..."
+    clyde "Yer darn lucky I didn't bring mah huntin' rifle..."
     show clyde 4 zorder 2 at left
     show player 11f at Position (xpos=700)
     with dissolve
-    clyde "Ох, привет кузина!"
-    clyde "Чего эт ты тут делаешь?"
-    clyde "Ты ж обычно не вылизшь из трейлера."
+    clyde "Oh, hey dere' Cuz!"
+    clyde "Whatchu doin' out 'ere?"
+    clyde "You'se usually locked away in da trailer."
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "А кто этот малый?"
+    clyde "Who's dis feller?"
     show clyde 3
     show roxxy 1n
-    rox "Просто парень со школы, он помогает мне с уроками."
+    rox "He's just a boy from school, come to help me study."
     show roxxy 3e
     show clyde 4
     show player 13f
-    clyde "Хе, с ураками, да?"
+    clyde "Heh, studyin' huh?"
     show player 34f
-    clyde "Знаешь, я бы мог тебе помочь, если бы ты меня попросила."
+    clyde "You know, I coulda helped ya iffin' you asked me to."
     show player 11f with dissolve
     show clyde 3
     show roxxy 1l
-    rox "Прекрасная мысль!"
-    rox "Как будто ты знаешь хоть что-то..."
+    rox "Yeah, right!"
+    rox "Like you know anything about studying..."
     show roxxy 1k
     show clyde 4
-    clyde "Да никто из моих братьев не учился так хорошо, как я!"
+    clyde "Pshh, I made it further in the schools than any of mah deadbeat brothers!"
     show clyde 3
     show roxxy 1l
-    rox "Да-да, кто ж спорит. Семь классов - это отличное достижение!"
+    rox "Yeah,yeah, I know. Seventh grade was a real big accomplishment for you!"
     show roxxy 1k
     show clyde 4
-    clyde "Да пошла ты!"
-    clyde "Ты вообще собираешься представить нас друг другу?"
+    clyde "Darn tootin' it was!"
+    clyde "So you gonna to introduce me or not?"
     show clyde 3
     show roxxy 1l
-    rox "... Нет, не собираюсь"
+    rox "... No, I'm not."
     show roxxy 1k
     show clyde 4
-    clyde "Пфф, ну и ладно"
-    clyde "Я сам это сделаю!"
-    clyde "Как дела, чувак?"
-    clyde "Я {b}Клайд{/b}!"
-    clyde "Я кузен {b}Рокси{/b}."
-    clyde "Иногда она как будто об этом забывает!"
+    clyde "Pshh, fine!"
+    clyde "I'll do it myself then!"
+    clyde "How ya doin' there, Buddy?"
+    clyde "The name's {b}Clyde Delmont{/b}!"
+    clyde "I'm {b}Roxxy's{/b} cousin by blood."
+    clyde "Somethin' she seems to be forgettin'!"
     show clyde 3
     show roxxy 1l
-    rox "Боже мой, какой стыд..."
+    rox "God, you're so embarrassing..."
     show roxxy 1k
     show player 29f at Position (xoffset=-27) with dissolve
-    player_name "Эм, приятно познакомиться..."
-    player_name "Я {b}[firstname]{/b}."
+    player_name "Uhh, nice to meet you..."
+    player_name "I'm {b}[firstname]{/b}."
     show player 5f with dissolve
     show clyde 4
-    clyde "{b}[firstname]{/b}? Необычное имя..."
+    clyde "{b}[firstname]{/b}? That's a peculiar name..."
     show clyde 3
     show player 10f
-    player_name "Ха, да ладно?"
+    player_name "Heh, is it?"
     show player 5f
     show roxxy 1l
-    rox "Чего тебе надо, {b}Клайд{/b}?"
+    rox "What do you want, {b}Clyde{/b}?"
     show roxxy 1k
     show clyde 4
-    clyde "Тц, не знаю, чего ты вся на нервах!"
-    clyde "Твоя {b}мама{/b} просила меня зайти сегодня."
-    clyde "Так что если что-то не устраивает... Выскажи это ей!"
+    clyde "Tch, I dunno why yer givin' me all this attitude fer!"
+    clyde "Yer {b}Momma's{/b} the one dun asked me to stop by fer a visit tonight."
+    clyde "Iffin' you don't like it... Take it up with her!"
     show clyde 3
     show roxxy 33
-    rox "{b}*Фух*{/b}"
+    rox "{b}*Sigh*{/b}"
     show roxxy 32
     show player 11f
-    crys "Это же мой милый племянник!"
+    crys "Is that my handsome nephew!"
     show crystal 5 zorder 1 at Position (xpos=500) with dissolve
     show clyde 4
-    clyde "Привет, {b}тётушка{/b}!"
+    clyde "Hey there, {b}Auntie{/b}!"
     show clyde 3
     show crystal 6
-    crys "Чего ты так долго?!"
-    crys "Я жду тебя уже несколько часов!"
+    crys "It's about time you showed up!"
+    crys "I been in there waitin' fer hours!"
     show crystal 5
     show clyde 11 with dissolve
-    clyde "Виноват! Звиняй!"
-    clyde "Я помогал старому Кутеру с его дробилкой дерева."
-    clyde "Ещё один чертов опоссум залез в неё."
+    clyde "I know! I 'pologize!"
+    clyde "I was helpin' ole' Cooter out with his wood chipper."
+    clyde "'Nother one of them darned possums crawled up in thar again."
     show roxxy 1i
-    clyde "Мы несколько часов пытались отмыть его внутренности!"
+    clyde "We be cleanin' guts outta dat thing fer hours!"
     show clyde 12
     show roxxy 1l
-    rox "Угх..."
+    rox "Eugh..."
     show roxxy 32
     show crystal 6
-    crys "Ох, я прощаю тебя..."
-    crys "Заходи, твоей {b}тётушке{/b} нужно что-то сладенькое..."
+    crys "Oh, I forgive ya..."
+    crys "Come give yer {b}Auntie{/b} some sugar..."
     show crystal 5
     show clyde 4 with dissolve
-    clyde "С удовольствием!"
+    clyde "My pleasure!"
     show player 22f
     hide crystal
     show clyde 13
     with dissolve
     pause
     show clyde 15 with dissolve
-    clyde "Ммм, а ты сегодня просто красотка, {b}тётушка{/b}!"
+    clyde "Mmm, yer lookin' mighty fine tonight, {b}Auntie{/b}!"
     show clyde 14b
-    crys "Ой, только без этого!"
+    crys "Oh, hush!"
     show clyde 13 with dissolve
     pause
     show player 11f
     show clyde 14 with dissolve
-    crys "Боже правый!"
-    crys "Неужели {b}Рокси{/b} нашла себе нового мужика..."
+    crys "Goodness Gracious!"
+    crys "Looks like {b}Roxxy{/b} went and got herself a new man..."
     show player 13f
     show clyde 1
     show crystal 9f zorder 1 at Position (xpos=395)
     show roxxy 1m
     with dissolve
-    crys "А он тоже ничего!"
+    crys "He's a cute one too!"
     show crystal 5f
     show player 11f
     show roxxy 1n
-    rox "Он не мой мужик!"
-    rox "Просто пришел помочь мне с уроками..."
+    rox "He's not my man!"
+    rox "He just came over to help me study..."
     show roxxy 3e
     show crystal 6f
-    crys "Когда это ты начала учиться?"
+    crys "Since when do you study?"
     show crystal 5f
     show roxxy 1n
-    rox "Угх, может просто заткнешься?!"
+    rox "Ugh, just shut up will ya?!"
     show roxxy 3e
     show crystal 11f
-    crys "... Не смей так со мной разговаривать!"
-    crys "Мне насрать на то, что ты со своим ебырем! Я сейчас просто нагну тебя, а потом знаешь что будет?"
-    crys "И не думай, что я не посмею!"
+    crys "... Don't you be talkin' to me like that!"
+    crys "I don't care how cute yer company is! I'll get a switch and bend you over my knee right here and now."
+    crys "Don't you think I won't!"
     show crystal 10f
     show clyde 2
-    clyde "Воу, а на это я бы посмотрел!"
-    clyde "А ты бы, приятель?"
+    clyde "Hey, now dat's a show I'm down fer seeing!"
+    clyde "Whatchu think, buddy?"
     show crystal 5f
     show clyde 1
     show player 10f
-    player_name "Я..."
+    player_name "I uhh.."
     show player 11f
     show roxxy 1n
-    rox "Даже не думай отвечать!"
+    rox "Don't you dare answer that!"
     show roxxy 1m
     show crystal 6 at Position (xpos=500) with dissolve
-    crys "Так, племянничек..."
+    crys "So nephew..."
     show roxxy 1j
-    crys "У тебя есть что-нибудь для меня?"
+    crys "You got somethin' for me?"
     show crystal 5
     show clyde 2
-    clyde "Да, мэм. У меня есть кое-что."
+    clyde "Yes, Ma'am. I surely do."
     show clyde 1
     show crystal 6
-    crys "Ммм..."
-    crys "Тогда тащи свои милую задницу внутрь!"
-    crys "Я ждала этого весь день!"
+    crys "Mmm..."
+    crys "Get yer cute butt inside then!"
+    crys "I've been waitin' fer it all day!"
     hide crystal
     show clyde 4
     with dissolve
-    clyde "Оу, только после вас, {b}тётушка{/b}."
+    clyde "Oh, I'm right behind ya {b}Auntie{/b}."
     show clyde 9 with dissolve
-    clyde "... А вы равлекитесь тут со своей 'учебой'."
+    clyde "... Have fun wit'cher studyin' you two."
     hide clyde with dissolve
     rox "..."
     player_name "..."
     show player 10 at center with dissolve
-    player_name "Это..."
+    player_name "That was..."
     show player 5
     show roxxy 33
-    rox "Просто заткнись."
-    rox "Пока не стало хуже."
+    rox "Just shut up."
+    rox "You'll only make things worse."
     show roxxy 32
     show player 10
-    player_name "... Ух, ладно."
-    player_name "Так что, первая глава?"
+    player_name "... Err, okay."
+    player_name "So, chapter one?"
     show player 5
     rox "..."
     show roxxy 1i
     show player 11
 
-    clyde "Вооуу! Притормози, {b}тётушка{/b}! Ты так порвешь мои джинсы!"
+    clyde "Whoaaa! Slow down, {b}Auntie{/b}! Yer like to rip a hole in my jeans!"
     show roxxy 1j
-    clyde "Я вытащу его как мужно скорее!"
-    crys "Быстрее! Я уже хочу его увидеть"
-    clyde "Сейчас, сейчас..."
-    clyde "А вот и он!"
+    clyde "I'm gettin' it out as fast as I can!"
+    crys "Hurry up! I wanna see it!"
+    clyde "Alright, alright..."
+    clyde "'Chere it is!"
     show player 22
-    crys "Ох, ты только посмотри на этот размер!"
-    clyde "А то! Уверен, что ты раньше не видела ничего подобного!"
-    crys "... О боже!"
+    crys "Oh, just look at the size of it!"
+    clyde "Sooey! I bet you aint never seen nothin' like dat before!"
+    crys "... Lord have mercy!"
     show roxxy 33
-    rox "О... Боже... Мой..."
-    rox "Я больше никогда не смогу появиться в школе..."
+    rox "Oh... God..."
+    rox "I'm never gonna be able to show my face in school again..."
     show roxxy 1n
-    rox "... Я так их ненавижу!"
+    rox "... I hate them so much!"
     show roxxy 1j
     show player 10
-    player_name "Эй... Успокойся."
-    player_name "Всё в порядке... Я никому не скажу."
+    player_name "Hey... Calm down."
+    player_name "It's fine... I won't say anything to anybody."
     show player 5
     rox "..."
     show player 14
-    player_name "Почему бы не позаниматься у меня?"
+    player_name "Why don't we just go to my place and study?"
     show player 13
     show roxxy 1l
-    rox "... У тебя?"
+    rox "... Your place?"
     show roxxy 1k
     show player 14
-    player_name "Да!"
-    player_name "Там будет достаточно тихо, а ещё мы сможем чего-нибудь перекусить!"
+    player_name "Sure!"
+    player_name "It's nice and quiet there and there'll even be a warm meal in it for ya!"
     show player 13
     show roxxy 27
     rox "..."
     show roxxy 33
-    rox "... И ты обещаешь никому не говорить о том, что видел?!"
+    rox "... And you promise not to tell anybody about this?!"
     show roxxy 1k
     show player 33
-    player_name "Обещаю!"
+    player_name "I promise!"
     show player 14
-    player_name "Если кто спросит, - я просто помог тебе с домашкой и ушел."
+    player_name "If any students ask, I just did your homework for you and left."
     show player 13
     rox "..."
     show roxxy 1l
-    rox "Хорошо."
-    rox "Всё что угодно будет лучше, чем сидеть здесь, слушая их стоны!"
-    rox "Пошли!"
+    rox "Alright."
+    rox "Anything is better than sitting here listening to this!"
+    rox "Let's go!"
     hide roxxy
     hide roxxy_lantern
     with dissolve
@@ -314,18 +314,18 @@ label trailer_roxxy_get_uniform_on_doggo:
     show player 13 at left
     show roxxy 60 at right
     with dissolve
-    rox "Это отвратительно..."
+    rox "This is disgusting..."
     show roxxy 61
     player_name "..."
     show roxxy 62
-    rox "Уф, тупой {b}Клайд{/b}!"
-    rox "Я клянусь, я расчленю эту свинью и приготовлю из него бекон!"
+    rox "Eugh, stupid {b}Clyde{/b}!"
+    rox "I swear I'm gonna butcher that pig and turn it into bacon!"
     scene black with fade
     scene expression "backgrounds/location_trailer_cutscene01.jpg"
     with fade
-    show text "Никогда не видел, чтобы кто-то стирал одежду под шлангом с водой!\n{b}Рокси{/b} видно очень нелегко." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I'd never seen anyone wash clothes with a hose before!\n{b}Roxxy{/b} certainly didn't have it easy at her house." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я должен был ей как-то помочь, но был просто в ступоре..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I probably should have offered to help but I more than a little distracted..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -336,92 +336,92 @@ label trailer_roxxy_get_uniform_on_doggo:
     player_name "..."
     rox "..."
     show roxxy 1l
-    rox "Что это за странный взгляд?"
+    rox "What's with that goofy look?"
     show roxxy 1k
     player_name "..."
     show roxxy 2 with dissolve
     rox "{b}[firstname]{/b}!!!"
     show roxxy 1g
     show player 29 with dissolve
-    player_name "Ха?!"
+    player_name "Huh?!"
     show player 3
     show roxxy 1h
-    rox "Хех, на что это ты пялишься?"
+    rox "Hehe, what are you staring at?"
     show roxxy 1g
     show player 29
-    player_name "Эм, ни на что..."
+    player_name "Oh, n-nothing..."
     show player 3
     show roxxy 1h
-    rox "Ладно, подожди меня в моей комнате, а я пока отмою это."
+    rox "Well, go wait for me in my room, I've gotta wash this stuff."
     show roxxy 1g
     show player 10 with dissolve
-    player_name "В твоей комнате?"
+    player_name "Your room?"
     show player 5
     show roxxy 1h
-    rox "Ага."
+    rox "Yeah."
     show roxxy 1g
     rox "..."
     show roxxy 2
-    rox "Только ничего там не трогай!"
+    rox "Just don't touch anything!"
     show roxxy 1g
     show player 10
-    player_name "О-окей."
+    player_name "O-okay."
     hide player
     hide roxxy
     with dissolve
     return
 
 label trailer_roxxy_check_trailer:
-    scene expression "backgrounds/location_trailer_door.jpg"
+    scene expression game.timer.image("trailer_door{}")
     pause
     rox "..."
     scene black with fade
-    scene expression "backgrounds/location_trailer_day_blur.jpg"
+    scene expression player.location.background_blur with None
     show player 5 at left
     show roxxy 3c at right
     with dissolve
     rox "Foreclosed?!"
     show roxxy 3
-    rox "Какого хрена!"
-    rox "Они ведь не могут так поступить, да?"
+    rox "What the fuck!"
+    rox "They can't just do that, can they?"
     show roxxy 3d
     player_name "..."
     show player 10
-    player_name "Я не знаю."
+    player_name "I don't know."
     show player 5
     show roxxy 3c
-    rox "Да что, блять, произошло?"
+    rox "What the hell happened here?"
     show roxxy 3d
     show player 12
-    player_name "Кто тебе сказал об этом?"
+    player_name "Who called to tell you about this anyways?"
     show player 5
     show roxxy 3c
-    rox "... Соседи."
+    rox "... The neighbors."
     show roxxy 3b
     show player 12
-    player_name "Может тогда поговорим с ними?"
+    player_name "Shouldn't we go and talk to them then?"
     show player 5
     show roxxy 3
-    rox "Удачи."
-    rox "Они званили прямо из машины."
+    rox "Good luck."
+    rox "They called me from the road."
     show roxxy 3c
-    rox "... Наверное, свалили как только услышали сирену."
+    rox "... Probably split the second they heard sirens."
     show roxxy 3d
     show player 11
     player_name "..."
     show player 10
-    player_name "А что с {b}Клайдом{/b}?"
+    player_name "What about {b}Clyde{/b}?"
     show player 5
     show roxxy 2c
-    rox "Точно!"
+    rox "You're right!"
     show roxxy 31
-    rox "Я уверена, что этот сукин сын во всем виноват!"
+    rox "I bet that stupid son of a bitch is the reason this happened in the first place!"
     show player 11
-    rox "Я прикончу его!"
+    rox "I'm gonna kill him!"
     hide roxxy with dissolve
     show player 10
-    player_name "Воу! {b}Рокси{/b} Успокойся!"
-    player_name "... Подожди меня!"
+    player_name "Whoa! {b}Roxxy{/b} calm down!"
+    player_name "... Wait for me!"
     hide player with dissolve
     return
 
@@ -432,11 +432,11 @@ label trailer_roxxy_trailer_foreclosed:
     scene black with fade
     scene expression L_trailer.background_blur
     show player 108 with dissolve
-    player_name "{b}Трейлер Рокси{/b} всё ещё оцеплен."
+    player_name "{b}Roxxy's Trailer{/b} is still on lockdown."
     show player 109
     show player 108
-    player_name "Нужно найти {b}Рокси{/b} или вообще узнать всё в одиночку."
-    player_name "Должен же быть способ..."
+    player_name "I should probably check in on {b}Roxxy{/b} or investigate on my own to fix this."
+    player_name "There has got to be a way..."
     hide player
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,290 +1,290 @@
 label button_erik_master_blaster:
     show player 2
-    player_name "Помнишь игру {b}Мастер Бластер{/b} которую {b}Миссис Джонсон{/b} подарила тебе на Рождество несколько лет назад?"
+    player_name "You remember that {b}Master Blaster{/b} game {b}Mrs. Johnson{/b} bought you for Christmas a few years ago?"
     show player 1
     show erik 4
-    eri "Конечно, приятель! Мы провели все лето, играя в нее!"
+    eri "Of course, man! We spent the entire summer playing on that thing!"
     show player 2
     show erik 1
-    player_name "Она еще у тебя?"
+    player_name "Do you still have it?"
     show player 1
     show erik 5
-    eri "Да, наверно. Я не пользовался ей много времени..."
+    eri "Yeah, I think so. Haven't used it in a long time..."
     show erik 4
-    eri "На самом деле, {b}Я думаю она собирает пыль в старом доме на дереве{/b}."
+    eri "In fact, {b}I think it's just collecting dust in our old tree house{/b}."
     show player 2
     show erik 1
-    player_name "Ты не против если я возьму ее?"
+    player_name "Would you mind if I take it?"
     show player 1
     show erik 4
-    eri "Конечно, бери."
+    eri "Sure, no problem."
     show player 2
     show erik 1
-    player_name "Спасибо, {b}Эрик{/b}!"
+    player_name "Thanks, {b}Erik{/b}!"
     return
 
 label button_erik_master_blaster_again:
     show player 2
-    player_name "Еще раз, где, ты сказал, этот контроллер?"
+    player_name "Where did you say that controller was again?"
     show player 1
     show erik 5
-    eri "Кажется, я оставил его в нашем старом домике на дереве."
+    eri "I think I left it in our old tree house."
     show player 2
     show erik 1
-    player_name "А, точно. Спасибо, {b}Эрик{/b}!"
+    player_name "Ah, that's right. Thanks, {b}Erik{/b}!"
     show player 1
     show erik 4
-    eri "Никаких проблем, приятель!"
+    eri "No problem, dude!"
     return
 
 label button_erik_make_flute:
     show player 12
-    player_name "Что мне нужно, чтобы сделать флейту?"
+    player_name "What do I need to make a flute?"
     show player 5
     show erik 5
-    eri "Все, что вам нужно, это подходящего размера {b}ветка с дерева и дрель{/b}."
+    eri "All you need is an appropriate sized {b}branch off a tree and a drill{/b}."
     show erik 52
     show player 12
-    player_name "{b}Ветка с дерева{/b}? Я не могу просто использовать пиломатериалы в нашем домике на дереве?"
+    player_name "{b}A branch off a tree{/b}? Can't I just use the lumber at our tree house?"
     show player 5
     show erik 5
-    eri "Ну, ты мог бы сделать, но я помню, в игре они специально сказали {b}искать упавшую ветвь{/b}."
-    eri "Что-то о инструменте, которому нужна духовная энергия леса, чтобы играть по-настоящему."
+    eri "Well you might do but I remember in the game they specifically said to {b}look for a fallen branch{/b}."
+    eri "Something about the instrument needing the spirit energy of the forest to play true."
     show erik 52
     show player 14
-    player_name "Для меня это звучит как глупость видеоигр!"
+    player_name "That sounds like video game nonsense to me!"
     show player 13
     show erik 5
-    eri "Может быть, но ты действительно хочешь рискнуть?"
+    eri "Hmm, it could be but do you really want to chance it?"
     show erik 52
     show player 10
-    player_name "... Нет, пожалуй, нет."
-    player_name "Итак, я должен {b}искать упавшую ветку с дерева{/b}."
+    player_name "... No, I guess not."
+    player_name "So, I should {b}look for a fallen branch off a tree{/b}."
     show player 12
-    player_name "Потом что?"
+    player_name "Then what?"
     show player 5
     show erik 5
-    eri "Просто просверли центр, а затем сделай несколько отверстий с одной стороны."
+    eri "Just drill out the center and then make some holes on one side."
     show erik 52
     show player 14
-    player_name "Хорошо!"
-    player_name "Знаешь, кажется, {b}я видел дрель в нашем гараже{/b}."
+    player_name "Oh yeah!"
+    player_name "You know, I think {b}I've seen a drill in our garage{/b}."
     show player 13
     show erik 4
-    eri "Похоже, ты все понял!"
+    eri "Sounds like you've got it all figured out then!"
     return
 
 label button_erik_talent_show:
     show player 14
-    player_name "Ты играешь на гитаре, верно?"
+    player_name "You play guitar, right?"
     show player 13
     show erik 3b
-    eri "Э?"
-    eri "Нет. Что натолкнуло тебя на эту мысль?"
+    eri "Huh?"
+    eri "No. What gave you that idea?"
     show erik 51
     show player 10
-    player_name "Разве это не твои гитары висят в подвале?"
-    player_name "Я просто предположил-"
+    player_name "Well, aren't those your guitars hanging up in your basement..."
+    player_name "I just assumed-"
     show player 5
     show erik 4
-    eri "А, точно! Да, это старые гитары {b}мистера Джонсона{/b}."
+    eri "Oh, right! Yeah, those are {b}Mr. Johnson's{/b} old guitars."
     show erik 3
-    eri "Он никогда не подпускал меня к ним."
-    eri "Он сказал, что не хотел, чтобы я их сломал."
+    eri "He never allowed me near them."
+    eri "Didn't want me to break them, he said."
     eri "..."
     show erik 3b
-    eri "Иногда мне кажется, что он любил эти гитары больше, чем {b}миссис Джонсон{/b}."
+    eri "Sometimes, I think he loved those guitars more than {b}Mrs. Johnson{/b}."
     show erik 3c
     show player 25
-    player_name "Фу!"
+    player_name "Yikes."
     show player 5
     show erik 4
-    eri "Расскажите мне об этом."
-    eri "В любом случае, у меня хобби гораздо лучше, чем музыка!"
+    eri "Tell me about it."
+    eri "Anyways, I have much better hobbies than music!"
     show erik 1
     show player 14
-    player_name "Ты имеешь в виду свои видеоигры?"
+    player_name "You mean your video games?"
     show player 13
     show erik 4
-    eri "Черт возьми, да, чувак!"
+    eri "Heck yeah, dude!"
     return
 
 label button_erik_borrow_guitar:
     show player
-    player_name "Эй, мне нужна услуга!"
+    player_name "Hey man, I need a favor!"
     show player 13
     show erik 4
-    eri "Конечно, что случилось, чувак?"
+    eri "Sure, what's up, dude?"
     show erik 1
     show player 14
-    player_name "Ты знаешь те гитары в твоем подвале?"
+    player_name "You know those guitars in your basement?"
     show player 13
     show erik 5
-    eri "Да."
+    eri "Yeah."
     show erik 1
     show player 10
-    player_name "Думаешь, я могу одолжить одну для шоу талантов?"
+    player_name "You think I could borrow one for the talent show?"
     show player 5
     show erik 5
-    eri "...Ты хочешь одолжить одну из гитар {b}мистера Джонсона{/b}?"
+    eri "... You wanna borrow one of {b}Mr. Johnson's{/b} guitars?"
     show erik 52
     show player 14
-    player_name "Да, если все в порядке?"
-    player_name "Я принесу ее после шоу талантов."
+    player_name "Yeah, if it's alright?"
+    player_name "I'll bring it back after the talent show."
     show player 13
     show erik 50
-    eri "Хмм."
+    eri "Hmm."
     show erik 5
-    eri "Ну, я не возражаю, но я не уверен, что {b}миссис Джонсон{/b} хотела бы, чтобы я одолжил старые вещи {b}мистера Джонсона{/b}."
+    eri "Well I don't mind but I'm not sure {b}Mrs. Johnson{/b} would like the idea of me loaning out {b}Mr. Johnson's{/b} old stuff."
     show erik 52
     show player 10
-    player_name "Правда?"
+    player_name "Really?"
     show player 5
     show erik 5
-    eri "Да, особенно его гитары. Они были его детьми."
+    eri "Yeah, especially his guitars. They were his babies."
     show erik 52
     show player 34
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 12
-    player_name "Что, если она ничего не узнает?"
+    player_name "What if she didn't know?"
     show player 5
     show erik 4
-    eri "Я почти уверен, что она заметит, если хоть одна пропадет со стены, {b}[firstname]{/b}. Она не слепая."
+    eri "I'm pretty sure she'll notice if one is missing off the wall, {b}[firstname]{/b}. She isn't blind."
     show erik 52
     show player 33
-    player_name "Ну а если я заменю его подделкой."
+    player_name "Not if I replace it with a fake."
     show player 13
     eri "..."
     show erik 5
-    eri "Серьезно?"
-    eri "Где ты возьмешь фальшивую гитару?"
+    eri "Seriously?"
+    eri "Where are you gonna get a fake guitar?"
     show erik 52
     show player 14
-    player_name "... Я сделаю ее сам!"
+    player_name "... I'll make one!"
     show player 13
     show erik 5
-    eri "Чувак, ты совсем с ума сошел?"
+    eri "Dude, have you lost your mind?"
     show erik 52
     show player 14
-    player_name "Нет, поверь мне, это сработает."
-    player_name "Она даже не заметит, что он пропал, я обещаю!"
+    player_name "No, trust me this will work."
+    player_name "She won't even notice it's gone, I promise!"
     show player 13
     show erik 5
-    eri "... Как скажешь. Просто убедись, что ничего не произойдет с реальной гитарой!"
-    eri "{b}Миссис Джонсон{/b} убьет меня!"
+    eri "... If you say so. Just make sure nothing happens to the real guitar!"
+    eri "{b}Mrs. Johnson{/b} would kill me!"
     show erik 52
     show player 14
-    player_name "Я буду осторожен, {b}Эрик{/b}. Я Обещаю."
+    player_name "I'll be careful, {b}Erik{/b}. I promise."
     show player 13
     hide erikl
     hide erik
     with dissolve
     show player 4
     if not L_diane_shed.locked:
-        player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из сарая Дианы.{/b} )"
+        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from Diane's shed.{/b} )"
     else:
-        player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из гаража дома.{/b} )"
+        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from the garage at home.{/b} )"
     return
 
 label button_erik_make_guitar:
     show player 13
-    eri "Как продвигается замена гитары?"
+    eri "How's that replacement guitar coming along?"
     show erik 1
     show player 14
-    player_name "В процессе."
+    player_name "Still a work in progress."
     show player 13
     show erik 5
-    eri "Просто будь осторожен с настоящей гитарой, пожалуйста."
+    eri "Well just be careful with the real guitar, please."
     show erik 1
     show player 14
-    player_name "Хорошо!"
+    player_name "Will do!"
     show player 13
     hide erikl
     hide erik
     with dissolve
     show player 4
     if not L_diane_shed.locked:
-        player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из сарая Дианы.{/b} )"
+        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from Diane's shed.{/b} )"
     else:
-        player_name "( Хм, я смогу сделать фальшивую гитару, используя {b}пиломатериалы возле домика на дереве{/b} и {b}краску из гаража дома.{/b} )"
+        player_name "( Hmm, I should be able to make a fake guitar using the {b}lumber near the treehouse{/b} and some {b}paint from the garage at home.{/b} )"
     return
 
 label button_erik_ask_beer:
     show player 10
-    player_name "Эй, чувак, могу я взять ящик {b}пива мистера Джонсона{/b}?"
+    player_name "Hey man, could I take a case of {b}Mr. Johnson's beer{/b}?"
     show player 5
     show erik 5
-    eri "Да, пожалуй, я думаю."
+    eri "Eh, yeah I guess."
     show player 13
-    eri "А зачем?"
+    eri "What's it for?"
     show erik 52
     show player 14
-    player_name "Это взятка для друзей {b}Евы{/b}. Они помогут нам убрать граффити со стен зала."
+    player_name "It's a bribe for {b}Eve's{/b} friends. They are gonna help us clean the graffiti off the auditorium walls."
     show player 13
     show erik 5
-    eri "О, Для шоу талантов {b}Мисс Девитт{/b}?"
+    eri "Oh, for {b}Miss Dewitt's{/b} talent show?"
     show erik 52
     show player 14
-    player_name "Ага."
+    player_name "Yup."
     show player 13
     show erik 4
-    eri "Клево!"
-    eri "Бери сколько хочешь, чувак."
+    eri "Cool!"
+    eri "Take as much as you need, dude."
     show erik 1
     show player 17
-    player_name "Спасибо {b}Эрик{/b}! Ты хороший друг!"
+    player_name "Thanks {b}Erik{/b}! You're a good friend!"
     return
 
 label button_erik_school_sneak_mission_help:
     show player 10
-    player_name "Мне очень нужна твоя помощь с чем-то большим сегодня, {b}Эрик{/b}."
+    player_name "I really need your help with something big tonight, {b}Erik{/b}."
     show player 5
     show erik 5
-    eri "С чем-то большим?"
+    eri "Something big?"
     show erik 52
     show player 33
-    player_name "Да, Чувак. Что-то типа секретной миссии У.Б.Е.Р."
+    player_name "Yeah, Man. I'm talking like uber secret mission kinda stuff."
     show player 13
     show erik 4
-    eri "Звучит потрясающе! Тебе действительно нужна моя помощь!?"
+    eri "That sounds awesome! You really want my help!?"
     show erik 1
     show player 14
-    player_name "Очень!"
+    player_name "Sure!"
     show player 12
-    player_name "Все остальные струсили, так что... я рассчитываю на тебя."
+    player_name "Everyone else chickened out on me, so... I'm kinda counting on you here."
     show player 5
     show erik 4
-    eri "Не переживая, {b}[firstname]{/b}. Я тебя не подведу!"
+    eri "Don't worry, {b}[firstname]{/b}. I won't let you down!"
     show erik 1
     show player 17
-    player_name "Спасибо, чувак!"
+    player_name "Thanks, dude!"
     show player 14
-    player_name "Встретимся {b}вечером перед школой{/b}, после заката."
+    player_name "Meet me in {b}front of the school tonight{/b}, after the sun sets."
     show player 13
     show erik 5
-    eri "Эй, подождите секундочку..."
+    eri "Whoa, wait a second..."
     show player 5
-    eri "Ты хочешь вломиться в школу после наступления темноты?!"
+    eri "You wanna break into the school after dark?!"
     show erik 3b
-    eri "Я не знаю насчет этого..."
+    eri "I dunno about this..."
     show erik 52
     show player 10
-    player_name "... Мне приходится, приятель."
-    player_name "Если я этого не сделаю, {b}Директриса Смит{/b} отменит {b}шоу талантов{/b} и я не смогу получить свои оценки!"
+    player_name "... I have to, man."
+    player_name "If I don't, {b}Principal Smith{/b} is going to cancel the {b}Talent Show{/b} and I won't be able to get my grades up!"
     show player 5
     show erik 3
     eri "..."
-    eri "Х-Хорошо, {b}[firstname]{/b}. Я помогу тебе."
+    eri "A-alright, {b}[firstname]{/b}. I'll help you."
     show erik 3c
     show player 14
-    player_name "Да! Спасибо, {b}Эрик{/b}!"
+    player_name "Yes! Thank you, {b}Erik{/b}!"
     show erik 1
-    player_name "Ты хороший друг!"
+    player_name "You're a good friend!"
     show player 13
     show erik 4
-    eri "Хех, не беспокойся, чувак."
+    eri "Heh, no worries, dude."
     show erik 5
-    eri "Я встречусь с тобой {b}сегодня ночью перед школой{/b}."
+    eri "I'll meet you {b}tonight in front of the school{/b}."
     return
 
 label erik_book_return:
@@ -292,18 +292,18 @@ label erik_book_return:
     show erik 1 at right
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
-    player_name "Я пытаюсь получить книгу для школы, но библиотекарь заставляет меня бегать по делам."
-    player_name "Она сказала, что у тебя есть книга, которая просрочена, и я надеялся, что смогу получить ее от тебя."
+    player_name "I'm trying to check out a book for school but the librarian has me running errands."
+    player_name "She said you had a book that's overdue and I was hoping I could get it from you."
     show player 5
     show erik 3b
-    eri "Правда?"
+    eri "I do?"
     show erik 3
-    eri "Я не помню-"
+    eri "I don't remember-"
     show erik 4
-    eri "Оххх подожди, хорошо!"
-    eri "Я проверил один из них ..."
+    eri "Ohhh wait, that's right!"
+    eri "I did check one out..."
     show erik 3b
-    eri "Я понятия не имею, где она может быть. Вот Дерьмо!"
+    eri "I have no idea where it could be though. Crap!"
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
@@ -313,17 +313,17 @@ label erik_book_return:
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "Я вроде {b}читал ее в своей комнате{/b}..."
+    eri "I remember {b}reading it in my room{/b}..."
     show erik 3
-    eri "Грррр, Но я понятия не имею, куда она могла пропасть..."
+    eri "Urrgh, but I have no idea where it could have gotten to..."
     show erik 3b
-    eri "Извени, {b}[firstname]{/b}."
+    eri "Sorry, {b}[firstname]{/b}."
     show erik 52
     show player 14
-    player_name "Не переживая, Я сам ее поищу."
+    player_name "It's alright, I'll look around for it."
     show player 13
     show erik 4
-    eri "Хорошо, удачи, чувак!"
+    eri "Okay, good luck, dude!"
     hide erik
     hide erikl
     hide player
@@ -333,20 +333,20 @@ label erik_book_return:
 label button_erik_sex_ed:
     show erik 1 at right
     show player 12 at left
-    player_name "Что {b}миссис Джонсон{/b} хотела, чтобы мы получили?"
+    player_name "What did {b}Mrs. Johnson{/b} want us to get again?"
     show player 5
     show erik 5
-    eri "Хмм... Думаю, она хочет, чтобы мы принесли {b}таблетки, чтобы она не забеременела{/b}."
-    eri "И эту книгу? О позах для секса..."
+    eri "Hmm... I think she wants us to get {b}pills so she won't get pregnant{/b}."
+    eri "And that book? The one about sex positions..."
     show erik 1
     show player 35
-    player_name "Да, что-то наподобие {b}Кама Сутры{/b}?"
+    player_name "Yeah, something about {b}Kama Sutra{/b}?"
     show player 34
     show erik 5
-    eri "Наверно."
+    eri "I think so."
     show erik 1
     show player 14
-    player_name "Хорошо."
+    player_name "Alright."
     hide player
     hide erik
     hide erikl
@@ -355,46 +355,46 @@ label button_erik_sex_ed:
 
 label button_erik_girlfriend:
     show player 14
-    player_name "Чувак, у меня для тебя отличные новости!"
+    player_name "Dude, I got some great news for you!"
     show player 1
     show erik 5
-    eri "Хух?"
+    eri "Huh?"
     show player 14
     show erik 1
-    player_name "Итак, я поговорил с {b}Джун{/b}..."
+    player_name "So, I spoke to {b}June{/b}..."
     show erik 4
-    eri "Да ну?"
+    eri "Oh yeah?"
     show player 14
     show erik 1
-    player_name "Видимо, ей нравится играть в игру под названием Орк Борк..."
-    player_name "... и она давно хотела поиграть с кем-нибудь!"
+    player_name "Apparently, she likes to play this game called Orc Bork..."
+    player_name "... and she's been looking to play it with someone!"
     show player 1
     show erik 4
-    eri "Правда?"
+    eri "Really?"
     show player 17
     show erik 1
-    player_name "Ага!"
+    player_name "Yup!"
     show player 14
-    player_name "Я даже рассказал ей о тебе!"
-    player_name "Я упомянул твое имя и как ты мог бы помочь ей с игрой в которую она играла."
+    player_name "I even told her about you!"
+    player_name "I mentioned your name and how you could help her beat the game she's been playing."
     show player 1
     show erik 4
-    eri "Вау..."
+    eri "Woah..."
     show erik 1
     show player 17
-    player_name "Ты должен поговорить с ней в следующий раз у тебя есть шанс!"
+    player_name "You should talk to her next time you have a chance!"
     show player 1
     show erik 4
-    eri "Да... Я должен!"
+    eri "Yeah... I should!"
     show player 14
     show erik 1
-    player_name "Во всяком случае, это будет здорово, вот увидишь!"
+    player_name "Anyway, It's going to be great, you'll see!"
     show player 1
     show erik 4
-    eri "Спасибо, {b}[firstname]{/b}."
+    eri "Thanks, {b}[firstname]{/b}."
     show player 14
     show erik 1
-    player_name "Поговорим позже."
+    player_name "I'll talk to you later, then."
     hide player
     hide erik
     hide erikl
@@ -403,53 +403,53 @@ label button_erik_girlfriend:
 label button_erik_girlfriend_stolen:
     show erik 1 at right
     show player 10 at left
-    player_name "{b}Эрик{/b}, насчет {b}Джун{/b}..."
+    player_name "{b}Erik{/b}, about {b}June{/b}..."
     show player 5
     show erik 5
-    eri "Да?"
+    eri "Yeah?"
     show player 10
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
-    player_name "Ну, я не думаю, что это сработает..."
+    player_name "Well, I don't think it's going to work out..."
     show player 5
     show erik 3b
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "Почему? Что случилось?"
+    eri "Why? What happened?"
     show player 10
     show erik 3c
-    player_name "Ну, мы немного поговорили..."
+    player_name "Well, we spoke for a while..."
     show player 5
     show erik 3
-    eri "И?"
+    eri "And?"
     show player 10
     show erik 3c
-    player_name "Я просто не думаю, что она заинтересована..."
+    player_name "I just don't think she's that interested..."
     show player 5
     show erik 3
-    eri "О..."
+    eri "Oh..."
     show erik 3b
-    eri "Все в порядке."
-    eri "Я знал, что она все равно не хотела..."
+    eri "It's alright."
+    eri "I knew she wouldn't want to anyway..."
     show player 10
     show erik 3b
-    player_name "Она, эээ... она может прийти ко мне домой позже."
+    player_name "She, uh... she might be coming over to my house later."
     show player 5
     show erik 5
-    eri "Что?!"
+    eri "What?!"
     show player 10
     show erik 3c
-    player_name "Прости!"
-    player_name "Пока я с ней разговаривал, одно за другим..."
-    player_name "Мы просто собираемся потусоваться..."
+    player_name "I'm sorry!"
+    player_name "While I was talking to her, one thing led to another..."
+    player_name "We're just going to hang out..."
     show player 5
     eri "..."
     player_name "..."
     show player 10
-    player_name "Тогда я поговорю с тобой позже."
+    player_name "I'll, uh, talk to you later, then."
     hide player
     hide erik
     hide erikl
@@ -459,46 +459,46 @@ label button_erik_girlfriend_stolen:
 label button_erik_girlfriend_intro:
     show player 14 at left
     show erik 1 at right
-    player_name "Эй, а кто та девушка, которая тебе понравилась?"
+    player_name "Hey, who's that girl you said you like again?"
     show erik 4
     show player 1
-    eri "{b}Джун{/b}?"
+    eri "{b}June{/b}?"
     show player 14
     show erik 1
-    player_name "Да, где она бывает?"
+    player_name "Yeah, where does she hang around?"
     show player 1
     show erik 4
-    eri "Она обычно проводит свое время в {b}школе{/b} в {b}компьютерном классе{/b} на втором этаже..."
+    eri "She usually spends her time at {b}school{/b} in the {b}computer room{/b} on the second floor..."
     show player 14
     show erik 1
-    player_name "Хорошо!"
-    player_name "Посмотрим, что я смогу сделать."
+    player_name "Ah, okay!"
+    player_name "I'll see what I can do."
     show player 1
     return
 
 label button_erik_message_from_dad:
     show erik 52 at right
     show player 10 at left
-    player_name "Я был в полицейском участке не так давно..."
+    player_name "I was at the Police station not too long ago..."
     show player 5
     show erik 5
-    eri "Ах да?"
+    eri "Oh yeah?"
     show erik 52
     show player 10
-    player_name "Я видел того парня {b}Ларри{/b}. Ты знаешь, {b}бывший муж миссис Джонсон{/b}?"
+    player_name "I saw that {b}Larry{/b} guy. You know, {b}Mrs. Johnson's ex-husband{/b}?"
     show player 11
     show erik 3b
-    eri "Тьфу. Я не хочу думать о нем..."
+    eri "Ugh. I don't really want to think about him..."
     show erik 52
     show player 10
-    player_name "Ну, он заперт и попросил меня извиниться перед {b}миссис Джонсон{/b} за него."
+    player_name "Well, he's locked up and he asked me to apologize to {b}Mrs. Johnson{/b} for him."
     show player 5
     show erik 53
-    eri "Серьезно?"
+    eri "For real?"
     show erik 52
     show player 10
-    player_name "Да. Он просто хочет извиниться и надеется, что однажды она простит его."
-    player_name "... Не знаю, стоит ли мне вообще ей рассказывать. А ты как думаешь?"
+    player_name "Yeah. He just wants to say he's sorry and he hopes that one day she'll forgive him."
+    player_name "... I don't know if I should even bother telling her. What do you think?"
     show player 11
     show erik 2
     if player.location == L_school_scienceclassroom:
@@ -510,13 +510,13 @@ label button_erik_message_from_dad:
         show erikl 1f at right
     with dissolve
     show player 5
-    eri "Да, я тоже не знаю. Не думаю,что это пойдет на пользу, она его ненавидит..."
+    eri "Yeah, I dunno either. I don't think it will do much good, she really hates him..."
     show erik 3b
     show player 13
-    eri "Я дам ей знать, приятель."
+    eri "I'll let her know, dude."
     show erik 52
     show player 14
-    player_name "Это важно для меня. Спасибо, {b}Эрик{/b}!"
+    player_name "That works for me. Thanks, {b}Erik{/b}!"
     hide player
     hide erik
     hide erikl
@@ -527,131 +527,131 @@ label button_erik_message_from_dad:
 label button_erik_mrsj_poker_lost:
     show player 14 at left
     show erik 1 at right
-    player_name "Знаешь, что мы сделали с {b}миссис Джонсон{/b} после игры в покер?"
+    player_name "Hey, you know that thing we did with {b}Mrs. Johnson{/b} after the poker game?"
     show erik 3
     show player 11
-    eri "О, да..."
+    eri "Oh, yeah..."
     show erik 3b
-    eri "Надеюсь, ты не думаешь, что она сумасшедшая..."
+    eri "I hope you don't think she is crazy or anything..."
     show erik 1
     show player 14
-    player_name "Нет, конечно нет!"
+    player_name "No, of course not!"
     show player 17
-    player_name "Я думаю, что она потрясающая!"
+    player_name "I think she's awesome!"
     show player 14
-    player_name "Но... Я просто хотел убедиться, что ты не против, понимаешь?"
+    player_name "But... I just wanted to be sure that you were okay with it, you know?"
     show erik 7
     if player.location == L_school_scienceclassroom:
         show erikl 6 at right
     with dissolve
     show player 1
-    eri "Все в порядке, правда."
+    eri "It's fine, really."
     show erik 5
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
-    eri "Она всегда была очень трогательна со мной."
-    eri "Я никогда не был так близок с другими девушками."
+    eri "She's always been very touchy with me."
+    eri "I've never been close to other girls."
     show player 4
-    eri "Я думаю, она делает это, потому что ей плохо от того, что я все время один..."
+    eri "I think she does it because she feels bad about me being alone all the time..."
     show erik 1
     show player 14
-    player_name "Как насчет подружки?"
+    player_name "How about a girlfriend?"
     show erik 3
     show player 11
-    eri "Кто бы захотел со мной переспать?"
+    eri "Who would want to hook up with me?"
     show erik 3b
-    eri "Я не умею разговаривать с девушками..."
+    eri "I'm terrible at talking to girls..."
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     show player 5
-    eri "*вздыхает*"
+    eri "*Sigh*"
     show player 14
-    player_name "Может кто-то из школы, с кем у тебя есть что-то общее?"
+    player_name "Maybe someone from school you have things in common with?"
     show erik 3b
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     show player 1
-    eri "Я думаю..."
+    eri "I guess..."
     show erik 1
     show player 14
-    player_name "Вы предпочитаете делать что-то с {b}миссис Джонсон{/b}?"
+    player_name "Would you prefer to do stuff with {b}Mrs. Johnson{/b}?"
     show erik 5
     show player 1
-    eri "Что например?"
+    eri "Like what?"
     show erik 1
     show player 14
-    player_name "Например... Секс? Ты когда-нибудь думал об этом?"
+    player_name "Like... sex? Have you thought about it?"
     show erik 5
     show player 1
-    eri "Кажется проще... она уже уделяет мне много внимания."
+    eri "Seems easier... she already gives me lots of attention."
     show erik 1
     show player 14
-    player_name "О, да? Что ты имеешь в виду?"
+    player_name "Oh, yeah? What do you mean?"
     show erik 5
     show player 11
-    eri "Как трогать меня... позволять мне поиграть с ней..."
-    eri "Что-то вроде того, что мы сделали после игры в покер."
+    eri "Like touching me... letting me play with her..."
+    eri "Something like what we did after the poker game."
     show erik 1
     show player 10
-    player_name "Я знал, что тебя кормят грудью, но не знал, что ты зайдешь так далеко."
+    player_name "I knew you were breastfeeding, but I didn't know you were going that far."
     show erik 4
     show player 11
-    eri "Думаю, ей это нравится."
+    eri "I think she likes it."
     show erik 1
     show player 14
-    player_name "Думаешь, она сделает с нами больше?"
+    player_name "Do you think she would do more with us?"
     show erik 5
     show player 4
-    eri "Я не знаю... Может быть?"
+    eri "I don't know... Maybe?"
     show erik 1
     show player 14
-    player_name "Мы всегда можем поговорить об этом с {b}миссис Джонсон{/b}?"
+    player_name "We could always talk to {b}Mrs. Johnson{/b} about it?"
     show erik 5
     show player 1
-    eri "Не знаю, стоит ли это делать..."
+    eri "I don't know if we should..."
     show erik 1
     show player 14
-    player_name "Почему нет?"
-    player_name "Может быть, она сама хочет..."
+    player_name "Why not?"
+    player_name "Maybe she wants to..."
     show erik 5
     show player 1
-    eri "Может быть?"
+    eri "Maybe?"
     show erik 1
     show player 4
-    player_name "Хмм..."
+    player_name "Hmm..."
     show erik 4
     show player 1
-    eri "Ты мог бы спросить ее?"
+    eri "Do you think you could ask her?"
     show erik 1
     show player 23
-    player_name "Я?!"
+    player_name "Me?!"
     show erik 4
     show player 11
-    eri "Да!"
-    eri "Мне неловко спрашивать ее об этом?"
+    eri "Yeah!"
+    eri "It's pretty awkward for me to ask, you know?"
     show erik 1
     show player 29
-    player_name "Я попробую поднять этот вопрос и посмотрю, что она скажет..."
+    player_name "I'll' try to bring it up and see what she says..."
     show player 1
     return
 
 label button_erik_breastfeeding_in_person:
     show erik 1 at right
     show player 10 at left
-    player_name "Я не знал, что ты и {b}миссис Джонсон{/b} были... так близки."
+    player_name "I didn't know you and {b}Mrs. Johnson{/b} were... so close."
     show player 5
     show erik 3
-    eri "Это странно, я знаю..."
+    eri "It's weird, I know..."
     show erik 2
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
     show player 12
-    player_name "Нет, вовсе нет!"
+    player_name "No, not at all!"
     show player 10
-    player_name "Я...Я думаю это круто!"
+    player_name "I...I think it's cool!"
     show player 13
     show erik 3b
     if player.location == L_school_scienceclassroom:
@@ -659,45 +659,45 @@ label button_erik_breastfeeding_in_person:
     with dissolve
     eri "..."
     show player 29 with dissolve
-    player_name "Я имею в виду,что  {b}миссис Джонсон{/b} выглядит... очень сексуально!"
-    player_name "Я думаю тебе очень повезло..."
+    player_name "I mean, {b}Mrs. Johnson{/b} is like... really hot!"
+    player_name "I think you're kind of lucky..."
     show player 13 with dissolve
     show erik 3
-    eri "Думаю, да.."
+    eri "I guess so."
     show player 12
-    player_name "Вы, ребята делаете... что нибудь еще вместе?"
+    player_name "You guys do... anything else together?"
     show player 11
     show erik 5
-    eri "...НЕТ!!"
+    eri "...NO!!"
     show erik 3
-    eri "Она только ты знаешь, позволяет мне её много трогать..."
+    eri "She just, you know, let's me touch her a lot..."
     show erik 3b
     show player 23
-    player_name "Серьезно?!"
-    player_name "Как... все ее тело?"
+    player_name "Really?!"
+    player_name "Like... her whole body?"
     show player 14
     show erik 5
-    eri "Ну, вроде как."
+    eri "Well, sort of."
     show erik 50
     show player 12
-    player_name "Тебе не нравится?"
+    player_name "Don't you like it?"
     show player 13
     show erik 5
-    eri "Конечно!"
+    eri "Of course!"
     show erik 50
     show player 33
-    player_name "Я знаю я бы!"
+    player_name "I know I would!"
     show player 13
     show erik 5
-    eri "Только...пожалуйста, не говори никому хорошо?"
+    eri "Just...please don't tell anyone alright?"
     show erik 50
     show player 14
-    player_name "{b}Эрик{/b}, ты мой лучший друг."
-    player_name "Это останется между нами."
-    player_name "Я был просто... удивлен,знаешь?"
+    player_name "{b}Erik{/b}, you're my best friend."
+    player_name "I'll keep this between us."
+    player_name "I was just... surprised, you know?"
     show player 13
     show erik 5
-    eri "Спасибо, {b}[firstname]{/b}.Ты хороший друг."
+    eri "Thanks, {b}[firstname]{/b}. You're a good friend."
     hide player
     hide erik
     hide erikl
@@ -707,90 +707,90 @@ label button_erik_breastfeeding_in_person:
 label button_erik_favor_completed:
     show erik 1 at right
     show player 17 at left
-    player_name "Он у меня!"
+    player_name "I have it!"
     show erik 4 at right
     show player 1 at left
-    eri "О да?"
+    eri "Oh yeah?"
     show erik 1 at right
     show player 33 at left
-    player_name "Это совершенно новая копия {b}Sea Dogs SAGA{/b}!"
+    player_name "A brand new copy of {b}Sea Dogs SAGA{/b}!"
     show player 239_240
     pause
     show erik 4 at right
     show player 72 at left
-    eri "Не может быть!"
+    eri "No way!"
     show erik 8 at right
     if player.location == L_school_scienceclassroom:
         show erikl 8 at right
     with dissolve
     show player 1 at left
-    eri "Спасибо, {b}[firstname]{/b}!"
+    eri "Thanks, {b}[firstname]{/b}!"
     show erik 9 at right
     show player 14 at left
-    player_name "Итаак... Ты собираешься поговорить с {b}Кэвином{/b}?"
+    player_name "Sooo... Are you gonna talk to {b}Kevin{/b}?"
     show erik 10 at right
     show player 1 at left
-    eri "Да. Я возьму на себя его обязанности в кафетерии."
+    eri "Yeah. I'll take over his cafeteria duties."
     show erik 9 at right
     show player 36 at left
-    player_name "Отлично! Спасибо {b}Эрик{/b}!"
+    player_name "Great! Thanks {b}Erik{/b}!"
     return
 
 label button_erik_ask_favor:
     show erik 1 at right
     show player 29 at left
-    player_name "Вообще-то, мне нужна услуга!"
+    player_name "I need a favor, actually!"
     show erik 5 at right
     show player 13 at left
-    eri "О да?"
-    eri "Что там?"
+    eri "Oh yeah?"
+    eri "What is it?"
     show erik 1 at right
     show player 14 at left
-    player_name "Ну,ты знаешь {b}Кэвина{/b} из {b}школы{/b}?"
+    player_name "Well, you know {b}Kevin{/b} from {b}school{/b}?"
     show erik 5 at right
     show player 1 at left
-    eri "Немного..."
+    eri "Sort of..."
     show erik 1 at right
     show player 17 at left
-    player_name "Хорошо, ладно. Он дежурит в кафетерии еще два месяца...."
-    player_name "...И ему действительно нужна замена."
+    player_name "Ok, well. He's on cafeteria duty for another two months..."
+    player_name "...And he really needs a replacement."
     show erik 2 at right
     show player 11 at left
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
     with dissolve
-    eri "Агх. Я {b}НЕНАВИЖУ{/b} дежурство в кафетерии..."
+    eri "Ugh. I {b}HATE{/b} cafeteria duty..."
     show erik 3 at right
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     with dissolve
     show player 10 at left
-    player_name "Слушай, тебе не обязательно это делать..."
+    player_name "Look, you don't have to do it..."
     show player 14 at left
-    player_name "...Но если ты это сделаешь, я дам тебе все, что захочешь!"
-    player_name "Есть что-нибудь вообще?"
+    player_name "...But if you do, I'll get you whatever you want!"
+    player_name "Is there anything at all?"
     show erik 1 at right
     show player 1 at left
-    eri "Хмм..."
+    eri "Hmm..."
     show erik 4 at right
     show player 11 at left
-    eri "Ну, Я думаю ты мог бы принети мне эту новую игру, которая только что вышла..."
+    eri "Well, you could get me this new game that just came out I guess..."
     show erik 1 at right
     show player 2 at left
-    player_name "Как она называется?"
+    player_name "What's it called?"
     show erik 4 at right
     show player 1 at left
-    eri "Она называется: {b}Sea Dogs SAGA{/b}"
-    eri "...она уже в магазине {b}COSMIC CUMICS{/b}..."
+    eri "It's called: {b}Sea Dogs SAGA{/b}"
+    eri "...it's in store at {b}COSMIC CUMICS{/b} already..."
     show erik 1 at right
     show player 18 at left
-    player_name "Хорошо! Так что, если я получу её, ты сделаешь это?"
+    player_name "Ok! So if I get it, you'll do it?"
     show erik 3 at right
     show player 2 at left
-    eri "Да... я думаю."
+    eri "Yeah... I guess."
     show erik 1 at right
     show player 14 at left
-    player_name "Потрясающе!!!"
+    player_name "Awesome!!!"
     return
 
 label button_erik_where_is_mrsj:
@@ -801,14 +801,14 @@ label button_erik_where_is_mrsj:
     else:
         show erik 1 at right
     show player 35 at left
-    player_name "Где {b}миссис Джонсон{/b}?"
+    player_name "Where's {b}Mrs. Johnson{/b}?"
     show erik 5 at right
     show player 34 at left
-    eri "... Эм, обычно она где-то вокруг дома.. За исключением {b}вечеров{/b} когда она преподает йогу в {b}Спортзале{/b}."
+    eri "... Eh, she's normally around the house somewhere. Except in the {b}afternoons{/b} when she's teaching yoga at the {b}Gym{/b}."
     show player 1 at left
     show erik 1 at right
     show player 14 at left
-    player_name "Ах,я вижу."
+    player_name "Ah, I see."
     return
 
 label button_erik_not_much:
@@ -819,30 +819,30 @@ label button_erik_not_much:
     else:
         show erik 1 at right
     show player 2 at left
-    player_name "Ой, немного."
+    player_name "Oh, not much."
     show player 17 at left
-    player_name "Просто заскочил поздороваться!"
+    player_name "Just dropping by to say hi!"
     show erik 5 at right
     show player 1 at left
-    eri "Все в порядке на твоем новом месте?"
+    eri "Is everyone alright at your new place?"
     show erik 1 at right
     show player 10 at left
-    player_name "{b}[deb_name]{/b} получает {b}странные телефонные звонки{/b}, но она говорит, что все в порядке...."
+    player_name "{b}[deb_name]'s{/b} been getting {b}weird phone calls{/b} but she say's everything's fine so..."
     show player 24 at left
-    player_name "Я думаю, все будет хорошо...."
+    player_name "I think we'll be alright..."
     show erik 5 at right
     show player 13 at left
-    eri "Это странно..."
+    eri "That's odd..."
     show erik 5 at right
     show player 24 at left
-    player_name "Да,я знаю..."
+    player_name "Yeah, I know..."
     show player 36 at left
-    player_name "В любом случае, я лучше пойду."
+    player_name "Anyway, I'd better get going."
     show erik 7 at right
     if player.location == L_school_scienceclassroom:
         show erikl 6 at right
     with dissolve
-    eri "Ладно, тогда увидимся!"
+    eri "Alright, then. See ya!"
     hide player
     hide erikl
     hide erik
@@ -852,39 +852,39 @@ label button_erik_not_much:
 label button_erik_webcam_help:
     show player 29 at left
     show erik 1 at right
-    player_name "Кстати... Мне нужна помощь кое с чем сегодня вечером..."
+    player_name "By the way... I need help with something tonight..."
     show erik 5
-    eri "Ах да? в чем дело?"
+    eri "Oh yeah? What is it?"
     show player 21
     show erik 1
-    player_name "Это прозвучит немного безумно, но мне нужна помощь, чтобы пробраться в школу Сегодня вечером..."
+    player_name "It's gonna sound a bit crazy, but I need help sneak into school tonight..."
     show player 13
     show erik 5
-    eri "Что?"
-    eri "...Но почему?"
+    eri "What?"
+    eri "...But why?"
     show player 10
     show erik 1
-    player_name "Все, что тебе нужно знать, это то что это поможет мне догнать школу..."
+    player_name "All you need to know is this will help me catch up with school..."
     show player 108f
-    player_name "...И я не могу позволить себе облажаться, мне действительно нужно это сделать."
+    player_name "...And I can't afford to fail, I really need to do it."
     show player 5
     show erik 3
-    eri "Хмм..."
-    eri "Я даже не знаю... Пахнет неприятностями."
+    eri "Hmm..."
+    eri "I don't know about this... Sounds like trouble."
     show player 10
     show erik 1
-    player_name "Пожалуйста?"
+    player_name "Please?"
     show player 13
     show erik 5
-    eri "Я думаю я смогу помочь..."
+    eri "I guess I can help..."
     show player 17
     show erik 1
-    player_name "Славно!!!"
+    player_name "Sweet!!!"
     show player 14
-    player_name "Ладно, встретимся вечером в школе!"
+    player_name "Alright, meet me at school tonight!"
     show player 1
     show erik 4
-    eri "Хорошо."
+    eri "Okay."
     hide erik
     hide erikl
     hide player
@@ -893,32 +893,32 @@ label button_erik_webcam_help:
 label button_erik_ask_model:
     show player 10 at left
     show erik 1 at right
-    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
-    player_name "Ты был бы заинтересован?"
+    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
+    player_name "Would you be interested?"
     show player 11
     show erik 5
-    eri "Эмм, Ты правда думаешь, что из меня выйдет хорошая модель?"
+    eri "Uhh, You really think I would make a good model?"
     show player 10
     show erik 1
-    player_name "Хмм, нет... Вряд ли."
+    player_name "Hmm, no... Probably not."
     show player 2
-    player_name "Я поищу в другом месте."
+    player_name "I'll look elsewhere."
     show player 1
     show erik 4
-    eri "Удачи, чувак."
+    eri "Good luck, dude."
     return
 
 label button_erik_path_split:
     show player 14 at left
     show erik 1 at right
-    player_name "Что я должен спросить у {b}миссис Джонсон{/b} еще раз?"
+    player_name "What should I ask {b}Mrs. Johnson{/b} again?"
     show erik 5
     show player 1
-    eri "Узнай, хочет ли она провести с нами время?"
+    eri "Find out if she wants to do more stuff with us?"
     show player 14 at left
     show erik 1
-    player_name "Ох,хорошо."
-    player_name "Я дам тебе знать, как только поговорю с ней."
+    player_name "Oh, right."
+    player_name "I'll let you know once I talk to her."
     show player 1
     show erik 1
     return
@@ -926,7 +926,7 @@ label button_erik_path_split:
 label erik_funky_block:
     scene expression game.timer.image("erik_inside{}_b")
     show player 10 with dissolve
-    player_name "Ну... Я думаю, я должен оставить {b}Эрика{/b} одного на некоторое время."
+    player_name "Well... I guess I should leave {b}Erik{/b} alone for a while."
     hide player with dissolve
     $ game.main()
 
@@ -935,41 +935,41 @@ label button_erik_talked_to_roxxy_booze:
     if player.location == L_school_scienceclassroom:
         show erikl 1f at right
     show player 10 at left
-    player_name "{b}Рокси{/b} попросила меня принести напитки для нее и ее друзей."
-    player_name "Ты не возражаешь, если я возьму немного пива из подвала {b}миссис Джонсон{/b}, пожалуйста?"
+    player_name "{b}Roxxy{/b} asked me to get some drinks for her and her friends."
+    player_name "You wouldn't mind if I took some of {b}Mr. Johnson's{/b} beer out of the basement, would you?"
     show player 5
     show erik 5
-    eri "Ты хочешь, чтобы я дал {b}Рокси{/b} и её друзьям алкоголь?!"
+    eri "You want me to provide {b}Roxxy{/b} and her friends with alcohol?!"
     show erik 52
     show player 10
-    player_name "Эмм... Да?"
+    player_name "Err... Yeah?"
     show player 5
     show erik 5
-    eri "Ни в коем случае,чувак!"
-    eri "Ты хоть понимаешь, сколько боли они мне приносят в школе?!"
+    eri "No way, dude!"
+    eri "Do you realize how much grief they give me at school?!"
     show erik 52
     show player 24
-    player_name "Да,я знаю, мужик..."
+    player_name "Yeah I know, man..."
     show player 14
-    player_name "Подумай об этом как о шансе показать себя с хорошей стороны!"
+    player_name "Think of this as a chance to get on their good side!"
     show player 13
     show erik 5
-    eri "Хмм, нет, спасибо!"
+    eri "Hmm, no thanks!"
     show player 5
-    eri "Я уверен, что все стороны одинаково плохи."
+    eri "I'm pretty sure all their sides are equally bad."
     show erik 52
     player_name "..."
     show player 10
-    player_name "Хорошо, я все понимаю. Спасибо в любом случае."
+    player_name "Alright, I understand. Thanks anyways."
     show player 5
     show erik 5
-    eri "Извини, {b}[firstname]{/b}."
-    eri "Ты знаешь, что я сделаю все для тебя, чувак."
-    eri "Просто... Я не хочу связываться с {b}Рокси{/b}."
+    eri "I'm sorry, {b}[firstname]{/b}."
+    eri "You know I'll do anything for you, dude."
+    eri "Just... I don't wanna get involved with {b}Roxxy{/b}."
     show erik 52
     show player 14
-    player_name "Не беспокойся."
-    player_name "Я придумаю что-нибудь другое."
+    player_name "No worries."
+    player_name "I'll figure something else out."
     show player 5f with dissolve
     if player.location == L_school_scienceclassroom:
         show erikl 2 at right
@@ -980,28 +980,28 @@ label button_erik_talked_to_roxxy_booze:
         show erikl 1f at right
     show erik 5
     with dissolve
-    eri "Ох, подожди!"
+    eri "Oh, wait!"
     show erik 52
     show player 5 with dissolve
-    player_name "Хммм?"
+    player_name "Hmm?"
     show erik 5
-    eri "Как Насчет поддельного удостоверения?"
+    eri "What about a fake ID?"
     show erik 52
     show player 10
-    player_name "поддельного удостоверения?!"
-    player_name "Что ты знаешь о поддельных удостоверениях личности, {b}Эрик{/b}?!"
+    player_name "A fake ID?!"
+    player_name "What do you know about fake ID's, {b}Erik{/b}?!"
     show player 5
     show erik 3
-    eri "Ох, эмм..."
-    eri "Я вроде как..."
+    eri "Oh, uhh..."
+    eri "I kinda..."
     show erik 3b
-    eri "... Типо, занимался этим несколько лет назад..."
+    eri "... Sorta, looked into it a few years ago..."
     show erik 52
     show player 12
-    player_name "Черт возьми, зачем тебе нужно было поддельное удостоверение?"
+    player_name "Why in the heck would you need a fake ID?"
     show player 5
     show erik 3
-    eri "... Для одной видеоигры которую я хотел."
+    eri "... For this video game I wanted."
     if player.location == L_school_scienceclassroom:
         show erikl 2
     show erik 2
@@ -1012,37 +1012,37 @@ label button_erik_talked_to_roxxy_booze:
         show erikl 1f at right
     show erik 3
     with dissolve
-    eri "Взрослую игру."
+    eri "An adult game."
     show erik 52
     show player 14
-    player_name "Хочешь сказать, у тебя есть фальшивое удостоверение личности??"
+    player_name "Are you telling me you have a fake ID?"
     show player 13
     show erik 5
-    eri "Нет!"
+    eri "No!"
     show player 5
-    eri "Хех, Я эмм.. Не мог себе этого позволить."
+    eri "Heh, I uhh.. Couldn't afford it."
     show erik 4
-    eri "...Но я знаю, где его можно достать!"
+    eri "... But I know where you can get one!"
     show erik 1
     show player 14
-    player_name "Хорошо,где?"
+    player_name "Alright, where?"
     show player 13
     show erik 5
-    eri "Я читал об этом онлайн."
-    eri "Есть один парень на {b}пирсе{/b} который делает их за $400."
+    eri "I read about it online."
+    eri "There's a guy down at {b}the pier{/b} that makes them for $400."
     show erik 52
     show player 35
-    player_name "Хмм, на {b}пирсе{/b}, хм?"
+    player_name "Hmm, down at {b}the pier{/b}, huh?"
     show player 14
-    player_name "Отлично, Я проверю это."
+    player_name "Alright, I'll look into it."
     show player 13
     show erik 4
-    eri "Удачи, чувак!"
+    eri "Good luck, dude!"
     hide erik
     hide erikl
     with dissolve
     show player 14
-    player_name "Я должен {b}вернуться к Рокси{/b} и посмотреть, что она думает обо всем этом."
+    player_name "I should {b}head back to Roxxy{/b} and see what she thinks about all this."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

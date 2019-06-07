@@ -1,4 +1,6 @@
-screen church_cloister_bell:
+screen church_cloister_bell():
+    use mods_screens_hook("church_cloister_bell")
+
     add game.timer.image("backgrounds/location_church_bell_day{}.jpg")
 
     if M_aqua.is_set("bell search"):

@@ -32,7 +32,7 @@ init python:
 
 
 
-screen poker_screen:
+screen poker_screen():
     $ b = 680
     $ c = 0
     for Card in player_hand:
@@ -179,7 +179,7 @@ screen poker_screen:
     elif player_status == "allin":
         add "buttons/poker_text_allin.png" pos 330,640
 
-screen unclick_overlay:
+screen unclick_overlay():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Return()

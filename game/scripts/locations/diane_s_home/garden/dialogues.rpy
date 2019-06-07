@@ -63,7 +63,7 @@ label dianes_garden_diane_find_carpenter:
     pause
     hide diane
     show player 29 at left
-    show diane at lright
+    show diane b_shirtless a_shirtless_sides at lright
     with dissolve
     player_name "Heh, no problem!"
     show player 13 with dissolve
@@ -1406,14 +1406,9 @@ label dianes_garden_diane_delivery_3_task_week:
     show diane f_normal
     show player 10
     player_name "Got it."
-    return
-
-label dianes_garden_diane_delivery_3_task_weekend:
-    scene expression player.location.background_blur
-    show diane f_normal_talk
-    dia "The {b}Package{/b} has to be dropped off at the {b}School{/b}, so come back during the school week."
-    show player 1 at left
-    player_name "Okay."
+    hide player
+    hide diane
+    with dissolve
     return
 
 label dianes_garden_diane_delivery_3_done:
@@ -1782,7 +1777,7 @@ label dianes_garden_diane_delivery_2_task:
     show diane f_tired
     show player 10
     player_name "Next door?"
-    player_name "I think {b}Anne{/b} lives next door..."
+    player_name "I think {b}Annie{/b} lives next door..."
     show player 5
     show diane f_tired_down
     dia "Hmm?"
@@ -1976,7 +1971,7 @@ label dianes_garden_diane_ready_for_day_off:
     show diane f_normal
     show player 14
     player_name "You just take a seat and I'll handle it, okay?"
-    $ M_diane.is_naked = 0
+    $ M_diane.outfit.is_naked = 0
     hide player
     hide diane
     with dissolve

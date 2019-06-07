@@ -1,4 +1,6 @@
-screen hospital_elevator:
+screen hospital_elevator():
+    use mods_screens_hook("hospital_elevator")
+
     add "backgrounds/location_hospital_elevator.jpg"
 
     imagebutton:

@@ -3,24 +3,24 @@ label pizzeria_storage_diane_delivery_1_place_goods:
     show player 163d at left
     show maria f_normal_talk at flip, Position (xpos=750)
     with dissolve
-    maria "Он находится прямо здесь."
-    maria "У нас есть холодильная установка. Ничего особенного, но это-"
+    maria "It's just over here."
+    maria "We gotta refrigeration unit. It's nothing fancy but it-"
     show maria falling at unflip, lright with dissolve
     show player 163j
     maria "!!!"
     hide maria with dissolve
-    maria "ААААХХХХХ!!!"
+    maria "AAAGGGHHH!!!"
     show expression "backgrounds/location_pizza_cutscene01.jpg"
-    show expression FilteredText("{b}Мария{/b} споткнулась о мешок с мукой и начала падать.\nОтчаянно хватаясь за полку, она упала...") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("{b}Maria{/b} tripped over a bag of flour and started to fall.\nDesperatly grabbing at the shelf as she went down...") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     show expression "backgrounds/location_pizza_cutscene02.jpg"
-    show expression FilteredText("К сожалению, все, что ей удалось сделать, это опрокинуть пару банок измельченных помидоров,\nпрежде чем упасть на пол.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Unfortunately all she managed to do was knock a couple cans of crushed tomatoes over\nbefore tumbling head over heels into a heap on the floor.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("Я застыл, как олень в свете фар, когда она лежала с обнаженной нижней половиной...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("I was frozen like a deer in headlights as she lay there with her lower half exposed...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -29,59 +29,59 @@ label pizzeria_storage_diane_delivery_1_place_goods:
     show player 106 zorder 1 at left
     show maria knees zorder 1
     with dissolve
-    maria "Тч, Ай..."
+    maria "Tch, Ow..."
     show player 108f
-    player_name "С вами все в порядке, мэм?"
+    player_name "A-are you alright, ma'am?"
     show player 114
     show maria knees_closed
-    tony "МАРИЯ?!"
+    tony "MARIA?!"
     show tony f_suspicious zorder 0 at flip, Position (xpos=600) with dissolve
     show player 5
-    tony "Ты в порядке?!"
-    tony "Какого черта происходит в-"
+    tony "You alright?!"
+    tony "What in the blazes is going on in-"
     show tony f_question at flip
     tony "!!!"
-    tony "Господи, {b}Мария{/b}, ты выставлена на обозрение всему миру!"
+    tony "Jesus, {b}Maria{/b} you're on display for the whole world to see!"
     show maria knees_talk with dissolve
-    maria "Ай, заткнись {b}Тони{/b}!"
-    maria "Я же не специально это сделала!"
+    maria "Ahh, shuddup {b}Tony{/b}!"
+    maria "It ain't like I did it on purpose!"
     show maria a_dressed_gross o_sauce f_surprised_down at Position (xpos=580) with dissolve
-    maria "Это ты все время оставляешь муку, чтобы я споткнулась!"
-    maria "Я не знаю, почему ты не можешь просто положить вещи туда, где они должны быть?!"
+    maria "You're the one who keeps leaving the flour sitting out for me to trip over!"
+    maria "I dunno why you can't just put things up where they belong?!"
     show maria f_shy a_dressed_back with dissolve
     show tony f_suspicious at flip
-    tony "Я забыл, хорошо?!"
-    tony "Почему бы тебе не перестать бить меня по яйцам и не извиниться перед парнем?"
-    tony "Ты, вероятно, напугала его до полусмерти, сверкая своими непослушными булочками перед ним!"
+    tony "I forgot alright?!"
+    tony "Why don't you quit bustin' my balls and apologize to the kid here?"
+    tony "You probably scared him half to death flashing your naughty bits at him like that!"
     show tony f_normal_talk at flip
-    tony "Хахаха!"
+    tony "Hahaha!"
     show tony f_normal at flip
     show maria f_shy_talk
-    maria "О, пожалуйста."
-    maria "Дети его возраста постоянно видят это в интернете."
+    maria "Oh, please."
+    maria "Kids his age see that stuff all the time on the internet."
     show maria f_sexy_talk
-    maria "Он, наверное, думает, что это его счастливый день!"
+    maria "He's probably thinking it's his lucky day!"
     show maria f_sexy
     show player 10
-    player_name "Я не был... Я...я не хотел этого делать..."
+    player_name "I wasn't... I-I didn't mean to..."
     show player 5
     show maria f_normal_talk
-    maria "Хаха!"
-    maria "Вот видишь. Он не беспокоит никого."
+    maria "Haha!"
+    maria "There, ya see. He ain't bothered none."
     show maria f_sexy_talk
-    maria "Знаешь, он такой милый, когда волнуется."
-    maria "Возможно, он как раз тот, кто займет должность, которую ты рекламировал."
+    maria "You know, he's kinda cute when he's flustered."
+    maria "He might be just the one to fill that position you've been advertising for."
     show maria f_sexy
     show tony f_question at unflip
     show tony f_question at Position (xpos=400)
     with dissolve
-    tony "Хмм, да."
+    tony "Hmm, yeah."
     tony "Now that you mention it, he does kinda look like a young me..."
     show tony f_normal
     show player 11
     player_name "..."
     show tony f_normal_talk
-    tony "У тебя есть велосипед, малыш?"
+    tony "You got a bike, kiddo?"
     show tony f_normal
     return
 
@@ -90,32 +90,32 @@ label pizzeria_storage_diane_delivery_1_place_goods_no_bike:
     show player 10 zorder 1 at left
     show tony f_normal zorder 0 at Position (xpos=400)
     show maria f_sexy o_sauce zorder 1 at Position (xpos=580)
-    player_name "Нет, боюсь, что нет."
+    player_name "No, I'm afraid not."
     show player 5
     show tony f_normal_talk
-    tony "А, черт."
-    tony "Вот что я тебе скажу..."
-    tony "Купи себе велосипед и возвращайся ко мне."
-    tony "Я сделаю вам предложение, от которого вы не сможете отказаться, ферштейн?"
+    tony "Ah, shoot."
+    tony "Well, I tell ya what..."
+    tony "You get yourself a bike and then you come back and see me."
+    tony "I'll make you an offer you can't refuse, Capisce?"
     show tony f_normal
     show player 29 with dissolve
-    player_name "Да, хорошо..."
+    player_name "Y-yeah, okay..."
     show player 3
     show tony f_normal_talk
-    tony "Вот хороший мальчик."
-    tony "Вот деньги на молоко."
+    tony "That's a good boy."
+    tony "Here's the money for the milk."
     show tony a_dressed_money with dissolve
-    tony "Ты приходи к нам поскорее, слышишь?"
+    tony "You come back and see us real soon, ya hear?"
     show tony f_normal a_dressed_hips
     show player 640e
     with dissolve
-    player_name "Спасибо, {b}Тони{/b}!"
+    player_name "Thanks, {b}Tony{/b}!"
     show player 640d
     show maria f_sexy_talk
-    maria "Прощай, красавчик."
+    maria "Good bye, hot stuff."
     show maria f_sexy
     show player 21 with dissolve
-    player_name "Пока, {b}Мария{/b}."
+    player_name "G-good bye, {b}Maria{/b}."
     hide player
     hide maria
     hide tony
@@ -128,34 +128,34 @@ label pizzeria_storage_diane_delivery_1_place_goods_bike:
     show player 17 zorder 1 at left
     show tony f_normal zorder 0 at Position (xpos=400)
     show maria f_sexy o_sauce zorder 1 at Position (xpos=580)
-    player_name "Да, у меня есть."
+    player_name "Yeah, I have one."
     show player 13
     show tony f_question
-    tony "Правда?!"
+    tony "You do?!"
     show tony f_normal_talk
-    tony "Теперь есть ребенок, у которого есть свои приоритеты!"
-    tony "Вот что я тебе скажу..."
-    tony "Если ты когда-нибудь будешь искать работу, приходи ко мне."
-    tony "Я сделаю вам предложение, от которого вы не сможете отказаться, ферштейн?"
+    tony "Now there's a kid who's got his priorities straight!"
+    tony "Tell ya what..."
+    tony "You ever find yourself looking for work, you come back and see me."
+    tony "I'll make you an offer you can't refuse, Capisce?"
     show tony f_normal
     show player 29 with dissolve
-    player_name "Да, хорошо..."
+    player_name "Y-yeah, okay..."
     show player 3
     show tony f_normal_talk
-    tony "Это хорошо, парень."
-    tony "Вот деньги на молоко."
+    tony "That's a good, kid."
+    tony "Here's the money for the milk."
     show tony a_dressed_money with dissolve
-    tony "Ты приходи к нам поскорее, слышишь?"
+    tony "You come back and see us real soon, ya hear?"
     show tony f_normal a_dressed_hips
     show player 640e
     with dissolve
-    player_name "Спасибо, {b}Тони{/b}!"
+    player_name "Thanks, {b}Tony{/b}!"
     show player 640d
     show maria f_normal_talk
-    maria "Пока, {b}[firstname]{/b}."
+    maria "Good bye, {b}[firstname]{/b}."
     show maria f_normal
     show player 21 with dissolve
-    player_name "Пока, {b}Мария{/b}."
+    player_name "G-good bye, {b}Maria{/b}."
     hide player
     hide tony
     hide maria

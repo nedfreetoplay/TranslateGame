@@ -97,4 +97,43 @@ init python:
         @property
         def square(self):
             return self.dot(self)
+        
+        @property
+        def tuple(self):
+            return (self.x, self.y)
+        
+        def distance(self, other):
+            return math.sqrt(self.distancesq(other))
+        
+        def distancesq(self, other):
+            if isinstance(other, tuple):
+                other = Vector2(tuple)
+            return (self.x-other.x)*(self.x-other.x)+(self.y-other.y)*(self.y-other.y)
+        
+        @classmethod
+        def center(cls, width, height):
+            w = width-1024
+            h = height-768
+            w /= 2
+            h /= 2
+            return Vector2(-w, -h)
+        
+        def clamp(self, minimum=(0,0), maximum=None):
+            if maximum is None:
+                raise ValueError
+            if isinstance(minimum, tuple):
+                minimum = Vector2(minimum)
+            if isinstance(maximum, tuple):
+                maximum = Vector2(maximum)
+            rvx = self.x
+            rvy = self.y
+            if self.x >= maximum.x:
+                rvx = maximum.x
+            if self.x <= minimum.x:
+                rvx = minimum.x
+            if self.y >= maximum.y:
+                rvy = maximum.y
+            if self.y <= minimum.y:
+                rvy = minimum.y
+            self.x, self.y = rvx, rvy
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

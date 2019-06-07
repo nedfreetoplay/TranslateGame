@@ -1,25 +1,35 @@
-default sis_email_01_read = False
-default sis_email_02_read = False
-default sis_email_04_read = False
-default sispc_desktop_seen = False
-default sispc_email_seen = False
-default sispc_livecrush_seen = False
-default sispc_toylist_seen = False
-default sispc_webcam_seen = False
-default sispc_summertime_seen = False
-default sispc_igor_seen = False
-default sispc_swimsuit_seen = False
-default sispc_family_seen = False
-default sispc_nude_seen = False
+init 1 python:
+    class JennyCamslutVideoButton(renpy.Displayable):
+        def __init__(self, **properties):
+            super(JennyCamslutVideoButton, self).__init__(**properties)
+            self._bg = renpy.displayable("buttons/computer_video_button.png")
+            self._text = FilteredText("Videos", style="style_jenny_video_button")
+        
+        def get_render(self, width, height, st, at):
+            return renpy.render(self._bg, width, height, st, at)
+        
+        def render(self, width, height, st, at):
+            render = self.get_render(width, height, st, at)
+            text_r = renpy.render(self._text, width, height, st, at)
+            tw, th = text_r.get_size()
+            x = 50
+            y = 5
+            render.blit(text_r, (x, y))
+            return render
+        def event(self, ev, x, y, st):
+            pass
 
-screen sis_computer:
+    class JennyCamslutVideoButtonHover(JennyCamslutVideoButton):
+        def get_render(self, width, height, st, at):
+            return renpy.render(im.MatrixColor(self._bg, HoverImage.h_matrix), width, height, st, at)
+
+screen sis_computer():
     if not M_jenny.is_set("comp locked"):
         add "backgrounds/location_computer_jenny_02.jpg"
-
         imagebutton:
             idle "buttons/computer_button_02.png"
             hover HoverImage("buttons/computer_button_02.png")
-            action [Hide("sis_computer"), Hide("comp_screen"), SetVariable("in_sis_room", True), Jump("sis_bedroom_dialogue")]
+            action [Hide("sis_computer"), Hide("comp_screen"), If(M_player.get("on_jenny_pc"), Jump("sis_bedroom_dialogue"), Show("MC_computer"))]
             xpos 105
             ypos 603
 
@@ -45,9 +55,9 @@ screen sis_computer:
             ypos 360
 
         imagebutton:
-            idle "buttons/computer_icon_04.png"
-            hover HoverImage("buttons/computer_icon_04.png")
-            action [Hide("sis_computer"), Hide("sis_webcam_screen"), Jump("sispc_webcam_response")]
+            idle "buttons/computer_icon_24.png"
+            hover HoverImage("buttons/computer_icon_24.png")
+            action [Hide("sis_computer"), Jump("hacking_minigame_pre")]
             xpos 105
             ypos 470
 
@@ -61,7 +71,7 @@ screen sis_computer:
         imagebutton:
             idle "buttons/computer_icon_06.png"
             hover HoverImage("buttons/computer_icon_06.png")
-            action [Hide("sis_computer"), Jump("sispc_livecrush_response")]
+            action [Show("jenny_camslut"), Jump("jenny_computer_camslut")]
             xpos 215
             ypos 250
 
@@ -77,9 +87,11 @@ screen sis_computer:
         add Input(size=20, color="#5d9aff", default="", changed=sis_comp, length=12, xpos= 425, ypos = 422, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
         key "K_RETURN" action Jump("pass_check")
         imagebutton idle "buttons/enter_02.png" hover HoverImage("buttons/enter_02.png") at Position(xpos = 780, ypos = 405) action Jump("pass_check")
-        imagebutton idle "buttons/computer_button_01.png" hover HoverImage("buttons/computer_button_01.png") action [If(M_jenny.is_set("comp locked") and M_jenny.finished_state(S_jenny_read_diary), [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sispc_password_reminder")], [Hide("sis_computer"), SetVariable("in_sis_room", True), Jump("sis_bedroom_dialogue")])] pos 109,576
+        imagebutton idle "buttons/computer_button_01.png" hover HoverImage("buttons/computer_button_01.png") action [Hide("sis_computer"), Jump("sis_bedroom_dialogue")] pos 109,576
 
-screen summertime tag comp_screen:
+screen summertime() tag comp_screen:
+
+
     imagebutton idle "buttons/computer_window_07.png" action [Hide("sis_computer"), Hide("summertime"), Jump("sispc_summertime_response")] pos 270,150
 
     imagebutton:
@@ -89,7 +101,9 @@ screen summertime tag comp_screen:
         xpos 816
         ypos 154
 
-screen summertime_error tag comp_screen:
+screen summertime_error() tag comp_screen:
+
+
     add "buttons/computer_window_08.png" pos 270,150
 
     imagebutton:
@@ -99,27 +113,9 @@ screen summertime_error tag comp_screen:
         xpos 816
         ypos 154
 
-screen sis_webcam_screen tag comp_screen:
-    if connected == False:
-        add "buttons/computer_window_06.png" pos 270,150
+screen sis_list() tag comp_screen:
 
-        imagebutton:
-            focus_mask True
-            pos (719,495)
-            idle "buttons/computer_button_04.png"
-            hover HoverImage("buttons/computer_button_04.png")
-            action SetVariable("connected", True), Function(M_jenny.trigger, T_jenny_webcam_connected), Show("sis_webcam_screen")
-    else:
-        add "buttons/computer_window_06b.png" pos 270,150
 
-    imagebutton:
-        idle "buttons/computer_button_03.png"
-        hover HoverImage("buttons/computer_button_03.png")
-        action Hide("sis_webcam_screen")
-        xpos 816
-        ypos 154
-
-screen sis_list tag comp_screen:
     add "buttons/computer_window_04.png" pos 270,150
 
     imagebutton:
@@ -129,17 +125,86 @@ screen sis_list tag comp_screen:
         xpos 816
         ypos 154
 
-screen sis_livecrush tag comp_screen:
+screen jenny_camslut() tag comp_screen:
+
+
+    use sis_computer
     add "buttons/computer_window_05.png" pos 270,150
+
+    imagebutton:
+        focus_mask True
+        pos 560,215
+        idle JennyCamslutVideoButton()
+        hover JennyCamslutVideoButtonHover()
+        action [If(game.in_dialogue, NullAction(), [Hide("jenny_camslut"), Jump("jenny_camslut_videos_tab")])]
+
+    if M_jenny.is_state(S_jenny_figure_out_password):
+        imagebutton:
+            pos 816, 154
+            idle "buttons/computer_button_03.png"
+            action NullAction()
+    else:
+        imagebutton:
+            idle "buttons/computer_button_03.png"
+            hover HoverImage("buttons/computer_button_03.png")
+            action If(game.in_dialogue, NullAction(), Hide("jenny_camslut"))
+            xpos 816
+            ypos 154
 
     imagebutton:
         idle "buttons/computer_button_03.png"
         hover HoverImage("buttons/computer_button_03.png")
-        action Hide("sis_livecrush")
+        action If(game.in_dialogue, NullAction(), (Hide("jenny_camslut"),
+                                                   Show('sis_computer')))
         xpos 816
         ypos 154
 
-screen sis_recycle tag comp_screen:
+screen jenny_camslut_videos() tag comp_screen:
+
+
+    use sis_computer
+    add "buttons/computer_window_05b.png" pos 270,150
+
+    imagebutton:
+        focus_mask True
+        pos 560,215
+        idle JennyCamslutVideoButton()
+        hover JennyCamslutVideoButtonHover()
+        action If(game.in_dialogue, NullAction(), [Hide("jenny_camslut_videos"), Show("jenny_camslut")])
+
+    imagebutton:
+        focus_mask True
+        pos 503, 278
+        idle "buttons/computer_video_01.png"
+        hover HoverImage("buttons/computer_video_01.png")
+        action If(game.in_dialogue, NullAction(), Call("jenny_camslut_video_choice", 1))
+
+    imagebutton:
+        focus_mask True
+        pos 640, 278
+        idle "buttons/computer_video_02.png"
+        hover HoverImage("buttons/computer_video_02.png")
+        action If(game.in_dialogue, NullAction(), Call("jenny_camslut_video_choice", 2))
+
+    if M_jenny.finished_state(S_jenny_deliver_bad_monster):
+        imagebutton:
+            focus_mask True
+            pos 503, 395
+            idle "buttons/computer_video_03.png"
+            hover HoverImage("buttons/computer_video_03.png")
+            action If(game.in_dialogue, NullAction(), Call("jenny_camslut_video_choice", 3))
+
+    imagebutton:
+        idle "buttons/computer_button_03.png"
+        hover HoverImage("buttons/computer_button_03.png")
+        action If(game.in_dialogue, NullAction(), (Hide("jenny_camslut_videos"),
+                                                   Show('sis_computer')))
+        xpos 816
+        ypos 154
+
+screen sis_recycle() tag comp_screen:
+
+
     add "buttons/computer_window_03.png" pos 270,150
 
     imagebutton:
@@ -156,7 +221,9 @@ screen sis_recycle tag comp_screen:
         xpos 290
         ypos 210
 
-screen sis_family tag comp_screen:
+screen sis_family() tag comp_screen:
+
+
     add "computer_window1" pos 270,150
 
     imagebutton:
@@ -187,7 +254,9 @@ screen sis_family tag comp_screen:
         xpos 490
         ypos 210
 
-screen sis_newfolder tag comp_screen:
+screen sis_newfolder() tag comp_screen:
+
+
     add "buttons/computer_window_02.png" pos 270,150
 
     imagebutton:
@@ -211,7 +280,9 @@ screen sis_newfolder tag comp_screen:
         xpos 390
         ypos 210
 
-screen sis_email tag comp_screen:
+screen sis_email() tag comp_screen:
+
+
     add "buttons/computer_window_11.png" pos 135,150
 
     imagebutton:

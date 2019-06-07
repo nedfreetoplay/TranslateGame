@@ -1,4 +1,6 @@
-screen hill:
+screen hill():
+    use mods_screens_hook("hill")
+
     add game.timer.image("backgrounds/location_hill_day{}.jpg")
 
     if M_mia.get_state() == S_mia_find_harold:
@@ -28,7 +30,7 @@ screen hill:
             hover HoverImage(game.timer.image("objects/object_stick_01{}.png"))
             action Hide("hill"), Jump("hill_dewitt_stick")
 
-screen hill_tree:
+screen hill_tree():
     imagebutton:
         focus_mask True
         align (0.45,0.65)

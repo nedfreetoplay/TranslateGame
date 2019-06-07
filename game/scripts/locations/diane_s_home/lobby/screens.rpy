@@ -1,4 +1,6 @@
-screen dianes_lobby:
+screen dianes_lobby():
+    use mods_screens_hook("dianes_lobby")
+
     add "backgrounds/location_diane_entrance_day.jpg"
 
     imagebutton:

@@ -1,9 +1,9 @@
 label church_angelicas_room_mia_church_plan:
     scene church_nun_b
     show player 12 with dissolve
-    player_name "( Похоже, это то самое место. )"
+    player_name "( This looks like the right place. )"
     show player 30
-    player_name "( Тут должно быть что-то, что я могу надеть... )"
+    player_name "( There must be something I can wear in here... )"
     hide player with dissolve
     return
 
@@ -12,62 +12,62 @@ label church_angelicas_room_mia_return_priest_outfit:
     show player 14f at Position (xoffset=1)
     show players robe f
     with dissolve
-    player_name "Прошло лучше, чем я ожид-"
+    player_name "That went better than I exp-"
     show player 14f at Position (xpos=182)
     show players robe f at left
     show ang 2 at right
     with fastdissolve
-    ang "Вот ты где!"
+    ang "There you are!"
     show ang 1
     show player 23 at Position (xpos=180)
     show players robe
     with fastdissolve
     player_name "!!!" with hpunch
     show player 10
-    player_name "Ой, простите!"
-    player_name "Я не хотел-"
+    player_name "Oh, sorry!"
+    player_name "I didn't mean to-"
     show player 11
     show ang 2
-    ang "Остановись."
+    ang "Stop."
     show ang 1
     show player 22
     player_name "..."
     show ang 2
-    ang "Я наблюдала за тобой все это время."
-    ang "Украл одежду священника... Выдавал себя за нашего священника на исповеди..."
-    ang "...И лгал этой бедной женщине."
+    ang "I've been watching you this whole time."
+    ang "Stealing the priest's robe... Impersonating our priest in the confessional..."
+    ang "...And lying to that poor woman."
     show ang 1
     show player 10
-    player_name "Это не то, о чем вы думаете!"
-    player_name "Я просто пытался помочь ей..."
+    player_name "It's not what you think!"
+    player_name "I was just trying to help her..."
     show player 11
     show ang 2
-    ang "Помочь?"
-    ang "Единственный человек, которому ты можешь помочь, это ты сам..."
-    ang "...Потому что я подумываю сообщить о тебе властям."
+    ang "Help?"
+    ang "The only person you can help now is yourself..."
+    ang "...Because I'm thinking about reporting you to the authorities."
     show ang 1
     show player 22
     player_name "!!!"
     show ang 2
-    ang "Разве что... ты сделаешь кое-что для меня."
+    ang "Unless... you do something for me."
     show ang 1
     show player 11
     player_name "..."
     show player 12
-    player_name "Я не понимаю, как я могу пом-"
+    player_name "I don't see how I can be of any hel-"
     show player 11
     show ang 2
-    ang "Если ты согласен, приходи ко мне на неделе."
-    ang "Я объясню, что мне от тебя нужно..."
-    ang "...И не пытайся скрыться от меня, или все узнают, что ты сделал..."
-    ang "...Особенно, та дама. Та, с которой я тебя видела!"
+    ang "Come visit me in a week."
+    ang "I'll explain what I need from you..."
+    ang "...And don't try hiding from me, or everyone will know what you did..."
+    ang "...Especially, that lady. The one I saw you with!"
     show ang 1
     show player 10
-    player_name "Пожалуйста, не говорите ей ничего... Я прийду. Обещаю."
+    player_name "Please don't say anything to her... I'll be back. I promise."
     show player 11
     show ang 2
-    ang "Хорошо."
-    ang "А теперь верни то, что украл и покинь мои покои..."
+    ang "Good."
+    ang "Now return what you stole and leave my chambers..."
     show ang 1
     hide players robe
     show player 444 at left
@@ -83,92 +83,92 @@ label church_angelicas_room_mia_church_night_visit:
     show ang 1 at right
     show player 10 at left
     with dissolve
-    player_name "Здравствуйте, {b}Сестра Анжелика{/b}..."
+    player_name "Hi, {b}Sister Angelica{/b}..."
     show player 5
     show ang 2
-    ang "Я знала, что могу на тебя рассчитывать."
-    ang "Ты соблюдаешь наше соглашение... И умеешь хранить секреты."
-    ang "Вот почему я надеюсь, что ты мне поможешь..."
+    ang "I knew I could count on you."
+    ang "You value our mutual agreement... and you value secrets."
+    ang "This is why I trust you will help me..."
     show ang 1
     show player 12
-    player_name "И так, о чем конкретно мы говорим?"
+    player_name "So, what exactly are we talking about here?"
     show player 5
     show ang 2
-    ang "Я совершаю частное таинство ночью... В своих покоях..."
+    ang "I perform a private sacrament at night... in my chambers..."
     show player 11
-    ang "Его цель - помочь прихожанам нашей церкви бороться со своими пригрешениями..."
-    ang "...Я помогаю им очищаться от своих грехов!"
+    ang "Its purpose is to help members of our church struggling with their impurities..."
+    ang "...I help them purge away their sins!"
     show ang 1
     show player 10
-    player_name "Грешникам?"
+    player_name "Sinners?"
     show player 11
     show ang 2
-    ang "Вот именно!"
-    ang "Но, чтобы продолжать выполнять это таинство, мне нужно найти подходящих кандидатов..."
-    ang "...новеньких из наших прихожан!"
+    ang "That's right!"
+    ang "But in order to keep performing this sacrament, I need to find appropriate candidates..."
+    ang "...Freshly picked from our local worshippers!"
     show ang 1
     show player 10
-    player_name "Хорошо, что мне нужно делать?"
+    player_name "Okay, but what am I supposed to do?"
     show player 11
     show ang 2
-    ang "Мне нужно, чтобы ты нашел кое-кого!"
+    ang "I just need you to find some!"
     show ang 1
     show player 10
-    player_name "Я нужен вам, чтобы найти кое-кого?!"
+    player_name "You need me to find people?!"
     show player 11
     show ang 2
-    ang "Да, грешников."
+    ang "Yes, sinners."
     show ang 1
     show player 37 with dissolve
     player_name "..."
     show player 38 with dissolve
-    player_name "Но, я и правда не знаю никого такого... Я даже не-"
+    player_name "But, I don't really know anyone like that... I don't even-"
     show player 3 with dissolve
     show ang 2
-    ang "Ты ЗНАЕШЬ кое-кого!"
+    ang "You DO know someone!"
     show ang 1
     show player 12 with dissolve
-    player_name "... Но кого?!"
+    player_name "... But, who?!"
     show player 11
     show ang 2
-    ang "Ту даму из исповедальни."
-    ang "Её зовут {b}Хелен{/b}."
-    ang "Она всегда была набожным служителем нашего {b}Господа{/b}."
-    ang "Она считает себя очень добродетельной и ниногда не согласится на мой... ритуал."
-    ang "Но ей, похоже, было так стыдно после разговора с тобой в исповедальне."
-    ang "Ты знаешь её тайные грехи."
-    ang "И ты приведёшь её ко мне."
-    ang "Я обожаю персонально очищать по-настоящему верных от греха."
-    ang "Это одно из самых... удовлетворяющих... переживаний нашей религии."
+    ang "The lady from the confessional."
+    ang "Her name is {b}Helen{/b}."
+    ang "She has always been a devout servant of our {b}Lord{/b}."
+    ang "She believes herself to be very righteous and would never agree to my... ritual."
+    ang "But she had such a look of shame after talking with you in the confessional."
+    ang "You know her secret sins."
+    ang "And you will bring her to me."
+    ang "I personally enjoy purging the sins of the truly faithful."
+    ang "It is one of the most... satisfying... experiences of our religion."
     show ang 1
     show player 22
     player_name "!!!"
     show player 10
-    player_name "Вы хотите, чтобы я привел {b}Хелен{/b} сюда?!"
+    player_name "You want me to bring {b}Helen{/b} here?!"
     show player 11
     show ang 2
-    ang "Да, ночью, в мои покои."
+    ang "In my chambers, at night."
     show ang 1
     show player 12
-    player_name "Как я смогу убедить её прийти сюда?! Я не знаю, как..."
+    player_name "How can I possibly convince her to come here?! I don't see how..."
     show player 11
     show ang 2
-    ang "Я уверена что ты найдешь способ."
-    ang "Мы оба заинтересованы в этом..."
+    ang "I'm sure you will find a way."
+    ang "Both our interests are on the line here..."
     show ang 1
     show player 24
-    player_name "{b}*вздох*{/b}"
+    player_name "{b}*Sigh*{/b}"
     show player 12
-    player_name "Хорошо, я попробую... Но вообще, что это за таинство?"
+    player_name "Okay, I'll give it a try... but what's this sacrament about anyway?"
     show player 5
     show ang 2
-    ang "Ты узнаешь, когда придет время."
+    ang "You will find out, in due time."
     show ang 1
     show player 10
-    player_name "Мне... Мне пора идти. Уже поздно."
+    player_name "I... I should really get going. It's getting late."
     show player 5
     show ang 2
-    ang "Конечно! Только не забудь о нашем соглашении."
+    ang "Of course! Just make sure you remember our agreement."
     hide ang with dissolve
     show player 24
     player_name "..."
@@ -181,45 +181,45 @@ label church_angelicas_room_mia_church_sacrement:
     show helen 23 at Position (xpos=575)
     show ang 2f at left
     with dissolve
-    ang "Спасибо, {b}[firstname]{/b}, за то, что привел нашего замечательного последователя!"
-    ang "{b}Хелен{/b} посещает нашу церковь уже очень долгое время..."
-    ang "...И она рассказала мне всё о её неудачном браке."
+    ang "Thank you, {b}[firstname]{/b}, for bringing this wonderful disciple to us!"
+    ang "{b}Helen{/b} has been attending our church for a very long time..."
+    ang "...And she told me everything about her failing marriage."
     show ang 1f
     show helen 24
-    helen "Я... Я просто надеюсь, что это поможет мне разобраться с моими нечестивыми побуждениями..."
+    helen "I... I'm just hoping this will help me deal with our ungodly ways..."
     show helen 23
     show ang 2f
-    ang "Вот именно, {b}Хелен{/b}."
-    ang "Я горжусь тем, что ты готова встретиться лицом к лицу со своими демонами."
-    ang "Готова ли ты следовать моим указаниям, чтобы обрести свет?"
+    ang "Indeed, {b}Helen{/b}."
+    ang "I'm proud of you for willing to face your demons."
+    ang "Are you willing to follow my commands, in order to find the light?"
     show ang 1f
     show helen 24
-    helen "Да. Готова..."
+    helen "Yes. I am..."
     show helen 23
     show ang 2f
-    ang "Хорошо! Будут три ступени твоего искупления."
-    ang "Первый шаг требует, чтобы ты избавилась от всех земных материй..."
+    ang "Good! There will be three levels towards your redemption."
+    ang "The first step requires that you rid yourself of all earthly materials..."
     show player 11f
-    ang "...Таких, как {b}твоя одежда{/b}."
-    ang "И только тогда мы сможем начать процесс твое очищения от грехов!"
+    ang "...Such as {b}your clothes{/b}."
+    ang "Only then, will we be able to start the process of purging your sins!"
     show ang 1f
     show helen 4 at Position (xoffset=2) with dissolve
-    helen "Ты же не ждешь, что я... здесь разденусь?!"
+    helen "You don't actually expect me to... Get undressed here?!"
     show helen 1 at Position (xoffset=2)
     show ang 2f
-    ang "Мы {b}Божьи{/b} создания, {b}Хелен{/b}... Мы все равны!"
-    ang "Ты не должна стыдиться того, кто ты есть..."
+    ang "We are {b}God's{/b} creatures, {b}Helen{/b}... We are all equal!"
+    ang "You shouldn't be ashamed of who you are..."
     show ang 1f
     show helen 25 with dissolve
     helen "..."
     show helen 23
     show ang 2f
-    ang "Давай же, {b}Хелен{/b}. Избавься от всего этого..."
+    ang "Go on, {b}Helen{/b}. Rid yourself of it all..."
     show ang 1f
     show helen 27
     pause
     show helen 28
-    helen "Если это то, что я должа сделать, тогда я это сделаю..."
+    helen "If this is what I must do, then I shall do it..."
     show player 106f
     show helen 21 with dissolve
     pause
@@ -231,7 +231,7 @@ label church_angelicas_room_mia_church_sacrement:
     player_name "!!!"
     show ang 2f
     show helen 29
-    ang "Отлично, {b}Хелен{/b}."
+    ang "Well done, {b}Helen{/b}."
     show ang 1f
     show helen 33
     helen "..."
@@ -241,16 +241,16 @@ label church_angelicas_room_mia_church_sacrement:
     show ang 1f
     show helen 31
     show player 21f
-    player_name "Эээ... Да?"
+    player_name "Ehh... Yes?"
     show player 5f
     show ang 2f
     show helen 29
-    ang "Теперь ты можешь оставить нас, сегодня мне не нужна твоя помощь."
-    ang "Приходи в другой раз, чтобы мы могли продолжить наши занятия..."
+    ang "You can leave us now, I won't be needing your help for tonight."
+    ang "Come back another time so we can continue our sessions..."
     show ang 1f
     show player 10f
-    player_name "О, хорошо."
-    player_name "Тогда, Спокойной ночи!"
+    player_name "Oh, okay."
+    player_name "Good night, then!"
     hide player
     hide helen
     hide ang
@@ -265,44 +265,44 @@ label church_angelicas_room_mia_angelicas_order:
     with dissolve
     player_name "!!!"
     show ang 6f
-    ang "В чем дело, {b}[firstname]{/b}?"
+    ang "What is the matter, {b}[firstname]{/b}?"
     show ang 7f with dissolve
     pause
     show ang 8f
-    ang "У тебя же нет никаких греховных мыслей?"
+    ang "You're not having any sinful thoughts are you?"
     show player 22f
-    ang "Может, тебе следует занять место {b}Хелен{/b} -"
+    ang "Maybe you should take {b}Helen's{/b} place-"
     show ang 7f
     show player 10f
-    player_name "Нет! Я... Я просто удивлен, что вы не надели свои одеяния!"
+    player_name "No! I'm... I'm just surprised to see you aren't wearing your robe!"
     show player 11f
     ang "..."
     show ang 9 with dissolve
-    ang "Я показала {b}Хелен{/b} ,как {b}Бог{/b} благословляет своих немногих избранных, которые поистине праведны и набожны и изнутри, и снаружи."
-    ang "Как видишь... Он наделил меня по-настоящему священным телом..."
+    ang "I was just illustrating to {b}Helen{/b} how {b}God{/b} blesses his chosen few who are truly holy and devout inwardly and outwardly."
+    ang "As you can see... He has showered me with a truly sacred body..."
     show ang 10
     pause
     show ang 9
-    ang "Верно, {b}Хелен{/b}?"
+    ang "Right, {b}Helen{/b}?"
     show ang 10
     show helen 34
-    helen "...Да, Госпожа... Ваше тело, это святыня нашего {b}Господа{/b}."
+    helen "...Yes, your body... is a temple to our {b}Lord{/b}."
     show helen 33
     show ang 8f with dissolve
-    ang "Кроме того, для продолжения очищающего таинства мне требуется возложить руки на эту раскаивающуюся, но развращенную грешницу."
-    ang "Я предпочитаю не загрязнять свою одежду..."
+    ang "In addition, from this point forward the purification sacrament requires me to lay my hands on the repentant filthy sinner."
+    ang "I prefer not to get my clothes dirty..."
     show ang 6f with dissolve
-    ang "А теперь если это всё, я должна вернуться к инструктажу {b}Хелен{/b}."
+    ang "Now then, if there is nothing else, I must get back to my instruction with {b}Helen{/b}."
     show ang 9 with dissolve
-    ang "И если я увижу любые греховные желания, появляющиеся в нижних частях твоего тела, я не буду медлить с {b}Божьим{/b} правосудием..."
+    ang "And if I see any sinful desires appearing in your nether regions, I won't be slow to bring about {b}God's{/b} judgement on you..."
     show ang 11
     show player 22f
     player_name "!!!"
     show ang 9
-    ang "Ты понял?"
+    ang "Understood?"
     show ang 10
     show player 138f at Position (xoffset=-16) with dissolve
-    player_name "Д... Д... Да... {b}Сестра Анжелика{/b}."
+    player_name "Y... Ye... Yes... {b}Sister Angelica{/b}."
     hide player
     hide ang
     hide helen
@@ -319,15 +319,15 @@ label priest_outfit_dialogue:
     scene church_nun_b
     show player 444f with dissolve
     player_name "..."
-    player_name "( Эта штука тяжелая! )"
+    player_name "( This thing is heavy! )"
     show player 106f at Position (xoffset=1)
     show players robe f
     with dissolve
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 33f at Position (xoffset=1)
-    player_name "( Похоже, это действительно может сработать. )"
+    player_name "( Looks like this could actually work. )"
     show player 14f at Position (xoffset=1)
-    player_name "( Посмотрим, смогу ли я стать ближе с {b}Хелен{/b}... )"
+    player_name "( Let's see if I can get close to {b}Helen{/b}... )"
     hide player
     hide players robe
     with dissolve
@@ -347,7 +347,7 @@ label helen_final_sacrament:
     elif store._in_replay == "helen_final_sacrament":
         jump expression game.dialog_select("helen_ang_replay")
     menu mia_helen_route_spilt:
-        "Трахнуть {b}Хелен{/b}.":
+        "Fuck {b}Helen{/b}.":
             label helen_mc_replay:
                 call expression game.dialog_select("helen_final_sacrament_fuck_helen_pre")
 
@@ -358,7 +358,7 @@ label helen_final_sacrament:
             $ animated = False
             $ xray = False
             jump expression game.dialog_select("helen_final_sacrament_fuck_helen_loop")
-        "Смотреть за {b}Сестрой Анжеликой{/b}.":
+        "Watch {b}Sister Angelica{/b}.":
 
             label helen_ang_replay:
                 call expression game.dialog_select("helen_final_sacrament_watch_angelica")
@@ -375,73 +375,73 @@ label helen_final_sacrament_pre:
     show ang 5f at Position (xpos=418)
     show player 12f at right
     with dissolve
-    player_name "О, хорошо. Вы, ребята, уже здесь..."
+    player_name "Oh, good. You guys are already here..."
     show player 5f
     show ang 6f
-    ang "А где еще мы могли бы быть, {b}[firstname]{/b}?"
+    ang "Where else would we be, {b}[firstname]{/b}?"
     show ang 5f
     show player 34f
     player_name "..."
     show player 35f
-    player_name "В церкви, сидя за столом, считать Библию... И надев свою одежду?"
+    player_name "In the church, sitting around a table reading the bible...with your clothes on?"
     show player 5f
     show ang 8f at Position (xoffset=3) with dissolve
-    ang "Душа {b}Хелен{/b} нуждается в большем, чем просто обычное церковное воспинание."
-    ang "Ей нужно полностью завершить мой последний ритуал."
-    ang "Мы уже завершили предритуальную подготовку..."
+    ang "{b}Helen's{/b} soul requires more than common church education."
+    ang "She needs only complete my last ritual."
+    ang "We've already completed the pre-ritual preparations..."
     show ang 9 at Position (xoffset=22) with dissolve
-    ang "Правда, {b}Хелен{/b}?"
+    ang "Right {b}Helen{/b}?"
     show ang 10 at Position (xoffset=22)
-    helen "Да... {b}Сестра Анжелика{/b}..."
-    helen "Мое тело... ждет для твоего последнего ритуала."
-    helen "Я хочу очиститься..."
-    helen "Теперь я понимаю, что мне нужно очиститься... изнутри..."
+    helen "Yes... {b}Sister Angelica{/b}..."
+    helen "My body... is waiting for your final ritual."
+    helen "I want to be purified..."
+    helen "I understand now, that I need to be cleansed... from the inside..."
     show ang 9 at Position (xoffset=22)
-    ang "У тебя есть то, что необходимо для проникновения в грешную плоть {b}Хелен{/b}?"
+    ang "Do you have the object required to penetrate {b}Helen's{/b} sinful flesh?"
     show ang 10 at Position (xoffset=22)
     show player 239_240f with dissolve
     pause
     show player 457f with dissolve
-    player_name "...Это то, что ты хотела, да?"
+    player_name "...This is what you wanted, right?"
     show player 458f
     show ang 8f at Position (xoffset=3) with dissolve
-    ang "Это... прекрасно."
-    ang "Надень на меня."
+    ang "It's... It's perfect."
+    ang "Put it on me."
     show ang 28 at Position (xpos=393) with dissolve
     show player 457f
-    player_name "Чего?"
+    player_name "Wha?"
     show player 458f
     show ang 29
-    ang "Я что заикалась?"
+    ang "Did I stutter?"
     show ang 28
     show player 457f
-    player_name "Хорошо..."
+    player_name "Alright..."
     hide player
     show ang 30 at right
     with dissolve
-    player_name "Хммм..."
-    player_name "Думаю, нет простого способа сделать это..."
+    player_name "Hmmm..."
+    player_name "I guess there's no easy way to do this..."
     hide ang
     show ang 32 at Position (xpos=483)
     with dissolve
-    ang "Осторожнее!"
+    ang "Careful now!"
     show ang 31
     pause
-    player_name "( ...Её грудь... )"
-    player_name "( ...Такая большая! )"
+    player_name "( ...Her breasts... )"
+    player_name "( ...They're so big! )"
     show ang 32
-    ang "Эй! Дух пальцев твоих опусти туда..."
-    ang "Я стала лучше использовать этот хлыст..."
+    ang "Hey! Mind your fingers down there..."
+    ang "I’ve gotten better at using that whip..."
     show ang 31
     player_name "( ... )"
     show ang 33 at Position (xpos=412)
     show player 10f at right
     with dissolve
-    player_name "Там. Она включена."
+    player_name "There. It's on."
     show player 5f
     pause
     show ang 34
-    ang "А ты знаешь, что у этого страпона есть особая функция?"
+    ang "Did you know this strapon has a special feature?"
     show ang 35 at Position (xoffset=79)
     show player 6f
     pause
@@ -449,21 +449,21 @@ label helen_final_sacrament_pre:
     show player 22f
     player_name "!!!" with hpunch
     show player 23f
-    player_name "Что-"
+    player_name "Wha-"
     show player 22f
     show ang 34
-    ang "Поторопись и раздевайся."
+    ang "Hurry up and undress."
     show ang 33
     show player 23f
-    player_name "Раздеваться?!"
+    player_name "Undress?!"
     show player 10f
-    player_name "Ты не собираешься использовать это...на-"
+    player_name "You're not going to use that...on m-"
     show player 11f
     show ang 34
-    ang "Мы все должны пройти последний ритуал очищения."
+    ang "We all have to be exposed for the last purification ritual."
     show ang 33
     show player 12f
-    player_name "Хорошо! Я раздеваюсь!"
+    player_name "Alright! I'm getting undressed!"
     show player 8f with dissolve
     pause
     show player 261 with dissolve
@@ -474,8 +474,8 @@ label helen_final_sacrament_pre:
     show ang 37
     pause
     show ang 34
-    ang "Ну... Ну..."
-    ang "Это может быть интересно..."
+    ang "Well... Well..."
+    ang "This could get interesting..."
     show ang 33
     show player 63f
     pause
@@ -483,17 +483,17 @@ label helen_final_sacrament_pre:
     player_name "..."
     show player 68f at Position (xoffset=-19)
     show ang 34f at Position (xpos=475) with dissolve
-    ang "{b}Хелен{/b}?"
+    ang "{b}Helen{/b}?"
     show ang 33f
-    helen "Да, {b}Сестра Анжелика{/b}?"
+    helen "Yes, {b}Sister Angelica{/b}?"
     show ang 34f
-    ang "Ты готова?"
+    ang "Are you ready?"
     show ang 33f
-    helen "Да."
-    helen "Очистите меня, {b}Сестра Анжелика{/b}."
+    helen "Yes."
+    helen "Purge me, {b}Sister Angelica{/b}."
     show ang 34f
-    ang "Хорошая девочка."
-    ang "Развернись и покажи {b}[firstname]{/b} источник своей похоти..."
+    ang "Good girl."
+    ang "Turn around and show {b}[firstname]{/b} the root of your lust..."
     show ang 33f
     show helen whip 3 with dissolve
     pause
@@ -510,8 +510,8 @@ label helen_final_sacrament_pre:
     show player 68bf at Position (xoffset=-19)
     player_name "!!!"
     show ang 26f
-    ang "Тебе нравится то, что ты видишь, {b}[firstname]{/b}?"
-    ang "Её... Мокрую... Послушную... Пизду?"
+    ang "Do you like what you see, {b}[firstname]{/b}?"
+    ang "Her... Wet... Obedient... Pussy?"
     show player 65f with dissolve
     pause
     show player 66f with dissolve
@@ -522,75 +522,75 @@ label helen_final_sacrament_pre:
     show ang 22_23_24f
     pause
     show ang 26f
-    ang "Что такое..."
+    ang "What's wrong..."
     show player 430f
     show ang 22_23_24f
     pause
     show ang 26bf
-    ang "...Становишься возбужденным?"
+    ang "...Getting excited?"
     show ang 26f
-    ang "Должна сказать, меня впечатлило то, насколько ты был полезен насчет {b}Хелен{/b}..."
+    ang "I must say, I'm impressed by how helpful you've been towards {b}Helen{/b}..."
     show player 67bf
-    ang "Ты должен позаботиться о ней..."
+    ang "You must care about her..."
     show ang 26bf
-    ang "Или, по крайней мере, твоему телу не терпится помочь ей..."
+    ang "Or at least your body is eager to help her..."
     show ang 22_23_24f
     pause
     show player 430f
     show ang 25f
-    helen "Охх..."
+    helen "Ohh..."
     show player 430bf
-    player_name "Я... Я не думаю, что она настолько плоха, как вы говорите."
+    player_name "I... I don't think she's as bad as you say she is."
     show player 430f
     show ang 26f
-    ang "Приятно слышать..."
+    ang "Good to know..."
     show ang 25f
     pause
     show ang 26f
-    ang "Теперь, я уверена, тебе интересно, почему я попросила эту штуку на фотографии."
-    ang "Последний шаг моего очищающего таинства требует большего... Жезла правосудия."
-    ang "Понимаешь... Чтобы {b}Хелен{/b} очиститься и стать единой со своим телом, ей нужно святое семя."
-    ang "Его нужно высадить глубоко... Внутри неё!"
-    ang "И только тогда сокровенная душа {b}Хелен{/b} будет спасена от всех её грехов."
+    ang "Now then, I'm sure you're wondering why I asked for the item in the photo."
+    ang "The last step of my purification sacrament requires a long...rod of judgement."
+    ang "You see... in order to cure {b}Helen{/b}, and become one with her body, she needs holy seeds."
+    ang "It needs to be planted deep... inside her!"
+    ang "Only then can {b}Helen's{/b} inner soul be salvaged from all her sins."
     show ang 22_23_24f
     show player 430bf
-    player_name "Что вы имеете в виду?"
+    player_name "What do you mean?"
     show player 430f
     show ang 26f
-    ang "Я любезно предлагаю тебе выбор, {b}[firstname]{/b}."
-    ang "Или ты позволишь мне очистить {b}Хелен{/b} и оставить её непорочной, чтобы она смогла вернуться к мужу очищенной..."
-    ang "Или..."
-    ang "Лучше, ты сам её очистишь..."
+    ang "I'm graciously offering you a choice, {b}[firstname]{/b}."
+    ang "Either you let me purge {b}Helen{/b} and leave her undefiled, so she may return to her husband purified..."
+    ang "Or..."
+    ang "Better yet, you purge her yourself..."
     show ang 25f
     show player 67bf
     player_name "..."
     show ang 26f
-    ang "Тогда она станет твоей праведной прислужницей, {b}[firstname]{/b}."
+    ang "She'll then become your holy servant, {b}[firstname]{/b}."
     show ang 22_23_24f
     show player 430bf
     player_name "!!!"
-    helen "Пожалуйста, трахни меня!!"
+    helen "Please, fuck me!!"
     show ang 26f
-    ang "{b}Хелен{/b} нуждается в одном из нас, чтобы проникнуть в её грешную плоть..."
-    ang "...Я оставлю это решение на тебя."
+    ang "{b}Helen{/b} needs one of us to penetrate her sinful flesh..."
+    ang "...I leave this decision in your hands."
     show ang 25f
     show player 67cf
-    player_name "( Если я это сделаю с... {b}Хелен{/b}, тогда родители {b}Мии{/b} опять не будут вместе. )"
-    player_name "( И {b}Мия{/b}... {b}Мия{/b} будет очень растроена. )"
+    player_name "( If I do... {b}Helen{/b}. {b}Mia's{/b} parents won't get back together. )"
+    player_name "( And {b}Mia{/b}... {b}Mia{/b} will be so upset. )"
     show player 67bf
     show ang 26f
-    ang "Так как? Ты поможешь {b}Хелен{/b}, или нет?"
+    ang "So? Will you help {b}Helen{/b}, or not?"
     show ang 22_23_24f
     return
 
 label helen_final_sacrament_fuck_helen_pre:
     show player 430bf
-    player_name "Я...я... да, я сделаю это."
+    player_name "I'll... I'll do it."
     show player 430f
     show ang 26f
-    ang "Отлично. Твои деяния не останутся незамеченными в глазах {b}Господа{/b}, {b}[firstname]{/b}..."
-    ang "...Или моих."
-    ang "Давайте же начнем последний ритуал."
+    ang "Perfect. Your deeds won't go unnoticed in the eyes of the {b}Lord{/b}, {b}[firstname]{/b}..."
+    ang "...Or mine."
+    ang "Then let us begin the last ritual."
     hide ang
     hide player
     with dissolve
@@ -600,38 +600,38 @@ label helen_final_sacrament_fuck_helen_after:
     scene church_nun_night_hs_1
     show helens 4_4b
     with fade
-    ang "Только кончик, {b}[firstname]{/b}."
-    ang "Я хочу, чтобы ты вошел медленно."
+    ang "Just the tip, {b}[firstname]{/b}."
+    ang "I want you to go slow."
     if not M_helen.is_state(S_helen_start):
-        ang "Первый раз всегда такой... особый."
+        ang "The first time is always so...special."
     show helens 5 with dissolve
-    helen "Охххх, {b}[firstname]{/b}!"
+    helen "Ohhhh, {b}[firstname]{/b}!"
     $ M_helen.set("sex speed", .175)
     show expression AnimatedImage("helens", [6,7,8,9,10], M_helen) as helens with dissolve
-    helen "Ахххх... Будь нежным..."
-    player_name "Там так... мокро!"
-    player_name "Святое де-"
-    ang "Ах ах ах. Мы находимся в месте поклонения."
-    ang "Хорошо. Теперь войди глубже и не спускай своё семя, пока я не скажу."
-    ang "Не забывай, что у меня есть мой кнут..."
+    helen "Ahhhh... Be gentle...."
+    player_name "It's so...wet!"
+    player_name "Holy s-"
+    ang "Ah ah ah. We are in a place of worship."
+    ang "Good. Now go deeper and don't release your seed until I say."
+    ang "Don't forget I have my whip..."
     pause
     $ M_helen.set("sex speed", .125)
-    ang "Глубже! Быстрее, {b}[firstname]{/b}! Заставь её понять, какая она грешная женщина!"
-    ang "{b}Хелен{/b} нужно осознать, что теперь она никогда не сможет быть действительно свободна от своего греха!"
+    ang "Deeper! Faster {b}[firstname]{/b}! Make her understand what a sinful woman she is!"
+    ang "{b}Helen{/b} needs to realize she can never truly be free of her sin now!"
     $ M_helen.set("sex speed", .075)
     pause
     return
 
 label helen_final_sacrament_fuck_helen_loop:
-    show screen xray_scr
+    show screen sex_anim_buttons
     pause
-    hide screen xray_scr
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-           if not animated:
-            show expression AnimatedImage("helens", [6,7,8,9,10], M_helen) as helens
-            $ animated = True
+            if not animated:
+                show expression AnimatedImage("helens", [6,7,8,9,10], M_helen) as helens
+                $ animated = True
             pause 2
             call expression game.dialog_select("helen_final_sacrament_hscene_dialog")
             pause 3
@@ -647,16 +647,16 @@ label helen_final_sacrament_fuck_helen_loop:
                 $ pose_counter += 1
             call expression game.dialog_select("helen_final_sacrament_hscene_dialog")
         $ animcounter += 1
-    ang "Давай! {b}[firstname]{/b}, кончай для меня!"
-    ang "Кончи глубоко в {b}Хелен{/b}!"
+    ang "Now! {b}[firstname]{/b}, cum for me!"
+    ang "Cum deep in {b}Helen{/b}!"
     call screen final_sacrament_fuck_helen_options
 
 label helen_final_sacrament_hscene_dialog:
     if animcounter == 1:
-        player_name "Оххх!!!{p=1}{nw}"
+        player_name "Ohhh!!!{p=1}{nw}"
 
     elif animcounter == 2:
-        helen "Ахххх!!!{p=1}{nw}"
+        helen "Ahhhh!!!{p=1}{nw}"
 
     elif animcounter == 4:
         helen "{b}[firstname]{/b}!!!{p=1}{nw}"
@@ -679,12 +679,12 @@ label helen_final_sacrament_fuck_helen_cum:
 
 label helen_final_sacrament_fuck_helen_cum_pre:
     show helens 11_11b with flash
-    player_name "УХХХ!!"
-    helen "AХХХХ!!!!"
+    player_name "UHHH!!"
+    helen "AHHHH!!!!"
     show helens 11b with fastdissolve
-    helen "Я... Я чуствую себя... Очищенной..."
+    helen "I... I feel...cleansed..."
     show helens 12 with dissolve
-    helen "Оххх...так...много..."
+    helen "Ohhh...so...much..."
     scene black with fade
     pause 1
     return
@@ -697,39 +697,39 @@ label helen_final_sacrament_fuck_helen_cum_after:
     show ang 34 at Position (xpos=412)
     show player 5f at right
     with dissolve
-    ang "Благословляю тебя, {b}[firstname]{/b}!"
-    ang "Тело {b}Хелен{/b} снова очищено от её грехов..."
-    ang "...И ты только что сделал её своей праведной прислужницей!"
+    ang "Bless you, {b}[firstname]{/b}!"
+    ang "{b}Helen's{/b} body is once again purged from her sins..."
+    ang "...And you have just made her your holy servant!"
     show ang 33
     show player 10f
-    player_name "Что... это значит?"
+    player_name "What... does that mean?"
     show player 5f
     show ang 34
-    ang "Ты только что связал желания {b}Хелен{/b} с собой."
-    ang "Теперь она будет подчиняться твоим командам..."
+    ang "You have just bound {b}Helen's{/b} desires to you."
+    ang "She will now obey your commands..."
     show player 11f
-    ang "Ты занял место её мужа в их супружеской постели."
-    ang "{b}Хелен{/b} теперь потребует ежедневного служения твоего святого семени."
-    ang "Чтобы вы сохранили друг друга чистыми и верными."
+    ang "You have taken her husband's place in their marriage bed."
+    ang "{b}Helen{/b} will now require a daily serving of your holy seed."
+    ang "In order for you to keep each other pure and faithful."
     show ang 33
     show player 12f
-    player_name "Что?!"
+    player_name "What?!"
     show player 22f
     show ang 34
-    ang "Не так ли, {b}Хелен{/b}?"
+    ang "Isn't that right, {b}Helen{/b}?"
     show ang 33
-    helen "Д...да... Теперь я должна служить, {b}[firstname]{/b}."
-    helen "Я... приму его святое семя... как покорная и послушная жена."
+    helen "Y...yes... I must now serve, {b}[firstname]{/b}."
+    helen "I... will accept his holy seed... as a submissive and obedient wife should."
     show ang 34
-    ang "Хорошо, {b}Хелен{/b}."
-    ang "На этом завершается наше святое таинство. Теперь вы двое можете идти с миром."
-    ang "Я буду продолжать предлагать различные ритуалы причастия в ночное время."
-    ang "Приходи если хочешь... участвовать."
+    ang "Good, {b}Helen{/b}."
+    ang "This concludes our holy sacrament. You two may now leave in peace."
+    ang "I will continue to offer the various rituals of the sacrament at night."
+    ang "Feel free to visit if you wish to... participate."
     show ang 33
     show player 12f
-    player_name "Это замечательно и все такое..."
+    player_name "That's nice and all..."
     show player 10f
-    player_name "...Но мне лучше вернуться домой."
+    player_name "...But I'd better get back home."
     hide player
     hide helen
     hide ang
@@ -738,41 +738,41 @@ label helen_final_sacrament_fuck_helen_cum_after:
 
 label helen_final_sacrament_watch_angelica:
     show player 67cf
-    player_name "Я..."
-    player_name "Я не могу этого сделать."
-    player_name "{b}Хелен{/b} нужен её муж, а {b}Мии{/b} нужны её родители."
+    player_name "I..."
+    player_name "I can't do it."
+    player_name "{b}Helen{/b} needs her husband, and {b}Mia{/b} needs her parents."
     show player 67bf
     show ang 26f
-    ang "Хорошо, я думаю, я должна быть той, кто спасет {b}Хелен{/b}."
-    ang "Отойди, {b}[firstname]{/b}."
+    ang "Fine, I guess I'll have to be the one to save {b}Helen{/b}."
+    ang "Stand back, {b}[firstname]{/b}."
     show ang 23f
     pause
     show ang 22f
     show player 430f
     player_name "..."
-    helen "Спасибо, {b}Сестра Анжелика{/b}..."
+    helen "Thank you, {b}Sister Angelica{/b}..."
     hide ang
     hide player
     with dissolve
 
     scene church_nun_night_hs_2 with fade
     show helens 13 with dissolve
-    ang "{b}Хелен{/b}, я с нетерпением ждала этого момента."
-    ang "Вы всегда представляли себя самым набожным и благочестивым членом {b}Божьей{/b} паствы."
-    ang "Я всегда хотела проникнуть в душу грязного грешника... и не использовать {b}Слово Божье{/b}."
-    helen "Ох?"
-    ang "Ты больше, чем кто-либо другой..."
-    ang "Ты хуже..."
-    ang "Ты настоящая шлюха, {b}Хелен{/b}."
-    ang "Прими мой жезл правосудия!"
+    ang "{b}Helen{/b}, I've been looking forward to this moment."
+    ang "You've always presented yourself as the most devout and pious member of {b}God's{/b} flock."
+    ang "I've always wanted to penetrate a dirty sinner's soul... and not using {b}God's Word{/b}."
+    helen "Oh?"
+    ang "You are not greater than anyone else..."
+    ang "You are worse..."
+    ang "You are a slut, {b}Helen{/b}."
+    ang "Receive my rod of judgement!"
     show helens 14 with dissolve
-    helen "Оххх!!!"
-    ang "Глубже, шлюха!"
-    ang "Прими весь!"
+    helen "Ohhh!!!"
+    ang "Deeper, slut!"
+    ang "Take it all!"
     $ M_helen.set("sex speed", .175)
     show expression AnimatedImage("helens", [15,16,17,18,19], M_helen) as helens with dissolve
-    helen "Оххх!!!"
-    helen "Быстрее! {b}Сестра Анжелика{/b}! Быстрее!"
+    helen "Ohhh!!!"
+    helen "Faster! {b}Sister Angelica{/b}! Faster!"
     $ M_helen.set("sex speed", .125)
     return
 
@@ -801,18 +801,18 @@ label helen_final_sacrament_watch_angelica_loop:
                 $ pose_counter += 1
             call expression game.dialog_select("angelica_final_sacrament_hscene_dialog")
         $ animcounter += 1
-    helen "Я ооочень близко!"
+    helen "I'm sooo close!"
     call screen final_sacrament_watch_angelica_options
 
 label angelica_final_sacrament_hscene_dialog:
     if animcounter == 1:
-        player_name "Оххх!!!{p=1}{nw}"
+        player_name "Ohhh!!!{p=1}{nw}"
 
     elif animcounter == 2:
-        helen "Ахххх!!!{p=1}{nw}"
+        helen "Ahhhh!!!{p=1}{nw}"
 
     elif animcounter == 4:
-        helen "{b}Сестра{/b}!!!{p=1}{nw}"
+        helen "{b}Sister{/b}!!!{p=1}{nw}"
     return
 
 label helen_final_sacrament_watch_angelica_cum:
@@ -827,13 +827,13 @@ label helen_final_sacrament_watch_angelica_cum:
 
 label helen_final_sacrament_watch_angelica_cum_pre:
     show helens 14 with fastdissolve
-    ang "Теперь отпустите свои грехи!"
-    ang "Кончи для меня, {b}Хелен{/b}!"
+    ang "Now, release your sins!"
+    ang "Cum for me, {b}Helen{/b}!"
     show helens 20 with flash
-    helen "ОХХХХХ!!!!!"
-    helen "ОХХХХХХХХХХ!!!!"
+    helen "OHHHH!!!!!"
+    helen "OHHHHHHHH!!!!"
     show helens 21 with dissolve
-    ang "Хорошая шлюшка..."
+    ang "Good slut..."
     scene black with fade
     pause 1
 
@@ -844,27 +844,27 @@ label helen_final_sacrament_watch_angelica_cum_pre:
     show ang 34 at Position (xpos=412)
     show player 5f at right
     with dissolve
-    ang "{b}Хелен{/b} теперь очищена."
-    ang "Благодаря моим тренировкам, она стала более покорной."
-    ang "{b}Божье{/b} требование всех святых жен к своим мужьям."
+    ang "{b}Helen{/b} has now been purified."
+    ang "Through my training, she has become more submissive."
+    ang "{b}God's{/b} demand of all holy wives to their husbands."
     show ang 33
 
-    helen "Спасибо, {b}Сестра Анжелика{/b}."
+    helen "Thank you, {b}Sister Angelica{/b}."
     show player 11f
     show ang 34
-    ang "Что касается тебя {b}[firstname]{/b}, должна сказать, что я немного разочарована в тебе."
+    ang "As for you {b}[firstname]{/b}, I have to say, I am a bit disappointed."
     show player 24f
-    ang "{b}Бог{/b} призвал тебя на помощь, а ты отвернулся..."
-    ang "...Когда ты должен был поделиться своими семенами с {b}Хелен{/b}!"
+    ang "{b}God{/b} called upon your aid, and you turned your back..."
+    ang "...When you should have been the one to share your seeds with {b}Helen{/b}!"
     show player 5f
-    ang "Но, возможно, это и есть вера."
-    ang "Спасибо тебе за помощь."
-    ang "Я освобождаю тебя от обязанностей и не нуждаюсь больше в твоих услугах."
+    ang "But perhaps, this is faith."
+    ang "Thank you for you assistance."
+    ang "I release you of your duties and will not require your services anymore."
     show ang 33
     show player 12f
-    player_name "Я рад, что наша сделка закончилась."
+    player_name "I'm just glad our deal is over."
     show player 10f
-    player_name "Я искренне надеюсь, что {b}Хелен{/b} будет чувствовать себя лучше после всего этого."
+    player_name "I truly hope that {b}Helen{/b} feels better after all this."
     hide player
     hide helen
     hide ang

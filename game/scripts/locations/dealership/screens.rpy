@@ -1,4 +1,6 @@
-screen dealership:
+screen dealership():
+    use mods_screens_hook("dealership")
+
     add L_dealership.background
 
     imagebutton:
@@ -22,7 +24,9 @@ screen dealership:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("dealership"), Jump("dealership_front_dialogue")
 
-screen dealership_front:
+screen dealership_front():
+    use mods_screens_hook("dealership_front")
+
     add L_dealership_front.background
 
     imagebutton:

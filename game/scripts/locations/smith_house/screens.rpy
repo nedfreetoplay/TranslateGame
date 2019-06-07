@@ -1,4 +1,6 @@
-screen smiths_frontyard:
+screen smiths_frontyard():
+    use mods_screens_hook("smiths_frontyard")
+
     add L_smith_front.background
 
     imagebutton:

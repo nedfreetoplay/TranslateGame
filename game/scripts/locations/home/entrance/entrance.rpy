@@ -8,6 +8,61 @@ label home_entrance:
         $ erik_bullying.finish()
 
 
+    if M_jenny.is_state(S_jenny_debbie_altercation) and game.timer.is_tick(1, 2):
+        call expression game.dialog_select("entrance_jenny_debbie_altercation")
+        $ M_jenny.trigger(T_jenny_altercation_with_debbie)
+
+    elif M_jenny.is_state(S_jenny_catch_her_leaving):
+        if not M_jenny.get("j10_caught_her_leaving"):
+            $ M_jenny.set("j10_caught_her_leaving", True)
+            call expression game.dialog_select("entrance_jenny_catch_her_leaving")
+            if M_jenny.get("dominance") <= 0:
+                call expression game.dialog_select("entrance_jenny_catch_her_leaving_sub_first")
+            else:
+                call expression game.dialog_select("entrance_jenny_catch_her_leaving_dom_first")
+        else:
+            call expression game.dialog_select("entrance_jenny_catch_her_leaving_repeat")
+        if player.has_money(200):
+            if M_jenny.get("dominance") <= 0:
+                call expression game.dialog_select("entrance_jenny_catch_her_leaving_has_money_sub")
+            else:
+                call expression game.dialog_select("entrance_jenny_catch_her_leaving_has_money_dom")
+            $ player.spend_money(200)
+            $ M_jenny.trigger(T_jenny_leave_house)
+        else:
+            if M_jenny.get("dominance") <= 0:
+                call expression game.dialog_select("entrance_jenny_catch_her_leaving_no_money_sub")
+            else:
+                if not M_jenny.get("j10_caught_her_leaving"):
+                    call expression game.dialog_select("entrance_jenny_catch_her_leaving_no_money_dom_first")
+                else:
+                    call expression game.dialog_select("entrance_jenny_catch_her_leaving_no_money_dom")
+
+    elif M_jenny.is_state(S_jenny_catch_her_jilling) and game.timer.is_evening():
+        $ player.go_to(L_home_livingroom)
+        call expression game.dialog_select("entrance_jenny_catch_her_jilling")
+        jump jenny_couch_fj_loop
+
+    elif M_jenny.is_state(S_jenny_want_some_breakfast) and game.timer.is_weekend() and game.timer.is_morning():
+        call expression game.dialog_select("entrance_jenny_want_some_breakfast")
+        $ player.go_to(L_home_kitchen)
+        $ M_jenny.trigger(T_jenny_pool_talk)
+        $ game.main()
+
+    elif M_jenny.pregnancy.stage == 2 and M_jenny.pregnancy.first_baby and M_jenny.get("didnt_see_first_baby_dialogue"):
+        call expression game.dialog_select("entrance_jenny_first_baby_stage_2_intro")
+        if M_diane.finished_state(S_diane_check_barn_out):
+            call expression game.dialog_select("entrance_jenny_first_baby_stage_2_diane")
+        else:
+            call expression game.dialog_select("entrance_jenny_first_baby_stage_2_no_diane")
+        call expression game.dialog_select("entrance_jenny_first_baby_stage_2_end")
+        $ M_jenny.set("didnt_see_first_baby_dialogue", False)
+        $ player.go_to(L_home_livingroom)
+        $ game.main()
+    elif M_jenny.pregnancy.stage == 5 and M_jenny.pregnancy.first_baby and M_jenny.pregnancy.gave_birth and M_jenny.get("jenny_got_first_baby"):
+        call expression game.dialog_select("entrance_jenny_pregnancy_first_baby_coming_home")
+        $ M_jenny.set("jenny_got_first_baby", True)
+
     if M_mia.is_state(S_mia_angelicas_impatience):
         call expression game.dialog_select("entrance_mia_angelicas_impatience")
         $ M_mia.trigger(T_angelica_house_visit)
@@ -55,10 +110,10 @@ label home_entrance:
     elif M_mom.is_state(S_mom_hang_out) and not game.timer.is_dark():
         call expression game.dialog_select("entrance_mom_hang_out")
         menu:
-            "Да.":
+            "Yes.":
                 call expression game.dialog_select("entrance_mom_hang_out_yes")
                 $ M_mom.trigger(T_mom_hang_out_accept)
-            "Нет.":
+            "No.":
 
 
                 call expression game.dialog_select("entrance_mom_hang_out_no")
@@ -89,16 +144,6 @@ label home_entrance:
 
     elif M_mom.is_state(S_mom_midnight_search):
         jump mom_midnight_swim
-
-    if M_jenny.is_state(S_jenny_couch_naughty_time) and game.timer.is_evening():
-        call expression game.dialog_select("entrance_sis_couch_1")
-
-    elif M_jenny.is_state(S_jenny_couch_naughty_time_tier_2) and game.timer.is_evening():
-        call expression game.dialog_select("entrance_sis_couch_2")
-
-    elif M_jenny.is_state(S_jenny_couch_naughty_time_tier_3) and game.timer.is_evening() and (not M_mom.is_state(S_mom_sleepover) or not L_home_livingroom.is_here(M_mom)):
-        call expression game.dialog_select("entrance_sis_couch_3")
-        jump home_livingroom_dialogue
 
     if M_bissette.is_state(S_bissette_roxxy_jenny_mentoring) and game.timer.is_afternoon():
         if not M_roxxy.get("roxxy trailer sex"):
@@ -133,11 +178,11 @@ label home_entrance:
 label vacuum_dialogue:
     call expression game.dialog_select("entrance_mom_vacuum")
     menu:
-        "Позволь мне помочь.":
+        "Let me help.":
             call expression game.dialog_select("entrance_mom_vacuum_yes")
             $ game.timer.tick()
             $ M_mom.trigger(T_mom_vacuumed)
-        "Это слишком громко.":
+        "It's too loud.":
             call expression game.dialog_select("entrance_mom_vacuum_no")
     $ M_mom.set("chores", False)
     $ game.main()

@@ -1,122 +1,54 @@
 label erik_bedroom:
-    if M_jenny.is_state(S_jenny_telescope_spying):
-        call expression game.dialog_select("telescope_erik_sister_spying")
-        $ M_jenny.trigger(T_jenny_spied_on_neighbour)
-        jump expression game.dialog_select("bedroom_dialogue")
-    else:
-        call expression game.dialog_select(game.telescope.erik)
-
+    call expression game.dialog_select(game.telescope.erik)
     $ M_player.set("telescope active", True)
     show screen telescope
     call screen telescope_fake
 
-label telescope_erik_sister_spying:
-    scene
-    show windowerikday 3a
-    player_name "( {b}Хозяйка квартиры Эрика{/b}. )"
-    show windowerikday 3b with fastdissolve
-    player_name "( Она, наверное, просто проверяет как у него дела... )"
-    show windowerikday 3c with fastdissolve
-    player_name "..."
-    player_name "( Они целуются в губы? Это странно... )"
-    show windowerikday 3d with fastdissolve
-    player_name "( Что... )"
-    player_name "( Он только что схватил ее за грудь?? )"
-    show windowerikday 3l with fastdissolve
-    player_name "( Она закрывает жалюзи... )"
-    show windowerikday 2 with fastdissolve
-    pause
-    hide windowerikday
-    hide screen telescope
-    show telescope_caught 1
-    with dissolve
-
-    jen "( Хм... Интересно, что он задумал. )"
-    show telescope_caught 3 with dissolve
-    pause
-    show telescope_caught 5
-    jen "( Чем он занимается? )"
-    scene location_home_bedroom_telescope_window
-    show player 357 at Position(xpos=456,ypos=758)
-    with dissolve
-    pause
-    show jenny 137 at right with fastdissolve
-    pause
-    show jenny 138
-    jen "Веселишься?"
-    show jenny 137
-    show player 358 at Position(xpos=448)
-    player_name "!!!" with vpunch
-    show player 360 at Position(ypos=768)
-    show jenny 136 at Position(xpos=952)
-    player_name "Что ты здесь делаешь?!"
-    show player 361
-    show jenny 135
-    jen "Лучше спросить, что ТЫ здесь делаешь?"
-    jen "Тебе больше нечем заняться, как шпионить за соседями?"
-    show player 360
-    show jenny 136
-    player_name "Я... не понимаю о чем ты говоришь!"
-    show player 361
-    show jenny 135
-    jen "О, хочешь сказать что наблюдаешь за птицами?"
-    show player 360
-    show jenny 136
-    player_name "Может быть!"
-    show player 359
-    show jenny 135
-    jen "Ха! Ты жалок..."
-    hide jenny with fastdissolve
-    pause
-    show player 360
-    player_name "Ты могла бы закрыть дверь!"
-    return
-
 label telescope_erik_morning_1:
     scene windowerikmorning01
     if game.timer.is_weekend():
-        player_name "( Его нет в комнате. )"
+        player_name "( He's not in his room. )"
     else:
-        player_name "( Наверное, он уже ушел в школу. )"
+        player_name "( He probably already left for school. )"
     return
 
 label telescope_erik_morning_2:
     scene windowerikmorning02
     if game.timer.is_weekend():
-        player_name "( Вероятно, он не спал всю ночь, играя в эту игру... )"
+        player_name "( He probably stayed up all night playing that game... )"
     else:
-        player_name "( Он играет в игры? Он должен готовиться к школе... )"
+        player_name "( He's playing games? He should be getting ready for school... )"
     return
 
 label telescope_erik_afternoon_1:
     scene windowerikday 1
-    player_name "( Его сейчас нет дома. )"
+    player_name "( He's not home. )"
     return
 
 label telescope_erik_afternoon_2:
     scene windowerikday 2
-    player_name "( Жалюзи закрыты. Должно быть, он снова пользуется лосьоном. )"
+    player_name "( The blinds are closed. He must be using his lotion again. )"
     return
 
 label telescope_erik_afternoon_3:
     scene windowerikday04a_b
-    player_name "( Что это {b}Эрик{/b} смотрит? )"
-    player_name "( Это выглядит странно знакомым... )"
+    player_name "( What's {b}Erik{/b} looking at? )"
+    player_name "( That looks oddly familiar... )"
     return
 
 label telescope_erik_afternoon_4:
     scene windowerikday05a_b
-    player_name "Ухх!!" with hpunch
-    player_name "( Я понимаю, почему он был так рад получить его... )"
+    player_name "Uhh!!" with hpunch
+    player_name "( I can see why he was so excited about getting it... )"
     return
 
 label telescope_erik_night_1:
     scene windoweriknight01
-    player_name "( Он всегда играет в эту игру... )"
+    player_name "( He's always playing that game... )"
     return
 
 label telescope_erik_night_2:
     scene windoweriknight02
-    player_name "( Жалюзи закрыты. Должно быть, он снова пользуется лосьоном. )"
+    player_name "( The blinds are closed. He must be using his lotion again. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

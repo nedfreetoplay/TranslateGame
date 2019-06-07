@@ -1,4 +1,6 @@
-screen waterfall:
+screen waterfall():
+    use mods_screens_hook("waterfall")
+
     add game.timer.image("backgrounds/location_forest_waterfall_day{}.jpg")
 
     imagebutton:

@@ -1,62 +1,62 @@
 label pizza_interior_pizza_count_0:
     scene location_pizza_day_blur
     show player 10f at right with dissolve
-    player_name "Привет! Есть ли здесь кто-"
+    player_name "Hey! Is anyone in-"
     show tony f_normal_talk zorder 1 at fliplleft with dissolve
     show player 11f
-    tony "Эййй, да ты только взгляни на него!"
-    tony "Высокий, молодой, красивый."
-    tony "Он напоминает мне самого себя в молодости."
+    tony "Eyyy, look at this one!"
+    tony "Tall, young, handsome."
+    tony "He reminds me of myself, when I was younger."
     show tony f_normal
     show player 10f
-    player_name "Я?"
+    player_name "Me?"
     show tony f_question
     show player 13f
-    tony "Да, ты, вот что я тебе скажу: Ищешь работёнку?"
+    tony "Yes you, tell you what: You looking for a job?"
     show tony f_normal
     show player 14f
-    player_name "Да, я долго искал хоть какую-нибудь."
+    player_name "Yeah, I've been looking for one."
     show tony f_normal_talk
     show player 203f
-    tony "Отлично. Мне пригодится кто-нибудь вроде тебя."
+    tony "Good. I could use someone like you."
     show player 10f
     show tony f_normal
-    player_name "Кто-то вроде меня?"
+    player_name "Someone like me?"
     show player 11f
     show tony f_normal_talk
-    tony "Ну конечно же! Кто-то типа тебя! Подожди здесь, я позову свою жену."
+    tony "Of course! Someone like you! Wait here let me get my wife."
     show player 203f
     show maria f_normal zorder 0 at flip, Position (xpos=750) with dissolve
     show tony f_normal_talk
-    tony "Мария: это {b}[firstname]{/b}, {b}[firstname]{/b}: это Мария."
+    tony "{b}Maria{/b}, this is {b}[firstname]{/b}. {b}[firstname]{/b}, this is {b}Maria{/b}."
     show tony f_normal
     show maria f_normal_talk at flip
-    maria "Привет, {b}[firstname]{/b}. Пологаю ты будешь нашим новым помощником."
+    maria "Hey, {b}[firstname]{/b}. I'm guessing you're going to be the new help."
     show player 14f
     show maria f_normal
-    player_name "Ага, похоже на то."
+    player_name "Yeah, seems like it."
     show player 203f
     show maria f_shy_talk
-    maria "Тони, не большой вопрос: Откуда нам знать будет ли с этого парня хоть какая-то польза?"
+    maria "{b}Tony{/b}, quick question. Do we know if this kid is any good?"
     show maria f_shy
     show tony f_normal_talk
-    tony "Ниоткуда, но ты только взляни на него! Он молод, полон энергии, и выглядит здаровым!"
-    tony "Что ещё нам нужно?"
+    tony "We don't, but look at him! He's young, full of energy, and he looks healthy!"
+    tony "What else would you need?"
     show maria f_normal_talk
     show player 11f
     show tony f_normal
-    maria "Кто-то кто бы работал, потому как прошлый ребёнок которого ты нанял, был ленивым подростком."
+    maria "Someone who works, because the last kid you hired was another lazy teen."
     show maria f_normal
     show tony f_question
-    tony "Он будет работать. Я ручаюсь за него. Верно {b}[firstname]{/b}?"
+    tony "He'll work. I can promise you that. Right {b}[firstname]{/b}?"
     show tony f_normal
     show player 14f
-    player_name "Ага. Вы предложили, и мне нужно работа."
+    player_name "Yeah. You're offering, and I need the job."
     show tony f_normal_talk
     show player 203f
-    tony "Тогда решено! Приходи позже, и мы обсудим дальнейшие дела."
+    tony "Then it's settled! Come in later, and we'll discuss things further."
     show maria f_normal_talk
-    tonymaria "Хорошего дня!"
+    tonymaria "Have a great day!"
     hide tony
     hide maria
     hide player
@@ -69,63 +69,63 @@ label pizza_interior_diane_delivery_1:
     show player 13f zorder 3 at right
     show tony f_normal_talk zorder 0 at flip, Position (xpos=750)
     with dissolve
-    tony "Ну, привет, малыш."
-    tony "Что привело тебя сегодня?"
+    tony "Well, hey there, kiddo."
+    tony "What brings you in today?"
     show tony f_normal at flip
     show player 14f
-    player_name "У меня для тебя доставка."
+    player_name "I have a delivery for you."
     show player 13f
     show tony f_suspicious
-    tony "Доставка, да?"
+    tony "Delivery, eh?"
     show tony f_normal_talk
-    tony "... О, из молочного магазина!"
+    tony "... Oh, from the milk place!"
     show tony f_normal
     show player 14f
-    player_name "Верно."
+    player_name "That's right."
     show player 239_240f with dissolve
     pause
     show player 163df with dissolve
     show tony f_normal_talk
-    tony "Прекрасно!"
-    tony "Я не знаю, каких коров вы используете, но это молоко потрясающее!"
-    tony "Это действительно поднимает наше тесто для пиццы на совершенно другой уровень!"
+    tony "Excellent!"
+    tony "I dunno what kind of cows you're using but this milk is amazing!"
+    tony "It really takes our pizza dough to a whole 'nother level!"
     show tony f_normal
     show player 163ef
-    player_name "Хе-хе, я уверен, что {b}Диана{/b} будет рада это услышать."
+    player_name "Hehe, I'm sure {b}Diane{/b} will be happy to hear that."
     show player 163df
     show tony f_normal_talk
-    tony "Я не шучу, малыш."
-    tony "Скажи ей, что в следующий раз я утрою свой заказ."
+    tony "I'm not joking, kiddo."
+    tony "You tell her, that next time, I'm gonna triple my order."
     show tony f_normal
     show player 163ef
-    player_name "Хе, хорошо."
-    player_name "Хм, где я должен положить это?"
+    player_name "Heh, okay."
+    player_name "Umm, where should I put this?"
     show player 163df
     show tony f_normal_talk
-    tony "О, да. Подожди..."
+    tony "Oh, right. One second..."
     show tony f_suspicious
-    tony "Эй, {b}Мария{/b}!"
-    tony "Тащи сюда свою задницу на секунду!"
+    tony "Hey, {b}Maria{/b}!"
+    tony "Getcha' butt up here for a second!"
     show tony f_normal
     pause
     show maria f_normal_talk zorder 1 at fliplleft with dissolve
-    maria "{b}*вздыхая*{/b} Что случилось сейчас, {b}Тони{/b}?"
+    maria "{b}*Sigh*{/b} What's the matter now, {b}Tony{/b}?"
     show maria f_normal
     show tony f_question
-    tony "Ничего страшного, заказ молока здесь."
-    tony "Почему бы тебе не проводить паренька и не показать, где ты его хранишь?"
+    tony "Ain't nothing the matter, the milk order is here."
+    tony "Why don't you take the kid in back and show him where you keep it?"
     show tony f_normal
     show maria f_shy_talk
-    maria "{b}*вздыхая*{/b} Да, да... Хорошо."
+    maria "{b}*Sigh*{/b} Yeah, yeah... Alright."
     show maria f_normal_talk
-    maria "Как тебя зовут, малыш?"
+    maria "What's your name, kid?"
     show maria f_normal
     show player 163ef
     player_name "{b}[firstname]{/b}."
     show player 163df
     show maria f_normal_talk
-    maria "О, Какое красивое имя!"
-    maria "Иди за мной {b}в кладовку{/b}, {b}[firstname]{/b}."
+    maria "Oh, that's a nice name!"
+    maria "Follow me {b}into the back{/b}, {b}[firstname]{/b}."
     hide maria with dissolve
     player_name "..."
     scene black with fade

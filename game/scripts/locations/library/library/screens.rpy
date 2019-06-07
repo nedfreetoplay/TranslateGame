@@ -1,4 +1,6 @@
-screen library:
+screen library():
+    use mods_screens_hook("library")
+
     add "backgrounds/location_library_day.jpg"
 
     imagebutton:
@@ -72,7 +74,9 @@ screen library:
                                    )
         )
 
-screen library_bookshelf:
+screen library_bookshelf():
+    use mods_screens_hook("library_bookshelf")
+
     add "library_shelf"
 
     imagebutton:
@@ -121,7 +125,7 @@ screen library_bookshelf:
         hover HoverImage("boxes/auto_option_04.png")
         action Hide("library_bookshelf"), Jump("library_dialogue")
 
-screen desk05_options:
+screen desk05_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("desk05_options")]

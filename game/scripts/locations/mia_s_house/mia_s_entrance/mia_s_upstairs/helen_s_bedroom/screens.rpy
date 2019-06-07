@@ -1,4 +1,6 @@
-screen helens_bedroom:
+screen helens_bedroom():
+    use mods_screens_hook("helens_bedroom")
+
     if M_helen.get_state() == S_helen_master_servant_fun:
         add "backgrounds/location_mia_house_helen_closed.jpg"
 
@@ -39,7 +41,7 @@ screen helens_bedroom:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("helens_bedroom"), Jump("mias_upstairs")
 
-screen helen_bedroom_sex_options:
+screen helen_bedroom_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

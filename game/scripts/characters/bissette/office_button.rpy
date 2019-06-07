@@ -19,11 +19,11 @@ label bissette_office_dialogue:
 
         call expression game.dialog_select("bissette_dialogue_office_intro")
         menu:
-            "Выбор вин." if M_bissette.is_state(S_bissette_wine_sampling):
+            "Wine Sampling." if M_bissette.is_state(S_bissette_wine_sampling):
                 call expression game.dialog_select("bissette_dialogue_office_bissette_wine_sampling")
                 $ M_bissette.set("night visit", True)
-                jump expression game.dialog_select("bissettes_office_dialogue")
-            "Уйти.":
+                jump expression game.dialog_select("mrs_bissettes_office_dialogue")
+            "Nothing.":
 
                 call expression game.dialog_select("bissette_dialogue_office_leave")
     hide player

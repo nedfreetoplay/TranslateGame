@@ -19,53 +19,6 @@ label dianes_shed_diane_delivery_2_fetch_goods:
     hide player with dissolve
     return
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 label dianes_shed_diane_fetch_pump:
     show player 35 at left with dissolve
     player_name "Woah..."
@@ -79,7 +32,7 @@ label dianes_shed_diane_fetch_pump:
 
 label dianes_shed_milking_help:
     scene expression "backgrounds/location_diane_shed_closeup.jpg"
-    $ M_diane.is_naked = 1
+    $ M_diane.outfit.is_naked = 1
     show player 10 at left
     show diane b_topless_blank a_topless_pump1 f_surprised_front at lright
     with dissolve
@@ -331,13 +284,12 @@ label dianes_shed_milking_help:
     hide player
     hide diane
     with dissolve
-    $ M_diane.is_naked = 0
-    $ M_diane.outfit = "shirtless"
+
     scene expression "backgrounds/location_diane_shed_hay_stack.jpg"
-    show diane b_hay_feeding1 a_empty f_hay_feeding_explain
+    show diane b_hay_feeding_shirtless1 a_empty f_hay_feeding_explain
     with dissolve
     dia "Go ahead, handsome."
-    show diane b_hay_feeding f_hay_feeding_lip_bite
+    show diane b_hay_feeding_shirtless f_hay_feeding_lip_bite
     dia "Mmm."
     pause
     show diane f_hay_feeding_explain
@@ -350,7 +302,7 @@ label dianes_shed_milking_help:
     player_name "Delicious!"
     show diane f_hay_feeding_laugh
     dia "Hehe."
-    show diane a_hay_feeding_arm f_hay_feeding_shamed_talk_look with dissolve
+    show diane a_hay_feeding_arm_shirtless f_hay_feeding_shamed_talk_look with dissolve
     dia "You've got such a nice dick, {b}[firstname]{/b}."
     dia "Have I mentioned that before?"
     show diane f_hay_feeding_smirk_down
@@ -364,7 +316,7 @@ label dianes_shed_milking_help:
     dia "Your mouth feels amazing on my nipple!"
     show diane f_hay_feeding_lip_bite
     pause
-    show diane b_hay_feeding1 a_empty with dissolve
+    show diane b_hay_feeding_shirtless1 a_empty with dissolve
     dia "Nngghh!"
     show diane f_hay_feeding_shamed_talk_look
     dia "Alright, we'd better stop before you drink me dry, stud."
@@ -373,7 +325,7 @@ label dianes_shed_milking_help:
     show diane f_hay_feeding_explain
     dia "I know..."
     hide diane with dissolve
-    $ M_diane.is_naked = 1
+    $ M_diane.outfit.is_naked = 1
     scene expression player.location.background_blur with None
     show player 13 at left
     show diane b_topless a_naked_sides f_smirk_talk
@@ -399,7 +351,6 @@ label dianes_shed_milking_help:
     hide player
     hide diane
     with dissolve
-    $ M_diane.outfit = "shirtless"
     return
 
 label dianes_shed_diane_check_shed_light:
@@ -574,7 +525,7 @@ label dianes_shed_diane_check_shed_light:
     show player 673
     dia "Hmm."
     show diane f_shamed_talk_smile
-    dia "It does really nice..."
+    dia "It does sound really nice..."
     show diane f_shamed
     show player 674
     player_name "It's a date then!"
@@ -635,118 +586,6 @@ label dianes_shed_diane_check_shed_light:
     hide player with dissolve
     return
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 label dianes_shed_seen_shed_locked:
     scene garden
     show player 34 with dissolve
@@ -760,18 +599,6 @@ label dianes_shed_not_seen_shed_locked:
     scene garden
     show player 35 with dissolve
     player_name "Hmm.. The shed is locked. I wonder what's in there?"
-
-
-
-
-
-
-
-
-
-
-
-
     hide player
     hide diane
     with dissolve

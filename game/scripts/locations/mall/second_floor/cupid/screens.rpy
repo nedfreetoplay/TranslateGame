@@ -1,4 +1,6 @@
-screen cupid:
+screen cupid():
+    use mods_screens_hook("cupid")
+
     add "backgrounds/location_mall_cupid_day.jpg"
 
     imagebutton:
@@ -14,7 +16,7 @@ screen cupid:
 
     imagebutton:
         focus_mask True
-        pos (167,328)
+        pos (160,328)
         idle "objects/character_kass_01.png"
         hover HoverImage("objects/character_kass_01.png")
         action Hide("cupid"), Jump("kass_dialogue")
@@ -32,11 +34,11 @@ screen cupid:
         pos (463,280)
         idle "objects/object_jewelery_01.png"
         hover HoverImage("objects/object_jewelery_01.png")
-        action Hide("cupid"), If(
-                                M_mom.get_state() in [S_mom_show_necklace, S_mom_dressing_room],
-                                Jump("mom_cupid_outing_block"),
-                                Jump("necklace_display")
-        )
+        action If(
+                    M_mom.is_state(S_mom_show_necklace, S_mom_dressing_room, S_mom_choose_gift),
+                    [Hide("cupid"), Jump("cupid_jewelery_display")],
+                    Show("cupid_ui", interface="Jewelery")
+                 )
 
     imagebutton:
         focus_mask True
@@ -68,7 +70,8 @@ screen cupid_item_info(item):
     imagebutton:
         idle "buttons/shop_button_" + str(item.price) + ".png"
         hover HoverImage("buttons/shop_button_" + str(item.price) + ".png")
-        action If(not player.has_money(item.price), Show("popup_fail01"), If(player.has_item(item.item), Show("popup_fail02"), [Function(player.get_item, item.item), Show("popup", Image = item.popup)])) pos 685, 93
+        action BuyItem(item.item)
+        pos 685, 93
 
 screen cupid_ui(interface):
     imagebutton:
@@ -104,7 +107,9 @@ screen cupid_ui(interface):
         $ c += 1
         $ c3 += 1
 
-screen cupid_necklace_display:
+screen cupid_necklace_display():
+    use mods_screens_hook("cupid_necklace_display")
+
     add "backgrounds/location_mall_cupid_closeup_stall.jpg"
 
     imagebutton:
@@ -114,7 +119,9 @@ screen cupid_necklace_display:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("cupid_necklace_display"), Jump("cupid_dialogue")
 
-screen cupid_dressingroom:
+screen cupid_dressingroom():
+    use mods_screens_hook("cupid_dressingroom")
+
     add "backgrounds/location_mall_cupid_closeup_stall.jpg"
 
     imagebutton:

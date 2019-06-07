@@ -1,4 +1,6 @@
-screen smiths_hallway:
+screen smiths_hallway():
+    use mods_screens_hook("smiths_hallway")
+
     add L_smith_hallway.background
 
     imagebutton:

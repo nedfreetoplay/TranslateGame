@@ -13,14 +13,8 @@ init python:
     egay_search = ""
     debugMenuMoney = "1000"
     debugMenuPythonToWatch = ""
+    debugMenuItemSearch = ""
 
-
-    def save_description(newstring):
-        store.save_name = newstring
-
-    def name_func(newstring):
-        persistent.firstname = newstring
-        store.firstname = newstring
 
     def sis_comp(newstring):
         store.sis_pass = newstring
@@ -57,19 +51,12 @@ init python:
     def clearSaveName():
         store.save_name = ""
 
-    def setAutosaveFrequency(string):
-        try:
-            string = int(string)
-            if string > 100:
-                persistent.autosave_frequency = str(string)
-            else:
-                persistent.autosave_frequency = "100"
-        except ValueError:
-            persistent.autosave_frequency = "200"
-
     def setDebugMenuMoney(string):
         store.debugMenuMoney = string
 
     def setDebugMenuPythonToWatch(string):
         store.debugMenuPythonToWatch = string
+
+    def setDebugMenuItemSearch(string):
+        store.debugMenuItemSearch = string
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -3,39 +3,39 @@ label debbie_dialogue_master_room_pre:
     show debbie 55 at left
     show player 110 at right
     with dissolve
-    deb "Привет, милый..."
-    deb "Ты меня искал?"
+    deb "Hi, sweetie..."
+    deb "Were you looking for me?"
     show debbie 54
     show player 111
-    player_name "Да..."
+    player_name "Yeah..."
     show player 110
     show debbie 55
-    deb "Ты что-то хотел от меня?"
+    deb "Is there something you wanted from me?"
     show debbie 54
     return
 
 label debbie_dialogue_master_room_after_kiss_dialogue:
-    deb "Теперь, есть ли что-нибудь ещё, что тебе надо?"
+    deb "Now, is there anything else you wanted?"
     show debbie 54
     return
 
 label debbie_dialogue_master_room_kiss:
     show player 111 at right
     show debbie 54 at left
-    player_name "Могу я получить поцелуй?"
+    player_name "Can I have a kiss?"
     show player 110
     show debbie 55
-    deb "Конечно, милый! Иди сюда."
+    deb "Of course, sweetie! Come here."
     scene debbie_bedroom
     show debbie 79
     with fade
-    deb "Мммм..."
+    deb "Mmmm..."
     show debbie 80_79
     pause 3
     show debbie 75 at Position(xpos=750)
     show player 227 at Position(xpos=200)
     with fastdissolve
-    deb "У тебя стало лучше получаться!"
+    deb "You're getting better at this!"
     scene debbie_bedroom_closeup2
     show debbie 55 at left
     show player 110 at right
@@ -44,13 +44,13 @@ label debbie_dialogue_master_room_kiss:
 
 label debbie_dialogue_master_room_shower:
     show player 111
-    player_name "Привет, {b}[deb_name]{/b}!"
-    player_name "Хочешь принять со мной душ?"
+    player_name "Hey, {b}[deb_name]{/b}!"
+    player_name "Want to take a shower with me?"
     show player 110
     show debbie 55
-    deb "В доме становится довольно жарко..."
-    deb "Конечно! Душ - звучит прекрасно."
-    deb "Пойдем, милый. Я буду там через минуту."
+    deb "It is getting pretty hot in the house..."
+    deb "Sure! A shower sounds lovely right now."
+    deb "You go ahead, sweetie. I'll be there in a minute."
     scene shower_closeup
     show debbies 27
     with dissolve
@@ -58,27 +58,27 @@ label debbie_dialogue_master_room_shower:
     show debbies 28 at Position(xpos=487,ypos=768) with dissolve
     pause
     show debbies 34 with dissolve
-    deb "Прости, что заставила ждать, милый."
+    deb "Sorry to keep you waiting, sweetie..."
     return
 
 label debbie_dialogue_master_room_sex_random_true:
     show debbie 54 at left
     show player 111 at right
-    player_name "Мне нравится... Делать это с тобой снова."
+    player_name "I feel like... Doing it with you again."
     show player 110
     show debbie 55
-    deb "Все нормально!"
-    deb "Я надеялась, что ты захочешь..."
+    deb "That's okay!"
+    deb "I was hoping you'd want to..."
     show player 111
     show debbie 54
-    player_name "Правда?"
+    player_name "Really?"
     show player 110
     show debbie 58 with dissolve
-    deb "Конечно! В конце концов, ты мой мужчина."
+    deb "Of course! You're my man, after all."
     show debbie 57
     player_name "!!!"
     show debbie 58
-    deb "Снимай одежду, милый."
+    deb "Take your clothes off, sweetie."
     show debbie 57
     show player 8f
     pause
@@ -87,27 +87,27 @@ label debbie_dialogue_master_room_sex_random_true:
     show player 263
     pause
     show debbie 103
-    deb "Ммм, иди возьми меня, милый!"
+    deb "Mmm, come get me, sweetie!"
     show player 262 at right
     show debbie 102 at left
-    player_name "Не нужно говорить мне дважды ..."
+    player_name "Don't have to tell me twice..."
     return
 
 label debbie_dialogue_master_room_sex_random_false:
     show debbie 54 at left
     show player 111 at right
-    player_name "{b}[deb_name]{/b}, хотишь немного повеселиться?"
+    player_name "{b}[deb_name]{/b}, want to have some fun?"
     show player 110
     show debbie 54
-    deb "О?"
+    deb "Oh?"
     show debbie 56 with dissolve
-    deb "Любить... это забавно?"
+    deb "Like...this kinda fun?"
     show debbie 57
     show player 111
-    player_name "Конечно..."
+    player_name "Of course..."
     show player 110
     show debbie 58
-    deb "Покажи мне свой член..."
+    deb "Let me see that cock of yours..."
     show debbie 57
     show player 8f with dissolve
     pause
@@ -117,17 +117,17 @@ label debbie_dialogue_master_room_sex_random_false:
     show player 263 with dissolve
     pause
     show debbie 58
-    deb "Похоже, что ты готов!"
+    deb "It looks like you are ready!"
     show debbie 57
     show player 262
-    player_name "Я ждал этого с тех пор, как проснулся сегодня утром."
+    player_name "I've been looking forward to this since I woke up this morning."
     show player 263
     show debbie 58
-    deb "Я тоже."
+    deb "Me too."
     show debbie 102 with dissolve
     pause
     show debbie 103
-    deb "Иди и возьми, милый."
+    deb "Come and get it, sweetie."
     return
 
 label debbie_dialogue_master_room_sex_after:
@@ -144,18 +144,18 @@ label debbie_dialogue_master_room_sex_after:
 label debbie_dialogue_master_room_laundry_sex:
     show debbie 54
     show player 111
-    player_name "Я хотел спросить, не нужна ли тебе помощь в подвале."
+    player_name "I was wondering if you wanted some help in the basement."
     show player 110
     show debbie 55
-    deb "В подвале? Для чего?"
+    deb "In the basement? What for?"
     show player 111
     show debbie 54
-    player_name "Может, я смогу помочь тебе со стиркой... Как в прошлый раз?"
+    player_name "Maybe I can help you with laundry... Like we did last time?"
     show player 110
     show debbie 55
-    deb "А, понятно... Я точно знаю, чего ты хочешь!"
-    deb "Дай мне минутку подготовиться."
-    deb "Встретимся там внизу..."
+    deb "Oh, I see... I know exactly what you want!"
+    deb "Give me a minute to get ready."
+    deb "I'll meet you down there..."
     hide debbie
     hide player
     with dissolve
@@ -163,29 +163,29 @@ label debbie_dialogue_master_room_laundry_sex:
 
 label debbie_dialogue_master_room_watch_movie:
     show player 111
-    player_name "Я подумал, что нам стоит посмотреть фильм сегодня вечером. Интересно?"
+    player_name "I was thinking, we should watch another movie tonight. Interested?"
     show player 110
     show debbie 55
-    deb "Ммм, вечер кино, да?"
-    deb "Это звучит великолепно, любимый!"
+    deb "Mmm, a movie night, huh?"
+    deb "That sounds like a great idea, Sweetheart!"
     show player 111
     show debbie 54
-    player_name "Потрясающе!"
-    player_name "Увидимся вечером в гостиной?"
+    player_name "Awesome!"
+    player_name "I'll see you tonight in the living room then?"
     show player 110
     show debbie 55
-    deb "Я не могу ждать..."
+    deb "I can't wait..."
     return
 
 label debbie_dialogue_master_room_leave:
     show debbie 54
     show player 111
-    player_name "Ничего, {b}[deb_name]{/b}."
-    player_name "Просто хотел поздороваться."
+    player_name "Nothing, {b}[deb_name]{/b}."
+    player_name "Just wanted to say hi."
     show player 110
     show debbie 55
-    deb "Ох, хорошо..."
-    deb "Ну, возвращайся как захочешь... Я буду скучать..."
-    deb "Мы можем повеселиться, когда захочешь."
+    deb "Oh, okay..."
+    deb "Well, come back if you'd like... I'm a bit bored..."
+    deb "We can have fun whenever you'd like."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,4 +1,6 @@
-screen pizzeria_exterior:
+screen pizzeria_exterior():
+    use mods_screens_hook("pizzeria_exterior")
+
     add game.timer.image("backgrounds/location_pizza_outside_day{}.jpg")
 
     imagebutton:

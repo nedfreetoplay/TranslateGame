@@ -1,4 +1,6 @@
-screen church:
+screen church():
+    use mods_screens_hook("church")
+
     if game.timer.is_weekend() and game.timer.is_morning():
         if player.location.is_here(M_helen, M_harold):
             add "backgrounds/location_church_full01_day.jpg"
@@ -48,7 +50,9 @@ screen church:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("church"), Jump("church_front_dialogue")
 
-screen church_front:
+screen church_front():
+    use mods_screens_hook("church_front")
+
     add L_church_front.background
     imagebutton:
         focus_mask True

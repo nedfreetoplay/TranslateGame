@@ -1,8 +1,6 @@
-label latinas_triggers_init:
-    python:
-        T_latinas_showers = Trigger("showers")
-        T_latinas_annie_trouble = Trigger("annie trouble")
-    return
+init python:
+    T_latinas_showers = Trigger("showers")
+    T_latinas_annie_trouble = Trigger("annie trouble")
 
 label latinas_fsm_init:
     python:

@@ -5,7 +5,7 @@
         "description": "Catch one of every type of fish.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_01.png"
+        "image": "achievements/cellphone_achieve_01.png"
     },
     "prolific-camshow": {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "Reach the end of Jenny's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_02.png"
+        "image": "achievements/cellphone_achieve_02.png"
     },
     "end-of-chores": {
         "id": 3,
@@ -21,7 +21,7 @@
         "description": "Reach the end of Debbie's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_03.png"
+        "image": "achievements/cellphone_achieve_03.png"
     },
     "not-a-prude": {
         "id": 4,
@@ -29,7 +29,7 @@
         "description": "Reach the end of Mia's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_04.png"
+        "image": "achievements/cellphone_achieve_04.png"
     },
     "milky-business": {
         "id": 5,
@@ -37,7 +37,7 @@
         "description": "Reach the end of Diane's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_05.png"
+        "image": "achievements/cellphone_achieve_05.png"
     },
     "sharing-is-caring": {
         "id": 6,
@@ -45,7 +45,7 @@
         "description": "Have a threeway with Mrs. Johnson.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_06.png"
+        "image": "achievements/cellphone_achieve_06.png"
     },
     "hoes-before-bros": {
         "id": 7,
@@ -53,7 +53,7 @@
         "description": "Reach the end of June's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_07.png"
+        "image": "achievements/cellphone_achieve_07.png"
     },
     "bros-before-hoes": {
         "id": 8,
@@ -61,7 +61,7 @@
         "description": "Reach the end of Erik's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_08.png"
+        "image": "achievements/cellphone_achieve_08.png"
     },
     "repentance": {
         "id": 9,
@@ -69,7 +69,7 @@
         "description": "Reach the end of Helen's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_09.png"
+        "image": "achievements/cellphone_achieve_09.png"
     },
     "mermaid": {
         "id": 10,
@@ -77,7 +77,7 @@
         "description": "Reach the end of Aqua's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_10.png"
+        "image": "achievements/cellphone_achieve_10.png"
     },
     "the-man": {
         "id": 11,
@@ -85,7 +85,7 @@
         "description": "Reach the end of Roxxy's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_11.png"
+        "image": "achievements/cellphone_achieve_11.png"
     },
     "excellent-francais": {
         "id": 12,
@@ -93,7 +93,7 @@
         "description": "Reach the end of Ms Bissette's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_12.png"
+        "image": "achievements/cellphone_achieve_12.png"
     },
     "music-taste": {
         "id": 13,
@@ -101,7 +101,7 @@
         "description": "Reach the end of Mrs Dewitt's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_13.png"
+        "image": "achievements/cellphone_achieve_13.png"
     },
     "science-experiments": {
         "id": 14,
@@ -109,7 +109,7 @@
         "description": "Reach the end of Ms Okita's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_14.png"
+        "image": "achievements/cellphone_achieve_14.png"
     },
     "painting-nude": {
         "id": 15,
@@ -117,7 +117,7 @@
         "description": "Reach the end of Ms Ross' story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_15.png"
+        "image": "achievements/cellphone_achieve_15.png"
     },
     "drowning-in-pussy": {
         "id": 16,
@@ -125,7 +125,7 @@
         "description": "Reach the end of Cassie's story.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_16.png"
+        "image": "achievements/cellphone_achieve_16.png"
     },
     "passing-grade": {
         "id": 17,
@@ -133,7 +133,7 @@
         "description": "Have an A+ on every course.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_17.png"
+        "image": "achievements/cellphone_achieve_17.png"
     },
     "smooth-mcgroove": {
         "id": 18,
@@ -141,7 +141,7 @@
         "description": "Don't fail at the talent show.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_18.png"
+        "image": "achievements/cellphone_achieve_18.png"
     },
     "overpowered": {
         "id": 19,
@@ -149,7 +149,7 @@
         "description": "Upgrade your stats to the max.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_19.png"
+        "image": "achievements/cellphone_achieve_19.png"
     },
     "slick-mofo": {
         "id": 20,
@@ -157,7 +157,7 @@
         "description": "Finish master Somrak's training.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_20.png"
+        "image": "achievements/cellphone_achieve_20.png"
     },
     "cedric-got-nothing": {
         "id": 21,
@@ -165,7 +165,7 @@
         "description": "Finish Kevin's training.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_21.png"
+        "image": "achievements/cellphone_achieve_21.png"
     },
     "eminem": {
         "id": 22,
@@ -173,7 +173,7 @@
         "description": "Beat Tyrone in a rap battle.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_22.png"
+        "image": "achievements/cellphone_achieve_22.png"
     },
     "gamer": {
         "id": 23,
@@ -181,7 +181,7 @@
         "description": "Play videogames!",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_23.png"
+        "image": "achievements/cellphone_achieve_23.png"
     },
     "computer-genius": {
         "id": 24,
@@ -189,7 +189,7 @@
         "description": "Perv on Jenny's PC.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_24.png"
+        "image": "achievements/cellphone_achieve_24.png"
     },
     "asstronomer": {
         "id": 25,
@@ -197,7 +197,7 @@
         "description": "Use the telescope.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_25.png"
+        "image": "achievements/cellphone_achieve_25.png"
     },
     "flies": {
         "id": 26,
@@ -205,7 +205,7 @@
         "description": "Look at dipterae.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_26.png"
+        "image": "achievements/cellphone_achieve_26.png"
     },
     "europe": {
         "id": 27,
@@ -213,7 +213,7 @@
         "description": "Look at an accurate map of Europe.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_27.png"
+        "image": "achievements/cellphone_achieve_27.png"
     },
     "inception": {
         "id": 28,
@@ -221,7 +221,7 @@
         "description": "Play Summertime Saga.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_28.png"
+        "image": "achievements/cellphone_achieve_28.png"
     },
     "ready-for-college": {
         "id": 29,
@@ -229,7 +229,7 @@
         "description": "Max out your savings account.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_29.png"
+        "image": "achievements/cellphone_achieve_29.png"
     },
     "rooster": {
         "id": 30,
@@ -237,7 +237,7 @@
         "description": "Check out Debbie's art.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_30.png"
+        "image": "achievements/cellphone_achieve_30.png"
     },
     "home-sweet-home": {
         "id": 31,
@@ -245,7 +245,7 @@
         "description": "Purchase a house.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_31.png"
+        "image": "achievements/cellphone_achieve_31.png"
     },
     "apple": {
         "id": 32,
@@ -253,7 +253,7 @@
         "description": "Find the microwaved apple.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_32.png"
+        "image": "achievements/cellphone_achieve_32.png"
     },
     "oldies-goodies": {
         "id": 33,
@@ -261,7 +261,7 @@
         "description": "Have sex with Roz.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_33.png"
+        "image": "achievements/cellphone_achieve_33.png"
     },
     "yoga-apprentice": {
         "id": 34,
@@ -269,7 +269,7 @@
         "description": "Help out a yogee with her lessons.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_34.png"
+        "image": "achievements/cellphone_achieve_34.png"
     },
     "whats-in-there": {
         "id": 35,
@@ -277,7 +277,7 @@
         "description": "Check out every student locker.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_35.png"
+        "image": "achievements/cellphone_achieve_35.png"
     },
     "solo-pleasure": {
         "id": 36,
@@ -285,7 +285,7 @@
         "description": "Go for some alone time...",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_36.png"
+        "image": "achievements/cellphone_achieve_36.png"
     },
     "rump-n-pump": {
         "id": 37,
@@ -293,7 +293,7 @@
         "description": "Witness two local celebrities having fun.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_37.png"
+        "image": "achievements/cellphone_achieve_37.png"
     },
     "gt500": {
         "id": 38,
@@ -301,7 +301,7 @@
         "description": "Get your dream car!",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_38.png"
+        "image": "achievements/cellphone_achieve_38.png"
     },
     "donuts": {
         "id": 39,
@@ -309,7 +309,7 @@
         "description": "Purchase a donut for harold.",
         "hidden": false,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_39.png"
+        "image": "achievements/cellphone_achieve_39.png"
     },
     "game-over": {
         "id": 40,
@@ -317,7 +317,7 @@
         "description": "Lose the game.",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_39.png"
+        "image": "achievements/cellphone_achieve_39.png"
     },
     "caught": {
         "id": 41,
@@ -325,7 +325,7 @@
         "description": "Witness a couple going at it.",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_01.png"
+        "image": "achievements/cellphone_achieve_01.png"
     },
     "zana": {
         "id": 42,
@@ -333,7 +333,7 @@
         "description": "Get stuck at the talent show.",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_01.png"
+        "image": "achievements/cellphone_achieve_01.png"
     },
     "treasure-hunt": {
         "id": 43,
@@ -341,7 +341,7 @@
         "description": "Find the golden lure.",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_01.png"
+        "image": "achievements/cellphone_achieve_01.png"
     },
     "dialogues": {
         "id": 44,
@@ -349,7 +349,7 @@
         "description": "How many dialogues were written by our patrons?",
         "hidden": true,
         "enabled": false,
-        "image": "buttons/cellphone_achieve_01.png"
+        "image": "achievements/cellphone_achieve_01.png"
     },
     "the-jackhammer": {
         "id": 45,
@@ -357,7 +357,7 @@
         "description": "Named your character \"The Jackhammer\"",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_41.png"
+        "image": "achievements/cellphone_achieve_41.png"
     },
     "more-girl-than-cow": {
         "id": 46,
@@ -365,7 +365,7 @@
         "description": "Reached the end of Daisy's story.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_40.png"
+        "image": "achievements/cellphone_achieve_40.png"
     },
     "hes-real": {
         "id": 47,
@@ -373,6 +373,30 @@
         "description": "Seen Santa Claus.",
         "hidden": true,
         "enabled": true,
-        "image": "buttons/cellphone_achieve_42.png"
+        "image": "achievements/cellphone_achieve_42.png"
+    },
+    "world-war-3": {
+        "id": 48,
+        "name": "World War III",
+        "description": "Triggered World War III.",
+        "hidden": true,
+        "enabled": true,
+        "image": "achievements/cellphone_achieve_43.png"
+    },
+    "happy-birthday": {
+        "id": 49,
+        "name": "Happy Birthday!",
+        "description": "Spent 365 days in game.",
+        "hidden": true,
+        "enabled": true,
+        "image": "achievements/cellphone_achieve_44.png"
+    },
+    "sound-investment": {
+        "id": 50,
+        "name": "Sound investment",
+        "description": "Earned over $50,000 in interests.",
+        "hidden": true,
+        "enabled": true,
+        "image": "achievements/cellphone_achieve_45.png"
     }
 }

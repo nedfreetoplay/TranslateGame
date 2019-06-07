@@ -1,4 +1,4 @@
-screen ui:
+screen ui():
     if not game.ui_locked:
         $ suffix = ""
         if player.location not in Location.get_first_children() and M_player.get_state() != S_player_start or game.timer.game_day() == 0:
@@ -20,11 +20,11 @@ screen ui:
                 hotspot (16, 5, 71, 71) action [Function(player.location.hide_screen), Jump("map_dialogue")]
             hotspot (801, 5, 51, 68) action [Show("cellphone"), Play("audio", "audio/sfx_phone_notification.ogg")]
             if game.new_message:
-                add "buttons/cellphone_app_alert.png" pos 835,5
+                add "cellphone/cellphone_app_alert.png" pos 835,5
             elif game.new_achievements:
-                add "buttons/cellphone_achieve_alert.png" pos 835,5
+                add "cellphone/cellphone_achieve_alert.png" pos 835,5
             hotspot (867, 5, 60, 71) action If(renpy.get_screen("backpack"), [Hide("backpack"), Play("audio", "audio/sfx_phone_notification.ogg")], [Show("backpack"), Play("audio", "audio/sfx_backpack_open.ogg")])
-            hotspot (946, 5, 68, 70) action ShowMenu("navigation")
+            hotspot (946, 5, 68, 70) action ShowMenu("game_menu")
             if not suffix:
                 hotspot (503, 44, 31, 25) action [Function(game.timer.tick), Jump("game_main")]
 
@@ -37,15 +37,14 @@ screen ui:
             hotspot (16, 5, 71, 71) action NullAction()
             hotspot (801, 5, 51, 68) action [Show("cellphone"), Play("audio", "audio/sfx_phone_notification.ogg")]
             if game.new_message:
-                add "buttons/cellphone_app_alert.png" pos 835,5
+                add "cellphone/cellphone_app_alert.png" pos 835,5
             elif game.new_achievements:
-                add "buttons/cellphone_achieve_alert.png" pos 835,5
+                add "cellphone/cellphone_achieve_alert.png" pos 835,5
             hotspot (867, 5, 60, 71) action If(renpy.get_screen("backpack"), [Hide("backpack"), Play("audio", "audio/sfx_phone_notification.ogg")], [Show("backpack"), Play("audio", "audio/sfx_backpack_open.ogg")])
-            hotspot (946, 5, 68, 70) action ShowMenu("navigation")
+            hotspot (946, 5, 68, 70) action ShowMenu("game_menu")
 
-    $ what_location = store.locations_rus.get(player.location.name)
     text "{b}[player.inventory.money]{/b}" xpos 765 ypos 16 xalign 1.0
-    text "{b}[what_location]{/b}" xpos 105 ypos 15 xalign 0.0
+    text "{b}[player.location.display_name]{/b}" xpos 105 ypos 15 xalign 0.0
     if game.timer.is_morning():
         add "buttons/ui_day_cycle_bar.png" pos 444,29
         add "buttons/ui_day_cycle_bar.png" pos 499,29
@@ -57,4 +56,6 @@ screen ui:
         add "buttons/ui_day_cycle_bar.png" pos 554,29
     $ Day = game.timer.dayOfWeek(full=True)
     text "{b}[Day]{/b}" xpos 105 ypos 45 xalign 0.0
+    if config.developer:
+        key "shift_K_w" action Show("debug_menu", None, "general")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

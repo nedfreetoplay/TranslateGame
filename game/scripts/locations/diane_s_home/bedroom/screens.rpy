@@ -1,4 +1,6 @@
-screen dianes_bedroom:
+screen dianes_bedroom():
+    use mods_screens_hook("dianes_bedroom")
+
     add game.timer.image("backgrounds/location_diane_bedroom_day{}.jpg")
 
     if False:

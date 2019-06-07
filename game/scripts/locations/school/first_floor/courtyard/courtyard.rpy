@@ -13,8 +13,6 @@ label gym_dialogue:
     elif M_bridget.is_state(S_bridget_intro):
         call expression game.dialog_select("courtyard_bridget_intro")
         $ shower_door_count = 1
-        if quest02 not in completed_quests:
-            $ quest_list.append(quest02)
         $ Machine.trigger(T_bridget_workout)
 
     elif player.location.is_here(M_bridget):

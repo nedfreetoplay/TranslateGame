@@ -1,4 +1,6 @@
-screen trailer_park:
+screen trailer_park():
+    use mods_screens_hook("trailer_park")
+
     add L_trailerpark.background
 
     imagebutton:

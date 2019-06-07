@@ -39,9 +39,9 @@ init python:
             if self.speed == 0 and self.is_spinning:
                 self.delay = 1
             
-            instructions_r = renpy.render(Text("Вращайте колесо зачатия!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(Text("Spin the wheel of conception!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
-            render.blit(instructions_r, ((512 - (text_width / 2)),20))
+            render.blit(instructions_r, ((512 - (text_width / 2)), 24))
             percentage_r = renpy.render(Text("{}%".format(self.pregnancy_chance), style = "style_pregnancy_percentage"), width, height, st, at)
             text_width, text_height = percentage_r.get_size()
             render.blit(percentage_r, ((512 - (text_width / 2)),(384-(text_height/2))))

@@ -49,6 +49,9 @@ init python:
         
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Select the correct item that matches the word!", style = "style_instructions"), width, height, st, at)
+            text_width, text_height = instructions_r.get_size()
+            render.blit(instructions_r, ((512 - (text_width / 2)),22))
             for item in self._items_on_page:
                 if item.should_blit:
                     item_r = renpy.render(item.displayable, width, height, st, at)
@@ -69,6 +72,6 @@ init python:
                             self.correct_answers_count += 1
                         self._advance_page()
 
-screen french_quiz:
+screen french_quiz():
     add FrenchQuiz()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,5 +1,5 @@
-screen MC_computer:
-    if MC_comp_locked:
+screen MC_computer():
+    if M_player.get("computer locked"):
         add game.timer.image("backgrounds/location_computer_player_01{}.jpg")
         add Input(size = 20, color = "#5d9aff", default = "", changed = MC_comp, length = 12, xpos = 425, ypos = 422, allow = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
         key "K_RETURN" action Jump("MC_pass_check")
@@ -51,12 +51,12 @@ screen MC_computer:
         imagebutton:
             focus_mask True
             pos (105,470)
-            idle "buttons/computer_icon_04.png"
-            hover HoverImage("buttons/computer_icon_04.png")
+            idle "buttons/computer_icon_24.png"
+            hover HoverImage("buttons/computer_icon_24.png")
             action If(
-                not connected,
+                not M_jenny.get("hacked pc"),
                 [Hide("MC_computer"), Jump("webcam_dialogue")],
-                [Show("MC_webcam")]
+                [Show("sis_computer")]
             )
 
         imagebutton:
@@ -80,7 +80,7 @@ screen MC_computer:
             hover HoverImage("buttons/computer_icon_23.png")
             action Hide("MC_computer"), Jump("egay_search_dialogue")
 
-screen summertime_mc:
+screen summertime_mc():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -98,7 +98,7 @@ screen summertime_mc:
         hover HoverImage("buttons/computer_button_03.png")
         action Hide("summertime_mc")
 
-screen summertime_mc_1:
+screen summertime_mc_1():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -116,7 +116,7 @@ screen summertime_mc_1:
         hover HoverImage("buttons/computer_button_03.png")
         action Hide("summertime_mc_1")
 
-screen summertime_mc_2:
+screen summertime_mc_2():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -134,7 +134,7 @@ screen summertime_mc_2:
         hover HoverImage("buttons/computer_button_03.png")
         action Hide("summertime_mc_2")
 
-screen summertime_error_mc:
+screen summertime_error_mc():
     $ A_inception.unlock()
     imagebutton:
         idle "backgrounds/menu_ground.png"
@@ -172,7 +172,7 @@ screen egay(state):
             hotspot (206,397,192,41) background "buttons/computer_window_14.png" action If(player.has_money(300),
                 [Function(player.spend_money, 300), Function(erik_orcette.finish),
                   Hide("MC_computer"), Jump("egay_purchased_dialogue")],
-                [Show("popup", Image = "boxes/popup_shopping_fail01.png")]
+                [Show('popup', None, "boxes/popup_shopping_fail01.png")]
             )
 
     elif state == "Purchased":
@@ -185,7 +185,7 @@ screen egay(state):
         hover HoverImage("buttons/computer_button_03.png")
         action Hide("egay")
 
-screen MC_recycle:
+screen MC_recycle():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -220,7 +220,7 @@ screen MC_recycle:
         hover HoverImage("buttons/computer_icon_19.png")
         action NullAction()
 
-screen MC_webcam:
+screen MC_webcam():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -259,7 +259,7 @@ screen MC_webcam:
         hover HoverImage("buttons/computer_button_03.png")
         action Hide("MC_webcam")
 
-screen MC_family:
+screen MC_family():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action NullAction()
@@ -296,8 +296,8 @@ screen MC_picture(number):
     elif number == 2:
         add "buttons/computer_pic_07.png" pos 220,150
 
-screen camshow_options:
-    if not store._in_replay == None or not M_jenny.finished_state(S_jenny_prepare_stream_tier_4):
+screen camshow_options():
+    if not store._in_replay == None:
         imagebutton:
             focus_mask True
             pos (250,700)

@@ -1,4 +1,6 @@
-screen roxxys_locker:
+screen roxxys_locker():
+    use mods_screens_hook("roxxys_locker")
+
     add "roxxy_locker"
 
     imagebutton:
@@ -8,7 +10,9 @@ screen roxxys_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("roxxys_locker"), Jump("left_hall_dialogue")
 
-screen judiths_locker:
+screen judiths_locker():
+    use mods_screens_hook("judiths_locker")
+
     add "judith_locker"
 
     if not player.has_picked_up_item("judith_glasses") and M_okita.is_state(S_okita_picture_taken):
@@ -34,7 +38,9 @@ screen judiths_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("judiths_locker"), Jump("left_hall_dialogue")
 
-screen eves_locker:
+screen eves_locker():
+    use mods_screens_hook("eves_locker")
+
     add "eve_locker"
 
     if M_ross.is_set("talked with chad") and not player.has_picked_up_item("eve_drawing"):
@@ -52,7 +58,9 @@ screen eves_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("eves_locker"), Jump("right_hall_dialogue")
 
-screen mias_locker:
+screen mias_locker():
+    use mods_screens_hook("mias_locker")
+
     add "mia_locker"
 
     imagebutton:
@@ -62,7 +70,9 @@ screen mias_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("mias_locker"), Jump("right_hall_dialogue")
 
-screen eriks_locker:
+screen eriks_locker():
+    use mods_screens_hook("eriks_locker")
+
     add game.timer.image("erik_locker{}")
 
     imagebutton:
@@ -72,7 +82,9 @@ screen eriks_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("eriks_locker"), Jump("right_hall_dialogue")
 
-screen rondas_locker:
+screen rondas_locker():
+    use mods_screens_hook("rondas_locker")
+
     add "ronda_locker"
 
     imagebutton:
@@ -82,7 +94,9 @@ screen rondas_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("rondas_locker"), Jump("right_hall_dialogue")
 
-screen dexters_locker:
+screen dexters_locker():
+    use mods_screens_hook("dexters_locker")
+
     add "dexter_locker"
 
     if M_bissette.is_set("dexters book search"):
@@ -100,7 +114,9 @@ screen dexters_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("dexters_locker"), Jump("right_hall_dialogue")
 
-screen kevins_locker:
+screen kevins_locker():
+    use mods_screens_hook("kevins_locker")
+
     add "kevin_locker"
 
     imagebutton:
@@ -110,7 +126,9 @@ screen kevins_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("kevins_locker"), Jump("right_hall_dialogue")
 
-screen annies_locker:
+screen annies_locker():
+    use mods_screens_hook("annies_locker")
+
     add "annie_locker"
 
     imagebutton:

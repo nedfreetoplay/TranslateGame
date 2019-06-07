@@ -1,20 +1,39 @@
 init python:
     class Note():
-        def __init__(self, y_pos, displayable, speed):
+        def __init__(self, y_pos, displayable_str, speed):
             self.y = y_pos 
             self.x = 1024 
             self._SPEED = speed 
             self._BAR_X = 206 
-            self.displayable = displayable 
+            self.displayable_str = displayable_str 
             self._WIDTH = 140 
             self._timer = clock() 
+            self.format = ""
+            self.wrong = None
+        
         def move(self): 
             if (clock() - self._timer)*100 >= 1:
                 self._timer = clock()
                 self.x -= self._SPEED
             return self.x > 0 
+        
         def hitbox(self, event_y): 
             return (self.y == event_y) and (self.x+self._WIDTH >= self._BAR_X and self._BAR_X >= self.x)
+        
+        @property
+        def displayable(self):
+            return renpy.displayable(self.displayable_str.format(self.format))
+        
+        @property
+        def win(self):
+            self.format = "_win"
+            self.wrong = False
+        
+        @property
+        def fail(self):
+            self.format = "_fail"
+            self.wrong = True
+
 
     class GuitarHero(renpy.Displayable):
         def __init__(self, id_, win_label, fail_label, **properties):
@@ -29,8 +48,8 @@ init python:
                                ) 
             self._background = self._background[id_]
             self._bar = renpy.displayable("buttons/music_minigame_bar_highlight.png")
-            _notes = ( renpy.displayable("buttons/music_minigame_note_01.png"),
-                            renpy.displayable("buttons/music_minigame_note_02.png")
+            _notes = ( "buttons/music_minigame_note_01{}.png",
+                       "buttons/music_minigame_note_02{}.png"
                           ) 
             
             self._start_time = clock() 
@@ -50,6 +69,9 @@ init python:
         
         def render(self, width, height, st, at):
             render = renpy.render(self._background, width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Hit the appropriate key when the note crosses the bar!", style = "style_instructions"), width, height, st, at)
+            text_width, text_height = instructions_r.get_size()
+            render.blit(instructions_r, ((512 - (text_width / 2)),22))
             bar_r = renpy.render(self._bar, width, height, st, at)
             if (clock() - self._blit_bar_start_timer)*100 >= 30:
                 self._blit_bar = False
@@ -65,9 +87,14 @@ init python:
                     renpy.jump(self._win_label)
             if self._blit_bar:
                 render.blit(bar_r, (196, 104))
+            
+            text_r = renpy.render(FilteredText("Failed Notes: {}".format(self._counter_failed_notes), style="style_instructions"), width, height, st, at)
+            render.blit(text_r, (0,0))
+            
             for note in self._notes_to_blit:
-                if not note.move(): 
+                if not note.move() and note.wrong: 
                     self._counter_failed_notes += 1
+                    note.fail
                     renpy.music.play("audio/sfx_missed_chord{}.ogg".format(random.randint(1,2)), "sound")
                     self._notes_to_blit.remove(note)
                 note_r = renpy.render(note.displayable, width, height, st, at)
@@ -89,12 +116,22 @@ init python:
         def _hit_note(self, note_y): 
             self._blit_bar = True
             self._blit_bar_start_timer = clock()
-            for note in self._notes_to_blit:
-                if note.hitbox(note_y):
-                    self._notes_to_blit.remove(note)
-                else:
-                    self._counter_failed_notes += 1
-                    renpy.music.play("audio/sfx_missed_chord{}.ogg".format(random.randint(1,2)), "sound")
+            notes = [note for note in self._notes_to_blit if note.hitbox(note_y)]
+            if notes:
+                for note in notes:
+                    note.win
+            else:
+                self._counter_failed_notes += 1
+                fnotes = [n for n in self._notes_to_blit if n.y == note_y]
+                xmin = 9999
+                note = None
+                for fn in fnotes:
+                    if fn.x <= xmin:
+                        xmin = fn.x
+                        note = fn
+                if note is not None:
+                    note.fail
+                renpy.music.play("audio/sfx_missed_chord{}.ogg".format(random.randint(1,2)), "sound")
             pass
         
         def event(self, ev, x, y, st):
@@ -123,6 +160,6 @@ init python:
 screen guitar_hero(guitar_hero_bg, guitar_hero_win_label, guitar_hero_fail_label):
     add GuitarHero(guitar_hero_bg, guitar_hero_win_label, guitar_hero_fail_label)
 
-screen guitar_hero_test:
+screen guitar_hero_test():
     add GuitarHero(0, "guitar_hero_minigame_karaoke_pass", "guitar_hero_minigame_karaoke_fail")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

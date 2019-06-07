@@ -1,4 +1,4 @@
-screen diane_cucumber_options:
+screen diane_cucumber_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"
@@ -32,7 +32,7 @@ screen diane_cucumber_options:
             xpos 450
             ypos 735
 
-screen diane_boobjob_options:
+screen diane_boobjob_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"
@@ -67,7 +67,7 @@ screen diane_boobjob_options:
             xpos 450
             ypos 735
 
-screen diane_sex_breed_options:
+screen diane_sex_breed_options():
 
     imagebutton:
         pos (250,700)
@@ -108,7 +108,7 @@ screen diane_sex_breed_options:
             xpos 450
             ypos 735
 
-screen diane_cum_breed_options:
+screen diane_cum_breed_options():
 
     imagebutton:
         pos (250,700)
@@ -124,7 +124,7 @@ screen diane_cum_breed_options:
         hover HoverImage("buttons/diane_stage01_03.png")
         action Hide("diane_cum_breed_options"), Jump("diane_sex_breed_cum_out")
 
-screen diane_debbie_sex_options:
+screen diane_debbie_sex_options():
     imagebutton:
         pos (170,700)
         focus_mask True

@@ -9,13 +9,13 @@ label right_tombstone:
     $ game.main()
 
 label right_tombstone_aqua_graveyard_search:
-    player_name "( Имя на этой надгробной плите - Бен Довер! )"
-    player_name "( Должно быть единственный. )"
-    player_name "( Но теперь, когда я нашел его, я не знаю, что я должен искать дальше... )"
-    player_name "Хмм..."
-    player_name "( Может быть, где-то есть {b}подсказка{/b}? )"
-    player_name "( Эта гравировка выделяется... )"
-    player_name "( Может, мне стоит поискать большой {b}колокол{/b} где-нибудь в городе? )"
+    player_name "( The name on this tomb stone is Ben Dover! )"
+    player_name "( This has to be the one. )"
+    player_name "( But now that I've found it, I'm not sure what I'm supposed to be looking for... )"
+    player_name "Hmm..."
+    player_name "( Maybe there's a {b}clue{/b} somewhere? )"
+    player_name "( This engraving stands out... )"
+    player_name "( Maybe I should look for a large {b}bell{/b} somewhere in town? )"
     return
 
 label stray_cat:
@@ -36,7 +36,7 @@ label stray_cat:
         call expression game.dialog_select("stray_cat_have_food_pre")
         $ player.remove_item("cat_food")
         menu stray_cat_take_home:
-            "Взять домой.":
+            "Take her home.":
                 call expression game.dialog_select("stray_cat_have_food_take_her_pre")
                 call screen cat_name_input
                 if cat_name.strip() == "":
@@ -44,7 +44,7 @@ label stray_cat:
                 $ cat = Character("[cat_name]", color = "#c87efe")
                 call expression game.dialog_select("stray_cat_have_food_take_her_after")
                 $ M_player.set("pet cat", True)
-            "Оставить.":
+            "Leave her here.":
 
                 call expression game.dialog_select("stray_cat_have_food_leave_her")
 
@@ -55,78 +55,78 @@ label stray_cat:
 
 label stray_cat_first_pre:
     show player 11 at left with dissolve
-    cat "Мяу"
+    cat "Meow"
     show player 10
-    player_name "Ух, привет?"
+    player_name "Uhh, Hello?"
     show player 11
-    cat "Мяу"
+    cat "Meow"
     show player 10
-    player_name "Откуда доносится этот звук?"
-    cat "Мууууууурррррр!"
+    player_name "Where is that sound coming from?"
+    cat "Groooour!"
     show player 11
     show cat 3 at Position(xpos=0.57, ypos=0.77) with dissolve
     pause
     show player 1
     pause
     show player 2
-    player_name "Ааа."
-    player_name "Ну привет малыш."
+    player_name "Aww."
+    player_name "Well hey there little guy."
     show player 1
     show cat 4
-    cat "Мммууурррр."
+    cat "Brrrep"
     show player 2
     show cat 3
     player_name "What are you doing out here all by yourself?"
     player_name "Are you lost?"
     show player 1
     show cat 4
-    cat "Мммууурррр."
+    cat "Brrrep"
     show player 2
     show cat 3
-    player_name "Бедняжка."
-    player_name "Я не вижу ошейника."
+    player_name "Poor little thing."
+    player_name "I don't see a collar."
     show cat 3
-    player_name "Наверно ничей..."
-    player_name "Где твой дом, малыш?"
+    player_name "Must be a stray..."
+    player_name "Where's your home boy?"
     show player 1
     show cat 4
-    cat "Мммууурррр!"
+    cat "Groooour!"
     show player 11
     show cat 3
     pause
     show player 10
-    player_name "Ну в чем дело?"
+    player_name "Well what's the matter?"
     show player 11
     show cat 4
-    cat "Мммууурррр!"
+    cat "Groooour!"
     show player 30
     show cat 3
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 2
-    player_name "ОХ, Я понял!"
-    player_name "Ты - кошечка, правда?!"
+    player_name "OH, I get it!"
+    player_name "You're a little lady, aren't you?!"
     show player 1
     show cat 4
-    cat "Мммууурррр."
+    cat "Brrrep"
     show cat 5 with dissolve
-    cat "Мммууурррр."
+    cat "Prrrr"
     show player 2
-    player_name "Ты выглядишь голодной."
-    player_name "Хочешь кушать малышка?"
+    player_name "You look hungry."
+    player_name "Are you hungry girl?"
     show player 1
     show cat 4
-    cat "Мяу."
+    cat "Meow"
     show player 2
     show cat 3
     return
 
 label stray_cat_first_after:
-    player_name "Хехе, хорошо. Может быть я смогу что-нибудь найти для тебя."
+    player_name "Hehe, alright. Well maybe I can find something for you."
     show player 4
     show cat 3
-    player_name "( Хмм. )"
-    player_name "( Я бы хотел бы дать ей что-нибудь поесть. )"
-    player_name "( Возможно в Consum-r продают что-нибудь. )"
+    player_name "(Hmm.)"
+    player_name "(I should see about getting her something to eat.)"
+    player_name "(I bet Consum-r has something.)"
     return
 
 label stray_cat_no_food:
@@ -134,23 +134,23 @@ label stray_cat_no_food:
     show cat 3 at Position(xpos=0.57, ypos=0.77) with dissolve
     pause
     show cat 4
-    cat "Мяу."
+    cat "Meow"
     show player 2
     show cat 3
-    player_name "Ааа... До сих пор голодна?"
+    player_name "Aww... Still hungry, huh?"
     show player 1
     show cat 4
-    cat "Мур-мяю."
+    cat "Brrrep"
     show player 2
     show cat 5
-    player_name "Ты просто симпатяшка!"
-    player_name "Я попробую найти тебе еду, хорошо?"
+    player_name "You're just so cute!"
+    player_name "I'll try to find you something to eat, okay?"
     show player 1
     show cat 4
-    cat "Мрррррр."
+    cat "Prrrr"
     show player 2
     show cat 5
-    player_name "Подожди!"
+    player_name "You just hold on!"
     return
 
 label stray_cat_have_food_pre:
@@ -158,28 +158,28 @@ label stray_cat_have_food_pre:
     show cat 3 at Position(xpos=0.57, ypos=0.77) with dissolve
     pause
     show cat 4
-    cat "Мяу."
+    cat "Meow"
     show player 2
     show cat 3
-    player_name "Привет."
+    player_name "Hello again little one."
     show player 1
     show cat 4
-    cat "Мяу."
+    cat "Meow"
     show player 2
     show cat 3
     label feed_cat:
-        player_name "Угадай, что у меня есть для тебя?"
+        player_name "Guess what I've got for you?"
         show player 239_240
         pause
         hide player with dissolve
         show cplayer 1 at left with dissolve
         show cat 4
-        cat "Ммррррр."
+        cat "Brrrep"
         show cplayer 2
         show cat 3
-        player_name "Вот именно! Я принес тебе что-то вкусненькое!"
+        player_name "That's right! I brought you something yummy!"
         show cat 4
-        cat "Мяу."
+        cat "Meow"
         hide cat with dissolve
         show cat 6 at Position(xpos=0.578, ypos=0.77) with dissolve
         pause
@@ -194,48 +194,48 @@ label stray_cat_have_food_pre:
         show cat 8 at left with dissolve
         pause
         show cat 9
-        cat "Пррррр."
+        cat "Prrrr"
         show cat 10
-        player_name "Хехе, точно."
-        player_name "Ням ням для киски!"
+        player_name "Hehe, that's right."
+        player_name "Nom noms for Kitty!"
         show cat 9
-        cat "Мурмяу."
+        cat "Brrrep"
         show cat 8
 
         scene black with fade
         scene location_church_graveyard_closeup with fade
 
         show cat 17 at left
-        player_name "Вау, ты действительно голодна, не так ли?"
+        player_name "Wow, you really were hungry, weren't you?"
         show cat 18
-        cat "Мууууууур!"
+        cat "Buuuuuurp!"
         show cat 17
         player_name "..."
-        player_name "Ха, я рад, что тебе понравилось..."
+        player_name "Hah, well I'm glad you enjoyed that..."
         hide cplayer with dissolve
         show player 2 at left
         show cat 3 at Position(xpos=0.57, ypos=0.77)
         with dissolve
-        player_name "Теперь стало лучше, не так ли, девочка?"
+        player_name "Now that's better isn't it girl?"
         show player 1
         show cat 4
-        cat "Мрррр."
+        cat "Brrrep"
         show player 2
         show cat 5
-        player_name "Ты такая милая."
+        player_name "You're so sweet."
         show player 4
-        player_name "( Хмм... )"
-        player_name "( Может, мне стоит забрать тебя домой. )"
-        player_name "( Не думаю, что {b}[deb_name]{/b} будет против... )"
+        player_name "( Hmm... )"
+        player_name "( Maybe I should take you home with me. )"
+        player_name "( I don't think {b}[deb_name]{/b} would mind... )"
     return
 
 label stray_cat_have_food_take_her_pre:
     show player 2
-    player_name "Что ты сказала девочка?"
-    player_name "Хочешь пойти домой ко мне?"
+    player_name "What do you say girl?"
+    player_name "You wanna come home with me?"
     show player 1
     show cat 4
-    cat "Мрррр!"
+    cat "Brrrep!"
     hide cat with dissolve
     show cat 6 at Position(xpos=0.578, ypos=0.77) with dissolve
     pause
@@ -250,30 +250,30 @@ label stray_cat_have_food_take_her_pre:
     show cat 16
     pause
     show cat 14
-    player_name "Хехе, ааа..."
+    player_name "Hehe, aww..."
     show cat 15
     pause
     show cat 14
-    player_name "Буду считать, что это 'да'!"
+    player_name "I'll take that as a yes!"
     show cat 12
-    cat "Мррррр"
+    cat "Prrrr"
     show cat 14
-    player_name "Тебе понадобится имя, если ты поедешь домой со мной..."
+    player_name "Well you're gonna need a name if you're coming home with me..."
     return
 
 label stray_cat_have_food_take_her_after:
-    player_name "Как насчет... [cat]?"
-    player_name "Тебе нравится?"
+    player_name "How about... [cat]?"
+    player_name "You like that?"
     show cat 12
-    cat "Мяу"
+    cat "Meow"
     show cat 14
-    player_name "Хехе, хорошо. Тогда [cat]!"
+    player_name "heh, alright. [cat] it is then!"
     show cat 15
-    cat "Мрррр"
+    cat "Prrrr"
     show cat 16
     pause
     show cat 14
-    player_name "Хорошо [cat], Давай пойдем домой!"
+    player_name "C'mon [cat], Let's get you home!"
     show popup_cat at truecenter with dissolve
     pause
     hide popup_cat with dissolve
@@ -282,23 +282,23 @@ label stray_cat_have_food_take_her_after:
 label stray_cat_have_food_leave_her:
     show player 10 at left
     show cat 5
-    player_name "Хмм, извени малышка."
-    player_name "Я не думаю, что {b}[deb_name]{/b} будет рада, если я приведу тебя домой."
+    player_name "Hmm, sorry girl."
+    player_name "I don't think {b}[deb_name]{/b} would be very happy if I brought you home."
     show player 11
     show cat 4
-    cat "Мяу"
+    cat "Meow"
     show player 10
     show cat 5
-    player_name "По крайней мере, я принес тебе поесть..."
+    player_name "At least I got you some food..."
     show player 11
     show cat 4
-    cat "Мррррр."
+    cat "Brrrep"
     show player 10
     show cat 5
-    player_name "Ты хорошая девочка."
-    player_name "Оставайся в безопасности, хорошо?"
+    player_name "You're a good girl."
+    player_name "Stay safe, okay?"
     show player 11
     show cat 4
-    cat "Мяу."
+    cat "Meow"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

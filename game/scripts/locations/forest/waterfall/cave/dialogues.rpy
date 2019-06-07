@@ -2,9 +2,9 @@ label cave_okita_get_ingredients:
     scene location_forest_cave_night_blur
     show player 10
     with dissolve
-    player_name "Хмм, похоже что тут чьё-то гнездо!"
-    player_name "Надо найти {b}цветок{/b} и уходить пока гнездо пустое."
-    player_name "Окита говорила, что они цветут только {b}ночью{/b}..."
+    player_name "Hmm, it looks like something is nesting in here!"
+    player_name "I'd better find that {b}flower{/b} and get out before whatever it is comes home."
+    player_name "Okita said they only bloom {b}at night{/b}..."
     return
 
 label take_caveflower:
@@ -20,7 +20,7 @@ label take_caveflower_dialogue:
     scene location_forest_cave_night_blur
     show player 559
     with dissolve
-    player_name "Они... Светятся!"
-    player_name "Над собрать и отнести Оките."
+    player_name "It's... Glowing!"
+    player_name "I need to get this back to Okita."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

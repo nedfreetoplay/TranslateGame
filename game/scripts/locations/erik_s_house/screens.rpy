@@ -1,4 +1,6 @@
-screen eriks_house tag eriks_house:
+screen eriks_house() tag eriks_house:
+
+
     add game.timer.image("backgrounds/location_erik_house_day{}.jpg")
 
     if not game.timer.is_dark():
@@ -66,9 +68,9 @@ screen eriks_house tag eriks_house:
             pos (735,500)
             idle game.timer.image("objects/object_mailbox_erik02{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_erik02{}.png"))
-        action Hide("eriks_house"), Show("erik_mailbox")
+        action Hide("eriks_house"), Function(game.lock_ui), Show("eriks_mailbox")
 
-screen erik_mailbox:
+screen eriks_mailbox():
     if game.timer.is_dark():
         add "backgrounds/location_erik_mailbox_night.jpg"
     else:
@@ -76,7 +78,7 @@ screen erik_mailbox:
 
     imagebutton:
         idle "backgrounds/menu_ground.png"
-        action Hide("erik_mailbox"), Jump("erik_house")
+        action Hide('eriks_mailbox'), Function(game.unlock_ui), MoveTo(L_erikhouse)
 
     if game.mail["erik"] == "m_magazine":
         imagebutton:
@@ -84,7 +86,7 @@ screen erik_mailbox:
             pos (310,455)
             idle game.timer.image("objects/object_mailbox_item01{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item01{}.png"))
-            action Hide("erik_mailbox"), Jump("erik_mailbox")
+            action MoveTo(L_erikhouse_mailbox)
 
     elif game.mail["erik"] == "m_dad_letter":
         imagebutton:
@@ -92,7 +94,7 @@ screen erik_mailbox:
             pos (510,345)
             idle game.timer.image("objects/object_mailbox_item03{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item03{}.png"))
-            action Hide("erik_mailbox"), Jump("erik_mailbox")
+            action MoveTo(L_erikhouse_mailbox)
 
     elif game.mail["erik"] == "m_pizza_pamphlet":
         imagebutton:
@@ -100,7 +102,7 @@ screen erik_mailbox:
             pos (240,480)
             idle game.timer.image("objects/object_mailbox_item02{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item02{}.png"))
-            action Hide("erik_mailbox"), Jump("erik_mailbox")
+            action MoveTo(L_erikhouse_mailbox)
 
     elif game.mail["erik"] == "m_newspaper":
         imagebutton:
@@ -108,5 +110,5 @@ screen erik_mailbox:
             pos (250,575)
             idle game.timer.image("objects/object_mailbox_item05{}.png")
             hover HoverImage(game.timer.image("objects/object_mailbox_item05{}.png"))
-            action Hide("erik_mailbox"), Jump("erik_mailbox")
+            action MoveTo(L_erikhouse_mailbox)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

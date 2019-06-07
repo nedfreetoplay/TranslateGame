@@ -3,43 +3,55 @@
         "sender": "judith",
         "content_preview": "I'm in the washroom...",
         "content": "I'm in the washroom...\nIf you want to meet me...",
-        "image": "buttons/cellphone_text_judith01.png"
+        "image": "cellphone/cellphone_text_judith01.png"
     },
     "mia01": {
         "sender": "mia",
         "content_preview": "HELP!",
         "content": "HELP!",
-        "image": "buttons/cellphone_text_mia01.png"
+        "image": "cellphone/cellphone_text_mia01.png"
     },
     "mia02": {
         "sender": "mia",
         "content_preview": "We can't find {b}my dad{/b}...",
         "content": "We can't find {b}my dad{/b}...\nCan you come help us please?",
-        "image": "buttons/cellphone_text_mia01.png"
+        "image": "cellphone/cellphone_text_mia01.png"
     },
     "diane_pregnancy" : {
         "sender": "diane",
         "content_preview": "I need to speak with you urgently!",
         "content": "I think you did good work!\nCan you come see me ?",
-        "image": "buttons/cellphone_text_diane01.png"
+        "image": "cellphone/cellphone_text_diane01.png"
     },
     "diane_pregnancy_labor" : {
         "sender": "diane",
         "content_preview": "The baby is coming!",
         "content": "Meet me at the clinic!",
-        "image": "buttons/cellphone_text_diane01.png"
+        "image": "cellphone/cellphone_text_diane01.png"
     },
     "daisy_pregnancy" : {
         "sender": "diane",
         "content_preview": "I need to speak with you urgently!",
         "content": "It's about Daisy...\nCan you come see me ?",
-        "image": "buttons/cellphone_text_diane01.png"
+        "image": "cellphone/cellphone_text_diane01.png"
     },
     "daisy_pregnancy_labor" : {
         "sender": "diane",
         "content_preview": "{b}Daisy{/b} gave birth last night.",
         "content": "You should come and\nsee the baby!",
-        "image": "buttons/cellphone_text_diane01.png"
+        "image": "cellphone/cellphone_text_diane01.png"
+    },
+    "jenny_pregnancy" : {
+        "sender": "jenny",
+        "content_preview": "My room, NOW!",
+        "content": "My room, NOW!",
+        "image": "cellphone/cellphone_text_jenny01.png"
+    },
+    "jenny_pregnancy_labor" : {
+        "sender": "debbie",
+        "content_preview": "{b}[jen_name]{/b} went into labor last night, sweetie.",
+        "content": "{b}Come find us at the clinic{/b}\nwhen you wake up.",
+        "image": "cellphone/cellphone_text_debbie01.png"
     }
 }
 

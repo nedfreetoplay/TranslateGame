@@ -1,11 +1,11 @@
 label hill_first_visit:
     scene expression game.timer.image("hill{}_b")
     show player 32 with dissolve
-    player_name "Вау! Вот это вид!"
+    player_name "Wow! What a view!"
     show player 14 at Position(xpos = 444)
-    player_name "( Идеальное место, чтобы привести девушку на свидание... )"
+    player_name "( Perfect place to bring a girl on a date... )"
     show player 4 at Position(xpos = 450)
-    player_name "( ...Если бы у меня только была машина! )"
+    player_name "( ...If I only had a car! )"
     hide player with dissolve
     return
 
@@ -15,8 +15,8 @@ label hill_mia_find_harold:
     show player 31 with dissolve
     player_name "..."
     show player 32
-    player_name "( Я вижу полицейскую машину. )"
-    player_name "( Может это {b}Гарольд{/b}? )"
+    player_name "( I see a police car. )"
+    player_name "( Could it be {b}Harold{/b}? )"
     hide player with dissolve
     return
 
@@ -33,8 +33,8 @@ label hill_tree_no_scroll:
         show expression "objects/object_scroll_01.png" at Position(xalign = 0.45, yalign = 0.65)
     else:
         show expression "objects/object_scroll_01_night.png" at Position(xalign = 0.45, yalign = 0.65)
-    player_name "Что это такое? Какой-то старый свиток?"
-    player_name "Интересно, как долго он там был."
+    player_name "What's this? Some kind of old scroll?"
+    player_name "I wonder how long it's been hidden in there."
     call screen hill_tree
 
 label hill_tree_get_scroll:
@@ -52,8 +52,8 @@ label hill_dewitt_stick:
 label hill_dewitt_stick_dialogue:
     scene expression game.timer.image("hill{}_b")
     show player 14 with dissolve
-    player_name "Это дерево подойдет идеально!"
-    player_name "Я должен работать над созданием флейты в моем гараже."
+    player_name "This wood will do perfectly!"
+    player_name "I should work on making the flute in my garage."
     hide player with dissolve
     return
 
@@ -67,101 +67,101 @@ label hill_harolds_car_dialogue:
     show harold 28 at right
     show player 10 at left
     with dissolve
-    player_name "{b}Гарольд{/b}?!"
+    player_name "{b}Harold{/b}?!"
     show player 11
     show harold 19
-    harold "Привет... Что ты {b}*ик*{/b} делаешь здесь... Разве ты не должен быть в постели?"
+    harold "Hey... What are you {b}*Hic*{/b} doing here... Shouldn't you be in bed?"
     show harold 18
     show player 12
-    player_name "Эхх... Сейчас полдень, сэр."
+    player_name "Ehh... It's noon, sir."
     show player 11
     show harold 20
-    harold "О, точно. Это верно."
+    harold "Oh, right. That is correct."
     show harold 19
-    harold "Невожно, но..."
+    harold "Nevermind, then..."
     show harold 18
     show player 10
-    player_name "Вы в порядке, сэр?"
+    player_name "Are you okay, sir?"
     show player 5
     show harold 19
-    harold "Я думаю, что я {b}*ик*{/b} живой..."
-    harold "...Моя жена, кажется, прекрасно {b}*ик*{/b} справляется без меня... Так почему я не должен этого делать?!"
+    harold "I think I'll {b}*Hic*{/b} survive..."
+    harold "...My wife seems to be doing fine {b}*Hic*{/b} without me... So why shouldn't I?!"
     show harold 20
-    harold "Я могу о себе позаботиться {b}*ик*{/b}... Мне не нужна ничья помощь..."
+    harold "I can take care of myself {b}*Hic*{/b}... I don't need anyone's help..."
     show harold 19
-    harold "Подожди... Что ты опять спрашиваешь???"
+    harold "Wait... What were you asking me again???"
     show harold 18
     show player 11
     player_name "?!?"
     show player 12
-    player_name "Ну, {b}Мия{/b} и {b}Хелен{/b} не видели вас несколько дней... Они просто беспокоятся о вас..."
-    player_name "...И я сказал, что постараюсь выяснить, все ли с вами в порядке."
-    player_name "Даже ваши коллеги на работе волнуются."
+    player_name "Well, {b}Mia{/b} and {b}Helen{/b} haven't heard from you in days... They're just worried about you..."
+    player_name "...And I said I'd try and find out if you're okay."
+    player_name "Even your collegues at the station are worried."
     show player 10
-    player_name "Я думаю, что многие люди в вашей жизни заботятся о вас!"
+    player_name "I think a lot of people in your life DO care about you!"
     show player 5
     show harold 19
-    harold "Они?!"
-    harold "Я {b}*ик*{/b}, эээ... Стой, как ты меня нашел?!"
+    harold "They are?!"
+    harold "I {b}*Hic*{/b}, err... Wait, how did you find me?!"
     show harold 18
     show player 12
-    player_name "Я поспрашивал на вашей работе..."
-    player_name "...И я увидел старую фотографию вас и {b}Хелен{/b} на вашем столе."
-    player_name "Когда вы двое проводили здесь время."
+    player_name "I asked around at your office..."
+    player_name "...And I saw an old picture of you and {b}Helen{/b} on your desk."
+    player_name "Back when you two used to spend time here."
     show player 5
     show harold 27
     harold "..."
     show harold 28
-    harold "*вздыхая*"
+    harold "*Sigh*"
     show harold 20
-    harold "Я чувствую, что все было {b}*ик*{/b}... намного проще, когда-то..."
-    harold "Я был счастлив... и чувствовал себя самим собой, не притворяясь тем, кем я не являюсь, понимаешь?"
-    harold "Я даже себя больше не узнаю..."
+    harold "I feel like things were so much {b}*Hic*{/b}... simpler, back in the day..."
+    harold "I was happier... and felt like myself, not pretending to be someone I'm not, you know?"
+    harold "I don't even recognize myself anymore..."
     show harold 18
     show player 10
-    player_name "Почему нельзя все вернуть?"
+    player_name "Why can't you change back?"
     show player 5
     show harold 19
-    harold "Что {b}*ик*{/b}... ты имеешь в виду?"
+    harold "What {b}*Hic*{/b}... Do you mean?"
     show harold 18
     show player 10
-    player_name "Ты перестал быть собой... Может в этом и проблема!"
+    player_name "You stopped being yourself... Maybe that's the problem!"
     show player 5
     show harold 28
     harold "..."
     show harold 20
-    harold "Может ты прав..."
+    harold "Maybe you're right..."
     show harold 19
-    harold "...Но {b}Хелен{/b} тоже не такая, какой была раньше."
+    harold "...But {b}Helen{/b} is not the way she used to be, either."
     show harold 18
     show player 14
-    player_name "Я думаю, она тоже может измениться!"
-    player_name "Дайте ей хоть один шанс..."
+    player_name "I think she can change, too!"
+    player_name "Give her a chance..."
     show player 13
     show harold 19
-    harold "Должен сказать, вы проделали большую детективную работу, разыскивая меня..."
-    harold "...И я ценю, что ты заботишься о моей семье."
+    harold "I have to say, you did some great detective work finding me..."
+    harold "...And I appreciate you looking out for my family."
     show harold 18
     show player 10
-    player_name "Я просто хочу, чтобы вы снова были счастливы."
+    player_name "I just want you guys to be happy again."
     show player 5
     show harold 27
     harold "..."
     show harold 20
-    harold "Я должен {b}*ик*{/b} вернуться в участок и протрезветь..."
-    harold "...Потом я позвоню домой."
+    harold "I should {b}*Hic*{/b} head back to the station and sober up..."
+    harold "...Then I'll call the house."
     show harold 19
-    harold "Увидимся позже, малыш!"
+    harold "See ya later, kiddo!"
     show harold 18
     show player 36 with dissolve
-    player_name "Будьте осторожнее, {b}Гарольд{/b}!"
+    player_name "Take care, {b}Harold{/b}!"
     show player 13
     hide harold
     with dissolve
     pause
     show player 12
-    player_name "(Ну, это было... интересно...)"
-    player_name "( Я должна сказать {b}Мие{/b} что нашла его, и он в порядке... )"
+    player_name "( Well, that was... interesting... )"
+    player_name "( I should tell {b}Mia{/b} I found him and he's okay... )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

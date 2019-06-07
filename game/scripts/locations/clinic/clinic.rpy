@@ -6,5 +6,9 @@ label hospital_dialogue:
         call expression game.dialog_select("hospital_diane_seen_in_labor")
         $ M_diane.pregnancy.seen_in_labor = True
         $ player.go_to(L_hospital_room)
+    if M_jenny.pregnancy.stage == 5 and not M_jenny.pregnancy.seen_in_labor:
+        call expression game.dialog_select("hospital_jenny_seen_in_labor")
+        $ M_jenny.pregnancy.seen_in_labor = True
+        $ player.go_to(L_hospital_room)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

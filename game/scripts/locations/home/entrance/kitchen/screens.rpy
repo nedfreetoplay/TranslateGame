@@ -1,4 +1,6 @@
-screen kitchen:
+screen kitchen():
+    use mods_screens_hook("kitchen")
+
     if M_mom.is_set("revealing") or (M_mom.is_set("sleep together") and not M_mom.is_set("revealing")):
         $ mom_idle = "objects/character_debbie_02.png"
         $ mom_hover = HoverImage("objects/character_debbie_02.png")
@@ -38,7 +40,7 @@ screen kitchen:
                 action Hide("kitchen"), Function(renpy.call, "home_lock_check", "Mom", "mom_button_dialogue")
 
     if (M_diane.finished_state(S_diane_milk_production_increase) and game.timer.is_dark() and
-        (M_mom.is_state(S_mom_sleepover, S_mom_romance_movie, S_mom_romance_movie_two, S_mom_spy) or sister.in_progress(sis_couch01) or sister.started(sis_couch03) or M_mom.get("movie night"))):
+        (M_mom.is_state(S_mom_sleepover, S_mom_romance_movie, S_mom_romance_movie_two, S_mom_spy) or M_jenny.is_state(S_jenny_catch_her_jilling) or M_mom.get("movie night"))):
         imagebutton:
             focus_mask True
             pos (0, 0)
@@ -54,13 +56,13 @@ screen kitchen:
         hover HoverImage("boxes/auto_option_01.png")
         action Hide("kitchen"), Function(renpy.call, "home_lock_check", "Entrance", "home_entrance")
 
-screen deb_name_input:
+screen deb_name_input():
     add NameInputText("boxes/popup_name_debbie.png", deb_name, "b96dff")
     add Input(size = 24, color = "#b96dff", default = "", changed = debbie_name, length = 12, xpos = 313, ypos = 329, allow = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
     key "K_RETURN" action Return
     imagebutton idle "buttons/menu_skip_01.png" hover HoverImage("buttons/menu_skip_01.png") action Return pos 320,430
 
-screen mom_kitchen_fuck_options:
+screen mom_kitchen_fuck_options():
     imagebutton:
         focus_mask True
         pos (250,700)

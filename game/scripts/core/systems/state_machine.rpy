@@ -1,4 +1,4 @@
-init python:
+init -1 python:
     def orphaned_states():
         s_notin_m = []
         for st in store.states:
@@ -38,7 +38,6 @@ init python:
             m = m._name
             if m in store.temp_machines:
                 store.machines[m].outfit = store.temp_machines[m].outfit
-                store.machines[m].is_naked = store.temp_machines[m].is_naked
                 try:
                     store.machines[m].pregnancy = store.temp_pms[m]
                 except KeyError:
@@ -65,9 +64,9 @@ init python:
                                 if array_2d.name == store.locations["null"].name:
                                     store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations["null"]
                                 else:
-                                    store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations[array_2d.name.lower()]
+                                    store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations[array_2d.formatted_name]
                             elif array_2d != None:
-                                store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations[array_2d.name.lower()]
+                                store.machines[m]._default_locations[array_1d_index][array_2d_index] = store.locations[array_2d.formatted_name]
                             else:
                                 store.machines[m]._default_locations[array_1d_index][array_2d_index] = None
                 
@@ -80,9 +79,9 @@ init python:
                                     if array_3d.name == store.locations["null"].name:
                                         store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations["null"]
                                     else:
-                                        store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations[array_3d.name.lower()]
+                                        store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations[array_3d.formatted_name]
                                 elif array_3d != None:
-                                    store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations[array_3d.name.lower()]
+                                    store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = store.locations[array_3d.formatted_name]
                                 else:
                                     store.machines[m]._force_locations[array_1d_index][array_2d_index][array_3d_index] = None
                 
@@ -91,6 +90,9 @@ init python:
                 
                 if store.temp_machines[m]._location_condition:
                     store.machines[m]._location_condition = store.temp_machines[m]._location_condition
+                
+                if store.temp_machines[m]._vars:
+                    store.machines[m]._vars.update(copy(store.temp_machines[m]._vars))
         return
 
     def pregnant_machines():
@@ -112,7 +114,8 @@ init python:
             ['location', [machine, {"tod":tod, "place":place}]], set the forced location for the
                             machine to place (Moves the NPC). tod is 1-indexed (1=morning, 4=night)
             ['force', [machine, {"tod": list or int, "flag": 4-list or bool}]]
-                            Says if the location is forced at tod or sets force flags according to the 4-list provided
+                            Says if the location is forced at tod or sets force flags according to 
+                            the 4-list provided
             ['unforce', None/machine] unforce the locations for machine or the machine specified
             ['exec', callable], calls the callable (function or method)
             ['exec', [callable, *args]], calls the callable and pass in the args specified
@@ -121,14 +124,35 @@ init python:
                             executes the actions in actions_list_true
                             if condition_string evaluates to True, otherwise executes actions_list_false.
             ['action', [target_machine, action, target]] Executes the action on another machine.
-            ['setdefaultloc', [[Location, Location, Location, Location]]] Sets the default locations for the current machine.
+            ['setdefaultloc', [[Location, Location, Location, Location]]] Sets the default locations 
+                            for the current machine.
+            ['setoutfit', [location, outfit]] Sets the outfit for that location. Outfit may be either a string,
+                            or a 1x4,2x4,7x4 array of strings (similar to the locations)
+            ['setnaked', True/False] Sets the is_naked attribute of the current machine's outfit 
+                            manager to True/False
+            ['setdefaultoutfit', [outfit, {'tod':tod, 'dow':dow}]] Sets the current machine's default outfit. 
+                            tod and dow can be omitted. outfit is a required argument, can be a string 
+                            or a 1x4,2x4,7x4 matrix. If tod and dow are omitted, outfit cannot be a 
+                            matrix, but only a string. You can work around that by passing the
+                            {"tod":None, "dow":None} dict.
+            ['setinshower', machine/None] Sets the in_shower variable to None, or a given machine.
         """
         
         act = act.lower()
         if act == 'set':
-            machine.set(target,True)
+            if isinstance(target, list):
+                if len(target) != 2:
+                    raise FSMActionError("length of target list for action 'set' is not 2 on machine M_{}".format(machine._name))
+                target[0].set(target[1], True)
+            else:
+                machine.set(target,True)
         elif act=='clear':
-            machine.set(target,False)
+            if isinstance(target, list):
+                if len(target) != 2:
+                    raise FSMActionError("length of target list for action 'clear' is not 2 on machine M_{}".format(machine._name))
+                target[0].set(target[1], False)
+            else:
+                machine.set(target,False)
         elif act == 'toggle':
             if machine.is_set(target):
                 machine.set(target,False)
@@ -185,6 +209,7 @@ init python:
             if target is None:
                 machine.unforce()
             else:
+                print target
                 target.unforce(machine)
         elif act == 'priority':
             if isinstance(target, list):
@@ -223,7 +248,36 @@ init python:
             elif isinstance(target, list) and len(target) >= 2:
                 target[0].set_priority(target[1])
         elif act == "setoutfit":
-            machine.outfit = target
+            machine.outfit.bind_outfit_to_location(*target)
+        elif act == "setnaked":
+            machine.outfit.is_naked = target
+        elif act == "setdefaultoutfit":
+            if isinstance(target, list) or isinstance(target, tuple):
+                if len(target) == 1:
+                    machine.outfit.set_default_outfit_schedule(target[0])
+                elif len(target) == 2:
+                    machine.outfit.set_default_outfit_schedule(target[0], **target[1])
+                else:
+                    raise FSMActionError("List {} is expected to be of len 1 or 2".format(target))
+            elif isinstance(target, unicode) or isinstance(target, str):
+                machine.outfit.set_default_outfit_schedule(target)
+            elif isinstance(target, dict):
+                machine.outfit.set_default_outfit_schedule(**target)
+            else:
+                raise FSMActionError("target type {} is not supported for action 'setdefaultoutfit'".format(type(target)))
+        elif act == "setcannotleave":
+            if isinstance(target, Location):
+                Location.set_cannot_leave(target)
+            elif isinstance(target, list) or isinstance(target, tuple):
+                Location.set_cannot_leave(*target)
+        elif act == "setcanleave":
+            if isinstance(target, Location):
+                Location.set_can_leave(target)
+            elif isinstance(target, list) or isinstance(target, tuple):
+                Location.set_can_leave(*target)
+        elif act == "setinshower":
+            global game
+            game._in_shower = target
         else:
             raise FSMActionError("{} unknown action: {} on {}".format(machine._name, act,target))
 
@@ -302,6 +356,16 @@ init python:
             else:
                 self._actions[trigger] = []
         
+        def clear(self, cleardelay=False):
+            self._actions = {}
+            if cleardelay:
+                self.delay = 0
+            self._table = {}
+        
+        def add_delay(self, amount=1):
+            self.delay += amount
+            return self.delay
+        
         
         
         
@@ -338,8 +402,8 @@ init python:
             super(Machine,self).__init__()
             self._name = name.lower()
             self._actions = {}
-            text_filter = text_identity if config.say_menu_text_filter is None else config.say_menu_text_filter
-            self._desc = text_filter(description)
+            
+            self._desc = description
             if states:
                 self._states = states
             else:
@@ -352,8 +416,7 @@ init python:
             self._state = None
             self.initial_state = None
             
-            self.is_naked = False
-            self.outfit = "dressed"
+            self.outfit = OutfitManager(name)
             
             self.pregnancy = PregnancyManager(name)
             
@@ -376,29 +439,17 @@ init python:
         
         def __repr__(self):
             if self._state is None:
-                state = "NOT INITIALIZED"
+                state = "NOT INIT."
             else:
                 state = self._state._name
+            
             if self.forced:
-                return "{}@{} forced at {}. Progress : {}%".format(self._name, state, self.where, self.progress)
+                return "{}@{} forced at {}. ({}%)".format(self._name, state, self.where, self.progress)
             else:
-                return "{}@{} at {}. Progress : {}%".format(self._name, state, self.where, self.progress)
+                return "{}@{} at {}. ({}%)".format(self._name, state, self.where, self.progress)
         
         def __str__(self):
             return self._name.replace(" ", "_").strip("'").lower()
-        
-        def __getattr__(self, name):
-            if name == "pregnancy":
-                self.pregnancy = PregnancyManager(self._name)
-                return self.pregnancy
-            if name == "outfit":
-                self.outfit = "dressed"
-                return self.outfit
-            if name == "is_naked":
-                self.is_naked = False
-                return self.is_naked
-            else:
-                raise AttributeError("{} property not defined.".format(name))
         
         def copy(self):
             m = store.machines[self._name]
@@ -432,7 +483,6 @@ init python:
                 elif key == "triggers":
                     m.__dict__[key] = [store.triggers[v._name].copy() for v in value if v is not None]
                 elif key == "_vars":
-                    print "testing new save compat"
                     m._vars = {k:v for k, v in value.items()}
                 else:
                     m.__dict__[key] = copy(value)
@@ -458,10 +508,7 @@ init python:
         
         @property
         def get_naked_str(self):
-            if self.is_naked:
-                return "naked"
-            else:
-                return self.outfit
+            return self.outfit.get
         
         def image(self, format):
             if not re.search('\{}', format):
@@ -581,16 +628,19 @@ init python:
         def trigger(cls, trigger, noactions=False):
             if trigger not in cls._trigger_queue:
                 cls._trigger_queue.append(trigger)
-                cls._do_trigger(noactions)
+                return cls._do_trigger(noactions)
+            else:
+                return False
         
         @classmethod
         def _do_trigger(cls, noactions=False):
             
             if cls._running:
-                return
+                return False
             cls._running = True
+            machines_changed = []
             while len(cls._trigger_queue) > 0:
-                trigger = cls._trigger_queue[0]
+                trigger = cls._trigger_queue.pop()
                 
                 
                 
@@ -602,17 +652,15 @@ init python:
                 
                 for m in store.machines:
                     m = store.machines[m]
-                    
                     result = None
                     if m.get_state() is not None:
                         result = m.get_state().trigger(trigger, m, noactions)
                     if result is not None:
-                        
                         m._cleared_states[m._state] = m._state
-                        
                         m._state = result
-                cls._trigger_queue = cls._trigger_queue[1:]
+                        machines_changed.append(m)
             cls._running = False
+            return len(machines_changed)>0
         
         def add(self,*args):
             if len(args) != 0:
@@ -633,14 +681,26 @@ init python:
         def set(self,var,value):
             self._vars[var] = value
         
+        def max(self, *vars):
+            vars = [self.get(v) for v in vars]
+            return max(*vars)
+        
+        def min(self, *vars):
+            vars = [self.get(v) for v in vars]
+            return min(*vars)
+        
+        
         def toggle(self,flag):
             if self._vars[flag]:
                 self._vars[flag] = False
             else:
                 self._vars[flag] = True
         
-        def increment(self,var,amount):
+        def increment(self, var, amount=1):
             self._vars[var] += amount
+        
+        def decrement(self, var, amount=1):
+            self._vars[var] -= amount
         
         def get_state(self):
             return self._state
@@ -761,8 +821,9 @@ init python:
             global game
             _loc = None
             _loc_self = None
-            if self.pregnancy.character_bedridden and not self._name == "daisy":
-                return L_hospital_room
+            if self.pregnancy:
+                if self.pregnancy.where is not None:
+                    return self.pregnancy.where
             try:
                 for key in reversed(self._force_loc):
                     if not self._force_loc[key][game.timer._tod]:
@@ -786,6 +847,12 @@ init python:
                 if game.in_shower._name == self._name and (_loc in L_home.get_all_children() and (_loc_self is None)):
                     _loc = L_home_shower
             return _loc_self or _loc
+        
+        def where_is(self, *locations):
+            for loc in locations:
+                if loc.is_here(self):
+                    return True
+            return False
         
         @property
         def forced(self):
@@ -850,4 +917,7 @@ init python:
                     return (self._state in [s for s in states if s.delay==0])
             else:
                 return (self._state in [s for s in states if s.delay==0])
+        
+        def finished_inclusive(self, *states):
+            return (self.is_state(*states) or self.finished_state(*states))
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

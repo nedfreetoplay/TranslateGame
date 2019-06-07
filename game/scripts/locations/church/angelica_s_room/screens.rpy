@@ -1,4 +1,6 @@
-screen angelicas_room:
+screen angelicas_room():
+    use mods_screens_hook("angelicas_room")
+
     add game.timer.image("backgrounds/location_church_nun_day{}.jpg")
 
     if M_mia.get_state() == S_mia_church_plan and game.timer.is_weekend() and game.timer.is_morning():
@@ -37,7 +39,7 @@ screen angelicas_room:
         hover HoverImage("boxes/door11_option_01.png")
         action Hide("angelicas_room"), Jump("church_stairs_dialogue")
 
-screen final_sacrament_watch_angelica_options:
+screen final_sacrament_watch_angelica_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -68,7 +70,7 @@ screen final_sacrament_watch_angelica_options:
             hover HoverImage("buttons/speed_01.png")
             action Hide("final_sacrament_watch_angelica_options"), Function(M_helen.set, "sex speed", M_helen.get("sex speed") - 0.05), Jump("helen_final_sacrament_watch_angelica_loop")
 
-screen final_sacrament_fuck_helen_options:
+screen final_sacrament_fuck_helen_options():
     imagebutton:
         focus_mask True
         pos (250,700)

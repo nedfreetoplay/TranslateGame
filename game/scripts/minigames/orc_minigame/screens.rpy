@@ -18,6 +18,10 @@ init python:
         
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Time your attacks by pressing {b}SPACEBAR{/b}!", style = "style_instructions"), width, height, st, at)
+            text_width, text_height = instructions_r.get_size()
+            render.blit(instructions_r, ((512 - (text_width / 2)),22))
+            
             if (clock() - self._start_timer)*100 >= 1:
                 self._start_timer = clock()
                 if self._left_to_right:
@@ -57,6 +61,6 @@ init python:
                 return
             return
 
-screen orc_battle:
+screen orc_battle():
     add OrcBattle()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

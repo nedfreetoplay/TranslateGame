@@ -1,4 +1,6 @@
-screen basement:
+screen basement():
+    use mods_screens_hook("basement")
+
     add player.location.background
 
     imagebutton:
@@ -27,8 +29,40 @@ screen basement:
                                         Jump("laundry_dialogue"),
                                         Function(renpy.call, "home_lock_check", "Mom", "mom_button_dialogue"),
                                      )
+    else:
+        if player.has_picked_up_item("debbie_panties"):
+            imagebutton:
+                focus_mask True
+                pos (439,552)
+                idle game.timer.image("objects/object_laundry_03{}.png")
+                action NullAction()
+        else:
+            imagebutton:
+                focus_mask True
+                pos (439,552)
+                idle game.timer.image("objects/object_laundry_03{}.png")
+                hover HoverImage(game.timer.image("objects/object_laundry_03{}.png"))
+                action Hide("basement"), Show("basement_basket")
 
-screen basement_mom_sex_options:
+
+screen basement_basket():
+    add game.timer.image("backgrounds/location_home_debbiebedroom_basket{}_closeup.jpg")
+
+    if not player.has_picked_up_item("debbie_panties"):
+        imagebutton:
+            focus_mask True
+            pos (412,269)
+            idle game.timer.image("objects/object_panties_02b{}.png")
+            hover HoverImage(game.timer.image("objects/object_panties_02b{}.png"))
+            action Hide("basement_basket"), Jump("basement_basket_debbie_panties")
+    imagebutton:
+        focus_mask True
+        align 0.5,0.95
+        idle "boxes/auto_option_generic_01.png"
+        hover HoverImage("boxes/auto_option_generic_01.png")
+        action Hide("basement_basket"), Jump("home_basement_dialogue")
+
+screen basement_mom_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

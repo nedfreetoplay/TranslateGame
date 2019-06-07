@@ -4,144 +4,144 @@ label boys_lockerroom_roxxy_shower_event:
     show becca 1 at Position(xpos=315)
     show missy 1 at left
     with dissolve
-    rox "... И тогда он сказал мне самой решать мои проблемы!"
+    rox "... And then he told me to solve my own problems!"
     show roxxy 16
     show becca 2
-    becca "Не могу поверить, что на самом деле {b}Декстер{/b} просто пугливый мальчишка!"
+    becca "I can't believe {b}Dexter{/b} is being such a baby!"
     show becca 1
     show roxxy 17
-    rox "Всё равно он был совсем ненадежным."
+    rox "Oh well, he was unreliable anyways."
     show roxxy 16
     show becca 3
     show missy 2
-    missy "Как кто-то вообще может быть таким тупицей?!"
+    missy "How can anyone be so stupid?!"
     show missy 1
     show becca 1
     show roxxy 17
-    rox "Угх! И я о том же!"
-    rox "У него ведь была всего одна задача!"
+    rox "Ugh! I know right?!"
+    rox "He had one job to do!"
     show roxxy 16
     show becca 2
-    becca "Ну и что ты собираешься делать с французским?"
-    becca "Ты же типа не можешь больше у нас списывать..."
+    becca "So, how are you going to get through French?"
+    becca "You know, you can't copy off us anymore..."
     show becca 3
     show missy 2
-    missy "Да, {b}Мисс Биссетт{/b} сказала, что если поймает кого-то списывающим - нам всем конец."
+    missy "Yeah, {b}Miss Bissette{/b} said if we get caught cheating again she's going to fail all of us."
     show missy 1
     show becca 1
     show roxxy 17
-    rox "Да, я знаю!"
+    rox "Yeah, I know!"
     show roxxy 16
     show becca 2
-    becca "Почему бы просто не переложить всю домашку на этого задрота?"
+    becca "Why don't you just get the homework off that nerd yourself?"
     show becca 1
     show roxxy 17
-    rox "Ух, ну я не знаю..."
-    rox "Он такой мерзкий..."
+    rox "Ugh, I dunno."
+    rox "He's so disgusting..."
     show roxxy 16
     show missy 6
-    missy "Хаха!"
+    missy "Haha!"
     show missy 1
     show becca 8
-    becca "Просто притворись, что флиртуешь с ним..."
-    becca "И он точно отдаст тебе свою домашнюю работу."
+    becca "Just pretend to flirt with him a little..."
+    becca "He'll hand his homework to you for sure."
     show becca 7
     show roxxy 17
-    rox "Эх, да заткнитесь вы!"
-    rox "... Из-за вас меня стошнит!"
+    rox "Eugh, shut up!"
+    rox "... You're going to make me puke!"
     show roxxy 16
     show becca 2
-    becca "Ладно, тогда кто-то другой..."
+    becca "Okay, someone else then..."
     show becca 3
     show missy 1b
-    missy "Может быть {b}Кевин{/b}?"
-    missy "Он довольно милый."
+    missy "What about {b}Kevin{/b}?"
+    missy "He's kinda cute."
     show missy 1
     show roxxy 17
-    rox "Пфф!"
+    rox "Pfft!"
     show roxxy 16
     show becca 4
-    becca "Хаха!"
-    becca "... Да, он милый."
+    becca "Haha!"
+    becca "... Yeah, he's cute."
     show becca 8
-    becca "Но не думаю, что у {b}Рокси{/b} что-нибудь получится."
-    becca "Ей нужно кое-что ещё, чтобы понравиться {b}Кевину{/b}!"
+    becca "I don't think he'd be into {b}Roxxy{/b} though."
+    becca "She doesn't have the right equipment for {b}Kevin{/b}!"
     show becca 7
     show roxxy 17
     show missy 3
-    rox "Ага, мне понадобится пара яиц, чтобы вытрести с него домашку!"
+    rox "Yeah, I'd need a cock to get the homework off him!"
     show roxxy 16
     show becca 3
     show missy 2
-    missy "Подождите-ка..."
-    missy "... {b}Кевин{/b} - гей?"
+    missy "Wait a second..."
+    missy "... {b}Kevin's{/b} gay?"
     show missy 1
     show roxxy 17
-    rox "А ты не знала?"
+    rox "You seriously didn't know?"
     show roxxy 16
     show becca 3b
-    becca "Это же так очевидно..."
+    becca "It's so obvious..."
     show becca 3
     missy "..."
     show missy 2
-    missy "Ну так что ты будешь делать?"
+    missy "So what are you going to do?"
     show missy 1
     show becca 1
     becca "..."
     show roxxy 17
-    rox "Я не знаю..."
+    rox "I don't know..."
     show roxxy 16
     pause
     show becca 3
     show missy 2
-    missy "{b}Мисс Биссетт{/b} хуже всех."
+    missy "{b}Miss Bissette{/b} is the worst."
     show missy 1
     show becca 2
-    becca "Ага, жаль, что у тебя нет пениса, {b}Рокси{/b}. Я слышала, что она любит ставить хорошие оценки тем, кто может неплохо поработать своим членом."
+    becca "Yeah, too bad you don't have a penis, {b}Roxxy{/b}. I hear she loves trading good grades for dick."
     show missy 6
     show becca 1
-    missy "Хаха!"
+    missy "Haha!"
     show missy 1
     show roxxy 17
-    rox "Я не могу провалить эти экзамены, я же буду выглядеть полной идиоткой!"
+    rox "I can't fail these exams or I'm going to look like an idiot in front of everyone!"
     show roxxy 16
     show becca 2
-    becca "Знаешь, я слышала, что {b}Директриса Смит{/b} хранит {b}все задания у себя дома{/b} до самых выпускных экзаменов."
+    becca "You know, I heard that {b}Principal Smith{/b} keeps {b}all the tests locked up in her house{/b} until finals."
     show becca 1
     show roxxy 17
-    rox "Серьёзно?"
+    rox "Really?"
     show roxxy 16
     show missy 1b
-    missy "Да, я тоже слышала об этом!"
+    missy "Yeah, I heard that too!"
     show missy 1
-    rox "Хмм..."
+    rox "Hmm..."
     show roxxy 17
-    rox "От всего этого у меня уже голова разболелась."
+    rox "Ugh, this whole conversation is making my head hurt."
     show roxxy 18 at Position(xoffset=-20) with dissolve
     pause
     show roxxy 19 at Position (xoffset=-1) with dissolve
-    rox "Я хочу принять душ."
+    rox "I'm gonna take a shower."
     show roxxy 20 at Position (xoffset=-67) with dissolve
-    rox "Убедитесь, что нас никто не побеспокоет."
+    rox "Make sure nobody bothers me."
     show roxxy 21 with dissolve
     show becca 2
-    becca "Ты серьёзно?"
-    becca "У нас вообще-то есть свои дела, представляешь?"
+    becca "Seriously?"
+    becca "We have stuff to do to you know?"
     show becca 3
     show roxxy 22 with dissolve
     show missy 2
-    missy "Да, нам скоро уже нужно быть в классе!"
+    missy "Yeah, We have to get to class soon!"
     show roxxy 23 with dissolve
     show missy 1
     show becca 1
     show roxxy 24
-    rox "Ох, да заткнитесь!"
-    rox "Вы, сучки, можете пропустить один урок!"
+    rox "Oh, Shut up!"
+    rox "You bitches can miss one class!"
     show missy 3
-    rox "А мне очень нужно расслабиться и очистить голову от лишних мыслей..."
+    rox "I really need to relax and clear my head for a bit..."
     show roxxy 23
     show becca 2
-    becca "Ух, ладно."
+    becca "Ugh, fine."
     show becca 1
     show missy 1
     missy "..."
@@ -153,14 +153,14 @@ label boys_lockerroom_roxxy_shower_event:
     show erik 61 at right
     show jersey 12 at left
     with dissolve
-    player_name "Просто забирай свою одежду, я разберусь с девочками."
+    player_name "Just grab your clothes, Man. I'll deal with the girls."
     show jersey 5
     show erik 63
-    eri "Хех, ладно."
-    eri "Спасибо, чувак!"
+    eri "Heh, alright."
+    eri "Thanks, dude!"
     show erik 61
     show jersey 14
-    player_name "Нет проблем!"
+    player_name "No problem!"
     hide player
     hide erik
     with dissolve
@@ -169,50 +169,50 @@ label boys_lockerroom_roxxy_shower_event:
 label boys_lockerroom_judith_changing:
     scene locker
     show combo 1 at left with dissolve
-    player_name "Видишь?"
-    player_name "Все не так плохо: здесь всего несколько человек!"
+    player_name "See?"
+    player_name "It's not too bad: There's only a few people in here!"
     show combo 2 at left
     show annie 3 at right with dissolve
-    ann "Я надеюсь, что вы помните что бывает за опоздание!"
-    ann "Если вы ещё не в форме и-"
+    ann "I hope you two remember the rules in regards to being late!"
+    ann "If you're not in uniform and in the Courtyard in one min-"
     show combo 3 at left
     show annie 1 at right
-    player_name "Все в порядке, {b}Энни{/b}... Мы поняли."
-    player_name "Мы будем снаружи через пару мгновений..."
+    player_name "It's okay, {b}Annie{/b}... We get it."
+    player_name "We'll be outside in just a moment..."
     show combo 4 at left
     show annie 3 at right
-    ann "Я президет учебного совета и, в данный момент, дежурная..."
-    ann "...зафиксировать каждое нарушение школьных правил - мой {b}долг{/b}!"
+    ann "As the Student Union President and official hallway monitor..."
+    ann "...it is my {b}duty{/b} to write infractions to anyone breaking school guidelines!"
     show combo 5 at left
     show annie 1 at right
-    player_name "Слушай..."
-    player_name "{b}Джудит{/b} не очень комфортно себя чувствует в мужской раздевалке."
-    player_name "И ей нужно чуть больше времени, понимаешь?"
+    player_name "Look..."
+    player_name "{b}Judith{/b} is not very comfortable in the guy's Locker Room."
+    player_name "She's going to need some extra time to get ready, okay?"
     show combo 4 at left
     show annie 5 at right
-    ann "Это правда, {b}Джудит{/b}?"
+    ann "Is that right, {b}Judith{/b}?"
     show combo 6 at left
     show annie 6 at right
-    jud "Ну..."
-    jud "Д...Да..."
+    jud "Well..."
+    jud "Y...Yes..."
     show combo 4 at left
     show annie 5 at right
-    ann "В чем же дело?"
-    ann "Ты чувствуешь себя не в безопасности?"
-    ann "...Или ты просто не хочешь следовать правилам?"
+    ann "What's the matter?"
+    ann "Just a little bit insecure around the boys?"
+    ann "...Or are you inciting disorder and disobeying the rules?"
     show combo 6 at left
     show annie 6 at right
-    jud "Это не..."
-    jud "Все не так..."
+    jud "It's not..."
+    jud "It's just that..."
     show combo 7 at left
-    jud "...Я не... не ношу лифчик!"
+    jud "...I'm not... wearing a bra!"
     show annie 5 at right
-    ann "Ох, я понимаю... Прекрасное оправдание, чобы не явиться на урок, так?"
+    ann "Oh, I see... Coming up with excuses to skip class, are we?"
     show combo 4 at left
     show annie 3 at right
-    ann "Меня тревожит ваше нежелание подчиняться, и я не потерплю этого!"
+    ann "Your lack of obedience is alarming, and I will not allow it!"
     show annie 4 at right
-    ann "Немедленно переоденьтесь, или мы с вами увидимся после уроков!!"
+    ann "Get dressed immediately, or I'm sending you both to detention!!"
     show annie 6 at right
     show combo 8 at left
     window hide
@@ -241,23 +241,23 @@ label boys_lockerroom_judith_changing:
     pause
     show annie 11 at right
     show combo 16 at left with hpunch
-    player_name "Дерьмо..."
-    jud "О, мой..."
+    player_name "Shit..."
+    jud "Oh, my..."
     show combo 18 at left
     show annie 8 at right
-    ann "Это..."
-    ann "Это... непристойно... и постыдно!!"
+    ann "This..."
+    ann "This is... improper... and shameful!!"
     show combo 17 at left
     show annie 1 at right
-    player_name "Мне... так жаль..."
+    player_name "I'm... so sorry..."
     show combo 18 at left
     show annie 2 at right with hpunch
-    ann "Надевайте уже форму и валите на урок, {b}СЕЙЧАС ЖЕ{/b}!!!"
+    ann "Put your uniforms on and get your asses to class, {b}NOW{/b}!!!"
     show combo 19 at left
     show annie 7 at right
-    ann "Я сообщу об этом инциденте {b}Директрисе Смит{/b}, как и о вашем опоздании..."
+    ann "I will have to report this incident to {b}Principal Smith{/b}, along with your infractions for being late..."
     show combo 20 at left
-    ann "...Идите уже!!"
+    ann "...Now, move it!!"
     hide combo
     hide annie
     with dissolve
@@ -267,13 +267,13 @@ label boys_lockerroom_judith_changing:
 label boys_lockerroom_martinez_book_search:
     scene boys_locker_room_backpack_day_b
     show player 14f with dissolve
-    player_name "Ага, вот и портфель {b}Мартинез{/b}!"
-    player_name "Они должны быть в душе..."
+    player_name "Aha, there's {b}Martinez's{/b} backpack!"
+    player_name "They must be showering..."
     show player 13f
     player_name "..."
     show player 14f
-    player_name "Это мой шанс."
-    player_name "Помни, {b}[firstname]{/b}, тихо и быстро!"
+    player_name "This is my chance."
+    player_name "Remember, {b}[firstname]{/b}, sneaky!"
     hide player with dissolve
     return
 
@@ -281,14 +281,14 @@ label boys_lockerroom_webcam_quest:
     scene locker_night
     show player 14 at left with dissolve
     show erik 1 at right with dissolve
-    player_name "Так, вот здесь!"
+    player_name "Okay, this is the place!"
     show player 1
     show erik 5
-    eri "В раздевалке??"
+    eri "The lockeroom??"
     show erik 1
     show player 35
-    player_name "Ага... Но нужно найти {b}неприметное место{/b}..."
-    player_name "...Место, где я смогу {b}спрятать{/b} что-нибудь мелкое..."
+    player_name "Yah... But I need to find a {b}hidden spot{/b}..."
+    player_name "...There has to be a place in this room where I could {b}hide{/b} something small..."
     hide erik 1
     hide player 35
     return
@@ -297,62 +297,62 @@ label airvent_webcam_quest_intro:
     scene locker_night
     show player 34 at left with dissolve
     show erik 1 at right with dissolve
-    player_name "Хм..."
+    player_name "Hmm..."
     show player 43
     show erik 13
-    player_name "Наверху!"
+    player_name "Up there!"
     show erik 14
-    eri "Вентеляция?"
+    eri "The air vent?"
     show erik 1
     show player 14
-    player_name "Да! Идеально!"
-    player_name "Отсюда видно всю комнату..."
-    player_name "...стань прямо под неё."
+    player_name "Yeah! It's perfect!"
+    player_name "It has a view of the entire room..."
+    player_name "...just stand right under it."
     show player 17
-    player_name "Я залезу тебе на плечи, чтобы до неё достать!"
+    player_name "I'll climb on your shoulders to reach it!"
     show player 1
     show erik 3
-    eri "Окей..."
+    eri "Okay..."
     hide erik
     show player 128 at center
     with dissolve
-    player_name "Вот так, не двигайся!"
+    player_name "Alright, stay still!"
     hide player
     hide erik
     scene locker_closeup
     show player 129
     with dissolve
-    player_name "Стой ровно!"
+    player_name "Stay still!"
     show player 130
-    player_name "Уже почти..."
+    player_name "It's almost done..."
     show player 131
     player_name "..."
-    player_name "Всё!"
+    player_name "There!"
     hide player
     scene locker_night
     show player 43 at left
     show erik 1 at right
     with dissolve
-    player_name "Ладно, давай отсюда сваливать..."
+    player_name "Alright! Let's get out of here..."
     show player 11
     show erik 5
-    eri "Не хочешь ничего мне рассказать?"
+    eri "Should I know what this is about?"
     return
 
 label airvent_webcam_quest_do_not_tell:
     show erik 3 at right
     show player 10 at left
-    player_name "Лучше тебе не знать..."
-    player_name "...Ничего дурного я не задумал..."
+    player_name "It's probably better if you don't know..."
+    player_name "...It's nothing that bad, anyway..."
     show player 21
-    player_name "...И это поможет мне с {b}домашней работой{/b}!!"
+    player_name "...And it will help with my {b}homework{/b}!!"
     show player 13
-    eri "Ну ладно..."
+    eri "Okay, then..."
     show erik 5
-    eri "...Можем мы уже уйти?"
+    eri "...Can we leave now?"
     show erik 1
     show player 14
-    player_name "Да, пойдем."
+    player_name "Yeah, let's go."
     hide erik 1 with dissolve
     hide player 14 with dissolve
     return
@@ -360,21 +360,21 @@ label airvent_webcam_quest_do_not_tell:
 label airvent_webcam_quest_tell:
     show player 24 at left
     show erik 1 at right
-    player_name "{b}*Вздох*{/b}..."
-    player_name "Это всё {b}библиотекарь.{/b}"
+    player_name "{b}*Sigh*{/b}..."
+    player_name "It's the {b}librarian.{/b}"
     show player 25
-    player_name "Она не закажет нужные мне {b}книги{/b}..."
-    player_name "...Пока я не сделаю это для неё."
+    player_name "She won't order the {b}textbooks{/b} I need..."
+    player_name "...Unless I do this for her."
     show player 5
     show erik 5
-    eri "Что? Почему?"
+    eri "What? Why?"
     show erik 1
     show player 10
-    player_name "Судя по всему, у  {b}библиотеки{/b} не хватает бюджета для заказа новых книг."
-    player_name "Но, я всё уже сделал. Давай просто уйдем..."
+    player_name "It seems like the {b}library{/b} ran out of budget to get new books."
+    player_name "Anyway, it's done now. Let's just go..."
     show player 13
     show erik 4
-    eri "Окей. Спасибо, что рассказал."
+    eri "Okay. Thanks for letting me know about it."
     hide player 13 with dissolve
     hide erik 1 with dissolve
     return
@@ -384,9 +384,9 @@ label airvent_webcam_quest:
     $ player.remove_item("supersaga_webcam")
     $ M_erik.set("webcam help", True)
     menu:
-        "Я не могу сказать.":
+        "Can't tell you.":
             call expression game.dialog_select("airvent_webcam_quest_do_not_tell")
-        "Скрытая камера.":
+        "Hidden webcam.":
 
             call expression game.dialog_select("airvent_webcam_quest_tell")
 
@@ -399,44 +399,44 @@ label roxxy_shower_dialogue_intro:
     show becca 3f at Position(xpos=650)
     show missy 2f at right
     with dissolve
-    missy "Ух... Что ты делаешь?"
+    missy "Uhh... What are you doing?"
     show missy 1f
     show becca 2f
-    becca "Душ сейчас занят..."
+    becca "The shower is occupied..."
     show becca 1f
     show jersey 10
-    player_name "Да я только из спортзала! Мне НУЖНО принять душ."
+    player_name "I just finished gym class! I NEED to take a shower."
     show jersey 11
     show missy 2f
-    missy "Ух... Нет, не нужно."
+    missy "Uhh... No. You don't."
     show missy 1f
     show jersey 12
-    player_name "Нужно! Мне скоро на музыку, а я весь потный!"
+    player_name "Yes, I do! I have music soon and I'm all sweaty!"
     show jersey 10
-    player_name "Я не могу вот так пойти на урок..."
+    player_name "I can't go to class like this..."
     show jersey 11
     show becca 2f
-    becca "Мы же сказали, занято!"
+    becca "We said it's occupied!"
     show becca 1f
     show missy 2f
-    missy "Да, что в слове \"занято\" тебе не понятно?"
+    missy "Yeah, what part of \"occupied\" do you not understand?"
     show missy 1f
     show jersey 12
-    player_name "Я удивлён, что вы вообще знаете смысл слова \"занято.\""
+    player_name "I'm surprised you even know the meaning of the word \"occupied.\""
     show jersey 13
     show becca 4f
-    becca "Хаха!"
+    becca "Haha!"
     show becca 3f
     show jersey 11
     show missy 4f
-    missy "Хей, не смейся надо мной, шлюха!"
+    missy "Hey, don't laugh at me, you dumb slut!"
     show missy 1f
     player_name "..."
     show becca 2 with dissolve
-    becca "Не называй меня шлюхой, тупица!"
+    becca "Don't call me a slut, you bimbo!"
     show becca 1
     show missy 2f
-    missy "Не называй меня тупицей, пиздень!"
+    missy "Well, don't call me a bimbo, you twat!"
     show missy 1f
     player_name "..."
     show becca 1f with dissolve
@@ -448,27 +448,27 @@ label roxxy_shower_dialogue_leave:
     show becca 1f
     show missy 1f
     show jersey 12
-    player_name "Хорошо!!"
-    player_name "Я схожу в душ дома..."
+    player_name "Fine!!"
+    player_name "I'll go shower at home..."
     show jersey 11
     show missy 3f
     show becca 2f
-    becca "Ха?"
-    becca "... Ох, точно! Да, иди мойся дома!"
-    becca "Тут зона свободная от задротов!"
+    becca "Huh?"
+    becca "... Oh, right! Yeah, go shower at home!"
+    becca "This is a nerd free zone!"
     show becca 1f
     show missy 1bf
-    missy "Хехе, точно!"
+    missy "Hehe, yeah!"
     show missy 1f
     player_name "..."
     show jersey 12
-    player_name "Вам не нужно вот так говорить о людях."
+    player_name "You really shouldn't talk about people like that."
     show jersey 11
     show becca 2f
-    becca "Как скажешь, лузер."
+    becca "Whatever, loser."
     show becca 1f
     show missy 2f
-    missy "Проваливай уже!"
+    missy "Get lost!"
     hide missy
     hide becca
     hide jersey
@@ -479,45 +479,45 @@ label roxxy_shower_dialogue_please_fail:
     show becca 1f
     show missy 1f
     show jersey 10
-    player_name "[chr_warn]... Ну пожалуйста?"
+    player_name "[chr_warn]... C'mon, Pretty please?"
     show jersey 13
     pause
     show jersey 11
     show becca 2f
-    becca "[chr_warn]Упрашивание на нас не работает, задрот..."
+    becca "[chr_warn]Begging isn't going to work on us, nerd boy..."
     show becca 3f
     show missy 8f
-    missy "[chr_warn]Да, нам не важно, насколько ты миленький!"
+    missy "[chr_warn]Yeah, we don't care how cute you are!"
     show missy 7f
     player_name "..."
     show becca 2b with dissolve
-    becca "[chr_warn]Что за черт, {b}Мисси{/b}?!"
+    becca "[chr_warn]What the hell, {b}Missy{/b}?!"
     show becca 1 with dissolve
     show missy 2f
-    missy "[chr_warn]... Ха?"
+    missy "[chr_warn]... Huh?"
     show missy 1f
     show becca 2
-    becca "[chr_warn]Ты только что сказала, что он милый?!"
+    becca "[chr_warn]Did you just say you think he's cute?!"
     show becca 1
     show missy 2f
-    missy "[chr_warn]Нет! Я не... не..."
-    missy "[chr_warn]То есть... Фуу!!"
+    missy "[chr_warn]No! I don't... I didn't..."
+    missy "[chr_warn]I mean... Ewww!!"
     show missy 1f
     show becca 2
-    becca "[chr_warn]... Да пофиг."
+    becca "[chr_warn]... Whatever."
     show becca 1f with dissolve
     show jersey 10
-    player_name "[chr_warn]Послушайте, мне правда нужно в дущ!"
+    player_name "[chr_warn]Listen, I really need a shower!"
     show jersey 11
     show becca 2f
-    becca "[chr_warn]О... Мой... Бог! Уходи уже!"
+    becca "[chr_warn]Oh... My... God! GO AWAY!"
     show becca 1f
     show missy 2f
-    missy "[chr_warn]Мы тебя не пропустим, тупица!"
+    missy "[chr_warn]We aren't letting you in, dork!"
     show missy 1f
     show jersey 12
-    player_name "[chr_warn]Угх, ладно!"
-    player_name "[chr_warn]Тогда я пойду мыться домой!"
+    player_name "[chr_warn]Ugh, alright!"
+    player_name "[chr_warn]I guess, I'll just go shower at home then!"
     hide missy
     hide becca
     hide jersey
@@ -527,61 +527,61 @@ label roxxy_shower_dialogue_please_fail:
 label roxxy_shower_dialogue_please_pass:
     show becca 1f
     show jersey 17
-    player_name "Знаешь {b}Мисси{/b}, а тебе очень идет эта юбочка!"
+    player_name "You know, you look great in that skirt {b}Missy{/b}!"
     show jersey 13
     show becca 3f
     becca "..."
     show missy 1bf
-    missy "... Правда?"
+    missy "... I do?"
     show missy 1f
     show jersey 17
-    player_name "Да!"
-    player_name "Она прекрасно подчеркивает твои прекрасные длинные ноги!"
+    player_name "Oh, yeah!"
+    player_name "It really shows off those long gorgeous legs of yours!"
     show jersey 13
     show missy 1bf
-    missy "Думаешь, что у меня прекрасные ноги?"
+    missy "You think my legs are gorgeous?"
     show missy 1f
     show jersey 17
-    player_name "Да, я уверен, что {b}Бекка{/b} хотела бы себе такие ноги!"
+    player_name "Yeah, I bet {b}Becca{/b} wishes she had legs like that!"
     show jersey 18
     show becca 2bf
-    becca "Что?! Нет!"
+    becca "What?! No I don't!"
     show jersey 13
-    becca "Кто вообще смотрит на ноги?!"
-    becca "Все знают, что парням нужны сиськи, и тут она не может со мной тягаться!"
+    becca "Who cares about legs?!"
+    becca "Everyone knows all guys care about are tits and this skank can't compete with me there!"
     show becca 1f
     show missy 3f
     missy "!!!" with hpunch
     show becca 3f
     show missy 4f
-    missy "Ага, но я хотя бы не уродливая рыжуха!"
+    missy "Yeah, well at least I'm not an ugly ass Ginger!"
     show missy 4bf
     show becca 2b
     becca "!!!" with hpunch
-    becca "Лучше так, чем быть шлюхой с автозагаром!"
+    becca "Better a ginger than a fake tanned whore!"
     show becca 1
     show missy 4f
-    missy "Что?! Он настоящий, сука!"
-    missy "Ты просто завидуешь из-за того, что похожа на уродливую подружку Каспера!"
+    missy "What?! This is natural bitch!"
+    missy "You're just jealous cause you look like Casper the Ghost's ugly girlfriend!"
     show missy 4bf
     show becca 2b
     becca "!!!" with hpunch
-    becca "Пошла ты!"
+    becca "Screw you!"
     hide missy
     show becca 12f at right
     with dissolve
-    missy "Ау! Что за..."
-    becca "Рааар!!!"
-    becca "Вот тебе!!!"
+    missy "Ouch! What the..."
+    becca "Rrraaaggh!!!"
+    becca "Take it back!!!"
     show becca 13f at Position (xoffset=-85)
-    missy "Ну давай!" with hpunch
+    missy "Make me!" with hpunch
     show becca 12f with dissolve
     show jersey 17
-    player_name "Чтож."
+    player_name "Welp."
     show becca 13f at Position (xoffset=-85) with dissolve
-    player_name "Это их займет ненадолго..."
+    player_name "That should keep them busy for awhile..."
     show becca 12f with dissolve
-    player_name "А сейчас, время для душа!"
+    player_name "Now, time for my shower!"
     hide becca
     hide jersey
     with dissolve
@@ -595,30 +595,30 @@ label roxxy_shower_dialogue_please_pass:
     rox "!!!" with hpunch
     show roxxy 26
     show jersey 22
-    rox "Какого хрена ты тут делаешь?!"
+    rox "What the fuck are you doing in here?!"
     show roxxy 25
     show jersey 10
-    player_name "Ухх..."
-    player_name "... Принимаю душ?"
+    player_name "Uhh..."
+    player_name "... Taking a shower?"
     show jersey 22
     show roxxy 26
-    rox "НЕТ!! ВАЛИ ОТСЮДА!" with hpunch
+    rox "NO!! Get OUT of here!" with hpunch
     show roxxy 25
     show jersey 12
-    player_name "Да ладно тебе, {b}Рокси{/b}... Мне правда нужно помыться!"
-    player_name "Обещаю, я не буду на тебя смотреть!"
+    player_name "C'mon, {b}Roxxy{/b}... I really need a shower!"
+    player_name "I promise I won't look at you!"
     show jersey 13
     show roxxy 26
-    rox "Как ты прошел через {b}Бекку{/b} и {b}Мисси{/b}?"
+    rox "How did you get past {b}Becca{/b} and {b}Missy{/b}?"
     show roxxy 25
     show jersey 17
-    player_name "Эм... У них там... Небольшая любовная ссора..."
+    player_name "Oh, yeah... They're uhh... Having a little lovers quarrel out there..."
     show jersey 13
     show roxxy 26
-    rox "Угх, меня окружают идиоты..."
+    rox "Ugh, I'm surrounded by morons..."
     show roxxy 25
     show jersey 17
-    player_name "... Вообще-то, ты типа Королева Идиотов."
+    player_name "... Actually, you're kinda like the Queen of the Morons."
     show jersey 13
     show roxxy 26
     rox "..."
@@ -626,22 +626,22 @@ label roxxy_shower_dialogue_please_pass:
     pause
     show roxxy 26
     show jersey 11
-    rox "Пошел ты нахуй! Принимай свой тупой душ!"
-    rox "А я ухожу!"
-    rox "... Мудак."
+    rox "Fuck you! Take your stupid shower!"
+    rox "I'm outta here!"
+    rox "... Asshole."
     hide roxxy with fastdissolve
     show jersey 10
-    player_name "Да я же просто пошутил, {b}Рокси{/b}..."
+    player_name "I'm just joking with you, {b}Roxxy{/b}..."
     show jersey 11
     pause
     show jersey 13
-    player_name "( Ну и ладно... )"
-    player_name "( Зато смогу спокойно помыться. )"
+    player_name "( Oh well... )"
+    player_name "( At least I can shower in peace now. )"
     show jersey 18
-    player_name "( А у {b}Рокси{/b} прекрасное тело! )"
+    player_name "( {b}Roxxy{/b} sure does have a nice body on her! )"
     pause
     show jersey 11
-    player_name "( Надеюсь, {b}Декстер{/b} об этом не узнает... )"
+    player_name "( I hope {b}Dexter{/b} doesn't find out about this... )"
     hide player with dissolve
     return
 
@@ -649,7 +649,7 @@ label latinas_shower_dialogue:
     $ persistent.cookie_jar["Latina Twins"]["gallery"]["02_unlocked"] = True
     scene latinas_shower_cs01
     with fade
-    show text "Мое сердце дико стучало, когда я залезал в рюкзак {b}Мартинез{/b}...\nЯ знал, что они на части меня порвут, если поймают." at Position (xpos= 512, ypos = 700)
+    show text "My heart raced as I quietly snuck the book out of {b}Martinez's{/b} backpack...\nI knew they would tear me to pieces if they caught me." at Position (xpos= 512, ypos = 700)
     with dissolve
     pause
     hide text
@@ -657,7 +657,7 @@ label latinas_shower_dialogue:
 
     scene latinas_shower_cs02
     with fade
-    show text "Но беглый взгляд на душевую убедил меня, что беспокоиться тут не о чем.\nДевушки явно смогут их отвлечь!" at Position (xpos= 512, ypos = 700)
+    show text "But a final cursory glance into the shower revealed that I had nothing to worry about.\nIt seemed the girls were about to create their own distraction!" at Position (xpos= 512, ypos = 700)
     with dissolve
     pause
     hide text
@@ -665,10 +665,10 @@ label latinas_shower_dialogue:
 
     scene latinas_shower_cs03
     with fade
-    show text "Хотя, если меня заметят, я точно труп...\n...Но это не тот вид, от которого можно так просто отвернуться!" at Position (xpos= 512, ypos = 700)
+    show text "If they found out I was watching, I truly would be dead...\n...But it wasn't an easy scene to walk away from!" at Position (xpos= 512, ypos = 700)
     with dissolve
     pause
-    show text "Они и правда всё делали вместе..." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "They really did everything together..." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -676,13 +676,13 @@ label latinas_shower_dialogue:
     $ renpy.end_replay()
     scene locker
     show player 14f with dissolve
-    player_name "... Лучше уйти, пока они меня не заметили."
-    player_name "Надеюсь, я взял правильную книгу..."
+    player_name "... I had better get out of here before they notice me."
+    player_name "I hope I got the right book..."
     hide player with dissolve
     show book_06_c with dissolve
-    player_name "{b}ЧОЛО ТРЮКИ{/b}?"
+    player_name "{b}Chola's Tricks{/b}?"
     player_name "..."
-    player_name "Что, блин, такое ЧОЛА?!"
+    player_name "What the heck is a Chola?!"
     hide book_06_c with dissolve
 
     if M_bissette.is_state(S_bissette_jane_return_books):
@@ -698,6 +698,6 @@ label latinas_shower_dialogue:
 label door17_locked_dialogue:
     scene locker
     show jersey 10 at left
-    player_name "( Я должен пойти на {b}поле{/b} на урок физ-ры... )"
+    player_name "( I should go to the {b}Field{/b} for my {b}Athletics{/b} class... )"
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -106,8 +106,9 @@ style style_earnings:
     size 35
 
 style style_instructions:
-    size 20
-    bold True
+    size 18
+    bold False
+    kerning -1.5
     antialias True
 
 style style_instructions_small:
@@ -190,4 +191,46 @@ style style_pregnancy_percentage:
     antialias True
     bold True
     color "#692560"
+
+style style_bank_statement_info:
+    size 20
+    antialias True
+    bold True
+    color "#020238"
+
+style style_bank_statement_title:
+    size 24
+    antialias True
+    bold True
+    color "#020238"
+
+style rt_diary:
+    size 20
+    yoffset -10
+
+style rt_diary_strike:
+    size 10
+    yoffset -5
+
+style style_diary:
+    antialias True
+    color '#111111'
+    drop_shadow None
+    font 'fonts/AlphabetizedCassetteTapesClassic.ttf'
+    layout 'nobreak'
+    outlines ((absolute(1), '#1111111f', absolute(0), absolute(0)),)
+    ruby_style style.rt_diary
+    altruby_style style.rt_diary_strike
+    size 28
+
+style style_diary_page:
+    color '#3336'
+    drop_shadow None
+    kerning -1
+    size 14
+
+style style_jenny_video_button:
+    size 20
+    antialias True
+    color '#fff'
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,7 +1,5 @@
-label consuela_triggers_init:
-    python:
-        T_consuela_intro = Trigger()
-    return
+init python:
+    T_consuela_intro = Trigger()
 
 label consuela_fsm_init:
     python:

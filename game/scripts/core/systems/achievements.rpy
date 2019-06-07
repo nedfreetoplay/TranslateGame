@@ -1,4 +1,4 @@
-init:
+init 10:
     python hide:
         json_file = renpy.file("scripts/data/achievements.json")
         store.achievements_json = json.load(json_file)
@@ -11,7 +11,7 @@ init:
                 self.id = store.achievements_json[nameid]["id"]
                 self.name = store.achievements_json[nameid]["name"]
                 self.description = store.achievements_json[nameid]["description"]
-                self.l_image = "buttons/cellphone_achieve_locked.png"
+                self.l_image = "cellphone/cellphone_achieve_locked.png"
                 self.image = store.achievements_json[self.nameid]["image"]
                 self.hidden = store.achievements_json[nameid]["hidden"]
                 self.enabled = store.achievements_json[nameid]["enabled"]

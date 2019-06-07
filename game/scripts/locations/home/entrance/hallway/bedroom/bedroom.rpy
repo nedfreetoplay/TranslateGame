@@ -1,18 +1,7 @@
 label bedroom_dialogue:
     $ player.go_to(L_home_bedroom)
     scene expression game.timer.image("bedroom{}") with None
-    if not M_player.is_set("just wokeup"):
-        if M_mom.is_state(S_mom_mrsj_visit) and not game.timer.is_dark():
-            jump expression game.dialog_select("home_front")
-
-        elif M_mom.is_state(S_mom_car_fixed):
-            jump expression game.dialog_select("home_front")
-
-        elif M_mom.is_state(S_mom_bad_guys_revisit) and not game.timer.is_dark():
-            jump expression game.dialog_select("home_front")
-
-        elif M_mom.is_state(S_mom_diane_visit) and game.timer.is_evening():
-            jump expression game.dialog_select("home_entrance")
+    $ M_player.set("on_jenny_pc", False)
 
     if game.timer.game_day() >= event_wait_till and not erik.known(erik_bullying):
         call expression game.dialog_select("bedroom_erik_bullying")
@@ -75,18 +64,21 @@ label bedroom_dialogue:
     if M_dewitt.is_state(S_dewitt_make_replacement_guitar) and player.has_item("paint") and player.has_item("wood_pile"):
         call expression game.dialog_select("bedroom_dewitt_make_replacement_guitar")
 
+    if M_jenny.is_state(S_jenny_figure_out_password) and game.timer.is_dark() and not M_jenny.get("hacked pc"):
+        call expression game.dialog_select("bedroom_jenny_hack_computer_notice")
+        $ M_jenny.set("hack_pc_notice", True)
+    elif M_jenny.is_state(S_jenny_checked_for_new_video):
+        call expression game.dialog_select("bedroom_jenny_checked_for_new_video")
+        $ M_jenny.trigger(T_jenny_get_her_a_new_toy)
+
     if M_player.is_set("just wokeup"):
         call expression game.dialog_select("player_just_wokeup")
-
-    elif game.timer.is_evening():
-        if M_jenny.is_state(S_jenny_couch_naughty_time):
-            call expression game.dialog_select("bedroom_sis_couch_1")
-
-        elif M_jenny.is_state(S_jenny_couch_naughty_time_tier_3):
-            call expression game.dialog_select("bedroom_sis_couch_3")
     $ game.main()
 
 label sleeping:
+    if random.randint(1, 100) <= M_jenny.max("sneak_in_chance", "forced_sneak_in_chance") and not M_jenny.pregnancy:
+        jump jenny_mc_room_sex_on_sleep
+
     if M_mom.is_state([S_mom_movie_night, S_mom_movie_night_two]):
         call expression game.dialog_select("bedroom_sleeping_debbie_movie_night")
         $ game.timer.tick(2)
@@ -110,14 +102,14 @@ label sleeping:
                 $ erik.add_event(erik_thief)
             call expression game.dialog_select("bedroom_sleeping_erik_thief_pre")
             menu:
-                "Использовать телескоп.":
+                "Use the telescope.":
                     call expression game.dialog_select("bedroom_sleeping_erik_thief_use_telescope")
                     $ game.timer.tick(3)
                     $ erik_thief.finish()
 
                     scene black with fade
                     jump expression game.dialog_select("erik_house_dialogue")
-                "Вернуться ко сну.":
+                "Go back to sleep.":
 
                     call expression game.dialog_select("bedroom_sleeping_erik_thief_sleep")
 
@@ -173,6 +165,7 @@ label sleeping:
 
         show expression game.timer.image("bedroom{}")
 
+    label resume_sleeping_bedroom:
     if M_player.is_set("pet cat"):
         scene location_home_bedroom_sleeping3 with fade
     else:
@@ -182,9 +175,7 @@ label sleeping:
     $ Sleep()
     hide unlock11
     hide bedroom
-    hide bedroom_broken
     hide bedroom_night
-    hide bedroom_broken_night
     scene black with fade
     hide sleeping with fade
 
@@ -198,7 +189,7 @@ label jerking_off_dialogue:
     if M_diane.is_state(S_diane_peeking_masturbate):
         jump diane_masturbatory_fantasy_d17
     menu:
-        "Дрочить.":
+        "Jerk off.":
             $ A_solo_pleasure.unlock()
             menu:
                 "{b}[deb_name]{/b}." if M_player.is_set("jerk mom"):
@@ -206,24 +197,28 @@ label jerking_off_dialogue:
                     scene black with fade
                     $ game.timer.tick()
 
-                "Мия." if M_player.is_set("jerk mia"):
+                "{b}Mia{/b}." if M_player.is_set("jerk mia"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_mia")
                     scene black with fade
                     $ game.timer.tick()
 
-                "Рокси." if M_player.is_set("jerk roxxy"):
+                "{b}Roxxy{/b}." if M_player.is_set("jerk roxxy"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_roxxy")
                     scene black with fade
                     $ game.timer.tick()
 
-                "Диана." if M_player.is_set("jerk diane"):
+                "{b}Diane{/b}." if M_player.is_set("jerk diane"):
                     call expression game.dialog_select("bedroom_sleeping_jerk_off_diane")
                     scene black with fade
                     $ game.timer.tick()
-                "Уйти.":
 
+                "{b}[jen_name]{/b}." if M_player.is_set("jerk jenny"):
+                    call expression game.dialog_select("bedroom_sleeping_jerk_off_jenny")
+                    scene black with fade
+                    $ game.timer.tick()
+                "{b}Leave{/b}.":
                     $ pass
-        "Уйти.":
+        "Leave.":
 
             $ pass
     $ game.main()
@@ -231,116 +226,116 @@ label jerking_off_dialogue:
 label diane_masturbatory_fantasy_d17:
     call expression game.dialog_select("bedroom_sleeping_jerk_off_diane")
     pause
-    player_name "Ммм, {b}Диана{/b}!"
+    player_name "Mmm, {b}Diane{/b}!"
     scene expression "backgrounds/location_home_hallway_night_blur.jpg"
     show diane b_nightgown a_nightgown_sides f_scared
     with dissolve
     dia "( ... )"
-    dia "( Ох, что я делаю? )"
+    dia "( Oh, what am I doing? )"
     pause
-    dia "( Я действительно обдумываю это?! )"
+    dia "( Am I really considering this?! )"
     pause
-    player_name "Ммм, {b}Диана{/b}!"
+    player_name "Mmm, {b}Diane{/b}!"
     show diane f_surprised
     dia "( !!! )" with hpunch
     dia "( {b}[firstname]{/b}? )"
     scene expression "backgrounds/location_home_bedroom_cutscene11.jpg" with fade
-    dia "( Он- )"
+    dia "( Is he- )"
     pause
     dia "( !!! )"
     pause
-    dia "( О, боже мой... )"
+    dia "( Oh my goodness... )"
     pause
-    dia "( Он такой большой! )"
+    dia "( It's so big! )"
     pause
-    player_name "Ха, вот и оно!"
+    player_name "Haah, here it comes!"
     scene expression "backgrounds/location_home_bedroom_cutscene11b.jpg" with fade
     pause
-    player_name "ХННГГГГ!!!"
+    player_name "HNNGGG!!!"
     dia "( !!! )" with hpunch
     pause
-    dia "( Посмотри на всю эту сперму! )"
+    dia "( Look at all that cum! )"
     pause
-    player_name "Ааа, {b}Диана{/b}!"
+    player_name "Ahh, {b}Diane{/b}!"
     pause
     scene expression "backgrounds/location_home_bedroom_cutscene12.jpg" with fade
-    dia "( Все это... Для меня? )"
+    dia "( All of that... Was for me? )"
     pause
-    player_name "Аааа... Аааа..."
+    player_name "Haah... Haah..."
     scene black with fade
     dia "{b}[firstname]{/b}?"
     scene expression "backgrounds/location_home_bedroom_sex03.jpg"
     show player afterjerk 1
     show diane b_nightgown a_nightgown_sides f_smirk
     player_name "!!!" with hpunch
-    player_name "{b}Диана{/b}?"
-    player_name "Что ты-"
+    player_name "{b}Diane{/b}?"
+    player_name "What are you-"
     show player afterjerk 2
     show diane f_reading_intrigued
-    dia "Шшш."
+    dia "Shh."
     show diane b_nightgown_sit a_empty f_sit_bed_smirk_talk_fardown with dissolve
-    dia "Я понятия не имела, что ты-"
+    dia "I had no idea you-"
     show diane f_jerk_bed_smirk_fardown b_nightgown_sit_stroke1
     pause
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke2
-    dia "Так много всего..."
+    dia "T-there's so much..."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Да."
+    player_name "Y-yeah."
     show diane f_empty b_nightgown_sit_kiss
     player_name "!!!" with hpunch
     show player afterjerk 3
     pause
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke
-    dia "Ммм, Я думаю, что хочу сделать это {b}[firstname]{/b}..."
-    dia "Я хочу, чтобы ты осеменил меня."
+    dia "Mmm, I think I want to do this {b}[firstname]{/b}..."
+    dia "I want you to breed me."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Ты хочешь?"
+    player_name "Y-you do?"
     show player afterjerk 2
-    dia "Мммммм!"
+    dia "Mmmhmm!"
     show player afterjerk 1
-    player_name "Что о {b}[deb_name]{/b}?"
+    player_name "What about {b}[deb_name]{/b}?"
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown
-    dia "Когда придет время, я поговорю с ней."
-    dia "Мне остается только надеяться, что она простит меня..."
+    dia "When the time comes, I'll speak with her."
+    dia "I'll just have to hope she can forgive me..."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Думаю, она поймет, {b}Диана{/b}."
+    player_name "I think she'll understand, {b}Diane{/b}."
     show player afterjerk 3
     show diane f_empty b_nightgown_sit_kiss
     with dissolve
-    dia "Ммм."
+    dia "Mmm."
     pause
     show player afterjerk 2
     show diane f_jerk_bed_smirk_talk_fardown b_nightgown_sit_stroke
     with dissolve
-    dia "О, я так сильно хочу тебя внутри себя!"
-    dia "... Но не сейчас!"
+    dia "Oh, I want you inside me so bad!"
+    dia "... But not yet!"
     show diane f_jerk_bed_smirk_fardown
-    player_name "Хмм?"
+    player_name "Hmm?"
     show diane f_jerk_bed_smirk_talk_fardown
-    dia "Я хочу, чтобы наш первый раз был особенным."
-    dia "Приходи ко мне завтра в амбар."
+    dia "I want our first time to be special."
+    dia "Come see me tomorrow at the barn."
     show diane f_jerk_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Хорошо."
+    player_name "O-okay."
     show player afterjerk 3
     show diane f_empty b_nightgown_sit_kiss
     with dissolve
     pause
     show diane f_sit_bed_smirk_talk_fardown b_nightgown_sit
     show player afterjerk 2
-    dia "Спокойной ночи, жеребец."
+    dia "Goodnight, stud."
     show diane f_sit_bed_smirk_fardown
     show player afterjerk 1
-    player_name "Спокойной ночи, {b}Диана{/b}..."
+    player_name "Goodnight, {b}Diane{/b}..."
     hide diane with dissolve
     pause
     show player afterjerk 1
-    player_name "( Да, как будто я действительно смогу спать после этого... )"
+    player_name "( Yeah, like I'm really gonna be able to sleep after that... )"
     hide player with dissolve
     $ M_diane.trigger(T_diane_learns_your_secret)
     $ game.timer.tick()

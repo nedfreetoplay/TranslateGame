@@ -195,7 +195,7 @@ init python:
                 self._on_event(ev.key)
             pass
 
-screen dexter_fight:
+screen dexter_fight():
     add DexterFight(player.stats.dex() / 2)
 
 screen dexter_fight_fail(dexter_health):

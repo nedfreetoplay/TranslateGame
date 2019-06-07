@@ -1,4 +1,256 @@
-{b}Summertime Saga v0.17.5{/b}
+# v0.18.6
+
+- {i}Bug fixes:{/i}
+    - Fixed Mia's and Erik's mailbox causing save files issues, and being overlayed on top of every subsequent screen.
+    - Fixed Jenny watching you hack her computer. She's now also MIA for the evening while you're in her hack computer quest.
+    - Restored getting caught scene when trying to hack during the morning.
+    - Fixed inconsistencies and minor posing issues during movie theatre intro.
+    - Fixed repeated and confusing dialogue when seeing a movie alone.
+    - Typos! Yay!
+
+
+# v0.18.5
+
+- {i}New content:{/i}
+    - The daycare location is now unlocked once any character is in labor.
+    - Jenny gets 3 new sex scenes :
+        - Selecting the option "Wanna fool around?" now triggers two of them (in the morning in the dining room and in the pool)
+        - You can now climb into Jenny's bed at night (this was removed in 0.18.0, and is coming back now)
+    - You can now ask Jenny for some late-night adult content watching. This will force her to catch you in the act on the couch.
+    - Jenny has a little bit of extra content added to her, besides the new sex scenes, her story has been expanded to fit one new quest.
+    - Xrays have been added to all of Roxxy's, Becca's, Missy's and Jenny's content. Xrays are triggered only when you cum inside.
+
+- {i}Rework of the codebase:{/i}
+    - Creator Defined Displayables have been implemented to replace the following existing art assets
+        - Sex actions buttons
+        - Box buttons
+        - Menu buttons
+        - Most informations popups (location unlocking, item acquiring/buying etc)
+        - Those can now be translated directly.
+    - Locations are now instanciated at init time instead of in a label called after loading/starting a game.
+        - Any future change to the Location object will no longer break save compatibility
+        - Location state is now saved in the Player class
+    - Time played (displayed in quit message) now uses built in timer (which ignores time spent in menus).
+    - The PregnancyManager API has changed.
+        - Added LocationSchedule objects to the pregnancy managers, dictating
+          where a character should be located at any point during their pregnancy.
+            - They are stored in a dictionnary, with keys corresponding to each stage of the pregnancy
+            - Keys are as follows : "", "_pregnant_bump", "_pregnant_belly", "_labor", "_baby_[girl/boy/twins]"
+        - Added a "state_actions" attribute to the pregnancy managers.
+            - This attribute allows you to trigger machine actions at various stages of the pregnancy
+            - Use the "add_action" method of the PregnancyManager class to set up.
+                - takes 3 arguments
+                    - key (either "first" or "repeat" depending if you only want to execute the actions the first time or not)
+                    - stage (integer that represents the stage of the pregnancy to trigger the action on. Stages increment for every week passed)
+                    - actionslist : a list of {i}even{/i} length for the actions. Format is the same as for FSMs
+                - Actions are triggered right after the pregnancy manager switched its stage (i.e. at the beginning of the week)
+                - Actions are processed for the machine that has the same name as the pregnancy manager, a lookup is done on the store.machines hash table to get that information.
+    - The State class has a new method 'int add_delay(int amount=1)' to add delay to the state dynamically. Returns the current state's delay.
+
+- {i}Debug Menu:{/i}
+    - Added pregnancy button to every FSM in the debug menu
+        - Shows a screen that display debug info about the pregnancy
+        - Allows incrementing manually the pregnancy, get a character pregnant and re-init the pregnancy
+        - Reinitializing the pregnancy can cause weird behaviours, and should be used with extreme care
+    - Persistent skip intro no longer forces cheat mode, enabling will skip first day regardless of mode.
+
+- {i}Other improvements:{/i}
+    - Rebuilt GUI from scratch to be cleaner and more maintainable.
+    - Name entry screen:
+        - Uses the last name used as the default (Anon if first time playing).
+        - Does not save name until start is clicked (back or esc cancels the change).
+        - Will no longer allow an empty name.
+    - Save screen:
+        - Save game description can no longer be empty.
+        - When saving over an occupied slot, the OK button will become a red Overwrite button.
+    - Added about screen containing licensing information.
+    - Right click (while in game) now opens the game menu (previously went direct to save menu).
+    - Changelog is now browsable by version and has a visual scroll bar.
+    - Clear Persistent in settings now prompts for confirmation.
+    - Added hover effect to save game thumbnails.
+    - Now possible to exit cookie jar scene early using the game menu (right click/esc), and "End Replay".
+    - Added hints to impactful choices in Jenny's quest.
+    - Allowed access to previously locked action when repeating cheerleader scene.
+    - Added new environmental effects to Jenny's shower scenes, and made them consistent.
+    - Shop item popups are now done in code, and used everywhere possible
+    - Item buying is now done exclusively with the BuyItem Action, which handles all the item buying logic, and shows the relevant popups.
+    - Credits page now has visible scroll controls.
+    - Added a PSA notifying players of the serious consequences of pregnancy.
+
+- {i}Bug fixes:{/i}
+    - Fixed Debbie's posing when talking to her when she's leaning on the counter.
+    - Fixed pregnancy minigame happening even if a character is pregnant already.
+    - Fixed being able to ask Clyde about the statue piece before learning his last name.
+    - Fixed autosaving - saves will be made roughtly every 200 clicks, and on quit.
+    - Fixed art used when taking CumDoom pills.
+    - Fixed problems that could arise when inspecting items in the inventory.
+    - Fixed issue that prevented some characters being correctly rendered on the credits screen.
+    - Fixed minor visual quirks with main menu animation.
+    - Fixed being able to access the save menu when replaying a scene from the cookie jar.
+    - Fixed being able to access the save menu when on mode select screen (esc will return to main menu).
+    - Prevented alpha warning at Rump's house from bleeding into subsequent scenes.
+    - Main menu music starts after (rather than during) the splash screen, as originally intended.
+    - Use correct background when spying on Jenny in shower.
+    - Fixed diane being nowhere to be found when pregnant.
+    - Fixed floating pills chests in Dr. Priya Singh's laboratory.
+    - Fixed entering MC's bedroom triggering the bad guys event in Debbie's story.
+    - Fixed BuyItem action not showing item popups
+    - Fixed being able to buy the cyclone mask in advance, effectively wasting your money. The item will become available when needed.
+    - Fixed dexter's library book's dialogue staying well after the associated bissette quest.
+    - Fixed issue where Comsumr could grant random cash to player.
+    - Limited the fetch Diane a drink quest progression to day time.
+    - Removed dialogue repetition when speaking to Annie in her house.
+    - Fixed issue with treehouse controller acquisition dialogue.
+    - Added missing art and updated posing for Diane's "How's the baby?" dialogues.
+    - Miscellaneous posing errors with jenny and mc have been fixed.
+    - Fixed "Roxxy" dialogue option appearing when jenny is by the pool or in the dining room, causing posing issues.
+    - Added a delay to 'S_diane_dinner' from M_diane if M_debbie is in state 'S_debbie_diane_visit' to avoid conflicts.
+    - Fixed a dialogue repeating indefinitely by opening and closing jenny's nightstand when figuring out her PC's password
+    - As important as house work is, prevented Cupid portalling characters back through time and space to do some vacuuming.
+    - Stopped Jenny fidgeting on her bed when moving between blurred and non-blurred backgrounds.
+
+
+# v0.18.2
+
+- {i}Rework of the codebase:{/i}
+    - Assumed that patch updates will not break save file compatibility.
+
+- {i}Bug fixes:{/i}
+    - Fixed Jenny's panties going walkabout.
+    - Fixed game brick when exiting CAMslut window on PCs.
+
+
+# v0.18.1
+
+- {i}Rework of the codebase:{/i}
+    - Cheat option now maxes out your stats on startup.
+    - If you have taken birth control pills, the pregnancy minigame will be skipped.
+    - In the cookie jar, the player's pregnancy chance defaults to 0
+
+- {i}Bug fixes:{/i}
+    - Fixed jerk off menu options not in a bold font.
+    - Fixed pizza minigame not paying out.
+    - Fixed exception on entering the treehouse at night
+    - Fixed missing trigger for bissette's storyline (roxxy x jenny cheerleader routine infinite loop)
+    - Fixed exception when talking to somrak about his panties obsession.
+    - Fixed laptop button appearing when jenny has her laptop in bed.
+    - Fixed Jenny dialogue option appearing too early.
+    - Fixed Jenny's photoshoot being in the wrong order.
+    - Fixed time ticking during diane's delivery to pizza place.
+    - Fixed Jenny being in the shower and asking you to go to her room at the same time.
+    - Fixed Dexter's book not appearing. Go to the basket ball court!
+    - Fixed mixup between Consumr and Cosmic Cumic backgrounds on event day.
+    - Fixed mall event finishing too early.
+    - Fixed mall event and rump event visual conflict.
+    - Fixed exception when seducing Miss Ross.
+    - Fixed rockin' up to Smith's house too early.
+    - Fixed third milk dellivery reminder.
+    - Fixed bank statement appearing in front of dialogue.
+    - Fixed RNG values for living room couch.
+    - Fixed issue preventing buying of the whip.
+    - Fixed Diane's cookie jar scenes erroring out.
+    - Fixed Diane's outfits.
+    - Adjusted hint for Jenny's talk by the pool during J20.
+    - Fixed not being able to leave Crystal's button dialogue.
+    - Fixed exception if anyone but Jenny tried to birth twins.
+
+- {i}Visual improvements:{/i}
+    - Laptop duplicate on Jenny's desk fixed.
+    - Added more Jenny art in the shower scenes to match dialogue and improve quality.
+    - Fixed shower spying scenes so Jenny moves more.
+
+- {i}Other improvements:{/i}
+    - Basic support for self-voicing mode in some menus.
+
+
+# v0.18.0
+
+- {i}New Features:{/i}
+    - Once a week, you get a bank report in the mail. It will sum up the money you have saved and interest gained over the week.
+    - Birth Control pills added to the game.
+        - Available at the end of the priya side quest
+        - Will set your pregnancy chance to 0
+        - Take a pregnax to increase your percentage back up (take 2 to get to 40% chance, which is the maximum)
+        - Effect is permanent until pregnax is taken.
+    - Added a ModManager static class to handle future mods of the game, with the possibility to enable/disable mods on the go.
+        - Side note : once you start a game with a certain sets of mods enabled, you should not disable them if you want to keep using that save.
+    - SayTextFilter class to handle multiple text filtering functions.
+    - Remapping of the weightlifting minigame key (for now).
+        - Remapping is done with the "set_key" function. It takes the following arguments:
+            - key_name (only the string "key_str" is valid at the moment)
+            - key_id (use the pygame variable for the key you want)
+        - Remapping is only viable for the weightlifting minigame
+        - Remapping can only be done via the console
+        - Example : set_key("key_str", pygame.K_p)
+        - refer to https://www.pygame.org/docs/ref/key.html for key codes.
+
+- {i}Debug Menu:{/i}
+    - Added Items tab to the Debug Menu. It has a search field for items in the game and you can add/remove any item from a click.
+    - Added skipping forward day/week/month/year to debug menu
+    - Changed Locations screen to a draggable/scrollable area with all available locations.
+        - Added button to lock/unlock locations
+        - Added button to move the player to said location
+        - Added button to set the location's visited status
+        - Added button to set the locations's "can leave" status
+    - Changed Machines screen to a draggable/scrollable area with all available machines
+        - Added button to advance the machine
+        - Added button to show the screen's variable
+        - Added screen for displaying said variables
+    - Added keyboard shortcut (Shift + W) to show the debug menu. Only works when the UI screen is showing, and the game is in dev mode.
+    - Added the option to skip the intro and the first day of the game
+
+- {i}New Locations:{/i}
+    - Mayor Rump's House
+    - Yacht
+
+- {i}Rework of the codebase:{/i}
+    - Triggers are now in an init block as to not be saved in the save files.
+    - Added pickling methods to our custom objects.
+    - Moved achievements and cellphone assets to their own folders.
+    - New screen actions implemented in:
+        - Annie's House
+        - Beach
+    - Rework of the music minigame. The notes highlight in red if you've missed them, and green if not.
+        - There is also sound effects and a counter of fails displayed.
+        - At 5 fails or more, the minigame will "fail", and you'll have to retry.
+        - Sound effects are me, recording my guitar playing broken chords if you're interested. You can use them however you want.
+
+- {i}Layered Image rework:{/i}
+    - Jenny
+    - MC (only for jenny's storyline for now)
+    - Ivy
+    - Jane
+    - Martinez
+    - Cedric
+    - Kevin
+    - Somrak
+    - Lopez
+
+- {i}New Characters:{/i}
+    - Karl
+    - Justin
+
+- {i}New sex scenes:{/i}
+    - 3 videos of jenny for her subscribers.
+    - Shower sex reworked
+    - Night time sex is no longer in jenny's room
+    - Multiple camshows options with footjob, blowjob, cunnilingus and sex.
+    - Couch sex
+
+- {i}Bug Fixes:{/i}
+    - The map screen now shows the location you're going to on hovering that location. This is returning behavior that disappeared in the 0.16 update.
+    - Fixed save resetting bug (with the mysterious statue - piece 1)
+    - Fixed time spent playing namespace issue that caused it to be counted multiple times
+    - Fixed exception that could happen when winning the spin the bottle with MC.
+    - Fixed "Skip First Day" option in the debug menu to work with jenny's FSM and skip the hallway dialogue.
+    - Fixed daylight scene happening in the evening when diane's barn has been finished.
+    - Fixed day/night backgrounds issues in diane's barn.
+    - Fixed overlap of milk item acquirement and pizzeria unlock popups.
+    - Fixed Machine variables not reloading properly (clyde and the dog quest)
+
+
+# v0.17.5
+
 - {i}New Features:{/i}
     - Earn interests weekly on your savings at the Bank! Interest rate is 3%
     - Beach House price has been reduced to $5000
@@ -14,13 +266,12 @@
         - This has no menu option (that is intentionnal)
         - To disable savegame locking, set persistent.enable_save_locking to False
 
-
 - {i}Rework of the codebase:{/i}
     - New Martinez character art and rig
     - New Consuela character art and rig
     - Added label notification (enable from the debug menu - General) for debugging purposes
     - Added night version of the treehouse wood pile, the scroll at the hill and the stick at the hill.
-    
+
 - {i}New Characters:{/i}
     - Meet Consuela Martinez, on Thursdays at the Beach House
     - Remember that odd item from {b}Diane{/b}'s barn? You should start investigating.
@@ -52,8 +303,7 @@
     - Fixed the game.timer.image() function. It now displays images correctly regardless of period (christmas, halloween, ...), time of day and extra information.
 
 
-
-{b}Summertime Saga v0.17.1{/b}
+# v0.17.1
 
 - {i}New Features:{/i}
     - Added the choice of vehicle to use in the pizza minigame. A more extensive rework of that minigame is planned for the 0.20 update.
@@ -91,40 +341,44 @@
     - Fixed Debbie disappearing from Cupid
     - Removed Carpenter option from Diane's button dialogues pointing to missing labels
 
-{b}Summertime Saga v0.17.0{/b}
+
+# v0.17.0
+
 - {i}New Locations:{/i}
     - Diane's Home has an expansion
     - Hospital Third Floor
     - Annie's Home (Daycare)
-    
+
 - {i}New Character Events:{/i}
     - Smith/Titty event reworked
     - Diane's story
-    
+
 - {i}Minigames:{/i}
     - Milking minigame
     - Mixology minigame
     - Pregnancy Minigame
-    
+
 - {i}New sex scenes:{/i}
     - Threesome with Debbie and Diane
     - Cucumber scene reworked
     - Breeding scene reworked
-    
+
 - {i}New Features:{/i}
     - Pregnancy! (only for Diane at this point)
     - Missed note auditive cue for the music minigame
-    
+
 - {i}Rework of the codebase:{/i}
     - Removed Diane's old code
-    
+
 - {i}Bug fixes:{/i}
     - Fixed Mia not appearing at the library
     - Fixed crash on achievements list
     - Fixed long load time issues caused by Ren'Py 7
     - Fixed a bug which would prevent getting the glasses for okita from judith if you asked her to be somewhere else (same bug occured on Mia with Bissette)
 
-{b}Summertime Saga v0.16.1{/b}
+
+# v0.16.1
+
 - {i}Bug fixes:{/i}
     - Multiple dialogue and posing improvements for a more consistent experience.
     - Fixed car dealership crash.
@@ -154,7 +408,8 @@
     - Added hard pause at end of pushup minigame to prevent skipping.
 
 
-{b}Summertime Saga v0.16.00{/b}
+# v0.16.00
+
 - {i}New Locations:{/i}
     - {b}Trailer park:{/b} Frontyard, Tractor, Clyde's Shack's Frontyard, Clyde's Shack Interior.
     - {b}Mrs Smith's House:{/b} Frontyard, Entrance, Basement, Upper floor, Bedroom.
@@ -220,7 +475,9 @@
     - Art asset touchups.
     - Typos.
 
-{b}Summertime Saga v0.15.30{/b}
+
+# v0.15.30
+
 - {i}Bug fixes:{/i}
     - Fixed the Diane garden shovel check being inverted.
     - Fixed mia reffering to the old homework instead of the new dictionary quest.
@@ -230,7 +487,9 @@
     - Fixed paying Jenny to help convince Roxxy not actually taking money.
     - Fixed Okita keycode item giving an error when looking at it from the inventory.
 
-{b}Summertime Saga v0.15.20{/b}
+
+# v0.15.20
+
 - {i}Bug fixes:{/i}
     - Fixed Erik sneak into school block when there are no ticks left.
     - Fixed not being able to ask Debbie where to get paint if you have paint already.
@@ -245,13 +504,16 @@
     - Added dialogue for Coach Bridget when she is in her office.
     - Fixed Jenny's panties not being added to the inventory even when paid for. (Rip off Jenny)
 
-{b}Summertime Saga v0.15.10{/b}
+
+# v0.15.10
+
 - {i}Bug fixes:{/i}
     - Fixed a retarded MAC save crash.
     - Fixed the stupid beachhouse popup not going away.
     - Fixed day images showing at night in the school.
 
-{b}Summertime Saga v0.15.00{/b}
+
+# v0.15.00
 
 - {i}New Locations:{/i}
     - {b}School:{/b} Right Hallway, Assembly Hall, Bridget's Office, Student's Lockers.

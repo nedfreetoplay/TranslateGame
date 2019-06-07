@@ -1,4 +1,6 @@
-screen trailer_interior:
+screen trailer_interior():
+    use mods_screens_hook("trailer_interior")
+
     add game.timer.image("backgrounds/location_trailer_interior_day{}.jpg")
 
     imagebutton:
@@ -23,7 +25,7 @@ screen trailer_interior:
             hover HoverImage("objects/character_crystal_01.png")
             action Hide("trailer_interior"), Jump("roxmom_dialogue")
 
-screen crystal_sex_options:
+screen crystal_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

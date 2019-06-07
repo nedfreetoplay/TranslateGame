@@ -1,4 +1,6 @@
-screen science_classroom:
+screen science_classroom():
+    use mods_screens_hook("science_classroom")
+
 
     add game.timer.image("backgrounds/location_school_science_day{}.jpg")
 

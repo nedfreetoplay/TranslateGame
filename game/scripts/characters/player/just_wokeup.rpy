@@ -1,21 +1,34 @@
 label player_just_wokeup(woke_with=None):
     scene expression player.location.background_blur
+    if M_jenny.is_state(S_jenny_bedroom_intrusion) and player.location == L_home_bedroom:
+        call expression game.dialog_select("bedroom_jenny_bedroom_intrusion_1")
     if M_player.is_state(S_player_start):
         call expression game.dialog_select("bedroom_mc_start_just_wokeup")
 
-    elif woke_with is M_diane and player.location is L_home_mombedroom:
+    elif woke_with is M_diane and player.location == L_home_mombedroom:
         if M_diane.is_set("3way first time"):
             call expression game.dialog_select("diane_debbie_sleepover_wakeup_first")
             $ M_diane.set("3way first time", False)
         else:
             call expression game.dialog_select("diane_debbie_sleepover_wakeup_repeat")
 
-    elif player.location is L_home_mombedroom:
+    elif woke_with is M_jenny and player.location == L_home_sisbedroom:
+        call expression game.dialog_select("player_jenny_sleepover_sisbedroom")
+        $ player.go_to(L_home_hallway)
+        $ game.main()
+
+    elif woke_with is M_jenny and player.location == L_home_bedroom:
+        call expression game.dialog_select("player_jenny_sleepover_mcbedroom")
+
+    elif player.location == L_home_mombedroom:
         if M_mom.is_set("sex available"):
             if randomizer() <= 50:
                 call expression game.dialog_select("mom_sleeping_sex_available_random")
             else:
                 call expression game.dialog_select("mom_sleeping_sex_available")
+
+    elif M_jenny.is_state(S_jenny_get_a_toy) and player.location == L_home_bedroom:
+        call expression game.dialog_select("bedroom_jenny_get_a_toy")
 
     elif game.timer.is_weekend():
         if player.location in L_beachhouse_front.get_all_children():
@@ -29,25 +42,7 @@ label player_just_wokeup(woke_with=None):
         else:
             call expression game.dialog_select("bedroom_mc_weekday_just_wokeup")
 
-    if player.location is L_home_bedroom:
-        if game.timer.is_morning() and L_home_sisbedroom.is_here(M_jenny) and (M_jenny.is_state(S_jenny_watch_stream) or
-            M_jenny.is_state(S_jenny_watch_stream_tier_2) or
-            M_jenny.is_state(S_jenny_watch_stream_tier_3) or
-            (M_jenny.finished_state(S_jenny_prepare_stream_tier_4) and not sis_lastwebcam_show_seen)):
-            call expression game.dialog_select("bedroom_sis_webcam_show")
-
-        elif M_jenny.is_state(S_jenny_telescope_spying) and (not L_home_shower.is_here(M_jenny) and game.timer.is_morning()):
-            call expression game.dialog_select("bedroom_sis_telescope_1")
-
-        elif M_jenny.is_state(S_jenny_telescope_spying_tier_2) and (not L_home_shower.is_here(M_jenny) and game.timer.is_morning()):
-            call expression game.dialog_select("bedroom_sis_telescope_2")
-
-        elif M_jenny.is_state(S_jenny_telescope_spying_tier_3) and (not L_home_shower.is_here(M_jenny) and game.timer.is_morning()):
-            call expression game.dialog_select("bedroom_sis_telescope_3")
-
-        elif (training_count == 1 and training_tier == 2 and M_jenny.is_state(S_jenny_somrak_more_panty)) or (training_count == 2 and training_tier == 3 and M_jenny.is_state(S_jenny_somrak_more_panty_tier_2)) or (training_count == 3 and training_tier == 4 and M_jenny.is_state(S_jenny_somrak_more_panty_tier_3)):
-            call expression game.dialog_select("bedroom_master_somrak_training")
-
+    if player.location == L_home_bedroom:
         if M_mom.is_set("chores"):
             call expression game.dialog_select("bedroom_mom_chores")
 
@@ -79,7 +74,46 @@ label player_just_wokeup(woke_with=None):
             if not player.has_item("goldschwagger"):
                 call expression game.dialog_select("bedroom_roxxy_spin_bottle_no_goldschwagger")
             hide player with dissolve
+
+        if M_jenny.pregnancy.stage == 4 and not M_jenny.get("seen_in_shower_pregnant"):
+            call expression game.dialog_select("bedroom_jenny_pregnant_and_peeing")
+            $ M_jenny.set("seen_in_shower_pregnant", True)
+            $ game._in_shower = None
+            $ player.go_to(L_home_hallway)
+            $ game.main()
+
+        if M_jenny.is_state(S_jenny_breakfast_notice):
+            call expression game.dialog_select("bedroom_jenny_breakfast_notice")
+            $ M_jenny.trigger(T_jenny_breakfast_notice)
+        elif M_jenny.is_state(S_jenny_pics_afterthought):
+            call expression game.dialog_select("bedroom_jenny_pics_afterthought")
+            $ M_jenny.trigger(T_jenny_snoop_in_her_room)
+        elif M_jenny.is_state(S_jenny_breakfast_notice_2):
+            call expression game.dialog_select("bedroom_jenny_breakfast_notice")
+            $ M_jenny.trigger(T_jenny_breakfast_notice_2)
+        elif M_jenny.is_state(S_jenny_snooping_laptop_notice):
+            call expression game.dialog_select("bedroom_jenny_snoopin_laptop_notice")
+        elif M_jenny.is_state(S_jenny_new_video_notice):
+            call expression game.dialog_select("bedroom_jenny_new_video_notice")
+        elif M_jenny.is_state(S_jenny_buy_bad_monster):
+            call expression game.dialog_select("bedroom_jenny_buy_bad_monster")
+        elif M_jenny.is_state(S_jenny_spy_on_mia_telescope):
+            call expression game.dialog_select("bedroom_jenny_spy_on_mia_telescope")
+        elif M_jenny.is_state(S_jenny_pissed_at_handjob, S_jenny_pissed_at_blowjob):
+            call expression game.dialog_select("bedroom_jenny_pissed_at_handjob")
+        elif M_jenny.is_state(S_jenny_morning_visit):
+            call expression game.dialog_select("bedroom_jenny_morning_visit")
+            $ M_jenny.trigger(T_jenny_start_camshow_blowjob)
+        elif M_jenny.is_state(S_jenny_perv_on_tammy):
+            call expression game.dialog_select("bedroom_jenny_perv_on_tammy_notice")
+        elif M_jenny.is_state(S_jenny_bedroom_intrusion):
+            call expression game.dialog_select("bedroom_jenny_bedroom_intrusion_2")
+            $ M_jenny.trigger(T_jenny_go_breakfast)
+        elif M_jenny.is_state(S_jenny_weird_relationship):
+            call expression game.dialog_select("bedroom_jenny_weird_relationship")
+            $ M_jenny.trigger(T_jenny_final_breakfast)
     $ M_player.set("just wokeup", False)
     call check_pregnancies
+    $ Machine.trigger(T_player_woke_up)
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

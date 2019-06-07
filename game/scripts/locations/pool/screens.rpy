@@ -1,4 +1,6 @@
-screen pool:
+screen pool():
+    use mods_screens_hook("pool")
+
     add game.timer.image("backgrounds/location_pool_day{}.jpg")
 
     imagebutton:
@@ -84,7 +86,7 @@ screen pool:
             hover HoverImage("objects/character_cassie_01.png")
             action Hide("pool"), Jump("cassie_button_dialogue")
 
-screen diving_options:
+screen diving_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("diving_options")]
@@ -100,7 +102,7 @@ screen diving_options:
                                                         Jump("poolrules_dialogue")
         )
 
-screen gloryhole_stage01:
+screen gloryhole_stage01():
     add "backgrounds/location_pool_changeroom03b.jpg"
 
     imagebutton:
@@ -124,7 +126,7 @@ screen gloryhole_stage01:
         hover HoverImage("buttons/gloryhole_stage01_03.png")
         action Hide ("gloryhole_stage01"), Jump("gloryhole_medic_fuckraw_fail")
 
-screen gloryhole_stage02:
+screen gloryhole_stage02():
     add "backgrounds/location_pool_changeroom03b.jpg"
 
     imagebutton:

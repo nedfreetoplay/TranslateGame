@@ -1,135 +1,133 @@
-label diane_triggers_init:
-    python:
+init python:
 
-        T_diane_need_shovel = Trigger()
-        T_diane_has_shovel = Trigger()
-
-
-        T_diane_get_delivery_task = Trigger()
-        T_diane_make_delivery = Trigger()
-        T_diane_place_delivery_goods = Trigger()
-        T_diane_delivery_finished = Trigger()
+    T_diane_need_shovel = Trigger()
+    T_diane_has_shovel = Trigger()
 
 
-        T_diane_wheelbarrow_strength_pass = Trigger()
-        T_diane_wheelbarrow_strength_fail = Trigger()
+    T_diane_get_delivery_task = Trigger()
+    T_diane_make_delivery = Trigger()
+    T_diane_place_delivery_goods = Trigger()
+    T_diane_delivery_finished = Trigger()
 
 
-        T_diane_help_carry_to_bed = Trigger()
-        T_diane_find_cold_towel = Trigger()
-        T_diane_found_cold_towel = Trigger()
-        T_diane_nip_slip_n_dip = Trigger()
+    T_diane_wheelbarrow_strength_pass = Trigger()
+    T_diane_wheelbarrow_strength_fail = Trigger()
 
 
-        T_diane_fix_infested_garden = Trigger()
-        T_diane_cleaned_garden = Trigger()
-        T_diane_clean_garden_reported = Trigger()
-        T_diane_arrived_at_mall = Trigger()
-        T_diane_entered_consumr = Trigger()
-        T_diane_find_correct_bug_spray = Trigger()
-        T_diane_use_bug_spray_on_garden = Trigger()
-        T_diane_inform_diane = Trigger()
+    T_diane_help_carry_to_bed = Trigger()
+    T_diane_find_cold_towel = Trigger()
+    T_diane_found_cold_towel = Trigger()
+    T_diane_nip_slip_n_dip = Trigger()
 
 
-        T_diane_check_on_garden = Trigger()
-        T_diane_search_kitchen = Trigger()
-        T_diane_cucumber_aftermath = Trigger()
-        T_diane_worked_on_garden = Trigger()
+    T_diane_fix_infested_garden = Trigger()
+    T_diane_cleaned_garden = Trigger()
+    T_diane_clean_garden_reported = Trigger()
+    T_diane_arrived_at_mall = Trigger()
+    T_diane_entered_consumr = Trigger()
+    T_diane_find_correct_bug_spray = Trigger()
+    T_diane_use_bug_spray_on_garden = Trigger()
+    T_diane_inform_diane = Trigger()
 
 
-        T_diane_chat_at_home = Trigger()
-        T_diane_find_pump = Trigger()
-        T_diane_found_pump = Trigger()
-        T_diane_brought_pump = Trigger()
+    T_diane_check_on_garden = Trigger()
+    T_diane_search_kitchen = Trigger()
+    T_diane_cucumber_aftermath = Trigger()
+    T_diane_worked_on_garden = Trigger()
 
 
-        T_diane_get_delivery_2_task = Trigger()
-        T_diane_found_delivery_2_goods = Trigger()
-        T_diane_make_delivery_2 = Trigger()
-        T_diane_delivery_2_finished = Trigger()
+    T_diane_chat_at_home = Trigger()
+    T_diane_find_pump = Trigger()
+    T_diane_found_pump = Trigger()
+    T_diane_brought_pump = Trigger()
 
 
-        T_diane_getting_sleep = Trigger()
-        T_diane_debbie_request = Trigger()
-        T_diane_house_locked = Trigger()
-        T_diane_caught_milking = Trigger()
+    T_diane_get_delivery_2_task = Trigger()
+    T_diane_found_delivery_2_goods = Trigger()
+    T_diane_make_delivery_2 = Trigger()
+    T_diane_delivery_2_finished = Trigger()
 
 
-        T_diane_dump_pump = Trigger()
-        T_diane_make_drink = Trigger()
-        T_diane_drunk = Trigger()
-        T_diane_made_drink = Trigger()
-        T_diane_gave_drink = Trigger()
-        T_diane_drunken_massage = Trigger()
+    T_diane_getting_sleep = Trigger()
+    T_diane_debbie_request = Trigger()
+    T_diane_house_locked = Trigger()
+    T_diane_caught_milking = Trigger()
 
 
-        T_diane_apologizing = Trigger()
+    T_diane_dump_pump = Trigger()
+    T_diane_make_drink = Trigger()
+    T_diane_drunk = Trigger()
+    T_diane_made_drink = Trigger()
+    T_diane_gave_drink = Trigger()
+    T_diane_drunken_massage = Trigger()
 
 
-        T_diane_help_her = Trigger()
-        T_diane_milking_malfunction_help = Trigger()
+    T_diane_apologizing = Trigger()
 
 
-        T_diane_debbie_overhear_conversation = Trigger()
+    T_diane_help_her = Trigger()
+    T_diane_milking_malfunction_help = Trigger()
 
 
-        T_diane_get_delivery_3_task = Trigger()
-        T_diane_found_delivery_3_goods = Trigger()
-        T_diane_make_delivery_3 = Trigger()
-        T_diane_delivery_3_got_invoice = Trigger()
-        T_diane_delivery_3_finished = Trigger()
-        T_diane_delivery_3_report_back = Trigger()
+    T_diane_debbie_overhear_conversation = Trigger()
 
 
-        T_diane_dinner_task_acquired = Trigger()
-        T_diane_debbie_check_outfit = Trigger()
-        T_diane_debbie_ask_fish = Trigger()
-        T_diane_debbie_gave_dinner_outfit_advice = Trigger()
-        T_diane_got_dinner_fish = Trigger()
-        T_diane_dinner_finished = Trigger()
+    T_diane_get_delivery_3_task = Trigger()
+    T_diane_found_delivery_3_goods = Trigger()
+    T_diane_make_delivery_3 = Trigger()
+    T_diane_delivery_3_got_invoice = Trigger()
+    T_diane_delivery_3_finished = Trigger()
+    T_diane_delivery_3_report_back = Trigger()
 
 
-        T_diane_found_carpenter = Trigger()
-        T_diane_asked_annie_help = Trigger()
-        T_diane_find_tools = Trigger()
-        T_diane_helped_annie = Trigger()
-        T_diane_carpenter_agreed = Trigger()
-        T_diane_informed = Trigger()
-        T_diane_moved_in = Trigger()
+    T_diane_dinner_task_acquired = Trigger()
+    T_diane_debbie_check_outfit = Trigger()
+    T_diane_debbie_ask_fish = Trigger()
+    T_diane_debbie_gave_dinner_outfit_advice = Trigger()
+    T_diane_got_dinner_fish = Trigger()
+    T_diane_dinner_finished = Trigger()
 
 
-        T_diane_barn_built = Trigger()
-        T_diane_checked_out_barn = Trigger()
-        T_diane_research_milk_production = Trigger()
-        T_diane_bought_milk_jug = Trigger()
-        T_diane_find_production_book = Trigger()
-        T_diane_asked_librarian = Trigger()
-        T_diane_got_production_book = Trigger()
-        T_diane_gave_production_book = Trigger()
+    T_diane_found_carpenter = Trigger()
+    T_diane_asked_annie_help = Trigger()
+    T_diane_find_tools = Trigger()
+    T_diane_helped_annie = Trigger()
+    T_diane_carpenter_agreed = Trigger()
+    T_diane_informed = Trigger()
+    T_diane_moved_in = Trigger()
 
 
-        T_diane_gotta_jack_it = Trigger()
-        T_diane_learns_your_secret = Trigger()
-        T_diane_breeding_partner = Trigger()
-        T_diane_go_to_hospital = Trigger()
-        T_diane_bathroom_sampling = Trigger()
-        T_diane_cup_o_jizz = Trigger()
-        T_diane_get_fertility_pills = Trigger()
-        T_diane_package_block = Trigger()
+    T_diane_barn_built = Trigger()
+    T_diane_checked_out_barn = Trigger()
+    T_diane_research_milk_production = Trigger()
+    T_diane_bought_milk_jug = Trigger()
+    T_diane_find_production_book = Trigger()
+    T_diane_asked_librarian = Trigger()
+    T_diane_got_production_book = Trigger()
+    T_diane_gave_production_book = Trigger()
 
 
-        T_diane_get_outfit_package = Trigger()
-        T_diane_got_outfit_package = Trigger()
-        T_diane_brought_outfit_package = Trigger()
+    T_diane_gotta_jack_it = Trigger()
+    T_diane_learns_your_secret = Trigger()
+    T_diane_breeding_partner = Trigger()
+    T_diane_go_to_hospital = Trigger()
+    T_diane_bathroom_sampling = Trigger()
+    T_diane_cup_o_jizz = Trigger()
+    T_diane_get_fertility_pills = Trigger()
+    T_diane_package_block = Trigger()
 
 
-        T_diane_breeding = Trigger()
+    T_diane_get_outfit_package = Trigger()
+    T_diane_got_outfit_package = Trigger()
+    T_diane_brought_outfit_package = Trigger()
 
 
-        T_diane_debbie_caught = Trigger()
-        T_diane_debbie_3way = Trigger()
-        T_diane_3way_finished = Trigger()
-    return
+    T_diane_breeding = Trigger()
+
+
+    T_diane_debbie_caught = Trigger()
+    T_diane_debbie_3way = Trigger()
+    T_diane_3way_finished = Trigger()
 
 label diane_fsm_init:
     python:
@@ -357,7 +355,7 @@ label diane_fsm_init:
                                        )
 
 
-        S_diane_d9_intro.add(T_diane_getting_sleep, S_diane_debbie_drop_off_request)
+        S_diane_d9_intro.add(T_diane_getting_sleep, S_diane_debbie_drop_off_request, actions=["setdefaultoutfit", [[["shirtless","shirtless","shirtless","shirtless"]]]])
         S_diane_debbie_drop_off_request.add(T_diane_debbie_request, S_diane_debbie_drop_off)
         S_diane_debbie_drop_off.add(T_diane_house_locked, S_diane_check_shed_light)
         S_diane_check_shed_light.add(T_diane_caught_milking, S_diane_ready_for_day_off)
@@ -438,13 +436,13 @@ label diane_fsm_init:
         S_diane_inform_carpenter.add(T_diane_carpenter_agreed, S_diane_couch_crashing,
                                      actions = ["unforce", M_richard])
         S_diane_couch_crashing.add(T_diane_moved_in, S_diane_barn_news,
-                                   actions = ["setdefaultloc", [[L_diane_barn_building, L_diane_barn_building, L_home_livingroom, L_home_livingroom]]]
+                                   actions = ["setdefaultloc", [[L_diane_barn_building, L_diane_barn_building, L_home_livingroom, L_home_livingroom]], ["setdefaultoutfit", [["shirtless", "shirtless", "nightgown", "nightgown"]]]]
                                    )
 
 
         S_diane_barn_news.add(T_diane_barn_built, S_diane_check_barn_out,
                               actions = ["unforce", None,
-                                         "setdefaultloc", [[L_diane_barn_interior, L_diane_barn_interior, L_home_livingroom, L_home_livingroom]]
+                                         "setdefaultloc", [[L_diane_barn_interior, L_diane_barn_interior, L_home_livingroom, L_home_livingroom]], ["setdefaultoutfit", [["shirtless", "shirtless", "nightgown", "nightgown"]]]
                                          ]
                               )
         S_diane_check_barn_out.add(T_diane_checked_out_barn, S_diane_get_milk_jug)
@@ -488,7 +486,7 @@ label diane_fsm_init:
                                           )
 
 
-        S_diane_milk_production_increase.add(T_diane_breeding, S_diane_risky_frisky_kinky)
+        S_diane_milk_production_increase.add(T_diane_breeding, S_diane_risky_frisky_kinky, actions=["setdefaultoutfit", [[["cow","cow","nightgown","nightgown"]]]])
 
 
         S_diane_risky_frisky_kinky.add(T_diane_debbie_caught, S_diane_get_dirty_with_debbie,
@@ -558,5 +556,11 @@ label diane_machine_init:
                                          "assign", ["random drink", "random.choice(['Martini', 'Pina Colada', 'Margarita'])"],
                                          ])
         M_diane.set_priority(1)
+        M_diane.outfit.set_default_outfit_schedule([["dressed", "dressed", "dressed", "dressed"]])
+        M_diane.outfit.bind_outfit_to_location(L_home_livingroom, "nightgown")
+        M_diane.outfit.bind_outfit_to_location(L_diane_shed, "shirtless")
+        M_diane.pregnancy.location_schedule[""] = LocationSchedule([[L_diane_barn_interior, L_diane_barn_interior, L_home_livingroom, L_home_livingroom]])
+        M_diane.pregnancy.location_schedule["_pregnant_bump"] = LocationSchedule([[L_diane_barn_interior, L_diane_barn_interior, L_home_livingroom, L_home_livingroom]])
+        M_diane.pregnancy.location_schedule["_pregnant_belly"] = LocationSchedule([[L_diane_barn_interior, L_diane_barn_interior, L_home_livingroom, L_home_livingroom]])
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,69 +1,75 @@
 label home_garage_pick_up_shovel:
     scene expression game.timer.image("backgrounds/location_home_garage{}_blur.jpg")
     show player 244 with dissolve
-    player_name "Да, это должно сработать!"
-    player_name "Было бы неплохо иметь немного денег для разнообразия..."
+    player_name "Yeah, this should work!"
+    player_name "It'll be nice to have some money for a change..."
     show player 243
-    jen "{b}*гм*{/b}"
+    jen "{b}*Ahem*{/b}"
     player_name "!!!" with hpunch
     show player 243 at left
-    show jenny 9 at right
+    show jenny f_upset_talk a_dressed_crossed
     with dissolve
-    jen "Что ты делаешь с лопатой?"
-    show jenny 9b
+    jen "What are you doing with that shovel?"
+    show jenny f_upset
     show player 244
-    player_name "... Ааа?"
-    player_name "О! Я беру ее в дом {b}Дианы{/b}."
-    player_name "Я буду работать ей этим летом."
+    player_name "... Huh?"
+    player_name "Oh! I'm taking it to {b}Diane's{/b} house."
+    player_name "I'm going to be working for her this summer."
     show player 243
-    show jenny 9
-    jen "{b}Диана{/b} дала тебе работу?"
-    jen "... Она никогда не предлагала мне работу!"
-    show jenny 9b
+    show jenny f_upset_talk
+    jen "{b}Diane{/b} gave you a job?"
+    jen "... She's never offered me any work!"
+    show jenny f_upset
     show player 14 with dissolve
-    player_name "Ну, это физический труд в ее саду."
-    player_name "Она, вероятно, просто предположила, что тебе это будет не интересно..."
+    player_name "Well, it's physical labor in her garden."
+    player_name "She probably just assumed you wouldn't be interested..."
     show player 13
-    show jenny 9
-    jen "Тьфу, в такую жару?"
-    jen "Да, ни за что. К черту это!"
-    show jenny 9b
+    show jenny f_eyeroll
+    jen "Ugh, in this heat?"
+    show jenny f_upset_talk
+    jen "Yeah, no way. Screw that!"
+    show jenny f_upset
     show player 10
-    player_name "Что ты делаешь в гараже?"
-    player_name "Ты никогда сюда не выходишь..."
+    player_name "What are you doing in the garage?"
+    player_name "You never come out here..."
     show player 5
-    show jenny 6d with dissolve
-    jen "Мне нужны батарейки. Разве у нас здесь их нет?"
-    show jenny 6c
+    show jenny f_normal_talk a_dressed_hips with dissolve
+    jen "I need some batteries. Don't we still have some out here?"
+    show jenny f_normal
     show player 4 with dissolve
     pause
     show player 14 with dissolve
-    player_name "Да, я тоже так думаю."
-    player_name "Посмотри в коробке на нижней полке."
+    player_name "Yeah, I think so."
+    player_name "Try that box on bottom shelf there."
     show player 13
     pause
-    show jenny 16f at Position (xoffset=190) with dissolve
+    show jenny b_bend f_empty a_empty at flip
+    show jenny at Position (xpos=800)
+    with dissolve
     show player 428
     player_name "!!!"
     pause
-    show jenny 182 with dissolve
+    show jenny b_bend_down with dissolve
+    pause
     show player 12
-    player_name "Черт возьми, зачем тебе столько?"
+    hide jenny
+    show jenny a_dressed_hips_battery f_upset_talk b_dressed at unflip
+    with dissolve
+    player_name "Holy crap, what do you need so many for?"
     show player 5
-    show jenny 183
-    jen "Не твое дело, неудачник!"
-    jen "Просто возьми лопату и проваливай."
-    show jenny 182
+    jen "None of your business, loser!"
+    jen "Just take your shovel and beat it."
+    show jenny f_upset
     show player 12
-    player_name "Тч, неважно."
+    player_name "Tch, whatever."
     show player 90
-    show jenny 183
-    jen "Получай удовольствие напрягая задницу для {b}Дианы{/b}..."
-    show jenny 184
-    jen "Хахаха!"
+    show jenny f_grin_talk
+    jen "Have fun busting your ass for {b}Diane{/b}..."
+    show jenny f_laugh
+    jen "Hahaha!"
     hide jenny with dissolve
     show player 12
-    player_name "... Она такая стерва."
+    player_name "... She's such a bitch."
     show player 90
     show screen popup("boxes/popup_item_shovel1.png")
     $ player.get_item("shovel")
@@ -91,14 +97,14 @@ label car_dialogue:
 
 label garage_car_mom_mall_outing:
     scene expression "backgrounds/location_car_cutscene01.jpg"
-    show expression FilteredText("И так мы запрыгнули в машину и направились в торговый центр.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("So we hopped in the car and made our way to the mall.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
-    show expression FilteredText("Я обнаружил, что время прошло быстро, пока я был с {b}[deb_name]{/b}...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("I found that time passed quickly when I was with {b}[deb_name]{/b}...") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
-    show expression FilteredText("... Ее приятная компания и заразительная улыбка поднимали мне настроение.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("... Her pleasant company and infectious smile never failed to brighten my mood.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide cutscene
     scene black
@@ -107,24 +113,24 @@ label garage_car_mom_mall_outing:
 
 label garage_car_mom_check_car:
     show player 4 with dissolve
-    player_name "( Она права. Машина не заводиться. )"
+    player_name "( She's right. The car doesn't want to start. )"
     show player 5
-    player_name "( Я лучше проверю двигатель. )"
+    player_name "( I'd better check the engine. )"
     if game.timer.is_dark():
-        player_name "( Здесь определенно темно. )"
+        player_name "( It sure is dark in here. )"
     return
 
 label garage_car_seen:
     show player 34 at left with dissolve
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 35
-    player_name "Я не должен испальзовать {b}[deb_name]{/b} машину."
+    player_name "I don't need to use {b}[deb_name]'s{/b} car."
     hide player 35 with dissolve
     return
 
 label garage_car_not_seen:
     show player 2 at left with dissolve
-    player_name "Машина {b}[deb_name]{/b} ... жаль, что у меня нет причины чтобы взять ее..."
+    player_name "{b}[deb_name]'s{/b} car ... wish I had a reason to drive it..."
     hide player 2 at left with dissolve
     return
 
@@ -138,14 +144,14 @@ label engine_broken_dialogue:
     show player 23 with dissolve
     player_name "( !!! )"
     show player 22
-    player_name "( Какого черта?! Похоже, кто-то поработал молотком! )"
+    player_name "( What the hell?! It looks like someone worked it over with a hammer! )"
     pause
     show player 16
-    player_name "( Интересно, это как-то связано с теми парнями в костюмах? )"
-    player_name "( Подонки! )"
+    player_name "( I wonder if this has something to do with those shady guys in the suits? )"
+    player_name "( Those Scumbags! )"
     show player 11
-    player_name "( Я никак не могу это исправить. Нам нужен совершенно новый двигатель. )"
-    player_name "( Я, наверное, должен сказать {b}[deb_name]{/b} об этом. Она расстроится! )"
+    player_name "( There's no way I can fix this. We have to get a whole new engine or something. )"
+    player_name "( I should probably tell {b}[deb_name]{/b} about this. She won't be happy! )"
     return
 
 label lawnmower_dialogue:
@@ -173,15 +179,15 @@ label lawnmower_dialogue:
 label garage_mom_fill_mower_night:
     scene expression game.timer.image("home_garage{}")
     show player 35f with dissolve
-    player_name "( Зачем мне использовать газонокосилку ночью? Я должен вернуться днем... )"
+    player_name "( Why would I use the lawn mower at night? I should return during the day... )"
     hide player 35 with dissolve
     return
 
 label garage_mom_fill_mower_no_gas:
     scene home_garage_closeup
     show player 428f at right
-    player_name "( Я много лет не пользовался газонокосилкой... вспомнить бы, как ей пользоваться? )"
-    player_name "( {b}Отец{/b} тянул за шнур и она начинала работать. Попробуем. )"
+    player_name "( I haven’t used a lawn mower in years... do I even remember how to use one? )"
+    player_name "( {b}Dad{/b} used to pull the cord and it would start. Let me try that. )"
     scene home_garage_closeup
     show player 197
     with dissolve
@@ -192,19 +198,19 @@ label garage_mom_fill_mower_no_gas:
     scene home_garage
     show player 35f
     with dissolve
-    player_name "( Должно быть, бензин кончился. Она едва заработала, так что я хотя бы знаю, как включить. )"
+    player_name "( It must be out of gas. It barely started, so at least I know it’s running. )"
     show player 2f
-    player_name "( Без топлива не заработает. Я должен купить немного в {b}CONSUM-R{/b}. )"
+    player_name "( Well it’s not going to start without gas. I should probably get some from {b}CONSUM-R{/b}. )"
     return
 
 label garage_mom_fill_mower_success:
     scene home_garage_closeup
     show player 202 at Position (xpos=521) with dissolve
-    player_name "( У меня наконец-то есть бензин для газонокосилки. )"
+    player_name "( I finally have some gas for the mower. )"
     show player 201 at Position (xpos=509)
-    player_name "( Этого должно хваить. )"
+    player_name "( That should be enough. )"
     show player 196 at Position (xpos=521)
-    player_name "Надеюсь, это сработает. Я не знаю, что еще делать после этого..."
+    player_name "Hope this works. I don’t know what else to do after this..."
     show player 197 at center
     pause
     show player 200 at Position (xpos=566)
@@ -214,17 +220,17 @@ label garage_mom_fill_mower_success:
     show player 200 at Position (xpos=566)
     pause
     show player 199 at center
-    player_name "Хм... у меня ничего не получается. Я попробую потянуть немного сильнее..."
+    player_name "Hmm... it's not working. I'll try pulling it a bit harder..."
     show player 200 at Position (xpos=566)
     pause
     show player 198 at center
-    player_name "Заработала!"
+    player_name "It worked!"
     return
 
 label garage_lawnmower_not_needed:
     scene expression game.timer.image("home_garage{}")
     show player 35 with dissolve
-    player_name "( Зачем мне использовать газонокосилку? Трава выглядит хорошо... )"
+    player_name "( Why would I use the lawn mower? The grass looks fine... )"
     hide player 35 with dissolve
     return
 
@@ -246,70 +252,70 @@ label garage_dewitt_drill:
 label garage_dewitt_drill_dialogue:
     scene expression game.timer.image("home_garage{}")
     show player 14 with dissolve
-    player_name "Перед вами старая дрель!"
-    player_name "Батареи также заряжены."
+    player_name "Here is an old drill!"
+    player_name "The batteries are still charged too."
     show player 12
-    player_name "Теперь мне просто нужно найти {b}упавшую ветку с дерева{/b}."
+    player_name "Now I just need to look for {b}a fallen tree branch{/b}."
     hide player with dissolve
     return
 
 label garage_dewitt_make_new_flute:
     scene home_garage_cs1
     with fade
-    show text "Странно, но было приятно строить эту флейту вручную.\nЯ на самом деле очень рад играть в эту вещь сейчас!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "You know, it was oddly satisfying, building this flute by hand.\nI'm actually pretty excited to play this thing now!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
 
     scene expression game.timer.image("home_garage{}")
     show player 566 with dissolve
-    player_name "Там!"
-    player_name "Не все так плохо!"
+    player_name "There!"
+    player_name "Doesn't look all that bad!"
     show player 567
     pause
     show player 566
-    player_name "Посмотрим, что будет, когда я возьму ее в рот и подую..."
+    player_name "Let's see what it does when I put my lips on it and blow..."
     show player 567d with dissolve
     pause
     show player 566 with dissolve
-    player_name "Эй, эта штука звучит неплохо!"
-    player_name "Бьюсь об заклад, {b}Мисс Девитт{/b} офигеет, когда увидит, что я сделал флейту с нуля!"
+    player_name "Hey, this thing sounds pretty good!"
+    player_name "I bet {b}Ms. Dewitt{/b} is gonna freak out when she see's I built a flute from scratch!"
     hide player with dissolve
     return
 
 label garage_dewitt_find_paint:
     scene expression game.timer.image("home_garage{}")
     show player 32 at Position (xoffset=68) with dissolve
-    player_name "Я не вижу здесь краску..."
+    player_name "I don't see any paint in here..."
     pause
     show player 10 with dissolve
-    player_name "Может быть {b}[deb_name]{/b} знает где она."
+    player_name "Maybe {b}[deb_name]{/b} knows where it went."
     hide player with dissolve
     return
 
 label garage_dewitt_make_replacement_guitar:
     scene home_garage_cs2
     with fade
-    show text "Знаешь, я действительно начинаю понимать всю эту деревообработку.\nВозможно, мне стоит стать плотником." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "You know, I'm really starting to dig all this woodworking.\nPerhaps I should look into becoming a carpentar someday." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
 
     scene expression game.timer.image("home_garage{}")
     show player 575 with dissolve
-    player_name "Фу! С другой стороны, возможно, я не так талантлив, как думал."
-    player_name "Я надеюсь, что это достаточно хорошо, чтобы обмануть {b}Миссис Джонсон{/b}."
+    player_name "Yikes! Then again, maybe I'm not as talented as I thought."
+    player_name "I hope this is good enough to fool {b}Mrs. Johnson{/b}."
     hide player with dissolve
     return
 
 label garage_build_easels:
     scene location_home_garage_cutscene03
     with fade
-    show text "Да, я думаю, это выглядит правильно." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Yeah, I think that looks right." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Надеюсь {b}Мисс Росс{/b} понравится!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "I hope {b}Miss Ross{/b} likes it!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Я действительно не хочу ее расстраивать..." at Position (xpos=512, ypos=700) with dissolve
+    show text "I really don't want to let her down..." at Position (xpos=512, ypos=700) with dissolve
     pause
     hide text
     with dissolve
@@ -318,7 +324,7 @@ label garage_build_easels:
 label garage_workbench_not_needed:
     scene expression game.timer.image("home_garage{}")
     show player 12 with dissolve
-    player_name "( У меня нет причин использовать это прямо сейчас. )"
+    player_name "( I have no reason to use this right now. )"
     hide player with dissolve
     return
 
@@ -326,7 +332,6 @@ label debbie_car_sex_pre:
     scene car_interior
     show player car 2d
     show player_arms car 1
-
     show debbie car 4 at right
     show expression AnimatedImage("debbie_arms_car", [5,"5b","5c","5b"], M_mom) as debbie_arms_car at Position(xalign = 0.357, yalign = 0.558)
     show xtra 30 at right
@@ -336,39 +341,39 @@ label debbie_car_sex_pre:
 label debbie_car_sex_pre_first_time:
     pause
     show debbie car 4b
-    deb "Знаешь, я действительно не ожидала, что ты приведешь меня в машину."
+    deb "You know, I really wasn't expecting you to bring me to the car."
     show debbie car 5g
-    deb "Сначала я была настроена скептически, но теперь, когда мы сидим здесь..."
+    deb "I was sceptical at first but now that we're sitting here..."
     show player car 3
-    deb "... Это меня возбуждает."
-    deb "Представьте, если бы мы были где-то припаркованы?"
-    deb "Ммм..."
-    deb "Я промокаю от одной мысли об этом!"
+    deb "... It's kinda turning me on."
+    deb "Imagine if we were parked out in public somewhere?!"
+    deb "Mmm..."
+    deb "I'm getting wet just thinking about it!"
     show debbie car 5f
     show player car 4g
-    player_name "Я бы попробовал что-то подобное..."
+    player_name "I'd be down to try something like that..."
     show player car 5
-    player_name "... Тебе не будет стыдно?"
+    player_name "... You wouldn't be embarrassed?"
     show player car 5b
     show debbie car 5c
     show debbie_arms_car 5 at Position(xalign = 0.357, yalign = 0.558)
 
     deb "..."
     show debbie car 5g
-    deb "Хех, я не знаю... Я, наверное, была бы подавленой, если бы нас поймали!."
-    deb "... хотя..."
-    deb "... Это то, что делает его таким захватывающим, ты понимаешь?!"
-    deb "Ну, по крайней мере, это меня возбуждает..."
-    deb "Я промокаю от одной мысли об этом!"
+    deb "Heh, I dunno... I would probably be mortified if we got caught!."
+    deb "... But..."
+    deb "... That's what makes it so exciting, you know?!"
+    deb "Well, at least it gets me excited..."
+    deb "I'm getting wet just thinking about it!"
     show debbie car 5f
     show player car 4h
     player_name "..."
     show player car 5
-    player_name "Ты, да?"
+    player_name "You are?"
     show player car 5b
     show debbie car 3b
-    deb "Хехе, да..."
-    deb "Так что мы будем делать с этим большим, твердым членом?"
+    deb "Hehe, yes..."
+    deb "So what are we gonna do about this big, hard cock here?"
     show debbie car 3
     show player car 2d
     return
@@ -376,38 +381,38 @@ label debbie_car_sex_pre_first_time:
 label debbie_car_sex_pre_repeat:
     show debbie car 4b
     show debbie_arms_car 5c at Position(xalign = 0.357, yalign = 0.558)
-    deb "Мне нравится чувствовать, как этот здоровяк напрягается в моей руке."
+    deb "I like feeling this big guy stiffen up in my hand."
     show debbie car 4
     pause
     show player car 4b
     show debbie car 3b
     show debbie_arms_car 5 with dissolve
-    deb "Молоденькие члены быстро твердеют."
+    deb "Young cocks sure do get hard fast."
     show debbie car 4
     pause
     show player car 2d
     show debbie car 5b with dissolve
-    deb "Выглядит так... Вкусно!"
+    deb "It looks so... Delicious!"
     show debbie car 3b
-    deb "Хочешь, чтобы я взяла в рот?"
+    deb "Want me to take you in my mouth?"
     show debbie car 3
     return
 
 label debbie_car_sex_jerk_off:
     show player car 2c
-    player_name "Просто продолжай делать то, что делаешь!"
+    player_name "Just keep doing what you're doing!"
     show player car 2d
     show debbie car 3b
-    deb "Хорошо, милый."
+    deb "Alright, sweetie."
     show debbie car 4
     return
 
 label debbie_car_sex_bj:
     show player car 2c
-    player_name "Ты... Используешь свой рот?"
+    player_name "Would you... Use your mouth?"
     show player car 2d
     show debbie car 3b
-    deb "Точно!"
+    deb "Absolutely!"
     scene car_interior bj
     show player car 4c
     show player_arms car 1
@@ -430,26 +435,26 @@ label debbie_car_sex_bj:
 
 label debbie_car_sex_leave:
     show player car 5
-    player_name "Я думаю, что сейчас хорошо."
-    player_name "Это было хорошо."
+    player_name "I think I'm good for now."
+    player_name "That felt good."
     show player car 5b
     show debbie car 5g
-    deb "Правда?"
-    deb "Но ты еще не кончил?"
+    deb "Really?"
+    deb "But you haven't even cum yet?"
     show debbie car 5f
     show player car 2
-    player_name "Ничего страшного."
+    player_name "That's fine."
     show player car 5b
     show debbie car 5g
-    deb "Я сделала что-то не так?"
+    deb "Did I do something wrong?"
     show debbie car 5f
     show player car 2c
-    player_name "Было хорошо {b}[deb_name]{/b}! Не волнуйся."
-    player_name "Мне нужно идти, вот и все."
+    player_name "It was good {b}[deb_name]{/b}! Don't worry."
+    player_name "I have to get going is all."
     show player car 5b
     deb "..."
     show debbie car 5g
-    deb "Хорошо..."
+    deb "Alright..."
     return
 
 label debbie_car_sex:
@@ -463,17 +468,17 @@ label debbie_car_sex:
 
         call expression game.dialog_select("debbie_car_sex_pre_repeat")
     menu:
-        "Подрочи мне.":
+        "Jerk me off.":
             $ M_mom.set("car jerk", True)
             call expression game.dialog_select("debbie_car_sex_jerk_off")
             jump expression game.dialog_select("car_mom_sex_loop")
-        "Отсос.":
+        "Blowjob.":
 
             $ M_mom.set("car jerk", False)
             call expression game.dialog_select("debbie_car_sex_bj")
             jump expression game.dialog_select("car_mom_sex_loop")
 
-        "Уйти." if store._in_replay == None:
+        "Leave." if store._in_replay == None:
             call expression game.dialog_select("debbie_car_sex_leave")
     scene black with fade
     $ renpy.end_replay()
@@ -484,9 +489,9 @@ label debbie_car_sex:
     $ game.main()
 
 label car_mom_sex_loop:
-    show screen sex_anim_buttons
+    show screen sex_anim_buttons 
     pause
-    hide screen sex_anim_buttons
+    hide screen sex_anim_buttons 
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -527,41 +532,41 @@ label car_mom_hscene_dialog:
             if randomizer() <= 50:
                 show debbie car 4b
                 show player car 5b
-                deb "Не могу поверить, что у тебя такой большой член!{p=2}{nw}"
-                deb "Мне нравится он на ощупь.{p=2}{nw}"
+                deb "I can't believe your cock is so big!{p=2}{nw}"
+                deb "I love how soft it feels.{p=2}{nw}"
                 show debbie car 4
             else:
 
                 show debbie car 5b
                 show player car 5b
-                deb "Я просто люблю твой большой член!?{p=2}{nw}"
-                deb "Кончи для меня, {b}[firstname]{/b}!{p=2}{nw}"
+                deb "I just love your big cock!?{p=2}{nw}"
+                deb "Cum for me, {b}[firstname]{/b}!{p=2}{nw}"
                 show player car 4b
                 pause 1
                 show debbie car 4
                 show player car 4c
-                player_name "Хорошо...{p=2}{nw}"
+                player_name "Okay...{p=2}{nw}"
                 show player car 4h
     else:
         if animcounter == 1:
-            deb "Мммм...{p=1}{nw}"
+            deb "Mmmm...{p=1}{nw}"
 
         elif animcounter == 3:
-            player_name "О...{p=1}{nw}"
+            player_name "Oh...{p=1}{nw}"
             show player car 4d
-            player_name "Сейчас, {b}[deb_name]{/b}.{p=2}{nw}"
+            player_name "Right there, {b}[deb_name]{/b}.{p=2}{nw}"
             show player car 4c
     return
 
 label car_mom_faster_dialogue:
     show player car 4c
-    player_name "Быстрее, {b}[deb_name]{/b}."
+    player_name "Faster, {b}[deb_name]{/b}."
     show player car 4h
     jump expression game.dialog_select("car_mom_sex_loop")
 
 label car_mom_slower_dialogue:
     show player car 4c
-    player_name "Помедленее..."
+    player_name "Go slower..."
     show player car 4h
     jump expression game.dialog_select("car_mom_sex_loop")
 
@@ -587,17 +592,17 @@ label car_mom_jerk_cum:
     with dissolve
     player_name "( !!! )"
     show debbie car 4b
-    deb "Воооууу!!!"
+    deb "Whoa!!!"
     show debbie car 5b
-    deb "О, милый!"
+    deb "Oh, sweetie!"
     show player car 2b
     show player_arms car 1 with dissolve
-    deb "Я всегда забываю, насколько велики твои заряды!!"
+    deb "I always forget just how big your loads are!"
     show debbie car 4b
-    deb "По крайней мере, у нас ничего не было в  машине..."
+    deb "At least we didn't get any on the car..."
     show debbie car 3
     show player car 2c
-    player_name "Было круто..."
+    player_name "That was great..."
     scene car_interior kiss
     show debbie car 6 at right
     show player_boner car 1b
@@ -612,25 +617,25 @@ label car_mom_jerk_cum:
     show debbie_arms_car 1
     show xtra 30 at right
     with dissolve
-    player_name "Спасибо, {b}[deb_name]{/b}."
+    player_name "Thanks, {b}[deb_name]{/b}."
     show player car 2d
     show debbie car 3b
-    deb "Незачто, милый."
+    deb "You're welcome, sweetie."
     show debbie car 4b
-    deb "Давай вернемся назад, прежде чем {b}[jen_name]{/b} начнет задаваться вопросом, куда мы пропали."
+    deb "Let's head back inside before {b}[jen_name]{/b} starts wondering where we snuck off to."
     show debbie car 3b
-    deb "Я не хочу, чтобы она узнала, что мы здесь делаем!"
+    deb "I don't want her to find out what we're doing out here!"
     return
 
 label car_mom_bj_cum:
     show player_arms car 2
     show player car 4d
-    player_name "{b}[deb_name]{/b}, я на подходе..."
+    player_name "{b}[deb_name]{/b}, I'm gonna..."
     player_name "( !!! )"
     show debbie_car_bj 9
     show player_arms car 2
     with flash
-    deb "Мммммм!!"
+    deb "Mmmmph!!"
     scene car_interior
     show player car 4d
     show player_arms car 1
@@ -640,8 +645,8 @@ label car_mom_bj_cum:
     with dissolve
     pause
     show player car 2d
-    deb "{b}*глоток*{/b}"
-    deb "... {b}*глоток*{/b}"
+    deb "{b}*Gulp*{/b}"
+    deb "... {b}*Gulp*{/b}"
     show debbie car 2 at right
     hide debbie_arms_car
     hide debbie_car_bj
@@ -651,25 +656,25 @@ label car_mom_bj_cum:
     with dissolve
     pause
     show debbie car 3b
-    deb "Вау! Так много!"
-    deb "Фу... Я думаю, у меня не будет аппетита за ужином."
+    deb "Wow! That was so much!"
+    deb "Phew... I guess I won't have much of an appetite at dinner tonight."
     show debbie car 3
     show player car 2c
-    player_name "Это было круто! У тебя это хорошо получается!"
+    player_name "That was awesome! You're so good at that!"
     show player car 2d
     show debbie car 3b
-    deb "Хехе, ну я рада, что тебе понравилось, {b}[firstname]{/b}. Потому что я люблю сосать твой член!"
+    deb "Hehe, well I'm glad you enjoy it, {b}[firstname]{/b}. Cause I love sucking your cock!"
     show debbie car 3b
-    deb "Давай вернемся назад, прежде чем {b}[jen_name]{/b} начнет задаваться вопросом, куда мы пропали."
+    deb "Let's head back inside before {b}[jen_name]{/b} starts wondering where we snuck off to."
     show debbie car 3
     show player car 5
-    player_name "Хорошо."
-    player_name "Просто дай мне сначала привести себя в порядок..."
+    player_name "Alright."
+    player_name "Just let me clean myself up first..."
     show player car 3
     show debbie car 3b
-    deb "Увидимся в доме, милый!"
+    deb "I'll see you in there, sweetie!"
     show player car 5b
     show debbie car 4b
-    deb "Не задерживайся слишком долго..."
+    deb "Don't take too long..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

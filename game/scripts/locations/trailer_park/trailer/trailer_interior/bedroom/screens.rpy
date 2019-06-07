@@ -1,5 +1,15 @@
-screen trailer_bedroom:
+screen trailer_bedroom():
+    use mods_screens_hook("trailer_bedroom")
+
     add game.timer.image("trailer_bedroom{}")
+
+    if not player.has_picked_up_item("roxxy_panties"):
+        imagebutton:
+            focus_mask True
+            pos (509,254)
+            idle game.timer.image("objects/object_panties_03{}.png")
+            hover HoverImage(game.timer.image("objects/object_panties_03{}.png"))
+            action Hide("trailer_bedroom"), Jump("trailer_bedroom_roxxy_panties")
 
     imagebutton:
         focus_mask True
@@ -18,7 +28,7 @@ screen trailer_bedroom:
 
 
 
-screen roxxy_bed_sex_options:
+screen roxxy_bed_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

@@ -1,4 +1,6 @@
-screen computer_lab:
+screen computer_lab():
+    use mods_screens_hook("computer_lab")
+
     add game.timer.image("backgrounds/location_school_computer_day{}.jpg")
 
     imagebutton:

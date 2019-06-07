@@ -1,4 +1,6 @@
-screen dianes_kitchen:
+screen dianes_kitchen():
+    use mods_screens_hook("dianes_kitchen")
+
     add "backgrounds/location_diane_kitchen_empty_day.jpg"
 
     if M_diane.is_state(S_diane_make_drink):
@@ -55,7 +57,7 @@ screen dianes_kitchen:
             hover HoverImage("objects/object_sink_01.png")
             action Hide("dianes_kitchen"), Jump(game.dialog_select("dianes_kitchen_get_water"))
 
-screen object_note_03_closeup:
+screen object_note_03_closeup():
     imagebutton:
         focus_mask None
         pos (0,0)

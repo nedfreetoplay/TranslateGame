@@ -1,7 +1,5 @@
-label tony_triggers_init:
-    python:
-        T_tony_intro = Trigger("intro", "default")
-    return
+init python:
+    T_tony_intro = Trigger("intro", "default")
 
 label tony_fsm_init:
     python:

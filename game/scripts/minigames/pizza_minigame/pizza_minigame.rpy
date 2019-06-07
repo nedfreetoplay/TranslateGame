@@ -2,19 +2,19 @@ label pizza_minigame:
     if player.transport_level == 0:
         scene location_pizza_day_blur with None
         show player 35 with dissolve
-        player_name "Мне нужно найти {b}велосипед{/b} или что-то такое, потому что я буду слишком медленно идти."
+        player_name "I need to find a {b}bicycle{/b} or something, I'll be too slow on foot. Anything on wheels should do."
         hide player with dissolve
         jump pizza_interior_dialogue
     $ pizza_earnings = 0
     if player.transport_level > 1:
         menu:
-            "На велосипеде.":
+            "Use the bike":
                 call screen pizza_minigame(1)
-            "На скутере." if player.transport_level>1:
+            "Use the scooter" if player.transport_level>1:
                 call screen pizza_minigame(2)
-            "На маленькой машинке." if player.transport_level>2:
+            "Use the small car" if player.transport_level>2:
                 call screen pizza_minigame(3)
-            "На спортивном авто." if player.transport_level>3:
+            "Use the fast car" if player.transport_level>3:
                 call screen pizza_minigame(4)
     call screen pizza_minigame(1)
 
@@ -25,18 +25,18 @@ label pizza_delivered_fail:
     show tony f_suspicious zorder 0 at flip, Position (xpos=750)
     show player 5f zorder 3 at right
     with dissolve
-    tony "Я получил несколько жалоб от клиентов..."
-    tony "Они сказали, что получили пиццу поздно, и что она была холодной."
+    tony "I got some complaint calls from customers..."
+    tony "They said they got their pizza late and that it was cold."
     show player 10f
-    player_name "Прости, Тони. Я должен был неверно прочитать адрес..."
+    player_name "Sorry, {b}Tony{/b}. I must of read the address wrong..."
     show player 11f
     show tony f_normal_talk at flip
-    tony "Все в порядке, парень. Ты новичок в этом, со временем станет лучше."
+    tony "It's alright, kid. You're new at this, you'll get better over time."
     show player 1f
-    tony "Вот твоя плата за работу, которую ты сделал, приходи позже, когда мы получим больше заказов."
+    tony "Here's your pay for the work you did, come back later when we got more deliveries."
     show player 17f
     show tony f_normal
-    player_name "Спасибо, {b}Тони{/b}!"
+    player_name "Thanks, {b}Tony{/b}!"
     jump pizza_delivered
 
 label pizza_delivered_success:
@@ -46,29 +46,23 @@ label pizza_delivered_success:
     show tony f_normal_talk zorder 0 at flip, Position (xpos=750)
     show player 1f zorder 3 at right
     with dissolve
-    tony "Я знал, что могу рассчитывать на тебя малыш!"
+    tony "I knew I could count on you kid!"
     show tony f_normal at flip
     show player 14f
-    player_name "Я справился?"
+    player_name "I did alright?"
     show tony f_normal_talk
     show player 1f
-    tony "Ещё как!"
-    tony "Вот твоя зарплата, приходи позже, когда мы получим больше заказов!"
+    tony "You sure did!"
+    tony "Here's your pay, come back later when we got more deliveries!"
     show tony f_normal
     show player 17f
-    player_name "Спасибо, {b}Тони{/b}!"
+    player_name "Thanks, {b}Tony{/b}!"
     jump pizza_delivered
 
 
 label pizza_delivered:
-    show unlock35 zorder 3 at truecenter
-    show text "{size=30}{b}[pizza_earnings]{/b}{/size}" zorder 4 at Position(xpos = 485,ypos = 413)
-    with dissolve
-    play audio coins1
+    call screen money_popup(pizza_earnings, "pizza")
     $ player.get_money(pizza_earnings)
-    $ renpy.pause()
-    hide text "{b}[pizza_earnings]{/b}"
-    hide unlock35
     with dissolve
     hide player
     hide tony

@@ -1,4 +1,6 @@
-screen shower:
+screen shower():
+    use mods_screens_hook("shower")
+
     $ player.go_to(L_home_shower)
     add game.timer.image("backgrounds/location_home_shower_02{}.jpg")
 
@@ -8,7 +10,7 @@ screen shower:
             pos (657,370)
             idle "objects/object_towel_01.png"
             hover HoverImage("objects/object_towel_01.png")
-            action Function(player.get_item, "towel"), Show("popup", Image = "boxes/popup_item_towel1.png")
+            action Function(player.get_item, "towel"), Show('popup', None, "boxes/popup_item_towel1.png")
 
     imagebutton:
         focus_mask True
@@ -17,7 +19,7 @@ screen shower:
         hover HoverImage("boxes/auto_option_01.png")
         action Hide("shower"), Jump("hallway_dialogue")
 
-screen shower_sex_buttons:
+screen shower_sex_buttons():
     imagebutton:
         focus_mask True
         pos (940,600)
@@ -51,7 +53,7 @@ screen shower_sex_buttons:
             Return
         ]
 
-screen shower_mom_sex_options:
+screen shower_mom_sex_options():
     imagebutton:
         pos (250,700)
         idle "buttons/judith_stage02_01.png"
@@ -79,7 +81,7 @@ screen shower_mom_sex_options:
                 hover HoverImage("buttons/speed_01.png")
                 action Hide("shower_mom_sex_options"), Function(M_mom.set, "sex speed", M_mom.get('sex speed') - 0.1), Jump("mom_shower_sex_loop")
 
-screen sis_shower_sex_options:
+screen sis_shower_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -120,7 +122,7 @@ screen sis_shower_sex_options:
             action Hide("sis_shower_sex_options"), Function(M_jenny.set, "sex speed", M_jenny.get("sex speed") - 0.1), Jump(game.dialog_select("sis_shower_sex_loop"))
 
 
-screen debbie_shower_blowjob_options:
+screen debbie_shower_blowjob_options():
 
     imagebutton:
         pos (170,700)

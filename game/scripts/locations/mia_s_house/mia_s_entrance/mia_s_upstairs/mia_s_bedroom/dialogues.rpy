@@ -3,92 +3,92 @@ label mias_bedroom_mia_tattoo_help:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Привет!"
-    mia "Я так рада, что ты смог прийти."
+    mia "Hey!"
+    mia "I'm so happy you could make it."
     show mia 7
     show player 17
-    player_name "Все нормально. Просто мне показалось, что ты хочешь поговорить о чем-то важном."
+    player_name "It's fine. It just seemed like you had something important to talk about."
     show player 14
-    player_name "Ты хотела меня о чем-то спросить?"
+    player_name "You wanted to ask me something?"
     show player 13
     show mia 10
-    mia "Ну, это не так уж и важно..."
-    mia "...Я надеялась узнать твое мнение кое о чем, и, может, ты мне поможешь."
+    mia "Well, it's not THAT important..."
+    mia "...I was hoping I could get your opinion on something, and maybe you could help me."
     show mia 7
     show player 10
-    player_name "Ох... Думаю, да. В чем заключается дело?"
+    player_name "Uhh... I guess so. What is it about?"
     show player 11
     show mia 10
-    mia "Ты знаешь что-нибудь о татуировках?"
+    mia "Do you know anything about tattoos?"
     show mia 7
     show player 10
-    player_name "Татуировках?!"
+    player_name "Tattoos?!"
     show player 12
-    player_name "Почему? Ты хочешь сделать ее себе?"
+    player_name "Why? Are you thinking about getting one?"
     show player 11
     show mia 12
-    mia "Я знаю, что это плохо..."
-    mia "...Но, я устала от того, что мне говорят, что делать!"
-    mia "Мне просто хочется сделать что-то ... спонтанное и веселое!"
-    mia "Почувсвовать свободу..."
+    mia "I know it's bad..."
+    mia "...But, I'm tired of being told what to do!"
+    mia "I just feel like doing something... spontaneous and to have fun!"
+    mia "To feel free..."
     show mia 8
     show player 10
-    player_name "Твоя мама не будет возражать?"
+    player_name "Is your mom going to be okay with this?"
     show player 5
     show mia 12
-    mia "Мне пофиг."
+    mia "I don't care anymore."
     show mia 8
     show player 11
     player_name "..."
     show player 14
-    player_name "Татуировка - это круто. Я просто не хочу, чтобы у тебя были неприятности."
+    player_name "Tattoos are pretty cool. I just don't want you to get into trouble."
     show player 13
     show mia 12
-    mia "Ты собираешься мне помочь?"
+    mia "Are you going to help me?"
     show mia 8
     show player 14
-    player_name "Конечно, но как?"
+    player_name "Sure, but how?"
     show player 13
     show mia 10
-    mia "Я знаю, ты любишь рисовать, и я видела твои рисунки..."
-    mia "...Я надеялась, ты нарисуешь что-нибудь для моей татуировки!"
+    mia "I know you like to draw stuff in class all the time, and I've seen your art..."
+    mia "...I was hoping you would draw something for my tattoo!"
     show mia 7
     show player 22
     player_name "!!!" with hpunch
     show player 29 at Position(xoffset=8)
-    player_name "Ты уверена?"
+    player_name "Are you sure?"
     show player 13 with dissolve
     show mia 10
-    mia "Да! У тебя хорошо получается."
+    mia "Yeah! You're so good at it."
     show mia 7
     show player 21
-    player_name "Спасибо, но я даже не знаю, чего ты хочешь!"
+    player_name "Thanks, but I don't even know what you want!"
     show player 13
     show mia 10
-    mia "Хм... Я хочу что-нибудь... миленькое!"
+    mia "Hmm... I want something... cute!"
     show mia 9
-    mia "С красивыми цветами!"
+    mia "With pretty colors!"
     show mia 7
     show player 24
-    player_name "Что делать, если не плучится... и в итоге тебе не понравится?"
+    player_name "What if it's bad... and you end up hating it?"
     show player 13
     show mia 10
-    mia "Я уверена, что все будет хорошо!"
+    mia "I'm sure it will be fine!"
     show mia 7
     show player 14
-    player_name "Как скажешь..."
+    player_name "If you say so..."
     show player 13
     show mia 10
-    mia "Приходи ко мне, когда у тебя что-нибудь будет."
+    mia "Come see me when you have something."
     show mia 7
     show player 14
-    player_name "Хорошо."
+    player_name "Alright."
     show player 13
     show mia 10
-    mia "Мне нужно пойти поспать. Увидимся в школе!"
+    mia "I have to go sleep. I'll see you at school!"
     show mia 7
     show player 36 with dissolve
-    player_name "Спокойной ночи!"
+    player_name "Good night!"
     hide player
     hide mia
     with dissolve
@@ -96,22 +96,22 @@ label mias_bedroom_mia_tattoo_help:
 
 label mias_bedroom_mia_midnight_help:
     scene expression game.timer.image("mia_bedroom{}")
-    player_name "{b}Мии{/b} здесь нет... И я не вижу ключа."
+    player_name "{b}Mia's{/b} not here... And I don't see any keys."
     return
 
 label mia_study:
     $ game.timer.tick()
     call expression game.dialog_select("mia_study_intro")
     menu:
-        mia "Тебе... Тоже нравится?"
-        "Да.":
+        mia "Do you... Also like me?"
+        "Yes.":
             call expression game.dialog_select("mia_study_like_mia")
             menu:
-                "Закрой глаза.":
+                "Close your eyes.":
                     call expression game.dialog_select("mia_study_like_mia_kiss")
                     $ M_player.set("jerk mia", True)
                     $ M_mia.trigger(T_mia_kiss)
-        "Нет.":
+        "No.":
 
             call expression game.dialog_select("mia_study_dislike_mia")
     $ player.go_to(L_miahouse)
@@ -122,35 +122,35 @@ label mia_study_intro:
     show mia 16 zorder 1 at Position (xpos = 680, ypos = 574)
     show player 141 zorder 0 at Position (xpos = 250, ypos = 578)
     with dissolve
-    mia "Так... Я не знаю, как это сказать..."
+    mia "So... I don't really know how to say this..."
     show mia 18
     show player 143
-    mia "...И я такая застенчивая перед людьми, особенно перед мальчиками..."
-    mia "...но я действительно не хочу учиться."
+    mia "...And I'm so shy in front of people, especially boys..."
+    mia "...but, I didn't really want to study."
     show player 145
     show mia 19
-    player_name "А?"
+    player_name "Huh?"
     show mia 18
     show player 143
-    mia "Я не могла придумать лучшего оправдания, чтобы потусоваться..."
-    mia "... И ты мне вроде как нравишься!"
+    mia "I couldn't come up with a better excuse to hang out..."
+    mia "... And I kind of like you!"
     show player 145
     show mia 14
-    player_name "Почему ты просто не сказала мне об этом раньше?"
+    player_name "Why didn't you just tell me before?"
     show mia 18
     show player 143
-    mia "Ну, я хотела провести время вместе, но моя мама никогда не позволит этого..."
+    mia "Well, I wanted to spend time together, but my mom would never allow it, so..."
     show mia 13
     show player 145
-    player_name "Все нормально. Я понимаю!"
+    player_name "It's okay. I understand!"
     show player 142
-    player_name "Очень мило с твоей стороны пригласить меня. Мне нравится это..."
+    player_name "It's nice of you to invite me. I like this..."
     show mia 16
     show player 141
-    mia "Как насчет тебя?"
+    mia "What about you?"
     show mia 13
     show player 145
-    player_name "А?"
+    player_name "Huh?"
     show mia 18
     show player 143
     return
@@ -158,42 +158,42 @@ label mia_study_intro:
 label mia_study_like_mia:
     show mia 19
     show player 145
-    player_name "Хорошо..."
+    player_name "I do..."
     show mia 15
     show player 141
-    mia "Правда??"
+    mia "Really??"
     show mia 16
     show player 143
-    mia "Так... Что тебе во мне нравится?"
+    mia "So... What do you like about me?"
     show mia 19
     show player 145
-    player_name "Я думаю, ты очень милая... ты знаешь..."
-    player_name "... Ну когда ты говоришь со мной в школе и все такое!"
+    player_name "I think you're really nice... You know..."
+    player_name "...Like when you talk to me at school and stuff!"
     show mia 18
     show player 141
-    mia "Как мило!"
+    mia "That's sweet!"
     show mia 19
     show player 142
-    player_name "Я также думаю, что ты очень красивая!"
+    player_name "I also think that you're really pretty!"
     show player 141
     mia "..."
     show mia 18
-    mia "Правда?"
+    mia "Really?"
     return
 
 label mia_study_like_mia_kiss:
     show player 142
     show mia 19
-    player_name "Закрой глаза..."
+    player_name "Close your eyes..."
     show mia 18
     show player 141
-    mia "Зачем?"
+    mia "Why?"
     show mia 19
     show player 142
-    player_name "...Просто закрой."
+    player_name "...Just do it."
     show mia 17
     show player 147
-    mia "Хмм..."
+    mia "Hmm..."
     show mia 18
     mia "..."
     show player 148
@@ -201,88 +201,88 @@ label mia_study_like_mia_kiss:
     mia "{b}!!!{/b}"
     show mia 18 zorder 1 at Position (xpos = 680, ypos = 574)
     show player 143
-    mia "...Я не могу этого сделать... Пока!"
+    mia "...I can't do that... Yet!"
     show mia 14
     show player 146
-    player_name "...Извени, я думал-"
+    player_name "...Sorry, I thought-"
     show mia 22
     show player 144
-    mia "Нет! Все нормально! Извините. Я просто не могу, прямо сейчас..."
-    mia "...Если моя мама увидит, мы - трупы."
+    mia "No! It's fine! I'm sorry. I just can't, right now..."
+    mia "...If my mom saw us, we'd be dead."
     show mia 14
     show player 146
-    player_name "О, прости..."
+    player_name "Oh, sorry..."
     show player 143
     show mia 18
-    mia "Все в порядке..."
-    mia "Мой отец, вероятно, не взбесится так сильно, как моя мама..."
-    mia "На самом деле он классный, когда {b}мамы{/b} нет рядом."
+    mia "It's alright..."
+    mia "My dad probably wouldn't flip out as bad as my mom would..."
+    mia "He's actually really cool when {b}Mom{/b} is not around."
     show mia 22
-    mia "{b}Мама{/b} просто... очень религиозная. Меня бы, наверное, заперли и заставили изучать Библию."
+    mia "{b}Mom's{/b} just... very religious. I'd probably be locked away and forced to study the bible."
     show mia 14
     show player 145
-    player_name "Вау. Правда?"
+    player_name "Wow. Really?"
     show player 141
     show mia 18
-    mia "Она все о грехах и прочем."
+    mia "She's all about sins and that stuff."
     show mia 22
-    mia "Она думает, что ты развращаешь меня и заставляешь делать плохие вещи..."
+    mia "She'd think you'd corrupt me and make me do naughty things..."
     show mia 14
     show player 143
     player_name "..."
     show player 145
-    player_name "Я...Я бы не стал этого делать!"
+    player_name "I...I wouldn't do that!"
     show player 143
     show mia 15
-    mia "Ха-ха, я знаю - это глупость."
+    mia "Ha ha, I know silly."
     show player 144
     show mia 16
-    mia "В любом случае, уже поздно и {b}Мама{/b} будет меня проверять."
-    mia "Так что мне пора ложиться спать."
+    mia "Anyway, it's getting late and {b}Mom{/b} will be checking in on me."
+    mia "So I should get to bed."
     show mia 13
     show player 142
-    player_name "Хорошо, {b}Мия{/b}."
-    player_name "Увидимся в {b}школе{/b}!"
+    player_name "Alright, {b}Mia{/b}."
+    player_name "I'll see you at {b}school{/b}!"
     scene expression game.timer.image("backgrounds/location_mia_bedroom{}.jpg")
     show mia 7 at right
     show player 21 at left
     with dissolve
-    player_name "Значит, увидимся позже?"
+    player_name "I'll see you later, then?"
     show mia 10
     show player 13
-    mia "Да..."
-    mia "Спасибо что пришел."
+    mia "Yeah..."
+    mia "Thanks for coming."
     show mia 7
     show player 21
-    player_name "Спокойной ночи!"
+    player_name "Good night!"
     return
 
 label mia_study_dislike_mia:
     show mia 14
     show player 146
-    player_name "Я вижу тебя больше как ... друга."
+    player_name "I see you more like... a friend."
     show mia 22
     show player 144
-    mia "О...понятно."
+    mia "Ohh... I see."
     show mia 14
     show player 145
-    player_name "Но, это первый раз, когда мы тусовались!"
-    player_name "Подожди некоторое время. Может, мы сможем узнать друг друга получше!"
+    player_name "But, this the first time we've ever hung out!"
+    player_name "Give it some time. Maybe we can get to know each other better!"
     show mia 22
     show player 144
-    mia "Да, хорошо..."
+    mia "Yeah, okay..."
     scene expression game.timer.image("backgrounds/location_mia_bedroom{}.jpg")
     show mia 8 at right
     show player 21 at left
     with dissolve
-    player_name "Значит, увидимся позже?"
+    player_name "I'll see you later, then?"
     show player 13
     show mia 12
-    mia "Да..."
-    mia "Спасибо что пришел."
+    mia "Yeah..."
+    mia "Thanks for coming."
     show mia 8
     show player 21
-    player_name "Спокойной ночи!"
+    player_name "Good night!"
     return
 
 label mia_strip_show:
@@ -297,41 +297,41 @@ label mia_strip_show_dialogue:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Ты здесь!!"
+    mia "You're here!!"
     show mia 7
     show player 14
-    player_name "Привет {b}Мия{/b}. Я опоздал?"
+    player_name "Hey {b}Mia{/b}. Am I late?"
     show player 13
     show mia 10
-    mia "Нет."
+    mia "No, it's fine."
     show mia 12
-    mia "Но ты уверен, что никто не видел, как ты сюда пришел?"
+    mia "But are you sure no one saw you come up here?"
     show mia 8
     show player 10
-    player_name "Эхх... Я практически уверен в этом?"
+    player_name "Ehh... I'm pretty sure?"
     show player 12
-    player_name "Есть что-то, о чем мне стоит беспокоиться?"
+    player_name "Is there something I should be worried about?"
     show player 11
     show mia 10
-    mia "Нет, конечно же, нет. Просто убедится, что никто не будет мешать нам!"
+    mia "No, of course not. Just making sure no one will be disturbing us!"
     show mia 7
     show player 14
-    player_name "Хорошо."
-    player_name "Так что ты хотела сделать?"
+    player_name "Okay."
+    player_name "So what did you want to do?"
     show player 13
     show mia 9
-    mia "У меня есть...сюрприз для тебя."
+    mia "I have a...surprise for you."
     show mia 7
     show player 18
     player_name "..."
     show player 13
     show mia 10
-    mia "Я хотела наконец показать тебе свою татуировку..."
-    mia "...Но я хочу сделать это особенным способом."
+    mia "I wanted to finally show you my tattoo..."
+    mia "...But I want to make it special."
     show mia 7
     player_name "..."
     show mia 10
-    mia "Сядь на мою кровать..."
+    mia "Sit on my bed..."
     scene black
     with fade
     hide player
@@ -343,7 +343,7 @@ label mia_strip_show_dialogue:
     with fade
     pause
     show mia_strip 2
-    mia "Это благодарность тебе за то, что так добр ко мне..."
+    mia "This is to thank you for being so nice to me..."
     show mia_strip 3 at Position (xoffset=39) with dissolve
     pause
     show mia_strip 4 at Position (xoffset=15) with dissolve
@@ -351,11 +351,11 @@ label mia_strip_show_dialogue:
     show mia_strip 5 with dissolve
     player_name "..."
     show mia_strip 6
-    mia "Как думаешь...Я хорошо выгляжу?"
+    mia "Do you think...I look pretty?"
     show mia_strip 5
-    player_name "Я-Конечно! Я имею в виду, конечно!"
+    player_name "I- Sure! I mean, of course!"
     show mia_strip 7
-    mia "Ха ха, Ты милый..."
+    mia "Ha ha, You're sweet..."
     show mia_strip 8 with dissolve
     pause
     show mia_strip 9 with dissolve
@@ -370,19 +370,19 @@ label mia_strip_show_dialogue:
     show mia_strip 13 with dissolve
     pause
     show player mia_strip 19 with dissolve
-    player_name "( ВАУ!!! )"
+    player_name "( WOW!!! )"
     show mia_strip 14 with dissolve
     pause
     show mia_strip 15
-    mia "И? Тебе нравится?"
+    mia "So? Do you like it?"
     show mia_strip 14
-    player_name "Мне-Мне нравится, что? Прости?"
+    player_name "I- I like what? Sorry?"
     show mia_strip 16
     show player mia_strip 20 with dissolve
-    mia "Моя татуировка, глупенький! Тебе нравится-"
+    mia "My tattoo, silly! Do you like-"
     show mia_strip 17
     mia "!!!"
-    mia "О, боже... Что у тебя в штанах?!"
+    mia "Oh, my... What's that in your pants?!"
     scene mia_bedroom_strip02
     pause
     scene mia_bedroom_strip03
@@ -402,39 +402,39 @@ label mia_strip_show_dialogue:
     with dissolve
     pause
     show mia 39
-    mia "{b}МАМА{/b}!!!"
+    mia "{b}MOM{/b}!!!"
     show mia 37
     show helen 5f
-    helen "Что это у тебя на ноге?!"
+    helen "What's that on your leg?!"
     show helen 7f at Position (xpos=441) with dissolve
     helen "!!!"
-    helen "Что этот МАЛЬЧИК ЗДЕСЬ делает?!!"
+    helen "What's this BOY doing HERE?!!"
     show helen 8f
     show mia 36
-    mia "Я могу все объяснить, {b}Мама{/b}!"
+    mia "I can explain, {b}Mom{/b}!"
     show mia 35
     show helen 7f
-    helen "Не могу поверить, что ты так со мной поступаешь..."
-    helen "...После воспитания ты будешь хорошей дочерью..."
-    helen "...ты выбрала стать прелюбодеем, грешником, НЕГОДЯЕМ!!"
+    helen "I can't believe you're doing this to me..."
+    helen "...After raising you to be a good daughter..."
+    helen "...You choose to be an adulterer, a sinner, a SCAMP!!"
     show helen 8f
     show player 16f
     show mia 38
     mia "..."
     show player 12f
-    player_name "Это была моя идея! {b}Мия{/b} не-"
+    player_name "This was my idea! {b}Mia{/b} didn't-"
     show player 22f
     show helen 7f
-    helen "Кто разрешил тебе говорить?! ИЛИ БЫТЬ ЗДЕСЬ ВООБЩЕ! {b}В МОЕМ ДОМЕ{/b}!!!"
+    helen "Who said you could speak?! OR BE HERE AT ALL! {b}IN MY HOUSE{/b}!!!"
     show helen 8f
     show mia 37
     show player 23f
     player_name "!!!" with hpunch
     show player 22f
     show helen 9f at left with fastdissolve
-    helen "Убирайтесь отсюда, {b}СЕЙЧАС{/b}!!"
+    helen "Get out of here, {b}NOW{/b}!!"
     show mia 39
-    mia "{b}Мама{/b}!!!"
+    mia "{b}Mom{/b}!!!"
     scene black
     with fade
     hide player
@@ -443,11 +443,11 @@ label mia_strip_show_dialogue:
 
     scene miahouse_night
     show player 24 with dissolve
-    player_name "Вау!"
+    player_name "Wow!"
     show player 37 at Position (xoffset=41) with dissolve
-    player_name "{b}Helen{/b} действительно разозлилась."
+    player_name "{b}Helen{/b} was really mad."
     show player 25 with dissolve
-    player_name "Я просто надеюсь, что у {b}Мии{/b} не будет много проблем..."
+    player_name "I just hope {b}Mia{/b} is not in too much trouble..."
     hide player with dissolve
     return
 
@@ -458,12 +458,12 @@ label mia_bedroom_sex:
         call expression game.dialog_select("mia_bedroom_sex_sure")
         jump expression game.dialog_select("mia_strip_repeat")
     menu:
-        "Учится.":
+        "Study":
             call expression game.dialog_select("mia_bedroom_sex_study")
             menu:
-                "Может потом.":
+                "Maybe later.":
                     call expression game.dialog_select("mia_bedroom_sex_maybe_later")
-                "Конечно!":
+                "Sure!":
 
                     call expression game.dialog_select("mia_bedroom_sex_sure")
                     label mia_strip_repeat:
@@ -475,7 +475,7 @@ label mia_bedroom_sex:
 
                         call expression game.dialog_select("mia_bedroom_sex_repeat_intro")
                     menu:
-                        "В попу.":
+                        "Butt is fine.":
                             $ M_mia.set("anal sex", True)
                             call expression game.dialog_select("mia_bedroom_sex_butt_intro")
 
@@ -486,12 +486,12 @@ label mia_bedroom_sex:
                             $ animated = False
                             jump expression game.dialog_select("mia_bedroom_sex_loop")
 
-                        "Мне нравится другой способ." if store._in_replay == None and player.stats.chr() < 7:
+                        "I like the other way." if store._in_replay == None and player.stats.chr() < 7:
                             $ M_mia.set("anal sex", True)
                             call expression game.dialog_select("mia_bedroom_sex_vaginal_stat_fail")
                             jump expression game.dialog_select("mia_butt_start")
 
-                        "Только кончик!" if not store._in_replay == None or player.stats.chr() >= 7:
+                        "Just the tip!" if not store._in_replay == None or player.stats.chr() >= 7:
                             $ M_mia.set("anal sex", False)
                             if not M_mia.is_set("vaginal sex"):
                                 $ M_mia.set("vaginal sex", True)
@@ -510,30 +510,30 @@ label mia_bedroom_sex_intro:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Я так рада, что ты пришел."
+    mia "I'm so happy you came."
     show mia 7
     show player 14
-    player_name "Привет, {b}Мия{/b}."
-    player_name "Твои родители снова смотрят телевизор вместе, да?"
+    player_name "Hi, {b}Mia{/b}."
+    player_name "Your parents are back watching tv together, huh?"
     show player 13
     show mia 10
-    mia "Да. Приятно, что все снова стало нормальным."
-    mia "Ну что потусуемся?"
-    mia "Или ты здесь, чтобы попробовать мою новую методику обучения?"
+    mia "Yeah. It feels nice that everything's back to normal again."
+    mia "So you want to hang out?"
+    mia "Or are you here to try that new studying technique of mine?"
     show mia 7
     return
 
 label mia_bedroom_sex_study:
     show player 14
-    player_name "Думаю, нам надо заниматься."
+    player_name "I guess we should be studying."
     show player 13
     show mia 10
-    mia "Конечно!"
-    mia "Тогда давайте сделаем это!"
-    mia "Давай я соберу все учебники и лягу на кровать?"
+    mia "Of course!"
+    mia "Let's do that then!"
+    mia "Let me get all my textbooks and set up on my bed?"
     show mia 7
     show player 14
-    player_name "Ух... Хорошо."
+    player_name "Uh... Okay."
     hide player
     hide mia
     with dissolve
@@ -542,26 +542,26 @@ label mia_bedroom_sex_study:
     show mia 16 zorder 1 at Position (xpos = 680, ypos = 574)
     show player 141 zorder 0 at Position (xpos = 250, ypos = 578)
     with dissolve
-    mia "Теперь, по крайней мере, похоже, что мы учимся!"
+    mia "Now, at least it looks like we're studying!"
     show mia 13
     player_name "..."
     show mia 16
-    mia "Извините... Наверное, я просто взволнована, чтобы тусить, как мы привыкли ..."
+    mia "Sorry... I guess I'm just excited to hang out like we used to..."
     show mia 13
     show player 142
-    player_name "Не беспокойся об этом. Я просто рад, что ты снова счастлива."
+    player_name "Don't worry about that. I'm just glad you're happy again."
     show player 141
     show mia 16
-    mia "Спасибо, {b}[firstname]{/b}."
+    mia "Thanks, {b}[firstname]{/b}."
     show mia 15
-    mia "Ты все еще думаешь о том времени, когда я показала тебе свою татуировку?"
+    mia "Do you still think about the time I showed you my tattoo?"
     show mia 13
     show player 145
-    player_name "Конечно!"
-    player_name "Ты выглядела такой красивой."
+    player_name "Of course!"
+    player_name "You looked so pretty."
     show player 144
     show mia 15
-    mia "Не заставляй меня краснеть."
+    mia "Don't make me blush."
     show mia 17
     show player 141
     player_name "..."
@@ -573,51 +573,51 @@ label mia_bedroom_sex_study:
     show mia 54
     with dissolve
     pause
-    mia "Мммм..."
+    mia "Mmm..."
     show player 144 zorder 0 at Position (xpos = 250, ypos = 578)
     show mia 16 zorder 1 at Position (xpos = 680, ypos = 574)
     with dissolve
-    mia "Ты очень хорошо целуешься...."
+    mia "You're really good at kissing..."
     show mia 13
     show player 145
-    player_name "...Спасибо."
+    player_name "...Thanks."
     show player 144
     mia "..."
     show mia 16
-    mia "Хочешь знать о том трюке с исследованием, о котором я читала?"
+    mia "Want to know about that study trick I read about?"
     show mia 13
     show player 142
-    player_name "Конечно!"
+    player_name "Of course!"
     show player 141
     mia "..."
     show mia 16
-    mia "Я надеялся попробовать в ту ночь, когда мама застукала нас."
+    mia "I was hoping to try it the night my mom caught us."
     show mia 13
     show player 142
-    player_name "Ох?"
+    player_name "Oh?"
     show player 141
     show mia 16
-    mia "Я...Я всегда хотела попробовать учиться голой..."
+    mia "I...I've always wanted to try studying naked..."
     show mia 13
     show player 143
     player_name "!!!"
     show mia 16
-    mia "Ты хочешь учиться со мной...голым?"
+    mia "Would you like to study with me... naked?"
     show mia 13
     return
 
 label mia_bedroom_sex_maybe_later:
     show player 146
-    player_name "Я имею в виду... Я бы очень хотел, но мне нужно вернуться домой."
+    player_name "I mean... I'd really like to but I have to get back home."
     show player 141
     show mia 18
-    mia "О? Неужели [deb_name] выпорет тебя если ты придешь домой поздно?"
+    mia "Oh? Does [deb_name] give you a spanking if you're home late?"
     show mia 13
     show player 145
-    player_name "Хе... Хе... Нет..."
+    player_name "Heh... Heh... No..."
     show player 141
     show mia 18
-    mia "Я просто прикалываюсь. Уже довольно-таки поздно...и я тоже начинаю уставать."
+    mia "I'm just kidding. It is pretty late...and I'm getting tired too."
     hide mia
     hide player
     with dissolve
@@ -626,11 +626,11 @@ label mia_bedroom_sex_maybe_later:
     show mia 7 at right
     show player 14 at left
     with dissolve
-    player_name "Спокойной ночи, {b}Мия{/b}."
-    player_name "Увидемся завтра."
+    player_name "Goodnight, {b}Mia{/b}."
+    player_name "I'll see you tomorrow."
     show player 13
     show mia 10
-    mia "Спокойной ночи, {b}[firstname]{/b}."
+    mia "Goodnight, {b}[firstname]{/b}."
     hide player
     show mia 49 at left
     with dissolve
@@ -638,7 +638,7 @@ label mia_bedroom_sex_maybe_later:
     show player 13 at left
     show mia 10 at Position (xpos=300)
     with dissolve
-    mia "Я буду... думаю о тебе сегодня вечером..."
+    mia "I'll be... thinking of you tonight..."
     hide player
     hide mia
     with dissolve
@@ -646,16 +646,16 @@ label mia_bedroom_sex_maybe_later:
 
 label mia_bedroom_sex_sure:
     show player 142
-    player_name "Я с удовольствием помогу тебе!"
+    player_name "I'd love to help you out!"
     show player 141
     show mia 16
-    mia "Великолепно!"
-    mia "Умм..."
+    mia "Great!"
+    mia "Umm..."
     show mia 16
-    mia "Как насчет того, чтобы сесть на кровать, пока я снова разденусь."
-    mia "Мои родители сказали, что больше не будут нас прерывать."
-    mia "Так что просто расслабься..."
-    mia "...и наслождайся шоу."
+    mia "How about you sit on the bed while I undress again."
+    mia "My parents said they won't interrupt us again."
+    mia "So just relax..."
+    mia "...and enjoy the show."
     hide player
     hide mia
     with dissolve
@@ -673,11 +673,11 @@ label mia_bedroom_sex_strip_repeat:
     show mia_strip 5 with dissolve
     pause
     show mia_strip 6
-    mia "Думаешь... Я хорошо выгляжу?"
+    mia "Do you think... I look pretty?"
     show mia_strip 5
-    player_name "Я-Конечно! Я имею в виду, конечно!"
+    player_name "I- Sure! I mean, of course!"
     show mia_strip 7
-    mia "Ха Ха, ты милый."
+    mia "Ha ha, You're sweet."
     show mia_strip 8 with dissolve
     pause
     show mia_strip 9 with dissolve
@@ -695,7 +695,7 @@ label mia_bedroom_sex_strip_repeat:
     with dissolve
     pause
     show player mia_strip 19 with dissolve
-    player_name "( ВАУ!!! )"
+    player_name "( WOW!!! )"
     hide mia_strip
     show mia_strip 14 at Position (xpos=457,ypos=670)
     with dissolve
@@ -703,46 +703,46 @@ label mia_bedroom_sex_strip_repeat:
     show mia_strip 17
     mia "!!!"
     show mia_strip 16
-    mia "Я думаю, ты действительно думаешь, что я выгляжу красиво."
+    mia "I guess you really do think I look pretty."
     show mia_strip 15
-    mia "Моя татуировка все еще хорошо выглядит?"
+    mia "Does my tattoo still look good?"
     show mia_strip 14
-    player_name "Она выглядит очень мило на тебе."
+    player_name "It looks really pretty on you."
     show mia_strip 15
-    mia "Правда?"
-    mia "...Что насчет моей попы?"
+    mia "Oh yeah?"
+    mia "...What about my butt?"
     show mia_strip 14
-    player_name "{b}*глоток*{/b}"
-    player_name "Ухх... Да... Я думаю... конечно!"
-    player_name "Ты вся - сексуальная девушка!"
+    player_name "{b}*Gulp*{/b}"
+    player_name "Uhhh... Yeah... I mean... of course!"
+    player_name "You're an all around sexy girl!"
     show mia_strip 16
-    mia "Ха ха ха."
+    mia "Ha ha ha."
     show mia_strip 15
-    mia "Не говори мне, что ты... нервничаешь, {b}[firstname]{/b}."
-    player_name "Может быть чуть чуть..."
+    mia "Don't tell me you're... nervous, {b}[firstname]{/b}."
+    player_name "Maybe a little..."
     show mia_strip 22 with dissolve
-    mia "Я тоже..."
+    mia "Me too..."
     show mia_strip 21
     show player mia_strip 20 with dissolve
     pause
     show mia_strip 22
-    mia "Позволь мне сделать домашнюю работу."
+    mia "Let me get my homework."
     show mia_strip 23 with dissolve
     pause
     show mia_strip 26 with dissolve
-    mia "Вот она!"
+    mia "Here it is!"
     show mia_strip 25
-    mia "Ты готов?"
+    mia "Are you ready?"
     show mia_strip 24
-    player_name "Да!"
+    player_name "Yeah!"
     show mia_strip 25
-    mia "Вау..."
-    mia "Я понятия не имела, что они такие большие..."
+    mia "Wow..."
+    mia "I had no idea they got that big..."
     show mia_strip 24
-    player_name "О... Да..."
+    player_name "Oh... Yeah..."
     show mia_strip 25
-    mia "Умм... Ладно, давай я лягу на кровать..."
-    mia "...И ты присоединишься ко мне..."
+    mia "Ummm... Okay, let me lay down on the bed..."
+    mia "...And you join me..."
     show mia_strip 27 with dissolve
     pause
     scene black with fade
@@ -754,183 +754,183 @@ label mia_bedroom_sex_strip_repeat:
 
 label mia_bedroom_sex_first_intro:
     show mias 2 with dissolve
-    mia "Глупый мальчишка. Как ты собираешься там учиться?"
+    mia "Silly boy. How are you going to study way back there?"
     show mias 1
-    player_name "О... Я могу видеть все отсюда."
-    player_name "Все норм."
+    player_name "Oh... I can see everything back here."
+    player_name "I'm good."
     show mias 2
-    mia "Бьюсь об заклад."
+    mia "I bet you are."
     mia "..."
     show mias 5
-    mia "Ум..."
+    mia "Um..."
     mia "{b}[firstname]{/b}?"
     show mias 1
-    player_name "Да, {b}Мия{/b}?"
+    player_name "Yes, {b}Mia{/b}?"
     show mias 5
     mia "..."
-    mia "Ты хочешь заняться сексом?"
+    mia "Do you want to have sex?"
     show mias 1
     player_name "!!!"
     show mias 2
-    mia "Каждый раз, когда я думала об учебе голышом..."
-    mia "...Я вроде как фантазировала и у меня получился... секс."
+    mia "Whenever I've thought about studying naked..."
+    mia "...I've kinda ended up fantasizing that I ended up having...sex."
     show mias 5
-    mia "Это моя маленькая тайная фантазия..."
+    mia "It's my little secret fantasy..."
     show mias 2
-    mia "Хочешь попробовать?"
+    mia "Do you want to try it?"
     show mias 1
-    player_name "Да!"
+    player_name "Yes!"
     show mias 2
-    mia "Я так и думала..."
+    mia "I figured you would..."
     show mias 5
-    mia "Но... умм..."
-    mia "У меня есть одна просьба."
-    mia "Можешь это сделать..."
-    mia "В попу?"
+    mia "But... umm..."
+    mia "I have one request."
+    mia "Can you do it..."
+    mia "In my butt?"
     show mias 2
-    mia "Мои родители говорят, что я должна подождать, пока выйду замуж."
-    mia "Но я думаю, что это не повредит если сделать в попу."
-    mia "Ты не против?"
+    mia "My parents say I should wait till I get married to actually do it."
+    mia "But I figure it won't hurt to do it in my butt."
+    mia "Is that alright?"
     show mias 5
-    mia "Если тебе это кажется отвратительным... Я пойму..."
+    mia "If you're disgusted... I understand..."
     show mias 1
     return
 
 label mia_bedroom_sex_repeat_intro:
     show mias 2
-    mia "Я думала, ты хочешь позаниматься голышом на этот раз?"
+    mia "I thought you wanted to study naked this time?"
     show mias 1
-    player_name "Я заниматься...ты."
+    player_name "I'm studying...you."
     show mias 2
-    mia "Будет трудно учиться, если ты не расслабишься."
-    mia "Ха ха!"
-    mia "Хочешь сделать это в попу?"
+    mia "It's going to be hard to study if you aren't relaxed."
+    mia "Ha ha!"
+    mia "Want to do it in my butt?"
     show mias 1
     return
 
 label mia_bedroom_sex_butt_intro:
-    player_name "Я не думаю, что это отвратительно."
-    player_name "Довольно редко можно услышать, что девушка хочет сделать это туда."
+    player_name "I don't think it's disgusting."
+    player_name "It's kinda of rare to hear a girl want to do it there."
     show mias 2
-    mia "Ха ха."
-    mia "Я редкая девочка."
+    mia "Ha ha."
+    mia "I'm a rare kinda girl."
     return
 
 label mia_bedroom_sex_butt_start:
     show mias 4
-    mia "Только...вставляй медленно, чтобы не было больно."
-    mia "Я не думала, что у тебя такой...большой."
+    mia "Just...go slowly so it won't hurt."
+    mia "I didn't think you'd be so...big."
     show mias 3
     pause
     show mias 5
-    player_name "Хорошо, спасибо за подсказку..."
+    player_name "Alright, here's just the tip..."
     show mias 6b
-    mia "Ой!"
-    player_name "Извени!"
-    mia "Не двигайся... Пожалуйста..."
-    player_name "Хорошо. Скажи когда я могу продолжать."
+    mia "Ouch!"
+    player_name "Sorry!"
+    mia "Don't move... Please..."
+    player_name "Alright. Tell me when I can go deeper."
     mia "..."
-    mia "Хорошо... Давай потихоньку."
+    mia "Okay... Go slow."
     show mias 7b
     pause
     show mias 8b
     pause
     show mias 9b
     mia "..."
-    player_name "Я полностью внутри."
-    player_name "Расслабся."
-    mia "Очень большой!"
-    player_name "Да ... довольно плотно."
-    mia "Хорошо. Только помедленнее."
+    player_name "There I'm all the way in."
+    player_name "Just relax."
+    mia "It's so big!"
+    player_name "Yeah... it's pretty tight."
+    mia "Alright. Just go slow."
     show mias 10b
     pause
     show mias 11b
-    mia "Это не... плохо..."
-    player_name "Готова?"
-    mia "Ух Ухух."
+    mia "It's not... too bad..."
+    player_name "Ready?"
+    mia "Uh huh."
     return
 
 label mia_bedroom_sex_vaginal_stat_fail:
     show mias 1
-    player_name "[chr_warn]Но другой путь намного лучше {b}Мии{/b}."
-    player_name "[chr_warn]...Не думая, что кто-то узнает что мы делали это."
+    player_name "[chr_warn]But the other way is so much better {b}Mia{/b}."
+    player_name "[chr_warn]...It's not like anyone would know we did it."
     show mias 4
-    mia "[chr_warn]Я буду знать, хотя."
+    mia "[chr_warn]I would know, though."
     show mias 3
-    player_name "[chr_warn]Ну... это буду чувствовать себя намного лучше-"
+    player_name "[chr_warn]Well... it would feel a lot bette-"
     show mias 5
-    mia "[chr_warn]Нет, если ты хочешь сделать это со мной, используй мою попу."
-    player_name "[chr_warn]...Хорошо."
+    mia "[chr_warn]No, if you want to do it with me, use my butt."
+    player_name "[chr_warn]...Alright."
     return
 
 label mia_bedroom_sex_vaginal_first_intro:
-    player_name "Я обещаю, что не войду весь."
+    player_name "I promise I won't go all the way in."
     show mias 2
-    mia "Только кончик? ...Ты уверен?"
+    mia "Just the tip? ...Are you sure?"
     show mias 1
-    player_name "Это даже не считается, если просто кончик..."
+    player_name "It doesn't even count if it's just the tip..."
     show mias 2
-    mia "Ха ха!"
-    mia "Тогда все может быть в порядке..."
-    mia "Но просто двигайся медленно... Это мой первый раз..."
+    mia "Ha ha!"
+    mia "It might be okay, then..."
+    mia "But just go slowly... It's my first time..."
     show mias 6
-    mia "О!"
-    mia "Даже кончик у тебя такой большой!"
+    mia "Oh!"
+    mia "Even the tip of you is so big!"
     show mias 7
-    mia "Как...чувствуешь себя?"
-    player_name "Очень хорошо."
+    mia "How...does it feel?"
+    player_name "Really good."
     mia "..."
-    mia "...Давай немного глубже..."
-    player_name "Что?"
-    mia "Можешь немного глубже?"
-    player_name "...Хорошо."
+    mia "...Go in a little deeper..."
+    player_name "What?"
+    mia "Can you go in a little deeper?"
+    player_name "...Alright."
     show mias 8
     pause
     show mias 7
     pause
     show mias 8
-    player_name "Теперь входить и выходить легче."
+    player_name "It's going in and out easier now."
     show mias 7_8
     pause
-    mia "Охх...."
+    mia "Oh...."
     pause
-    mia "Охххх...."
-    mia "Глубже {b}[firstname]{/b}."
+    mia "Ohhhh...."
+    mia "Deeper {b}[firstname]{/b}."
     return
 
 label mia_bedroom_sex_vaginal_repeat_intro:
     show mias 2
-    mia "Твой кончик зашел глубоко."
+    mia "Your tip sure goes in pretty far."
     show mias 1
-    player_name "...Да..."
-    player_name "Извени."
+    player_name "...Yeah..."
+    player_name "Sorry."
     show mias 2
-    mia "Не переживай. Мне понравилось."
-    mia "И я хочу еще."
+    mia "Don't worry. I liked it."
+    mia "And I want your tip again."
     show mias 6
-    mia "Охх!"
+    mia "Oh!"
     show mias 7_8
     pause
-    mia "Как...чувствуешь себя?"
-    player_name "Очень хорошо."
-    mia "...Входи на полную..."
+    mia "How...does it feel?"
+    player_name "Really good."
+    mia "...Go in all the way..."
     return
 
 label mia_bedroom_sex_vaginal_intro:
     show mias 9
-    mia "Оххх!!!"
+    mia "Ohhh!!!"
     show expression AnimatedImage("mias", [7,8,9,10,11], M_mia) as mias
     pause
-    mia "Аххх!!!"
-    mia "Потрясающее ощущение!"
+    mia "Ahhh!!!"
+    mia "That feels incredible!"
     pause
-    mia "Быстрее, {b}[firstname]{/b}!"
+    mia "Faster, {b}[firstname]{/b}!"
     return
 
 label mia_bedroom_sex_loop:
-    show screen sex_anim_buttons
+    show screen sex_anim_buttons 
     pause
-    hide screen sex_anim_buttons
+    hide screen sex_anim_buttons 
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -961,12 +961,12 @@ label mia_bedroom_sex_loop:
                 call expression game.dialog_select("mia_hscene_dialog")
         $ animcounter += 1
 
-    player_name "{b}Мия{/b}, куда хочешь чтобы я кончил?"
-    mia "...куда угодно."
+    player_name "Where do you want me to cum, {b}Mia{/b}?"
+    mia "...Anywhere."
     call screen mia_bedroom_sex_options
 
 label mia_hscene_dialog:
-    mia "Ахххх!!!{p=1}{nw}"
+    mia "Ahhhh!!!{p=1}{nw}"
     return
 
 label mia_bedroom_sex_cum_outside:
@@ -985,49 +985,49 @@ label mia_bedroom_sex_cum_outside:
 
 label mia_bedroom_sex_cum_outside_intro:
     show mias 14 with flash
-    player_name "УХХХ!!!"
-    mia "О!!!"
+    player_name "UHH!!!"
+    mia "Oh!!!"
     pause
     return
 
 label mia_bedroom_sex_cum_outside_first:
     show mias 16
-    mia "Так много спермы получилось."
+    mia "So much came out of it."
     show mias 15
-    player_name "Да."
+    player_name "Yeah."
     show mias 16
-    mia "Я чувствую, как он бежит по моей спине."
+    mia "I can feel it running down my back."
     show mias 15
-    player_name "Извени."
+    player_name "Sorry."
     show mias 16
-    mia "Можешь принести мне салфетки?"
-    mia "Я не хочу, чтобы она протекла на простыни..."
+    mia "Can you get me tissues?"
+    mia "I don't want it to leak on the sheets..."
     return
 
 label mia_bedroom_sex_cum_outside_repeat:
     show mias 16
-    mia "Это было здорово!"
-    mia "Ты кончил довольно быстро!"
+    mia "That was great!"
+    mia "You sure cum pretty fast!"
     show mias 15
-    player_name "Извини..."
+    player_name "Sorry..."
     show mias 16
-    mia "Я пошутила."
+    mia "I'm just kidding."
     return
 
 label mia_bedroom_sex_cum_outside_first_inside:
-    mia "Легче убирать, когда ты просто кончаешь внутрь меня."
+    mia "It is easier to clean up when you just cum inside me though."
     return
 
 label mia_bedroom_sex_cum_outside_after:
-    mia "Мне лучше привести себя в порядок."
-    mia "Мама может увидеть пятна на простынях..."
+    mia "I'd better get cleaned up."
+    mia "My mom might see stains on the bedsheets..."
     show mias 15
-    player_name "Извини..."
+    player_name "Sorry..."
     show mias 16
-    mia "Не беспокойся."
-    mia "Это было здорово, {b}[firstname]{/b}."
+    mia "Oh don't worry."
+    mia "That was great, {b}[firstname]{/b}."
     show mias 15
-    player_name "Да, точно."
+    player_name "Yeah, it was."
     return
 
 label mia_bedroom_sex_cum_inside:
@@ -1053,80 +1053,80 @@ label mia_bedroom_sex_cum_inside:
 
 label mia_bedroom_sex_cum_inside_anal_intro:
     show mias 12b_13b with flash
-    player_name "Уххх!!!"
-    mia "Оххх!!!"
+    player_name "UHH!!!"
+    mia "OHH!!!"
     show mias 18b with dissolve
-    mia "Вау!"
+    mia "Wow!"
     return
 
 label mia_bedroom_sex_cum_inside_anal_first:
-    mia "Так вот что такое Анальный секс..."
+    mia "So that's what anal sex feels like..."
     show mias 17b
-    player_name "Больно?"
+    player_name "Did it hurt a lot?"
     show mias 18b
-    mia "Все было не так уж и плохо."
+    mia "It wasn't so bad."
     return
 
 label mia_bedroom_sex_cum_inside_anal_after:
-    mia "Тебе понравилось?"
+    mia "Did you like it?"
     show mias 17b
-    player_name "Да!"
-    player_name "На самом деле...плотно."
+    player_name "Yeah!"
+    player_name "It was really...tight."
     show mias 18b
-    mia "Спасибо, что не торопишься."
+    mia "Thanks for going slow."
     show mias 17b
-    player_name "Незачто, {b}Мия{/b}."
+    player_name "You're welcome, {b}Mia{/b}."
     show mias 18b
-    mia "Мне лучше привести себя в порядок."
-    mia "Мама может увидеть пятна на простынях..."
+    mia "I'd better get cleaned up."
+    mia "My mom might see stains on the bedsheets..."
     show mias 17b
-    player_name "Извени..."
+    player_name "Sorry..."
     show mias 18b
-    mia "Не беспокойся."
-    mia "Это было здорово, {b}[firstname]{/b}."
+    mia "Oh don't worry."
+    mia "That was great, {b}[firstname]{/b}."
     show mias 17b
-    player_name "Да, точно."
+    player_name "Yeah, it was."
     return
 
 label mia_bedroom_sex_cum_inside_vaginal_intro:
     show mias 12_13 with flash
-    player_name "УХХ!!!"
-    mia "ОХХ!!!"
+    player_name "UHH!!!"
+    mia "OHH!!!"
     return
 
 label mia_bedroom_sex_cum_inside_vaginal_first:
     show mias 18 with dissolve
-    mia "Это было потрясающе!"
-    mia "Я никогда не чувствовал ничего подобного."
+    mia "That was amazing!"
+    mia "I've never felt anything like that before."
     show mias 17
     player_name "!!!"
-    player_name "Ты имеешь в виду, никогда....не кончала?"
+    player_name "You mean you've never...climaxed?"
     show mias 18
-    mia "Нет, у меня был оргазм раньше..."
-    mia "...Я имела в виду... Чувствовать, как ты кончаешь в меня и все такое."
+    mia "No, I've had orgasm before..."
+    mia "...I meant... Like, feeling you cumming in me and stuff."
     show mias 17
-    player_name "Ох..."
+    player_name "Oh..."
     show mias 18
-    mia "Не расстраивайся. Я тоже этого хотела."
+    mia "Don't feel bad. I wanted you to."
     return
 
 label mia_bedroom_sex_cum_inside_vaginal_repeat:
     show mias 18
-    mia "Это было фантастично!"
-    mia "Я до сих пор не могу поверить, что оргазм ощущается именно так."
-    mia "От одной мысли об этом у меня мурашки по коже."
+    mia "That felt fantastic!"
+    mia "I still can't believe that's what an orgasm feels like."
+    mia "It gives me the shivers thinking about it."
     show mias 17
-    player_name "Правда? Мне... тоже очень понравилось."
+    player_name "Really? I... really liked it too."
     show mias 18
-    mia "Мне лучше привести себя в порядок."
-    mia "Мама может увидеть пятна на простынях..."
+    mia "I'd better get cleaned up."
+    mia "My mom might see stains on the bedsheets..."
     show mias 17
-    player_name "Извени..."
+    player_name "Sorry..."
     show mias 18
-    mia "Не беспокойся."
-    mia "Это было здорово, {b}[firstname]{/b}."
+    mia "Oh don't worry."
+    mia "That was great, {b}[firstname]{/b}."
     show mias 17
-    player_name "Да, точно."
+    player_name "Yeah, it was."
     return
 
 label mia_bedroom_sex_end:
@@ -1150,31 +1150,31 @@ label mia_bedroom_sex_end_dialogue:
     show player 13 at left
     show mia 10 at right
     with dissolve
-    mia "Спасибо, что помогаешь мне учиться и проводишь со мной время."
+    mia "Thanks for helping me study, and spending time with me."
     show mia 9
-    mia "Было немного трудно сосредоточиться на учебе."
+    mia "It was a little hard to concentrate on studying, though."
     show player 17
-    player_name "Ха ха ха!"
+    player_name "Hah hah!"
     show mia 7
     show player 14
-    player_name "Да, мне тоже нравилось заниматься с тобой."
+    player_name "Yeah, I liked studying with you too."
     show player 17
-    player_name "Это тот вид обучения, в котором я определенно могу отстать."
+    player_name "It's the kind of studying I can definitely get behind."
     show player 18
     show mia 9
-    mia "Ха ха!"
+    mia "Ha ha!"
     show mia 7
     pause
     show player 10
-    player_name "...Тебе было больно?"
+    player_name "...Does it hurt?"
     show player 5
     show mia 10
-    mia "Немного... Хех Хех."
-    mia "Но мне очень понравилось."
+    mia "A little... Heh heh."
+    mia "But I enjoyed it a lot."
     show mia 7
     show player 14
-    player_name "Мне тоже."
-    player_name "Мне пора уходить. Уже поздно."
+    player_name "Me too."
+    player_name "I should get going. It's getting late."
     hide player
     show mia 49 at left
     with dissolve
@@ -1182,12 +1182,12 @@ label mia_bedroom_sex_end_dialogue:
     show player 13 at left
     show mia 10 at Position (xpos=300)
     with dissolve
-    mia "Спокойной ночи, {b}[firstname]{/b}."
-    mia "Возвращайся и навещай меня снова...если хочешь заниматься."
+    mia "Goodnight, {b}[firstname]{/b}."
+    mia "Come back and visit me again...if you want to study."
     show mia 7
     show player 14
-    player_name "Хорошо!"
-    player_name "Спокойной ночи, {b}Мия{/b}."
+    player_name "Will do!"
+    player_name "Goodnight, {b}Mia{/b}."
     hide player
     hide mia
     with dissolve
@@ -1205,23 +1205,23 @@ label mia_bedroom_teddy:
 label mia_bedroom_teddy_masturbation_seen:
     scene expression game.timer.image("backgrounds/location_mia_bedroom{}_blur.jpg")
     show player 439 with dissolve
-    player_name "Это плюшевый медведь {b}Мии{/b} с которым она играла ранее."
-    player_name "Кажется, у него немного странный запах..."
+    player_name "This is the teddy bear {b}Mia{/b} was playing with earlier."
+    player_name "Seems to have a bit of an odd funk to it..."
     show player 441
-    player_name "Пахнет как..."
+    player_name "Something smells kind of..."
     show player 440 with dissolve
-    player_name "*нюхать*"
+    player_name "*Sniff*"
     pause
     show player 441 with dissolve
-    player_name "Рыба..."
-    player_name "Мистер Тедди, вы видели ужасные вещи, не так ли?"
-    player_name "Интересно, почему он ей так нравится?"
+    player_name "Fishy..."
+    player_name "Mr. Teddy, you've seen some terrible things haven't you."
+    player_name "I wonder why she likes him so much?"
     show player 438
     pause
     show player 439
-    player_name "Похоже, сзади есть дырка...."
-    player_name "Хух. У него есть маленькая сумочка."
-    player_name "Похоже, там можно что-то спрятать."
+    player_name "Looks like there's a hole in the back..."
+    player_name "Huh. He has a little pouch."
+    player_name "Looks like you could hide something in there."
     hide player with dissolve
     return
 
@@ -1230,8 +1230,8 @@ label mia_bedroom_teddy_masturbation_havent_seen:
     show player 438 with dissolve
     pause
     show player 439
-    player_name "Этот Мишка был в ее комнате, с тех пор когда мы были детьми."
-    player_name "Интересно, почему он до сих пор у нее..."
+    player_name "This teddy bear has been in her room since we were kids."
+    player_name "I wonder why she still keeps it around..."
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

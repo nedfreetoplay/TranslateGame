@@ -1,4 +1,4 @@
-label annie_locker:
+label annies_locker_dialogue:
     call locker_check ("right", L_school_locker_annie)
     if not L_school_locker_annie.is_visited:
         call expression game.dialog_select("annie_locker_first_visit")
@@ -6,7 +6,7 @@ label annie_locker:
     $ player.go_to(L_school_locker_annie)
     $ player.location.call_screen(False)
 
-label dexter_locker:
+label dexters_locker_dialogue:
     call locker_check ("right", L_school_locker_dexter)
     if M_bissette.is_set("dexters book search"):
         call expression game.dialog_select("dexter_locker_first_visit")
@@ -32,7 +32,7 @@ label dexter_locker:
     $ player.go_to(L_school_locker_dexter)
     $ player.location.call_screen(False)
 
-label erik_locker:
+label eriks_locker_dialogue:
     call locker_check ("right", L_school_locker_erik)
     if not L_school_locker_erik.is_visited:
         call expression game.dialog_select("erik_locker_first_visit")
@@ -40,7 +40,7 @@ label erik_locker:
     $ player.go_to(L_school_locker_erik)
     $ player.location.call_screen(False)
 
-label eve_locker:
+label eves_locker_dialogue:
     call locker_check ("right", L_school_locker_eve)
     if not L_school_locker_eve.is_visited:
         call expression game.dialog_select("eve_locker_first_visit")
@@ -48,7 +48,7 @@ label eve_locker:
     $ player.go_to(L_school_locker_eve)
     $ player.location.call_screen(False)
 
-label judith_locker:
+label judiths_locker_dialogue:
     call locker_check ("left", L_school_locker_judith)
     if not L_school_locker_judith.is_visited:
         call expression game.dialog_select("judith_locker_first_visit")
@@ -56,7 +56,7 @@ label judith_locker:
     $ player.go_to(L_school_locker_judith)
     $ player.location.call_screen(False)
 
-label kevin_locker:
+label kevins_locker_dialogue:
     call locker_check ("right", L_school_locker_kevin)
     if not L_school_locker_kevin.is_visited:
         call expression game.dialog_select("kevin_locker_first_visit")
@@ -64,7 +64,7 @@ label kevin_locker:
     $ player.go_to(L_school_locker_kevin)
     $ player.location.call_screen(False)
 
-label mia_locker:
+label mias_locker_dialogue:
     call locker_check ("right", L_school_locker_mia)
     if not L_school_locker_mia.is_visited:
         call expression game.dialog_select("mia_locker_first_visit")
@@ -80,7 +80,7 @@ label mia_locker:
     $ player.go_to(L_school_locker_mia)
     $ player.location.call_screen(False)
 
-label ronda_locker:
+label rondas_locker_dialogue:
     call locker_check ("right", L_school_locker_ronda)
     if not L_school_locker_ronda.is_visited:
         call expression game.dialog_select("ronda_locker_first_visit")
@@ -88,7 +88,7 @@ label ronda_locker:
     $ player.go_to(L_school_locker_ronda)
     $ player.location.call_screen(False)
 
-label roxxy_locker:
+label roxxys_locker_dialogue:
     call locker_check ("left", L_school_locker_roxxy)
     if not L_school_locker_roxxy.is_visited:
         call expression game.dialog_select("roxxy_locker_first_visit")

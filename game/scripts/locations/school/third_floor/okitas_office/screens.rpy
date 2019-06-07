@@ -1,4 +1,6 @@
-screen mrs_okitas_office:
+screen mrs_okitas_office():
+    use mods_screens_hook("mrs_okitas_office")
+
     add game.timer.image("backgrounds/location_school_office4_day{}.jpg")
 
     if not player.has_picked_up_item("goggles"):
@@ -63,7 +65,7 @@ screen mrs_okitas_office:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("mrs_okitas_office"), If(not M_okita.is_state(S_okita_get_items_from_office), true=Jump("third_floor_dialogue"), false=Jump("okitas_office_missing_items"))
 
-screen okita_sex_options:
+screen okita_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -111,7 +113,7 @@ label button_okita_xray:
     $ game.main()
     return
 
-screen okita_handjob_options:
+screen okita_handjob_options():
 
     imagebutton:
         pos (250,700)

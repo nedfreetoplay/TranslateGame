@@ -16,31 +16,31 @@ label judith_toilet:
         if M_judith.get("sex sequence locked"):
             call expression game.dialog_select("girls_lockerroom_judith_toilet_first_intro")
             menu:
-                "Ты не уродина!":
+                "You're not ugly!":
                     call expression game.dialog_select("girls_lockerroom_judith_toilet_first_not_ugly")
                     menu:
-                        "Ладно.":
+                        "Ok.":
                             call expression game.dialog_select("girls_lockerroom_judith_toilet_first_ok")
                             menu:
-                                "Конечно.":
+                                "Sure.":
                                     call expression game.dialog_select("girls_lockerroom_judith_toilet_first_sure")
                                     menu:
-                                        "Да.":
+                                        "Yes.":
                                             $ M_judith.trigger(T_judith_comfort_her)
                                             $ M_judith.set("sex sequence locked", False)
                                             call expression game.dialog_select("girls_lockerroom_judith_toilet_first_yes")
                                             $ M_judith.set("in bathroom", False)
                                             $ M_judith.unforce()
-                                        "Мы должны остановиться.":
+                                        "We should stop.":
 
                                             call expression game.dialog_select("girls_lockerroom_judith_toilet_first_should_stop")
-                                "Я не могу.":
+                                "I can't.":
 
                                     call expression game.dialog_select("girls_lockerroom_judith_toilet_first_cant")
-                        "Мы должны уйти.":
+                        "We should leave.":
 
                             call expression game.dialog_select("girls_lockerroom_judith_toilet_should_leave")
-                "Я знаю...":
+                "I know...":
 
                     call expression game.dialog_select("girls_lockerroom_judith_toilet_first_ugly")
             hide player

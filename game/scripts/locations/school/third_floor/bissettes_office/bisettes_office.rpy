@@ -1,6 +1,4 @@
-default bissette_office_first_visit = True
-
-label bissettes_office_dialogue:
+label mrs_bissettes_office_dialogue:
     $ player.go_to(L_school_bissetteoffice)
     if M_bissette.is_set("office first visit") and not game.timer.is_dark():
         call expression game.dialog_select("bissettes_office_first_visit")

@@ -336,7 +336,7 @@ init python:
             
             return self._selected_bait.event(ev, x, y, st)
 
-screen bait_menu:
+screen bait_menu():
     add "buttons/fishing_instructions02.png" pos 110,100
     add "buttons/fishing_button01c.png" pos 250,250
     add "buttons/fishing_button02c.png" pos 150,250

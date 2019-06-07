@@ -4,7 +4,6 @@ init python:
         def __init__(self, **kwargs):
             super(Weightlifting, self).__init__(**kwargs)
             
-            
             bg_img = 'backgrounds/location_gym_minigame04{}.jpg'
             bar_img = 'buttons/meter_03.png'
             effort_img = 'buttons/meter_04.png'
@@ -50,7 +49,6 @@ init python:
             self.progress = 0
             self.started = None
             self.ticked = None
-            print 'init'
         
         def render(self, w, h, st, at):
             if self.started:
@@ -81,6 +79,12 @@ init python:
                 self.bgs[self.clicks / self.lift_after % 2], w, h, st, at)
             
             
+            keyname = get_name("key_str").upper()
+            text_instructions = "Press the {b}" + keyname + "{/b} key until you fill up the {b}bar{/b}!"
+            instructions_r = renpy.render(FilteredText(text_instructions, style = "style_instructions"), w, h, st, at)
+            text_width, text_height = instructions_r.get_size()
+            render.blit(instructions_r, ((512 - (text_width / 2)),22))
+            
             bar = renpy.render(self.bar, w, h, st, at)
             render.blit(bar, (self.bar_x, self.bar_y))
             
@@ -102,7 +106,7 @@ init python:
         
         def event(self, ev, x, y, st):
             click = renpy.variant('mobile') and ev.type == pygame.MOUSEBUTTONUP
-            space = ev.type == pygame.KEYDOWN and ev.key == pygame.K_SPACE
+            space = ev.type == pygame.KEYDOWN and ev.key == get_key("key_str")
             
             if not click and not space:
                 return 
@@ -116,6 +120,6 @@ init python:
         def visit(self):
             return self.children
 
-screen weightlifting:
+screen weightlifting():
     add Weightlifting()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

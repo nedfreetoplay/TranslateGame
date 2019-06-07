@@ -1,4 +1,6 @@
-screen school_left_hallway:
+screen school_left_hallway():
+    use mods_screens_hook("school_left_hallway")
+
     add game.timer.image("backgrounds/location_school_lefthall_day{}.jpg")
 
     imagebutton:
@@ -42,14 +44,14 @@ screen school_left_hallway:
         pos (37,233)
         idle game.timer.image("objects/object_locker_09{}.png")
         hover HoverImage(game.timer.image("objects/object_locker_09{}.png"))
-        action [Hide("school_left_hallway"), Function(renpy.call, "school_lock_check", "Roxxy Locker", "roxxy_locker")]
+        action MoveTo(L_school_locker_roxxy)
 
     imagebutton:
         focus_mask True
         pos (133,281)
         idle game.timer.image("objects/object_locker_10{}.png")
         hover HoverImage(game.timer.image("objects/object_locker_10{}.png"))
-        action [Hide("school_left_hallway"), Function(renpy.call, "school_lock_check", "Judith Locker", "judith_locker")]
+        action MoveTo(L_school_locker_judith)
 
 
     imagebutton:

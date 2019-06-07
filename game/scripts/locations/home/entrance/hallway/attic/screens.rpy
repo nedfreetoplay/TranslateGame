@@ -1,4 +1,6 @@
-screen attic:
+screen attic():
+    use mods_screens_hook("attic")
+
     add game.timer.image("backgrounds/location_home_attic_day{}.jpg")
 
     imagebutton:
@@ -47,7 +49,7 @@ screen attic:
 
     imagebutton:
         focus_mask True
-        pos (703,602)
+        pos (128, 638)
         idle game.timer.image("objects/object_picture_01{}.png")
         hover HoverImage(game.timer.image("objects/object_picture_01{}.png"))
         action Show("popup_unfinished")
@@ -66,11 +68,18 @@ screen attic:
         hover HoverImage(game.timer.image("objects/object_discs_01{}.png"))
         action Show("popup_unfinished")
 
+    imagebutton:
+        focus_mask True
+        pos (739, 618)
+        idle game.timer.image("objects/object_carpet_01{}.png")
+        hover HoverImage(game.timer.image("objects/object_carpet_01{}.png"))
+        action Hide("attic"), Jump("peep_hole_dialogue")
+
     if not player.has_picked_up_item("cheerleader_outfit"):
         imagebutton:
             focus_mask True
             pos (345,375)
             idle game.timer.image("objects/object_outfit_01{}.png")
             hover HoverImage(game.timer.image("objects/object_outfit_01{}.png"))
-            action Function(player.get_item, "cheerleader_outfit"), Hide("attic"), Jump("cheerleader_outfit")
+            action Hide("attic"), Jump("cheerleader_outfit")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

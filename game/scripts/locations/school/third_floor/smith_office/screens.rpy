@@ -1,4 +1,6 @@
-screen principal_smiths_office:
+screen principal_smiths_office():
+    use mods_screens_hook("principal_smiths_office")
+
     if not M_ross.is_set('smith office painting'):
         add game.timer.image("backgrounds/location_school_office_day{}.jpg")
 
@@ -76,7 +78,7 @@ screen principal_smiths_office:
             hover HoverImage(game.timer.image("objects/object_garbage_01{}.png"))
             action Hide("principal_smiths_office"), Jump("principal_trash")
 
-screen principle_garbage:
+screen principle_garbage():
     add "backgrounds/location_school_office_garbage.jpg"
 
     if M_okita.is_state(S_okita_get_ingredients) and not player.has_picked_up_item("tissue"):
@@ -87,7 +89,7 @@ screen principle_garbage:
             hover HoverImage("objects/object_tissue_01.png")
             action Hide("principle_garbage"), Jump("tissue_taken")
 
-screen principle_drawer:
+screen principle_drawer():
     add game.timer.image("backgrounds/location_school_office_drawer_day{}.jpg")
 
     if False:
@@ -112,7 +114,7 @@ screen principle_drawer:
             hover HoverImage("boxes/auto_option_generic_01.png")
             action Hide("principle_drawer"), Jump("office_dialogue")
 
-screen desk03_options:
+screen desk03_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("desk03_options")
@@ -124,7 +126,7 @@ screen desk03_options:
         hover HoverImage("boxes/desk03_option_01.png")
         action Hide("desk03_options"), Hide("principal_smiths_office"), Jump("desk_open")
 
-screen desk04_options:
+screen desk04_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("desk04_options")
@@ -140,7 +142,7 @@ screen desk04_options:
         else:
             action Hide("desk04_options"), Hide("principal_smiths_office"), Jump("desk03_locked_dialogue")
 
-screen desk_drawer:
+screen desk_drawer():
     add "backgrounds/location_school_office_desk.jpg"
 
     if not player.has_picked_up_item("master_key"):

@@ -19,4 +19,13 @@ label mias_house_dialogue:
     elif game.timer.is_evening() and M_mia.is_set('front door locked'):
         call expression game.dialog_select("mias_house_front_door_locked")
     $ game.main()
+
+label mias_mailbox_dialogue:
+    if game.mail["mia"] == "m_pizza_pamphlet":
+        call expression game.dialog_select("mia_mailbox_pizza_pamphlet")
+        $ L_pizzeria_exterior.unlock()
+        $ L_dealership_front.unlock()
+    elif game.mail["mia"] == "m_newspaper":
+        call expression game.dialog_select("mia_mailbox_newspaper")
+    call screen mias_mailbox
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

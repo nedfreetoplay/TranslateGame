@@ -85,7 +85,7 @@ init -1 python:
                 except StopIteration:
                     renpy.jump('bag_minigame_attack')
             else:
-                self._init_moves()
+                renpy.jump("training_failed_dialogue")
         
         def event(self, ev, x, y, st):
             if renpy.variant("mobile") and ev.type == pygame.MOUSEBUTTONUP:
@@ -96,6 +96,6 @@ init -1 python:
                 self._on_event(ev.key)
             pass
 
-screen muay_thai(tier):
-    add MuayThai(tier)
+screen muay_thai():
+    add MuayThai(bisect.bisect((4, 7, 9), player.stats.dex()) + 1)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -74,10 +74,10 @@ label barn_dialogue:
         call expression game.dialog_select("barn_daisy_caught_breeding_aftermath")
         $ M_daisy.trigger(T_daisy_end)
         menu:
-            "Да.":
+            "Yes.":
                 call expression game.dialog_select("barn_daisy_caught_breeding_aftermath_yes")
                 jump first_time_dialogue_daisy_sex
-            "Нет.":
+            "No.":
 
                 call expression game.dialog_select("barn_daisy_caught_breeding_aftermath_no")
                 $ game.main()
@@ -89,7 +89,7 @@ label barn_front_dialogue:
         call expression game.dialog_select("barn_front_daisy_picking_flowers")
         $ M_daisy.trigger(T_daisy_named_herself)
         $ game.timer.tick()
-        $ M_daisy.is_naked = True
+        $ M_daisy.outfit.is_naked = True
         $ player.go_to(L_diane_barn_garden)
         $ game.main()
     $ game.main()

@@ -29,8 +29,6 @@ init 10 python:
                 if cookie_unlock_name in persistent.cookie_jar[cookie]["gallery"]:
                     persistent.cookie_jar[cookie]["gallery"][cookie_unlock_name] = True
                 cookie_count += 1
-        persistent.cookie_jar["Jenny"]["gallery_labels"]["05_label"] = "webcam_menu_4"
-        persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_final"
         persistent.cookie_jar["Bissette"]["gallery_labels"]["02_label"] = "bissettes_office_night_visit_replay"
         pass
 
@@ -47,8 +45,6 @@ init 10 python:
                 if cookie_unlock_name in persistent.cookie_jar[cookie]["gallery"]:
                     persistent.cookie_jar[cookie]["gallery"][cookie_unlock_name] = False
                 cookie_count += 1
-        persistent.cookie_jar["Jenny"]["gallery_labels"]["05_label"] = "webcam_menu_4"
-        persistent.cookie_jar["Jenny"]["gallery_labels"]["07_label"] = "sis_bed_replay_final"
         persistent.cookie_jar["Bissette"]["gallery_labels"]["02_label"] = "bissettes_office_night_visit_replay"
         pass
 
@@ -138,6 +134,11 @@ init 10 python:
         renpy.notify("Printed the items list to the console!")
         return
 
+    def search_item(itemname):
+        for k in sorted(store.items.keys()):
+            if itemname.lower() in k:
+                yield k, (k in player.inventory.items)
+
     def unlock_all_locations():
         for location in store.locations:
             store.locations[location].unlock(False, False)
@@ -168,4 +169,7 @@ init 10 python:
 
     def get_triggers(machine):
         return machine._state._table.keys()
+
+    def console_history():
+        return [h.command for h in _console.console.history]
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,5 +1,3 @@
-default art_classroom_first_visit = True
-
 label art_classroom_dialogue:
     $ player.go_to(L_school_artclassroom)
     call pa_announcement
@@ -20,9 +18,9 @@ label easel_dialogue:
     else:
 
         show player 35 with dissolve
-        player_name "( Что я должен нарисовать сегодня? )"
+        player_name "( What should I draw today? )"
         menu:
-            "Идеи по тату.":
+            "Tattoo ideas.":
                 call expression game.dialog_select("easel_dialogue_mia_draw_tattoo_intro")
                 call screen tattoos
                 call expression game.dialog_select("easel_dialogue_mia_draw_tattoo_drawn")

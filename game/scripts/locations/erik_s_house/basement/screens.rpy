@@ -1,4 +1,6 @@
-screen eriks_basement tag eriks_house:
+screen eriks_basement() tag eriks_house:
+
+
     add "backgrounds/location_erik_basement01.jpg"
 
     imagebutton:
@@ -66,7 +68,7 @@ screen eriks_basement tag eriks_house:
             hover HoverImage("objects/character_erik_01.png")
             action Hide("eriks_basement"), Jump("erik_button_dialogue")
 
-screen cabinet01_options:
+screen cabinet01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("cabinet01_options")
@@ -78,7 +80,7 @@ screen cabinet01_options:
         hover HoverImage("boxes/cabinet01_option_01.png")
         action Hide("cabinet01_options"), Hide("eriks_basement"), Jump("cabinet")
 
-screen poker01_options:
+screen poker01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("poker01_options")
@@ -90,7 +92,9 @@ screen poker01_options:
         hover HoverImage("boxes/poker01_option01.png")
         action Hide("poker01_options"), Hide("eriks_basement"), Jump("poker_table")
 
-screen eriks_basement_backroom:
+screen eriks_basement_backroom():
+    use mods_screens_hook("eriks_basement_backroom")
+
     add "backgrounds/location_erik_basement_back.jpg"
 
     imagebutton:
@@ -123,7 +127,7 @@ screen eriks_basement_backroom:
         hover HoverImage("objects/object_aquarium_01.png")
         action Hide("eriks_basement_backroom"), Hide("ui"), Show("backroom_aquarium")
 
-screen backroom_aquarium:
+screen backroom_aquarium():
     add "backgrounds/location_erik_basement_aquarium.jpg"
 
     if erik.started(erik_card_hunt) and not player.has_item("eriks_cards"):

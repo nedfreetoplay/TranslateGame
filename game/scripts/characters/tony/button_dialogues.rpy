@@ -1,47 +1,47 @@
 label tony_dialogue_veggie_pizza_no_money_repeat:
     show player 10f
-    player_name "О, черт."
-    player_name "У меня с собой недостаточно денег."
+    player_name "Oh, crap."
+    player_name "I don't have enough money on me."
     show player 5f
     show tony f_question
-    tony "Ну, ты не можешь получить пиццу без денег."
-    tony "О чем ты думал, тупица?"
+    tony "Well, you can't get no pizza without money."
+    tony "What are you thinkin' knucklehead?"
     show tony f_suspicious
     show player 29f with dissolve
-    player_name "Хех, прости."
+    player_name "Heh, sorry."
     show player 5f with dissolve
     show tony f_question
-    tony "Просто приходи, когда получишь достаточно денег, хорошо?"
+    tony "Just come back when you got some cash on ya, alright?"
     show tony f_suspicious
     show player 10f
-    player_name "Хорошо."
+    player_name "Will do."
     hide player with dissolve
     return
 
 label tony_dialogue_veggie_pizza_has_money_repeat:
     show player 14f zorder 3 at right
-    player_name "Вот, держи."
+    player_name "Here ya go."
     show player 41f with dissolve
     pause
     show player 13f
     show tony f_question at unflip
     show tony at Position (xpos=100)
     with dissolve
-    tony "Йоу, {b}Мария{/b}!"
-    tony "Одну овощную с грибами и ананасом, на вынос."
-    maria "Да, да..."
+    tony "'Ey, {b}Maria{/b}!"
+    tony "One vegetable with mushrooms and pineapple, to go."
+    maria "Yeah, yeah..."
     hide tony with dissolve
-    maria "Знаешь, моя мать сожгла бы это место дотла, прежде чем положить ананас в пиццу..."
-    maria "... Это просто не правильно."
-    tony "Хорошо, что я женился на тебе, а не на твоей матери, не так ли?"
-    maria "Хаха!"
+    maria "You know, my mother would burn this place to the ground before she'd put pineapple on a pizza..."
+    maria "... It just ain't right."
+    tony "Yeah well, it's a good thing I married you and not your mother then, aint it?"
+    maria "Haha!"
     pause
     show tony a_dressed_pizza f_normal_talk zorder 1 at fliplleft with dissolve
-    tony "Вот твой пирог, малыш."
+    tony "Here's your pie, kiddo."
     show tony f_normal a_dressed_hips
     show player 719bf
     with dissolve
-    player_name "Спасибо, {b}Тони{/b}."
+    player_name "Thanks, {b}Tony{/b}."
     hide player with dissolve
     return
 
@@ -50,113 +50,113 @@ label tony_dialogue_veggie_pizza_repeat:
     show xtra 12 zorder 2 with None
     show player 14f zorder 3 at right
     show tony f_normal zorder 1 at fliplleft
-    player_name "Могу ли я получить еще одну {b}вегетарианскую пиццу{/b}?"
+    player_name "Could I get another {b}veggie pizza{/b}?"
     show player 13f
     show tony f_normal_talk
-    tony "Конечно, малыш."
-    tony "Она стоит $20."
+    tony "Sure thing, kiddo."
+    tony "That'll be $20."
     show tony f_normal
     return
 
 label tony_dialogue_nevermind_pizza_order:
     show player 10f zorder 3 at right
-    player_name "Э-э, вообще-то ... не важно."
-    player_name "Я не хочу, чтобы в конце концов."
+    player_name "Uhh, actually... Nevermind."
+    player_name "I don't want one afterall."
     show player 5f
     show tony f_normal_talk
-    tony "Нет?"
-    tony "Хорошо, малыш."
+    tony "No?"
+    tony "Alright, kiddo."
     show tony f_normal
     pause
     show tony f_normal_talk
-    tony "Возвращайся, если передумаешь."
+    tony "Come back if you change your mind."
     hide player with dissolve
     return
 
 label tony_dialogue_veggie_pizza_no_money_first:
     show player 10f
-    player_name "О, черт."
-    player_name "У меня с собой недостаточно денег."
+    player_name "Oh, crap."
+    player_name "I don't have enough money on me."
     show player 5f
     show tony f_question
-    tony "Ну, ты не можешь получить пиццу без денег."
-    tony "О чем ты думал, тупица?"
+    tony "Well, you can't get no pizza without money."
+    tony "What are you thinkin' knucklehead?"
     show tony f_suspicious
     show player 29f with dissolve
-    player_name "Хех, прости."
+    player_name "Heh, sorry."
     show player 13f with dissolve
     show tony f_normal_talk
-    tony "Просто приходи, когда получишь достаточно денег, хорошо?"
+    tony "Just come back when you got some cash on ya, alright?"
     show tony f_normal
     show player 14f
-    player_name "Хорошо."
+    player_name "Will do."
     hide player with dissolve
     return
 
 label tony_dialogue_veggie_pizza_has_money_first:
     show player 14f zorder 3 at right
-    player_name "Вот и я."
+    player_name "Here ya go."
     show player 41f with dissolve
     pause
     show player 13f
     show tony f_question at unflip
     show tony at Position (xpos=100)
     with dissolve
-    tony "Йоу, {b}Мария{/b}!"
-    tony "У нас тут клиент!"
+    tony "'Ey, {b}Maria{/b}!"
+    tony "We got a customer 'ere!"
     show tony f_suspicious
-    maria "Я знаю, что ты сейчас не кричишь на меня, {b}Тони{/b}!"
-    maria "Можешь развернуться и вежливо спросить."
+    maria "I know you ain't yellin' orders at me now, {b}Tony{/b}!"
+    maria "You can turn your fat ass around and ask politely."
     show tony f_normal_talk
-    tony "О, черт."
-    tony "Вы можете поверить этой женщине?"
+    tony "Ah, sheesh."
+    tony "Can you believe this woman?"
     show player 9f with dissolve
-    tony "Тчч, шары у нее..."
+    tony "Tch, the balls on her..."
     hide tony with dissolve
-    tony "Послушай женщина..."
-    tony "Это ты должна разбираться с клиентами."
-    tony "Бог свидетель, если бы они увидели твое милое личико, а не эту уродливую рожу, у нас было бы гораздо больше заказов."
-    maria "Да, но они никогда не вернутся после того, как отведают твоей стряпни!"
-    tony "Ой, это так грубо!"
-    tony "Хаха!"
-    maria "Хаха!"
-    maria "Да, конечно... Поцелуй меня и возьми свой пирог."
-    tony "Ну что ж, кто откажется от этого?"
+    tony "Now you look here woman..."
+    tony "It should be you up here dealin' with the customers."
+    tony "God knows, we'd be bringing in a lot more business if they saw your pretty face 'ere instead of this ugly mug."
+    maria "Yeah but they'd never come back after they tasted your cookin'!"
+    tony "Oh, now that's just mean!"
+    tony "Haha!"
+    maria "Haha!"
+    maria "Yeah, yeah... Come gimme a kiss and take your pie."
+    tony "Ah well, who could refuse that?"
     pause
-    tony "Хехехе."
+    tony "Hehehe."
     show tony a_dressed_pizza f_normal_talk zorder 1 at fliplleft with dissolve
-    tony "{b}*гмм*{/b} Ох, прости за все это."
+    tony "{b}*Ahem*{/b} Uhh, sorry about all that."
     show tony f_normal
     show player 14f with dissolve
-    player_name "Нет проблем."
+    player_name "No problem."
     show player 13f
     show tony f_normal_talk
-    tony "Вот твой пирог."
+    tony "Here's your pie."
     show tony a_dressed_hips
     show player 719f
     with dissolve
-    tony "Наслаждайся!"
+    tony "Enjoy!"
     show tony f_normal
 
     show player 720 with dissolve
-    player_name "( О, действительно вкусно пахнет. )"
-    player_name "( Надеюсь {b}Дейзи{/b} понравится. )"
+    player_name "( Oh, this smells really good. )"
+    player_name "( I hope {b}Daisy{/b} likes it. )"
     hide player with dissolve
     return
 
 label tony_dialogue_veggie_pizza_first:
     show player 14f zorder 3 at right
-    player_name "Можно мне одну со всеми овощами?"
+    player_name "Can I get one with all the vegetables?"
     show player 13f
     show tony f_normal_talk
-    tony "Конечно, малыш!"
-    tony "Ты тоже хочешь грибов и ананасов?"
+    tony "Sure thing, kiddo!"
+    tony "You want mushrooms and pineapple too?"
     show tony f_normal
     show player 14f
-    player_name "О, да пожалуйста!"
+    player_name "Oh, yes please!"
     show player 13f
     show tony f_normal_talk
-    tony "Будет стоить $20."
+    tony "That'll be $20."
     show tony f_normal
     return
 
@@ -165,11 +165,11 @@ label tony_dialogue_pizza_order:
     show xtra 12 zorder 2 with None
     show player 14f zorder 3 at right
     show tony f_normal zorder 1 at fliplleft
-    player_name "Я возьму одну большую пиццу, пожалуйста."
+    player_name "I'll take one large pizza, please."
     show player 13f
     show tony f_normal_talk
-    tony "Теперь мы говорим!"
-    tony "Какой пирог ты ищешь?"
+    tony "Now we're talkin'!"
+    tony "What kinda pie are you lookin' for?"
     show tony f_normal
     return
 
@@ -184,36 +184,36 @@ label tony_dialogue_pre:
     return
 
 label tony_dialogue_deliver_pizzas_first:
-    tony "Привет, парень!"
-    tony "Готов к работе?"
+    tony "Hey, kid!"
+    tony "Ready to work?"
     show tony f_normal at flip, Position (xpos=750)
     show player 14f
-    player_name "Конечно!"
+    player_name "Sure!"
     show tony f_normal_talk at flip
     show player 1f
-    tony "Отлично! Прежде всего, у тебя должен быть {b}велосипед{/b} или что-то, что позволит тебе передвигаться быстрее."
-    tony "Просто хватай те коробки и доставляй их на правильные адреса!"
-    tony "Ох! Наши покупатели любят горячую пиццу."
-    tony "Так что чем быстрее ты работаешь - тем больше получаешь!"
+    tony "Good! Before we start, make sure you got a {b}bicycle{/b} or something - anything - to get you around faster."
+    tony "Then grab those boxes on the counter, and deliver them to the right addresses!"
+    tony "Oh! Our customers love their pizzas nice and hot."
+    tony "So the faster you work, the more I'll pay ya!"
     show tony f_normal
     show player 14f
-    player_name "Звучит неплохо, {b}Тони{/b}!"
+    player_name "Sounds good, {b}Tony{/b}!"
     return
 
 label tony_dialogue_deliver_pizzas_repeat:
-    tony "Коробки прямо тут, парень!"
+    tony "The boxes are right there, kid!"
     return
 
 label tony_dialogue_default:
     show tony f_normal_talk at flip, Position (xpos=750)
     show player 10f
-    tony "Тебе нужен велик, чтобы развозить пиццу!"
+    tony "You need to get a bike to deliver pizzas, kiddo!"
     show tony f_normal at flip
     show player 4f
-    player_name "( Уверен, что смогу купить его в {b}магазине{/b}... )"
+    player_name "( I bet I could buy a bike at {b}Consum'r{/b}... )"
     show player 2f
-    player_name "Спасибо, {b}Тони{/b}. я скоро вернусь, но уже вместе с ним!"
+    player_name "Thanks, {b}Tony{/b}. I'll get a bike and come back!"
     show tony f_normal_talk
-    tony "Отлично, парень!"
+    tony "You do, you kid!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

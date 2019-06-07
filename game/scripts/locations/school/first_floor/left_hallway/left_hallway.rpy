@@ -35,13 +35,10 @@ label left_hall_dialogue:
     else:
 
 
-
-        if quest11 in quest_list and quest11 not in completed_quests and not left_hall_cult_seen:
+        if M_dewitt.is_state(S_dewitt_school_sneak_mission) and not M_smith.get("left hall cult seen"):
             call expression game.dialog_select("left_hallway_cult_discovery")
-            $ left_hall_cult_seen = True
-
-        elif M_dewitt.is_state(S_dewitt_school_sneak_mission):
             call expression game.dialog_select("left_hallway_school_sneak_mission")
             $ M_dewitt.trigger(T_dewitt_school_sneak_in)
+            $ M_smith.set("left hall cult seen", True)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,4 +1,6 @@
-screen school_courtyard:
+screen school_courtyard():
+    use mods_screens_hook("school_courtyard")
+
     add game.timer.image("backgrounds/location_school_gym{}.jpg")
     if player.location.is_here(M_ronda):
         imagebutton:

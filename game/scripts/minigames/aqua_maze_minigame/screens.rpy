@@ -84,6 +84,6 @@ init python:
             pass
 
 
-screen lair_maze:
+screen lair_maze():
     add AquaMaze()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

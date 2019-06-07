@@ -96,9 +96,9 @@ label ross_button_dialogue:
     elif M_ross.is_state(S_ross_end):
         call expression game.dialog_select("button_ross_end_intro")
         menu:
-            "Да.":
+            "Yes.":
                 call expression game.dialog_select("button_ross_end_yes")
-            "Нет.":
+            "No.":
 
                 call expression game.dialog_select("button_ross_end_no")
     $ game.main()

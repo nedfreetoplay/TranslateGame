@@ -1,4 +1,6 @@
-screen eriks_backyard:
+screen eriks_backyard():
+    use mods_screens_hook("eriks_backyard")
+
     add game.timer.image("backgrounds/location_erik_house_backyard_day{}.jpg")
 
     imagebutton:
@@ -9,7 +11,7 @@ screen eriks_backyard:
         action If(
             erik.in_progress(erik_thief),
             [Hide("eriks_backyard"), Jump("erik_thief_block2")],
-            [Hide("eriks_backyard"), Jump("erik_house")]
+            [Hide("eriks_backyard"), Jump("eriks_house_dialogue")]
         )
 
     if erik.in_progress(erik_thief):

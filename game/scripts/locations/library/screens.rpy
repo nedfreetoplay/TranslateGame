@@ -1,4 +1,6 @@
-screen library_front:
+screen library_front():
+    use mods_screens_hook("library_front")
+
     add game.timer.image("backgrounds/location_library_front_day{}.jpg")
 
     imagebutton:

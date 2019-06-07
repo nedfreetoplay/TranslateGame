@@ -1,11 +1,9 @@
-label judith_triggers_init:
-    python:
-        T_judith_intro = Trigger("intro", "default")
-        T_judith_changed = Trigger("changed")
-        T_judith_latina_bashed = Trigger("latina bashed")
-        T_judith_comfort_her = Trigger("comfort her")
-        T_judith_end = Trigger("end")
-    return
+init python:
+    T_judith_intro = Trigger("intro", "default")
+    T_judith_changed = Trigger("changed")
+    T_judith_latina_bashed = Trigger("latina bashed")
+    T_judith_comfort_her = Trigger("comfort her")
+    T_judith_end = Trigger("end")
 
 label judith_fsm_init:
     python:

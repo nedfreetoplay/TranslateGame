@@ -1,4 +1,4 @@
-screen judith_stage01:
+screen judith_stage01():
     add "backgrounds/location_school_locker_room_broken_stall_01.jpg"
 
     imagebutton:
@@ -7,7 +7,7 @@ screen judith_stage01:
         hover HoverImage("buttons/judith_stage01_01.png")
         action Hide("judith_stage01"), Jump("judith_kiss")
 
-screen judith_stage02:
+screen judith_stage02():
     add "backgrounds/location_school_locker_room_broken_stall_02.jpg"
 
     imagebutton:
@@ -16,7 +16,7 @@ screen judith_stage02:
         hover HoverImage("buttons/judith_stage01_02.png")
         action Hide("judith_stage01"), Jump("judith_handjob")
 
-screen judith_stage03:
+screen judith_stage03():
     add "backgrounds/location_school_locker_room_broken_stall_03.jpg"
 
     imagebutton:
@@ -43,7 +43,7 @@ screen judith_stage03:
         hover HoverImage("buttons/judith_stage01_04.png")
         action Hide("judith_stage02"), Jump("judith_pullpants")
 
-screen judith_stage04:
+screen judith_stage04():
     add "backgrounds/location_school_locker_room_broken_stall_04.jpg"
 
     imagebutton:
@@ -59,7 +59,9 @@ screen judith_stage04:
         action Hide("judith_stage01"), Jump("judith_handjob")
 
 
-screen school_girls_lockerroom:
+screen school_girls_lockerroom():
+    use mods_screens_hook("school_girls_lockerroom")
+
     add game.timer.image("backgrounds/location_school_locker_room_broken{}.jpg")
 
     imagebutton:
@@ -76,7 +78,7 @@ screen school_girls_lockerroom:
         hover HoverImage("boxes/auto_option_02.png")
         action Hide("school_girls_lockerroom"), Jump("left_hall_dialogue")
 
-screen door32_options:
+screen door32_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("door32_options")

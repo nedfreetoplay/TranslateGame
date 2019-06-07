@@ -1,4 +1,6 @@
-screen pizzeria_interior:
+screen pizzeria_interior():
+    use mods_screens_hook("pizzeria_interior")
+
     add L_pizzeria_interior.background
 
     if M_tony.is_state(S_tony_end):

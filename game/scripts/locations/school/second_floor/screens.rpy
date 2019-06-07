@@ -1,4 +1,6 @@
-screen school_second_floor:
+screen school_second_floor():
+    use mods_screens_hook("school_second_floor")
+
     add game.timer.image("backgrounds/location_school_second_day{}.jpg")
 
     if M_dewitt.is_state(S_dewitt_paint_trail):
@@ -37,7 +39,7 @@ screen school_second_floor:
         pos (864,408)
         idle game.timer.image("objects/object_door_97{}.png")
         hover HoverImage(game.timer.image("objects/object_door_97{}.png"))
-        action Hide("school_second_floor"), Function(renpy.call, "school_lock_check", "Teacher's Lounge", "teach_lounge_dialogue")
+        action MoveTo(L_school_teacherslounge)
 
     if player.location.is_here(M_annie):
         imagebutton:

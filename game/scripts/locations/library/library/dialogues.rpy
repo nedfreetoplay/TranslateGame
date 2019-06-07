@@ -1,19 +1,19 @@
 label library_diane_production_ask_librarian:
     scene expression "backgrounds/location_library_day_blur.jpg"
     show player 13 with dissolve
-    player_name "( Я должен спросить библиотекаря о тех книгах по доению, о которых упомянула {b}Вероника{/b}. )"
+    player_name "( I should ask the librarian about those milking books {b}Veronica{/b} mentioned. )"
     hide player with dissolve
     return
 
 label library_jane_intro:
     call expression game.dialog_select("library_jane_intro_pre")
     menu:
-        "Конечно." if player.has_money(20):
+        "Sure." if player.has_money(20):
             call expression game.dialog_select("library_jane_intro_sure")
             $ player.spend_money(20)
             $ M_player.set("library subscription", True)
             $ M_jane.trigger(T_jane_library_pass)
-        "Я откажусь.":
+        "I'll pass.":
 
             call expression game.dialog_select("library_jane_intro_not_yet")
             $ player.go_to(L_map)
@@ -27,81 +27,81 @@ label library_jane_intro:
 label library_jane_intro_pre:
     scene library
     show player 1 at left
-    show jane 2 at right
+    show jane f_normal_talk at right
     with dissolve
-    jan "Привет!"
+    jan "Hi!"
     show player 14
-    show jane 1
-    player_name "Ох, привет!"
-    player_name "Я ищу некоторые школьные {b}учебники{/b}."
+    show jane f_normal
+    player_name "Oh, hi!"
+    player_name "I'm looking for some school {b}textbooks{/b}."
     show player 1
-    show jane 2
-    jan "Подписка на клуб читателей есть?"
-    show jane 1
+    show jane f_normal_talk
+    jan "Do you have a membership subscription?"
+    show jane f_normal
     show player 10
-    player_name "Эммм... Я не думаю что у меня есть."
+    player_name "Umm... I don't think I have one."
     show player 13
-    show jane 3
-    jan "Ох. Ничего страшного!"
-    show jane 2
-    jan "Хочешь её получить?"
-    show jane 3
+    show jane f_laugh
+    jan "Oh. That's okay!"
+    show jane f_normal_talk
+    jan "Would you like to get one?"
+    show jane f_laugh
     show player 11
-    jan "Членский взнос всего {b}$20{/b}, и ты получишь доступ во все секции!"
-    show jane 1
+    jan "Membership subscriptions are {b}$20{/b}, and you get access to all of our selections!"
+    show jane f_normal
     show player 2
-    player_name "Ухх... Я думаю у меня нет выбора. Хаха."
-    show jane 3
+    player_name "Uhh... I guess I have no choice. Haha."
+    show jane f_laugh
     show player 13
-    jan "Знания бесценны, не так ли?"
-    show jane 2
-    jan "Будете платить взнос?"
-    show jane 1
+    jan "Knowledge is priceless, right?"
+    show jane f_normal_talk
+    jan "Would you like to subscribe right now?"
+    show jane f_normal
     return
 
 label library_jane_intro_sure:
     show player 4
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 174b at Position(xoffset=38) with fastdissolve
-    player_name "Ладно. Вот {b}$20.{/b}"
+    player_name "All right. Here's {b}$20.{/b}"
     show player 1 with fastdissolve
-    show jane 3
-    jan "Спасибо!"
-    show jane 2
-    jan "Если ищете конкретную {b}книгу{/b}, подходите ко мне."
-    jan "Я постораюсь найти их для тебя!"
-    show jane 1
+    show jane f_laugh
+    jan "Thank you!"
+    show jane f_normal_talk
+    jan "If you're looking for a specific {b}book{/b}, just come to the front desk."
+    jan "I'll look them up and find 'em for ya!."
+    show jane f_normal
     show player 2
-    player_name "Это приятно слышать! Спасибо!"
+    player_name "That sounds great! Thanks!"
     return
 
 label library_jane_intro_not_yet:
     show player 4
-    player_name "Хмм..."
+    player_name "Hmm..."
     show player 35
-    player_name "Вообще-то, Я думаю что я откажусь..."
-    show jane 2
+    player_name "Actually, I think I'll pass..."
+    show jane f_normal_talk
     show player 1
-    jan "Ох... ну хорошо тогда."
-    show jane 1
+    jan "Oh... alright then."
+    show jane f_normal
     show player 2
-    player_name "Я могу вернуться в другое время!"
-    show jane 2
+    player_name "I might come by another time!"
+    show jane f_normal_talk
     show player 1
-    jan "Окей, в любой день!"
+    jan "Okay, have a good day!"
     return
 
 label library_bissette_find_poem_reference_book:
     scene library
     show player 14f with dissolve
-    player_name "Сейчас, надо найти что не будь во Французком романе."
+    player_name "Now, to find something on French romance."
     show player 12f
-    player_name "Это будет не легко-"
+    player_name "This isn't going to be easy-"
     show player 32f at Position(xoffset=-69) with dissolve
-    player_name "Это {b}Мия{/b}?"
+    player_name "Is that {b}Mia{/b}?"
     show player 14f with dissolve
-    player_name "Интересно что она здесь делает?"
-    player_name "Я должен пойти и сказать Привет!"
+    player_name "I wonder what she's doing here?"
+    player_name "I should go and say Hi!"
     hide player with dissolve
     return
 
@@ -109,14 +109,14 @@ label library_ross_find_magazines:
     scene library
     show player 2
     with dissolve
-    player_name "Хмм, Мне нужно {b}спросить библиотекаршу{/b}, где она хранит эти журналы."
+    player_name "Hmm, I should {b}ask the Librarian{/b} where she keeps the magazines."
     return
 
 label check_out_lock:
     scene library
     show player 5 with dissolve
-    player_name "( Сначала надо найти эту книгу. )"
-    player_name "( Надо {b}снова поговорить с библиотекаршей{/b}. )"
+    player_name "( I need to check out this book first. )"
+    player_name "( I should {b}talk to the librarian again{/b}. )"
     hide player with dissolve
     $ game.main()
 
@@ -131,14 +131,14 @@ label poem_assignment_lock:
 label poem_assignment_lock_bissette_find_poem_reference_book:
     scene library
     show player 14f with dissolve
-    player_name "Надо поздороваться с {b}Мией{/b}."
+    player_name "I should go say hello to {b}Mia{/b}."
     hide player with dissolve
     return
 
 label poem_assignment_lock_bissette_reference_book_search:
     scene library
     show player 14 with dissolve
-    player_name "Надо посмотреть в {b}задней комнате{/b} книгу, о которой говорила {b}Мия{/b}."
+    player_name "I should check {b}the back room{/b} for that book {b}Mia{/b} was talking about."
     hide player with dissolve
     return
 
@@ -150,9 +150,9 @@ label kamasutra:
 label kamasutra_dialogue:
     scene libraryshelf with None
     show book_02_c at truecenter with dissolve
-    player_name "Вау..."
-    player_name "В этой книге есть все сексуальные...позиции?"
-    player_name "Это должно быть то что она просила..."
+    player_name "Woa..."
+    player_name "This book has all sorts of sex...positions?"
+    player_name "It must be what she asked for..."
     hide book_02_c with dissolve
     return
 
@@ -164,14 +164,14 @@ label french_dictionary:
 
 label french_dictionary_dialogue:
     scene libraryshelf with None
-    player_name "Ага! Французко - Английский словарь!"
-    player_name "Великолепно! Теперь я мо-"
+    player_name "Aha! French to English dictionary!"
+    player_name "Great! Now I can-"
     show book_03_c at truecenter with dissolve
-    player_name "Минуточку..."
-    player_name "Некоторых страниц не хватает!"
-    player_name "Что мне теперь делать?"
+    player_name "Wait a second..."
+    player_name "Some of the pages are missing!"
+    player_name "Now what do I do?"
     pause
-    player_name "Надеюсь что важные страницы остались."
+    player_name "Hopefully nothing important is gone."
     hide book_03_c with dissolve
     return
 
@@ -183,15 +183,15 @@ label library_old_book:
 label library_old_book_dialogue:
     scene libraryshelf with None
     show closeup_book_09 at truecenter with dissolve
-    player_name "Эта книга будет полезна всем кто хочет расшифровать что-то."
+    player_name "This book looks like it would be useful decoding something."
     player_name "..."
     if not player.has_item("weird_coin"):
-        player_name "Хех. Может быть некоторые {b}спрятаные пиратские сокровища{/b} были кем нибудь беспечно выбрашенны."
-        player_name "Но это только мои {b}беспочвенные желания{/b}."
+        player_name "Heh. Maybe some {b}hidden pirate treasure{/b} someone tossed aside carelessly."
+        player_name "But that's just {b}wishful thinking{/b}."
     else:
 
-        player_name "Я думаю что {b}пиратская монета{/b} имела четырехзначное число."
-        player_name "Мне нужно посмотреть на неё ешё раз."
+        player_name "I think that {b}pirate coin{/b} had a four digit number on it."
+        player_name "I should look at it again."
     show popup_item_book6 at truecenter with dissolve
     pause
     hide popup_item_book6 with dissolve
@@ -207,27 +207,27 @@ label breeding_guide:
 
 label breeding_guide_dialogue:
     scene libraryshelf
-    player_name "( Хм, руководство селекционера? )"
-    player_name "( Здесь может быть то, что я ищу... )"
+    player_name "( Hmm, Breeder's Guide? )"
+    player_name "( This might have what I'm looking for... )"
     show book_01_c at truecenter with dissolve
-    player_name "( Итак, \"Увеличение надоев молока.\")"
+    player_name "( Here we go, \"Increasing milk yield.\""
     pause
     player_name "!!!" with hpunch
-    player_name "( Срань господня! )"
-    player_name "( {b}Вероника{/b} была права! )"
+    player_name "( Holy crap! )"
+    player_name "( {b}Veronica{/b} was right! )"
 
     scene expression "backgrounds/location_library_day_blur.jpg"
     show player 369b
     with dissolve
-    player_name "( Похоже ,если {b}Диана{/b} забеременеет, это значительно увеличит ее производство молока. )"
+    player_name "( It seems like, if {b}Diane{/b} get's pregnant, it will increase her milk production significantly. )"
     pause
-    player_name "( *Глоток* )"
-    player_name "( Я знаю, что мы немного повеселились вместе, но {b}Диана{/b} очень бы этого хотела... )"
-    player_name "( ... Со мной?! )"
+    player_name "( *Gulp* )"
+    player_name "( I know we've been having a bit of fun together but would {b}Diane{/b} really want to... )"
+    player_name "( ... With me?! )"
     player_name "( ... )"
-    player_name "( Это будет очень неловкий разговор. )"
-    player_name "( ... Но я обещал, что помогу ей, чем смогу! )"
-    player_name "( {b}Я должен показать ей эту книгу!{/b} )"
+    player_name "( This is going to be a really awkward conversation. )"
+    player_name "( ... But I promised I'd help her in any way I could! )"
+    player_name "( {b}I have to show her this book!{/b} )"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

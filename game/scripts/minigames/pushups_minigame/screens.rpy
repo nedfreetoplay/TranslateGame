@@ -134,6 +134,6 @@ init python:
                     return
             return
 
-screen pushups_minigame:
+screen pushups_minigame():
     add PushupsBattle()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

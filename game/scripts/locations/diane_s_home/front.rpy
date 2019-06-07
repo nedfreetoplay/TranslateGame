@@ -8,23 +8,23 @@ label dianes_front_yard_dialogue:
 label dianes_front_yard_night_locked:
     scene expression player.location.background_blur
     show player 10 with dissolve
-    player_name "{b}Диана{/b} уже наверное спит..."
+    player_name "{b}Diane{/b} is probably asleep..."
     hide player with dissolve
     return
 
 label dianes_front_seen_cucumber:
     scene expression "backgrounds/location_diane_front_day_blur.jpg"
     show player 83b with dissolve
-    player_name "Вау!!!"
-    player_name "Я понятия не имел, что {b}Диана{/b} была такой..."
-    player_name "Я имею в виду... Она мастурбирует у себя на кухне!"
-    player_name "... С огурцом!"
+    player_name "Wow!!!"
+    player_name "I had no idea {b}Diane{/b} was so..."
+    player_name "I mean... She's masturbating in her kitchen!"
+    player_name "... With a cucumber!"
     show player 78 at Position (xoffset=50) with dissolve
     player_name "!!!"
     show player 79 with dissolve
-    player_name "Я должен эээ... .. Наверное..."
-    player_name "... Я не могу позволить {b}Диане{/b} увидеть меня в таком виде!"
-    player_name "{b}Лучше всего начать с огорода.{/b} Это отвлечет меня от всяких мыслей."
+    player_name "I should uhh... Probably..."
+    player_name "... I can't let {b}Diane{/b} see me like this!"
+    player_name "{b}Best get started with the garden.{/b} That'll get my mind off it."
     hide player with dissolve
     return
 
@@ -32,72 +32,72 @@ label locked_shed_dialogue:
     if M_diane.finished_state(S_diane_fetch_pump):
         scene garden
         show player 10 at left with dissolve
-        player_name "{b}Диана{/b}?"
+        player_name "{b}Diane{/b}?"
         show player 5
-        dia "Секундочку!"
+        dia "Just a second!"
         player_name "..."
         show diane b_shirtless a_shirtless_sides f_normal
         show player 11
         player_name "!!!"
         show diane f_normal_talk
-        dia "Что случилось, красавчик?"
+        dia "What's the matter, handsome?"
         show diane f_normal
         show player 10
-        player_name "Где твоя рубашка?"
+        player_name "Where's your shirt?"
         show player 5
         show diane f_surprised_front a_shirtless_shock with dissolve
-        dia "Хмм?"
+        dia "Hmm?"
         show diane f_thinking_back a_shirtless_sides with dissolve
-        dia "О, я сняла ее, потому что ... .. Ну..."
-        dia "... Тут действительно жарко."
+        dia "Oh, I took it off because... Well..."
+        dia "... It's really hot in there."
         show diane f_normal
         show player 14
-        player_name "Да, верно!"
+        player_name "Yeah, I bet!"
         show player 13
         show diane f_normal_talk
-        dia "Тебе что-нибудь нужно?"
+        dia "Did you need something?"
         show diane f_normal
         menu diane_shed_locked_menu:
-            "Нужна какая-нибудь помощь?":
+            "Need any help in there?":
                 show player 10 at left
                 show diane f_normal
                 with dissolve
-                player_name "Тебе нужна помощь?"
+                player_name "Do you need any help in there?"
                 show player 13
                 show diane f_laugh
-                dia "Хехе, нет у меня все под контролем."
+                dia "Hehe, no I've got everything handled."
                 show diane f_smirk_talk
-                dia "TСпасибо за предложение, жеребец."
+                dia "Thanks for the offer though, stud."
                 show diane f_normal
                 jump diane_shed_locked_menu
-            "Ничего.":
+            "Nothing.":
 
                 show player 14 at left
                 show diane f_normal
                 with dissolve
-                player_name "Я просто проверял тебя."
-                player_name "Здесь так тихо..."
+                player_name "I was just checking on you."
+                player_name "It's so quiet in there..."
                 show player 13
                 show diane f_laugh
-                dia "Хех, да. Я просто сосредоточена."
-                dia "Фу,там как в духовке!"
+                dia "Heh, yeah. I'm just focused."
+                dia "Ugh, it's like an oven in there!"
                 show diane f_normal
                 show player 14
-                player_name "Знаешь, ты можешь оставить дверь открытой, если хочешь..."
-                player_name "Это поможет справиться с жарой."
+                player_name "You know, you can leave the door open if you want..."
+                player_name "That would help with the heat."
                 show player 13
                 show diane f_thinking_back
-                dia "О, ммм..."
-                dia "Нет, все в порядке."
+                dia "Oh, umm..."
+                dia "No that's alright."
                 show diane f_laugh
-                dia "Я лучше работаю в одиночестве."
+                dia "I work better in private."
                 show diane f_normal
                 show player 14
-                player_name "Хмм, хорошо."
-                player_name "Думаю, я покину тебя тоже."
+                player_name "Hmm, okay."
+                player_name "I guess I'll leave you too it."
                 show player 13
                 show diane f_normal_talk
-                dia "Спасибо, {b}[firstname]{/b}."
+                dia "Thanks, {b}[firstname]{/b}."
                 hide player
                 hide diane
                 with dissolve
@@ -119,9 +119,9 @@ label night_closed_garden:
         scene garden_night
     show player 10 with dissolve
     if not M_diane.get("breed first time") and not game.timer.is_night():
-        player_name "{b}Диана{/b} сказала, что она будет в {b}сарае{/b}."
+        player_name "{b}Diane{/b} said she would be in the {b}barn{/b}."
     else:
-        player_name "{b}Диана{/b}, наверное, спит... Не думаю, что смогу сейчас работать в саду."
+        player_name "{b}Diane{/b} is probably asleep... I don't think I can work on the garden right now."
     hide player 2 with dissolve
     return
 
@@ -195,48 +195,48 @@ label diane_house_lock_check(location):
 label dianes_kitchen_locked:
     scene expression player.location.background_blur
     show player 30 with dissolve
-    player_name "Хмм?"
-    player_name "Закрыто."
-    player_name "{b}Диана{/b} никогда не запирает эту дверь днем..."
+    player_name "Hmm?"
+    player_name "It's locked."
+    player_name "{b}Diane{/b} never locks this door during the day..."
     show player 34
     player_name "..."
     show player 35
-    player_name "Я должен пойти попробовать через {b}входную дверь{/b}."
+    player_name "I should go try the {b}front door{/b}."
     hide player with dissolve
     return
 
 label dianes_kitchen_busy_masturbating:
     $ M_diane.set("sex speed",0.4)
     show diane_masturbate 1_2
-    dia "Нггхххх..."
-    dia "Не останавливайся, жеребец!"
+    dia "Ngghhh..."
+    dia "Don't stop, stud!"
     pause
-    player_name "( Я должен убраться отсюда, пока она меня не увидела. )"
+    player_name "( I should get out of here before she sees me. )"
     pause
     return
 
 label diane_check_up_on_garden:
     scene expression player.location.background_blur
     show player 30 with dissolve
-    player_name "Я должен {b}проверить огород.{/b}"
+    player_name "I should {b}check up on the garden.{/b}"
     hide player with dissolve
     return
 
 label diane_attend_to_garden:
     scene expression player.location.background_blur
     show player 79 with dissolve
-    player_name "Я должен {b}начать работать в саду.{/b}"
+    player_name "I should {b}get started on the garden.{/b}"
     hide player with dissolve
     return
 
 label diane_tired_from_delivery_upkeep:
     scene expression player.location.background_blur
     show player 10 with dissolve
-    player_name "Я должен дать ей отдохнуть..."
+    player_name "I should let her rest..."
     show player 17
-    player_name "... Кроме того, мне нужно сделать доставку молока!"
+    player_name "... Besides, I have a delivery to make!"
     show player 14
-    player_name "Я должен взять пакет из {b}сарае Дианы{/b} и {b}доставить его по соседству.{/b}"
+    player_name "I should get the package out of {b}Diane's shed{/b} and {b}deliver it next door.{/b}"
     hide player with dissolve
     return
 
@@ -246,32 +246,32 @@ label diane_debbie_drop_off:
     player_name "( ... )"
     pause
     show player 5
-    player_name "( Почему она не открывает дверь? )"
-    player_name "( Конечно, она больше не работает... )"
+    player_name "( Hmm, why isn't she answering the door? )"
+    player_name "( Surely she's not still working... )"
     player_name "( ... )"
-    player_name "( {b}Я лучше пойду проверю сарай.{/b} )"
+    player_name "( {b}I'd better check the shed.{/b} )"
     hide player with dissolve
     return
 
 label diane_shed_light_on:
     scene expression player.location.background_blur
     show player 12 with dissolve
-    player_name "Мне нужно найти {b}Диану{/b}."
+    player_name "I need to find {b}Diane{/b}."
     hide player with dissolve
     return
 
 label diane_day_off_gardening:
     scene expression player.location.background_blur
     show player 14 with dissolve
-    player_name "{b}Я должен начать работать в саду.{/b}"
+    player_name "{b}I should get started on the garden.{/b}"
     hide player with dissolve
     return
 
 label diane_milk_jug_pain:
     scene expression player.location.background_blur
     show player 10 with dissolve
-    player_name "Что-то не так с {b}Дианой{/b}!"
-    player_name "{b}Я должен немедленно проверить ее в сарае!{b}"
+    player_name "Something is wrong with {b}Diane{/b}!"
+    player_name "{b}I've gotta check on her in the shed immediately!{/b}"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -1,24 +1,24 @@
 label sis_computer_locked:
     scene expression "backgrounds/location_computer_jenny_01.jpg"
-    player_name "( Хмм... У неё стоит {b}пароль{/b}... )"
+    player_name "( Hmm... She has a {b}password{/b}... )"
     return
 
 label sis_computer_locked_diary_locked:
-    player_name "( Нужно понять, что это за пароль. )"
+    player_name "( I should try to find out what it is. )"
     return
 
 label sis_computer_locked_diary_unlocked:
-    player_name "( Посмотрим, смогу ли я зайти к ней в учетную запись... )"
+    player_name "( Let's see if I can log into her computer... )"
     return
 
 label sis_computer_unlocked_unread_email:
-    player_name "( Нужно посмотреть, какие ещё секреты она тут хранит... )"
+    player_name "( I should look for other secrets she might have on here... )"
     return
 
 label sispc_desktop_response:
     scene jenny_computer_bg with None
-    player_name "Сработало!"
-    player_name "Интересно, что я смогу найти у {b}[jen_name]{/b} на компьютере..."
+    player_name "It worked!"
+    player_name "I wonder what {b}[jen_name]{/b} has on her computer..."
     return
 
 label sispc_nude_response:
@@ -34,7 +34,7 @@ label sispc_nude_response_dialogue:
     show jenny_computer_nude
     with None
     player_name "!!!" with hpunch
-    player_name "Это... {b}Её{/b}?!"
+    player_name "Is that... {b}Her{/b}?!"
     return
 
 label sispc_family_response:
@@ -49,8 +49,8 @@ label sispc_family_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_family
     with None
-    player_name "( Не думал, что у неё есть эта фотка. )"
-    player_name "( Я скучаю по {b}отцу{/b}... )"
+    player_name "( I never knew she had this picture. )"
+    player_name "( I miss {b}Dad{/b}... )"
     return
 
 label sispc_swimsuit_response:
@@ -65,7 +65,7 @@ label sispc_swimsuit_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_swimsuit
     with None
-    player_name "( А она любит себя фоткать... )"
+    player_name "( She loves taking pictures of herself... )"
     return
 
 label sispc_igor_response:
@@ -81,8 +81,8 @@ label sispc_igor_response_dialogue:
     show jenny_computer_igor
     with None
     player_name "..."
-    player_name "( Думаю, что я уже видел этого парня. )"
-    player_name "( Он, вроде, работал с {b}отцом{/b}... )"
+    player_name "( I think I've seen this guy before. )"
+    player_name "( He used to work with {b}Dad{/b}... )"
     return
 
 label sispc_summertime_response:
@@ -96,23 +96,7 @@ label sispc_summertime_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_summertime
     with None
-    player_name "( Боже... Это игра {b}всегда{/b} забагована. )"
-    return
-
-label sispc_webcam_response:
-    if sispc_webcam_seen == False:
-        call expression game.dialog_select("sispc_webcam_response_dialogue")
-        $ sispc_webcam_seen = True
-    show screen sis_computer
-    call screen sis_webcam_screen
-
-label sispc_webcam_response_dialogue:
-    scene jenny_computer_bg
-    show jenny_computer_webcam
-    with None
-    player_name "( Ооо, а это интересно... )"
-    player_name "( ... Её {b}вэб камера{/b} подключена к сети. )"
-    player_name "( Может я смогу {b}подключиться{/b} к ней с моего компьютера? )"
+    player_name "( Man... This game {b}always{/b} has bugs. )"
     return
 
 label sispc_toylist_response:
@@ -126,7 +110,7 @@ label sispc_toylist_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_toylist
     with None
-    player_name "( Выглядет как список... {b}секс игрушек{/b}? )"
+    player_name "( Looks like a list of... {b}toys{/b}? )"
     return
 
 label sispc_livecrush_response:
@@ -134,16 +118,16 @@ label sispc_livecrush_response:
         call expression game.dialog_select("sispc_livecrush_response_dialogue")
         $ sispc_livecrush_seen = True
     show screen sis_computer
-    call screen sis_livecrush
+    call screen jenny_camslut
 
 label sispc_livecrush_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_livecrush
     with None
-    player_name "( У {b}[jen_name]{/b} есть аккаунт на LiveCrush?! )"
-    player_name "Вау..."
-    player_name "( Неужели она проводит {b}прямые эфиры{/b} в своей комнате? )"
-    player_name "( А она неплохо хранила этот секрет; Я и не подозревал... )"
+    player_name "( {b}[jen_name]{/b} has a profile on LiveCrush?! )"
+    player_name "Woah..."
+    player_name "( Does she do these {b}live shows{/b} in her room? )"
+    player_name "( She must be pretty careful keeping this a secret; I had no idea... )"
     return
 
 label sispc_email_response:
@@ -157,7 +141,7 @@ label sispc_email_response_dialogue:
     scene jenny_computer_bg
     show jenny_computer_email
     with None
-    player_name "( Не думаю, что нужно сюда заходить... )"
+    player_name "( I don't know If I should go through these... )"
     return
 
 label sispc_email04_response:
@@ -168,13 +152,13 @@ label sispc_email04_response:
     call screen sis_email
 
 label sispc_email04_response_dialogue:
-    player_name "( У {b}[jen_name]{/b} есть аккаунт на Pink канал?! Но она же может смотреть этот канал, лишь когда все спят. )"
-    player_name "( Нужно будет проверить это как-нибудь ночью. )"
+    player_name "( {b}[jen_name]{/b} has a pink account?! The only time she'd have a chance to watch that adult cable TV channel would be when everybody's asleep. )"
+    player_name "( I should check to see if she's downstairs at night. )"
     return
 
 label sispc_password_reminder:
     scene jennybedroom_night
     show player 35 at left
-    player_name "( Если я всё правильно помню, пароль был в её дневнике... )"
+    player_name "( If I remember right, the password was in her diary... )"
     jump expression game.dialog_select("sis_bedroom_dialogue")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

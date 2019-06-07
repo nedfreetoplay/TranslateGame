@@ -1,11 +1,9 @@
-label smith_triggers_init:
-    python:
-        T_smith_intro = Trigger("intro", "default")
-        T_smith_go_to_locker = Trigger("go to locker")
-        T_smith_unlocked_locker = Trigger("unlocked locker")
-        T_smith_go_to_athletics = Trigger("go to athletics")
-        T_smith_end = Trigger("end")
-    return
+init python:
+    T_smith_intro = Trigger("intro", "default")
+    T_smith_go_to_locker = Trigger("go to locker")
+    T_smith_unlocked_locker = Trigger("unlocked locker")
+    T_smith_go_to_athletics = Trigger("go to athletics")
+    T_smith_end = Trigger("end")
 
 label smith_fsm_init:
     python:
@@ -46,6 +44,7 @@ label smith_machine_init:
                           vars = {"sex speed": .3,
                                   "annie trouble": False,
                                   "school intro done": False,
+                                  "left hall cult seen": False,
                                   },
         )
     return

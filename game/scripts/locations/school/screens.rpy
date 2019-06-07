@@ -1,4 +1,6 @@
-screen school_hall:
+screen school_hall():
+    use mods_screens_hook("school_hall")
+
     if Game.is_christmas():
         add game.timer.image("backgrounds/location_school_christmas_day{}.jpg")
     elif Game.is_halloween():
@@ -67,7 +69,9 @@ screen school_hall:
         action [Hide("school_hall"), Function(renpy.call, "school_lock_check", "School Locker", "school_locker")]
 
 
-screen school_locker:
+screen school_locker():
+    use mods_screens_hook("school_locker")
+
     add game.timer.image("mc_locker{}")
 
     imagebutton:
@@ -90,7 +94,7 @@ screen school_locker:
             pos (308,599)
             idle game.timer.image("objects/object_card_02{}.png")
             hover HoverImage(game.timer.image("objects/object_card_02{}.png"))
-            action Function(player.get_item, "card04"), Show("popup", Image = "boxes/popup_item_card5.png")
+            action Function(player.get_item, "card04"), Show('popup', None, "boxes/popup_item_card5.png")
     if M_roxxy.is_state(S_roxxy_lolipop_for_lolipop, S_roxxy_lolipop_just_once) and not player.has_item("roxxy_homework") and not game.timer.is_dark():
         imagebutton:
             focus_mask True
@@ -106,21 +110,7 @@ screen school_locker:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("school_locker"), Jump("school_dialogue")
 
-screen school_locker_report_card:
-    imagebutton:
-        focus_mask None
-        pos (198,30)
-        idle ReportCard()
-        action Hide("school_locker_report_card")
-
-screen school_locker_list:
-    imagebutton:
-        focus_mask True
-        pos (0,0)
-        idle LockerList()
-        action Hide("school_locker_list")
-
-screen roxxy_locker_sex_options:
+screen roxxy_locker_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)

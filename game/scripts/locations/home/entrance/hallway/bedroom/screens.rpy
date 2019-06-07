@@ -1,4 +1,6 @@
-screen bedroom:
+screen bedroom():
+    use mods_screens_hook("bedroom")
+
     if MC_computer_broken:
         add game.timer.image("backgrounds/location_home_bedroom_broken{}.jpg")
     else:
@@ -42,7 +44,15 @@ screen bedroom:
                       [Hide("bedroom"), Function(renpy.call, "home_lock_check", "MC Computer", "MC_computer")]
             )
 
-    if player.location.is_here(M_june):
+    if M_jenny.get("girlfriend_in_progress"):
+        imagebutton:
+            focus_mask True
+            pos 581, 345
+            idle "characters/jenny/buttons/character_jenny_girlfriend.png"
+            hover HoverImage("characters/jenny/buttons/character_jenny_girlfriend.png")
+            action Hide("bedroom"), Jump("jenny_button_girlfriend_experience_bedroom")
+
+    elif player.location.is_here(M_june):
         imagebutton:
             focus_mask True
             pos (670,350)
@@ -78,7 +88,7 @@ screen bedroom:
             hover HoverImage(game.timer.image("objects/character_cat_01{}.png"))
             action Hide("bedroom"), Jump("pet_cat")
 
-screen desk01_options:
+screen desk01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("desk01_options")]
@@ -90,7 +100,7 @@ screen desk01_options:
         xpos 350
         ypos 600
 
-screen popup_broken:
+screen popup_broken():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_broken")
@@ -101,7 +111,7 @@ screen popup_broken:
         xpos 280
         ypos 360
 
-screen popup_repaired01:
+screen popup_repaired01():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_repaired01")
@@ -112,7 +122,7 @@ screen popup_repaired01:
         xpos 280
         ypos 360
 
-screen bed01_options:
+screen bed01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("bed01_options")
@@ -144,7 +154,7 @@ screen bed01_options:
                       )
             )
 
-screen june_mcbedroom_normal_sex_options:
+screen june_mcbedroom_normal_sex_options():
     imagebutton:
         focus_mask True
         pos (150,700)
@@ -182,7 +192,7 @@ screen june_mcbedroom_normal_sex_options:
             hover HoverImage("buttons/speed_01.png")
             action Hide("june_mcbedroom_normal_sex_options"), Function(M_june.set, "sex speed", M_june.get("sex speed") - 0.1), Jump("june_bedroom_dialogue_normal_sex_loop")
 
-screen june_mcbedroom_cosplay_sex_options:
+screen june_mcbedroom_cosplay_sex_options():
     imagebutton:
         focus_mask True
         pos (150,700)
@@ -220,7 +230,7 @@ screen june_mcbedroom_cosplay_sex_options:
             hover HoverImage("buttons/speed_01.png")
             action Hide("june_mcbedroom_cosplay_sex_options"), Function(M_june.set, "sex speed", M_june.get("sex speed") - 0.1), Jump("june_bedroom_dialogue_cosplay_sex_loop")
 
-screen bedroom_debbie_sleepover_options:
+screen bedroom_debbie_sleepover_options():
 
     imagebutton:
         focus_mask True

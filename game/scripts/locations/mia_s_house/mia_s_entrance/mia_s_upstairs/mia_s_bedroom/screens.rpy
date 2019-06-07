@@ -1,5 +1,14 @@
-screen mias_bedroom:
+screen mias_bedroom():
+    use mods_screens_hook("mias_bedroom")
+
     add game.timer.image("backgrounds/location_mia_bedroom{}.jpg")
+
+    imagebutton:
+        focus_mask True
+        pos (245,474)
+        idle game.timer.image("objects/object_laundry_02{}.png")
+        hover HoverImage(game.timer.image("objects/object_laundry_02{}.png"))
+        action Hide("mias_bedroom"), Show("mia_bedroom_laundry_basket")
 
     if player.location.is_here(M_mia):
         imagebutton:
@@ -23,7 +32,25 @@ screen mias_bedroom:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("mias_bedroom"), Jump("mias_upstairs")
 
-screen mia_bedroom_sex_options:
+screen mia_bedroom_laundry_basket():
+    add game.timer.image("backgrounds/location_mia_bedroom_basket{}_closeup.jpg")
+
+    if not player.has_picked_up_item("mia_panties"):
+        imagebutton:
+            focus_mask True
+            pos (395,191)
+            idle game.timer.image("objects/object_panties_04{}.png")
+            hover HoverImage(game.timer.image("objects/object_panties_04{}.png"))
+            action Hide("mia_bedroom_laundry_basket"), Jump("mia_bedroom_panties")
+
+    imagebutton:
+        focus_mask True
+        align 0.5,0.95
+        idle "boxes/auto_option_generic_01.png"
+        hover HoverImage("boxes/auto_option_generic_01.png")
+        action Hide("mia_bedroom_laundry_basket"), Jump("mias_bedroom_screen")
+
+screen mia_bedroom_sex_options():
     imagebutton:
         focus_mask True
         pos (150,700)

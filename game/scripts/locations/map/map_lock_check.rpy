@@ -13,13 +13,15 @@ label map_lock_check(destination_screen, destination_label):
 
     elif M_roxxy.is_state(S_roxxy_sneak_into_smith) and destination_screen != "Smith" and game.timer.is_dark():
         show player 10 with dissolve
-        player_name "Я должен пойти в дом {b}Директрисы Смит{/b} сейчас."
+        player_name "I should go to {b}Principal Smith{/b}’s house now."
         hide player with dissolve
+        $ player.go_to(L_map)
 
     elif M_roxxy.is_state(S_roxxy_sneak_into_smith) and destination_screen == "Smith" and not game.timer.is_dark():
         show player 10 with dissolve
-        player_name "Я не могу пойти туда прямо сейчас!"
+        player_name "I can't go there right now!"
         hide player with dissolve
+        $ player.go_to(L_map)
 
     elif M_roxxy.is_state(S_roxxy_meeting_clyde) and destination_screen == "Trailer Park":
         call map_lock_check_destination_jump (jump_dest_screen, jump_dest_label)
@@ -28,17 +30,23 @@ label map_lock_check(destination_screen, destination_label):
         scene expression game.timer.image("townmap{}")
         if destination_screen == "School":
             call expression game.dialog_select("school_no_master_key_locked")
+            $ player.go_to(L_map)
+            $ game.main()
         else:
-
             call expression game.dialog_select("night_locked")
+            $ player.go_to(L_map)
+            $ game.main()
 
     elif game.timer.is_night() and ((not player.has_item("master_key") and destination_screen == "School") or destination_screen not in ["Home", "Beach House", "Smith"]):
         scene expression game.timer.image("townmap{}")
         if destination_screen == "School":
             call expression game.dialog_select("school_no_master_key_locked")
+            $ player.go_to(L_map)
+            $ game.main()
         else:
-
             call expression game.dialog_select("night_locked")
+            $ player.go_to(L_map)
+            $ game.main()
     else:
 
         call map_lock_check_destination_jump (jump_dest_screen, jump_dest_label)
@@ -58,11 +66,11 @@ label map_lock_check_destination_jump(destination_screen, destination_label):
     jump expression destination_label
 
 label night_locked:
-    player_name "Я не могу пойти туда ночью!"
+    player_name "I can't go there at night!"
     return
 
 label school_no_master_key_locked:
-    player_name "Я не могу пойти в школу ночью!"
-    player_name "Может если я {i}одолжу{/i} тот {b}Мастер-Ключ{/b} которым Энни открыла мой шкафчик..."
+    player_name "I can't go in school at night !"
+    player_name "Maybe if I {i}borrowed{/i} that {b}Master Key{/b} Annie used on my locker..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

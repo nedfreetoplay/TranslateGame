@@ -1,4 +1,6 @@
-screen police_basement:
+screen police_basement():
+    use mods_screens_hook("police_basement")
+
     add "backgrounds/location_police_basement.jpg"
 
     imagebutton:

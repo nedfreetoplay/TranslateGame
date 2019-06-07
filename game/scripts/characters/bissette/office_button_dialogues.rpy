@@ -2,97 +2,97 @@ label bissette_dialogue_office_bissette_roxxy_exam_convince:
     show teacher 1 at right
     show player 10 at left
     with dissolve
-    player_name "Что мне делать в этот раз?"
+    player_name "What was I supposed to be doing again?"
     show player 5
     show teacher 5
-    bis "{i}Ты не забыл{/i}?"
-    bis "Ты должен убедить {b}Рокси{/b} появиться на экзамене."
-    bis "Если она не придет, пострадает весь класс, точнее их средняя оценка."
+    bis "As-tu oublié?"
+    bis "You must convince {b}Roxxy{/b} to show up for the exam."
+    bis "Otherwise the grade point average of the entire class will suffer."
     show teacher 4
     show player 14
-    player_name "Оу, хорошо!"
-    player_name "Не волнуйтесь, {b}Мисс Биссетт{/b}! Я справлюсь!"
+    player_name "Oh, right!"
+    player_name "Don't worry, {b}Miss Bissette{/b}! I'm on it!"
     return
 
 label bissette_dialogue_office_bissette_roxxy_convinced:
     show teacher 1 at right
     show player 10 at left
     with dissolve
-    player_name "{b}Мисс Биссетт{/b}?"
+    player_name "{b}Miss Bissette{/b}?"
     show player 13
     show teacher 5
-    bis "{i}Да{/i}?"
+    bis "Oui?"
     show teacher 4
     show player 14
-    player_name "Я убедил {b}Рокси{/b}, она будет на тесте!"
+    player_name "I convinced {b}Roxxy{/b} to show up for the test!"
     show player 13
     show teacher 2
-    bis "Правда!?"
+    bis "Truly!?"
     show teacher 1
     show player 17
-    player_name "Ага!"
+    player_name "Yup!"
     show teacher 25 zorder 1 with dissolve
 
-    bis "{i}Ты меня спас{/i}!"
+    bis "Tu me sauves la vie!"
     show teacher 26 with dissolve
-    bis "Что бы я без тебя делала?!"
+    bis "Whatever would I do without you?!"
     show teacher 27 with dissolve
     show player 29 with dissolve
-    player_name "Да ладно, не стоит..."
+    player_name "Heh, it's no big deal..."
     show player 13
     show teacher 16
     with dissolve
-    bis "Повтори слова, которые мы разобрали на предыдущих занятиях, ладно?"
+    bis "Now be sure to study the words we learned over your past assignments, yes?"
     show teacher 17
     show player 14
-    player_name "Обязательно! Не волнуйтесь!"
+    player_name "I will! Don't worry!"
     show player 13
     show teacher 16
-    bis "{i}Прекрасно{/i}! На следующем уроке будет тест."
+    bis "Très Bien! Next class we will have the test."
     show teacher 17
     show player 14
-    player_name "Хорошо, {b}Мисс Биссетт{/b}!"
+    player_name "Alright, {b}Miss Bissette{/b}!"
     return
 
 label bissette_dialogue_office_intro:
     show teacher 3 at right
     show player 13 at left
     with dissolve
-    bis "{i}Привет{/i}, {b}[firstname]{/b}!"
+    bis "Bonjour, {b}[firstname]{/b}!"
     show teacher 1
     show player 14
-    player_name "Здравствуйте, {b}Мисс Биссетт{/b}."
+    player_name "Hello, {b}Miss Bissette{/b}."
     show player 13
     show teacher 2
-    bis "Чем могу помочь?"
+    bis "What can I help with?"
     show teacher 1
     return
 
 label bissette_dialogue_office_bissette_wine_sampling:
-    player_name "Я счастлив продегустировать это вино, {b}Мисс Биссетт{/b}."
+    player_name "I'm excited to taste that wine, {b}Miss Bissette{/b}."
     show player 13
     show teacher 12
-    bis "{i}Да, красавчик мой{/i}!"
-    bis "Этой ночью ты продегустируешь многое."
+    bis "J'ai hâte également!"
+    bis "You will be tasting many things tonight, yes?"
     show teacher 13
     show player 29 with dissolve
-    player_name "*Глыть* Л-ладно..."
+    player_name "*Gulp* Y-Yeah..."
     show player 14
     show teacher 3
-    bis "{i}Прекрасно{/i}, увидимся вечером в моём кабинете."
+    bis "Très Bien, I'll be seeing you in my office this evening then."
     show teacher 13
     show player 14 with dissolve
-    player_name "До встречи!"
+    player_name "See you there!"
     return
 
 label bissette_dialogue_office_leave:
     show player 14
-    player_name "Не думаю, что мне сейчас что-то нужно."
+    player_name "I don't think I need anything right now."
     show player 13
     show teacher 2
-    bis "{i}Прекрасно{/i}!"
+    bis "Très Bien!"
     show teacher 1
     show player 36 with dissolve
-    player_name "До свидания!"
+    player_name "Bye!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

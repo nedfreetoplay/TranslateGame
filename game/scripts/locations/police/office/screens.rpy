@@ -1,4 +1,6 @@
-screen police_office:
+screen police_office():
+    use mods_screens_hook("police_office")
+
     add "backgrounds/location_police_office.jpg"
 
     imagebutton:
@@ -32,7 +34,7 @@ screen police_office:
         hover HoverImage("boxes/auto_option_13.png")
         action Hide("police_office"), Jump("police_lobby_dialogue")
 
-screen harolds_desk:
+screen harolds_desk():
 
     imagebutton:
         focus_mask True

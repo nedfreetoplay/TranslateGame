@@ -2,242 +2,242 @@ label button_missy_becca_chat_with_becca_missy:
     show becca 2f at Position(xpos=400)
     show missy 1 at left
     with dissolve
-    becca "Да, я не так уверена в цвете, но дизайн Потрясающий!"
+    becca "Yeah, I'm not so sure about the color but the design is awesome!"
     show becca 1f
     show missy 1b
-    missy "Похоже на это!"
-    missy "... И не зеленый своего рода дополняет твои волосы?"
+    missy "It sounds like it!"
+    missy "... And doesn't green kinda complement your hair?"
     show missy 1
     show becca 2f
-    becca "Хм, да. Полагаю, так и есть."
-    becca "Тьфу, Я не могу поверить {b}Рокси{/b} пригласила Ботаника провести с нами {b}эти выходные{/b}."
+    becca "Hmm, yeah. I suppose it does."
+    becca "Ugh, I can't believe {b}Roxxy{/b} invited that nerd to come hang with us {b}this weekend{/b}."
     show becca 1f
     show missy 8
-    missy "Я думаю, что он супер милый!"
+    missy "I think he's super cute!"
     show missy 7
     show becca 2f
-    becca "Да-да... Я знаю, что вы думаете."
+    becca "Yeah, yeah... I'm well aware of what you think."
     show becca 1f
     show missy 8
-    missy "Интересно, если он... Знаешь, хорошо оборудован?"
+    missy "I wonder if he's... You know, well equipped?"
     show missy 7
     show becca 2bf with dissolve
-    becca "Авв!!"
-    becca "Какого хрена, {b}Мисси{/b}... Ты отвратительна!"
+    becca "Eww!!"
+    becca "For fucks sake, {b}Missy{/b}... You're disgusting!"
     show becca 1f with dissolve
     show missy 8
-    missy "Что?!"
-    missy "{b}Моя сестра{/b} сказала мне, что ботаники имеют огромные Член!"
+    missy "What?!"
+    missy "{b}My sister{/b} told me that nerds have huge dicks!"
     show missy 7
     show becca 2f
-    becca "Да ладно, {b}Твоя сестра{/b} шлюха..."
+    becca "Yeah well, {b}Your sister{/b} is a slut..."
     show becca 1f
     show missy 1b
-    missy "Да, она вроде как..."
-    missy "... Но, именно поэтому я ей верю!"
+    missy "Yeah, she kinda is..."
+    missy "... But that's why I believe her!"
     show missy 8
-    missy "Держу пари {b}[firstname]{/b} - это упаковка серьезного тепла!"
+    missy "I bet {b}[firstname]{/b} is packing some serious heat!"
     show missy 7
     show player 10f at right with dissolve
-    player_name "Прости, {b}Мисси{/b}?"
+    player_name "Excuse me, {b}Missy{/b}?"
     show player 5f
     show becca 1 at Position(xpos=315)
     show missy 4c
     with dissolve
-    missy "Да!"
+    missy "Eep!"
     show missy 4d
     show becca 2
-    becca "Кхм, что ты хочешь?!"
+    becca "Eugh, what do you want?!"
     show becca 3
     show missy 4c
-    missy "П-привет, {b}[firstname]{/b}..."
-    missy "Мы были... Я имею в виду, мы не говорили о тебе... Или что-нибудь..."
+    missy "H-hi, {b}[firstname]{/b}..."
+    missy "We were... I mean, we weren't talking about you... Or anything..."
     show missy 4d
     show becca 3
     becca "..."
     show becca 3b
-    becca "Реальный гладкий, {b}Мисси{/b}."
+    becca "Real smooth, {b}Missy{/b}."
     show becca 1
     show player 10f
-    player_name "Вообще-то, я надеялся, что смогу поговорить с тобой наедине."
+    player_name "Actually, I was hoping I could speak with you alone."
     show player 5f
     show missy 1b with dissolve
-    missy "Со мной?"
+    missy "M-me?"
     show missy 1
     show player 10f
-    player_name "Да, только на секунду."
+    player_name "Yeah, just for a second."
     show player 5f
     show missy 1b
-    missy "Я..."
+    missy "I..."
     show missy 1
     show becca 2
-    becca "О, она была бы более чем счастлива для одного раза с тобой."
-    becca "... Так же, как я более чем счастлива, чтобы вас не видели... Придурки!"
+    becca "Oh, she'd be more than happy for some alone time with you."
+    becca "... Just as I'm more than happy to not be seen with you... Dork!"
     show becca 1
     show player 90f
     player_name "..."
     show becca 3b
-    becca "... Теперь твой шанс спросить его о его огромном члене, {b}Мисси{/b}!"
+    becca "... Now's your chance to ask him about his huge dick, {b}Missy{/b}!"
     show becca 7
     show player 11f
     show missy 3
     missy "!!!" with hpunch
     show missy 4c with dissolve
-    missy "Я не сдел... В смысле, я бы никогда!"
+    missy "I didn't... I mean, I would never!"
     show missy 4d
     show player 13f
     show becca 4
-    becca "Хахаха!"
+    becca "Hahaha!"
     hide becca
     show missy 5
     with dissolve
-    missy "Я не знаю, что она-"
+    missy "I don't know what she's-"
     show missy 3
     show player 14f
-    player_name "Не переживайте из-за этого..."
+    player_name "Don't worry about it..."
     show player 13f
     show missy 6
-    missy "хех, Я... гм."
+    missy "Heh, I... Uhh."
     show missy 4d with dissolve
     missy "..."
     show player 5f
     player_name "..."
     missy "..."
     show player 10f
-    player_name "Так..."
-    player_name "Я надеялся, что ты сможешь мне кое с чем помочь."
+    player_name "So..."
+    player_name "I was hoping you could help me with something."
     show player 5f
     show missy 1b with dissolve
-    missy "Д-да?"
-    missy "Конечно, я сделаю всё, что ты хочешь-"
+    missy "Y-yeah?"
+    missy "Sure, I'd do anything you want-"
     show missy 2
-    missy "Я имею в виду..."
+    missy "I mean..."
     show missy 1b
-    missy "Гм... Я с удовольствием помогу тебе."
+    missy "Uhh... I'd love to help you."
     show missy 1
     show player 12f
-    player_name "Это о {b}Бекке{/b}."
+    player_name "It's about {b}Becca{/b}."
     show player 5f
     show missy 4
-    missy "... Ох."
-    missy "Тебе нравится {b}Бекка{/b}, да?"
+    missy "... Oh."
+    missy "You like {b}Becca{/b}, huh?"
     show missy 4b
     show player 12f
-    player_name "а?!"
+    player_name "Huh?!"
     show player 10f
-    player_name "Нет, это не то место, куда я шел с этим..."
-    player_name "Я только... Она не очень любит меня, ты знаешь..."
+    player_name "No, that's not where I was going with this..."
+    player_name "I just... She's not very fond of me you know..."
     show player 5f
     show missy 4
-    missy "Да, она сука."
+    missy "Yeah, she's a bitch."
     show missy 1
     show player 17f
-    player_name "Да, хах."
+    player_name "Yeah, hah."
     show player 10f
-    player_name "... И хорошо..."
+    player_name "... And well..."
     show player 10f
-    player_name "Ты такая милая... И её лучший друг и всё такое."
+    player_name "You're so sweet... And her best friend and all."
     show player 5f
     show missy 4c with dissolve
-    missy "Ты считаешь меня милой?!"
+    missy "You think I'm sweet?!"
     show missy 1 with dissolve
     show player 14f
-    player_name "Ну конечно!"
+    player_name "Well sure!"
     show player 13f
     show missy 6
-    missy "... Хехе!"
-    missy "Я не могу дождаться этих выходных!"
+    missy "... Hehe!"
+    missy "I can't wait for this weekend!"
     show missy 8
-    missy "Я собираюсь купить новый купальник, ты знаешь... Тот, который дополняет мои длинные ноги!"
-    missy "Ты всё ещё любишь мои ноги, {b}[firstname]{/b}?"
+    missy "I'm gonna buy a new swimsuit, you know... One that complements my long legs!"
+    missy "You still like my legs, {b}[firstname]{/b}?"
     show missy 7
     show player 14f
-    player_name "Да, конечно!"
+    player_name "Y-yeah, of course!"
     show player 13f
     show missy 6
-    missy "Хехе."
+    missy "Hehe."
     show missy 7
     show player 10f
-    player_name "... Но, {b}Бекка{/b}."
+    player_name "... But about, {b}Becca{/b}."
     show player 5f
     show missy 1
     missy "..."
     show player 10f
-    player_name "Есть ли что-нибудь, что я мог бы сделать, чтобы... Знаешь, заставить её немного смягчиться?"
+    player_name "Is there anything I could do, to sorta... You know, get her to soften up a bit?"
     show player 5f
     show missy 1b
-    missy "... Что ты имеешь в виду?"
+    missy "... What do you mean?"
     show missy 1
     show player 10f
-    player_name "Есть что-нибудь, что я мог бы сделать для неё, что могло бы сделать её светлее?"
+    player_name "Is there anything I could do for her that might make her lighten up?"
     show player 12f
-    player_name "... возможно, заставить её перестать вести себя как Стерва ко мне?"
+    player_name "... Pehaps, make her stop acting like such a bitch towards me?"
     show player 5f
     show missy 8
-    missy "Пфф, вряд ли."
-    missy "Так она и есть..."
+    missy "Psh, not likely."
+    missy "That's just the way she is..."
     show missy 7
     show player 10f
-    player_name "Хм, так что я ничего не могу сделать?"
+    player_name "Hmm, so there's nothing I could do?"
     show player 5f
     show missy 2b
     missy "..."
     show missy 1b
-    missy "Ну, я полагаю, ты мог бы получить для неё бутылку {b}GoldSchwagger{/b}"
+    missy "Well, I suppose you could get her a bottle of {b}GoldSchwagger{/b}"
     show missy 1
     show player 10f
-    player_name "Что это за фигня?"
+    player_name "What the heck is that?"
     show player 5f
     show missy 2
-    missy "Ты никогда не слышал о {b}GoldSchwagger{/b}?"
+    missy "You've never heard of {b}GoldSchwagger{/b}?"
     show missy 1
     show player 10f
-    player_name "... Нет."
+    player_name "... No."
     show player 5f
     show missy 1b
-    missy "Это водка с маленькими хлопьями золота."
-    missy "{b}Бекка{/b} любит эту штуку!"
-    missy "Она всегда спрашивает, {b}Декстера{/b}, чтобы он захватил несколько для наших вечеринок, но он никогда этого не делает."
+    missy "It's this vodka with little flakes of gold in it."
+    missy "{b}Becca{/b} loves that stuff!"
+    missy "She's always asking {b}Dexter{/b} to grab some for our parties but he never does."
     show missy 1
     show player 35f
-    player_name "Хм, золотые хлопья, да?"
+    player_name "Hmm, gold flakes, huh?"
     show player 5f
     show missy 1b
-    missy "Да, это довольная девчушка..."
+    missy "Yeah, it's pretty girly..."
     show missy 1
     show player 14f
-    player_name "Хорошо, я посмотрю, что я могу сделать."
+    player_name "Alright, I'll see what I can do."
     show player 12f
-    player_name "Есть идея, где я могу найти это... Как это называется?"
+    player_name "Any idea where I can find this... What was it called again?"
     show player 5f
     show missy 1b
     missy "{b}GoldSchwagger{/b}!"
-    missy "... И я понятия не имею."
-    missy "Я не думаю, что они продают его в {b}Консумер{/b}, хотя."
+    missy "... And I have no idea."
+    missy "I don't think they sell it at {b}Consum-R{/b} though."
     show missy 1
     show player 35f
-    player_name "Хм, может быть, {b}Капитан Терри{/b} знает, где я могу найти несколько?"
+    player_name "Hmm, maybe {b}Captain Terry{/b} knows where I can find some?"
     show player 33f
-    player_name "Он работает в баре в конце концов..."
+    player_name "He does run a bar after all..."
     show player 13f
     show missy 1b
-    missy "Это хорошая идея!"
-    missy "Он казался очень крутой парень, я уверена, что он будет знать больше об этом!"
+    missy "That's a good idea!"
+    missy "He seemed like a pretty cool guy, I'm sure he'll know more about it!"
     show missy 1
     show player 14f
-    player_name "Спасибо за информацию, {b}Мисси{/b}!"
+    player_name "Thanks for the info, {b}Missy{/b}!"
     show player 13f
     show missy 8
-    missy "Я всегда рада помочь такому симпатичному парню, как ты {b}[firstname]{/b}..."
+    missy "I'm always happy to help a cute guy like you {b}[firstname]{/b}..."
     show missy 7
     show player 14f
-    player_name "Хех, спасибо!"
+    player_name "Heh, thanks!"
     show player 13f
     show missy 1b
-    missy "Увидимся {b}в субботу днем{/b} на пляже!"
+    missy "I'll see you {b}Saturday afternoon{/b} at the beach!"
     show missy 1
     show player 14f
-    player_name "Увидимся, {b}Мисси{/b}."
+    player_name "See ya, {b}Missy{/b}."
     hide player
     hide missy
     with dissolve
@@ -248,24 +248,24 @@ label button_missy_becca_intro_rox11:
     show becca 1 at Position (xpos=315)
     show missy 1b at left
     with dissolve
-    missy "Привет, {b}[firstname]{/b}!"
+    missy "Hey, {b}[firstname]{/b}!"
     show missy 1
     show becca 2
-    becca "{b}*Вздох*{/b} Чего ты хочешь?"
+    becca "{b}*Sigh*{/b} What do you want?"
     show becca 1
     show player 5f
     show missy 2
-    missy "Не будь стервой, {b}Бекка{/b}!"
+    missy "Don't be a bitch, {b}Becca{/b}!"
     show missy 2b
     show becca 3b
-    becca "Тшш, ну он думает, что мы друзья сейчас или что-то!"
+    becca "Tch, well he thinks we're friends now or something!"
     show becca 3
     show missy 8
-    missy "Вы выглядели довольно дружелюбно на пляже..."
+    missy "You looked pretty friendly at the beach..."
     show missy 7
     show player 13f
     show becca 3b
-    becca "... Заткнись!"
+    becca "... Shuddup!"
     show becca 1
     return
 
@@ -274,19 +274,19 @@ label button_missy_becca_intro_0_1:
     show becca 2b at Position (xpos=315)
     show missy 1 at left
     with dissolve
-    becca "Фу, он пытается поговорить с нами!"
+    becca "Eww, it's trying to talk to us!"
     show becca 1 with dissolve
     show missy 2
-    missy "Да?"
+    missy "Huh?"
     show missy 1b
-    missy "... Ох!"
+    missy "... Oh!"
     show missy 2
-    missy "Да, ты груб, {b}[firstname]{/b}..."
+    missy "Yeah, you're gross, {b}[firstname]{/b}..."
     show missy 1
     show player 24f
     player_name "..."
     show becca 4
-    becca "Хаха, заблудился, неудачник!"
+    becca "Haha, get lost, loser!"
     hide player
     hide becca
     hide missy
@@ -298,103 +298,103 @@ label button_missy_becca_intro:
     show becca 6 at Position (xpos=315)
     show missy 1 at left
     with dissolve
-    becca "Привет, {b}[firstname]{/b}!"
+    becca "Hey, {b}[firstname]{/b}!"
     show becca 5
     show player 14f
-    player_name "Привет, {b}Бекка{/b}. {b}Мисси{/b}."
+    player_name "Hey, {b}Becca{/b}. {b}Missy{/b}."
     show player 13f
     show missy 1b
     missy "{b}[firstname]{/b}!"
-    missy "Мы надеялись, что увидимся сегодня!"
+    missy "We were hoping we'd get to see you today!"
     show missy 1
     show player 10f
-    player_name "Вы надеялись?"
+    player_name "You were?"
     show player 13f
     show missy 6
-    missy "Абсолютно!"
+    missy "Totally!"
     show missy 8
-    missy "{b}Бекка{/b} просто рассказывала мне, как она не может ждать нашей следующей пляжной вечеринки..."
+    missy "{b}Becca{/b} was just telling me how she can't wait for our next beach party..."
     show missy 7
     show becca 3b
-    becca "Я не был-"
+    becca "I wasn't-"
     show missy 8
-    missy "Она действительно с нетерпением ждет ещё одной игры с твоей бутылкой!"
+    missy "She's really looking forward to another game of spin the bottle with you!"
     show missy 7
     show player 11f
     show becca 3
     becca "!!!"
     show becca 27
-    becca "Заткнись, {b}Мисси{/b}!"
+    becca "Shuddup, {b}Missy{/b}!"
     show becca 24
     show player 14f
-    player_name "Хех, серьезно?"
+    player_name "Heh, really?"
     show player 13f
     becca "..."
     show missy 6
-    missy "Ха, разве она не очаровательна, когда краснеет?"
+    missy "Haha, isn't she adorable when she's blushing?"
     show missy 8
-    missy "Я с нетерпением жду этого!"
-    missy "Не забудь приехать к нам {b}на пляж в субботу вечером{/b}."
+    missy "I'm looking forward to it too!"
+    missy "Don't forget to come see us {b}at the beach{/b} on {b}Saturday night{/b}."
     show missy 7
     return
 
 
 label button_missy_becca_look_nice:
     show player 10f
-    player_name "Вы, девочки, хорошо выглядите сегодня."
+    player_name "You girls look nice today."
     show player 13f
     show missy 1b
-    missy "Мы?!"
+    missy "I do?!"
     show missy 1
     show becca 2b with dissolve
-    becca "{b}*Вздох*{/b} Конечно мы... Мы всегда хорошо выглядим!"
+    becca "{b}*Sigh*{/b} Of course we do... We always look nice!"
     show becca 1 with dissolve
     show player 5f
     player_name "..."
     show missy 1b
-    missy "Спасибо, {b}[firstname]{/b}!"
+    missy "Thanks, {b}[firstname]{/b}!"
     show missy 1
     show player 14f
-    player_name "Пожалуйста, {b}Мисси{/b}."
+    player_name "You're welcome, {b}Missy{/b}."
     show player 13f
     becca "..."
     return
 
 label button_missy_becca_leave_rox11:
     show player 14f
-    player_name "Я просто хотел сказать привет."
+    player_name "I just wanted to say hi."
     show player 13f
     show missy 6
-    missy "Привет!"
+    missy "Hi!"
     show missy 1
     show becca 2
-    becca "Да... Привет."
-    becca "Что-нибудь ещё?"
+    becca "Yeah... Hi."
+    becca "Anything else?"
     show becca 1
     show missy 8
-    missy "Что, ты надеешься на очередную сессию, {b}Бекка{/b}?"
+    missy "What, are you hoping for another make out session, {b}Becca{/b}?"
     show missy 7
     show player 11f
     show becca 3
     becca "!!!"
     show becca 20
-    becca "Нет!"
+    becca "No!"
     show becca 19
     show missy 6
-    missy "Хахаха!"
+    missy "Hahaha!"
     show missy 1
     show player 13f
     player_name "..."
     show player 14f
-    player_name "Хех, я должен идти."
+    player_name "Heh, I should go."
     show player 13f
     show becca 24
     show missy 1b
-    missy "Уже уходишь?"
-    missy "Пока {b}[firstname]{/b}!"
+    missy "Aww, leaving already?"
+    missy "Byeee {b}[firstname]{/b}!"
     show missy 1
     show becca 25
-    becca "... Пока."
+    becca "... Bye."
     hide player
     hide becca
     hide missy
@@ -403,148 +403,150 @@ label button_missy_becca_leave_rox11:
 
 label button_missy_becca_look_beautiful:
     show player 14f
-    player_name "Вы, девушки, выглядят очень красиво сегодня!"
+    player_name "You girls look really beautiful today!"
     show player 13f
     show becca 7
     show missy 1b
-    missy "Мы?!"
+    missy "We do?!"
     show missy 1
     show becca 8
-    becca "Спасибо, {b}[firstname]{/b}!"
+    becca "Thanks, {b}[firstname]{/b}!"
     show becca 7
     show missy 8
-    missy "Кто из нас выглядит лучше всего, хотя?!"
+    missy "Which of us looks best though?!"
     show missy 7
     becca "..."
     show player 11f
     menu:
-        "{b}Бекка{/b} выглядит лучше!":
+        "{b}Becca{/b} looks best!":
             show player 14f
-            player_name "{b}Бекка{/b} выглядит лучше!"
+            player_name "{b}Becca{/b} looks best!"
             show player 13f
             show becca 25
-            becca "Я?!"
+            becca "M-me?!"
             show becca 24
             show missy 2
-            missy "Бууу!!"
+            missy "Booo!!"
             show missy 4b
             show becca 8
-            becca "Я имею в виду, конечно, это я!"
-            becca "Кто бы выбрал маленькую Мисс крошечные сиськи вон там?!"
+            becca "I mean, of course it's me!"
+            becca "Who would choose little Miss Tiny Tits over there?!"
             show becca 7
             show missy 3
             missy "!!!"
             show missy 4
-            missy "Забери это обратно!"
+            missy "Take that back!"
             show missy 4b
             show becca 8
-            becca "... Нет."
+            becca "... No."
             show becca 7
             show player 10f
-            player_name "Эй!"
+            player_name "Whoa!"
             show player 12f
-            player_name "Успокойтесь! Вы оба великолепны и {b}Мисси{/b} прекрасные сиськи!"
+            player_name "Calm down! You're both gorgeous and {b}Missy's{/b} tits are perfect!"
             show player 13f
-            missy "Хммф!"
+            missy "Hmmph!"
             show becca 8
-            becca "... Совершенно крошечные."
+            becca "... Perfectly tiny."
             show becca 3
             show missy 4
-            missy "Я слышала это!"
+            missy "I heard that!"
             show missy 4b
             show becca 7
             show player 17f
-            player_name "Хаха, вы двое несколько иногда..."
+            player_name "Haha, you two are a handful sometimes..."
             show player 13f
-        "{b}Мисси{/b}, Конечно!":
+        "{b}Missy{/b}, of course!":
 
 
             show player 14f
-            player_name "У {b}Мисси{/b}, Конечно!"
+            player_name "{b}Missy{/b}, of course!"
             show player 13f
             show becca 2b with dissolve
-            becca "ЧТО?!"
+            becca "WHAT?!"
             show becca 1 with dissolve
             show missy 6
-            missy "Ура!!!"
+            missy "Yay!!!"
             show missy 8
-            missy "Ты самый лучший {b}[firstname]{/b}!"
+            missy "You are the best {b}[firstname]{/b}!"
             show missy 7
             show becca 2
-            becca "Как ты мог думать, что эта шлюха круче меня?!"
+            becca "Ugh, how could you think this skank is hotter than me?!"
             show becca 3
             show missy 8
-            missy "Может, потому что я не охвачена отвратительными веснушками?"
+            missy "Uh, maybe because I'm not covered in disgusting freckles?"
             show missy 7
             show becca 20f with dissolve
-            becca "Возьми это обратно!"
+            becca "Take that back!"
             show becca 19f
             show missy 5
-            missy "... Нет."
+            missy "... No."
             show missy 7
             show player 10f
-            player_name "Эй!"
+            player_name "Whoa!"
             show player 12f
-            player_name "Успокойтесь! Вы оба великолепны и веснушки {b}Бекки{/b} очаровательны!"
+            player_name "Calm down! You're both gorgeous and {b}Becca's{/b} freckles are adorable!"
             show player 13f
             show becca 23 with dissolve
-            becca "Хммф!"
+            becca "Hmmph!"
             show missy 8
-            missy "... Ты имеешь в виду, отвратительные."
+            missy "... You mean, abominable."
             show missy 7
             show becca 2
-            becca "Я слышала это!"
+            becca "I heard that!"
             show becca 1
             show player 17f
-            player_name "Хаха, вы двое несколько иногда..."
+            player_name "Haha, you two are a handful sometimes..."
             show player 13f
-        "Вы обе выглядите одинаково красиво!":
+        "You both look equally beautiful!":
+
+
             show player 17f
-            player_name "Вы обе выглядите одинаково красиво!"
+            player_name "You both look equally beautiful!"
             show player 13f
             show missy 2
-            missy "Неубедительно."
+            missy "Laaaaame!"
             show missy 2b
             show becca 6
-            becca "Не уклоняся от вопроса!"
+            becca "Don't dodge the question!"
             show becca 5
             show player 10f
-            player_name "Что?! Это правда!"
+            player_name "What?! It's the truth!"
             show player 5f
             show becca 2
-            becca "Что..."
+            becca "Whatever..."
             show becca 1
             show missy 8
-            missy "Как этот уродливый горя, жарче меня!"
+            missy "Like this ugly ho is hotter than me!"
             show missy 7
             show becca 3b
-            becca "Пшш, пожалуйста..."
+            becca "Psh, please..."
             show player 13f
-            becca "Палку, как вы даже не сравнить."
+            becca "A stick like you doesn't even compare."
             show becca 7
             show missy 4
-            missy "Да пошла ты!"
+            missy "Fuck you!"
             show missy 4b
             show becca 8
-            becca "В твоих снах, сука."
+            becca "In your dreams, bitch."
             show becca 7
             show player 17f
-            player_name "Ха-ха, вы двое иногда..."
+            player_name "Haha, you two are a handful sometimes..."
             show player 13f
     return
 
 label button_missy_becca_leave:
     show player 14f
-    player_name "Я должен идти."
+    player_name "I should go."
     show player 13f
     show missy 1b
-    missy "Уже уходишь?"
+    missy "Aww, leaving already?"
     show missy 1
     show becca 8
-    becca "Не забудьте приехать к нам {b}в эти выходные на пляж{/b}!"
+    becca "Don't forget to come see us {b}this weekend{/b} at {b}the beach{/b}!"
     show becca 7
     show missy 6
-    missy "Пока {b}[firstname]{/b}!"
+    missy "Byeee {b}[firstname]{/b}!"
     hide player
     hide becca
     hide missy

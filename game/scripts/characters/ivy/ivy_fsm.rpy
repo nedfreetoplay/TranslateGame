@@ -1,7 +1,5 @@
-label ivy_triggers_init:
-    python:
-        T_ivy_intro = Trigger("intro", "default")
-    return
+init python:
+    T_ivy_intro = Trigger("intro", "default")
 
 label ivy_fsm_init:
     python:

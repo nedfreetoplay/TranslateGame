@@ -1,8 +1,7 @@
-screen library_backroom:
-    if quest06 not in completed_quests:
-        add "backgrounds/location_library_backroom01.jpg"
-    else:
-        add "backgrounds/location_library_backroom01_hd_cam.jpg"
+screen library_backroom():
+    use mods_screens_hook("library_backroom")
+
+    add "backgrounds/location_library_backroom01.jpg"
 
     if M_bissette.is_state(S_bissette_reference_book_search):
         imagebutton:
@@ -19,7 +18,7 @@ screen library_backroom:
         hover HoverImage("boxes/auto_option_04.png")
         action Hide("library_backroom"), Jump("library_dialogue")
 
-screen backroom_couple_sex:
+screen backroom_couple_sex():
     imagebutton:
         pos (350,700)
         idle "buttons/backroom_stage01_01.png"

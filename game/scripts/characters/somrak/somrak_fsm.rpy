@@ -1,39 +1,64 @@
-label somrak_triggers_init:
-    python:
+init python:
 
-        T_perv_visit = Trigger("Visit", "Посещение Сомрака в тренажерном зале")
-        T_perv_pay = Trigger("Pay", "Платить Сомраку трусиками")
-        T_perv_train = Trigger("Train", "Сомрак преподает урок")
-        T_perv_finish = Trigger("Finish", "Сомрак закончил набор уроков")
-    return
+    T_somrak_hungry = Trigger()
+    T_somrak_fed = Trigger()
+    T_somrak_trained = Trigger()
 
 label somrak_fsm_init:
     python:
 
-        S_perv_start = State("start")
-        S_perv_wait_clean = State("waiting","В ожидании чистых трусиков")
-        S_perv_teach_1 = State("teaching","Уровень один")
-        S_perv_wait_used = State("waiting","В ожидании поношенных трусиков")
+        S_somrak_start = State()
+        S_somrak_waiting_a = State()
+        S_somrak_sated_a = State()
+        S_somrak_waiting_b = State()
+        S_somrak_sated_b = State()
+        S_somrak_waiting_c = State()
+        S_somrak_sated_c = State()
+        S_somrak_waiting_d = State()
+        S_somrak_sated_d = State()
 
 
-        S_perv_start.add(T_perv_visit, S_perv_wait_clean,
-                         actions=['clear','need_rest',
-                                  'trigger', T_jenny_panty_raid,
-                         ])
-        S_perv_wait_clean.add(T_perv_pay, S_perv_teach_1,
-                              actions=['assign',('session',2)])
-        S_perv_teach_1.add(T_perv_train,S_perv_teach_1,
-                           actions=['set','need_rest',
-                                    'triggerOnZero',('session',T_perv_finish)])
-        S_perv_teach_1.add(T_perv_finish,S_perv_wait_used)
-        S_perv_teach_1.add(T_all_sleep,S_perv_teach_1,
-                           actions=['clear','need_rest',])
 
-        M_perv.add(S_perv_start, S_perv_wait_clean, S_perv_teach_1, S_perv_wait_used)
+        S_somrak_start.add(T_somrak_hungry, S_somrak_waiting_a)
+
+        S_somrak_waiting_a.add(T_somrak_fed, S_somrak_sated_a)
+
+        S_somrak_sated_a.add(T_somrak_trained, S_somrak_sated_a,
+             actions=('condition', ('player.stats.dex() >= 4',
+                                    (('trigger', T_somrak_hungry)), ())))
+        S_somrak_sated_a.add(T_somrak_hungry, S_somrak_waiting_b)
+
+        S_somrak_waiting_b.add(T_somrak_fed, S_somrak_sated_b)
+
+        S_somrak_sated_b.add(T_somrak_trained, S_somrak_sated_b,
+             actions=('condition', ('player.stats.dex() >= 7',
+                                    (('trigger', T_somrak_hungry)), ())))
+        S_somrak_sated_b.add(T_somrak_hungry, S_somrak_waiting_c)
+
+        S_somrak_waiting_c.add(T_somrak_fed, S_somrak_sated_c)
+
+        S_somrak_sated_c.add(T_somrak_trained, S_somrak_sated_c,
+             actions=('condition', ('player.stats.dex() >= 9',
+                                    (('trigger', T_somrak_hungry)), ())))
+        S_somrak_sated_c.add(T_somrak_hungry, S_somrak_waiting_d)
+
+        S_somrak_waiting_d.add(T_somrak_fed, S_somrak_sated_d)
+
+        S_somrak_sated_d.add(T_somrak_trained, S_somrak_waiting_d)
+
+        M_somrak.add(S_somrak_start,
+                     S_somrak_waiting_a, S_somrak_sated_a,
+                     S_somrak_waiting_b, S_somrak_sated_b,
+                     S_somrak_waiting_c, S_somrak_sated_c,
+                     S_somrak_waiting_d, S_somrak_sated_d)
     return
 
 label somrak_machine_init:
     python:
-        M_perv = Machine("Somrak",default_loc=[[L_gym, L_gym, L_gym, L_NULL]])
+        M_somrak = Machine("somrak", default_loc=[[L_gym, L_gym, L_NULL, L_NULL]],
+                           vars={"asked kevin panties": False,
+                                 "delivered_panties": None,
+                                 "just_delivered_panties": False,
+                                 })
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

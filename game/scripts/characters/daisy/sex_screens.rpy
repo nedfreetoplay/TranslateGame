@@ -1,4 +1,4 @@
-screen daisy_sex_breed_options:
+screen daisy_sex_breed_options():
     imagebutton:
         pos (170,700)
         focus_mask True

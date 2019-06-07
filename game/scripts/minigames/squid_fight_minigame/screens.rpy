@@ -81,6 +81,6 @@ init python:
                 self._on_event(ev.key)
             pass
 
-screen squid_fight:
+screen squid_fight():
     add SquidFight()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

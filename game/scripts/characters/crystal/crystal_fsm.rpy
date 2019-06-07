@@ -1,7 +1,5 @@
-label crystal_triggers_init:
-    python:
-        T_crystal_intro = Trigger("intro")
-    return
+init python:
+    T_crystal_intro = Trigger("intro")
 
 label crystal_fsm_init:
     python:

@@ -1,13 +1,13 @@
 label mall_toilets_rump_n_cunt:
     scene mall_toilets_event_b
-    player_name "( Телохранитель? )"
-    player_name "( Что он здесь делает... ) "
+    player_name "( A body guard? )"
+    player_name "( What is he doing in here... ) "
     return
 
 label mall_toilets_stall:
     scene mall_toilets_stall
     show player 1 at left with dissolve
-    player_name "( Здесь ничего нет... разве что несколько старых подтёков на стенах. )"
+    player_name "( Nothing in here... just some crusty stains on the walls. )"
     hide player with dissolve
     $ game.main()
 
@@ -25,9 +25,9 @@ label rump_toilets_stall_dialogue:
     show rump_n_cunt 01_02_03_04 zorder 2 at left
     with fade
     $ renpy.pause(1, hard=True)
-    rump "ДА!"
+    rump "YES!"
     $ renpy.pause(1, hard=True)
-    rump "ТЫ ГРЯЗНАЯ ЖЕНЩИНА!!!"
+    rump "YOU NASTY WOMAN!!!"
     $ renpy.pause(1, hard=True)
     return
 
@@ -43,15 +43,15 @@ label rump_toilets_stall_block_dialogue:
     show player 37 at left with dissolve
     player_name "( ... )"
     show player 38
-    player_name "( Это был мэр Рамп?! )"
+    player_name "( Was that mayor Rump?! )"
     show player 22
     show rump_guard 1 at right
     with hpunch
     player_name "!!!"
     show rump_guard 2
-    guard "Эй!"
-    guard "Здесь никому нельзя находиться!"
-    guard "Ты должен уйти отсюда прямо СЕЙЧАС!!!"
+    guard "Hey!"
+    guard "No one is allowed in here!"
+    guard "I need you to leave right NOW!!!"
     scene black with fade
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

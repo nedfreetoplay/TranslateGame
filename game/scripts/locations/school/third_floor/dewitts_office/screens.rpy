@@ -1,4 +1,6 @@
-screen mrs_dewitts_office:
+screen mrs_dewitts_office():
+    use mods_screens_hook("mrs_dewitts_office")
+
     add game.timer.image("backgrounds/location_school_office2_day{}.jpg")
 
     if player.location.is_here(M_dewitt):
@@ -22,7 +24,7 @@ screen mrs_dewitts_office:
         hover HoverImage("boxes/auto_option_generic_02.png")
         action Hide("mrs_dewitts_office"), Jump("third_floor_dialogue")
 
-screen dewitt_sex_options:
+screen dewitt_sex_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -54,7 +56,7 @@ screen dewitt_sex_options:
                 hover HoverImage("buttons/speed_01.png")
                 action Hide("dewitt_sex_options"), Function(M_dewitt.set, "sex speed", M_dewitt.get("sex speed") - 0.05), Jump("dewitt_sex_loop")
 
-screen dewitt_twerk_options:
+screen dewitt_twerk_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -85,7 +87,7 @@ screen dewitt_twerk_options:
             hover HoverImage("buttons/speed_01.png")
             action Hide("dewitt_twerk_options"), Function(M_dewitt.set, "sex speed", M_dewitt.get("sex speed") - 0.05), Jump("dewitt_twerk_loop")
 
-screen dewitt_office_bj_options:
+screen dewitt_office_bj_options():
     imagebutton:
         focus_mask True
         pos (250,700)

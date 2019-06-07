@@ -1,10 +1,13 @@
+init python:
+
+    T_all_sleep = Trigger("sleep", "Sleep for the night")
+    T_all_school_entrance = Trigger("hallway", "Meet everyone back at school")
+    T_all_on_load = Trigger("on load", "On game load")
+    T_player_woke_up = Trigger("player woke up", "On waking up")
+
 label INIT_FSM_TRIGGERS:
     $ renpy.not_infinite_loop(10)
     python:
-
-        T_all_sleep = Trigger("sleep", "Спокойной ночи.")
-        T_all_school_entrance = Trigger("hallway", "видимся в школе.")
-        T_all_on_load = Trigger("on load", "При запуске игры")
         for lbl in [lbl for lbl in renpy.get_all_labels() if "triggers" in lbl]:
             renpy.call_in_new_context(lbl)
         for trig_name, trigger in [(name, var) for name, var in globals().items() if name.startswith("T_")]:
@@ -36,7 +39,7 @@ label INIT_JSONS:
         store.text_messages = json.load(json_file)
         json_file.close()
 
-        if persistent.allow_internet_connections and renpy.variant("pc"):
+        if preferences.internet_access and renpy.variant("pc"):
             try:
                 store.sploosh = requests.get(game.website_address+"/dialogues.json", verify=game.CA_FILE).json()
             except:
@@ -46,15 +49,6 @@ label INIT_JSONS:
         else:
             json_file = renpy.file("scripts/data/dialogues.json")
             store.sploosh = json.load(json_file)
-            json_file.close()
-
-        try:
-            json_file = renpy.file("keymap.json")
-            store.keymap = json.load(json_file)
-            json_file.close()
-        except:
-            json_file = renpy.file("scripts/data/default_keymap.json")
-            store.keymap = json.load(json_file)
             json_file.close()
     return
 
@@ -86,11 +80,11 @@ label INIT_GAME:
     return
 
 label INIT_GLOBAL:
-    call INIT_LOCATIONS
     call INIT_INVENTORY_ITEMS
     call INIT_JSONS
     call INIT_GAME
     call INIT_FSM
     call INIT_PMS
+    call INIT_OMS
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

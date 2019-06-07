@@ -1,4 +1,6 @@
-screen basketball_court:
+screen basketball_court():
+    use mods_screens_hook("basketball_court")
+
     add game.timer.image("backgrounds/location_basketball_day{}.jpg")
 
     if not game.timer.is_dark():
@@ -7,7 +9,7 @@ screen basketball_court:
             pos (523,358)
             idle "objects/object_basketball_01.png"
             hover HoverImage("objects/object_basketball_01.png")
-            action Hide("basketball_court"), Jump("basketball_minigame_prepare")
+            action Hide("basketball_court"), Jump("basketball_minigame_prepare_but_with_a_background_this_time")
 
     if player.location.is_here(M_becca):
         imagebutton:

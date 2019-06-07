@@ -1,11 +1,11 @@
 label ross_office_first_visit:
     scene school_office3_b with fade
     show player 11 with dissolve
-    player_name "*фырк*"
+    player_name "*Sniff*"
     show player 12
-    player_name "Что это за запах?"
-    player_name "Это как...ладан...и травы..."
-    player_name "{b}Мисс Росс{/b}, должно быть, проводит здесь много времени."
+    player_name "What's that smell?"
+    player_name "It's like...incense...and herbs..."
+    player_name "{b}Miss Ross{/b} must be spending a lot of time in here."
     hide player with dissolve
     return
 
@@ -23,34 +23,34 @@ label ross_hscene_start:
     jump ross_hscene_loop
 
 label ross_office_hscene:
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg")
+    scene expression player.location.background_closeup
     show ross 13 at Position(xpos=0.35, ypos=1.0)
     show player 1f at Position(xpos=0.85, ypos=1.0)
     with dissolve
-    ross "Вот мой маленький герой!"
+    ross "There's my little hero!"
     show ross 12
     show player 2f
-    player_name "Вау, здесь пахнет очень хорошо!"
+    player_name "Wow, it smells really good in here!"
     show ross 13
     show player 1f
-    ross "Тебе это нравится? Это моя любимая благовония."
-    ross "Это действительно повышает настроение не думаешь?"
+    ross "You like that? It's my favorite incense."
+    ross "It really enhances the mood, don't you think?"
     show ross 12
     show player 10f
-    player_name "Эмм, Конечно. Я думаю..."
-    player_name "А зачем это гиганское полотно?"
+    player_name "Uhh, Sure. I guess..."
+    player_name "What's with the giant canvas?"
     show player 11f
     show ross 13
-    ross "Хехе, терпение, {b}[firstname]{/b}. Нельзя торопиться или искусство пострадает."
+    ross "Hehe, patience, {b}[firstname]{/b}. You can't rush this or the art will suffer."
     show player 10f
     show ross 12
-    player_name "... Ох, хорошо."
+    player_name "... Oh, okay."
     show player 11f
     show ross 13
-    ross "Почему бы тебе не пойти и не запереть дверь. Мы не хотим чтобы кто-то побеспокоил нас..."
+    ross "Why don't you go lock the door. We don't want anyone to disturb us..."
     show player 2f
     show ross 12
-    player_name "Хорошо."
+    player_name "Alright."
     hide player with dissolve
     pause
     show ross 14 at Position(xpos=0.37, ypos=1.0) with dissolve
@@ -58,82 +58,82 @@ label ross_office_hscene:
     show player 2f at Position(xpos=0.85, ypos=1.0)
     show ross 15 at Position(xpos=0.37, ypos=1.0)
     with dissolve
-    player_name "... Хорошо, сейчас чт-"
+    player_name "... Okay, now wh-"
     show ross 16 at Position(xpos=0.35, ypos=1.0)
     show player 11f
     with dissolve
     pause
     show player 10f
     show ross 17 at Position(xpos=0.34, ypos=1.0) with dissolve
-    player_name "... Эм?"
+    player_name "... Eh?"
     show ross 37 at Position(xpos=0.36, ypos=1.0) with dissolve
-    player_name "Что вы делаете, {b}Мисс Росс{/b}?"
+    player_name "What are you doing, {b}Miss Ross{/b}?"
     show player 11f
     show ross 36
-    ross "Ох, тебе нужно будет так же раздеться..."
-    ross "... Мы будем использовать наши тела для рисования, {b}[firstname]{/b}."
+    ross "Oh, you'll need to undress as well..."
+    ross "... We're going to be using our bodies to paint, {b}[firstname]{/b}."
     show ross 37
     show player 10f
-    player_name "... Наши тела?"
+    player_name "... Our bodies?"
     hide ross
     show rossp 9 at Position(xpos=0.34, ypos=1.0)
     with dissolve
     show player 11f
     player_name "( !!! )" with hpunch
     show rossp 10
-    ross "Точно!"
-    ross "Не стесняйся..."
-    ross "Избався от этих вещей!"
+    ross "That's right!"
+    ross "Don't be shy now..."
+    ross "Lose those clothes!"
     show rossp 9
     show player 10f
-    player_name "... Х-хорошо."
+    player_name "... O-okay."
     show player 8f with dissolve
     pause
     show player 261 with dissolve
     pause
     show player 430f with dissolve
     show rossp 10
-    ross "Замечательно!"
-    ross "Ты такой одаренный молодой человек, {b}[firstname]{/b}..."
+    ross "Wonderful!"
+    ross "You're such a gifted young man, {b}[firstname]{/b}..."
     show player 430bf
     show rossp 9
-    player_name "Хех, спасибо."
+    player_name "Heh, thanks."
     show player 430f
-    ross "Ммммхммм."
+    ross "Mmmhmm."
     show rossp 10
-    ross "Хорошо, для слудующего этапа..."
-    ross "Нам понадобится добавить немного краски для выравнивания..."
+    ross "Okay, for the next step..."
+    ross "We're gonna need to add a little paint to the equation..."
     show rossp 9
     show player 430bf
-    player_name "Я не уверен я..."
+    player_name "I'm not sure I..."
     hide ross
     show rossp 6 at Position(xpos=0.46, ypos=1.0)
     with dissolve
     show player 430f
-    ross "Вот возьми это."
+    ross "Here take this."
     show rossp 9 at Position(xpos=0.34, ypos=1.0)
     show player 613 at Position(xpos=0.83, ypos=1.0)
     with dissolve
     pause
     show player 614
-    player_name "... Ч-что именно я рисую?"
+    player_name "... W-what am I painting exactly?"
     hide ross
     show rossp 1 at Position(xpos=0.41, ypos=1.0)
     with dissolve
     show player 613
-    ross "Хехе, меня глупый!"
-    ross "Не волнуйся, я покажу тебе."
+    ross "Hehe, me silly!"
+    ross "Don't worry, I'll show you."
     show rossp 2
     pause
     hide rossp
     hide player
     with dissolve
     scene black with fade
-    ross "Вот и все, {b}[firstname]{/b}..."
-    ross "Просто сойти с ума с ними!"
+    ross "That's it, {b}[firstname]{/b}..."
+    ross "Just go nuts with it!"
     player_name "..."
-    ross "Хехе, это щекочет!"
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg") with fade
+    ross "Hehe, that tickles!"
+    scene expression player.location.background_closeup with fade
     show ross 48 zorder 0 at Position(xpos=0.43, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.43, ypos=0.99)
     show player 616 zorder 2 at Position(xpos=0.73, ypos=1.0)
@@ -143,8 +143,8 @@ label ross_office_hscene:
     pause
     show player 615 at Position(xpos=0.745, ypos=1.0) with dissolve
     show ross 47
-    ross "Молодей, {b}[firstname]{/b}!"
-    ross "Ох, Я действительно люблю эту технику!"
+    ross "Well done, {b}[firstname]{/b}!"
+    ross "Oh, I really love this technique!"
     hide rosso
     hide ross
     show rossp 3_4_5_4 at Position(xpos=0.43, ypos=1.0)
@@ -154,90 +154,90 @@ label ross_office_hscene:
     show ross 47 zorder 0 at Position(xpos=0.43, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.43, ypos=0.99)
     with dissolve
-    ross "... Это кажется так удивительно!"
+    ross "... This feels so amazing!"
     hide ross
     hide rosso
     show rossp 3_4_5_4 at Position(xpos=0.43, ypos=1.0)
     show player 432f at Position(xpos=0.855, ypos=1.0)
     with dissolve
-    player_name "Где вы этому научились так или иначе?"
+    player_name "Where did you learn this anyways?"
     show rossp 10 zorder 0 at Position(xpos=0.4, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.42, ypos=0.99)
     with dissolve
     show player 431f
-    ross "Ох, Это то что я придумала давным давно."
-    ross "Мой первый год фактического обучение."
+    ross "Oh, it's just something I came up with a long time ago."
+    ross "My first year of teaching actually."
     show rossp 9
     show player 432f
-    player_name "Серьезно?"
+    player_name "Really?"
     show player 431f
-    ross "Ммммхммм..."
+    ross "Mmmhmm..."
     show rossp 10
-    ross "... но мы даже не дошли до самого лучшего."
+    ross "... But we haven't even gotten to the best part yet."
     show rossp 9
     show player 432f
-    player_name "... Чего самого лучшего?"
+    player_name "... What's the best part?"
     show rossp 10
     show player 431f
-    ross "Я хочу что бы мы занялись любовью, {b}[firstname]{/b}!"
+    ross "I want you to make love to me, {b}[firstname]{/b}!"
     show player 430f
     player_name "( !!! )" with hpunch
     show player 430bf
     show rossp 9
-    player_name "Чего?!"
+    player_name "What?!"
     show player 430f
     show rossp 10
-    ross "Займись со мной любовью! Прямо здесь на этом холсте!"
-    ross "Используй моё телоя для рисования своего шедевра!"
+    ross "Make love to me! Right here on this canvas!"
+    ross "Use my body to paint your masterpiece!"
     show player 430bf
     show rossp 9
-    player_name "Вы в самом деле хотите... Со мной?"
+    player_name "You really want to... With me?"
     hide player
     hide rosso
     show rossp 11_12 at Position(xpos=0.785, ypos=1.0)
     with dissolve
-    ross "Конечно Я хочу!"
-    ross "Я хотела чтобы твой большой член был во мне с тех пор как я увидела того миленького маленького жирафика которого ты сделал из глины."
-    player_name "... Ты хотела?"
-    ross "Ох, да!"
-    ross "Ничего не заводит меня более чем талантливый молодой художник!"
-    player_name "... Это очень приятно."
-    ross "Он вот вот будет чувствовать себя намного лучше!"
-    ross "Подойди и ложись."
+    ross "Of course I want to!"
+    ross "I've wanted this big dick of yours inside me since the moment I saw that cute little giraffe you made out of clay."
+    player_name "... You did?"
+    ross "Oh, yes!"
+    ross "Nothing turns me on more than a talented young artist!"
+    player_name "... This feels really good."
+    ross "It's about to feel a whole lot better!"
+    ross "Come lay down."
     return
 
 label ross_hscene_first_time:
     scene location_school_office3_closeup_sex
     show rosss 1 at right
     with dissolve
-    ross "Ох, Я не могу поверить неужели это наконец случилось!"
+    ross "Oh, I can't believe it's finally happening!"
     ross "..."
     show rosss 2 with dissolve
-    ross "Оооох, вау!"
+    ross "Oooh, wow!"
     $ M_ross.set ("sex speed", 0.2)
     show expression AnimatedImage("rosss", [2,3,4,5,6,7,8,9,10,11], M_ross) as rosss at right
     pause 3
-    ross "О моя богиня! Это даже лучше, чем я себе представляла!"
+    ross "Oh my goddess! It's even better than I imagined!"
     pause 2
-    player_name "О, {b}Мисс Росс{/b}!"
+    player_name "Oh, {b}Miss Ross{/b}!"
     $ M_ross.set ("sex speed", 0.1)
     pause 5
-    ross "Никогда не было так хорошо!"
+    ross "It's never felt so good!"
     pause 5
-    ross "Это невероятно!"
+    ross "This is incredible!"
     pause 2
-    player_name "Ааааа!"
+    player_name "Ahhh!"
     pause 2
-    ross "Почему это так хорошо?!"
+    ross "Why is this so good?!"
     $ M_ross.set ("sex speed", 0.06)
     pause 5
-    ross "О, трахай меня!"
-    player_name "Я не могу-"
-    player_name "Ты делаешь это слишком быстро!"
+    ross "Oh, fuck me!"
+    player_name "I can't-"
+    player_name "You're going too fast!"
     pause 5
-    ross "Я люблю твой член, {b}[firstname]{/b}!"
+    ross "I love your dick, {b}[firstname]{/b}!"
     pause 2
-    ross "О, Я люблю его так сильно!"
+    ross "Oh, I love it so much!"
     return
 
 label ross_hscene_loop:
@@ -277,117 +277,117 @@ label ross_hscene_dialog:
 
     if temp == 1:
         if M_ross.is_state(S_ross_paint_with_body):
-            ross "Ох моя богиня! Это даже лучше чем я предстовляла!"
-            player_name "Ах, {b}Мисс Росс{/b}!"
+            ross "Oh my goddess! It's even better than I imagined!"
+            player_name "Oh, {b}Miss Ross{/b}!"
         else:
 
-            ross "Ох, Я рада что ты пришел сегодня!"
-            ross "Мне это действительно было необходимо!"
-            player_name "Ох, как приятно!"
-            ross "Мммм, Я так сильно люблю этот член!"
-            ross "Дай его мне, {b}[firstname]{/b}!"
-            ross "Вот и все!"
-            ross "АААХХХ!"
+            ross "Oh, I'm so glad you came by today!"
+            ross "I really needed this!"
+            player_name "Oh, that feels so good!"
+            ross "Mmm, I love this dick so much!"
+            ross "Give it to me, {b}[firstname]{/b}!"
+            ross "That's it!"
+            ross "AAAHHH!"
 
     elif temp == 2:
         if M_ross.is_state(S_ross_paint_with_body):
-            ross "Никогда еще не чувствовала себя так хорошо!"
-            ross "Это невероятно!"
-            player_name "Аххх!"
-            ross "Почему это так хорошо!"
+            ross "It's never felt so good!"
+            ross "This is incredible!"
+            player_name "Ahhh!"
+            ross "Why is this so good?!"
         else:
 
-            ross "Вот и все, {b}[firstname]{/b}!"
-            ross "Ох, Это так красиво!"
-            ross "Я хочу чтобы ты приходил ко мне много раз!"
-            player_name "Ах, вау!"
-            player_name "Ахххх!"
-            ross "Вот и все!"
-            ross "Нарисуй белый шедевр на моем яичническом холсте!"
+            ross "That's it, {b}[firstname]{/b}!"
+            ross "Oh, this is so beautiful!"
+            ross "I want you to come a lot for me this time!"
+            player_name "Oh, wow!"
+            player_name "Ahhh!!"
+            ross "That's it!"
+            ross "Paint a white masterpiece on my ovarian canvas!"
 
     elif temp == 3:
         if M_ross.is_state(S_ross_paint_with_body):
-            ross "Ах, Еби меня!"
-            player_name "Я не могу-"
-            player_name "Вы движетесь слишком быстро!"
-            ross "Я люблю твой член, {b}[firstname]{/b}!"
-            ross "Ах, Я люблю его так сильно!"
+            ross "Oh, fuck me!"
+            player_name "I can't-"
+            player_name "You're going too fast!"
+            ross "I love your dick, {b}[firstname]{/b}!"
+            ross "Oh, I love it so much!"
         else:
 
-            ross "Ох, мне все еще немного больно от нашей прошлой сессии..."
-            player_name "Может остановимся?"
-            ross "Не смей останавливаться!"
-            ross "Ах, дв!"
-            ross "Да! Да! Выеби меня!"
-            ross "Это так хорошо, {b}[firstname]{/b}!"
-            player_name "Ох, {b}Мисс Росс{/b}!!!"
+            ross "Oh, I'm still a little sore from our last session..."
+            player_name "Should we stop?"
+            ross "Don't you dare stop!"
+            ross "Oh, yes!"
+            ross "Yes! Yes! Fuck me!"
+            ross "It's so good, {b}[firstname]{/b}!"
+            player_name "Oh, {b}Miss Ross{/b}!!!"
 
     elif temp == 4:
-        ross "Я думала об этом весь день!"
-        player_name "Ты думала?"
-        ross "Да..."
-        ross "... Целый день..."
-        ross "... Просто думала об твоем счастливом маленьком члене..."
-        ross "... И сколько и сколько мне нужно его внутри чтобы осчастливить мою маленькую пизду!"
+        ross "I've been thinking about this all day!"
+        player_name "You have?"
+        ross "Yes..."
+        ross "... All day..."
+        ross "... just thinking about your happy little dick..."
+        ross "... And how much I need it inside my happy little vagina!"
         player_name "..."
-        ross "Ах, Я скоро кончу!"
-        ross "АХ БЛЯТЬ!"
-        ross "ААААХХХ!!!"
+        ross "Oh, I'm gonna cum!"
+        ross "OH FUCK!"
+        ross "AAAHHHHH!!!"
     return
 
 label ross_office_ross_sex_cum_dialogue:
-    player_name "я немогу сдержаться!"
-    ross "Ох, Я люблю это! Я люблю это! Я люблю это!"
+    player_name "I can't hold it!"
+    ross "Oh, I love it! I love it! I love it!"
     pause
-    ross "ААААХХ!!"
+    ross "AAAhhhh!!!"
     pause
     show rosss 12_13 at right with flash
-    player_name "НННГГГ!!!"
-    ross "{b}*Задахаясь*{/b}!"
-    ross "Ммммф!"
+    player_name "HNNGGG!!!"
+    ross "{b}*GASP*{/b}!"
+    ross "Mmmph!"
     pause
     show rosss 14 with dissolve
-    ross "Хааах... Хааах..."
-    ross "Вау!"
+    ross "Haaah... Haaah..."
+    ross "Wow!"
     ross "... {b}[firstname]{/b}."
-    ross "Это было..."
+    ross "That was..."
     show rosss 15 with dissolve
     pause
     show rosss 16 with dissolve
 
-    ross "... Я имею в виду у меня было много секс в моей жизни..."
-    ross "... Много хорошего секса!"
-    ross "... Но это было что-то другое, совершено!"
-    player_name "... Д-да."
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg")
+    ross "... I mean I've had a lot of sex in my life..."
+    ross "... A lot of good sex!"
+    ross "... But that was something else, entirely!"
+    player_name "... Y-yeah."
+    scene expression player.location.background_closeup
     show rossp 10 zorder 0 at Position(xpos=0.2, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.22, ypos=1.0)
     show player 8f at right
     with dissolve
-    ross "Нам нужно это сделать снова!"
+    ross "We need to do that again!"
     show player 1f with dissolve
-    ross "Я никогда еще не канчала так без передышки прежде!"
+    ross "I've never came so hard before!"
     show rossp 9
     player_name "..."
     show rossp 10
-    ross "Ты не возражаешь сделать это снова как-нибудь, пожалуйста {b}[firstname]{/b}?"
+    ross "You wouldn't mind doing it again sometime, would you {b}[firstname]{/b}?"
     show rossp 9
     show player 2f
-    player_name "Конечно нет!"
-    player_name "Я сделаю это в любое время когда вы захотите!"
+    player_name "Of course not!"
+    player_name "I'll do that anytime you want!"
     show rossp 10
     show player 1f
-    ross "Хехе, что ж Я думаю что на сегодня достаточно..."
-    ross "Я измотана..."
+    ross "Hehe, well I think that's enough for today..."
+    ross "I'm exhausted..."
     show player 2f
     show rossp 9
-    player_name "Да, я тоже."
+    player_name "Yeah, me too."
     show player 1f
     show rossp 10
-    ross "Приходи и найди меня в {b}моем кабинете{/b} всякий раз когда тебе будет нужен еще один \"частный урок.\" Хорошо?"
+    ross "You come and find me in {b}my office{/b} whenever you need another \"private lesson.\" Okay?"
     show player 2f
     show rossp 9
-    player_name "Хех, да Мэм!"
+    player_name "Heh, yes Ma'am!"
     return
 
 label ross_office_ross_sex_cum:

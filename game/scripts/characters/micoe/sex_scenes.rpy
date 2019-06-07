@@ -3,37 +3,37 @@ label micoe_bj_scene_repeatable:
     show player 10 at left
     show micoe at flip
     with dissolve
-    player_name "Помнишь, когда ты мне помогла ... Хм, достань мой образец для тестирования."
+    player_name "Remember when you helped me... Umm, extract my sample for testing."
     show player 5
     show micoe f_sexy_talk
-    micoe "Ты имеешь в виду, когда я сосала твой член в ванной?"
+    micoe "You mean, when I sucked your cock in the bathroom?"
     show micoe f_sexy
     show player 11
     player_name "!!!"
     show player 29 with dissolve
-    player_name "Да."
+    player_name "Y-yeah."
     show player 3
     show micoe f_laugh
-    micoe "Хе-хе, я думаю, что мы перестали стесняться, {b}[firstname]{/b}."
+    micoe "Hehehe, I think we're past being shy, {b}[firstname]{/b}."
     show micoe f_sexy_talk
-    micoe "Ты здесь, чтобы дать мне еще попробовать?"
+    micoe "You here to let me have another taste?"
     show micoe f_sexy
     show player 17 with dissolve
-    player_name "Ага."
+    player_name "Uh huh."
     hide player
     show micoe b_pulling f_empty a_empty
     with dissolve
-    micoe "Давай, милашка."
+    micoe "C'mon cutie."
 
     scene expression "backgrounds/location_hospital_bathroom.jpg"
     show player 13f at right
     show micoe f_sexy_talk
     with dissolve
-    micoe "Чего же ты ждешь?"
-    micoe " Вынимай член!"
+    micoe "What are you waiting for?"
+    micoe "Get that cock out!"
     show micoe f_sexy
     show player 14f
-    player_name "Хорошо."
+    player_name "O-okay."
     show player 261b with dissolve
     pause
     show player 263b at Position (xoffset=-150)
@@ -41,7 +41,7 @@ label micoe_bj_scene_repeatable:
     with dissolve
     pause
     show micoe knees_talk
-    micoe "Ммм, я буду сосать этот красивый член в любое время когда захотчешь, {b}[firstname]{/b}!"
+    micoe "Mmm, I'll suck this beautiful cock anytime you want, {b}[firstname]{/b}!"
 
     $ M_micoe.set('sex speed', .12)
     $ anim_toggle = True
@@ -49,130 +49,130 @@ label micoe_bj_scene_repeatable:
     scene expression "backgrounds/location_hospital_bathroom_closeup.jpg"
     show expression AnimatedImage("micoe_bj", [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], M_micoe) as micoe_bj at Position(xalign = 0.0, yoffset = 0)
     with dissolve
-    micoe "{b}*чмок*{/b}"
-    player_name "О, боже..."
-    player_name "Это потрясающе, {b}Мико{/b}."
-    micoe "Мммммм!"
+    micoe "{b}*Slurp*{/b}"
+    player_name "Oh, god..."
+    player_name "That feels amazing, {b}Micoe{/b}."
+    micoe "Mmhmm!"
     return
 
 label micoe_bj_scene:
     scene expression "backgrounds/location_hospital_bathroom.jpg"
     show player 691b with dissolve
-    player_name "Хорошо, она сказала, что мне просто нужно эякулировать в эту емкость..."
+    player_name "Alright, she said I just need to ejaculate into this cup..."
     show player 261bf with dissolve
     pause
     $ M_player.set("sex speed", .4)
     show player 694_694b with dissolve
     pause
-    player_name "( Давай. )"
+    player_name "( C'mon. )"
     pause
     pause
     player_name "..."
     pause
     pause
-    player_name "( Обычно это не занимает у меня много времени... )"
+    player_name "( Hmm, it usually doesn't take me this long... )"
     pause
     $ M_player.set("sex speed", .3)
     show player 694_694b
     pause
-    player_name "( Давай, ты глупая хрень! )"
-    "*{b}Тук, Тук{/b}*"
+    player_name "( Come on you stupid thing! )"
+    "*{b}Knock, knock{/b}*"
     show player 695 with hpunch
     player_name "!!!"
     show player 692d
-    player_name "Да?"
+    player_name "Y-yeah?"
     show player 692c
-    micoe "Там все в порядке, тигр?"
+    micoe "Everything alright in there, tiger?"
     show player 692d
-    player_name "Я эээ..."
-    player_name "Я не уверен."
+    player_name "I uhh..."
+    player_name "I'm not sure."
     show player 692c
-    micoe "Проблеммы?"
+    micoe "Problem?"
     show player 692d
-    player_name "Ммм ... наверное, боязнь сцены?"
+    player_name "Umm... Stage fright, I guess?"
     show micoe at flip
     show micoe at Position (xpos=200)
     with dissolve
     show player 692d
-    player_name "Вау, что ты-"
+    player_name "Whoa, what are you-"
     show player 692c
     show micoe f_normal_talk
-    micoe "Тише, дай мне взглянуть..."
+    micoe "Shh, let me have a look..."
     show micoe f_normal
     show player 692d
-    player_name "Нет, на самом деле это-"
+    player_name "No, really that's-"
     hide player
     show micoe b_jerk1 a_empty at unflip
     show micoe at Position (xpos=26)
     player_name "!!!" with hpunch
     show micoe f_normal_talk
-    micoe "Вау, ты одаренный ребенок!"
+    micoe "Wow, you are one gifted kid!"
     show micoe b_jerk
-    micoe "Твоя подружка-счастливица!"
+    micoe "That girlfriend of yours is a lucky lady!"
     show micoe f_normal
     player_name "..."
     player_name "!!!"
     show micoe f_normal_talk b_dressed a_dressed_front
     show player 263c at right
     with dissolve
-    micoe "Начнем."
+    micoe "There we go."
     show micoe f_laugh
-    micoe "Проблема решена!"
+    micoe "Problem solved!"
     show micoe f_normal
     show player 262b
-    player_name "Хе."
+    player_name "Heh."
     show player 263c
     show micoe f_normal_talk
-    micoe "Я оставлю тебя..."
+    micoe "I'll leave you to it now..."
     show micoe f_normal
     pause
     show micoe f_sexy_talk
-    micoe "... Если только ты не хочешь, чтобы я осталась здесь и помогла?"
+    micoe "... Unless, you'd rather I stay here and help?"
     show micoe f_sexy
     show player 262g with dissolve
-    player_name "Ч-что вы имеете в виду?"
+    player_name "W-what do you mean?"
     show player 262e
     show micoe f_sexy_talk
-    micoe "Я могу остаться и немного помочь... Медицинская помощь."
+    micoe "I could stay and provide a little... Medical assistance."
     show micoe f_empty a_dressed_fingersuck with dissolve
     show player 262g
-    player_name "Ооо!"
+    player_name "O-oh!"
     show player 262e
     pause
     show player 262g
-    player_name "Я не..."
+    player_name "I don't..."
     show player 262e
     menu:
-        "Нет.":
+        "No.":
             show player 262d with dissolve
-            player_name "Это, я... Я не думаю, что мой друг-"
-            player_name "Я имею в виду, девушка была бы рада этому..."
+            player_name "That's, I... I don't think my friend-"
+            player_name "I mean, girlfriend would be happy about that..."
             show player 262c
             show micoe f_sexy_talk a_dressed_front with dissolve
-            micoe "Она не должна узнать."
+            micoe "She doesn't have to find out."
             show micoe f_sexy
             show player 262d
-            player_name "Ох, правда... Я хороший."
+            player_name "Uhh, really... I'm good."
             show player 262c
             show micoe f_sexy_talk
-            micoe "Ну, ну, красивый и верный."
-            micoe "Хорошо, я это уважаю."
+            micoe "Well, well, handsome and faithful."
+            micoe "Alright, I respect that."
             show micoe f_normal_talk_down
-            micoe "Ммм, что бы я с тобой сделала ..."
+            micoe "Mmm, what I'd do to you..."
             show micoe f_normal_down
             player_name "..."
             show micoe f_sexy_talk
-            micoe "{b}*мммм*{/b} Я буду снаружи, если ты передумаешь."
+            micoe "{b}*Ahem*{/b} I'll be just outside if you change your mind."
             show micoe f_sexy
             show player 262d
-            player_name "Спасибо..."
+            player_name "T-thanks..."
             show player 262c
             hide micoe with dissolve
             pause
             show player 262b
-            player_name "Срань господня!"
-            player_name "Ну, теперь я определенно тверд."
-            player_name "Я лучше вернусь к работе."
+            player_name "Holy crap!"
+            player_name "Well, I'm definitly hard now."
+            player_name "I'd better get back to work."
             show player 263c
             scene black with fade
             pause
@@ -181,48 +181,48 @@ label micoe_bj_scene:
             show micoe f_normal
             show player 691df at right
             with dissolve
-            player_name "Ну вот."
+            player_name "Here you go."
             show player 691cf
             show micoe f_laugh
-            micoe "Боже милостивый!"
+            micoe "Good lord!"
             $ renpy.end_replay()
             call expression game.dialog_select("diane_check_up_results")
 
             $ M_diane.trigger(T_diane_cup_o_jizz)
             $ player.go_to(L_hospital_floor2)
             $ game.main()
-        "Да.":
+        "Yes.":
 
             show player 263c
             player_name "..."
             show player 262b
-            player_name "Хорошо."
+            player_name "Okay."
             show player 263c
             show micoe f_sexy_talk
-            micoe "О, я надеялась, что ты это скажешь!"
+            micoe "Oh, I was hoping you'd say that!"
             show micoe knees_talk with dissolve
             show player 263b
-            micoe "Я захотела тебя, как только увидела в приемной."
+            micoe "I wanted you the second I saw you in that waiting room."
             show micoe knees
             show player 262h
-            player_name "Да?"
+            player_name "You did?"
 
             scene expression "backgrounds/location_hospital_bathroom_closeup.jpg"
             show micoe_bj look
             with dissolve
-            micoe "Мммммм."
+            micoe "Mmmhmm."
             show micoe_bj talk
-            micoe "... А потом я увидела огромный член, который ты прятал, и я едва могла себя контролировать!"
+            micoe "... And then I saw this massive dick you were hiding and I could barely control myself!"
             show micoe_bj look
-            player_name "Ты очень прямолинейна, ты знаешь это?"
+            player_name "You're really forward, you know that?"
 
             $ anim_toggle = True
             $ animated = True
             $ M_micoe.set('sex speed', .12)
             show expression AnimatedImage("micoe_bj", [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], M_micoe) as micoe_bj at Position(xalign = 0.0, yoffset = 0)
             player_name "!!!" with hpunch
-            player_name "ОЧЕНЬ, ОЧЕНЬ ПРЯМОЛИНЕЙНА!!"
-            micoe "Ммммммммм!"
+            player_name "REALLY, REALLY FORWARD!!"
+            micoe "Mmmhmmph!"
             jump micoe_bj_loop
 
 label micoe_bj_loop:
@@ -254,26 +254,26 @@ label micoe_bj_loop:
 
 label micoe_bj_hscene_dialog:
     if animcounter == 0 and randomizer() < 50:
-        player_name "Срань господня!{p=1}{nw}"
+        player_name "Holy crap!{p=1}{nw}"
     if animcounter == 1 and randomizer() > 50:
-        micoe "{b}*хлюп*{/b}{p=1}{nw}"
+        micoe "{b}*Slurp*{/b}{p=1}{nw}"
     if animcounter == 2 and randomizer() < 50:
-        player_name "Ты действительно хороша в этом!{p=2}{nw}"
+        player_name "You're really good at this!{p=2}{nw}"
     if animcounter == 3 and randomizer() > 50:
-        player_name "Я кончаю...{p=2}{nw}"
+        player_name "I'm getting close...{p=2}{nw}"
         if M_micoe.get("sex speed") > 0.061:
             $ M_micoe.set("sex speed", M_micoe.get("sex speed") - 0.03)
-        player_name "О боже мой!{p=1}{nw}"
+        player_name "Oh my god!{p=1}{nw}"
     return
 
 label micoe_bj_cum:
     if M_diane.is_state(S_diane_jizz_checkup_extra_hand):
-        player_name "Ааа, кончаю!"
+        player_name "Ahh, here it comes!"
         pause
         show micoe_bj cum
-        player_name "ХННГГГГ!!!" with flash
+        player_name "HNNGGG!!!" with flash
         pause
-        player_name "Ааааа... Ааааа..."
+        player_name "Haah... Haah..."
         pause
 
         scene expression "backgrounds/location_hospital_bathroom.jpg"
@@ -282,22 +282,22 @@ label micoe_bj_cum:
         with dissolve
         pause
         show micoe f_spit a_dressed_cup2 with dissolve
-        micoe "{b}*сплевывая*{/b}"
+        micoe "{b}*Spit*{/b}"
         show micoe f_laugh a_dressed_cup3 with dissolve
-        micoe "Ммм, на мой вкус довольно плодовитый!"
+        micoe "Mmm, tastes pretty fertile to me!"
         show micoe f_sexy
         show player 262b
-        player_name "Это было невероятно!"
+        player_name "That was incredible!"
         show player 263c
         show micoe f_sexy_talk
-        micoe "Спасибо."
-        micoe "Возвращайся и мы как-нибудь повторим, хорошо?"
+        micoe "Thank you."
+        micoe "Come back and we'll do it again sometime, yeah?"
         show micoe f_sexy
         show player 262b
-        player_name "Да, хорошо."
+        player_name "Y-yeah, okay."
         show player 263c
         show micoe f_laugh
-        micoe "Хехе."
+        micoe "Hehe."
         hide micoe with dissolve
         pause
         show player 261b with dissolve
@@ -309,20 +309,20 @@ label micoe_bj_cum:
         $ M_diane.trigger(T_diane_cup_o_jizz)
     else:
 
-        player_name "О, черт."
+        player_name "Oh, shit."
         pause
-        player_name "Я собираюсь кончить!"
-        player_name "Я собира-"
+        player_name "I'm gonna cum!"
+        player_name "I'm gonna-"
         show micoe_bj cum
-        player_name "ХННГГГГ!!!" with flash
+        player_name "HNNGGG!!!" with flash
         pause
-        player_name "Ааааах... Аааа..."
+        player_name "Haaah... Haah..."
         show micoe_bj mouth_full with dissolve
-        micoe "Ааааа."
+        micoe "Ahhh."
         show micoe_bj look with dissolve
-        micoe "Мммм."
+        micoe "Mmm."
         show micoe_bj talk with dissolve
-        micoe "Хехехе!"
+        micoe "Hehehe!"
 
         scene expression "backgrounds/location_hospital_bathroom.jpg"
         show player 261b at right
@@ -330,37 +330,37 @@ label micoe_bj_cum:
         with dissolve
         pause
         show player 14f
-        player_name "Вау, ты проглотила ее!"
+        player_name "Wow, you swallowed it!"
         show player 13f with dissolve
         show micoe f_sexy_talk
-        micoe "Я знаю..."
-        micoe "Я непослушная девочка, не так ли?"
+        micoe "I know..."
+        micoe "I'm a naughty girl, aren't I?"
         show micoe f_sexy
         show player 29f with dissolve
-        player_name "Да..."
+        player_name "Y-yes..."
         show player 13f with dissolve
         show micoe f_laugh
-        micoe "Хехехе!"
+        micoe "Hehehe!"
         show micoe f_sexy
         pause
         show micoe f_sexy_talk
-        micoe "Хорошо, милашка."
-        micoe "Мне нужно вернуться к работе."
+        micoe "Alright, cutie."
+        micoe "I should get back to work."
         show micoe f_sexy
         show player 14f
-        player_name "Хорошо."
+        player_name "Okay."
         show player 13f
         show micoe f_sexy_talk
-        micoe "Возвращайся ко мне поскорее, ладно?"
+        micoe "Come back and see me soon though, okay?"
         show micoe f_sexy
         show player 14f
-        player_name "Хорошо."
+        player_name "I will."
         hide micoe
         show player 13 at left
         with dissolve
         pause
         show player 29 with dissolve
-        player_name "... Вау!"
+        player_name "... Wow!"
         hide player with dissolve
         $ game.timer.tick()
     $ persistent.cookie_jar["Micoe"]["unlocked"] = True
@@ -373,17 +373,17 @@ label diane_check_up_results:
     show player 13f at right
     show micoe f_normal_talk a_dressed_cup3
     with dissolve
-    micoe "Я никогда не видела, чтобы кто-то наполнял всю емкость!"
+    micoe "I've never seen anyone fill the entire cup!"
     show micoe f_normal
     show player 14f
-    player_name "Хе, да."
+    player_name "Heh, yeah."
     show player 13f
     show micoe f_normal_talk
-    micoe "Я сейчас же отнесу ее в лабораторию."
-    micoe "Если ты хочешь просто подожди здесь, твоя девушка скоро вернется."
+    micoe "I'll get it up to the lab right away."
+    micoe "If you wanna just wait here, your girlfriend should be back pretty soon."
     show micoe f_normal
     show player 14f
-    player_name "Хорошо, спасибо."
+    player_name "Alright, thanks."
     show player 13f
     show micoe a_dressed_front at flip
     show micoe at Position (xpos=100)
@@ -392,43 +392,43 @@ label diane_check_up_results:
     hide micoe
     show micoe f_normal_talk
     with dissolve
-    micoe "Знаешь, если что-то пойдет не так с твоей девушкой."
+    micoe "You know, if things with your girlfriend ever go south."
     show micoe f_sexy_talk
-    micoe "Ты должен вернуться и увидеть меня."
-    micoe "Я переверну твой мир, детка."
+    micoe "You should come back and see me."
+    micoe "I'll rock your world, kiddo."
     show micoe f_wink
     show player 29f with dissolve
-    player_name "Да, хорошо."
+    player_name "Y-yeah, okay."
     show player 3f at Position (xoffset=-8)
     show micoe f_laugh
-    micoe "Хе-хе, ты такой чертовски милый!"
+    micoe "Hehe, you're so damn cute!"
     show micoe f_sexy
     show player 29f
-    player_name "Спасибо."
+    player_name "T-thanks."
     show player 3f at Position (xoffset=-8)
     hide micoe with dissolve
     pause
     show player 12f with dissolve
-    player_name "Вау, это очень прямолинейная женщина..."
+    player_name "Wow, that is one extremely forward woman..."
     show player 13f
     show diane b_gown a_gown_sides f_normal_talk at flip with dissolve
-    dia "Привет, красавчик."
+    dia "Hey there, handsome."
     show diane f_normal
     show player 14f
-    player_name "Привет, {b}Диана{/b}."
-    player_name "Каков вердикт?"
+    player_name "Hey, {b}Diane{/b}."
+    player_name "What's the verdict?"
     show player 13f
     show diane f_normal_talk
-    dia "Я пока не уверенf."
+    dia "I'm not sure yet."
     show diane f_normal
     show player 10f
-    player_name "О?"
+    player_name "Oh?"
     show player 13f
     show diane f_normal_talk
-    dia "Медсестра должна вернуться с результатами."
+    dia "The nurse is supposed to come back with the results."
     show diane f_normal
     show player 14f
-    player_name "Д-да, и мой тоже."
+    player_name "Y-yeah, mine too."
     show player 13f
     show diane b_gown_dress a_empty f_down_front with dissolve
     show player 426f
@@ -436,99 +436,99 @@ label diane_check_up_results:
     show diane b_casual_remove6 f_empty with dissolve
     pause
     show diane b_casual_remove5 f_normal_talk with dissolve
-    dia "С твоей стороны все в порядке?"
+    dia "Everything go alright on your end?"
     show diane b_casual_remove4 f_empty with dissolve
     show player 5f
-    player_name "Хмм?"
+    player_name "Hmm?"
     show diane b_casual_remove1 with dissolve
     show player 17f
-    player_name "О, да!"
+    player_name "Oh, yeah!"
     show diane b_casual a_casual_sides f_normal with dissolve
     show player 14f
-    player_name "Нет проблем."
+    player_name "No, problems."
     show player 13f
     show diane f_normal_talk
-    dia "Хорошо."
+    dia "Good."
     show diane f_normal
     pause
     show diane f_normal_talk
-    dia "Я думаю, нам просто нужно-"
+    dia "I guess we just need to-"
     show diane f_normal
-    "*Тук, Тук*"
+    "*Knock, knock*"
     show player 14f
-    player_name "Войдите."
+    player_name "Come in."
     show player 13f zorder 1 with None
     show diane at unflip
     show diane zorder 0 at Position (xpos=-150)
     show micoe f_normal_talk at Position (xpos=350)
     with dissolve
-    micoe "Хорошо, вот результаты."
+    micoe "Alright, I've got the results right here."
     show micoe f_normal
     show diane f_sad_talk
-    dia "О, пожалуйста, хорошие новости..."
-    dia "Я ведь не бесплодна, правда?"
+    dia "Oh, please be good news..."
+    dia "I'm not barren am I?"
     show diane f_sad
     show micoe f_laugh
-    micoe "Ха-ха, нет, милая."
+    micoe "Haha, no sweetie."
     show diane f_normal
     show micoe f_normal_talk
-    micoe "Ты не бесплодна."
-    micoe "С твоим возрастом это будет нелегко, но ты все еще можешь определенно забеременеть."
+    micoe "You aren't barren."
+    micoe "With your age, it won't be easy but you can still definitely concieve."
     show micoe f_normal
     show diane f_normal_talk
-    dia "О, какое облегчение!"
+    dia "Oh, what a relief!"
     show diane f_normal
     show player 14f
-    player_name "Как насчет меня?"
+    player_name "What about me?"
     show player 13f
     show micoe f_normal_talk
-    micoe "Вы, с другой стороны, чрезвычайно плодородны!"
-    micoe "Доктор сказал, что он удивлен, что я не забеременела, просто принеся бутылку в лабораторию."
+    micoe "You on the other hand are extremely fertile!"
+    micoe "The doctor said he's surprised I didn't get pregnant just carrying the bottle up to the lab."
     show micoe f_laugh
     show diane f_laugh
     show player 17f
-    micoe "Хаха!"
-    dia "Хаха!"
+    micoe "Haha!"
+    dia "Haha!"
     show micoe f_normal
     player_name "..."
     show diane f_normal
     show player 13f
     show micoe f_normal_talk
-    micoe "Так что вы двое можете идти."
+    micoe "So you two should be good to go."
     show micoe f_normal
     show diane f_normal_talk
-    dia "Что еще мы должны знать?"
+    dia "Anything else we should know?"
     show diane f_normal
     show micoe f_normal
-    micoe "Просто занимайтесь сексом как можно чаще для наилучшего шанса."
+    micoe "Just make sure you're having intercourse as often as possible for the best chances."
     show diane f_smirk_talk
-    dia "Это не должно быть проблемой..."
+    dia "That shouldn't be a problem..."
     show diane f_smirk
     show player 3f at Position (xoffset=-8) with dissolve
     show micoe f_sexy_talk
-    micoe "Ты счастливая женщина."
+    micoe "You're a lucky woman."
     show micoe f_sexy
     show diane f_laugh
-    dia "Разве я этого не знаю!"
+    dia "Don't I know it!"
     show diane f_normal
     show micoe f_normal
     pause
     show diane f_normal_talk at flip
     show diane at Position (xpos=300)
     with dissolve
-    dia "Пойдем, красавчик."
-    dia "{b}Давай вернемся домой.{/b}"
-    dia "Я очень устала."
+    dia "Come on handsome."
+    dia "{b}Let's get back home.{/b}"
+    dia "I'm exhausted."
     show diane f_normal
     show player 13f with dissolve
     show micoe f_normal_talk with None
     show diane zorder 0 at Position (xpos=-150)
     show diane at flip
     with dissolve
-    micoe "Удачи!"
+    micoe "Good luck!"
     show micoe f_normal
     show player 14f
-    player_name "Спасибо!"
+    player_name "Thanks!"
     hide player
     hide diane
     hide micoe

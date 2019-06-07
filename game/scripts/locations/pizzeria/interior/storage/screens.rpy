@@ -1,4 +1,6 @@
-screen pizzeria_storage:
+screen pizzeria_storage():
+    use mods_screens_hook("pizzeria_storage")
+
     add L_pizzeria_storage.background
 
     imagebutton:

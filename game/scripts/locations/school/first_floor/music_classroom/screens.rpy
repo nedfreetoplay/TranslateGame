@@ -1,4 +1,6 @@
-screen music_classroom:
+screen music_classroom():
+    use mods_screens_hook("music_classroom")
+
     add game.timer.image("backgrounds/location_school_music_day{}.jpg")
 
     imagebutton:

@@ -1,4 +1,6 @@
-screen mrs_johnsons_room:
+screen mrs_johnsons_room():
+    use mods_screens_hook("mrs_johnsons_room")
+
     add game.timer.image("backgrounds/location_erik_house_upstairs_day{}.jpg")
 
     imagebutton:
@@ -40,7 +42,7 @@ screen mrs_johnsons_room:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("mrs_johnsons_room"), Jump("erik_indoors")
 
-screen erimom_private_pos1_sex_options:
+screen erimom_private_pos1_sex_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"
@@ -75,7 +77,7 @@ screen erimom_private_pos1_sex_options:
             xpos 450
             ypos 735
 
-screen erimom_private_pos2_sex_options:
+screen erimom_private_pos2_sex_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"
@@ -110,7 +112,7 @@ screen erimom_private_pos2_sex_options:
             xpos 450
             ypos 735
 
-screen mrsj_3some_pos1_sex_options:
+screen mrsj_3some_pos1_sex_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"
@@ -145,7 +147,7 @@ screen mrsj_3some_pos1_sex_options:
             xpos 450
             ypos 735
 
-screen mrsj_3some_pos2_sex_options:
+screen mrsj_3some_pos2_sex_options():
     imagebutton:
         focus_mask True
         idle "buttons/judith_stage02_01.png"

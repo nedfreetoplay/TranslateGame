@@ -85,60 +85,60 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show missy sitting 6b at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "Эй, подожди секундочку..."
-    missy "Что происходит сейчас?"
+    missy "Whoa, wait a second..."
+    missy "What happens now?"
     show missy sitting 6
     show becca sitting 8c
-    becca "Да, я никогда даже не думала о том, чтобы приземлиться на {b}[firstname]{/b}..."
+    becca "Yeah, I never even thought about it landing on {b}[firstname]{/b}..."
     show becca sitting 8b
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Ну, это значит, что {b}[firstname]{/b} победил."
+    rox "Oh, well this means {b}[firstname]{/b} wins."
     show roxxy sitting 2
     show becca sitting 7
-    becca "Ааа?"
+    becca "Huh?"
     show becca sitting 8
     show player_sitting 3
     show missy sitting 3
-    missy "И так, он идет в раздевалку за особой наградой?"
+    missy "So what, he is taking himself to the changing room for a special reward?"
     show missy sitting 2
     show becca sitting 5
     show roxxy sitting 5
-    rox "Хахаха, нет."
+    rox "Hahaha, nope."
     show roxxy sitting 3
     show player_sitting 3b
-    rox "Это означает, что мы все идем!"
+    rox "This means we're all going!"
     show roxxy sitting 2
     show player_sitting 5
     show becca sitting 8b
     becca "!!!"
     show missy sitting 6b
-    missy "Серьезно?!"
+    missy "Seriously?!"
     show missy sitting 6
     show roxxy sitting 3
-    rox "Ага!"
+    rox "Yup!"
     show roxxy sitting 2
     show becca sitting 9
     becca "..."
     show missy sitting 5
-    missy "ПОТРЯСАЮЩЕ!"
+    missy "AWESOME!"
     player_name "..."
     show player_sitting 3b
     show roxxy sitting 3
-    rox "Вам это понравится, {b}[firstname]{/b}."
+    rox "You're going to love this, {b}[firstname]{/b}."
     show roxxy sitting 2
     show player_sitting 3
     show becca sitting 8
     show missy sitting 3
-    missy "Посмотри, как нервничает {b}Бекка{/b}!!"
+    missy "Look how nervous {b}Becca{/b} is!!"
     show missy sitting 5
     show becca sitting 8b
-    missy "Хахаха!"
+    missy "Hahaha!"
     show becca sitting 8
     show roxxy sitting 5
-    rox "Хахаха!"
+    rox "Hahaha!"
     show becca sitting 7b
-    becca "Заткнитесь, стервы!"
+    becca "Shut up, skanks!"
     hide becca
     hide missy
     hide roxxy
@@ -149,7 +149,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show becca bikini 20 at right
     show roxxy bikini 27 at Position (xpos=400)
     with dissolve
-    rox "Ты готов, {b}[firstname]{/b}?"
+    rox "Are you ready for this, {b}[firstname]{/b}?"
     hide roxxy
     hide becca
     with dissolve
@@ -160,7 +160,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show becca bikini 1 at Position (xpos=575)
     show missy bikini 1 at Position (xpos=375)
     with dissolve
-    player_name "Итак, мы собираемся-"
+    player_name "So are we going to-"
     show roxxy bikini 6 with dissolve
     show player 428
     player_name "!!!"
@@ -176,7 +176,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     show roxxy 22 with dissolve
     pause .15
     show roxxy 24 with dissolve
-    rox "Давайте, девочки, время идет впустую!"
+    rox "C'mon girls, time's wasting!"
     show roxxy 23
     show becca bikini 13
     show missy bikini 3 with dissolve
@@ -202,25 +202,25 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     pause .15
     show becca naked 1 with dissolve
     show player 427
-    player_name "Ладно, я не жалуюсь..."
+    player_name "Okay, not that I'm complaining or anything..."
     show player 12
-    player_name "... Но что именно происходит?!"
+    player_name "... But what exactly is going on?!"
     show player 5
     show roxxy 24
-    rox "Сегодня мы будем делить тебя."
+    rox "We're going to be sharing you tonight."
     show roxxy 23
     show player 11
     player_name "!!!" with hpunch
     show player 10
-    player_name "{b}*глоток*{/b} Т-ты имеете в виду-"
+    player_name "{b}*Gulp*{/b} Y-you mean-"
     show player 5
     show roxxy 24
-    rox "Ага!"
-    rox "Давай раздевайся, {b}[firstname]{/b}."
+    rox "That's right!"
+    rox "Get undressed, {b}[firstname]{/b}."
     show roxxy 23
     player_name "..."
     show player 10
-    player_name "Хорошо..."
+    player_name "Okay..."
     show player 8 with dissolve
     pause
     show player 261f with dissolve
@@ -232,10 +232,10 @@ label spin_bottle_minigame_mc_4some_intro_pre_first:
     hide missy
     show roxxy 109 at center
     with dissolve
-    rox "Я начну..."
+    rox "I'll start us off..."
     pause
     show roxxy 109c
-    rox "Хочу убедиться, что вы все помните, кто здесь {b}Альфа Сучка{/b}!"
+    rox "Wanna make sure you all remember who's the {b}Alpha Bitch{/b} here!"
     hide roxxy with dissolve
     return
 
@@ -247,36 +247,36 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
     show missy sitting 6 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    rox "{b}[firstname]{/b} победил!"
+    rox "{b}[firstname]{/b} wins!"
     show player_sitting 3
     show roxxy sitting 2
     show missy sitting 2
     show becca sitting 3
-    becca "Это значит, что мы все идем, верно?"
+    becca "That means we all go, right?"
     show becca sitting 2
     show roxxy sitting 3
-    rox "Верно."
+    rox "That's right."
     show roxxy sitting 2
     show becca sitting 9
     show missy sitting 5
-    missy "Да!!!"
+    missy "Yes!!!"
     player_name "..."
     show missy sitting 2
     show roxxy sitting 3
     show player_sitting 3b
-    rox "Тебе это понравится, {b}[firstname]{/b}."
+    rox "You're going to love this, {b}[firstname]{/b}."
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 3
-    missy "Смотри как нервничает {b}Бекка{/b}!!"
+    missy "Look how nervous {b}Becca{/b} is!!"
     show missy sitting 5
     show becca sitting 8b
-    missy "Хахаха!"
+    missy "Hahaha!"
     show becca sitting 8
     show roxxy sitting 5
-    rox "Хахаха!"
+    rox "Hahaha!"
     show becca sitting 7b
-    becca "Заткнитесь, стервы!"
+    becca "Shut up, skanks!"
     hide roxxy
     hide missy
     hide becca
@@ -287,7 +287,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
     show becca bikini 20 at right
     show roxxy bikini 27 at Position (xpos=400)
     with dissolve
-    rox "Ты готов, {b}[firstname]{/b}?"
+    rox "Are you ready for this, {b}[firstname]{/b}?"
     hide roxxy
     hide becca
     with dissolve
@@ -313,7 +313,7 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
     show roxxy 22 with dissolve
     pause .15
     show roxxy 24 with dissolve
-    rox "Давайте, девочки, мы тратим время впустую!"
+    rox "C'mon girls, time's wasting!"
     show roxxy 23
     show becca bikini 13
     show missy bikini 3 with dissolve
@@ -339,16 +339,16 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
     pause .15
     show becca naked 1 with dissolve
     show missy naked 2
-    missy "Ммм, могу я пойти первой на этот раз?!"
+    missy "Mmm, can I go first this time?!"
     show missy naked 1
     show becca naked 2
-    becca "Нет, {b}Рокси{/b} пойдет первой. Ты знаешь правила!"
+    becca "No, {b}Roxxy{/b} goes first. You know the rules!"
     show roxxy 24
-    rox "Точно!"
-    rox "Раздевайся, {b}[firstname]{/b}."
+    rox "That's right!"
+    rox "Get undressed, {b}[firstname]{/b}."
     show roxxy 23
     show player 429
-    player_name "Хорошо."
+    player_name "Alright."
     show player 8 with dissolve
     pause
     show player 261f with dissolve
@@ -360,9 +360,9 @@ label spin_bottle_minigame_mc_4some_intro_pre_repeat:
     hide missy
     show roxxy 109c at center
     with dissolve
-    rox "Я начну..."
+    rox "I'll start us off..."
     pause
-    rox "Хочу убедиться, что вы все помните, кто здесь {b}Альфа Сучка{/b}!"
+    rox "Wanna make sure you all remember who's the {b}Alpha Bitch{/b} here!"
     hide roxxy with dissolve
     return
 
@@ -413,18 +413,18 @@ label spin_bottle_minigame_mc_4some_loop_pre_change_from_becca:
     return
 
 label spin_bottle_minigame_mc_4some_loop_pre_change_to_roxxy:
-    player_name "Хорошо, {b}Рокси{/b}. Готова к следующему раунду?"
-    rox "О, я всегда готова для тебя, {b}[firstname]{/b}."
+    player_name "Alright, {b}Roxxy{/b}. Ready for another round?"
+    rox "Oh, I'm always ready for you, {b}[firstname]{/b}."
     return
 
 label spin_bottle_minigame_mc_4some_loop_pre_change_to_missy:
-    player_name "Хорошо {b}Мисси{/b}, твой черед."
-    missy "Да, наконец!"
+    player_name "Alright {b}Missy{/b}, your turn."
+    missy "Yes, finally!"
     return
 
 label spin_bottle_minigame_mc_4some_loop_pre_change_to_becca:
-    player_name "{b}Бекка{/b}, хочешь развернуться?"
-    becca "Д-Да... Хорошо."
+    player_name "{b}Becca{/b}, you want a turn?"
+    becca "Y-yeah... Okay."
     return
 
 label spin_bottle_minigame_mc_4some_loop_pre_roxxy:
@@ -438,14 +438,14 @@ label spin_bottle_minigame_mc_4some_loop_pre_roxxy:
         show beccas_beach_sidef at Position (xpos = 975)
     show roxxys_beach 12 at Position (xalign = 0.5)
     with dissolve
-    rox "Теперь девушки обратите пристальное внимание..."
-    rox "Я покажу вам, как это делается!"
+    rox "Now pay close attention girls..."
+    rox "I'll show you how it's done!"
     show roxxys_beach 11
-    missy "Ты правда сможешь принять его весь?"
+    missy "Can you really take the entire thing?"
     show roxxys_beach 13 with dissolve
-    rox "Ха, да. Это проще прос-"
+    rox "Heh, yeah. It's a piece of ca-"
     show roxxys_beach 14
-    rox "-ТОГООООО!" with hpunch
+    rox "-aaAAAAKE!" with hpunch
     show expression AnimatedImage("roxxys_beach", [1,2,3,4,5,6,7,8,9,10], M_roxxy) as roxxys_beach at Position (xalign = 0.5)
     pause
     return
@@ -461,16 +461,16 @@ label spin_bottle_minigame_mc_4some_loop_pre_missy:
         show beccas_beach_sidef at Position (xpos = 975)
     show missys_beach 12 at Position (xalign = 0.5)
     with dissolve
-    missy "Я собираюсь взорвать твой мозг, {b}[firstname]{/b}!"
+    missy "I'm gonna blow your mind, {b}[firstname]{/b}!"
     show missys_beach 11
-    becca "Хахаха, да!"
-    becca "Как будто у тебя есть подсказка, что делать..."
+    becca "Hahah, yeah right!"
+    becca "Like you have the first clue what you're doing..."
     show missys_beach 13 with dissolve
-    missy "Эй, заткнись, я точно знаю, что я-"
+    missy "Hey shut up, I know exactly what I'm-"
     show missys_beach 14
-    missy "{b}*вздох*{/b}" with hpunch
+    missy "{b}*Gasp*{/b}" with hpunch
     pause
-    player_name "О, она действительна узкая!"
+    player_name "Oh, she's really tight!"
     show expression AnimatedImage("missys_beach", [1,2,3,4,5,6,7,8,9,10], M_missy) as missys_beach at Position (xalign = 0.5)
     pause
     return
@@ -486,15 +486,15 @@ label spin_bottle_minigame_mc_4some_loop_pre_becca:
         show roxxys_beach_side at Position (xpos = 950)
     show beccas_beach 11 at Position (xalign = 0.7)
     with dissolve
-    becca "Просто будь осторожен, я не привыкла к чему-то настолько большому..."
+    becca "Just be careful, I'm not used to something this big..."
     show beccas_beach 12
-    rox "Ой пожалуйста! Ее киска такая мокрая!"
+    rox "Oh please! Her pussy's so wet!"
     show beccas_beach 13 with dissolve
-    rox "Он будет скользить."
+    rox "It's gonna slide right in."
     show beccas_beach 14
-    becca "Аааааххх!" with hpunch
-    rox "Видишь..."
-    becca "Это так чертовски глубоко!"
+    becca "Haaah!" with hpunch
+    rox "See..."
+    becca "That's so fucking deep!"
     show expression AnimatedImage("beccas_beach", [1,2,3,4,5,6,7,8,9,10], M_becca) as beccas_beach at Position (xalign = 0.7)
     pause
     return
@@ -544,90 +544,90 @@ label spin_bottle_minigame_mc_4some_hscene_dialog(character_machine):
     if animcounter == 0:
         if randomizer() < 25:
             if character_machine == M_roxxy:
-                rox "ААХХХХ! Блядь!{p=1}{nw}"
-                missy "Хахаха!{p=1}{nw}"
+                rox "AAHHH! Fuck!{p=1}{nw}"
+                missy "Haha!{p=1}{nw}"
 
             elif character_machine == M_missy:
-                player_name "Нггххх, вот дерьмо!{p=2}{nw}"
-                missy "Обожемой, Обожемой, Обожемой!!!{p=1}{nw}"
+                player_name "Ngghhh, holy crap!{p=2}{nw}"
+                missy "Ohmygod, ohmygod, ohmygod!!!{p=1}{nw}"
 
             elif character_machine == M_becca:
-                becca "Аххххх!{p=1}{nw}"
-                missy "Вау, {b}Бекка{/b} выглядит так мило, когда ее трахает этот большой член...{p=3}{nw}"
-                rox "Верно?!{p=2}{nw}"
+                becca "Ahhh!{p=1}{nw}"
+                missy "Wow, {b}Becca{/b} looks so cute when she's getting railed by that big dick...{p=3}{nw}"
+                rox "I know, right?!{p=2}{nw}"
         else:
 
             if character_machine == M_missy:
-                missy "Он такой охуенно толстый!!{p=2}{nw}"
+                missy "It's so fucking thick!!{p=2}{nw}"
 
     elif animcounter == 1:
         if randomizer() < 25:
             if character_machine == M_roxxy:
-                becca "Ммм, Я люблю смотреть, как ее сиськи прыгают...{p=2}{nw}"
-                missy "Да, это гипнотизирует.{p=2}{nw}"
+                becca "Mmm, I love watching her tits bounce...{p=2}{nw}"
+                missy "Yeah, it is kinda hypnotic.{p=2}{nw}"
                 pause 1
-                missy "Бонги, бонги, бонги!{p=1}{nw}"
-                becca "Хахаха!{p=1}{nw}"
-                rox "Боже мой, заткнись!{p=2}{nw}"
-                rox "Я пытаюсь наслаждаться эт-{p=2}{nw}"
+                missy "Boingy, boingy, boingy!{p=1}{nw}"
+                becca "Hahaha!{p=1}{nw}"
+                rox "Oh, my god shut up!{p=2}{nw}"
+                rox "I'm trying to enjoy th-{p=2}{nw}"
                 if M_roxxy.get("sex speed") > .031:
                     $ M_roxxy.set("sex speed", M_roxxy.get("sex speed") - 0.03)
-                rox "-иИИИИИММММММ!!!{p=1}{nw}"
+                rox "-iiIIISSS!!!{p=1}{nw}"
 
             elif character_machine == M_missy:
-                rox "Сильнее, {b}[firstname]{/b}!{p=1}{nw}"
-                rox "Трахай эту тупую сучку!{p=2}{nw}"
+                rox "Harder, {b}[firstname]{/b}!{p=1}{nw}"
+                rox "Fuck some smarts into that dumb bitch!{p=2}{nw}"
                 if M_missy.get("sex speed") > .031:
                     $ M_missy.set("sex speed", M_missy.get("sex speed") - 0.03)
-                missy "О, БОГ!!{p=1}{nw}"
-                becca "Ничего себе, он действительно дает ей это!{p=2}{nw}"
-                rox "Я знаю.{p=1}{nw}"
-                rox "Мой парень - монстр в постели!{p=2}{nw}"
+                missy "Oh, GOD!!{p=1}{nw}"
+                becca "Wow, he's really giving it to her!{p=2}{nw}"
+                rox "I know.{p=1}{nw}"
+                rox "My man is a monster in the sack!{p=2}{nw}"
 
             elif character_machine == M_becca:
-                becca "Боже мой, это так здорово!{p=2}{nw}"
-                rox "Давай {b}[firstname]{/b}, сделай это сильнее!{p=2}{nw}"
-                missy "Да, съеби эти тупые веснушки с ее лица!{p=2}{nw}"
-                becca "Заткнись, {b}Мисси{/b}!{p=2}{nw}"
+                becca "Oh my god, this is so good!{p=2}{nw}"
+                rox "C'mon {b}[firstname]{/b}, do it harder!{p=2}{nw}"
+                missy "Yeah, fuck those dumb freckles off her face!{p=2}{nw}"
+                becca "Shut up, {b}Missy{/b}!{p=2}{nw}"
                 if M_becca.get("sex speed") > .031:
                     $ M_becca.set("sex speed", M_becca.get("sex speed") - 0.03)
-                becca "ААААХХХХХ!!!{p=1}{nw}"
+                becca "AAAHHHH!!!{p=1}{nw}"
                 pause 1
-                rox "Да, так лучше!{p=2}{nw}"
+                rox "Yeah, that's more like it!{p=2}{nw}"
 
     elif animcounter == 2:
         if randomizer() < 25:
             if character_machine == M_roxxy:
-                rox "Вот дерьмо!{p=1}{nw}"
+                rox "Holy shit!{p=1}{nw}"
 
             elif character_machine == M_missy:
-                missy "Я-{p=1}{nw}"
-                missy "АААХХХХ!!{p=1}{nw}"
-                becca "Ммм, Не могу поверить, как это меня заводит...{p=2}{nw}"
-                rox "Я знаю!{p=1}{nw}"
+                missy "I'm-{p=1}{nw}"
+                missy "AAAAHHH!!{p=1}{nw}"
+                becca "Mmm, I can't believe how much this is turning me on...{p=2}{nw}"
+                rox "I know, right?!{p=1}{nw}"
 
             elif character_machine == M_becca:
-                becca "Ааааа! БЛЯДЬ!!{p=1}{nw}"
-                missy "О, она приближается!{p=2}{nw}"
+                becca "Haah! FUCK!!{p=1}{nw}"
+                missy "Oh, she's getting close!{p=2}{nw}"
 
     elif animcounter == 3:
         if randomizer() < 25:
             if character_machine == M_roxxy:
-                rox "Я щас кончу!{p=1}{nw}"
-                rox "О боже мой!{p=1}{nw}"
-                rox "Я кончаю-{p=1}{nw}"
+                rox "I'm gonna cum!{p=1}{nw}"
+                rox "Oh my god!{p=1}{nw}"
+                rox "I'm gonna-{p=1}{nw}"
                 pause 1
-                rox "ГГХХХХХХ!!!{p=1}{nw}"
+                rox "NGGHHH!!!{p=1}{nw}"
 
             elif character_machine == M_missy:
-                missy "Нггггхх!!{p=1}{nw}"
-                missy "ААААААААААААХХХХ!!!{p=1}{nw}"
+                missy "Nggghh!!{p=1}{nw}"
+                missy "HAAAAAAAHHH!!!{p=1}{nw}"
 
             elif character_machine == M_becca:
-                becca "ААААХХХ!!{p=1}{nw}"
-                becca "{b}*скулит*{/b}{p=1}{nw}"
+                becca "AAAHHH!!{p=1}{nw}"
+                becca "{b}*Whimper*{/b}{p=1}{nw}"
                 pause 1
-                rox "Боже, она так чертовски восхитительна, когда кончает!{p=2}{nw}"
+                rox "God, she's so fucking adorable when she cums!{p=2}{nw}"
     return
 
 label spin_bottle_minigame_mc_4some_cum(character_machine):
@@ -652,63 +652,75 @@ label spin_bottle_minigame_mc_4some_cum(character_machine):
     $ game.main()
 
 label spin_bottle_minigame_mc_4some_roxxy_cum_dialogue:
-    player_name "{b}Рокси{/b}, Я уже близко!"
-    rox "Не останавливайся, {b}[firstname]{/b}!"
-    rox "Я хочу, чтобы все это было внутри меня!"
+    player_name "{b}Roxxy{/b}, I'm getting close!"
+    rox "Don't stop, {b}[firstname]{/b}!"
+    rox "I want all of it inside me!"
     pause
     show roxxys_beach 14_15 at Position (xalign = 0.5)
-    player_name "ННХХХХХХ!!!" with flash
-    rox "ААААХХХХХ!!!"
-    missy "Потрясающе!"
+    player_name "HNNGGG!!!" with flash
+    rox "AAAHHHH!!!"
+    show roxxys_beach 15
+    show xray_roxxy_3some_beach at Position (align=(0,0))
+    missy "Awesome!"
     pause
-    show roxxys_beach 16 with dissolve
-    rox "Боже мой, как же мне хорошо!"
+    hide xray_roxxy_3some_beach
+    show roxxys_beach 16
+    with dissolve
+    rox "Oh my god that felt so good!"
     show roxxys_beach 17 with dissolve
     pause
-    becca "Срань господня, посмотри на этот огромный груз!"
-    missy "У меня сейчас там такой кисель..."
+    becca "Holy shit, look at that huge load!"
+    missy "I'm so jelly right now..."
     return
 
 label spin_bottle_minigame_mc_4some_missy_cum_dialogue:
-    player_name "Я щас взорвусь!"
-    rox "Не останавливайся, {b}[firstname]{/b}."
-    rox "Наполни эту тупую сучку!"
-    missy "Ооо даааа!!!"
-    missy "Спасибо, спасибо, СПАСИБО!!"
+    player_name "I'm gonna blow!"
+    rox "Don't stop, {b}[firstname]{/b}."
+    rox "Fill that dumb bitch up!"
+    missy "Oh yess!!!"
+    missy "Thank you, thank you, THANK YOU!!"
     pause
     show missys_beach 14_15 at Position (xalign = 0.5)
-    player_name "ННГГГ!!!" with flash
-    missy "{b}*задыхаясь*{/b}"
+    player_name "HNNGGG!!!" with flash
+    missy "{b}*Gasp*{/b}"
+    show missys_beach 15
+    show xray_missy_3some_beach at Position (align=(0,0))
     pause
-    show missys_beach 16 with dissolve
-    missy "Ааааа... Ааааа..."
+    hide xray_missy_3some_beach
+    show missys_beach 16
+    with dissolve
+    missy "Haah... Haah..."
     show missys_beach 17
-    missy "Это было эпично!"
+    missy "That was epic!"
     show missys_beach 18
-    becca "Да, он полностью разрушил тебя!"
-    rox "Это было действительно сексуально..."
+    becca "Yeah, he totally wrecked you!"
+    rox "That was really hot..."
     return
 
 label spin_bottle_minigame_mc_4some_becca_cum_dialogue:
-    player_name "Я не могу больше терпеть..."
-    becca "О, Можно мне {b}Рокси{/b}?!"
-    becca "Пожалуйста!"
-    rox "{b}*вздыхая*{/b} Ладно..."
-    missy "Ох, но я этого хотела!"
-    rox "Заткнись, {b}Мисси{/b}!"
+    player_name "I can't hold it much longer..."
+    becca "Oh, can I have it {b}Roxxy{/b}?!"
+    becca "Please!"
+    rox "{b}*Sigh*{/b} Alright, fine..."
+    missy "Aww but I wanted it!"
+    rox "Shut up, {b}Missy{/b}!"
     pause
-    player_name "Я На подходе....!"
+    player_name "Here it comes!"
     show beccas_beach 14_15 at Position (xalign = 0.7)
-    player_name "ННГГГГ!!!" with flash
-    becca "{b}*стонет*{/b}"
+    player_name "HNNGGG!!!" with flash
+    becca "{b}*Whimper*{/b}"
+    show beccas_beach 15
+    show xray_becca_3some_beach at Position (align=(0,0))
     pause
-    show beccas_beach 16 with dissolve
+    hide xray_becca_3some_beach
+    show beccas_beach 16
+    with dissolve
     pause
     show beccas_beach 17 with dissolve
-    becca "Боже мой, это было потрясающе..."
+    becca "Oh my god, that was amazing..."
     show beccas_beach 18
-    missy "Вау, так много спермы!"
-    rox "Ты мне должна, {b}Бекка{/b}!"
+    missy "Whoa, that's so much cum!"
+    rox "You owe me big time, {b}Becca{/b}!"
     return
 
 label spin_bottle_minigame_mc_4some_after_cum_dialogue:
@@ -718,83 +730,83 @@ label spin_bottle_minigame_mc_4some_after_cum_dialogue:
     show roxxy 106 at Position (xpos=600)
     show missy naked 5 at left
     with dissolve
-    missy "Это была самая крутая вещь, которую мы когда-либо делали!"
+    missy "That was by far the coolest thing we've ever done!"
     show missy naked 4
     show becca naked 5
-    becca "Ты такая дура, {b}Мисси{/b}..."
+    becca "You are such a dork, {b}Missy{/b}..."
     show becca naked 4
     show missy naked 5
-    missy "Что?!"
-    missy "Я серьезно!"
-    missy "Мы обязательно должны повторить это на следующей неделе!"
+    missy "What?!"
+    missy "I'm serious!"
+    missy "We should totally do this again next week!"
     show missy naked 4
     becca "..."
     show roxxy 107
-    rox "{b}*вздох*{/b}"
-    rox "Посмотрим..."
+    rox "{b}*Sigh*{/b}"
+    rox "We'll see..."
     show roxxy 106
     show missy naked 5
-    missy "Йоуууу!!!"
+    missy "Yaaay!!!"
     show missy naked 4
     show becca naked 5
-    becca "Пошли, дура..."
-    becca "Давай оставим этих голубков наедине."
+    becca "C'mon, stupid..."
+    becca "Let's give these love birds some alone time."
     show becca naked 4
-    missy "Хмм?"
+    missy "Hmm?"
     show missy naked 5
-    missy "Оуу..."
-    missy "Хорошо."
-    missy "Спасибо что трахнул нас, {b}[firstname]{/b}!!!"
+    missy "Oh..."
+    missy "Okay."
+    missy "Thanks for fucking us, {b}[firstname]{/b}!!!"
     show missy naked 4
     becca "!!!" with hpunch
     show missy naked 5
-    missy "Это было по НАСТОЯЩЕМУ круто!"
-    missy "Пока!!"
+    missy "It was REALLY good!"
+    missy "Byeee!!"
     hide missy with dissolve
     show becca naked 5
-    becca "Я..."
-    becca "Она не должна была..."
+    becca "I..."
+    becca "She shouldn't have..."
     show becca naked 4
     becca "..."
     show becca naked 5
-    becca "Хехе, ух..."
-    becca "Пока {b}[firstname]{/b}."
+    becca "Hehe, uhh..."
+    becca "Bye {b}[firstname]{/b}."
     hide becca with dissolve
     show roxxy 108
-    rox "Что ж, все прошло гладко..."
+    rox "Well, that was smooth..."
     show roxxy 106
     show player 365f
-    player_name "Я думаю, они очаровательны."
+    player_name "I think they're adorable."
     show player 366f
     show roxxy 107f at Position (xpos=500) with dissolve
-    rox "Да, но не дай им об этом узнать."
-    rox "Надеюсь, тебе понравилось?"
+    rox "Yeah, but don't let them know that."
+    rox "I trust you enjoyed that?"
     show roxxy 106f
     show player 365f
-    player_name "Да!"
+    player_name "Y-yeah!"
     show player 367f
-    player_name "Ты уверена, что не против всего этого?"
+    player_name "You sure you're okay with all this?"
     show player 368f
     show roxxy 107f
-    rox "Пока это происходит в моем присутствии."
+    rox "So long as it only happens when I'm present."
     show roxxy 108f
-    rox "... Да!"
+    rox "... Yeah!"
     show player 366f
     show roxxy 107f
-    rox "Я действительно думаю, что это очень сексуально."
-    rox "Смотреть, как ты их трахаешь."
+    rox "I actually think it's REALLY sexy."
+    rox "Watching you fuck them."
     show roxxy 106f
     show player 365f
-    player_name "Ух, ты лучшая девушка в мире, {b}Рокси{/b}!"
+    player_name "Wow, you're like the best girlfriend ever, {b}Roxxy{/b}!"
     show player 366f
     show roxxy 107f
-    rox "Я знаю!"
-    rox "Давай пойдем!"
+    rox "I know, right?!"
+    rox "Now, c'mon!"
     show roxxy 108f
-    rox "Я хочу искупаться нагишом!"
+    rox "I wanna go skinny dipping!"
     hide roxxy with dissolve
     show player 365f
-    player_name "Хех, подожди!"
+    player_name "Heh, wait up!"
     hide player with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

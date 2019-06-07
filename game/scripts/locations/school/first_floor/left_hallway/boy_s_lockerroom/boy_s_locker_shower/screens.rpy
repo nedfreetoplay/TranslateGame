@@ -1,4 +1,6 @@
-screen boys_locker_shower:
+screen boys_locker_shower():
+    use mods_screens_hook("boys_locker_shower")
+
     add game.timer.image("backgrounds/location_school_lockershowers_day{}.jpg")
 
     if game.timer.game_day() >= 1 and not game.timer.is_dark():

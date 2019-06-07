@@ -1,14 +1,12 @@
-label eve_triggers_init:
-    python:
+init python:
 
-        T_eve_park_hangout = Trigger("park hangout", "Default")
-    return
+    T_eve_park_hangout = Trigger("park hangout", "Default")
 
 label eve_fsm_init:
     python:
 
         S_eve_start = State("start")
-        S_eve_intro = State("intro", "Ева приветствует возвращение Гг")
+        S_eve_intro = State("intro", "Eve welcomes MC back")
         S_eve_end = State("end")
 
 

@@ -1,4 +1,6 @@
-screen tattoo_parlor:
+screen tattoo_parlor():
+    use mods_screens_hook("tattoo_parlor")
+
     add game.timer.image("backgrounds/location_tattoo_day{}.jpg")
 
     imagebutton:
@@ -15,7 +17,9 @@ screen tattoo_parlor:
         hover HoverImage(game.timer.image("objects/object_stairs_04{}.png"))
         action Show("popup_unfinished")
 
-screen tattoo_parlor_interior:
+screen tattoo_parlor_interior():
+    use mods_screens_hook("tattoo_parlor_interior")
+
     add game.timer.image("backgrounds/location_tattoo_indoor_day{}.jpg")
 
     imagebutton:

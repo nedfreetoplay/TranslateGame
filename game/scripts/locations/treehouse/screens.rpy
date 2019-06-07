@@ -1,4 +1,6 @@
-screen treehouse:
+screen treehouse():
+    use mods_screens_hook("treehouse")
+
     add game.timer.image("backgrounds/location_treehouse_day{}.jpg")
 
     imagebutton:
@@ -16,8 +18,10 @@ screen treehouse:
             hover HoverImage(game.timer.image("objects/object_pile_01{}.png"))
             action Hide("treehouse"), Jump("treehouse_got_wood_pile")
 
-screen treehouse_closeup:
-    add game.timer.image("backgrounds/location_treehouse_closeup_day{}.jpg")
+screen treehouse_closeup():
+    use mods_screens_hook("treehouse_closeup")
+
+    add L_treehouse_closeup.background
 
     imagebutton:
         focus_mask True
@@ -33,7 +37,9 @@ screen treehouse_closeup:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("treehouse_closeup"), Jump("treehouse_dialogue")
 
-screen treehouse_interior:
+screen treehouse_interior():
+    use mods_screens_hook("treehouse_interior")
+
     add game.timer.image("backgrounds/location_treehouse_inside_day{}.jpg")
 
     imagebutton:
@@ -58,7 +64,7 @@ screen treehouse_interior:
         hover HoverImage(game.timer.image("objects/object_box_03{}.png"))
         action Hide("treehouse_interior"), Hide("ui"), Show("treehouse_box")
 
-screen treehouse_box:
+screen treehouse_box():
     add "backgrounds/location_treehouse_box.jpg"
 
     if not player.has_item("lure01"):

@@ -1,4 +1,6 @@
-screen mias_house_upstairs:
+screen mias_house_upstairs():
+    use mods_screens_hook("mias_house_upstairs")
+
     add game.timer.image("backgrounds/location_mia_house_upstairs_day{}.jpg")
 
     imagebutton:

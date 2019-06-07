@@ -1,4 +1,6 @@
-screen smiths_entrance:
+screen smiths_entrance():
+    use mods_screens_hook("smiths_entrance")
+
     add L_smith_entrance.background
 
     imagebutton:

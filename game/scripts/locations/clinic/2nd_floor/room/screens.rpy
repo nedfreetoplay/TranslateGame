@@ -1,4 +1,6 @@
-screen hospital_2nd_floor_room:
+screen hospital_2nd_floor_room():
+    use mods_screens_hook("hospital_2nd_floor_room")
+
     add game.timer.image("backgrounds/location_hospital_room{}.jpg")
 
     imagebutton:
@@ -23,6 +25,13 @@ screen hospital_2nd_floor_room:
             idle "objects/character_diane_hospital_"+M_diane.pregnancy.baby_gender+".png"
             hover HoverImage("objects/character_diane_hospital_"+M_diane.pregnancy.baby_gender+".png")
             action Hide("hospital_2nd_floor_room"), Jump("diane_hospital_bed_dialogue")
+    elif M_jenny.pregnancy.character_bedridden:
+        imagebutton:
+            focus_mask True
+            pos (431, 426)
+            idle "characters/jenny/buttons/character_jenny_hospital_"+M_jenny.pregnancy.baby_gender+".png"
+            hover HoverImage("characters/jenny/buttons/character_jenny_hospital_"+M_jenny.pregnancy.baby_gender+".png")
+            action Hide("hospital_2nd_floor_room"), Jump("jenny_hospital_bed_dialogue")
     else:
         imagebutton:
             focus_mask True
@@ -38,7 +47,9 @@ screen hospital_2nd_floor_room:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("hospital_2nd_floor_room"), Jump("hospital_second_floor_dialogue")
 
-screen hospital_2nd_floor_bathroom:
+screen hospital_2nd_floor_bathroom():
+    use mods_screens_hook("hospital_2nd_floor_bathroom")
+
     add L_hospital_room_bathroom.background
 
     imagebutton:

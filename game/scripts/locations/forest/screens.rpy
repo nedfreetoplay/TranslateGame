@@ -62,7 +62,9 @@ init python:
         
         return True
 
-screen forest:
+screen forest():
+    use mods_screens_hook("forest")
+
     add game.timer.image("backgrounds/location_forest_day{}.jpg")
 
     if not game.timer.is_dark():
@@ -106,15 +108,15 @@ screen forest:
         hover HoverImage(game.timer.image("objects/object_waterfall_01{}.png"))
         action Hide("forest"), Jump("waterfall_dialogue")
 
-screen forest_worms:
+screen forest_worms():
     imagebutton:
         focus_mask True
         pos (313,269)
         idle "objects/object_worms_01.png"
         hover HoverImage("objects/object_worms_01.png")
-        action Function(player.get_item, "worm"), Show("popup", Image = "boxes/popup_item_worm1.png"), Hide("forest_worms"), Function(player.location.call_screen, new_context = True)
+        action Function(player.get_item, "worm"), Show('popup', None, "boxes/popup_item_worm1.png"), Hide("forest_worms"), Function(player.location.call_screen, new_context = True)
 
-screen altar_puzzle_finish:
+screen altar_puzzle_finish():
     add game.timer.image("location_forest_puzzle_day{}")
 
     imagebutton:
@@ -124,7 +126,7 @@ screen altar_puzzle_finish:
         hover HoverImage("objects/object_map_01.png")
         action Hide("altar_puzzle_finish"), Jump("altar_puzzle_finish")
 
-screen altar_puzzle:
+screen altar_puzzle():
     add "backgrounds/location_forest_puzzle_night_closed.jpg"
 
     imagebutton:

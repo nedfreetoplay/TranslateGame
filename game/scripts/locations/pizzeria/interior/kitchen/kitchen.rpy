@@ -8,7 +8,6 @@ label pizzeria_kitchen_dialogue:
             call expression game.dialog_select("pizzeria_storage_diane_delivery_1_place_goods_no_bike")
         $ M_diane.trigger(T_diane_place_delivery_goods)
         $ player.get_money(100)
-        $ game.timer.tick()
         $ player.go_to(L_map)
         $ game.main()
     $ game.main()

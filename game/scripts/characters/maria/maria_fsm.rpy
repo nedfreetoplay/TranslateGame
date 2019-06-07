@@ -1,7 +1,5 @@
-label maria_triggers_init:
-    python:
-        T_maria_intro = Trigger()
-    return
+init python:
+    T_maria_intro = Trigger()
 
 label maria_fsm_init:
     python:

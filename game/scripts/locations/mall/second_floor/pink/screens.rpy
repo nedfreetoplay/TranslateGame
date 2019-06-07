@@ -1,18 +1,25 @@
-screen pink:
+init python:
+    def bad_monster_callback():
+        if M_jenny.is_state(S_jenny_buy_bad_monster):
+            renpy.call('bad_monster_callback')
+
+screen pink():
+    use mods_screens_hook("pink")
+
     add "backgrounds/location_pink.jpg"
 
     imagebutton:
         focus_mask True
         idle "objects/object_toy_01.png"
         hover HoverImage("objects/object_toy_01.png")
-        action Show("popup_buttplug")
+        action Show('popup_buttplug')
         pos 89,167
 
     imagebutton:
         focus_mask True
         idle "objects/object_toy_02.png"
         hover HoverImage("objects/object_toy_02.png")
-        action Show("popup_drilldo")
+        action Show('popup_drilldo')
         pos 209,246
 
     imagebutton:
@@ -21,18 +28,28 @@ screen pink:
         action Show("pink_ui")
         pos 11,422
 
-    imagebutton:
-        focus_mask True
-        idle "objects/object_toy_04.png"
-        hover HoverImage("objects/object_toy_04.png")
-        action Show("popup_electroclit")
-        pos 162,517
+    if M_jenny.between_states(S_jenny_get_a_toy, S_jenny_bring_toy_back):
+        imagebutton:
+            focus_mask True
+            idle "objects/object_toy_04_soldout.png"
+            hover HoverImage("objects/object_toy_04_soldout.png")
+            action Hide("pink"), Jump("electroclit_sold_out")
+            pos 162,517
+    else:
+        imagebutton:
+            focus_mask True
+            idle "objects/object_toy_04.png"
+            hover HoverImage("objects/object_toy_04.png")
+            action Hide("pink"), Jump("pink_just_browsing")
+            pos 162,517
 
     imagebutton:
         focus_mask True
         idle "objects/object_toy_05.png"
         hover HoverImage("objects/object_toy_05.png")
-        action Show("popup_strapon")
+        action If(M_mia.is_state(S_mia_angelicas_final_request),
+                  Show("popup_strapon"),
+                  (Hide("pink"), Jump("pink_just_browsing")))
         pos 301,422
 
     imagebutton:
@@ -74,7 +91,9 @@ screen pink:
         focus_mask True
         idle "objects/object_toy_11.png"
         hover HoverImage("objects/object_toy_11.png")
-        action Show("popup_ultravibrato")
+        action If(M_jenny.is_state(S_jenny_buy_vibrator),
+                  Show("popup_ultravibrato"),
+                  (Hide("pink"), Jump("pink_just_browsing")))
         pos 530, 231
 
     imagebutton:
@@ -88,7 +107,9 @@ screen pink:
         focus_mask True
         idle "objects/object_toy_13.png"
         hover HoverImage("objects/object_toy_13.png")
-        action Show("popup_whip")
+        action If(M_mia.is_state([S_mia_angelicas_order, S_mia_angelicas_whip]),
+                  Show("popup_whip"),
+                  (Hide("pink"), Jump("pink_just_browsing")))
         pos 292,491
 
     imagebutton:
@@ -97,7 +118,23 @@ screen pink:
         hover HoverImage("objects/object_toy_14.png")
         action Show("popup_handcuffs")
         pos 147,468
-    if L_pink.is_here(M_ivy):
+
+    if M_jenny.is_state(S_jenny_ivy_jane_leave_pink):
+        imagebutton:
+            focus_mask True
+            pos 943,451
+            idle "objects/object_toy_04_counter.png"
+            hover HoverImage("objects/object_toy_04_counter.png")
+            action Hide("pink"), Jump("pink_get_electroclit_light")
+
+    if M_jenny.is_state(S_jenny_go_to_pink):
+        imagebutton:
+            focus_mask True
+            pos 726,343
+            idle "objects/character_ivy_02.png"
+            hover HoverImage("objects/character_ivy_02.png")
+            action Hide("pink"), Jump("ivy_jane_electroclit_light_dialogue")
+    elif L_pink.is_here(M_ivy) and not M_jenny.between_states(S_jenny_ivy_jane_leave_pink, S_jenny_bring_toy_back):
         imagebutton:
             focus_mask True
             idle "objects/character_ivy_01.png"
@@ -105,14 +142,15 @@ screen pink:
             action Hide("pink"), Jump("ivy_button_dialogue")
             pos 910,350
 
-    imagebutton:
-        focus_mask True
-        align (0.5,0.97)
-        idle "boxes/auto_option_generic_01.png"
-        hover HoverImage("boxes/auto_option_generic_01.png")
-        action Hide("pink"), Jump("mall_second_floor")
+    if L_pink.can_leave:
+        imagebutton:
+            focus_mask True
+            align (0.5,0.97)
+            idle "boxes/auto_option_generic_01.png"
+            hover HoverImage("boxes/auto_option_generic_01.png")
+            action Hide("pink"), Jump("mall_second_floor")
 
-screen popup_buttplug:
+screen popup_buttplug():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_buttplug")]
@@ -120,23 +158,11 @@ screen popup_buttplug:
     imagebutton:
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [
-            Function(player.get_item, "buttplug"),
-            If(
-                not player.has_money(100),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("buttplug"),
-                   Show("popup_fail02"),
-                   Show("popup_buttplug")
-                )
-            ),
-            Hide("popup_buttplug")
-        ]
+        action Hide('popup_buttplug'), BuyItem('buttplug')
         xpos 410
         ypos 421
 
-screen popup_drilldo:
+screen popup_drilldo():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_drilldo")]
@@ -144,23 +170,11 @@ screen popup_drilldo:
     imagebutton:
         idle "buttons/shop_button_400.png"
         hover HoverImage("buttons/shop_button_400.png")
-        action [
-            Function(player.get_item, "drilldo"),
-            If(
-                not player.has_money(400),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("drilldo"),
-                   Show("popup_fail02"),
-                   Show("popup_drilldo")
-                )
-            ),
-            Hide("popup_drilldo")
-        ]
+        action Hide('popup_drilldo'), BuyItem('drilldo')
         xpos 410
         ypos 421
 
-screen popup_darthmoan:
+screen popup_darthmoan():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_darthmoan")]
@@ -168,23 +182,11 @@ screen popup_darthmoan:
     imagebutton:
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action [
-            Function(player.get_item, "darthmoan"),
-            If(
-                not player.has_money(300),
-                Show("popup_fail01"),
-                    If(
-                       player.has_item("darthmoan"),
-                       Show("popup_fail02"),
-                       Show("popup_darthmoan")
-                    )
-            ),
-            Hide("popup_darthmoan")
-        ]
+        action Hide('popup_darthmoan'), BuyItem('darthmoan')
         xpos 410
         ypos 421
 
-screen popup_badmonster:
+screen popup_badmonster():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_badmonster")]
@@ -192,23 +194,13 @@ screen popup_badmonster:
     imagebutton:
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action [
-            Function(player.get_item, "badmonster"),
-            If(
-                not player.has_money(500),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("badmonster"),
-                   Show("popup_fail02"),
-                   Show("popup_badmonster")
-                )
-            ),
-            Hide("popup_badmonster")
-        ]
+        action (Hide('popup_badmonster'),
+                BuyItem("badmonster",
+                        buy_action=Function(bad_monster_callback)))
         xpos 410
         ypos 421
 
-screen popup_sybian:
+screen popup_sybian():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_sybian")]
@@ -216,23 +208,11 @@ screen popup_sybian:
     imagebutton:
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action [
-            Function(player.get_item, "sybian"),
-            If(
-                not player.has_money(500),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("sybian"),
-                   Show("popup_fail02"),
-                   Show("popup_sybian")
-                )
-            ),
-            Hide("popup_sybian")
-        ]
+        action Hide('popup_sybian'), BuyItem('sybian')
         xpos 410
         ypos 421
 
-screen popup_strapon:
+screen popup_strapon():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_strapon")]
@@ -256,7 +236,7 @@ screen popup_strapon:
         xpos 410
         ypos 421
 
-screen popup_fleshtube:
+screen popup_fleshtube():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_fleshtube")]
@@ -264,23 +244,11 @@ screen popup_fleshtube:
     imagebutton:
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [
-            Function(player.get_item, "fleshtube"),
-            If(
-                not player.has_money(100),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("fleshtube"),
-                   Show("popup_fail02"),
-                   Show("popup_fleshtube")
-                )
-            ),
-            Hide("popup_fleshtube")
-        ]
+        action Hide('popup_fleshtube'), BuyItem('fleshtube')
         xpos 410
         ypos 421
 
-screen popup_electroclit:
+screen popup_electroclit():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_electroclit")]
@@ -288,23 +256,11 @@ screen popup_electroclit:
     imagebutton:
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action [
-            Function(player.get_item, "electroclit"),
-            If(
-                not player.has_money(100),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("electroclit"),
-                   Show("popup_fail02"),
-                   Show("popup_electroclit")
-                )
-            ),
-            Hide("popup_electroclit")
-        ]
+        action Hide('popup_electroclit'), BuyItem('electroclit')
         xpos 410
         ypos 421
 
-screen popup_ultravibrato:
+screen popup_ultravibrato():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_ultravibrato")]
@@ -312,23 +268,12 @@ screen popup_ultravibrato:
     imagebutton:
         idle "buttons/shop_button_200.png"
         hover HoverImage("buttons/shop_button_200.png")
-        action [
-            Function(player.get_item, "ultravibrato"),
-            If(
-                not player.has_money(200),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("ultravibrato"),
-                   Show("popup_fail02"),
-                   Show("popup_ultravibrato")
-                )
-            ),
-            Hide("popup_ultravibrato")
-        ]
+
+        action Hide("pink"), Hide("popup_ultravibrato"), Call("pink_ultravibrator_callback")
         xpos 410
         ypos 421
 
-screen popup_doomdong:
+screen popup_doomdong():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_doomdong")]
@@ -336,23 +281,11 @@ screen popup_doomdong:
     imagebutton:
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action [
-            Function(player.get_item, "doomdong"),
-            If(
-                not player.has_money(300),
-                Show("popup_fail01"),
-                If(
-                   player.has_item("doomdong"),
-                   Show("popup_fail02"),
-                   Show("popup_doomdong")
-                )
-            ),
-            Hide("popup_doomdong")
-        ]
+        action Hide('popup_doomdong'), BuyItem('doomdong')
         xpos 410
         ypos 421
 
-screen popup_sexdoll:
+screen popup_sexdoll():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_sexdoll")]
@@ -360,23 +293,11 @@ screen popup_sexdoll:
     imagebutton:
         idle "buttons/shop_button_800.png"
         hover HoverImage("buttons/shop_button_800.png")
-        action [
-            Function(player.get_item, "sexdoll"),
-            If(
-               not player.has_money(800),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("sexdoll"),
-                  Show("popup_fail02"),
-                  Show("popup_sexdoll")
-               )
-            ),
-            Hide("popup_sexdoll")
-        ]
+        action Hide('popup_sexdoll'), BuyItem('sexdoll')
         xpos 410
         ypos 421
 
-screen popup_whip:
+screen popup_whip():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_whip")]
@@ -384,23 +305,11 @@ screen popup_whip:
     imagebutton:
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action [
-            Function(player.get_item, "whip"),
-            If(
-               not player.has_money(500),
-               Show("popup_fail01"),
-               If(
-                  player.has_item("whip"),
-                  Show("popup_fail02"),
-                  Show("popup_whip")
-               )
-            ),
-            Hide("popup_whip")
-        ]
+        action Hide('popup_whip'), BuyItem('whip')
         xpos 410
         ypos 421
 
-screen popup_handcuffs:
+screen popup_handcuffs():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_handcuffs")]
@@ -408,34 +317,23 @@ screen popup_handcuffs:
     imagebutton:
         idle "buttons/shop_button_50.png"
         hover HoverImage("buttons/shop_button_50.png")
-        action [
-            Function(player.get_item, "handcuffs"),
-            If(not player.has_money(50),
-               Show("popup_fail01"), 
-               If(
-                  player.has_item("handcuffs"),
-                  Show("popup_fail02"),
-                  Show("popup_handcuffs")
-               )
-            ),
-            Hide("popup_handcuffs")
-        ]
+        action Hide('popup_handcuffs'), BuyItem('handcuffs')
         xpos 410
         ypos 421
 
-screen popup_fail01:
+screen popup_fail01():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_fail01")]
     add "boxes/popup_shopping_fail01.png"
 
-screen popup_fail02:
+screen popup_fail02():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("popup_fail02")]
     add "boxes/popup_shopping_fail02.png"
 
-screen pamphlet:
+screen pamphlet():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("pamphlet"), Show("pink")]
@@ -484,7 +382,7 @@ screen pamphlet:
                                     Jump("ivy_no_money")
         )
 
-screen ivy_paizuri_options:
+screen ivy_paizuri_options():
     imagebutton:
         pos (300,700)
         idle "buttons/judith_stage02_01.png"
@@ -498,7 +396,7 @@ screen ivy_paizuri_options:
             hover HoverImage("buttons/ivy_stage01_01.png")
             action Hide("ivy_paizuri_options"), Function(M_ivy.set, "sex speed", M_ivy.get("sex speed") - 0.25), Jump ("ivy_paizuri_loop")
 
-screen ivy_blowjob_options:
+screen ivy_blowjob_options():
     imagebutton:
         pos (300,700)
         idle "buttons/judith_stage02_01.png"
@@ -512,7 +410,7 @@ screen ivy_blowjob_options:
             hover HoverImage("buttons/ivy_stage01_01.png")
             action Hide("ivy_blowjob_options"), Function(M_ivy.set, "sex speed", M_ivy.get("sex speed") - 0.25), Jump ("ivy_blowjob_loop")
 
-screen ivy_rcowgirl_options:
+screen ivy_rcowgirl_options():
     imagebutton:
         pos (200,700)
         idle "buttons/judith_stage02_01.png"
@@ -532,7 +430,7 @@ screen ivy_rcowgirl_options:
         hover HoverImage("buttons/ivy_stage01_02.png")
         action Hide("ivy_rcowgirl_options"), Jump("ivy_slap_ass")
 
-screen ivy_cowgirl_options:
+screen ivy_cowgirl_options():
     imagebutton:
         pos (300,700)
         idle "buttons/judith_stage02_01.png"
@@ -551,9 +449,9 @@ screen pink_item_info(Item):
     imagebutton:
         idle "buttons/shop_button_" + str(Item.price) + ".png"
         hover HoverImage("buttons/shop_button_" + str(Item.price) + ".png")
-        action If(not player.has_money(Item.price), Show("popup_fail01"), If(player.has_item(Item.item), Show("popup_fail02"), [Function(player.get_item, Item.item), Show("popup", Image = Item.popup)])) pos 685, 93
+        action BuyItem(Item.item) pos 685, 93
 
-screen pink_ui:
+screen pink_ui():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action [Hide("pink_item_info"), Hide("pink_ui")]
@@ -576,7 +474,7 @@ screen pink_ui:
         $ c += 1
         $ c3 += 1
 
-screen ivy_cowgirl_cum_options:
+screen ivy_cowgirl_cum_options():
     imagebutton:
         focus_mask True
         pos (250,700)
@@ -591,7 +489,7 @@ screen ivy_cowgirl_cum_options:
         hover HoverImage("buttons/diane_stage01_02.png")
         action Hide("ivy_rcowgirl_cum_options"), SetVariable("ivy_cum_inside", True), Return()
 
-screen ivy_rcowgirl_cum_options:
+screen ivy_rcowgirl_cum_options():
     imagebutton:
         focus_mask True
         pos (250,700)

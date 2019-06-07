@@ -28,12 +28,12 @@ label medic_room_dialogue:
                 scene changeroom02
             call expression game.dialog_select("medic_room_dialogue_count_0")
         menu:
-            "Хорошо, давай попробуем.":
+            "Ok, let's try it.":
                 call expression game.dialog_select("medic_room_dialogue_count_0_lets_try")
                 $ M_cassie.set("had sex", True)
                 jump expression game.dialog_select("gloryhole_medic")
 
-            "Мне не хочется этого делать." if store._in_replay is None:
+            "I don't feel like it." if store._in_replay is None:
                 call expression game.dialog_select("medic_room_dialogue_count_0_do_not_feel_like_it")
 
     elif M_cassie.is_state(S_cassie_medic_room) and M_cassie.get("had sex"):
@@ -48,11 +48,11 @@ label medic_room_dialogue:
     elif M_cassie.is_state(S_cassie_end) and not M_cassie.get("had sex"):
         call expression game.dialog_select("medic_room_dialogue_count_2")
         menu:
-            "С удовольствием.":
+            "I'd love to.":
                 call expression game.dialog_select("medic_room_dialogue_count_2_love_to")
                 $ M_cassie.set("had sex", True)
                 jump expression game.dialog_select("gloryhole_medic")
-            "Просто переодеваюсь.":
+            "Just changing.":
 
                 call expression game.dialog_select("medic_room_dialogue_count_2_just_changing")
                 if wearing_swimsuit:

@@ -1,4 +1,6 @@
-screen hallway:
+screen hallway():
+    use mods_screens_hook("hallway")
+
     add game.timer.image("backgrounds/location_home_hallway_day{}.jpg")
 
 
@@ -46,7 +48,7 @@ screen hallway:
         hover HoverImage(game.timer.image("objects/object_door_40{}.png"))
         action Hide("hallway"), Function(renpy.call, "home_lock_check", "Attic", "attic_entry_dialogue")
 
-screen jen_name_input:
+screen jen_name_input():
     add NameInputText("boxes/popup_name_jenny.png", jen_name, "ff6df0")
     add Input(size = 24, color = "#ff6df0", default = "", changed = jenny_name, length = 12, xpos = 313, ypos = 329, allow = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
     key "K_RETURN" action Return

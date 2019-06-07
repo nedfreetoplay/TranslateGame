@@ -1,7 +1,9 @@
-screen master_bedroom:
+screen master_bedroom():
+    use mods_screens_hook("master_bedroom")
+
     add game.timer.image("backgrounds/location_home_debbiebedroom_day{}.jpg")
 
-    if L_home_mombedroom.is_here(M_diane) and not M_diane.pregnancy:
+    if L_home_mombedroom.is_here(M_diane):
         imagebutton:
             focus_mask True
             pos (532,405)
@@ -48,7 +50,7 @@ screen master_bedroom:
             hover HoverImage("boxes/auto_option_12.png")
             action Hide("master_bedroom"), Function(renpy.call, "home_lock_check", "Living Room", "home_livingroom_dialogue")
 
-screen moms_drawer:
+screen moms_drawer():
     add game.timer.image("backgrounds/location_home_debbiedrawer_day{}.jpg")
 
     if M_mom.is_set("fetch lotion"):
@@ -75,7 +77,7 @@ screen moms_drawer:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("moms_drawer"), Jump("mom_bedroom_screen")
 
-screen desk07_options:
+screen desk07_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("desk07_options")
@@ -87,7 +89,7 @@ screen desk07_options:
         hover HoverImage("boxes/desk07_option_01.png")
         action Hide("desk07_options"), Hide("master_bedroom"), Jump("mom_drawer")
 
-screen mom_sex_options:
+screen mom_sex_options():
     imagebutton:
         if mom_sex_position == "missionary":
             pos (50,700)
@@ -166,7 +168,7 @@ screen mom_sex_options:
                 hover HoverImage("buttons/speed_01.png")
                 action Hide("mom_sex_options"), Function(M_mom.set, "sex speed", M_mom.get("sex speed") - 0.1), Jump("mom_sex_loop")
 
-screen xray_scr:
+screen xray_scr():
     imagebutton:
         focus_mask True
         pos (940,600)

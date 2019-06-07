@@ -1,0 +1,2392 @@
+[
+    {
+        "variable": "map",
+        "name": "Town Map",
+        "unlock_popup": "unlock14",
+        "background": "menu_ground",
+        "parents": [],
+        "children": [
+            "L_school_hall",
+            "L_diane_yard",
+            "L_diane_barn_building",
+            "L_diane_barn",
+            "L_home",
+            "L_home_bedroom",
+            "L_erikhouse",
+            "L_miahouse",
+            "L_beach",
+            "L_church_front",
+            "L_forest",
+            "L_gym_front",
+            "L_mall",
+            "L_donutshop",
+            "L_pizzeria_exterior",
+            "L_trailerpark",
+            "L_treehouse",
+            "L_police_lobby",
+            "L_hospital",
+            "L_library_front",
+            "L_park",
+            "L_tattooparlor",
+            "L_dealership_front",
+            "L_beachhouse_front",
+            "L_smith_front",
+            "L_annie_front",
+            "L_boat_bridge",
+            "L_rump_front",
+            "L_bank",
+            "L_basketball_court",
+            "L_hill",
+            "L_lair",
+            "L_pier",
+            "L_pool",
+            "L_warehouse"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "NULL",
+        "name": "NULL",
+        "unlock_popup": null,
+        "background": "menu_ground",
+        "parents": [],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_hall",
+        "name": "School Hall",
+        "unlock_popup": "unlock13",
+        "background": "school_day",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_school_frenchclassroom",
+            "L_school_scienceclassroom",
+            "L_school_musicclassroom",
+            "L_school_track",
+            "L_school_lefthallway",
+            "L_school_floor2",
+            "L_school_righthallway",
+            "L_school_locker_MC"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_frenchclassroom",
+        "name": "French Classroom",
+        "unlock_popup": null,
+        "background": "school_french_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_scienceclassroom",
+        "name": "Science Classroom",
+        "unlock_popup": null,
+        "background": "school_science_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_musicclassroom",
+        "name": "Music Classroom",
+        "unlock_popup": null,
+        "background": "school_music_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_track",
+        "name": "School Courtyard",
+        "unlock_popup": null,
+        "background": "school_gym_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_lefthallway",
+        "name": "School Left Hallway",
+        "unlock_popup": null,
+        "background": "school_lefthall_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [
+            "L_school_girlsroom",
+            "L_school_boysroom",
+            "L_school_locker_roxxy",
+            "L_school_locker_judith",
+            "L_school_artclassroom",
+            "L_school_utilitycloset"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_floor2",
+        "name": "School Second Floor",
+        "unlock_popup": null,
+        "background": "school_second_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [
+            "L_school_computerlab",
+            "L_school_cafeteria",
+            "L_school_teacherslounge",
+            "L_school_floor3"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_righthallway",
+        "name": "School Right Hallway",
+        "unlock_popup": null,
+        "background": "school_right_hall_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [
+            "L_school_assemblyhall",
+            "L_school_bridgetoffice",
+            "L_school_locker_annie",
+            "L_school_locker_eve",
+            "L_school_locker_dexter",
+            "L_school_locker_erik",
+            "L_school_locker_kevin",
+            "L_school_locker_ronda",
+            "L_school_locker_mia"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_MC",
+        "name": "School Locker",
+        "unlock_popup": null,
+        "background": "school_locker_mc_day",
+        "parents": [
+            "L_school_hall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_girlsroom",
+        "name": "School Girl's Lockerroom",
+        "unlock_popup": null,
+        "background": "school_locker_room_broken_day",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [
+            "L_school_stall"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_boysroom",
+        "name": "Boy's Lockerroom",
+        "unlock_popup": null,
+        "background": "school_locker_room_day",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [
+            "L_school_shower"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_roxxy",
+        "name": "Roxxy's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_roxxy_day",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_judith",
+        "name": "Judith's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_judith_day",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_artclassroom",
+        "name": "Art Classroom",
+        "unlock_popup": null,
+        "background": "school_art_day",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_utilitycloset",
+        "name": "Utility Closet",
+        "unlock_popup": null,
+        "background": "",
+        "parents": [
+            "L_school_lefthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_shower",
+        "name": "Boy's Locker Shower",
+        "unlock_popup": null,
+        "background": "school_lockershowers_day",
+        "parents": [
+            "L_school_boysroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_stall",
+        "name": "Bathroom Stall",
+        "unlock_popup": null,
+        "background": "school_locker_room_broken_stall",
+        "parents": [
+            "L_school_girlsroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_assemblyhall",
+        "name": "Assembly Hall",
+        "unlock_popup": null,
+        "background": "school_assembly_hall_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_bridgetoffice",
+        "name": "Coach Bridget's Office",
+        "unlock_popup": null,
+        "background": "school_gym_office_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_annie",
+        "name": "Annie's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_annie_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_eve",
+        "name": "Eve's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_eve_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_dexter",
+        "name": "Dexter's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_dexter_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_erik",
+        "name": "Erik's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_erik_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_kevin",
+        "name": "Kevin's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_kevin_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_ronda",
+        "name": "Ronda's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_ronda_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_locker_mia",
+        "name": "Mia's Locker",
+        "unlock_popup": null,
+        "background": "school_locker_mia_day",
+        "parents": [
+            "L_school_righthallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "school_computerlab",
+        "name": "Computer Lab",
+        "unlock_popup": null,
+        "background": "school_computer_day",
+        "parents": [
+            "L_school_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_cafeteria",
+        "name": "Cafeteria",
+        "unlock_popup": null,
+        "background": "school_cafeteria_day",
+        "parents": [
+            "L_school_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_teacherslounge",
+        "name": "Teacher's Lounge",
+        "unlock_popup": null,
+        "background": "school_lounge_day",
+        "parents": [
+            "L_school_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_floor3",
+        "name": "School Third Floor",
+        "unlock_popup": null,
+        "background": "school_third_day",
+        "parents": [
+            "L_school_floor2"
+        ],
+        "children": [
+            "L_school_bissetteoffice",
+            "L_school_dewittoffice",
+            "L_school_rossoffice",
+            "L_school_okitaoffice",
+            "L_school_smithoffice"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_bissetteoffice",
+        "name": "Mrs Bissette's Office",
+        "unlock_popup": null,
+        "background": "school_office1_day",
+        "parents": [
+            "L_school_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_dewittoffice",
+        "name": "Mrs Dewitt's Office",
+        "unlock_popup": null,
+        "background": "school_office2_day",
+        "parents": [
+            "L_school_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_rossoffice",
+        "name": "Mrs Ross' Office",
+        "unlock_popup": null,
+        "background": "school_office3_day",
+        "parents": [
+            "L_school_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_okitaoffice",
+        "name": "Mrs Okita's Office",
+        "unlock_popup": null,
+        "background": "school_office4_day",
+        "parents": [
+            "L_school_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "school_smithoffice",
+        "name": "Principal Smith's Office",
+        "unlock_popup": null,
+        "background": "school_office_day",
+        "parents": [
+            "L_school_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_yard",
+        "name": "Diane's Front Yard",
+        "unlock_popup": "unlock15",
+        "background": "diane_front",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_diane_garden",
+            "L_diane_home"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "diane_garden",
+        "name": "Diane's Garden",
+        "unlock_popup": null,
+        "background": "diane_garden",
+        "parents": [
+            "L_diane_yard"
+        ],
+        "children": [
+            "L_diane_kitchen",
+            "L_diane_shed",
+            "L_church_graveyard"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_home",
+        "name": "Diane's Lobby",
+        "unlock_popup": null,
+        "background": "diane_entrance",
+        "parents": [
+            "L_diane_yard"
+        ],
+        "children": [
+            "L_diane_kitchen",
+            "L_diane_bedroom"
+        ],
+        "locked": true,
+        "label": "dianelobby_dialogue"
+    },
+    {
+        "variable": "diane_kitchen",
+        "name": "Diane's Kitchen",
+        "unlock_popup": null,
+        "background": "diane_kitchen",
+        "parents": [
+            "L_diane_garden",
+            "L_diane_home"
+        ],
+        "children": [],
+        "locked": true,
+        "label": "dianes_kitchen_dialogue"
+    },
+    {
+        "variable": "diane_bedroom",
+        "name": "Diane's Bedroom",
+        "unlock_popup": null,
+        "background": "diane_bedroom",
+        "parents": [
+            "L_diane_home"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_shed",
+        "name": "Diane's Shed",
+        "unlock_popup": null,
+        "background": "diane_shed01",
+        "parents": [
+            "L_diane_garden"
+        ],
+        "children": [],
+        "locked": true,
+        "label": "shed"
+    },
+    {
+        "variable": "church_graveyard",
+        "name": "Church Graveyard",
+        "unlock_popup": null,
+        "background": "church_graveyard",
+        "parents": [
+            "L_diane_garden"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_barn_building",
+        "name": "Diane's Barn Building",
+        "unlock_popup": null,
+        "background": "barn_build_frontyard",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_barn",
+        "name": "Diane's Barn",
+        "unlock_popup": "popup_diane_barn",
+        "background": "barn_frontyard",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_diane_barn_interior",
+            "L_diane_barn_garden"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "diane_barn_interior",
+        "name": "Diane's Barn Interior",
+        "unlock_popup": null,
+        "background": "barn",
+        "parents": [
+            "L_diane_barn"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "diane_barn_garden",
+        "name": "Diane's Barn Garden",
+        "unlock_popup": null,
+        "background": "barn_garden",
+        "parents": [
+            "L_diane_barn"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home",
+        "name": "Home Front",
+        "unlock_popup": null,
+        "background": "home_front",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_home_mailbox",
+            "L_home_garage",
+            "L_home_entrance"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_mailbox",
+        "name": "Mailbox",
+        "unlock_popup": null,
+        "background": "mailbox_player",
+        "parents": [
+            "L_home"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_garage",
+        "name": "Garage",
+        "unlock_popup": null,
+        "background": "home_garage",
+        "parents": [
+            "L_home"
+        ],
+        "children": [
+            "L_home_car"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_car",
+        "name": "Car Engine",
+        "unlock_popup": null,
+        "background": "home_garage_car",
+        "parents": [
+            "L_home_garage"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_entrance",
+        "name": "Entrance",
+        "unlock_popup": null,
+        "background": "home_entrance",
+        "parents": [
+            "L_home"
+        ],
+        "children": [
+            "L_home_kitchen",
+            "L_home_livingroom",
+            "L_home_hallway"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_kitchen",
+        "name": "Kitchen",
+        "unlock_popup": null,
+        "background": "home_kitchen",
+        "parents": [
+            "L_home_entrance"
+        ],
+        "children": [
+            "L_home_diningroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_diningroom",
+        "name": "Dining Room",
+        "unlock_popup": null,
+        "background": "home_diningroom",
+        "parents": [
+            "L_home_kitchen"
+        ],
+        "children": [
+            "L_home_backyard"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_backyard",
+        "name": "Backyard",
+        "unlock_popup": null,
+        "background": "home_backyard",
+        "parents": [
+            "L_home_diningroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_livingroom",
+        "name": "Living Room",
+        "unlock_popup": null,
+        "background": "home_livingroom",
+        "parents": [
+            "L_home_entrance"
+        ],
+        "children": [
+            "L_home_basement",
+            "L_home_mombedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_basement",
+        "name": "Basement",
+        "unlock_popup": null,
+        "background": "home_basement",
+        "parents": [
+            "L_home_livingroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_mombedroom",
+        "name": "Master Bedroom",
+        "unlock_popup": null,
+        "background": "home_debbiebedroom",
+        "parents": [
+            "L_home_livingroom"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "home_hallway",
+        "name": "Hallway",
+        "unlock_popup": null,
+        "background": "home_hallway",
+        "parents": [
+            "L_home_entrance"
+        ],
+        "children": [
+            "L_home_shower",
+            "L_home_attic",
+            "L_home_sisbedroom",
+            "L_home_bedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_shower",
+        "name": "Shower",
+        "unlock_popup": null,
+        "background": "home_shower_02",
+        "parents": [
+            "L_home_hallway"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "home_attic",
+        "name": "Attic",
+        "unlock_popup": null,
+        "background": "home_attic",
+        "parents": [
+            "L_home_hallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "home_sisbedroom",
+        "name": "Upstairs Bedroom",
+        "unlock_popup": null,
+        "background": "home_jennybedroom",
+        "parents": [
+            "L_home_hallway"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "home_bedroom",
+        "name": "Bedroom",
+        "unlock_popup": null,
+        "background": "home_bedroom",
+        "parents": [
+            "L_home_hallway",
+            "L_map"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse",
+        "name": "Erik's House",
+        "unlock_popup": "unlock12",
+        "background": "erik_house",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_erikhouse_mailbox",
+            "L_erikhouse_backyard",
+            "L_erikhouse_entrance"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_mailbox",
+        "name": "Erik's Mailbox",
+        "unlock_popup": null,
+        "background": "mailbox_erik",
+        "parents": [
+            "L_erikhouse"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_backyard",
+        "name": "Erik's Backyard",
+        "unlock_popup": null,
+        "background": "erik_house_backyard",
+        "parents": [
+            "L_erikhouse"
+        ],
+        "children": [
+            "L_erikhouse_entrance"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_entrance",
+        "name": "Erik's House Entrance",
+        "unlock_popup": null,
+        "background": "erik_house_inside",
+        "parents": [
+            "L_erikhouse",
+            "L_erikhouse_backyard"
+        ],
+        "children": [
+            "L_erikhouse_basement",
+            "L_erikhouse_erikroom",
+            "L_erikhouse_mrsjroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_basement",
+        "name": "Erik's Basement",
+        "unlock_popup": null,
+        "background": "erik_basement01",
+        "parents": [
+            "L_erikhouse_entrance"
+        ],
+        "children": [
+            "L_erikhouse_basement_backroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_basement_backroom",
+        "name": "Erik's Basement Backroom",
+        "unlock_popup": null,
+        "background": "erik_basement_back",
+        "parents": [
+            "L_erikhouse_basement"
+        ],
+        "children": [
+            "L_erikhouse_basement_backroom_cabinet"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_basement_backroom_cabinet",
+        "name": "Erik's Basement Backroom Cabinet",
+        "unlock_popup": null,
+        "background": "erik_basement_aquarium",
+        "parents": [
+            "L_erikhouse_basement_backroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_erikroom",
+        "name": "Erik's Room",
+        "unlock_popup": null,
+        "background": "erik_house_bedroom",
+        "parents": [
+            "L_erikhouse_entrance"
+        ],
+        "children": [
+            "L_erikhouse_erikunderbed"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_erikunderbed",
+        "name": "Under Erik's Bed",
+        "unlock_popup": null,
+        "background": "erik_house_bedroom_under",
+        "parents": [
+            "L_erikhouse_erikroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "erikhouse_mrsjroom",
+        "name": "Mrs Johnson's Room",
+        "unlock_popup": null,
+        "background": "erik_house_upstairs",
+        "parents": [
+            "L_erikhouse_entrance"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse",
+        "name": "Mia's House",
+        "unlock_popup": "unlock1",
+        "background": "mia",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_miahouse_mailbox",
+            "L_miahouse_entrance"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_mailbox",
+        "name": "Mia's Mailbox",
+        "unlock_popup": null,
+        "background": "mailbox_mia",
+        "parents": [
+            "L_miahouse"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_entrance",
+        "name": "Mia's House Entrance",
+        "unlock_popup": null,
+        "background": "mia_house",
+        "parents": [
+            "L_miahouse"
+        ],
+        "children": [
+            "L_miahouse_upstairs"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_upstairs",
+        "name": "Mia's House Upstairs",
+        "unlock_popup": null,
+        "background": "mia_house_upstairs",
+        "parents": [
+            "L_miahouse_entrance"
+        ],
+        "children": [
+            "L_miahouse_miaroom",
+            "L_miahouse_helensbedroom",
+            "L_miahouse_haroldsoffice",
+            "L_miahouse_lockedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_miaroom",
+        "name": "Mia's Bedroom",
+        "unlock_popup": null,
+        "background": "mia_bedroom",
+        "parents": [
+            "L_miahouse_upstairs"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_helensbedroom",
+        "name": "Helen's Bedroom",
+        "unlock_popup": null,
+        "background": "mia_house_helen",
+        "parents": [
+            "L_miahouse_upstairs"
+        ],
+        "children": [
+            "L_miahouse_helensstatue"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_helensstatue",
+        "name": "Helen's Statue",
+        "unlock_popup": null,
+        "background": "mia_house_statue",
+        "parents": [
+            "L_miahouse_helensbedroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_haroldsoffice",
+        "name": "Harold's House Office",
+        "unlock_popup": null,
+        "background": "mia_house_office",
+        "parents": [
+            "L_miahouse_upstairs"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "miahouse_lockedroom",
+        "name": "Helen's Locked Room",
+        "unlock_popup": null,
+        "background": "mia_house_locked",
+        "parents": [
+            "L_miahouse_upstairs"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach",
+        "name": "Beach",
+        "unlock_popup": "unlock48",
+        "background": "beach",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_beach_water",
+            "L_beach_tower",
+            "L_beach_island"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "beach_water",
+        "name": "Beach Water",
+        "unlock_popup": null,
+        "background": "beach_water",
+        "parents": [
+            "L_beach"
+        ],
+        "children": [
+            "L_beach_showers",
+            "L_beach_cabin"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach_showers",
+        "name": "Beach Showers",
+        "unlock_popup": null,
+        "background": "beach_shower",
+        "parents": [
+            "L_beach_water"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach_cabin",
+        "name": "Beach Cabin",
+        "unlock_popup": null,
+        "background": "beach_cabin",
+        "parents": [
+            "L_beach_water"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach_tower",
+        "name": "Beach Tower",
+        "unlock_popup": null,
+        "background": "beach_tower",
+        "parents": [
+            "L_beach"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach_island",
+        "name": "Beach Island",
+        "unlock_popup": null,
+        "background": "beach_island",
+        "parents": [
+            "L_beach"
+        ],
+        "children": [
+            "L_beach_island_chest"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beach_island_chest",
+        "name": "Treasure Chest",
+        "unlock_popup": null,
+        "background": "beach_treasure",
+        "parents": [
+            "L_beach_island"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "church_front",
+        "name": "Church Front",
+        "unlock_popup": "unlock30",
+        "background": "church_outside",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_church"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "church",
+        "name": "Church",
+        "unlock_popup": null,
+        "background": "church",
+        "parents": [
+            "L_church_front"
+        ],
+        "children": [
+            "L_church_stairs"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "church_stairs",
+        "name": "Church Stairs",
+        "unlock_popup": null,
+        "background": "church_stairs",
+        "parents": [
+            "L_church"
+        ],
+        "children": [
+            "L_church_bell",
+            "L_church_angelica"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "church_bell",
+        "name": "Church Cloister Bell",
+        "unlock_popup": null,
+        "background": "church_bell",
+        "parents": [
+            "L_church_stairs"
+        ],
+        "children": [
+            "L_church_bell_closeup"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "church_bell_closeup",
+        "name": "Church Bell Closeup",
+        "unlock_popup": null,
+        "background": "church_bell_closeup",
+        "parents": [
+            "L_church_bell"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "church_angelica",
+        "name": "Angelica's Room",
+        "unlock_popup": null,
+        "background": "church_nun",
+        "parents": [
+            "L_church_stairs"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "forest",
+        "name": "Forest",
+        "unlock_popup": "unlock42",
+        "background": "forest",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_forest_shrine",
+            "L_waterfall"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "forest_shrine",
+        "name": "Forest Shrine",
+        "unlock_popup": null,
+        "background": "forest_puzzle",
+        "parents": [
+            "L_forest"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "waterfall",
+        "name": "Waterfall",
+        "unlock_popup": null,
+        "background": "forest_waterfall",
+        "parents": [
+            "L_forest"
+        ],
+        "children": [
+            "L_cave"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "cave",
+        "name": "Cave",
+        "unlock_popup": null,
+        "background": "forest_cave",
+        "parents": [
+            "L_waterfall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "gym_front",
+        "name": "Gym Front",
+        "unlock_popup": "unlock3",
+        "background": "gym_front",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_gym"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "gym",
+        "name": "Gym",
+        "unlock_popup": null,
+        "background": "gym",
+        "parents": [
+            "L_gym_front"
+        ],
+        "children": [
+            "L_yoga_room"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "yoga_room",
+        "name": "Yoga Room",
+        "unlock_popup": null,
+        "background": "gym_yoga",
+        "parents": [
+            "L_gym"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "mall",
+        "name": "Mall",
+        "unlock_popup": "unlock16",
+        "background": "mall",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_movie_theatre",
+            "L_mall_toilets",
+            "L_comicstore",
+            "L_consumr",
+            "L_mall_floor2"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "movie_theatre",
+        "name": "Movie Theatre",
+        "unlock_popup": null,
+        "background": "movie_lobby",
+        "parents": [
+            "L_mall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "mall_toilets",
+        "name": "Mall Toilets",
+        "unlock_popup": null,
+        "background": "mall_washroom",
+        "parents": [
+            "L_mall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "comicstore",
+        "name": "Comic Store",
+        "unlock_popup": null,
+        "background": "mall_comic",
+        "parents": [
+            "L_mall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "consumr",
+        "name": "Consumr",
+        "unlock_popup": null,
+        "background": "mall_consumr",
+        "parents": [
+            "L_mall"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "mall_floor2",
+        "name": "Mall Second Floor",
+        "unlock_popup": null,
+        "background": "mall_upstairs",
+        "parents": [
+            "L_mall"
+        ],
+        "children": [
+            "L_mall_photobooth",
+            "L_cupid",
+            "L_pink"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "mall_photobooth",
+        "name": "Mall Photo Booth",
+        "unlock_popup": null,
+        "background": "mall_upstairs_booth",
+        "parents": [
+            "L_mall_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "cupid",
+        "name": "Cupid",
+        "unlock_popup": null,
+        "background": "mall_cupid",
+        "parents": [
+            "L_mall_floor2"
+        ],
+        "children": [
+            "L_cupid_dressroom",
+            "L_cupid_necklace"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "cupid_dressroom",
+        "name": "Cupid Dressingroom",
+        "unlock_popup": null,
+        "background": "mall_cupid_closeup_stall",
+        "parents": [
+            "L_cupid"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "cupid_necklace",
+        "name": "Cupid Necklace Display",
+        "unlock_popup": null,
+        "background": "",
+        "parents": [
+            "L_cupid"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "pink",
+        "name": "Pink",
+        "unlock_popup": null,
+        "background": "pink",
+        "parents": [
+            "L_mall_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "donutshop",
+        "name": "Donut Shop",
+        "unlock_popup": "unlock50",
+        "background": "donut",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_donutshop_interior"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "donutshop_interior",
+        "name": "Donut Shop Interior",
+        "unlock_popup": null,
+        "background": "donut_inside",
+        "parents": [
+            "L_donutshop"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "pizzeria_exterior",
+        "name": "Pizzeria Exterior",
+        "unlock_popup": "unlockpizza",
+        "background": "pizza_outside",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_pizzeria_interior"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "pizzeria_interior",
+        "name": "Pizzeria Interior",
+        "unlock_popup": null,
+        "background": "pizza",
+        "parents": [
+            "L_pizzeria_exterior"
+        ],
+        "children": [
+            "L_pizzeria_kitchen"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "pizzeria_kitchen",
+        "name": "Pizzeria Kitchen",
+        "unlock_popup": null,
+        "background": "pizza_kitchen",
+        "parents": [
+            "L_pizzeria_interior"
+        ],
+        "children": [
+            "L_pizzeria_storage"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "pizzeria_storage",
+        "name": "Pizzeria Storage",
+        "unlock_popup": null,
+        "background": "pizza_storage",
+        "parents": [
+            "L_pizzeria_kitchen"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "trailerpark",
+        "name": "Trailer Park",
+        "unlock_popup": "unlock39",
+        "background": "trailer_park",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_trailer",
+            "L_trailer_shack",
+            "L_trailer_tractor",
+            "L_trailer_interior"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "trailer",
+        "name": "Trailer",
+        "unlock_popup": null,
+        "background": "trailer",
+        "parents": [
+            "L_trailerpark"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "trailer_shack",
+        "name": "Shack",
+        "unlock_popup": null,
+        "background": "trailer_shack",
+        "parents": [
+            "L_trailerpark"
+        ],
+        "children": [
+            "L_trailer_shack_interior"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "trailer_tractor",
+        "name": "Tractor",
+        "unlock_popup": null,
+        "background": "trailer_tractor",
+        "parents": [
+            "L_trailerpark"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "trailer_shack_interior",
+        "name": "Shack Interior",
+        "unlock_popup": null,
+        "background": "trailer_shack_inside",
+        "parents": [
+            "L_trailer_shack"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "trailer_interior",
+        "name": "Trailer Interior",
+        "unlock_popup": null,
+        "background": "trailer_interior",
+        "parents": [
+            "L_trailerpark"
+        ],
+        "children": [
+            "L_trailer_bedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "trailer_bedroom",
+        "name": "Trailer Bedroom",
+        "unlock_popup": null,
+        "background": "trailer_bedroom",
+        "parents": [
+            "L_trailer_interior"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "treehouse",
+        "name": "Treehouse",
+        "unlock_popup": "unlock46",
+        "background": "treehouse",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_treehouse_closeup"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "treehouse_closeup",
+        "name": "Treehouse Closeup",
+        "unlock_popup": null,
+        "background": "treehouse_closeup",
+        "parents": [
+            "L_treehouse"
+        ],
+        "children": [
+            "L_treehouse_interior"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "treehouse_interior",
+        "name": "Treehouse Interior",
+        "unlock_popup": null,
+        "background": "treehouse_inside",
+        "parents": [
+            "L_treehouse_closeup"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "police_lobby",
+        "name": "Police Lobby",
+        "unlock_popup": "unlock32",
+        "background": "police_lobby",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_police_office",
+            "L_police_basement"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "police_office",
+        "name": "Police Office",
+        "unlock_popup": null,
+        "background": "police_office",
+        "parents": [
+            "L_police_lobby"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "police_basement",
+        "name": "Police Basement",
+        "unlock_popup": null,
+        "background": "police_basement",
+        "parents": [
+            "L_police_lobby"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital",
+        "name": "Hospital",
+        "unlock_popup": "unlock40",
+        "background": "hospital_first",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_hospital_keystorage",
+            "L_hospital_floor2",
+            "L_hospital_floor3",
+            "L_hospital_elevator"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "hospital_keystorage",
+        "name": "Hospital Key Storage",
+        "unlock_popup": null,
+        "background": "hospital_box",
+        "parents": [
+            "L_hospital"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_floor2",
+        "name": "Hospital 2nd Floor",
+        "unlock_popup": null,
+        "background": "hospital_second",
+        "parents": [
+            "L_hospital"
+        ],
+        "children": [
+            "L_hospital_elevator",
+            "L_hospital_room",
+            "L_hospital_storageroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_floor3",
+        "name": "Hospital 3rd Floor",
+        "unlock_popup": null,
+        "background": "hospital_third",
+        "parents": [
+            "L_hospital"
+        ],
+        "children": [
+            "L_hospital_lab"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "hospital_lab",
+        "name": "Hospital Laboratory",
+        "unlock_popup": null,
+        "background": "hospital_lab",
+        "parents": [
+            "L_hospital_floor3"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_elevator",
+        "name": "Hospital Elevator",
+        "unlock_popup": null,
+        "background": "hospital_elevator",
+        "parents": [
+            "L_hospital",
+            "L_hospital_floor2"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_room",
+        "name": "Hospital 2nd Floor Room",
+        "unlock_popup": null,
+        "background": "hospital_room",
+        "parents": [
+            "L_hospital_floor2"
+        ],
+        "children": [
+            "L_hospital_room_bathroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_room_bathroom",
+        "name": "Hospital 2nd Floor Bathroom",
+        "unlock_popup": null,
+        "background": "hospital_bathroom",
+        "parents": [
+            "L_hospital_room"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_storageroom",
+        "name": "Hospital Storage Room",
+        "unlock_popup": null,
+        "background": "hospital_storage",
+        "parents": [
+            "L_hospital_floor2"
+        ],
+        "children": [
+            "L_hospital_storagecabinet"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "hospital_storagecabinet",
+        "name": "Hospital Storage Cabinet",
+        "unlock_popup": null,
+        "background": "hospital_cabinet",
+        "parents": [
+            "L_hospital_storageroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "library_front",
+        "name": "Library Front",
+        "unlock_popup": "unlock5",
+        "background": "library_front",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_library"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "library",
+        "name": "Library",
+        "unlock_popup": null,
+        "background": "library",
+        "parents": [
+            "L_library_front"
+        ],
+        "children": [
+            "L_library_bookshelf",
+            "L_library_backroom",
+            "L_library_meetingroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "library_bookshelf",
+        "name": "Library Bookshelf",
+        "unlock_popup": null,
+        "background": "library_shelf",
+        "parents": [
+            "L_library"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "library_backroom",
+        "name": "Library Backroom",
+        "unlock_popup": null,
+        "background": "library_backroom01",
+        "parents": [
+            "L_library"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "library_meetingroom",
+        "name": "Library Meeting Room",
+        "unlock_popup": null,
+        "background": "library_meeting",
+        "parents": [
+            "L_library"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "park",
+        "name": "Park",
+        "unlock_popup": "unlock2",
+        "background": "park",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_park_fountain",
+            "L_park_bushes"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "park_fountain",
+        "name": "Park Fountain",
+        "unlock_popup": null,
+        "background": "park_fountain",
+        "parents": [
+            "L_park"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "park_bushes",
+        "name": "Park Bushes",
+        "unlock_popup": null,
+        "background": "park_bushes",
+        "parents": [
+            "L_park"
+        ],
+        "children": [
+            "L_park_bushesbag"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "park_bushesbag",
+        "name": "Park Bushes Bag",
+        "unlock_popup": null,
+        "background": "park_bag",
+        "parents": [
+            "L_park_bushes"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "tattooparlor",
+        "name": "Tattoo Parlor",
+        "unlock_popup": "unlock47",
+        "background": "tattoo",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_tattooparlor_interior"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "tattooparlor_interior",
+        "name": "Tattoo Parlor Interior",
+        "unlock_popup": null,
+        "background": "tattoo_indoor",
+        "parents": [
+            "L_tattooparlor"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "dealership_front",
+        "name": "Dealership Front",
+        "unlock_popup": "unlockdealership",
+        "background": "dealership",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_dealership"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "dealership",
+        "name": "Dealership",
+        "unlock_popup": null,
+        "background": "dealership_indoor",
+        "parents": [
+            "L_dealership_front"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beachhouse_front",
+        "name": "Beach House Front",
+        "unlock_popup": null,
+        "background": "beach_house",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_beachhouse_entrance"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "beachhouse_entrance",
+        "name": "Beach House Entrance",
+        "unlock_popup": null,
+        "background": "beach_house_entrance",
+        "parents": [
+            "L_beachhouse_front"
+        ],
+        "children": [
+            "L_beachhouse_bedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beachhouse_bedroom",
+        "name": "Beach House Bedroom",
+        "unlock_popup": null,
+        "background": "beach_house_bedroom",
+        "parents": [
+            "L_beachhouse_entrance"
+        ],
+        "children": [
+            "L_beachhouse_patio"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "beachhouse_patio",
+        "name": "Beach House Patio",
+        "unlock_popup": null,
+        "background": "beach_house_patio",
+        "parents": [
+            "L_beachhouse_bedroom"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "smith_front",
+        "name": "Smith's Frontyard",
+        "unlock_popup": "unlocksmith",
+        "background": "smith_frontyard",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_smith_entrance",
+            "L_smith_bedroom"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "smith_entrance",
+        "name": "Smith's Entrance",
+        "unlock_popup": null,
+        "background": "smith_entrance",
+        "parents": [
+            "L_smith_front"
+        ],
+        "children": [
+            "L_smith_hallway",
+            "L_smith_basement"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "smith_hallway",
+        "name": "Smith's Hallway",
+        "unlock_popup": null,
+        "background": "smith_hallway",
+        "parents": [
+            "L_smith_entrance"
+        ],
+        "children": [
+            "L_smith_bedroom"
+        ],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "smith_bedroom",
+        "name": "Smith's Bedroom",
+        "unlock_popup": null,
+        "background": "smith_bedroom",
+        "parents": [
+            "L_smith_hallway",
+            "L_smith_front"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "smith_basement",
+        "name": "Smith's Basement",
+        "unlock_popup": null,
+        "background": "smith_basement",
+        "parents": [
+            "L_smith_entrance"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "annie_front",
+        "name": "Annie's House Front",
+        "unlock_popup": "unlockannie",
+        "background": "annie_frontyard",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_annie_livingroom",
+            "L_annie_daycare"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "annie_livingroom",
+        "name": "Annie's House Livingroom",
+        "unlock_popup": null,
+        "background": "annie_livingroom",
+        "parents": [
+            "L_annie_front"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "annie_daycare",
+        "name": "Annie's House Daycare",
+        "unlock_popup": null,
+        "background": "annie_daycare",
+        "parents": [
+            "L_annie_front"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "boat_bridge",
+        "name": "Boat Bridge",
+        "unlock_popup": null,
+        "background": "boat",
+        "parents": [
+            "L_map"
+        ],
+        "children": [
+            "L_boat_cabin"
+        ],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "boat_cabin",
+        "name": "Boat Cabin",
+        "unlock_popup": null,
+        "background": "boat_interior",
+        "parents": [
+            "L_boat_bridge"
+        ],
+        "children": [],
+        "locked": false,
+        "label": ""
+    },
+    {
+        "variable": "rump_front",
+        "name": "Mayor Rump's Frontyard",
+        "unlock_popup": null,
+        "background": "rump_front",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "bank",
+        "name": "Bank",
+        "unlock_popup": "unlock6",
+        "background": "bank",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "basketball_court",
+        "name": "Basketball Court",
+        "unlock_popup": "popup_basketball",
+        "background": "basketball",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "hill",
+        "name": "Hill",
+        "unlock_popup": "unlock49",
+        "background": "hill",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "lair",
+        "name": "Lair",
+        "unlock_popup": "popup_lair",
+        "background": "lair",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "pier",
+        "name": "Pier",
+        "unlock_popup": "unlockpier",
+        "background": "pier",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "pool",
+        "name": "Pool",
+        "unlock_popup": "unlock4",
+        "background": "pool",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    },
+    {
+        "variable": "warehouse",
+        "name": "Warehouse",
+        "unlock_popup": "popup_warehouse",
+        "background": "warehouse",
+        "parents": [
+            "L_map"
+        ],
+        "children": [],
+        "locked": true,
+        "label": ""
+    }
+]

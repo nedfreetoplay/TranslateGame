@@ -1,4 +1,6 @@
-screen mall_toilets:
+screen mall_toilets():
+    use mods_screens_hook("mall_toilets")
+
     if game.rump_n_cunt:
         add "backgrounds/location_mall_washroom_event.jpg"
 

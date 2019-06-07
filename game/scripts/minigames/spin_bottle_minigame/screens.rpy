@@ -78,7 +78,7 @@ init python:
                     renpy.jump("spin_bottle_minigame_{}".format(character))
                 else:
                     renpy.end_interaction(True)
-            instructions_r = renpy.render(Text("Нажмите кнопку, чтобы вращать бутылку!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(Text("Click the button to spin the bottle!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),20))
             self.bottle = Transform(self.bottle_base, rotate=self.angle)
@@ -104,7 +104,7 @@ init python:
 screen spin_bottle(character, is_rox_11b):
     add SpinBottleMinigame(character, is_rox_11b)
 
-screen spin_bottle_minigame:
+screen spin_bottle_minigame():
     add SpinBottleMinigame()
 
 screen spin_bottle_minigame_solo_sex_options(character_machine):
@@ -169,7 +169,7 @@ screen spin_bottle_minigame_mc_4some_options(character_machine):
             $ next_character_button_right = "buttons/roxxy_02.png"
             $ next_character_machine_right = M_missy
 
-    elif M_player.get("left of 4some") == M_missy:
+    else:
         $ next_character_button_left = "buttons/roxxy_02.png"
         $ next_character_machine_left = M_missy
         if character_machine == M_roxxy:
@@ -179,7 +179,7 @@ screen spin_bottle_minigame_mc_4some_options(character_machine):
             $ next_character_button_right = "buttons/roxxy_04.png"
             $ next_character_machine_right = M_roxxy
 
-    if store._in_replay == None:
+    if store._in_replay is None:
         imagebutton:
             focus_mask True
             pos (50,700)
@@ -201,7 +201,7 @@ screen spin_bottle_minigame_mc_4some_options(character_machine):
         hover HoverImage("buttons/diane_stage01_02.png")
         action Hide("spin_bottle_minigame_mc_4some_options"), Function(renpy.call, "spin_bottle_minigame_mc_4some_cum", character_machine)
 
-    if store._in_replay == None:
+    if store._in_replay is None:
         imagebutton:
             focus_mask True
             pos (650,700)

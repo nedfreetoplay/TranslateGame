@@ -1,158 +1,166 @@
 label consumr_diane_get_milk_jug_bought:
     scene expression "backgrounds/location_mall_consumr_closeup.jpg"
     show player 173 with dissolve
-    player_name "Хорошо, это должно хорошо работать для кувшина, который хотела {b}Диана{/b}."
+    player_name "Alright, that should work fine for the jug {b}Diane{/b} wanted."
+    label consumr_diane_get_milk_jug_bought.tail:
     show player 172
     pause
-    player_name "( Хм, интересно, стоит ли мне поговорить с {b}Дианой{/b} о вещах, которые мне рассказала {b}Вероника{/b}? )"
-    player_name "( Я не уверен, что это относится к ее конкретной проблеме, но это не помешает разобраться. )"
-    player_name "( {b}Я должен отправиться в библиотеку{/b} и найти одну из тех упомянутых {b}Вероникой{/b} книг о доении. )"
+    player_name "( Hmm, I wonder if I should speak with {b}Diane{/b} about the stuff {b}Veronica{/b} told me? )"
+    player_name "( I'm not sure it applies to her particular problem but it couldn't hurt to look into it. )"
+    player_name "( {b}I should head to the library{/b} and see about finding one of those milking books {b}Veronica{/b} mentioned. )"
     hide player with dissolve
     $ M_diane.trigger(T_diane_bought_milk_jug)
     $ game.main()
+
+label consumr_diane_get_milk_jug_owned:
+    scene expression "backgrounds/location_mall_consumr_closeup.jpg"
+    show player 173 with dissolve
+    player_name "Hey! I already had one of these!"
+    player_name "This should work fine for the jug {b}Diane{/b} wanted."
+    jump consumr_diane_get_milk_jug_bought.tail
 
 label consumr_diane_get_milk_jug:
     scene expression "backgrounds/location_mall_consumr_closeup.jpg"
     show player 13 at left
     show vero f_sexy_talk
     with dissolve
-    vero "Так, так, так ... Смотри, кто заходит в мой магазин!"
+    vero "Well, well, well... Look who's walking into my store!"
     show vero f_sexy
     show player 14
-    player_name "Привет, {b}Вероника{/b}."
+    player_name "Hey, {b}Veronica{/b}."
     show player 13
     show vero f_normal_talk
-    vero "Как дела, {b}[firstname]{/b}?"
-    vero "У тебя все еще есть зеленый палец?"
+    vero "How's it going, {b}[firstname]{/b}?"
+    vero "You still got that green thumb?"
     show vero f_normal
     show player 14
-    player_name "Хе-хе, да, наверное."
+    player_name "Hehe yeah, I guess."
     show player 13
     show vero f_sexy_talk
-    vero "О, я люблю человека, который знает дорогу в саду..."
+    vero "Oh, I love a man who knows his way around a garden..."
     show vero f_sexy
     show player 29 with dissolve
-    player_name "{b}*глоток*{/b} О, да?"
+    player_name "{b}*Gulp*{/b} O-oh, yeah?"
     show player 3
     show vero f_normal_talk
-    vero "Так что привело тебя сюда?"
+    vero "So what brings you in here?"
     show vero f_normal
     show player 14 with dissolve
-    player_name "Мне нужен еще один {b}кувшин под молоко для Дианы{/b}."
+    player_name "I need another {b}milk jug for Diane{/b}."
     show player 13
     show vero f_normal_talk
-    vero "Да?"
-    vero "Как она вообще себя чувствует?"
-    vero "Я пыталась заскочить и навестить ее на днях, но там было много строительных работ."
+    vero "Yeah?"
+    vero "How's she doing anyways?"
+    vero "I tried to swing by and visit her the other day but there was a bunch of construction going on."
     show vero f_normal
     show player 14
-    player_name "Хех, да. Она снесла свой дом и поставила сарай."
+    player_name "Heh, yeah. She knocked down her house and put a barn up."
     show player 13
     show vero f_surprised
     vero "!!!"
     show vero f_normal_talk
-    vero "Ты не говорил?!"
-    vero "Итак, я думаю, она наконец-то расширяется, да?"
+    vero "You don't say?!"
+    vero "So, I guess she's finally expanding, huh?"
     show vero f_normal
     show player 14
-    player_name "Да, наверное, так и есть."
+    player_name "Yeah, I guess so."
     show player 13
     show vero f_normal_talk
-    vero "Она вообще упоминала, что нанимала дополнительную помощь?"
+    vero "Has she mentioned hiring additional help at all?"
     show vero f_normal
     show player 14
-    player_name "Хм, немного ..."
+    player_name "Hmm, a bit..."
     show player 13
     show vero f_normal_talk
-    vero "Ну, скажи ей, чтобы она помнила, что ее хорошая подруга {b}Вероника{/b} работает в этом тупике!"
+    vero "Well, tell her to remember her good friend {b}Veronica{/b} slaving away over here at this dead end job!"
     show vero f_normal
     show player 17
-    player_name "Ха-ха, хватит."
+    player_name "Haha, will do."
     show player 14
-    player_name "Я думаю, сейчас она слишком занята, беспокоясь о производстве молока..."
+    player_name "I think right now she's too busy worrying about producing more milk..."
     show player 13
-    vero "Хмм?"
+    vero "Hmm?"
     show vero f_normal_talk
-    vero "Ее коровы высыхают?"
+    vero "Her cows are drying up?"
     show vero f_normal
     show player 10
-    player_name "Я эээ..."
+    player_name "I err..."
     show player 5
     show vero f_normal_talk
-    vero "Расскажи мне, {b}[firstname]{/b}."
-    vero "Я знаю все, что нужно знать о доении коров."
+    vero "Fill me in, {b}[firstname]{/b}."
+    vero "I know all there is to know about milking cows."
     show vero f_normal
     show player 10
-    player_name "Хех, я не знаю... Я не должен говорить об этом."
+    player_name "Heh, I dunno... I'm not supposed to talk about it."
     show player 5
     show vero f_normal_talk
-    vero "Ой, да ладно!"
+    vero "Oh, c'mon!"
     show vero f_normal
     show player 29 with dissolve
-    player_name "Ей просто нужна ее эээ... корова."
-    player_name "Чтобы ... Вы знаете, производить больше молока."
+    player_name "She just needs her umm... Cow."
+    player_name "To... You know, produce more milk."
     show player 3
     show vero f_normal_talk
-    vero "Она оплодотворяет их?"
+    vero "Is she impregnating them?"
     show vero f_normal
     show player 11
     player_name "!!!" with hpunch
     show player 10
-    player_name "О-оплодотворяет?!"
+    player_name "I-impregnating?!"
     show player 11
     show vero f_laugh
-    vero "Ну, конечно!"
+    vero "Well, of course!"
     show vero f_normal_talk
-    vero "Коровы будут производить совсем немного молока сами по себе, но если вы действительно хотите получить от них все, что можете, вы должны их подбить."
+    vero "Cows will produce quite a bit of milk on their own but if you really wanna get all you can out of em, you gotta knock em up."
     show vero f_normal
     show player 29 with dissolve
-    player_name "{b}*глоток*{/b} Я не-"
+    player_name "{b}*Gulp*{/b} I don't-"
     show player 3
     show vero f_normal_talk
-    vero "Это удвоит их производство молока, легко!"
-    vero "Потом, когда теленок родится, его можно продать с большой прибылью."
+    vero "It'll double their milk production, easy!"
+    vero "Then when the calf is born, you can sell it off for a big profit."
     show vero f_normal
     player_name "..."
     show vero f_normal_talk
-    vero "... Или оставь себе, и ты получил себе нового работника!"
-    vero "Это отличный источник дополнительного дохода."
+    vero "... Or keep it and you got yourself a new worker!"
+    vero "It's a great source of extra income."
     show vero f_normal
     show player 29
-    player_name "О, я не думаю, что она захочет-"
+    player_name "Oh, I don't think she'd want to-"
     show player 3
     show vero f_normal_talk
-    vero "Почему ты покраснел?"
+    vero "Why are you blushing?"
     show vero f_normal
     show player 29
-    player_name "Я не-"
+    player_name "I'm not-"
     show player 3
     show vero f_laugh
-    vero "Хе-хе, что происходит {b}[firstname]{/b}?!"
+    vero "Hehe, what's going on {b}[firstname]{/b}?!"
     show vero f_normal
     show player 12 with dissolve
-    player_name "Ничего!"
+    player_name "Nothing!"
     show player 10
-    player_name "Я просто... Ты уверена?"
+    player_name "I just... Are you sure?"
     show player 5
     show vero f_normal_talk
-    vero "Конечно."
-    vero "{b}Иди в библиотеку и посмотри{/b} , если ты мне не веришь, я уверена, что ты найдешь тонны информации о разведении и доении сельскохозяйственных животных."
+    vero "Positive."
+    vero "{b}Go to the library and look it up{/b} if you don't believe me, I bet you'll find tons of info about breeding and milking farm animals."
     show vero f_normal
     show player 14
-    player_name "Да, хорошо."
-    player_name "Схожу."
+    player_name "Y-yeah, okay."
+    player_name "I'll do that."
     show player 13
     show vero f_laugh
-    vero "Хе-хе, ты слишком милый!"
+    vero "Hehe, you're too cute!"
     show vero f_normal_talk
-    vero "У нас есть кувшины из нержавеющей стали вон там."
-    vero "Дай мне знать, если тебе понадобится помощь."
+    vero "We've got stainless steel jugs just over there."
+    vero "Let me know if you need any more help."
     show vero f_normal
     show player 14
-    player_name "Спасибо, {b}Вероника{/b}."
+    player_name "Thanks, {b}Veronica{/b}."
     show player 13
     show vero f_sexy_talk
-    vero "Никаких проблем, жеребец."
+    vero "No problem, stud."
     hide player
     hide vero
     with dissolve
@@ -168,15 +176,15 @@ label consumr_okita_get_ingredients_pre:
     scene location_mall_consumr_day_blur
     show player 2
     with dissolve
-    player_name "Окита сказал ,что {b} овощной бульон{/b} будет лучше всего работать в качестве базовой жидкости."
+    player_name "Okita said that {b}Vegetable Stock{/b} would work best as the base liquid."
     return
 
 label consumr_okita_get_ingredients_talked_with_veronica:
     show player 10
-    player_name "... Но у них есть только {b}куриный бульон{/b}."
-    player_name "Думаю, придется обойтись {b}куриным бульоном{/b}."
+    player_name "... But they only have {b}Chicken Stock{/b}."
+    player_name "I guess we'll have to make do with the {b}Chicken Stock{/b}."
     show player 2
-    player_name "Я должен {b}купить{/b} немного и отнисти к Оките."
+    player_name "I should {b}buy{/b} some and get it back to Okita."
     hide player with dissolve
     return
 
@@ -186,158 +194,166 @@ label consumr_diane_get_bug_spray:
     show diane at Position (xpos=-100)
     show player 13f
     with dissolve
-    dia "Хорошо, на том, что нам нужно ,будет {b}зеленая крышка{/b}..."
+    dia "Alright, the one we need will have a {b}green cap{/b} on it..."
     show diane f_normal
     show vero f_normal_talk at Position (xpos=600) with dissolve
-    vero "{b}Диана{/b}?!"
+    vero "{b}Diane{/b}?!"
     show player 13 with dissolve
-    vero "Давно не виделись!"
+    vero "Long time no see!"
     show vero f_normal
     show diane f_normal_talk
-    dia "Привет, {b}Ви{/b}."
+    dia "Hey, {b}Vee{/b}."
     show diane f_normal
     show vero f_normal_talk
-    vero "Приятно видеть тебя наконец-то вне дома!"
-    vero "Ты пришла за садовыми принадлежностями?"
+    vero "It's nice to see you finally out of your house!"
+    vero "You here for more gardening supplies?"
     show vero f_normal
     show diane f_normal_talk
-    dia "Хех, да. Что-то вроде этого..."
+    dia "Heh, yeah. Something like that..."
     show diane f_normal
     show vero f_normal_talk
-    vero "Как жаль, что ты застряла в этом огромном саду одна."
+    vero "It's such a shame you're stuck tending that huge garden all by yourself."
     show vero f_normal
     dia "..."
     show vero f_normal_talk
-    vero "Знаешь, я была бы более чем счастлива-"
+    vero "You know, I'd be more than happy to-"
     show vero f_normal
     show player 14
-    player_name "Привет, Я {b}[firstname]{/b}."
+    player_name "Hello, I'm {b}[firstname]{/b}."
     show player 13
     show vero f_normal_talk
-    vero "О, привет."
-    vero "Я не знала, что вы двое вместе..."
+    vero "Oh, hi."
+    vero "I didn't realize you two were together..."
     show vero f_normal
     show diane f_laugh
-    dia "О, мы-"
+    dia "Oh, we aren-"
     show diane f_normal
     show vero f_normal_talk
-    vero "Я {b}Вероника{/b}."
+    vero "I'm {b}Veronica{/b}."
     show vero f_normal
     show player 14
-    player_name "Приятно познакомиться."
+    player_name "Nice to meet you."
     show player 13
     show vero f_normal_talk
-    vero "Вау, {b}Диана{/b}!"
-    vero "Ты что-то скрываешь от меня."
+    vero "Wow, {b}Diane{/b}!"
+    vero "You've been holding out on me."
     show player 11
-    vero "Где ты нашла такого красивого молодого человека?!"
+    vero "Where did you find such a handsome young man?!"
     show vero f_normal
     show diane f_normal_talk
-    dia "Я не-"
+    dia "I didn't-"
     show diane f_normal
     show player 14
-    player_name "Этим летом я помог ей с садом."
+    player_name "I've been helping her with her garden this summer."
     show player 13
     show vero f_sexy_talk
-    vero "Ты не говорила..."
-    vero "Так когда вы начали встречаться?"
+    vero "You don't say..."
+    vero "So when did you two start dating?"
     show vero f_sexy
     show player 23
-    player_name "Встречаться?!" with hpunch
+    player_name "Dating?!" with hpunch
     show player 22
     show diane f_surprised
     dia "!!!"
     show diane f_smirk
     show player 29 with dissolve
-    player_name "О, Я не..."
+    player_name "Oh, I didn't..."
     show player 3
     show vero f_sexy_talk
-    vero "Хмм?"
+    vero "Hmm?"
     show vero f_sexy
     show diane f_smirk_talk
-    dia "{b}[firstname]{/b}, просто мой друг..."
+    dia "{b}[firstname]{/b}, is just a friend of mine..."
     show diane f_smirk
     show player 13 with dissolve
     show vero f_laugh
-    vero "О, прости!"
+    vero "Oh, I'm sorry!"
     show vero f_normal_talk
-    vero "Я не хотела делать поспешных выводов, я просто подумала..."
+    vero "I didn't mean to jump to conclusions, I just thought..."
     show vero f_thinking
     vero "..."
     show vero f_laugh
-    vero "Хехе, неважно."
+    vero "Hehe, nevermind."
     dia "..."
     show vero f_normal_talk
-    vero "{b}*гм*{/b} Могу я вам чем-нибудь помочь?"
+    vero "{b}*Ahem*{/b} Well, can I help you find anything?"
     show vero f_normal
     show diane f_normal_talk
-    dia "Нет, спасибо. Мы точно знаем, что нам нужно."
+    dia "No, thanks. We know exactly what we need."
     show diane f_normal
     show vero f_normal_talk
-    vero "Хорошо, я оставлю вас наедине с этим..."
-    vero "... Позвони мне как-нибудь!"
+    vero "Alright, well I'll leave you to it..."
+    vero "... Call me sometime!"
     show vero f_sexy_talk
-    vero "Я бы хотела услышать больше о том, чем ты занималась этим летом."
+    vero "I'd love to hear more about what you've been up to this summer."
     show vero f_sexy
     show diane f_normal_talk
-    dia "Хех, да. Хорошо."
-    dia "Пока, {b}Ви{/b}."
+    dia "Heh, yeah. Alright."
+    dia "See ya, {b}Vee{/b}."
     show diane f_normal
     hide vero with dissolve
     pause
     show player 10f at right with dissolve
-    player_name "Откуда ты ее знаешь?"
+    player_name "How do you know her?"
     show player 13f
     show diane f_thinking
-    dia "О, она часто мне помогала... Знаешь, с инструментами и советами по садоводству."
+    dia "Oh, she used to help me out a lot... You know, with tools and advice on gardening."
     show diane f_normal_talk
-    dia "Она выросла на ферме, поэтому знает намного больше меня."
+    dia "She grew up on a farm, so she knows a lot more than I do."
     show diane f_normal
     show player 14f
-    player_name "Она кажется милой."
+    player_name "She seems nice."
     show player 13f
     show diane f_normal_talk
-    dia "Да, она действительно хорошая девушка."
-    dia "Немного легкомысленная ... Но, конечно, доброжелательная и вежливая."
+    dia "Yeah, she's a really nice girl."
+    dia "A bit ditzy... But certainly well intentioned and polite."
     show diane f_laugh
-    dia "Не могу поверить, что она думала, что мы встречаемся..."
+    dia "I can't believe she thought we were dating..."
     show diane f_normal
     show player 14f
-    player_name "Почему нет?"
+    player_name "Why not?"
     show player 13f
     show diane f_teasing
-    dia "Потому что ты такой молодой и красивый, а я такая-"
+    dia "Because you're so young and handsome and I'm so-"
     show diane f_normal
     show player 14f
-    player_name "Не говори что старая. Ты не старая..."
+    player_name "Don't say old. You're not old..."
     show player 17f
-    player_name "... И ты действительно привлекательная, {b}Диана{/b}!"
+    player_name "... And you're really hot, {b}Diane{/b}!"
     show player 13f
     show diane f_laugh_blush
-    dia "Ой, прекрати!"
+    dia "Oh, stop it!"
     show diane f_normal
     show player 14f
-    player_name "Я серьезно!"
+    player_name "I'm serious!"
     show player 13f
     show diane f_smirk_talk
-    dia "Хехе, спасибки..."
+    dia "Hehe, well thanks..."
     show diane f_smirk
     dia "..."
     show diane f_shamed_talk_smile
-    dia "{b}*гм*{/b} В любом случае, {b}пестицид{/b} должен быть вон там, на полке."
+    dia "{b}*Ahem*{/b} Anyways, the {b}pesticide{/b} should be just over there on the shelf."
     show diane a_casual_money with dissolve
-    dia "Вот деньги..."
-    dia "Ищи балончик с {b}зеленой крышкой.{/b}"
+    dia "Here's the money..."
+    dia "Look for the one with the {b}green cap.{/b}"
     hide player
     hide diane
     with dissolve
     return
 
-label consumr_diane_buy_bug_spray:
+label consumr_diane_buy_bug_spray_brought:
     scene expression "backgrounds/location_mall_consumr_closeup.jpg"
     show player 17 with dissolve
-    player_name "Хорошо, теперь давайте вернемся в дом {b}Дианы{/b} и уничтожим этих жуков!"
+    player_name "Alright, now let's get this back to {b}Diane's{/b} house and eradicate those bugs!"
+    label consumr_diane_buy_bug_spray_brought.tail:
     hide player with dissolve
     $ M_diane.trigger(T_diane_find_correct_bug_spray)
     $ game.main()
+
+label consumr_diane_buy_bug_spray_owned:
+    scene expression "backgrounds/location_mall_consumr_closeup.jpg"
+    show player 17 with dissolve
+    player_name "Oh, I already had this one!"
+    player_name "Better get this back to {b}Diane's{/b} house and eradicate those bugs!"
+    jump consumr_diane_buy_bug_spray_brought.tail
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

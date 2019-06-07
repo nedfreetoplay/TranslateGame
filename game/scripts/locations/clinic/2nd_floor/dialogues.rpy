@@ -1,24 +1,24 @@
 label hospital_second_floor_have_access_card:
     show player 410
     with dissolve
-    player_name "( Вот она! )"
-    player_name "( Теперь посмотрим, сработает ли... )"
+    player_name "( This must be it! )"
+    player_name "( Let's see if it works... )"
     return
 
 label hospital_second_floor_roz_storage_started:
     show player 12
     with dissolve
-    player_name "( На проходной есть дубликаты всех ключей... )"
-    player_name "( Может, я найду что-нибудь на её столе? )"
+    player_name "( The receptionist probably has duplicates of all the keys... )"
+    player_name "( Perhaps I could find some at her desk? )"
     return
 
 label hospital_second_floor_mrsj_sex_ed_started:
     show player 35
     with dissolve
-    player_name "Хмм..."
-    player_name "( Где же хранятся лекарства? )"
+    player_name "Hmm..."
+    player_name "( I wonder where they store all their medicine... )"
     show player 30
-    player_name "( Нужно найти {b}склад{/b}. )"
+    player_name "( I should find the {b}storage room{/b}. )"
     return
 
 label hospital_second_floor_phone_dialogue:
@@ -38,9 +38,9 @@ label hospital_second_floor_phone_mrsj_sex_ed_started:
     show player 404 with dissolve
     pause
     show player 406 with dissolve
-    player_name "Здрасьте!"
+    player_name "Hi!"
     pause
-    player_name "Там... Это... на втором этаже сигнализация сработала!!"
+    player_name "I... Umm... There's an emergency on the second floor!!"
     show player 407
     pause
     show player 408
@@ -49,29 +49,29 @@ label hospital_second_floor_phone_mrsj_sex_ed_started:
     pause
     pause
     show player 406
-    player_name "А, да, тут какой-то левый пациент шляется..."
+    player_name "Oh, yes, it's about an unregistered patient..."
     show player 407
     pause
     pause
     show player 406
-    player_name "Да, это срочно!"
+    player_name "Yes, it's urgent!"
     show player 408
     pause
     pause
     show player 407
     pause
     show player 406
-    player_name "Спасибо..."
+    player_name "Thank you..."
     show player 407
     pause
     show player 405 with dissolve
-    player_name "( Ну... должно сработать... )"
-    player_name "( Теперь бегом к её столу... )"
+    player_name "( Well... that should work... )"
+    player_name "( Let's see if she left her desk... )"
     hide player
     with dissolve
     return
 
 label hospital_second_floor_phone_nothing:
-    player_name "( Мне не нужно никому звонить. )"
+    player_name "( I have no reason to call anyone. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

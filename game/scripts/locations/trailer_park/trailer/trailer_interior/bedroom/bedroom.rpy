@@ -18,4 +18,17 @@ label trailer_bedroom_dialogue:
         $ game.timer.tick()
         $ player.go_to(L_map)
     $ game.main()
+
+label trailer_bedroom_roxxy_panties:
+    scene expression player.location.background_blur with None
+    show player 725 with dissolve
+    player_name "( These are {b}Roxxy's{/b} panties. )"
+    player_name "( Man, how in the heck does she wear these things? )"
+    player_name "( Thongs look so uncomfortable... )"
+    pause
+    player_name "( I bet {b}Master Somrak{/b} would like these. )"
+
+    hide player with dissolve
+    $ player.get_item("roxxy_panties")
+    $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

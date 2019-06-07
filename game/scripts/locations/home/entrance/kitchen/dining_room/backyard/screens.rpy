@@ -1,4 +1,6 @@
-screen backyard:
+screen backyard():
+    use mods_screens_hook("backyard")
+
     add game.timer.image("backgrounds/location_home_backyard_day{}.jpg")
 
     imagebutton:
@@ -13,8 +15,8 @@ screen backyard:
             focus_mask True
             pos (52,537)
             idle "objects/object_chair_02.png"
-            hover HoverImage("objects/object_chair_02.png")
-            action Show("popup_unfinished")
+
+            action NullAction()
 
     if player.location.is_here(M_mom):
         imagebutton:
@@ -24,7 +26,15 @@ screen backyard:
             hover HoverImage("objects/character_debbie_07.png")
             action Hide("backyard"), Jump("mom_pool_dialogue")
 
-screen mom_finger_options:
+    if player.location.is_here(M_jenny) and not M_jenny.pregnancy.gave_birth:
+        imagebutton:
+            focus_mask True
+            pos (107, 455)
+            idle "characters/jenny/buttons/character_jenny_04[M_jenny.pregnancy.to_string].png"
+            hover HoverImage("characters/jenny/buttons/character_jenny_04{}.png".format(M_jenny.pregnancy.to_string))
+            action TalkTo(M_jenny)
+
+screen mom_finger_options():
     imagebutton:
         focus_mask True
         pos (250,700)

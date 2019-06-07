@@ -1,4 +1,4 @@
-init -2 python:
+init -20 python:
     class KeepRefs(object):
         __refs__ = defaultdict(list)
         def __init__(self):
@@ -10,6 +10,73 @@ init -2 python:
                 inst = inst_ref()
                 if inst is not None:
                     yield inst
+
+    class Set(object):
+        def __init__(self, *items):
+            self.items = list(set(items))
+        
+        def __len__(self):
+            return len(self.items)
+        
+        def __getitem__(self, index):
+            return self.items[index]
+        
+        def __setitem__(self, index, item):
+            if item not in self.items:
+                self.items[index] = item
+            else:
+                raise ValueError
+        
+        def __delitem__(self, index):
+            del self.items[index]
+        
+        def __iter__(self):
+            return self
+        
+        def __contains__(self, item):
+            return item in self.items
+        
+        def __nonzero__(self):
+            return self.__bool__()
+        
+        def __bool__(self):
+            return len(self) != 0
+        
+        def __reversed__(self):
+            return reversed(self.items)
+        
+        def __str__(self):
+            return "{" + ", ".join(self.items) + "}"
+        
+        def __repr__(self):
+            return "Set(" + str(self) + ") at " + id(self)
+        
+        def next(self):
+            for item in self.items:
+                yield item
+        
+        def append(self, item):
+            self.items.insert(len(self), item)
+        
+        def insert(self, index, item):
+            if item not in self.items:
+                self.items.insert(index, item)
+        
+        def pop(self, index=None):
+            if index is None:
+                index = len(self)
+            return self.items.pop(index)
+        
+        def extend(self, other_list):
+            other_list = list(set(other_list))
+            self.items.extend(other_list)
+            self.items = list(set(other_list))
+        
+        def remove(self, item):
+            self.items.remove(item)
+        
+        def sort(cmp=None, key=None, reverse=False):
+            self.items.sort(cmp, key, reverse)
 
     class LastUpdatedOrderedDict(OrderedDict):
         'Store items in the order the keys were last added'
@@ -38,18 +105,17 @@ init -2 python:
         def isempty(self):
             return len(self.listkeys) == 0
 
-    def format_seconds_to_dhm(seconds):
-        """
-            returns a string in the format : (x)d (y)h (z)m
-        """
-        string_to_format = '{}d, {}h, {}m'
-        seconds = float(seconds)
-        days = int(seconds / float(60*60*24))
-        seconds -= days * (60*60*24)
-        hours = int(seconds / float(60*60))
-        seconds -= hours * (60*60)
-        minutes = int(seconds / 60.0)
-        return string_to_format.format(days, hours, minutes)
+    class PlayTimer:
+        def __str__(self):
+            delta = datetime.timedelta(seconds=renpy.get_game_runtime())
+            mins = delta.seconds // 60
+            return '{}d, {}h, {}m'.format(delta.days, mins / 60, mins % 60)
+
+    playtime = PlayTimer()
+
+    def call_action(action):
+        if callable(action):
+            action()
 
     def get_label(machine, location, state, variable=None):
         if variable is None:
@@ -113,11 +179,28 @@ init -2 python:
     def text_identity(text):
         return text
 
-    class Quest:
-        def __init__(self, name, image="", status= False):
-            self.name = name
-            self.image = image
-            self.status = status
+    def safe_parse_dict(dct, *keys, **kwargs):
+        default = kwargs.get('default', None)
+        list_to_append = kwargs.get('list_to_append', None)
+        def _p(dct, k, default):
+            try:
+                return dct[k]
+            except KeyError, e:
+                if list_to_append is not None:
+                    list_to_append.append(e.args[0])
+                if default is not None:
+                    return default
+                elif list_to_append is not None:
+                    return None
+                raise e
+        rv = dct
+        for k in keys:
+            try:
+                rv = _p(rv, k, default)
+            except TypeError:
+                print("Extra positionnal argument passed, is default properly named in the arguments")
+                return rv
+        return rv
 
     def clamp(number, lower, upper):
         assert lower < upper, "Error in clamp call, lower bound is greater than upper bound"
@@ -150,4 +233,50 @@ init -2 python:
             else:
                 false_angles.append((initial_angle, initial_speed))
         return true_angles, false_angles
+
+    def is_string(variable):
+        return isinstance(variable, str) or isinstance(variable, unicode)
+
+
+    pick = renpy.loadsave.dumps
+
+    def test(obj, prt=True):
+        def tstlst(lst, prt):
+            for i, v in enumerate(lst):
+                if prt:
+                    print i, v
+                else:
+                    print i
+                pick(v)
+        def tstcls(cls, prt):
+            for k, v in cls.__dict__.items():
+                if prt:
+                    print k, v
+                else:
+                    print k
+                pick(v)
+        def tstdct(dct, prt):
+            for k, v in dct.items():
+                if prt:
+                    print k, v
+                else:
+                    print k
+                pick(v)
+        if isinstance(obj, list) or isinstance(obj, tuple):
+            tstlst(obj, prt)
+        elif isinstance(obj, dict):
+            tstdct(obj, prt)
+        elif isinstance(obj, object):
+            tstcls(obj, prt)
+
+    def randomchoices(population, weights=[]):
+        if len(weights) < len(population):
+            weights.extend([1]*(len(population)-len(weights)))
+        
+        sumpop = [[population[i]]*weights[i] for i in range(len(population))]
+        rv = []
+        for spop in sumpop:
+            rv.extend(spop)
+        random.shuffle(rv)
+        return random.choice(rv)
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

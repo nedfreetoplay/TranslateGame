@@ -1,4 +1,23 @@
-screen consumr:
+init python:
+    def bug_spray_callback(already_owned=False):
+        if M_diane.is_state(S_diane_get_bug_spray):
+            renpy.scene(layer='screens')
+            if already_owned:
+                renpy.jump('consumr_diane_buy_bug_spray_owned')
+            else:
+                renpy.jump('consumr_diane_buy_bug_spray_brought')
+
+    def milk_jug_callback(already_owned=False):
+        if M_diane.is_state(S_diane_buy_milk_jug):
+            renpy.scene(layer='screens')
+            if already_owned:
+                renpy.jump('consumr_diane_get_milk_jug_owned')
+            else:
+                renpy.jump('consumr_diane_get_milk_jug_bought')
+
+screen consumr():
+    use mods_screens_hook("consumr")
+
     add "backgrounds/location_mall_consumr_day.jpg"
 
     imagebutton:
@@ -99,7 +118,7 @@ screen consumr:
         hover HoverImage("boxes/auto_option_03.png")
         action Hide("consumr"), Jump("mall_dialogue")
 
-screen popup_parts:
+screen popup_parts():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_parts")
@@ -113,7 +132,7 @@ screen popup_parts:
         hover HoverImage("buttons/shop_button_200.png")
         action Hide("popup_parts"), BuyItem("parts")
 
-screen popup_swimsuit:
+screen popup_swimsuit():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_swimsuit")
@@ -127,7 +146,7 @@ screen popup_swimsuit:
         hover HoverImage("buttons/shop_button_100.png")
         action Hide("popup_swimsuit"), BuyItem("swimsuit")
 
-screen popup_webcam:
+screen popup_webcam():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_webcam")
@@ -141,7 +160,7 @@ screen popup_webcam:
         hover HoverImage("buttons/shop_button_300.png")
         action Hide("popup_webcam"), BuyItem("supersaga_webcam")
 
-screen popup_bike:
+screen popup_bike():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_bike")
@@ -153,9 +172,10 @@ screen popup_bike:
         pos (410,421)
         idle "buttons/shop_button_500.png"
         hover HoverImage("buttons/shop_button_500.png")
-        action Hide("popup_bike"), BuyItem("bike", "get_bike_dialogue")
+        action (Hide("popup_bike"),
+                BuyItem("bike", Function(player.upgrade_transport, 1)))
 
-screen popup_milkjug:
+screen popup_milkjug():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide ("popup_milkjug")
@@ -167,9 +187,12 @@ screen popup_milkjug:
         pos (410,421)
         idle "buttons/shop_button_300.png"
         hover HoverImage("buttons/shop_button_300.png")
-        action Hide("popup_milkjug"), BuyItem("milkjug", "diane_get_milk_jug_dialogue")
+        action (Hide("popup_milkjug"),
+                BuyItem("milkjug",
+                        buy_action=Function(milk_jug_callback),
+                        own_action=Function(milk_jug_callback, True)))
 
-screen popup_exterminator:
+screen popup_exterminator():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_exterminator")
@@ -183,7 +206,7 @@ screen popup_exterminator:
         hover HoverImage("buttons/shop_button_100.png")
         action Hide("popup_exterminator"), BuyItem("exterminator")
 
-screen popup_eradicator:
+screen popup_eradicator():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_eradicator")
@@ -197,7 +220,7 @@ screen popup_eradicator:
         hover HoverImage("buttons/shop_button_100.png")
         action Hide("popup_eradicator"), BuyItem("eradicator")
 
-screen popup_annihilator:
+screen popup_annihilator():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_annihilator")
@@ -209,9 +232,12 @@ screen popup_annihilator:
         pos (410,421)
         idle "buttons/shop_button_100.png"
         hover HoverImage("buttons/shop_button_100.png")
-        action Hide("popup_annihilator"), BuyItem("annihilator", "diane_get_bug_spray_dialogue")
+        action (Hide("popup_annihilator"),
+                BuyItem("annihilator",
+                        buy_action=Function(bug_spray_callback),
+                        own_action=Function(bug_spray_callback, True)))
 
-screen popup_gas_can:
+screen popup_gas_can():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_gas_can")
@@ -225,7 +251,7 @@ screen popup_gas_can:
         hover HoverImage("buttons/shop_button_100.png")
         action Hide("popup_gas_can"), BuyItem("gas_can")
 
-screen popup_wrench:
+screen popup_wrench():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_wrench")
@@ -239,7 +265,7 @@ screen popup_wrench:
         hover HoverImage("buttons/shop_button_50.png")
         action Hide("popup_wrench"), BuyItem("wrench")
 
-screen popup_cat_food:
+screen popup_cat_food():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_cat_food")
@@ -253,7 +279,7 @@ screen popup_cat_food:
         hover HoverImage("buttons/shop_button_100.png")
         action Hide("popup_cat_food"), BuyItem("cat_food")
 
-screen popup_chicken_stock:
+screen popup_chicken_stock():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_chicken_stock")
@@ -272,20 +298,20 @@ label consumr_chicken_stock_dialogue:
     show player 4
     with dissolve
     if M_okita.is_state(S_okita_get_ingredients):
-        player_name "Хм, Окита сказала {b}овощной бульон{/b}, но у них есть только куриный..."
-        player_name "Может, Клерк мне поможет?"
+        player_name "Hmm, Okita said {b}Vegetable Stock{/b} but they only have Chicken..."
+        player_name "Maybe the Clerk can help me?"
     else:
-        player_name "Не понимаю, зачем мне сейчас куриный бульон..."
+        player_name "I don't see why I would need chicken stock right now..."
     $ game.main()
 
-screen popup_fail01:
+screen popup_fail01():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_fail01")
 
     add "boxes/popup_shopping_fail01.png"
 
-screen popup_fail02:
+screen popup_fail02():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("popup_fail02")

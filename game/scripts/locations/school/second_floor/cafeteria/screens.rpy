@@ -1,4 +1,6 @@
-screen cafeteria:
+screen cafeteria():
+    use mods_screens_hook("cafeteria")
+
     add game.timer.image("backgrounds/location_school_cafeteria{}.jpg")
 
     imagebutton:

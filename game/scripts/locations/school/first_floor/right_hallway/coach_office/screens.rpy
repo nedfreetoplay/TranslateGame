@@ -1,4 +1,6 @@
-screen coach_bridgets_office:
+screen coach_bridgets_office():
+    use mods_screens_hook("coach_bridgets_office")
+
     add game.timer.image("backgrounds/location_school_gym_office_day{}.jpg")
 
     if M_bissette.get_state() == S_bissette_roxxy_pom_poms and player.has_item("pompoms"):
@@ -35,7 +37,7 @@ screen coach_bridgets_office:
             hover HoverImage("boxes/auto_option_generic_02.png")
             action Hide("coach_bridgets_office"), Jump("right_hall_dialogue")
 
-screen coachs_locker:
+screen coachs_locker():
     add "coach_locker"
 
     if M_bissette.get_state() == S_bissette_roxxy_pom_poms:

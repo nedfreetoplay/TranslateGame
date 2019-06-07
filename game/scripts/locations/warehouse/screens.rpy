@@ -1,4 +1,6 @@
-screen warehouse:
+screen warehouse():
+    use mods_screens_hook("warehouse")
+
     add game.timer.image("Backgrounds/location_warehouse_day{}.jpg")
 
     imagebutton:

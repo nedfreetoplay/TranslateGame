@@ -1,4 +1,6 @@
-screen mias_house_entrance:
+screen mias_house_entrance():
+    use mods_screens_hook("mias_house_entrance")
+
     if M_mia.is_set('harold left') and game.timer.is_dark():
         add "backgrounds/location_mia_house_without_night.jpg"
 

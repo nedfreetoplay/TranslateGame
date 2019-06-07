@@ -1,4 +1,6 @@
-screen trailer:
+screen trailer():
+    use mods_screens_hook("trailer")
+
     add game.timer.image("backgrounds/location_trailer{}.jpg")
 
     if player.location.is_here(M_clyde):

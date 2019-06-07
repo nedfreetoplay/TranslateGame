@@ -1,7 +1,5 @@
-label micoe_triggers_init:
-    python:
-        T_micoe_intro = Trigger()
-    return
+init python:
+    T_micoe_intro = Trigger()
 
 label micoe_fsm_init:
     python:

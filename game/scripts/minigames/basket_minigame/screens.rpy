@@ -175,6 +175,6 @@ init python:
                 self.ball.start_time=clock()
             pass
 
-screen basketball_minigame:
+screen basketball_minigame():
     add BasketMinigame()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

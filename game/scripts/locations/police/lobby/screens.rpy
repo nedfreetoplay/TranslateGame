@@ -1,4 +1,6 @@
-screen police_lobby:
+screen police_lobby():
+    use mods_screens_hook("police_lobby")
+
     add "backgrounds/location_police_lobby.jpg"
 
     imagebutton:

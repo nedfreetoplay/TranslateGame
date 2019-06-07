@@ -1,4 +1,6 @@
-screen bank:
+screen bank():
+    use mods_screens_hook("bank")
+
     add "backgrounds/location_bank_day.jpg"
 
     imagebutton:
@@ -15,7 +17,7 @@ screen bank:
         hover HoverImage("objects/object_desk_06.png")
         action Show("desk06_options")
 
-screen atm01_options:
+screen atm01_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("atm01_options")
@@ -27,7 +29,7 @@ screen atm01_options:
         hover HoverImage("boxes/atm01_option_01.png")
         action Hide("atm01_options"), Hide("bank"), Show("atm")
 
-screen desk06_options:
+screen desk06_options():
     imagebutton:
         idle "backgrounds/menu_ground.png"
         action Hide("desk06_options")
@@ -39,7 +41,7 @@ screen desk06_options:
         hover HoverImage("boxes/desk06_option_01.png")
         action Hide("bank"), Hide("desk06_options"), Jump("bank_teller_dialogue")
 
-screen atm:
+screen atm():
     add "backgrounds/location_bank_atm_01.jpg"
 
     $ money = '{:20,}'.format(player.inventory.savings)

@@ -64,7 +64,7 @@ init python:
             if self.score >= self.score_to_beat:
                 config.mouse = None
                 renpy.jump("shooting_range_success")
-            instructions_r = renpy.render(Text("Нажмите на цели, чтобы стрелять в них!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(Text("Click on the targets to shoot them!", style = "style_instructions"), width, height, st, at)
             score_r = renpy.render(Text(str(self.score), style = "style_shooting_score"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),20))
@@ -85,6 +85,6 @@ init python:
                 renpy.jump("shooting_range_fail")
             pass
 
-screen shooting_minigame:
+screen shooting_minigame():
     add ShootingMinigame()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

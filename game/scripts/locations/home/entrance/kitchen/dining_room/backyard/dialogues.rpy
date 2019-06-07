@@ -3,10 +3,10 @@ label backyard_mom_fetch_towel_fail:
     show debbie 204 at left
     show player 13f at right
     with dissolve
-    deb "Ты забыл принести мне {b}полотенце из ванны{/b}?"
+    deb "Did you forget to get me a {b}towel from the bathroom{/b}?"
     show debbie 205
     show player 14f
-    player_name "Прости! Сейчас вернусь!"
+    player_name "Sorry! I'll be right back!"
     return
 
 label backyard_mom_fetch_towel_success:
@@ -16,301 +16,301 @@ label backyard_mom_fetch_towel_success:
     with dissolve
     player_name "( !!! )"
     show player 14f
-    player_name "Я думал, что ты подождешь снаружи!"
+    player_name "I thought you were going to wait outside?"
     show player 239_240f with dissolve
     pause
     show player 495f with dissolve
-    player_name "Вот полотенце."
+    player_name "Here's the towel."
     show player 494f
     show debbie 208
-    deb "А знаешь, я думаю, что оно мне больше не нужно..."
-    deb "Тут уже намного комфортнее."
+    deb "You know what, I don't think I need it anymore..."
+    deb "It feels much better in here."
     show player 11f with dissolve
-    deb "... И..."
+    deb "... And..."
     show player 26f
     show debbie 209_210 with dissolve
-    deb "...я надеялась..."
-    deb "... Что ты захочешь..."
-    deb "... Согреть меня по другому..."
+    deb "...I was kind of hoping..."
+    deb "... You might want to..."
+    deb "... Warm me up a different way?"
     show debbie 207 with dissolve
     show player 11f
-    player_name "{b}*Глоток*{/b}"
+    player_name "{b}*Gulp*{/b}"
     show player 10f
-    player_name "Я... Эмм-"
+    player_name "I... Uhhh-"
     show player 5f
     show debbie 209_210 with dissolve
-    deb "В чем проблема? Ты ведь не всегда такой стеснительный..."
+    deb "What's the matter? You're not always this shy..."
     show debbie 208 with dissolve
-    deb "Я хочу тебя, прямо сейчас!"
+    deb "I really want you, right now!"
     show debbie 207
     show player 11f
     player_name "( !!! )"
     show debbie 208
-    deb "Почему ты не подходишь?"
-    deb "Я так хочу воспользоваться твоими пальчиками..."
+    deb "Why don't you come closer?"
+    deb "I could really use those skilled fingers of yours..."
     show debbie 183bf with dissolve
     show player 434f
     show debbie 184df with dissolve
-    deb "... Что ты сказал?"
+    deb "... What do you say?"
     show debbie 184cf
     show player 435f
-    player_name "Я..."
+    player_name "I..."
     show player 434f
     show debbie 184df
-    deb "Потрогай меня, {b}[firstname]{/b}!"
-    deb "Я так сильно этого хочу!"
+    deb "Touch me, {b}[firstname]{/b}!"
+    deb "I want it so bad!"
     hide player
     show debbie 190f
     show player finger 193bf
     with dissolve
-    player_name "О-окей..."
+    player_name "O-okay..."
     show debbie 191f
-    deb "Прямо тут, милый!"
+    deb "Right here, sweetie!"
     show debbie 193f with dissolve
-    deb "Я хочу почувствовать тебя внутри!"
+    deb "I want to feel you inside of me!"
     return
 
 label backyard_mom_midnight_swim:
     scene home_diningroom_cs01 with fade
-    show text "С каждым шагом к нашей стеклянной двери, моё сердце начинало биться всё сильнее .\nЧто же может сейчас произойти?!\nЯ тихо приоткрыл дверь и выглянул наружу...\n... Я никак не мог ожидать того, что там увидел!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "My heart was pounding as I approached our sliding glass door.\nWhat could be going on at this hour?!\nI cracked the door quietly and peered out onto the moonlit scene...\n... I certainly wasn't expecting this!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
 
-    scene home_backyard_pool_c
+    scene expression "backgrounds/location_home_backyard_pool_closeup_night.jpg"
     show debbie 214
-    deb "Хаха! Даже не знаю, что с тобой делать, {b}Диана{/b}!"
+    deb "Hahaha! I just don't know what I'm going to do with you, {b}Diane{/b}!"
     show debbie 212
-    dia "Хмм, ну, у меня есть несколько предложений..."
+    dia "Hmm, well I have a few suggestions..."
     show debbie 214
-    dia "Хехе!"
-    deb "Я в тебе и не сомневалась!"
+    dia "Hehe!"
+    deb "I bet you do!"
     show debbie 211
-    dia "Знаешь, я не удивлена из-за того, что {b}[firstname]{/b} так сильно тебя хочет... Ты в прекрасной форме, {b}[deb_name]{/b}!"
+    dia "You know, it's no wonder {b}[firstname]{/b} wants you so badly... You've kept yourself in great shape, {b}[deb_name]{/b}!"
     show debbie 213
-    deb "... Да, мне очень повезло! Думаю, что работа по дому этому способствует, но по большей части это гены."
-    deb "Твоя грудь выглядит просто прекрасно! Это результат твоего бизнеса?"
+    deb "... Yeah, I've been pretty fortunate! The housework helps but I think it's mostly just good genes."
+    deb "Your breasts are looking amazing by the way! Is that a result of your new business venture?"
     show debbie 212
-    dia "Mммхмм. Ты уже обдумала мое предложение?"
+    dia "Mmmhmm. Have you given any more thought to my offer?"
     show debbie 215
-    dia "Я тебе говорю, {b}[deb_name]{/b}. Из-за этого нового нососа у меня муражки по все спине!"
+    dia "I'm telling you, {b}[deb_name]{/b}. This new auto pump I've been using sends tingles down my entire spine!"
     show debbie 213
-    deb "Ты такая грязная, {b}Диана{/b}!"
+    deb "You're so bad, {b}Diane{/b}!"
     show debbie 211
-    dia "Да, и я горжусь этим! Разве весело быть хорошей девочкой?!"
+    dia "That's right and I'm proud of it! Where's the fun in being a good girl, hmm?!"
     show debbie 214
-    deb "Ха ха ха!"
-    dia "Ха ха ха!"
+    deb "Ha ha ha!"
+    dia "Ha ha ha!"
     show debbie 212b_215b
     pause
     pause
     show debbie 213
-    deb "Ммм, это так приятно..."
-    deb "... Я думаю, что это вино ударило прямо мне в голову."
-    deb "А ты что о нем думаешь?"
+    deb "Mmm, that feels good..."
+    deb "... I think that wine went straight to my head."
+    deb "What do you think of it?"
     show debbie 212
-    dia "Оно вкусное, {b}[deb_name]{/b}. Но я уверена, что даже не в половину такое вкусное как ты..."
+    dia "It's yummy, {b}[deb_name]{/b}. Though I bet it's not half as delicious as you are..."
     show debbie 213
-    deb "Тц... А ты совсем беспощадная, знаешь?"
+    deb "Tsk... You're relentless, you know that?"
     show debbie 212
-    dia "Но я не виновата! Это ведь ты возбудила меня всеми этими историями про тебя и твою молодую игрушку!"
+    dia "It's not my fault! You're the one who got me all horned up with those stories of you and your new boy toy!"
     show debbie 200
     show diane 170
     with dissolve
     pause
     show diane 171
-    dia "Как оно продвигается, кстати?"
-    dia "Есть что-нибудь новенькое?"
+    dia "How's that going by the way?"
+    dia "Any new developments?"
     show diane 176
-    dia "Я хочу знать все детали!"
+    dia "I want all the details!"
     show diane 175
     show debbie 201
-    deb "... Я всё ещё не решила, хочу ли я заходить так далеко."
+    deb "... I still haven't decided if I want to take things further."
     show debbie 198
     show diane 170
     pause
     show debbie 199
-    deb "Не пойми меня неправильно, это очень соблазнительно! Я так скучаю по сексу..."
+    deb "Don't get me wrong, It's been really tempting! I miss sex, so much..."
     show debbie 198
     show diane 173
-    dia "Кому ты это рассказываешь."
+    dia "Tell me about it."
     show diane 172
-    dia "Я уже так давно не трахалась!"
+    dia "I haven't been fucked properly in ages!"
     show diane 174
-    dia "Мои овощи не идут ни в какое сравнение с настоящими приборами..."
+    dia "My vegetables just don't compare to the real thing..."
     show diane 175
     show debbie 199
-    deb "Всё ещё не могу поверить, что ты занимаешься чем-то подобным!"
+    deb "I still can't believe you do that!"
     show debbie 198
     show diane 176
-    dia "Хей, не осуждай пока не попробуешь!"
-    dia "Это намного лучше обычной мастурбации! Думаю, что это просто глупое табу..."
+    dia "Hey, Don't knock it until you've tried it!"
+    dia "It's so much better than regular masturbation! I think it's the taboo associated with it..."
     show diane 175
     show debbie 199
-    deb "Да, может быть, но мне хорошо и с моими пальцами, {b}Диана{/b}..."
-    deb "У меня никогда не было проблем с оргазмом. Но в последнее время... Я только прикасаюсь и бум, фейерверки!"
+    deb "Yeah well, I'm perfectly okay with just using my fingers, {b}Diane{/b}..."
+    deb "I've never had a problem getting myself off. In fact, lately... It's like I barely have to touch myself and boom, fireworks!"
     show debbie 198
     show diane 176
-    dia "... Серьезно?"
+    dia "... Really?"
     show diane 175
     pause
     show debbie 199
-    deb "Это всё {b}[firstname]{/b}, {b}Диана{/b}! Вся эта история будто что-то пробудила во мне..."
+    deb "It's {b}[firstname]{/b}, {b}Diane{/b}! This whole thing has really awoken something inside of me..."
     show debbie 198
     show diane 171
-    dia "Звучит офигенно!"
+    dia "It sounds amazing!"
     show diane 170
     show debbie 199
-    deb "То, как он на меня смотрит... Как хищник, выслеживающий жертву."
+    deb "The way he looks at me... Like a predator stalking it's prey."
     show debbie 198
     show diane 171
-    dia "Mмм, я так завидую!"
+    dia "Mmm, I'm so jealous!"
     show diane 170
     show debbie 199
-    deb "Иногда я хочу просто отдаться ему. Не могу перестать представлять эту сцену!"
+    deb "Sometimes I want to just give in and let him take me. I can't stop picturing it in my head!"
     show debbie 198
     show diane 171
-    dia "Это так горячо!"
+    dia "That's so hot!"
     show diane 170
-    deb "Mмм..."
+    deb "Mmm..."
     show diane 174
-    dia "Просто представь, как он берет тебя... Разрывает твою маленькую узкую киску!"
+    dia "Just imagine him, having his way with you... Ravaging your tight little pussy!"
     show diane 170
     show debbie 201
-    deb "Mмм, о господи!"
+    deb "Mmm, oh god!"
     show debbie 199
-    deb "Прекрати, {b}Диана{/b}..."
+    deb "Stop it, {b}Diane{/b}..."
     show debbie 201
-    deb "Из-за тебя я ещё сильнее возбуждаюсь."
+    deb "You're getting me all worked up."
     show debbie 198
     pause
     show diane 171
-    dia "... Ну так сделай с этим что-нибудь!"
+    dia "... Yeah, well. Do something about it!"
     show diane 170
     pause
     show debbie 199
-    deb "Это плохая идея, {b}Диана{/b}."
-    deb "Это мимолетное увлечение. Он скоро вырастет и начнет ухлестывать за девочками своего возраста."
+    deb "It's a bad idea, {b}Diane{/b}."
+    deb "This is just a silly crush. He'll grow out of it eventually and start chasing after girls his own age."
     show debbie 198
     show diane 171
-    dia "Ты не можешь быть в этом уверена!"
-    dia "А я уверена, что {b}[firstname]{/b} должен попробывать женщину в самом соку, а именно тебя. Ты должна взять его, пока он не переключился на кого-нибудь ещё."
+    dia "You don't know that for certain!"
+    dia "I'm pretty sure {b}[firstname]{/b} has a taste for older women and you specifically. You should grab hold of him before he moves on to someone else."
     show diane 170
     show debbie 199
-    deb "Я не знаю..."
-    deb "... Как ты можешь быть в этом уверена?"
+    deb "I don't know..."
+    deb "... How can you be sure?"
     show debbie 198
     show diane 176
-    dia "Давай я просто скажу, что у меня свои причины."
+    dia "Let's just say I have my reasons."
     show diane 175
     show debbie 199
-    deb "{b}*Эх*{/b}"
+    deb "{b}*Sigh*{/b}"
     show debbie 198
     show diane 176
-    dia "Хватит мучать себя, просто сделай это, {b}[deb_name]{/b}!"
-    dia "Просто оттрахай его по полной! А как только он войдет во вкус - он будет у тебя на крючке!"
+    dia "Stop tormenting yourself and do it, {b}[deb_name]{/b}!"
+    dia "Just make sure you really fuck his brains out! Once he gets a taste of that, he'll be hooked!"
     show diane 175
     show debbie 201
-    deb "... Может ты права."
-    deb "То есть, он же такой неопытный... Я могу многому его научит."
+    deb "... Maybe you're right."
+    deb "I mean, he's so inexperienced... There's a lot I could teach him."
     show debbie 199
-    deb "... А он быстро учится!"
-    deb "... И этот его член..."
+    deb "... He's a quick learner too!"
+    deb "... And that cock of his..."
     show debbie 198
     show diane 174
-    dia "А вот и те детали, которых я так жду!"
-    dia "Расскажи мне, этот его большой член..."
-    dia "И правда такой большой, как ты сказала?!"
+    dia "There's the juicy details I've been waiting for!"
+    dia "Tell me, this big cock of his..."
+    dia "Is it really as big as you've made it out to be?!"
     show diane 176
-    dia "... Потому что мне кажется, что ты немного преувеличиваешь!"
+    dia "... Cause you are really over selling it!"
     show diane 175
     show debbie 201
-    deb "{b}Диана{/b}, я клянусь тебе. Никогда не видела ничего подобного!"
-    deb "Не уверена, что я даже смогу нормально его описать!"
+    deb "{b}Diane{/b}, I'm telling you. I've never seen anything like it!"
+    deb "I'm not sure I can even properly describe it!"
     show debbie 200
     show diane 173
-    dia "Хмм, полагаю, я сама должна его увидеть..."
+    dia "Hmm, I guess it's something I'll just have to see for myself..."
     show diane 175
     show debbie 201
-    deb "Хей, даже не думай об этом!"
+    deb "Hey, don't be getting any ideas now!"
     show debbie 200
     show diane 176
-    dia "Что?! Неужели после всех тех прекрасных советов, что я тебе давала... Ты даже не дашь мне присоединиться?!"
+    dia "What?! Are you saying that after all this good advice I've been giving you... You aren't going to let me in on the fun?!"
     show diane 175
     pause
     show debbie 199
-    deb "О боже! Я с ним даже ещё не спала, а ты уже пытаешься залезть к нам в постель!"
+    deb "Good lord! I haven't even slept with him yet and you're already trying to negotiate your way into our bed!"
     show debbie 201
-    deb "Есть у тебя хоть капля стыда?"
-    show debbie 200
-    show diane 172
-    dia "Хаха! Ты права, я снова была плохой девочкой, правда?"
-    dia "Меня нужно наказать..."
-    show diane 170
-    pause
-    show diane 173
-    dia "... Я думаю, что тебе стоит позвать {b}[firstname]{/b}, чтобы он это сделал..."
-    dia "... Ну, чтобы я точно усвоила урок!"
-    show diane 174
-    dia "Только если ты не захочешь сделать это самостоятельно?"
-    show diane 170
-    show debbie 199
-    deb "... Я думаю, тебе уже хватит вина."
-    show debbie 198
-    show diane 176
-    dia "Вот и конец веселью..."
-    show debbie 200
-    dia "Что ж, ну если так... Думаю, мне лучше пойти домой."
-    show diane 173
-    dia "Тебя завтра ждет насыщенный день."
-    show diane 175
-    show debbie 201
-    deb "... А ты всё не оставляешь свои надежды, {b}Диана{/b}! Кто знает, что произойдет на самом деле..."
-    deb "Я тебе скоро позвоню, ладно?"
+    deb "Don't you have any shame?"
     show debbie 200
     show diane 172
-    dia "Да уж, позвони! Отправлять меня домой, такую взволнованную и возбужденную..."
+    dia "Haha! You're right, I'm being a bad girl again, aren't I?"
+    dia "I should be punished..."
+    show diane 170
+    pause
+    show diane 173
+    dia "... And you should probably have {b}[firstname]{/b} do it..."
+    dia "... You know, to make sure the lesson sticks!"
+    show diane 174
+    dia "Unless you'd rather do it yourself?"
+    show diane 170
+    show debbie 199
+    deb "... I think that's enough wine for you."
+    show debbie 198
+    show diane 176
+    dia "Party pooper..."
+    show debbie 200
+    dia "Well, if that's the case... I suppose I'd better head on home."
+    show diane 173
+    dia "It sounds like you've got a busy day ahead of you tomorrow."
+    show diane 175
+    show debbie 201
+    deb "... Don't get your hopes up, {b}Diane{/b}! Who know's what will happen..."
+    deb "I'll call you soon, okay?"
+    show debbie 200
+    show diane 172
+    dia "You had better! Sending me home all hot and bothered like this..."
     show diane 171
-    dia "Знаешь, хороший друг хотя бы предложил меня подвести!"
+    dia "You know, a good friend would have at taken me for a quick spin at the very least!"
     show diane 177 with dissolve
     pause
     show debbie 201
-    deb "Да, да... Спокойной ночи, {b}Диана{/b}!"
+    deb "Yeah, yeah... Goodnight, {b}Diane{/b}!"
     show debbie 202
     show diane 178
     with dissolve
-    dia "Воу!"
-    dia "Думаю, это вино и мне неплохо ударило по голове!"
-    deb "Ты уверена, что сможешь добраться до дома?"
-    dia "Хех, со мной всё будет отлично!"
-    dia "Ну, особенно с того момента, как оба полотенца у меня!!"
+    dia "Whoa!"
+    dia "I guess that wine went to my head as well!"
+    deb "Are you sure you're gonna be alright on your way home?"
+    dia "Heh, I'll be fine!"
+    dia "I mean, especially since I have both towels!!"
     show diane 179 with dissolve
-    dia "Хахаха! Спокойной ночи, {b}сосочка{/b}!"
-    deb "Эй! {b}Диана{/b}! Какого черта!"
+    dia "Hahaha! Goodnight, {b}Sucker{/b}!"
+    deb "Hey! {b}Diane{/b}! What the hell!"
     hide diane with dissolve
     pause
     show debbie 199 with dissolve
-    deb "Неужели она и правда оставит тут всю свою одежду?"
-    deb "... Что за легкомыслие."
+    deb "I guess she's just going to leave her clothes here?"
+    deb "... What a Goober."
     show debbie 198
     pause
     show debbie 199
-    deb "Нужно уже ложиться..."
-    deb "... Мне многое нужно обдумать."
+    deb "I should head to bed..."
+    deb "... I have a lot to think about."
     scene black with fade
     hide debbie
     pause 1
 
     scene home_diningroom_night_c
     show player 26f with dissolve
-    player_name "Не знаю, почему {b}[deb_name]{/b} и {b}Диана{/b} были настолько расковаными... Нужно спросить, не нужна ли {b}[deb_name]{/b} моя помощь."
+    player_name "I had no idea {b}[deb_name]{/b} and {b}Diane{/b} were so intimate... I should ask if {b}[deb_name]{/b} needs any help."
     hide player with dissolve
 
     scene backyard_night_c with fade
     show debbie 208f at left
     show player 434f at right
     with dissolve
-    deb "Не могу поверить, что она оставила свою одежду... Сумасшедшая женщина."
+    deb "I can't believe she left without her clothes... Crazy woman."
     show player 435f
     player_name "{b}[deb_name]{/b}?"
     show player 434f
@@ -318,49 +318,49 @@ label backyard_mom_midnight_swim:
     deb "( !!! )"
     show player 13f
     show debbie 204
-    deb "Милый!"
-    deb "Чт... что ты тут делаешь?"
+    deb "Sweetie!"
+    deb "Wha... what are you doing out here?"
     show debbie 205
     show player 14f
-    player_name "Я услышал какой-то шум."
-    player_name "Просто пришел удостовериться, что всё в порядке..."
+    player_name "I heard noises."
+    player_name "I was just checking to make sure everything was alright..."
     show player 13f
     show debbie 204
-    deb "Ох, хех. Прости! Просто мы с {b}Дианой{/b} немного перебрали."
+    deb "Oh, heh. Sorry! It was just {b}Diane{/b} and I being silly."
     show debbie 205
     show player 26f
-    player_name "Оу, окей."
+    player_name "Oh, okay."
     show player 14f
-    player_name "{b}Диана{/b} уже ушла?"
+    player_name "Did {b}Diane{/b} leave already?"
     show player 13f
     show debbie 204
-    deb "Хех, да. И она забрала оба полотенца!"
+    deb "Heh, yeah. She took took off with both the towels!"
     show debbie 206
-    deb "Надеюсь, что она спокойно доберется домой."
+    deb "I hope she makes it home alright."
     show debbie 205
     show player 29f with dissolve
-    player_name "Хе, серьезно? Может стоит её догнать?"
+    player_name "Heh, for real? Should I go after her?"
     show player 13f with dissolve
     show debbie 204
-    deb "... Неа. С ней всё будет в порядке."
+    deb "... Nah. She'll be fine."
     show debbie 205
     pause
     show player 434f
     show debbie 206
-    deb "{b}*Брр*{/b} Нужно уже заходить."
-    deb "Тут уже достаточно холодно..."
+    deb "{b}*Brrr*{/b} I should get inside."
+    deb "It's a big cold out here..."
     show debbie 205
     show player 14f
-    player_name "Может принести тебе полотенце?"
+    player_name "Why don't I go fetch you a towel?"
     show player 13f
     show debbie 204
-    deb "Это было бы кстати, милый. Одно должно висеть в {b}ванной{/b}."
-    deb "Я тебя тут подожду."
+    deb "That would be great, sweetie. There should be one hanging up in the {b}Bathroom{/b}."
+    deb "I'll wait for you."
     show debbie 205
     show player 14f
-    player_name "Я быстро..."
+    player_name "I'll go quick..."
     show player 10f
-    player_name "Туда и обратно!"
+    player_name "Be right back!"
     hide player
     hide debbie
     with dissolve
@@ -392,9 +392,9 @@ label mom_pool_dialogue:
     $ game.main()
 
 label mom_finger_loop:
-    show screen sex_anim_buttons
+    show screen sex_anim_buttons 
     pause
-    hide screen sex_anim_buttons
+    hide screen sex_anim_buttons 
     hide player finger
     $ animcounter = 0
     while animcounter < 4:
@@ -409,7 +409,7 @@ label mom_finger_loop:
                     show expression AnimatedImage("debbie", [194,195,196], M_mom) as debbie at right
                     if M_mom.is_set("robe on"):
                         show expression AnimatedImage("debbie_robe", ["194b","195b","196b"], M_mom) as debbie_robe at right
-            $ animated = True
+                $ animated = True
             pause 4
             call expression game.dialog_select("debbie_finger_hscene_dialog")
             pause 3
@@ -439,37 +439,37 @@ label mom_finger_loop:
 label debbie_finger_hscene_dialog:
     if animcounter == 0:
         if randomizer() <= 50:
-            deb "Охх...{p=1}{nw}"
-            deb "Вот так, милый.{p=2}{nw}"
+            deb "Ohh...{p=1}{nw}"
+            deb "Just like that, sweetie.{p=2}{nw}"
         else:
-            deb "Твои пальцы... Так приятно...{p=2}{nw}"
-            deb "Ты такой хороший мальчик...{p=2}{nw}"
+            deb "Your fingers... So good...{p=2}{nw}"
+            deb "You're such a good boy...{p=2}{nw}"
 
     elif animcounter == 1:
         if randomizer() <= 50:
-            deb "Ох, малыш...{p=1}{nw}"
+            deb "Oh, baby...{p=1}{nw}"
         else:
-            deb "Почему ты так хорош?{p=2}{nw}"
+            deb "How did you get so good?{p=2}{nw}"
 
     elif animcounter == 2 and first_pass and not M_mom.is_state(S_mom_fetch_towel):
         $ first_pass = False
         if randomizer() <= 50:
-            player_name "Ты такая влажная {b}[deb_name]{/b}.{p=2}{nw}"
-            player_name "О чем же ты думала до того, как я зашел на кухню?{p=3}{nw}"
-            deb "...Ты..."
+            player_name "You're so wet {b}[deb_name]{/b}.{p=2}{nw}"
+            player_name "What were you thinking about before I came into the kitchen?{p=3}{nw}"
+            deb "...You..."
         else:
-            player_name "Тебе нравится, когда тебя трахают пальцами прямо на кухне?{p=3}{nw}"
-            deb "О, милый... я... я...{p=2}{nw}"
-            deb "Мне нравится...{p=1}{nw}"
-            deb "Я такая пошлая девчонка...{p=2}{nw}"
+            player_name "Do you like getting fingered on the kitchen counter?{p=3}{nw}"
+            deb "Oh, baby... I... I...{p=2}{nw}"
+            deb "I do...{p=1}{nw}"
+            deb "I'm such a naughty girl...{p=2}{nw}"
 
     elif animcounter == 3:
         if randomizer() <= 50:
-            deb "Я... Я... Уже почти!{p=2}{nw}"
+            deb "I'm... I'm... almost!{p=2}{nw}"
         else:
-            deb "Ох!!!{p=1}{nw}"
-            deb "Да, в этом месте, милый!{p=2}{nw}"
-            deb "Aхх!!{p=1}{nw}"
+            deb "Oh!!!{p=1}{nw}"
+            deb "That's the spot, sweetie!{p=2}{nw}"
+            deb "Ahh!!{p=1}{nw}"
     return
 
 label mom_finger_cum:
@@ -495,13 +495,13 @@ label mom_finger_cum:
 
 label mom_finger_cum_pre:
     if M_mom.is_state(S_mom_fetch_towel):
-        deb "Ох!"
-        deb "Милый!"
+        deb "Oh!"
+        deb "Sweetie!"
     else:
 
-        player_name "Тебе это нравится?"
-        deb "Пожалуйста, перестань меня дразнить!"
-        deb "Я так хочу кончить!"
+        player_name "You like that?"
+        deb "Oh, stop teasing me, please!"
+        deb "I want to cum!"
         $ M_mom.set("sex speed", .100)
         if M_mom.is_set("sex flip"):
             show expression AnimatedImage("debbie", ["194f","195f","196f"], M_mom) as debbie at left
@@ -514,8 +514,8 @@ label mom_finger_cum_pre:
                 show expression AnimatedImage("debbie_robe", ["194b","195b","196b"], M_mom) as debbie_robe at right
         pause
         pause
-        deb "Ооо!!!!"
-        deb "Да!!!"
+        deb "Oh!!!!"
+        deb "Yes!!!"
 
     if M_mom.is_set("sex flip"):
         show player finger 193bf zorder 3
@@ -529,7 +529,7 @@ label mom_finger_cum_pre:
         if M_mom.is_set("robe on"):
             show debbie_robe 197b at center
     with flash
-    deb "AХХХ!"
+    deb "AHHH!"
     pause
     return
 
@@ -537,41 +537,41 @@ label mom_finger_cum_first_time:
     show debbie 197ff at left
     show player 11f at Position (xpos=600)
     with dissolve
-    deb "Милый?"
+    deb "Sweetie?"
     show debbie 197cf
     show player 12f
-    player_name "Да-"
+    player_name "Yea-"
     show player 11f
     show debbie 197df
-    deb "Ой, нет... нет, нет, нет... Что же я натворила?!"
-    deb "Я не должна была..."
+    deb "Oh, no... no, no, no... What have I done?!"
+    deb "I shouldn't have..."
     show debbie 197ff
-    deb "Мы не должны были..."
+    deb "We shouldn't..."
     show debbie 197cf
     show player 10f
-    player_name "Всё хорошо, {b}[deb_name]{/b}..."
+    player_name "It's alright, {b}[deb_name]{/b}..."
     show player 11f
     show debbie 197ff
-    deb "Нет, не хорошо! Я не..."
+    deb "No, it's not! I should never have..."
     show debbie 197df
-    deb "Это всё вино."
-    deb "... Мне нужно идти..."
+    deb "It's all that wine."
+    deb "... I should go..."
     show debbie 197ff
-    deb "Прости меня, {b}[firstname]{/b}!"
+    deb "I'm so sorry, {b}[firstname]{/b}!"
     show debbie 197df
-    deb "Я..."
+    deb "I..."
     hide debbie with fastdissolve
     show player 10 at center with dissolve
     player_name "{b}[deb_name]{/b}?"
     show player 10
-    player_name "Я был так близко..."
+    player_name "I was really close..."
     show player 5
     pause
     show player 24
-    player_name "Я надеюсь, что с ней всё в порядке..."
+    player_name "I hope she's okay..."
     pause
     show player 25
-    player_name "Наверное, лучше мне {b}подняться к себе{/b} и дать ей побыть одной."
+    player_name "I should probably {b}head upstairs to my bed{/b} and give her some time alone."
     hide player with dissolve
     return
 
@@ -583,20 +583,20 @@ label mom_finger_cum_repeat:
     with dissolve
 
     if randomizer() <= 50:
-        deb "Ох, милый, это было прекрасно."
+        deb "Oh, baby, that was wonderful."
         show debbie 184c
         show player 14 at Position (xoffset=-118)
-        player_name "Спасибо {b}[deb_name]{/b}."
+        player_name "Thanks {b}[deb_name]{/b}."
     else:
 
-        deb "Ох! Это было прекрасно... Меня до сих пор трясет!"
-        deb "Уверена, что твой член сейчас просто невероятно твердый."
+        deb "Oh! That was awesome. I've still got the shivers!"
+        deb "I bet that cock of yours is hard as a rock."
         show debbie 184c
         show player 14 at Position (xoffset=-118)
-        player_name "Да, мне приятно доводить тебя до оргазма."
+        player_name "Yeah, it was fun making you cum."
     show player 13 at Position (xoffset=-118)
     show debbie 184d
-    deb "Если хочешь, чтобы я позаботилась о тебе - только скажи."
+    deb "If you want me to take care of that for you, just let me know."
     return
 
 label mom_midnight_swim:

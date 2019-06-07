@@ -1,5 +1,3 @@
-default current_camshow = 1
-
 label MC_computer:
     if game.timer.is_night():
         call expression game.dialog_select("MC_computer_night_locked")
@@ -9,7 +7,7 @@ label MC_computer:
 label MC_pass_check:
     if MC_pass.lower().strip() == "cookies":
         scene expression game.timer.image("backgrounds/location_computer_player_01{}.jpg")
-        $ MC_comp_locked = False
+        $ M_player.set("computer locked", False)
     else:
 
         scene expression game.timer.image("backgrounds/location_computer_player_01{}.jpg")

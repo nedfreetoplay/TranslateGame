@@ -3,36 +3,36 @@ label micoe_dialogue_blowjob:
     show player 10 at left
     show micoe at flip
     with dissolve
-    player_name "Помнишь, когда ты мне помогла ... Хм, достав мой образец для тестирования."
+    player_name "Remember when you helped me... Umm, extract my sample for testing."
     show player 5
     show micoe f_sexy_talk
-    micoe "Ты имеешь в виду, когда я сосала твой член в ванной?"
+    micoe "You mean, when I sucked your cock in the bathroom?"
     show micoe f_sexy
     show player 11
     player_name "!!!"
     show player 29 with dissolve
-    player_name "Да."
+    player_name "Y-yeah."
     show player 3
     show micoe f_laugh
-    micoe "Хе-хе, я думаю, что мы перестали стесняться, {b}[firstname]{/b}."
+    micoe "Hehehe, I think we're past being shy, {b}[firstname]{/b}."
     show micoe f_sexy_talk
-    micoe "Ты здесь, чтобы дать мне еще раз попробовать?"
+    micoe "You here to let me have another taste?"
     show micoe f_sexy
     show player 17 with dissolve
-    player_name "Ага."
+    player_name "Uh huh."
     hide player
     show micoe b_pulling f_empty a_empty
     with dissolve
-    micoe "Давай, малыш."
+    micoe "C'mon cutie."
     scene expression "backgrounds/location_hospital_bathroom.jpg"
     show player 13f at right
     show micoe f_sexy_talk
     with dissolve
-    micoe "Чего ты ждешь?"
-    micoe "Доставай свой член!"
+    micoe "What are you waiting for?"
+    micoe "Get that cock out!"
     show micoe f_sexy
     show player 14f
-    player_name "Хорошо."
+    player_name "O-okay."
     show player 261b with dissolve
     pause
     show player 263b at Position (xoffset=-150)
@@ -40,38 +40,38 @@ label micoe_dialogue_blowjob:
     with dissolve
     pause
     show micoe knees_talk
-    micoe "Ммм, я высосу этот прекрасный член в любое время, когда ты захочешь, {b}[firstname]{/b}!"
+    micoe "Mmm, I'll suck this beautiful cock anytime you want, {b}[firstname]{/b}!"
     $ M_micoe.set('sex speed', .12)
     $ anim_toggle = True
     $ animated = True
     scene expression "backgrounds/location_hospital_bathroom_closeup.jpg"
     show expression AnimatedImage("micoe_bj", [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], M_micoe) as micoe_bj at Position(xalign = 0.0, yoffset = 0)
     with dissolve
-    micoe "{b}*чмок*{/b}"
-    player_name "О, боже..."
-    player_name "Это потрясающе, {b}Мико{/b}."
-    micoe "Мммммммм!"
+    micoe "{b}*Slurp*{/b}"
+    player_name "Oh, god..."
+    player_name "That feels amazing, {b}Micoe{/b}."
+    micoe "Mmhmm!"
     return
 
 label micoe_dialogue_goodbye:
     show player 14 at left
     show micoe f_normal at flip
-    player_name "Просто поздороваться."
+    player_name "Just saying hello."
     show player 13
     show micoe f_sad_talk
-    micoe "О, ну, это разочаровывает..."
+    micoe "Oh, well that's disappointing..."
     show micoe f_sexy_talk
-    micoe "Я подумала, что ты здесь, чтобы немного повеселиться."
+    micoe "I thought maybe you were here to have a little fun."
     show micoe f_sexy
     show player 14
-    player_name "Прости."
+    player_name "Sorry."
     show player 13
     pause
     show player 14
-    player_name "Увидимся позже, хорошо?"
+    player_name "I'll see you around, okay?"
     show player 13
     show micoe f_normal_talk
-    micoe "Хорошо, милашка."
+    micoe "Alright, cutie."
     hide player
     hide micoe
     with dissolve
@@ -81,8 +81,8 @@ label micoe_dialogue_intro:
     scene expression player.location.background_blur with None
     show player 13 at left
     show micoe f_normal_talk at flip
-    micoe "Эй, милашка."
-    micoe "Что привело тебя ко мне?"
+    micoe "Hey there, cutie."
+    micoe "What brings you back to see me?"
     show micoe f_normal
     return
 
@@ -90,185 +90,185 @@ label micoe_dialogue_increase_chance_of_conception:
     show micoe at flip
     show player 10 at left
     with dissolve
-    player_name "Могу ли я сделать что-нибудь еще, чтобы помочь моим друз-"
-    player_name "{b}*хмм*{/b} Я имею в виду, помочь моей девушке зачать ребенка?"
+    player_name "Is there anything more I could be doing to help my fri-"
+    player_name "{b}*Ahem*{/b} I mean, help my girlfriend conceive a baby?"
     show player 5
     show micoe f_normal_talk
-    micoe "Хм, она об этом беспокоится?"
+    micoe "Hmm, is she stressing out about it?"
     show micoe f_normal
     show player 10
-    player_name "Эхх, не совсем ..."
-    player_name "Я просто хочу убедиться, что делаю все возможное, чтобы помочь ей."
+    player_name "Ehh, not really..."
+    player_name "I just want to make sure I'm doing everything I can to help her."
     show player 5
     show micoe f_laugh
-    micoe "Оу, ты такой милый!"
+    micoe "Aww, you're so sweet!"
     show player 13
     show micoe f_normal_talk
-    micoe "Ну, у вас двоих было много секса?"
+    micoe "Well, are you two having lots of sex?"
     show micoe f_normal
     show player 29 with dissolve
-    player_name "Да."
+    player_name "Y-yeah."
     show player 13 with dissolve
     show micoe f_normal_talk
-    micoe "... И какую позицию ты используешь?"
+    micoe "... And what position are you using?"
     show micoe f_normal
     show player 10
-    player_name "... Позицию?"
+    player_name "... Position?"
     show player 5
     show micoe f_sexy_talk
-    micoe "Да, в каком положении ты занимаешься сексом?"
+    micoe "Yeah, what position are you having sex in?"
     show micoe f_sexy
     show player 10
-    player_name "Э-э, я не знаю."
+    player_name "Err, I dunno."
     show player 14
-    player_name "Я думаю, я обычно позади нее ..."
+    player_name "I guess, I'm usually behind her..."
     show player 13
     show micoe f_sexy_talk
-    micoe "Собачий стиль?"
+    micoe "Doggy style?"
     show micoe f_sexy
     show player 5
     player_name "..."
     show micoe f_laugh
-    micoe "Хе-хе, ты такой милый!"
+    micoe "Hehe, you're so cute!"
     show micoe f_normal_talk
-    micoe "Собачий стиль должен хорошо работать для зачатия."
+    micoe "Doggy style should work fine for conception."
     show player 13
-    micoe "Многие врачи рекомендуют его, потому что он обеспечивает самое глубокое проникновение."
+    micoe "A lot of doctors recommend it, because it allows for the deepest penetration."
     show micoe f_wink
     pause
     show micoe f_sexy_talk
-    micoe "Хотя, с тем, что вы упаковываете, глубокое проникновение не будет проблемой."
+    micoe "Though, with what you're packing, deep penetration isn't going to be issue."
     show micoe f_sexy
     show player 29 with dissolve
-    player_name "Хе, да..."
+    player_name "Heh, y-yeah..."
     show player 13 with dissolve
     show micoe f_normal_talk
-    micoe "Вы можете попробовать миссионерскую позицию."
+    micoe "You might try the missionary position."
     show micoe f_normal
     show player 10
-    player_name "Это как?"
+    player_name "What's that?"
     show player 13
     show micoe f_normal_talk
-    micoe "Это когда женщина лежит на спине, а ты сверху."
-    micoe "В этом положении сила тяжести поможет перенести сперму к шейке матки."
+    micoe "It's when the woman lays on her back and you're on top."
+    micoe "In that position, gravity will help carry your semen to the cervix."
     show micoe f_normal
     show player 17
-    player_name "О, я понимаю! Нормальный стиль."
+    player_name "Ohh, I get it! Normal style."
     show player 18
     show micoe f_sad
     pause
     show player 14
-    player_name "В этом есть смысл."
+    player_name "That makes sense."
     show player 13
     pause
     show player 14
-    player_name "Что-нибудь еще?"
+    player_name "Anything else?"
     show player 13
     show micoe f_normal
-    micoe "Хмм."
+    micoe "Hmm."
     show micoe f_normal_talk
-    micoe "Наврятли."
-    micoe "К сожалению, самым большим препятствием в вашей ситуации является возраст вашей девушки."
+    micoe "Not really."
+    micoe "Unfortunately, the biggest hurdle in your situation is your girlfriend's age."
     show micoe f_normal
     show player 10
-    player_name "Да."
+    player_name "Yeah."
     show player 5
     pause
     show player 10
-    player_name "Ты уверена, что я больше ничем не могу помочь?"
+    player_name "Are you sure there's nothing else I can do to help?"
     show player 5
     show micoe f_normal_talk
-    micoe "Ну..."
+    micoe "Well..."
     show micoe f_look_back
     pause
     show micoe f_normal_talk
-    micoe "Есть только одна вещь... Но я действительно не должна говорить об этом."
+    micoe "There is one thing... But I'm really not supposed to talk about it."
     show micoe f_normal
     show player 12
-    player_name "Эээ?"
-    player_name "Да ландо, скажи?"
+    player_name "Huh?"
+    player_name "How come?"
     show player 5
     pause
     show player 14
-    player_name "Если есть шанс, что это поможет, я действительно должен знать!"
-    player_name "{b}Диана{/b} действительно хочет забеременеть."
+    player_name "If there's a chance it will help, I really have to know!"
+    player_name "{b}Diane{/b} really has her heart set on getting pregnant."
     show player 13
     pause
     show player 18
-    player_name "Пожалуйста?"
+    player_name "Please?"
     show micoe f_laugh
-    micoe "Нгх, ты просто такой милый!"
+    micoe "Ngh, you're just so sweet!"
     show player 13
     show micoe f_normal_talk
-    micoe "Хорошо, я скажу вам ... Но я вам ничего не говорила!"
-    micoe "Ясно?"
+    micoe "Alright, I'll tell you... But you didn't hear this from me!"
+    micoe "Understand?"
     show micoe f_normal
     show player 14
-    player_name "Да, я понял!"
+    player_name "Y-yeah, I understand!"
     show player 13
     show micoe f_normal_talk
-    micoe "Существует новый препарат, который показал многообещающие результаты, когда речь заходит о повышении уровня зачатия."
-    micoe "Оно называется {b}Pregnax{/b}."
+    micoe "There's a new drug that's been showing a lot of promise when it comes to increasing conception rates."
+    micoe "They're calling it {b}Pregnax{/b}."
     show micoe f_normal
     show player 14
-    player_name "Звучит отлично!"
+    player_name "That sounds perfect!"
     show player 12
-    player_name "В чем загвоздка?"
+    player_name "What's the catch?"
     show player 5
     show micoe f_normal_talk
-    micoe "Загвоздка в том, что они все еще на стадии тестирования."
+    micoe "Well, the catch is that they're still in the testing phase with it."
     show micoe f_normal
     pause
     show player 14
-    player_name "Все в порядке, я не против помочь протестировать их."
+    player_name "That's alright, I don't mind helping you test it."
     show player 13
     show micoe f_laugh
-    micoe "Хехе, ты должен поговорить с {b}Доктором Сингх{/b} про это."
+    micoe "Hehe, you'll have to talk with {b}Dr. Singh{/b} about that."
     show micoe f_normal
     show player 10
-    player_name "{b}Доктор Сингх{/b}?"
+    player_name "{b}Dr. Singh{/b}?"
     show player 5
     show micoe f_normal_talk
-    micoe "Да, {b}Сингх{/b} - это новый доктор в модных штанах, которого они доставили откуда-то из-за границы."
-    micoe "Работает на {b}3-ем этаже{/b}."
-    micoe "Исследует {b}Pregnax{/b} уже несколько лет."
+    micoe "Yeah, {b}Singh's{/b} this new fancy pants doctor they shipped in from somewhere overseas."
+    micoe "Works up on the {b}third floor{/b}."
+    micoe "Been developing {b}Pregnax{/b} for years now."
     show micoe f_normal
     show player 14
-    player_name "Хорошо, я пойду и поговорю с ней!"
+    player_name "Okay, so I'll just go and talk with with him!"
     show player 13
     show micoe f_sad_talk
-    micoe "Хех, я бы хотела, чтобы все было так просто."
-    micoe "К сожалению, {b}третий этаж{/b} является запретной зоной."
-    micoe "аже у меня нет доступа к нему."
+    micoe "Heh, I wish it were that easy."
+    micoe "Unfortunately, the {b}third floor{/b} is a restricted area."
+    micoe "Even I don't have access to it."
     show micoe f_normal
     show player 12
-    player_name "Так, и как мне получить доступ?"
+    player_name "So how do I get access?"
     show player 5
     show micoe f_normal_talk
-    micoe "Я не смогу тебе помочь с этим, милашка."
-    micoe "Не многие люди в клинике имеют право подняться на {b}третий этаж{/b}."
+    micoe "I can't really help you there, cutie."
+    micoe "Not many people in the clinic have the credentials to get up on the {b}third floor{/b}."
     show micoe f_normal
     show player 24
-    player_name "Черт."
+    player_name "Crap."
     pause
     show player 10
-    player_name "Хорошо, спасибо за информацию {b}Мико{/b}."
+    player_name "Alright, thanks for the info {b}Micoe{/b}."
     show player 5
     show micoe f_laugh
-    micoe "Нет проблем, милашка!"
+    micoe "No problem, cutie!"
     show micoe f_sexy_talk
-    micoe "Не стесняйся приходить ко мне, если у тебя есть еще вопросы ..."
+    micoe "Feel free to come and see me if you have anymore questions..."
     show player 13
     show micoe f_wink
     pause
     show micoe f_sexy_talk
-    micoe "... Или тебе захочется немного поразвлечься!"
+    micoe "... Or you feel like having a bit of naughty fun!"
     show micoe f_sexy
     show player 29 with dissolve
-    player_name "Да, хорошо."
+    player_name "Y-yeah, okay."
     show player 3
     show micoe f_sexy_talk
-    micoe "Ммм, так восхитительно ..."
+    micoe "Mmm, so adorable..."
     hide player
     hide micoe
     with dissolve
@@ -279,34 +279,34 @@ label micoe_dialogue_pregnax:
     show player 10 at left
     show micoe f_normal at flip
     with dissolve
-    player_name "Где я могу найти этот препарат от бесплодия?"
+    player_name "Where can I find that fertility drug again?"
     show player 5
     show micoe f_sad_talk a_dressed_shh at Position (xoffset=-175) with dissolve
-    micoe "Шшш!"
-    micoe "Не так громко!"
+    micoe "Shh!"
+    micoe "Not so loud!"
     show micoe f_normal a_dressed_front with dissolve
     show player 10
-    player_name "О, прости."
+    player_name "Oh, sorry."
     show player 5
     show micoe f_normal_talk
-    micoe "Они находятся на {b}3-ем этаже{/b}."
+    micoe "They keep it up on the {b}third floor{/b}."
     show micoe f_normal
     show player 14
-    player_name "{b}3-ий этаж{/b}, понятно!"
+    player_name "{b}Third floor{/b}, got it!"
     show player 13
     show micoe f_normal_talk
-    micoe "Подожди, ты не можешь просто ворваться туда."
-    micoe "Тебе нужно {b}найти кого-то, у кого есть доступ{/b}, чтобы проводить тебя туда."
+    micoe "Hold on, you can't just waltz up there."
+    micoe "You'll have to {b}find someone with access{/b} to take you."
     show micoe f_normal
     show player 10
-    player_name "Хм, кого я могу спросить?"
+    player_name "Hmm, who could I ask?"
     show player 5
     show micoe f_normal_talk
-    micoe "Прости, милашка, я не могу помочь тебе с этим."
-    micoe "Просто запомни, ты ничего не слышал от меня!"
+    micoe "Sorry cutie, I can't help you with that."
+    micoe "Just remember, you didn't hear any of this from me!"
     show micoe f_normal
     show player 14
-    player_name "Не волнуйся, я никому не скажу."
+    player_name "Don't worry, I won't tell."
     show player 18
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

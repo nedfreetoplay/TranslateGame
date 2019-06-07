@@ -1,4 +1,6 @@
-screen church_stairs:
+screen church_stairs():
+    use mods_screens_hook("church_stairs")
+
     add game.timer.image("backgrounds/location_church_stairs{}.jpg")
 
     imagebutton:

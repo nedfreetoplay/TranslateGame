@@ -1,4 +1,6 @@
-screen smiths_basement:
+screen smiths_basement():
+    use mods_screens_hook("smiths_basement")
+
     add L_smith_basement.background
 
     imagebutton:

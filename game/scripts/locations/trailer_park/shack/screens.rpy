@@ -1,4 +1,6 @@
-screen shack:
+screen shack():
+    use mods_screens_hook("shack")
+
     add L_trailer_shack.background
 
     if player.location.is_here(M_clyde):
@@ -39,7 +41,9 @@ screen shack:
         hover HoverImage("boxes/auto_option_generic_01.png")
         action Hide("shack"), Function(renpy.call, "trailer_lock_check", "trailer_park")
 
-screen shack_interior:
+screen shack_interior():
+    use mods_screens_hook("shack_interior")
+
     add L_trailer_shack_interior.background
 
     if player.location.is_here(M_clyde):

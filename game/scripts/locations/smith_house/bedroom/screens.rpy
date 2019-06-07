@@ -1,4 +1,6 @@
-screen smiths_bedroom:
+screen smiths_bedroom():
+    use mods_screens_hook("smiths_bedroom")
+
     add L_smith_bedroom.background
 
     if not player.has_item("smith_exams"):
@@ -33,7 +35,7 @@ screen smiths_bedroom:
             hover HoverImage(game.timer.image("objects/object_window_01{}.png"))
             action Hide("smiths_bedroom"), Jump("smith_window_exit_dialogue")
 
-screen smiths_bedroom_cabinet:
+screen smiths_bedroom_cabinet():
     add "backgrounds/location_smith_bedroom_cabinet.jpg"
 
     if not player.has_picked_up_item("smith_exams"):

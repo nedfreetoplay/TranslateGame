@@ -198,7 +198,7 @@ label dianes_kitchen_diane_clean_garden_report:
     player_name "What? You do."
     show player 13
     show diane f_smirk_talk a_lingerie_sides with dissolve
-    dia "{b}Debbie{/b} would throw a fit if she knew you saw me like this."
+    dia "{b}[deb_name]{/b} would throw a fit if she knew you saw me like this."
     show diane f_smirk
     show player 14
     player_name "Well, I'm not going to tell her..."
@@ -264,26 +264,26 @@ label dianes_kitchen_diane_clean_garden_report:
 label dianes_kitchen_diane_mouse_attack_started:
     scene dianekitchen with None
     show player 10 with dissolve
-    player_name "Блин. Её здесь тоже нет."
-    player_name "( Я был абсолютно уверен в этом... )"
+    player_name "Weird. She's not in here either."
+    player_name "( I thought for sure... )"
     show player 11
-    dia "ИИИИИИИИККККККК!"
+    dia "EEEEEEKKKKKKK!"
     show player 23f
-    player_name "Что за..."
-    player_name "( Это кричит {b}Диана{/b}?! )"
+    player_name "What the..."
+    player_name "( Is that {b}Diane{/b} screaming?! )"
     hide player with dissolve
     return
 
 label dianes_kitchen_diane_drunken_splur_not_known:
     scene dianekitchen1
-    player_name "( Здесь никого нет. )"
-    player_name "( {b}Диана{/b} снаружи у сада. )"
+    player_name "( There's no one here. )"
+    player_name "( {b}Diane{/b} is outside by the garden. )"
     return
 
 label mouse_attack:
     scene dianekitchen with None
     show player 10 with dissolve
-    player_name "( Я не могу просто уйти, {b}Диана{/b} может быть в беде. )"
+    player_name "( I can't just leave, {b}Diane{/b} might be in trouble. )"
     hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

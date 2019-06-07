@@ -1,4 +1,6 @@
-screen harolds_house_office:
+screen harolds_house_office():
+    use mods_screens_hook("harolds_house_office")
+
     add game.timer.image("backgrounds/location_mia_house_office_day{}.jpg")
 
     imagebutton:

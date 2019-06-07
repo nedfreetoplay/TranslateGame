@@ -1,4 +1,4 @@
-screen micoe_bj_options:
+screen micoe_bj_options():
 
     imagebutton:
         focus_mask True
