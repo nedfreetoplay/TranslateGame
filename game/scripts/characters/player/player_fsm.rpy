@@ -1,10 +1,10 @@
 init python:
 
-    T_mc_homework = Trigger("homework", "Complete French homework")
-    T_mc_nun_thoughts = Trigger("nun thoughts", "You go over the predicament the nun has put you in")
-    T_mc_mowed_lawn = Trigger("mowed lawn", "You have mowed your front lawn")
-    T_mc_lockerroom_change = Trigger("locker room changed", "You changed into your Jersey in the locker room")
-    T_mc_beach_sex = Trigger("beach sex", "You just had a foursome on the beach, lucky you.")
+    T_mc_homework = Trigger("homework", "Завершите домашнее задание по французскому языку")
+    T_mc_nun_thoughts = Trigger("nun thoughts", "Вы преодолеваете затруднительное положение, которое монахиня положила на вас")
+    T_mc_mowed_lawn = Trigger("mowed lawn", "Ты подстриг свой газон")
+    T_mc_lockerroom_change = Trigger("locker room changed", "Вы переоделись в свой Джерси в раздевалке")
+    T_mc_beach_sex = Trigger("beach sex", "Вам просто повезло с четверкой на пляже.")
 
 label player_fsm_init:
     python:
