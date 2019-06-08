@@ -2,31 +2,31 @@ label harold_police_office_dialogue_mia_route:
     show harold 1 at right
     show player 14 at left
     with dissolve
-    player_name "Hey, {b}Harold{/b}!"
+    player_name "Привет, {b}Гарольд{/b}!"
     show player 13
     show harold 2
-    harold "There's my man!"
+    harold "Вот мой мужик!"
     show harold 1
     show player 14
-    player_name "How are things going lately?"
+    player_name "Как идут дела в последнее время?"
     show player 13
     show harold 2
-    harold "Never been better! Our family is the happiest it's ever been!"
-    harold "{b}Helen{/b} has really changed. Really... changed."
-    harold "Things are red hot in the bedr-"
+    harold "Никогда не было лучше! Наша семья самая счастливая на свете!"
+    harold "{b}Хелен{/b} очень изменилась. Очень... изменилась."
+    harold "Горячие вещи в спа-"
     show harold 4
-    harold "Anyway, you know what I mean."
+    harold "В любом случае, ты знаешь, что я имею в виду."
     show harold 1
     show player 21
-    player_name "Heh heh... Yeah, I suppose..."
+    player_name "Хех хех... Да, я полагаю..."
     show player 13
     show harold 2
-    harold "I should get back to work."
-    harold "Feel free to stop by the house anytime, kiddo!"
+    harold "Я должен вернуться к работе."
+    harold "Не стесняйтесь заходить в дом в любое время, сынок!"
     show harold 1
     show player 14
-    player_name "Thanks, {b}Harold{/b}!"
-    player_name "See you later."
+    player_name "Спасибо, {b}Гарольд{/b}!"
+    player_name "Увидимся позже."
     return
 
 label harold_police_office_dialogue_helen_route_split:
@@ -39,184 +39,184 @@ label harold_police_office_dialogue_helen_route_split:
     with dissolve
     yum "!!!"
     show player 5f
-    yum "Oh! I didn't see you there..."
+    yum "О! Я не видела тебя тут...."
     show yum 14f at Position (xpos=382) with dissolve
     show harold 53
-    harold "Don't worry, {b}Yumi{/b}, it's just my daughter's little buddy."
+    harold "Не волнуйся, {b}Юми{/b}, это просто дружок моей дочери."
     show harold 52
     show player 10f
-    player_name "Hello..."
+    player_name "Привет..."
     show player 5f
     show yum 13f
-    yum "Hi... Oh! I forgot I have something I... need to take care of in my office."
+    yum "Привет... Ох! Я забыла, что у меня есть кое-что... нужно уладить в моем офисе."
     hide yum
     show harold 54
     with dissolve
     harold "..."
     show harold 55
-    harold "Sorry you had to see that, kiddo."
-    harold "{b}Yumi{/b} is more of a hands on partner..."
-    harold "Thought I'd try and teach her a couple things..."
+    harold "Прости, что тебе пришлось это увидеть, сынок."
+    harold "{b}Юми{/b} мой новый напарник..."
+    harold "Я бы попробовал научить ее паре вещей..."
     show harold 54
     show player 11f
     player_name "..."
     show player 10f
-    player_name "So you and {b}Helen{/b}..."
+    player_name "Так ты и {b}Хелен{/b}..."
     show player 5f
     show harold 55
-    harold "Look. That ship has sailed, kiddo. {b}Helen{/b} seems to have accepted our separation."
-    harold "I figured I'd better move on too."
-    harold "To tell you the truth."
-    harold "I've never been happier, and I've started seeing someone else."
+    harold "Слушай этот корабль уплыл, парень.. {b}Хелен{/b} по всей видимости согласилась с нашим расставанием."
+    harold "Я решил, что мне тоже лучше двигаться дальше."
+    harold "Сказать тебе правду."
+    harold "Я никогда не был счастливее, и я начал встречаться с кем-то другим."
     show harold 54
     show player 12f
-    player_name "I wonder who..."
+    player_name "Интересно,кто..."
     show player 10f
-    player_name "At least you're happy..."
+    player_name "По крайней мере, ты счастлив..."
     show player 5f
     pause
     show player 10f
-    player_name "But how is {b}Mia{/b} handling this? Is she going to be alright?"
+    player_name "Но как {b}Мия{/b} справилась с этим? С ней все будет в порядке?"
     show player 5f
     show harold 55
-    harold "I'm not giving up on {b}Mia{/b}."
-    harold "I visit her every day. She's my tough little girl."
-    harold "She always has been after having to put up with {b}Helen{/b} and I."
-    harold "She'll be alright."
+    harold "Я не отказываюсь от {b}Мии{/b}."
+    harold "Я навещаю ее каждый день. Она моя сильная маленькая девочка.."
+    harold "Она всегда была за то, чтобы померить {b}Хелен{/b} и меня."
+    harold "Все будет хорошо."
     show harold 54
     show player 12f
-    player_name "Good."
+    player_name "Хорошо."
     show player 5f
     show harold 55
-    harold "You're a good kid, {b}[firstname]{/b}. Thanks again for caring about my daughter."
-    harold "I appreciate you and her trying to get me back with {b}Helen{/b}..."
-    harold "It's just some things just don't work out..."
+    harold "Ты хороший парень, {b}[firstname]{/b}.Еще раз спасибо за заботу о моей дочери."
+    harold "Я ценю, что ты и она пытаетесь вернуть меня к {b}Хелен{/b}..."
+    harold "Просто некоторые вещи просто не работают..."
     show harold 54
     show player 21f
-    player_name "Heh heh..."
-    player_name "You're welcome."
+    player_name "Хех хех..."
+    player_name "Пожалуйста."
     show player 5f
     show harold 55
-    harold "Don’t be afraid to visit me if there is anything you need help with."
+    harold "Не бойсяь навещать меня, если тебе понадобится помощь."
     show harold 54
     show player 36f with dissolve
-    player_name "Will do. Goodbye, {b}Harold{/b}."
+    player_name "Хорошо. До свидания, {b}Гарольд{/b}."
     return
 
 label harold_police_office_dialogue_mia_harold_backup:
     show harold 1 at Position (xpos=762)
     show player 23 at left
     with dissolve
-    player_name "{b}Harold{/b}!!"
+    player_name "{b}Гарольд{/b}!!"
     show player 22
     show harold 6
-    harold "What's going on?? Did you find {b}Yumi{/b}?"
+    harold "Что происходит??Ты нашел {b}Юми{/b}?"
     show harold 1
     show player 38 with dissolve
-    player_name "Yes! But she needs your help, now!!"
+    player_name "Да! Но она нуждается в твоей помощи,сейчас!!"
     show player 3 with dissolve
     show harold 3
-    harold "What?!"
+    harold "Что?!"
     show harold 1
     show player 10 with dissolve
-    player_name "In the cell! {b}Yumi{/b}... She's struggling with an inmate!!"
+    player_name "В камере! {b}Юми{/b}... Она борется с заключенным!!"
     show player 5
     show harold 29
     harold "!!!"
     show harold 30 at right with dissolve
-    harold "I... I should call for more backup. Maybe I should tell {b}Earl{/b} first-"
+    harold "Я... Я должен вызвать подкрепление.. Возможно, я должен сказать {b}Эрлу{/b} первому-"
     show player 12
-    player_name "{b}Harold{/b}! There's no time!"
+    player_name "{b}Гарольд{/b}!Нет времени!"
     hide harold
     show harold 25 at Position (xpos=762)
     with dissolve
-    player_name "You have to take control of the situation."
+    player_name "Вы должны взять ситуацию под контроль."
     show player 11
     show harold 26
-    harold "But I should tell {b}Earl{/b} first..."
-    harold "...I haven't dealt with inmates in a long time and-"
+    harold "Но я должен сказать {b}Эрлу{/b} сначала..."
+    harold "...Я давно не имел дела с заключенными и-"
     show harold 25
     show player 15
-    player_name "{b}Yumi's{/b} your partner and needs your help!"
-    player_name "You have to go! NOW!!!"
+    player_name "{b}Юми{/b} ваш партнер и нуждается в вашей помощи!"
+    player_name "Ты должен идти!СЕЙЧАС!!!"
     show player 16
     show harold 24
     harold "..."
     show harold 6
-    harold "You're right. I should take action."
-    harold "Let's go."
+    harold "Ты прав. Я должен принять меры."
+    harold "Пошли."
     return
 
 label harold_police_office_dialogue_mia_harolds_thoughts:
     show harold 1 at right
     show player 36 at left
     with dissolve
-    player_name "Hi, {b}Harold{/b}."
+    player_name "Привет, {b}Гарольд{/b}."
     show player 13 with dissolve
     show harold 2
-    harold "Hello again, kiddo."
+    harold "Привет еще раз,парень."
     show harold 1
     show player 14
-    player_name "Thought I'd stop by and see how dinner was with {b}Mia{/b} and {b}Helen{/b}."
+    player_name "Решил заглянуть и узнать, как прошел ужин {b}Мии{/b} и {b}Хелен{/b}."
     show player 13
     show harold 6
-    harold "Oh... Umm... It was alright I guess. The food was really good."
+    harold "О... Эмм..Это было хорошо, я думаю. да была действительно хорошей."
     show harold 1
     show player 10
-    player_name "Do you think things have...gotten better between {b}Helen{/b}...and you?"
+    player_name "Как вы думаете, дела ...стали лучше между {b}Хелен{/b}...и тобой?"
     show player 5
     show harold 4
     harold "..."
     show harold 6
-    harold "I know {b}Mia{/b} is trying to get {b}Helen{/b} and I back together."
-    harold "You've been helping her too. You're a good kid."
+    harold "Я знаю {b}Мия{/b} пытается сделать чтобы {b}Хелен{/b} и я были снова вместе."
+    harold "Ты её помогаешь тоже.Ты хороший парень."
     show harold 1
     harold "..."
     show harold 6
-    harold "I suppose things between {b}Helen{/b} and I are better than when you saw us erupt at each other."
+    harold "Я предполагаю, что дела между {b}Хелен{/b} и мной лучше чем тогда, когда Вы видели нас Орущими друг на друга."
     show harold 4
     pause
-    harold "I... just don't know though..."
+    harold "Я... просто не знаю хотя..."
     show harold 1
     pause
     show player 10
-    player_name "Why don't you know?"
+    player_name "Почему ты не знаешь?"
     show player 5
     show harold 26
-    harold "Oh, kiddo."
-    harold "We may be on good terms now, but we could be at each other's throats again."
-    harold "For once, I'm thinking I might be happier on my own."
-    harold "My marriage might be better left behind me."
-    harold "Maybe... if {b}Helen{/b} really changed for good."
-    harold "It might be possible for us to get back together."
+    harold "О,сынок."
+    harold "Мы можем быть в хороших отношениях сейчас, но мы могли бы рвать друг другу глотки снова."
+    harold "Впервые, Я думаю, что мог бы быть более счастливым в одиночестве."
+    harold "Мой брак лучше оставить позади."
+    harold "Возможно... если {b}Хелен{/b} действительно изменился навсегда."
+    harold "Возможно, нам удастся снова быть вместе."
     show harold 1
     show player 14
-    player_name "I... I understand."
+    player_name "Я... Я понимаю."
     show player 13
     show harold 6
-    harold "I'd better get back to work. I just had another breakthrough on a case."
+    harold "Мне лучше вернуться к работе.У меня только что был очередной прорыв в деле."
     show harold 2
-    harold "See you later, {b}[firstname]{/b}."
+    harold "Увидимся позже, {b}[firstname]{/b}."
     show harold 1
     show player 14
-    player_name "Bye, {b}Harold{/b}."
+    player_name "Пока, {b}Гарольд{/b}."
     show player 13
-    hide harold with dissolve
+    hide harold with dissolve  
     pause
     show player 14
-    player_name "( Sounds like {b}Harold's{/b} telling me there's a chance he'd get back with {b}Helen{/b}. )"
+    player_name "( Звучит так, будто {b}Гарольд{/b} сказал мне, что есть шанс, что он вернется к {b}Хелен{/b}. )"
     show player 35
-    player_name "( Maybe {b}Sister Angelica's{/b} training is actually helping her and {b}Harold{/b}. )"
+    player_name "( Может быть тренировки {b}Сестры Анжелики{/b} фактически помогут ей и {b}Гарольду{/b}. )"
     show player 10
-    player_name "( But... he sure seems happy right now without {b}Helen{/b}... )"
-    player_name "( {b}Mia{/b} would be devastated if he didn't get back with {b}Helen{/b}. )"
+    player_name "( Но... он определенно кажется счастливым сейчас без {b}Хелен{/b}... )"
+    player_name "( {b}Мия{/b} будет в отчаянии, если он не вернется к {b}Хелен{/b}. )"
     show player 5
     player_name "..."
     show player 12
-    player_name "( I guess it's not really up to me at this point... )"
-    player_name "( Might as well finish helping {b}Sister Angelica{/b}. )"
+    player_name "( Думаю, на данный момент это не зависит от меня... )"
+    player_name "( Может так же закончить помогать {b}Сестре Анжелике{/b}. )"
     show player 35
-    player_name "( What did she want again? )"
+    player_name "( Что она хочет опять? )"
     hide player with dissolve
     return
 
@@ -226,51 +226,51 @@ label harold_police_office_dialogue_roxxy_ask_earl_release:
     show roxxy 1of at Position (xpos=400)
     show player 10 at left
     with dissolve
-    player_name "Hey, umm..."
-    player_name "My {b}friend's mother{/b} was taken into custody earlier today and we need to find out what's going on."
+    player_name "Привет, эмм..."
+    player_name "{b}Мать моего друга{/b} была взята под стражу сегодня утром, и нам нужно выяснить, что происходит."
     show player 5
     show harold 2
-    harold "Hmm?"
+    harold "Хммм?"
     show harold 2
-    harold "Oh, you must be {b}Crystal's{/b} daughter!"
+    harold "О, ты должно быть о дочке {b}Кристалл{/b}!"
     show harold 1
     show roxxy 33f
-    rox "... Yes."
+    rox "... Да."
     show roxxy 32f
     show harold 2
-    harold "Sheesh, you're the spitting image of her in her younger days!"
+    harold "Черт, Ты похожа не неё как две капли воды в молодости!"
     show harold 1
     rox "..."
     show player 10
-    player_name "Uhh, could you tell us why you're holding her?"
+    player_name "Эмм, скажите нам почему вы её держите?"
     show player 5
     show harold 2
-    harold "Sorry, kiddos."
-    harold "A drug bust this big is way above my pay grade."
-    harold "You'll have to speak with the chief if you want the details."
+    harold "Извините, детки."
+    harold "Хранение наркотиков это серьёзная задержка и выходит за рамки моих полномочий."
+    harold "Вам придется поговорить с шефом, если хотите подробностей."
     show harold 1
     show player 10
-    player_name "... Oh."
-    player_name "Alright, thanks."
+    player_name "... Oх."
+    player_name "Хорошо,спасибо."
     show player 5
     hide harold with dissolve
     pause
     show roxxy 2c at center
     show roxxy 2c at Position (xoffset=-33)
     with dissolve
-    rox "Oh my God... They must have found {b}Clyde's{/b} entire stash!"
+    rox "О Боже... Должно быть, они нашли весь тайник {b}Клайда{/b}!"
     show roxxy 2b at Position (xoffset=-33)
     show player 12
-    player_name "Just how much meth does your cousin have anyways?!"
+    player_name "В любом случае сколько метамфетамина у твоего кузена?!"
     show player 5
     show roxxy 1j with dissolve
     rox "..."
     show roxxy 1l
-    rox "I... Uhh..."
-    rox "... I'm not sure."
+    rox "Я... Эмм..."
+    rox "... Я не уверена."
     show roxxy 1j
     show player 12
-    player_name "Well I guess we'd best go speak with {b}the chief{/b}."
+    player_name "Ну, я думаю, нам лучше пойти поговорить с {b}шефом{/b}."
     hide player
     hide roxxy
     with dissolve
@@ -280,200 +280,200 @@ label harold_police_office_dialogue_pre:
     show player 1 at left
     show harold 2 at right
     with dissolve
-    harold "Oh, hey, it's you again. Need something?"
+    harold "О, привет, это снова ты. Нужно что-нибудь?"
     show harold 1
     show player 14
-    player_name "Hi, I just had some questions."
+    player_name "Привет, У меня просто было несколько вопросов."
     show player 1
     return
 
 label harold_police_office_dialogue_wheres_mia:
     show player 14
-    player_name "I was just wondering: do you know where {b}Mia{/b} is?"
+    player_name "Мне просто интересно: вы знаете, где {b}Мия{/b}?"
     show player 11
     show harold 2
-    harold "I'm sorry, I can't help you right now; we're busy with a new case..."
-    harold "But, she should be at school or at home."
+    harold "Извини, Я не могу тебе сейчас помочь.; мы заняты новым делом..."
+    harold "Но, она должна быть в школе или дома."
     show harold 1
     show player 14
-    player_name "Okay. Thanks, Sir!"
+    player_name "Хорошо. Спасибо,Сэр!"
     return
 
 label harold_police_office_dialogue_the_chief:
     show player 12
-    player_name "Who's {b}the chief{/b}?"
+    player_name "Кто у вас {b}шеф{/b}?"
     show player 5
     show harold 2
-    harold "Oh, you want {b}Earl{/b}."
+    harold "О, ты ищешь {b}Эрла{/b}."
     show player 13
-    harold "He's right over there on the other side of the office."
+    harold "Он вон там, на другой стороне офиса."
     show harold 1
     show player 14
-    player_name "Gotcha, thanks!"
+    player_name "Понял,спасибо!"
     return
 
 label harold_police_office_dialogue_larry:
     show player 10
-    player_name "What did you need me to ask {b}Larry{/b}?"
+    player_name "Что тебе нужно, чтобы я спросил {b}Ларри{/b}?"
     show player 5
     show harold 6
-    harold "{b}Larry{/b} isn't giving up the location of the goods."
+    harold "{b}Ларри{/b} отказывается говорить о расположение товара."
     show harold 1
     show player 33
-    player_name "Oh yeah!"
+    player_name "О Да!"
     show player 12
-    player_name "I'll talk with him. I know his wife."
-    player_name "If I can't get the location out of him, maybe I can get {b}Mrs. Johnson{/b} to help us."
+    player_name "Я поговорю с ним.Я знаю его жену."
+    player_name "Если я не смогу узнать его местонахождение, может быть, я смогу попросить {b}Миссис Джонсон{/b} помочь нам."
     show player 5
     show harold 2
-    harold "Thanks, {b}[firstname]{/b}."
+    harold "Спасибо, {b}[firstname]{/b}."
     return
 
 label harold_police_office_dialogue_thief:
     show player 10
-    player_name "What did you need me to do if I see the thief again?"
+    player_name "Что мне нужно было сделать, если я снова увижу вора?"
     show player 5
     show harold 6
-    harold "If you notice him, give me a call directly."
+    harold "Если ты заметишь его, позвони мне напрямую."
     show harold 1
     show player 12
-    player_name "Of course! I'll keep an eye out for him."
-    player_name "He is always sneaking into my neighbor's, {b}Mrs. Johnson's{/b}, yard at night."
+    player_name "Конечно! Я буду присматривать за ним.."
+    player_name "Он всегда крадется к моей соседке, {b}Миссис Джонсон{/b}, во двор ночью."
     show player 5
     show harold 6
-    harold "There have also been reports of him near the park as well. If you happen to notice him there, keep me in the loop."
+    harold "Также были сообщения о нем рядом с парком. Если ты заметишь его там, держи меня в курсе."
     show harold 1
     show player 12
-    player_name "Okay, I'll check there for clues as well."
+    player_name "Хорошо, Я также поищу еще улики."
     show player 5
     show harold 2
-    harold "Thanks, {b}[firstname]{/b}."
+    harold "Спасибо, {b}[firstname]{/b}."
     return
 
 label harold_police_office_dialogue_donuts:
     show player 14
-    player_name "What kiiind of... donuts, err... do you like?"
+    player_name "Какие ... пончики, эмм... вам нравятся?"
     show player 11
     show harold 3
-    harold "Excuse me?"
+    harold "Прошу прощения?"
     show player 14
     show harold 1
-    player_name "Just wondering!"
+    player_name "Просто интересно!"
     show player 11
     show harold 2
-    harold "Look, I don't have time to chat right now, I'm swamped with work..."
-    harold "... Why don't you run off to school, okay?"
+    harold "Слушай, У меня нет времени сейчас болтать, Я завален работой..."
+    harold "... Почему бы тебе не бежать в школу, хорошо?"
     show player 10
     show harold 1
-    player_name "But-"
+    player_name "Но-"
     show player 5
     show harold 2
-    harold "I have to go, sorry."
+    harold "Мне нужно идти, извини."
     return
 
 label harold_police_office_dialogue_donuts_wrong:
     show player 437 at left with fastdissolve
-    player_name "I err, got you something."
+    player_name "Я эмм, Вам кое-что принес."
     show player 1
     show player 436
     harold "..."
     show player 437
-    player_name "It's for you!"
+    player_name "Это для вас!"
     show harold 8
     show player 1
     with fastdissolve
-    harold "You brought me a box of... donuts?!"
+    harold "Ты принес мне коробку с ... пончиками?!"
     show player 14
     show harold 7
-    player_name "Yeah! I thought maybe you'd like to snack on them at work..."
+    player_name "Да! Я подумал, может ты захочешь перекусить на работе..."
     show player 1
     show harold 9
-    harold "Oh..."
-    harold "I'm not a big fan of that kind, to be honest."
+    harold "О..."
+    harold "Я не большой любитель токого вида,если быть честным."
     show player 11
     show harold 10
     player_name "..."
     show harold 11
-    harold "But I err... I appreciate the thought!"
-    harold "I'm sure that {b}Earl{/b} will be more than happy to have them..."
+    harold "Но я эээ... Спасибо тебе за эту идею!"
+    harold "Я уверен, что {b}Эрл{/b} будет более чем счастлив получить их..."
     show player 10
     show harold 10
-    player_name "Alright."
+    player_name "Хорошо."
 
     show player 5
     hide harold with dissolve
     pause
     show player 10
-    player_name "( Damn! )"
-    player_name "( I must've bought the wrong kind. )"
-    player_name "( I have to make sure I get the right ingredients... )"
+    player_name "( Черт! )"
+    player_name "( Я должно быть купил не тот вид. )"
+    player_name "( Я должен убедиться что получил правильные ингредиенты... )"
     return
 
 label harold_police_office_dialogue_donuts_correct:
     show player 437 at left with fastdissolve
-    player_name "I err, got you something."
+    player_name "Я эмм, Вам кое-что принес."
     show player 1
     show player 436
     harold "..."
     show player 437
-    player_name "It's for you!"
+    player_name "Это для вас!"
     show harold 8
     show player 1
     with fastdissolve
-    harold "You brought me a box of... donuts?!"
+    harold "Ты принес мне коробку с ... пончиками?!"
     show player 14
     show harold 7
-    player_name "Yeah! I thought maybe you'd like to snack on them at work..."
+    player_name "Да! Я подумал, может ты захочешь перекусить на работе..."
     show player 1
     show harold 9
-    harold "Let me see..."
-    harold "Holy... [harold_glaze]... with... [harold_topping]?!"
+    harold "Дай мне посмотреть..."
+    harold "Матерь... [harold_glaze]... с... [harold_topping]?!"
     show player 14
     show harold 7
-    player_name "I thought you'd like those!"
+    player_name "Я подумал ты эти захочешь!"
     show player 1
     show harold 8
-    harold "These are my favourite... How did you..."
+    harold "Это мои любимые... Как ты..."
     show player 17
     show harold 44
-    player_name "I got lucky, I suppose."
+    player_name "Я счастливчик, пожалуй."
     show player 1
     show harold 45
-    harold "*Nom nom*"
+    harold "{b}*Ням ням*{/b}"
     show harold 46
-    harold "Well, kid, you did well."
+    harold "Ну, парень, ты молодец."
     show player 17
     show harold 45
-    player_name "Glad you like them!"
+    player_name "Рад, что вам нравится!"
     show player 1
     harold "..."
     show player 11
     show harold 46
-    harold "Wait, before you go..."
+    harold "Подожди, пока ты не ушел..."
     show player 1
-    harold "I know that you and {b}Mia{/b} like to... hang out, and all that stuff."
-    harold "You seem like a good kid, so I'll talk to my wife and see if she can lay off a bit."
+    harold "Я знаю, что тебе и {b}Мия{/b} нравится... проводить время, и тому подобное."
+    harold "Ты кажешься хорошим паренем, sтак что я поговорю со своей женой и посмотрю, сможет ли она отстать немного."
     show player 14
     show harold 45
-    player_name "You mean, I can visit her now?"
+    player_name "Вы имеете в виду, Я могу навестить ее сейчас?"
     show player 1
     show harold 46
-    harold "Not too fast!"
-    harold "I didn't say that... but... You could probably sneak in like before and I'll try and keep my wife distracted, alright?"
+    harold "Не так быстро!"
+    harold "Я этого не говорил.... но... Ты, наверное, мог бы проникнуть, как раньше, а я постараюсь отвлечь свою жену, хорошо?"
     show player 14
     show harold 45
-    player_name "Really?"
+    player_name "Серьезно?"
     show player 1
     show harold 46
-    harold "I said I'll try, I can't promise you anything."
+    harold "Я сказал, что попробую, я ничего не могу тебе обещать."
     show player 14
     show harold 45
-    player_name "Thanks, {b}Harold{/b}."
+    player_name "Спасибо, {b}Гарольд{/b}."
     show player 1
     show harold 46
-    harold "Alright, now get out of here before my boss sees us with these donuts!"
+    harold "Хорошо, теперь убирайтесь отсюда, пока мой босс не увидел нас с этими пончиками!"
     show player 17
     show harold 45
-    player_name "Ha ha."
+    player_name "Ха ха."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
