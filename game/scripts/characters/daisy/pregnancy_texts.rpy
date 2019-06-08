@@ -1,7 +1,7 @@
 label daisy_pregnant_announcement_1:
     scene expression player.location.background_blur
     show player 9 with dissolve
-    player_name "Hmm?"
+    player_name "Хмм?"
     player_name "I've got a text from {b}Diane{/b}!"
     hide player with dissolve
     return
