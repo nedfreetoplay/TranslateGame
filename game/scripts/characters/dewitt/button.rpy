@@ -33,16 +33,16 @@ label dewitt_button_dialogue:
 
         call expression game.dialog_select("dewitt_dialogue_intro")
         menu:
-            "Flute." if M_dewitt.between_states(S_dewitt_find_flute, S_dewitt_make_new_flute):
+            "Флейта." if M_dewitt.between_states(S_dewitt_find_flute, S_dewitt_make_new_flute):
                 if M_dewitt.is_state([S_dewitt_find_flute, S_dewitt_judith_locker_search]):
                     call expression game.dialog_select("dewitt_dialogue_dewitt_find_flute")
                 else:
 
                     call expression game.dialog_select("dewitt_dialogue_dewitt_make_new_flute")
 
-            "Talent Show." if M_dewitt.between_states(S_dewitt_talent_show_ask_annie, S_dewitt_kevin_give_guitar):
+            "Шоу талантов." if M_dewitt.between_states(S_dewitt_talent_show_ask_annie, S_dewitt_kevin_give_guitar):
                 call expression game.dialog_select("dewitt_dialogue_talent_show_help")
-            "Not really.":
+            "Не сейчас.":
 
                 call expression game.dialog_select("dewitt_dialogue_leave")
     hide dewitt
