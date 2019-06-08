@@ -3,9 +3,9 @@ label first_time_dialogue_daisy_sex:
     show daisy_sex_breed pre_talk
     show daisy_sex_breed_mc
     with dissolve
-    daisy "I'm so excited, {b}[firstname]{/b}!"
-    player_name "Yeah, I can see that."
-    daisy "I hope your weasel will fit, it's really larg-"
+    daisy "Я так рада, {b}[firstname]{/b}!"
+    player_name "Да, могу себе представить."
+    daisy "Я надеюсь, что ваша ласка подойдет, она действительно большая-"
     hide daisy_sex_breed_mc
     show daisy_sex_breed insert_and_pullout
     with dissolve
@@ -14,29 +14,30 @@ label first_time_dialogue_daisy_sex:
     pause 1
     show daisy_sex_breed creampie
     daisy "!!!" with hpunch
-    daisy "Wowzers!"
-    player_name "You alright?"
-    daisy "Uh huh, your weasel is just really big!"
-    player_name "Let me know if I hurt you, okay?"
-    daisy "Okay."
+    daisy "Вау!"
+    player_name "Ты в порядке?"
+    daisy "Ага, твоя ласка просто очень большая!"
+    player_name "Дай мне знать, если я сделаю тебе больно, хорошо?"
+    daisy "Хорошо."
     $ M_daisy.set('sex speed', 0.09)
     show expression AnimatedImage("daisy_sex_back", [1,2,3,4,5,6,7,8,9,10], M_daisy) as daisy_sex_breed at Position(xalign = 0.0, yoffset = 0)
     $ animated = True
     pause
-    player_name "Wow, you're really tight, {b}Daisy{/b}!"
-    daisy "Is that good?"
-    player_name "Yes, it's very good."
-    daisy "Hehe, okay!"
+    player_name "Ух ты, действительно тесно, {b}Дейзи{/b}!"
+    daisy "Это же хорошо?"
+    player_name "Да, это очень хорошо."
+    daisy "Хе-хе, хорошо!"
     pause
-    daisy "Ahh!"
-    daisy "This feels way better than it did with master!"
+    daisy "Ааа!"
+    daisy "Это намного лучше, чем с мастером!"
     pause
-    daisy "You're weasel is so deep inside me!"
-    daisy "I mean your penis..."
-    daisy "Your penis is really deep, in my floogina!"
-    player_name "Heh, you're too cute!"
-    daisy "Thanks!"
+    daisy "Твоя ласка так глубоко внутри меня!"
+    daisy "Я имею в виду твой пенис..."
+    daisy "Твой пенис так глубокий, у меня во флугине!"
+    player_name "Хех, ты очень симпатичная!"
+    daisy "Спасибо!"
     jump daisy_sex_breed_start
+
 
 label daisy_sex_breed_start:
     if store._in_replay is not None:
@@ -88,54 +89,54 @@ label daisy_sex_breed_loop:
 
 label daisy_sex_breed_hscene_dialog:
     if animcounter == 0 and randomizer() < 50:
-        daisy "Ahh!{p=1}{nw}"
+        daisy "Ааа!{p=1}{nw}"
     if animcounter == 0 and randomizer() < 10:
-        daisy "I love your weasel!{p=1}{nw}"
-        daisy "He's the best weasel ever!{p=2}{nw}"
+        daisy "Мне нравится твоя ласка!{p=1}{nw}"
+        daisy "Он лучший ласка когда-либо!{p=2}{nw}"
         pause 1
-        player_name "Pretty sure my weasel loves you too!{p=2}{nw}"
-        daisy "He loves my hidey-hole, doesn't he?!{p=2}{nw}"
-        player_name "Uh huh!{p=1}{nw}"
+        player_name "Уверен, моя ласка тоже тебя любит!{p=2}{nw}"
+        daisy "Он любит мою потайную дырочку, не так ли?!{p=2}{nw}"
+        player_name "Ух хах!{p=1}{nw}"
     if animcounter == 0 and randomizer() < 25:
-        daisy "Gimme your milk weasel!{p=1}{nw}"
+        daisy "Дай мне молочко ласки!{p=1}{nw}"
     if animcounter == 1 and randomizer() < 25:
-        daisy "{b}*Gasp*{/b} Wowzers!{p=1}{nw}"
+        daisy "{b}*задыхаясь*{/b} Вау!{p=1}{nw}"
     if animcounter == 1 and randomizer() < 25:
-        daisy "Harder, {b}[firstname]{/b}, harder!{p=1}{nw}"
-        daisy "Ahhh!!{p=1}{nw}"
+        daisy "Сильнее, {b}[firstname]{/b}, сильнее!{p=1}{nw}"
+        daisy "Аааааа!!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 25:
-        daisy "Aahhh!!{p=1}{nw}"
+        daisy "Аааааа!!{p=1}{nw}"
     if animcounter == 2 and randomizer() < 10:
-        daisy "MooAAAHHH!!!{p=1}{nw}"
-        daisy "MooooooooAAAHHHH!!!{p=1}{nw}"
-        player_name "Are you-?{p=1}{nw}"
-        daisy "MOOOOOOOAAAHHH!!!{p=1}{nw}"
-        player_name "Whoa!{p=1}{nw}"
+        daisy "Муууу!!!{p=1}{nw}"
+        daisy "Муууууууууууууу!!!{p=1}{nw}"
+        player_name "Ты-?{p=1}{nw}"
+        daisy "МММММУУУУУУУУУУУУУУ!!!{p=1}{nw}"
+        player_name "Вау!{p=1}{nw}"
     if animcounter == 4 and randomizer() < 25:
-        daisy "Oh goodness, I'm really sensative toda-{p=2}{nw}"
-        daisy "MooAAAHHHH!!!{p=1}{nw}"
-        player_name "You okay?{p=1}{nw}"
-        daisy "Don't stop!!{p=1}{nw}"
+        daisy "О боже, я очень чувствительная сегод-{p=2}{nw}"
+        daisy "МууУУУУУУУ!!!{p=1}{nw}"
+        player_name "Ты в порядке?{p=1}{nw}"
+        daisy "Не останавливайся!!{p=1}{nw}"
     if animcounter == 4:
         if randomizer() < 25:
-            daisy "I'm gonna orgasm, {b}[firstname]{/b}!{p=1}{nw}"
-            player_name "Haah, me too!{p=1}{nw}"
+            daisy "Я собираюсь кончить, {b}[firstname]{/b}!{p=1}{nw}"
+            player_name "Хаааа, я тоже!{p=1}{nw}"
         elif randomizer() < 10:
-            daisy "Oh, oh!{p=1}{nw}"
-            daisy "{b}[firstname]{/b} something's happening!{p=1}{nw}"
-            player_name "I know, I'm getting close too!{p=1}{nw}"
+            daisy "О, ооо!{p=1}{nw}"
+            daisy "{b}[firstname]{/b} что-то происходит!{p=1}{nw}"
+            player_name "Я знаю, я тоже приближаюсь!{p=1}{nw}"
             pause 1
-            daisy "Ahh, don't stop!{p=1}{nw}"
-            daisy "Don't stop!!!{p=1}{nw}"
+            daisy "Аааа, не останавливайся!{p=1}{nw}"
+            daisy "Не останавливайся!!!{p=1}{nw}"
     return
 
 label daisy_sex_breed_cum_out:
-    daisy "Oh my, oh my!"
+    daisy "Боже мой, Боже мой!"
     scene expression "backgrounds/location_barn_sex_back_day.jpg"
     show daisy_sex_breed after
     show daisy_sex_breed_mc cumshot 2
-    player_name "HNNGGG!!!" with flash
-    daisy "NGGHHH!!!"
+    player_name "ХННГГГГ!!!" with flash
+    daisy "НГГХХХХ!!!"
     show daisy_sex_breed_mc cumshot 1
     show daisy_sex_flying_cum 1
     with dissolve
@@ -143,9 +144,9 @@ label daisy_sex_breed_cum_out:
     show daisy_sex_flying_cum 2
     with dissolve
     pause
-    player_name "Haah... Haah..."
-    player_name "That was amazing!"
-    daisy "Hehe, you squirted your milk all over me!"
+    player_name "Аааа... Аааа..."
+    player_name "Это было потрясающе!"
+    daisy "Хе-хе, ты забрызгал меня своим молоком!"
     pause
     hide daisy_sex_flying_cum
     hide daisy_sex_breed_mc
@@ -154,16 +155,16 @@ label daisy_sex_breed_cum_out:
     jump daisy_sex_post_pregnancy_minigame
 
 label daisy_sex_breed_cum_in:
-    daisy "Oh my, oh my!"
+    daisy "Боже мой, Боже мой!"
     scene expression "backgrounds/location_barn_sex_back_day.jpg"
     $ M_daisy.set("sex speed",0.4)
     show daisy_sex_breed creampie zorder 0
     show xray_diane_back zorder 1 at Position (align=(0,0))
-    player_name "HNNGGG!!!" with flash
+    player_name "ХННГГГГ!!!" with flash
     hide xray_diane_back
     show daisy_sex_breed creampie_pullout
     with dissolve
-    daisy "NGGHHH!!!"
+    daisy "НГГХХХХ!!!"
     show daisy_sex_breed insert_and_pullout
     show daisy_sex_dick_cum 2 zorder 3
     with dissolve
@@ -177,9 +178,9 @@ label daisy_sex_breed_cum_in:
     show daisy_sex_breed after_spread
     show daisy_sex_cum spread
     with dissolve
-    player_name "Haah... Haah..."
-    player_name "That was amazing!"
-    daisy "Hehe, I can feel your milk inside me..."
+    player_name "Аааа... Аааа..."
+    player_name "Это было потрясающе!"
+    daisy "Хе-хе, я чувствую твое молоко внутри себя..."
     pause
     if store._in_replay is not None:
         jump daisy_sex_post_pregnancy_minigame
@@ -198,144 +199,144 @@ label daisy_sex_post_pregnancy_minigame:
     with dissolve
 
     if M_daisy.get("daisy_breed_first_time"):
-        player_name "You okay?"
+        player_name "Ты в порядке?"
         show player 366
         show daisy f_shy_talk
-        daisy "My legs feel funny..."
+        daisy "Мои ноги чувствуют себя странно..."
         show daisy f_shy
         show player 365
-        player_name "Heh."
+        player_name "Хе."
         show player 366
         show daisy f_shy_talk
-        daisy "What was that?"
+        daisy "Что это было?"
         show daisy f_shy
         show player 365
-        player_name "Uhh, an orgasm I think."
+        player_name "Ух, я думаю оргазм."
         show player 366
         show daisy f_shy_talk
-        daisy "Orgasm?"
+        daisy "Оргазм?"
         show daisy f_shy
         show player 365
-        player_name "Yeah, it felt good didn't it?"
+        player_name "Да, это было приятно, не так ли?"
         show player 366
         show daisy f_laugh a_naked_up with dissolve
-        daisy "It felt REALLY good!"
+        daisy "Это было КРУТО!"
         show daisy f_normal a_naked_sides with dissolve
         pause
         show daisy f_normal_talk
-        daisy "Is that supposed to happen everytime?"
+        daisy "Так должно происходить каждый раз?"
         show daisy f_normal
         show player 365
-        player_name "Well, hopefully..."
+        player_name "Ну, надеюсь..."
         show player 366
         show daisy f_shy_talk
-        daisy "It never happened with Master."
+        daisy "С Мастером такого никогда не было."
         show daisy f_shy
         pause
         show daisy f_laugh
-        daisy "Can we do it again?!"
+        daisy "Мы можем сделать это снова?!"
         show daisy f_normal
         show player 365
-        player_name "Heh, maybe in a little while... I need to rest first."
+        player_name "Хех, может быть через некоторое время... Сначала мне нужно отдохнуть."
         show player 366
         show daisy f_sad_talk
-        daisy "Oh, okay."
+        daisy "О, хорошо."
         show daisy f_sad
         pause
         show daisy f_normal_talk at flip
         show daisy at Position (xpos=750)
-        daisy "{b}Diane{/b}!!!"
+        daisy "{b}Диана{/b}!!!"
         show daisy f_normal
         show player 367
-        player_name "Whoa, what are yo-"
+        player_name "Эй, что ты-"
         show player 368
         show daisy f_normal_talk
-        daisy "{b}Diane{/b}!!!"
+        daisy "{b}Диана{/b}!!!"
         show daisy f_normal
         show diane b_naked a_naked_sides f_sad_talk at Position (xpos=600)
-        dia "{b}Daisy{/b}?!"
-        dia "What's the matter with-"
+        dia "{b}Дэйзи{/b}?!"
+        dia "Что случилось с-"
         show diane f_surprised
         pause
         show diane f_smirk_talk
-        dia "You two just had sex, didn't you."
+        dia "Вы только что занимались сексом, не так ли?"
         show diane f_smirk
         show player 367
-        player_name "Uhh..."
+        player_name "Эээ..."
         show player 368
         show daisy f_normal_talk
         show diane f_smirk_fardown
-        daisy "Yup, and guess what?!"
+        daisy "Ага, и знаешь что?!"
         show daisy f_normal
         show diane f_smirk_talk_fardown
-        dia "What?"
+        dia "Что?"
         show diane f_smirk_fardown
         show daisy f_laugh a_naked_up with dissolve
-        daisy "I had an orgasm!"
+        daisy "У меня был оргазм!"
         show daisy f_normal a_naked_sides with dissolve
         show diane f_smirk_talk_fardown
-        dia "{b}*Gasp*{/b} You did?"
+        dia "{b}*вздыхая*{/b} У тебя был...?"
         show diane f_smirk_fardown
         show daisy f_normal_talk
-        daisy "Uh huh!"
-        daisy "My insides felt all tingly and my legs went silly and, and..."
+        daisy "Ну..!"
+        daisy "Мои внутренности покалывало, и ноги стали непослушными и ..."
         show daisy f_normal
         show diane f_laugh
-        dia "Haha!"
-        dia "Okay, okay, I get it."
+        dia "Хаха!"
+        dia "Хорошо, хорошо, я поняла."
         show diane f_smirk_talk_fardown
-        dia "He's pretty good, isn't he?"
+        dia "Он довольно хорош, не так ли?"
         show diane f_smirk_fardown
         show daisy f_normal_talk
-        daisy "You mean at sex?"
+        daisy "Ты имеешь в виду секс?"
         show daisy f_normal
         show diane f_smirk_talk_fardown
-        dia "Yes, at sex."
+        dia "Да, в сексе."
         show diane f_smirk_fardown
         show daisy f_laugh
-        daisy "Oh, yes!"
+        daisy "О, да!"
         show daisy f_normal_talk
-        daisy "I can't wait to do it again."
+        daisy "Не могу дождаться, чтобы сделать это снова."
         show daisy f_normal
         show diane f_laugh
-        dia "Hehe!"
+        dia "Хехе!"
         show diane f_smirk
         show player 367
-        player_name "Uhh, I'm gonna get a drink..."
+        player_name "Ух, надо чего-нибудь выпить..."
         show player 368
         show daisy f_normal_talk at unflip
         show daisy at Position (xpos=300)
-        daisy "I'll do it!"
+        daisy "Я сделаю!"
         show daisy f_normal
         show player 367
-        player_name "No, I can-"
+        player_name "Нет, Я могу-"
         show player 368
         show daisy f_normal_talk
-        daisy "You just stay and rest!"
+        daisy "Ты просто останься и отдохни!"
         hide daisy with dissolve
         pause
         show diane f_smirk_talk
-        dia "So you went through with it, huh?"
+        dia "Так ты прошел через это, а?"
         show diane f_smirk
         show player 365
-        player_name "Heh, yeah..."
+        player_name "Ну, да..."
         show player 366
         show diane f_laugh
-        dia "I'm happy for you two!"
+        dia "Я рада за вас двоих!"
         show diane f_smirk
         show player 365
-        player_name "T-thanks."
+        player_name "С-спасибо."
         show player 366
         pause
         show diane f_smirk_talk
-        dia "Just don't forget to throw me a bone once in awhile too."
-        dia "I have a business to run, you know?"
+        dia "Только не забывай иногда бросать мне пару палок."
+        dia "У меня есть бизнес, которым нужно управлять, понимаешь?"
         show diane f_smirk
         show player 365
-        player_name "Of course."
+        player_name "Конечно."
         show player 366
         show diane f_smirk_talk
-        dia "Hehe."
+        dia "Хехе."
         hide player
         show diane kiss_both_naked at Position (xoffset=-217)
         with dissolve
@@ -343,45 +344,45 @@ label daisy_sex_post_pregnancy_minigame:
         show player 366 at left
         show diane b_naked a_naked_sides f_smirk_talk
         with dissolve
-        dia "Don't wear yourself out, stud."
+        dia "Не утомляйся, жеребец."
         show diane f_smirk
         show player 365
-        player_name "Yeah, I won't."
+        player_name "Да, не буду."
         $ M_daisy.set("daisy_breed_first_time", False)
     else:
         show daisy f_laugh
-        daisy "That was fun!"
+        daisy "Это было весело!"
         show daisy f_normal
         show player 365
-        player_name "Heh, yeah it was..."
+        player_name "Хех, да, так и было..."
         show player 366
         show daisy f_normal_talk
-        daisy "Let's do it again!"
+        daisy "Давайте сделаем это снова!"
         show daisy f_normal
         show player 365
-        player_name "Uhh, maybe later... I need to rest first."
+        player_name "Может быть, попозже... Сначала мне нужно отдохнуть."
         show player 366
         show daisy f_normal_talk
-        daisy "Oh, right."
-        daisy "I always forget about that..."
+        daisy "О, хорошо."
+        daisy "Я всегда забываю об этом..."
         show daisy f_normal
         show player 365
-        player_name "Hehe."
+        player_name "Хехе."
         show player 366
         show daisy f_laugh
-        daisy "Let me get you a glass of water!"
+        daisy "Давай я принесу тебе стакан воды!"
         hide daisy with dissolve
         show player 367
-        player_name "No, you don't hav-"
+        player_name "Нет, ты не должна-"
         show player 368
         pause
         show player 367
-        player_name "{b}*Sigh*{/b} Have to do that."
-        player_name "She's gone."
+        player_name "{b}*Вздыхая*{/b} Придется это сделать."
+        player_name "Она пропала."
         show player 368
         pause
         show player 365
-        player_name "Heh, crazy cow girl."
+        player_name "Хех, сумасшедшая девочка-корова."
     hide player
     hide diane
     with dissolve
