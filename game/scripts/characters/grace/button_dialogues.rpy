@@ -5,8 +5,8 @@ label button_grace_mia_get_tattoo:
     show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Hey there!"
-    grace "Are you here for an appointment?"
+    grace "Эй, там!"
+    grace "У вас здесь встреча?"
     return
 
 label button_grace_generic:
@@ -14,84 +14,84 @@ label button_grace_generic:
     show grace f_normal_talk at right
     show tattoo_desk at right
     with dissolve
-    grace "Hey there!"
-    grace "Are you here for an appointment?"
+    grace "Эй, там!"
+    grace "У вас здесь встреча?"
     return
 
 label button_grace_tattoo:
     show mia 10f
-    mia "I'd like to get a tattoo... Now."
+    mia "Я хотела бы сделать тату... Сейчас."
     show mia 7f
     show grace f_normal_talk
-    grace "Now? I see..."
+    grace "Сейчас? Я вижу..."
     show grace f_suspicious
-    grace "Do you have a design in mind?"
+    grace "Вы уже придумали какой-нибудь рисунок?"
     show grace f_normal
     show mia 30f at Position (xoffset=64) with dissolve
-    mia "My friend here drew this for me, and I'd like it done today!"
+    mia "Мой друг нарисовал это для меня, и Я хотела бы его сделать сегодня!"
     show mia 7f
     show grace f_normal_down_talk a_dressed_hip_paper
     with dissolve
-    grace "Hmm..."
+    grace "Хмм..."
     show grace f_normal_talk
-    grace "Are you sure you want this done?"
-    grace "Tattoos are permanent, so I have to make sure my clients know what they're getting into!"
+    grace "Ты уверена что ты этого хочешь?"
+    grace "Татуировки постоянные, так что я должна убиться что мои клиенты знают что они делают!"
     show grace f_normal
     show mia 10f
-    mia "I've been thinking about it for a long time and... Yes, I do want it."
+    mia "Я думала об этом об этом уже долгое время... Да, я и правда хочу это сделать."
     show mia 7f
     show grace f_normal_talk
-    grace "Alright, sweetie. But, it aint cheap!"
+    grace "Отлично, солнышко. но, это не дешево!"
     show grace f_normal
     show player 14
-    player_name "How much is it?"
+    player_name "Сколько это стоит?"
     show player 13
     show grace f_normal_down_talk
-    grace "For that size... with colors... Around {b}$400{/b}."
+    grace "Для этого размера... с цветами... примерно {b}$400{/b}."
     show grace f_normal
     show player 22
     show mia 12f
     mia "!!!"
-    mia "Damn... I think I only have {b}$200{/b}..."
+    mia "Черт... Я думаю у меня только {b}$200{/b}..."
     show mia 8f
     show player 11
     player_name "..."
     show player 10
-    player_name "You don't have enough?"
+    player_name "Тебе не хватает?"
     show player 5
     show mia 12 with dissolve
-    mia "No, that's all I was able to save up."
-    mia "What do you think I should do?"
+    mia "Нет, это все что мне удалось накопить."
+    mia "Как думаешь что мне делать?"
     show mia 8
     return
 
 label button_grace_tattoo_help:
     show player 14
-    player_name "I'll cover the rest."
+    player_name "Я позабочусь об остальном."
     show player 13
     show mia 12
-    mia "Really?!"
+    mia "Реально?!"
     show mia 7
     show player 14
-    player_name "Why not."
-    player_name "I've been working lately so I have some money to spend..."
+    player_name "Почему нет."
+    player_name "Я работал в последнее время так что у меня есть немного денег чтобы потратить..."
     show player 17
-    player_name "...And it's for a good cause!"
+    player_name "...И это ради благого дела!"
     show player 13
     show mia 10
-    mia "That's really sweet of you..."
-    mia "...And I'll make sure to pay you back!"
+    mia "Это очень мило с твоей стороны..."
+    mia "...и я обязательно верну тебе деньги!"
     show mia 7
     show player 17
-    player_name "It's alright, ha ha."
+    player_name "Все в порядке, ха ха."
     show player 13
     show grace f_normal_talk
     grace "So?"
     show mia 7f with dissolve
-    grace "Ready to start?"
+    grace "Готова начать?"
     show grace f_normal
     show mia 10f
-    mia "I'm ready!"
+    mia "Я готова!"
     hide player
     hide mia
     hide grace
@@ -99,7 +99,7 @@ label button_grace_tattoo_help:
     with dissolve
 
     scene tattoo_cs01
-    show text "It took a while for {b}Grace{/b} to finish the work.\nI was really nervous for {b}Mia{/b}...\n...But, she seemed to be fine the whole time!" at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Потребовалось некоторое время чтобы {b}Грэйс{/b} закончила работу.\nЯ очень переживал за {b}Мию{/b}...\n...но, казалось что она была в порядке на протяжении всего времени!" at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text
@@ -111,58 +111,58 @@ label button_grace_tattoo_help:
     show player 13 at left
     show grace f_normal_talk at right
     with dissolve
-    grace "All done!"
-    grace "I hope you guys like it."
+    grace "Все готово!"
+    grace "Я надеюсть вам это понравится ребята."
     show grace f_normal
     show mia 10f
-    mia "It's great! And it didn't hurt as much as I thought..."
+    mia "Это потрясающе! И это не было так больно как я думала..."
     show mia 7f
     show grace f_normal_talk
-    grace "Make sure you leave the bandage on it for at least a few days."
+    grace "Удоставерься что ты оставила повязку на ней по крайней мере несколько дней."
     show grace f_normal
     show mia 10f
-    mia "Okay, thank you!"
+    mia "Хорошо, спасибо!"
     show mia 7f
     show grace f_normal_talk
-    grace "Bye, guys."
+    grace "Пока, ребята."
     hide grace with dissolve
     pause(.25)
     hide mia
     show mia 7 at right
     with dissolve
     show player 14
-    player_name "How does it feel?"
+    player_name "Ну как?"
     show player 13
     show mia 12
-    mia "The tattoo?"
+    mia "Татуировка?"
     show mia 7
     show player 14
-    player_name "Yeah."
+    player_name "Да."
     show player 13
     show mia 12
-    mia "It's fine... It just has this tingling sensation."
+    mia "Все прекрасно... просто немножко покалывает."
     show mia 10
-    mia "And I'm glad I did it... I can finally say I did something that I wanted."
+    mia "И я рада что это сделала... Я наконец могу сказать что я сделать то чего я хотела."
     show mia 7
     show player 10
-    player_name "Are you scared your mom might find out?"
+    player_name "Ты не боишся что твоя мама сможет об этом узнать?"
     show player 5
     show mia 9
-    mia "Hopefully not, but it's in a well hidden spot, ha ha."
+    mia "Надеюсь что нет, но оно находится в хорошо скрытом месте, ха ха."
     show mia 7
     show player 17
-    player_name "I think it's cool you did it."
+    player_name "Я думаю это круто что ты сделала."
     show player 18
     show mia 10
-    mia "Thanks, {b}[firstname]{/b}. I'm happy you came with me."
+    mia "Спасибо, {b}[firstname]{/b}.Я счаслива что ты пошел со мной."
     show player 13
-    mia "I should get going, though. Before my mom starts getting suspicious..."
+    mia "Тем не менее, мне нужно идти.Прежде чем моя мама начала что-то подозревать..."
     show mia 7
     show player 14
-    player_name "Okay, see you at school!"
+    player_name "Хорошо, увидимся в школе!"
     show player 13
     show mia 10
-    mia "Bye."
+    mia "Пока."
     hide player
     hide mia
     with dissolve
@@ -170,20 +170,20 @@ label button_grace_tattoo_help:
 
 label button_grace_tattoo_come_back:
     show player 10
-    player_name "Maybe we should come back later?"
+    player_name "Может быть нам вернуться попозже?"
     show player 5
     mia "..."
     show mia 12
-    mia "I suppose we should."
+    mia "Я думаю мы должны."
     show mia 8
     show player 10
-    player_name "It's okay. We can always come back another time."
+    player_name "Все будет хорошо. Мы всегда сможем вернуться в другой раз."
     show player 5
     show mia 12
-    mia "You're right."
+    mia "Ты прав."
     show mia 8
     show player 10
-    player_name "Sorry you couldn't get your tattoo today..."
+    player_name "Очень жаль что ты не смогла сделать свою Татуировку сегодня..."
     show player 5
     show mia 12
     mia "It's fine. I should get home now."
