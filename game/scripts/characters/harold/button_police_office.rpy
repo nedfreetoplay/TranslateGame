@@ -22,26 +22,26 @@ label police_harold_dialogue:
 
         call expression game.dialog_select("harold_police_office_dialogue_pre")
         menu:
-            "Where's {b}Mia{/b}?":
+            "Где{b}Мия{/b}?":
                 call expression game.dialog_select("harold_police_office_dialogue_wheres_mia")
 
-            "The chief." if M_roxxy.is_state(S_roxxy_ask_earl_release):
+            "Шеф." if M_roxxy.is_state(S_roxxy_ask_earl_release):
                 call expression game.dialog_select("harold_police_office_dialogue_the_chief")
 
-            "{b}Larry{/b}." if M_mia.is_state(S_mia_stolen_goods) and erik.over(erik_thief):
+            "{b}Ларри{/b}." if M_mia.is_state(S_mia_stolen_goods) and erik.over(erik_thief):
                 call expression game.dialog_select("harold_police_office_dialogue_larry")
 
-            "Thief." if M_mia.is_state(S_mia_stolen_goods) and not erik.over(erik_thief):
+            "Вор." if M_mia.is_state(S_mia_stolen_goods) and not erik.over(erik_thief):
                 call expression game.dialog_select("harold_police_office_dialogue_thief")
 
-            "Donuts." if M_mia.is_state(S_mia_impress_harold) and not player.has_item("donuts_correct") and not player.has_item("donuts_fail"):
+            "Пончики." if M_mia.is_state(S_mia_impress_harold) and not player.has_item("donuts_correct") and not player.has_item("donuts_fail"):
                 call expression game.dialog_select("harold_police_office_dialogue_donuts")
 
-            "Donuts." if M_mia.is_state(S_mia_impress_harold) and player.has_item("donuts_fail"):
+            "Пончики." if M_mia.is_state(S_mia_impress_harold) and player.has_item("donuts_fail"):
                 call expression game.dialog_select("harold_police_office_dialogue_donuts_wrong")
                 $ player.remove_item("donuts_fail")
 
-            "Donuts." if M_mia.is_state(S_mia_impress_harold) and player.has_item("donuts_correct"):
+            "Пончики." if M_mia.is_state(S_mia_impress_harold) and player.has_item("donuts_correct"):
                 $ harold_glaze = M_harold.get("glaze")
                 $ harold_topping = M_harold.get("topping")
                 call expression game.dialog_select("harold_police_office_dialogue_donuts_correct")
