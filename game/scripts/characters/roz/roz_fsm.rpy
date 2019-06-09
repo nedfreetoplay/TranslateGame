@@ -1,7 +1,7 @@
 init python:
 
-    T_roz_favour = Trigger("favour", "Roz needs a favour in return for the obituary records")
-    T_roz_fuckery = Trigger("fuckery", "Quite literally some fuckery with Roz")
+        T_roz_favour = Trigger("favour", "Роз нуждается в одолжении в обмен на записи некролога")
+        T_roz_fuckery = Trigger("fuckery", "Буквально небольшой секс с Роз")
 
 label roz_fsm_init:
     python:
