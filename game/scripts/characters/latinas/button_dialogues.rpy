@@ -4,27 +4,27 @@ label latinas_dialogue_shower:
     show lopez b_towel a_towel_hips f_angry_talk zorder 2
     show player 57 zorder 0 at left
     with dissolve
-    lopez "Hey! What are you doing in here?"
+    lopez "Хэй! Что ты здесь делаешь?"
     show lopez f_angry
     show player 58
-    player_name "Umm... Just trying to take a shower?"
+    player_name "Эмм... Просто пытаюсь принять душ?"
     show lopez f_angry_talk
     show player 59
-    lopez "Listen, boy. This is our turf, so go take a walk elsewhere!"
+    lopez "Слушай, парень. Эта наша территория, так что иди погуляй где-то еще!"
     show lopez f_angry
     show martinez f_normal_talk
-    martinez "Wait, {b}Lopez{/b}!"
-    martinez "Yo, I think this guy's the one people have been talking about!"
+    martinez "Подожди, {b}Лопес{/b}!"
+    martinez "Йоу, Я думаю это тот парень о котором нам говорили!"
     show lopez f_angry_left_talk
     show martinez f_normal
-    lopez "What?! No way..."
-    lopez "You telling me this guy's packing a {b}huge dick{/b}?"
+    lopez "Что?! Не может быть..."
+    lopez "Ты хочешь сказать что у этого парня {b}Огромный член{/b}?"
     show lopez f_angry
     show martinez f_angry_talk
-    martinez "Alright boy! Show us what you got down there, and you can get in!"
+    martinez "Хорошо, парень! Покажи нам что там у тебя внизу, ты можешь его вытащить!"
     show martinez f_angry
     show player 60
-    player_name "Uhh... I think I'll pass. I'll just shower at home then-"
+    player_name "Эммм... я думаю что откажусь. Я просто приму душ дома тогда-"
     show martinez b_towelgrab f_empty a_empty
     pause
     show player 61
@@ -35,21 +35,21 @@ label latinas_dialogue_shower:
     player_name "..."
     show player 62
     show martinez f_normal_talk_right
-    martinez "There you go!"
+    martinez "Вот - видишь!"
     show martinez f_smirk_down
     show lopez f_normal_down_talk
-    lopez "...That's what you call {b}big{/b}?"
+    lopez "...Вот это ты называла {b}большим{/b}?"
     show lopez f_normal_down
     show martinez f_surprised_right
     martinez "Wha-"
     show player 63
     show martinez f_suspicious
-    martinez "You soft?!..."
-    martinez "...He needs a little excitement..."
+    martinez "Он вялый?!..."
+    martinez "...Его нужно немного возбудить..."
     show martinez f_eyeroll
-    martinez "...Hmm..."
+    martinez "...Хмм..."
     show martinez f_normal_talk_right
-    martinez "...This should do the trick!"
+    martinez "...Это должно сработать!"
     show lopez f_normal with None
     show martinez f_normal_talk_right b_towel a_empty
     show martinez_body_parts a_towel_hold_towel_pull1 zorder 3
@@ -65,12 +65,12 @@ label latinas_dialogue_shower:
     show martinez a_towel_crossed
     hide martinez_body_parts
     with dissolve
-    lopez "Oh my god, puta!"
+    lopez "О мой бог, puta(шлюха)!"
     show lopez f_angry
     show martinez f_normal_talk_right
-    martinez "Chill, everyone's seen 'em at school already!"
+    martinez "Расслабься, все уже видели его в школе! Хаха!"
     show martinez f_laugh
-    martinez "Haha!"
+    martinez "Хаха!"
     show martinez f_smirk_down
     show lopez f_surprised_down
     lopez "Yo, it's not doing anything!"
@@ -91,7 +91,7 @@ label latinas_dialogue_shower:
     pause
     show player 65
     show martinez f_smirk_down
-    player_name "...Oh... No..."
+    player_name "...Ох... нет..."
     pause
     show player 66 with hpunch
     show martinez f_surprised_down
@@ -101,34 +101,34 @@ label latinas_dialogue_shower:
     show lopez f_surprised_right a_toweldown_cover2
     with dissolve
     show player 67
-    lopez "Oh, shit!"
-    lopez "{b}Annie's{/b} coming!!"
+    lopez "Ох, дермо!"
+    lopez "{b}Энни{/b} пришла!!"
     show lopez f_sorry
     show martinez f_sad_down a_towel_cover b_towel with dissolve
     show player 68
     show annie 1 zorder 3 at Position (xpos=400)
     ann "..."
     show annie 3
-    ann "What's going on here??"
+    ann "Что тут вообще происходит??"
     show player 69
     show annie 1
-    player_name "I was just trying to-"
+    player_name "Я просто пытался-"
     show player 68
     show annie 3
-    ann "Expose yourself inappropriately?"
+    ann "Выставить себя неподобающе?"
     show annie 4
-    ann "{b}AGAIN{/b}!?"
+    ann "{b}СНОВА{/b}!?"
     show player 69
     show annie 6
-    player_name "No, that's not-"
+    player_name "Нет, это нет-"
     show player 68
     show annie 5
-    ann "I don't want to hear your pathetic excuses!"
-    ann "My orders are to bring in repeated offenders to the {b}Office{/b}!"
+    ann "Я не хочу слышать твои жалкие отговорки!"
+    ann "Мне было приказано привести нарушителей в {b}Кабинет{/b}!"
     show annie 7
-    ann "Come with me, {b}NOW{/b}!!!"
+    ann "Иди со мной, {b}СЕЙЧАС{/b}!!!"
     show annie 8f
-    ann "...and you two, get out of here before I send you both to detention!!!"
+    ann "...а вы двое, убирайтесь отсюда пока я вас обеих не задержала!!!"
     hide lopez
     hide martinez
     hide player
@@ -142,13 +142,13 @@ label latinas_dialogue_leave:
     show martinez b_towel a_towel_crossed f_angry zorder 1 at Position (xpos=250)
     show lopez b_towel a_towel_hips f_angry_talk zorder 2
     with dissolve
-    lopez "Hey! You here to get us in trouble again?"
+    lopez "Хэй! Ты опять здесь чтобы доставить нам неприятности?"
     show player 58 at left
     show lopez f_angry
-    player_name "Umm... Just trying to take a shower?"
+    player_name "Эмм... Только пытаюсь принять душ?"
     show player 59 at left
     show martinez f_angry_talk
-    martinez "Get out of here, yo!"
+    martinez "Вали отсюда, йо!"
     show martinez f_angry
     player_name "..."
     return
