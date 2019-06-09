@@ -3,380 +3,380 @@ label terry_dialogue_terry_start:
     show player 13 at left with dissolve
     pause
     show player 36
-    player_name "Hello."
+    player_name "Привет."
     show player 13
     show terry 2
-    Terry "Well what have we here? Come to do a bit fishin' have we?"
+    Terry "Посмотрите-ка, кто тут у нас? Пришел чтобы немного у нас порыбачить?"
     show player 29
     show terry 1
-    player_name "What makes you think that?"
+    player_name "С чего ты это взял?"
     show player 3
     show terry 2
-    Terry "Oh ho, I know the look of a fisherman when I see one."
+    Terry "О-хо, я знаю этот взгляд рыбака когда я тебе увидел впервые."
     show player 11
-    Terry "What's your name lad?"
+    Terry "Как тебя зовут приятель?"
     show terry 1
     show player 14
     player_name "{b}[firstname]{/b}."
     show player 13
     show terry 2
-    Terry "Good to meet ya, {b}[firstname]{/b}!"
-    Terry "{b}Captain Terry{/b} at your service!"
+    Terry "Рад знакомству с тобой, {b}[firstname]{/b}!"
+    Terry "{b}Капитан Терри{/b} к твоим услугам!"
     show player 14
     show terry 1
-    player_name "Is this your dock?"
+    player_name "Это твой причал?"
     show player 13
     show terry 2
-    Terry "Indeed it is. And this here's my shop. Fish and tequila, the two things I love best in this world!"
+    Terry "Это действительно так. А вот это мой магазин. Рыба и текила, две вещи, которые я люблю больше всего на свете!"
     show terry 1
-    show sara 4 at right with dissolve
+    show sara 4 zorder1 at right with dissolve
     sara "..."
     show sara 5
-    sara "The two things you love best, huh?"
+    sara "Две вещи, которые ты любишь больше всего, мм?"
     show player 11
     show sara 4
     show terry 17b
-    Terry "Err... Well, not more than you of course..."
+    Terry "Ээээ... Ну, не больше чем тебя конечно..."
     show terry 18b
     show sara 5
-    sara "Uh huh."
+    sara "Ну да."
     show sara 2
-    sara "And who's this then?"
+    sara "И кто у нас здесь?"
     show player 13
     show sara 1
     player_name "..."
     show terry 2
-    Terry "This here's {b}[firstname]{/b}. He's come to do a bit of fishin'."
+    Terry "Вот здесь {b}[firstname]{/b}. Он пришел немного порыбачить."
     show terry 1
     show player 29
-    player_name "Hello, Miss?"
+    player_name "Здравствуйте, Мисс?"
     show terry 15
-    Terry "Meet the lovely {b}Sara{/b}."
+    Terry "Познакомься с прекрасной {b}Сарой{/b}."
     show player 14
     show terry 1
-    player_name "Your wife?"
+    player_name "Твоей женой?"
     show player 13
     show terry 16
-    Terry "Lord no, lad. My wife is the Sea."
+    Terry "Боже нет, приятель. Моя жена - это море."
     show terry 15
     show sara 4
-    Terry "Sara here means far more to me than any wife!"
+    Terry "Сара значит для меня намного больше, чем любая жена!"
     show sara 3
-    Terry "She's the love of my life, my first mate, and my business partner!"
+    Terry "Она любовь всей моей жизни! Мой первый помощник и деловой партнер."
     show terry 1
     show sara 6
-    sara "Hehe, alright, well done. I forgive you for the fish and tequilla remark."
+    sara "Хехе, хорошо, молодец. Я прощаю тебя за высказывание о рыбе и текиле."
     show player 13
     show sara 2
-    sara "Anything I can get for you boys, just give me a holler."
+    sara "Если я что угодно могу для вас сделать, мальчики, просто дайте знать."
     show sara 1
     show terry 16
-    Terry "Will do my love, will do!"
+    Terry "Сделаем моя любовь, сделаем!"
     show terry 1
     show sara 2
-    sara "Nice to meet you, {b}[firstname]{/b}!"
+    sara "Рада была познакомиться, {b}[firstname]{/b}!"
     show player 36
     show sara 1
-    player_name "You too {b}Miss Sara{/b}!"
+    player_name "Мне тоже {b}Мисс Сара{/b}!"
     hide sara
     with dissolve
     pause
     show player 13
     show terry 15
-    Terry "Oh ho, I always hate to see her go but I sure do love to watch her leave."
+    Terry "О-хо, Я все время ненавижу смотреть, когда она уходит, но я уверен что люблю наблюдать, как она уходит."
     player_name "..."
     show player 2
     show terry 1
-    player_name "So where's the best place to fish around here {b}Captain Terry{/b}?"
+    player_name "Итак, где здесь лучшее место для ловли рыбы {b}Капитан Терри{/b}?"
     show player 1
     show terry 2
-    Terry "Well right off the dock, of course!"
-    Terry "Just cast a line from that {b}chair{/b} over yonder and the fish won't be long comin'."
+    Terry "Ну, прямо с причала, конечно!"
+    Terry "Просто бросьте веревку вон с того {b}стула{/b} и рыба не заставит себя долго ждать."
     show player 2
     show terry 1
-    player_name "Alright! Any other tips?"
+    player_name "Ладно! Есть ещё советы?"
     show player 1
     show terry 4 at Position(xpos=0.71,ypos=0.7047)
-    Terry "Hmm..."
+    Terry "Хмм..."
     show terry 2 at Position(xpos=0.6992,ypos=0.7047)
-    Terry "Pay close attention to what bait you're using."
-    Terry "Not every fish likes the same type."
+    Terry "Обрати пристальное внимание на какую приманку ты ловишь."
+    Terry "Не все рыбы ловятся на одну и туже приманку."
     show player 2
     show terry 1
-    player_name "Okay, got it."
+    player_name "Хорошо, понял."
     show player 1
     show terry 2
-    Terry "Oh, and anything you catch out there. I'll buy it off ya for a good price."
+    Terry "О, и все, что ты поймаешь там. Я куплю это у тебя по хорошей цене."
     show player 2
     show terry 1
-    player_name "Alright, I'll give it a shot. Anything else?"
+    player_name "Ясно, я постараюсь. Что нибудь еще?"
     show player 1
     show terry 2
-    Terry "Don't go in the water!"
+    Terry "Не заходи в воду!"
     show player 10
     show terry 1
-    player_name "Huh? Why not?"
+    player_name "Мм? Почему нет?"
     show player 11
     show terry 2
-    Terry "There's dangerous things swimming 'round this dock."
+    Terry "Вокруг дока плавают опасные существа."
     show player 10
     show terry 1
-    player_name "Really?"
+    player_name "Реально?"
     show player 11
     show terry 2
-    Terry "You betcha'. The fishin's great but you don't wanna be swimmin' here!"
+    Terry "И не сомневайся. Рыбачить здорово, но вряд ли ты захочешь здесь поплавать!"
     show player 10
     show terry 1
-    player_name "Oh... Okay Captain. Thanks for all the advice."
+    player_name "О... Хорошо Капитан. Спасибо за все советы."
     show player 11
     show terry 2
-    Terry "Aye, Good Luck out there Skipper!"
+    Terry "Ага, Удачи тебе шкипер!"
     hide player with dissolve
     return
 
 label terry_dialogue_terry_nemesis:
     show player 2 at left
-    player_name "Hey, {b}Captain Terry{/b}, I-"
+    player_name "Эй, {b}Капитан Терри{/b}, Я-"
     show player 10
-    player_name "Oh..."
+    player_name "О..."
     show player 11
     show tstand 3 at right with dissolve
-    Terry "I almost had him, Sara! Had him *hic* had him right there on the dock!"
+    Terry "Я почти поймал его, Сара! Он был у меня *Ик* был у меня в руках вот здесь прямо на пирсе!"
     show tstand 14
-    sara "Yes, I know Dear..."
+    sara "Да, я знаю дорогой..."
     show tstand 3
-    Terry "The little demon snapped at my hand and I dropped em!"
-    Terry "Right back in th- *hic* right back in the drink he went!"
+    Terry "Этот маленький демон сорвался у меня с руки и я упустил его!"
+    Terry "Обратно- *Ик* ушел обратно в воду!"
     show tstand 14
-    sara "Uh huh..."
+    sara "Ну да..."
     show tstand 3
-    Terry "Ker Ssssplaaaaash! Oh hohohoho!"
+    Terry "Одни брызгииииии! О хохохохо!"
     show player 10
     show tstand 5
-    player_name "Uhh... You alright {b}Captain Terry{/b}?"
+    player_name "Эмм... Ты в порядке {b}Капитан Терри{/b}?"
     show player 11
     show tstand 3
-    Terry "Skipper!"
+    Terry "Шкипер!"
     show tstand 15
-    Terry "Ooooh... Oh ho...I'm *hic* I'm fiiiiiine."
-    Terry "Feelin' just wonderfuuuul."
+    Terry "Ооооо... О-хо... Я *ик* Я в поряяядке."
+    Terry "Чувствую себя просто замееечательно."
     show tstand 6
-    sara "Hello {b}[firstname]{/b}."
+    sara "Приветик {b}[firstname]{/b}."
     show player 36
     show tstand 5
-    player_name "Hi, {b}Miss Sara{/b}."
+    player_name "Привет, {b}Мисс Сара{/b}."
     show player 10
-    player_name "What's wrong with the Captain?"
+    player_name "Что случилось с капитаном?"
     show player 11
     show tstand 6
-    sara "Nothings wrong. He just had a bad day and too much tequila."
+    sara "Ничего такого. У него был просто плохой день и слишком много текилы."
     show tstand 3
-    Terry "Ooh noooo... No, I'm *hic* I'm sober as a.. *hic* sober as a church mouse."
+    Terry "Ооо неееет... Нет, я *Ик* Я трезв как... *Ик* трезв как церковная мышь."
     show tstand 6
-    sara "I'm taking him to bed."
+    sara "Я уложу его в кровать."
     show player 10
     show tstand 5
-    player_name "Oh, okay."
+    player_name "О, хорошо."
     show player 11
     show tstand 3
-    Terry "That *hic* devil fish don't know who he's messin' with, I telllll yooouu!"
+    Terry "Эта *Ик* дьявольская рыба не знает, с кем она связалась, я скаааажу тееебе!"
     show tstand 14
-    sara "Aww, Terry..."
-    sara "You can't keep doing this to yourself."
+    sara "Ойй, Терри..."
+    sara "Ты не можешь продолжать это с собой."
     show tstand 4
     show player 38
-    player_name "Devil fish? What's he on about?"
+    player_name "Дьявольская рыба? О чем это он?"
     show player 11
     show tstand 6
-    sara "{b}*Sigh*{/b}"
-    sara "I don't think he'd want me telling you."
+    sara "{b}*Вздох*{/b}"
+    sara "Я не думаю, что он хотел бы, чтобы я тебе рассказала."
     show tstand 3
-    Terry "Oh ho, non- *hic* nonsense! I trust the Skipper here."
+    Terry "О-хо, нет- *Ик* чепуха! Здесь я доверяю Шкиперу."
     show tstand 4
     sara "..."
     show tstand 14
-    sara "You're sure?"
+    sara "Ты уверен?"
     show tstand 3
-    Terry "Ayeeee."
+    Terry "Агааа."
     show tstand 6
-    sara "You see, Terry here..."
-    sara "... He's been chasing after this particular fish for years."
+    sara "Ты видишь, Терри здесь..."
+    sara "... Он охотился за этой особенной рыбой в течение многих лет."
     show tstand 15
-    Terry "Tigger! Damn his scaley hide!"
+    Terry "Тигруля! Будь проклята его чешуйчатая шкура!"
     show player 10
     show tstand 5
-    player_name "That's an odd name for a fish."
+    player_name "Это странное название для рыбы."
     show player 11
     show tstand 15
-    Terry "He ain't no fish! He's a devil the ocean shat out to torment me, I tell you!"
+    Terry "Он не рыба! Он дьявол который насрал в океане, чтобы замучить меня, я говорю тебе."
     show tstand 5
     player_name "..."
     show player 10
-    player_name "Why does Terry want him so bad?"
+    player_name "Зачем Терри он так сильно нужен?"
     show player 11
     show tstand 6
-    sara "Well you see, a few years back, Tigger kinda... Attacked Terry."
+    sara "Видишь ли, несколько лет назад, Тигруля вроде как... напал на Терри."
     show tstand 5
     show player 12
-    player_name "Attacked him?!"
+    player_name "Напал на него?!"
     show player 11
     show tstand 3
-    Terry "Took me- *hic* Took my little piggy."
+    Terry "Забрал у меня- *Ик* Забрал мою маленькую хрюшку."
     show player 10
     show tstand 5
-    player_name "Little piggy?"
+    player_name "Маленькую хрюшку?"
     show player 11
     show tstand 15
-    Terry "You know... The one that went wee wee wee all the way home?"
+    Terry "Ты знаешь... Тот который прошел мало по малу всю дорогу домой?"
     show player 3
     show tstand 5
     player_name "..."
     show tstand 6
-    sara "... His toe."
+    sara "... Его палец."
     show player 29
     show tstand 5
-    player_name "Ooooh!"
+    player_name "Ооооооо!"
     show player 30
-    player_name "Gross."
+    player_name "Отвратительно."
     show player 2
-    player_name "So that's why you warned me not to swim around the dock."
+    player_name "Так вот почему ты предупредил меня не плавать вокруг причала."
     show player 1
     show tstand 15
-    Terry "That's it exactly!"
+    Terry "Вот именно!"
     show player 2
     show tstand 5
-    player_name "Can I help?"
+    player_name "Я могу помочь?"
     show player 1
     show tstand 3
-    Terry "Oh no, lad. Tigger's my curse. I can't be unleashin' him on someone else!"
+    Terry "О нет, парень. Тигруля это моё проклятье. Я не могу натравить его на кого-то другого!"
     show tstand 6
-    sara "I really think it's best I get him into bed."
-    sara "{b}[firstname]{/b}, why don't you come back another time?"
+    sara "Я правда думаю, что будет лучше, если я уложу его в постель."
+    sara "{b}[firstname]{/b}, почему бы тебе не вернуться в другой раз?"
     show player 10
     show tstand 5
-    player_name "Oh, okay {b}Miss Sara{/b}."
+    player_name "О, хорошо {b}Мисс Сара{/b}."
     show player 11
     show tstand 14
-    sara "Come on Terry..."
+    sara "Давай ка Терри..."
     show tstand 3
-    Terry "Whatever you say, my- *hic* my love!"
+    Terry "Все что ты скажешь, моя- *Ик* моя любовь!"
     show tstand 3f at Position(xpos=1.05,ypos=1.0):
-    Terry "♪Ohhh, better far to live and die...♪"
+    Terry "♪Оооо, лучше долго жить и умереть...♪"
     show tstand 3f at Position(xpos=1.25,ypos=1.0):
-    Terry "♪Under the brave black flag I fly...♪"
+    Terry "♪Под отважным черным флагом я летаю...♪"
     hide tstand with dissolve
     show player 10
-    player_name "I feel bad for the Captain... I wish I could help him."
+    player_name "Я сочувствую капитану... я хотел бы помочь ему."
     hide player with dissolve
     return
 
 label terry_dialogue_terry_retire:
     show tstand 11 at right with dissolve
-    Terry "I'm tellin' you, Love. That fish is livin' on borrowed time!"
-    Terry "I'll mount his cursed hide in the shop for all to see!"
+    Terry "Я говрю тебе, любимая. Что дни этой рыбы уже сочтены!"
+    Terry "Я положу ету проклятую шкуру в магазине, чтобы все могли её увидеть!"
     show tstand 16
-    sara "Oh Terry, I don't see how a compass is going to accomplish that..."
+    sara "О Терри, я не понимаю, как компас собирается это сделать..."
     show tstand 10
     show player 36 at left with dissolve
-    player_name "Hey Captain!"
+    player_name "Привет Капитан!"
     show tstand 12
     pause
-    player_name "Hello, {b}Miss Sara{/b}."
+    player_name "Привет, {b}Мисс Сара{/b}."
     show player 1
     show tstand 13
-    sara "Well hi there, {b}[firstname]{/b}. Come for a drink?"
+    sara "Ну привет, {b}[firstname]{/b}. Пришел выпить?"
     show tstand 11
-    Terry "Aye, a nice shot of tequila before you head out to fish!"
+    Terry "Ага, хороший стаканчик текилы, прежде чем отправиться на рыбалку!"
     show player 29
     show tstand 17
-    player_name "Oh, no thank you..."
-    player_name "I actually came by to give you something, Captain."
+    player_name "О, нет спасибо..."
+    player_name "Вообще-то, я пришел, чтобы отдать тебе кое-что, Капитан."
     show player 3
     show tstand 17
-    Terry "Oh ho, you're too kind, Skipper. What have you got for me this time?"
+    Terry "О-хо, ты слишком добр, Шкипер. Что ты припас для меня на этот раз?"
     show player 2
-    player_name "Well..."
+    player_name "Чтож..."
     show player 239_240
     pause
     show player 465 with hpunch
     show tstand 18
-    player_name "This!"
+    player_name "Это!"
     show player 464
-    Terry "Sweet Jesus!"
+    Terry "Господи Иисусе!"
     show tstand 2 zorder 1 at Position(xpos=.9,ypos=1.0)
     show sara 4 zorder 2 at Position(xpos=.8325,ypos=1.0) with dissolve
-    Terry "That's him!"
-    Terry "The Skipper here caught old Tigger!"
+    Terry "Это он!"
+    Terry "Шкипер поймал старого Тигрулю!"
     show player 465
     show tstand 1
-    player_name "I did!"
+    player_name "Я сделал!"
     show player 464
     show sara 2
-    sara "Wow, That is one ugly fish..."
+    sara "Вау, Это одна из уродливых рыб..."
     show sara 1
     show tstand 2
-    Terry "I told you! Straight outta hell that fish!"
-    Terry "Let me see him."
+    Terry "Я говорил тебе! Эта рыба прямо из ада!"
+    Terry "Дай мне посмотреть на неё."
     show player 1
     show tstand 7
-    Terry "I can't believe it."
+    Terry "Я не могу в это поверить."
     show tstand 9
     Terry "..."
     show tstand 8
-    Terry "I CAN'T believe it!"
-    Terry "You see Sara! I told you the compass would do the trick!!"
+    Terry "Я НЕ МОГУ поверить в это!"
+    Terry "Ты видишь Сара! Я говорил тебе, что компас добьется цели!!"
     show tstand 9
     show sara 5
-    sara "Terry, the Compass didn't do this. {b}[firstname]{/b} did!"
+    sara "Терри, компас этого не делал. {b}[firstname]{/b} это сделал!"
     show tstand 8
     show sara 4
-    Terry "Aye, he did. Because I have the compass! Don't you see!?"
-    Terry "I've gotta get him inside. Be right back!"
+    Terry "Ага, он сделал. Потому что у меня был компас! Разве ты не видишь!?"
+    Terry "Я должен положить его внутрь. Скоро вернусь!"
     show tstand 9
     hide tstand with dissolve
     show sara 2
-    sara "It's finally over."
-    sara "This obsession of his is finally at an end!"
-    sara "You have no idea how much this means to me, {b}[firstname]{/b}."
-    sara "I'm afraid I'll never be able to repay you!"
+    sara "Наконец-то это закончилось."
+    sara "Его одержимость наконец-то подошла к концу!"
+    sara "Ты понятия не имеешь, как много это для меня значит, {b}[firstname]{/b}."
+    sara "Я боюсь, что я никогда не смогу отплатить тебе!"
     show player 2
     show sara 1
-    player_name "Oh, that's okay, Miss Sara."
-    player_name "I just wanted to help {b}Captain Terry{/b}."
+    player_name "О, все нормально, Мисс Сара."
+    player_name "Я просто хотел помочь {b}Капитану Терри{/b}."
     show player 1
     sara "..."
     show sara 2
-    sara "You're a good kid."
-    sara "I..."
+    sara "Ты хороший парень."
+    sara "Я..."
     show sara 1
     show tstand 2 at Position(xpos=.725,ypos=1.0)
     show sara 3
-    Terry "Do you know what this means?!"
+    Terry "Ты знаешь что это значит?!"
     show tstand 1
     player_name "..."
     show sara 6
-    sara "That we can finally talk about you retiring?"
+    sara "Что мы наконец-то можем поговорить о твоей отставке?"
     show tstand 2
     show sara 3
-    Terry "What?! ...Oh, sure, Suuure! We'll get right to that."
-    Terry "After I've had myself a nice long swim!"
+    Terry "Что?! ...О, конечно, Конееечно! Мы сразу перейдем к этому вопросу."
+    Terry "После того, как я накупаюсь, после этого длительного времени!"
     hide tstand with dissolve
     show sara 4f
-    Terry "Hahahaha!"
+    Terry "Хахахахахаха!"
     show sara 5f
-    sara "Wait a second!"
+    sara "Подожди секундочку!"
     show sara 4f
     pause
     show sara 5f
-    sara "Terry!!!"
+    sara "Терри!!!"
     show player 23
-    sara "Oh my gosh, Don't take those off!"
-    sara "Terry, there's people watching!"
+    sara "О боже мой, Не снимай их!"
+    sara "Терри, там люди смотрят!"
     show player 11
     show sara 4f
     pause
     show sara 5f
-    sara "Ugh."
+    sara "Агх"
     hide sara with dissolve
 
     show player 13
@@ -384,15 +384,15 @@ label terry_dialogue_terry_retire:
 
     scene location_pier_running
     with fade
-    show text "{b}Captain Terry{/b} had spent years avoiding that water..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "{b}Капитан Терри{/b} многие годы избегал этой воды..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "But now that Tigger was finally gone, it seems he couldn't wait to get reacquainted." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Но Тигруля, наконец, исчез, похоже он не мог дождаться чтобы окунуться." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I couldn't contain my smile as I watched him gleefully bound into the water." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я не мог сдержать улыбку, смотря, как он радостно прыгает в воду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "The pride I felt at bringing him this moment..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Гордость которую я почувстовал, когда вернул ему этот момент..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Is something I'll never forget." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это то что я никогда не забуду." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -401,117 +401,117 @@ label terry_dialogue_terry_retire:
 label terry_dialogue_terry_tigger_sign:
     scene location_pier_cutscene
     with fade
-    show text "My first return to the Captain's shack found him hard at work." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Мое первое возвращение в капитанскую лачугу заставило его тяжело работать." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "It seemed {b}Captain Terry{/b} had wasted little time getting Tigger stuffed and mounted." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Казалось что {b}Капитан Терри{/b} потратил немного времени на то, чтобы нафаршировать и установить Тигрулю." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "True to his word, he was hanging his trophy up for all to see." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Сдержал свое слово, он повесил свой трофей на всеобщее обозрение." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
 
-    scene expression "backgrounds/location_pier_day_closeup.jpg"
+    scene location_pier_closeup_day
     show tstand 1f with dissolve
     show tstand 2f
-    Terry "Haha! Bet my toe isn't tasting so good now is it, ya big ugly bastard?!"
+    Terry "Хаха! Держу пари, сейчас мой палец не так хорош на вкус, да, большой уродливый ублюдок?!"
     show tstand 1f
     show player 13 at left with dissolve
     player_name "..."
     show player 14
-    player_name "I like the new wall ornament, Captain."
+    player_name "Мне нравится новое настенное украшение, Капитан."
     show player 13
     show tstand 2 at right
-    Terry "Aye, it's a hell of a thing isn't Skipper?"
-    Terry "Thanks again, fer catchin' that menace."
+    Terry "Ага, разве это адская штука, Шкипер?"
+    Terry "Спасибо еще раз, что поймал это зло."
     show tstand 1
     show player 14
-    player_name "I'm just happy I could help."
+    player_name "Я просто счастлив, что смог помочь."
     show tstand 2
     show player 13
-    Terry "Well... You're a good Lad."
-    Terry "You let me know if there's ever anything me and mine can do for ya."
+    Terry "Чтож... Ты хороший парень."
+    Terry "Дай мне знать если что-нибудь я и мой магазин сможем сделать для тебя."
     show tstand 1
     show player 14
-    player_name "Okay, Captain. I will!"
+    player_name "Хорошо, Капитан. Я обещаю!"
     show tstand 2
     show player 13
-    Terry "Anything at all now! You hear me?"
+    Terry "Все что угодно! Ты слышишь меня?"
     show tstand 1
     show player 14
-    player_name "I hear you."
+    player_name "Я слышу тебя."
     show player 13
     pause
     show player 12
-    player_name "So, where is {b}Miss Sara{/b} at today?"
+    player_name "Итак, где сегодня {b}Мисс Сара{/b}?"
     show tstand 2
     show player 11
-    Terry "Ahh, she's off plannin' for our vacation."
+    Terry "Ахх, она планирует наш отпуск."
     show tstand 1
     show player 10
-    player_name "Vacation, huh?"
-    player_name "Where you going?"
+    player_name "Отпуск, ммм?"
+    player_name "Куда вы едите?"
     show tstand 2
     show player 11
-    Terry "Wherever the lady says... Hah!"
+    Terry "Куда угодно, куда леди скажет... Хах!"
     show tstand 1
     show player 14
-    player_name "Haha! Well I'm happy for you guys."
-    player_name "When are you leaving?"
+    player_name "Хаха! Ну, я счастлив за вас, ребята."
+    player_name "Когда вы уезжаете?"
     show tstand 2
     show player 13
-    Terry "Bah, I'd wager not anytime soon Skipper."
-    Terry "The little lady is just full of excitement right now."
-    Terry "What with me finally hanging up the hat and all."
+    Terry "Ну, Держу пари, ещё не скоро, Шкипер."
+    Terry "Маленькая леди сейчас просто перевозбуждена в прямо сейчас."
+    Terry "Что со мной, наконец, повесил шляпу и все."
     show tstand 1
     show player 14
-    player_name "Oh, okay!"
+    player_name "О, Хорошо!"
     show tstand 2
     show player 13
-    Terry "Speaking of my retirement; I wanted to let you know..."
-    Terry "I'll still buy any fish that you catch off my dock there Skipper."
+    Terry "Кстати говоря о моем выходе на пенсию; я хочу чтобы ты знал..."
+    Terry "Я все равно куплю любую рыбу, которую ты поймаешь у моего причала, Шкипер."
     show tstand 1
     show player 10
-    player_name "... But I thought you weren't gonna sell them anymore?"
+    player_name "... Но я думал, что ты больше не будешь их продавать?"
     show tstand 2
     show player 11
-    Terry "Well I'm still allowed to eat 'em aren't I?"
+    Terry "Ну, мне все же разрешено их есть разве нет?"
     show tstand 1
     show player 10
-    player_name "Oh, y-yeah! Of course!"
+    player_name "О, д-да! Конечно!"
     show tstand 2
     show player 11
-    Terry "Oh ho... You know I can't get on without my fish and tequila!"
+    Terry "О-хо... Ты же знаешь что я не могу без моей рыбы и текилы."
     show player 13
-    Terry "... And the fresher the fish the better!"
+    Terry "... И чем свежее рыба, тем лучше!"
     show tstand 1
     show player 14
-    player_name "Alright, I'll keep that in mind Captain."
+    player_name "Ладно, Я буду иметь это в виду Капитан."
     show tstand 2
     show player 13
-    Terry "Good lad!"
-    Terry "Well, I reckon I'd best be off."
+    Terry "Хорошо парень!"
+    Terry "Чтож, я думаю я лучше пойду."
     show tstand 1
     pause
     show tstand 2
-    Terry "Remember now, anything you need, I'm yer man!"
+    Terry "Сейчас запомни, если что понадобится, я твой человек!"
     show tstand 1
     show player 14
-    player_name "Alright, Captain! I'll see ya around!"
+    player_name "Хорошо, Капитан! Ещё увидимся!"
     show player 13
     hide tstand with dissolve
     show player 4
-    player_name "(Hmm, I bet Aqua would let me catch a few fish here and there.)"
-    player_name "(Now that Terry is retired.)"
+    player_name "( Хмм, Бьюсь об заклад, Аква позволила бы мне поймать несколько рыб здесь и там. )"
+    player_name "( Теперь, когда Терри на пенсии. )"
     return
 
 label terry_dialogue_intro:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 36 at left with dissolve
-    player_name "Hey Captain!"
+    player_name "Привет Капитан!"
     show player 203
     show terry 2
-    Terry "Well Hello there Skipper!"
-    Terry "Anything I can do for ya?"
+    Terry "Ну привет, Шкипер!"
+    Terry "Что я могу для тебя сделать?"
     return
 
 label terry_dialogue_buy_fish:
@@ -519,12 +519,12 @@ label terry_dialogue_buy_fish:
     show player 4
     pause
     show player 12
-    player_name "Do you have any fresh fish for sale?"
+    player_name "У тебя есть свежая рыба на продажу?"
     show player 203
     show terry 2
-    Terry "Of course! You came to the right place."
-    Terry "I have {b}Sea trout{/b}, {b}Snapper{/b} and {b}Mackerel{/b}."
-    Terry "What'll it be?"
+    Terry "Конечно! Ты пришел в нужное место."
+    Terry "У меня есть {b}Морская форель{/b}, {b}Морской окунь{/b} и {b}Скумбрия{/b}."
+    Terry "Что выберешь?"
     return
 
 label terry_dialogue_buy_fish_buy:
@@ -551,7 +551,7 @@ label terry_dialogue_buy_fish_buy:
     return
 
 label terry_dialogue_buy_fish_buy_no_money:
-    player_name "( I don't have enough money... )"
+    player_name "( У меня не хватает денег... )"
     return
 
 label terry_dialogue_buy_fish_buy_pre:
@@ -559,24 +559,24 @@ label terry_dialogue_buy_fish_buy_pre:
     pause
     show player 2
     player_name "{b}[fish]{/b}."
-    Terry "That’s a great choice!"
+    Terry "Это отличный выбор!"
     show terry 4
-    Terry "Let me get that for you..."
+    Terry "Давай я достану её для тебя..."
     return
 
 label terry_dialogue_buy_fish_buy_after:
-    Terry "Here ya go, mate!"
+    Terry "Это тебе, дрижише!"
     show player 17
-    player_name "Thank you!"
+    player_name "Спасибо!"
     return
 
 label terry_dialogue_buy_fish_nevermind:
     show player 10
     show terry 1
-    player_name "Hmm... I think I’ll pass."
+    player_name "Хмм... Я думаю, я откажусь."
     show player 203
     show terry 2
-    Terry "No problem, mate! Maybe some other time."
+    Terry "Без проблем, приятель! Может быть в другой раз."
     return
 
 label terry_dialogue_sell_fish:
@@ -586,14 +586,14 @@ label terry_dialogue_sell_fish:
     pause
     show player 13
     show terry 2
-    Terry "Caught anything good, skipper?"
+    Terry "Поймал что-нибудь хорошее, Шкипер?"
     show terry 1
     show player 14
-    player_name "Yeah actually, I was wondering if you wanted to buy them."
+    player_name "Вообще-то, да, мне было интересно, не хочешь ли ты их купить."
     show player 13
     show terry 2
-    Terry "Of course, lad."
-    Terry "What do you have?"
+    Terry "Конечно, приятель."
+    Terry "Что у тебя есть?"
     show terry 1
     return
 
@@ -618,35 +618,35 @@ label terry_dialogue_sell_fish_sell:
 
 label terry_dialogue_sell_fish_sell_pre:
     show player 14
-    player_name "Here's a fresh {b}[fish]{/b}."
+    player_name "Вот свежая {b}рыба{/b}."
     show player 13
     show terry 2
-    Terry "Nice catch, lad!"
+    Terry "Отличный улов, парень!"
     show terry 4
-    Terry "Let me get your money."
+    Terry "Дай мне принести твои деньги."
     show terry 1
     return
 
 label terry_dialogue_sell_fish_nevermind:
     show player 10
     show terry 1
-    player_name "Hmm... Actually, it must have wiggled out..."
+    player_name "Хмм... На самом деле, она ускользнула..."
     show player 13
     show terry 2
-    Terry "No problem, mate! Maybe some other time."
+    Terry "Без проблем дружише! Может быть в другой раз."
     show terry 1
     return
 
 label terry_dialogue_buy_drink_pre:
     show player 12
     show terry 1
-    player_name "You sell drinks?"
+    player_name "Ты продаешь выпивку?"
     show player 11
     show terry 3
     pause
     show terry 2
-    Terry "Only one kind: Pure tequila gold!"
-    Terry "$5 a shot, mate."
+    Terry "Только одного вида: Чистейшую золотую текилы!"
+    Terry "$5 стаканчик, дружище."
     return
 
 label terry_dialogue_buy_drink:
@@ -659,7 +659,7 @@ label terry_dialogue_buy_drink:
     return
 
 label terry_dialogue_buy_drink_no_money:
-    player_name "( I don't have enough money... )"
+    player_name "( У меня не хватает денег... )"
     return
 
 label terry_dialogue_buy_drink_buy:
@@ -671,284 +671,284 @@ label terry_dialogue_buy_drink_buy:
     show player 190
     pause
     show player 191
-    player_name "Ugh! That’s really strong!"
+    player_name "Агх! Это действительно сильно!"
     show player 185
     show terry 2
-    Terry "Haha!"
-    Terry "It’s the good stuff! You’ll get used to it!"
+    Terry "Хаха!"
+    Terry "Эта хорошая вешь! Ты привыкнешь к этому!"
     return
 
 label terry_dialogue_buy_drink_pass:
     show terry 1
     show player 10
-    player_name "I think I’ll pass. I can’t drink that stuff."
+    player_name "Пожалуй я пас. Я не могу пить эту штуку."
     show terry 2
     show player 203
-    Terry "No problem, mate! Maybe some other time."
+    Terry "Не проблема, парень! Может быть в следующий раз."
     return
 
 label terry_dialogue_fishing:
     show player 2
     show terry 1
-    player_name "Can I try to catch some fish here?"
+    player_name "Могу ли я попытаться половить здесь рыбу?"
     show player 203
     show terry 3
     pause
     show terry 2
-    Terry "I see the open water is catching your eye."
+    Terry "Я вижу, открытая вода бросается в глаза."
     show player 31f at Position(xpos=-0.1412,ypos=1.0000) with dissolve
     show terry
-    Terry "Just use the {b}chair{/b} at the end of the pier. It's a great spot!"
+    Terry "Просто используй {b}стул{/b} в конце пирса. Это отличное место!"
     show player 203 at left with dissolve
-    Terry "Make sure you have a {b}fishing rod{/b}, and that you're using the right {b}bait{/b}."
+    Terry "Убедись, что у тебя есть {b}Удочка{/b}, и то что ты используешь правильную {b}приманку{/b}."
     show terry 3
     pause
     show terry 2
-    Terry "Oh! If you catch anything, come back here, and I’ll buy them off you for a reasonable price."
+    Terry "О! Если ты что-нибудь поймаешь, возвращайся сюда, и я куплю их у тебя за разумную цену."
     return
 
 label terry_dialogue_fishing_bait:
     show player 2
     show terry 1
-    player_name "Can you tell me more about the bait types?"
+    player_name "Можешь ли вы рассказать мне побольше о типах приманки?"
     show player 203
     show terry 2
-    Terry "Sure thing, mate!"
-    Terry "First, you need to know what kind of fish you're tying to catch."
-    Terry "Every {b}kind{/b} of fish likes a specific type of {b}bait{/b}!"
-    Terry "{b}Sea trout{/b} like worms, {b}Snapper{/b} like blue bait, and {b}Mackerel{/b} like the green baits!"
+    Terry "Понятно дела, помощник!"
+    Terry "Первое, тебе нужно знать, какую рыбу ты пытаешся поймать."
+    Terry "Каждый {b}вид{/b} рыбы любит определенный тип {b}приманки{/b}!"
+    Terry "{b}Морской форели{/b} нравятся черви, {b}морскому окуню{/b} нравятся голубые приманки, и {b}Скумбрии{/b} нравятся зеленые приманки!"
     show player 2
     show terry 1
-    player_name "Awesome! Thanks for the tip!"
-    player_name "But where could I find those different types of bait?"
+    player_name "Потрясающе! Спасибо за совет!"
+    player_name "Но где я могу найти эти различные типы приманки?"
     show player 203
     show terry 2
-    Terry "I don't sell equipment in my shack."
-    Terry "You'll have to {b}look around town{/b} to find them."
+    Terry "Я не продаю оборудование в своей хижине."
+    Terry "Тебе придется {b}посмотреть в городе{/b} чтобы найти их."
     show player 2
     show terry 1
-    player_name "I see..."
-    player_name "Thanks, {b}Terry{/b}!"
+    player_name "Я посмотрю."
+    player_name "Спасибо {b}Терри{/b}!"
     return
 
 label terry_dialogue_secret:
     show player 2 at left
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
-    player_name "How did you get so good at fishing, Captain?"
+    player_name "Как ты так хорошо ловишь рыбу, Капитан?"
     show terry 2
     show player 203
-    Terry "Oh ho, years of practice Skipper."
+    Terry "О-хо, годы практики Шкипер."
     show player 2
     show terry 1
-    player_name "Is that all?"
+    player_name "Это все?"
     show terry 2
     show player 203
-    Terry "... Well..."
-    Terry "... I also got a secret weapon!"
+    Terry "... Ну..."
+    Terry "... А ещё у меня есть секретное оружие!"
     show terry 1
     show player 14
-    player_name "Really?! What is it?"
+    player_name "Реально?! Что это?"
     show terry 15
     show player 203
-    Terry "Hah, you can't be expectin' a Master Fisherman to reveal all his secrets!"
+    Terry "Хах, нельзя ждать что мастер рыбак раскрое все свои секреты!"
     show terry 1
     show player 2
-    player_name "Aww, c'mon Captain. You can tell me!"
+    player_name "Ой, да ладно Капитан. Ты можешь рассказать мне!"
     show terry 2
     show player 203
-    Terry "Hmm..."
+    Terry "Хмм..."
     show terry 16
-    Terry "Ahaha, well aren't you persistant? I like that!"
+    Terry "Ахаха, ну разве ты не настойчив? Мне это нравится!"
     show terry 15
-    Terry "A good fisherman needs persistance!"
+    Terry "Хороший рыбак нуждается в упорстве!"
     show terry 2
-    Terry "Alright Skipper, C'mere and I'll show you my secret lure."
+    Terry "Хорошо Шкипер, иди сюда и я покажу тебе свою секретную приманку."
     show terry 9 at Position(xpos=0.671,ypos=0.7047)
     show player 14
-    player_name "Secret lure? Neat!"
-    player_name "What's it do?"
+    player_name "Секретную приманку? Ловко!"
+    player_name "Что именно она делает?"
     show terry 10
     show player 203
-    Terry "Oh ho, this baby catches everything!"
-    Terry "The fish just can't resist it!"
+    Terry "Ох-хо, эта малышка ловит все!"
+    Terry "Рыба просто не может устоять!"
     show terry 9
     show player 14
-    player_name "Wow!"
-    player_name "Would you sell it to me?"
+    player_name "Вау!"
+    player_name "Не хочешь мне её продать?"
     show terry 11
     show player 203
-    Terry "Haha, sell it to you?! Lad, it's priceless!"
+    Terry "Хаха, продать её тебе?! Парень, она бесценна!"
     show terry 13
     show player 24
-    player_name "Oh, I see..."
+    player_name "О, я вижу..."
     show terry 11
-    Terry "Hmm... Well don't be lookin' so down."
+    Terry "Хмм... Ну не расстраивайся ты так."
     show terry 10
-    Terry "I tell you what. You find me something equally priceless and I'll trade you."
+    Terry "Я тебе скажу вот что. Если ты найдешь мне что-то столь же бесценное, то я обменяюсь с тобой."
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 12
-    player_name "Well what did you have in mind?"
+    player_name "Ну, что же ты имеешь в виду?"
     show terry 2
     show player 11
-    Terry "How about the {b}Golden Compass{/b}?"
+    Terry "Как насчет {b}Золотого Компаса{/b}?"
     show terry 1
     show player 12
-    player_name "What's that?"
+    player_name "Что это такое?"
     show terry 2
     show player 11
-    Terry "An old fisherman's tale."
-    Terry "Long ago, there was a great builder of ships livin' in these parts."
-    Terry "They say he possessed a {b}Golden Compass{/b} that could lead you to your hearts desire."
+    Terry "Старая рыбацкая сказка."
+    Terry "Много лет назад, в этих краях жил великий строитель кораблей."
+    Terry "Говорили, что он обладал {b}Золотым Компасом{/b} и что он может привести тебя к твоему желанию сердца."
     show terry 1
     show player 12
-    player_name "That sounds made up!"
+    player_name "По-моему это выдумки!"
     show terry 15
     show player 11
-    Terry "Ho ho, aye, that it does lad."
+    Terry "Хо хо, ага, так и есть приятель."
     show terry 2
-    Terry "But if such a thing were to exist..."
-    Terry "I reckon it would be well worth tradin' my lure for."
-    Terry "What do you say?"
+    Terry "Но если бы такая штука существала..."
+    Terry "Я думаю, что она бы того стоила чтобы обменять на мою приманку."
+    Terry "Что скажешь?"
     show terry 1
     show player 14
-    player_name "Hmm... I suppose I could look into it."
-    show terry 2
-    show player 13
-    Terry "That's a good lad!"
-    show terry 1
-    show player 14
-    player_name "Where do you recommend I start?"
+    player_name "Хмм... Я думаю я мог бы этим заняться."
     show terry 2
     show player 13
-    Terry "I'd start searchin' for the ship builder."
-    Terry "If he really existed, I reckon he's buried somewhere in the town cemetery."
+    Terry "Это отлично!"
     show terry 1
     show player 14
-    player_name "Sounds good, what was his name?"
+    player_name "С чего бы ты посоветовал начать?"
+    show terry 2
+    show player 13
+    Terry "Я бы начал искать с судостроителя."
+    Terry "Если бы он действительно существовал, я думаю, он был бы похоронен где-то на городском кладбище."
+    show terry 1
+    show player 14
+    player_name "Звучит неплохо, как его звали?"
     show terry 16
     show player 13
-    Terry "Oh ho, I haven't the slightest."
+    Terry "О-хо, я не имею ни малейшего понятия."
     show terry 1
     show player 10
-    player_name "Ah, jeez."
+    player_name "Ах, блин."
     show terry 2
     show player 11
-    Terry "Maybe you should ask around town. One of the {b}older residents{/b} might now something."
+    Terry "Может быть, тебе стоит поспрашивать в городе. Некоторые из {b}старых жителей{/b} могут что то об этом знать."
     show terry 1
     show player 10
-    player_name "Alright, I guess I'd better get started."
+    player_name "Хорошо, я думаю, мне лучше начать."
     show terry 2
     show player 13
-    Terry "Best of luck, Skipper!"
+    Terry "Всего самого хорошего тебе, Шкипер!"
     show terry 1
     show player 14
-    player_name "Thanks Captain."
+    player_name "Спасибо Капитан."
     return
 
 label terry_dialogue_lure:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 14 at left
-    player_name "What did you want in trade for the lure again?"
+    player_name "Ещё раз, что ты хотел взамен на приманку?"
     show terry 2
     show player 13
-    Terry "I'm afraid nothin' short of the {b}Golden Compass{/b} will do, Skipper."
+    Terry "Боюсь, ничего, кроме {b}Золотого компаса{/b} не поможет, Шкипер."
     show terry 1
     show player 14
-    player_name "Oh, that's right! Where should I start looking?"
+    player_name "О, да, точно! Где я должен начать искать?"
     show terry 2
     show player 13
-    Terry "I'd ask around town if I were you."
-    Terry "See if any of the {b}older residents{/b} know somethin' about the guy who owned it."
-    Terry "It's said he was a great builder of ships."
+    Terry "На твоем месте я бы поспрашивал в городе."
+    Terry "Посмотрим, знает ли кто-нибудь из {b}пожилых жильцов{/b} что-нибудь о парне, который им владел."
+    Terry "Говорят, он был великим строителем кораблей."
     show terry 1
     show player 14
-    player_name "Okay, Thanks Captain."
+    player_name "Хорошо, Спасибо капитан."
     return
 
 label terry_dialogue_golden_compass:
     show player 2 at left
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
-    player_name "You still got that lure, Captain?"
+    player_name "Приманка ещё у вас, капитан?"
     show player 1
     show terry 15
-    Terry "You betcha! Never let it out of my sight."
+    Terry "Еще бы! Никогда не спускаю с нее глаз."
     show player 2
     show terry 1
-    player_name "Good, because guess what I've brought you?"
+    player_name "Хорошо, потому что угадай, что я тебе принес?"
 
     show terry 19
     show player 239_240
     pause
     show player 466
     show terry 17
-    Terry "Couldn't be..."
+    Terry "Не может быть..."
     show player 467
     show terry 19
-    player_name "I found it! I found the Golden Compass!"
+    player_name "Я нашел его! Я нашел Золотой компас!"
     show player 466
     show terry 17
-    Terry "You're kiddin'!"
+    Terry "Ты шутишь!"
     show player 467
     show terry 19
-    player_name "Here, have a look!"
+    player_name "Вот, взгляни на это!"
 
     show player 1
     show terry 21 at Position(xpos=0.654,ypos=0.712)
     pause
     show terry 22
-    Terry "By Blackheart's slimy backside!"
-    Terry "The damned thing does exist!"
+    Terry "Сделано черносердечно на задней стороне!"
+    Terry "Эта Проклятая вещь действительно существует!"
     show player 10
     show terry 21
     player_name "..."
-    player_name "You mean you didn't really believe in it?"
+    player_name "Ты действительно не веришь в это?"
     show player 5
     show terry 22
-    Terry "Lord no, Lad. I never intended to part with my lure..."
-    Terry "I need it to catch Tigger and my lure is the only bait he's ever gone after."
-    Terry "Well, ignorin' my missin' piggy, of course."
+    Terry "Господи нет, парень. Я никогда не собирался расставаться с приманкой..."
+    Terry "Она мне нужна, чтобы поймать Тигра, а моя приманка - единственная, на которую он клюет."
+    Terry "Ну, не считая моего пропавшего поросенка, конечно."
     show player 24
     show terry 21
-    player_name "Oh, I see."
+    player_name "Ох, Понятно."
 
     show terry 4 at Position(xpos=0.71,ypos=0.7047)
     pause
     show terry 10 at Position(xpos=0.671,ypos=0.7047)
-    Terry "I reckon this belongs to you now!"
+    Terry "Думаю, теперь это принадлежит тебе!"
 
     show player 470
     show terry 2 at Position(xpos=0.6992,ypos=0.7047)
     pause
     show player 471
-    player_name "What? But you just said-"
+    player_name "Что? Но ты только что сказал-"
     show player 470
     show terry 15
-    Terry "Well I don't need it now, Do I Skipper?!"
+    Terry "Ну, мне она не нужна сейчас, не так ли, Шкипер?!"
     show terry 16
-    Terry "I've got a Golden Compass."
+    Terry "У меня есть Золотой Компасс."
     show terry 15
     show player 13
-    Terry "A Golden Compass that will lead me to my hearts desire."
-    Terry "And since my heart desires that little bastard's head..."
-    Terry "Well I'd say this is a fair trade, wouldn't you?"
+    Terry "Золотой компас, который приведет меня к желанию моего сердца."
+    Terry "И так как мое сердце желает голову этого маленького ублюдка..."
+    Terry "Ну, я бы сказал, что это справедливая сделка, не так ли?"
 
     show player 14
     show terry 1
-    player_name "Yeah!"
+    player_name "Да!"
     show player 13
     show terry 2
-    Terry "Now you just be careful usin' that lure!"
-    Terry "It sometimes catches... {b}Unexpected things{/b}."
+    Terry "Теперь будь осторожен, используя эту приманку!"
+    Terry "Иногда попадаются... {b}Неожиданные вещи{/b}."
     show player 14
     show terry 1
-    player_name "I'll be careful, Captain."
+    player_name "Я буду осторожен, капитан."
     show player 13
     show terry 22 at Position(xpos=0.654,ypos=0.712)
-    Terry "Good lad. Now, let me have a look at this beauty!"
+    Terry "Молодец. Теперь, позвольте мне взглянуть на эту красоту!"
     show terry 21
     show player 34f
-    player_name "(Hmm... {b}Unexpected things?{/b})"
-    player_name "(I wonder what that means?)"
+    player_name "( Хмм... {b}Неожиданные вещи?{/b} )"
+    player_name "( Интересно, что это значит? )"
     show popup_lure at truecenter with dissolve
     pause
     hide popup_lure with dissolve
@@ -957,394 +957,394 @@ label terry_dialogue_golden_compass:
 label terry_dialogue_retire:
     show player 2 at left
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
-    player_name "Hey, Captain. I have a question for you."
+    player_name "Эй, капитан. У меня есть вопрос."
     show player 1
     show terry 2
-    Terry "Oh? What can I do for you, Skipper?"
+    Terry "Да? Что я могу сделать для тебя, Шкипер?"
     show player 2
     show terry 1
-    player_name "You ever thought about retiring from the fishing business?"
+    player_name "Ты когда-нибудь думал уйти из рыболовного бизнеса?"
     show player 1
     show terry 19
-    Terry "Hmm..."
+    Terry "Хмм..."
     show terry 20
-    Terry "To tell ya the truth. Yes. I've been thinkin' about it for a few years now."
+    Terry "Если сказать по правде. Я думаю об этом уже несколько лет."
     show player 2
     show terry 1
-    player_name "Really?"
+    player_name "Правда?"
     show player 1
     show terry 17
-    Terry "Don't get me wrong, lad. I love the hunt!"
+    Terry "Не пойми меня неправильно, парень. Мне нравится рыбачить!"
     show terry 20
-    Terry "Nothin' beats a day on the sea, rod in the water, the breeze in my beard..."
+    Terry "Ничто не сравнится с... днём на море, удочкой в воде, ветерком в моей бороде..."
     show terry 15
-    Terry "That is... Nothin' but my Sara."
+    Terry "... Ничего, кроме моей Сары."
     show player 2
     show terry 1
-    player_name "You really love her, huh, Captain?"
+    player_name "Вы действительно любите её, Да, капитан?"
     show player 1
     show terry 15
-    Terry "Aye lad, I really do."
+    Terry "Да, парень, люблю."
     show terry 17
-    Terry "And she's been wantin' me to retire for as long as I can remember."
+    Terry "И она хотела, чтобы я ушел на пенсию, сколько я себя помню."
     show terry 20
-    Terry "Says she wants to travel a bit, see the world."
+    Terry "Говорит, что хочет немного попутешествовать, повидать мир."
     show terry 17
-    Terry "Truth be told I think she just want's me around more often."
+    Terry "По правде говоря, я думаю, что она просто хочет, чтобы я был рядом с ней почаще."
     show player 2
     show terry 1
-    player_name "So why don't you do it?"
+    player_name "Так почему бы тебе не сделать это?"
     show player 1
     show terry 17
-    Terry "I can't, Skipper!"
-    Terry "Not in good conscious!"
-    Terry "Not while that monster's still out there lurkin' about!"
+    Terry "Я не могу, Шкипер!"
+    Terry "Не тот случай!"
+    Terry "Не тогда, когда этот монстр все еще где-то там скрывается!"
     show player 10
     show terry 18
-    player_name "Ahh, Tigger?"
+    player_name "Ааа, Тигр?"
     show player 11
     show terry 20
-    Terry "*spits* Devil Fish!"
+    Terry "*плюется* Дьявольская Рыба!"
     show terry 2
-    Terry "But now that you've brought me the Golden Compass..."
-    Terry "It's only a matter of time till that bastard meets his end!"
+    Terry "Но теперь, когда ты принес мне Золотой компас..."
+    Terry "это лишь вопрос времени, когда этот ублюдок встретит свою смерть!"
     show player 10
     show terry 1
-    player_name "Okay, well thanks for being honest with me Captain."
+    player_name "Хорошо, спасибо, что был честен со мной, Капитан."
     show player 11
     show terry 2
-    Terry "Don't mention it, Skipper!"
+    Terry "Не стоит, Шкипер!"
     show terry 16
-    Terry "You've proved yourself a true blue friend to me and mine."
+    Terry " Ты показал себя настоящим верным другом для меня и мне."
     show player 34
     show terry 1
-    player_name "(I bet if I caught Tigger, {b}Captain Terry{/b} would quit fishing.)"
-    player_name "(I have to try. Aqua is counting on me!)"
+    player_name "( Бьюсь об заклад, если бы я поймал Тигра, {b}Капитан Терри{/b} бросил бы рыбалку. )"
+    player_name "( Я должен попытаться. Аква рассчитывает на меня! )"
     return
 
 label terry_dialogue_fake_id:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 10 at left
-    player_name "Hey, {b}Captain Terry{/b} can I ask you something?"
+    player_name "Эй, {b}Капитан Терри{/b} могу я спросить у вас кое-что?"
     show player 5
     show terry 2
-    Terry "Aye, what is it Skipper?"
+    Terry "Да, что такое Шкипер?"
     show terry 1
     show player 10
-    player_name "I heard a rumor recently..."
-    player_name "Do you know anything about making fake IDs?"
+    player_name "Недавно до меня дошли слухи..."
+    player_name "Ты знаешь что-нибудь о подделке документов?"
     show player 5
     show terry 17b
-    Terry "Oh ho! Whereabouts did you hear a rumor like that?!"
+    Terry "О-хо! Где ты слышал такие слухи?!"
     show terry 18
     show player 29 with dissolve
-    player_name "Heh, I umm..."
+    player_name "Хе, Я эээ..."
     show player 10 with dissolve
-    player_name "Well, a friend mentioned it."
+    player_name "Ну, друг упомянул об этом."
     show player 5
     show terry 17
-    Terry "Hmm, I see..."
-    Terry "Well, if I did lad... Wouldn't be too smart for me to go blabbing about it, now would it?"
+    Terry "Хмм, Ясно..."
+    Terry "Хорошо, если бы я сделал парень... Было бы не слишком умно для меня болтать об этом, не так ли?"
     show terry 18
     show player 10
-    player_name "Yeah, I suppose not."
+    player_name "Да, я полагаю, что нет."
     show player 5
     show terry 15
-    Terry "What's a fine boy like you needin' a fake ID for anyways?"
-    Terry "I'm more than happy to give ya a drink or two from the bar..."
+    Terry "Зачем такому хорошему мальчику, как ты, фальшивые документы?"
+    Terry "Я более чем счастлив если дам тебе выпить раз или два из бара..."
     show terry 3 with dissolve
     show player 10
-    player_name "It's not for me, {b}Captain{/b}..."
+    player_name "Это не для меня, {b}Капитан{/b}..."
     show terry 1 with dissolve
-    player_name "There's this... Girl."
+    player_name "Для... Девушки."
     show player 5
     show terry 2
-    Terry "Oh! Found yourself a pretty one have ya?"
+    Terry "О! Нашел себе симпатичную, да?"
     show terry 1
     show player 29 with dissolve
-    player_name "Y-yeah..."
+    player_name "Д-Да..."
     show player 3
     show terry 15
-    Terry "Well, say no more then!"
+    Terry "Ну, не слова больше!"
     show terry 16
-    Terry "If a fake ID is what it takes, then a fake ID I shall provide!"
+    Terry "Если фальшивое удостоверение-это то, что нужно, тогда фальшивое удостоверение я предоставлю!"
     show terry 1
     show player 14 with dissolve
-    player_name "Really?"
+    player_name "Правда?"
     show player 13
     show terry 15
-    Terry "Sure!"
-    Terry "Just bring me an up to date photo and $400."
-    Terry "I'll take care of the rest!"
+    Terry "Да!"
+    Terry "Просто принеси мне актуальное фото и 400 долларов."
+    Terry "Я позабочусь об остальном!"
     show terry 1
     show player 17
-    player_name "Thanks, {b}Captain{/b}!"
+    player_name "Спасибо, {b}Капитан{/b}!"
     show player 13
     show terry 16
-    Terry "My pleasure, Skipper!"
+    Terry "С удовольствием, Шкипер!"
     show terry 3 with dissolve
-    player_name "( I should {b}go and tell Roxxy{/b} the good news! )"
+    player_name "( Я должен {b}пойти и рассказать Рокси{/b} хорошие новости! )"
     return
 
 label terry_dialogue_fake_id_picture_first:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 14 at left
-    player_name "So, about that {b}fake ID{/b}..."
+    player_name "Итак, что насчет {b}поддельных документов{/b}..."
     show player 13
     show terry 15
-    Terry "Oh, did you bring me a photo?"
+    Terry "О, ты принес фото?"
     show terry 1
     show player 14
-    player_name "Yup, I've got it right here."
+    player_name "Ага, оно у меня."
     show player 239_240 with dissolve
     pause
     show player 646 with dissolve
-    player_name "Here it is!"
+    player_name "Вот!"
     show player 13
     show terry 9b
     with dissolve
-    Terry "Good lord, you weren't kidding, Skipper!"
-    Terry "She's quite the looker!"
+    Terry "Боже милостивый, ты не шутил, Шкипер!"
+    Terry "Она просто красавица!"
     show terry 13b
     show player 14
-    player_name "Heh, yeah."
+    player_name "Ну, да."
     show player 13
     show terry 10b
-    Terry "Well, don't you worry, Lad."
-    Terry "I'll have this thing done in a flash!"
-    Terry "... You've got the $400 as well?"
+    Terry "Ну, не волнуйся, парень."
+    Terry "Я сделаю это в мгновение ока!"
+    Terry "... У тебя есть 400 баксов, а?"
     show terry 1
     return
 
 label terry_dialogue_fake_id_picture_repeat:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 10 at left
-    player_name "I was hoping you could make that {b}fake ID{/b} for me now?"
+    player_name "Я надеялся, что ты можешь сделать это {b}фальшивое удостоверение{/b} для меня сейчас?"
     show player 5
     show terry 2
-    Terry "I sure can, Skipper."
-    Terry "You have the $400?"
+    Terry "Конечно могу, Шкипер."
+    Terry "У тебя есть 400 долларов?"
     show terry 1
     return
 
 label terry_dialogue_fake_id_yes:
     show player 14
-    player_name "Of course."
-    player_name "I should go call the girls and tell them where to pick it up."
+    player_name "Конечно."
+    player_name "Я должен позвонить девочкам и сказать, где их забрать."
     show player 13
     show terry 15
-    Terry "Sounds like a plan, Skipper."
+    Terry "Звучит как план, Шкипер."
     show terry 1
     show player 14
-    player_name "I'll be back."
+    player_name "Я сейчас вернусь."
     scene black with fade
     scene expression game.timer.image("pier_closeup{}")
     show terry 2 at Position(xpos=0.6992,ypos=0.7047)
     show player 13 at left
     with dissolve
-    Terry "Just a few more minutes, Skipper."
+    Terry "Ещё несколько минут, Шкипер."
     show terry 1
     show player 14
-    player_name "Awesome! Thanks so much for this, {b}Captain Terry{/b}."
+    player_name "Потрясающе! Большое спасибо, {b}Капитан Терри{/b}."
     show player 13
     show terry 15
-    Terry "Oh ho ho, it's my pleasure, Lad."
+    Terry "О, хо-хо, мне в удовольствие, парень."
     show terry 1
-    rox "There you are! Finally!"
+    rox "Вот ты где! Наконец-то!"
     show roxxy 1bf at Position (xpos=500)
     show becca 1 at Position(xpos=315)
     show missy 1 at left
     show player 13f at right
     with dissolve
-    rox "This place wasn't easy to find!"
+    rox "Это место было нелегко найти!"
     show roxxy 1f f
     show missy 2
-    missy "Uhh, what's that smell?"
+    missy "Что это за запах такой?"
     show missy 2b
     show terry 18
     show player 10f
-    player_name "... Fish?"
+    player_name "... Рыба?"
     show player 5f
     show becca 2b with dissolve
-    becca "Eugh, disgusting!"
+    becca "Фу, отвратительно!"
     show becca 1 with dissolve
     Terry "..."
     show terry 17
-    Terry "Disgusting?!"
-    Terry "Lass, this is how I make my living, you know..."
+    Terry "Отвратительно?!"
+    Terry "Знаешь, девушка, так я зарабатываю на жизнь..."
     show terry 18
     show becca 2
-    becca "Gross."
+    becca "Грубый."
     show becca 1
     Terry "..."
     show terry 17
-    Terry "I never realized you were into the prissy snobbish type, Skipper."
+    Terry "Никогда не думал, что ты любишь чопорных снобов, Шкипер."
     show terry 18
     show player 10f
-    player_name "... I'm not really."
+    player_name "... На самом деле это не так."
     show player 5f
     show becca 8
-    becca "Pfft, don't you worry, nerd! You don't stand a chance anyways!"
+    becca "Пффф, не волнуйся, ботан! У тебя все равно нет шансов!"
     show becca 1
     show missy 6
-    missy "Haha!"
+    missy "Хаха!"
     show missy 1
     show roxxy 28f at Position (xoffset=33) with dissolve
-    rox "{b}*Sigh*{/b}"
+    rox "{b}*вздыхает*{/b}"
     show roxxy 1bf with dissolve
-    rox "... So you make {b}fake ID's{/b}, huh?"
+    rox "... Так ты делаешь {b}фальшивые документы{/b}, а?"
     show roxxy 1f f
     show terry 17
-    Terry "Aye."
-    Terry "... But don't go spreading that around, ya hear?"
+    Terry "Да."
+    Terry "... Но не распространяйся об этом, слышите?"
     show terry 17b
-    Terry "It's not exactly above board."
+    Terry "Это не совсем справедливо."
     show terry 18
     show roxxy 4f
-    rox "Well, I think it's pretty cool!"
+    rox "Ну, я думаю, что это довольно круто!"
     show roxxy 1bf
-    rox "How did you meet this guy, {b}[firstname]{/b}?"
+    rox "Как ты познакомился с этим парнем, {b}[firstname]{/b}?"
     show roxxy 1f f
     show terry 15
-    Terry "Oh ho! The Skipper and I are thick as thieves!"
-    Terry "He's quite the little fisherman, he is!"
+    Terry "О-хо! Мы со шкипером не разлей вода!"
+    Terry "Он неплохой маленький рыбак!"
     show terry 1
     show roxxy 2f
-    rox "You fish too?"
+    rox "Ты тоже рыбачишь?"
     show roxxy 1f f
     show player 14f
-    player_name "Yeah, every now and then."
+    player_name " Да, время от времени."
     show player 13f
     show roxxy 2f
-    rox "Eugh, fish freak me out."
-    rox "Aren't they like... You know, slimey?"
+    rox "Ого, рыба меня пугает."
+    rox "Разве они не похожи... ну, слизкие?"
     show roxxy 1f f
     show player 10f
-    player_name "Ehh, yeah... Sometimes, I guess."
+    player_name "Эх, да... Иногда, я полагаю."
     show player 5f
     show missy 1b
-    missy "Awesome!"
+    missy "Потрясающе!"
     show missy 1
     show becca 2b with dissolve
-    becca "Eww, no!"
+    becca "Фу, нет!"
     show becca 1 with dissolve
     show terry 18
     show missy 2
-    missy "Oh, right. I meant..."
+    missy "А, точно. Я имела в виду..."
     show missy 3
     show roxxy 3cf
-    rox "Would you two shut up?!"
+    rox "Не могли бы вы обе заткнуться?!"
     show roxxy 3df
     show missy 2b
     Terry "..."
     show roxxy 1f f
     show terry 15
-    Terry "Well, this {b}fake ID{/b} should be good to go."
+    Terry "Ну, похоже это {b}поддельное удостоверение{/b} получилось неплохо."
     show terry 1
     show roxxy 1bf
-    rox "Awesome!"
+    rox "Потрясающе!"
     show roxxy 4f
-    rox "Finally, I won't have to rely on {b}Dexter{/b} for booze!"
-    rox "I can't wait for this weekend!"
+    rox "Наконец, мне не придется полагаться на {b}Декстера{/b} при покупке выпивки!"
+    rox "Не могу дождаться этих выходных!"
     show roxxy 1f f
     show player 14f
-    player_name "Yeah, it sounds like a lot of fun!"
+    player_name "Да, это звучит очень прикольно!"
     show player 13f
     show becca 2
-    becca "Too bad you're not invited, Loser!"
+    becca "Жаль, что тебя не пригласили, неудачник!"
     show becca 3
     show player 5f
     show missy 2
-    missy "... He's not?"
+    missy "... Нет?"
     show missy 2b
     show becca 3b
-    becca "No way!"
+    becca "Никогда!"
     show becca 1
     show player 24f
     player_name "..."
     show roxxy 2f
-    rox "Yeah, sorry {b}[firstname]{/b}."
-    rox "I've got a reputation to uphold..."
+    rox "Прости {b}[firstname]{/b}."
+    rox "Мне нужно поддерживать репутацию..."
     show roxxy 1f f
     show terry 17
-    Terry "Now hold on just a minute!"
-    Terry "The Skipper here just spent $400 dollars on you lot and you're not even inviting him to the party..."
-    Terry "That's a real shit thing to do."
+    Terry "Теперь подождите минутку!"
+    Terry "Шкипер только что потратил на вас 400 долларов, а вы даже не пригласили его на вечеринку..."
+    Terry "Это реально дерьмовый поступок."
     show terry 18
     show becca 3
     show missy 1b
-    missy "I think he should come..."
+    missy "Я думаю, он может прийти..."
     show missy 1
     show becca 3b
-    becca "Shut up, {b}Missy{/b}!"
-    becca "Everyone will see him with us!"
+    becca "Заткнись, {b}Мисси{/b}!"
+    becca "Все увидят его с нами!"
     show becca 1
     show roxxy 2f
-    rox "Yeah, we can't be seen hanging out with him."
+    rox "Да, мы не можем показываться с ним вместе."
     show roxxy 1f f
     show terry 17
-    Terry "Well, I'm thinking maybe I don't give you this {b}fake ID{/b} after all..."
+    Terry "Ну, я думаю, что, возможно, я не отдаю вам это {b}поддельное удостоверение личности{/b} в конце концов..."
     show terry 18
     show player 5f
     show roxxy 2bf
     rox "..."
     show terry 17
-    Terry "That's right."
-    Terry "$400 is a big investment for a lad his age."
-    Terry "You gals are gonna have to make it worth his trouble."
+    Terry "Это правильно."
+    Terry "400 баксов - большие деньги для парня его возраста."
+    Terry "Девочки, вам придется скомпенсировать его траты."
     show terry 18
     show roxxy 3cf
-    rox "You serious, old man?!"
+    rox "Ты это серьезно, старик?!"
     show roxxy 3f
-    rox "We don't have any money!"
+    rox "У нас нет денег!"
     show roxxy 3bf
     show terry 15
-    Terry "Well, maybe you should give him something else then?"
+    Terry "Ну, может тогда тебе стоит дать ему что-нибудь другое?"
     show terry 1
     show roxxy 3df
     rox "..."
     show roxxy 3cf
-    rox "Like what?"
+    rox "Что например?"
     show roxxy 3df
     show terry 15
-    Terry "How about your friends there give us a peek at those delicious ta-tas?"
+    Terry "Как насчет того, чтобы твои подружки дали нам взглянуть на эти вкусные титяндры?"
     show terry 1
     show player 13f
     show roxxy 2bf
     show becca 2
-    becca "WHAT?!"
-    becca "No fucking way!"
+    becca "ЧТО?!"
+    becca "Ни за что, твою мать!"
     show becca 3
     show missy 1b
-    missy "I'll do it!"
+    missy "Я сделаю это!"
     show roxxy 1f f
     show missy 1
     show becca 3b
-    becca "Ugh, of course you will..."
-    becca "You're such a skank."
+    becca "Тьфу, конечно ты..."
+    becca "Ты потаскушка."
     show becca 3
     show missy 2
-    missy "Hey, I am not!"
+    missy "Эй, я не такая!"
     show missy 2b
     show roxxy 2f
-    rox "Fine by me."
+    rox "Меня устраивает."
     show roxxy 1f f
     show becca 2
-    becca "{b}Roxxy{/b}! C'mon, I'm not showing them my tits!"
+    becca "{b}Рокси{/b}! Да ладно, я не буду показывать им свои сиськи!"
     show becca 1
     show roxxy 2f
-    rox "Just shut up and do it, {b}Becca{/b}."
-    rox "Nobody is around."
+    rox "Заткнись и делай, {b}Бекка{/b}."
+    rox "Вокруг никого нет."
     show roxxy 1f f
     show becca 3b
-    becca "Yeah, but..."
+    becca "Да, но..."
     show becca 1
     show roxxy 3 at Position (xpos=550) with dissolve
-    rox "Do you want the booze or not?!"
+    rox "Ты хочешь выпить или нет?!"
     show roxxy 3d
     show becca 3
     show missy 1b
-    missy "I do!"
+    missy "Я!"
     show missy 9 with dissolve
     show roxxy 1
     pause
@@ -1352,67 +1352,67 @@ label terry_dialogue_fake_id_yes:
     pause
     show roxxy 1f f at Position (xpos=500) with dissolve
     show terry 15
-    Terry "Oh ho ho!"
+    Terry "Ох хо-хо!"
     show terry 1
     show missy 11
     show terry 15
-    Terry "Now those are some nice perky ones, don't you think, Skipper?!"
+    Terry "А вот эти хорошие задорные, не правда ли, Шкипер?!"
     show terry 1
     show player 14f
-    player_name "... Yeah!"
+    player_name "... Да!"
     show player 13f
     show missy 10
-    missy "You really like them, {b}[firstname]{/b}?!"
+    missy "Тебе они на самом деле нравятся, {b}[firstname]{/b}?!"
     show missy 11
     show player 17f
-    player_name "Heh, definitely!"
+    player_name "Хех, определенно!"
     show player 13f
     show missy 11b
-    missy "See, {b}Becca{/b}!"
+    missy "Видишь, {b}Бекка{/b}!"
     show missy 11
     show becca 8
-    becca "You actually like those little mosquito bites?!"
+    becca "Тебе правда нравятся эти комариные укусы?!"
     show becca 7
     show player 14f
-    player_name "What's not to like?"
+    player_name "Что тут может не понравиться?"
     show player 13f
     show terry 15
-    Terry "Ho ho, the Captain's never met a pair of breasts he didn't like!"
+    Terry "Хо-хо, Капитан никогда не встречал пару грудей, которые ему не нравились!"
     show terry 1
     show roxxy 30 at Position (xpos=550) with dissolve
-    rox "C'mon {b}Becca{/b}! Everyone is waiting!"
+    rox "Давай {b}Бекка{/b}! Все ждут!"
     show roxxy 3d
     show becca 2
-    becca "{b}*Sigh*{/b} Fine!"
+    becca "{b}*вздыхая*{/b} Ладно!"
     show becca 9 with dissolve
     show roxxy 1
     pause
     show becca 10
     show terry 15
-    Terry "Oh ho ho, not bad!"
+    Terry "Ох хо-хо, не плохо!"
     show terry 1
     show roxxy 1f f at Position (xpos=500) with dissolve
     show player 14f
-    player_name "... Wow!"
+    player_name "... Вау!"
     show player 13f
     show becca 11
-    becca "See, way better than {b}Missy's{/b} skittle tits..."
+    becca "Смотри, эти намного лучше чем кеглевидные титьки {b}Мисси{/b}..."
     show becca 11b
     show missy 11b
-    missy "Screw you {b}Becca{/b}!"
-    missy "At least mine aren't all covered in freckles!"
+    missy "Пошла ты {b}Бекка{/b}!"
+    missy "По крайней мере, мои не покрыты веснушками!"
     show missy 11c
     show becca 11c
-    becca "Pshh, shows what you know!"
-    becca "Lots of guys like my freckles!"
+    becca "Пффф, и что!"
+    becca "Многим парням нравятся мои веснушки!"
     show becca 11b
     show missy 11b
-    missy "Yeah, right."
+    missy "Да, точно."
     show missy 11c
     show terry 15
-    Terry "Hahaha!"
-    Terry "Well, what say you, Skipper?!"
-    Terry "Which pair do you like more?"
+    Terry "Хахаха!"
+    Terry "Ну, что скажешь, Шкипер?!"
+    Terry "Какая пара тебе нравится больше?"
     show terry 1
     show missy 11
     show becca 10
@@ -1420,60 +1420,60 @@ label terry_dialogue_fake_id_yes:
 
 label terry_dialogue_fake_id_yes_becca:
     show player 14f
-    player_name "Heh, I like {b}Becca's{/b}!"
+    player_name "Хе, Мне нравятся у {b}Бекки{/b}!"
     show player 13f
     show becca 11c
-    becca "See, I knew {b}[firstname]{/b} would agree!"
+    becca "Видишь, Я знала что {b}[firstname]{/b} согласится!"
     show becca 11b
     show missy 4d with dissolve
     missy "..."
     show becca 9 with dissolve
     pause 1
     show becca 2 with dissolve
-    becca "... Even nerdy guys like him like big tits."
+    becca "... Даже ботанам нравятся девушки с большими сиськами."
     show becca 3
     show missy 4c
     missy "..."
     show missy 4d
-    missy "{b}*Sniff*{/b}."
+    missy "{b}*фырк*{/b}."
     hide missy with dissolve
     show becca 3b
-    becca "Sheesh, what a baby..."
+    becca "Блин, что за маленький ребенок..."
     show becca 2
-    becca "Can we have the {b}ID{/b} now?"
+    becca "Теперь мы можем получить {b}документы{/b}?"
     show becca 1
     show terry 15
-    Terry "What do you think, {b}Lad{/b}?"
+    Terry "Что ты думаешь, {b}парень{/b}?"
     show terry 1
     show player 14f
-    player_name "Yeah, they earned it."
+    player_name "Да, они это заслужили."
     show player 13f
     show terry 2
-    Terry "Very well, here ya go, Pixie."
+    Terry "Очень хорошо, держи, Фея."
     show terry 1
     show roxxy 3cf
-    rox "... It's {b}Roxxy{/b}."
+    rox "... {b}Рокси{/b}."
     show roxxy 3df
     show terry 2
-    Terry "... Meh, whatever."
-    Terry "C'mon, Skipper!"
-    Terry "Let's get a bottle of tequila and head out to the dock for a bit!"
-    Terry "I'll tell ya about the time I spotted a mermaid over by the cove!"
+    Terry "... Как скажешь."
+    Terry "Пошли, Шкипер!"
+    Terry "Давайте возьмем бутылку текилы и отправимся на пристань ненадолго!"
+    Terry "Я расскажу тебе о том, как я заметил русалку у бухты!"
     show terry 15
     show player 14f
-    player_name "Yeah, okay!"
+    player_name "Да, хорошо!"
     hide terry
     hide player
     with dissolve
-    Terry "... She was naked as the day she was born and pretty as could be!"
-    Terry "I had a lot of tequila that day but I swear on my mother she was blue like the sea!"
+    Terry "... Она была голой, как день, когда она родилась, и красивой, как могла бы быть!"
+    Terry "У меня было много текилы в тот день, но я клянусь своей матерью, она была голубая, как море!"
     show becca 2
-    becca "C'mon, {b}Roxxy{/b}."
+    becca "Пойдем, {b}Рокси{/b}."
     show roxxy 3d at Position (xpos=550) with dissolve
-    becca "We'd better go and find little Miss Weeps-a-lot."
+    becca "Нам лучше пойти и найти маленькую мисс плаксу."
     show becca 1
     show roxxy 30
-    rox "... Yeah."
+    rox "... Да."
     hide becca with dissolve
 
     show roxxy 1kf at Position (xpos=500) with dissolve
@@ -1488,77 +1488,77 @@ label terry_dialogue_fake_id_yes_missy:
     show missy 11 at left
     show player 17f at right
     with dissolve
-    player_name "Heh, I like {b}Missy's{/b}!"
+    player_name "Хе, Мне нравятся у {b}Мисси{/b}!"
     show player 13f
     show roxxy 2bf
     show missy 10
-    missy "YAY!!!"
+    missy "ДААА!!!"
     show missy 7
     show becca 11
-    becca "WHAT?!"
+    becca "ЧТО?!"
     show becca 9 with dissolve
     pause 1
     show becca 1 with dissolve
 
     show missy 8
-    missy "You're the best, {b}[firstname]{/b}!"
+    missy "Ты лучший, {b}[firstname]{/b}!"
     show missy 7
     show becca 3b
-    becca "Psh, whatever..."
-    becca "Who cares about what some nerd thinks?!"
+    becca "Пфф, не важно..."
+    becca "Кого волнует, что думает какой-то ботаник?!"
     hide becca with dissolve
     show roxxy 1bf
-    rox "... Don't mind her. She can be such a bitch sometimes..."
+    rox "... Не обращайте на нее внимания. Иногда она бывает такой стервой..."
     show roxxy 1f f
     show missy 1b
-    missy "Did you hear! {b}[firstname]{/b} said my tits were better than {b}Becca's{/b}!!!"
+    missy "Ты слышала! {b}[firstname]{/b} сказал что мои титьки лучше чем у {b}Бекки{/b}!!!"
     show missy 1
     show roxxy 3cf
-    rox "{b}*Sigh*{/b} Of course I heard! I'm not deaf am I?!"
+    rox "{b}*вздыхая*{/b} Конечно, я все слышала! Я ведь не глухая!"
     show roxxy 29f
     show missy 6
-    missy "Hehehe!"
+    missy "Хехехе!"
     show missy 1
     show roxxy 3cf
-    rox "Can we have the {b}ID{/b} now?"
+    rox "Теперь мы можем получить {b}документы{/b}?"
     show roxxy 3df
     show terry 2
-    Terry "What do you think, {b}Lad{/b}?"
+    Terry "Что ты думаешь, {b}парень{/b}?"
     show terry 1
     show player 14f
-    player_name "Yeah, they earned it."
+    player_name "Да, они это заслужили."
     show player 13f
     show roxxy 1f f
     show terry 2
-    Terry "Very well, here ya go, Pixie."
+    Terry "Очень хорошо, держи, Фея."
     show terry 1
     show roxxy 3cf
-    rox "... It's {b}Roxxy{/b}."
+    rox "... {b}Рокси{/b}."
     show roxxy 3df
     show terry 2
-    Terry "... Meh, whatever."
+    Terry "... Как скажешь."
     show terry 15
-    Terry "C'mon, Skipper!"
-    Terry "Let's get a bottle of tequila and head out to the dock for a bit!"
-    Terry "I'll tell ya about the time I spotted a mermaid over by the cove!"
+    Terry "Пошли, Шкипер!"
+    Terry "Давайте возьмем бутылку текилы и отправимся на пристань ненадолго!"
+    Terry "Я расскажу тебе о том, как я заметил русалку у бухты!"
     show terry 1
     show player 14f
-    player_name "Yeah, okay!"
+    player_name "Да, хорошо!"
     show player 13f
     show missy 6
-    missy "Bye, {b}[firstname]{/b}!"
+    missy "Пока, {b}[firstname]{/b}!"
     show missy 7
     show player 14f
-    player_name "Heh, bye {b}Missy{/b}."
+    player_name "Хе, пока {b}Мисси{/b}."
     hide terry
     hide player
     with dissolve
-    Terry "... She was naked as the day she was born and pretty as could be!"
+    Terry "... Она была голой, как день, когда она родилась, и красивой, как могла бы быть!"
     show missy 2
-    missy "Ugh, {b}Becca{/b} can be such a drama queen!"
+    missy "Ух, {b}Бекка{/b} может быть настоящей королевой драмы!"
     show missy 2b
     show roxxy 30f
-    rox "... Yeah, we'd better go and find her."
+    rox "... Да, нам лучше пойти и найти ее."
     hide missy with dissolve
 
     show roxxy 1kf at Position (xpos=500) with dissolve
@@ -1568,16 +1568,16 @@ label terry_dialogue_fake_id_yes_missy:
 
 label terry_dialogue_fake_id_no:
     show player 10
-    player_name "Oh, crap."
-    player_name "I forgot about the $400."
+    player_name "О, черт."
+    player_name "Я забыл про $400."
     show player 5
     show terry 16
-    Terry "Hah! No worries lad."
+    Terry "Ха! Не волнуйся парень."
     show terry 17
-    Terry "Just come back and see me when you have it."
+    Terry "Просто приходи ко мне, когда получишь их."
     show terry 1
     show player 10
-    player_name "Yeah, okay."
+    player_name "Да, хорошо."
     hide player with dissolve
     return
 
@@ -1586,80 +1586,80 @@ label terry_dialogue_goldschwagger:
     show terry 1 at Position(xpos=0.6992,ypos=0.7047)
     show player 10 at left
     with dissolve
-    player_name "Have you ever heard of {b}GoldSchwagger Vodka{/b}?"
+    player_name "Ты когда нибудь слышал о {b}GoldSchwagger Водке{/b}?"
     show player 5
     show terry 2
-    Terry "Oh, sure!"
-    Terry "That's the one with the little gold flecks in it, aye?"
+    Terry "О, конечно!"
+    Terry "Это водка с маленькими кусочками золота, да?"
     show terry 1
     show player 14
-    player_name "Yeah, that's the stuff!"
+    player_name "Да, это она!"
     show player 13
     show terry 2
-    Terry "Oh ho, my {b}Sara{/b}... She can't get enough of that stuff, bless her heart."
-    Terry "I don't understand the fascination, myself."
-    Terry "It's a bit on the weak side if you ask me."
-    Terry "I guess the lady folk just like seeing all that gold!"
+    Terry "О-хо, моя {b}Сара{/b}... она не может насытиться этой дрянью, благослави её сердце."
+    Terry "Я сам не понимаю этого очарования."
+    Terry "Это немного её слабая сторона, если ты спросишь меня."
+    Terry "Думаю, моя старушка просто любит смотреть на все это золото!"
     show terry 1
     show player 14
-    player_name "Heh, yeah..."
-    player_name "So, you have any extra bottles I could buy off you?"
+    player_name "Хе, да..."
+    player_name "Итак, у тебя есть лишняя, которую я могу у купить?"
     show player 13
     show terry 2
-    Terry "Hmm, you know... I just might at that!"
+    Terry "Хмм, ты знаешь... Я просто могу продать!"
     show terry 4 at Position(xpos=0.71,ypos=0.7047) with dissolve
-    Terry "Let me see here..."
+    Terry "Дай посмотрю..."
     show terry 23 with dissolve
-    Terry "Aye, this one is good and fresh..."
+    Terry "ДА, эта целая и свежая..."
     show terry 23b
     show player 14
-    player_name "Wow, it's so... Shiny!"
+    player_name "Ничего себе, она такая... Блестящая!"
     show player 13
     show terry 23
-    Terry "Oh ho ho!"
-    Terry "I tell ya what, {b}skipper{/b}. Why don't you go ahead and take it."
-    Terry "Free of charge!"
+    Terry "Ох хо-хо!"
+    Terry "Вот что я тебе скажу, {b}шкипер{/b}. Почему бы тебе не подойти и не взять ее."
+    Terry "Бесплатно!"
     show terry 23b
     show player 10
-    player_name "Huh?"
+    player_name "А?"
     show player 12
-    player_name "You don't want any money for it?"
+    player_name "Тебе не нужны деньги за это?"
     show player 13
     show terry 23
-    Terry "Ah, I've a feeling it's for those pretty lasses you were with the other day, aye?"
+    Terry "У меня такое чувство, что это для тех милых дам, с которыми ты был на днях, да?"
     show terry 23b
     show player 12
-    player_name "... Yeah, it's for the redhead."
+    player_name "... Да, это для рыженькой."
     show player 13
     show terry 23
-    Terry "Oh, the snobby one!"
-    Terry "Boy, she had a pair of tits on her, didn't she?!"
+    Terry "О, эта снобистка!"
+    Terry "У нее была пара сисек на груди, не так ли?!"
     show terry 23b
     show player 17
     player_name "..."
     show player 13
     show terry 23
-    Terry "You take it, lad."
+    Terry "Займись этим, приятель."
     show player 653
     show terry 16 at Position(xpos=0.6992,ypos=0.7047)
     with dissolve
-    Terry "What kind of wingman would I be if I charged ya for it?!"
+    Terry "Каким напарником я буду, если возьму с тебя деньги?!"
     show player 654b
     show goldschwagger_label at Position (xoffset=-88,yoffset=-220)
     with dissolve
     show terry 15
-    Terry "Besides, I think my {b}Sara{/b} is finally coming around on the Tequila!"
-    Terry "Which is good!"
-    Terry "A proper drink, for a proper lady!"
-    Terry "Wouldn't you agree, skipper?!"
+    Terry "К тому же, Я думаю моя {b}Сара{/b} нашла себя в Текиле!"
+    Terry "Что хорошо!"
+    Terry "Настоящий напиток для настоящей леди!"
+    Terry "Разве ты не согласен, шкипер?!"
     show terry 1
     show player 654
-    player_name "Hah, if you say so, {b}Captain Terry{/b}!"
-    player_name "Thanks so much for this!"
+    player_name "Ха, как скажешь, {b}Капитан Терри{/b}!"
+    player_name "Большое спасибо!"
     show player 654b
     show terry 2
-    Terry "Don't mention it!'"
-    Terry "Now you go and get em, skipper!"
+    Terry "Не обращай внимания!"
+    Terry "А теперь иди и возьми их, шкипер!"
     show terry 1
     hide player
     hide goldschwagger_label
