@@ -1,9 +1,9 @@
 label mia_dialogue_mias_house_front:
     call expression game.dialog_select("mia_dialogue_mias_house_front_intro")
     menu:
-        "About that homework.":
+        "О домашнем задании.":
             call expression game.dialog_select("mia_dialogue_mias_house_front_homework")
-        "I forgot...":
+        "Я забыл...":
 
             call expression game.dialog_select("mia_dialogue_mias_house_front_leave")
     $ game.main()
