@@ -1,19 +1,19 @@
 label button_lucy_how_are_the_little_ones:
     show player f_normal_talk
-    player_name "How are the little ones?"
+    player_name "Как малыши?"
     show player f_normal
     show lucy f_normal_talk
-    lucy "Aww, it's so sweet of you to come and check on them!"
-    lucy "Everyone is doing wonderful!!"
-    lucy "Infact, we were just about to sit down for storytime."
-    lucy "Would you like to join us?"
+    lucy "Как мило, что вы пришли и проверили их!"
+    lucy "Все чувтвуют себя великолепно!!"
+    lucy "На самом деле, мы как раз собирались сесть почитать сказки."
+    lucy "Хотите присоединиться к нам?"
     show lucy f_normal_talk
     show player f_normal_talk
-    player_name "Oh, ehh... N-no, thanks."
-    player_name "I'd probably just get in your way..."
+    player_name "О, ээ... Нет, спасибо."
+    player_name "Я, наверное, помешаю..."
     show player f_normal
     show lucy f_normal_talk
-    lucy "Oh, nonsense!"
+    lucy "О, чепуха!"
     show lucy f_normal
     return
 
