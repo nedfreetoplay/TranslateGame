@@ -2,141 +2,141 @@ label mia_library_dialogue_bissette_find_poem_reference_book:
     show player 14 at left
     show mia 7 at right
     with dissolve
-    player_name "Hey, {b}Mia{/b}! What are you up to?"
+    player_name "Привет, {b}Мия{/b}! Что ты собираешься делать?"
     show player 13
     show mia 10
-    mia "Oh, hello, {b}[firstname]{/b}! I was just about to study for the upcoming chemistry test."
+    mia "О, привет, {b}[firstname]{/b}! Я как раз собиралась готовиться к предстоящему тесту по химии."
     show mia 7
     show player 12
-    player_name "I thought your mom didn't allow you to do anything after school?"
+    player_name "Я думала, твоя мама не разрешает тебе ничего делать после школы?"
     show player 13
     show mia 12
-    mia "She usually doesn't but..."
+    mia "Обычно она этого не делает, но..."
     show mia 10
-    mia "I told her that {b}Miss Okita{/b} might write me a college recommendation if I impressed her by doing well on our next test."
+    mia "Я сказала ей, что {b}Мисс Окита{/b} могла бы написать мне рекомендацию в колледж, если бы я впечатлила ее своими успехами на следующем тесте."
     show mia 7
-    player_name "Will she really do that?"
+    player_name "Она действительно это сделает?"
     show mia 10
-    mia "Probably not but it doesn't hurt to try, right?"
-    mia "And I actually get to hang out with {b}Judith{/b} outside of my house too!"
-    show mia 7
-    show player 14
-    player_name "Yeah, I suppose not."
-    show player 13
-    show mia 10
-    mia "What are you doing here?"
+    mia "Вероятно, нет, но это не сложно, чтобы попытаться, не так ли?"
+    mia "И я действительно могу тусоваться с {b}Джудит{/b} за пределами моего дома тоже!"
     show mia 7
     show player 14
-    player_name "{b}Miss Bissette{/b} gave me an assignment. I thought maybe I could get some inspiration here."
+    player_name "Да, я полагаю, что нет."
     show player 13
     show mia 10
-    mia "Oh yeah? What's the assignment?"
+    mia "Что ты здесь делаешь?"
+    show mia 7
+    show player 14
+    player_name "{b}Мисс Биссетт{/b} дала мне задание. Я подумал, может быть, я мог бы получить вдохновение здесь."
+    show player 13
+    show mia 10
+    mia "Да ну? Какое задание?"
     show mia 7
     show player 10
-    player_name "Well, it's kinda embarrassing..."
+    player_name "Ну, это немного неловко..."
     show player 5
     show mia 9
-    mia "Hehe, really?! Well, you have to tell me now!"
+    mia "Хе-хе, правда?! Ну, ты должен сказать мне сейчас же!"
     show mia 7
     show player 10
-    player_name "*Sigh* I'm supposed to write a romantic poem in French."
+    player_name "*Вздох* Я должен написать романтическую поэму на французском."
     show player 5
     show mia 10
-    mia "That's not embarrassing!"
+    mia "Это не унизительно!"
     show mia 7
     show player 12
-    player_name "No?"
+    player_name "Нет?"
     show player 5
     show mia 10
-    mia "No! We all had to do that!"
+    mia "Нет! Мы все должны были это сделать!"
     show mia 12
-    mia "Well, everyone but {b}Roxxy{/b}... She never does the homework."
+    mia "Ну, все, кроме {b}Рокси{/b}... Она никогда не делает домашнее задание."
     show mia 7
     show player 14
-    player_name "I didn't know. What was your poem about?"
+    player_name "Я не знаю. О чем было твое стихотворение?"
     show player 13
     show mia 12
-    mia "Oh, I..."
+    mia "Ох, Я..."
     show mia 56 with dissolve
-    mia "...You know, this and that, hehe..."
+    mia "...Ты знаешь, это и что, хехе..."
     show mia 55
     show player 14
-    player_name "Aha! See, it is embarrassing!"
+    player_name "Ага! Видите, это унизительно!"
     show player 13
     show mia 10 with dissolve
-    mia "Yeah, I guess it is a little bit."
+    mia "Да, я думаю, что это немного."
     show mia 7
     show player 10
-    player_name "I don't even know how to begin writing this thing!"
-    player_name "I should probably look around for a book on {b}French Romance{/b}..."
+    player_name "Я даже не знаю, как начать писать этот роман!"
+    player_name "Наверное, мне стоит поискать {b}книгу о французском романе{/b}..."
     show player 13
     show mia 10
-    mia "You know, {b}Judith{/b} and I found a really informative one."
+    mia "Ты знаешь, {b}Джудит{/b} и я нашли действительно информативную тему."
     show mia 7
     show player 10
-    player_name "Oh really?"
+    player_name "Неужели?"
     show player 13
     show mia 10
-    mia "Yeah, it was pretty graphic though..."
+    mia "Да, это было довольно наглядно..."
     show mia 7
     show player 12
-    player_name "Do you remember what it was called?"
+    player_name "Ты помнишь, как она называлась?"
     show player 13
     show mia 12
-    mia "Hmm, no, not really."
+    mia "Хм, нет, не совсем."
     show mia 10
-    mia "{b}Judith{/b} had it last. She was using it {b}in the back room{/b} there, I think."
+    mia "{b}Джудит{/b} была последней. Она использовала ее {b}в задней комнате{/b}, кажется."
     show mia 7
     show player 10
-    player_name "Huh, you think she might have left it in there?"
+    player_name "Думаешь, она могла оставить ее там?"
     show player 13
     show mia 10
-    mia "Maybe."
+    mia "Возможно."
     show mia 7
     show player 14
-    player_name "I guess I'll go take a look then. Thanks for the help, {b}Mia{/b}!"
+    player_name "Тогда, наверное, пойду посмотрю. Спасибо за помощь, {b}Мия{/b}!"
     show player 13
     show mia 10
-    mia "No problem! Good luck, {b}[firstname]{/b}!"
+    mia "Без проблем! Удачи, {b}[firstname]{/b}!"
     show mia 7
     show player 14
-    player_name "You too!"
+    player_name "Взаимно!"
     return
 
 label mia_library_dialogue_bissette_mia_book_feedback:
     show mia 10 at right
     show player 13 at left
     with dissolve
-    mia "Any luck finding it?"
+    mia "Какая удача найти его?"
     show mia 7
     show player 10
-    player_name "Yeah, I found it..."
+    player_name "Да, я нашел его..."
     show player 14
-    player_name "You weren't kidding, it's really graphic!"
+    player_name "Ты не шутила, он действительно графически!"
     show player 13
     show mia 56 with dissolve
-    mia "...Yeah."
+    mia "...Да."
     show mia 55
     show player 10
-    player_name "I wonder what {b}Judith{/b} was doing with it back there by herself."
+    player_name "Интересно, чем занималась {b}Джудит{/b} с этой книгой."
     show player 5
     show mia 56
-    mia "Heh, y-yeah, I dunno..."
-    mia "...I should really get back to studying."
+    mia "Хех, да, я не знаю..."
+    mia "...Я сейчас должна вернуться к учебе."
     show mia 55
     show player 14
-    player_name "Oh, right! Sorry!"
-    player_name "Thanks again, {b}Mia{/b}."
+    player_name "О, да! Прости!"
+    player_name "Еще раз спасибо, {b}Мия{/b}."
     show player 13
     show mia 56
-    mia "No problem, {b}[firstname]{/b}."
+    mia "Без проблем, {b}[firstname]{/b}."
     hide mia with dissolve
     show player 14
-    player_name "Alright, I had better take this home to {b}my computer{/b} and get to writing on that poem for {b}Miss Bissette{/b}."
+    player_name "Хорошо, мне лучше взять ее домой для {b}моего компьютера{/b} и перейти к написанию этого стихотворения для {b}Мисс Биссетт{/b}."
     return
 
 label mia_library_dialogue_do_not_disturb:
     show player 10 with dissolve
-    player_name "No, I should let her study in peace..."
+    player_name "Нет, я должен позволить ей учиться в мире..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
