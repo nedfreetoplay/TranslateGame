@@ -3,239 +3,239 @@ label button_ross_need_linens:
     show player 10f zorder 1 at right
     show mia 2f zorder 0 at Position(xpos=0.55, ypos=1.0)
     with dissolve
-    player_name "I thought we were doing the contest painting today?"
+    player_name "Я думал что мы должны были рисовать сегодня на конкурс?"
     show player 11f
     show mia 6f
-    mia "That's what {b}Miss Ross{/b} said."
+    mia "Вот что {b}Мисс Росс{/b} сказала."
     show player 10f
     show mia 2f
-    player_name "Hmm, well where is she?"
+    player_name "Хмм, ну,где же она?"
     show player 11f
     show mia 6f
-    mia "I dunno."
+    mia "Я не знаю."
     show mia 2f
     player_name "..."
     show mia 6f
-    mia "Hey, {b}[firstname]{/b}..."
+    mia "Эй, {b}[firstname]{/b}..."
     show player 10f
     show mia 2f
-    player_name "Yeah?"
+    player_name "Да?"
     show player 11f
     show mia 6bf
-    mia "I wanted to apologize for the other day."
+    mia "Я хотела извиниться за вчерашнее."
     show player 10f
     show mia 2f
-    player_name "Huh?"
+    player_name "мм?"
     show player 11f
     show mia 6f
-    mia "You know, the whole naked thing..."
+    mia "Ты знаешь, все обнаженные вещи..."
     show mia 6bf
-    mia "... and the honking."
+    mia "... а так же гудение."
     show mia 2f
     player_name "..."
     show mia 6f
-    mia "I really don't know what got into me!"
+    mia "Я действительно не знаю что на меня нашло!"
     show mia 2f
     show player 2f
-    player_name "It's alright, {b}Mia{/b}. I had a good time."
+    player_name "Все нормально, {b}Мия{/b}. Я хорошо провел время."
     show mia 6f
     show player 1f
-    mia "You did?"
+    mia "Правда?"
     show player 2f
     show mia 1f
-    player_name "Yeah!"
-    player_name "I thought you were having fun, too?"
+    player_name "Да!"
+    player_name "Я думал, что тебе тоже было весело?"
     show player 1f
     show mia 4f
-    mia "Heh, yeah. It was fun..."
+    mia "Хех, да. Это было весело..."
     show mia 6bf
-    mia "... It's just..."
+    mia "... Это просто..."
     show mia 6f
-    mia "... It wasn't very ladylike."
-    mia "So, I'm sorry, {b}[firstname]{/b}."
+    mia "... Это было не очень женственно."
+    mia "Так что, я извиняюсь, {b}[firstname]{/b}."
     show mia 2f
     show player 2f
-    player_name "{b}Mia{/b}, really, it's okay."
-    player_name "I like that side of you."
+    player_name "{b}Мия{/b}, правда, все в порядке."
+    player_name "Мне нравится эта твоя сторона."
     show mia 4f
     show player 1f
-    mia "You do?"
+    mia "Это так?"
     show player 2f
     show mia 1f
-    player_name "Yeah, we were all just having fun!"
-    player_name "There's nothing wrong with that."
+    player_name "Да, мы все просто весело проводили время!"
+    player_name "В этом нет ничего плохого."
     show player 1f
     show mia 3f
-    mia "... Yeah, I guess you're right."
+    mia "... Да, я думаю ты прав."
     show mia 4f
-    mia "Thanks, {b}[firstname]{/b}!"
+    mia "Спасибо, {b}[firstname]{/b}!"
     show mia 1f
     show player 2f
-    player_name "Oh, here she comes!"
+    player_name "О, вот она идет!"
     show mia 4 at Position(xpos=0.65, ypos=1.0)
     show ross 24 at left
     with dissolve
     show player 1f
-    mia "Hey, {b}Miss Ross{/b}!"
-    mia "Everything alright?"
+    mia "Здравствуйте, {b}Мисс Росс{/b}!"
+    mia "Все в порядке?"
     show mia 1
     show ross 25
-    ross "Hey, Cutie Pie."
+    ross "Привет, Сладенькая."
     show ross 25b
-    ross "Ugh, I was just in {b}Principal Smith's{/b} office..."
+    ross "Агх, Я только что была в кабинете {b}Директрисы Смит{/b}..."
     show ross 25
-    ross "She was going on and on about that portrait we promised her."
+    ross "Она все говорила и говорила о портрете, который мы ей обещали."
     show ross 24
     show player 10f
-    player_name "You mean we're really doing that?"
+    player_name "Вы имеете в виду что нам действительно нужно это сделать?"
     show player 11f
     show ross 25b
-    ross "I'm afraid so."
+    ross "Боюсь что да."
     show ross 25
-    ross "She's got some really specific demands too..."
+    ross "У нее тоже есть некоторые специфические требования..."
     show ross 24
     show mia 6
-    mia "... But what about the contest?"
-    mia "{b}[firstname]'s{/b} still gonna paint something for that, right?"
+    mia "... Но что насчет конкурса?"
+    mia "{b}[firstname]{/b} все еще собирается что-то нарисовать для этого, верно?"
     show mia 2
     show ross 23
-    ross "Ugh, I know... I had it all planned out too!"
+    ross "Агх, я знаю... у меня все было тоже спланировано!"
     show ross 25b
-    ross "The perfect theme."
+    ross "Идеальная тем."
     show ross 25
-    ross "The perfect model."
+    ross "Идеальная модель."
     show mia 5
-    ross "It was a sure-fire winner!"
+    ross "Это был бы беспроигрышный победитель!"
     show ross 23
-    ross "But {b}Principal Smith{/b} has gone and thrown a wrench into the whole thing..."
+    ross "Но {b}Директриса Смит{/b} пришла и бросила гаячный ключ во все это..."
     show mia 1
     show ross 22
     show player 10f
-    player_name "So what are we gonna do, we don't have time to do two paintings!"
+    player_name "Так что мы будем делать, у нас нет времени на две картины!"
     show player 11f
     show ross 25
-    ross "We'll just have to roll with the punches and hope that {b}Principal Smith's{/b} painting will be good enough to win the contest..."
+    ross "Мы просто придется принять удары на себя и надеятся что картина {b}Директрисы Смит{/b} будет достаточно хороша, чтобы выиграть конкурс..."
     show player 10f
     show ross 24
-    player_name "We're gonna submit a painting of {b}Principal Smith{/b} to the contest?!"
+    player_name "Мы собираемся представить картину {b}Директрисы Смит{/b} на конкурс?!"
     show player 11f
     show mia 2
     show ross 25b
-    ross "Just do your best, {b}[firstname]{/b}."
+    ross "Просто сделай все возможное, {b}[firstname]{/b}."
     show mia 6
     show ross 24
-    mia "At least this should be interesting to watch."
+    mia "По крайней мере на это должно быть интересно смотреть."
     ross "..."
     show mia 2
     show ross 25
-    ross "Unfortunately, Cutie Pie. You and I are gonna have to sit this one out."
-    ross "Only {b}[firstname]{/b} is allowed to be in the room."
+    ross "К сожалению, золотце. Ты и я будем сидеть здесь пока он будет там."
+    ross "Только {b}[firstname]{/b} разрешенно находиться в комнате."
     show ross 25b
-    ross "That's another one of {b}Principal Smith's{/b} stipulations."
+    ross "Это ещё одно из условий {b}Директрисы Смит{/b}."
     show player 10f
     show ross 24
-    player_name "Seriously!?"
+    player_name "Серьезно!?"
     show ross 25
     show player 11f
-    ross "Believe me, I'm not happy about it either..."
+    ross "Поверь мне, Я тоже не в восторге от этого..."
     show ross 23
-    ross "Damnit!"
-    ross "I was just starting to feel secure about my job again and this had to go and happen."
+    ross "Черт побери!"
+    ross "Я только начинала чувствовать себя уверенно на своей работе, и это должно было случиться."
     show ross 22
     show mia 3
-    mia "Don't worry, {b}Miss Ross{/b}. I'm sure {b}[firstname]{/b} will find a way to make it work!"
+    mia "Не волнуйтесь, {b}Мисс Росс{/b}. Я уверена что {b}[firstname]{/b} найдет выход чтобы у нас все получилось!"
     show mia 5
     player_name "..."
     show ross 25
-    ross "I hope you're right."
+    ross "Я надеюсь ты права."
     show mia 1
     show ross 25b
-    ross "We'd best start with the preparations."
+    ross "Нам лучше всего начать с подготовки.."
     show ross 24
     show player 10f
-    player_name "Preparations?!"
+    player_name "Подготовки?!"
     show ross 25
     show player 11f
-    ross "Oh yes, we have a lot of work to do before you can start painting."
+    ross "О, Да, у нас есть куча работы, прежде чем ты сможешь начать рисовать."
     show ross 25b
-    ross "Our supply shelves are completely barren!"
+    ross "Наши полки с запасами абсолютно пустые!"
     show ross 25
-    ross "We're gonna need to find paint and a canvas."
+    ross "Нам нужно найти краску и холст."
     show player 10f
     show ross 24
-    player_name "Where are we supposed to find stuff like that?"
+    player_name "Где бы мы могли найти все это?"
     mia "..."
     show ross 25
-    ross "Well, I could probably make us a canvas with enough white {b}linens{/b}."
+    ross "Ну, Я бы могла,нам сделать холст из достаточного количества белого {b}постельного белья{/b}."
     show ross 24
     show player 10f
-    player_name "For real?"
+    player_name "Взаправду?"
     show player 11f
     show mia 4
-    mia "I can get that."
+    mia "Я могу это достать."
     show player 10f
     show mia 1
-    player_name "Huh?"
+    player_name "Ммм?"
     show ross 25
     show player 11f
-    ross "Really?"
+    ross "В самом деле?"
     show mia 3
-    mia "yeah, not a problem. My church has a TON of white {b}linens{/b}."
+    mia "Да, не проблема. В моей церкви тонна белого {b}постельного белья{/b}."
     show mia 5
     show player 10f
-    player_name "... And you think they'd just let us have some?"
+    player_name "... И ты думаешь что они просто позволят взять нам немного?"
     show mia 3
     show player 11f
-    mia "Yeah, I think so!"
-    mia "Giving to the needy is a pretty big principle of Catholicism after all."
+    mia "Да, я думаю да!"
+    mia "В конце концов, давать нуждающимся-довольно большой принцип католицизма."
     show mia 5
     show player 10f
-    player_name "Huh, well that's convenient."
+    player_name "Ммм, чтож это удобно."
     show mia 4
     show player 11f
-    mia "I'll get right on it."
+    mia "Я сейчас же этим займусь."
     show mia 1
     show ross 25
-    ross "No, hold on."
-    ross "{b}[firstname]{/b} can handle the {b}linens{/b}."
+    ross "Нет, погоди-ка."
+    ross "{b}[firstname]{/b} может заняться {b}постельным бельем{/b}."
     show ross 24
     show player 10f
-    player_name "... I can?"
+    player_name "... Я могу?"
     show ross 25
     show player 11f
-    ross "Sure, just tell the church people {b}Mia{/b} sent you."
+    ross "Точно, просто скажите церковным людям что {b}Мия{/b} отправила тебя."
     show ross 28b with dissolve
-    ross "{b}Mia{/b}, I want you to take this down to {b}Cosmic Cumics{/b} in the mall and place an order."
+    ross "{b}Мия{/b}, Я хочу, чтобы ты отнесла это в {b}Cosmic Cumics{/b} в торговом центре и сделала заказ."
     show ross 24
     show player 10f
     show mia 68 at Position(xpos=0.6, ypos=1.0) with dissolve
-    player_name "What is it?"
+    player_name "Что это?"
     show ross 25b
     show player 11f
-    ross "{b}Principal Smith's costume designs{/b}."
+    ross "{b}Дизайн костюма Директрисы Смит{/b}."
     show player 10f
     show ross 24
-    player_name "{b}Costumes{/b}?!"
+    player_name "{b}Костюма{/b}?!"
     show player 11f
     show mia 66
     pause
     show mia 67
-    mia "... Oh, my..."
+    mia "... О, боже..."
     show mia 68
     player_name "..."
     show mia 67
-    mia "Alright, Ma'am. I'm on it!"
+    mia "Ясно, Мэм. Я займусь этим!"
     show player 10f
     hide mia with dissolve
-    player_name "Wait, what kinda {b}costume{/b}?!"
+    player_name "Подожди, что за {b}костюм{/b}?!"
     show ross 25b
     show player 11f
-    ross "Don't worry, you'll find out soon enough."
+    ross "Не волнуйся, ты скоро об этом узнаешь."
     show ross 25
-    ross "Now hurry and get me those {b}linens{/b} so we can focus on the paint problem!"
+    ross "Теперь поторопись и принеси мне эти {b}Постельное белье{/b} так мы сможем сосредоточиться на проблеме с краской!"
     show ross 24
     show player 10f
-    player_name "Ugh, fine."
+    player_name "Агх, здорово."
     return
 
 label button_ross_get_linens:
@@ -243,57 +243,57 @@ label button_ross_get_linens:
     show ross 11 at left
     show player 1f at right
     with dissolve
-    ross "Did you bring the {b}linens{/b}?"
+    ross "Ты принес {b}Белье{/b}?"
     show ross 10
     show player 2f
-    player_name "No, I haven't gotten them yet."
+    player_name "Нет, я их еще не получил."
     show ross 11
     show player 1f
-    ross "There's no time to waste, {b}[firstname]{/b}!"
-    ross "We gotta hurry up and get them from {b}Mia's church{/b} if we wanna submit the painting in time for the contest!"
+    ross "У нас мало времени, {b}[firstname]{/b}!"
+    ross "Мы должны поторопиться и взять их из {b}Церкви Мии{/b}, если ты хочешь представить свою картину во время, на конкурсе!"
     show ross 10
     show player 2f
-    player_name "Don't worry, I'm on it!"
+    player_name "Не волнуйтесь, Я этим займусь!"
     return
 
 label button_ross_has_linens:
     scene location_school_art_closeup
     show player 592f at right
     show ross 11 at left
-    ross "Are those the {b}linens{/b}?"
+    ross "Это то самое {b}постельное белье{/b}?"
     show player 593f
     show ross 10
-    player_name "Yup, they're a little frayed. I hope that's okay?"
+    player_name "Ага, они немного потрепаны. Я надеюсь, всё в порядке?"
 
     show player 592f
     show ross 11
-    ross "Ah, it shouldn't be a problem. Plenty of usable material there."
+    ross "О, это не будет проблемой. Там много полезного материала."
     show player 2f with dissolve
     show ross 10
-    player_name "Thank goodness."
+    player_name "Хвала небесам."
     show player 10f
-    player_name "So now what?"
+    player_name "Так что теперь?"
     show ross 25
     show player 11f
-    ross "{b}We need paint{/b}, remember?"
+    ross "{b}Нам нужна краска{/b}, помнишь?"
     show ross 25b
-    ross "And we need it for free."
+    ross "И она нам нужна бесплатно."
     show ross 25
-    ross "I don't have the budget to buy any..."
+    ross "У меня нет бюджета, чтобы купить любую..."
     show player 10f
     show ross 24
-    player_name "That doesn't leave us a lot of options."
+    player_name "Это не оставляет нам много вариантов."
     show ross 10b with dissolve
     show player 11f
-    ross "Hmm..."
+    ross "Хмм..."
     player_name "..."
     show ross 11 with dissolve
-    ross "{b}Go talk to Eve{/b} and see if she has any we can borrow."
-    ross "We really won't need much for one painting."
-    ross "I've gotta get started on this canvas."
+    ross "{b}Иди поговори с Евой{/b}, посмотрим есть ли у неё какая-нибудь краска и может ли она нам одолжить."
+    ross "Нам действительно не нужно много для одной картины."
+    ross "Я должна начать работать над этим холстом."
     show player 10f
     show ross 10
-    player_name "Okay."
+    player_name "Хорошо."
     return
 
 label button_ross_get_paint_grace:
@@ -301,84 +301,84 @@ label button_ross_get_paint_grace:
     show ross 25 zorder 1 at left
     show mia 8b zorder 0 at Position(xpos=0.45, ypos=1.0)
     with dissolve
-    ross "... Well, I don't know what we're gonna do!"
-    ross "She's really gonna fire me!"
+    ross "... Чтож, я не знаю, что мы будем делать!"
+    ross "Она действительно уволит меня!"
     show ross 24
     pause
     show player 589f at right with dissolve
     show ross 10
     pause
     show ross 11
-    ross "{b}*Gasp*{/b} There he is!"
+    ross "{b}*Задыхаясь, вздох*{/b} Вот он!"
     show ross 10
     show mia 10f at Position(xpos=0.35, ypos=1.0) with dissolve
-    mia "Oh, {b}[firstname]{/b}! Thank goodness!!"
+    mia "О, {b}[firstname]{/b}! Слава богу!!"
     show mia 7f
     show ross 11
-    ross "We were so worried you weren't going to make it back in time!"
+    ross "Мы так волновались, что ты не успеешь вернуться вовремя!"
     show player 590f
     show ross 10
-    player_name "I'm here. What's going on?"
+    player_name "Я здесь. Что происходит?"
     show player 589f
     show mia 12bf
-    mia "{b}Annie{/b} just came in to get the costumes. {b}Principal Smith{/b} and her are changing into them right now!"
+    mia "{b}Энни{/b} просто приходила, чтобы забрать костюмы. {b}Директриса Смит{/b} и она переодевается прямо сейчас!"
     show player 590bf
     show mia 8bf
-    player_name "She wants me to paint her right now?!"
-    player_name "... And since when is {b}Annie{/b} involved?!"
+    player_name "Она хочет, чтобы я нарисовал её прямо сейчас?!"
+    player_name "... И с каких пор {b}Энни{/b} участвует?!"
     show player 589bf
     show ross 25
-    ross "{b}Principal Smith{/b} wants her in the painting too."
+    ross "{b}Директриса Смит{/b} хочет, чтобы она тоже была на картине."
     show ross 24
     show mia 12f
-    mia "They have such a weird relationship..."
+    mia "У них такие странные отношения..."
     show mia 8f
     show player 590bf
-    player_name "Am I ready for this?"
+    player_name "Готов ли я к этому?"
     show player 589bf
     show ross 25
-    ross "There's no time to worry about that now!"
-    ross "Is that the paint?"
+    ross "Нет времени беспокоиться об этом сейчас!"
+    ross "Это краска?"
     show ross 24
     show player 590f
-    player_name "Yeah, it's from {b}Eve's{/b} sister, {b}Grace{/b}."
+    player_name "Да, это от сестры {b}Евы{/b}, {b}Грейс{/b}."
     show ross 25
     show player 589f
-    ross "Just the primary colors?"
+    ross "Только основные цвета?"
     show ross 24
     show player 590f
-    player_name "Yeah, we'll have to make the rest by mixing."
+    player_name "Да, остальные нам придется смешивать."
     show player 589f
     show ross 25
-    ross "Shoot!"
-    ross "We gotta mix these quick!"
-    ross "Lemme grab a palette!"
+    ross "Блин!"
+    ross "Мы должны смешать их быстро!"
+    ross "Дайте мне взять политру!"
     hide ross
     with dissolve
     show mia 9f
 
-    mia "This is so exciting!"
+    mia "Это так волннительно!"
     show mia 11f
     player_name "..."
     show mia 12f
-    mia "Are you nervous?"
+    mia "Ты нервничаешь?"
     show mia 8f
     show player 590bf
-    player_name "A little bit."
-    player_name "I don't want {b}Miss Ross{/b} to lose her job!"
+    player_name "Немного."
+    player_name "Я не хочу чтобы {b}Мисс Росс{/b} потеряла свою работу!"
     show player 589bf
     show mia 9f
-    mia "Don't worry, {b}[firstname]{/b}. You're gonna do great!"
+    mia "Не волнуйся, {b}[firstname]{/b}. У тебя все получится!"
     show player 590f
     show mia 11f
-    player_name "Thanks, {b}Mia{/b}."
-    player_name "I'm so glad you agreed to be my partner for all this!"
+    player_name "Спасибо, {b}Мия{/b}."
+    player_name "Я так рад, что ты согласилась быть моим партнером во всем этом!"
     show player 589f
     show mia 10f
-    mia "... Me too!"
+    mia "... Я тоже!"
     show mia 7f
     show ross 2b zorder 1 at left
-    ross "Alright, let's mix these quickly before they get back!"
+    ross "Отлично, давайте быстрее их смешаем, прежде чем они вернутся!"
     return
 
 label button_ross_waiting_for_contest:
@@ -386,14 +386,14 @@ label button_ross_waiting_for_contest:
     show ross 10 at left
     show player 2f at right
     with dissolve
-    player_name "Have you heard back about the contest yet?"
+    player_name "Что-нибудь слышно о конкурсе?"
     show player 1f
     show ross 11
-    ross "Nothing yet."
-    ross "I'll let you know the moment I hear something."
+    ross "Пока ничего."
+    ross "Я дам тебе знать, как только что-нибудь узнаю.."
     show player 2f
     show ross 10
-    player_name "Alright."
+    player_name "Хорошо."
     return
 
 label button_ross_contest:
@@ -402,150 +402,150 @@ label button_ross_contest:
     show iwanka 3 zorder 1 at Position(xpos=0.45, ypos=1.0)
     show iwankae 1 zorder 2 at Position(xpos=0.39, ypos=0.965)
     with dissolve
-    ross "Oh, yes! He's extremely talented isn't he?"
+    ross "О, да! Он чрезвычайно талантлив, не так ли?"
     show ross 10
     show player 11f zorder 0 at right with dissolve
     pause
     show player 10f
-    player_name "{b}Miss Ross{/b}?"
+    player_name "{b}Мисс Росс{/b}?"
     show player 11f
     show ross 11
-    ross "Oh! Here he is now!"
+    ross "О! А вот и он!"
     show iwanka 3f at Position(xpos=0.45, ypos=1.0)
     show iwankae 1f at Position(xpos=0.51, ypos=0.965)
     with dissolve
     pause
     show iwanka 2f
     show ross 11
-    ross "Come here, {b}[firstname]{/b}. There's someone who wants to meet you."
+    ross "Подойди сюда, {b}[firstname]{/b}. Кое-кто хочет с тобой познакомиться."
     show ross 10
     player_name "..."
     show ross 11
-    ross "This is {b}The Mayor's Daughter{/b}."
+    ross "Это {b}Дочь мэра{/b}."
     show ross 10
     show player 10f
-    player_name "Wow, really?"
+    player_name "Вау, Серьезно?"
     show player 11f
     show iwanka 4f
-    iwanka "Nice to meet you, {b}[firstname]{/b}!"
-    iwanka "My name is {b}Iwanka{/b}."
+    iwanka "Приятно познакомиться, {b}[firstname]{/b}!"
+    iwanka "Меня зовут {b}Иванка{/b}."
     show iwanka 2f
     show player 10f
-    player_name "H-hello."
+    player_name "П-привет."
     show player 11f
     show ross 11
-    ross "Aww, forgive him. He's a little shy around beautiful women!"
+    ross "Ой, прости его. Он немного стесняется рядом с красивой женщиной!"
     show ross 10
     show iwanka 4f
-    iwanka "That's fine!"
+    iwanka "Всё в порядке!"
     hide iwankae
     show iwanka 5f at Position(xpos=0.58, ypos=1.0)
     with dissolve
-    iwanka "My Father wanted me to deliver this to you personally along with his congratulations."
+    iwanka "Мой отец хотел, чтобы я лично передала это вам вместе с его поздравлениями.."
     show player 582f
     show iwanka 2f at Position(xpos=0.45, ypos=1.0)
     with dissolve
     player_name "..."
     show player 584f
-    player_name "... Is this?"
+    player_name "... Это?"
     show player 583f
     show iwanka 4f
-    iwanka "That's your prize money!"
+    iwanka "Это твои призовые деньги!"
     show player 584f
     show iwanka 2f
-    player_name "Wait, you mean, my painting won?!"
+    player_name "Подожди, в смысле, моя картина выиграла?!"
     show player 583f
     show iwanka 4f
-    iwanka "That's right! First place!"
+    iwanka "Все верно! Первое место!"
     show player 584f
     show iwanka 2f
-    player_name "Awesome!"
+    player_name "Потрясающе!"
     show player 583f
     show iwanka 4f
-    iwanka "My Father really loved your piece!"
-    iwanka "In fact, he made a copy for his own private collection."
-    iwanka "He's even considering hiring you to paint a picture of the entire Rump family."
+    iwanka "Моему отцу очень понравилась твоя работа!"
+    iwanka "На самом деле, он сделал копию для своей частной коллекции."
+    iwanka "Он даже подумывает нанять тебя, чтобы ты нарисовал всю семью Рампов.."
     show player 584f
     show iwanka 2f
-    player_name "For real?"
+    player_name "Всерьез?"
     show player 583f
-    iwanka "Mmmhmm..."
+    iwanka "Мммхмм..."
     show iwanka 4f
-    iwanka "I got your phone number from {b}Miss Ross{/b}. I hope that's alright?"
+    iwanka "Я взяла твой номер телефона от {b}Мисс Росс{/b}. Я надеюсь ты не возражаешь?"
     show player 584f
     show iwanka 2f
-    player_name "Y-yeah, of course!"
+    player_name "Д-да, безусловно!"
     show player 583f
     show iwanka 4f
-    iwanka "Very good, we'll be in contact."
-    iwanka "Congratulations once again and have a good day!"
+    iwanka "Очень хорошо, мы будем на связи.."
+    iwanka "Поздравляю еще раз и хорошего дня!"
     show player 584f
     show iwanka 3f
-    player_name "Yeah, you too!"
+    player_name "Да, тебе тоже!"
     hide iwanka
     with dissolve
-    player_name "I can't believe it, we won, {b}Miss Ross{/b}!"
+    player_name "Я не могу в это поверить, мы выйграли, {b}Мисс Росс{/b}!"
     show player 583f
     show ross 27
-    ross "You won, {b}[firstname]{/b}!"
-    ross "... And I couldn't be more proud!"
+    ross "Ты выйграл, {b}[firstname]{/b}!"
+    ross "... И я очень тобой горжусь!"
     show player 584f
     show ross 26
-    player_name "Here, this money is for you."
+    player_name "Вот, эти деньги для вас."
     show player 1f
     show ross 33
     with dissolve
-    ross "Oh my goodness!"
+    ross "О боже мой!"
     show ross 32
     pause
     show ross 31
-    ross "... This is just..."
+    ross "... Это просто..."
     show ross 32
     pause
     hide player
     show ross 21
     with dissolve
-    ross "You're my hero, {b}[firstname]{/b}!"
+    ross "Ты мой герой, {b}[firstname]{/b}!"
     show ross 20
     pause
     show ross 21
-    ross "You know..."
+    ross "Ты знаешь..."
     show ross 20
     pause
     show ross 21
-    ross "... There's one more art technique I'd like to teach you."
+    ross "... Есть ещё одна художественная техника, которой я хотела бы тебя научить."
     show ross 13
     show player 10f at right
     with dissolve
-    player_name "There is?"
+    player_name "Есть?"
     show player 11f
     show ross 12
-    ross "Mmhmm..."
+    ross "Мммхмм..."
     show ross 13
-    ross "... Why don't you come up to my office after school and I'll show you."
+    ross "... Почему бы тебе не прийти ко мне в кабинет после школы, и я покажу тебе."
     show ross 12
     show player 2f
-    player_name "Okay, I'll go tell {b}Mia{/b}!"
+    player_name "Хорошо, я пойду скажу {b}Мии{/b}!"
     show ross 25
     show player 1f
-    ross "No! Hold on."
+    ross "Нет! Подожди."
     show ross 24
     show player 11f
     player_name "..."
     show ross 25
-    ross "I'm afraid, {b}Mia{/b} isn't ready for this particular technique yet."
+    ross "Я боюсь, что {b}Мия{/b} еще не готова к этой конкретной технике."
     show ross 24
     show player 10f
-    player_name "Oh, it's too advanced for her?"
+    player_name "О, она слишком продвинутая для нее?"
     show ross 13
     show player 11f
-    ross "Heh, Yeah. Something like that."
-    ross "She'll get there someday, don't you worry..."
+    ross "Хех, Да. Что-то вроде того."
+    ross "Она однажды её освоит, не волнуйся..."
     show ross 12
     show player 10f
-    player_name "O-okay, I guess I'll see you after school?"
+    player_name "Х-хорошо, Я думаю, увидимся после школы?"
     show ross 13
     show player 11f
-    ross "I'll be waiting."
+    ross "Я буду ждать."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
