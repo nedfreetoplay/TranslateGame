@@ -26,7 +26,7 @@ label lucy_button_dialogue:
             call expression game.dialog_select("button_lucy_baby_dialogue_multiple")
             jump button_lucy_menu
 
-        "How are the little ones?" if PregnancyManager.total_babies() > 1:
+        "Как поживают малыши?" if PregnancyManager.total_babies() > 1:
             call expression game.dialog_select("button_lucy_how_are_the_little_ones")
             jump button_lucy_menu
         "Мне пора идти.":
