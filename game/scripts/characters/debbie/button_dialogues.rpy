@@ -2,34 +2,34 @@ label debbie_dialogue_jenny_pool_talk:
     scene expression player.location.background_closeup with None
     show player f_normal
     show debbie f_normal_talk
-    deb "So, what did she say?"
+    deb "Так что она сказала?"
     show debbie f_normal
     show player f_worried
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player f_worried_talk
-    player_name "Oh, I haven't asked her yet..."
+    player_name "О, я ее еще не спрашивал..."
     show player f_normal
     show debbie f_normal_talk
-    deb "Heh, what are you waiting for silly?"
+    deb "Чего ты ждешь, глупыш?"
     show debbie f_normal
     show player f_normal_talk
-    player_name "I'll go right now."
+    player_name "Я пойду прямо сейчас и спрашу."
     show player f_normal
     show debbie f_normal_talk
-    deb "Thanks, sweetie."
+    deb "Спасибо, милый."
     show debbie f_normal
     show player f_normal_talk
-    player_name "No problem."
+    player_name "Нет проблем."
     hide debbie
     show player f_thinking a_dressed_thinking with dissolve
-    player_name "( Hmm, I think {b}[jen_name]{/b} is {b}lounging out by the pool...{/b} )"
+    player_name "( Хмм, я думал, что {b}[jen_name]{/b} {b}отдыхает у бассейна...{/b} )"
     hide player with dissolve
     return
 
 label debbie_dialogue_mom_relaxing:
     scene expression player.location.background_closeup
     show player 1 at left with dissolve
-	show debbie 2 at right with dissolve
+    show debbie 2 at right with dissolve
     deb "Привет, милый! Разве ты не должен идти?"
     show player 2 at left
     show debbie 1 at right
@@ -135,7 +135,7 @@ label debbie_dialogue_mom_car_condition:
 label debbie_dialogue_mom_revealing_kitchen_pre:
     scene expression player.location.background_blur
     show debbieobj 2 at Position(xpos=590,ypos=768)
-	return
+    return
 
 label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     scene expression player.location.background_closeup with None
