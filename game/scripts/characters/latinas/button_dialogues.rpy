@@ -41,7 +41,7 @@ label latinas_dialogue_shower:
     lopez "...Вот это ты называла {b}большим{/b}?"
     show lopez f_normal_down
     show martinez f_surprised_right
-    martinez "Wha-"
+    martinez "Чё-"
     show player 63
     show martinez f_suspicious
     martinez "Он вялый?!..."
@@ -73,13 +73,13 @@ label latinas_dialogue_shower:
     martinez "Хаха!"
     show martinez f_smirk_down
     show lopez f_surprised_down
-    lopez "Yo, it's not doing anything!"
+    lopez "Эй, он ничего не делает!"
     show lopez f_normal_down
     show martinez f_eyeroll
-    martinez "Maybe he's into guys?"
+    martinez "Может, ему нравятся парни?"
     show martinez f_angry
     show lopez f_normal_down_talk a_toweldown_pull1 with dissolve
-    lopez "Here, I know what will work!"
+    lopez "Вот, я знаю, что сработает!"
     show martinez b_empty
     show martinez_body_parts b_towelup zorder 0
     show lopez f_normal_down a_toweldown_pull2
