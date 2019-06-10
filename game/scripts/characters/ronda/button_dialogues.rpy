@@ -3,91 +3,91 @@ label ronda_dialogue_intro:
     show ronda b_jersey a_jersey_sides f_normal at right
     show player 36 at left
     with dissolve
-    player_name "Hey, {b}Ronda{/b}. How are you?"
+    player_name "Привет, {b}Ронда{/b}. Как дела?"
     show player 13 with dissolve
     show ronda f_normal_talk
-    ron "I'm doing fine. The question is have you been training?"
+    ron "У меня всё хорошо. Этот вопрос был тренеровкой?"
     show ronda f_normal
     show player 11
     player_name "..."
     show player 10
-    player_name "No-"
+    player_name "Нет-"
     show player 11
     show ronda f_upset_angry
-    ron "Then stop moving those lips and start moving those... legs!"
+    ron "Тогда перестань шевелить этими губами и начни двигать эти... ножки!"
     show ronda f_upset
     show player 34
     player_name "???"
     show ronda f_normal_talk
-    ron "Nevermind. It's just something my dad always says..."
+    ron "Не важно. Это то, что мой отец всегда говорит..."
     show player 5
-    ron "Anyway, you better hurry up cause the trials are coming up fast!"
+    ron "В любом случае, тебе лучше поторопиться потому что испытания быстро приближаются!"
     show ronda f_normal
     return
 
 label ronda_dialogue_talent_show_help:
     show player 10
-    player_name "I don't suppose you'd be interested in volunteering for {b}Ms. Dewitt's{/b} musical talent show?"
+    player_name "Я не думаю что тебя заинтересует стать добровольцом в {b}Мисс Девитт{/b} музыкальном шоу талантов?"
     show player 5
     show ronda b_jersey a_jersey_sides f_normal_talk
-    ron "Musical Talent? No, I would not be interested."
+    ron "Музыкальном таланте? Нет, Мне это неинтересно."
     show ronda f_normal
     show player 10
-    player_name "Are you sure? You don't play any instruments or sing at all?"
+    player_name "Ты уверена? Ты не играешь ни на каких инструментах и не поешь вообще?"
     show player 5
     show ronda f_normal_talk
-    ron "Umm, can't you see I have more important things to focus on. Like track and swimming..."
-    ron "Stuff you should be focusing on as well!"
-    ron "You're never gonna make the team if you keep ignoring your training!"
+    ron "Эмм, разве ты не видишь что у меня есть более важные дела на которых я должна сосредоточиться. Как бег и плавание..."
+    ron "Тебе надо тоже сосредоточиться на них!"
+    ron "Ты никогда не попадешь в команду если ты продолжишь пропускать свои тренеровки!"
     show ronda f_normal
     show player 30
-    player_name "You know, there's more to life than sports, {b}Ronda{/b}..."
+    player_name "Ты знаешь, в жизни есть вещи поважнее спорта, {b}Ронда{/b}..."
     show player 5
     show ronda f_normal_talk
-    ron "Pfft, yeah right."
+    ron "Пффф, да конечно."
     return
 
 label ronda_dialogue_model_help:
     show player 2 at left
     show ronda b_jersey a_jersey_sides f_normal at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю на проектом для {b}Мисс Росс{/b} и для этого требуется настоящая топ модель."
+    player_name "Тебя это не заинтересует?"
     show player 1
     show ronda f_normal_talk
-    ron "Busy."
+    ron "Я занята."
     show player 10
     show ronda f_normal
-    player_name "Busy?"
-    player_name "Doing what?"
+    player_name "Занята?"
+    player_name "Делать что?"
     show player 11
     show ronda f_upset_angry
-    ron "For real, {b}[firstname]{/b}?!"
-    ron "I've gotta run 6 miles and hit an ice bath before soccer practice."
+    ron "Серьезно, {b}[firstname]{/b}?!"
+    ron "Мне нужно пробежать 6 км и принять ледяной душ до футбольной тренеровки."
     show player 10
     show ronda f_upset
-    player_name "Uhh..."
+    player_name "Ухх..."
     show player 11
     show ronda f_upset_angry
-    ron "Afterwards, I've only got 40 minutes to get some laps in before the pool closes."
+    ron "После, у меня будет только 40 минут чтобы привести себя в порядок до закрытия бассейна."
     show player 10
     show ronda f_upset
-    player_name "That's cra-"
+    player_name "Это сум-"
     show player 11
     show ronda f_upset_angry
-    ron "Then it's back home to a heating pad and crunches."
+    ron "Тогда я вернусь домой что бы согреться и покачать пресс."
     show player 12
     show ronda f_upset
-    player_name "OKAY! Okay! I got it..."
+    player_name "ХОРОШО! Ладно! Я понял..."
     hide ronda
     hide player
     show player 12
     with dissolve
-    player_name "That girl is insane!"
+    player_name "Эта девченка ненормальная!"
     return
 
 label ronda_dialogue_leave:
     show player 10
-    player_name "Alright."
-    player_name "See you later."
+    player_name "Ясно."
+    player_name "Увидимся позже."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
