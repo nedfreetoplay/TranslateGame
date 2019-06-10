@@ -1,10 +1,10 @@
 label bubbles_button_dialogue:
     call expression game.dialog_select("bubbles_button_intro")
     menu bubbles_menu_options:
-        "See a movie.":
+        "Посмотреть кино.":
             call expression game.dialog_select("bubbles_movie_select_pre")
             call screen movie_options
-        "Nevermind.":
+        "Неважно.":
 
             call expression game.dialog_select("bubbles_button_nevermind")
 
