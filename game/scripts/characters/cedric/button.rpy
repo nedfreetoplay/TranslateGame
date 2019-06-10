@@ -7,18 +7,18 @@ label cedric_button_dialogue:
         call expression game.dialog_select("button_cedric_intro_repeat")
 
     menu cedric_menu:
-        "What have you been up to?":
+        "Чем ты занимался?":
             call expression game.dialog_select("button_cedric_what_have_you_been_up_to")
             jump cedric_menu
-        "Can you spot me?":
+        "Ты меня видишь?":
 
             call expression game.dialog_select("button_cedric_can_you_spot_me")
             jump cedric_menu
 
-        "About {b}[jen_name]{/b}." if M_jenny.is_state(S_jenny_talk_to_cedric):
+        "О {b}[jen_name]{/b}." if M_jenny.is_state(S_jenny_talk_to_cedric):
             call expression game.dialog_select("button_cedric_about_jenny")
             $ M_jenny.trigger(T_jenny_talked_to_cedric)
-        "See ya!":
+        "Пока!":
 
             call expression game.dialog_select("button_cedric_see_ya")
 
