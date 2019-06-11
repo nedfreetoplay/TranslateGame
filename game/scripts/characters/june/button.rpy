@@ -36,13 +36,13 @@ label june_dialogue:
 
             call expression game.dialog_select("june_dialogue_intro")
         menu:
-            "Lenses." if M_okita.is_state(S_okita_get_bifocal_lenses):
+            "Оптические линзы." if M_okita.is_state(S_okita_get_bifocal_lenses):
                 call expression game.dialog_select("june_dialogue_okita_get_bifocal_lenses")
 
-            "Model." if M_ross.is_state(S_ross_ask_model):
+            "Модель." if M_ross.is_state(S_ross_ask_model):
                 call expression game.dialog_select("june_dialogue_ross_ask_model")
 
-            "Hang out." if June.completed(june_mc_help) and not june_hang_out:
+            "Потусоваться." if June.completed(june_mc_help) and not june_hang_out:
                 call expression game.dialog_select("june_dialogue_hang_out")
                 if not June.known(june_mc_help_2):
                     $ June.add_event(june_mc_help_2)
@@ -50,16 +50,16 @@ label june_dialogue:
                     $ M_june.force(tod = 2)
                 $ june_hang_out = True
 
-            "Cosplay." if June.started(june_cosplay) and not player.has_item("orcette_cosplay"):
+            "Косплей." if June.started(june_cosplay) and not player.has_item("orcette_cosplay"):
                 call expression game.dialog_select("june_dialogue_cosplay_no_costume")
 
-            "Cosplay." if June.started(june_cosplay) and player.has_item("orcette_cosplay"):
+            "Косплей." if June.started(june_cosplay) and player.has_item("orcette_cosplay"):
                 call expression game.dialog_select("june_dialogue_cosplay_has_costume")
                 $ june_hang_out = True
                 $ player.remove_item("orcette_cosplay")
                 $ june_cosplay.finish()
 
-            "Ask about class." if June.completed(june_intro) and (not June.known(june_erik_help) and not June.known(june_mc_help)):
+            "Спросить о уроке." if June.completed(june_intro) and (not June.known(june_erik_help) and not June.known(june_mc_help)):
                 if not June.known(june_intro_2):
                     $ June.add_event(june_intro_2)
                 $ june_intro_2.finish()
@@ -70,22 +70,22 @@ label june_dialogue:
                 pause
                 hide popup_warning with dissolve
                 menu june_route_split:
-                    "My friend {b}Erik{/b}!":
+                    "Мой друг {b}Эрик{/b}!":
                         hide screen save
                         call expression game.dialog_select("june_dialogue_erik_help")
                         $ June.add_event(june_erik_help)
-                    "I'll play!":
+                    "Я поиграю!":
 
                         hide screen save
                         call expression game.dialog_select("june_dialogue_mc_help")
                         $ June.add_event(june_mc_help)
-                    "Save Menu.":
+                    "Открыть меню сохранений.":
 
                         show screen save
                         pause
                         hide screen save
                         call expression game.dialog_select("june_route_split")
-            "Nothing.":
+            "Ничего.":
 
                 call expression game.dialog_select("june_dialogue_leave")
     hide june
