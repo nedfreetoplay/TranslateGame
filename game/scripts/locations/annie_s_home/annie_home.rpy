@@ -37,13 +37,13 @@ label annies_house_daycare_dialogue:
 label annies_house_get_hammer:
     scene expression L_annie_livingroom.background_blur
     show player 687 with dissolve
-    player_name "Yeah, this will do."
+    player_name "Да, этого вполне достаточно."
     hide player with dissolve
 
     $ player.get_item("hammer")
     if player.has_item("handsaw"):
         show player 14
-        player_name "Alright, now I just need to head outside and build those toys for {b}Lucy{/b}."
+        player_name "Хорошо, теперь мне нужно выйти наружу и собрать игрушки для {b}Люси{/b}."
         hide player with dissolve
         $ M_diane.trigger(T_diane_find_tools)
     $ game.main()
@@ -51,13 +51,13 @@ label annies_house_get_hammer:
 label annies_house_get_saw:
     scene expression L_annie_livingroom.background_blur
     show player 686 with dissolve
-    player_name "Oh, this is nice and sharp!"
+    player_name "О, это прекрасно и остро!"
     hide player with dissolve
 
     $ player.get_item("handsaw")
     if player.has_item("hammer"):
         show player 14
-        player_name "Alright, now I just need to head outside and build those toys for {b}Lucy{/b}."
+        player_name "Хорошо, теперь мне нужно выйти наружу и собрать игрушки для {b}Люси{/b}."
         hide player with dissolve
         $ M_diane.trigger(T_diane_find_tools)
     $ game.main()
