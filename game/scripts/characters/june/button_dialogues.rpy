@@ -4,14 +4,14 @@ label june_dialogue_bissette_fix_printer_repeat:
     show june 17 at right
     show player 10 at left
     with dissolve
-    player_name "Hey {b}June{/b}! Have you fixed the copy machine yet?"
+    player_name "Привет {b}Джун{/b}! Ты уже починила принтер?"
     show player 5
     show june 19
-    june "No, sorry. I haven't had time to mess with it at all."
+    june "Нет, извини. У меня не было времени вообще возиться с ним."
     show june 17
     player_name "..."
     show player 12
-    player_name "Stupid technology!"
+    player_name "Тупая технология!"
     show player 518 with dissolve
     return
 
@@ -20,27 +20,27 @@ label june_dialogue_bissette_fix_printer_first:
     show player 10 at left
     show june 1 at right
     with dissolve
-    player_name "Hey, {b}June{/b}?"
+    player_name "Привет, {b}Джун{/b}?"
     show player 5
     show june 3
-    june "Yes, {b}[firstname]{/b}?"
+    june "Да, {b}[firstname]{/b}?"
     show june 2
     show player 12
-    player_name "I'm having trouble with the printer. What does PC load letter mean?"
+    player_name "У меня проблемы с принтером. Что означает загрузка письма ПК?"
     show player 5
     show june 4
-    june "Ugh, is it doing that again?! What a piece of garbage!"
+    june "Угх, это опять происходит?!Что за кусок дерьма!"
     show june 2
     show player 10
-    player_name "I just need to scan a couple pages from this book and print them off."
-    player_name "Could you help me?"
+    player_name "Мне просто нужно отсканировать пару страниц из этой книги и распечатать их."
+    player_name "Можешь помочь мне?"
     show player 5
     show june 3
-    june "Yeah, sure!"
-    june "Not to brag or anything but I'm pretty good with electronics."
+    june "Да, конечно!"
+    june "Не хочу хвастаться или что-нибудь но Я неплохо разбираюсь в электронике."
     show june 2
     show player 14
-    player_name "Awesome!"
+    player_name "Клево!"
     show player 13
     scene black with fade
 
@@ -49,46 +49,46 @@ label june_dialogue_bissette_fix_printer_first:
     show player 13 at left
     show june 9f at right
     with dissolve
-    june "Oh, sometimes you just need to restart it. Let me just cycle power."
+    june "О, иногда тебе просто нужно перезапустить его. Дай мне только проверить питание."
     show june 10f with dissolve
     show player 108f
-    player_name "Really?"
+    player_name "Серьезно?"
     show player 5
     show june 9f with dissolve
-    june "Yeah, technology is picky like that."
-    june "Just waiting for it to boot up..."
+    june "Да, технология требовательна типо того."
+    june "Просто подождем пока он загрузится..."
     show player 10
-    player_name "Alright."
+    player_name "Ладно."
     show player 5
     pause
     pause
     show june 10f with dissolve
     show player 434
-    june "I think it should be work no-"
+    june "Я думала что это должно сработать нет-"
     show june 9f with dissolve
     show player 5
-    june "Grr... PC load error?!"
+    june "Грр... ошбика загрузки ПК?!"
     show june 15 with dissolve
     show player 110f
-    june "You worthless piece of-"
+    june "Ты никчемный кусок-"
     show june 16 with vpunch
     pause
     show june 15 with dissolve
-    june "I guess I'll have to open it up and repair it again."
+    june "Я думаю мне придется его открыть и починить его снова."
     show player 10
-    player_name "How long will that take?"
+    player_name "Сколько времени это займет?"
     show player 5
     show june 19 with dissolve
-    june "It will take awhile, I don't have time to deal with it today."
+    june "Это займет некоторое время, У меня нет времени разбираться с этим сегодня."
     show june 17
     show player 10
-    player_name "Seriously?"
+    player_name "Серьезно?"
     show player 5
     show june 19
-    june "Yeah, this thing really is a pain in the butt..."
+    june "Да, эта штука действительно заноза в заднице..."
     show june 17
     show player 12
-    player_name "Stupid technology!"
+    player_name "Дурацкая технология!"
     show player 518 with dissolve
     return
 
@@ -96,11 +96,11 @@ label june_dialogue_bissette_fix_printer_fail:
     show player 519 with vpunch
     player_name "..."
     show player 10 with dissolve
-    player_name "[str_warn]*Sigh*"
-    player_name "[str_warn]I guess I'll check back with you tomorrow then..."
+    player_name "[str_warn]*Вздох*"
+    player_name "[str_warn] Наверно я тогда зайду завтра к тебе..."
     show player 5
     show june 19
-    june "[str_warn]Sorry, {b}[firstname]{/b}."
+    june "[str_warn]Извини, {b}[firstname]{/b}."
     hide player
     hide june
     with dissolve
@@ -112,29 +112,29 @@ label june_dialogue_bissette_fix_printer_pass:
     show player 11 with dissolve
     player_name "!!!"
     show june 18
-    june "... Hey! It's working!"
+    june "... Хэй! Он работает!"
     show june 17
     show player 10
-    player_name "Really?"
+    player_name "Реально?"
     show player 5
     show june 18
-    june "Yeah! You must have the midas touch, {b}[firstname]{/b}!"
+    june "Да! У тебя должна быть способность превращать в золото все, к чему прикасаешься, {b}[firstname]{/b}!"
     show june 17
     show player 14
-    player_name "Hah, Yeah. I guess so..."
+    player_name "Хах, Да. похоже на то..."
     show player 13
     show june 18
-    june "Well you can copy your pages now..."
+    june "Теперь ты можешь копировать свои страницы..."
     show june 17
     show player 14
-    player_name "Thank goodness! I really need to get this book back to {b}Judith{/b} before she gets upset."
-    player_name "Thanks for all your help, {b}June{/b}!"
+    player_name "Хвала небесам! Мне очень нужно отдать эту книгу назад {b}Джудит{/b} прежде чем она расстроится."
+    player_name "Спасибо за твою помощь, {b}Джун{/b}!"
     show player 13
     show june 18
-    june "No problem."
+    june "Без проблем."
     hide june with dissolve
     show player 518 with dissolve
-    player_name "Print!"
+    player_name "Печать!"
     show player 519 with vpunch
     show xtra_paper 39 at Position (xoffset=100) with dissolve
     pause .25
@@ -143,8 +143,8 @@ label june_dialogue_bissette_fix_printer_pass:
     pause
 
     show player 510 with dissolve
-    player_name "Alright! I finally have a complete French Dictionary."
-    player_name "Now I just need to get {b}Judith's{/b} book back to her and I can get started with {b}Miss Bissette's{/b} private lessons."
+    player_name "Отлично! Наконец-то у меня есть полный французский словарь."
+    player_name "Сейчас мне просто нужно вернуть книгу назад {b}Джудит{/b} и я смогу начать частные уроки с {b}Мисс Биссет{/b}."
     hide player with dissolve
     return
 
@@ -153,121 +153,121 @@ label june_dialogue_okita_faptic_engine:
     show player 2 at left
     show june 2 at right
     with dissolve
-    player_name "{b}Miss Okita{/b} wants me to get her something called a {b}Faptic Engine{/b}. She told me you could help?"
+    player_name "{b}Мисс Окита{/b} хочет, чтобы я достал ей что-нибудь  назывемое как {b}Faptic Механизм{/b}. Она сказала, что ты можешь помочь?"
     show player 1
     show june 4
-    june "What the heck does she want with one of those?"
+    june "Какого черта она хочет с одним из них?"
     show player 2
     show june 2
-    player_name "She says she needs it for her newest invention."
+    player_name "Она говорит, что ей это нужно для ее нового изобретения."
     show player 1
     show june 4
-    june "Hah. What crazy thing has she come up with this time?"
+    june "Хах. Что за безумную вещь она придумала на этот раз?"
     show player 2
     show june 2
-    player_name "It sounds pretty neat actually, It's a-"
+    player_name "Это звучит довольно здорово вообще-то, Это-"
     show player 1
     show june 3
-    june "No, don't tell me!. I'm sure, I don't wanna know."
+    june "Нет, не говори мне! Я уверена,я не хочу этого знать."
     show player 11
     show june 2
     player_name "..."
     show player 10
-    player_name "Can you help me or not?"
+    player_name "Ты можешь мне помочь или нет?"
     show player 11
     show june 4
-    june "I doubt it. Does it need to be authentic?"
+    june "Вряд ли. Должен ли он быть подлинным?"
     show player 10
     show june 2
-    player_name "Err, I assume so."
+    player_name "Эээ, я думаю так."
     show player 11
     show june 4
-    june "Well that's gonna be hard to come by."
+    june "Ну, это будет трудно достать."
     show player 10
     show june 2
-    player_name "What is a {b}Faptic Engine{/b} anyways?"
+    player_name "Что такое {b}Faptic Механизм{/b}?"
     show player 11
     show june 3
-    june "Oh, you don't know?"
-    june "It's a tiny piece of machinery that provides tactile sensations. They just started putting them in the top of the line Smart Phones."
+    june "О,ты не знаешь?"
+    june "Это крошечный механизм, который обеспечивает чувствительные ощущения. Они просто начали ставить их в топовые линии смартфонов."
     show player 10
     show june 2
-    player_name "Tactile Sensations?"
+    player_name "чувствительные ощущения?"
     show player 11
     show june 4
-    june "Sensations you feel with your skin. In this case, vibrations."
+    june "Ощущения, которые ты ощущашь своей кожей.В этом случае,вибрации."
     show player 2
     show june 2
-    player_name "Oh, I get it now."
-    player_name "So why is it so hard to get?"
+    player_name "О, теперь я понял."
+    player_name "Так почему же так трудно это достать?"
     show player 1
     show june 3
-    june "Well, putting aside the fact that those phones are super expensive..."
+    june "Ну, отложив в сторону тот факт, что эти телефоны очень дорогие..."
     show player 11
     show june 4
-    june "They are currently sold out, like everywhere!"
+    june "Они сейчас все распроданы, во всем мире!"
     show player 10
     show june 2
-    player_name "How expensive are we talking?"
+    player_name "О какой цене мы говорим?"
     show player 11
     show june 4
-    june "Around $2000."
+    june "Примерно $2000."
     show player 23
     show june 2
     player_name "( !!! )" with hpunch
     show player 10
-    player_name "What!? For a phone!?"
+    player_name "Что!? За телефон!?"
     show player 11
     show june 4
-    june "I told you they are top of the line."
+    june "Я же говорила, что они лучшие."
     show june 3
-    june "It really doesn't matter though, didn't you hear me? They are completely sold out."
+    june "На самом деле это не важно однако, ты не слышал меня? Они полностью все распроданы."
     show player 10
     show june 2
-    player_name "Well shoot! What am I gonna tell Okita?"
+    player_name "Блин! Что я скажу Оките?"
     show player 11
     show june 3
-    june "It's a shame she wants authentic. There are some pretty good quality knock off versions that you might be able to get your hands on."
+    june "Жаль, что она хочет настоящую. Есть некоторые с довольно хорошим качеством, поддельных версий, которые ты мог бы достать."
     show player 10
     show june 2
-    player_name "Hmm, would it work as well as the authentic ones?"
+    player_name "Хмм, будет ли оно работать, а также подлинные?"
     show player 11
     show june 4
-    june "Well no, but pretty close. It would depend on what you're using it for."
+    june "Ну нет, но очень близко. Это будет зависеть от того, для чего ты будешь его использовать."
     show june 3
-    june "In most cases, I'd say the knock off would do the trick."
+    june "В большинстве случаев, я бы сказала что подделки добьются цели."
     show june 2
     player_name "..."
     show player 10
-    player_name "Alright, where would I get the knock off version?"
+    player_name "Отлично, где я могу получить поддельные версии?"
     show player 11
     show june 3
-    june "Well, they were putting them into those {b}Master Blaster{/b} controllers a few years ago."
+    june "Чтож, они устанавливали их в контролеры {b}Мастер Бластер{/b} несколько лет тому назад."
     show player 10
     show june 2
-    player_name "{b}Master Blaster{/b}? Like the video game?"
+    player_name "{b}Мастер Бластер{/b}? Как в видеоигре?"
     show player 11
     show june 3b
-    june "Yeah! I always wanted one but my parent's couldn't afford it."
+    june "Да! Я всегда хотела один, но мои родители не могли себе этого позволить."
     show player 2
     show june 2
-    player_name "You know what? My buddy {b}Erik{/b} used to have one of those!"
+    player_name "Ты знаешь что? У моего приятеля {b}Эрика{/b} раньше был один такой!"
     show player 1
     show june 6
-    june "Does he still have it?"
+    june "У него он еще есть?"
     show player 2
     show june 5
-    player_name "No idea."
+    player_name "Без понятия."
     show player 1
     show june 6
-    june "Well if you manage to get your hands on one, I could take the {b}Faptic Engine{/b} out for you."
+    june "Ну Хорошо, если бы ты смог взать один такой, то я бы смогла достать один {b}Faptic механизм{/b} для тебя."
     show player 2
     show june 2
-    player_name "Great! I'll go talk to {b}Erik{/b} and see if he still has it."
-    player_name "Thanks for the info, {b}June{/b}."
+    player_name "Прекрасно! Я поговорю с {b}Эриком{/b} и посмотрим, есть ли он еще у него."
+    player_name "Спасибо за информацию, {b}Джун{/b}."
     show player 1
     show june 3
-    june "Good luck!"
+    june "Удачи!"
     return
 
 label june_dialogue_okita_get_controller_info:
@@ -275,20 +275,20 @@ label june_dialogue_okita_get_controller_info:
     show player 2 at left
     show june 2 at right
     with dissolve
-    player_name "What was the name of that controller again?"
+    player_name "Как назвался этот контроллер еще раз?"
     show player 1
     show june 4
-    june "{b}The Master Blaster{/b}."
+    june "{b}Мастер Бластер{/b}."
     show june 3
-    june "Didn't you say your buddy {b}Erik{/b} had one?"
+    june "Разве ты не говорил, что у твоего приятеля {b}Эрика{/b} есть один?"
     show player 2
     show june 2
-    player_name "Yeah, he used to..."
-    player_name "I'll go ask him about it."
-    player_name "Thanks, {b}June{/b}."
+    player_name "Да, у него раньше был."
+    player_name "Я пойду спрошу его об этом."
+    player_name "Спасибо, {b}Джун{/b}."
     show player 1
     show june 3
-    june "Good luck!"
+    june "Удачи!"
     return
 
 label june_dialogue_okita_has_controller:
@@ -296,63 +296,63 @@ label june_dialogue_okita_has_controller:
     show player 502 at left
     show june 2 at right
     with dissolve
-    player_name "Is this the thing you were talking about?"
+    player_name "Это то, о чем вы говорили?"
 
     show player 1
     show june 11
     with dissolve
-    june "Hey, you actually got one. Awesome!"
+    june "Эй, ты и вправду его нашел. Круто!"
     show player 2
     show june 12
-    player_name "So you can take the {b}Faptic Engine{/b} out of this?"
+    player_name "Так, ты сможешь извлечь {b}Faptic механизм{/b}?"
     show player 1
     show june 11
-    june "Absolutely."
-    june "Just give me a few minutes to take it apart."
+    june "Безусловно."
+    june "Просто дай мне несколько минут, чтобы разобрать его."
     show player 2
     show june 12
-    player_name "Alright."
+    player_name "Отлично."
     show player 1
     show june 11
 
-    june "This is so cool!"
+    june "Это так круто!"
 
     pause
     scene location_school_computer_day_blur
     show player 1 at left
     show june 13 at right
     with dissolve
-    june "There we go, one knock off {b}Faptic Engine.{/b}"
+    june "Вот и все, один поддельный {b}Faptic механизм.{/b}"
     show player 2
     show june 14
-    player_name "That's it? It's so tiny..."
+    player_name "Это она? Оно такое крошечное..."
     show player 505
     show june 18
     with dissolve
-    june "Yup, it's a little thing but it packs a punch."
+    june "Ага, это мелочь, но она наносит удар."
     show player 506
     show june 17
-    player_name "Alright, I'd better get this to Okita."
+    player_name "Хорошо, мне лучше отнести это Оките."
     show player 505
     show june 19
-    june "Say, {b}[firstname]{/b}?"
-    june "Would you mind if I keep the controller?"
+    june "Скажи, {b}[firstname]{/b}?"
+    june "Вы не возражаешь, если я оставлю этот контроллер?"
     show player 2 with dissolve
     show june 17
-    player_name "No, not at all. Knock yourself out!"
+    player_name "Нет, вовсе нет. ни в чем себе не отказывай!"
     show player 1
     show june 18
-    june "Sweet! Thanks, {b}[firstname]{/b}!"
+    june "Приятно! Спасибо, {b}[firstname]{/b}!"
     return
 
 label june_dialogue_mc_intro:
     show player 14 at left
     show june 5 at right
-    player_name "Hey, {b}June{/b}!"
+    player_name "Привет, {b}Джун{/b}!"
     show player 1
     show june 6
-    june "Hi, {b}[firstname]{/b}!"
-    june "What's up?"
+    june "Приветик, {b}[firstname]{/b}!"
+    june "Как дела?"
     show june 5
     return
 
@@ -362,389 +362,389 @@ label june_dialogue_intro:
     show june 1 at right
     show player 14 at left
     with dissolve
-    player_name "Hi!"
+    player_name "Привет!"
     show june 3
     show player 1
-    june "Oh, uh, hi?"
-    june "What's up?"
+    june "О, эм,привет?"
+    june "Как делишки?"
     show june 2
     return
 
 label june_dialogue_okita_get_bifocal_lenses:
     show player 2
-    player_name "Hey, so uhh..."
-    player_name "I'm kinda helping {b}Miss Okita{/b} with a project."
+    player_name "Привет, так эмм..."
+    player_name "Я вроде как помогаю {b}Мисс Окита{/b} с проектом."
     show player 1
     show june 4
-    june "{b}Miss Okita{/b} asked you for help with her designs?"
+    june "{b}Мисс Окита{/b} попросила тебя о помощи с ее проектами?"
     show player 10
     show june 2
-    player_name "Yes."
-    player_name "... And we need some {b}lenses{/b}; Like from a pair of glasses?"
+    player_name "Да."
+    player_name "...И нам нужно немного {b}линз{/b}; например с пары очков?"
     show player 11
     show june 4
-    june "You want my glasses?"
+    june "Ты хочешь мои очки?"
     show player 10
     show june 2
-    player_name "Well, I was hoping you might have a spare set?"
+    player_name "Ну, Я надеялся, что у тебя есть запасной комплект?"
     show player 11
     show june 4
-    june "Nope, just the one."
+    june "Неа, только один."
     show player 10
     show june 2
-    player_name "Maybe I could convince you to give me that pair?"
+    player_name "Может, я смогу тебя убедить тебя отдать мне эту пару?"
     show player 11
     show june 4
-    june "I doubt it."
+    june "Вряд ли."
     show player 10
     show june 2
-    player_name "Hmm, are you farsighted or nearsighted?"
+    player_name "Хмм, ты дальнозоркая или близорукая?"
     show player 11
     show june 3
-    june "Nearsighted."
+    june "Близорукая."
     show player 29 with dissolve
     show june 2
-    player_name "Oh, nevermind then."
-    player_name "I need a pair from someone who is both."
+    player_name "О, забудь тогда."
+    player_name "Мне нужна пара от кого-то кто является и тем и другим."
     show player 3
     show june 4
-    june "I can't believe {b}Miss Okita{/b} asked {b}YOU{/b} to help with her projects..."
+    june "Я не могу поверить что {b}Мисс Окита{/b} попросила {b}ТЕБЯ{/b} помочь с ее проектами..."
     show player 29
     show june 2
-    player_name "Well she's kinda, forcing me..."
+    player_name "Ну она своего рода, заставила меня..."
     show player 3
     show june 6
-    june "Yeah, that sounds more like her."
+    june "Да,это больше похоже на нее."
     show june 3
-    june "Well, good luck."
+    june "Чтож, удачи."
     show player 2 with dissolve
     show june 2
-    player_name "Yeah, thanks."
+    player_name "Да, спасибо."
     return
 
 label june_dialogue_ross_ask_model:
     show player 2
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
+    player_name "Ты былА бы заинтересована?"
     show player 1
     show june 3
-    june "Modeling?"
+    june "Моделирование?"
     show june 3b
-    june "Do I look like a model to you?"
+    june "Разве я похожа на модель для тебя?"
     show player 10
     show june 5
-    player_name "Sure, why not?"
+    player_name "Конечно,почему нет?"
     show player 11
     show june 3b
-    june "Pfft, nice try."
+    june "Пфффф,хорошая попытка."
     show june 3
-    june "I've got other stuff planned anyways..."
+    june "У меня есть другие запланированные дела, в любом случае..."
     show player 10
     show june 5
-    player_name "You do?"
+    player_name "У тебя?"
     show june 3
     show player 11
-    june "Yeah, the expansion pack for Orcette's Dungeon launched today."
-    june "You better believe I'm getting a copy!"
+    june "Да, пакет DLC для Подземелья Орсетте запущен сегодня."
+    june "Тебе лучше верить, чтобы я получила эту копию!"
     show player 10
     show june 5
-    player_name "Alright, have fun I guess."
+    player_name "Ладно, повеселись, я думаю."
     show player 11
     show june 3b
-    june "Oh, I will!"
+    june "О, я повеселюсь!"
     return
 
 label june_dialogue_hang_out:
     show player 14
-    player_name "I was wondering if you wanted to hang out at my place?"
+    player_name "Я хотел спросить, не хочешь ли ты потусоваться у меня дома?"
     show player 1
     show june 6
-    june "Sure!"
-    june "After school?"
+    june "Конечно!"
+    june "После школы?"
     show player 14
     show june 5
-    player_name "Yeah."
+    player_name "Да."
     show player 1
     show june 6
-    june "So, your room it is, then?"
+    june "Итак, значит,у тебя есть своя комната?"
     show player 10
     show june 5
-    player_name "My room?"
+    player_name "Моя комната?"
     show player 11
     show june 6
-    june "Yeah! We need a nice quiet place to chill and play games."
+    june "Да! Нам нужно хорошее тихое место, чтобы расслабиться и играть в игры."
     show player 14
     show june 5
-    player_name "Heh, okay!"
+    player_name "Хех, хорошо!"
     show player 1
     show june 6
-    june "Awesome!"
-    june "I got classes coming up, I should get going."
-    june "I'll see ya after school, {b}[firstname]{/b}!"
+    june "Круто!"
+    june "У меня скоро занятия,мне пора идти."
+    june "Увидимся после школы, {b}[firstname]{/b}!"
     return
 
 label june_dialogue_cosplay_no_costume:
     show player 14
-    player_name "What cosplay were you trying to make again?"
+    player_name "Какой косплей ты пыталась снова сделать?"
     show player 1
     show june 3
-    june "Oh, it's an orcette costume."
-    june "It should have the teeth, necklace and belt!"
+    june "О, это костюм Орсетта."
+    june "Он должен иметь зубы, ожерелье и пояс!"
     show player 14
     show june 2
-    player_name "Ah, right!"
-    player_name "I think I know a place in the {b}mall{/b} that has costumes..."
+    player_name "Ах, точно!"
+    player_name "Мне кажется, я знаю одно место в {b}торговом центре{/b} где есть такие костюмы..."
     show player 1
     show june 6
-    june "Oh yeah?"
+    june "О, да?"
     show player 14
     show june 5
-    player_name "I might go by there and check it out!"
+    player_name "Я бы мог туда пойти и проверить!"
     show player 1
     show june 6
-    june "Cool! See ya."
+    june "Круто! Увидимся."
     return
 
 label june_dialogue_cosplay_has_costume:
     show player 17
-    player_name "I think I found something you might like!"
+    player_name "Я думаю, я нашел кое-что, что может тебе понравиться!"
     show player 1
     show june 3
-    june "Huh?"
+    june "Хм?"
     show june 6
-    june "What is it?"
+    june "Что это?"
     show june 5
     show player 423 with fastdissolve
-    player_name "It's an orcette costume!!"
+    player_name "Это костюм Орсетта!!"
     show player 422
     show june 6
-    june "For my cosplay?!"
+    june "Для моего косплея?!"
     show player 1
     show june 7
     with fastdissolve
     pause
     show player 13
     show june 8
-    june "Oh my gosh!!"
-    june "It has all the missing pieces I needed!"
-    june "Those even look like real teeth!"
+    june "О, боже!!"
+    june "В нем есть все недостающие части, которые мне нужны!"
+    june "Они даже выглядят как настоящие зубы!"
     show player 17
     show june 5 with fastdissolve
-    player_name "I'm glad you like it."
+    player_name "Я рад, что тебе понравилось."
     show player 14
-    player_name "It's going to look great on you!"
+    player_name "Это будет отлично смотреться на тебе!"
     show player 1
     show june 6
-    june "Thank you so much, {b}[firstname]{/b}."
+    june "Большое спасибо {b}[firstname]{/b}."
     show player 14
     show june 5
-    player_name "I'm just glad you'll have a cool cosplay at the comic con."
+    player_name "Я просто рад, что у вас будет классный косплей на Комик-Кон."
     show player 11
     show june 6
-    june "I'll probably get a lot of attention from the crowds, I'm sure!"
+    june "Я, вероятно, получу много внимания от толпы, Я уверена!"
     show player 10
     show june 5
-    player_name "You mean like, guys?"
+    player_name "Вы имеете в виду, от ребят?"
     show player 11
     show june 6
-    june "Well, I guess, yeah..."
+    june "Ну, я полагаю, что да..."
     show june 5
     player_name "..."
     show june 6
-    june "But you know what?"
-    june "I think I should test out the cosplay before I go!"
-    june "Maybe put it on... in front of a friend?"
+    june "Но, ты знаешь что?"
+    june "Я думаю, что я должна проверить косплей, прежде чем идти!"
+    june "Может быть надеть его... перед своим другом?"
     show june 5
     show player 10
-    player_name "Like who?"
+    player_name "Например перед кем?"
     show player 11
     show june 6
-    june "You!! Silly..."
+    june "Тобой!! Дурачок..."
     show player 17
     show june 5
-    player_name "Oh, ha ha!"
+    player_name "О, ха ха!"
     show player 14
-    player_name "Sure, I could emm... give you some feedback!"
+    player_name "Конечно, я мог бы эмм... дать свою оценку!"
     show player 1
     show june 6
-    june "Great! How about we meet at your house... Like last time?"
+    june "Здорово! Как насчет того, чтобы встретиться у тебя дома... Как в прошлый раз?"
     show player 14
     show june 5
-    player_name "Okay, I'll see you after school then!"
+    player_name "Хорошо, Увидимся после школы тогда!"
     show player 1
     show june 6
-    june "See you later!"
+    june "Увидимся позже!"
     return
 
 label june_dialogue_ask_about_class:
     show player 14
-    player_name "Hey, what class are you in?"
-    player_name "I don't see you around school often."
+    player_name "Привет, в каком ты классе??"
+    player_name "Я не часто вижу тебя в школе."
     show player 1
     show june 3
-    june "Oh, I don't do sports."
-    june "I prefer hanging around here..."
+    june "О, Я не занимаюсь спортом."
+    june "Я предпочитаю торчать здесь..."
     show player 14
     show june 2
-    player_name "What do you do in the computer room?"
+    player_name "Чем ты занимаешься в компьютерном классе?"
     show player 1
     show june 3
-    june "You know, just stuff... like browsing the internet..."
-    june "... going on message boards, watching streams and playing games."
+    june "Ты знаешь, просто вещами... как лазить в интернете..."
+    june "... смотреть на обьявления, смотреть стримы и играть в игры."
     show june 2
     show player 14
-    player_name "Games, huh?"
+    player_name "Игры, хм?"
     show player 1
     show june 3
-    june "Yeah."
+    june "Да."
     show june 1
     show player 14
-    player_name "Like the one you're holding?"
+    player_name "Как и ту, которую ты держишь?"
     show player 1
     show june 3
-    june "Oh, this thing? It's just a silly game..."
+    june "О, эта вешь? Это просто глупая игра..."
     show player 14
     show june 2
-    player_name "What's it called?"
+    player_name "Как она называется?"
     show player 1
     show june 3
-    june "It's called Orc Bork."
+    june "Она называется Orc Bork."
     show player 14
     show june 2
-    player_name "A game about orcs?"
+    player_name "Игра об орках?"
     show player 1
     show june 3
-    june "Yeah."
+    june "Да."
     show june 4
-    june "It's pretty hard."
+    june "Это довольно трудно."
     show player 11
-    june "I've been trying to beat it for months..."
+    june "Я пыталась осилить ее в течение нескольких месяцев..."
     show player 14
     show june 2
-    player_name "Is it really that difficult?"
+    player_name "Неужели это так сложно?"
     show player 1
     show june 3
-    june "Well, it's easier when you play with two players."
+    june "Ну,это легче, когда ты играете с двумя игроками."
     show june 4
-    june "I just haven't found anyone who plays these kind of games at school..."
+    june "Я просто не нашла никого, кто играет в такие игры в школе..."
     show june 3
-    june "Unless, maybe you know someone?"
+    june "Если только, может быть, ты знаешь кого-то?"
     show june 1
     return
 
 label june_dialogue_erik_help:
     show player 14
-    player_name "Actually, I do!"
-    player_name "My good friend {b}Erik{/b} LOVES games with orcs in them!"
-    player_name "Especially... the orcettes."
-    player_name "I think you two should totally play together!"
+    player_name "Честно говоря, Я знаю!"
+    player_name "Мой хороший друг {b}Эрик{/b} ЛЮБИТ игры с орками!"
+    player_name "Особенно... Орсетты."
+    player_name "Я думаю, вы оба должны играть вместе!"
     show player 1
     show june 3
-    june "{b}Erik{/b}?"
+    june "{b}Эрик{/b}?"
     show player 11
-    june "I don't think I know him..."
+    june "Я не думаю, что знаю его...."
     show player 10
     show june 1
-    player_name "He said you borrowed one of his pencils once."
+    player_name "Он сказал, что однажды ты одолжила один из его карандашей."
     show player 1
     show june 4
-    june "Huh..."
+    june "Хм..."
     show player 14
     show june 5
-    player_name "Well, he spends a lot of time in his room... playing games..."
+    player_name "Чтож, н проводит много времени в своей комнате... играя в игры..."
     show player 1
     show june 6
-    june "Seriously?"
+    june "Серьезно?"
     show player 14
     show june 5
-    player_name "I think he could help you beat that game."
+    player_name "Я думаю, он мог бы помочь тебе пройти эту игру."
     show player 1
     show june 6
-    june "That would be awesome."
-    june "Let me know if he's up for it!"
+    june "Это было бы круто."
+    june "Дай мне знать если когда он будет готов!"
     show player 17
     show june 5
-    player_name "Sweet!!"
+    player_name "Славно!!"
     show player 14
-    player_name "I'll definitely let him know."
+    player_name "Я обязательно дам ему знать."
     return
 
 label june_dialogue_mc_help:
     show player 14
-    player_name "I'm not really good at those games... But I'll try!"
+    player_name "Я не очень хорош в этих играх... Но я попробую!"
     show player 1
     show june 4
-    june "You... want to play with me?"
-    june "Are you sure you would like that?"
+    june "Ты... хочешь поиграть со мной?"
+    june "Ты уверен, что хотел бы этого?"
     show player 14
     show june 2
-    player_name "Sure, why not?"
+    player_name "Конечно, почему нет?"
     show player 11
     show june 3
-    june "Well, it's just that no one has ever asked before..."
+    june "Ну, просто раньше никто не спрашивал...."
     show player 17
     show june 2
-    player_name "I'd gladly be your first!"
+    player_name "Я с удовольствием стану твоим первым!"
     show player 21
     show june 5
-    player_name "Err... I mean... Not like-"
+    player_name "Эммм... я в смысле... в другом-"
     show player 11
     show june 6
-    june "Ha ha, you're funny."
+    june "Ха ха, ты смешной."
     show june 5
     player_name "..."
     show player 14
-    player_name "So... You want to play now?"
+    player_name "Итак... Ты хочешь сейчас сыграть?"
     show player 11
     show june 6
-    june "Umm... How about we play somewhere else?"
-    june "I'm a bit tired of spending all my time in this computer room..."
+    june "Эммм... Как насчет того, чтобы поиграть в другом месте?"
+    june "Я немного устала проводить все свое время в этом компьютерном классе..."
     show player 14
     show june 5
-    player_name "Okay, where then?"
+    player_name "Хорошо, где тогда?"
     show player 10
-    player_name "If we play in the hallway, {b}Annie{/b} will give us detention..."
+    player_name "Если мы будем играть в коридоре, {b}Анна{/b} задержит нас..."
     show player 11
     show june 6
-    june "Hmm... How about we play at your house?"
+    june "Хмм... Как насчет того,чтобы мы поиграли у тебя дома?"
     show player 12
     show june 5
-    player_name "My... My house?!"
+    player_name "У Меня... Меня дома?!"
     show player 11
     show june 6
-    june "Yeah!"
-    june "After school?"
+    june "Да!"
+    june "После школы?"
     show player 10
     show june 5
-    player_name "Uhh... I guess we could?"
+    player_name "Эмм... Я думаю мы можем?"
     show player 11
     show june 6
-    june "Awesome!"
-    june "Thanks for wanting to play with me..."
+    june "Потрясающе!"
+    june "Спасибо, что захотел поиграть со мной..."
     show player 13
-    june "It's... really nice of you!"
+    june "Это... очень мило с твоей стороны!"
     show player 14
     show june 5
-    player_name "Oh, ha ha. It's nothing..."
+    player_name "О, ха ха. Это ерунда..."
     show player 1
     show june 6
-    june "Just come ask me when you're ready to hang out!"
-    june "I'll be waiting in here."
+    june "Просто подойди ко мне, когда будешь готов потусоваться!"
+    june "Я буду ждать здесь."
     show player 17
     show june 5
-    player_name "Sure!"
+    player_name "Конечно!"
     return
 
 label june_dialogue_leave:
     show june 2 at right
     show player 14
-    player_name "Oh, nothing!"
-    player_name "Just saying hi."
+    player_name "О, ничего!"
+    player_name "Просто говорю привет."
     show player 1
     show june 4
-    june "Oh, okay then..."
+    june "О, хорошо тогда..."
     show june 1
     show player 29 at Position(xoffset=8)
-    player_name "Err... I'll see you later!"
+    player_name "Эээ... Увидимся позже!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
