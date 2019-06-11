@@ -1,15 +1,15 @@
 label donut_buy_dialogue:
     show beth 2
-    beth "Here ya go."
+    beth "Вот тебе."
     show unlock51 at truecenter with dissolve
     pause
     hide unlock51 with dissolve
     show player 17
     show beth 1
-    player_name "Thank you."
+    player_name "Спасибо."
     show player 1
     show beth 2
-    beth "Enjoy the sweet holes!"
+    beth "Наслаждайся сладкими дырочками!"
     hide player
     hide xtra
     hide beth
@@ -19,6 +19,6 @@ label donut_buy_dialogue:
 label donut_locked:
     scene expression game.timer.image("backgrounds/location_donut_day{}_blur.jpg")
     show player 10 with dissolve
-    player_name "( I should come back during the day while they're open. )"
+    player_name "( Я должен вернуться к ним в течении дня когда они будут открыты. )"
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
