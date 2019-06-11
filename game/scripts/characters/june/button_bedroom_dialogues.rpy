@@ -3,37 +3,37 @@ label june_bedroom_dialogue_cosplay_sex_pre:
     show player_sitting 2 zorder 1 at right
     show june_sitting 11 zorder 1 at Position(xpos=300,ypos=787)
     with fastdissolve
-    player_name "So, what're we doing?"
+    player_name "Итак,что мы делаем?"
     show june_sitting 10
     show player_sitting 5
-    june "Is your door locked?"
+    june "Твоя дверь заперта?"
     show june_sitting 11
     show player_sitting 2
-    player_name "Uhh... I think so? Why?"
+    player_name "Эммм... я думаю да? Почему?"
     show june_sitting 12
     show player_sitting 5
-    june "Well, I don't want your parents seeing me while I'm getting dressed up!"
+    june "Ну, Я не хочу, чтобы твои родители видели меня, пока я одеваюсь!"
     show june_sitting 11
     show player_sitting 4
-    player_name "Oh, you're doing it... right... here?"
+    player_name "О, ты будешь делать это... прямо... здесь?"
     show june_sitting 10
     show player_sitting 5
-    june "Of course, silly!"
-    june "I might need your help while I put things on..."
-    june "And I want your opinion on the whole process!"
+    june "Конечно, глупенький!"
+    june "Мне может понадобиться твоя помощь, пока я надену вещи..."
+    june "И мне нужно твое мнение о всем процессе!"
     show player_sitting 3
-    june "My cosplay has to look just right."
+    june "Мой косплей должен выглядеть идеально."
     show june_sitting 11
     show player_sitting 4
-    player_name "I see."
-    player_name "So... How do we start?"
+    player_name "Я вижу."
+    player_name "Итак... Как мы начнем?"
     show june_sitting 10
     show player_sitting 5
-    june "I should probably get undressed first."
+    june "Мне наверное стоит раздеться первой."
     show june_sitting 11
     player_name "..."
     show june_sitting 10
-    june "Hold on, let me just get these clothes off..."
+    june "Подожди, дай я только сниму эту одежду..."
     show june_sitting 14 at Position(xoffset=7) with fastdissolve
     pause
     show player_sitting 7
@@ -47,21 +47,21 @@ label june_bedroom_dialogue_cosplay_sex_pre:
     with fastdissolve
     june "..."
     show june_sitting 20
-    june "Ha ha!"
+    june "Ха ха!"
     show player_sitting 5 with fastdissolve
-    june "You don't have to hide your eyes, silly!"
+    june "Ты можешь не закрывать глаза, глупышка!"
     show june_sitting 19
     show player_sitting 4
-    player_name "I just... Didn't want-"
+    player_name "Я просто... Не хотел-"
     show june_sitting 20
     show player_sitting 5
-    june "It's fine, I want you to watch."
+    june "Все хорошо, я хочу чтобы ты смотрел."
     show june_sitting 19
     show player_sitting 4
-    player_name "Okay..."
+    player_name "Хорошо..."
     show june_sitting 20
     show player_sitting 3
-    june "I need to remove ALL of my clothes..."
+    june "Мне нужно снять всю одежду...."
     hide june_sitting_underwear
     show june_sitting 23
     with fastdissolve
@@ -69,59 +69,59 @@ label june_bedroom_dialogue_cosplay_sex_pre:
     show june_sitting 24 with fastdissolve
     pause
     show june_sitting 25 at Position(xoffset=40) with fastdissolve
-    june "... If we want to make this cosplay right!"
+    june "... Если мы хотим чтобы этот косплей был правильным!"
     show june_sitting 19 with fastdissolve
     show player_sitting 4
-    player_name "You... You look really good!"
+    player_name "Ты... Ты выглядишь действительно отлично!"
     show june_sitting 22b at Position(xoffset=18)
     show player_sitting 3
-    june "Thanks."
+    june "Спасибо."
     show june_sitting 20
-    june "Now, before I put on the actual costume, I need your help with something..."
+    june "Сейчас, прежде чем я надену настоящий костюм,мне нужна твоя помощь с кое-чем..."
     show june_sitting 19
     show player_sitting 4
-    player_name "How can I help?"
+    player_name "Чем я могу помочь?"
     show player_sitting 11
     show june_sitting 26 at Position(xoffset=24) with fastdissolve
-    june "I have to put on body paint... And there's some spots I just can't reach!"
-    june "Here, take this and scoop some out with your fingers..."
+    june "Я должна покрасить свое тело... И есть некоторые места, которых я просто не могу достать!"
+    june "Здесь, возьми это и зачерпни немного своими пальцами..."
     show june_sitting 19
     show player_sitting 12
     with fastdissolve
-    player_name "Where do I start?"
+    player_name "С чего мне начать?"
     show june_sitting 22b at Position(xoffset=18)
     show player_sitting 13 with fastdissolve
-    june "Just let your imagination do the work!"
+    june "Просто позволь своему воображению сделать работу!"
     show black zorder 3 with dissolve
     show june_sitting 29
     show player_sitting 1
-    player_name "... Are you sure you want paint down here too?"
-    june "Don't be scared, get in there!"
-    june "Ooh, that tickles..."
+    player_name "... Ты уверена, что хочешь покрасить здесь внизу тоже?"
+    june "Не бойся, войди туда!"
+    june "Оох, это щекотно..."
     hide black with dissolve
-    june "So?"
-    june "How do I look?"
+    june "Итак?"
+    june "Как я выгляжу?"
     show june_sitting 28
     show player_sitting 2
-    player_name "It's really... convincing!"
-    player_name "You really look like an orcette, that's certain..."
+    player_name "Это очень... убедительно!"
+    player_name "Вы действительно выглядишь как Одетта это точно..."
     show june_sitting 29
     show player_sitting 5
-    june "Do you feel... attracted to my new look?"
+    june "Чувствуешь ли ты ... привлеченным моему новому взгляду?"
     show june_sitting 28
     show player_sitting 4
-    player_name "You mean I-"
+    player_name "В смысле я-"
     show june_sitting 29
     show player_sitting 5
-    june "Do you feel horny... looking at me?"
+    june "Ты возбуждаешься... смотря на меня?"
     show june_sitting 28
     show player_sitting 3
     player_name "..."
     show player_sitting 4
-    player_name "I think you're very pretty... in green..."
+    player_name "Я думаю ты очень красивая ... в зеленом..."
     show june_sitting 29
     show player_sitting 3
-    june "Why don't you come closer and kiss me, Chieftain?"
+    june "Почему бы тебе не подойти поближе и не поцеловать меня, Вождь?"
     hide player_sitting
     show june_sitting 31 at center
     with fastdissolve
@@ -133,35 +133,35 @@ label june_bedroom_dialogue_cosplay_sex_intro:
     hide june_sitting
     hide player_sitting
     with fade
-    june "I want that big... chieftain cock..."
-    june "... deep inside me!"
+    june "Я хочу этот большой... член вождя..."
+    june "... глубоко внутри меня!"
     show junesex 3b with fastdissolve
-    june "Ahh..."
+    june "Аххх..."
     show junesex 4b with fastdissolve
-    june "Yess!"
-    june "Bork me, {b}[firstname]{/b}!!"
+    june "Даа!"
+    june "Проткни меня, {b}[firstname]{/b}!!"
     return
 
 label june_bedroom_dialogue_sex_pre_cosplay:
     show june_sitting 3 at Position(xpos=300,ypos=787)
     show player_sitting 1 at right
     with dissolve
-    june "Cool room!"
-    june "I love your posters and figurines!"
+    june "Крутая комната!"
+    june "Я люблю твои плакаты и статуэтки!"
     show june_sitting 4
     show player_sitting 2
-    player_name "Ha ha, yeah, they're pretty nice."
-    player_name "I've had them since I was a kid."
-    player_name "They're sort of... geeky, I guess."
+    player_name "Ха ха, да, они довольно красивые."
+    player_name "Они были у меня с самого детства."
+    player_name "Они вроде как... для задротов,по-моему."
     show june_sitting 3
     show player_sitting 1
-    june "I really like them!"
+    june "Они мне очень нравятся!"
     show june_sitting 4
     show player_sitting 2
-    player_name "Thanks."
+    player_name "Спасибо."
     show june_sitting 3
     show player_sitting 1
-    june "So... What do you wanna do?"
+    june "Итак... чем ты хочешь заниматься?"
     show june_sitting 4
     return
 
@@ -169,48 +169,48 @@ label june_bedroom_dialogue_sex_pre_no_cosplay:
     show player_sitting 2 zorder 1 at right
     show june_sitting 11 zorder 1 at Position(xpos=300,ypos=787)
     with fastdissolve
-    player_name "So, what's the plan?"
+    player_name "Итак,какой у нас план?"
     show june_sitting 10
     show player_sitting 1
-    june "Is your door locked?"
+    june "Твоя дверь заперта?"
     show player_sitting 2
     show june_sitting 11
-    player_name "Yeah. I don't think [deb_char_name] will be bothering us."
+    player_name "Да.Я не думаю что [deb_char_name] побеспокоет нас."
     show june_sitting 10
-    june "Cool."
+    june "Круто."
     show player_sitting 1
     show june_sitting 12
-    june "It's just that... I really like hanging out in your room..."
+    june "Дело в том что... Мне очень нравится проводить время в твоей комнате..."
     show player_sitting 3
-    june "It's so... cozy. I just feel like we can do anything we want, in secret..."
+    june "Она такая... уютная. Я просто чувствую, что мы можем делать, что хотим, в тайне..."
     show player_sitting 4
     show june_sitting 13
-    player_name "I like it, too."
+    player_name "Мне тоже это нравится."
     show player_sitting 1
     show june_sitting 10
-    june "So, what does my... orc chieftain want from me tonight?"
+    june "Итак, что же мой... атаман орк хочет от меня сегодня ночью?"
     show june_sitting 11
     return
 
 label june_bedroom_dialogue_sex_normal_pre:
     show player_sitting 2 zorder 1 at right
     show june_sitting 11 zorder 1 at Position(xpos=300,ypos=787)
-    player_name "Do you want to... have sex?"
+    player_name "Ты хочешь... заняться сексом?"
     show player_sitting 1
     show june_sitting 10
-    june "Should I get my costume?"
+    june "Должна ли я получить свой костюм?"
     show player_sitting 4
     show june_sitting 11
-    player_name "Eh, maybe another time?"
+    player_name "Ээ, может быть в другой раз?"
     show player_sitting 3
     show june_sitting 12
-    june "Okay... I guess we can do it like this."
+    june "Хорошо... я думаю мы сможем сделать это вот так."
     show player_sitting 4
     show june_sitting 13
-    player_name "You don't mind?"
+    player_name "Ты не против?"
     show player_sitting 3
     show june_sitting 10
-    june "Role playing is really fun, but sure, I'm fine with it..."
+    june "Ролевые игры это действительно весело, но конечно, Я не против..."
     show june_sitting 14 at Position(xoffset=7) with fastdissolve
     pause
     show june_sitting 15 with fastdissolve
@@ -224,7 +224,7 @@ label june_bedroom_dialogue_sex_normal_pre:
     show june_sitting 24 with fastdissolve
     pause
     show june_sitting 25 at Position(xoffset=40) with fastdissolve
-    june "Well? What are you waiting for? I'm right here..."
+    june "Ну? Чего же ты ждешь? Я прямо здесь..."
     show june_sitting 30 at center
     hide player_sitting
     with fastdissolve
@@ -234,15 +234,15 @@ label june_bedroom_dialogue_sex_normal_pre:
 label june_bedroom_dialogue_sex_cosplay_pre:
     show player_sitting 6 at right
     show june_sitting 11 zorder 1 at Position(xpos=300,ypos=787)
-    player_name "I could help you dress up like last time... and be your chieftain?"
+    player_name "Я могу помочь тебе одеться как в прошлый раз... и быть твоим вождем?"
     show player_sitting 3
     show june_sitting 10
-    june "I was hoping you would suggest that!"
-    june "All I've been thinking about is dressing up and becoming your orcette..."
-    june "Okay, let put the costume on..."
+    june "Я надеялась что ты это предложишь!"
+    june "Все, о чем я думала, это переодеться и стать твоей орсеттой..."
+    june "Хорошо, давай наденем костюм..."
     show june_sitting 29
     with fade
-    june "Why don't you come closer... And kiss me, Chieftain?"
+    june "Почему бы тебе не подойти поближе... И не поцеловать меня, Атаман?"
     hide player_sitting
     show june_sitting 31 at center
     with fastdissolve
@@ -252,90 +252,90 @@ label june_bedroom_dialogue_sex_cosplay_pre:
 label june_bedroom_dialogue_play_games_cosplay_over:
     show june_sitting 11 at Position(xpos=300,ypos=787)
     show player_sitting 2 at right
-    player_name "Do you want to play games again?"
+    player_name "Ты хочешь сыграть в игры еще раз?"
     show june_sitting 10
     show player_sitting 1
-    june "Sure, there's still some quests I haven't finished in Orc Bork."
+    june "Конечно, все еще есть квесты, которые я еще не закончила в Orc Bork."
     show june_sitting 11
     show player_sitting 6
-    player_name "Let's do it!"
+    player_name "Давай сделаем это!"
     show player_sitting 2
-    player_name "Just one thing, could you tell me how to play it again?"
+    player_name "Только одна вешь, не могла бы ты сказать мне,как еще раз в нее играть?"
     show june_sitting 10
     show player_sitting 1
-    june "Ha ha."
-    june "Sure, come closer so you can see the screen better..."
+    june "Ха ха."
+    june "Конечно, подойдите поближе, чтобы лучше видеть экран..."
     show june_sitting 7 at center
     hide player_sitting
     with fastdissolve
-    june "We have to play together and time our attacks."
-    june "When the arrow is in the green bar, press the button!"
+    june "Мы должны играть вместе и расчитать время наших атак."
+    june "Когда стрелка находится в зеленой полосе, нажми на кнопку!"
     show june_sitting 8
-    player_name "Oh, okay! Sounds pretty simple."
+    player_name "О,хорошо! Звучит довольно просто."
     show june_sitting 7
-    june "Let's give it a try!"
+    june "Давай попробуем!"
     return
 
 label june_bedroom_dialogue_play_games_cosplay_not_over:
     show june_sitting 4 at Position(xpos=300,ypos=787)
     show player_sitting 2 at right
-    player_name "We could try beating that game of yours."
+    player_name "Мы можем попробовать биться в твоей игре."
     show june_sitting 3
     show player_sitting 1
-    june "Yeah? You really want to?"
+    june "Да? Ты действительно хочешь?"
     show june_sitting 4
     show player_sitting 6
-    player_name "Let's do it!"
+    player_name "Давайте сделаем это!"
     show player_sitting 2
-    player_name "Just one thing, could you tell me how to play?"
+    player_name "Уше одно, не могла бы ты сказать мне,как еще раз в нее играть?"
     show june_sitting 3
     show player_sitting 1
-    june "Ha ha."
-    june "Well, It's just one of those monster hunting games."
-    june "You go through dungeons, kill monsters, get items..."
+    june "Ха ха."
+    june "Ну, Это просто одна из тех игр охоты на монстров."
+    june "Ты идешь через подземелья, и убиваешь монстров, получаешь предметы..."
     show player_sitting 5
-    june "... But there's this final boss I've been trying to beat for the longest time!!"
+    june "... Но тут есть последний босс, которого я пыталсь победить в течение долгого времени!!"
     show player_sitting 1
-    june "Here, come closer so you can see the screen better..."
+    june "Вот, подойти ближе, чтобы лучше видеть экран..."
     show june_sitting 8 at center
     hide player_sitting
     with fastdissolve
-    player_name "Okay, so how do we beat this boss?"
+    player_name "Хорошо, и так как мы можем победить этого босса?"
     show june_sitting 7
-    june "We have to play together and time our attacks."
-    june "When the arrow is in the green bar, press the button!"
+    june "Мы должны играть вместе и расчитать время наших атак."
+    june "Когда стрелка находится в зеленой полосе, нажми на кнопку!"
     show june_sitting 8
-    player_name "Oh, okay! Sounds pretty simple."
+    player_name "О,хорошо! Звучит довольно легко."
     show june_sitting 7
-    june "Let's give it a try!"
+    june "Давай попробуем!"
     return
 
 label june_bedroom_dialogue_leave:
     show player_sitting 4 at right
     show june_sitting 6 at Position(xpos=300,ypos=787)
-    player_name "Actually, I should really get to bed..."
+    player_name "На самом деле, мне уже пора спать..."
     show june_sitting 5
     show player_sitting 3
-    june "Already?!"
+    june "Уже?!"
     show june_sitting 6
     show player_sitting 4
-    player_name "Yeah... [tmp_deb_name] said I need to get to bed earlier."
-    player_name "Sorry, {b}June{/b}..."
+    player_name "Да... [tmp_deb_name] сказала, что мне нужно лечь спать пораньше.."
+    player_name "Извини, {b}Джун{/b}..."
     show june_sitting 5
     show player_sitting 3
-    june "It's alright, I guess."
-    june "Maybe we can hang out another time?"
+    june "Все в порядке, Наверное."
+    june "Может, потусуемся в другой раз??"
     show june_sitting 6
     show player_sitting 4
-    player_name "Sure!"
+    player_name "Конечно!"
     show june_sitting 4
-    player_name "I'd love to."
+    player_name "Я бы с радостью."
     show june_sitting 3
     show player_sitting 3
-    june "Okay, see you at school?"
+    june "Хорошо, увидимся в школе?"
     show june_sitting 4
     show player_sitting 4
-    player_name "Yeah!"
+    player_name "Да!"
     hide june_sitting
     hide player_sitting
     with dissolve
@@ -346,25 +346,25 @@ label june_bedroom_dialogue_normal_sex_intro:
     hide june_sitting
     hide player_sitting
     with fade
-    june "I want that big cock of yours..."
-    june "... deep inside me!"
+    june "Я хочу этот твой большой член..."
+    june "... глубоко во мне!"
     show junesex 3 with fastdissolve
-    june "Ahh..."
+    june "Ахх..."
     show junesex 4 with fastdissolve
-    june "Yess!"
-    june "Fuck me, {b}[firstname]{/b}!!"
+    june "Даа!"
+    june "Выеби меня, {b}[firstname]{/b}!!"
     return
 
 label june_bedroom_dialogue_cosplay_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            if not animated:
-                show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
-                $ animated = True
+           if not animated:
+            show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
+             $ animated = True
             pause 8
         else:
 
@@ -374,21 +374,21 @@ label june_bedroom_dialogue_cosplay_sex_loop:
             while poses_done != pose_list:
                 show expression "junesex {}".format(pose_list[pose_counter]) as junesex
                 pause
-                $ poses_done.append(pose_list[pose_counter])
-                $ pose_counter += 1
+                 $ poses_done.append(pose_list[pose_counter])
+                  $ pose_counter += 1
         $ animcounter += 1
     call screen june_mcbedroom_cosplay_sex_options
 
 label june_bedroom_dialogue_normal_sex_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
-            if not animated:
-                show expression AnimatedImage("junesex", [4,5,6,7,8], M_june) as junesex
-                $ animated = True
+           if not animated:
+            show expression AnimatedImage("junesex", [4,5,6,7,8], M_june) as junesex
+            $ animated = True
             pause 8
         else:
 
@@ -412,14 +412,14 @@ label june_bedroom_dialogue_normal_sex_cum_inside_dialogue:
     show expression AnimatedImage("junesex", [4,5,6,7,8], M_june) as junesex
     pause
     show junesex 9 with hpunch
-    june "Ahh!!!"
+    june "Ахх!!!"
     show white
     pause 0.3
     hide white with dissolve
     pause
     show junesex 14 with fastdissolve
-    june "I... that feels so good..."
-    june "... your cum deep inside me..."
+    june "Я... как же это приятно..."
+    june "... твоя сперма глубоко во мне..."
     return
 
 label june_bedroom_dialogue_normal_sex_cum_outside:
@@ -431,7 +431,7 @@ label june_bedroom_dialogue_normal_sex_cum_outside_dialogue:
     show expression AnimatedImage("junesex", [4,5,6,7,8], M_june) as junesex
     pause
     show junesex 9 with hpunch
-    player_name "Ahh!!!"
+    player_name "Ахх!!!"
     show white
     pause 0.3
     show junesex 10
@@ -440,10 +440,10 @@ label june_bedroom_dialogue_normal_sex_cum_outside_dialogue:
     show junesex 11 with fastdissolve
     june "..."
     show junesex 12
-    june "So much..."
-    june "I was hoping you would hold me down and cum inside..."
-    june "... with all that strong cum..."
-    june "Maybe next time?"
+    june "Слишком много..."
+    june "Я надеялась, что ты удержешь меня и кончишь внутрь..."
+    june "... со всей этой сильной спермой..."
+    june "Может в следующий раз?"
     return
 
 label june_bedroom_dialogue_cosplay_sex_cum_inside:
@@ -462,15 +462,15 @@ label june_bedroom_dialogue_cosplay_sex_cum_inside_dialogue:
     show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
     pause
     show junesex 9b with hpunch
-    june "Ahh!!!"
+    june "Ахх!!!"
     show white
     pause 0.3
     hide white with dissolve
     pause
     show junesex 14b with fastdissolve
-    june "I... that feels so good..."
-    june "... your orc seed deep inside me..."
-    june "... my chieftain..."
+    june "Я... как же хорошо..."
+    june "... твое семя орка глубоко во мне..."
+    june "... Мой предводитель..."
     return
 
 label june_bedroom_dialogue_cosplay_sex_cum_outside:
@@ -487,7 +487,7 @@ label june_bedroom_dialogue_cosplay_sex_cum_outside_dialogue:
     show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
     pause
     show junesex 9b with hpunch
-    player_name "Ahh!!!"
+    player_name "Ахх!!!"
     show white
     pause 0.3
     show junesex 10b
@@ -496,10 +496,10 @@ label june_bedroom_dialogue_cosplay_sex_cum_outside_dialogue:
     show junesex 11b with fastdissolve
     june "..."
     show junesex 12b
-    june "So much... cum!"
-    june "I was hoping you would hold me down and cum inside..."
-    june "... with all that strong orc cum..."
-    june "Maybe next time?"
+    june "Так много... спермы!"
+    june "Я надеялся, что ты удержишь меня внизу и кончишь внутрь..."
+    june "... со всей этой сильной оркской спермой..."
+    june "Может быть в следующий раз?"
     return
 
 label june_bedroom_dialogue_aftercum_initial:
@@ -510,32 +510,32 @@ label june_bedroom_dialogue_aftercum_initial:
     show player_sitting 3 zorder 1 at right
     show june_sitting 10 zorder 1 at Position(xpos=300,ypos=787)
     with fade
-    june "That was great!"
-    june "It's getting pretty late... I should get home."
+    june "Это была прекрасно!"
+    june "Уже довольно поздно... Мне пора домой."
     show player_sitting 6
     show june_sitting 11
-    player_name "Yeah, [deb_char_name] is going to get suspicious with all the time we spend in here..."
+    player_name "Да, [deb_char_name] будет что-то подозревать учитывая сколько времени мы провели тут..."
     show june_sitting 10
     show player_sitting 3
-    june "Ha ha."
-    june "I think it was time well spent!"
+    june "Ха ха."
+    june "Я думаю, что это было хорошо проведенное время!"
     show june_sitting 11
     show player_sitting 4
-    player_name "I had fun too."
+    player_name "Мне тоже было весело."
     show june_sitting 10
     show player_sitting 3
-    june "Maybe we can do this again soon?"
+    june "Может быть мы сможем сделать это скоро снова?"
     show june_sitting 11
     show player_sitting 4
-    player_name "Sure!"
+    player_name "Конечно!"
     show player_sitting 6
-    player_name "I'd love to."
+    player_name "Мне бы очень хотелось."
     show june_sitting 10
     show player_sitting 3
-    june "Okay, I'll see you at school then?"
+    june "Хорошо, тогда увидимся в школе?"
     show june_sitting 11
     show player_sitting 4
-    player_name "Yeah!"
+    player_name "Да!"
     return
 
 label june_bedroom_dialogue_aftercum_inside:
@@ -546,39 +546,39 @@ label june_bedroom_dialogue_aftercum_inside:
     show player_sitting 3 zorder 1 at right
     show june_sitting 10 zorder 1 at Position(xpos=300,ypos=787)
     with fade
-    june "That was great!"
-    june "It's getting pretty late... I should get home."
+    june "Это была замечательно!"
+    june "Уже довольно поздно... Мне нужно идти домой."
     show player_sitting 6
     show june_sitting 11
-    player_name "Yeah, [deb_char_name] is going to get suspicious with all the time we spend in here..."
+    player_name "Да, [deb_char_name] будет что-то подозревать учитывая сколько времени мы провели тут..."
     show june_sitting 10
     show player_sitting 3
-    june "Ha ha."
-    june "I think it was time well spent!"
+    june "Ха ха."
+    june "Я думаю, что это было хорошо проведенное время!"
     show june_sitting 11
     show player_sitting 4
-    player_name "I had fun too."
+    player_name "Мне тоже было весело."
     show june_sitting 13
     show player_sitting 4
-    player_name "Hey, uh, about doing it inside..."
+    player_name "Эй эм, о том что я сделал внутрь..."
     show june_sitting 12
     show player_sitting 5
-    june "Oh, don't worry about that, I'll just take a pill."
+    june "О, не волнуйся об этом, я просто приму таблетку."
     show june_sitting 11
     show player_sitting 4
-    player_name "Does that mean we can do this again soon?"
+    player_name "Означает ли это, что мы можем сделать это снова в ближайшее время?"
     show june_sitting 10
     show player_sitting 3
-    june "That depends... Do you want to?"
+    june "Это завист от того... хотел ты бы еще?"
     show player_sitting 6
     show june_sitting 11
-    player_name "I'd love to."
+    player_name "Я бы с удовольствием."
     show june_sitting 10
     show player_sitting 3
-    june "Okay, I'll see you at school then?"
+    june "Хорошо, увидимся тогда в школе?"
     show june_sitting 11
     show player_sitting 4
-    player_name "Of course!"
+    player_name "Конечно!"
     return
 
 label june_bedroom_dialogue_aftercum_outside:
@@ -589,31 +589,31 @@ label june_bedroom_dialogue_aftercum_outside:
     show player_sitting 3 zorder 1 at right
     show june_sitting 10 zorder 1 at Position(xpos=300,ypos=787)
     with fade
-    june "That was great!"
-    june "It's getting pretty late... I should get home."
+    june "Это было супер!"
+    june "Уже довольно поздно... Мне пора домой."
     show player_sitting 6
     show june_sitting 11
-    player_name "Yeah, [deb_char_name] is going to get suspicious with all the time we spend in here..."
+    player_name "Да, [deb_char_name] будет что-то подозревать учитывая сколько времени мы провели тут..."
     show june_sitting 10
     show player_sitting 3
-    june "Ha ha."
-    june "I think it was time well spent!"
+    june "Ха ха."
+    june "Я думаю, что это было хорошо проведенное время!"
     show june_sitting 11
     show player_sitting 4
-    player_name "I had fun too."
+    player_name "Мне тоже было весело."
     show june_sitting 10
     show player_sitting 3
-    june "Maybe we can do this again soon?"
+    june "Может быть мы сможем сделать это еще раз вскоре?"
     show june_sitting 11
     show player_sitting 4
-    player_name "Sure!"
+    player_name "Конечно!"
     show player_sitting 6
-    player_name "I'd love to."
+    player_name "Я бы с радостью."
     show june_sitting 10
     show player_sitting 3
-    june "Okay, I'll see you at school then?"
+    june "Хорошо, увидимся тогда в школе?"
     show june_sitting 11
     show player_sitting 4
-    player_name "Of course!"
+    player_name "Конечно!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
