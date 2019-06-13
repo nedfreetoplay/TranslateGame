@@ -15,20 +15,20 @@ label kevin_button_dialogue:
             call expression game.dialog_select("kevin_dialogue_intro")
             call expression game.dialog_select("kevin_dialogue_erik_favor_2_completed")
         menu kevin_menu_dialogue:
-            "Cafeteria Duty" if not erik.completed(erik_favor_2):
+            "Дежурство в столовой." if not erik.completed(erik_favor_2):
                 if not M_kevin.get("asked_shift_cover"):
                     call expression game.dialog_select("button_kevin_cafeteria_duty_first")
                     $ M_kevin.set("asked_shift_cover", True)
                 else:
                     call expression game.dialog_select("button_kevin_cafeteria_duty_repeat")
 
-            "Someone to cover for you." if M_kevin.get("asked_shift_cover") and not erik.over(erik_favor_2):
+            "Кто-то, чтобы прикрыть тебя." if M_kevin.get("asked_shift_cover") and not erik.over(erik_favor_2):
                 if not erik.completed(erik_favor_2):
                     call expression game.dialog_select("button_kevin_shift_cover_no_favor")
                 else:
                     call expression game.dialog_select("button_kevin_shift_cover_has_favor")
 
-            "Guitar." if M_dewitt.is_state(S_dewitt_kevin_give_guitar):
+            "Гитара." if M_dewitt.is_state(S_dewitt_kevin_give_guitar):
                 call expression game.dialog_select("kevin_dialogue_dewitt_kevin_give_guitar")
                 $ player.remove_item("guitar")
                 if M_dewitt.is_set("talent ask eve"):
@@ -36,7 +36,7 @@ label kevin_button_dialogue:
                 else:
                     $ M_dewitt.trigger(T_dewitt_give_fender_guitar)
 
-            "Talent Show." if M_dewitt.between_states(S_dewitt_talent_show_ask, S_dewitt_replace_guitar) or M_dewitt.is_set("talent helping eve"):
+            "Шоу талантов." if M_dewitt.between_states(S_dewitt_talent_show_ask, S_dewitt_replace_guitar) or M_dewitt.is_set("talent helping eve"):
                 if M_dewitt.is_set("talent helping eve"):
                     call expression game.dialog_select("dewitt_talent_show_helping_eve")
 
@@ -50,7 +50,7 @@ label kevin_button_dialogue:
 
                     call expression game.dialog_select("kevin_dialogue_talent_show")
 
-            "Used Panties" if M_somrak.finished_state(S_somrak_start):
+            "Использованные Трусики." if M_somrak.finished_state(S_somrak_start):
                 if M_somrak.get("asked kevin panties"):
                     call expression game.dialog_select("button_kevin_used_panties_repeat")
                 else:
@@ -58,9 +58,9 @@ label kevin_button_dialogue:
                     $ M_somrak.set("asked kevin panties", True)
                 jump kevin_menu_dialogue
 
-            "Adhesive." if M_dewitt.is_state(S_dewitt_science_adhesive):
+            "Клей." if M_dewitt.is_state(S_dewitt_science_adhesive):
                 call expression game.dialog_select("kevin_dialogue_dewitt_science_adhesive")
-            "Nevermind.":
+            "Ничего.":
 
                 call expression game.dialog_select("kevin_dialogue_leave")
 
@@ -76,10 +76,10 @@ label kevin_button_dialogue_gym:
         call expression game.dialog_select("tired_training_dialogue")
         $ game.main()
     menu:
-        "Let's just lift.":
+        "Давай просто поднимемся.":
             call expression game.dialog_select("kevin_gym_lets_lift")
             jump weightlifting
-        "Take it easy.":
+        "Успокойтесь.":
             call expression game.dialog_select("kevin_gym_take_it_easy")
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
