@@ -3,126 +3,126 @@ label button_cedric_about_jenny:
     player_name "You know she's been trying to get ahold of you, right?"
     show player 5
     show cedric f_normal_talk
-    ced "Yeah, believe me... I know."
-    ced "I don't want anything to do with that crazy bitch!"
+    ced "Да, верь мне... Я знаю."
+    ced "Я не хочу что то делать с этой сумасшедшей сучкой!"
     show cedric f_normal
     show player 12
-    player_name "That's a little harsh."
+    player_name "Это немного грубо."
     show player 5
     show cedric f_normal_talk
-    ced "You know she's gotten herself into doing porn or something?"
+    ced "Ты знаешь что она вляпалась в порноиндустрию или типо того?"
     show cedric f_normal
     show player 10
-    player_name "Y-yeah, I know."
+    player_name "Д-да, Я знаю."
     show player 5
     show cedric f_normal_talk
-    ced "Now she's trying to sweet talk me into doing it too!"
+    ced "Сейчас она пытается уговорить меня сделать то же самое!"
     show cedric f_normal
     show player 10
-    player_name "Uh huh?"
+    player_name "Ну да?"
     show player 5
     show cedric f_normal_talk
-    ced "Do I look like the kinda guy who does porn?!"
+    ced "Я похож на парня, который занимается порно?!"
     show cedric f_normal
     show player 29 with dissolve
-    player_name "Err, I dunno... Kinda?"
+    player_name "Эмм, Я не знаю... Слегка?"
     show player 3
     show cedric f_normal_talk
-    ced "Yeah, well... I ain't!"
-    ced "She just needs to find someone else to sink her talons into."
-    ced "I'm done with her."
+    ced "Да, что ж... Я нет!"
+    ced "Ей просто нужно найти кого-то другого, чтобы вонзить в него свои когти."
+    ced "Я покончу с ней."
     show cedric f_normal
     show player 5 with dissolve
     player_name "..."
     show player 10
-    player_name "Will you at least call and tell her that?"
+    player_name "Ты хотябы позвонишь и скажешь ей это?"
     show player 5
     show cedric f_normal_talk
-    ced "Why, so she can yell and call me names?"
-    ced "No thanks."
-    ced "You tell her."
+    ced "Почему,чтобы она смогла наорать на меня и обозвать?"
+    ced "Нет спасибо."
+    ced "Ты скажешь ей."
     hide cedric with dissolve
     pause
     show player 37 with dissolve
-    player_name "{b}*Sigh*{/b} Crap."
-    player_name "( {b}[jen_name]{/b} isn't going to like this... )"
-    player_name "( I'd better go and let her know. )"
+    player_name "{b}*Вздох*{/b} Дерьмо."
+    player_name "( {b}[jen_name]{/b} это не понравится... )"
+    player_name "( Я лучше пойду и дам ей знать. )"
     hide player with dissolve
     return
 
 label button_cedric_see_ya:
     show player 14
-    player_name "I should get going."
+    player_name "Мне пора идти."
     show player 13
     show cedric f_normal_talk
-    ced "Yeah, alright."
-    ced "See you around, little buddy."
+    ced "Да, конечно."
+    ced "Увидимся, приятель."
     show cedric f_normal
     hide player with dissolve
     pause
     show cedric f_normal_talk
-    ced "Don't go skipping leg day now, Heh!"
+    ced "Не пропускай день ног, Хах!"
     hide cedric with dissolve
     return
 
 label button_cedric_can_you_spot_me:
     show player 10
-    player_name "Can you spot me?"
+    player_name "Можешь одолжить мне?"
     show player 13
     show cedric f_normal_talk a_dressed_reject with dissolve
-    ced "No can do, little buddy."
+    ced "Нет не могу, приятель."
     show player 5
-    ced "You're not ready to work out with the big boys yet."
+    ced "Ты еще не готов работать с большими мальчиками."
     show cedric f_normal a_dressed_hips with dissolve
     player_name "..."
     show cedric f_normal_talk a_dressed_point with dissolve
-    ced "I don't wanna see you drop a nut or blow out your o-ring."
+    ced "Я не хочу видеть, как ты уроняешь гайку или взорвешь свое уплотнительное кольцо.."
     show cedric f_normal a_dressed_hips with dissolve
     show player 10
-    player_name "Uh huh, thanks for nothing."
+    player_name "Ну да, спасибо не за что."
     show player 5
     show cedric f_normal_talk
-    ced "Aww, no need to get sore about it."
-    ced "You'll get there soon enough."
-    ced "Check this out!"
+    ced "Ахх,не надо так нервничать."
+    ced "У тебя все получится довольно скоро."
+    ced "Смотри сюда!"
     show cedric f_normal a_dressed_flex with dissolve
     show player 13
     pause
     show cedric f_normal_talk
-    ced "I'm getting pretty ripped, huh?"
+    ced "Я очень хорош, хм?"
     show cedric f_normal
     show player 14
-    player_name "Sure, {b}Cedric{/b}..."
+    player_name "Конечно, {b}Cedric{/b}..."
     show player 13
     show cedric f_normal_talk a_dressed_hips with dissolve
-    ced "Heh, oh yeah!"
+    ced "Хех, оо Да!"
     show cedric f_normal
     return
 
 label button_cedric_what_have_you_been_up_to:
     show player 14
-    player_name "What have you been up to?"
+    player_name "Чем ты занимался?"
     show player 13
     show cedric f_normal_talk
-    ced "Oh, things have been great!"
-    ced "Since I finally got that harpy roommate of yours off my back, I can finally focus on my workouts."
+    ced "Ох, все было отлично!"
+    ced "С тех пор, как я наконец избавился от твоей соседки гарпии по комнате, Наконец-то я могу сосредоточиться на тренировках."
     show cedric f_normal
     show player 4
-    player_name "Huh."
+    player_name "Хм."
     show player 14 with dissolve
-    player_name "Well, that's good... I guess."
+    player_name "Что ж, это хорошо... наверное."
     show player 13
     show cedric f_normal_talk
-    ced "It's real good, little buddy!"
+    ced "Это очено хорошо, приятель!"
     show cedric a_dressed_point_himself with dissolve
-    ced "You wanna come watch me do some dead lifts?"
-    ced "I'm up to four-hundred and five pounds!"
+    ced "Хочешь посмотреть, как я поднимаю штангу?"
+    ced "Я поднимаю до 205 кг!"
     show cedric f_normal a_dressed_hips with dissolve
     show player 29 with dissolve
-    player_name "Ehh, maybe some other time..."
+    player_name "Э-э-э, может быть в другое время..."
     show player 13 with dissolve
     show cedric f_normal_talk
-    ced "Suit yourself."
+    ced "Как знаешь."
     show cedric f_normal
     return
 
@@ -130,13 +130,13 @@ label button_cedric_intro_repeat:
     scene expression player.location.background_closeup with None
     show player 13 at left
     show cedric f_normal_talk
-    ced "What's up, little buddy?"
+    ced "Как дела, дружище?"
     show cedric f_normal
     show player 14
-    player_name "Oh, hey {b}Cedric{/b}."
+    player_name "Ох, привет {b}Cedric{/b}."
     show player 13
     show cedric f_normal_talk
-    ced "You here to bulk up?"
+    ced "Ты здесь чтобы подкачаться?"
     show cedric f_normal
     return
 
@@ -144,31 +144,31 @@ label button_cedric_intro_first:
     scene expression player.location.background_closeup with None
     show cedric f_normal_talk
     show player 13 at left
-    ced "Whoa, {b}[firstname]{/b}?"
+    ced "Вау, {b}[firstname]{/b}?"
     show cedric f_normal
     show player 14
-    player_name "Oh, hey {b}Cedric{/b}."
+    player_name "Ох, здарова {b}Cedric{/b}."
     show player 13
     show cedric f_normal_talk
-    ced "I haven't seen you for awhile, little buddy."
+    ced "Я не видел тебя уже давно, юный друг."
     show cedric f_normal
     show player 14
-    player_name "Uh huh."
+    player_name "Ну да."
     show player 13
     show cedric f_normal_talk a_dressed_point with dissolve
-    ced "You finally decide to hit the gym and bulk up?"
+    ced "Ты наконецто решил начать ходить в спортзал и подкачаться?"
     show cedric f_normal a_dressed_hips with dissolve
     show player 29 with dissolve
-    player_name "Y-yeah, something like that..."
+    player_name "Д-даа, что-то вроде того..."
     show player 13 with dissolve
     show cedric f_normal_talk
-    ced "How's {b}[jen_name]{/b}?"
+    ced "Как {b}[jen_name]{/b}?"
     show cedric f_normal
     show player 12
-    player_name "Umm, I dunno... Bitchy?"
+    player_name "Эммм, я не знаю... Сучка?"
     show player 13
     show cedric f_normal_talk
-    ced "Hahaha, good one!"
+    ced "Хахахаха, Отлично сказано!"
     show cedric f_normal
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
