@@ -11,7 +11,7 @@ label spin_bottle_minigame_kiss_mc_roxxy:
     show roxxy front sitting 3b at Position (xoffset=3)
     show roxxy_arm front sitting 1 at Position (xoffset=3)
     with dissolve
-    rox "Mmm."
+    rox "Ммм."
     player_name "..."
     show player front sitting 7b at Position (xoffset=-3)
     show roxxy front sitting 3 at Position (xoffset=3)
@@ -19,15 +19,15 @@ label spin_bottle_minigame_kiss_mc_roxxy:
     show player front sitting 7 at Position (xoffset=-3)
     show roxxy front sitting 3b at Position (xoffset=3)
     if randomizer() < 33:
-        missy "They're so cute together, aren't they {b}Becca{/b}?"
+        missy "Они так мило смотрятся вместе ,правда {b}Бекка{/b}?"
         becca "..."
     elif randomizer() < 66:
-        rox "He's like, the best kisser..."
-        missy "I'm so jelly right now."
+        rox "Он лучше всех целуется..."
+        missy "Я вся как желе."
         becca "..."
     else:
-        becca "{b}Roxxy's{/b} really skilled with her tongue..."
-        missy "Yeah, but so is {b}[firstname]{/b}!"
+        becca "{b}Рокси{/b} отлично владеет языком..."
+        missy "Да, но {b}[firstname]{/b} тоже!"
         becca "..."
     show player front sitting 7b at Position (xoffset=-3)
     show roxxy front sitting 3 at Position (xoffset=3)
@@ -53,7 +53,7 @@ label spin_bottle_minigame_kiss_mc_becca:
         show player_arms front sitting 3
         show becca front sitting 3
         with dissolve
-        becca "Mmm."
+        becca "Ммм."
         player_name "..."
         show player front sitting 7
         show becca front sitting 3b
@@ -61,22 +61,22 @@ label spin_bottle_minigame_kiss_mc_becca:
         show player front sitting 7b
         show becca front sitting 3
         if randomizer() < 33:
-            rox "Yeah, that's it..."
-            rox "Play with her nipples!"
-            missy "Hehe, look how turned on she is!"
+            rox "Да, вот так..."
+            rox "Поиграй с ее сосками!"
+            missy "Хе-хе, посмотри, как она возбуждена!"
         elif randomizer() < 66:
-            missy "I'm sorry you have to kiss that ugly freckle faced ginger, {b}[firstname]{/b}..."
-            rox "Shut up, {b}Missy{/b}..."
+            missy "Мне жаль, что тебе приходится целовать эту уродливую веснушчатую рыжую девку, {b}[firstname]{/b}..."
+            rox "Заткнись, {b}Мисси{/b}..."
         else:
-            rox "This is really hot!"
+            rox "Это действительно круто!"
         show player front sitting 7
         show becca front sitting 3b
         if randomizer() < 50:
-            rox "C'mon {b}Becca{/b}, use more tongue!"
+            rox "Давай {b}Бекка{/b}, используй больше языка!"
             becca "..."
         else:
-            missy "Bleh, {b}Becca{/b} is a boring kisser."
-            missy "Just wait till it's my turn, {b}[firstname]{/b}!"
+            missy "Блее, {b}Бекка{/b} скучно целуется."
+            missy "Подожди, сейчас моя очередь, {b}[firstname]{/b}!"
         show player front sitting 7b
         show becca front sitting 3
     else:
@@ -93,9 +93,9 @@ label spin_bottle_minigame_kiss_mc_becca:
         show becca front sitting 3b
         with dissolve
         if randomizer() < 33:
-            becca "Ngghhh!"
+            becca "Ггхххх!"
         else:
-            becca "Mmm."
+            becca "Ммм."
             player_name "..."
         show player front sitting 7b
         show player_arms front sitting 4d
@@ -105,23 +105,23 @@ label spin_bottle_minigame_kiss_mc_becca:
         show player_arms front sitting 4
         show becca front sitting 3b
         if randomizer() < 33:
-            rox "Yeah, that's it..."
-            rox "Play with her nipples!"
-            missy "Hehe, look how turned on she is!"
+            rox "Да, вот так..."
+            rox "Поиграй с ее сосками!"
+            missy "Хе-хе, посмотри, как она возбуждена!"
         elif randomizer() < 66:
-            missy "I'm sorry you have to kiss that ugly freckle faced ginger, {b}[firstname]{/b}..."
-            rox "Shut up, {b}Missy{/b}..."
+            missy "Мне жаль, что тебе приходится целовать эту уродливую веснушчатую рыжую девку, {b}[firstname]{/b}..."
+            rox "Заткнись, {b}Мисси{/b}..."
         else:
-            rox "This is really hot!"
+            rox "Это действительно круто!"
         show player front sitting 7b
         show player_arms front sitting 4d
         show becca front sitting 3
         if randomizer() < 50:
-            rox "C'mon {b}Becca{/b}, use more tongue!"
+            rox "Давай {b}Бекка{/b}, используй больше языка!"
             becca "..."
         else:
-            missy "Bleh, {b}Becca{/b} is a boring kisser."
-            missy "Just wait till it's my turn, {b}[firstname]{/b}!"
+            missy "Блее, {b}Бекка{/b} скучно целуется."
+            missy "Подожди, сейчас моя очередь, {b}[firstname]{/b}!"
         show player front sitting 7
         show player_arms front sitting 4
         show becca front sitting 3b
@@ -144,7 +144,7 @@ label spin_bottle_minigame_kiss_mc_missy:
     show player_arms front sitting 4 at Position (xoffset=-7)
     show missy front sitting 3b
     show missy_arm front sitting 1 zorder 3
-    missy "Mmm."
+    missy "Ммм."
     player_name "..."
     show player front sitting 7b at Position (xoffset=-7)
     show player_arms front sitting 4c
@@ -154,18 +154,18 @@ label spin_bottle_minigame_kiss_mc_missy:
     show player_arms front sitting 4 at Position (xoffset=-7)
     show missy front sitting 3b
     if randomizer() < 33:
-        rox "Yeah, squeeze those tits, {b}[firstname]{/b}!"
-        becca "There's barely anything there to squeeze..."
-        rox "Shut up, {b}Becca{/b}."
+        rox "Да, потискай сиськи, {b}[firstname]{/b}!"
+        becca "Там едва ли что-то есть, что можно помять..."
+        rox "Заткнись, {b}Бекка{/b}."
     if randomizer() < 66:
-        becca "God, she's a sloppy kisser!"
-        becca "Just what in the hell is she trying to do with her tongue, anyways?!"
-        rox "I know, right?"
-        rox "Somebody needs to teach that girl how to french..."
+        becca "Боже, как она небрежно целуется!"
+        becca "Что, черт возьми, она пытается сделать со своим языком?!"
+        rox "Я знаю, правильно?"
+        rox "Кто-то должен научить эту девушку французскому..."
     else:
-        rox "Slow down, {b}Missy{/b}!"
-        rox "She's so freaking impatient..."
-        becca "Yeah, I think she just needs to get laid."
+        rox "Притормози, {b}Мисси{/b}!"
+        rox "Она чертовски нетерпелива..."
+        becca "Да, я думаю, ей просто нужно потрахаться."
     show player front sitting 7b at Position (xoffset=-7)
     show player_arms front sitting 4c
     show missy front sitting 3
@@ -192,23 +192,23 @@ label spin_bottle_minigame_kiss_becca_missy:
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
     if randomizer() < 33:
-        rox "Isn't this hot, {b}[firstname]{/b}?"
-        player_name "Y-yeah..."
+        rox "Разве это не жарко, {b}[firstname]{/b}?"
+        player_name "Д-Да..."
     if randomizer() < 66:
-        rox "Mmm, c'mon {b}Missy{/b}..."
-        rox "You gotta be assertive with {b}Becca{/b}!"
-        rox "She likes it rough!"
+        rox "Ммм, давай {b}Мисси{/b}..."
+        rox "Ты должна быть напористой с {b}Беккой{/b}!"
+        rox "Она любит грубое обращение!"
     else:
-        becca "Mmm."
+        becca "Ммм."
     show becca front sitting 3bf at Position (xoffset=-4)
     show missy front sitting 3 at Position (xoffset=4)
     if randomizer() < 33:
-        rox "{b}Becca{/b} pretends that she doesn't like it but look how hard her nipples are!"
+        rox "{b}Бекка{/b} делает вид, что ей это не нравится, но посмотрите, как сильно возбудились ее соски!"
         player_name "..."
     if randomizer() < 66:
         player_name "..."
     else:
-        rox "Oh, it sounds like {b}Missy's{/b} starting to get the hang of it!"
+        rox "О, это звучит так, как будто {b}Мисси{/b} начинает привыкать!"
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
     pause
@@ -216,9 +216,9 @@ label spin_bottle_minigame_kiss_becca_missy:
     show missy front sitting 3 at Position (xoffset=4)
     if randomizer() < 50:
         player_name "..."
-        rox "Is this making you hard, {b}[firstname]{/b}?"
-        player_name "Y-yes..."
-        rox "Hehehe!"
+        rox "Это делает тебя твердым, {b}[firstname]{/b}?"
+        player_name "Д-Да..."
+        rox "Хехехе!"
     show becca front sitting 3f at Position (xoffset=-4)
     show missy front sitting 3b at Position (xoffset=4)
     pause
@@ -238,32 +238,32 @@ label spin_bottle_minigame_kiss_roxxy_becca:
     show roxxy_arm front sitting 2d
     show becca front sitting 3bf
     if randomizer() < 33:
-        becca "Ngghhh..."
+        becca "Гггхххх..."
     if randomizer() < 66:
-        missy "Hehe, I love watching {b}Roxxy{/b} man handle {b}Becca{/b}..."
-        missy "Cause she's usually such a stuck up bitch, you know?"
-        player_name "Y-yeah."
-        missy "... But look at her now."
-        missy "Moaning like a dirty little whore."
+        missy "Хехе, я люблю смотреть, как {b}Рокси{/b} справляется с {b}Беккой{/b}..."
+        missy "Потому что обычно она такая заносчивая сука, понимаешь?"
+        player_name "Ага."
+        missy "... Но посмотри на нее сейчас."
+        missy "Стонет, как маленькая шлюшка."
         player_name "..."
     else:
-        becca "Mmm."
+        becca "Ммм."
     show roxxy front sitting 3b at Position (xoffset=5)
     show roxxy_arm front sitting 2c
     show becca front sitting 3f
     if randomizer() < 50:
-        missy "Damn!"
-        missy "Look at {b}Becca{/b} squirming!"
+        missy "Чёрт!"
+        missy "Посмотри как {b}Бекка{/b} извиваеся!"
     else:
-        missy "Doesn't {b}Roxxy{/b} taste good, {b}Becca{/b}?"
-        becca "Mmmhmm..."
-        missy "Hehe."
+        missy "Разве {b}Рокси{/b} не вкусная, {b}Бекка{/b}?"
+        becca "Мммммммм..."
+        missy "Хехе."
     show roxxy front sitting 3 at Position (xoffset=5)
     show roxxy_arm front sitting 2d
     show becca front sitting 3bf
     if randomizer() < 50:
         player_name "..."
-        missy "{b}Roxxy{/b} really knows how to push her buttons."
+        missy "{b}Рокси{/b} действительно знает, как нажимать на ее кнопки."
     show roxxy front sitting 3b at Position (xoffset=5)
     show roxxy_arm front sitting 2c
     show becca front sitting 3f
@@ -286,30 +286,30 @@ label spin_bottle_minigame_kiss_roxxy_missy:
     show roxxy_arm front sitting 1 at Position (xoffset=2)
     with dissolve
     if randomizer() < 50:
-        missy "Ngghhh!!!"
+        missy "Ггхххх!!!"
     show roxxy front sitting 3 at Position (xoffset=2)
     show missy front sitting 3bf at Position (xoffset=-2)
     if randomizer() < 50:
-        becca "Yeah, pinch that skanks nipples!"
-        becca "Hahaha!"
+        becca "Да, ущипни эту шлюшку за соски!"
+        becca "Хахаха!"
     else:
-        becca "Mmm, this {b}Goldschwagger{/b} is so delicious!"
-        becca "You sure you don't want some, {b}[firstname]{/b}?"
-        player_name "Heh, nah that's alright."
-        player_name "Just beer for me."
-        becca "Booo!!"
+        becca "Ммм, этот {b}Goldschwagger{/b} такой вкусный!"
+        becca "Ты уверен, что не хочешь, {b}[firstname]{/b}?"
+        player_name "Хех, Неа, все в порядке."
+        player_name "Только пивка."
+        becca "Буууу!!"
     show roxxy front sitting 3b at Position (xoffset=2)
     show missy front sitting 3f at Position (xoffset=-2)
     if randomizer() < 50:
-        becca "Ugh, look at {b}Missy's{/b} technique..."
-        becca "... So sloppy."
-        player_name "Maybe you two should practice during the week?"
-        becca "We practice together all the time, she just doesn-"
+        becca "Ухх, Посмотри на технику {b}Мисси{/b}..."
+        becca "... такая небрежная."
+        player_name "Может, вам двоим попрактиковаться в течение недели?"
+        becca "Мы тренируемся вместе все время, она просто не-"
         becca "!!!"
-        becca "I mean..."
-        becca "We don't..."
-        becca "That's just the booze talking, {b}[firstname]{/b}!"
-        player_name "Heh, alright."
+        becca "Я имею в виду..."
+        becca "Мы не..."
+        becca "Это просто по пьянке, {b}[firstname]{/b}!"
+        player_name "Хех, хорошо."
     show roxxy front sitting 3 at Position (xoffset=2)
     show missy front sitting 3bf at Position (xoffset=-2)
     pause
@@ -328,9 +328,9 @@ label spin_bottle_minigame_last_spin:
     show missy sitting 1 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    rox "Mmm..."
+    rox "Ммм..."
     show roxxy sitting 3
-    rox "Okay, last spin."
+    rox "Хорошо, последний поворот."
     return
 
 label spin_bottle_minigame_final_spin:
@@ -341,10 +341,10 @@ label spin_bottle_minigame_final_spin:
     show missy sitting 1 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    rox "Mmm..."
+    rox "Ммм..."
     show roxxy sitting 3
-    rox "Okay, last spin."
-    rox "Winner goes to the changing room with {b}[firstname]{/b}!"
+    rox "Хорошо, последний поворот."
+    rox "Победитель идет в раздевалку с {b}[firstname]{/b}!"
     show roxxy sitting 2
     show becca sitting 2
     show missy sitting 2
