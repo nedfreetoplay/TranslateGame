@@ -49,32 +49,32 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     show missy sitting 5 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "YES!!!"
+    missy "ДА!!!"
     show becca sitting 10
     becca "..."
-    missy "Haha, yes, yes, yessss!!!"
+    missy "Хаха, да, да, дааааа!!!"
     show roxxy sitting 6
-    rox "{b}*Sigh*{/b}"
-    rox "Alright, {b}Missy{/b} wins..."
+    rox "{b}*вздох*{/b}"
+    rox "Хорошо, победила {b}Мисси{/b}..."
     show roxxy sitting 2
     show missy sitting 3
-    missy "Damn right!"
+    missy "Чертовски верно!"
     show missy sitting 2
     show player_sitting 3b
     show roxxy sitting 6
-    rox "Just remember the rules!"
+    rox "Просто помни правила!"
     show roxxy sitting 2
     show player_sitting 3
     player_name "..."
     show missy sitting 3
-    missy "I remember, I remember! Come on {b}[firstname]{/b}!"
+    missy "Я помню, Я помню! Пойдем {b}[firstname]{/b}!"
     show missy sitting 2
     show roxxy sitting 3
-    rox "Fine."
-    rox "Let's get this over with..."
+    rox "Ладно."
+    rox "Давайте покончим с этим..."
     show roxxy sitting 2
     show missy sitting 5
-    missy "Best. Night. EVER!"
+    missy "Лучшая. Ночь. ИЗ ВСЕХ!"
     hide missy
     hide roxxy
     hide player_sitting
@@ -82,7 +82,7 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
 
     scene expression "backgrounds/location_beach_water_night_blur.jpg"
     show roxxy bikini 27 with dissolve
-    rox "Keep up, {b}[firstname]{/b}..."
+    rox "Догоняй, {b}[firstname]{/b}..."
     hide roxxy with dissolve
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
@@ -91,7 +91,7 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     show roxxy bikini 21f at right
     pause
     show roxxy bikini 22f
-    rox "Alright bitch!"
+    rox "Хорошо сучка!"
     show roxxy bikini 21f
     show missy bikini 4 with dissolve
     pause .25
@@ -100,34 +100,34 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     show missy bikini 5 with dissolve
     pause .25
     show roxxy bikini 22 at Position (xoffset=-33) with dissolve
-    rox "I want you to start by-"
+    rox "Я хочу, чтобы вы начали-"
     show player 428
     show roxxy bikini 24 at Position (xoffset=-33)
     show missy bikini 7b with dissolve
     rox "!!!"
     show missy naked 8 with dissolve
-    missy "I am SO ready!"
+    missy "Я ОЧЕНЬ готова!"
     show missy naked 1 with dissolve
     show player 10
-    player_name "What are we doing?!"
+    player_name "Что мы будем делать?!"
     show player 5
     show roxxy bikini 19 with dissolve
-    rox "... But I haven't-"
+    rox "... Но у меня нет-"
     show roxxy bikini 20
     show missy naked 3f with dissolve
-    missy "I've literally been dreaming about that dick since the moment I saw it, {b}[firstname]{/b}..."
+    missy "Я буквально мечтала об этом члене с того момента, как увидела его, {b}[firstname]{/b}..."
     show player 11
     player_name "!!!"
     show missy naked 1f with dissolve
     show player 427
-    player_name "You mean we're going to-"
+    player_name "Вы имеете в виду, что мы собираемся-"
     show player 11
     show roxxy bikini 19
-    rox "You know, you're really taking the fun outta this, {b}Missy{/b}..."
+    rox "Знаешь, ты действительно получаешь от этого удовольствие, {b}Мисси{/b}..."
     show roxxy bikini 20
     show missy naked 2f
-    missy "Oh, crap. I'm sorry, {b}Roxxy{/b}"
-    missy "I forgot you were here..."
+    missy "Вот дерьмо. Извини, {b}Рокси{/b}."
+    missy "Я забыла, что ты здесь..."
     show missy naked 9_10 at Position (xpos=300) with dissolve
     show player 428
     show roxxy bikini 24 at Position (xoffset=-33)
@@ -137,33 +137,33 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     rox "{b}[firstname]{/b}?"
     show roxxy bikini 20
     show player 427
-    player_name "Y-yeah?"
+    player_name "Д-Да?"
     show player 426
     show roxxy bikini 19
-    rox "Wreck this bitch!"
+    rox "Уничтожь эту суку!"
     show roxxy bikini 20
     show missy naked 3f at center with dissolve
     show player 11
-    missy "{b}*Gasp*{/b} Yes!!!"
+    missy "{b}*вздохнув*{/b} Да!!!"
     show missy naked 1f with dissolve
     show player 12
-    player_name "Wait, you're really okay with this?"
+    player_name "Подожди, ты правда не против?"
     show player 11
     show roxxy bikini 19
-    rox "Yes."
-    rox "I want you to fuck her till she's too tired to open her stupid mouth!"
+    rox "Не против."
+    rox "Я хочу, чтобы ты трахнул ее, пока она не устанет открывать свой глупый рот!"
     show roxxy bikini 20
     show missy naked 2f
-    missy "Oh my god, that is an awesome idea!!!"
+    missy "Боже мой, это потрясающая идея!!!"
     show missy naked 1f
     show player 426
     player_name "..."
     show missy naked 2f
-    missy "You heard her, {b}[firstname]{/b}!"
+    missy "Ты слышал ее, {b}[firstname]{/b}!"
     show missy naked 3f with dissolve
-    missy "Get over here and fuck me stupid!"
+    missy "Иди сюда и трахни меня, идиот!"
     show player 429
-    player_name "... O-okay."
+    player_name "... Хо-хорошо."
     show player 8 with dissolve
     pause
     show player 261f with dissolve
@@ -171,9 +171,9 @@ label spin_bottle_minigame_missy_solo_intro_pre_first:
     hide player
     show missy naked 6f
     with dissolve
-    missy "It's finally happening!!"
+    missy "Это наконец-то случится!!"
     show missy naked 7f
-    missy "Oh, I'm so excited!!"
+    missy "Ох, я так взволнована!!"
     hide player
     hide missy
     hide roxxy
@@ -188,32 +188,32 @@ label spin_bottle_minigame_missy_solo_intro_pre_repeat:
     show missy sitting 5 at left
     show xtra 47 zorder 2 at Position (xpos=400)
     with dissolve
-    missy "YES!!!"
+    missy "ДА!!!"
     show becca sitting 10
     becca "..."
-    missy "Haha, yes, yes, yessss!!!"
+    missy "Хаха, да, да, даааа!!!"
     show roxxy sitting 6
-    rox "{b}*Sigh*{/b}"
+    rox "{b}*вздох*{/b}"
     show player_sitting 3b
-    rox "Alright, {b}Missy{/b} wins..."
+    rox "Хорошо, победила {b}Мисси{/b}..."
     show roxxy sitting 2
     show player_sitting 3
     show missy sitting 3
-    missy "Damn right!"
+    missy "Чертовски верно!"
     show missy sitting 2
     show roxxy sitting 6
-    rox "Just remember the rules!"
+    rox "Просто помни правила!"
     show roxxy sitting 2
     player_name "..."
     show missy sitting 3
-    missy "I remember, I remember! Come on {b}[firstname]{/b}!"
+    missy "Я помню, Я помню! Пойдем {b}[firstname]{/b}!"
     show missy sitting 2
     show roxxy sitting 3
-    rox "Fine."
-    rox "Let's get this over with..."
+    rox "Ладно."
+    rox "Давайте покончим с этим..."
     show roxxy sitting 2
     show missy sitting 5
-    missy "Best. Night. EVER!"
+    missy "Лучшая. Ночь. ИЗ ВСЕХ!"
     hide missy
     hide roxxy
     hide player_sitting
@@ -221,7 +221,7 @@ label spin_bottle_minigame_missy_solo_intro_pre_repeat:
 
     scene expression "backgrounds/location_beach_water_night_blur.jpg"
     show roxxy bikini 27 with dissolve
-    rox "Keep up, {b}[firstname]{/b}..."
+    rox "Догоняй, {b}[firstname]{/b}..."
     hide roxxy with dissolve
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
@@ -229,13 +229,13 @@ label spin_bottle_minigame_missy_solo_intro_pre_repeat:
     show roxxy bikini 19 at right
     show missy bikini 1b
     with dissolve
-    rox "Are you gonna do what I tell you this time?!"
+    rox "На этот раз ты сделаешь то, что я тебе скажу?!"
     show roxxy bikini 20
     show missy bikini 2b
-    missy "Yes, {b}Roxxy{/b}..."
+    missy "Да, {b}Рокси{/b}..."
     show missy bikini 1b
     show roxxy bikini 22 with dissolve
-    rox "Take off your clothes."
+    rox "Снимай свою одежду."
     show roxxy bikini 21
     show missy bikini 3 with dissolve
     pause .25
@@ -246,42 +246,42 @@ label spin_bottle_minigame_missy_solo_intro_pre_repeat:
     pause .25
     show missy bikini 5 with dissolve
     show roxxy bikini 22
-    rox "That's a good little bitch..."
+    rox "Она хорошая маленькая сучка..."
     show missy bikini 7b with dissolve
-    rox "Isn't she a good little bitch, {b}[firstname]{/b}?"
+    rox "Разве она не хорошая маленькая сучка, {b}[firstname]{/b}?"
     show missy naked 1 with dissolve
     show roxxy bikini 21
     show player 429
-    player_name "Y-yeah."
+    player_name "Да."
     show player 426
     show roxxy bikini 23
-    rox "Hahaha!"
+    rox "Хахаха!"
     show roxxy bikini 22
-    rox "Now, come over here and beg {b}[firstname]{/b} to fuck you..."
+    rox "А теперь иди сюда и проси чтобы {b}[firstname]{/b} трахнул тебя..."
     show roxxy bikini 21
     show missy naked 2f at Position (xpos=450) with dissolve
     show player 13
-    missy "Please, fuck me {b}[firstname]{/b}."
+    missy "Пожалуйста, трахни меня {b}[firstname]{/b}."
     show player 426
     show missy naked 3f
-    missy "Please..."
+    missy "Пожалуйста..."
     show missy naked 9_10 at Position (xpos=300) with dissolve
     show player 426
-    missy "I want it so bad..."
+    missy "Я так сильно этого хочу..."
     show roxxy bikini 22
-    rox "Hmm, that was pretty good."
-    rox "What do you say, {b}[firstname]{/b}?"
+    rox "Хм, это было довольно хорошо."
+    rox "Что скажешь, {b}[firstname]{/b}?"
     show roxxy bikini 23
-    rox "Has she earned it?"
+    rox "Она заслужила эту награду?"
     show roxxy bikini 21
     show player 429
-    player_name "Definitely!"
+    player_name "Определенно!"
     show missy naked 8 at center with dissolve
     show player 426
     show roxxy bikini 22
-    rox "Hahaha!"
-    rox "Alright then."
-    rox "Go ahead."
+    rox "Хахаха!"
+    rox "Тогда ладно."
+    rox "Иди."
     hide player
     hide missy
     hide roxxy
@@ -292,20 +292,20 @@ label spin_bottle_minigame_missy_solo_intro:
     scene expression "backgrounds/location_beach_cabin_sex_missy.jpg"
     show missys_solo 1 at left
     with dissolve
-    missy "Yes, yes, YES!!!"
+    missy "Да, да, ДА!!!"
     show missys_solo 2 with dissolve
     pause
     show missys_solo 3
-    missy "{b}*Gasp*{/b}!!!" with hpunch
-    player_name "Wow, that's really tight!"
+    missy "{b}*вздох*{/b}!!!" with hpunch
+    player_name "Ничего себе, действительно туго!"
     missy "..."
-    player_name "{b}Missy{/b}?"
+    player_name "{b}Мисси{/b}?"
     missy "..."
-    player_name "Is she alright?"
-    rox "... Huh."
-    rox "It really did shut her up..."
+    player_name "Она в порядке?"
+    rox "... Ха."
+    rox "Это действительно заставило ее замолчать..."
     missy "..."
-    rox "Hahaha!"
+    rox "Хахаха!"
     return
 
 label spin_bottle_minigame_missy_solo_intro_after:
@@ -344,31 +344,31 @@ label spin_bottle_minigame_missy_solo_loop:
 label spin_bottle_minigame_missy_solo_hscene_dialog:
     if animcounter == 1:
         if randomizer() < 25:
-            missy "FUUUUUCK!!!{p=1}{nw}"
-            player_name "There she is!{p=2}{nw}"
-            player_name "I thought we had lost you for a second there...{p=2}{nw}"
+            missy "БЛЯЯЯЯЯЯЯЯДЬ!!!{p=1}{nw}"
+            player_name "А вот и она!{p=2}{nw}"
+            player_name "Я думал, мы потеряли тебя на секунду...{p=2}{nw}"
             missy "...{p=1}{nw}"
-            player_name "{b}Missy{/b}?!{p=1}{nw}"
+            player_name "{b}Мисси{/b}?!{p=1}{nw}"
             missy "...{p=1}{nw}"
-            rox "C'mon, {b}[firstname]{/b}. Fuck her harder!{p=3}{nw}"
+            rox "Давай, {b}[firstname]{/b}. Трахни ее сильнее!{p=3}{nw}"
             if M_missy.get("sex speed") > .031:
                 $ M_missy.set("sex speed", M_missy.get("sex speed") - 0.03)
-            missy "AAAHH!!!{p=1}{nw}"
+            missy "ААААААААААА!!!{p=1}{nw}"
             pause 1
-            missy "Ohmygod, ohmygod, OH. MY. GOD!!!{p=2}{nw}"
+            missy "Божемой, божемой, О. МОЙ. БОГ!!!{p=2}{nw}"
 
     elif animcounter == 2:
         if randomizer() < 25:
-            missy "It's so fucking deep!{p=2}{nw}"
-            rox "Hahaha!{p=1}{nw}"
+            missy "Ох как глубоко!{p=2}{nw}"
+            rox "Хахаха!{p=1}{nw}"
 
     elif animcounter == 3:
         if randomizer() < 25:
-            player_name "She's so tight!{p=2}{nw}"
-            rox "Really?{p=1}{nw}"
-            rox "I guess you aren't a slut afterall, {b}Missy{/b}.{p=2}{nw}"
-            missy "I'll be whatever you want me to be...{p=2}{nw}"
-            missy "Just don't stop!{p=2}{nw}"
+            player_name "Она такая тугая!{p=2}{nw}"
+            rox "Правда?{p=1}{nw}"
+            rox "Я думаю, что ты не шлюха в конце концов, {b}Мисси{/b}.{p=2}{nw}"
+            missy "Я буду такой, какой ты захочешь...{p=2}{nw}"
+            missy "Просто не останавливайся!{p=2}{nw}"
     return
 
 label spin_bottle_minigame_missy_solo_cum:
@@ -381,94 +381,94 @@ label spin_bottle_minigame_missy_solo_cum:
     $ game.main()
 
 label spin_bottle_minigame_missy_solo_cum_dialogue:
-    player_name "I'm getting close."
-    missy "I want him to finish inside me."
-    missy "Please, {b}Roxxy{/b}!"
-    missy "Please, please, please!"
-    rox "Haha, well since you asked so nicely..."
-    rox "Go ahead, {b}[firstname]{/b}..."
+    player_name "Я близко."
+    missy "Я хочу, чтобы он кончил во внутрь меня."
+    missy "Пожалуйста, {b}Рокси{/b}!"
+    missy "Пожалуйста, пожалуйста, пожалуйста!"
+    rox "Ха-ха, ну раз ты так вежливо попросила..."
+    rox "Давай, {b}[firstname]{/b}..."
     pause
-    player_name "Here it comes..."
+    player_name "Вот и все..."
     pause
     show missys_solo 3_4
-    player_name "HNNGGG!!!" with flash
-    missy "YESSSS!!!"
+    player_name "ХННГГГГ!!!" with flash
+    missy "ДААААААА!!!"
     show missys_solo 4
     show xray_missy_1o1_beach at Position (align=(0,0))
     pause
     hide xray_missy_1o1_beach
     show missys_solo 5
     with dissolve
-    missy "Oh my god."
+    missy "О, боже."
     show missys_solo 6 with dissolve
-    missy "What a load..."
-    rox "Hahaha!"
+    missy "Вот это загрузка..."
+    rox "Хахаха!"
 
     scene expression "backgrounds/location_beach_cabin_closeup.jpg"
     show player 366 at left
     show missy naked 5
     show roxxy 1g at right
     with dissolve
-    missy "That was so awesome!"
+    missy "Это было настолько потрясающе!"
     show missy naked 4
     show roxxy 1h
-    rox "It was pretty hot..."
+    rox "Это было довольно круто..."
     show roxxy 1g
     show player 365
-    player_name "Yeah, that was really nice!"
+    player_name "Да, это было действительно здорово!"
     show player 366
     show missy naked 5
-    missy "We absolutely have to do that again sometime!"
+    missy "Мы обязательно должны повторить это когда-нибудь!"
     show missy naked 4
     show roxxy 2
-    rox "God, you are such a greedy bitch, {b}Missy{/b}!"
+    rox "Боже, ты такая ненасытная сука, {b}Мисси{/b}!"
     show roxxy 1g
     show missy naked 5
-    missy "C'mon, please {b}Roxxy{/b}!!"
+    missy "Давай, пожалуйста {b}Рокси{/b}!!"
     show missy naked 4
     show roxxy 1
-    rox "{b}*Sigh*{/b}"
+    rox "{b}*вздыхая*{/b}"
     show roxxy 2
-    rox "Maybe next {b}Saturday{/b}..."
+    rox "Может в следующую {b}Субботу{/b}..."
     show roxxy 1g
     show missy naked 5
-    missy "Yessss!!!"
-    missy "Thank you, thank you, THANK YOU!!!"
+    missy "дааааа!!!"
+    missy "Спасибо, спасибо, СПАСИБО!!!"
     show missy naked 4
     show roxxy 2
-    rox "Ugh, really?"
+    rox "Ухх, серьезно?"
     show roxxy 1g
     show missy naked 5
-    missy "Your boyfriend has like, the best dick ever!"
+    missy "У твоего парня самый лучший член на свете!"
     show missy naked 4
     show roxxy 1h
-    rox "Uhh, yeah. Tell me something I don't know!"
+    rox "Ух, это да. Расскажи мне то, чего я не знаю!"
     show roxxy 1g
     show missy naked 5f with dissolve
-    missy "Seriously, {b}[firstname]{/b}."
-    missy "Like, THE BEST!"
-    missy "I can't wait to tell {b}my sister{/b} about it!"
+    missy "Серьезно, {b}[firstname]{/b}."
+    missy "ЛУЧШИЙ!"
+    missy "Не могу дождаться, чтобы рассказать об этом {b}моей сестре{/b}!"
     show missy naked 4f
     show roxxy 3c
-    rox "What?!"
-    rox "Hell no!"
-    rox "Don't tell that skank anything about this!"
+    rox "Чего?!"
+    rox "Ни за что!"
+    rox "Не говори этой шлюхе ничего об этом!"
     show roxxy 3b
     show missy naked 5 with dissolve
-    missy "Aww, but-"
+    missy "Ааа, но-"
     show missy naked 4
     show roxxy 3
-    rox "Not a word, {b}Missy{/b}!"
+    rox "Ни слова, {b}Мисси{/b}!"
     show roxxy 3b
     missy "..."
     show missy naked 5
-    missy "Alright, I won't tell her, sheesh..."
+    missy "Хорошо, я не буду говорить ей, блин..."
     show missy naked 4
     show roxxy 2
-    rox "Good. Now put your damn clothes on and go sit by the fire with {b}Becca{/b}!"
+    rox "Хорошо. А теперь надевай свою чертову одежду и иди посиди у костра с {b}Беккой{/b}!"
     show roxxy 1g
     show missy naked 5
-    missy "{b}*Sigh*{/b} Fine."
+    missy "{b}*вздыхая*{/b} Ладно."
     hide missy
     hide player
     hide roxxy
