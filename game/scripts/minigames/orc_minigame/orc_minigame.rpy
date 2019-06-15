@@ -19,18 +19,18 @@ label orc_battle_finish:
             show june_sitting 13 at Position(xpos=300,ypos=787)
             show player_sitting 4 at right
             with fastdissolve
-            player_name "Uhh..."
+            player_name "Ухх..."
             show june_sitting 12
             show player_sitting 5
-            june "Looks like we got the same ending again."
+            june "Похоже, у нас опять тот же конец."
             show player_sitting 3
-            june "Sorry..."
+            june "Прости..."
             show june_sitting 13
             show player_sitting 4
-            player_name "Nah, It's okay!"
+            player_name "Нет, все в порядке!"
             show june_sitting 12
             show player_sitting 5
-            june "Do you still think it's weird?"
+            june "Ты все ещё думаешь, что это странно?"
             show june_sitting 13
         else:
 
@@ -40,132 +40,132 @@ label orc_battle_finish:
             show june_sitting 13 at Position(xpos=300,ypos=787)
             show player_sitting 4 at right
             with fastdissolve
-            player_name "Uhh..."
+            player_name "Ухх..."
             show june_sitting 12
             show player_sitting 5
-            june "I... I didn't know that's how the game ends, I swear!"
+            june "Я... Я не знала, что так закончится игра, клянусь!"
             show june_sitting 13
             show player_sitting 4
-            player_name "That was... unexpected?"
+            player_name "Это было... неожиданно?"
             show june_sitting 12
             show player_sitting 3
-            june "This is so embarrassing..."
+            june "Это так унизительно..."
             show june_sitting 13
             show player_sitting 4
-            player_name "Nah, It's okay!"
+            player_name "Нет, все в порядке!"
             show june_sitting 12
             show player_sitting 5
-            june "You didn't find that too weird?"
+            june "Тебе это не показалось странным?"
             show june_sitting 13
             $ june_mc_help_2.finish()
         menu:
-            "It's gross.":
+            "Это отвратительно.":
                 show june_sitting 13 at Position(xpos=300,ypos=787)
                 show player_sitting 4 at right
-                player_name "I dunno... It's kind of gross?"
+                player_name "Не знаю... Это мерзко?"
                 show player_sitting 5
                 june "..."
                 show player_sitting 6
-                player_name "But, whatever, it's fine."
+                player_name "Но, как бы то ни было, все в порядке."
                 show player_sitting 1
                 show june_sitting 12
-                june "I'm sorry... If I had known..."
-                june "Do you still want to play the game with me though?"
+                june "Извини... Если бы я только знала..."
+                june "Ты все ещё хочешь поиграть со мной в эту игру?"
                 show player_sitting 2
                 show june_sitting 13
-                player_name "Yeah, it's fun!"
+                player_name "Да, это весело!"
                 show player_sitting 1
                 show june_sitting 12
-                june "Thanks... Anyway, I really should get going, It's getting late."
+                june "Спасибо... В любом случае, мне действительно пора идти, уже поздно."
                 show player_sitting 2
                 show june_sitting 11
-                player_name "Okay!"
-                player_name "Have a good night!"
+                player_name "Окей!"
+                player_name "Спокойной ночи!"
                 show player_sitting 1
                 show june_sitting 10
-                june "You too, {b}[firstname]{/b}."
-            "It's hot!":
+                june "И тебе, {b}[firstname]{/b}."
+            "Она горячая!":
 
                 show player_sitting 2 at right
                 show june_sitting 11 at Position(xpos=300,ypos=787)
-                player_name "Nah, it's actually kind of funny... "
-                player_name "... and kind of hot."
+                player_name "Нет, вообще-то это даже забавно... "
+                player_name "... и жарко."
                 show june_sitting 10
                 show player_sitting 1
-                june "Really? You... think so?"
+                june "Правда? Ты так думаешь?"
                 show june_sitting 11
                 show player_sitting 2
-                player_name "Yeah, I guess orcs can be pretty sexy!"
+                player_name "Да, я думаю, орки могут быть довольно сексуальными!"
                 show player_sitting 1
                 june "..."
                 show june_sitting 10
-                june "I... I love orcs..."
+                june "Я... люблю орков..."
                 show player_sitting 5
-                june "In fact, I was actually planning on cosplaying as one soon..."
+                june "На самом деле, я планировал замутить косплей в ближайшее время..."
                 show player_sitting 2
                 show june_sitting 11
-                player_name "An orc costume? What for?"
+                player_name "Костюм орка? Для чего?"
                 show player_sitting 1
                 show june_sitting 10
-                june "I was planning on going to a comic convention dressed as an orc..."
+                june "Я планировал пойти на комический съезд в костюме орка...."
                 show june_sitting 12
-                june "... but there's a problem."
-                june "I don't think I can find all the costume pieces in time."
+                june "... но есть проблема."
+                june "Я не думаю, что смогу найти все части костюма вовремя."
                 show player_sitting 2
                 show june_sitting 11
-                player_name "That sounds cool!"
+                player_name "Звучит круто!"
                 show player_sitting 1
                 show june_sitting 10
-                june "You think so?"
+                june "Ты так думаешь?"
                 show player_sitting 2
                 show june_sitting 11
-                player_name "What is it you're missing?"
+                player_name "Чего тебе не хватает?"
                 show player_sitting 1
                 show june_sitting 10
-                june "I have the body paint... But I need the fake ears, the teeth and... the belt."
+                june "У меня есть краска для тела... Но мне нужны фальшивые уши, зубы и..... пояс."
                 show player_sitting 2
                 show june_sitting 11
-                player_name "I bet I could find those for you!"
+                player_name "Держу пари, я могу найти их для тебя!"
                 show player_sitting 1
                 show june_sitting 10
-                june "Really? You would do that for me??"
+                june "На самом деле? Ты сделаешь это для меня??"
                 show player_sitting 2
                 show june_sitting 11
-                player_name "I can try!"
+                player_name "Я могу попробовать!"
                 show player_sitting 6
-                player_name "I think you'd look amazing as an orc!"
+                player_name "Я думаю, ты будешь выглядеть потрясающе, как орк!"
                 show player_sitting 1
                 june "..."
                 show player_sitting 3
                 show june_sitting 10
-                june "That's really sweet. Thanks, {b}[firstname]{/b}."
+                june "Это действительно мило. Спасибо, {b}[firstname]{/b}."
                 show player_sitting 2
                 show june_sitting 11
-                player_name "Well, I should probably go to bed..."
+                player_name "Ну, мне, наверное, пора идти спать..."
                 show player_sitting 1
                 show june_sitting 10
-                june "Yeah, I should get home too..."
-                june "Thanks for having me over! It was fun."
+                june "Да, я тоже должна вернуться домой..."
+                june "Спасибо за приглашение! Было весело."
                 show player_sitting 6
                 show june_sitting 11
-                player_name "Yeah, it really was."
+                player_name "Да, это действительно было круто."
                 show player_sitting 1
                 show june_sitting 10
-                june "Let me know if you ever find those costume parts!"
-                june "See you tomorrow?"
+                june "Дай мне знать, если найдешь эти части костюма!"
+                june "Увидимся завтра?"
                 show player_sitting 2
                 show june_sitting 11
-                player_name "Sure!"
-                player_name "Come on, I'll see you out."
+                player_name "Конечно!"
+                player_name "Давай, я провожу тебя до выхода."
                 scene bedroom_night
                 show player 35
                 with fade
-                player_name "Hmm... I wonder where I could find those {b}costume parts{/b}."
-                player_name "Maybe I should go check at the {b}mall{/b}?"
+                player_name "Хм... Интересно, где я мог найти {b}части костюма{/b}."
+                player_name "Может, мне стоит сходить проверить {b}почту{/b}?"
                 show player 55 at Position(xoffset=12)
-                player_name "*Yawn*"
+                player_name "*Зевок*"
                 show player 56
-                player_name "I'll go tomorrow, I need some sleep..."
+                player_name "Я пойду завтра, мне нужно немного поспать..."
                 hide player with dissolve
                 $ June.add_event(june_cosplay)
                 jump sleeping
@@ -175,33 +175,33 @@ label orc_battle_finish:
         show june_sitting 2 at Position(xpos=300,ypos=787)
         show player_sitting 1 at right
         with fade
-        june "Finally! I've been trying to beat this one for days..."
+        june "Наконец-то! Я пыталась победить его в течение нескольких дней..."
         show june_sitting 3
-        june "You're getting really good at this."
+        june "У тебя хорошо получается."
         show june_sitting 4
         show player_sitting 6
-        player_name "Yeah, I guess that game really is addicting!"
+        player_name "Да, я думаю, что игра действительно увлекательная!"
         show june_sitting 1
         show player_sitting 2
-        player_name "Hey, what's the time?"
+        player_name "Эй, а сколько сейчас времени?"
         show june_sitting 5
         show player_sitting 5
-        june "Oh crap, it's past midnight..."
+        june "Черт, уже за полночь...."
         show june_sitting 6
         show player_sitting 4
-        player_name "Oh, we've been here longer than I thought..."
-        player_name "Looks like we lost track of time."
+        player_name "Мы пробыли здесь дольше, чем я думал..."
+        player_name "Похоже, мы потеряли счет времени."
         show june_sitting 5
         show player_sitting 1
-        june "I should get home, my parents are probably worried sick."
+        june "Мне пора домой, мои родители, наверное, очень волнуются."
         show june_sitting 3
-        june "Thanks for the evening, {b}[firstname]{/b}."
+        june "Спасибо за вечер, {b}[firstname]{/b}."
         show june_sitting 4
         show player_sitting 2
-        player_name "See you at school?"
+        player_name "Увидимся в школе?"
         show player_sitting 1
         show june_sitting 3
-        june "You bet!"
+        june "Конечно!"
     $ game.main()
 
 label orc_battle_fail:
@@ -211,29 +211,29 @@ label orc_battle_fail:
     show june_sitting 4 at Position(xpos=300,ypos=787)
     show player_sitting 4 at right
     with fade
-    player_name "Oops..."
+    player_name "Упссс..."
     show player_sitting 3
     show june_sitting 3
-    june "Huh, I guess we'll need to practice a bit."
+    june "Думаю, нам нужно немного попрактиковаться."
     show player_sitting 4
     show june_sitting 4
-    player_name "Ha ha, sorry."
+    player_name "Ха-ха, прости."
     show player_sitting 3
     show june_sitting 3
-    june "It's okay, I'm sure we'll beat it eventually!"
+    june "Все в порядке, я уверен, что мы победим его в конце концов!"
     show player_sitting 6
     show june_sitting 4
-    player_name "I hope so! Otherwise I'm a terrible team mate..."
+    player_name "Надеюсь на это! Иначе я ужасный товарищ по команде..."
     show player_sitting 1
     show june_sitting 3
-    june "Anyway, I should get going, it's starting to get pretty late."
-    june "Let me know if you want to play again tomorrow!"
+    june "В любом случае, мне пора, уже довольно поздно.."
+    june "Дайте мне знать, если вы хотите играть завтра снова!"
     show player_sitting 2
     show june_sitting 4
-    player_name "Okay!"
-    player_name "Have a good night!"
+    player_name "Окей!"
+    player_name "Спокойной ночи!"
     show player_sitting 1
     show june_sitting 3
-    june "You too, {b}[firstname]{/b}."
+    june "И тебе, {b}[firstname]{/b}."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
