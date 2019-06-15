@@ -255,52 +255,52 @@ label kevin_dialogue_ross_find_magazines:
     show player 2 at left
     show kevin 29b at right
     with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Привет, {b}Кевин{/b}!"
     show player 1
     show kevin 30
-    kev "What's up, {b}[firstname]{/b}?"
+    kev "Как дела, {b}[firstname]{/b}?"
     show player 2
     show kevin 29b
-    player_name "Not much. What are you reading?"
+    player_name "Не очень. Что ты читаешь?"
     show player 1
     show kevin 30b
-    kev "Oh, just some work out magazines I got from the gym."
+    kev "Ох, просто некоторые журналы, которые я взял, в спортзале."
     show player 2
     show kevin 29b
-    player_name "Cool, you trying a new work out or something?"
+    player_name "Круто, ты ищешь новую работу или типо того?"
     show player 1
     show kevin 30
-    kev "No, why?"
+    kev "Нет, почему?"
     show player 11
     show kevin 29
     player_name "..."
     show kevin 31 with dissolve
-    kev "Come check out this beefcake, {b}[firstname]{/b}!"
+    kev "Иди посмотри на этого красавчика, {b}[firstname]{/b}!"
     show player 10
     show kevin 31b
-    player_name "... beefcake?"
+    player_name "... Красавчика?"
     show player 11
     player_name "..."
     show player 10
-    player_name "Uh, right... You think, I could take some of these magazines?"
+    player_name "Ох, точно... Ты думаешь, я могу взять один из этих журналов?"
     show player 11
     show kevin 30 with dissolve
-    kev "Heh, I didn't know you were a fellow connoisseur of the masculine form..."
+    kev "Хех, Я не знал что ты был знатаком мужских форм..."
     show player 10
     show kevin 29
-    player_name "Actually, I'm making a collage."
+    player_name "Вообще-то я уже в Колледже."
     show player 11
     show kevin 30b
-    kev "Oh, right. Collage."
+    kev "Ох, точно. Колледж."
     show kevin 31 with dissolve
-    kev "I gotcha, Bro! Say no more!"
-    kev "Take all you need! This one will keep me busy for awhile."
+    kev "Я понял тебя Бро! Ни слова больше!"
+    kev "Бери все что тебе нужно! Вот этот займет меня на некоторое время."
     show player 2
     show kevin 31b
-    player_name "Awesome! Thanks, uhh, Bro..."
+    player_name "Крутяк! Спасибо, эмм, Бро..."
     show player 1
     show kevin 31c
-    kev "Daaaamn, he's glistening..."
+    kev "Чееерт возьми, он блестит..."
     show player 10
     player_name "..."
     return
@@ -308,112 +308,112 @@ label kevin_dialogue_ross_find_magazines:
 label kevin_dialogue_ross_ask_model:
     show player 2 at left
     show kevin 1 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю надо проектом для {b}Мисс Росс{/b} и для этого требуется живая модель."
+    player_name "Тебя не заинтересует?"
     show kevin 2
     show player 1
-    kev "Modeling. Like I just have to stand there?"
+    kev "Позирование. Я просто должен стоять там?"
     show player 2
     show kevin 1
-    player_name "Yeah, you just have to stand there."
+    player_name "Да, тебе просто нужно будет стоять там."
     show player 10
-    player_name "Naked."
+    player_name "Голым."
     show kevin 3
     show player 11
-    kev "Naked!?"
-    kev "Oh, man. I dunno, Bro."
-    kev "Is it just gonna be you there drawing?"
+    kev "Голым!?"
+    kev "Ох, мужик. Я не знаю, Бро."
+    kev "Это только ты там будешь рисовать?"
     show player 10
     show kevin 1
-    player_name "Well, {b}Mia{/b} and I will both be drawing."
-    player_name "{b}Miss Ross{/b} will be there too."
+    player_name "Ну, {b}Мия{/b} и я - оба будем рисовать."
+    player_name "{b}Мисс Росс{/b} тоже там будет."
     show player 11
     show kevin 4
-    kev "Ugh, pass..."
+    kev "Агх, пасс..."
     show kevin 3
-    kev "I don't want girls to see me naked, Bro. That's kinda gross."
+    kev "Я не хочу чтобы девочки видели меня голым, Бро. Это немного стремно."
     show kevin 1
     player_name "..."
     show player 10
-    player_name "O-okay."
+    player_name "Х-хорошо."
     return
 
 label kevin_dialogue_intro:
     show kevin 23 at right
     show player 14 at left
     with dissolve
-    player_name "Hey, {b}Kevin{/b}!"
+    player_name "Привет, {b}Кевин{/b}!"
     show player 13
     show kevin 9b
-    kev "Hello, {b}[firstname]{/b}."
+    kev "Привет, {b}[firstname]{/b}."
     show kevin 23
     show player 14
-    player_name "What's up?"
+    player_name "Как дела?"
     show player 13
     show kevin 9b
-    kev "Not much. Yesterday was glutes day for me."
-    kev "My ass is sore!"
-    kev "Feel how tight it is though!"
+    kev "Не очень. Вчера у меня был ягодичный день."
+    kev "Моя задница болит!"
+    kev "Хотя потрогай какая она тугая!"
     show kevin 23
     show player 10
-    player_name "Uhhh... No thanks dude."
+    player_name "Эмммм... Нет спасибо чувак."
     show player 13
     show kevin 9b
-    kev "Your loss!"
+    kev "Ты многое потерял!"
     return
 
 label kevin_dialogue_erik_favor_2_completed:
-    kev "I'd better see you at the gym later today!"
+    kev "Лучше увидимся в спортзале чуть позже!"
     show kevin 23
     show player 14
-    player_name "Maybe..."
+    player_name "Может быть..."
     show player 13
     show kevin 9b
     return
 
 label kevin_dialogue_dewitt_kevin_give_guitar:
     show player 14
-    player_name "I found a guitar for you!"
+    player_name "Я нашел для тебя гитару!"
     show player 13
     show kevin 24
-    kev "Really?"
+    kev "Серьезно?"
     show kevin 23
     show player 239_240 with dissolve
     pause
     show player 577 with dissolve
-    player_name "What do you think?"
+    player_name "Что ты думаешь?"
     show player 13 with dissolve
     show kevin 16f with dissolve
-    kev "Holy crap! Where did you get this thing?"
-    kev "This thing is really high end!"
+    kev "Черт возьми!Где ты достал эту штуку?"
+    kev "Эта вешь лучше подделки!"
     show kevin 14f
     show player 10
-    player_name "It is?"
+    player_name "Эта?"
     show player 5
     show kevin 15f
-    kev "Uhh, yeah Bro!"
-    kev "I hope you didn't steal it or something."
+    kev "Эмм, да, Бро!"
+    kev "Я надеюсь ты ее не украл или типо того."
     show kevin 14f
     show player 14
-    player_name "Borrowed it actually, from a friend of mine. So be careful with it, yeah?"
+    player_name "Вообще-то я её одолжил, у моего друга. Так что будь остороже с ней, хорошо?"
     hide player
     show kevin 27 at left
     with dissolve
-    kev "No problems there!"
-    kev "I'll treat this beauty with the respect it deserves!"
+    kev "Без проблем!"
+    kev "Я буду относиться к этой красоте с уважением, которого она так заслуживает!"
     show kevin 28
-    player_name "Cool, so you're down to play it for the talent show."
+    player_name "Круто, так что ты будешь играть на ней на шоу талантов."
     show kevin 27
-    kev "I'm down!"
+    kev "Я должен!"
     show kevin 28
-    player_name "Awesome! I'll see you in {b}Ms. Dewitt's{/b} class soon for practice then!"
+    player_name "Потрясно! Увидимся тогда скоро в кабинете {b}Мисс Девитт{/b} чтобы потренироваться!"
     show kevin 27
-    kev "Sounds good, Bro!"
+    kev "Звучит неплохо,Бро!"
     show player 13 at left
     show kevin 16 at right
     with dissolve
-    kev "I'm gonna call you... Devin"
-    kev "Would you like that beautiful?"
+    kev "Я буду называть тебя... Дэвин"
+    kev "Ты бы хотела это красивая?"
     show player 11
     hide kevin with dissolve
     player_name "..."
@@ -421,95 +421,95 @@ label kevin_dialogue_dewitt_kevin_give_guitar:
 
 label kevin_dialogue_talent_show_help:
     show player 10
-    player_name "I'm helping {b}Ms. Dewitt{/b} find volunteers for the talent show."
-    player_name "Didn't you used to play the guitar?"
+    player_name "Я помогаю {b}Мисс Девитт{/b} найти добровольцев для шоу талантов."
+    player_name "Разве ты раньше не играл на гитаре?"
     show player 5
     show kevin magic 2
-    kev "Yeah, I used to."
+    kev "Да, я играл."
     show kevin magic 1
     show player 10
-    player_name "What happened?"
+    player_name "Что случилось?"
     show player 5
     show kevin magic 2
-    kev "Ah, my ex kinda smashed it after I broke up with him."
+    kev "Ох, моя бывшая вроде как разбила её когда я порвал с ним."
     show kevin magic 1
     show player 12
-    player_name "Him?"
+    player_name "С ним?"
     show player 11
     show kevin magic 3 with dissolve
-    kev "Did I say him? Sorry, I meant her."
-    kev "... Yeah, SHE smashed it to pieces."
+    kev "Я сказал с ним? Извини, я имел в виду с ней."
+    kev "... Да, ОНА разбила её на кусочки."
     show kevin magic 1 with dissolve
     show player 14
-    player_name "Huh, you got a thing for the crazy girls, huh?"
+    player_name "Хм, ты западаешь на сумашедших девченок, хм?"
     show player 13
     show kevin magic 3 with dissolve
-    kev "Heh, you know it! Crazy girls, I'm waaaaay into them! Totally..."
+    kev "Хех, Ты знаешь! Сумашедшие дувченки, Я на пути к ним! Полностью..."
     show kevin magic 1 with dissolve
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Итак если бы у тебя была гитара, ты бы сыграл на шоу талантов?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Да, Я был бы не против."
+    kev "Все же где же я достану гитару? Они очень дорогие!"
     show kevin magic 1
     show player 35
-    player_name "Hmm, maybe I can find you one..."
+    player_name "Хмм, возможно я смогу найти одну для тебя..."
     show player 34
-    player_name "( {b}Erik{/b} has a bunch in his basement. Maybe I can borrow one? )"
+    player_name "( У {b}Эрика{/b} в подвале много гитар. Возможно я смогу одолжить одну? )"
     show player 14
-    player_name "I'll be back!"
+    player_name "Я вернусь!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Хорошо."
     return
 
 label kevin_dialogue_talent_show_replace_guitar:
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Итак если бы у тебя была гитара, ты бы сыграл на шоу талантов?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Да, Я бы не отказался."
+    kev "Все же где же я достану гитару? Они очень дорогие!"
     show kevin magic 1
     show player 34
-    player_name "( I need to switch my custom-made guitar with one in {b}Erik's{/b} basement! )"
+    player_name "( Я должен поменять мою само-сделанную гитару с той что в подвале у {b}Эрика{/b}! )"
     show player 14
-    player_name "I'll be back!"
+    player_name "Я приду!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Ладно."
     return
 
 label kevin_dialogue_talent_show:
     show player 14
-    player_name "So if you had a guitar, would you play in the talent show?"
+    player_name "Итак если бы у тебя была гитара, ты бы сыграл на шоу талантов?"
     show player 13
     show kevin magic 2
-    kev "Yeah, I wouldn't mind."
-    kev "Where am I gonna get a guitar though? They are super expensive!"
+    kev "Да, Я бы не отказался."
+    kev "Все же,где же я достану гитару? Они очень дорогие!"
     show kevin magic 1
     show player 35
-    player_name "Hmm, maybe I can find you one..."
+    player_name "Хмм, возможно я смогу найти одну для тебя..."
     show player 34
-    player_name "( {b}Erik{/b} has a bunch in his basement. Maybe I can borrow one? )"
+    player_name "( У {b}Эрика{/b} в подвале много гитар. Возможно я смогу одолжить одну? )"
     show player 14
-    player_name "I'll be back!"
+    player_name "Я вернусь!"
     show player 13
     show kevin magic 2
-    kev "Alright."
+    kev "Хорошо."
     return
 
 label kevin_dialogue_dewitt_science_adhesive:
     show player 10
-    player_name "What do we need for that {b}adhesive{/b} again?"
+    player_name "Что нам нужно для этого {b}клея{/b} ещё раз?"
     show player 13
     show kevin 2
-    kev "Just meet me in the {b}science lab after class{/b}."
-    kev "I'll take care of the rest."
+    kev "Просто встреться со мной в {b}Научной лаборатории после уроков{/b}."
+    kev "Я позабочусь об остальном."
     show kevin 1
     show player 14
-    player_name "Awesome! Thanks, {b}Kevin{/b}!"
+    player_name "Круто! Спасибо, {b}Кевин{/b}!"
     return
 
 label kevin_dialogue_leave:
