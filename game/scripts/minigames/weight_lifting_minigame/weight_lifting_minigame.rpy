@@ -122,29 +122,29 @@ label weightlifting_fail:
     show player f_tired
     show kevin 11b at right
     with fade
-    kev "Whoa!"
+    kev "Вау!"
     kev "Все в порядке, приятель?!"
     show kevin 8 with dissolve
     show player f_tired_talk
-    player_name "Y-yeah, I think so."
-    player_name "Sorry, I don't know what happened..."
+    player_name "Да, наверное."
+    player_name "Прости, я не знаю, что случилось..."
     show player f_tired
     show kevin 9
-    kev "I can back you down a few pounds..."
+    kev "Я могу убавить на пару фунтов..."
     show kevin 8
     show player f_skeptical_talk
-    player_name "No, I can do it!"
+    player_name "Нет, я смогу!"
     show player f_skeptical
     show kevin 9
-    kev "You're sure?"
+    kev "Ты уверен?"
     show kevin 8
     show player f_normal_talk
-    player_name "I'm positive!"
+    player_name "Конечно!"
     show player f_normal
     show kevin 9
-    kev "Heh, right on bro!"
+    kev "Хех,хорошо бро!"
     show kevin 10 with dissolve
-    kev "You're gonna be a beefcake in no time with an attitude like that!"
+    kev "С таким подходом ты скоро будешь качком!"
     show kevin 8
     hide player
     with dissolve
