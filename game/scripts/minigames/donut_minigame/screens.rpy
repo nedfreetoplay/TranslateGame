@@ -1,6 +1,6 @@
 screen donut_minigame():
     add "backgrounds/location_donut_minigame.jpg"
-    add FilteredText("Choose one type of glazing and one topping!", style="style_instructions") align .5, .075
+    add FilteredText("Выберите один тип глазури и начинки!", style="style_instructions") align .5, .075
 
     default topping_name = ""
     default topping_xpos = 0
