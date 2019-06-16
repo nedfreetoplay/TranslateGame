@@ -1,7 +1,7 @@
 label shaking_minigame_win:
     show player 135 with dissolve
-    player_name "I hope I did this right!"
-    player_name "I don't want to disappoint {b}Diane{/b}."
+    player_name "Надеюсь, я все сделал правильно!"
+    player_name "Я не хочу разочаровывать {b}Диану{/b}."
     hide player with dissolve
     scene black with fade
     scene expression L_diane_garden.background_blur
@@ -12,20 +12,20 @@ label shaking_minigame_win:
     pause
     show diane f_laying_smirk_up_talk
     with dissolve
-    dia "Mmm, that looks delicious!!"
+    dia "Ммм, это выглядит вкусно !!"
     show player 426 at Position (xpos=175,ypos=648)
     show diane a_drink_sip f_laying_drinking
     with dissolve
     pause
     show diane a_drink f_laying_laugh with dissolve
-    dia "Thanks, {b}[firstname]{/b}!!!"
+    dia "Спасибо, {b}[firstname]{/b}!!!"
     show diane f_laying_smirk_up
     show player 429
-    player_name "My pleasure!"
-    player_name "Now you just relax, while I work on your garden."
+    player_name "С удовольствием!"
+    player_name "А теперь расслабься, пока я работаю в твоем саду."
     show player 426
     show diane f_laying_smirk_up_talk
-    dia "Hehe, yes sir!"
+    dia "Хе-хе, да, сэр!"
     $ M_diane.trigger(T_diane_made_drink)
     $ player.go_to(L_diane_garden)
     $ M_diane.trigger(T_diane_gave_drink)
@@ -33,8 +33,8 @@ label shaking_minigame_win:
 
 label shaking_minigame_fail:
     show player 135 with dissolve
-    player_name "I hope I did this right!"
-    player_name "I don't want to disappoint {b}Diane{/b}."
+    player_name "Надеюсь, я все сделал правильно!"
+    player_name "Я не хочу разочаровывать {b}Диану{/b}."
     hide player with dissolve
     scene black with fade
     scene expression L_diane_garden.background_blur
@@ -44,18 +44,18 @@ label shaking_minigame_fail:
     with dissolve
     pause
     show diane f_laying_shamed_talk
-    dia "Umm, that's not what I ordered..."
+    dia "Это не то, что я заказывала..."
     show diane f_laying_shamed
     show player 136
-    player_name "It isn't?"
-    player_name "Whoops!"
+    player_name "Не то?"
+    player_name "Упс!"
     show player 137
     show diane f_laying_smirk_up_talk
-    dia "You want me to show you?"
+    dia "Хочешь, я тебе покажу?"
     show diane f_laying_smirk_up
     show player 136
-    player_name "No!"
-    player_name "I'll make it right. Just one second..."
+    player_name "Нет!"
+    player_name "Я сделаю все правильно. Одну секунду..."
     $ player.go_to(L_diane_garden)
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
