@@ -63,7 +63,7 @@ label dianes_garden_diane_find_carpenter:
     pause
     hide diane
     show player 29 at left
-    show diane at lright
+    show diane b_shirtless a_shirtless_sides at lright
     with dissolve
     player_name "Хех, нет проблем!"
     show player 13 with dissolve
