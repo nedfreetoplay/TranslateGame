@@ -4,9 +4,9 @@ label basketball_minigame_prepare:
     if M_roxxy.get("basketball unlocked"):
         if game.cheat_mode:
             menu:
-                "Skip Minigame (Cheat)":
+                "Пропустить (Чит).":
                     jump basketball_success
-                "Play minigame":
+                "Играть.":
 
                     call screen basketball_minigame
         else:
@@ -17,12 +17,12 @@ label basketball_minigame_prepare:
         scene expression L_basketball_court.background_blur
         show player 16 at left
         show dexter 4 at right
-        dex "What do you think you're doing?!"
-        dex "This court is for men, not skinny little losers!"
+        dex "Как ты думаешь, что ты делаешь?!"
+        dex "Этот корт для мужчин, а не для худеньких неудачников!"
         show dexter 6
-        dex "Get lost!"
-        player_name "( Grr, he's such an asshole! )"
-        player_name "( One day, he's gonna get what's coming to him... )"
+        dex "Убирайся!"
+        player_name "( Гррр, он такой засранец! )"
+        player_name "( Однажды он получит по заслугам... )"
     $ player.go_to(L_basketball_court)
     $ game.main()
 
@@ -30,19 +30,19 @@ label basketball_success:
     if M_roxxy.is_state(S_roxxy_basketball_challenge) and (game.timer.is_afternoon() or not M_roxxy.is_set("done basketball")):
         scene expression "backgrounds/location_basketball_cutscene02.jpg"
         with fade
-        show text "I was on fire!\nPractically running circles around {b}Dexter{/b}..." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "Я жжег!\nНарезая круги вокруг {b}Декстера{/b}..." at Position (xpos= 512, ypos= 700) with dissolve
         pause
-        show text "Swiping the ball and sinking threes before he could even take a step." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "Ударял по мячу и забивал тройные, прежде чем он мог сделать хотя бы шаг." at Position (xpos= 512, ypos= 700) with dissolve
         pause
         hide text
         with dissolve
         scene expression "backgrounds/location_basketball_cutscene03.jpg"
         with fade
-        show text "... And then it happened." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "... А потом это случилось." at Position (xpos= 512, ypos= 700) with dissolve
         pause
-        show text "I faked left, then faked right, and then blew past him!\n{b}Dexter{/b} grunted, stumbling over his own feet and crashing to the ground." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "Я сделал обманное движение влево, потом вправо, а потом пронёсся мимо него!\n{b}Декстер{/b} хрюкнюл, спотыкаясь о собственные ноги и рухнул на землю." at Position (xpos= 512, ypos= 700) with dissolve
         pause
-        show text "I've no idea how he managed to lose his pants though..." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "Я понятия не имею, как ему удалось потерять штаны..." at Position (xpos= 512, ypos= 700) with dissolve
         pause
         hide text
         with dissolve
@@ -52,73 +52,73 @@ label basketball_success:
         show dexter 43b at right
         show kevin 35f at left
         with dissolve
-        tyrone "Oh, shit son!"
-        tyrone "{b}[firstname]{/b} just juked that fool so hard his pants came off!"
+        tyrone "Вот дерьмо!"
+        tyrone "{b}[firstname]{/b} просто подколол этого дурака так сильно, что его штаны спали!"
         show tyrone 1f
         show chad 6f
-        chad "That was doooope, yo!"
+        chad "Это было круто, йоу!"
         show chad 5f
         show kevin 36f with dissolve
-        kev "... What the hell is that?"
+        kev "... Это что за хрень?"
         show chad 12f
-        chad "Huh?"
+        chad "Хах?"
         show tyrone 9f
-        kev "What is that?!"
-        tyrone "... Is that his dick?!"
+        kev "Что это?!"
+        tyrone "... Это его член?!"
         show tyrone 10f with dissolve
         show dexter 43
-        kev "I dunno bro, I can't tell..."
+        kev "Не знаю, братан, не могу сказать..."
         show kevin 36bf
-        kev "... Did anybody bring a magnifying glass?!"
+        kev "... Кто-нибудь принес лупу?!"
         show chad 13f
-        chad "Hahahaha! It looks like a belly button!"
+        chad "Хахахаха! Он похож на пупок!"
         show tyrone 3f
-        tyrone "Hahaha, yeah man! With two tiny little nuts hanging off it!"
+        tyrone "Хахаха, да! С двумя маленькими орешками, свисающими с него!"
         show tyrone 1f
         show chad 1f
         show dexter 43c
-        dex "Shut up, you guys!"
+        dex "Заткнитесь!"
         show dexter 43b with hpunch
         show kevin 32f with dissolve
-        kev "Hahaha, {b}Dexter{/b} has a tiny penis!"
-        bri "Alright, that's enough!"
+        kev "Хахаха, у {b}Декстера{/b} крошечный пенис!"
+        bri "Хорошо, хватит!"
         hide kevin
         hide chad
         hide tyrone
         with dissolve
-        tyrone "He's smaller than tiny, Dawg..."
-        tyrone "That's a straight up Micropenis!"
+        tyrone "Он меньше, чем крошечный, чувак..."
+        tyrone "Это прямо победитель микропенисов!"
         show bridget a_dressed_crossed f_normal_talk at flip
         show bridget at Position (xpos=100)
         with dissolve
-        bri "What's all the commotion abo-"
+        bri "Что за суматоха-"
         show bridget f_laughing_hold a_dressed_laugh with dissolve
         bri "!!!"
         show dexter 44 with dissolve
         dex "!!!"
         bri "..."
         show dexter 44c
-        dex "Stop laughing!"
-        dex "Don't you know who I am?!"
-        dex "Nobody laughs at me!"
+        dex "Хватит смеяться!"
+        dex "Разве ты не знаешь, кто я?!"
+        dex "Никто не смеется надо мной!"
         show dexter 45
         show player 649 at left with dissolve
-        player_name "Hey, {b}Dexter{/b}..."
-        player_name "Your ball, bitch!"
+        player_name "Эй, {b}Дехтер{/b}..."
+        player_name "Твой мяч, сучка!"
         show player 664
         show dexter 45b
         with dissolve
         pause
         show player 91
         show bridget f_laugh a_dressed_hips with dissolve
-        bri "PFFFT, HAHAHAHAHA!"
+        bri "ПФФФ, ХАХАХАХАХА!"
         hide bridget
         show dexter 45c
-        dex "GRR, FUCK ALL OF YOU!" with hpunch
+        dex "ГРР, ПОШЛИ ВЫ ВСЕ НА ХЕР!" with hpunch
         show player 11
-        dex "{b}[firstname]{/b}, you are fucking dead!"
-        dex "YOU HEAR ME?!" with hpunch
-        dex "DEAD!"
+        dex "{b}[firstname]{/b},ты-покойник!"
+        dex "ТЫ СЛЫШИШЬ МЕНЯ?!" with hpunch
+        dex "ПОКОЙНИК!"
         show dexter 46 with dissolve
         pause 1
         hide dexter with dissolve
@@ -126,60 +126,60 @@ label basketball_success:
         show kevin 32 at Position (xpos=700)
         show erik 1 at right
         with dissolve
-        kev "Yo, {b}Dexter{/b}! You forgot your pants, bro!!"
-        kev "Hahaha!"
+        kev "Йоу, {b}Декстер{/b}! Ты забыл свои штаны, братан!!"
+        kev "Хахаха!"
         eri "..."
-        kev "{b}[firstname]{/b} that was the funniest thing I've ever seen!"
+        kev "{b}[firstname]{/b} это было самое смешное, что я когда-либо видел!"
         show kevin 23
         show player 14
-        player_name "Heh, yeah?"
+        player_name "А, да?"
         show player 13
         show kevin 9b
-        kev "For real, Bro!"
+        kev "Точно, братан!"
         show kevin 23
         show erik 5
-        eri "... It was so tiny."
+        eri "... Он был такой крошечной."
         show erik 1
         show kevin 32
-        kev "Hahaha, yeah it was!"
-        kev "Oh my god! This is gonna spread like wildfire!"
+        kev "Хахаха, точно!"
+        kev "О боже мой! Эта новость распространится как лесной пожар!"
         show kevin 23
         show player 12
-        player_name "... Yeah."
-        player_name "{b}*Sigh*{/b} There's no way to avoid it now."
+        player_name "... Ага."
+        player_name "{b}*вздыхая*{/b} Теперь этого не избежать."
         show player 5
         show erik 5
-        eri "What do you mean?"
+        eri "Что ты имеешь в виду?"
         show erik 52
         show player 10
-        player_name "{b}Dexter's{/b} gonna want blood after this..."
-        player_name "I'll have to fight him next time for sure."
+        player_name "{b}Декстер{/b} после этого захочет крови..."
+        player_name "В следующий раз мне придется сразиться с ним."
         show player 5
         show erik 5
-        eri "Yeah, I think you're right about that."
+        eri "Да, я думаю, что ты прав."
         show erik 52
         show kevin 24
-        kev "{b}You better hit the gym and prepare yourself.{/b}"
+        kev "{b}Тебе лучше пойти в спортзал и подготовиться.{/b}"
         show kevin 23
         show player 12
-        player_name "That's a good idea."
+        player_name "Это действительно хорошая идея."
         show player 5
         show kevin 24
-        kev "You let me know if you need some help, yeah?"
+        kev "Дай мне знать, если тебе понадобится помощь, хорошо?"
         show kevin 23
         show player 14
-        player_name "Thanks, {b}Kevin{/b}."
+        player_name "Спасибо, {b}Кэвин{/b}."
         show player 13
         show kevin 24
-        kev "No problem, bro."
+        kev "Без проблем, братан."
         hide kevin with dissolve
         show erik 5
-        eri "... C'mon, lets hit the showers."
+        eri "... Давай, пойдем в душ."
         show erik 3
-        eri "I think I need to change my pants after all that!"
+        eri "Я думаю, мне нужно сменить штаны после всего этого!"
         show erik 2 with dissolve
         show player 17
-        player_name "Haha, right behind you."
+        player_name "Ха-ха, я прямо за тобой."
         hide player
         hide erik
         with dissolve
@@ -192,7 +192,7 @@ label basketball_success:
 
         scene basketball_b
         show player 10
-        player_name "That wasn't too bad... I should probably train some more to get even better at this."
+        player_name "Это было не так уж плохо... Наверное, мне стоит потренироваться, чтобы стать еще лучше."
     $ game.timer.tick()
     $ player.go_to(L_basketball_court)
     $ game.main()
@@ -206,73 +206,73 @@ label basketball_fail:
             show player 24 at left
             show dexter 32 at right
             with dissolve
-            dex "Yeah, that's right you little bitch!"
-            dex "You can't hang with {b}Dexter{/b}!"
-            dex "{b}Roxxy{/b} should be embarrassed, kissing a loser like you!"
+            dex "Да, именно так, маленькая сучка!"
+            dex "Ты не можешь тусоваться с {b}Декстером{/b}!"
+            dex "{b}Рокси{/b} должно быть стыдно целоваться с таким неудачником, как ты!"
             show dexter 31
             player_name "..."
             show dexter 32
-            dex "Hahahahaha!"
+            dex "Хахахахахаха!"
             show dexter 31
             show bridget a_dressed_crossed f_normal_talk
-            bri "Alright, that's enough."
+            bri "Хорошо, этого достаточно."
             show dexter 29 with dissolve
-            bri "{b}Dexter{/b} you were fouling left and right out there."
+            bri "{b}Декстер{/b} ты нарушал правила налево и направо."
             show bridget a_dressed_crossed f_normal
             show player 11
             show dexter 30
-            dex "What?! Not this again. I wasn't-"
+            dex "Что?! Только не это снова. Я не-"
             show dexter 29
             show bridget a_dressed_crossed f_angry_talk
-            bri "That was clearly charging!"
+            bri "Это была явная зарядка!"
             show dexter 2 with dissolve
             show bridget a_dressed_crossed f_normal_talk
-            bri "{b}*Sigh*{/b} Do we have to discuss the rules again?!"
+            bri "{b}*вздыхая*{/b} Нам снова нужно обсуждать правила?!"
             show bridget a_dressed_crossed f_normal
             show dexter 8
-            dex "... No."
+            dex "... Нет."
             show dexter 2
             show bridget a_dressed_crossed f_normal_talk
-            bri "I'm afraid I'll have to disqualify you and give the win to {b}[firstname]{/b}."
+            bri "Боюсь, мне придется дисквалифицировать тебя и отдать победу {b}[firstname]{/b}."
             show bridget a_dressed_crossed f_normal
             show dexter 8
-            dex "That's bullshit!"
+            dex "Чушь собачья!"
             show dexter 2
             show player 10
-            player_name "... No."
+            player_name "... Нет."
             show player 12
-            player_name "I don't want to win on a technicality."
+            player_name "Я не хочу выиграть из-за формальности."
             show player 90
             show dexter 8
-            dex "A techni- Whaaa?"
+            dex "Формальн- Чёёёё?"
             show dexter 2
             show bridget a_dressed_crossed f_normal_talk
-            bri "You're sure, {b}[firstname]{/b}?"
+            bri "Ты уверен, {b}[firstname]{/b}?"
             show bridget a_dressed_crossed f_normal
             show player 12
-            player_name "I'm sure."
+            player_name "Уверен."
             show player 90
             show bridget a_dressed_crossed f_normal_talk
-            bri "Very well."
-            bri "I guess we'll just have to play another game tomorrow."
+            bri "Хорошо."
+            bri "Думаю, завтра нам придется сыграть ещё одну игру."
             show bridget a_dressed_crossed f_normal
             show dexter 30 with dissolve
-            dex "Pssh, fine with me!"
+            dex "Пссс, меня это устраивает!"
             show dexter 32 with dissolve
-            dex "I could beat this loser blind folded and with one hand tied behind my back..."
+            dex "Я могу победить этого неудачника с завязанными глазами и одной рукой за спиной..."
             show dexter 31
             show player 12
-            player_name "Yeah, we'll see..."
+            player_name "Да, посмотрим..."
             show player 90
             show bridget a_dressed_crossed f_normal_talk
-            bri "We'll {b}meet here tomorrow afternoon{/b} for the rematch."
+            bri "Мы {b}встретимся здесь завтра днем{/b} для реванша."
             show bridget a_dressed_crossed f_normal
             show dexter 32
-            dex "Hah, see you then."
+            dex "Ха, увидимся завтра."
             show player 647
             show dexter 33
             with dissolve
-            dex "Bitch."
+            dex "Сучка."
             hide dexter with dissolve
             show player 648 with dissolve
             pause
@@ -281,30 +281,30 @@ label basketball_fail:
             with dissolve
             player_name "..."
             show bridget a_dressed_crossed f_normal_talk
-            bri "Practice, {b}[firstname]{/b}!"
-            bri "He's not going to keep falling for my excuses..."
+            bri "Тренируйся, {b}[firstname]{/b}!"
+            bri "Он не будет продолжать верить моим оправданиям..."
             show bridget a_dressed_crossed f_normal
-            player_name "Hmm?"
+            player_name "Хмм?"
             show bridget a_dressed_crossed f_normal_talk
-            bri "I expect a better performance tomorrow."
+            bri "Я ожидаю лучшего выступления от тебя завтра."
             show bridget a_dressed_crossed f_normal
             show player 649
-            player_name "Y-yes, ma'am."
+            player_name "Да, мэм."
             show player 648
             hide bridget with dissolve
             player_name "..."
             show player 649
-            player_name "I should probably practice more."
+            player_name "Наверное, мне стоит больше тренироваться."
             hide player with dissolve
         else:
 
             scene expression "backgrounds/location_basketball_cutscene01.jpg"
             with fade
-            show text "There's a reason {b}Dexter{/b} was made Captain of the basketball team.\nHe overpowered me at every turn..." at Position (xpos= 512, ypos= 700) with dissolve
+            show text "{b}Декстер{/b} не просто так стал капитаном баскетбольной команды.\nОн побеждал меня на каждом шагу..." at Position (xpos= 512, ypos= 700) with dissolve
             pause
-            show text "Defensively he was like a wall, I just couldn't get past him!\nHe was slow though and clumsy if I got a step on him." at Position (xpos= 512, ypos= 700) with dissolve
+            show text "В обороне он был как стена, я просто не мог пройти мимо него!\nОн был медленным и неуклюжим, если я на него наступал." at Position (xpos= 512, ypos= 700) with dissolve
             pause
-            show text "There were opportunities and with a little practice, I'm sure I can beat him!" at Position (xpos= 512, ypos= 700) with dissolve
+            show text "Были возможности и с небольшой практикой, я был уверен, что смогу победить его!" at Position (xpos= 512, ypos= 700) with dissolve
             pause
             hide text
             with dissolve
@@ -314,87 +314,87 @@ label basketball_fail:
             show player 24 at left
             show dexter 3 at right
             with dissolve
-            dex "Yeah, that's right you little bitch!"
-            dex "You can't hang with {b}Dexter{/b}!"
+            dex "Да, именно так, маленькая сучка!"
+            dex "Ты не можешь зависать с {b}Декстером{/b}!"
             show dexter 6 with dissolve
-            dex "{b}Roxxy{/b} should be embarrassed, kissing a loser like you!"
+            dex "{b}Рокси{/b} должно быть стыдно целоваться с таким неудачником, как ты!"
             show dexter 3 with dissolve
-            dex "Hahahahaha!"
+            dex "Хахахахаха!"
             player_name "..."
             show bridget a_dressed_crossed f_normal_talk
             show player 27
-            bri "Alright, that's enough."
+            bri "Хорошо, этого достаточно."
             show dexter 2
-            bri "{b}Dexter{/b} you were fouling left and right out there."
+            bri "{b}Декстер{/b} ты нарушал правила налево и направо."
             show bridget a_dressed_crossed f_normal
             show player 11
             show dexter 8
-            dex "What?! No, I wasn't..."
+            dex "Что?! Нет, это не так..."
             show dexter 2
             show bridget a_dressed_crossed f_angry_talk
-            bri "Yes, you were! I counted no less than a dozen personal fouls and a couple were pretty flagrant."
+            bri "Да, это так! Я насчитал не менее десятка личных фолов, и пара была довольно вопиющих."
             show bridget a_dressed_crossed f_normal_talk
-            bri "I'm afraid I'll have to disqualify you and give the win to {b}[firstname]{/b}."
+            bri "Боюсь, мне придется дисквалифицировать тебя и отдать победу {b}[firstname]{/b}."
             show bridget a_dressed_crossed f_normal
             show dexter 6 with dissolve
-            dex "That's not fair!"
+            dex "Это не справедливо!"
             show dexter 2 with dissolve
             show player 12
-            player_name "... No."
-            player_name "I don't want to win on a technicality."
+            player_name "... Нет."
+            player_name "Я не хочу выиграть из-за формальности."
             show player 5
             show dexter 8
-            dex "A techni- Whaaa?"
+            dex "Формальн- Чёёёё?"
             show dexter 2
             show bridget a_dressed_crossed f_normal_talk
-            bri "You're sure, {b}[firstname]{/b}?"
+            bri "Ты уверен, {b}[firstname]{/b}?"
             show bridget a_dressed_crossed f_normal
             show player 10
-            player_name "I'm sure."
+            player_name "Я уверен."
             show player 5
             show bridget a_dressed_crossed f_normal_talk
-            bri "Very well."
-            bri "I guess we'll just have to play another game tomorrow."
+            bri "Хорошо."
+            bri "Думаю, завтра нам придется сыграть ещё одну игру."
             show bridget a_dressed_crossed f_normal
             show dexter 3
-            dex "Pssh, fine with me!"
-            dex "I could beat this loser blind folded and with one hand tied behind my back..."
+            dex "Пссс, меня это устраивает!"
+            dex "Я могу победить этого неудачника с завязанными глазами и одной рукой за спиной..."
             show dexter 1
             show player 12
-            player_name "Yeah, we'll see..."
+            player_name "Да, посмотрим..."
             show player 90
             show bridget a_dressed_crossed f_normal_talk
-            bri "We'll {b}meet here tomorrow afternoon{/b} for the rematch."
+            bri "Мы {b}встретимся здесь завтра днем{/b} для реванша."
             show bridget a_dressed_crossed f_normal
             show dexter 3
-            dex "Hah, see you then."
+            dex "Ха, увидимся завтра."
             show player 647
             show dexter 33
             with dissolve
-            dex "Bitch."
+            dex "Сучка."
             hide dexter with dissolve
             show player 5 with dissolve
             player_name "..."
             hide bridget
             show bridget a_dressed_crossed f_normal_talk
             with dissolve
-            bri "I suggest you practice, {b}[firstname]{/b}!"
-            bri "He might not fall for that again..."
+            bri "Предлагаю вам потренироваться, {b}[firstname]{/b}!"
+            bri "Возможно, он больше на это не купится..."
             show bridget a_dressed_crossed f_normal
-            player_name "Hmm?"
+            player_name "Хмм?"
             show bridget a_dressed_crossed f_normal_talk
-            bri "I expect a better performance tomorrow."
+            bri "Я ожидаю лучшего выступления завтра."
             show bridget a_dressed_crossed f_normal
             show player 10
-            player_name "Y-yes, ma'am."
+            player_name "Да, мэм."
             show player 5
-            hide bridget with dissolve
+            hide coach with dissolve
             player_name "..."
             show player 109f
-            eri "Uuhhhh..."
+            eri "Уххххххх..."
             show player 108f
-            player_name "{b}*Sigh*{/b} I should get him to the locker room."
-            player_name "... I hope he's got a change of pants here at school."
+            player_name "{b}*вздыхая*{/b} Я должен отвести его в раздевалку."
+            player_name "... Надеюсь, у него есть сменные штаны здесь, в школе."
             hide player with dissolve
             show expression "boxes/popup_basketball_minigame.png"
             pause
@@ -404,7 +404,7 @@ label basketball_fail:
 
         scene basketball_b
         show player 10
-        player_name "Damn, I failed again... I should probably train some more to get better at this."
+        player_name "Черт, я опять проиграл... Наверное, мне стоит потренироваться, чтобы стать лучше."
     $ game.timer.tick()
     $ player.go_to(L_basketball_court)
     $ game.main()
