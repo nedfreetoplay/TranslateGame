@@ -74,10 +74,10 @@ label barn_dialogue:
         call expression game.dialog_select("barn_daisy_caught_breeding_aftermath")
         $ M_daisy.trigger(T_daisy_end)
         menu:
-            "Yes.":
+            "Да.":
                 call expression game.dialog_select("barn_daisy_caught_breeding_aftermath_yes")
                 jump first_time_dialogue_daisy_sex
-            "No.":
+            "Нет.":
 
                 call expression game.dialog_select("barn_daisy_caught_breeding_aftermath_no")
                 $ game.main()
