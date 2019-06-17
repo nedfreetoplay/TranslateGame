@@ -6,9 +6,9 @@ init python:
         
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
-            acct_holder_txt_title = renpy.render(FilteredText("Account Holder:", style="style_bank_statement_title"), width, height, st, at)
-            interest_txt_title = renpy.render(FilteredText("Interest Gained:", style="style_bank_statement_title"), width, height, st, at)
-            balance_txt_title = renpy.render(FilteredText("Current Balance:", style="style_bank_statement_title"), width, height, st, at)
+            acct_holder_txt_title = renpy.render(FilteredText("Владелец Счета:", style="style_bank_statement_title"), width, height, st, at)
+            interest_txt_title = renpy.render(FilteredText("Полученные Проценты:", style="style_bank_statement_title"), width, height, st, at)
+            balance_txt_title = renpy.render(FilteredText("Текущий Баланс:", style="style_bank_statement_title"), width, height, st, at)
             balance_txt = renpy.render(FilteredText("$ {}".format(player.inventory.savings), style="style_bank_statement_info"), width, height, st, at)
             interest_txt = renpy.render(FilteredText("$ {}".format(player.inventory.interests), style="style_bank_statement_info"), width, height, st, at)
             acct_holder_txt = renpy.render(FilteredText("{} (Acct #{})".format(player.name, player.get_name_hash), style="style_bank_statement_info"), width, height, st, at)
