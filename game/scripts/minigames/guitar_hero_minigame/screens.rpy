@@ -69,7 +69,7 @@ init python:
         
         def render(self, width, height, st, at):
             render = renpy.render(self._background, width, height, st, at)
-            instructions_r = renpy.render(FilteredText("Hit the appropriate key when the note crosses the bar!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Нажмите соответствующую клавишу, когда нота пересекает полоску!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),22))
             bar_r = renpy.render(self._bar, width, height, st, at)
