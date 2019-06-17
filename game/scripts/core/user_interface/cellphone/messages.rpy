@@ -30,7 +30,7 @@ init python:
             render.blit(overlay_r, (43, 85))
             image_r = renpy.render(self.message.displayable, width, height, st, at)
             render.blit(image_r, (65,85))
-            texting_r = renpy.render(Text("{} is texting you...".format(self.message.sender), style="style_cellphone_message_texting"), width, height, st, at)
+            texting_r = renpy.render(Text("{} пишет тебе...".format(self.message.sender), style="style_cellphone_message_texting"), width, height, st, at)
             render.blit(texting_r, (145,115))
             content_r = renpy.render(Text(self.message.content, style="style_cellphone_message_content"), width, height, st, at)
             render.blit(content_r, (74,180))
