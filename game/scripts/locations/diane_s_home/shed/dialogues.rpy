@@ -32,7 +32,7 @@ label dianes_shed_diane_fetch_pump:
 
 label dianes_shed_milking_help:
     scene expression "backgrounds/location_diane_shed_closeup.jpg"
-    $ M_diane.is_naked = 1
+    $ M_diane.outfit.is_naked = 1
     show player 10 at left
     show diane b_topless_blank a_topless_pump1 f_surprised_front at lright
     with dissolve
@@ -286,7 +286,7 @@ label dianes_shed_milking_help:
     with dissolve
     
     scene expression "backgrounds/location_diane_shed_hay_stack.jpg"
-    show diane b_hay_feeding1 a_empty f_hay_feeding_explain
+    show diane b_hay_feeding_shirtless1 a_empty f_hay_feeding_explain
     with dissolve
     dia "Давай, красавчик."
     show diane b_hay_feeding f_hay_feeding_lip_bite
@@ -302,7 +302,7 @@ label dianes_shed_milking_help:
     player_name "Восхитительно!"
     show diane f_hay_feeding_laugh
     dia "Хехе."
-    show diane a_hay_feeding_arm f_hay_feeding_shamed_talk_look with dissolve
+    show diane a_hay_feeding_arm_shirtless f_hay_feeding_shamed_talk_look with dissolve
     dia "У тебя такой классный член, {b}[firstname]{/b}."
     dia "Я упоминала об этом раньше?"
     show diane f_hay_feeding_smirk_down
@@ -316,7 +316,7 @@ label dianes_shed_milking_help:
     dia "Твой рот восхитителен на моем соске!"
     show diane f_hay_feeding_lip_bite
     pause
-    show diane b_hay_feeding1 a_empty with dissolve
+    show diane b_hay_feeding_shirtless1 a_empty with dissolve
     dia "Нннгггг!"
     show diane f_hay_feeding_shamed_talk_look
     dia "Ладно, нам лучше остановиться, пока ты не выпил меня досуха, жеребец."
