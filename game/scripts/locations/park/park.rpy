@@ -26,7 +26,7 @@ label park_fountain_dialogue:
         else:
 
             show expression "objects/object_coin_01.png" at Position(xalign = 0.44, yalign = 0.81)
-    player_name "( I can see a lot of coins in there. )"
+    player_name "( Я вижу тут много монет. )"
     $ player.location.call_screen(False, False)
 
 label park_rap_battle:
@@ -39,47 +39,47 @@ label park_rap_battle:
         call expression game.dialog_select("park_rap_battle_first_visit")
         $ M_eve.set("first park visit", False)
         menu:
-            "You look good!":
+            "Клево выглядишь!":
                 call expression game.dialog_select("park_rap_battle_first_visit_look_good")
                 jump expression game.dialog_select("park_rap_battle_options")
-            "I should go home.":
+            "Я должен идти домой.":
 
                 call expression game.dialog_select("park_rap_battle_first_visit_go_home")
     else:
 
         call expression game.dialog_select("park_rap_battle_pre")
         menu park_rap_battle_options:
-            "Let's rap battle.":
+            "Давайте рэп-битву.":
                 call expression game.dialog_select("park_rap_battle_start")
                 menu:
-                    "Chico":
+                    "Чико":
                         $ rap_opponent = "Chico"
                         call expression game.dialog_select("park_rap_battle_opponent")
                         jump expression game.dialog_select("rapbattle_listing")
 
-                    "<>[chr_warn]Chad" if player.stats.chr() < 4:
+                    "<>[chr_warn]Чад" if player.stats.chr() < 4:
                         $ pass
 
-                    "Chad" if player.stats.chr() >= 4:
+                    "Чад" if player.stats.chr() >= 4:
                         $ rap_opponent = "Chad"
                         call expression game.dialog_select("park_rap_battle_opponent")
                         jump expression game.dialog_select("rapbattle_listing")
 
-                    "<>[chr_warn]Tyrone" if player.stats.chr() < 7:
+                    "<>[chr_warn]Тайрон" if player.stats.chr() < 7:
                         $ pass
 
-                    "Tyrone" if player.stats.chr() >= 7:
+                    "Тайрон" if player.stats.chr() >= 7:
                         $ rap_opponent = "Tyrone"
                         call expression game.dialog_select("park_rap_battle_opponent")
                         jump expression game.dialog_select("rapbattle_listing")
 
-                    "Skip Mini-Game (Cheat)" if game.cheat_mode:
+                    "Пропустить Мини-Игру (Cheat)" if game.cheat_mode:
                         $ game.timer.tick()
                         $ player.stats.increase("chr")
                         show unlock23 at truecenter with dissolve
                         pause
                         hide unlock23 with dissolve
-            "I have to go.":
+            "Я должен идти.":
 
                 call expression game.dialog_select("park_rap_battle_leave")
 
@@ -91,7 +91,7 @@ label park_rap_battle:
 label park_night_closed:
     scene park_night
     show player 10 with dissolve
-    player_name "( It's getting late. I should go home. )"
+    player_name "( Уже поздно. Мне пора домой. )"
     hide player
     hide park_night
     $ game.main()
