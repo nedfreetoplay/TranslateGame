@@ -125,9 +125,9 @@ init python:
         def render(self, width, height, st, at):
             render = renpy.render(self._bg, width, height, st, at)
             if renpy.variant("mobile"):
-                instructions_r = renpy.render(Text("Tap the screen to shoot the ball!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажмите на экран, чтобы кинуть мяч!", style = "style_instructions"), width, height, st, at)
             else:
-                instructions_r = renpy.render(Text("Click the screen to shoot the ball!", style = "style_instructions"), width, height, st, at)
+                instructions_r = renpy.render(Text("Нажмите на экран, чтобы кинуть мяч!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),20))
             if self.life < 0:
