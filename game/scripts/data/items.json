@@ -1,7 +1,7 @@
 {
     "homework": {
         "id": "1",
-        "name": "{b}Homework:{/b}",
+        "name": "{b}Домашнее задание:{/b}",
         "cost": "0",
         "image": "objects/item_homework1.png",
         "description": "Use your desk at home to complete your homework and improve your grades!",
@@ -569,7 +569,7 @@
     "pearl_necklace": {
         "id": "64",
         "name": "{b}Pearl Necklace:{/b}",
-        "cost": "100",
+        "cost": "50",
         "image": "objects/item_necklace3.png",
         "description": "A pearl necklace fit for a beauty.",
         "closeup": "",
@@ -1279,37 +1279,37 @@
     },
     "smith_painting_key": {
         "id": "143",
-        "name": "{b}A small key:{/b}",
+        "name": "{b}Маленький ключ:{/b}",
         "cost": "0",
         "image": "objects/item_key6.png",
-        "description": "A small key that was taped to the back of a painting in {b}Mrs Smith's{/b} bedroom.",
+        "description": "A small key that was taped to the back of a painting in {b}Mrs Smith{/b}'s bedroom.",
         "closeup": "",
         "dialogue_label": ""
     },
     "smith_exams": {
         "id": "144",
-        "name": "{b}Exams:{/b}",
+        "name": "{b}Экзамены:{/b}",
         "cost": "0",
         "image": "objects/item_exams1.png",
-        "description": "The finals. It is prime material to study, if you lack morals.",
+        "description": "Финал. Это основной материал для изучения, если вам не хватает морали.",
         "closeup": "",
         "dialogue_label": ""
     },
     "sara_bikini": {
         "id": "145",
-        "name": "{b}Sara's Bikini:{/b}",
+        "name": "{b}Бикини Сары:{/b}",
         "cost": "0",
         "image": "objects/item_bikini_01.png",
-        "description": "Sara's bikini, comes in a pitch when Roxxy's just broke...",
+        "description": "Бикини Сары, пригодятся, раз у Рокси порвались...",
         "closeup": "",
         "dialogue_label": ""
     },
     "massage_oil": {
         "id": "146",
-        "name": "{b}Massage Oil:{/b}",
+        "name": "{b}Массажное масло:{/b}",
         "cost": "0",
         "image": "objects/item_lotion2.png",
-        "description": "Some massage oil to lather someone's body...",
+        "description": "Массажное масло для намыливания тела...",
         "closeup": "",
         "dialogue_label": ""
     },
