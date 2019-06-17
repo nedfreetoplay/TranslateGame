@@ -16,7 +16,7 @@ label bag_minigame_attack:
         show minigame02a4 with hpunch
 
     $ player.stats.increase("dex")
-    player_name "Huah!!"
+    player_name "Хух!!"
 
     scene expression player.location.background_closeup with None
     if M_somrak.finished_state(S_somrak_sated_a):
@@ -34,19 +34,19 @@ label training_failed_dialogue:
     scene expression game.timer.image("training{}_b")
     show masterplayer 27 at left
     show somrak f_angry a_cane_up
-    mas "NO, NO, NO!" with vpunch
-    mas "You're attacking like an undisciplined dog!"
+    mas "НЕТ, НЕТ, НЕТ!" with vpunch
+    mas "Ты дерешься как глупая собака!"
     show somrak f_normal
-    player_name "I'm sorry, {b}Master{/b}... I-"
+    player_name "Простите, {b}Учитель{/b}... Я-"
     show somrak a_poke f_angry
     show masterplayer 40
     player_name "!!!" with hpunch
     show masterplayer 27
     show somrak f_angry a_point with dissolve
-    mas "Do not be sorry, be better!"
-    mas "Come back tomorrow!"
+    mas "Не извеняйся, будь лучше!"
+    mas "Приходи завтра!"
     show somrak a_cane f_normal with dissolve
-    player_name "Y-yes, {b}Master Somrak{/b}..."
+    player_name "Хорошо, {b}Мастер Сомрак{/b}..."
     hide masterplayer
     hide somrak
     with dissolve
