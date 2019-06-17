@@ -91,7 +91,7 @@ init python:
             for joint in self.joints:
                 joint_r = renpy.render(joint.displayable, width, height, st, at)
                 render.blit(joint_r, (joint.x, joint.y))
-            instructions_r = renpy.render(Text("Click the nodes to clear a path!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(Text("Щелкните на узлы, чтобы очистить путь!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),20))
             layout_r = renpy.render(self._layout, width, height, st, at)
