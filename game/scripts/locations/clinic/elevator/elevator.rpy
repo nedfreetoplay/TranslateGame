@@ -12,86 +12,86 @@ label elevator_priya_check_pregnax:
     show roz 21 at left
     show player 13f at right
     with dissolve
-    roz "Here you go."
+    roz "Ну вот."
     show roz 20
     pause
     show roz 7
     show player 696 at Position (xoffset=-9)
     with dissolve
-    roz "It's supposed to take a picture when I press the button but nothing happens."
-    roz "Stupid thing is broken!"
+    roz "Он должен сделать снимок, когда я нажимаю кнопку, но ничего не происходит."
+    roz "Глупая штука сломалась!"
     show roz 6
     show player 700 at Position (xoffset=-2) with dissolve
-    player_name "Hmm."
-    player_name "Oh, here we go!"
+    player_name "Хмм."
+    player_name "О, вот мы и приехали!"
     show player 701 at Position (xoffset=-36) with dissolve
     pause
     show player 700 at Position (xoffset=-2) with dissolve
-    player_name "You just need to open up the flashbar here to turn the camera on."
-    player_name "I think that should-"
+    player_name "Вам просто нужно открыть панель здесь, чтобы включить камеру."
+    player_name "Я думаю, что должен-"
     show player 702
     player_name "!!!" with flash
     show player 703 at Position (xoffset=-36) with dissolve
-    player_name "Ack!"
-    player_name "Yeah, it's definitely working now..."
+    player_name "И!"
+    player_name "Да, это определенно работает..."
     pause
     show roz 23 with vpunch
     show player 10f with dissolve
-    player_name "Whoa, did you just stop the elevator?"
+    player_name "Ты только что остановила лифт?"
     show player 5f
     show roz 7 with dissolve
-    roz "I'm just making sure we won't be disturbed."
+    roz "Я просто хочу убедиться, что нас не побеспокоят."
     show roz 6
     show player 12f
-    player_name "Huh?"
-    player_name "Why would-"
+    player_name "Ааа?"
+    player_name "Зачем-"
     show roz 10 with dissolve
     pause
     show roz 8
     show player 6f
     player_name "!!!" with hpunch
-    player_name "Agh, what are you doing?!?!"
+    player_name "Ах, что ты делаешь?!?!"
     show roz 9
-    roz "Gettin' ready for my close up."
+    roz "Готовлюсь к съемке крупным планом."
     show roz 8
-    player_name "Yeah, I don't know what that means..."
+    player_name "Да, я не знаю, что это значит..."
     show roz 9
-    roz "Well, now that you got it workin' I want you to snap a few photos of me."
-    roz "For the fellas down at the home."
+    roz "Ну, теперь, когда у тебя все получилось, я хочу, чтобы ты сфотографировал меня."
+    roz "Для ребят из приюта."
     show roz 8
     show player 113f with dissolve
-    player_name "Why me?!"
+    player_name "Почему я?!"
     show player 114f
     show roz 9
-    roz "You wanna go to the third floor don'tcha, kiddo?"
+    roz "Хочешь пойти на третий этаж, малыш?"
     show roz 8
     show player 113f
-    player_name "Y-yeah..."
+    player_name "Да..."
     show player 114f
     show roz 9
-    roz "Well then, I suggest you quit yappin' and start snappin'."
+    roz "Тогда я предлагаю тебе прекратить болтать и начать щелкать."
     show roz 8
     show player 24f
     player_name "..."
     show roz 9
-    roz "You gotta scratch my back if you want me to scratch yours."
+    roz "Ты почеши мне спину, если хочешь, я почешу тебе."
     show roz 8
     show player 37f with dissolve
-    player_name "Ugh, damnit."
+    player_name "Тьфу, черт."
     show player 24f with dissolve
     show roz 9
-    roz "Make sure you get my good side!"
+    roz "Убедись, что получается отлично!"
 
     if Game.is_halloween():
         scene expression "backgrounds/location_hospital_cutscene01_halloween.jpg"
     else:
         scene expression "backgrounds/location_hospital_cutscene01.jpg"
-    show expression FilteredText("... And here I thought this was going to be easy.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("... А я-то думал, что все будет просто.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
-    show expression FilteredText("How am I constantly getting myself into these situations?!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Как я постоянно попадаю в такие ситуации?!") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show expression FilteredText("These pills had better be worth it.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
+    show expression FilteredText("Надеюсь, эти таблетки того стоят.") as cutscene at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene black
     hide cutscene
@@ -100,38 +100,38 @@ label elevator_priya_check_pregnax:
     show roz 22 at left
     show player 24f at right
     with dissolve
-    roz "Oh, yeah!"
-    roz "This is gonna drive the fellas wild!"
+    roz "О, да!"
+    roz "Это сведет ребят с ума!"
     show roz 20 with dissolve
     show player 10f
-    player_name "Are we done?"
+    player_name "Мы закончили?"
     show player 5f
-    roz "Hmm?"
+    roz "Хмм?"
     show player 10f
-    player_name "I really need to speak with {b}Doctor Singh{/b}."
+    player_name "Мне действительно нужно поговорить с {b}Доктором Сингх{/b}."
     show player 5f
     show roz 23 with dissolve
-    roz "Oh, right."
+    roz "Ох, точно."
     show roz 7
-    roz "Sheesh, you kids these days have no patience!" with vpunch
+    roz "У вас, детишек, совсем нет терпения!" with vpunch
     show roz 6
     player_name "..."
     show roz 7
-    roz "... And don't go tellin' nobody it was me who brought you up here!"
+    roz "... И не говори никому, что это я привел тебя сюда!"
     show roz 6
     show player 10f
-    player_name "Uh huh. I won't tell a soul about any... of this."
+    player_name "Угу. Я никому не расскажу ни о чем... из этого."
     show player 5f
     show roz 7
-    roz "Good."
-    roz "Now scram!"
+    roz "Хорошо."
+    roz "А теперь проваливай!"
     hide player with dissolve
     scene expression "backgrounds/location_hospital_third_blur.jpg"
     show player 24 with dissolve
-    player_name "( Ugh, what a day! )"
-    player_name "( At least it got me up to the {b}third floor{/b}. )"
-    player_name "( I should {b}take a look around{/b} and see if I can find this {b}Doctor Singh{/b} guy. )"
-    player_name "( Maybe I can find some bleach for my eyes, while I'm at it... )"
+    player_name "( Фу, ну и денек выдался! )"
+    player_name "( По крайней мере, я поднялся на {b}третий этаж.{/b}. )"
+    player_name "( Я должен {b}осмотреться{/b} и посмотреть, смогу ли я найти этого {b}Доктора Сингх{/b}. )"
+    player_name "( Может, мне удастся найти отбеливатель для глаз, пока я здесь... )"
     hide player with dissolve
     $ renpy.end_replay()
     $ persistent.cookie_jar["Roz"]["unlocked"] = True
