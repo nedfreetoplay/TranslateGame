@@ -147,7 +147,7 @@ init python:
             text_render = renpy.render(Text("{b}" + str(self._earnings) + "{/b}", style = "style_earnings"), width, height, st, at)
             self._text_width, self._text_height = text_render.get_size()
             render.blit(text_render, ((155 - (self._text_width / 2)),672))
-            instructions_r = renpy.render(FilteredText("Click on the {b}UNWANTED{/b} items before the time runs out!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Нажмите на {b}НЕЖЕЛАТЕЛЬНЫЕ{/b} элементы пока не закончилось время!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),22))
             
