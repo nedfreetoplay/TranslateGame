@@ -1,107 +1,107 @@
 label forest_first_visit:
     scene expression game.timer.image("forest{}_b")
     show player 43 with dissolve
-    player_name "Wow!"
-    player_name "( I've never been to the forest before... )"
-    player_name "( It's so... calm... )"
+    player_name "Вау!"
+    player_name "( Я ни когда не был в лесу раньше... )"
+    player_name "( Тут так... спокойно... )"
     return
 
 label forest_anna_missing_pup_started_dark:
     scene expression game.timer.image("forest{}_b")
     show player 4 with dissolve
-    player_name "( It's too dark to look for {b}Awesomo{/b}. )"
+    player_name "( Слишком темно, чтобы искать {b}ШИКАРДОС'а{/b}. )"
     hide player with dissolve
     return
 
 label forest_anna_missing_pup_started_have_cookies:
     scene expression game.timer.image("forest{}_b")
     show player 4 with dissolve
-    player_name "( Let's see if I can find that dog. )"
+    player_name "( Посмотрим, смогу ли я найти эту собаку. )"
     scene forest_closeup
     show player 239 at left
     with dissolve
-    player_name "( Now... )"
+    player_name "( Теперь... )"
     show player 240
-    player_name "( ...I should be able to lure him out... )"
+    player_name "( ...Я мог бы его заманить... )"
     show player 245 at Position(xpos=8)
-    player_name "( ...using {b}this{/b}! )"
+    player_name "( ...с помощью {b}этого{/b}! )"
     show player 246 at left
     pause
     show player 1 with dissolve
-    player_name "( Let's see if he comes out. )"
+    player_name "( Посмотрим, выйдет ли он. )"
     show player 31
-    player_name "( He must be around here somewhere... )"
+    player_name "( Он должен быть где-то здесь... )"
     hide player with dissolve
     return
 
 label forest_anna_missing_pup_started_no_cookies:
     scene expression game.timer.image("forest{}_b")
     show player 4 with dissolve
-    player_name "( I should find some {b}cookies{/b} to lure {b}Awesomo{/b} out with. )"
+    player_name "( Я должен найти {b}печенье{/b} чтобы заманить {b}ШИКАРДОС'а{/b} . )"
     hide player with dissolve
     return
 
 label forest_okita_get_ingredients:
     scene expression game.timer.image("forest{}_b")
     show player 2 with dissolve
-    player_name "Alright, so the {b}mushroom{/b} should be here somewhere."
-    player_name "... And she said to look for the {b}Toad{/b} near water and the {b}flower{/b} in a cave."
+    player_name "Тааак, {b}грибы{/b} должны быть где-то здесь."
+    player_name "... Ещё надо найти {b}Жабу{/b} возле воды, и {b}цветок{/b} в пещере."
     hide player with dissolve
     return
 
 label forest_dewitt_make_new_flute:
     scene expression game.timer.image("forest{}_b")
     show player 32 with dissolve
-    player_name "Huh, I don't see any fallen branches here."
-    player_name "I should look around elsewhere."
+    player_name "Что-то я не вижу падающих ветвей."
+    player_name "Надо посмотреть где-то в другом месте."
     hide player with dissolve
     return
 
 label awesomo_dialogue_intro:
     scene expression game.timer.image("forest{}_b")
     show player 177 with dissolve
-    player_name "Hey there little guy..."
+    player_name "Привет, малыш..."
 
-    player_name "What're you doing all the way out here?"
-    awesomo "Bark!"
-    player_name "You got your owner all worried about you!"
-    awesomo "Bark!"
-    player_name "You're a funny looking doggo..."
+    player_name "Что ты здесь делаешь?"
+    awesomo "Гаф!"
+    player_name "Ты заставил всех волноваться!"
+    awesomo "Гаф!"
+    player_name "Ты забавный песик..."
     return
 
 label awesomo_dialogue_give_cookie:
     scene expression game.timer.image("forest{}_b")
     show player 177
-    player_name "Want a cookie?"
+    player_name "Хочешь печенье?"
     show player 178 at Position(xpos=517)
-    player_name "Here you go..."
+    player_name "Вот так..."
     show player 179 with hpunch
     player_name "!!!"
     show player 180
-    player_name "Jeez!"
-    player_name "Someone's hungry..."
+    player_name "Боже мой!"
+    player_name "Кто-то проголодался..."
     show player 181
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 182
-    player_name "I like you!"
-    awesomo "Bark!"
+    player_name "Ты мне нравишься!"
+    awesomo "Гаф!"
     return
 
 label awesomo_dialogue_check_name_tag_pre:
     scene expression game.timer.image("forest{}_b")
     show player 177
-    player_name "Let's see if you're the one I'm looking for..."
+    player_name "Посмотрим, ты ли это, кого я ищу..."
     show awesomo_tag zorder 2 with dissolve
-    player_name "{b}Awesomo{/b}... Yup! Must be you!"
+    player_name "{b}ШИКАРДОС{/b}... Ага! Должно быть это, ты!"
     hide awesomo_tag with dissolve
     return
 
 label awesomo_dialogue_check_name_tag_after:
     scene expression game.timer.image("forest{}_b")
-    player_name "Let's get you back to your owner."
-    player_name "She's worried sick..."
-    awesomo "Bark!"
-    player_name "Haha! Alright, let's go then..."
+    player_name "Давай вернем тебя хозяйке."
+    player_name "Она волнуется из-за тебя..."
+    awesomo "Гаф!"
+    player_name "Ха-ха! Хорошо, тогда пойдем..."
     hide player with dissolve
     return
 
@@ -110,10 +110,10 @@ label dirt_pile:
     if player.has_item("shovel"):
         call expression game.dialog_select("forest_dirt_pile_have_shovel_intro")
         menu:
-            "Dig with a shovel." if player.has_item("shovel"):
+            "Копать лопатой." if player.has_item("shovel"):
                 call expression game.dialog_select("forest_dirt_pile_have_shovel_dig")
                 call screen forest_worms
-            "Leave it alone.":
+            "Оставить это.":
 
                 call expression game.dialog_select("forest_dirt_pile_have_shovel_leave")
     else:
@@ -123,31 +123,31 @@ label dirt_pile:
 
 label forest_dirt_pile_have_shovel_intro:
     scene location_forest_dirt1
-    player_name "( There's something strange about this patch of dirt... )"
-    player_name "( It seems like something's moving under it. )"
-    player_name "( Maybe I could dig it out? )"
+    player_name "( В этом пятне грязи есть что-то странное... )"
+    player_name "( Кажется, что что-то движется под ним. )"
+    player_name "( Может быть, я мог бы выкопать его? )"
     return
 
 label forest_dirt_pile_have_shovel_dig:
-    player_name "( Let's see what's in there... )"
+    player_name "( Посмотрим, что там... )"
     scene location_forest_dirt2
     pause
     scene location_forest_dirt3
-    player_name "{b}Worms{/b}?!"
-    player_name "( They say these make great {b}fishing bait{/b}. )"
-    player_name "( Maybe I'll keep some for later... )"
+    player_name "{b}Черви{/b}?!"
+    player_name "( Говорят из этого делают {b}приманку для рыбалки{/b}. )"
+    player_name "( Может быть, я продолжу позже... )"
     return
 
 label forest_dirt_pile_have_shovel_leave:
-    player_name "( On second thought... )"
-    player_name "( Perhaps I should leave them alone... )"
+    player_name "( Хотяяя... )"
+    player_name "( Возможно я должен оставить их в покое... )"
     return
 
 label forest_dirt_pile_no_shovel:
     scene location_forest_dirt1
-    player_name "( There's something strange about this patch of dirt... )"
-    player_name "( It seems like something's moving under it. )"
-    player_name "( I need to find a {b}shovel{/b} to dig it out. )"
+    player_name "( Есть кое-что странное в этой куче земли... )"
+    player_name "( Такое ощущение будто что-то двигается под ней. )"
+    player_name "( Мне нужно найти {b}лопату{/b} чтобы выкопать это. )"
     return
 
 label mushroom:
@@ -168,12 +168,12 @@ label forest_mushroom_intro:
     return
 
 label forest_mushroom_okita_get_ingredients:
-    player_name "Well, it certainly is... Phallic."
+    player_name "Что ж, это определенно...Член."
     return
 
 label forest_mushroom_aqua_seasucc_mushroom:
-    player_name "This must be the mushroom {b}Aqua{/b} spoke of."
-    player_name "I could try and feed it to {b}SeaSucc{/b}..."
+    player_name "Эти грибы похожи на те о которых {b}Аква{/b} рассказывала."
+    player_name "Надо собрать, и отнести их {b}Сосунку{/b}..."
     return
 
 label forest_mushroom_take_mushroom:
@@ -205,16 +205,16 @@ label altar:
 label altar_intro_pre:
     scene expression game.timer.image("forest_altar{}")
     with fade
-    show text "A strange stone structure stands in the middle of the forest." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Странное каменое строение стоит в середине леса." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "It looks old! Completely overgrown in moss..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это выглядит старинным! Полностью покрытое мхом..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     if not game.timer.is_dark():
-        show text "...and there's {b}sunlight{/b} shining directly down upon it." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "...а вот и {b}солнечный свет{/b} светит прямо на него." at Position (xpos= 512, ypos= 700) with dissolve
     else:
-        show text "...and there's {b}moonlight{/b} shining directly down upon it." at Position (xpos= 512, ypos= 700) with dissolve
+        show text "...а вот и {b}солнечный свет{/b} светит прямо на него." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "This must be what I'm looking for." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это должно быть то что я ищу." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -222,20 +222,20 @@ label altar_intro_pre:
 
 label altar_intro_day:
     scene location_forest_puzzle_day
-    player_name "Hmm..."
-    player_name "This looks like the alter that was on the church bell"
-    player_name "...But something's not right. This just looks like a dead end."
-    player_name "Hmm, what were the clues again?"
-    player_name "A stone alter, with trees around it and the {b}moon{/b} shining down."
-    player_name "I should think it over."
+    player_name "Хмм..."
+    player_name "Это похоже на алтарь, как на церковном колоколе."
+    player_name "...Но что-то не так. Я в тупике."
+    player_name "Так, какие были ключи?"
+    player_name "Каменный алтарь, среди деревьев, и {b}луна{/b} освещает его."
+    player_name "Над этим надо подумать."
     return
 
 label altar_intro_night:
     scene location_forest_puzzle_night_closed
-    player_name "Well that's strange."
-    player_name "It looks like the moon is affecting the alter somehow."
-    player_name "These symbols must be important and it looks like I can move them around to make a picture..."
-    player_name "Maybe it's some kind of puzzle?"
+    player_name "Что-то странное."
+    player_name "Кажется это лунный свет светит на алтарь."
+    player_name "Эти символы должны быть важными, и похоже, я могу их перемещать, чтобы сложить картинку..."
+    player_name "Похоже на головоломку."
     return
 
 label altar_puzzle_finish:
@@ -256,11 +256,11 @@ label altar_puzzle_finish_dialogue:
 label altar_puzzle_leave:
     scene expression game.timer.image("forest{}_b")
     show player 12 with dissolve
-    player_name "Huh... Maybe there's something that would hint at how to solve this puzzle."
+    player_name "Эх... Может есть что-то, что подскажет как решить эту загадку."
     if not player.has_item("scroll"):
-        player_name "I could take another {b}look at the church bell{/b} and see if I missed something."
+        player_name "Я мог бы ещё раз {b}взглянуть на церковный колокол{/b}, не пропустил ли я что-нибудь."
     else:
-        player_name "Maybe that {b}scroll I found in the tree{/b} has details on this puzzle."
+        player_name "Возможно, {b}свиток который я нашел в дереве{/b} содержит детали этой головоломки."
     hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
