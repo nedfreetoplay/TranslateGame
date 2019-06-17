@@ -78,7 +78,7 @@ init python:
                         image = "cellphone/cellphone_goals_checkbox.png"
                     state = store.machines[m].get_state()
                     if state.delay > 0:
-                        self.goals.append(CellPhoneGoal((120, 140+i*50), "Maybe I should wait a few days...", image, self.goals))
+                        self.goals.append(CellPhoneGoal((120, 140+i*50), "Может, мне стоит подождать несколько дней...", image, self.goals))
                     else:
                         self.goals.append(CellPhoneGoal((120, 140+i*50), state.description, image, self.goals))
                     i += 1
