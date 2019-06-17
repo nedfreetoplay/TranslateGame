@@ -16,9 +16,9 @@ init python:
             global game
             game.new_achievements = False
             achieve_unlocked = sum([not locked for locked in persistent.achievements.values()])
-            title_r = renpy.render(Text("Achievements", sytle="style_cellphone_title"), width, height, st, at)
-            x_of_y_r = renpy.render(Text("{} of {}".format(achieve_unlocked, len(self.achievement_list)), style="style_cellphone_achievements_header"), width, height, st, at)
-            achievements_have_been_unlocked_r = renpy.render(Text("Achievements have been unlocked".upper(), style="style_cellphone_achievements_subheader"), width, height, st, at)
+            title_r = renpy.render(Text("Достижения", sytle="style_cellphone_title"), width, height, st, at)
+            x_of_y_r = renpy.render(Text("{} из {}".format(achieve_unlocked, len(self.achievement_list)), style="style_cellphone_achievements_header"), width, height, st, at)
+            achievements_have_been_unlocked_r = renpy.render(Text("Достижения были разблокированы.".upper(), style="style_cellphone_achievements_subheader"), width, height, st, at)
             bar_r = renpy.render(self.bar, width, height, st, at)
             x_of_y_size = x_of_y_r.get_size()
             unlocked_size = achievements_have_been_unlocked_r.get_size()
@@ -35,7 +35,7 @@ init python:
                     if not(achievement.hidden and locked):
                         achieve_r = renpy.render(Text(achievement.name+"\n"+achievement.description, style = "style_cellphone_achievements"), width, height, st, at)
                     else:
-                        achieve_r = renpy.render(Text("Achievement Hidden", style = "style_cellphone_achievements"), width, height, st, at)
+                        achieve_r = renpy.render(Text("Достижение Скрыто.", style = "style_cellphone_achievements"), width, height, st, at)
                 if self.y_start <= self.positions[i][1] <= 440 and achieve_r is not None:
                     render.blit(achieve_image_r, self.positions[i])
                     render.blit(achieve_r, (self.positions[i][0]+50, self.positions[i][1]+8))
