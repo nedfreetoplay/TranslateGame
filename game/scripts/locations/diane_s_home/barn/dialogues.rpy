@@ -1004,7 +1004,7 @@ label barn_front_daisy_picking_flowers:
     dia "Я не хотела ее принуждать."
     scene expression player.location.background_blur with None
     show player 10 at left
-    show diane b_naked a_naked_sides at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides at Position (xpos=600)
     with dissolve
     player_name "Итак..."
     player_name "Что ты собираешься с ней делать?"
@@ -1124,7 +1124,7 @@ label barn_front_daisy_picking_flowers:
     $ player.go_to(L_diane_barn_interior)
     scene expression player.location.background_blur with None
     show player 1 at left
-    show diane b_naked a_naked_sides f_smirk_fardown at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides f_smirk_fardown at Position (xpos=600)
     show daisy a_naked_bouquet f_shy_talk at flip
     show daisy at Position (xpos=250)
     with dissolve
@@ -1409,7 +1409,7 @@ label barn_daisy_awakened_statue:
     cow "Ухх, спасибо."
     show daisy b_naked_shy a_naked_shy_blanket f_shy_sad zorder 2 at flip
     show daisy at Position (xpos=700,yoffset=10)
-    show diane b_naked a_naked_sides f_shamed_talk_fardown at Position (xpos=600)
+    show diane b_shirtless a_shirtless_sides f_shamed_talk_fardown at Position (xpos=600)
     with dissolve
     dia "Пожалуйста."
     show diane f_shamed_fardown
