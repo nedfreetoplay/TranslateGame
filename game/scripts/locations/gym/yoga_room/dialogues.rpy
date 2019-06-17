@@ -18,8 +18,8 @@ label yoga_room_mrsj_yoga_help_started:
     label yoga_room_class:
         call expression game.dialog_select("yoga_room_class_position_pre")
     menu:
-        "Happy Baby." if store._in_replay == None or yoga_stage == 2:
-            $ yoga_position = "Happy Baby"
+        "Счастливый малыш." if store._in_replay == None or yoga_stage == 2:
+            $ yoga_position = "Счастливый малыш"
             if yoga_stage == 2:
                 $ yoga_stage += 1
                 call expression game.dialog_select("yoga_room_class_2nd_position_success")
@@ -28,8 +28,8 @@ label yoga_room_mrsj_yoga_help_started:
 
                 call expression game.dialog_select("yoga_room_class_failure")
 
-        "Plow Position." if store._in_replay == None or yoga_stage == 3:
-            $ yoga_position = "Plow Position"
+        "Позиция плуг." if store._in_replay == None or yoga_stage == 3:
+            $ yoga_position = "Позиция плуг"
             if yoga_stage == 3:
                 $ yoga_stage += 1
                 call expression game.dialog_select("yoga_room_class_3rd_position_success")
@@ -38,8 +38,8 @@ label yoga_room_mrsj_yoga_help_started:
 
                 call expression game.dialog_select("yoga_room_class_failure")
 
-        "Downward Dog." if store._in_replay == None or yoga_stage == 1:
-            $ yoga_position = "Downward Dog"
+        "Собака мордой вниз." if store._in_replay == None or yoga_stage == 1:
+            $ yoga_position = "Собака мордой вниз"
             if yoga_stage == 1:
                 $ yoga_stage += 1
                 call expression game.dialog_select("yoga_room_class_1st_position_success")
@@ -48,72 +48,72 @@ label yoga_room_mrsj_yoga_help_started:
 
                 call expression game.dialog_select("yoga_room_class_failure")
 
-        "End Lesson." if store._in_replay == None and mrsj.completed(mrsj_yoga_help):
+        "Конец урока." if store._in_replay == None and mrsj.completed(mrsj_yoga_help):
             call expression game.dialog_select("yoga_room_class_end_lesson")
     $ game.main()
 
 label yoga_room_mrsj_yoga_help_started_pre_repeat:
     show player 385 at left with dissolve
     show anna 2 at right with dissolve
-    anna "Ready to try again?"
+    anna "Готов попробовать еще раз?"
     show anna 1
     show player 386
-    player_name "I think I've got the positions memorized this time."
+    player_name "Я думаю я должен запомнить позиции в этот раз."
     show player 385
-    anna "Just tell me which positions to get into and I'll follow your lead."
+    anna "Просто скажи мне какие позиции делать и я последую твоему примеру."
     return
 
 label yoga_room_mrsj_yoga_help_started_pre_first:
     show player 380 at left with dissolve
     show anna 12 at right with dissolve
     if not M_anna.is_state(S_anna_start):
-        anna "Excuse me?"
+        anna "Прошу прощения?"
     else:
-        "Excuse me?"
+        "Прости?"
     show player 385
     if not M_anna.is_state(S_anna_start):
-        anna "Have you seen {b}Tammy{/b} around lately?"
+        anna "Ты не видел {b}Тэмми{/b} в последнее время?"
     else:
-        "Have you seen {b}Tammy{/b} around lately?"
+        "Ты не видел {b}Тэмми{/b} в последнее время?"
     show anna 11
     show player 384
-    player_name "Actually, she won't be able to make it tonight."
+    player_name "На самом деле, она не сможет прийти сегодня вечером."
     show player 386
-    player_name "She sent me to help teach her class..."
+    player_name "Она послала меня помочь обучить её группу..."
     show player 385
     show anna 12
     if not M_anna.is_state(S_anna_start):
-        anna "Oh, has she told you what to do, {b}[firstname]{/b}?"
+        anna "Ох, она рассказала тебе что надо делать, {b}[firstname]{/b}?"
     else:
-        "Oh, has she told you what to do?"
+        "Ох, она рассказала тебе что надо делать?"
     show anna 11
     show player 386
-    player_name "Well, {b}Mrs. Johnson{/b} gave me this list of instructions."
+    player_name "Ну, {b}Миссис Джонсон{/b} дала мне этот список с указаниями."
     show player 381
-    player_name "I looked over them a bit... I think I can manage."
+    player_name "Я посмотрел их немного... Думаю, я справлюсь."
     if not M_anna.is_state(S_anna_start):
         show player 386
-        player_name "She said you could maybe help me?"
+        player_name "Она сказала что ты может быть сможешь помочь мне?"
         show player 385
         show anna 2 with dissolve
-        anna "Of course I'll help you!"
-        anna "And don't worry! You just tell me which positions and I'll follow your lead."
+        anna "Конечно я помогу тебе!"
+        anna "И не волнуйся! Просто скажи мне какие позиции делать и я последую твоему примеру."
     else:
 
         show player 384
-        player_name "Have you seen a girl named, {b}Anna{/b}?"
-        player_name "{b}Mrs. Johnson{/b} said she'd be able to assist me."
+        player_name "Ты не видела девушку по имени, {b}Анна{/b}?"
+        player_name "{b}Миссис Джонсон{/b} сказала что она сможет помочь мне."
         show player 385
         show anna 3 with dissolve
-        anna "I'm {b}Anna{/b}!!"
+        anna "Я - {b}Анна{/b}!!"
         show anna 1
         show player 386
-        player_name "Oh!!"
+        player_name "Ох!!"
         show player 385
         show anna 3
-        anna "I hope you know what you're doing. Ha ha!"
+        anna "Я надеялась ты знаешь что ты делаешь. Ха ха!"
         show anna 2
-        anna "I'll be there to help you through the moves, don't worry."
+        anna "Я здесь чтобы помочь тебе с движениями, не волнуйся."
     return
 
 label yoga_room_mrsj_yoga_help_started_intro:
@@ -125,18 +125,18 @@ label yoga_room_mrsj_yoga_help_started_intro:
     show anna 14
     show player 411 at left
     with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 412
-    player_name "Okay, we have to do three consecutive positions, in the right order..."
+    player_name "Хорошо, нам нужно сделать 3 последовательные позиции, в нужном порядке..."
     show player 411
     show anna 13
-    anna "Ummm... Are you ready?"
+    anna "Мммм.. Ты готов?"
     show anna 14
     show player 414 with dissolve
-    player_name "I think so?"
+    player_name "Думаю,да?"
     show player 413
     show anna 13
-    anna "Well, which pose do we start with first?"
+    anna "Что ж, Что ж, с какой позы мы начнём?"
     show anna 14
     show player 412 with dissolve
     return
@@ -154,15 +154,15 @@ label yoga_room_class_position_pre:
     return
 
 label yoga_room_class_1st_position_pre:
-    player_name "The first position is..."
+    player_name "Первая позиция это..."
     return
 
 label yoga_room_class_2nd_position_pre:
-    player_name "Okay, for the second position, I think we should try..."
+    player_name "Хорошо, для второй позиции, я думаю нам стоит попробовать..."
     return
 
 label yoga_room_class_3rd_position_pre:
-    player_name "The last position should follow up this one..."
+    player_name "Последняя позиция должна делаться вот так..."
     return
 
 label yoga_room_class_failure:
@@ -176,134 +176,134 @@ label yoga_room_class_failure_dialogue:
     else:
         show player 418 at left
     with dissolve
-    player_name "Umm... I think {b}[yoga_position]{/b} is the next position."
-    player_name "I'm not really sure though."
-    player_name "I can't remember..."
+    player_name "Ммм... Я думаю {b}[yoga_position]{/b} это следующая позиция."
+    player_name "Я не совсем уверен."
+    player_name "Я не могу вспомнить..."
     if boner_fail:
         show player 420
     else:
         show player 417
     show anna 13 with dissolve
     if mrsj.started(mrsj_yoga_help):
-        anna "It's probably best if we just skip this class for now."
-    anna "We can try again tomorrow."
+        anna "Наверно будет лучше если мы просто пропустим занятия класса на сегодня."
+    anna "Мы можем попробовать еще раз завтра снова."
     if boner_fail:
         show player 419
     else:
         show player 418
     show anna 14
-    player_name "Yeah..."
-    player_name "Sorry."
+    player_name "Да..."
+    player_name "Извини."
     if boner_fail:
         show player 420
     else:
         show player 417
     show anna 13
     if mrsj.started(mrsj_yoga_help):
-        anna "Just look over {b}Tammy's{/b} notes and be sure to memorize them for the next class."
+        anna "Просто взгляни на заметки {b}Тэмми{/b} и постарайся их запомнить на следующий раз."
     else:
-        anna "Just look over {b}Tammy's{/b} notes and be sure to memorize them for next time."
+        anna "Просто взгляни на заметки {b}Тэмми{/b} и постарайся их запомнить на следующий раз."
     if boner_fail:
         show player 419
     else:
         show player 418
     show anna 14
-    player_name "Alright. I'll do my best..."
+    player_name "Хорошо. Я очень постараюсь..."
     hide anna
     hide player
     with dissolve
     scene yoga_room_night
     show player 24 with dissolve
-    player_name "Damn... I couldn't do it."
+    player_name "Блин... Я не смог этого сделать."
     if mrsj.started(mrsj_yoga_help):
-        player_name "I should memorize the moves and try again tomorrow."
+        player_name "Я должен запомнить все движения и попытаться еще раз завтра."
         show player 25
-        player_name "I can't let {b}Mrs. Johnson{/b} and {b}Anna{/b} down like that..."
+        player_name "Я не могу позволить чтобы {b}Миссис Джонсон{/b} и {b}Анна{/b} вот так разочеровались во мне..."
     else:
-        player_name "I should memorize the moves and try again."
+        player_name "Я должен запомнить все движения и попытаться еще раз завтра."
     hide player with dissolve
     return
 
 label yoga_room_class_1st_position_success:
     show player 414 with dissolve
-    player_name "We need to do the {b}[yoga_position]{/b}?"
+    player_name "Нам нужно сделать {b}[yoga_position]{/b}?"
     show player 413
     show anna 15
-    anna "Oh, right. I love that position!"
+    anna "Ах да.Я люблю эту позицию!"
     show anna 18 with dissolve
-    anna "Why don't I get myself on the mat and you help me stretch?"
+    anna "Почему нет я могла бы лечь на коврик и ты мог бы помочь мне с растяжкой?"
     show anna 17
     show player 416
-    player_name "Uhh... Okay."
+    player_name "Охх... Хорошо."
     hide player
     show anna 19
     with dissolve
     pause
     pause
-    anna "Don't hesitate to add some force to your push!"
+    anna "Не стенсняйся применить силу к своим толчкам!"
     show anna 19_20
     pause
     show player 411 at left
     show anna 18
     with dissolve
-    anna "That was good! I already feel more limber!"
+    anna "Это было отлично! Я уже чувствую себя намного гибче!"
     show anna 17
     show player 412
     return
 
 label yoga_room_class_2nd_position_success:
-    player_name "...the {b}[yoga_position]{/b}?"
+    player_name "...эта {b}[yoga_position]{/b}?"
     show player 413 with dissolve
     show anna 18
-    anna "Of course!"
-    anna "It's one of my favorites."
-    anna "Let me get on my back so you can push on my legs to stretch..."
+    anna "Разумеется!"
+    anna "Эта одна из моих любимых."
+    anna "Позволь мне лечь на спину так что ты сможешь давить и растягивать мои ножки..."
     show anna 21 with dissolve
     show player 416
     player_name "!!!"
     hide player
     show anna 23
     with dissolve
-    player_name "Push on your legs?"
+    player_name "Давить твои ноги?"
     show anna 24
-    anna "Yeah!"
-    anna "Just push them back so I can stretch..."
+    anna "Да"
+    anna "Просто дави их назад чтобы я могла растянуться..."
     show anna 25 with dissolve
     pause
     pause
     pause
     show anna 27 with dissolve
-    anna "That felt great..."
+    anna "Это был прекрасно..."
     show anna 28
     player_name "..."
-    anna "Oh!!"
+    anna "Ох!!"
     show anna 26
-    player_name "Ha ha! I think we are ready for the last position!"
+    player_name "Ха ха! Я думаю мы готовы для последней позиции!"
     return
 
 label yoga_room_class_3rd_position_success:
-    player_name "...The {b}[yoga_position]{/b}?"
+    player_name "...эта {b}[yoga_position]{/b}?"
     show anna 27
-    anna "Perfect!"
+    anna "Идеально!"
     show player 420 at left
     show anna 29
     with dissolve
     pause
     show anna 30
-    anna "All you have to do is press your... pelvis against my butt."
+    anna "Все что тебе нужно сделать это  давить на ... тазовую область против моей задницы."
     show anna 29
     show player 421
-    player_name "Umm... Okay..."
+    player_name "Мммм... Хорошо..."
     hide player
     show anna 31
     with dissolve
     pause
     show anna 32
-    anna "Ahh, yes!"
+    anna "Ахх, да!"
     hide anna
     show anna_slow 31_32
     pause
-    anna "Just a bit more!!"
+    anna "Еще чуть-чуть !!"
     hide anna_slow 31_32
     show anna_fast 31_32
     pause
@@ -333,18 +333,18 @@ label yoga_room_class_success_pre:
     show player 420 at left
     show anna 22
     with dissolve
-    anna "That was... excellent!"
+    anna "Это было... прекрасно!"
     show anna 21
     show player 419
-    player_name "I... I'm sorry about..."
+    player_name "Я... прости за..."
     show player 420
     show anna 15 with dissolve
-    anna "Oh! Ha ha!"
+    anna "Ох! Ха ха!"
     show anna 13
-    anna "It's fine!"
-    anna "That always happens to guys who come to our class!"
+    anna "Все нормально!"
+    anna "Это всегда происходит с парнями которые приходят в наш класс!"
     show anna 16
-    anna "And I didn't mind the extra... push..."
+    anna "И я не была против дополнительной... давки..."
     return
 
 label yoga_room_class_success_after:
@@ -352,29 +352,29 @@ label yoga_room_class_success_after:
     show player 82 at left
     show anna 2 at right
     with dissolve
-    anna "I'm impressed!"
-    anna "You did such a great job..."
+    anna "Я впечатлена!"
+    anna "Ты проделал отличную работу..."
     show anna 3
-    anna "...And I really enjoyed being your assistant!"
+    anna "...И мне очень понравилось быть твоей помощницей!"
     show anna 1
     show player 83
-    player_name "I was just trying to help {b}Mrs. Johnson{/b}."
+    player_name "Я просто пытался помочь {b}Миссис Джонсон{/b}."
     show player 79 with dissolve
-    player_name "It was kinda fun."
+    player_name "Это было и в правду довольно весело."
     show player 82 at left with dissolve
     show anna 2
-    anna "Hopefully, you can come by again soon to teach the class... with my help?"
-    anna "That is... if you'd like to..."
+    anna "Будем надеяться, что ты скоро придешь снова для обучения класса... с моей помощью?"
+    anna "То есть... если ты захочешь..."
     show anna 1
     show player 79 with dissolve
-    player_name "That might be fun!"
+    player_name "Это может быть весело!"
     show player 82 at left with dissolve
     show anna 2
-    anna "Just make sure you come at night."
-    anna "It's when {b}Tammy{/b} is away and I need the help..."
+    anna "Просто убедись что ты пришёл ночью."
+    anna "Это когда {b}Тэмми{/b} уходит и мне нужна помощь..."
     show anna 1
     show player 83
-    player_name "Umm... Sure."
+    player_name "Эмм... Конечно."
     hide player
     hide anna
     with dissolve
@@ -389,41 +389,41 @@ label yoga_room_class_end_lesson:
         show player 14 at left
     show anna 1 at right
     with dissolve
-    player_name "That was fun!"
+    player_name "Это было весело!"
     if boner_fail:
         show player 82 at left with dissolve
     else:
         show player 13
     show anna 3
-    anna "Yeah!"
+    anna "Да!"
     show anna 2
-    anna "You sure did good this time. I'm impressed!"
+    anna "Ты уверена что ты хорошо провел время. Я впечатлена!"
     show anna 1
     if boner_fail:
         show player 79 with dissolve
     else:
         show player 14
-    player_name "Thanks!"
-    player_name "I was just trying to help."
+    player_name "Спасибо!"
+    player_name "Я просто пытался помочь."
     if boner_fail:
         show player 82 at left with dissolve
     else:
         show player 13
     show anna 2
-    anna "I wouldn't mind doing it again with you..."
-    anna "...If you'd like."
+    anna "Я была бы не против позаниматься еще раз с тобой..."
+    anna "...Если ты захочешь."
     show anna 1
     if boner_fail:
         show player 79 with dissolve
     else:
         show player 14
-    player_name "Of course!"
+    player_name "Конечно!"
     if boner_fail:
         show player 82 at left with dissolve
     else:
         show player 13
     show anna 2
-    anna "Great! See you next time..."
+    anna "Круто! Увидимся в следующий раз..."
     hide player
     hide anna
     with dissolve
@@ -433,9 +433,9 @@ label yoga_room_strangers_only:
     scene expression game.timer.image("yoga_room{}")
     show player 12
     with dissolve
-    player_name "( There's no one I know here... )"
+    player_name "( Здесь никого нет из моих знакомых... )"
     show player 35
-    player_name "( I should come back another time, perhaps... )"
+    player_name "( Возможно, я должен придти в другой раз... )"
     hide player 35 with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
