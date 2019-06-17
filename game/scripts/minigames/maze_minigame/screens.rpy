@@ -71,7 +71,7 @@ init python:
             player_r = renpy.render(self._player, width, height, st, at)
             self.player_width, self.player_height = player_r.get_size()
             render.blit(player_r, self._player_pos)
-            instructions_r = renpy.render(FilteredText("Use the {b}ARROW{/b} keys to move and {b}A,S,D{/b} to kill the matching monsters!", style = "style_instructions"), width, height, st, at)
+            instructions_r = renpy.render(FilteredText("Используй {b}СТРЕЛКИ{/b} для передвижения и {b}A,S,D{/b} чтобы убить подходящих монстров!", style = "style_instructions"), width, height, st, at)
             text_width, text_height = instructions_r.get_size()
             render.blit(instructions_r, ((512 - (text_width / 2)),22))
             if self.mob is not None:
