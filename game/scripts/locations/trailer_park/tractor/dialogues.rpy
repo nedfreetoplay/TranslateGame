@@ -1,5 +1,5 @@
 label trailer_tractor_roxxy_beat_clyde:
-    scene expression "backgrounds/location_trailer_tractor_day_blur.jpg"
+    scene expression player.location.background_blur with None
     show clyde 1 at left
     show player 5f at Position (xpos=600)
     show roxxy 3 at right
