@@ -27,36 +27,36 @@ label library_jane_intro:
 label library_jane_intro_pre:
     scene library
     show player 1 at left
-    show jane 2 at right
+    show jane f_normal_talk at right
     with dissolve
     jan "Привет!"
     show player 14
-    show jane 1
+    show jane f_normal
     player_name "Ох, привет!"
     player_name "Я ищу некоторые школьные {b}учебники{/b}."
     show player 1
-    show jane 2
+    show jane f_normal_talk
     jan "Подписка на клуб читателей есть?"
-    show jane 1
+    show jane f_normal
     show player 10
     player_name "Эммм... Я не думаю что у меня есть."
     show player 13
-    show jane 3
+    show jane f_laugh
     jan "Ох. Ничего страшного!"
-    show jane 2
+    show jane f_normal_talk
     jan "Хочешь её получить?"
-    show jane 3
+    show jane f_laugh
     show player 11
     jan "Членский взнос всего {b}$20{/b}, и ты получишь доступ во все секции!"
-    show jane 1
+    show jane f_normal
     show player 2
     player_name "Ухх... Я думаю у меня нет выбора. Хаха."
-    show jane 3
+    show jane f_laugh
     show player 13
     jan "Знания бесценны, не так ли?"
-    show jane 2
+    show jane f_normal_talk
     jan "Будете платить взнос?"
-    show jane 1
+    show jane f_normal
     return
 
 label library_jane_intro_sure:
@@ -65,12 +65,12 @@ label library_jane_intro_sure:
     show player 174b at Position(xoffset=38) with fastdissolve
     player_name "Ладно. Вот {b}$20.{/b}"
     show player 1 with fastdissolve
-    show jane 3
+    show jane f_laugh
     jan "Спасибо!"
-    show jane 2
+    show jane f_normal_talk
     jan "Если ищете конкретную {b}книгу{/b}, подходите ко мне."
     jan "Я постораюсь найти их для тебя!"
-    show jane 1
+    show jane f_normal
     show player 2
     player_name "Это приятно слышать! Спасибо!"
     return
@@ -80,13 +80,13 @@ label library_jane_intro_not_yet:
     player_name "Хмм..."
     show player 35
     player_name "Вообще-то, Я думаю что я откажусь..."
-    show jane 2
+    show jane f_normal_talk
     show player 1
     jan "Ох... ну хорошо тогда."
-    show jane 1
+    show jane f_normal
     show player 2
     player_name "Я могу вернуться в другое время!"
-    show jane 2
+    show jane f_normal_talk
     show player 1
     jan "Окей, в любой день!"
     return
