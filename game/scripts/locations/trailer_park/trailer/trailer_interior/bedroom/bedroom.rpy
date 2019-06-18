@@ -22,11 +22,11 @@ label trailer_bedroom_dialogue:
 label trailer_bedroom_roxxy_panties:
     scene expression player.location.background_blur with None
     show player 725 with dissolve
-    player_name "( These are {b}Roxxy's{/b} panties. )"
-    player_name "( Man, how in the heck does she wear these things? )"
-    player_name "( Thongs look so uncomfortable... )"
+    player_name "( Это трусики {b}Рокси{/b}. )"
+    player_name "( Как, черт возьми, она носит их? )"
+    player_name "( Стринги выглядят так неудобно... )"
     pause
-    player_name "( I bet {b}Master Somrak{/b} would like these. )"
+    player_name "( Держу пари {b}мастеру Сомраку{/b} они понравятся. )"
 
     hide player with dissolve
     $ player.get_item("roxxy_panties")
