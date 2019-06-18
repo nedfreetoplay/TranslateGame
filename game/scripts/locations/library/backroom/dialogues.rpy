@@ -48,29 +48,29 @@ label backroom_couple_finish_dialogue:
     hide library with dissolve
 
     scene backroom01
-    show jane 8 at right
+    show jane f_mad_talk
     show player 23 at left
     with dissolve
     jan "Что тут за крики!"
     show player 11
     jan "ТОЛЬКО НЕ ОПЯТЬ!!!" with hpunch
-    show jane 7 with dissolve
+    show jane f_eyeroll_talk a_dressed_up with dissolve
     jan "Эхх..."
-    show jane 12 with dissolve
+    show jane f_mad with dissolve
     show player 10
     player_name "Это обычное дело?"
     show player 5
-    show jane 5
+    show jane f_normal_down
     jan "..."
     show jane 4
     jan "Понимаешь..."
     jan "Людям нравится делать это здесь, и я не собираюсь их останавливать."
     jan "Просто держи это при себе, пожалуйста."
-    show jane 1
+    show jane f_normal
     show player 12
     player_name "Да, я никому не расскажу..."
     show player 5
-    show jane 2
+    show jane f_normal_talk
     jan "Спасибо."
     jan "Я возвращаюсь на своё рабочее место."
     jan "Если тебе нужна помощь в поиске чего-то или ты видишь, что кто-то ещё делает это здесь, дай мне знать!"
