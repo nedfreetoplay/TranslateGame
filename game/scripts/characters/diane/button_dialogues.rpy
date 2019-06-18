@@ -62,7 +62,7 @@ label dianes_dialogue_milk_sample:
     show diane f_shamed_talk
     dia "О."
     dia "Ох, конечно. Просто дайте мне секунду."
-    if M_diane.outfit == "shirtless":
+    if M_diane.outfit.get == "shirtless":
         show diane b_topless
     show diane a_squeeze3 f_down_front
     with dissolve
@@ -575,12 +575,12 @@ label dianes_dialogue_like_working_for_you:
     show player 13
     show diane f_laugh
     dia "Держу пари, что это так!"
-    if M_diane.outfit == "dressed":
+    if M_diane.outfit.get == "dressed":
         show diane f_smirk_talk a_dressed_finger with dissolve
     else:
         show diane f_smirk_talk
     dia "Какой молодой человек не наслаждался бы грудью весь день?"
-    if M_diane.outfit == "dressed":
+    if M_diane.outfit.get == "dressed":
         show diane f_smirk a_dressed_shovel with dissolve
     else:
         show diane f_smirk
@@ -598,13 +598,13 @@ label dianes_dialogue_like_working_for_you:
     player_name "Приятно заботиться о тебе."
     player_name "Мне это нравится."
     show player 13
-    if M_diane.outfit == "dressed":
+    if M_diane.outfit.get == "dressed":
         show diane f_smirk_talk a_dressed_blush with dissolve
     else:
         show diane f_smirk_talk
     dia "Ааа."
     dia "Мне это тоже нравится, {b}[firstname]{/b}."
-    if M_diane.outfit == "dressed":
+    if M_diane.outfit.get == "dressed":
         show diane f_smirk a_dressed_shovel with dissolve
     else:
         show diane f_smirk
@@ -619,7 +619,7 @@ label dianes_dialogue_like_working_for_you:
 
 label dianes_dialogue_leave_d12b:
     show player 14 at left
-    show diane f_normal
+    show diane f_normal b_naked a_naked_sides
     player_name "Мне лучше вернуться."
     show player 13
     show diane f_normal_talk
@@ -653,7 +653,7 @@ label dianes_dialogue_have_you_spoken_with_debname:
     show diane f_tired_talk
     dia "Ааа."
     hide player
-    if M_diane.outfit == "dressed":
+    if M_diane.outfit.get == "dressed":
         show diane kiss
     else:
         show diane kiss_shirtless
@@ -1057,7 +1057,7 @@ label dianes_dialogue_hows_the_baby_pregnancy_3:
     dia "Разве это не восхитительно?"
     show diane f_normal
     pause
-    show diane f_normal_talk
+    show diane f_normal_talk a_naked_sides with dissolve
     dia "Спасибо за регистрацию со мной, {b}[firstname]{/b}."
     show diane f_normal
     show player 14
@@ -1145,7 +1145,7 @@ label dianes_dialogue_cow_suit:
     dia "Ох?"
     show diane f_normal
     menu:
-        "Надень его." if M_diane.is_naked:
+        "Надень его." if M_diane.outfit.get == "naked":
             show player 14 at left
             show diane f_normal
             player_name "Я хочу, чтобы ты носила его, пока я тебя трахаю."
@@ -1166,7 +1166,7 @@ label dianes_dialogue_cow_suit:
             $ M_diane.outfit.is_naked = 0
             $ M_diane.outfit.set_default_outfit_schedule([["cow","cow","nightgown","nightgown"]])
 
-        "Можешь его снять?" if not M_diane.is_naked:
+        "Можешь его снять?" if not M_diane.outfit.get == "naked":
             show player 14 at left
             show diane f_normal
             player_name "Я бы предпочел, чтобы ты была полностью голой."
