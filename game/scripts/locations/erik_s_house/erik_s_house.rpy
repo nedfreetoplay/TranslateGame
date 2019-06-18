@@ -33,39 +33,39 @@ label eriks_mailbox_dialogue:
     scene expression L_erikhouse_mailbox.background
     if game.mail["erik"] == "m_magazine":
         show expression "objects/object_mailbox_item01_closeup.png" with dissolve
-        player_name "( Huh. A magazine. I wonder who it could be for... )"
-        player_name "( Milfness? Well, I know it's for {b}Mrs. Johnson{/b}. I didn't know she subscribed to these, though... )"
-        player_name "( I'd better put this back. )"
+        player_name "( Хмм. Журнал. Интересно для кого он... )"
+        player_name "( Для мамочек? Что ж, я знаю это для {b}Миссис Джонсон{/b}. Я не знал что она подписана на это, однако... )"
+        player_name "( Мне лучше положить его обратно. )"
         hide expression "objects/object_mailbox_item01_closeup.png" with dissolve
 
     elif game.mail["erik"] == "m_dad_letter":
-        player_name "( I didn't know they received letters. I wonder who it's addressed to... )"
-        player_name "( It's for {b}Erik{/b}. )"
+        player_name "( Я не знал что они получают письма. Интересно кому оно адресовано... )"
+        player_name "( Это для {b}Эрика{/b}. )"
         menu:
-            "Leave it alone.":
+            "Оставить на месте.":
                 call screen eriks_mailbox
-            "Open it.":
+            "Открыть.":
 
                 show mailbox_letter at Position(xpos = 565, ypos = 768) with dissolve
-                player_name "( A letter from D?! )"
-                player_name "I'd better put this back."
+                player_name "( Письмо от некого Д?! )"
+                player_name "Я лучше положу его обратно."
                 hide mailbox_letter with dissolve
                 call screen eriks_mailbox
 
     elif game.mail["erik"] == "m_pizza_pamphlet":
-        player_name "( This looks like junk mail. )"
+        player_name "( Это похоже на почтовый мусор. )"
         show expression "objects/object_mailbox_item02_closeup.png" with dissolve
-        player_name "( {b}Tony's Pizza{/b}. I haven't been to that place in a while. )"
-        player_name "( I'd better put this back. )"
+        player_name "( {b}Пицца Тони{/b}. Я давненько не был в этом месте. )"
+        player_name "( Я лучше положу это обратно. )"
         hide expression "objects/object_mailbox_item02_closeup.png" with dissolve
         $ L_pizzeria_exterior.unlock()
         $ L_dealership_front.unlock()
 
     elif game.mail["erik"] == "m_newspaper":
-        player_name "( Local news. This should be interesting... )"
+        player_name "( Местные новости. Это должно быть Интересно... )"
         show expression "objects/object_newspaper.png" with dissolve
-        player_name "( The thief is still on the loose? You would've thought they would've caught him by now. )"
-        player_name "( I'd better put this back. )"
+        player_name "( Вор все еще на свободе? Я думал что они его уже поймали. )"
+        player_name "( Я лучше положу это обратно. )"
         hide expression "objects/object_newspaper.png" with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
