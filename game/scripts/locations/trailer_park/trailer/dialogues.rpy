@@ -372,11 +372,11 @@ label trailer_roxxy_get_uniform_on_doggo:
     return
 
 label trailer_roxxy_check_trailer:
-    scene expression "backgrounds/location_trailer_door.jpg"
+    scene expression game.timer.image("trailer_door{}")
     pause
     rox "..."
     scene black with fade
-    scene expression "backgrounds/location_trailer_day_blur.jpg"
+    scene expression player.location.background_blur with None
     show player 5 at left
     show roxxy 3c at right
     with dissolve
