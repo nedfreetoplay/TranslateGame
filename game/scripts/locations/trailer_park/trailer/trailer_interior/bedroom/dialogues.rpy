@@ -1,49 +1,49 @@
 label trailer_bedroom_roxxy_get_uniform_on_doggo_intro:
     scene expression game.timer.image("trailer_bedroom{}_blur")
     show player 109
-    player_name "( {b}Roxxy{/b} takes pretty good care of her room. )"
-    player_name "( It's not nearly as messy as the rest of her place... )"
+    player_name "( {b}Рокси{/b} следит за порядком в своей комнате. )"
+    player_name "( Здесь даже близко не такой срач, как во всём остальном доме... )"
     hide player
     show player 5 at left
     show roxxy 1l at right
     with dissolve
-    rox "That'll have to do I guess..."
+    rox "Вот здесь я и живу..."
     show roxxy 1k
     show player 13
     player_name "..."
     show player 14
-    player_name "I like your room!"
+    player_name "Мне нравится твоя комната!"
     show player 13
     show roxxy 1l
-    rox "Oh, shut up!"
+    rox "Ох, заткнись!"
     show roxxy 1d
-    rox "How could anybody like this dump?"
+    rox "Как кому-то вообще может понравиться этот срач?"
     show roxxy 1c
     show player 14
-    player_name "C'mon, it's not that bad..."
+    player_name "Да ладно тебе, всё не так плохо..."
     show player 13
     show roxxy 1d
-    rox "Yeah, well."
-    rox "That's easy for you to say..."
+    rox "Ну, ладно."
+    rox "Тебе легко говорить..."
     show roxxy 1l
-    rox "... You don't have to share a bed with {b}my Mother{/b}!"
+    rox "... тебе в одной кровати с {b}мамой{/b} спать не надо!"
     show roxxy 1k
     show player 11
     pause
     show player 10
-    player_name "You share this bed with your {b}Mom{/b}?"
+    player_name "Ты спишь вместе с {b}мамой{/b}?"
     show player 5
     show roxxy 2c with dissolve
-    rox "... I err..."
+    rox "... Я... эээ..."
     show roxxy 3
-    rox "No!"
+    rox "Нет!"
     show roxxy 2c
-    rox "... I mean..."
+    rox "... в смысле..."
     show roxxy 29
     pause
     show player 11
     show roxxy 30
-    rox "Just shut up!"
+    rox "Короче заткнись!"
     show roxxy 1k with dissolve
     pause
     return
@@ -51,25 +51,25 @@ label trailer_bedroom_roxxy_get_uniform_on_doggo_intro:
 label trailer_bedroom_roxxy_wait_in_her_room_lost_shooting:
     show player 5 at left
     show roxxy 1l at right
-    rox "... I should get changed for practice before we head back to school."
+    rox "... мне нужно переодеться перед тем, как мы вернёмся в школу."
     show roxxy 1k
     show player 10
-    player_name "Okay..."
+    player_name "Хорошо..."
     show player 5
     rox "..."
     show roxxy 2 with dissolve
-    rox "Go on now, you already got a show at the shooting range..."
-    rox "... I'm not about to give you another!"
-    rox "Go wait for me outside!"
+    rox "Выйди, ты уже на стрельбище всё рассмотрел..."
+    rox "... хватит с тебя!"
+    rox "Подожди меня снаружи!"
     show roxxy 1
     show player 29 with dissolve
-    player_name "Oh! My bad..."
+    player_name "О! Сейчас выхожу..."
     show player 3
     hide roxxy
     hide player
     show player 34
     with dissolve
-    player_name "( Hmm, what if I had won the first time? Would she have let me stay? )"
+    player_name "( Хмм, а что, если бы я выиграл с первого раза? Может она бы разрешила мне остаться? )"
     scene expression "backgrounds/location_trailer_day_blur.jpg"
     show player 109f at left
     with dissolve
@@ -77,10 +77,10 @@ label trailer_bedroom_roxxy_wait_in_her_room_lost_shooting:
     show roxxy_outfit cheer at right
     with dissolve
     show player 14
-    player_name "You ready to head back?"
+    player_name "Ты готова?"
     show player 13
     show roxxy 24
-    rox "Yup."
+    rox "Угу."
     hide roxxy
     hide roxxy_outfit cheer
     hide player
@@ -90,17 +90,17 @@ label trailer_bedroom_roxxy_wait_in_her_room_lost_shooting:
 label trailer_bedroom_roxxy_wait_in_her_room_won_shooting:
     show player 5
     show roxxy 1b at right
-    rox "... I should get changed for practice before we head back to school."
+    rox "... мне нужно переодеться перед тем, как мы вернёмся в школу."
     show roxxy 1
     show player 10
-    player_name "Okay."
+    player_name "Хорошо."
     show player 5
     rox "..."
     show roxxy 50c at Position (xoffset=-23) with dissolve
-    rox "Remember when I said, \"I owe you big time,\" back at the shooting range?"
+    rox "Помнишь, я на стрельбище сказала: \"Я в огромном долгу перед тобой\"?"
     show roxxy 49 at Position (xoffset=-23)
     show player 10
-    player_name "... Yeah?"
+    player_name "... Да?"
     show player 5
     show roxxy 51 with dissolve
     pause
@@ -112,7 +112,7 @@ label trailer_bedroom_roxxy_wait_in_her_room_won_shooting:
     show player 109f
     player_name "!!!" with hpunch
     show roxxy 56
-    rox "Consider us even!"
+    rox "Теперь мы в расчёте!"
     show roxxy 21
     show roxxy_outfit shorts at right
     with dissolve
@@ -124,19 +124,19 @@ label trailer_bedroom_roxxy_wait_in_her_room_won_shooting:
     show roxxy 23b
     show roxxy_outfit panties
     with dissolve
-    rox "Not bad, huh?"
+    rox "Неплохо, да?"
     show roxxy 23
     show player 111f
-    player_name "You've got a great body, {b}Roxxy{/b}!"
+    player_name "У тебя прекрасное тело, {b}Рокси{/b}!"
     show player 110f
     show roxxy 23b
-    rox "Tell me something I don't know!"
+    rox "Это я и без тебя знаю!"
     hide roxxy_outfit
     show roxxy 65c
     with dissolve
     pause
     show roxxy 67 with dissolve
-    rox "Hmm, does this look like it shrank to you?"
+    rox "Хмм, ты чего зажался-то?"
     show roxxy 23
     show roxxy_outfit cheer at right
     with dissolve
@@ -145,19 +145,19 @@ label trailer_bedroom_roxxy_wait_in_her_room_won_shooting:
     show roxxy 24
     rox "{b}[firstname]{/b}?"
     show roxxy 23
-    player_name "... Huh?"
+    player_name "... да?"
     show roxxy 24
-    rox "Does this look bad?"
+    rox "Тебе не нравится?"
     show roxxy 23
     show player 29 with dissolve
-    player_name "N-no..."
-    player_name "You look beautiful!"
+    player_name "Н-нет..."
+    player_name "Всё просто замечательно!"
     show player 3
     show roxxy 23b
-    rox "Heh, alright. We should get back to school before I miss practice!"
+    rox "Хех, ну, хорошо. Нам нужно вернуться в школу, пока я не опоздала на тренировку!"
     show roxxy 23
     show player 14 with dissolve
-    player_name "Y-yeah, okay!"
+    player_name "Д-да, хорошо!"
     hide player
     hide roxxy
     hide roxxy_outfit cheer
@@ -173,27 +173,27 @@ label trailer_bedroom_roxxy_go_to_picnic:
     player_name "..."
     pause
     show roxxy 87b
-    rox "Hehe, stop staring and get those wet clothes off."
+    rox "Хехе, хорош пялиться, снимай свои мокрые шмотки."
     show roxxy 87
     show player 10
-    player_name "R-really?"
+    player_name "П-правда?"
     show player 5
     show roxxy 87b
-    rox "Yeah, I don't want you to get my bed wet..."
+    rox "Ага, не хочу же я, чтобы из-за тебя всё постельное бельё промокло..."
     show roxxy 87
     show player 10
-    player_name "... Y-your bed?"
+    player_name "... Б-бельё?"
     show player 5
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*Глыть*{/b}"
     show roxxy 87c
-    rox "Hahaha, don't get any ideas!"
+    rox "Хахаха, ничего такого!"
     show roxxy 87b
-    rox "It's the only place to sit in here..."
+    rox "Нам просто нужно где-то сидеть..."
     show roxxy 87
     show player 12
-    player_name "Oh, right."
+    player_name "Ох, ладно."
     show player 14
-    player_name "Okay."
+    player_name "Хорошо."
     show player 659 with dissolve
     pause
     show player 659b with dissolve
@@ -206,26 +206,26 @@ label trailer_bedroom_roxxy_go_to_picnic:
     show player 101c at Position (xpos=156)
     show player_wet at left
     with dissolve
-    player_name "How's your ankle doing?"
+    player_name "Как твоя лодыжка?"
     show player 100c
     show roxxy 87b
-    rox "... It's still sore but I'll be fine."
+    rox "... немного распухла, но в целом в порядке."
     show roxxy 87
     show player 101d
-    player_name "Well, why don't you sit down and let me see it?"
+    player_name "Может, ты присядешь и я её осмотрю?"
     show player 100d
     show roxxy 87b
-    rox "Oh, are you a doctor now?"
+    rox "О, а ты у нас теперь доктор?"
     show roxxy 87
     show player 101c
-    player_name "That's right."
+    player_name "Естественно."
     show player 101d
-    player_name "Doctor {b}[firstname]{/b}!"
+    player_name "Доктор {b}[firstname]{/b}!"
     show player 100d
     show roxxy 87c
-    rox "Hahaha!"
+    rox "Хахаха!"
     show roxxy 88 with dissolve
-    rox "Fine."
+    rox "Ладно."
     hide roxxy
     hide player
     hide player_wet
@@ -236,92 +236,92 @@ label trailer_bedroom_roxxy_go_to_picnic:
     show roxxy foot 1
     show roxxy_undies foot
     with dissolve
-    player_name "Right here?"
+    player_name "Здесь?"
     show player_sitting 18
     show roxxy foot 2
-    rox "{b}*iiitthhh*{/b} Yeah..."
+    rox "{b}*аааааах*{/b} Ага..."
     show roxxy foot 1
     show player_sitting 19
-    player_name "Heh, just relax."
+    player_name "Хех, расслабься."
     show player_sitting 18
     rox "..."
     show roxxy foot 2
-    rox "That feels really good."
+    rox "Это очень приятно."
     show roxxy foot 1
     show player_sitting 17
-    player_name "Does it?"
+    player_name "Правда?"
     show player_sitting 16
     show roxxy foot 2
-    rox "Yeah!"
+    rox "Да!"
     show roxxy foot 1
     show player_sitting 17
-    player_name "Cool."
-    player_name "... I have no idea what I'm doing."
+    player_name "Здорово."
+    player_name "... потому что я не очень представляю, что делаю."
     show player_sitting 16
     show roxxy foot 2c
-    rox "Haha!"
+    rox "Ахаха!"
     show roxxy foot 1b
     show player_sitting 21
-    player_name "Haha!"
+    player_name "Ахаха!"
     show player_sitting 16
     show roxxy foot 2b
-    rox "Mmm, thank you {b}[firstname]{/b}..."
+    rox "Ммм, спасибо, {b}[firstname]{/b}..."
     show roxxy foot 1b
     show player_sitting 19
-    player_name "Hmm?"
-    player_name "For what?"
+    player_name "Хмм?"
+    player_name "За что?"
     show player_sitting 16
     show roxxy foot 2
-    rox "... I dunno. For being such a great guy, I guess..."
+    rox "... Не знаю. За то, что ты такой классный парень, наверное..."
     show roxxy foot 1
     show player_sitting 17
-    player_name "Heh, it's nothing."
-    player_name "Is this helping at all?"
+    player_name "Хех, да незачто."
+    player_name "Тебе стало легче?"
     show player_sitting 16
     show roxxy foot 2
-    rox "... Yeah."
+    rox "... да."
     show roxxy foot 2b
-    rox "It feels much better!"
+    rox "Так куда лучше!"
     show roxxy foot 1b
     player_name "..."
     show roxxy foot 2c
-    rox "Hehehe."
+    rox "Хехехе."
     show roxxy foot 2b
     show player_sitting 17
-    player_name "What?"
+    player_name "Что?"
     show player_sitting 16
     show roxxy foot 2b
-    rox "Your face..."
+    rox "Твое лицо..."
     show roxxy foot 1b
     show player_sitting 19
-    player_name "Hmm?"
+    player_name "Хмм?"
     show player_sitting 18
     show roxxy foot 2
-    rox "It's still all muddy..."
+    rox "Оно немного в грязи..."
     show roxxy foot 1b
     show player_sitting 17
-    player_name "... Oh, sorry!"
+    player_name "... Ну, извини!"
     show player_sitting 16
     show roxxy foot 2c
-    rox "Hehe, it's alright."
+    rox "Хехе, да всё нормально."
     hide roxxy_undies foot
     show roxxy foot 4
     with dissolve
-    rox "Here..."
+    rox "Вот..."
     hide player_wet bed
     show roxxy foot 5
     with dissolve
     rox "..."
     player_name "..."
     show player_sitting 17
-    player_name "Heh, did you get..."
+    player_name "Хех, ну ты..."
     hide player_sitting
     show roxxy foot 7
     player_name "!!!" with hpunch
     show player_sitting 17
     show roxxy foot 5
     with dissolve
-    player_name "... Wow!"
+    player_name "... Вау!"
     hide player_sitting
     show roxxy foot 6_7
     with dissolve
@@ -329,62 +329,62 @@ label trailer_bedroom_roxxy_go_to_picnic:
     pause
     scene black with fade
     hide roxxy
-    scene expression "backgrounds/location_trailer_night_closeup.jpg"
+    scene expression "backgrounds/location_trailer_closeup_night.jpg"
     show crystal 4 at right
     with dissolve
     pause
-    "{b}*Bang Bang Bang*{/b}"
+    "{b}*Тук тук тук*{/b}"
     show crystal 2 with dissolve
-    crys "Jesus, don't break my door!"
-    crys "I'm comin'!"
+    crys "Боже, только дверь не сломайте!"
+    crys "Уже иду!"
     hide crystal with dissolve
 
     scene expression "backgrounds/location_trailer_cutscene05.jpg"
     show rain
     with fade
-    dex "Where's {b}Roxxy{/b}?"
+    dex "Где {b}Рокси{/b}?"
     scene expression "backgrounds/location_trailer_night_blur.jpg"
     show crystal 6f at left
     show dexter 11 at right
     show dexter_wet at right
     show rain
     with dissolve
-    crys "Oh, it's you..."
-    crys "Uhh, {b}Drew{/b} was it?"
+    crys "А, это ты..."
+    crys "Эээ, {b}Дрю{/b}?"
     show crystal 5f
     show dexter 12c
-    dex "{b}Dexter{/b}."
+    dex "{b}Декстер{/b}."
     show dexter 11
     show crystal 6f
-    crys "Right, that's it..."
-    crys "{b}Roxxy's{/b} old boyfriend."
+    crys "А, точно..."
+    crys "Бывший парень {b}Рокси{/b}."
     show crystal 5f
     show dexter 12b
-    dex "Huh?"
+    dex "Чего?"
     show crystal 6f
-    crys "I'm afraid {b}Roxxy's{/b} busy with her new boyfriend at the moment."
+    crys "Боюсь {b}Рокси{/b} сейчас занята со своим новым парнем."
     show crystal 5f
     show dexter 12c
     dex "!!!" with hpunch
     show dexter 12d
-    dex "New boyfriend?"
+    dex "Новым парнем?"
     show dexter 14 with dissolve
     show crystal 6f
-    crys "I'll go tell her yer here."
-    crys "Just hold on, {b}Danny{/b}..."
+    crys "Пойду, скажу ей, что ты пришёл."
+    crys "Обожди здесь, {b}Денни{/b}..."
     hide crystal with dissolve
     show dexter 12d with dissolve
-    dex "... It's {b}Dexter{/b}!"
-    dex "What the hell?!"
+    dex "... меня зовут {b}Декстер{/b}!"
+    dex "Какого чёрта?!"
     hide dexter
     hide dexter_wet
     with dissolve
     scene expression "backgrounds/location_trailer_cutscene02.jpg"
     show rain
     with fade
-    dex "That bitch had better be jokin-"
+    dex "Лучше бы эта старая сука ошиба-"
     dex "!!!" with hpunch
-    dex "MOTHERFUCKER!"
+    dex "ТВОЮЖМАТЬ!"
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy foot 6_7
     with dissolve
@@ -393,7 +393,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     show rain
     with fade
     dex "..."
-    dex "( You're gonna die {b}[firstname]{/b}!!! )"
+    dex "( Тебе крышка, {b}[firstname]{/b}!!! )"
     hide rain
     scene black
     with fade
@@ -401,26 +401,26 @@ label trailer_bedroom_roxxy_go_to_picnic:
     scene expression "backgrounds/location_trailer_bedroom_closeup01.jpg"
     show roxxy foot 6_7
     with dissolve
-    rox "Mmm..."
+    rox "Ммм..."
     show roxxy foot 8_9 at right with dissolve
-    rox "... Oh, God!"
-    rox "Aahh!"
+    rox "... О, Боже!"
+    rox "Ааах!"
     pause
     show roxxy foot 8b_9b
-    rox "Ahh, fffuu..."
+    rox "Аах, бляяя..."
     pause
-    rox "Don't stop!"
-    pause 
-    rox "Don't-"
+    rox "Не останавливайся!"
     pause
-    rox "Ngghh!"
-    crys "Well look at you two, goin' at it like a couple raccoons in here!"
+    rox "Не-"
+    pause
+    rox "Гхххх!"
+    crys "Поглядите-ка, вы тут как парочка енотиков!"
     hide roxxy
     scene expression "backgrounds/location_trailer_cutscene09.jpg"
     with fade
-    show text "{b}Roxxy's{/b} mom was at the door watching us!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Мама {b}Рокси{/b} следила за нами!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I wonder how long she had been there?!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Интересно, как долго она стояла под дверью?!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -430,61 +430,61 @@ label trailer_bedroom_roxxy_go_to_picnic:
     show player 266b zorder 1 at left
     show crystal 5 at right
     with dissolve
-    rox "{b}Mom{/b}, what the hell!!" with hpunch
+    rox "{b}Мам{/b}, какого хрена!!" with hpunch
     show roxxy 17df
     show crystal 6
-    crys "Hehe, ya'll are havin' a good ole' time in here, huh?!"
+    crys "Хехе, а вы тут вовсю резвитесь, да?!"
     show crystal 5
     show roxxy 17cf
-    rox "Get out!"
+    rox "Выметайся!"
     show roxxy 17df
     show crystal 6
-    crys "Well, you don't have to stop on my account..."
+    crys "Хей, можете не останавливаться..."
     show crystal 15
-    crys "Good lord, boy!"
+    crys "Господи боже, мальчик!"
     show crystal 16
-    crys "Yer just full of surprises, ain't ya?!"
+    crys "Ты полон сюрпризов, не правда ли?!"
     show crystal 14
     show player 267
     player_name "!!!"
     show player 100c with dissolve
     show crystal 6
-    crys "You definitely got a keeper here, {b}Roxxy{/b}!"
-    crys "I'd hang on to him real tight, iffin' I were you..."
+    crys "Да у тебя настоящая VIP-охрана, {b}Рокси{/b}!"
+    crys "Я бы держалась его, в том смысле, что..."
     show crystal 5
     show roxxy 17cf
-    rox "What do you want, {b}Mom{/b}?!"
+    rox "Чего тебе надо, {b}Мам{/b}?!"
     show roxxy 17df
     show crystal 6
-    crys "Good grief, just calm down would ya?"
-    crys "I came in here to tell ya, that old boyfriend of yers is outside."
+    crys "Боже правый, может ты успокоишься?"
+    crys "Я пришла сказать, что твой бывший стоит снаружи."
     show crystal 5
     show player 101c
-    player_name "What?!"
+    player_name "Что?!"
     show player 101e
     show roxxy 17ef
-    rox "You mean {b}Dexter{/b}?"
-    rox "He's here?!"
+    rox "Ты имеешь в виду {b}Декстера{/b}?"
+    rox "Он здесь?!"
     show roxxy 17bf
     show crystal 6
-    crys "Well, whatever his name is... You know, the big ugly one."
-    crys "I told him you was busy with your new man..."
+    crys "Ну, как бы там его не звали... этот стрёмный громила."
+    crys "Я сказала ему что ты с новым парнем..."
     show crystal 5
     show roxxy 17ef
-    rox "Oh my god, no you didn't!"
+    rox "Господи, что ты наделала!"
     show roxxy 17bf
     show player 101
-    player_name "Uh oh..."
+    player_name "Ой-ёй..."
     show player 101e
-    crys "Hmm?"
+    crys "Хмм?"
     show crystal 6
-    crys "What are you getting all bent outta shape fer?"
+    crys "Чего вы оба напряглись-то так?"
     show crystal 5
     show roxxy 17ef
-    rox "{b}Mom{/b}, {b}Dexter{/b} will kill {b}[firstname]{/b} if he finds him here!"
+    rox "{b}Мам{/b}, {b}Декстер{/b} убъёт {b}[firstname]{/b}, если он его здесь увидит!"
     show roxxy 17bf
     show crystal 6
-    crys "Pshh, ain't nobody killin' anybody in my house!"
+    crys "Пфф, никакой мокрухи в моем доме!"
     show crystal 5
     hide roxxy_wet_undies_f
     show roxxy 66f
@@ -492,132 +492,132 @@ label trailer_bedroom_roxxy_go_to_picnic:
     player_name "..."
     show roxxy 3df at Position (xoffset=57) with dissolve
     show crystal 6
-    crys "You just go and tell him to leave."
+    crys "Просто выйди и скажи, чтобы он шёл восвояси."
     show crystal 16
-    crys "I'll stay here and keep {b}[firstname]{/b} company..."
+    crys "А я останусь здесь и составлю {b}[firstname]{/b} компанию..."
     show crystal 15
-    crys "Hehehe."
+    crys "Хехехе."
     show crystal 14
     show roxxy 3f at Position (xoffset=57)
-    rox "For fucks sake, {b}Mom{/b}..."
+    rox "Черт побери, {b}Мам{/b}..."
     hide roxxy with dissolve
     show crystal 6
-    crys "Mmm, so is my daughter takin' good care of you?"
+    crys "Ммм, моя дочь о тебе может о тебе позаботиться?"
     show crystal 5
     show player 101c
-    player_name "Huh?"
+    player_name "Чего?"
     show player 100c
     show crystal 6
-    crys "I'm just saying, a capable man like you..."
+    crys "Ну, в смысле, ты такой способный молодой человек..."
     show crystal 15
-    crys "... With a penis like that."
+    crys "... с таким огромным членом."
     show crystal 6
-    crys "{b}Roxxy{/b} best be seeing all your needs is met."
+    crys "{b}Рокси{/b} лучше бы удовлетворять твои потребности."
     show crystal undress 1 with dissolve
-    crys "... And if she don't..."
+    crys "... а если она не будет справляться..."
     show crystal undress 3 with dissolve
     show player 101h
-    crys "... You just come and see ole' {b}Crystal{/b}."
+    crys "... ты всегда можешь придти к старой доброй {b}Кристал{/b}."
     show player 101g
-    player_name "... Really?"
+    player_name "... Правда?"
     show crystal undress 1 with dissolve
     show player 100c
-    crys "Oh, of course..."
+    crys "Ох, ну конечно..."
     show crystal 6 with dissolve
-    crys "I know a good man when I see one. Even if my baby girl doesn't..."
-    crys "I don't want my grandkids lookin' like that neanderthal outside!"
+    crys "Я хорошего мужика за версту чую. В отличие от моей дочурки..."
+    crys "Мне не нужны внуки от этого неандертальца снаружи!"
     show crystal 5
     player_name "..."
     show roxxy 3cf zorder 0 at Position (xpos=357) with dissolve
-    rox "There isn't anybody out there, {b}Mom{/b}..."
+    rox "Там никого нет, {b}Мам{/b}..."
     show player 101d
     show roxxy 3df
     show crystal 6
-    crys "Well, he musta left after I told him you was in here with {b}[firstname]{/b}."
+    crys "Ну, наверное, он смотался после того, как я сказала, что ты внутри с {b}[firstname]{/b}."
     show crystal 5
     show player 101e
     show roxxy 84f at Position (xoffset=33) with dissolve
-    rox "Shit..."
+    rox "Дерьмо..."
     show roxxy 33f at Position (xoffset=-34) with dissolve
-    rox "This is bad!"
+    rox "Это очень плохо!"
     show roxxy 32f at Position (xoffset=-34)
     show crystal 11
-    crys "Oh, stop worryin'!"
-    crys "That dummy ain't gonna do nothin'..."
+    crys "А, да не парься!"
+    crys "Этот придурок тебе ничего не сделает..."
     show crystal 6
-    crys "You just get back to entertainin' yer man!"
+    crys "Продолжай развлекать своего паренька!"
     show crystal 5
     show player 100c
     player_name "..."
     show crystal 6
-    crys "... And don't be afraid to tag me in if you need a break."
+    crys "... а если устанешь, то всегда можешь позвать меня."
     show crystal 5
     show roxxy 3f with dissolve
-    rox "Eugh, shut up {b}Mom{/b}!"
+    rox "Оооох, заткнись, {b}Мам{/b}!"
     show roxxy 3bf
     show crystal 6
-    crys "Hahaha!"
+    crys "Хахаха!"
     hide crystal with dissolve
     pause
     show player 101
-    player_name "So {b}Dexter{/b} knows about us, huh?"
+    player_name "Итак, {b}Декстер{/b} знает о нас, так?"
     show player 100
     show roxxy 33 at right with dissolve
-    rox "Yeah, I think so..."
-    rox "What are we going to do?"
+    rox "Ну, я думаю да..."
+    rox "И что мы будем с этим делать?"
     show roxxy 32
     show player 101b
-    player_name "Hmm, I don't know."
+    player_name "Хмм, я не знаю."
     show player 8 with dissolve
-    player_name "... But I think {b}I'd better be prepared for trouble at school tomorrow...{/b}"
+    player_name "... но думаю {b}лучше бы мне завтра быть готовым к проблемам в школе...{/b}"
     show player 5 with dissolve
     show roxxy 33
-    rox "Yeah, if he does know... He's gonna want blood."
+    rox "Да уж, если он знает... Прольётся кровь."
     show roxxy 32
     show player 10
-    player_name "Well, I should probably get home."
+    player_name "Ну, я, наверное, домой пойду."
     show player 5
     show roxxy 33
-    rox "I'm sorry, {b}[firstname]{/b}..."
+    rox "Прости, {b}[firstname]{/b}..."
     show roxxy 32
     show player 10
-    player_name "No, it's not your fault."
+    player_name "Нет, это не твоя вина."
     show player 12
-    player_name "This has been coming for a long time!"
+    player_name "Рано или поздно это должно было произойти!"
     show player 5
     rox "..."
     show player 10
-    player_name "I'll see you soon..."
+    player_name "До встречи..."
     show player 5
     show roxxy 1l
-    rox "Wait!"
+    rox "Постой!"
     show roxxy 1k
     show player 12
-    player_name "Hmm?"
+    player_name "Хмм?"
     hide player
     show roxxy 92 at left
     with dissolve
     pause
     show roxxy 59 with dissolve
-    rox "Be careful going home."
-    rox "He could be waiting for you..."
+    rox "Будь осторожен."
+    rox "Он может ждать тебя где-нибудь..."
     show roxxy 1k at center
     show player 29 at left
     with dissolve
-    player_name "Heh, yeah. I'll be careful."
+    player_name "Хех, ладно. Я постараюсь."
     hide player
-    show roxxy 1kf
+    show roxxy 1e
     with dissolve
     pause
-    crys "Did you see the size of that thing?!"
+    crys "Ты видела, какой у него размер?!"
     show roxxy 1if at Position (xoffset=-34)
-    crys "Sweet Jesus, you dun hit the jackpot girl!"
+    crys "Боже правый, тебе с ним {b}крупно{/b} повезло!"
     show roxxy 3f with dissolve
-    rox "Oh. My. God."
+    rox "О. Боже. Мой."
     show roxxy 31f
-    rox "Shut up, {b}Mom{/b}!"
+    rox "Заткнись, {b}Мам{/b}!"
     show roxxy 84f at Position (xoffset=33) with dissolve
-    crys "Hahaha!"
+    crys "Хахаха!"
     hide roxxy with dissolve
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
