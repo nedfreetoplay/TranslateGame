@@ -329,7 +329,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     pause
     scene black with fade
     hide roxxy
-    scene expression "backgrounds/location_trailer_closeup_night.jpg"
+    scene expression "backgrounds/location_trailer_night_closeup.jpg"
     show crystal 4 at right
     with dissolve
     pause
@@ -606,7 +606,7 @@ label trailer_bedroom_roxxy_go_to_picnic:
     with dissolve
     player_name "Хех, ладно. Я постараюсь."
     hide player
-    show roxxy 1e
+    show roxxy 1kf
     with dissolve
     pause
     crys "Ты видела, какой у него размер?!"
