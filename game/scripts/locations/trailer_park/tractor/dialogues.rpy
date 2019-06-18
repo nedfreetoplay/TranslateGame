@@ -1,231 +1,231 @@
 label trailer_tractor_roxxy_beat_clyde:
-    scene expression player.location.background_blur with None
+    scene expression "backgrounds/location_trailer_tractor_day_blur.jpg"
     show clyde 1 at left
     show player 5f at Position (xpos=600)
     show roxxy 3 at right
     with dissolve
-    rox "Alright, where is it, you stupid Hillbilly?!"
+    rox "Отвечай, тупая деревенщина, куда ты её спрятал?!"
     show roxxy 3b
     show clyde 2
-    clyde "Huh?"
-    clyde "What are you on about now?!"
+    clyde "Чё?"
+    clyde "Ты вообще о чём?!"
     show clyde 4 with dissolve
-    clyde "... Can't ya see I'm fixin' to shoot stuff here?!"
+    clyde "... Ты чё не видишь, я стрельбой занят?!"
     show clyde 3
     show roxxy 3
-    rox "My {b}Cheerleading uniform{/b}!"
-    rox "I know you took it!"
+    rox "Моя {b}форма Черлидера{/b}!"
+    rox "Я знаю, что ты её взял!"
     show roxxy 3d
     show player 113f
-    player_name "... Why would he take your {b}Cheerleading uniform{/b}?"
+    player_name "... зачем ему брать твою {b}форму{/b}?"
     show player 114f
     show roxxy 30
-    rox "{b}*Sigh*{/b} ... Because he's an idiot..."
+    rox "{b}*Эхх*{/b} ... Потому что он идиот..."
     show roxxy 3d
     show clyde 4
     show player 5f
-    clyde "Hey, I'm not an idjit!"
-    clyde "My dog just needed somethin' to wear at the shootin' range is all..."
+    clyde "Эй, я не идиот!"
+    clyde "Просто моему пёселю нужно что-то носить на стрельбище..."
     show clyde 3
     show player 11f
     player_name "..."
     show clyde 6 with dissolve
-    clyde "See!"
+    clyde "Видите?!"
     show clyde 5
     show roxxy 2b
     show player 22f
     player_name "!!!" with hpunch
     show player 110
     show clyde 7
-    clyde "Ain't she just the cutest thing you ever saw?!"
+    clyde "Разве это не самое милое создание на свете?!"
     show clyde 5
     show roxxy 2c
-    rox "{b}*Gasp*{/b}"
+    rox "{b}*Ооох*{/b}"
     show roxxy 31
-    rox "You asshole!"
+    rox "Ты засранец!"
     show roxxy 3
-    rox "I told you not to put my clothes on that disgusting animal of yours!"
+    rox "Я же говорила тебе не надевать мою одежду на это ужасное создание!"
     show roxxy 3d
     show clyde 6
-    clyde "Hey now! Don't be talking 'bout my dog like that!"
+    clyde "Эй! Не смейте ругать моего пёселя!"
     show clyde 5
     show player 111
-    player_name "... I'm so confused."
+    player_name "... Я запутался."
     show player 110
     show roxxy 31
-    rox "Give it back!"
+    rox "Отдай шмотки!"
     show roxxy 3b
     show clyde 6
-    clyde "Nope, don't think I will..."
-    clyde "I gotta practice for the state fair and my dog's gonna keep my spirits up!"
-    clyde "I'm winnin' her one them {b}big stuffed beavers{/b} this year for sure!"
+    clyde "Неа, не отдам..."
+    clyde "Я должен попрактиковаться перед ярмаркой, а пёсель меня вдохновляет!"
+    clyde "В этом году я точно выиграю ему одного из этих бобриков!"
     show clyde 5b
-    pig "{b}*Oink Oink*{/b}"
+    pig "{b}*хрю-хрю*{/b}"
     show clyde 5
     show player 109
     player_name "..."
     show player 114f
     show roxxy 3
-    rox "{b}Clyde{/b} this isn't funny! I need it for school!"
+    rox "{b}Клайд{/b}, не смешно уже! Форма нужна мне в школе!"
     show roxxy 3b
     show clyde 6
     show player 5f
-    clyde "Do you hear me laughin'?"
-    clyde "This is serious business!"
-    clyde "My dog wants one of them {b}big stuffed beavers{/b}!"
-    clyde "She's particularly {b}fond of the pink one{/b}."
+    clyde "Ты слышишь, как я смеюсь?"
+    clyde "Это серьезное дело!"
+    clyde "Моя собака хочет одного из этих {b}больших чучел Бобров{/b}!"
+    clyde "Она особенно {b}любит розовых{/b}."
     show clyde 5
     show player 10f
-    player_name "You know that's a pig, right?"
+    player_name "Ты же в курсе, что это свинья?"
     show player 5f
     show clyde 6
-    clyde "Naw, they're beavers, I'm pretty sure..."
+    clyde "Та не, это бобрики, базарю..."
     show clyde 5
     show player 10f
-    player_name "No, I mean... Your... \"Dog\"."
+    player_name "Нет, В смысле... твой... \"пёсель\"."
     show player 5f
     show clyde 7
-    clyde "... Yeah, I love that dog!"
+    clyde "... Ага, я обожаю своего пёселя!"
     show clyde 5
     show player 114f
     show roxxy 3c
-    rox "Don't bother, he's an idiot."
+    rox "Забей, он просто идиот."
     show player 5f
     show roxxy 31
-    rox "{b}Clyde{/b} give me the uniform or I'll get {b}Dexter{/b} to kick your ass!"
+    rox "{b}Клайд{/b}, отдай форму или я позову {b}Декстера{/b} надерёт тебе жопу!"
     show roxxy 3b
     show clyde 6
-    clyde "Hah!"
-    clyde "Dexter ain't gonna do that!"
-    clyde "You know, me and him get along like peas and carrots!"
+    clyde "Хах!"
+    clyde "Декстер этого не сделает!"
+    clyde "Ты ж знаешь, мы с ним не разлей вода!"
     show clyde 5
     show roxxy 1n with dissolve
-    rox "... Shit, I forgot about that."
+    rox "... чёрт, я и забыла об этом."
     show roxxy 3e
     show player 113f
-    player_name "Aren't you guys going through a rough patch anyways?"
+    player_name "У тебя же с ним сейчас проблемы?"
     show player 114f
     show roxxy 2 with dissolve
-    rox "... Yeah, but dummy here doesn't know that!"
+    rox "... да,  но этот тупица этого не знает!"
     show roxxy 3d
     show clyde 6
     show player 5f
-    clyde "{b}*Gasp*{/b} What did you do to {b}Dexter{/b}?!"
-    clyde "He's good people, man!"
+    clyde "{b}*глоток*{/b} Что ты сделала {b}Декстеру{/b}?!"
+    clyde "Он мировой мужик!"
     show clyde 5
     show player 10f
-    player_name "You actually like {b}Dexter{/b}?"
+    player_name "Тебе правда нравится {b}Декстер{/b}?"
     show player 5f
     show clyde 6
-    clyde "Yer damn skippy, I do!"
-    clyde "You shoulda seen us this one time!"
-    clyde "We was over at ole' Cooter's place, doin' a bit a cow tippin', and {b}Dexter{/b} up an-"
+    clyde "Ещё как, чёрт побери!"
+    clyde "Видел бы ты, что мы вместе творили!"
+    clyde "Мы короче были у Кутера, гоняли коров, и {b}Декстер{/b} такой-"
     show clyde 5
     show roxxy 3c
-    rox "Oh. My. God."
+    rox "О. Боже. Мой."
     show roxxy 3
-    rox "Would you shut up and give me my uniform?!"
+    rox "Может ты заткнёшься и отдашь мою форму?!"
     show roxxy 3b
     show clyde 6
-    clyde "... Is you deaf or somethin'?"
-    clyde "I dun told ya, my dog's usin' it!"
+    clyde "... Ты глухая или чё?"
+    clyde "Я ж сказал, она на пёселе моём!"
     show clyde 5
     show roxxy 3c
-    rox "{b}[firstname]{/b}, do something!"
+    rox "{b}[firstname]{/b}, сделай что-нибудь!"
     show roxxy 3d
     show player 10f
-    player_name "Uhh..."
-    player_name "C'mon, {b}Clyde{/b}..."
-    player_name "Isn't there something we can do in exchange for the uniform?"
+    player_name "Охх..."
+    player_name "Ну, {b}Клайд{/b}..."
+    player_name "Может мы обменяем форму на что-то ещё?"
     show player 5f
     show clyde 6
-    clyde "... Hmm."
-    clyde "Well, I might be willin' to give it back."
-    clyde "Iffin' {b}Roxxy{/b} shows me them hooters!"
+    clyde "... Хмм."
+    clyde "Ну, може я её вам и отдам."
+    clyde "Ежели {b}Рокси{/b} мне сисяндры покажет!"
     show clyde 5
     show roxxy 14
     show player 10f
-    player_name "... Huh?"
+    player_name "... Что?"
     show player 5f
     show roxxy 3
-    rox "Eugh! In your dreams, you fucking hick!"
+    rox "Ага! Размечтался, деревенщина!"
     show roxxy 3b
     show clyde 6
-    clyde "Now, now... No need to get all bitchy..."
-    clyde "... I'm just messin' with ya!"
+    clyde "Ну, ну... чё ты начинаешь..."
+    clyde "... И вообще мне мне некогда с тобой лясы точить!"
     show clyde 7
     clyde "..."
     show clyde 6
-    clyde "... Unless yer gonna do it?"
+    clyde "... Покажешь или нет?"
     show clyde 5
     show player 114f
     show roxxy 31
-    rox "NO!"
+    rox "НЕТ!"
     show roxxy 3b
     show player 12f
-    player_name "Didn't you say something about a shooting range?"
+    player_name "Ты что-то говорил о стрельбище?"
     show player 5f
     show clyde 6
-    clyde "Yeah, Buddy!"
-    clyde "It's just over yonder there. I built it myself!"
+    clyde "Ага, дружище!"
+    clyde "Оно вон там. Я сам его смастерил!"
     show clyde 5
     show player 4f with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 12f with dissolve
-    player_name "How about a little wager then?"
+    player_name "Как насчёт небольшого пари?"
     show player 13f
     show clyde 7
-    clyde "A wager, huh?"
+    clyde "Пари, да?"
     show player 14f
-    player_name "Yeah, if {b}I out shoot you{/b}, {b}Roxxy{/b} gets {b}her uniform{/b} back."
+    player_name "Да, если {b}Я отстреляюсь лучше, чем ты{/b}, {b}Рокси{/b} получит назад {b}свою униформу{/b}."
     show player 13f
     show clyde 6
-    clyde "... And when I win?"
+    clyde "... А если я выиграю?"
     show clyde 5
     show player 14f
-    player_name "I'll pay you $100?"
+    player_name "Я дам тебе $100?"
     show player 13f
     show clyde 7
     clyde "$100?"
-    clyde "That's not a bad idea..."
+    clyde "Это неплохая мысль..."
     show clyde 6
-    clyde "... But no deal..."
-    clyde "... I wanna see them boobies!"
+    clyde "... Но у меня есть мысля получше..."
+    clyde "... Я хочу посмотреть на её сисяндры!"
     show clyde 5
     show roxxy 31
-    rox "You're out of your mind!"
+    rox "Ты с ума сошёл!"
     show roxxy 3b
     show clyde 6
-    clyde "Them's mah terms!"
-    clyde "You want that {b}uniform{/b} or don't ya?!"
+    clyde "Это мои условия!"
+    clyde "Тебе так-то нужна твоя {b}форма{/b} или нет?!"
     show clyde 5
     show roxxy 14
     rox "..."
     show player 14 with dissolve
-    player_name "Don't worry, {b}Roxxy{/b}."
-    player_name "I won't lose!"
+    player_name "Не волнуйся, {b}Рокси{/b}."
+    player_name "Я не проиграю!"
     show player 13
     show roxxy 3d
     rox "..."
     show clyde 6
-    clyde "We got ourselves a deal then?"
+    clyde "Так по рукам?"
     show clyde 5
     show roxxy 3
-    rox "Ugh, fine."
-    rox "Five seconds!"
+    rox "Угх, хорошо."
+    rox "Пять секунд!"
     show player 13f with dissolve
-    rox "If {b}[firstname]{/b} loses, you can look for five seconds!"
+    rox "Если {b}[firstname]{/b} проиграет, можешь смотреть 5 секунд!"
     show roxxy 3d
     show clyde 6
-    clyde "Sooey!"
-    clyde "I been wanting to see them puppies for years!"
+    clyde "Юхууу!"
+    clyde "Я годами ждал, чтоб поглазеть на этих малышек!"
     show clyde 5
     show player 114f
     show roxxy 3
-    rox "You'd better win!"
+    rox "Лучше бы тебе победить!"
     show roxxy 3d
     show player 113f
-    player_name "I will."
+    player_name "Я справлюсь."
     hide player
     hide roxxy
     hide clyde
@@ -238,134 +238,134 @@ label trailer_tractor_roxxy_confront_clyde:
     with dissolve
     pause
     show clyde 22 with dissolve
-    clyde "Lookin' fer a place to fall apart."
-    clyde "Tryin' to find a place to leave my broken heart."
-    clyde "I need a place for hidin' when I- *hic*"
-    clyde "... When I feel them teardrops start!"
-    clyde "Lookin' fer a place to fall apaaaaaaart!"
+    clyde "Ищу место, где можно развалиться."
+    clyde "Пытаюсь найти место, где оставить разбитое сердце."
+    clyde "Мне нужно место, чтобы спрятаться, когда я- *ик*."
+    clyde "... Когда я почувствую, что слезы наливаются!"
+    clyde "Ищу место, где можно развааааааааааалиться!"
     show clyde 21
     show player 90f at right
     show roxxy 31 zorder 1 at Position (xpos=600)
     with dissolve
-    rox "You stupid bastard!"
+    rox "Ты тупой ублюдок!"
     show clyde 1 with dissolve
-    rox "What did you do?!"
+    rox "Что ты творишь?!"
     show roxxy 3d
     show clyde 2
-    clyde "... Huh?!"
+    clyde "... Чегось?!"
     show clyde 22 with dissolve
-    clyde "Aww, leave me be {b}Roxanne{/b}..."
-    clyde "Can't you see- *hic*"
+    clyde "Оох, отвянь {b}Роксана{/b}..."
+    clyde "Не видишь, что- *глыть*."
     show clyde 8 with dissolve
     show roxxy 3b
     pause
     show clyde 22 with dissolve
-    clyde "Can't you see I'm busy here?"
+    clyde "Не видишь, я занят?"
     show clyde 21
     show roxxy 3c
-    rox "Busy doing what?!"
+    rox "Занят чем?!"
     show clyde 1 with dissolve
     show roxxy 3
-    rox "Crying into a beer can?!"
+    rox "Чего разнылся-то?!"
     show roxxy 31
-    rox "... And don't fucking call me {b}Roxanne{/b}!"
+    rox "... И не называй меня блять {b}Роксаной{/b}!"
     show roxxy 3d
     show clyde 2
-    clyde "They dun gone and took her!"
+    clyde "Они ушли и забрали её!"
     show clyde 22
-    clyde "They took your {b}Momma{/b} away and it's all mah fault!"
+    clyde "Они забрали твою {b}маму{/b} и это всё моя вина!"
     show clyde 21
     show player 12f
-    player_name "What happened?"
+    player_name "Что произошло?"
     show player 90f
     show clyde 22
-    clyde "{b}*Sniff*{/b} I don't rightly know..."
-    clyde "We was just in the trailer partyin' when all of a sudden the fuzz was breakin' down the door!"
-    clyde "They found mah stash and started cuffin' us."
-    clyde "Then she- *hic*"
-    clyde "Then she told 'em I didn't have nothin' to do with it..."
-    clyde "... Said the stash was hers."
+    clyde "{b}*Всхлип*{/b} да я и сам не знаю..."
+    clyde "Мы просто кутили в трейлере когда они ко всем чертям вынесли дверь!"
+    clyde "Они нашли мою заначку и начали нас мутузить."
+    clyde "Тогда она- *всхлип*."
+    clyde "Тогда она сказала им, что я тут не при делах..."
+    clyde "... Что заначка была её."
     show clyde 21
     show player 11f
     show roxxy 3c
-    rox "She took the fall for your dumb ass?!"
+    rox "Она взяла твою вину на себя?!"
     show roxxy 3b
     show player 10f
-    player_name "... Why would she do that?"
+    player_name "... зачем она это сделала?"
     show player 5f
     show clyde 22
-    clyde "'Cause, She's a good woman..."
+    clyde "Потому что она мировая баба..."
     show clyde 21
     show roxxy 30
-    rox "Ugh, I don't suppose you noticed the foreclosed sign on the door?!"
+    rox "Гхх, а ты вообще знак на двери видел?!"
     show roxxy 3c
-    rox "What the hell am I supposed to do?!"
+    rox "И что мне теперь делать?!"
     show roxxy 3d
     show player 90f
     show clyde 4 with dissolve
-    clyde "There ain't no reason to fret, {b}Roxanne{/b}."
-    clyde "You just crash with me at my shack."
+    clyde "Да ладно, не волнуйся, {b}Роксана{/b}."
+    clyde "Будешь жить со мной в моей хибаре."
     show clyde 3
     show roxxy 31
-    rox "No fucking way that is happening!"
+    rox "Ты совсем охуел?!"
     show roxxy 3b
     show clyde 4
-    clyde "Oh c'mon, Cuz..."
+    clyde "Да чего ты, я..."
     show clyde 3
     show roxxy 31
-    rox "I'm really gonna do it this time, {b}Clyde{/b}!"
-    rox "I'm gonna kill you!"
+    rox "В этот раз я реально сделаю это, {b}Клайд{/b}!"
+    rox "Я тебя порешаю!"
     hide player
     show roxxy 85
     show clyde 24
     with dissolve
-    clyde "Stay back now!"
-    clyde "Y-ya got dat crazy look in yer eyes!"
+    clyde "Отойди от меня!"
+    clyde "У тебя взгляд как у поехавшей!"
     show clyde 23
     show roxxy 83
-    player_name "Hold on, {b}Roxxy{/b}!"
-    player_name "Let's just pause for a second and sort things out."
+    player_name "Постой, {b}Рокси{/b}!"
+    player_name "Остынь и взвесь всё хорошенько."
     show roxxy 85
-    rox "Don't stop me, {b}[firstname]{/b}!"
-    rox "He's ruined my life and now he's gonna pay!"
+    rox "Не останавливай меня, {b}[firstname]{/b}!"
+    rox "Он угробил мою жизнь и сейчас он заплатит!"
     show roxxy 83
-    player_name "{b}Roxxy{/b}, stop!"
-    player_name "We'll figure this out, I promise."
-    player_name "Just leave him for now and we'll go talk it over."
+    player_name "{b}Рокси{/b}, стой!"
+    player_name "Обещаю, мы со всем разберёмся."
+    player_name "Давай просто оставим его в покое и пойдем поговорим."
     show player 5f zorder 0 at right
     show roxxy 3d at Position (xpos=600)
     show clyde 26
     with dissolve
-    clyde "... Yeah, listen to yer boyfriend now!"
+    clyde "... Да, послушай парня своего!"
     show player 90f
     show clyde 9 with dissolve
-    clyde "He's talkin' sense!"
+    clyde "Он дело говорит!"
     show clyde 25 with dissolve
     show roxxy 31
-    rox "Grrr!!!"
+    rox "Гррр!!!"
     show roxxy 3b
     show player 15f
-    player_name "Shut up, {b}Clyde{/b}!"
+    player_name "Заткнись, {b}Клайд{/b}!"
     show player 10f
     show clyde 21
-    player_name "C'mon {b}Roxxy{/b}."
-    player_name "Let's go to my place and get some food."
-    player_name "We can sort it all out there."
+    player_name "Давай, {b}Рокси{/b}."
+    player_name "Пойдем ко мне."
+    player_name "Там перекусим и подумаем, что мы можем сделать."
     show player 5f
     show roxxy 3d
     rox "..."
     show roxxy 3
-    rox "Fine."
+    rox "Ладно."
     hide roxxy with dissolve
     show player 90f
     show clyde 4 with dissolve
-    clyde "Phew, that was a nice trick there, Buddy."
-    clyde "I ain't never seen nobody talk down a trailer park girl like dat!"
+    clyde "Фууух, славно ты её пыл поумерил, дружище."
+    clyde "В жизни не видал, чтобы с этой девкой кто-то так разговаривал!"
     show clyde 3
     show player 12f
-    player_name "Yeah, well... You better hope we figure out a way to fix this mess."
+    player_name "Ага... В любом случае, надейся, что мы выберемся из этого дерьма."
     show clyde 21 with dissolve
-    player_name "I'm not gonna stop her next time."
+    player_name "В следующий раз я не буду её останавливать."
     hide player with dissolve
     pause
     show clyde 8 with dissolve
@@ -375,121 +375,121 @@ label trailer_tractor_roxxy_confront_clyde:
 
 label trailer_tractor_big_berta:
     scene black with fade
-    clyde "Oh, baby..."
-    clyde "Mmm."
+    clyde "О, детка..."
+    clyde "Ммм."
     clyde "..."
-    clyde "You like dat, darlin'?"
+    clyde "Тебе это нравится, дорогуша?"
     player_name "!!!"
-    clyde "You like it when Daddy gives it to ya deep like dat?"
-    clyde "Oh, yeah you do!"
-    player_name "It sounds like {b}Clyde{/b} is with someone!"
-    clyde "Phew!"
-    clyde "That's it, baby..."
+    clyde "Тебе нравится, когда папочка так глубоко присовывает?"
+    clyde "О, да, тебе нравится!"
+    player_name "Судя по звукам {b}Клайд{/b} там с кем-то!"
+    clyde "Фуух!"
+    clyde "Вот так, детка..."
     clyde "..."
-    clyde "Take it harder now!"
-    clyde "Yeehaw! Just like dat!"
-    player_name "I wonder who it could be?"
-    clyde "Uh huh!"
-    clyde "Take it, you dirty gal!"
+    clyde "Жёстче!"
+    clyde "Дааааа! Вот так!"
+    player_name "Интересно, кто это мог бы быть?"
+    clyde "О да!"
+    clyde "Получи, грязная сучка!"
     scene expression "backgrounds/location_trailer_tractor_cutscene01.jpg"
     player_name "!!!" with hpunch
-    clyde "I'm almost there, baby!"
-    clyde "Ah, {b}Bertha{/b}!"
-    clyde "{b}Big Bertha{/b}!!!"
+    clyde "Я уже близок, детка!"
+    clyde "Ах, {b}Берта{/b}!"
+    clyde "{b}Большая Берта{/b}!!!"
     clyde "..."
-    clyde "Yer the only gal I need!!!"
-    player_name "What the hell?!"
+    clyde "Ты моя любимая сучка!!!"
+    player_name "Какого чёрта?!"
     scene expression "backgrounds/location_trailer_tractor_cutscene02.jpg"
     clyde "!!!" with hpunch
     pause
-    clyde "I err..."
-    clyde "... It's not what it looks like!"
-    player_name "Whoa man! Put that thing away!"
+    clyde "Я, эээ..."
+    clyde "... это не то, о чём ты подумал!"
+    player_name "Фу, чувак! Убери эту штуку!"
     scene expression "backgrounds/location_trailer_tractor_day_blur.jpg"
     show clyde 30 at left
     show clyde_hat at left
     show player 3f at right
-    clyde "I wasn't doin'..."
-    clyde "... Whatever it is, you think I was doin'."
+    clyde "Я не делал..."
+    clyde "... ну, того о чём ты подумал."
     show clyde 29
     show player 24f with dissolve
     player_name "..."
     show player 25f
-    player_name "I think you were having sex with a tractor."
+    player_name "Я думаю ты занимался сексом с трактором."
     show player 37f
     show clyde 11
     with dissolve
-    clyde "Hah, psh... Naw, man."
-    clyde "I was just checkin' the specs... On the endline... Fer the Rotary... Girder..."
+    clyde "Да ты шо... Я эт, мужик..."
+    clyde "Я просто проверял... Ну, эт самое... Как оно там всё... Работает..."
     show clyde 12
     player_name "..."
     show player 38f with dissolve
-    player_name "You were having sex with a tractor, man!"
+    player_name "Ты ебал трактор, чувак!"
     show player 90f with dissolve
     show clyde 21
     clyde "..."
     show clyde 4 with dissolve
-    clyde "... Yeah."
-    clyde "Look here, brother. I can't help it!"
-    clyde "{b}Bertha{/b} there..."
+    clyde "... Да."
+    clyde "Блин, браток. Я ничего не могу с собой поделать!"
+    clyde "{b}Берта{/b}, она..."
     show player 11f
     show clyde 9 with dissolve
-    clyde "... She's just so damn sexy, you know?!"
+    clyde "... она чертовски сексуальна, понимаешь?!"
     show clyde 3 with dissolve
     show player 12f
-    player_name "Ehh?"
+    player_name "Чего?"
     show player 11f
     show clyde 4
-    clyde "Look at that ruby red finish..."
+    clyde "Посмотри на этот рубиново-красный цвет..."
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "... And those 38\" rims!"
+    clyde "... и на эти 38-дюймовые диски!"
     show clyde 3
     player_name "..."
     show clyde 4
-    clyde "Just listen to dat engine purr..."
-    clyde "You tellin' me dat ain't doin' nuthin' fer ya?"
+    clyde "Просто послушай, как рычит её движок..."
+    clyde "Тебя это никак не заводит?"
     show clyde 3
     show player 12f
-    player_name "Eugh, no!"
+    player_name "Фу, нет!"
     show player 90f
     show clyde 4
-    clyde "You know, they usually put the exhaust up on top."
-    clyde "I had this one here installed special!"
+    clyde "Ты знаешь, обычно выхлопную трубу ставят наверх."
+    clyde "Я специально поставил её пониже!"
     show clyde 3
     show player 12f
-    player_name "Look, I'm just gonna go..."
+    player_name "Слушай, мне уже идти пора..."
     show player 90f
     show clyde 4
-    clyde "Well, don't make it weird now!"
-    clyde "I dun told ya, {b}Bertha{/b} is my favorite gal..."
+    clyde "В этом же нет ничего ужасного!"
+    clyde "Я тебе не говорил, но {b}Берта{/b} - моя любимая сучка..."
     show clyde 3
     show player 12f
-    player_name "You mean tractor?"
+    player_name "Ты про трактор?"
     show player 90f
     show clyde 4
-    clyde "No... Now iffin' I meant tractor, I woulda said tractor."
+    clyde "Не... если бы я имел в виду трактор, Я бы сказал \"трактор\"."
     show clyde 3
     show player 15f
-    player_name "{b}Clyde{/b}, it's a freakin' tractor!"
+    player_name "{b}Клайд{/b} - это ёбаный трактор!"
     show player 16f
     show clyde 9 with dissolve
-    clyde "I dun told ya, the name's {b}Cletus{/b}."
+    clyde "Я ж её не представил, знакомься - это {b}Клетус{/b}."
     show clyde 4 with dissolve
-    clyde "... And I disagree with yer accessment."
+    clyde "... и ты ничего не понимаешь."
     show clyde 3
     show player 10f
-    player_name "Dude, It's-"
-    player_name "{b}*Sigh*{/b} Just... Good bye, {b}Cletus{/b}."
+    player_name "Чувак, это-"
+    player_name "{b}*Фух*{/b} Ладно... пока, {b}Клайд{/b}."
     show player 5f
     show clyde 4
-    clyde "See ya 'round, buddy!"
+    clyde "Покедова, дружище!"
     show clyde 3
     hide player with dissolve
     pause
     show clyde 26
-    clyde "... Maybe you oughta try knockin' next time!"
+    clyde "... в следущий раз постучись, предже чем заходить!"
     scene black with fade
     hide clyde
     hide clyde_hat
