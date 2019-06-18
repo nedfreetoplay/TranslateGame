@@ -7,7 +7,7 @@ label trailer_park_first_visit:
     return
 
 label trailer_interior_roxxy_get_cheerleader_outfit:
-    scene trailer_interior_c
+    scene expression game.timer.image("trailer_interior_c{}")
     show roxxy 1f f at Position (xpos=400)
     show player 5 zorder 1 at left
     show crystal 3 at right
@@ -534,7 +534,7 @@ label trailer_interior_crystal_sex_or_anal_choose_sex_repeat:
 
 label trailer_interior_crystal_sex_or_anal_choose_anal_first:
     show crystal undress 10 with dissolve
-    crys "Ммм!"
+    crys "Ммм, мой любимчик!"
     show crystal undress 10b
     show player 8 with dissolve
     pause
@@ -885,7 +885,7 @@ label trailer_interior_crystal_sex_outside_cum_anal:
     show crystal undress 10b at right
     show crystal_anal_cum undress
     show player crystal 13 at left
-    show player_slick_boner crystal 13b
+    show player_slick_boner crystal
     with dissolve
     player_name "Дерьмо..."
     hide player_slick_boner
@@ -934,7 +934,7 @@ label trailer_interior_crystal_sex_outside_cum:
     show crystal undress 10 at right
     show crystal_pussy_cum undress
     show player crystal 13 at left
-    show player_slick_boner crystal 13b
+    show player_slick_boner crystal
     with dissolve
     crys "Ладно, тебе нужно идти..."
     crys "Моя дочь, скорее всего, ждет тебя."
@@ -981,7 +981,7 @@ label trailer_interior_crystal_sex_cum_repeat_anal:
     hide crystals_anal_cum
     with dissolve
 
-    scene expression "backgrounds/location_trailer_closeup_day.jpg"
+    scene expression "backgrounds/location_trailer_day_closeup.jpg"
     show crystal undress 10b at right
     show crystal_anal_cum undress
     show player crystal 13 at left
@@ -1020,15 +1020,15 @@ label trailer_interior_crystal_sex_cum_repeat:
     player_name "НГГХХХ!!!" with flash
     show crystals cum 2b
     show xray_crystal_trailer at Position (align=(0,0))
-	crys "Aххх!!"
+    crys "Aххх!!"
     hide xray_crystal_trailer
-	pause
+    pause
     show crystals retract 3 with dissolve
     pause
     crys "Фух! Именно это мне и было нужно!"
     hide crystals with dissolve
 
-    scene expression "backgrounds/location_trailer_closeup_day.jpg"
+    scene expression "backgrounds/location_trailer_day_closeup.jpg"
     show crystal undress 10 at right
     show crystal_pussy_cum undress
     show player crystal 13 at left
@@ -1086,7 +1086,7 @@ label trailer_interior_crystal_sex_cum_first_anal:
     hide crystals
     hide crystals_anal_cum
     with dissolve
-    scene expression "backgrounds/location_trailer_closeup_day.jpg"
+    scene expression "backgrounds/location_trailer_day_closeup.jpg"
     show crystal undress 10b at right
     show crystal_anal_cum undress
     show player crystal 13 at left
@@ -1174,9 +1174,9 @@ label trailer_interior_crystal_sex_cum_first:
     player_name "ХННГГГГ!!" with flash
     show crystals cum 2b
     show xray_crystal_trailer at Position (align=(0,0))
-	crys "ААаааххххх!!!"
+    crys "ААаааххххх!!!"
     hide xray_crystal_trailer
-	pause
+    pause
     show crystals retract 3 with dissolve
     crys "Хаа... Хааа..."
     crys "О боже!"
@@ -1229,7 +1229,7 @@ label trailer_interior_crystal_sex_cum_first:
     return
 
 label trailer_interior_crystal_sex_repeat_inside:
-    scene expression "backgrounds/location_trailer_closeup_day.jpg"
+    scene expression "backgrounds/location_trailer_day_closeup.jpg"
     show player 14 zorder 2 at left
     show crystal 1 at right
     with dissolve
