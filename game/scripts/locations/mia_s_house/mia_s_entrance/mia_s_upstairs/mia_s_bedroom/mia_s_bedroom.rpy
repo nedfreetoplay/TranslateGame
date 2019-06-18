@@ -16,10 +16,10 @@ label mias_bedroom_screen:
 label mia_bedroom_panties:
     scene expression player.location.background_blur with None
     show player 726 with dissolve
-    player_name "( These are {b}Mia's{/b} panties. )"
-    player_name "( They're so cute! )"
+    player_name "( Это трусики {b}Мии{/b}. )"
+    player_name "( Они такие милые! )"
     pause
-    player_name "( I bet {b}Master Somrak{/b} would like these. )"
+    player_name "( Держу пари, {b}мастеру Сомраку{/b} они понравятся. )"
 
     hide player with dissolve
     $ player.get_item("mia_panties")
