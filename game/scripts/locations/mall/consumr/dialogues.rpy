@@ -3,7 +3,7 @@ label consumr_diane_get_milk_jug_bought:
     show player 173 with dissolve
     player_name "Хорошо, это должно хорошо работать для кувшина, который хотела {b}Диана{/b}."
     label consumr_diane_get_milk_jug_bought.tail:
-	show player 172
+    show player 172
     pause
     player_name "( Хм, интересно, стоит ли мне поговорить с {b}Дианой{/b} о вещах, которые мне рассказала {b}Вероника{/b}? )"
     player_name "( Я не уверен, что это относится к ее конкретной проблеме, но это не помешает разобраться. )"
@@ -346,7 +346,7 @@ label consumr_diane_buy_bug_spray_brought:
     show player 17 with dissolve
     player_name "Хорошо, теперь давайте вернемся в дом {b}Дианы{/b} и уничтожим этих жуков!"
     label consumr_diane_buy_bug_spray_brought.tail:
-	hide player with dissolve
+    hide player with dissolve
     $ M_diane.trigger(T_diane_find_correct_bug_spray)
     $ game.main()
 	
@@ -355,5 +355,5 @@ label consumr_diane_buy_bug_spray_owned:
     show player 17 with dissolve
     player_name "Oh, I already had this one!"
     player_name "Better get this back to {b}Diane's{/b} house and eradicate those bugs!"
-jump consumr_diane_buy_bug_spray_brought.tail	
+    jump consumr_diane_buy_bug_spray_brought.tail	
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
