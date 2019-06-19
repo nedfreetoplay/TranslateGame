@@ -118,7 +118,7 @@ label sispc_livecrush_response:
         call expression game.dialog_select("sispc_livecrush_response_dialogue")
         $ sispc_livecrush_seen = True
     show screen sis_computer
-    call screen sis_livecrush
+    call screen jenny_camslut
 
 label sispc_livecrush_response_dialogue:
     scene jenny_computer_bg
