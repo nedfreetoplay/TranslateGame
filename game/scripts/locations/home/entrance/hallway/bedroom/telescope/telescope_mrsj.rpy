@@ -166,60 +166,60 @@ label telescope_jenny_perv_on_tammy:
 
 label telescope_mrsj_morning_1:
     scene windowmrsjmorning01
-    player_name "( ...is that {b}Erik's landlady{/b}?! )"
+    player_name "( ...это {b}домохозяйка Эрика{/b}?! )"
     scene windowmrsjmorning01b
-    player_name "( Oh wow! She's getting dressed... )"
+    player_name "( Ух ты! Она одевается... )"
     scene windowmrsjmorning01c
-    player_name "( No! Just a little bit longer! )"
+    player_name "( Нет! Еще чуть чуть! )"
     scene windowmrsjmorning01d
-    player_name "( Damn! Show's over... )"
+    player_name "( Черт! Шоу окончено... )"
     return
 
 label telescope_mrsj_morning_2:
     scene windowmrsjday02
-    player_name "( Her blinds are closed. She's probably not home. )"
+    player_name "( Ее жалюзи закрыты. Ее, наверное, нет дома. )"
     return
 
 label telescope_mrsj_afternoon_1:
     scene windowmrsjday01
-    player_name "( She's not home. )"
+    player_name "( Ее нет дома. )"
     return
 
 label telescope_mrsj_afternoon_2:
     show windowmrsjday 3a
-    player_name "( Woah... She's completely naked!! )"
+    player_name "( Вау... Она совершенно голая!! )"
     show windowmrsjday 3b with fastdissolve
-    player_name "( Is that a bouncing ball... with a dildo on it?! )"
+    player_name "(Это прыгающий мячик?.. с фаллоимитатором на нем?! )"
     show windowmrsjday 3c with fastdissolve
-    player_name "( Why didn't she close the blinds? )"
+    player_name "( Почему она не закрыла шторы? )"
     show windowmrsjday 3c-d
-    player_name "( It's like she wants to be seen... )"
-    player_name "( I think she knows... )"
-    player_name "( She's staring right at me. )"
+    player_name "( Как будто она хочет, чтобы ее увидели... )"
+    player_name "( Я думаю, она знает... )"
+    player_name "( Она смотрит прямо на меня. )"
     return
 
 label telescope_mrsj_afternoon_3:
     scene windowmrsjday02
-    player_name "( Her blinds are closed. She's probably not home. )"
+    player_name "( Ее жалюзи закрыты. Ее, наверное, нет дома. )"
     return
 
 label telescope_mrsj_night_1:
     scene windowmrsjnight03
-    player_name "( ...Is she practicing yoga? )"
-    player_name "( ...On her bed? )"
+    player_name "( ...Она занимается йогой? )"
+    player_name "( ...На кровати? )"
     scene windowmrsjnight04
     player_name "..."
-    player_name "( {b}Erik's landlady{/b} is so fit... )"
-    player_name "( ...she really does have a great body... )"
+    player_name "( {b}Домохозяйка Эрика{/b} в хорошей форме... )"
+    player_name "( ...у нее прекрасное тело... )"
     return
 
 label telescope_mrsj_night_2:
     scene windowmrsjnight01
-    player_name "( She's not in her room... )"
+    player_name "( Ее нет в комнате.... )"
     return
 
 label telescope_mrsj_night_3:
     scene windowmrsjnight02
-    player_name "( She must be sleeping. )"
+    player_name "( Она должно быть уже спит. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
