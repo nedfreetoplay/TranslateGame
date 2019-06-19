@@ -686,48 +686,48 @@ label hallway_mom_sleepover_offer:
     show debbie 3 at right
     show player 1 at left
     with dissolve
-    deb "Hey there, sweetie."
+    deb "Привет, милый."
     show player 17
     show debbie 1
-    player_name "Hey, {b}[deb_name]{/b}."
+    player_name "Привет, {b}[deb_name]{/b}."
     show debbie 2
     show player 1
-    deb "How have you been sleeping?"
+    deb "Как спалось?"
     show player 10
     show debbie 14
-    player_name "I don't sleep as easy as I used to, you know, before {b}Dad{/b} died. I'm okay though."
+    player_name "Я не сплю так легко, как раньше, до того, как умер {b}отец{/b}. Хотя со мной все в порядке."
     show player 5
     show debbie 13
-    deb "You thinking about all the things that have been happening lately?"
+    deb "Ты думаешь обо всем, что происходило в последнее время?"
     show debbie 14b
     show player 10
-    player_name "Yeah, I guess... A little bit."
+    player_name "Да, наверное... Немного."
     show player 5
     show debbie 13
-    deb "I don't want you to worry about it, sweetie."
-    deb "Everything will be okay, I promise."
+    deb "Я не хочу, чтобы ты волновался, милый."
+    deb "Все будет хорошо, я обещаю."
     show debbie 14
     show player 10
-    player_name "How about you? You sleeping okay?"
+    player_name "Как насчет тебя? Хорошо спишь?"
     show player 5
     show debbie 13
-    deb "Not really."
+    deb "Не очень."
     show debbie 14
     pause
     show debbie 13
-    deb "... But I'm used to it. I've had trouble sleeping since my husband left many years ago."
+    deb "... Но я уже привыкла. У меня были проблемы со сном, когда мой муж ушел от меня много лет назад."
     show player 11
-    deb "I understand what you're going through."
+    deb "Я понимаю, через что ты проходишь."
     show debbie 14b
     show player 12
-    player_name "Really?"
+    player_name "Правда?"
     show player 5
     show debbie 13
-    deb "Yeah. I miss your {b}Dad{/b} too."
+    deb "Да. Я тоже скучаю по твоему {b}отцу{/b}."
     show debbie 14
     pause
     show debbie 2
-    deb "We were friends for a long time, you know?"
+    deb "Мы были друзьями очень долгое время."
     show debbie 1
     show player 13
     pause
@@ -738,31 +738,31 @@ label hallway_mom_sleepover_offer:
     show player 13 at left
     show debbie 2 at right
     with dissolve
-    deb "At least I have you now..."
+    deb "По крайней мере, теперь у меня есть ты ..."
     show debbie 1
     pause
     show debbie 2
-    deb "If you have any trouble sleeping again, just come visit me, Okay?"
+    deb "Если у тебя снова будут проблемы со сном, приходи ко мне, хорошо?"
     show debbie 1
     show player 10
-    player_name "In your bedroom?"
+    player_name "В твою спальню?"
     show player 5
     show debbie 3
-    deb "Sure!"
+    deb "Конечно!"
     show debbie 2
-    deb "Perhaps the company will help us both fall asleep?"
+    deb "Возможно, компания поможет нам заснуть?"
     show debbie 1
     show player 10
-    player_name "You don't mind me sleeping in your bed?"
+    player_name "Ты не возражаешь, если я буду спать в твоей кровати?"
     show player 11
     pause
     show debbie 13
-    deb "I think it could do us some good..."
+    deb "Думаю, это пойдет нам на пользу..."
     show player 13
-    deb "... After everything that's happened."
+    deb "... После всего, что случилось."
     show debbie 14
     show player 14
-    player_name "...Okay. Sure, {b}[deb_name]{/b}."
+    player_name "...Хорошо. Конечно, {b}[deb_name]{/b}."
     hide player
     hide debbie
     with dissolve
@@ -775,23 +775,23 @@ label hallway_mom_movie_night_two:
     scene hallway_night
     show player 1 at left
     show debbie 62 at right
-    deb "Hey there, sweetie!"
+    deb "Привет, милый!"
     show player 2
     show debbie 61
-    player_name "Hey {b}[deb_name]{/b}, what's up?"
+    player_name "Привет {b}[deb_name]{/b}, в чем дело?"
     show player 1
     show debbie 62
-    deb "I was thinking about watching another movie."
-    deb "Care to join me?"
+    deb "Я думал о просмотре кинофильма."
+    deb "Хочешь присоединиться ко мне?"
     show player 2
     show debbie 61
-    player_name "Of course, I'd love to!"
+    player_name "Конечно, с удовольствием!"
     show player 1
     show debbie 62
-    deb "Wonderful, I'll go get situated then! Come and join me in the {b}livingroom{/b} when you're ready."
+    deb "Замечательно, тогда я пойду располагаться! Приходите ко мне в {b}гостиную{/b}, когда будешь готов."
     show player 2
     show debbie 61
-    player_name "Sounds good! I'll be right down."
+    player_name "Звучит неплохо! Я сейчас спущусь."
     hide debbie
     hide player
     with dissolve
