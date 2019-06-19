@@ -3,15 +3,15 @@ label home_diane_checkup_results:
     show player 13 at left
     show diane b_casual a_casual_sides f_normal_talk
     with dissolve
-    dia "Thanks for going with me, {b}[firstname]{/b}."
-    dia "You were so great today!"
+    dia "Спасибо, что пошел со мной, {b}[firstname]{/b}."
+    dia "Ты был так великолепен сегодня!"
     show diane f_normal
     show player 14
-    player_name "No problem."
-    player_name "I'm just glad we got good news."
+    player_name "Без проблем."
+    player_name "Я просто рад, что у нас хорошие новости."
     show player 13
     show diane f_normal_talk
-    dia "Me too."
+    dia "Я тоже."
     hide player
     show diane kiss_casual
     with dissolve
@@ -19,20 +19,20 @@ label home_diane_checkup_results:
     show player 13 at left
     show diane b_casual a_casual_sides f_normal_talk
     with dissolve
-    dia "We'll get started tomorrow, okay?"
+    dia "Мы начнем завтра, хорошо?"
     show diane f_normal
     show player 14
-    player_name "Alright."
+    player_name "Хорошо."
     show player 13
     show diane f_normal_talk
-    dia "You'd better head up to bed and get a good nights sleep."
+    dia "Тебе лучше пойти спать и хорошенько выспаться."
     show diane f_wink
     pause
     show diane f_smirk_talk
-    dia "Lots of hard work waiting for you tomorrow, stud."
+    dia "Много тяжелой работы ждет тебя завтра, жеребец."
     show diane f_smirk
     show player 29 with dissolve
-    player_name "{b}*Gulp*{/b} Y-yeah, okay."
+    player_name "{b}*глоток*{/b} Да, хорошо."
     hide player
     hide diane
     with dissolve
@@ -43,110 +43,110 @@ label home_front_mom_mrsj_visit:
     show debbie 164f zorder 2 at left
     show mrsj 17 at right
     with dissolve
-    mrsjo "Hey, {b}[deb_char_name]{/b}!"
+    mrsjo "Привет, {b}[deb_char_name]{/b}!"
     show debbie 165f
     show mrsj 14
-    deb "Oh, hello there, {b}Tammy{/b}."
+    deb "О, привет, {b}Тэмми{/b}."
     show debbie 164f
     show mrsj 17
-    mrsjo "I wanted to stop by and give my condolences for your loss. I know he was your close friend..."
+    mrsjo "Я хотел остановиться и выразить свои соболезнования в связи с вашей потерей. Я знаю, что он был твоим близким другом..."
     show debbie 165f
     show mrsj 14
-    deb "Oh, thank you. That's very... thoughtful of you."
+    deb "О, спасибо. Это очень... заботливо с твоей стороны."
     show debbie 169f
     show mrsj 19
-    mrsjo "I just want you to know that {b}Erik{/b} and I are right next door if you ever need anything."
-    mrsjo "... Even if you just need to talk."
+    mrsjo "Я просто хочу, чтобы ты знала, что мы с {b}Эриком{/b} рядом, если тебе что-нибудь понадобится."
+    mrsjo "... Даже если тебе просто нужно поговорить."
     show debbie 168f
     show mrsj 14
-    deb "That's very generous."
+    deb "Это очень щедро."
     show debbie 169f
     show mrsj 17
-    mrsjo "I know this is a completely different situation for you, but I can relate you know?"
+    mrsjo "Я знаю, что это совершенно другая ситуация для тебя, но я могу рассказать тебе, понимаешь?"
     show debbie 168f
     show mrsj 14
-    deb "You mean, because of your husband?"
+    deb "Ты говоришь, о муже?"
     show debbie 169f
     show mrsj 17
-    mrsjo "Of course!"
+    mrsjo "Конечно!"
     show mrsj 20
-    mrsjo "I mean, my husband walked out on me... So it's a bit different."
+    mrsjo "Я имею в виду, мой муж бросил меня... Так что это немного другое."
     show mrsj 18
-    mrsjo "... But I was on my own for a long time!"
+    mrsjo "... Но я была одна долгое время!"
     show debbie 168f
     show mrsj 14
-    deb "It gets lonely, doesn't it?"
-    deb "It's not easy being all by yourself."
+    deb "Одинокой, не так ли?"
+    deb "Нелегко быть совсем одной."
     show debbie 169f
     show mrsj 20
-    mrsjo "Yeah, I had a rough time of it for awhile there..."
+    mrsjo "Да, у меня были тяжелые времена..."
     show mrsj 17
-    mrsjo "... But then I decided to sublet my house and ended up living with {b}Erik{/b}"
-    mrsjo "He's been such a blessing!"
+    mrsjo "... Но потом я решила сдать свой дом и стала жить с {b}Эриком{/b}"
+    mrsjo "Он был таким благословением!"
     show debbie 168f
     show mrsj 14
-    deb "Oh, how so?"
+    deb "О, как так?"
     show debbie 169f
     show mrsj 17
-    mrsjo "He's such a sweet young man and he needs me to take care of him!"
+    mrsjo "Он такой милый молодой человек и он нуждается во мне, чтобы я могла заботиться о нем!"
     show debbie 169bf
-    mrsjo "It feels good to be needed like that again. It really gives me a sense of purpose, you know?"
+    mrsjo "Приятно снова быть нужным. Это дает мне чувство цели в жизни, понимаешь?"
     show debbie 169f
-    mrsjo "I cook for him and do his laundry. I ask him about his day and show him affection when he needs it."
+    mrsjo "Я готовлю для него и стираю его вещи. Я спрашиваю его о его дне и проявляю привязанность, когда ему это нужно."
     show debbie 168f
     show mrsj 14
-    deb "I see..."
+    deb "Понятно..."
     show debbie 169f
     show mrsj 18
-    mrsjo "I think it's helping him come out of his shell too! So it's mutually beneficial!"
+    mrsjo "Я думаю, это тоже помогает ему выбраться из скорлупы! Так что это взаимовыгодно!"
     show debbie 168f
     show mrsj 14
-    deb "I just don't know how to talk to {b}[firstname]{/b}. I mean, I know he needs guidance but I'm not his Mother..."
+    deb "Я просто не знаю, как разговаривать с {b}[firstname]{/b}. Я имею в виду, я знаю, что ему нужно руководство, но я не его мать...."
     show debbie 169f
     show mrsj 17
-    mrsjo "Well keep at it, Honey. It's not going to sort itself out overnight."
-    mrsjo "Just focus on him and how he's feeling. It's what I did!"
-    mrsjo "The rest will fall into place soon enough."
+    mrsjo "Хорошо, держись, дорогая. Это не уладится за одну ночь."
+    mrsjo "Сосредоточься на нем и на том, что он чувствует. Я так и сделала!"
+    mrsjo "Остальное скоро встанет на свои места."
     show debbie 168f
     show mrsj 14
-    deb "I hope you're right."
+    deb "Надеюсь ты права."
     show debbie 169f
     pause
     show player 1 zorder 1 at Position(xpos=300) with dissolve
     show debbie 165f
-    deb "Oh! Hi, sweetie!"
+    deb "О! Привет, милый!"
     show debbie 164f
     show player 14
-    player_name "Hey, {b}[deb_name]{/b}... Hi, {b}Mrs. Johnson{/b}!"
+    player_name "Привет, {b}[deb_name]{/b}... Здрасьте, {b}Миссис Джонсон{/b}!"
     show player 1
     show mrsj 17
-    mrsjo "Hello there, {b}[firstname]{/b}."
-    mrsjo "{b}[deb_char_name]{/b} was just telling me how happy she is that you came to live with her..."
+    mrsjo "Привет, {b}[firstname]{/b}."
+    mrsjo "{b}[deb_char_name]{/b} только что говорила мне, как она счастлива, что ты переехал жить к ней..."
     show mrsj 14
     show player 14
-    player_name "Oh, yeah? I'm just thankful she was willing to take me in."
+    player_name "О, правда? Я просто благодарен, что она согласилась принять меня."
     show mrsj 17
     show player 13
-    mrsjo "She's a good woman, so you had better take good care of her!"
+    mrsjo "Она хорошая женщина, так что тебе лучше позаботиться о ней!"
     show mrsj 14
     show player 14
-    player_name "I will!"
+    player_name "Хорошо!"
     show player 1
     show mrsj 17
-    mrsjo "Hehe, See {b}[deb_name]{/b}? You guys are gonna be just fine!"
-    mrsjo "Well, I'd best be getting home."
+    mrsjo "Хехе, смотри {b}[deb_name]{/b}? Будет все хорошо!"
+    mrsjo "Что ж, мне нужно вернуться домой."
     show mrsj 14
     show debbie 165f
-    deb "You sure you don't want to come in?"
+    deb "Ты уверена, что не хочешь войти?"
     show debbie 164f
     show mrsj 17
-    mrsjo "No, thanks! I should really get home and check on {b}Erik{/b}. See if there's anything he needs..."
+    mrsjo "Нет, Спасибо! Мне нужно вернуться домой и проведать {b}Эрика{/b}. Может, ему что-нибудь нужно..."
     show mrsj 14
     show debbie 165f
-    deb "Well, thanks for the chat {b}Tammy{/b}. Come see us again real soon!"
+    deb "Что ж, спасибо за беседу {b}Тэмми{/b}. Приходите к нам снова!"
     show debbie 164f
     show mrsj 17
-    mrsjo "I'll do that! You two take care of each other now, you hear?"
+    mrsjo "Хорошо! Вы двое заботитесь друг о друге, слышите?"
     hide mrsj
     hide debbie
     hide player
@@ -155,17 +155,17 @@ label home_front_mom_mrsj_visit:
 
 label home_front_mom_mow_lawn:
     show expression "backgrounds/location_home_grass_cutscene_01.jpg"
-    show expression FilteredText("This is a lot harder than I expected. I should've paid more attention to how {b}Dad{/b} used to do it.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Это намного сложнее, чем я ожидал. Я должен был уделять больше внимания тому, как {b}отец{/b} это делал.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     show expression "backgrounds/location_home_grass_cutscene_02.jpg"
-    show expression FilteredText("It doesn't look half bad. I Hope {b}[deb_name]{/b} thinks the same.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Выглядит не так уж и плохо. Надеюсь, {b}[deb_name]{/b} думает так же.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     show expression "backgrounds/location_home_grass_cutscene_03.jpg"
-    show expression FilteredText("Hmm, I wonder how long she's been standing there? I was so focused I didn't notice her come out.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Интересно, как долго она там стоит? Я был так сосредоточен, что не заметил, как она вышла.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -178,39 +178,39 @@ label home_front_mom_mow_lawn:
     show xtra 15 zorder 2 at Position(xpos=170,ypos=754)
     show debbie 1 at right
     with dissolve
-    player_name "{b}[deb_name]{/b}, I finished the lawn."
+    player_name "{b}[deb_name]{/b},Я закончил с газоном."
     show player 203
     show debbie 2
-    deb "I saw that. It looks great, sweetie!"
+    deb "Я вижу. Выглядит отлично, милый!"
     show debbie 3
-    deb "You did a wonderful job!"
+    deb "Ты проделал замечательную работу!"
     show debbie 2
-    deb "I'm proud of you."
+    deb "Я горжусь тобой."
     show player 2
     show debbie 1
-    player_name "I was just doing it the way I thought {b}Dad{/b} would."
+    player_name "Я просто делал это так, как {b}отец{/b}."
     show player 11
     show debbie 2
-    deb "Well, I'm sure he'd be proud too."
-    deb "He always went out of his way to help me out around here."
+    deb "Ну, я уверена, он бы тоже гордился тобой."
+    deb "Он всегда старался изо всех сил помочь мне."
     show player 21
     show debbie 1
-    player_name "I will too, {b}[deb_name]{/b}. I feel like it's what he'd want."
+    player_name "Я тоже, {b}[deb_name]{/b}. Я чувствую, что он этого хочет."
     show player 2
-    player_name "Should we go inside now?"
+    player_name "Может, теперь пойдем в дом?"
     show debbie 1
-    deb "Sure!"
+    deb "Конечно!"
     scene home_front with None
     show xtra 15 zorder 2 at Position(xpos=520,ypos=754)
     show player 10 zorder 1
     with dissolve
-    player_name "{b}*Panting*{/b}"
+    player_name "{b}*отдышка*{/b}"
     show player 14
-    player_name "Wow, that was a lot of work!"
+    player_name "Вау, это была большая работа!"
     show player 24
-    player_name "I need to get out of these stinky clothes and shower now..."
+    player_name "Мне нужно снять эту вонючую одежду и принять душ сейчас же...."
     show player 4 at Position(xoffset=5)
-    player_name "I should head {b}downstairs to put these clothes in the wash{/b}."
+    player_name "Я должен {b}спуститься вниз, чтобы положить эту одежду в стирку{/b}."
     hide player with dissolve
     return
 
@@ -219,59 +219,59 @@ label home_front_mom_car_fixed:
     show jai 2 at left
     show debbie 1 at right
     with dissolve
-    jaing "Everything should be good as new, ma'am."
+    jaing "Все должно быть как новенькое, мэм."
     show jai 1
     show debbie 3
-    deb "Really? That was fast!"
+    deb "Правда? Это было быстро!"
     show debbie 1
     show jai 2
-    jaing "You betcha!"
-    jaing "I always work hard when a beautiful woman is involved!"
-    jaing "You just give me a call if you have anymore trouble."
-    jaing "I love making pretty little ladies engines purr. Know what I mean?"
+    jaing "Еще бы!"
+    jaing "Я всегда упорно работаю, когда вовлечена красивая женщина!"
+    jaing "Просто позвони мне, если будут проблемы."
+    jaing "Мне нравится делать маленькие женские модные мультяшки. Понимаешь, о чем я говорю?"
     show jai 1
     show debbie 3
-    deb "Oh, stop. You're hilarious!"
+    deb "О, прекрати. Ты такой смешной!"
     deb "Ha Ha Ha."
     show jai 2
-    jaing "Huck Huck Huck."
+    jaing "Гек Гек Гек."
     show jai 1
     show debbie 1
     show player 14 zorder 1
-    player_name "Hey, {b}[deb_name]{/b}."
+    player_name "Привет, {b}[deb_name]{/b}."
     show player 13
     show debbie 2
-    deb "There he is!"
+    deb "Вот и он!"
     show debbie 1
     show player 10f with dissolve
-    player_name "Engine repairs all finished?"
+    player_name "Ремонт двигателя закончен?"
     show player 5f
     show jai 2
-    jaing "Well, I had to replace the whole damn thing, but yeah. It's all finished."
-    jaing "Just another day in the life of {b}Jiang{/b} the Car Whisperer. No need to thank me."
+    jaing "Ну, мне пришлось заменить всю эту чертову штуку, но да. Я закончил."
+    jaing "Просто еще один день из жизни {b}Цзян{/b} из Car Whisperer. Не нужно меня благодарить."
     show player 11f
-    jaing "Huck Huck."
-    jaing "We'll I'd best be off!"
+    jaing "Гек Гек."
+    jaing "Я лучше отправлюсь в путь!"
     show player 5f
-    jaing "Just gonna take a quick peek under your hood to make sure I didn't leave my tool in her. Know what I mean?"
+    jaing "Просто загляну к тебе под капот, чтобы убедиться, что я не оставил в ней свой инструмент. Понимаешь, о чем я говорю?"
     show jai 1
     show debbie 2
-    deb "{b}*Ahem*{/b} Yes, well. Thanks again!"
+    deb "{b}*гм*{/b} Да, хорошо. Еще раз спасибо!"
     show debbie 1
     show jai 2
-    jaing "Not a problem, ma'am."
+    jaing "Никаких проблем, мэм."
     hide jai with dissolve
     show player 13 with dissolve
     show debbie 2
-    deb "Want to give it a test drive?"
+    deb "Хочешь прокатится?"
     show debbie 1
     show player 14
-    player_name "Sure!"
+    player_name "Конечно!"
     show player 12
-    player_name "I hope he's not trying to screw us over."
+    player_name "Надеюсь, он не пытается нас надуть."
     show player 5
     show debbie 14
-    deb "( He was trying to screw someone alright... )"
+    deb "( Он пытался ввернуть все в порядок... )"
     hide player
     hide debbie
     with dissolve
@@ -285,38 +285,38 @@ label home_front_mom_car_fixed_check_car:
     show debbie_arms_car 1
     show xtra 30 at right
     with dissolve
-    deb "Let's see..."
+    deb "Посмотрим..."
     show player car 2b
     show debbie car 1
     hide debbie_arms_car
     with dissolve
-    deb "Hmm..."
+    deb "Хмм..."
     show debbie car 2b
     show debbie_arms_car 1
     with dissolve
-    deb "It works!"
+    deb "Работает!"
     show debbie car 3
     show player car 2
-    player_name "Great!"
+    player_name "Здорово!"
     show player car 1
     show debbie car 2
-    player_name "Sounds good, too."
+    player_name "Звучит неплохо."
     show player car 2b
     show debbie car 3b
-    deb "How did you get them to come out so quickly?"
+    deb "Как ты заставил прийти их так быстро?"
     show debbie car 3
     show player car 2
-    player_name "It was nothing {b}[deb_name]{/b}."
+    player_name "Ничего особенного {b}[deb_name]{/b}."
     show player car 5
-    player_name "I guess, I can be quite persuasive..."
-    player_name "I'm just relieved to see you smiling again..."
+    player_name "Думаю, я могу быть довольно убедительным..."
+    player_name "Я рад видеть, что ты снова улыбаешься..."
     show player car 6
     pause
     show player car 5b
     show debbie car 3b
     show debbie_arms_car 2 with dissolve
-    deb "Aww..."
-    deb "Thanks, sweetie."
+    deb "Ааа..."
+    deb "Спасибо, милый."
     scene car_interior kiss
     hide player car
     hide debbie_arms_car
@@ -340,80 +340,80 @@ label home_front_mom_car_fixed_check_car:
     show debbie_arms_car 4 with dissolve
     deb "( !!! )"
     show debbie car 5b
-    deb "Oh!"
+    deb "О!"
     show debbie car 4c
     show player car 4c
-    player_name "Sorry, {b}[deb_name]{/b}..."
+    player_name "Извени, {b}[deb_name]{/b}..."
     show player car 3
     show debbie car 5b
-    deb "It's alright, sweetie."
-    deb "You seem to be getting these quite often when I'm around."
+    deb "Все хорошо, милый."
+    deb "Кажется, у тебя часто получается так , когда я рядом."
     show debbie car 4b
     show debbie_arms_car 2 with dissolve
-    deb "I'm not sure If I should be worried of flattered?"
+    deb "Я не уверена должна ли я беспокоится о пользе?"
     show debbie car 3
     show player car 4c
     show player_arms car 1 with dissolve
-    player_name "I know... I'm really trying hard not to but you're just so pretty."
+    player_name "Я знаю... Я действительно стараюсь не делать этого, но ты очень красивая."
     show player car 3
     show debbie car 4
     deb "..."
     show debbie car 5b
-    deb "Oh, sweetie..."
+    deb "О, милый..."
     hide player_boner car
     show debbie_arms_car 5b at Position(xalign = 0.357, yalign = 0.558)
     with dissolve
-    deb "I suppose it's not such a bad thing."
+    deb "Полагаю, это не так уж плохо."
     show debbie car 5
     show player car 4c
     player_name "{b}[deb_name]{/b}?"
     show player car 3
     show debbie car 3b
-    deb "Shhh."
+    deb "Шшш."
     show debbie car 5b
     show debbie_arms_car 5 with dissolve
-    deb "It's normal for young men your age to get excited at the drop of a hat."
+    deb "Для юношей твоего возраста нормально возбуждаться при первой же возможности."
     show debbie car 5
     show player car 3b
-    player_name "{b}*Gulp*{/b}"
+    player_name "{b}*глоток*{/b}"
     show player car 3
     show expression AnimatedImage("debbie_arms_car", [5,"5b","5c","5b"], M_mom) as debbie_arms_car at Position(xalign = 0.357, yalign = 0.558) with dissolve
     pause 1.2
     show debbie_arms_car 5 with dissolve
     show debbie car 5b
-    deb "I really wish I could help you out with this, sweetie."
-    deb "... But it just wouldn't be right."
+    deb "Я действительно хотел бы помочь тебе с этим, милый."
+    deb "... Но думаю это не правильно."
     show expression AnimatedImage("debbie_arms_car", [5,"5b","5c","5b"], M_mom) as debbie_arms_car at Position(xalign = 0.357, yalign = 0.558) with dissolve
     show debbie car 3b
-    deb "You need to find someone your own age..."
-    deb "Someone cute to be your girlfriend. Wouldn't that be nice?"
+    deb "Тебе нужно найти кого-то своего возраста..."
+    deb "Кого-то кто станет твоей девушкой. Разве это не здорово?"
     show debbie car 3
     show debbie_arms_car 5c with dissolve
     show player car 5
-    player_name "Y-Yeah, okay..."
+    player_name "Д-да, хорошо..."
     show player car 5b
     show debbie car 3b
-    deb "That's good."
+    deb "Договорились."
     show debbie_arms_car 5 with dissolve
-    deb "Do you want me to keep going?"
+    deb "Ты хочешь, чтобы я продолжала?"
     show debbie car 3
     return
 
 label home_front_mom_car_fixed_check_car_little_longer:
     show player car 5
-    player_name "Can... Can you keep going a little longer?"
+    player_name "Можешь... Можешь продолжить?"
     show player car 2
-    player_name "It feels so good!"
+    player_name "Очень приятно!"
     show player car 2b
     show debbie car 3b
-    deb "Alright, {b}[firstname]{/b} but I'm not going to finish you if that's what you're hoping for..."
+    deb "Хорошо, {b}[firstname]{/b} но я не собираюсь завершать, даже не надейся..."
     show debbie car 3
     return
 
 label mom_car_jerk_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -466,17 +466,17 @@ label home_front_mom_car_fixed_check_car_finished_too_much:
     show debbie_arms_car 4
     with dissolve
     show debbie car 5b
-    deb "I... I don't think I should keep doing this..."
+    deb "Я... Я не думаю, что я должна продолжать делать это..."
     show debbie car 5
     show debbie_arms_car 1 with dissolve
     show player car 5
-    player_name "but, {b}[deb_name]{/b}-"
+    player_name "Но, {b}[deb_name]{/b}-"
     show player car 3
     return
 
 label home_front_mom_car_fixed_check_car_finished_not_enough:
     show player car 4c
-    player_name "I guess we should probably stop, huh?"
+    player_name "Думаю, нам стоит остановиться?"
     show player car 4b
     show debbie car 5
     deb "..."
@@ -485,22 +485,22 @@ label home_front_mom_car_fixed_check_car_finished_not_enough:
     show debbie_arms_car 4
     with dissolve
     show debbie car 5b
-    deb "That's a good idea, Sweetheart."
+    deb "Это хорошая идея, Милый."
     show debbie car 5
     show debbie_arms_car 1 with dissolve
     show player car 5
-    player_name "... Yeah."
+    player_name "... Да."
     show player car 5b
     return
 
 label home_front_mom_car_fixed_check_car_finished_after:
     show debbie car 5b
-    deb "If you feel yourself getting hard, you should go up to your room and take care of it."
+    deb "Если ты чувствуешь, себя тяжело, ты должен пойти в свою комнату и позаботиться об этом."
     show debbie car 3b
-    deb "...Okay, sweetie?"
+    deb "...Да, милый?"
     show debbie car 3
     show player car 4c
-    player_name "... Yes, ma'am."
+    player_name "... Да, мэм."
     scene black with fade
     hide debbie
     hide debbie_arms_car
@@ -515,27 +515,27 @@ label home_front_mom_bad_guys_revisit:
     $ playMusic("<loop 73.5>audio/music_villain.ogg", 1.0)
     show player 11f at right with dissolve
     player_name "!!!"
-    player_name "( It's that car again! )"
-    player_name "( ... with that creep who's been threatening {b}[deb_name]{/b}! )"
+    player_name "( Снова эта машина! )"
+    player_name "( ... с этим подонком, который угрожал {b}[deb_name]{/b}! )"
     hide player
     $ playSound()
     show expression "backgrounds/location_home_entrance_cutscene01.jpg"
-    show expression FilteredText("As I looked through the window, I spotted the guy who'd been delivering all the threats.\nIt would seem he brought backup this time.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Когда я смотрел в окно, я заметил парня, который доставлял все угрозы.\nПохоже, на этот раз он привел подкрепление.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
     show expression "backgrounds/location_home_entrance_cutscene02.jpg"
-    show expression FilteredText("I couldn't hear what they were saying, but {b}[deb_name]{/b} looked terrified.") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("Я не слышал, что они говорили, но {b}[deb_name]{/b} выглядела испуганной.") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     play audio smack
     hide cutscene
     show expression "backgrounds/location_home_entrance_cutscene03.jpg"
-    show expression FilteredText("... Then one of the goons knocked her to the floor!") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("... Затем один из головорезов повалил её на пол!") as cutscene at Position (xpos= 512, ypos= 700)
     with hpunch
     pause
     hide cutscene
-    show expression FilteredText("There was no way I could just stand there and watch...\nI {b}had{/b} to do something!") as cutscene at Position (xpos= 512, ypos= 700)
+    show expression FilteredText("henchman_cs2 3", "Я никак не мог просто стоять и смотреть...\nЯ {b}должен{/b} что-то сделать!") as cutscene at Position (xpos= 512, ypos= 700)
     with fade
     pause
     hide cutscene
@@ -548,57 +548,57 @@ label home_front_mom_bad_guys_revisit:
         tmp = deb_name.upper()
     player_name "{b}[tmp]{/b}!!"
     show player 205 at Position(xpos=350,ypos=768) with dissolve
-    player_name "What the hell's the matter with you?!"
+    player_name "Что, черт возьми, тут происходит?!"
     show player 204
-    deb "{b}[firstname]{/b}, just leave it..."
+    deb "{b}[firstname]{/b}, оставь..."
     show player 205
-    player_name "What kind of man hits a defenseless woman?!"
+    player_name "Какой мужчина ударит беззащитную женщину?!"
     show player 204
     show henchman2 2
-    henchman2 "Don't be stupid, Kid. This doesn't concern you."
+    henchman2 "Не будь глупым, парень. Это тебя не касается."
     show player 205
     show henchman2 1
-    player_name "Back off! If you touch her again I'm going to-"
+    player_name "Отвали! Если ты еще раз тронешь ее я-"
     show player 204
     show henchman2 3
-    henchman2 "Hah! What are you gonna do?!"
+    henchman2 "Ха! И что ты сделаешь?!"
     show henchman2 1
     player_name "..."
     show player 205
-    player_name "I'm calling the cops and you can deal with-"
+    player_name "Я вызову полицию и будете иметь дело с-"
     show player 204
     show henchman2 3
     hide debbie with dissolve
-    henchman2 "I don't think so."
+    henchman2 "Я так не думаю."
     show henchman2 1
     hide player
     show henchman1 7 at Position(xpos=350,ypos=768) with hpunch
-    player_name "Hey! Let go of me!"
+    player_name "Хей! Отпусти меня!"
     show henchman1 8
     hide henchman2
     show henchman2 3 at right
-    henchman2 "Hahah, easy there, Killer..."
-    henchman2 "Your {b}Father{/b} owed us a {b}LOT{/b} of money..."
-    henchman2 "A {b}debt{/b} that now belongs to the two of you!"
+    henchman2 "Ха-ха-ха, полегче, убийца..."
+    henchman2 "Твой {b}отец{/b} задолжал нам {b}МНОГО{/b} бабла..."
+    henchman2 "{b}Долг{/b} теперь принадлежит вам обоим!"
     show henchman2 2
-    henchman2 "... And you're going to pay up. Otherwise..."
+    henchman2 "... И ты заплатишь. В противном случае..."
     show henchman1 9
     show henchman2 5
     with hpunch
     deb "{b}[firstname]{/b}!!!"
     show henchman2 3
     show henchman1 10 at Position(xpos=340,ypos=768)
-    henchman2 "As for the authorities..."
+    henchman2 "Что касается властей..."
     show henchman2 2
-    henchman2 "... I'd leave them out of it unless you want this to get {b}REAL{/b} messy!"
-    henchman2 "If you care about your lives, you'll {b}bring the money{/b} to the {b}warehouse{/b} like you were told!"
+    henchman2 "... Я бы оставил их в покое, если Вы не хотите, чтобы это стало {b}НАСТОЯЩЕЙ{/b} проблеммой!"
+    henchman2 "Если вы дорожите своими жизнями, вы {b}принесите деньги{/b} на {b}склад{/b} как вам сказали!"
     show henchman2 4
-    henchman2 "You don't want us coming back here! {b}Got it{/b}, Lady?!"
+    henchman2 "Вы же не хотите, чтобы мы возвращались сюда! {b}Все понятно{/b}, дамочка?!"
     show player 184
     show henchman1 6f at left
     show henchman2 2
     with vpunch
-    henchman2 "C'mon, let's get out of this dump."
+    henchman2 "Ладно, пошли из этой помойки."
     $ playMusic()
     hide henchman1
     hide henchman2
@@ -607,71 +607,71 @@ label home_front_mom_bad_guys_revisit:
     hide player
     show debbie 41 at left
     with dissolve
-    deb "Easy, sweetie. I've got you."
+    deb "Полегче, милый. Я держу тебя."
     show debbie 44 at left
-    show jenny f_sad_talk
+    show jenny 39 at right
     with dissolve
-    jen "What the hell is going on?"
-    jen "I heard screams and-"
-    show jenny f_surprised a_dressed_up_surprised with dissolve
+    jen "Что тут, черт возьми, происходит?"
+    jen "Я слышала крики и-"
+    show jenny 40 at Position(xpos=0.885, ypos=1.0) with dissolve
     jen "( !!! )"
-    jen "Oh God, is he okay?!"
+    jen "Господи, с ним все в порядке?!"
     show debbie 43
-    show jenny f_sad a_dressed_side with dissolve
-    deb "He'll be alright. Just calm down..."
-    deb "They're gone."
+    show jenny 43 at Position(xpos=1.0, ypos=1.0) with dissolve
+    deb "С ним все будет в порядке. Просто успокойся..."
+    deb "Они ушли."
     show debbie 44
-    show jenny f_sad_talk
-    jen "We need to call someone!"
-    show jenny f_sad
+    show jenny 39
+    jen "Мы должны позвонить кому-нибудь!"
+    show jenny 43
     show debbie 43
-    deb "NO! We can't do that!"
+    deb "Нет! Мы не можем этого сделать!"
     show debbie 44
-    show jenny f_sad_talk
-    jen "What?! {b}[deb_name]{/b} those men broke in here and assaulted you guys!"
-    jen "We can't just let them-"
-    show jenny f_sad
+    show jenny 39
+    jen "Что?! {b}[deb_name]{/b} эти люди вломился сюда и напал на вас!"
+    jen "Мы не можем позволить им-"
+    show jenny 43
     show debbie 45
-    deb "I said {b}NO{/b}, {b}[jen_name]{/b}!"
+    deb "Я сказала {b}НЕТ{/b}, {b}[jen_name]{/b}!"
     show debbie 43
-    deb "... Just..."
-    deb "Go back to your room and let me handle this. Okay?"
+    deb "... Только..."
+    deb "Возвращайся в свою комнату и позволь мне разобраться с этим. Ладно?"
     show debbie 44
-    show jenny f_sad_talk
-    jen "I... Okay..."
+    show jenny 39
+    jen "Я... Хорошо..."
     hide jenny
     with dissolve
     show debbie 41
-    deb "It's gonna be alright, sweetie."
+    deb "Все будет хорошо, милый."
     show debbie 42
-    player_name "Sorry. I couldn't stop them, {b}[deb_name]{/b}..."
+    player_name "Прости. Я не смог остановить их, {b}[deb_name]{/b}..."
     show debbie 41
-    deb "Don't be sorry. It was very brave of you to try!"
-    deb "You were trying to protect us."
+    deb "Не надо извиняться. Это было очень смело с твоей стороны попробовать!"
+    deb "Ты пытался защитить нас."
     show debbie 42
-    player_name "What are we going to do?"
+    player_name "Что нам делать?"
     show debbie 41
-    deb "Don't worry about that right now; We're safe."
+    deb "Не беспокойся об этом сейчас, главное мы в безопасности."
     show debbie 42
     deb "..."
     show debbie 41
-    deb "How's your face?"
+    deb "Как у тебя с лицом?"
     show debbie 42
-    player_name "My nose hurts..."
-    player_name "... And I'm bleeding everywhere."
+    player_name "У меня болит нос..."
+    player_name "... И у меня везде кровь."
     show debbie 41
-    deb "Come on, let's get you cleaned up."
+    deb "Пойдем, приведем тебя в порядок."
     hide debbie with dissolve
     scene shower2
     show debbie 39f at left
     show player 209f
     with dissolve
-    deb "Looks like the bleeding stopped..."
+    deb "Похоже, кровотечение остановилось..."
     show debbie 63f
-    deb "You should take a shower, sweetie."
-    deb "It'll help with the swelling."
+    deb "Ты должен принять душ, милый."
+    deb "Это поможет с опухолью."
     show player 210
-    deb "I'll go fetch you some clean clothes."
+    deb "Я принесу тебе чистую одежду."
     show debbie 38f
     hide debbie
     hide player
@@ -679,21 +679,21 @@ label home_front_mom_bad_guys_revisit:
     show debbie 38
     with fade
     deb "( ... )"
-    deb "( I feel like I should be in there with him... Making sure he's okay. )"
-    deb "( Maybe it's better that I give him some privacy... )"
-    deb "( I'll just leave his clothes outside the door. )"
+    deb "( Я чувствую, что должна быть там с ним... Убедиться, что он в порядке. )"
+    deb "( Может, будет лучше, если я оставлю его в покое... )"
+    deb "( Я просто оставлю его одежду за дверью. )"
     pause
     show debbie 125 with fastdissolve
-    deb "( Poor Kid. )"
-    deb "( I can't believe he stood up to those men... For me. )"
-    deb "( That was the bravest thing I've ever seen! )"
-    deb "( Hmm... )"
-    deb "( ... Maybe I should go in and check on him. )"
-    deb "( Just to make sure he doesn't need my help. )"
+    deb "( Бедный ребенок. )"
+    deb "( Не могу поверить, что он противостоял этим людям... из-за меня. )"
+    deb "( Это было самое смелое, что я когда-либо видела! )"
+    deb "( Хмм... )"
+    deb "( ... Может, мне стоит зайти и проведать его. )"
+    deb "( Просто чтобы убедиться, что ему не нужна моя помощь. )"
     scene shower_closeup
     show debbies 26 zorder 2
     with fade
-    player_name "Man... So that's what getting punched in he face feels like..."
+    player_name "Блин... Так вот что значит получить по морде...."
     show debbies 27 with dissolve
     pause
     show debbies_b zorder 1 at Position(xpos=350,ypos=768) with dissolve
@@ -703,47 +703,47 @@ label home_front_mom_bad_guys_revisit:
     with dissolve
     pause
     show debbies 29 at Position(xpos=492,ypos=768)
-    player_name "... Is my nose supposed to be this soft?"
+    player_name "... Мой нос должен быть таким мягким?"
     show debbies 31 at Position(xpos=484,ypos=768) with vpunch
     player_name "{b}[deb_name]{/b}??"
-    player_name "Why are you-"
+    player_name "Почему ты-"
     show debbies 30
-    deb "Shhh, It's okay, sweetie."
-    deb "Let me help you..."
+    deb "Шшш, Все хорошо, милый."
+    deb "Позволь помочь тебе..."
     show debbies 34
-    deb "You deserve it, after what you did back there."
+    deb "Ты заслужил это, после того, что ты сделал там."
     show debbies 37_36
     pause 4
     show debbies 34
-    deb "How's your face?"
+    deb "Как лицо?"
     show debbies 35
-    player_name "Better."
+    player_name "Лучше."
     show debbies 34
-    deb "I'm glad to hear it."
-    deb "I don't want anything to happen to my brave little man..."
+    deb "Я рада слышать это."
+    deb "Я не хочу, чтобы что-то случилось с моим храбрым человечком..."
     show debbies 36
     show debbies 76 with dissolve
     show debbies 41_76
     pause
     show debbies 42 with hpunch
     with dissolve
-    deb "Here, sweetie, let me help you."
+    deb "Вот, милый, позволь мне помочь тебе."
     show debbies 72
-    player_name "... You're sure?"
+    player_name "... Ты уверена?"
     show debbies 43
-    deb "I'm sure, sweetie. Let me take care of you..."
+    deb "Я уверена, милый. Позволь мне позаботиться о тебе..."
     show debbies 44
-    deb "You were so brave down there. Standing up to those men for us."
+    deb "Ты был таким храбрым там. Стоя перед этими людьми защищая нас."
     show debbies 45 with dissolve
-    deb "I'm very proud of you..."
+    deb "Я горжусь тобой..."
     show debbies 74
-    player_name "... Ohh, that feels really good, {b}[deb_name]{/b}!"
+    player_name "... Ох, это очень хорошо, {b}[deb_name]{/b}!"
     show debbies 73_74
     pause 4
     show debbies 73
-    player_name "{b}[deb_name]{/b}, I'm gonna..."
+    player_name "{b}[deb_name]{/b}, я кончаю..."
     show debbies 46
-    deb "It's okay, sweetie, just let it out!"
+    deb "Хорошо, милый, давай!"
     show debbies 47 at Position(xpos=498,ypos=768)
     player_name "!!!"
     show white zorder 4 with dissolve
@@ -754,16 +754,16 @@ label home_front_mom_bad_guys_revisit:
     show debbies 48
     hide playersex
     with dissolve
-    deb "Wow, you had a lot in there..."
+    deb "Воу, так много..."
     show debbies 44 at Position(xpos=484,ypos=768) with dissolve
-    deb "Good boy..."
+    deb "Хороший мальчик..."
     show debbies 34 at Position(xpos=447,ypos=768) with dissolve
-    deb "Now doesn't that feel better?"
+    deb "Теперь тебе лучше?"
     show debbies 35 at Position(xpos=447,ypos=768)
-    player_name "Oooh, you have no idea..."
-    player_name "... Thanks, {b}[deb_name]{/b}!"
+    player_name "Оооо, ты понятия не имеешь как лучше..."
+    player_name "... Спасибо, {b}[deb_name]{/b}!"
     show debbies 34
-    deb "Now let's get you cleaned up."
+    deb "А теперь приведем тебя в порядок."
     scene shower2
     with fade
     show player 261f at left with dissolve
@@ -775,44 +775,44 @@ label home_front_mom_bad_guys_revisit:
     show player 21 with dissolve
     show debbie 34 with dissolve
     with dissolve
-    player_name "{b}[deb_name]{/b}, was this just a one time thing?"
+    player_name "{b}[deb_name]{/b}, это было только один раз?"
     show player 1
     show debbie 34
     deb "..."
     show debbie 35
-    deb "Oh, sweetie... I don't know."
+    deb "О, милый... я не знаю."
     show debbie 34
     deb "..."
     show debbie 35
-    deb "I suppose, we can do it again."
+    deb "Я полагаю, мы можем сделать это снова."
     show debbie 36
-    deb "But you can't tell {b}ANYBODY{/b} and we can't take things too far!"
+    deb "Но ты не должен {b}никому{/b} говорить и мы не можем заходить слишком далеко!"
     show debbie 34
     deb "..."
     show debbie 36
-    deb "... And we {b}ABSOLUTELY CAN'T{/b} let {b}[jen_name]{/b} find out, either!"
-    deb "Do you {b}understand{/b}?"
+    deb "... И мы {b}АБСОЛЮТНО НЕ МОЖЕМ{/b} позволить {b}[jen_name]{/b} узнать об этом!"
+    deb "Ты {b}понял{/b}?"
     show debbie 34
     show player 21
-    player_name "I understand, {b}[deb_name]{/b}."
+    player_name "Я понял, {b}[deb_name]{/b}."
     show debbie 35
     show player 1
-    deb "Alright..."
-    deb "I have to go clean up the mess downstairs..."
+    deb "Хорошо..."
+    deb "Я должна прибраться внизу..."
     show debbie 36
-    deb "I want you to wait a couple minutes before coming out of the bathroom."
-    deb "Otherwise {b}[jen_name]{/b} will suspect something. Okay?"
+    deb "Я хочу, чтобы ты подождал пару минут, прежде чем выйти из ванной."
+    deb "В противном случае {b}[jen_name]{/b} может что-то заподозрить. Хорошо?"
     show debbie 32
     show player 28
-    player_name "O-okay, {b}[deb_name]{/b}."
+    player_name "Хорошо, {b}[deb_name]{/b}."
     show debbie 33
     show player 1
-    deb "Good boy."
+    deb "Молодчинка."
     hide debbie with dissolve
     pause
     show player 21f at Position(xpos=0.4, ypos=1.0) with dissolve
-    player_name "... Wow!"
-    player_name "That was totally worth a punch in the face!"
+    player_name "... Вау!"
+    player_name "И Это стоило всего одного удара!"
     hide player
     with dissolve
     show popup_debbieshower at truecenter with dissolve
@@ -831,10 +831,10 @@ label player_mailbox_dialogue:
     if erik.completed(erik_orcette) and not player.has_item("orcette") and not erik.known(erik_orcette_2) and orcette_mail_lock:
         call expression game.dialog_select("player_mailbox_erik_orcette_completed_pre")
         menu:
-            player_name "The package is addressed to me. This must be {b}Erik's{/b} toy."
-            "Leave it alone.":
+            player_name "Пакет адресован мне. Это должна быть {b}игрушка Эрика{/b}."
+            "Не открывать.":
                 pause
-            "Open it.":
+            "Открыть.":
 
 
                 call expression game.dialog_select("player_mailbox_erik_orcette_completed_open")
@@ -853,16 +853,16 @@ label player_mailbox_dialogue:
     $ player.location.call_screen(False)
 
 label player_mailbox_erik_orcette_completed_pre:
-    player_name "( Sweet! It looks like I'm the first one to get the mail! )"
+    player_name "( Мило! Похоже, я первый, кому пришла почта! )"
     return
 
 label player_mailbox_erik_orcette_completed_open:
     show mailbox_item04_c at truecenter
     with dissolve
     pause
-    player_name "( So this is what he's been waiting for... )"
-    player_name "( The {b}Orcette{/b}. )"
-    player_name "( I'd better put this back in the box. )"
+    player_name "( Так вот чего он так долго ждал... )"
+    player_name "( {b}Орцетте{/b}. )"
+    player_name "( Я лучше положу это обратно в коробку. )"
     return
 
 label player_mailbox_erik_orcette_completed_after:
@@ -871,22 +871,22 @@ label player_mailbox_erik_orcette_completed_after:
     hide unlock38
     hide mailbox_item04_c
     with dissolve
-    player_name "( Time to get this to {b}Erik{/b} before someone catches me carrying this thing around. )"
+    player_name "( Пора отнести это {b}Эрику{/b} пока кто-нибудь не поймал меня с этой штукой. )"
     return
 
 label player_mailbox_pizza_pamphlet:
-    player_name "( This is probably junk mail.)"
+    player_name "( Это, вероятно, спам.)"
     show expression "objects/object_mailbox_item02_closeup.png" with dissolve
-    player_name "( {b}Tony's Pizza{/b}? I haven't been to that place in a while. )"
-    player_name "( I'd better put this back. )"
+    player_name "( Пицца Тони? Я давно там не был. )"
+    player_name "( Я лучше положу это обратно. )"
     hide expression "objects/object_mailbox_item02_closeup.png" with dissolve
     return
 
 label player_mailbox_newspaper:
-    player_name "( Local news. This should be interesting... )"
+    player_name "( Местные новости. Это должно быть интересно... )"
     show expression "objects/object_newspaper.png" with dissolve
-    player_name "( The thief is still on the loose? You'd think they would've caught him by now... )"
-    player_name "( I'd better put this back. )"
+    player_name "( Вор все еще на свободе? Можно подумать, они бы уже его поймали... )"
+    player_name "( Я лучше положу это обратно. )"
     hide expression "objects/object_newspaper.png" with dissolve
     return
 
@@ -899,15 +899,15 @@ label bad_guys_driveby:
 label bad_guys_driveby_dialogue:
     scene location_home_driveby_cutscene1
     with fade
-    show text "Hmm, why is that car driving so slow?" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Почему эта машина едет так медленно?" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "Wait a second..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Секундочку..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     scene location_home_driveby_cutscene2
     with fade
-    show text "It's that strange man who was over here making threats the other day!" at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это тот странный человек, который угрожал мне на днях!" at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "What's his problem..." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "В чем его проблема..." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -915,8 +915,8 @@ label bad_guys_driveby_dialogue:
     show player 11
     player_name "..."
     show player 10
-    player_name "I know {b}[deb_name]{/b} said not to worry about this..."
-    player_name "... But that guy really freaks me out!"
+    player_name "Я знаю, что {b}[deb_name]{/b} сказала не беспокоиться об этом..."
+    player_name "... Но этот парень действительно пугает меня!"
     show player 11
     player_name "..."
     hide player with dissolve
@@ -928,43 +928,43 @@ label home_roxxy_studying_at_mcs:
     show roxxy 1f f at Position (xpos=400)
     show debbie 2 at right
     with dissolve
-    deb "Hey, sweetie!"
-    deb "How was sch-"
+    deb "Привет, милый!"
+    deb "Как дела в шко-"
     show debbie 13
-    deb "... Oh."
-    deb "Who's this?"
+    deb "... О."
+    deb "Кто это?"
     show debbie 14
     show player 14
-    player_name "{b}[deb_name]{/b}, this is {b}Roxxy{/b}."
-    player_name "I'm helping her study for French class."
+    player_name "{b}[deb_name]{/b}, это {b}Рокси{/b}."
+    player_name "Я помогаю ей по французкому языку."
     show player 13
     show debbie 3
-    deb "Well that's nice!"
+    deb "Ну, это хорошо!"
     show debbie 2
-    deb "I'm happy to meet you, {b}Roxxy{/b}."
+    deb "Я рада с вами познакомиться, {b}Рокси{/b}."
     show debbie 1
     show roxxy 1bf
-    rox "... Thanks."
-    rox "Nice to meet you too."
+    rox "... Спасибки."
+    rox "Я тоже рада с вами познакомиться."
     show roxxy 1f f
     show debbie 2
-    deb "I was just finishing up dinner."
-    deb "You want me to bring you kids up a couple plates?"
+    deb "Я как раз заканчивала приготовлять ужин."
+    deb "Хотите, я принесу вам пару тарелок?"
     show debbie 1
     show player 14
-    player_name "Yeah, that would be great!"
+    player_name "Да, это было бы здорово!"
     show player 13
     show roxxy 1bf
-    rox "Oh, I don't wanna impose..."
+    rox "О, я не хочу навязываться..."
     show roxxy 1f f
     show debbie 3
-    deb "Psh, not at all, dear!"
+    deb "Пш, совсем нет, дорогая!"
     show debbie 2
-    deb "You kids get on up there and have fun!"
-    deb "I'll bring you dinner as soon as it's ready."
+    deb "Дети, поднимайтесь и веселитесь!"
+    deb "Я принесу вам ужин, как только он будет готов."
     show debbie 1
     show player 14
-    player_name "Thanks, {b}[deb_name]{/b}!"
+    player_name "Спасибо, {b}[deb_name]{/b}!"
     hide player
     hide roxxy
     hide debbie
@@ -973,42 +973,42 @@ label home_roxxy_studying_at_mcs:
     show player 13 at left
     show roxxy 2 at right
     with dissolve
-    rox "Your landlady is really nice..."
+    rox "Твоя хозяйка очень милая..."
     show roxxy 1
     show player 33
-    player_name "Yeah, I'm pretty lucky."
+    player_name "Ага, я счастливчик."
     show player 13
     show roxxy 30
-    rox "So this is your room?"
+    rox "Итак, это твоя комната?"
     show roxxy 1
     show player 10
-    player_name "Uh huh..."
+    player_name "Ага..."
     show player 5
     show roxxy 2
-    rox "Well, it's pretty dorky..."
-    rox "... But I guess, it's nice too."
+    rox "Ну, симпатичная конура..."
+    rox "... Но я думаю, что здесь тоже хорошо."
     show roxxy 1
     show player 14
-    player_name "Heh, was that a compliment?"
+    player_name "Ха, это был комплимент?"
     show player 13
     show roxxy 2
-    rox "No. Don't be stupid."
+    rox "Нет. Не глупи."
     show roxxy 1
     show player 10
-    player_name "Alright, sorry."
-    player_name "You okay with studying here?"
+    player_name "Хорошо, прости."
+    player_name "Где будем заниматься?"
     show player 5
     show roxxy 1b
-    rox "The bed looks comfy."
+    rox "Кровать выглядит удобной."
     show roxxy 1
     show player 10
-    player_name "... You wanna study on my bed?"
+    player_name "... Ты хочешь заниматься на кровати?"
     show player 11
     show roxxy 2
-    rox "Sure. Why not?"
+    rox "А почему бы нет?"
     show roxxy 1
     show player 29 with dissolve
-    player_name "Fine by me."
+    player_name "Ладно."
     hide player
     hide roxxy
     with dissolve
@@ -1017,83 +1017,83 @@ label home_roxxy_studying_at_mcs:
     show roxxy 36b at left
     show roxxy_outfit at left
     with dissolve
-    rox "So..."
+    rox "Ну..."
     show roxxy 35b
     rox "..."
     show roxxy 35e
-    rox "You have girls up here often?"
+    rox "У тебя здесь часто бывают девушки?"
     show roxxy 35d
     show player bed 3
-    player_name "Huh?"
-    player_name "... No, not really."
+    player_name "Хах?"
+    player_name "... Нет, не совсем."
     show player bed 2
     show roxxy 35e
-    rox "Is this the first time you've had a girl on your bed?"
+    rox "Это первый раз, когда у тебя на кровати девушка?"
     show roxxy 35d
     player_name "..."
     show player bed 3
-    player_name "... No?"
+    player_name "... Нет?"
     show player bed 2
     show roxxy 35e
-    rox "You're not a virgin are you?"
+    rox "Ты же не девственник?"
     show roxxy 35d
     show player bed 6
     player_name "!!!" with hpunch
     show player bed 3
-    player_name "What?!"
-    player_name "That's not... I mean, I'm not really comfortable..."
+    player_name "Что?!"
+    player_name "Это не так... В смысле, мне не очень комфортно..."
     show player bed 2
     player_name "..."
     show player bed 5
-    player_name "Are you?"
+    player_name "А ты?"
     show player bed 4
     show roxxy 35c
-    rox "Pfft!"
+    rox "Пфф!"
     show roxxy 37 at Position (xoffset=120, yoffset=-100)
-    rox "Haha, as if I'd tell you! I'm just having a laugh!"
+    rox "Ха-ха, как будто я тебе скажу! Я просто смеюсь!"
     show roxxy 35e at left
-    rox "I told you, studying isn't really my strong suit."
+    rox "Я говорила тебе, учеба - моя не сильная сторона."
     show roxxy 35d
     show player bed 5
-    player_name "Oh, c'mon. You aren't even trying."
-    player_name "I think you're smarter than you give yourself credit, {b}Roxxy{/b}."
+    player_name "Ой, да ладно. Ты даже не пробовала."
+    player_name "Я думаю, ты умнее, чем считаешь, {b}Рокси{/b}."
     show player bed 4
     show roxxy 38b
     rox "..."
     show roxxy 36 at Position (xoffset=120, yoffset=-100)
-    rox "Tch, whatever..."
+    rox "Ччч, без разницы..."
     show roxxy 35b
     show player bed 5
-    player_name "I'm serious!"
+    player_name "Я серьезно!"
     show player bed 4
     rox "..."
     show roxxy 35c
-    rox "Have you ever had a girlfriend?"
+    rox "У тебя когда-нибудь была девушка?"
     show roxxy 35b
     show player bed 6
     player_name "!!!" with hpunch
     player_name "..."
     show player bed 3
-    player_name "Why would you ask me that?"
+    player_name "Почему ты спрашиваешь меня об этом?"
     show player bed 2
     show roxxy 37 at Position (xoffset=120, yoffset=-100)
-    rox "Haha, boredom mostly..."
+    rox "Хаха, скатища..."
     show roxxy 35b
     show player bed 5
-    player_name "Here look, I'll show you a trick to make this more interesting..."
+    player_name "Смотри, я покажу тебе трюк чтобы сделать обучение более интересным..."
     show player bed 4
     show roxxy 40 at Position (xoffset=120, yoffset=-100)
-    rox "Pfft, yeah right."
+    rox "Пфф, ага."
     show roxxy 35b
     show player bed 5
-    player_name "Just look!"
+    player_name "Смотри!"
     hide player
     hide roxxy
     hide roxxy_outfit
     with dissolve
     scene expression "backgrounds/location_home_bedroom_cutscene10.jpg"
     with fade
-    show text "I spent hours trying to coax {b}Roxxy{/b} into studying.\nShe mostly just watched me work and asked awkward questions about my experience with girls.\n... But eventually I managed to teach her what she needed to know." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я провел часы, пытаясь уговорить {b}Рокси{/b} учиться.\nВ основном она просто наблюдала за моей работой и задавала неудобные вопросы о моем опыте с девушками.\n... Но в конце концов мне удалось научить ее тому, что ей нужно знать." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -1101,37 +1101,37 @@ label home_roxxy_studying_at_mcs:
     show roxxy 1 at right
     show player 10 at left
     with dissolve
-    player_name "So, I guess we might have to do this again sometime, huh?"
+    player_name "Так что, я думаю, нам, возможно, придется сделать это снова когда-нибудь, да?"
     show player 5
     show roxxy 2
-    rox "Let's hope not!"
+    rox "Будем надеяться, что нет!"
     show roxxy 1
     show player 12
-    player_name "Oh, c'mon... It wasn't that bad!"
+    player_name "Ой, да ладно... Это было не так уж и плохо!"
     show player 5
     rox "..."
     show roxxy 1b
-    rox "... No, it wasn't that bad."
-    rox "Just..."
+    rox "... Нет, все было не так уж плохо."
+    rox "Только..."
     show roxxy 1
     rox "..."
     show roxxy 1b
-    rox "Thanks... For being cool about all this..."
+    rox "Спасибо ... За то, что было все круто..."
     show roxxy 1
     show player 13
     player_name "..."
     rox "..."
     show roxxy 2
-    rox "... Why are you looking at me like that?"
+    rox "... Почему ты так смотришь на меня?"
     show roxxy 1
     show player 29 with dissolve
-    player_name "S-sorry... It's just... I'm not used to you, being nice, like this..."
+    player_name "П-прости... Это просто... Я не привык к тому, что ты такая милая..."
     show player 3
     show roxxy 2
-    rox "... Well don't get used to it!"
-    rox "You're still a dork and I'm gonna treat you like one at school!"
+    rox "... Ну не привыкайте к этому!"
+    rox "Ты все еще придурок, и я буду относиться к тебе так и в школе!"
     show roxxy 28 with dissolve
-    rox "... but."
+    rox "... но."
     show roxxy 27
     rox "..."
     hide player
@@ -1142,29 +1142,29 @@ label home_roxxy_studying_at_mcs:
     with dissolve
     player_name "..."
     show player 10
-    player_name "What was that for?"
+    player_name "Что это было?"
     show player 11
     show roxxy 1b
-    rox "... Just a little show of gratitude."
+    rox "... Просто небольшая благодарность."
     show player 13
-    rox "Nothing more!"
+    rox "Ничего более!"
     show roxxy 2
-    rox "Don't go thinking it means anything!"
+    rox "Не думай, что это что-то значит!"
     show roxxy 1
     player_name "..."
     show player 29 with dissolve
-    player_name "... Right."
-    player_name "I'll walk you home, then."
+    player_name "... Ладно."
+    player_name "Я провожу тебя домой."
     show player 3
     show roxxy 1b
-    rox "Nah, I'll be fine."
-    rox "Later, nerd!"
+    rox "Нет, со мной все будет хорошо."
+    rox "Пока, ботан!"
     hide roxxy with dissolve
     pause
     show player 34 with dissolve
     player_name "..."
     show player 35
-    player_name "Pigs must be flying somewhere..."
+    player_name "Свиньи должны куда-то лететь..."
     hide player with dissolve
     return
 
@@ -1175,38 +1175,38 @@ label home_front_roxxy_cookies_and_milk:
     show debbie 13 at right
     with dissolve
     deb "{b}[firstname]{/b}?"
-    deb "What on earth are you doing home so early?"
+    deb "Что ты делаешь дома так рано?"
     show debbie 14
     show player 10
-    player_name "Hey, {b}[deb_name]{/b}."
-    player_name "My friend here is having a really rough day."
+    player_name "Привет, {b}[deb_name]{/b}."
+    player_name "У моего друга сегодня очень тяжелый день."
     show player 5
     show debbie 13
-    deb "Oh!"
+    deb "О!"
     show debbie 2
-    deb "Hello again, dear..."
+    deb "Привет опять, дорогая..."
     show debbie 1
     show player 10
-    player_name "I brought her here to talk things over."
-    player_name "... And I offered her lunch."
-    player_name "I hope that's okay?"
+    player_name "Я привел ее сюда, чтобы поговорить."
+    player_name "... И я предложил ей обед."
+    player_name "Надеюсь, все в порядке?"
     show player 5
     show debbie 3
-    deb "Of course, it's okay!"
+    deb "Конечно, все в порядке!"
     show debbie 2
-    deb "... It's {b}Roxxy{/b}, isn't it?"
+    deb "... Тебя зовут {b}Рокси{/b}, да?"
     show debbie 1
     show roxxy 33f
-    rox "Yes, ma'am."
-    rox "Sorry to inconvenience you again..."
+    rox "Да, мэм."
+    rox "Извините за неудобства ..."
     show roxxy 32f
     show debbie 3
-    deb "It's no trouble at all, dear!"
+    deb "Это не проблема, дорогая!"
     show debbie 2
-    deb "Why don't you two go on upstairs and I'll whip something up for you."
+    deb "Почему бы вам не отправиться наверх, а я что-нибудь приготовлю для вас."
     show debbie 1
     show player 14
-    player_name "Thanks, {b}[deb_name]{/b}."
+    player_name "Спасибо, {b}[deb_name]{/b}."
     scene black with fade
     pause
 
@@ -1214,119 +1214,119 @@ label home_front_roxxy_cookies_and_milk:
     show player 5 at left
     show roxxy 1l
     with dissolve
-    rox "Does your {b}Landlady{/b} ever wear clothes?"
+    rox "Твоя {b}Хозяйка{/b} когда-нибудь носила одежду?"
     show roxxy 1k
     show player 10
-    player_name "Huh?"
-    player_name "What do you mean?"
+    player_name "А?"
+    player_name "Что ты имеешь в виду?"
     show player 5
     show roxxy 1i
     rox "..."
     show roxxy 1l
-    rox "... Nevermind."
+    rox "... Неважно."
     show roxxy 30 at Position (xoffset=-33) with dissolve
-    rox "Ugh, this is such a disaster..."
-    rox "What the hell am I gonna do!"
+    rox "Фу, это катастрофа..."
+    rox "Что, черт возьми, я собираюсь делать!"
     show roxxy 29 at Position (xoffset=-33)
     show player 10
-    player_name "Calm down, {b}Roxxy{/b}."
-    player_name "There's no sense getting yourself all worked up before we have all the details."
+    player_name "Успокойся, {b}Рокси{/b}."
+    player_name "Нет смысла волноваться, пока мы не выясним все детали."
     show player 5
     show roxxy 3c at Position (xoffset=-33)
-    rox "What do you mean?"
+    rox "Что ты имеешь в виду?"
     show roxxy 3d at Position (xoffset=-33)
     show player 10
-    player_name "All we know is that {b}your mom{/b} was arrested for possession and that the police are investigating."
-    player_name "There might still be a way to salvage the situation."
+    player_name "Все, что мы знаем, это то, что {b}твоя мама{/b} была арестована за хранение и что полиция ведет расследование."
+    player_name "Возможно, еще есть способ исправить ситуацию."
     show player 5
     show roxxy 1k with dissolve
     rox "..."
     show roxxy 1l
-    rox "You really think so?"
+    rox "Ты правда так думаешь?"
     show roxxy 1k
     show player 10
-    player_name "... Maybe."
-    player_name "We should go down to the {b}Police Station{/b} and find out exactly what's going on."
+    player_name "... Возможно."
+    player_name "Мы должны сходить в {b}полицейский участок{/b} и выяснить, что именно происходит."
     show player 5
     show roxxy 27
     rox "..."
     show roxxy 1l
-    rox "You're right..."
+    rox "Ты прав..."
     show roxxy 1k
     rox "..."
     show player 10
-    player_name "For now, just breathe and relax."
-    player_name "I'm sure we can find a way to fix this."
+    player_name "А пока просто дыши и расслабься."
+    player_name "Я уверен, мы сможем найти способ исправить все."
     show player 5
     show roxxy 1l
-    rox "... Why are you being so nice to me?"
+    rox "... Почему ты так добр ко мне?"
     show roxxy 1k
     show player 10
-    player_name "Huh?"
-    player_name "I..."
+    player_name "Хух?"
+    player_name "Я..."
     show player 5
     show debbie 218 at right with dissolve
-    deb "I brought snacks!"
+    deb "Я принесла перекусить!"
     show roxxy 1kf at Position (xpos=400) with dissolve
     show player 13
     show debbie 217
-    deb "Some fresh milk and oven baked cookies..."
-    deb "It's the perfect thing to get you feeling better after a rough day, {b}Roxxy{/b}!"
+    deb "Немного свежего молока и печенки..."
+    deb "Это идеальная вещь, чтобы ты чувствовала себя лучше после тяжелого дня, {b}Рокси{/b}!"
     show debbie 219 with dissolve
     show roxxy 27f at Position (xoffset=33)
     show player 428
     pause
     show roxxy 1bf with dissolve
-    rox "{b}*Sniff*{/b} Oh, wow!"
+    rox "{b}*фырк*{/b} О, вау!"
     show debbie 1 with dissolve
     show player 11
-    rox "Those looks wonderful, ma'am!"
+    rox "Выглядит прекрасно, мэм!"
     show roxxy 1f f
     show debbie 3
-    deb "Aww, well thank you, dear."
+    deb "О, ну спасибо тебе, дорогая."
     show roxxy 32f at Position (xoffset=-34)
     show player 13
     with dissolve
-    deb "The recipe has been in my family for generations!"
+    deb "Рецепт был в моей семье на протяжении нескольких поколений!"
     show debbie 14b
     show roxxy 27f at Position (xoffset=33)
     deb "..."
     show debbie 13
-    deb "Your mascara is running, dear..."
+    deb "У тебя тушь потекла, дорогая..."
     show player 5
     show debbie 14b
     show roxxy 33f at Position (xoffset=-34)
-    rox "{b}*Sniff*{/b} Oh, sorry..."
+    rox "{b}*фырк*{/b} О, простите..."
     show roxxy 33bf with dissolve
     pause
     show debbie 13
-    deb "There's nothing to be sorry for!"
+    deb "Тут нечего извеняться!"
     show roxxy 32f at Position (xoffset=-34)
-    deb "You guys just eat up and let me know if there's anything else I can do for you."
-    deb "I just hate seeing a pretty thing like you all upset..."
+    deb "Вы, ребятки, просто ешьте и дайте мне знать, если я могу еще что-нибудь сделать для вас."
+    deb "Я просто ненавижу видеть такую красавицу, как ты, расстроенной..."
     show debbie 14
     show player 13
     show roxxy 33f at Position (xoffset=-34)
-    rox "... Thanks, ma'am."
+    rox "... Спасибо, мэм."
     show roxxy 32f at Position (xoffset=-34)
     show debbie 2
-    deb "Please, call me {b}[deb_name]{/b}, dear."
+    deb "Пожалуйста, зови меня {b}[deb_name]{/b}, дорогуша."
     hide debbie with dissolve
     rox "..."
     show roxxy 33 at center with dissolve
-    rox "Thanks, for all this {b}[firstname]{/b}..."
+    rox "Спасибо за все {b}[firstname]{/b}..."
     show roxxy 32
     show player 14
-    player_name "Anytime!"
+    player_name "В любое время!"
     show player 13
     show roxxy 33b
-    rox "{b}*Sniff*{/b}."
+    rox "{b}*фырк*{/b}."
     show roxxy 32
     show player 10
-    player_name "Let's eat and then we'll head down to the {b}Police Station{/b} and sort things out."
+    player_name "Давайте поедим, а затем мы отправимся в {b}полицейский участок{/b} и разберемся."
     show player 13
     show roxxy 33
-    rox "... Yeah, okay."
+    rox "... Да, давай."
     hide roxxy
     hide player
     with dissolve
