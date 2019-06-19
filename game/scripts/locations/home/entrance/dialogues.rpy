@@ -915,7 +915,7 @@ label entrance_diane_gave_birth_dialogue_seen:
         deb "I can't believe you finally have kids, {b}Diane{/b}."
     else:
         deb "I can't believe you finally have a child, {b}Diane{/b}."
-	deb "Я так счастлива за тебя!"
+    deb "Я так счастлива за тебя!"
     show debbie 1f
     show diane f_normal_talk
     dia "Я знаю, я не думала, что когда-нибудь стану мамой."
@@ -962,7 +962,7 @@ label entrance_diane_gave_birth_dialogue_seen:
         deb "Bye bye, little ones."
     else:
         deb "Bye bye, little one."
-	show debbie 1f
+    show debbie 1f
     pause
     show debbie 1 at right
     show jenny at Position (xpos=200)
@@ -979,7 +979,7 @@ label entrance_diane_gave_birth_dialogue_seen:
         jen "If those thing are up all night screaming, I will absolutely lose my shit!"
     else:
         jen "If that thing is up all night screaming, I will absolutely lose my shit!"
-	show jenny f_upset
+    show jenny f_upset
     show debbie 13
     deb "{b}*вздыхая*{/b}, {b}[jen_name]{/b}..."
     deb "Не будь такой, дорогая."
@@ -1665,7 +1665,7 @@ label entrance_mom_clothes_dirty:
     show player 11
     show jenny f_upset_talk
     jen "Итак, что ты собираешься делать здесь?"
-	show jenny f_grin_talk a_dressed_crossed with dissolve
+    show jenny f_grin_talk a_dressed_crossed with dissolve
     jen "Тебе нравится {b}[deb_name]{/b} или что-то еще?"
     show player 10
     show jenny f_grin
@@ -2204,23 +2204,23 @@ label entrance_bissette_roxxy_jenny_mentoring:
     rox "Как будто у тебя есть шанс... Разве что в своих мечтах!"
     show roxxy 1
     show player 37 at Position (xoffset=41) with dissolve
-    show jenny f_laugh
+    show jenny f_grin_talk
     jen "Оу, бедный маленький извращенец."
     jen "Я полагаю, что твоя рука застряла в банке с лосьоном."
     show jenny f_grin
     show roxxy 4
     rox "Ха! Да, и мне даже жаль этот лосьон..."
     show roxxy 1
-    show jenny f_laugh
+    show jenny f_laugh a_dressed_hips with dissolve
     jen "Хахаха! А ты мне нравишься! {b}Рокси{/b}, не так ли?"
-    show jenny f_sad
+    show jenny f_grin
     show roxxy 1b
     rox "Ага, а ты, значит, {b}[jen_name]{/b}?"
     show roxxy 1
-    show jenny f_laugh
+    show jenny f_grin_talk
     jen "Это так."
     jen "Давай, {b}Рокси{/b}. Мы можем укрыться от этого задрота в моей комнате."
-    show jenny f_sad
+    show jenny f_grin
     show roxxy 1b
     rox "Прекрасно."
     show roxxy 2
@@ -2335,7 +2335,7 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     jen "Это та девушка, которой я должна помочь?"
     show jenny f_laugh
     jen "Ну знаешь, та, которую ты пытаешься завалить?"
-    show jenny f_sad
+    show jenny f_grin
     hide xtra
     show player 11
     with dissolve
@@ -2353,26 +2353,26 @@ label entrance_bissette_roxxy_jenny_mentoring_sex:
     rox "И что именно ты рассказал, {b}[firstname]{/b}?"
     show roxxy 1
     show player 37 at Position (xoffset=41) with dissolve
-    show jenny f_laugh
+    show jenny f_surprised
     jen "Секунду..."
     jen "Имеешь ввиду, что ты... И он?!"
     show jenny f_sad
     show roxxy 4
     rox "Эм даа?!"
     rox "До тех пор, пока он хорошо обо мне заботится..."
-	show jenny f_grin
+    show jenny f_grin
     rox "... И пока он не растолстеет или не облысеет!"
     show roxxy 1
     show jenny f_laugh
     jen "Хахаха! А ты мне нравишься! {b}Рокси{/b}, не так ли?"
-    show jenny f_sad
+    show jenny f_grin
     show roxxy 1b
     rox "Ага, а ты, значит, {b}[jen_name]{/b}??"
     show roxxy 1
-    show jenny f_laugh
+    show jenny f_grin_talk
     jen "Верно."
     jen "Давай, {b}Рокси{/b}. Сделаем это у меня в комнате."
-    show jenny f_sad
+    show jenny f_grin
     show roxxy 1b
     rox "Окей."
     show roxxy 2
