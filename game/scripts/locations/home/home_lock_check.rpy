@@ -8,33 +8,33 @@ label home_lock_check(destination_screen, destination_label):
                 show player 22 at left
                 show debbie 2 at right
                 with dissolve
-                deb "{b}[firstname]{/b}? Are you looking for something in my room?"
+                deb "{b}[firstname]{/b}? Что ты ищешь в моей комнате?"
                 show player 21 at left
                 show debbie 1 at right
-                player_name "I was... Umm... Looking for my phone!"
+                player_name "Я... ммм... Ищу свой телефон!"
                 show player 18 at left
-                player_name "But it's right here in my pocket actually!"
+                player_name "Ааа, вот он, в кармане!"
                 show debbie 3 at right
                 show player 11 at left
-                deb "Isn't {b}Erik{/b} waiting for you?"
+                deb "Разве {b}Эрик{/b} не ждет тебя?"
                 show debbie 1 at right
                 show player 17 at left
-                player_name "Yeah, I'm on my way!"
+                player_name "Да, уже иду!"
             else:
 
                 show player 10 with dissolve
-                player_name "( I shouldn't snoop around {b}[deb_name]'s{/b} bedroom. )"
+                player_name "( Я не должен рыскать в спальне {b}[deb_name]{/b}. )"
             $ game.main()
         else:
 
 
             if M_mom.is_state(S_mom_debt_call):
                 show player 10 with dissolve
-                player_name "( I should see go see if {b}[deb_name]{/b} is alright. )"
+                player_name "( Я должен убедится, что {b}[deb_name]{/b} в порядке. )"
             else:
 
                 show player 10 with dissolve
-                player_name "( I really shouldn't disturb {b}[deb_name]{/b} when she's sleeping. )"
+                player_name "( Я не должен беспокоить {b}[deb_name]{/b}, когда она спит. )"
             $ game.main()
         hide player
         hide debbie
@@ -61,20 +61,20 @@ label home_lock_check(destination_screen, destination_label):
     elif M_bissette.is_state(S_bissette_roxxy_jenny_spying) and destination_screen not in ["Hallway", "Upstairs Bedroom"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "I should go check on {b}Roxxy{/b} and {b}[jen_name]{/b}..."
+        player_name "Я должен проверить {b}Рокси{/b} и {b}[jen_name]{/b}..."
         hide player with dissolve
 
     elif M_mom.is_state(S_mom_note) and player.location == L_home_bedroom and destination_screen not in ["MC Computer"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "( I should see what's on that {b}note{/b}. )"
+        player_name "( Я должен посмотреть, что на этой {b}записке{/b}. )"
         hide player with dissolve
 
     elif not ( L_home_sisbedroom.is_here(M_jenny) or not L_home_sisbedroom.locked ) and destination_screen == "Upstairs Bedroom":
         scene expression temp_bg
         show player 12 with dissolve
         play audio sfxDoor(True)
-        player_name "( Her door is locked... )"
+        player_name "( Дверь закрыта... )"
         hide player with dissolve
 
     elif M_jenny.is_state(S_jenny_pissed_at_handjob, S_jenny_pissed_at_blowjob) and destination_screen == "Upstairs Bedroom":
@@ -94,21 +94,21 @@ label home_lock_check(destination_screen, destination_label):
     elif M_diane.is_state(S_diane_peeking_masturbate):
         scene expression temp_bg
         show player 427b at Position (xoffset=50) with dissolve
-        player_name "I can't go out there with this thing."
-        player_name "{b}I should jerk off and clear my head.{/b}"
+        player_name "Я не могу пойти туда с этой штукой."
+        player_name "{b}Я должен подрочить и проветрить голову.{/b}"
         hide player with dissolve
 
     elif M_diane.is_state(S_diane_get_dirty_with_debbie) and destination_screen not in ["Bedroom", "Hallway", "Entrance", "Living Room", "Master Bedroom"]:
         scene expression temp_bg
         show player 10 with dissolve
-        player_name "I should follow {b}[deb_name]{/b}."
-        player_name "I think she went into her room."
+        player_name "Я должен следовать к {b}[deb_name]{/b}."
+        player_name "Думаю, она пошла в свою комнату."
         hide player with dissolve
 
     elif M_diane.is_state(S_diane_3way_aftermath) and destination_screen not in ["Master Bedroom", "Living Room", "Entrance", "Kitchen"]:
         scene expression temp_bg
         show player 14 with dissolve
-        player_name "I should go see what {b}[deb_name]{/b} is cooking {b}in the kitchen{/b}."
+        player_name "Я должен пойти посмотреть что {b}[deb_name]{/b} приготовила {b}на кухне{/b}."
         hide player with dissolve
     else:
 
