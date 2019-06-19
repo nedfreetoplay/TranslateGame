@@ -2,7 +2,7 @@ label erik_bedroom:
     call expression game.dialog_select(game.telescope.erik)
     $ M_player.set("telescope active", True)
     show screen telescope
-	call screen telescope_fake
+    call screen telescope_fake
 
 label telescope_erik_morning_1:
     scene windowerikmorning01
