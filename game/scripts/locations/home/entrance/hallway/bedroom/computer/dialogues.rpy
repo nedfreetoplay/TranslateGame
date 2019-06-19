@@ -40,7 +40,7 @@ label egay_search:
 label webcam_dialogue:
     scene expression game.timer.image("MC_computer{}_b")
     call expression game.dialog_select("webcam_dialogue_not_connected")
-	call screen MC_computer
+    call screen MC_computer
 
 label webcam_dialogue_not_connected:
     scene player_computer_bg
