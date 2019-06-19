@@ -609,35 +609,35 @@ label home_front_mom_bad_guys_revisit:
     with dissolve
     deb "Полегче, милый. Я держу тебя."
     show debbie 44 at left
-    show jenny 39 at right
+    show jenny f_sad_talk
     with dissolve
     jen "Что тут, черт возьми, происходит?"
     jen "Я слышала крики и-"
-    show jenny 40 at Position(xpos=0.885, ypos=1.0) with dissolve
+    show jenny f_surprised a_dressed_up_surprised with dissolve
     jen "( !!! )"
     jen "Господи, с ним все в порядке?!"
     show debbie 43
-    show jenny 43 at Position(xpos=1.0, ypos=1.0) with dissolve
+    show jenny f_sad a_dressed_side with dissolve
     deb "С ним все будет в порядке. Просто успокойся..."
     deb "Они ушли."
     show debbie 44
-    show jenny 39
+    show jenny f_sad_talk
     jen "Мы должны позвонить кому-нибудь!"
-    show jenny 43
+    show jenny f_sad
     show debbie 43
     deb "Нет! Мы не можем этого сделать!"
     show debbie 44
-    show jenny 39
+    show jenny f_sad_talk
     jen "Что?! {b}[deb_name]{/b} эти люди вломился сюда и напал на вас!"
     jen "Мы не можем позволить им-"
-    show jenny 43
+    show jenny f_sad
     show debbie 45
     deb "Я сказала {b}НЕТ{/b}, {b}[jen_name]{/b}!"
     show debbie 43
     deb "... Только..."
     deb "Возвращайся в свою комнату и позволь мне разобраться с этим. Ладно?"
     show debbie 44
-    show jenny 39
+    show jenny f_sad_talk
     jen "Я... Хорошо..."
     hide jenny
     with dissolve
