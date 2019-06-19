@@ -12,7 +12,7 @@ label mia_bedroom:
 
     $ M_player.set("telescope active", True)
     show screen telescope
-    call screen telescope_fake
+	call screen telescope_fake
 
 label telescope_mia_sister_spying:
     scene telescope_mia_masturbate with dissolve
@@ -346,31 +346,31 @@ label telescope_mia_sister_spying:
 label telescope_mia_morning_1:
     scene windowmiamorning01
     if game.timer.dayOfWeek() == "Sun":
-        player_name "( She's getting ready for church. )"
+        player_name "( Она собирается в церковь. )"
     elif game.timer.is_weekend():
-        player_name "( I wonder what she's doing today? )"
+        player_name "( Интересно, что она сегодня делает? )"
     else:
-        player_name "( She's getting ready for school. )"
+        player_name "( Она готовится к школе. )"
     return
 
 label telescope_mia_morning_2:
     scene windowmiamorning02
-    player_name "( Too late... I always miss the best part! )"
+    player_name "( Слишком поздно... Я всегда пропускаю самое интересное! )"
     return
 
 label telescope_mia_afternoon_1:
     scene windowmiaday 1
-    player_name "( Her blinds are closed. She's probably not home. )"
+    player_name "( Ее жалюзи закрыты. Ее, наверное, нет дома. )"
     return
 
 label telescope_mia_afternoon_2:
     scene windowmiaday 2
-    player_name "( She's not home. )"
+    player_name "( Ее нет дома. )"
     return
 
 label telescope_mia_night_1:
     scene windowmianight01
-    player_name "( She's always reading or studying... )"
+    player_name "( Она все время читает или учится... )"
     return
 
 label telescope_mia_night_2:
@@ -379,18 +379,18 @@ label telescope_mia_night_2:
         $ persistent.cookie_jar["Mia"]["gallery"]["01_unlocked"] = True
         $ M_mia.set("telescope teddy seen", True)
         scene windowmianight03a_b
-        player_name "( What's she doing? )"
+        player_name "( Что она делает? )"
         player_name "..."
-        player_name "( She's... )"
-        player_name "( ...Humping her {b}Teddy Bear{/b}? )"
-        player_name "( Wow... )"
-        player_name "( That's really hot- )"
+        player_name "( Она... )"
+        player_name "( ...Трахает своего {b}плюшевого мишку{/b}? )"
+        player_name "( Вау... )"
+        player_name "( Это реально круто- )"
         scene windowmianight03c with hpunch
         player_name "!!!"
         scene windowmianight03d
-        player_name "( Oh, crap! )"
-        player_name "( I think she just got caught... )"
-        player_name "( Her {b}Mom{/b} must be furious... She's always so strict with her... )"
+        player_name "( Вот дерьмо! )"
+        player_name "( Думаю, ее только что поймали.... )"
+        player_name "( Ее {b}мама{/b} должно быть в ярости... Она всегда так строга с ней...)"
         $ renpy.end_replay()
     else:
         call telescope_mia_night_3
@@ -398,6 +398,6 @@ label telescope_mia_night_2:
 
 label telescope_mia_night_3:
     scene windowmianight02
-    player_name "( She must be sleeping. )"
+    player_name "( Она должно быть уже спит. )"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
