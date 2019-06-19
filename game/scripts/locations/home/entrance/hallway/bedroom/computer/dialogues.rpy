@@ -1,7 +1,7 @@
 label MC_computer_night_locked:
     scene expression game.timer.image("bedroom{}")
     show player 24 at left
-    player_name "( I'm so tired right now, I'd better go to bed... )"
+    player_name "( Я очень устал, я должен поспать... )"
     hide player 17 at left
     return
 
@@ -14,8 +14,8 @@ label egay_search_dialogue:
 label egay_search_dialogue_erik_orcette_started:
     scene player_computer_bg
     show player_computer_egay_search
-    player_name "( Hmm... I guess I should just type in the name of the item {b}Erik{/b} wanted. )"
-    player_name "( What was it again? )"
+    player_name "( Хм... Думаю, я должен просто ввести название предмета, который хотел {b}Эрик{/b}. )"
+    player_name "( Что это было снова? )"
     hide player_computer_egay_search
     hide player_computer_bg
     return
@@ -23,7 +23,7 @@ label egay_search_dialogue_erik_orcette_started:
 label egay_purchased_dialogue:
     scene player_computer_bg
     show player_computer_egay_purchased
-    player_name "( Looks like I should get the package in the mailbox on {b}Tuesday{/b}. )"
+    player_name "( Похоже, что я должен получить пакет в почтовом ящике во {b}Вторник{/b}. )"
     hide player_computer_egay_purchased
     hide player_computer_bg
     show screen MC_computer
@@ -40,12 +40,12 @@ label egay_search:
 label webcam_dialogue:
     scene expression game.timer.image("MC_computer{}_b")
     call expression game.dialog_select("webcam_dialogue_not_connected")
-    call screen MC_computer
+	call screen MC_computer
 
 label webcam_dialogue_not_connected:
     scene player_computer_bg
     show player_computer_webscreen
-    player_name "( Weird. It says I can connect my computer to the {b}webcam{/b}, but it seems I can't do it from here. )"
+    player_name "( Странно. Здесь говорится, что я могу подключить свой компьютер к {b}веб-камере{/b}, но, кажется, я не могу сделать это отсюда. )"
     hide player_computer_webscreen
     hide player_computer_bg
     return
@@ -53,7 +53,7 @@ label webcam_dialogue_not_connected:
 label webcam_dialogue_nothing_showing:
     scene player_computer_bg
     show player_computer_webscreen
-    player_name "( Theres nothing displaying at the moment. )"
+    player_name "( На данный момент ничего нет. )"
     hide player_computer_webscreen
     hide player_computer_bg
     return
@@ -131,15 +131,15 @@ label webcam_menu_2:
         label webcam_menu_4:
             scene blank
     menu:
-        "Electro Clit":
+        "Электро Клитор.":
             jump expression game.dialog_select("electroclit_replay")
 
-        "UltraVibrator 2000" if store._in_replay in ["webcam_menu_2", "webcam_menu_3", "webcam_menu_4"]:
+        "Ультравибратор 2000." if store._in_replay in ["webcam_menu_2", "webcam_menu_3", "webcam_menu_4"]:
             jump expression game.dialog_select("ultravibrator_replay")
 
-        "Dual Sybian" if store._in_replay in ["webcam_menu_3", "webcam_menu_4"]:
+        "Двойной Вибратор." if store._in_replay in ["webcam_menu_3", "webcam_menu_4"]:
             jump expression game.dialog_select("dualsybian_replay")
 
-        "Bad Monster" if store._in_replay == "webcam_menu_4":
+        "Плохой Монстр." if store._in_replay == "webcam_menu_4":
             jump expression game.dialog_select("badmonster_replay")
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
