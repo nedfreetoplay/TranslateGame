@@ -74,12 +74,12 @@ label home_kitchen_dialogue:
     elif M_jenny.is_state(S_jenny_helping_with_breakfast) and game.timer.is_morning():
         call expression game.dialog_select("kitchen_jenny_helping_with_breakfast")
         menu:
-            "Let it go. {color=7ff7}[[Submissive]{/color}":
+            "Забить. {color=7ff7}[[Submissive]{/color}":
                 call expression game.dialog_select("kitchen_jenny_helping_with_breakfast_let_it_go")
                 $ M_jenny.decrement("dominance")
                 $ M_jenny.trigger(T_jenny_have_breakfast)
                 $ game.main()
-            "Confront her. {color=f77b}[[Dominant]{/color}":
+            "Противостоять ей. {color=f77b}[[Dominant]{/color}":
                 call expression game.dialog_select("kitchen_jenny_helping_with_breakfast_confront_her")
                 $ M_jenny.increment("dominance")
                 $ M_jenny.trigger(T_jenny_catch_her_in_shower)
@@ -102,11 +102,11 @@ label mom_kissing_practice:
 label dishes_dialogue:
     call expression game.dialog_select("kitchen_mom_dishes")
     menu:
-        "Let me help.":
+        "Позволь помочь.":
             call expression game.dialog_select("kitchen_mom_dishes_yes")
             $ game.timer.tick()
             $ M_mom.trigger(T_mom_washed_dishes)
-        "Nevermind.":
+        "Неважно.":
 
             call expression game.dialog_select("kitchen_mom_dishes_no")
     $ M_mom.set("chores", False)
