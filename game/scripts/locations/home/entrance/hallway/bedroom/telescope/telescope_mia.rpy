@@ -12,7 +12,7 @@ label mia_bedroom:
 
     $ M_player.set("telescope active", True)
     show screen telescope
-	call screen telescope_fake
+    call screen telescope_fake
 
 label telescope_mia_sister_spying:
     scene telescope_mia_masturbate with dissolve
