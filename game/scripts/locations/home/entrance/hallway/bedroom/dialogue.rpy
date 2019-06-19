@@ -692,7 +692,7 @@ label bedroom_mia_angelicas_impatience:
     deb "Она ждет тебя. Так почему бы тебе не {b}одеться и спуститься{/b} наконец."
     hide debbie with dissolve
     show player 12f 
-	player_name "Дама?!"
+    player_name "Дама?!"
     show player 4f at Position (xoffset=-6) with dissolve
     player_name "Ха..."
     hide player with dissolve
@@ -1115,7 +1115,7 @@ label bedroom_sleeping_jerk_off_diane:
     $ M_player.set("sex speed", M_player.get("sex speed") / 2)
     show player 496c_496d_496e_496d_496c zorder 0 at Position(xpos=0.3375, ypos=0.875) with None
     show jerkbubble zorder 1 at Position(xpos=0.6, ypos=1.0)
-    show diane dream1
+    show diane dream1 zorder 2
     with dissolve
     dia "Привет, красавчик."
     dia "Я надеялся, что ты придешь сегодня."
@@ -1492,7 +1492,7 @@ label bedroom_sleeping_debbie_night_visit:
     show debbies 12
     deb "( ... )"
     show debbies 20
-    deb "( Да что со мной не так!? ) "
+    deb "( Да что со мной не так!? )"
     show debbies 21
     deb "( Боже мой! )"
     deb "( Я должна уйти отсюда! )"
