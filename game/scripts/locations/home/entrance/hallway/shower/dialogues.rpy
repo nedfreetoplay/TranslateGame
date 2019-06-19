@@ -403,22 +403,22 @@ label shower_mom_sis_check:
     hide text
     scene shower2
     show player 11 at left
-    show jenny 27 at right
+    show jenny f_upset_talk b_wet a_dressed_hips
     with dissolve
     jen "Ты как раз вовремя появился!"
     show player 10
-    show jenny 26
+    show jenny f_upset
     player_name "Как такое могло произойти?!"
     show player 11
-    show jenny 27
+    show jenny f_upset_talk
     jen "Откуда мне об этом знать? По-твоему, я похожа на водопроводчика?! Я всего лишь включила раковину!"
     show player 12
-    show jenny 26
+    show jenny f_upset
     player_name "Что мне прикажешь делать?"
     show player 11
-    show jenny 27
+    show jenny f_upset_talk
     jen "Исправь это, очевидно! В конце концов, ты здесь единственный мужчина!"
-    show jenny 26
+    show jenny f_gross
     show player 12
     player_name "Отлично! Я думаю, нужно {b}спустится вниз{/b} и посмотреть как выключается {b}водопроводный кран{/b}..."
     hide player
@@ -428,7 +428,7 @@ label shower_mom_sis_check:
 
 label shower_mom_close_valve:
     scene shower2
-    show jenny 27 at right
+    show jenny f_upset_talk b_wet a_dressed_hips
     show player 11 at left
     with dissolve
     jen "Вода все еще бежит!"
@@ -464,10 +464,10 @@ label shower_mom_pipe_check:
     show player
     show jenny f_normal_low
     pause
-	show jenny f_angry
+    show jenny f_angry
     jen "..."
     show jenny f_angry_talk
-	jen "Ты хорошо все разглядел, маленький извращенец?!"
+    jen "Ты хорошо все разглядел, маленький извращенец?!"
     show player 23
     show jenny f_angry
     player_name "Я не-"
@@ -475,11 +475,11 @@ label shower_mom_pipe_check:
     show jenny f_angry_talk
     jen "О, пожалуйста, думаешь, я не могу понять, когда кто-то пялится на мои сиськи?"
     show jenny f_angry
-	player_name "..."
+    player_name "..."
     show jenny f_angry_talk
-	jen "Что с тобой происходит?"
+    jen "Что с тобой происходит?"
     show jenny f_angry
-	show player 24
+    show player 24
     player_name "Прости, {b}[jen_name]{/b}. Я только-"
     show jenny f_angry_talk
     jen "Ой, заткнись!"
@@ -488,13 +488,13 @@ label shower_mom_pipe_check:
     jen "Отрицая это или оправдываясь, ты выглядишь слабаком."
     jen "Никто не хочет, чтобы его проверял бесхребетный маленький слабак!"
     show jenny f_angry
-	show player 5
+    show player 5
     player_name "..."
     show jenny f_upset_talk at right
     jen "Если бы ты поднялся сюда, чтобы разобраться с этой ситуацией с трубами раньше, возможно, я была бы в лучшем настроении."
     jen "... Но с тех пор, как ты решил приятно провести время...."
     show jenny f_grin_talk
-	jen "Думаю, тебе стоит взять это..."
+    jen "Думаю, тебе стоит взять это..."
     show player 22
     show jenny f_grin_down a_empty b_pull1_wet with dissolve
     pause
@@ -503,25 +503,25 @@ label shower_mom_pipe_check:
     show jenny b_pull3 with dissolve
     show jenny b_pull4 with dissolve
     pause
-	show player 23
-	show jenny b_panties f_upset_talk a_panties_shirt with dissolve
-	jen "...  чтобы постирать внизу для меня."
+    show player 23
+    show jenny b_panties f_upset_talk a_panties_shirt with dissolve
+    jen "...  чтобы постирать внизу для меня."
     show jenny f_upset
-	player_name "( !!! )" with hpunch
+    player_name "( !!! )" with hpunch
     show player 21
     player_name "Ко-конечно..."
     show jenny a_naked_hips f_angry
     show player 211
     with dissolve
-	jen "..."
+    jen "..."
     show jenny f_angry_talk
     jen "Перестань пялиться и иди! Я не собираюсь весь день ждать ,пока ты {b}починишь эту трубу{/b}!"
     show jenny f_angry
-	show player 22 with dissolve
+    show player 22 with dissolve
     player_name "( !!! )"
     hide player with dissolve
     pause
-	show jenny f_grin_talk
+    show jenny f_grin_talk
     jen "Хех, я так и знала!"
     jen "У этого маленького неудачника есть кое-что для меня!"
     hide jenny with dissolve
@@ -553,10 +553,10 @@ label shower_mom_fix_pipe_wrench:
     scene black
     with fade
     
-	scene shower2
+    scene shower2
     show player 203f at right
     show jenny f_upset a_dressed_crossed at flip
-	show jenny at Position (xpos=200)
+    show jenny at Position (xpos=200)
     show debbie 62f at left
     with dissolve
     deb "Вау!!"
@@ -580,7 +580,7 @@ label shower_mom_fix_pipe_wrench:
     show debbie 61f
     jen "Пфффф..."
     show jenny f_upset_talk
-	jen "Не говори так, он зазнается!"
+    jen "Не говори так, он зазнается!"
     show player 16f
     show jenny f_grin_talk
     jen "В конце концов, он все еще слабак."
@@ -600,7 +600,7 @@ label shower_mom_fix_pipe_wrench:
     jen "... Ага!"
     show player 11f
     show jenny f_eyeroll
-	jen "... А сейчас вы двое можете выйти? Я весь день ждала, чтобы принять душ!"
+    jen "... А сейчас вы двое можете выйти? Я весь день ждала, чтобы принять душ!"
     show jenny f_upset
     show debbie 60f
     show player 1f
@@ -725,7 +725,7 @@ label shower_mom_sex:
     return
 
 label shower_mom_sex_walk_in_pre:
-    scene shower_closeup
+    call scene_shower_with_vfx
     with dissolve
     show debbie 35 at right
     show player 1 at left
@@ -740,7 +740,7 @@ label shower_mom_sex_walk_in_pre:
     return
 
 label shower_mom_sex_walk_in_after:
-    scene shower_closeup
+    call scene_shower_with_vfx
     show debbies 37_36 at Position (xpos=474)
     pause 4.8
     show debbies 35
@@ -1270,5 +1270,5 @@ label shower_jenny_shower_spy:
     jen "( Grr, he's such a freaking loser! )"
     jen "( I just wanna wring his stupid neck! )"
     hide jenny with dissolve
-	return
+    return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
