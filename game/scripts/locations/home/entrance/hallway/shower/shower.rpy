@@ -38,7 +38,7 @@ label shower_dialogue:
     else:
 
         scene shower1
-        player_name "( There's no one in here. )"
+        player_name "( Здесь никого нет. )"
     $ game.main()
 
 label mom_shower:
@@ -55,12 +55,12 @@ label mom_shower:
     elif M_mom.is_state(S_mom_shower_walk_in):
         call expression game.dialog_select("shower_mom_walk_in")
         menu:
-            "Go inside.":
+            "Войти внутрь.":
                 call expression game.dialog_select("shower_mom_walk_in_yes")
                 $ M_mom.trigger(T_mom_shower_admire)
                 $ game.timer.tick()
                 $ playSound()
-            "Leave.":
+            "Уйти.":
 
                 call expression game.dialog_select("shower_mom_walk_in_no")
 
@@ -72,30 +72,30 @@ label mom_shower:
             call expression game.dialog_select("shower_mom_sex_walk_in_pre")
             jump expression game.dialog_select("mom_shower_question")
         menu:
-            "Walk inside":
+            "Зайти внутрь.":
                 $ playSound("<loop 0.5>audio/ambience_shower_interior.ogg")
                 call expression game.dialog_select("shower_mom_sex_walk_in_pre")
                 label mom_shower_question:
                     $ M_mom.set("shower fingered", False)
                 call expression game.dialog_select("shower_mom_sex_walk_in_after")
                 menu:
-                    "Wash [deb_name].":
+                    "Мыть [deb_name].":
                         call expression game.dialog_select("shower_mom_sex_wash")
                         menu shower_mom_sex_wash_menu:
-                            "Handjob.":
+                            "Мастурбировать.":
                                 call expression game.dialog_select("shower_mom_sex_wash_handjob")
                                 jump expression game.dialog_select("mom_shower_end")
 
-                            "Finger {b}[deb_name]{/b}." if M_mom.is_set("sex available") and not M_mom.is_set("shower fingered"):
+                            "Палец {b}[deb_name]{/b}." if M_mom.is_set("sex available") and not M_mom.is_set("shower fingered"):
                                 call expression game.dialog_select("shower_mom_sex_finger")
                                 $ M_mom.set("shower fingered", True)
                                 jump expression game.dialog_select("shower_mom_sex_wash_menu")
 
-                            "Blowjob." if M_mom.is_set("sex available"):
+                            "Отсос." if M_mom.is_set("sex available"):
                                 call expression game.dialog_select("shower_mom_sex_blowjob")
                                 jump expression game.dialog_select("mom_shower_end")
 
-                            "Sex." if M_mom.is_set("sex available"):
+                            "Секс." if M_mom.is_set("sex available"):
                                 if M_mom.is_set("shower fingered"):
                                     call expression game.dialog_select("shower_mom_sex_already_fingered")
                                     call expression game.dialog_select("shower_mom_sex_wash_handjob")
@@ -103,11 +103,11 @@ label mom_shower:
                                 else:
 
                                     jump expression game.dialog_select("mom_shower_sex")
-                            "Leave":
+                            "Уйти.":
 
                                 jump expression game.dialog_select("mom_shower_end")
 
-                    "Sex." if M_mom.is_set("sex available"):
+                    "Секс." if M_mom.is_set("sex available"):
                         label mom_shower_sex:
                             $ M_mom.set("sex speed", .4)
                             $ anim_toggle = True
@@ -116,7 +116,7 @@ label mom_shower:
                             $ cum = False
                         call expression game.dialog_select("shower_mom_sex_fuck_pre")
                         jump expression game.dialog_select("mom_shower_sex_loop")
-            "Leave":
+            "Уйти.":
 
                 call expression game.dialog_select("shower_mom_sex_leave")
     else:
