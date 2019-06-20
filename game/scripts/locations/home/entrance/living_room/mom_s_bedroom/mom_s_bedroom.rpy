@@ -102,8 +102,8 @@ label mom_bed:
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Кормить грудью.":
 
+            "Кормить грудью." if M_mom.finished_state(S_mom_movie_night_two) or store._in_replay is not None:
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_breastfeed_sex_available")
                 else:
@@ -117,8 +117,8 @@ label mom_bed:
 
                         call expression game.dialog_select("mom_bed_sleep_together_stop")
                         jump expression game.dialog_select("mom_sleep_options")
-            "Тереть.":
 
+            "Тереть." if M_mom.finished_state(S_mom_movie_night_two) or store._in_replay is not None:
                 if M_mom.is_set("sex available"):
                     call expression game.dialog_select("mom_bed_sleep_together_rub_sex_available")
                 else:
