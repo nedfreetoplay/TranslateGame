@@ -1,60 +1,60 @@
 label bissette_book_search_2_books_left:
     show player 12 with dissolve
-    player_name "Well, two more books to go."
+    player_name "Ладно, осталось ещё две книги."
     hide player with dissolve
     return
 
 label bissette_book_search_1_book_left:
     show player 14 with dissolve
-    player_name "Just one book left."
+    player_name "Осталась всего одна книга."
     hide player with dissolve
     return
 
 label bissette_book_search_no_books_left:
     show player 14 with dissolve
-    player_name "Great! That's the last book!"
-    player_name "Now I just need to return them to the library!"
+    player_name "Прекрасно! Я нашёл все книги!"
+    player_name "Осталось только вернуть их в библиотеку!"
     hide player with dissolve
     return
 
 label annie_locker_first_visit:
-    player_name "Yup. I expected as much."
-    player_name "{b}Annie{/b} is such a suck up to {b}Principal Smith{/b}."
+    player_name "Окей. Этого я и ожидал."
+    player_name "{b}Энни{/b} прям помешана на {b}директоре Смит{/b}."
     return
 
 label dexter_locker_first_visit:
-    player_name "I'd better not let {b}Dexter{/b} see me in here."
-    player_name "Typical jock stuff."
-    player_name "What a weird basketball air pump."
+    player_name "Лучше {b}Декстеру{/b} меня сейчас не видеть."
+    player_name "Типичные шмотки спортсмена."
+    player_name "Тут ещё и эта отвратная помпа."
     return
 
 label dexter_locker_book_search:
-    player_name "He was lying! I knew it!"
+    player_name "Он врал! Я так и знал!"
     return
 
 label dexter_locker_book_found:
     scene dexter_locker
     show book_05_c with dissolve
-    player_name "{b}Quick mafs{/b}?"
-    player_name "This is a book for little kids..."
-    player_name "Hah, I guess it matches his mafs-"
-    player_name "Math level!"
-    player_name "I need to get out of here!"
-    player_name "Something about being next to {b}Dexter{/b} or his stuff is making me dumber!"
+    player_name "{b}Мафематика для чайников{/b}?"
+    player_name "Это ж книга для первоклашек..."
+    player_name "Хех, думаю, она показывает его уровень мафе-"
+    player_name "Математики!"
+    player_name "Нужно убираться отсюда!"
+    player_name "Походу я начинаю тупеть рядом со шкафчиком {b}Декстера{/b}!"
     hide book_05_c with dissolve
     show expression game.timer.image("location_school_right_hall_day{}_blur")
     return
 
 label erik_locker_first_visit:
-    player_name "{b}Erik{/b} has a lot of {b}Dungeon 'N Orcettes{/b} stuff."
-    player_name "There's his lunchbag too."
-    player_name "His landlord always packs him some of her homemade fudge."
-    player_name "Lucky guy. His landlord sure must like him."
+    player_name "У {b}Эрика{/b} полно всякого барахла по {b}Подземельям и орчихам{/b}."
+    player_name "А это его ланчбокс."
+    player_name "Его мама всегда кладёт ему туда домашнюю еду."
+    player_name "Счастливчик. Его мама должно быть любит его."
     return
 
 label eve_locker_first_visit:
-    player_name "Yikes! I'd better not let anyone else see her locker."
-    player_name "Those headphones sure do look comfy though."
+    player_name "Нифига себе! Лучше бы ей никому не показывать свой шкафчик."
+    player_name "Эти наушники выглядят удобными."
     return
 
 label eve_locker_drawing_pick_up:
@@ -66,9 +66,9 @@ label eve_locker_drawing_picked_up:
     scene eve_locker
     show closeup_drawing_01
     with dissolve
-    player_name "Huh, this IS really good!"
-    player_name "... {b}Chad{/b} was right. It's pretty sexy!"
-    player_name "I wonder if she actually thinks about wearing something like that?"
+    player_name "Ох, это РЕАЛЬНО круто!"
+    player_name "... {b}Чад{/b} был прав. Это правда сексуально!"
+    player_name "Интересно, что она подумает о таком наряде?"
     show expression "boxes/popup_item_drawing1.png" at truecenter with dissolve
     pause
     hide expression "boxes/popup_item_drawing1.png"
@@ -77,28 +77,28 @@ label eve_locker_drawing_picked_up:
     return
 
 label judith_locker_first_visit:
-    player_name "Mmm... {b}Mountain Jizz{/b}."
-    player_name "That stuff can sure make a mess."
-    player_name "Must be all the sugar that makes it so sticky."
+    player_name "Ммм... {b}Маунтин Джиз{/b}."
+    player_name "Этой штукой не сложно замараться."
+    player_name "Должно быть из-за сахара, который делает его таким липким."
     pause
-    player_name "She must like cows."
-    player_name "I do too-"
-    player_name "Hey! How did she get that picture of me?"
+    player_name "Наверное ей нравятся коровы."
+    player_name "Да и мне то-"
+    player_name "Эй! Откуда у неё моё фото?"
     return
 
 label take_judith_glasses:
     scene judith_locker
-    player_name "That must be her spare set."
+    player_name "Должно быть это её запасные очки."
     show expression "boxes/popup_item_glasses1.png" at truecenter with dissolve
     $ player.get_item("judith_glasses")
     pause
-    player_name "Now I just need to get these back to Okita."
+    player_name "Теперь мне нужно отнести их Оките."
     pause
     $ game.main()
 
 label take_broken_flute:
     scene judith_locker
-    player_name "( That should be the {b}flute{/b} Judith borrowed from Miss Dewitt. )"
+    player_name "( Это наверное {b}флейта{/b}, которую сломала Джудит. )"
     scene lefthall_c with fade
     $ player.get_item("broken_flute")
     call expression game.dialog_select("take_broken_flute_dialogue")
@@ -107,114 +107,114 @@ label take_broken_flute:
 
 label take_broken_flute_dialogue:
     show player 563f at left with dissolve
-    player_name "Wow, this thing really got flattened..."
-    player_name "It's all bent up!"
+    player_name "Вау, эту штуку нехило сплющило..."
+    player_name "Её всю перекорёжило!"
     show player 564f with dissolve
     pause
     show player 565f with dissolve
-    player_name "Hmm, it smells funny too."
+    player_name "Хмм, на запах тоже ничего."
     show player 564f with dissolve
     show erik 5 at right with dissolve
-    eri "Uhh, what are you doing there, dude?"
+    eri "Эмм, что ты тут делаешь, чувак?"
     show erik 52
     show player 22f at Position (xoffset=139) with hpunch
     player_name "!!!"
     show player 29 with dissolve
-    player_name "N-nothing! You really scared me!"
+    player_name "Н-ничего! Ты меня блин напугал!"
     show player 14 with dissolve
-    player_name "What are you doing?"
+    player_name "Что ты тут делаешь?"
     show player 13
     show erik 5
-    eri "Just heading to my next class..."
+    eri "Просто иду на следующий урок..."
     show erik 53
-    eri "Was that a flute?"
+    eri "Это была флейта?"
     show player 563
     show erik 3c
     with dissolve
-    player_name "Y-yeah. Well, it used to be anyways."
+    player_name "Д-да. Ну, она уже видала виды."
     show player 562
     show erik 53
-    eri "It has definitely seen better days..."
+    eri "Да уж..."
     show erik 3c
     show player 563
-    player_name "I was gonna play it for {b}Ms. Dewitt's{/b} talent show."
+    player_name "Она нужна мне, для шоу талантов {b}Мисс Девитт{/b}."
     show player 13 with dissolve
     show erik 5
-    eri "Hmm, well maybe you could build your own?"
+    eri "Хмм, может ты скрафтишь свою?"
     show erik 52
     show player 10
-    player_name "You think?"
+    player_name "Думаешь?"
     show player 5
     show erik 54
-    eri "Definitely!"
+    eri "Конечно!"
     show erik 4
-    eri "I had to build a flute in a video game once."
-    eri "All you need is a good piece of wood and a drill to make all the holes."
+    eri "Я как то скрафтил флейту в одной игре."
+    eri "Тебе нужна хорошая деревяшка и дрель, чтобы проделать дырочки."
     show erik 1
     show player 12
-    player_name "You built one in a video game?"
+    player_name "Ты сделал флейту в видеоигре?"
     show player 5
     show erik 4
-    eri "Totally! I used it to charm all the orc girls in the village!"
-    eri "Then we had a giant orgy in the Chief's hut!"
+    eri "Ага! Я заюзал её, чтобы склеить всех орчих в деревне!"
+    eri "А потом у нас была шикарная оргия в хижине Шефа!"
     show erik 1
     show player 10
-    player_name "Oh, that's... nice."
+    player_name "Оу, это... здорово."
     show player 5
     show erik 4
-    eri "Heh, dude, it was anything but nice. I can assure you!"
+    eri "Эй, чувак, это было офигенно. Я прям отвечаю!"
     show player 13
     show erik 54
-    eri "Green chicks are crazy in the sack!"
+    eri "Зелёные чики просто огонь в постели!"
     show erik 1
     show player 14
-    player_name "I should probably get busy if I'm going to build a flute from scratch."
+    player_name "Ладно, пойду делать флейту из говна и палок."
     show player 13
     show erik 4
-    eri "Oh, right. I hear you."
+    eri "Оу, хорошо. Я тебя понял."
     show erik 1
     show player 14
-    player_name "Thanks, {b}Erik{/b}."
+    player_name "Спасибо, {b}Эрик{/b}."
     show player 13
     show erik 4
-    eri "My pleasure, dude!"
+    eri "Да не за что, чувак!"
     hide player
     hide erik
     with dissolve
     return
 
 label kevin_locker_first_visit:
-    player_name "Huh?"
-    player_name "That looks like my missing jock strap!"
+    player_name "Что?"
+    player_name "Это похоже на мои пропавшие трусы!"
     pause
-    player_name "I didn't know we bought the same one."
+    player_name "Не знал, что мы купили один комплект."
     return
 
 label mia_locker_first_visit:
-    player_name "{b}Mia's{/b} locker smells nice."
+    player_name "От шкафчика {b}Мии{/b} приятно пахнет."
     return
 
 label mia_locker_first_visit_early_route:
-    player_name "She has such great life."
+    player_name "У неё такая классная жизнь."
     return
 
 label mia_locker_first_visit_helping_parents:
-    player_name "I should help her parents get back together."
+    player_name "Мне нужно помочь её родителям воссоединиться."
     return
 
 label mia_locker_first_visit_helen_route:
-    player_name "I wonder if I should have helped her parents get back together..."
+    player_name "Наверное стоило помочь её родителям воссоединиться..."
     return
 
 label ronda_locker_first_visit:
-    player_name "Is there any sport she isn't good at?"
-    player_name "I bet she doesn't even have to pay for college."
-    player_name "She probably has a full-ride scholarship."
+    player_name "Есть вообще какой-то вид спорта, в котором она ничего не умеет?"
+    player_name "Наверное, благодаря этому она поступит в колледж на бюджет."
+    player_name "Она с головой уходит в школьную жизнь."
     return
 
 label roxxy_locker_first_visit:
-    player_name "Wow."
-    player_name "{b}Roxxy's{/b} locker is nice."
-    player_name "Looks like she's popped the seal on a new jar of {b}Cherry Pops{/b}."
+    player_name "Вау."
+    player_name "Шкафчик {b}Рокси{/b} такой милый."
+    player_name "Похоже она выиграла в лотерею целую банку {b}Черри-чупсов{/b}."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
