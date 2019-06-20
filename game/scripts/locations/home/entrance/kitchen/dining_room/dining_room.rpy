@@ -32,6 +32,6 @@ label dining_room_table_dialogue:
     show player 323e zorder 0 at Position(xpos=750,ypos=770)
     show expression "characters/xtra/overlay_o_dinner_table.png" with None
     with dissolve
-    player_name "( Nobody's here. The table isn't set either. )"
+    player_name "( Здесь никого нет. Стол тоже не накрыт. )"
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
