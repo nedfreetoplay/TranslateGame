@@ -27,7 +27,7 @@ label home_garage_pick_up_shovel:
     show jenny f_eyeroll
     jen "Тьфу, в такую жару?"
     show jenny f_upset_talk
-	jen "Да, ни за что. К черту это!"
+    jen "Да, ни за что. К черту это!"
     show jenny f_upset
     show player 10
     player_name "Что ты делаешь в гараже?"
@@ -45,17 +45,17 @@ label home_garage_pick_up_shovel:
     pause
     show jenny b_bend f_empty a_empty at flip
     show jenny at Position (xpos=800)
-	with dissolve
-	show player 428
+    with dissolve
+    show player 428
     player_name "!!!"
     pause
     show jenny b_bend_down with dissolve
     pause
-	show player 12
+    show player 12
     hide jenny
     show jenny a_dressed_hips_battery f_upset_talk b_dressed at unflip
-	with dissolve
-	player_name "Черт возьми, зачем тебе столько?"
+    with dissolve
+    player_name "Черт возьми, зачем тебе столько?"
     show player 5
     jen "Не твое дело, неудачник!"
     jen "Просто возьми лопату и проваливай."
