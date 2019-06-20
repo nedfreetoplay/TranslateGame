@@ -801,7 +801,7 @@ label kitchen_jenny_have_breakfast:
     return
 
 label kitchen_diane_3way_aftermath:
-    scene expression "backgrounds/location_home_kitchen_closeup.jpg"
+    scene expression "backgrounds/location_home_kitchen_day_closeup.jpg"
     show jenny a_dressed_juice f_gross zorder 2 at flip
     show jenny at Position (xpos=200)
     show debbie 11b zorder 1 at right
@@ -901,7 +901,7 @@ label kitchen_diane_3way_aftermath:
     return
 
 label kitchen_diane_breeding_candidate:
-    scene expression "backgrounds/location_home_kitchen_closeup.jpg"
+    scene expression "backgrounds/location_home_kitchen_day_closeup.jpg"
     show player 14 at left
     show jenny a_dressed_juice zorder 2 at flip
     show jenny at Position (xpos=200)
@@ -1012,7 +1012,7 @@ label kitchen_diane_breeding_candidate:
     return
 
 label kitchen_diane_barn_news:
-    scene expression "backgrounds/location_home_kitchen_closeup.jpg"
+    scene expression "backgrounds/location_home_kitchen_day_closeup.jpg"
     show jenny a_dressed_juice f_gross
     show diane nightgown_dip
     with dissolve
@@ -1254,7 +1254,7 @@ label kitchen_diane_dinner:
     hide player
     with dissolve
     
-	$ player.go_to(L_home_diningroom)
+    $ player.go_to(L_home_diningroom)
     scene location_home_dining
     show player b_dinner_sitting a_dinner_sitting_resting f_diningroom_table_normal zorder 0 at Position(align=(0,0))
     show diane b_dinner a_dinner_normal f_dinner_normal
@@ -1262,7 +1262,7 @@ label kitchen_diane_dinner:
     show jenny at Position (xpos=300)
     show debbie 65 at Position(xpos=887)
     show table 1 zorder 2 at Position(xpos=0.4976,ypos=0.7630)
-	with fade
+    with fade
     deb "... школа действительно столько заказала?!"
     deb "Хорошо, что у тебя есть {b}[firstname]{/b}, чтобы помочь тебе, да?"
     show jenny 45 with dissolve
@@ -1270,34 +1270,34 @@ label kitchen_diane_dinner:
     show debbie 64
     show jenny b_dinner_casual f_breakfast_surprised a_breakfast_dressed_spoon with dissolve
     show player f_magic_sit_stand_laugh
-	show diane f_dinner_normal_talk
+    show diane f_dinner_normal_talk
     dia "Ну, есть так много работы, которую нужно сделать между садом и молочным бизнесом."
     dia "... И он действительно показал склонность к этому!"
     show diane f_dinner_normal
-    show player 213
+    show player f_diningroom_table_normal
     show debbie 65
     deb "О, правда?"
-    show jenny 48
+    show jenny f_breakfast_gross
     show debbie 64
     show diane f_dinner_normal_talk a_dinner_hand with dissolve
-    show player 214
+    show player f_magic_sit_stand_normal
     dia "О, да."
     dia "Ты должна гордиться им, {b}[deb_name]{/b}!"
     dia "Он такой ответственный молодой человек."
-    show jenny 44 with dissolve
-    show player 226b
+    show jenny b_dinner_casual_side f_empty a_dinner_casual_side1 with dissolve
+    show player f_diningroom_table_surprised_left a_dinner_sitting_touch1
     show diane f_dinner_normal a_dinner_hand2 b_dinner_open
     with dissolve
     player_name "( !!! )"
-    show jenny 45 with dissolve
+    show jenny a_dinner_casual_side2 with dissolve
     show diane f_dinner_normal_talk
     dia "... Очень умный..."
     dia "... И сильный..."
-    show player 226c
+    show player f_diningroom_table_surprised_teeth_left a_dinner_sitting_touch2
     show diane a_dinner_hand3
     with dissolve
     dia "... И нежный."
-    show jenny 44 with dissolve
+    show jenny a_dinner_casual_side1 with dissolve
     show diane f_dinner_normal
     player_name "{b}*глоток*{/b}"
     show debbie 65
@@ -1320,8 +1320,8 @@ label kitchen_diane_dinner:
         player_name "Хехехе, Я-"
         show debbie 68 with dissolve
         player_name "...т.е., это-"
-    show jenny 47
-    show debbie 64
+    show player od_dinner_sitting_boner
+    show jenny f_breakfast_gross_talk b_dinner_casual a_breakfast_dressed_spoon
     show player_dick 222
     with dissolve
     jen "Ух, вся эта хрень с голубками меня вырвет..."
@@ -1329,18 +1329,18 @@ label kitchen_diane_dinner:
     dia "Нам не нужны комментарии с галерки, {b}[jen_name]{/b}..."
     dia "Просто ешь свой ужин и молчи."
     show diane f_dinner_normal
-    show jenny 88b
+    show jenny f_breakfast_eyeroll
     jen "Пф, неважно..."
-    show jenny 48
+    show jenny f_breakfast_gross
     pause
-    show jenny 47
+    show jenny f_breakfast_gross_talk
     jen "Вы ведете себя странно."
-    show jenny 48
+    show jenny f_breakfast_gross
     pause
     jen "Хмм..."
-    show jenny 86 at Position (xoffset=12) with dissolve
+    show jenny f_breakfast_grin_down_talk a_dinner_casual_drop with dissolve
     jen "... Упс."
-    show jenny 88c at left
+    show jenny b_dinner_casual_bending f_empty a_empty at Position (xpos=200)
     show diane f_dinner_annoyed_left
     with dissolve
     pause
@@ -1410,26 +1410,26 @@ label kitchen_diane_dinner:
     deb "Ты собираешься снести свой дом?!"
     show debbie 64c with dissolve
     show diane f_dinner_normal_talk
-    show player 226
+    show player f_magic_sit_stand_normal
     dia "Конечно, почему бы и нет?"
     show diane f_dinner_normal
     show debbie 65
-    show player 224
+    show player f_diningroom_table_normal
     deb "Не знаю."
     deb "Это такой хороший дом..."
     show debbie 64
     show diane f_dinner_laugh
-    show player 226
+    show player f_magic_sit_stand_normal
     dia "Пф, не такой он уж хороший!"
     show diane f_dinner_normal_talk
     dia "Он слишком велик для меня и, кроме того, все, что он делает, это напоминает мне о моем бывшем муже..."
     show diane f_dinner_normal
     show debbie 65
-    show player 224
+    show player f_diningroom_table_normal
     deb "Хорошо, но где ты будешь жить?"
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 226
+    show player f_magic_sit_stand_normal
     dia "Я пока не уверена насчет этого..."
     dia "Я имею в виду, я уверена, что смогу что-то найти, но у меня нет времени, чтобы затягивать это."
     dia "Если я собираюсь это сделать, я должна начать строительство прямо сейчас!"
@@ -1437,25 +1437,25 @@ label kitchen_diane_dinner:
     show diane f_dinner_normal
     deb "..."
     show debbie 65
-    show player 224
+    show player f_diningroom_table_normal
     deb "Ты вообще знаешь кого-нибудь, кто способен построить что-то подобное?"
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 226
+    show player f_magic_sit_stand_normal
     dia "Конечно!"
     dia "Один из моих лучших клиентов замужем за плотником."
     show diane f_dinner_normal
-    show player 225
+    show player f_magic_sit_stand_normal_talk
     player_name "Хмм?"
     player_name "О, ты имеешь в виду отца {b}Энни{/b}?"
-    show player 226
+    show player f_magic_sit_stand_normal
     show diane f_dinner_normal_talk
     dia "Да, его зовут {b}Ричард{/b}, верно?"
     show diane f_dinner_normal
-    show player 225
+    show player f_magic_sit_stand_normal_talk
     player_name "Да."
     player_name "Хотя он не кажется очень хорошим парнем..."
-    show player 226
+    show player f_magic_sit_stand_normal
     show diane f_dinner_normal_talk a_dinner_touch
     dia "Что ж, все в порядке."
     dia "Мне не нужно, чтобы он был милым!"
@@ -1467,102 +1467,102 @@ label kitchen_diane_dinner:
     deb "Хаха!"
     show diane f_dinner_normal
     show debbie 65
-    show player 224
+    show player f_diningroom_table_normal
     deb "Ну, ты всегда можешь остаться здесь с нами, пока ищешь новое место, понимаешь?"
     show debbie 64
-    show jenny 46 with dissolve
+    show jenny f_breakfast_surprised with dissolve
     jen "( !!! )"
-    show jenny 47
-    show player 219
+    show jenny f_breakfast_gross_talk
+    show player f_diningroom_table_surprised_left
     show diane a_dinner_normal with dissolve
     jen "Что?!"
-    show jenny 48
+    show jenny f_breakfast_gross
     show diane f_dinner_normal_talk
     dia "О, я не хочу быть обузой..."
     show diane f_dinner_normal
     show debbie 65
-    show player 213
+    show player f_diningroom_table_normal
     deb "Не беспокойся!"
     deb "Ты как член семьи и более чем, добро пожаловать, можешь остаться так долго, как тебе нужно!"
     show debbie 64
-    show jenny 47
-    show player 219
+    show jenny f_breakfast_gross_talk
+    show player f_diningroom_table_surprised_left
     jen "{b}[deb_name]{/b}, Я действительно не думаю, что это хорошая идея-"
-    show jenny 48
+    show jenny f_breakfast_gross
     show diane f_dinner_annoyed_left_talk
     dia "Шшш, никто с тобой не разговаривает..."
     show diane f_dinner_normal
-    show jenny 87
+    show jenny f_breakfast_gross
     show debbie 65
-    show player 213
+    show player f_diningroom_table_normal
     deb "Я думаю, это замечательная идея!"
     deb "Это даст вам шанс сблизиться с {b}Дианой{/b}."
     deb "К тому же нам бы не помешала дополнительная помощь, пусть даже временная..."
     show debbie 64
-    show jenny 88
-    show player 219
+    show jenny f_breakfast_gross_talk
+    show player f_diningroom_table_surprised_left
     jen "Где она будет спать?!"
-    show jenny 48
+    show jenny f_breakfast_gross
     show debbie 65
-    show player 213
+    show player f_diningroom_table_normal
     deb "Мы что-нибудь придумаем."
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 214
+    show player f_magic_sit_stand_normal
     dia "Диван меня вполне устроит."
     show diane f_dinner_normal
-    show jenny 88b
-    show player 219
+    show jenny f_breakfast_eyeroll
+    show player f_diningroom_table_surprised_left
     jen "Это, блядь, глупая идея!"
-    show jenny 48
+    show jenny f_breakfast_gross
     show diane f_dinner_annoyed_left_talk
     dia "Эй, не говори так с {b}[deb_name]{/b}!"
-    show diane f_dinner_annoyed_left
-    show jenny 87
+    show diane f_dinner_annoyed_left zorder 1
+    show jenny f_breakfast_gross
     jen "..."
-    show jenny 88
+    show jenny f_breakfast_gross_talk
     jen "Неважно."
     jen "Я буду в своей комнате."
-    show jenny 88d with dissolve
+    show jenny b_dinner_walking f_empty a_empty zorder 0 at Position (xpos=500) with dissolve
     pause
     hide jenny with dissolve
     pause
-    show player 214
+    show player f_magic_sit_stand_normal
     show diane f_dinner_normal_talk
     dia "Блин, этой девочке нужно научиться уважению..."
     show diane f_dinner_normal
     show debbie 65
-    show player 213
+    show player f_diningroom_table_normal
     deb "О, {b}Диана{/b}... Оставь ее."
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 214
+    show player f_magic_sit_stand_normal
     dia "Я серьезно!"
     dia "Родители никогда бы не позволили мне так с ними разговаривать."
     show diane f_dinner_normal
     show debbie 65
-    show player 213
+    show player f_diningroom_table_normal
     deb "Это просто переходной период."
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 214
+    show player f_magic_sit_stand_normal
     dia "Как скажешь..."
     show diane f_dinner_normal
-    show player 215
+    show player f_diningroom_table_normal_talk
     player_name "{b}Диана{/b} действительно переедет к нам?"
-    show player 213
+    show player f_diningroom_table_normal
     show debbie 65
     deb "Да!"
     show debbie 64
     show diane f_dinner_normal_talk
-    show player 214
+    show player f_magic_sit_stand_normal
     dia "Просто дай мне пару дней, чтобы разобраться с планами строительства."
     show diane f_dinner_normal
     show debbie 66
-    show player 213
+    show player f_diningroom_table_normal
     deb "О, это так волнующе!"
     show debbie 65
-    show player 214
+    show player f_magic_sit_stand_normal
     deb "Это будет как те ночевки, которые мы устраивали, когда были девочками!"
     show diane f_dinner_laugh
     show debbie 66
@@ -2256,7 +2256,7 @@ label kitchen_mom_kissing_practice:
     return
 
 label kitchen_mom_dishes:
-    scene location_home_kitchen_closeup
+    scene expression player.location.background_closeup with None
     show debbie 116 at right
     with dissolve
     pause
@@ -2595,15 +2595,15 @@ label kitchen_diane_debbie_evening_visit:
     show debbie b_empty a_empty f_normal_talk at flip
     show debbie at Position (xpos=597)
     show diane b_hug_deb a_empty f_normal at Position (xpos=285)
-	with dissolve
+    with dissolve
     deb "Будь осторожна."
     show diane f_normal_talk
-	show debbie f_normal
+    show debbie f_normal
     dia "Хорошо."
     show debbie at unflip
     show debbie 164f at Position(xpos=0.3318,ypos=1.000)
     show diane f_laugh b_casual a_casual_sides at lright
-	with dissolve
+    with dissolve
     dia "Не забудь попробовать молоко, которое я тебе принесла!"
     show diane f_normal
     show debbie 165f
