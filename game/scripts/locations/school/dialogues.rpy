@@ -930,7 +930,7 @@ label school_hallway:
     $ game.main()
 
 label school_locker_smith_go_to_locker:
-    scene location_school_day_blur
+    scene expression game.timer.image("school{}") with None
     show player 11f at right
     show annie 3f at Position(xpos=0.3, ypos=1.0)
     with dissolve
@@ -985,7 +985,7 @@ label school_locker_smith_go_to_locker:
     return
 
 label school_hallway_smith_unlocked_locker:
-    scene location_school_day_blur
+    scene expression game.timer.image("school{}") with None
     show player 34
     with dissolve
     player_name "( Хмм, так {b}миссис Смит хранит универсальный ключ у себя в кабинете{/b}. )"
@@ -1638,10 +1638,10 @@ label school_roxxy_missing_outfit:
     becca "На улице слишком жарко!"
     becca "... А ещё меня в дрожь бросает от твоего двоюродного брата."
     show becca 1
-    show roxxy 3b
+    show roxxy 31
     show missy 2b
     rox "Ну вы и гадины!"
-    show roxxy 3c
+    show roxxy 3d
     show player 14f zorder 0 at Position (xpos=600) with dissolve
     player_name "Привет, девчонки!"
     player_name "Как дела?"
@@ -2209,9 +2209,9 @@ label school_roxxy_give_exams:
     show player 14
     player_name "Именно!"
     player_name "Она хранит их в своей спальне, представляешь?!"
-    show player 239_240
+    show player 239_240 with dissolve
     pause
-    show player 643
+    show player 643 with dissolve
     pause
     hide player
     show roxxy 59 at left
@@ -2422,9 +2422,9 @@ label school_roxxy_give_exams:
     ann "Ты сейчас серьёзно?"
     ann "Ты - заноза в моей заднице, понимаешь?"
     jud "Да я понимаю, прости..."
-    ann "В последний раз в открываю твой шкафчик!"
+    ann "В последний раз открываю твой шкафчик!"
     jud "..."
-    jud "А зачем ты осматриваешься чужие шкафчики?"
+    jud "А зачем ты осматриваешь чужие шкафчики?"
     show player locker 4
     ann "Тебя это не касается!"
     pause
@@ -2465,9 +2465,9 @@ label school_roxxy_give_exams:
     player_name "Это же..."
     show player locker 9
     show roxxy locker 10
-    rox "Ахххнх..." with hpunch
+    rox "Ахххнх..." with flash
     show player locker 8
-    player_name "!!!"
+    player_name "!!!" with hpunch
     rox "Ах... Ахах..."
     rox "Твою мать!"
     rox "Это же сейчас..."
@@ -2504,7 +2504,7 @@ label school_roxxy_give_exams:
     player_name "Что это сейчас было?!"
     show player 90
     show roxxy 3c
-    rox "А у кого стояк в самый подходяший момент появился?!"
+    rox "А у кого стояк в самый неподходяший момент появился?!"
     show roxxy 3d
     show player 10
     player_name "А я-то что?!"
@@ -2776,47 +2776,47 @@ label school_roxxy_do_pushups_intro:
     show dexter 21b at Position (xpos=950) with dissolve
     dex "Тебе крышка, {b}[firstname]{/b}!"
     show dexter 14
-    show coach 3f with dissolve
+    show bridget a_dressed_crossed f_angry_talk at Position (xpos=300) with dissolve
     bri "Что за чертовщина тут происходит?!"
-    show coach 1 with dissolve
+    show bridget a_dressed_crossed f_normal with dissolve
     show dexter 11
     dex "!!!"
     show player 12
     player_name "Н-ничего, мэм!"
     show player 90
-    show coach 3
+    show bridget a_dressed_crossed f_angry_talk
     bri "Это не выглядит, как ничего!"
-    show coach 3f with dissolve
+    show bridget a_dressed_crossed f_angry_talk with dissolve
     bri "{b}Декстер{/b}, сколько раз я тебе буду повторять, что драться в школах нельзя?!"
-    show coach 1f
+    show bridget a_dressed_crossed f_normal
     show dexter 22
     dex "Но мэм, он же сам напро..."
     show dexter 21
-    show coach 4f
+    show bridget a_dressed_crossed f_angry_yell
     bri "Я не хочу ничего слышать!" with hpunch
     bri "Если вам необходимо разрешить спор, то сделать это мирным путём..."
-    show coach 1f
+    show bridget a_dressed_crossed f_normal
     show player 12
     player_name "... Каким? Просто поговорить?"
     show player 90
     show dexter 22
     dex "Я не понимаю..."
     show dexter 21
-    show coach 4f
+    show bridget a_dressed_crossed f_angry_yell
     bri "Отжимания!"
-    show coach 1f
+    show bridget a_dressed_crossed f_normal
     show player 10
     player_name "А?!"
     show player 5
-    show coach 4
+    show bridget a_dressed_crossed f_angry_yell
     bri "Пятдесят отжиманий, сейчас же!" with hpunch
-    show coach 1
+    show bridget a_dressed_crossed f_normal
     show player 11
     player_name "!!!"
     dex "!!!"
-    show coach 3
+    show bridget a_dressed_crossed f_angry_talk
     bri "Кто преуспеет, тот и выиграл спор!"
-    show coach 1
+    show bridget a_dressed_crossed f_normal
     show dexter 12
     dex "Этот засранец не способен сделать пятьдесят отжиманий..."
     show dexter 11
@@ -2829,7 +2829,7 @@ label school_roxxy_do_pushups_intro:
     dex "..."
     hide dexter with dissolve
     pause
-    show coach 5 with dissolve
+    show bridget a_dressed_whistle f_angry_yell with dissolve
     bri "Начали!"
     return
 
@@ -3061,66 +3061,66 @@ label school_roxxy_dexter_basketball:
     show kevin 23f at Position (xpos=500)
     show erik 52f at Position (xpos=300)
     show player 5 at left
-    show coach 15b at right
+    show bridget a_dressed_ball f_normal_talk at Position (xpos=650)
     with dissolve
     bri "... Итак, ребята: я знаю, что вы видели, как играют профессионалы по телевизору..."
     bri "... Дриблинг между их ног и обводы за спиной!"
-    show coach 15c
+    show bridget a_dressed_ball f_angry_talk
     bri "Это всё глупости!" with hpunch
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Весь баскетбол - в основах!"
     bri "Интеллектуальная игра с точным исполнением..."
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show kevin 32f
     kev "... И смешные подачи с трёхочковой линии!"
     show kevin 23f
     player_name "..."
     eri "..."
-    show coach 15b
+    show bridget a_dressed_ball f_angry_talk
     bri "Ох, то есть для тебя это всё большая шутка, да?"
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show kevin 34f with dissolve
     kev "{b}*Глык*{/b} ... Я не это имел ввид..."
     show kevin 23f with dissolve
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Нет, нет, нет. Это моя вина..."
     bri "... Я не понимала, что ты слишком хорош для обычного баскетбола..."
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show kevin 34f with dissolve
     kev "Да нет, я не..."
     show kevin 34bf
-    show coach 15c
+    show bridget a_dressed_ball f_angry_talk
     bri "Почему бы тебе не пробежать вокруг площадки кружок-другой, пока класс будет смотреть на это, а?"
-    show coach 15
+    show bridget a_dressed_ball f_normal
     kev "!!!"
     show kevin 24f with dissolve
     kev "... Но мэм..."
     show kevin 24bf
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Тебе этого мало?"
     bri "Можем собраться здесь после уроков, если тебе этого мало."
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show kevin 24f
     kev "{b}*Вздох*{/b} Нет, мэ-эм..."
     show kevin 24bf
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Хорошо."
-    show coach 15c
+    show bridget a_dressed_ball f_angry_talk
     bri "Вперёд!" with hpunch
-    show coach 16
+    show bridget a_dressed_ball_whistle f_angry_yell
     hide kevin
     with dissolve
     pause
-    show coach 15b with dissolve
+    show bridget a_dressed_ball f_normal_talk with dissolve
     bri "Так, где я остановилась?"
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show player 10
     player_name "Основы баскетбола, мэм!"
     show player 5
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Ах, да!"
     bri "Итак, весь баскетбол заключается в основ..."
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show player 22
     dex "Вот ты где, задротишка!" with hpunch
     show player 23
@@ -3130,15 +3130,15 @@ label school_roxxy_dexter_basketball:
     eri "Только не это..."
     show erik 51f
     show dexter 14 at right with dissolve
-    show coach 15b
+    show bridget a_dressed_ball f_normal_talk
     bri "Что происходит?!"
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show dexter 15
     dex "Думал, что я тебя не найду, сучёнок?!"
     show dexter 14
-    show coach 15c
+    show bridget a_dressed_ball f_angry_talk
     bri "Не поняла?! {b}Декс{/b}..."
-    show coach 15
+    show bridget a_dressed_ball f_normal
     show dexter 13 at Position (xoffset=-18) with dissolve
     dex "Свалил с дороги, жиробасина, или я выбью из тебя эти веснушки!" with hpunch
     show erik 64f with fastdissolve
@@ -3157,32 +3157,32 @@ label school_roxxy_dexter_basketball:
     dex "Что ты посмеешь мне сделать, ЗАДРОТ?!"
     show dexter 14
     show player 11 at Position (xpos=-150)
-    show coach 15cf at left
+    show bridget a_dressed_ball f_angry_talk at flip
     show bridget at Position (xpos=450)
-	bri "Хватит, {b}Декстер{/b}, сейчас самое время, чтобы остановиться!" with hpunch
+    bri "Хватит, {b}Декстер{/b}, сейчас самое время, чтобы остановиться!" with hpunch
     bri "Ибо я не позволю, чтобы эти разборки проходили посреди урока!"
-    show coach 15f
+    show bridget f_angry
     show dexter 15
     dex "... Но {b}учитель{/b}, вы же не понимаете!"
     dex "Этот кусок говна..."
     show dexter 14
-    show coach 15cf
+    show bridget a_dressed_ball f_angry_talk
     bri "Я не хочу ничего слышать, {b}Декстер{/b}!"
     bri "Ты знаешь правила на моих уроках!"
     bri "Мы всё решаем здесь без насилия!"
-    show coach 15f
+    show bridget f_angry
     show dexter 15
     dex "Нет, пока я не разберусь с этим гадом, я не успокоюсь..."
     show dexter 14
-    show coach 17f with dissolve
+    show bridget a_dressed_ball_throw f_normal with dissolve
     player_name "..."
-    show coach 1f
+    show bridget a_dressed_crossed f_normal
     show dexter 29
     with dissolve
     dex "Хмм..."
-    show coach 2f
+    show bridget a_dressed_crossed f_normal_talk
     bri "Так разберись с ним в баскетболе!"
-    hide coach
+    hide bridget
     show player 16 at left
     with dissolve
     show dexter 30
@@ -3553,7 +3553,7 @@ label school_roxxy_locker_sex:
     show roxxy 1g
     show player 11
     player_name "..."
-    show roxxy 1g
+    show roxxy 1h
     rox "У меня есть план!"
     hide roxxy with dissolve
     show player 12
