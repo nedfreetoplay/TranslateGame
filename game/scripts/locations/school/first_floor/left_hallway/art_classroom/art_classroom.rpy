@@ -18,9 +18,9 @@ label easel_dialogue:
     else:
 
         show player 35 with dissolve
-        player_name "( What should I draw today? )"
+        player_name "( Что я должен нарисовать сегодня? )"
         menu:
-            "Tattoo ideas.":
+            "Идеи по тату.":
                 call expression game.dialog_select("easel_dialogue_mia_draw_tattoo_intro")
                 call screen tattoos
                 call expression game.dialog_select("easel_dialogue_mia_draw_tattoo_drawn")
