@@ -196,7 +196,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     scene expression "backgrounds/location_home_livingroom_night_closeup.jpg"
     show diane f_smirk_talk b_nightgown a_nightgown_sides
     show player 13f at Position (xpos=400)
-	with dissolve
+    with dissolve
     dia "Куда-то собрался?"
     show diane f_smirk
     show player 22
@@ -277,7 +277,7 @@ label mom_bedroom_diane_risky_frisky_kinky:
     show diane b_nightgown_remove2 with dissolve
     show player 426
     pause
-    $ M_diane.is_naked = 1
+    $ M_diane.outfit.is_naked = 1
     show diane b_naked a_naked_sides f_laugh
     dia "Я могу быть быстрой!"
     hide player
@@ -708,12 +708,12 @@ label mom_spy:
     show jenny f_upset_talk
     jen "Что она меняет или что-то еще?"
     show jenny f_upset
-	show player 10 at left
+    show player 10 at left
     player_name "... Нет."
     show player 5 at left
-    show jenny 12 at right
+    show jenny f_upset_talk
     jen "Хорошо, что тогда?"
-    show jenny 16 at left
+    show jenny b_bend a_empty f_empty
     show player 22f at right
     with dissolve
     jen "Отойди!"
@@ -723,8 +723,8 @@ label mom_spy:
     jen "... И говорит твое имя!"
     show player 80f at right with dissolve
     show jenny f_surprised b_dressed a_dressed_crossed at flip
-	with dissolve
-	jen "Что за черт?!"
+    with dissolve
+    jen "Что за черт?!"
     show player 81f at right with hpunch
     player_name "( !!! )"
     show player 78f at right
@@ -735,7 +735,7 @@ label mom_spy:
     show player 82f at right
     jen "... потому что это было бы очень глупо, {b}[firstname]{/b}!"
     show jenny f_upset_talk
-	jen "Что ты можешь сказать в свое оправдание?"
+    jen "Что ты можешь сказать в свое оправдание?"
     show player 83f at right
     show jenny f_upset
     player_name "Пожалуйста, не говори {b}[deb_name]{/b} что я смотрел за ней..."
