@@ -105,7 +105,7 @@ label left_hallway_latinos_bashing:
     show player 90 at Position( xpos = 290, ypos = 768)
     show judith 9 at left
     show lopez f_angry
-	show martinez f_angry_talk
+    show martinez f_angry_talk
     martinez "Ты защищаешь эту уродливую сучку??"
     show martinez f_angry
     show lopez f_angry_talk
@@ -153,7 +153,7 @@ label left_hallway_judith_missing:
 label left_hallway_martinez_book_search:
     scene lefthall_c
     show martinez a_dressed_backpack at Position (xpos=350)
-    show lopez 18 at right
+    show lopez f_angry
     show player 10 at left
     with dissolve
     player_name "Хей, {b}Мартинез{/b}?"
@@ -161,9 +161,9 @@ label left_hallway_martinez_book_search:
     show martinez f_normal_talk
     martinez "...Чего ты хочешь, задница?"
     show martinez f_normal
-    show lopez 19
+    show lopez f_angry_talk
     lopez "Да! Чего тебе надо?"
-    show lopez 18
+    show lopez f_angry
     show player 10
     player_name "Ухх, я слышал, что ты не вернул книгу в библиотеке."
     show player 5
@@ -173,9 +173,9 @@ label left_hallway_martinez_book_search:
     show player 10
     player_name "Ха? нет, меня послала библиотекарша!"
     show player 5
-    show lopez 19
+    show lopez f_angry_talk
     lopez "Так ты, значит, сучка библиотекарши?"
-    show lopez 18
+    show lopez f_angry
     show martinez f_laugh
     martinez "Хаха!"
     show martinez f_normal
@@ -187,10 +187,10 @@ label left_hallway_martinez_book_search:
     show martinez f_normal_talk
     martinez "Давай, {b}Лопес{/b}. Мы уже должны быть в спортзале."
     show martinez f_normal
-    show lopez 19
+    show lopez f_angry_talk
     lopez "И правда, {b}Мартинез{/b}. Ещё увидимся, задница!"
     show lopez f_laugh
-	lopez "Хахаха!"
+    lopez "Хахаха!"
     hide lopez
     show martinez b_back f_empty a_empty
     with dissolve
