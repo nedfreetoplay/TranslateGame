@@ -1,10 +1,10 @@
 label school_mia_study_reminder:
-    scene expression game.timer.image("school{}") with None
+    scene expression "backgrounds/location_school_day_blur.jpg"
     show player 4
     with dissolve
-    player_name "( Hmm, now that I've caught up in French class, {b}I can help Mia with her studies{/b}. )"
+    player_name "( Хмм, я догнал программу по французскому языку, значит, {b}я могу помочь Мии с её учёбой{/b}. )"
     show player 1
-    player_name "( {b}I should talk to her about it{/b}! )"
+    player_name "( {b}Мне следует поговорить с ней об этом{/b}! )"
     return
 
 label school_dialogue:
@@ -138,9 +138,9 @@ label school_dialogue:
         elif M_roxxy.is_state(S_roxxy_trailer_park_romance) and game.timer.is_morning():
             call expression game.dialog_select("school_roxxy_trailer_park_romance_intro")
             menu:
-                "Not right now.":
+                "Не сейчас.":
                     call expression game.dialog_select("school_roxxy_trailer_park_romance_no")
-                "I can come":
+                "Я могу пойти.":
 
                     call expression game.dialog_select("school_roxxy_trailer_park_romance_yes")
                     $ M_roxxy.trigger(T_roxxy_accepted_picnic)
@@ -154,16 +154,16 @@ label school_dialogue:
         elif M_roxxy.is_state(S_roxxy_fight_dexter) and not game.timer.is_dark():
             call expression game.dialog_select("school_roxxy_fight_dexter")
             menu:
-                "No.":
+                "Нет.":
                     show player 10 with dissolve
-                    player_name "No, this is life or death... I should really prepare more."
+                    player_name "Нет, это вопрос жизни и смерти... Мне нужно больше готовиться."
                     $ player.go_to(L_map)
                     $ game.main()
-                "Yes.":
+                "Да.":
 
                     show player 12 with dissolve
-                    player_name "No more running..."
-                    player_name "It's time to put {b}Dexter{/b} down for good!"
+                    player_name "NХватит бегать..."
+                    player_name "Пора разделаться с {b}Декстером{/b} раз и навсегда!"
                     jump dexter_fight_minigame_prepare
             hide player with dissolve
 
