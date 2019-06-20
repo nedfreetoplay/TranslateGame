@@ -15,7 +15,7 @@ label cant_watch_porn_during_day:
     player_name "( I can't watch porn during the day! )"
     player_name "( {b}[deb_name]{/b} could catch me. )"
     player_name "( I am {b}NOT{/b} having that conversation {i}again{/i}... )"
-    return
+return
 
 label home_livingroom_tv:
     if M_player.get("masturbated tv"):
@@ -25,21 +25,21 @@ label home_livingroom_tv:
             call expression game.dialog_select("home_livingroom_tv_masturbated_tv")
         jump expression game.dialog_select("home_livingroom_dialogue")
     $ tv_channel = 0
-    jump expression game.dialog_select("tv_channel_responses")
+	jump expression game.dialog_select("tv_channel_responses")
 
 label home_livingroom_tv_locked:
     scene expression game.timer.image("home_livingroom{}_b") with None
     show popup_tv_locked at truecenter with dissolve
     pause
     hide popup_tv_locked with dissolve
-    $ game.main()
-
+	$ game.main()
+	
 label home_livingroom_tv_masturbated_tv_sis:
     scene home_livingroom_night_b with None
     show player 11
     with dissolve
-    player_name "( I'm not risking that again, tonight... )"
-    player_name "( I should go to bed. )"
+    player_name "( Я не буду сегодня рисковать, опять... )"
+    player_name "( Лучше просто пойти спать. )"
     hide player with dissolve
     hide home_livingroom_night_b
     return
@@ -48,12 +48,12 @@ label home_livingroom_tv_masturbated_tv:
     scene home_livingroom_night_b with None
     show player 11
     with dissolve
-    player_name "( I think that's enough for one night. )"
-    player_name "( I should go to bed. )"
+    player_name "( Хватит приключений для одной ночи. )"
+    player_name "( Лучше просто пойду спать. )"
     hide player with dissolve
     hide home_livingroom_night_b
     return
-
+	
 label tv_channel_responses:
     scene home_livingroom_tv
     $ pink_user = ""
@@ -110,7 +110,7 @@ label tv_channel_responses:
             $ game.seen_tv_channels.append(8)
 
     call hide_home_tv
-    call screen home_livingroom_tv
+call screen home_livingroom_tv
 
 label tv_channel_pink_intro:
     scene home_livingroom_tv
@@ -131,7 +131,7 @@ label tv_channel_pink_intro:
     show player f_couch_sit_watching_jerking
     player_name "( I'm getting close! )"
     pause
-    return
+	return
 
 label tv_channel_sis_couch03_started:
     scene home_livingroom_couch01 with None
@@ -154,44 +154,44 @@ label tv_channel_sis_couch03_started:
     player_name "Woah!"
     player_name "( I've never seen someone use their feet like {b}that{/b}. )"
     player_name "( Actually, that's kind of hot. )"
-    return
-
+	return	
+	
 label tv_channel_channel_01_first_view:
     show home_tv_channel_01 at Position(xpos=522, ypos=521)
-    player_name "Hmm... Let's see what's on TV."
+    player_name "Хмм... Глянем, что там по телеку."
     return
 
 label tv_channel_channel_02_first_view:
     show home_tv_channel_02 at Position(xpos=522, ypos=521)
-    player_name "( Local news. Boring! )"
+    player_name "( Местные новости. Скука! )"
     return
 
 label tv_channel_channel_03_first_view:
     show home_tv_channel_03 at Position(xpos=522, ypos=521)
-    player_name "( That's the kind of sport I could get into. )"
+    player_name "( Здесь у нас спорт. )"
     return
 
 label tv_channel_channel_04_first_view:
     show home_tv_channel_04 at Position(xpos=522, ypos=521)
-    player_name "( Hey, it's Mayor Rump! )"
+    player_name "( Хей, это же Мэр Рамп! )"
     return
 
 label tv_channel_channel_05_first_view:
     show home_tv_channel_05 at Position(xpos=522, ypos=521)
     player_name "..."
-    player_name "( These nature channels are so strange... )"
+    player_name "( Эти природные каналы такие странные... )"
     return
 
 label tv_channel_channel_06_first_view:
     show home_tv_channel_06 at Position(xpos=522, ypos=521)
-    player_name "( Who watches this stuff? )"
+    player_name "( Да кто вообще это смотрит? )"
     return
 
 label tv_channel_channel_07_first_view:
     show home_tv_channel_07 at Position(xpos=522, ypos=521)
-    player_name "( This channel's a dud. )"
+    player_name "( Этот канал не работает. )"
     return
-
+	
 label tv_channel_channel_08_mom_interrupts:
     scene home_livingroom_couch02
     show player b_couch_sit_watching f_couch_sit_watching_jerking a_couch_boner_jerk
@@ -408,8 +408,8 @@ label tv_channel_channel_08_jenny_interrupts:
     show jenny f_couch_sit_sexy_down
     $ M_player.set("masturbated tv", True)
     jump jenny_couch_fj_loop
-    return
-
+	return	
+	
 label sis_pink_pass:
     scene home_livingroom_tv
     show home_tv_channel_08 at Position(xpos=522, ypos=521) with dissolve
@@ -436,4 +436,4 @@ label tv_pink_channel_pass_check:
     else:
         call sis_pink_pass
         $ game.main()
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
+# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc	
