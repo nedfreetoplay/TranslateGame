@@ -23,7 +23,7 @@ label ross_hscene_start:
     jump ross_hscene_loop
 
 label ross_office_hscene:
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg")
+    scene expression player.location.background_closeup
     show ross 13 at Position(xpos=0.35, ypos=1.0)
     show player 1f at Position(xpos=0.85, ypos=1.0)
     with dissolve
@@ -133,7 +133,7 @@ label ross_office_hscene:
     ross "Просто сойти с ума с ними!"
     player_name "..."
     ross "Хехе, это щекочет!"
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg") with fade
+    scene expression player.location.background_closeup with fade
     show ross 48 zorder 0 at Position(xpos=0.43, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.43, ypos=0.99)
     show player 616 zorder 2 at Position(xpos=0.73, ypos=1.0)
@@ -359,7 +359,7 @@ label ross_office_ross_sex_cum_dialogue:
     ross "... Много хорошего секса!"
     ross "... Но это было что-то другое, совершено!"
     player_name "... Д-да."
-    scene expression game.timer.image("backgrounds/location_school_office3_closeup{}.jpg")
+    scene expression player.location.background_closeup
     show rossp 10 zorder 0 at Position(xpos=0.2, ypos=1.0)
     show rosso 1 zorder 1 at Position(xpos=0.22, ypos=1.0)
     show player 8f at right
