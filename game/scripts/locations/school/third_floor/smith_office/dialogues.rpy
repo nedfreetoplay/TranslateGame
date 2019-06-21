@@ -3,68 +3,68 @@ label principals_office_delivery_invoice:
     show ronda chair at Position (xoffset=-320,yoffset=-55)
     show principal 22_23f at Position(xpos = 600, ypos = 764)
     player_name "!!!" with hpunch
-    player_name "What the f-"
+    player_name "Что за-"
     show principal 25f
-    smi "What is the meaning of this?!"
+    smi "Что все это значит?!"
     show principal 24f
-    ann "I'm so sorry, ma'am!"
+    ann "Мне очень жаль, мэм!"
     scene expression game.timer.image("office{}")
     show annie 3f at Position (xpos=375)
     show player 168b at left
     show titty 1f at right
     show principal 26 at Position (xpos=614)
     with dissolve
-    ann "I didn't realize-"
+    ann "Я не понимю-"
     show annie 9f
     show principal 27
-    smi "You know better than to interrupt me when I'm disciplining miscreants!"
+    smi "Ты знаешь, что лучше не перебивать меня, когда я наказываю негодяев!"
     show principal 26
-    ron "I didn't do anything wrong!"
+    ron "Я не сделала ничего плохого!"
     show principal 2
-    smi "SILENCE!"
+    smi "ТИШИНА!"
     show principal 1
     ann "..."
     show principal 28 at Position (xoffset=-54) with dissolve
-    smi "What is that {b}[firstname]'s{/b} carrying?"
+    smi "Что принес {b}[firstname]{/b}?"
     show principal 26 with dissolve
     show annie 1f
     show player 168c
-    player_name "{b}*Gulp*{/b} It's uhh, milk... ma'am."
-    player_name "For the cafeteria."
+    player_name "{b}*глоток*{/b} Это эээ, молоко... мэм."
+    player_name "Для столовой."
     show player 168b
     show annie 9f
     show principal 27
-    smi "Oh right, the delivery that I ordered."
-    smi "What's it doing in my office?!"
+    smi "Точно, доставка, которую я заказала."
+    smi "Что ты делаешь в моем кабинете?!"
     show principal 26
     show player 168c
-    player_name "{b}Annie{/b} said-"
+    player_name "{b}Энни{/b} сказала-"
     show player 168b
     show principal 27
-    smi "I don't care what {b}Annie{/b} said!"
+    smi "Мне все равно, что сказала {b}Энни{/b}!"
     show annie 6f
-    smi "Take that downstairs to the cafeteria, immediately!"
+    smi "Отнеси это вниз в кафетерий, немедленно!"
     show principal 26
     show player 168c
-    player_name "{b}*Sigh*{/b} Down the stairs?"
+    player_name "{b}*вздыхая*{/b} Вниз по лестнице?"
     show player 168b
     show principal 27
-    smi "... Problem?"
+    smi "... Проблемы?"
     show principal 26
     show player 168c
-    player_name "I... Sorry, it's just really heavy and I've already carried it all the way up here..."
+    player_name "Я... Извините, она очень тяжелая и я уже пронес ее всю дорогу сюда..."
     show player 168b
     show principal 27
-    smi "Ugh..."
+    smi "Эээ..."
     show principal 28 at Position (xoffset=-54) with dissolve
-    smi "Just {b}untie Ronda{/b} and she'll help you carry it down."
+    smi "Просто {b}развяжи Ронду{/b}, и она поможет тебе отнести коробку вниз."
     show principal 26 with dissolve
-    ron "What?! Why do I have to-"
+    ron "Что?! Почему я должна-"
     show principal 27
-    smi "It's good enough punishment for her and I'm sick of listening to her mouth!"
+    smi "Это достаточно хорошее наказание для нее, и мне надоело слушать ее!"
     show principal 26
     show player 168c
-    player_name "O-okay."
+    player_name "Хорошо."
     hide titty
     hide principal
     hide player
@@ -76,22 +76,22 @@ label principals_office_no_entry:
     scene expression game.timer.image("office{}")
     show principal 5 at right with dissolve
     show player 1 at left with dissolve
-    smi "What are you doing here?!"
+    smi "Что ты здесь делаешь?!"
     show player 11 at left
     show principal 3 at right
-    player_name "Oh... umm..."
+    player_name "Ой... эммм..."
     show player 21 at left
-    player_name "I was... looking for the washroom!"
+    player_name "Я... искал туалет!"
     show player 22 at left
     show principal 4 at right
-    smi "Don't play dumb with me, {b}[firstname]{/b}!"
-    smi "Didn't I just tell you earlier, to get to class??!"
+    smi "Не строй из меня дуру, {b}[firstname]{/b}!"
+    smi "Разве я не сказала тебе раньше, идти на урок??!"
     show player 10 at left
     show principal 1 at right
-    player_name "Well..."
+    player_name "Что ж..."
     show player 22 at left
     show principal 2 at right
-    smi "Now, get out of my {b}OFFICE{/b}!!!"
+    smi "А сейчас убирайся из моего {b}КАБИНЕТ{/b}!!!"
     hide player 22 at left with dissolve
     hide principal 2 at right with dissolve
     return
@@ -99,7 +99,7 @@ label principals_office_no_entry:
 label principals_office_no_entry_night:
     scene expression L_school_floor3.background_blur
     show player 10 with dissolve
-    player_name "I can't go in there right now..."
+    player_name "Я не могу туда войти прямо сейчас..."
     hide player with dissolve
     return
 
@@ -109,17 +109,17 @@ label principals_office_smith_intro:
     show principal 1 zorder 0 at Position(xpos=0.65, ypos=1.0)
     show annie 1 zorder 1 at right
     with dissolve
-    player_name "You wanted to see me, {b}Principal Smith{/b}?"
+    player_name "Вы хотели видеть меня, {b}Директриса Смит{/b}?"
     show player 11
     show principal 27
-    smi "Indeed, {b}[firstname]{/b}."
-    smi "We need to discuss your grades and whether or not you intend to graduate."
+    smi "Безусловно, {b}[firstname]{/b}."
+    smi "Нам нужно обсудить твои оценки и собираешся ли ты получить свой диплом."
     show player 10
     show principal 1
-    player_name "It's really that bad?"
+    player_name "Неужели все так плохо?"
     show player 11
     show principal 4b with dissolve
-    smi "Have a look for yourself..."
+    smi "Сам посмотри..."
     show expression ReportCard() zorder 2 with dissolve
     show player 23
     player_name "( !!! )" with hpunch
@@ -127,76 +127,76 @@ label principals_office_smith_intro:
     hide expression ReportCard() with dissolve
     show player 10
     show principal 1 with dissolve
-    player_name "Oh man, I'm failing everything?!"
+    player_name "Ох, блин, Я все завалил?!"
     show player 11
     show principal 27
-    smi "I told you..."
+    smi "Я говорила тебе..."
     show principal 1
     show annie 3
-    ann "That's what happens when you skip school for a month!"
+    ann "Вот что происходит когда ты прогуливаешь школу целый месяц!"
     show player 10
     show annie 1
-    player_name "I wasn't skipping! My Dad died!"
+    player_name "Я не прогуливал! Мой отец умер!"
     show player 11
     show principal 2
-    smi "Be silent, {b}Annie{/b}!"
+    smi "Молчать! {b}Энни{/b}!"
     show principal 1
     show annie 3
-    ann "S-sorry, Ma'am."
+    ann "И-извините Мэм."
     show principal 27
     show annie 1
-    smi "... Regardless of the circumstances."
-    smi "You'll need to {b}find a way to raise these grades{/b} if you don't want to repeat next year."
-    smi "I'd suggest you {b}speak to your teachers{/b} about making up the work you've missed."
-    smi "Perhaps they can come up with some {b}extra credit{/b} assignments or something?"
+    smi "... Вне зависимости от обстоятельств."
+    smi "Ты должен {b}Найти способ улучшить свои оценки{/b} если ты не хочешь остаться на второй год."
+    smi "Я бы посоветовала тебе {b}поговорить с твоми учителями{/b} чтобы сделать все работы которые ты пропустил."
+    smi "Возможно они смогут тебе дать некоторые {b}Дополнительные оценки{/b} за задания или типо того?"
     show player 10
     show principal 1
-    player_name "Y-yeah, okay."
+    player_name "Д-да, хорошо."
     show player 11
     show principal 27
-    smi "Do whatever it takes!"
+    smi "Сделай все возможное!"
     show player 10
     show principal 1
-    player_name "Yes, Ma'am."
+    player_name "Да, Мэм."
     show player 11
     show principal 27
-    smi "Good, now get to class."
+    smi "Хорошо, теперь иди на урок."
     show player 10
     show principal 1
-    player_name "... Actually, Ma'am?"
+    player_name "... На самом деле, Мэм?"
     show player 11
     show principal 27
-    smi "Yes?"
+    smi "Да?"
     show player 10
     show principal 1
-    player_name "I forgot the combination to my locker. Can you help me get it open?"
+    player_name "Я забыл комбинацию от моего шкафчика. Вы можете помочь мне его открыть?"
     show player 11
     show annie 4
-    ann "What do you mean you forgot?!"
-    ann "Everyone was told at the beginning of the year to write down their combinations!"
+    ann "Всмысле ты забыл?!"
+    ann "В начале годе всем сказали записать их комбинации!"
     show player 10
     show annie 1
-    player_name "I umm..."
-    player_name "I lost it!"
+    player_name "Я эммм..."
+    player_name "Я потерял его!"
     show player 11
     show annie 5
-    ann "Pfft, typical."
+    ann "Пфффф, типично."
     show annie 1
     show principal 27
-    smi "That's very disappointing, {b}[firstname]{/b}."
-    smi "We'll have to get you a new lock."
+    smi "Это очень досадно, {b}[firstname]{/b}."
+    smi "Мы дадим тебе новый замок."
     show principal 1
     player_name "..."
     show principal 27
-    smi "I'll send {b}Annie{/b} down with her {b}Masterkey{/b} momentarily..."
-    smi "I suggest you get everything that you need out now."
-    smi "It could be awhile before the new lock arrives."
+    smi "Я пошлю {b}Энни{/b} вниз с её {b}Универсальным ключем{/b} немедленно..."
+    smi "Я полагаю что сейчас ты получил все в чем ты нуждался."
+    smi "Это может занять некоторое время прежде чем прибудет новый замок."
     show player 10
     show principal 1
-    player_name "Yes, Ma'am."
+    player_name "Да, мэм."
     show player 11
     show principal 27
-    smi "Head there now and then get your butt to class after you're finished!"
+    smi "Напровляйся прямо туда сейчас и тогда когда закончишь, после этого, тащи свой зад на урок!"
     $ M_smith.trigger(T_smith_go_to_locker)
     $ game.main()
     return
@@ -207,9 +207,9 @@ label principals_office_smith_go_to_locker:
     show principal 1 zorder 0 at Position(xpos=0.65, ypos=1.0)
     show annie 4 zorder 1 at right
     with dissolve
-    ann "Didn't {b}Principal Smith{/b} tell you to beat it?!"
+    ann "Разве {b}Директриса Смит{/b} не сказала тебе проваливать?!"
     show annie 3
-    ann "Head down to {b}your locker{/b} and I'll meet you momentarily!"
+    ann "Иди к {b}своему шкафчику{/b} и я встречу тебя там с минуты на минуту!"
     $ game.main()
     return
 
@@ -218,9 +218,9 @@ label principals_office_smith_no_desk:
     show player 11 at left
     show principal 1 zorder 0 at Position(xpos=0.65, ypos=1.0)
     with dissolve
-    smi "What are you doing?"
+    smi "Что ты делаешь?"
     show principal 2
-    smi "Get the hell out of my office!" with hpunch
+    smi "Убирайся к черту из моего кабинета!" with hpunch
     $ game.main()
     return
 
@@ -229,54 +229,54 @@ label principals_office_annie_trouble:
     show principal 6 at right
     show player 11 at left
     with dissolve
-    ann "{b}Principal Smith{/b}?"
+    ann "{b}Директриса Смит{/b}?"
     show principal 7 at right
-    smi "What is it??"
+    smi "Что такое??"
     show principal 6 at right
-    ann "Reporting repeated offenders as you ordered!"
+    ann "Отчет о многократных правонарушителях как вы и приказывали!"
     show principal 9 at right
     smi "{b}[firstname]{/b}?"
     show principal 8 at right
-    ann "Yes, Ma'am. He was being inappropriate in the locker room!"
+    ann "Да, мэм. Он вел себя неприемлемо в раздевалке!"
     show principal 9 at right
-    smi "Don't you have enough problems?"
-    smi "What with your failing grades and all..."
+    smi "У тебя недостаточно проблем?"
+    smi "Что с твоими неудовлетворительными оценками и всем..."
     show player 10 at left
     show principal 13
-    player_name "Uh, Yes Ma'am!"
+    player_name "Ох, да Мэм!"
     show player 11 at left
     show principal 9
-    smi "... And yet, you feel the need to cause problems in the locker room as well?"
+    smi "... И все же, ты выяснила реальную причину проблемы в раздевалке..."
     show principal 7 at right
-    smi "What happened, exactly, {b}Annie{/b}?"
+    smi "Что случилось, конкретно, {b}Энни{/b}?"
     show principal 6 at right
-    ann "Well, his... he... He's showing inappropriate body parts to the girls in the locker room, Ma'am."
+    ann "Чтож, Его... он... Он показывал неприемлимые части своего тела девушкам в раздевалке, Мэм."
     show principal 9 at right
-    smi "Is that so?"
+    smi "Это правда?"
     show player 10 at left
-    player_name "Well... I can explain-"
+    player_name "Что ж... Я могу обьясни-"
     show player 22 at left
     show principal 10 at right with hpunch
-    smi "{b}SILENCE{/b}!!!"
+    smi "{b}ТИШИНА{/b}!!!"
     show principal 9 at right
     show player 5 at left
-    smi "...I need to see exactly what happened. Show me what you did, now."
+    smi "...Я должна увидеть конкретно что произошло. Покажи мне что ты сделал сейчас."
     show principal 6 at right
-    ann "Ma'am, it won't work..."
-    ann "It only seems to happen when... he sees women in the {b}nude{/b}, Ma'am."
+    ann "Мжм, это не сработает..."
+    ann "Кажется это происходит только тогда когда... когда он видит девушек {b}голыми{/b}, Мэм."
     show principal 7 at right
-    smi "Well, what are you waiting for, {b}Annie{/b}?"
-    smi "You're going to have to help him with that."
+    smi "Ну, чего же ты ждешь, {b}Энни{/b}?"
+    smi "Тебе придеться помочь ему с этим."
     show principal 11 at right
     show player 11 at left
-    ann "{b}What??!{/b}"
+    ann "{b}Что??!{/b}"
     show principal 12 at right
-    smi "You're the one who witnessed it and reported the infraction..."
-    smi "...It's your {b}duty{/b} to carry out the report!"
-    player_name "We really don't have to do this-"
+    smi "Вы единственая кто это видела и сообщила о правонарушении..."
+    smi "...Это твой {b}долг{/b} чтобы выполнить отчет!"
+    player_name "Мы действительно не должны этого делать-"
     show principal 10 at right
     show player 22 at left
-    smi "No one's leaving until I get a full report! Do it, or you both are in {b}DETENTION{/b}!!!"
+    smi "Никто отсюда не уйдет пока я не получу полный отчет! Сделай это, или вы оба будете {b}АРЕСТОВАНЫ{/b}!!!"
     show principal 13 at right
     ann "..."
     show player 8 at left
@@ -289,9 +289,9 @@ label principals_office_annie_trouble:
     pause
     show principal 16 at right
     show player 64 at left
-    smi "Now, look at those {b}firm breasts{/b} of hers..."
+    smi "Сейчас, посмотрим на эту {b}Потрясающую грудь{/b} у неё..."
     show principal 17 at right
-    smi "Don't you want to... suck on them? {b}[firstname]{/b}?"
+    smi "Разве ты не хочешь... пососать их? {b}[firstname]{/b}?"
     show player 65 at left
     player_name "..."
     show player 66 at left
@@ -301,41 +301,41 @@ label principals_office_annie_trouble:
     window hide
     pause
     show player 67 at left
-    smi "There we are..."
+    smi "Вот и мы..."
     show principal 18 at right
-    smi "That's enough, {b}Annie{/b}. You can leave now..."
+    smi "Этого достаточно, {b}Энни{/b}. Ты можешь идти..."
     show principal 5 at right with dissolve
-    smi "So!..."
-    smi "This is what I've been hearing about this whole time."
+    smi "Итак!..."
+    smi "Вот что я слышала об этом много раз."
     hide player 67 at left
     show principal 19 at left
     with dissolve
-    smi "You've made quite a reputation around school..."
-    smi "I can see why..."
-    smi "...this has been a..."
+    smi "Ты сделал хорошую репутацию по всей школе..."
+    smi "Теперь Я понимаю почему..."
+    smi "... Это было..."
     show principal 20 at left
     window hide
     pause
     show principal 21 at left with hpunch
     window hide
     pause
-    smi "...distraction!"
+    smi "...отвлекающим маневром!"
     show player 69 at left
     show principal 1 at right
     with dissolve
-    player_name "I'm sorry, Ma'am!"
-    player_name "It won't happen again, I promise!"
+    player_name "Я извиняюсь, Мэм!"
+    player_name "Этого больше не произойдет, Я обещаю!"
     show principal 5 at right
     show player 68 at left
-    smi "Alright young man: Here's the deal..."
-    smi "I won't send you to detention, as long as you keep this... \"problem\" of yours... to yourself."
-    smi "My priority is order and discipline in this school, and I plan on keeping it that way!"
+    smi "Хорошо молодй человек: Уговор такой..."
+    smi "Я не буду тебя арестововать, пока ты держишь эту... \"проблему\" в твоих... при себе."
+    smi "Мой приоритет порядок и дисциплина в этой школе, и я собирюсь сохранить её такой!"
     show principal 1 at right
     show player 69 at left
-    player_name "Yes, {b}Principal Smith{/b}!"
+    player_name "Да, {b}Директриса Смит{/b}!"
     show principal 2 at right
     show player 68 at left
-    smi "Now, get out of my {b}OFFICE{/b}!!"
+    smi "Сейчас, убирайся с моего {b}КАБИНЕТА{/b}!!"
     hide player 68 at left with dissolve
     hide principal 2 at right with dissolve
     $ renpy.end_replay()
@@ -347,32 +347,32 @@ label principals_office_dewitt_paint_trail:
         show annie spying 1
         show principal spying 2
         with dissolve
-        smi "You should have seen their faces!"
-        smi "Complete and utter devastation!"
-        smi "Hahaha!"
+        smi "Тебе надо было видеть их лица!"
+        smi "Полного и полного уничтожения!"
+        smi "Хахах!"
         show principal spying 1
         show annie spying 2
-        ann "So did they believe it was {b}Tyrone{/b} and his gang like you planned?"
+        ann "Так они поверили что это был {b}Тайрон{/b} и его банда как вы и планировали?"
         show annie spying 1
         show principal spying 2
-        smi "Nah, {b}Dewitt{/b} knows I had something to do with it but she can't prove anything."
+        smi "Нет, {b}Девитт{/b} знает я должна с этим что то сделать но она не сможет ничего доказать."
         show principal spying 1
         show annie spying 3
-        ann "I'm sorry, Ma'am. I tried my best to make it look like a bunch of hooligans did it."
+        ann "Я сожалею, Мэм. Я старалась из-за всех сил сделать так как будто кучка хулиганов это сделала."
         show annie spying 1
         show principal spying 2
-        smi "Yes, yes, I'm sure you did."
-        smi "I just can't get that image out of my mind!"
-        smi "Poor little {b}Dewitt{/b} on the verge of tears."
-        smi "Her silly talent show in shambles!"
+        smi "Да, да, Я уверена что ты сделала."
+        smi "Я просто не могу выбрасить ту картинку из своей головы!"
+        smi "Бедная маленькая {b}Девитт{/b} на грани слез."
+        smi "Ее глупое шоу талантов разрушено!"
         show principal spying 3
-        smi "Mmm..."
+        smi "Ммм..."
         show principal spying 2
-        smi "It's actually getting me kinda worked up."
-        smi "Why don't you come over here and help me out."
+        smi "Это на самом деле заставляет меня работать."
+        smi "Почему бы тебе не прийти сюда и не помочь мне."
         show principal spying 1
         show annie spying 3
-        ann "Of course, ma'am."
+        ann "Конечно, Мэм."
         show annie spying 4
         show principal spying 4
         with dissolve
@@ -380,21 +380,21 @@ label principals_office_dewitt_paint_trail:
         show annie spying 5 with dissolve
         pause
         show principal spying 3
-        smi "Ahh, that's it."
-        smi "Good girl..."
-        smi "Hehehehe, I can't wait to see the look on her face when I tell her the board has pulled her funding!"
+        smi "Ахх, вот так."
+        smi "Хорошая девочка..."
+        smi "Хехехехе, Я не могу дождаться уведить ее вырожение лица когда я скажу ей что Комиссия отказалась её финансировать!"
         scene black with fade
 
         scene outside_smith_office
         show kevin 24 at Position (xpos=800)
         show player 107 at Position (xpos=400)
         with dissolve
-        kev "Bro, {b}Principal Smith{/b} WAS behind it!"
+        kev "Бро, {b}Директриса Смит{/b} стоит за этим!"
         show kevin 23
         player_name "..."
         show kevin 24
-        kev "What a mega bitch!"
-        kev "We have to say something!"
+        kev "Что за мега Шлюха!"
+        kev "Мы должны что то сказать!"
         show kevin 23
         player_name "..."
         show kevin 24
@@ -403,32 +403,32 @@ label principals_office_dewitt_paint_trail:
         show kevin 23
         pause 1
         show kevin 25 at Position (xoffset=-82) with hpunch
-        kev "Bro!"
+        kev "Бро!"
         show kevin 23
         show player 12 with dissolve
-        player_name "Hey! Chill out, man!"
+        player_name "Хэй! Успакойся, чувак!"
         show player 5
         show kevin 24
-        kev "I'm trying to talk to you!"
+        kev "Я пытаюсь поговорить с тобой!"
         show kevin 23
         show player 12
-        player_name "Well, I'm sorry but did you see what they are doing in there right now?!"
+        player_name "Что ж, прости но ты видел что они делают там прямо сейчас?!"
         show player 5
         show kevin 24
-        kev "Uh, yeah and it's super gross!"
-        kev "{b}Principal Smith{/b} is the devil man, I bet her coochie smells like brimstone and sulphur!"
+        kev "Эм, да и это очень грубо!"
+        kev "{b}Директриса Смит{/b} вот дьявол, Бьюсь об заклада что её пизда пахнет как сера и она зеленовато-жёлтого цвета!"
         show kevin 23
         show player 113
-        player_name "{b}Annie{/b} doesn't seem to mind..."
+        player_name "{b}Энни{/b} кажется не против..."
         show player 114
         show kevin 24
-        kev "C'mon, it's getting late and you're suppose to meet {b}Eve{/b} in the park, remember?!"
+        kev "Давай, уже поздно и ты должен встретиться с {b}Евой{/b} в парке, помнишь?!"
         show kevin 23
         show player 113
-        player_name "Uh huh, just five more minutes..."
+        player_name "Ну да, только еще 5 минут..."
         show player 114
         show kevin 24
-        kev "Let's go, before we get caught, ya perv!"
+        kev "Пойдем, пока нас не поймали, как извращенцев!"
         hide kevin
         hide player
         with dissolve
@@ -438,9 +438,9 @@ label principals_office_dewitt_paint_trail:
         show annie spying 5
         show principal spying 3
         with dissolve
-        smi "You're getting pretty good at this my little pet."
-        smi "Mmm, right there!"
-        smi "Ahh!"
+        smi "У тебя очень хорошо получается с моим маленьким зверьком."
+        smi "Мммм, вот здесь!"
+        smi "Ахх!"
         scene black with fade
     return
 
@@ -449,21 +449,21 @@ label principals_office_dewitt_smith_office_trap:
     show erik 51 at right
     show player 12 at left
     with dissolve
-    player_name "You watch the door while I apply the adhesive, alright?"
+    player_name "Ты смотри за дверью пока я применю клей, хорошо?"
     show player 5
     show erik 53
-    eri "Yeah, okay."
-    eri "Just hurry up, dude. I want to get out of here..."
+    eri "Да, хорошо."
+    eri "Только поторопись, чувак. Я хочу убраться от сюда..."
     show erik 52
     show player 12
-    player_name "I will."
+    player_name "Хорошо."
     hide player
     hide erik
     with dissolve
 
     scene smith_office_cs01
     with fade
-    show text "I made sure the chairs were glued to the floor before moving onto the cushions.\nThere was no way I would let {b}Principal Smith{/b} and {b}Annie{/b} ruin the {b}Talent Show{/b}.\nNot after all the hard work we had put into it!\nI didn't stop until every last drop of the adhesive had been used." at Position (xpos= 512, ypos = 700) with dissolve
+    show text "Я удоставерился что стулья были склеены к полу перед передвижением подушек.\nЯ ни за что не позволил бы {b}Директрисе Смит{/b} и {b}Энни{/b} испортить {b}Шоу талантов{/b}.\nНе после всей той тяжелой работы которую мы вложили в неё!\nЯ не останавливался до тех пор, пока не использовал последнюю каплю клея." at Position (xpos= 512, ypos = 700) with dissolve
     with dissolve
     pause
     hide text with dissolve
@@ -472,17 +472,17 @@ label principals_office_dewitt_smith_office_trap:
     show erik 52 at right
     show player 14 at left
     with dissolve
-    player_name "Alright, that should do it."
+    player_name "Хорошо, Этого должно хватить."
     show player 17
-    player_name "I disconnected her phone from the outlet too so there's no way they can call for help!"
+    player_name "Я отключил её телефон еще с самого начала так что, они никак не смогут позвать на помощь!"
     show player 13
     show erik 54
-    eri "Nice thinking!"
+    eri "Хорошо придумал!"
     show erik 53
-    eri "Now let's get out of here, {b}[firstname]{/b}!"
+    eri "Сейчас давай убераться от сюда, {b}[firstname]{/b}!"
     show erik 52
     show player 14
-    player_name "Yeah, I'm right behind you!"
+    player_name "Да, Я прямо за тобой!"
     hide player
     hide erik
     with dissolve
@@ -491,27 +491,27 @@ label principals_office_dewitt_smith_office_trap:
     show player 13 at left
     show erik 53 at right
     with dissolve
-    eri "Phew."
-    eri "Let's never do that again, okay?"
+    eri "Фух."
+    eri "Давай больше так делать не будем, хорошо?"
     show erik 52
     show player 14
-    player_name "Heh, yeah."
-    player_name "At least we accomplished what we came here to do."
+    player_name "Хех, да."
+    player_name "По крайней мере мы сделали то, что мы пришли сюда делать."
     show player 13
     show erik 54
-    eri "Mission successful!"
+    eri "Миссия прошла успешно!"
     show erik 1
     show player 14
-    player_name "Thanks for your help, {b}Erik{/b}."
+    player_name "Спасибо за твою помощь {b}Эрик{/b}."
     show player 13
     show erik 4
-    eri "Don't mention it, {b}[firstname]{/b}."
+    eri "Не упоминай об этом, {b}[firstname]{/b}."
     show erik 1
     show player 14
-    player_name "I'll see you later!"
+    player_name "Увидимся позже!"
     show player 13
     show erik 7 with dissolve
-    eri "See ya!"
+    eri "Увидимся!"
     hide player
     hide erik
     with dissolve
@@ -521,38 +521,38 @@ label principals_office_dewitt_trap_check_up:
     scene office_clear
     show annie 19
     with dissolve
-    ann "... It's a great plan, ma'am!"
-    ann "It'll put a stop to that stupid talent show once and for all."
+    ann "... Это отличный план, Мэм!"
+    ann "Это положит конец этому глупому шоу раз и навсегда."
     show annie 20
-    smi "Yes, so long as you don't screw it up again..."
+    smi "Да, пока ты не облажаешся снова..."
     show annie 19
-    ann "But I didn't..."
-    ann "... Yes, ma'am."
+    ann "Но я не..."
+    ann "... Да, Мэм."
     show annie 20
-    smi "Just go make the preparations!"
+    smi "Просто займись подготовкой!"
     show annie 19
-    ann "Right away, ma'am!"
+    ann "Сию минуту, Мэм!"
     show annie 20b with dissolve
     ann "..."
-    ann "I'm stuck!"
+    ann "Я прилипла!"
     show annie 20c with dissolve
-    smi "What?"
+    smi "Что?"
     show annie 20b with dissolve
-    ann "I can't get out of my chair!"
+    ann "Я не могу встать с моего стула!"
     show annie 20c with dissolve
-    smi "Stop fooling around, {b}Annie{/b}. We don't have time to waste!"
+    smi "Хватит дурачиться, {b}Энни{/b}. У нас нет времени!"
     show annie 20b with dissolve
-    ann "I'm seriously stuck to the chair!"
+    ann "Я действительно прилипла к стулу!"
     show annie 20c with dissolve
-    smi "Oh for heavens sake!"
+    smi "Ох Ради всего святого!"
     show annie 21
     smi "( !!! )" with hpunch
-    smi "WHAT THE HELL?!"
-    smi "I'm stuck too!!!"
-    smi "How is this possible?!"
+    smi "КАКОГО ЧЕРТА?!"
+    smi "Я тоже застряла!!!"
+    smi "Как это возможно?!"
     ann "..."
-    smi "{b}Annie{/b} get your butt over here and help me!"
-    ann "I can't, I'm stuck too!"
+    smi "{b}Энни{/b} тащи свою задницу сюда и помоги мне!"
+    ann "Я не могу, Я прилипла тоже!"
     scene black with fade
 
     scene outside_smith_office
@@ -560,11 +560,11 @@ label principals_office_dewitt_trap_check_up:
     with dissolve
     pause
     show player 17f at Position (xoffset=100) with dissolve
-    player_name "( It worked! )"
+    player_name "( Это сработало! )"
     show player 14f at Position (xoffset=100)
-    player_name "( There's no way they can interfere with the {b}Talent Show{/b} now! )"
-    player_name "( They'll be stuck there arguing until somebody finds them. )"
-    player_name "( I'd better get to the {b}auditorium{/b} quickly or I'll miss the introductions. )"
+    player_name "( Они никак не смогут сейчас помешать {b}Шоу талантов{/b}!)"
+    player_name "( Они застряли там до тех пор пока кто-то их там не найдет. )"
+    player_name "( Мне лучше вернуться быстрее в {b}Актовый зал{/b} или я пропущу начало. )"
     hide player with dissolve
     return
 
@@ -573,16 +573,16 @@ label principals_office_dewitt_office_night_visit_delay:
     show annie 22f at left
     show principal 36 at right
     with dissolve
-    ann "Can you get this cushion off me?"
+    ann "Можете мне дать эту подушку?"
     show annie 23f
     show principal 37
-    smi "Not now, idiot!"
-    smi "What I want is a full report on who did this!"
-    smi "Whoever ruined my chair... and... and my suit!"
-    smi "My beautiful suit!"
+    smi "Не сейчас, Идиотка!"
+    smi "Что я хочу это получить полный отчет о том кто это сделал!"
+    smi "Кто бы не разрушил мой стул... и... и мой костюм!"
+    smi "Мой красивый костюм!"
     show principal 40 with dissolve
-    smi "Just look at what they did!"
-    smi "FIND THEM!"
+    smi "Посмотри что они сделали!"
+    smi "НАЙДИ ИХ!"
     scene black with fade
 
     scene outside_smith_office
@@ -590,7 +590,7 @@ label principals_office_dewitt_office_night_visit_delay:
     with dissolve
     pause
     show player 17f at Position (xoffset=100) with dissolve
-    player_name "( I'd better get out of here before they see me! )"
+    player_name "( Мне лучше свалить отсюда прежде чем они меня запалят! )"
     hide player with dissolve
     return
 
@@ -598,18 +598,18 @@ label desk03_locked_dialogue:
     scene expression game.timer.image("office{}")
     if player.location.is_here(M_smith):
         show player 30 at left
-        player_name "Hmmm... I wonder what's in there?"
+        player_name "Хммм... Интересно что там внутри?"
         show player 22 at left with hpunch
         show principal 4 at right with dissolve
-        smi "What are you doing?"
+        smi "Что ты делаешь?"
         show principal 1 at right
         show player 29 at left
-        player_name "Oh, I'm sorry... I was just looking!"
+        player_name "Ох, Простите... Я просто смотрел!"
         show player 3 at left
         show principal 5 at right
-        smi "If I {b}EVER{/b} catch you going through my things..."
+        smi "Если я {b}КОГДА-НИБУДЬ{/b} поймаю тебя когда ты роешься в моих вещах..."
         show principal 2 at right
-        smi "...you can be sure, you'll be spending the rest of the year in {b}DETENTION{/b}!!!"
+        smi "...можешь быть уверен, ты проведешь остаток своего года в {b}ЗАКЛЮЧЕНИИ{/b}!!!"
     else:
         $ pass
     $ game.main()
@@ -618,8 +618,8 @@ label principle_drawer:
     scene principle_drawer
     show expression "objects/object_papers_01.png" at Position(xpos = 378, ypos = 526)
     player_name "..."
-    player_name "What's with all those... leather things... in here?"
-    player_name "weird..."
+    player_name "Что со всеми этими... кожаными вещами... здесь?"
+    player_name "странно..."
     call screen principle_drawer
 
 label principle_drawer_diane_delivery_3_fetch_invoice:
@@ -662,31 +662,31 @@ label principals_office_okita_get_keycode_morning:
     scene expression game.timer.image("office{}")
     show player 22 at left
     show principal 26 at right
-    player_name "( Oh crap! She's here! )"
+    player_name "( Вот дерьмо! Она здесь! )"
     smi "..."
     show principal 27
-    smi "... Can I help you with something?"
+    smi "... Я могу тебе с чем-то помочь?"
     show player 10
     show principal 26
-    player_name "Oh! I was just-"
+    player_name "Ох! Я просто-"
     show player 29
-    player_name "... Err, I was... just wondering..."
+    player_name "... Эмм, мне было... просто любопытно..."
     show principal 2
     show player 3
-    smi "Spit it out, {b}[firstname]{/b}?!"
+    smi "Говори уже, {b}[firstname]{/b}?!"
     show principal 26
     pause
     show player 10
-    player_name "Uhh, how are you doing, {b}Principal Smith{/b}?"
+    player_name "Эмм, Как у вас дела, {b}Директриса Смит{/b}?"
     show player 11
     smi "..."
     show principal 27
-    smi "Busy."
+    smi "Занята."
     show principal 2
-    smi "Now get out!"
+    smi "А теперь убирайся!"
     show player 10
     show principal 26
-    player_name "Y-yes, Ma'am!"
+    player_name "Д-да, Мэм!"
 
 
     return
@@ -695,8 +695,8 @@ label principals_office_okita_get_keycode_afternoon:
     scene expression game.timer.image("office{}")
     show player 1
     with dissolve
-    player_name "( She's not here! This is my chance to find that keycode! )"
-    player_name "( {b}I should look around.{/b} )"
+    player_name "( Её здесь нет! Это мой шанс чтобы найти этот код! )"
+    player_name "( {b}Мне нужно осмотреться.{/b} )"
     return
 
 label masterkey_taken:
@@ -713,14 +713,14 @@ label keycode_note_taken:
     with dissolve
     pause
     show player 543
-    player_name "Aha! This has gotta be it! {b}6219{/b}."
+    player_name "Ага! Это должно быть здесь! {b}6219{/b}."
     show expression "backgrounds/location_school_office_desk.jpg"
     show expression "boxes/popup_item_note2.png" at truecenter with dissolve
     $ player.get_item("keycode_note")
     pause
     hide expression "boxes/popup_item_note2.png" with dissolve
     pause 1
-    player_name "Now I just have to go unlock {b}Miss Okita's{/b} office to grab all those things she wanted."
+    player_name "А теперь я могу открыть кабинет {b}Мисс Окиты{/b} чтобы забрать все вещи которые она просила."
     $ M_okita.trigger(T_okita_keycode_acquired)
     $ game.main()
     return
@@ -732,14 +732,14 @@ label tissue_taken:
     with dissolve
     pause
     show player 529
-    player_name "Ugh, oh man..."
+    player_name "Агх, ох мэн..."
 
-    player_name "Gross!"
+    player_name "Отвратительно!"
     show player 528
     pause
     show player 529
-    player_name "I think this will work..."
-    player_name "I'd better get outta here before {b}Annie{/b} comes back."
+    player_name "Думаю это сработает..."
+    player_name "Лучше убраться отсюда пока {b}Энни{/b} не вернулась."
     show expression "boxes/popup_item_tissue1.png" at truecenter with dissolve
     $ player.get_item("tissue")
     pause
@@ -758,32 +758,32 @@ label principals_office_okita_get_ingredients_morning:
     scene expression game.timer.image("office{}")
     show player 22 at left
     with dissolve
-    player_name "( Oh crap! She's here! )"
+    player_name "( Вот дерьмо! Она здесь! )"
     show principal 3b at Position(xpos=0.85, ypos=1.0) with dissolve
     smi "..."
     show principal 27 at right with dissolve
-    smi "... Can I help you with something?"
+    smi "... Я могу тебе с чем-то помочь?"
     show player 29 with dissolve
     show principal 26
-    player_name "Oh! I was just-"
-    player_name "... Err, I was... just wondering..."
+    player_name "Ох! Я просто-"
+    player_name "... Эмм, мне было... просто любопытно..."
     show player 3
     show principal 27 with dissolve
-    smi "Spit it out, {b}[firstname]{/b}!"
+    smi "Говори уже, {b}[firstname]{/b}!"
     show player 29
     show principal 26
-    player_name "Uhh, how are you doing, {b}Principal Smith{/b}?"
+    player_name "Эмм, как у вас дела, {b}Директриса Смит{/b}?"
     show player 3
     smi "..."
     show principal 27
-    smi "Busy."
+    smi "Занята."
     show player 22
     show principal 2
     with dissolve
-    smi "Now get out!" with hpunch
+    smi "А теперь убирайся!" with hpunch
     show principal 1
     show player 10
-    player_name "Y-yes, Ma'am!"
+    player_name "Д-да, Мэм!"
 
     return
 
@@ -793,6 +793,6 @@ label principal_trash:
     else:
         scene location_school_office_day_blur
         show player 10
-        player_name "I don't want to look through Principal Smith's garbage."
+        player_name "Я не хочу смотреть на мусор Директрисы Смит."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
