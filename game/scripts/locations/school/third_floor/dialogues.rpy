@@ -12,7 +12,7 @@ label okita_office_door:
             call expression game.dialog_select("okita_office_door_okita_tired")
         else:
 
-            jump expression game.dialog_select("okita_office_dialogue")
+            jump expression game.dialog_select("mrs_okitas_office_dialogue")
     $ game.main()
 
 label okita_office_door_need_keycode:
@@ -36,7 +36,7 @@ label okita_office_door_okita_tired:
 
 label okita_office_unlock:
     $ M_okita.set("office locked", False)
-    jump expression game.dialog_select("okita_office_dialogue")
+    jump expression game.dialog_select("mrs_okitas_office_dialogue")
 
 label okita_office_locked:
     $ player.go_to(L_school_floor3)
