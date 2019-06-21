@@ -202,7 +202,7 @@ label dewitt_office_dewitt_night_visit:
     show dewitt 19
     dewitt "Хех, ох сахарок. Он очень хороший парень."
     dewitt "... И он должен присесть прямо здесь..."
-    show dewitt 1
+    show dewitt 18
     show player 10f
     player_name "Что происходит, {b}Мелоди{/b}?"
     show player 5f
