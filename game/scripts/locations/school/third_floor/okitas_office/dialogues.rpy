@@ -238,7 +238,7 @@ label okitas_office_okita_got_all_items:
 
 label okitas_office_okita_xray_perving:
     $ persistent.cookie_jar["Okita"]["gallery"]["02_unlocked"] = True
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 11 at Position(xpos=0.35, ypos=1.0)
     show okita 4 at Position(xpos=0.65, ypos=1.0)
     with dissolve
@@ -363,7 +363,7 @@ label okitas_office_okita_xray_perving:
     okita "Хорошо, {b}[firstname]{/b}, ты можешь его уже убрать."
     okita "Я должна подумать об этом некоторое время."
 
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 10 at left
     show okita 4 at right
     with dissolve
@@ -539,7 +539,7 @@ label picked_up_blueprints:
     pause
     hide expression "boxes/popup_item_blueprints1.png" with dissolve
     pause 1
-    jump okita_office_dialogue
+    jump mrs_okitas_office_dialogue
 
 label picked_up_labcoat:
     scene expression game.timer.image("location_school_office4{}_blur")
@@ -554,7 +554,7 @@ label picked_up_labcoat:
     pause
     hide expression "boxes/popup_item_coat1.png" with dissolve
     pause 1
-    jump okita_office_dialogue
+    jump mrs_okitas_office_dialogue
 
 label picked_up_goggles:
     scene expression game.timer.image("location_school_office4{}_blur")
@@ -567,10 +567,10 @@ label picked_up_goggles:
     pause
     hide expression "boxes/popup_item_goggles1.png" with dissolve
     pause 1
-    jump okita_office_dialogue
+    jump mrs_okitas_office_dialogue
 
 label okitas_office_okita_belt_assembled:
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 11 at Position(xpos=0.35, ypos=1.0)
     show okita 2 zorder 2 at Position(xpos=0.75, ypos=1.0)
     okita "Вот ты где, готов проверить эту штуку?"
@@ -706,7 +706,7 @@ label okitas_office_okita_belt_assembled:
 
 label okitas_office_extract_cum:
     $ persistent.cookie_jar["Okita"]["gallery"]["04_unlocked"] = True
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 2 at Position(xpos=0.35, ypos=1.0)
     show okita 1 at Position(xpos=0.65, ypos=1.0)
     player_name "{b}Мисс Окита{/b}?"
@@ -975,7 +975,7 @@ label okita_handjob_cum:
     return
 
 label okitas_office_start_brewing:
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 27 at Position(xpos=0.35, ypos=1.0)
     show okita 87 at Position(xpos=0.65, ypos=1.0)
     with dissolve
@@ -1019,14 +1019,14 @@ label okitas_office_start_brewing:
     label start_brewing_repeat_that:
         menu:
             "Да.":
-                scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+                scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
                 show player 2 at Position(xpos=0.35, ypos=1.0)
                 show okita 6 at Position(xpos=0.65, ypos=1.0)
                 player_name "Да,давайте сделаем это."
                 return
             "Вы можете это повторить?":
 
-                scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+                scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
                 show player 11 at Position(xpos=0.35, ypos=1.0)
                 show okita 7 at Position(xpos=0.65, ypos=1.0)
                 okita "Это очень просто.{b}Красная сыворотка это для меня{/b} и {b}Голубую для Директисы Смит{/b}."
@@ -1039,7 +1039,7 @@ label okitas_office_start_brewing:
     return
 
 label okitas_office_start_brewing_again:
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 1 zorder 0 at left
     show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
     show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
@@ -1059,7 +1059,7 @@ label okitas_office_start_brewing_again:
     label start_brewing_again_repeat_that:
         menu:
             "Да.":
-                scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+                scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
                 show player 2 zorder 0 at left
                 show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
                 show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
@@ -1068,7 +1068,7 @@ label okitas_office_start_brewing_again:
                 return
             "Вы не могли бы повторить?":
 
-                scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+                scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
                 show player 1 zorder 0 at left
                 show playerl 1 zorder 1 at Position(xpos=0.152, ypos=1.0)
                 show playerg 1 zorder 2 at Position(xpos=0.17, ypos=0.3475)
@@ -1083,7 +1083,7 @@ label okitas_office_start_brewing_again:
     return
 
 label okitas_office_okita_is_hypersexual:
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 10 zorder 0 at Position(xpos=0.35, ypos=1.0)
     show okita 6 zorder 1 at Position(xpos=0.75, ypos=1.0)
     with dissolve
@@ -1423,7 +1423,7 @@ label okita_h_scene_force_exit_dialog:
     pause
 
     if M_okita.is_set("repeatable unlocked"):
-        scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg") with fade
+        scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg") with fade
         show player 21 at Position(xpos = 0.35, ypos = 1.0)
         show okita 75 at Position(xpos = 0.65, ypos = 1.0)
         with dissolve
@@ -1465,7 +1465,7 @@ label okitas_office_hscene_aftermath:
     if not M_okita.is_set("repeatable unlocked"):
         call expression game.dialog_select("okita_h_scene_force_exit_dialog")
         $ M_okita.set("repeatable unlocked", True)
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg") with fade
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg") with fade
     show player 21 at Position(xpos = 0.35, ypos = 1.0)
     show okita 75 at Position(xpos = 0.65, ypos = 1.0)
     with dissolve
@@ -1528,7 +1528,7 @@ label okitas_office_hscene_aftermath:
 
 label okita_pre_hscene_repeatable:
     $ persistent.cookie_jar["Okita"]["gallery"]["05_unlocked"] = True
-    scene expression game.timer.image("backgrounds/location_school_office4_closeup{}.jpg")
+    scene expression game.timer.image("backgrounds/location_school_office4{}_closeup.jpg")
     show player 2 at Position(xpos=0.35, ypos=1.0)
     show okita 6 at Position(xpos=0.65, ypos=1.0)
     player_name "Привет, {b}Мисс Окита{/b}!"
