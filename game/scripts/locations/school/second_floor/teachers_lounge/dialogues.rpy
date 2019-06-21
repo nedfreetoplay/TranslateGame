@@ -1,34 +1,34 @@
 label teachers_lounge_first_visit:
     scene expression game.timer.image("backgrounds/location_school_lounge{}_blur.jpg") with fade
     show player 14 with dissolve
-    player_name "This must be the teachers lounge."
-    player_name "Their private little getaway from my classmates."
+    player_name "Это должна быть учительская."
+    player_name "Это маленькое места отдыха от моих одноклассников."
     hide player with dissolve
     return
 
 label teachers_lounge_okita_dose_smith:
     scene location_school_lounge_day_blur
     show player 11
-    player_name "( There she is! Drinking coffee just like I thought. )"
-    player_name "( I just need to dose the coffee pot! )"
+    player_name "( Вот и она! Пьет кофе как я и думал. )"
+    player_name "( Мне просто нужно добавить в колбу с кофе! )"
     return
 
 label coffee_pot_dialogue_wrong_time:
     scene location_school_lounge_day_blur
     show player 11
-    player_name "( I can't do it while she's sitting there... )"
+    player_name "( Я не могу этого сделать пока она сидит там... )"
     return
 
 label coffee_pot_dialogue_right_time:
     scene expression "backgrounds/location_school_lounge_cutscene01.jpg"
     with fade
-    show text "This seemed like the best course of action." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Это похоже на наилучший план действий." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "I knew {b}Principal Smith{/b} drank coffee from this pot every afternoon." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Я знал что {b}Директриса Смит{/b} пила кофе с этого горшка каждое утро." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "And since it was synthesized using her DNA, it shouldn't affect anybody else." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "И так как это было синтезировано с помощью её ДНК, это не должно повлиять на кого то еще." at Position (xpos= 512, ypos= 700) with dissolve
     pause
-    show text "At least, that's what I hoped." at Position (xpos= 512, ypos= 700) with dissolve
+    show text "Во всяком случае, вот на что я надеялся." at Position (xpos= 512, ypos= 700) with dissolve
     pause
     hide text
     with dissolve
@@ -50,30 +50,30 @@ label smith_lounge_dialogue:
     show player 22 at left
     show principal 33 at right
     with dissolve
-    player_name "( Oh crap! Principal Smith is in here! )"
+    player_name "( Вот дерьмо! Директриса Смит уже здесь! )"
     show player 11
     show principal 31 with dissolve
     player_name "( ... )"
     show principal 32
     smi "{b}[firstname]{/b}?"
-    smi "What in the world are you doing in the teacher's lounge?!"
+    smi "С какой это радости ты находишся в учительской?!"
     show player 10
     show principal 31
-    player_name "I was just-"
+    player_name "Я просто-"
     show player 11
     show principal 32
-    smi "Students are not allowed to be in here!"
-    smi "Get back to your class immediately or I'll have you expelled!"
+    smi "Ученикам не разрешено быть зесь!"
+    smi "Возвращайся в свой класс немедленно или я тебя исключу!"
     show player 10
     show principal 31
-    player_name "Y-yes, Ma'am!"
+    player_name "Д-да, мэм!"
     $ player.go_to(L_school_floor2)
     $ game.main()
 
 label microwave_dialogue:
     scene expression game.timer.image("backgrounds/location_school_lounge_microwave{}.jpg")
-    player_name "An apple?!" with hpunch
-    player_name "Why would anyone cook apples in microwaves..."
+    player_name "Яблоко?!" with hpunch
+    player_name "Зачем кому-то готовить яблоко в микроволновке..."
     $ A_apple.unlock()
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
