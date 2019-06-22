@@ -2700,37 +2700,37 @@ label jenny_dialogue_make_a_deal:
 
 label jenny_dialogue_roxxy_pre:
     show player f_worried_talk
-    player_name "So about {b}Roxxy's{/b} routine..."
+    player_name "Итак, о занятии с {b}Рокси{/b}..."
     show player f_worried
     show jenny f_upset_talk
-    jen "Did you bring the money?"
+    jen "Ты принес деньги?"
     show jenny f_upset
     return
 
 label jenny_dialogue_roxxy_pay:
     show player f_skeptical_talk
-    player_name "Here."
+    player_name "Вот."
     show player 41 at Position (xoffset=-130) with dissolve
     pause
     if M_jenny.pregnancy.stage > 1:
         show jenny f_grin_talk
     else:
         show jenny f_grin_talk a_money with dissolve
-    jen "Perfect."
-    jen "Tell Whatshername, she can come see me after school tomorrow."
+    jen "Прекрасно."
+    jen "Скажи как ее там зовут, она может прийти ко мне завтра после школы."
     show jenny f_grin
     show player f_skeptical_talk with dissolve
-    player_name "Her name is {b}Roxxy{/b}."
+    player_name "Ее зовут {b}Рокси{/b}."
     show player f_worried
     show jenny f_gross_talk
-    jen "Whatever."
+    jen "Не важно."
     return
 
 label jenny_dialogue_roxxy_do_not_pay:
     show player f_worried_talk
-    player_name "I don't have it yet."
+    player_name "У меня пока еще нет."
     show player f_worried
     show jenny f_upset_talk
-    jen "Well then beat it, I'm busy."
+    jen "Тогда проваливай, я занята."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
