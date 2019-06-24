@@ -355,5 +355,5 @@ label consumr_diane_buy_bug_spray_owned:
     show player 17 with dissolve
     player_name "Oh, I already had this one!"
     player_name "Better get this back to {b}Diane's{/b} house and eradicate those bugs!"
-    jump consumr_diane_buy_bug_spray_brought.tail	
+    jump consumr_diane_buy_bug_spray_brought.tail
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
