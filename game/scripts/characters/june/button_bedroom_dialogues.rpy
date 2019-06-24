@@ -374,8 +374,8 @@ label june_bedroom_dialogue_cosplay_sex_loop:
             while poses_done != pose_list:
                 show expression "junesex {}".format(pose_list[pose_counter]) as junesex
                 pause
-                 $ poses_done.append(pose_list[pose_counter])
-                  $ pose_counter += 1
+                $ poses_done.append(pose_list[pose_counter])
+                $ pose_counter += 1
         $ animcounter += 1
     call screen june_mcbedroom_cosplay_sex_options
 
