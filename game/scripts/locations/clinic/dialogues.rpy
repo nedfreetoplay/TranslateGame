@@ -301,7 +301,7 @@ label hospital_diane_seen_in_labor:
         show diane f_gurney_down_front
         show player 10 with dissolve
         player_name "{b}М-моим сыном{/b}?"
-	elif M_diane.pregnancy.baby_gender == "twins":
+    elif M_diane.pregnancy.baby_gender == "twins":
         dia "I want you to meet {b}your children{/b}."
         show diane f_gurney_down_front
         show player 10 with dissolve
