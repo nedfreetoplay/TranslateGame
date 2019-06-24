@@ -846,7 +846,7 @@ label annies_house_livingroom_diane_delivery_2:
     show annie 5
     ann "Едва..."
     show annie 6
-     if not L_annie_front.first_visit:
+    if not L_annie_front.first_visit:
         show lucy f_normal_talk
         lucy "He's brought us more of that wonderful milk the children like so much."
         show lucy f_normal
