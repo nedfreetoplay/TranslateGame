@@ -295,7 +295,7 @@ label hospital_laboratory_take_pills_dialogue:
     player_name "( {b}Также предупреждающий ярлык, \"Не использует это лекарство если у вашего партнера в настоящее время менструация или менопауза.\"{/b} )"
     hide player with dissolve
     $ player.get_item("fertility_pills")
-	$ player.get_item("birth_control_pills")
+    $ player.get_item("birth_control_pills")
     $ M_priya.trigger(T_priya_start_testing)
     $ player.go_to(L_hospital_floor3)
     $ game.main()
