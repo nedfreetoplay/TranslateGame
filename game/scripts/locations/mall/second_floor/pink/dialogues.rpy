@@ -1373,5 +1373,5 @@ label pink_just_browsing:
     show player 4
     player_name "( Hmm, I don't have any reason to buy this at the moment... )"
     hide player with dissolve
-    $ game.main()	
+    $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

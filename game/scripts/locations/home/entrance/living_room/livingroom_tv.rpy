@@ -32,8 +32,8 @@ label home_livingroom_tv_locked:
     show popup_tv_locked at truecenter with dissolve
     pause
     hide popup_tv_locked with dissolve
-	$ game.main()
-	
+    $ game.main()
+    
 label home_livingroom_tv_masturbated_tv_sis:
     scene home_livingroom_night_b with None
     show player 11
@@ -53,7 +53,7 @@ label home_livingroom_tv_masturbated_tv:
     hide player with dissolve
     hide home_livingroom_night_b
     return
-	
+    
 label tv_channel_responses:
     scene home_livingroom_tv
     $ pink_user = ""
@@ -131,7 +131,7 @@ label tv_channel_pink_intro:
     show player f_couch_sit_watching_jerking
     player_name "( I'm getting close! )"
     pause
-	return
+    return
 
 label tv_channel_sis_couch03_started:
     scene home_livingroom_couch01 with None
@@ -154,8 +154,8 @@ label tv_channel_sis_couch03_started:
     player_name "Woah!"
     player_name "( I've never seen someone use their feet like {b}that{/b}. )"
     player_name "( Actually, that's kind of hot. )"
-	return	
-	
+    return
+    
 label tv_channel_channel_01_first_view:
     show home_tv_channel_01 at Position(xpos=522, ypos=521)
     player_name "Хмм... Глянем, что там по телеку."
@@ -191,7 +191,7 @@ label tv_channel_channel_07_first_view:
     show home_tv_channel_07 at Position(xpos=522, ypos=521)
     player_name "( Этот канал не работает. )"
     return
-	
+    
 label tv_channel_channel_08_mom_interrupts:
     scene home_livingroom_couch02
     show player b_couch_sit_watching f_couch_sit_watching_jerking a_couch_boner_jerk
@@ -408,8 +408,8 @@ label tv_channel_channel_08_jenny_interrupts:
     show jenny f_couch_sit_sexy_down
     $ M_player.set("masturbated tv", True)
     jump jenny_couch_fj_loop
-	return	
-	
+    return
+    
 label sis_pink_pass:
     scene home_livingroom_tv
     show home_tv_channel_08 at Position(xpos=522, ypos=521) with dissolve

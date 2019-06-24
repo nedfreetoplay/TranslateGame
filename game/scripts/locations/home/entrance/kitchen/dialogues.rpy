@@ -1361,7 +1361,7 @@ label kitchen_diane_dinner:
         jen "( ... )"
     else:
         show jenny b_dinner_casual f_breakfast_surprised a_breakfast_dressed_spoon at Position (xpos=300)
-		with dissolve
+        with dissolve
         jen "( Какого хрена... )"
     show debbie 65
     show diane f_dinner_normal
@@ -1381,7 +1381,7 @@ label kitchen_diane_dinner:
     show debbie 64c
     show diane f_dinner_normal_talk a_dinner_touch1
     show player f_magic_sit_stand_normal
-	with dissolve
+    with dissolve
     dia "Нет, если я могу помочь!"
     show jenny f_breakfast_surprised
     dia "{b}[firstname]{/b} на днях мне пришла в голову хорошая идея..."

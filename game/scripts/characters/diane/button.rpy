@@ -384,7 +384,7 @@ label diane_hospital_bed_dialogue:
                 show diane f_gurney_down_front
                 show player 429
                 player_name "They're so cute!"
-	    else:
+            else:
                 player_name "Как у неё дела?"
                 show player 426
                 show diane f_gurney_teasing_look

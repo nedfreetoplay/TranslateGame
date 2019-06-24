@@ -149,7 +149,7 @@ label cafeteria_erik_favor_known:
             $ erik_favor_2.finish()
             $ M_kevin.set_default_locations([[L_gym, L_school_cafeteria, L_gym, L_NULL],
                                             [L_gym, L_gym, L_gym, L_NULL]])
-	    $ M_kevin.outfit.set_default_outfit_schedule([["gym", "apron", "apron", "apron"]])
+            $ M_kevin.outfit.set_default_outfit_schedule([["gym", "apron", "apron", "apron"]])
         "Пока нет.":
 
             call expression game.dialog_select("cafeteria_erik_favor_known_not_yet")

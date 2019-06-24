@@ -349,7 +349,7 @@ label consumr_diane_buy_bug_spray_brought:
     hide player with dissolve
     $ M_diane.trigger(T_diane_find_correct_bug_spray)
     $ game.main()
-	
+    
 label consumr_diane_buy_bug_spray_owned:
     scene expression "backgrounds/location_mall_consumr_closeup.jpg"
     show player 17 with dissolve

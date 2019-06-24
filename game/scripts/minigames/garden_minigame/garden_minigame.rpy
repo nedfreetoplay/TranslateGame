@@ -337,7 +337,7 @@ label garden_firsttime_fail:
     show player 10
     player_name "В следующий раз будет лучше..."
     show player 14
-	player_name "Спасибо {b}Диана{/b}!"
+    player_name "Спасибо {b}Диана{/b}!"
     hide player
     hide diane
     with dissolve

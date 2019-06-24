@@ -983,7 +983,7 @@ label dianes_dialogue_intro_d20_couch:
 label dianes_dialogue_ready_to_pump:
     show player 14 at left
     
-	
+    
     show diane f_normal b_naked a_naked_sides
     with dissolve
     player_name "Ты готова к откачке?"
