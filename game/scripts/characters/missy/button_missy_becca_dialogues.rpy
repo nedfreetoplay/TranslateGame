@@ -274,7 +274,7 @@ label button_missy_becca_intro_0_1:
     show becca 2b at Position (xpos=315)
     show missy 1 at left
     with dissolve
-     becca "Фу, он пытается поговорить с нами!"
+    becca "Фу, он пытается поговорить с нами!"
     show becca 1 with dissolve
     show missy 2
     missy "Да?"
