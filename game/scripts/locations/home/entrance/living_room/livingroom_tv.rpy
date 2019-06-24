@@ -25,7 +25,7 @@ label home_livingroom_tv:
             call expression game.dialog_select("home_livingroom_tv_masturbated_tv")
         jump expression game.dialog_select("home_livingroom_dialogue")
     $ tv_channel = 0
-	jump expression game.dialog_select("tv_channel_responses")
+    jump expression game.dialog_select("tv_channel_responses")
 
 label home_livingroom_tv_locked:
     scene expression game.timer.image("home_livingroom{}_b") with None
