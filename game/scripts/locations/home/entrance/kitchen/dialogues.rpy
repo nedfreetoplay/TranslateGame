@@ -1354,7 +1354,7 @@ label kitchen_diane_dinner:
     show player b_dinner_sitting a_dinner_sitting_touch2 f_diningroom_table_surprised_teeth_left od_dinner_sitting_boner zorder 0 at Position(align=(0,0))
     show diane b_dinner_open a_dinner_hand3 f_dinner_annoyed_left
     show debbie 64 at Position(xpos=880)
-	show table 1 zorder 2 at Position(xpos=0.4976,ypos=0.7630)
+    show table 1 zorder 2 at Position(xpos=0.4976,ypos=0.7630)
     if M_jenny.finished_state(S_jenny_catch_her_jilling) or store._in_replay is not None:
         show jenny f_breakfast_gross b_dinner_casual a_breakfast_dressed_spoon at Position (xpos=300)
         with dissolve
