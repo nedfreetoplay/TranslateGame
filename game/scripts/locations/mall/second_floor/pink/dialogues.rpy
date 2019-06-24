@@ -1367,11 +1367,11 @@ label ivy_no_money:
     player_name "( Черт, я не могу себе этого позволить. )"
     player_name "С другой стороны, может быть, в другой раз."
     $ game.main()
-	
+
 label pink_just_browsing:
     scene expression player.location.background_blur with None
     show player 4
     player_name "( Hmm, I don't have any reason to buy this at the moment... )"
     hide player with dissolve
-	$ game.main()	
+    $ game.main()	
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
