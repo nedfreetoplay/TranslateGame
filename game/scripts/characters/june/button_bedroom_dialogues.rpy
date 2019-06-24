@@ -364,7 +364,7 @@ label june_bedroom_dialogue_cosplay_sex_loop:
         if anim_toggle:
            if not animated:
             show expression AnimatedImage("junesex", ["4b","5b","6b","7b","8b"], M_june) as junesex
-             $ animated = True
+            $ animated = True
             pause 8
         else:
 
