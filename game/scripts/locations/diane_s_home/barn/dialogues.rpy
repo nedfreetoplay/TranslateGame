@@ -103,10 +103,10 @@ label barn_daisy_pregnancy_seen_in_labor:
         show player 10 with dissolve
         player_name "{b}М-моим сыном{/b}?"
     elif M_daisy.pregnancy.baby_gender == "twins":
-        dia "You have to meet {b}your children{/b}."
+        dia "Ты должен познакомиться {b}со своими детьми{/b}."
         show diane f_smirk_fardown
         show player 10 with dissolve
-        player_name "{b}C-children{/b}?"
+        player_name "{b}Д-детьми{/b}?"
     else:
         dia "Ты должен познакомиться {b}со своей новой дочерью{/b}."
         show diane f_smirk_fardown
@@ -123,7 +123,7 @@ label barn_daisy_pregnancy_seen_in_labor:
     if M_daisy.pregnancy.baby_gender == "boy":
         player_name "... Он такой милый!"
     elif M_daisy.pregnancy.baby_gender == "twins":
-        player_name "... They're so cute!"
+        player_name "... Они такие милые!"
     else:
         player_name "... Она такая милая!"
     show player 426
@@ -132,7 +132,7 @@ label barn_daisy_pregnancy_seen_in_labor:
     if M_daisy.pregnancy.baby_gender == "boy":
         dia "Прямо как его папочка."
     elif M_daisy.pregnancy.baby_gender == "twins":
-        dia "Just like their daddy."
+        dia "Прямо как их папочка."
     else:
         dia "Прямо как ее мамочка."
     show diane f_cheese
@@ -147,7 +147,7 @@ label barn_daisy_pregnancy_seen_in_labor:
     if M_daisy.pregnancy.baby_gender == "boy":
         dia "Она не спала всю ночь, выталкивая этого маленького парня."
     elif M_daisy.pregnancy.baby_gender == "twins":
-        dia "She was up all night pushing these little ones out."
+        dia "Она не спала всю ночь, выталкивая этих малышей."
     else:
         dia "Она не спала всю ночь, выталкивая эту девчонку."
     dia "Это отняло у нее много сил."
@@ -165,9 +165,9 @@ label barn_daisy_pregnancy_seen_in_labor:
     daisy "Да!"
     show daisy f_laugh
     if M_daisy.pregnancy.baby_gender == "twins":
-        daisy "We have babies, {b}[firstname]{/b}!"
+        daisy "У нас есть дети, {b}[firstname]{/b}!"
     else:
-        daisy "We have a baby, {b}[firstname]{/b}!"
+        daisy "У нас есть ребенок, {b}[firstname]{/b}!"
     show daisy f_normal
     show player 14b
     player_name "Д-да, я знаю."
@@ -1489,7 +1489,7 @@ label barn_daisy_awakened_statue:
     show diane f_shamed
     show player 10
     player_name "Ухх, да. Хорошо."
-    player_name "If you're sure you'll be alright?"
+    player_name "Ты уверена, что с тобой все будет в порядке?"
     show player 5
     show diane f_shamed_talk_smile
     dia "Со мной все будет в порядке."
