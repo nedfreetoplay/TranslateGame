@@ -8,36 +8,36 @@ label mayor_rumps_house_locked:
     with dissolve
     guard "..."
     show player f_worried_talk
-    player_name "Umm, hi?"
+    player_name "Эээ, здрасьте?"
     show player f_worried
     show rump_guard 2
-    guard "What do you want, kid?"
+    guard "Что тебе нужно, пацан?"
     show rump_guard 1
     show player f_worried_talk
-    player_name "This is {b}Mayor Rump's{/b} house, right?"
+    player_name "Это дом {b}Мэра Рампа{/b}, верно?"
     show player f_worried
     show rump_guard 2
-    guard "That's correct."
-    guard "Do you have an appointment?"
+    guard "Так точно."
+    guard "У тебя назначена встреча?"
     show rump_guard 1
     show player f_worried_talk
-    player_name "N-no..."
+    player_name "Нет..."
     show player f_worried
     show rump_guard 2
-    guard "Then move it along, please. This is no place for loitering."
+    guard "Тогда двигай дальше, пожалуйста. Здесь не место для гуляния."
     show rump_guard 1
     show player f_worried_talk
-    player_name "Can't I just-"
+    player_name "Я только-"
     show player f_worried
     show rump_guard 2
-    guard "Move along!"
+    guard "Двигай отсюда!"
     show rump_guard 1
     show player f_surprised_teeth
     player_name "!!!"
     hide rump_guard
     show player 4 at center
     with dissolve
-    player_name "( How in the heck am I supposed to {b}get an appointment{/b} with the {b}Mayor{/b}? )"
+    player_name "( Как, черт возьми, мне добится {b}встречи{/b} с {b}мэром{/b}? )"
     show popup_unfinished at truecenter
     pause
     $ player.go_to(L_map)
