@@ -108,20 +108,20 @@ label dianes_dialogue_hows_baby_doing_boy:
 label dianes_dialogue_hows_baby_doing_twins:
     show player 14 at left
     show diane b_casual a_casual_baby
-    player_name "How are they doing?"
+    player_name "Как у них дела?"
     show player 13
     show diane f_normal_talk
-    dia "Oh, they're just wonderful!"
-    dia "I never want to put them down."
+    dia "О, они просто замечательные!"
+    dia "Я никогда не хочу их отпускать."
     show diane f_normal
     show player 14
-    player_name "Well, you'll have to put them down eventually..."
+    player_name "В конце концов, тебе придется их отпустить..."
     show player 13
     show diane f_laugh
-    dia "Nah uh!"
+    dia "Не-а!"
     show diane f_cheese
     show player 17
-    player_name "Hehehe."
+    player_name "Хехехе."
     show player 13
     return
 
@@ -180,9 +180,9 @@ label dianes_dialogue_baby_leave:
     player_name "Хехе."
     show player 36 with dissolve
     if M_diane.pregnancy.baby_gender == "twins":
-        player_name "Goodbye, little ones."
+        player_name "До свидания, малыши."
     else:
-        player_name "Goodbye, little one."
+        player_name "До свидания, малыш."
     hide player
     hide diane
     with dissolve
@@ -198,7 +198,7 @@ label dianes_dialogue_gave_birth_intro:
     if M_diane.pregnancy.baby_gender == "boy":
         dia "Шшш, он спит."
     elif M_diane.pregnancy.baby_gender == "twins":
-        dia "Shh, they're sleeping."
+        dia "Шшш, они спят."
     else:
         dia "Шшш, она спит."
     show diane f_normal
