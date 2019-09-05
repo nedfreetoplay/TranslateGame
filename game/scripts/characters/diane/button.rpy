@@ -377,13 +377,13 @@ label diane_hospital_bed_dialogue:
                 show player 429
                 player_name "Он такой милый!"
             elif M_diane.pregnancy.baby_gender == "twins":
-                player_name "How are they doing?"
+                player_name "Как у них дела?"
                 show player 426
                 show diane f_gurney_teasing_look
-                dia "They're sleeping."
+                dia "Они спят."
                 show diane f_gurney_down_front
                 show player 429
-                player_name "They're so cute!"
+                player_name "Они такие милые!"
             else:
                 player_name "Как у неё дела?"
                 show player 426
@@ -407,9 +407,9 @@ label diane_hospital_bed_dialogue:
             player_name "Хорошо."
             show player 429
             if M_diane.pregnancy.baby_gender == "twins":
-                player_name "I'll see you soon, little ones."
+                player_name "Скоро увидимся, малыши."
             else:
-                player_name "I'll see you soon, little one."
+                player_name "Скоро увидимся, малыш."
             hide player with dissolve
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
