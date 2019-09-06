@@ -91,7 +91,7 @@ label principals_office_no_entry:
     player_name "Что ж..."
     show player 22 at left
     show principal 2 at right
-    smi "А сейчас убирайся из моего {b}КАБИНЕТ{/b}!!!"
+    smi "А сейчас убирайся из моего {b}КАБИНЕТА{/b}!!!"
     hide player 22 at left with dissolve
     hide principal 2 at right with dissolve
     return
@@ -329,13 +329,13 @@ label principals_office_annie_trouble:
     show player 68 at left
     smi "Хорошо молодй человек: Уговор такой..."
     smi "Я не буду тебя арестововать, пока ты держишь эту... \"проблему\" в твоих... при себе."
-    smi "Мой приоритет порядок и дисциплина в этой школе, и я собирюсь сохранить её такой!"
+    smi "Мой приоритет - порядок и дисциплина в этой школе, и я собирюсь сохранить её такой!"
     show principal 1 at right
     show player 69 at left
     player_name "Да, {b}Директриса Смит{/b}!"
     show principal 2 at right
     show player 68 at left
-    smi "Сейчас, убирайся с моего {b}КАБИНЕТА{/b}!!"
+    smi "Сейчас, убирайся из моего {b}КАБИНЕТА{/b}!!"
     hide player 68 at left with dissolve
     hide principal 2 at right with dissolve
     $ renpy.end_replay()
@@ -628,29 +628,29 @@ label principle_drawer_diane_delivery_3_fetch_invoice:
     show titty 1 at left
     show principal 28f at Position (xpos = 470)
     with dissolve
-    smi "Ah, wonderful."
-    smi "Are those the new {b}milk cartons{/b}?"
+    smi "Ах, замечательно."
+    smi "И в новых {b}молочных коробках{/b}?"
     show player 168f
     show principal 26f at Position (xpos = 415)
-    player_name "Umm... Yeah."
+    player_name "Эээ... Да."
     show principal 27f
     show player 163f
-    smi "I sampled the last batch..."
-    smi "It was quite... delightful. You're lucky I'm in a good mood."
-    smi "Please, tell the milk provider I'm doubling our next order."
-    smi "We keep running out. The students absolutely love it!"
+    smi "Я попробовала последнюю партию..."
+    smi "Она была довольно... восхитительной. Тебе повезло, что я в хорошем настроении."
+    smi "Пожалуйста, скажите поставщику молока, что я удваиваю наш следующий заказ."
+    smi "Нам все время не хватает. Студенты очень любят его!"
     show principal 26f
     show player 164f
-    player_name "Will do! Where can I put these cartons?"
+    player_name "Хорошо! Куда я могу положить эти коробки?"
     show principal 27f
     show player 163f
-    smi "You can give them to {b}Annie{/b}, she'll take care of them."
+    smi "Ты можешь отдать их {b}Энни{/b}, она позаботится о них."
     show principal 4f at Position (xpos = 470)
     show player 167f
-    smi "Now, get out of my office, I have some unfinished business to attend to."
+    smi "А теперь убирайся из моего кабинета, у меня есть кое-какие незаконченные дела."
     show principal 26f at Position (xpos = 415)
     show player 168f
-    player_name "Yes, {b}Principal Smith{/b}!"
+    player_name "Да, {b}Директриса Смит{/b}!"
     hide principal
     hide titty
     hide player
